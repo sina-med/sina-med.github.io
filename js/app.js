@@ -1114,18 +1114,20 @@
   }
 
   function questionsPanel(p, lec) {
-    var all = lec.mcqs, qs = all, i = 0, score = 0, wrong = [], key = "sina:best:" + lec.id, LET = "abcdefgh";
+    var all = lec.mcqs, qs = all, i = 0, score = 0, wrong = [], done = [], key = "sina:best:" + lec.id, LET = "abcdefgh";
     function keyText(q) {
       var ans = q.answers || [q.answer];
       return ans.map(function (n) { return LET[n] + ". " + q.options[n]; }).join(" and ");
     }
-    function feedback(q, ok) {
-      var head = ok ? "Correct." : "Not quite.";
+    function feedback(q, ok, skipped) {
+      var head = skipped ? "Skipped." : ok ? "Correct." : "Not quite.";
       var body = q.why ? " " + esc(q.why) : "";
-      return '<div class="why"><strong>' + head + "</strong> Correct answer: " + esc(keyText(q)) + "." + body + "</div>" + slidesHTML(q) + '<button class="btn primary" id="nx">' + (i + 1 < qs.length ? "Next question" : "See score") + "</button>";
+      return '<div class="why"><strong>' + head + "</strong> Correct answer: " + esc(keyText(q)) + "." + body + "</div>" + slidesHTML(q);
     }
     function render() {
       if (i >= qs.length) {
+        score = 0; wrong = [];
+        qs.forEach(function (q, n) { var d = done[n] || { chosen: [], ok: false }; if (d.ok) score++; else wrong.push({ q: q, n: n + 1, chosen: d.chosen }); });
         var full = qs === all, best = store.get(key, 0);
         if (full && score > best) { best = score; store.set(key, best); }
         var missed = wrong.slice();
@@ -1133,9 +1135,9 @@
           (full ? "<p>Best score on this device: " + best + " / " + all.length + ".</p>" : "<p>Retry of the questions you missed.</p>") +
           '<div class="row">' + (missed.length ? '<button class="btn primary" id="rev">Show only my wrong answers (' + missed.length + ')</button><button class="btn" id="retry">Retry only these</button>' : '<p class="src">No wrong answers. Well done.</p>') +
           '<button class="btn" id="again">' + (full ? "Try again" : "Back to the full quiz") + '</button></div><div id="review"></div>';
-        p.querySelector("#again").onclick = function () { qs = all; i = 0; score = 0; wrong = []; render(); };
+        p.querySelector("#again").onclick = function () { qs = all; i = 0; score = 0; wrong = []; done = []; render(); };
         if (missed.length) {
-          p.querySelector("#retry").onclick = function () { qs = missed.map(function (w) { return w.q; }); i = 0; score = 0; wrong = []; render(); };
+          p.querySelector("#retry").onclick = function () { qs = missed.map(function (w) { return w.q; }); i = 0; score = 0; wrong = []; done = []; render(); };
           p.querySelector("#rev").onclick = function () {
             var box = p.querySelector("#review");
             if (box.innerHTML) { box.innerHTML = ""; this.textContent = "Show only my wrong answers (" + missed.length + ")"; return; }
@@ -1161,22 +1163,23 @@
         ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "q" + i }) + "</div>"
         : "";
       p.innerHTML = '<p class="qhead">Question ' + (i + 1) + " of " + qs.length + (multi ? ", " + esc(q.hint || "choose all correct answers") : "") + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + '</p><div class="bar-track"><div class="bar-fill" style="width:' + (i / qs.length * 100) + '%"></div></div><p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
-        q.options.map(function (o, n) { return '<button class="opt" data-n="' + n + '" aria-pressed="false"><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span></button>"; }).join("") + (multi ? '<button class="btn primary" id="chk" type="button">Check my answer</button>' : "") + '<div id="fb"></div>';
+        q.options.map(function (o, n) { return '<button class="opt" data-n="' + n + '" aria-pressed="false"><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span></button>"; }).join("") + (multi ? '<button class="btn primary" id="chk" type="button">Check my answer</button>' : "") + '<div id="fb"></div>' +
+        '<div class="qnav"><button class="btn" id="prev" type="button"' + (i ? "" : " disabled") + '>&larr; Previous</button><button class="btn" id="fwd" type="button">' + (i + 1 < qs.length ? "Next" : "Finish") + ' &rarr;</button></div>';
       centerTarget(p);
       var opts = p.querySelectorAll(".opt");
-      function finish(chosen) {
+      function finish(chosen, skipped) {
         var ans = q.answers || [q.answer];
         var ok = chosen.length === ans.length && chosen.every(function (n) { return ans.indexOf(n) > -1; });
-        if (ok) score++; else wrong.push({ q: q, n: i + 1, chosen: chosen });
+        if (!done[i]) done[i] = { chosen: chosen, ok: ok, skipped: !!skipped };
         opts.forEach(function (x) {
           var n = +x.dataset.n; x.disabled = true; x.classList.remove("picked");
           if (ans.indexOf(n) > -1) x.classList.add("correct"); else if (chosen.indexOf(n) > -1) x.classList.add("wrong");
           if (q.notes && q.notes[n]) x.insertAdjacentHTML("beforeend", '<span class="onote">' + (ans.indexOf(n) > -1 ? "Correct. " : "Wrong. ") + esc(q.notes[n]) + "</span>");
         });
         var c = p.querySelector("#chk"); if (c) c.remove();
-        document.getElementById("fb").innerHTML = feedback(q, ok);
-        document.getElementById("nx").onclick = function () { i++; render(); };
-        document.getElementById("nx").focus();
+        document.getElementById("fb").innerHTML = feedback(q, ok, skipped);
+        var fw = p.querySelector("#fwd"); fw.classList.add("primary"); fw.innerHTML = (i + 1 < qs.length ? "Next question" : "See score") + " &rarr;";
+        if (!skipped) fw.focus({ preventScroll: true });
       }
       if (multi) {
         opts.forEach(function (b) { b.addEventListener("click", function () { var on = b.getAttribute("aria-pressed") !== "true"; b.setAttribute("aria-pressed", String(on)); b.classList.toggle("picked", on); }); });
@@ -1187,6 +1190,16 @@
       } else {
         opts.forEach(function (b) { b.addEventListener("click", function () { finish([+b.dataset.n]); }); });
       }
+      p.querySelector("#prev").onclick = function () { if (i > 0) { i--; render(); window.scrollTo(0, p.getBoundingClientRect().top + window.scrollY - 120); } };
+      p.querySelector("#fwd").onclick = function () {
+        if (done[i]) { i++; render(); return; }
+        /* moving on without answering: show the answer first (counts as wrong) */
+        var picked = []; opts.forEach(function (b) { if (b.getAttribute("aria-pressed") === "true") picked.push(+b.dataset.n); });
+        finish(picked, !picked.length);
+        document.getElementById("fb").scrollIntoView({ behavior: "smooth", block: "nearest" });
+      };
+      /* coming back to an answered question: show it as answered */
+      if (done[i]) finish(done[i].chosen, done[i].skipped);
     }
     render();
   }

@@ -10,7 +10,8 @@ SINA.updates = [
     "Fixed: flowchart picture questions now show the diagram labels, with the missing box marked \"?\".",
     "Fixed: questions that relied on a previous question now stand alone.",
     "Changed: rounded lecture picker; midterm countdown on the home page.",
-    "Added real anatomy pictures (OpenStax) to anatomy picture questions, flashcards and Visual tabs, replacing the drawn shapes."
+    "Added real anatomy pictures (OpenStax) to anatomy picture questions, flashcards and Visual tabs, replacing the drawn shapes.",
+    "Added Previous/Next navigation in quizzes; skipping a question reveals its answer."
   ]},
   { date: "30 October 2026", items: [
     "Upcoming midterm: Clinical Biochemistry (pre-analytical phase, thyroid, adrenal medulla, insulin, steroids).",
