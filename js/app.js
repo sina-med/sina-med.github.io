@@ -544,6 +544,7 @@
   /* ---------- views ---------- */
   function setView(html, title) {
     app.innerHTML = html;
+    app.classList.remove("page-in"); void app.offsetWidth; app.classList.add("page-in");
     document.title = (title ? title + " | " : "") + "Sina";
     window.scrollTo(0, 0);
     var h = app.querySelector("h1"); if (h) { h.setAttribute("tabindex", "-1"); h.focus({ preventScroll: true }); }
@@ -622,6 +623,9 @@
       "</div>";
     setView(html, "");
     startCaduceus(document.getElementById("cad")); animateRings(); flipCountdowns();
+    revealOnScroll(app.querySelectorAll(".subject-list > li, .sem-title"));
+    var art = app.querySelector(".hero-art"), cvh = document.getElementById("cad");
+    if (art && cvh) { var excite = function () { art.classList.add("excited"); cvh.dataset.fast = "1"; clearTimeout(art._t); art._t = setTimeout(function () { art.classList.remove("excited"); delete cvh.dataset.fast; }, 2500); }; art.addEventListener("mouseenter", excite); art.addEventListener("click", excite); }
     var hi = document.getElementById("home-search"), hr = document.getElementById("home-results");
     function hs() {
       var q = hi.value.trim();
@@ -1095,7 +1099,7 @@
   function slideHL(q, s) { var m = q && S.hl && S.hl[q._k || qKey(q)]; return (m && m[s.src]) || []; }
   function slideImg(s, unit, q) {
     var hl = slideHL(q, s);
-    return '<span class="slide-img"><img loading="lazy" src="' + esc(s.src) + '" alt="' + esc(s.lec) + ", " + (unit || "slide") + " " + s.n + '">' +
+    return '<span class="slide-img">' + snakeLoader() + '<img loading="lazy" src="' + esc(s.src) + '" alt="' + esc(s.lec) + ", " + (unit || "slide") + " " + s.n + '">' +
       hl.map(function (r) { return '<i class="hl" style="left:' + r[0] + "%;top:" + r[1] + "%;width:" + r[2] + "%;height:" + r[3] + '%"></i>'; }).join("") + "</span>";
   }
   /* full-size slide viewer with a close button (phones get stuck on a bare image tab) */
@@ -1135,7 +1139,7 @@
   }
 
   function questionsPanel(p, lec) {
-    var all = lec.mcqs, qs = all, fullRun = true, i = 0, score = 0, wrong = [], done = [], key = "sina:best:" + lec.id, LET = "abcdefgh";
+    var all = lec.mcqs, qs = all, fullRun = true, i = 0, score = 0, wrong = [], done = [], key = "sina:best:" + lec.id, LET = "abcdefgh", streak = 0;
     function keyText(q) {
       var ans = q.answers || [q.answer];
       return ans.map(function (n) { return LET[n] + ". " + q.options[n]; }).join(" and ");
@@ -1152,10 +1156,11 @@
         var full = fullRun, best = store.get(key, 0);
         if (full && score > best) { best = score; store.set(key, best); }
         var missed = wrong.slice();
-        p.innerHTML = '<div class="score">' + score + " / " + qs.length + "</div>" +
+        p.innerHTML = scoreRevealHTML(score, qs.length) +
           (full ? "<p>Best score on this device: " + best + " / " + all.length + ".</p>" : "<p>Retry of the questions you missed.</p>") +
           '<div class="row">' + (missed.length ? '<button class="btn primary" id="rev">Show only my wrong answers (' + missed.length + ')</button><button class="btn" id="retry">Retry only these</button>' : '<p class="src">No wrong answers. Well done.</p>') +
           '<button class="btn" id="again">' + (full ? "Try again" : "Back to the full quiz") + '</button></div><div id="review"></div>';
+        scoreReveal(p, score, qs.length); streak = 0;
         p.querySelector("#again").onclick = function () { qs = all.map(shuffleQ); fullRun = true; i = 0; score = 0; wrong = []; done = []; render(); };
         if (missed.length) {
           p.querySelector("#retry").onclick = function () { qs = missed.map(function (w) { return shuffleQ(w.q); }); fullRun = false; i = 0; score = 0; wrong = []; done = []; render(); };
@@ -1183,7 +1188,7 @@
       var pic = qph ? qph : (q.target && qfig)
         ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "q" + i }) + "</div>"
         : "";
-      p.innerHTML = '<p class="qhead">Question ' + (i + 1) + " of " + qs.length + (multi ? ", " + esc(q.hint || "choose all correct answers") : "") + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + '</p><div class="bar-track"><div class="bar-fill" style="width:' + (i / qs.length * 100) + '%"></div></div><p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
+      p.innerHTML = '<p class="qhead">Question ' + (i + 1) + " of " + qs.length + (multi ? ", " + esc(q.hint || "choose all correct answers") : "") + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + flameHTML(streak, false) + '</p><div class="bar-track"><div class="bar-fill" style="width:' + (i / qs.length * 100) + '%"></div></div><p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
         q.options.map(function (o, n) { return '<button class="opt" data-n="' + n + '" aria-pressed="false"><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span></button>"; }).join("") + (multi ? '<button class="btn primary" id="chk" type="button">Check my answer</button>' : "") + '<div id="fb"></div>' +
         '<div class="qnav"><button class="btn" id="prev" type="button"' + (i ? "" : " disabled") + '>&larr; Previous</button><button class="btn" id="fwd" type="button">' + (i + 1 < qs.length ? "Next" : "Finish") + ' &rarr;</button></div>';
       centerTarget(p);
@@ -1191,13 +1196,20 @@
       function finish(chosen, skipped) {
         var ans = q.answers || [q.answer];
         var ok = chosen.length === ans.length && chosen.every(function (n) { return ans.indexOf(n) > -1; });
-        if (!done[i]) { done[i] = { chosen: chosen, ok: ok, skipped: !!skipped }; trackAnswer(q, lec.id, ok); }
+        var fresh = !done[i];
+        if (fresh) {
+          done[i] = { chosen: chosen, ok: ok, skipped: !!skipped }; trackAnswer(q, lec.id, ok);
+          var was = streak; streak = ok ? streak + 1 : 0;
+          var fl = p.querySelector(".streak"); if (fl) fl.outerHTML = flameHTML(streak, streak === 5 || (was >= 5 && !ok), was);
+          else if (streak >= 5) p.querySelector(".qhead").insertAdjacentHTML("beforeend", flameHTML(streak, streak === 5));
+        }
         opts.forEach(function (x) {
           var n = +x.dataset.n; x.disabled = true; x.classList.remove("picked");
           if (ans.indexOf(n) > -1) x.classList.add("correct"); else if (chosen.indexOf(n) > -1) x.classList.add("wrong");
           if (q.notes && q.notes[n]) x.insertAdjacentHTML("beforeend", '<span class="onote">' + (ans.indexOf(n) > -1 ? "Correct. " : "Wrong. ") + esc(q.notes[n]) + "</span>");
         });
         var c = p.querySelector("#chk"); if (c) c.remove();
+        if (fresh && !skipped) answerFx(opts, ans, chosen, ok);
         document.getElementById("fb").innerHTML = feedback(q, ok, skipped);
         p.querySelector("#rep").onclick = function () { reportMistake(q, lec.id); };
         var fw = p.querySelector("#fwd"); fw.classList.add("primary"); fw.innerHTML = (i + 1 < qs.length ? "Next question" : "See score") + " &rarr;";
@@ -1244,16 +1256,45 @@
       var front = '<div class="kind">' + (c.type === "image" ? "Picture card" : "Text card") + '</div><div class="front">' + esc(c.type === "image" && lec.visual && lec.visual.figure ? figQText({ q: c.front, target: c.target }, lec.visual.figure) : c.front) + "</div>" + pic;
       var kinds = lec.cards.some(function (x) { return x.type === "image"; }) ? [["all", "All"], ["text", "Text"], ["image", "Pictures"]] : [];
       p.innerHTML = '<div class="deck-tools"><div class="chips" role="group" aria-label="Card type">' + kinds.map(function (f) { return '<button data-f="' + f[0] + '" aria-pressed="' + (f[0] === filter) + '">' + f[1] + "</button>"; }).join("") +
-        '</div><span class="progress-line">Card ' + (pos + 1) + " of " + L.length + ", " + nk + ' known</span></div><div class="fcard" aria-live="polite">' + front +
-        (shown ? '<div class="back"><p>' + esc(c.back) + "</p></div>" : "") + '</div><div class="row" style="margin-top:1rem">' +
-        (shown ? '<button class="btn primary" id="got">I knew it</button><button class="btn" id="again">Still learning</button>' : '<button class="btn primary" id="rev">Show answer</button>') +
-        '<button class="btn" id="shuf">Shuffle</button><button class="btn" id="rst">Reset progress</button></div>';
+        '</div><span class="progress-line">Card ' + (pos + 1) + " of " + L.length + ", " + nk + ' known</span></div>' +
+        '<div class="fc-stage"><div class="fcard flip3d' + (shown ? " flipped" : "") + '" aria-live="polite"><div class="fc-face fc-front">' + front + '<p class="fc-tap">Tap to flip</p></div>' +
+        '<div class="fc-face fc-back"><div class="kind">Answer</div><div class="front small">' + esc(c.front) + '</div><div class="back"><p>' + esc(c.back) + "</p></div></div></div></div>" +
+        '<p class="fc-swipe">Swipe right if you knew it, left if still learning.</p>' +
+        '<div class="row" style="margin-top:1rem"><span class="fc-acts"></span><button class="btn" id="shuf">Shuffle</button><button class="btn" id="rst">Reset progress</button></div>';
       centerTarget(p);
       p.querySelectorAll(".chips button").forEach(function (b) { b.onclick = function () { filter = b.dataset.f; pos = 0; shown = false; render(); }; });
-      var $ = function (s) { return p.querySelector(s); };
-      if ($("#rev")) $("#rev").onclick = function () { shown = true; render(); var g = p.querySelector("#got"); if (g) g.focus(); };
-      if ($("#got")) $("#got").onclick = function () { if (known.indexOf(c.id) < 0) known.push(c.id); store.set(key, known); pos++; shown = false; render(); };
-      if ($("#again")) $("#again").onclick = function () { pos++; shown = false; render(); };
+      var $ = function (s) { return p.querySelector(s); }, card = $(".fcard"), acts = $(".fc-acts");
+      function next(dir, knew) {
+        if (knew && known.indexOf(c.id) < 0) { known.push(c.id); store.set(key, known); }
+        if (REDUCE) { pos++; shown = false; render(); return; }
+        card.style.transition = "transform .32s ease-in, opacity .32s ease-in";
+        card.style.transform = "translateX(" + (dir * 120) + "%) rotate(" + (dir * 14) + "deg)" + (shown ? " rotateY(180deg)" : ""); card.style.opacity = "0";
+        setTimeout(function () { pos++; shown = false; render(); var nc = p.querySelector(".fcard"); if (nc) nc.classList.add("fc-enter"); }, 300);
+      }
+      function setActs() {
+        acts.innerHTML = shown ? '<button class="btn primary" id="got">I knew it</button><button class="btn" id="again">Still learning</button>' : '<button class="btn primary" id="rev">Show answer</button>';
+        if ($("#rev")) $("#rev").onclick = flip;
+        if ($("#got")) $("#got").onclick = function () { next(1, true); };
+        if ($("#again")) $("#again").onclick = function () { next(-1, false); };
+      }
+      function flip() { shown = !shown; card.classList.toggle("flipped", shown); setActs(); if (shown) { var g = $("#got"); if (g) g.focus({ preventScroll: true }); } }
+      setActs();
+      /* tap to flip; swipe right = knew it, left = still learning */
+      var sx = 0, sy = 0, dx = 0, drag = false, moved = false;
+      card.addEventListener("touchstart", function (e) { sx = e.touches[0].clientX; sy = e.touches[0].clientY; dx = 0; drag = true; moved = false; card.style.transition = "none"; }, { passive: true });
+      card.addEventListener("touchmove", function (e) {
+        if (!drag) return; dx = e.touches[0].clientX - sx; var dy = e.touches[0].clientY - sy;
+        if (!moved && Math.abs(dy) > Math.abs(dx)) { drag = false; card.style.transform = ""; return; }
+        if (Math.abs(dx) > 8) moved = true;
+        card.style.transform = "translateX(" + dx + "px) rotate(" + (dx / 25) + "deg)" + (shown ? " rotateY(180deg)" : "");
+        card.classList.toggle("lean-r", dx > 60); card.classList.toggle("lean-l", dx < -60);
+      }, { passive: true });
+      card.addEventListener("touchend", function () {
+        if (!drag) return; drag = false; card.classList.remove("lean-r", "lean-l");
+        if (Math.abs(dx) > 90) { next(dx > 0 ? 1 : -1, dx > 0); return; }
+        card.style.transition = ""; card.style.transform = "";
+      });
+      card.addEventListener("click", function (e) { if (moved) { moved = false; return; } if (e.target.closest("a, button")) return; flip(); });
       $("#shuf").onclick = function () { order = shuffle(order); pos = 0; shown = false; render(); };
       $("#rst").onclick = function () { known = []; store.set(key, known); pos = 0; shown = false; render(); };
     }
@@ -1645,9 +1686,10 @@
       var score = 0, used = secs - Math.max(0, (end - Date.now()) / 1000);
       var res = qs.map(function (q, k) { var ans = q.answers || [q.answer], s = sel[k], ok = s.length === ans.length && s.every(function (x) { return ans.indexOf(x) > -1; }); if (ok) score++; trackAnswer(q, set.id, ok); return ok; });
       var pct = Math.round(score / n * 100);
-      p.innerHTML = '<div class="exam-result"><p class="meta">' + (auto ? "Time is up." : "Exam submitted.") + " Time used: " + fmt(used) + '</p><div class="score">' + score + " / " + n + "</div><p>" + pct + "%</p>" +
+      p.innerHTML = '<div class="exam-result"><p class="meta">' + (auto ? "Time is up." : "Exam submitted.") + " Time used: " + fmt(used) + '</p>' + scoreRevealHTML(score, n) +
         '<div class="row"><button class="btn primary" id="xr-wrong">Show wrong answers (' + (n - score) + ')</button><button class="btn" id="xr-all">Show all answers</button>' + (back ? '<button class="btn" id="xr-back">Back</button>' : "") + '</div>' + (S.api && set.paper ? lbPostHTML() : "") + '</div><div id="xrev"></div>';
       if (S.api && set.paper) lbPostWire(p, set.id, score, n, Math.round(used));
+      scoreReveal(p, score, n);
       function review(onlyWrong) {
         p.querySelector("#xrev").innerHTML = qs.map(function (q, k) {
           if (onlyWrong && res[k]) return "";
@@ -1672,6 +1714,62 @@
     if (back) p.querySelector("#xback").onclick = back;
   }
 
+
+
+  /* ---------- animation helpers ---------- */
+  var REDUCE = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function snakeLoader() {
+    return '<span class="snake-load" aria-hidden="true"><svg viewBox="0 0 40 60"><line class="sl-rod" x1="20" y1="4" x2="20" y2="56"/><path class="sl-snake" pathLength="100" d="M20 54 C34 50 34 44 20 40 C6 36 6 30 20 26 C34 22 34 16 20 12"/><circle class="sl-head" r="3.2" cx="20" cy="12"/></svg></span>';
+  }
+  document.addEventListener("load", function (e) { var t = e.target; if (t.tagName === "IMG" && t.parentNode && t.parentNode.classList && t.parentNode.classList.contains("slide-img")) t.parentNode.classList.add("loaded"); }, true);
+  function flameHTML(n, animate, was) {
+    if (n < 5 && !(animate && was >= 5)) return '<span class="streak" hidden></span>';
+    var out = n < 5;
+    return '<span class="streak' + (out ? " out" : animate ? " grow" : "") + '" title="' + (out ? "Streak lost" : n + " correct in a row") + '"><svg viewBox="0 0 24 32" aria-hidden="true"><path class="fl-o" d="M12 1C14 8 21 11 21 20a9 9 0 0 1-18 0c0-5 3-7 4-11 1 3 2 4 3 4C10 9 11 5 12 1z"/><path class="fl-i" d="M12 13c1 4 5 5 5 10a5 5 0 0 1-10 0c0-3 2-4 2-6 1 1 2 2 3 2 0-2 0-4 0-6z"/></svg><b>' + (out ? was : n) + "</b></span>";
+  }
+  function answerFx(opts, ans, chosen, ok) {
+    if (REDUCE) return;
+    opts.forEach(function (x) {
+      var n = +x.dataset.n;
+      if (ok && ans.indexOf(n) > -1) { x.classList.add("fx-ok"); x.insertAdjacentHTML("beforeend", '<svg class="blip" viewBox="0 0 100 20" preserveAspectRatio="none" aria-hidden="true"><polyline pathLength="100" points="0,10 38,10 42,10 46,5 50,10 54,10 57,1 61,19 65,6 68,10 100,10"/></svg>'); }
+      else if (!ok && chosen.indexOf(n) > -1) x.classList.add("fx-shake");
+      else if (!ok && ans.indexOf(n) > -1) x.classList.add("fx-glow");
+    });
+  }
+  function scoreRevealHTML(score, n) {
+    var pct = n ? Math.round(score / n * 100) : 0, C = 2 * Math.PI * 42;
+    return '<div class="score-reveal"><svg class="pring big" viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42" stroke-dasharray="' + C + '" stroke-dashoffset="' + C + '" data-to="' + (C * (1 - pct / 100)) + '"/><text x="50" y="57" class="sr-pct">' + (REDUCE ? pct : 0) + '%</text></svg><div class="score"><span class="sr-n">' + (REDUCE ? score : 0) + "</span> / " + n + "</div></div>";
+  }
+  function scoreReveal(p, score, n) {
+    var ring = p.querySelector(".score-reveal .fg"), num = p.querySelector(".sr-n"), pc = p.querySelector(".sr-pct"), pct = n ? Math.round(score / n * 100) : 0;
+    requestAnimationFrame(function () { if (ring) ring.style.strokeDashoffset = ring.getAttribute("data-to"); });
+    if (REDUCE) return;
+    var t0 = performance.now(), dur = 1300;
+    (function step(now) {
+      var k = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - k, 3);
+      if (num) num.textContent = Math.round(score * e); if (pc) pc.textContent = Math.round(pct * e) + "%";
+      if (k < 1) requestAnimationFrame(step); else if (n && score === n) feathers();
+    })(t0);
+  }
+  function feathers() {
+    if (REDUCE) return;
+    var box = document.createElement("div"); box.className = "feathers"; box.setAttribute("aria-hidden", "true");
+    var h = "";
+    for (var k = 0; k < 34; k++) {
+      var ang = Math.random() * Math.PI * 2, dist = 120 + Math.random() * 260;
+      h += '<i style="--x:' + Math.round(Math.cos(ang) * dist) + "px;--y:" + Math.round(Math.sin(ang) * dist - 80) + "px;--r:" + Math.round(Math.random() * 720 - 360) + "deg;--d:" + (Math.random() * 0.25).toFixed(2) + "s;--s:" + (0.6 + Math.random() * 0.8).toFixed(2) + '"><svg viewBox="0 0 10 40"><path d="M5 0C9 10 9 28 5 40C1 28 1 10 5 0Z"/><line x1="5" y1="2" x2="5" y2="40"/></svg></i>';
+    }
+    box.innerHTML = h; document.body.appendChild(box);
+    setTimeout(function () { box.remove(); }, 2600);
+  }
+  function revealOnScroll(els) {
+    if (REDUCE || !("IntersectionObserver" in window) || !els.length) return;
+    var io = new IntersectionObserver(function (entries) {
+      var k = 0;
+      entries.forEach(function (en) { if (en.isIntersecting) { en.target.style.setProperty("--rd", (k++ * 0.06) + "s"); en.target.classList.add("in"); io.unobserve(en.target); } });
+    }, { rootMargin: "0px 0px -6% 0px" });
+    els.forEach(function (el) { el.classList.add("reveal"); io.observe(el); });
+  }
 
   /* ---------- leaderboard (best exam-mode score per nickname and past paper) ---------- */
   function lbDevice() { var d = store.get("sina:dev", ""); if (!d) { d = Math.random().toString(36).slice(2, 12); store.set("sina:dev", d); } return d; }
@@ -1703,7 +1801,7 @@
   }
   function leaderboardView(sel) {
     if (!S.api) return notFound();
-    setView('<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / Leaderboard</p><h1>Leaderboard</h1><p class="meta">Best exam-mode score per nickname on each past paper. Ties go to the faster time.</p><div id="lb"><p class="src">Loading…</p></div></div>', "Leaderboard");
+    setView('<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / Leaderboard</p><h1>Leaderboard</h1><p class="meta">Best exam-mode score per nickname on each past paper. Ties go to the faster time.</p><div id="lb"><div class="loading-row">' + snakeLoader() + '<span>Loading the leaderboard…</span></div></div></div>', "Leaderboard");
     lbFetch(function (d) {
       var box = document.getElementById("lb"); if (!box) return;
       if (!d || !d.ok) { box.innerHTML = '<p class="src">Could not load the leaderboard. Try again later.' + (d && d.error ? " (" + esc(d.error) + ")" : "") + "</p>"; return; }
@@ -1746,18 +1844,19 @@
   }
   function startCaduceus(cv, opt) {
     if (!cv) return; opt = opt || {};
-    var c = cv.getContext("2d"), W = cv.width, H = cv.height, t0 = performance.now();
+    var c = cv.getContext("2d"), W = cv.width, H = cv.height, t0 = performance.now(), ph0 = 0, lastT = 0, spd = 1;
     var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
     var cs = getComputedStyle(document.documentElement), v = function (n) { return cs.getPropertyValue(n).trim(); };
     function frame(now) {
       if (!cv.isConnected) return;
       cs = getComputedStyle(document.documentElement);
       var t = (now - t0) / 1000, g = opt.grow ? Math.max(0, Math.min(1, (t - (opt.delay || 0)) / opt.grow)) : 1, cx = W / 2, top = H * 0.1, bot = H * 0.96, amp = W * 0.2, turns = 3.1, segs = 160;
+      spd += ((cv.dataset.fast ? 2.6 : 1) - spd) * 0.06; ph0 += (t - lastT) * spd; lastT = t;
       var rod = v("--muted"), col = [v("--accent"), v("--snake2") || v("--sage")];
       c.clearRect(0, 0, W, H);
       var bodies = [];
       for (var s = 0; s < 2; s++) {
-        var pts = [], ph = (reduce ? 0 : t * 1.6) + s * Math.PI;
+        var pts = [], ph = (reduce ? 0 : ph0 * 1.6) + s * Math.PI;
         var gs = Math.max(6, Math.round(segs * (opt.grow > 1.5 ? g * (2 - g) * 0.35 + g * 0.65 : 1 - Math.pow(1 - g, 3))));
         for (var i = 0; i <= gs; i++) {
           var u = i / segs, y = bot - u * (bot - top) * 0.92, a = u * turns * 2 * Math.PI - ph * 0.35;
@@ -1842,7 +1941,7 @@
   function midWidgets(m) {
     var st = midStats(m), days = null;
     if (m.date) { var p = m.date.split("-"), d = new Date(+p[0], +p[1] - 1, +p[2]), t = new Date(); t.setHours(0, 0, 0, 0); days = Math.round((d - t) / 864e5); }
-    return '<div class="mid-side">' + (days !== null && days >= 0 ? '<div class="mid-count-big"><span class="flipnum" data-to="' + days + '">' + Math.min(days + 3, 99) + '</span><span>' + (days === 0 ? "today" : days === 1 ? "day left" : "days left") + "</span></div>" : "") +
+    return '<div class="mid-side">' + (days !== null && days >= 0 ? '<div class="mid-count-big' + (days === 0 ? " exam-day" : "") + '"><span class="flipnum" data-to="' + days + '">' + Math.min(days + 3, 99) + '</span><span>' + (days === 0 ? "exam today" : days === 1 ? "day left" : "days left") + "</span></div>" : "") +
       '<div class="mid-ring">' + heartRing(st.pct, st.done) + '<span>' + st.done + " of " + st.total + " midterm questions right</span></div></div>";
   }
   function flipCountdowns() {
