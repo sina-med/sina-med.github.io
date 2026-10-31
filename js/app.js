@@ -1691,14 +1691,22 @@
   }
   function lbFetch(cb) {
     try { var c = JSON.parse(sessionStorage.getItem("sina:lb") || "null"); if (c && Date.now() - c.t < 6e4) return cb(c.d); } catch (e) {}
-    fetch(S.api).then(function (r) { return r.json(); }).then(function (d) { try { sessionStorage.setItem("sina:lb", JSON.stringify({ t: Date.now(), d: d })); } catch (e) {} cb(d); }, function () { cb(null); });
+    var save = function (d) { if (d && d.ok) { try { sessionStorage.setItem("sina:lb", JSON.stringify({ t: Date.now(), d: d })); } catch (e) {} } cb(d); };
+    /* JSONP: works with Apps Script whatever its CORS behaviour */
+    var name = "sinaLb" + Date.now(), sc = document.createElement("script"), done = false;
+    var fin = function (d) { if (done) return; done = true; try { delete window[name]; } catch (e) { window[name] = undefined; } sc.remove(); save(d); };
+    window[name] = fin;
+    sc.src = S.api + (S.api.indexOf("?") > -1 ? "&" : "?") + "callback=" + name;
+    sc.onerror = function () { fin(null); };
+    setTimeout(function () { fin(null); }, 15000);
+    document.head.appendChild(sc);
   }
   function leaderboardView(sel) {
     if (!S.api) return notFound();
     setView('<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / Leaderboard</p><h1>Leaderboard</h1><p class="meta">Best exam-mode score per nickname on each past paper. Ties go to the faster time.</p><div id="lb"><p class="src">Loading…</p></div></div>', "Leaderboard");
     lbFetch(function (d) {
       var box = document.getElementById("lb"); if (!box) return;
-      if (!d || !d.ok) { box.innerHTML = '<p class="src">Could not load the leaderboard. Try again later.</p>'; return; }
+      if (!d || !d.ok) { box.innerHTML = '<p class="src">Could not load the leaderboard. Try again later.' + (d && d.error ? " (" + esc(d.error) + ")" : "") + "</p>"; return; }
       var papers = d.papers || {}, ids = Object.keys(papers).filter(function (id) { return (S.papers || []).some(function (x) { return x.id === id; }); });
       var me = (store.get("sina:nick", "") || "").toLowerCase(), title = function (id) { var x = (S.papers || []).filter(function (y) { return y.id === id; })[0]; return x ? x.title : id; };
       var overall = {};
