@@ -3,6 +3,10 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "31 October 2026", items: [
+    "Added My progress: accuracy per lecture, weakest lectures, streak.",
+    "Added Redo my mistakes: every missed question in one quiz.",
+    "Added Exam mode (timed, answers at the end) for past papers and lecture sets.",
+    "Added Report a mistake on every answered question.",
     "Added 88 questions to the Clinical Biochemistry midterm lectures (40 per lecture).",
     "Fixed: the question count setting now matches the questions served.",
     "Added full-screen slide viewer with close button and zoom.",
