@@ -606,20 +606,21 @@
     var mids = progMidterms(), midHTML = "";
     mids.forEach(function (m) {
       var n = 0; m.groups.forEach(function (g) { n += g.items.length; });
-      midHTML += '<div class="mid-card"><p class="mid-eyebrow">Upcoming</p><h2>' + esc(m.title) + '</h2>' + midCountdown(m) + '<p class="meta">' + (n === 1 ? "1 lecture" : n + " lectures") + ' on this exam.</p><div class="row">' +
+      midHTML += '<div class="mid-card"><div class="mid-main"><p class="mid-eyebrow">Upcoming</p><h2>' + esc(m.title) + '</h2>' + midCountdown(m) + '<p class="meta">' + (n === 1 ? "1 lecture" : n + " lectures") + ' on this exam.</p><div class="row">' +
         (n === 1 ? '<a class="btn primary" href="#/lecture/' + m.groups[0].items[0] + '">Revise the lecture</a>' : '<a class="btn primary" href="#/midterm">Revise the lectures</a>') + '<a class="btn" href="#/practice/' + m.subject + '/lectures/midterm">Practice questions</a>' +
-        ((S.papers || []).some(function (x) { return x.subject === m.subject; }) ? '<a class="btn" href="#/practice/' + m.subject + '/papers">Past papers as quizzes</a>' : "") + "</div></div>";
+        ((S.papers || []).some(function (x) { return x.subject === m.subject; }) ? '<a class="btn" href="#/practice/' + m.subject + '/papers">Past papers as quizzes</a>' : "") + "</div></div>" + midWidgets(m) + "</div>";
     });
-    var html = '<div class="wrap wide"><section class="hero slim"><h1>Study each lecture, then test yourself on it.</h1>' +
-      '<div class="home-search"><input id="home-search" type="search" placeholder="Search a lecture, subject or past paper" aria-label="Search lectures, subjects and past papers" autocomplete="off"><div class="home-results" id="home-results" hidden></div></div>' +
+    var html = '<div class="wrap wide"><section class="hero slim"><div class="hero-grid"><div class="hero-text"><p class="hero-brand">Sina<span>.</span></p><h1>Study each lecture, then test yourself on it.</h1>' +
+      '<div class="home-search"><input id="home-search" type="search" placeholder="Search a lecture, subject or past paper" aria-label="Search lectures, subjects and past papers" autocomplete="off"><div class="home-results" id="home-results" hidden></div></div></div>' + caduceusHTML() + "</div>" +
       midHTML +
-      '<p class="meta home-links"><a href="#/practice">Practice questions</a> &middot; <a href="#/progress">My progress</a> &middot; ' + (mistakeList().length ? '<a href="#/mistakes">Redo my mistakes (' + mistakeList().length + ')</a> &middot; ' : "") + '' + (S.usmle ? '<a href="#/usmle">USMLE prep</a> &middot; ' : "") + '<a href="#/apps">Useful apps</a>' +
+      '<p class="meta home-links"><a href="#/practice">Practice questions</a> &middot; <a href="#/progress">My progress</a> &middot; ' + (S.api ? '<a href="#/leaderboard">Leaderboard</a> &middot; ' : "") + (mistakeList().length ? '<a href="#/mistakes">Redo my mistakes (' + mistakeList().length + ')</a> &middot; ' : "") + '' + (S.usmle ? '<a href="#/usmle">USMLE prep</a> &middot; ' : "") + '<a href="#/apps">Useful apps</a>' +
       (S.updated ? ' &middot; <a href="#/updates">What\'s new' + (newBadge() ? ' <span class="badge">new</span>' : "") + "</a>" : "") + "</p></section>" +
       '<h2 id="subjects">' + esc(T("home.subjects")) + ' <span class="prog-tag">' + esc(progName()) + '</span></h2>' +
       (semList.length ? semList.map(function (k) { return '<h3 class="sem-title">' + esc(T("home.semester", { n: k.replace(/^S/, "") })) + '</h3><ul class="subject-list">' + sems[k].map(row).join("") + "</ul>"; }).join("")
         : '<div class="empty-prog"><h3>' + esc(T("home.empty.title", { name: progName() })) + '</h3><p>' + esc(T("home.empty.body")) + '</p></div>') +
       "</div>";
     setView(html, "");
+    startCaduceus(document.getElementById("cad")); animateRings(); flipCountdowns();
     var hi = document.getElementById("home-search"), hr = document.getElementById("home-results");
     function hs() {
       var q = hi.value.trim();
@@ -1305,7 +1306,7 @@
     return { lec: lec, papers: papers };
   }
   function practiceHome() {
-    var html = '<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / Practice questions</p><h1>Practice questions</h1><p class="meta">Pick a subject, then practise by lecture or do a past paper as a quiz.</p><div class="row" style="margin:0 0 1rem"><a class="btn" href="#/progress">My progress</a><a class="btn" href="#/mistakes">Redo my mistakes (' + mistakeList().length + ')</a></div>';
+    var html = '<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / Practice questions</p><h1>Practice questions</h1><p class="meta">Pick a subject, then practise by lecture or do a past paper as a quiz.</p><div class="row" style="margin:0 0 1rem"><a class="btn" href="#/progress">My progress</a>' + (S.api ? '<a class="btn" href="#/leaderboard">Leaderboard</a>' : "") + '<a class="btn" href="#/mistakes">Redo my mistakes (' + mistakeList().length + ')</a></div>';
     progSemesters().forEach(function (k) {
       var subs = progSubjects().filter(function (sb) { return sb.semester === k && (practiceCount(sb).lec || practiceCount(sb).papers); });
       if (!subs.length) return;
@@ -1389,7 +1390,7 @@
       questionsPanel(document.getElementById("paperq"), { id: x.id, mcqs: x.questions });
       document.getElementById("exam-btn").onclick = function () {
         this.parentNode.hidden = true;
-        examIntro(document.getElementById("paperq"), { id: x.id, mcqs: x.questions.map(function (q) { var c = {}; for (var k in q) c[k] = q[k]; c._lid = x.id; return c; }) }, function () { paperView(id); });
+        examIntro(document.getElementById("paperq"), { id: x.id, paper: true, mcqs: x.questions.map(function (q) { var c = {}; for (var k in q) c[k] = q[k]; c._lid = x.id; return c; }) }, function () { paperView(id); });
       };
     }
   }
@@ -1491,6 +1492,7 @@
     if (!lid || /^mix:|^mistakes/.test(lid)) return;
     var st = store.get("sina:stats", {}), e = st[lid] || (st[lid] = [0, 0]); e[0]++; if (ok) e[1]++; store.set("sina:stats", st);
     var mk = store.get("sina:mistakes", {}); if (ok) delete mk[k]; else mk[k] = { l: lid, t: Date.now() }; store.set("sina:mistakes", mk);
+    if (ok) { var rt = store.get("sina:right", {}); if (!rt[k]) { rt[k] = lid; store.set("sina:right", rt); } }
     var days = store.get("sina:days", []), d = today(); if (days[days.length - 1] !== d) { days.push(d); store.set("sina:days", days.slice(-120)); }
   }
   var QIDX = null;
@@ -1620,7 +1622,8 @@
       var res = qs.map(function (q, k) { var ans = q.answers || [q.answer], s = sel[k], ok = s.length === ans.length && s.every(function (x) { return ans.indexOf(x) > -1; }); if (ok) score++; trackAnswer(q, set.id, ok); return ok; });
       var pct = Math.round(score / n * 100);
       p.innerHTML = '<div class="exam-result"><p class="meta">' + (auto ? "Time is up." : "Exam submitted.") + " Time used: " + fmt(used) + '</p><div class="score">' + score + " / " + n + "</div><p>" + pct + "%</p>" +
-        '<div class="row"><button class="btn primary" id="xr-wrong">Show wrong answers (' + (n - score) + ')</button><button class="btn" id="xr-all">Show all answers</button>' + (back ? '<button class="btn" id="xr-back">Back</button>' : "") + '</div></div><div id="xrev"></div>';
+        '<div class="row"><button class="btn primary" id="xr-wrong">Show wrong answers (' + (n - score) + ')</button><button class="btn" id="xr-all">Show all answers</button>' + (back ? '<button class="btn" id="xr-back">Back</button>' : "") + '</div>' + (S.api && set.paper ? lbPostHTML() : "") + '</div><div id="xrev"></div>';
+      if (S.api && set.paper) lbPostWire(p, set.id, score, n, Math.round(used));
       function review(onlyWrong) {
         p.querySelector("#xrev").innerHTML = qs.map(function (q, k) {
           if (onlyWrong && res[k]) return "";
@@ -1645,6 +1648,132 @@
     if (back) p.querySelector("#xback").onclick = back;
   }
 
+
+  /* ---------- leaderboard (best exam-mode score per nickname and past paper) ---------- */
+  function lbDevice() { var d = store.get("sina:dev", ""); if (!d) { d = Math.random().toString(36).slice(2, 12); store.set("sina:dev", d); } return d; }
+  function lbPostHTML() {
+    return '<div class="lb-post"><p><strong>Leaderboard</strong> · post this score under a nickname (no real names needed).</p><div class="row"><input id="lb-nick" maxlength="20" placeholder="Nickname" value="' + esc(store.get("sina:nick", "")) + '"><button class="btn primary" id="lb-send">Post my score</button></div><p class="src" id="lb-msg"></p></div>';
+  }
+  function lbPostWire(p, paper, score, total, secs) {
+    var b = p.querySelector("#lb-send"), inp = p.querySelector("#lb-nick"), msg = p.querySelector("#lb-msg");
+    b.onclick = function () {
+      var nick = inp.value.replace(/[^\p{L}\p{N} ._-]/gu, "").trim().slice(0, 20);
+      if (!nick) { msg.textContent = "Pick a nickname first."; inp.focus(); return; }
+      if (secs < total * 3) { msg.textContent = "Finished too fast to count (under 3 seconds per question)."; return; }
+      store.set("sina:nick", nick); b.disabled = true; msg.textContent = "Sending…";
+      fetch(S.api, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ type: "score", nick: nick, device: lbDevice(), paper: paper, score: score, total: total, secs: secs }) })
+        .then(function () { msg.innerHTML = 'Posted. <a href="#/leaderboard/' + paper + '">See the leaderboard</a>'; sessionStorage.removeItem("sina:lb"); }, function () { b.disabled = false; msg.textContent = "Could not send. Check your connection."; });
+    };
+  }
+  function lbFetch(cb) {
+    try { var c = JSON.parse(sessionStorage.getItem("sina:lb") || "null"); if (c && Date.now() - c.t < 6e4) return cb(c.d); } catch (e) {}
+    fetch(S.api).then(function (r) { return r.json(); }).then(function (d) { try { sessionStorage.setItem("sina:lb", JSON.stringify({ t: Date.now(), d: d })); } catch (e) {} cb(d); }, function () { cb(null); });
+  }
+  function leaderboardView(sel) {
+    if (!S.api) return notFound();
+    setView('<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / Leaderboard</p><h1>Leaderboard</h1><p class="meta">Best exam-mode score per nickname on each past paper. Ties go to the faster time.</p><div id="lb"><p class="src">Loading…</p></div></div>', "Leaderboard");
+    lbFetch(function (d) {
+      var box = document.getElementById("lb"); if (!box) return;
+      if (!d || !d.ok) { box.innerHTML = '<p class="src">Could not load the leaderboard. Try again later.</p>'; return; }
+      var papers = d.papers || {}, ids = Object.keys(papers).filter(function (id) { return (S.papers || []).some(function (x) { return x.id === id; }); });
+      var me = (store.get("sina:nick", "") || "").toLowerCase(), title = function (id) { var x = (S.papers || []).filter(function (y) { return y.id === id; })[0]; return x ? x.title : id; };
+      var overall = {};
+      ids.forEach(function (id) { papers[id].forEach(function (r) { var k = String(r.nick).toLowerCase(), o = overall[k] = overall[k] || { nick: r.nick, score: 0, total: 0, n: 0, secs: 0 }; o.score += +r.score; o.total += +r.total; o.n++; o.secs += +r.secs; }); });
+      var cur = sel && papers[sel] ? sel : "all";
+      function rows() {
+        var list = cur === "all" ? Object.keys(overall).map(function (k) { return overall[k]; }).sort(function (a, b) { return b.score - a.score || a.secs - b.secs; }) : papers[cur];
+        if (!list || !list.length) return '<p class="src">No scores yet. Do a past paper in Exam mode and post your score.</p>';
+        var top = Math.max.apply(null, list.map(function (r) { return cur === "all" ? r.score : r.score / r.total; })) || 1;
+        return '<ol class="lb-list">' + list.slice(0, 100).map(function (r, i) {
+          var val = cur === "all" ? r.score : r.score / r.total, medal = ["🥇", "🥈", "🥉"][i] || (i + 1);
+          var right = cur === "all" ? r.score + " pts · " + r.n + " paper" + (r.n > 1 ? "s" : "") : r.score + " / " + r.total + " · " + Math.floor(r.secs / 60) + ":" + ("0" + (r.secs % 60)).slice(-2);
+          return '<li class="' + (String(r.nick).toLowerCase() === me ? "me" : "") + '" style="--d:' + (i * 0.04) + 's"><span class="lb-rank">' + medal + '</span><span class="lb-nick">' + esc(r.nick) + '</span><span class="lb-val">' + right + '</span><span class="lb-bar"><i style="--w:' + Math.round(val / top * 100) + '%"></i></span></li>';
+        }).join("") + "</ol>";
+      }
+      function draw() {
+        box.innerHTML = '<div class="lb-tabs"><button class="chip' + (cur === "all" ? " on" : "") + '" data-p="all">Overall</button>' + ids.map(function (id) { return '<button class="chip' + (cur === id ? " on" : "") + '" data-p="' + id + '">' + esc(title(id)) + "</button>"; }).join("") + "</div>" +
+          (cur === "all" ? '<p class="src">Overall = sum of best scores across papers.</p>' : '<p class="src"><a href="#/paper/' + cur + '">Do this paper</a></p>') + rows();
+        box.querySelectorAll(".chip").forEach(function (c) { c.onclick = function () { cur = c.getAttribute("data-p"); draw(); }; });
+        requestAnimationFrame(function () { box.querySelectorAll(".lb-bar i").forEach(function (i) { i.classList.add("go"); }); });
+      }
+      draw();
+    });
+  }
+
+  /* ---------- home: caduceus (two snakes winding around a winged rod) ---------- */
+  function caduceusHTML() {
+    var f = function (side) {
+      var o = "", sx = side === "l" ? -1 : 1;
+      for (var k = 0; k < 7; k++) {
+        var L = 150 - k * 11, w = 13 - k * 0.7, rot = (-14 + k * 11) * (side === "l" ? 1 : -1);
+        o += '<path d="M0 0 C' + sx * L * 0.3 + " " + -w + " " + sx * L * 0.8 + " " + -w * 0.9 + " " + sx * L + " 0 C" + sx * L * 0.8 + " " + w * 0.6 + " " + sx * L * 0.3 + " " + w * 0.8 + ' 0 0 Z" transform="rotate(' + rot + ')" opacity="' + (1 - k * 0.07).toFixed(2) + '"/>';
+      }
+      return o;
+    };
+    return '<div class="hero-art" aria-hidden="true"><svg class="cad-wings" viewBox="0 0 340 150"><g transform="translate(170 52)"><g class="cw l">' + f("l") + '</g><g class="cw r">' + f("r") + '</g></g></svg><canvas id="cad" width="440" height="720"></canvas></div>';
+  }
+  function startCaduceus(cv) {
+    if (!cv) return;
+    var c = cv.getContext("2d"), W = cv.width, H = cv.height, t0 = performance.now();
+    var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var cs = getComputedStyle(document.documentElement), v = function (n) { return cs.getPropertyValue(n).trim(); };
+    function frame(now) {
+      if (!cv.isConnected) return;
+      cs = getComputedStyle(document.documentElement);
+      var t = (now - t0) / 1000, cx = W / 2, top = H * 0.1, bot = H * 0.96, amp = W * 0.2, turns = 3.1, segs = 160;
+      var rod = v("--muted"), col = [v("--accent"), v("--snake2") || v("--sage")];
+      c.clearRect(0, 0, W, H);
+      var bodies = [];
+      for (var s = 0; s < 2; s++) {
+        var pts = [], ph = (reduce ? 0 : t * 1.6) + s * Math.PI;
+        for (var i = 0; i <= segs; i++) {
+          var u = i / segs, y = bot - u * (bot - top) * 0.92, a = u * turns * 2 * Math.PI - ph * 0.35;
+          var taper = u < 0.12 ? u / 0.12 : 1, tail = 1 - Math.pow(1 - u, 3);
+          pts.push({ x: cx + Math.sin(a) * amp * (0.55 + 0.45 * tail), y: y, z: Math.cos(a), w: W * 0.05 * (0.35 + 0.65 * taper) * (u > 0.94 ? 1.15 : 1) });
+        }
+        bodies.push({ pts: pts, col: col[s] });
+      }
+      var seg = function (p, q, colr, back) { c.strokeStyle = colr; c.globalAlpha = back ? 0.5 : 1; c.lineWidth = (p.w + q.w) / 2; c.lineCap = "round"; c.beginPath(); c.moveTo(p.x, p.y); c.lineTo(q.x, q.y); c.stroke(); c.globalAlpha = 1; };
+      bodies.forEach(function (b) { for (var i = 1; i < b.pts.length; i++) if (b.pts[i].z < 0) seg(b.pts[i - 1], b.pts[i], b.col, true); });
+      c.strokeStyle = rod; c.lineWidth = W * 0.032; c.lineCap = "round"; c.beginPath(); c.moveTo(cx, H * 0.06); c.lineTo(cx, H * 0.99); c.stroke();
+      c.fillStyle = rod; c.beginPath(); c.arc(cx, H * 0.05, W * 0.035, 0, 7); c.fill();
+      bodies.forEach(function (b) {
+        for (var i = 1; i < b.pts.length; i++) if (b.pts[i].z >= 0) seg(b.pts[i - 1], b.pts[i], b.col, false);
+        c.fillStyle = "rgba(255,255,255,.35)";
+        for (var k = 8; k < b.pts.length; k += 7) { var p = b.pts[k]; if (p.z > 0.2) { c.beginPath(); c.arc(p.x, p.y, p.w * 0.16, 0, 7); c.fill(); } }
+        var h = b.pts[b.pts.length - 1], g = b.pts[b.pts.length - 4];
+        c.save(); c.translate(h.x, h.y); c.rotate(Math.atan2(h.y - g.y, h.x - g.x));
+        if ((t % 3.2) < 0.45 && !reduce) { var L = W * 0.07 * Math.sin(((t % 3.2) / 0.45) * Math.PI); c.strokeStyle = "#d3243b"; c.lineWidth = W * 0.008; c.beginPath(); c.moveTo(h.w * 0.6, 0); c.lineTo(h.w * 0.6 + L, 0); c.lineTo(h.w * 0.6 + L + 6, -5); c.moveTo(h.w * 0.6 + L, 0); c.lineTo(h.w * 0.6 + L + 6, 5); c.stroke(); }
+        c.fillStyle = b.col; c.beginPath(); c.ellipse(0, 0, h.w * 0.95, h.w * 0.62, 0, 0, 7); c.fill();
+        c.fillStyle = "#fff"; c.beginPath(); c.arc(h.w * 0.25, -h.w * 0.25, h.w * 0.16, 0, 7); c.fill();
+        c.fillStyle = "#111"; c.beginPath(); c.arc(h.w * 0.29, -h.w * 0.25, h.w * 0.08, 0, 7); c.fill();
+        c.restore();
+      });
+      if (!reduce) requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
+  }
+  /* ---------- home: midterm countdown (flip) and progress ring ---------- */
+  function midStats(m) {
+    var ids = [].concat.apply([], m.groups.map(function (g) { return g.items; })), total = 0, rt = store.get("sina:right", {}), done = 0, keys = {};
+    ids.forEach(function (id) { var L = S.lectures[id]; if (!L) return; var fig = L.visual && L.visual.figure; (L.mcqs || []).forEach(function (q) { if (q.target && !fig) return; total++; keys[qKey(q)] = 1; }); });
+    Object.keys(rt).forEach(function (k) { if (keys[k]) done++; });
+    return { total: total, done: done, pct: total ? Math.round(done / total * 100) : 0 };
+  }
+  function midWidgets(m) {
+    var st = midStats(m), days = null;
+    if (m.date) { var p = m.date.split("-"), d = new Date(+p[0], +p[1] - 1, +p[2]), t = new Date(); t.setHours(0, 0, 0, 0); days = Math.round((d - t) / 864e5); }
+    return '<div class="mid-side">' + (days !== null && days >= 0 ? '<div class="mid-count-big"><span class="flipnum" data-to="' + days + '">' + Math.min(days + 3, 99) + '</span><span>' + (days === 0 ? "today" : days === 1 ? "day left" : "days left") + "</span></div>" : "") +
+      '<div class="mid-ring">' + ringSVG(st.pct, "Midterm questions answered right") + '<span>' + st.done + " of " + st.total + " questions right</span></div></div>";
+  }
+  function flipCountdowns() {
+    app.querySelectorAll(".flipnum").forEach(function (el) {
+      var to = +el.getAttribute("data-to"), cur = +el.textContent;
+      (function step() { if (cur <= to) { el.textContent = to; return; } cur--; el.classList.remove("tick"); void el.offsetWidth; el.classList.add("tick"); setTimeout(function () { el.textContent = cur; step2(); }, 180); })();
+      function step2() { if (cur > to) setTimeout(function () { cur--; el.classList.remove("tick"); void el.offsetWidth; el.classList.add("tick"); setTimeout(function () { el.textContent = cur; step2(); }, 180); }, 260); }
+    });
+  }
+
   function route() {
     var parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
     if (parts[0] !== "year") setTimeout(trackView, 0);
@@ -1658,6 +1787,7 @@
     if (parts[0] === "midterm") return midtermView();
     if (parts[0] === "progress") return progressView();
     if (parts[0] === "mistakes") return mistakesView();
+    if (parts[0] === "leaderboard") return leaderboardView(parts[1]);
     if (parts[0] === "practice") return parts[1] ? practiceView(parts[1], parts[2], parts[3]) : practiceHome();
     if (parts[0] === "papers") return papersView(parts[1]);
     if (parts[0] === "paper") return paperView(parts[1]);

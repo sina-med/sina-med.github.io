@@ -1,5 +1,7 @@
 /* Channels and apps shown on every Resources tab. Keyed by lecture id or subject id. */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
+/* Leaderboard and mistake reports: the Apps Script web app URL of the "Sina – Leaderboard" Sheet. Empty = off. */
+SINA.api = "";
 
 SINA.apps = [
   { title: "Kenhub", url: "https://www.kenhub.com/", kind: "App and site", why: "Atlas, articles and quizzes built around anatomy exams. Free tier, paid for the full quiz banks." },
