@@ -1,190 +1,101 @@
 /* What's new. Newest entry first. One block per day: add new lines to today's block if it already exists.
-   date: what people see. items: short lines. */
+   Style: short changelog lines, developer voice (Added / Fixed / Changed), no "you". */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "31 October 2026", items: [
-    "The number of questions you pick now really applies: every Clinical Biochemistry midterm lecture has 40 questions (88 new ones), and the menu only offers counts the lectures can fill.",
-    "Slides open full screen inside the site, with a close button (×) in the top corner, so you are no longer stuck on the picture on your phone. Tap the slide to zoom.",
-    "On the slide under each answer, the part that answers the question is highlighted in green.",
-    "The lecture picker in Questions has rounded rows and round ticks, and the home page can show a countdown to the next midterm."
+    "Added 88 questions to the Clinical Biochemistry midterm lectures (40 per lecture).",
+    "Fixed: the question count setting now matches the questions served.",
+    "Added full-screen slide viewer with close button and zoom.",
+    "Added green highlight on the slide text that answers each question.",
+    "Fixed: flowchart picture questions now show the diagram labels, with the missing box marked \"?\".",
+    "Fixed: questions that relied on a previous question now stand alone.",
+    "Changed: rounded lecture picker; midterm countdown on the home page."
   ]},
   { date: "30 October 2026", items: [
-    "The upcoming midterm is now Clinical Biochemistry (Prof. Kamal): pre-analytical phase, thyroid hormones, adrenal medulla, insulin and steroid hormones.",
-    "New lecture page: Thyroid hormones.",
-    "New question format for the midterm lectures: options A to D with 1 or 2 correct answers, an explanation under every option after you check, and the slide that proves the answer.",
-    "New Steroid hormones questions (37), plus redone questions for the other four midterm lectures, built from the 2026 mock, the 2023-2024 final, the midterm recall and Tutorials 1 to 3.",
-    "New Practice section in the menu: pick a subject, then quiz yourself by lecture or on past papers.",
-    "Clinical Biochemistry past papers are now full quizzes: the 2026 mock (25), the 2023-2024 final (48) and the midterm recall (20), every question answered and explained from the slides. The PDF is still linked on each paper."
+    "Upcoming midterm: Clinical Biochemistry (pre-analytical phase, thyroid, adrenal medulla, insulin, steroids).",
+    "Added lecture: Thyroid hormones.",
+    "New question format: A to D, 1 or 2 correct answers, explanation per option, source slide.",
+    "Added Steroid hormones questions; rebuilt the other midterm lecture questions from past papers and tutorials.",
+    "Added Practice section: questions by lecture or by past paper, per subject.",
+    "Clinical Biochemistry past papers available as quizzes (2026 mock, 2023-2024 final, midterm recall)."
   ]},
   { date: "26 October 2026", items: [
-    "Fixed the lecture checkboxes in the Questions section so they line up.",
-    "The upcoming midterm is now the History of Medicine midterm, with a new page for the 2026-2027 booklet (why study the history of medicine, history of anatomy, history of physiology).",
-    "New layout: lecture pages now have just Summary, Flashcards and Go deeper, with a small ⋯ menu for Download lecture, practice questions, visuals and links.",
-    "Each class now has its own sections: Lectures, Questions, Visual, High yield, Resources and Past papers.",
-    "Questions: tick one or several lectures (or just the midterm ones) and get one mixed quiz.",
-    "Easier to move around: Previous and Next lecture buttons, an 'On this page' list on summaries, a back-to-top button, a search button on phones and a simpler home page."
+    "Upcoming midterm: History of Medicine. Added the 2026-2027 booklet.",
+    "Changed: lecture pages reduced to Summary, Flashcards and Go deeper, with a ⋯ menu for downloads and extras.",
+    "Changed: each subject has Lectures, Questions, Visual, High yield, Resources and Past papers sections.",
+    "Added mixed quizzes across several lectures.",
+    "Added Previous/Next lecture, On this page, back-to-top and mobile search.",
+    "Fixed lecture checkbox alignment."
   ]},
   { date: "25 October 2026", items: [
-    "New lecture: Anatomy of the ventricles and CSF (Anatomy 3, Neuroanatomy), with questions that show the lecture slide behind each answer.",
-    "Fixed the Electrical communication (Physiology) lecture link, which pointed to a deleted Drive file.",
-    "Simpler lecture pages: each lecture now has a single Download lecture button with the professor's name beside it."
+    "Added lecture: Ventricles and CSF (Anatomy 3).",
+    "Changed: single Download lecture button per lecture.",
+    "Fixed Electrical communication lecture link."
   ]},
   { date: "17 October 2026", items: [
-    "The upcoming midterm is now the Neurophysiology midterm: introduction to neurophysiology, electrical communication, chemical communication and muscle physiology part I.",
-    "New lecture pages: Synapses and chemical communication, and Muscle physiology part I (skeletal muscle structure).",
-    "Two neurophysiology practice midterms (25 questions each, A to E), with question and correction PDFs in the same layout as the faculty papers.",
-    "Added Prof. Covasa's extra questions (as a quiz) and the muscle workshop questions to Physiology past papers.",
-    "After any quiz you can now show only your wrong answers, with the right answer and why, and retry just those.",
-    "In the past papers list, practice quizzes now have their questions and correction PDFs side by side.",
-    "Practice quiz explanations can now show the exact lecture slide behind the answer (\"See the slide\"). Done for both neurophysiology practice midterms and every new quiz from now on."
+    "Upcoming midterm: Neurophysiology.",
+    "Added lectures: Synapses and chemical communication; Muscle physiology part I.",
+    "Added two Neurophysiology practice midterms (quiz + PDF), Prof. Covasa's extra questions and the muscle workshop.",
+    "Added: review and retry wrong answers after a quiz.",
+    "Added source slides in quiz explanations."
   ]},
   { date: "8 October 2026", items: [
-    "Upcoming midterm lectures: 'Vascular supply and applied anatomy of the eye' is no longer on the Anatomy 3 midterm list (the lecture itself is still in the subject).",
-    "Past papers: 15 new papers added. Anatomy: the 2023-2024 midterm (now also an interactive quiz), Prof. Hajij's midterm Q&A, and six neuroanatomy practice tests (Fliyou, Rghioui). Physiology: the cardiovascular and respiratory retake (February 2023), Prof. Covasa and Tuan's midterm Q&A and a neurophysiology quiz. Semiology: a cardio, respiratory, digestive and endocrine mock and a respiratory retake. Clinical biochemistry: the 2023-2024 final and Prof. Kamal's midterm Q&A.",
-    "Anatomy: three new Sina mock midterms written in the style of the real paper (24 questions each, one answer per question), as quizzes and PDFs, at the top of Past papers > Anatomy 3."
+    "Added 15 past papers (Anatomy, Physiology, Semiology, Clinical Biochemistry).",
+    "Added three Anatomy 3 mock midterms (quiz + PDF).",
+    "Changed Anatomy 3 midterm list."
   ]},
   { date: "7 October 2026", items: [
-    "USMLE prep: added free videos (Armando Hasudungan, MedCram, Osmosis) and a new section with a free Step 1 question bank (MedAll), free Anki decks, StatPearls and the TeachMe anatomy and physiology sites.",
-    "New USMLE prep page (button on the home page, in the menu and in the year selector): official Step 1 materials, Mehlman Medical's free PDFs and self-assessments, free video channels and podcasts, the main paid resources explained, and a shared Google Drive folder of high-yield PDFs."
+    "Added USMLE prep page: official materials, free resources, question banks, Anki decks and a shared PDF folder."
   ]},
   { date: "4 October 2026", items: [
-    "Anatomy 3 midterm: 390 practice MCQs on the face, mouth, sinuses, orbit and eye, one correct answer each (as on the real exam). Do them as quizzes in Past papers > Anatomy 3, one topic at a time, or download the three PDFs with an answer key. There's a button on the Upcoming midterm lectures page too."
+    "Added 390 Anatomy 3 midterm practice MCQs (quizzes + PDFs)."
   ]},
   { date: "27 September 2026", items: [
-    "Useful apps: the Gizmo card now links to Saad's Gizmo profile, with lots of ready-made 1st year flashcard decks.",
-    "Useful apps: added YPT (Yeolpumta), a study-group timer that locks your other apps while you study. Use the invite link on its card to join the promo's group.",
-    "Every anatomy lecture (Anatomy 1, 2 and 3) now has a High yield tab: quick revision notes, clinical links and memory aids, with filters so you can show one type at a time.",
-    "Three AnatomyZone videos added to the eye lectures for the Anatomy 3 midterm: Orbit, Extraocular muscles and Eyeball anatomy."
+    "Added High yield tab to all anatomy lectures.",
+    "Added YPT to Useful apps; updated Gizmo link.",
+    "Added AnatomyZone videos to the eye lectures."
   ]},
   { date: "26 September 2026", items: [
-    "Virology (1st Year Anglo, S2) is complete: 10 lectures from how viruses work, lab diagnosis, vaccines and antivirals to influenza and measles, viral hepatitis, HIV, herpesviruses, HPV, rabies and viral gastroenteritis.",
-    "The clinical virology review is now in Past papers.",
-    "Physiology (1st Year Anglo, S2) is complete: 20 lectures covering the heart and lungs, the whole digestive system from saliva to microbiota, and the basics of endocrinology (hormones, hypothalamus and pituitary, thyroid).",
-    "Bacteriology (1st Year, Semester 2) is complete with 13 lectures: structure and metabolism, genetics, host-pathogen interactions, antibiotics, then S. pyogenes, S. pneumoniae, Haemophilus, mycobacteria, Chlamydia pneumoniae, Bordetella, Mycoplasma and the Enterobacteriaceae (two parts).",
-    "Histology (1st Year, Semester 2) is complete with 10 lectures: introduction and microscopy, epithelium, connective tissue, cartilage, bone, blood, muscle, nervous tissue, and the histology of the digestive and urinary systems.",
-    "Embryology (1st Year, Semester 2) is complete with 8 lectures: gametogenesis, fertilisation to implantation, gastrulation and neurulation, folding and organogenesis, the placenta, fetal membranes and fetal assessment, the fetal period, and development of the digestive system.",
-    "Past papers: two Embryology and Histology mock tests added under Embryology.",
-    "Hematology (1st Year, Semester 2) is complete with 17 lectures: the last five are thrombocytopenia and thrombocytosis, approach to the bleeding patient (including von Willebrand disease), blood groups and transfusion, splenomegaly, and lymphadenopathy.",
-    "Past papers: the Hematology and Immunology mock test is now listed under Hematology."
+    "1st Year: completed Virology, Physiology, Bacteriology, Histology, Embryology and Hematology.",
+    "Added past papers: clinical virology review, Embryology/Histology and Hematology/Immunology mocks."
   ]},
   { date: "25 September 2026", items: [
-    "1st Year Anglo: Anatomy 1 now covers the whole upper limb (8 lectures) and the thorax (7 lectures: overview, osteology, myology, walls and breast, heart, great vessels, lungs).",
-    "1st Year Anglo: Biochemistry is complete (9 lectures: amino acids, proteins, enzymes, carbohydrates, lipids, nucleotides, and carbohydrate, lipid and amino acid metabolism).",
-    "1st Year Anglo: Physics is complete (13 lectures: units, states of matter, water and solutions, gases, energetics, viscosity, migration, membranes, osmosis, fluid transfers, circulation, respiration, acid-base balance).",
-    "1st Year Anglo: Biophysics is complete (6 lectures: radioactivity, radiation-matter interactions and dosimetry, radiobiology, radiation protection, optics of vision, hearing).",
-    "1st Year Anglo: Chemistry is complete (7 lectures: atom, Bohr model, quantum numbers, electron configuration, periodic table, chemical bonds, solutions and pH), and Cell Biology is complete (4 lectures: study methods, plasma membrane, cytoskeleton, cell cycle and nucleus).",
-    "1st Year Anglo: Genetics is complete (9 chapters, from nucleic acids to hereditary transmission), and Chemistry has started with the structure of the atom and the Rutherford and Bohr models.",
-    "1st Year Anglo: Medical Terminology is complete (10 lectures, all body systems), Public Health is live with 6 lectures (introduction, determinants, prevention and health promotion, health indicators, epidemiology, biostatistics), and Genetics has started (nucleic acids, the human genome, DNA replication).",
-    "New visitors are now asked which year they are in when they first open the site. You can change it any time with the selector at the top left.",
-    "Semester 1 of 1st Year Anglo is complete, with the Introduction to anatomy added to Anatomy 1 (16 lectures).",
-    "Semester headings are now gold like the chapter titles, and What's new shows each day once.",
-    "1st Year Anglo, Semester 2 has started: Immunology is complete: 7 lectures (lymphoid organs, immune cells, antigens, immunoglobulins, complement, dynamics of the immune response, anti-infectious immunity) and 5 tutorials (innate immunity, inflammation, phagocytosis, MHC and antigen-presenting cells, immunological testing). The other Semester 2 subjects are listed.",
-    "1st Year Anglo Past papers are online: 46 entries (exams, retakes, midterms, mocks and corrections) filed by subject across both semesters, plus other modules and photographed exam pages.",
-    "Every lecture's Source line now has View and Download buttons. Google Drive often cannot preview large PowerPoints; if the preview fails, Download opens the file directly.",
-    "New Upcoming midterm lectures button (2nd Year): lists the 7 lectures on the Anatomy 3 midterm, the 4 eye lectures and the first 3 face lectures. On the Anatomy 3 page their label reads On the midterm in blue instead of Ready.",
-    "New menu layout: Browse subjects, Past papers and Useful apps are now categories in the side menu. Past papers lists each subject with its number of papers. The home page has an Open the menu button.",
-    "The menu is organised into four categories: Upcoming midterm lectures, Browse subjects, Past papers and Useful apps. It still opens as an overlay and never moves the page.",
-    "The year menu now shows only 1st Year Anglo and 2nd Year Anglo; Franco and 3rd Year will return when there is content for them.",
-    "Anatomy 2 (1st Year, Semester 2) is complete with 12 lectures: abdominal wall and inguinal canal, oesophagus and stomach, small intestine, colon and appendix, liver, biliary system, pancreas, spleen, abdominal vessels, lymphatics and innervation, pelvic vessels and nerves, perineum and pelvic floor.",
-    "Anatomy 1: new lecture on the surface anatomy and joints of the upper limb (shoulder, elbow and wrist).",
-    "Hematology (1st Year, Semester 2) has started: introduction, haematopoiesis, red blood cells, iron metabolism, B9 and B12 metabolism, complete blood count, anaemias, white blood cells (parts I and II), introduction to haemostasis, primary haemostasis, coagulation."
+    "1st Year: completed Anatomy 1, Anatomy 2, Biochemistry, Physics, Biophysics, Chemistry, Cell Biology, Genetics, Medical Terminology, Public Health and Immunology.",
+    "Added 1st Year past papers (46 entries).",
+    "Added year selection on first visit.",
+    "Added View and Download buttons on lecture sources.",
+    "Added Upcoming midterm lectures section.",
+    "Changed menu layout: Upcoming midterm, Subjects, Past papers, Useful apps."
   ]},
   { date: "24 September 2026", items: [
-    "1st Year Anglo has started: Medical Terminology is live with its first three lectures (introduction to word parts, cardiovascular and respiratory terms). The other Semester 1 subjects are listed and on their way.",
-    "New year selector at the top left: choose 1st Year Anglo or Franco, 2nd Year Anglo or Franco, or 3rd Year Anglo. Everything so far (Semesters 3 and 4) is under 2nd Year Anglo. The site remembers your choice. First-year content is on its way.",
-    "Settings now has a Language section. English for now; French will follow.",
-    "Parasitology and Mycology is now live: all 18 lectures, from amoebiasis and malaria to hydatidosis, candidiasis and pneumocystosis, each with a summary, a labelled diagram, questions, flashcards, Go deeper and resources, and mind maps for the big topics (malaria, toxoplasmosis, leishmaniasis, schistosomiasis, hydatidosis, aspergillosis, candidiasis).",
-    "New: mind maps in the Visual tab. They open with just the main branches; tap a branch to expand it, or use Expand all. Added to all 13 Clinical Biochemistry lectures and to lectures that are mostly classifications (shock, acute kidney injury, diarrhoea, systemic toxicology, drug metabolism, drug interactions, antibiotics, antivirals, antifungals, HIV, meningitis, prolonged fever).",
-    "Infectious Diseases is now complete (12 lectures): antibiotics, antivirals, antifungals, HIV and its complications, bacterial meningitis, cholera, foodborne outbreaks, leptospirosis, rickettsioses, rabies and prolonged fever."
+    "Added year selector (1st and 2nd Year Anglo).",
+    "Added Parasitology and Mycology (18 lectures) and Infectious Diseases (12 lectures).",
+    "Added mind maps to the Visual tab.",
+    "Added Language section to Settings."
   ]},
   { date: "23 September 2026", items: [
-    "Semester 4 has started: Toxicology (all 4 lectures), Pharmacology (6 lectures: pharmacodynamics, biotransformation, clinical trials, pharmacovigilance, drug interactions, asthma and COPD drugs) and the first Infectious Diseases lecture (principles of antibiotic therapy). Each has a full summary, a labelled diagram with picture questions, questions, flashcards, Go deeper and resources.",
-    "The menu now opens as an overlay on every screen: it slides in over the page with a dimmed background, and the page and the menu button no longer move.",
-    "First Aid (all 10 lectures), six Clinical Biochemistry lectures and four GI Semiology lectures are now full versions: longer summaries built from the slides, a labelled diagram with picture questions, many more questions and flashcards, Go deeper reading and trusted resources.",
-    "Checked every S3 lecture against the Drive: all are on the site. Source links for ten Anatomy 3 lectures now open the current slide files, and the Semiology mock exam now opens the right file."
+    "Added Toxicology (4 lectures), Pharmacology (6 lectures) and the first Infectious Diseases lecture.",
+    "Expanded First Aid, Clinical Biochemistry and GI Semiology lectures to full versions.",
+    "Changed: menu opens as an overlay.",
+    "Fixed outdated source links."
   ]},
   { date: "22 September 2026", items: [
-    "The menu now slides in and out smoothly, and the page eases over when you pin or hide it on a computer.",
-    "New Useful apps section on the home page (and in the menu): Gizmo and Daily Anatomy Flashcards.",
-    "New 3D models where they help: eyeball and eye muscles (University of Dundee), the ear with its ossicles and inner ear (Dundee, from MRI data), cranial nerves, a real brainstem specimen (UBC), the brain and a spinal cord section. The skull model was removed from lectures where it did not fit.",
-    "Past papers: new Orbital anatomy practice quiz (12 questions with explanations). New flashcards from it in The orbit and Orbital appendages.",
-    "Pathological Anatomy now sits in Semester 4.",
-    "Chapter titles are now in gold to stand out from the lectures inside them.",
-    "The Suggestion button now opens our suggestion form in a new tab.",
-    "Renamed Extraocular muscles and eye movement to Anatomy of the eyeball II, to match the lecture file, and linked it to the PDF.",
-    "New Settings button (the cog, top right): choose light or dark mode from a small menu.",
-    "New Suggestion button next to it: tell us what to fix or add.",
-    "Reference pictures: 69 lectures now have a picture gallery on the Visual tab, with arrows, dots and swipe to move between pictures.",
-    "Checked all of S3 for consistency: fixed the eye-muscle action grid in Ocular muscles (elevation and depression were swapped), a broken answer explanation and flashcard, a wording slip in Nasal cavity, and made question options more even in length so the answer is not given away by its length.",
-    "Lectures still in their short version now say so on the Go deeper and Resources tabs instead of showing an empty page.",
-    "Pathological Anatomy is here: all 9 lectures, from the introduction and lab techniques to cell injury, cell death, acute inflammation, vascular pathology and oncology, each with a labelled schematic, picture questions, tables, Go deeper reading and resources.",
-    "History and Art of Medicine is here: all 7 lectures, from the history of physiology to surgery, plus the Art of Medicine on emotions, empathy and communication, built in the same full format.",
-    "S3 is now complete on the site."
+    "Added Pathological Anatomy (9 lectures) and History and Art of Medicine (7 lectures). Semester 3 complete.",
+    "Added 3D models, reference picture galleries and the Orbital anatomy practice quiz.",
+    "Added Settings (light/dark mode), Suggestion button and Useful apps.",
+    "Fixed content errors in Ocular muscles and Nasal cavity; balanced option lengths."
   ]},
   { date: "20 September 2026", items: [
-    "First Aid is complete: all 10 lectures, from protection and CPR to the vital functions.",
-    "Clinical Biochemistry is complete, and 4 new digestive semiology lectures: diarrhoea, dysphagia, GERD and GI bleeding. Some pages are short versions for now; full versions are coming.",
-    "New lectures: Steroid hormones, cardiac exploration and renal exploration.",
-    "Clinical Biochemistry has started: preanalytical phase, adrenal medulla hormones, insulin and hepatic exploration.",
-    "Semiology is complete: all 16 lectures, including the digestive and endocrine blocks.",
-    "New: all six cardiovascular semiology lectures, from the introduction to arrhythmias and revision.",
-    "Semiology has started: respiratory symptoms, the chest examination and thoracic syndromes.",
-    "The Likely exam points section is now called Key points.",
-    "Physiology is complete: all 10 lectures.",
-    "New lectures: Physiology of vision, The vestibular system, Taste and olfaction, and Glomerular filtration.",
-    "New lecture: Physiology of pain, with 32 questions and 27 flashcards.",
-    "New lecture: Physiology of stress, with 32 questions and 20 flashcards.",
-    "New lecture: Introduction to neurophysiology, with 33 questions and 32 flashcards.",
-    "New lecture: The myotatic reflexes, with 34 questions and 33 flashcards.",
-    "New lecture: Muscle physiology, part II, with 36 questions and 35 flashcards.",
-    "Physiology has started. New lecture: Neurons and electrical communication, with 34 questions and 32 flashcards.",
-    "New lecture: Functional anatomy: the descending tracts, with 34 questions and 32 flashcards.",
-    "New lecture: Anatomy of the peripheral nervous system, with 34 questions and 40 flashcards.",
-    "Anatomy 3 is complete: all 24 lectures.",
-    "New lecture: Anatomy of the cerebrum, with 34 questions and 40 flashcards.",
-    "New lecture: Anatomy of the diencephalon, with 34 questions and 28 flashcards.",
-    "New lecture: Anatomy of the spinal cord, with 34 questions and 30 flashcards.",
-    "New lecture: Anatomy of the brainstem, with 34 questions and 32 flashcards.",
-    "New lecture: Anatomy of the ear, part 1: external and middle ear, with 34 questions and 35 flashcards.",
-    "New lecture: Anatomy of the ear, part 2: the inner ear, with 34 questions and 32 flashcards. The head and neck is now complete.",
-    "New lecture: The forgotten triangles of the neck, with 25 questions and 25 flashcards. Nose, mouth, throat and neck is now complete.",
-    "Past papers rebuilt from your Drive: 27 papers across Anatomy, Physiology, Semiology, Biochemistry, Parasitology, Pharmacology and Radiology.",
-    "New lecture: Anatomy of the thyroid gland, with 33 questions and 36 flashcards.",
-    "New lecture: Anatomy of the pharynx, with 29 questions and 33 flashcards.",
-    "Each lecture now opens with a real reference picture on the Visual tab, above the schematic.",
-    "Every lecture now has picture questions in the quiz: an arrow points at a structure and you pick its name.",
-    "Sidebar: the same button now opens and hides it.",
-    "New lecture: Anatomy of the larynx, with 28 questions and 47 flashcards, on a new larynx diagram.",
-    "Search now ranks lectures whose titles match first.",
-    "New lecture: Anatomy of the nasal cavity, with 28 questions and 39 flashcards.",
-    "Search bar at the top: type any keyword to jump to a lecture, subject or past paper.",
-    "The menu now stays open on a wide screen; the button hides and shows it.",
-    "Some lectures now have two 3D models, bones and muscles, with a switch between them.",
-    "Resources now list recommended YouTube channels and anatomy apps.",
-    "The note at the end of a lecture can be closed for good with the X.",
-    "New lecture: Nose and paranasal sinuses, with 24 questions and 28 flashcards, on a new nasal cavity diagram.",
-    "New lecture: Oral cavity proper, tongue and palate, with 34 questions and 37 flashcards, on a new mouth diagram.",
-    "New lecture: Motor and sensory innervation of the eye, with 24 questions and 30 flashcards.",
-    "New lecture: Vascular supply and applied anatomy of the eye, with 28 questions and 35 flashcards. Face and orbit is now complete.",
-    "New lecture: Extraocular muscles and eye movement, with 24 questions and 31 flashcards.",
-    "Picture flashcards added to every lecture: a diagram with an arrow and the name hidden. Each lecture also has a labelled schematic on the Visual tab.",
-    "New lecture: Anatomy of the eyeball I, with 28 questions and 30 flashcards.",
-    "New lecture: Anatomy of the orbital appendages, with 24 questions and 21 flashcards.",
-    "New lecture: Blood supply of the facio-maxillary region, with 24 questions and 26 flashcards.",
-    "New lecture: Muscles of the facio-maxillary region, with 20 questions and 32 flashcards.",
-    "Every lecture now links to its original PowerPoint on Drive.",
-    "Questions with more than one correct answer are now possible: tick all of them, then press Check my answer.",
-    "Past papers: the Anatomy 3 past exam and its correction are now labelled properly.",
-    "New welcome screen, and this What's new page."
+    "Completed Anatomy 3, Physiology, Semiology, First Aid and Clinical Biochemistry.",
+    "Added picture questions and picture flashcards to every lecture.",
+    "Added multi-answer questions, search, past papers from Drive and this page."
   ]},
   { date: "19 September 2026", items: [
-    "Past papers section added, with the Anatomy 3 mock test playable as a quiz.",
-    "Resources are now cards with a preview picture of the page or video.",
-    "Menu rebuilt: subjects slide open to chapters, chapters slide open to lectures.",
-    "Orbit and Osteology of the face checked against the real lecture slides."
+    "Added Past papers section.",
+    "Changed: resource cards with previews; rebuilt menu."
   ]},
   { date: "First version", items: [
-    "Site created with the first lectures, questions, flashcards, 3D models and Go deeper reading."
+    "Site launched with the first lectures, questions, flashcards, 3D models and Go deeper reading."
   ]}
 ];
 /* "Last updated" always follows the newest entry above. */

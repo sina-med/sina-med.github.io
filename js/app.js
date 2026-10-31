@@ -478,26 +478,40 @@
     var bx = ex - ux * hl, by = ey - uy * hl;
     return '<path class="arrow-halo" d="M ' + sx + " " + sy + " L " + bx + " " + by + '"/><path class="arrow-line" d="M ' + sx + " " + sy + " L " + bx + " " + by + '"/><polygon class="arrow-head" points="' + ex + "," + ey + " " + (bx + px * hw) + "," + (by + py * hw) + " " + (bx - px * hw) + "," + (by - py * hw) + '"/>';
   }
+  /* wide box diagrams scroll sideways on phones: bring the target box into view */
+  function centerTarget(root) {
+    (root || document).querySelectorAll(".diagram-box").forEach(function (b) {
+      var t = b.querySelector(".fpart.hl"); if (!t || b.scrollWidth <= b.clientWidth) return;
+      var br = b.getBoundingClientRect(), tr = t.getBoundingClientRect();
+      b.scrollLeft += (tr.left + tr.width / 2) - (br.left + br.width / 2);
+    });
+  }
+  function isBoxFig(fig) { var ks = Object.keys(fig.parts || {}); return ks.length > 0 && ks.every(function (id) { return /^\s*<rect/.test(fig.parts[id].shape || ""); }); }
+  function figQText(q, fig) { return q.target && fig && isBoxFig(fig) && /at the arrow\?$/.test(q.q) ? "Which element belongs in the box marked \u201c?\u201d?" : q.q; }
   function figureSVG(fig, cfg) {
     cfg = cfg || {};
     var quiz = cfg.mode === "quiz", uid = cfg.uid || "f";
-    var out = '<svg class="fig-svg' + (quiz ? " quiz" : "") + '" viewBox="' + fig.viewBox + '" role="img" aria-label="' + esc(fig.alt || "Schematic diagram") + '">';
+    /* box diagrams (flowcharts, timelines): in a quiz, show every label except the target, which shows "?" */
+    var boxes = quiz && isBoxFig(fig);
+    var out = '<svg class="fig-svg' + (quiz ? " quiz" : "") + (isBoxFig(fig) ? " boxfig" : "") + '" viewBox="' + fig.viewBox + '" role="img" aria-label="' + esc(fig.alt || "Schematic diagram") + '">';
     out += fig.base || "";
     Object.keys(fig.parts).forEach(function (id) {
       var pt = fig.parts[id];
       var on = quiz && cfg.target === id;
       out += '<g class="fpart' + (on ? " hl" : "") + '" data-id="' + id + '">' + (pt.shape || "") + "</g>";
     });
-    if (!quiz) {
+    if (!quiz || boxes) {
       Object.keys(fig.parts).forEach(function (id) {
         var pt = fig.parts[id];
+        if (boxes && id === cfg.target) { out += '<text class="flbl qmark" x="' + pt.lx + '" y="' + (pt.ly + (Array.isArray(pt.label) && pt.label.length > 1 ? 8 : 0)) + '" text-anchor="' + (pt.anchor || "middle") + '">?</text>'; return; }
         if (!pt.label) return;
         if (pt.lead) out += '<path class="guide" d="M ' + pt.lead.map(function (q) { return q[0] + " " + q[1]; }).join(" L ") + '"/>';
         (Array.isArray(pt.label) ? pt.label : [pt.label]).forEach(function (line, i) {
           out += '<text class="flbl" x="' + pt.lx + '" y="' + (pt.ly + i * 16) + '" text-anchor="' + (pt.anchor || "middle") + '">' + esc(line) + "</text>";
         });
       });
-    } else {
+    }
+    if (quiz && !boxes) {
       ((fig.arrows && fig.arrows[cfg.target]) || []).forEach(function (a) { out += figArrow(a); });
     }
     return out + "</svg>";
@@ -1103,7 +1117,7 @@
             this.textContent = "Hide my wrong answers";
             box.innerHTML = '<h2 class="rev-h">Your wrong answers</h2>' + missed.map(function (w) {
               var q = w.q, ans = q.answers || [q.answer];
-              return '<div class="rev-item"><p class="qhead">Question ' + w.n + '</p><p class="qtext">' + esc(q.q) + "</p>" +
+              return '<div class="rev-item"><p class="qhead">Question ' + w.n + '</p><p class="qtext">' + esc(figQText(q, q._fig || (lec.visual && lec.visual.figure))) + "</p>" +
                 q.options.map(function (o, n) {
                   var cls = ans.indexOf(n) > -1 ? " correct" : (w.chosen.indexOf(n) > -1 ? " wrong" : "");
                   var tag = ans.indexOf(n) > -1 ? '<span class="rev-tag">Correct answer</span>' : (w.chosen.indexOf(n) > -1 ? '<span class="rev-tag">Your answer</span>' : "");
@@ -1120,8 +1134,9 @@
       var pic = (q.target && qfig)
         ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "q" + i }) + "</div>"
         : "";
-      p.innerHTML = '<p class="qhead">Question ' + (i + 1) + " of " + qs.length + (multi ? ", " + esc(q.hint || "choose all correct answers") : "") + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + '</p><div class="bar-track"><div class="bar-fill" style="width:' + (i / qs.length * 100) + '%"></div></div><p class="qtext">' + esc(q.q) + "</p>" + pic +
+      p.innerHTML = '<p class="qhead">Question ' + (i + 1) + " of " + qs.length + (multi ? ", " + esc(q.hint || "choose all correct answers") : "") + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + '</p><div class="bar-track"><div class="bar-fill" style="width:' + (i / qs.length * 100) + '%"></div></div><p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
         q.options.map(function (o, n) { return '<button class="opt" data-n="' + n + '" aria-pressed="false"><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span></button>"; }).join("") + (multi ? '<button class="btn primary" id="chk" type="button">Check my answer</button>' : "") + '<div id="fb"></div>';
+      centerTarget(p);
       var opts = p.querySelectorAll(".opt");
       function finish(chosen) {
         var ans = q.answers || [q.answer];
@@ -1164,13 +1179,14 @@
           ? '<div class="diagram-box">' + figureSVG(lec.visual.figure, { mode: "quiz", target: c.target, uid: "fc" }) + "</div>"
           : '<div class="diagram-box">' + orbitSVG({ mode: "quiz", target: c.target, uid: "fc" }) + "</div>";
       }
-      var front = '<div class="kind">' + (c.type === "image" ? "Picture card" : "Text card") + '</div><div class="front">' + esc(c.front) + "</div>" + pic;
+      var front = '<div class="kind">' + (c.type === "image" ? "Picture card" : "Text card") + '</div><div class="front">' + esc(c.type === "image" && lec.visual && lec.visual.figure ? figQText({ q: c.front, target: c.target }, lec.visual.figure) : c.front) + "</div>" + pic;
       var kinds = lec.cards.some(function (x) { return x.type === "image"; }) ? [["all", "All"], ["text", "Text"], ["image", "Pictures"]] : [];
       p.innerHTML = '<div class="deck-tools"><div class="chips" role="group" aria-label="Card type">' + kinds.map(function (f) { return '<button data-f="' + f[0] + '" aria-pressed="' + (f[0] === filter) + '">' + f[1] + "</button>"; }).join("") +
         '</div><span class="progress-line">Card ' + (pos + 1) + " of " + L.length + ", " + nk + ' known</span></div><div class="fcard" aria-live="polite">' + front +
         (shown ? '<div class="back"><p>' + esc(c.back) + "</p></div>" : "") + '</div><div class="row" style="margin-top:1rem">' +
         (shown ? '<button class="btn primary" id="got">I knew it</button><button class="btn" id="again">Still learning</button>' : '<button class="btn primary" id="rev">Show answer</button>') +
         '<button class="btn" id="shuf">Shuffle</button><button class="btn" id="rst">Reset progress</button></div>';
+      centerTarget(p);
       p.querySelectorAll(".chips button").forEach(function (b) { b.onclick = function () { filter = b.dataset.f; pos = 0; shown = false; render(); }; });
       var $ = function (s) { return p.querySelector(s); };
       if ($("#rev")) $("#rev").onclick = function () { shown = true; render(); var g = p.querySelector("#got"); if (g) g.focus(); };

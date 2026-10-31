@@ -5805,7 +5805,7 @@ SINA.lectures["biochem-steroids"] = {
    ]
   },
   {
-   "q": "In that patient, the direct cause of the muscle wasting is:",
+   "q": "A patient with hypercortisolism (Cushing's syndrome) has wasting of the limbs. The direct cause of the muscle wasting is:",
    "options": [
     "The hyperglycaemic effect of cortisol",
     "The proteolytic effect of cortisol",

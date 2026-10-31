@@ -2522,7 +2522,7 @@ SINA.lectures["chem1-periodic"] = {
    "why": "Following Klechkowski's rule."
   },
   {
-   "q": "How many periods and columns does the table have?",
+   "q": "How many periods and columns does the periodic table have?",
    "options": [
     "6 and 20",
     "7 and 18",

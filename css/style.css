@@ -813,3 +813,9 @@ h2[id^="sec-"] { scroll-margin-top: 7.5rem; }
 .sviewer.zoomed .sv-scroll { align-items: flex-start; justify-content: flex-start; }
 .sviewer.zoomed .sv-scroll .slide-img { width: 220%; max-width: none; cursor: zoom-out; }
 .sv-tip { color: rgba(255,255,255,0.6); font-size: 0.8rem; text-align: center; margin: 0.3rem 0 max(0.6rem, env(safe-area-inset-bottom)); }
+.fig-svg .flbl.qmark { font-size: 26px; font-weight: 800; fill: var(--accent); }
+/* box diagrams: dark text on the pastel boxes in both themes, and readable size on phones (scroll sideways) */
+.fig-svg.boxfig .flbl { fill: #1f2328; stroke: none; }
+.fig-svg.boxfig .flbl.qmark { fill: #ffffff; }
+.diagram-box:has(> .fig-svg.boxfig) { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+@media (max-width: 700px) { .diagram-box > .fig-svg.boxfig { min-width: 640px; } }
