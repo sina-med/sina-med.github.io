@@ -486,6 +486,30 @@
       b.scrollLeft += (tr.left + tr.width / 2) - (br.left + br.width / 2);
     });
   }
+  /* real anatomy pictures (js/data/photos.js): arrow on the structure for questions, numbered markers for the Visual tab */
+  function photoFor(lid, target) { var ph = S.photos && S.photos[lid]; return ph && (!target || ph.pts[target]) ? ph : null; }
+  function photoQ(lid, target) {
+    var ph = photoFor(lid, target); if (!ph) return "";
+    var p = ph.pts[target], X = p[0] * ph.w / 100, Y = p[1] * ph.h / 100, cx = ph.w / 2, cy = ph.h / 2;
+    var dx = X - cx, dy = Y - cy, L = Math.sqrt(dx * dx + dy * dy) || 1, len = Math.max(ph.w, ph.h) * 0.13;
+    var ux = L > 5 ? dx / L : -0.7, uy = L > 5 ? dy / L : -0.7;
+    var tx = X + ux * len, ty = Y + uy * len;
+    if (tx < 8 || tx > ph.w - 8 || ty < 8 || ty > ph.h - 8) { ux = -ux; uy = -uy; tx = X + ux * len; ty = Y + uy * len; }
+    var gap = Math.max(ph.w, ph.h) * 0.012, hx = X + ux * gap, hy = Y + uy * gap, sw = Math.max(ph.w, ph.h) / 180;
+    var hl = sw * 4.2, hw = sw * 2.6, bx = hx + ux * hl, by = hy + uy * hl, px = -uy, py = ux;
+    var head = hx + "," + hy + " " + (bx + px * hw) + "," + (by + py * hw) + " " + (bx - px * hw) + "," + (by - py * hw);
+    var arrow = '<line x1="' + tx + '" y1="' + ty + '" x2="' + bx + '" y2="' + by + '" class="pa-o" stroke-width="' + sw * 2.4 + '"/><polygon points="' + head + '" class="pa-o" stroke-width="' + sw * 1.4 + '"/>' +
+      '<line x1="' + tx + '" y1="' + ty + '" x2="' + bx + '" y2="' + by + '" class="pa" stroke-width="' + sw + '"/><polygon points="' + head + '" class="pa-f"/>';
+    return '<figure class="photo-q"><div class="photo-wrap"><img src="' + esc(ph.src) + '" alt="Anatomy picture with an arrow" width="' + ph.w + '" height="' + ph.h + '"><svg viewBox="0 0 ' + ph.w + " " + ph.h + '" aria-hidden="true">' + arrow + "</svg></div><figcaption>" + esc(ph.credit) + "</figcaption></figure>";
+  }
+  function photoLabelled(lid, fig) {
+    var ph = photoFor(lid); if (!ph) return "";
+    var ids = Object.keys(fig.parts).filter(function (id) { return ph.pts[id]; }), r = Math.max(ph.w, ph.h) / 60;
+    var marks = ids.map(function (id, n) { var p = ph.pts[id], X = p[0] * ph.w / 100, Y = p[1] * ph.h / 100;
+      return '<circle cx="' + X + '" cy="' + Y + '" r="' + r + '" class="pm"/><text x="' + X + '" y="' + (Y + r * 0.42) + '" font-size="' + r * 1.25 + '" class="pmt">' + (n + 1) + "</text>"; }).join("");
+    return '<figure class="photo-q"><div class="photo-wrap"><img src="' + esc(ph.src) + '" alt="Labelled anatomy picture" width="' + ph.w + '" height="' + ph.h + '"><svg viewBox="0 0 ' + ph.w + " " + ph.h + '" aria-hidden="true">' + marks + "</svg></div><figcaption>" + esc(ph.credit) + "</figcaption></figure>" +
+      '<ol class="photo-legend">' + ids.map(function (id) { return "<li>" + esc([].concat(fig.parts[id].label || id).join(" ")) + "</li>"; }).join("") + "</ol>";
+  }
   function isBoxFig(fig) { var ks = Object.keys(fig.parts || {}); return ks.length > 0 && ks.every(function (id) { return /^\s*<rect/.test(fig.parts[id].shape || ""); }); }
   function figQText(q, fig) { return q.target && fig && isBoxFig(fig) && /at the arrow\?$/.test(q.q) ? "Which element belongs in the box marked \u201c?\u201d?" : q.q; }
   function figureSVG(fig, cfg) {
@@ -741,7 +765,7 @@
         (L.mcqs || []).forEach(function (q) {
           if (q.target && !fig) return;
           var c = {}; for (var k in q) c[k] = q[k];
-          c._fig = fig; c._from = picked.length > 1 ? lectureTitle(id) : ""; pool.push(c);
+          c._fig = fig; c._lid = id; c._from = picked.length > 1 ? lectureTitle(id) : ""; pool.push(c);
         });
       });
       pool = shuffle(pool);
@@ -1007,7 +1031,8 @@
       if (gal) h2 = gal + h2;
       var mmh = mindmapHTML(v.mindmap);
       if (mmh) h2 = mmh + (h2 ? h2.replace("<h2 style='margin-top:0'>", "<h2>").replace('<h2 style="margin-top:0">', "<h2>") : "");
-      if (v.figure) h2 += "<h2" + (h2 ? "" : " style='margin-top:0'") + ">Labelled schematic</h2><p>" + esc(v.figure.caption || "Schematic drawn for this site, not to scale.") + '</p><div class="diagram-box">' + figureSVG(v.figure, { uid: "vis" }) + "</div>";
+      if (v.figure && photoFor(lec.id)) h2 += "<h2" + (h2 ? "" : " style='margin-top:0'") + ">Labelled picture</h2>" + photoLabelled(lec.id, v.figure);
+      if (v.figure) h2 += "<h2" + (h2 ? "" : " style='margin-top:0'") + ">" + (photoFor(lec.id) ? "Schematic" : "Labelled schematic") + "</h2><p>" + esc(v.figure.caption || "Schematic drawn for this site, not to scale.") + '</p><div class="diagram-box">' + figureSVG(v.figure, { uid: "vis" }) + "</div>";
       p.innerHTML = h2 || "<p>No visual for this lecture yet.</p>";
       wireMedia(p); wireGallery(p); wireMindmap(p);
       return;
@@ -1131,7 +1156,8 @@
       }
       var q = qs[i], multi = !!(q.multi || (q.answers && q.answers.length > 1));
       var qfig = q._fig || (lec.visual && lec.visual.figure);
-      var pic = (q.target && qfig)
+      var qph = q.target ? photoQ(q._lid || lec.id, q.target) : "";
+      var pic = qph ? qph : (q.target && qfig)
         ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "q" + i }) + "</div>"
         : "";
       p.innerHTML = '<p class="qhead">Question ' + (i + 1) + " of " + qs.length + (multi ? ", " + esc(q.hint || "choose all correct answers") : "") + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + '</p><div class="bar-track"><div class="bar-fill" style="width:' + (i / qs.length * 100) + '%"></div></div><p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
@@ -1174,7 +1200,8 @@
       if (pos >= L.length) pos = 0;
       var c = byId[L[pos]], nk = L.filter(function (id) { return known.indexOf(id) > -1; }).length;
       var pic = "";
-      if (c.type === "image") {
+      if (c.type === "image" && photoQ(lec.id, c.target)) pic = photoQ(lec.id, c.target);
+      else if (c.type === "image") {
         pic = lec.visual && lec.visual.figure
           ? '<div class="diagram-box">' + figureSVG(lec.visual.figure, { mode: "quiz", target: c.target, uid: "fc" }) + "</div>"
           : '<div class="diagram-box">' + orbitSVG({ mode: "quiz", target: c.target, uid: "fc" }) + "</div>";
