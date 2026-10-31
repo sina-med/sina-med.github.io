@@ -606,9 +606,10 @@
     var mids = progMidterms(), midHTML = "";
     mids.forEach(function (m) {
       var n = 0; m.groups.forEach(function (g) { n += g.items.length; });
-      midHTML += '<div class="mid-card"><div class="mid-main"><p class="mid-eyebrow">Upcoming</p><h2>' + esc(m.title) + '</h2>' + midCountdown(m) + '<p class="meta">' + (n === 1 ? "1 lecture" : n + " lectures") + ' on this exam.</p><div class="row">' +
+      var dl = midDaysLeft(m), cram = dl !== null && dl >= 0 && dl <= 7;
+      midHTML += '<div class="mid-card' + (cram ? " cram" + (dl <= 1 ? " cram-red" : "") : "") + '"><div class="mid-main"><p class="mid-eyebrow">' + (cram ? (dl === 0 ? "Midterm today" : dl === 1 ? "Midterm tomorrow" : "Midterm week") : "Upcoming") + '</p><h2>' + esc(m.title) + '</h2>' + midCountdown(m) + '<p class="meta">' + (n === 1 ? "1 lecture" : n + " lectures") + ' on this exam.</p><div class="row">' +
         (n === 1 ? '<a class="btn primary" href="#/lecture/' + m.groups[0].items[0] + '">Revise the lecture</a>' : '<a class="btn primary" href="#/midterm">Revise the lectures</a>') + '<a class="btn" href="#/practice/' + m.subject + '/lectures/midterm">Practice questions</a>' +
-        ((S.papers || []).some(function (x) { return x.subject === m.subject; }) ? '<a class="btn" href="#/practice/' + m.subject + '/papers">Past papers as quizzes</a>' : "") + "</div></div>" + midWidgets(m) + "</div>";
+        ((S.papers || []).some(function (x) { return x.subject === m.subject; }) ? '<a class="btn" href="#/practice/' + m.subject + '/papers">Past papers as quizzes</a>' : "") + "</div></div>" + midWidgets(m) + (cram ? cramPlan(m, dl) : "") + "</div>";
     });
     var html = '<div class="wrap wide"><section class="hero slim"><div class="hero-grid"><div class="hero-text"><p class="hero-brand">Sina<span>.</span></p><h1>Study each lecture, then test yourself on it.</h1>' +
       '<div class="home-search"><input id="home-search" type="search" placeholder="Search a lecture, subject or past paper" aria-label="Search lectures, subjects and past papers" autocomplete="off"><div class="home-results" id="home-results" hidden></div></div></div>' + caduceusHTML() + "</div>" +
@@ -1794,6 +1795,33 @@
     startCaduceus(o.querySelector("canvas"), { grow: 1.3, delay: 0.25 });
     var done = false, end = function () { if (done) return; done = true; o.classList.add("out"); document.documentElement.classList.remove("splashing"); setTimeout(function () { o.remove(); }, 650); };
     o.addEventListener("click", end); setTimeout(end, 2900);
+  }
+
+  /* ---------- midterm-week mode: in the last 7 days the midterm card becomes a cram plan ---------- */
+  function midDaysLeft(m) {
+    if (!m.date) return null;
+    var p = m.date.split("-"), d = new Date(+p[0], +p[1] - 1, +p[2]), t = new Date(); t.setHours(0, 0, 0, 0);
+    return Math.round((d - t) / 864e5);
+  }
+  function cramPlan(m, dl) {
+    var rt = store.get("sina:right", {}), st = store.get("sina:stats", {}), byL = {}, rows = [], left = 0;
+    Object.keys(rt).forEach(function (k) { byL[k] = rt[k]; });
+    m.groups.forEach(function (g) { g.items.forEach(function (id) {
+      var L = S.lectures[id]; if (!L) return;
+      var fig = L.visual && L.visual.figure, total = 0, right = 0;
+      (L.mcqs || []).forEach(function (q) { if (q.target && !fig) return; total++; if (rt[qKey(q)]) right++; });
+      var s2 = st[id] || [0, 0], acc = s2[0] ? Math.round(s2[1] / s2[0] * 100) : null;
+      left += total - right;
+      rows.push({ id: id, title: lectureTitle(id) || L.title, total: total, right: right, cov: total ? right / total : 1, acc: acc });
+    }); });
+    rows.sort(function (a, b) { return a.cov - b.cov || (a.acc === null ? -1 : a.acc) - (b.acc === null ? -1 : b.acc); });
+    var perDay = Math.ceil(left / Math.max(dl, 1));
+    var tip = dl === 0 ? "Exam day: skim the summaries and high-yield tabs; no new material." :
+      dl === 1 ? "Last day: redo your mistakes and do one past paper in Exam mode." :
+      left ? "Do about <strong>" + perDay + " questions a day</strong> to cover every midterm question at least once." : "Every midterm question answered right at least once. Keep going with past papers in Exam mode.";
+    return '<div class="cram-plan"><h3>Cram plan</h3><p class="cram-tip">' + tip + '</p><ol class="cram-list">' + rows.map(function (r, i) {
+      return '<li' + (i < 2 && r.cov < 1 ? ' class="weak"' : "") + '><a href="#/subject/' + m.subject + "/questions/" + r.id + '"><span class="cl-t">' + esc(r.title) + '</span><span class="cl-m">' + r.right + "/" + r.total + " right" + (r.acc !== null ? " · " + r.acc + "% accuracy" : " · not started") + '</span><span class="cl-bar"><i style="width:' + Math.round(r.cov * 100) + '%"></i></span></a></li>';
+    }).join("") + '</ol><div class="row">' + (mistakeList().length ? '<a class="btn" href="#/mistakes">Redo my mistakes (' + mistakeList().length + ")</a>" : "") + "</div></div>";
   }
   /* ---------- home: midterm countdown (flip) and progress ring ---------- */
   function midStats(m) {

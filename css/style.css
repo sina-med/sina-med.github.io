@@ -990,3 +990,23 @@ html.splashing body { overflow: hidden; }
 .w-year.on { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 10%, var(--surface)); }
 .welcome.intro .w-pick, .welcome.intro .w-year { animation: wFade .6s ease both; animation-delay: 4.3s; }
 .welcome.intro .w-year:nth-child(2) { animation-delay: 4.42s; }
+
+/* ---------- midterm-week mode ---------- */
+.mid-card.cram { border-color: color-mix(in srgb, var(--wing) 70%, var(--line-strong)); background: color-mix(in srgb, var(--wing) 9%, var(--surface)); }
+.mid-card.cram .mid-eyebrow { color: color-mix(in srgb, var(--wing) 75%, var(--ink)); }
+.mid-card.cram-red { border-color: #d3243b; background: color-mix(in srgb, #d3243b 8%, var(--surface)); }
+.mid-card.cram-red .mid-eyebrow { color: #d3243b; animation: cramPulse 1.6s ease-in-out infinite; }
+@keyframes cramPulse { 50% { opacity: .45; } }
+.cram-plan { flex: 1 1 100%; border-top: 1px solid var(--line); padding-top: .8rem; }
+.cram-plan h3 { margin: 0 0 .3rem; font-size: 1.05rem; }
+.cram-tip { margin: 0 0 .6rem; font-size: .92rem; }
+.cram-list { list-style: none; margin: 0 0 .6rem; padding: 0; display: grid; gap: .4rem; }
+.cram-list a { display: grid; grid-template-columns: minmax(0, 1fr); gap: .2rem .6rem; padding: .55rem .7rem; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); text-decoration: none; }
+.cram-list a:hover { border-color: var(--accent); }
+.cram-list li.weak a { border-color: #d3243b; }
+.cram-list li.weak .cl-t::after { content: "Start here"; margin-left: .5rem; font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; color: #fff; background: #d3243b; border-radius: 99px; padding: .05rem .45rem; vertical-align: 2px; white-space: nowrap; display: inline-block; }
+.cram-list a .cl-t { font-weight: 700; font-size: .95rem; color: var(--ink); }
+.cl-m { font-size: .8rem; color: var(--muted); }
+.cl-bar { margin-top: .2rem; height: 5px; background: var(--line); border-radius: 99px; overflow: hidden; }
+.cl-bar i { display: block; height: 100%; background: var(--accent); border-radius: 99px; }
+@media (prefers-reduced-motion: reduce) { .mid-card.cram-red .mid-eyebrow { animation: none; } }

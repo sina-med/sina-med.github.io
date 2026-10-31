@@ -3,6 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "31 October 2026", items: [
+    "Added midterm-week mode: in the last 7 days the midterm card shows a cram plan (weakest lectures first, questions per day); red the day before.",
     "Changed: the welcome screen opens on every visit, with the caduceus animation (snakes rise up the rod, wings open, Sina appears), then the year choice. Tap to skip.",
     "Added Leaderboard: post exam-mode past paper scores under a nickname; ranking per paper and overall.",
     "Changed: Report a mistake now sends the report directly.",
