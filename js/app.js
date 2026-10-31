@@ -770,6 +770,8 @@
       });
       pool = shuffle(pool);
       if (count !== "all") pool = pool.slice(0, +count);
+      var seenKey = "sina:seen:" + picked.slice().sort().join("+");
+      if (store.get(seenKey, false)) pool = pool.map(shuffleQ); else store.set(seenKey, true);
       p.innerHTML = '<div class="quiz-top"><button class="btn small-btn" id="qback" type="button">&larr; Change lectures</button><span class="meta">' + esc(picked.length === 1 ? lectureTitle(picked[0]) : picked.length + " lectures mixed") + '</span></div><div id="quiz"></div>';
       p.querySelector("#qback").addEventListener("click", picker);
       questionsPanel(p.querySelector("#quiz"), { id: "mix:" + picked.slice().sort().join("+") + ":" + count, mcqs: pool });
@@ -1071,7 +1073,22 @@
 
   /* Lecture slide(s) that prove an answer: collapsed until opened, then click to see full size. */
   function qKey(q) { var t = (q.q || "") + "|" + (q.options || []).join("|"), h = 5381; for (var i = 0; i < t.length; i++) h = ((h * 33) ^ t.charCodeAt(i)) >>> 0; return h.toString(36); }
-  function slideHL(q, s) { var m = q && S.hl && S.hl[qKey(q)]; return (m && m[s.src]) || []; }
+  /* retries: shuffle the options so answers are read, not remembered by position */
+  function shuffleQ(q) {
+    if (q.options.some(function (o) { return /\b(all|none|both) of the (above|options)\b/i.test(o); })) return q;
+    var n = q.options.length, perm = [], k;
+    for (k = 0; k < n; k++) perm.push(k);
+    for (var t = 0; t < 4; t++) { perm = shuffle(perm); if (perm.some(function (v, j) { return v !== j; })) break; }
+    var c = {}; for (k in q) c[k] = q[k];
+    var ans = q.answers || [q.answer];
+    c.options = perm.map(function (j) { return q.options[j]; });
+    if (q.notes) c.notes = perm.map(function (j) { return q.notes[j]; });
+    var na = ans.map(function (a) { return perm.indexOf(a); }).sort(function (a, b) { return a - b; });
+    if (q.answers) c.answers = na; else c.answer = na[0];
+    c._k = q._k || qKey(q);
+    return c;
+  }
+  function slideHL(q, s) { var m = q && S.hl && S.hl[q._k || qKey(q)]; return (m && m[s.src]) || []; }
   function slideImg(s, unit, q) {
     var hl = slideHL(q, s);
     return '<span class="slide-img"><img loading="lazy" src="' + esc(s.src) + '" alt="' + esc(s.lec) + ", " + (unit || "slide") + " " + s.n + '">' +
@@ -1114,7 +1131,7 @@
   }
 
   function questionsPanel(p, lec) {
-    var all = lec.mcqs, qs = all, i = 0, score = 0, wrong = [], done = [], key = "sina:best:" + lec.id, LET = "abcdefgh";
+    var all = lec.mcqs, qs = all, fullRun = true, i = 0, score = 0, wrong = [], done = [], key = "sina:best:" + lec.id, LET = "abcdefgh";
     function keyText(q) {
       var ans = q.answers || [q.answer];
       return ans.map(function (n) { return LET[n] + ". " + q.options[n]; }).join(" and ");
@@ -1128,16 +1145,16 @@
       if (i >= qs.length) {
         score = 0; wrong = [];
         qs.forEach(function (q, n) { var d = done[n] || { chosen: [], ok: false }; if (d.ok) score++; else wrong.push({ q: q, n: n + 1, chosen: d.chosen }); });
-        var full = qs === all, best = store.get(key, 0);
+        var full = fullRun, best = store.get(key, 0);
         if (full && score > best) { best = score; store.set(key, best); }
         var missed = wrong.slice();
         p.innerHTML = '<div class="score">' + score + " / " + qs.length + "</div>" +
           (full ? "<p>Best score on this device: " + best + " / " + all.length + ".</p>" : "<p>Retry of the questions you missed.</p>") +
           '<div class="row">' + (missed.length ? '<button class="btn primary" id="rev">Show only my wrong answers (' + missed.length + ')</button><button class="btn" id="retry">Retry only these</button>' : '<p class="src">No wrong answers. Well done.</p>') +
           '<button class="btn" id="again">' + (full ? "Try again" : "Back to the full quiz") + '</button></div><div id="review"></div>';
-        p.querySelector("#again").onclick = function () { qs = all; i = 0; score = 0; wrong = []; done = []; render(); };
+        p.querySelector("#again").onclick = function () { qs = all.map(shuffleQ); fullRun = true; i = 0; score = 0; wrong = []; done = []; render(); };
         if (missed.length) {
-          p.querySelector("#retry").onclick = function () { qs = missed.map(function (w) { return w.q; }); i = 0; score = 0; wrong = []; done = []; render(); };
+          p.querySelector("#retry").onclick = function () { qs = missed.map(function (w) { return shuffleQ(w.q); }); fullRun = false; i = 0; score = 0; wrong = []; done = []; render(); };
           p.querySelector("#rev").onclick = function () {
             var box = p.querySelector("#review");
             if (box.innerHTML) { box.innerHTML = ""; this.textContent = "Show only my wrong answers (" + missed.length + ")"; return; }
