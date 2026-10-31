@@ -702,6 +702,9 @@
         });
         var n = nQ(picked);
         p.querySelector("#qsel").textContent = picked.length ? picked.length + " lecture" + (picked.length > 1 ? "s" : "") + ", " + n + " questions" : "No lecture chosen";
+        var sel = p.querySelector("#qcount"), opts = ["10", "20", "40"].filter(function (v) { return +v < n; }).concat(["all"]);
+        var shown = opts.indexOf(count) > -1 ? count : "all";
+        sel.innerHTML = opts.map(function (v) { return '<option value="' + v + '"' + (v === shown ? " selected" : "") + ">" + (v === "all" ? "All (" + n + ")" : v) + "</option>"; }).join("");
         p.querySelector("#qstart").disabled = !picked.length;
       }
       boxes.forEach(function (b) { b.addEventListener("change", sync); });
@@ -1028,6 +1031,37 @@
   }
 
   /* Lecture slide(s) that prove an answer: collapsed until opened, then click to see full size. */
+  function qKey(q) { var t = (q.q || "") + "|" + (q.options || []).join("|"), h = 5381; for (var i = 0; i < t.length; i++) h = ((h * 33) ^ t.charCodeAt(i)) >>> 0; return h.toString(36); }
+  function slideHL(q, s) { var m = q && S.hl && S.hl[qKey(q)]; return (m && m[s.src]) || []; }
+  function slideImg(s, unit, q) {
+    var hl = slideHL(q, s);
+    return '<span class="slide-img"><img loading="lazy" src="' + esc(s.src) + '" alt="' + esc(s.lec) + ", " + (unit || "slide") + " " + s.n + '">' +
+      hl.map(function (r) { return '<i class="hl" style="left:' + r[0] + "%;top:" + r[1] + "%;width:" + r[2] + "%;height:" + r[3] + '%"></i>'; }).join("") + "</span>";
+  }
+  /* full-size slide viewer with a close button (phones get stuck on a bare image tab) */
+  var svOpen = null;
+  function closeViewer(fromPop) {
+    if (!svOpen) return;
+    var v = svOpen; svOpen = null; v.remove(); document.body.classList.remove("noscroll");
+    if (!fromPop && history.state && history.state.sv) history.back();
+  }
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest("a.slide-open");
+    if (!a) return;
+    e.preventDefault();
+    var v = document.createElement("div");
+    v.className = "sviewer"; v.setAttribute("role", "dialog"); v.setAttribute("aria-modal", "true"); v.setAttribute("aria-label", a.dataset.cap || "Slide");
+    v.innerHTML = '<div class="sv-bar"><span>' + esc(a.dataset.cap || "") + '</span><button type="button" class="sv-x" aria-label="Close">&times;</button></div><div class="sv-scroll">' + a.innerHTML + '</div><p class="sv-tip">Tap the slide to zoom.</p>';
+    document.body.appendChild(v); document.body.classList.add("noscroll"); svOpen = v;
+    history.pushState({ sv: 1 }, "", location.href);
+    v.querySelector(".sv-x").addEventListener("click", function () { closeViewer(false); });
+    v.querySelector(".sv-x").focus();
+    v.addEventListener("click", function (ev) { if (ev.target === v || ev.target.classList.contains("sv-scroll")) closeViewer(false); });
+    v.querySelector(".slide-img").addEventListener("click", function () { v.classList.toggle("zoomed"); });
+  });
+  window.addEventListener("popstate", function () { if (svOpen) closeViewer(true); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && svOpen) closeViewer(false); });
+
   function slidesHTML(q) {
     if (!q.slides || !q.slides.length) return "";
     var groups = [];
@@ -1036,7 +1070,7 @@
     var lbl = groups.map(function (g) { return g.lec + ", " + unit + (g.n.length > 1 ? "s " : " ") + g.n.join(" and "); }).join("; ");
     return '<details class="slide-ref"><summary>See the ' + unit + (q.slides.length > 1 ? "s" : "") + " that explain" + (q.slides.length > 1 ? "" : "s") + " this <span>(" + esc(lbl) + ")</span></summary>" +
       q.slides.map(function (s) {
-        return '<figure><a href="' + esc(s.src) + '" target="_blank" rel="noopener" title="Open full size"><img loading="lazy" src="' + esc(s.src) + '" alt="' + esc(s.lec) + ", " + unit + " " + s.n + '"></a><figcaption>' + esc(s.lec) + ", " + unit + " " + s.n + ". Tap to open full size.</figcaption></figure>";
+        return '<figure><a class="slide-open" href="' + esc(s.src) + '" data-cap="' + esc(s.lec + ", " + unit + " " + s.n) + '" title="Open full size">' + slideImg(s, unit, q) + '</a><figcaption>' + esc(s.lec) + ", " + unit + " " + s.n + "." + (slideHL(q, s).length ? " The part in green answers the question." : "") + " Tap to open full size.</figcaption></figure>";
       }).join("") + "</details>";
   }
 

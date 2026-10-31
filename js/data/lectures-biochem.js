@@ -851,6 +851,562 @@ SINA.lectures["biochem-preanalytical"] = {
      "n": 59
     }
    ]
+  },
+  {
+   "q": "The analytical phase:",
+   "options": [
+    "Is the heart of the medical biologist's profession",
+    "Is where the biologist controls the accuracy of results",
+    "Includes the medical prescription",
+    "Is responsible for 68% of errors"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "The prescription belongs to the pre-analytical phase.",
+    "That figure is for the pre-analytical phase."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/14.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Pre-analytical errors lead to:",
+   "options": [
+    "Risks for the patient",
+    "Unnecessary extra cost of medical care",
+    "No consequence if the analyser is accurate",
+    "A gain in laboratory productivity"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "Above all.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/16.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "The stakeholders of the pre-analytical phase include:",
+   "options": [
+    "The prescription of analyses by the doctor",
+    "The validation of results by the biologist",
+    "The calibration of the analyser",
+    "The transport and conservation of the sample"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "That is post-analytical.",
+    "That is analytical.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "Prescription, patient precautions, equipment, procedure, sample (conservation and transport).",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/18.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 18
+    },
+    {
+     "src": "files/slides/biochem-preanalytical/19.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Why are many pre-analytical steps hard to master?",
+   "options": [
+    "They are fully automated",
+    "They are regulated by no standard",
+    "They take place outside the laboratory",
+    "Each step can cause an error in the results"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/19.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Cortisol:",
+   "options": [
+    "Doubles between its lowest and highest values of the day",
+    "Varies only with the patient's sex",
+    "Varies with the time of day",
+    "Is stable all day"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "Write the sampling time on the prescription.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/22.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 22
+    },
+    {
+     "src": "files/slides/biochem-preanalytical/23.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 23
+    },
+    {
+     "src": "files/slides/biochem-preanalytical/24.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "Hormones with a nycthemeral rhythm named in the lecture:",
+   "options": [
+    "Albumin",
+    "Adrenaline",
+    "Insulin",
+    "Thyroid hormones"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "Not a hormone.",
+    "And cortisol.",
+    "Not listed here.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/23.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "An alkaline phosphatase result:",
+   "options": [
+    "Rises in children because bone cells are active during growth",
+    "Can be normal in a child but high for an adult",
+    "Is lower in children than in adults",
+    "Rises in pregnancy because of bone loss"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Because of faster hepatic metabolism."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/26.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 26
+    }
+   ]
+  },
+  {
+   "q": "In a pregnant woman, the fall in proteins:",
+   "options": [
+    "Is not a pathological hypoproteinaemia",
+    "Is due to renal protein loss",
+    "Signals liver failure",
+    "Is due to haemodilution"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "The blood volume increases."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/27.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 27
+    }
+   ]
+  },
+  {
+   "q": "Changing from lying to standing during sampling changes the concentration of:",
+   "options": [
+    "Calcium",
+    "Sodium",
+    "Glucose",
+    "Proteins"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "Not given as an example.",
+    "Not given as an example.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "Rest 15 minutes in the same position before sampling.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/30.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 30
+    },
+    {
+     "src": "files/slides/biochem-preanalytical/31.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "q": "After a jog, creatine kinase:",
+   "options": [
+    "Is not affected by exercise",
+    "Can be multiplied by 4",
+    "Falls to zero",
+    "Is a muscle enzyme"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/33.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 33
+    }
+   ]
+  },
+  {
+   "q": "If the fast is not respected:",
+   "options": [
+    "The lipid profile can rise by 21%",
+    "The serum always stays translucent",
+    "The serum can look opalescent",
+    "No result is affected"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "Mention it on the prescription, otherwise the biologist reads it as pathological.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/34.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 34
+    },
+    {
+     "src": "files/slides/biochem-preanalytical/35.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "Incorrect use of the tourniquet:",
+   "options": [
+    "Lowers all results by 50%",
+    "Can raise result values by up to 10%",
+    "Is a cause of haemolysis when too tight or too long",
+    "Has no effect on results"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/42.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 42
+    },
+    {
+     "src": "files/slides/biochem-preanalytical/58.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 58
+    }
+   ]
+  },
+  {
+   "q": "The tourniquet should be avoided for the following parameters:",
+   "options": [
+    "Cortisol",
+    "Lactate",
+    "Ammonium",
+    "Bilirubin"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "Not on the list.",
+    "",
+    "Also albumin and calcium.",
+    "Not on the list."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/58.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 58
+    }
+   ]
+  },
+  {
+   "q": "If the veins are visible or palpable:",
+   "options": [
+    "Sampling must be done by syringe",
+    "The tourniquet must be very tight",
+    "The tourniquet must be kept 5 minutes",
+    "The tourniquet is not necessary"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "A vacuum system is recommended.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/41.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "q": "Tubes with separator gel also:",
+   "options": [
+    "Increase the serum volume available for the assay",
+    "Protect the result if red cells lyse during transport",
+    "Replace the need for labelling",
+    "Allow analysis 48 hours later without conservation"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "Haemoglobin stays out of the serum.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/46.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 46
+    }
+   ]
+  },
+  {
+   "q": "After filling a tube:",
+   "options": [
+    "Do not mix it at all",
+    "Mix it gently 5 to 10 times",
+    "Mix within 2 minutes",
+    "Shake it hard for 1 minute"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/49.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 49
+    }
+   ]
+  },
+  {
+   "q": "An error in sample identification:",
+   "options": [
+    "Is rare and never happens in practice",
+    "Is checked by comparing name and identifier with the prescription",
+    "Leads to rejection of the sample",
+    "Is corrected by relabelling in the laboratory"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "Identity mistakes are not uncommon.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/50.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 50
+    }
+   ]
+  },
+  {
+   "q": "Non-conformities:",
+   "options": [
+    "Are always analysed anyway",
+    "Concern only the analytical phase",
+    "Include an unlabelled tube",
+    "Cost about 25% of the annual budget for sampling material"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "Acceptance or rejection criteria must be set.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/51.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 51
+    },
+    {
+     "src": "files/slides/biochem-preanalytical/52.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 52
+    }
+   ]
   }
  ],
  "cards": [
@@ -1623,6 +2179,642 @@ SINA.lectures["biochem-adrenal-medulla"] = {
      "n": 19
     }
    ]
+  },
+  {
+   "q": "The name adrenaline:",
+   "options": [
+    "Comes from the Latin ad renes, near the kidney",
+    "Epinephrine comes from the Greek, above the kidney",
+    "Comes from the Greek for heart",
+    "Means made in the brain"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "Used by Americans.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/03.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 3
+    }
+   ]
+  },
+  {
+   "q": "Catecholamines play a fundamental role in:",
+   "options": [
+    "Keeping blood pressure and blood glucose constant",
+    "The response to body needs such as muscular exercise",
+    "Bone mineralisation",
+    "Long-term growth"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "Not listed.",
+    "Not listed."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "Immediate response to stress, response to body needs, keeping parameters constant.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/03.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 3
+    }
+   ]
+  },
+  {
+   "q": "Arguments that the adrenal medulla is a sympathetic ganglion with endocrine evolution:",
+   "options": [
+    "Embryology: it derives from the neural crest",
+    "It contains no neurotransmitters",
+    "It derives from the mesoderm like the cortex",
+    "Histology: chromaffin cells grouped in clusters around capillaries"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "Its three catecholamines are neurotransmitters.",
+    "It derives from the neural crest.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "Embryology, histology and neurophysiology support the concept.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/04.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "Where are the catecholamines mainly stored?",
+   "options": [
+    "Dopamine: mainly in the adrenal cortex",
+    "Adrenaline: mainly in the liver",
+    "Adrenaline: in the chromaffin cells of the adrenal medulla",
+    "Noradrenaline: in synaptic vesicles of noradrenergic neurons"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "Dopaminergic neurons are mainly in the CNS.",
+    "",
+    "80% of stored catecholamines there.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/04.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "Phenylalanine, the precursor of catecholamines:",
+   "options": [
+    "Is hydroxylated into tyrosine",
+    "Is decarboxylated directly into dopamine",
+    "Is an essential amino acid",
+    "Is a steroid derived from cholesterol"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "By phenylalanine hydroxylase.",
+    "DOPA is decarboxylated into dopamine.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/05.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "Order of the catecholamines in the synthesis chain:",
+   "options": [
+    "Dopamine is made from adrenaline",
+    "Adrenaline is the last step of synthesis",
+    "Noradrenaline is the 1st catecholamine",
+    "Dopamine is the 1st catecholamine"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "The chain runs the other way.",
+    "The 3rd catecholamine.",
+    "It is the 2nd.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/05.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "The enzyme that converts noradrenaline into adrenaline is:",
+   "options": [
+    "Dopamine beta-hydroxylase",
+    "Phenylalanine N-methyl transferase (PNMT)",
+    "DOPA decarboxylase",
+    "Catechol-O-methyl transferase (COMT) of the liver"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "Makes noradrenaline from dopamine.",
+    "Methylation.",
+    "Makes dopamine.",
+    "A degradation enzyme."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/05.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "Dopamine beta-hydroxylase:",
+   "options": [
+    "Acts on dopamine",
+    "Is the feedback-controlled step",
+    "Produces DOPA",
+    "Produces noradrenaline"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "Beta-hydroxylation of dopamine.",
+    "That is tyrosine hydroxylase.",
+    "Tyrosine hydroxylase does.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/05.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "Reflex stimulation of catecholamine secretion occurs with:",
+   "options": [
+    "Hypoxia, sensed by carotid chemoreceptors",
+    "Hypothermia",
+    "Emotion",
+    "Low blood pressure, sensed by aortic and carotid baroreceptors"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "That is a central stimulus.",
+    "An intercentral stimulus.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "Reflex: low BP, hypoxia, hypercapnia. Central: hypoglycaemia, hypothermia. Intercentral: pain, emotion, stress, exercise.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/06.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "Central stimuli of catecholamine secretion are:",
+   "options": [
+    "Muscular exercise",
+    "Hypoglycaemia",
+    "Hypercapnia",
+    "Hypothermia"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "An intercentral stimulus.",
+    "",
+    "A reflex stimulus (chemoreceptors).",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/06.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "The peripheral nerve pathway stimulating the adrenal medulla is:",
+   "options": [
+    "The splanchnic nerves",
+    "The phrenic nerve of the diaphragm",
+    "The vagus nerve",
+    "The optic nerve"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "Sympathetic.",
+    "",
+    "Parasympathetic.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/06.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "Retrocontrol of catecholamine secretion acts directly on:",
+   "options": [
+    "Monoamine oxidase",
+    "The centres of the central nervous system",
+    "The adrenal cortex",
+    "The enzyme tyrosine hydroxylase"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "Not listed.",
+    "",
+    "Not listed.",
+    "Feedback at the DOPA step."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "Feedback acts on the CNS centres, the carotids and tyrosine hydroxylase.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/07.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "Catecholamine receptors at organ level:",
+   "options": [
+    "Alpha receptors have the higher affinity for adrenaline",
+    "Alpha receptors outnumber beta receptors",
+    "Beta receptors have a higher affinity for adrenaline",
+    "Beta receptors outnumber alpha receptors"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/08.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Stimulation of beta-1 receptors causes:",
+   "options": [
+    "Vasoconstriction of the skin",
+    "Bronchodilation",
+    "Lipolysis in adipose tissue",
+    "Increased strength and rate of the heart"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "Alpha-1.",
+    "Beta-2.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/08.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Catecholamine effects on the heart and vessels:",
+   "options": [
+    "Increased myocardial oxygen consumption",
+    "Increased venous return",
+    "Vasodilation in splanchnic and cutaneous territories",
+    "Decreased cardiac output"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "Vasoconstriction in inactive territories.",
+    "Cardiac output increases."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/10.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "Catecholamine actions on the intestine and uterus:",
+   "options": [
+    "Uterine relaxation through alpha receptors",
+    "Decreased intestinal motility",
+    "Uterine relaxation through beta-2 receptors",
+    "Increased intestinal motility"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "Alpha receptors contract the uterus.",
+    "With contraction of sphincters.",
+    "Used against premature contractions.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/11.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Catecholamine effects on glands and striated muscle:",
+   "options": [
+    "Persistent sweat gland secretion",
+    "Faster fatigue of striated muscle",
+    "Inhibition of gastric, salivary and pancreatic secretions",
+    "Inhibition of sweat glands"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "In fear, the mouth is dry and we sweat.",
+    "They increase tone and delay fatigue.",
+    "",
+    "Sweating persists."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/12.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Catecholamines and blood glucose:",
+   "options": [
+    "They cause severe hypoglycaemia",
+    "They stimulate insulin secretion",
+    "Their glycogenolysis is mainly muscular, so the effect on glycaemia is small",
+    "They inhibit insulin secretion"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "They inhibit it.",
+    "",
+    "In favour of mild hyperglycaemia."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/13.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "Inactivation of catecholamines by uptake:",
+   "options": [
+    "It takes place only in the kidney",
+    "Excess catecholamines are captured by nerve endings",
+    "They are stored in vesicles, protected from chemical catabolism",
+    "It is carried out by COMT"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "COMT is chemical inactivation."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/14.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "COMT (catechol-O-methyl transferase):",
+   "options": [
+    "Mainly degrades circulating catecholamines",
+    "Mainly degrades noradrenaline in nerve endings",
+    "Acts in 20% of cases",
+    "Turns adrenaline into metanephrine"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "That is MAO.",
+    "70%; MAO acts in 20%.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/14.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Clinical features that distinguish the two adrenal medulla tumours:",
+   "options": [
+    "Phaeochromocytoma has very non-specific symptoms",
+    "Neuroblastoma is benign in 90% of cases",
+    "Phaeochromocytoma appears in adults aged 20 to 50",
+    "Neuroblastoma appears in early childhood"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "It causes arterial hypertension.",
+    "Phaeochromocytoma is; neuroblastoma is malignant.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/17.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Pharmacological and clinical interest of the adrenal medulla:",
+   "options": [
+    "Adrenaline-based treatments are used in shock",
+    "Adrenaline-based treatments are used in asthma attacks",
+    "Catecholamines cause slow, long-lasting reactions",
+    "The adrenal medulla dampens the fight response"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "They cause brief reactions throughout the body.",
+    "It intensifies the fight response."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/20.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 20
+    }
+   ]
   }
  ],
  "cards": [
@@ -2242,6 +3434,790 @@ SINA.lectures["biochem-insulin"] = {
     "Monthly.",
     "",
     ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/14.jpg",
+     "lec": "Insulin",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Insulin secretion depends on:",
+   "options": [
+    "A high blood sugar",
+    "The presence of food in the digestive tract",
+    "Sleep duration",
+    "Thyroid hormone levels"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "Insulin is secreted according to nutritional status.",
+    "",
+    "Not listed; the lecture names nutritional status and physical activity.",
+    "Not listed as a factor of insulin secretion."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "Insulin is secreted according to nutritional status (high blood sugar, food in the gut) and physical activity.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/03.jpg",
+     "lec": "Insulin",
+     "n": 3
+    }
+   ]
+  },
+  {
+   "q": "The storage sites of dietary glucose named in the lecture are:",
+   "options": [
+    "The kidneys",
+    "The muscles",
+    "The adipose tissue",
+    "The brain"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "Not a storage site in the lecture.",
+    "",
+    "With the muscles and the liver.",
+    "Not a storage site in the lecture."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "Muscles, adipose tissue and liver store dietary glucose.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/03.jpg",
+     "lec": "Insulin",
+     "n": 3
+    }
+   ]
+  },
+  {
+   "q": "About insulin in general:",
+   "options": [
+    "Its name comes from the Latin insula, island",
+    "It is secreted by the alpha cells of the islets",
+    "It is a steroid hormone made from cholesterol",
+    "Its absence is fatal within a few months"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "After the islets of Langerhans.",
+    "By the beta cells.",
+    "It is a peptide hormone.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/03.jpg",
+     "lec": "Insulin",
+     "n": 3
+    }
+   ]
+  },
+  {
+   "q": "On a stained histological section of the pancreas:",
+   "options": [
+    "Beta cells are scattered singly in the exocrine tissue",
+    "The exocrine pancreatic tissue appears in blue",
+    "Beta cells appear in red, grouped around blood vessels",
+    "All pancreatic tissue stains red"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "They are grouped together.",
+    "",
+    "They surround the vessels to secrete insulin into the blood.",
+    "The rest of the tissue stains blue."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/04.jpg",
+     "lec": "Insulin",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "The B chain of insulin:",
+   "options": [
+    "Has 21 amino acids",
+    "Carries the intrachain disulphide bridge",
+    "Has 30 amino acids",
+    "Is the long chain of insulin"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "That is the A chain.",
+    "The intrachain bridge is on chain A.",
+    "The long chain.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/05.jpg",
+     "lec": "Insulin",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "The disulphide bridges of insulin:",
+   "options": [
+    "There are five bridges in total",
+    "There is one intrachain bridge, on chain A",
+    "There is one intrachain bridge, on chain B",
+    "Two of them link chain A to chain B"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "Three in total.",
+    "",
+    "It is on chain A.",
+    "Two interchain bridges."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/05.jpg",
+     "lec": "Insulin",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "From the insulin gene to proinsulin:",
+   "options": [
+    "Pre-pro-insulin is transformed into proinsulin",
+    "Translation first gives pre-pro-insulin",
+    "The gene is on the long arm of chromosome 11",
+    "Proinsulin is made of chains A and B only"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "Proinsulin contains the 3 linked chains A-B-C.",
+    "",
+    "On the short arm.",
+    "It also contains chain C."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/06.jpg",
+     "lec": "Insulin",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "Proinsulin:",
+   "options": [
+    "Circulates freely in the blood as the active hormone",
+    "Is mainly found in the alpha cells",
+    "Is a molecule folded on itself with disulphide bridges",
+    "Is stored in secretory granules until stimulation"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "It is stored in the beta cell; insulin is what gets secreted.",
+    "Proinsulin granules are abundant in the beta cells.",
+    "Intra- and interchain bridges.",
+    "Granules wait for post-prandial hyperglycaemia."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/06.jpg",
+     "lec": "Insulin",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "The release of C-peptide from proinsulin:",
+   "options": [
+    "Is triggered when the granules are stimulated",
+    "Happens in the blood after secretion",
+    "Is done by a lipase in the liver",
+    "Is done by a proteinase that cleaves proinsulin"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "By food (glucose) or hormones (glucagon).",
+    "It happens in the beta cell before secretion.",
+    "A proteinase in the beta cell cleaves it.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/07.jpg",
+     "lec": "Insulin",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "Stimuli of the insulin secretory granules named in the lecture:",
+   "options": [
+    "Cold exposure",
+    "Food (glucose)",
+    "Fasting",
+    "Glucagon"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "Not listed.",
+    "",
+    "Secretion follows food intake.",
+    "A hormone that stimulates the granules."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/07.jpg",
+     "lec": "Insulin",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "What does the beta cell secrete into the bloodstream?",
+   "options": [
+    "Insulin",
+    "Pre-pro-insulin",
+    "C-peptide",
+    "Glucagon"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "It is an intracellular precursor.",
+    "Insulin and C-peptide are secreted together.",
+    "Glucagon is a stimulus, not a beta-cell product in this lecture."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/07.jpg",
+     "lec": "Insulin",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "In the beta cell, the step that directly follows membrane depolarisation is:",
+   "options": [
+    "A fall in intracellular ATP production in the cell",
+    "Opening of the voltage-gated calcium channels",
+    "Activation of the insulin gene",
+    "Closing of the glucose transporters at the cell membrane"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "ATP rises before depolarisation.",
+    "Ca2+ then rises inside the cell.",
+    "That comes later, through the autocrine loop.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "Glucose enters → ATP rises → K+ release inhibited → depolarisation → Ca2+ channels open → exocytosis.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/08.jpg",
+     "lec": "Insulin",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Intracellular calcium in the beta cell:",
+   "options": [
+    "Blocks the exocytosis of insulin granules",
+    "Rises when the voltage-gated calcium channels open",
+    "Stimulates contractile systems that move insulin vesicles to the membrane",
+    "Falls during insulin secretion"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "It triggers it.",
+    "",
+    "",
+    "It rises."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/08.jpg",
+     "lec": "Insulin",
+     "n": 8
+    },
+    {
+     "src": "files/slides/biochem-insulin/09.jpg",
+     "lec": "Insulin",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "The entry of glucose into the pancreatic beta cell:",
+   "options": [
+    "Inhibits the voltage-gated calcium channels",
+    "Opens potassium channels to hyperpolarise the cell",
+    "Starts a cascade ending in exocytosis of insulin granules",
+    "Increases ATP production in the cell"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "They open.",
+    "Potassium release is inhibited; the cell depolarises.",
+    "",
+    "Through glucose metabolism."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/08.jpg",
+     "lec": "Insulin",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Insulin acts on carbohydrate metabolism in the liver by:",
+   "options": [
+    "Activating gluconeogenesis",
+    "Activating the pentose phosphate pathway",
+    "Inhibiting the exit of free glucose into the blood",
+    "Activating glycogenolysis"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "Inhibited.",
+    "",
+    "",
+    "Inhibited."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/10.jpg",
+     "lec": "Insulin",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "The large consumers of glucose named in the lecture are:",
+   "options": [
+    "The bones",
+    "The liver",
+    "The skin",
+    "The muscles"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/10.jpg",
+     "lec": "Insulin",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "Insulin inhibits:",
+   "options": [
+    "Gluconeogenesis in the liver",
+    "Glycogenesis in liver and muscle",
+    "Glycolysis in liver and muscle",
+    "Glycogenolysis in liver and muscle"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "Activated.",
+    "Activated.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/10.jpg",
+     "lec": "Insulin",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "In the adipocyte, insulin:",
+   "options": [
+    "Activates glucose entry and its conversion to acetyl-CoA",
+    "Blocks the synthesis of fatty acids",
+    "Activates lipolysis",
+    "Activates the entry of fatty acids from lipoproteins"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "Acetyl-CoA is needed to synthesise fatty acids.",
+    "It favours it.",
+    "Inhibits it.",
+    "And triglyceride synthesis."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/11.jpg",
+     "lec": "Insulin",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Glucose that enters the adipocyte under insulin is converted into:",
+   "options": [
+    "Ketone bodies",
+    "Acetyl-CoA, for fatty acid synthesis",
+    "Lactate, for export to the liver",
+    "Glycogen, stored as the main reserve"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Not described for the adipocyte."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/11.jpg",
+     "lec": "Insulin",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Insulin on protein metabolism:",
+   "options": [
+    "Stimulates protein catabolism",
+    "Inhibits amino acid uptake by muscle",
+    "Inhibits the conversion of amino acids into glucose",
+    "Stimulates protein anabolism"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "Inhibited.",
+    "Stimulated.",
+    "Gluconeogenesis.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/12.jpg",
+     "lec": "Insulin",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Insulin and sodium:",
+   "options": [
+    "Insulin causes a large loss of sodium in the urine",
+    "Insulin has no effect on sodium",
+    "Insulin stimulates glucose and sodium co-transport",
+    "Insulin blocks all sodium entry into the body's cells"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "Not described.",
+    "The lecture lists a sodium effect.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/12.jpg",
+     "lec": "Insulin",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Insulin represses the expression of genes involved in:",
+   "options": [
+    "Gluconeogenesis",
+    "Glycolysis",
+    "Lipogenesis",
+    "Protein anabolism"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "Activated (glucokinase, pyruvate kinase).",
+    "Activated (fatty acid synthetase).",
+    "Not listed under gene repression."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/13.jpg",
+     "lec": "Insulin",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "Enzymes whose genes are activated by insulin:",
+   "options": [
+    "Phenylalanine hydroxylase",
+    "Fatty acid synthetase",
+    "Pyruvate kinase",
+    "Aromatase"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "Lipogenesis.",
+    "Glycolysis.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/13.jpg",
+     "lec": "Insulin",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "For the biological diagnosis of diabetes, the lecture lists:",
+   "options": [
+    "Serum ferritin",
+    "Fasting blood glucose",
+    "Induced hyperglycaemia per os, for pre-diabetic states",
+    "Serum troponin"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "An iron reserve marker.",
+    "",
+    "",
+    "A cardiac marker."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "Fasting glucose, HbA1c, glycosuria-ketonuria and the oral glucose challenge.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/14.jpg",
+     "lec": "Insulin",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "HbA1c (glycated haemoglobin):",
+   "options": [
+    "Is replaced by troponin when haemoglobin is abnormal",
+    "Is checked every 2 to 3 months",
+    "Is measured by HPLC, which can reveal a haemoglobinopathy",
+    "Is checked every week"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "Fructosamines replace it.",
+    "",
+    "",
+    "Every 2 to 3 months."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/14.jpg",
+     "lec": "Insulin",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "In the monitoring of a diabetic patient:",
+   "options": [
+    "Fructosamines are followed every 15 days when used",
+    "Microalbuminuria is never useful",
+    "Fasting and post-prandial glucose are checked every month",
+    "The lipid profile is not part of follow-up"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "The alternative to HbA1c in haemoglobinopathy.",
+    "It is part of follow-up, with creatinine and urea.",
+    "",
+    "It is listed."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/14.jpg",
+     "lec": "Insulin",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Self-monitoring with reactive strips in diabetes looks for:",
+   "options": [
+    "Haematuria",
+    "Glycosuria",
+    "Bilirubinuria",
+    "Acetonuria"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "Not listed.",
+    "",
+    "Not listed.",
+    "And proteinuria."
    ],
    "multi": true,
    "hint": "1 or 2 correct answers",
@@ -4138,6 +6114,98 @@ SINA.lectures["biochem-steroids"] = {
      "src": "files/slides/biochem-steroids/66.jpg",
      "lec": "Steroid hormones",
      "n": 66
+    }
+   ]
+  },
+  {
+   "q": "Cortisol degradation:",
+   "options": [
+    "Cortisol is produced at about 20 mg per day",
+    "It is metabolised in the liver into cortisone",
+    "It is degraded mainly in the ovary",
+    "It is excreted unchanged in the urine"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "By 11β-dehydrogenase.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/24.jpg",
+     "lec": "Steroid hormones",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "Regulation of glucocorticoids:",
+   "options": [
+    "Cortisol exerts negative feedback on ACTH and CRF",
+    "ACTH activates cortisol synthesis",
+    "Cortisol stimulates ACTH secretion",
+    "Blood volume is the main regulator of cortisol"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Blood volume regulates aldosterone through the RAAS."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/53.jpg",
+     "lec": "Steroid hormones",
+     "n": 53
+    },
+    {
+     "src": "files/slides/biochem-steroids/54.jpg",
+     "lec": "Steroid hormones",
+     "n": 54
+    }
+   ]
+  },
+  {
+   "q": "Ovarian pathology:",
+   "options": [
+    "Hypermenorrhoea points to dominant hyperoestrogenism",
+    "Turner syndrome has an XXY karyotype",
+    "Dysmenorrhoea points to excess progesterone",
+    "Turner syndrome is an ovarian dysgenesis (XO)"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "XXY is Klinefelter.",
+    "To luteal insufficiency.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/65.jpg",
+     "lec": "Steroid hormones",
+     "n": 65
     }
    ]
   }
@@ -11439,6 +13507,480 @@ SINA.lectures["biochem-thyroid"] = {
      "src": "files/slides/biochem-thyroid/37.jpg",
      "lec": "Thyroid hormones",
      "n": 37
+    }
+   ]
+  },
+  {
+   "q": "The thyroid gland:",
+   "options": [
+    "Is a vital organ",
+    "Rests on the trachea, just below the larynx",
+    "Lies at the back of the neck",
+    "Can be absent without consequence"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "The absence of thyroid hormones is not compatible with life.",
+    "",
+    "At the front.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/03.jpg",
+     "lec": "Thyroid hormones",
+     "n": 3
+    }
+   ]
+  },
+  {
+   "q": "The thyrocytes (follicular cells):",
+   "options": [
+    "Are very active cells with high protein synthesis",
+    "Have an apical pole facing the colloid",
+    "Have their apical pole facing the blood vessels",
+    "Contain no Golgi apparatus"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "Granular ER, Golgi, many apical vesicles.",
+    "",
+    "The basal pole faces the vessels.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/05.jpg",
+     "lec": "Thyroid hormones",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "Thyronine:",
+   "options": [
+    "Is formed by condensing two tyrosines",
+    "Contains no tyrosine",
+    "Is a steroid ring",
+    "Has 2 aromatic rings joined by an ether bridge"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/07.jpg",
+     "lec": "Thyroid hormones",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "Thyroglobulin synthesis:",
+   "options": [
+    "Takes place in the colloid",
+    "Takes place in the liver",
+    "Starts in the ribosomes",
+    "Thyroglobulin contains tyrosine and thyronine"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "It is discharged into the colloid after synthesis.",
+    "",
+    "Then the Golgi and endoplasmic reticulum.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/08.jpg",
+     "lec": "Thyroid hormones",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Iodine bound to the tyrosines of thyroglobulin gives:",
+   "options": [
+    "Diiodotyrosine (DIT)",
+    "Thyroglobulin antibodies",
+    "Monoiodotyrosine (MIT)",
+    "TSH"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/09.jpg",
+     "lec": "Thyroid hormones",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "Reverse T3:",
+   "options": [
+    "Is made only in the liver",
+    "Is inactive",
+    "Is the most active thyroid hormone",
+    "Is synthesised and secreted by the thyroid"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "T3 is.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/10.jpg",
+     "lec": "Thyroid hormones",
+     "n": 10
+    },
+    {
+     "src": "files/slides/biochem-thyroid/11.jpg",
+     "lec": "Thyroid hormones",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Release of thyroid hormones from thyroglobulin:",
+   "options": [
+    "Lysosomal enzymes separate the hormones from thyroglobulin",
+    "Thyroglobulin enters the thyrocyte by endocytosis",
+    "TPO cuts the hormones off",
+    "Thyroglobulin is secreted into the blood with the hormones"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/11.jpg",
+     "lec": "Thyroid hormones",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Iodine from MIT and DIT:",
+   "options": [
+    "Is recycled for new thyroid hormones",
+    "Is lost in the stool",
+    "Is secreted into the blood as MIT and DIT",
+    "Is released by deiodinase"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "A cytoplasmic enzyme."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/11.jpg",
+     "lec": "Thyroid hormones",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Thyroid hormone receptors:",
+   "options": [
+    "The receptor shape is complementary to the hormone",
+    "One receptor binds T3 and T4 equally",
+    "Receptors bind thyroglobulin",
+    "Each receptor binds only its own specific hormone"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/15.jpg",
+     "lec": "Thyroid hormones",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "A fall in blood T4:",
+   "options": [
+    "Directly stimulates the adrenal cortex",
+    "Stimulates the release of TRH by the hypothalamus",
+    "Exerts a negative feedback on the pituitary",
+    "Leads to TSH release by the pituitary"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "That is a rise in T4.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/17.jpg",
+     "lec": "Thyroid hormones",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Signs of hypothyroidism:",
+   "options": [
+    "Feeling cold",
+    "Weight loss with good appetite",
+    "Slow heart rate",
+    "Hand tremor"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "That is hyperthyroidism.",
+    "",
+    "That is hyperthyroidism."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/27.jpg",
+     "lec": "Thyroid hormones",
+     "n": 27
+    }
+   ]
+  },
+  {
+   "q": "In peripheral hypothyroidism from iodine deficiency, the goitre is due to:",
+   "options": [
+    "Low TSH",
+    "Constant stimulation of the thyroid by TSH",
+    "Excess thyroid hormones",
+    "Accumulation of colloid without hormone synthesis"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "TSH is high.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/27.jpg",
+     "lec": "Thyroid hormones",
+     "n": 27
+    },
+    {
+     "src": "files/slides/biochem-thyroid/29.jpg",
+     "lec": "Thyroid hormones",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "Thyroid disease:",
+   "options": [
+    "Is rare",
+    "Has a morphological aspect (goitre, nodule, cancer)",
+    "Has an endocrine aspect (hyper- or hypothyroidism)",
+    "A goitre always means hyperthyroidism"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "It is common.",
+    "",
+    "",
+    "It can go with either."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/28.jpg",
+     "lec": "Thyroid hormones",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "Causes of hypothyroidism listed in the lecture:",
+   "options": [
+    "Pregnancy hCG binding the TSH receptor",
+    "Graves' disease",
+    "Thyroid agenesis or ectopia during fetal life",
+    "Post-surgical removal of the thyroid"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "A cause of hyperthyroidism.",
+    "A cause of hyperthyroidism.",
+    "Causes cretinism and dwarfism.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/35.jpg",
+     "lec": "Thyroid hormones",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "Before an iodinated contrast injection:",
+   "options": [
+    "The iodine in the product can disturb thyroid results",
+    "The thyroid work-up should be done away from the injection",
+    "Iodine contrast has no effect on thyroid tests",
+    "Thyroid tests are improved by the contrast"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/32.jpg",
+     "lec": "Thyroid hormones",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "Regarding Graves' disease, the lecture says:",
+   "options": [
+    "Is of autoimmune origin",
+    "Its antibodies resemble TSH and bind the TSH receptor",
+    "Is caused by a lack of iodine",
+    "Lowers FT4 and FT3"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "They stimulate it continuously.",
+    "That causes endemic goitre.",
+    "It is a hyperthyroidism."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/30.jpg",
+     "lec": "Thyroid hormones",
+     "n": 30
     }
    ]
   },

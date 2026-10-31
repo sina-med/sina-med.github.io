@@ -2,6 +2,12 @@
    date: what people see. items: short lines. */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
+  { date: "31 October 2026", items: [
+    "The number of questions you pick now really applies: every Clinical Biochemistry midterm lecture has 40 questions (88 new ones), and the menu only offers counts the lectures can fill.",
+    "Slides open full screen inside the site, with a close button (×) in the top corner, so you are no longer stuck on the picture on your phone. Tap the slide to zoom.",
+    "On the slide under each answer, the part that answers the question is highlighted in green.",
+    "The lecture picker in Questions has rounded rows and round ticks, and the home page can show a countdown to the next midterm."
+  ]},
   { date: "30 October 2026", items: [
     "The upcoming midterm is now Clinical Biochemistry (Prof. Kamal): pre-analytical phase, thyroid hormones, adrenal medulla, insulin and steroid hormones.",
     "New lecture page: Thyroid hormones.",

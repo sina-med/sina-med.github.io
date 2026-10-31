@@ -798,3 +798,18 @@ h2[id^="sec-"] { scroll-margin-top: 7.5rem; }
 .pick-head .qn { background: none; padding: 0; text-transform: none; letter-spacing: 0; }
 .mid-count { margin: 0.1rem 0 0.4rem; font-size: 0.95rem; }
 .mid-count strong { color: var(--accent); }
+
+/* slide images: green answer highlight + full-size viewer (Oct 31) */
+.slide-open { display: block; }
+.slide-img { position: relative; display: block; line-height: 0; }
+.slide-img img { display: block; width: 100%; height: auto; border-radius: 6px; border: 1px solid var(--line); background: #fff; }
+.slide-img .hl { position: absolute; border-radius: 4px; background: rgba(34, 197, 94, 0.28); box-shadow: 0 0 0 2px rgba(22, 163, 74, 0.85); pointer-events: none; }
+.sviewer { position: fixed; inset: 0; z-index: 1000; background: rgba(10, 12, 14, 0.97); display: flex; flex-direction: column; }
+.sv-bar { display: flex; align-items: center; justify-content: space-between; gap: 0.8rem; padding: 0.6rem 0.8rem 0.6rem 1rem; color: #fff; font-size: 0.9rem; padding-top: max(0.6rem, env(safe-area-inset-top)); }
+.sv-x { flex: none; width: 2.6rem; height: 2.6rem; border-radius: 50%; border: 0; background: rgba(255,255,255,0.16); color: #fff; font-size: 1.8rem; line-height: 1; cursor: pointer; display: grid; place-items: center; }
+.sv-x:hover, .sv-x:focus-visible { background: rgba(255,255,255,0.3); outline: none; }
+.sv-scroll { flex: 1; overflow: auto; display: flex; align-items: center; justify-content: center; padding: 0.5rem; -webkit-overflow-scrolling: touch; }
+.sv-scroll .slide-img { width: min(100%, 1100px); cursor: zoom-in; }
+.sviewer.zoomed .sv-scroll { align-items: flex-start; justify-content: flex-start; }
+.sviewer.zoomed .sv-scroll .slide-img { width: 220%; max-width: none; cursor: zoom-out; }
+.sv-tip { color: rgba(255,255,255,0.6); font-size: 0.8rem; text-align: center; margin: 0.3rem 0 max(0.6rem, env(safe-area-inset-bottom)); }
