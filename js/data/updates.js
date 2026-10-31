@@ -3,8 +3,12 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "31 October 2026", items: [
+    "Added opening animation.",
+    "Added Leaderboard: post exam-mode past paper scores under a nickname; ranking per paper and overall.",
+    "Changed: Report a mistake now sends the report directly.",
     "Added animated caduceus to the home page.",
-    "Added midterm card progress ring (midterm questions answered right) and day countdown.",
+    "Added midterm card progress ring with heartbeat trace, and day countdown.",
+    "Fixed: midterm progress ring now counts past paper questions and no longer rounds a small start down to 0%.",
     "Added My progress: accuracy per lecture, weakest lectures, streak.",
     "Added Redo my mistakes: every missed question in one quiz.",
     "Added Exam mode (timed, answers at the end) for past papers and lecture sets.",

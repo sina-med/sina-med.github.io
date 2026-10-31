@@ -1712,21 +1712,22 @@
     };
     return '<div class="hero-art" aria-hidden="true"><svg class="cad-wings" viewBox="0 0 340 150"><g transform="translate(170 52)"><g class="cw l">' + f("l") + '</g><g class="cw r">' + f("r") + '</g></g></svg><canvas id="cad" width="440" height="720"></canvas></div>';
   }
-  function startCaduceus(cv) {
-    if (!cv) return;
+  function startCaduceus(cv, opt) {
+    if (!cv) return; opt = opt || {};
     var c = cv.getContext("2d"), W = cv.width, H = cv.height, t0 = performance.now();
     var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
     var cs = getComputedStyle(document.documentElement), v = function (n) { return cs.getPropertyValue(n).trim(); };
     function frame(now) {
       if (!cv.isConnected) return;
       cs = getComputedStyle(document.documentElement);
-      var t = (now - t0) / 1000, cx = W / 2, top = H * 0.1, bot = H * 0.96, amp = W * 0.2, turns = 3.1, segs = 160;
+      var t = (now - t0) / 1000, g = opt.grow ? Math.max(0, Math.min(1, (t - (opt.delay || 0)) / opt.grow)) : 1, cx = W / 2, top = H * 0.1, bot = H * 0.96, amp = W * 0.2, turns = 3.1, segs = 160;
       var rod = v("--muted"), col = [v("--accent"), v("--snake2") || v("--sage")];
       c.clearRect(0, 0, W, H);
       var bodies = [];
       for (var s = 0; s < 2; s++) {
         var pts = [], ph = (reduce ? 0 : t * 1.6) + s * Math.PI;
-        for (var i = 0; i <= segs; i++) {
+        var gs = Math.max(6, Math.round(segs * (1 - Math.pow(1 - g, 3))));
+        for (var i = 0; i <= gs; i++) {
           var u = i / segs, y = bot - u * (bot - top) * 0.92, a = u * turns * 2 * Math.PI - ph * 0.35;
           var taper = u < 0.12 ? u / 0.12 : 1, tail = 1 - Math.pow(1 - u, 3);
           pts.push({ x: cx + Math.sin(a) * amp * (0.55 + 0.45 * tail), y: y, z: Math.cos(a), w: W * 0.05 * (0.35 + 0.65 * taper) * (u > 0.94 ? 1.15 : 1) });
@@ -1734,9 +1735,10 @@
         bodies.push({ pts: pts, col: col[s] });
       }
       var seg = function (p, q, colr, back) { c.strokeStyle = colr; c.globalAlpha = back ? 0.5 : 1; c.lineWidth = (p.w + q.w) / 2; c.lineCap = "round"; c.beginPath(); c.moveTo(p.x, p.y); c.lineTo(q.x, q.y); c.stroke(); c.globalAlpha = 1; };
+      if (g === 0) bodies = [];
       bodies.forEach(function (b) { for (var i = 1; i < b.pts.length; i++) if (b.pts[i].z < 0) seg(b.pts[i - 1], b.pts[i], b.col, true); });
-      c.strokeStyle = rod; c.lineWidth = W * 0.032; c.lineCap = "round"; c.beginPath(); c.moveTo(cx, H * 0.06); c.lineTo(cx, H * 0.99); c.stroke();
-      c.fillStyle = rod; c.beginPath(); c.arc(cx, H * 0.05, W * 0.035, 0, 7); c.fill();
+      c.strokeStyle = rod; c.lineWidth = W * 0.032; c.lineCap = "round"; var rg = opt.grow ? Math.min(1, t / ((opt.delay || 0) + 0.2) ) : 1; c.beginPath(); c.moveTo(cx, H * 0.99); c.lineTo(cx, H * 0.99 - (H * 0.93) * (1 - Math.pow(1 - rg, 2))); c.stroke();
+      if (rg >= 1) { c.fillStyle = rod; c.beginPath(); c.arc(cx, H * 0.05, W * 0.035, 0, 7); c.fill(); }
       bodies.forEach(function (b) {
         for (var i = 1; i < b.pts.length; i++) if (b.pts[i].z >= 0) seg(b.pts[i - 1], b.pts[i], b.col, false);
         c.fillStyle = "rgba(255,255,255,.35)";
@@ -1753,18 +1755,36 @@
     }
     requestAnimationFrame(frame);
   }
+
+  /* progress ring with a heartbeat trace; the trace pulses once when the ring has filled */
+  function heartRing(pct, done) {
+    var C = 2 * Math.PI * 42;
+    return '<svg class="pring hring' + (done ? " alive" : "") + '" viewBox="0 0 100 100" aria-label="' + pct + '% of midterm questions answered right"><circle class="bg" cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42" stroke-dasharray="' + C + '" stroke-dashoffset="' + C + '" data-to="' + (C * (1 - pct / 100)) + '"/>' +
+      '<text x="50" y="47">' + pct + '%</text><polyline class="ecg" pathLength="100" points="24,64 38,64 42,58 46,64 50,64 53,50 57,76 61,60 64,64 76,64"/></svg>';
+  }
+  /* ---------- opening animation ---------- */
+  function splash() {
+    if (window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var o = document.createElement("div"); o.className = "splash"; o.setAttribute("aria-hidden", "true");
+    o.innerHTML = '<div class="splash-glow"></div><div class="splash-art">' + caduceusHTML().replace('id="cad"', 'id="cad-splash"') + '</div><p class="splash-brand">' + "Sina".split("").map(function (ch, i) { return '<span style="--i:' + i + '">' + ch + "</span>"; }).join("") + '<span class="dot">.</span></p><svg class="splash-ecg" viewBox="0 0 200 30"><polyline pathLength="100" points="0,15 70,15 78,15 84,8 90,15 96,15 101,2 107,28 113,10 118,15 130,15 200,15"/></svg>';
+    document.body.appendChild(o); document.documentElement.classList.add("splashing");
+    startCaduceus(o.querySelector("canvas"), { grow: 1.3, delay: 0.25 });
+    var done = false, end = function () { if (done) return; done = true; o.classList.add("out"); document.documentElement.classList.remove("splashing"); setTimeout(function () { o.remove(); }, 650); };
+    o.addEventListener("click", end); setTimeout(end, 2900);
+  }
   /* ---------- home: midterm countdown (flip) and progress ring ---------- */
   function midStats(m) {
     var ids = [].concat.apply([], m.groups.map(function (g) { return g.items; })), total = 0, rt = store.get("sina:right", {}), done = 0, keys = {};
-    ids.forEach(function (id) { var L = S.lectures[id]; if (!L) return; var fig = L.visual && L.visual.figure; (L.mcqs || []).forEach(function (q) { if (q.target && !fig) return; total++; keys[qKey(q)] = 1; }); });
+    ids.forEach(function (id) { var L = S.lectures[id]; if (!L) return; var fig = L.visual && L.visual.figure; (L.mcqs || []).forEach(function (q) { if (q.target && !fig) return; var k = qKey(q); if (!keys[k]) { total++; keys[k] = 1; } }); });
+    (S.papers || []).forEach(function (x) { if (x.subject !== m.subject || !x.questions) return; x.questions.forEach(function (q) { var k = qKey(q); if (!keys[k]) { total++; keys[k] = 1; } }); });
     Object.keys(rt).forEach(function (k) { if (keys[k]) done++; });
-    return { total: total, done: done, pct: total ? Math.round(done / total * 100) : 0 };
+    return { total: total, done: done, pct: !total ? 0 : done && done < total ? Math.min(99, Math.max(1, Math.round(done / total * 100))) : Math.round(done / total * 100) };
   }
   function midWidgets(m) {
     var st = midStats(m), days = null;
     if (m.date) { var p = m.date.split("-"), d = new Date(+p[0], +p[1] - 1, +p[2]), t = new Date(); t.setHours(0, 0, 0, 0); days = Math.round((d - t) / 864e5); }
     return '<div class="mid-side">' + (days !== null && days >= 0 ? '<div class="mid-count-big"><span class="flipnum" data-to="' + days + '">' + Math.min(days + 3, 99) + '</span><span>' + (days === 0 ? "today" : days === 1 ? "day left" : "days left") + "</span></div>" : "") +
-      '<div class="mid-ring">' + ringSVG(st.pct, "Midterm questions answered right") + '<span>' + st.done + " of " + st.total + " questions right</span></div></div>";
+      '<div class="mid-ring">' + heartRing(st.pct, st.done) + '<span>' + st.done + " of " + st.total + " midterm questions right</span></div></div>";
   }
   function flipCountdowns() {
     app.querySelectorAll(".flipnum").forEach(function (el) {
@@ -1856,6 +1876,7 @@
     return '<p class="mid-count"><strong>' + (n === 0 ? "Today" : n === 1 ? "Tomorrow" : "In " + n + " days") + "</strong> &middot; " + esc(when) + "</p>";
   }
   window.addEventListener("hashchange", route);
+  splash();
   route();
 
   if ("serviceWorker" in navigator && /^https?:/.test(location.protocol)) {
