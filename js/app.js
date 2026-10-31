@@ -1422,11 +1422,20 @@
   function showWelcome() {
     var w = document.getElementById("welcome");
     if (!w) return;
-    if (store.get("sina:welcomed", false)) { w.remove(); return; }
-    w.hidden = false;
+    var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var box = w.querySelector(".wbox"), h1 = box.querySelector("h1");
+    box.insertAdjacentHTML("afterbegin", '<div class="w-art">' + caduceusHTML().replace('id="cad"', 'id="cad-welcome"') + "</div>");
+    h1.outerHTML = '<p class="w-brand" aria-label="Sina">' + "Sina".split("").map(function (ch, i) { return '<span style="--i:' + i + '">' + ch + "</span>"; }).join("") + '<span class="dot" style="--i:4">.</span></p><svg class="w-ecg" viewBox="0 0 200 24" aria-hidden="true"><polyline pathLength="100" points="0,12 70,12 78,12 84,6 90,12 96,12 101,1 107,23 113,8 118,12 130,12 200,12"/></svg><h1 class="w-title">Your study buddy.</h1>';
+    var eb = box.querySelector(".weyebrow"), tt = box.querySelector(".w-title"); if (eb && tt) tt.after(eb);
+    w.hidden = false; w.classList.add("intro");
     document.body.classList.add("noscroll");
+    var anim = { grow: 2.8, delay: 0.5 };
+    startCaduceus(w.querySelector("canvas"), anim);
+    var skip = function () { if (w.classList.contains("skip")) return; w.classList.add("skip"); anim.grow = 0.001; anim.delay = 0; };
+    if (reduce) skip();
+    w.addEventListener("click", function (e) { if (e.target.id !== "enter") skip(); });
     var btn = w.querySelector("#enter");
-    btn.focus();
+    btn.focus({ preventScroll: true });
     btn.addEventListener("click", function () {
       store.set("sina:welcomed", true);
       w.classList.add("leaving");
@@ -1726,7 +1735,7 @@
       var bodies = [];
       for (var s = 0; s < 2; s++) {
         var pts = [], ph = (reduce ? 0 : t * 1.6) + s * Math.PI;
-        var gs = Math.max(6, Math.round(segs * (1 - Math.pow(1 - g, 3))));
+        var gs = Math.max(6, Math.round(segs * (opt.grow > 1.5 ? g * (2 - g) * 0.35 + g * 0.65 : 1 - Math.pow(1 - g, 3))));
         for (var i = 0; i <= gs; i++) {
           var u = i / segs, y = bot - u * (bot - top) * 0.92, a = u * turns * 2 * Math.PI - ph * 0.35;
           var taper = u < 0.12 ? u / 0.12 : 1, tail = 1 - Math.pow(1 - u, 3);
@@ -1876,7 +1885,6 @@
     return '<p class="mid-count"><strong>' + (n === 0 ? "Today" : n === 1 ? "Tomorrow" : "In " + n + " days") + "</strong> &middot; " + esc(when) + "</p>";
   }
   window.addEventListener("hashchange", route);
-  splash();
   route();
 
   if ("serviceWorker" in navigator && /^https?:/.test(location.protocol)) {

@@ -959,3 +959,27 @@ html.splashing body { overflow: hidden; }
 .splash-ecg { position: relative; width: 200px; height: 30px; }
 .splash-ecg polyline { fill: none; stroke: var(--accent); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 100; stroke-dashoffset: 100; animation: splashEcg 1s ease-in-out 1.8s forwards; }
 @keyframes splashEcg { to { stroke-dashoffset: 0; } }
+
+/* ---------- welcome screen: caduceus intro on every open ---------- */
+.welcome.intro { overflow: hidden; }
+.welcome.intro .w-art::before { content: ""; position: absolute; left: 50%; top: 45%; width: 80vmin; height: 80vmin; margin: -40vmin 0 0 -40vmin; border-radius: 50%; background: radial-gradient(circle, color-mix(in srgb, var(--wing) 22%, transparent) 0%, transparent 62%); animation: wGlow 4s ease-out both; pointer-events: none; }
+@keyframes wGlow { 0% { transform: scale(.3); opacity: 0; } 70% { opacity: 1; } 100% { transform: scale(1); opacity: .8; } }
+.welcome .wbox { position: relative; }
+.w-art { position: relative; display: flex; justify-content: center; margin-bottom: .2rem; }
+.w-art .hero-art { width: 150px; height: 245px; }
+.welcome.intro .cad-wings .cw.l, .welcome.intro .cad-wings .cw.r { animation-delay: 3.1s, 4.2s; }
+.wbox .w-brand { margin: .5rem 0 0; font-family: var(--serif, Georgia, serif); font-size: clamp(2.6rem, 9vw, 3.6rem); font-weight: 700; line-height: 1; color: var(--ink); }
+.w-brand span { display: inline-block; animation: wLetter .6s cubic-bezier(.2,.9,.3,1.3) both; animation-delay: calc(3.4s + var(--i) * .09s); }
+.w-brand .dot { color: var(--accent); }
+@keyframes wLetter { from { opacity: 0; transform: translateY(18px); } }
+.w-ecg { display: block; width: 180px; height: 24px; margin: .3rem auto .2rem; }
+.w-ecg polyline { fill: none; stroke: var(--accent); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 100; stroke-dashoffset: 100; animation: wEcg 1s ease-in-out 3.9s forwards; }
+@keyframes wEcg { to { stroke-dashoffset: 0; } }
+.welcome .w-title { font-size: clamp(1.3rem, 4vw, 1.7rem); margin: .2rem 0 .4rem; }
+.welcome.intro .weyebrow { margin-bottom: .6rem; font-size: .75rem; }
+.welcome.intro .weyebrow, .welcome.intro .w-title, .welcome.intro .wbox > p:not(.w-brand), .welcome.intro #enter { animation: wFade .6s ease both; animation-delay: 4.3s; }
+.welcome.intro .w-title { animation-delay: 4.1s; }
+@keyframes wFade { from { opacity: 0; transform: translateY(8px); } }
+.welcome.skip *, .welcome.skip *::before, .welcome.skip .w-art::before { animation-delay: 0s !important; animation-duration: .25s !important; }
+.welcome.skip .cad-wings .cw.l, .welcome.skip .cad-wings .cw.r { animation-iteration-count: 1, infinite !important; animation-duration: .25s, 3.2s !important; }
+@media (max-height: 640px) { .w-art .hero-art { width: 110px; height: 180px; } }
