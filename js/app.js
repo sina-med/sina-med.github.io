@@ -139,7 +139,7 @@
   }
   (function () {
     var h = location.hash || "#/", deep = /^#\/(lecture|year|papers|apps|updates|usmle)\//.test(h + "/") && h !== "#/";
-    if (!store.get("sina:program", null) && !store.get("sina:yearAsked", null) && !deep) setTimeout(yearChooser, 0);
+    if (!document.getElementById("welcome") && !store.get("sina:program", null) && !store.get("sina:yearAsked", null) && !deep) setTimeout(yearChooser, 0);
   })();
 
   /* ---------- language (Settings) ---------- */
@@ -1435,13 +1435,27 @@
     if (reduce) skip();
     w.addEventListener("click", function (e) { if (e.target.id !== "enter") skip(); });
     var btn = w.querySelector("#enter");
-    btn.focus({ preventScroll: true });
-    btn.addEventListener("click", function () {
-      store.set("sina:welcomed", true);
+    function leave() {
+      store.set("sina:welcomed", true); store.set("sina:yearAsked", "1");
       w.classList.add("leaving");
       document.body.classList.remove("noscroll");
       setTimeout(function () { w.remove(); }, 260);
-    });
+    }
+    /* after the animation: pick the year (the current one is marked) to enter */
+    if (PROGS.length > 1) {
+      var last = store.get("sina:program", null);
+      btn.outerHTML = '<p class="w-pick">Choose your year</p><div class="w-years">' + PROGS.map(function (p) {
+        var n = S.subjects.filter(function (x) { return (x.program || S.DEFAULT_PROGRAM) === p.id && x.groups; }).length;
+        return '<button type="button" class="w-year' + (p.id === last ? " on" : "") + '" data-year="' + p.id + '"><span class="yc-name">' + esc(progName(p.id)) + '</span><span class="yc-meta">' + (p.id === last ? "Last used · " : "") + esc(n ? T("welcome.ready", { n: n }) : T("settings.soon")) + "</span></button>";
+      }).join("") + "</div>";
+      w.querySelectorAll("[data-year]").forEach(function (b) {
+        b.addEventListener("click", function (e) { e.stopPropagation(); leave(); setProgram(b.dataset.year, true); });
+      });
+      var cur = w.querySelector(".w-year.on") || w.querySelector(".w-year"); if (cur) cur.focus({ preventScroll: true });
+    } else {
+      btn.focus({ preventScroll: true });
+      btn.addEventListener("click", leave);
+    }
   }
   showWelcome();
 

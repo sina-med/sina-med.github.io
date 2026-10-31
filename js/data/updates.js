@@ -3,7 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "31 October 2026", items: [
-    "Changed: the welcome screen opens on every visit, with the caduceus animation (snakes rise up the rod, wings open, Sina appears). Tap to skip.",
+    "Changed: the welcome screen opens on every visit, with the caduceus animation (snakes rise up the rod, wings open, Sina appears), then the year choice. Tap to skip.",
     "Added Leaderboard: post exam-mode past paper scores under a nickname; ranking per paper and overall.",
     "Changed: Report a mistake now sends the report directly.",
     "Added animated caduceus to the home page.",
