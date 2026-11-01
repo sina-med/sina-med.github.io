@@ -1233,7 +1233,7 @@ html.splashing body { overflow: hidden; }
 .has-sub.open .sub-list { grid-template-rows: 1fr; }
 .sub-inner { overflow: hidden; min-height: 0; display: grid; gap: .4rem; padding: 0 .2rem; }
 .has-sub.open .sub-inner { padding: 0 .2rem .9rem; }
-.subject-list a.subgroup { display: flex; align-items: center; justify-content: space-between; gap: .8rem; padding: .6rem .85rem .6rem 1rem; margin-left: .6rem; border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 10px; background: var(--surface); font-weight: 700; font-size: .95rem; }
+.subject-list a.subgroup { display: flex; align-items: center; justify-content: space-between; gap: .8rem; padding: .6rem .85rem .6rem 1rem; margin-left: .6rem; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); font-weight: 700; font-size: .95rem; }
 .subject-list a.subgroup:hover { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 6%, var(--surface)); }
 .sg-n { font-size: .8rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
 

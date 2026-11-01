@@ -1,4 +1,4 @@
-/* physio: 12 lectures, merged for upload. Edit the source files, not this one. */
+/* physio: 23 lectures, merged for upload. Edit the source files, not this one. */
 window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["physio-intro-neuro"] = {
  "id": "physio-intro-neuro",
@@ -8314,10 +8314,10 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["physio-renal-gfr"] = {
  "id": "physio-renal-gfr",
  "subject": "physio",
- "group": "Renal",
+ "group": "Renal physiology",
  "title": "Renal physiology 3: glomerular filtration",
  "sourceFile": "Renal Physiology 3 (Glomerular filtration).pdf (Kidney Physiology lecture 3, 2025-2026)",
- "sourceUrl": "https://drive.google.com/file/d/1_5OiLcwA073lfBiQUPYrZ9hzFkQJzT71/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1YzAXX_tATHTOg4NM8p2ua83Z3_39DdNL/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> Many slides in this PDF are diagrams without text, so the pressure values and the effects of arteriolar changes were filled in from standard textbook physiology and are marked as such. If your professor says something different, trust your professor.",
  "summary": [
   {
@@ -10229,4 +10229,6400 @@ SINA.lectures["physio-muscle-1"] = {
   }
  ],
  "verified": "17 Oct 2026"
+};
+window.SINA = window.SINA || {subjects:[], lectures:{}};
+SINA.lectures["physio-renal-intro"] = {
+ "id": "physio-renal-intro",
+ "subject": "physio",
+ "group": "Renal physiology",
+ "title": "Renal physiology 1: introduction",
+ "sourceFile": "Renal Physiology 1.pdf (Kidney Physiology, lecture 1, S3, 2026-2027)",
+ "sourceUrl": "https://drive.google.com/file/d/1alMmtdqqEUyJ8O50a8fx8GJOwVSSv9YF/view?usp=drivesdk",
+ "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
+ "summary": [
+  {
+   "id": "s0",
+   "title": "The big picture",
+   "html": "<p>The kidneys do far more than make urine. They <strong>filter plasma</strong> and excrete wastes, they keep the <strong>blood</strong> stable (volume, pressure, osmolarity, ions, pH), and they act on the <strong>whole body</strong> as an endocrine and metabolic organ: <strong>erythropoietin</strong>, <strong>calcitriol</strong> and, in starvation, <strong>gluconeogenesis</strong>.</p>"
+  },
+  {
+   "id": "s1",
+   "title": "The urinary system",
+   "html": "<table><tr><th>Part</th><th>Function</th></tr><tr><td><strong>Kidneys</strong></td><td>Urine formation; <strong>retroperitoneal</strong> position</td></tr><tr><td><strong>Ureters</strong></td><td>Transport urine from kidneys to bladder</td></tr><tr><td><strong>Bladder</strong></td><td>Store urine until voided</td></tr><tr><td><strong>Urethra</strong></td><td>Carry urine from the bladder to the outside</td></tr></table>"
+  },
+  {
+   "id": "s2",
+   "title": "Function 1: filter plasma and excrete",
+   "html": "<p>The kidneys filter blood plasma, removing <strong>metabolic wastes</strong>, <strong>endogenous hormones</strong>, <strong>exogenous chemicals</strong> (toxic substances, therapeutic medications) and <strong>free radicals</strong> (detoxification), then excrete them in the urine.</p><p><strong>Waste</strong> = any substance useless to the body or present in excess; <strong>metabolic waste</strong> = waste produced by the body. The nitrogenous wastes:</p><table><tr><th>Waste</th><th>Origin</th></tr><tr><td><strong>Urea</strong></td><td>Proteins → amino acids → NH2 removed → <strong>ammonia</strong> → the <strong>liver</strong> converts ammonia to urea</td></tr><tr><td><strong>Uric acid</strong></td><td>Catabolism of <strong>nucleic acids</strong></td></tr><tr><td><strong>Creatinine</strong></td><td>Catabolism of <strong>creatine phosphate</strong></td></tr></table>"
+  },
+  {
+   "id": "s3",
+   "title": "Abnormal constituents of urine",
+   "html": "<table><tr><th>Found in urine</th><th>Name</th></tr><tr><td>Albumin</td><td>Albuminuria</td></tr><tr><td>Proteins</td><td>Proteinuria</td></tr><tr><td>Glucose</td><td>Glucosuria</td></tr><tr><td>Ketones</td><td>Acetonuria</td></tr><tr><td>Erythrocytes</td><td>Haematuria</td></tr><tr><td>Leukocytes</td><td>Pyuria</td></tr></table>"
+  },
+  {
+   "id": "s4",
+   "title": "Function 2: blood homeostasis",
+   "html": "<p>The kidneys maintain blood homeostasis by regulating:</p><ul><li><strong>Blood volume and pressure</strong></li><li><strong>Osmolarity</strong></li><li><strong>Electrolyte (ion) concentrations</strong></li><li><strong>Acid-base balance</strong> (H+ / HCO3−)</li></ul>"
+  },
+  {
+   "id": "s5",
+   "title": "Function 3: whole-body homeostasis",
+   "html": "<ul><li><strong>Erythropoietin (EPO)</strong>: stimulates red blood cell production in the bone marrow. In <strong>hypoxia</strong> (e.g. severe anaemia) the kidneys can raise EPO <strong>more than 100-fold</strong>. Loop: anaemia → low O2-carrying capacity → less tissue oxygenation → kidney secretes more EPO → more red cells → normal concentration.</li><li><strong>Oxygen sensing</strong> (Nobel Prize 2019): <strong>hypoxia-inducible factor (HIF)</strong> is degraded at normal oxygen tension; in anaemia or hypoxia it persists and promotes EPO, erythropoiesis, angiogenesis (VEGF) and metabolic adaptation.</li><li><strong>Calcium</strong>: the kidneys take part in <strong>calcitriol (vitamin D)</strong> synthesis; calcitriol raises intestinal calcium absorption (calbindin, VDR). PTH raises renal calcium reabsorption; calcitonin lowers plasma calcium.</li><li><strong>Gluconeogenesis</strong>: in starvation the kidneys synthesise glucose from amino acids (the liver and kidney share gluconeogenesis).</li><li>They also <strong>clear hormones</strong> from the blood and <strong>detoxify free radicals</strong>.</li></ul>"
+  }
+ ],
+ "exam": [
+  "Kidneys: retroperitoneal; ureters transport, bladder stores, urethra carries out.",
+  "Filter plasma: metabolic wastes, hormones, drugs and toxins, free radicals.",
+  "Urea: amino acids → ammonia → urea in the liver. Uric acid: nucleic acids. Creatinine: creatine phosphate.",
+  "Albuminuria, proteinuria, glucosuria, acetonuria (ketones), haematuria (RBC), pyuria (WBC).",
+  "Blood homeostasis: volume, pressure, osmolarity, electrolytes, acid-base.",
+  "EPO: up to more than 100-fold in hypoxia; HIF senses low O2 (Nobel 2019).",
+  "Calcitriol (vitamin D) synthesis helps regulate calcium.",
+  "Gluconeogenesis from amino acids in starvation."
+ ],
+ "visual": {
+  "kind": "model",
+  "intro": "",
+  "figure": {
+   "viewBox": "0 0 760 420",
+   "alt": "The urinary system, kidney to the outside",
+   "caption": "Path of urine and the job of each part. Schematic drawn for this site.",
+   "base": "<defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"8\" refX=\"9\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L10,4 L0,8 Z\" fill=\"#8a8a8a\"/></marker></defs><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"184\" y1=\"210\" x2=\"208\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"368\" y1=\"210\" x2=\"392\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"552\" y1=\"210\" x2=\"576\" y2=\"210\"/>",
+   "parts": {
+    "kid": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2d7cf\" x=\"24\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Kidneys",
+      "form urine"
+     ],
+     "lx": 104.0,
+     "ly": 208.0
+    },
+    "ure": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"208\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Ureters",
+      "carry urine down"
+     ],
+     "lx": 288.0,
+     "ly": 208.0
+    },
+    "bla": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"392\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Bladder",
+      "stores urine"
+     ],
+     "lx": 472.0,
+     "ly": 208.0
+    },
+    "urt": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2e2a8\" x=\"576\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Urethra",
+      "urine leaves body"
+     ],
+     "lx": 656.0,
+     "ly": 208.0
+    }
+   },
+   "arrows": {
+    "kid": [
+     {
+      "t": [
+       24.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "ure": [
+     {
+      "t": [
+       208.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "bla": [
+     {
+      "t": [
+       392.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "urt": [
+     {
+      "t": [
+       576.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ]
+   }
+  }
+ },
+ "mcqs": [
+  {
+   "q": "Where are the kidneys positioned?",
+   "options": [
+    "Intraperitoneal, in the pelvis",
+    "Retroperitoneal",
+    "Inside the lesser sac",
+    "In the mediastinum"
+   ],
+   "answer": 1,
+   "why": "The kidneys are retroperitoneal organs."
+  },
+  {
+   "q": "Which organ stores urine until it is voided?",
+   "options": [
+    "Ureter",
+    "Urethra",
+    "Bladder",
+    "Renal pelvis"
+   ],
+   "answer": 2,
+   "why": "Ureters transport, the bladder stores, the urethra carries urine out."
+  },
+  {
+   "q": "What carries urine from the kidneys to the bladder?",
+   "options": [
+    "The ureters",
+    "The urethra",
+    "The collecting ducts",
+    "The renal veins"
+   ],
+   "answer": 0,
+   "why": "The ureters transport urine from the kidneys to the bladder."
+  },
+  {
+   "q": "Urea is formed mainly in:",
+   "options": [
+    "The kidney",
+    "The liver",
+    "Skeletal muscle",
+    "The spleen"
+   ],
+   "answer": 1,
+   "why": "Amino acids lose NH2 to form ammonia; the liver converts ammonia to urea."
+  },
+  {
+   "q": "Uric acid comes from the catabolism of:",
+   "options": [
+    "Creatine phosphate",
+    "Nucleic acids",
+    "Triglycerides",
+    "Haemoglobin"
+   ],
+   "answer": 1,
+   "why": "Uric acid is a product of nucleic acid catabolism."
+  },
+  {
+   "q": "Creatinine is the breakdown product of:",
+   "options": [
+    "Nucleic acids",
+    "Urea",
+    "Creatine phosphate",
+    "Bilirubin"
+   ],
+   "answer": 2,
+   "why": "Creatinine comes from creatine phosphate catabolism."
+  },
+  {
+   "q": "Leukocytes in the urine are called:",
+   "options": [
+    "Haematuria",
+    "Pyuria",
+    "Glucosuria",
+    "Acetonuria"
+   ],
+   "answer": 1,
+   "why": "Pyuria = leukocytes; haematuria = erythrocytes."
+  },
+  {
+   "q": "Ketones in the urine are called:",
+   "options": [
+    "Acetonuria",
+    "Albuminuria",
+    "Pyuria",
+    "Proteinuria"
+   ],
+   "answer": 0,
+   "why": "Ketones in urine: acetonuria."
+  },
+  {
+   "q": "Which substances do the kidneys remove from plasma?",
+   "options": [
+    "Metabolic wastes",
+    "Endogenous hormones",
+    "Free radicals",
+    "Red blood cells"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "They remove metabolic wastes, endogenous hormones, exogenous chemicals and free radicals; cells are not filtered.",
+   "notes": [
+    "Correct: urea, uric acid, creatinine.",
+    "Correct: hormones are cleared from blood.",
+    "Correct: they detoxify free radicals.",
+    "Wrong: blood cells are not filtered; red cells in urine are abnormal (haematuria)."
+   ]
+  },
+  {
+   "q": "Which blood variables do the kidneys regulate?",
+   "options": [
+    "Blood volume and pressure",
+    "Osmolarity",
+    "Acid-base balance",
+    "Haemoglobin oxygen affinity"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Volume, pressure, osmolarity, electrolytes and acid-base (H+/HCO3−).",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct: H+ and HCO3−.",
+    "Wrong: not a renal function."
+   ]
+  },
+  {
+   "q": "Which hormone made by the kidney stimulates red blood cell production?",
+   "options": [
+    "Renin",
+    "Erythropoietin",
+    "Calcitonin",
+    "Aldosterone"
+   ],
+   "answer": 1,
+   "why": "Erythropoietin (EPO) stimulates erythropoiesis in the bone marrow."
+  },
+  {
+   "q": "In severe anaemia, kidney EPO production can rise:",
+   "options": [
+    "About 2-fold",
+    "About 10-fold",
+    "More than 100-fold",
+    "It falls"
+   ],
+   "answer": 2,
+   "why": "Under hypoxic conditions, EPO can rise more than 100-fold over normal."
+  },
+  {
+   "q": "Under normal oxygen tension, hypoxia-inducible factor (HIF) is:",
+   "options": [
+    "Degraded",
+    "Secreted into urine",
+    "Bound to EPO receptors",
+    "Converted to VEGF"
+   ],
+   "answer": 0,
+   "why": "HIF is degraded at normal O2; in hypoxia it persists and promotes EPO and erythropoiesis."
+  },
+  {
+   "q": "Which vitamin do the kidneys help activate to regulate calcium?",
+   "options": [
+    "Vitamin A",
+    "Vitamin K",
+    "Vitamin D (calcitriol)",
+    "Vitamin B12"
+   ],
+   "answer": 2,
+   "why": "The kidneys take part in calcitriol (vitamin D) synthesis."
+  },
+  {
+   "q": "During starvation, the kidneys can synthesise glucose from:",
+   "options": [
+    "Fatty acids only",
+    "Amino acids",
+    "Urea",
+    "Cholesterol"
+   ],
+   "answer": 1,
+   "why": "In starvation, the kidneys perform gluconeogenesis from amino acids."
+  },
+  {
+   "q": "The Nobel Prize in Physiology or Medicine 2019 rewarded work on:",
+   "options": [
+    "Insulin",
+    "How cells sense and adapt to oxygen",
+    "Aquaporins",
+    "The countercurrent multiplier"
+   ],
+   "answer": 1,
+   "why": "2019: discoveries of how cells sense and adapt to oxygen availability (HIF)."
+  },
+  {
+   "q": "Glucose in the urine is called:",
+   "options": [
+    "Glucosuria",
+    "Acetonuria",
+    "Albuminuria",
+    "Haematuria"
+   ],
+   "answer": 0,
+   "why": "Glucose in urine: glucosuria."
+  },
+  {
+   "q": "Which are nitrogenous wastes excreted by the kidney?",
+   "options": [
+    "Urea",
+    "Uric acid",
+    "Creatinine",
+    "Glucose"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Urea, uric acid and creatinine are the nitrogenous wastes; glucose is normally fully reabsorbed.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: not a waste; normally absent from urine."
+   ]
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "kid",
+   "options": [
+    "Bladder",
+    "Kidneys",
+    "Ureters",
+    "Urethra"
+   ],
+   "answer": 1,
+   "why": "The arrow points to: Kidneys. Retroperitoneal organs that filter plasma and form urine."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "ure",
+   "options": [
+    "Kidneys",
+    "Ureters",
+    "Urethra",
+    "Bladder"
+   ],
+   "answer": 1,
+   "why": "The arrow points to: Ureters. Transport urine from the kidneys to the bladder."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "bla",
+   "options": [
+    "Bladder",
+    "Ureters",
+    "Kidneys",
+    "Urethra"
+   ],
+   "answer": 0,
+   "why": "The arrow points to: Bladder. Stores urine until it is voided."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "urt",
+   "options": [
+    "Bladder",
+    "Urethra",
+    "Kidneys",
+    "Ureters"
+   ],
+   "answer": 1,
+   "why": "The arrow points to: Urethra. Carries urine from the bladder to the outside of the body."
+  }
+ ],
+ "cards": [
+  {
+   "id": "x0",
+   "type": "text",
+   "front": "Four parts of the urinary system and their roles?",
+   "back": "Kidneys form urine; ureters transport it; bladder stores it; urethra carries it outside."
+  },
+  {
+   "id": "x1",
+   "type": "text",
+   "front": "Origin of urea?",
+   "back": "Proteins → amino acids → NH2 removed → ammonia → converted to urea by the liver."
+  },
+  {
+   "id": "x2",
+   "type": "text",
+   "front": "Origin of uric acid and creatinine?",
+   "back": "Uric acid: nucleic acid catabolism. Creatinine: creatine phosphate catabolism."
+  },
+  {
+   "id": "x3",
+   "type": "text",
+   "front": "Name the abnormal urine constituents.",
+   "back": "Albuminuria, proteinuria, glucosuria, acetonuria (ketones), haematuria (RBC), pyuria (WBC)."
+  },
+  {
+   "id": "x4",
+   "type": "text",
+   "front": "What do the kidneys regulate in the blood?",
+   "back": "Volume and pressure, osmolarity, electrolytes, acid-base balance."
+  },
+  {
+   "id": "x5",
+   "type": "text",
+   "front": "What does EPO do and when does it rise?",
+   "back": "Stimulates red cell production; rises more than 100-fold in hypoxia such as severe anaemia."
+  },
+  {
+   "id": "x6",
+   "type": "text",
+   "front": "What is HIF?",
+   "back": "Hypoxia-inducible factor: degraded at normal O2, active in hypoxia, promotes EPO, erythropoiesis, angiogenesis."
+  },
+  {
+   "id": "x7",
+   "type": "text",
+   "front": "Kidney role in calcium?",
+   "back": "Calcitriol (vitamin D) synthesis, which increases intestinal calcium absorption."
+  },
+  {
+   "id": "x8",
+   "type": "text",
+   "front": "Kidney role in starvation?",
+   "back": "Gluconeogenesis from amino acids."
+  },
+  {
+   "id": "x9",
+   "type": "text",
+   "front": "List all kidney functions.",
+   "back": "Filter plasma and excrete wastes; regulate volume, pressure, osmolarity, electrolytes, acid-base; EPO; calcitriol; clear hormones; detoxify free radicals; gluconeogenesis in starvation."
+  },
+  {
+   "id": "img-kid",
+   "type": "image",
+   "target": "kid",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Kidneys. Retroperitoneal organs that filter plasma and form urine."
+  },
+  {
+   "id": "img-ure",
+   "type": "image",
+   "target": "ure",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Ureters. Transport urine from the kidneys to the bladder."
+  },
+  {
+   "id": "img-bla",
+   "type": "image",
+   "target": "bla",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Bladder. Stores urine until it is voided."
+  },
+  {
+   "id": "img-urt",
+   "type": "image",
+   "target": "urt",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Urethra. Carries urine from the bladder to the outside of the body."
+  }
+ ],
+ "deeper": [
+  {
+   "title": "Why EPO rises in kidney failure patients is a problem",
+   "html": "<p>In chronic kidney disease the cells that make EPO are lost, so patients become <strong>anaemic</strong> even though the hypoxia signal is present. This is why recombinant EPO (and more recently HIF-stabilising drugs) are used in renal anaemia. <em>Beyond the lecture.</em></p>"
+  }
+ ],
+ "resources": [
+  {
+   "title": "OpenStax A&P 2e: Physical characteristics of urine",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-1-physical-characteristics-of-urine",
+   "kind": "Textbook chapter",
+   "why": "Normal and abnormal urine constituents.",
+   "note": ""
+  },
+  {
+   "title": "OpenStax A&P 2e: The urinary system and homeostasis",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-10-the-urinary-system-and-homeostasis",
+   "kind": "Textbook chapter",
+   "why": "EPO, vitamin D and the kidney's other roles.",
+   "note": ""
+  }
+ ],
+ "checks": [],
+ "sources": [
+  {
+   "name": "OpenStax A&P 2e: Physical characteristics of urine",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-1-physical-characteristics-of-urine"
+  },
+  {
+   "name": "OpenStax A&P 2e: The urinary system and homeostasis",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-10-the-urinary-system-and-homeostasis"
+  }
+ ],
+ "verified": "1 Nov 2026"
+};
+window.SINA = window.SINA || {subjects:[], lectures:{}};
+SINA.lectures["physio-renal-nephron"] = {
+ "id": "physio-renal-nephron",
+ "subject": "physio",
+ "group": "Renal physiology",
+ "title": "Renal physiology 2: physiology of the nephron",
+ "sourceFile": "Renal Physiology 2 (Physiology of the nephron).pdf (Kidney Physiology, lecture 2, S3, 2026-2027)",
+ "sourceUrl": "https://drive.google.com/file/d/16TcR3BXZ7khjZsY4IwfMZgUVhj2C48Y_/view?usp=drivesdk",
+ "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
+ "summary": [
+  {
+   "id": "s0",
+   "title": "The big picture",
+   "html": "<p>The <strong>nephron</strong> is the structural and functional unit of the kidney: a <strong>glomerulus</strong> that filters plasma, then a <strong>renal tubule</strong> that takes back almost everything useful. Of about <strong>120 mL/min</strong> filtered, about <strong>119 mL/min</strong> returns to the blood and only about <strong>1 mL/min</strong> becomes urine. <strong>ADH</strong> sets how much water the collecting duct keeps.</p>"
+  },
+  {
+   "id": "s1",
+   "title": "The nephron",
+   "html": "<ul><li>Each kidney has <strong>over 1 million nephrons</strong>.</li><li><strong>Physiological nephron loss</strong>: about <strong>1% per year from age 30</strong>.</li><li>Each nephron = <strong>glomerulus + renal tubule</strong>.</li></ul><table><tr><th>Segment</th><th>Job</th></tr><tr><td>1. Glomerulus</td><td>Filters small solutes from the blood</td></tr><tr><td>2. Proximal convoluted tubule</td><td>Reabsorbs ions, water, nutrients; removes toxins; adjusts filtrate pH</td></tr><tr><td>3. Descending loop of Henle</td><td><strong>Aquaporins</strong> let water pass into the interstitial fluid</td></tr><tr><td>4. Ascending loop of Henle</td><td>Reabsorbs <strong>Na+ and Cl−</strong> into the interstitial fluid</td></tr><tr><td>5. Distal tubule</td><td>Selectively secretes and absorbs ions for blood pH and electrolyte balance</td></tr><tr><td>6. Collecting duct</td><td>Reabsorbs solutes and water</td></tr></table>"
+  },
+  {
+   "id": "s2",
+   "title": "The glomerulus (renal corpuscle)",
+   "html": "<ul><li>Filtrate collects in the <strong>capsular space</strong> and flows into the proximal convoluted tubule.</li><li>Note the <strong>vascular and urinary poles</strong>; the <strong>afferent arteriole is larger than the efferent</strong> arteriole.</li><li>Also called the glomerular capsule (<strong>Bowman's capsule</strong>).</li><li>Glomerular capillaries are <strong>fenestrated</strong>: large amounts of solute-rich fluid pass, but there should <strong>not be high amounts of protein</strong> in urine.</li><li>The inner capsule layer has <strong>podocytes</strong> whose <strong>foot processes</strong> (pedicels) surround the basement membrane; the clefts between them are <strong>filtration slits</strong>, where filtrate enters the capsular space.</li><li><strong>Mesangial cells</strong>: smooth muscle-like cells that regulate glomerular blood flow by contracting and <strong>engulf macromolecules</strong> caught during filtration.</li></ul>"
+  },
+  {
+   "id": "s3",
+   "title": "Four processes that make urine",
+   "html": "<ol><li><strong>Glomerular filtration</strong>: creates a plasma-like filtrate.</li><li><strong>Tubular reabsorption</strong>: removes useful solutes from the filtrate and returns them to the blood.</li><li><strong>Tubular secretion</strong>: removes additional wastes from the blood and adds them to the filtrate.</li><li><strong>Water conservation</strong>: removes water from the urine, returns it to the blood, concentrates wastes.</li></ol>"
+  },
+  {
+   "id": "s4",
+   "title": "The numbers",
+   "html": "<table><tr><th>Time</th><th>Filtrate (GFR)</th></tr><tr><td>Second</td><td>2 mL</td></tr><tr><td>Minute</td><td>120 mL</td></tr><tr><td>Hour</td><td>7 200 mL</td></tr><tr><td>Day</td><td>172 800 mL (≈ 170 L)</td></tr></table><p>Of plasma entering the afferent arteriole, <strong>20% is filtered</strong> and 80% goes on to the peritubular capillaries; <strong>more than 19% is reabsorbed</strong>, so <strong>less than 1%</strong> is excreted and <strong>more than 99%</strong> returns to the circulation.</p><p>Reabsorption and water conservation = <strong>119 mL/min</strong>; urine = 120 − 119 = <strong>1 mL/min</strong> (1440 mL/day ≈ <strong>1.5 L/day</strong>).</p>"
+  },
+  {
+   "id": "s5",
+   "title": "Water loss and ADH",
+   "html": "<p><strong>Water loss</strong>: urine, sweating, respiration (expiration), faeces (diarrhoea ++), and others: bleeding, vomiting, rhinorrhoea, tears.</p><p><strong>ADH (vasopressin)</strong>, from the posterior pituitary, acts on the collecting duct (aldosterone from the adrenal cortex also retains water with Na+):</p><ol><li>Vasopressin binds its <strong>membrane receptor</strong>.</li><li>The receptor activates the <strong>cAMP</strong> second messenger system (G protein, adenylate cyclase, protein kinase A).</li><li>The cell inserts <strong>aquaporin-2 (AQP2)</strong> water pores into the <strong>apical</strong> membrane (exocytosis of storage vesicles).</li><li>Water is absorbed by <strong>osmosis</strong> into the blood (300 mOsm filtrate vs 600 to 700 mOsm medullary interstitium; leaves through AQP3 on the basolateral side).</li></ol><table><tr><th>ADH</th><th>Water reabsorbed</th><th>Urine</th></tr><tr><td>Normal</td><td>119 mL/min</td><td>1 mL/min, about 1 500 mL/day</td></tr><tr><td>Maximal</td><td>119.75 mL/min</td><td>0.25 mL/min, about 375 mL/day</td></tr><tr><td>Absent</td><td>105 mL/min</td><td>15 mL/min, about 22 500 mL/day</td></tr></table>"
+  }
+ ],
+ "exam": [
+  "Nephron = glomerulus + renal tubule; over 1 million per kidney; lose about 1% per year after 30.",
+  "Afferent arteriole larger than efferent; fenestrated capillaries; podocytes, pedicels, filtration slits.",
+  "Mesangial cells contract to regulate flow and engulf trapped macromolecules.",
+  "Four processes: filtration, reabsorption, secretion, water conservation.",
+  "GFR 2 mL/s, 120 mL/min, about 170 L/day; 20% of plasma is filtered.",
+  "Reabsorbed 119 mL/min; urine 1 mL/min, about 1.5 L/day.",
+  "ADH → receptor → cAMP → AQP2 into apical membrane → water by osmosis.",
+  "ADH max: urine 0.25 mL/min (375 mL/day); no ADH: 15 mL/min (22.5 L/day)."
+ ],
+ "visual": {
+  "kind": "model",
+  "intro": "",
+  "figure": {
+   "viewBox": "0 0 760 420",
+   "alt": "The nephron, segment by segment",
+   "caption": "Filtrate path through one nephron. Schematic drawn for this site.",
+   "base": "<defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"8\" refX=\"9\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L10,4 L0,8 Z\" fill=\"#8a8a8a\"/></marker></defs><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"230\" y1=\"129.667\" x2=\"300\" y2=\"129.667\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"460\" y1=\"129.667\" x2=\"530\" y2=\"129.667\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"610\" y1=\"160.667\" x2=\"610\" y2=\"259.333\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"530\" y1=\"290.333\" x2=\"460\" y2=\"290.333\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"300\" y1=\"290.333\" x2=\"230\" y2=\"290.333\"/>",
+   "parts": {
+    "glo": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2d7cf\" x=\"70\" y=\"98.6667\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Glomerulus",
+      "filters plasma"
+     ],
+     "lx": 150.0,
+     "ly": 127.66666666666669
+    },
+    "pct": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"300\" y=\"98.6667\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Proximal tubule",
+      "ions, water, nutrients"
+     ],
+     "lx": 380.0,
+     "ly": 127.66666666666669
+    },
+    "dlh": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"530\" y=\"98.6667\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Descending limb",
+      "water out (aquaporins)"
+     ],
+     "lx": 610.0,
+     "ly": 127.66666666666669
+    },
+    "alh": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2e2a8\" x=\"530\" y=\"259.333\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Ascending limb",
+      "Na+ and Cl− out"
+     ],
+     "lx": 610.0,
+     "ly": 288.33333333333337
+    },
+    "dct": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"300\" y=\"259.333\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Distal tubule",
+      "ions, pH balance"
+     ],
+     "lx": 380.0,
+     "ly": 288.33333333333337
+    },
+    "cd": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f7d9b8\" x=\"70\" y=\"259.333\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Collecting duct",
+      "water (ADH)"
+     ],
+     "lx": 150.0,
+     "ly": 288.33333333333337
+    }
+   },
+   "arrows": {
+    "glo": [
+     {
+      "t": [
+       70.0,
+       106.66666666666667
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "pct": [
+     {
+      "t": [
+       300.0,
+       106.66666666666667
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "dlh": [
+     {
+      "t": [
+       530.0,
+       106.66666666666667
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "alh": [
+     {
+      "t": [
+       530.0,
+       267.33333333333337
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "dct": [
+     {
+      "t": [
+       300.0,
+       267.33333333333337
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "cd": [
+     {
+      "t": [
+       70.0,
+       267.33333333333337
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ]
+   }
+  }
+ },
+ "mcqs": [
+  {
+   "q": "How many nephrons does each kidney contain?",
+   "options": [
+    "About 10 000",
+    "About 100 000",
+    "Over 1 million",
+    "About 10 million"
+   ],
+   "answer": 2,
+   "why": "Each kidney has over 1 million nephrons."
+  },
+  {
+   "q": "Physiological nephron loss after age 30 is about:",
+   "options": [
+    "0.1% per year",
+    "1% per year",
+    "5% per year",
+    "10% per year"
+   ],
+   "answer": 1,
+   "why": "About 1% of nephrons are lost per year from the age of 30."
+  },
+  {
+   "q": "Which arteriole is larger?",
+   "options": [
+    "The efferent arteriole",
+    "The afferent arteriole",
+    "They are identical",
+    "It depends on posture"
+   ],
+   "answer": 1,
+   "why": "The afferent arteriole is larger than the efferent arteriole."
+  },
+  {
+   "q": "Filtrate enters the capsular space through:",
+   "options": [
+    "Filtration slits between podocyte pedicels",
+    "Gaps between mesangial cells",
+    "Pores of the peritubular capillaries",
+    "Openings in the macula densa"
+   ],
+   "answer": 0,
+   "why": "Clefts between foot processes are filtration slits, where filtrate enters the capsular space."
+  },
+  {
+   "q": "Mesangial cells:",
+   "options": [
+    "Are smooth muscle-like cells",
+    "Regulate glomerular blood flow by contracting",
+    "Engulf macromolecules caught during filtration",
+    "Secrete erythropoietin"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Mesangial cells contract to regulate flow and engulf trapped macromolecules.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: not their role."
+   ]
+  },
+  {
+   "q": "Which segment's aquaporins let water leave the filtrate?",
+   "options": [
+    "Ascending limb of the loop of Henle",
+    "Descending limb of the loop of Henle",
+    "Distal convoluted tubule",
+    "Proximal convoluted tubule"
+   ],
+   "answer": 1,
+   "why": "Descending limb: aquaporins let water pass into the interstitial fluid."
+  },
+  {
+   "q": "Which segment reabsorbs Na+ and Cl− into the interstitium?",
+   "options": [
+    "Descending limb of the loop of Henle",
+    "Ascending limb of the loop of Henle",
+    "Glomerular capillary network",
+    "Renal pelvis and calyces"
+   ],
+   "answer": 1,
+   "why": "The ascending limb reabsorbs Na+ and Cl−."
+  },
+  {
+   "q": "Which process removes additional wastes from the blood and adds them to the filtrate?",
+   "options": [
+    "Glomerular filtration",
+    "Tubular reabsorption",
+    "Tubular secretion",
+    "Water conservation"
+   ],
+   "answer": 2,
+   "why": "Tubular secretion adds wastes from the blood to the filtrate."
+  },
+  {
+   "q": "Normal GFR per minute is about:",
+   "options": [
+    "12 mL",
+    "120 mL",
+    "1 200 mL",
+    "1 mL"
+   ],
+   "answer": 1,
+   "why": "2 mL/s, 120 mL/min."
+  },
+  {
+   "q": "Daily glomerular filtrate is about:",
+   "options": [
+    "1.5 L",
+    "17 L",
+    "170 L",
+    "1 700 L"
+   ],
+   "answer": 2,
+   "why": "172 800 mL ≈ 170 L/day."
+  },
+  {
+   "q": "What fraction of the plasma entering the afferent arteriole is filtered?",
+   "options": [
+    "About 1%",
+    "About 20%",
+    "About 50%",
+    "About 80%"
+   ],
+   "answer": 1,
+   "why": "20% is filtered; 80% continues to the peritubular capillaries."
+  },
+  {
+   "q": "Normal urine output per minute is about:",
+   "options": [
+    "0.25 mL",
+    "1 mL",
+    "15 mL",
+    "119 mL"
+   ],
+   "answer": 1,
+   "why": "120 filtered − 119 reabsorbed = 1 mL/min (about 1.5 L/day)."
+  },
+  {
+   "q": "ADH increases water reabsorption by inserting which channel in the apical membrane?",
+   "options": [
+    "Aquaporin-1",
+    "Aquaporin-2",
+    "Aquaporin-3",
+    "ENaC"
+   ],
+   "answer": 1,
+   "why": "ADH → cAMP → AQP2 inserted in the apical membrane of collecting duct cells."
+  },
+  {
+   "q": "Which second messenger does the vasopressin receptor use in the collecting duct?",
+   "options": [
+    "IP3",
+    "cGMP",
+    "cAMP",
+    "Calcium only"
+   ],
+   "answer": 2,
+   "why": "G protein → adenylate cyclase → cAMP → protein kinase A."
+  },
+  {
+   "q": "With maximal ADH, urine output is about:",
+   "options": [
+    "375 mL/day",
+    "1 500 mL/day",
+    "5 L/day",
+    "22.5 L/day"
+   ],
+   "answer": 0,
+   "why": "Max ADH: 119.75 mL/min reabsorbed; urine 0.25 mL/min ≈ 375 mL/day."
+  },
+  {
+   "q": "Without ADH, urine output can reach about:",
+   "options": [
+    "1.5 L/day",
+    "5 L/day",
+    "22.5 L/day",
+    "170 L/day"
+   ],
+   "answer": 2,
+   "why": "No ADH: 105 mL/min reabsorbed, urine 15 mL/min ≈ 22 500 mL/day."
+  },
+  {
+   "q": "Which are routes of body water loss?",
+   "options": [
+    "Sweating",
+    "Expiration",
+    "Diarrhoea",
+    "Aquaporin-2 insertion"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Urine, sweat, breath, faeces (diarrhoea), bleeding, vomiting, rhinorrhoea, tears.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: AQP2 insertion conserves water."
+   ]
+  },
+  {
+   "q": "Where is ADH released from?",
+   "options": [
+    "Anterior pituitary",
+    "Posterior pituitary",
+    "Adrenal cortex",
+    "Juxtaglomerular cells"
+   ],
+   "answer": 1,
+   "why": "ADH (vasopressin) is released from the posterior pituitary."
+  },
+  {
+   "q": "Healthy glomerular capillaries are:",
+   "options": [
+    "Continuous, without pores",
+    "Fenestrated",
+    "Sinusoidal with gaps for cells",
+    "Lined by podocytes on the blood side"
+   ],
+   "answer": 1,
+   "why": "Glomerular capillaries are fenestrated; podocytes line the capsule side."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "glo",
+   "options": [
+    "Distal convoluted tubule",
+    "Collecting duct",
+    "Ascending limb of the loop of Henle",
+    "Glomerulus"
+   ],
+   "answer": 3,
+   "why": "The arrow points to: Glomerulus. Filters small solutes from the blood into Bowman's capsule."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "pct",
+   "options": [
+    "Proximal convoluted tubule",
+    "Ascending limb of the loop of Henle",
+    "Collecting duct",
+    "Distal convoluted tubule"
+   ],
+   "answer": 0,
+   "why": "The arrow points to: Proximal convoluted tubule. Reabsorbs ions, water and nutrients; removes toxins and adjusts filtrate pH."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "dlh",
+   "options": [
+    "Proximal convoluted tubule",
+    "Distal convoluted tubule",
+    "Collecting duct",
+    "Descending limb of the loop of Henle"
+   ],
+   "answer": 3,
+   "why": "The arrow points to: Descending limb of the loop of Henle. Aquaporins let water leave the filtrate into the interstitial fluid."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "alh",
+   "options": [
+    "Distal convoluted tubule",
+    "Glomerulus",
+    "Ascending limb of the loop of Henle",
+    "Descending limb of the loop of Henle"
+   ],
+   "answer": 2,
+   "why": "The arrow points to: Ascending limb of the loop of Henle. Reabsorbs Na+ and Cl− into the interstitial fluid."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "dct",
+   "options": [
+    "Proximal convoluted tubule",
+    "Ascending limb of the loop of Henle",
+    "Distal convoluted tubule",
+    "Descending limb of the loop of Henle"
+   ],
+   "answer": 2,
+   "why": "The arrow points to: Distal convoluted tubule. Selectively secretes and absorbs ions to keep blood pH and electrolytes balanced."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "cd",
+   "options": [
+    "Collecting duct",
+    "Glomerulus",
+    "Ascending limb of the loop of Henle",
+    "Descending limb of the loop of Henle"
+   ],
+   "answer": 0,
+   "why": "The arrow points to: Collecting duct. Reabsorbs solutes and water from the filtrate; water permeability set by ADH."
+  }
+ ],
+ "cards": [
+  {
+   "id": "x0",
+   "type": "text",
+   "front": "What is a nephron made of?",
+   "back": "A glomerulus (renal corpuscle) and a renal tubule."
+  },
+  {
+   "id": "x1",
+   "type": "text",
+   "front": "Afferent vs efferent arteriole size?",
+   "back": "The afferent arteriole is larger than the efferent."
+  },
+  {
+   "id": "x2",
+   "type": "text",
+   "front": "What are podocytes and filtration slits?",
+   "back": "Inner capsule cells whose foot processes surround the basement membrane; the clefts between them are filtration slits."
+  },
+  {
+   "id": "x3",
+   "type": "text",
+   "front": "Two roles of mesangial cells?",
+   "back": "Contract to regulate glomerular blood flow; engulf macromolecules trapped during filtration."
+  },
+  {
+   "id": "x4",
+   "type": "text",
+   "front": "Four processes of urine formation?",
+   "back": "Filtration, tubular reabsorption, tubular secretion, water conservation."
+  },
+  {
+   "id": "x5",
+   "type": "text",
+   "front": "GFR per second, minute, day?",
+   "back": "2 mL/s, 120 mL/min, about 170 L/day."
+  },
+  {
+   "id": "x6",
+   "type": "text",
+   "front": "Urine volume normally?",
+   "back": "About 1 mL/min, 1.5 L/day: 119 of 120 mL/min is reabsorbed."
+  },
+  {
+   "id": "x7",
+   "type": "text",
+   "front": "ADH mechanism in four steps?",
+   "back": "Binds receptor → cAMP → AQP2 inserted in apical membrane → water reabsorbed by osmosis."
+  },
+  {
+   "id": "x8",
+   "type": "text",
+   "front": "Urine with maximal ADH and without ADH?",
+   "back": "Max ADH: 0.25 mL/min (375 mL/day). No ADH: 15 mL/min (22.5 L/day)."
+  },
+  {
+   "id": "x9",
+   "type": "text",
+   "front": "Job of each tubule segment?",
+   "back": "PCT: ions, water, nutrients, pH; descending limb: water out; ascending limb: Na+ and Cl− out; DCT: ions and pH; collecting duct: water and solutes."
+  },
+  {
+   "id": "img-glo",
+   "type": "image",
+   "target": "glo",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Glomerulus. Filters small solutes from the blood into Bowman's capsule."
+  },
+  {
+   "id": "img-pct",
+   "type": "image",
+   "target": "pct",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Proximal convoluted tubule. Reabsorbs ions, water and nutrients; removes toxins and adjusts filtrate pH."
+  },
+  {
+   "id": "img-dlh",
+   "type": "image",
+   "target": "dlh",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Descending limb of the loop of Henle. Aquaporins let water leave the filtrate into the interstitial fluid."
+  },
+  {
+   "id": "img-alh",
+   "type": "image",
+   "target": "alh",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Ascending limb of the loop of Henle. Reabsorbs Na+ and Cl− into the interstitial fluid."
+  },
+  {
+   "id": "img-dct",
+   "type": "image",
+   "target": "dct",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Distal convoluted tubule. Selectively secretes and absorbs ions to keep blood pH and electrolytes balanced."
+  },
+  {
+   "id": "img-cd",
+   "type": "image",
+   "target": "cd",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Collecting duct. Reabsorbs solutes and water from the filtrate; water permeability set by ADH."
+  }
+ ],
+ "deeper": [
+  {
+   "title": "Diabetes insipidus",
+   "html": "<p>When ADH is missing (central) or the collecting duct cannot respond (nephrogenic), urine approaches the 'no ADH' figures of the lecture: many litres a day of dilute urine with intense thirst. <em>Beyond the lecture.</em></p>"
+  }
+ ],
+ "resources": [
+  {
+   "title": "OpenStax A&P 2e: Microscopic anatomy of the kidney",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+   "kind": "Textbook chapter",
+   "why": "Nephron segments, podocytes and mesangial cells.",
+   "note": ""
+  },
+  {
+   "title": "OpenStax A&P 2e: Physiology of urine formation",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-5-physiology-of-urine-formation",
+   "kind": "Textbook chapter",
+   "why": "Filtration numbers and the four processes.",
+   "note": ""
+  }
+ ],
+ "checks": [],
+ "sources": [
+  {
+   "name": "OpenStax A&P 2e: Microscopic anatomy of the kidney",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney"
+  },
+  {
+   "name": "OpenStax A&P 2e: Physiology of urine formation",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-5-physiology-of-urine-formation"
+  }
+ ],
+ "verified": "1 Nov 2026"
+};
+window.SINA = window.SINA || {subjects:[], lectures:{}};
+SINA.lectures["physio-renal-gfr-reg"] = {
+ "id": "physio-renal-gfr-reg",
+ "subject": "physio",
+ "group": "Renal physiology",
+ "title": "Renal physiology 4: regulation of GFR",
+ "sourceFile": "Renal Physiology 4 (Regulation of GFR).pdf (Kidney Physiology, lecture 4, S3, 2026-2027)",
+ "sourceUrl": "https://drive.google.com/file/d/1-GXGxxJsW7TC_iYQexjbdApd76bK50a_/view?usp=drivesdk",
+ "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
+ "summary": [
+  {
+   "id": "s0",
+   "title": "The big picture",
+   "html": "<p>GFR is controlled by adjusting <strong>glomerular blood pressure</strong> from moment to moment, through three mechanisms: <strong>renal autoregulation</strong>, <strong>nervous (sympathetic) control</strong> and <strong>hormonal control</strong>. Autoregulation keeps GFR stable when systemic pressure changes; hormones (renin-angiotensin-aldosterone, ANP) adjust volume and pressure.</p>"
+  },
+  {
+   "id": "s1",
+   "title": "Renal autoregulation",
+   "html": "<p>The ability of nephrons to adjust their own blood flow and GFR <strong>without external (nervous or hormonal) control</strong>, keeping GFR relatively stable despite changes in systemic blood pressure. Two methods:</p><ol><li><strong>Myogenic mechanism</strong> (intrinsic autoregulation)</li><li><strong>Tubuloglomerular feedback</strong> (extrinsic autoregulation)</li></ol>"
+  },
+  {
+   "id": "s2",
+   "title": "Myogenic mechanism (Bayliss effect)",
+   "html": "<p>Based on the tendency of smooth muscle to <strong>contract when stretched</strong>, to keep capillary flow constant whatever the arterial pressure.</p><ul><li><strong>Pressure rises</strong> → afferent arteriole is stretched → it <strong>constricts</strong> → flow into the glomerulus does not change.</li><li><strong>Pressure falls</strong> → afferent arteriole <strong>dilates</strong> → blood flows more easily into the glomerulus → flow and filtration stay stable.</li></ul>"
+  },
+  {
+   "id": "s3",
+   "title": "Juxtaglomerular apparatus",
+   "html": "<p>Found where the end of the nephron loop (distal convoluted tubule) has re-entered the cortex and touches the afferent and efferent arterioles at the vascular pole.</p><ul><li><strong>Macula densa</strong>: patch of tall, slender, closely spaced <strong>sensory cells</strong> in the nephron loop; <strong>chemoreceptors for NaCl</strong> in the filtrate.</li><li><strong>Granular (juxtaglomerular) cells</strong>: modified smooth muscle cells wrapping the arterioles; contain <strong>renin</strong> granules; <strong>mechanoreceptors</strong> sensing blood pressure in the afferent arteriole.</li><li><strong>Mesangial cells</strong> may also contract, constricting capillaries and further limiting GFR.</li></ul>"
+  },
+  {
+   "id": "s4",
+   "title": "Tubuloglomerular feedback",
+   "html": "<p><strong>When GFR is high</strong>, filtrate contains more NaCl:</p><ol><li>Macula densa cells sense the NaCl.</li><li>They secrete <strong>ATP</strong> in response to increased NaCl absorption.</li><li>ATP is metabolised by nearby mesangial cells into <strong>adenosine</strong>.</li><li>Adenosine stimulates nearby granular cells.</li><li>Granular cells <strong>contract</strong>, constricting the <strong>afferent arteriole</strong>.</li><li>GFR falls back to normal.</li><li>Mesangial cells may also contract, further limiting GFR.</li></ol><p><strong>When GFR falls</strong>: the macula densa relaxes the afferent arterioles and mesangial cells, blood flow increases and GFR rises back to normal. This is <strong>negative feedback</strong>.</p>"
+  },
+  {
+   "id": "s5",
+   "title": "Renin-angiotensin-aldosterone system",
+   "html": "<ol><li>A drop in blood pressure: <strong>baroreceptors</strong> in the carotid and aorta stimulate the <strong>sympathetic</strong> system (also less stretch of the granular cells and less NaCl at the macula densa).</li><li>Sympathetic fibres trigger <strong>renin</strong> release by the granular cells.</li><li>Renin converts <strong>angiotensinogen</strong> (liver; 453 amino acids) into <strong>angiotensin I</strong> (10 aa).</li><li>In the <strong>lungs and kidneys</strong>, <strong>ACE</strong> (endothelium) converts angiotensin I to <strong>angiotensin II</strong> (8 aa).</li></ol><p><strong>Angiotensin II</strong>, the active hormone that raises BP:</p><ul><li>Potent <strong>vasoconstrictor</strong> throughout the body.</li><li><strong>Constricts the efferent arteriole</strong>, raising GFR despite low BP.</li><li>Lowers pressure in the peritubular capillaries, enhancing NaCl and H2O reabsorption.</li><li>Stimulates the adrenal cortex to secrete <strong>aldosterone</strong> (Na+ and H2O reabsorption in DCT and collecting duct).</li><li>Stimulates Na+ and H2O reabsorption in the <strong>PCT</strong>.</li><li>Stimulates the posterior pituitary to secrete <strong>ADH</strong>.</li><li>Stimulates <strong>thirst</strong>.</li></ul>"
+  },
+  {
+   "id": "s6",
+   "title": "ANP and BNP: the opposite system",
+   "html": "<p>Stimuli: <strong>cardiac distension</strong> (atria), sympathetic stimulation, angiotensin II. Effects of <strong>ANP</strong> (and BNP):</p><ul><li>Kidneys: <strong>afferent dilation, efferent constriction</strong> → <strong>GFR ↑</strong>; less Na+ reabsorption → <strong>Na+ excretion ↑</strong> (natriuresis, diuresis).</li><li>Lower renin and aldosterone; vasodilation.</li><li>Result: blood volume and blood pressure fall.</li></ul>"
+  }
+ ],
+ "exam": [
+  "GFR control: autoregulation, sympathetic, hormonal.",
+  "Autoregulation works without nerves or hormones: myogenic (intrinsic) and tubuloglomerular feedback (extrinsic).",
+  "Myogenic = Bayliss effect: stretch → afferent constriction; low pressure → afferent dilation.",
+  "Macula densa = NaCl chemoreceptor; granular cells = BP mechanoreceptors containing renin.",
+  "High GFR → more NaCl → ATP → adenosine → afferent constriction → GFR ↓.",
+  "Renin: angiotensinogen → angiotensin I; ACE (lungs, kidney) → angiotensin II.",
+  "Angiotensin II: vasoconstriction, efferent constriction, aldosterone, ADH, thirst, PCT Na+ reabsorption.",
+  "ANP/BNP: afferent dilation, efferent constriction, GFR ↑, natriuresis, renin and aldosterone ↓."
+ ],
+ "visual": {
+  "kind": "model",
+  "intro": "",
+  "figure": {
+   "viewBox": "0 0 760 420",
+   "alt": "Renin-angiotensin-aldosterone system",
+   "caption": "From low blood pressure to more salt and water. Schematic drawn for this site.",
+   "base": "<defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"8\" refX=\"9\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L10,4 L0,8 Z\" fill=\"#8a8a8a\"/></marker></defs><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"230\" y1=\"129.667\" x2=\"300\" y2=\"129.667\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"460\" y1=\"129.667\" x2=\"530\" y2=\"129.667\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"610\" y1=\"160.667\" x2=\"610\" y2=\"259.333\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"530\" y1=\"290.333\" x2=\"460\" y2=\"290.333\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"300\" y1=\"290.333\" x2=\"230\" y2=\"290.333\"/>",
+   "parts": {
+    "bp": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2d7cf\" x=\"70\" y=\"98.6667\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Blood pressure ↓",
+      "baroreceptors"
+     ],
+     "lx": 150.0,
+     "ly": 127.66666666666669
+    },
+    "ren": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"300\" y=\"98.6667\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Renin from",
+      "granular cells"
+     ],
+     "lx": 380.0,
+     "ly": 127.66666666666669
+    },
+    "ang1": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"530\" y=\"98.6667\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Angiotensinogen",
+      "→ angiotensin I"
+     ],
+     "lx": 610.0,
+     "ly": 127.66666666666669
+    },
+    "ace": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2e2a8\" x=\"530\" y=\"259.333\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "ACE (lungs, kidney)",
+      "→ angiotensin II"
+     ],
+     "lx": 610.0,
+     "ly": 288.33333333333337
+    },
+    "ald": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"300\" y=\"259.333\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Aldosterone",
+      "(adrenal cortex)"
+     ],
+     "lx": 380.0,
+     "ly": 288.33333333333337
+    },
+    "ret": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f7d9b8\" x=\"70\" y=\"259.333\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Na+ and H2O",
+      "retained, BP ↑"
+     ],
+     "lx": 150.0,
+     "ly": 288.33333333333337
+    }
+   },
+   "arrows": {
+    "bp": [
+     {
+      "t": [
+       70.0,
+       106.66666666666667
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "ren": [
+     {
+      "t": [
+       300.0,
+       106.66666666666667
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "ang1": [
+     {
+      "t": [
+       530.0,
+       106.66666666666667
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "ace": [
+     {
+      "t": [
+       530.0,
+       267.33333333333337
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "ald": [
+     {
+      "t": [
+       300.0,
+       267.33333333333337
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "ret": [
+     {
+      "t": [
+       70.0,
+       267.33333333333337
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ]
+   }
+  }
+ },
+ "mcqs": [
+  {
+   "q": "Which three mechanisms control GFR?",
+   "options": [
+    "Autoregulation, sympathetic, hormonal",
+    "Filtration, secretion, excretion",
+    "Myogenic, osmotic, chemical",
+    "Renin, ADH, insulin"
+   ],
+   "answer": 0,
+   "why": "Renal autoregulation, nervous (sympathetic) control and hormonal control."
+  },
+  {
+   "q": "Renal autoregulation works:",
+   "options": [
+    "Only through the sympathetic system",
+    "Without external nervous or hormonal control",
+    "Only through ADH",
+    "Only during sleep"
+   ],
+   "answer": 1,
+   "why": "It is the nephrons' ability to adjust their own flow and GFR without external control."
+  },
+  {
+   "q": "The myogenic mechanism is also called:",
+   "options": [
+    "The Starling effect",
+    "The Bayliss effect",
+    "The Bohr effect",
+    "The Haldane effect"
+   ],
+   "answer": 1,
+   "why": "Myogenic mechanism = Bayliss effect."
+  },
+  {
+   "q": "If arterial pressure rises, the afferent arteriole:",
+   "options": [
+    "Dilates",
+    "Constricts",
+    "Does not change",
+    "Secretes ADH"
+   ],
+   "answer": 1,
+   "why": "It is stretched and constricts, so glomerular flow does not change."
+  },
+  {
+   "q": "If arterial pressure falls, the afferent arteriole:",
+   "options": [
+    "Constricts",
+    "Dilates",
+    "Ruptures",
+    "Releases ANP"
+   ],
+   "answer": 1,
+   "why": "It dilates so flow and filtration stay stable."
+  },
+  {
+   "q": "The macula densa cells are:",
+   "options": [
+    "Mechanoreceptors for pressure",
+    "Chemoreceptors for NaCl in the filtrate",
+    "Renin-secreting cells",
+    "Podocytes"
+   ],
+   "answer": 1,
+   "why": "Macula densa = chemoreceptors responding to NaCl content."
+  },
+  {
+   "q": "Which cells contain renin granules and sense blood pressure?",
+   "options": [
+    "Macula densa cells",
+    "Granular (juxtaglomerular) cells",
+    "Podocytes",
+    "Intercalated cells"
+   ],
+   "answer": 1,
+   "why": "Granular cells are mechanoreceptors in the afferent arteriole with renin granules."
+  },
+  {
+   "q": "When GFR is high, macula densa cells secrete:",
+   "options": [
+    "Renin",
+    "ATP",
+    "Nitric oxide",
+    "ANP"
+   ],
+   "answer": 1,
+   "why": "They secrete ATP, which mesangial cells metabolise into adenosine."
+  },
+  {
+   "q": "Adenosine in tubuloglomerular feedback causes:",
+   "options": [
+    "Afferent arteriole constriction",
+    "Efferent arteriole dilation",
+    "Renin release only",
+    "Aquaporin insertion"
+   ],
+   "answer": 0,
+   "why": "Adenosine stimulates granular cells, which constrict the afferent arteriole; GFR falls back."
+  },
+  {
+   "q": "Tubuloglomerular feedback is an example of:",
+   "options": [
+    "Positive feedback",
+    "Negative feedback",
+    "Feed-forward control",
+    "Hormonal control"
+   ],
+   "answer": 1,
+   "why": "Negative feedback control of GFR."
+  },
+  {
+   "q": "Renin converts:",
+   "options": [
+    "Angiotensin I to angiotensin II",
+    "Angiotensinogen to angiotensin I",
+    "Angiotensin II to aldosterone",
+    "Cholesterol to aldosterone"
+   ],
+   "answer": 1,
+   "why": "Renin: angiotensinogen → angiotensin I."
+  },
+  {
+   "q": "Where does ACE mainly convert angiotensin I to angiotensin II?",
+   "options": [
+    "Liver and spleen",
+    "Lungs and kidneys",
+    "Adrenal medulla",
+    "Bone marrow"
+   ],
+   "answer": 1,
+   "why": "ACE (endothelium) in the lungs and kidneys."
+  },
+  {
+   "q": "Angiotensinogen is produced by:",
+   "options": [
+    "The kidney",
+    "The liver",
+    "The lung",
+    "The adrenal cortex"
+   ],
+   "answer": 1,
+   "why": "Angiotensinogen is a blood protein made by the liver."
+  },
+  {
+   "q": "Angiotensin II keeps GFR up despite low pressure by:",
+   "options": [
+    "Dilating the efferent arteriole",
+    "Constricting the efferent arteriole",
+    "Dilating the afferent arteriole only",
+    "Blocking renin"
+   ],
+   "answer": 1,
+   "why": "It constricts the efferent arteriole, raising glomerular pressure."
+  },
+  {
+   "q": "Which are effects of angiotensin II?",
+   "options": [
+    "Aldosterone secretion",
+    "ADH secretion",
+    "Thirst",
+    "Afferent arteriole dilation and natriuresis"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Ang II: vasoconstriction, efferent constriction, aldosterone, ADH, thirst, PCT reabsorption.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: that describes ANP."
+   ]
+  },
+  {
+   "q": "Aldosterone promotes Na+ and water reabsorption mainly in:",
+   "options": [
+    "The glomerulus",
+    "The DCT and collecting duct",
+    "The descending limb",
+    "Bowman's capsule"
+   ],
+   "answer": 1,
+   "why": "Aldosterone acts on the distal convoluted tubule and collecting duct."
+  },
+  {
+   "q": "The main stimulus for ANP secretion is:",
+   "options": [
+    "Cardiac (atrial) distension",
+    "Hypoglycaemia",
+    "Low blood pressure",
+    "Dehydration"
+   ],
+   "answer": 0,
+   "why": "ANP is released when the atria are distended."
+  },
+  {
+   "q": "ANP:",
+   "options": [
+    "Raises GFR",
+    "Increases Na+ excretion",
+    "Lowers aldosterone",
+    "Constricts the afferent arteriole"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "ANP: afferent dilation, efferent constriction, GFR ↑, natriuresis, renin and aldosterone ↓.",
+   "notes": [
+    "Correct.",
+    "Correct: natriuresis.",
+    "Correct.",
+    "Wrong: it dilates the afferent arteriole."
+   ]
+  },
+  {
+   "q": "In the RAAS, the first step after a drop in blood pressure is:",
+   "options": [
+    "ACE released by the lungs",
+    "Baroreceptors stimulate the sympathetic system",
+    "Aldosterone secreted by the adrenal",
+    "ADH released by the pituitary"
+   ],
+   "answer": 1,
+   "why": "Carotid and aortic baroreceptors stimulate the sympathetic system, which triggers renin release."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "bp",
+   "options": [
+    "Fall in blood pressure",
+    "Angiotensin II",
+    "Salt and water retention",
+    "Angiotensin I"
+   ],
+   "answer": 0,
+   "why": "The arrow points to: Fall in blood pressure. Baroreceptors in the carotid and aorta stimulate the sympathetic nervous system."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "ren",
+   "options": [
+    "Aldosterone",
+    "Renin",
+    "Fall in blood pressure",
+    "Salt and water retention"
+   ],
+   "answer": 1,
+   "why": "The arrow points to: Renin. Released by the granular (juxtaglomerular) cells, triggered by sympathetic fibres."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "ang1",
+   "options": [
+    "Angiotensin I",
+    "Fall in blood pressure",
+    "Angiotensin II",
+    "Renin"
+   ],
+   "answer": 0,
+   "why": "The arrow points to: Angiotensin I. Renin converts angiotensinogen, a blood protein from the liver, into angiotensin I."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "ace",
+   "options": [
+    "Fall in blood pressure",
+    "Renin",
+    "Angiotensin II",
+    "Angiotensin I"
+   ],
+   "answer": 2,
+   "why": "The arrow points to: Angiotensin II. Angiotensin-converting enzyme in the lungs and kidneys converts angiotensin I to angiotensin II."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "ald",
+   "options": [
+    "Renin",
+    "Angiotensin I",
+    "Aldosterone",
+    "Salt and water retention"
+   ],
+   "answer": 2,
+   "why": "The arrow points to: Aldosterone. Angiotensin II stimulates the adrenal cortex to secrete aldosterone."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "ret",
+   "options": [
+    "Angiotensin I",
+    "Aldosterone",
+    "Angiotensin II",
+    "Salt and water retention"
+   ],
+   "answer": 3,
+   "why": "The arrow points to: Salt and water retention. Na+ and H2O reabsorption in the DCT and collecting duct raises plasma volume and blood pressure."
+  }
+ ],
+ "cards": [
+  {
+   "id": "x0",
+   "type": "text",
+   "front": "Three mechanisms controlling GFR?",
+   "back": "Renal autoregulation, sympathetic control, hormonal control."
+  },
+  {
+   "id": "x1",
+   "type": "text",
+   "front": "Two types of renal autoregulation?",
+   "back": "Myogenic mechanism (intrinsic) and tubuloglomerular feedback (extrinsic)."
+  },
+  {
+   "id": "x2",
+   "type": "text",
+   "front": "Bayliss effect?",
+   "back": "Myogenic: stretched afferent arteriole constricts; at low pressure it dilates, keeping flow stable."
+  },
+  {
+   "id": "x3",
+   "type": "text",
+   "front": "Macula densa vs granular cells?",
+   "back": "Macula densa: NaCl chemoreceptors. Granular (JG) cells: pressure mechanoreceptors with renin."
+  },
+  {
+   "id": "x4",
+   "type": "text",
+   "front": "Tubuloglomerular feedback when GFR is high?",
+   "back": "More NaCl → macula densa ATP → adenosine → granular cells contract → afferent constriction → GFR ↓."
+  },
+  {
+   "id": "x5",
+   "type": "text",
+   "front": "RAAS in four steps?",
+   "back": "BP ↓ → sympathetic → renin → angiotensinogen to angiotensin I → ACE (lungs, kidneys) → angiotensin II."
+  },
+  {
+   "id": "x6",
+   "type": "text",
+   "front": "Seven actions of angiotensin II?",
+   "back": "Vasoconstriction; efferent constriction; peritubular reabsorption; aldosterone; PCT Na+ and H2O; ADH; thirst."
+  },
+  {
+   "id": "x7",
+   "type": "text",
+   "front": "ANP effects?",
+   "back": "Afferent dilation, efferent constriction, GFR ↑, natriuresis and diuresis, renin and aldosterone ↓, vasodilation."
+  },
+  {
+   "id": "x8",
+   "type": "text",
+   "front": "Peptide sizes in RAAS?",
+   "back": "Angiotensinogen 453 aa → angiotensin I 10 aa → angiotensin II 8 aa."
+  },
+  {
+   "id": "img-bp",
+   "type": "image",
+   "target": "bp",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Fall in blood pressure. Baroreceptors in the carotid and aorta stimulate the sympathetic nervous system."
+  },
+  {
+   "id": "img-ren",
+   "type": "image",
+   "target": "ren",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Renin. Released by the granular (juxtaglomerular) cells, triggered by sympathetic fibres."
+  },
+  {
+   "id": "img-ang1",
+   "type": "image",
+   "target": "ang1",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Angiotensin I. Renin converts angiotensinogen, a blood protein from the liver, into angiotensin I."
+  },
+  {
+   "id": "img-ace",
+   "type": "image",
+   "target": "ace",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Angiotensin II. Angiotensin-converting enzyme in the lungs and kidneys converts angiotensin I to angiotensin II."
+  },
+  {
+   "id": "img-ald",
+   "type": "image",
+   "target": "ald",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Aldosterone. Angiotensin II stimulates the adrenal cortex to secrete aldosterone."
+  },
+  {
+   "id": "img-ret",
+   "type": "image",
+   "target": "ret",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Salt and water retention. Na+ and H2O reabsorption in the DCT and collecting duct raises plasma volume and blood pressure."
+  }
+ ],
+ "deeper": [
+  {
+   "title": "ACE inhibitors and the efferent arteriole",
+   "html": "<p>Because angiotensin II holds the efferent arteriole tight, blocking it (ACE inhibitors, ARBs) lowers glomerular pressure. That protects kidneys in diabetes but can drop GFR sharply in renal artery stenosis. <em>Beyond the lecture.</em></p>"
+  }
+ ],
+ "resources": [
+  {
+   "title": "OpenStax A&P 2e: Regulation of renal blood flow",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-7-regulation-of-renal-blood-flow",
+   "kind": "Textbook chapter",
+   "why": "Myogenic mechanism and tubuloglomerular feedback.",
+   "note": ""
+  },
+  {
+   "title": "OpenStax A&P 2e: Endocrine regulation of kidney function",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-8-endocrine-regulation-of-kidney-function",
+   "kind": "Textbook chapter",
+   "why": "Renin-angiotensin-aldosterone, ADH and ANP.",
+   "note": ""
+  }
+ ],
+ "checks": [],
+ "sources": [
+  {
+   "name": "OpenStax A&P 2e: Regulation of renal blood flow",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-7-regulation-of-renal-blood-flow"
+  },
+  {
+   "name": "OpenStax A&P 2e: Endocrine regulation of kidney function",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-8-endocrine-regulation-of-kidney-function"
+  }
+ ],
+ "verified": "1 Nov 2026"
+};
+window.SINA = window.SINA || {subjects:[], lectures:{}};
+SINA.lectures["physio-renal-reabs"] = {
+ "id": "physio-renal-reabs",
+ "subject": "physio",
+ "group": "Renal physiology",
+ "title": "Renal physiology 5: tubular reabsorption",
+ "sourceFile": "Renal Physiology 5 (Tubular reabsorption).pdf (Kidney Physiology, lecture 5, S3, 2026-2027)",
+ "sourceUrl": "https://drive.google.com/file/d/1kBX4VghGpbZOOHvHxqOaLLcgRide6-84/view?usp=drivesdk",
+ "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
+ "summary": [
+  {
+   "id": "s0",
+   "title": "The big picture",
+   "html": "<p><strong>Tubular reabsorption</strong> reclaims water and solutes from tubular fluid and returns them to the blood. The <strong>proximal tubule</strong> takes back about <strong>65%</strong>; the <strong>descending limb</strong> about <strong>20%</strong> more; the last <strong>15%</strong> is hormone-controlled. The <strong>countercurrent multiplier</strong> of the loop of Henle builds the salty medulla that lets water leave.</p>"
+  },
+  {
+   "id": "s1",
+   "title": "Two types of nephrons",
+   "html": "<table><tr><th></th><th>Cortical</th><th>Juxtamedullary</th></tr><tr><td>Share</td><td><strong>85%</strong></td><td><strong>15%</strong></td></tr><tr><td>Loop</td><td>Short</td><td><strong>Very long</strong>; maintain the medullary salinity gradient and conserve water</td></tr><tr><td>Efferent arteriole</td><td>Branches into <strong>peritubular capillaries</strong> around PCT and DCT</td><td>Branches into <strong>vasa recta</strong> around the long loop</td></tr></table><p>Juxtamedullary nephrons are <strong>better at making concentrated urine</strong>. Physiological nephron loss: about 1% per year from age 30.</p>"
+  },
+  {
+   "id": "s2",
+   "title": "Routes and transport",
+   "html": "<ul><li><strong>Transcellular</strong> route: through the cytoplasm of PCT cells and out their base.</li><li><strong>Paracellular</strong> route: between PCT cells; junctions are <strong>leaky</strong> and let much water through.</li><li>Reabsorbed fluid is taken up by the <strong>peritubular capillaries</strong>.</li><li><strong>Na+–K+ pumps</strong> on the <strong>basal</strong> surface keep Na+ from accumulating: <strong>primary active transport</strong> (use ATP).</li><li><strong>Symports</strong> on the <strong>apical</strong> surface: <strong>secondary active transport</strong>, no direct ATP but depend on the Na+ gradient set by the pumps.</li><li><strong>Glucose</strong> is co-transported with Na+ by <strong>SGLT</strong> proteins; normally <strong>all glucose is reabsorbed</strong>.</li></ul>"
+  },
+  {
+   "id": "s3",
+   "title": "The proximal convoluted tubule",
+   "html": "<ul><li>Reabsorbs about <strong>65% (2/3)</strong> of the glomerular filtrate, and secretes some substances from the blood into the tubular fluid.</li><li><strong>Prominent microvilli</strong>, great length, <strong>abundant mitochondria</strong> for active transport.</li><li>PCTs alone use about <strong>6% of resting ATP</strong> and calorie consumption.</li><li><strong>Na+ is actively transported</strong> out to set up the gradient that drives osmosis; Cl− follows passively and water follows by osmosis.</li><li>Fluid leaving is reduced to 1/3 of the original volume but is still <strong>isosmotic</strong>.</li></ul><p><strong>Significance</strong>: 65% of salt and water reabsorbed is still too much filtrate left. Another <strong>20% of water</strong> is reabsorbed in the descending limb (continuous, <strong>unregulated</strong>). The final <strong>15%</strong> is absorbed later under <strong>hormonal control</strong>. Fluid entering the loop is <strong>isotonic</strong>.</p>"
+  },
+  {
+   "id": "s4",
+   "title": "Countercurrent multiplier",
+   "html": "<p>Water cannot be pumped and will not cross if isotonic, so the loop builds a <strong>concentration gradient</strong>; the <strong>ascending limb</strong> sets it up.</p><table><tr><th>Descending limb</th><th>Ascending limb</th></tr><tr><td><strong>Permeable to water</strong>, impermeable to solutes</td><td><strong>Permeable to solutes</strong> (active Na+ transport, Cl− follows), <strong>impermeable to water</strong></td></tr></table><p>Repeating cycles of pumping and fluid advancing multiply a small difference (300 → 400/200) into a gradient from <strong>300 mOsm</strong> in the cortex to about <strong>1 200 to 1 400 mOsm</strong> deep in the medulla. 'Countercurrent' = fluid flows in opposite directions in the two adjoining limbs. The kidneys keep plasma osmolarity at <strong>300 mOsm</strong>.</p>"
+  }
+ ],
+ "exam": [
+  "Cortical nephrons 85% (short loops, peritubular capillaries); juxtamedullary 15% (long loops, vasa recta, concentrate urine).",
+  "Transcellular and paracellular (leaky junctions) routes; peritubular capillaries take up the fluid.",
+  "Basal Na+–K+ pump = primary active; apical symports = secondary active.",
+  "Glucose: SGLT with Na+; normally all reabsorbed.",
+  "PCT: 65% of filtrate; microvilli, mitochondria; 6% of resting ATP; fluid leaves isosmotic.",
+  "Descending limb: 20% more water, unregulated. Final 15%: hormonal.",
+  "Descending limb permeable to water only; ascending limb to solutes only.",
+  "Countercurrent multiplier builds 300 → about 1 200-1 400 mOsm."
+ ],
+ "visual": {
+  "kind": "model",
+  "intro": "",
+  "figure": {
+   "viewBox": "0 0 760 420",
+   "alt": "Countercurrent multiplier, step by step",
+   "caption": "How the loop of Henle builds the medullary gradient. Schematic drawn for this site.",
+   "base": "<defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"8\" refX=\"9\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L10,4 L0,8 Z\" fill=\"#8a8a8a\"/></marker></defs><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"230\" y1=\"129.667\" x2=\"300\" y2=\"129.667\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"460\" y1=\"129.667\" x2=\"530\" y2=\"129.667\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"610\" y1=\"160.667\" x2=\"610\" y2=\"259.333\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"530\" y1=\"290.333\" x2=\"460\" y2=\"290.333\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"300\" y1=\"290.333\" x2=\"230\" y2=\"290.333\"/>",
+   "parts": {
+    "iso": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2d7cf\" x=\"70\" y=\"98.6667\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Filtrate enters",
+      "isosmotic (300)"
+     ],
+     "lx": 150.0,
+     "ly": 127.66666666666669
+    },
+    "pump": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"300\" y=\"98.6667\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Ascending limb",
+      "pumps out NaCl"
+     ],
+     "lx": 380.0,
+     "ly": 127.66666666666669
+    },
+    "gra": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"530\" y=\"98.6667\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Interstitium",
+      "gets saltier"
+     ],
+     "lx": 610.0,
+     "ly": 127.66666666666669
+    },
+    "wat": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2e2a8\" x=\"530\" y=\"259.333\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Descending limb",
+      "loses water"
+     ],
+     "lx": 610.0,
+     "ly": 288.33333333333337
+    },
+    "adv": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"300\" y=\"259.333\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Fluid advances",
+      "gradient multiplies"
+     ],
+     "lx": 380.0,
+     "ly": 288.33333333333337
+    },
+    "top": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f7d9b8\" x=\"70\" y=\"259.333\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Up to about",
+      "1 200-1 400 mOsm"
+     ],
+     "lx": 150.0,
+     "ly": 288.33333333333337
+    }
+   },
+   "arrows": {
+    "iso": [
+     {
+      "t": [
+       70.0,
+       106.66666666666667
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "pump": [
+     {
+      "t": [
+       300.0,
+       106.66666666666667
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "gra": [
+     {
+      "t": [
+       530.0,
+       106.66666666666667
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "wat": [
+     {
+      "t": [
+       530.0,
+       267.33333333333337
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "adv": [
+     {
+      "t": [
+       300.0,
+       267.33333333333337
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "top": [
+     {
+      "t": [
+       70.0,
+       267.33333333333337
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ]
+   }
+  }
+ },
+ "mcqs": [
+  {
+   "q": "What share of nephrons are cortical?",
+   "options": [
+    "15%",
+    "50%",
+    "85%",
+    "99%"
+   ],
+   "answer": 2,
+   "why": "Cortical nephrons 85%; juxtamedullary 15%."
+  },
+  {
+   "q": "Which nephrons are better at making concentrated urine?",
+   "options": [
+    "Cortical nephrons",
+    "Juxtamedullary nephrons",
+    "Both equally",
+    "Neither"
+   ],
+   "answer": 1,
+   "why": "Juxtamedullary nephrons have very long loops and maintain the medullary gradient."
+  },
+  {
+   "q": "In juxtamedullary nephrons the efferent arteriole branches into:",
+   "options": [
+    "Peritubular capillaries around the PCT",
+    "Vasa recta around the long loop",
+    "The arcuate vein directly",
+    "The glomerulus again"
+   ],
+   "answer": 1,
+   "why": "Juxtamedullary: vasa recta; cortical: peritubular capillaries."
+  },
+  {
+   "q": "Substances passing between PCT cells use the:",
+   "options": [
+    "Transcellular route",
+    "Paracellular route",
+    "Lymphatic route",
+    "Vesicular route only"
+   ],
+   "answer": 1,
+   "why": "Paracellular = between cells, through leaky junctions."
+  },
+  {
+   "q": "The basal Na+–K+ pump is an example of:",
+   "options": [
+    "Primary active transport",
+    "Secondary active transport",
+    "Facilitated diffusion",
+    "Osmosis"
+   ],
+   "answer": 0,
+   "why": "It uses ATP directly: primary active transport."
+  },
+  {
+   "q": "Apical Na+ symports in the PCT are:",
+   "options": [
+    "Primary active transport",
+    "Secondary active transport",
+    "Simple diffusion",
+    "Pinocytosis"
+   ],
+   "answer": 1,
+   "why": "They use the Na+ gradient made by the basal pumps: secondary active transport."
+  },
+  {
+   "q": "Glucose is reabsorbed with Na+ by:",
+   "options": [
+    "GLUT4",
+    "SGLT proteins",
+    "Aquaporins",
+    "The H+-ATPase"
+   ],
+   "answer": 1,
+   "why": "Sodium-glucose transport (SGLT) proteins; normally all glucose is reabsorbed."
+  },
+  {
+   "q": "The PCT reabsorbs about what fraction of the glomerular filtrate?",
+   "options": [
+    "20%",
+    "One third",
+    "65% (two thirds)",
+    "99%"
+   ],
+   "answer": 2,
+   "why": "About 65% (2/3)."
+  },
+  {
+   "q": "PCTs alone use about what share of resting ATP?",
+   "options": [
+    "0.5%",
+    "6%",
+    "25%",
+    "50%"
+   ],
+   "answer": 1,
+   "why": "PCTs account for about 6% of resting ATP and calorie consumption."
+  },
+  {
+   "q": "Fluid leaving the proximal tubule is:",
+   "options": [
+    "Hypotonic",
+    "Isosmotic",
+    "Hypertonic",
+    "Protein-rich"
+   ],
+   "answer": 1,
+   "why": "Reduced to one third of its volume but still isosmotic."
+  },
+  {
+   "q": "About how much more water is reabsorbed in the descending limb?",
+   "options": [
+    "5%",
+    "20%",
+    "50%",
+    "65%"
+   ],
+   "answer": 1,
+   "why": "An additional 20%, continuously and without regulation."
+  },
+  {
+   "q": "The final 15% of water reabsorption is:",
+   "options": [
+    "Unregulated",
+    "Under hormonal control",
+    "Done by the glomerulus",
+    "Paracellular only"
+   ],
+   "answer": 1,
+   "why": "The final 15% is absorbed later in the nephron under hormonal control."
+  },
+  {
+   "q": "The descending limb of the loop of Henle is:",
+   "options": [
+    "Permeable to water, impermeable to solutes",
+    "Permeable to solutes, impermeable to water",
+    "Impermeable to both",
+    "The site of active NaCl pumping"
+   ],
+   "answer": 0,
+   "why": "Descending: water leaves; ions stay."
+  },
+  {
+   "q": "The ascending limb is:",
+   "options": [
+    "Permeable to water, not to solutes",
+    "Impermeable to water, pumps out Na+",
+    "The main site of aquaporin-2 insertion",
+    "The main site of glucose reabsorption"
+   ],
+   "answer": 1,
+   "why": "Ascending limb: active Na+ transport, Cl− follows, impermeable to water."
+  },
+  {
+   "q": "Which part of the loop sets up the concentration gradient?",
+   "options": [
+    "Descending limb",
+    "Ascending limb",
+    "Bowman's capsule",
+    "Collecting duct"
+   ],
+   "answer": 1,
+   "why": "The ascending portion sets up the gradient."
+  },
+  {
+   "q": "The kidneys keep plasma osmolarity at about:",
+   "options": [
+    "150 mOsm",
+    "300 mOsm",
+    "600 mOsm",
+    "1 200 mOsm"
+   ],
+   "answer": 1,
+   "why": "Plasma osmolarity is kept at about 300 mOsm."
+  },
+  {
+   "q": "'Countercurrent' means:",
+   "options": [
+    "Flow against gravity",
+    "Fluid flows in opposite directions in adjoining tubes",
+    "Current moves against the ion gradient",
+    "Blood flows faster than filtrate"
+   ],
+   "answer": 1,
+   "why": "Fluid in one limb flows opposite to the adjoining limb."
+  },
+  {
+   "q": "Which statements about tubular reabsorption are correct?",
+   "options": [
+    "Reabsorbed fluid is taken up by peritubular capillaries",
+    "PCT cells have prominent microvilli and many mitochondria",
+    "PCT junctions are tight and block water",
+    "Cl− follows Na+ passively in the PCT"
+   ],
+   "answers": [
+    0,
+    1,
+    3
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "PCT junctions are leaky, letting water through.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Wrong: they are leaky.",
+    "Correct."
+   ]
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "iso",
+   "options": [
+    "Active NaCl pumping",
+    "Isosmotic filtrate",
+    "Fluid advances",
+    "Water leaves the descending limb"
+   ],
+   "answer": 1,
+   "why": "The arrow points to: Isosmotic filtrate. Fluid entering the loop is isosmotic (about 300 mOsm) with the interstitial fluid."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "pump",
+   "options": [
+    "Isosmotic filtrate",
+    "Fluid advances",
+    "Active NaCl pumping",
+    "Saltier interstitium"
+   ],
+   "answer": 2,
+   "why": "The arrow points to: Active NaCl pumping. The ascending limb actively transports Na+ (Cl− follows) and is impermeable to water."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "gra",
+   "options": [
+    "Saltier interstitium",
+    "Active NaCl pumping",
+    "Water leaves the descending limb",
+    "Deep medulla"
+   ],
+   "answer": 0,
+   "why": "The arrow points to: Saltier interstitium. The medullary interstitium becomes more concentrated deeper in the medulla."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "wat",
+   "options": [
+    "Water leaves the descending limb",
+    "Saltier interstitium",
+    "Deep medulla",
+    "Isosmotic filtrate"
+   ],
+   "answer": 0,
+   "why": "The arrow points to: Water leaves the descending limb. Permeable to water, impermeable to ions: water follows by osmosis."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "adv",
+   "options": [
+    "Isosmotic filtrate",
+    "Saltier interstitium",
+    "Active NaCl pumping",
+    "Fluid advances"
+   ],
+   "answer": 3,
+   "why": "The arrow points to: Fluid advances. Repeating pump and advance multiplies the small difference into a steep gradient."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "top",
+   "options": [
+    "Saltier interstitium",
+    "Isosmotic filtrate",
+    "Active NaCl pumping",
+    "Deep medulla"
+   ],
+   "answer": 3,
+   "why": "The arrow points to: Deep medulla. The gradient reaches about 1 200 to 1 400 mOsm at the tip of the loop."
+  }
+ ],
+ "cards": [
+  {
+   "id": "x0",
+   "type": "text",
+   "front": "Cortical vs juxtamedullary nephrons?",
+   "back": "Cortical 85%, short loops, peritubular capillaries. Juxtamedullary 15%, very long loops, vasa recta, concentrate urine."
+  },
+  {
+   "id": "x1",
+   "type": "text",
+   "front": "Two routes of reabsorption?",
+   "back": "Transcellular (through cells) and paracellular (between cells, leaky junctions)."
+  },
+  {
+   "id": "x2",
+   "type": "text",
+   "front": "Primary vs secondary active transport in the PCT?",
+   "back": "Basal Na+–K+ pump uses ATP (primary); apical symports use the Na+ gradient (secondary)."
+  },
+  {
+   "id": "x3",
+   "type": "text",
+   "front": "How is glucose reabsorbed?",
+   "back": "With Na+ by SGLT proteins; normally all of it."
+  },
+  {
+   "id": "x4",
+   "type": "text",
+   "front": "PCT features?",
+   "back": "Reabsorbs 65%; microvilli, great length, many mitochondria; 6% of resting ATP; fluid stays isosmotic."
+  },
+  {
+   "id": "x5",
+   "type": "text",
+   "front": "Where does the rest of the water go?",
+   "back": "20% in the descending limb (unregulated); final 15% under hormonal control."
+  },
+  {
+   "id": "x6",
+   "type": "text",
+   "front": "Permeability of the two limbs?",
+   "back": "Descending: water yes, solutes no. Ascending: solutes yes (active Na+), water no."
+  },
+  {
+   "id": "x7",
+   "type": "text",
+   "front": "Gradient built by the countercurrent multiplier?",
+   "back": "From 300 mOsm in the cortex to about 1 200-1 400 mOsm in the deep medulla."
+  },
+  {
+   "id": "img-iso",
+   "type": "image",
+   "target": "iso",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Isosmotic filtrate. Fluid entering the loop is isosmotic (about 300 mOsm) with the interstitial fluid."
+  },
+  {
+   "id": "img-pump",
+   "type": "image",
+   "target": "pump",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Active NaCl pumping. The ascending limb actively transports Na+ (Cl− follows) and is impermeable to water."
+  },
+  {
+   "id": "img-gra",
+   "type": "image",
+   "target": "gra",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Saltier interstitium. The medullary interstitium becomes more concentrated deeper in the medulla."
+  },
+  {
+   "id": "img-wat",
+   "type": "image",
+   "target": "wat",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Water leaves the descending limb. Permeable to water, impermeable to ions: water follows by osmosis."
+  },
+  {
+   "id": "img-adv",
+   "type": "image",
+   "target": "adv",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Fluid advances. Repeating pump and advance multiplies the small difference into a steep gradient."
+  },
+  {
+   "id": "img-top",
+   "type": "image",
+   "target": "top",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Deep medulla. The gradient reaches about 1 200 to 1 400 mOsm at the tip of the loop."
+  }
+ ],
+ "deeper": [
+  {
+   "title": "SGLT2 inhibitors",
+   "html": "<p>Drugs such as dapagliflozin block SGLT2 in the proximal tubule, so glucose escapes into the urine: a way to lower blood glucose in type 2 diabetes that also protects heart and kidney. <em>Beyond the lecture.</em></p>"
+  }
+ ],
+ "resources": [
+  {
+   "title": "OpenStax A&P 2e: Tubular reabsorption",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+   "kind": "Textbook chapter",
+   "why": "Transport routes, PCT and the countercurrent multiplier.",
+   "note": ""
+  }
+ ],
+ "checks": [],
+ "sources": [
+  {
+   "name": "OpenStax A&P 2e: Tubular reabsorption",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption"
+  }
+ ],
+ "verified": "1 Nov 2026"
+};
+window.SINA = window.SINA || {subjects:[], lectures:{}};
+SINA.lectures["physio-renal-acidbase"] = {
+ "id": "physio-renal-acidbase",
+ "subject": "physio",
+ "group": "Renal physiology",
+ "title": "Renal physiology 6: acid-base balance",
+ "sourceFile": "Renal Physiology 6 (Acid-Base balance).pdf (Kidney Physiology, lecture 6, S3, 2026-2027)",
+ "sourceUrl": "https://drive.google.com/file/d/1vMF2GDtvV6A8PDNaXZ6sDxHPSvy39PPb/view?usp=drivesdk",
+ "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
+ "summary": [
+  {
+   "id": "s0",
+   "title": "The big picture",
+   "html": "<p>Arterial blood pH is kept between <strong>7.35 and 7.45</strong> (7.40). Three lines of defence: <strong>chemical buffers</strong> (mainly bicarbonate, act fast), the <strong>lungs</strong> (CO2) and the <strong>kidneys</strong> (H+ and HCO3−, slowest but the only way to eliminate acids other than carbonic acid). The kidneys secrete H+, so <strong>urine is acidic</strong>, and every H+ secreted goes with an HCO3− reabsorbed: <strong>urine acidification = blood alkalinisation</strong>.</p>"
+  },
+  {
+   "id": "s1",
+   "title": "pH and why it matters",
+   "html": "<p><strong>pH = −log [H+]</strong>; blood pH is about <strong>7.40</strong>. Metabolic reactions produce a huge excess of H+; if homeostatic mechanisms failed, pH would quickly fall to a lethal level.</p><p><strong>Acidosis causes hyperkalaemia</strong> by shifting K+ from the intracellular to the extracellular space.</p>"
+  },
+  {
+   "id": "s2",
+   "title": "Buffers and the Henderson-Hasselbalch equation",
+   "html": "<ul><li>A buffer is effective when pH changes little even when large amounts of acid or base are added.</li><li>Buffers act <strong>quickly</strong> to temporarily bind excess H+ or OH−, until they can be permanently excreted.</li><li><strong>Bicarbonate is the most important extracellular buffer.</strong></li></ul><p><strong>pH = 6.1 + log ([HCO3−] / (0.03 × PCO2))</strong>: the numerator (HCO3−) is regulated by the <strong>kidneys</strong>, the denominator (PCO2) by the <strong>respiratory system</strong>. Raising alveolar ventilation raises pH; lowering it lowers pH, and arterial pH in turn changes alveolar ventilation.</p><p>CO2 + H2O ⇌ H2CO3 ⇌ H+ + HCO3−: lungs act on the CO2 side, kidneys on the H+/HCO3− side.</p>"
+  },
+  {
+   "id": "s3",
+   "title": "The kidneys acidify urine",
+   "html": "<ul><li>Kidney excretion or reabsorption of acidic ions (<strong>H+, NH4+</strong>) or basic ions (<strong>HCO3−, OH−</strong>) is the <strong>slowest</strong> mechanism, but the <strong>only way to eliminate acids other than carbonic acid</strong>.</li><li>Kidneys maintain blood pH by <strong>secreting H+</strong>, so urine is acidic; H+ secretion goes with <strong>HCO3− reabsorption</strong>.</li><li>In the proximal tubule, H+ is secreted in exchange for Na+ (secondary active transport driven by the basal Na+–K+ pump, which uses ATP).</li></ul>"
+  },
+  {
+   "id": "s4",
+   "title": "Bicarbonate reabsorption",
+   "html": "<ol><li>HCO3− <strong>cannot cross</strong> the tubule membrane.</li><li>It is converted to <strong>CO2 and H2O</strong> by <strong>carbonic anhydrase</strong> (H+ secreted + filtered HCO3− → H2CO3 → CO2 + H2O).</li><li><strong>CO2 crosses</strong> into the tubule cell, where the reaction reverses and HCO3− is made again.</li><li>HCO3− diffuses into the interstitial space (with Na+).</li></ol><p>Filtered load about <strong>4 320 mEq/day</strong>: about <strong>85%</strong> reabsorbed in the proximal tubule (3 672 mEq/day), <strong>10%</strong> in the thick ascending limb (432), <strong>4.9%</strong> in the distal tubule and collecting duct (215); about 1 mEq/day is excreted.</p><p><strong>Distal convoluted tubule</strong>: CO2 + H2O → H2CO3 → HCO3− (reabsorbed) + H+ (secreted by the <strong>H+-ATPase</strong>). For each H+ secreted, one HCO3− is reabsorbed.</p>"
+  },
+  {
+   "id": "s5",
+   "title": "Urinary buffers",
+   "html": "<ol><li>Nephrons <strong>cannot produce urine below pH 4.5</strong>.</li><li>To secrete more H+, urine must be buffered by <strong>phosphates</strong> (enter by filtration) and <strong>ammonia</strong> (from the <strong>deamination of amino acids</strong>).</li></ol>"
+  }
+ ],
+ "exam": [
+  "Arterial pH 7.35-7.45 (7.40); pH = −log [H+].",
+  "Acidosis → hyperkalaemia (K+ shifts out of cells).",
+  "Three defences: buffers (fast), lungs (CO2), kidneys (slowest, only route for non-carbonic acids).",
+  "Bicarbonate is the main extracellular buffer.",
+  "pH = 6.1 + log [HCO3−]/(0.03 × PCO2): kidneys control HCO3−, lungs control PCO2.",
+  "H+ secretion = HCO3− reabsorption; urine acidification = blood alkalinisation.",
+  "HCO3− cannot cross: carbonic anhydrase → CO2 crosses → HCO3− rebuilt in the cell.",
+  "HCO3− reabsorbed 85% PCT, 10% thick ascending limb, 4.9% distal.",
+  "Urine pH never below 4.5; buffered by phosphate and ammonia (deamination)."
+ ],
+ "visual": {
+  "kind": "model",
+  "intro": "",
+  "figure": {
+   "viewBox": "0 0 760 420",
+   "alt": "The bicarbonate buffer and who controls it",
+   "caption": "CO2 and HCO3− are linked through carbonic acid. Schematic drawn for this site.",
+   "base": "<defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"8\" refX=\"9\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L10,4 L0,8 Z\" fill=\"#8a8a8a\"/></marker></defs><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"184\" y1=\"210\" x2=\"208\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"368\" y1=\"210\" x2=\"392\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"552\" y1=\"210\" x2=\"576\" y2=\"210\"/>",
+   "parts": {
+    "co2": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2d7cf\" x=\"24\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "CO2 + H2O",
+      "(lungs control CO2)"
+     ],
+     "lx": 104.0,
+     "ly": 208.0
+    },
+    "h2co3": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"208\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "H2CO3",
+      "carbonic acid"
+     ],
+     "lx": 288.0,
+     "ly": 208.0
+    },
+    "ions": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"392\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "H+ + HCO3−",
+      "(kidneys control)"
+     ],
+     "lx": 472.0,
+     "ly": 208.0
+    },
+    "ca": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2e2a8\" x=\"576\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Carbonic",
+      "anhydrase"
+     ],
+     "lx": 656.0,
+     "ly": 208.0
+    }
+   },
+   "arrows": {
+    "co2": [
+     {
+      "t": [
+       24.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "h2co3": [
+     {
+      "t": [
+       208.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "ions": [
+     {
+      "t": [
+       392.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "ca": [
+     {
+      "t": [
+       576.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ]
+   }
+  }
+ },
+ "mcqs": [
+  {
+   "q": "Normal arterial blood pH is:",
+   "options": [
+    "7.00 to 7.20",
+    "7.35 to 7.45",
+    "7.50 to 7.65",
+    "6.80 to 7.00"
+   ],
+   "answer": 1,
+   "why": "Systemic arterial blood pH is kept between 7.35 and 7.45."
+  },
+  {
+   "q": "pH is defined as:",
+   "options": [
+    "log [H+]",
+    "−log [H+]",
+    "[H+] × 10",
+    "−log [OH−] only"
+   ],
+   "answer": 1,
+   "why": "pH = −log [H+]."
+  },
+  {
+   "q": "Acidosis causes which potassium disorder?",
+   "options": [
+    "Hypokalaemia",
+    "Hyperkalaemia",
+    "No change",
+    "Hypernatraemia"
+   ],
+   "answer": 1,
+   "why": "Acidosis shifts K+ from the intracellular to the extracellular space: hyperkalaemia."
+  },
+  {
+   "q": "The most important extracellular buffer is:",
+   "options": [
+    "Phosphate",
+    "Haemoglobin",
+    "Bicarbonate",
+    "Ammonia"
+   ],
+   "answer": 2,
+   "why": "The bicarbonate buffer system."
+  },
+  {
+   "q": "Which pH control mechanism is the slowest?",
+   "options": [
+    "Chemical buffers",
+    "The lungs",
+    "The kidneys",
+    "All are equally fast"
+   ],
+   "answer": 2,
+   "why": "Renal handling of H+/HCO3− is slowest, but the only way to remove non-carbonic acids."
+  },
+  {
+   "q": "The only way to eliminate acids other than carbonic acid is:",
+   "options": [
+    "The lungs",
+    "The kidneys",
+    "Bicarbonate buffer",
+    "Sweat"
+   ],
+   "answer": 1,
+   "why": "Only the kidneys eliminate non-volatile acids."
+  },
+  {
+   "q": "In pH = 6.1 + log [HCO3−]/(0.03 × PCO2), PCO2 is regulated by:",
+   "options": [
+    "The kidneys",
+    "The respiratory system",
+    "The liver",
+    "Carbonic anhydrase only"
+   ],
+   "answer": 1,
+   "why": "PCO2: lungs; HCO3−: kidneys."
+  },
+  {
+   "q": "Increasing alveolar ventilation will:",
+   "options": [
+    "Lower blood pH",
+    "Raise blood pH",
+    "Not change pH",
+    "Raise PCO2"
+   ],
+   "answer": 1,
+   "why": "More ventilation removes CO2 and raises pH."
+  },
+  {
+   "q": "For each H+ secreted by the tubule, the kidney reabsorbs:",
+   "options": [
+    "One Na+ only",
+    "One HCO3−",
+    "One K+",
+    "One NH4+"
+   ],
+   "answer": 1,
+   "why": "H+ secretion goes with HCO3− reabsorption: urine acidification = blood alkalinisation."
+  },
+  {
+   "q": "Why must filtered HCO3− be converted to CO2 to be reabsorbed?",
+   "options": [
+    "HCO3− is too large to filter",
+    "HCO3− cannot cross the tubule membrane",
+    "CO2 is more acidic",
+    "To make ammonia"
+   ],
+   "answer": 1,
+   "why": "HCO3− cannot cross; CO2 can, and HCO3− is rebuilt inside the cell."
+  },
+  {
+   "q": "Which enzyme converts H2CO3 to CO2 and water in the tubule?",
+   "options": [
+    "ATP synthase",
+    "Carbonic anhydrase",
+    "Renin",
+    "Glutaminase"
+   ],
+   "answer": 1,
+   "why": "Carbonic anhydrase."
+  },
+  {
+   "q": "Where is most filtered bicarbonate reabsorbed?",
+   "options": [
+    "Proximal tubule (about 85%)",
+    "Thick ascending limb (about 85%)",
+    "Collecting duct (about 50%)",
+    "Glomerulus"
+   ],
+   "answer": 0,
+   "why": "About 85% in the proximal tubule, 10% thick ascending limb, 4.9% distal."
+  },
+  {
+   "q": "In the distal convoluted tubule, H+ is secreted by:",
+   "options": [
+    "The Na+–K+ pump",
+    "The H+-ATPase",
+    "SGLT",
+    "Aquaporin-2"
+   ],
+   "answer": 1,
+   "why": "Distal H+ secretion uses the hydrogen-ATPase."
+  },
+  {
+   "q": "The lowest urine pH the nephron can produce is about:",
+   "options": [
+    "3.0",
+    "4.5",
+    "6.0",
+    "7.4"
+   ],
+   "answer": 1,
+   "why": "Nephrons cannot produce urine with a pH below 4.5."
+  },
+  {
+   "q": "Which buffer the urine so more H+ can be secreted?",
+   "options": [
+    "Phosphates",
+    "Ammonia",
+    "Glucose",
+    "Urea"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Phosphates enter by filtration; ammonia comes from deamination of amino acids.",
+   "notes": [
+    "Correct: filtered.",
+    "Correct: from amino acid deamination.",
+    "Wrong.",
+    "Wrong."
+   ]
+  },
+  {
+   "q": "Urinary ammonia comes from:",
+   "options": [
+    "Filtration of plasma ammonia",
+    "Deamination of amino acids",
+    "Breakdown of urea",
+    "Fatty acid oxidation"
+   ],
+   "answer": 1,
+   "why": "Ammonia comes from the deamination of amino acids."
+  },
+  {
+   "q": "Filtered bicarbonate load is about:",
+   "options": [
+    "432 mEq/day",
+    "4 320 mEq/day",
+    "43 200 mEq/day",
+    "1 mEq/day"
+   ],
+   "answer": 1,
+   "why": "About 4 320 mEq/day, nearly all reabsorbed."
+  },
+  {
+   "q": "Which help maintain arterial pH?",
+   "options": [
+    "Chemical buffers",
+    "The lungs",
+    "The kidneys",
+    "The bladder"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Buffers, lungs and kidneys.",
+   "notes": [
+    "Correct: fastest.",
+    "Correct: CO2.",
+    "Correct: H+ and HCO3−.",
+    "Wrong."
+   ]
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "co2",
+   "options": [
+    "Hydrogen ion and bicarbonate",
+    "Carbonic acid",
+    "Carbonic anhydrase",
+    "CO2 and water"
+   ],
+   "answer": 3,
+   "why": "The arrow points to: CO2 and water. Carbon dioxide, controlled by the lungs (ventilation)."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "h2co3",
+   "options": [
+    "CO2 and water",
+    "Hydrogen ion and bicarbonate",
+    "Carbonic anhydrase",
+    "Carbonic acid"
+   ],
+   "answer": 3,
+   "why": "The arrow points to: Carbonic acid. H2CO3, formed from CO2 and water and dissociating into H+ and HCO3−."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "ions",
+   "options": [
+    "Carbonic acid",
+    "Carbonic anhydrase",
+    "Hydrogen ion and bicarbonate",
+    "CO2 and water"
+   ],
+   "answer": 2,
+   "why": "The arrow points to: Hydrogen ion and bicarbonate. H+ secretion and HCO3− reabsorption are controlled by the kidneys."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "ca",
+   "options": [
+    "Hydrogen ion and bicarbonate",
+    "Carbonic anhydrase",
+    "Carbonic acid",
+    "CO2 and water"
+   ],
+   "answer": 1,
+   "why": "The arrow points to: Carbonic anhydrase. Enzyme that speeds the conversion between CO2 + H2O and H2CO3, in tubule cells and the lumen."
+  }
+ ],
+ "cards": [
+  {
+   "id": "x0",
+   "type": "text",
+   "front": "Normal arterial pH range?",
+   "back": "7.35 to 7.45 (about 7.40)."
+  },
+  {
+   "id": "x1",
+   "type": "text",
+   "front": "Acidosis and potassium?",
+   "back": "Acidosis causes hyperkalaemia: K+ shifts out of cells."
+  },
+  {
+   "id": "x2",
+   "type": "text",
+   "front": "Three defences of pH?",
+   "back": "Chemical buffers (fast), lungs (CO2), kidneys (slowest; only route for non-carbonic acids)."
+  },
+  {
+   "id": "x3",
+   "type": "text",
+   "front": "Henderson-Hasselbalch for bicarbonate?",
+   "back": "pH = 6.1 + log [HCO3−]/(0.03 × PCO2): kidneys set HCO3−, lungs set PCO2."
+  },
+  {
+   "id": "x4",
+   "type": "text",
+   "front": "Link between H+ secretion and HCO3−?",
+   "back": "Each H+ secreted goes with one HCO3− reabsorbed: urine acidification = blood alkalinisation."
+  },
+  {
+   "id": "x5",
+   "type": "text",
+   "front": "How is bicarbonate reabsorbed?",
+   "back": "Filtered HCO3− + H+ → H2CO3 → CO2 + H2O (carbonic anhydrase); CO2 enters the cell; HCO3− rebuilt and leaves with Na+."
+  },
+  {
+   "id": "x6",
+   "type": "text",
+   "front": "Bicarbonate reabsorption by segment?",
+   "back": "PCT 85%, thick ascending limb 10%, distal 4.9%."
+  },
+  {
+   "id": "x7",
+   "type": "text",
+   "front": "Lowest urine pH and the urinary buffers?",
+   "back": "pH 4.5; phosphates (filtered) and ammonia (amino acid deamination)."
+  },
+  {
+   "id": "img-co2",
+   "type": "image",
+   "target": "co2",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "CO2 and water. Carbon dioxide, controlled by the lungs (ventilation)."
+  },
+  {
+   "id": "img-h2co3",
+   "type": "image",
+   "target": "h2co3",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Carbonic acid. H2CO3, formed from CO2 and water and dissociating into H+ and HCO3−."
+  },
+  {
+   "id": "img-ions",
+   "type": "image",
+   "target": "ions",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Hydrogen ion and bicarbonate. H+ secretion and HCO3− reabsorption are controlled by the kidneys."
+  },
+  {
+   "id": "img-ca",
+   "type": "image",
+   "target": "ca",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Carbonic anhydrase. Enzyme that speeds the conversion between CO2 + H2O and H2CO3, in tubule cells and the lumen."
+  }
+ ],
+ "deeper": [
+  {
+   "title": "Reading a blood gas with the equation",
+   "html": "<p>Because pH depends on the HCO3−/PCO2 ratio, a primary change in one is partly compensated by the other: a metabolic acidosis (HCO3− ↓) is followed by hyperventilation (PCO2 ↓), and a respiratory acidosis (PCO2 ↑) by renal HCO3− retention over days. <em>Beyond the lecture.</em></p>"
+  }
+ ],
+ "resources": [
+  {
+   "title": "OpenStax A&P 2e: Acid-base balance",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/26-4-acid-base-balance",
+   "kind": "Textbook chapter",
+   "why": "Buffers, respiratory and renal regulation.",
+   "note": ""
+  }
+ ],
+ "checks": [],
+ "sources": [
+  {
+   "name": "OpenStax A&P 2e: Acid-base balance",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/26-4-acid-base-balance"
+  }
+ ],
+ "verified": "1 Nov 2026"
+};
+window.SINA = window.SINA || {subjects:[], lectures:{}};
+SINA.lectures["physio-bioen-intro"] = {
+ "id": "physio-bioen-intro",
+ "subject": "physio",
+ "group": "Bioenergetics",
+ "title": "Bioenergetics 1: introduction",
+ "sourceFile": "Bioenergetics 1 (Introduction).pdf (Physiology, sub-module Bioenergetics, lecture 1, Prof. A.T. Dinh-Xuan, S3, 2026-2027)",
+ "sourceUrl": "https://drive.google.com/file/d/1gnhALrMFP_LoF9bTBM4K7HWhRTKIygeZ/view?usp=drivesdk",
+ "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
+ "summary": [
+  {
+   "id": "s0",
+   "title": "The big picture",
+   "html": "<p><strong>Metabolism</strong> is the sum of all the body's chemical reactions: an energy-balancing act between <strong>catabolism</strong> (breaking down, releases energy) and <strong>anabolism</strong> (building up, uses energy). <strong>ATP</strong> is the molecule that couples them. Nutrients supply the energy and the building blocks; some must come from the diet because the body cannot make them (<strong>essential nutrients</strong>).</p>"
+  },
+  {
+   "id": "s1",
+   "title": "Catabolism and anabolism",
+   "html": "<table><tr><th></th><th>Catabolism</th><th>Anabolism</th></tr><tr><td>What</td><td>Breaks <strong>larger</strong> molecules into <strong>smaller</strong> ones</td><td>Builds <strong>larger</strong> molecules from <strong>smaller</strong> ones</td></tr><tr><td>Energy</td><td>Provides more than it consumes: <strong>exergonic</strong></td><td>Consumes more than it produces: <strong>endergonic</strong></td></tr><tr><td>Heat</td><td>Liberates heat: <strong>exothermic</strong></td><td>Absorbs heat: <strong>endothermic</strong></td></tr></table><p><strong>ATP (adenosine triphosphate)</strong> is the molecule most often used in energy exchanges: it temporarily stores energy from catabolic reactions and transfers it to anabolic reactions. Which reactions occur depends on which <strong>enzymes</strong> are active in a cell at that time.</p>"
+  },
+  {
+   "id": "s2",
+   "title": "Nutrients",
+   "html": "<p>A <strong>nutrient</strong> is any ingested chemical used for growth, repair or maintenance of the body. Nutrients include a necessary chemical (Na+, other minerals), an energy source (lipids, carbohydrates such as glucose), something for growth (vitamins), and something for repair (proteins, amino acids).</p><table><tr><th>Macronutrients (large quantities)</th><th>Micronutrients (small quantities)</th></tr><tr><td>Water, carbohydrates, lipids, proteins</td><td>Vitamins, minerals</td></tr></table><p>The <strong>six essential nutrient classes</strong>: carbohydrates, proteins, fats, water, vitamins, minerals.</p>"
+  },
+  {
+   "id": "s3",
+   "title": "Essential nutrients and RDAs",
+   "html": "<p><strong>Essential nutrients cannot be synthesised by the body</strong>:</p><ul><li><strong>Minerals</strong>: calcium, phosphorus, magnesium, iron, zinc, iodine, selenium...</li><li><strong>Most vitamins</strong>: A, C, D, E, K, B complex</li><li><strong>Nine amino acids</strong>: histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, valine</li><li><strong>Fatty acids</strong>: linoleic acid (<strong>omega-6</strong>), alpha-linolenic acid (<strong>omega-3</strong>)</li><li><strong>Water</strong> must be consumed in the diet</li></ul><table><tr><th>Essential nutrients</th><th>RDAs (recommended daily allowances)</th></tr><tr><td>A <strong>biological</strong> concept</td><td>A <strong>public health</strong> guideline</td></tr><tr><td>Defines <strong>which</strong> nutrients are necessary</td><td>Defines <strong>how much</strong> is needed</td></tr><tr><td><strong>Same for all humans</strong></td><td>Varies with age, sex, pregnancy and other factors</td></tr></table><p>The RDA is a safe estimate of daily intake meeting the needs of most healthy people.</p>"
+  },
+  {
+   "id": "s4",
+   "title": "Calories",
+   "html": "<ul><li>A measure of the capacity to do biological work.</li><li><strong>One calorie</strong> = heat needed to raise <strong>1 g of water by 1 °C</strong>.</li><li><strong>1 000 calories = 1 kilocalorie (kcal)</strong> in physiology = <strong>1 Calorie</strong> in dietetics.</li><li><strong>Sugar and alcohol</strong> (alcohol 7 kcal/g) are <strong>'empty' calories</strong>: few nutrients, and they suppress appetite.</li><li>Good nutrition needs a large variety of foods meeting the needs for essential protein, lipids, vitamins and minerals.</li></ul>"
+  }
+ ],
+ "exam": [
+  "Metabolism = sum of chemical reactions; balance of catabolism and anabolism.",
+  "Catabolism: breaks down, exergonic, exothermic. Anabolism: builds up, endergonic, endothermic.",
+  "ATP couples catabolism to anabolism; enzymes decide which reactions run.",
+  "Macronutrients: water, carbohydrates, lipids, proteins. Micronutrients: vitamins, minerals.",
+  "Essential = cannot be made: minerals, most vitamins, 9 amino acids, omega-6 and omega-3, water.",
+  "Essential nutrients: which (same for all). RDA: how much (varies).",
+  "1 calorie: 1 g water by 1 °C; 1 kcal = 1 Calorie.",
+  "Sugar and alcohol (7 kcal/g): empty calories."
+ ],
+ "visual": {
+  "kind": "model",
+  "intro": "",
+  "figure": {
+   "viewBox": "0 0 760 420",
+   "alt": "Metabolism balances two kinds of reactions",
+   "caption": "ATP couples catabolism to anabolism. Schematic drawn for this site.",
+   "base": "<defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"8\" refX=\"9\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L10,4 L0,8 Z\" fill=\"#8a8a8a\"/></marker></defs><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"-6.66667\" y1=\"210\" x2=\"306.667\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"146.667\" y1=\"210\" x2=\"460\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"300\" y1=\"210\" x2=\"613.333\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"453.333\" y1=\"210\" x2=\"766.667\" y2=\"210\"/>",
+   "parts": {
+    "nut": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2d7cf\" x=\"-6.66667\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Nutrients",
+      "(food)"
+     ],
+     "lx": 73.33333333333333,
+     "ly": 208.0
+    },
+    "cat": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"146.667\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Catabolism",
+      "exergonic, exothermic"
+     ],
+     "lx": 226.66666666666669,
+     "ly": 208.0
+    },
+    "atp": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"300\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "ATP",
+      "stores, transfers energy"
+     ],
+     "lx": 380.0,
+     "ly": 208.0
+    },
+    "ana": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2e2a8\" x=\"453.333\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Anabolism",
+      "endergonic, endothermic"
+     ],
+     "lx": 533.3333333333333,
+     "ly": 208.0
+    },
+    "use": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"606.667\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Growth, repair,",
+      "normal function"
+     ],
+     "lx": 686.6666666666667,
+     "ly": 208.0
+    }
+   },
+   "arrows": {
+    "nut": [
+     {
+      "t": [
+       -6.666666666666667,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "cat": [
+     {
+      "t": [
+       146.66666666666669,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "atp": [
+     {
+      "t": [
+       300.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "ana": [
+     {
+      "t": [
+       453.3333333333333,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "use": [
+     {
+      "t": [
+       606.6666666666667,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ]
+   }
+  }
+ },
+ "mcqs": [
+  {
+   "q": "Metabolism is defined as:",
+   "options": [
+    "Only the breakdown of food",
+    "The sum of all body chemical reactions",
+    "Only ATP synthesis",
+    "The digestion of nutrients"
+   ],
+   "answer": 1,
+   "why": "Metabolism denotes the sum of all body chemical reactions."
+  },
+  {
+   "q": "Catabolic reactions are:",
+   "options": [
+    "Endergonic and endothermic",
+    "Exergonic and exothermic",
+    "Endergonic and exothermic",
+    "Neither releasing nor using energy"
+   ],
+   "answer": 1,
+   "why": "Catabolism releases energy (exergonic) and heat (exothermic)."
+  },
+  {
+   "q": "Anabolic reactions:",
+   "options": [
+    "Break large molecules into small ones",
+    "Consume more energy than they produce",
+    "Release heat",
+    "Are exergonic"
+   ],
+   "answer": 1,
+   "why": "Anabolism builds molecules and is endergonic, endothermic."
+  },
+  {
+   "q": "Which molecule couples catabolic and anabolic reactions?",
+   "options": [
+    "Glucose",
+    "ATP",
+    "Oxygen",
+    "Urea"
+   ],
+   "answer": 1,
+   "why": "ATP transfers energy from catabolic to anabolic reactions."
+  },
+  {
+   "q": "Which reactions occur in a cell depends on:",
+   "options": [
+    "Its size",
+    "Which enzymes are active",
+    "The blood pH only",
+    "The time of day only"
+   ],
+   "answer": 1,
+   "why": "The exact reactions depend on which enzymes are active at that time."
+  },
+  {
+   "q": "Which are macronutrients?",
+   "options": [
+    "Water",
+    "Proteins",
+    "Lipids",
+    "Vitamins"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Macronutrients: water, carbohydrates, lipids, proteins. Vitamins and minerals are micronutrients.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: micronutrient."
+   ]
+  },
+  {
+   "q": "Micronutrients are:",
+   "options": [
+    "Water and carbohydrates",
+    "Vitamins and minerals",
+    "Proteins and lipids",
+    "Fibre and water"
+   ],
+   "answer": 1,
+   "why": "Only small quantities of vitamins and minerals are needed."
+  },
+  {
+   "q": "How many amino acids are essential?",
+   "options": [
+    "Five",
+    "Nine",
+    "Twelve",
+    "Twenty"
+   ],
+   "answer": 1,
+   "why": "Nine essential amino acids."
+  },
+  {
+   "q": "Which is an essential amino acid?",
+   "options": [
+    "Alanine",
+    "Glycine",
+    "Tryptophan",
+    "Glutamate"
+   ],
+   "answer": 2,
+   "why": "Essential: histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, valine."
+  },
+  {
+   "q": "Which fatty acids are essential?",
+   "options": [
+    "Linoleic acid (omega-6)",
+    "Alpha-linolenic acid (omega-3)",
+    "Palmitic acid",
+    "Stearic acid"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Linoleic (omega-6) and alpha-linolenic (omega-3) cannot be made.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Wrong: the body can make it.",
+    "Wrong: the body can make it."
+   ]
+  },
+  {
+   "q": "Essential nutrients are those that:",
+   "options": [
+    "Provide the most energy",
+    "Cannot be synthesised by the body",
+    "Are needed in large amounts",
+    "Have an RDA above 1 g"
+   ],
+   "answer": 1,
+   "why": "Essential = cannot be synthesised; must come from the diet."
+  },
+  {
+   "q": "RDAs differ from the list of essential nutrients because RDAs:",
+   "options": [
+    "Are identical for every human being",
+    "Define how much and vary with age, sex, pregnancy",
+    "Are a purely biological concept",
+    "Only cover vitamins and minerals"
+   ],
+   "answer": 1,
+   "why": "Essential nutrients define which; RDAs define how much and vary."
+  },
+  {
+   "q": "One calorie is the heat needed to raise:",
+   "options": [
+    "1 kg of water by 1 °C",
+    "1 g of water by 1 °C",
+    "1 L of water by 10 °C",
+    "1 g of water by 100 °C"
+   ],
+   "answer": 1,
+   "why": "1 calorie: 1 g of water by 1 °C."
+  },
+  {
+   "q": "In dietetics, one Calorie equals:",
+   "options": [
+    "1 calorie",
+    "10 calories",
+    "1 kilocalorie",
+    "1 joule"
+   ],
+   "answer": 2,
+   "why": "1 000 calories = 1 kcal (physiology) = 1 Calorie (dietetics)."
+  },
+  {
+   "q": "Alcohol provides about:",
+   "options": [
+    "4 kcal/g",
+    "7 kcal/g",
+    "9 kcal/g",
+    "0 kcal/g"
+   ],
+   "answer": 1,
+   "why": "Alcohol 7 kcal/g; sugar and alcohol are empty calories."
+  },
+  {
+   "q": "'Empty' calories:",
+   "options": [
+    "Provide many nutrients per gram",
+    "Provide few nutrients and suppress appetite",
+    "Contain no usable energy at all",
+    "Are found mainly in dietary fibre"
+   ],
+   "answer": 1,
+   "why": "Sugar and alcohol give energy but few nutrients, and suppress appetite."
+  },
+  {
+   "q": "Water as a nutrient:",
+   "options": [
+    "Is synthesised in sufficient amounts by the body",
+    "Must be consumed in the diet",
+    "Is a micronutrient",
+    "Has an RDA of zero"
+   ],
+   "answer": 1,
+   "why": "Water must be consumed in the diet; it is a macronutrient."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "nut",
+   "options": [
+    "Body functions",
+    "Catabolism",
+    "Nutrients",
+    "Anabolism"
+   ],
+   "answer": 2,
+   "why": "The arrow points to: Nutrients. Ingested chemicals used for growth, repair or maintenance of the body."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "cat",
+   "options": [
+    "Body functions",
+    "Anabolism",
+    "ATP",
+    "Catabolism"
+   ],
+   "answer": 3,
+   "why": "The arrow points to: Catabolism. Breaks large molecules into smaller ones; releases more energy than it uses (exergonic, exothermic)."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "atp",
+   "options": [
+    "Anabolism",
+    "Nutrients",
+    "Catabolism",
+    "ATP"
+   ],
+   "answer": 3,
+   "why": "The arrow points to: ATP. Temporarily stores energy from catabolic reactions and transfers it to anabolic reactions."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "ana",
+   "options": [
+    "Anabolism",
+    "Body functions",
+    "ATP",
+    "Nutrients"
+   ],
+   "answer": 0,
+   "why": "The arrow points to: Anabolism. Builds large molecules from small ones; consumes more energy than it releases (endergonic, endothermic)."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "use",
+   "options": [
+    "Anabolism",
+    "Nutrients",
+    "Body functions",
+    "ATP"
+   ],
+   "answer": 2,
+   "why": "The arrow points to: Body functions. Normal function, homeostasis, repair and growth."
+  }
+ ],
+ "cards": [
+  {
+   "id": "x0",
+   "type": "text",
+   "front": "Define metabolism.",
+   "back": "The sum of all body chemical reactions; a balance between catabolism and anabolism."
+  },
+  {
+   "id": "x1",
+   "type": "text",
+   "front": "Catabolism vs anabolism?",
+   "back": "Catabolism breaks down, exergonic, exothermic. Anabolism builds up, endergonic, endothermic."
+  },
+  {
+   "id": "x2",
+   "type": "text",
+   "front": "Role of ATP?",
+   "back": "Temporarily stores energy from catabolic reactions and transfers it to anabolic reactions."
+  },
+  {
+   "id": "x3",
+   "type": "text",
+   "front": "Macro- vs micronutrients?",
+   "back": "Macro: water, carbohydrates, lipids, proteins. Micro: vitamins, minerals."
+  },
+  {
+   "id": "x4",
+   "type": "text",
+   "front": "Essential nutrients?",
+   "back": "Minerals, most vitamins, 9 amino acids, linoleic (omega-6) and alpha-linolenic (omega-3) acids, water."
+  },
+  {
+   "id": "x5",
+   "type": "text",
+   "front": "Nine essential amino acids?",
+   "back": "Histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, valine."
+  },
+  {
+   "id": "x6",
+   "type": "text",
+   "front": "Essential nutrients vs RDAs?",
+   "back": "Essential: which nutrients, biological, same for all. RDA: how much, public health guideline, varies."
+  },
+  {
+   "id": "x7",
+   "type": "text",
+   "front": "Calorie definitions?",
+   "back": "1 cal raises 1 g water by 1 °C; 1 kcal = 1 Calorie = 1 000 cal."
+  },
+  {
+   "id": "x8",
+   "type": "text",
+   "front": "Empty calories?",
+   "back": "Sugar and alcohol (7 kcal/g): energy with few nutrients; suppress appetite."
+  },
+  {
+   "id": "img-nut",
+   "type": "image",
+   "target": "nut",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Nutrients. Ingested chemicals used for growth, repair or maintenance of the body."
+  },
+  {
+   "id": "img-cat",
+   "type": "image",
+   "target": "cat",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Catabolism. Breaks large molecules into smaller ones; releases more energy than it uses (exergonic, exothermic)."
+  },
+  {
+   "id": "img-atp",
+   "type": "image",
+   "target": "atp",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "ATP. Temporarily stores energy from catabolic reactions and transfers it to anabolic reactions."
+  },
+  {
+   "id": "img-ana",
+   "type": "image",
+   "target": "ana",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Anabolism. Builds large molecules from small ones; consumes more energy than it releases (endergonic, endothermic)."
+  },
+  {
+   "id": "img-use",
+   "type": "image",
+   "target": "use",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Body functions. Normal function, homeostasis, repair and growth."
+  }
+ ],
+ "deeper": [],
+ "resources": [
+  {
+   "title": "OpenStax A&P 2e: Overview of metabolic reactions",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-1-overview-of-metabolic-reactions",
+   "kind": "Textbook chapter",
+   "why": "Catabolism, anabolism and ATP.",
+   "note": ""
+  },
+  {
+   "title": "OpenStax A&P 2e: Nutrition and diet",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-7-nutrition-and-diet",
+   "kind": "Textbook chapter",
+   "why": "Nutrients, vitamins and minerals.",
+   "note": ""
+  }
+ ],
+ "checks": [],
+ "sources": [
+  {
+   "name": "OpenStax A&P 2e: Overview of metabolic reactions",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-1-overview-of-metabolic-reactions"
+  },
+  {
+   "name": "OpenStax A&P 2e: Nutrition and diet",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-7-nutrition-and-diet"
+  }
+ ],
+ "verified": "1 Nov 2026"
+};
+window.SINA = window.SINA || {subjects:[], lectures:{}};
+SINA.lectures["physio-bioen-regulation"] = {
+ "id": "physio-bioen-regulation",
+ "subject": "physio",
+ "group": "Bioenergetics",
+ "title": "Bioenergetics 2: regulation of energy metabolism",
+ "sourceFile": "Bioenergetics 2 (Regulation of energy metabolism).pdf (Physiology, sub-module Bioenergetics, lecture 2, Prof. A.T. Dinh-Xuan, S3, 2026-2027)",
+ "sourceUrl": "https://drive.google.com/file/d/10cNehN-cWBdx1kXVn21kL-zjt8DvXFHA/view?usp=drivesdk",
+ "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
+ "summary": [
+  {
+   "id": "s0",
+   "title": "The big picture",
+   "html": "<p>All carbohydrate digestion ends in <strong>glucose</strong>. Glucose is burnt in small enzyme-controlled steps (<strong>cellular respiration</strong>: glycolysis, acetyl-CoA, Krebs cycle, electron transport) so its energy goes as much as possible into <strong>ATP</strong>; the rest is heat. Glucose not needed now is stored as <strong>glycogen</strong>; when needed, glycogen is broken down, and in fasting new glucose is made (<strong>gluconeogenesis</strong>).</p>"
+  },
+  {
+   "id": "s1",
+   "title": "Carbohydrates",
+   "html": "<ul><li>Roles: <strong>structural</strong> cell components, <strong>backbone of nucleic acids</strong> (ribose and deoxyribose are pentoses), <strong>cell signalling</strong>, and a <strong>major energy source</strong>.</li><li>Formula <strong>(CH2O)n</strong>, n > 3; glucose n = 6, C6H12O6 (a hexose).</li><li><strong>Monosaccharides</strong> (single sugars, e.g. glucose, galactose, fructose); <strong>disaccharides</strong> (2); <strong>oligosaccharides</strong> (3 to 10); <strong>polysaccharides</strong> (more than 10).</li><li>The small intestine and liver convert galactose and fructose to glucose: <strong>all carbohydrate digestion ultimately gives glucose</strong>.</li><li><strong>Normal blood glucose: 70 to 110 mg/dL (0.7 to 1.1 g/L)</strong>.</li><li><strong>Starch, cellulose and glycogen</strong> are all polymers of glucose.</li></ul>"
+  },
+  {
+   "id": "s2",
+   "title": "Cellulose and lactose intolerance",
+   "html": "<p><strong>Cellulose</strong> is non-digestible (humans lack the enzyme): slows digestion, prevents constipation, fills the stomach (less intake), lowers heart disease risk; in oats, nuts, peas, vegetables.</p><p>Disaccharidases: <strong>sucrase</strong> (table sugar), <strong>lactase</strong> (β-galactosidase; milk), <strong>maltase</strong>. Without lactase, lactose reaches the large intestine where <strong>bacterial fermentation</strong> makes gas and acids: <strong>nausea, diarrhoea, bloating and gas, abdominal cramps</strong> (lactose intolerance). With lactase, lactose → glucose + galactose.</p>"
+  },
+  {
+   "id": "s3",
+   "title": "Glucose catabolism",
+   "html": "<p>C6H12O6 + 6 O2 → 6 CO2 + 6 H2O (oxidative carbohydrate metabolism); its function is to <strong>transfer energy from glucose to ATP</strong>. It runs as a <strong>series of small steps</strong>, each controlled by its own enzyme, releasing energy in manageable amounts; the rest is lost as <strong>heat</strong>. Wastes: CO2 and water.</p><p><strong>Cellular respiration in 4 steps</strong>: 1. glycolysis, 2. formation of acetyl-CoA, 3. Krebs cycle, 4. electron transport chain.</p>"
+  },
+  {
+   "id": "s4",
+   "title": "Glycolysis",
+   "html": "<ul><li>Ten steps. <strong>Hexokinase</strong> phosphorylates glucose to <strong>glucose 6-phosphate (G6P)</strong>: keeps intracellular glucose low (so glucose keeps diffusing in) and traps it (phosphorylated compounds cannot cross the membrane).</li><li>G6P can be converted to fat or amino acids, polymerised to glycogen, or oxidised.</li><li>4 ATP made but 2 used: <strong>net gain 2 ATP</strong> per glucose.</li><li>End products: <strong>2 pyruvic acid + 2 NADH + 2 ATP + 2 H+</strong>. Some energy is in ATP, some in NADH, some lost as heat, but <strong>most remains in pyruvate</strong>.</li><li>Pyruvate is oxidised to <strong>2 acetyl-CoA</strong>, which enter the Krebs cycle.</li></ul>"
+  },
+  {
+   "id": "s5",
+   "title": "Coenzymes and the electron transport chain",
+   "html": "<p>Enzymes remove 2 H+ and 2 e− at a time and pass them to coenzymes, which become temporary energy carriers:</p><ul><li><strong>NAD+</strong> (from <strong>niacin</strong>, a B vitamin): NAD+ + 2 H → <strong>NADH + H+</strong> (binds 2 electrons, 1 proton).</li><li><strong>FAD</strong> (from <strong>riboflavin</strong>): FAD + 2 H+ + 2 e− → <strong>FADH2</strong>.</li></ul><p><strong>Aerobic respiration</strong>: most ATP is made in mitochondria and needs oxygen. Matrix reactions (Krebs) and membrane reactions (electron transport on the cristae). Electrons pass through enzyme complexes (CoQ, cytochromes b, c1, c, a, a3); pumped protons make a gradient that drives <strong>ATP synthase</strong> (chemiosmosis). <strong>Oxygen is the final electron acceptor</strong>: each O atom takes 2 e− from cytochrome a3 and 2 H+ → <strong>water</strong>, the body's main <strong>metabolic water</strong>. No oxygen: too little ATP to sustain life.</p><p><strong>Where</strong>: glycolysis in the <strong>cytoplasm</strong>; Krebs in the <strong>mitochondrial matrix</strong>; cytochromes in the <strong>inner mitochondrial membrane</strong>.</p>"
+  },
+  {
+   "id": "s6",
+   "title": "Storing and making glucose",
+   "html": "<table><tr><th>Process</th><th>What</th></tr><tr><td><strong>Glycogenesis</strong></td><td>Glucose → glycogen (glycogen synthase), the only stored carbohydrate; about <strong>500 g</strong>, <strong>75% in skeletal muscle</strong>, the rest in the liver</td></tr><tr><td><strong>Glycogenolysis</strong></td><td>Glycogen → glucose (glycogen phosphorylase) when ATP is needed</td></tr><tr><td><strong>Gluconeogenesis</strong></td><td>'New' glucose from non-carbohydrates: <strong>lactic acid, amino acids, glycerol</strong>; always going, large-scale in fasting, starvation, low-carbohydrate diet</td></tr></table><p><strong>Glucose 6-phosphatase</strong> (liver, kidney, intestine) frees glucose into the blood; <strong>hexokinase</strong> (all cells) traps it. All fuels (triglycerides, polysaccharides, proteins) converge on pyruvate and acetyl-CoA → citric acid cycle → CO2 + H2O + ATP; amino acids leave NH2 as <strong>urea</strong>.</p>"
+  }
+ ],
+ "exam": [
+  "Carbohydrates: structure, nucleic acid backbone, signalling, energy; (CH2O)n.",
+  "Blood glucose 70-110 mg/dL (0.7-1.1 g/L); all digestion ends in glucose.",
+  "Starch, cellulose, glycogen: glucose polymers; cellulose is not digestible.",
+  "No lactase → colonic fermentation → gas, bloating, diarrhoea, cramps.",
+  "Respiration: glycolysis → acetyl-CoA → Krebs → electron transport.",
+  "Glycolysis: hexokinase → G6P (trapped); net 2 ATP, 2 NADH, 2 pyruvate.",
+  "NAD+ (niacin) → NADH + H+; FAD (riboflavin) → FADH2.",
+  "O2 = final electron acceptor → metabolic water. Krebs: matrix; ETC: inner membrane.",
+  "Glycogen about 500 g, 75% muscle. Gluconeogenesis from lactate, amino acids, glycerol."
+ ],
+ "visual": {
+  "kind": "model",
+  "intro": "",
+  "figure": {
+   "viewBox": "0 0 760 420",
+   "alt": "Cellular respiration in four steps",
+   "caption": "Glucose to ATP, CO2 and water. Schematic drawn for this site.",
+   "base": "<defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"8\" refX=\"9\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L10,4 L0,8 Z\" fill=\"#8a8a8a\"/></marker></defs><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"-6.66667\" y1=\"210\" x2=\"306.667\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"146.667\" y1=\"210\" x2=\"460\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"300\" y1=\"210\" x2=\"613.333\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"453.333\" y1=\"210\" x2=\"766.667\" y2=\"210\"/>",
+   "parts": {
+    "gly": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2d7cf\" x=\"-6.66667\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "1. Glycolysis",
+      "(cytoplasm)"
+     ],
+     "lx": 73.33333333333333,
+     "ly": 208.0
+    },
+    "acoa": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"146.667\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "2. Acetyl-CoA",
+      "from pyruvate"
+     ],
+     "lx": 226.66666666666669,
+     "ly": 208.0
+    },
+    "krebs": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"300\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "3. Krebs cycle",
+      "(matrix)"
+     ],
+     "lx": 380.0,
+     "ly": 208.0
+    },
+    "etc": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2e2a8\" x=\"453.333\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "4. Electron transport",
+      "(inner membrane)"
+     ],
+     "lx": 533.3333333333333,
+     "ly": 208.0
+    },
+    "o2": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"606.667\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "O2 accepts e−",
+      "→ water"
+     ],
+     "lx": 686.6666666666667,
+     "ly": 208.0
+    }
+   },
+   "arrows": {
+    "gly": [
+     {
+      "t": [
+       -6.666666666666667,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "acoa": [
+     {
+      "t": [
+       146.66666666666669,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "krebs": [
+     {
+      "t": [
+       300.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "etc": [
+     {
+      "t": [
+       453.3333333333333,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "o2": [
+     {
+      "t": [
+       606.6666666666667,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ]
+   }
+  }
+ },
+ "mcqs": [
+  {
+   "q": "Normal blood glucose is:",
+   "options": [
+    "40 to 60 mg/dL",
+    "70 to 110 mg/dL",
+    "150 to 200 mg/dL",
+    "1.5 to 2 g/L"
+   ],
+   "answer": 1,
+   "why": "70 to 110 mg/dL (0.7 to 1.1 g/L)."
+  },
+  {
+   "q": "A polysaccharide contains:",
+   "options": [
+    "2 monomers",
+    "3 to 10 monomers",
+    "More than 10 monomers",
+    "Exactly 6 carbons"
+   ],
+   "answer": 2,
+   "why": "Disaccharide 2, oligosaccharide 3-10, polysaccharide more than 10."
+  },
+  {
+   "q": "Starch, cellulose and glycogen are all polymers of:",
+   "options": [
+    "Fructose",
+    "Galactose",
+    "Glucose",
+    "Ribose"
+   ],
+   "answer": 2,
+   "why": "All three are glucose polymers."
+  },
+  {
+   "q": "Why can't humans digest cellulose?",
+   "options": [
+    "It is too large to reach the gut",
+    "Humans lack the enzyme",
+    "It is destroyed by stomach acid",
+    "It is absorbed whole"
+   ],
+   "answer": 1,
+   "why": "Cellulose is non-digestible because humans lack the enzyme."
+  },
+  {
+   "q": "Benefits of cellulose (fibre) include:",
+   "options": [
+    "Preventing constipation",
+    "Filling the stomach and reducing intake",
+    "Lowering heart disease risk",
+    "Raising blood glucose quickly"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Fibre slows digestion, prevents constipation, fills the stomach, lowers heart risk.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: it slows digestion."
+   ]
+  },
+  {
+   "q": "In lactose intolerance the symptoms come from:",
+   "options": [
+    "Too much lactase in the small intestine",
+    "Bacterial fermentation of lactose in the colon",
+    "Lactose absorbed whole into the blood",
+    "Excess galactose made by the liver"
+   ],
+   "answer": 1,
+   "why": "Undigested lactose is fermented by colonic bacteria into gas and acids."
+  },
+  {
+   "q": "Lactase is also called:",
+   "options": [
+    "Sucrase",
+    "β-galactosidase",
+    "Maltase",
+    "Hexokinase"
+   ],
+   "answer": 1,
+   "why": "Lactase = β-galactosidase."
+  },
+  {
+   "q": "The four steps of cellular respiration in order are:",
+   "options": [
+    "Krebs, glycolysis, acetyl-CoA, electron transport",
+    "Glycolysis, acetyl-CoA, Krebs, electron transport",
+    "Glycolysis, electron transport, Krebs, acetyl-CoA",
+    "Acetyl-CoA, glycolysis, electron transport, Krebs"
+   ],
+   "answer": 1,
+   "why": "Glycolysis → acetyl-CoA → Krebs → electron transport chain."
+  },
+  {
+   "q": "Net ATP gain from glycolysis per glucose is:",
+   "options": [
+    "2",
+    "4",
+    "36",
+    "0"
+   ],
+   "answer": 0,
+   "why": "4 ATP made, 2 consumed: net 2."
+  },
+  {
+   "q": "After glycolysis, most of glucose's original energy is in:",
+   "options": [
+    "ATP",
+    "NADH",
+    "Pyruvate",
+    "Heat"
+   ],
+   "answer": 2,
+   "why": "Most of the energy remains in pyruvate."
+  },
+  {
+   "q": "Hexokinase converts glucose into:",
+   "options": [
+    "Glucose 1-phosphate",
+    "Glucose 6-phosphate",
+    "Pyruvate",
+    "Glycogen"
+   ],
+   "answer": 1,
+   "why": "Hexokinase phosphorylates glucose to G6P, trapping it in the cell."
+  },
+  {
+   "q": "Phosphorylating glucose to G6P:",
+   "options": [
+    "Lets glucose leave the cell freely",
+    "Keeps free glucose low and traps it inside",
+    "Requires oxygen as electron acceptor",
+    "Happens inside the mitochondrial matrix"
+   ],
+   "answer": 1,
+   "why": "It keeps free glucose low (favouring entry) and phosphorylated compounds cannot cross the membrane."
+  },
+  {
+   "q": "NAD+ is derived from:",
+   "options": [
+    "Riboflavin",
+    "Niacin",
+    "Thiamine",
+    "Vitamin C"
+   ],
+   "answer": 1,
+   "why": "NAD+ from niacin (B vitamin); FAD from riboflavin."
+  },
+  {
+   "q": "NAD+ binds:",
+   "options": [
+    "2 electrons and 2 protons",
+    "2 electrons and 1 proton",
+    "1 electron only",
+    "Only protons"
+   ],
+   "answer": 1,
+   "why": "NAD+ + 2 H → NADH + H+: two electrons, one proton."
+  },
+  {
+   "q": "The final electron acceptor of the electron transport chain is:",
+   "options": [
+    "NAD+",
+    "FAD",
+    "Oxygen",
+    "Cytochrome c"
+   ],
+   "answer": 2,
+   "why": "Oxygen accepts electrons from cytochrome a3 and protons → water."
+  },
+  {
+   "q": "Where does the Krebs cycle take place?",
+   "options": [
+    "Cytoplasm",
+    "Mitochondrial matrix",
+    "Inner mitochondrial membrane",
+    "Nucleus"
+   ],
+   "answer": 1,
+   "why": "Krebs: matrix. Glycolysis: cytoplasm. ETC: inner membrane."
+  },
+  {
+   "q": "Where are the cytochromes of the electron transport chain?",
+   "options": [
+    "Cytoplasm",
+    "Outer mitochondrial membrane",
+    "Inner mitochondrial membrane",
+    "Mitochondrial matrix"
+   ],
+   "answer": 2,
+   "why": "Embedded in the inner mitochondrial membrane (cristae)."
+  },
+  {
+   "q": "The body's main source of metabolic water is:",
+   "options": [
+    "Glycolysis in the cytoplasm",
+    "Oxygen reduction at the end of the ETC",
+    "Gluconeogenesis in the liver",
+    "Lipogenesis in adipose tissue"
+   ],
+   "answer": 1,
+   "why": "Each O atom accepts 2 e− and 2 H+ forming water."
+  },
+  {
+   "q": "About how much glycogen can the body store?",
+   "options": [
+    "50 g",
+    "500 g",
+    "5 kg",
+    "50 kg"
+   ],
+   "answer": 1,
+   "why": "About 500 g, 75% in skeletal muscle and the rest in liver."
+  },
+  {
+   "q": "Most stored glycogen is in:",
+   "options": [
+    "The liver",
+    "Skeletal muscle",
+    "The brain",
+    "Adipose tissue"
+   ],
+   "answer": 1,
+   "why": "75% in skeletal muscle fibres."
+  },
+  {
+   "q": "Gluconeogenesis can use:",
+   "options": [
+    "Lactic acid",
+    "Amino acids",
+    "Glycerol",
+    "Fatty acid chains"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Lactic acid, amino acids and the glycerol of triglycerides.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: not listed as a glucose source."
+   ]
+  },
+  {
+   "q": "Which enzyme releases free glucose into the blood (liver, kidney, intestine)?",
+   "options": [
+    "Hexokinase",
+    "Glucose 6-phosphatase",
+    "Glycogen synthase",
+    "Lactase"
+   ],
+   "answer": 1,
+   "why": "Glucose 6-phosphatase is found in liver, kidney and intestinal cells."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "gly",
+   "options": [
+    "Oxygen",
+    "Glycolysis",
+    "Formation of acetyl-CoA",
+    "Krebs (citric acid) cycle"
+   ],
+   "answer": 1,
+   "why": "The arrow points to: Glycolysis. Ten steps in the cytoplasm; glucose → 2 pyruvic acid, net 2 ATP, 2 NADH."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "acoa",
+   "options": [
+    "Electron transport chain",
+    "Krebs (citric acid) cycle",
+    "Formation of acetyl-CoA",
+    "Oxygen"
+   ],
+   "answer": 2,
+   "why": "The arrow points to: Formation of acetyl-CoA. Oxidation of pyruvate gives 2 acetyl-CoA per glucose."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "krebs",
+   "options": [
+    "Oxygen",
+    "Electron transport chain",
+    "Formation of acetyl-CoA",
+    "Krebs (citric acid) cycle"
+   ],
+   "answer": 3,
+   "why": "The arrow points to: Krebs (citric acid) cycle. In the mitochondrial matrix; enzymes strip H+ and electrons onto NAD+ and FAD."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "etc",
+   "options": [
+    "Glycolysis",
+    "Krebs (citric acid) cycle",
+    "Oxygen",
+    "Electron transport chain"
+   ],
+   "answer": 3,
+   "why": "The arrow points to: Electron transport chain. Cytochromes in the inner mitochondrial membrane; the proton gradient drives ATP synthase."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "o2",
+   "options": [
+    "Electron transport chain",
+    "Oxygen",
+    "Glycolysis",
+    "Krebs (citric acid) cycle"
+   ],
+   "answer": 1,
+   "why": "The arrow points to: Oxygen. Final electron acceptor; each O atom takes 2 electrons and 2 protons to form metabolic water."
+  }
+ ],
+ "cards": [
+  {
+   "id": "x0",
+   "type": "text",
+   "front": "Roles of carbohydrates?",
+   "back": "Structural components, nucleic acid backbone, cell signalling, major energy source."
+  },
+  {
+   "id": "x1",
+   "type": "text",
+   "front": "Normal blood glucose?",
+   "back": "70 to 110 mg/dL (0.7 to 1.1 g/L)."
+  },
+  {
+   "id": "x2",
+   "type": "text",
+   "front": "Mono-, di-, oligo-, polysaccharides?",
+   "back": "1, 2, 3-10, more than 10 monomers."
+  },
+  {
+   "id": "x3",
+   "type": "text",
+   "front": "Lactose intolerance mechanism?",
+   "back": "No lactase → lactose fermented by colonic bacteria → gas, acids → bloating, diarrhoea, cramps, nausea."
+  },
+  {
+   "id": "x4",
+   "type": "text",
+   "front": "Four steps of cellular respiration?",
+   "back": "Glycolysis, acetyl-CoA formation, Krebs cycle, electron transport chain."
+  },
+  {
+   "id": "x5",
+   "type": "text",
+   "front": "Glycolysis end products?",
+   "back": "2 pyruvic acid, 2 NADH, net 2 ATP, 2 H+."
+  },
+  {
+   "id": "x6",
+   "type": "text",
+   "front": "NAD+ and FAD?",
+   "back": "NAD+ (niacin) + 2 H → NADH + H+. FAD (riboflavin) + 2 H+ + 2 e− → FADH2."
+  },
+  {
+   "id": "x7",
+   "type": "text",
+   "front": "Role of oxygen?",
+   "back": "Final electron acceptor; forms metabolic water; without it too little ATP to live."
+  },
+  {
+   "id": "x8",
+   "type": "text",
+   "front": "Locations of respiration steps?",
+   "back": "Glycolysis: cytoplasm. Krebs: matrix. Electron transport: inner mitochondrial membrane."
+  },
+  {
+   "id": "x9",
+   "type": "text",
+   "front": "Glycogenesis, glycogenolysis, gluconeogenesis?",
+   "back": "Glucose → glycogen; glycogen → glucose; new glucose from lactate, amino acids, glycerol."
+  },
+  {
+   "id": "img-gly",
+   "type": "image",
+   "target": "gly",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Glycolysis. Ten steps in the cytoplasm; glucose → 2 pyruvic acid, net 2 ATP, 2 NADH."
+  },
+  {
+   "id": "img-acoa",
+   "type": "image",
+   "target": "acoa",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Formation of acetyl-CoA. Oxidation of pyruvate gives 2 acetyl-CoA per glucose."
+  },
+  {
+   "id": "img-krebs",
+   "type": "image",
+   "target": "krebs",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Krebs (citric acid) cycle. In the mitochondrial matrix; enzymes strip H+ and electrons onto NAD+ and FAD."
+  },
+  {
+   "id": "img-etc",
+   "type": "image",
+   "target": "etc",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Electron transport chain. Cytochromes in the inner mitochondrial membrane; the proton gradient drives ATP synthase."
+  },
+  {
+   "id": "img-o2",
+   "type": "image",
+   "target": "o2",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Oxygen. Final electron acceptor; each O atom takes 2 electrons and 2 protons to form metabolic water."
+  }
+ ],
+ "deeper": [],
+ "resources": [
+  {
+   "title": "OpenStax A&P 2e: Carbohydrate metabolism",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-2-carbohydrate-metabolism",
+   "kind": "Textbook chapter",
+   "why": "Glycolysis, Krebs cycle and the electron transport chain.",
+   "note": ""
+  }
+ ],
+ "checks": [],
+ "sources": [
+  {
+   "name": "OpenStax A&P 2e: Carbohydrate metabolism",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-2-carbohydrate-metabolism"
+  }
+ ],
+ "verified": "1 Nov 2026"
+};
+window.SINA = window.SINA || {subjects:[], lectures:{}};
+SINA.lectures["physio-bioen-lipids"] = {
+ "id": "physio-bioen-lipids",
+ "subject": "physio",
+ "group": "Bioenergetics",
+ "title": "Bioenergetics 3: lipid metabolism",
+ "sourceFile": "Bioenergetics 3 (Lipids metabolism).pdf (Physiology, sub-module Bioenergetics, lecture 3, Prof. A.T. Dinh-Xuan, S3, 2026-2027)",
+ "sourceUrl": "https://drive.google.com/file/d/1xFkssX69blcn_gH2b_rnPV3DtJP4uiah/view?usp=drivesdk",
+ "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
+ "summary": [
+  {
+   "id": "s0",
+   "title": "The big picture",
+   "html": "<p>Fat is the body's main energy store: compact, water-free and over twice as energy-rich as carbohydrate. Because triglycerides and cholesterol are hydrophobic, they travel in <strong>lipoproteins</strong>: chylomicrons from the gut, VLDL and LDL from the liver to the cells, and HDL back to the liver.</p>"
+  },
+  {
+   "id": "s1",
+   "title": "Fat as fuel",
+   "html": "<ul><li>Average body fat: <strong>15% in men, 25% in women</strong>.</li><li>A well-nourished adult meets <strong>80 to 90% of resting energy needs from fat</strong>.</li><li>Fat beats carbohydrate for storage: carbohydrates are <strong>hydrophilic</strong> (absorb water, expand), fat is <strong>hydrophobic</strong> and compact; and fat has <strong>9 kcal/g</strong> versus <strong>4 kcal/g</strong> for carbohydrate.</li><li><strong>Glucose-sparing</strong> (glucose kept for cells such as neurons that cannot use fat) and <strong>protein-sparing</strong> effects.</li><li><strong>Fat-soluble vitamins A, D, E, K</strong> are absorbed with fat; <strong>less than 20 g fat/day</strong> risks vitamin deficiency.</li></ul>"
+  },
+  {
+   "id": "s2",
+   "title": "Lipids, triglycerides and fatty acids",
+   "html": "<ul><li>'Fat' strictly means <strong>triglycerides</strong>, one subgroup of lipids; others: waxes, sterols (steroid hormones), fat-soluble vitamins, mono- and diglycerides, phospholipids.</li><li>Triglyceride = <strong>glycerol backbone + 3 fatty acids</strong>: a condensed form of usable energy.</li><li>Fatty acids: <strong>4 to 24 carbons</strong>; <strong>saturated</strong> (single C-C bonds) or <strong>unsaturated</strong> (double or triple bonds).</li><li>Triglycerides are nonpolar and very hydrophobic, so they travel bound to <strong>lipoproteins</strong> (made in the liver).</li></ul>"
+  },
+  {
+   "id": "s3",
+   "title": "Lipoproteins",
+   "html": "<p>All lipoproteins have a <strong>hydrophilic outer shell</strong> (polar proteins, amphipathic phospholipids, cholesterol) and a <strong>hydrophobic core</strong> carrying triglycerides and cholesterol. Classified by density (the slide says higher density = higher lipid content; in fact density rises as the <em>protein</em> share rises):</p><table><tr><th>Type</th><th>Size</th><th>Main content</th></tr><tr><td><strong>Chylomicrons</strong></td><td>75-1 200 nm</td><td>TG 90%, cholesterol 5%, phospholipid 3%, protein 2%</td></tr><tr><td><strong>VLDL</strong></td><td>30-80 nm</td><td>TG 55%, cholesterol 20%, phospholipid 17%, protein 8%</td></tr><tr><td><strong>LDL</strong></td><td>18-25 nm</td><td><strong>Cholesterol 53%</strong>, phospholipid 21%, protein 20%, TG 6%</td></tr><tr><td><strong>HDL</strong></td><td>5-12 nm</td><td><strong>Protein 50%</strong>, phospholipid 25%, cholesterol 20%, TG 5%</td></tr></table>"
+  },
+  {
+   "id": "s4",
+   "title": "Processing pathways",
+   "html": "<ul><li><strong>Chylomicron pathway</strong>: lymph absorbs chylomicrons from the small intestine → drain into the blood → <strong>lipoprotein lipase</strong> removes lipids → stored in adipocytes or used; the liver disposes of the remnants.</li><li><strong>VLDL/LDL pathway</strong>: liver produces VLDL → triglycerides removed and stored in adipocytes → VLDL becomes <strong>LDL</strong> (mainly cholesterol) → cells absorb LDL by <strong>receptor-mediated endocytosis</strong>. <strong>LDL delivers cholesterol to cells.</strong></li><li><strong>HDL pathway</strong>: the liver makes empty HDL shells → they pick up cholesterol and phospholipids from tissues → return to the liver, which excretes excess cholesterol and bile acids (converts HDL cholesterol into bile salts). <strong>HDL removes excess cholesterol.</strong></li></ul>"
+  },
+  {
+   "id": "s5",
+   "title": "LDL, HDL and health",
+   "html": "<ul><li><strong>High LDL</strong> is a warning sign: correlates with cholesterol deposition in arteries; raised by <strong>saturated fat, smoking, coffee and stress</strong>.</li><li><strong>High HDL</strong> is beneficial: cholesterol is being removed from arteries to the liver.</li><li>Recommendation: <strong>increase the HDL to LDL ratio</strong> with <strong>regular aerobic exercise</strong>, and avoid smoking, saturated fats, coffee and stress.</li></ul><table><tr><th></th><th>Fatty acids (triglycerides)</th><th>Cholesterol</th></tr><tr><td>Main role</td><td>Energy source and storage</td><td>Structural and regulatory</td></tr><tr><td>Energy</td><td>Major fuel (9 kcal/g), stored in adipose</td><td><strong>Not used for energy</strong></td></tr><tr><td>Membranes</td><td>Flexibility (unsaturated)</td><td>Rigidity and stability</td></tr><tr><td>Hormones</td><td>Precursors of <strong>eicosanoids</strong> (prostaglandins, leukotrienes)</td><td>Precursor of <strong>steroid hormones</strong> (oestrogen, testosterone, cortisol)</td></tr><tr><td>Vitamins</td><td>No direct role</td><td>Precursor of <strong>vitamin D</strong></td></tr></table>"
+  }
+ ],
+ "exam": [
+  "Body fat: 15% men, 25% women; 80-90% of resting energy from fat.",
+  "Fat 9 kcal/g vs carbohydrate 4 kcal/g; fat is hydrophobic and compact.",
+  "Glucose-sparing and protein-sparing; vitamins A, D, E, K need fat (less than 20 g/day risks deficiency).",
+  "Triglyceride = glycerol + 3 fatty acids; fatty acids 4-24 C, saturated or unsaturated.",
+  "Lipoproteins: hydrophilic shell, hydrophobic core; made in the liver.",
+  "Chylomicrons 90% TG; LDL 53% cholesterol; HDL 50% protein.",
+  "LDL delivers cholesterol to cells; HDL removes excess to the liver.",
+  "Raise HDL/LDL: aerobic exercise; avoid smoking, saturated fat, coffee, stress.",
+  "Cholesterol: not a fuel; membranes, steroid hormones, vitamin D."
+ ],
+ "visual": {
+  "kind": "model",
+  "intro": "",
+  "figure": {
+   "viewBox": "0 0 760 420",
+   "alt": "Lipoprotein pathways",
+   "caption": "How fats and cholesterol travel. Schematic drawn for this site.",
+   "base": "<defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"8\" refX=\"9\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L10,4 L0,8 Z\" fill=\"#8a8a8a\"/></marker></defs><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"-6.66667\" y1=\"210\" x2=\"306.667\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"146.667\" y1=\"210\" x2=\"460\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"300\" y1=\"210\" x2=\"613.333\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"453.333\" y1=\"210\" x2=\"766.667\" y2=\"210\"/>",
+   "parts": {
+    "chy": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2d7cf\" x=\"-6.66667\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Chylomicrons",
+      "from the intestine"
+     ],
+     "lx": 73.33333333333333,
+     "ly": 208.0
+    },
+    "lpl": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"146.667\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Lipoprotein lipase",
+      "TG to adipocytes"
+     ],
+     "lx": 226.66666666666669,
+     "ly": 208.0
+    },
+    "vldl": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"300\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Liver makes",
+      "VLDL"
+     ],
+     "lx": 380.0,
+     "ly": 208.0
+    },
+    "ldl": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2e2a8\" x=\"453.333\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "VLDL → LDL",
+      "cholesterol to cells"
+     ],
+     "lx": 533.3333333333333,
+     "ly": 208.0
+    },
+    "hdl": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"606.667\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "HDL removes",
+      "cholesterol → liver"
+     ],
+     "lx": 686.6666666666667,
+     "ly": 208.0
+    }
+   },
+   "arrows": {
+    "chy": [
+     {
+      "t": [
+       -6.666666666666667,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "lpl": [
+     {
+      "t": [
+       146.66666666666669,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "vldl": [
+     {
+      "t": [
+       300.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "ldl": [
+     {
+      "t": [
+       453.3333333333333,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "hdl": [
+     {
+      "t": [
+       606.6666666666667,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ]
+   }
+  }
+ },
+ "mcqs": [
+  {
+   "q": "Average body fat in women is about:",
+   "options": [
+    "5%",
+    "15%",
+    "25%",
+    "45%"
+   ],
+   "answer": 2,
+   "why": "Men about 15%, women about 25%."
+  },
+  {
+   "q": "A well-nourished adult meets what share of resting energy needs from fat?",
+   "options": [
+    "10-20%",
+    "40-50%",
+    "80-90%",
+    "100%"
+   ],
+   "answer": 2,
+   "why": "80 to 90% of resting energy comes from fat."
+  },
+  {
+   "q": "Fat provides about:",
+   "options": [
+    "4 kcal/g",
+    "7 kcal/g",
+    "9 kcal/g",
+    "12 kcal/g"
+   ],
+   "answer": 2,
+   "why": "Fat 9 kcal/g; carbohydrate 4 kcal/g."
+  },
+  {
+   "q": "Fat is a better storage form than carbohydrate because it:",
+   "options": [
+    "Is hydrophilic and holds water",
+    "Is hydrophobic, compact and energy-dense",
+    "Is easier and faster to digest",
+    "Does not need lipoproteins to travel"
+   ],
+   "answer": 1,
+   "why": "Hydrophobic and compact, with 9 vs 4 kcal/g."
+  },
+  {
+   "q": "Fat's glucose-sparing effect keeps glucose for:",
+   "options": [
+    "Adipocytes",
+    "Neurons",
+    "Hepatocytes only",
+    "Red cells only"
+   ],
+   "answer": 1,
+   "why": "Glucose is spared for cells that cannot use fat, such as neurons."
+  },
+  {
+   "q": "Which vitamins are absorbed with dietary fat?",
+   "options": [
+    "A",
+    "D",
+    "K",
+    "C"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Fat-soluble vitamins A, D, E, K.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: water-soluble."
+   ]
+  },
+  {
+   "q": "Eating less than how much fat per day risks vitamin deficiency?",
+   "options": [
+    "5 g",
+    "20 g",
+    "100 g",
+    "200 g"
+   ],
+   "answer": 1,
+   "why": "Less than 20 g of fat per day."
+  },
+  {
+   "q": "A triglyceride is made of:",
+   "options": [
+    "Cholesterol and 3 fatty acids",
+    "Glycerol and 3 fatty acids",
+    "Glycerol and 2 fatty acids plus phosphate",
+    "3 glucose molecules"
+   ],
+   "answer": 1,
+   "why": "Glycerol backbone + 3 fatty acids."
+  },
+  {
+   "q": "Saturated fatty acids have:",
+   "options": [
+    "Only single carbon-carbon bonds",
+    "At least one double bond",
+    "Triple bonds only",
+    "No carbon chain"
+   ],
+   "answer": 0,
+   "why": "Saturated: all single C-C bonds."
+  },
+  {
+   "q": "Lipoproteins are produced by:",
+   "options": [
+    "The kidney",
+    "The liver",
+    "The pancreas",
+    "The spleen"
+   ],
+   "answer": 1,
+   "why": "Lipoproteins are produced in the liver (chylomicrons in the intestine)."
+  },
+  {
+   "q": "The outer shell of a lipoprotein is:",
+   "options": [
+    "Hydrophobic",
+    "Hydrophilic",
+    "Made only of triglyceride",
+    "Made only of cholesterol"
+   ],
+   "answer": 1,
+   "why": "Polar proteins and amphipathic phospholipids make the shell hydrophilic."
+  },
+  {
+   "q": "Which lipoprotein is about 90% triglyceride?",
+   "options": [
+    "HDL",
+    "LDL",
+    "VLDL",
+    "Chylomicron"
+   ],
+   "answer": 3,
+   "why": "Chylomicrons: triglyceride 90%."
+  },
+  {
+   "q": "Which lipoprotein is richest in cholesterol (about 53%)?",
+   "options": [
+    "Chylomicron",
+    "VLDL",
+    "LDL",
+    "HDL"
+   ],
+   "answer": 2,
+   "why": "LDL contains mainly cholesterol."
+  },
+  {
+   "q": "Which lipoprotein is about 50% protein?",
+   "options": [
+    "HDL",
+    "LDL",
+    "VLDL",
+    "Chylomicron"
+   ],
+   "answer": 0,
+   "why": "HDL: protein 50%."
+  },
+  {
+   "q": "Which is the smallest lipoprotein?",
+   "options": [
+    "Chylomicron",
+    "VLDL",
+    "LDL",
+    "HDL"
+   ],
+   "answer": 3,
+   "why": "HDL 5-12 nm; chylomicrons up to 1 200 nm."
+  },
+  {
+   "q": "Chylomicrons first enter:",
+   "options": [
+    "The portal vein",
+    "The lymph",
+    "The bile",
+    "The urine"
+   ],
+   "answer": 1,
+   "why": "Lymph absorbs chylomicrons from the small intestine, then drains into the blood."
+  },
+  {
+   "q": "Which enzyme removes lipids from chylomicrons?",
+   "options": [
+    "Hormone-sensitive lipase",
+    "Lipoprotein lipase",
+    "Pancreatic amylase",
+    "HMG-CoA reductase"
+   ],
+   "answer": 1,
+   "why": "Lipoprotein lipase."
+  },
+  {
+   "q": "Cells take up LDL by:",
+   "options": [
+    "Simple diffusion",
+    "Receptor-mediated endocytosis",
+    "Exocytosis",
+    "Paracellular transport"
+   ],
+   "answer": 1,
+   "why": "Receptor-mediated endocytosis."
+  },
+  {
+   "q": "The main role of HDL is to:",
+   "options": [
+    "Deliver cholesterol to the tissues",
+    "Remove excess cholesterol to the liver",
+    "Carry dietary triglyceride from the gut",
+    "Store triglyceride inside adipocytes"
+   ],
+   "answer": 1,
+   "why": "HDL picks up cholesterol and returns it to the liver."
+  },
+  {
+   "q": "Which raise LDL according to the lecture?",
+   "options": [
+    "Saturated fat",
+    "Smoking",
+    "Stress",
+    "Aerobic exercise"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Saturated fat, smoking, coffee and stress raise LDL; exercise improves HDL/LDL.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: it improves the ratio."
+   ]
+  },
+  {
+   "q": "Cholesterol is a precursor of:",
+   "options": [
+    "Prostaglandins and thromboxanes",
+    "Steroid hormones and vitamin D",
+    "Leukotrienes and eicosanoids",
+    "Glycogen and starch"
+   ],
+   "answer": 1,
+   "why": "Cholesterol → steroid hormones and vitamin D; fatty acids → eicosanoids."
+  },
+  {
+   "q": "Which statement about cholesterol is correct?",
+   "options": [
+    "It is a major fuel at 9 kcal/g",
+    "It is not used for energy",
+    "It makes membranes more fluid",
+    "It is carried only in chylomicrons"
+   ],
+   "answer": 1,
+   "why": "Cholesterol is structural and regulatory, not an energy source; it gives membranes rigidity."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "chy",
+   "options": [
+    "Chylomicrons",
+    "Lipoprotein lipase",
+    "VLDL",
+    "HDL"
+   ],
+   "answer": 0,
+   "why": "The arrow points to: Chylomicrons. Formed in the small intestine, absorbed by lymph, then drain into the blood; 90% triglyceride."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "lpl",
+   "options": [
+    "Chylomicrons",
+    "Lipoprotein lipase",
+    "VLDL",
+    "LDL"
+   ],
+   "answer": 1,
+   "why": "The arrow points to: Lipoprotein lipase. Removes lipids from chylomicrons; triglycerides are stored in adipocytes or used by cells."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "vldl",
+   "options": [
+    "HDL",
+    "Lipoprotein lipase",
+    "VLDL",
+    "Chylomicrons"
+   ],
+   "answer": 2,
+   "why": "The arrow points to: VLDL. Very low-density lipoproteins produced by the liver."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "ldl",
+   "options": [
+    "LDL",
+    "Chylomicrons",
+    "VLDL",
+    "HDL"
+   ],
+   "answer": 0,
+   "why": "The arrow points to: LDL. VLDLs become LDLs containing mainly cholesterol; cells take them up by receptor-mediated endocytosis."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "hdl",
+   "options": [
+    "VLDL",
+    "Lipoprotein lipase",
+    "HDL",
+    "Chylomicrons"
+   ],
+   "answer": 2,
+   "why": "The arrow points to: HDL. Empty shells from the liver pick up cholesterol from tissues and return it to the liver."
+  }
+ ],
+ "cards": [
+  {
+   "id": "x0",
+   "type": "text",
+   "front": "Body fat and fat's share of resting energy?",
+   "back": "Men 15%, women 25%; fat supplies 80-90% of resting needs."
+  },
+  {
+   "id": "x1",
+   "type": "text",
+   "front": "Why is fat the better energy store?",
+   "back": "Hydrophobic and compact; 9 kcal/g vs 4 kcal/g for carbohydrate."
+  },
+  {
+   "id": "x2",
+   "type": "text",
+   "front": "Glucose- and protein-sparing?",
+   "back": "Using fat spares glucose for neurons and spares protein from being burnt."
+  },
+  {
+   "id": "x3",
+   "type": "text",
+   "front": "Fat-soluble vitamins and minimum fat?",
+   "back": "A, D, E, K; less than 20 g fat/day risks deficiency."
+  },
+  {
+   "id": "x4",
+   "type": "text",
+   "front": "Lipoprotein structure?",
+   "back": "Hydrophilic shell of proteins, phospholipids, cholesterol; hydrophobic core of TG and cholesterol."
+  },
+  {
+   "id": "x5",
+   "type": "text",
+   "front": "Four lipoproteins by size and main content?",
+   "back": "Chylomicron 75-1 200 nm, TG 90%; VLDL 30-80 nm, TG 55%; LDL 18-25 nm, cholesterol 53%; HDL 5-12 nm, protein 50%."
+  },
+  {
+   "id": "x6",
+   "type": "text",
+   "front": "LDL vs HDL roles?",
+   "back": "LDL delivers cholesterol to cells; HDL removes excess cholesterol to the liver."
+  },
+  {
+   "id": "x7",
+   "type": "text",
+   "front": "How to improve HDL/LDL?",
+   "back": "Regular aerobic exercise; avoid smoking, saturated fats, coffee, stress."
+  },
+  {
+   "id": "x8",
+   "type": "text",
+   "front": "Fatty acids vs cholesterol?",
+   "back": "Fatty acids: fuel, membrane flexibility, eicosanoids. Cholesterol: no energy, membrane rigidity, steroids, vitamin D."
+  },
+  {
+   "id": "img-chy",
+   "type": "image",
+   "target": "chy",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Chylomicrons. Formed in the small intestine, absorbed by lymph, then drain into the blood; 90% triglyceride."
+  },
+  {
+   "id": "img-lpl",
+   "type": "image",
+   "target": "lpl",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Lipoprotein lipase. Removes lipids from chylomicrons; triglycerides are stored in adipocytes or used by cells."
+  },
+  {
+   "id": "img-vldl",
+   "type": "image",
+   "target": "vldl",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "VLDL. Very low-density lipoproteins produced by the liver."
+  },
+  {
+   "id": "img-ldl",
+   "type": "image",
+   "target": "ldl",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "LDL. VLDLs become LDLs containing mainly cholesterol; cells take them up by receptor-mediated endocytosis."
+  },
+  {
+   "id": "img-hdl",
+   "type": "image",
+   "target": "hdl",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "HDL. Empty shells from the liver pick up cholesterol from tissues and return it to the liver."
+  }
+ ],
+ "deeper": [],
+ "resources": [
+  {
+   "title": "OpenStax A&P 2e: Lipid metabolism",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-3-lipid-metabolism",
+   "kind": "Textbook chapter",
+   "why": "Triglycerides, lipoproteins and cholesterol.",
+   "note": ""
+  }
+ ],
+ "checks": [],
+ "sources": [
+  {
+   "name": "OpenStax A&P 2e: Lipid metabolism",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-3-lipid-metabolism"
+  }
+ ],
+ "verified": "1 Nov 2026"
+};
+window.SINA = window.SINA || {subjects:[], lectures:{}};
+SINA.lectures["physio-bioen-atp"] = {
+ "id": "physio-bioen-atp",
+ "subject": "physio",
+ "group": "Bioenergetics",
+ "title": "Bioenergetics 4: ATP as energy source",
+ "sourceFile": "Bioenergetics 4 (ATP as energy source).pdf (Physiology, sub-module Bioenergetics, lecture 4, Prof. A.T. Dinh-Xuan, S3, 2026-2027)",
+ "sourceUrl": "https://drive.google.com/file/d/1RTY_KyhiDJb-_5UrDPeIDs_4crrVQZDr/view?usp=drivesdk",
+ "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
+ "summary": [
+  {
+   "id": "s0",
+   "title": "The big picture",
+   "html": "<p><strong>ATP is the universal chemical energy currency of cells.</strong> It is made by the same principle everywhere: electron transport builds a <strong>proton gradient</strong> that drives <strong>ATP synthase</strong>. It is spent on pumps such as the <strong>Na+/K+-ATPase</strong> (resting potential, renal reabsorption) and on <strong>muscle contraction</strong>. The lecture also traces the discoveries and Nobel Prizes behind ATP.</p>"
+  },
+  {
+   "id": "s1",
+   "title": "Discovery timeline",
+   "html": "<table><tr><th>Year</th><th>Who</th><th>What</th></tr><tr><td>1929</td><td><strong>Karl Lohmann</strong></td><td>Initial discovery of ATP</td></tr><tr><td>1937</td><td>Herman Kalckar</td><td>ATP synthesis is driven by cell respiration</td></tr><tr><td>1939-1941</td><td><strong>Fritz Lipmann</strong></td><td>ATP is the universal chemical energy in cells; discovered <strong>coenzyme A</strong> (Nobel 1953)</td></tr><tr><td>1953</td><td><strong>Hans Krebs</strong></td><td>Citric acid cycle (Nobel Physiology or Medicine 1953, shared with Lipmann)</td></tr><tr><td>1961</td><td>Efraim Racker</td><td>First isolation of the catalytic F1 subunit of ATP synthase</td></tr><tr><td>1978</td><td><strong>Peter Mitchell</strong></td><td><strong>Chemiosmotic</strong> mechanism of ATP synthesis</td></tr><tr><td>1997</td><td><strong>Paul Boyer and John Walker</strong>; <strong>Jens Skou</strong></td><td>Enzymatic mechanism of ATP synthesis; first ion-transporting enzyme, <strong>Na+,K+-ATPase</strong> (Nobel Chemistry 1997)</td></tr></table>"
+  },
+  {
+   "id": "s2",
+   "title": "Photosynthesis and respiration",
+   "html": "<table><tr><th>Photosynthesis (plants)</th><th>Aerobic respiration</th></tr><tr><td>H2O → electrons → <strong>NADP+</strong>: water oxidised, <strong>O2 produced</strong>, NADPH generated</td><td>NADH/FADH2 → electrons → <strong>O2</strong>: O2 receives electrons, <strong>H2O produced</strong></td></tr><tr><td>Light energy → chemical energy (<strong>photophosphorylation</strong>)</td><td>Chemical energy → ATP</td></tr></table><p><strong>Both rely on electron transport, a proton gradient and ATP synthase.</strong> Bacteria (prokaryotes) also make ATP this way, across their plasma membrane.</p>"
+  },
+  {
+   "id": "s3",
+   "title": "ATP and the resting potential",
+   "html": "<ul><li>Resting potential about <strong>−70 mV</strong>; threshold about <strong>−55 mV</strong>; action potential peaks about <strong>+40 mV</strong>; then repolarisation and refractory period (Hodgkin, Nobel 1963).</li><li>At rest, all voltage-gated Na+ channels and most voltage-gated K+ channels are closed; the <strong>Na+/K+ transporter</strong> pumps K+ in and Na+ out.</li><li>Concentrations: <strong>outside Na+ 140 mM, K+ 5 mM</strong>; <strong>inside Na+ 15 mM, K+ 140 mM</strong>.</li><li><strong>Na+/K+-ATPase: 3 Na+ out, 2 K+ in per ATP</strong> (3:2).</li></ul>"
+  },
+  {
+   "id": "s4",
+   "title": "ATP-driven transport elsewhere",
+   "html": "<ul><li><strong>Renal proximal tubule</strong>: the basolateral Na+/K+-ATPase creates the Na+ gradient used by apical <strong>SGLT</strong> (glucose) and <strong>NHE3</strong> (Na+/H+ exchanger); glucose leaves through <strong>GLUT</strong>. <strong>SGLT2 inhibitors</strong> block glucose reabsorption.</li><li><strong>Cardiac cell</strong>: Na+/K+-ATPase (3:2), <strong>Na+/Ca2+ exchanger (3:1)</strong> and <strong>Ca2+-ATPase</strong>. <strong>Digoxin</strong> (from <em>Digitalis lanata</em>) inhibits the Na+/K+-ATPase.</li></ul>"
+  },
+  {
+   "id": "s5",
+   "title": "ATP and muscle contraction",
+   "html": "<p>The <strong>cross-bridge cycle</strong> needs ATP: ATP binding detaches myosin from actin, and its hydrolysis re-cocks the myosin head. <strong>Lack of ATP leads to rigor mortis</strong>: myosin stays locked to actin.</p>"
+  }
+ ],
+ "exam": [
+  "ATP: universal energy currency. Lohmann 1929; Lipmann (CoA) and Krebs (citric acid cycle) Nobel 1953.",
+  "Mitchell 1978: chemiosmosis. Boyer and Walker 1997: ATP synthase; Skou 1997: Na+,K+-ATPase.",
+  "Photosynthesis: H2O oxidised, O2 made, NADPH. Respiration: O2 reduced, H2O made, ATP.",
+  "Both use electron transport, a proton gradient and ATP synthase.",
+  "Resting −70 mV, threshold −55 mV, peak +40 mV.",
+  "Na+ out 140 / in 15 mM; K+ out 5 / in 140 mM.",
+  "Na+/K+-ATPase: 3 Na+ out, 2 K+ in, 1 ATP.",
+  "PCT: Na+/K+-ATPase powers SGLT and NHE3. Heart: Na+/Ca2+ exchanger 3:1; digoxin blocks the pump.",
+  "No ATP → rigor mortis."
+ ],
+ "visual": {
+  "kind": "model",
+  "intro": "",
+  "figure": {
+   "viewBox": "0 0 760 420",
+   "alt": "The Na+/K+-ATPase cycle",
+   "caption": "One ATP moves 3 Na+ out and 2 K+ in. Schematic drawn for this site.",
+   "base": "<defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"8\" refX=\"9\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L10,4 L0,8 Z\" fill=\"#8a8a8a\"/></marker></defs><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"184\" y1=\"210\" x2=\"208\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"368\" y1=\"210\" x2=\"392\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"552\" y1=\"210\" x2=\"576\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"576\" y1=\"210\" x2=\"184\" y2=\"210\"/>",
+   "parts": {
+    "in": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2d7cf\" x=\"24\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "3 Na+ bind",
+      "inside the cell"
+     ],
+     "lx": 104.0,
+     "ly": 208.0
+    },
+    "atp": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"208\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "ATP → ADP + Pi",
+      "pump changes shape"
+     ],
+     "lx": 288.0,
+     "ly": 208.0
+    },
+    "out": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"392\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "3 Na+ released",
+      "outside"
+     ],
+     "lx": 472.0,
+     "ly": 208.0
+    },
+    "k": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2e2a8\" x=\"576\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "2 K+ bind outside,",
+      "released inside"
+     ],
+     "lx": 656.0,
+     "ly": 208.0
+    }
+   },
+   "arrows": {
+    "in": [
+     {
+      "t": [
+       24.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "atp": [
+     {
+      "t": [
+       208.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "out": [
+     {
+      "t": [
+       392.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "k": [
+     {
+      "t": [
+       576.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ]
+   }
+  }
+ },
+ "mcqs": [
+  {
+   "q": "Who first discovered ATP in 1929?",
+   "options": [
+    "Hans Krebs",
+    "Karl Lohmann",
+    "Peter Mitchell",
+    "Jens Skou"
+   ],
+   "answer": 1,
+   "why": "Karl Lohmann, 1929."
+  },
+  {
+   "q": "Fritz Lipmann shared the 1953 Nobel Prize for discovering:",
+   "options": [
+    "The citric acid cycle",
+    "Coenzyme A",
+    "The chemiosmotic mechanism",
+    "The Na+,K+-ATPase"
+   ],
+   "answer": 1,
+   "why": "Lipmann: coenzyme A; Krebs: citric acid cycle (both 1953)."
+  },
+  {
+   "q": "Hans Krebs is known for:",
+   "options": [
+    "Coenzyme A",
+    "The citric acid cycle",
+    "The action potential",
+    "ATP synthase structure"
+   ],
+   "answer": 1,
+   "why": "Krebs: the citric acid (Krebs) cycle, Nobel 1953."
+  },
+  {
+   "q": "Peter Mitchell described:",
+   "options": [
+    "The ten steps of glycolysis",
+    "The chemiosmotic mechanism of ATP synthesis",
+    "The first ion-transporting pump",
+    "The structure of coenzyme A"
+   ],
+   "answer": 1,
+   "why": "Chemiosmotic theory, Nobel Chemistry 1978."
+  },
+  {
+   "q": "Jens Skou won the 1997 Nobel Prize in Chemistry for:",
+   "options": [
+    "The enzymatic mechanism of ATP synthase",
+    "The first ion-transporting enzyme, Na+,K+-ATPase",
+    "The light reactions of photosynthesis",
+    "The ionic basis of the action potential"
+   ],
+   "answer": 1,
+   "why": "Skou: Na+,K+-ATPase; Boyer and Walker: ATP synthase mechanism."
+  },
+  {
+   "q": "Who isolated the catalytic F1 subunit of ATP synthase (1961)?",
+   "options": [
+    "Efraim Racker",
+    "Herman Kalckar",
+    "Alan Hodgkin",
+    "Karl Lohmann"
+   ],
+   "answer": 0,
+   "why": "Efraim Racker, 1961."
+  },
+  {
+   "q": "In photosynthesis, which molecule is oxidised to release oxygen?",
+   "options": [
+    "Glucose",
+    "Water",
+    "NADP+",
+    "CO2"
+   ],
+   "answer": 1,
+   "why": "H2O is oxidised, O2 is produced and NADPH generated."
+  },
+  {
+   "q": "In aerobic respiration, oxygen is:",
+   "options": [
+    "Produced from water",
+    "Reduced to water",
+    "Used to make NADPH",
+    "Not involved"
+   ],
+   "answer": 1,
+   "why": "O2 receives electrons and H2O is produced."
+  },
+  {
+   "q": "What do photosynthesis and respiration have in common?",
+   "options": [
+    "Both release oxygen as a product",
+    "Electron transport, a proton gradient, ATP synthase",
+    "Both take place in the cytoplasm only",
+    "Both use NADP+ as electron acceptor"
+   ],
+   "answer": 1,
+   "why": "Both rely on electron transport, a proton gradient and ATP synthase."
+  },
+  {
+   "q": "Light-driven ATP production in plants is called:",
+   "options": [
+    "Oxidative phosphorylation",
+    "Photophosphorylation",
+    "Substrate-level phosphorylation",
+    "Glycolysis"
+   ],
+   "answer": 1,
+   "why": "Photophosphorylation in the light-dependent reactions."
+  },
+  {
+   "q": "The resting membrane potential in the slides is about:",
+   "options": [
+    "−90 mV",
+    "−70 mV",
+    "−55 mV",
+    "+40 mV"
+   ],
+   "answer": 1,
+   "why": "Resting −70 mV; threshold −55 mV; peak +40 mV."
+  },
+  {
+   "q": "The Na+/K+-ATPase moves per ATP:",
+   "options": [
+    "2 Na+ out, 3 K+ in",
+    "3 Na+ out, 2 K+ in",
+    "3 Na+ in, 2 K+ out",
+    "1 Na+ out, 1 K+ in"
+   ],
+   "answer": 1,
+   "why": "3 Na+ out, 2 K+ in (3:2)."
+  },
+  {
+   "q": "Intracellular K+ concentration is about:",
+   "options": [
+    "5 mM",
+    "15 mM",
+    "140 mM",
+    "1 400 mM"
+   ],
+   "answer": 2,
+   "why": "Inside K+ about 140 mM; outside 5 mM."
+  },
+  {
+   "q": "Extracellular Na+ concentration is about:",
+   "options": [
+    "15 mM",
+    "140 mM",
+    "5 mM",
+    "40 mM"
+   ],
+   "answer": 1,
+   "why": "Outside Na+ 140 mM; inside 15 mM."
+  },
+  {
+   "q": "In the proximal tubule, SGLT relies on:",
+   "options": [
+    "Direct ATP hydrolysis by SGLT itself",
+    "The Na+ gradient made by the basal Na+/K+ pump",
+    "Water flow through aquaporin channels",
+    "The proton gradient of the H+-ATPase"
+   ],
+   "answer": 1,
+   "why": "SGLT is secondary active transport powered by the Na+ gradient."
+  },
+  {
+   "q": "The cardiac Na+/Ca2+ exchanger ratio is:",
+   "options": [
+    "3 Na+ : 1 Ca2+",
+    "1 Na+ : 1 Ca2+",
+    "2 Na+ : 3 Ca2+",
+    "3 Na+ : 2 Ca2+"
+   ],
+   "answer": 0,
+   "why": "Na+/Ca2+ exchanger 3:1."
+  },
+  {
+   "q": "Digoxin inhibits:",
+   "options": [
+    "ATP synthase",
+    "The Na+/K+-ATPase",
+    "SGLT2",
+    "Carbonic anhydrase"
+   ],
+   "answer": 1,
+   "why": "Digoxin (from Digitalis lanata) blocks the Na+/K+-ATPase."
+  },
+  {
+   "q": "Rigor mortis is caused by:",
+   "options": [
+    "Excess ATP",
+    "Lack of ATP",
+    "Excess calcium removal",
+    "Loss of actin"
+   ],
+   "answer": 1,
+   "why": "Without ATP myosin cannot detach from actin."
+  },
+  {
+   "q": "Which processes in the lecture directly use ATP?",
+   "options": [
+    "Na+/K+-ATPase",
+    "Ca2+-ATPase",
+    "The cross-bridge cycle",
+    "Water moving through aquaporins"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Pumps and myosin use ATP; osmosis does not.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: passive."
+   ]
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "in",
+   "options": [
+    "Potassium transport",
+    "ATP hydrolysis",
+    "Sodium binding",
+    "Sodium release"
+   ],
+   "answer": 2,
+   "why": "The arrow points to: Sodium binding. Three Na+ bind the pump on the inside (intracellular Na+ about 15 mM)."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "atp",
+   "options": [
+    "ATP hydrolysis",
+    "Sodium binding",
+    "Sodium release",
+    "Potassium transport"
+   ],
+   "answer": 0,
+   "why": "The arrow points to: ATP hydrolysis. ATP is split into ADP + Pi, powering the conformational change."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "out",
+   "options": [
+    "ATP hydrolysis",
+    "Potassium transport",
+    "Sodium binding",
+    "Sodium release"
+   ],
+   "answer": 3,
+   "why": "The arrow points to: Sodium release. Three Na+ are released outside (extracellular Na+ about 140 mM)."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "k",
+   "options": [
+    "Potassium transport",
+    "Sodium release",
+    "ATP hydrolysis",
+    "Sodium binding"
+   ],
+   "answer": 0,
+   "why": "The arrow points to: Potassium transport. Two K+ bind outside and are released inside (intracellular K+ about 140 mM, outside 5 mM)."
+  }
+ ],
+ "cards": [
+  {
+   "id": "x0",
+   "type": "text",
+   "front": "ATP discovery and key Nobels?",
+   "back": "Lohmann 1929; Lipmann (CoA) and Krebs (citric acid cycle) 1953; Mitchell (chemiosmosis) 1978; Boyer, Walker (ATP synthase) and Skou (Na+,K+-ATPase) 1997."
+  },
+  {
+   "id": "x1",
+   "type": "text",
+   "front": "Photosynthesis vs respiration?",
+   "back": "Photosynthesis: H2O oxidised, O2 released, NADPH, light → chemical. Respiration: O2 reduced to H2O, chemical → ATP."
+  },
+  {
+   "id": "x2",
+   "type": "text",
+   "front": "What do they share?",
+   "back": "Electron transport, a proton gradient and ATP synthase."
+  },
+  {
+   "id": "x3",
+   "type": "text",
+   "front": "Membrane potential values?",
+   "back": "Rest −70 mV, threshold −55 mV, peak +40 mV."
+  },
+  {
+   "id": "x4",
+   "type": "text",
+   "front": "Na+ and K+ concentrations?",
+   "back": "Outside Na+ 140, K+ 5 mM; inside Na+ 15, K+ 140 mM."
+  },
+  {
+   "id": "x5",
+   "type": "text",
+   "front": "Na+/K+-ATPase stoichiometry?",
+   "back": "3 Na+ out, 2 K+ in per ATP."
+  },
+  {
+   "id": "x6",
+   "type": "text",
+   "front": "ATP in the renal proximal tubule?",
+   "back": "Basolateral Na+/K+-ATPase makes the gradient used by apical SGLT and NHE3."
+  },
+  {
+   "id": "x7",
+   "type": "text",
+   "front": "Digoxin target?",
+   "back": "The Na+/K+-ATPase (from Digitalis lanata)."
+  },
+  {
+   "id": "x8",
+   "type": "text",
+   "front": "Why rigor mortis?",
+   "back": "No ATP: myosin stays bound to actin."
+  },
+  {
+   "id": "img-in",
+   "type": "image",
+   "target": "in",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Sodium binding. Three Na+ bind the pump on the inside (intracellular Na+ about 15 mM)."
+  },
+  {
+   "id": "img-atp",
+   "type": "image",
+   "target": "atp",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "ATP hydrolysis. ATP is split into ADP + Pi, powering the conformational change."
+  },
+  {
+   "id": "img-out",
+   "type": "image",
+   "target": "out",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Sodium release. Three Na+ are released outside (extracellular Na+ about 140 mM)."
+  },
+  {
+   "id": "img-k",
+   "type": "image",
+   "target": "k",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Potassium transport. Two K+ bind outside and are released inside (intracellular K+ about 140 mM, outside 5 mM)."
+  }
+ ],
+ "deeper": [],
+ "resources": [
+  {
+   "title": "OpenStax A&P 2e: Overview of metabolic reactions",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-1-overview-of-metabolic-reactions",
+   "kind": "Textbook chapter",
+   "why": "ATP as the energy currency.",
+   "note": ""
+  }
+ ],
+ "checks": [],
+ "sources": [
+  {
+   "name": "OpenStax A&P 2e: Overview of metabolic reactions",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-1-overview-of-metabolic-reactions"
+  }
+ ],
+ "verified": "1 Nov 2026"
+};
+window.SINA = window.SINA || {subjects:[], lectures:{}};
+SINA.lectures["physio-bioen-balance"] = {
+ "id": "physio-bioen-balance",
+ "subject": "physio",
+ "group": "Bioenergetics",
+ "title": "Bioenergetics 5: energy balance",
+ "sourceFile": "Bioenergetics 5 (Energy balance).pdf (Physiology, sub-module Bioenergetics, lecture 5, Prof. A.T. Dinh-Xuan, S3, 2026-2027)",
+ "sourceUrl": "https://drive.google.com/file/d/1h9iktN4X7bUaBNflg0lHtbcDvjVgep_V/view?usp=drivesdk",
+ "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
+ "summary": [
+  {
+   "id": "s0",
+   "title": "The big picture",
+   "html": "<p>Body weight follows <strong>energy balance</strong>: intake versus expenditure, around a set point that is 30-50% hereditary. Appetite is controlled by <strong>gut-brain peptides</strong>: short-term (ghrelin, PYY, CCK) and long-term (leptin, insulin) signals converge on the <strong>arcuate nucleus</strong>, which has a hunger network (NPY, AgRP) and a satiety network (melanocortins). The lecture opens with two poisons of the electron transport chain: <strong>cyanide</strong> and <strong>DNP</strong>.</p>"
+  },
+  {
+   "id": "s1",
+   "title": "Cyanide versus DNP",
+   "html": "<table><tr><th></th><th>Cyanide</th><th>DNP (dinitrophenol)</th></tr><tr><td>Target</td><td><strong>Complex IV</strong> (cytochrome c oxidase)</td><td>H+ gradient / inner mitochondrial membrane</td></tr><tr><td>Mechanism</td><td><strong>ETC inhibitor</strong></td><td><strong>Uncoupler / protonophore</strong>: H+ leaks back into the matrix without passing ATP synthase</td></tr><tr><td>Electron transport</td><td>↓↓ / stops</td><td>↑</td></tr><tr><td>O2 consumption</td><td>↓↓</td><td>↑</td></tr><tr><td>Proton gradient</td><td>↓</td><td>↓</td></tr><tr><td>ATP synthesis</td><td>↓↓↓</td><td>↓↓</td></tr><tr><td>Fuel oxidation</td><td>↓</td><td>↑</td></tr><tr><td>Heat</td><td>Not the defining effect</td><td><strong>↑↑</strong> (main concept)</td></tr><tr><td>Key idea</td><td>Respiration is <strong>inhibited</strong></td><td>Respiration is <strong>uncoupled</strong> from ATP synthesis</td></tr></table>"
+  },
+  {
+   "id": "s2",
+   "title": "Body weight and energy balance",
+   "html": "<ul><li>Intake = output: stable weight; intake > output: gain; output > intake: loss.</li><li>Weight has a stable homeostatic <strong>set point</strong>, varying between people.</li><li><strong>30 to 50%</strong> of variation in weight is <strong>hereditary</strong>; environment (eating and exercise habits) accounts for <strong>50 to 70%</strong>.</li></ul>"
+  },
+  {
+   "id": "s3",
+   "title": "Appetite: short and long term",
+   "html": "<p>Weight control uses peptide hormones that act as <strong>gut-brain</strong> signals.</p><ul><li><strong>Short-term regulators</strong> (minutes to hours): make us hungry and start eating, or satiated and stop. <strong>Ghrelin</strong> (hunger), <strong>PYY</strong> and <strong>CCK</strong> (satiety).</li><li><strong>Long-term regulators</strong> (weeks to years): govern calorie intake and expenditure. <strong>Leptin</strong>, <strong>insulin</strong>.</li></ul>"
+  },
+  {
+   "id": "s4",
+   "title": "The hormones",
+   "html": "<table><tr><th>Hormone</th><th>Source</th><th>Key points</th></tr><tr><td><strong>Ghrelin</strong> (hunger)</td><td><strong>Parietal cells of the gastric fundus</strong>, empty stomach</td><td>Sensation of hunger; stimulates the hypothalamus to secrete <strong>GH-RH</strong> (ghrelin receptor = GHS-R); primes the body for nutrients; secretion <strong>stops within an hour of eating</strong></td></tr><tr><td><strong>Leptin</strong> (satiety)</td><td><strong>Adipocytes</strong></td><td>Tells the brain how much fat we have; level <strong>proportional to fat stores</strong>; <em>leptos</em> = thin; gene <em>ob</em> (now <em>LEP</em>); <strong>ob/ob mice</strong> lack leptin and are obese (Zhang et al., Nature 1994)</td></tr><tr><td><strong>Insulin</strong> (satiety)</td><td>Pancreatic beta cells</td><td>Brain receptors; like leptin an index of fat stores but a <strong>weaker</strong> appetite effect; promotes glucose and amino acid uptake, glycogen and fat synthesis</td></tr><tr><td><strong>PYY</strong> (satiety)</td><td>Enteroendocrine cells of the <strong>ileum and colon</strong></td><td>Signals satiety and ends eating; released as soon as food reaches the stomach, long before chyme reaches the ileum; <strong>in proportion to calories</strong> eaten</td></tr><tr><td><strong>CCK</strong> (satiety)</td><td>Enteroendocrine cells of the <strong>duodenum and jejunum</strong></td><td>With PYY, signals stop eating; acts on the brain and <strong>vagal sensory fibres</strong>; stimulates bile and pancreatic enzyme secretion</td></tr><tr><td><strong>GLP-1</strong></td><td>Gut</td><td>Satiety hormone acting on the arcuate and paraventricular nuclei</td></tr></table>"
+  },
+  {
+   "id": "s5",
+   "title": "The arcuate nucleus",
+   "html": "<p>The <strong>arcuate nucleus (ARC)</strong> of the hypothalamus has receptors for all these signals and two neural networks:</p><ul><li><strong>Hunger (orexigenic)</strong>: secretes <strong>neuropeptide Y (NPY)</strong> and <strong>agouti-related peptide (AgRP)</strong>, two potent appetite stimulants. <strong>Ghrelin stimulates</strong> them; <strong>insulin, PYY, CCK and leptin inhibit</strong> them.</li><li><strong>Satiety (anorexigenic)</strong>: secretes <strong>melanocortins</strong> (α-MSH from <strong>POMC</strong>; also CART), which inhibit eating via <strong>MC3 and MC4 receptors</strong> in the <strong>paraventricular nucleus</strong>. <strong>Leptin stimulates</strong> them; <strong>AgRP inhibits</strong> them.</li></ul><p>The median eminence is permeable to the blood-brain barrier, letting these hormones reach the ARC; the sympathetic system links the satiety pathway to energy expenditure.</p>"
+  }
+ ],
+ "exam": [
+  "Cyanide: Complex IV inhibitor; respiration inhibited, O2 use ↓↓, ATP ↓↓↓.",
+  "DNP: protonophore uncoupler; O2 use ↑, fuel oxidation ↑, heat ↑↑, ATP ↓↓.",
+  "Weight set point: 30-50% hereditary, 50-70% environment.",
+  "Short-term: ghrelin (hunger), PYY and CCK (satiety). Long-term: leptin, insulin.",
+  "Ghrelin: fundus parietal cells; GH-RH; stops within an hour of eating.",
+  "Leptin: adipocytes, proportional to fat; ob/ob mice obese.",
+  "Insulin: weaker satiety effect than leptin.",
+  "PYY: ileum and colon; CCK: duodenum and jejunum, vagus, bile and pancreatic enzymes.",
+  "ARC: NPY/AgRP (hunger; ghrelin ↑; leptin, insulin, PYY, CCK ↓) vs melanocortins (satiety; leptin ↑; AgRP ↓)."
+ ],
+ "visual": {
+  "kind": "model",
+  "intro": "",
+  "figure": {
+   "viewBox": "0 0 760 420",
+   "alt": "Hunger and satiety signals in the arcuate nucleus",
+   "caption": "Who drives eating and who stops it. Schematic drawn for this site.",
+   "base": "<defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"8\" refX=\"9\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L10,4 L0,8 Z\" fill=\"#8a8a8a\"/></marker></defs><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"184\" y1=\"210\" x2=\"208\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"368\" y1=\"210\" x2=\"392\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"552\" y1=\"210\" x2=\"576\" y2=\"210\"/>",
+   "parts": {
+    "ghr": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2d7cf\" x=\"24\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Ghrelin",
+      "(empty stomach)"
+     ],
+     "lx": 104.0,
+     "ly": 208.0
+    },
+    "npy": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"208\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "NPY and AgRP",
+      "neurons → hunger"
+     ],
+     "lx": 288.0,
+     "ly": 208.0
+    },
+    "lep": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"392\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Leptin, insulin,",
+      "PYY, CCK"
+     ],
+     "lx": 472.0,
+     "ly": 208.0
+    },
+    "pomc": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2e2a8\" x=\"576\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "POMC → α-MSH",
+      "MC3/MC4 → satiety"
+     ],
+     "lx": 656.0,
+     "ly": 208.0
+    }
+   },
+   "arrows": {
+    "ghr": [
+     {
+      "t": [
+       24.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "npy": [
+     {
+      "t": [
+       208.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "lep": [
+     {
+      "t": [
+       392.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "pomc": [
+     {
+      "t": [
+       576.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ]
+   }
+  }
+ },
+ "mcqs": [
+  {
+   "q": "Cyanide inhibits:",
+   "options": [
+    "Complex I",
+    "Complex IV (cytochrome c oxidase)",
+    "ATP synthase directly",
+    "The Krebs cycle"
+   ],
+   "answer": 1,
+   "why": "Cyanide blocks Complex IV."
+  },
+  {
+   "q": "DNP (dinitrophenol) acts as:",
+   "options": [
+    "A Complex IV (cytochrome oxidase) inhibitor",
+    "A protonophore that uncouples ATP synthesis",
+    "An activator of ATP synthase",
+    "An inhibitor of hexokinase in glycolysis"
+   ],
+   "answer": 1,
+   "why": "DNP lets H+ return to the matrix without passing ATP synthase."
+  },
+  {
+   "q": "With DNP, oxygen consumption:",
+   "options": [
+    "Falls sharply",
+    "Rises",
+    "Stops",
+    "Is unchanged"
+   ],
+   "answer": 1,
+   "why": "Uncoupling increases electron transport and O2 consumption."
+  },
+  {
+   "q": "The defining effect of DNP is:",
+   "options": [
+    "Increased heat production",
+    "Complete stop of respiration",
+    "Increased ATP synthesis",
+    "Increased proton gradient"
+   ],
+   "answer": 0,
+   "why": "Energy is released as heat instead of ATP."
+  },
+  {
+   "q": "Effects of cyanide:",
+   "options": [
+    "Electron transport stops",
+    "O2 consumption falls",
+    "ATP synthesis falls sharply",
+    "Heat production is the main effect"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Cyanide inhibits respiration; heat is not its defining effect.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: that is DNP."
+   ]
+  },
+  {
+   "q": "What share of weight variation is hereditary?",
+   "options": [
+    "5-10%",
+    "30-50%",
+    "80-90%",
+    "100%"
+   ],
+   "answer": 1,
+   "why": "30 to 50% hereditary; environment 50 to 70%."
+  },
+  {
+   "q": "Which is a short-term hunger signal?",
+   "options": [
+    "Leptin",
+    "Ghrelin",
+    "Insulin",
+    "PYY"
+   ],
+   "answer": 1,
+   "why": "Ghrelin is the short-term hunger (orexigenic) hormone."
+  },
+  {
+   "q": "Ghrelin is secreted by:",
+   "options": [
+    "Adipocytes of white fat",
+    "Parietal cells of the gastric fundus",
+    "Beta cells of the pancreas",
+    "Enteroendocrine cells of the ileum"
+   ],
+   "answer": 1,
+   "why": "Ghrelin: parietal cells of the gastric fundus."
+  },
+  {
+   "q": "Ghrelin stimulates the hypothalamus to secrete:",
+   "options": [
+    "TRH",
+    "GH-RH",
+    "CRH",
+    "GnRH"
+   ],
+   "answer": 1,
+   "why": "Ghrelin stimulates GH-releasing hormone; its receptor is the GH secretagogue receptor."
+  },
+  {
+   "q": "Ghrelin secretion stops:",
+   "options": [
+    "Within an hour of eating",
+    "Only after a week of fasting",
+    "When leptin falls",
+    "Never"
+   ],
+   "answer": 0,
+   "why": "Ghrelin secretion ceases within an hour of eating."
+  },
+  {
+   "q": "Leptin is secreted by:",
+   "options": [
+    "The stomach",
+    "Adipocytes",
+    "The liver",
+    "The arcuate nucleus"
+   ],
+   "answer": 1,
+   "why": "Leptin is made by adipose cells."
+  },
+  {
+   "q": "Leptin levels are proportional to:",
+   "options": [
+    "Meal size",
+    "Body fat stores",
+    "Blood glucose",
+    "Gastric emptying"
+   ],
+   "answer": 1,
+   "why": "Leptin informs the brain how much fat we have."
+  },
+  {
+   "q": "ob/ob mice are obese because they:",
+   "options": [
+    "Have too much leptin",
+    "Lack leptin",
+    "Lack ghrelin",
+    "Lack insulin receptors"
+   ],
+   "answer": 1,
+   "why": "Defective ob gene → no leptin → no satiety."
+  },
+  {
+   "q": "Compared with leptin, insulin's effect on appetite is:",
+   "options": [
+    "Stronger",
+    "Weaker",
+    "Opposite (hunger)",
+    "Absent"
+   ],
+   "answer": 1,
+   "why": "Insulin is a weaker satiety signal than leptin."
+  },
+  {
+   "q": "PYY is secreted by:",
+   "options": [
+    "Duodenum and jejunum",
+    "Ileum and colon",
+    "Fundus of the stomach",
+    "Adipose tissue"
+   ],
+   "answer": 1,
+   "why": "PYY: enteroendocrine cells of the ileum and colon."
+  },
+  {
+   "q": "CCK is secreted by:",
+   "options": [
+    "Ileum and colon",
+    "Duodenum and jejunum",
+    "Gastric parietal cells",
+    "Pancreatic beta cells"
+   ],
+   "answer": 1,
+   "why": "CCK: enteroendocrine cells of the duodenum and jejunum."
+  },
+  {
+   "q": "CCK:",
+   "options": [
+    "Signals satiety with PYY",
+    "Acts on vagal sensory fibres",
+    "Stimulates bile and pancreatic enzyme secretion",
+    "Stimulates GH-RH secretion"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "GH-RH stimulation is ghrelin's.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: that is ghrelin."
+   ]
+  },
+  {
+   "q": "Which arcuate neurons drive hunger?",
+   "options": [
+    "POMC / α-MSH neurons",
+    "NPY and AgRP neurons",
+    "Oxytocin neurons",
+    "Dopamine neurons"
+   ],
+   "answer": 1,
+   "why": "NPY and AgRP are two potent appetite stimulants."
+  },
+  {
+   "q": "Which hormone stimulates NPY and AgRP secretion?",
+   "options": [
+    "Leptin",
+    "Ghrelin",
+    "PYY",
+    "CCK"
+   ],
+   "answer": 1,
+   "why": "Ghrelin stimulates; insulin, PYY, CCK and leptin inhibit."
+  },
+  {
+   "q": "Melanocortins (α-MSH) act on which receptors to inhibit eating?",
+   "options": [
+    "MC1 and MC2",
+    "MC3 and MC4",
+    "GHS-R",
+    "Leptin receptor only"
+   ],
+   "answer": 1,
+   "why": "α-MSH acts on MC3/MC4 receptors in the paraventricular nucleus."
+  },
+  {
+   "q": "AgRP affects melanocortin signalling by:",
+   "options": [
+    "Stimulating it",
+    "Inhibiting it",
+    "Not affecting it",
+    "Converting it to POMC"
+   ],
+   "answer": 1,
+   "why": "AgRP inhibits melanocortin secretion/action."
+  },
+  {
+   "q": "Leptin acts on melanocortin neurons by:",
+   "options": [
+    "Inhibiting them",
+    "Stimulating them",
+    "Destroying them",
+    "Having no effect"
+   ],
+   "answer": 1,
+   "why": "Leptin stimulates melanocortin secretion."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "ghr",
+   "options": [
+    "Ghrelin",
+    "Satiety hormones",
+    "NPY and AgRP neurons",
+    "Melanocortin neurons"
+   ],
+   "answer": 0,
+   "why": "The arrow points to: Ghrelin. Hunger hormone from the empty stomach; stimulates NPY and AgRP neurons and GH release."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "npy",
+   "options": [
+    "Satiety hormones",
+    "Melanocortin neurons",
+    "Ghrelin",
+    "NPY and AgRP neurons"
+   ],
+   "answer": 3,
+   "why": "The arrow points to: NPY and AgRP neurons. Arcuate nucleus neurons secreting two potent appetite stimulants; AgRP also blocks melanocortins."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "lep",
+   "options": [
+    "NPY and AgRP neurons",
+    "Ghrelin",
+    "Melanocortin neurons",
+    "Satiety hormones"
+   ],
+   "answer": 3,
+   "why": "The arrow points to: Satiety hormones. Leptin, insulin, PYY and CCK inhibit NPY/AgRP neurons."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "pomc",
+   "options": [
+    "Ghrelin",
+    "Satiety hormones",
+    "Melanocortin neurons",
+    "NPY and AgRP neurons"
+   ],
+   "answer": 2,
+   "why": "The arrow points to: Melanocortin neurons. POMC neurons release α-MSH acting on MC3/MC4 receptors in the paraventricular nucleus to stop eating; leptin stimulates them."
+  }
+ ],
+ "cards": [
+  {
+   "id": "x0",
+   "type": "text",
+   "front": "Cyanide vs DNP?",
+   "back": "Cyanide inhibits Complex IV: respiration inhibited, O2 use and ATP fall. DNP uncouples: O2 use and heat rise, ATP falls."
+  },
+  {
+   "id": "x1",
+   "type": "text",
+   "front": "Energy balance rule?",
+   "back": "Intake = output: stable; intake > output: gain; output > intake: loss."
+  },
+  {
+   "id": "x2",
+   "type": "text",
+   "front": "Heredity of weight?",
+   "back": "30-50% hereditary; 50-70% environment (eating, exercise)."
+  },
+  {
+   "id": "x3",
+   "type": "text",
+   "front": "Short- vs long-term regulators?",
+   "back": "Short: ghrelin (hunger), PYY, CCK (satiety). Long: leptin, insulin."
+  },
+  {
+   "id": "x4",
+   "type": "text",
+   "front": "Ghrelin facts?",
+   "back": "Fundus parietal cells, empty stomach; hunger; stimulates GH-RH; stops within an hour of eating."
+  },
+  {
+   "id": "x5",
+   "type": "text",
+   "front": "Leptin facts?",
+   "back": "From adipocytes; proportional to fat stores; ob gene (now LEP); ob/ob mice obese."
+  },
+  {
+   "id": "x6",
+   "type": "text",
+   "front": "PYY vs CCK sources?",
+   "back": "PYY: ileum and colon. CCK: duodenum and jejunum (also bile and pancreatic enzymes, vagus)."
+  },
+  {
+   "id": "x7",
+   "type": "text",
+   "front": "Arcuate hunger network?",
+   "back": "NPY and AgRP; stimulated by ghrelin; inhibited by insulin, PYY, CCK, leptin."
+  },
+  {
+   "id": "x8",
+   "type": "text",
+   "front": "Arcuate satiety network?",
+   "back": "Melanocortins (α-MSH from POMC) on MC3/MC4 in the paraventricular nucleus; stimulated by leptin, inhibited by AgRP."
+  },
+  {
+   "id": "img-ghr",
+   "type": "image",
+   "target": "ghr",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Ghrelin. Hunger hormone from the empty stomach; stimulates NPY and AgRP neurons and GH release."
+  },
+  {
+   "id": "img-npy",
+   "type": "image",
+   "target": "npy",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "NPY and AgRP neurons. Arcuate nucleus neurons secreting two potent appetite stimulants; AgRP also blocks melanocortins."
+  },
+  {
+   "id": "img-lep",
+   "type": "image",
+   "target": "lep",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Satiety hormones. Leptin, insulin, PYY and CCK inhibit NPY/AgRP neurons."
+  },
+  {
+   "id": "img-pomc",
+   "type": "image",
+   "target": "pomc",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Melanocortin neurons. POMC neurons release α-MSH acting on MC3/MC4 receptors in the paraventricular nucleus to stop eating; leptin stimulates them."
+  }
+ ],
+ "deeper": [],
+ "resources": [
+  {
+   "title": "OpenStax A&P 2e: Energy and heat balance",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-6-energy-and-heat-balance",
+   "kind": "Textbook chapter",
+   "why": "Energy balance and its regulation.",
+   "note": ""
+  }
+ ],
+ "checks": [],
+ "sources": [
+  {
+   "name": "OpenStax A&P 2e: Energy and heat balance",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-6-energy-and-heat-balance"
+  }
+ ],
+ "verified": "1 Nov 2026"
+};
+window.SINA = window.SINA || {subjects:[], lectures:{}};
+SINA.lectures["physio-bioen-revision"] = {
+ "id": "physio-bioen-revision",
+ "subject": "physio",
+ "group": "Bioenergetics",
+ "title": "Bioenergetics 6: revision (obesity, leptin, insulin, cholesterol)",
+ "sourceFile": "Bioenergetics 6 (Revision).pdf (Physiology, sub-module Bioenergetics, lecture 6, Prof. A.T. Dinh-Xuan, S3, 2026-2027)",
+ "sourceUrl": "https://drive.google.com/file/d/1Fi4pDPnkVbZKzWfeiz_xjrj7N0bYc_av/view?usp=drivesdk",
+ "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
+ "summary": [
+  {
+   "id": "s0",
+   "title": "The big picture",
+   "html": "<p>The revision lecture ties the module to <strong>obesity</strong>: how it is measured (<strong>BMI</strong>), how leptin signalling can fail at three points (no leptin, no transport, no receptor), how <strong>leptin and insulin</strong> talk to each other, and the target values for <strong>cholesterol and triglycerides</strong>.</p>"
+  },
+  {
+   "id": "s1",
+   "title": "Obesity and BMI",
+   "html": "<ul><li><strong>Obesity</strong>: weight more than <strong>20% above the recommended norm</strong> for age, sex and height.</li><li>US rates: <strong>30% obese</strong>, another <strong>35% overweight</strong>.</li><li><strong>BMI = weight (kg) / height (m)²</strong>.</li><li><strong>20 to 25</strong>: optimal for most people; <strong>over 25</strong>: overweight; <strong>above 30</strong>: obese.</li></ul>"
+  },
+  {
+   "id": "s2",
+   "title": "Leptin signalling and its failures",
+   "html": "<ul><li><strong>Wild type</strong>: leptin → satiety → food intake regulation.</li><li><strong>Ob/ob</strong> (ob gene mutation): <strong>no leptin → no satiety → always hungry</strong>. Human children with this mutation become massively obese and respond to <strong>recombinant leptin</strong> (Farooqi and O'Rahilly).</li><li><strong>High leptin with obesity</strong>: <strong>abnormal leptin receptor (Ob-R)</strong>.</li><li><strong>Abnormal transporter</strong> for leptin across the blood-brain barrier (endothelium, pericytes, astrocyte end-feet).</li></ul><p>Leptin is a <strong>long-term</strong> regulator; ghrelin a <strong>short-term</strong> one. Both converge on the hypothalamus (NPY/AgRP hunger vs POMC/α-MSH satiety, MC3/MC4 receptors in the paraventricular nucleus).</p>"
+  },
+  {
+   "id": "s3",
+   "title": "Leptin and insulin",
+   "html": "<ul><li><strong>Insulin</strong>: from pancreatic beta cells; stimulates glucose and amino acid uptake; promotes glycogen and fat synthesis (inhibits fat breakdown); has brain receptors and, like leptin, indexes fat stores, but its appetite effect is <strong>weaker</strong>.</li><li>In healthy people, <strong>leptin inhibits insulin</strong> biosynthesis and secretion from beta cells.</li><li>By contrast, <strong>insulin stimulates leptin</strong> secretion from adipose tissue.</li><li>Both signal through the hypothalamus (leptin: LepRb, JAK2, STAT3, SOCS3; insulin: IRS, PI3K, AKT, FOXO1) onto POMC and NPY neurons.</li></ul>"
+  },
+  {
+   "id": "s4",
+   "title": "Cholesterol and triglyceride targets (mmol/L)",
+   "html": "<p>LDL delivers cholesterol to cells; HDL removes excess cholesterol (the liver turns it into bile salts).</p><table><tr><th>Measure</th><th>Values</th></tr><tr><td><strong>Total cholesterol</strong></td><td>Desirable below <strong>5.0</strong>; borderline 5.0-6.2; high above <strong>6.2</strong></td></tr><tr><td><strong>HDL</strong></td><td>Too low below <strong>1.0 (men)</strong> / <strong>1.2 (women)</strong>; satisfactory above 1.6</td></tr><tr><td><strong>LDL</strong></td><td>Desirable below 2.6; normal 2.6-3.3; borderline 3.3-4.1; high 4.1-4.9; excessive above 4.9</td></tr><tr><td><strong>Triglycerides</strong></td><td>Normal below <strong>1.7</strong>; borderline high 1.7-2.3; high 2.3-5.6</td></tr><tr><td>Established heart disease or diabetes</td><td>Total cholesterol <strong>no more than 4.5</strong>; LDL <strong>no more than 2.5</strong></td></tr></table>"
+  }
+ ],
+ "exam": [
+  "Obesity: more than 20% above recommended weight; US 30% obese, 35% overweight.",
+  "BMI = kg/m²; 20-25 optimal; over 25 overweight; above 30 obese.",
+  "Ob/ob: no leptin → always hungry; recombinant leptin works.",
+  "High leptin + obesity: abnormal receptor (Ob-R); also abnormal BBB transporter.",
+  "Leptin long-term, ghrelin short-term regulator.",
+  "Leptin inhibits insulin secretion; insulin stimulates leptin secretion.",
+  "Total cholesterol desirable below 5.0; HDL low below 1.0 (M) / 1.2 (F); TG normal below 1.7 mmol/L.",
+  "Heart disease or diabetes: total cholesterol ≤ 4.5, LDL ≤ 2.5 mmol/L."
+ ],
+ "visual": {
+  "kind": "model",
+  "intro": "",
+  "figure": {
+   "viewBox": "0 0 760 420",
+   "alt": "Leptin and obesity",
+   "caption": "Three ways the leptin signal can fail. Schematic drawn for this site.",
+   "base": "<defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"8\" refX=\"9\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L10,4 L0,8 Z\" fill=\"#8a8a8a\"/></marker></defs><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"184\" y1=\"210\" x2=\"208\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"368\" y1=\"210\" x2=\"392\" y2=\"210\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"552\" y1=\"210\" x2=\"576\" y2=\"210\"/>",
+   "parts": {
+    "ad": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2d7cf\" x=\"24\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Adipose tissue",
+      "secretes leptin"
+     ],
+     "lx": 104.0,
+     "ly": 208.0
+    },
+    "bbb": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"208\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Transport across",
+      "blood-brain barrier"
+     ],
+     "lx": 288.0,
+     "ly": 208.0
+    },
+    "rec": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"392\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Leptin receptor",
+      "(Ob-R) in hypothalamus"
+     ],
+     "lx": 472.0,
+     "ly": 208.0
+    },
+    "sat": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2e2a8\" x=\"576\" y=\"179\" width=\"160\" height=\"62\" rx=\"10\"/>",
+     "label": [
+      "Satiety:",
+      "food intake regulated"
+     ],
+     "lx": 656.0,
+     "ly": 208.0
+    }
+   },
+   "arrows": {
+    "ad": [
+     {
+      "t": [
+       24.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "bbb": [
+     {
+      "t": [
+       208.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "rec": [
+     {
+      "t": [
+       392.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "sat": [
+     {
+      "t": [
+       576.0,
+       187.0
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ]
+   }
+  }
+ },
+ "mcqs": [
+  {
+   "q": "Obesity is defined in the lecture as weight more than:",
+   "options": [
+    "5% above the norm",
+    "20% above the norm",
+    "50% above the norm",
+    "100% above the norm"
+   ],
+   "answer": 1,
+   "why": "Obesity: weight more than 20% above the recommended norm for age, sex and height."
+  },
+  {
+   "q": "BMI is calculated as:",
+   "options": [
+    "Height / weight",
+    "Weight (kg) / height (m)²",
+    "Weight × height",
+    "Waist / hip"
+   ],
+   "answer": 1,
+   "why": "BMI = W/H²."
+  },
+  {
+   "q": "A BMI of 27 is:",
+   "options": [
+    "Optimal",
+    "Overweight",
+    "Obese",
+    "Underweight"
+   ],
+   "answer": 1,
+   "why": "Over 25: overweight; above 30: obese."
+  },
+  {
+   "q": "A BMI of 32 is:",
+   "options": [
+    "Optimal",
+    "Overweight",
+    "Obese",
+    "Normal for athletes only"
+   ],
+   "answer": 2,
+   "why": "Above 30: obese."
+  },
+  {
+   "q": "Optimal BMI for most people is:",
+   "options": [
+    "15 to 18",
+    "20 to 25",
+    "25 to 30",
+    "30 to 35"
+   ],
+   "answer": 1,
+   "why": "20 to 25 is optimal."
+  },
+  {
+   "q": "In the US, about what share of people is obese?",
+   "options": [
+    "10%",
+    "30%",
+    "50%",
+    "65%"
+   ],
+   "answer": 1,
+   "why": "30% obese, another 35% overweight."
+  },
+  {
+   "q": "An ob gene mutation causes:",
+   "options": [
+    "High leptin with early satiety",
+    "No leptin, no satiety, constant hunger",
+    "No ghrelin and no hunger",
+    "Insulin deficiency and weight loss"
+   ],
+   "answer": 1,
+   "why": "No leptin → no satiety → always hungry."
+  },
+  {
+   "q": "Children with congenital leptin deficiency are treated with:",
+   "options": [
+    "Insulin",
+    "Recombinant leptin",
+    "Ghrelin",
+    "Growth hormone"
+   ],
+   "answer": 1,
+   "why": "Recombinant leptin reverses the obesity."
+  },
+  {
+   "q": "Obesity with high leptin levels suggests:",
+   "options": [
+    "Leptin deficiency from an ob mutation",
+    "An abnormal leptin receptor (Ob-R)",
+    "Ghrelin deficiency in the stomach",
+    "Perfectly normal leptin signalling"
+   ],
+   "answer": 1,
+   "why": "High leptin + obesity: abnormal Ob-R."
+  },
+  {
+   "q": "Leptin signalling can fail because of:",
+   "options": [
+    "Ob gene mutation",
+    "Abnormal transporter across the blood-brain barrier",
+    "Abnormal leptin receptor",
+    "Too much recombinant leptin"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Three failure points: production, transport, receptor.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong."
+   ]
+  },
+  {
+   "q": "Leptin is a:",
+   "options": [
+    "Short-term hunger regulator",
+    "Long-term satiety regulator",
+    "Short-term satiety regulator from the ileum",
+    "Hunger hormone from the stomach"
+   ],
+   "answer": 1,
+   "why": "Leptin is a long-term regulator; ghrelin short-term."
+  },
+  {
+   "q": "In healthy individuals, leptin:",
+   "options": [
+    "Stimulates insulin secretion",
+    "Inhibits insulin synthesis and secretion",
+    "Has no effect at all on beta cells",
+    "Destroys pancreatic beta cells"
+   ],
+   "answer": 1,
+   "why": "Leptin inhibits insulin; insulin stimulates leptin."
+  },
+  {
+   "q": "Insulin's effect on leptin secretion from adipose tissue is:",
+   "options": [
+    "Inhibitory",
+    "Stimulatory",
+    "None",
+    "It converts leptin to ghrelin"
+   ],
+   "answer": 1,
+   "why": "Insulin stimulates leptin secretion."
+  },
+  {
+   "q": "Insulin promotes:",
+   "options": [
+    "Fat breakdown",
+    "Glycogen and fat synthesis",
+    "Gluconeogenesis",
+    "Ketogenesis"
+   ],
+   "answer": 1,
+   "why": "Insulin promotes glycogen and fat synthesis and inhibits fat breakdown."
+  },
+  {
+   "q": "Desirable total cholesterol is below:",
+   "options": [
+    "3.0 mmol/L",
+    "5.0 mmol/L",
+    "6.2 mmol/L",
+    "8.0 mmol/L"
+   ],
+   "answer": 1,
+   "why": "Desirable below 5.0; high above 6.2 mmol/L."
+  },
+  {
+   "q": "HDL is too low in men below:",
+   "options": [
+    "0.5 mmol/L",
+    "1.0 mmol/L",
+    "1.6 mmol/L",
+    "2.6 mmol/L"
+   ],
+   "answer": 1,
+   "why": "Too low: below 1.0 (men), 1.2 (women)."
+  },
+  {
+   "q": "Normal triglycerides are below:",
+   "options": [
+    "0.5 mmol/L",
+    "1.7 mmol/L",
+    "4.1 mmol/L",
+    "5.6 mmol/L"
+   ],
+   "answer": 1,
+   "why": "Normal below 1.7; borderline high 1.7-2.3; high 2.3-5.6."
+  },
+  {
+   "q": "In established heart disease or diabetes, LDL should be no more than:",
+   "options": [
+    "1.0 mmol/L",
+    "2.5 mmol/L",
+    "4.5 mmol/L",
+    "6.2 mmol/L"
+   ],
+   "answer": 1,
+   "why": "LDL ≤ 2.5 and total cholesterol ≤ 4.5 mmol/L."
+  },
+  {
+   "q": "HDL cholesterol is converted by the liver into:",
+   "options": [
+    "LDL",
+    "Bile salts",
+    "Glycogen",
+    "Ketone bodies"
+   ],
+   "answer": 1,
+   "why": "The liver converts HDL cholesterol into bile salts."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "ad",
+   "options": [
+    "Satiety",
+    "Leptin receptor",
+    "Leptin transport",
+    "Leptin production"
+   ],
+   "answer": 3,
+   "why": "The arrow points to: Leptin production. Ob gene mutation: no leptin, no satiety, always hungry; treated with recombinant leptin."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "bbb",
+   "options": [
+    "Leptin receptor",
+    "Leptin transport",
+    "Leptin production",
+    "Satiety"
+   ],
+   "answer": 1,
+   "why": "The arrow points to: Leptin transport. An abnormal transporter for leptin across the blood-brain barrier blocks the signal."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "rec",
+   "options": [
+    "Leptin production",
+    "Satiety",
+    "Leptin receptor",
+    "Leptin transport"
+   ],
+   "answer": 2,
+   "why": "The arrow points to: Leptin receptor. Abnormal Ob-R: high leptin yet obesity (leptin resistance)."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "sat",
+   "options": [
+    "Leptin transport",
+    "Leptin production",
+    "Leptin receptor",
+    "Satiety"
+   ],
+   "answer": 3,
+   "why": "The arrow points to: Satiety. Wild type: leptin → satiety → food intake regulation."
+  }
+ ],
+ "cards": [
+  {
+   "id": "x0",
+   "type": "text",
+   "front": "Definition of obesity?",
+   "back": "Weight more than 20% above the recommended norm for age, sex and height."
+  },
+  {
+   "id": "x1",
+   "type": "text",
+   "front": "BMI formula and cut-offs?",
+   "back": "kg/m²; 20-25 optimal; over 25 overweight; above 30 obese."
+  },
+  {
+   "id": "x2",
+   "type": "text",
+   "front": "Three failure points of leptin signalling?",
+   "back": "No leptin (ob mutation), abnormal BBB transporter, abnormal receptor (Ob-R)."
+  },
+  {
+   "id": "x3",
+   "type": "text",
+   "front": "Ob/ob vs wild type?",
+   "back": "Ob/ob: no leptin → no satiety → always hungry. Wild type: leptin → satiety → intake regulated."
+  },
+  {
+   "id": "x4",
+   "type": "text",
+   "front": "Leptin-insulin crosstalk?",
+   "back": "Leptin inhibits insulin secretion; insulin stimulates leptin secretion."
+  },
+  {
+   "id": "x5",
+   "type": "text",
+   "front": "Insulin as a satiety signal?",
+   "back": "Brain receptors, indexes fat stores like leptin, but weaker appetite effect."
+  },
+  {
+   "id": "x6",
+   "type": "text",
+   "front": "Total cholesterol and LDL targets?",
+   "back": "Total: desirable below 5.0, high above 6.2. LDL desirable below 2.6. Heart disease/diabetes: total ≤ 4.5, LDL ≤ 2.5 mmol/L."
+  },
+  {
+   "id": "x7",
+   "type": "text",
+   "front": "HDL and triglyceride cut-offs?",
+   "back": "HDL too low below 1.0 (M) / 1.2 (F). Triglycerides normal below 1.7 mmol/L."
+  },
+  {
+   "id": "img-ad",
+   "type": "image",
+   "target": "ad",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Leptin production. Ob gene mutation: no leptin, no satiety, always hungry; treated with recombinant leptin."
+  },
+  {
+   "id": "img-bbb",
+   "type": "image",
+   "target": "bbb",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Leptin transport. An abnormal transporter for leptin across the blood-brain barrier blocks the signal."
+  },
+  {
+   "id": "img-rec",
+   "type": "image",
+   "target": "rec",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Leptin receptor. Abnormal Ob-R: high leptin yet obesity (leptin resistance)."
+  },
+  {
+   "id": "img-sat",
+   "type": "image",
+   "target": "sat",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Satiety. Wild type: leptin → satiety → food intake regulation."
+  }
+ ],
+ "deeper": [],
+ "resources": [
+  {
+   "title": "OpenStax A&P 2e: Energy and heat balance",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-6-energy-and-heat-balance",
+   "kind": "Textbook chapter",
+   "why": "Energy balance, BMI and obesity.",
+   "note": ""
+  },
+  {
+   "title": "OpenStax A&P 2e: Lipid metabolism",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-3-lipid-metabolism",
+   "kind": "Textbook chapter",
+   "why": "Cholesterol and lipoproteins.",
+   "note": ""
+  }
+ ],
+ "checks": [],
+ "sources": [
+  {
+   "name": "OpenStax A&P 2e: Energy and heat balance",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-6-energy-and-heat-balance"
+  },
+  {
+   "name": "OpenStax A&P 2e: Lipid metabolism",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-3-lipid-metabolism"
+  }
+ ],
+ "verified": "1 Nov 2026"
 };

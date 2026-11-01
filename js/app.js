@@ -628,7 +628,7 @@
       else if (s.status === "next") tag = '<span class="tag">Up next</span>';
       else tag = '<span class="tag">Planned</span>';
       inner = '<span><span class="name">' + esc(s.name) + '</span>' + (s.blurb ? '<span class="desc">' + esc(s.blurb) + "</span>" : "") + "</span>" + tag;
-      if (s.groups && s.groups.length > 2) {
+      if (s.groups && s.groups.length > 1 && /^(anatomy|physiology|semiology)/i.test(s.name)) {
         var subs = s.groups.map(function (g, gi) {
           var ready = g.items.filter(function (it) { return S.lectures[it.id]; }).length;
           return '<a class="subgroup" href="#/subject/' + s.id + "/lectures/g" + gi + '"><span>' + esc(g.name) + '</span><span class="sg-n">' + (ready === g.items.length ? ready : ready + " of " + g.items.length) + " lecture" + (g.items.length > 1 ? "s" : "") + "</span></a>";

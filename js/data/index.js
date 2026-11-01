@@ -38,7 +38,7 @@ SINA.subjects = [
       ]}
     ]},
   { id: "physio", name: "Physiology", semester: "S3", status: "live",
-    blurb: "Neurophysiology, muscle, senses, renal filtration.",
+    blurb: "Neurophysiology, muscle, senses, renal physiology, bioenergetics.",
     groups: [
       { name: "Neurophysiology", items: [
         { id: "physio-intro-neuro", title: "Introduction to neurophysiology" },
@@ -57,8 +57,21 @@ SINA.subjects = [
         { id: "physio-vestibular", title: "The vestibular system" },
         { id: "physio-taste-smell", title: "Taste and olfaction" }
       ]},
-      { name: "Renal", items: [
-        { id: "physio-renal-gfr", title: "Renal physiology 3: glomerular filtration" }
+      { name: "Renal physiology", items: [
+        { id: "physio-renal-intro", title: "Renal physiology 1: introduction" },
+        { id: "physio-renal-nephron", title: "Renal physiology 2: physiology of the nephron" },
+        { id: "physio-renal-gfr", title: "Renal physiology 3: glomerular filtration" },
+        { id: "physio-renal-gfr-reg", title: "Renal physiology 4: regulation of GFR" },
+        { id: "physio-renal-reabs", title: "Renal physiology 5: tubular reabsorption" },
+        { id: "physio-renal-acidbase", title: "Renal physiology 6: acid-base balance" }
+      ]},
+      { name: "Bioenergetics", items: [
+        { id: "physio-bioen-intro", title: "Bioenergetics 1: introduction" },
+        { id: "physio-bioen-regulation", title: "Bioenergetics 2: regulation of energy metabolism" },
+        { id: "physio-bioen-lipids", title: "Bioenergetics 3: lipid metabolism" },
+        { id: "physio-bioen-atp", title: "Bioenergetics 4: ATP as energy source" },
+        { id: "physio-bioen-balance", title: "Bioenergetics 5: energy balance" },
+        { id: "physio-bioen-revision", title: "Bioenergetics 6: revision (obesity, leptin, insulin, cholesterol)" }
       ]}
     ] },
   { id: "semio", name: "Semiology", semester: "S3", status: "live",
