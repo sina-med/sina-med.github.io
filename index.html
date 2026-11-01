@@ -17,6 +17,13 @@
   <link rel="stylesheet" href="css/style.css">
   <script>try{var t=localStorage.getItem("sina:theme");t=t?JSON.parse(t):(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(t!=="dark")t="light";document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
   <!-- Visitor statistics (GoatCounter: no cookies, no personal data). Page views are sent by js/app.js on each route. -->
+  <script>/* moving from kejjja1.github.io/sina-med: bring saved progress over once */
+(function(){try{var h=location.hash,L=localStorage;function done(){L.setItem("sina:migrated","1")}
+if(h.indexOf("#import=")===0){var m=h.slice(8).split("&to="),d=m[0],to=decodeURIComponent(m[1]||"#/");
+if(d){var o=JSON.parse(decodeURIComponent(escape(atob(d.replace(/-/g,"+").replace(/_/g,"/")))));for(var k in o)if(L.getItem(k)===null)L.setItem(k,o[k]);var t=L.getItem("sina:theme");if(t)document.documentElement.setAttribute("data-theme",JSON.parse(t)==="dark"?"dark":"light")}
+done();history.replaceState(null,"",location.pathname+to);return}
+if(location.hostname==="sina-med.github.io"&&!L.getItem("sina:migrated")){var any=false;for(var i=0;i<L.length;i++)if(L.key(i).indexOf("sina:")===0&&L.key(i)!=="sina:theme")any=true;
+done();if(!any)location.replace("https://kejjja1.github.io/sina-med/?to="+encodeURIComponent(h||"#/"))}}catch(e){}})();</script>
   <script data-goatcounter="https://kejjja1.goatcounter.com/count" data-goatcounter-settings='{"no_onload": true}' async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body class="no-anim">
