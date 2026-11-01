@@ -8383,7 +8383,14 @@ SINA.lectures["physio-renal-gfr"] = {
     "About 50 mL/min"
    ],
    "answer": 0,
-   "why": "About 125 mL/min or 180 L/day in men; about 105 mL/min or 150 L/day in women."
+   "why": "About 125 mL/min or 180 L/day in men; about 105 mL/min or 150 L/day in women.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/16.jpg",
+     "lec": "Renal physiology 3",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "How much filtrate is formed per day?",
@@ -8394,7 +8401,19 @@ SINA.lectures["physio-renal-gfr"] = {
     "About 1700 L"
    ],
    "answer": 1,
-   "why": "About 2 mL per second, 120 per minute, some 170 to 180 L per day: 50 to 60 times the blood volume."
+   "why": "About 2 mL per second, 120 per minute, some 170 to 180 L per day: 50 to 60 times the blood volume.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/02.jpg",
+     "lec": "Renal physiology 3",
+     "n": 2
+    },
+    {
+     "src": "files/slides/physio-renal-gfr/16.jpg",
+     "lec": "Renal physiology 3",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "What fraction of the filtrate is reabsorbed?",
@@ -8405,7 +8424,14 @@ SINA.lectures["physio-renal-gfr"] = {
     "None of it"
    ],
    "answer": 2,
-   "why": "Only about 1 to 2 L (1.5 L) of urine is excreted daily, so 99 percent is reabsorbed."
+   "why": "Only about 1 to 2 L (1.5 L) of urine is excreted daily, so 99 percent is reabsorbed.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/16.jpg",
+     "lec": "Renal physiology 3",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "How wide are the pores of the glomerular endothelium?",
@@ -8416,7 +8442,14 @@ SINA.lectures["physio-renal-gfr"] = {
     "70 to 90 nm"
    ],
    "answer": 3,
-   "why": "The fenestrated endothelium has 70 to 90 nm pores: small enough to exclude blood cells, highly permeable."
+   "why": "The fenestrated endothelium has 70 to 90 nm pores: small enough to exclude blood cells, highly permeable.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/08.jpg",
+     "lec": "Renal physiology 3",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Why does the basement membrane repel albumin?",
@@ -8427,7 +8460,14 @@ SINA.lectures["physio-renal-gfr"] = {
     "It has no charge"
    ],
    "answer": 1,
-   "why": "The proteoglycan gel is negatively charged, repelling negatively charged albumin, and excludes molecules above 8 nm."
+   "why": "The proteoglycan gel is negatively charged, repelling negatively charged albumin, and excludes molecules above 8 nm.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/08.jpg",
+     "lec": "Renal physiology 3",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "What forms the filtration slits?",
@@ -8438,7 +8478,14 @@ SINA.lectures["physio-renal-gfr"] = {
     "Podocyte pedicels"
    ],
    "answer": 3,
-   "why": "Podocyte extensions (pedicels) wrap the capillaries, leaving negatively charged 30 nm slits."
+   "why": "Podocyte extensions (pedicels) wrap the capillaries, leaving negatively charged 30 nm slits.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/10.jpg",
+     "lec": "Renal physiology 3",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "How much protein is in the filtrate compared with plasma?",
@@ -8449,7 +8496,19 @@ SINA.lectures["physio-renal-gfr"] = {
     "Both 0 percent"
    ],
    "answer": 0,
-   "why": "Plasma is about 7 percent protein; the filtrate only 0.03 percent."
+   "why": "Plasma is about 7 percent protein; the filtrate only 0.03 percent.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/08.jpg",
+     "lec": "Renal physiology 3",
+     "n": 8
+    },
+    {
+     "src": "files/slides/physio-renal-gfr/11.jpg",
+     "lec": "Renal physiology 3",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which molecules pass freely through the filtration membrane?",
@@ -8460,7 +8519,19 @@ SINA.lectures["physio-renal-gfr"] = {
     "Only proteins"
    ],
    "answer": 2,
-   "why": "Water, electrolytes, glucose, fatty acids, amino acids, nitrogenous wastes and vitamins, all under about 3 nm."
+   "why": "Water, electrolytes, glucose, fatty acids, amino acids, nitrogenous wastes and vitamins, all under about 3 nm.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/11.jpg",
+     "lec": "Renal physiology 3",
+     "n": 11
+    },
+    {
+     "src": "files/slides/physio-renal-gfr/12.jpg",
+     "lec": "Renal physiology 3",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Why is calcium partly not filtered?",
@@ -8471,7 +8542,19 @@ SINA.lectures["physio-renal-gfr"] = {
     "It is protein-bound"
    ],
    "answer": 3,
-   "why": "Some small substances such as calcium, iron and thyroid hormone are protein-bound and cannot cross."
+   "why": "Some small substances such as calcium, iron and thyroid hormone are protein-bound and cannot cross.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/11.jpg",
+     "lec": "Renal physiology 3",
+     "n": 11
+    },
+    {
+     "src": "files/slides/physio-renal-gfr/12.jpg",
+     "lec": "Renal physiology 3",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "What is haematuria?",
@@ -8482,7 +8565,14 @@ SINA.lectures["physio-renal-gfr"] = {
     "Excess urine volume"
    ],
    "answer": 0,
-   "why": "Proteinuria (albuminuria): protein in urine. Haematuria: blood in urine. Both can follow infection or trauma damaging the filter."
+   "why": "Proteinuria (albuminuria): protein in urine. Haematuria: blood in urine. Both can follow infection or trauma damaging the filter.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/13.jpg",
+     "lec": "Renal physiology 3",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Why do marathon runners sometimes have proteinuria?",
@@ -8493,7 +8583,14 @@ SINA.lectures["physio-renal-gfr"] = {
     "Too much water"
    ],
    "answer": 2,
-   "why": "Prolonged strenuous exercise reduces renal perfusion, and the glomerulus deteriorates under prolonged hypoxia, allowing temporary proteinuria or haematuria."
+   "why": "Prolonged strenuous exercise reduces renal perfusion, and the glomerulus deteriorates under prolonged hypoxia, allowing temporary proteinuria or haematuria.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/13.jpg",
+     "lec": "Renal physiology 3",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which force favours filtration?",
@@ -8504,7 +8601,14 @@ SINA.lectures["physio-renal-gfr"] = {
     "Tubular reabsorption"
    ],
    "answer": 1,
-   "why": "Blood hydrostatic pressure drives filtration; colloid osmotic pressure and capsular hydrostatic pressure oppose it."
+   "why": "Blood hydrostatic pressure drives filtration; colloid osmotic pressure and capsular hydrostatic pressure oppose it.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/14.jpg",
+     "lec": "Renal physiology 3",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "What is the typical net filtration pressure?",
@@ -8515,7 +8619,14 @@ SINA.lectures["physio-renal-gfr"] = {
     "About 10 mmHg"
    ],
    "answer": 3,
-   "why": "Textbook values: glomerular hydrostatic about 60, capsular about 18, colloid osmotic about 32 mmHg, giving about 10 mmHg."
+   "why": "Textbook values: glomerular hydrostatic about 60, capsular about 18, colloid osmotic about 32 mmHg, giving about 10 mmHg.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/14.jpg",
+     "lec": "Renal physiology 3",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "How is GFR calculated?",
@@ -8526,7 +8637,14 @@ SINA.lectures["physio-renal-gfr"] = {
     "NFP plus urine volume"
    ],
    "answer": 2,
-   "why": "GFR = net filtration pressure x filtration coefficient; Kf depends on the permeability and surface area of the barrier."
+   "why": "GFR = net filtration pressure x filtration coefficient; Kf depends on the permeability and surface area of the barrier.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/16.jpg",
+     "lec": "Renal physiology 3",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Why are kidneys vulnerable to hypertension?",
@@ -8537,7 +8655,14 @@ SINA.lectures["physio-renal-gfr"] = {
     "Too few nephrons in them"
    ],
    "answer": 0,
-   "why": "High glomerular pressure can rupture capillaries, cause nephrosclerosis and renal atherosclerosis, and lead to renal failure."
+   "why": "High glomerular pressure can rupture capillaries, cause nephrosclerosis and renal atherosclerosis, and lead to renal failure.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/15.jpg",
+     "lec": "Renal physiology 3",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "What happens if GFR is too high?",
@@ -8548,7 +8673,14 @@ SINA.lectures["physio-renal-gfr"] = {
     "Urine stops"
    ],
    "answer": 1,
-   "why": "Fluid flows too fast to reabsorb normally, so urine output rises, risking dehydration and electrolyte loss."
+   "why": "Fluid flows too fast to reabsorb normally, so urine output rises, risking dehydration and electrolyte loss.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/21.jpg",
+     "lec": "Renal physiology 3",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "What happens if GFR is too low?",
@@ -8559,7 +8691,14 @@ SINA.lectures["physio-renal-gfr"] = {
     "Electrolytes are lost"
    ],
    "answer": 2,
-   "why": "Wastes are not eliminated, and azotemia may occur."
+   "why": "Wastes are not eliminated, and azotemia may occur.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/22.jpg",
+     "lec": "Renal physiology 3",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "How does afferent arteriole dilation affect GFR?",
@@ -8581,7 +8720,19 @@ SINA.lectures["physio-renal-gfr"] = {
     "It doubles GFR"
    ],
    "answer": 1,
-   "why": "Less blood enters the glomerulus, so glomerular pressure and GFR fall."
+   "why": "Less blood enters the glomerulus, so glomerular pressure and GFR fall.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/14.jpg",
+     "lec": "Renal physiology 3",
+     "n": 14
+    },
+    {
+     "src": "files/slides/physio-renal-gfr/16.jpg",
+     "lec": "Renal physiology 3",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "How often does the total plasma volume pass the filter each day?",
@@ -8592,7 +8743,14 @@ SINA.lectures["physio-renal-gfr"] = {
     "About 600 times"
    ],
    "answer": 0,
-   "why": "The filtrate formed daily equals 50 to 60 times the body's blood volume."
+   "why": "The filtrate formed daily equals 50 to 60 times the body's blood volume.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/16.jpg",
+     "lec": "Renal physiology 3",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "What are the three layers of the filtration barrier? (choose all)",
@@ -8606,7 +8764,14 @@ SINA.lectures["physio-renal-gfr"] = {
     0,
     1
    ],
-   "why": "Fenestrated endothelium, basement membrane and the podocyte filtration slits."
+   "why": "Fenestrated endothelium, basement membrane and the podocyte filtration slits.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/08.jpg",
+     "lec": "Renal physiology 3",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which forces oppose filtration? (choose all)",
@@ -8620,7 +8785,14 @@ SINA.lectures["physio-renal-gfr"] = {
     0,
     1
    ],
-   "why": "Blood colloid osmotic pressure and capsular hydrostatic pressure oppose glomerular hydrostatic pressure."
+   "why": "Blood colloid osmotic pressure and capsular hydrostatic pressure oppose glomerular hydrostatic pressure.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/14.jpg",
+     "lec": "Renal physiology 3",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which can damage the filtration membrane? (choose all)",
@@ -8634,7 +8806,14 @@ SINA.lectures["physio-renal-gfr"] = {
     0,
     1
    ],
-   "why": "Infection and trauma can let albumin or blood cells through."
+   "why": "Infection and trauma can let albumin or blood cells through.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/13.jpg",
+     "lec": "Renal physiology 3",
+     "n": 13
+    }
+   ]
   }
  ],
  "cards": [
@@ -10404,7 +10583,14 @@ SINA.lectures["physio-renal-intro"] = {
     "Renal pelvis"
    ],
    "answer": 2,
-   "why": "Ureters transport, the bladder stores, the urethra carries urine out."
+   "why": "Ureters transport, the bladder stores, the urethra carries urine out.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/04.jpg",
+     "lec": "Renal physiology 1",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What carries urine from the kidneys to the bladder?",
@@ -10415,7 +10601,14 @@ SINA.lectures["physio-renal-intro"] = {
     "The renal veins"
    ],
    "answer": 0,
-   "why": "The ureters transport urine from the kidneys to the bladder."
+   "why": "The ureters transport urine from the kidneys to the bladder.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/04.jpg",
+     "lec": "Renal physiology 1",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Urea is formed mainly in:",
@@ -10426,7 +10619,14 @@ SINA.lectures["physio-renal-intro"] = {
     "The spleen"
    ],
    "answer": 1,
-   "why": "Amino acids lose NH2 to form ammonia; the liver converts ammonia to urea."
+   "why": "Amino acids lose NH2 to form ammonia; the liver converts ammonia to urea.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/06.jpg",
+     "lec": "Renal physiology 1",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Uric acid comes from the catabolism of:",
@@ -10437,7 +10637,14 @@ SINA.lectures["physio-renal-intro"] = {
     "Haemoglobin"
    ],
    "answer": 1,
-   "why": "Uric acid is a product of nucleic acid catabolism."
+   "why": "Uric acid is a product of nucleic acid catabolism.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/06.jpg",
+     "lec": "Renal physiology 1",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Creatinine is the breakdown product of:",
@@ -10448,7 +10655,14 @@ SINA.lectures["physio-renal-intro"] = {
     "Bilirubin"
    ],
    "answer": 2,
-   "why": "Creatinine comes from creatine phosphate catabolism."
+   "why": "Creatinine comes from creatine phosphate catabolism.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/06.jpg",
+     "lec": "Renal physiology 1",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Leukocytes in the urine are called:",
@@ -10493,6 +10707,13 @@ SINA.lectures["physio-renal-intro"] = {
     "Correct: hormones are cleared from blood.",
     "Correct: they detoxify free radicals.",
     "Wrong: blood cells are not filtered; red cells in urine are abnormal (haematuria)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/05.jpg",
+     "lec": "Renal physiology 1",
+     "n": 5
+    }
    ]
   },
   {
@@ -10516,6 +10737,13 @@ SINA.lectures["physio-renal-intro"] = {
     "Correct.",
     "Correct: H+ and HCO3−.",
     "Wrong: not a renal function."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/08.jpg",
+     "lec": "Renal physiology 1",
+     "n": 8
+    }
    ]
   },
   {
@@ -10527,7 +10755,19 @@ SINA.lectures["physio-renal-intro"] = {
     "Aldosterone"
    ],
    "answer": 1,
-   "why": "Erythropoietin (EPO) stimulates erythropoiesis in the bone marrow."
+   "why": "Erythropoietin (EPO) stimulates erythropoiesis in the bone marrow.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/09.jpg",
+     "lec": "Renal physiology 1",
+     "n": 9
+    },
+    {
+     "src": "files/slides/physio-renal-intro/22.jpg",
+     "lec": "Renal physiology 1",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "In severe anaemia, kidney EPO production can rise:",
@@ -10538,7 +10778,14 @@ SINA.lectures["physio-renal-intro"] = {
     "It falls"
    ],
    "answer": 2,
-   "why": "Under hypoxic conditions, EPO can rise more than 100-fold over normal."
+   "why": "Under hypoxic conditions, EPO can rise more than 100-fold over normal.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/10.jpg",
+     "lec": "Renal physiology 1",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Under normal oxygen tension, hypoxia-inducible factor (HIF) is:",
@@ -10549,7 +10796,14 @@ SINA.lectures["physio-renal-intro"] = {
     "Converted to VEGF"
    ],
    "answer": 0,
-   "why": "HIF is degraded at normal O2; in hypoxia it persists and promotes EPO and erythropoiesis."
+   "why": "HIF is degraded at normal O2; in hypoxia it persists and promotes EPO and erythropoiesis.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/10.jpg",
+     "lec": "Renal physiology 1",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which vitamin do the kidneys help activate to regulate calcium?",
@@ -10560,7 +10814,14 @@ SINA.lectures["physio-renal-intro"] = {
     "Vitamin B12"
    ],
    "answer": 2,
-   "why": "The kidneys take part in calcitriol (vitamin D) synthesis."
+   "why": "The kidneys take part in calcitriol (vitamin D) synthesis.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/09.jpg",
+     "lec": "Renal physiology 1",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "During starvation, the kidneys can synthesise glucose from:",
@@ -10571,7 +10832,14 @@ SINA.lectures["physio-renal-intro"] = {
     "Cholesterol"
    ],
    "answer": 1,
-   "why": "In starvation, the kidneys perform gluconeogenesis from amino acids."
+   "why": "In starvation, the kidneys perform gluconeogenesis from amino acids.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/09.jpg",
+     "lec": "Renal physiology 1",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The Nobel Prize in Physiology or Medicine 2019 rewarded work on:",
@@ -10616,6 +10884,13 @@ SINA.lectures["physio-renal-intro"] = {
     "Correct.",
     "Correct.",
     "Wrong: not a waste; normally absent from urine."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/06.jpg",
+     "lec": "Renal physiology 1",
+     "n": 6
+    }
    ]
   },
   {
@@ -10999,7 +11274,14 @@ SINA.lectures["physio-renal-nephron"] = {
     "About 10 million"
    ],
    "answer": 2,
-   "why": "Each kidney has over 1 million nephrons."
+   "why": "Each kidney has over 1 million nephrons.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/02.jpg",
+     "lec": "Renal physiology 2",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Physiological nephron loss after age 30 is about:",
@@ -11010,7 +11292,14 @@ SINA.lectures["physio-renal-nephron"] = {
     "10% per year"
    ],
    "answer": 1,
-   "why": "About 1% of nephrons are lost per year from the age of 30."
+   "why": "About 1% of nephrons are lost per year from the age of 30.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/02.jpg",
+     "lec": "Renal physiology 2",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Which arteriole is larger?",
@@ -11021,7 +11310,14 @@ SINA.lectures["physio-renal-nephron"] = {
     "It depends on posture"
    ],
    "answer": 1,
-   "why": "The afferent arteriole is larger than the efferent arteriole."
+   "why": "The afferent arteriole is larger than the efferent arteriole.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/06.jpg",
+     "lec": "Renal physiology 2",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Filtrate enters the capsular space through:",
@@ -11032,7 +11328,14 @@ SINA.lectures["physio-renal-nephron"] = {
     "Openings in the macula densa"
    ],
    "answer": 0,
-   "why": "Clefts between foot processes are filtration slits, where filtrate enters the capsular space."
+   "why": "Clefts between foot processes are filtration slits, where filtrate enters the capsular space.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/09.jpg",
+     "lec": "Renal physiology 2",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Mesangial cells:",
@@ -11055,6 +11358,18 @@ SINA.lectures["physio-renal-nephron"] = {
     "Correct.",
     "Correct.",
     "Wrong: not their role."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/09.jpg",
+     "lec": "Renal physiology 2",
+     "n": 9
+    },
+    {
+     "src": "files/slides/physio-renal-nephron/10.jpg",
+     "lec": "Renal physiology 2",
+     "n": 10
+    }
    ]
   },
   {
@@ -11066,7 +11381,14 @@ SINA.lectures["physio-renal-nephron"] = {
     "Proximal convoluted tubule"
    ],
    "answer": 1,
-   "why": "Descending limb: aquaporins let water pass into the interstitial fluid."
+   "why": "Descending limb: aquaporins let water pass into the interstitial fluid.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/09.jpg",
+     "lec": "Renal physiology 2",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which segment reabsorbs Na+ and Cl− into the interstitium?",
@@ -11088,7 +11410,19 @@ SINA.lectures["physio-renal-nephron"] = {
     "Water conservation"
    ],
    "answer": 2,
-   "why": "Tubular secretion adds wastes from the blood to the filtrate."
+   "why": "Tubular secretion adds wastes from the blood to the filtrate.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/09.jpg",
+     "lec": "Renal physiology 2",
+     "n": 9
+    },
+    {
+     "src": "files/slides/physio-renal-nephron/10.jpg",
+     "lec": "Renal physiology 2",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Normal GFR per minute is about:",
@@ -11099,7 +11433,14 @@ SINA.lectures["physio-renal-nephron"] = {
     "1 mL"
    ],
    "answer": 1,
-   "why": "2 mL/s, 120 mL/min."
+   "why": "2 mL/s, 120 mL/min.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/13.jpg",
+     "lec": "Renal physiology 2",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Daily glomerular filtrate is about:",
@@ -11110,7 +11451,14 @@ SINA.lectures["physio-renal-nephron"] = {
     "1 700 L"
    ],
    "answer": 2,
-   "why": "172 800 mL ≈ 170 L/day."
+   "why": "172 800 mL ≈ 170 L/day.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/13.jpg",
+     "lec": "Renal physiology 2",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "What fraction of the plasma entering the afferent arteriole is filtered?",
@@ -11132,7 +11480,19 @@ SINA.lectures["physio-renal-nephron"] = {
     "119 mL"
    ],
    "answer": 1,
-   "why": "120 filtered − 119 reabsorbed = 1 mL/min (about 1.5 L/day)."
+   "why": "120 filtered − 119 reabsorbed = 1 mL/min (about 1.5 L/day).",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/15.jpg",
+     "lec": "Renal physiology 2",
+     "n": 15
+    },
+    {
+     "src": "files/slides/physio-renal-nephron/21.jpg",
+     "lec": "Renal physiology 2",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "ADH increases water reabsorption by inserting which channel in the apical membrane?",
@@ -11143,7 +11503,14 @@ SINA.lectures["physio-renal-nephron"] = {
     "ENaC"
    ],
    "answer": 1,
-   "why": "ADH → cAMP → AQP2 inserted in the apical membrane of collecting duct cells."
+   "why": "ADH → cAMP → AQP2 inserted in the apical membrane of collecting duct cells.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/09.jpg",
+     "lec": "Renal physiology 2",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which second messenger does the vasopressin receptor use in the collecting duct?",
@@ -11165,7 +11532,14 @@ SINA.lectures["physio-renal-nephron"] = {
     "22.5 L/day"
    ],
    "answer": 0,
-   "why": "Max ADH: 119.75 mL/min reabsorbed; urine 0.25 mL/min ≈ 375 mL/day."
+   "why": "Max ADH: 119.75 mL/min reabsorbed; urine 0.25 mL/min ≈ 375 mL/day.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/21.jpg",
+     "lec": "Renal physiology 2",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Without ADH, urine output can reach about:",
@@ -11176,7 +11550,19 @@ SINA.lectures["physio-renal-nephron"] = {
     "170 L/day"
    ],
    "answer": 2,
-   "why": "No ADH: 105 mL/min reabsorbed, urine 15 mL/min ≈ 22 500 mL/day."
+   "why": "No ADH: 105 mL/min reabsorbed, urine 15 mL/min ≈ 22 500 mL/day.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/21.jpg",
+     "lec": "Renal physiology 2",
+     "n": 21
+    },
+    {
+     "src": "files/slides/physio-renal-nephron/23.jpg",
+     "lec": "Renal physiology 2",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which are routes of body water loss?",
@@ -11199,6 +11585,13 @@ SINA.lectures["physio-renal-nephron"] = {
     "Correct.",
     "Correct.",
     "Wrong: AQP2 insertion conserves water."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/16.jpg",
+     "lec": "Renal physiology 2",
+     "n": 16
+    }
    ]
   },
   {
@@ -11221,7 +11614,14 @@ SINA.lectures["physio-renal-nephron"] = {
     "Lined by podocytes on the blood side"
    ],
    "answer": 1,
-   "why": "Glomerular capillaries are fenestrated; podocytes line the capsule side."
+   "why": "Glomerular capillaries are fenestrated; podocytes line the capsule side.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/09.jpg",
+     "lec": "Renal physiology 2",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -11647,7 +12047,19 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "Renin, ADH, insulin"
    ],
    "answer": 0,
-   "why": "Renal autoregulation, nervous (sympathetic) control and hormonal control."
+   "why": "Renal autoregulation, nervous (sympathetic) control and hormonal control.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/02.jpg",
+     "lec": "Renal physiology 4",
+     "n": 2
+    },
+    {
+     "src": "files/slides/physio-renal-gfr-reg/03.jpg",
+     "lec": "Renal physiology 4",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Renal autoregulation works:",
@@ -11658,7 +12070,14 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "Only during sleep"
    ],
    "answer": 1,
-   "why": "It is the nephrons' ability to adjust their own flow and GFR without external control."
+   "why": "It is the nephrons' ability to adjust their own flow and GFR without external control.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/03.jpg",
+     "lec": "Renal physiology 4",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The myogenic mechanism is also called:",
@@ -11669,7 +12088,14 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "The Haldane effect"
    ],
    "answer": 1,
-   "why": "Myogenic mechanism = Bayliss effect."
+   "why": "Myogenic mechanism = Bayliss effect.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/04.jpg",
+     "lec": "Renal physiology 4",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "If arterial pressure rises, the afferent arteriole:",
@@ -11680,7 +12106,19 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "Secretes ADH"
    ],
    "answer": 1,
-   "why": "It is stretched and constricts, so glomerular flow does not change."
+   "why": "It is stretched and constricts, so glomerular flow does not change.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/05.jpg",
+     "lec": "Renal physiology 4",
+     "n": 5
+    },
+    {
+     "src": "files/slides/physio-renal-gfr-reg/06.jpg",
+     "lec": "Renal physiology 4",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "If arterial pressure falls, the afferent arteriole:",
@@ -11691,7 +12129,14 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "Releases ANP"
    ],
    "answer": 1,
-   "why": "It dilates so flow and filtration stay stable."
+   "why": "It dilates so flow and filtration stay stable.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/07.jpg",
+     "lec": "Renal physiology 4",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The macula densa cells are:",
@@ -11702,7 +12147,14 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "Podocytes"
    ],
    "answer": 1,
-   "why": "Macula densa = chemoreceptors responding to NaCl content."
+   "why": "Macula densa = chemoreceptors responding to NaCl content.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/15.jpg",
+     "lec": "Renal physiology 4",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which cells contain renin granules and sense blood pressure?",
@@ -11713,7 +12165,14 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "Intercalated cells"
    ],
    "answer": 1,
-   "why": "Granular cells are mechanoreceptors in the afferent arteriole with renin granules."
+   "why": "Granular cells are mechanoreceptors in the afferent arteriole with renin granules.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/18.jpg",
+     "lec": "Renal physiology 4",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "When GFR is high, macula densa cells secrete:",
@@ -11724,7 +12183,14 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "ANP"
    ],
    "answer": 1,
-   "why": "They secrete ATP, which mesangial cells metabolise into adenosine."
+   "why": "They secrete ATP, which mesangial cells metabolise into adenosine.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/15.jpg",
+     "lec": "Renal physiology 4",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Adenosine in tubuloglomerular feedback causes:",
@@ -11735,7 +12201,14 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "Aquaporin insertion"
    ],
    "answer": 0,
-   "why": "Adenosine stimulates granular cells, which constrict the afferent arteriole; GFR falls back."
+   "why": "Adenosine stimulates granular cells, which constrict the afferent arteriole; GFR falls back.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/15.jpg",
+     "lec": "Renal physiology 4",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Tubuloglomerular feedback is an example of:",
@@ -11746,7 +12219,14 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "Hormonal control"
    ],
    "answer": 1,
-   "why": "Negative feedback control of GFR."
+   "why": "Negative feedback control of GFR.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/16.jpg",
+     "lec": "Renal physiology 4",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Renin converts:",
@@ -11757,7 +12237,19 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "Cholesterol to aldosterone"
    ],
    "answer": 1,
-   "why": "Renin: angiotensinogen → angiotensin I."
+   "why": "Renin: angiotensinogen → angiotensin I.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/18.jpg",
+     "lec": "Renal physiology 4",
+     "n": 18
+    },
+    {
+     "src": "files/slides/physio-renal-gfr-reg/20.jpg",
+     "lec": "Renal physiology 4",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Where does ACE mainly convert angiotensin I to angiotensin II?",
@@ -11768,7 +12260,14 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "Bone marrow"
    ],
    "answer": 1,
-   "why": "ACE (endothelium) in the lungs and kidneys."
+   "why": "ACE (endothelium) in the lungs and kidneys.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/20.jpg",
+     "lec": "Renal physiology 4",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Angiotensinogen is produced by:",
@@ -11779,7 +12278,14 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "The adrenal cortex"
    ],
    "answer": 1,
-   "why": "Angiotensinogen is a blood protein made by the liver."
+   "why": "Angiotensinogen is a blood protein made by the liver.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/20.jpg",
+     "lec": "Renal physiology 4",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Angiotensin II keeps GFR up despite low pressure by:",
@@ -11790,7 +12296,14 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "Blocking renin"
    ],
    "answer": 1,
-   "why": "It constricts the efferent arteriole, raising glomerular pressure."
+   "why": "It constricts the efferent arteriole, raising glomerular pressure.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/25.jpg",
+     "lec": "Renal physiology 4",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Which are effects of angiotensin II?",
@@ -11813,6 +12326,13 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "Correct.",
     "Correct.",
     "Wrong: that describes ANP."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/25.jpg",
+     "lec": "Renal physiology 4",
+     "n": 25
+    }
    ]
   },
   {
@@ -11824,7 +12344,14 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "Bowman's capsule"
    ],
    "answer": 1,
-   "why": "Aldosterone acts on the distal convoluted tubule and collecting duct."
+   "why": "Aldosterone acts on the distal convoluted tubule and collecting duct.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/25.jpg",
+     "lec": "Renal physiology 4",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The main stimulus for ANP secretion is:",
@@ -11858,6 +12385,13 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "Correct: natriuresis.",
     "Correct.",
     "Wrong: it dilates the afferent arteriole."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/25.jpg",
+     "lec": "Renal physiology 4",
+     "n": 25
+    }
    ]
   },
   {
@@ -11869,7 +12403,14 @@ SINA.lectures["physio-renal-gfr-reg"] = {
     "ADH released by the pituitary"
    ],
    "answer": 1,
-   "why": "Carotid and aortic baroreceptors stimulate the sympathetic system, which triggers renin release."
+   "why": "Carotid and aortic baroreceptors stimulate the sympathetic system, which triggers renin release.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr-reg/20.jpg",
+     "lec": "Renal physiology 4",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -12279,7 +12820,19 @@ SINA.lectures["physio-renal-reabs"] = {
     "99%"
    ],
    "answer": 2,
-   "why": "Cortical nephrons 85%; juxtamedullary 15%."
+   "why": "Cortical nephrons 85%; juxtamedullary 15%.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-reabs/07.jpg",
+     "lec": "Renal physiology 5",
+     "n": 7
+    },
+    {
+     "src": "files/slides/physio-renal-reabs/09.jpg",
+     "lec": "Renal physiology 5",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which nephrons are better at making concentrated urine?",
@@ -12290,7 +12843,14 @@ SINA.lectures["physio-renal-reabs"] = {
     "Neither"
    ],
    "answer": 1,
-   "why": "Juxtamedullary nephrons have very long loops and maintain the medullary gradient."
+   "why": "Juxtamedullary nephrons have very long loops and maintain the medullary gradient.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-reabs/09.jpg",
+     "lec": "Renal physiology 5",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "In juxtamedullary nephrons the efferent arteriole branches into:",
@@ -12301,7 +12861,14 @@ SINA.lectures["physio-renal-reabs"] = {
     "The glomerulus again"
    ],
    "answer": 1,
-   "why": "Juxtamedullary: vasa recta; cortical: peritubular capillaries."
+   "why": "Juxtamedullary: vasa recta; cortical: peritubular capillaries.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-reabs/09.jpg",
+     "lec": "Renal physiology 5",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Substances passing between PCT cells use the:",
@@ -12312,7 +12879,14 @@ SINA.lectures["physio-renal-reabs"] = {
     "Vesicular route only"
    ],
    "answer": 1,
-   "why": "Paracellular = between cells, through leaky junctions."
+   "why": "Paracellular = between cells, through leaky junctions.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-reabs/10.jpg",
+     "lec": "Renal physiology 5",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The basal Na+–K+ pump is an example of:",
@@ -12323,7 +12897,14 @@ SINA.lectures["physio-renal-reabs"] = {
     "Osmosis"
    ],
    "answer": 0,
-   "why": "It uses ATP directly: primary active transport."
+   "why": "It uses ATP directly: primary active transport.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-reabs/13.jpg",
+     "lec": "Renal physiology 5",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Apical Na+ symports in the PCT are:",
@@ -12334,7 +12915,14 @@ SINA.lectures["physio-renal-reabs"] = {
     "Pinocytosis"
    ],
    "answer": 1,
-   "why": "They use the Na+ gradient made by the basal pumps: secondary active transport."
+   "why": "They use the Na+ gradient made by the basal pumps: secondary active transport.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-reabs/13.jpg",
+     "lec": "Renal physiology 5",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Glucose is reabsorbed with Na+ by:",
@@ -12345,7 +12933,14 @@ SINA.lectures["physio-renal-reabs"] = {
     "The H+-ATPase"
    ],
    "answer": 1,
-   "why": "Sodium-glucose transport (SGLT) proteins; normally all glucose is reabsorbed."
+   "why": "Sodium-glucose transport (SGLT) proteins; normally all glucose is reabsorbed.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-reabs/14.jpg",
+     "lec": "Renal physiology 5",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The PCT reabsorbs about what fraction of the glomerular filtrate?",
@@ -12367,7 +12962,14 @@ SINA.lectures["physio-renal-reabs"] = {
     "50%"
    ],
    "answer": 1,
-   "why": "PCTs account for about 6% of resting ATP and calorie consumption."
+   "why": "PCTs account for about 6% of resting ATP and calorie consumption.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-reabs/15.jpg",
+     "lec": "Renal physiology 5",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Fluid leaving the proximal tubule is:",
@@ -12378,7 +12980,14 @@ SINA.lectures["physio-renal-reabs"] = {
     "Protein-rich"
    ],
    "answer": 1,
-   "why": "Reduced to one third of its volume but still isosmotic."
+   "why": "Reduced to one third of its volume but still isosmotic.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-reabs/03.jpg",
+     "lec": "Renal physiology 5",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "About how much more water is reabsorbed in the descending limb?",
@@ -12389,7 +12998,14 @@ SINA.lectures["physio-renal-reabs"] = {
     "65%"
    ],
    "answer": 1,
-   "why": "An additional 20%, continuously and without regulation."
+   "why": "An additional 20%, continuously and without regulation.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-reabs/16.jpg",
+     "lec": "Renal physiology 5",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The final 15% of water reabsorption is:",
@@ -12400,7 +13016,14 @@ SINA.lectures["physio-renal-reabs"] = {
     "Paracellular only"
    ],
    "answer": 1,
-   "why": "The final 15% is absorbed later in the nephron under hormonal control."
+   "why": "The final 15% is absorbed later in the nephron under hormonal control.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-reabs/16.jpg",
+     "lec": "Renal physiology 5",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The descending limb of the loop of Henle is:",
@@ -12411,7 +13034,14 @@ SINA.lectures["physio-renal-reabs"] = {
     "The site of active NaCl pumping"
    ],
    "answer": 0,
-   "why": "Descending: water leaves; ions stay."
+   "why": "Descending: water leaves; ions stay.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-reabs/37.jpg",
+     "lec": "Renal physiology 5",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "The ascending limb is:",
@@ -12422,7 +13052,14 @@ SINA.lectures["physio-renal-reabs"] = {
     "The main site of glucose reabsorption"
    ],
    "answer": 1,
-   "why": "Ascending limb: active Na+ transport, Cl− follows, impermeable to water."
+   "why": "Ascending limb: active Na+ transport, Cl− follows, impermeable to water.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-reabs/39.jpg",
+     "lec": "Renal physiology 5",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which part of the loop sets up the concentration gradient?",
@@ -12433,7 +13070,14 @@ SINA.lectures["physio-renal-reabs"] = {
     "Collecting duct"
    ],
    "answer": 1,
-   "why": "The ascending portion sets up the gradient."
+   "why": "The ascending portion sets up the gradient.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-reabs/17.jpg",
+     "lec": "Renal physiology 5",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The kidneys keep plasma osmolarity at about:",
@@ -12444,7 +13088,14 @@ SINA.lectures["physio-renal-reabs"] = {
     "1 200 mOsm"
    ],
    "answer": 1,
-   "why": "Plasma osmolarity is kept at about 300 mOsm."
+   "why": "Plasma osmolarity is kept at about 300 mOsm.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-reabs/40.jpg",
+     "lec": "Renal physiology 5",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "'Countercurrent' means:",
@@ -12455,7 +13106,14 @@ SINA.lectures["physio-renal-reabs"] = {
     "Blood flows faster than filtrate"
    ],
    "answer": 1,
-   "why": "Fluid in one limb flows opposite to the adjoining limb."
+   "why": "Fluid in one limb flows opposite to the adjoining limb.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-reabs/40.jpg",
+     "lec": "Renal physiology 5",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Which statements about tubular reabsorption are correct?",
@@ -12478,6 +13136,18 @@ SINA.lectures["physio-renal-reabs"] = {
     "Correct.",
     "Wrong: they are leaky.",
     "Correct."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-reabs/10.jpg",
+     "lec": "Renal physiology 5",
+     "n": 10
+    },
+    {
+     "src": "files/slides/physio-renal-reabs/15.jpg",
+     "lec": "Renal physiology 5",
+     "n": 15
+    }
    ]
   },
   {
@@ -12833,7 +13503,14 @@ SINA.lectures["physio-renal-acidbase"] = {
     "6.80 to 7.00"
    ],
    "answer": 1,
-   "why": "Systemic arterial blood pH is kept between 7.35 and 7.45."
+   "why": "Systemic arterial blood pH is kept between 7.35 and 7.45.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-acidbase/07.jpg",
+     "lec": "Renal physiology 6",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "pH is defined as:",
@@ -12855,7 +13532,14 @@ SINA.lectures["physio-renal-acidbase"] = {
     "Hypernatraemia"
    ],
    "answer": 1,
-   "why": "Acidosis shifts K+ from the intracellular to the extracellular space: hyperkalaemia."
+   "why": "Acidosis shifts K+ from the intracellular to the extracellular space: hyperkalaemia.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-acidbase/06.jpg",
+     "lec": "Renal physiology 6",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The most important extracellular buffer is:",
@@ -12866,7 +13550,19 @@ SINA.lectures["physio-renal-acidbase"] = {
     "Ammonia"
    ],
    "answer": 2,
-   "why": "The bicarbonate buffer system."
+   "why": "The bicarbonate buffer system.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-acidbase/09.jpg",
+     "lec": "Renal physiology 6",
+     "n": 9
+    },
+    {
+     "src": "files/slides/physio-renal-acidbase/10.jpg",
+     "lec": "Renal physiology 6",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which pH control mechanism is the slowest?",
@@ -12877,7 +13573,14 @@ SINA.lectures["physio-renal-acidbase"] = {
     "All are equally fast"
    ],
    "answer": 2,
-   "why": "Renal handling of H+/HCO3− is slowest, but the only way to remove non-carbonic acids."
+   "why": "Renal handling of H+/HCO3− is slowest, but the only way to remove non-carbonic acids.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-acidbase/15.jpg",
+     "lec": "Renal physiology 6",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The only way to eliminate acids other than carbonic acid is:",
@@ -12888,7 +13591,14 @@ SINA.lectures["physio-renal-acidbase"] = {
     "Sweat"
    ],
    "answer": 1,
-   "why": "Only the kidneys eliminate non-volatile acids."
+   "why": "Only the kidneys eliminate non-volatile acids.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-acidbase/15.jpg",
+     "lec": "Renal physiology 6",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "In pH = 6.1 + log [HCO3−]/(0.03 × PCO2), PCO2 is regulated by:",
@@ -12899,7 +13609,14 @@ SINA.lectures["physio-renal-acidbase"] = {
     "Carbonic anhydrase only"
    ],
    "answer": 1,
-   "why": "PCO2: lungs; HCO3−: kidneys."
+   "why": "PCO2: lungs; HCO3−: kidneys.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-acidbase/07.jpg",
+     "lec": "Renal physiology 6",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Increasing alveolar ventilation will:",
@@ -12910,7 +13627,14 @@ SINA.lectures["physio-renal-acidbase"] = {
     "Raise PCO2"
    ],
    "answer": 1,
-   "why": "More ventilation removes CO2 and raises pH."
+   "why": "More ventilation removes CO2 and raises pH.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-acidbase/14.jpg",
+     "lec": "Renal physiology 6",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "For each H+ secreted by the tubule, the kidney reabsorbs:",
@@ -12921,7 +13645,14 @@ SINA.lectures["physio-renal-acidbase"] = {
     "One NH4+"
    ],
    "answer": 1,
-   "why": "H+ secretion goes with HCO3− reabsorption: urine acidification = blood alkalinisation."
+   "why": "H+ secretion goes with HCO3− reabsorption: urine acidification = blood alkalinisation.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-acidbase/20.jpg",
+     "lec": "Renal physiology 6",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Why must filtered HCO3− be converted to CO2 to be reabsorbed?",
@@ -12932,7 +13663,14 @@ SINA.lectures["physio-renal-acidbase"] = {
     "To make ammonia"
    ],
    "answer": 1,
-   "why": "HCO3− cannot cross; CO2 can, and HCO3− is rebuilt inside the cell."
+   "why": "HCO3− cannot cross; CO2 can, and HCO3− is rebuilt inside the cell.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-acidbase/21.jpg",
+     "lec": "Renal physiology 6",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which enzyme converts H2CO3 to CO2 and water in the tubule?",
@@ -12943,7 +13681,14 @@ SINA.lectures["physio-renal-acidbase"] = {
     "Glutaminase"
    ],
    "answer": 1,
-   "why": "Carbonic anhydrase."
+   "why": "Carbonic anhydrase.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-acidbase/21.jpg",
+     "lec": "Renal physiology 6",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Where is most filtered bicarbonate reabsorbed?",
@@ -12954,7 +13699,14 @@ SINA.lectures["physio-renal-acidbase"] = {
     "Glomerulus"
    ],
    "answer": 0,
-   "why": "About 85% in the proximal tubule, 10% thick ascending limb, 4.9% distal."
+   "why": "About 85% in the proximal tubule, 10% thick ascending limb, 4.9% distal.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-acidbase/23.jpg",
+     "lec": "Renal physiology 6",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "In the distal convoluted tubule, H+ is secreted by:",
@@ -12965,7 +13717,14 @@ SINA.lectures["physio-renal-acidbase"] = {
     "Aquaporin-2"
    ],
    "answer": 1,
-   "why": "Distal H+ secretion uses the hydrogen-ATPase."
+   "why": "Distal H+ secretion uses the hydrogen-ATPase.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-acidbase/23.jpg",
+     "lec": "Renal physiology 6",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The lowest urine pH the nephron can produce is about:",
@@ -12976,7 +13735,14 @@ SINA.lectures["physio-renal-acidbase"] = {
     "7.4"
    ],
    "answer": 1,
-   "why": "Nephrons cannot produce urine with a pH below 4.5."
+   "why": "Nephrons cannot produce urine with a pH below 4.5.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-acidbase/24.jpg",
+     "lec": "Renal physiology 6",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which buffer the urine so more H+ can be secreted?",
@@ -12998,6 +13764,13 @@ SINA.lectures["physio-renal-acidbase"] = {
     "Correct: from amino acid deamination.",
     "Wrong.",
     "Wrong."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-acidbase/24.jpg",
+     "lec": "Renal physiology 6",
+     "n": 24
+    }
    ]
   },
   {
@@ -13009,7 +13782,14 @@ SINA.lectures["physio-renal-acidbase"] = {
     "Fatty acid oxidation"
    ],
    "answer": 1,
-   "why": "Ammonia comes from the deamination of amino acids."
+   "why": "Ammonia comes from the deamination of amino acids.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-acidbase/24.jpg",
+     "lec": "Renal physiology 6",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Filtered bicarbonate load is about:",
@@ -13043,6 +13823,13 @@ SINA.lectures["physio-renal-acidbase"] = {
     "Correct: CO2.",
     "Correct: H+ and HCO3−.",
     "Wrong."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-acidbase/07.jpg",
+     "lec": "Renal physiology 6",
+     "n": 7
+    }
    ]
   },
   {
@@ -13376,7 +14163,14 @@ SINA.lectures["physio-bioen-intro"] = {
     "The digestion of nutrients"
    ],
    "answer": 1,
-   "why": "Metabolism denotes the sum of all body chemical reactions."
+   "why": "Metabolism denotes the sum of all body chemical reactions.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/03.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Catabolic reactions are:",
@@ -13387,7 +14181,14 @@ SINA.lectures["physio-bioen-intro"] = {
     "Neither releasing nor using energy"
    ],
    "answer": 1,
-   "why": "Catabolism releases energy (exergonic) and heat (exothermic)."
+   "why": "Catabolism releases energy (exergonic) and heat (exothermic).",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/04.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Anabolic reactions:",
@@ -13398,7 +14199,14 @@ SINA.lectures["physio-bioen-intro"] = {
     "Are exergonic"
    ],
    "answer": 1,
-   "why": "Anabolism builds molecules and is endergonic, endothermic."
+   "why": "Anabolism builds molecules and is endergonic, endothermic.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/04.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which molecule couples catabolic and anabolic reactions?",
@@ -13409,7 +14217,19 @@ SINA.lectures["physio-bioen-intro"] = {
     "Urea"
    ],
    "answer": 1,
-   "why": "ATP transfers energy from catabolic to anabolic reactions."
+   "why": "ATP transfers energy from catabolic to anabolic reactions.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/08.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 8
+    },
+    {
+     "src": "files/slides/physio-bioen-intro/11.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which reactions occur in a cell depends on:",
@@ -13420,7 +14240,14 @@ SINA.lectures["physio-bioen-intro"] = {
     "The time of day only"
    ],
    "answer": 1,
-   "why": "The exact reactions depend on which enzymes are active at that time."
+   "why": "The exact reactions depend on which enzymes are active at that time.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/08.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which are macronutrients?",
@@ -13443,6 +14270,13 @@ SINA.lectures["physio-bioen-intro"] = {
     "Correct.",
     "Correct.",
     "Wrong: micronutrient."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/14.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 14
+    }
    ]
   },
   {
@@ -13454,7 +14288,14 @@ SINA.lectures["physio-bioen-intro"] = {
     "Fibre and water"
    ],
    "answer": 1,
-   "why": "Only small quantities of vitamins and minerals are needed."
+   "why": "Only small quantities of vitamins and minerals are needed.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/14.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "How many amino acids are essential?",
@@ -13465,7 +14306,14 @@ SINA.lectures["physio-bioen-intro"] = {
     "Twenty"
    ],
    "answer": 1,
-   "why": "Nine essential amino acids."
+   "why": "Nine essential amino acids.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/15.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which is an essential amino acid?",
@@ -13498,6 +14346,13 @@ SINA.lectures["physio-bioen-intro"] = {
     "Correct.",
     "Wrong: the body can make it.",
     "Wrong: the body can make it."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/15.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 15
+    }
    ]
   },
   {
@@ -13509,7 +14364,14 @@ SINA.lectures["physio-bioen-intro"] = {
     "Have an RDA above 1 g"
    ],
    "answer": 1,
-   "why": "Essential = cannot be synthesised; must come from the diet."
+   "why": "Essential = cannot be synthesised; must come from the diet.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/15.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "RDAs differ from the list of essential nutrients because RDAs:",
@@ -13520,7 +14382,14 @@ SINA.lectures["physio-bioen-intro"] = {
     "Only cover vitamins and minerals"
    ],
    "answer": 1,
-   "why": "Essential nutrients define which; RDAs define how much and vary."
+   "why": "Essential nutrients define which; RDAs define how much and vary.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/17.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "One calorie is the heat needed to raise:",
@@ -13531,7 +14400,14 @@ SINA.lectures["physio-bioen-intro"] = {
     "1 g of water by 100 °C"
    ],
    "answer": 1,
-   "why": "1 calorie: 1 g of water by 1 °C."
+   "why": "1 calorie: 1 g of water by 1 °C.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/18.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "In dietetics, one Calorie equals:",
@@ -13542,7 +14418,14 @@ SINA.lectures["physio-bioen-intro"] = {
     "1 joule"
    ],
    "answer": 2,
-   "why": "1 000 calories = 1 kcal (physiology) = 1 Calorie (dietetics)."
+   "why": "1 000 calories = 1 kcal (physiology) = 1 Calorie (dietetics).",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/18.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Alcohol provides about:",
@@ -13553,7 +14436,14 @@ SINA.lectures["physio-bioen-intro"] = {
     "0 kcal/g"
    ],
    "answer": 1,
-   "why": "Alcohol 7 kcal/g; sugar and alcohol are empty calories."
+   "why": "Alcohol 7 kcal/g; sugar and alcohol are empty calories.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/19.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "'Empty' calories:",
@@ -13564,7 +14454,14 @@ SINA.lectures["physio-bioen-intro"] = {
     "Are found mainly in dietary fibre"
    ],
    "answer": 1,
-   "why": "Sugar and alcohol give energy but few nutrients, and suppress appetite."
+   "why": "Sugar and alcohol give energy but few nutrients, and suppress appetite.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/19.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Water as a nutrient:",
@@ -13575,7 +14472,19 @@ SINA.lectures["physio-bioen-intro"] = {
     "Has an RDA of zero"
    ],
    "answer": 1,
-   "why": "Water must be consumed in the diet; it is a macronutrient."
+   "why": "Water must be consumed in the diet; it is a macronutrient.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/14.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 14
+    },
+    {
+     "src": "files/slides/physio-bioen-intro/15.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -13961,7 +14870,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Exactly 6 carbons"
    ],
    "answer": 2,
-   "why": "Disaccharide 2, oligosaccharide 3-10, polysaccharide more than 10."
+   "why": "Disaccharide 2, oligosaccharide 3-10, polysaccharide more than 10.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/04.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Starch, cellulose and glycogen are all polymers of:",
@@ -13972,7 +14888,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Ribose"
    ],
    "answer": 2,
-   "why": "All three are glucose polymers."
+   "why": "All three are glucose polymers.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/08.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Why can't humans digest cellulose?",
@@ -13983,7 +14906,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "It is absorbed whole"
    ],
    "answer": 1,
-   "why": "Cellulose is non-digestible because humans lack the enzyme."
+   "why": "Cellulose is non-digestible because humans lack the enzyme.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/09.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Benefits of cellulose (fibre) include:",
@@ -14006,6 +14936,13 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Correct.",
     "Correct.",
     "Wrong: it slows digestion."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/09.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 9
+    }
    ]
   },
   {
@@ -14028,7 +14965,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Hexokinase"
    ],
    "answer": 1,
-   "why": "Lactase = β-galactosidase."
+   "why": "Lactase = β-galactosidase.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/10.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The four steps of cellular respiration in order are:",
@@ -14039,7 +14983,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Acetyl-CoA, glycolysis, electron transport, Krebs"
    ],
    "answer": 1,
-   "why": "Glycolysis → acetyl-CoA → Krebs → electron transport chain."
+   "why": "Glycolysis → acetyl-CoA → Krebs → electron transport chain.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/16.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Net ATP gain from glycolysis per glucose is:",
@@ -14050,7 +15001,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "0"
    ],
    "answer": 0,
-   "why": "4 ATP made, 2 consumed: net 2."
+   "why": "4 ATP made, 2 consumed: net 2.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/18.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "After glycolysis, most of glucose's original energy is in:",
@@ -14061,7 +15019,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Heat"
    ],
    "answer": 2,
-   "why": "Most of the energy remains in pyruvate."
+   "why": "Most of the energy remains in pyruvate.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/18.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Hexokinase converts glucose into:",
@@ -14072,7 +15037,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Glycogen"
    ],
    "answer": 1,
-   "why": "Hexokinase phosphorylates glucose to G6P, trapping it in the cell."
+   "why": "Hexokinase phosphorylates glucose to G6P, trapping it in the cell.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/32.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Phosphorylating glucose to G6P:",
@@ -14083,7 +15055,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Happens inside the mitochondrial matrix"
    ],
    "answer": 1,
-   "why": "It keeps free glucose low (favouring entry) and phosphorylated compounds cannot cross the membrane."
+   "why": "It keeps free glucose low (favouring entry) and phosphorylated compounds cannot cross the membrane.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/32.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "NAD+ is derived from:",
@@ -14094,7 +15073,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Vitamin C"
    ],
    "answer": 1,
-   "why": "NAD+ from niacin (B vitamin); FAD from riboflavin."
+   "why": "NAD+ from niacin (B vitamin); FAD from riboflavin.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/23.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "NAD+ binds:",
@@ -14105,7 +15091,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Only protons"
    ],
    "answer": 1,
-   "why": "NAD+ + 2 H → NADH + H+: two electrons, one proton."
+   "why": "NAD+ + 2 H → NADH + H+: two electrons, one proton.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/23.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The final electron acceptor of the electron transport chain is:",
@@ -14116,7 +15109,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Cytochrome c"
    ],
    "answer": 2,
-   "why": "Oxygen accepts electrons from cytochrome a3 and protons → water."
+   "why": "Oxygen accepts electrons from cytochrome a3 and protons → water.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/34.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Where does the Krebs cycle take place?",
@@ -14127,7 +15127,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Nucleus"
    ],
    "answer": 1,
-   "why": "Krebs: matrix. Glycolysis: cytoplasm. ETC: inner membrane."
+   "why": "Krebs: matrix. Glycolysis: cytoplasm. ETC: inner membrane.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/35.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Where are the cytochromes of the electron transport chain?",
@@ -14138,7 +15145,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Mitochondrial matrix"
    ],
    "answer": 2,
-   "why": "Embedded in the inner mitochondrial membrane (cristae)."
+   "why": "Embedded in the inner mitochondrial membrane (cristae).",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/35.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "The body's main source of metabolic water is:",
@@ -14149,7 +15163,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Lipogenesis in adipose tissue"
    ],
    "answer": 1,
-   "why": "Each O atom accepts 2 e− and 2 H+ forming water."
+   "why": "Each O atom accepts 2 e− and 2 H+ forming water.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/34.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "About how much glycogen can the body store?",
@@ -14160,7 +15181,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "50 kg"
    ],
    "answer": 1,
-   "why": "About 500 g, 75% in skeletal muscle and the rest in liver."
+   "why": "About 500 g, 75% in skeletal muscle and the rest in liver.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/36.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Most stored glycogen is in:",
@@ -14171,7 +15199,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Adipose tissue"
    ],
    "answer": 1,
-   "why": "75% in skeletal muscle fibres."
+   "why": "75% in skeletal muscle fibres.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/36.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Gluconeogenesis can use:",
@@ -14194,6 +15229,18 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Correct.",
     "Correct.",
     "Wrong: not listed as a glucose source."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/39.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 39
+    },
+    {
+     "src": "files/slides/physio-bioen-regulation/41.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 41
+    }
    ]
   },
   {
@@ -14205,7 +15252,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Lactase"
    ],
    "answer": 1,
-   "why": "Glucose 6-phosphatase is found in liver, kidney and intestinal cells."
+   "why": "Glucose 6-phosphatase is found in liver, kidney and intestinal cells.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/40.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -14581,7 +15635,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "100%"
    ],
    "answer": 2,
-   "why": "80 to 90% of resting energy comes from fat."
+   "why": "80 to 90% of resting energy comes from fat.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/02.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Fat provides about:",
@@ -14592,7 +15653,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "12 kcal/g"
    ],
    "answer": 2,
-   "why": "Fat 9 kcal/g; carbohydrate 4 kcal/g."
+   "why": "Fat 9 kcal/g; carbohydrate 4 kcal/g.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/02.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Fat is a better storage form than carbohydrate because it:",
@@ -14603,7 +15671,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "Does not need lipoproteins to travel"
    ],
    "answer": 1,
-   "why": "Hydrophobic and compact, with 9 vs 4 kcal/g."
+   "why": "Hydrophobic and compact, with 9 vs 4 kcal/g.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/02.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Fat's glucose-sparing effect keeps glucose for:",
@@ -14614,7 +15689,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "Red cells only"
    ],
    "answer": 1,
-   "why": "Glucose is spared for cells that cannot use fat, such as neurons."
+   "why": "Glucose is spared for cells that cannot use fat, such as neurons.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/03.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which vitamins are absorbed with dietary fat?",
@@ -14637,6 +15719,13 @@ SINA.lectures["physio-bioen-lipids"] = {
     "Correct.",
     "Correct.",
     "Wrong: water-soluble."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/03.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 3
+    }
    ]
   },
   {
@@ -14648,7 +15737,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "200 g"
    ],
    "answer": 1,
-   "why": "Less than 20 g of fat per day."
+   "why": "Less than 20 g of fat per day.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/03.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "A triglyceride is made of:",
@@ -14659,7 +15755,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "3 glucose molecules"
    ],
    "answer": 1,
-   "why": "Glycerol backbone + 3 fatty acids."
+   "why": "Glycerol backbone + 3 fatty acids.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/05.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Saturated fatty acids have:",
@@ -14670,7 +15773,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "No carbon chain"
    ],
    "answer": 0,
-   "why": "Saturated: all single C-C bonds."
+   "why": "Saturated: all single C-C bonds.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/06.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Lipoproteins are produced by:",
@@ -14681,7 +15791,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "The spleen"
    ],
    "answer": 1,
-   "why": "Lipoproteins are produced in the liver (chylomicrons in the intestine)."
+   "why": "Lipoproteins are produced in the liver (chylomicrons in the intestine).",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/14.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The outer shell of a lipoprotein is:",
@@ -14692,7 +15809,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "Made only of cholesterol"
    ],
    "answer": 1,
-   "why": "Polar proteins and amphipathic phospholipids make the shell hydrophilic."
+   "why": "Polar proteins and amphipathic phospholipids make the shell hydrophilic.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/07.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which lipoprotein is about 90% triglyceride?",
@@ -14714,7 +15838,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "HDL"
    ],
    "answer": 2,
-   "why": "LDL contains mainly cholesterol."
+   "why": "LDL contains mainly cholesterol.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/14.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which lipoprotein is about 50% protein?",
@@ -14736,7 +15867,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "HDL"
    ],
    "answer": 3,
-   "why": "HDL 5-12 nm; chylomicrons up to 1 200 nm."
+   "why": "HDL 5-12 nm; chylomicrons up to 1 200 nm.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/09.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Chylomicrons first enter:",
@@ -14747,7 +15885,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "The urine"
    ],
    "answer": 1,
-   "why": "Lymph absorbs chylomicrons from the small intestine, then drains into the blood."
+   "why": "Lymph absorbs chylomicrons from the small intestine, then drains into the blood.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/14.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which enzyme removes lipids from chylomicrons?",
@@ -14758,7 +15903,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "HMG-CoA reductase"
    ],
    "answer": 1,
-   "why": "Lipoprotein lipase."
+   "why": "Lipoprotein lipase.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/14.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Cells take up LDL by:",
@@ -14769,7 +15921,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "Paracellular transport"
    ],
    "answer": 1,
-   "why": "Receptor-mediated endocytosis."
+   "why": "Receptor-mediated endocytosis.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/14.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The main role of HDL is to:",
@@ -14780,7 +15939,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "Store triglyceride inside adipocytes"
    ],
    "answer": 1,
-   "why": "HDL picks up cholesterol and returns it to the liver."
+   "why": "HDL picks up cholesterol and returns it to the liver.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/14.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which raise LDL according to the lecture?",
@@ -14803,6 +15969,13 @@ SINA.lectures["physio-bioen-lipids"] = {
     "Correct.",
     "Correct.",
     "Wrong: it improves the ratio."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/12.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 12
+    }
    ]
   },
   {
@@ -14814,7 +15987,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "Glycogen and starch"
    ],
    "answer": 1,
-   "why": "Cholesterol → steroid hormones and vitamin D; fatty acids → eicosanoids."
+   "why": "Cholesterol → steroid hormones and vitamin D; fatty acids → eicosanoids.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/13.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which statement about cholesterol is correct?",
@@ -14825,7 +16005,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "It is carried only in chylomicrons"
    ],
    "answer": 1,
-   "why": "Cholesterol is structural and regulatory, not an energy source; it gives membranes rigidity."
+   "why": "Cholesterol is structural and regulatory, not an energy source; it gives membranes rigidity.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/13.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -15162,7 +16349,14 @@ SINA.lectures["physio-bioen-atp"] = {
     "Jens Skou"
    ],
    "answer": 1,
-   "why": "Karl Lohmann, 1929."
+   "why": "Karl Lohmann, 1929.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-atp/02.jpg",
+     "lec": "Bioenergetics 4",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Fritz Lipmann shared the 1953 Nobel Prize for discovering:",
@@ -15173,7 +16367,14 @@ SINA.lectures["physio-bioen-atp"] = {
     "The Na+,K+-ATPase"
    ],
    "answer": 1,
-   "why": "Lipmann: coenzyme A; Krebs: citric acid cycle (both 1953)."
+   "why": "Lipmann: coenzyme A; Krebs: citric acid cycle (both 1953).",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-atp/04.jpg",
+     "lec": "Bioenergetics 4",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Hans Krebs is known for:",
@@ -15184,7 +16385,14 @@ SINA.lectures["physio-bioen-atp"] = {
     "ATP synthase structure"
    ],
    "answer": 1,
-   "why": "Krebs: the citric acid (Krebs) cycle, Nobel 1953."
+   "why": "Krebs: the citric acid (Krebs) cycle, Nobel 1953.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-atp/04.jpg",
+     "lec": "Bioenergetics 4",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Peter Mitchell described:",
@@ -15195,7 +16403,14 @@ SINA.lectures["physio-bioen-atp"] = {
     "The structure of coenzyme A"
    ],
    "answer": 1,
-   "why": "Chemiosmotic theory, Nobel Chemistry 1978."
+   "why": "Chemiosmotic theory, Nobel Chemistry 1978.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-atp/25.jpg",
+     "lec": "Bioenergetics 4",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Jens Skou won the 1997 Nobel Prize in Chemistry for:",
@@ -15206,7 +16421,14 @@ SINA.lectures["physio-bioen-atp"] = {
     "The ionic basis of the action potential"
    ],
    "answer": 1,
-   "why": "Skou: Na+,K+-ATPase; Boyer and Walker: ATP synthase mechanism."
+   "why": "Skou: Na+,K+-ATPase; Boyer and Walker: ATP synthase mechanism.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-atp/25.jpg",
+     "lec": "Bioenergetics 4",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Who isolated the catalytic F1 subunit of ATP synthase (1961)?",
@@ -15228,7 +16450,14 @@ SINA.lectures["physio-bioen-atp"] = {
     "CO2"
    ],
    "answer": 1,
-   "why": "H2O is oxidised, O2 is produced and NADPH generated."
+   "why": "H2O is oxidised, O2 is produced and NADPH generated.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-atp/09.jpg",
+     "lec": "Bioenergetics 4",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "In aerobic respiration, oxygen is:",
@@ -15239,7 +16468,14 @@ SINA.lectures["physio-bioen-atp"] = {
     "Not involved"
    ],
    "answer": 1,
-   "why": "O2 receives electrons and H2O is produced."
+   "why": "O2 receives electrons and H2O is produced.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-atp/09.jpg",
+     "lec": "Bioenergetics 4",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What do photosynthesis and respiration have in common?",
@@ -15250,7 +16486,14 @@ SINA.lectures["physio-bioen-atp"] = {
     "Both use NADP+ as electron acceptor"
    ],
    "answer": 1,
-   "why": "Both rely on electron transport, a proton gradient and ATP synthase."
+   "why": "Both rely on electron transport, a proton gradient and ATP synthase.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-atp/09.jpg",
+     "lec": "Bioenergetics 4",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Light-driven ATP production in plants is called:",
@@ -15261,7 +16504,14 @@ SINA.lectures["physio-bioen-atp"] = {
     "Glycolysis"
    ],
    "answer": 1,
-   "why": "Photophosphorylation in the light-dependent reactions."
+   "why": "Photophosphorylation in the light-dependent reactions.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-atp/07.jpg",
+     "lec": "Bioenergetics 4",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The resting membrane potential in the slides is about:",
@@ -15283,7 +16533,14 @@ SINA.lectures["physio-bioen-atp"] = {
     "1 Na+ out, 1 K+ in"
    ],
    "answer": 1,
-   "why": "3 Na+ out, 2 K+ in (3:2)."
+   "why": "3 Na+ out, 2 K+ in (3:2).",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-atp/25.jpg",
+     "lec": "Bioenergetics 4",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Intracellular K+ concentration is about:",
@@ -15316,7 +16573,14 @@ SINA.lectures["physio-bioen-atp"] = {
     "The proton gradient of the H+-ATPase"
    ],
    "answer": 1,
-   "why": "SGLT is secondary active transport powered by the Na+ gradient."
+   "why": "SGLT is secondary active transport powered by the Na+ gradient.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-atp/25.jpg",
+     "lec": "Bioenergetics 4",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The cardiac Na+/Ca2+ exchanger ratio is:",
@@ -15338,7 +16602,19 @@ SINA.lectures["physio-bioen-atp"] = {
     "Carbonic anhydrase"
    ],
    "answer": 1,
-   "why": "Digoxin (from Digitalis lanata) blocks the Na+/K+-ATPase."
+   "why": "Digoxin (from Digitalis lanata) blocks the Na+/K+-ATPase.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-atp/20.jpg",
+     "lec": "Bioenergetics 4",
+     "n": 20
+    },
+    {
+     "src": "files/slides/physio-bioen-atp/25.jpg",
+     "lec": "Bioenergetics 4",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Rigor mortis is caused by:",
@@ -15372,6 +16648,18 @@ SINA.lectures["physio-bioen-atp"] = {
     "Correct.",
     "Correct.",
     "Wrong: passive."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-atp/21.jpg",
+     "lec": "Bioenergetics 4",
+     "n": 21
+    },
+    {
+     "src": "files/slides/physio-bioen-atp/23.jpg",
+     "lec": "Bioenergetics 4",
+     "n": 23
+    }
    ]
   },
   {
@@ -15690,7 +16978,14 @@ SINA.lectures["physio-bioen-balance"] = {
     "The Krebs cycle"
    ],
    "answer": 1,
-   "why": "Cyanide blocks Complex IV."
+   "why": "Cyanide blocks Complex IV.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/04.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "DNP (dinitrophenol) acts as:",
@@ -15701,7 +16996,14 @@ SINA.lectures["physio-bioen-balance"] = {
     "An inhibitor of hexokinase in glycolysis"
    ],
    "answer": 1,
-   "why": "DNP lets H+ return to the matrix without passing ATP synthase."
+   "why": "DNP lets H+ return to the matrix without passing ATP synthase.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/03.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "With DNP, oxygen consumption:",
@@ -15712,7 +17014,14 @@ SINA.lectures["physio-bioen-balance"] = {
     "Is unchanged"
    ],
    "answer": 1,
-   "why": "Uncoupling increases electron transport and O2 consumption."
+   "why": "Uncoupling increases electron transport and O2 consumption.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/05.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The defining effect of DNP is:",
@@ -15723,7 +17032,14 @@ SINA.lectures["physio-bioen-balance"] = {
     "Increased proton gradient"
    ],
    "answer": 0,
-   "why": "Energy is released as heat instead of ATP."
+   "why": "Energy is released as heat instead of ATP.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/05.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Effects of cyanide:",
@@ -15746,6 +17062,13 @@ SINA.lectures["physio-bioen-balance"] = {
     "Correct.",
     "Correct.",
     "Wrong: that is DNP."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/05.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 5
+    }
    ]
   },
   {
@@ -15757,7 +17080,14 @@ SINA.lectures["physio-bioen-balance"] = {
     "100%"
    ],
    "answer": 1,
-   "why": "30 to 50% hereditary; environment 50 to 70%."
+   "why": "30 to 50% hereditary; environment 50 to 70%.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/08.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which is a short-term hunger signal?",
@@ -15768,7 +17098,14 @@ SINA.lectures["physio-bioen-balance"] = {
     "PYY"
    ],
    "answer": 1,
-   "why": "Ghrelin is the short-term hunger (orexigenic) hormone."
+   "why": "Ghrelin is the short-term hunger (orexigenic) hormone.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/27.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Ghrelin is secreted by:",
@@ -15779,7 +17116,14 @@ SINA.lectures["physio-bioen-balance"] = {
     "Enteroendocrine cells of the ileum"
    ],
    "answer": 1,
-   "why": "Ghrelin: parietal cells of the gastric fundus."
+   "why": "Ghrelin: parietal cells of the gastric fundus.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/18.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Ghrelin stimulates the hypothalamus to secrete:",
@@ -15790,7 +17134,19 @@ SINA.lectures["physio-bioen-balance"] = {
     "GnRH"
    ],
    "answer": 1,
-   "why": "Ghrelin stimulates GH-releasing hormone; its receptor is the GH secretagogue receptor."
+   "why": "Ghrelin stimulates GH-releasing hormone; its receptor is the GH secretagogue receptor.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/18.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 18
+    },
+    {
+     "src": "files/slides/physio-bioen-balance/32.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Ghrelin secretion stops:",
@@ -15801,7 +17157,14 @@ SINA.lectures["physio-bioen-balance"] = {
     "Never"
    ],
    "answer": 0,
-   "why": "Ghrelin secretion ceases within an hour of eating."
+   "why": "Ghrelin secretion ceases within an hour of eating.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/18.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Leptin is secreted by:",
@@ -15812,7 +17175,19 @@ SINA.lectures["physio-bioen-balance"] = {
     "The arcuate nucleus"
    ],
    "answer": 1,
-   "why": "Leptin is made by adipose cells."
+   "why": "Leptin is made by adipose cells.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/14.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 14
+    },
+    {
+     "src": "files/slides/physio-bioen-balance/15.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Leptin levels are proportional to:",
@@ -15823,7 +17198,19 @@ SINA.lectures["physio-bioen-balance"] = {
     "Gastric emptying"
    ],
    "answer": 1,
-   "why": "Leptin informs the brain how much fat we have."
+   "why": "Leptin informs the brain how much fat we have.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/14.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 14
+    },
+    {
+     "src": "files/slides/physio-bioen-balance/15.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "ob/ob mice are obese because they:",
@@ -15834,7 +17221,14 @@ SINA.lectures["physio-bioen-balance"] = {
     "Lack insulin receptors"
    ],
    "answer": 1,
-   "why": "Defective ob gene → no leptin → no satiety."
+   "why": "Defective ob gene → no leptin → no satiety.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/15.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Compared with leptin, insulin's effect on appetite is:",
@@ -15845,7 +17239,14 @@ SINA.lectures["physio-bioen-balance"] = {
     "Absent"
    ],
    "answer": 1,
-   "why": "Insulin is a weaker satiety signal than leptin."
+   "why": "Insulin is a weaker satiety signal than leptin.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/16.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "PYY is secreted by:",
@@ -15856,7 +17257,14 @@ SINA.lectures["physio-bioen-balance"] = {
     "Adipose tissue"
    ],
    "answer": 1,
-   "why": "PYY: enteroendocrine cells of the ileum and colon."
+   "why": "PYY: enteroendocrine cells of the ileum and colon.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/28.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "CCK is secreted by:",
@@ -15867,7 +17275,14 @@ SINA.lectures["physio-bioen-balance"] = {
     "Pancreatic beta cells"
    ],
    "answer": 1,
-   "why": "CCK: enteroendocrine cells of the duodenum and jejunum."
+   "why": "CCK: enteroendocrine cells of the duodenum and jejunum.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/29.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "CCK:",
@@ -15890,6 +17305,13 @@ SINA.lectures["physio-bioen-balance"] = {
     "Correct.",
     "Correct.",
     "Wrong: that is ghrelin."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/29.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 29
+    }
    ]
   },
   {
@@ -15901,7 +17323,14 @@ SINA.lectures["physio-bioen-balance"] = {
     "Dopamine neurons"
    ],
    "answer": 1,
-   "why": "NPY and AgRP are two potent appetite stimulants."
+   "why": "NPY and AgRP are two potent appetite stimulants.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/32.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which hormone stimulates NPY and AgRP secretion?",
@@ -15912,7 +17341,14 @@ SINA.lectures["physio-bioen-balance"] = {
     "CCK"
    ],
    "answer": 1,
-   "why": "Ghrelin stimulates; insulin, PYY, CCK and leptin inhibit."
+   "why": "Ghrelin stimulates; insulin, PYY, CCK and leptin inhibit.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/32.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Melanocortins (α-MSH) act on which receptors to inhibit eating?",
@@ -15923,7 +17359,19 @@ SINA.lectures["physio-bioen-balance"] = {
     "Leptin receptor only"
    ],
    "answer": 1,
-   "why": "α-MSH acts on MC3/MC4 receptors in the paraventricular nucleus."
+   "why": "α-MSH acts on MC3/MC4 receptors in the paraventricular nucleus.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/25.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 25
+    },
+    {
+     "src": "files/slides/physio-bioen-balance/26.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "AgRP affects melanocortin signalling by:",
@@ -15934,7 +17382,14 @@ SINA.lectures["physio-bioen-balance"] = {
     "Converting it to POMC"
    ],
    "answer": 1,
-   "why": "AgRP inhibits melanocortin secretion/action."
+   "why": "AgRP inhibits melanocortin secretion/action.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/32.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Leptin acts on melanocortin neurons by:",
@@ -15945,7 +17400,14 @@ SINA.lectures["physio-bioen-balance"] = {
     "Having no effect"
    ],
    "answer": 1,
-   "why": "Leptin stimulates melanocortin secretion."
+   "why": "Leptin stimulates melanocortin secretion.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-balance/32.jpg",
+     "lec": "Bioenergetics 5",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -16257,7 +17719,14 @@ SINA.lectures["physio-bioen-revision"] = {
     "100% above the norm"
    ],
    "answer": 1,
-   "why": "Obesity: weight more than 20% above the recommended norm for age, sex and height."
+   "why": "Obesity: weight more than 20% above the recommended norm for age, sex and height.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/02.jpg",
+     "lec": "Bioenergetics 6",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "BMI is calculated as:",
@@ -16268,7 +17737,14 @@ SINA.lectures["physio-bioen-revision"] = {
     "Waist / hip"
    ],
    "answer": 1,
-   "why": "BMI = W/H²."
+   "why": "BMI = W/H².",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/03.jpg",
+     "lec": "Bioenergetics 6",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "A BMI of 27 is:",
@@ -16279,7 +17755,19 @@ SINA.lectures["physio-bioen-revision"] = {
     "Underweight"
    ],
    "answer": 1,
-   "why": "Over 25: overweight; above 30: obese."
+   "why": "Over 25: overweight; above 30: obese.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/02.jpg",
+     "lec": "Bioenergetics 6",
+     "n": 2
+    },
+    {
+     "src": "files/slides/physio-bioen-revision/03.jpg",
+     "lec": "Bioenergetics 6",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "A BMI of 32 is:",
@@ -16290,7 +17778,19 @@ SINA.lectures["physio-bioen-revision"] = {
     "Normal for athletes only"
    ],
    "answer": 2,
-   "why": "Above 30: obese."
+   "why": "Above 30: obese.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/02.jpg",
+     "lec": "Bioenergetics 6",
+     "n": 2
+    },
+    {
+     "src": "files/slides/physio-bioen-revision/03.jpg",
+     "lec": "Bioenergetics 6",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Optimal BMI for most people is:",
@@ -16312,7 +17812,14 @@ SINA.lectures["physio-bioen-revision"] = {
     "65%"
    ],
    "answer": 1,
-   "why": "30% obese, another 35% overweight."
+   "why": "30% obese, another 35% overweight.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/02.jpg",
+     "lec": "Bioenergetics 6",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "An ob gene mutation causes:",
@@ -16323,7 +17830,14 @@ SINA.lectures["physio-bioen-revision"] = {
     "Insulin deficiency and weight loss"
    ],
    "answer": 1,
-   "why": "No leptin → no satiety → always hungry."
+   "why": "No leptin → no satiety → always hungry.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/05.jpg",
+     "lec": "Bioenergetics 6",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Children with congenital leptin deficiency are treated with:",
@@ -16368,6 +17882,13 @@ SINA.lectures["physio-bioen-revision"] = {
     "Correct.",
     "Correct.",
     "Wrong."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/12.jpg",
+     "lec": "Bioenergetics 6",
+     "n": 12
+    }
    ]
   },
   {
@@ -16379,7 +17900,14 @@ SINA.lectures["physio-bioen-revision"] = {
     "Hunger hormone from the stomach"
    ],
    "answer": 1,
-   "why": "Leptin is a long-term regulator; ghrelin short-term."
+   "why": "Leptin is a long-term regulator; ghrelin short-term.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/04.jpg",
+     "lec": "Bioenergetics 6",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "In healthy individuals, leptin:",
@@ -16390,7 +17918,19 @@ SINA.lectures["physio-bioen-revision"] = {
     "Destroys pancreatic beta cells"
    ],
    "answer": 1,
-   "why": "Leptin inhibits insulin; insulin stimulates leptin."
+   "why": "Leptin inhibits insulin; insulin stimulates leptin.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/16.jpg",
+     "lec": "Bioenergetics 6",
+     "n": 16
+    },
+    {
+     "src": "files/slides/physio-bioen-revision/17.jpg",
+     "lec": "Bioenergetics 6",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Insulin's effect on leptin secretion from adipose tissue is:",
@@ -16401,7 +17941,19 @@ SINA.lectures["physio-bioen-revision"] = {
     "It converts leptin to ghrelin"
    ],
    "answer": 1,
-   "why": "Insulin stimulates leptin secretion."
+   "why": "Insulin stimulates leptin secretion.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/16.jpg",
+     "lec": "Bioenergetics 6",
+     "n": 16
+    },
+    {
+     "src": "files/slides/physio-bioen-revision/18.jpg",
+     "lec": "Bioenergetics 6",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Insulin promotes:",
@@ -16412,7 +17964,14 @@ SINA.lectures["physio-bioen-revision"] = {
     "Ketogenesis"
    ],
    "answer": 1,
-   "why": "Insulin promotes glycogen and fat synthesis and inhibits fat breakdown."
+   "why": "Insulin promotes glycogen and fat synthesis and inhibits fat breakdown.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/17.jpg",
+     "lec": "Bioenergetics 6",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Desirable total cholesterol is below:",

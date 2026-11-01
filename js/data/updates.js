@@ -3,6 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "1 November 2026", items: [
+    "Added source slides with green highlights to the Renal physiology and Bioenergetics questions.",
     "Added Français button on lecture summaries (machine translation, saved on the device).",
     "Added Mark as revised on every lecture, with ticks and a revised count on subject pages.",
     "Changed: every question allows several picks, with no hint on how many answers are correct.",
