@@ -420,7 +420,7 @@
       var fig = L.visual && L.visual.figure;
       (L.mcqs || []).forEach(function (q, n) {
         if (q.target && !fig) return;
-        out.push({ kind: "Question", deep: 1, title: q.q, sub: it.title, href: "#/find/q/" + it.id + "/" + n, hay: q.q + " " + q.options.join(" ") + " " + (q.why || "") + " " + (q.notes || []).join(" ") });
+        out.push({ kind: "Question", deep: 1, title: q.q.replace(/\s*\(choose all\)\s*$/i, ""), sub: it.title, href: "#/find/q/" + it.id + "/" + n, hay: q.q + " " + q.options.join(" ") + " " + (q.why || "") + " " + (q.notes || []).join(" ") });
       });
       (L.cards || []).forEach(function (c) {
         if (c.type === "image") return;
@@ -537,7 +537,7 @@
       '<ol class="photo-legend">' + ids.map(function (id) { return "<li>" + esc([].concat(fig.parts[id].label || id).join(" ")) + "</li>"; }).join("") + "</ol>";
   }
   function isBoxFig(fig) { var ks = Object.keys(fig.parts || {}); return ks.length > 0 && ks.every(function (id) { return /^\s*<rect/.test(fig.parts[id].shape || ""); }); }
-  function figQText(q, fig) { return q.target && fig && isBoxFig(fig) && /at the arrow\?$/.test(q.q) ? "Which element belongs in the box marked \u201c?\u201d?" : q.q; }
+  function figQText(q, fig) { return q.target && fig && isBoxFig(fig) && /at the arrow\?$/.test(q.q) ? "Which element belongs in the box marked \u201c?\u201d?" : String(q.q).replace(/\s*\(choose all\)\s*$/i, ""); }
   function figureSVG(fig, cfg) {
     cfg = cfg || {};
     var quiz = cfg.mode === "quiz", uid = cfg.uid || "f";
@@ -1220,13 +1220,13 @@
         }
         return;
       }
-      var q = qs[i], multi = !!(q.multi || (q.answers && q.answers.length > 1));
+      var q = qs[i], multi = true;
       var qfig = q._fig || (lec.visual && lec.visual.figure);
       var qph = q.target ? photoQ(q._lid || lec.id, q.target) : "";
       var pic = qph ? qph : (q.target && qfig)
         ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "q" + i }) + "</div>"
         : "";
-      p.innerHTML = '<p class="qhead">Question ' + (i + 1) + " of " + qs.length + (multi ? ", " + esc(q.hint || "choose all correct answers") : "") + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + flameHTML(streak, false) + '</p><div class="bar-track"><div class="bar-fill" style="width:' + (i / qs.length * 100) + '%"></div></div><p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
+      p.innerHTML = '<p class="qhead">Question ' + (i + 1) + " of " + qs.length + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + flameHTML(streak, false) + '</p><div class="bar-track"><div class="bar-fill" style="width:' + (i / qs.length * 100) + '%"></div></div><p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
         q.options.map(function (o, n) { return '<button class="opt" data-n="' + n + '" aria-pressed="false"><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span></button>"; }).join("") + (multi ? '<button class="btn primary" id="chk" type="button">Check my answer</button>' : "") + '<div id="fb"></div>' +
         '<div class="qnav"><button class="btn" id="prev" type="button"' + (i ? "" : " disabled") + '>&larr; Previous</button><button class="btn" id="fwd" type="button">' + (i + 1 < qs.length ? "Next" : "Finish") + ' &rarr;</button></div>';
       centerTarget(p);
@@ -1724,11 +1724,11 @@
     var qs = set.mcqs, n = qs.length, sel = qs.map(function () { return []; }), i = 0, LET = "abcdefgh";
     var secs = n * 60, end = Date.now() + secs * 1000, timer = null, over = false;
     function fmt(s) { s = Math.max(0, Math.round(s)); var m = Math.floor(s / 60); return m + ":" + ("0" + (s % 60)).slice(-2); }
-    function multi(q) { return !!(q.multi || (q.answers && q.answers.length > 1)); }
+    function multi() { return true; }
     function render() {
       var q = qs[i], qfig = q._fig, qph = q.target ? photoQ(q._lid || set.id, q.target) : "";
       var pic = qph || (q.target && qfig ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "x" + i }) + "</div>" : "");
-      p.innerHTML = '<div class="exam-bar"><span class="exam-time" id="xt">' + fmt((end - Date.now()) / 1000) + '</span><span class="meta">Question ' + (i + 1) + " of " + n + (multi(q) ? ", " + esc(q.hint || "choose all correct answers") : "") + '</span><button class="btn small primary" id="xsub">Submit</button></div>' +
+      p.innerHTML = '<div class="exam-bar"><span class="exam-time" id="xt">' + fmt((end - Date.now()) / 1000) + '</span><span class="meta"></span><button class="btn small primary" id="xsub">Submit</button></div>' +
         '<div class="exam-grid">' + qs.map(function (_, k) { return '<button class="xg' + (k === i ? " cur" : "") + (sel[k].length ? " done" : "") + '" data-k="' + k + '">' + (k + 1) + "</button>"; }).join("") + "</div>" +
         '<p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
         q.options.map(function (o, k) { var on = sel[i].indexOf(k) > -1; return '<button class="opt' + (on ? " picked" : "") + '" data-n="' + k + '" aria-pressed="' + on + '"><span class="letter">' + LET[k].toUpperCase() + "</span><span>" + esc(o) + "</span></button>"; }).join("") +
@@ -1821,7 +1821,6 @@
   /* ---------- partial credit: multi-answer questions score (right picks - wrong picks) / number of answers ---------- */
   function qPoints(q, chosen) {
     var ans = q.answers || [q.answer];
-    if (ans.length < 2) return chosen.length === 1 && chosen[0] === ans[0] ? 1 : 0;
     var r = 0, w = 0; chosen.forEach(function (c) { if (ans.indexOf(c) > -1) r++; else w++; });
     return Math.max(0, (r - w) / ans.length);
   }
@@ -1848,7 +1847,7 @@
   }
   function scoreRevealHTML(score, n) {
     var pct = n ? Math.round(score / n * 100) : 0, C = 2 * Math.PI * 42;
-    return '<div class="score-reveal"><svg class="pring big" viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42" stroke-dasharray="' + C + '" stroke-dashoffset="' + C + '" data-to="' + (C * (1 - pct / 100)) + '"/><text x="50" y="57" class="sr-pct">' + (REDUCE ? pct : 0) + '%</text></svg><div class="score"><span class="sr-n">' + (REDUCE ? fmtPts(score) : 0) + "</span> / " + n + "</div></div>" + (score % 1 ? '<p class="src partial-note">Multi-answer questions give partial points: (right picks − wrong picks) ÷ number of correct answers.</p>' : "");
+    return '<div class="score-reveal"><svg class="pring big" viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42" stroke-dasharray="' + C + '" stroke-dashoffset="' + C + '" data-to="' + (C * (1 - pct / 100)) + '"/><text x="50" y="57" class="sr-pct">' + (REDUCE ? pct : 0) + '%</text></svg><div class="score"><span class="sr-n">' + (REDUCE ? fmtPts(score) : 0) + "</span> / " + n + "</div></div>" ;
   }
   function scoreReveal(p, score, n) {
     var ring = p.querySelector(".score-reveal .fg"), num = p.querySelector(".sr-n"), pc = p.querySelector(".sr-pct"), pct = n ? Math.round(score / n * 100) : 0;

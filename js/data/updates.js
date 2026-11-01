@@ -3,10 +3,10 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "1 November 2026", items: [
+    "Changed: every question allows several picks, with no hint on how many answers are correct.",
     "Added Renal physiology lectures 1, 2, 4, 5 and 6 (introduction, nephron, regulation of GFR, tubular reabsorption, acid-base balance).",
     "Added Bioenergetics (6 lectures): introduction, energy metabolism, lipids, ATP, energy balance, revision.",
     "Changed: Physiology sections are Neurophysiology, Muscle, Special senses, Renal physiology and Bioenergetics.",
-    "Removed the study-aid line from the welcome screen.",
     "Added partial points on multi-answer questions: (right picks − wrong picks) ÷ number of correct answers.",
     "Added section arrows on the home page for Anatomy, Physiology and Semiology; section filter on subject pages.",
     "Fixed: \"Correct answer\" label overlapping the option notes in answer reviews."

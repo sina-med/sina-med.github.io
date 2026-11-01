@@ -1244,3 +1244,6 @@ html.splashing body { overflow: hidden; }
 .gchip:hover { border-color: var(--accent); }
 .gchip.on, :root[data-theme="dark"] .gchip.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 :root[data-theme="dark"] .gchip { color: var(--ink); }
+
+.hero-brand { font-size: 1.35rem; letter-spacing: .1em; }
+@media (max-width: 560px) { .hero-brand { font-size: 1.2rem; } }
