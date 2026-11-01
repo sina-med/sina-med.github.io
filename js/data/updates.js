@@ -3,6 +3,10 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "31 October 2026", items: [
+    "Added search inside questions and flashcards (e.g. \"T3\", \"cortisol\"): results open the exact question or card.",
+    "Added heartbeat reading line under the lecture tabs that fills as the page is read.",
+    "Changed: cram plan folds into one bar; tap it for the full plan.",
+    "Fixed: What's new button showed two labels.",
     "Changed: Clinical Biochemistry midterm date is Tuesday 3 November.",
     "Changed: cram plan shows the two weakest lectures, with a bar to show the full plan; wider midterm card; What's new glows orange on hover.",
     "Changed: home page quick access (Continue where you left off, Redo my mistakes, My progress, Leaderboard) replaces the link bar; What's new moved to the top bar.",

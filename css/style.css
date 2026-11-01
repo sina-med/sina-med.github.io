@@ -1164,8 +1164,54 @@ html.splashing body { overflow: hidden; }
 .news-btn { transition: border-color .2s ease, box-shadow .25s ease, color .2s ease; }
 .news-btn:hover, .news-btn:focus-visible { color: #f76707; border-color: #f76707; box-shadow: 0 0 0 3px rgba(247,103,7,.18), 0 0 18px rgba(247,103,7,.55); outline: none; }
 .news-btn .nshort { display: none; }
-@media (max-width: 760px) { .news-btn { width: auto; padding: 0 .6rem; } .news-btn .nlbl { display: none; } .news-btn .nshort { display: inline; } }
+@media (max-width: 760px) { .news-btn { width: auto; padding: 0 .6rem; } .news-btn .nlbl { display: none; } .news-btn .nshort[hidden] { display: inline; } }
 @media (max-width: 440px) { .news-btn { width: auto; height: 32px; padding: 0 .5rem; font-size: .76rem; } }
 @media (max-width: 699px) { .mid-card .mid-main .row { display: grid; grid-template-columns: 1fr; } .mid-card .mid-main .row .btn { justify-content: center; text-align: center; width: 100%; } }
 @media (max-width: 440px) { .prog-caret { display: none; } .prog-btn { padding: 0.3rem 0.5rem; } .bar .left { gap: 0.3rem; } .menu-btn { width: 38px; height: 38px; } .search-toggle, .gear-btn { width: 2.1rem !important; height: 2.1rem !important; } }
 @media (max-width: 370px) { .bar { padding: 0.55rem 0.5rem; } .wordmark { font-size: 1.12rem; } .prog-btn { font-size: 0.74rem; padding: 0.28rem 0.42rem; } .news-btn { padding: 0 .4rem; } }
+
+/* ---------- cram plan: one compact bar that opens ---------- */
+.cram-plan { border-top: 0; padding-top: 0; }
+.cram-bar { display: flex; align-items: center; gap: .7rem; width: 100%; text-align: left; font: inherit; color: var(--ink); background: color-mix(in srgb, var(--surface) 70%, transparent); border: 1px solid var(--line-strong); border-radius: 12px; padding: .6rem .8rem; cursor: pointer; transition: border-color .15s ease, background .15s ease; }
+.cram-bar:hover { border-color: var(--accent); }
+.cb-ico { flex: none; width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center; background: color-mix(in srgb, var(--wing) 22%, transparent); color: color-mix(in srgb, var(--wing) 70%, var(--ink)); }
+.cb-ico svg { width: 19px; height: 19px; }
+.cb-txt { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.cb-t { font-weight: 800; font-size: .95rem; }
+.cb-t em { font-style: normal; font-weight: 700; font-size: .75rem; margin-left: .45rem; padding: .08rem .5rem; border-radius: 99px; background: var(--accent); color: var(--accent-ink, #fff); vertical-align: 1px; }
+.cb-s { font-size: .8rem; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cb-chev { flex: none; width: 14px; height: 14px; color: var(--muted); transition: transform .3s ease; }
+.cram-plan.open .cb-chev { transform: rotate(180deg); }
+.cram-body { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .35s cubic-bezier(.2,.8,.2,1); }
+.cram-plan.open .cram-body { grid-template-rows: 1fr; }
+.cram-inner { overflow: hidden; min-height: 0; }
+.cram-plan .cram-tip { margin: .7rem 0 .5rem; font-size: .88rem; }
+.cram-plan .cram-list li, .cram-plan .cram-list li:nth-child(n+3), .cram-plan.open .cram-list li:nth-child(n+3) { display: block; animation: none; }
+.cram-plan .cram-list { gap: 0; margin: 0 0 .4rem; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.cram-plan .cram-list li + li { border-top: 1px solid var(--line); }
+.cram-plan .cram-list a { display: grid; grid-template-columns: minmax(0, 1fr) 5.5rem 3rem; align-items: center; gap: .7rem; padding: .5rem .7rem; border: 0; border-radius: 0; background: transparent; }
+.cram-plan .cram-list a:hover { background: color-mix(in srgb, var(--accent) 7%, transparent); }
+.cram-plan .cram-list li.weak a { border: 0; }
+.cram-plan .cram-list li.weak .cl-t::after { content: none; }
+.cram-plan .cram-list li.weak .cl-t::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: #d3243b; margin-right: .45rem; vertical-align: 2px; box-shadow: 0 0 0 3px color-mix(in srgb, #d3243b 22%, transparent); }
+.cram-plan .cl-t { font-size: .88rem; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cram-plan .cl-bar { margin: 0; }
+.cram-plan .cl-m { text-align: right; font-variant-numeric: tabular-nums; }
+.cram-redo { display: inline-block; font-size: .85rem; font-weight: 700; margin: .2rem 0 .1rem; }
+.cram-more { display: none !important; }
+
+/* ---------- smarter search ---------- */
+.sk.deep { background: color-mix(in srgb, var(--wing) 22%, transparent); color: var(--ink); }
+.search-results mark, .home-results mark { background: color-mix(in srgb, var(--wing) 45%, transparent); color: inherit; border-radius: 3px; padding: 0 .1em; }
+
+/* ---------- lecture: heartbeat reading line ---------- */
+.tabs.sticky { position: sticky; }
+.tabs.has-ecg { padding-bottom: 9px; border-bottom-color: transparent; }
+.read-ecg { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 12px; pointer-events: none; overflow: visible; }
+.read-ecg polyline { fill: none; stroke-width: 1.6; vector-effect: non-scaling-stroke; stroke-linejoin: round; stroke-linecap: round; }
+.read-ecg .re-bg { stroke: var(--line); }
+.read-ecg .re-fg { stroke: var(--accent); stroke-dasharray: 100; stroke-dashoffset: 100; transition: stroke-dashoffset .15s linear; }
+.tabs.read-done .re-fg { animation: readDone 1s ease 1; }
+@keyframes readDone { 30% { stroke-width: 3; filter: drop-shadow(0 0 4px var(--accent)); } }
+@media (max-width: 760px) { .news-btn .nlbl { display: inline !important; font-size: 0; } .news-btn .nlbl::after { content: attr(data-short); font-size: .8rem; } }
+@media (max-width: 440px) { .news-btn .nlbl::after { font-size: .76rem; } }

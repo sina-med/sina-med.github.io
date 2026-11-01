@@ -83,7 +83,7 @@
   }
   function setProgram(id, quiet) {
     if (!progValid(id)) return;
-    var changed = id !== PROG; PROG = id; store.set("sina:program", id);
+    var changed = id !== PROG; PROG = id; store.set("sina:program", id); if (changed && typeof IDX !== "undefined") IDX = null;
     if (changed || quiet) { try { track("year-" + id, "Year chosen: " + progName(id), true); } catch (e) {} }
     renderProgMenu(); if (typeof renderDrawer === "function") renderDrawer();
     if (changed && !quiet) {
@@ -415,6 +415,18 @@
         });
       });
     });
+    progSubjects().forEach(function (sub) { (sub.groups || []).forEach(function (g) { g.items.forEach(function (it) {
+      var L = S.lectures[it.id]; if (!L) return;
+      var fig = L.visual && L.visual.figure;
+      (L.mcqs || []).forEach(function (q, n) {
+        if (q.target && !fig) return;
+        out.push({ kind: "Question", deep: 1, title: q.q, sub: it.title, href: "#/find/q/" + it.id + "/" + n, hay: q.q + " " + q.options.join(" ") + " " + (q.why || "") + " " + (q.notes || []).join(" ") });
+      });
+      (L.cards || []).forEach(function (c) {
+        if (c.type === "image") return;
+        out.push({ kind: "Flashcard", deep: 1, title: c.front, sub: it.title, href: "#/find/c/" + it.id + "/" + encodeURIComponent(c.id), hay: c.front + " " + c.back });
+      });
+    }); }); });
     (S.papers || []).forEach(function (x) {
       out.push({ kind: "Past paper", title: x.title, sub: (subjectById(x.subject) || {}).name || "", href: "#/paper/" + x.id, hay: x.title + " " + (x.year || "") });
     });
@@ -425,8 +437,14 @@
   function searchHits(q) {
     q = q.toLowerCase();
     if (!IDX) IDX = searchIndex();
-    var words = q.split(/\s+/), scored = [];
+    var words = q.split(/\s+/), scored = [], deepN = { Question: 0, Flashcard: 0 };
+    var rx = words.map(function (w) { return new RegExp("(^|[^a-z0-9])" + w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "(?![0-9])", "i"); });
     IDX.forEach(function (r) {
+      if (r.deep) {
+        if (!rx.every(function (x) { return x.test(r.hay); })) return;
+        scored.push({ r: r, score: 3 + (rx.every(function (x) { return x.test(r.title); }) ? 0 : 0.5) + (r.kind === "Flashcard" ? 0.2 : 0) });
+        return;
+      }
       var title = r.title.toLowerCase(), hay = r.hay.toLowerCase();
       var inTitle = words.every(function (w) { return title.indexOf(w) > -1; });
       var inAll = words.every(function (w) { return hay.indexOf(w) > -1; });
@@ -437,12 +455,20 @@
       scored.push({ r: r, score: score });
     });
     scored.sort(function (a, b) { return a.score - b.score; });
-    return scored.slice(0, 20).map(function (x) { return x.r; });
+    var res = [];
+    scored.forEach(function (x) { if (res.length >= 24) return; if (x.r.deep) { if (deepN[x.r.kind] >= (x.r.kind === "Question" ? 8 : 5)) return; deepN[x.r.kind]++; } res.push(x.r); });
+    res.q = q; return res;
+  }
+  function markHit(text, q) {
+    var h = esc(text); if (!q) return h;
+    q.split(/\s+/).filter(Boolean).forEach(function (w) { var e = esc(w).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); h = h.replace(new RegExp("(^|[^a-z0-9&;])(" + e + ")(?![0-9])", "gi"), "$1<mark>$2</mark>"); });
+    return h;
   }
   function hitsHTML(hits) {
     return hits.length
       ? hits.map(function (r) {
-          var inner = '<span class="sk">' + esc(r.kind) + '</span><span class="st">' + esc(r.title) + '</span><span class="ss">' + esc(r.sub) + "</span>";
+          var tt = r.deep ? markHit(r.title.length > 110 ? r.title.slice(0, 107) + "…" : r.title, hits.q) : esc(r.title);
+          var inner = '<span class="sk' + (r.deep ? " deep" : "") + '">' + esc(r.kind) + '</span><span class="st">' + tt + '</span><span class="ss">' + esc(r.sub) + "</span>";
           return r.href ? '<a href="' + r.href + '">' + inner + "</a>" : '<span class="dim">' + inner + "</span>";
         }).join("")
       : '<p class="none">Nothing matches that yet.</p>';
@@ -622,7 +648,7 @@
     setView(html, "");
     startCaduceus(document.getElementById("cad")); animateRings(); flipCountdowns();
     revealOnScroll(app.querySelectorAll(".subject-list > li, .sem-title"));
-    app.querySelectorAll(".cram-more").forEach(function (b) { b.onclick = function () { var pl = b.closest(".cram-plan"), o = !pl.classList.contains("open"); pl.classList.toggle("open", o); b.setAttribute("aria-expanded", String(o)); store.set("sina:cramOpen", o); }; });
+    app.querySelectorAll(".cram-bar").forEach(function (b) { b.onclick = function () { var pl = b.closest(".cram-plan"), o = !pl.classList.contains("open"); pl.classList.toggle("open", o); b.setAttribute("aria-expanded", String(o)); store.set("sina:cramOpen", o); }; });
     var art = app.querySelector(".hero-art"), cvh = document.getElementById("cad");
     if (art && cvh) { var excite = function () { art.classList.add("excited"); cvh.dataset.fast = "1"; clearTimeout(art._t); art._t = setTimeout(function () { art.classList.remove("excited"); delete cvh.dataset.fast; }, 2500); }; art.addEventListener("mouseenter", excite); art.addEventListener("click", excite); }
     var hi = document.getElementById("home-search"), hr = document.getElementById("home-results");
@@ -883,6 +909,7 @@
     wireTabs(app);
     var panel = document.getElementById("panel");
     ({ summary: summaryPanel, cards: cardsPanel, deeper: deeperPanel })[tab](panel, lec);
+    if (tab !== "cards") readingLine(panel);
     app.querySelectorAll(".tab").forEach(function (b) {
       b.addEventListener("click", function () { location.hash = "#/lecture/" + id + (b.dataset.tab === "summary" ? "" : "/" + b.dataset.tab); });
     });
@@ -1741,6 +1768,43 @@
 
 
 
+
+  /* ---------- search result: one question or one flashcard ---------- */
+  function findView(kind, lid, ref) {
+    var L = S.lectures[lid]; if (!L) return notFound();
+    var sub = subjectById(L.subject);
+    var head = '<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / <a href="#/subject/' + sub.id + '">' + esc(sub.name) + '</a> / <a href="#/lecture/' + lid + '">' + esc(L.title) + "</a></p>";
+    if (kind === "q") {
+      var q = (L.mcqs || [])[+ref]; if (!q) return notFound();
+      setView(head + '<h1>Question from ' + esc(L.title) + '</h1><div class="panel-q" id="fq"></div><div class="row" style="margin-top:1.2rem"><a class="btn primary" href="#/subject/' + sub.id + "/questions/" + lid + '">All questions on this lecture</a><a class="btn" href="#/lecture/' + lid + '">Open the lecture</a></div></div>', "Question");
+      var c = {}; for (var k in q) c[k] = q[k]; c._lid = lid;
+      questionsPanel(document.getElementById("fq"), { id: lid, mcqs: [c], visual: L.visual });
+      return;
+    }
+    var card = (L.cards || []).filter(function (x) { return x.id === ref; })[0]; if (!card) return notFound();
+    setView(head + '<h1>Flashcard from ' + esc(L.title) + '</h1><div id="fc"></div><div class="row" style="margin-top:1.2rem"><a class="btn primary" href="#/lecture/' + lid + '/cards">All flashcards on this lecture</a><a class="btn" href="#/lecture/' + lid + '">Open the lecture</a></div></div>', "Flashcard");
+    cardsPanel(document.getElementById("fc"), { id: lid, cards: [card], visual: L.visual });
+  }
+  /* ---------- lecture: heartbeat reading line that fills as the summary is read ---------- */
+  function readingLine(panel) {
+    var tabs = app.querySelector(".tabs.sticky"); if (!tabs || !panel) return;
+    var pts = [], x = 0;
+    for (var b = 0; b < 8; b++) { pts.push(x + ",6", (x + 30) + ",6", (x + 33) + ",3", (x + 36) + ",6", (x + 39) + ",6", (x + 41) + ",0.5", (x + 44) + ",11.5", (x + 47) + ",4", (x + 49) + ",6"); x += 62; }
+    pts.push("496,6");
+    tabs.classList.add("has-ecg");
+    tabs.insertAdjacentHTML("beforeend", '<svg class="read-ecg" viewBox="0 0 496 12" preserveAspectRatio="none" aria-hidden="true"><polyline class="re-bg" points="' + pts.join(" ") + '"/><polyline class="re-fg" pathLength="100" points="' + pts.join(" ") + '"/></svg>');
+    var fg = tabs.querySelector(".re-fg"), ticking = false;
+    function upd() {
+      ticking = false;
+      if (!panel.isConnected) { window.removeEventListener("scroll", onScroll); return; }
+      var r = panel.getBoundingClientRect(), vh = window.innerHeight, total = r.height - vh * 0.6;
+      var p = total > 0 ? Math.min(1, Math.max(0, (-r.top + vh * 0.25) / total)) : 1;
+      fg.style.strokeDashoffset = (100 - p * 100).toFixed(1);
+      tabs.classList.toggle("read-done", p >= 0.995);
+    }
+    function onScroll() { if (!ticking) { ticking = true; requestAnimationFrame(upd); } }
+    window.addEventListener("scroll", onScroll, { passive: true }); upd();
+  }
   /* ---------- animation helpers ---------- */
   var REDUCE = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
   function snakeLoader() {
@@ -1951,10 +2015,16 @@
     var tip = dl === 0 ? "Exam day: skim the summaries and high-yield tabs; no new material." :
       dl === 1 ? "Last day: redo your mistakes and do one past paper in Exam mode." :
       left ? "Do about <strong>" + perDay + " questions a day</strong> to cover every midterm question at least once." : "Every midterm question answered right at least once. Keep going with past papers in Exam mode.";
-    var openPlan = store.get("sina:cramOpen", false), extra = rows.length - 2;
-    return '<div class="cram-plan' + (openPlan ? " open" : "") + '"><h3>Cram plan</h3><p class="cram-tip">' + tip + '</p><ol class="cram-list">' + rows.map(function (r, i) {
-      return '<li' + (i < 2 && r.cov < 1 ? ' class="weak"' : "") + '><a href="#/subject/' + m.subject + "/questions/" + r.id + '"><span class="cl-t">' + esc(r.title) + '</span><span class="cl-m">' + r.right + "/" + r.total + " right" + (r.acc !== null ? " · " + r.acc + "% accuracy" : " · not started") + '</span><span class="cl-bar"><i style="width:' + Math.round(r.cov * 100) + '%"></i></span></a></li>';
-    }).join("") + "</ol>" + (extra > 0 ? '<button type="button" class="cram-more" aria-expanded="' + openPlan + '"><span class="cm-open">Show the full plan (' + extra + " more lecture" + (extra > 1 ? "s" : "") + ')</span><span class="cm-close">Show less</span><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>' : "") + "</div>";
+    var openPlan = store.get("sina:cramOpen", false), weak = rows.filter(function (r) { return r.cov < 1; }).slice(0, 2);
+    var lead = dl <= 1 ? (dl === 0 ? "Exam day" : "Last day") : left ? "~" + perDay + " questions a day" : "All covered";
+    var startWith = weak.length ? "Start with " + weak.map(function (r) { return r.title; }).join(" and ") : "Every lecture covered";
+    var mk = mistakeList().length;
+    return '<div class="cram-plan' + (openPlan ? " open" : "") + '"><button type="button" class="cram-bar" aria-expanded="' + openPlan + '"><span class="cb-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h3M4 12h3M4 18h3M10 6h10M10 12h7M10 18h9" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span>' +
+      '<span class="cb-txt"><span class="cb-t">Cram plan <em>' + lead + '</em></span><span class="cb-s">' + esc(startWith) + '</span></span><svg class="cb-chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>' +
+      '<div class="cram-body"><div class="cram-inner"><p class="cram-tip">' + tip + '</p><ol class="cram-list">' + rows.map(function (r) {
+        var isWeak = weak.indexOf(r) > -1;
+        return '<li' + (isWeak ? ' class="weak"' : "") + '><a href="#/subject/' + m.subject + "/questions/" + r.id + '" title="' + (r.acc !== null ? r.acc + "% accuracy" : "Not started") + '"><span class="cl-t">' + esc(r.title) + '</span><span class="cl-bar"><i style="width:' + Math.round(r.cov * 100) + '%"></i></span><span class="cl-m">' + r.right + "/" + r.total + "</span></a></li>";
+      }).join("") + "</ol>" + (mk ? '<a class="cram-redo" href="#/mistakes">Redo my mistakes (' + mk + ") &rarr;</a>" : "") + "</div></div></div>";
   }
   /* ---------- home: midterm countdown (flip) and progress ring ---------- */
   function midStats(m) {
@@ -2000,6 +2070,7 @@
     if (parts[0] === "progress") return progressView();
     if (parts[0] === "mistakes") return mistakesView();
     if (parts[0] === "leaderboard") return leaderboardView(parts[1]);
+    if (parts[0] === "find") return findView(parts[1], parts[2], decodeURIComponent(parts[3] || ""));
     if (parts[0] === "practice") return parts[1] ? practiceView(parts[1], parts[2], parts[3]) : practiceHome();
     if (parts[0] === "papers") return papersView(parts[1]);
     if (parts[0] === "paper") return paperView(parts[1]);
