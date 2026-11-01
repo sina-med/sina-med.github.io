@@ -2,7 +2,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-neck-triangles"] = {
  "id": "anat3-neck-triangles",
  "subject": "anat3",
- "group": "Nose, mouth, throat and neck",
+ "group": "ENT",
  "title": "The forgotten triangles of the neck",
  "sourceFile": "Forgotten triangles of neck.pdf (Singh, Vashistha, Chaudhary and Kaur, Annals of Maxillofacial Surgery, 2016)",
  "sourceUrl": "https://drive.google.com/file/d/1S5uMMgcYt1ldPUMYQdY4gsYnSSQ7kuNr/view?usp=drivesdk",

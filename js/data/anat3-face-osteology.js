@@ -2,7 +2,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-face-osteology"] = {
  "id": "anat3-face-osteology",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "Osteology of the face",
  "sourceFile": "1. Osteology of Face_UM6SS.pptx (Facio-Maxillary Module, Prof. Zehra Jamil)",
  "sourceUrl": "https://drive.google.com/file/d/1u-4O0m328SdTCymZjS6VDkONg14ya608/view?usp=drivesdk",

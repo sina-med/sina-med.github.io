@@ -3,6 +3,8 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "31 October 2026", items: [
+    "Changed: Anatomy 3 lectures grouped as Faciomaxillary, ENT and Neuroanatomy.",
+    "Fixed: home page was wider than the screen on phones during midterm week.",
     "Added search inside questions and flashcards (e.g. \"T3\", \"cortisol\"): results open the exact question or card.",
     "Added heartbeat reading line under the lecture tabs that fills as the page is read.",
     "Changed: cram plan folds into one bar; tap it for the full plan.",

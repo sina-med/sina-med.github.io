@@ -2,7 +2,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-larynx"] = {
  "id": "anat3-larynx",
  "subject": "anat3",
- "group": "Nose, mouth, throat and neck",
+ "group": "ENT",
  "title": "Anatomy of the larynx",
  "sourceFile": "PART1-ANATOMY OF THE LARYNX.pdf (Anatomy 4, FM2, Pr Hajjij Amal, 2025/2026)",
  "sourceUrl": "https://drive.google.com/file/d/1g2pSurnFvPXtbuB2ow4XRNl65n0pRpi8/view?usp=drivesdk",

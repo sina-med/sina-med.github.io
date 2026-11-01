@@ -2,7 +2,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-oral-cavity"] = {
  "id": "anat3-oral-cavity",
  "subject": "anat3",
- "group": "Nose, mouth, throat and neck",
+ "group": "Faciomaxillary",
  "title": "Oral cavity proper, tongue and palate",
  "sourceFile": "5. Oral Cavity Proper.pptx (Facio-Maxillary Module, Zehra Jamil, 2025)",
  "sourceUrl": "https://drive.google.com/file/d/1JQjCEHBiPgBSkS8rY2rdUIKOOSL4TsMR/view?usp=drivesdk",

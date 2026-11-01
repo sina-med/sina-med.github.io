@@ -1215,3 +1215,5 @@ html.splashing body { overflow: hidden; }
 @keyframes readDone { 30% { stroke-width: 3; filter: drop-shadow(0 0 4px var(--accent)); } }
 @media (max-width: 760px) { .news-btn .nlbl { display: inline !important; font-size: 0; } .news-btn .nlbl::after { content: attr(data-short); font-size: .8rem; } }
 @media (max-width: 440px) { .news-btn .nlbl::after { font-size: .76rem; } }
+.hero-grid > *, .hero-text > * { min-width: 0; } .hero-grid .home-search { width: 100%; } .home-search input { min-width: 0; box-sizing: border-box; }
+.hero { grid-template-columns: minmax(0, 1fr); } .mid-card > * { min-width: 0; } .cram-plan, .cram-bar { min-width: 0; max-width: 100%; }

@@ -2,7 +2,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-sinuses"] = {
  "id": "anat3-sinuses",
  "subject": "anat3",
- "group": "Nose, mouth, throat and neck",
+ "group": "ENT",
  "title": "Nose and paranasal sinuses",
  "sourceFile": "4. Paranasal sinuses.pptx (Facio-Maxillary Module, Zehra Jamil)",
  "sourceUrl": "https://drive.google.com/file/d/1rFXrLmRQsFqBIzXOIRgcHXTPnrMUvkaA/view?usp=drivesdk",

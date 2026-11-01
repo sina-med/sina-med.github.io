@@ -2,7 +2,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-facial-muscles"] = {
  "id": "anat3-facial-muscles",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "Muscles of the facio-maxillary region",
  "sourceFile": "2. Muscles of face.pptx (Facio-Maxillary Module, Prof. Zehra Jamil Sohail)",
  "sourceUrl": "https://drive.google.com/file/d/1dzsbGH6igdIto7nSD7nVj-dbhY-pqsdR/view?usp=drivesdk",

@@ -2,7 +2,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-thyroid"] = {
  "id": "anat3-thyroid",
  "subject": "anat3",
- "group": "Nose, mouth, throat and neck",
+ "group": "ENT",
  "title": "Anatomy of the thyroid gland",
  "sourceFile": "Anatomy of the Thyroid Gland EFM2.pdf (Anatomy 4, ENT Anatomy, Pr Hajjij Amal)",
  "sourceUrl": "https://drive.google.com/file/d/1nhEmkMKYaourql1JANqTsSu3wuD7oNd1/view?usp=drivesdk",

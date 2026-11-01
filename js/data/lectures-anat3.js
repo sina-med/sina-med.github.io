@@ -3,7 +3,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-orbit"] = {
  "id": "anat3-orbit",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "The orbit: osteology and myology",
  "sourceFile": "1. Osteology of the orbit.pdf (Facio-Maxillary Module, CM1, 2025-26)",
  "sourceUrl": "https://drive.google.com/file/d/1TbWitUZWJ2CvpTh0RIYK3vscePsgzNzV/view?usp=drivesdk",
@@ -800,7 +800,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-face-osteology"] = {
  "id": "anat3-face-osteology",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "Osteology of the face",
  "sourceFile": "1. Osteology of Face.pdf (Facio-Maxillary Module, Prof. Zehra Jamil)",
  "sourceUrl": "https://drive.google.com/file/d/1BH5683b1-PuQWATnZBM157owvzpOpC6s/view?usp=drivesdk",
@@ -2153,7 +2153,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-facial-muscles"] = {
  "id": "anat3-facial-muscles",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "Muscles of the facio-maxillary region",
  "sourceFile": "2. Muscles of the facio-maxillary region.pdf (Facio-Maxillary Module, Prof. Zehra Jamil Sohail)",
  "sourceUrl": "https://drive.google.com/file/d/1yZC9iQb6YuOWHevYTFrAn-iSH4q-boOv/view?usp=drivesdk",
@@ -3138,7 +3138,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-blood-supply"] = {
  "id": "anat3-blood-supply",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "Blood supply of the facio-maxillary region",
  "sourceFile": "3. Blood Supply of the region.pdf (Facio-Maxillary Module, Prof. Zehra Jamil)",
  "sourceUrl": "https://drive.google.com/file/d/1Q28xrgRntDaLYcKlu3kzgW4vh9zX5tG_/view?usp=drivesdk",
@@ -4171,7 +4171,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-orbital-appendages"] = {
  "id": "anat3-orbital-appendages",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "Anatomy of the orbital appendages",
  "sourceFile": "2. Anatomy of orbital appendages.pdf (Facio-Maxillary Module, Dr Zehra Jamil)",
  "sourceUrl": "https://drive.google.com/file/d/1GZPQX3yNw534FLpTn_eqSh7KDsNh-4xc/view?usp=drivesdk",
@@ -5117,7 +5117,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-eyeball-1"] = {
  "id": "anat3-eyeball-1",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "Anatomy of the eyeball I",
  "sourceFile": "3. Anatomy of the Eye Ball-I.pdf (Facio-Maxillary Module, Dr Zehra Jamil)",
  "sourceUrl": "https://drive.google.com/file/d/1O8XZPNZfvo05VoFbyroa7TdI3nw4XBpC/view?usp=drivesdk",
@@ -6275,7 +6275,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-ocular-muscles"] = {
  "id": "anat3-ocular-muscles",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "Anatomy of the eyeball II: extraocular muscles and eye movement",
  "sourceFile": "4. Anatomy of the Eye Ball-II (Facio-Maxillary Module, Dr Zehra Jamil)",
  "sourceUrl": "https://drive.google.com/file/d/14z5iJ2zh1qp9piAPRjQkq6P4cdEuTqrY/view?usp=drivesdk",
@@ -7211,7 +7211,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-eye-innervation"] = {
  "id": "anat3-eye-innervation",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "Motor and sensory innervation of the eye and its appendages",
  "sourceFile": "5. The Motor and Sensory innervation of the Eye and its appendages.pdf (Facio-Maxillary Module, Dr Zehra Jamil)",
  "sourceUrl": "https://drive.google.com/file/d/1ROO86939KlrLfj1-1Ug3X5cjkNWcAcI3/view?usp=drivesdk",
@@ -8128,7 +8128,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-ocular-clinical"] = {
  "id": "anat3-ocular-clinical",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "Vascular supply and applied anatomy of the eye",
  "sourceFile": "6. Clinical & Applied anatomy of Ocular muscles and eyeball.pdf (Facio-Maxillary Module, Dr Zehra Jamil)",
  "sourceUrl": "https://drive.google.com/file/d/1iM5jz0YHhpnj5VPLiMbteZmKorC-5mVz/view?usp=drivesdk",
@@ -9135,7 +9135,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-sinuses"] = {
  "id": "anat3-sinuses",
  "subject": "anat3",
- "group": "Nose, mouth, throat and neck",
+ "group": "ENT",
  "title": "Nose and paranasal sinuses",
  "sourceFile": "4. Paranasal sinuses.pdf (Facio-Maxillary Module, Zehra Jamil)",
  "sourceUrl": "https://drive.google.com/file/d/11ufWBZM-NYR0kVWdVYuHA-nRvO85UMj6/view?usp=drivesdk",
@@ -10186,7 +10186,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-oral-cavity"] = {
  "id": "anat3-oral-cavity",
  "subject": "anat3",
- "group": "Nose, mouth, throat and neck",
+ "group": "Faciomaxillary",
  "title": "Oral cavity proper, tongue and palate",
  "sourceFile": "5. Oral Cavity Proper.pdf (Facio-Maxillary Module, Zehra Jamil, 2025)",
  "sourceUrl": "https://drive.google.com/file/d/1H09EE9YoF1FMy1agb77jeCYF65aUgtzP/view?usp=drivesdk",
@@ -11327,7 +11327,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-nasal-cavity"] = {
  "id": "anat3-nasal-cavity",
  "subject": "anat3",
- "group": "Nose, mouth, throat and neck",
+ "group": "ENT",
  "title": "Anatomy of the nasal cavity",
  "sourceFile": "ANATOMY OF THE NASAL CAVITY.pdf (Anatomy 4, FM2S4, Pr Hajjij Amal, 2025/2026)",
  "sourceUrl": "https://drive.google.com/file/d/1hpMtmepol13b55UVNWY3cTEyCV5pZZcf/view?usp=drivesdk",
@@ -12517,7 +12517,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-larynx"] = {
  "id": "anat3-larynx",
  "subject": "anat3",
- "group": "Nose, mouth, throat and neck",
+ "group": "ENT",
  "title": "Anatomy of the larynx",
  "sourceFile": "PART1-ANATOMY OF THE LARYNX.pdf (Anatomy 4, FM2, Pr Hajjij Amal, 2025/2026)",
  "sourceUrl": "https://drive.google.com/file/d/1g2pSurnFvPXtbuB2ow4XRNl65n0pRpi8/view?usp=drivesdk",
@@ -13737,7 +13737,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-pharynx"] = {
  "id": "anat3-pharynx",
  "subject": "anat3",
- "group": "Nose, mouth, throat and neck",
+ "group": "ENT",
  "title": "Anatomy of the pharynx",
  "sourceFile": "Part 2 - ANATOMY OF THE PHARYNX.pdf (Anatomy 4, FM2, Pr Hajjij Amal, 2025/2026)",
  "sourceUrl": "https://drive.google.com/file/d/1RH6Ue3qX5vLDcJTFylFFBuMzLUb-97f9/view?usp=drivesdk",
@@ -14856,7 +14856,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-thyroid"] = {
  "id": "anat3-thyroid",
  "subject": "anat3",
- "group": "Nose, mouth, throat and neck",
+ "group": "ENT",
  "title": "Anatomy of the thyroid gland",
  "sourceFile": "Anatomy of the Thyroid Gland EFM2.pdf (Anatomy 4, ENT Anatomy, Pr Hajjij Amal)",
  "sourceUrl": "https://drive.google.com/file/d/1nhEmkMKYaourql1JANqTsSu3wuD7oNd1/view?usp=drivesdk",
@@ -15973,7 +15973,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-neck-triangles"] = {
  "id": "anat3-neck-triangles",
  "subject": "anat3",
- "group": "Nose, mouth, throat and neck",
+ "group": "ENT",
  "title": "The forgotten triangles of the neck",
  "sourceFile": "Forgotten triangles of neck.pdf (Singh, Vashistha, Chaudhary and Kaur, Annals of Maxillofacial Surgery, 2016)",
  "sourceUrl": "https://drive.google.com/file/d/1S5uMMgcYt1ldPUMYQdY4gsYnSSQ7kuNr/view?usp=drivesdk",
@@ -17012,7 +17012,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-ear-1"] = {
  "id": "anat3-ear-1",
  "subject": "anat3",
- "group": "Ear",
+ "group": "ENT",
  "title": "Anatomy of the ear, part 1: external and middle ear",
  "sourceFile": "Ear Anatomy part 1.pdf (Anatomy 3, ENT Anatomy, Pr Hajjij Amal, 2025/2026)",
  "sourceUrl": "https://drive.google.com/file/d/15-8NM-0S3PbrO0CzjVsvvmV5XWH6yeki/view?usp=drivesdk",
@@ -18241,7 +18241,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-ear-2"] = {
  "id": "anat3-ear-2",
  "subject": "anat3",
- "group": "Ear",
+ "group": "ENT",
  "title": "Anatomy of the ear, part 2: the inner ear",
  "sourceFile": "Ear Anatomy part 2.pdf (Anatomy 4, FM2, Pr Hajjij Amal, 2025/2026)",
  "sourceUrl": "https://drive.google.com/file/d/1rMNsUgdlDDXiOhbObkNvTGizIsljDGJH/view?usp=drivesdk",

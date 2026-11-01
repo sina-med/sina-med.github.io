@@ -2,7 +2,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-orbital-appendages"] = {
  "id": "anat3-orbital-appendages",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "Anatomy of the orbital appendages",
  "sourceFile": "2. Anatomy of orbital appendages.pptx (Facio-Maxillary Module, Dr Zehra Jamil)",
  "sourceUrl": "https://drive.google.com/file/d/1R843YyLcEMwR_f6WXY2d-wuNKtCCB9pO/view?usp=drivesdk",

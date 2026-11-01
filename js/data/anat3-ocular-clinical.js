@@ -2,7 +2,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-ocular-clinical"] = {
  "id": "anat3-ocular-clinical",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "Vascular supply and applied anatomy of the eye",
  "sourceFile": "6. Clinical & Applied anatomy of Ocular muscles and eyeball.pptx (Facio-Maxillary Module, Dr Zehra Jamil)",
  "sourceUrl": "https://drive.google.com/file/d/1kUGjOo3l7SxGl11j20bUZ4c-pfQ5xTK-/view?usp=drivesdk",

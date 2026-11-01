@@ -3,12 +3,13 @@ SINA.lectures = SINA.lectures || {};
 
 SINA.subjects = [
   { id: "anat3", name: "Anatomy 3", semester: "S3", status: "live",
-    blurb: "Head and neck, then neuroanatomy.",
+    blurb: "Faciomaxillary, ENT and neuroanatomy.",
     groups: [
-      { name: "Face and orbit", items: [
+      { name: "Faciomaxillary", items: [
         { id: "anat3-face-osteology", title: "Osteology of the face" },
         { id: "anat3-facial-muscles", title: "Muscles of the facio-maxillary region" },
         { id: "anat3-blood-supply", title: "Blood supply of the region" },
+        { id: "anat3-oral-cavity", title: "Oral cavity proper" },
         { id: "anat3-orbit", title: "The orbit: osteology and myology" },
         { id: "anat3-orbital-appendages", title: "Anatomy of the orbital appendages" },
         { id: "anat3-eyeball-1", title: "Anatomy of the eyeball I" },
@@ -16,18 +17,15 @@ SINA.subjects = [
         { id: "anat3-eye-innervation", title: "Motor and sensory innervation of the eye and its appendages" },
         { id: "anat3-ocular-clinical", title: "Vascular supply and applied anatomy of the eye" }
       ]},
-      { name: "Nose, mouth, throat and neck", items: [
+      { name: "ENT", items: [
         { id: "anat3-nasal-cavity", title: "Anatomy of the nasal cavity" },
         { id: "anat3-sinuses", title: "Paranasal sinuses" },
-        { id: "anat3-oral-cavity", title: "Oral cavity proper" },
-        { id: "anat3-larynx", title: "Anatomy of the larynx" },
         { id: "anat3-pharynx", title: "Anatomy of the pharynx" },
+        { id: "anat3-larynx", title: "Anatomy of the larynx" },
+        { id: "anat3-ear-1", title: "Ear anatomy, part 1" },
+        { id: "anat3-ear-2", title: "Ear anatomy, part 2" },
         { id: "anat3-thyroid", title: "Anatomy of the thyroid gland" },
         { id: "anat3-neck-triangles", title: "The forgotten triangles of the neck" }
-      ]},
-      { name: "Ear", items: [
-        { id: "anat3-ear-1", title: "Ear anatomy, part 1" },
-        { id: "anat3-ear-2", title: "Ear anatomy, part 2" }
       ]},
       { name: "Neuroanatomy", items: [
         { id: "anat3-spinal-cord", title: "Anatomy of the spinal cord" },

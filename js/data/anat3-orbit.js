@@ -2,7 +2,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-orbit"] = {
  "id": "anat3-orbit",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "The orbit: osteology and myology",
  "sourceFile": "1. Osteology of the orbit.pptx (Facio-Maxillary Module, CM1, 2025-26)",
  "sourceUrl": "https://drive.google.com/file/d/1CWrYVfc7FBfNMNYLl13cBPVSgAdQ55MR/view?usp=drivesdk",

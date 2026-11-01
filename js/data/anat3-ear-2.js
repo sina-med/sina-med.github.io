@@ -2,7 +2,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-ear-2"] = {
  "id": "anat3-ear-2",
  "subject": "anat3",
- "group": "Ear",
+ "group": "ENT",
  "title": "Anatomy of the ear, part 2: the inner ear",
  "sourceFile": "Ear Anatomy part 2.pdf (Anatomy 4, FM2, Pr Hajjij Amal, 2025/2026)",
  "sourceUrl": "https://drive.google.com/file/d/1rMNsUgdlDDXiOhbObkNvTGizIsljDGJH/view?usp=drivesdk",

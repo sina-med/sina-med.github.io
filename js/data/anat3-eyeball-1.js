@@ -2,7 +2,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-eyeball-1"] = {
  "id": "anat3-eyeball-1",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "Anatomy of the eyeball I",
  "sourceFile": "3. Anatomy of the Eye Ball-I.pptx (Facio-Maxillary Module, Dr Zehra Jamil)",
  "sourceUrl": "https://drive.google.com/file/d/1B7SPq0ALgAioDC0MbjJAxSGZRbcvlNtK/view?usp=drivesdk",

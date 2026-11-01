@@ -2,7 +2,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-ocular-muscles"] = {
  "id": "anat3-ocular-muscles",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "Extraocular muscles and eye movement",
  "sourceFile": "4. Anatomy of the Eye Ball-II.pptx (Facio-Maxillary Module, Zehra Jamil)",
  "sourceUrl": "https://drive.google.com/file/d/1RipxaiH8V7rkRdUUEnRRcEzY8p_Bznta/view?usp=drivesdk",

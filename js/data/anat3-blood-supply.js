@@ -2,7 +2,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-blood-supply"] = {
  "id": "anat3-blood-supply",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "Blood supply of the facio-maxillary region",
  "sourceFile": "3. Blood Supply of the region_UM6SS.pptx (Facio-Maxillary Module, Prof. Zehra Jamil)",
  "sourceUrl": "https://drive.google.com/file/d/1INuA-gjs_GTjIwcqUKvikRJsiogoiQLr/view?usp=drivesdk",

@@ -2,7 +2,7 @@ window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["anat3-eye-innervation"] = {
  "id": "anat3-eye-innervation",
  "subject": "anat3",
- "group": "Face and orbit",
+ "group": "Faciomaxillary",
  "title": "Motor and sensory innervation of the eye and its appendages",
  "sourceFile": "5. The Motor and Sensory innervation of the Eye and its appendages.pptx (Facio-Maxillary Module, Dr Zehra Jamil)",
  "sourceUrl": "https://drive.google.com/file/d/1hT-Ky5jBkLLZ6mRjMDvB4eTiL2V6nxrN/view?usp=drivesdk",
