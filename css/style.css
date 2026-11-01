@@ -1323,3 +1323,19 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .flow-step.filled { border: 2px solid var(--good); background: color-mix(in srgb, var(--good) 9%, var(--surface)); animation: fcIn .35s ease; }
 .occ-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 12px; }
 @media (max-width: 600px) { .occ:not(.spot) .occ-wrap { width: 165%; max-width: none; } .occ:not(.spot) .occ-wrap.zoom { width: 260%; } .occ:not(.spot) figcaption::after { content: " Swipe sideways to see the whole picture."; } }
+/* heartbeat line under the tabs replaces the tab underline */
+.tabs.has-ecg .tab[aria-selected="true"], .tabs.has-ecg a.tab[aria-selected="true"] { border-bottom-color: transparent; }
+.read-ecg .re-fg { stroke-dasharray: none; stroke-dashoffset: 0; transition: none; }
+.read-ecg rect { transition: width .15s linear; }
+/* quiz progress heartbeat */
+.qecg { position: relative; height: 14px; margin: .2rem 0 1.1rem; }
+.qecg svg { width: 100%; height: 100%; display: block; overflow: visible; }
+.qecg polyline { fill: none; stroke-width: 1.7; vector-effect: non-scaling-stroke; stroke-linejoin: round; stroke-linecap: round; }
+.qe-bg { stroke: var(--line); }
+.qe-fg { stroke: var(--accent); }
+.qecg rect { transition: width .5s cubic-bezier(.2,.8,.2,1); }
+.qe-dot { position: absolute; top: 50%; width: 9px; height: 9px; margin: -4.5px 0 0 -4.5px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 55%, transparent); animation: qBeat var(--beat, 1.6s) ease-out infinite; transition: left .5s cubic-bezier(.2,.8,.2,1); }
+.qecg.near .qe-dot { background: #d3243b; box-shadow: 0 0 0 0 rgba(211,36,59,.55); }
+.qecg.near .qe-fg { stroke: #d3243b; }
+@keyframes qBeat { 0% { transform: scale(1); box-shadow: 0 0 0 0 color-mix(in srgb, currentColor 0%, transparent); } 12% { transform: scale(1.6); } 24% { transform: scale(1); } 34% { transform: scale(1.35); } 50%, 100% { transform: scale(1); box-shadow: 0 0 0 9px transparent; } }
+@media (prefers-reduced-motion: reduce) { .qe-dot { animation: none; } }

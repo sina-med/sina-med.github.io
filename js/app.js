@@ -1299,7 +1299,7 @@
       var pic = qph ? qph : (q.target && qfig)
         ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "q" + i }) + "</div>"
         : "";
-      p.innerHTML = '<p class="qhead">Question ' + (i + 1) + " of " + qs.length + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + flameHTML(streak, false) + '</p><div class="bar-track"><div class="bar-fill" style="width:' + (i / qs.length * 100) + '%"></div></div><p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
+      p.innerHTML = '<p class="qhead">Question ' + (i + 1) + " of " + qs.length + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + flameHTML(streak, false) + '</p>' + ecgProgress(done.filter(Boolean).length / qs.length) + '<p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
         q.options.map(function (o, n) { return '<button class="opt" data-n="' + n + '" aria-pressed="false"><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span></button>"; }).join("") + (multi ? '<button class="btn primary" id="chk" type="button">Check my answer</button>' : "") + '<div id="fb"></div>' +
         '<div class="qnav"><button class="btn" id="prev" type="button"' + (i ? "" : " disabled") + '>&larr; Previous</button><button class="btn" id="fwd" type="button">' + (i + 1 < qs.length ? "Next" : "Finish") + ' &rarr;</button></div>';
       centerTarget(p);
@@ -1326,6 +1326,7 @@
         document.getElementById("fb").innerHTML = feedback(q, ok, skipped, (done[i] || {}).pts);
         p.querySelector("#rep").onclick = function () { reportMistake(q, lec.id); };
         saveResume();
+        var qe = p.querySelector(".qecg"); if (qe) qe.outerHTML = ecgProgress(done.filter(Boolean).length / qs.length);
         var fw = p.querySelector("#fwd"); fw.classList.add("primary"); fw.innerHTML = (i + 1 < qs.length ? "Next question" : "See score") + " &rarr;";
         if (!skipped) fw.focus({ preventScroll: true });
       }
@@ -1884,14 +1885,15 @@
     for (var b = 0; b < 8; b++) { pts.push(x + ",6", (x + 30) + ",6", (x + 33) + ",3", (x + 36) + ",6", (x + 39) + ",6", (x + 41) + ",0.5", (x + 44) + ",11.5", (x + 47) + ",4", (x + 49) + ",6"); x += 62; }
     pts.push("496,6");
     tabs.classList.add("has-ecg");
-    tabs.insertAdjacentHTML("beforeend", '<svg class="read-ecg" viewBox="0 0 496 12" preserveAspectRatio="none" aria-hidden="true"><polyline class="re-bg" points="' + pts.join(" ") + '"/><polyline class="re-fg" pathLength="100" points="' + pts.join(" ") + '"/></svg>');
-    var fg = tabs.querySelector(".re-fg"), ticking = false;
+    var cid = "rc" + Date.now();
+    tabs.insertAdjacentHTML("beforeend", '<svg class="read-ecg" viewBox="0 0 496 12" preserveAspectRatio="none" aria-hidden="true"><defs><clipPath id="' + cid + '"><rect x="0" y="-2" width="0" height="16"/></clipPath></defs><polyline class="re-bg" points="' + pts.join(" ") + '"/><polyline class="re-fg" clip-path="url(#' + cid + ')" points="' + pts.join(" ") + '"/></svg>');
+    var fg = tabs.querySelector("#" + cid + " rect"), ticking = false;
     function upd() {
       ticking = false;
       if (!panel.isConnected) { window.removeEventListener("scroll", onScroll); return; }
       var r = panel.getBoundingClientRect(), vh = window.innerHeight, total = r.height - vh * 0.6;
       var p = total > 0 ? Math.min(1, Math.max(0, (-r.top + vh * 0.25) / total)) : 1;
-      fg.style.strokeDashoffset = (100 - p * 100).toFixed(1);
+      fg.setAttribute("width", (p * 496).toFixed(1));
       tabs.classList.toggle("read-done", p >= 0.995);
     }
     function onScroll() { if (!ticking) { ticking = true; requestAnimationFrame(upd); } }
@@ -2004,6 +2006,15 @@
       var me = st.k === q.target;
       return (n ? '<div class="flow-arrow" aria-hidden="true">&darr;</div>' : "") + '<div class="flow-step' + (me ? (shown ? " filled" : " blank") : "") + '"><span class="fs-n">' + (n + 1) + '</span><div><b>' + (me && !shown ? "?" : esc(st.name)) + "</b>" + (st.desc && !(me && !shown) ? "<span>" + esc(st.desc) + "</span>" : "") + "</div></div>";
     }).join("") + "</div>";
+  }
+
+  /* ---------- quiz progress as a heartbeat trace; the beat speeds up near the end ---------- */
+  function ecgPts(beats, W) { var pts = [], x = 0, step = W / beats; for (var b = 0; b < beats; b++) { var o = x + step * 0.48; pts.push(x + ",6", o + ",6", (o + 3) + ",3", (o + 6) + ",6", (o + 9) + ",6", (o + 11) + ",0.5", (o + 14) + ",11.5", (o + 17) + ",4", (o + 19) + ",6"); x += step; } pts.push(W + ",6"); return pts.join(" "); }
+  function ecgProgress(frac) {
+    var W = 496, id = "qp" + Math.random().toString(36).slice(2, 7), pts = ecgPts(10, W), x = Math.max(0, Math.min(1, frac)) * W;
+    var dur = (1.8 - 1.4 * frac).toFixed(2) + "s";
+    return '<div class="qecg' + (frac >= 0.8 ? " near" : "") + '" style="--beat:' + dur + '"><svg viewBox="0 0 ' + W + ' 12" preserveAspectRatio="none" aria-hidden="true"><defs><clipPath id="' + id + '"><rect x="0" y="-2" width="' + x.toFixed(1) + '" height="16"/></clipPath></defs><polyline class="qe-bg" points="' + pts + '"/><polyline class="qe-fg" clip-path="url(#' + id + ')" points="' + pts + '"/></svg>' +
+      '<span class="qe-dot" style="left:' + (frac * 100).toFixed(2) + '%"></span></div>';
   }
   /* ---------- covered-label picture (model A) ---------- */
   function occHTML(q, shown) {
