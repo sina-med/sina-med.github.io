@@ -2,6 +2,13 @@
   "use strict";
   var S = window.SINA;
   var app = document.getElementById("app");
+  /* Picture (diagram) questions are kept out of quizzes until the new picture-question design is approved.
+     They stay in each lecture as picMcqs, and the Visual tab and picture flashcards are unchanged. */
+  Object.keys(S.lectures || {}).forEach(function (lid) {
+    var L = S.lectures[lid]; if (!L.mcqs) return;
+    L.picMcqs = L.mcqs.filter(function (q) { return q.target; });
+    L.mcqs = L.mcqs.filter(function (q) { return !q.target; });
+  });
 
   /* ---------- helpers ---------- */
   function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
@@ -764,7 +771,7 @@
     var count = store.get("sina:qcount", "20");
     function nQ(ids) { return ids.reduce(function (a, id) { return a + (S.lectures[id].mcqs || []).length; }, 0); }
     function picker() {
-      var h = '<p class="lede-s">Choose one or more lectures, then start. Questions from all the chosen lectures are mixed into one quiz.</p>' +
+      var h = resumeBanner(function (r) { return /^mix:/.test(r.id) && r.id.slice(4).split(":")[0].split("+").every(function (x) { return S.lectures[x] && S.lectures[x].subject === s.id; }); }) + '<p class="lede-s">Choose one or more lectures, then start. Questions from all the chosen lectures are mixed into one quiz.</p>' +
         '<div class="chips quick" role="group" aria-label="Quick choices"><button type="button" data-q="all">All lectures</button>' + (mid ? '<button type="button" data-q="mid">Midterm lectures</button>' : "") + '<button type="button" data-q="none">Clear</button></div>';
       s.groups.forEach(function (g, gi) {
         var its = g.items.filter(function (it) { return S.lectures[it.id]; });
@@ -924,6 +931,7 @@
     var panel = document.getElementById("panel");
     ({ summary: summaryPanel, cards: cardsPanel, deeper: deeperPanel })[tab](panel, lec);
     if (tab !== "cards") readingLine(panel);
+    if (tab === "summary") readPos(id, panel);
     app.querySelectorAll(".tab").forEach(function (b) {
       b.addEventListener("click", function () { location.hash = "#/lecture/" + id + (b.dataset.tab === "summary" ? "" : "/" + b.dataset.tab); });
     });
@@ -1182,8 +1190,16 @@
       }).join("") + "</details>";
   }
 
-  function questionsPanel(p, lec) {
+  function questionsPanel(p, lec, resume) {
     var all = lec.mcqs, qs = all, fullRun = true, i = 0, score = 0, wrong = [], done = [], key = "sina:best:" + lec.id, LET = "abcdefgh", streak = 0;
+    if (resume) { qs = resume.qs; all = resume.full ? resume.qs : all; fullRun = !!resume.full; done = resume.done || []; i = 0; while (i < qs.length && done[i]) i++; if (i >= qs.length) i = qs.length - 1; }
+    /* resume: the unfinished quiz is saved after every answer (one at a time, the most recent) */
+    function saveResume() {
+      if (!done.some(Boolean) || i >= qs.length) return;
+      var lite = qs.map(function (q) { var c = {}; for (var k in q) if (k !== "_fig") c[k] = q[k]; return c; });
+      store.set("sina:resume", { id: lec.id, title: lec._title || resumeTitle(lec.id), back: location.hash, qs: lite, i: i, done: done, full: fullRun, t: Date.now() });
+    }
+    function clearResume() { var r = store.get("sina:resume", null); if (r && r.id === lec.id) localStorage.removeItem("sina:resume"); }
     function keyText(q) {
       var ans = q.answers || [q.answer];
       return ans.map(function (n) { return LET[n] + ". " + q.options[n]; }).join(" and ");
@@ -1195,6 +1211,7 @@
     }
     function render() {
       if (i >= qs.length) {
+        clearResume();
         score = 0; wrong = [];
         qs.forEach(function (q, n) { var d = done[n] || { chosen: [], ok: false, pts: 0 }; score += d.ok ? 1 : (d.pts || 0); if (!d.ok) wrong.push({ q: q, n: n + 1, chosen: d.chosen }); });
         score = Math.round(score * 100) / 100;
@@ -1257,6 +1274,7 @@
         if (fresh && !skipped) answerFx(opts, ans, chosen, ok);
         document.getElementById("fb").innerHTML = feedback(q, ok, skipped, (done[i] || {}).pts);
         p.querySelector("#rep").onclick = function () { reportMistake(q, lec.id); };
+        saveResume();
         var fw = p.querySelector("#fwd"); fw.classList.add("primary"); fw.innerHTML = (i + 1 < qs.length ? "Next question" : "See score") + " &rarr;";
         if (!skipped) fw.focus({ preventScroll: true });
       }
@@ -1470,6 +1488,7 @@
     if (links.length && hasQ) html += '<p class="pdf-links">' + links.map(function (l) { return '<a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.short || l.label) + "</a>"; }).join(" &middot; ") + "</p>";
     else if (links.length) html += '<div class="row" style="margin:0 0 1.4rem">' + links.map(function (l, n) { return '<a class="btn' + (n === 0 ? " primary" : "") + '" href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.label) + "</a>"; }).join("") + "</div>";
     if (x.note) html += '<p class="src">' + esc(x.note) + "</p>";
+    if (hasQ) html += resumeBanner(function (r) { return r.id === x.id; });
     if (hasQ) html += '<div class="row exam-row"><button class="btn" id="exam-btn" type="button">Exam mode (timed)</button></div>';
     html += '<div id="paperq"></div></div>';
     setView(html, x.title);
@@ -1500,7 +1519,9 @@
     };
     var t = function (href, k, title, sub, cls) { return '<a class="qtile' + (cls ? " " + cls : "") + '" href="' + href + '"><span class="qt-ico"><svg viewBox="0 0 24 24" aria-hidden="true">' + ico[k] + '</svg></span><span class="qt-t">' + title + '</span><span class="qt-s">' + sub + "</span></a>"; };
     var h = '<nav class="quick" aria-label="Quick access">';
-    if (last && last.h) h += t(last.h, "go", "Continue", esc(last.t), "qt-go");
+    var rs = resumeInfo();
+    if (rs) h += t("#/resume", "go", "Resume quiz", esc(rs.title) + " · " + rs.n + "/" + rs.qs.length, "qt-go");
+    else if (last && last.h) h += t(last.h, "go", "Continue", esc(last.t), "qt-go");
     h += t("#/mistakes", "redo", "Redo my mistakes", mk ? mk + " question" + (mk > 1 ? "s" : "") + " to redo" : "No mistakes yet", mk ? "qt-hot" : "");
     h += t("#/progress", "prog", "My progress", seen ? Math.round(ok / seen * 100) + "% accuracy · " + seen + " answered" : "Start a quiz to track it");
     if (S.api) h += t("#/leaderboard", "lb", "Leaderboard", "Best past paper scores");
@@ -1886,6 +1907,43 @@
     btns.forEach(function (b) { b.onclick = function () { if (b.getAttribute("aria-pressed") === "true") return; setBtn(b.dataset.lang); if (b.dataset.lang === "fr") toFrench(); else toEnglish(); }; });
     if (store.get("sina:sumLang", "en") === "fr") { setBtn("fr"); toFrench(); }
   }
+
+  /* ---------- resume an unfinished quiz ---------- */
+  function resumeTitle(id) {
+    if (/^mix:/.test(id)) { var ids = id.slice(4).split(":")[0].split("+"); return ids.length === 1 ? lectureTitle(ids[0]) : ids.length + " lectures mixed"; }
+    if (id === "mistakes") return "Redo my mistakes";
+    var x = (S.papers || []).filter(function (y) { return y.id === id; })[0]; if (x) return x.title;
+    return lectureTitle(id) || id;
+  }
+  function resumeInfo() {
+    var r = store.get("sina:resume", null);
+    if (!r || !r.qs || !r.qs.length || Date.now() - r.t > 14 * 864e5) return null;
+    var n = (r.done || []).filter(Boolean).length; r.n = n; return n ? r : null;
+  }
+  function resumeBanner(filter) {
+    var r = resumeInfo(); if (!r || (filter && !filter(r))) return "";
+    return '<a class="resume-bar" href="#/resume"><span class="rb-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5l11 7-11 7z" fill="currentColor"/></svg></span><span><strong>Resume your quiz</strong><span class="rb-s">' + esc(r.title) + " · " + r.n + " of " + r.qs.length + " answered</span></span></a>";
+  }
+  function resumeView() {
+    var r = resumeInfo(); if (!r) { location.replace("#/"); return; }
+    setView('<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / Resume</p><h1>' + esc(r.title) + '</h1><p class="meta">Picking up where you stopped. <a href="' + esc(r.back || "#/") + '">Back to where it started</a></p><div id="rq"></div></div>', "Resume quiz");
+    questionsPanel(document.getElementById("rq"), { id: r.id, mcqs: r.qs, _title: r.title }, r);
+  }
+  /* ---------- lecture summary: remember where the reader stopped ---------- */
+  function readPos(lid, panel) {
+    var key = "sina:pos", pos = store.get(key, {}), saved = pos[lid], t = null;
+    if (saved && saved > 700) {
+      var b = document.createElement("button"); b.type = "button"; b.className = "jump-back"; b.innerHTML = "&darr; Jump back to where you stopped";
+      b.onclick = function () { window.scrollTo({ top: saved, behavior: "smooth" }); b.remove(); };
+      document.body.appendChild(b); setTimeout(function () { b.classList.add("show"); }, 50);
+      setTimeout(function () { if (b.isConnected) { b.classList.remove("show"); setTimeout(function () { b.remove(); }, 400); } }, 9000);
+    }
+    function onScroll() {
+      if (!panel.isConnected) { window.removeEventListener("scroll", onScroll); var jb = document.querySelector(".jump-back"); if (jb) jb.remove(); return; }
+      clearTimeout(t); t = setTimeout(function () { var p2 = store.get(key, {}); p2[lid] = Math.round(window.scrollY); store.set(key, p2); }, 400);
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+  }
   /* ---------- animation helpers ---------- */
   var REDUCE = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
   function snakeLoader() {
@@ -2151,6 +2209,7 @@
     if (parts[0] === "progress") return progressView();
     if (parts[0] === "mistakes") return mistakesView();
     if (parts[0] === "leaderboard") return leaderboardView(parts[1]);
+    if (parts[0] === "resume") return resumeView();
     if (parts[0] === "find") return findView(parts[1], parts[2], decodeURIComponent(parts[3] || ""));
     if (parts[0] === "practice") return parts[1] ? practiceView(parts[1], parts[2], parts[3]) : practiceHome();
     if (parts[0] === "papers") return papersView(parts[1]);

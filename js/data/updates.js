@@ -3,6 +3,9 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "1 November 2026", items: [
+    "Added Resume quiz: an unfinished quiz reopens at the next unanswered question (home tile and banner).",
+    "Added Jump back to where you stopped on lecture summaries.",
+    "Changed: picture questions removed from quizzes while a clearer design is prepared.",
     "Added source slides with green highlights to the Renal physiology and Bioenergetics questions.",
     "Added Français button on lecture summaries (machine translation, saved on the device).",
     "Added Mark as revised on every lecture, with ticks and a revised count on subject pages.",
