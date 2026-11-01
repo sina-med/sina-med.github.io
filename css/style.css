@@ -1291,3 +1291,35 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .rb-s { display: block; font-size: .82rem; color: var(--muted); }
 .jump-back { position: fixed; left: 50%; bottom: 1.2rem; transform: translate(-50%, 140%); z-index: 70; font: inherit; font-weight: 700; font-size: .9rem; padding: .6rem 1.1rem; border-radius: 999px; border: 0; background: var(--ink); color: var(--bg); box-shadow: 0 10px 30px -10px rgba(0,0,0,.5); cursor: pointer; transition: transform .35s cubic-bezier(.2,.9,.3,1.2); }
 .jump-back.show { transform: translate(-50%, 0); }
+
+/* ---------- covered-label pictures (model A) and spotter (model C) ---------- */
+.occ { margin: .4rem 0 1rem; }
+.occ-wrap { position: relative; width: 100%; max-width: 680px; margin: 0 auto; background: #fff; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; cursor: zoom-in; }
+.occ-wrap img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.occ-wrap.zoom { max-width: none; width: 170%; cursor: zoom-out; }
+.otile { position: absolute; border-radius: 4px; background: #e9ecef; border: 1px solid #b8c0c8; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font: 800 clamp(10px, 1.6vw, 15px) system-ui, sans-serif; color: #7a5b00; transition: background .25s ease, border-color .25s ease, opacity .25s ease; }
+.otile.q { background: #ffe066; border: 2px solid #c9a227; box-shadow: 0 0 0 3px rgba(201,162,39,.25); animation: otPulse 1.6s ease-in-out infinite; z-index: 2; }
+.otile.q.show { background: rgba(47,158,91,.12); border-color: var(--good); box-shadow: none; animation: none; }
+@keyframes otPulse { 50% { box-shadow: 0 0 0 7px rgba(201,162,39,.12); } }
+.occ figcaption { font-size: .75rem; color: var(--muted); margin-top: .3rem; text-align: center; }
+.spot .occ-wrap { cursor: crosshair; }
+.spot-hit, .spot-ring { position: absolute; transform: translate(-50%, -50%); border-radius: 50%; pointer-events: none; animation: spotIn .4s cubic-bezier(.2,1.4,.4,1) both; z-index: 3; }
+.spot-hit { width: 26px; height: 26px; }
+.spot-hit.ok { border: 3px solid var(--good); background: rgba(47,158,91,.25); }
+.spot-hit.bad { border: 3px solid var(--bad); background: rgba(211,36,59,.2); }
+.spot-ring { width: 46px; height: 46px; border: 3px dashed var(--good); background: rgba(47,158,91,.12); }
+@keyframes spotIn { from { transform: translate(-50%, -50%) scale(.3); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .otile.q, .spot-hit, .spot-ring { animation: none; } }
+/* ---------- flowchart questions (model D) ---------- */
+.flowq { max-width: 520px; margin: .4rem auto 1.1rem; }
+.flow-title { font-size: .8rem; color: var(--muted); text-align: center; margin: 0 0 .5rem; }
+.flow-step { display: flex; gap: .7rem; align-items: flex-start; padding: .6rem .8rem; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.flow-step b { display: block; font-size: .95rem; }
+.flow-step span:not(.fs-n) { display: block; color: var(--muted); font-size: .84rem; line-height: 1.4; margin-top: .1rem; }
+.fs-n { flex: none; width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; background: var(--accent); color: var(--accent-ink, #fff); font-weight: 800; font-size: .78rem; margin-top: .1rem; }
+.flow-arrow { text-align: center; color: var(--muted); line-height: 1.2; font-size: .9rem; }
+.flow-step.blank { border: 2px dashed #c9a227; background: color-mix(in srgb, #c9a227 9%, var(--surface)); }
+.flow-step.blank b { color: #a07d10; font-size: 1.1rem; }
+.flow-step.filled { border: 2px solid var(--good); background: color-mix(in srgb, var(--good) 9%, var(--surface)); animation: fcIn .35s ease; }
+.occ-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 12px; }
+@media (max-width: 600px) { .occ:not(.spot) .occ-wrap { width: 165%; max-width: none; } .occ:not(.spot) .occ-wrap.zoom { width: 260%; } .occ:not(.spot) figcaption::after { content: " Swipe sideways to see the whole picture."; } }

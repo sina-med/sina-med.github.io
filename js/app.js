@@ -9,6 +9,45 @@
     L.picMcqs = L.mcqs.filter(function (q) { return q.target; });
     L.mcqs = L.mcqs.filter(function (q) { return !q.target; });
   });
+  /* Flowchart questions (model D): box diagrams become a vertical chain of steps with one step blank. */
+  function flowOrder(fig) {
+    if (fig._flow) return fig._flow;
+    var box = {}, keys = Object.keys(fig.parts || {});
+    keys.forEach(function (k) { var m = /x="([\d.]+)" y="([\d.]+)" width="([\d.]+)" height="([\d.]+)"/.exec(fig.parts[k].shape || ""); if (m) box[k] = [+m[1], +m[2], +m[3], +m[4]]; });
+    function near(x, y) { var best = null, bd = 1e9; keys.forEach(function (k) { var b = box[k]; if (!b) return; var dx = Math.max(b[0] - x, 0, x - b[0] - b[2]), dy = Math.max(b[1] - y, 0, y - b[1] - b[3]), d = dx * dx + dy * dy; if (d < bd) { bd = d; best = k; } }); return bd < 900 ? best : null; }
+    var next = {}, indeg = {}; keys.forEach(function (k) { indeg[k] = 0; next[k] = []; });
+    String(fig.base || "").replace(/<line[^>]*x1="([\d.]+)" y1="([\d.]+)" x2="([\d.]+)" y2="([\d.]+)"/g, function (_, a, b, c, d) { var u = near(+a, +b), v = near(+c, +d); if (u && v && u !== v && next[u].indexOf(v) < 0) { next[u].push(v); indeg[v]++; } });
+    var pos = function (k) { var b = box[k] || [0, 0]; return b[1] * 10 + b[0]; }, order = [], q = keys.filter(function (k) { return !indeg[k]; }).sort(function (a, b) { return pos(a) - pos(b); });
+    while (q.length) { var k = q.shift(); order.push(k); next[k].forEach(function (v) { if (--indeg[v] === 0) q.push(v); }); }
+    keys.forEach(function (k) { if (order.indexOf(k) < 0) order.push(k); });
+    return (fig._flow = order);
+  }
+  Object.keys(S.lectures || {}).forEach(function (lid) {
+    var L = S.lectures[lid], fig = L.visual && L.visual.figure;
+    if (!fig || !L.picMcqs || !L.picMcqs.length || !isBoxFig(fig)) return;
+    var info = {};
+    L.picMcqs.forEach(function (q) { var a = q.answers ? q.answers[0] : q.answer, m = /^The arrow points to: (.*?)\.\s*(.*)$/.exec(q.why || ""); info[q.target] = { name: q.options[a], desc: m ? m[2] : "" }; });
+    var order = flowOrder(fig).filter(function (k) { return info[k]; });
+    if (order.length < 3) return;
+    L.flow = { title: fig.alt || "", steps: order.map(function (k) { return { k: k, name: info[k].name, desc: info[k].desc }; }) };
+    L.picMcqs.forEach(function (q) { if (!info[q.target]) return; var c = {}; for (var x in q) c[x] = q[x]; c.q = "Which step belongs in the dashed box?"; c.flow = lid; L.mcqs.push(c); });
+  });
+  /* Covered-label questions (model A): real labelled atlas plates, labels hidden under tiles, one tile asked. */
+  function seeded(str) { var h = 1779033703 ^ str.length; for (var i = 0; i < str.length; i++) { h = Math.imul(h ^ str.charCodeAt(i), 3432918353); h = h << 13 | h >>> 19; } return function () { h = Math.imul(h ^ h >>> 16, 2246822507); h = Math.imul(h ^ h >>> 13, 3266489909); return ((h ^= h >>> 16) >>> 0) / 4294967296; }; }
+  function occBase(t) { return t.replace(/\s*\([^)]*\)\s*$/, "").replace(/,.*$/, "").toLowerCase(); }
+  Object.keys(S.occl || {}).forEach(function (fk) {
+    var f = S.occl[fk], seen = {};
+    f.labels.forEach(function (lb, i) {
+      var t = lb[4]; if (seen[t]) return; seen[t] = 1;
+      var rnd = seeded(fk + "|" + t), pool = f.labels.map(function (x) { return x[4]; }).filter(function (x, j, a) { return a.indexOf(x) === j && occBase(x) !== occBase(t); });
+      for (var k = pool.length - 1; k > 0; k--) { var j = Math.floor(rnd() * (k + 1)), tmp = pool[k]; pool[k] = pool[j]; pool[j] = tmp; }
+      var opts = pool.slice(0, 3).concat([t]);
+      for (k = opts.length - 1; k > 0; k--) { j = Math.floor(rnd() * (k + 1)); tmp = opts[k]; opts[k] = opts[j]; opts[j] = tmp; }
+      if (opts.length < 2) return;
+      var q = { q: "Which structure is under the yellow tile?", options: opts, answer: opts.indexOf(t), occ: { f: fk, i: i }, why: "The yellow tile hides the printed label: " + t + "." };
+      f.lecs.forEach(function (lid) { var L = S.lectures[lid]; if (L && L.mcqs) L.mcqs.push(q); });
+    });
+  });
 
   /* ---------- helpers ---------- */
   function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
@@ -517,6 +556,9 @@
       var t = b.querySelector(".fpart.hl"); if (!t || b.scrollWidth <= b.clientWidth) return;
       var br = b.getBoundingClientRect(), tr = t.getBoundingClientRect();
       b.scrollLeft += (tr.left + tr.width / 2) - (br.left + br.width / 2);
+    });    (root || document).querySelectorAll(".occ-scroll").forEach(function (b) {
+      var t = b.querySelector(".otile.q"); if (!t || b.scrollWidth <= b.clientWidth) return;
+      requestAnimationFrame(function () { var br = b.getBoundingClientRect(), tr = t.getBoundingClientRect(); b.scrollLeft += (tr.left + tr.width / 2) - (br.left + br.width / 2); });
     });
   }
   /* real anatomy pictures (js/data/photos.js): arrow on the structure for questions, numbered markers for the Visual tab */
@@ -781,7 +823,7 @@
         }).join("") + "</div>";
       });
       h += '<div class="start-bar"><label class="pick"><span>Questions</span><select id="qcount">' + ["10", "20", "40", "all"].map(function (v) { return '<option value="' + v + '"' + (v === count ? " selected" : "") + ">" + (v === "all" ? "All" : v) + "</option>"; }).join("") + "</select></label>" +
-        '<button class="btn primary" id="qstart" type="button">Start</button><button class="btn" id="qexam" type="button">Exam mode</button><span class="qsel" id="qsel"></span></div>';
+        '<button class="btn primary" id="qstart" type="button">Start</button><button class="btn" id="qexam" type="button">Exam mode</button>' + (spotTasks(lecs.map(function (l) { return l.id || l; })).length ? '<button class="btn" id="qspot" type="button">Spotter: tap the structure</button>' : "") + '<span class="qsel" id="qsel"></span></div>';
       p.innerHTML = h;
       var boxes = p.querySelectorAll(".lchk");
       function sync() {
@@ -796,6 +838,7 @@
         var shown = opts.indexOf(count) > -1 ? count : "all";
         sel.innerHTML = opts.map(function (v) { return '<option value="' + v + '"' + (v === shown ? " selected" : "") + ">" + (v === "all" ? "All (" + n + ")" : v) + "</option>"; }).join("");
         p.querySelector("#qstart").disabled = !picked.length; p.querySelector("#qexam").disabled = !picked.length;
+        var qs2 = p.querySelector("#qspot"); if (qs2) qs2.disabled = !spotTasks(picked).length;
       }
       boxes.forEach(function (b) { b.addEventListener("change", sync); });
       p.querySelectorAll(".gchk").forEach(function (g) { g.addEventListener("change", function () { boxes.forEach(function (b) { if (b.dataset.g === g.dataset.g) b.checked = g.checked; }); sync(); }); });
@@ -808,6 +851,12 @@
       p.querySelector("#qcount").addEventListener("change", function () { count = this.value; store.set("sina:qcount", count); });
       p.querySelector("#qstart").addEventListener("click", function () { start(false); });
       p.querySelector("#qexam").addEventListener("click", function () { start(true); });
+      var qsp = p.querySelector("#qspot"); if (qsp) qsp.addEventListener("click", function () {
+        store.set(key, picked);
+        p.innerHTML = '<div class="quiz-top"><button class="btn small-btn" id="qback" type="button">&larr; Change lectures</button><span class="meta">Spotter · ' + esc(picked.length === 1 ? lectureTitle(picked[0]) : picked.length + " lectures") + '</span></div><div id="quiz"></div>';
+        p.querySelector("#qback").addEventListener("click", picker);
+        spotterPanel(p.querySelector("#quiz"), picked, picker); window.scrollTo(0, 0);
+      });
       sync();
     }
     function start(exam) {
@@ -1232,7 +1281,7 @@
             this.textContent = "Hide my wrong answers";
             box.innerHTML = '<h2 class="rev-h">Your wrong answers</h2>' + missed.map(function (w) {
               var q = w.q, ans = q.answers || [q.answer];
-              return '<div class="rev-item"><p class="qhead">Question ' + w.n + '</p><p class="qtext">' + esc(figQText(q, q._fig || (lec.visual && lec.visual.figure))) + "</p>" +
+              return '<div class="rev-item"><p class="qhead">Question ' + w.n + '</p><p class="qtext">' + esc(figQText(q, q._fig || (lec.visual && lec.visual.figure))) + "</p>" + (q.flow ? flowHTML(q, true) : q.occ ? occHTML(q, true) : "") +
                 q.options.map(function (o, n) {
                   var cls = ans.indexOf(n) > -1 ? " correct" : (w.chosen.indexOf(n) > -1 ? " wrong" : "");
                   var tag = ans.indexOf(n) > -1 ? '<span class="rev-tag">Correct answer</span>' : (w.chosen.indexOf(n) > -1 ? '<span class="rev-tag">Your answer</span>' : "");
@@ -1246,7 +1295,7 @@
       }
       var q = qs[i], multi = true;
       var qfig = q._fig || (lec.visual && lec.visual.figure);
-      var qph = q.target ? photoQ(q._lid || lec.id, q.target) : "";
+      var qph = q.flow ? flowHTML(q, !!done[i]) : q.occ ? occHTML(q, !!done[i]) : q.target ? photoQ(q._lid || lec.id, q.target) : "";
       var pic = qph ? qph : (q.target && qfig)
         ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "q" + i }) + "</div>"
         : "";
@@ -1272,6 +1321,8 @@
         });
         var c = p.querySelector("#chk"); if (c) c.remove();
         if (fresh && !skipped) answerFx(opts, ans, chosen, ok);
+        var ot = p.querySelector(".otile.q"); if (ot) { ot.classList.add("show"); ot.textContent = ""; }
+        if (q.flow) { var fq = p.querySelector(".flowq"); if (fq) fq.outerHTML = flowHTML(q, true); }
         document.getElementById("fb").innerHTML = feedback(q, ok, skipped, (done[i] || {}).pts);
         p.querySelector("#rep").onclick = function () { reportMistake(q, lec.id); };
         saveResume();
@@ -1754,7 +1805,7 @@
     function fmt(s) { s = Math.max(0, Math.round(s)); var m = Math.floor(s / 60); return m + ":" + ("0" + (s % 60)).slice(-2); }
     function multi() { return true; }
     function render() {
-      var q = qs[i], qfig = q._fig, qph = q.target ? photoQ(q._lid || set.id, q.target) : "";
+      var q = qs[i], qfig = q._fig, qph = q.flow ? flowHTML(q, false) : q.occ ? occHTML(q, false) : q.target ? photoQ(q._lid || set.id, q.target) : "";
       var pic = qph || (q.target && qfig ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "x" + i }) + "</div>" : "");
       p.innerHTML = '<div class="exam-bar"><span class="exam-time" id="xt">' + fmt((end - Date.now()) / 1000) + '</span><span class="meta"></span><button class="btn small primary" id="xsub">Submit</button></div>' +
         '<div class="exam-grid">' + qs.map(function (_, k) { return '<button class="xg' + (k === i ? " cur" : "") + (sel[k].length ? " done" : "") + '" data-k="' + k + '">' + (k + 1) + "</button>"; }).join("") + "</div>" +
@@ -1787,7 +1838,7 @@
         p.querySelector("#xrev").innerHTML = qs.map(function (q, k) {
           if (onlyWrong && res[k]) return "";
           var ans = q.answers || [q.answer], s = sel[k];
-          return '<div class="rev-item"><p class="qhead">Question ' + (k + 1) + (s.length ? "" : " · not answered") + '</p><p class="qtext">' + esc(figQText(q, q._fig)) + "</p>" +
+          return '<div class="rev-item"><p class="qhead">Question ' + (k + 1) + (s.length ? "" : " · not answered") + '</p><p class="qtext">' + esc(figQText(q, q._fig)) + "</p>" + (q.flow ? flowHTML(q, true) : q.occ ? occHTML(q, true) : "") +
             q.options.map(function (o, m) { var cls = ans.indexOf(m) > -1 ? " correct" : (s.indexOf(m) > -1 ? " wrong" : ""), tag = ans.indexOf(m) > -1 ? '<span class="rev-tag">Correct answer</span>' : (s.indexOf(m) > -1 ? '<span class="rev-tag">Your answer</span>' : "");
               return '<div class="opt static' + cls + '"><span class="letter">' + LET[m].toUpperCase() + "</span><span>" + esc(o) + "</span>" + tag + (q.notes && q.notes[m] ? '<span class="onote">' + esc(q.notes[m]) + "</span>" : "") + "</div>"; }).join("") +
             (q.why ? '<div class="why">' + esc(q.why) + "</div>" : "") + slidesHTML(q) + "</div>";
@@ -1943,6 +1994,67 @@
       clearTimeout(t); t = setTimeout(function () { var p2 = store.get(key, {}); p2[lid] = Math.round(window.scrollY); store.set(key, p2); }, 400);
     }
     window.addEventListener("scroll", onScroll, { passive: true });
+  }
+
+
+  /* ---------- flowchart (model D) ---------- */
+  function flowHTML(q, shown) {
+    var L = S.lectures[q.flow], f = L && L.flow; if (!f) return "";
+    return '<div class="flowq">' + (f.title ? '<p class="flow-title">' + esc(f.title) + "</p>" : "") + f.steps.map(function (st, n) {
+      var me = st.k === q.target;
+      return (n ? '<div class="flow-arrow" aria-hidden="true">&darr;</div>' : "") + '<div class="flow-step' + (me ? (shown ? " filled" : " blank") : "") + '"><span class="fs-n">' + (n + 1) + '</span><div><b>' + (me && !shown ? "?" : esc(st.name)) + "</b>" + (st.desc && !(me && !shown) ? "<span>" + esc(st.desc) + "</span>" : "") + "</div></div>";
+    }).join("") + "</div>";
+  }
+  /* ---------- covered-label picture (model A) ---------- */
+  function occHTML(q, shown) {
+    var f = S.occl && S.occl[q.occ.f]; if (!f) return "";
+    return '<figure class="occ"><div class="occ-scroll"><div class="occ-wrap" style="aspect-ratio:' + f.w + "/" + f.h + '"><img src="' + esc(f.src) + '" alt="Anatomy picture with its labels covered" width="' + f.w + '" height="' + f.h + '" loading="lazy">' +
+      f.labels.map(function (b, i) { var me = i === q.occ.i; return '<span class="otile' + (me ? " q" : "") + (me && shown ? " show" : "") + '" style="left:' + b[0] + "%;top:" + b[1] + "%;width:" + b[2] + "%;height:" + b[3] + '%">' + (me ? (shown ? "" : "?") : "") + "</span>"; }).join("") +
+      '</div></div><figcaption>' + esc(f.credit) + " Tap the picture to zoom.</figcaption></figure>";
+  }
+  document.addEventListener("click", function (e) { var w = e.target.closest && e.target.closest(".occ-wrap"); if (w && !w.closest(".spot")) w.classList.toggle("zoom"); });
+  /* ---------- spotter (model C): tap the structure ---------- */
+  function spotTasks(lids) {
+    var out = [];
+    Object.keys(S.occl || {}).forEach(function (fk) {
+      var f = S.occl[fk]; if (!f.lecs.some(function (l) { return lids.indexOf(l) > -1; })) return;
+      var names = {};
+      f.lecs.forEach(function (lid) { var L = S.lectures[lid]; (L && L.picMcqs || []).forEach(function (q) { var a = q.answers ? q.answers[0] : q.answer; names[q.target] = q.options[a]; }); });
+      Object.keys(f.pts).forEach(function (k) { if (names[k]) out.push({ f: fk, k: k, name: names[k], pt: f.pts[k] }); });
+    });
+    return shuffle(out);
+  }
+  function spotterPanel(p, lids, back) {
+    var tasks = spotTasks(lids).slice(0, 20), i = 0, score = 0;
+    if (!tasks.length) { p.innerHTML = '<p class="src">No spotter pictures for these lectures yet.</p>'; return; }
+    function render() {
+      if (i >= tasks.length) {
+        p.innerHTML = scoreRevealHTML(score, tasks.length) + '<div class="row"><button class="btn primary" id="sp-again">Try again</button>' + (back ? '<button class="btn" id="sp-back">Back</button>' : "") + "</div>";
+        scoreReveal(p, score, tasks.length);
+        p.querySelector("#sp-again").onclick = function () { spotterPanel(p, lids, back); };
+        if (back) p.querySelector("#sp-back").onclick = back;
+        return;
+      }
+      var t = tasks[i], f = S.occl[t.f], done = false;
+      p.innerHTML = '<p class="qhead">Spotter ' + (i + 1) + " of " + tasks.length + '</p><div class="bar-track"><div class="bar-fill" style="width:' + (i / tasks.length * 100) + '%"></div></div><p class="qtext">Tap the ' + esc(t.name.charAt(0).toLowerCase() + t.name.slice(1)) + ".</p>" +
+        '<figure class="occ spot"><div class="occ-wrap" style="aspect-ratio:' + f.w + "/" + f.h + '"><img src="' + esc(f.src) + '" alt="Anatomy picture, labels covered" width="' + f.w + '" height="' + f.h + '">' +
+        f.labels.map(function (b) { return '<span class="otile" style="left:' + b[0] + "%;top:" + b[1] + "%;width:" + b[2] + "%;height:" + b[3] + '%"></span>'; }).join("") + "</div><figcaption>" + esc(f.credit) + "</figcaption></figure>" +
+        '<div id="fb"></div><div class="qnav"><span></span><button class="btn" id="sp-next" type="button">Skip &rarr;</button></div>';
+      var wrap = p.querySelector(".occ-wrap"), nx = p.querySelector("#sp-next");
+      function mark(cls, x, y) { var m = document.createElement("span"); m.className = cls; m.style.left = x + "%"; m.style.top = y + "%"; wrap.appendChild(m); }
+      function finishSpot(x, y) {
+        if (done) return; done = true;
+        var ok = false;
+        if (x != null) { var dx = (x - t.pt[0]) * f.w / 100, dy = (y - t.pt[1]) * f.h / 100; ok = Math.sqrt(dx * dx + dy * dy) < Math.max(f.w, f.h) * 0.045; mark("spot-hit " + (ok ? "ok" : "bad"), x, y); }
+        if (!ok) mark("spot-ring", t.pt[0], t.pt[1]);
+        if (ok) score++;
+        p.querySelector("#fb").innerHTML = '<div class="why"><strong>' + (ok ? "Correct." : x == null ? "Skipped." : "Not quite.") + "</strong> " + (ok ? "" : "The dashed circle shows the " + esc(t.name.charAt(0).toLowerCase() + t.name.slice(1)) + ".") + "</div>";
+        nx.classList.add("primary"); nx.innerHTML = (i + 1 < tasks.length ? "Next" : "See score") + " &rarr;";
+      }
+      wrap.addEventListener("click", function (e) { var r = wrap.getBoundingClientRect(); finishSpot((e.clientX - r.left) / r.width * 100, (e.clientY - r.top) / r.height * 100); });
+      nx.onclick = function () { if (!done) { finishSpot(null, null); return; } i++; render(); };
+    }
+    render();
   }
   /* ---------- animation helpers ---------- */
   var REDUCE = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
