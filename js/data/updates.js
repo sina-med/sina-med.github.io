@@ -2,6 +2,11 @@
    Style: short changelog lines, developer voice (Added / Fixed / Changed), no "you". */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
+  { date: "1 November 2026", items: [
+    "Added partial points on multi-answer questions: (right picks − wrong picks) ÷ number of correct answers.",
+    "Added section arrows on the home page for Anatomy 3, Physiology and Semiology; section filter on subject pages.",
+    "Fixed: \"Correct answer\" label overlapping the option notes in answer reviews."
+  ]},
   { date: "31 October 2026", items: [
     "Changed: Anatomy 3 lectures grouped as Faciomaxillary, ENT and Neuroanatomy.",
     "Fixed: home page was wider than the screen on phones during midterm week.",

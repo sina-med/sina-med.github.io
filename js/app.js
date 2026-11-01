@@ -628,6 +628,13 @@
       else if (s.status === "next") tag = '<span class="tag">Up next</span>';
       else tag = '<span class="tag">Planned</span>';
       inner = '<span><span class="name">' + esc(s.name) + '</span>' + (s.blurb ? '<span class="desc">' + esc(s.blurb) + "</span>" : "") + "</span>" + tag;
+      if (s.groups && s.groups.length > 2) {
+        var subs = s.groups.map(function (g, gi) {
+          var ready = g.items.filter(function (it) { return S.lectures[it.id]; }).length;
+          return '<a class="subgroup" href="#/subject/' + s.id + "/lectures/g" + gi + '"><span>' + esc(g.name) + '</span><span class="sg-n">' + (ready === g.items.length ? ready : ready + " of " + g.items.length) + " lecture" + (g.items.length > 1 ? "s" : "") + "</span></a>";
+        }).join("");
+        return '<li class="has-sub"><div class="sub-row"><a href="#/subject/' + s.id + '">' + inner + '</a><button type="button" class="sub-toggle" aria-expanded="false" aria-label="Show ' + esc(s.name) + ' sections"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div><div class="sub-list"><div class="sub-inner">' + subs + "</div></div></li>";
+      }
       return s.groups ? '<li><a href="#/subject/' + s.id + '">' + inner + "</a></li>" : '<li><span class="static planned">' + inner + "</span></li>";
     }
     var mids = progMidterms(), midHTML = "";
@@ -648,6 +655,7 @@
     setView(html, "");
     startCaduceus(document.getElementById("cad")); animateRings(); flipCountdowns();
     revealOnScroll(app.querySelectorAll(".subject-list > li, .sem-title"));
+    app.querySelectorAll(".sub-toggle").forEach(function (b) { b.onclick = function () { var li = b.closest("li"), o = !li.classList.contains("open"); li.classList.toggle("open", o); b.setAttribute("aria-expanded", String(o)); }; });
     app.querySelectorAll(".cram-bar").forEach(function (b) { b.onclick = function () { var pl = b.closest(".cram-plan"), o = !pl.classList.contains("open"); pl.classList.toggle("open", o); b.setAttribute("aria-expanded", String(o)); store.set("sina:cramOpen", o); }; });
     var art = app.querySelector(".hero-art"), cvh = document.getElementById("cad");
     if (art && cvh) { var excite = function () { art.classList.add("excited"); cvh.dataset.fast = "1"; clearTimeout(art._t); art._t = setTimeout(function () { art.classList.remove("excited"); delete cvh.dataset.fast; }, 2500); }; art.addEventListener("mouseenter", excite); art.addEventListener("click", excite); }
@@ -724,9 +732,12 @@
     var p = document.getElementById("panel");
     ({ lectures: subLecturesPanel, questions: subQuestionsPanel, visual: subVisualPanel, highyield: subHighYieldPanel, resources: subResourcesPanel, papers: subPapersPanel })[sec](p, s, arg);
   }
-  function subLecturesPanel(p, s) {
-    var mid = subjectMid(s), h = mid ? '<p class="mid-note"><span class="pill mid">Midterm</span> marks the lectures on the ' + esc(mid.title) + '. <a href="#/subject/' + s.id + '/questions/midterm">Practise just those</a>.</p>' : "";
-    s.groups.forEach(function (g) {
+  function subLecturesPanel(p, s, arg) {
+    var gsel = /^g(\d+)$/.test(arg || "") ? +RegExp.$1 : -1; if (!s.groups[gsel]) gsel = -1;
+    var mid = subjectMid(s), h = s.groups.length > 1 ? '<div class="grp-chips" role="group" aria-label="Sections"><a class="gchip' + (gsel < 0 ? " on" : "") + '" href="#/subject/' + s.id + '">All</a>' + s.groups.map(function (g, gi) { return '<a class="gchip' + (gi === gsel ? " on" : "") + '" href="#/subject/' + s.id + "/lectures/g" + gi + '">' + esc(g.name) + "</a>"; }).join("") + "</div>" : "";
+    h += mid ? '<p class="mid-note"><span class="pill mid">Midterm</span> marks the lectures on the ' + esc(mid.title) + '. <a href="#/subject/' + s.id + '/questions/midterm">Practise just those</a>.</p>' : "";
+    s.groups.forEach(function (g, gi) {
+      if (gsel > -1 && gi !== gsel) return;
       h += '<h2 class="group-title">' + esc(g.name) + '</h2><ul class="lec-list">' + g.items.map(function (it) {
         return S.lectures[it.id]
           ? '<li><a href="#/lecture/' + it.id + '"><span>' + esc(it.title) + "</span>" + (onMidterm(it.id) ? '<span class="pill mid">Midterm</span>' : "") + "</a></li>"
@@ -1170,20 +1181,21 @@
       var ans = q.answers || [q.answer];
       return ans.map(function (n) { return LET[n] + ". " + q.options[n]; }).join(" and ");
     }
-    function feedback(q, ok, skipped) {
-      var head = skipped ? "Skipped." : ok ? "Correct." : "Not quite.";
+    function feedback(q, ok, skipped, pts) {
+      var head = skipped ? "Skipped." : ok ? "Correct." : pts > 0 ? "Partly right: " + fmtPts(pts) + " of 1 point." : "Not quite.";
       var body = q.why ? " " + esc(q.why) : "";
       return '<div class="why"><strong>' + head + "</strong> Correct answer: " + esc(keyText(q)) + "." + body + "</div>" + slidesHTML(q) + '<p class="rep-line"><button type="button" class="linkbtn" id="rep">Report a mistake in this question</button></p>';
     }
     function render() {
       if (i >= qs.length) {
         score = 0; wrong = [];
-        qs.forEach(function (q, n) { var d = done[n] || { chosen: [], ok: false }; if (d.ok) score++; else wrong.push({ q: q, n: n + 1, chosen: d.chosen }); });
+        qs.forEach(function (q, n) { var d = done[n] || { chosen: [], ok: false, pts: 0 }; score += d.ok ? 1 : (d.pts || 0); if (!d.ok) wrong.push({ q: q, n: n + 1, chosen: d.chosen }); });
+        score = Math.round(score * 100) / 100;
         var full = fullRun, best = store.get(key, 0);
         if (full && score > best) { best = score; store.set(key, best); }
         var missed = wrong.slice();
         p.innerHTML = scoreRevealHTML(score, qs.length) +
-          (full ? "<p>Best score on this device: " + best + " / " + all.length + ".</p>" : "<p>Retry of the questions you missed.</p>") +
+          (full ? "<p>Best score on this device: " + fmtPts(best) + " / " + all.length + ".</p>" : "<p>Retry of the questions you missed.</p>") +
           '<div class="row">' + (missed.length ? '<button class="btn primary" id="rev">Show only my wrong answers (' + missed.length + ')</button><button class="btn" id="retry">Retry only these</button>' : '<p class="src">No wrong answers. Well done.</p>') +
           '<button class="btn" id="again">' + (full ? "Try again" : "Back to the full quiz") + '</button></div><div id="review"></div>';
         scoreReveal(p, score, qs.length); streak = 0;
@@ -1221,10 +1233,10 @@
       var opts = p.querySelectorAll(".opt");
       function finish(chosen, skipped) {
         var ans = q.answers || [q.answer];
-        var ok = chosen.length === ans.length && chosen.every(function (n) { return ans.indexOf(n) > -1; });
+        var ok = chosen.length === ans.length && chosen.every(function (n) { return ans.indexOf(n) > -1; }), pts = qPoints(q, chosen);
         var fresh = !done[i];
         if (fresh) {
-          done[i] = { chosen: chosen, ok: ok, skipped: !!skipped }; trackAnswer(q, lec.id, ok);
+          done[i] = { chosen: chosen, ok: ok, pts: pts, skipped: !!skipped }; trackAnswer(q, lec.id, ok);
           var was = streak; streak = ok ? streak + 1 : 0;
           var fl = p.querySelector(".streak"); if (fl) fl.outerHTML = flameHTML(streak, streak === 5 || (was >= 5 && !ok), was);
           else if (streak >= 5) p.querySelector(".qhead").insertAdjacentHTML("beforeend", flameHTML(streak, streak === 5));
@@ -1236,7 +1248,7 @@
         });
         var c = p.querySelector("#chk"); if (c) c.remove();
         if (fresh && !skipped) answerFx(opts, ans, chosen, ok);
-        document.getElementById("fb").innerHTML = feedback(q, ok, skipped);
+        document.getElementById("fb").innerHTML = feedback(q, ok, skipped, (done[i] || {}).pts);
         p.querySelector("#rep").onclick = function () { reportMistake(q, lec.id); };
         var fw = p.querySelector("#fwd"); fw.classList.add("primary"); fw.innerHTML = (i + 1 < qs.length ? "Next question" : "See score") + " &rarr;";
         if (!skipped) fw.focus({ preventScroll: true });
@@ -1736,10 +1748,11 @@
       if (!auto) { var blank = sel.filter(function (s) { return !s.length; }).length; if (!confirm(blank ? blank + " question" + (blank > 1 ? "s are" : " is") + " unanswered. Submit anyway?" : "Submit the exam?")) return; }
       over = true; clearInterval(timer);
       var score = 0, used = secs - Math.max(0, (end - Date.now()) / 1000);
-      var res = qs.map(function (q, k) { var ans = q.answers || [q.answer], s = sel[k], ok = s.length === ans.length && s.every(function (x) { return ans.indexOf(x) > -1; }); if (ok) score++; trackAnswer(q, set.id, ok); return ok; });
+      var res = qs.map(function (q, k) { var ans = q.answers || [q.answer], s = sel[k], ok = s.length === ans.length && s.every(function (x) { return ans.indexOf(x) > -1; }); score += qPoints(q, s); trackAnswer(q, set.id, ok); return ok; });
+      score = Math.round(score * 100) / 100;
       var pct = Math.round(score / n * 100);
       p.innerHTML = '<div class="exam-result"><p class="meta">' + (auto ? "Time is up." : "Exam submitted.") + " Time used: " + fmt(used) + '</p>' + scoreRevealHTML(score, n) +
-        '<div class="row"><button class="btn primary" id="xr-wrong">Show wrong answers (' + (n - score) + ')</button><button class="btn" id="xr-all">Show all answers</button>' + (back ? '<button class="btn" id="xr-back">Back</button>' : "") + '</div>' + (S.api && set.paper ? lbPostHTML() : "") + '</div><div id="xrev"></div>';
+        '<div class="row"><button class="btn primary" id="xr-wrong">Show wrong answers (' + res.filter(function (x) { return !x; }).length + ')</button><button class="btn" id="xr-all">Show all answers</button>' + (back ? '<button class="btn" id="xr-back">Back</button>' : "") + '</div>' + (S.api && set.paper ? lbPostHTML() : "") + '</div><div id="xrev"></div>';
       if (S.api && set.paper) lbPostWire(p, set.id, score, n, Math.round(used));
       scoreReveal(p, score, n);
       function review(onlyWrong) {
@@ -1805,6 +1818,14 @@
     function onScroll() { if (!ticking) { ticking = true; requestAnimationFrame(upd); } }
     window.addEventListener("scroll", onScroll, { passive: true }); upd();
   }
+  /* ---------- partial credit: multi-answer questions score (right picks - wrong picks) / number of answers ---------- */
+  function qPoints(q, chosen) {
+    var ans = q.answers || [q.answer];
+    if (ans.length < 2) return chosen.length === 1 && chosen[0] === ans[0] ? 1 : 0;
+    var r = 0, w = 0; chosen.forEach(function (c) { if (ans.indexOf(c) > -1) r++; else w++; });
+    return Math.max(0, (r - w) / ans.length);
+  }
+  function fmtPts(x) { var r = Math.round(x * 100) / 100; return String(r); }
   /* ---------- animation helpers ---------- */
   var REDUCE = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
   function snakeLoader() {
@@ -1827,7 +1848,7 @@
   }
   function scoreRevealHTML(score, n) {
     var pct = n ? Math.round(score / n * 100) : 0, C = 2 * Math.PI * 42;
-    return '<div class="score-reveal"><svg class="pring big" viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42" stroke-dasharray="' + C + '" stroke-dashoffset="' + C + '" data-to="' + (C * (1 - pct / 100)) + '"/><text x="50" y="57" class="sr-pct">' + (REDUCE ? pct : 0) + '%</text></svg><div class="score"><span class="sr-n">' + (REDUCE ? score : 0) + "</span> / " + n + "</div></div>";
+    return '<div class="score-reveal"><svg class="pring big" viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42" stroke-dasharray="' + C + '" stroke-dashoffset="' + C + '" data-to="' + (C * (1 - pct / 100)) + '"/><text x="50" y="57" class="sr-pct">' + (REDUCE ? pct : 0) + '%</text></svg><div class="score"><span class="sr-n">' + (REDUCE ? fmtPts(score) : 0) + "</span> / " + n + "</div></div>" + (score % 1 ? '<p class="src partial-note">Multi-answer questions give partial points: (right picks − wrong picks) ÷ number of correct answers.</p>' : "");
   }
   function scoreReveal(p, score, n) {
     var ring = p.querySelector(".score-reveal .fg"), num = p.querySelector(".sr-n"), pc = p.querySelector(".sr-pct"), pct = n ? Math.round(score / n * 100) : 0;
@@ -1836,7 +1857,7 @@
     var t0 = performance.now(), dur = 1300;
     (function step(now) {
       var k = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - k, 3);
-      if (num) num.textContent = Math.round(score * e); if (pc) pc.textContent = Math.round(pct * e) + "%";
+      if (num) num.textContent = k < 1 ? (score % 1 ? (score * e).toFixed(2) : Math.round(score * e)) : fmtPts(score); if (pc) pc.textContent = Math.round(pct * e) + "%";
       if (k < 1) requestAnimationFrame(step); else if (n && score === n) feathers();
     })(t0);
   }
@@ -1872,7 +1893,7 @@
       if (!nick) { msg.textContent = "Pick a nickname first."; inp.focus(); return; }
       if (secs < total * 3) { msg.textContent = "Finished too fast to count (under 3 seconds per question)."; return; }
       store.set("sina:nick", nick); b.disabled = true; msg.textContent = "Sending…";
-      fetch(S.api, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ type: "score", nick: nick, device: lbDevice(), paper: paper, score: score, total: total, secs: secs }) })
+      fetch(S.api, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ type: "score", nick: nick, device: lbDevice(), paper: paper, score: Math.round(score * 100) / 100, total: total, secs: secs }) })
         .then(function () { msg.innerHTML = 'Posted. <a href="#/leaderboard/' + paper + '">See the leaderboard</a>'; sessionStorage.removeItem("sina:lb"); }, function () { b.disabled = false; msg.textContent = "Could not send. Check your connection."; });
     };
   }
@@ -1905,7 +1926,7 @@
         var top = Math.max.apply(null, list.map(function (r) { return cur === "all" ? r.score : r.score / r.total; })) || 1;
         return '<ol class="lb-list">' + list.slice(0, 100).map(function (r, i) {
           var val = cur === "all" ? r.score : r.score / r.total, medal = ["🥇", "🥈", "🥉"][i] || (i + 1);
-          var right = cur === "all" ? r.score + " pts · " + r.n + " paper" + (r.n > 1 ? "s" : "") : r.score + " / " + r.total + " · " + Math.floor(r.secs / 60) + ":" + ("0" + (r.secs % 60)).slice(-2);
+          var right = cur === "all" ? fmtPts(r.score) + " pts · " + r.n + " paper" + (r.n > 1 ? "s" : "") : fmtPts(r.score) + " / " + r.total + " · " + Math.floor(r.secs / 60) + ":" + ("0" + (r.secs % 60)).slice(-2);
           return '<li class="' + (String(r.nick).toLowerCase() === me ? "me" : "") + '" style="--d:' + (i * 0.04) + 's"><span class="lb-rank">' + medal + '</span><span class="lb-nick">' + esc(r.nick) + '</span><span class="lb-val">' + right + '</span><span class="lb-bar"><i style="--w:' + Math.round(val / top * 100) + '%"></i></span></li>';
         }).join("") + "</ol>";
       }
