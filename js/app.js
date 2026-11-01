@@ -2242,7 +2242,9 @@
   function lbFetch(cb, fresh) {
     try { var c = JSON.parse(sessionStorage.getItem("sina:lb") || "null"); if (!fresh && c && Date.now() - c.t < 1e4) return cb(c.d); } catch (e) {}
     var save = function (d) { if (d && d.ok) { try { sessionStorage.setItem("sina:lb", JSON.stringify({ t: Date.now(), d: d })); } catch (e) {} } cb(d); };
-    /* JSONP: works with Apps Script whatever its CORS behaviour */
+    /* plain fetch first (Apps Script answers with open CORS); JSONP only as a fallback */
+    fetch(S.api, { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (d) { if (d && d.ok) save(d); else jsonp(); }, jsonp);
+    function jsonp() {
     var name = "sinaLb" + Date.now(), sc = document.createElement("script"), done = false;
     var fin = function (d) { if (done) return; done = true; try { delete window[name]; } catch (e) { window[name] = undefined; } sc.remove(); save(d); };
     window[name] = fin;
@@ -2250,6 +2252,7 @@
     sc.onerror = function () { fin(null); };
     setTimeout(function () { fin(null); }, 15000);
     document.head.appendChild(sc);
+    }
   }
   function leaderboardView(sel) {
     if (!S.api) return notFound();
