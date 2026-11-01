@@ -5,7 +5,6 @@ SINA.updates = [
   { date: "1 November 2026", items: [
     "Added: Add to home screen guide for iPhone, iPad and Android (Settings menu).",
     "Changed: Sina moved to sina-med.github.io; the old link forwards there and brings saved progress along.",
-    "Changed: caduceus wings now flap (fast downstroke, feathers fan out and fold) instead of bobbing.",
     "Changed: leaderboard refreshes live every 15 seconds; a posted score appears at once.",
     "Changed: Clinical Biochemistry past-paper questions with three correct answers rewritten to have one or two.",
     "Changed: mind maps redrawn with a Map view (radial) and a Cards view, each with Test me.",

@@ -2372,9 +2372,9 @@
     var wsvg = cv.parentNode && cv.parentNode.querySelector(".cad-wings"), feathers = wsvg ? [].slice.call(wsvg.querySelectorAll(".cw path")) : [];
     function drawWings(ph) {
       if (!feathers.length) return;
-      var T = 1.25, p = ((ph / T) % 1 + 1) % 1, f, lag;
+      var T = 2.4, p = ((ph / T) % 1 + 1) % 1, f, lag;
       f = p < 0.38 ? Math.cos(Math.PI * p / 0.38) : -Math.cos(Math.PI * (p - 0.38) / 0.62);   /* 1 = top, -1 = bottom */
-      var q = ((ph / T - 0.07) % 1 + 1) % 1; lag = q < 0.38 ? Math.cos(Math.PI * q / 0.38) : -Math.cos(Math.PI * (q - 0.38) / 0.62);
+      var q = ((ph / T - 0.05) % 1 + 1) % 1; lag = q < 0.38 ? Math.cos(Math.PI * q / 0.38) : -Math.cos(Math.PI * (q - 0.38) / 0.62);
       if (reduce) { f = 0.2; lag = 0.2; }
       var spread = 0.98 - 0.22 * f;
       feathers.forEach(function (el, idx) {
@@ -2394,7 +2394,7 @@
       if (!cv.isConnected) return;
       cs = getComputedStyle(document.documentElement);
       var t = (now - t0) / 1000, g = opt.grow ? Math.max(0, Math.min(1, (t - (opt.delay || 0)) / opt.grow)) : 1, cx = W / 2, top = H * 0.1, bot = H * 0.96, amp = W * 0.2, turns = 3.1, segs = 160;
-      spd += ((cv.dataset.fast ? 2.6 : 1) - spd) * 0.06; ph0 += (t - lastT) * spd; lastT = t;
+      spd += ((cv.dataset.fast ? 3 : 1) - spd) * 0.06; ph0 += (t - lastT) * spd; lastT = t;
       drawWings(ph0);
       var rod = v("--muted"), col = [v("--accent"), v("--snake2") || v("--sage")];
       c.clearRect(0, 0, W, H);
