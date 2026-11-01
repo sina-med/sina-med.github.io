@@ -614,9 +614,7 @@
     });
     var html = '<div class="wrap wide"><section class="hero slim"><div class="hero-grid"><div class="hero-text"><p class="hero-brand">Sina<span>.</span></p><h1>Study each lecture, then test yourself on it.</h1>' +
       '<div class="home-search"><input id="home-search" type="search" placeholder="Search a lecture, subject or past paper" aria-label="Search lectures, subjects and past papers" autocomplete="off"><div class="home-results" id="home-results" hidden></div></div></div>' + caduceusHTML() + "</div>" +
-      midHTML +
-      '<p class="meta home-links"><a href="#/practice">Practice questions</a> &middot; <a href="#/progress">My progress</a> &middot; ' + (S.api ? '<a href="#/leaderboard">Leaderboard</a> &middot; ' : "") + (mistakeList().length ? '<a href="#/mistakes">Redo my mistakes (' + mistakeList().length + ')</a> &middot; ' : "") + '' + (S.usmle ? '<a href="#/usmle">USMLE prep</a> &middot; ' : "") + '<a href="#/apps">Useful apps</a>' +
-      (S.updated ? ' &middot; <a href="#/updates">What\'s new' + (newBadge() ? ' <span class="badge">new</span>' : "") + "</a>" : "") + "</p></section>" +
+      quickTiles() + midHTML + "</section>" +
       '<h2 id="subjects">' + esc(T("home.subjects")) + ' <span class="prog-tag">' + esc(progName()) + '</span></h2>' +
       (semList.length ? semList.map(function (k) { return '<h3 class="sem-title">' + esc(T("home.semester", { n: k.replace(/^S/, "") })) + '</h3><ul class="subject-list">' + sems[k].map(row).join("") + "</ul>"; }).join("")
         : '<div class="empty-prog"><h3>' + esc(T("home.empty.title", { name: progName() })) + '</h3><p>' + esc(T("home.empty.body")) + '</p></div>') +
@@ -1442,6 +1440,25 @@
   }
 
   /* ---------- what's new ---------- */
+  function updateNewsDot() { var d = document.querySelector("#news-btn .ndot"); if (d) d.hidden = !newBadge(); }
+  /* home: quick access (continue, mistakes, progress, leaderboard) */
+  function quickTiles() {
+    var last = store.get("sina:last", null), mk = mistakeList().length, st = store.get("sina:stats", {}), seen = 0, ok = 0;
+    Object.keys(st).forEach(function (lid) { if (!inProgram(lid)) return; seen += st[lid][0]; ok += st[lid][1]; });
+    var ico = {
+      go: '<path d="M8 5l11 7-11 7z" fill="currentColor"/>',
+      redo: '<path d="M4 12a8 8 0 1 0 2.4-5.7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M4 3v5h5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>',
+      prog: '<circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2.2" opacity=".3"/><path d="M12 3.5a8.5 8.5 0 0 1 8.5 8.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M7 12.5h2.5l1.5-3 2 6 1.5-3H17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>',
+      lb: '<path d="M7 4h10v4a5 5 0 0 1-10 0z" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linejoin="round"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4M12 13v4M8 20h8" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>'
+    };
+    var t = function (href, k, title, sub, cls) { return '<a class="qtile' + (cls ? " " + cls : "") + '" href="' + href + '"><span class="qt-ico"><svg viewBox="0 0 24 24" aria-hidden="true">' + ico[k] + '</svg></span><span class="qt-t">' + title + '</span><span class="qt-s">' + sub + "</span></a>"; };
+    var h = '<nav class="quick" aria-label="Quick access">';
+    if (last && last.h) h += t(last.h, "go", "Continue", esc(last.t), "qt-go");
+    h += t("#/mistakes", "redo", "Redo my mistakes", mk ? mk + " question" + (mk > 1 ? "s" : "") + " to redo" : "No mistakes yet", mk ? "qt-hot" : "");
+    h += t("#/progress", "prog", "My progress", seen ? Math.round(ok / seen * 100) + "% accuracy · " + seen + " answered" : "Start a quiz to track it");
+    if (S.api) h += t("#/leaderboard", "lb", "Leaderboard", "Best past paper scores");
+    return h + "</nav>";
+  }
   function newBadge() {
     var latest = (S.updates && S.updates[0] && S.updates[0].date) || null;
     return latest ? store.get("sina:seenUpdate", null) !== latest : false;
@@ -1959,7 +1976,15 @@
     });
   }
 
+  function rememberPlace() {
+    var h = location.hash;
+    if (!/^#\/(lecture\/|subject\/[^/]+\/questions\/|paper\/)/.test(h)) return;
+    var t = (document.title || "").replace(/\s*\|\s*Sina$/, "");
+    if (/^#\/subject\/[^/]+\/questions\/([^/]+)/.test(h)) { var lid = RegExp.$1; t = (S.lectures[lid] ? S.lectures[lid].title : t) + " · questions"; }
+    if (t) store.set("sina:last", { h: h, t: t });
+  }
   function route() {
+    setTimeout(function () { rememberPlace(); updateNewsDot(); }, 0);
     var parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
     if (parts[0] !== "year") setTimeout(trackView, 0);
     if (isOpen()) closeDrawer();
@@ -2012,7 +2037,9 @@
         if (items.length) groups.push({ name: g.name, items: items });
       });
       if (!groups.length) return;
-      var d = /^\d{4}-\d{2}-\d{2}$/.test((r[3] || "").trim()) ? r[3].trim() : "";
+      var raw = (r[3] || "").trim(), dm = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/.exec(raw), ym = /^(\d{4})[-\/](\d{1,2})[-\/](\d{1,2})$/.exec(raw);
+      var p2 = function (x) { return ("0" + x).slice(-2); };
+      var d = ym ? ym[1] + "-" + p2(ym[2]) + "-" + p2(ym[3]) : dm ? dm[3] + "-" + p2(dm[2]) + "-" + p2(dm[1]) : "";
       out.push({ id: sb.id + "-midterm", program: prog, subject: sb.id, title: (r[2] || "").trim() || sb.name + " midterm", date: d, groups: groups });
     });
     return out;

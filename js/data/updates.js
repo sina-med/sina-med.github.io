@@ -3,6 +3,8 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "31 October 2026", items: [
+    "Changed: home page quick access (Continue where you left off, Redo my mistakes, My progress, Leaderboard) replaces the link bar; What's new moved to the top bar.",
+    "Fixed: midterm countdown now shows even when the midterm sheet cannot be read.",
     "Added animations: answer feedback (pulse and heartbeat on correct, shake on wrong), streak flame after 5 correct in a row, animated score with gold feathers on a perfect score.",
     "Added 3D flashcard flip; swipe right (knew it) or left (still learning) on phones.",
     "Added page transitions, home subjects rising in on scroll, snake loader for slides and the leaderboard, faster-flapping wings on tap, pulsing countdown on exam day.",
