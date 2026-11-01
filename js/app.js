@@ -1473,9 +1473,16 @@
     document.body.classList.add("noscroll");
     var anim = { grow: 2.8, delay: 0.5 };
     startCaduceus(w.querySelector("canvas"), anim);
-    var skip = function () { if (w.classList.contains("skip")) return; w.classList.add("skip"); anim.grow = 0.001; anim.delay = 0; };
+    w.insertAdjacentHTML("beforeend", '<button type="button" class="w-skip">Skip intro &rsaquo;</button>');
+    var readyT = setTimeout(function () { w.classList.add("ready"); }, 4900);
+    var skip = function () {
+      if (w.classList.contains("skip")) return; w.classList.add("skip"); anim.grow = 0.001; anim.delay = 0;
+      clearTimeout(readyT); setTimeout(function () { w.classList.add("ready"); }, 300);
+      var f = w.querySelector(".w-year.on") || w.querySelector(".w-year") || w.querySelector("#enter"); if (f) f.focus({ preventScroll: true });
+    };
     if (reduce) skip();
-    w.addEventListener("click", function (e) { if (e.target.id !== "enter") skip(); });
+    w.addEventListener("click", function (e) { if (!w.classList.contains("ready")) { e.preventDefault(); e.stopPropagation(); skip(); } }, true);
+    document.addEventListener("keydown", function k(e) { if (!document.body.contains(w)) { document.removeEventListener("keydown", k); return; } if (!w.classList.contains("ready") && (e.key === "Escape" || e.key === "Enter" || e.key === " ")) { e.preventDefault(); skip(); } });
     var btn = w.querySelector("#enter");
     function leave() {
       store.set("sina:welcomed", true); store.set("sina:yearAsked", "1");

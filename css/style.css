@@ -1101,3 +1101,7 @@ html.splashing body { overflow: hidden; }
   .reveal { opacity: 1; transform: none; }
   .fcard.flip3d { transition: none; }
 }
+.w-skip { position: absolute; top: max(1rem, env(safe-area-inset-top)); right: 1rem; z-index: 2; font: inherit; font-size: .85rem; font-weight: 700; color: var(--muted); background: var(--surface); border: 1px solid var(--line-strong); border-radius: 999px; padding: .4rem .9rem; cursor: pointer; transition: opacity .3s ease, color .15s ease, border-color .15s ease; }
+.w-skip:hover { color: var(--ink); border-color: var(--accent); }
+.welcome.ready .w-skip { opacity: 0; pointer-events: none; }
+.welcome.intro:not(.ready) .wbox { cursor: pointer; }

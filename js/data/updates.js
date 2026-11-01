@@ -7,7 +7,7 @@ SINA.updates = [
     "Added 3D flashcard flip; swipe right (knew it) or left (still learning) on phones.",
     "Added page transitions, home subjects rising in on scroll, snake loader for slides and the leaderboard, faster-flapping wings on tap, pulsing countdown on exam day.",
     "Added midterm-week mode: in the last 7 days the midterm card shows a cram plan (weakest lectures first, questions per day); red the day before.",
-    "Changed: the welcome screen opens on every visit, with the caduceus animation (snakes rise up the rod, wings open, Sina appears), then the year choice. Tap to skip.",
+    "Changed: the welcome screen opens on every visit, with the caduceus animation (snakes rise up the rod, wings open, Sina appears), then the year choice. Skip intro button, or tap anywhere / press Enter to skip.",
     "Added Leaderboard: post exam-mode past paper scores under a nickname; ranking per paper and overall.",
     "Changed: Report a mistake now sends the report directly.",
     "Added animated caduceus to the home page.",
