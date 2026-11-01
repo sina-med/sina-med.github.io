@@ -1404,3 +1404,15 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .lb-live i { width: 8px; height: 8px; border-radius: 50%; background: #2f9e5b; animation: ndot 2s ease-in-out infinite; }
 #lb.quiet .lb-list li { animation: none; }
 #lb.quiet .lb-bar i { transition: none; }
+
+/* add to home screen */
+.inst h1 { margin-bottom: .3rem; }
+.inst-tabs { display: inline-flex; gap: 4px; padding: 4px; border-radius: 999px; background: var(--accent-soft); margin: 1rem 0 .4rem; }
+.inst-tabs button { border: 0; background: none; color: inherit; font: inherit; font-weight: 600; padding: .45rem 1rem; border-radius: 999px; cursor: pointer; }
+.inst-tabs button[aria-selected="true"] { background: var(--surface); box-shadow: 0 1px 4px rgba(0,0,0,.12); }
+.inst-steps { counter-reset: st; list-style: none; padding: 0; margin: .8rem 0; display: grid; gap: .6rem; max-width: 560px; }
+.inst-steps li { counter-increment: st; position: relative; padding: .75rem .9rem .75rem 3rem; border: 1px solid var(--line); border-radius: 12px; line-height: 1.45; }
+.inst-steps li::before { content: counter(st); position: absolute; left: .85rem; top: .7rem; width: 1.6rem; height: 1.6rem; border-radius: 50%; display: grid; place-items: center; font-weight: 700; font-size: .85rem; background: var(--accent); color: var(--accent-ink); }
+.inst-ico { vertical-align: -3px; margin: 0 2px; }
+.inst-ok { font-weight: 600; color: var(--good); }
+#inst-now { margin-top: .6rem; }

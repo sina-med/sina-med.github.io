@@ -1831,6 +1831,45 @@
     Object.keys(mk).forEach(function (k) { var e = idx[k]; if (e && inProgram(e.lid)) out.push({ k: k, e: e }); });
     return out;
   }
+  /* ---------- add Sina to the home screen ---------- */
+  var installEvt = null;
+  window.addEventListener("beforeinstallprompt", function (e) { e.preventDefault(); installEvt = e; var b = document.getElementById("inst-now"); if (b) b.hidden = false; });
+  function installView() {
+    var ua = navigator.userAgent, ios = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1), droid = /Android/.test(ua);
+    var standalone = (window.matchMedia && matchMedia("(display-mode: standalone)").matches) || navigator.standalone;
+    var share = '<svg class="inst-ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-label="Share"><path d="M12 3v12"/><path d="M8 7l4-4 4 4"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg>';
+    var dots = '<svg class="inst-ico" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-label="Menu"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg>';
+    var iosSteps = '<ol class="inst-steps">' +
+      '<li>Open <b>sina-med.github.io</b> in <b>Safari</b>.</li>' +
+      '<li>Tap the <b>Share</b> button ' + share + ' (bottom of the screen on iPhone, top right on iPad, next to the address).</li>' +
+      '<li>Scroll down and tap <b>Add to Home Screen</b>. If you don’t see it, tap <b>Edit Actions</b> at the bottom and add it.</li>' +
+      '<li>Keep the name <b>Sina</b> and tap <b>Add</b>.</li>' +
+      '<li>Open Sina from the new icon. It opens full screen, like an app.</li></ol>' +
+      '<p class="meta">On iPhone and iPad the icon keeps its own saved progress, separate from Safari. Add it once and keep using the icon.</p>';
+    var droidSteps = '<ol class="inst-steps">' +
+      '<li>Open <b>sina-med.github.io</b> in <b>Chrome</b>.</li>' +
+      '<li>Tap the menu ' + dots + ' at the top right.</li>' +
+      '<li>Tap <b>Add to Home screen</b> (on some phones it says <b>Install app</b>).</li>' +
+      '<li>Tap <b>Install</b> or <b>Add</b>, then confirm.</li>' +
+      '<li>Open Sina from the new icon on your home screen.</li></ol>' +
+      '<p class="meta">Samsung Internet: tap the menu ≡ at the bottom, then <b>Add page to</b> → <b>Home screen</b>.</p>';
+    var html = '<div class="wrap inst"><p class="crumbs"><a href="#/">Home</a> / Add to home screen</p><h1>Add Sina to your home screen</h1>' +
+      '<p class="meta">Sina then opens like an app, full screen, and works offline once loaded.</p>' +
+      (standalone ? '<p class="inst-ok">You’re already using Sina from your home screen.</p>' : "") +
+      '<button class="btn primary" id="inst-now"' + (installEvt ? "" : " hidden") + '>Install Sina</button>' +
+      '<div class="inst-tabs" role="tablist"><button role="tab" data-os="ios">iPhone &amp; iPad</button><button role="tab" data-os="android">Android</button></div>' +
+      '<section class="inst-pane" data-os="ios">' + iosSteps + '</section><section class="inst-pane" data-os="android">' + droidSteps + '</section>' + '</div>';
+    setView(html, "Add to home screen");
+    function pick(os) {
+      document.querySelectorAll(".inst-tabs button").forEach(function (b) { b.setAttribute("aria-selected", String(b.dataset.os === os)); });
+      document.querySelectorAll(".inst-pane").forEach(function (p) { p.hidden = p.dataset.os !== os; });
+    }
+    document.querySelectorAll(".inst-tabs button").forEach(function (b) { b.addEventListener("click", function () { pick(b.dataset.os); }); });
+    pick(droid ? "android" : "ios");
+    var ib = document.getElementById("inst-now");
+    ib.addEventListener("click", function () { if (!installEvt) return; installEvt.prompt(); installEvt.userChoice.then(function () { installEvt = null; ib.hidden = true; }); });
+  }
+
   function mistakesView() {
     var list = mistakeList(), by = {};
     list.forEach(function (m) { (by[m.e.lid] = by[m.e.lid] || []).push(m); });
@@ -2487,6 +2526,7 @@
     if (parts[0] === "mistakes") return mistakesView();
     if (parts[0] === "leaderboard") return leaderboardView(parts[1]);
     if (parts[0] === "resume") return resumeView();
+    if (parts[0] === "install") return installView();
     if (parts[0] === "find") return findView(parts[1], parts[2], decodeURIComponent(parts[3] || ""));
     if (parts[0] === "practice") return parts[1] ? practiceView(parts[1], parts[2], parts[3]) : practiceHome();
     if (parts[0] === "papers") return papersView(parts[1]);
