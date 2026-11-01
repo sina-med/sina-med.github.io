@@ -2327,6 +2327,27 @@
   }
   function startCaduceus(cv, opt) {
     if (!cv) return; opt = opt || {};
+    /* wings: each feather is redrawn every frame. The wing rotates up and down around the shoulder
+       (fast downstroke, slower upstroke), feathers fan out on the way down and fold on the way up,
+       and the tips lag behind the shoulder, so it reads as a flap rather than a bounce. */
+    var wsvg = cv.parentNode && cv.parentNode.querySelector(".cad-wings"), feathers = wsvg ? [].slice.call(wsvg.querySelectorAll(".cw path")) : [];
+    function drawWings(ph) {
+      if (!feathers.length) return;
+      var T = 1.25, p = ((ph / T) % 1 + 1) % 1, f, lag;
+      f = p < 0.38 ? Math.cos(Math.PI * p / 0.38) : -Math.cos(Math.PI * (p - 0.38) / 0.62);   /* 1 = top, -1 = bottom */
+      var q = ((ph / T - 0.07) % 1 + 1) % 1; lag = q < 0.38 ? Math.cos(Math.PI * q / 0.38) : -Math.cos(Math.PI * (q - 0.38) / 0.62);
+      if (reduce) { f = 0.2; lag = 0.2; }
+      var spread = 0.98 - 0.22 * f;
+      feathers.forEach(function (el, idx) {
+        var side = idx < 7 ? -1 : 1, k = idx % 7;
+        var base = (-16 + k * 10.5) * spread, flap = 30 * f * (0.55 + 0.45 * k / 6) + 10 * lag * (k / 6);
+        var a = (base + flap) * Math.PI / 180, L = (150 - k * 11) * (0.9 + 0.1 * Math.abs(Math.cos(a))), w = 13 - k * 0.7;
+        var ux = Math.cos(a) * side, uy = -Math.sin(a), nx = -uy, ny = ux, bend = -6 * lag * (k / 6) * side;
+        function P(x, y) { return (ux * x + nx * y).toFixed(1) + " " + (uy * x + ny * y).toFixed(1); }
+        el.setAttribute("d", "M0 0 C" + P(L * 0.3, -w * side) + " " + P(L * 0.8, -w * 0.9 * side + bend) + " " + P(L, bend * 1.4) + " C" + P(L * 0.8, w * 0.6 * side + bend) + " " + P(L * 0.3, w * 0.8 * side) + " 0 0 Z");
+        el.removeAttribute("transform");
+      });
+    }
     var c = cv.getContext("2d"), W = cv.width, H = cv.height, t0 = performance.now(), ph0 = 0, lastT = 0, spd = 1;
     var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
     var cs = getComputedStyle(document.documentElement), v = function (n) { return cs.getPropertyValue(n).trim(); };
@@ -2335,6 +2356,7 @@
       cs = getComputedStyle(document.documentElement);
       var t = (now - t0) / 1000, g = opt.grow ? Math.max(0, Math.min(1, (t - (opt.delay || 0)) / opt.grow)) : 1, cx = W / 2, top = H * 0.1, bot = H * 0.96, amp = W * 0.2, turns = 3.1, segs = 160;
       spd += ((cv.dataset.fast ? 2.6 : 1) - spd) * 0.06; ph0 += (t - lastT) * spd; lastT = t;
+      drawWings(ph0);
       var rod = v("--muted"), col = [v("--accent"), v("--snake2") || v("--sage")];
       c.clearRect(0, 0, W, H);
       var bodies = [];
