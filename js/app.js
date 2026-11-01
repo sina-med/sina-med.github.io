@@ -2236,11 +2236,11 @@
       if (secs < total * 3) { msg.textContent = "Finished too fast to count (under 3 seconds per question)."; return; }
       store.set("sina:nick", nick); b.disabled = true; msg.textContent = "Sending…";
       fetch(S.api, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ type: "score", nick: nick, device: lbDevice(), paper: paper, score: Math.round(score * 100) / 100, total: total, secs: secs }) })
-        .then(function () { msg.innerHTML = 'Posted. <a href="#/leaderboard/' + paper + '">See the leaderboard</a>'; sessionStorage.removeItem("sina:lb"); }, function () { b.disabled = false; msg.textContent = "Could not send. Check your connection."; });
+        .then(function () { msg.innerHTML = 'Posted. <a href="#/leaderboard/' + paper + '">See the leaderboard</a>'; sessionStorage.removeItem("sina:lb"); store.set("sina:lbPending", { nick: nick, paper: paper, score: Math.round(score * 100) / 100, total: total, secs: secs, t: Date.now() }); }, function () { b.disabled = false; msg.textContent = "Could not send. Check your connection."; });
     };
   }
-  function lbFetch(cb) {
-    try { var c = JSON.parse(sessionStorage.getItem("sina:lb") || "null"); if (c && Date.now() - c.t < 6e4) return cb(c.d); } catch (e) {}
+  function lbFetch(cb, fresh) {
+    try { var c = JSON.parse(sessionStorage.getItem("sina:lb") || "null"); if (!fresh && c && Date.now() - c.t < 1e4) return cb(c.d); } catch (e) {}
     var save = function (d) { if (d && d.ok) { try { sessionStorage.setItem("sina:lb", JSON.stringify({ t: Date.now(), d: d })); } catch (e) {} } cb(d); };
     /* JSONP: works with Apps Script whatever its CORS behaviour */
     var name = "sinaLb" + Date.now(), sc = document.createElement("script"), done = false;
@@ -2254,14 +2254,26 @@
   function leaderboardView(sel) {
     if (!S.api) return notFound();
     setView('<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / Leaderboard</p><h1>Leaderboard</h1><p class="meta">Best exam-mode score per nickname on each past paper. Ties go to the faster time.</p><div id="lb"><div class="loading-row">' + snakeLoader() + '<span>Loading the leaderboard…</span></div></div></div>', "Leaderboard");
-    lbFetch(function (d) {
+    var cur = null, last = 0, timer = null;
+    function load(fresh) { lbFetch(show, fresh); }
+    timer = setInterval(function () { if (!document.getElementById("lb")) { clearInterval(timer); return; } if (!document.hidden) load(true); }, 15000);
+    function show(d) {
       var box = document.getElementById("lb"); if (!box) return;
+      var quiet = !!last; last = Date.now();
+      if ((!d || !d.ok) && quiet) return;
       if (!d || !d.ok) { box.innerHTML = '<p class="src">Could not load the leaderboard. Try again later.' + (d && d.error ? " (" + esc(d.error) + ")" : "") + "</p>"; return; }
-      var papers = d.papers || {}, ids = Object.keys(papers).filter(function (id) { return (S.papers || []).some(function (x) { return x.id === id; }); });
+      var papers = JSON.parse(JSON.stringify(d.papers || {})), pend = store.get("sina:lbPending", null);
+      /* your own score shows straight away, before the Sheet answers */
+      if (pend && Date.now() - pend.t < 5 * 6e4) {
+        var lst = papers[pend.paper] = papers[pend.paper] || [], mine = lst.filter(function (r) { return String(r.nick).toLowerCase() === pend.nick.toLowerCase(); })[0];
+        if (!mine || mine.score / mine.total < pend.score / pend.total) { if (mine) lst.splice(lst.indexOf(mine), 1); lst.push({ nick: pend.nick, paper: pend.paper, score: pend.score, total: pend.total, secs: pend.secs }); lst.sort(function (a, b) { return b.score / b.total - a.score / a.total || a.secs - b.secs; }); }
+        else if (mine && Math.abs(mine.score - pend.score) < 0.01) localStorage.removeItem("sina:lbPending");
+      }
+      var ids = Object.keys(papers).filter(function (id) { return (S.papers || []).some(function (x) { return x.id === id; }); });
       var me = (store.get("sina:nick", "") || "").toLowerCase(), title = function (id) { var x = (S.papers || []).filter(function (y) { return y.id === id; })[0]; return x ? x.title : id; };
       var overall = {};
       ids.forEach(function (id) { papers[id].forEach(function (r) { var k = String(r.nick).toLowerCase(), o = overall[k] = overall[k] || { nick: r.nick, score: 0, total: 0, n: 0, secs: 0 }; o.score += +r.score; o.total += +r.total; o.n++; o.secs += +r.secs; }); });
-      var cur = sel && papers[sel] ? sel : "all";
+      if (cur === null || (cur !== "all" && !papers[cur])) cur = sel && papers[sel] ? sel : "all";
       function rows() {
         var list = cur === "all" ? Object.keys(overall).map(function (k) { return overall[k]; }).sort(function (a, b) { return b.score - a.score || a.secs - b.secs; }) : papers[cur];
         if (!list || !list.length) return '<p class="src">No scores yet. Do a past paper in Exam mode and post your score.</p>';
@@ -2274,12 +2286,14 @@
       }
       function draw() {
         box.innerHTML = '<div class="lb-tabs"><button class="chip' + (cur === "all" ? " on" : "") + '" data-p="all">Overall</button>' + ids.map(function (id) { return '<button class="chip' + (cur === id ? " on" : "") + '" data-p="' + id + '">' + esc(title(id)) + "</button>"; }).join("") + "</div>" +
-          (cur === "all" ? '<p class="src">Overall = sum of best scores across papers.</p>' : '<p class="src"><a href="#/paper/' + cur + '">Do this paper</a></p>') + rows();
+          '<p class="lb-live"><i></i>Live · refreshes every 15 seconds</p>' + (cur === "all" ? '<p class="src">Overall = sum of best scores across papers.</p>' : '<p class="src"><a href="#/paper/' + cur + '">Do this paper</a></p>') + rows();
+        box.classList.toggle("quiet", quiet);
         box.querySelectorAll(".chip").forEach(function (c) { c.onclick = function () { cur = c.getAttribute("data-p"); draw(); }; });
         requestAnimationFrame(function () { box.querySelectorAll(".lb-bar i").forEach(function (i) { i.classList.add("go"); }); });
       }
       draw();
-    });
+    }
+    load(false);
   }
 
   /* ---------- home: caduceus (two snakes winding around a winged rod) ---------- */

@@ -1402,3 +1402,7 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .plate.hiding .otile.ptile { opacity: 1; pointer-events: auto; cursor: pointer; }
 .plate.hiding .otile.ptile.peek { opacity: 0; }
 .plate .occ-wrap { cursor: default; }
+.lb-live { display: flex; align-items: center; gap: .45rem; font-size: .78rem; color: var(--muted); margin: 0 0 .3rem; }
+.lb-live i { width: 8px; height: 8px; border-radius: 50%; background: #2f9e5b; animation: ndot 2s ease-in-out infinite; }
+#lb.quiet .lb-list li { animation: none; }
+#lb.quiet .lb-bar i { transition: none; }
