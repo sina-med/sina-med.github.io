@@ -609,7 +609,7 @@ SINA.subjects.forEach(function (s) { if (!s.program) s.program = SINA.DEFAULT_PR
 /* Upcoming midterms: the lectures listed here get the blue "On the midterm" label
    and appear on the "Upcoming midterm lectures" page for their year. */
 SINA.midterms = [
-  { id: "biochem-midterm", program: "y2-anglo", subject: "biochem", title: "Clinical Biochemistry midterm", date: "2026-11-02",
+  { id: "biochem-midterm", program: "y2-anglo", subject: "biochem", title: "Clinical Biochemistry midterm", date: "2026-11-03",
     groups: [
       { name: "Basics and hormones", items: ["biochem-preanalytical", "biochem-thyroid", "biochem-adrenal-medulla", "biochem-insulin", "biochem-steroids"] }
     ]}

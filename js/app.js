@@ -622,6 +622,7 @@
     setView(html, "");
     startCaduceus(document.getElementById("cad")); animateRings(); flipCountdowns();
     revealOnScroll(app.querySelectorAll(".subject-list > li, .sem-title"));
+    app.querySelectorAll(".cram-more").forEach(function (b) { b.onclick = function () { var pl = b.closest(".cram-plan"), o = !pl.classList.contains("open"); pl.classList.toggle("open", o); b.setAttribute("aria-expanded", String(o)); store.set("sina:cramOpen", o); }; });
     var art = app.querySelector(".hero-art"), cvh = document.getElementById("cad");
     if (art && cvh) { var excite = function () { art.classList.add("excited"); cvh.dataset.fast = "1"; clearTimeout(art._t); art._t = setTimeout(function () { art.classList.remove("excited"); delete cvh.dataset.fast; }, 2500); }; art.addEventListener("mouseenter", excite); art.addEventListener("click", excite); }
     var hi = document.getElementById("home-search"), hr = document.getElementById("home-results");
@@ -1950,9 +1951,10 @@
     var tip = dl === 0 ? "Exam day: skim the summaries and high-yield tabs; no new material." :
       dl === 1 ? "Last day: redo your mistakes and do one past paper in Exam mode." :
       left ? "Do about <strong>" + perDay + " questions a day</strong> to cover every midterm question at least once." : "Every midterm question answered right at least once. Keep going with past papers in Exam mode.";
-    return '<div class="cram-plan"><h3>Cram plan</h3><p class="cram-tip">' + tip + '</p><ol class="cram-list">' + rows.map(function (r, i) {
+    var openPlan = store.get("sina:cramOpen", false), extra = rows.length - 2;
+    return '<div class="cram-plan' + (openPlan ? " open" : "") + '"><h3>Cram plan</h3><p class="cram-tip">' + tip + '</p><ol class="cram-list">' + rows.map(function (r, i) {
       return '<li' + (i < 2 && r.cov < 1 ? ' class="weak"' : "") + '><a href="#/subject/' + m.subject + "/questions/" + r.id + '"><span class="cl-t">' + esc(r.title) + '</span><span class="cl-m">' + r.right + "/" + r.total + " right" + (r.acc !== null ? " · " + r.acc + "% accuracy" : " · not started") + '</span><span class="cl-bar"><i style="width:' + Math.round(r.cov * 100) + '%"></i></span></a></li>';
-    }).join("") + '</ol><div class="row">' + (mistakeList().length ? '<a class="btn" href="#/mistakes">Redo my mistakes (' + mistakeList().length + ")</a>" : "") + "</div></div>";
+    }).join("") + "</ol>" + (extra > 0 ? '<button type="button" class="cram-more" aria-expanded="' + openPlan + '"><span class="cm-open">Show the full plan (' + extra + " more lecture" + (extra > 1 ? "s" : "") + ')</span><span class="cm-close">Show less</span><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>' : "") + "</div>";
   }
   /* ---------- home: midterm countdown (flip) and progress ring ---------- */
   function midStats(m) {

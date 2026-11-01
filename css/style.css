@@ -1143,3 +1143,29 @@ html.splashing body { overflow: hidden; }
 :root .qtile, :root[data-theme="dark"] .qtile { color: var(--ink); }
 .qtile .qt-t { color: var(--ink); }
 .qtile.qt-go .qt-t { color: var(--accent-ink, #fff); }
+
+/* cram plan: collapsed to the 2 weakest lectures */
+.cram-plan .cram-list li:nth-child(n+3) { display: none; }
+.cram-plan.open .cram-list li:nth-child(n+3) { display: block; animation: fcIn .3s ease both; }
+.cram-more { display: flex; width: 100%; align-items: center; justify-content: center; gap: .4rem; font: inherit; font-size: .88rem; font-weight: 700; color: var(--ink); background: color-mix(in srgb, var(--ink) 5%, transparent); border: 1px dashed var(--line-strong); border-radius: 10px; padding: .55rem; cursor: pointer; }
+.cram-more:hover { border-color: var(--accent); }
+.cram-more svg { width: 12px; height: 12px; transition: transform .25s ease; }
+.cram-plan.open .cram-more svg { transform: rotate(180deg); }
+.cram-more .cm-close, .cram-plan.open .cram-more .cm-open { display: none; }
+.cram-plan.open .cram-more .cm-close { display: inline; }
+
+/* wider midterm card: the three buttons sit on one line */
+.mid-card { max-width: none; }
+.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 900px) { .quick { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 700px) { .mid-card .mid-main .row { flex-wrap: nowrap; } .mid-card .mid-main .row .btn { white-space: nowrap; } }
+
+/* What's new: text only, orange glow on hover */
+.news-btn { transition: border-color .2s ease, box-shadow .25s ease, color .2s ease; }
+.news-btn:hover, .news-btn:focus-visible { color: #f76707; border-color: #f76707; box-shadow: 0 0 0 3px rgba(247,103,7,.18), 0 0 18px rgba(247,103,7,.55); outline: none; }
+.news-btn .nshort { display: none; }
+@media (max-width: 760px) { .news-btn { width: auto; padding: 0 .6rem; } .news-btn .nlbl { display: none; } .news-btn .nshort { display: inline; } }
+@media (max-width: 440px) { .news-btn { width: auto; height: 32px; padding: 0 .5rem; font-size: .76rem; } }
+@media (max-width: 699px) { .mid-card .mid-main .row { display: grid; grid-template-columns: 1fr; } .mid-card .mid-main .row .btn { justify-content: center; text-align: center; width: 100%; } }
+@media (max-width: 440px) { .prog-caret { display: none; } .prog-btn { padding: 0.3rem 0.5rem; } .bar .left { gap: 0.3rem; } .menu-btn { width: 38px; height: 38px; } .search-toggle, .gear-btn { width: 2.1rem !important; height: 2.1rem !important; } }
+@media (max-width: 370px) { .bar { padding: 0.55rem 0.5rem; } .wordmark { font-size: 1.12rem; } .prog-btn { font-size: 0.74rem; padding: 0.28rem 0.42rem; } .news-btn { padding: 0 .4rem; } }

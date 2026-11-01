@@ -3,6 +3,8 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "31 October 2026", items: [
+    "Changed: Clinical Biochemistry midterm date is Tuesday 3 November.",
+    "Changed: cram plan shows the two weakest lectures, with a bar to show the full plan; wider midterm card; What's new glows orange on hover.",
     "Changed: home page quick access (Continue where you left off, Redo my mistakes, My progress, Leaderboard) replaces the link bar; What's new moved to the top bar.",
     "Fixed: midterm countdown now shows even when the midterm sheet cannot be read.",
     "Added animations: answer feedback (pulse and heartbeat on correct, shake on wrong), streak flame after 5 correct in a row, animated score with gold feathers on a perfect score.",
