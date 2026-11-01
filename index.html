@@ -20,7 +20,7 @@
   <script>/* moving from kejjja1.github.io/sina-med: bring saved progress over once */
 (function(){try{var h=location.hash,L=localStorage;function done(){L.setItem("sina:migrated","1")}
 if(h.indexOf("#import=")===0){var m=h.slice(8).split("&to="),d=m[0],to=decodeURIComponent(m[1]||"#/");
-if(d){var o=JSON.parse(decodeURIComponent(escape(atob(d.replace(/-/g,"+").replace(/_/g,"/")))));for(var k in o)if(L.getItem(k)===null)L.setItem(k,o[k]);var t=L.getItem("sina:theme");if(t)document.documentElement.setAttribute("data-theme",JSON.parse(t)==="dark"?"dark":"light")}
+if(d){var o=JSON.parse(decodeURIComponent(escape(atob(d.replace(/-/g,"+").replace(/_/g,"/")))));for(var k in o){var c=L.getItem(k);if(c===null){L.setItem(k,o[k]);continue}try{var x=JSON.parse(o[k]),y=JSON.parse(c);if(Array.isArray(x)&&Array.isArray(y)){var seen={},u=[];y.concat(x).forEach(function(v){var s=JSON.stringify(v);if(!seen[s]){seen[s]=1;u.push(v)}});L.setItem(k,JSON.stringify(u))}else if(x&&y&&typeof x=="object"&&typeof y=="object"){for(var j in x)if(!(j in y))y[j]=x[j];L.setItem(k,JSON.stringify(y))}}catch(e){}}var t=L.getItem("sina:theme");if(t)document.documentElement.setAttribute("data-theme",JSON.parse(t)==="dark"?"dark":"light")}
 done();history.replaceState(null,"",location.pathname+to);return}
 if(location.hostname==="sina-med.github.io"&&!L.getItem("sina:migrated")){var any=false;for(var i=0;i<L.length;i++)if(L.key(i).indexOf("sina:")===0&&L.key(i)!=="sina:theme")any=true;
 done();if(!any)location.replace("https://kejjja1.github.io/sina-med/?to="+encodeURIComponent(h||"#/"))}}catch(e){}})();</script>
