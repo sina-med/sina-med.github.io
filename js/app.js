@@ -22,6 +22,7 @@
     var q = keys.filter(function (k) { return !indeg[k] && linked[k]; }).sort(function (a, b) { return pos(a) - pos(b); });
     while (q.length) { var k = q.shift(); order.push(k); next[k].forEach(function (v) { if (--indeg[v] === 0) q.push(v); }); }
     keys.forEach(function (k) { if (order.indexOf(k) < 0) order.push(k); });
+    fig._next = next; fig._indeg = {}; keys.forEach(function (k) { fig._indeg[k] = 0; }); keys.forEach(function (k) { next[k].forEach(function (v) { fig._indeg[v]++; }); });
     return (fig._flow = order);
   }
   Object.keys(S.lectures || {}).forEach(function (lid) {
@@ -32,7 +33,20 @@
     var order = flowOrder(fig).filter(function (k) { return info[k]; });
     if (order.length < 3) return;
     L.flow = { title: fig.alt || "", steps: order.map(function (k) { return { k: k, name: info[k].name, desc: info[k].desc }; }) };
-    L.picMcqs.forEach(function (q) { if (!info[q.target]) return; var c = {}; for (var x in q) c[x] = q[x]; c.q = "Which step belongs in the dashed box?"; c.flow = lid; L.mcqs.push(c); });
+    /* plain text questions: the step's description is given, the student names the step.
+       Stems never name another step, so moving between questions gives nothing away. */
+    var topic = (fig.alt || L.title).replace(/,?\s*step by step\.?$/i, "").replace(/\.$/, ""), names = order.map(function (k) { return info[k].name; });
+    order.forEach(function (u) {
+      var d = info[u].desc; if (!d || d.length < 25) return;
+      var nm = info[u].name, lowd = d.toLowerCase();
+      if (nm.toLowerCase().split(/[^a-z0-9]+/).some(function (w) { return w.length > 3 && lowd.indexOf(w.slice(0, 5)) > -1; })) return;
+      var rnd = seeded(lid + "|" + u), pool = names.filter(function (n) { return n !== nm; });
+      for (var k = pool.length - 1; k > 0; k--) { var j = Math.floor(rnd() * (k + 1)), t = pool[k]; pool[k] = pool[j]; pool[j] = t; }
+      var opts = pool.slice(0, 3).concat([nm]);
+      for (k = opts.length - 1; k > 0; k--) { j = Math.floor(rnd() * (k + 1)); t = opts[k]; opts[k] = opts[j]; opts[j] = t; }
+      if (opts.length < 3) return;
+      L.mcqs.push({ q: topic + ": which step is this? \u201c" + d.replace(/\.$/, "") + ".\u201d", options: opts, answer: opts.indexOf(nm), why: "This describes " + nm + "." });
+    });
   });
   /* Covered-label questions (model A): real labelled atlas plates, labels hidden under tiles, one tile asked. */
   function seeded(str) { var h = 1779033703 ^ str.length; for (var i = 0; i < str.length; i++) { h = Math.imul(h ^ str.charCodeAt(i), 3432918353); h = h << 13 | h >>> 19; } return function () { h = Math.imul(h ^ h >>> 16, 2246822507); h = Math.imul(h ^ h >>> 13, 3266489909); return ((h ^= h >>> 16) >>> 0) / 4294967296; }; }
