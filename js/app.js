@@ -17,7 +17,9 @@
     function near(x, y) { var best = null, bd = 1e9; keys.forEach(function (k) { var b = box[k]; if (!b) return; var dx = Math.max(b[0] - x, 0, x - b[0] - b[2]), dy = Math.max(b[1] - y, 0, y - b[1] - b[3]), d = dx * dx + dy * dy; if (d < bd) { bd = d; best = k; } }); return bd < 900 ? best : null; }
     var next = {}, indeg = {}; keys.forEach(function (k) { indeg[k] = 0; next[k] = []; });
     String(fig.base || "").replace(/<line[^>]*x1="([\d.]+)" y1="([\d.]+)" x2="([\d.]+)" y2="([\d.]+)"/g, function (_, a, b, c, d) { var u = near(+a, +b), v = near(+c, +d); if (u && v && u !== v && next[u].indexOf(v) < 0) { next[u].push(v); indeg[v]++; } });
-    var pos = function (k) { var b = box[k] || [0, 0]; return b[1] * 10 + b[0]; }, order = [], q = keys.filter(function (k) { return !indeg[k]; }).sort(function (a, b) { return pos(a) - pos(b); });
+    var pos = function (k) { var b = box[k] || [0, 0]; return b[1] * 10 + b[0]; }, order = [], linked = {};
+    keys.forEach(function (k) { if (next[k].length) { linked[k] = 1; next[k].forEach(function (v) { linked[v] = 1; }); } });
+    var q = keys.filter(function (k) { return !indeg[k] && linked[k]; }).sort(function (a, b) { return pos(a) - pos(b); });
     while (q.length) { var k = q.shift(); order.push(k); next[k].forEach(function (v) { if (--indeg[v] === 0) q.push(v); }); }
     keys.forEach(function (k) { if (order.indexOf(k) < 0) order.push(k); });
     return (fig._flow = order);
@@ -1133,6 +1135,98 @@
     p.querySelectorAll(".mm-all").forEach(function (b) { b.addEventListener("click", function () { var o = b.dataset.open === "1"; p.querySelectorAll(".mm-tog").forEach(function (t) { set(t, o); }); }); });
   }
 
+
+  /* ---------- mind map: radial map (M1) and focus cards (M3) ---------- */
+  function mmFlat(n) { if (!Array.isArray(n)) return String(n); var k = (n[1] || []).map(mmFlat); return n[0] + (k.length ? ": " + k.join("; ") : ""); }
+  function mmData(mm) { return { root: mm.root, b: (mm.branches || []).map(function (b) { return Array.isArray(b) ? [b[0], (b[1] || []).map(mmFlat)] : [b, []]; }) }; }
+  function mmRadialSVG(d) {
+    var W = 1080, H = 660, cx = W / 2, cy = H / 2, n = d.b.length, s = '<svg class="mm-radial" viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Mind map: ' + esc(d.root) + '">';
+    d.b.forEach(function (b, i) {
+      var a = -Math.PI / 2 + i * 2 * Math.PI / n, bx = cx + Math.cos(a) * 175, by = cy + Math.sin(a) * 150, col = "var(--mm" + (i % 6 + 1) + ")";
+      s += '<g class="mmr-br" data-i="' + i + '"><path class="mmr-bl" style="stroke:' + col + '" d="M' + cx + " " + cy + " Q" + (cx + Math.cos(a) * 80) + " " + (cy + Math.sin(a) * 90) + " " + bx + " " + by + '"/>';
+      var m = b[1].length;
+      b[1].forEach(function (l, j) {
+        var aa = a + (m > 1 ? (j - (m - 1) / 2) * 0.88 / (m - 1) * 1.6 : 0), lx = cx + Math.cos(aa) * 290, ly = cy + Math.sin(aa) * 265, right = Math.cos(aa) > 0.05, left = Math.cos(aa) < -0.05;
+        var txt = l.length > 32 ? l.slice(0, 31) + "…" : l;
+        s += '<g class="mmr-leaf"><title>' + esc(l) + '</title><path class="mmr-ll" style="stroke:' + col + '" d="M' + bx + " " + by + " Q" + (bx + (lx - bx) * 0.5) + " " + by + " " + lx + " " + ly + '"/><circle cx="' + lx + '" cy="' + ly + '" r="3.5" style="fill:' + col + '"/><text class="mmr-lt" x="' + (lx + (right ? 7 : left ? -7 : 0)) + '" y="' + (ly + 4) + '" text-anchor="' + (right ? "start" : left ? "end" : "middle") + '">' + esc(txt) + "</text></g>";
+      });
+      var tw = Math.min(260, b[0].length * 7.6 + 28);
+      s += '<rect x="' + (bx - tw / 2) + '" y="' + (by - 17) + '" width="' + tw + '" height="34" rx="17" class="mmr-bn" style="stroke:' + col + '"/><text class="mmr-bt" x="' + bx + '" y="' + (by + 5) + '" text-anchor="middle">' + esc(b[0].length > 32 ? b[0].slice(0, 31) + "…" : b[0]) + "</text></g>";
+    });
+    var words = d.root.split(" "), l1 = "", l2 = "", pm = /^(.*?)\s*\((.*)\)\s*$/.exec(d.root);
+    if (pm && pm[1].length <= 28) { l1 = pm[1]; l2 = pm[2]; }
+    else words.forEach(function (w) { if ((l1 + " " + w).trim().length <= 24 && !l2) l1 = (l1 + " " + w).trim(); else l2 = (l2 + " " + w).trim(); });
+    if (l2.length > 28) l2 = l2.slice(0, 27) + "…";
+    s += '<rect class="mmr-root" x="' + (cx - 135) + '" y="' + (cy - 32) + '" width="270" height="64" rx="32"/><text class="mmr-rt" x="' + cx + '" y="' + (cy + (l2 ? -4 : 6)) + '" text-anchor="middle">' + esc(l1) + "</text>" + (l2 ? '<text class="mmr-rt2" x="' + cx + '" y="' + (cy + 16) + '" text-anchor="middle">' + esc(l2) + "</text>" : "");
+    return s + "</svg>";
+  }
+  function mindmap2HTML(mm) {
+    if (!mm || !mm.branches) return "";
+    var d = mmData(mm), total = d.b.reduce(function (a, b) { return a + b[1].length; }, 0), view = store.get("sina:mmView", window.innerWidth < 700 ? "cards" : "map");
+    return '<h2 style="margin-top:0">Mind map</h2><div class="mm2" data-view="' + view + '"><div class="mm2-bar"><div class="lang-tog" role="group" aria-label="Mind map view"><button type="button" data-v="map" aria-pressed="' + (view === "map") + '">Map</button><button type="button" data-v="cards" aria-pressed="' + (view === "cards") + '">Cards</button></div><button type="button" class="tg mm2-test" aria-pressed="false">Test me</button></div>' +
+      '<div class="mm2-map"><div class="mm2-scroll">' + mmRadialSVG(d) + '</div><p class="mm2-hint">Tap a branch to focus it and read its details below.</p><div class="mm2-focus"></div></div>' +
+      '<div class="mm2-cards"><div class="mm2-hero"><b>' + esc(d.root) + "</b><span>" + d.b.length + " branches · " + total + ' details</span></div><div class="mm2-chips">' +
+      d.b.map(function (b, i) { return '<button type="button" class="mm2-chip" style="--cc:var(--mm' + (i % 6 + 1) + ')" data-i="' + i + '">' + esc(b[0]) + "</button>"; }).join("") + '</div><div class="mm2-leaves"></div><p class="mm2-prog"></p></div></div>';
+  }
+  function wireMindmap2(p, mm) {
+    var box = p.querySelector(".mm2"); if (!box) return;
+    var d = mmData(mm), cur = 0, rec = false, shown = {}, total = d.b.reduce(function (a, b) { return a + b[1].length; }, 0);
+    var leaves = box.querySelector(".mm2-leaves"), chips = box.querySelectorAll(".mm2-chip"), prog = box.querySelector(".mm2-prog"), focus = box.querySelector(".mm2-focus");
+    function cards() {
+      chips.forEach(function (c, i) { c.classList.toggle("on", i === cur); });
+      var b = d.b[cur]; leaves.classList.toggle("recall", rec);
+      leaves.innerHTML = b[1].map(function (l, j) { var k = cur + "-" + j; return '<div class="mm2-leaf' + (shown[k] ? " shown" : "") + '" style="--cc:var(--mm' + (cur % 6 + 1) + ')" data-k="' + k + '"><span class="k">' + esc(b[0]) + " · " + (j + 1) + '</span><span class="t">' + esc(l) + "</span></div>"; }).join("") || '<p class="src">No details on this branch.</p>';
+      leaves.querySelectorAll(".mm2-leaf").forEach(function (c) { c.onclick = function () { if (!rec) return; shown[c.dataset.k] = 1; c.classList.add("shown"); pg(); }; });
+      pg();
+    }
+    function pg() { prog.textContent = rec ? Object.keys(shown).length + " of " + total + " details revealed" : ""; }
+    chips.forEach(function (c) { c.onclick = function () { cur = +c.dataset.i; cards(); }; });
+    var foc = -1;
+    box.querySelectorAll(".mmr-br").forEach(function (g) {
+      g.addEventListener("click", function () {
+        var i = +g.dataset.i; foc = foc === i ? -1 : i;
+        box.querySelectorAll(".mmr-br").forEach(function (h) { h.classList.toggle("dim", foc > -1 && +h.dataset.i !== foc); });
+        focus.innerHTML = foc < 0 ? "" : '<div class="mm2-fhead" style="--cc:var(--mm' + (foc % 6 + 1) + ')">' + esc(d.b[foc][0]) + "</div><ul>" + d.b[foc][1].map(function (l) { return "<li" + (rec ? ' class="hid"' : "") + ">" + esc(l) + "</li>"; }).join("") + "</ul>";
+        focus.querySelectorAll("li.hid").forEach(function (li) { li.onclick = function () { li.classList.remove("hid"); }; });
+      });
+    });
+    box.querySelectorAll(".mm2-bar [data-v]").forEach(function (b) { b.onclick = function () { box.dataset.view = b.dataset.v; store.set("sina:mmView", b.dataset.v); box.querySelectorAll(".mm2-bar [data-v]").forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); }); }; });
+    var t = box.querySelector(".mm2-test");
+    t.onclick = function () { rec = t.getAttribute("aria-pressed") !== "true"; t.setAttribute("aria-pressed", String(rec)); shown = {}; box.classList.toggle("testing", rec); cards(); foc = -1; focus.innerHTML = ""; box.querySelectorAll(".mmr-br").forEach(function (h) { h.classList.remove("dim"); }); };
+    cards();
+  }
+  /* ---------- pathway as a metro line (P2) ---------- */
+  function metroHTML(f) {
+    return '<div class="metro"><div class="metro-scroll"><div class="metro-line" style="--n:' + f.steps.length + '"><div class="metro-fill"></div>' + f.steps.map(function (st, i) { return '<button type="button" class="metro-stop" data-i="' + i + '"><i></i><span>' + esc(st.name) + "</span></button>"; }).join("") +
+      '</div></div><div class="metro-det" aria-live="polite"></div><div class="metro-nav"><button type="button" class="btn" data-d="-1">&larr; Previous</button><button type="button" class="btn" data-d="1">Next &rarr;</button></div></div>';
+  }
+  function wireMetro(p, f) {
+    var m = p.querySelector(".metro"); if (!m) return;
+    var k = 0, stops = m.querySelectorAll(".metro-stop"), sc = m.querySelector(".metro-scroll"), fill = m.querySelector(".metro-fill"), det = m.querySelector(".metro-det");
+    function show() {
+      stops.forEach(function (s, i) { s.classList.toggle("past", i < k); s.classList.toggle("cur", i === k); });
+      var a = stops[0], c = stops[k]; fill.style.width = (c.offsetLeft + c.offsetWidth / 2 - (a.offsetLeft + a.offsetWidth / 2)) + "px";
+      det.innerHTML = "<small>Step " + (k + 1) + " of " + f.steps.length + "</small><h3>" + esc(f.steps[k].name) + "</h3>" + (f.steps[k].desc ? "<p>" + esc(f.steps[k].desc) + "</p>" : "");
+      sc.scrollTo({ left: c.offsetLeft - sc.clientWidth / 2 + c.offsetWidth / 2, behavior: "smooth" });
+      m.querySelector('[data-d="-1"]').disabled = k === 0; m.querySelector('[data-d="1"]').disabled = k === f.steps.length - 1;
+    }
+    stops.forEach(function (s) { s.onclick = function () { k = +s.dataset.i; show(); }; });
+    m.querySelectorAll("[data-d]").forEach(function (b) { b.onclick = function () { k = Math.max(0, Math.min(f.steps.length - 1, k + +b.dataset.d)); show(); }; });
+    requestAnimationFrame(show);
+  }
+  /* ---------- anatomy: real labelled plate with a "Hide labels" switch ---------- */
+  function plateFor(lid) { var out = null; Object.keys(S.occl || {}).forEach(function (k) { if (!out && S.occl[k].lecs.indexOf(lid) > -1) out = S.occl[k]; }); return out; }
+  function plateHTML(f) {
+    return '<div class="plate"><div class="mm2-bar"><button type="button" class="tg plate-tog" aria-pressed="false">Hide labels</button><span class="src">Hide the labels, name each structure, then tap a tile to check it.</span></div><div class="occ"><div class="occ-scroll"><div class="occ-wrap plate-wrap" style="aspect-ratio:' + f.w + "/" + f.h + '"><img src="' + esc(f.src) + '" alt="Labelled anatomy picture" width="' + f.w + '" height="' + f.h + '" loading="lazy">' +
+      f.labels.map(function (b) { return '<span class="otile ptile" style="left:' + b[0] + "%;top:" + b[1] + "%;width:" + b[2] + "%;height:" + b[3] + '%"></span>'; }).join("") + "</div></div><figcaption>" + esc(f.credit) + "</figcaption></div></div>";
+  }
+  function wirePlate(p) {
+    var pl = p.querySelector(".plate"); if (!pl) return;
+    var t = pl.querySelector(".plate-tog");
+    t.onclick = function () { var on = t.getAttribute("aria-pressed") !== "true"; t.setAttribute("aria-pressed", String(on)); pl.classList.toggle("hiding", on); t.textContent = on ? "Show labels" : "Hide labels"; pl.querySelectorAll(".ptile").forEach(function (x) { x.classList.remove("peek"); }); };
+    pl.querySelectorAll(".ptile").forEach(function (x) { x.addEventListener("click", function (e) { if (!pl.classList.contains("hiding")) return; e.stopPropagation(); x.classList.toggle("peek"); }); });
+  }
+
   function visualPanel(p, lec) {
     var v = lec.visual, layer = "walls";
     var hints = { walls: "Tap a wall to see which bones form it.", margins: "Tap a green edge to see which bones form that part of the rim.", openings: "Tap a dark opening to see what passes through it.", landmarks: "Tap a dashed outline to see what it is." };
@@ -1140,12 +1234,15 @@
       var h2 = v.model3d ? "<h2 style='margin-top:0'>3D model</h2>" + viewer3dHTML(v.models || v.model3d) : "";
       var gal = galleryHTML(v);
       if (gal) h2 = gal + h2;
-      var mmh = mindmapHTML(v.mindmap);
+      var mmh = mindmap2HTML(v.mindmap);
       if (mmh) h2 = mmh + (h2 ? h2.replace("<h2 style='margin-top:0'>", "<h2>").replace('<h2 style="margin-top:0">', "<h2>") : "");
-      if (v.figure && photoFor(lec.id)) h2 += "<h2" + (h2 ? "" : " style='margin-top:0'") + ">Labelled picture</h2>" + photoLabelled(lec.id, v.figure);
-      if (v.figure) h2 += "<h2" + (h2 ? "" : " style='margin-top:0'") + ">" + (photoFor(lec.id) ? "Schematic" : "Labelled schematic") + "</h2><p>" + esc(v.figure.caption || "Schematic drawn for this site, not to scale.") + '</p><div class="diagram-box">' + figureSVG(v.figure, { uid: "vis" }) + "</div>";
+      var plate = plateFor(lec.id), hd = function (t) { return "<h2" + (h2 ? "" : " style='margin-top:0'") + ">" + t + "</h2>"; };
+      if (plate) h2 += hd("Labelled picture") + plateHTML(plate);
+      else if (v.figure && photoFor(lec.id)) h2 += hd("Labelled picture") + photoLabelled(lec.id, v.figure);
+      if (v.figure && lec.flow) h2 += hd("Pathway") + "<p>" + esc(v.figure.caption || lec.flow.title || "") + "</p>" + metroHTML(lec.flow);
+      else if (v.figure && !plate) h2 += hd(photoFor(lec.id) ? "Schematic" : "Labelled schematic") + "<p>" + esc(v.figure.caption || "Schematic drawn for this site, not to scale.") + '</p><div class="diagram-box">' + figureSVG(v.figure, { uid: "vis" }) + "</div>";
       p.innerHTML = h2 || "<p>No visual for this lecture yet.</p>";
-      wireMedia(p); wireGallery(p); wireMindmap(p);
+      wireMedia(p); wireGallery(p); wireMindmap2(p, v.mindmap); wirePlate(p); if (lec.flow) wireMetro(p, lec.flow);
       return;
     }
     var gal0 = galleryHTML(v);
@@ -2013,7 +2110,11 @@
   function ecgProgress(frac) {
     var W = 496, id = "qp" + Math.random().toString(36).slice(2, 7), pts = ecgPts(10, W), x = Math.max(0, Math.min(1, frac)) * W;
     var dur = (1.8 - 1.4 * frac).toFixed(2) + "s";
-    return '<div class="qecg' + (frac >= 0.8 ? " near" : "") + '" style="--beat:' + dur + '"><svg viewBox="0 0 ' + W + ' 12" preserveAspectRatio="none" aria-hidden="true"><defs><clipPath id="' + id + '"><rect x="0" y="-2" width="' + x.toFixed(1) + '" height="16"/></clipPath></defs><polyline class="qe-bg" points="' + pts + '"/><polyline class="qe-fg" clip-path="url(#' + id + ')" points="' + pts + '"/></svg>' +
+    var sw = (0.9 + 1.6 * (1 - frac)).toFixed(2), lead = Math.max(30, x * 0.35);
+    return '<div class="qecg' + (frac >= 0.8 ? " near" : "") + '" style="--beat:' + dur + '"><svg viewBox="0 0 ' + W + ' 12" preserveAspectRatio="none" aria-hidden="true"><defs><clipPath id="' + id + '"><rect x="0" y="-2" width="' + x.toFixed(1) + '" height="16"/></clipPath>' +
+      '<clipPath id="' + id + 's"><rect y="-2" height="16" width="' + lead.toFixed(1) + '" x="0">' + (x > 4 && !REDUCE ? '<animate attributeName="x" from="' + (-lead).toFixed(1) + '" to="' + x.toFixed(1) + '" dur="' + sw + 's" repeatCount="indefinite"/>' : "") + '</rect></clipPath>' +
+      '<linearGradient id="' + id + 'g" x1="0" x2="1"><stop offset="0" stop-color="currentColor" stop-opacity="0"/><stop offset="1" stop-color="currentColor" stop-opacity="1"/></linearGradient></defs>' +
+      '<polyline class="qe-bg" points="' + pts + '"/><g clip-path="url(#' + id + ')"><polyline class="qe-fg" points="' + pts + '"/><polyline class="qe-sweep" clip-path="url(#' + id + 's)" points="' + pts + '"/></g></svg>' +
       '<span class="qe-dot" style="left:' + (frac * 100).toFixed(2) + '%"></span></div>';
   }
   /* ---------- covered-label picture (model A) ---------- */

@@ -3,6 +3,8 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "1 November 2026", items: [
+    "Changed: mind maps redrawn with a Map view (radial) and a Cards view, each with Test me.",
+    "Changed: pathway schematics shown as a step-by-step line; anatomy Visual tabs show the real labelled picture with Hide labels.",
     "Added covered-label picture questions: real labelled atlas plates (OpenStax) with the labels hidden, one yellow tile asked.",
     "Added Spotter mode for anatomy: tap the named structure on the picture.",
     "Changed: diagram questions now show the pathway as numbered steps with one step missing.",
