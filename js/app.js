@@ -735,12 +735,15 @@
   function subLecturesPanel(p, s, arg) {
     var gsel = /^g(\d+)$/.test(arg || "") ? +RegExp.$1 : -1; if (!s.groups[gsel]) gsel = -1;
     var mid = subjectMid(s), h = s.groups.length > 1 ? '<div class="grp-chips" role="group" aria-label="Sections"><a class="gchip' + (gsel < 0 ? " on" : "") + '" href="#/subject/' + s.id + '">All</a>' + s.groups.map(function (g, gi) { return '<a class="gchip' + (gi === gsel ? " on" : "") + '" href="#/subject/' + s.id + "/lectures/g" + gi + '">' + esc(g.name) + "</a>"; }).join("") + "</div>" : "";
+    var allIds = [].concat.apply([], s.groups.map(function (g) { return g.items.map(function (it) { return it.id; }); })).filter(function (x) { return S.lectures[x]; });
+    var nRev = allIds.filter(revisedOn).length;
+    h += '<p class="rev-count"><span class="rc-bar"><i style="width:' + (allIds.length ? Math.round(nRev / allIds.length * 100) : 0) + '%"></i></span>' + nRev + " of " + allIds.length + " lectures revised</p>";
     h += mid ? '<p class="mid-note"><span class="pill mid">Midterm</span> marks the lectures on the ' + esc(mid.title) + '. <a href="#/subject/' + s.id + '/questions/midterm">Practise just those</a>.</p>' : "";
     s.groups.forEach(function (g, gi) {
       if (gsel > -1 && gi !== gsel) return;
       h += '<h2 class="group-title">' + esc(g.name) + '</h2><ul class="lec-list">' + g.items.map(function (it) {
         return S.lectures[it.id]
-          ? '<li><a href="#/lecture/' + it.id + '"><span>' + esc(it.title) + "</span>" + (onMidterm(it.id) ? '<span class="pill mid">Midterm</span>' : "") + "</a></li>"
+          ? '<li' + (revisedOn(it.id) ? ' class="done"' : "") + '><a href="#/lecture/' + it.id + '"><span class="lec-tick" aria-label="' + (revisedOn(it.id) ? "Revised" : "Not revised") + '"></span><span>' + esc(it.title) + "</span>" + (onMidterm(it.id) ? '<span class="pill mid">Midterm</span>' : "") + "</a></li>"
           : '<li><span class="soon"><span>' + esc(it.title) + '</span><span class="pill muted">Coming</span></span></li>';
       }).join("") + "</ul>";
     });
@@ -912,12 +915,12 @@
     if (lec.resources && lec.resources.length) more.push('<a role="menuitem" href="#/subject/' + sub.id + "/resources/" + id + '">' + ICON.r + "Videos and websites</a>");
     var html = '<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / <a href="#/subject/' + sub.id + '">' + esc(sub.name) + "</a></p>" +
       '<div class="lec-head"><h1>' + esc(lec.title) + '</h1><div class="more"><button class="more-btn" id="more-btn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Lecture options">' + ICON.dots + '</button><div class="more-menu" id="more-menu" role="menu" hidden>' + more.join("") + "</div></div></div>" +
-      '<p class="meta lec-meta">' + [who ? esc(who) : "", onMidterm(id) ? '<span class="pill mid">Midterm</span>' : ""].filter(Boolean).join(" &middot; ") + "</p>" +
+      '<p class="meta lec-meta">' + [who ? esc(who) : "", onMidterm(id) ? '<span class="pill mid">Midterm</span>' : "", revisedHTML(id, false)].filter(Boolean).join(" &middot; ") + "</p>" +
       '<div class="tabs sticky" role="tablist" aria-label="Lecture sections">' + TABS.map(function (t) {
         return '<button class="tab" role="tab" id="tab-' + t[0] + '" aria-selected="' + (t[0] === tab) + '" data-tab="' + t[0] + '">' + t[1] + "</button>";
       }).join("") + '</div><div id="panel" role="tabpanel" aria-labelledby="tab-' + tab + '"></div>' + prevNextHTML(sub, id) + psaHTML() + "</div>";
     setView(html, lec.title);
-    wireTabs(app);
+    wireTabs(app); wireRevised(app.querySelector(".lec-meta"), id);
     var panel = document.getElementById("panel");
     ({ summary: summaryPanel, cards: cardsPanel, deeper: deeperPanel })[tab](panel, lec);
     if (tab !== "cards") readingLine(panel);
@@ -972,14 +975,18 @@
   }
 
   function summaryPanel(p, lec) {
-    var h = '<p class="buildnote">' + ICON.info + "Built from the lecture slides. If your professor says otherwise, trust your professor.</p>";
+    var h = '<div class="lang-row"><div class="lang-tog" role="group" aria-label="Summary language"><button type="button" data-lang="en" aria-pressed="true">English</button><button type="button" data-lang="fr" aria-pressed="false">Français</button></div><span class="lang-msg" aria-live="polite"></span></div>' +
+      '<div id="sum-body"><p class="buildnote">' + ICON.info + "Built from the lecture slides. If your professor says otherwise, trust your professor.</p>";
     if (lec.summary.length > 3) h += '<details class="toc"><summary>On this page</summary><ol>' + lec.summary.map(function (s, i) { return '<li><button type="button" data-to="sec-' + i + '">' + esc(s.title) + "</button></li>"; }).join("") + '<li><button type="button" data-to="sec-key">Key points</button></li></ol></details>';
     lec.summary.forEach(function (s, i) { h += '<h2 id="sec-' + i + '">' + esc(s.title) + "</h2>" + s.html; });
     h += "<h2 id='sec-key'>Key points</h2><ul class='exam-list'>" + lec.exam.map(function (e) { return "<li>" + esc(e) + "</li>"; }).join("") + "</ul>";
     h += (lec.sources && lec.sources.length)
       ? '<div class="foot"><p>Facts on this page were checked against these references (last check ' + esc(lec.verified) + "). Student flashcard sets were used only as a secondary consistency check.</p><ul class='sources'>" + lec.sources.map(function (s) { return '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + "</a></li>"; }).join("") + "</ul></div>"
       : '<div class="foot"><p>Built from the lecture slides (last check ' + esc(lec.verified) + "). Outside references will be added with the full version.</p></div>";
+    h += "</div>" + revisedHTML(lec.id, true);
     p.innerHTML = h;
+    wireRevised(p, lec.id);
+    wireFrench(p, lec);
     p.querySelectorAll(".toc button").forEach(function (b) {
       b.addEventListener("click", function () { var t = document.getElementById(b.dataset.to); if (t) { t.scrollIntoView({ behavior: "smooth", block: "start" }); b.closest("details").open = false; } });
     });
@@ -1825,6 +1832,60 @@
     return Math.max(0, (r - w) / ans.length);
   }
   function fmtPts(x) { var r = Math.round(x * 100) / 100; return String(r); }
+
+  /* ---------- "Mark as revised" ---------- */
+  function revisedOn(id) { return !!store.get("sina:revised", {})[id]; }
+  function revisedHTML(id, big) {
+    var on = revisedOn(id);
+    return '<button type="button" class="rev-btn' + (big ? " big" : "") + (on ? " on" : "") + '" data-rev="' + id + '" aria-pressed="' + on + '"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path class="rv-chk" d="M7 12.5l3.2 3.2L17 9" pathLength="1"/></svg><span>' + (on ? "Revised" : "Mark as revised") + "</span></button>";
+  }
+  function wireRevised(root, id) {
+    if (!root) return;
+    root.querySelectorAll(".rev-btn").forEach(function (b) {
+      b.onclick = function () {
+        var m = store.get("sina:revised", {}), on = !m[id];
+        if (on) m[id] = today(); else delete m[id];
+        store.set("sina:revised", m);
+        app.querySelectorAll('.rev-btn[data-rev="' + id + '"]').forEach(function (x) { x.classList.toggle("on", on); x.setAttribute("aria-pressed", String(on)); x.querySelector("span").textContent = on ? "Revised" : "Mark as revised"; if (on) { x.classList.remove("pop"); void x.offsetWidth; x.classList.add("pop"); } });
+        if (on) toast("Marked as revised.");
+      };
+    });
+  }
+  /* ---------- summary in French: translated in the reader's browser, cached on the device ---------- */
+  function wireFrench(p, lec) {
+    var body = p.querySelector("#sum-body"), msg = p.querySelector(".lang-msg"), btns = p.querySelectorAll(".lang-tog button"), orig = null;
+    function setBtn(l) { btns.forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.lang === l)); }); store.set("sina:sumLang", l); }
+    function nodes() { var w = document.createTreeWalker(body, NodeFilter.SHOW_TEXT, { acceptNode: function (n) { return /[A-Za-z]{2}/.test(n.nodeValue) && !n.parentNode.closest("button, .buildnote svg") ? 1 : 3; } }), out = []; while (w.nextNode()) out.push(w.currentNode); return out; }
+    function tr(text) {
+      return fetch("https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=fr&dt=t&q=" + encodeURIComponent(text)).then(function (r) { if (!r.ok) throw 0; return r.json(); })
+        .then(function (d) { return (d[0] || []).map(function (x) { return x[0]; }).join(""); });
+    }
+    function toFrench() {
+      var key = "sina:fr:" + lec.id + ":" + (lec.verified || ""), cache = store.get(key, null), ns = nodes();
+      orig = orig || ns.map(function (n) { return n.nodeValue; });
+      if (cache && cache.length === ns.length) { ns.forEach(function (n, i) { n.nodeValue = cache[i]; }); body.lang = "fr"; msg.textContent = "Machine translation. Medical terms may be imperfect: check with the English."; return; }
+      msg.textContent = "Translating…";
+      var texts = ns.map(function (n) { return n.nodeValue; }), out = new Array(texts.length), chunks = [], cur = [], len = 0;
+      texts.forEach(function (t, i) { if (len + t.length > 1500 && cur.length) { chunks.push(cur); cur = []; len = 0; } cur.push(i); len += t.length + 3; });
+      if (cur.length) chunks.push(cur);
+      var SEP = "\n⁂\n";
+      Promise.all(chunks.map(function (c) {
+        return tr(c.map(function (i) { return texts[i].replace(/\n/g, " "); }).join(SEP)).then(function (res) {
+          var parts = res.split(/\s*⁂\s*/);
+          if (parts.length === c.length) { c.forEach(function (i, k) { out[i] = (/^\s/.test(texts[i]) ? " " : "") + parts[k].trim() + (/\s$/.test(texts[i]) ? " " : ""); }); return; }
+          return Promise.all(c.map(function (i) { return tr(texts[i]).then(function (t) { out[i] = (/^\s/.test(texts[i]) ? " " : "") + t.trim() + (/\s$/.test(texts[i]) ? " " : ""); }); }));
+        });
+      })).then(function () {
+        if (!body.isConnected) return;
+        ns.forEach(function (n, i) { if (out[i] != null) n.nodeValue = out[i]; });
+        store.set(key, out); body.lang = "fr";
+        msg.textContent = "Machine translation. Medical terms may be imperfect: check with the English.";
+      }, function () { setBtn("en"); msg.textContent = "Translation is not available right now (needs an internet connection)."; });
+    }
+    function toEnglish() { if (orig) nodes().forEach(function (n, i) { if (orig[i] != null) n.nodeValue = orig[i]; }); body.lang = "en"; msg.textContent = ""; }
+    btns.forEach(function (b) { b.onclick = function () { if (b.getAttribute("aria-pressed") === "true") return; setBtn(b.dataset.lang); if (b.dataset.lang === "fr") toFrench(); else toEnglish(); }; });
+    if (store.get("sina:sumLang", "en") === "fr") { setBtn("fr"); toFrench(); }
+  }
   /* ---------- animation helpers ---------- */
   var REDUCE = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
   function snakeLoader() {
