@@ -1467,3 +1467,10 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .upd-bar { position: fixed; left: 50%; bottom: 16px; transform: translateX(-50%); z-index: 95; display: flex; align-items: center; gap: .7rem; padding: .55rem .6rem .55rem 1rem; border-radius: 999px; background: var(--ink); color: var(--bg); box-shadow: 0 8px 28px rgba(0,0,0,.25); max-width: calc(100% - 32px); font-weight: 600; }
 .upd-bar .btn { padding: .35rem .9rem; }
 .upd-x { background: none; border: 0; color: inherit; font-size: 1.3rem; line-height: 1; cursor: pointer; padding: 0 .3rem; }
+
+/* phone-width fixes: no sideways scrolling */
+.prevnext .pn { white-space: normal; min-width: 0; overflow-wrap: anywhere; }
+.lec-list a > span:first-child { min-width: 0; overflow-wrap: anywhere; }
+.lec-list a > span.pill { flex: 0 0 auto; }
+.lec-list a > span:first-child:not(.lec-tick) { flex: 1 1 auto; }
+#panel table, .wrap table.wide { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
