@@ -5349,6 +5349,227 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
    "x": 1
+  },
+  {
+   "q": "Noradrenaline is stored mainly in:",
+   "options": [
+    "Vesicles of synapses of central and peripheral noradrenergic neurons",
+    "Chromaffin cells, as 80% of their stock",
+    "The liver",
+    "Red cells"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "That is adrenaline.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Catecholamines are synthesised by:",
+   "options": [
+    "Nerve cells (e.g. splanchnic nerves)",
+    "The thyroid",
+    "The adrenal medulla",
+    "The adrenal cortex"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "The neurophysiological argument.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Dopamine beta-hydroxylase converts:",
+   "options": [
+    "Noradrenaline into adrenaline",
+    "DOPA into dopamine",
+    "Tyrosine into DOPA",
+    "Dopamine into noradrenaline"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "PNMT.",
+    "Decarboxylase.",
+    "Tyrosine hydroxylase.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The adrenal medulla intensifies the fight response initiated by:",
+   "options": [
+    "The parasympathetic system",
+    "Insulin",
+    "The thyroid",
+    "The sympathetic nervous system"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Catecholamine effects are described as:",
+   "options": [
+    "Brief reactions throughout the body",
+    "Slow effects lasting weeks",
+    "Limited to the heart",
+    "Only metabolic"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Increased venous return under catecholamines contributes to:",
+   "options": [
+    "Lower blood pressure",
+    "Lower oxygen consumption",
+    "Increased cardiac output",
+    "Bradycardia"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Catecholamine secretion increases with:",
+   "options": [
+    "Sleep",
+    "Hyperglycaemia",
+    "Physical activity",
+    "Hyperthermia only"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "Hypoglycaemia stimulates it.",
+    "Explaining delayed muscle fatigue.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Hypothermia stimulates catecholamine secretion as a:",
+   "options": [
+    "Central stimulus",
+    "Intercentral stimulus",
+    "Hormonal stimulus",
+    "Reflex stimulus"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Inhibition of insulin secretion by catecholamines favours:",
+   "options": [
+    "Hypoglycaemia",
+    "Lipogenesis",
+    "Mild hyperglycaemia",
+    "Glycogen storage"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Splanchnic nerve stimulation of the adrenal medulla is part of:",
+   "options": [
+    "Hormonal regulation by ACTH",
+    "The parasympathetic pathway",
+    "Retrocontrol",
+    "The peripheral sympathetic pathway"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
   }
  ],
  "cards": [
@@ -8077,6 +8298,73 @@ SINA.lectures["biochem-insulin"] = {
     "",
     "",
     ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In the β cell, the rise in ATP inhibits:",
+   "options": [
+    "Calcium entry",
+    "Glucose entry",
+    "The release of potassium",
+    "Insulin gene transcription"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "Leading to depolarisation.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Insulin secretion is triggered after a meal by:",
+   "options": [
+    "Fasting",
+    "Hypoglycaemia",
+    "Post-prandial hyperglycaemia",
+    "Presence of food in the digestive tract"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A diabetic patient on monthly follow-up gets which test every month?",
+   "options": [
+    "Serum creatinine only",
+    "HbA1c",
+    "Fasting and post-prandial blood glucose",
+    "Fructosamines"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "Every 2-3 months.",
+    "",
+    "Every 15 days when used."
    ],
    "multi": true,
    "hint": "1 or 2 correct answers",
@@ -14219,6 +14507,42 @@ SINA.lectures["biochem-cardiac"] = {
     "Primary prevention of cardiovascular disease"
    ],
    "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Natriuretic peptides are mainly secreted when cardiomyocytes face:",
+   "options": [
+    "Fluid overload and high pressure",
+    "Infection",
+    "Low blood volume",
+    "Hypoglycaemia"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A persistently low CRP after inflammation reflects:",
+   "options": [
+    "Liver failure",
+    "Normal state in all cases",
+    "Acute infection",
+    "Dull, persistent inflammation linked to cardiovascular risk"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In the diagnosis of ACS, troponin must be interpreted with:",
+   "options": [
+    "Clinical signs and the ECG",
+    "CRP only",
+    "BNP only",
+    "Lipids only"
+   ],
+   "answer": 0,
    "why": "",
    "x": 1
   }
@@ -23011,6 +23335,954 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "The arrow points to: Hepcidin. Liver hormone that blocks iron exit from enterocytes and macrophages when iron is high."
+  },
+  {
+   "q": "Iron deficiency is:",
+   "options": [
+    "The most common nutritional deficiency, especially in women and infants",
+    "Rare in infants",
+    "Rare in women",
+    "Only seen in men"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Haemoglobin contains about what share of body iron?",
+   "options": [
+    "60% (2.4 g)",
+    "5%",
+    "35%",
+    "90%"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Myoglobin contains about:",
+   "options": [
+    "5% (0.2 g) of body iron",
+    "35%",
+    "0.01 g",
+    "60%"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Non-haem iron is in the form:",
+   "options": [
+    "Ferrous Fe2+",
+    "Fe4+",
+    "Ferric Fe3+ (oxidised, trivalent)",
+    "Metallic Fe"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Plasma iron bound to transferrin amounts to about:",
+   "options": [
+    "2.4 g",
+    "4 g",
+    "1.4 g",
+    "0.05 g"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Iron reserves (ferritin and haemosiderin) amount to about:",
+   "options": [
+    "1.4 g",
+    "0.05 g",
+    "0.2 g",
+    "4 g"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Iron in cellular respiratory enzymes (cytochromes, catalases) amounts to about:",
+   "options": [
+    "2.4 g",
+    "0.5 g",
+    "1.4 g",
+    "0.01 g"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Old red cells are destroyed by:",
+   "options": [
+    "Macrophages of the reticuloendothelial system",
+    "Neutrophils",
+    "The thyroid",
+    "The kidney"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Iron released from destroyed haemoglobin:",
+   "options": [
+    "Is partly stored and partly carried by transferrin to the marrow",
+    "Becomes bilirubin",
+    "Stays in the red cell",
+    "Is entirely excreted"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Iron is lost through:",
+   "options": [
+    "The lungs only",
+    "Sweat only",
+    "Urine, gut and skin desquamation, hair and nails, menstruation",
+    "Bile only"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Daily iron needs of a man are:",
+   "options": [
+    "20 mg/day",
+    "10 mg/day",
+    "2 mg/day",
+    "1 mg/day"
+   ],
+   "answer": 3,
+   "why": "Women 2 mg/day.",
+   "x": 1
+  },
+  {
+   "q": "To absorb 2 mg/day, a woman's dietary iron intake should be about:",
+   "options": [
+    "2 mg/day",
+    "10 mg/day",
+    "100 mg/day",
+    "20 mg/day"
+   ],
+   "answer": 3,
+   "why": "Only about 10% is absorbed.",
+   "x": 1
+  },
+  {
+   "q": "Iron is absorbed mainly in:",
+   "options": [
+    "The duodenum and upper jejunum",
+    "The colon",
+    "The stomach",
+    "The ileum"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Iron of animal origin compared with plant iron is:",
+   "options": [
+    "Less absorbed",
+    "Not absorbed",
+    "Equally absorbed",
+    "Better absorbed"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Iron absorption increases with:",
+   "options": [
+    "Low vitamin C",
+    "Increased erythropoietic activity (bleeding, haemolysis)",
+    "Alkaline medium",
+    "Iron overload"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Iron overload:",
+   "options": [
+    "Has no effect",
+    "Reduces iron absorption",
+    "Increases absorption",
+    "Blocks transferrin synthesis only"
+   ],
+   "answer": 1,
+   "why": "The body absorbs only what it needs.",
+   "x": 1
+  },
+  {
+   "q": "Transferrin is synthesised mainly by:",
+   "options": [
+    "Enterocytes",
+    "The kidney",
+    "Red cells",
+    "Hepatocytes"
+   ],
+   "answer": 3,
+   "why": "Partly by marrow and spleen macrophages.",
+   "x": 1
+  },
+  {
+   "q": "Plasma transferrin is normally saturated to about:",
+   "options": [
+    "100%",
+    "Two thirds",
+    "10%",
+    "One third of its capacity"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "When transferrin is fully saturated, iron can be carried by:",
+   "options": [
+    "Haemoglobin",
+    "Albumin or lactoferrin",
+    "Ceruloplasmin",
+    "Ferritin only"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In iron overload, transferrin synthesis:",
+   "options": [
+    "Stops completely",
+    "Increases",
+    "Is unchanged",
+    "Decreases"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The cells richest in transferrin receptors are:",
+   "options": [
+    "Hepatocytes",
+    "Adipocytes",
+    "Neurons",
+    "Erythroblasts"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The main regulator of iron uptake by erythroblasts is:",
+   "options": [
+    "Ferritin in plasma",
+    "Hepcidin in red cells",
+    "The number of transferrin receptors",
+    "Plasma albumin"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The soluble transferrin receptor is:",
+   "options": [
+    "A truncated receptor form that passes into plasma",
+    "A liver enzyme",
+    "A haem protein",
+    "A form of ferritin"
+   ],
+   "answer": 0,
+   "why": "It correlates with marrow proliferative activity.",
+   "x": 1
+  },
+  {
+   "q": "Iron stores are mainly found in:",
+   "options": [
+    "Muscle and skin",
+    "Liver, spleen and bone marrow",
+    "Kidney and lung",
+    "Heart and brain"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Ferritin is:",
+   "options": [
+    "A transport protein",
+    "A haem protein",
+    "The slowly mobilised store",
+    "The readily available iron store"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Haemosiderin comes from:",
+   "options": [
+    "Lysosomal digestion of ferritin aggregates",
+    "Myoglobin",
+    "Transferrin",
+    "Haemoglobin directly"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Haemosiderin in hepatocytes is shown by:",
+   "options": [
+    "Gram stain",
+    "Ziehl-Neelsen",
+    "Amido black",
+    "Perls' Prussian blue staining"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Tissue ferritin is composed of:",
+   "options": [
+    "Apoferritin and ferric iron",
+    "Haem and globin",
+    "Albumin and iron",
+    "Transferrin and ferrous iron"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The first iron mobilised for erythropoiesis comes from ferritin of:",
+   "options": [
+    "Enterocytes",
+    "Muscle",
+    "Hepatocytes",
+    "Macrophages of liver, spleen and marrow"
+   ],
+   "answer": 3,
+   "why": "Hepatocyte ferritin is used only if that pathway is exhausted.",
+   "x": 1
+  },
+  {
+   "q": "Plasma ferritin is about:",
+   "options": [
+    "150 µg/L",
+    "150 g/L",
+    "15 mg/L",
+    "1.4 g/L"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "About 80% of plasma ferritin comes from:",
+   "options": [
+    "Red cells",
+    "Lysis of cells, iron-rich",
+    "Macrophages, glycosylated and iron-poor",
+    "The intestine"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Ferritin from lysis of senescent cells is:",
+   "options": [
+    "Glycosylated and iron-poor",
+    "Bound to transferrin",
+    "Not glycosylated and rich in iron",
+    "Absent"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Isolated measurement of serum iron is:",
+   "options": [
+    "Of no interest",
+    "Required for overload",
+    "The best test",
+    "The first-line test for deficiency"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Circulating iron is explored by measuring:",
+   "options": [
+    "Haemoglobin alone",
+    "Ferritin alone",
+    "Plasma iron alone",
+    "Plasma iron and transferrin together"
+   ],
+   "answer": 3,
+   "why": "Allowing TIBC and TS calculation.",
+   "x": 1
+  },
+  {
+   "q": "Serum iron reference values in men are:",
+   "options": [
+    "30-300 µmol/L",
+    "10-30 µmol/L",
+    "60-95 µmol/L",
+    "8-28 µmol/L"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Before a serum iron assay:",
+   "options": [
+    "Take iron the morning of the test",
+    "Eat red meat",
+    "Take the sample fasting and stop iron therapy 1 week before",
+    "Haemolysed samples are fine"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Transferrin reference values in adults are:",
+   "options": [
+    "60 to 95 g/L",
+    "2.4 to 3.8 g/L",
+    "30 to 300 g/L",
+    "0.5 to 1 g/L"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Transferrin measurement helps to:",
+   "options": [
+    "Assess liver synthesis in relation to iron stores and calculate TIBC and TS",
+    "Diagnose haemolysis",
+    "Measure haemoglobin",
+    "Measure ferritin"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "TIBC reference values in adults are:",
+   "options": [
+    "10 to 30 µmol/L",
+    "2.4 to 3.8 µmol/L",
+    "20 to 40 µmol/L",
+    "60 to 95 µmol/L"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Transferrin saturation equals:",
+   "options": [
+    "TIBC / iron",
+    "Iron × 25",
+    "Ferritin / transferrin",
+    "Plasma iron / TIBC × 100"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A man has iron 15 µmol/L and transferrin 3 g/L. His TS is:",
+   "options": [
+    "5%",
+    "75%",
+    "20%",
+    "45%"
+   ],
+   "answer": 2,
+   "why": "TIBC = 75 µmol/L; 15/75 = 20%.",
+   "x": 1
+  },
+  {
+   "q": "Normal transferrin saturation in women is:",
+   "options": [
+    "20-40%",
+    "45-60%",
+    "15-35%",
+    "5-10%"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Functional iron is explored by:",
+   "options": [
+    "Haemoglobin, MCV, MCHC and soluble transferrin receptor",
+    "Transferrin only",
+    "Serum iron only",
+    "Ferritin"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Soluble transferrin receptor in iron deficiency:",
+   "options": [
+    "Increases",
+    "Decreases",
+    "Is unchanged",
+    "Disappears"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Ferritin has:",
+   "options": [
+    "A monthly cycle",
+    "A peak at night",
+    "A strong daily rhythm",
+    "No nycthemeral cycle"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Ferritin reference values in men are:",
+   "options": [
+    "15-100 µg/L",
+    "20-200 µg/L",
+    "150-500 µg/L",
+    "30-300 µg/L"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Intra-erythrocyte ferritin is little used because:",
+   "options": [
+    "It is unstable",
+    "It is too cheap",
+    "It requires separation of leukocytes",
+    "It does not reflect stores"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Hepcidin is secreted by:",
+   "options": [
+    "Enterocytes",
+    "Red cells",
+    "Macrophages only",
+    "Liver cells"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Hepcidin controls the exit of iron from:",
+   "options": [
+    "Bone",
+    "Enterocytes and macrophages",
+    "The kidney",
+    "Red cells"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "When circulating iron falls, hepcidin:",
+   "options": [
+    "Decreases, allowing iron to leave cells",
+    "Increases",
+    "Is unchanged",
+    "Blocks absorption more"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Excess iron retained in enterocytes by hepcidin is:",
+   "options": [
+    "Stored in muscle",
+    "Excreted in the stool",
+    "Excreted in urine",
+    "Sent to bone"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The clinical value of hepcidin dosing is:",
+   "options": [
+    "Established as first line",
+    "Required for deficiency",
+    "Required for overload",
+    "Still to be evaluated"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The iron balance must be interpreted according to:",
+   "options": [
+    "Only the diet",
+    "Only the haemoglobin",
+    "Only the ferritin number",
+    "Clinical context (bleeding, inflammation, liver disease), age and sex"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In an elderly subject, chronic iron loss is often of:",
+   "options": [
+    "Skin origin",
+    "Genital origin",
+    "Urinary origin",
+    "Digestive origin"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In a woman of reproductive age, chronic iron loss is often of:",
+   "options": [
+    "Genital origin",
+    "Renal origin",
+    "Digestive origin",
+    "Pulmonary origin"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Increased iron use occurs in:",
+   "options": [
+    "Iron overload",
+    "Hepcidin excess",
+    "Old age only",
+    "Pregnancy, breastfeeding and premature newborns"
+   ],
+   "answer": 3,
+   "why": "Also regular blood donation and haemodialysis.",
+   "x": 1
+  },
+  {
+   "q": "Iron absorption defects occur in:",
+   "options": [
+    "Hypothyroidism only",
+    "Gastrectomy, small bowel resection and chronic inflammatory bowel disease",
+    "Pregnancy only",
+    "Haemolysis"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Iron deficiency sets in through:",
+   "options": [
+    "Latent deficiency, proven deficiency, then anaemia",
+    "Overload then deficiency",
+    "One single step",
+    "Anaemia first"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Iron deficiency anaemia is defined in men by:",
+   "options": [
+    "Hb under 130 g/L, microcytic and hypochromic",
+    "Hb under 120 g/L",
+    "Hb above 160 g/L",
+    "Hb under 100 g/L macrocytic"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Microcytosis is an MCV below:",
+   "options": [
+    "100 fL",
+    "120 fL",
+    "80 fL",
+    "60 fL"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "If ferritin is low, according to HAS 2011:",
+   "options": [
+    "Iron deficiency is confirmed; no other iron marker is needed",
+    "Serum iron must be measured",
+    "sTfR is required",
+    "TS must be measured"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Transferrin saturation falls below 16%:",
+   "options": [
+    "In advanced iron deficiency, when anaemia is established",
+    "Early in iron deficiency",
+    "In overload",
+    "Never"
+   ],
+   "answer": 0,
+   "why": "So it is a poor diagnostic test.",
+   "x": 1
+  },
+  {
+   "q": "Primary haemochromatosis is transmitted:",
+   "options": [
+    "Mitochondrial",
+    "X-linked",
+    "Autosomal dominant",
+    "Autosomal recessive"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Clinical signs of primary haemochromatosis include:",
+   "options": [
+    "Pure neurological signs",
+    "Hypertension only",
+    "Hepatomegaly progressing to cirrhosis and heart rhythm disturbances",
+    "Pale skin"
+   ],
+   "answer": 2,
+   "why": "Also melanoderma, diabetes, gonadal insufficiency, bone and joint signs.",
+   "x": 1
+  },
+  {
+   "q": "Gonadal insufficiency in haemochromatosis is of:",
+   "options": [
+    "Renal origin",
+    "Pituitary origin",
+    "Ovarian origin only",
+    "Adrenal origin"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Biology in primary haemochromatosis shows:",
+   "options": [
+    "Low iron",
+    "High serum iron, low transferrin and very high TS",
+    "High transferrin",
+    "Low TS"
+   ],
+   "answer": 1,
+   "why": "Ferritin rises only in advanced stages.",
+   "x": 1
+  },
+  {
+   "q": "In primary haemochromatosis, iron accumulates initially in:",
+   "options": [
+    "Red cells",
+    "The liver more than macrophages",
+    "The kidney",
+    "Macrophages more than the liver"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "HFE gene mutation causes:",
+   "options": [
+    "High hepcidin",
+    "Low transferrin saturation",
+    "Low hepatic expression of hepcidin",
+    "Iron deficiency"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Iron not bound to transferrin is avidly taken up by:",
+   "options": [
+    "Brain and skin",
+    "Kidney and lung",
+    "Muscle and bone",
+    "Liver, heart and pancreas"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The diagnosis of primary haemochromatosis is confirmed by:",
+   "options": [
+    "Study of HFE gene mutations",
+    "MCV",
+    "Serum iron alone",
+    "Haemoglobin"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Secondary iron overload can follow:",
+   "options": [
+    "Blood donation",
+    "Gastrectomy",
+    "Iron deficiency",
+    "Repeated transfusions and haemolytic anaemias"
+   ],
+   "answer": 3,
+   "why": "Also haemodialysis supplementation, liver disease, atransferrinaemia.",
+   "x": 1
+  },
+  {
+   "q": "Haemochromatosis is confirmed by TS above 45% with ferritin above:",
+   "options": [
+    "300 µg/L in men and 200 µg/L in women",
+    "1000 µg/L only",
+    "100 µg/L in both",
+    "30 µg/L"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Isolated high plasma ferritin:",
+   "options": [
+    "Cannot diagnose iron overload but helps monitor treatment",
+    "Confirms haemochromatosis",
+    "Confirms deficiency",
+    "Is meaningless"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "If iron overload is suspected, the test to request is:",
+   "options": [
+    "Serum iron alone",
+    "Haemoglobin",
+    "Transferrin saturation",
+    "Ferritin alone"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In an inflammatory syndrome, the iron deficiency component of anaemia is diagnosed by:",
+   "options": [
+    "Serum iron alone",
+    "Ferritin alone",
+    "Transferrin alone",
+    "Soluble transferrin receptor"
+   ],
+   "answer": 3,
+   "why": "Ferritin rises with inflammation.",
+   "x": 1
+  },
+  {
+   "q": "In ineffective but increased erythropoiesis (haemolytic anaemia), iron absorption:",
+   "options": [
+    "Increases, leading to overload",
+    "Stops",
+    "Decreases",
+    "Is unchanged"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Child serum ferritin reference (1-15 years) is:",
+   "options": [
+    "15 to 100 µg/L",
+    "30 to 300 µg/L",
+    "150 to 500 µg/L",
+    "1 to 5 µg/L"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "µmol/L of iron = 17.92 × mg/L. 1 mg/L of iron equals about:",
+   "options": [
+    "0.18 µmol/L",
+    "179 µmol/L",
+    "17.9 µmol/L",
+    "1 µmol/L"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Atransferrinaemia leads to:",
+   "options": [
+    "Haemolysis",
+    "Normal iron balance",
+    "Iron deficiency only",
+    "Iron overload of metabolic origin"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
   }
  ],
  "cards": [
@@ -24164,6 +25436,990 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "The arrow points to: Regulation. Thirst, ADH (water), RAAS/aldosterone (sodium and water), ANF (natriuresis)."
+  },
+  {
+   "q": "Electrolytes are compounds that:",
+   "options": [
+    "Are always proteins",
+    "Carry no charge",
+    "Dissociate into ions when dissolved in water",
+    "Never dissolve"
+   ],
+   "answer": 2,
+   "why": "E.g. NaCl into Na+ and Cl-.",
+   "x": 1
+  },
+  {
+   "q": "In all physiological fluids:",
+   "options": [
+    "Electrical neutrality must be maintained",
+    "Only cations are present",
+    "Anions always exceed cations",
+    "Cations always exceed anions"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Water movements between compartments are mainly linked to:",
+   "options": [
+    "Glucose only",
+    "Movements of electrolytes",
+    "Hormones only",
+    "Blood cells"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Total body water in a 70 kg man is about:",
+   "options": [
+    "70 litres",
+    "12 litres",
+    "28 litres",
+    "42 litres"
+   ],
+   "answer": 3,
+   "why": "60% of body weight.",
+   "x": 1
+  },
+  {
+   "q": "In infants, body water represents about:",
+   "options": [
+    "60%",
+    "75% of body weight",
+    "50%",
+    "40%"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In the elderly, body water:",
+   "options": [
+    "Rises above 75%",
+    "Exceeds 90%",
+    "Falls below 60%",
+    "Is unchanged"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The water content of muscle is about:",
+   "options": [
+    "10%",
+    "50%",
+    "75%",
+    "22%"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The water content of bone is about:",
+   "options": [
+    "50%",
+    "10%",
+    "22%",
+    "75%"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A rapid change in body weight should suggest:",
+   "options": [
+    "Bone loss",
+    "Muscle loss",
+    "Water retention or water loss",
+    "Fat gain"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Water from drinks is about:",
+   "options": [
+    "0.7 L/day",
+    "0.3 L/day",
+    "1.5 L/day",
+    "2.2 L/day"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Water from food is about:",
+   "options": [
+    "0.7 L/day",
+    "0.1 L/day",
+    "0.3 L/day",
+    "2.2 L/day"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Endogenous (metabolic) water is about:",
+   "options": [
+    "1.5 L/day",
+    "0.7 L/day",
+    "2.2 L/day",
+    "0.3 L/day"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Insensible water losses (skin and lungs) are about:",
+   "options": [
+    "0.1 L/day",
+    "0.9 L/day",
+    "1.5 L/day",
+    "2.5 L/day"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Minimum water loss in stool is about:",
+   "options": [
+    "1.5 L/day",
+    "0.9 L/day",
+    "0.5 L/day",
+    "0.1 L/day"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Intracellular water in a 70 kg adult is about:",
+   "options": [
+    "28 litres (2/3 of body water)",
+    "42 litres",
+    "3 litres",
+    "12 litres"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Interstitial fluid represents about:",
+   "options": [
+    "20%",
+    "15% of body weight (12 litres)",
+    "40%",
+    "5%"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The extracellular compartment is called:",
+   "options": [
+    "The third space",
+    "The lymphatic sector only",
+    "The internal environment",
+    "The cytoplasm"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The extracellular compartment represents about:",
+   "options": [
+    "60%",
+    "5%",
+    "40-50%",
+    "20% of body weight"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Interstitial fluid composition is that of:",
+   "options": [
+    "Plasma with more protein",
+    "Urine",
+    "Intracellular fluid",
+    "A plasma ultrafiltrate, low in protein"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Solutes in plasma exist as:",
+   "options": [
+    "Only cells",
+    "Only proteins",
+    "Only electrolytes",
+    "Dissociated (electrolytes) and undissociated (glucose, urea) forms"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In the SI, ions are expressed in:",
+   "options": [
+    "Grams",
+    "Osmoles only",
+    "Equivalents",
+    "mol"
+   ],
+   "answer": 3,
+   "why": "The conventional system uses equivalents.",
+   "x": 1
+  },
+  {
+   "q": "A natraemia of 142 mmol/L equals:",
+   "options": [
+    "14.2 mEq/L",
+    "71 mEq/L",
+    "284 mEq/L",
+    "142 mEq/L"
+   ],
+   "answer": 3,
+   "why": "Sodium is monovalent.",
+   "x": 1
+  },
+  {
+   "q": "At physiological pH, proteins are:",
+   "options": [
+    "Uncharged",
+    "Neutral",
+    "Positively charged",
+    "Negatively charged"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The main plasma anion is:",
+   "options": [
+    "Bicarbonate",
+    "Chloride",
+    "Phosphate",
+    "Protein"
+   ],
+   "answer": 1,
+   "why": "Followed by bicarbonate and proteins.",
+   "x": 1
+  },
+  {
+   "q": "The intracellular fluid is low in:",
+   "options": [
+    "Potassium",
+    "Sodium and chloride",
+    "Proteins",
+    "Phosphate"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The 'missing' proteins in interstitial fluid lead to:",
+   "options": [
+    "More proteins",
+    "Slightly more anions (×1.05) and fewer cations (×0.95)",
+    "More cations",
+    "No change"
+   ],
+   "answer": 1,
+   "why": "The Donnan equilibrium.",
+   "x": 1
+  },
+  {
+   "q": "In red blood cells, intracellular proteins are largely replaced by:",
+   "options": [
+    "Albumin",
+    "Ferritin",
+    "Haemoglobin",
+    "Myoglobin"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Plasma membranes behave partly as:",
+   "options": [
+    "Semi-permeable membranes",
+    "Ion-free barriers",
+    "Impermeable walls",
+    "Freely permeable to proteins"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Electrolytes cross the cell membrane by:",
+   "options": [
+    "Only endocytosis",
+    "Not at all",
+    "Passive diffusion or active transport",
+    "Only active transport"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The Na+/K+ ATPase pump:",
+   "options": [
+    "Brings Na+ into the cell",
+    "Expels Na+ from the cell against its gradient using energy",
+    "Moves water only",
+    "Works without energy"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "According to the law of osmosis, water moves:",
+   "options": [
+    "Only with sodium",
+    "Randomly",
+    "From the less concentrated (hypotonic) to the more concentrated (hypertonic) medium",
+    "From hypertonic to hypotonic"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Osmotic pressure is proportional to:",
+   "options": [
+    "Their size",
+    "Their charge only",
+    "The number of particles in solution",
+    "Their colour"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The capillary membrane is:",
+   "options": [
+    "Freely permeable to water and electrolytes, poorly to proteins",
+    "Impermeable to water",
+    "Freely permeable to proteins",
+    "Impermeable to electrolytes"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Exchanges between plasma and interstitium follow:",
+   "options": [
+    "Fick's law only",
+    "Boyle's law",
+    "Henry's law",
+    "Starling's law"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Oncotic pressure is due to:",
+   "options": [
+    "Blood flow from the heart",
+    "Plasma proteins",
+    "Glucose",
+    "Sodium"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Hydrostatic pressure is due to:",
+   "options": [
+    "Lymph",
+    "The force of blood pushed by the heart",
+    "Osmosis",
+    "Plasma proteins"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "At the arterial end of capillaries, water leaves carrying:",
+   "options": [
+    "CO2 and waste",
+    "Oxygen, mineral salts and organic molecules",
+    "Proteins",
+    "Red cells"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "At the venous end of capillaries, water returns carrying:",
+   "options": [
+    "CO2 and metabolic waste",
+    "Proteins",
+    "Oxygen",
+    "Glucose only"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Extra-renal regulation of water includes:",
+   "options": [
+    "Aldosterone only",
+    "ANF only",
+    "ADH only",
+    "Water movements between sectors and the thirst centre"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "ADH is:",
+   "options": [
+    "Made by the heart",
+    "Secreted by the hypothalamus and released by the pituitary",
+    "Made by the adrenal",
+    "Made by the kidney"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Renin is released by the kidney in response to:",
+   "options": [
+    "Hypertension",
+    "High sodium",
+    "A drop in blood pressure (hypovolaemia)",
+    "High potassium"
+   ],
+   "answer": 2,
+   "why": "Detected via renal sympathetic nerves.",
+   "x": 1
+  },
+  {
+   "q": "Aldosterone acts by:",
+   "options": [
+    "Reabsorbing water and sodium to increase blood volume",
+    "Excreting sodium",
+    "Lowering blood pressure",
+    "Reabsorbing water alone"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "ANF is secreted by:",
+   "options": [
+    "The ventricle",
+    "The adrenal",
+    "The cardiac atrium",
+    "The kidney"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The plasma ionogram measures:",
+   "options": [
+    "Proteins",
+    "Calcium and phosphate only",
+    "Sodium, potassium and chloride, with osmolality",
+    "Lipids"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Osmotically active molecules used for osmolality include:",
+   "options": [
+    "Albumin and globulin",
+    "Urea and glucose",
+    "Haemoglobin",
+    "Lipids"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Treated ionogram samples can be stored at +4 °C for:",
+   "options": [
+    "One day only",
+    "One month",
+    "One hour",
+    "One week"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "To avoid falsely high potassium, avoid:",
+   "options": [
+    "Haemolysis and delayed transport",
+    "Heparin lithium",
+    "Refrigeration",
+    "Fasting"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Sodium heparin tubes give:",
+   "options": [
+    "A false chloride result",
+    "A false sodium result",
+    "No error",
+    "A false potassium result"
+   ],
+   "answer": 1,
+   "why": "EDTA gives false potassium.",
+   "x": 1
+  },
+  {
+   "q": "Hyperproteinaemia can cause:",
+   "options": [
+    "False hyponatraemia",
+    "No interference",
+    "False hypernatraemia",
+    "False hyperkalaemia"
+   ],
+   "answer": 0,
+   "why": "Like hypertriglyceridaemia.",
+   "x": 1
+  },
+  {
+   "q": "The 24-h urine for a urinary ionogram is collected:",
+   "options": [
+    "In an EDTA tube",
+    "In a citrate tube",
+    "Without antiseptic",
+    "With antiseptic"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "About 90% of body sodium is:",
+   "options": [
+    "Intracellular",
+    "In bone",
+    "In urine",
+    "Extracellular"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The role of sodium is to maintain:",
+   "options": [
+    "Extracellular osmotic pressure and water balance",
+    "Clotting",
+    "Cell excitability only",
+    "Intracellular osmotic pressure"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Hyponatraemia can result from:",
+   "options": [
+    "Excess ADH (reduced free water excretion)",
+    "Water deficit",
+    "Diabetes insipidus",
+    "Excess sodium intake"
+   ],
+   "answer": 0,
+   "why": "Also renal or digestive sodium loss, or excess pure water intake.",
+   "x": 1
+  },
+  {
+   "q": "Hypernatraemia from water loss can be due to:",
+   "options": [
+    "Excess water intake",
+    "Fever, hyperventilation or sweating",
+    "Excess ADH",
+    "Hypotonic infusions"
+   ],
+   "answer": 1,
+   "why": "Also diuretics, hyperglycaemia, diarrhoea.",
+   "x": 1
+  },
+  {
+   "q": "Hypernatraemia from an electrolyte imbalance occurs with:",
+   "options": [
+    "Excess sodium intake, e.g. hypertonic serum",
+    "Excess ADH",
+    "Excess water intake",
+    "Vomiting"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Reference serum potassium is:",
+   "options": [
+    "135 to 145 mmol/L",
+    "2.25 to 2.60 mmol/L",
+    "95 to 108 mmol/L",
+    "3.5 to 5.5 mmol/L"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The roles of potassium are:",
+   "options": [
+    "Bone formation",
+    "Intracellular osmotic pressure and cell excitability",
+    "Clotting",
+    "Extracellular osmotic pressure"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Hypokalaemia is a potassium below:",
+   "options": [
+    "6.5 mmol/L",
+    "5.5 mmol/L",
+    "3.5 mmol/L",
+    "2 mmol/L"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The severity of hypokalaemia is determined by:",
+   "options": [
+    "Cramps",
+    "Thirst",
+    "Cardiac symptoms",
+    "Constipation"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Digestive causes of hypokalaemia are:",
+   "options": [
+    "Renal failure",
+    "Burns",
+    "Vomiting and diarrhoea",
+    "Haemolysis"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Intake causes of hypokalaemia include:",
+   "options": [
+    "Potassium infusions",
+    "Renal failure",
+    "Excess fruit",
+    "Anorexia and unsupplemented parenteral nutrition"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Causes of hyperkalaemia include:",
+   "options": [
+    "Hyperaldosteronism",
+    "Anorexia",
+    "Vomiting",
+    "Renal failure, IV potassium overload and cell lysis in burns"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Life-threatening hyperkalaemia causes:",
+   "options": [
+    "Hair loss",
+    "Only thirst",
+    "Only constipation",
+    "Cardiac conduction and neuromuscular disturbances"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Chloride reference values are:",
+   "options": [
+    "95 to 108 mmol/L",
+    "22 to 28 mmol/L",
+    "135 to 145 mmol/L",
+    "3.5 to 5.5 mmol/L"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The main dietary source of chloride is:",
+   "options": [
+    "Milk",
+    "Cooking salt",
+    "Meat",
+    "Fruit"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Hyperchloraemia (above 110 mmol/L) can be due to:",
+   "options": [
+    "Vomiting",
+    "Diuretics",
+    "NaCl or KCl infusion, tubulopathies or dehydration",
+    "Diarrhoea only"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Hypochloraemia (below 90 mmol/L) is linked to:",
+   "options": [
+    "Dehydration",
+    "Vomiting or some diuretics",
+    "NaCl infusion",
+    "Tubulopathy"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Osmolality is the number of osmotically active particles per:",
+   "options": [
+    "Gram of protein",
+    "Kilogram of water",
+    "Cell",
+    "Litre of plasma"
+   ],
+   "answer": 1,
+   "why": "Osmolarity is per litre of plasma.",
+   "x": 1
+  },
+  {
+   "q": "A good reflection of osmolality is:",
+   "options": [
+    "Kalaemia",
+    "Natraemia",
+    "Albumin",
+    "Calcaemia"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Calculated plasma osmolality is normally:",
+   "options": [
+    "135-145 mOsm/kg",
+    "280-300 mOsm/kg H2O",
+    "100 mOsm/kg",
+    "800 mOsm/kg"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Plasma osmolality can be measured directly with:",
+   "options": [
+    "A spectrophotometer of iron",
+    "A densitometer",
+    "An osmometer",
+    "A pH meter"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "At equilibrium, plasma osmolality is:",
+   "options": [
+    "Zero",
+    "Lower than intracellular",
+    "Equal to intracellular osmolality",
+    "Higher than intracellular"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A hypertonic solution has:",
+   "options": [
+    "The same concentration",
+    "A lower concentration",
+    "No solutes",
+    "A higher concentration than plasma"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Extracellular dehydration is caused by:",
+   "options": [
+    "Excess ADH",
+    "Loss of isotonic fluid (water and sodium), e.g. vomiting or diarrhoea",
+    "Excess sodium intake",
+    "Water deficit only"
+   ],
+   "answer": 1,
+   "why": "Also heat stroke and renal insufficiency.",
+   "x": 1
+  },
+  {
+   "q": "Intracellular dehydration can be caused by:",
+   "options": [
+    "Vomiting",
+    "Inability to drink after head injury, intubation, or diabetes insipidus",
+    "Cirrhosis",
+    "Heart failure"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Global dehydration (water deficit with slight sodium deficit) occurs in:",
+   "options": [
+    "Excess ADH",
+    "Cystic fibrosis, infant gastroenteritis or diabetes",
+    "Heart failure",
+    "Cirrhosis"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Extracellular hyperhydration (oedema) is found in:",
+   "options": [
+    "Heat stroke",
+    "Renal failure, heart failure and cirrhosis",
+    "Diabetes insipidus",
+    "Vomiting"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Intracellular hyperhydration results from:",
+   "options": [
+    "A drop in plasma osmolarity (sodium loss or dilution)",
+    "Hypernatraemia",
+    "Water deficit",
+    "Excess glucose"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Global hyperhydration is:",
+   "options": [
+    "Intra- plus extracellular dehydration",
+    "Intra- plus extracellular hyperhydration",
+    "Hypernatraemia alone",
+    "Hypokalaemia alone"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The organ with a fundamental role in water-electrolyte balance is:",
+   "options": [
+    "The lung",
+    "The skin",
+    "The liver",
+    "The kidney"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A patient on intravenous nutrition without potassium becomes weak with cramps and constipation. The likely disorder is:",
+   "options": [
+    "Hypokalaemia",
+    "Hypernatraemia",
+    "Hyperchloraemia",
+    "Hyperkalaemia"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A burn patient with K+ 7 mmol/L has hyperkalaemia from:",
+   "options": [
+    "Vomiting",
+    "Cell lysis",
+    "Diuretics",
+    "Hyperaldosteronism"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
   }
  ],
  "cards": [
@@ -25306,6 +27562,906 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "The arrow points to: Respiratory alkalosis. pH > 7.42, PaCO₂ < 36 mmHg, compensated by lower HCO₃⁻."
+  },
+  {
+   "q": "Acid-base balance aims to keep constant:",
+   "options": [
+    "Blood H+ concentration",
+    "Blood glucose",
+    "Blood sodium",
+    "Blood calcium"
+   ],
+   "answer": 0,
+   "why": "Plasma pH 7.37-7.43.",
+   "x": 1
+  },
+  {
+   "q": "The daily acid load comes mainly from:",
+   "options": [
+    "Water",
+    "Fat storage",
+    "Fruit and vegetables",
+    "Protein metabolism"
+   ],
+   "answer": 3,
+   "why": "Plant foods are mostly alkaline.",
+   "x": 1
+  },
+  {
+   "q": "The order of acid-base regulation is:",
+   "options": [
+    "Buffers, then lungs, then kidneys",
+    "Kidneys only",
+    "Kidneys, then buffers, then lungs",
+    "Lungs, then kidneys, then buffers"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "An acid is a substance that:",
+   "options": [
+    "Has no charge",
+    "Accepts electrons",
+    "Accepts protons",
+    "Donates protons"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "pH is defined as:",
+   "options": [
+    "1/[OH−]",
+    "log [H+]",
+    "−log [H+]",
+    "[H+] × 10"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Plasma [H+] at pH 7.4 is about:",
+   "options": [
+    "40 nmol/L",
+    "4 mmol/L",
+    "40 mmol/L",
+    "100 nmol/L"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Intracellular pH is about:",
+   "options": [
+    "7.4",
+    "6",
+    "8",
+    "7 (about 100 nmol/L H+)"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Carbonic anhydrase is involved in:",
+   "options": [
+    "Excreting ammonium",
+    "Eliminating volatile acid (CO2) through the lungs",
+    "Making ketone bodies",
+    "Making lactic acid"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Fixed organic acids include:",
+   "options": [
+    "Bicarbonate",
+    "Phosphoric and sulphuric acids",
+    "CO2",
+    "Lactic acid and ketone bodies"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Fixed mineral acids include:",
+   "options": [
+    "Phosphoric and sulphuric acids",
+    "Lactic acid",
+    "Ketone bodies",
+    "CO2"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Fixed acids are eliminated by:",
+   "options": [
+    "The liver",
+    "The lungs",
+    "The skin",
+    "The kidneys"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A buffer is:",
+   "options": [
+    "A salt with no acid-base activity",
+    "A strong acid",
+    "An acid/base pair",
+    "A strong base"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The Henderson-Hasselbalch equation is:",
+   "options": [
+    "pH = log [AH]",
+    "pH = pKa − [A−]",
+    "pH = pKa × [A−]",
+    "pH = pKa + log [A−]/[AH]"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "For the bicarbonate system, pH equals:",
+   "options": [
+    "pKa − HCO3",
+    "6.1 + PCO2",
+    "6.1 + log [HCO3−]/(0.03 × PCO2)",
+    "7.4 + log PCO2"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The bicarbonate buffer is efficient because of:",
+   "options": [
+    "Its low concentration",
+    "Its high pKa of 9",
+    "Its location in red cells only",
+    "Its high concentration, its pKa and ventilatory control"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A drawback of the bicarbonate buffer is that it:",
+   "options": [
+    "Has low concentration",
+    "Is consumed over time",
+    "Is intracellular only",
+    "Acts slowly"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The proteinate buffer has:",
+   "options": [
+    "Low capacity",
+    "A pKa of 6.1",
+    "The highest capacity",
+    "No role"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The phosphate buffer is especially important in:",
+   "options": [
+    "Bone only",
+    "Red cells only",
+    "Urine",
+    "Plasma"
+   ],
+   "answer": 2,
+   "why": "Its capacity in plasma is low.",
+   "x": 1
+  },
+  {
+   "q": "In tissues, oxyhaemoglobin:",
+   "options": [
+    "Binds O2 and releases H+",
+    "Binds bicarbonate",
+    "Releases O2 and binds H+",
+    "Releases CO2"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In the lungs, H+ released from haemoglobin joins:",
+   "options": [
+    "Lactate",
+    "Ammonia",
+    "Phosphate",
+    "HCO3− to give CO2"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In acidosis, additional buffering is provided by:",
+   "options": [
+    "Fat tissue",
+    "Urea",
+    "Bile",
+    "Bone proteins, phosphates and carbamates"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The respiratory response to acid-base disorders is:",
+   "options": [
+    "Rapid but limited in capacity",
+    "Absent",
+    "Only for alkalosis",
+    "Slow but powerful"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "pH is sensed for ventilation by:",
+   "options": [
+    "The kidney",
+    "Baroreceptors",
+    "The liver",
+    "Medullary and peripheral chemoreceptors"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In metabolic alkalosis, the lungs:",
+   "options": [
+    "Hypoventilate, raising PaCO2",
+    "Hyperventilate",
+    "Raise bicarbonate",
+    "Do nothing"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The renal response is:",
+   "options": [
+    "Only against alkalosis",
+    "Without effect",
+    "Faster than the lungs",
+    "Slower but more powerful and lasting"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Filtered bicarbonate is reabsorbed mainly in:",
+   "options": [
+    "The loop of Henle",
+    "The proximal tubule",
+    "The glomerulus",
+    "The collecting duct"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Urine pH can fall to about:",
+   "options": [
+    "7.4",
+    "2",
+    "4.4",
+    "6.1"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Distal H+ secretion is exchanged for:",
+   "options": [
+    "Glucose",
+    "Ca2+",
+    "Na+",
+    "Cl−"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Titratable acidity (H2PO4−) accounts for about:",
+   "options": [
+    "All",
+    "None",
+    "Two thirds",
+    "One third of bound H+ excretion"
+   ],
+   "answer": 3,
+   "why": "Ammonium accounts for two thirds.",
+   "x": 1
+  },
+  {
+   "q": "Ammonium excretion is stimulated by:",
+   "options": [
+    "Alkalosis",
+    "Hyperventilation",
+    "Acidosis and hyperkalaemia",
+    "Hypokalaemia"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Each mmol of H+ excreted by the kidney:",
+   "options": [
+    "Generates two mmol of CO2",
+    "Generates one mmol of new bicarbonate",
+    "Consumes one mmol of bicarbonate",
+    "Has no effect on bicarbonate"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Arterial blood for blood gases is usually taken from:",
+   "options": [
+    "The jugular vein",
+    "A forearm vein",
+    "The radial or femoral artery",
+    "The portal vein"
+   ],
+   "answer": 2,
+   "why": "Capillary blood in newborns.",
+   "x": 1
+  },
+  {
+   "q": "A blood gas syringe must be:",
+   "options": [
+    "Containing EDTA",
+    "Heparinised, sealed and strictly anaerobic",
+    "Containing citrate",
+    "Open to air"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Blood gases should be analysed within:",
+   "options": [
+    "Ten minutes at 37 °C only",
+    "One day",
+    "One hour, kept on ice",
+    "One week"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "When sending blood gases, note:",
+   "options": [
+    "Weight only",
+    "Diet",
+    "Temperature, respiratory status and atmospheric pressure",
+    "Blood group"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "For bicarbonate measurement, forbidden tubes are:",
+   "options": [
+    "EDTA, citrate and oxalate",
+    "Gel tube",
+    "Dry tube",
+    "Heparin"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "pH corrected for temperature equals:",
+   "options": [
+    "pH × T/37",
+    "pH − 0.014 × (T − 37)",
+    "pH − 0.1",
+    "pH + T"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Normal PaO2 is:",
+   "options": [
+    "22 to 26 mmHg",
+    "95 to 99 mmHg",
+    "75 to 100 mmHg",
+    "37 to 43 mmHg"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Normal plasma bicarbonate is:",
+   "options": [
+    "22 to 26 mmol/L",
+    "37 to 43 mmol/L",
+    "135 to 145 mmol/L",
+    "12 ± 2 mmol/L"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Normal SaO2 is:",
+   "options": [
+    "95 to 99%",
+    "75 to 100%",
+    "50 to 70%",
+    "100% always"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The anion gap is calculated as:",
+   "options": [
+    "(Na+ + Cl−) − K+",
+    "Na+ − K+",
+    "(Na+ + K+) − (Cl− + HCO3−)",
+    "Cl− − HCO3−"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Na 140, K 4, Cl 104, HCO3 24 (mEq/L). The anion gap is:",
+   "options": [
+    "24 mEq/L",
+    "8 mEq/L",
+    "16 mEq/L",
+    "12 mEq/L"
+   ],
+   "answer": 2,
+   "why": "144 − 128 = 16.",
+   "x": 1
+  },
+  {
+   "q": "Normal blood lactate is:",
+   "options": [
+    "10 to 20 mmol/L",
+    "1 to 2 mmol/L",
+    "0.01 mmol/L",
+    "5 to 10 mmol/L"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Metabolic acidosis is defined by:",
+   "options": [
+    "pH low with high PaCO2",
+    "pH high with low PaCO2",
+    "pH above 7.42 with high HCO3−",
+    "pH below 7.37 with HCO3− below 22 mmol/L"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Respiratory acidosis shows:",
+   "options": [
+    "High pH with low PaCO2",
+    "Low pH with low HCO3−",
+    "Low pH with PaCO2 above 42-43 mmHg",
+    "High pH with high HCO3−"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In respiratory acidosis, renal compensation:",
+   "options": [
+    "Lowers PaCO2",
+    "Lowers bicarbonate",
+    "Has no effect",
+    "Raises bicarbonate"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Metabolic alkalosis shows:",
+   "options": [
+    "pH high, PaCO2 low",
+    "pH above 7.42, HCO3− above 26, PaCO2 rising",
+    "pH low, PaCO2 high",
+    "pH low, HCO3− low"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Respiratory alkalosis shows:",
+   "options": [
+    "pH above 7.42 with low PaCO2",
+    "pH low with low PaCO2",
+    "pH high with high HCO3−",
+    "pH low with high PaCO2"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In respiratory alkalosis, renal compensation:",
+   "options": [
+    "Raises H+ retention only",
+    "Raises bicarbonate",
+    "Raises PaCO2",
+    "Lowers bicarbonate"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A patient with diabetic ketoacidosis breathes deeply and fast. This is:",
+   "options": [
+    "Normal breathing",
+    "Respiratory compensation of metabolic acidosis",
+    "Respiratory acidosis",
+    "Metabolic alkalosis"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A patient with severe COPD retains CO2. The primary disorder is:",
+   "options": [
+    "Respiratory acidosis",
+    "Metabolic acidosis",
+    "Respiratory alkalosis",
+    "Metabolic alkalosis"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "An anxious patient hyperventilates. The expected disorder is:",
+   "options": [
+    "Respiratory alkalosis",
+    "Metabolic alkalosis",
+    "Metabolic acidosis",
+    "Respiratory acidosis"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Prolonged vomiting with loss of gastric acid tends to cause:",
+   "options": [
+    "Respiratory acidosis",
+    "Metabolic alkalosis",
+    "Metabolic acidosis",
+    "Respiratory alkalosis"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A raised anion gap metabolic acidosis suggests accumulation of:",
+   "options": [
+    "Bicarbonate",
+    "Unmeasured acids such as lactate or ketone bodies",
+    "Chloride",
+    "Sodium"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Acidosis causes hyperkalaemia because:",
+   "options": [
+    "Aldosterone rises",
+    "H+ enters cells in exchange for K+, and distal H+/K+ exchange",
+    "Sodium falls",
+    "K+ intake rises"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Severe acid-base imbalance can be:",
+   "options": [
+    "Corrected only by diet",
+    "Always harmless",
+    "Incompatible with life",
+    "Without effect on enzymes"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "pH 7.50, PaCO2 30 mmHg, HCO3− 23 mmol/L indicates:",
+   "options": [
+    "Acute respiratory alkalosis",
+    "Metabolic acidosis",
+    "Metabolic alkalosis",
+    "Respiratory acidosis"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "pH 7.48, HCO3− 32 mmol/L, PaCO2 46 mmHg indicates:",
+   "options": [
+    "Respiratory alkalosis",
+    "Mixed acidosis",
+    "Metabolic alkalosis with respiratory compensation",
+    "Respiratory acidosis"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "pH 7.25, PaCO2 60 mmHg, HCO3− 26 mmol/L indicates:",
+   "options": [
+    "Acute (uncompensated) respiratory acidosis",
+    "Metabolic acidosis",
+    "Respiratory alkalosis",
+    "Metabolic alkalosis"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "pH 7.20, HCO3− 12 mmol/L, PaCO2 25 mmHg indicates:",
+   "options": [
+    "Respiratory acidosis",
+    "Metabolic alkalosis",
+    "Metabolic acidosis with respiratory compensation",
+    "Respiratory alkalosis"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A low pH with both high PaCO2 and low HCO3− is:",
+   "options": [
+    "Normal",
+    "A pure metabolic alkalosis",
+    "A compensated alkalosis",
+    "A mixed acidosis"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The renal threshold above which bicarbonate is excreted is:",
+   "options": [
+    "28 mmol/L",
+    "40 mmol/L",
+    "12 mmol/L",
+    "22 mmol/L"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Ammonium accounts for about what share of renal H+ excretion?",
+   "options": [
+    "One third",
+    "All",
+    "Two thirds",
+    "10%"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Plasma proteins act as buffers because they are:",
+   "options": [
+    "Neutral",
+    "Weak acids (proteinate)",
+    "Strong acids",
+    "Strong bases"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In newborns, blood gases are often measured on:",
+   "options": [
+    "Venous cord blood only",
+    "Urine",
+    "Saliva",
+    "Capillary blood"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Air bubbles in a blood gas syringe would:",
+   "options": [
+    "Distort PaO2 and PaCO2 because the sample is no longer anaerobic",
+    "Raise haemoglobin",
+    "Have no effect",
+    "Lower potassium only"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The bicarbonate buffer is controlled by ventilation because:",
+   "options": [
+    "It is intracellular",
+    "Bicarbonate is exhaled",
+    "Its acid form is in equilibrium with CO2, eliminated by the lungs",
+    "The lungs make bicarbonate"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Phosphate excreted as NaH2PO4 represents:",
+   "options": [
+    "Bicarbonate",
+    "Ammonium",
+    "Free H+",
+    "Titratable acidity"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Ketone bodies are measured in acid-base exploration because they are:",
+   "options": [
+    "Volatile acids",
+    "Buffers",
+    "Fixed organic acids",
+    "Bases"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The lung's limited capacity means that in metabolic acidosis:",
+   "options": [
+    "pH always normalises fully",
+    "PaCO2 cannot fall indefinitely and compensation is partial",
+    "Kidneys are not needed",
+    "Bicarbonate rises"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "pH 7.40 exactly with high HCO3− and high PaCO2 could be:",
+   "options": [
+    "Pure metabolic acidosis",
+    "Normal values",
+    "Pure respiratory alkalosis",
+    "A compensated (or mixed) disorder"
+   ],
+   "answer": 3,
+   "why": "Always look at PaCO2 and bicarbonate, not just pH.",
+   "x": 1
+  },
+  {
+   "q": "The PaCO2 normal range is:",
+   "options": [
+    "22 to 26 mmHg",
+    "4.4 to 7.4 mmHg",
+    "37 to 43 mmHg",
+    "75 to 100 mmHg"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Ammoniagenesis increases in acidosis to:",
+   "options": [
+    "Lower potassium",
+    "Lower bicarbonate",
+    "Raise pH by retaining H+",
+    "Excrete more H+ and regenerate bicarbonate"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Respiratory acidosis is caused by:",
+   "options": [
+    "Hypoventilation with CO2 retention",
+    "Hyperventilation",
+    "Vomiting",
+    "Diarrhoea"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Diarrhoea with bicarbonate loss tends to cause:",
+   "options": [
+    "Metabolic alkalosis",
+    "Respiratory acidosis",
+    "Respiratory alkalosis",
+    "Metabolic acidosis"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
   }
  ],
  "cards": [
@@ -28329,6 +31485,230 @@ SINA.lectures["biochem-thyroid"] = {
     "T3 half-life is about one day.",
     "Better compliance.",
     "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Thyroid peroxidase (TPO) acts at:",
+   "options": [
+    "Iodination of tyrosines and coupling of MIT/DIT",
+    "Peripheral conversion of T4 to T3",
+    "Release of hormones from thyroglobulin",
+    "Iodide oxidation"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "Deiodinase.",
+    "Lysosomal enzymes.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "TSH stimulates the synthesis of:",
+   "options": [
+    "Reverse T3 only",
+    "Thyroglobulin",
+    "Thyroperoxidase",
+    "TBG in the liver"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A goitre in central hyperthyroidism (TSH-secreting adenoma) is explained by:",
+   "options": [
+    "Permanent TSH stimulation of the thyroid",
+    "Iodine deficiency",
+    "Low TSH",
+    "Antibodies against thyroglobulin"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A toxic adenoma (nodular goitre) is:",
+   "options": [
+    "A localised enlargement with warm nodules",
+    "A cause of hypothyroidism",
+    "More common in women",
+    "Always malignant"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Hyperthyroidism of pregnancy disappears:",
+   "options": [
+    "Never",
+    "Only after thyroidectomy",
+    "At the end of pregnancy when hCG falls",
+    "When TSH rises"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A thyroid work-up should be done far from an iodinated contrast injection because:",
+   "options": [
+    "It is not necessary",
+    "Contrast destroys TBG",
+    "Contrast lowers TSH permanently",
+    "The iodine in the product disturbs the results"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A patient on amiodarone who is euthyroid should have a thyroid check-up:",
+   "options": [
+    "Every 6 months",
+    "Only once",
+    "Every week",
+    "Never"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Post-surgical or post-radiotherapy hypothyroidism results from:",
+   "options": [
+    "Excess iodine",
+    "High TSH receptor sensitivity",
+    "Removal or destruction of thyroid tissue",
+    "hCG"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A mutation making the TSH receptor insensitive to TSH causes:",
+   "options": [
+    "No change",
+    "Hyperthyroidism",
+    "Goitre with hyperthyroidism",
+    "Hypothyroidism"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "FT4 allows:",
+   "options": [
+    "Direct measurement of the active free fraction",
+    "Identification of Hashimoto's disease",
+    "Location of the cause as central or peripheral",
+    "Positive diagnosis of hyper- or hypothyroidism"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "Antibodies do.",
+    "That is TSH.",
     ""
    ],
    "multi": true,
