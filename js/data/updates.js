@@ -11,6 +11,8 @@ SINA.updates = [
     "Added: study reminders (Settings > Reminders): one notification a day for reviews due or daily practice.",
     "Added: reports can include a picture.",
     "Added: past papers flag questions on lectures outside the next midterm, with an Only midterm questions button.",
+    "Changed: Insulin and Steroid hormones slides replaced with the 2026-2027 versions (same content).",
+    "Fixed: sideways scrolling on phones for lecture tables, previous/next links and past paper lists.",
     "Fixed: wording of the alkaline phosphatase and Graves' disease questions in Clinical Biochemistry.",
   ]},
   { date: "1 November 2026", items: [
