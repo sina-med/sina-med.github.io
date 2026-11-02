@@ -12,6 +12,8 @@ SINA.updates = [
     "Added: reports can include a picture.",
     "Added: past papers flag questions on lectures outside the next midterm, with an Only midterm questions button.",
     "Changed: Insulin and Steroid hormones slides replaced with the 2026-2027 versions (same content).",
+    "Fixed: lists that stayed half invisible after a fast scroll (fade-in on scroll), mostly on the 1st year home page.",
+    "Fixed: the Start bar of the Questions tab floating over the lecture list on iPad.",
     "Fixed: sideways scrolling on phones for lecture tables, previous/next links and past paper lists.",
     "Fixed: wording of the alkaline phosphatase and Graves' disease questions in Clinical Biochemistry.",
   ]},

@@ -2492,13 +2492,28 @@
     setTimeout(function () { box.remove(); }, 2600);
   }
   function revealOnScroll(els) {
-    if (REDUCE || !("IntersectionObserver" in window) || !els.length) return;
-    var io = new IntersectionObserver(function (entries) {
-      var k = 0;
-      entries.forEach(function (en) { if (en.isIntersecting) { en.target.style.setProperty("--rd", (k++ * 0.06) + "s"); en.target.classList.add("in"); io.unobserve(en.target); } });
-    }, { rootMargin: "0px 0px -6% 0px" });
-    els.forEach(function (el) { el.classList.add("reveal"); io.observe(el); });
+    if (REDUCE || !els.length) return;
+    /* items fade in as they come near the screen; anything already above the screen (a fast flick or a jump)
+       is shown at once, so a list can never stay half invisible */
+    var pending = [].slice.call(els), ticking = false;
+    pending.forEach(function (el) { el.classList.add("reveal"); });
+    function check() {
+      ticking = false;
+      var lim = window.innerHeight * 1.25, k = 0;
+      pending = pending.filter(function (el) {
+        if (!document.body.contains(el)) return false;
+        var r = el.getBoundingClientRect();
+        if (r.top < lim) { el.style.setProperty("--rd", (r.bottom > 0 ? Math.min(k++ * 0.04, 0.12) : 0) + "s"); el.classList.add("in"); return false; }
+        return true;
+      });
+      if (!pending.length) { window.removeEventListener("scroll", onScroll); window.removeEventListener("resize", onScroll); }
+    }
+    function onScroll() { if (!ticking) { ticking = true; requestAnimationFrame(check); } }
+    window.addEventListener("scroll", onScroll, { passive: true }); window.addEventListener("resize", onScroll);
+    requestAnimationFrame(check);
+    setTimeout(function () { pending.forEach(function (el) { el.classList.add("in"); }); pending = []; }, 4000);
   }
+
 
   /* ---------- leaderboard (best exam-mode score per nickname and past paper) ---------- */
   function lbDevice() { var d = store.get("sina:dev", ""); if (!d) { d = Math.random().toString(36).slice(2, 12); store.set("sina:dev", d); } return d; }
@@ -2735,6 +2750,8 @@
     if (t) store.set("sina:last", { h: h, t: t });
   }
   function route() {
+    /* never leave the page locked after an overlay (menu, slide viewer, report box, welcome) has gone */
+    if (!isOpen() && !svOpen && !document.querySelector(".rdlg") && !document.querySelector("#welcome:not([hidden]):not(.leaving)")) document.body.classList.remove("noscroll");
     setTimeout(function () { rememberPlace(); updateNewsDot(); }, 0);
     var parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
     if (parts[0] !== "year") setTimeout(trackView, 0);
