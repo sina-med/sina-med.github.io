@@ -2,7 +2,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 /* Leaderboard and mistake reports: the Apps Script web app URL of the "Sina – Leaderboard" Sheet. Empty = off. */
 SINA.api = "https://script.google.com/macros/s/AKfycbxek7OqdfLJCTbgM3qpqrzZt5kYJBaVh2Ryw-pLVJ0Zt-sQDqfsOag6KMI0uYmdKZZdLg/exec";
-/* turned on once the new Apps Script is deployed */ SINA.vapidOff = "BDVJdAFNPUErbVHrCi9mN6ciOLVDYXXpKJCe_cUyVBqR3MdKjHLwacGv9nmSQ5E8KjGQMTN5GMG0xp7iifR93DE";
+SINA.vapid = "BDVJdAFNPUErbVHrCi9mN6ciOLVDYXXpKJCe_cUyVBqR3MdKjHLwacGv9nmSQ5E8KjGQMTN5GMG0xp7iifR93DE";
 
 SINA.apps = [
   { title: "Kenhub", url: "https://www.kenhub.com/", kind: "App and site", why: "Atlas, articles and quizzes built around anatomy exams. Free tier, paid for the full quiz banks." },

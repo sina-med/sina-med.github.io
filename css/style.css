@@ -1463,3 +1463,7 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .rdlg-box textarea { width: 100%; box-sizing: border-box; padding: .6rem .7rem; border: 1px solid var(--line-strong); border-radius: 10px; background: var(--bg); color: var(--ink); font: inherit; resize: vertical; }
 .rdlg-pic { display: flex; align-items: center; gap: .6rem; margin: .7rem 0; flex-wrap: wrap; }
 #rd-prev { max-width: 100%; max-height: 200px; border-radius: 8px; border: 1px solid var(--line); margin-bottom: .6rem; }
+
+.upd-bar { position: fixed; left: 50%; bottom: 16px; transform: translateX(-50%); z-index: 95; display: flex; align-items: center; gap: .7rem; padding: .55rem .6rem .55rem 1rem; border-radius: 999px; background: var(--ink); color: var(--bg); box-shadow: 0 8px 28px rgba(0,0,0,.25); max-width: calc(100% - 32px); font-weight: 600; }
+.upd-bar .btn { padding: .35rem .9rem; }
+.upd-x { background: none; border: 0; color: inherit; font-size: 1.3rem; line-height: 1; cursor: pointer; padding: 0 .3rem; }

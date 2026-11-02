@@ -2827,6 +2827,24 @@
   route();
 
   if ("serviceWorker" in navigator && /^https?:/.test(location.protocol)) {
-    window.addEventListener("load", function () { navigator.serviceWorker.register("sw.js").then(function () { setTimeout(remindSync, 3000); }).catch(function () {}); });
+    window.addEventListener("load", function () {
+      var hadSW = !!navigator.serviceWorker.controller;
+      navigator.serviceWorker.register("sw.js").then(function (reg) {
+        setTimeout(remindSync, 3000);
+        /* look for a new version when the page comes back to the front, and every 20 minutes */
+        document.addEventListener("visibilitychange", function () { if (!document.hidden) reg.update().catch(function () {}); });
+        setInterval(function () { reg.update().catch(function () {}); }, 20 * 60 * 1000);
+      }).catch(function () {});
+      /* a new version took over: offer a refresh (never forced, so a quiz in progress is not lost) */
+      navigator.serviceWorker.addEventListener("controllerchange", function () {
+        if (!hadSW) { hadSW = true; return; }
+        if (document.getElementById("upd-bar")) return;
+        var b = document.createElement("div"); b.id = "upd-bar"; b.className = "upd-bar"; b.setAttribute("role", "status");
+        b.innerHTML = '<span>Sina was updated.</span><button type="button" class="btn small primary">Refresh</button><button type="button" class="upd-x" aria-label="Later">&times;</button>';
+        b.querySelector(".btn").onclick = function () { location.reload(); };
+        b.querySelector(".upd-x").onclick = function () { b.remove(); };
+        document.body.appendChild(b);
+      });
+    });
   }
 })();
