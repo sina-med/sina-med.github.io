@@ -8662,6 +8662,1026 @@ SINA.lectures["biochem-hepatic"] = {
      "n": 26
     }
    ]
+  },
+  {
+   "q": "Blood tests of the liver are useful mainly because they are:",
+   "options": [
+    "Highly specific for the liver",
+    "Only used in children",
+    "Non-invasive compared with liver biopsy",
+    "Only used after biopsy"
+   ],
+   "answer": 2,
+   "why": "They are sensitive but not specific.",
+   "x": 1
+  },
+  {
+   "q": "Liver biochemical tests are generally:",
+   "options": [
+    "Sensitive but non-specific",
+    "Specific but insensitive",
+    "Only useful at a late stage",
+    "Neither sensitive nor specific"
+   ],
+   "answer": 0,
+   "why": "They change early but can be abnormal in non-hepatic disease.",
+   "x": 1
+  },
+  {
+   "q": "The degree of variation of liver tests allows us to:",
+   "options": [
+    "Replace imaging",
+    "Identify the virus",
+    "Measure liver weight",
+    "Assess the degree of liver damage"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The liver weighs about:",
+   "options": [
+    "1.5 kg",
+    "3 kg",
+    "500 g",
+    "150 g"
+   ],
+   "answer": 0,
+   "why": "It is the largest organ, in the right sub-diaphragmatic space.",
+   "x": 1
+  },
+  {
+   "q": "Total afferent blood flow to the liver is about:",
+   "options": [
+    "5000 mL/min",
+    "500 mL/min",
+    "1500 mL/min",
+    "150 mL/min"
+   ],
+   "answer": 2,
+   "why": "75% portal vein, 25% hepatic artery.",
+   "x": 1
+  },
+  {
+   "q": "The hepatic artery supplies about what share of liver blood flow?",
+   "options": [
+    "50%",
+    "10%",
+    "25%",
+    "75%"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Efferent blood leaves the liver through:",
+   "options": [
+    "The supra-hepatic (hepatic) veins to the inferior vena cava",
+    "The portal vein",
+    "The common bile duct",
+    "The hepatic artery"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In the hepatic lobule, blood flows:",
+   "options": [
+    "From the centrilobular vein to the portal space",
+    "From the portal space between hepatocyte plates to the centrilobular vein",
+    "Directly into the bile duct",
+    "Only through bile canaliculi"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Bile flows in the lobule:",
+   "options": [
+    "Into the hepatic artery",
+    "Towards the centrilobular vein",
+    "Into the lymphatics only",
+    "Through bile canaliculi towards the bile duct in the portal space"
+   ],
+   "answer": 3,
+   "why": "Opposite direction to blood.",
+   "x": 1
+  },
+  {
+   "q": "The common bile duct is formed by the union of:",
+   "options": [
+    "The right and left hepatic ducts",
+    "The cystic duct and duodenum",
+    "The pancreatic duct and cystic duct",
+    "The common hepatic duct and the cystic duct"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The common bile duct passes through:",
+   "options": [
+    "The stomach",
+    "The tail of the pancreas",
+    "The head of the pancreas",
+    "The spleen"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Bile enters the duodenum through:",
+   "options": [
+    "The pylorus",
+    "The third duodenum",
+    "The jejunum",
+    "The ampulla of Vater in the second duodenum"
+   ],
+   "answer": 3,
+   "why": "With the pancreatic duct, surrounded by the sphincter of Oddi.",
+   "x": 1
+  },
+  {
+   "q": "The function specific to the liver is:",
+   "options": [
+    "Drug elimination",
+    "Glycolysis",
+    "Protein synthesis",
+    "Synthesis and excretion of bile"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The urea cycle transforms:",
+   "options": [
+    "Glucose into glycogen",
+    "Bilirubin into urobilinogen",
+    "Urea into ammonia",
+    "Toxic ammonia into non-toxic urea"
+   ],
+   "answer": 3,
+   "why": "Urea is eliminated by the kidney.",
+   "x": 1
+  },
+  {
+   "q": "Iron is stored in the liver as:",
+   "options": [
+    "Ferritin",
+    "Haemoglobin",
+    "Ceruloplasmin",
+    "Transferrin"
+   ],
+   "answer": 0,
+   "why": "Transferrin transports iron.",
+   "x": 1
+  },
+  {
+   "q": "The most abundant protein in blood, synthesised by the liver, is:",
+   "options": [
+    "Albumin",
+    "Fibrinogen",
+    "Transferrin",
+    "Ceruloplasmin"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Fibrinogen is also called:",
+   "options": [
+    "Factor VII",
+    "Factor II",
+    "Factor X",
+    "Factor I"
+   ],
+   "answer": 3,
+   "why": "Prothrombin is factor II.",
+   "x": 1
+  },
+  {
+   "q": "Free (unconjugated) bilirubin comes from:",
+   "options": [
+    "The kidney",
+    "The intestine",
+    "Lysis of senescent red cells in the reticuloendothelial system",
+    "The liver directly"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Free bilirubin is toxic mainly to:",
+   "options": [
+    "The brain",
+    "The kidney",
+    "The skin",
+    "The bone"
+   ],
+   "answer": 0,
+   "why": "Because it is liposoluble.",
+   "x": 1
+  },
+  {
+   "q": "The liver conjugates bilirubin with:",
+   "options": [
+    "Glycine",
+    "Glucuronic acid",
+    "Taurine",
+    "Sulfuric acid"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In the intestine, conjugated bilirubin is mainly transformed into:",
+   "options": [
+    "Urobilinogen eliminated in stool",
+    "Free bilirubin",
+    "Stercobilinogen, eliminated in stool",
+    "Bile acids"
+   ],
+   "answer": 2,
+   "why": "A small part is reabsorbed; some leaves in urine as urobilinogen.",
+   "x": 1
+  },
+  {
+   "q": "The daily volume of bile is about:",
+   "options": [
+    "1 litre",
+    "100 mL",
+    "5 litres",
+    "10 mL"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Between meals, bile:",
+   "options": [
+    "Is destroyed",
+    "Is reabsorbed by the stomach",
+    "Flows continuously into the duodenum",
+    "Is stored in the gallbladder with the sphincter of Oddi closed"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The hormone that triggers gallbladder contraction is:",
+   "options": [
+    "Insulin",
+    "Gastrin",
+    "Secretin",
+    "Cholecystokinin (CCK)"
+   ],
+   "answer": 3,
+   "why": "Secreted by the lining of the small intestine.",
+   "x": 1
+  },
+  {
+   "q": "The pH of bile is:",
+   "options": [
+    "Very basic, 11",
+    "Basic, 7.6 to 8.6",
+    "Neutral exactly 7",
+    "Acid, 2 to 3"
+   ],
+   "answer": 1,
+   "why": "It is iso-osmotic, greenish yellow.",
+   "x": 1
+  },
+  {
+   "q": "Bile helps digestion by:",
+   "options": [
+    "Producing insulin",
+    "Digesting proteins",
+    "Absorbing glucose",
+    "Neutralising acid chyme and forming micelles for fat digestion"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Bile acids are derived from:",
+   "options": [
+    "Albumin",
+    "Bilirubin",
+    "Cholesterol",
+    "Haemoglobin"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Conjugated bile acids are formed by combining primary bile acids with:",
+   "options": [
+    "Glucuronic acid",
+    "Taurine and glycine",
+    "Sulfuric acid",
+    "Iron"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Secondary bile acids are produced by:",
+   "options": [
+    "Intestinal bacteria",
+    "Hepatocytes",
+    "The pancreas",
+    "The gallbladder"
+   ],
+   "answer": 0,
+   "why": "Bile acids return to the liver by the enterohepatic cycle.",
+   "x": 1
+  },
+  {
+   "q": "Causes of liver disease listed in the lecture include:",
+   "options": [
+    "Asthma",
+    "Hypothyroidism only",
+    "Viral or toxic hepatitis and alcoholic cirrhosis",
+    "Anaemia only"
+   ],
+   "answer": 2,
+   "why": "Also bile duct obstruction and genetic enzyme deficiencies.",
+   "x": 1
+  },
+  {
+   "q": "Cytolysis syndrome results in:",
+   "options": [
+    "High ammonia only",
+    "Passage of intracellular hepatocyte enzymes into blood",
+    "Bile retention",
+    "Low albumin only"
+   ],
+   "answer": 1,
+   "why": "Preceded by increased hepatocyte permeability.",
+   "x": 1
+  },
+  {
+   "q": "Hepatocellular insufficiency syndrome includes:",
+   "options": [
+    "Only high transaminases",
+    "Only high ALP",
+    "Reduced synthesis of albumin and clotting factors",
+    "Increased bile flow"
+   ],
+   "answer": 2,
+   "why": "Also hyperammonaemia and reduced drug metabolism.",
+   "x": 1
+  },
+  {
+   "q": "Parameters of the cytolysis syndrome are:",
+   "options": [
+    "AFP and ceruloplasmin",
+    "ALP, GGT and bilirubin",
+    "AST, ALT and LDH",
+    "Ammonium, albumin, clotting factors"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Parameters of the cholestasis syndrome are:",
+   "options": [
+    "ALP, GGT and bilirubin",
+    "AST and ALT",
+    "LDH only",
+    "Albumin and ammonium"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Parameters of hepatocellular insufficiency are:",
+   "options": [
+    "ALP and GGT",
+    "Ammonium, albumin and coagulation factors",
+    "AST and ALT",
+    "AFP"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "AST is mainly located in:",
+   "options": [
+    "Red cells only",
+    "Bone",
+    "The liver only",
+    "Heart and muscle, so it is not liver-specific"
+   ],
+   "answer": 3,
+   "why": "ALT is more liver-specific.",
+   "x": 1
+  },
+  {
+   "q": "The upper reference value for transaminases in women is:",
+   "options": [
+    "45 IU/L",
+    "430 IU/L",
+    "50 IU/L",
+    "35 IU/L"
+   ],
+   "answer": 3,
+   "why": "Men: under 45 IU/L.",
+   "x": 1
+  },
+  {
+   "q": "AST alone increases with:",
+   "options": [
+    "Fasting",
+    "Exercise, age and weight",
+    "Contraceptives only",
+    "Hypothyroidism"
+   ],
+   "answer": 1,
+   "why": "Alcohol and some drugs raise both transaminases.",
+   "x": 1
+  },
+  {
+   "q": "Drugs cited as raising both transaminases include:",
+   "options": [
+    "Vitamin D",
+    "Contraceptives and antiepileptics",
+    "Iron",
+    "Insulin"
+   ],
+   "answer": 1,
+   "why": "Alcohol too.",
+   "x": 1
+  },
+  {
+   "q": "Moderate transaminase increases are typical of:",
+   "options": [
+    "Toxic hepatitis",
+    "Ischaemic hepatitis",
+    "Chronic hepatitis and cholestasis",
+    "Acute viral hepatitis"
+   ],
+   "answer": 2,
+   "why": "Large increases occur in acute hepatitis.",
+   "x": 1
+  },
+  {
+   "q": "An isolated rise of AST without ALT suggests:",
+   "options": [
+    "An extra-hepatic disorder such as myocardial infarction or muscle damage",
+    "Cholestasis",
+    "Acute viral hepatitis",
+    "Wilson's disease"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "LDH is:",
+   "options": [
+    "A cytoplasmic enzyme present in many tissues",
+    "A plasma protein made only by the liver",
+    "A liver-specific enzyme",
+    "A membrane enzyme of bile ducts"
+   ],
+   "answer": 0,
+   "why": "So its interest for the liver is limited.",
+   "x": 1
+  },
+  {
+   "q": "The LDH isoenzyme most abundant in the heart is:",
+   "options": [
+    "LDH3",
+    "LDH1",
+    "LDH5",
+    "LDH4"
+   ],
+   "answer": 1,
+   "why": "LDH2 in red cells, LDH5 in liver.",
+   "x": 1
+  },
+  {
+   "q": "The LDH isoenzyme of red blood cells is:",
+   "options": [
+    "LDH1",
+    "LDH4",
+    "LDH2",
+    "LDH5"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "LDH isoenzymes are rarely studied in practice because:",
+   "options": [
+    "They are identical",
+    "They cannot be measured",
+    "Clinical signs and imaging guide the diagnosis better",
+    "They are too specific"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Adult reference values of LDH are:",
+   "options": [
+    "35 to 50 IU/L",
+    "Under 30 IU/L",
+    "190 to 430 IU/L",
+    "3.4 to 17.1 IU/L"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Cholestasis is defined as:",
+   "options": [
+    "Excess bile production",
+    "Low albumin",
+    "Decreased or stopped bile secretion into the gut, with bile flowing back into blood",
+    "Destruction of hepatocytes"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "An extrahepatic cause of cholestasis is:",
+   "options": [
+    "Cirrhosis",
+    "Liver metastases",
+    "Hepatitis",
+    "Gallstones in the bile duct"
+   ],
+   "answer": 3,
+   "why": "Cancer of the bile ducts or pancreatic head too.",
+   "x": 1
+  },
+  {
+   "q": "An intrahepatic cause of cholestasis is:",
+   "options": [
+    "Cirrhosis",
+    "Cancer of the pancreatic head",
+    "Bile duct cancer",
+    "Gallstones"
+   ],
+   "answer": 0,
+   "why": "Also hepatitis and liver metastases.",
+   "x": 1
+  },
+  {
+   "q": "Steatorrhoea in cholestasis is due to:",
+   "options": [
+    "Fat malabsorption from lack of bile acids in the gut",
+    "Infection",
+    "Excess lipase",
+    "Excess bilirubin in the gut"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Bleeding tendency in cholestasis comes from malabsorption of:",
+   "options": [
+    "Vitamin C",
+    "Vitamin K",
+    "Vitamin B12",
+    "Iron"
+   ],
+   "answer": 1,
+   "why": "Fat-soluble vitamins A, D, E, K are malabsorbed.",
+   "x": 1
+  },
+  {
+   "q": "Pale (discoloured) stools in cholestasis are due to:",
+   "options": [
+    "Excess fat",
+    "Lack of bilirubin in the gut",
+    "Blood loss",
+    "Excess bile acids"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In cholestasis, plasma cholesterol can:",
+   "options": [
+    "Fall to zero",
+    "Stay unchanged always",
+    "Fall by half",
+    "Double"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "ALP and GGT are located:",
+   "options": [
+    "In bile only",
+    "In the cytoplasm of red cells",
+    "In mitochondria only",
+    "On the plasma membrane of hepatocytes and cholangiocytes"
+   ],
+   "answer": 3,
+   "why": "Membrane enzymes.",
+   "x": 1
+  },
+  {
+   "q": "Raised ALP helps diagnose:",
+   "options": [
+    "Cholestasis, bone diseases and some liver cancers",
+    "Only viral hepatitis",
+    "Only anaemia",
+    "Only heart disease"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In children and adolescents, the bone fraction of ALP can represent up to:",
+   "options": [
+    "50%",
+    "10%",
+    "90% of total ALP",
+    "25%"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In pregnancy, ALP rises from about:",
+   "options": [
+    "The 20th week until term, normalising 2-3 weeks after delivery",
+    "The 40th week only",
+    "The 1st week",
+    "Only after delivery"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Compared by sex, ALP is:",
+   "options": [
+    "Identical",
+    "Higher in women after 50 only",
+    "Higher in men, a difference that fades with age",
+    "Higher in women"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "During fracture consolidation, ALP rises for about:",
+   "options": [
+    "4 hours",
+    "4 days",
+    "40 days",
+    "1 year"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Circulating GGT is of:",
+   "options": [
+    "Muscle origin",
+    "Bone origin",
+    "Red cell origin",
+    "Hepatic origin"
+   ],
+   "answer": 3,
+   "why": "It is 100 times more concentrated in bile than in serum.",
+   "x": 1
+  },
+  {
+   "q": "A GGT sample should be taken:",
+   "options": [
+    "Exposed to light",
+    "With a tight tourniquet",
+    "After a meal",
+    "On an empty stomach, avoiding haemolysis"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Upper reference values of GGT are:",
+   "options": [
+    "Under 30 in men, 50 in women",
+    "Under 430 IU/L",
+    "Under 5 IU/L",
+    "Under 50 IU/L in men and under 30 IU/L in women"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In newborns, GGT is about:",
+   "options": [
+    "Equal to adults",
+    "7 to 8 times the adult value",
+    "Half the adult value",
+    "Undetectable"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Drugs that raise GGT include:",
+   "options": [
+    "Insulin",
+    "Iron",
+    "Phenobarbital and paracetamol",
+    "Vitamin K"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Extra-hepatic causes of raised GGT include:",
+   "options": [
+    "Anaemia only",
+    "Pancreatic disorders, diabetes, heart and kidney failure",
+    "Fractures",
+    "Pregnancy only"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Conjugated (direct) bilirubin is:",
+   "options": [
+    "The toxic liposoluble form",
+    "Made in the spleen",
+    "Made in the liver by conjugation with glucuronic acid",
+    "Total minus free bilirubin"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Unconjugated bilirubin is calculated as:",
+   "options": [
+    "Total bilirubin minus conjugated bilirubin",
+    "Total plus conjugated",
+    "Conjugated times two",
+    "Measured only in urine"
+   ],
+   "answer": 0,
+   "why": "Normal 2-8 mg/L.",
+   "x": 1
+  },
+  {
+   "q": "The reference value of conjugated bilirubin is:",
+   "options": [
+    "3.4 to 17.1 µmol/L",
+    "35 to 50 g/L",
+    "30 to 50 µmol/L",
+    "0 to 3.4 µmol/L (0-2 mg/L)"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Jaundice appears on the skin when total bilirubin exceeds:",
+   "options": [
+    "50 µmol/L",
+    "30 µmol/L",
+    "17 µmol/L",
+    "100 µmol/L"
+   ],
+   "answer": 0,
+   "why": "Conjunctiva first, above 30 µmol/L.",
+   "x": 1
+  },
+  {
+   "q": "Conjugated hyperbilirubinaemia is caused by:",
+   "options": [
+    "Neonatal physiological jaundice",
+    "Haemolysis",
+    "Bile duct obstruction (lithiasis or cirrhosis)",
+    "Fasting"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Neonatal jaundice with conjugated or mixed bilirubin:",
+   "options": [
+    "Represents less than 1% of neonatal jaundice but is often severe",
+    "Never needs investigation",
+    "Is the most frequent form",
+    "Is always benign"
+   ],
+   "answer": 0,
+   "why": "Causes: neonatal hepatitis, bile duct atresia.",
+   "x": 1
+  },
+  {
+   "q": "At physiological pH, blood ammonia is mainly in the form of:",
+   "options": [
+    "Free NH3 (98%)",
+    "Urea",
+    "Ammonium NH4+ (98%)",
+    "Glutamate"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Part of blood ammonium is produced by:",
+   "options": [
+    "The lungs",
+    "The thyroid",
+    "Intestinal bacteria from dietary proteins",
+    "Red cells"
+   ],
+   "answer": 2,
+   "why": "Absorbed into the portal vein.",
+   "x": 1
+  },
+  {
+   "q": "Ammonium is eliminated:",
+   "options": [
+    "By the spleen",
+    "By the skin",
+    "Exclusively by the liver, as urea",
+    "By the lungs"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The reference value of ammonaemia is:",
+   "options": [
+    "190 to 430 IU/L",
+    "0.3 to 0.7 mg/L",
+    "2 to 10 mg/L",
+    "35 to 50 g/L"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A hereditary cause of hyperammonaemia is:",
+   "options": [
+    "A deficiency of a urea-cycle enzyme",
+    "Gallstones",
+    "Hypothyroidism",
+    "Cholestasis"
+   ],
+   "answer": 0,
+   "why": "The acquired cause is severe liver failure.",
+   "x": 1
+  },
+  {
+   "q": "Albumin represents about what share of total plasma proteins?",
+   "options": [
+    "20%",
+    "5%",
+    "40 to 60%",
+    "90%"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Biological roles of albumin include:",
+   "options": [
+    "Copper transport only",
+    "Oncotic pressure, amino acid reserve and transport",
+    "Oxygen transport",
+    "Clotting"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Prothrombin time is prolonged in cholestasis because:",
+   "options": [
+    "Vitamin K is not reabsorbed in the gut",
+    "Ammonia rises",
+    "Bile acids destroy factors",
+    "Albumin rises"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Prothrombin complex factors made by the liver are:",
+   "options": [
+    "I and III",
+    "XII and XIII",
+    "VIII and IX",
+    "II, V, VII and X"
+   ],
+   "answer": 3,
+   "why": "Also factor XI.",
+   "x": 1
+  },
+  {
+   "q": "Alpha-fetoprotein is:",
+   "options": [
+    "A coagulation factor",
+    "The main plasma protein of fetal life, falling after birth",
+    "A copper transporter",
+    "An adult liver enzyme"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Alpha-fetoprotein dosage is indicated for:",
+   "options": [
+    "Screening cirrhosis or chronic hepatitis patients for hepatocellular carcinoma",
+    "Diagnosing gallstones",
+    "Monitoring diabetes",
+    "Diagnosing anaemia"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Alpha-1-antitrypsin deficiency:",
+   "options": [
+    "Is caused by alcohol",
+    "Raises copper",
+    "Is hereditary and can progress to cirrhosis",
+    "Causes gallstones"
+   ],
+   "answer": 2,
+   "why": "Loss of hepatic elasticity.",
+   "x": 1
+  },
+  {
+   "q": "Ceruloplasmin:",
+   "options": [
+    "Is made by the kidney",
+    "Is a liver enzyme of cytolysis",
+    "Transports copper and is an acute-phase protein",
+    "Transports iron"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Serum ceruloplasmin collapses in:",
+   "options": [
+    "Pregnancy",
+    "Cholestasis only",
+    "Hepatocellular carcinoma",
+    "Wilson's disease and liver failure"
+   ],
+   "answer": 3,
+   "why": "Wilson's disease causes tissue copper accumulation.",
+   "x": 1
   }
  ],
  "cards": [
@@ -12205,6 +13225,1002 @@ SINA.lectures["biochem-cardiac"] = {
      "n": 7
     }
    ]
+  },
+  {
+   "q": "The two cardiac conditions explored by biochemical markers that pose a public health problem in adults are:",
+   "options": [
+    "Hypertension and anaemia",
+    "Arrhythmia and valve disease",
+    "Acute coronary syndrome and chronic heart failure",
+    "Pericarditis and endocarditis"
+   ],
+   "answer": 2,
+   "why": "One acute, one chronic.",
+   "x": 1
+  },
+  {
+   "q": "Acute coronary syndrome results from:",
+   "options": [
+    "Pericardial effusion",
+    "Anaemia",
+    "Narrowing or obstruction of a coronary vessel wall",
+    "Valve calcification"
+   ],
+   "answer": 2,
+   "why": "It can threaten life shortly after chest pain.",
+   "x": 1
+  },
+  {
+   "q": "Chronic heart failure evolves:",
+   "options": [
+    "Slowly and progressively ('low-noise')",
+    "In hours",
+    "Only in children",
+    "Suddenly with chest pain"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A 'prognostic' cardiac marker is used to:",
+   "options": [
+    "Diagnose heart failure",
+    "Measure cardiac output",
+    "Assess the risk of coronary heart disease",
+    "Diagnose acute infarction"
+   ],
+   "answer": 2,
+   "why": "CRPus in the lecture.",
+   "x": 1
+  },
+  {
+   "q": "The diagnosis of myocardial infarction combines troponin with:",
+   "options": [
+    "Raised ALT",
+    "Raised CRP",
+    "Chest pain and an abnormal ECG",
+    "Raised BNP"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "How many 'previous' (old) infarction markers are listed?",
+   "options": [
+    "3",
+    "2",
+    "7",
+    "5"
+   ],
+   "answer": 3,
+   "why": "Myoglobin, CPK, CK-MB, AST, LDH.",
+   "x": 1
+  },
+  {
+   "q": "Which is NOT one of the old infarction markers?",
+   "options": [
+    "Myoglobin",
+    "Troponin I",
+    "CK-MB",
+    "LDH"
+   ],
+   "answer": 1,
+   "why": "Troponins are the new markers.",
+   "x": 1
+  },
+  {
+   "q": "The old infarction markers are no longer used routinely because they are:",
+   "options": [
+    "Too expensive",
+    "Too specific",
+    "Not specific for myocardial infarction",
+    "Impossible to measure"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "AST, one of the old infarction markers, is also called:",
+   "options": [
+    "A natriuretic peptide",
+    "A troponin",
+    "An acute-phase protein",
+    "A transaminase"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "CPK stands for:",
+   "options": [
+    "Cytoplasmic pyruvate kinase",
+    "Creatine phosphokinase",
+    "C-peptide kinase",
+    "Cardiac protein kinase"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "With a high-sensitivity assay, troponin T or I rises after chest pain at:",
+   "options": [
+    "14 hours",
+    "48 hours",
+    "2 hours",
+    "4 hours"
+   ],
+   "answer": 2,
+   "why": "A classic assay detects it at 4 hours.",
+   "x": 1
+  },
+  {
+   "q": "With a classic (non-hypersensitive) troponin assay, the rise is detected at:",
+   "options": [
+    "2 hours",
+    "30 minutes",
+    "24 hours",
+    "4 hours"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The plasma peak of troponin occurs around:",
+   "options": [
+    "The 4th day",
+    "The 14th hour",
+    "The 2nd hour",
+    "The 10th day"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Cardiac troponin I stays elevated for:",
+   "options": [
+    "1 month",
+    "More than 10 days",
+    "6 hours",
+    "75 to 140 hours"
+   ],
+   "answer": 3,
+   "why": "cTnT stays more than 10 days.",
+   "x": 1
+  },
+  {
+   "q": "Cardiac troponin T stays elevated for:",
+   "options": [
+    "2 hours",
+    "24 hours",
+    "More than ten days",
+    "75 to 140 hours"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The long persistence of troponins allows:",
+   "options": [
+    "Measuring inflammation",
+    "Monitoring the evolution of the infarction",
+    "Diagnosing heart failure",
+    "Screening for liver disease"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Troponins are:",
+   "options": [
+    "Hormones made by the heart",
+    "Acute-phase proteins of the liver",
+    "Structural proteins of the myocyte contractile system",
+    "Enzymes of glycolysis"
+   ],
+   "answer": 2,
+   "why": "They regulate muscle activity.",
+   "x": 1
+  },
+  {
+   "q": "The three troponin subunits are:",
+   "options": [
+    "T, C and I",
+    "I, II and III",
+    "A, B and C",
+    "Alpha, beta and gamma"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Troponin T has:",
+   "options": [
+    "No cardiac isoform",
+    "Three isoforms",
+    "Two isoforms: one in striated muscle, one in myocardium (cTnT)",
+    "One isoform common to all muscles"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Troponin I has:",
+   "options": [
+    "Three tissue-specific isoforms including cardiac troponin I",
+    "One isoform",
+    "No cardiac isoform",
+    "Two isoforms"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Troponin C:",
+   "options": [
+    "Has a single isoform common to all striated muscles",
+    "Is the best infarction marker",
+    "Has three isoforms",
+    "Is cardiac-specific"
+   ],
+   "answer": 0,
+   "why": "So it is of no interest in cardiology.",
+   "x": 1
+  },
+  {
+   "q": "Troponin can rise without acute coronary syndrome in:",
+   "options": [
+    "Iron deficiency",
+    "Simple fasting",
+    "Hypothyroidism",
+    "Myocarditis"
+   ],
+   "answer": 3,
+   "why": "Also drug toxicity, chemotherapy, pericarditis, acute ventricular failure.",
+   "x": 1
+  },
+  {
+   "q": "Chemotherapy can raise troponin because it causes:",
+   "options": [
+    "Haemolysis",
+    "Liver failure",
+    "A non-ischaemic attack of the myocardium",
+    "Coronary obstruction"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Pericarditis can:",
+   "options": [
+    "Never change troponin",
+    "Raise only CK-MB",
+    "Lower troponin",
+    "Raise troponin without acute coronary syndrome"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The hypersensitive troponin test is useful because it:",
+   "options": [
+    "Is standardised between labs",
+    "Replaces the ECG",
+    "Detects very low concentrations early, from 2 hours",
+    "Measures troponin C"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A patient seen 1 hour after chest pain has a normal troponin. You should:",
+   "options": [
+    "Measure BNP instead",
+    "Repeat the test, since troponin rises from 2-4 hours",
+    "Measure CRP instead",
+    "Rule out infarction definitively"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Troponin assays are:",
+   "options": [
+    "Not standardised, so follow a patient in the same laboratory",
+    "Identical for T and C",
+    "Only qualitative",
+    "Fully standardised worldwide"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "BNP stands for:",
+   "options": [
+    "Blood nitrogen peptide",
+    "Basic neuropeptide",
+    "Brain nuclear protein",
+    "B-type natriuretic peptide"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "NT-proBNP is:",
+   "options": [
+    "A liver enzyme",
+    "An acute-phase protein",
+    "A troponin subunit",
+    "The N-terminal fraction of the BNP precursor"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "BNP and NT-proBNP come from the cleavage of:",
+   "options": [
+    "ProBNP",
+    "Troponin",
+    "CRP",
+    "Angiotensinogen"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "BNP and NT-proBNP are mainly secreted by:",
+   "options": [
+    "The liver",
+    "The adrenal gland",
+    "The kidney",
+    "Cardiomyocytes"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Natriuretic peptides have which effects?",
+   "options": [
+    "Pro-inflammatory",
+    "Diuretic, natriuretic and vasodilator",
+    "Vasoconstrictor and antidiuretic",
+    "Glycogenolytic"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Natriuretic peptides antagonise:",
+   "options": [
+    "The renin-angiotensin-aldosterone-vasopressin system",
+    "Insulin",
+    "Troponin",
+    "Thyroid hormones"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "BNP and NT-proBNP rise in heart failure because of:",
+   "options": [
+    "Haemolysis",
+    "Fluid overload and high blood pressure",
+    "Fasting",
+    "Liver failure only"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Besides heart failure, natriuretic peptides can rise in:",
+   "options": [
+    "Iron deficiency",
+    "Acute hepatitis only",
+    "Hypoglycaemia",
+    "Pulmonary or renal insufficiency and cirrhosis"
+   ],
+   "answer": 3,
+   "why": "Also endocrine diseases.",
+   "x": 1
+  },
+  {
+   "q": "BNP and NT-proBNP have:",
+   "options": [
+    "No diagnostic value",
+    "Value only for infarction",
+    "The same diagnostic value",
+    "Very different diagnostic values"
+   ],
+   "answer": 2,
+   "why": "But their use needs precautions.",
+   "x": 1
+  },
+  {
+   "q": "When following a heart-failure patient with natriuretic peptides, you should:",
+   "options": [
+    "Measure troponin instead",
+    "Always measure the same peptide in the same laboratory",
+    "Alternate BNP and NT-proBNP",
+    "Use any laboratory"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Natriuretic peptide concentrations physiologically:",
+   "options": [
+    "Decrease with age",
+    "Are lower in women",
+    "Increase with age",
+    "Do not vary"
+   ],
+   "answer": 2,
+   "why": "They are higher in women.",
+   "x": 1
+  },
+  {
+   "q": "Natriuretic peptides are inversely proportional to:",
+   "options": [
+    "Heart rate",
+    "Body mass index",
+    "Height",
+    "Age"
+   ],
+   "answer": 1,
+   "why": "They are lower in overweight people.",
+   "x": 1
+  },
+  {
+   "q": "An obese patient with heart failure may have a BNP that is:",
+   "options": [
+    "Lower than expected",
+    "Undetectable always",
+    "Unaffected by weight",
+    "Higher than expected"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "NT-proBNP results can be distorted in:",
+   "options": [
+    "Hypothyroidism",
+    "Pregnancy only",
+    "Renal insufficiency",
+    "Obesity only"
+   ],
+   "answer": 2,
+   "why": "Analytical interference.",
+   "x": 1
+  },
+  {
+   "q": "Compared with BNP, NT-proBNP:",
+   "options": [
+    "Has practical advantages but interference in renal insufficiency",
+    "Cannot be measured",
+    "Is useless",
+    "Is more affected by obesity"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "CRP is produced mainly by:",
+   "options": [
+    "Lymphocytes",
+    "The liver",
+    "The heart",
+    "The kidney"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "CRP production is driven by the cytokine:",
+   "options": [
+    "Interleukin-2",
+    "TNF only",
+    "Interleukin-6",
+    "Interferon gamma"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The roles of CRP include:",
+   "options": [
+    "Causing diuresis",
+    "Initiating adhesion to phagocytes and activating complement",
+    "Transporting copper",
+    "Regulating muscle contraction"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "CRP starts to rise after the start of inflammation at:",
+   "options": [
+    "48 hours",
+    "6-7 hours",
+    "1 week",
+    "1 hour"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "CRP reaches its maximum at:",
+   "options": [
+    "6 hours",
+    "14 hours",
+    "48-72 hours",
+    "10 days"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "CRP returns to normal (under 6 mg/L) after about:",
+   "options": [
+    "1 hour",
+    "1 month",
+    "1 day",
+    "1 week"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A persistent low CRP (under 10 mg/L) after inflammation has settled is interpreted as:",
+   "options": [
+    "Normal in all cases",
+    "A cardiovascular risk",
+    "An acute infection",
+    "Liver failure"
+   ],
+   "answer": 1,
+   "why": "It reflects dull, persistent inflammation.",
+   "x": 1
+  },
+  {
+   "q": "Low CRP concentrations can only be measured with:",
+   "options": [
+    "BNP assays",
+    "The ultrasensitive CRP (CRPus) assay",
+    "Troponin assays",
+    "A standard CRP assay"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "CRPus can measure concentrations from about:",
+   "options": [
+    "100 to 500 mg/L only",
+    "0 to 1 ng/L only",
+    "0.01 to a few tens of mg/L",
+    "1 to 2 g/L"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "CRPus is mainly of interest in:",
+   "options": [
+    "Diagnosing acute infarction",
+    "Diagnosing heart failure",
+    "Primary prevention of cardiovascular disease",
+    "Monitoring diabetes"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The exact value of a persistently low CRP helps to:",
+   "options": [
+    "Grade the cardiovascular risk",
+    "Measure troponin",
+    "Calculate BNP",
+    "Diagnose pneumonia"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "CRP belongs to the proteins of:",
+   "options": [
+    "The contractile system",
+    "The urea cycle",
+    "The acute phase of inflammation",
+    "The coagulation cascade"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Which marker is the best choice for diagnosing chronic heart failure?",
+   "options": [
+    "Myoglobin",
+    "Troponin C",
+    "BNP or NT-proBNP",
+    "CRPus"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Which marker is the best choice for diagnosing myocardial infarction?",
+   "options": [
+    "LDH",
+    "Cardiac troponin T or I",
+    "BNP",
+    "CRPus"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Which marker is used for prognosis of coronary disease?",
+   "options": [
+    "Troponin",
+    "Myoglobin",
+    "CRPus",
+    "NT-proBNP"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A patient with known myocarditis has raised troponin without coronary obstruction. This shows that troponin is:",
+   "options": [
+    "Specific for liver disease",
+    "Useless",
+    "Only raised by infarction",
+    "Specific for myocardial damage, not only for infarction"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Troponin specificity for infarction is higher than that of:",
+   "options": [
+    "BNP",
+    "CRP",
+    "The old markers such as CK-MB and myoglobin",
+    "ECG"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "For an early diagnosis of acute coronary syndrome, the clinician should prescribe:",
+   "options": [
+    "A classic troponin test only",
+    "BNP",
+    "A hypersensitive troponin test",
+    "CRPus"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Troponin T and I in the heart are written:",
+   "options": [
+    "TnC and TnT",
+    "CK and CK-MB",
+    "BNP and NT-proBNP",
+    "cTnT and cTnI"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A troponin result from one laboratory cannot be compared directly with another because:",
+   "options": [
+    "Assays are not standardised",
+    "Troponin is unstable",
+    "BNP interferes",
+    "Troponin C interferes"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Natriuretic peptide levels are higher:",
+   "options": [
+    "In men",
+    "In obese people",
+    "In women",
+    "In young children only"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "BNP and NT-proBNP belong to the family of:",
+   "options": [
+    "Interleukins",
+    "Natriuretic peptides",
+    "Transaminases",
+    "Troponins"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A drug causing myocardial toxicity may raise:",
+   "options": [
+    "Albumin",
+    "Troponin",
+    "Ferritin",
+    "TSH"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Acute ventricular failure can raise troponin. It is classed as:",
+   "options": [
+    "A liver disease",
+    "A muscle disease",
+    "Another heart disease, apart from ACS",
+    "An ACS"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A patient seen 5 days after an infarction: the troponin most likely still raised is:",
+   "options": [
+    "Troponin C",
+    "cTnI only",
+    "cTnT",
+    "Myoglobin"
+   ],
+   "answer": 2,
+   "why": "cTnT stays high more than 10 days; cTnI 75-140 h (3-6 days).",
+   "x": 1
+  },
+  {
+   "q": "A CRP of 120 mg/L in a patient with fever most likely reflects:",
+   "options": [
+    "Heart failure",
+    "Myocardial infarction",
+    "A persistent low-grade cardiovascular risk",
+    "Acute inflammation"
+   ],
+   "answer": 3,
+   "why": "The low persistent values matter for cardiovascular risk.",
+   "x": 1
+  },
+  {
+   "q": "Interleukin-6 acts on the liver to produce:",
+   "options": [
+    "Myoglobin",
+    "BNP",
+    "CRP",
+    "Troponin"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Natriuretic peptides cause vasodilation, which:",
+   "options": [
+    "Has no effect",
+    "Causes water retention",
+    "Lowers blood pressure",
+    "Raises blood pressure"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Which statement about BNP versus NT-proBNP in practice is correct?",
+   "options": [
+    "Only BNP rises in heart failure",
+    "They give identical numbers",
+    "Use both alternately for accuracy",
+    "Pick one and keep using it for the same patient"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A dialysis patient's NT-proBNP is very high without symptoms. The likely explanation is:",
+   "options": [
+    "Liver failure",
+    "Analytical interference from renal insufficiency",
+    "Acute infarction",
+    "Myocarditis"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Troponins regulate:",
+   "options": [
+    "Blood clotting",
+    "Muscle (contractile) activity",
+    "Urea synthesis",
+    "Iron transport"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Which troponin subunit is useless in cardiology?",
+   "options": [
+    "Troponin I",
+    "Troponin C",
+    "Cardiac troponin T",
+    "Troponin T"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Myoglobin as an infarction marker is:",
+   "options": [
+    "An old, non-specific marker",
+    "A prognostic marker",
+    "The required modern marker",
+    "A natriuretic peptide"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "CK-MB is:",
+   "options": [
+    "A troponin",
+    "A liver marker",
+    "An old marker of infarction, non-specific",
+    "Specific for heart failure"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "LDH as an infarction marker is:",
+   "options": [
+    "A natriuretic peptide",
+    "Old and non-specific",
+    "Specific and modern",
+    "A prognostic marker"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Cirrhosis can raise:",
+   "options": [
+    "BNP and NT-proBNP",
+    "Troponin T always",
+    "Troponin C",
+    "Nothing"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The hypersensitive troponin test is 'positive' at:",
+   "options": [
+    "Only in heart failure",
+    "Only after 24 h",
+    "Very low concentrations, early in cardiac involvement",
+    "Only very high concentrations"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The kinetics of troponin after infarction allows:",
+   "options": [
+    "Only diagnosis of heart failure",
+    "Only prognosis of liver disease",
+    "Only late diagnosis",
+    "Diagnosis early and follow-up over several days"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "After inflammation stabilises, CRP should normally fall below:",
+   "options": [
+    "6 mg/L",
+    "600 mg/L",
+    "60 mg/L",
+    "0.01 mg/L"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Endocrine diseases can raise:",
+   "options": [
+    "CK-MB only",
+    "Myoglobin only",
+    "Troponin C",
+    "Natriuretic peptides"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "CRPus was shown in many publications to be useful for:",
+   "options": [
+    "Diagnosing anaemia",
+    "Diagnosing hepatitis",
+    "Diagnosing pericarditis",
+    "Primary prevention of cardiovascular disease"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
   }
  ],
  "cards": [
@@ -12774,6 +14790,1038 @@ SINA.lectures["biochem-renal"] = {
      "n": 25
     }
    ]
+  },
+  {
+   "q": "The functional unit of the kidney is:",
+   "options": [
+    "The glomerulus alone",
+    "The nephron",
+    "The lobule",
+    "The collecting duct"
+   ],
+   "answer": 1,
+   "why": "Each nephron has a glomerulus and tubules.",
+   "x": 1
+  },
+  {
+   "q": "Renal pathologies may involve:",
+   "options": [
+    "Glomerular filtration or tubular function",
+    "Only the bladder",
+    "Only hormones",
+    "Only the renal artery"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The laboratory's role in kidney disease includes:",
+   "options": [
+    "Only diagnosis",
+    "Only surgery",
+    "Diagnosis, prognosis and follow-up of treatment",
+    "Only imaging"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Renin made by the kidney regulates:",
+   "options": [
+    "Blood pressure",
+    "Glucose",
+    "Calcium balance",
+    "Red cell production"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Erythropoietin made by the kidney regulates:",
+   "options": [
+    "Red blood cell synthesis",
+    "Phosphate",
+    "Sodium",
+    "Blood pressure"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Active vitamin D made by the kidney regulates:",
+   "options": [
+    "The phospho-calcic balance",
+    "Blood pressure",
+    "Water",
+    "Red cells"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The nephron's roles include regulation of:",
+   "options": [
+    "Thyroid hormone synthesis",
+    "Bile secretion",
+    "Insulin secretion",
+    "Water-electrolyte and acid-base balance"
+   ],
+   "answer": 3,
+   "why": "Plus toxin elimination and endocrine functions.",
+   "x": 1
+  },
+  {
+   "q": "Creatinine is:",
+   "options": [
+    "A product of purines",
+    "A glycoprotein made by all cells",
+    "A catabolite of muscle creatine",
+    "A protein made by the liver"
+   ],
+   "answer": 2,
+   "why": "It reflects muscle mass.",
+   "x": 1
+  },
+  {
+   "q": "Unlike urea, serum creatinine is independent of:",
+   "options": [
+    "Muscle mass",
+    "Age",
+    "Glomerular filtration",
+    "Diet, protein intake and hydration"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Creatinine sampling should be done:",
+   "options": [
+    "In the morning, avoiding haemolysis",
+    "At night",
+    "After a protein meal",
+    "After 3 days of fasting"
+   ],
+   "answer": 0,
+   "why": "Fasting should be moderate (acetoacetate interference).",
+   "x": 1
+  },
+  {
+   "q": "Too long a fast can distort creatinine through interference by:",
+   "options": [
+    "Acetoacetone (ketone bodies)",
+    "Urea",
+    "Glucose",
+    "Bilirubin only"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The reference value of serum creatinine in women is:",
+   "options": [
+    "9 to 12 mg/L",
+    "3 to 8 mg/L",
+    "6 to 11 mg/L",
+    "0.15 to 0.45 g/L"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The reference value of serum creatinine in children is:",
+   "options": [
+    "9 to 12 mg/L",
+    "6 to 11 mg/L",
+    "3 to 8 mg/L",
+    "30 to 70 mg/L"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Urea is synthesised by:",
+   "options": [
+    "Muscle",
+    "The liver from ammonia",
+    "Red cells",
+    "The kidney"
+   ],
+   "answer": 1,
+   "why": "Ammonia comes from protein catabolism.",
+   "x": 1
+  },
+  {
+   "q": "Urea rises when:",
+   "options": [
+    "Protein intake is low",
+    "Fluid intake is low",
+    "Fluid intake is high",
+    "The patient is fasting"
+   ],
+   "answer": 1,
+   "why": "It also rises with high protein intake and catabolism.",
+   "x": 1
+  },
+  {
+   "q": "The reference value of blood urea is:",
+   "options": [
+    "0.5 to 1 mg/L",
+    "9 to 12 mg/L",
+    "30 to 70 mg/L",
+    "0.15 to 0.45 g/L"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Urea is usually measured together with:",
+   "options": [
+    "TSH",
+    "ALT",
+    "Serum creatinine",
+    "Troponin"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Cystatin C is:",
+   "options": [
+    "A glycoprotein produced by all cells",
+    "A muscle catabolite",
+    "A liver enzyme",
+    "A purine catabolite"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Cystatin C is stable with age between:",
+   "options": [
+    "50 and 90 years",
+    "It varies widely with age",
+    "3 months and 70 years",
+    "Birth and 10 years"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Cystatin C is especially useful in:",
+   "options": [
+    "Obese patients only",
+    "Pregnant women only",
+    "Subjects with low muscle mass (children, elderly, cirrhotic, malnourished)",
+    "Athletes only"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Cystatin C is an early marker of:",
+   "options": [
+    "The beginning of acute renal failure",
+    "Chronic heart failure",
+    "Hepatitis",
+    "Diabetes insipidus"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In tubulopathies, cystatin C is a marker of:",
+   "options": [
+    "Proximal tubular function",
+    "Bladder function",
+    "Glomerular protein loss",
+    "Distal tubular function only"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The main disadvantage of cystatin C is:",
+   "options": [
+    "It depends on muscle mass",
+    "It needs strict fasting",
+    "Higher cost, so it is used as a second-line test",
+    "It is unstable"
+   ],
+   "answer": 2,
+   "why": "Fasting is not essential.",
+   "x": 1
+  },
+  {
+   "q": "The reference value of cystatin C (1-50 years) is:",
+   "options": [
+    "30 to 70 mg/L",
+    "0.15 to 0.45 g/L",
+    "9 to 12 mg/L",
+    "0.5 to 1 mg/L"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Uric acid varies with:",
+   "options": [
+    "Height",
+    "Hydration only",
+    "Diet, age and the nycthemeral cycle",
+    "Muscle mass only"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Before a uric acid assay, the patient should:",
+   "options": [
+    "Eat meat the day before",
+    "Exercise",
+    "Drink alcohol",
+    "Fast and follow a purine-free diet for 3 days"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "For uric acid, the grey tube (oxalate/fluoride) is avoided because:",
+   "options": [
+    "It raises uric acid",
+    "It inhibits uricase",
+    "It contains purines",
+    "It clots blood"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The reference value of uric acid in men is:",
+   "options": [
+    "6 to 11 mg/L",
+    "30 to 70 mg/L",
+    "20 to 60 mg/L",
+    "10 to 35 mg/L"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In renal failure, uric acid:",
+   "options": [
+    "Never changes",
+    "Falls",
+    "Rises, not always in proportion to urea and creatinine",
+    "Rises exactly like creatinine"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The plasma ionogram includes:",
+   "options": [
+    "Glucose and lipids",
+    "Urea and creatinine",
+    "Calcium and phosphorus only",
+    "Sodium, potassium, chloride, bicarbonate and osmolality"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The main extracellular cation is:",
+   "options": [
+    "Sodium",
+    "Calcium",
+    "Magnesium",
+    "Potassium"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The main intracellular cation is:",
+   "options": [
+    "Potassium",
+    "Bicarbonate",
+    "Chloride",
+    "Sodium"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In acute renal failure, hyperkalaemia occurs because:",
+   "options": [
+    "The kidney cannot excrete potassium, and acidosis drives K+ out of cells",
+    "Sodium falls",
+    "Aldosterone rises",
+    "Potassium intake rises"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In chronic renal failure, bicarbonate falls because of:",
+   "options": [
+    "High aldosterone",
+    "Loss of HCO3- and reduced tubular secretion of NH4+",
+    "Vomiting only",
+    "Excess intake"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Plasma osmolality is estimated by:",
+   "options": [
+    "Glucose / 18",
+    "Na + Cl + HCO3",
+    "[(Na + K) × 2] + urea + glucose (mmol/L)",
+    "Urea × 2"
+   ],
+   "answer": 2,
+   "why": "≈ 290 ± 5 mOsm/L.",
+   "x": 1
+  },
+  {
+   "q": "Calcium and phosphate are measured systematically in chronic renal failure to assess:",
+   "options": [
+    "Liver function",
+    "Thyroid function",
+    "Bone condition and parathyroid activity",
+    "Heart failure"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In chronic renal failure, the bone disease includes:",
+   "options": [
+    "Hypoparathyroidism",
+    "Osteomalacia and secondary hyperparathyroidism",
+    "Osteopetrosis",
+    "Gigantism"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In chronic renal failure, phosphate:",
+   "options": [
+    "Rises",
+    "Does not change",
+    "Disappears",
+    "Falls"
+   ],
+   "answer": 0,
+   "why": "Calcium falls; PTH rises.",
+   "x": 1
+  },
+  {
+   "q": "In chronic renal failure, PTH:",
+   "options": [
+    "Is undetectable",
+    "Rises",
+    "Is unchanged",
+    "Falls"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Normal adult diuresis is:",
+   "options": [
+    "0.1 to 0.5 L",
+    "3 to 5 L",
+    "0.75 to 2 litres per 24 h",
+    "5 to 10 L"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A normal diuresis:",
+   "options": [
+    "Does not prove normal renal function",
+    "Excludes proteinuria",
+    "Excludes renal failure",
+    "Proves normal GFR"
+   ],
+   "answer": 0,
+   "why": "Water excretion can be preserved while GFR is reduced.",
+   "x": 1
+  },
+  {
+   "q": "Polyuria is defined as more than:",
+   "options": [
+    "10 L",
+    "2.5 L per 24 h",
+    "1 L",
+    "0.6 L"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Causes of polyuria include:",
+   "options": [
+    "Acute blood loss",
+    "Dehydration",
+    "Diabetes insipidus (ADH dysfunction)",
+    "Water restriction"
+   ],
+   "answer": 2,
+   "why": "Also renal failure.",
+   "x": 1
+  },
+  {
+   "q": "Anuria is a urine volume of less than:",
+   "options": [
+    "0.1 L per 24 h",
+    "2.5 L",
+    "0.6 L",
+    "1 L"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Physiological oliguria can follow:",
+   "options": [
+    "Diuretics",
+    "High fluid intake",
+    "Diabetes insipidus",
+    "Restriction of water intake"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Proteinuria screening with reactive strips is:",
+   "options": [
+    "A qualitative method needing confirmation in 24-h urine",
+    "Useless",
+    "Specific for albumin only",
+    "Fully quantitative"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The 24-h urine for proteinuria should be collected:",
+   "options": [
+    "In a tube with EDTA",
+    "At room temperature in sunlight",
+    "In a clean jar with an antiseptic, kept refrigerated",
+    "Without any precaution"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Physiological proteinuria ranges between:",
+   "options": [
+    "50 and 150 mg/24 h",
+    "1 and 3 g/24 h",
+    "0 mg exactly",
+    "150 and 300 mg/24 h"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Functional proteinuria is:",
+   "options": [
+    "Caused by haemolysis",
+    "Permanent and above 3 g/24 h",
+    "Moderate, intermittent, without renal lesion",
+    "Always due to diabetes"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Causes of functional proteinuria include:",
+   "options": [
+    "Diabetes nephropathy",
+    "Prolonged standing, intense effort, hypertension",
+    "Myeloma",
+    "Glomerulonephritis"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Pathological proteinuria is:",
+   "options": [
+    "Above 150 mg/24 h and permanent",
+    "Intermittent after effort",
+    "Only seen on strips",
+    "Below 150 mg/24 h"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Microalbuminuria is also called:",
+   "options": [
+    "Haematuria",
+    "Paucialbuminuria",
+    "Bence Jones proteinuria",
+    "Glycosuria"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Microalbuminuria is a predictive marker of:",
+   "options": [
+    "Heart failure",
+    "Tubular acidosis",
+    "Glomerular damage, e.g. diabetic nephropathy",
+    "Liver failure"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Frank proteinuria starts above:",
+   "options": [
+    "150 mg/24 h",
+    "3 g/24 h",
+    "30 mg/24 h",
+    "300 mg/24 h"
+   ],
+   "answer": 3,
+   "why": "Microalbuminuria lies between 30 and 300 mg/24 h.",
+   "x": 1
+  },
+  {
+   "q": "Natriuresis and kaliuresis depend on:",
+   "options": [
+    "Blood Na+ and K+, diuresis and food intake",
+    "Muscle mass",
+    "Glucose only",
+    "Bilirubin"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "24-h urinary creatinine normally is:",
+   "options": [
+    "30 to 300 mg/24 h",
+    "10 g/24 h",
+    "50 to 150 mg/24 h",
+    "1 to 2 g/24 h"
+   ],
+   "answer": 3,
+   "why": "8.8-17.5 mmol.",
+   "x": 1
+  },
+  {
+   "q": "Urinary urea gives information on:",
+   "options": [
+    "Dietary intake, endogenous catabolism and the concentrating power of the kidney",
+    "Bone only",
+    "Muscle mass only",
+    "Liver function only"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Urinary calcium and phosphorus are measured mainly to explore:",
+   "options": [
+    "Heart failure",
+    "Anaemia",
+    "Liver disease",
+    "The risk of kidney stones"
+   ],
+   "answer": 3,
+   "why": "And disorders of chronic renal failure.",
+   "x": 1
+  },
+  {
+   "q": "The GFR of a glomerulus is:",
+   "options": [
+    "The urine volume per day",
+    "The protein filtered per hour",
+    "The blood flow to the kidney",
+    "The volume of plasma crossing its capillary wall per unit of time"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Clearance is defined as:",
+   "options": [
+    "The urine concentration of a substance",
+    "The plasma concentration",
+    "The volume of blood purified of a substance by the kidney per unit time",
+    "The urine flow"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A substance's clearance equals the GFR if it is:",
+   "options": [
+    "Actively secreted",
+    "Bound to albumin",
+    "Neither reabsorbed nor secreted by the tubule",
+    "Fully reabsorbed"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In the clearance formula U × V / P, V is:",
+   "options": [
+    "Plasma volume",
+    "Urine flow in mL/min",
+    "Vein diameter",
+    "Total body water"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Creatinine clearance is semiologically important because it:",
+   "options": [
+    "Measures liver function",
+    "Depends on urine volume only",
+    "Is independent of diuresis and directly measures glomerular filtration",
+    "Measures tubular secretion only"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The best overall index of kidney function is:",
+   "options": [
+    "The glomerular filtration rate",
+    "Uric acid",
+    "Diuresis",
+    "Urea"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Clearance values must be related to a body surface of:",
+   "options": [
+    "1 m²",
+    "70 kg",
+    "2.5 m²",
+    "1.73 m²"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Normal creatinine clearance in women is:",
+   "options": [
+    "110 ± 20 mL/min",
+    "5 mL/min",
+    "50 ± 20 mL/min",
+    "130 ± 20 mL/min"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Formulas such as MDRD replaced measured clearance because they:",
+   "options": [
+    "Take muscle mass into account and avoid urine-collection errors",
+    "Are less accurate",
+    "Ignore creatinine",
+    "Need two 24-h collections"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Moderate chronic kidney disease corresponds to a clearance of:",
+   "options": [
+    "50 to 70 mL/min",
+    "Under 5 mL/min",
+    "20 to 50 mL/min",
+    "5 to 20 mL/min"
+   ],
+   "answer": 0,
+   "why": "Usually without clinical impact.",
+   "x": 1
+  },
+  {
+   "q": "Significant chronic kidney disease corresponds to a clearance of:",
+   "options": [
+    "5 to 20 mL/min",
+    "Above 90 mL/min",
+    "20 to 50 mL/min",
+    "50 to 70 mL/min"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Severe chronic kidney disease, with most biological disorders present, corresponds to:",
+   "options": [
+    "Above 110 mL/min",
+    "50 to 70 mL/min",
+    "5 to 20 mL/min",
+    "20 to 50 mL/min"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Below 5 mL/min of creatinine clearance:",
+   "options": [
+    "The patient needs no treatment",
+    "Only diet is needed",
+    "Haemodialysis or transplantation is needed",
+    "The kidney is normal"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Osmolar clearance evaluates:",
+   "options": [
+    "Protein filtration",
+    "Bilirubin excretion",
+    "Elimination of water (a tubular function)",
+    "Calcium absorption"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Osmolar clearance is calculated as:",
+   "options": [
+    "Plasma osmolality × V",
+    "Urine osmolality × V / plasma osmolality",
+    "Urea × 2",
+    "Urine Na / plasma Na"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In the concentration (water restriction) test, the patient:",
+   "options": [
+    "Gets a protein- and salt-rich, low-drink diet with no water from 8 p.m. to 8 a.m.",
+    "Receives ADH injections only",
+    "Eats nothing for 3 days",
+    "Drinks 20 mL/kg of water"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In the dilution test, the water load is:",
+   "options": [
+    "20 mL/kg ingested in 30 to 60 min",
+    "None",
+    "5 mL/kg",
+    "2 L at once"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In the dilution test, normally one urine sample reaches an osmolality close to:",
+   "options": [
+    "800 mOsm/kg",
+    "100 mOsm/kg",
+    "1200 mOsm/kg",
+    "290 mOsm/kg"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In the dilution test, a normal kidney removes:",
+   "options": [
+    "50% of the load in 2 hours and 80% in 5 hours",
+    "100% in 1 hour",
+    "Nothing",
+    "10% in 5 hours"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The kidney controls acid-base balance by:",
+   "options": [
+    "Reabsorbing bicarbonate, excreting titratable acid and secreting ammonia",
+    "Secreting insulin",
+    "Producing CO2",
+    "Making albumin"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Routine renal tests giving complete information on function are:",
+   "options": [
+    "TSH and FT4",
+    "ALT and AST",
+    "Troponin and BNP",
+    "Creatinine, proteinuria and microalbuminuria"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Simple tests showing the kidney's role in homeostasis include:",
+   "options": [
+    "Ionogram, phospho-calcic balance and uric acid",
+    "Bilirubin",
+    "CRP",
+    "Troponin"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Specialised renal tests include:",
+   "options": [
+    "Creatinine clearance and concentration/dilution tests",
+    "Uric acid only",
+    "Proteinuria strips only",
+    "Ionogram only"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A malnourished elderly woman has a 'normal' creatinine. To assess GFR better, you would use:",
+   "options": [
+    "Uric acid",
+    "Urine colour",
+    "Cystatin C",
+    "Urea alone"
+   ],
+   "answer": 2,
+   "why": "Creatinine underestimates renal failure when muscle mass is low.",
+   "x": 1
+  },
+  {
+   "q": "A patient on high-dose corticosteroids has a high cystatin C. This may be due to:",
+   "options": [
+    "The corticosteroids, which raise cystatin C dose-dependently",
+    "Fasting",
+    "Acute renal failure only",
+    "Low muscle mass"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A creatinine clearance seems falsely low. The most frequent cause is:",
+   "options": [
+    "Fasting",
+    "Haemolysis",
+    "High muscle mass",
+    "Incomplete 24-h urine collection"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A potassium of 7 mmol/L in acute renal failure means:",
+   "options": [
+    "The vital prognosis is at stake",
+    "Mild hypokalaemia",
+    "A lab error always",
+    "A normal value"
+   ],
+   "answer": 0,
+   "why": "Above 6.5 mmol/L is life-threatening.",
+   "x": 1
+  },
+  {
+   "q": "The normal urinary Na/K ratio is:",
+   "options": [
+    "Less than 1",
+    "Exactly 0",
+    "Greater than 1",
+    "Greater than 10 always"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
   }
  ],
  "cards": [
@@ -13835,6 +16883,966 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "The arrow points to: Monoclonal gammopathy. A narrow-based peak: myeloma, lymphoma or benign; confirmed by immunofixation."
+  },
+  {
+   "q": "The liver synthesises:",
+   "options": [
+    "Only albumin",
+    "Only gamma globulins",
+    "All serum proteins except gamma globulins",
+    "No serum proteins"
+   ],
+   "answer": 2,
+   "why": "Lymphoid tissue makes the gamma globulins.",
+   "x": 1
+  },
+  {
+   "q": "Gamma globulins are:",
+   "options": [
+    "Clotting factors",
+    "Transport proteins made by the liver",
+    "Immunity proteins made by lymphoid tissue",
+    "Enzymes of the gut"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In 'electrophoresis', 'phoresis' refers to:",
+   "options": [
+    "Staining",
+    "Protein",
+    "Separation",
+    "Electricity"
+   ],
+   "answer": 2,
+   "why": "Separation under a constant electric field.",
+   "x": 1
+  },
+  {
+   "q": "Serum protein electrophoresis is used for:",
+   "options": [
+    "Diagnostic orientation, severity assessment and treatment follow-up",
+    "Typing blood groups",
+    "Measuring troponin",
+    "Confirming a diagnosis definitively"
+   ],
+   "answer": 0,
+   "why": "It orients, it does not confirm.",
+   "x": 1
+  },
+  {
+   "q": "The anode is:",
+   "options": [
+    "A positive particle",
+    "The negative electrode",
+    "The positive electrode",
+    "A negative particle"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A cation is:",
+   "options": [
+    "A positive particle attracted to the cathode",
+    "A negative particle attracted to the anode",
+    "The positive electrode",
+    "A neutral molecule"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Proteins are amphoteric, meaning they:",
+   "options": [
+    "Change their overall charge depending on pH",
+    "Are always positive",
+    "Are always neutral",
+    "Cannot carry charge"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "At the buffer pH of 8.2-8.6, serum proteins are:",
+   "options": [
+    "All positively charged",
+    "Partly positive, partly negative",
+    "All negatively charged (anions)",
+    "Neutral"
+   ],
+   "answer": 2,
+   "why": "So they all migrate in the same direction.",
+   "x": 1
+  },
+  {
+   "q": "For SPE, blood should be collected in:",
+   "options": [
+    "A citrate tube",
+    "An EDTA tube",
+    "A dry tube or a tube with clot activator",
+    "A heparin tube"
+   ],
+   "answer": 2,
+   "why": "Serum is needed.",
+   "x": 1
+  },
+  {
+   "q": "Using a haemolysed serum for SPE adds:",
+   "options": [
+    "Fibrinogen",
+    "Nothing",
+    "Haemoglobin, a protein that will be quantified",
+    "CRP"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "If SPE is deferred, blood can be stored at 4 °C for up to:",
+   "options": [
+    "One month",
+    "One week",
+    "One hour",
+    "One year"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The first support used for electrophoresis, discovered in 1937 (Nobel Prize), was:",
+   "options": [
+    "Agarose gel",
+    "Blotting paper",
+    "Capillary tube",
+    "Starch"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Agarose gel is preferred to paper because it is:",
+   "options": [
+    "More sensitive (better transparency and porosity)",
+    "Positively charged",
+    "Cheaper",
+    "Faster to dry"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Gel electrophoresis is:",
+   "options": [
+    "Done in a capillary",
+    "Manual without any equipment",
+    "Semi-automated, needing a technician at several steps",
+    "Fully automated"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The amount of serum needed for SPE on gel is about:",
+   "options": [
+    "0.1 mL",
+    "1 L",
+    "5 mL",
+    "10 mL"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Protein migration depends on:",
+   "options": [
+    "Only the temperature",
+    "The patient's age",
+    "Only the colour",
+    "Particle size, ionic strength and support porosity"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Migration time on gel is about:",
+   "options": [
+    "24 hours",
+    "2 hours",
+    "2 minutes",
+    "20 minutes"
+   ],
+   "answer": 3,
+   "why": "The whole manipulation takes about 90 min.",
+   "x": 1
+  },
+  {
+   "q": "Band intensity on the gel is read by:",
+   "options": [
+    "A densitometer",
+    "A spectrometer of mass",
+    "The naked eye only",
+    "A microscope"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The optical density of a band is proportional to:",
+   "options": [
+    "The temperature",
+    "The percentage of protein in the band",
+    "The voltage",
+    "The size of the gel"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Capillary zone electrophoresis uses as support:",
+   "options": [
+    "Starch",
+    "Agarose gel",
+    "A long thin capillary tube",
+    "Paper"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Capillary electrophoresis does not require:",
+   "options": [
+    "An electric field",
+    "An alkaline buffer",
+    "Serum",
+    "Grouping series of 15 or 30 patients"
+   ],
+   "answer": 3,
+   "why": "Each sample is run independently.",
+   "x": 1
+  },
+  {
+   "q": "The albumin band is:",
+   "options": [
+    "Closest to the cathode",
+    "Made of many globulins",
+    "The faintest band",
+    "Homogeneous and the most intensely coloured"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Globulin bands each contain:",
+   "options": [
+    "A set of proteins with similar migration",
+    "Only immunoglobulins",
+    "A single protein",
+    "Only haemoglobin"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The width and colour intensity of each band indicate:",
+   "options": [
+    "The patient's age",
+    "The concentration of the proteins",
+    "Their molecular weight only",
+    "Their charge only"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The normal SPE profile shows:",
+   "options": [
+    "3 fractions",
+    "1 albumin fraction and 4 globulin fractions",
+    "2 albumin fractions",
+    "6 fractions"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "SPE numerical results are given as:",
+   "options": [
+    "Only percentages",
+    "Only mmol/L",
+    "Percentage and g/L for each fraction",
+    "Only a picture"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Albumin's roles include:",
+   "options": [
+    "Antibody activity",
+    "Oxygen transport",
+    "Clotting",
+    "Transport, acid-base buffering and oncotic pressure"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Alpha-1 and alpha-2 globulins are mainly:",
+   "options": [
+    "Antibodies",
+    "Clotting factors",
+    "Proteins of the inflammatory reaction",
+    "Hormones"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Albumin physiologically decreases in:",
+   "options": [
+    "Pregnant women and the elderly",
+    "Children",
+    "Athletes",
+    "Men only"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Alpha-1 and alpha-2 globulins physiologically:",
+   "options": [
+    "Never vary",
+    "Increase in pregnancy and decrease in the elderly",
+    "Increase in infants",
+    "Decrease in pregnancy"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Beta globulins physiologically increase:",
+   "options": [
+    "During pregnancy and between 40 and 70 years",
+    "In malnutrition",
+    "In haemolysis",
+    "In infants"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Gamma globulins are low in infants, which explains the value of:",
+   "options": [
+    "Vitamin K",
+    "Early vaccination only",
+    "Breastfeeding with colostrum",
+    "Iron supplements"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A dye bubble on the gel can:",
+   "options": [
+    "Remove albumin",
+    "Have no effect",
+    "Appear as a false extra peak",
+    "Change the pH"
+   ],
+   "answer": 2,
+   "why": "A handling artefact.",
+   "x": 1
+  },
+  {
+   "q": "CRP becomes visible on SPE as a peak in the gamma fraction from about:",
+   "options": [
+    "1-5 mg/L",
+    "100-150 mg/L",
+    "10 mg/L",
+    "1000 mg/L"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A narrow gamma peak due to CRP should:",
+   "options": [
+    "Persist for life",
+    "Be treated as myeloma immediately",
+    "Be ignored",
+    "Disappear when the inflammation resolves"
+   ],
+   "answer": 3,
+   "why": "If it persists, a malignant haemopathy must be excluded.",
+   "x": 1
+  },
+  {
+   "q": "Fibrinogen on SPE appears:",
+   "options": [
+    "In alpha-1",
+    "As an extra band in the gamma region when plasma is used",
+    "Never",
+    "In the albumin fraction"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Bisalbuminaemia of hereditary origin:",
+   "options": [
+    "Is due to antibiotics",
+    "Is temporary",
+    "Causes nephrotic syndrome",
+    "Is permanent on all SPEs and has no clinical consequence"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Acquired bisalbuminaemia is:",
+   "options": [
+    "Due to myeloma",
+    "Permanent",
+    "Due to haemolysis",
+    "Temporary, e.g. with beta-lactams in renal failure"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Hypoalbuminaemia can be due to:",
+   "options": [
+    "Haemolysis only",
+    "Malnutrition, cirrhosis or nephrotic syndrome",
+    "Pregnancy hypertension only",
+    "Dehydration"
+   ],
+   "answer": 1,
+   "why": "Also exaggerated catabolism in severe inflammation.",
+   "x": 1
+  },
+  {
+   "q": "In nephrotic syndrome, albumin falls because of:",
+   "options": [
+    "Haemolysis",
+    "Liver failure",
+    "Loss in urine through a damaged glomerulus",
+    "Low intake"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A congenital cause of decreased alpha-1 globulins is:",
+   "options": [
+    "Nephrotic syndrome",
+    "Cirrhosis",
+    "Myeloma",
+    "Alpha-1 antitrypsin deficiency"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "An increased alpha-1 fraction is seen in:",
+   "options": [
+    "Malnutrition",
+    "Hypogammaglobulinaemia",
+    "Haemolysis",
+    "Acute inflammatory syndrome, usually with high alpha-2"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Decreased alpha-2 in intravascular haemolysis is due to low:",
+   "options": [
+    "Albumin",
+    "IgG",
+    "Haptoglobin",
+    "Transferrin"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Alpha-2 increases in nephrotic syndrome because of:",
+   "options": [
+    "Alpha-2 macroglobulin",
+    "IgA",
+    "Haptoglobin loss",
+    "CRP"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Decreased beta globulins can result from:",
+   "options": [
+    "Pregnancy",
+    "Ageing 40-70",
+    "Consumption of complement C3 in infection",
+    "Alcoholic cirrhosis"
+   ],
+   "answer": 2,
+   "why": "Also causes of low serum proteins.",
+   "x": 1
+  },
+  {
+   "q": "The beta-gamma block of alcoholic cirrhosis is due to:",
+   "options": [
+    "Polyclonal IgA directed against abnormal hepatic fibrous tissue",
+    "Fibrinogen",
+    "Monoclonal IgG",
+    "Haemoglobin"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Physiological hypogammaglobulinaemia occurs in:",
+   "options": [
+    "Infants",
+    "Adults aged 40",
+    "Athletes",
+    "Pregnancy"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Secondary immune deficiency with low gamma globulins can follow:",
+   "options": [
+    "Vaccination",
+    "Chemotherapy or corticotherapy",
+    "Pregnancy",
+    "Fasting"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A polyclonal hypergammaglobulinaemia looks like:",
+   "options": [
+    "A narrow-based peak",
+    "A split albumin peak",
+    "A missing band",
+    "A broad dome-shaped increase"
+   ],
+   "answer": 3,
+   "why": "Several immunoglobulins rise together, e.g. in infection.",
+   "x": 1
+  },
+  {
+   "q": "A monoclonal gammopathy can be:",
+   "options": [
+    "Malignant, accompanying or benign",
+    "Only benign",
+    "Only infectious",
+    "Only physiological"
+   ],
+   "answer": 0,
+   "why": "Myeloma (malignant), lymphoma (accompanying), elderly (benign).",
+   "x": 1
+  },
+  {
+   "q": "Multiple myeloma is:",
+   "options": [
+    "An anarchic proliferation of plasma cells producing one immunoglobulin type",
+    "An infection",
+    "A liver disease",
+    "A clotting disorder"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "SPE cannot:",
+   "options": [
+    "Show a monoclonal peak",
+    "Show low albumin",
+    "Identify the type of the monoclonal immunoglobulin",
+    "Show inflammation"
+   ],
+   "answer": 2,
+   "why": "Immunofixation is needed.",
+   "x": 1
+  },
+  {
+   "q": "Immunofixation deposits the patient's serum on how many tracks?",
+   "options": [
+    "5",
+    "6",
+    "10",
+    "2"
+   ],
+   "answer": 1,
+   "why": "Anti-G, A, M, kappa and lambda (plus a reference).",
+   "x": 1
+  },
+  {
+   "q": "Immunofixation uses antibodies against:",
+   "options": [
+    "Fibrinogen",
+    "CRP",
+    "IgG, IgA, IgM and kappa and lambda light chains",
+    "Albumin"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Typing the monoclonal immunoglobulin matters because:",
+   "options": [
+    "It replaces SPE",
+    "It changes the albumin level",
+    "It is required for transfusion",
+    "The disease (e.g. Kahler, Waldenström) and its treatment differ"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Indications for SPE include:",
+   "options": [
+    "Unexplained high sedimentation rate",
+    "Routine pregnancy test",
+    "Hypothyroidism screening",
+    "Gallstones"
+   ],
+   "answer": 0,
+   "why": "Also high blood protein, recurrent infections, bone pain or hypercalcaemia, inflammation, cirrhosis.",
+   "x": 1
+  },
+  {
+   "q": "Bone pain with hypercalcaemia leads to SPE because of suspected:",
+   "options": [
+    "Multiple myeloma",
+    "Haemolysis",
+    "Cirrhosis",
+    "Nephrotic syndrome"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Recurrent bacterial infections lead to SPE because of suspected:",
+   "options": [
+    "Cirrhosis",
+    "Immune deficiency (hypogammaglobulinaemia)",
+    "Inflammation",
+    "Myeloma"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "After effective treatment, the SPE should:",
+   "options": [
+    "Become more abnormal",
+    "Gradually normalise",
+    "Stay unchanged forever",
+    "Lose the albumin band"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "SPE helps assess the prognosis of:",
+   "options": [
+    "Anaemia",
+    "Immunodeficiency and monoclonal gammopathies",
+    "Gallstones",
+    "Fractures"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Albumin migrates:",
+   "options": [
+    "Slowest",
+    "Not at all",
+    "Fastest and farthest towards the anode",
+    "Towards the cathode"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Gamma globulins migrate:",
+   "options": [
+    "Least far from the deposit line",
+    "Farthest towards the anode",
+    "Towards the anode faster than albumin",
+    "Not at all"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The stain used on gel is:",
+   "options": [
+    "Giemsa",
+    "Gram stain",
+    "Ziehl-Neelsen",
+    "Amido black (Amidoschwartz)"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A patient's SPE shows low albumin, high alpha-2 and normal gamma globulins with oedema and proteinuria. This suggests:",
+   "options": [
+    "Cirrhosis",
+    "Nephrotic syndrome",
+    "Haemolysis",
+    "Myeloma"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A patient's SPE shows a beta-gamma block. You suspect:",
+   "options": [
+    "Myeloma",
+    "Alcoholic cirrhosis",
+    "Acute inflammation",
+    "Nephrotic syndrome"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A patient's SPE shows high alpha-1 and alpha-2 with fever. You suspect:",
+   "options": [
+    "Myeloma",
+    "Haemolysis",
+    "An acute inflammatory syndrome",
+    "Immune deficiency"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A narrow-based peak in the gamma fraction of an elderly patient with bone pain suggests:",
+   "options": [
+    "Fibrinogen artefact only",
+    "Nephrotic syndrome",
+    "Polyclonal infection response",
+    "Monoclonal gammopathy (possibly myeloma)"
+   ],
+   "answer": 3,
+   "why": "Confirm by immunofixation.",
+   "x": 1
+  },
+  {
+   "q": "Split alpha-2 fraction with a red serum is most likely due to:",
+   "options": [
+    "A haemolysed sample",
+    "Cirrhosis",
+    "Pregnancy",
+    "Myeloma"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Causes of low serum proteins affecting several fractions include:",
+   "options": [
+    "Inflammation",
+    "Malnutrition, hepatocellular insufficiency and renal protein leakage",
+    "Myeloma",
+    "Dehydration"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The A/G ratio compares:",
+   "options": [
+    "Albumin with all globulins",
+    "Alpha with beta",
+    "Albumin with gamma only",
+    "Alpha-1 with gamma"
+   ],
+   "answer": 0,
+   "why": "Normal 1.2-1.8.",
+   "x": 1
+  },
+  {
+   "q": "A haemolysed sample could:",
+   "options": [
+    "Remove gamma globulins",
+    "Delay treatment by suggesting an abnormal protein increase",
+    "Lower albumin to zero",
+    "Speed up diagnosis"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "SPE is described in the conclusion as:",
+   "options": [
+    "A quick, easy technique for diagnostic orientation",
+    "A slow, expensive test",
+    "A genetic test",
+    "A confirmatory test"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Waldenström's disease involves excess:",
+   "options": [
+    "Albumin",
+    "Haptoglobin",
+    "Fibrinogen",
+    "Monoclonal IgM"
+   ],
+   "answer": 3,
+   "why": "Identified by immunofixation.",
+   "x": 1
+  },
+  {
+   "q": "Kahler's disease is another name for:",
+   "options": [
+    "Wilson's disease",
+    "Cirrhosis",
+    "Nephrotic syndrome",
+    "Multiple myeloma"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In capillary electrophoresis, results are delivered:",
+   "options": [
+    "Only in series of 30",
+    "The same day for each patient",
+    "Without peaks",
+    "After a week"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Proteins migrate towards the anode because at pH 8.6 their:",
+   "options": [
+    "Acidic groups (e.g. Asp, Glu) are ionised negatively",
+    "Size is large",
+    "Basic groups are all positive",
+    "Charge is zero"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The serum deposit line on the gel is:",
+   "options": [
+    "Where albumin ends",
+    "The cathode only",
+    "The anode",
+    "The starting point of migration"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Densitometry translates each band into:",
+   "options": [
+    "A number of cells",
+    "A peak on the electrophoretic profile",
+    "A pH value",
+    "A colour photo only"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A low gamma fraction in an adult with recurrent pneumonia suggests:",
+   "options": [
+    "Immune deficiency",
+    "Myeloma",
+    "Inflammation",
+    "Cirrhosis"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "After childbirth, colostrum provides the infant with:",
+   "options": [
+    "Clotting factors",
+    "Albumin",
+    "Antibodies, compensating low gamma globulins",
+    "Iron only"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
   }
  ],
  "cards": [
@@ -14942,6 +18950,1002 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "The arrow points to: HDL. Apo AI activates LCAT, which esterifies free cholesterol; anti-atherogenic."
+  },
+  {
+   "q": "The importance of studying lipoprotein metabolism is linked to:",
+   "options": [
+    "The frequency of hyperlipoproteinaemias and their effect on the arterial wall",
+    "Their role in clotting",
+    "Their role in thyroid function",
+    "Their role in iron transport"
+   ],
+   "answer": 0,
+   "why": "They are major cardiovascular risk factors.",
+   "x": 1
+  },
+  {
+   "q": "A lipid profile is requested for:",
+   "options": [
+    "Systematic assessment, clinical signs and therapeutic follow-up",
+    "Diagnosing anaemia",
+    "Blood grouping",
+    "Diagnosing infection"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Lipids in plasma are transported:",
+   "options": [
+    "By haemoglobin",
+    "Inside red cells",
+    "Free in plasma only",
+    "By albumin or as lipoproteins"
+   ],
+   "answer": 3,
+   "why": "They are insoluble in water.",
+   "x": 1
+  },
+  {
+   "q": "The peripheral layer of a lipoprotein contains:",
+   "options": [
+    "Only proteins",
+    "Triglycerides and cholesterol esters",
+    "Phospholipids, free cholesterol and apoproteins",
+    "Only triglycerides"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Triglycerides are formed of:",
+   "options": [
+    "Cholesterol and a fatty acid",
+    "Glucose and fatty acids",
+    "Glycerol bound to 3 fatty acids",
+    "Glycerol bound to 2 fatty acids and a phosphate"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Endogenous triglycerides are synthesised from:",
+   "options": [
+    "Bile acids",
+    "Proteins only",
+    "Sugars or alcohol via acetyl-CoA",
+    "Cholesterol"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Triglycerides serve mainly as:",
+   "options": [
+    "Steroid precursors",
+    "The energy reserve in adipocytes and muscle cells",
+    "Membrane building blocks",
+    "Clotting factors"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Exogenous cholesterol comes from foods such as:",
+   "options": [
+    "Fruits",
+    "Cereals only",
+    "Vegetable oils only",
+    "Butter, cheese, eggs and offal"
+   ],
+   "answer": 3,
+   "why": "It is about one third of total cholesterol.",
+   "x": 1
+  },
+  {
+   "q": "Cholesterol is used for:",
+   "options": [
+    "Energy storage mainly",
+    "Cell membranes, steroid hormones and bile acids",
+    "Oxygen transport",
+    "Clotting"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Cholesterol is eliminated:",
+   "options": [
+    "Through the lungs",
+    "Through sweat",
+    "In urine mainly",
+    "In bile, partly recycled by the enterohepatic cycle"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Phospholipids are composed of:",
+   "options": [
+    "A sterol ring",
+    "3 fatty acids",
+    "A hydrophilic head and a hydrophobic tail of 2 fatty acid chains",
+    "Glycerol only"
+   ],
+   "answer": 2,
+   "why": "They form cell membranes.",
+   "x": 1
+  },
+  {
+   "q": "The structural role of apoproteins is to:",
+   "options": [
+    "Store energy",
+    "Keep the lipoprotein complex soluble for transport",
+    "Make bile",
+    "Make hormones"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The metabolic role of apoproteins includes:",
+   "options": [
+    "Storing triglycerides",
+    "Recognising receptors and activating enzymes",
+    "Making cholesterol",
+    "Transporting oxygen"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The number of major apolipoprotein classes is:",
+   "options": [
+    "3",
+    "5 (A, B, C, D, E)",
+    "10",
+    "4"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Apo B48 is characteristic of:",
+   "options": [
+    "LDL",
+    "Chylomicrons",
+    "HDL",
+    "VLDL only"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "HDL is particularly rich in:",
+   "options": [
+    "Cholesterol esters only",
+    "Apo B48",
+    "Triglycerides",
+    "Phospholipids"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "LDL is rich in:",
+   "options": [
+    "Esterified cholesterol",
+    "Apo A",
+    "Phospholipids only",
+    "Triglycerides"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The apoproteins of HDL are:",
+   "options": [
+    "Apo B48 only",
+    "Apo E only",
+    "Apo B100",
+    "Apo A and C"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The apoprotein of VLDL and LDL is:",
+   "options": [
+    "Apo B48",
+    "Apo D",
+    "Apo AI",
+    "Apo B100"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "From chylomicrons to HDL, lipoproteins become:",
+   "options": [
+    "More buoyant",
+    "Less fatty, smaller and denser",
+    "Fattier and larger",
+    "Less dense"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The largest lipoprotein with the highest molecular weight is:",
+   "options": [
+    "IDL",
+    "HDL",
+    "LDL",
+    "The chylomicron"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The density of chylomicrons is:",
+   "options": [
+    "1.019 to 1.063",
+    "1.063 to 1.21",
+    "Less than 0.94",
+    "1.006 to 1.019"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "IDL is also called:",
+   "options": [
+    "VLDL2",
+    "HDL2",
+    "Chylomicron remnant",
+    "LDL1"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The liver synthesises triglycerides from:",
+   "options": [
+    "Amino acids only",
+    "Cholesterol esters",
+    "Glucose and free fatty acids from adipocytes",
+    "Bile acids"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Hepatic cholesterol synthesis is about:",
+   "options": [
+    "8 g/day",
+    "800 mg/day",
+    "80 g/day",
+    "8 mg/day"
+   ],
+   "answer": 1,
+   "why": "From acetyl-CoA.",
+   "x": 1
+  },
+  {
+   "q": "Dietary lipids are mostly:",
+   "options": [
+    "Phospholipids",
+    "Cholesterol",
+    "Free fatty acids",
+    "Triglycerides (over 95%)"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Vegetable fats are rich in:",
+   "options": [
+    "Apo B48",
+    "Cholesterol",
+    "Unsaturated fatty acids",
+    "Saturated fatty acids"
+   ],
+   "answer": 2,
+   "why": "Animal fats are richer in saturated fatty acids.",
+   "x": 1
+  },
+  {
+   "q": "In the stomach and duodenum, dietary triglycerides are digested into:",
+   "options": [
+    "Cholesterol",
+    "Monoglycerides and free fatty acids",
+    "Amino acids",
+    "Glucose"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Digested lipids are absorbed into the enterocyte after solubilisation by:",
+   "options": [
+    "Bile acids",
+    "LCAT",
+    "Albumin",
+    "Insulin"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The enterocyte reassembles absorbed lipids into:",
+   "options": [
+    "Chylomicrons",
+    "HDL",
+    "LDL",
+    "VLDL"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Chylomicrons pass first into:",
+   "options": [
+    "The portal vein directly",
+    "The urine",
+    "The lymph, then the blood",
+    "The bile"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "VLDL are mainly synthesised by:",
+   "options": [
+    "The intestine",
+    "Muscle",
+    "The liver, with endogenous triglycerides",
+    "Adipocytes"
+   ],
+   "answer": 2,
+   "why": "About 20% exogenous.",
+   "x": 1
+  },
+  {
+   "q": "Lipoprotein lipase is located in:",
+   "options": [
+    "The endothelium of capillaries",
+    "The gut lumen",
+    "The kidney",
+    "The liver cell nucleus"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Lipoprotein lipase breaks triglycerides into:",
+   "options": [
+    "Cholesterol esters",
+    "Phospholipids",
+    "Glycerol and fatty acids",
+    "Glucose"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Chylomicron remnants are recognised in the liver by receptors for:",
+   "options": [
+    "Apo CII only",
+    "Apo AI",
+    "Apo D",
+    "Apo B/E"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "VLDL degraded by lipoprotein lipase become:",
+   "options": [
+    "Remnants of HDL",
+    "Chylomicrons",
+    "HDL",
+    "IDL"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "LDL deliver cholesterol to:",
+   "options": [
+    "The urine",
+    "The lungs",
+    "The liver and peripheral tissues",
+    "The gut lumen"
+   ],
+   "answer": 2,
+   "why": "Smooth muscle, adipocytes, fibroblasts.",
+   "x": 1
+  },
+  {
+   "q": "After binding to their receptor, LDL undergo:",
+   "options": [
+    "Excretion in urine",
+    "Conversion into chylomicrons",
+    "Lysosomal hydrolysis of esterified cholesterol",
+    "Oxidation to bile acids directly"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Excess free cholesterol released from cells is captured by:",
+   "options": [
+    "HDL",
+    "VLDL",
+    "LDL",
+    "Chylomicrons"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "LCAT esterifies cholesterol on:",
+   "options": [
+    "Albumin",
+    "HDL",
+    "Chylomicrons",
+    "LDL"
+   ],
+   "answer": 1,
+   "why": "Activated by Apo AI.",
+   "x": 1
+  },
+  {
+   "q": "The anti-atherogenic role of HDL is to:",
+   "options": [
+    "Prevent free cholesterol accumulation in the vessel lumen",
+    "Raise LDL",
+    "Raise triglycerides",
+    "Deliver cholesterol to arteries"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "When HDL receives cholesterol:",
+   "options": [
+    "It shrinks",
+    "It becomes LDL",
+    "It becomes a chylomicron",
+    "Its size increases"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "HDL releases its cholesterol in:",
+   "options": [
+    "The liver or steroidogenic tissues",
+    "Muscle",
+    "The intestine",
+    "The kidney"
+   ],
+   "answer": 0,
+   "why": "Then returns to the blood.",
+   "x": 1
+  },
+  {
+   "q": "The lipid profile is now called:",
+   "options": [
+    "Cardiac profile",
+    "Lipidogram only",
+    "Serum protein electrophoresis",
+    "Exploration of a lipid anomaly (ELA)"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The ELA includes:",
+   "options": [
+    "Troponin and BNP",
+    "Ionogram only",
+    "Serum appearance, TG, total cholesterol, HDL and LDL",
+    "ALT and AST"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Apo AI and B dosages complement the ELA when:",
+   "options": [
+    "Hypertriglyceridaemia is significant or hard to interpret",
+    "Never",
+    "Only in children",
+    "Always first-line"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Before a lipid profile, the patient should rest at least:",
+   "options": [
+    "12 hours",
+    "15 minutes",
+    "1 minute",
+    "2 hours"
+   ],
+   "answer": 1,
+   "why": "And fast at least 12 hours.",
+   "x": 1
+  },
+  {
+   "q": "A lipid profile should be avoided during:",
+   "options": [
+    "Viral hepatitis, infection, surgery or recent infarction",
+    "Pregnancy follow-up only",
+    "Morning hours",
+    "Routine check-ups"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Suitable tubes for a lipid profile are:",
+   "options": [
+    "EDTA with fluoride only",
+    "Thrombin tubes only",
+    "Dry or heparinised tubes",
+    "Citrate only"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A clear serum:",
+   "options": [
+    "Means excess VLDL",
+    "Is normal but does not exclude hypercholesterolaemia",
+    "Means excess chylomicrons",
+    "Excludes all dyslipidaemia"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A cloudy or opalescent serum corresponds to excess:",
+   "options": [
+    "LDL",
+    "Chylomicrons",
+    "HDL",
+    "VLDL or IDL"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A cloudy serum with a creamy supernatant corresponds to excess:",
+   "options": [
+    "HDL only",
+    "VLDL and chylomicrons",
+    "Nothing",
+    "LDL only"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Mentioning the appearance of the serum in the report is:",
+   "options": [
+    "Essential",
+    "Forbidden",
+    "Optional",
+    "Only for children"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The reference value of triglycerides is:",
+   "options": [
+    "0.35 to 0.65 g/L",
+    "1.5 to 2 g/L",
+    "0.5 to 1.5 g/L",
+    "2.2 to 6.5 g/L"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The reference value of total cholesterol is:",
+   "options": [
+    "1.50 to 2 g/L",
+    "0.35 to 0.65 g/L",
+    "3 to 5 g/L",
+    "0.5 to 1.5 g/L"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The reference value of HDL cholesterol is:",
+   "options": [
+    "0.5 to 1.5 g/L",
+    "0.35 to 0.65 g/L",
+    "1.5 to 2 g/L",
+    "Above 2 g/L"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The total cholesterol/HDL ratio must be below:",
+   "options": [
+    "10",
+    "1",
+    "2 in both sexes",
+    "4.9 in men and 4.2 in women"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Friedewald's formula in g/L is:",
+   "options": [
+    "LDL = TC + HDL − TG",
+    "LDL = HDL × 5",
+    "LDL = TC − HDL − TG/5",
+    "LDL = TG/2.2"
+   ],
+   "answer": 2,
+   "why": "In mmol/L, TG/2.2.",
+   "x": 1
+  },
+  {
+   "q": "If triglycerides exceed 3.5 g/L, LDL is:",
+   "options": [
+    "Not needed",
+    "Measured directly or calculated by Planella's formula",
+    "Calculated by Friedewald anyway",
+    "Equal to HDL"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Planella's formula uses:",
+   "options": [
+    "Glucose",
+    "Total cholesterol, TG and apo B",
+    "HDL and TG only",
+    "Apo AI only"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Cardiovascular risk factors for the LDL target include:",
+   "options": [
+    "HDL above 1.5 mmol/L",
+    "Female sex under 40",
+    "Low triglycerides",
+    "Age over 50 in men or 60 in women, smoking and hypertension"
+   ],
+   "answer": 3,
+   "why": "Also early coronary disease history, parental infarction, type 2 diabetes, HDL under 1 mmol/L, microalbuminuria.",
+   "x": 1
+  },
+  {
+   "q": "Without cardiovascular risk factors, the LDL target is below:",
+   "options": [
+    "2.6 mmol/L",
+    "1 mmol/L",
+    "4 mmol/L",
+    "6 mmol/L"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "An HDL below what value counts as a risk factor?",
+   "options": [
+    "1 mmol/L",
+    "2 mmol/L",
+    "0.1 mmol/L",
+    "3 mmol/L"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Microalbuminuria counts as:",
+   "options": [
+    "A cardiovascular risk factor in the LDL target profile",
+    "A protective factor",
+    "A sign of hypothyroidism",
+    "Irrelevant"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Apo AI and B assays are indicated when:",
+   "options": [
+    "Only after an infarction",
+    "Only in children",
+    "Cholesterol and LDL are high with low HDL and/or high TG",
+    "Profile is fully normal"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The most accurate way to assess atherogenic risk is:",
+   "options": [
+    "Serum appearance",
+    "Triglycerides alone",
+    "Assay of apo AI and apo B",
+    "Total cholesterol alone"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The reference value of apo B is:",
+   "options": [
+    "2 to 3 g/L",
+    "0.35 to 0.65 g/L",
+    "0.6 to 1.40 g/L",
+    "Above 1.10 g/L"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The reference value of apo AI is:",
+   "options": [
+    "0.6 to 1.40 g/L",
+    "Below 0.5 g/L",
+    "Above 1.10 g/L",
+    "0.35 to 0.65 g/L"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Atherogenic risk is:",
+   "options": [
+    "Independent of apoproteins",
+    "Proportional to apo AI",
+    "Proportional to apo B and inversely proportional to apo AI",
+    "Proportional to HDL"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Dyslipidaemia is defined as:",
+   "options": [
+    "Raised cholesterol and/or TG, or high LDL with low HDL",
+    "Low cholesterol",
+    "High HDL only",
+    "Low triglycerides only"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Hyperlipoproteinaemias affect about what share of adults over 30?",
+   "options": [
+    "40%",
+    "0.1%",
+    "4%",
+    "90%"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Secondary hyperlipoproteinaemias are caused by:",
+   "options": [
+    "Exercise",
+    "Fasting",
+    "Genetic defects only",
+    "A disease or a drug"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Hypocholesterolaemia is a total cholesterol below:",
+   "options": [
+    "0.35 g/L",
+    "1.30 g/L",
+    "3 g/L",
+    "2 g/L"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A secondary cause of hypocholesterolaemia is:",
+   "options": [
+    "Hyperthyroidism",
+    "Hypothyroidism",
+    "Obesity",
+    "Nephrotic syndrome"
+   ],
+   "answer": 0,
+   "why": "Also severe liver damage.",
+   "x": 1
+  },
+  {
+   "q": "The Fredrickson classification is used to:",
+   "options": [
+    "Stage renal failure",
+    "Differentiate dyslipidaemias",
+    "Classify jaundice",
+    "Classify anaemias"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Type I hyperlipoproteinaemia is mainly made of excess:",
+   "options": [
+    "HDL",
+    "Apo AI",
+    "LDL cholesterol",
+    "Triglycerides carried by chylomicrons"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A patient's serum is creamy on top after standing. The excess lipoprotein is:",
+   "options": [
+    "Chylomicrons",
+    "HDL",
+    "IDL",
+    "LDL"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A patient had a myocardial infarction last week. A lipid profile should be done:",
+   "options": [
+    "Never",
+    "Immediately",
+    "The next day",
+    "3 to 4 months later"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Calculate LDL (g/L): TC 2.40, HDL 0.40, TG 1.50.",
+   "options": [
+    "0.50 g/L",
+    "1.40 g/L",
+    "2.00 g/L",
+    "1.70 g/L"
+   ],
+   "answer": 3,
+   "why": "2.40 − 0.40 − 1.50/5 = 1.70.",
+   "x": 1
+  },
+  {
+   "q": "A smoker with hypertension has LDL 3.2 mmol/L. Compared with the target:",
+   "options": [
+    "It is above the target of 2.6 mmol/L",
+    "Targets do not apply",
+    "It meets the target of 4 mmol/L",
+    "It is too low"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Fatty acids released by lipoprotein lipase can be:",
+   "options": [
+    "Used for energy or stored as reserve triglycerides in adipocytes",
+    "Transformed into HDL",
+    "Excreted in urine",
+    "Converted into glucose by muscle"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Hepatic triglyceride lipase converts:",
+   "options": [
+    "HDL into LDL",
+    "IDL into LDL",
+    "VLDL into IDL",
+    "Chylomicrons into remnants"
+   ],
+   "answer": 1,
+   "why": "Lipoprotein lipase converts VLDL into IDL.",
+   "x": 1
+  },
+  {
+   "q": "Apo CII on chylomicrons and VLDL activates:",
+   "options": [
+    "LCAT",
+    "Hepatic lipase",
+    "HMG-CoA reductase",
+    "Lipoprotein lipase"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
   }
  ],
  "cards": [
@@ -15995,6 +20999,894 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "The arrow points to: Kidney. Reabsorbs 95% of filtered calcium and 90% of filtered phosphate."
+  },
+  {
+   "q": "The most obvious role of calcium and phosphorus is to:",
+   "options": [
+    "Make bile",
+    "Form the mineral load of the skeleton",
+    "Store glycogen",
+    "Carry oxygen"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Calcium is vital for:",
+   "options": [
+    "Oxygen transport",
+    "Iodine uptake",
+    "Neuromuscular excitability and blood clotting",
+    "Bile synthesis"
+   ],
+   "answer": 2,
+   "why": "Also enzymes, membrane transport and hormone action.",
+   "x": 1
+  },
+  {
+   "q": "Phosphorus is involved in:",
+   "options": [
+    "Blood clotting directly",
+    "Thyroid hormone synthesis",
+    "Energy storage as ATP and the acid-base buffer system",
+    "Oxygen transport"
+   ],
+   "answer": 2,
+   "why": "Also phospholipids, nucleic acids, ose-phosphates.",
+   "x": 1
+  },
+  {
+   "q": "The three organs regulating calcium and phosphate are:",
+   "options": [
+    "Spleen, skin and liver",
+    "Bone, intestine and kidney",
+    "Brain, thyroid and pancreas",
+    "Liver, lung and heart"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The three hormones regulating calcium-phosphate balance are:",
+   "options": [
+    "Oestrogen, testosterone and progesterone",
+    "TSH, T3 and T4",
+    "Insulin, glucagon and cortisol",
+    "PTH, calcitonin and vitamin D (calcitriol)"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Calcium needs rise to 1.2 g/day in:",
+   "options": [
+    "Elderly men only",
+    "Growth, pregnancy, lactation, menopause and newborns",
+    "Adult men only",
+    "Fasting"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Dietary sources of calcium include:",
+   "options": [
+    "Milk, cheese and some mineral waters",
+    "Sugar",
+    "Fruit only",
+    "Meat only"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Total body calcium in a normal adult is about:",
+   "options": [
+    "10 kg",
+    "1 kg (25 moles)",
+    "100 g",
+    "600 g"
+   ],
+   "answer": 1,
+   "why": "600 g is the phosphorus content.",
+   "x": 1
+  },
+  {
+   "q": "Outside bone, 1% of body calcium is found in:",
+   "options": [
+    "Red cells only",
+    "Soft tissues and extracellular fluids",
+    "Bile",
+    "Urine only"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The half of serum calcium that cannot be filtered by the kidney is:",
+   "options": [
+    "Inside red cells",
+    "Complexed with salts",
+    "Ionised",
+    "Bound to proteins"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Protein-bound calcium is bound mainly (80%) to:",
+   "options": [
+    "Albumin",
+    "Haemoglobin",
+    "Globulins",
+    "Fibrinogen"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Calcium complexed with salts represents about:",
+   "options": [
+    "50%",
+    "80%",
+    "5% of serum calcium",
+    "45%"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Calcium absorption in the duodenum is favoured by:",
+   "options": [
+    "Lactase",
+    "An acidic environment that solubilises calcium salts",
+    "An alkaline environment",
+    "Bile acids"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Active calcium absorption is:",
+   "options": [
+    "Effective, hormone-dependent and saturable, active when intake is low",
+    "Passive and unlimited",
+    "Independent of vitamin D",
+    "Only in the colon"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Passive calcium absorption takes over when intake reaches about:",
+   "options": [
+    "100 mg/day",
+    "6 g/day",
+    "600 mg/day",
+    "60 mg/day"
+   ],
+   "answer": 2,
+   "why": "It depends on the concentration gradient.",
+   "x": 1
+  },
+  {
+   "q": "Calcium is eliminated in stool from:",
+   "options": [
+    "Bile acids only",
+    "Dietary calcium and digestive juices",
+    "Red cells",
+    "Bone only"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Only which calcium is filtered by the glomerulus?",
+   "options": [
+    "Protein-bound calcium",
+    "All calcium",
+    "Bone calcium",
+    "Ultrafiltrable calcium (about half of blood calcium)"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "When calcaemia is low, the kidney:",
+   "options": [
+    "Stops filtering",
+    "Reabsorbs half",
+    "Reabsorbs all filtered calcium",
+    "Excretes all calcium"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "When calcaemia is high, the kidney reabsorbs:",
+   "options": [
+    "All filtered calcium",
+    "None",
+    "Only half of the filtered calcium",
+    "95% always"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Adult phosphorus needs are about:",
+   "options": [
+    "5 g/day",
+    "1 g/day",
+    "100 mg/day",
+    "10 g/day"
+   ],
+   "answer": 1,
+   "why": "1.2-1.4 g/day in pregnancy or breastfeeding.",
+   "x": 1
+  },
+  {
+   "q": "Phosphorus absorption:",
+   "options": [
+    "Happens only in the colon",
+    "Happens in the stomach",
+    "Occurs in parallel to ingestion",
+    "Is independent of intake"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Passive phosphorus absorption is:",
+   "options": [
+    "Hormone-dependent",
+    "Saturable",
+    "Paracellular, depending on the amount ingested",
+    "Transcellular only"
+   ],
+   "answer": 2,
+   "why": "Active absorption depends on calcitriol.",
+   "x": 1
+  },
+  {
+   "q": "Total body phosphorus is about:",
+   "options": [
+    "1 kg",
+    "60 g",
+    "6 kg",
+    "600 g (0.8% of body mass)"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Intracellular phosphorus represents about:",
+   "options": [
+    "1%",
+    "50%",
+    "14% of body phosphorus",
+    "85%"
+   ],
+   "answer": 2,
+   "why": "Bone 85%, extracellular 1%.",
+   "x": 1
+  },
+  {
+   "q": "Organic phosphorus exists as:",
+   "options": [
+    "Calcium phosphate only",
+    "Free ions only",
+    "HPO4 2- only",
+    "ATP and phospholipids"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Plasma inorganic phosphorus is ultrafilterable in about:",
+   "options": [
+    "50%",
+    "90%",
+    "10%",
+    "100%"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Of ultrafilterable inorganic phosphate, the HPO4 2- form represents:",
+   "options": [
+    "20%",
+    "100%",
+    "80%",
+    "50%"
+   ],
+   "answer": 2,
+   "why": "H2PO4- is 20%.",
+   "x": 1
+  },
+  {
+   "q": "Phosphate is eliminated in stool from:",
+   "options": [
+    "Dietary and endogenous phosphorus",
+    "Bone only",
+    "Urine",
+    "Bile acids"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The hormones of calcium-phosphate balance act on the intestine by:",
+   "options": [
+    "Producing calcium",
+    "Destroying vitamin D",
+    "Increasing or decreasing calcium and phosphate absorption",
+    "Secreting PTH"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "PTH is synthesised by:",
+   "options": [
+    "Thyroid parafollicular cells",
+    "The kidney",
+    "The liver",
+    "Parathyroid cells"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "PTH contains:",
+   "options": [
+    "84 amino acids",
+    "21 amino acids",
+    "51 amino acids",
+    "32 amino acids"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "PTH is cleaved into two fragments in:",
+   "options": [
+    "The bone",
+    "The thyroid",
+    "The liver and kidney",
+    "The intestine"
+   ],
+   "answer": 2,
+   "why": "The N-terminal fragment carries the activity.",
+   "x": 1
+  },
+  {
+   "q": "On bone, PTH:",
+   "options": [
+    "Stops bone turnover",
+    "Stimulates calcium fixation",
+    "Has no action",
+    "Activates decalcification"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "On the kidney, PTH:",
+   "options": [
+    "Decreases calcium reabsorption",
+    "Has no action",
+    "Increases calcium reabsorption and decreases phosphate reabsorption",
+    "Increases phosphate reabsorption"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Calcitonin is synthesised as:",
+   "options": [
+    "A vitamin",
+    "An active steroid",
+    "A glycolipid",
+    "A prohormone cleaved before secretion"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Calcitonin acts on bone by:",
+   "options": [
+    "Releasing phosphate",
+    "Activating decalcification",
+    "Blocking mineralisation",
+    "Stimulating accretion of calcium and phosphate"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Calcitonin acts on the intestine:",
+   "options": [
+    "With no direct action on absorption",
+    "By decreasing phosphate absorption",
+    "By activating vitamin D",
+    "By increasing calcium absorption"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Calcitonin acts on the kidney by:",
+   "options": [
+    "Increasing phosphate reabsorption",
+    "Activating vitamin D",
+    "Decreasing calcium and phosphate reabsorption",
+    "Increasing calcium reabsorption"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The overall action of calcitonin is:",
+   "options": [
+    "Hyperphosphataemic",
+    "Hypercalcaemic",
+    "Hypocalcaemic and hypophosphataemic",
+    "Neutral"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The most active vitamin D3 metabolite is:",
+   "options": [
+    "24,25-dihydroxy-vitamin D",
+    "1,25-dihydroxy-vitamin D3 (calcitriol)",
+    "25-hydroxy-cholecalciferol",
+    "Cholecalciferol"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "On bone, calcitriol:",
+   "options": [
+    "Increases resorption of old bone and mineralisation of new bone",
+    "Only resorbs bone",
+    "Has no action",
+    "Blocks all bone turnover"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "On the kidney, calcitriol:",
+   "options": [
+    "Increases tubular reabsorption of calcium and phosphate (less calciuria)",
+    "Blocks reabsorption",
+    "Increases calciuria",
+    "Has no action"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The overall action of calcitriol is:",
+   "options": [
+    "Hypercalcaemic and hypophosphataemic",
+    "Hypocalcaemic and hypophosphataemic",
+    "Neutral",
+    "Hypercalcaemic and hyperphosphataemic"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Oestrogens:",
+   "options": [
+    "Lower calcium absorption",
+    "Increase calcium absorption and bone mineralisation",
+    "Have no effect on bone",
+    "Decrease bone mineralisation"
+   ],
+   "answer": 1,
+   "why": "They are not regulating hormones of the balance.",
+   "x": 1
+  },
+  {
+   "q": "Thyroid hormones:",
+   "options": [
+    "Lower calcium absorption",
+    "Are the main calcium regulators",
+    "Block bone turnover",
+    "Increase calcium absorption and bone turnover"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Cortisol (e.g. corticotherapy):",
+   "options": [
+    "Has no bone effect",
+    "Increases calcium absorption",
+    "Decreases bone mineralisation and calcium absorption",
+    "Increases bone mineralisation"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Calcaemia should be sampled:",
+   "options": [
+    "At night",
+    "After exercise",
+    "After a meal",
+    "In the morning, fasting"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A long, tight tourniquet falsely raises calcaemia because:",
+   "options": [
+    "Calcium is released by red cells",
+    "Venous stasis concentrates proteins and bound calcium",
+    "It dilutes the blood",
+    "It activates PTH"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Anticoagulants forbidden for calcaemia are:",
+   "options": [
+    "EDTA, citrate and oxalate",
+    "Clot activator",
+    "Heparin",
+    "Separator gel"
+   ],
+   "answer": 0,
+   "why": "They complex calcium.",
+   "x": 1
+  },
+  {
+   "q": "Calcaemia in mg/L is normally:",
+   "options": [
+    "40 to 60 mg/L",
+    "85 to 105 mg/L",
+    "30 to 40 mg/L",
+    "9 to 12 mg/L"
+   ],
+   "answer": 1,
+   "why": "2.25-2.60 mmol/L.",
+   "x": 1
+  },
+  {
+   "q": "24-h urine for calciuria must be collected in:",
+   "options": [
+    "Any metal container",
+    "A plastic or decalcified glass bottle",
+    "An EDTA tube",
+    "A citrate tube"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Correcting calcium is necessary because:",
+   "options": [
+    "Albumin raises PTH",
+    "Calcium is mostly in red cells",
+    "Calcium is unstable",
+    "About 50% of serum calcium is protein-bound"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Corrected calcium = measured calcium + [(40 − albumin)/40]. With Ca 2.10 mmol/L and albumin 20 g/L, corrected calcium is:",
+   "options": [
+    "2.10 mmol/L",
+    "2.60 mmol/L",
+    "3.10 mmol/L",
+    "2.35 mmol/L"
+   ],
+   "answer": 1,
+   "why": "(40 − 20)/40 = 0.5; 2.10 + 0.5 = 2.60.",
+   "x": 1
+  },
+  {
+   "q": "The alternative correction formula divides measured calcium by:",
+   "options": [
+    "0.55 + (proteins g/L / 160)",
+    "40",
+    "Albumin × 2",
+    "Phosphate"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Phosphate sampling should be done:",
+   "options": [
+    "After exercise",
+    "In the morning, fasting",
+    "At any time",
+    "After a meal"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In the lab, only which phosphorus is measured?",
+   "options": [
+    "Inorganic phosphorus",
+    "Organic phosphorus",
+    "Phospholipids",
+    "ATP"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Adult reference values of phosphataemia are:",
+   "options": [
+    "40 to 60 mg/L",
+    "85 to 105 mg/L",
+    "30 to 40 mg/L",
+    "2.25 to 2.60 mg/L"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Child reference values of phosphataemia are:",
+   "options": [
+    "10 to 20 mg/L",
+    "85 to 105 mg/L",
+    "40 to 60 mg/L",
+    "30 to 40 mg/L"
+   ],
+   "answer": 2,
+   "why": "Higher during growth.",
+   "x": 1
+  },
+  {
+   "q": "PTH dosage is mainly of interest in:",
+   "options": [
+    "Anaemia",
+    "Hypercalcaemia",
+    "Jaundice",
+    "Hypoglycaemia"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Organs involved in phosphocalcic metabolism, according to the conclusion, include:",
+   "options": [
+    "Spleen only",
+    "Liver, skin, kidney, bone, intestine and parathyroids",
+    "Heart and lungs only",
+    "Stomach only"
+   ],
+   "answer": 1,
+   "why": "Skin and liver for vitamin D.",
+   "x": 1
+  },
+  {
+   "q": "Phosphocalcic exploration helps screen and diagnose:",
+   "options": [
+    "Only infections",
+    "Bone, endocrine and kidney conditions",
+    "Only heart failure",
+    "Only anaemia"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A patient with primary hyperparathyroidism would show:",
+   "options": [
+    "Normal calcium always",
+    "Low calcium and high phosphate",
+    "High calcium and low phosphate",
+    "Low calcium and low phosphate"
+   ],
+   "answer": 2,
+   "why": "PTH is hypercalcaemic and hypophosphataemic.",
+   "x": 1
+  },
+  {
+   "q": "A patient with vitamin D deficiency tends to have:",
+   "options": [
+    "No change",
+    "High phosphate",
+    "High calcium",
+    "Low calcium and low phosphate absorption"
+   ],
+   "answer": 3,
+   "why": "Calcitriol raises both.",
+   "x": 1
+  },
+  {
+   "q": "Phosphate reabsorption in the proximal tubule competes with:",
+   "options": [
+    "Urea",
+    "Glucose",
+    "Calcium",
+    "Sodium only"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Phosphorus sources include:",
+   "options": [
+    "Fruit only",
+    "Milk, dairy products, eggs and meat",
+    "Sugar",
+    "Water only"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Phosphorus is absorbed:",
+   "options": [
+    "In the colon",
+    "In the duodenum only",
+    "In the stomach",
+    "In the jejunum and ileum, a little further than calcium"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The PTH effect on phosphate in the three tissues is:",
+   "options": [
+    "Absent",
+    "Inverse to its effect on calcium",
+    "Only in bone",
+    "Identical to its effect on calcium"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In hypoalbuminaemia, measured total calcium is:",
+   "options": [
+    "Falsely high",
+    "Always normal",
+    "Unchanged",
+    "Falsely low, so it must be corrected"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Ionised calcium is:",
+   "options": [
+    "Bound to albumin",
+    "Inside bone",
+    "Complexed with phosphate only",
+    "The ultrafiltrable, active form (45% of serum calcium)"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Calcium needs are covered mainly by:",
+   "options": [
+    "Oils",
+    "Cereals",
+    "Meat",
+    "Dairy products"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Calcium reabsorbed by the kidney represents what share of the filtered calcium overall?",
+   "options": [
+    "About 95%",
+    "About 50%",
+    "100% always",
+    "About 10%"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Calcium is the most important electrolyte in the body by:",
+   "options": [
+    "Mass",
+    "Concentration in cells",
+    "Speed of turnover",
+    "Charge"
+   ],
+   "answer": 0,
+   "why": "About 1 kg.",
+   "x": 1
+  },
+  {
+   "q": "The effect of calcitriol on the intestine is:",
+   "options": [
+    "Decreased absorption",
+    "Increased absorption of calcium and phosphorus",
+    "No effect",
+    "Increased loss in stool"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Regarding PTH and the intestine:",
+   "options": [
+    "PTH has no intestinal action",
+    "PTH lowers phosphate absorption only",
+    "PTH blocks intestinal absorption",
+    "PTH activates intestinal calcium absorption"
+   ],
+   "answer": 3,
+   "why": "In the lecture's summary of PTH effects on the three tissues.",
+   "x": 1
   }
  ],
  "cards": [
