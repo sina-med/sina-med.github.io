@@ -542,6 +542,1098 @@ SINA.lectures["chem1-matter"] = {
    ],
    "answer": 2,
    "why": "The arrow points to: Mass defect. The real nucleus is lighter than its separate nucleons; the missing mass is the binding energy."
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ¹H (Z = 1)?",
+   "options": [
+    "0",
+    "2",
+    "1",
+    "3"
+   ],
+   "answer": 0,
+   "why": "N = A − Z = 1 − 1 = 0.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ²H (Z = 1)?",
+   "options": [
+    "0",
+    "3",
+    "2",
+    "1"
+   ],
+   "answer": 3,
+   "why": "N = A − Z = 2 − 1 = 1.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ³H (Z = 1)?",
+   "options": [
+    "3",
+    "4",
+    "1",
+    "2"
+   ],
+   "answer": 3,
+   "why": "N = A − Z = 3 − 1 = 2.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ⁴He (Z = 2)?",
+   "options": [
+    "4",
+    "6",
+    "3",
+    "2"
+   ],
+   "answer": 3,
+   "why": "N = A − Z = 4 − 2 = 2.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ⁷Li (Z = 3)?",
+   "options": [
+    "3",
+    "4",
+    "10",
+    "7"
+   ],
+   "answer": 1,
+   "why": "N = A − Z = 7 − 3 = 4.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ⁹Be (Z = 4)?",
+   "options": [
+    "5",
+    "9",
+    "13",
+    "4"
+   ],
+   "answer": 0,
+   "why": "N = A − Z = 9 − 4 = 5.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ¹¹B (Z = 5)?",
+   "options": [
+    "6",
+    "16",
+    "5",
+    "11"
+   ],
+   "answer": 0,
+   "why": "N = A − Z = 11 − 5 = 6.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ¹²C (Z = 6)?",
+   "options": [
+    "12",
+    "6",
+    "18",
+    "7"
+   ],
+   "answer": 1,
+   "why": "N = A − Z = 12 − 6 = 6.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ¹³C (Z = 6)?",
+   "options": [
+    "7",
+    "13",
+    "6",
+    "19"
+   ],
+   "answer": 0,
+   "why": "N = A − Z = 13 − 6 = 7.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ¹⁴C (Z = 6)?",
+   "options": [
+    "14",
+    "8",
+    "20",
+    "6"
+   ],
+   "answer": 1,
+   "why": "N = A − Z = 14 − 6 = 8.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ¹⁴N (Z = 7)?",
+   "options": [
+    "14",
+    "21",
+    "7",
+    "8"
+   ],
+   "answer": 2,
+   "why": "N = A − Z = 14 − 7 = 7.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ¹⁵N (Z = 7)?",
+   "options": [
+    "7",
+    "15",
+    "8",
+    "22"
+   ],
+   "answer": 2,
+   "why": "N = A − Z = 15 − 7 = 8.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ¹⁶O (Z = 8)?",
+   "options": [
+    "9",
+    "16",
+    "24",
+    "8"
+   ],
+   "answer": 3,
+   "why": "N = A − Z = 16 − 8 = 8.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ¹⁸O (Z = 8)?",
+   "options": [
+    "26",
+    "8",
+    "10",
+    "18"
+   ],
+   "answer": 2,
+   "why": "N = A − Z = 18 − 8 = 10.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ¹⁹F (Z = 9)?",
+   "options": [
+    "19",
+    "28",
+    "10",
+    "9"
+   ],
+   "answer": 2,
+   "why": "N = A − Z = 19 − 9 = 10.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ²³Na (Z = 11)?",
+   "options": [
+    "12",
+    "23",
+    "11",
+    "34"
+   ],
+   "answer": 0,
+   "why": "N = A − Z = 23 − 11 = 12.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ²⁴Mg (Z = 12)?",
+   "options": [
+    "36",
+    "24",
+    "13",
+    "12"
+   ],
+   "answer": 3,
+   "why": "N = A − Z = 24 − 12 = 12.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ²⁷Al (Z = 13)?",
+   "options": [
+    "27",
+    "40",
+    "14",
+    "13"
+   ],
+   "answer": 2,
+   "why": "N = A − Z = 27 − 13 = 14.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ³¹P (Z = 15)?",
+   "options": [
+    "46",
+    "15",
+    "31",
+    "16"
+   ],
+   "answer": 3,
+   "why": "N = A − Z = 31 − 15 = 16.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ³²S (Z = 16)?",
+   "options": [
+    "32",
+    "48",
+    "17",
+    "16"
+   ],
+   "answer": 3,
+   "why": "N = A − Z = 32 − 16 = 16.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ³⁵Cl (Z = 17)?",
+   "options": [
+    "17",
+    "18",
+    "35",
+    "52"
+   ],
+   "answer": 1,
+   "why": "N = A − Z = 35 − 17 = 18.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ³⁷Cl (Z = 17)?",
+   "options": [
+    "17",
+    "20",
+    "37",
+    "54"
+   ],
+   "answer": 1,
+   "why": "N = A − Z = 37 − 17 = 20.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ³⁹K (Z = 19)?",
+   "options": [
+    "39",
+    "58",
+    "19",
+    "20"
+   ],
+   "answer": 3,
+   "why": "N = A − Z = 39 − 19 = 20.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ⁴⁰Ca (Z = 20)?",
+   "options": [
+    "40",
+    "60",
+    "20",
+    "21"
+   ],
+   "answer": 2,
+   "why": "N = A − Z = 40 − 20 = 20.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ⁵⁶Fe (Z = 26)?",
+   "options": [
+    "30",
+    "26",
+    "56",
+    "82"
+   ],
+   "answer": 0,
+   "why": "N = A − Z = 56 − 26 = 30.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ⁶³Cu (Z = 29)?",
+   "options": [
+    "29",
+    "34",
+    "92",
+    "63"
+   ],
+   "answer": 1,
+   "why": "N = A − Z = 63 − 29 = 34.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ⁶⁵Zn (Z = 30)?",
+   "options": [
+    "95",
+    "65",
+    "30",
+    "35"
+   ],
+   "answer": 3,
+   "why": "N = A − Z = 65 − 30 = 35.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in the nucleus of ⁸⁰Br (Z = 35)?",
+   "options": [
+    "80",
+    "45",
+    "115",
+    "35"
+   ],
+   "answer": 1,
+   "why": "N = A − Z = 80 − 35 = 45.",
+   "x": 1
+  },
+  {
+   "q": "How many nucleons does ¹²C contain?",
+   "options": [
+    "18",
+    "13",
+    "6",
+    "12"
+   ],
+   "answer": 3,
+   "why": "The mass number A is the number of nucleons (protons + neutrons).",
+   "x": 1
+  },
+  {
+   "q": "How many nucleons does ¹⁶O contain?",
+   "options": [
+    "8",
+    "16",
+    "24",
+    "17"
+   ],
+   "answer": 1,
+   "why": "The mass number A is the number of nucleons (protons + neutrons).",
+   "x": 1
+  },
+  {
+   "q": "How many nucleons does ³⁵Cl contain?",
+   "options": [
+    "18",
+    "17",
+    "52",
+    "35"
+   ],
+   "answer": 3,
+   "why": "The mass number A is the number of nucleons (protons + neutrons).",
+   "x": 1
+  },
+  {
+   "q": "How many nucleons does ⁵⁶Fe contain?",
+   "options": [
+    "30",
+    "26",
+    "56",
+    "82"
+   ],
+   "answer": 2,
+   "why": "The mass number A is the number of nucleons (protons + neutrons).",
+   "x": 1
+  },
+  {
+   "q": "How many nucleons does ⁴⁰Ca contain?",
+   "options": [
+    "60",
+    "20",
+    "41",
+    "40"
+   ],
+   "answer": 3,
+   "why": "The mass number A is the number of nucleons (protons + neutrons).",
+   "x": 1
+  },
+  {
+   "q": "How many nucleons does ²³Na contain?",
+   "options": [
+    "34",
+    "11",
+    "23",
+    "12"
+   ],
+   "answer": 2,
+   "why": "The mass number A is the number of nucleons (protons + neutrons).",
+   "x": 1
+  },
+  {
+   "q": "How many nucleons does ⁶³Cu contain?",
+   "options": [
+    "29",
+    "92",
+    "63",
+    "34"
+   ],
+   "answer": 2,
+   "why": "The mass number A is the number of nucleons (protons + neutrons).",
+   "x": 1
+  },
+  {
+   "q": "How many nucleons does ³²S contain?",
+   "options": [
+    "33",
+    "32",
+    "16",
+    "48"
+   ],
+   "answer": 1,
+   "why": "The mass number A is the number of nucleons (protons + neutrons).",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does the ion Na⁺ (Z = 11) have?",
+   "options": [
+    "8",
+    "11",
+    "12",
+    "10"
+   ],
+   "answer": 3,
+   "why": "A cation loses electrons, an anion gains them: 11 − 1 = 10.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does the ion Mg²⁺ (Z = 12) have?",
+   "options": [
+    "14",
+    "10",
+    "12",
+    "11"
+   ],
+   "answer": 1,
+   "why": "A cation loses electrons, an anion gains them: 12 − 2 = 10.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does the ion Al³⁺ (Z = 13) have?",
+   "options": [
+    "10",
+    "11",
+    "13",
+    "16"
+   ],
+   "answer": 0,
+   "why": "A cation loses electrons, an anion gains them: 13 − 3 = 10.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does the ion O²⁻ (Z = 8) have?",
+   "options": [
+    "6",
+    "8",
+    "10",
+    "11"
+   ],
+   "answer": 2,
+   "why": "A cation loses electrons, an anion gains them: 8 + 2 = 10.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does the ion F⁻ (Z = 9) have?",
+   "options": [
+    "10",
+    "9",
+    "11",
+    "8"
+   ],
+   "answer": 0,
+   "why": "A cation loses electrons, an anion gains them: 9 + 1 = 10.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does the ion Cl⁻ (Z = 17) have?",
+   "options": [
+    "19",
+    "18",
+    "17",
+    "16"
+   ],
+   "answer": 1,
+   "why": "A cation loses electrons, an anion gains them: 17 + 1 = 18.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does the ion S²⁻ (Z = 16) have?",
+   "options": [
+    "18",
+    "14",
+    "16",
+    "19"
+   ],
+   "answer": 0,
+   "why": "A cation loses electrons, an anion gains them: 16 + 2 = 18.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does the ion Ca²⁺ (Z = 20) have?",
+   "options": [
+    "19",
+    "18",
+    "20",
+    "22"
+   ],
+   "answer": 1,
+   "why": "A cation loses electrons, an anion gains them: 20 − 2 = 18.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does the ion K⁺ (Z = 19) have?",
+   "options": [
+    "19",
+    "16",
+    "20",
+    "18"
+   ],
+   "answer": 3,
+   "why": "A cation loses electrons, an anion gains them: 19 − 1 = 18.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does the ion Fe²⁺ (Z = 26) have?",
+   "options": [
+    "26",
+    "24",
+    "28",
+    "25"
+   ],
+   "answer": 1,
+   "why": "A cation loses electrons, an anion gains them: 26 − 2 = 24.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does the ion Fe³⁺ (Z = 26) have?",
+   "options": [
+    "26",
+    "29",
+    "24",
+    "23"
+   ],
+   "answer": 3,
+   "why": "A cation loses electrons, an anion gains them: 26 − 3 = 23.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does the ion N³⁻ (Z = 7) have?",
+   "options": [
+    "11",
+    "4",
+    "7",
+    "10"
+   ],
+   "answer": 3,
+   "why": "A cation loses electrons, an anion gains them: 7 + 3 = 10.",
+   "x": 1
+  },
+  {
+   "q": "How many moles are in 24 g of carbon (M ≈ 12.01 g/mol)?",
+   "options": [
+    "20 mol",
+    "2 mol",
+    "0.5 mol",
+    "288 mol"
+   ],
+   "answer": 1,
+   "why": "n = m / M = 24 / 12.01 = 2 mol.",
+   "x": 1
+  },
+  {
+   "q": "How many moles are in 5 g of oxygen (M ≈ 16 g/mol)?",
+   "options": [
+    "0.312 mol",
+    "80 mol",
+    "3.12 mol",
+    "3.2 mol"
+   ],
+   "answer": 0,
+   "why": "n = m / M = 5 / 16 = 0.312 mol.",
+   "x": 1
+  },
+  {
+   "q": "How many moles are in 40 g of sodium (M ≈ 22.99 g/mol)?",
+   "options": [
+    "1.74 mol",
+    "0.575 mol",
+    "17.4 mol",
+    "920 mol"
+   ],
+   "answer": 0,
+   "why": "n = m / M = 40 / 22.99 = 1.74 mol.",
+   "x": 1
+  },
+  {
+   "q": "How many moles are in 2 g of magnesium (M ≈ 24.31 g/mol)?",
+   "options": [
+    "0.0823 mol",
+    "12.2 mol",
+    "0.823 mol",
+    "48.6 mol"
+   ],
+   "answer": 0,
+   "why": "n = m / M = 2 / 24.31 = 0.0823 mol.",
+   "x": 1
+  },
+  {
+   "q": "How many moles are in 4 g of chlorine (M ≈ 35.45 g/mol)?",
+   "options": [
+    "1.13 mol",
+    "142 mol",
+    "0.113 mol",
+    "8.86 mol"
+   ],
+   "answer": 2,
+   "why": "n = m / M = 4 / 35.45 = 0.113 mol.",
+   "x": 1
+  },
+  {
+   "q": "How many moles are in 4 g of calcium (M ≈ 40.08 g/mol)?",
+   "options": [
+    "160 mol",
+    "0.998 mol",
+    "0.0998 mol",
+    "10 mol"
+   ],
+   "answer": 2,
+   "why": "n = m / M = 4 / 40.08 = 0.0998 mol.",
+   "x": 1
+  },
+  {
+   "q": "How many moles are in 24 g of iron (M ≈ 55.85 g/mol)?",
+   "options": [
+    "4.3 mol",
+    "2.33 mol",
+    "1.34e+03 mol",
+    "0.43 mol"
+   ],
+   "answer": 3,
+   "why": "n = m / M = 24 / 55.85 = 0.43 mol.",
+   "x": 1
+  },
+  {
+   "q": "How many moles are in 2 g of copper (M ≈ 63.55 g/mol)?",
+   "options": [
+    "0.0315 mol",
+    "0.315 mol",
+    "31.8 mol",
+    "127 mol"
+   ],
+   "answer": 0,
+   "why": "n = m / M = 2 / 63.55 = 0.0315 mol.",
+   "x": 1
+  },
+  {
+   "q": "The mass of one atom of hydrogen (M ≈ 1.008 g/mol) is about:",
+   "options": [
+    "1.008 g",
+    "1.67×10^−24 g",
+    "5.97×10^23 g",
+    "6.07×10^23 g"
+   ],
+   "answer": 1,
+   "why": "Mass of one atom = molar mass / Avogadro's number.",
+   "x": 1
+  },
+  {
+   "q": "The mass of one atom of carbon (M ≈ 12.01 g/mol) is about:",
+   "options": [
+    "5.01×10^22 g",
+    "2×10^−23 g",
+    "12.01 g",
+    "7.23×10^24 g"
+   ],
+   "answer": 1,
+   "why": "Mass of one atom = molar mass / Avogadro's number.",
+   "x": 1
+  },
+  {
+   "q": "The mass of one atom of oxygen (M ≈ 16 g/mol) is about:",
+   "options": [
+    "3.76×10^22 g",
+    "9.63×10^24 g",
+    "16 g",
+    "2.66×10^−23 g"
+   ],
+   "answer": 3,
+   "why": "Mass of one atom = molar mass / Avogadro's number.",
+   "x": 1
+  },
+  {
+   "q": "The mass of one atom of magnesium (M ≈ 24.31 g/mol) is about:",
+   "options": [
+    "1.46×10^25 g",
+    "24.31 g",
+    "4.04×10^−23 g",
+    "2.48×10^22 g"
+   ],
+   "answer": 2,
+   "why": "Mass of one atom = molar mass / Avogadro's number.",
+   "x": 1
+  },
+  {
+   "q": "The mass of one atom of iron (M ≈ 55.85 g/mol) is about:",
+   "options": [
+    "3.36×10^25 g",
+    "1.08×10^22 g",
+    "9.28×10^−23 g",
+    "55.85 g"
+   ],
+   "answer": 2,
+   "why": "Mass of one atom = molar mass / Avogadro's number.",
+   "x": 1
+  },
+  {
+   "q": "How many atoms are in 0.5 mol of an element?",
+   "options": [
+    "6.02×10^23",
+    "8.31×10^−25",
+    "5×10^22",
+    "3.01×10^23"
+   ],
+   "answer": 3,
+   "why": "N = n × Nₐ.",
+   "x": 1
+  },
+  {
+   "q": "How many atoms are in 2 mol of an element?",
+   "options": [
+    "6.02×10^23",
+    "2×10^23",
+    "3.32×10^−24",
+    "1.2×10^24"
+   ],
+   "answer": 3,
+   "why": "N = n × Nₐ.",
+   "x": 1
+  },
+  {
+   "q": "How many atoms are in 0.1 mol of an element?",
+   "options": [
+    "6.02×10^23",
+    "1×10^22",
+    "1.66×10^−25",
+    "6.02×10^22"
+   ],
+   "answer": 3,
+   "why": "N = n × Nₐ.",
+   "x": 1
+  },
+  {
+   "q": "How many atoms are in 3 mol of an element?",
+   "options": [
+    "6.02×10^23",
+    "3×10^23",
+    "1.81×10^24",
+    "4.98×10^−24"
+   ],
+   "answer": 2,
+   "why": "N = n × Nₐ.",
+   "x": 1
+  },
+  {
+   "q": "Which particle has a negative charge?",
+   "options": [
+    "The nucleus",
+    "The electron",
+    "The proton",
+    "The neutron"
+   ],
+   "answer": 1,
+   "why": "q = −1.602 × 10⁻¹⁹ C.",
+   "x": 1
+  },
+  {
+   "q": "The electron mass is about:",
+   "options": [
+    "1.675 × 10⁻²⁷ kg",
+    "9.109 × 10⁻³¹ kg",
+    "1.602 × 10⁻¹⁹ kg",
+    "1.673 × 10⁻²⁷ kg"
+   ],
+   "answer": 1,
+   "why": "The proton and neutron are about 1836 and 1839 times heavier.",
+   "x": 1
+  },
+  {
+   "q": "Nucleons are:",
+   "options": [
+    "Only protons",
+    "Electrons and neutrons",
+    "Protons and electrons",
+    "Protons and neutrons"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The element is identified by:",
+   "options": [
+    "Its atomic number Z",
+    "Its molar mass",
+    "Its number of neutrons",
+    "Its mass number A"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In a neutral atom, the number of electrons equals:",
+   "options": [
+    "The number of protons",
+    "A − Z",
+    "The mass number",
+    "The number of neutrons"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The size of an atom is set by:",
+   "options": [
+    "Its nucleus",
+    "Its mass number",
+    "Its electron distribution",
+    "Its neutrons"
+   ],
+   "answer": 2,
+   "why": "Nuclei are tiny but hold almost all the mass.",
+   "x": 1
+  },
+  {
+   "q": "The mass defect of a nucleus corresponds to:",
+   "options": [
+    "Isotopic abundance",
+    "The energy released when it forms from its nucleons",
+    "Missing protons",
+    "Extra electrons"
+   ],
+   "answer": 1,
+   "why": "ΔE = Δm·c².",
+   "x": 1
+  },
+  {
+   "q": "The neutron mass is about:",
+   "options": [
+    "9.109 × 10⁻³¹ kg",
+    "1.675 × 10⁻²⁷ kg (1839 mₑ)",
+    "1.602 × 10⁻¹⁹ kg",
+    "1 g"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Matter exists in how many usual phases?",
+   "options": [
+    "Two",
+    "One",
+    "Four",
+    "Three: solid, liquid, gas"
+   ],
+   "answer": 3,
+   "why": "Water can be in all three at once.",
+   "x": 1
+  },
+  {
+   "q": "Chemical bonding arises from:",
+   "options": [
+    "Nuclear forces only",
+    "Electrical forces between electrons and nuclei and sharing of electrons",
+    "Gravity",
+    "Magnetism only"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The atomic mass of an element is the mass of:",
+   "options": [
+    "One atom",
+    "One mole of its atoms",
+    "One gram",
+    "One proton"
+   ],
+   "answer": 1,
+   "why": "A gram-atom.",
+   "x": 1
+  },
+  {
+   "q": "The reference for the atomic mass scale is:",
+   "options": [
+    "Carbon-12",
+    "Hydrogen-1",
+    "Iron-56",
+    "Oxygen-16"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Isotopes of an element differ in:",
+   "options": [
+    "Their atomic number",
+    "Their number of protons",
+    "Their number of neutrons",
+    "Their chemical properties"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "1 u expressed in grams is about:",
+   "options": [
+    "1 g",
+    "6.02 × 10²³ g",
+    "12 g",
+    "1.66 × 10⁻²⁴ g"
+   ],
+   "answer": 3,
+   "why": "1/12 of the mass of a ¹²C atom.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in ⁶Li (Z = 3)?",
+   "options": [
+    "9",
+    "3",
+    "6",
+    "5"
+   ],
+   "answer": 1,
+   "why": "N = A − Z = 3.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in ²⁰Ne (Z = 10)?",
+   "options": [
+    "12",
+    "20",
+    "30",
+    "10"
+   ],
+   "answer": 3,
+   "why": "N = A − Z = 10.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in ²²Ne (Z = 10)?",
+   "options": [
+    "12",
+    "32",
+    "22",
+    "10"
+   ],
+   "answer": 0,
+   "why": "N = A − Z = 12.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in ²⁶Mg (Z = 12)?",
+   "options": [
+    "14",
+    "12",
+    "26",
+    "38"
+   ],
+   "answer": 0,
+   "why": "N = A − Z = 14.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in ²⁸Si (Z = 14)?",
+   "options": [
+    "14",
+    "42",
+    "28",
+    "16"
+   ],
+   "answer": 0,
+   "why": "N = A − Z = 14.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in ⁴⁰Ar (Z = 18)?",
+   "options": [
+    "40",
+    "22",
+    "58",
+    "18"
+   ],
+   "answer": 1,
+   "why": "N = A − Z = 22.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in ⁴⁴Ca (Z = 20)?",
+   "options": [
+    "64",
+    "44",
+    "20",
+    "24"
+   ],
+   "answer": 3,
+   "why": "N = A − Z = 24.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in ⁵²Cr (Z = 24)?",
+   "options": [
+    "52",
+    "24",
+    "76",
+    "28"
+   ],
+   "answer": 3,
+   "why": "N = A − Z = 28.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in ⁵⁹Co (Z = 27)?",
+   "options": [
+    "86",
+    "59",
+    "32",
+    "27"
+   ],
+   "answer": 2,
+   "why": "N = A − Z = 32.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in ⁵⁸Ni (Z = 28)?",
+   "options": [
+    "30",
+    "58",
+    "28",
+    "86"
+   ],
+   "answer": 0,
+   "why": "N = A − Z = 30.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in ⁸⁴Kr (Z = 36)?",
+   "options": [
+    "48",
+    "84",
+    "120",
+    "36"
+   ],
+   "answer": 0,
+   "why": "N = A − Z = 48.",
+   "x": 1
+  },
+  {
+   "q": "How many neutrons are in ³²P (Z = 15)?",
+   "options": [
+    "17",
+    "32",
+    "15",
+    "47"
+   ],
+   "answer": 0,
+   "why": "N = A − Z = 17.",
+   "x": 1
   }
  ],
  "cards": [
@@ -1179,6 +2271,1050 @@ SINA.lectures["chem1-bohr"] = {
    ],
    "answer": 2,
    "why": "The arrow points to: Balmer series. Lines ending on n = 2; the four visible lines seen in the discharge tube."
+  },
+  {
+   "q": "The energy of hydrogen's level n = 1 is:",
+   "options": [
+    "−12.6 eV",
+    "−13.6 eV",
+    "13.6 eV",
+    "0 eV"
+   ],
+   "answer": 1,
+   "why": "Eₙ = −13.6 / n² eV.",
+   "x": 1
+  },
+  {
+   "q": "The energy of hydrogen's level n = 2 is:",
+   "options": [
+    "−6.8 eV",
+    "−54.4 eV",
+    "3.4 eV",
+    "−3.4 eV"
+   ],
+   "answer": 3,
+   "why": "Eₙ = −13.6 / n² eV.",
+   "x": 1
+  },
+  {
+   "q": "The energy of hydrogen's level n = 3 is:",
+   "options": [
+    "1.51 eV",
+    "−1.51 eV",
+    "−122 eV",
+    "−4.53 eV"
+   ],
+   "answer": 1,
+   "why": "Eₙ = −13.6 / n² eV.",
+   "x": 1
+  },
+  {
+   "q": "The energy of hydrogen's level n = 4 is:",
+   "options": [
+    "0.85 eV",
+    "−218 eV",
+    "−3.4 eV",
+    "−0.85 eV"
+   ],
+   "answer": 3,
+   "why": "Eₙ = −13.6 / n² eV.",
+   "x": 1
+  },
+  {
+   "q": "The energy of hydrogen's level n = 5 is:",
+   "options": [
+    "−340 eV",
+    "−2.72 eV",
+    "−0.544 eV",
+    "0.544 eV"
+   ],
+   "answer": 2,
+   "why": "Eₙ = −13.6 / n² eV.",
+   "x": 1
+  },
+  {
+   "q": "The energy of hydrogen's level n = 6 is:",
+   "options": [
+    "−2.27 eV",
+    "−490 eV",
+    "−0.378 eV",
+    "0.378 eV"
+   ],
+   "answer": 2,
+   "why": "Eₙ = −13.6 / n² eV.",
+   "x": 1
+  },
+  {
+   "q": "In hydrogen, an electron falls from n = 2 to n = 1. The energy of the emitted photon is:",
+   "options": [
+    "3.4 eV",
+    "17 eV",
+    "10.2 eV",
+    "6.8 eV"
+   ],
+   "answer": 2,
+   "why": "ΔE = 13.6 (1/1² − 1/2²) = 10.2 eV.",
+   "x": 1
+  },
+  {
+   "q": "In hydrogen, an electron falls from n = 3 to n = 1. The energy of the emitted photon is:",
+   "options": [
+    "1.51 eV",
+    "12.1 eV",
+    "9.07 eV",
+    "15.1 eV"
+   ],
+   "answer": 1,
+   "why": "ΔE = 13.6 (1/1² − 1/3²) = 12.1 eV.",
+   "x": 1
+  },
+  {
+   "q": "In hydrogen, an electron falls from n = 4 to n = 1. The energy of the emitted photon is:",
+   "options": [
+    "10.2 eV",
+    "14.4 eV",
+    "0.85 eV",
+    "12.8 eV"
+   ],
+   "answer": 3,
+   "why": "ΔE = 13.6 (1/1² − 1/4²) = 12.8 eV.",
+   "x": 1
+  },
+  {
+   "q": "In hydrogen, an electron falls from n = 3 to n = 2. The energy of the emitted photon is:",
+   "options": [
+    "4.91 eV",
+    "1.51 eV",
+    "2.27 eV",
+    "1.89 eV"
+   ],
+   "answer": 3,
+   "why": "ΔE = 13.6 (1/2² − 1/3²) = 1.89 eV.",
+   "x": 1
+  },
+  {
+   "q": "In hydrogen, an electron falls from n = 4 to n = 2. The energy of the emitted photon is:",
+   "options": [
+    "0.85 eV",
+    "3.4 eV",
+    "4.25 eV",
+    "2.55 eV"
+   ],
+   "answer": 3,
+   "why": "ΔE = 13.6 (1/2² − 1/4²) = 2.55 eV.",
+   "x": 1
+  },
+  {
+   "q": "In hydrogen, an electron falls from n = 5 to n = 2. The energy of the emitted photon is:",
+   "options": [
+    "3.94 eV",
+    "4.08 eV",
+    "0.544 eV",
+    "2.86 eV"
+   ],
+   "answer": 3,
+   "why": "ΔE = 13.6 (1/2² − 1/5²) = 2.86 eV.",
+   "x": 1
+  },
+  {
+   "q": "In hydrogen, an electron falls from n = 6 to n = 2. The energy of the emitted photon is:",
+   "options": [
+    "0.378 eV",
+    "4.53 eV",
+    "3.78 eV",
+    "3.02 eV"
+   ],
+   "answer": 3,
+   "why": "ΔE = 13.6 (1/2² − 1/6²) = 3.02 eV.",
+   "x": 1
+  },
+  {
+   "q": "In hydrogen, an electron falls from n = 4 to n = 3. The energy of the emitted photon is:",
+   "options": [
+    "0.85 eV",
+    "0.661 eV",
+    "1.13 eV",
+    "2.36 eV"
+   ],
+   "answer": 1,
+   "why": "ΔE = 13.6 (1/3² − 1/4²) = 0.661 eV.",
+   "x": 1
+  },
+  {
+   "q": "In hydrogen, an electron falls from n = 5 to n = 3. The energy of the emitted photon is:",
+   "options": [
+    "1.81 eV",
+    "0.967 eV",
+    "2.06 eV",
+    "0.544 eV"
+   ],
+   "answer": 1,
+   "why": "ΔE = 13.6 (1/3² − 1/5²) = 0.967 eV.",
+   "x": 1
+  },
+  {
+   "q": "In hydrogen, an electron falls from n = 5 to n = 4. The energy of the emitted photon is:",
+   "options": [
+    "0.544 eV",
+    "1.39 eV",
+    "0.68 eV",
+    "0.306 eV"
+   ],
+   "answer": 3,
+   "why": "ΔE = 13.6 (1/4² − 1/5²) = 0.306 eV.",
+   "x": 1
+  },
+  {
+   "q": "In hydrogen, an electron falls from n = 6 to n = 1. The energy of the emitted photon is:",
+   "options": [
+    "11.3 eV",
+    "0.378 eV",
+    "14 eV",
+    "13.2 eV"
+   ],
+   "answer": 3,
+   "why": "ΔE = 13.6 (1/1² − 1/6²) = 13.2 eV.",
+   "x": 1
+  },
+  {
+   "q": "In hydrogen, an electron falls from n = 6 to n = 3. The energy of the emitted photon is:",
+   "options": [
+    "2.27 eV",
+    "1.13 eV",
+    "1.89 eV",
+    "0.378 eV"
+   ],
+   "answer": 1,
+   "why": "ΔE = 13.6 (1/3² − 1/6²) = 1.13 eV.",
+   "x": 1
+  },
+  {
+   "q": "The hydrogen transition n = 2 → n = 1 belongs to the:",
+   "options": [
+    "Lyman series",
+    "Brackett series",
+    "Balmer series",
+    "Paschen series"
+   ],
+   "answer": 0,
+   "why": "The series is named after the lower level (n = 1).",
+   "x": 1
+  },
+  {
+   "q": "The hydrogen transition n = 5 → n = 1 belongs to the:",
+   "options": [
+    "Paschen series",
+    "Balmer series",
+    "Lyman series",
+    "Brackett series"
+   ],
+   "answer": 2,
+   "why": "The series is named after the lower level (n = 1).",
+   "x": 1
+  },
+  {
+   "q": "The hydrogen transition n = 3 → n = 2 belongs to the:",
+   "options": [
+    "Brackett series",
+    "Balmer series",
+    "Paschen series",
+    "Lyman series"
+   ],
+   "answer": 1,
+   "why": "The series is named after the lower level (n = 2).",
+   "x": 1
+  },
+  {
+   "q": "The hydrogen transition n = 6 → n = 2 belongs to the:",
+   "options": [
+    "Brackett series",
+    "Balmer series",
+    "Paschen series",
+    "Lyman series"
+   ],
+   "answer": 1,
+   "why": "The series is named after the lower level (n = 2).",
+   "x": 1
+  },
+  {
+   "q": "The hydrogen transition n = 4 → n = 3 belongs to the:",
+   "options": [
+    "Balmer series",
+    "Brackett series",
+    "Lyman series",
+    "Paschen series"
+   ],
+   "answer": 3,
+   "why": "The series is named after the lower level (n = 3).",
+   "x": 1
+  },
+  {
+   "q": "The hydrogen transition n = 7 → n = 3 belongs to the:",
+   "options": [
+    "Paschen series",
+    "Brackett series",
+    "Balmer series",
+    "Lyman series"
+   ],
+   "answer": 0,
+   "why": "The series is named after the lower level (n = 3).",
+   "x": 1
+  },
+  {
+   "q": "The hydrogen transition n = 5 → n = 4 belongs to the:",
+   "options": [
+    "Brackett series",
+    "Lyman series",
+    "Paschen series",
+    "Balmer series"
+   ],
+   "answer": 0,
+   "why": "The series is named after the lower level (n = 4).",
+   "x": 1
+  },
+  {
+   "q": "The hydrogen transition n = 6 → n = 5 belongs to the:",
+   "options": [
+    "Pfund series",
+    "Balmer series",
+    "Lyman series",
+    "Paschen series"
+   ],
+   "answer": 0,
+   "why": "The series is named after the lower level (n = 5).",
+   "x": 1
+  },
+  {
+   "q": "The hydrogen transition n = 4 → n = 2 belongs to the:",
+   "options": [
+    "Brackett series",
+    "Paschen series",
+    "Balmer series",
+    "Lyman series"
+   ],
+   "answer": 2,
+   "why": "The series is named after the lower level (n = 2).",
+   "x": 1
+  },
+  {
+   "q": "The hydrogen transition n = 3 → n = 1 belongs to the:",
+   "options": [
+    "Brackett series",
+    "Paschen series",
+    "Balmer series",
+    "Lyman series"
+   ],
+   "answer": 3,
+   "why": "The series is named after the lower level (n = 1).",
+   "x": 1
+  },
+  {
+   "q": "The energy of the level n = 1 of the hydrogen-like ion He⁺ (Z = 2) is:",
+   "options": [
+    "54.4 eV",
+    "−27.2 eV",
+    "−54.4 eV",
+    "−13.6 eV"
+   ],
+   "answer": 2,
+   "why": "Eₙ = −13.6 Z² / n² eV.",
+   "x": 1
+  },
+  {
+   "q": "The energy of the level n = 2 of the hydrogen-like ion He⁺ (Z = 2) is:",
+   "options": [
+    "−13.6 eV",
+    "13.6 eV",
+    "−6.8 eV",
+    "−3.4 eV"
+   ],
+   "answer": 0,
+   "why": "Eₙ = −13.6 Z² / n² eV.",
+   "x": 1
+  },
+  {
+   "q": "The ionisation energy of He⁺ from its ground state is:",
+   "options": [
+    "13.6 eV",
+    "54.4 eV",
+    "3.4 eV",
+    "27.2 eV"
+   ],
+   "answer": 1,
+   "why": "Eᵢ = 13.6 Z² eV.",
+   "x": 1
+  },
+  {
+   "q": "The energy of the level n = 1 of the hydrogen-like ion Li²⁺ (Z = 3) is:",
+   "options": [
+    "122 eV",
+    "−13.6 eV",
+    "−40.8 eV",
+    "−122 eV"
+   ],
+   "answer": 3,
+   "why": "Eₙ = −13.6 Z² / n² eV.",
+   "x": 1
+  },
+  {
+   "q": "The energy of the level n = 2 of the hydrogen-like ion Li²⁺ (Z = 3) is:",
+   "options": [
+    "−30.6 eV",
+    "−3.4 eV",
+    "30.6 eV",
+    "−10.2 eV"
+   ],
+   "answer": 0,
+   "why": "Eₙ = −13.6 Z² / n² eV.",
+   "x": 1
+  },
+  {
+   "q": "The ionisation energy of Li²⁺ from its ground state is:",
+   "options": [
+    "13.6 eV",
+    "122 eV",
+    "40.8 eV",
+    "1.51 eV"
+   ],
+   "answer": 1,
+   "why": "Eᵢ = 13.6 Z² eV.",
+   "x": 1
+  },
+  {
+   "q": "The energy of the level n = 1 of the hydrogen-like ion Be³⁺ (Z = 4) is:",
+   "options": [
+    "−13.6 eV",
+    "218 eV",
+    "−218 eV",
+    "−54.4 eV"
+   ],
+   "answer": 2,
+   "why": "Eₙ = −13.6 Z² / n² eV.",
+   "x": 1
+  },
+  {
+   "q": "The energy of the level n = 2 of the hydrogen-like ion Be³⁺ (Z = 4) is:",
+   "options": [
+    "−3.4 eV",
+    "−13.6 eV",
+    "54.4 eV",
+    "−54.4 eV"
+   ],
+   "answer": 3,
+   "why": "Eₙ = −13.6 Z² / n² eV.",
+   "x": 1
+  },
+  {
+   "q": "The ionisation energy of Be³⁺ from its ground state is:",
+   "options": [
+    "54.4 eV",
+    "13.6 eV",
+    "218 eV",
+    "0.85 eV"
+   ],
+   "answer": 2,
+   "why": "Eᵢ = 13.6 Z² eV.",
+   "x": 1
+  },
+  {
+   "q": "The Bohr radius of orbit n = 1 for H (Z = 1) is about:",
+   "options": [
+    "5.3 Å",
+    "0.53 Å",
+    "1.06 Å",
+    "1.53 Å"
+   ],
+   "answer": 1,
+   "why": "rₙ = 0.53 n² / Z Å.",
+   "x": 1
+  },
+  {
+   "q": "The Bohr radius of orbit n = 2 for H (Z = 1) is about:",
+   "options": [
+    "2.12 Å",
+    "1.06 Å",
+    "21.2 Å",
+    "0.133 Å"
+   ],
+   "answer": 0,
+   "why": "rₙ = 0.53 n² / Z Å.",
+   "x": 1
+  },
+  {
+   "q": "The Bohr radius of orbit n = 3 for H (Z = 1) is about:",
+   "options": [
+    "4.77 Å",
+    "1.59 Å",
+    "0.0589 Å",
+    "47.7 Å"
+   ],
+   "answer": 0,
+   "why": "rₙ = 0.53 n² / Z Å.",
+   "x": 1
+  },
+  {
+   "q": "The Bohr radius of orbit n = 1 for He⁺ (Z = 2) is about:",
+   "options": [
+    "2.65 Å",
+    "1.06 Å",
+    "0.53 Å",
+    "0.265 Å"
+   ],
+   "answer": 3,
+   "why": "rₙ = 0.53 n² / Z Å.",
+   "x": 1
+  },
+  {
+   "q": "The Bohr radius of orbit n = 2 for He⁺ (Z = 2) is about:",
+   "options": [
+    "0.53 Å",
+    "0.265 Å",
+    "4.24 Å",
+    "1.06 Å"
+   ],
+   "answer": 3,
+   "why": "rₙ = 0.53 n² / Z Å.",
+   "x": 1
+  },
+  {
+   "q": "The Bohr radius of orbit n = 3 for He⁺ (Z = 2) is about:",
+   "options": [
+    "0.795 Å",
+    "2.39 Å",
+    "0.118 Å",
+    "9.54 Å"
+   ],
+   "answer": 1,
+   "why": "rₙ = 0.53 n² / Z Å.",
+   "x": 1
+  },
+  {
+   "q": "The Bohr radius of orbit n = 1 for Li²⁺ (Z = 3) is about:",
+   "options": [
+    "0.353 Å",
+    "1.59 Å",
+    "1.77 Å",
+    "0.177 Å"
+   ],
+   "answer": 3,
+   "why": "rₙ = 0.53 n² / Z Å.",
+   "x": 1
+  },
+  {
+   "q": "The Bohr radius of orbit n = 2 for Li²⁺ (Z = 3) is about:",
+   "options": [
+    "6.36 Å",
+    "0.707 Å",
+    "0.398 Å",
+    "0.353 Å"
+   ],
+   "answer": 1,
+   "why": "rₙ = 0.53 n² / Z Å.",
+   "x": 1
+  },
+  {
+   "q": "The Bohr radius of orbit n = 3 for Li²⁺ (Z = 3) is about:",
+   "options": [
+    "14.3 Å",
+    "0.53 Å",
+    "1.59 Å",
+    "0.177 Å"
+   ],
+   "answer": 2,
+   "why": "rₙ = 0.53 n² / Z Å.",
+   "x": 1
+  },
+  {
+   "q": "When an electron moves from n = 2 to n = 4, the atom:",
+   "options": [
+    "Emits a photon",
+    "Is ionised",
+    "Absorbs a photon",
+    "Loses mass"
+   ],
+   "answer": 2,
+   "why": "Raising n is absorption.",
+   "x": 1
+  },
+  {
+   "q": "When an electron moves from n = 5 to n = 2, the atom:",
+   "options": [
+    "Gains an electron",
+    "Emits a photon",
+    "Is ionised",
+    "Absorbs a photon"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Planck's constant h is about:",
+   "options": [
+    "6.02 × 10²³ J·s",
+    "6.626 × 10⁻³⁴ J·s",
+    "1.602 × 10⁻¹⁹ J·s",
+    "3 × 10⁸ J·s"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The ionisation limit of hydrogen corresponds to:",
+   "options": [
+    "n = 0",
+    "n = 2",
+    "n = 1, E = −13.6 eV",
+    "n = ∞, E = 0"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Bohr's quantisation condition is:",
+   "options": [
+    "λ = h/mv",
+    "E = mc²",
+    "mvr = n·h/2π",
+    "Δx·Δp ≥ h/2π"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In Rutherford's model, electrons are held by:",
+   "options": [
+    "Gravity",
+    "Electrostatic attraction to the nucleus",
+    "Nuclear force",
+    "Magnetism"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The hydrogen spectrum is obtained by:",
+   "options": [
+    "Burning hydrogen in air",
+    "Heating iron",
+    "X-ray diffraction",
+    "An electric discharge through low-pressure hydrogen, split by a prism"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "According to classical physics, an orbiting electron should:",
+   "options": [
+    "Leave the atom",
+    "Radiate continuously and spiral into the nucleus",
+    "Gain energy",
+    "Stay still"
+   ],
+   "answer": 1,
+   "why": "Hence the failure of Rutherford's model.",
+   "x": 1
+  },
+  {
+   "q": "A hydrogen-like ion has:",
+   "options": [
+    "Two electrons",
+    "Only one electron with Z > 1",
+    "Z = 1 only",
+    "No electrons"
+   ],
+   "answer": 1,
+   "why": "He⁺, Li²⁺, Be³⁺.",
+   "x": 1
+  },
+  {
+   "q": "The ground state of hydrogen is the level:",
+   "options": [
+    "n = 0",
+    "n = 2",
+    "n = ∞",
+    "n = 1"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The energy exchanged in a transition is:",
+   "options": [
+    "ΔE = h/ν",
+    "|ΔE| = hν",
+    "ΔE = 0",
+    "ΔE = mc"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Using λ(nm) = 1240 / ΔE(eV), the wavelength emitted by hydrogen for n = 2 → 1 is about:",
+   "options": [
+    "60.8 nm",
+    "1.26e+04 nm",
+    "243 nm",
+    "122 nm"
+   ],
+   "answer": 3,
+   "why": "ΔE = 10.2 eV.",
+   "x": 1
+  },
+  {
+   "q": "Using λ(nm) = 1240 / ΔE(eV), the wavelength emitted by hydrogen for n = 3 → 1 is about:",
+   "options": [
+    "1.5e+04 nm",
+    "51.3 nm",
+    "205 nm",
+    "103 nm"
+   ],
+   "answer": 3,
+   "why": "ΔE = 12.1 eV.",
+   "x": 1
+  },
+  {
+   "q": "Using λ(nm) = 1240 / ΔE(eV), the wavelength emitted by hydrogen for n = 3 → 2 is about:",
+   "options": [
+    "656 nm",
+    "328 nm",
+    "2.34e+03 nm",
+    "1.31e+03 nm"
+   ],
+   "answer": 0,
+   "why": "ΔE = 1.89 eV.",
+   "x": 1
+  },
+  {
+   "q": "Using λ(nm) = 1240 / ΔE(eV), the wavelength emitted by hydrogen for n = 4 → 2 is about:",
+   "options": [
+    "486 nm",
+    "243 nm",
+    "973 nm",
+    "3.16e+03 nm"
+   ],
+   "answer": 0,
+   "why": "ΔE = 2.55 eV.",
+   "x": 1
+  },
+  {
+   "q": "Using λ(nm) = 1240 / ΔE(eV), the wavelength emitted by hydrogen for n = 5 → 2 is about:",
+   "options": [
+    "217 nm",
+    "868 nm",
+    "434 nm",
+    "3.54e+03 nm"
+   ],
+   "answer": 2,
+   "why": "ΔE = 2.86 eV.",
+   "x": 1
+  },
+  {
+   "q": "Using λ(nm) = 1240 / ΔE(eV), the wavelength emitted by hydrogen for n = 4 → 3 is about:",
+   "options": [
+    "820 nm",
+    "938 nm",
+    "3.75e+03 nm",
+    "1.88e+03 nm"
+   ],
+   "answer": 3,
+   "why": "ΔE = 0.661 eV.",
+   "x": 1
+  },
+  {
+   "q": "Using λ(nm) = 1240 / ΔE(eV), the wavelength emitted by hydrogen for n = 6 → 2 is about:",
+   "options": [
+    "410 nm",
+    "205 nm",
+    "3.75e+03 nm",
+    "821 nm"
+   ],
+   "answer": 0,
+   "why": "ΔE = 3.02 eV.",
+   "x": 1
+  },
+  {
+   "q": "Using λ(nm) = 1240 / ΔE(eV), the wavelength emitted by hydrogen for n = 5 → 1 is about:",
+   "options": [
+    "47.5 nm",
+    "95 nm",
+    "1.62e+04 nm",
+    "190 nm"
+   ],
+   "answer": 1,
+   "why": "ΔE = 13.1 eV.",
+   "x": 1
+  },
+  {
+   "q": "Is the n = 3 → 2 hydrogen line in the visible range?",
+   "options": [
+    "No, it is infrared (Paschen)",
+    "No, it is ultraviolet (Lyman)",
+    "Only for He⁺",
+    "Yes, it is a Balmer line"
+   ],
+   "answer": 3,
+   "why": "The four visible lines end on n = 2.",
+   "x": 1
+  },
+  {
+   "q": "Is the n = 4 → 2 hydrogen line in the visible range?",
+   "options": [
+    "Yes, it is a Balmer line",
+    "No, it is infrared (Paschen)",
+    "No, it is ultraviolet (Lyman)",
+    "Only for He⁺"
+   ],
+   "answer": 0,
+   "why": "The four visible lines end on n = 2.",
+   "x": 1
+  },
+  {
+   "q": "Is the n = 5 → 2 hydrogen line in the visible range?",
+   "options": [
+    "Only for He⁺",
+    "No, it is infrared (Paschen)",
+    "Yes, it is a Balmer line",
+    "No, it is ultraviolet (Lyman)"
+   ],
+   "answer": 2,
+   "why": "The four visible lines end on n = 2.",
+   "x": 1
+  },
+  {
+   "q": "Is the n = 6 → 2 hydrogen line in the visible range?",
+   "options": [
+    "No, it is infrared (Paschen)",
+    "Only for He⁺",
+    "Yes, it is a Balmer line",
+    "No, it is ultraviolet (Lyman)"
+   ],
+   "answer": 2,
+   "why": "The four visible lines end on n = 2.",
+   "x": 1
+  },
+  {
+   "q": "Lines ending on n = 1 in hydrogen are found in the:",
+   "options": [
+    "Ultraviolet",
+    "Microwave",
+    "Visible (mostly)",
+    "Infrared"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Lines ending on n = 3 in hydrogen are found in the:",
+   "options": [
+    "Ultraviolet",
+    "Microwave",
+    "Visible (mostly)",
+    "Infrared"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Lines ending on n = 2 in hydrogen are found in the:",
+   "options": [
+    "Visible (mostly)",
+    "Microwave",
+    "Infrared",
+    "Ultraviolet"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The energy needed to ionise a hydrogen atom whose electron is already in n = 2 is:",
+   "options": [
+    "13.6 eV",
+    "3.4 eV",
+    "54.4 eV",
+    "6.8 eV"
+   ],
+   "answer": 1,
+   "why": "Eᵢ = 13.6 / n² eV from level n.",
+   "x": 1
+  },
+  {
+   "q": "The energy needed to ionise a hydrogen atom whose electron is already in n = 3 is:",
+   "options": [
+    "1.51 eV",
+    "122 eV",
+    "4.53 eV",
+    "13.6 eV"
+   ],
+   "answer": 0,
+   "why": "Eᵢ = 13.6 / n² eV from level n.",
+   "x": 1
+  },
+  {
+   "q": "The energy needed to ionise a hydrogen atom whose electron is already in n = 4 is:",
+   "options": [
+    "218 eV",
+    "13.6 eV",
+    "3.4 eV",
+    "0.85 eV"
+   ],
+   "answer": 3,
+   "why": "Eᵢ = 13.6 / n² eV from level n.",
+   "x": 1
+  },
+  {
+   "q": "For He⁺ (Z = 2), the photon emitted for n = 2 → 1 has an energy of:",
+   "options": [
+    "20.4 eV",
+    "40.8 eV",
+    "10.2 eV",
+    "81.6 eV"
+   ],
+   "answer": 1,
+   "why": "ΔE = 13.6 Z² (1/n₁² − 1/n₂²).",
+   "x": 1
+  },
+  {
+   "q": "For He⁺ (Z = 2), the photon emitted for n = 3 → 1 has an energy of:",
+   "options": [
+    "96.7 eV",
+    "48.4 eV",
+    "12.1 eV",
+    "24.2 eV"
+   ],
+   "answer": 1,
+   "why": "ΔE = 13.6 Z² (1/n₁² − 1/n₂²).",
+   "x": 1
+  },
+  {
+   "q": "For He⁺ (Z = 2), the photon emitted for n = 3 → 2 has an energy of:",
+   "options": [
+    "3.78 eV",
+    "1.89 eV",
+    "7.56 eV",
+    "15.1 eV"
+   ],
+   "answer": 2,
+   "why": "ΔE = 13.6 Z² (1/n₁² − 1/n₂²).",
+   "x": 1
+  },
+  {
+   "q": "For He⁺ (Z = 2), the photon emitted for n = 4 → 2 has an energy of:",
+   "options": [
+    "20.4 eV",
+    "10.2 eV",
+    "5.1 eV",
+    "2.55 eV"
+   ],
+   "answer": 1,
+   "why": "ΔE = 13.6 Z² (1/n₁² − 1/n₂²).",
+   "x": 1
+  },
+  {
+   "q": "For He⁺ (Z = 2), the photon emitted for n = 4 → 3 has an energy of:",
+   "options": [
+    "5.29 eV",
+    "0.661 eV",
+    "1.32 eV",
+    "2.64 eV"
+   ],
+   "answer": 3,
+   "why": "ΔE = 13.6 Z² (1/n₁² − 1/n₂²).",
+   "x": 1
+  },
+  {
+   "q": "For He⁺ (Z = 2), the photon emitted for n = 6 → 4 has an energy of:",
+   "options": [
+    "0.944 eV",
+    "3.78 eV",
+    "0.472 eV",
+    "1.89 eV"
+   ],
+   "answer": 3,
+   "why": "ΔE = 13.6 Z² (1/n₁² − 1/n₂²).",
+   "x": 1
+  },
+  {
+   "q": "Which hydrogen transition emits the more energetic photon: 2→1 or 3→2?",
+   "options": [
+    "2→1",
+    "Both are equal",
+    "3→2",
+    "Neither emits"
+   ],
+   "answer": 0,
+   "why": "Compare ΔE = 13.6 (1/n₁² − 1/n₂²); transitions ending on n = 1 are the most energetic.",
+   "x": 1
+  },
+  {
+   "q": "Which hydrogen transition emits the more energetic photon: 4→3 or 2→1?",
+   "options": [
+    "4→3",
+    "Neither emits",
+    "2→1",
+    "Both are equal"
+   ],
+   "answer": 2,
+   "why": "Compare ΔE = 13.6 (1/n₁² − 1/n₂²); transitions ending on n = 1 are the most energetic.",
+   "x": 1
+  },
+  {
+   "q": "Which hydrogen transition emits the more energetic photon: 3→1 or 4→2?",
+   "options": [
+    "3→1",
+    "4→2",
+    "Both are equal",
+    "Neither emits"
+   ],
+   "answer": 0,
+   "why": "Compare ΔE = 13.6 (1/n₁² − 1/n₂²); transitions ending on n = 1 are the most energetic.",
+   "x": 1
+  },
+  {
+   "q": "Which hydrogen transition emits the more energetic photon: 5→2 or 2→1?",
+   "options": [
+    "Neither emits",
+    "Both are equal",
+    "2→1",
+    "5→2"
+   ],
+   "answer": 2,
+   "why": "Compare ΔE = 13.6 (1/n₁² − 1/n₂²); transitions ending on n = 1 are the most energetic.",
+   "x": 1
+  },
+  {
+   "q": "The Rydberg constant for a hydrogen-like ion becomes:",
+   "options": [
+    "R_H / Z²",
+    "Z² R_H",
+    "R_H",
+    "Z R_H"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Bohr's model is valid for:",
+   "options": [
+    "One-electron systems",
+    "All atoms",
+    "Molecules",
+    "Metals"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
   }
  ],
  "cards": [
@@ -1847,6 +3983,1074 @@ SINA.lectures["chem1-quantum"] = {
    ],
    "answer": 2,
    "why": "The arrow points to: Exclusion. Each orbital holds at most 2 electrons of opposite spin (Pauli exclusion principle)."
+  },
+  {
+   "q": "For n = 1, the possible values of l are:",
+   "options": [
+    "0",
+    "1",
+    "0, 1, 2, 3",
+    "0, 1"
+   ],
+   "answer": 0,
+   "why": "l goes from 0 to n − 1.",
+   "x": 1
+  },
+  {
+   "q": "For n = 2, the possible values of l are:",
+   "options": [
+    "0, 1, 2",
+    "1, 2",
+    "0, 1",
+    "0, 1, 2, 3"
+   ],
+   "answer": 2,
+   "why": "l goes from 0 to n − 1.",
+   "x": 1
+  },
+  {
+   "q": "For n = 3, the possible values of l are:",
+   "options": [
+    "1, 2, 3",
+    "0, 1",
+    "0, 1, 2, 3",
+    "0, 1, 2"
+   ],
+   "answer": 3,
+   "why": "l goes from 0 to n − 1.",
+   "x": 1
+  },
+  {
+   "q": "For n = 4, the possible values of l are:",
+   "options": [
+    "0, 1, 2, 3, 4",
+    "1, 2, 3, 4",
+    "0, 1, 2, 3",
+    "0, 1, 2"
+   ],
+   "answer": 2,
+   "why": "l goes from 0 to n − 1.",
+   "x": 1
+  },
+  {
+   "q": "For n = 5, the possible values of l are:",
+   "options": [
+    "0, 1, 2, 3, 4, 5",
+    "1, 2, 3, 4, 5",
+    "0, 1, 2, 3",
+    "0, 1, 2, 3, 4"
+   ],
+   "answer": 3,
+   "why": "l goes from 0 to n − 1.",
+   "x": 1
+  },
+  {
+   "q": "For l = 0 (s subshell), the possible values of mₗ are:",
+   "options": [
+    "1",
+    "−1, 0, 1",
+    "3",
+    "0"
+   ],
+   "answer": 3,
+   "why": "mₗ goes from −l to +l.",
+   "x": 1
+  },
+  {
+   "q": "For l = 1 (p subshell), the possible values of mₗ are:",
+   "options": [
+    "0, 1",
+    "1, 2, 3",
+    "−2, −1, 0, 1, 2",
+    "−1, 0, 1"
+   ],
+   "answer": 3,
+   "why": "mₗ goes from −l to +l.",
+   "x": 1
+  },
+  {
+   "q": "For l = 2 (d subshell), the possible values of mₗ are:",
+   "options": [
+    "0, 1, 2",
+    "−3, −2, −1, 0, 1, 2, 3",
+    "−2, −1, 0, 1, 2",
+    "1, 2, 3, 4, 5"
+   ],
+   "answer": 2,
+   "why": "mₗ goes from −l to +l.",
+   "x": 1
+  },
+  {
+   "q": "For l = 3 (f subshell), the possible values of mₗ are:",
+   "options": [
+    "0, 1, 2, 3",
+    "1, 2, 3, 4, 5, 6, 7",
+    "−4, −3, −2, −1, 0, 1, 2, 3, 4",
+    "−3, −2, −1, 0, 1, 2, 3"
+   ],
+   "answer": 3,
+   "why": "mₗ goes from −l to +l.",
+   "x": 1
+  },
+  {
+   "q": "How many orbitals does the shell n = 1 contain?",
+   "options": [
+    "2",
+    "1",
+    "4",
+    "0"
+   ],
+   "answer": 1,
+   "why": "n² orbitals.",
+   "x": 1
+  },
+  {
+   "q": "What is the maximum number of electrons in the shell n = 1?",
+   "options": [
+    "1",
+    "8",
+    "3",
+    "2"
+   ],
+   "answer": 3,
+   "why": "2n² electrons.",
+   "x": 1
+  },
+  {
+   "q": "How many orbitals does the shell n = 2 contain?",
+   "options": [
+    "3",
+    "2",
+    "8",
+    "4"
+   ],
+   "answer": 3,
+   "why": "n² orbitals.",
+   "x": 1
+  },
+  {
+   "q": "What is the maximum number of electrons in the shell n = 2?",
+   "options": [
+    "4",
+    "6",
+    "9",
+    "8"
+   ],
+   "answer": 3,
+   "why": "2n² electrons.",
+   "x": 1
+  },
+  {
+   "q": "How many orbitals does the shell n = 3 contain?",
+   "options": [
+    "18",
+    "5",
+    "9",
+    "3"
+   ],
+   "answer": 2,
+   "why": "n² orbitals.",
+   "x": 1
+  },
+  {
+   "q": "What is the maximum number of electrons in the shell n = 3?",
+   "options": [
+    "18",
+    "8",
+    "6",
+    "9"
+   ],
+   "answer": 0,
+   "why": "2n² electrons.",
+   "x": 1
+  },
+  {
+   "q": "How many orbitals does the shell n = 4 contain?",
+   "options": [
+    "7",
+    "4",
+    "32",
+    "16"
+   ],
+   "answer": 3,
+   "why": "n² orbitals.",
+   "x": 1
+  },
+  {
+   "q": "What is the maximum number of electrons in the shell n = 4?",
+   "options": [
+    "33",
+    "8",
+    "32",
+    "16"
+   ],
+   "answer": 2,
+   "why": "2n² electrons.",
+   "x": 1
+  },
+  {
+   "q": "How many orbitals does the shell n = 5 contain?",
+   "options": [
+    "5",
+    "50",
+    "25",
+    "9"
+   ],
+   "answer": 2,
+   "why": "n² orbitals.",
+   "x": 1
+  },
+  {
+   "q": "What is the maximum number of electrons in the shell n = 5?",
+   "options": [
+    "25",
+    "10",
+    "8",
+    "50"
+   ],
+   "answer": 3,
+   "why": "2n² electrons.",
+   "x": 1
+  },
+  {
+   "q": "The subshell with n = 1 and l = 0 is:",
+   "options": [
+    "1s",
+    "1p",
+    "2s",
+    "Cannot be determined"
+   ],
+   "answer": 0,
+   "why": "l = 0 is s.",
+   "x": 1
+  },
+  {
+   "q": "The subshell with n = 2 and l = 0 is:",
+   "options": [
+    "3s",
+    "1s",
+    "2p",
+    "2s"
+   ],
+   "answer": 3,
+   "why": "l = 0 is s.",
+   "x": 1
+  },
+  {
+   "q": "The subshell with n = 2 and l = 1 is:",
+   "options": [
+    "2d",
+    "1p",
+    "1d",
+    "2p"
+   ],
+   "answer": 3,
+   "why": "l = 1 is p.",
+   "x": 1
+  },
+  {
+   "q": "The subshell with n = 3 and l = 0 is:",
+   "options": [
+    "3p",
+    "3s",
+    "2s",
+    "4s"
+   ],
+   "answer": 1,
+   "why": "l = 0 is s.",
+   "x": 1
+  },
+  {
+   "q": "The subshell with n = 3 and l = 1 is:",
+   "options": [
+    "2p",
+    "1f",
+    "3d",
+    "3p"
+   ],
+   "answer": 3,
+   "why": "l = 1 is p.",
+   "x": 1
+  },
+  {
+   "q": "The subshell with n = 3 and l = 2 is:",
+   "options": [
+    "2f",
+    "3f",
+    "2d",
+    "3d"
+   ],
+   "answer": 3,
+   "why": "l = 2 is d.",
+   "x": 1
+  },
+  {
+   "q": "The subshell with n = 4 and l = 0 is:",
+   "options": [
+    "3s",
+    "4s",
+    "5s",
+    "4p"
+   ],
+   "answer": 1,
+   "why": "l = 0 is s.",
+   "x": 1
+  },
+  {
+   "q": "The subshell with n = 4 and l = 1 is:",
+   "options": [
+    "1s",
+    "4d",
+    "3p",
+    "4p"
+   ],
+   "answer": 3,
+   "why": "l = 1 is p.",
+   "x": 1
+  },
+  {
+   "q": "The subshell with n = 4 and l = 2 is:",
+   "options": [
+    "2s",
+    "4d",
+    "4f",
+    "3d"
+   ],
+   "answer": 1,
+   "why": "l = 2 is d.",
+   "x": 1
+  },
+  {
+   "q": "The subshell with n = 4 and l = 3 is:",
+   "options": [
+    "4s",
+    "3f",
+    "4f",
+    "3s"
+   ],
+   "answer": 2,
+   "why": "l = 3 is f.",
+   "x": 1
+  },
+  {
+   "q": "The subshell with n = 5 and l = 2 is:",
+   "options": [
+    "2p",
+    "5d",
+    "5f",
+    "4d"
+   ],
+   "answer": 1,
+   "why": "l = 2 is d.",
+   "x": 1
+  },
+  {
+   "q": "The subshell with n = 5 and l = 3 is:",
+   "options": [
+    "3p",
+    "4f",
+    "5f",
+    "5s"
+   ],
+   "answer": 2,
+   "why": "l = 3 is f.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 2, l = 1, mₗ = 0, mₛ = +½) allowed?",
+   "options": [
+    "No",
+    "Yes",
+    "Only in an excited state",
+    "Only for hydrogen"
+   ],
+   "answer": 1,
+   "why": "Allowed: 0 ≤ l ≤ n − 1 and −l ≤ mₗ ≤ +l.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 1, l = 0, mₗ = 0, mₛ = −½) allowed?",
+   "options": [
+    "No",
+    "Only in an excited state",
+    "Only for hydrogen",
+    "Yes"
+   ],
+   "answer": 3,
+   "why": "Allowed: 0 ≤ l ≤ n − 1 and −l ≤ mₗ ≤ +l.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 3, l = 2, mₗ = −2, mₛ = +½) allowed?",
+   "options": [
+    "No",
+    "Yes",
+    "Only for hydrogen",
+    "Only in an excited state"
+   ],
+   "answer": 1,
+   "why": "Allowed: 0 ≤ l ≤ n − 1 and −l ≤ mₗ ≤ +l.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 4, l = 3, mₗ = 3, mₛ = −½) allowed?",
+   "options": [
+    "No",
+    "Only for hydrogen",
+    "Yes",
+    "Only in an excited state"
+   ],
+   "answer": 2,
+   "why": "Allowed: 0 ≤ l ≤ n − 1 and −l ≤ mₗ ≤ +l.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 3, l = 1, mₗ = −1, mₛ = +½) allowed?",
+   "options": [
+    "Only in an excited state",
+    "No",
+    "Yes",
+    "Only for hydrogen"
+   ],
+   "answer": 2,
+   "why": "Allowed: 0 ≤ l ≤ n − 1 and −l ≤ mₗ ≤ +l.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 2, l = 0, mₗ = 0, mₛ = +½) allowed?",
+   "options": [
+    "Only in an excited state",
+    "Yes",
+    "Only for hydrogen",
+    "No"
+   ],
+   "answer": 1,
+   "why": "Allowed: 0 ≤ l ≤ n − 1 and −l ≤ mₗ ≤ +l.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 2, l = 2, mₗ = 0, mₛ = +½) allowed?",
+   "options": [
+    "No",
+    "Only for hydrogen",
+    "Only in an excited state",
+    "Yes"
+   ],
+   "answer": 0,
+   "why": "Not allowed: l must be ≤ n − 1.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 1, l = 1, mₗ = 0, mₛ = +½) allowed?",
+   "options": [
+    "No",
+    "Yes",
+    "Only in an excited state",
+    "Only for hydrogen"
+   ],
+   "answer": 0,
+   "why": "Not allowed: l must be ≤ n − 1.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 3, l = 1, mₗ = 2, mₛ = −½) allowed?",
+   "options": [
+    "Only in an excited state",
+    "No",
+    "Only for hydrogen",
+    "Yes"
+   ],
+   "answer": 1,
+   "why": "Not allowed: mₗ must lie between −l and +l.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 2, l = 1, mₗ = −2, mₛ = +½) allowed?",
+   "options": [
+    "Only in an excited state",
+    "Yes",
+    "No",
+    "Only for hydrogen"
+   ],
+   "answer": 2,
+   "why": "Not allowed: mₗ must lie between −l and +l.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 3, l = 3, mₗ = 0, mₛ = +½) allowed?",
+   "options": [
+    "No",
+    "Only in an excited state",
+    "Yes",
+    "Only for hydrogen"
+   ],
+   "answer": 0,
+   "why": "Not allowed: l must be ≤ n − 1.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 4, l = 2, mₗ = 3, mₛ = −½) allowed?",
+   "options": [
+    "Yes",
+    "No",
+    "Only for hydrogen",
+    "Only in an excited state"
+   ],
+   "answer": 1,
+   "why": "Not allowed: mₗ must lie between −l and +l.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 0, l = 0, mₗ = 0, mₛ = +½) allowed?",
+   "options": [
+    "Only for hydrogen",
+    "Yes",
+    "No",
+    "Only in an excited state"
+   ],
+   "answer": 2,
+   "why": "n must be at least 1.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 3, l = 0, mₗ = 1, mₛ = +½) allowed?",
+   "options": [
+    "Only for hydrogen",
+    "Only in an excited state",
+    "No",
+    "Yes"
+   ],
+   "answer": 2,
+   "why": "Not allowed: mₗ must lie between −l and +l.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons can a s subshell hold at most?",
+   "options": [
+    "2",
+    "1",
+    "4",
+    "6"
+   ],
+   "answer": 0,
+   "why": "2(2l + 1).",
+   "x": 1
+  },
+  {
+   "q": "How many electrons can a p subshell hold at most?",
+   "options": [
+    "6",
+    "10",
+    "8",
+    "3"
+   ],
+   "answer": 0,
+   "why": "2(2l + 1).",
+   "x": 1
+  },
+  {
+   "q": "How many electrons can a d subshell hold at most?",
+   "options": [
+    "10",
+    "14",
+    "5",
+    "12"
+   ],
+   "answer": 0,
+   "why": "2(2l + 1).",
+   "x": 1
+  },
+  {
+   "q": "How many electrons can a f subshell hold at most?",
+   "options": [
+    "14",
+    "18",
+    "7",
+    "16"
+   ],
+   "answer": 0,
+   "why": "2(2l + 1).",
+   "x": 1
+  },
+  {
+   "q": "De Broglie associates with a moving particle a wavelength:",
+   "options": [
+    "λ = m·v / h",
+    "λ = c / h",
+    "λ = h·ν",
+    "λ = h / (m·v)"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The square of the wave function ψ² is proportional to:",
+   "options": [
+    "The probability of finding the electron",
+    "The energy",
+    "The electron's charge",
+    "The orbit radius"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The region where finding the electron is almost certain is called:",
+   "options": [
+    "A shell",
+    "An atomic orbital",
+    "A nucleus",
+    "An orbit"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The principal quantum number n describes:",
+   "options": [
+    "The shape only",
+    "The orientation",
+    "The spin",
+    "The shell (size and energy)"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The azimuthal quantum number l describes:",
+   "options": [
+    "The subshell shape",
+    "The shell",
+    "The orientation",
+    "The spin"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The magnetic quantum number mₗ gives:",
+   "options": [
+    "The energy level",
+    "The spin",
+    "The shape",
+    "The orientation and number of orbitals"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The spin quantum number mₛ can be:",
+   "options": [
+    "Any integer",
+    "0 or 1",
+    "−1, 0 or +1",
+    "+½ or −½"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Schrödinger described electrons by:",
+   "options": [
+    "A wave function ψ(x, y, z)",
+    "Planck's constant only",
+    "Fixed orbits",
+    "The Rydberg formula"
+   ],
+   "answer": 0,
+   "why": "1926.",
+   "x": 1
+  },
+  {
+   "q": "Heisenberg's uncertainty principle is written:",
+   "options": [
+    "Δx · Δp ≥ h/2π",
+    "λ = h/mv",
+    "E = hν",
+    "mvr = nh/2π"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Why is there no 2d subshell?",
+   "options": [
+    "Because n must be odd",
+    "Because l can only go up to n − 1 = 1",
+    "Because d needs 10 electrons",
+    "Because 2d is too high in energy"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "How many orbitals does a s subshell contain?",
+   "options": [
+    "1",
+    "3",
+    "0",
+    "2"
+   ],
+   "answer": 0,
+   "why": "2l + 1 orbitals.",
+   "x": 1
+  },
+  {
+   "q": "How many orbitals does a p subshell contain?",
+   "options": [
+    "6",
+    "2",
+    "5",
+    "3"
+   ],
+   "answer": 3,
+   "why": "2l + 1 orbitals.",
+   "x": 1
+  },
+  {
+   "q": "How many orbitals does a d subshell contain?",
+   "options": [
+    "10",
+    "3",
+    "5",
+    "7"
+   ],
+   "answer": 2,
+   "why": "2l + 1 orbitals.",
+   "x": 1
+  },
+  {
+   "q": "How many orbitals does a f subshell contain?",
+   "options": [
+    "14",
+    "9",
+    "7",
+    "4"
+   ],
+   "answer": 2,
+   "why": "2l + 1 orbitals.",
+   "x": 1
+  },
+  {
+   "q": "What is the maximum number of electrons with n = 2 and l = 1?",
+   "options": [
+    "3",
+    "6",
+    "8",
+    "7"
+   ],
+   "answer": 1,
+   "why": "2(2l + 1).",
+   "x": 1
+  },
+  {
+   "q": "What is the maximum number of electrons with n = 3 and l = 2?",
+   "options": [
+    "18",
+    "11",
+    "10",
+    "5"
+   ],
+   "answer": 2,
+   "why": "2(2l + 1).",
+   "x": 1
+  },
+  {
+   "q": "What is the maximum number of electrons with n = 4 and l = 3?",
+   "options": [
+    "15",
+    "14",
+    "7",
+    "32"
+   ],
+   "answer": 1,
+   "why": "2(2l + 1).",
+   "x": 1
+  },
+  {
+   "q": "What is the maximum number of electrons with n = 3 and l = 1?",
+   "options": [
+    "6",
+    "3",
+    "18",
+    "4"
+   ],
+   "answer": 0,
+   "why": "2(2l + 1).",
+   "x": 1
+  },
+  {
+   "q": "What is the maximum number of electrons with n = 4 and l = 0?",
+   "options": [
+    "32",
+    "2",
+    "1",
+    "4"
+   ],
+   "answer": 1,
+   "why": "2(2l + 1).",
+   "x": 1
+  },
+  {
+   "q": "What is the maximum number of electrons with n = 5 and l = 1?",
+   "options": [
+    "7",
+    "50",
+    "3",
+    "6"
+   ],
+   "answer": 3,
+   "why": "2(2l + 1).",
+   "x": 1
+  },
+  {
+   "q": "How many electrons can have n = 2 and mₛ = +½?",
+   "options": [
+    "2",
+    "8",
+    "5",
+    "4"
+   ],
+   "answer": 3,
+   "why": "One per orbital: n² orbitals.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons can have n = 3 and mₛ = +½?",
+   "options": [
+    "18",
+    "10",
+    "3",
+    "9"
+   ],
+   "answer": 3,
+   "why": "One per orbital: n² orbitals.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons can have n = 4 and mₛ = +½?",
+   "options": [
+    "17",
+    "4",
+    "32",
+    "16"
+   ],
+   "answer": 3,
+   "why": "One per orbital: n² orbitals.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 5, l = 4, mₗ = −4, mₛ = +½) allowed?",
+   "options": [
+    "Only for hydrogen",
+    "Only in an excited state",
+    "No",
+    "Yes"
+   ],
+   "answer": 3,
+   "why": "Allowed.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 2, l = 1, mₗ = 1, mₛ = −½) allowed?",
+   "options": [
+    "No",
+    "Yes",
+    "Only for hydrogen",
+    "Only in an excited state"
+   ],
+   "answer": 1,
+   "why": "Allowed.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 4, l = 1, mₗ = 0, mₛ = +½) allowed?",
+   "options": [
+    "Only in an excited state",
+    "Only for hydrogen",
+    "Yes",
+    "No"
+   ],
+   "answer": 2,
+   "why": "Allowed.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 3, l = 2, mₗ = 3, mₛ = +½) allowed?",
+   "options": [
+    "Yes",
+    "Only in an excited state",
+    "No",
+    "Only for hydrogen"
+   ],
+   "answer": 2,
+   "why": "mₗ must be between −l and +l.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 5, l = 5, mₗ = 0, mₛ = −½) allowed?",
+   "options": [
+    "Only for hydrogen",
+    "Yes",
+    "Only in an excited state",
+    "No"
+   ],
+   "answer": 3,
+   "why": "l must be ≤ n − 1.",
+   "x": 1
+  },
+  {
+   "q": "Is the set (n = 2, l = 1, mₗ = 0, mₛ = +1) allowed?",
+   "options": [
+    "Only for hydrogen",
+    "No",
+    "Only in an excited state",
+    "Yes"
+   ],
+   "answer": 1,
+   "why": "mₛ can only be ±½.",
+   "x": 1
+  },
+  {
+   "q": "How many angular nodes does an orbital with l = 0 have?",
+   "options": [
+    "0",
+    "5",
+    "3",
+    "1"
+   ],
+   "answer": 0,
+   "why": "The number of angular nodes equals l.",
+   "x": 1
+  },
+  {
+   "q": "How many angular nodes does an orbital with l = 1 have?",
+   "options": [
+    "1",
+    "2",
+    "0",
+    "3"
+   ],
+   "answer": 0,
+   "why": "The number of angular nodes equals l.",
+   "x": 1
+  },
+  {
+   "q": "How many angular nodes does an orbital with l = 2 have?",
+   "options": [
+    "1",
+    "3",
+    "5",
+    "2"
+   ],
+   "answer": 3,
+   "why": "The number of angular nodes equals l.",
+   "x": 1
+  },
+  {
+   "q": "How many angular nodes does an orbital with l = 3 have?",
+   "options": [
+    "2",
+    "7",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "why": "The number of angular nodes equals l.",
+   "x": 1
+  },
+  {
+   "q": "Two electrons in the same orbital must differ in:",
+   "options": [
+    "n",
+    "mₗ",
+    "l",
+    "mₛ (spin)"
+   ],
+   "answer": 3,
+   "why": "Pauli exclusion principle.",
+   "x": 1
+  },
+  {
+   "q": "The number of subshells in shell n is:",
+   "options": [
+    "2n²",
+    "n − 1",
+    "n²",
+    "n"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "As n increases, the electron is:",
+   "options": [
+    "Farther from the nucleus with higher energy",
+    "Closer to the nucleus",
+    "Unchanged",
+    "Lower in energy"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Absorption of energy by an electron raises:",
+   "options": [
+    "n",
+    "A",
+    "mₛ",
+    "Z"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The number of orbitals in a subshell is:",
+   "options": [
+    "2l + 1",
+    "l + 1",
+    "n²",
+    "2l"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Quantum mechanics replaced the idea of a trajectory with:",
+   "options": [
+    "Fixed circular orbits",
+    "The probability of presence of the electron",
+    "Electron clouds of fixed shape and path",
+    "Elliptical orbits"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Which quantum number determines the magnetic behaviour of an electron?",
+   "options": [
+    "n",
+    "l",
+    "mₛ (spin)",
+    "mₗ only"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
   }
  ],
  "cards": [
@@ -2514,6 +5718,1098 @@ SINA.lectures["chem1-configuration"] = {
    ],
    "answer": 2,
    "why": "The arrow points to: Exceptions. Chromium and copper adopt half-filled or filled 3d configurations for extra stability."
+  },
+  {
+   "q": "The ground-state electron configuration of hydrogen (H, Z = 1) is:",
+   "options": [
+    "1s²",
+    "1s² 2s³",
+    "1s¹",
+    "1s¹ 2s¹"
+   ],
+   "answer": 2,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of helium (He, Z = 2) is:",
+   "options": [
+    "1s¹",
+    "1s²",
+    "1s² 2s¹",
+    "1s¹ 2s¹"
+   ],
+   "answer": 1,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of lithium (Li, Z = 3) is:",
+   "options": [
+    "1s²",
+    "1s¹ 2s¹",
+    "1s² 2s¹",
+    "1s² 2s²"
+   ],
+   "answer": 2,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of beryllium (Be, Z = 4) is:",
+   "options": [
+    "1s¹ 2s²",
+    "1s² 2s²",
+    "1s² 2s² 2p¹",
+    "1s² 2s¹"
+   ],
+   "answer": 1,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of boron (B, Z = 5) is:",
+   "options": [
+    "1s¹ 2s² 2p¹",
+    "1s² 2s² 2p²",
+    "1s² 2s²",
+    "1s² 2s² 2p¹"
+   ],
+   "answer": 3,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of carbon (C, Z = 6) is:",
+   "options": [
+    "1s² 2s² 2p³",
+    "1s² 2s² 2p²",
+    "1s¹ 2s² 2p²",
+    "1s² 2s² 2p¹"
+   ],
+   "answer": 1,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of nitrogen (N, Z = 7) is:",
+   "options": [
+    "1s² 2s² 2p²",
+    "1s¹ 2s² 2p³",
+    "1s² 2s² 2p⁴",
+    "1s² 2s² 2p³"
+   ],
+   "answer": 3,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of oxygen (O, Z = 8) is:",
+   "options": [
+    "1s² 2s² 2p⁴",
+    "1s¹ 2s² 2p⁴",
+    "1s² 2s² 2p³",
+    "1s² 2s² 2p⁵"
+   ],
+   "answer": 0,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of fluorine (F, Z = 9) is:",
+   "options": [
+    "1s² 2s² 2p⁶",
+    "1s² 2s² 2p⁵",
+    "1s¹ 2s² 2p⁵",
+    "1s² 2s² 2p⁴"
+   ],
+   "answer": 1,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of neon (Ne, Z = 10) is:",
+   "options": [
+    "1s² 2s² 2p⁶",
+    "1s¹ 2s² 2p⁶",
+    "1s² 2s² 2p⁵",
+    "1s² 2s² 2p⁶ 3s¹"
+   ],
+   "answer": 0,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of sodium (Na, Z = 11) is:",
+   "options": [
+    "1s¹ 2s² 2p⁶ 3s¹",
+    "1s² 2s² 2p⁶ 3s²",
+    "1s² 2s² 2p⁶ 3s¹",
+    "1s² 2s² 2p⁶"
+   ],
+   "answer": 2,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of magnesium (Mg, Z = 12) is:",
+   "options": [
+    "1s¹ 2s² 2p⁶ 3s²",
+    "1s² 2s² 2p⁶ 3s² 3p¹",
+    "1s² 2s² 2p⁶ 3s¹",
+    "1s² 2s² 2p⁶ 3s²"
+   ],
+   "answer": 3,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of aluminium (Al, Z = 13) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p¹",
+    "1s² 2s² 2p⁶ 3s² 3p²",
+    "1s¹ 2s² 2p⁶ 3s² 3p¹",
+    "1s² 2s² 2p⁶ 3s²"
+   ],
+   "answer": 0,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of silicon (Si, Z = 14) is:",
+   "options": [
+    "1s¹ 2s² 2p⁶ 3s² 3p²",
+    "1s² 2s² 2p⁶ 3s² 3p³",
+    "1s² 2s² 2p⁶ 3s² 3p¹",
+    "1s² 2s² 2p⁶ 3s² 3p²"
+   ],
+   "answer": 3,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of phosphorus (P, Z = 15) is:",
+   "options": [
+    "1s¹ 2s² 2p⁶ 3s² 3p³",
+    "1s² 2s² 2p⁶ 3s² 3p²",
+    "1s² 2s² 2p⁶ 3s² 3p³",
+    "1s² 2s² 2p⁶ 3s² 3p⁴"
+   ],
+   "answer": 2,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of sulphur (S, Z = 16) is:",
+   "options": [
+    "1s¹ 2s² 2p⁶ 3s² 3p⁴",
+    "1s² 2s² 2p⁶ 3s² 3p⁴",
+    "1s² 2s² 2p⁶ 3s² 3p⁵",
+    "1s² 2s² 2p⁶ 3s² 3p³"
+   ],
+   "answer": 1,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of chlorine (Cl, Z = 17) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p⁶",
+    "1s² 2s² 2p⁶ 3s² 3p⁴",
+    "1s¹ 2s² 2p⁶ 3s² 3p⁵",
+    "1s² 2s² 2p⁶ 3s² 3p⁵"
+   ],
+   "answer": 3,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of argon (Ar, Z = 18) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p⁵",
+    "1s² 2s² 2p⁶ 3s² 3p⁶",
+    "1s¹ 2s² 2p⁶ 3s² 3p⁶",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹"
+   ],
+   "answer": 1,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of potassium (K, Z = 19) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p⁶",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 4s²",
+    "1s¹ 2s² 2p⁶ 3s² 3p⁶ 4s¹"
+   ],
+   "answer": 1,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of calcium (Ca, Z = 20) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹ 4s²",
+    "1s¹ 2s² 2p⁶ 3s² 3p⁶ 4s²"
+   ],
+   "answer": 1,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of scandium (Sc, Z = 21) is:",
+   "options": [
+    "1s¹ 2s² 2p⁶ 3s² 3p⁶ 3d¹ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d² 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹ 4s²"
+   ],
+   "answer": 3,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of titanium (Ti, Z = 22) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d³ 4s²",
+    "1s¹ 2s² 2p⁶ 3s² 3p⁶ 3d² 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d² 4s²"
+   ],
+   "answer": 3,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of vanadium (V, Z = 23) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s¹",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d² 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d³ 4s²",
+    "1s¹ 2s² 2p⁶ 3s² 3p⁶ 3d³ 4s²"
+   ],
+   "answer": 2,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of chromium (Cr, Z = 24) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁴ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d³ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s¹"
+   ],
+   "answer": 3,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p with the half-filled/filled d exception.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of manganese (Mn, Z = 25) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s²",
+    "1s¹ 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s¹"
+   ],
+   "answer": 0,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of iron (Fe, Z = 26) is:",
+   "options": [
+    "1s¹ 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁷ 4s²"
+   ],
+   "answer": 2,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of cobalt (Co, Z = 27) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁷ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s²",
+    "1s¹ 2s² 2p⁶ 3s² 3p⁶ 3d⁷ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁸ 4s²"
+   ],
+   "answer": 0,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of nickel (Ni, Z = 28) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁸ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁷ 4s²",
+    "1s¹ 2s² 2p⁶ 3s² 3p⁶ 3d⁸ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s¹"
+   ],
+   "answer": 0,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of copper (Cu, Z = 29) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s¹",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁸ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁹ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s²"
+   ],
+   "answer": 0,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p with the half-filled/filled d exception.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of zinc (Zn, Z = 30) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s²",
+    "1s¹ 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s¹",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p¹"
+   ],
+   "answer": 0,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of gallium (Ga, Z = 31) is:",
+   "options": [
+    "1s¹ 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p¹",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p¹"
+   ],
+   "answer": 3,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of germanium (Ge, Z = 32) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p³",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p¹",
+    "1s¹ 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p²"
+   ],
+   "answer": 3,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of arsenic (As, Z = 33) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p³",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p²",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁴",
+    "1s¹ 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p³"
+   ],
+   "answer": 0,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of selenium (Se, Z = 34) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p³",
+    "1s¹ 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁴",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁵",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁴"
+   ],
+   "answer": 3,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of bromine (Br, Z = 35) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶",
+    "1s¹ 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁵",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁴",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁵"
+   ],
+   "answer": 3,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "The ground-state electron configuration of krypton (Kr, Z = 36) is:",
+   "options": [
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁵",
+    "1s¹ 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁴",
+    "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶"
+   ],
+   "answer": 3,
+   "why": "Aufbau order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+   "x": 1
+  },
+  {
+   "q": "How many unpaired electrons does hydrogen (Z = 1) have in its ground state?",
+   "options": [
+    "1",
+    "3",
+    "0",
+    "2"
+   ],
+   "answer": 0,
+   "why": "Hund's rule: fill orbitals singly with parallel spins before pairing.",
+   "x": 1
+  },
+  {
+   "q": "How many unpaired electrons does boron (Z = 5) have in its ground state?",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 1,
+   "why": "Hund's rule: fill orbitals singly with parallel spins before pairing.",
+   "x": 1
+  },
+  {
+   "q": "How many unpaired electrons does carbon (Z = 6) have in its ground state?",
+   "options": [
+    "2",
+    "1",
+    "4",
+    "3"
+   ],
+   "answer": 0,
+   "why": "Hund's rule: fill orbitals singly with parallel spins before pairing.",
+   "x": 1
+  },
+  {
+   "q": "How many unpaired electrons does nitrogen (Z = 7) have in its ground state?",
+   "options": [
+    "5",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "why": "Hund's rule: fill orbitals singly with parallel spins before pairing.",
+   "x": 1
+  },
+  {
+   "q": "How many unpaired electrons does oxygen (Z = 8) have in its ground state?",
+   "options": [
+    "4",
+    "2",
+    "3",
+    "1"
+   ],
+   "answer": 1,
+   "why": "Hund's rule: fill orbitals singly with parallel spins before pairing.",
+   "x": 1
+  },
+  {
+   "q": "How many unpaired electrons does fluorine (Z = 9) have in its ground state?",
+   "options": [
+    "2",
+    "3",
+    "0",
+    "1"
+   ],
+   "answer": 3,
+   "why": "Hund's rule: fill orbitals singly with parallel spins before pairing.",
+   "x": 1
+  },
+  {
+   "q": "How many unpaired electrons does phosphorus (Z = 15) have in its ground state?",
+   "options": [
+    "4",
+    "2",
+    "3",
+    "5"
+   ],
+   "answer": 2,
+   "why": "Hund's rule: fill orbitals singly with parallel spins before pairing.",
+   "x": 1
+  },
+  {
+   "q": "How many unpaired electrons does sulphur (Z = 16) have in its ground state?",
+   "options": [
+    "3",
+    "2",
+    "1",
+    "4"
+   ],
+   "answer": 1,
+   "why": "Hund's rule: fill orbitals singly with parallel spins before pairing.",
+   "x": 1
+  },
+  {
+   "q": "How many unpaired electrons does chlorine (Z = 17) have in its ground state?",
+   "options": [
+    "2",
+    "3",
+    "1",
+    "0"
+   ],
+   "answer": 2,
+   "why": "Hund's rule: fill orbitals singly with parallel spins before pairing.",
+   "x": 1
+  },
+  {
+   "q": "How many unpaired electrons does chromium (Z = 24) have in its ground state?",
+   "options": [
+    "6",
+    "5",
+    "8",
+    "7"
+   ],
+   "answer": 0,
+   "why": "Hund's rule: fill orbitals singly with parallel spins before pairing.",
+   "x": 1
+  },
+  {
+   "q": "How many unpaired electrons does manganese (Z = 25) have in its ground state?",
+   "options": [
+    "5",
+    "6",
+    "4",
+    "7"
+   ],
+   "answer": 0,
+   "why": "Hund's rule: fill orbitals singly with parallel spins before pairing.",
+   "x": 1
+  },
+  {
+   "q": "How many unpaired electrons does iron (Z = 26) have in its ground state?",
+   "options": [
+    "5",
+    "4",
+    "3",
+    "6"
+   ],
+   "answer": 1,
+   "why": "Hund's rule: fill orbitals singly with parallel spins before pairing.",
+   "x": 1
+  },
+  {
+   "q": "How many unpaired electrons does copper (Z = 29) have in its ground state?",
+   "options": [
+    "0",
+    "2",
+    "3",
+    "1"
+   ],
+   "answer": 3,
+   "why": "Hund's rule: fill orbitals singly with parallel spins before pairing.",
+   "x": 1
+  },
+  {
+   "q": "How many unpaired electrons does zinc (Z = 30) have in its ground state?",
+   "options": [
+    "1",
+    "0",
+    "2",
+    "3"
+   ],
+   "answer": 1,
+   "why": "Hund's rule: fill orbitals singly with parallel spins before pairing.",
+   "x": 1
+  },
+  {
+   "q": "How many unpaired electrons does neon (Z = 10) have in its ground state?",
+   "options": [
+    "3",
+    "1",
+    "2",
+    "0"
+   ],
+   "answer": 3,
+   "why": "Hund's rule: fill orbitals singly with parallel spins before pairing.",
+   "x": 1
+  },
+  {
+   "q": "How many unpaired electrons does magnesium (Z = 12) have in its ground state?",
+   "options": [
+    "1",
+    "0",
+    "2",
+    "3"
+   ],
+   "answer": 1,
+   "why": "Hund's rule: fill orbitals singly with parallel spins before pairing.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does lithium (Li) have in its outer shell?",
+   "options": [
+    "1",
+    "3",
+    "7",
+    "2"
+   ],
+   "answer": 0,
+   "why": "Count the electrons of the highest n.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does beryllium (Be) have in its outer shell?",
+   "options": [
+    "1",
+    "6",
+    "2",
+    "3"
+   ],
+   "answer": 2,
+   "why": "Count the electrons of the highest n.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does boron (B) have in its outer shell?",
+   "options": [
+    "5",
+    "2",
+    "4",
+    "3"
+   ],
+   "answer": 3,
+   "why": "Count the electrons of the highest n.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does carbon (C) have in its outer shell?",
+   "options": [
+    "4",
+    "5",
+    "7",
+    "3"
+   ],
+   "answer": 0,
+   "why": "Count the electrons of the highest n.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does nitrogen (N) have in its outer shell?",
+   "options": [
+    "3",
+    "5",
+    "6",
+    "4"
+   ],
+   "answer": 1,
+   "why": "Count the electrons of the highest n.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does oxygen (O) have in its outer shell?",
+   "options": [
+    "5",
+    "2",
+    "7",
+    "6"
+   ],
+   "answer": 3,
+   "why": "Count the electrons of the highest n.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does fluorine (F) have in its outer shell?",
+   "options": [
+    "6",
+    "8",
+    "7",
+    "1"
+   ],
+   "answer": 2,
+   "why": "Count the electrons of the highest n.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does sodium (Na) have in its outer shell?",
+   "options": [
+    "1",
+    "7",
+    "3",
+    "2"
+   ],
+   "answer": 0,
+   "why": "Count the electrons of the highest n.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does magnesium (Mg) have in its outer shell?",
+   "options": [
+    "6",
+    "3",
+    "1",
+    "2"
+   ],
+   "answer": 3,
+   "why": "Count the electrons of the highest n.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does aluminium (Al) have in its outer shell?",
+   "options": [
+    "2",
+    "4",
+    "5",
+    "3"
+   ],
+   "answer": 3,
+   "why": "Count the electrons of the highest n.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does silicon (Si) have in its outer shell?",
+   "options": [
+    "4",
+    "3",
+    "5",
+    "7"
+   ],
+   "answer": 0,
+   "why": "Count the electrons of the highest n.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does phosphorus (P) have in its outer shell?",
+   "options": [
+    "4",
+    "3",
+    "6",
+    "5"
+   ],
+   "answer": 3,
+   "why": "Count the electrons of the highest n.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does sulphur (S) have in its outer shell?",
+   "options": [
+    "5",
+    "7",
+    "6",
+    "2"
+   ],
+   "answer": 2,
+   "why": "Count the electrons of the highest n.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does chlorine (Cl) have in its outer shell?",
+   "options": [
+    "8",
+    "6",
+    "7",
+    "1"
+   ],
+   "answer": 2,
+   "why": "Count the electrons of the highest n.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does potassium (K) have in its outer shell?",
+   "options": [
+    "7",
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 1,
+   "why": "Count the electrons of the highest n.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does calcium (Ca) have in its outer shell?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "6"
+   ],
+   "answer": 1,
+   "why": "Count the electrons of the highest n.",
+   "x": 1
+  },
+  {
+   "q": "How many electrons does bromine (Br) have in its outer shell?",
+   "options": [
+    "8",
+    "6",
+    "1",
+    "7"
+   ],
+   "answer": 3,
+   "why": "Count the electrons of the highest n.",
+   "x": 1
+  },
+  {
+   "q": "Which subshell fills first: 4s or 3d?",
+   "options": [
+    "It depends on the element only",
+    "3d",
+    "They fill at the same time",
+    "4s"
+   ],
+   "answer": 3,
+   "why": "Lower n + l first; at equal n + l, lower n first.",
+   "x": 1
+  },
+  {
+   "q": "Which subshell fills first: 3d or 4p?",
+   "options": [
+    "It depends on the element only",
+    "3d",
+    "4p",
+    "They fill at the same time"
+   ],
+   "answer": 1,
+   "why": "Lower n + l first; at equal n + l, lower n first.",
+   "x": 1
+  },
+  {
+   "q": "Which subshell fills first: 2p or 3s?",
+   "options": [
+    "3s",
+    "They fill at the same time",
+    "2p",
+    "It depends on the element only"
+   ],
+   "answer": 2,
+   "why": "Lower n + l first; at equal n + l, lower n first.",
+   "x": 1
+  },
+  {
+   "q": "Which subshell fills first: 3p or 4s?",
+   "options": [
+    "4s",
+    "It depends on the element only",
+    "3p",
+    "They fill at the same time"
+   ],
+   "answer": 2,
+   "why": "Lower n + l first; at equal n + l, lower n first.",
+   "x": 1
+  },
+  {
+   "q": "Which subshell fills first: 4p or 5s?",
+   "options": [
+    "5s",
+    "It depends on the element only",
+    "They fill at the same time",
+    "4p"
+   ],
+   "answer": 3,
+   "why": "Lower n + l first; at equal n + l, lower n first.",
+   "x": 1
+  },
+  {
+   "q": "Which subshell fills first: 5s or 4d?",
+   "options": [
+    "It depends on the element only",
+    "They fill at the same time",
+    "4d",
+    "5s"
+   ],
+   "answer": 3,
+   "why": "Lower n + l first; at equal n + l, lower n first.",
+   "x": 1
+  },
+  {
+   "q": "Which subshell fills first: 4f or 5d?",
+   "options": [
+    "5d",
+    "4f",
+    "It depends on the element only",
+    "They fill at the same time"
+   ],
+   "answer": 1,
+   "why": "Lower n + l first; at equal n + l, lower n first.",
+   "x": 1
+  },
+  {
+   "q": "Which subshell fills first: 6s or 4f?",
+   "options": [
+    "They fill at the same time",
+    "6s",
+    "It depends on the element only",
+    "4f"
+   ],
+   "answer": 1,
+   "why": "Lower n + l first; at equal n + l, lower n first.",
+   "x": 1
+  },
+  {
+   "q": "The Aufbau principle states that electrons:",
+   "options": [
+    "Pair before filling empty orbitals",
+    "Cannot share four quantum numbers",
+    "Have parallel spins only",
+    "Occupy lower-energy orbitals first"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Orbitals with equal n + l are filled:",
+   "options": [
+    "Higher n first",
+    "At random",
+    "Lower n first",
+    "Only after d"
+   ],
+   "answer": 2,
+   "why": "Klechkowski's rule.",
+   "x": 1
+  },
+  {
+   "q": "In 'electrons in boxes', each box represents:",
+   "options": [
+    "A nucleus",
+    "An electron",
+    "A shell",
+    "An orbital, holding up to 2 electrons with opposite spins"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "p orbitals appear from which shell?",
+   "options": [
+    "n = 4",
+    "n = 3",
+    "n = 1",
+    "n = 2"
+   ],
+   "answer": 3,
+   "why": "Three equivalent orbitals pₓ, p_y, p_z at right angles.",
+   "x": 1
+  },
+  {
+   "q": "The shape of an s orbital is:",
+   "options": [
+    "Linear",
+    "Clover",
+    "Spherical",
+    "Dumbbell"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Electron configurations help to determine:",
+   "options": [
+    "Valency, family properties and spectra",
+    "Density",
+    "Number of neutrons",
+    "Atomic mass only"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The shortened (noble-gas core) configuration of sodium (Na) is:",
+   "options": [
+    "[Ne]",
+    "[Ne] 3s²",
+    "[Ne] 3s¹",
+    "[He] 3s¹"
+   ],
+   "answer": 2,
+   "why": "Write the previous noble gas in brackets, then the remaining electrons.",
+   "x": 1
+  },
+  {
+   "q": "The shortened (noble-gas core) configuration of phosphorus (P) is:",
+   "options": [
+    "[Ne] 3s² 3p⁴",
+    "[Ne] 3s² 3p³",
+    "[He] 3s² 3p³",
+    "[Ne] 3s²"
+   ],
+   "answer": 1,
+   "why": "Write the previous noble gas in brackets, then the remaining electrons.",
+   "x": 1
+  },
+  {
+   "q": "The shortened (noble-gas core) configuration of chlorine (Cl) is:",
+   "options": [
+    "[Ne] 3s² 3p⁶",
+    "[Ne] 3s²",
+    "[Ne] 3s² 3p⁵",
+    "[He] 3s² 3p⁵"
+   ],
+   "answer": 2,
+   "why": "Write the previous noble gas in brackets, then the remaining electrons.",
+   "x": 1
+  },
+  {
+   "q": "The shortened (noble-gas core) configuration of potassium (K) is:",
+   "options": [
+    "[Ar]",
+    "[Ar] 4s¹",
+    "[Ne] 4s¹",
+    "[Ar] 4s²"
+   ],
+   "answer": 1,
+   "why": "Write the previous noble gas in brackets, then the remaining electrons.",
+   "x": 1
+  },
+  {
+   "q": "The shortened (noble-gas core) configuration of calcium (Ca) is:",
+   "options": [
+    "[Ar] 4s²",
+    "[Ar] 4s³",
+    "[Ar]",
+    "[Ne] 4s²"
+   ],
+   "answer": 0,
+   "why": "Write the previous noble gas in brackets, then the remaining electrons.",
+   "x": 1
+  },
+  {
+   "q": "The shortened (noble-gas core) configuration of iron (Fe) is:",
+   "options": [
+    "[Ar] 3d⁶ 4s³",
+    "[Ar] 3d⁶ 4s²",
+    "[Ar] 3d⁶",
+    "[Ne] 3d⁶ 4s²"
+   ],
+   "answer": 1,
+   "why": "Write the previous noble gas in brackets, then the remaining electrons.",
+   "x": 1
+  },
+  {
+   "q": "The shortened (noble-gas core) configuration of zinc (Zn) is:",
+   "options": [
+    "[Ar] 3d¹⁰ 4s²",
+    "[Ne] 3d¹⁰ 4s²",
+    "[Ar] 3d¹⁰ 4s³",
+    "[Ar] 3d¹⁰"
+   ],
+   "answer": 0,
+   "why": "Write the previous noble gas in brackets, then the remaining electrons.",
+   "x": 1
+  },
+  {
+   "q": "The shortened (noble-gas core) configuration of bromine (Br) is:",
+   "options": [
+    "[Ne] 3d¹⁰ 4s² 4p⁵",
+    "[Ar] 3d¹⁰ 4s²",
+    "[Ar] 3d¹⁰ 4s² 4p⁶",
+    "[Ar] 3d¹⁰ 4s² 4p⁵"
+   ],
+   "answer": 3,
+   "why": "Write the previous noble gas in brackets, then the remaining electrons.",
+   "x": 1
   }
  ],
  "cards": [
@@ -3170,6 +7466,1134 @@ SINA.lectures["chem1-periodic"] = {
    ],
    "answer": 2,
    "why": "The arrow points to: Groups. Elements with the same outer-layer configuration share chemical properties."
+  },
+  {
+   "q": "In which period is hydrogen (H, Z = 1)?",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 1,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does hydrogen (H, Z = 1) belong?",
+   "options": [
+    "s block",
+    "f block",
+    "p block",
+    "d block"
+   ],
+   "answer": 0,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is lithium (Li, Z = 3)?",
+   "options": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "answer": 0,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does lithium (Li, Z = 3) belong?",
+   "options": [
+    "d block",
+    "f block",
+    "p block",
+    "s block"
+   ],
+   "answer": 3,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is beryllium (Be, Z = 4)?",
+   "options": [
+    "4",
+    "3",
+    "2",
+    "1"
+   ],
+   "answer": 2,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does beryllium (Be, Z = 4) belong?",
+   "options": [
+    "f block",
+    "d block",
+    "s block",
+    "p block"
+   ],
+   "answer": 2,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is boron (B, Z = 5)?",
+   "options": [
+    "4",
+    "3",
+    "2",
+    "1"
+   ],
+   "answer": 2,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does boron (B, Z = 5) belong?",
+   "options": [
+    "f block",
+    "p block",
+    "d block",
+    "s block"
+   ],
+   "answer": 1,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is carbon (C, Z = 6)?",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "1"
+   ],
+   "answer": 1,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does carbon (C, Z = 6) belong?",
+   "options": [
+    "d block",
+    "f block",
+    "p block",
+    "s block"
+   ],
+   "answer": 2,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is nitrogen (N, Z = 7)?",
+   "options": [
+    "3",
+    "2",
+    "1",
+    "4"
+   ],
+   "answer": 1,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does nitrogen (N, Z = 7) belong?",
+   "options": [
+    "d block",
+    "f block",
+    "p block",
+    "s block"
+   ],
+   "answer": 2,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is oxygen (O, Z = 8)?",
+   "options": [
+    "4",
+    "2",
+    "3",
+    "1"
+   ],
+   "answer": 1,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does oxygen (O, Z = 8) belong?",
+   "options": [
+    "d block",
+    "s block",
+    "f block",
+    "p block"
+   ],
+   "answer": 3,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is fluorine (F, Z = 9)?",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "1"
+   ],
+   "answer": 1,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does fluorine (F, Z = 9) belong?",
+   "options": [
+    "s block",
+    "d block",
+    "f block",
+    "p block"
+   ],
+   "answer": 3,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is neon (Ne, Z = 10)?",
+   "options": [
+    "4",
+    "3",
+    "2",
+    "1"
+   ],
+   "answer": 2,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does neon (Ne, Z = 10) belong?",
+   "options": [
+    "d block",
+    "s block",
+    "f block",
+    "p block"
+   ],
+   "answer": 3,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is sodium (Na, Z = 11)?",
+   "options": [
+    "4",
+    "5",
+    "2",
+    "3"
+   ],
+   "answer": 3,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does sodium (Na, Z = 11) belong?",
+   "options": [
+    "f block",
+    "p block",
+    "d block",
+    "s block"
+   ],
+   "answer": 3,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is magnesium (Mg, Z = 12)?",
+   "options": [
+    "3",
+    "4",
+    "2",
+    "5"
+   ],
+   "answer": 0,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does magnesium (Mg, Z = 12) belong?",
+   "options": [
+    "s block",
+    "d block",
+    "f block",
+    "p block"
+   ],
+   "answer": 0,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is aluminium (Al, Z = 13)?",
+   "options": [
+    "2",
+    "5",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does aluminium (Al, Z = 13) belong?",
+   "options": [
+    "d block",
+    "p block",
+    "s block",
+    "f block"
+   ],
+   "answer": 1,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is silicon (Si, Z = 14)?",
+   "options": [
+    "5",
+    "3",
+    "4",
+    "2"
+   ],
+   "answer": 1,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does silicon (Si, Z = 14) belong?",
+   "options": [
+    "f block",
+    "d block",
+    "s block",
+    "p block"
+   ],
+   "answer": 3,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is phosphorus (P, Z = 15)?",
+   "options": [
+    "2",
+    "5",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does phosphorus (P, Z = 15) belong?",
+   "options": [
+    "p block",
+    "f block",
+    "d block",
+    "s block"
+   ],
+   "answer": 0,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is sulphur (S, Z = 16)?",
+   "options": [
+    "3",
+    "4",
+    "2",
+    "5"
+   ],
+   "answer": 0,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does sulphur (S, Z = 16) belong?",
+   "options": [
+    "f block",
+    "p block",
+    "s block",
+    "d block"
+   ],
+   "answer": 1,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is chlorine (Cl, Z = 17)?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "2"
+   ],
+   "answer": 0,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does chlorine (Cl, Z = 17) belong?",
+   "options": [
+    "p block",
+    "s block",
+    "f block",
+    "d block"
+   ],
+   "answer": 0,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is argon (Ar, Z = 18)?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answer": 1,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does argon (Ar, Z = 18) belong?",
+   "options": [
+    "s block",
+    "p block",
+    "f block",
+    "d block"
+   ],
+   "answer": 1,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is potassium (K, Z = 19)?",
+   "options": [
+    "4",
+    "3",
+    "5",
+    "6"
+   ],
+   "answer": 0,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does potassium (K, Z = 19) belong?",
+   "options": [
+    "p block",
+    "d block",
+    "f block",
+    "s block"
+   ],
+   "answer": 3,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is calcium (Ca, Z = 20)?",
+   "options": [
+    "5",
+    "6",
+    "3",
+    "4"
+   ],
+   "answer": 3,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does calcium (Ca, Z = 20) belong?",
+   "options": [
+    "s block",
+    "p block",
+    "d block",
+    "f block"
+   ],
+   "answer": 0,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is scandium (Sc, Z = 21)?",
+   "options": [
+    "3",
+    "6",
+    "5",
+    "4"
+   ],
+   "answer": 3,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does scandium (Sc, Z = 21) belong?",
+   "options": [
+    "p block",
+    "f block",
+    "s block",
+    "d block"
+   ],
+   "answer": 3,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is chromium (Cr, Z = 24)?",
+   "options": [
+    "3",
+    "6",
+    "4",
+    "5"
+   ],
+   "answer": 2,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does chromium (Cr, Z = 24) belong?",
+   "options": [
+    "s block",
+    "f block",
+    "p block",
+    "d block"
+   ],
+   "answer": 3,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is iron (Fe, Z = 26)?",
+   "options": [
+    "3",
+    "5",
+    "6",
+    "4"
+   ],
+   "answer": 3,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does iron (Fe, Z = 26) belong?",
+   "options": [
+    "p block",
+    "s block",
+    "d block",
+    "f block"
+   ],
+   "answer": 2,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is copper (Cu, Z = 29)?",
+   "options": [
+    "6",
+    "5",
+    "3",
+    "4"
+   ],
+   "answer": 3,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does copper (Cu, Z = 29) belong?",
+   "options": [
+    "f block",
+    "p block",
+    "d block",
+    "s block"
+   ],
+   "answer": 2,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is zinc (Zn, Z = 30)?",
+   "options": [
+    "5",
+    "6",
+    "4",
+    "3"
+   ],
+   "answer": 2,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does zinc (Zn, Z = 30) belong?",
+   "options": [
+    "p block",
+    "d block",
+    "s block",
+    "f block"
+   ],
+   "answer": 1,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is gallium (Ga, Z = 31)?",
+   "options": [
+    "5",
+    "4",
+    "6",
+    "3"
+   ],
+   "answer": 1,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does gallium (Ga, Z = 31) belong?",
+   "options": [
+    "d block",
+    "s block",
+    "p block",
+    "f block"
+   ],
+   "answer": 2,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is bromine (Br, Z = 35)?",
+   "options": [
+    "3",
+    "5",
+    "4",
+    "6"
+   ],
+   "answer": 2,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does bromine (Br, Z = 35) belong?",
+   "options": [
+    "s block",
+    "p block",
+    "d block",
+    "f block"
+   ],
+   "answer": 1,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "In which period is krypton (Kr, Z = 36)?",
+   "options": [
+    "5",
+    "4",
+    "6",
+    "3"
+   ],
+   "answer": 1,
+   "why": "The period is the highest shell n being filled.",
+   "x": 1
+  },
+  {
+   "q": "To which block does krypton (Kr, Z = 36) belong?",
+   "options": [
+    "s block",
+    "f block",
+    "p block",
+    "d block"
+   ],
+   "answer": 2,
+   "why": "The block is the subshell receiving the last electron.",
+   "x": 1
+  },
+  {
+   "q": "Li belongs to the family of:",
+   "options": [
+    "Noble gases",
+    "Alkali metals",
+    "Alkaline earth metals",
+    "Halogens"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Na belongs to the family of:",
+   "options": [
+    "Halogens",
+    "Alkali metals",
+    "Noble gases",
+    "Alkaline earth metals"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "K belongs to the family of:",
+   "options": [
+    "Alkaline earth metals",
+    "Alkali metals",
+    "Halogens",
+    "Noble gases"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Be belongs to the family of:",
+   "options": [
+    "Halogens",
+    "Alkaline earth metals",
+    "Noble gases",
+    "Alkali metals"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Mg belongs to the family of:",
+   "options": [
+    "Alkaline earth metals",
+    "Alkali metals",
+    "Noble gases",
+    "Halogens"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Ca belongs to the family of:",
+   "options": [
+    "Alkali metals",
+    "Noble gases",
+    "Halogens",
+    "Alkaline earth metals"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "F belongs to the family of:",
+   "options": [
+    "Alkali metals",
+    "Noble gases",
+    "Halogens",
+    "Alkaline earth metals"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Cl belongs to the family of:",
+   "options": [
+    "Noble gases",
+    "Halogens",
+    "Alkaline earth metals",
+    "Alkali metals"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Br belongs to the family of:",
+   "options": [
+    "Alkaline earth metals",
+    "Alkali metals",
+    "Noble gases",
+    "Halogens"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Ne belongs to the family of:",
+   "options": [
+    "Alkaline earth metals",
+    "Alkali metals",
+    "Halogens",
+    "Noble gases"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Ar belongs to the family of:",
+   "options": [
+    "Alkaline earth metals",
+    "Alkali metals",
+    "Halogens",
+    "Noble gases"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Kr belongs to the family of:",
+   "options": [
+    "Alkaline earth metals",
+    "Alkali metals",
+    "Halogens",
+    "Noble gases"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "How many elements are known today?",
+   "options": [
+    "31",
+    "63",
+    "118",
+    "92"
+   ],
+   "answer": 2,
+   "why": "Some are man-made.",
+   "x": 1
+  },
+  {
+   "q": "The modern periodic table has:",
+   "options": [
+    "18 periods and 7 columns",
+    "7 periods and 18 columns",
+    "10 periods and 10 columns",
+    "8 periods and 7 columns"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Which metal is liquid at normal temperature and pressure?",
+   "options": [
+    "Sodium",
+    "Iron",
+    "Copper",
+    "Mercury"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Metals typically:",
+   "options": [
+    "Have acidic oxides",
+    "Are poor conductors",
+    "Form anions",
+    "Form cations and have basic oxides"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Metalloids are:",
+   "options": [
+    "Semiconductors whose resistance decreases with temperature",
+    "Gases",
+    "Perfect conductors",
+    "Always liquid"
+   ],
+   "answer": 0,
+   "why": "On the stepped line between metals and non-metals.",
+   "x": 1
+  },
+  {
+   "q": "Malleable means a metal can be:",
+   "options": [
+    "Melted easily",
+    "Dissolved in water",
+    "Rolled into sheets",
+    "Stretched into wires"
+   ],
+   "answer": 2,
+   "why": "Ductile = stretched into wires.",
+   "x": 1
+  },
+  {
+   "q": "Elements of the same column have:",
+   "options": [
+    "The same Z",
+    "The same number of shells",
+    "The same outer-shell configuration",
+    "The same mass"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Alkali metal oxides such as Na₂O give:",
+   "options": [
+    "Noble gases",
+    "Strong bases (NaOH)",
+    "Strong acids",
+    "Neutral salts only"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Alkaline earth metals are:",
+   "options": [
+    "Non-metals",
+    "Bivalent and form M²⁺",
+    "Halogens",
+    "Monovalent"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Halogens tend to:",
+   "options": [
+    "Be inert",
+    "Lose two electrons",
+    "Gain an electron to form X⁻",
+    "Form M²⁺"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Noble gases have the outer configuration:",
+   "options": [
+    "ns¹",
+    "ns²",
+    "ns² np⁶ (He: 1s²)",
+    "ns² np⁵"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Elements are ordered in the modern table by:",
+   "options": [
+    "Density",
+    "Atomic mass",
+    "Discovery date",
+    "Atomic number Z"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The d block elements are also called:",
+   "options": [
+    "Halogens",
+    "Transition metals",
+    "Alkali metals",
+    "Noble gases"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The f block elements are placed:",
+   "options": [
+    "In two rows below the table (the 'balconies')",
+    "In column 1",
+    "Above the table",
+    "In column 18"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In which group (column 1-18) is lithium (Li)?",
+   "options": [
+    "2",
+    "1",
+    "17",
+    "11"
+   ],
+   "answer": 1,
+   "why": "Main groups: 1, 2 and 13 to 18.",
+   "x": 1
+  },
+  {
+   "q": "In which group (column 1-18) is magnesium (Mg)?",
+   "options": [
+    "16",
+    "1",
+    "3",
+    "2"
+   ],
+   "answer": 3,
+   "why": "Main groups: 1, 2 and 13 to 18.",
+   "x": 1
+  },
+  {
+   "q": "In which group (column 1-18) is aluminium (Al)?",
+   "options": [
+    "5",
+    "13",
+    "12",
+    "14"
+   ],
+   "answer": 1,
+   "why": "Main groups: 1, 2 and 13 to 18.",
+   "x": 1
+  },
+  {
+   "q": "In which group (column 1-18) is carbon (C)?",
+   "options": [
+    "14",
+    "4",
+    "13",
+    "15"
+   ],
+   "answer": 0,
+   "why": "Main groups: 1, 2 and 13 to 18.",
+   "x": 1
+  },
+  {
+   "q": "In which group (column 1-18) is phosphorus (P)?",
+   "options": [
+    "3",
+    "15",
+    "14",
+    "16"
+   ],
+   "answer": 1,
+   "why": "Main groups: 1, 2 and 13 to 18.",
+   "x": 1
+  },
+  {
+   "q": "In which group (column 1-18) is sulphur (S)?",
+   "options": [
+    "15",
+    "2",
+    "16",
+    "17"
+   ],
+   "answer": 2,
+   "why": "Main groups: 1, 2 and 13 to 18.",
+   "x": 1
+  },
+  {
+   "q": "In which group (column 1-18) is fluorine (F)?",
+   "options": [
+    "16",
+    "18",
+    "1",
+    "17"
+   ],
+   "answer": 3,
+   "why": "Main groups: 1, 2 and 13 to 18.",
+   "x": 1
+  },
+  {
+   "q": "In which group (column 1-18) is bromine (Br)?",
+   "options": [
+    "16",
+    "18",
+    "1",
+    "17"
+   ],
+   "answer": 3,
+   "why": "Main groups: 1, 2 and 13 to 18.",
+   "x": 1
+  },
+  {
+   "q": "In which group (column 1-18) is argon (Ar)?",
+   "options": [
+    "18",
+    "17",
+    "19",
+    "8"
+   ],
+   "answer": 0,
+   "why": "Main groups: 1, 2 and 13 to 18.",
+   "x": 1
+  },
+  {
+   "q": "In which group (column 1-18) is potassium (K)?",
+   "options": [
+    "11",
+    "1",
+    "17",
+    "2"
+   ],
+   "answer": 1,
+   "why": "Main groups: 1, 2 and 13 to 18.",
+   "x": 1
+  },
+  {
+   "q": "In which group (column 1-18) is beryllium (Be)?",
+   "options": [
+    "3",
+    "2",
+    "1",
+    "16"
+   ],
+   "answer": 1,
+   "why": "Main groups: 1, 2 and 13 to 18.",
+   "x": 1
+  },
+  {
+   "q": "In which group (column 1-18) is nitrogen (N)?",
+   "options": [
+    "3",
+    "15",
+    "14",
+    "16"
+   ],
+   "answer": 1,
+   "why": "Main groups: 1, 2 and 13 to 18.",
+   "x": 1
+  },
+  {
+   "q": "In which group (column 1-18) is arsenic (As)?",
+   "options": [
+    "3",
+    "14",
+    "15",
+    "16"
+   ],
+   "answer": 2,
+   "why": "Main groups: 1, 2 and 13 to 18.",
+   "x": 1
+  },
+  {
+   "q": "In which group (column 1-18) is silicon (Si)?",
+   "options": [
+    "14",
+    "13",
+    "4",
+    "15"
+   ],
+   "answer": 0,
+   "why": "Main groups: 1, 2 and 13 to 18.",
+   "x": 1
   }
  ],
  "cards": [
@@ -3877,6 +9301,1062 @@ SINA.lectures["chem1-bonds"] = {
    ],
    "answer": 2,
    "why": "The arrow points to: Molecular orbitals. Atomic orbitals of similar energy and symmetry combine: as many MOs as AOs, bonding and antibonding."
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of H₂O?",
+   "options": [
+    "6",
+    "9",
+    "8",
+    "10"
+   ],
+   "answer": 2,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of NH₃?",
+   "options": [
+    "9",
+    "6",
+    "8",
+    "10"
+   ],
+   "answer": 2,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of CH₄?",
+   "options": [
+    "6",
+    "8",
+    "10",
+    "9"
+   ],
+   "answer": 1,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of CO₂?",
+   "options": [
+    "18",
+    "17",
+    "16",
+    "14"
+   ],
+   "answer": 2,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of N₂?",
+   "options": [
+    "10",
+    "8",
+    "11",
+    "12"
+   ],
+   "answer": 0,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of O₂?",
+   "options": [
+    "14",
+    "12",
+    "13",
+    "10"
+   ],
+   "answer": 1,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of HCN?",
+   "options": [
+    "10",
+    "8",
+    "11",
+    "12"
+   ],
+   "answer": 0,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of NH₄⁺?",
+   "options": [
+    "10",
+    "6",
+    "8",
+    "9"
+   ],
+   "answer": 2,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of OH⁻?",
+   "options": [
+    "9",
+    "10",
+    "8",
+    "6"
+   ],
+   "answer": 2,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of H₃O⁺?",
+   "options": [
+    "10",
+    "6",
+    "9",
+    "8"
+   ],
+   "answer": 3,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of NO₃⁻?",
+   "options": [
+    "24",
+    "22",
+    "25",
+    "26"
+   ],
+   "answer": 0,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of SO₄²⁻?",
+   "options": [
+    "33",
+    "34",
+    "32",
+    "30"
+   ],
+   "answer": 2,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of CO₃²⁻?",
+   "options": [
+    "24",
+    "26",
+    "25",
+    "22"
+   ],
+   "answer": 0,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of Cl₂?",
+   "options": [
+    "12",
+    "15",
+    "14",
+    "16"
+   ],
+   "answer": 2,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of HCl?",
+   "options": [
+    "10",
+    "6",
+    "8",
+    "9"
+   ],
+   "answer": 2,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of C₂H₆?",
+   "options": [
+    "15",
+    "12",
+    "16",
+    "14"
+   ],
+   "answer": 3,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of C₂H₄?",
+   "options": [
+    "10",
+    "13",
+    "12",
+    "14"
+   ],
+   "answer": 2,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of C₂H₂?",
+   "options": [
+    "10",
+    "12",
+    "8",
+    "11"
+   ],
+   "answer": 0,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of PCl₃?",
+   "options": [
+    "27",
+    "28",
+    "24",
+    "26"
+   ],
+   "answer": 3,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of H₂S?",
+   "options": [
+    "8",
+    "10",
+    "6",
+    "9"
+   ],
+   "answer": 0,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of CCl₄?",
+   "options": [
+    "32",
+    "34",
+    "33",
+    "30"
+   ],
+   "answer": 0,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons are used to draw the Lewis structure of F₂?",
+   "options": [
+    "16",
+    "14",
+    "15",
+    "12"
+   ],
+   "answer": 1,
+   "why": "Add the valence electrons; add one per negative charge, subtract one per positive charge.",
+   "x": 1
+  },
+  {
+   "q": "The bond between Na and Cl is mainly:",
+   "options": [
+    "Polar covalent",
+    "Pure (non-polar) covalent",
+    "Metallic",
+    "Ionic"
+   ],
+   "answer": 3,
+   "why": "Metal + non-metal: ionic; identical atoms: pure covalent; different non-metals: polar covalent.",
+   "x": 1
+  },
+  {
+   "q": "The bond between Mg and O is mainly:",
+   "options": [
+    "Ionic",
+    "Pure (non-polar) covalent",
+    "Metallic",
+    "Polar covalent"
+   ],
+   "answer": 0,
+   "why": "Metal + non-metal: ionic; identical atoms: pure covalent; different non-metals: polar covalent.",
+   "x": 1
+  },
+  {
+   "q": "The bond between K and Br is mainly:",
+   "options": [
+    "Ionic",
+    "Pure (non-polar) covalent",
+    "Polar covalent",
+    "Metallic"
+   ],
+   "answer": 0,
+   "why": "Metal + non-metal: ionic; identical atoms: pure covalent; different non-metals: polar covalent.",
+   "x": 1
+  },
+  {
+   "q": "The bond between Ca and F is mainly:",
+   "options": [
+    "Ionic",
+    "Pure (non-polar) covalent",
+    "Polar covalent",
+    "Metallic"
+   ],
+   "answer": 0,
+   "why": "Metal + non-metal: ionic; identical atoms: pure covalent; different non-metals: polar covalent.",
+   "x": 1
+  },
+  {
+   "q": "The bond between H and H is mainly:",
+   "options": [
+    "Metallic",
+    "Pure (non-polar) covalent",
+    "Polar covalent",
+    "Ionic"
+   ],
+   "answer": 1,
+   "why": "Metal + non-metal: ionic; identical atoms: pure covalent; different non-metals: polar covalent.",
+   "x": 1
+  },
+  {
+   "q": "The bond between Cl and Cl is mainly:",
+   "options": [
+    "Ionic",
+    "Pure (non-polar) covalent",
+    "Metallic",
+    "Polar covalent"
+   ],
+   "answer": 1,
+   "why": "Metal + non-metal: ionic; identical atoms: pure covalent; different non-metals: polar covalent.",
+   "x": 1
+  },
+  {
+   "q": "The bond between O and O is mainly:",
+   "options": [
+    "Metallic",
+    "Ionic",
+    "Polar covalent",
+    "Pure (non-polar) covalent"
+   ],
+   "answer": 3,
+   "why": "Metal + non-metal: ionic; identical atoms: pure covalent; different non-metals: polar covalent.",
+   "x": 1
+  },
+  {
+   "q": "The bond between H and Cl is mainly:",
+   "options": [
+    "Pure (non-polar) covalent",
+    "Polar covalent",
+    "Metallic",
+    "Ionic"
+   ],
+   "answer": 1,
+   "why": "Metal + non-metal: ionic; identical atoms: pure covalent; different non-metals: polar covalent.",
+   "x": 1
+  },
+  {
+   "q": "The bond between H and O is mainly:",
+   "options": [
+    "Pure (non-polar) covalent",
+    "Ionic",
+    "Polar covalent",
+    "Metallic"
+   ],
+   "answer": 2,
+   "why": "Metal + non-metal: ionic; identical atoms: pure covalent; different non-metals: polar covalent.",
+   "x": 1
+  },
+  {
+   "q": "The bond between N and H is mainly:",
+   "options": [
+    "Polar covalent",
+    "Pure (non-polar) covalent",
+    "Metallic",
+    "Ionic"
+   ],
+   "answer": 0,
+   "why": "Metal + non-metal: ionic; identical atoms: pure covalent; different non-metals: polar covalent.",
+   "x": 1
+  },
+  {
+   "q": "The bond between C and O is mainly:",
+   "options": [
+    "Pure (non-polar) covalent",
+    "Metallic",
+    "Polar covalent",
+    "Ionic"
+   ],
+   "answer": 2,
+   "why": "Metal + non-metal: ionic; identical atoms: pure covalent; different non-metals: polar covalent.",
+   "x": 1
+  },
+  {
+   "q": "The bond between Li and F is mainly:",
+   "options": [
+    "Ionic",
+    "Polar covalent",
+    "Pure (non-polar) covalent",
+    "Metallic"
+   ],
+   "answer": 0,
+   "why": "Metal + non-metal: ionic; identical atoms: pure covalent; different non-metals: polar covalent.",
+   "x": 1
+  },
+  {
+   "q": "How many covalent bonds does H usually form (its valence)?",
+   "options": [
+    "3",
+    "5",
+    "1",
+    "2"
+   ],
+   "answer": 2,
+   "why": "Valence = number of single electrons available, or 8 minus the number of valence electrons.",
+   "x": 1
+  },
+  {
+   "q": "How many covalent bonds does O usually form (its valence)?",
+   "options": [
+    "4",
+    "2",
+    "1",
+    "3"
+   ],
+   "answer": 1,
+   "why": "Valence = number of single electrons available, or 8 minus the number of valence electrons.",
+   "x": 1
+  },
+  {
+   "q": "How many covalent bonds does N usually form (its valence)?",
+   "options": [
+    "5",
+    "3",
+    "4",
+    "2"
+   ],
+   "answer": 1,
+   "why": "Valence = number of single electrons available, or 8 minus the number of valence electrons.",
+   "x": 1
+  },
+  {
+   "q": "How many covalent bonds does C usually form (its valence)?",
+   "options": [
+    "5",
+    "3",
+    "4",
+    "6"
+   ],
+   "answer": 2,
+   "why": "Valence = number of single electrons available, or 8 minus the number of valence electrons.",
+   "x": 1
+  },
+  {
+   "q": "How many covalent bonds does F usually form (its valence)?",
+   "options": [
+    "1",
+    "5",
+    "3",
+    "2"
+   ],
+   "answer": 0,
+   "why": "Valence = number of single electrons available, or 8 minus the number of valence electrons.",
+   "x": 1
+  },
+  {
+   "q": "How many covalent bonds does Cl usually form (its valence)?",
+   "options": [
+    "5",
+    "2",
+    "3",
+    "1"
+   ],
+   "answer": 3,
+   "why": "Valence = number of single electrons available, or 8 minus the number of valence electrons.",
+   "x": 1
+  },
+  {
+   "q": "How many covalent bonds does S usually form (its valence)?",
+   "options": [
+    "3",
+    "1",
+    "2",
+    "4"
+   ],
+   "answer": 2,
+   "why": "Valence = number of single electrons available, or 8 minus the number of valence electrons.",
+   "x": 1
+  },
+  {
+   "q": "How many lone pairs are on the central atom of H₂O?",
+   "options": [
+    "4",
+    "2",
+    "1",
+    "3"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "How many lone pairs are on the central atom of NH₃?",
+   "options": [
+    "3",
+    "2",
+    "0",
+    "1"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "How many lone pairs are on the central atom of CH₄?",
+   "options": [
+    "1",
+    "0",
+    "3",
+    "2"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "How many lone pairs are on the central atom of H₂S?",
+   "options": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "How many lone pairs are on the central atom of HCl (on Cl)?",
+   "options": [
+    "5",
+    "2",
+    "4",
+    "3"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Combining 2 atomic orbitals gives how many molecular orbitals?",
+   "options": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "answer": 0,
+   "why": "As many MOs as AOs combined (half bonding, half antibonding).",
+   "x": 1
+  },
+  {
+   "q": "Combining 4 atomic orbitals gives how many molecular orbitals?",
+   "options": [
+    "2",
+    "8",
+    "4",
+    "5"
+   ],
+   "answer": 2,
+   "why": "As many MOs as AOs combined (half bonding, half antibonding).",
+   "x": 1
+  },
+  {
+   "q": "Combining 6 atomic orbitals gives how many molecular orbitals?",
+   "options": [
+    "7",
+    "12",
+    "6",
+    "3"
+   ],
+   "answer": 2,
+   "why": "As many MOs as AOs combined (half bonding, half antibonding).",
+   "x": 1
+  },
+  {
+   "q": "Combining 8 atomic orbitals gives how many molecular orbitals?",
+   "options": [
+    "4",
+    "9",
+    "16",
+    "8"
+   ],
+   "answer": 3,
+   "why": "As many MOs as AOs combined (half bonding, half antibonding).",
+   "x": 1
+  },
+  {
+   "q": "A dash (H–H) in a Lewis structure represents:",
+   "options": [
+    "A single electron",
+    "A shared electron pair (binding doublet)",
+    "An ionic charge",
+    "A lone pair"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Which is NOT a step in writing a Lewis structure?",
+   "options": [
+    "Completing octets with lone pairs or multiple bonds",
+    "Placing H as the central atom",
+    "Adding electrons for negative charges",
+    "Counting valence electrons"
+   ],
+   "answer": 1,
+   "why": "H and F are terminal.",
+   "x": 1
+  },
+  {
+   "q": "The CO molecule contains:",
+   "options": [
+    "A single bond",
+    "A triple bond and one lone pair on each atom",
+    "An ionic bond",
+    "A double bond and no lone pairs"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Hydrogen bonds are responsible for many properties of:",
+   "options": [
+    "Sodium metal",
+    "Noble gases",
+    "Methane",
+    "Water"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Ionic compounds form:",
+   "options": [
+    "Gases at room temperature",
+    "A crystal lattice stabilised by lattice enthalpy",
+    "Discrete molecules only",
+    "Metallic bonds"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Kossel's theory explains:",
+   "options": [
+    "The electrovalent (ionic) bond",
+    "Molecular orbitals",
+    "Hydrogen bonds",
+    "The covalent bond"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The octet rule applies to atoms of:",
+   "options": [
+    "Transition metals only",
+    "Periods 2 and 3",
+    "Period 1 only",
+    "Noble gases only"
+   ],
+   "answer": 1,
+   "why": "H follows the duet rule.",
+   "x": 1
+  },
+  {
+   "q": "A σ molecular orbital comes from:",
+   "options": [
+    "Axial (head-on) overlap",
+    "Ionic attraction",
+    "Side overlap",
+    "No overlap"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "For A₂ molecules with Z ≤ 7, s-p interaction places:",
+   "options": [
+    "All MOs at the same energy",
+    "σ*2s below σ2s",
+    "π below σz",
+    "σz below π"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "From the 8 valence AOs (2s, 2p) of a second-period diatomic, we get:",
+   "options": [
+    "8 bonding MOs",
+    "2 bonding and 6 antibonding",
+    "4 bonding and 4 antibonding MOs",
+    "4 MOs in total"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Covalent bonds are typical of:",
+   "options": [
+    "Organic (carbon) compounds",
+    "Noble gases",
+    "Metal salts",
+    "Alloys"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Weakly bonded compounds tend to:",
+   "options": [
+    "Have high bond energy",
+    "Be the most stable",
+    "Never react",
+    "React to form stronger bonds"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons does SO₂ have in total for its Lewis structure?",
+   "options": [
+    "19",
+    "18",
+    "16",
+    "20"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons does O₃ have in total for its Lewis structure?",
+   "options": [
+    "18",
+    "16",
+    "19",
+    "20"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons does NO₂⁻ have in total for its Lewis structure?",
+   "options": [
+    "16",
+    "20",
+    "19",
+    "18"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons does CH₃OH have in total for its Lewis structure?",
+   "options": [
+    "14",
+    "12",
+    "15",
+    "16"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons does H₂O₂ have in total for its Lewis structure?",
+   "options": [
+    "12",
+    "15",
+    "16",
+    "14"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons does BF₃ have in total for its Lewis structure?",
+   "options": [
+    "24",
+    "26",
+    "22",
+    "25"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons does SiH₄ have in total for its Lewis structure?",
+   "options": [
+    "10",
+    "6",
+    "8",
+    "9"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons does PH₃ have in total for its Lewis structure?",
+   "options": [
+    "8",
+    "6",
+    "9",
+    "10"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons does CN⁻ have in total for its Lewis structure?",
+   "options": [
+    "10",
+    "12",
+    "11",
+    "8"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "How many valence electrons does NO⁺ have in total for its Lewis structure?",
+   "options": [
+    "10",
+    "8",
+    "12",
+    "11"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The bond between K and Cl is mainly:",
+   "options": [
+    "Pure (non-polar) covalent",
+    "Ionic",
+    "Metallic",
+    "Polar covalent"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The bond between N and N is mainly:",
+   "options": [
+    "Pure (non-polar) covalent",
+    "Ionic",
+    "Polar covalent",
+    "Metallic"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The bond between C and H is mainly:",
+   "options": [
+    "Metallic",
+    "Pure (non-polar) covalent",
+    "Polar covalent",
+    "Ionic"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The bond between Na and O is mainly:",
+   "options": [
+    "Metallic",
+    "Pure (non-polar) covalent",
+    "Ionic",
+    "Polar covalent"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The bond between F and F is mainly:",
+   "options": [
+    "Ionic",
+    "Pure (non-polar) covalent",
+    "Polar covalent",
+    "Metallic"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The bond between S and O is mainly:",
+   "options": [
+    "Polar covalent",
+    "Metallic",
+    "Pure (non-polar) covalent",
+    "Ionic"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The bond between Mg and Cl is mainly:",
+   "options": [
+    "Pure (non-polar) covalent",
+    "Metallic",
+    "Ionic",
+    "Polar covalent"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The bond between H and F is mainly:",
+   "options": [
+    "Pure (non-polar) covalent",
+    "Polar covalent",
+    "Ionic",
+    "Metallic"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In MgCl₂, magnesium:",
+   "options": [
+    "Shares 4 electrons",
+    "Keeps its electrons",
+    "Gains 2 electrons",
+    "Loses 2 electrons to reach a noble-gas configuration"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In F₂, the octet is reached by:",
+   "options": [
+    "Electron transfer",
+    "Sharing one electron pair",
+    "A triple bond",
+    "Losing 7 electrons"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The Lewis symbol of lithium has:",
+   "options": [
+    "2 dots",
+    "3 dots",
+    "1 dot",
+    "7 dots"
+   ],
+   "answer": 2,
+   "why": "One valence electron.",
+   "x": 1
+  },
+  {
+   "q": "The Lewis symbol of neon has:",
+   "options": [
+    "2 dots",
+    "8 dots",
+    "0 dots",
+    "10 dots"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "A polar covalent bond carries:",
+   "options": [
+    "No charge separation",
+    "Partial charges δ+ and δ−",
+    "Full ionic charges",
+    "Only positive charges"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "The configuration of H₂ in MO theory is σ1s². Its antibonding orbital σ*1s is:",
+   "options": [
+    "Absent",
+    "Empty",
+    "Full",
+    "Half-filled"
+   ],
+   "answer": 1,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "In the Lewis structure of N₂, the nitrogen atoms are joined by:",
+   "options": [
+    "A single bond",
+    "A double bond",
+    "An ionic bond",
+    "A triple bond"
+   ],
+   "answer": 3,
+   "why": "10 valence electrons: N≡N with one lone pair each.",
+   "x": 1
+  },
+  {
+   "q": "In CO₂, each oxygen is joined to carbon by:",
+   "options": [
+    "A triple bond",
+    "A double bond",
+    "A hydrogen bond",
+    "A single bond"
+   ],
+   "answer": 1,
+   "why": "O=C=O, 16 valence electrons.",
+   "x": 1
   }
  ],
  "cards": [
@@ -4612,6 +11092,1062 @@ SINA.lectures["chem1-solutions"] = {
    ],
    "answer": 2,
    "why": "The arrow points to: Dilution. Moles of solute are constant, so M₁V₁ = M₂V₂. Always add acid to water."
+  },
+  {
+   "q": "5.85 g of NaCl (M = 58.5 g/mol) are dissolved to make 500 mL of solution. The molarity is:",
+   "options": [
+    "11.7 M",
+    "0.2 M",
+    "0.02 M",
+    "0.1 M"
+   ],
+   "answer": 1,
+   "why": "n = 5.85/58.5 = 0.1 mol; C = n/V = 0.2 M.",
+   "x": 1
+  },
+  {
+   "q": "4.0 g of NaOH (M = 40 g/mol) are dissolved to make 250 mL of solution. The molarity is:",
+   "options": [
+    "16 M",
+    "0.04 M",
+    "0.4 M",
+    "0.1 M"
+   ],
+   "answer": 2,
+   "why": "n = 4.0/40 = 0.1 mol; C = n/V = 0.4 M.",
+   "x": 1
+  },
+  {
+   "q": "9.0 g of glucose (M = 180 g/mol) are dissolved to make 1000 mL of solution. The molarity is:",
+   "options": [
+    "0.5 M",
+    "0.005 M",
+    "9 M",
+    "0.05 M"
+   ],
+   "answer": 3,
+   "why": "n = 9.0/180 = 0.05 mol; C = n/V = 0.05 M.",
+   "x": 1
+  },
+  {
+   "q": "7.45 g of KCl (M = 74.5 g/mol) are dissolved to make 500 mL of solution. The molarity is:",
+   "options": [
+    "0.2 M",
+    "0.02 M",
+    "14.9 M",
+    "0.1 M"
+   ],
+   "answer": 0,
+   "why": "n = 7.45/74.5 = 0.1 mol; C = n/V = 0.2 M.",
+   "x": 1
+  },
+  {
+   "q": "11.7 g of NaCl (M = 58.5 g/mol) are dissolved to make 2000 mL of solution. The molarity is:",
+   "options": [
+    "5.85 M",
+    "0.1 M",
+    "0.2 M",
+    "0.01 M"
+   ],
+   "answer": 1,
+   "why": "n = 11.7/58.5 = 0.2 mol; C = n/V = 0.1 M.",
+   "x": 1
+  },
+  {
+   "q": "2.0 g of NaOH (M = 40 g/mol) are dissolved to make 100 mL of solution. The molarity is:",
+   "options": [
+    "1.5 M",
+    "0.05 M",
+    "0.5 M",
+    "20 M"
+   ],
+   "answer": 2,
+   "why": "n = 2.0/40 = 0.05 mol; C = n/V = 0.5 M.",
+   "x": 1
+  },
+  {
+   "q": "18 g of glucose (M = 180 g/mol) are dissolved to make 500 mL of solution. The molarity is:",
+   "options": [
+    "0.2 M",
+    "36 M",
+    "0.1 M",
+    "0.02 M"
+   ],
+   "answer": 0,
+   "why": "n = 18/180 = 0.1 mol; C = n/V = 0.2 M.",
+   "x": 1
+  },
+  {
+   "q": "1.17 g of NaCl (M = 58.5 g/mol) are dissolved to make 200 mL of solution. The molarity is:",
+   "options": [
+    "0.01 M",
+    "5.85 M",
+    "0.02 M",
+    "0.1 M"
+   ],
+   "answer": 3,
+   "why": "n = 1.17/58.5 = 0.02 mol; C = n/V = 0.1 M.",
+   "x": 1
+  },
+  {
+   "q": "3.42 g of sucrose (M = 342 g/mol) are dissolved to make 100 mL of solution. The molarity is:",
+   "options": [
+    "0.1 M",
+    "34.2 M",
+    "1.1 M",
+    "0.01 M"
+   ],
+   "answer": 0,
+   "why": "n = 3.42/342 = 0.01 mol; C = n/V = 0.1 M.",
+   "x": 1
+  },
+  {
+   "q": "10 g of NaOH (M = 40 g/mol) are dissolved to make 1000 mL of solution. The molarity is:",
+   "options": [
+    "0.025 M",
+    "2.5 M",
+    "10 M",
+    "0.25 M"
+   ],
+   "answer": 3,
+   "why": "n = 10/40 = 0.25 mol; C = n/V = 0.25 M.",
+   "x": 1
+  },
+  {
+   "q": "What volume of 2 M stock is needed to prepare 100 mL of 0.5 M solution?",
+   "options": [
+    "25 mL",
+    "400 mL",
+    "75 mL",
+    "1 mL"
+   ],
+   "answer": 0,
+   "why": "M₁V₁ = M₂V₂.",
+   "x": 1
+  },
+  {
+   "q": "What volume of 1 M stock is needed to prepare 250 mL of 0.1 M solution?",
+   "options": [
+    "0.1 mL",
+    "2.5e+03 mL",
+    "25 mL",
+    "225 mL"
+   ],
+   "answer": 2,
+   "why": "M₁V₁ = M₂V₂.",
+   "x": 1
+  },
+  {
+   "q": "What volume of 6 M stock is needed to prepare 500 mL of 1.5 M solution?",
+   "options": [
+    "125 mL",
+    "2e+03 mL",
+    "375 mL",
+    "9 mL"
+   ],
+   "answer": 0,
+   "why": "M₁V₁ = M₂V₂.",
+   "x": 1
+  },
+  {
+   "q": "What volume of 12 M stock is needed to prepare 1000 mL of 0.6 M solution?",
+   "options": [
+    "2e+04 mL",
+    "7.2 mL",
+    "950 mL",
+    "50 mL"
+   ],
+   "answer": 3,
+   "why": "M₁V₁ = M₂V₂.",
+   "x": 1
+  },
+  {
+   "q": "What volume of 5 M stock is needed to prepare 200 mL of 1 M solution?",
+   "options": [
+    "160 mL",
+    "5 mL",
+    "1e+03 mL",
+    "40 mL"
+   ],
+   "answer": 3,
+   "why": "M₁V₁ = M₂V₂.",
+   "x": 1
+  },
+  {
+   "q": "What volume of 10 M stock is needed to prepare 50 mL of 2 M solution?",
+   "options": [
+    "20 mL",
+    "250 mL",
+    "10 mL",
+    "40 mL"
+   ],
+   "answer": 2,
+   "why": "M₁V₁ = M₂V₂.",
+   "x": 1
+  },
+  {
+   "q": "What volume of 0.5 M stock is needed to prepare 100 mL of 0.1 M solution?",
+   "options": [
+    "0.05 mL",
+    "20 mL",
+    "500 mL",
+    "80 mL"
+   ],
+   "answer": 1,
+   "why": "M₁V₁ = M₂V₂.",
+   "x": 1
+  },
+  {
+   "q": "What volume of 3 M stock is needed to prepare 300 mL of 0.5 M solution?",
+   "options": [
+    "1.5 mL",
+    "250 mL",
+    "50 mL",
+    "1.8e+03 mL"
+   ],
+   "answer": 2,
+   "why": "M₁V₁ = M₂V₂.",
+   "x": 1
+  },
+  {
+   "q": "What volume of 4 M stock is needed to prepare 1000 mL of 0.2 M solution?",
+   "options": [
+    "0.8 mL",
+    "50 mL",
+    "2e+04 mL",
+    "950 mL"
+   ],
+   "answer": 1,
+   "why": "M₁V₁ = M₂V₂.",
+   "x": 1
+  },
+  {
+   "q": "What volume of 2 M stock is needed to prepare 500 mL of 0.4 M solution?",
+   "options": [
+    "0.8 mL",
+    "400 mL",
+    "100 mL",
+    "2.5e+03 mL"
+   ],
+   "answer": 2,
+   "why": "M₁V₁ = M₂V₂.",
+   "x": 1
+  },
+  {
+   "q": "The normality of a 1 M H₂SO₄ solution is:",
+   "options": [
+    "3 N",
+    "2 N",
+    "1 N",
+    "0.5 N"
+   ],
+   "answer": 1,
+   "why": "N = M × number of H⁺ or OH⁻ = 1 × 2.",
+   "x": 1
+  },
+  {
+   "q": "The normality of a 0.5 M HCl solution is:",
+   "options": [
+    "0 N",
+    "1 N",
+    "1.5 N",
+    "0.5 N"
+   ],
+   "answer": 3,
+   "why": "N = M × number of H⁺ or OH⁻ = 0.5 × 1.",
+   "x": 1
+  },
+  {
+   "q": "The normality of a 1 M H₃PO₄ solution is:",
+   "options": [
+    "0.333333 N",
+    "3 N",
+    "1 N",
+    "4 N"
+   ],
+   "answer": 1,
+   "why": "N = M × number of H⁺ or OH⁻ = 1 × 3.",
+   "x": 1
+  },
+  {
+   "q": "The normality of a 2 M NaOH solution is:",
+   "options": [
+    "3 N",
+    "2 N",
+    "4 N",
+    "0 N"
+   ],
+   "answer": 1,
+   "why": "N = M × number of H⁺ or OH⁻ = 2 × 1.",
+   "x": 1
+  },
+  {
+   "q": "The normality of a 0.5 M Ca(OH)₂ solution is:",
+   "options": [
+    "1 N",
+    "0.5 N",
+    "2 N",
+    "0.25 N"
+   ],
+   "answer": 0,
+   "why": "N = M × number of H⁺ or OH⁻ = 0.5 × 2.",
+   "x": 1
+  },
+  {
+   "q": "The normality of a 0.25 M H₂SO₄ solution is:",
+   "options": [
+    "1.5 N",
+    "0.25 N",
+    "0.5 N",
+    "0.125 N"
+   ],
+   "answer": 2,
+   "why": "N = M × number of H⁺ or OH⁻ = 0.25 × 2.",
+   "x": 1
+  },
+  {
+   "q": "A solution has [H₃O⁺] = 10⁻¹ M at 25 °C. Its pH is:",
+   "options": [
+    "13 (basic)",
+    "2 (acidic)",
+    "−1 (acidic)",
+    "1 (acidic)"
+   ],
+   "answer": 3,
+   "why": "pH = −log[H₃O⁺]; below 7 acidic, above 7 basic.",
+   "x": 1
+  },
+  {
+   "q": "A solution has [H₃O⁺] = 10⁻² M at 25 °C. Its pH is:",
+   "options": [
+    "2 (acidic)",
+    "12 (basic)",
+    "3 (acidic)",
+    "−2 (acidic)"
+   ],
+   "answer": 0,
+   "why": "pH = −log[H₃O⁺]; below 7 acidic, above 7 basic.",
+   "x": 1
+  },
+  {
+   "q": "A solution has [H₃O⁺] = 10⁻³ M at 25 °C. Its pH is:",
+   "options": [
+    "3 (acidic)",
+    "−3 (acidic)",
+    "4 (acidic)",
+    "11 (basic)"
+   ],
+   "answer": 0,
+   "why": "pH = −log[H₃O⁺]; below 7 acidic, above 7 basic.",
+   "x": 1
+  },
+  {
+   "q": "A solution has [H₃O⁺] = 10⁻⁴ M at 25 °C. Its pH is:",
+   "options": [
+    "10 (basic)",
+    "4 (acidic)",
+    "5 (acidic)",
+    "−4 (acidic)"
+   ],
+   "answer": 1,
+   "why": "pH = −log[H₃O⁺]; below 7 acidic, above 7 basic.",
+   "x": 1
+  },
+  {
+   "q": "A solution has [H₃O⁺] = 10⁻⁵ M at 25 °C. Its pH is:",
+   "options": [
+    "5 (acidic)",
+    "6 (acidic)",
+    "9 (basic)",
+    "−5 (acidic)"
+   ],
+   "answer": 0,
+   "why": "pH = −log[H₃O⁺]; below 7 acidic, above 7 basic.",
+   "x": 1
+  },
+  {
+   "q": "A solution has [H₃O⁺] = 10⁻⁷ M at 25 °C. Its pH is:",
+   "options": [
+    "8 (neutral)",
+    "0 (acidic)",
+    "7 (neutral)",
+    "−7 (neutral)"
+   ],
+   "answer": 2,
+   "why": "pH = −log[H₃O⁺]; below 7 acidic, above 7 basic.",
+   "x": 1
+  },
+  {
+   "q": "A solution has [H₃O⁺] = 10⁻⁹ M at 25 °C. Its pH is:",
+   "options": [
+    "9 (basic)",
+    "10 (basic)",
+    "5 (acidic)",
+    "−9 (basic)"
+   ],
+   "answer": 0,
+   "why": "pH = −log[H₃O⁺]; below 7 acidic, above 7 basic.",
+   "x": 1
+  },
+  {
+   "q": "A solution has [H₃O⁺] = 10⁻¹¹ M at 25 °C. Its pH is:",
+   "options": [
+    "−11 (basic)",
+    "11 (basic)",
+    "3 (acidic)",
+    "12 (basic)"
+   ],
+   "answer": 1,
+   "why": "pH = −log[H₃O⁺]; below 7 acidic, above 7 basic.",
+   "x": 1
+  },
+  {
+   "q": "A solution has [H₃O⁺] = 10⁻¹² M at 25 °C. Its pH is:",
+   "options": [
+    "13 (basic)",
+    "2 (acidic)",
+    "12 (basic)",
+    "−12 (basic)"
+   ],
+   "answer": 2,
+   "why": "pH = −log[H₃O⁺]; below 7 acidic, above 7 basic.",
+   "x": 1
+  },
+  {
+   "q": "At 25 °C, [OH⁻] = 10⁻² M. [H₃O⁺] is:",
+   "options": [
+    "10⁻¹² M",
+    "10¹² M",
+    "10⁻² M",
+    "10⁻⁷ M"
+   ],
+   "answer": 0,
+   "why": "Kw = [H₃O⁺][OH⁻] = 10⁻¹⁴.",
+   "x": 1
+  },
+  {
+   "q": "At 25 °C, [OH⁻] = 10⁻⁴ M. [H₃O⁺] is:",
+   "options": [
+    "10¹⁰ M",
+    "10⁻⁷ M",
+    "10⁻¹⁰ M",
+    "10⁻⁴ M"
+   ],
+   "answer": 2,
+   "why": "Kw = [H₃O⁺][OH⁻] = 10⁻¹⁴.",
+   "x": 1
+  },
+  {
+   "q": "At 25 °C, [OH⁻] = 10⁻⁶ M. [H₃O⁺] is:",
+   "options": [
+    "10⁻⁶ M",
+    "10⁻⁸ M",
+    "10⁸ M",
+    "10⁻⁷ M"
+   ],
+   "answer": 1,
+   "why": "Kw = [H₃O⁺][OH⁻] = 10⁻¹⁴.",
+   "x": 1
+  },
+  {
+   "q": "At 25 °C, [OH⁻] = 10⁻³ M. [H₃O⁺] is:",
+   "options": [
+    "10⁻¹¹ M",
+    "10⁻³ M",
+    "10¹¹ M",
+    "10⁻⁷ M"
+   ],
+   "answer": 0,
+   "why": "Kw = [H₃O⁺][OH⁻] = 10⁻¹⁴.",
+   "x": 1
+  },
+  {
+   "q": "At 25 °C, [OH⁻] = 10⁻⁵ M. [H₃O⁺] is:",
+   "options": [
+    "10⁻⁷ M",
+    "10⁻⁹ M",
+    "10⁻⁵ M",
+    "10⁹ M"
+   ],
+   "answer": 1,
+   "why": "Kw = [H₃O⁺][OH⁻] = 10⁻¹⁴.",
+   "x": 1
+  },
+  {
+   "q": "A dilute aqueous solution contains 1 ppm of a solute. This equals:",
+   "options": [
+    "1000 mg/L",
+    "1 µg/L",
+    "1 mg/L",
+    "1 g/L"
+   ],
+   "answer": 2,
+   "why": "For dilute aqueous solutions 1 ppm = 1 mg/L, 1 ppb = 1 µg/L.",
+   "x": 1
+  },
+  {
+   "q": "A dilute aqueous solution contains 5 ppm of a solute. This equals:",
+   "options": [
+    "5000 mg/L",
+    "5 g/L",
+    "5 mg/L",
+    "5 µg/L"
+   ],
+   "answer": 2,
+   "why": "For dilute aqueous solutions 1 ppm = 1 mg/L, 1 ppb = 1 µg/L.",
+   "x": 1
+  },
+  {
+   "q": "A dilute aqueous solution contains 20 ppm of a solute. This equals:",
+   "options": [
+    "20000 mg/L",
+    "20 mg/L",
+    "20 µg/L",
+    "20 g/L"
+   ],
+   "answer": 1,
+   "why": "For dilute aqueous solutions 1 ppm = 1 mg/L, 1 ppb = 1 µg/L.",
+   "x": 1
+  },
+  {
+   "q": "A dilute aqueous solution contains 0.5 ppm of a solute. This equals:",
+   "options": [
+    "0.5 µg/L",
+    "0.5 g/L",
+    "0.5 mg/L",
+    "500 mg/L"
+   ],
+   "answer": 2,
+   "why": "For dilute aqueous solutions 1 ppm = 1 mg/L, 1 ppb = 1 µg/L.",
+   "x": 1
+  },
+  {
+   "q": "5 g of solute in 100 mL of solution is a w/v percentage of:",
+   "options": [
+    "5%",
+    "0.5%",
+    "Cannot be determined",
+    "50%"
+   ],
+   "answer": 0,
+   "why": "% w/v = grams per 100 mL.",
+   "x": 1
+  },
+  {
+   "q": "0.9 g of solute in 100 mL of solution is a w/v percentage of:",
+   "options": [
+    "9%",
+    "0.09%",
+    "Cannot be determined",
+    "0.9%"
+   ],
+   "answer": 3,
+   "why": "% w/v = grams per 100 mL.",
+   "x": 1
+  },
+  {
+   "q": "10 g of solute in 250 mL of solution is a w/v percentage of:",
+   "options": [
+    "4%",
+    "0.4%",
+    "10%",
+    "40%"
+   ],
+   "answer": 0,
+   "why": "% w/v = grams per 100 mL.",
+   "x": 1
+  },
+  {
+   "q": "A mixture contains 1 mol of A and 9 mol of B. The mole fraction of A is:",
+   "options": [
+    "0.9",
+    "0.11",
+    "1",
+    "0.1"
+   ],
+   "answer": 3,
+   "why": "x_A = n_A / (n_A + n_B).",
+   "x": 1
+  },
+  {
+   "q": "A mixture contains 2 mol of A and 8 mol of B. The mole fraction of A is:",
+   "options": [
+    "0.2",
+    "0.25",
+    "0.8",
+    "2"
+   ],
+   "answer": 0,
+   "why": "x_A = n_A / (n_A + n_B).",
+   "x": 1
+  },
+  {
+   "q": "A mixture contains 0.5 mol of A and 4.5 mol of B. The mole fraction of A is:",
+   "options": [
+    "0.9",
+    "0.11",
+    "0.1",
+    "0.5"
+   ],
+   "answer": 2,
+   "why": "x_A = n_A / (n_A + n_B).",
+   "x": 1
+  },
+  {
+   "q": "A mixture contains 3 mol of A and 7 mol of B. The mole fraction of A is:",
+   "options": [
+    "0.43",
+    "0.7",
+    "0.3",
+    "3"
+   ],
+   "answer": 2,
+   "why": "x_A = n_A / (n_A + n_B).",
+   "x": 1
+  },
+  {
+   "q": "Which concentration unit depends on temperature?",
+   "options": [
+    "Molarity",
+    "Mass of solute per kg of solvent",
+    "Mole fraction",
+    "Molality"
+   ],
+   "answer": 0,
+   "why": "Volume changes with temperature.",
+   "x": 1
+  },
+  {
+   "q": "Which solute dissolves as intact molecules and does not conduct electricity?",
+   "options": [
+    "HCl",
+    "NaCl",
+    "Sugar",
+    "KCl"
+   ],
+   "answer": 2,
+   "why": "A non-electrolyte.",
+   "x": 1
+  },
+  {
+   "q": "Air is a solution of:",
+   "options": [
+    "Solid in gas",
+    "Gas in gas",
+    "Solid in solid",
+    "Liquid in liquid"
+   ],
+   "answer": 1,
+   "why": "Alloys are solid solutions.",
+   "x": 1
+  },
+  {
+   "q": "A true solution:",
+   "options": [
+    "Does not scatter light and cannot be separated by filtration",
+    "Scatters light",
+    "Sediments on standing",
+    "Contains particles larger than 1 µm"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "An unsaturated solution contains:",
+   "options": [
+    "More than its solubility",
+    "No solute",
+    "Exactly its solubility",
+    "Less solute than its solubility"
+   ],
+   "answer": 3,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Water is amphoteric because it:",
+   "options": [
+    "Has no ions",
+    "Is neutral",
+    "Can donate and accept protons",
+    "Conducts electricity strongly"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "When preparing a dilute acid, you should:",
+   "options": [
+    "Heat the acid first",
+    "Add water to the concentrated acid",
+    "Mix them quickly in any order",
+    "Add the acid slowly to the water"
+   ],
+   "answer": 3,
+   "why": "Water poured into acid can boil and spatter.",
+   "x": 1
+  },
+  {
+   "q": "About how much water is in a 70 kg person?",
+   "options": [
+    "About 70 L",
+    "About 100 L",
+    "About 45 L",
+    "About 5 L"
+   ],
+   "answer": 2,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "Water dissolves well:",
+   "options": [
+    "Hydrophilic substances such as acids, bases and many salts",
+    "Fats and oils",
+    "Hydrophobic substances",
+    "Waxes"
+   ],
+   "answer": 0,
+   "why": "",
+   "x": 1
+  },
+  {
+   "q": "What mass of NaCl (M = 58.5 g/mol) is needed for 1000 mL of a 0.1 M solution?",
+   "options": [
+    "5.85 g",
+    "0.1 g",
+    "6.85 g",
+    "58.5 g"
+   ],
+   "answer": 0,
+   "why": "m = C × V × M = 0.1 × 1 × 58.5 = 5.85 g.",
+   "x": 1
+  },
+  {
+   "q": "What mass of NaOH (M = 40 g/mol) is needed for 250 mL of a 0.5 M solution?",
+   "options": [
+    "5 g",
+    "80 g",
+    "0.125 g",
+    "20 g"
+   ],
+   "answer": 0,
+   "why": "m = C × V × M = 0.5 × 0.25 × 40 = 5 g.",
+   "x": 1
+  },
+  {
+   "q": "What mass of glucose (M = 180 g/mol) is needed for 500 mL of a 0.2 M solution?",
+   "options": [
+    "18 g",
+    "36 g",
+    "72 g",
+    "0.1 g"
+   ],
+   "answer": 0,
+   "why": "m = C × V × M = 0.2 × 0.5 × 180 = 18 g.",
+   "x": 1
+  },
+  {
+   "q": "What mass of KCl (M = 74.5 g/mol) is needed for 100 mL of a 1 M solution?",
+   "options": [
+    "0.1 g",
+    "745 g",
+    "74.5 g",
+    "7.45 g"
+   ],
+   "answer": 3,
+   "why": "m = C × V × M = 1 × 0.1 × 74.5 = 7.45 g.",
+   "x": 1
+  },
+  {
+   "q": "What mass of NaCl (M = 58.5 g/mol) is needed for 2000 mL of a 0.15 M solution?",
+   "options": [
+    "8.78 g",
+    "17.6 g",
+    "4.39 g",
+    "0.3 g"
+   ],
+   "answer": 1,
+   "why": "m = C × V × M = 0.15 × 2 × 58.5 = 17.6 g.",
+   "x": 1
+  },
+  {
+   "q": "What mass of H₂SO₄ (M = 98 g/mol) is needed for 200 mL of a 0.5 M solution?",
+   "options": [
+    "9.8 g",
+    "0.1 g",
+    "245 g",
+    "49 g"
+   ],
+   "answer": 0,
+   "why": "m = C × V × M = 0.5 × 0.2 × 98 = 9.8 g.",
+   "x": 1
+  },
+  {
+   "q": "What mass of HCl (M = 36.5 g/mol) is needed for 500 mL of a 1 M solution?",
+   "options": [
+    "73 g",
+    "36.5 g",
+    "0.5 g",
+    "18.2 g"
+   ],
+   "answer": 3,
+   "why": "m = C × V × M = 1 × 0.5 × 36.5 = 18.2 g.",
+   "x": 1
+  },
+  {
+   "q": "What mass of sucrose (M = 342 g/mol) is needed for 250 mL of a 0.1 M solution?",
+   "options": [
+    "137 g",
+    "8.55 g",
+    "34.2 g",
+    "0.025 g"
+   ],
+   "answer": 1,
+   "why": "m = C × V × M = 0.1 × 0.25 × 342 = 8.55 g.",
+   "x": 1
+  },
+  {
+   "q": "What mass of NaOH (M = 40 g/mol) is needed for 100 mL of a 2 M solution?",
+   "options": [
+    "0.2 g",
+    "800 g",
+    "8 g",
+    "80 g"
+   ],
+   "answer": 2,
+   "why": "m = C × V × M = 2 × 0.1 × 40 = 8 g.",
+   "x": 1
+  },
+  {
+   "q": "What mass of glucose (M = 180 g/mol) is needed for 50 mL of a 1 M solution?",
+   "options": [
+    "9 g",
+    "180 g",
+    "3.6e+03 g",
+    "0.05 g"
+   ],
+   "answer": 0,
+   "why": "m = C × V × M = 1 × 0.05 × 180 = 9 g.",
+   "x": 1
+  },
+  {
+   "q": "0.5 mol of solute in 1 kg of water gives a molality of:",
+   "options": [
+    "1.5 mol/kg",
+    "0.5 mol/kg",
+    "2 mol/kg",
+    "500 mol/kg"
+   ],
+   "answer": 1,
+   "why": "Molality = moles of solute per kg of solvent.",
+   "x": 1
+  },
+  {
+   "q": "1 mol of solute in 2 kg of water gives a molality of:",
+   "options": [
+    "1.5 mol/kg",
+    "2 mol/kg",
+    "500 mol/kg",
+    "0.5 mol/kg"
+   ],
+   "answer": 3,
+   "why": "Molality = moles of solute per kg of solvent.",
+   "x": 1
+  },
+  {
+   "q": "0.2 mol of solute in 0.5 kg of water gives a molality of:",
+   "options": [
+    "400 mol/kg",
+    "0.4 mol/kg",
+    "0.1 mol/kg",
+    "2.5 mol/kg"
+   ],
+   "answer": 1,
+   "why": "Molality = moles of solute per kg of solvent.",
+   "x": 1
+  },
+  {
+   "q": "3 mol of solute in 1.5 kg of water gives a molality of:",
+   "options": [
+    "4.5 mol/kg",
+    "2e+03 mol/kg",
+    "0.5 mol/kg",
+    "2 mol/kg"
+   ],
+   "answer": 3,
+   "why": "Molality = moles of solute per kg of solvent.",
+   "x": 1
+  },
+  {
+   "q": "A solution is diluted 2 times. Its concentration becomes:",
+   "options": [
+    "2 times the initial value",
+    "Unchanged",
+    "1/4 of the initial value",
+    "1/2 of the initial value"
+   ],
+   "answer": 3,
+   "why": "Moles stay constant; volume is multiplied.",
+   "x": 1
+  },
+  {
+   "q": "A solution is diluted 5 times. Its concentration becomes:",
+   "options": [
+    "5 times the initial value",
+    "1/25 of the initial value",
+    "Unchanged",
+    "1/5 of the initial value"
+   ],
+   "answer": 3,
+   "why": "Moles stay constant; volume is multiplied.",
+   "x": 1
+  },
+  {
+   "q": "A solution is diluted 10 times. Its concentration becomes:",
+   "options": [
+    "Unchanged",
+    "1/100 of the initial value",
+    "10 times the initial value",
+    "1/10 of the initial value"
+   ],
+   "answer": 3,
+   "why": "Moles stay constant; volume is multiplied.",
+   "x": 1
+  },
+  {
+   "q": "A solution is diluted 20 times. Its concentration becomes:",
+   "options": [
+    "1/20 of the initial value",
+    "20 times the initial value",
+    "Unchanged",
+    "1/400 of the initial value"
+   ],
+   "answer": 0,
+   "why": "Moles stay constant; volume is multiplied.",
+   "x": 1
+  },
+  {
+   "q": "A 0.1 M HCl solution (fully dissociated) has a pH of:",
+   "options": [
+    "1",
+    "2",
+    "13",
+    "0.1"
+   ],
+   "answer": 0,
+   "why": "[H₃O⁺] = C for a strong monoacid; pH = −log C.",
+   "x": 1
+  },
+  {
+   "q": "A 0.01 M HCl solution (fully dissociated) has a pH of:",
+   "options": [
+    "0.01",
+    "3",
+    "12",
+    "2"
+   ],
+   "answer": 3,
+   "why": "[H₃O⁺] = C for a strong monoacid; pH = −log C.",
+   "x": 1
+  },
+  {
+   "q": "A 0.001 M HCl solution (fully dissociated) has a pH of:",
+   "options": [
+    "4",
+    "0.001",
+    "3",
+    "11"
+   ],
+   "answer": 2,
+   "why": "[H₃O⁺] = C for a strong monoacid; pH = −log C.",
+   "x": 1
+  },
+  {
+   "q": "A 0.0001 M HCl solution (fully dissociated) has a pH of:",
+   "options": [
+    "5",
+    "10",
+    "0.0001",
+    "4"
+   ],
+   "answer": 3,
+   "why": "[H₃O⁺] = C for a strong monoacid; pH = −log C.",
+   "x": 1
+  },
+  {
+   "q": "A solution with pH 3 has [H₃O⁺] equal to:",
+   "options": [
+    "3 M",
+    "10³ M",
+    "10⁻³ M",
+    "10⁻¹¹ M"
+   ],
+   "answer": 2,
+   "why": "[H₃O⁺] = 10^−pH.",
+   "x": 1
+  },
+  {
+   "q": "A solution with pH 5 has [H₃O⁺] equal to:",
+   "options": [
+    "10⁻⁹ M",
+    "10⁵ M",
+    "5 M",
+    "10⁻⁵ M"
+   ],
+   "answer": 3,
+   "why": "[H₃O⁺] = 10^−pH.",
+   "x": 1
+  },
+  {
+   "q": "A solution with pH 8 has [H₃O⁺] equal to:",
+   "options": [
+    "10⁻⁸ M",
+    "10⁸ M",
+    "8 M",
+    "10⁻⁶ M"
+   ],
+   "answer": 0,
+   "why": "[H₃O⁺] = 10^−pH.",
+   "x": 1
+  },
+  {
+   "q": "A solution with pH 10 has [H₃O⁺] equal to:",
+   "options": [
+    "10⁻¹⁰ M",
+    "10 M",
+    "10⁻⁴ M",
+    "10¹⁰ M"
+   ],
+   "answer": 0,
+   "why": "[H₃O⁺] = 10^−pH.",
+   "x": 1
+  },
+  {
+   "q": "A solution with pH 2 has [H₃O⁺] equal to:",
+   "options": [
+    "10⁻¹² M",
+    "10⁻² M",
+    "2 M",
+    "10² M"
+   ],
+   "answer": 1,
+   "why": "[H₃O⁺] = 10^−pH.",
+   "x": 1
+  },
+  {
+   "q": "A solution with pH 13 has [H₃O⁺] equal to:",
+   "options": [
+    "10⁻¹ M",
+    "10⁻¹³ M",
+    "13 M",
+    "10¹³ M"
+   ],
+   "answer": 1,
+   "why": "[H₃O⁺] = 10^−pH.",
+   "x": 1
   }
  ],
  "cards": [
