@@ -2,6 +2,13 @@
    Style: short changelog lines, developer voice (Added / Fixed / Changed), no "you". */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
+  { date: "2 November 2026", items: [
+    "Added: Study next box after every quiz and exam, pointing to the lecture sections and slides behind the missed questions.",
+    "Added: more question counts (25, 50, 70, 100) and a custom number.",
+    "Changed: quizzes now pick questions not asked before first, spread over every chosen lecture; once all are seen, the oldest come back first.",
+    "Added: past papers flag questions on lectures outside the next midterm, with an Only midterm questions button.",
+    "Fixed: wording of the alkaline phosphatase and Graves' disease questions in Clinical Biochemistry.",
+  ]},
   { date: "1 November 2026", items: [
     "Added: Add to home screen guide for iPhone, iPad and Android (Settings menu).",
     "Changed: leaderboard refreshes live every 15 seconds; a posted score appears at once.",

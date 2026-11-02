@@ -821,6 +821,24 @@
       return its.length ? '<optgroup label="' + esc(g.name) + '">' + its.map(function (it) { return '<option value="' + it.id + '"' + (it.id === cur ? " selected" : "") + ">" + esc(it.title) + "</option>"; }).join("") + "</optgroup>" : "";
     }).join("") + "</select></label>";
   }
+  /* question count presets, and "not asked yet" first so a run of quizzes covers every question of the chosen lectures */
+  var PRESETS = ["10", "20", "25", "40", "50", "70", "100"];
+  function dayNo() { return Math.floor(Date.now() / 864e5); }
+  function newCount(ids) { var a = store.get("sina:asked", {}), n = 0; ids.forEach(function (id) { (S.lectures[id].mcqs || []).forEach(function (q) { if (!a[qKey(q)]) n++; }); }); return n; }
+  function pickFresh(pool, want) {
+    /* not-asked first, oldest-asked next, and each chosen lecture gets its fair share of the quiz */
+    var a = store.get("sina:asked", {}), by = {}, ids = [], quota = {}, given = 0, rem = [], out = [];
+    want = Math.min(want, pool.length);
+    pool.forEach(function (q) { var id = q._lid || "x"; if (!by[id]) { by[id] = []; ids.push(id); } by[id].push(q); });
+    ids.forEach(function (id) {
+      by[id] = shuffle(by[id]).sort(function (x, y) { return (a[x._k || qKey(x)] || 0) - (a[y._k || qKey(y)] || 0); });
+      var x = want * by[id].length / pool.length; quota[id] = Math.floor(x); given += quota[id]; rem.push({ id: id, r: x - quota[id] });
+    });
+    rem.sort(function (x, y) { return y.r - x.r; }).forEach(function (x) { if (given < want) { quota[x.id]++; given++; } });
+    ids.forEach(function (id) { out = out.concat(by[id].slice(0, quota[id])); });
+    return shuffle(out);
+  }
+
   function subQuestionsPanel(p, s, arg) {
     var mid = subjectMid(s), lecs = subLectures(s), key = "sina:pick:" + s.id;
     var picked = arg === "midterm" && mid ? [].concat.apply([], mid.groups.map(function (g) { return g.items; }))
@@ -838,7 +856,7 @@
           return '<label class="pick-row"><input type="checkbox" class="lchk" data-g="' + gi + '" value="' + it.id + '"' + (picked.indexOf(it.id) > -1 ? " checked" : "") + "><span>" + esc(it.title) + '</span><span class="qn">' + (S.lectures[it.id].mcqs || []).length + "</span></label>";
         }).join("") + "</div>";
       });
-      h += '<div class="start-bar"><label class="pick"><span>Questions</span><select id="qcount">' + ["10", "20", "40", "all"].map(function (v) { return '<option value="' + v + '"' + (v === count ? " selected" : "") + ">" + (v === "all" ? "All" : v) + "</option>"; }).join("") + "</select></label>" +
+      h += '<div class="start-bar"><label class="pick"><span>Questions</span><select id="qcount"></select></label><input id="qcustom" class="qcustom" type="number" inputmode="numeric" min="1" step="1" aria-label="Number of questions" hidden>' +
         '<button class="btn primary" id="qstart" type="button">Start</button><button class="btn" id="qexam" type="button">Exam mode</button>' + (spotTasks(lecs.map(function (l) { return l.id || l; })).length ? '<button class="btn" id="qspot" type="button">Spotter: tap the structure</button>' : "") + '<span class="qsel" id="qsel"></span></div>';
       p.innerHTML = h;
       var boxes = p.querySelectorAll(".lchk");
@@ -850,9 +868,12 @@
         });
         var n = nQ(picked);
         p.querySelector("#qsel").textContent = picked.length ? picked.length + " lecture" + (picked.length > 1 ? "s" : "") + ", " + n + " questions" : "No lecture chosen";
-        var sel = p.querySelector("#qcount"), opts = ["10", "20", "40"].filter(function (v) { return +v < n; }).concat(["all"]);
-        var shown = opts.indexOf(count) > -1 ? count : "all";
-        sel.innerHTML = opts.map(function (v) { return '<option value="' + v + '"' + (v === shown ? " selected" : "") + ">" + (v === "all" ? "All (" + n + ")" : v) + "</option>"; }).join("");
+        var fresh = newCount(picked);
+        if (picked.length) p.querySelector("#qsel").textContent += fresh === n ? " (all new)" : fresh ? ", " + fresh + " not asked yet" : ", all asked once (oldest come back first)";
+        var sel = p.querySelector("#qcount"), cu = p.querySelector("#qcustom"), opts = PRESETS.filter(function (v) { return +v < n; }).concat(["all", "custom"]);
+        var isCustom = count !== "all" && PRESETS.indexOf(count) < 0 && +count > 0 && +count < n, shown = isCustom ? "custom" : opts.indexOf(count) > -1 ? count : "all";
+        sel.innerHTML = opts.map(function (v) { return '<option value="' + v + '"' + (v === shown ? " selected" : "") + ">" + (v === "all" ? "All (" + n + ")" : v === "custom" ? "Custom number…" : v) + "</option>"; }).join("");
+        cu.max = n; cu.hidden = shown !== "custom"; if (isCustom) cu.value = count; else if (shown !== "custom") cu.value = "";
         p.querySelector("#qstart").disabled = !picked.length; p.querySelector("#qexam").disabled = !picked.length;
         var qs2 = p.querySelector("#qspot"); if (qs2) qs2.disabled = !spotTasks(picked).length;
       }
@@ -864,7 +885,16 @@
           boxes.forEach(function (x) { x.checked = ids.indexOf(x.value) > -1; }); sync();
         });
       });
-      p.querySelector("#qcount").addEventListener("change", function () { count = this.value; store.set("sina:qcount", count); });
+      p.querySelector("#qcount").addEventListener("change", function () {
+        var cu = p.querySelector("#qcustom");
+        if (this.value === "custom") { cu.hidden = false; cu.value = cu.value || Math.min(30, nQ(picked)); count = String(cu.value); cu.focus(); cu.select(); }
+        else { cu.hidden = true; count = this.value; }
+        store.set("sina:qcount", count);
+      });
+      p.querySelector("#qcustom").addEventListener("input", function () {
+        var v = Math.round(+this.value), n = nQ(picked);
+        if (v > 0) { count = String(Math.min(v, n)); store.set("sina:qcount", count); }
+      });
       p.querySelector("#qstart").addEventListener("click", function () { start(false); });
       p.querySelector("#qexam").addEventListener("click", function () { start(true); });
       var qsp = p.querySelector("#qspot"); if (qsp) qsp.addEventListener("click", function () {
@@ -886,8 +916,7 @@
           c._fig = fig; c._lid = id; c._from = picked.length > 1 ? lectureTitle(id) : ""; pool.push(c);
         });
       });
-      pool = shuffle(pool);
-      if (count !== "all") pool = pool.slice(0, +count);
+      pool = pickFresh(pool, count === "all" ? pool.length : Math.max(1, +count || 20));
       var seenKey = "sina:seen:" + picked.slice().sort().join("+");
       if (store.get(seenKey, false)) pool = pool.map(shuffleQ); else store.set(seenKey, true);
       p.innerHTML = '<div class="quiz-top"><button class="btn small-btn" id="qback" type="button">&larr; Change lectures</button><span class="meta">' + esc(picked.length === 1 ? lectureTitle(picked[0]) : picked.length + " lectures mixed") + '</span></div><div id="quiz"></div>';
@@ -970,7 +999,7 @@
   var TABS = [["summary", "Summary"], ["cards", "Flashcards"], ["deeper", "Go deeper"]];
   var MOVED = { questions: "questions", visual: "visual", highyield: "highyield", resources: "resources" };
 
-  function lectureView(id, tab) {
+  function lectureView(id, tab, secN) {
     var lec = S.lectures[id];
     if (!lec) return notFound();
     var sub = subjectById(lec.subject);
@@ -996,7 +1025,8 @@
     var panel = document.getElementById("panel");
     ({ summary: summaryPanel, cards: cardsPanel, deeper: deeperPanel })[tab](panel, lec);
     if (tab !== "cards") readingLine(panel);
-    if (tab === "summary") readPos(id, panel);
+    if (tab === "summary" && secN != null && document.getElementById("sec-" + secN)) setTimeout(function () { var h = document.getElementById("sec-" + secN); window.scrollTo(0, h.getBoundingClientRect().top + window.scrollY - 130); h.classList.add("sec-flash"); }, 60);
+    else if (tab === "summary") readPos(id, panel);
     app.querySelectorAll(".tab").forEach(function (b) {
       b.addEventListener("click", function () { location.hash = "#/lecture/" + id + (b.dataset.tab === "summary" ? "" : "/" + b.dataset.tab); });
     });
@@ -1350,6 +1380,54 @@
       }).join("") + "</details>";
   }
 
+  /* ---------- weak spots: after a quiz, point to the part of the lecture (and the slides) behind each missed question ---------- */
+  var STOP = {}; "about above after again also among and another any are because been before being between both but can cause caused causes could does doing down during each from have having here into its itself less more most much must only other over same should some such than that the their them then there these they this those through under until very what when where which while who whom why will with within without would your yours lecture slide slides following true false correct wrong statement statements regarding concerning".split(" ").forEach(function (w) { STOP[w] = 1; });
+  function wTok(t) { return (String(t || "").replace(/<[^>]+>/g, " ").toLowerCase().match(/[a-z0-9à-ÿ]{3,}/g) || []).filter(function (w) { return !STOP[w]; }).map(function (w) { return w.length > 5 ? w.slice(0, 7) : w; }); }
+  var SECIDX = {};
+  function secIndex(lid) {
+    if (SECIDX[lid]) return SECIDX[lid];
+    var L = S.lectures[lid], secs = (L && L.summary) || [], df = {};
+    var docs = secs.map(function (x, k) { var b = {}, ti = {}; wTok(x.html).forEach(function (w) { b[w] = (b[w] || 0) + 1; }); wTok(x.title).forEach(function (w) { ti[w] = 1; b[w] = (b[w] || 0) + 1; }); Object.keys(b).forEach(function (w) { df[w] = (df[w] || 0) + 1; }); return { k: k, title: x.title, b: b, ti: ti }; });
+    return (SECIDX[lid] = { docs: docs, df: df, n: docs.length });
+  }
+  function bestSection(q, lids) {
+    var ans = q.answers || [q.answer], words = wTok(q.q + " " + ans.map(function (n) { return q.options[n]; }).join(" ") + " " + (q.why || "") + " " + ans.map(function (n) { return (q.notes || [])[n] || ""; }).join(" "));
+    var best = null;
+    lids.forEach(function (lid) {
+      var ix = secIndex(lid); if (!ix.n) return;
+      ix.docs.forEach(function (d) {
+        if (/^(key points|the big picture|summary|in short|introduction)$/i.test(d.title)) return;
+        var sc = 0; words.forEach(function (w) { if (d.b[w]) sc += (1 + (d.ti[w] ? 1.5 : 0)) * Math.log(1 + ix.n / ix.df[w]); });
+        if (!best || sc > best.sc) best = { lid: lid, k: d.k, title: d.title, sc: sc };
+      });
+    });
+    return best && best.sc > 1 ? best : null;
+  }
+  function weakHTML(missed) {
+    if (!missed.length) return "";
+    var byL = {}, order = [];
+    missed.forEach(function (m) {
+      var q = m.q, lid = q._lid || m.lid, lids = S.lectures[lid] ? [lid] : subLectures(subjectById(srcSubject(lid)) || { groups: [] }).map(function (x) { return x.id; }).filter(function (id) { return S.lectures[id]; });
+      var sec = bestSection(q, lids), home = sec ? sec.lid : (S.lectures[lid] ? lid : null);
+      if (!home) return;
+      if (!byL[home]) { byL[home] = { secs: {}, slides: [], n: 0 }; order.push(home); }
+      var e = byL[home]; e.n++;
+      if (sec) { var t = e.secs[sec.k] || (e.secs[sec.k] = { k: sec.k, title: sec.title, n: 0 }); t.n++; }
+      (q.slides || []).forEach(function (sl) { if (!e.slides.some(function (x) { return x.src === sl.src; })) e.slides.push({ s: sl, q: q }); });
+    });
+    if (!order.length) return "";
+    order.sort(function (a, b) { return byL[b].n - byL[a].n; });
+    return '<section class="weak"><h2 class="rev-h">Study next</h2><p class="meta">Where your missed questions come from. Start at the top.</p>' + order.map(function (lid) {
+      var e = byL[lid], secs = Object.keys(e.secs).map(function (k) { return e.secs[k]; }).sort(function (a, b) { return b.n - a.n || a.k - b.k; });
+      var unit = e.slides.length && e.slides[0].s.unit || "slide";
+      e.slides.sort(function (a, b) { return a.s.n - b.s.n; });
+      return '<div class="weak-l"><p class="weak-t"><a href="#/lecture/' + lid + '">' + esc(lectureTitle(lid) || S.lectures[lid].title) + '</a><span class="qn">' + e.n + " missed</span></p>" +
+        (secs.length ? '<ul class="weak-s">' + secs.map(function (x) { return '<li><a href="#/lecture/' + lid + "/summary/" + x.k + '">' + esc(x.title) + "</a>" + (x.n > 1 ? ' <span class="weak-n">×' + x.n + "</span>" : "") + "</li>"; }).join("") + "</ul>" : "") +
+        (e.slides.length ? '<p class="weak-sl-h">' + (unit === "slide" ? "Slides" : "Pages") + " to reread: " + e.slides.map(function (x) { return x.s.n; }).join(", ") + '</p><div class="weak-sl">' + e.slides.map(function (x) { return '<a class="slide-open" href="' + esc(x.s.src) + '" data-cap="' + esc(x.s.lec + ", " + unit + " " + x.s.n) + '" title="' + esc(unit + " " + x.s.n) + '">' + slideImg(x.s, unit, x.q) + '<span class="weak-sn">' + x.s.n + "</span></a>"; }).join("") + "</div>" : "") +
+        "</div>";
+    }).join("") + "</section>";
+  }
+
   function questionsPanel(p, lec, resume) {
     var all = lec.mcqs, qs = all, fullRun = true, i = 0, score = 0, wrong = [], done = [], key = "sina:best:" + lec.id, LET = "abcdefgh", streak = 0;
     if (resume) { qs = resume.qs; all = resume.full ? resume.qs : all; fullRun = !!resume.full; done = resume.done || []; i = 0; while (i < qs.length && done[i]) i++; if (i >= qs.length) i = qs.length - 1; }
@@ -1381,7 +1459,7 @@
         p.innerHTML = scoreRevealHTML(score, qs.length) +
           (full ? "<p>Best score on this device: " + fmtPts(best) + " / " + all.length + ".</p>" : "<p>Retry of the questions you missed.</p>") +
           '<div class="row">' + (missed.length ? '<button class="btn primary" id="rev">Show only my wrong answers (' + missed.length + ')</button><button class="btn" id="retry">Retry only these</button>' : '<p class="src">No wrong answers. Well done.</p>') +
-          '<button class="btn" id="again">' + (full ? "Try again" : "Back to the full quiz") + '</button></div><div id="review"></div>';
+          '<button class="btn" id="again">' + (full ? "Try again" : "Back to the full quiz") + '</button></div>' + weakHTML(missed.map(function (w) { return { q: w.q, lid: lec.id }; })) + '<div id="review"></div>';
         scoreReveal(p, score, qs.length); streak = 0;
         p.querySelector("#again").onclick = function () { qs = all.map(shuffleQ); fullRun = true; i = 0; score = 0; wrong = []; done = []; render(); };
         if (missed.length) {
@@ -1410,7 +1488,7 @@
       var pic = qph ? qph : (q.target && qfig)
         ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "q" + i }) + "</div>"
         : "";
-      p.innerHTML = '<p class="qhead">Question ' + (i + 1) + " of " + qs.length + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + flameHTML(streak, false) + '</p>' + ecgProgress(done.filter(Boolean).length / qs.length) + '<p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
+      p.innerHTML = '<p class="qhead">Question ' + (i + 1) + " of " + qs.length + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + (q._off ? '<span class="qoff">Not on the midterm</span>' : "") + flameHTML(streak, false) + '</p>' + ecgProgress(done.filter(Boolean).length / qs.length) + '<p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
         q.options.map(function (o, n) { return '<button class="opt" data-n="' + n + '" aria-pressed="false"><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span></button>"; }).join("") + (multi ? '<button class="btn primary" id="chk" type="button">Check my answer</button>' : "") + '<div id="fb"></div>' +
         '<div class="qnav"><button class="btn" id="prev" type="button"' + (i ? "" : " disabled") + '>&larr; Previous</button><button class="btn" id="fwd" type="button">' + (i + 1 < qs.length ? "Next" : "Finish") + ' &rarr;</button></div>';
       centerTarget(p);
@@ -1607,14 +1685,29 @@
     } else subQuestionsPanel(p, s, arg);
   }
 
+  /* past papers: which questions are on lectures outside the next midterm of that subject */
+  function nextMid(subId) {
+    var t = today();
+    return progMidterms().filter(function (m) { return m.subject === subId && (!m.date || m.date >= t); }).sort(function (a, b) { return (a.date || "9") < (b.date || "9") ? -1 : 1; })[0] || null;
+  }
+  function paperOff(x) {
+    var m = x.questions && nextMid(x.subject), map = S.paperLec || {};
+    if (!m) return null;
+    var items = [].concat.apply([], m.groups.map(function (g) { return g.items; })), off = [];
+    x.questions.forEach(function (q, i) { var l = map[qKey(q)]; if (l && items.indexOf(l) < 0) off.push(i); });
+    return off.length ? { m: m, off: off } : null;
+  }
+  function midDate(m) { if (!m.date) return ""; var d = new Date(m.date + "T12:00:00"); return d.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" }); }
   function paperRow(x) {
     var quick = (x.links || []).filter(function (l) { return l.short; });
     if (quick.length) {
-      return '<li class="paper-row"><a href="#/paper/' + esc(x.id) + '"><span>' + esc(x.title) + (x.year ? " (" + esc(x.year) + ")" : "") + "</span></a>" +
+      var po1 = paperOff(x);
+      return '<li class="paper-row"><a href="#/paper/' + esc(x.id) + '"><span>' + esc(x.title) + (x.year ? " (" + esc(x.year) + ")" : "") + (po1 ? '<span class="paper-off">' + (po1.off.length === x.questions.length ? "None of it is on the midterm" : po1.off.length + " of " + x.questions.length + " questions not on the midterm") + "</span>" : "") + "</span></a>" +
         '<span class="paper-btns">' + (x.questions ? '<a class="btn small primary" href="#/paper/' + esc(x.id) + '">Online quiz</a>' : "") +
         quick.map(function (l) { return '<a class="btn small" href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.short) + "</a>"; }).join("") + "</span></li>";
     }
-    var tags = [x.questions ? "Quiz" : "", (x.pdf || x.links) ? "PDF" : ""].filter(Boolean).join(" and ");
+    var tags = [x.questions ? "Quiz" : "", (x.pdf || x.links) ? "PDF" : ""].filter(Boolean).join(" and "), po = paperOff(x);
+    if (po) return '<li><a href="#/paper/' + esc(x.id) + '"><span>' + esc(x.title) + (x.year ? " (" + esc(x.year) + ")" : "") + '<span class="paper-off">' + (po.off.length === x.questions.length ? "None of it is on the midterm" : po.off.length + " of " + x.questions.length + " questions not on the midterm") + '</span></span><span class="pill">' + esc(tags || "Open") + "</span></a></li>";
     return '<li><a href="#/paper/' + esc(x.id) + '"><span>' + esc(x.title) + (x.year ? " (" + esc(x.year) + ")" : "") + '</span><span class="pill">' + esc(tags || "Open") + "</span></a></li>";
   }
   function papersView(subjectId) {
@@ -1651,15 +1744,21 @@
     if (links.length && hasQ) html += '<p class="pdf-links">' + links.map(function (l) { return '<a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.short || l.label) + "</a>"; }).join(" &middot; ") + "</p>";
     else if (links.length) html += '<div class="row" style="margin:0 0 1.4rem">' + links.map(function (l, n) { return '<a class="btn' + (n === 0 ? " primary" : "") + '" href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.label) + "</a>"; }).join("") + "</div>";
     if (x.note) html += '<p class="src">' + esc(x.note) + "</p>";
+    var po = hasQ && paperOff(x), onlyMid = false;
+    if (po) html += '<div class="mid-off"><p><strong>' + (po.off.length === x.questions.length ? "None of these questions are" : po.off.length + " of " + x.questions.length + " questions are not") + " on the " + esc(po.m.title) + "</strong>" + (po.m.date ? " (" + esc(midDate(po.m)) + ")" : "") + ". They cover lectures outside the midterm and are tagged <span class=\"qoff\">Not on the midterm</span>.</p>" + (po.off.length < x.questions.length ? '<button class="btn small-btn" id="mid-only" type="button" aria-pressed="false">Only midterm questions (' + (x.questions.length - po.off.length) + ")</button>" : "") + "</div>";
     if (hasQ) html += resumeBanner(function (r) { return r.id === x.id; });
     if (hasQ) html += '<div class="row exam-row"><button class="btn" id="exam-btn" type="button">Exam mode (timed)</button></div>';
     html += '<div id="paperq"></div></div>';
     setView(html, x.title);
+    function tagged(list) { return list.map(function (q, i) { var c = {}; for (var k in q) c[k] = q[k]; if (po && po.off.indexOf(i) > -1) c._off = 1; return c; }); }
+    function qlist() { return tagged(x.questions).filter(function (q) { return !onlyMid || !q._off; }); }
     if (hasQ) {
-      questionsPanel(document.getElementById("paperq"), { id: x.id, mcqs: x.questions });
+      questionsPanel(document.getElementById("paperq"), { id: x.id, mcqs: qlist() });
+      var mo = document.getElementById("mid-only");
+      if (mo) mo.onclick = function () { onlyMid = !onlyMid; mo.setAttribute("aria-pressed", String(onlyMid)); mo.classList.toggle("primary", onlyMid); mo.textContent = onlyMid ? "Show all questions (" + x.questions.length + ")" : "Only midterm questions (" + (x.questions.length - po.off.length) + ")"; questionsPanel(document.getElementById("paperq"), { id: x.id + (onlyMid ? ":mid" : ""), mcqs: qlist() }); };
       document.getElementById("exam-btn").onclick = function () {
         this.parentNode.hidden = true;
-        examIntro(document.getElementById("paperq"), { id: x.id, paper: true, mcqs: x.questions.map(function (q) { var c = {}; for (var k in q) c[k] = q[k]; c._lid = x.id; return c; }) }, function () { paperView(id); });
+        examIntro(document.getElementById("paperq"), { id: x.id + (onlyMid ? ":mid" : ""), paper: !onlyMid, mcqs: qlist().map(function (c) { c._lid = x.id; return c; }) }, function () { paperView(id); });
       };
     }
   }
@@ -1809,6 +1908,7 @@
   function today() { var d = new Date(); return d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2); }
   function trackAnswer(q, src, ok) {
     var k = q._k || qKey(q), lid = q._lid || src;
+    var asked = store.get("sina:asked", {}); asked[k] = dayNo(); store.set("sina:asked", asked);
     if (!lid || /^mix:|^mistakes/.test(lid)) return;
     var st = store.get("sina:stats", {}), e = st[lid] || (st[lid] = [0, 0]); e[0]++; if (ok) e[1]++; store.set("sina:stats", st);
     var mk = store.get("sina:mistakes", {}); if (ok) delete mk[k]; else mk[k] = { l: lid, t: Date.now() }; store.set("sina:mistakes", mk);
@@ -1960,7 +2060,7 @@
       var pic = qph || (q.target && qfig ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "x" + i }) + "</div>" : "");
       p.innerHTML = '<div class="exam-bar"><span class="exam-time" id="xt">' + fmt((end - Date.now()) / 1000) + '</span><span class="meta"></span><button class="btn small primary" id="xsub">Submit</button></div>' +
         '<div class="exam-grid">' + qs.map(function (_, k) { return '<button class="xg' + (k === i ? " cur" : "") + (sel[k].length ? " done" : "") + '" data-k="' + k + '">' + (k + 1) + "</button>"; }).join("") + "</div>" +
-        '<p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
+        (q._off ? '<p class="qhead"><span class="qoff">Not on the midterm</span></p>' : "") + '<p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
         q.options.map(function (o, k) { var on = sel[i].indexOf(k) > -1; return '<button class="opt' + (on ? " picked" : "") + '" data-n="' + k + '" aria-pressed="' + on + '"><span class="letter">' + LET[k].toUpperCase() + "</span><span>" + esc(o) + "</span></button>"; }).join("") +
         '<div class="qnav"><button class="btn" id="xp"' + (i ? "" : " disabled") + '>&larr; Previous</button><button class="btn" id="xn">' + (i + 1 < n ? "Next &rarr;" : "Review and submit") + "</button></div>";
       centerTarget(p);
@@ -1982,7 +2082,7 @@
       score = Math.round(score * 100) / 100;
       var pct = Math.round(score / n * 100);
       p.innerHTML = '<div class="exam-result"><p class="meta">' + (auto ? "Time is up." : "Exam submitted.") + " Time used: " + fmt(used) + '</p>' + scoreRevealHTML(score, n) +
-        '<div class="row"><button class="btn primary" id="xr-wrong">Show wrong answers (' + res.filter(function (x) { return !x; }).length + ')</button><button class="btn" id="xr-all">Show all answers</button>' + (back ? '<button class="btn" id="xr-back">Back</button>' : "") + '</div>' + (S.api && set.paper ? lbPostHTML() : "") + '</div><div id="xrev"></div>';
+        '<div class="row"><button class="btn primary" id="xr-wrong">Show wrong answers (' + res.filter(function (x) { return !x; }).length + ')</button><button class="btn" id="xr-all">Show all answers</button>' + (back ? '<button class="btn" id="xr-back">Back</button>' : "") + '</div>' + (S.api && set.paper ? lbPostHTML() : "") + weakHTML(qs.filter(function (q, k) { return !res[k]; }).map(function (q) { return { q: q, lid: set.id }; })) + '</div><div id="xrev"></div>';
       if (S.api && set.paper) lbPostWire(p, set.id, score, n, Math.round(used));
       scoreReveal(p, score, n);
       function review(onlyWrong) {
@@ -2532,7 +2632,7 @@
     if (parts[0] === "papers") return papersView(parts[1]);
     if (parts[0] === "paper") return paperView(parts[1]);
     if (parts[0] === "subject") return subjectView(parts[1], parts[2], parts[3]);
-    if (parts[0] === "lecture") return lectureView(parts[1], parts[2]);
+    if (parts[0] === "lecture") return lectureView(parts[1], parts[2], parts[3]);
     notFound();
   }
 

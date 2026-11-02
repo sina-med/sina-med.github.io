@@ -1417,3 +1417,32 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .inst-ico { vertical-align: -3px; margin: 0 2px; }
 .inst-ok { font-weight: 600; color: var(--good); }
 #inst-now { margin-top: .6rem; }
+
+/* weak spots after a quiz */
+.weak { margin: 1.4rem 0 .6rem; padding: 1rem 1.1rem; border: 1px solid var(--line); border-radius: var(--radius, 12px); background: var(--surface); }
+.weak .rev-h { margin-top: 0; }
+.weak-l { padding: .7rem 0; border-top: 1px solid var(--line); }
+.weak-l:first-of-type { border-top: 0; }
+.weak-t { display: flex; justify-content: space-between; gap: .8rem; align-items: baseline; margin: 0 0 .35rem; font-weight: 700; }
+.weak-t a { color: var(--ink); }
+.weak-s { margin: 0 0 .4rem; padding-left: 1.1rem; }
+.weak-s li { margin: .15rem 0; }
+.weak-s a { color: var(--accent); }
+.weak-n { color: var(--muted); font-size: .85em; }
+.weak-sl-h { margin: .4rem 0 .35rem; font-size: .9rem; color: var(--muted); }
+.weak-sl { display: flex; gap: .5rem; overflow-x: auto; padding-bottom: .3rem; }
+.weak-sl a { position: relative; flex: 0 0 auto; width: 120px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; display: block; }
+.weak-sl img { width: 100%; height: auto; display: block; }
+.weak-sn { position: absolute; left: 4px; top: 4px; background: var(--accent); color: var(--accent-ink); font-size: .72rem; font-weight: 700; padding: 1px 6px; border-radius: 999px; }
+.sec-flash { animation: secFlash 1.6s ease; }
+@keyframes secFlash { 0%, 40% { background: var(--accent-soft); } 100% { background: transparent; } }
+
+.qcustom { width: 5.5rem; padding: .45rem .6rem; border: 1px solid var(--line-strong); border-radius: 10px; background: var(--surface); color: var(--ink); font: inherit; }
+
+/* past papers: questions outside the next midterm */
+.qoff { display: inline-block; margin-left: .5rem; padding: 1px 8px; border-radius: 999px; font-size: .74rem; font-weight: 600; background: var(--line); color: var(--muted); vertical-align: 1px; }
+.qhead > .qoff:first-child { margin-left: 0; }
+.mid-off { margin: 0 0 1.1rem; padding: .8rem 1rem; border-radius: 12px; background: var(--accent-soft); }
+.mid-off p { margin: 0 0 .5rem; }
+.mid-off p:last-child { margin: 0; }
+.paper-off { display: block; font-size: .8rem; color: var(--muted); font-weight: 500; margin-top: 2px; }

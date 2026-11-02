@@ -1042,7 +1042,7 @@ SINA.lectures["biochem-preanalytical"] = {
    ]
   },
   {
-   "q": "An alkaline phosphatase result:",
+   "q": "About alkaline phosphatase (ALP) results:",
    "options": [
     "Rises in children because bone cells are active during growth",
     "Can be normal in a child but high for an adult",
@@ -1055,9 +1055,9 @@ SINA.lectures["biochem-preanalytical"] = {
    ],
    "notes": [
     "",
-    "",
-    "",
-    "Because of faster hepatic metabolism."
+    "The same value can be read differently depending on age.",
+    "It is higher in children, because of bone growth.",
+    "ALP does rise in pregnancy, but because hepatic metabolism speeds up to support the fetus, not because of bone loss."
    ],
    "multi": true,
    "hint": "1 or 2 correct answers",
@@ -2367,7 +2367,7 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    ],
    "notes": [
     "Makes noradrenaline from dopamine.",
-    "Methylation.",
+    "Methylation. The slide calls it phenylalanine N-methyl transferase; its usual name is phenylethanolamine N-methyltransferase.",
     "Makes dopamine.",
     "A degradation enzyme."
    ],
@@ -13956,7 +13956,7 @@ SINA.lectures["biochem-thyroid"] = {
    ]
   },
   {
-   "q": "Regarding Graves' disease, the lecture says:",
+   "q": "Graves' disease:",
    "options": [
     "Is of autoimmune origin",
     "Its antibodies resemble TSH and bind the TSH receptor",
