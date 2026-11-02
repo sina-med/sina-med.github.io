@@ -2903,8 +2903,8 @@ SINA.lectures["biochem-insulin"] = {
  "subject": "biochem",
  "group": "Basics and hormones",
  "title": "Insulin",
- "sourceFile": "4 Insulin.pdf (Clinical Biochemistry, Prof. Nabiha Kamal)",
- "sourceUrl": "https://drive.google.com/file/d/1OAuXwHKvFXa-wnVSKvc9mMwero46oTYs/view?usp=drivesdk",
+ "sourceFile": "4 Insulin.pdf (Clinical Biochemistry, Prof. Nabiha Kamal, 2026-2027)",
+ "sourceUrl": "https://drive.google.com/file/d/1CGzJDFSIzpEzlHL_f75t_el9ORRSPRiI/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> If your professor says something different, trust your professor.",
  "summary": [
   {
@@ -4927,9 +4927,9 @@ SINA.lectures["biochem-steroids"] = {
  "subject": "biochem",
  "group": "Basics and hormones",
  "title": "Steroid hormones",
- "sourceFile": "4 Steroid hormones.pdf (Clinical Biochemistry, Prof. Nabiha Kamal, 2025-2026)",
- "sourceUrl": "https://drive.google.com/file/d/1ySvU8cms1OOjWHgARaH3IosqxeOIBOP9/view?usp=drivesdk",
- "buildNote": "<strong>Built from the lecture slides</strong>, read by text recognition from the compressed copy you uploaded, because its text layer was unreadable. Pathway diagrams are summarised in words. If your professor says something different, trust your professor.",
+ "sourceFile": "5 Steroid hormones.pdf (Clinical Biochemistry, Prof. Nabiha Kamal, 2026-2027)",
+ "sourceUrl": "https://drive.google.com/file/d/1001QEVfr8pRKBrL43SzDg1SJ-uSZf0Wg/view?usp=drivesdk",
+ "buildNote": "<strong>Built from the lecture slides.</strong> Pathway diagrams are summarised in words. If your professor says something different, trust your professor.",
  "summary": [
   {
    "id": "s0",
