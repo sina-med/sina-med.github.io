@@ -1419,8 +1419,8 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 #inst-now { margin-top: .6rem; }
 
 /* weak spots after a quiz */
-.weak { margin: 1.4rem 0 .6rem; padding: 1rem 1.1rem; border: 1px solid var(--line); border-radius: var(--radius, 12px); background: var(--surface); }
-.weak .rev-h { margin-top: 0; }
+.weakbox { margin: 1.4rem 0 .6rem; padding: 1rem 1.1rem; border: 1px solid var(--line); border-radius: var(--radius, 12px); background: var(--surface); }
+.weakbox .rev-h { margin-top: 0; }
 .weak-l { padding: .7rem 0; border-top: 1px solid var(--line); }
 .weak-l:first-of-type { border-top: 0; }
 .weak-t { display: flex; justify-content: space-between; gap: .8rem; align-items: baseline; margin: 0 0 .35rem; font-weight: 700; }

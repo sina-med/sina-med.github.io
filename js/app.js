@@ -1419,7 +1419,7 @@
     });
     if (!order.length) return "";
     order.sort(function (a, b) { return byL[b].n - byL[a].n; });
-    return '<section class="weak"><h2 class="rev-h">Study next</h2><p class="meta">Where your missed questions come from. Start at the top.</p>' + order.map(function (lid) {
+    return '<section class="weakbox"><h2 class="rev-h">Study next</h2><p class="meta">Where your missed questions come from. Start at the top.</p>' + order.map(function (lid) {
       var e = byL[lid], secs = Object.keys(e.secs).map(function (k) { return e.secs[k]; }).sort(function (a, b) { return b.n - a.n || a.k - b.k; });
       var unit = e.slides.length && e.slides[0].s.unit || "slide";
       e.slides.sort(function (a, b) { return a.s.n - b.s.n; });
