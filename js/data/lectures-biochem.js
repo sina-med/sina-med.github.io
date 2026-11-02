@@ -1407,6 +1407,1377 @@ SINA.lectures["biochem-preanalytical"] = {
      "n": 52
     }
    ]
+  },
+  {
+   "q": "The three phases of a biological analysis are, in order:",
+   "options": [
+    "Prescription, analysis, treatment",
+    "Sampling, validation, transport",
+    "Analysis, pre-analysis, interpretation",
+    "Pre-analysis, analysis, post-analysis"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "Treatment is not a phase of the analysis.",
+    "These are steps, not the three phases.",
+    "Pre-analysis comes first.",
+    "The analysis of a sample always goes through these three phases."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The post-analytical phase corresponds to:",
+   "options": [
+    "The results of the analyses and their interpretation",
+    "The preparation of the patient",
+    "The dosage of the parameters in the sample",
+    "The transport of the sample to the laboratory"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "Results and interpretation.",
+    "That is pre-analytical.",
+    "That is the analytical phase.",
+    "That is pre-analytical."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The analytical phase corresponds to:",
+   "options": [
+    "The dosage of the different biological parameters in the sample",
+    "The interpretation of the results",
+    "The medical prescription",
+    "The fasting of the patient"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "Measurement of concentrations in the laboratory.",
+    "Post-analytical.",
+    "Pre-analytical.",
+    "Pre-analytical."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "According to the literature cited in the lecture, the proportion of result errors that come from the pre-analytical phase is about:",
+   "options": [
+    "68%",
+    "25%",
+    "90%",
+    "10%"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "Plebani and Carraro, Clin Chem 1997.",
+    "25% is the cost of non-conformities in the sampling-equipment budget.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The GBEA (Guide de Bonne Exécution des Analyses):",
+   "options": [
+    "Is an optional recommendation",
+    "Is a law, so its application is mandatory",
+    "Concerns only the post-analytical phase",
+    "Includes the requirement to manage non-conformities"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "It is mandatory.",
+    "The lecture stresses: it is a law.",
+    "It contains requirements to avoid errors during analyses.",
+    "Managing non-conformities is required by the Moroccan GBEA."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The international standard cited for the management of non-conformities is:",
+   "options": [
+    "ISO 15189",
+    "The CE marking",
+    "ISO 9001 only",
+    "EN/MN 14820"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "Sections 5.4.5 to 5.4.8.",
+    "That is a conformity marking for equipment.",
+    "",
+    "That standard covers single-use sampling equipment."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Normal values (reference interval) of a biological parameter:",
+   "options": [
+    "Make it important to know the true value of the parameter at sampling",
+    "Are the limits within which it circulates in a healthy person",
+    "Are identical for all ages and both sexes",
+    "Are only used after treatment"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "Pre-analytical errors move the result away from the true value.",
+    "Beyond them, variation reflects a pathological situation.",
+    "ALP depends on age; sex hormones on sex.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A clinician receives a result that does not fit his patient. After checking, the biologist finds no analytical error. The most likely origin is:",
+   "options": [
+    "The patient's disease always",
+    "The analyser",
+    "The pre-analytical phase",
+    "The post-analytical phase only"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "The analytical phase was checked.",
+    "Most errors come from the steps before the analysis.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "High-quality (undamaged) samples lead to:",
+   "options": [
+    "Longer laboratory delays",
+    "More repeat samples",
+    "Unadulterated test results",
+    "Accurate diagnosis and effective treatment"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "Damaged samples cause repeats.",
+    "",
+    "The chain shown in the introduction."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Why can the pre-analytical phase easily distort results?",
+   "options": [
+    "It is carried out by the analyser",
+    "Many of its steps take place outside the laboratory",
+    "Each step can cause an error in the result",
+    "It concerns only the interpretation"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "The biologist cannot master them.",
+    "Prescription, patient, equipment, procedure, transport.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Among the stakeholders/steps of the pre-analytical phase listed in the lecture:",
+   "options": [
+    "The dosage on the automated analyser",
+    "The validation of the report by the biologist",
+    "The equipment used by the nurse",
+    "The procedure of taking the sample"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "Analytical phase.",
+    "Post-analytical.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "On the prescription, the clinician must mention:",
+   "options": [
+    "The sampling conditions (e.g. an infusion)",
+    "The analyser model",
+    "The clinical information",
+    "The brand of the tubes"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "To allow correct interpretation.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The concentration of testosterone:",
+   "options": [
+    "Is the same in both sexes",
+    "Is higher in men than in women",
+    "Is one reason to know the patient's gender",
+    "Is used to diagnose pregnancy"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "Sex hormones vary with gender.",
+    "Often guessed from the name when not written.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Alkaline phosphatases are mainly located in:",
+   "options": [
+    "Muscle cells",
+    "Red blood cells",
+    "Bone cells",
+    "Liver cells"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "CK is the muscle enzyme in the lecture.",
+    "",
+    "Hence higher values during growth.",
+    "Hence the rise in pregnancy (faster hepatic metabolism)."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "An ALP value can be normal in a child but high in an adult because:",
+   "options": [
+    "Children fast longer",
+    "The reference interval depends on age",
+    "Bone cells are activated during growth",
+    "Children have more liver cells"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "Hence write the age on the prescription.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In pregnancy, ALP increases because of:",
+   "options": [
+    "Haemolysis",
+    "Haemodilution",
+    "Acceleration of hepatic metabolism to support the fetus",
+    "Fasting"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "Haemodilution lowers proteins.",
+    "As explained in the lecture.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In pregnancy, iron and ferritin decrease because:",
+   "options": [
+    "They meet the needs of the developing fetus",
+    "Of haemolysis of the sample",
+    "Of a lab error",
+    "Of liver failure"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "It is physiological.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A pregnant woman has low total proteins. This:",
+   "options": [
+    "Is due to haemodilution from the increased blood volume",
+    "Requires protein infusion",
+    "Is a physiological change, not pathological hypoproteinaemia",
+    "Is caused by the tourniquet"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "Mention pregnancy on the prescription.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Hormones with a nycthemeral (day-night) rhythm in the lecture include:",
+   "options": [
+    "Cortisol",
+    "Thyroid hormones",
+    "Albumin",
+    "Ferritin"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "It doubles between the lowest and highest value of the day.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "For a cortisol assay, the most useful information to write on the prescription is:",
+   "options": [
+    "The time of sampling",
+    "The weight of the patient",
+    "The tube colour",
+    "The patient's blood group"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "Cortisol varies throughout the day.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Taking blood from the vein where a saline or glucose infusion is running:",
+   "options": [
+    "Is not recommended because of contamination by the infusion",
+    "Must be stated on the prescription if it cannot be avoided",
+    "Has no effect on glucose",
+    "Is the preferred technique"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "Mention the infusion and its type.",
+    "A glucose infusion would contaminate it.",
+    "Use the opposite arm."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "If sampling on the infusion side cannot be avoided, the lecture advises:",
+   "options": [
+    "Sampling below the infusion site, with the tourniquet below the site",
+    "Sampling above the infusion site",
+    "Waiting 2 minutes after stopping the infusion",
+    "Using the first tube for the most important test"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "Below the site.",
+    "",
+    "Take a first 3-5 mL dry 'pilot' tube to discard."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "When sampling near an infusion site, the first tube taken should be:",
+   "options": [
+    "The citrate tube",
+    "A dry 'pilot' tube of 3 to 5 mL",
+    "The EDTA tube",
+    "The tube for glucose"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "Not used for the analyses.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Changing from lying to standing just before sampling mainly changes:",
+   "options": [
+    "Nothing measurable",
+    "Sodium only",
+    "Calcium",
+    "Proteins"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "Calcium is largely protein-bound.",
+    "Posture shifts water between compartments."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "For a hospitalised intensive-care patient, sampling lying or seated:",
+   "options": [
+    "Doubles the protein level",
+    "Is forbidden",
+    "Gives only a slight difference in concentrations",
+    "Is equivalent to running"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "As noted in the lecture.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A patient ran to the lab to arrive on time. You should:",
+   "options": [
+    "Recommend 12 hours of rest after physical activity before sampling",
+    "Expect creatine kinase to fall",
+    "Know that even moderate exercise can change some parameters",
+    "Sample immediately, it makes no difference"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "It rises, up to fourfold.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Creatine kinase:",
+   "options": [
+    "Is a muscle enzyme",
+    "Can be multiplied by 4 after a jog",
+    "Falls after exercise",
+    "Is a liver hormone"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The recommended time window for routine blood analyses is:",
+   "options": [
+    "Any time after a meal",
+    "Between 12 p.m. and 2 p.m.",
+    "Between 7 a.m. and 9 a.m.",
+    "At midnight"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "After at least 8 h of fasting.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "An opalescent (milky) serum received by the biologist:",
+   "options": [
+    "Can follow a meal if the fast was not respected",
+    "Is the normal appearance of serum",
+    "Always means haemolysis",
+    "Cannot be interpreted as normal or pathological without information"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "Normal serum is translucent.",
+    "Haemolysis gives a red serum.",
+    "Write on the prescription if the patient is not fasting."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "If the patient is not fasting:",
+   "options": [
+    "Glucose is unaffected",
+    "The sample must always be destroyed",
+    "This must be mentioned on the prescription",
+    "The lipid profile can rise by about 21%"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "Otherwise it may be read as pathological.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "During a stressful sampling, which hormone can rise?",
+   "options": [
+    "Albumin",
+    "Ferritin",
+    "Adrenaline",
+    "Prolactin"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "Not a hormone.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Hormone results obtained during stress:",
+   "options": [
+    "Are unchanged",
+    "Concern only the thyroid",
+    "May differ from the patient's usual state far from sampling",
+    "Are always more reliable"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In vitro diagnostic medical devices (MD IVD) used for sampling:",
+   "options": [
+    "Must bear a conformity marking such as CE or FDA",
+    "Must comply with the standard EN/MN 14820 for single-use equipment",
+    "Do not need any marking if bought locally",
+    "Can be used after their expiry date"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Respect the conditions and limits of use."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The CE marking means that the equipment:",
+   "options": [
+    "Is approved for the United States",
+    "Was verified by the European Commission for marketing",
+    "Is reusable",
+    "Has no expiry date"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "That is the FDA marking.",
+    "When imported from Europe.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The conditions and limits of use of sampling equipment (e.g. expiry date) are found:",
+   "options": [
+    "On the leaflet (prospectus)",
+    "On the prescription",
+    "In the GBEA only",
+    "On the patient's file"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The tourniquet should be placed:",
+   "options": [
+    "Only if its use is required",
+    "Directly on the puncture site",
+    "7 to 10 cm above the puncture site",
+    "Very tight to make veins visible"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "Not needed if veins are visible or palpable.",
+    "Too close favours haemolysis.",
+    "",
+    "Not too tight."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A tourniquet left too long or too tight can:",
+   "options": [
+    "Cause haemolysis",
+    "Raise result values by up to 10%",
+    "Lower potassium",
+    "Improve accuracy"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Avoid the tourniquet when measuring:",
+   "options": [
+    "Calcium",
+    "Testosterone",
+    "Lactate",
+    "TSH"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "Also ammonium and albumin.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The purpose of respecting the order of the tubes is to:",
+   "options": [
+    "Make labelling easier",
+    "Avoid transfer of additives from one tube to another",
+    "Prevent clotting in all tubes",
+    "Fill the tubes faster"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In the order of tubes shown in the lecture, the first tube is:",
+   "options": [
+    "The antiglycolytic tube",
+    "The EDTA tube",
+    "The thrombin tube",
+    "The glass dry tube without additive (red)"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "It comes after EDTA.",
+    "EDTA comes later.",
+    "Last in the list.",
+    "Then citrate (sky blue)."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The citrate tube is used for:",
+   "options": [
+    "Lipids only",
+    "Haemostasis tests",
+    "Glucose",
+    "Blood counts only"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "Antiglycolytic (grey) tube.",
+    "EDTA tube."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "EDTA stands for:",
+   "options": [
+    "Ethyl Dextrose Tube Anticoagulant",
+    "Enzyme Dependent Thrombin Activator",
+    "Ethylene Diamine Tetra-Acetic acid",
+    "Electrolyte Dry Tube Additive"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Which statement about blood transfer between tubes is correct?",
+   "options": [
+    "Transfer is allowed from EDTA to citrate",
+    "Blood must never be transferred from one tube to another",
+    "Transfer is recommended to save tubes",
+    "Transfer is allowed if the volume is too small"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Plasma differs from serum because plasma:",
+   "options": [
+    "Is obtained with a clot activator",
+    "Is always haemolysed",
+    "Still contains fibrin(ogen)",
+    "Contains no proteins"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "That gives serum.",
+    "",
+    "Plasma = serum plus fibrin, in the lecture's words.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The separator gel isolates serum/plasma from the cells in order to:",
+   "options": [
+    "Increase glucose",
+    "Lyse the red cells",
+    "Prevent intracellular potassium leaking out",
+    "Prevent glucose being consumed by blood cells"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Even if red cells lyse during transport in a gel tube:",
+   "options": [
+    "Haemoglobin will not end up in the serum/plasma",
+    "Potassium is always falsely low",
+    "Results are always rejected",
+    "The gel dissolves"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "The gel protects the supernatant.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A citrate haemostasis tube must be filled so that the ratio of anticoagulant to blood is:",
+   "options": [
+    "1 to 1",
+    "Any ratio",
+    "1 volume of citrate to 4 volumes of blood",
+    "1 to 10"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "Respect the filling volume.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Tubes should not be identified (labelled) before sampling. They must be labelled:",
+   "options": [
+    "Only if the result is abnormal",
+    "At the laboratory",
+    "The next day",
+    "Immediately after the sample is taken"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Identity and patient number."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "An identification error on a tube:",
+   "options": [
+    "Is rare and can be ignored",
+    "Is corrected by the analyser",
+    "Leads to rejection of the sample",
+    "Is a post-analytical error"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "Identity mistakes are not uncommon.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Examples of non-conformities listed in the lecture:",
+   "options": [
+    "A correctly labelled tube with its prescription",
+    "An unlabelled tube",
+    "A tube sent upright within 2 hours",
+    "A deteriorated sample"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Non-conformities cost about:",
+   "options": [
+    "68% of the budget",
+    "Nothing",
+    "25% of the annual budget for sampling equipment",
+    "1% of the budget"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "68% is the share of pre-analytical errors.",
+    "",
+    "A high lost cost.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Tubes should travel upright because otherwise:",
+   "options": [
+    "Bilirubin increases",
+    "Serum is not readily available for the analysis",
+    "Glucose increases",
+    "The clot spreads along the wall or at the stopper"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A tube left 4 hours at room temperature before analysis will show:",
+   "options": [
+    "Falsely high potassium",
+    "Falsely low glucose",
+    "Falsely low transaminases",
+    "No change"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "Leaks from cells.",
+    "Consumed by blood cells.",
+    "They rise.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Glucose falls more slowly in a sample kept at:",
+   "options": [
+    "37 °C",
+    "30 °C",
+    "4 °C",
+    "23 °C"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "Cold slows cell metabolism.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "If analysis is delayed, samples should be stored:",
+   "options": [
+    "In the freezer at -80 °C always",
+    "At room temperature in summer",
+    "In the refrigerator between 4 and 8 °C",
+    "In direct sunlight"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A jaundiced patient's bilirubin tube was left in daylight. The result may be:",
+   "options": [
+    "Haemolysed",
+    "Falsely normal, because bilirubin degrades in light",
+    "Falsely very high",
+    "Unchanged"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The light-sensitivity of bilirubin is used clinically for:",
+   "options": [
+    "Measuring CK",
+    "Treating anaemia",
+    "Diagnosing hyperthyroidism",
+    "Phototherapy of jaundiced newborns"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "To reduce haemolysis when sampling, the lecture recommends:",
+   "options": [
+    "The vacuum system rather than a syringe",
+    "Using small, distal veins",
+    "Shaking the tube vigorously",
+    "A tight tourniquet left for several minutes"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "Syringe flow and turbulence lyse cells.",
+    "Difficult veins favour haemolysis.",
+    "Mix gently 5 to 10 times.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Patient factors favouring haemolysis include:",
+   "options": [
+    "Rest for 15 minutes",
+    "Fasting for 8 hours",
+    "Agitation and stress",
+    "Small, distal or multi-punctured veins"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "If a haemolysed result is taken into account instead of rejected, the risk is:",
+   "options": [
+    "Faster care",
+    "Nothing, haemolysis has no effect",
+    "Unnecessary additional tests for the patient",
+    "Lower potassium"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "To control the pre-analytical phase, the conclusion lists:",
+   "options": [
+    "Shortening the analytical phase",
+    "Respecting transport and storage conditions",
+    "Writing the needed information on the prescription",
+    "Repeating every analysis twice"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
   }
  ],
  "cards": [
@@ -2815,6 +4186,1169 @@ SINA.lectures["biochem-adrenal-medulla"] = {
      "n": 20
     }
    ]
+  },
+  {
+   "q": "The adrenal medulla is located:",
+   "options": [
+    "In the centre of the adrenal gland",
+    "Inside the kidney",
+    "In the hypothalamus",
+    "At the periphery of the adrenal gland"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "That is the cortex."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In adults, adrenaline represents about what share of the adrenal medulla's secretion?",
+   "options": [
+    "5%",
+    "20%",
+    "50%",
+    "80%"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "5% is the free catecholamine share in 24-h urine.",
+    "",
+    "",
+    "It is the predominant catecholamine in blood."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The name 'epinephrine':",
+   "options": [
+    "Is another name for noradrenaline",
+    "Comes from Latin and means 'near the kidney'",
+    "Is another name for dopamine",
+    "Comes from Greek and means 'above the kidney'"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "That is norepinephrine.",
+    "That is adrenaline (ad renes).",
+    "",
+    "Used by Americans."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Catecholamines serve to:",
+   "options": [
+    "Respond to needs such as muscular exercise",
+    "Give an immediate response to stress",
+    "Lower blood glucose after meals",
+    "Store iodine"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The embryological argument that the adrenal medulla is a sympathetic ganglion is that it derives from:",
+   "options": [
+    "The neural crest",
+    "The pituitary",
+    "The mesoderm of the cortex",
+    "The endoderm"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "Like the cells of sympathetic ganglia.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The histological argument for the glandular nature of the adrenal medulla is that:",
+   "options": [
+    "Its cells form follicles with colloid",
+    "It is made of striated muscle",
+    "Chromaffin cells are grouped in clusters around capillaries",
+    "It has acini with ducts"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "That is the thyroid.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Dopaminergic neurons are located mainly in:",
+   "options": [
+    "The central nervous system",
+    "The liver",
+    "The kidney",
+    "The adrenal cortex"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Phenylalanine is converted into tyrosine by:",
+   "options": [
+    "COMT",
+    "DOPA decarboxylase",
+    "Tyrosine hydroxylase",
+    "Phenylalanine hydroxylase"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "It acts on tyrosine to form DOPA.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The first catecholamine formed in the synthesis chain is:",
+   "options": [
+    "Tyrosine",
+    "Dopamine",
+    "Noradrenaline",
+    "Adrenaline"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "Not a catecholamine.",
+    "From decarboxylation of DOPA.",
+    "Second.",
+    "It is the last."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Decarboxylation of DOPA:",
+   "options": [
+    "Is the feedback step",
+    "Gives adrenaline",
+    "Gives dopamine",
+    "Is done by a decarboxylase"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "Feedback acts on tyrosine hydroxylase.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Adrenaline is formed from noradrenaline by:",
+   "options": [
+    "Deamination",
+    "Methylation",
+    "Decarboxylation",
+    "Hydroxylation"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "Deamination by MAO degrades catecholamines.",
+    "By PNMT.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Physiologically, the circulating concentration of catecholamines at rest is:",
+   "options": [
+    "Maximal",
+    "Higher than during stress",
+    "Low (basic secretion)",
+    "Zero"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The central nervous centres that drive the adrenal medulla include:",
+   "options": [
+    "The thalamus only",
+    "The cerebellum only",
+    "Hypothalamic centres",
+    "Bulbar and medullary centres"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Low blood pressure stimulating catecholamine release is sensed by:",
+   "options": [
+    "Baroreceptors of the aortic arch and carotid sinuses",
+    "The juxtaglomerular apparatus only",
+    "Pain receptors",
+    "Carotid chemoreceptors"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "They sense hypoxia and hypercapnia."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Hypoxia and hypercapnia stimulate catecholamine secretion through:",
+   "options": [
+    "Carotid chemoreceptors",
+    "Baroreceptors",
+    "Insulin",
+    "The pituitary"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "A reflex stimulus.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Intercentral stimuli of catecholamine secretion include:",
+   "options": [
+    "Pain and emotion",
+    "Low blood pressure",
+    "Hypoglycaemia",
+    "Stress and muscular exercise"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "That is a reflex stimulus.",
+    "Hypoglycaemia is a central stimulus.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "ACTH acts on catecholamine synthesis by stimulating the synthesis of:",
+   "options": [
+    "Insulin",
+    "Phenylalanine",
+    "DOPA and noradrenaline",
+    "VMA"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Cortisol stimulates the synthesis of:",
+   "options": [
+    "Tyrosine from food",
+    "Phenylalanine",
+    "Adrenaline",
+    "Noradrenaline"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Retrocontrol of catecholamine secretion acts directly on:",
+   "options": [
+    "The kidney",
+    "COMT",
+    "The carotids",
+    "Tyrosine hydroxylase"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "And the CNS centres.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Which receptor has the highest affinity for adrenaline?",
+   "options": [
+    "Alpha receptors",
+    "Insulin receptors",
+    "Dopamine receptors",
+    "Beta receptors"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Although alpha receptors are more numerous."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Beta-2 stimulation in the kidney causes:",
+   "options": [
+    "Renin secretion",
+    "Sodium loss",
+    "Vasoconstriction",
+    "Aldosterone secretion directly"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Beta-2 stimulation in the liver causes:",
+   "options": [
+    "Glycogen synthesis",
+    "Glycogenolysis",
+    "Insulin secretion",
+    "Lipogenesis"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Alpha-1 receptor stimulation causes:",
+   "options": [
+    "Vasoconstriction of skin, mucosa, kidneys and viscera",
+    "Contraction of sphincters",
+    "Bronchodilation",
+    "Lipolysis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "Beta-2.",
+    "Beta-1."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Alpha-2 receptors are found on:",
+   "options": [
+    "Bronchial smooth muscle",
+    "Cardiomyocytes",
+    "Axon terminal membranes, where they inhibit noradrenaline release",
+    "Hepatocytes"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "Beta-2.",
+    "Beta-1.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Positive chronotropic effect means:",
+   "options": [
+    "An increase in contraction strength",
+    "Vasodilation",
+    "A decrease in heart rate",
+    "An increase in heart rate"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "That is inotropic.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Catecholamines cause vasodilation in:",
+   "options": [
+    "Active territories such as muscle and coronary vessels",
+    "Skin",
+    "Splanchnic territory",
+    "Kidney"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "Vasoconstriction there.",
+    "Vasoconstriction there.",
+    "Vasoconstriction there."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The cardiovascular consequences of catecholamines are:",
+   "options": [
+    "Increased myocardial oxygen consumption",
+    "Increased cardiac output and blood pressure",
+    "Decreased venous return",
+    "Bradycardia"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "Venous return increases.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Beta-2 mimetic drugs are indicated:",
+   "options": [
+    "To raise intestinal motility",
+    "In asthma, for bronchodilation",
+    "To cause miosis",
+    "In threatened premature birth, to relax the uterus"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "Beta-2 gives mydriasis.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In the uterus, alpha receptor stimulation causes:",
+   "options": [
+    "Relaxation",
+    "Contraction",
+    "Secretion",
+    "No effect"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "That is beta-2.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "On the eye, catecholamines (beta-2) cause:",
+   "options": [
+    "Miosis",
+    "Mydriasis",
+    "Tearing",
+    "Ptosis"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In the bladder, catecholamines cause:",
+   "options": [
+    "Emptying of the bladder",
+    "Contraction of the urethral sphincter",
+    "Relaxation of the sphincter",
+    "Relaxation of the bladder wall"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "Beta-2 mimetics are used in urinary incontinence.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In striated muscle, catecholamines:",
+   "options": [
+    "Increase tone",
+    "Delay fatigue",
+    "Block contraction",
+    "Cause paralysis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "When frightened, the mouth becomes dry but we sweat because catecholamines:",
+   "options": [
+    "Act only on the pancreas",
+    "Inhibit all gland secretions except the sweat glands",
+    "Stimulate salivary glands",
+    "Block sweat glands"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The effect of catecholamines on wakefulness and alertness is:",
+   "options": [
+    "Absent",
+    "Possibly increased, but debated",
+    "The main proven effect",
+    "Clearly decreased"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "As the lecture says.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Catecholamines have only a small effect on blood glucose because:",
+   "options": [
+    "They do not act on carbohydrates",
+    "They block glycogenolysis",
+    "Their glycogenolysis is mainly muscular rather than hepatic",
+    "They stimulate insulin secretion"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "They inhibit it."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "On electrolytes, catecholamines cause:",
+   "options": [
+    "Hypocalcaemia",
+    "Hypokalaemia",
+    "Hyperkalaemia",
+    "Hyponatraemia"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Thermogenesis by catecholamines involves:",
+   "options": [
+    "Cutaneous vasoconstriction reducing heat loss",
+    "Sweating to cool down",
+    "Cutaneous vasodilation",
+    "Increased metabolism and calorigenesis"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Inactivation by 'uptake' means that excess catecholamines are:",
+   "options": [
+    "Excreted unchanged in urine",
+    "Captured by nerve endings and stored in vesicles",
+    "Destroyed in the blood",
+    "Converted into insulin"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "Protected from chemical catabolism.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "COMT and MAO are found:",
+   "options": [
+    "Only in neurons",
+    "In all cells, mainly liver and kidney cells",
+    "Only in red cells",
+    "Only in the adrenal medulla"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "MAO acts in about what share of catecholamine inactivation?",
+   "options": [
+    "80%",
+    "20%",
+    "5%",
+    "70%"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "COMT acts in about 70%.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "COMT converts noradrenaline into:",
+   "options": [
+    "Normetanephrine",
+    "Metanephrine",
+    "Dopamine",
+    "VMA directly"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "That comes from adrenaline.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Before urinary elimination, catecholamine metabolites are conjugated in the liver with:",
+   "options": [
+    "Albumin",
+    "Glucuronic acid",
+    "Iodine",
+    "Sulfuric acid"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The 24-hour urine contains:",
+   "options": [
+    "About 80% VMA",
+    "10-15% methoxylated derivatives",
+    "Mostly MHPG",
+    "80% free adrenaline"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "2 to 4 mg.",
+    "Metanephrine and normetanephrine.",
+    "Very little MHPG.",
+    "Free catecholamines are about 5%."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "MHPG stands for:",
+   "options": [
+    "3-Methyl-4-hydroxy-phenyl-glycol",
+    "Metanephrine hydroxy peptide",
+    "Monoamine hydroxy phenyl glucose",
+    "Methyl histamine phosphoglycerate"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Pheochromocytoma:",
+   "options": [
+    "Appears in early childhood",
+    "Is benign in 90% of cases",
+    "Is located in the adrenal medulla in 90% of cases",
+    "Is malignant in most cases"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "Adults 20-50.",
+    "",
+    "",
+    "That is neuroblastoma."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The hypertension of pheochromocytoma is:",
+   "options": [
+    "Never present",
+    "Always intermittent",
+    "Permanent in about 70% of cases",
+    "Intermittent ('in fits') in about 30%"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Neuroblastoma is located:",
+   "options": [
+    "In the abdominal sympathetic chain, thorax or neck in the rest",
+    "Only in the brain",
+    "Only in the adrenal cortex",
+    "In the adrenal medulla in about one third of cases"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "One third each.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In neuroblastoma, dopamine accumulates because:",
+   "options": [
+    "Of excess MAO",
+    "Of iodine deficiency",
+    "The tumour lacks PNMT",
+    "Of excess COMT"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "The adrenaline-producing enzyme is absent.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A 35-year-old has attacks of headache, sweating and very high blood pressure. The first-line test is:",
+   "options": [
+    "Neuron-specific enolase",
+    "TSH",
+    "Plasma metanephrine and normetanephrine",
+    "24-h urinary dopamine"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "A neuroblastoma marker.",
+    "",
+    "Very good sensitivity and specificity.",
+    "First line for neuroblastoma."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A young child has an abdominal mass. To look for neuroblastoma, first-line tests are:",
+   "options": [
+    "VMA in 24-h urine",
+    "Dopamine in 24-h urine",
+    "Plasma metanephrines only",
+    "Plasma cortisol"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "First line for pheochromocytoma.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Neuron-specific enolase (NSE) is:",
+   "options": [
+    "An enzyme of catecholamine synthesis",
+    "A marker of pheochromocytoma",
+    "A thyroid hormone",
+    "A plasma tumour marker for neuroblastoma"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Adrenaline-based treatments are indicated in:",
+   "options": [
+    "Hypertension",
+    "Pheochromocytoma",
+    "Shock",
+    "Asthma attack"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
   }
  ],
  "cards": [
@@ -4229,6 +6763,1325 @@ SINA.lectures["biochem-insulin"] = {
      "n": 14
     }
    ]
+  },
+  {
+   "q": "Insulin is secreted by:",
+   "options": [
+    "The adrenal medulla",
+    "The exocrine acinar cells",
+    "The β cells of the islets of Langerhans",
+    "The α cells of the islets"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "They secrete glucagon."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Insulin regulates the energy substrates:",
+   "options": [
+    "Calcium",
+    "Fatty acids and ketone bodies",
+    "Glucose",
+    "Iodine"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Insulin secretion depends on:",
+   "options": [
+    "Nutritional status",
+    "TSH",
+    "Physical activity",
+    "Daylight"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "High blood sugar, food in the gut.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The storage sites of dietary glucose are:",
+   "options": [
+    "Muscles and liver",
+    "Adipose tissue",
+    "Red blood cells",
+    "Brain"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Without insulin, survival is:",
+   "options": [
+    "Normal",
+    "A few months",
+    "A few hours",
+    "Several decades"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "Its absence is fatal in a few months.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Besides its metabolic effects, insulin also has longer-term effects on:",
+   "options": [
+    "Hearing",
+    "Hair colour",
+    "Vision",
+    "Growth"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "On a stained section of pancreas, the β cells:",
+   "options": [
+    "Appear blue like the exocrine tissue",
+    "Appear red, grouped around blood vessels",
+    "Line the pancreatic ducts",
+    "Are scattered as single cells in the acini"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "The exocrine tissue is blue.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Insulin is described as:",
+   "options": [
+    "A glycoprotein of the pituitary",
+    "A steroid",
+    "A catecholamine",
+    "A small protein with 2 chains"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The total number of disulphide bridges in insulin is:",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "1"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "2 interchain + 1 intrachain on chain A.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The intrachain disulphide bridge of insulin is on:",
+   "options": [
+    "The C-peptide",
+    "Chain B",
+    "Chain A",
+    "There is none"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The insulin gene is located on:",
+   "options": [
+    "The long arm of chromosome 11",
+    "The X chromosome",
+    "Chromosome 21",
+    "The short arm of chromosome 11"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Proinsulin contains:",
+   "options": [
+    "Three linked chains A-B-C",
+    "Four chains",
+    "Only the C-peptide",
+    "Only chains A and B"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "That is insulin."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Proinsulin granules:",
+   "options": [
+    "Are released continuously without stimulus",
+    "Are stored in the liver",
+    "Wait for stimulation such as post-prandial hyperglycaemia",
+    "Are abundant in β cells"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The enzyme that frees the C-peptide from proinsulin is:",
+   "options": [
+    "A proteinase",
+    "A lipase",
+    "A kinase",
+    "A deiodinase"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "After cleavage of proinsulin, the β cell releases into the blood:",
+   "options": [
+    "C-peptide",
+    "Glucagon",
+    "Insulin",
+    "Proinsulin only"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "In equal amounts.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Glucagon, as named in the lecture, can:",
+   "options": [
+    "Replace insulin",
+    "Stimulate the insulin secretory granules",
+    "Cleave insulin into chains",
+    "Block all insulin secretion"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "Food (glucose) and hormones (glucagon).",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In the β cell, glucose metabolism first increases:",
+   "options": [
+    "ATP production",
+    "Sodium exit",
+    "Potassium release",
+    "cAMP only"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "K+ release is inhibited.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Inhibition of potassium release in the β cell causes:",
+   "options": [
+    "Hyperpolarisation",
+    "Glycogen synthesis",
+    "Depolarisation of the membrane",
+    "Closure of calcium channels"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "They open."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "VDCC stands for:",
+   "options": [
+    "Very dense core cells",
+    "Voltage-dependent calcium channels",
+    "Voltage-dependent chloride channels",
+    "Vesicle docking calcium complex"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Intracellular calcium in the β cell triggers insulin secretion by:",
+   "options": [
+    "Stimulating contractile systems that move vesicles to the membrane",
+    "Cleaving insulin",
+    "Activating glycogenolysis",
+    "Blocking ATP"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Order the β-cell secretion steps correctly:",
+   "options": [
+    "K+ release rises → hyperpolarisation → exocytosis",
+    "Ca2+ enters → glucose enters → ATP falls → exocytosis",
+    "Depolarisation → glucose enters → ATP rises → exocytosis",
+    "Glucose enters → ATP rises → K+ release inhibited → depolarisation → Ca2+ channels open → exocytosis"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The autocrine effect of insulin on the β cell leads to:",
+   "options": [
+    "Transcription of its own gene",
+    "Release of glucagon",
+    "Inhibition of its own gene",
+    "Rapid restoration of insulin reserves"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In the liver and muscles, insulin activates:",
+   "options": [
+    "Glycolysis",
+    "Glycogenesis",
+    "Gluconeogenesis",
+    "Glycogenolysis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "Inhibited.",
+    "Inhibited."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Insulin activates the pentose phosphate pathway in:",
+   "options": [
+    "The liver",
+    "Red blood cells only",
+    "The kidney",
+    "The brain"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Insulin inhibits the exit of free glucose from:",
+   "options": [
+    "The gut into the blood",
+    "The liver into the blood",
+    "Muscle into the blood",
+    "The blood into cells"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "Muscle does not release free glucose anyway.",
+    "It favours entry."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A patient has absolute insulin deficiency. Which liver pathways would be unrestrained?",
+   "options": [
+    "Glycogenolysis",
+    "Gluconeogenesis",
+    "Glycogenesis",
+    "The pentose phosphate pathway"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "Normally inhibited by insulin.",
+    "Insulin activates it.",
+    "Insulin activates it."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In the adipocyte, insulin activates:",
+   "options": [
+    "Entry of fatty acids from lipoproteins",
+    "Triglyceride biosynthesis",
+    "Ketone body production",
+    "Lipolysis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Inhibited."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Glucose entering the adipocyte under insulin is used to make:",
+   "options": [
+    "Acetyl-CoA for fatty acid synthesis",
+    "Glycogen as the main store",
+    "Ketone bodies",
+    "Lactate only"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Insulin's effect on lipolysis is:",
+   "options": [
+    "Stimulation",
+    "Inhibition, in adipocytes",
+    "Stimulation in the liver only",
+    "No effect"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In protein metabolism, insulin stimulates:",
+   "options": [
+    "Muscle uptake of amino acids",
+    "Protein anabolism",
+    "Conversion of amino acids into glucose",
+    "Protein catabolism"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "Inhibited.",
+    "Inhibited."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Insulin is described as an anabolic hormone because it:",
+   "options": [
+    "Stores fuels as glycogen, triglycerides and proteins",
+    "Raises blood glucose",
+    "Breaks down glycogen",
+    "Stimulates lipolysis"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "On sodium metabolism, insulin:",
+   "options": [
+    "Stimulates glucose-sodium co-transport",
+    "Has no effect",
+    "Blocks sodium entry",
+    "Causes sodium loss in urine"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Insulin activates the gene of:",
+   "options": [
+    "Fatty acid synthetase",
+    "Glucokinase",
+    "Glucose-6-phosphatase",
+    "Phosphoenolpyruvate carboxykinase"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "Lipogenesis.",
+    "Glycolysis.",
+    "Gluconeogenic genes are repressed.",
+    "Gluconeogenic genes are repressed."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Pyruvate kinase:",
+   "options": [
+    "Is a glycolytic enzyme",
+    "Is repressed by insulin",
+    "Belongs to gluconeogenesis",
+    "Has its gene activated by insulin"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Genes repressed by insulin belong to:",
+   "options": [
+    "Glycogenesis",
+    "Lipogenesis",
+    "Gluconeogenesis",
+    "Glycolysis"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "Activated.",
+    "",
+    "Activated."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The lecture's tests for the biological diagnosis of diabetes include:",
+   "options": [
+    "Serum TSH",
+    "Glycosuria and ketonuria",
+    "Plasma metanephrines",
+    "Fasting blood glucose"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The oral glucose tolerance test (induced hyperglycaemia per os) is especially useful for:",
+   "options": [
+    "Pre-diabetic states",
+    "Hypothyroidism",
+    "Haemoglobinopathies",
+    "Monitoring every month"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "HbA1c is measured by HPLC, which also:",
+   "options": [
+    "Measures insulin",
+    "Shows a haemoglobinopathy",
+    "Measures C-peptide",
+    "Gives the fasting glucose"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In a diabetic patient with a haemoglobinopathy, glycaemic control is followed with:",
+   "options": [
+    "Urine VMA",
+    "Fructosamines",
+    "HbA1c only",
+    "TSH"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "Serum proteins, every 15 days.",
+    "HbA1c is unreliable then.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Fasting and post-prandial blood glucose in treatment monitoring are checked:",
+   "options": [
+    "Every 15 days",
+    "Every month",
+    "Every 2-3 months",
+    "Every year"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "That is fructosamines.",
+    "",
+    "That is HbA1c.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Self-monitoring reactive strips look for:",
+   "options": [
+    "Glycosuria and acetonuria",
+    "Serum creatinine",
+    "Proteinuria",
+    "Lipid profile"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "Measured in the lab.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Kidney follow-up in diabetes includes:",
+   "options": [
+    "Urine VMA",
+    "Microalbuminuria",
+    "Serum creatinine and urea",
+    "Serum TSH"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A lipid profile in a diabetic patient is part of:",
+   "options": [
+    "Self-monitoring strips",
+    "Insulin structure",
+    "Treatment monitoring",
+    "The diagnosis of diabetes"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "HbA1c is checked every:",
+   "options": [
+    "Week",
+    "Year",
+    "15 days",
+    "2 to 3 months"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A fasting patient's blood glucose falls. Insulin secretion will:",
+   "options": [
+    "Stay maximal",
+    "Be replaced by C-peptide",
+    "Increase sharply",
+    "Decrease"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Insulin follows nutritional status."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "After a carbohydrate meal, which happens?",
+   "options": [
+    "Insulin rises",
+    "Glycogen synthesis in liver and muscle rises",
+    "Lipolysis rises",
+    "Gluconeogenesis rises"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "C-peptide comes from:",
+   "options": [
+    "The C chain of proinsulin",
+    "Glucagon",
+    "Chain A of insulin",
+    "The liver"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Which statements about insulin chains are correct?",
+   "options": [
+    "The A chain has 51 amino acids",
+    "The B chain is long, with 30 amino acids",
+    "Both chains have 30 amino acids",
+    "The A chain is short, with 21 amino acids"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "51 is the total.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The total number of amino acids in insulin is:",
+   "options": [
+    "86",
+    "21",
+    "30",
+    "51"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "21 + 30."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Pre-pro-insulin is:",
+   "options": [
+    "Transformed into proinsulin",
+    "The active hormone",
+    "Secreted directly into blood",
+    "The first product of translation of the insulin mRNA"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Which hormone is the only hypoglycaemic hormone?",
+   "options": [
+    "Glucagon",
+    "Adrenaline",
+    "Cortisol",
+    "Insulin"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "Hyperglycaemic.",
+    "Hyperglycaemic.",
+    "Hyperglycaemic.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Insulin's action on muscle includes:",
+   "options": [
+    "Glycogenolysis",
+    "Amino acid uptake",
+    "Glycogenesis",
+    "Release of free glucose into blood"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Insulin favours the 'filling' of adipose cells by:",
+   "options": [
+    "Protein catabolism",
+    "Fatty acid entry and triglyceride synthesis",
+    "Ketogenesis",
+    "Lipolysis"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A drug that closes K+(ATP) channels in the β cell would:",
+   "options": [
+    "Close calcium channels",
+    "Depolarise the β cell and increase insulin secretion",
+    "Block insulin secretion",
+    "Hyperpolarise the β cell"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "Same step as the rise in ATP.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Glycosuria in diabetes means:",
+   "options": [
+    "Protein in the urine",
+    "Blood in the urine",
+    "Glucose in the urine",
+    "Ketones in the urine"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "That is ketonuria/acetonuria."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Acetonuria indicates:",
+   "options": [
+    "Ketone bodies in the urine",
+    "Glucose in the urine",
+    "Albumin in the urine",
+    "Haemoglobin in the urine"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Insulin represses gluconeogenesis at two levels:",
+   "options": [
+    "Metabolic (inhibiting the pathway in the liver)",
+    "Genetic (repressing gluconeogenic genes)",
+    "Only by blocking glucose entry",
+    "Only in the muscle"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Glycogenolysis is inhibited by insulin in:",
+   "options": [
+    "Muscle",
+    "The liver",
+    "Adipose tissue only",
+    "The brain only"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The large consumers of glucose named in the lecture are:",
+   "options": [
+    "The pancreas",
+    "Adipose tissue and skin",
+    "The liver and the muscles",
+    "The kidney and the brain"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
   }
  ],
  "cards": [
@@ -6372,6 +10225,1488 @@ SINA.lectures["biochem-steroids"] = {
      "n": 65
     }
    ]
+  },
+  {
+   "q": "All steroid hormones are derived from:",
+   "options": [
+    "Tyrosine",
+    "Cholesterol",
+    "Arachidonic acid",
+    "Phenylalanine"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "Tyrosine gives catecholamines and thyroid hormones.",
+    "Their structure resembles cholesterol.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The 4 types of steroid hormones are:",
+   "options": [
+    "Catecholamines",
+    "Glucocorticoids and mineralocorticoids",
+    "Androgens and female hormones",
+    "Thyroid hormones"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Which steroid hormone a tissue makes depends on:",
+   "options": [
+    "Cell differentiation",
+    "The colour of the tissue",
+    "Its enzymatic equipment",
+    "The amount of iodine"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The same type of steroid (e.g. oestrogens) can exist in different structures, such as:",
+   "options": [
+    "T3 and T4",
+    "Cortisol and cortisone",
+    "Oestradiol, oestrone and oestriol",
+    "Insulin and C-peptide"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "Both glucocorticoids but cortisone is a metabolite.",
+    "With different biological actions.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The glomerular zone of the adrenal cortex secretes:",
+   "options": [
+    "Glucocorticoids",
+    "Androgens mainly",
+    "Mineralocorticoids",
+    "Catecholamines"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "Fascicular zone.",
+    "Reticular zone.",
+    "Aldosterone.",
+    "Medulla."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The fascicular zone secretes:",
+   "options": [
+    "Aldosterone exclusively",
+    "Partly androgens",
+    "Adrenaline",
+    "Mainly glucocorticoids"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In the reticular zone, androgens come mainly from:",
+   "options": [
+    "Cortisol",
+    "Aldosterone",
+    "DHEA (DHA)",
+    "Oestriol"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "During the first half of the menstrual cycle:",
+   "options": [
+    "Oestrogen is secreted alone",
+    "No hormone is secreted",
+    "Progesterone is the main hormone",
+    "The corpus luteum is present"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "Progesterone starts at ovulation.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Ovulation coincides with:",
+   "options": [
+    "Appearance of the corpus luteum",
+    "Menstruation",
+    "The onset of progesterone secretion",
+    "The end of oestrogen secretion"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Oestrogen continues."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In the follicular phase, granulosa cells:",
+   "options": [
+    "Make cortisol",
+    "Secrete testosterone into blood as main product",
+    "Make aldosterone",
+    "Convert androgens from the internal theca into oestradiol"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Leydig cells are located:",
+   "options": [
+    "In the interstitial tissue around the seminiferous tubules",
+    "In the epididymis",
+    "In the prostate",
+    "Inside the seminiferous tubules"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "That is Sertoli cells."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Sertoli cells:",
+   "options": [
+    "Are found in the ovary",
+    "Are giant cells inside the seminiferous tubules",
+    "Secrete 95% of testosterone",
+    "Help the maturation of spermatozoa"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "Leydig cells do.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In Leydig cells, testosterone comes from the conversion of:",
+   "options": [
+    "Progesterone to androstenedione, then to testosterone",
+    "Cortisol to testosterone",
+    "Oestradiol to testosterone",
+    "Aldosterone to testosterone"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The placenta:",
+   "options": [
+    "Secretes testosterone as its main product",
+    "Secretes oestrogen and progesterone",
+    "Secretes aldosterone",
+    "Appears only during pregnancy"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "The same female hormones as the ovary.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Oestrogens are steroids with:",
+   "options": [
+    "21 carbons",
+    "18 carbons",
+    "19 carbons",
+    "27 carbons"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "Progesterone, cortisol, aldosterone.",
+    "",
+    "Androgens.",
+    "Cholesterol."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Which hormones have 21 carbons?",
+   "options": [
+    "Cortisol and aldosterone",
+    "Progesterone",
+    "Testosterone",
+    "Oestradiol"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "19 carbons.",
+    "18 carbons."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The predominant oestrogen after menopause is:",
+   "options": [
+    "Oestrone (E1), about 99%",
+    "Oestradiol (E2)",
+    "Testosterone",
+    "Oestriol (E3)"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "Predominant before menopause.",
+    "",
+    "Only in pregnancy."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In a genitally active woman, oestradiol represents about:",
+   "options": [
+    "5%",
+    "50 to 70% of oestrogens",
+    "100%",
+    "99%"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "That is oestrone after menopause."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Oestriol (E3) is secreted:",
+   "options": [
+    "Mainly after menopause",
+    "By the feto-placental unit",
+    "Only during pregnancy",
+    "By the adrenal medulla"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Weak androgens (precursors) include:",
+   "options": [
+    "Dihydrotestosterone",
+    "Androstenedione",
+    "DHEA and DHEA-sulphate",
+    "Cortisol"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "DHT is the most potent androgen.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Androstenedione:",
+   "options": [
+    "Exerts feedback on the pituitary",
+    "Is converted into testosterone and oestrogens",
+    "Is the most potent androgen",
+    "Is produced by the adrenal cortex (from DHEA) and the gonads"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "It does not.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Progesterone is mainly secreted by:",
+   "options": [
+    "The adrenal medulla",
+    "The liver",
+    "The placenta",
+    "The corpus luteum"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Desmolases:",
+   "options": [
+    "Remove 2 hydrogen atoms",
+    "Flip a double bond",
+    "Add iodine",
+    "Break the bond between 2 carbons after their oxygenation"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "That is a dehydrogenase.",
+    "That is an isomerase.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The enzyme couple acting successively in steroidogenesis is:",
+   "options": [
+    "Kinase + phosphatase",
+    "COMT + MAO",
+    "Hydroxylase + desmolase only",
+    "Dehydrogenase + isomerase"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "The dehydrogenase removes 2 H; the isomerase moves a double bond."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Steroidogenic tissues obtain cholesterol mainly from:",
+   "options": [
+    "Iodine",
+    "The blood",
+    "Glycogen",
+    "The bile"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The conversion of cholesterol to pregnenolone happens in:",
+   "options": [
+    "Lysosomes",
+    "Mitochondria",
+    "The nucleus",
+    "Microsomes"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Later steps."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Before 20-22 desmolase acts, cholesterol is:",
+   "options": [
+    "Iodinated",
+    "Aromatised",
+    "Sulphated",
+    "Hydroxylated on carbons 20 and 22"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The products of the common microsomal pathway include:",
+   "options": [
+    "Aldosterone",
+    "Progesterone and 17α-OH progesterone",
+    "Oestriol",
+    "17α-OH pregnenolone"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Glucocorticoid synthesis takes place:",
+   "options": [
+    "In the glomerular zone",
+    "In the placenta",
+    "In the gonads",
+    "In the microsomes of the fascicular zone only"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "To make cortisol, 17α-OH progesterone undergoes:",
+   "options": [
+    "21-hydroxylation then 11β-hydroxylation",
+    "Aromatisation",
+    "17,20 desmolase action",
+    "18-hydroxylation"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "That gives androgens.",
+    "Aldosterone pathway."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Cortisol is metabolised in the liver into:",
+   "options": [
+    "Testosterone",
+    "DHEA",
+    "Aldosterone",
+    "Cortisone, by 11β-dehydrogenase"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In 21-hydroxylase deficiency, accumulated 17α-OH progesterone:",
+   "options": [
+    "Is converted into aldosterone",
+    "Is converted into cortisol normally",
+    "Disappears",
+    "Is diverted towards DHEA and androgens"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In 21-hydroxylase deficiency, the adrenal cortex hypertrophies because:",
+   "options": [
+    "Insulin rises",
+    "Absent cortisol removes negative feedback, so ACTH is hypersecreted",
+    "TSH rises",
+    "Aldosterone is excessive"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In families at risk of congenital adrenal hyperplasia, corticosteroid therapy:",
+   "options": [
+    "Is started only after birth",
+    "Causes the disease",
+    "Is useless",
+    "Started before the 6th week of amenorrhoea prevents very high androgen levels"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Signs of congenital adrenal hyperplasia in adolescence include:",
+   "options": [
+    "Primary amenorrhoea",
+    "Late puberty",
+    "Hypertension from excess aldosterone",
+    "Early puberty with rapidly progressing hirsutism"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "Aldosterone is low; dehydration crises occur.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Dehydration attacks refractory to rehydration in CAH are due to:",
+   "options": [
+    "Excess insulin",
+    "Excess T4",
+    "Excess cortisol",
+    "Lack of aldosterone"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Salt loss."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Mineralocorticoid synthesis takes place:",
+   "options": [
+    "Exclusively in the glomerular zone",
+    "In the testis",
+    "Via progesterone, which the adrenal cortex does not secrete",
+    "In the fascicular zone"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "21-hydroxylase acting on progesterone gives:",
+   "options": [
+    "Deoxycorticosterone (DOC)",
+    "Cortisol",
+    "Androstenedione",
+    "Oestrone"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "Weak mineralocorticoid activity.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Corticosterone:",
+   "options": [
+    "Is the main mineralocorticoid",
+    "Comes from DOC by 11β-hydroxylase",
+    "Has both glucocorticoid and mineralocorticoid actions",
+    "Is an androgen"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "Aldosterone is.",
+    "",
+    "Much weaker than aldosterone.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Gestational hypertension from a mineralocorticoid receptor mutation:",
+   "options": [
+    "Is a rare genetic disease",
+    "Occurs because the mutated receptor is activated by progesterone",
+    "Is caused by excess cortisol",
+    "Is due to iodine excess"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "Progesterone rises in pregnancy.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Before puberty, the adrenal glands convert:",
+   "options": [
+    "Oestrone to oestriol",
+    "Testosterone to DHT",
+    "Aldosterone to cortisol",
+    "DHEA to androstenedione in both girls and boys"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "After puberty in boys, adrenal androstenedione is converted into:",
+   "options": [
+    "Aldosterone",
+    "11β-hydroxy androstenedione",
+    "Oestriol",
+    "Cortisol"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Oestrogen biosynthesis:",
+   "options": [
+    "Requires androgens as precursors",
+    "Starts from cortisol",
+    "Uses aromatases",
+    "Happens only in the liver"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "E2 from testosterone, E1 from androstenedione.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Oestradiol (E2) protects bone against:",
+   "options": [
+    "Fractures from trauma only",
+    "Rickets",
+    "Osteoporosis",
+    "Infection"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "Osteoblastic activity.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Obesity in postmenopausal women:",
+   "options": [
+    "Increases oestrogen production by fat cells",
+    "Lowers oestrogens",
+    "Has no hormonal effect",
+    "Is a risk factor for hormone-dependent cancers such as breast cancer"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In the 1st trimester of pregnancy, oestrogen and progesterone come mainly from:",
+   "options": [
+    "The fetal liver",
+    "The adrenal medulla",
+    "The ovary (corpus luteum stimulated by hCG)",
+    "The feto-placental unit"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "From the 2nd trimester."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "From the 2nd trimester, the feto-placental unit produces oestrogens using DHEA from:",
+   "options": [
+    "The maternal thyroid",
+    "The fetal adrenal",
+    "The maternal ovary",
+    "The placenta's own cholesterol only"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "Metabolised by the fetal liver, then converted by the placenta.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Cortisol, as a stress hormone:",
+   "options": [
+    "Is anabolic for bone",
+    "Causes catabolism of carbohydrates, fats and proteins",
+    "Is pro-inflammatory",
+    "Is maximal in the morning to provide energy"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "It degrades bone.",
+    "",
+    "It is anti-inflammatory.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In the fetus, cortisol helps:",
+   "options": [
+    "Development of the liver's glycogen function",
+    "Synthesis of pulmonary surfactant (indirectly) late in pregnancy",
+    "Closure of the neural tube",
+    "Formation of the thyroid"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Hyaline membrane disease of the preterm infant is due to:",
+   "options": [
+    "Lack of aldosterone",
+    "Excess oestrogen",
+    "Excess cortisol",
+    "Lack of pulmonary surfactant, so alveoli collapse"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Aldosterone, acting on the distal tubule, leads to:",
+   "options": [
+    "Lower blood pressure",
+    "Increased blood volume and blood pressure",
+    "Sodium retention and potassium elimination",
+    "Potassium retention"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Oestrogens cause:",
+   "options": [
+    "Development of secondary sexual characteristics at puberty",
+    "Inhibition of osteoblasts",
+    "Slight premenstrual water retention (tense breasts)",
+    "Lower uterine excitability in pregnancy"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "That is progesterone."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "After childbirth, lactation is triggered by:",
+   "options": [
+    "The abrupt fall in oestrogen, stimulating prolactin",
+    "Aldosterone",
+    "A rise in oestrogen",
+    "A rise in progesterone"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Progesterone in the mammary gland:",
+   "options": [
+    "Has no effect",
+    "Stimulates milk secretion during pregnancy",
+    "Opposes lactogenesis during pregnancy",
+    "Is anti-oestrogenic (used for breast cysts)"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Androgens:",
+   "options": [
+    "Cause female breast development",
+    "Have an anabolic role on muscle and bone",
+    "Control spermatogenesis",
+    "Lower muscle mass"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "ACTH is secreted by:",
+   "options": [
+    "The adrenal cortex",
+    "Leydig cells",
+    "The hypothalamus",
+    "Corticotroph cells of the anterior pituitary"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "It secretes CRF.",
+    "They have CRF receptors."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Variations in blood volume regulate aldosterone through:",
+   "options": [
+    "ACTH only",
+    "GnRH",
+    "The renin-angiotensin-aldosterone system",
+    "TSH"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "When plasma oestrogen exceeds a threshold:",
+   "options": [
+    "This coincides with ovulation",
+    "FSH and LH fall immediately",
+    "Progesterone secretion stops",
+    "Positive feedback raises LH secretion"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Addison's disease (primary total hypocorticism):",
+   "options": [
+    "Can be caused by tuberculosis or autoimmunity",
+    "Is generally lethal without replacement therapy",
+    "Shows high cortisol",
+    "Shows hypokalaemia"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Hyperkalaemia."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Skin pigmentation in Addison's disease is linked to:",
+   "options": [
+    "Excess aldosterone",
+    "Excess cortisol",
+    "Increased MSH, which shares its precursor with ACTH",
+    "Iodine deficiency"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Sheehan syndrome causes:",
+   "options": [
+    "Low cortisol with low ACTH",
+    "Conn syndrome",
+    "Central (pituitary) hypocorticism",
+    "High ACTH"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "ACTH is high in primary (Addison)."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Cushing's disease (as opposed to an adrenal tumour) refers to:",
+   "options": [
+    "An adenoma of the glomerular zone",
+    "Total adrenal destruction",
+    "Hypothalamic-pituitary hyperfunction, e.g. an ACTH-secreting pituitary adenoma",
+    "A virilising ovarian tumour"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "That is Conn syndrome.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Turner syndrome:",
+   "options": [
+    "Has an XXY karyotype",
+    "Has an XO karyotype (or XO/XX mosaic)",
+    "Is a testicular tumour",
+    "Is an ovarian dysgenesis"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "That is Klinefelter.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In primary male hypogonadism (e.g. Klinefelter, castration), blood shows:",
+   "options": [
+    "Low FSH and LH",
+    "High FSH and LH",
+    "High testosterone",
+    "Low testosterone"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "That is central (panhypopituitarism).",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A boy with early puberty has high testosterone and normal or low FSH. The origin is likely:",
+   "options": [
+    "Testicular",
+    "Pituitary",
+    "Hypothalamic",
+    "Thyroid"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "If FSH is high, the origin is pituitary.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Male pseudohermaphroditism from absent DHT receptors shows:",
+   "options": [
+    "Low testosterone",
+    "High oestrogen, FSH, LH, testosterone and DHT",
+    "Female or mixed genitalia in an XY subject",
+    "An XX karyotype"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
   }
  ],
  "cards": [
@@ -15943,6 +21278,1171 @@ SINA.lectures["biochem-thyroid"] = {
    ],
    "answer": 0,
    "why": "The arrow points to: TSH. Pituitary glycoprotein (common alpha, specific beta chain) that activates every step of synthesis."
+  },
+  {
+   "q": "The absence of thyroid hormones:",
+   "options": [
+    "Only affects hair growth",
+    "Is compensated by the parathyroids",
+    "Is not compatible with life",
+    "Has no effect in adults"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "The thyroid is a vital organ.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The functional unit of the thyroid is:",
+   "options": [
+    "The acinus",
+    "The islet of Langerhans",
+    "The thyroid follicle",
+    "The nephron"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "The smallest structure that represents the organ's function.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In 3D, the thyroid follicle is:",
+   "options": [
+    "A tube open on both ends",
+    "A solid cord of cells without a lumen",
+    "A flat sheet of cells",
+    "A ball with a central cavity and cells at the periphery"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "The cavity contains colloid.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The apical pole of the thyrocyte faces:",
+   "options": [
+    "The blood vessels",
+    "The trachea",
+    "The nucleus",
+    "The colloid"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "The basal pole faces the blood vessels."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The thyrocyte cytoplasm is rich in:",
+   "options": [
+    "Numerous vesicles at the apical pole",
+    "Granular endoplasmic reticulum and a Golgi apparatus",
+    "Myofibrils",
+    "Glycogen as its main content"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "Signs of high protein synthesis.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Iodine used by the thyroid comes from:",
+   "options": [
+    "The kidney",
+    "Food",
+    "Synthesis by the liver",
+    "The breakdown of tyrosine"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "The kidney excretes surplus iodine.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The intracellular iodide concentration in the thyrocyte is about:",
+   "options": [
+    "Half that of the blood",
+    "1000 times that of the blood",
+    "Equal to the blood",
+    "30 times that of the blood"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Because of active transport."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Iodide enters the thyrocyte by:",
+   "options": [
+    "Endocytosis of thyroglobulin",
+    "Exocytosis",
+    "Active transport",
+    "Simple diffusion"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "Against its gradient.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Iodide (I⁻) is oxidised into active iodine (I₂):",
+   "options": [
+    "At the apex of the thyrocyte",
+    "By thyroid peroxidase (TPO)",
+    "In the lysosomes",
+    "By deiodinase"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Deiodinase removes iodine."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The two aromatic rings of thyronine are joined by:",
+   "options": [
+    "A glycosidic bond",
+    "A disulphide bridge",
+    "An ether bridge",
+    "A peptide bond"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "T3 and T4 differ from each other by:",
+   "options": [
+    "The number of iodine atoms they carry",
+    "The number of rings",
+    "Their sugar residue",
+    "Their amino acid of origin"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "3 versus 4.",
+    "Both are thyronines.",
+    "",
+    "Both come from tyrosine."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Thyroglobulin:",
+   "options": [
+    "Is secreted into the blood as the main hormone",
+    "Is carried in vesicles to the apical pole and discharged into the colloid",
+    "Contains no tyrosine",
+    "Is synthesised in the ribosomes"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Iodination of the tyrosines of thyroglobulin occurs:",
+   "options": [
+    "In the liver",
+    "At the apical pole of the thyrocyte",
+    "Under the action of TPO",
+    "In the blood"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "MIT carries:",
+   "options": [
+    "Three iodine atoms",
+    "One iodine atom",
+    "Two iodine atoms",
+    "Four iodine atoms"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "Monoiodotyrosine.",
+    "That is DIT.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "T4 is also called:",
+   "options": [
+    "Thyrotropin",
+    "Thyroxine",
+    "Triiodothyronine",
+    "Tetraiodothyronine"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "That is TSH.",
+    "",
+    "That is T3.",
+    "Four iodine atoms."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "At the coupling stage, the newly formed T3 and T4:",
+   "options": [
+    "Are already in the blood",
+    "Are still bound to thyroglobulin",
+    "Are inactive forever",
+    "Are bound to TBG"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "When the thyrocyte is stimulated, thyroglobulin re-enters the cell by:",
+   "options": [
+    "Diffusion",
+    "Active transport of iodide",
+    "Endocytosis, then reaches the lysosomes",
+    "Exocytosis"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Which are secreted into the blood?",
+   "options": [
+    "Reverse T3",
+    "Thyroglobulin as the main product",
+    "MIT and DIT",
+    "T3 and T4"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "Only T3, T4 and reverse T3 are secreted.",
+    "",
+    "Their iodine is recycled.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The main hormone secreted by the thyroid into the blood is:",
+   "options": [
+    "TSH",
+    "T3, about 90%",
+    "T4, about 90%",
+    "Reverse T3"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Part of T4 is converted into T3:",
+   "options": [
+    "In the colloid by TPO",
+    "Only in the kidney",
+    "Inside the thyrocyte before secretion, by deiodinase",
+    "In peripheral cells, by deiodinase"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Most T3 is produced in peripheral tissues."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The free fraction of thyroid hormones:",
+   "options": [
+    "Is the major fraction in blood",
+    "Is very small",
+    "Is the active fraction",
+    "Is inactive"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Bound hormones are inactive."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The plasma protein with the highest affinity for T4 is:",
+   "options": [
+    "TBG",
+    "Albumin",
+    "Transferrin",
+    "TBPA"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "Thyroxine-binding globulin, made by the liver.",
+    "Non-specific.",
+    "",
+    "Mainly binds T3."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Albumin, as a thyroid hormone carrier, is:",
+   "options": [
+    "Specific for T3",
+    "Made by the thyroid",
+    "The most dominant thyroid carrier",
+    "A non-specific transport protein"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "TBG is.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Thyroid hormones bound to plasma proteins are:",
+   "options": [
+    "Converted into TSH",
+    "Inactive",
+    "Excreted directly in urine",
+    "More active than the free forms"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "T3 receptors are located:",
+   "options": [
+    "Only in the colloid",
+    "In the cytoplasm",
+    "In the nucleus, for gene transcription",
+    "Only on red cells"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "T3 is about how many times more active than T4?",
+   "options": [
+    "2 times",
+    "It is less active",
+    "10 times",
+    "100 times"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "TRH is released by:",
+   "options": [
+    "The liver",
+    "The thyroid",
+    "The anterior pituitary",
+    "The hypothalamus"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "The pituitary releases TSH.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A rise in blood T4:",
+   "options": [
+    "Exerts negative feedback on the hypothalamus-pituitary axis",
+    "Raises TSH",
+    "Has no effect on TSH",
+    "Stimulates TRH release"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "TSH:",
+   "options": [
+    "Is a glycoprotein of the anterior pituitary",
+    "Is made of a single chain",
+    "Activates all steps of thyroid hormone synthesis",
+    "Is secreted by the hypothalamus"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "notes": [
+    "",
+    "Two subunits.",
+    "From iodide uptake to secretion, including TPO and thyroglobulin synthesis.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "New TSH assays target the specific beta chain in order to:",
+   "options": [
+    "Measure free T4",
+    "Lower the cost only",
+    "Avoid false positives from other glycoprotein hormones",
+    "Detect antibodies"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "The alpha chain is shared with LH, FSH and hCG.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In the liver, thyroid hormones are conjugated with:",
+   "options": [
+    "Iodine",
+    "Glucuronic acid",
+    "Sulfuric acid",
+    "Albumin"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "Inactive conjugates go to bile and stool.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Deamination, decarboxylation and oxidation of thyroid hormones produce:",
+   "options": [
+    "Thyroglobulin",
+    "MIT and DIT",
+    "TRIAC and TETRAC",
+    "Reverse T3"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "In the liver and kidneys.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Iodine released by deiodination in the kidney:",
+   "options": [
+    "Is always lost in stool",
+    "Is stored in the liver as TBG",
+    "Is eliminated in urine otherwise",
+    "Returns to the thyroid if the body needs it"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Deiodination accounts for about what share of T4 degradation?",
+   "options": [
+    "15%",
+    "50%",
+    "80%",
+    "5%"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "15% of derivatives leave in the stool.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A thyroid check-up is systematically requested in:",
+   "options": [
+    "Routine dental care",
+    "Every skin infection",
+    "Every fracture",
+    "The fertility work-up of a couple"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Thyroid hormones are needed for reproductive function."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In bone, thyroid hormones:",
+   "options": [
+    "Prevent mineralisation",
+    "Allow maturation and ossification (mineralisation) of cartilage",
+    "Block GH",
+    "Promote GH secretion and act in synergy with it"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "GH drives chondrogenesis and cartilage growth.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Thyroid hormones increase the number of adrenergic receptors in vessels, which raises:",
+   "options": [
+    "Systolic pressure",
+    "Diastolic pressure only",
+    "Nothing",
+    "Pulse rate"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "At the cellular level, thyroid hormones increase:",
+   "options": [
+    "Glycogen storage",
+    "Glycolysis and glycogenolysis",
+    "Heat production and oxygen consumption",
+    "Lipid storage"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "They increase lipolysis."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Thyroid hormones cause proteolysis leading to:",
+   "options": [
+    "No change in protein",
+    "Protein storage",
+    "A positive nitrogen balance",
+    "A negative nitrogen balance"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    "Nitrogen inputs minus removal becomes negative."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A patient loses weight while keeping a good appetite, sweats and does not tolerate heat. This suggests:",
+   "options": [
+    "Hyperthyroidism",
+    "Pheochromocytoma only",
+    "Hypothyroidism",
+    "Normal thyroid function"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "Basal hypermetabolism.",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "The sign described as strongly in favour of hyperthyroidism is:",
+   "options": [
+    "Constipation",
+    "Bradycardia",
+    "Puffy eyes",
+    "Hand tremor"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "Hypothyroidism.",
+    "",
+    "Hypothyroidism (oedema).",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A patient complains of weight gain, cold intolerance, constipation and slow thinking. The most likely diagnosis is:",
+   "options": [
+    "Hypothyroidism",
+    "Hyperthyroidism",
+    "Graves' disease",
+    "Toxic adenoma"
+   ],
+   "answers": [
+    0
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A goitre:",
+   "options": [
+    "Always means cancer",
+    "Can occur with hypothyroidism",
+    "Always means hyperthyroidism",
+    "Can occur with hyperthyroidism"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "The morphological aspect is not linked to hormone secretion.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Graves' disease is mainly seen in:",
+   "options": [
+    "Only men",
+    "Young boys",
+    "Postmenopausal women",
+    "Newborns"
+   ],
+   "answers": [
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "As stated in the lecture.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Hyperthyroidism is defined as the clinical syndrome caused by:",
+   "options": [
+    "A lack of TSH only",
+    "An excess of circulating FT4 and/or FT3",
+    "An excess of thyroglobulin",
+    "An excess of TBG"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "A toxic multiheteronodular goitre contains:",
+   "options": [
+    "No nodules",
+    "Only a single cyst",
+    "Only cold nodules",
+    "Hot and cold nodules"
+   ],
+   "answers": [
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Amiodarone is relevant to the thyroid because:",
+   "options": [
+    "Its structure contains iodine",
+    "It is contraindicated if the patient has dysthyroidism",
+    "It is a thyroid hormone",
+    "It blocks TSH secretion"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "It can cause iatrogenic dysthyroidism.",
+    "",
+    "It is an anti-arrhythmic.",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Antibodies found in Hashimoto's thyroiditis include:",
+   "options": [
+    "Anti-insulin antibodies",
+    "Anti-thyroglobulin antibodies",
+    "Anti-peroxidase (anti-TPO) antibodies",
+    "Anti-TSH receptor stimulating antibodies"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "notes": [
+    "",
+    "",
+    "Also anti-microsomal antibodies.",
+    "Those are typical of Graves' disease."
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Endemic goitre (widespread in a given place) is usually due to:",
+   "options": [
+    "Thyroid cancer",
+    "Iodine deficiency",
+    "Graves' disease",
+    "Amiodarone"
+   ],
+   "answers": [
+    1
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "Congenital hypothyroidism (thyroid agenesis or ectopia) can cause:",
+   "options": [
+    "Tachycardia",
+    "Dwarfism",
+    "Gigantism",
+    "Cretinism (mental retardation)"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "TSHus (ultrasensitive TSH):",
+   "options": [
+    "Measures the free fraction of T4",
+    "Diagnoses Hashimoto's disease alone",
+    "Detects very small abnormal variations near normal values",
+    "Locates the problem as central or peripheral"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "notes": [
+    "That is FT4.",
+    "Antibodies give the cause.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
+  },
+  {
+   "q": "In thyroid replacement therapy, T4 is preferred because:",
+   "options": [
+    "It acts faster than T3",
+    "Its half-life of about one week allows a single daily dose",
+    "It does not need conversion",
+    "It is converted into T3 in peripheral tissues"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "notes": [
+    "T3 half-life is about one day.",
+    "Better compliance.",
+    "",
+    ""
+   ],
+   "multi": true,
+   "hint": "1 or 2 correct answers",
+   "why": "See the notes under each option.",
+   "x": 1
   }
  ],
  "cards": [

@@ -3,6 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "2 November 2026", items: [
+    "Added: Clinical Biochemistry midterm lectures now have about 100 questions each (Pre-analytical phase, Thyroid, Adrenal medulla, Insulin, Steroid hormones), so 50 to 100-question quizzes never repeat.",
     "Added: Sina mock questions now show the lecture slide behind the answer, with the part that answers it in green (506 of 552 questions).",
     "Fixed: green highlights on the Insulin and Steroid hormones slides now line up with the 2026-2027 versions.",
     "Added: 25-question Sina mock exams on the first 5 lectures of 12 more semester 1 and 3 subjects (Medical Terminology, Public Health, Genetics, Cell Biology, Physics, Biophysics, Chemistry; Physiology, Semiology, Clinical Biochemistry, First Aid, History of Medicine).",
