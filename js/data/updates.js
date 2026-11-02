@@ -10,6 +10,7 @@ SINA.updates = [
     "Added: 47 past papers turned into online quizzes and timed exams, 1st and 2nd year.",
     "Added: covered-label picture questions for Anatomy 1 and 2 (28 labelled plates: upper limb, thorax, heart, lungs, abdomen, pelvis).",
     "Added: Sina mock exams for 9 first-year subjects (Anatomy 1 and 2, Physiology, Biochemistry, Immunology, Hematology, Embryology, Histology, Bacteriology).",
+    "Added: 25-question Sina mock exams on the first 5 lectures of 12 more semester 1 and 3 subjects (Medical Terminology, Public Health, Genetics, Cell Biology, Physics, Biophysics, Chemistry; Physiology, Semiology, Clinical Biochemistry, First Aid, History of Medicine).",
     "Added: spaced repetition: missed questions come back after 1, 3, 7, 16 and 35 days, in Review due on the home page.",
     "Added: study reminders (Settings > Reminders): one notification a day for reviews due or daily practice.",
     "Added: reports can include a picture.",
