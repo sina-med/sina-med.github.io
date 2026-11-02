@@ -1421,11 +1421,8 @@
     order.sort(function (a, b) { return byL[b].n - byL[a].n; });
     return '<section class="weakbox"><h2 class="rev-h">Study next</h2><p class="meta">Where your missed questions come from. Start at the top.</p>' + order.map(function (lid) {
       var e = byL[lid], secs = Object.keys(e.secs).map(function (k) { return e.secs[k]; }).sort(function (a, b) { return b.n - a.n || a.k - b.k; });
-      var unit = e.slides.length && e.slides[0].s.unit || "slide";
-      e.slides.sort(function (a, b) { return a.s.n - b.s.n; });
       return '<div class="weak-l"><p class="weak-t"><a href="#/lecture/' + lid + '">' + esc(lectureTitle(lid) || S.lectures[lid].title) + '</a><span class="qn">' + e.n + " missed</span></p>" +
         (secs.length ? '<ul class="weak-s">' + secs.map(function (x) { return '<li><a href="#/lecture/' + lid + "/summary/" + x.k + '">' + esc(x.title) + "</a>" + (x.n > 1 ? ' <span class="weak-n">×' + x.n + "</span>" : "") + "</li>"; }).join("") + "</ul>" : "") +
-        (e.slides.length ? '<p class="weak-sl-h">' + (unit === "slide" ? "Slides" : "Pages") + " to reread: " + e.slides.map(function (x) { return x.s.n; }).join(", ") + '</p><div class="weak-sl">' + e.slides.map(function (x) { return '<a class="slide-open" href="' + esc(x.s.src) + '" data-cap="' + esc(x.s.lec + ", " + unit + " " + x.s.n) + '" title="' + esc(unit + " " + x.s.n) + '">' + slideImg(x.s, unit, x.q) + '<span class="weak-sn">' + x.s.n + "</span></a>"; }).join("") + "</div>" : "") +
         "</div>";
     }).join("") + "</section>";
   }

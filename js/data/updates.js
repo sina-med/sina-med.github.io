@@ -18,7 +18,7 @@ SINA.updates = [
     "Added: spaced repetition: missed questions come back after 1, 3, 7, 16 and 35 days, in Review due on the home page.",
     "Added: study reminders (Settings > Reminders): one notification a day for reviews due or daily practice.",
     "Added: reports can include a picture.",
-    "Added: Study next box after every quiz and exam, pointing to the lecture sections and slides behind the missed questions.",
+    "Added: Study next box after every quiz and exam, linking to the lectures and sections behind the missed questions.",
     "Added: more question counts (25, 50, 70, 100) and a custom number.",
     "Changed: quizzes now pick questions not asked before first, spread over every chosen lecture; once all are seen, the oldest come back first.",
     "Added: past papers flag questions on lectures outside the next midterm, with an Only midterm questions button.",
