@@ -1446,3 +1446,20 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .mid-off p { margin: 0 0 .5rem; }
 .mid-off p:last-child { margin: 0; }
 .paper-off { display: block; font-size: .8rem; color: var(--muted); font-weight: 500; margin-top: 2px; }
+
+/* reminders */
+.rem-card { max-width: 520px; padding: 1rem 1.1rem; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); margin: 1rem 0; }
+.rem-card[aria-disabled="true"] { opacity: .55; }
+.rem-row { display: flex; align-items: center; gap: .7rem; padding: .45rem 0; }
+.rem-row input[type="time"] { margin-left: auto; padding: .4rem .6rem; border: 1px solid var(--line-strong); border-radius: 8px; background: var(--surface); color: var(--ink); font: inherit; }
+.rem-row input[type="checkbox"] { width: 1.1rem; height: 1.1rem; accent-color: var(--accent); }
+.rem-block { padding: .8rem 1rem; border-radius: 12px; background: var(--accent-soft); }
+
+/* report dialog */
+.rdlg { position: fixed; inset: 0; z-index: 90; background: rgba(0,0,0,.45); display: grid; place-items: center; padding: 16px; }
+.rdlg-box { width: min(520px, 100%); max-height: 92vh; overflow: auto; background: var(--surface); color: var(--ink); border-radius: 16px; padding: 1.1rem 1.2rem; box-shadow: 0 12px 40px rgba(0,0,0,.3); }
+.rdlg-box h2 { margin: 0 0 .3rem; }
+.rdlg-l { display: block; font-weight: 600; margin: .8rem 0 .3rem; }
+.rdlg-box textarea { width: 100%; box-sizing: border-box; padding: .6rem .7rem; border: 1px solid var(--line-strong); border-radius: 10px; background: var(--bg); color: var(--ink); font: inherit; resize: vertical; }
+.rdlg-pic { display: flex; align-items: center; gap: .6rem; margin: .7rem 0; flex-wrap: wrap; }
+#rd-prev { max-width: 100%; max-height: 200px; border-radius: 8px; border: 1px solid var(--line); margin-bottom: .6rem; }

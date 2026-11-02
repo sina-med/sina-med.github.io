@@ -26,9 +26,9 @@ for (const s of data.subs || []) {
     : { title: "Sina: daily practice", body: "Ten questions take about ten minutes. Pick up where you left off.", url: "#/" };
   try {
     await webpush.sendNotification(JSON.parse(s.sub), JSON.stringify(payload), { TTL: 6 * 3600 });
-    sent.push({ id: s.id, day });
+    sent.push({ e: JSON.parse(s.sub).endpoint, day });
   } catch (e) {
-    if (e.statusCode === 404 || e.statusCode === 410) gone.push(s.id);
+    if (e.statusCode === 404 || e.statusCode === 410) gone.push(JSON.parse(s.sub).endpoint);
     else console.log("Send failed", e.statusCode || e.message);
   }
 }

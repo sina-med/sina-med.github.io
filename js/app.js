@@ -1785,6 +1785,8 @@
     if (rs) h += t("#/resume", "go", "Resume quiz", esc(rs.title) + " · " + rs.n + "/" + rs.qs.length, "qt-go");
     else if (last && last.h) h += t(last.h, "go", "Continue", esc(last.t), "qt-go");
     h += t("#/mistakes", "redo", "Redo my mistakes", mk ? mk + " question" + (mk > 1 ? "s" : "") + " to redo" : "No mistakes yet", mk ? "qt-hot" : "");
+    var due = dueList().length;
+    if (due) h += t("#/review", "redo", "Review due", due + " question" + (due > 1 ? "s" : "") + " for today", "qt-hot");
     h += t("#/progress", "prog", "My progress", seen ? Math.round(ok / seen * 100) + "% accuracy · " + seen + " answered" : "Start a quiz to track it");
     if (S.api) h += t("#/leaderboard", "lb", "Leaderboard", "Best past paper scores");
     return h + "</nav>";
@@ -1912,6 +1914,11 @@
     if (!lid || /^mix:|^mistakes/.test(lid)) return;
     var st = store.get("sina:stats", {}), e = st[lid] || (st[lid] = [0, 0]); e[0]++; if (ok) e[1]++; store.set("sina:stats", st);
     var mk = store.get("sina:mistakes", {}); if (ok) delete mk[k]; else mk[k] = { l: lid, t: Date.now() }; store.set("sina:mistakes", mk);
+    /* spaced repetition: a missed question comes back tomorrow, then after 3, 7, 16 and 35 days each time it is answered right */
+    var sr = store.get("sina:srs", {}), INT = [1, 3, 7, 16, 35];
+    if (!ok) sr[k] = [0, dayNo() + 1, lid];
+    else if (sr[k]) { var bx = sr[k][0] + 1; if (bx >= INT.length) delete sr[k]; else sr[k] = [bx, dayNo() + INT[bx], lid]; }
+    store.set("sina:srs", sr);
     if (ok) { var rt = store.get("sina:right", {}); if (!rt[k]) { rt[k] = lid; store.set("sina:right", rt); } }
     var days = store.get("sina:days", []), d = today(); if (days[days.length - 1] !== d) { days.push(d); store.set("sina:days", days.slice(-120)); }
   }
@@ -1968,6 +1975,85 @@
     pick(droid ? "android" : "ios");
     var ib = document.getElementById("inst-now");
     ib.addEventListener("click", function () { if (!installEvt) return; installEvt.prompt(); installEvt.userChoice.then(function () { installEvt = null; ib.hidden = true; }); });
+  }
+
+  /* ---------- spaced repetition: reviews due today ---------- */
+  function dueList() {
+    var sr = store.get("sina:srs", {}), idx = qIndex(), d = dayNo(), out = [];
+    Object.keys(sr).forEach(function (k) { var e = idx[k]; if (e && sr[k][1] <= d && inProgram(e.lid)) out.push({ k: k, e: e, box: sr[k][0] }); });
+    return out;
+  }
+  function reviewView() {
+    var list = dueList(), sr = store.get("sina:srs", {}), later = Object.keys(sr).length - list.length;
+    var html = '<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / Review</p><h1>Review due today</h1>' +
+      '<p class="meta">Questions you missed come back after 1 day, then 3, 7, 16 and 35 days each time you get them right. Miss one again and it starts over.</p>';
+    if (!list.length) { setView(html + '<p class="empty-note">Nothing due today.' + (later > 0 ? " " + later + " question" + (later > 1 ? "s are" : " is") + " scheduled for later days." : " Questions you miss will be scheduled here.") + '</p><p><a class="btn" href="#/reminders">Set a daily reminder</a></p></div>', "Review"); return; }
+    html += '<div class="row" style="margin:.4rem 0 1rem"><button class="btn primary" id="rv-go">Review ' + list.length + " question" + (list.length > 1 ? "s" : "") + '</button><a class="btn" href="#/reminders">Reminders</a></div><div id="rvq"></div></div>';
+    setView(html, "Review");
+    document.getElementById("rv-go").onclick = function () {
+      var pool = shuffle(list).map(function (m) { var c = shuffleQ(m.e.q), d = {}; for (var k in c) d[k] = c[k]; d._k = m.k; d._lid = m.e.lid; d._fig = m.e.fig; d._from = srcTitle(m.e.lid); return d; });
+      this.parentNode.hidden = true;
+      questionsPanel(document.getElementById("rvq"), { id: "mistakes-review", mcqs: pool });
+    };
+  }
+
+  /* ---------- study reminders (Web Push) ---------- */
+  function b64u(s) { s = s.replace(/-/g, "+").replace(/_/g, "/"); var r = atob(s + "===".slice((s.length + 3) % 4)), a = new Uint8Array(r.length); for (var i = 0; i < r.length; i++) a[i] = r.charCodeAt(i); return a; }
+  function pushOK() { return "serviceWorker" in navigator && "PushManager" in window && "Notification" in window; }
+  function isIOS() { return /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1); }
+  function standalone() { return (window.matchMedia && matchMedia("(display-mode: standalone)").matches) || navigator.standalone; }
+  function remindPost(r, sub) {
+    return fetch(S.api, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ type: "sub", sub: sub, h: r.h, m: r.m, tz: new Date().getTimezoneOffset(), daily: r.daily, review: r.review, due: dueList().length }) });
+  }
+  function remindSync() {
+    var r = store.get("sina:remind", null);
+    if (!r || !r.on || !S.api || !pushOK() || r.synced === today() || Notification.permission !== "granted") return;
+    navigator.serviceWorker.ready.then(function (reg) { return reg.pushManager.getSubscription(); }).then(function (sub) {
+      if (!sub) return;
+      remindPost(r, sub.toJSON()).then(function () { r.synced = today(); store.set("sina:remind", r); });
+    }).catch(function () {});
+  }
+  function remindersView() {
+    var r = store.get("sina:remind", null) || { on: false, h: 19, m: 0, daily: true, review: true };
+    var html = '<div class="wrap rem"><p class="crumbs"><a href="#/">Home</a> / Reminders</p><h1>Study reminders</h1>' +
+      '<p class="meta">One notification a day at the time you choose: your reviews when some are due, otherwise a nudge for daily practice. Only this device gets them.</p>';
+    var block = "";
+    if (!S.api || !S.vapid) block = "Reminders are not available yet.";
+    else if (isIOS() && !standalone()) block = 'On iPhone and iPad, notifications only work when Sina is opened from the home screen. <a href="#/install">Add Sina to your home screen</a>, open it from the icon, then come back here.';
+    else if (!pushOK()) block = "This browser cannot show notifications. Try Chrome, or Safari from the home screen.";
+    else if (Notification.permission === "denied") block = "Notifications are blocked for Sina. Allow them in your browser or phone settings, then reload this page.";
+    var t = ("0" + r.h).slice(-2) + ":" + ("0" + r.m).slice(-2);
+    html += (block ? '<p class="rem-block">' + block + "</p>" : "") +
+      '<div class="rem-card"' + (block ? ' aria-disabled="true"' : "") + '><label class="rem-row"><span>Remind me at</span><input type="time" id="rm-t" value="' + t + '"' + (block ? " disabled" : "") + "></label>" +
+      '<label class="rem-row"><input type="checkbox" id="rm-rv"' + (r.review ? " checked" : "") + (block ? " disabled" : "") + '><span>Reviews due (spaced repetition)</span></label>' +
+      '<label class="rem-row"><input type="checkbox" id="rm-dl"' + (r.daily ? " checked" : "") + (block ? " disabled" : "") + '><span>Daily practice, on days with nothing to review</span></label>' +
+      '<div class="row"><button class="btn primary" id="rm-on"' + (block ? " disabled" : "") + ">" + (r.on ? "Save" : "Turn on reminders") + "</button>" + (r.on ? '<button class="btn" id="rm-test">Send a test</button><button class="btn" id="rm-off">Turn off</button>' : "") + "</div>" +
+      '<p class="meta" id="rm-msg">' + (r.on ? "Reminders are on at " + t + "." : "") + "</p></div>" +
+      '<p class="meta">Due today: ' + dueList().length + ' question(s). <a href="#/review">Open the review</a>.</p></div>';
+    setView(html, "Reminders");
+    var msg = document.getElementById("rm-msg");
+    function read() { var v = (document.getElementById("rm-t").value || "19:00").split(":"); r.h = +v[0] || 0; r.m = +v[1] || 0; r.review = document.getElementById("rm-rv").checked; r.daily = document.getElementById("rm-dl").checked; }
+    var on = document.getElementById("rm-on");
+    if (on) on.onclick = function () {
+      read(); msg.textContent = "Turning on…";
+      Notification.requestPermission().then(function (p) {
+        if (p !== "granted") throw new Error("Notifications were not allowed.");
+        return navigator.serviceWorker.ready;
+      }).then(function (reg) {
+        return reg.pushManager.getSubscription().then(function (s) { return s || reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64u(S.vapid) }); });
+      }).then(function (sub) { return remindPost(r, sub.toJSON()); }).then(function () {
+        r.on = true; r.synced = today(); store.set("sina:remind", r); remindersView();
+        toast("Reminders on. You'll get one a day at " + ("0" + r.h).slice(-2) + ":" + ("0" + r.m).slice(-2) + ".");
+      }).catch(function (e) { msg.textContent = (e && e.message) || "Could not turn reminders on."; });
+    };
+    var tb = document.getElementById("rm-test");
+    if (tb) tb.onclick = function () { navigator.serviceWorker.ready.then(function (reg) { reg.showNotification("Sina: test reminder", { body: "This is how your reminder will look.", icon: "icons/icon-192.png", badge: "icons/icon-192.png", data: { url: "#/review" } }); }); };
+    var off = document.getElementById("rm-off");
+    if (off) off.onclick = function () {
+      navigator.serviceWorker.ready.then(function (reg) { return reg.pushManager.getSubscription(); }).then(function (sub) {
+        if (sub) { fetch(S.api, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ type: "unsub", endpoint: sub.endpoint }) }); return sub.unsubscribe(); }
+      }).catch(function () {}).then(function () { r.on = false; store.set("sina:remind", r); remindersView(); toast("Reminders off."); });
+    };
   }
 
   function mistakesView() {
@@ -2035,16 +2121,54 @@
   }
 
   /* ---------- report a mistake ---------- */
+  /* report dialog: a note and, optionally, a picture (screenshot or photo of the slide) */
+  function shrinkImage(file, cb) {
+    var fr = new FileReader();
+    fr.onload = function () {
+      var img = new Image();
+      img.onload = function () {
+        var k = Math.min(1, 1400 / Math.max(img.width, img.height)), c = document.createElement("canvas");
+        c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
+        c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+        cb(c.toDataURL("image/jpeg", 0.72));
+      };
+      img.onerror = function () { cb(null); };
+      img.src = fr.result;
+    };
+    fr.onerror = function () { cb(null); };
+    fr.readAsDataURL(file);
+  }
+  function reportDialog(q, src, ans) {
+    var pic = null, v = document.createElement("div");
+    v.className = "rdlg"; v.setAttribute("role", "dialog"); v.setAttribute("aria-modal", "true"); v.setAttribute("aria-label", "Report a mistake");
+    v.innerHTML = '<div class="rdlg-box"><h2>Report a mistake</h2><p class="meta">' + esc(q.q) + '</p>' +
+      '<label class="rdlg-l" for="rd-note">What is wrong?</label><textarea id="rd-note" rows="4" placeholder="For example: answer B is also correct, see slide 12."></textarea>' +
+      '<div class="rdlg-pic"><label class="btn small-btn" for="rd-file">Add a picture (optional)</label><input id="rd-file" type="file" accept="image/*" hidden><span id="rd-pn" class="meta"></span></div><img id="rd-prev" alt="" hidden>' +
+      '<div class="row"><button class="btn primary" id="rd-send" type="button">Send report</button><button class="btn" id="rd-x" type="button">Cancel</button></div></div>';
+    document.body.appendChild(v); document.body.classList.add("noscroll");
+    var close = function () { v.remove(); document.body.classList.remove("noscroll"); };
+    v.querySelector("#rd-x").onclick = close;
+    v.addEventListener("click", function (e) { if (e.target === v) close(); });
+    v.querySelector("#rd-note").focus();
+    v.querySelector("#rd-file").onchange = function () {
+      var f = this.files && this.files[0]; if (!f) return;
+      v.querySelector("#rd-pn").textContent = "Preparing the picture…";
+      shrinkImage(f, function (d) {
+        pic = d; var pv = v.querySelector("#rd-prev");
+        if (d) { pv.src = d; pv.hidden = false; v.querySelector("#rd-pn").textContent = f.name; } else v.querySelector("#rd-pn").textContent = "This picture could not be read.";
+      });
+    };
+    v.querySelector("#rd-send").onclick = function () {
+      var b = this; b.disabled = true; b.textContent = "Sending…";
+      fetch(S.api, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ type: "report", src: q._lid || src, k: q._k || qKey(q), q: q.q, options: q.options, answer: ans, note: v.querySelector("#rd-note").value, img: pic || "" }) })
+        .then(function () { close(); toast("Thanks, the report was sent."); }, function () { b.disabled = false; b.textContent = "Send report"; toast("Could not send. Check your connection."); });
+    };
+  }
   function reportMistake(q, src) {
     var ans = q.answers || [q.answer], LT = "ABCDEFGH";
     var txt = "[Sina report] " + srcTitle(q._lid || src) + "\nQ: " + q.q + "\n" + q.options.map(function (o, n) { return LT[n] + ". " + o; }).join("\n") + "\nSite answer: " + ans.map(function (n) { return LT[n]; }).join(", ") + "\nWhat is wrong: ";
     var form = (document.getElementById("suggest-btn") || {}).href;
-    if (S.api) {
-      var why = prompt("What is wrong with this question? (optional)", "");
-      if (why === null) return;
-      fetch(S.api, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ type: "report", src: q._lid || src, q: q.q, options: q.options, answer: ans, note: why }) }).then(function () { toast("Thanks, the report was sent."); }, function () { toast("Could not send. Check your connection."); });
-      return;
-    }
+    if (S.api) { reportDialog(q, src, ans); return; }
     var done = function () { toast("Question copied. Paste it in the form and say what's wrong.", 4200); if (form && /^https?:/.test(form)) window.open(form, "_blank", "noopener"); };
     if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(done, done); else done();
   }
@@ -2624,6 +2748,8 @@
     if (parts[0] === "midterm") return midtermView();
     if (parts[0] === "progress") return progressView();
     if (parts[0] === "mistakes") return mistakesView();
+    if (parts[0] === "review") return reviewView();
+    if (parts[0] === "reminders") return remindersView();
     if (parts[0] === "leaderboard") return leaderboardView(parts[1]);
     if (parts[0] === "resume") return resumeView();
     if (parts[0] === "install") return installView();
@@ -2701,6 +2827,6 @@
   route();
 
   if ("serviceWorker" in navigator && /^https?:/.test(location.protocol)) {
-    window.addEventListener("load", function () { navigator.serviceWorker.register("sw.js").catch(function () {}); });
+    window.addEventListener("load", function () { navigator.serviceWorker.register("sw.js").then(function () { setTimeout(remindSync, 3000); }).catch(function () {}); });
   }
 })();
