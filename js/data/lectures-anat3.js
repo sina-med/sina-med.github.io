@@ -3486,7 +3486,14 @@ SINA.lectures["anat3-blood-supply"] = {
     "Behind the sternoclavicular joint, at T1"
    ],
    "answer": 0,
-   "why": "The bifurcation takes place in the carotid triangle, at the level of the upper border of the lamina of the thyroid cartilage, opposite the disc between C3 and C4."
+   "why": "The bifurcation takes place in the carotid triangle, at the level of the upper border of the lamina of the thyroid cartilage, opposite the disc between C3 and C4.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/05.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Where does the right common carotid artery arise?",
@@ -3497,7 +3504,14 @@ SINA.lectures["anat3-blood-supply"] = {
     "From the ascending aorta"
    ],
    "answer": 1,
-   "why": "The right common carotid arises from the brachiocephalic trunk behind the sternoclavicular joint. The left arises directly from the arch of the aorta."
+   "why": "The right common carotid arises from the brachiocephalic trunk behind the sternoclavicular joint. The left arises directly from the arch of the aorta.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/05.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "How does the external carotid artery lie in relation to the internal carotid at its origin?",
@@ -3508,7 +3522,19 @@ SINA.lectures["anat3-blood-supply"] = {
     "Inside the carotid canal"
    ],
    "answer": 2,
-   "why": "At the origin the external carotid lies anterior and medial to the internal carotid. As it ascends it passes backward and lateral, so higher up it is lateral to the internal carotid."
+   "why": "At the origin the external carotid lies anterior and medial to the internal carotid. As it ascends it passes backward and lateral, so higher up it is lateral to the internal carotid.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/08.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 8
+    },
+    {
+     "src": "files/slides/anat3-blood-supply/13.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Where does the external carotid artery end, and into what?",
@@ -3519,7 +3545,19 @@ SINA.lectures["anat3-blood-supply"] = {
     "In the parotid gland, as the superficial temporal and maxillary arteries"
    ],
    "answer": 3,
-   "why": "It terminates in the substance of the parotid gland behind the neck of the mandible, dividing into its two terminal branches: the superficial temporal and the maxillary arteries."
+   "why": "It terminates in the substance of the parotid gland behind the neck of the mandible, dividing into its two terminal branches: the superficial temporal and the maxillary arteries.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/09.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 9
+    },
+    {
+     "src": "files/slides/anat3-blood-supply/10.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which artery arises from the front of the external carotid just below the greater cornu of the hyoid and supplies the thyroid gland?",
@@ -3530,7 +3568,14 @@ SINA.lectures["anat3-blood-supply"] = {
     "Inferior thyroid artery"
    ],
    "answer": 1,
-   "why": "The superior thyroid artery arises from the front of the external carotid below the tip of the greater cornu of the hyoid, and divides into infrahyoid, superior laryngeal, cricothyroid and glandular branches."
+   "why": "The superior thyroid artery arises from the front of the external carotid below the tip of the greater cornu of the hyoid, and divides into infrahyoid, superior laryngeal, cricothyroid and glandular branches.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/17.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which branch of the superior thyroid artery supplies the structures of the upper larynx?",
@@ -3541,7 +3586,14 @@ SINA.lectures["anat3-blood-supply"] = {
     "Superior laryngeal branch"
    ],
    "answer": 3,
-   "why": "The superior thyroid artery divides into four branches: infrahyoid (infrahyoid muscles), superior laryngeal (upper larynx), cricothyroid (cricothyroid muscle) and glandular (superior aspect of the thyroid)."
+   "why": "The superior thyroid artery divides into four branches: infrahyoid (infrahyoid muscles), superior laryngeal (upper larynx), cricothyroid (cricothyroid muscle) and glandular (superior aspect of the thyroid).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/18.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The lingual artery is divided into three parts by which muscle?",
@@ -3552,7 +3604,14 @@ SINA.lectures["anat3-blood-supply"] = {
     "Mylohyoid"
    ],
    "answer": 0,
-   "why": "The lingual artery arises opposite the tip of the greater cornu of the hyoid, between the superior thyroid and facial arteries, and is divided into three parts by the hyoglossus muscle."
+   "why": "The lingual artery arises opposite the tip of the greater cornu of the hyoid, between the superior thyroid and facial arteries, and is divided into three parts by the hyoglossus muscle.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/19.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which of these is NOT one of the four main branches of the lingual artery?",
@@ -3563,7 +3622,14 @@ SINA.lectures["anat3-blood-supply"] = {
     "Deep lingual branch"
    ],
    "answer": 2,
-   "why": "The four main branches of the lingual artery are the suprahyoid, dorsal lingual, sublingual and deep lingual. The ascending palatine is a branch of the facial artery."
+   "why": "The four main branches of the lingual artery are the suprahyoid, dorsal lingual, sublingual and deep lingual. The ascending palatine is a branch of the facial artery.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/20.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "As it enters the face, the facial artery curves upward over which structure?",
@@ -3574,7 +3640,14 @@ SINA.lectures["anat3-blood-supply"] = {
     "The body of the mandible, at the masseter's border"
    ],
    "answer": 3,
-   "why": "The facial artery passes over the mandible's body along the masseter's anterior border, deep to the platysma, then takes a tortuous course toward the angle of the mouth."
+   "why": "The facial artery passes over the mandible's body along the masseter's anterior border, deep to the platysma, then takes a tortuous course toward the angle of the mouth.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/22.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "What is the terminal branch of the facial artery called?",
@@ -3585,7 +3658,14 @@ SINA.lectures["anat3-blood-supply"] = {
     "Transverse facial artery"
    ],
    "answer": 0,
-   "why": "After giving the labial branches, the facial artery ascends along the side of the nose in the nasolabial fold and ends as the angular artery, supplying the external nose, lower eyelid, orbicularis oculi and lacrimal sac."
+   "why": "After giving the labial branches, the facial artery ascends along the side of the nose in the nasolabial fold and ends as the angular artery, supplying the external nose, lower eyelid, orbicularis oculi and lacrimal sac.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/23.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which is the smallest branch of the external carotid artery?",
@@ -3596,7 +3676,14 @@ SINA.lectures["anat3-blood-supply"] = {
     "Occipital artery branch"
    ],
    "answer": 2,
-   "why": "The ascending pharyngeal artery is the smallest branch, arising posteriorly near the origin of the external carotid, and ascends to the base of the skull between the pharynx and the internal carotid."
+   "why": "The ascending pharyngeal artery is the smallest branch, arising posteriorly near the origin of the external carotid, and ascends to the base of the skull between the pharynx and the internal carotid.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/26.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which branch of the posterior auricular artery enters the stylomastoid foramen?",
@@ -3607,7 +3694,14 @@ SINA.lectures["anat3-blood-supply"] = {
     "Posterior tympanic branch"
    ],
    "answer": 1,
-   "why": "The stylomastoid branch enters the stylomastoid foramen to supply the middle and inner ear and the facial nerve as it exits."
+   "why": "The stylomastoid branch enters the stylomastoid foramen to supply the middle and inner ear and the facial nerve as it exits.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/28.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Into how many parts is the maxillary artery conventionally divided?",
@@ -3618,7 +3712,14 @@ SINA.lectures["anat3-blood-supply"] = {
     "3"
    ],
    "answer": 3,
-   "why": "The maxillary artery is divided into three parts by the lateral pterygoid muscle: mandibular, pterygoid and pterygopalatine. Five branches come from each part."
+   "why": "The maxillary artery is divided into three parts by the lateral pterygoid muscle: mandibular, pterygoid and pterygopalatine. Five branches come from each part.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/32.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which artery passes through the foramen spinosum to supply the dura mater?",
@@ -3629,7 +3730,19 @@ SINA.lectures["anat3-blood-supply"] = {
     "Sphenopalatine artery"
    ],
    "answer": 2,
-   "why": "The middle meningeal artery is a branch of the mandibular part of the maxillary artery. It enters the skull at the foramen spinosum and supplies the dura mater and calvaria."
+   "why": "The middle meningeal artery is a branch of the mandibular part of the maxillary artery. It enters the skull at the foramen spinosum and supplies the dura mater and calvaria.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/27.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 27
+    },
+    {
+     "src": "files/slides/anat3-blood-supply/32.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "The facial vein begins at the medial angle of the eye as the continuation of which vein?",
@@ -3640,7 +3753,14 @@ SINA.lectures["anat3-blood-supply"] = {
     "Deep facial vein"
    ],
    "answer": 0,
-   "why": "The supratrochlear and supraorbital veins merge at the medial angle of the eye to form the angular vein, which becomes the facial vein as it descends the face."
+   "why": "The supratrochlear and supraorbital veins merge at the medial angle of the eye to form the angular vein, which becomes the facial vein as it descends the face.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/37.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "The retromandibular vein is formed by the union of which two veins?",
@@ -3651,7 +3771,14 @@ SINA.lectures["anat3-blood-supply"] = {
     "Occipital and posterior auricular veins, at the jaw"
    ],
    "answer": 1,
-   "why": "On leaving the parotid gland it divides: its anterior division joins the facial vein to form the common facial vein, and its posterior division joins the posterior auricular vein to form the external jugular vein."
+   "why": "On leaving the parotid gland it divides: its anterior division joins the facial vein to form the common facial vein, and its posterior division joins the posterior auricular vein to form the external jugular vein.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/41.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "The external jugular vein drains into which vein?",
@@ -3662,7 +3789,14 @@ SINA.lectures["anat3-blood-supply"] = {
     "Facial vein"
    ],
    "answer": 2,
-   "why": "The external jugular vein descends over the sternocleidomastoid, beneath the platysma, and drains into the subclavian vein behind the middle of the clavicle."
+   "why": "The external jugular vein descends over the sternocleidomastoid, beneath the platysma, and drains into the subclavian vein behind the middle of the clavicle.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/42.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "The internal jugular vein starts as the continuation of which structure?",
@@ -3673,7 +3807,14 @@ SINA.lectures["anat3-blood-supply"] = {
     "Sigmoid sinus"
    ],
    "answer": 3,
-   "why": "The internal jugular vein continues from the sigmoid sinus and leaves the skull through the jugular foramen. It ends by joining the subclavian vein to form the brachiocephalic vein."
+   "why": "The internal jugular vein continues from the sigmoid sinus and leaves the skull through the jugular foramen. It ends by joining the subclavian vein to form the brachiocephalic vein.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/43.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Lymph from the lower lip, chin and apex of the tongue drains first into which nodes?",
@@ -3684,7 +3825,19 @@ SINA.lectures["anat3-blood-supply"] = {
     "Occipital nodes"
    ],
    "answer": 1,
-   "why": "The upper face drains to preauricular (parotid) nodes, the central face, cheeks and lateral nose to submandibular nodes, and the lower lip and chin to submental nodes."
+   "why": "The upper face drains to preauricular (parotid) nodes, the central face, cheeks and lateral nose to submandibular nodes, and the lower lip and chin to submental nodes.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/45.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 45
+    },
+    {
+     "src": "files/slides/anat3-blood-supply/46.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "Where does lymph from the head and neck finally return to the bloodstream?",
@@ -3695,7 +3848,14 @@ SINA.lectures["anat3-blood-supply"] = {
     "The cervical vertebral veins"
    ],
    "answer": 0,
-   "why": "From the deep and superficial cervical nodes, lymph travels to the supraclavicular nodes and then enters the large veins at the root of the neck through the jugular trunks, emptying into the thoracic duct on the left or the right lymphatic duct."
+   "why": "From the deep and superficial cervical nodes, lymph travels to the supraclavicular nodes and then enters the large veins at the root of the neck through the jugular trunks, emptying into the thoracic duct on the left or the right lymphatic duct.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/47.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "Which arteries are terminal branches of the external carotid artery? (choose all)",
@@ -3709,7 +3869,19 @@ SINA.lectures["anat3-blood-supply"] = {
     0,
     1
    ],
-   "why": "The external carotid ends in the parotid gland by dividing into the maxillary and superficial temporal arteries. The facial and lingual arteries are branches given off earlier in the neck."
+   "why": "The external carotid ends in the parotid gland by dividing into the maxillary and superficial temporal arteries. The facial and lingual arteries are branches given off earlier in the neck.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/09.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 9
+    },
+    {
+     "src": "files/slides/anat3-blood-supply/10.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which branches does the facial artery give in the neck? (choose all)",
@@ -3723,7 +3895,14 @@ SINA.lectures["anat3-blood-supply"] = {
     0,
     1
    ],
-   "why": "In the neck the facial artery gives the ascending palatine, tonsillar, submental and glandular branches. The superior labial and angular arteries are given on the face."
+   "why": "In the neck the facial artery gives the ascending palatine, tonsillar, submental and glandular branches. The superior labial and angular arteries are given on the face.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/23.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which veins unite to form the angular vein? (choose all)",
@@ -3737,7 +3916,14 @@ SINA.lectures["anat3-blood-supply"] = {
     0,
     1
    ],
-   "why": "The supratrochlear and supraorbital veins merge at the medial angle of the eye to form the angular vein, which becomes the facial vein."
+   "why": "The supratrochlear and supraorbital veins merge at the medial angle of the eye to form the angular vein, which becomes the facial vein.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/37.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which structures does the ascending pharyngeal artery supply, according to the lecture? (choose all)",
@@ -3751,7 +3937,14 @@ SINA.lectures["anat3-blood-supply"] = {
     0,
     1
    ],
-   "why": "Its three named branches are pharyngeal (pharynx, constrictors, stylopharyngeus, soft palate, tonsils, auditory tube), inferior tympanic (medial wall of the middle ear) and meningeal (dura mater and cranial nerves)."
+   "why": "Its three named branches are pharyngeal (pharynx, constrictors, stylopharyngeus, soft palate, tonsils, auditory tube), inferior tympanic (medial wall of the middle ear) and meningeal (dura mater and cranial nerves).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-blood-supply/27.jpg",
+     "lec": "Blood supply of the facio-maxillary",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -21005,7 +21198,19 @@ SINA.lectures["anat3-brainstem"] = {
     "Medulla oblongata"
    ],
    "answer": 0,
-   "why": "The brainstem is the midbrain, pons and medulla oblongata, in descending order. The thalamus belongs to the diencephalon."
+   "why": "The brainstem is the midbrain, pons and medulla oblongata, in descending order. The thalamus belongs to the diencephalon.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/03.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 3
+    },
+    {
+     "src": "files/slides/anat3-brainstem/38.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "In which cranial fossa does the brainstem lie?",
@@ -21016,7 +21221,19 @@ SINA.lectures["anat3-brainstem"] = {
     "The pituitary fossa"
    ],
    "answer": 1,
-   "why": "It lies in the posterior cranial fossa on the clivus, under the tentorium cerebelli, below the cerebrum and in front of the cerebellum."
+   "why": "It lies in the posterior cranial fossa on the clivus, under the tentorium cerebelli, below the cerebrum and in front of the cerebellum.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/03.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 3
+    },
+    {
+     "src": "files/slides/anat3-brainstem/05.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "How many cranial nerves arise from nuclei in the brainstem?",
@@ -21027,7 +21244,19 @@ SINA.lectures["anat3-brainstem"] = {
     "Six"
    ],
    "answer": 2,
-   "why": "Ten of the twelve cranial nerves arise from brainstem nuclei. The optic and olfactory nerves are the exceptions."
+   "why": "Ten of the twelve cranial nerves arise from brainstem nuclei. The optic and olfactory nerves are the exceptions.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/03.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 3
+    },
+    {
+     "src": "files/slides/anat3-brainstem/22.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "From which embryonic vesicle does the midbrain develop?",
@@ -21038,7 +21267,14 @@ SINA.lectures["anat3-brainstem"] = {
     "The mesencephalon"
    ],
    "answer": 3,
-   "why": "Myelencephalon (fifth vesicle) forms the medulla, metencephalon (fourth) the pons, mesencephalon (third) the midbrain."
+   "why": "Myelencephalon (fifth vesicle) forms the medulla, metencephalon (fourth) the pons, mesencephalon (third) the midbrain.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/04.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What connects the brainstem to the cerebellum?",
@@ -21049,7 +21285,14 @@ SINA.lectures["anat3-brainstem"] = {
     "The quadrigeminal brachia"
    ],
    "answer": 1,
-   "why": "Superior peduncle to the midbrain, middle to the pons, inferior to the medulla. Above, the transverse fissure of Bichat joins the diencephalon; below, the foramen magnum leads to the cord."
+   "why": "Superior peduncle to the midbrain, middle to the pons, inferior to the medulla. Above, the transverse fissure of Bichat joins the diencephalon; below, the foramen magnum leads to the cord.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/05.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which cerebellar peduncle connects the pons to the cerebellum?",
@@ -21060,7 +21303,14 @@ SINA.lectures["anat3-brainstem"] = {
     "The middle peduncle"
    ],
    "answer": 3,
-   "why": "Superior: midbrain. Middle: pons. Inferior: medulla oblongata."
+   "why": "Superior: midbrain. Middle: pons. Inferior: medulla oblongata.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/07.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which is the smallest part of the brainstem?",
@@ -21071,7 +21321,14 @@ SINA.lectures["anat3-brainstem"] = {
     "The tectum only"
    ],
    "answer": 0,
-   "why": "The midbrain measures around 2 cm and passes through the tentorial opening. The pons is the largest part."
+   "why": "The midbrain measures around 2 cm and passes through the tentorial opening. The pons is the largest part.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/09.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What sits in the tectum of the midbrain?",
@@ -21082,7 +21339,14 @@ SINA.lectures["anat3-brainstem"] = {
     "The facial colliculus"
    ],
    "answer": 2,
-   "why": "The tectum, behind the cerebral aqueduct, houses two superior and two inferior colliculi, just below the pineal gland."
+   "why": "The tectum, behind the cerebral aqueduct, houses two superior and two inferior colliculi, just below the pineal gland.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/10.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What does the superior quadrigeminal brachium connect?",
@@ -21093,7 +21357,14 @@ SINA.lectures["anat3-brainstem"] = {
     "The superior colliculus and the retina"
    ],
    "answer": 3,
-   "why": "The superior brachium links the superior colliculus with the retina, for vision. The inferior brachium carries lateral lemniscus and inferior colliculus fibres to the medial geniculate body, for hearing."
+   "why": "The superior brachium links the superior colliculus with the retina, for vision. The inferior brachium carries lateral lemniscus and inferior colliculus fibres to the medial geniculate body, for hearing.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/10.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which cranial nerve emerges from the dorsal brainstem?",
@@ -21104,7 +21375,14 @@ SINA.lectures["anat3-brainstem"] = {
     "The oculomotor nerve (CN III)"
    ],
    "answer": 0,
-   "why": "Your professor's own question. CN IV is the only nerve emerging from the posterior surface, below the colliculi."
+   "why": "Your professor's own question. CN IV is the only nerve emerging from the posterior surface, below the colliculi.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/15.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Where does the oculomotor nerve emerge?",
@@ -21115,7 +21393,14 @@ SINA.lectures["anat3-brainstem"] = {
     "Below the colliculi"
    ],
    "answer": 2,
-   "why": "CN III exits between the peduncles, in the interpeduncular fossa, while the optic tract runs around the upper border of the midbrain."
+   "why": "CN III exits between the peduncles, in the interpeduncular fossa, while the optic tract runs around the upper border of the midbrain.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/11.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What lies in the basilar groove of the pons?",
@@ -21126,7 +21411,14 @@ SINA.lectures["anat3-brainstem"] = {
     "The facial colliculus"
    ],
    "answer": 1,
-   "why": "The basilar groove marks the midline of the ventral pons and carries the basilar artery."
+   "why": "The basilar groove marks the midline of the ventral pons and carries the basilar artery.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/13.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Where does the abducens nerve emerge?",
@@ -21137,7 +21429,14 @@ SINA.lectures["anat3-brainstem"] = {
     "Pontomedullary junction"
    ],
    "answer": 3,
-   "why": "CN V from the lateral mid-pons; CN VI at the pontomedullary junction near the midline; CN VII at the cerebellopontine angle; CN VIII lateral to CN VII."
+   "why": "CN V from the lateral mid-pons; CN VI at the pontomedullary junction near the midline; CN VII at the cerebellopontine angle; CN VIII lateral to CN VII.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/13.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "What forms the facial colliculus?",
@@ -21148,7 +21447,14 @@ SINA.lectures["anat3-brainstem"] = {
     "Pontocerebellar fibres"
    ],
    "answer": 2,
-   "why": "In the floor of the fourth ventricle, the facial colliculus is a bulge made by facial nerve fibres looping around the abducens nucleus."
+   "why": "In the floor of the fourth ventricle, the facial colliculus is a bulge made by facial nerve fibres looping around the abducens nucleus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/15.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which nerves emerge at the cerebellopontine angle?",
@@ -21159,7 +21465,14 @@ SINA.lectures["anat3-brainstem"] = {
     "CN V and VI too"
    ],
    "answer": 0,
-   "why": "At the junction of pons, medulla and cerebellum, the flocculus, choroid plexus and emerging CN VII and VIII surround the foramen of Luschka."
+   "why": "At the junction of pons, medulla and cerebellum, the flocculus, choroid plexus and emerging CN VII and VIII surround the foramen of Luschka.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/15.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Where do most corticospinal fibres cross?",
@@ -21170,7 +21483,14 @@ SINA.lectures["anat3-brainstem"] = {
     "In the spinal cord below"
    ],
    "answer": 1,
-   "why": "Your professor's question: the decussation of the pyramids, 75 to 90 percent of corticospinal fibres, marks the lower medulla."
+   "why": "Your professor's question: the decussation of the pyramids, 75 to 90 percent of corticospinal fibres, marks the lower medulla.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/16.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "What produces the olive?",
@@ -21181,7 +21501,14 @@ SINA.lectures["anat3-brainstem"] = {
     "The facial motor nuclei here"
    ],
    "answer": 2,
-   "why": "The pyramid is made by the corticospinal tract; the olive, lateral to it, by the inferior olivary nucleus, important in movement control."
+   "why": "The pyramid is made by the corticospinal tract; the olive, lateral to it, by the inferior olivary nucleus, important in movement control.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/16.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Where does the hypoglossal nerve emerge?",
@@ -21192,7 +21519,14 @@ SINA.lectures["anat3-brainstem"] = {
     "Between pyramid and olive"
    ],
    "answer": 3,
-   "why": "CN XII emerges from the sulcus between pyramid and olive. CN IX, X and the cranial part of XI emerge from the sulcus behind the olive."
+   "why": "CN XII emerges from the sulcus between pyramid and olive. CN IX, X and the cranial part of XI emerge from the sulcus behind the olive.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/17.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which cranial nerves do NOT arise from the brainstem?",
@@ -21203,7 +21537,14 @@ SINA.lectures["anat3-brainstem"] = {
     "The facial and vestibulocochlear"
    ],
    "answer": 1,
-   "why": "All cranial nerves arise from the brainstem except CN I and CN II."
+   "why": "All cranial nerves arise from the brainstem except CN I and CN II.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/22.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which cavity runs through the midbrain?",
@@ -21214,7 +21555,19 @@ SINA.lectures["anat3-brainstem"] = {
     "The central canal of the cord"
    ],
    "answer": 0,
-   "why": "Your professor's question: the aqueduct of Sylvius runs through the midbrain; the fourth ventricle lies behind the pons and medulla."
+   "why": "Your professor's question: the aqueduct of Sylvius runs through the midbrain; the fourth ventricle lies behind the pons and medulla.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/18.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 18
+    },
+    {
+     "src": "files/slides/anat3-brainstem/38.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "What forms the floor of the fourth ventricle?",
@@ -21225,7 +21578,14 @@ SINA.lectures["anat3-brainstem"] = {
     "The tela choroidea"
    ],
    "answer": 2,
-   "why": "The floor is the rhomboid fossa, a diamond-shaped depression on the back of the pons and upper medulla. The roof is the superior and inferior medullary vela."
+   "why": "The floor is the rhomboid fossa, a diamond-shaped depression on the back of the pons and upper medulla. The roof is the superior and inferior medullary vela.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/29.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "What is the obex?",
@@ -21236,7 +21596,14 @@ SINA.lectures["anat3-brainstem"] = {
     "A nucleus of the vagus"
    ],
    "answer": 0,
-   "why": "The obex is the most caudal tip; the fastigium is the peak inside the cerebellum. CSF leaves by the median foramen of Magendie and two lateral foramina of Luschka."
+   "why": "The obex is the most caudal tip; the fastigium is the peak inside the cerebellum. CSF leaves by the median foramen of Magendie and two lateral foramina of Luschka.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/29.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which artery mainly supplies the brainstem?",
@@ -21247,7 +21614,14 @@ SINA.lectures["anat3-brainstem"] = {
     "The basilar artery"
    ],
    "answer": 3,
-   "why": "Branches include the posterior cerebral artery and its peduncular branch, the superior cerebellar artery, the posterior choroidal artery and the interpeduncular branches."
+   "why": "Branches include the posterior cerebral artery and its peduncular branch, the superior cerebellar artery, the posterior choroidal artery and the interpeduncular branches.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/30.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "What is an alternating syndrome?",
@@ -21258,7 +21632,14 @@ SINA.lectures["anat3-brainstem"] = {
     "Weakness alternating with spasm"
    ],
    "answer": 1,
-   "why": "A peripheral cranial nerve lesion on one side with hemiplegia on the other locates the lesion to a level in the brainstem."
+   "why": "A peripheral cranial nerve lesion on one side with hemiplegia on the other locates the lesion to a level in the brainstem.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/32.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which nerves emerge from the ventral surface of the pons? (choose all)",
@@ -21272,7 +21653,14 @@ SINA.lectures["anat3-brainstem"] = {
     0,
     1
    ],
-   "why": "CN V from the mid-pons, CN VI, VII and VIII from the pontomedullary region. CN IV emerges dorsally; CN XII from the medulla."
+   "why": "CN V from the mid-pons, CN VI, VII and VIII from the pontomedullary region. CN IV emerges dorsally; CN XII from the medulla.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/13.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which functions depend on the reticular formation? (choose all)",
@@ -21286,7 +21674,14 @@ SINA.lectures["anat3-brainstem"] = {
     0,
     1
    ],
-   "why": "Arousal, consciousness, sleep-wake cycles, motor coordination, cardiovascular and respiratory control, pain modulation and habituation."
+   "why": "Arousal, consciousness, sleep-wake cycles, motor coordination, cardiovascular and respiratory control, pain modulation and habituation.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/23.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which are ascending conscious tracts? (choose all)",
@@ -21300,7 +21695,14 @@ SINA.lectures["anat3-brainstem"] = {
     0,
     1
    ],
-   "why": "Conscious: dorsal column-medial lemniscus and anterolateral system. Unconscious: spinocerebellar tracts. The corticospinal tract is descending."
+   "why": "Conscious: dorsal column-medial lemniscus and anterolateral system. Unconscious: spinocerebellar tracts. The corticospinal tract is descending.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/24.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which nerves emerge behind the olive? (choose all)",
@@ -21314,7 +21716,19 @@ SINA.lectures["anat3-brainstem"] = {
     0,
     1
    ],
-   "why": "Behind the olive: IX, X and the cranial part of XI. XII emerges between the pyramid and olive."
+   "why": "Behind the olive: IX, X and the cranial part of XI. XII emerges between the pyramid and olive.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/17.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 17
+    },
+    {
+     "src": "files/slides/anat3-brainstem/20.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -22135,7 +22549,19 @@ SINA.lectures["anat3-cerebrum"] = {
     "The pons and the medulla only"
    ],
    "answer": 0,
-   "why": "The cerebrum is made of the two cerebral hemispheres (telencephalon) and the diencephalon, which encloses the third ventricle."
+   "why": "The cerebrum is made of the two cerebral hemispheres (telencephalon) and the diencephalon, which encloses the third ventricle.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/06.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 6
+    },
+    {
+     "src": "files/slides/anat3-cerebrum/12.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "What separates the two cerebral hemispheres?",
@@ -22146,7 +22572,19 @@ SINA.lectures["anat3-cerebrum"] = {
     "The corpus callosum"
    ],
    "answer": 1,
-   "why": "The falx cerebri, a crescent-shaped fold of dura, incompletely separates the hemispheres. The tentorium cerebelli separates the cerebrum from the cerebellum."
+   "why": "The falx cerebri, a crescent-shaped fold of dura, incompletely separates the hemispheres. The tentorium cerebelli separates the cerebrum from the cerebellum.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/10.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 10
+    },
+    {
+     "src": "files/slides/anat3-cerebrum/15.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "What does the tentorium cerebelli separate?",
@@ -22157,7 +22595,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "The frontal from parietal lobe"
    ],
    "answer": 2,
-   "why": "The tentorium divides the cranial cavity into a supratentorial compartment for the cerebrum and an infratentorial one for the cerebellum and brainstem."
+   "why": "The tentorium divides the cranial cavity into a supratentorial compartment for the cerebrum and an infratentorial one for the cerebellum and brainstem.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/10.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What is the average weight of the cerebrum?",
@@ -22168,7 +22613,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "1200 to 1400 g"
    ],
    "answer": 3,
-   "why": "Ovoid; width 14 cm, length 16 cm, height 12 cm; weight 1200 to 1400 g; greyish white; soft and crumbly."
+   "why": "Ovoid; width 14 cm, length 16 cm, height 12 cm; weight 1200 to 1400 g; greyish white; soft and crumbly.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/13.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which sulcus separates the frontal and parietal lobes?",
@@ -22179,7 +22631,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "The parieto-occipital sulcus"
    ],
    "answer": 1,
-   "why": "The central sulcus of Rolando separates frontal from parietal. The lateral sulcus of Sylvius separates frontal and parietal from temporal."
+   "why": "The central sulcus of Rolando separates frontal from parietal. The lateral sulcus of Sylvius separates frontal and parietal from temporal.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/18.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Where is the insula?",
@@ -22190,7 +22649,19 @@ SINA.lectures["anat3-cerebrum"] = {
     "In the lateral sulcus"
    ],
    "answer": 3,
-   "why": "The insular lobe is folded deep within the lateral sulcus and divided into two lobules: an anterior with 3 convolutions and a posterior with 2."
+   "why": "The insular lobe is folded deep within the lateral sulcus and divided into two lobules: an anterior with 3 convolutions and a posterior with 2.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/19.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 19
+    },
+    {
+     "src": "files/slides/anat3-cerebrum/29.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "On which face of the hemisphere is the calcarine fissure?",
@@ -22201,7 +22672,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "The frontal pole"
    ],
    "answer": 0,
-   "why": "The calcarine fissure is a long horizontal groove on the internal face, from the occipital pole to the internal parieto-occipital sulcus."
+   "why": "The calcarine fissure is a long horizontal groove on the internal face, from the occipital pole to the internal parieto-occipital sulcus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/20.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "What share of the hemisphere does the frontal lobe make up?",
@@ -22212,7 +22690,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "60 percent"
    ],
    "answer": 2,
-   "why": "The frontal lobe is about 40 percent of the hemisphere's weight, in front of the central sulcus, with four gyri."
+   "why": "The frontal lobe is about 40 percent of the hemisphere's weight, in front of the central sulcus, with four gyri.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/22.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which gyrus is the primary motor area?",
@@ -22223,7 +22708,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "The precentral gyrus"
    ],
    "answer": 3,
-   "why": "The precentral gyrus of the frontal lobe is the motor strip; the postcentral gyrus of the parietal lobe is the sensory strip."
+   "why": "The precentral gyrus of the frontal lobe is the motor strip; the postcentral gyrus of the parietal lobe is the sensory strip.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/54.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "Where is Wernicke's area?",
@@ -22234,7 +22726,19 @@ SINA.lectures["anat3-cerebrum"] = {
     "Precentral gyrus, front"
    ],
    "answer": 0,
-   "why": "Wernicke's area, for understanding language, lies in the posterior superior temporal lobe, at the end of the first temporal sulcus, linked to Broca's area."
+   "why": "Wernicke's area, for understanding language, lies in the posterior superior temporal lobe, at the end of the first temporal sulcus, linked to Broca's area.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/54.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 54
+    },
+    {
+     "src": "files/slides/anat3-cerebrum/58.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "What is the sixth occipital gyrus called?",
@@ -22245,7 +22749,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "The precuneus"
    ],
    "answer": 2,
-   "why": "The occipital lobe has six gyri; the sixth, on the internal face, is the cuneus."
+   "why": "The occipital lobe has six gyri; the sixth, on the internal face, is the cuneus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/26.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "What is the uncus?",
@@ -22256,7 +22767,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "The back of the fornix"
    ],
    "answer": 1,
-   "why": "The fifth temporal gyrus, the most internal, is the hippocampal convolution; its anterior end curves into a hook, the uncus."
+   "why": "The fifth temporal gyrus, the most internal, is the hippocampal convolution; its anterior end curves into a hook, the uncus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/28.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "How many nerve fibres does the corpus callosum contain?",
@@ -22267,7 +22785,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "About 200 million"
    ],
    "answer": 3,
-   "why": "The corpus callosum is a white matter tract of about 200 million fibres connecting the lobes of the two hemispheres."
+   "why": "The corpus callosum is a white matter tract of about 200 million fibres connecting the lobes of the two hemispheres.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/31.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "What is the front end of the corpus callosum called?",
@@ -22278,7 +22803,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "The uncus"
    ],
    "answer": 2,
-   "why": "In front is the genu, ending in the beak or rostrum; behind is the splenium."
+   "why": "In front is the genu, ending in the beak or rostrum; behind is the splenium.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/32.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Where do the anterior columns of the fornix end?",
@@ -22289,7 +22821,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "At the pineal gland above"
    ],
    "answer": 0,
-   "why": "The fornix is a C-shaped white matter bundle under the corpus callosum, the main pathway of the hippocampus. Its anterior columns join the mammillary bodies; its posterior columns end at the hippocampus."
+   "why": "The fornix is a C-shaped white matter bundle under the corpus callosum, the main pathway of the hippocampus. Its anterior columns join the mammillary bodies; its posterior columns end at the hippocampus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/34.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Where is the grey matter of the hemisphere found?",
@@ -22300,7 +22839,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "Only around the ventricles"
    ],
    "answer": 1,
-   "why": "Grey matter lies in the peripheral cortex and the deep basal ganglia. White matter forms the centrum semiovale and the capsules."
+   "why": "Grey matter lies in the peripheral cortex and the deep basal ganglia. White matter forms the centrum semiovale and the capsules.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/37.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Where is the internal capsule?",
@@ -22311,7 +22857,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "Above the corpus callosum"
    ],
    "answer": 2,
-   "why": "Internal capsule: between the thalamus and caudate medially and the lentiform nucleus laterally. External: between lentiform and claustrum. Extreme: outside the claustrum."
+   "why": "Internal capsule: between the thalamus and caudate medially and the lentiform nucleus laterally. External: between lentiform and claustrum. Extreme: outside the claustrum.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/38.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "How thick is the cerebral cortex?",
@@ -22322,7 +22875,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "3 to 4 mm"
    ],
    "answer": 3,
-   "why": "The cortex covers the hemispheres, 3 to 4 mm thick, with about 10 billion neuron bodies."
+   "why": "The cortex covers the hemispheres, 3 to 4 mm thick, with about 10 billion neuron bodies.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/39.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which two nuclei form the lentiform nucleus?",
@@ -22333,7 +22893,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "The caudate and globus pallidus"
    ],
    "answer": 1,
-   "why": "Putamen plus globus pallidus form the lentiform nucleus; caudate plus putamen form the dorsal striatum."
+   "why": "Putamen plus globus pallidus form the lentiform nucleus; caudate plus putamen form the dorsal striatum.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/41.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Which neurotransmitter do the basal ganglia need to function?",
@@ -22344,7 +22911,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "Glycine"
    ],
    "answer": 0,
-   "why": "Their proper functioning requires dopamine released at the input nuclei, which is why its loss causes Parkinson's disease."
+   "why": "Their proper functioning requires dopamine released at the input nuclei, which is why its loss causes Parkinson's disease.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/40.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Which structure is a neurostimulation target in Parkinson's disease?",
@@ -22355,7 +22929,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "The corpus callosum body"
    ],
    "answer": 2,
-   "why": "The subthalamic nucleus (Luys' body), at the junction of diencephalon and midbrain, is a deep brain stimulation target."
+   "why": "The subthalamic nucleus (Luys' body), at the junction of diencephalon and midbrain, is a deep brain stimulation target.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/46.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "What is the main function of the basal ganglia?",
@@ -22366,7 +22947,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "Controlling breathing"
    ],
    "answer": 0,
-   "why": "They receive movement plans from the cortex, adjust them and send instructions via the thalamus back to the cortex, then down the pyramidal tracts."
+   "why": "They receive movement plans from the cortex, adjust them and send instructions via the thalamus back to the cortex, then down the pyramidal tracts.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/49.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "In most people, which hemisphere is dominant for language?",
@@ -22377,7 +22965,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "The left, in about 92 percent"
    ],
    "answer": 3,
-   "why": "The left hemisphere controls speech, comprehension, arithmetic and writing; the right creativity, spatial, artistic and musical skills."
+   "why": "The left hemisphere controls speech, comprehension, arithmetic and writing; the right creativity, spatial, artistic and musical skills.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/52.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "Where does the corticospinal tract mainly cross?",
@@ -22388,7 +22983,14 @@ SINA.lectures["anat3-cerebrum"] = {
     "In the cortex"
    ],
    "answer": 1,
-   "why": "It starts mainly in the primary motor cortex, passes through the internal capsule and cerebral peduncles, and most fibres decussate in the medulla."
+   "why": "It starts mainly in the primary motor cortex, passes through the internal capsule and cerebral peduncles, and most fibres decussate in the medulla.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/55.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 55
+    }
+   ]
   },
   {
    "q": "Which nuclei belong to the basal ganglia? (choose all)",
@@ -22402,7 +23004,14 @@ SINA.lectures["anat3-cerebrum"] = {
     0,
     1
    ],
-   "why": "Five pairs: caudate, putamen, globus pallidus, subthalamic nucleus and substantia nigra."
+   "why": "Five pairs: caudate, putamen, globus pallidus, subthalamic nucleus and substantia nigra.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/41.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Which are telencephalic commissures? (choose all)",
@@ -22416,7 +23025,19 @@ SINA.lectures["anat3-cerebrum"] = {
     0,
     1
    ],
-   "why": "The corpus callosum, fornix, anterior and posterior commissures. The internal capsule and centrum semiovale are projection white matter, not commissures."
+   "why": "The corpus callosum, fornix, anterior and posterior commissures. The internal capsule and centrum semiovale are projection white matter, not commissures.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/34.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 34
+    },
+    {
+     "src": "files/slides/anat3-cerebrum/35.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Which functions belong to the frontal lobe? (choose all)",
@@ -22430,7 +23051,14 @@ SINA.lectures["anat3-cerebrum"] = {
     0,
     1
    ],
-   "why": "Frontal: personality, judgement, planning, speech production, movement and intelligence. Vision is occipital; hearing temporal."
+   "why": "Frontal: personality, judgement, planning, speech production, movement and intelligence. Vision is occipital; hearing temporal.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/54.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "Which are signs locating a cerebral lesion? (choose all)",
@@ -22444,7 +23072,14 @@ SINA.lectures["anat3-cerebrum"] = {
     0,
     1
    ],
-   "why": "Aphasia, blindness, hemiplegia, behavioural disorders and epilepsy are localising signs of a cerebral lesion."
+   "why": "Aphasia, blindness, hemiplegia, behavioural disorders and epilepsy are localising signs of a cerebral lesion.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/68.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 68
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -24356,7 +24991,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "Visceral reflexes"
    ],
    "answer": 0,
-   "why": "Pyramidal tracts control voluntary movement of the body and face; extrapyramidal tracts control involuntary, automatic activity such as tone, balance, posture and locomotion."
+   "why": "Pyramidal tracts control voluntary movement of the body and face; extrapyramidal tracts control involuntary, automatic activity such as tone, balance, posture and locomotion.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/20.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Where do the pyramidal tracts get their name?",
@@ -24367,7 +25009,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "The shape of the ventral horn"
    ],
    "answer": 1,
-   "why": "They are named after the medullary pyramids of the medulla oblongata, which they pass through."
+   "why": "They are named after the medullary pyramids of the medulla oblongata, which they pass through.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/22.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "How many neurons make up the pyramidal pathway?",
@@ -24378,7 +25027,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "Four"
    ],
    "answer": 2,
-   "why": "A fast pathway of two neurons: N1, the upper motor neuron (pyramidal cells), and N2, the lower motor neuron in the ventral horn or a brainstem motor nucleus."
+   "why": "A fast pathway of two neurons: N1, the upper motor neuron (pyramidal cells), and N2, the lower motor neuron in the ventral horn or a brainstem motor nucleus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/21.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which tract supplies the head and neck muscles?",
@@ -24389,7 +25045,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "The corticobulbar tract"
    ],
    "answer": 3,
-   "why": "Corticospinal tracts supply the body; corticobulbar tracts supply the head and neck through the cranial nerve motor nuclei."
+   "why": "Corticospinal tracts supply the body; corticobulbar tracts supply the head and neck through the cranial nerve motor nuclei.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/31.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Which is the main source of corticospinal fibres?",
@@ -24400,7 +25063,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "The parietal cortex"
    ],
    "answer": 1,
-   "why": "Inputs come from the primary motor cortex (the main one), the premotor cortex and the supplementary motor area."
+   "why": "Inputs come from the primary motor cortex (the main one), the premotor cortex and the supplementary motor area.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/23.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which Brodmann area is the primary motor cortex?",
@@ -24411,7 +25081,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "Area 4"
    ],
    "answer": 3,
-   "why": "The voluntary motor cortex occupies the precentral gyrus, Brodmann area 4, the ascending frontal gyrus."
+   "why": "The voluntary motor cortex occupies the precentral gyrus, Brodmann area 4, the ascending frontal gyrus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/25.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "What determines the size of a body part's motor area?",
@@ -24422,7 +25099,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "The number of joints"
    ],
    "answer": 0,
-   "why": "Cortical extent follows the complexity and precision of movement, not muscle size, so the hand and tongue areas are the largest."
+   "why": "Cortical extent follows the complexity and precision of movement, not muscle size, so the hand and tongue areas are the largest.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/25.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Which cortical layer contains the Betz cells?",
@@ -24433,7 +25117,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "Layer II"
    ],
    "answer": 2,
-   "why": "The motor cortex has six layers. Layer IV, well developed in the parietal cortex, is almost absent in the motor cortex. Layer V holds the large Betz cells, the origin of the pyramidal tract."
+   "why": "The motor cortex has six layers. Layer IV, well developed in the parietal cortex, is almost absent in the motor cortex. Layer V holds the large Betz cells, the origin of the pyramidal tract.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/26.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Through which part of the internal capsule does the corticospinal tract pass?",
@@ -24444,7 +25135,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "The posterior limb"
    ],
    "answer": 3,
-   "why": "The corticospinal fibres descend through the posterior limb, behind the geniculate (corticobulbar) tract, which passes through the genu."
+   "why": "The corticospinal fibres descend through the posterior limb, behind the geniculate (corticobulbar) tract, which passes through the genu.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/27.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "What proportion of corticospinal fibres cross in the medulla?",
@@ -24455,7 +25153,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "All of them"
    ],
    "answer": 0,
-   "why": "About 90 percent decussate as the lateral corticospinal tract to supply the limbs; the anterior tract stays ipsilateral and crosses later at cervical and upper thoracic levels for the trunk."
+   "why": "About 90 percent decussate as the lateral corticospinal tract to supply the limbs; the anterior tract stays ipsilateral and crosses later at cervical and upper thoracic levels for the trunk.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/29.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "What does the anterior corticospinal tract supply?",
@@ -24466,7 +25171,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "The extraocular muscles"
    ],
    "answer": 2,
-   "why": "It descends ipsilaterally, crosses at the segmental level and ends in the ventral horn of cervical and upper thoracic segments, supplying the axial muscles."
+   "why": "It descends ipsilaterally, crosses at the segmental level and ends in the ventral horn of cervical and upper thoracic segments, supplying the axial muscles.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/29.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Why is the corticobulbar tract also called the geniculate tract?",
@@ -24477,7 +25189,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "It starts in the geniculate ganglion"
    ],
    "answer": 1,
-   "why": "The corticonuclear or geniculate pathway links the motor cortex to the cranial nerve nuclei and passes through the genu of the internal capsule."
+   "why": "The corticonuclear or geniculate pathway links the motor cortex to the cranial nerve nuclei and passes through the genu of the internal capsule.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/31.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Which nerve nuclei receive corticobulbar fibres for eye movement?",
@@ -24488,7 +25207,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "III, IV and VI"
    ],
    "answer": 3,
-   "why": "One group ends in the oculomotor, trochlear and abducens nuclei; others in the motor nuclei of V, VII, IX, X and XI."
+   "why": "One group ends in the oculomotor, trochlear and abducens nuclei; others in the motor nuclei of V, VII, IX, X and XI.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/32.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which of these is part of the extrapyramidal system?",
@@ -24499,7 +25225,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "The posterior limb of the capsule"
    ],
    "answer": 2,
-   "why": "The extrapyramidal system includes the basal ganglia, the cerebellum and various brainstem nuclei, modulating involuntary movement, balance and posture."
+   "why": "The extrapyramidal system includes the basal ganglia, the cerebellum and various brainstem nuclei, modulating involuntary movement, balance and posture.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/33.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "How many extrapyramidal tracts are there?",
@@ -24510,7 +25243,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "Seven"
    ],
    "answer": 0,
-   "why": "Vestibulospinal, olivospinal and reticulospinal (uncrossed) plus rubrospinal and tectospinal (crossed)."
+   "why": "Vestibulospinal, olivospinal and reticulospinal (uncrossed) plus rubrospinal and tectospinal (crossed).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/41.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Which extrapyramidal tracts cross the midline?",
@@ -24521,7 +25261,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "Reticulospinal and olivospinal"
    ],
    "answer": 1,
-   "why": "The rubrospinal and tectospinal tracts decussate, giving contralateral innervation; the others are ipsilateral."
+   "why": "The rubrospinal and tectospinal tracts decussate, giving contralateral innervation; the others are ipsilateral.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/41.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Which muscles do the vestibulospinal tracts activate?",
@@ -24532,7 +25279,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "The muscles of mastication"
    ],
    "answer": 2,
-   "why": "They carry balance information from the vestibular nuclei, ipsilaterally, to anti-gravity muscles: flexors of the arm and extensors of the leg."
+   "why": "They carry balance information from the vestibular nuclei, ipsilaterally, to anti-gravity muscles: flexors of the arm and extensors of the leg.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/42.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "What does the lateral reticulospinal tract do?",
@@ -24543,7 +25297,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "Inhibits movement and reduces tone"
    ],
    "answer": 3,
-   "why": "The medial tract, from the pons, facilitates movement and increases tone; the lateral tract, from the medulla, inhibits movement and reduces tone."
+   "why": "The medial tract, from the pons, facilitates movement and increases tone; the lateral tract, from the medulla, inhibits movement and reduces tone.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/43.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Where does the rubrospinal tract begin?",
@@ -24554,7 +25315,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "The inferior olive"
    ],
    "answer": 1,
-   "why": "It starts in the red nucleus of the midbrain, crosses immediately and descends contralaterally; thought to help fine hand control."
+   "why": "It starts in the red nucleus of the midbrain, crosses immediately and descends contralaterally; thought to help fine hand control.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/44.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "What does the tectospinal tract coordinate?",
@@ -24565,7 +25333,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "Swallowing and speech"
    ],
    "answer": 0,
-   "why": "It begins at the superior colliculus, which receives optic input, crosses quickly and ends at cervical levels."
+   "why": "It begins at the superior colliculus, which receives optic input, crosses quickly and ends at cervical levels.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/45.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "What do gamma motor neurons supply?",
@@ -24576,7 +25351,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "Cardiac muscle"
    ],
    "answer": 2,
-   "why": "Alpha motor neurons, the largest in the nervous system, supply skeletal muscle; gamma motor neurons supply the intrafusal fibres of the muscle spindle."
+   "why": "Alpha motor neurons, the largest in the nervous system, supply skeletal muscle; gamma motor neurons supply the intrafusal fibres of the muscle spindle.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/48.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Which ventral horn motor neurons supply distal muscles?",
@@ -24587,7 +25369,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "The posterior neurons"
    ],
    "answer": 0,
-   "why": "Motor neurons are arranged somatotopically: medial ones supply proximal muscles, lateral ones distal muscles."
+   "why": "Motor neurons are arranged somatotopically: medial ones supply proximal muscles, lateral ones distal muscles.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/48.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Where is the dopamine of the extrapyramidal system made?",
@@ -24598,7 +25387,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "The substantia nigra"
    ],
    "answer": 3,
-   "why": "Dopamine is produced by the substantia nigra pars compacta and acts mainly on the striatum, smoothing voluntary movement."
+   "why": "Dopamine is produced by the substantia nigra pars compacta and acts mainly on the striatum, smoothing voluntary movement.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/51.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "What does dopamine deficiency cause?",
@@ -24609,7 +25405,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     "Cerebellar ataxia"
    ],
    "answer": 1,
-   "why": "Parkinson's disease: dopamine falls, acetylcholine becomes relatively high, giving rigidity, tremor and slowness. Anticholinergic drugs help restore balance."
+   "why": "Parkinson's disease: dopamine falls, acetylcholine becomes relatively high, giving rigidity, tremor and slowness. Anticholinergic drugs help restore balance.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/52.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "Which extrapyramidal tracts are uncrossed? (choose all)",
@@ -24623,7 +25426,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     0,
     1
    ],
-   "why": "Uncrossed: vestibulospinal, olivospinal, reticulospinal. Crossed: rubrospinal, tectospinal."
+   "why": "Uncrossed: vestibulospinal, olivospinal, reticulospinal. Crossed: rubrospinal, tectospinal.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/41.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Which inputs feed the corticospinal tract? (choose all)",
@@ -24637,7 +25447,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     0,
     1
    ],
-   "why": "Primary motor cortex, premotor cortex and supplementary motor area."
+   "why": "Primary motor cortex, premotor cortex and supplementary motor area.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/23.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which belong to the extrapyramidal system? (choose all)",
@@ -24651,7 +25468,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     0,
     1
    ],
-   "why": "Basal ganglia, cerebellum and brainstem nuclei including the reticular formation, red nucleus and vestibular nuclei. The pyramids and Betz cells are pyramidal."
+   "why": "Basal ganglia, cerebellum and brainstem nuclei including the reticular formation, red nucleus and vestibular nuclei. The pyramids and Betz cells are pyramidal.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/38.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which neurotransmitters are excitatory in the basal ganglia? (choose all)",
@@ -24665,7 +25489,14 @@ SINA.lectures["anat3-descending-tracts"] = {
     0,
     1
    ],
-   "why": "Acetylcholine (cholinergic interneurons) and glutamate (subthalamic and cortical afferents) excite. GABA inhibits; the lecture describes dopamine's net effect in the striatum as inhibitory."
+   "why": "Acetylcholine (cholinergic interneurons) and glutamate (subthalamic and cortical afferents) excite. GABA inhibits; the lecture describes dopamine's net effect in the striatum as inhibitory.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-descending-tracts/52.jpg",
+     "lec": "Functional anatomy: the descending",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
