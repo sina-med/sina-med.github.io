@@ -1747,6 +1747,7 @@
     else if (links.length) html += '<div class="row" style="margin:0 0 1.4rem">' + links.map(function (l, n) { return '<a class="btn' + (n === 0 ? " primary" : "") + '" href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.label) + "</a>"; }).join("") + "</div>";
     if (x.note) html += '<p class="src">' + esc(x.note) + "</p>";
     if (hasQ && x.keyBy === "sina") html += '<p class="src key-note">This paper came without an answer key. The answers here were written by Sina from the lectures; if one looks wrong, use Report a mistake under the question.</p>';
+    else if (hasQ && x.keyBy === "part") html += '<p class="src key-note">Part of this paper came without an answer key. Sina wrote those answers from the lectures; if one looks wrong, use Report a mistake under the question.</p>';
     var po = hasQ && paperOff(x), onlyMid = false;
     if (po) html += '<div class="mid-off"><p><strong>' + (po.off.length === x.questions.length ? "None of these questions are" : po.off.length + " of " + x.questions.length + " questions are not") + " on the " + esc(po.m.title) + "</strong>" + (po.m.date ? " (" + esc(midDate(po.m)) + ")" : "") + ". They cover lectures outside the midterm and are tagged <span class=\"qoff\">Not on the midterm</span>.</p>" + (po.off.length < x.questions.length ? '<button class="btn small-btn" id="mid-only" type="button" aria-pressed="false">Only midterm questions (' + (x.questions.length - po.off.length) + ")</button>" : "") + "</div>";
     if (hasQ) html += resumeBanner(function (r) { return r.id === x.id; });
