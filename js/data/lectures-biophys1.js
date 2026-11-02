@@ -237,7 +237,19 @@ SINA.lectures["biophys1-radioactivity"] = {
     "An unstable nucleus"
    ],
    "answer": 3,
-   "why": "A spontaneous phenomenon."
+   "why": "A spontaneous phenomenon.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioactivity/19.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 19
+    },
+    {
+     "src": "files/slides/biophys1-radioactivity/22.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which number determines chemical properties?",
@@ -248,7 +260,14 @@ SINA.lectures["biophys1-radioactivity"] = {
     "A"
    ],
    "answer": 2,
-   "why": "A determines physical properties."
+   "why": "A determines physical properties.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioactivity/09.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "⁹⁹ᵐTc and ⁹⁹Tc are:",
@@ -259,7 +278,14 @@ SINA.lectures["biophys1-radioactivity"] = {
     "Isotopes"
    ],
    "answer": 1,
-   "why": "Same nucleus, different energy states."
+   "why": "Same nucleus, different energy states.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioactivity/13.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Isobars have the same:",
@@ -281,7 +307,19 @@ SINA.lectures["biophys1-radioactivity"] = {
     "931 MeV"
    ],
    "answer": 0,
-   "why": "Energy of an electron through 1 V."
+   "why": "Energy of an electron through 1 V.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioactivity/14.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 14
+    },
+    {
+     "src": "files/slides/biophys1-radioactivity/15.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The rest mass energy of an electron is:",
@@ -292,7 +330,14 @@ SINA.lectures["biophys1-radioactivity"] = {
     "13.6 eV"
    ],
    "answer": 1,
-   "why": "1 u ≈ 931 MeV/c²."
+   "why": "1 u ≈ 931 MeV/c².",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioactivity/18.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "β⁻ decay occurs when a nucleus has:",
@@ -303,7 +348,14 @@ SINA.lectures["biophys1-radioactivity"] = {
     "Excess protons"
    ],
    "answer": 2,
-   "why": "Emits an electron and an antineutrino."
+   "why": "Emits an electron and an antineutrino.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioactivity/23.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "PET imaging is based on:",
@@ -314,7 +366,14 @@ SINA.lectures["biophys1-radioactivity"] = {
     "β⁺ decay and annihilation"
    ],
    "answer": 3,
-   "why": "Two 511 keV photons at 180°."
+   "why": "Two 511 keV photons at 180°.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioactivity/25.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "β⁺ decay requires an energy difference above:",
@@ -325,7 +384,19 @@ SINA.lectures["biophys1-radioactivity"] = {
     "0.511 MeV"
    ],
    "answer": 1,
-   "why": "Twice the electron mass."
+   "why": "Twice the electron mass.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioactivity/15.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 15
+    },
+    {
+     "src": "files/slides/biophys1-radioactivity/27.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "After electron capture, the atom emits:",
@@ -336,7 +407,14 @@ SINA.lectures["biophys1-radioactivity"] = {
     "Positrons"
    ],
    "answer": 0,
-   "why": "When the K vacancy is filled."
+   "why": "When the K vacancy is filled.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioactivity/28.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "An α particle is:",
@@ -347,7 +425,19 @@ SINA.lectures["biophys1-radioactivity"] = {
     "A photon"
    ],
    "answer": 0,
-   "why": "2 protons + 2 neutrons."
+   "why": "2 protons + 2 neutrons.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioactivity/03.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 3
+    },
+    {
+     "src": "files/slides/biophys1-radioactivity/19.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "γ emission changes the atomic number by:",
@@ -358,7 +448,14 @@ SINA.lectures["biophys1-radioactivity"] = {
     "0"
    ],
    "answer": 3,
-   "why": "It is de-excitation."
+   "why": "It is de-excitation.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioactivity/30.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "The half-life is related to λ by:",
@@ -369,7 +466,14 @@ SINA.lectures["biophys1-radioactivity"] = {
     "T = 0.693/λ"
    ],
    "answer": 3,
-   "why": "T = ln2/λ."
+   "why": "T = ln2/λ.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioactivity/34.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "1 curie equals:",
@@ -380,7 +484,14 @@ SINA.lectures["biophys1-radioactivity"] = {
     "37 MBq"
    ],
    "answer": 0,
-   "why": "Activity of 1 g of radium."
+   "why": "Activity of 1 g of radium.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioactivity/33.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "After 3 half-lives, the remaining activity is:",
@@ -391,7 +502,19 @@ SINA.lectures["biophys1-radioactivity"] = {
     "A₀/9"
    ],
    "answer": 1,
-   "why": "A₀/2³."
+   "why": "A₀/2³.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioactivity/35.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 35
+    },
+    {
+     "src": "files/slides/biophys1-radioactivity/37.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "The half-life of ⁹⁹ᵐTc is about:",
@@ -402,7 +525,14 @@ SINA.lectures["biophys1-radioactivity"] = {
     "6 hours"
    ],
    "answer": 3,
-   "why": "Ideal for imaging."
+   "why": "Ideal for imaging.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioactivity/34.jpg",
+     "lec": "Radioactivity: general concepts",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -807,7 +937,19 @@ SINA.lectures["biophys1-interactions"] = {
     "X-ray photons"
    ],
    "answer": 3,
-   "why": "Also γ-rays and neutrons."
+   "why": "Also γ-rays and neutrons.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-interactions/03.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 3
+    },
+    {
+     "src": "files/slides/biophys1-interactions/13.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "LET increases when a charged particle:",
@@ -818,7 +960,14 @@ SINA.lectures["biophys1-interactions"] = {
     "Speeds up"
    ],
    "answer": 2,
-   "why": "LET ∝ 1/v²."
+   "why": "LET ∝ 1/v².",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-interactions/07.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The Bragg peak is located:",
@@ -829,7 +978,14 @@ SINA.lectures["biophys1-interactions"] = {
     "Beyond the range"
    ],
    "answer": 0,
-   "why": "Exploited in protontherapy."
+   "why": "Exploited in protontherapy.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-interactions/07.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "α particles are most dangerous by:",
@@ -840,7 +996,14 @@ SINA.lectures["biophys1-interactions"] = {
     "Distance"
    ],
    "answer": 2,
-   "why": "Stopped by paper or skin."
+   "why": "Stopped by paper or skin.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-interactions/09.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Bremsstrahlung is:",
@@ -851,7 +1014,19 @@ SINA.lectures["biophys1-interactions"] = {
     "α emission"
    ],
    "answer": 0,
-   "why": "Used in X-ray tubes."
+   "why": "Used in X-ray tubes.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-interactions/12.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 12
+    },
+    {
+     "src": "files/slides/biophys1-interactions/13.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Photon attenuation follows:",
@@ -862,7 +1037,14 @@ SINA.lectures["biophys1-interactions"] = {
     "N = µx"
    ],
    "answer": 1,
-   "why": "µ = linear attenuation coefficient."
+   "why": "µ = linear attenuation coefficient.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-interactions/15.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The half-value layer equals:",
@@ -873,7 +1055,14 @@ SINA.lectures["biophys1-interactions"] = {
     "µ²"
    ],
    "answer": 2,
-   "why": "Thickness halving the intensity."
+   "why": "Thickness halving the intensity.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-interactions/17.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "After 3 half-value layers, intensity is:",
@@ -884,7 +1073,14 @@ SINA.lectures["biophys1-interactions"] = {
     "N₀/8"
    ],
    "answer": 3,
-   "why": "N₀/2³."
+   "why": "N₀/2³.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-interactions/17.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "In the photoelectric effect, the photon:",
@@ -895,7 +1091,19 @@ SINA.lectures["biophys1-interactions"] = {
     "Passes unchanged"
    ],
    "answer": 1,
-   "why": "By a bound (K) electron."
+   "why": "By a bound (K) electron.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-interactions/19.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 19
+    },
+    {
+     "src": "files/slides/biophys1-interactions/21.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The Compton effect involves:",
@@ -906,7 +1114,19 @@ SINA.lectures["biophys1-interactions"] = {
     "A positron"
    ],
    "answer": 0,
-   "why": "Partial energy transfer."
+   "why": "Partial energy transfer.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-interactions/05.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 5
+    },
+    {
+     "src": "files/slides/biophys1-interactions/10.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Pair production requires photon energy above:",
@@ -917,7 +1137,14 @@ SINA.lectures["biophys1-interactions"] = {
     "140 keV"
    ],
    "answer": 0,
-   "why": "Electron + positron."
+   "why": "Electron + positron.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-interactions/13.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Energy resolution of a detector describes:",
@@ -928,7 +1155,14 @@ SINA.lectures["biophys1-interactions"] = {
     "Separating close energies"
    ],
    "answer": 3,
-   "why": "Semiconductors ≈ 1%."
+   "why": "Semiconductors ≈ 1%.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-interactions/27.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "A gamma camera uses:",
@@ -939,7 +1173,14 @@ SINA.lectures["biophys1-interactions"] = {
     "NaI scintillation"
    ],
    "answer": 3,
-   "why": "Scintigraphy, SPECT."
+   "why": "Scintigraphy, SPECT.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-interactions/29.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "The Geiger-Müller tube's dead time is about:",
@@ -950,7 +1191,14 @@ SINA.lectures["biophys1-interactions"] = {
     "2 ns"
    ],
    "answer": 0,
-   "why": "No new events recorded during it."
+   "why": "No new events recorded during it.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-interactions/26.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which is a passive dosimeter?",
@@ -961,7 +1209,19 @@ SINA.lectures["biophys1-interactions"] = {
     "Geiger counter"
    ],
    "answer": 1,
-   "why": "Also film and OSL."
+   "why": "Also film and OSL.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-interactions/40.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 40
+    },
+    {
+     "src": "files/slides/biophys1-interactions/42.jpg",
+     "lec": "Radiation-matter interactions,",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1412,7 +1672,14 @@ SINA.lectures["biophys1-radiobiology"] = {
     "Gray (J/kg)"
    ],
    "answer": 3,
-   "why": "1 rad = 0.01 Gy."
+   "why": "1 rad = 0.01 Gy.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radiobiology/05.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Equivalent dose is obtained by multiplying absorbed dose by:",
@@ -1423,7 +1690,19 @@ SINA.lectures["biophys1-radiobiology"] = {
     "The half-life"
    ],
    "answer": 2,
-   "why": "H = D × W_R, in Sv."
+   "why": "H = D × W_R, in Sv.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radiobiology/06.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 6
+    },
+    {
+     "src": "files/slides/biophys1-radiobiology/08.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The radiation weighting factor of α particles is:",
@@ -1434,7 +1713,14 @@ SINA.lectures["biophys1-radiobiology"] = {
     "10"
    ],
    "answer": 1,
-   "why": "Photons and electrons: 1."
+   "why": "Photons and electrons: 1.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radiobiology/07.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Effective dose accounts for:",
@@ -1445,7 +1731,14 @@ SINA.lectures["biophys1-radiobiology"] = {
     "Activity"
    ],
    "answer": 2,
-   "why": "E = Σ H_T × W_T."
+   "why": "E = Σ H_T × W_T.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radiobiology/08.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The main initial target of ionising radiation in the body is:",
@@ -1456,7 +1749,14 @@ SINA.lectures["biophys1-radiobiology"] = {
     "Proteins"
    ],
    "answer": 0,
-   "why": "About 65% of body mass."
+   "why": "About 65% of body mass.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radiobiology/11.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which radical is a strong oxidant produced by water radiolysis?",
@@ -1467,7 +1767,14 @@ SINA.lectures["biophys1-radiobiology"] = {
     "O₂"
    ],
    "answer": 1,
-   "why": "Toxic to DNA, proteins, lipids."
+   "why": "Toxic to DNA, proteins, lipids.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radiobiology/12.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Oxygen in tissues:",
@@ -1478,7 +1785,19 @@ SINA.lectures["biophys1-radiobiology"] = {
     "Stops radiolysis"
    ],
    "answer": 2,
-   "why": "It forms more toxic radicals."
+   "why": "It forms more toxic radicals.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radiobiology/12.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 12
+    },
+    {
+     "src": "files/slides/biophys1-radiobiology/13.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The most lethal DNA lesion is:",
@@ -1489,7 +1808,14 @@ SINA.lectures["biophys1-radiobiology"] = {
     "Double-strand break"
    ],
    "answer": 3,
-   "why": "Especially when opposite each other."
+   "why": "Especially when opposite each other.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radiobiology/20.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Chromosomal aberrations become detectable from about:",
@@ -1500,7 +1826,14 @@ SINA.lectures["biophys1-radiobiology"] = {
     "10 Gy"
    ],
    "answer": 1,
-   "why": "Used in biological dosimetry."
+   "why": "Used in biological dosimetry.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radiobiology/22.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which cells are highly radiosensitive?",
@@ -1511,7 +1844,14 @@ SINA.lectures["biophys1-radiobiology"] = {
     "Neurons"
    ],
    "answer": 0,
-   "why": "Rapidly renewing tissues."
+   "why": "Rapidly renewing tissues.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radiobiology/31.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Cells are most radiosensitive in:",
@@ -1522,7 +1862,14 @@ SINA.lectures["biophys1-radiobiology"] = {
     "G1 only"
    ],
    "answer": 0,
-   "why": "Least in S phase."
+   "why": "Least in S phase.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radiobiology/32.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Mitotic death means that irradiated cells:",
@@ -1533,7 +1880,14 @@ SINA.lectures["biophys1-radiobiology"] = {
     "Die at next division"
    ],
    "answer": 3,
-   "why": "Loss of proliferative ability."
+   "why": "Loss of proliferative ability.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radiobiology/27.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Deterministic effects:",
@@ -1544,7 +1898,19 @@ SINA.lectures["biophys1-radiobiology"] = {
     "Threshold, graded severity"
    ],
    "answer": 3,
-   "why": "Due to cell death."
+   "why": "Due to cell death.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radiobiology/36.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 36
+    },
+    {
+     "src": "files/slides/biophys1-radiobiology/39.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Stochastic effects include:",
@@ -1555,7 +1921,19 @@ SINA.lectures["biophys1-radiobiology"] = {
     "Cataract"
    ],
    "answer": 0,
-   "why": "Probability rises with dose, no threshold."
+   "why": "Probability rises with dose, no threshold.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radiobiology/39.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 39
+    },
+    {
+     "src": "files/slides/biophys1-radiobiology/40.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "The LD50 for acute whole-body irradiation is about:",
@@ -1566,7 +1944,14 @@ SINA.lectures["biophys1-radiobiology"] = {
     "1 Gy"
    ],
    "answer": 1,
-   "why": "Haematopoietic syndrome."
+   "why": "Haematopoietic syndrome.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radiobiology/37.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Nausea and vomiting within 3-6 h with spontaneous recovery suggests about:",
@@ -1577,7 +1962,14 @@ SINA.lectures["biophys1-radiobiology"] = {
     "1-2 Gy"
    ],
    "answer": 3,
-   "why": "General reaction."
+   "why": "General reaction.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radiobiology/37.jpg",
+     "lec": "Radiobiology: biological effects of",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2048,7 +2440,14 @@ SINA.lectures["biophys1-radioprotection"] = {
     "1928"
    ],
    "answer": 3,
-   "why": "International Commission on Radiological Protection."
+   "why": "International Commission on Radiological Protection.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioprotection/05.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which Moroccan body regulates nuclear and radiological safety?",
@@ -2059,7 +2458,14 @@ SINA.lectures["biophys1-radioprotection"] = {
     "IAEA"
    ],
    "answer": 2,
-   "why": "With the CNRP."
+   "why": "With the CNRP.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioprotection/06.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The largest source of radiation exposure is:",
@@ -2070,7 +2476,19 @@ SINA.lectures["biophys1-radioprotection"] = {
     "Medical"
    ],
    "answer": 0,
-   "why": "Cosmic, terrestrial, internal."
+   "why": "Cosmic, terrestrial, internal.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioprotection/08.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 8
+    },
+    {
+     "src": "files/slides/biophys1-radioprotection/09.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Cosmic exposure at sea level is about:",
@@ -2081,7 +2499,14 @@ SINA.lectures["biophys1-radioprotection"] = {
     "2 mSv/year"
    ],
    "answer": 2,
-   "why": "It rises with altitude."
+   "why": "It rises with altitude.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioprotection/09.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The main natural radionuclide inside the body is:",
@@ -2092,7 +2517,14 @@ SINA.lectures["biophys1-radioprotection"] = {
     "I-131"
    ],
    "answer": 0,
-   "why": "About 0.25 mSv/year."
+   "why": "About 0.25 mSv/year.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioprotection/09.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Average medical exposure is about:",
@@ -2103,7 +2535,14 @@ SINA.lectures["biophys1-radioprotection"] = {
     "100 mSv/year"
    ],
    "answer": 1,
-   "why": "The patient benefits directly."
+   "why": "The patient benefits directly.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioprotection/11.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The three rules against external exposure are:",
@@ -2114,7 +2553,19 @@ SINA.lectures["biophys1-radioprotection"] = {
     "Ingest, inhale, inject"
    ],
    "answer": 2,
-   "why": "Reduce time, increase distance, add shielding."
+   "why": "Reduce time, increase distance, add shielding.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioprotection/13.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 13
+    },
+    {
+     "src": "files/slides/biophys1-radioprotection/29.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Internal contamination can occur through:",
@@ -2125,7 +2576,14 @@ SINA.lectures["biophys1-radioprotection"] = {
     "Intake of radionuclides"
    ],
    "answer": 3,
-   "why": "Intake of radionuclides."
+   "why": "Intake of radionuclides.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioprotection/22.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Iodine-131 accumulates in the:",
@@ -2136,7 +2594,14 @@ SINA.lectures["biophys1-radioprotection"] = {
     "Bone"
    ],
    "answer": 1,
-   "why": "Sr-90 goes to bone."
+   "why": "Sr-90 goes to bone.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioprotection/22.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "ALARA corresponds to which principle?",
@@ -2147,7 +2612,14 @@ SINA.lectures["biophys1-radioprotection"] = {
     "Zoning"
    ],
    "answer": 0,
-   "why": "As low as reasonably achievable."
+   "why": "As low as reasonably achievable.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioprotection/27.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "The annual whole-body limit for category A workers is:",
@@ -2158,7 +2630,14 @@ SINA.lectures["biophys1-radioprotection"] = {
     "1 mSv"
    ],
    "answer": 0,
-   "why": "Public: 1 mSv."
+   "why": "Public: 1 mSv.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioprotection/31.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "The annual dose limit for the public is:",
@@ -2169,7 +2648,19 @@ SINA.lectures["biophys1-radioprotection"] = {
     "1 mSv"
    ],
    "answer": 3,
-   "why": "Excluding medical and natural exposure."
+   "why": "Excluding medical and natural exposure.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioprotection/11.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 11
+    },
+    {
+     "src": "files/slides/biophys1-radioprotection/31.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "For a pregnant worker, the dose to the abdomen must stay below:",
@@ -2180,7 +2671,14 @@ SINA.lectures["biophys1-radioprotection"] = {
     "1 mSv"
    ],
    "answer": 3,
-   "why": "For the rest of the pregnancy."
+   "why": "For the rest of the pregnancy.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioprotection/31.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "A controlled area is where a worker may receive more than:",
@@ -2191,7 +2689,14 @@ SINA.lectures["biophys1-radioprotection"] = {
     "Any dose"
    ],
    "answer": 0,
-   "why": "Supervised area: > 1/10."
+   "why": "Supervised area: > 1/10.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioprotection/32.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which dosimeter gives real-time dose reading?",
@@ -2202,7 +2707,19 @@ SINA.lectures["biophys1-radioprotection"] = {
     "OSL"
    ],
    "answer": 1,
-   "why": "Passive dosimeters are read later."
+   "why": "Passive dosimeters are read later.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-radioprotection/37.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 37
+    },
+    {
+     "src": "files/slides/biophys1-radioprotection/39.jpg",
+     "lec": "Radiation protection and safety in",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2659,7 +3176,14 @@ SINA.lectures["biophys1-optics"] = {
     "380-700 nm"
    ],
    "answer": 3,
-   "why": "Perceived by the eye."
+   "why": "Perceived by the eye.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-optics/06.jpg",
+     "lec": "Geometrical optics applied to vision",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The refractive index is defined as:",
@@ -2670,7 +3194,14 @@ SINA.lectures["biophys1-optics"] = {
     "n = v/c"
    ],
    "answer": 2,
-   "why": "Higher n, slower light."
+   "why": "Higher n, slower light.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-optics/10.jpg",
+     "lec": "Geometrical optics applied to vision",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "A diopter with negative power is:",
@@ -2681,7 +3212,14 @@ SINA.lectures["biophys1-optics"] = {
     "Converging"
    ],
    "answer": 0,
-   "why": "P = (n₂ − n₁)/r."
+   "why": "P = (n₂ − n₁)/r.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-optics/12.jpg",
+     "lec": "Geometrical optics applied to vision",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which ocular surface has the greatest power?",
@@ -2692,7 +3230,14 @@ SINA.lectures["biophys1-optics"] = {
     "Anterior lens"
    ],
    "answer": 2,
-   "why": "About +48 D."
+   "why": "About +48 D.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-optics/21.jpg",
+     "lec": "Geometrical optics applied to vision",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The total refractive power of the eye at rest is about:",
@@ -2703,7 +3248,14 @@ SINA.lectures["biophys1-optics"] = {
     "48 D"
    ],
    "answer": 0,
-   "why": "48 − 6 + 8 + 14."
+   "why": "48 − 6 + 8 + 14.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-optics/25.jpg",
+     "lec": "Geometrical optics applied to vision",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "During accommodation the ciliary muscle:",
@@ -2714,7 +3266,14 @@ SINA.lectures["biophys1-optics"] = {
     "Pulls the retina"
    ],
    "answer": 1,
-   "why": "Power increases."
+   "why": "Power increases.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-optics/28.jpg",
+     "lec": "Geometrical optics applied to vision",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The punctum proximum is:",
@@ -2725,7 +3284,14 @@ SINA.lectures["biophys1-optics"] = {
     "The fovea"
    ],
    "answer": 2,
-   "why": "~25 cm in adults."
+   "why": "~25 cm in adults.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-optics/31.jpg",
+     "lec": "Geometrical optics applied to vision",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Presbyopia is corrected with:",
@@ -2736,7 +3302,14 @@ SINA.lectures["biophys1-optics"] = {
     "Converging lenses"
    ],
    "answer": 3,
-   "why": "For near vision."
+   "why": "For near vision.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-optics/32.jpg",
+     "lec": "Geometrical optics applied to vision",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Why does presbyopia appear later in myopes?",
@@ -2747,7 +3320,14 @@ SINA.lectures["biophys1-optics"] = {
     "It never appears"
    ],
    "answer": 1,
-   "why": "Less accommodation needed."
+   "why": "Less accommodation needed.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-optics/44.jpg",
+     "lec": "Geometrical optics applied to vision",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Amblyopia is best treated:",
@@ -2758,7 +3338,14 @@ SINA.lectures["biophys1-optics"] = {
     "With surgery only"
    ],
    "answer": 0,
-   "why": "Irreversible after ~10."
+   "why": "Irreversible after ~10.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-optics/36.jpg",
+     "lec": "Geometrical optics applied to vision",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "A normal visual acuity of 10/10 corresponds to separating points at:",
@@ -2769,7 +3356,14 @@ SINA.lectures["biophys1-optics"] = {
     "5 minutes of arc"
    ],
    "answer": 0,
-   "why": "VA = 1/α."
+   "why": "VA = 1/α.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-optics/40.jpg",
+     "lec": "Geometrical optics applied to vision",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "In myopia, the image of a distant object forms:",
@@ -2780,7 +3374,14 @@ SINA.lectures["biophys1-optics"] = {
     "In front of the retina"
    ],
    "answer": 3,
-   "why": "The eye is too powerful or too long."
+   "why": "The eye is too powerful or too long.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-optics/43.jpg",
+     "lec": "Geometrical optics applied to vision",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Myopia is corrected with:",
@@ -2791,7 +3392,14 @@ SINA.lectures["biophys1-optics"] = {
     "Diverging lenses"
    ],
    "answer": 3,
-   "why": "Power = degree of myopia."
+   "why": "Power = degree of myopia.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-optics/43.jpg",
+     "lec": "Geometrical optics applied to vision",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Hyperopia is corrected with:",
@@ -2802,7 +3410,19 @@ SINA.lectures["biophys1-optics"] = {
     "Nothing"
    ],
    "answer": 0,
-   "why": "The eye lacks power."
+   "why": "The eye lacks power.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-optics/32.jpg",
+     "lec": "Geometrical optics applied to vision",
+     "n": 32
+    },
+    {
+     "src": "files/slides/biophys1-optics/43.jpg",
+     "lec": "Geometrical optics applied to vision",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Astigmatism most often arises from:",
@@ -2813,7 +3433,14 @@ SINA.lectures["biophys1-optics"] = {
     "The optic nerve"
    ],
    "answer": 1,
-   "why": "Point images become elongated."
+   "why": "Point images become elongated.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-optics/42.jpg",
+     "lec": "Geometrical optics applied to vision",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3297,7 +3924,14 @@ SINA.lectures["biophys1-hearing"] = {
     "3×10⁸ m/s"
    ],
    "answer": 0,
-   "why": "λ = c/f."
+   "why": "λ = c/f.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-hearing/03.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The reference pressure for dB SPL is:",
@@ -3308,7 +3942,14 @@ SINA.lectures["biophys1-hearing"] = {
     "20 Pa"
    ],
    "answer": 1,
-   "why": "The threshold of hearing."
+   "why": "The threshold of hearing.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-hearing/05.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "An increase of 10 dB corresponds to:",
@@ -3319,7 +3960,14 @@ SINA.lectures["biophys1-hearing"] = {
     "No change"
    ],
    "answer": 1,
-   "why": "Logarithmic perception."
+   "why": "Logarithmic perception.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-hearing/08.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "If sound pressure doubles, intensity:",
@@ -3330,7 +3978,19 @@ SINA.lectures["biophys1-hearing"] = {
     "Halves"
    ],
    "answer": 2,
-   "why": "Intensity ∝ pressure²."
+   "why": "Intensity ∝ pressure².",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-hearing/04.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 4
+    },
+    {
+     "src": "files/slides/biophys1-hearing/05.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The Weber-Fechner law states that perception grows:",
@@ -3341,7 +4001,14 @@ SINA.lectures["biophys1-hearing"] = {
     "Exponentially"
    ],
    "answer": 2,
-   "why": "The brain compresses intensity."
+   "why": "The brain compresses intensity.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-hearing/08.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The ear is most sensitive to frequencies of about:",
@@ -3352,7 +4019,14 @@ SINA.lectures["biophys1-hearing"] = {
     "2-4 kHz"
    ],
    "answer": 3,
-   "why": "Speech consonants."
+   "why": "Speech consonants.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-hearing/09.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The ear canal resonates around:",
@@ -3363,7 +4037,14 @@ SINA.lectures["biophys1-hearing"] = {
     "250 Hz"
    ],
    "answer": 0,
-   "why": "Amplifying those frequencies."
+   "why": "Amplifying those frequencies.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-hearing/14.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The main function of the middle ear is:",
@@ -3374,7 +4055,19 @@ SINA.lectures["biophys1-hearing"] = {
     "Balance"
    ],
    "answer": 0,
-   "why": "Pressure raised about 22×."
+   "why": "Pressure raised about 22×.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-hearing/16.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 16
+    },
+    {
+     "src": "files/slides/biophys1-hearing/17.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Without the middle ear, about what fraction of sound energy would be reflected?",
@@ -3385,7 +4078,14 @@ SINA.lectures["biophys1-hearing"] = {
     "99%"
    ],
    "answer": 3,
-   "why": "Air and fluid impedances differ greatly."
+   "why": "Air and fluid impedances differ greatly.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-hearing/16.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "High frequencies are detected at the:",
@@ -3396,7 +4096,19 @@ SINA.lectures["biophys1-hearing"] = {
     "Base of the cochlea"
    ],
    "answer": 3,
-   "why": "Stiff, narrow basilar membrane."
+   "why": "Stiff, narrow basilar membrane.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-hearing/21.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 21
+    },
+    {
+     "src": "files/slides/biophys1-hearing/23.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which cells are the true sensory receptors of hearing?",
@@ -3407,7 +4119,14 @@ SINA.lectures["biophys1-hearing"] = {
     "Outer hair cells"
    ],
    "answer": 1,
-   "why": "Outer hair cells amplify."
+   "why": "Outer hair cells amplify.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-hearing/24.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The thalamic relay of the auditory pathway is the:",
@@ -3418,7 +4137,14 @@ SINA.lectures["biophys1-hearing"] = {
     "Superior colliculus"
    ],
    "answer": 1,
-   "why": "Then auditory cortex."
+   "why": "Then auditory cortex.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-hearing/25.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Air conduction reduced with normal bone conduction indicates:",
@@ -3429,7 +4155,14 @@ SINA.lectures["biophys1-hearing"] = {
     "Conductive loss"
    ],
    "answer": 3,
-   "why": "Outer or middle ear problem."
+   "why": "Outer or middle ear problem.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-hearing/31.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Otosclerosis causes hearing loss by:",
@@ -3440,7 +4173,14 @@ SINA.lectures["biophys1-hearing"] = {
     "Damaging the nerve"
    ],
    "answer": 0,
-   "why": "A conductive loss."
+   "why": "A conductive loss.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-hearing/33.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "A cochlear implant works by:",
@@ -3451,7 +4191,14 @@ SINA.lectures["biophys1-hearing"] = {
     "Stimulating the nerve"
    ],
    "answer": 3,
-   "why": "Bypassing destroyed hair cells."
+   "why": "Bypassing destroyed hair cells.",
+   "slides": [
+    {
+     "src": "files/slides/biophys1-hearing/36.jpg",
+     "lec": "Biophysics of hearing",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

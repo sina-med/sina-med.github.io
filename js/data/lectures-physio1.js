@@ -171,7 +171,14 @@ SINA.lectures["physio1-cardiovascular"] = {
     "Lymph"
    ],
    "answer": 1,
-   "why": "Exception to the rule."
+   "why": "Exception to the rule.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiovascular/10.jpg",
+     "lec": "The cardiovascular system",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "How many pulmonary veins enter the left atrium?",
@@ -182,7 +189,14 @@ SINA.lectures["physio1-cardiovascular"] = {
     "6"
    ],
    "answer": 2,
-   "why": "Oxygenated blood."
+   "why": "Oxygenated blood.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiovascular/12.jpg",
+     "lec": "The cardiovascular system",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The systemic circulation holds about what share of blood volume?",
@@ -193,7 +207,19 @@ SINA.lectures["physio1-cardiovascular"] = {
     "99%"
    ],
    "answer": 2,
-   "why": "Pulmonary holds the rest."
+   "why": "Pulmonary holds the rest.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiovascular/09.jpg",
+     "lec": "The cardiovascular system",
+     "n": 9
+    },
+    {
+     "src": "files/slides/physio1-cardiovascular/10.jpg",
+     "lec": "The cardiovascular system",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The basic haemodynamic equation is:",
@@ -215,7 +241,14 @@ SINA.lectures["physio1-cardiovascular"] = {
     "Length"
    ],
    "answer": 2,
-   "why": "R = 8ηL/πr⁴."
+   "why": "R = 8ηL/πr⁴.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiovascular/16.jpg",
+     "lec": "The cardiovascular system",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "If a vessel's radius halves, its resistance:",
@@ -226,7 +259,14 @@ SINA.lectures["physio1-cardiovascular"] = {
     "Halves"
    ],
    "answer": 2,
-   "why": "2⁴ = 16."
+   "why": "2⁴ = 16.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiovascular/17.jpg",
+     "lec": "The cardiovascular system",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The main resistance vessels are the:",
@@ -237,7 +277,14 @@ SINA.lectures["physio1-cardiovascular"] = {
     "Veins"
    ],
    "answer": 1,
-   "why": "Small, muscular."
+   "why": "Small, muscular.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiovascular/16.jpg",
+     "lec": "The cardiovascular system",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Blood viscosity mainly depends on the:",
@@ -248,7 +295,14 @@ SINA.lectures["physio1-cardiovascular"] = {
     "Heart rate"
    ],
    "answer": 1,
-   "why": "Haematocrit."
+   "why": "Haematocrit.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiovascular/16.jpg",
+     "lec": "The cardiovascular system",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Blood velocity is lowest in the:",
@@ -270,7 +324,14 @@ SINA.lectures["physio1-cardiovascular"] = {
     "35/10 mmHg"
    ],
    "answer": 1,
-   "why": "Systemic."
+   "why": "Systemic.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiovascular/19.jpg",
+     "lec": "The cardiovascular system",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Pulmonary artery pressure is about:",
@@ -281,7 +342,19 @@ SINA.lectures["physio1-cardiovascular"] = {
     "5/0 mmHg"
    ],
    "answer": 1,
-   "why": "Low-pressure loop."
+   "why": "Low-pressure loop.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiovascular/16.jpg",
+     "lec": "The cardiovascular system",
+     "n": 16
+    },
+    {
+     "src": "files/slides/physio1-cardiovascular/19.jpg",
+     "lec": "The cardiovascular system",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "EDRF was identified as:",
@@ -292,7 +365,14 @@ SINA.lectures["physio1-cardiovascular"] = {
     "Angiotensin II"
    ],
    "answer": 1,
-   "why": "Nobel 1998."
+   "why": "Nobel 1998.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiovascular/27.jpg",
+     "lec": "The cardiovascular system",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Without endothelium, acetylcholine makes an aortic ring:",
@@ -303,7 +383,19 @@ SINA.lectures["physio1-cardiovascular"] = {
     "Fibrillate"
    ],
    "answer": 1,
-   "why": "Direct muscarinic effect on muscle."
+   "why": "Direct muscarinic effect on muscle.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiovascular/23.jpg",
+     "lec": "The cardiovascular system",
+     "n": 23
+    },
+    {
+     "src": "files/slides/physio1-cardiovascular/25.jpg",
+     "lec": "The cardiovascular system",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Nitric oxide causes vascular smooth muscle to:",
@@ -325,7 +417,14 @@ SINA.lectures["physio1-cardiovascular"] = {
     "Low calcium"
    ],
    "answer": 0,
-   "why": "Flow-mediated dilatation."
+   "why": "Flow-mediated dilatation.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiovascular/24.jpg",
+     "lec": "The cardiovascular system",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -685,7 +784,19 @@ SINA.lectures["physio1-heart"] = {
     "Pericardium"
    ],
    "answer": 1,
-   "why": "Cardiac muscle."
+   "why": "Cardiac muscle.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-heart/04.jpg",
+     "lec": "Physiology of the heart",
+     "n": 4
+    },
+    {
+     "src": "files/slides/physio1-heart/05.jpg",
+     "lec": "Physiology of the heart",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The endocardium is continuous with the:",
@@ -696,7 +807,14 @@ SINA.lectures["physio1-heart"] = {
     "Myocardium"
    ],
    "answer": 1,
-   "why": "Endothelium."
+   "why": "Endothelium.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-heart/05.jpg",
+     "lec": "Physiology of the heart",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The normal pacemaker of the heart is the:",
@@ -707,7 +825,14 @@ SINA.lectures["physio1-heart"] = {
     "Purkinje fibres"
    ],
    "answer": 1,
-   "why": "About 70/min."
+   "why": "About 70/min.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-heart/15.jpg",
+     "lec": "Physiology of the heart",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The AV node delays conduction by about:",
@@ -718,7 +843,14 @@ SINA.lectures["physio1-heart"] = {
     "0.5 s"
    ],
    "answer": 1,
-   "why": "Lets atria finish filling."
+   "why": "Lets atria finish filling.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-heart/31.jpg",
+     "lec": "Physiology of the heart",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "If the SA and AV nodes fail, the Purkinje fibres pace at about:",
@@ -729,7 +861,19 @@ SINA.lectures["physio1-heart"] = {
     "100/min"
    ],
    "answer": 2,
-   "why": "Escape rhythm."
+   "why": "Escape rhythm.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-heart/28.jpg",
+     "lec": "Physiology of the heart",
+     "n": 28
+    },
+    {
+     "src": "files/slides/physio1-heart/29.jpg",
+     "lec": "Physiology of the heart",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "The pacemaker potential is driven partly by:",
@@ -740,7 +884,14 @@ SINA.lectures["physio1-heart"] = {
     "Gap junctions"
    ],
    "answer": 0,
-   "why": "HCN channels."
+   "why": "HCN channels.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-heart/24.jpg",
+     "lec": "Physiology of the heart",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Cells of the conducting system communicate through:",
@@ -751,7 +902,14 @@ SINA.lectures["physio1-heart"] = {
     "Synapses"
    ],
    "answer": 1,
-   "why": "Electrical coupling."
+   "why": "Electrical coupling.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-heart/14.jpg",
+     "lec": "Physiology of the heart",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Noradrenaline acts on cardiac muscle mainly via:",
@@ -762,7 +920,14 @@ SINA.lectures["physio1-heart"] = {
     "Nicotinic receptors"
    ],
    "answer": 1,
-   "why": "↑ rate and force."
+   "why": "↑ rate and force.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-heart/20.jpg",
+     "lec": "Physiology of the heart",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Vagal acetylcholine acts on cardiac:",
@@ -773,7 +938,14 @@ SINA.lectures["physio1-heart"] = {
     "α2 receptors"
    ],
    "answer": 1,
-   "why": "Slows the SA node."
+   "why": "Slows the SA node.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-heart/20.jpg",
+     "lec": "Physiology of the heart",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The parasympathetic system mainly innervates:",
@@ -784,7 +956,14 @@ SINA.lectures["physio1-heart"] = {
     "The pericardium"
    ],
    "answer": 1,
-   "why": "SA and AV nodes."
+   "why": "SA and AV nodes.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-heart/19.jpg",
+     "lec": "Physiology of the heart",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "ANP is secreted by:",
@@ -795,7 +974,14 @@ SINA.lectures["physio1-heart"] = {
     "The kidney"
    ],
    "answer": 1,
-   "why": "When stretched."
+   "why": "When stretched.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-heart/17.jpg",
+     "lec": "Physiology of the heart",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "ANP promotes:",
@@ -806,7 +992,19 @@ SINA.lectures["physio1-heart"] = {
     "Renin release"
    ],
    "answer": 1,
-   "why": "Natriuresis."
+   "why": "Natriuresis.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-heart/17.jpg",
+     "lec": "Physiology of the heart",
+     "n": 17
+    },
+    {
+     "src": "files/slides/physio1-heart/18.jpg",
+     "lec": "Physiology of the heart",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "A risk of atrial fibrillation is:",
@@ -817,7 +1015,14 @@ SINA.lectures["physio1-heart"] = {
     "Hyperkalaemia"
    ],
    "answer": 1,
-   "why": "Stasis in atria."
+   "why": "Stasis in atria.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-heart/17.jpg",
+     "lec": "Physiology of the heart",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Ventricular fibrillation is treated by:",
@@ -828,7 +1033,14 @@ SINA.lectures["physio1-heart"] = {
     "Rest"
    ],
    "answer": 1,
-   "why": "Emergency shock."
+   "why": "Emergency shock.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-heart/31.jpg",
+     "lec": "Physiology of the heart",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Approximately what share of cardiomyocytes is renewed per year?",
@@ -839,7 +1051,19 @@ SINA.lectures["physio1-heart"] = {
     "100%"
    ],
    "answer": 0,
-   "why": "Very limited repair."
+   "why": "Very limited repair.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-heart/11.jpg",
+     "lec": "Physiology of the heart",
+     "n": 11
+    },
+    {
+     "src": "files/slides/physio1-heart/12.jpg",
+     "lec": "Physiology of the heart",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1194,7 +1418,14 @@ SINA.lectures["physio1-cardiac-cycle"] = {
     "Valve closure only"
    ],
    "answer": 1,
-   "why": "Diastole is filling."
+   "why": "Diastole is filling.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiac-cycle/05.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The first heart sound is due to closure of the:",
@@ -1216,7 +1447,19 @@ SINA.lectures["physio1-cardiac-cycle"] = {
     "Low viscosity only"
    ],
    "answer": 1,
-   "why": "Obstruction or leak."
+   "why": "Obstruction or leak.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiac-cycle/11.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 11
+    },
+    {
+     "src": "files/slides/physio1-cardiac-cycle/12.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Mitral regurgitation is heard during:",
@@ -1227,7 +1470,19 @@ SINA.lectures["physio1-cardiac-cycle"] = {
     "Never"
    ],
    "answer": 1,
-   "why": "Blood leaks back into LA as LV contracts."
+   "why": "Blood leaks back into LA as LV contracts.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiac-cycle/02.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 2
+    },
+    {
+     "src": "files/slides/physio1-cardiac-cycle/05.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Aortic stenosis is heard during:",
@@ -1238,7 +1493,19 @@ SINA.lectures["physio1-cardiac-cycle"] = {
     "Only in children"
    ],
    "answer": 0,
-   "why": "Narrow outflow in ejection."
+   "why": "Narrow outflow in ejection.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiac-cycle/05.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 5
+    },
+    {
+     "src": "files/slides/physio1-cardiac-cycle/21.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Cardiac output equals:",
@@ -1249,7 +1516,19 @@ SINA.lectures["physio1-cardiac-cycle"] = {
     "SV / EDV"
    ],
    "answer": 1,
-   "why": "About 5 L/min."
+   "why": "About 5 L/min.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiac-cycle/23.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 23
+    },
+    {
+     "src": "files/slides/physio1-cardiac-cycle/42.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Resting cardiac output is about:",
@@ -1260,7 +1539,19 @@ SINA.lectures["physio1-cardiac-cycle"] = {
     "30 L/min"
    ],
    "answer": 1,
-   "why": "70 × 70 mL."
+   "why": "70 × 70 mL.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiac-cycle/23.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 23
+    },
+    {
+     "src": "files/slides/physio1-cardiac-cycle/42.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Stroke volume equals:",
@@ -1271,7 +1562,19 @@ SINA.lectures["physio1-cardiac-cycle"] = {
     "HR × EDV"
    ],
    "answer": 1,
-   "why": "About 70 mL."
+   "why": "About 70 mL.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiac-cycle/43.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 43
+    },
+    {
+     "src": "files/slides/physio1-cardiac-cycle/45.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "According to Starling's law, stroke volume depends mainly on:",
@@ -1282,7 +1585,19 @@ SINA.lectures["physio1-cardiac-cycle"] = {
     "Blood viscosity"
    ],
    "answer": 1,
-   "why": "Fibre stretch."
+   "why": "Fibre stretch.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiac-cycle/34.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 34
+    },
+    {
+     "src": "files/slides/physio1-cardiac-cycle/35.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Preload is mainly determined by:",
@@ -1293,7 +1608,14 @@ SINA.lectures["physio1-cardiac-cycle"] = {
     "Coronary flow"
    ],
    "answer": 1,
-   "why": "Sets EDV."
+   "why": "Sets EDV.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiac-cycle/35.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Sympathetic stimulation increases stroke volume mainly by:",
@@ -1304,7 +1626,19 @@ SINA.lectures["physio1-cardiac-cycle"] = {
     "Slowing the heart rate"
    ],
    "answer": 1,
-   "why": "Contractility."
+   "why": "Contractility.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiac-cycle/37.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 37
+    },
+    {
+     "src": "files/slides/physio1-cardiac-cycle/40.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Ejection fraction is:",
@@ -1315,7 +1649,14 @@ SINA.lectures["physio1-cardiac-cycle"] = {
     "CO / HR"
    ],
    "answer": 0,
-   "why": "50-75% normally."
+   "why": "50-75% normally.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiac-cycle/49.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "With EDV 165 mL and ESV 35 mL, stroke volume is:",
@@ -1326,7 +1667,19 @@ SINA.lectures["physio1-cardiac-cycle"] = {
     "200 mL"
    ],
    "answer": 2,
-   "why": "Both mechanisms."
+   "why": "Both mechanisms.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiac-cycle/43.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 43
+    },
+    {
+     "src": "files/slides/physio1-cardiac-cycle/48.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "A negative chronotropic influence is:",
@@ -1337,7 +1690,14 @@ SINA.lectures["physio1-cardiac-cycle"] = {
     "Thyroid hormone"
    ],
    "answer": 1,
-   "why": "Slows the SA node."
+   "why": "Slows the SA node.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiac-cycle/27.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "If stroke volume falls, cardiac output is maintained by:",
@@ -1348,7 +1708,19 @@ SINA.lectures["physio1-cardiac-cycle"] = {
     "Vasodilatation only"
    ],
    "answer": 1,
-   "why": "Tachycardia."
+   "why": "Tachycardia.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-cardiac-cycle/23.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 23
+    },
+    {
+     "src": "files/slides/physio1-cardiac-cycle/26.jpg",
+     "lec": "The cardiac cycle and cardiac output",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1730,7 +2102,14 @@ SINA.lectures["physio1-ecg"] = {
     "AV conduction"
    ],
    "answer": 1,
-   "why": "Thin atrial wall → small wave."
+   "why": "Thin atrial wall → small wave.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-ecg/20.jpg",
+     "lec": "Electrocardiography (ECG)",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The QRS complex represents:",
@@ -1741,7 +2120,14 @@ SINA.lectures["physio1-ecg"] = {
     "Atrial repolarisation"
    ],
    "answer": 1,
-   "why": "Atrial repolarisation is hidden in it."
+   "why": "Atrial repolarisation is hidden in it.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-ecg/31.jpg",
+     "lec": "Electrocardiography (ECG)",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "The T wave represents:",
@@ -1752,7 +2138,19 @@ SINA.lectures["physio1-ecg"] = {
     "Septal depolarisation"
    ],
    "answer": 1,
-   "why": "Normally positive."
+   "why": "Normally positive.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-ecg/43.jpg",
+     "lec": "Electrocardiography (ECG)",
+     "n": 43
+    },
+    {
+     "src": "files/slides/physio1-ecg/47.jpg",
+     "lec": "Electrocardiography (ECG)",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "The normal PR interval is:",
@@ -1763,7 +2161,14 @@ SINA.lectures["physio1-ecg"] = {
     "0.5-1 s"
    ],
    "answer": 1,
-   "why": "AV conduction."
+   "why": "AV conduction.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-ecg/43.jpg",
+     "lec": "Electrocardiography (ECG)",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "A PR interval above 0.20 s suggests:",
@@ -1774,7 +2179,14 @@ SINA.lectures["physio1-ecg"] = {
     "Hyperkalaemia"
    ],
    "answer": 1,
-   "why": "Slow AV conduction."
+   "why": "Slow AV conduction.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-ecg/43.jpg",
+     "lec": "Electrocardiography (ECG)",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "At 25 mm/s, one small square (1 mm) equals:",
@@ -1785,7 +2197,14 @@ SINA.lectures["physio1-ecg"] = {
     "0.2 s"
    ],
    "answer": 1,
-   "why": "Five squares = 0.2 s."
+   "why": "Five squares = 0.2 s.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-ecg/24.jpg",
+     "lec": "Electrocardiography (ECG)",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Einthoven's relation is:",
@@ -1796,7 +2215,19 @@ SINA.lectures["physio1-ecg"] = {
     "aVR = aVL + aVF"
    ],
    "answer": 1,
-   "why": "Bipolar limb leads."
+   "why": "Bipolar limb leads.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-ecg/26.jpg",
+     "lec": "Electrocardiography (ECG)",
+     "n": 26
+    },
+    {
+     "src": "files/slides/physio1-ecg/28.jpg",
+     "lec": "Electrocardiography (ECG)",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Lead DII measures between:",
@@ -1807,7 +2238,14 @@ SINA.lectures["physio1-ecg"] = {
     "Chest and back"
    ],
    "answer": 1,
-   "why": "Einthoven."
+   "why": "Einthoven.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-ecg/26.jpg",
+     "lec": "Electrocardiography (ECG)",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "V1 is placed at the:",
@@ -1818,7 +2256,14 @@ SINA.lectures["physio1-ecg"] = {
     "2nd right space, sternal edge"
    ],
    "answer": 0,
-   "why": "V2 on the left."
+   "why": "V2 on the left.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-ecg/27.jpg",
+     "lec": "Electrocardiography (ECG)",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "An electrode that sees depolarisation approaching records:",
@@ -1829,7 +2274,14 @@ SINA.lectures["physio1-ecg"] = {
     "A flat line"
    ],
    "answer": 1,
-   "why": "Dipole rule."
+   "why": "Dipole rule.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-ecg/18.jpg",
+     "lec": "Electrocardiography (ECG)",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Phase 0 of the myocardial action potential is due to:",
@@ -1840,7 +2292,14 @@ SINA.lectures["physio1-ecg"] = {
     "Ca²⁺ exit"
    ],
    "answer": 1,
-   "why": "Fast depolarisation."
+   "why": "Fast depolarisation.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-ecg/09.jpg",
+     "lec": "Electrocardiography (ECG)",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The plateau (phase 2) is characteristic of:",
@@ -1851,7 +2310,14 @@ SINA.lectures["physio1-ecg"] = {
     "Red cells"
    ],
    "answer": 1,
-   "why": "Prolongs contraction."
+   "why": "Prolongs contraction.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-ecg/09.jpg",
+     "lec": "Electrocardiography (ECG)",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Normal resting heart rate in adults is:",
@@ -1862,7 +2328,14 @@ SINA.lectures["physio1-ecg"] = {
     "30-50/min"
    ],
    "answer": 1,
-   "why": "Tachycardia > 100."
+   "why": "Tachycardia > 100.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-ecg/37.jpg",
+     "lec": "Electrocardiography (ECG)",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "The inferior territory is seen in leads:",
@@ -1873,7 +2346,14 @@ SINA.lectures["physio1-ecg"] = {
     "V5, V6 only"
    ],
    "answer": 1,
-   "why": "Diaphragmatic wall."
+   "why": "Diaphragmatic wall.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-ecg/36.jpg",
+     "lec": "Electrocardiography (ECG)",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "A necrotic Q wave suggests:",
@@ -1884,7 +2364,14 @@ SINA.lectures["physio1-ecg"] = {
     "Hyperthyroidism"
    ],
    "answer": 1,
-   "why": "> 0.04 s, > 1/3 of R."
+   "why": "> 0.04 s, > 1/3 of R.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-ecg/45.jpg",
+     "lec": "Electrocardiography (ECG)",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2262,7 +2749,19 @@ SINA.lectures["physio1-respiratory"] = {
     "40 mmHg"
    ],
    "answer": 1,
-   "why": "(760 − 47) × 0.21."
+   "why": "(760 − 47) × 0.21.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-respiratory/13.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 13
+    },
+    {
+     "src": "files/slides/physio1-respiratory/14.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The 47 mmHg subtracted from barometric pressure is:",
@@ -2273,7 +2772,14 @@ SINA.lectures["physio1-respiratory"] = {
     "Venous O₂ pressure"
    ],
    "answer": 1,
-   "why": "Air is humidified."
+   "why": "Air is humidified.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-respiratory/27.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Normal alveolar PO₂ is about:",
@@ -2284,7 +2790,19 @@ SINA.lectures["physio1-respiratory"] = {
     "760 mmHg"
    ],
    "answer": 1,
-   "why": "PACO₂ ≈ 40."
+   "why": "PACO₂ ≈ 40.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-respiratory/14.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 14
+    },
+    {
+     "src": "files/slides/physio1-respiratory/15.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Mixed venous PCO₂ is about:",
@@ -2295,7 +2813,19 @@ SINA.lectures["physio1-respiratory"] = {
     "100 mmHg"
    ],
    "answer": 2,
-   "why": "PvO₂ ≈ 40."
+   "why": "PvO₂ ≈ 40.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-respiratory/16.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 16
+    },
+    {
+     "src": "files/slides/physio1-respiratory/21.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "At 5,500 m with Patm 360 mmHg, PIO₂ is about:",
@@ -2306,7 +2836,14 @@ SINA.lectures["physio1-respiratory"] = {
     "20 mmHg"
    ],
    "answer": 2,
-   "why": "(360 − 47) × 0.21."
+   "why": "(360 − 47) × 0.21.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-respiratory/19.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "On Everest (Patm 250 mmHg), PIO₂ is about:",
@@ -2317,7 +2854,14 @@ SINA.lectures["physio1-respiratory"] = {
     "20 mmHg"
    ],
    "answer": 2,
-   "why": "(250 − 47) × 0.21."
+   "why": "(250 − 47) × 0.21.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-respiratory/20.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "A patient with PaCO₂ 50 mmHg has alveolar PCO₂ about:",
@@ -2328,7 +2872,14 @@ SINA.lectures["physio1-respiratory"] = {
     "55 mmHg"
    ],
    "answer": 2,
-   "why": "CO₂ equilibrates."
+   "why": "CO₂ equilibrates.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-respiratory/21.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "By Fick's law, gas diffusion is inversely proportional to:",
@@ -2339,7 +2890,19 @@ SINA.lectures["physio1-respiratory"] = {
     "Pressure gradient"
    ],
    "answer": 1,
-   "why": "Thicker = slower."
+   "why": "Thicker = slower.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-respiratory/10.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 10
+    },
+    {
+     "src": "files/slides/physio1-respiratory/11.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which is part of the respiratory zone?",
@@ -2350,7 +2913,19 @@ SINA.lectures["physio1-respiratory"] = {
     "Main bronchus"
    ],
    "answer": 2,
-   "why": "Gas exchange starts."
+   "why": "Gas exchange starts.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-respiratory/25.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 25
+    },
+    {
+     "src": "files/slides/physio1-respiratory/30.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "The conducting zone does NOT:",
@@ -2361,7 +2936,19 @@ SINA.lectures["physio1-respiratory"] = {
     "Humidify the air"
    ],
    "answer": 1,
-   "why": "Anatomical dead space."
+   "why": "Anatomical dead space.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-respiratory/25.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 25
+    },
+    {
+     "src": "files/slides/physio1-respiratory/30.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "With VT 500 mL and VD 150 mL, alveolar volume per breath is:",
@@ -2372,7 +2959,19 @@ SINA.lectures["physio1-respiratory"] = {
     "500 mL"
    ],
    "answer": 1,
-   "why": "VT = VD + VA."
+   "why": "VT = VD + VA.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-respiratory/34.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 34
+    },
+    {
+     "src": "files/slides/physio1-respiratory/38.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "With VT 500 mL and 15 breaths/min, minute ventilation is:",
@@ -2383,7 +2982,19 @@ SINA.lectures["physio1-respiratory"] = {
     "4.9 L/min"
    ],
    "answer": 1,
-   "why": "500 × 15."
+   "why": "500 × 15.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-respiratory/34.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 34
+    },
+    {
+     "src": "files/slides/physio1-respiratory/38.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Alveolar ventilation in the lecture example is:",
@@ -2394,7 +3005,19 @@ SINA.lectures["physio1-respiratory"] = {
     "4.9 L/min"
    ],
    "answer": 1,
-   "why": "350 × 15."
+   "why": "350 × 15.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-respiratory/34.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 34
+    },
+    {
+     "src": "files/slides/physio1-respiratory/38.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Pulmonary blood flow equals:",
@@ -2405,7 +3028,14 @@ SINA.lectures["physio1-respiratory"] = {
     "Dead space ventilation"
    ],
    "answer": 1,
-   "why": "≈ 4.9 L/min."
+   "why": "≈ 4.9 L/min.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-respiratory/36.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "The overall ventilation/perfusion ratio is about:",
@@ -2416,7 +3046,19 @@ SINA.lectures["physio1-respiratory"] = {
     "10"
    ],
    "answer": 1,
-   "why": "5.25/4.9."
+   "why": "5.25/4.9.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-respiratory/36.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 36
+    },
+    {
+     "src": "files/slides/physio1-respiratory/37.jpg",
+     "lec": "Introduction to the respiratory system",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2838,7 +3480,19 @@ SINA.lectures["physio1-lung-volumes"] = {
     "6,000 mL"
    ],
    "answer": 1,
-   "why": "Quiet breathing."
+   "why": "Quiet breathing.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-lung-volumes/02.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 2
+    },
+    {
+     "src": "files/slides/physio1-lung-volumes/14.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Air left in the lungs after a maximal expiration is the:",
@@ -2849,7 +3503,19 @@ SINA.lectures["physio1-lung-volumes"] = {
     "Tidal volume"
    ],
    "answer": 1,
-   "why": "Not measurable by spirometry."
+   "why": "Not measurable by spirometry.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-lung-volumes/14.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 14
+    },
+    {
+     "src": "files/slides/physio1-lung-volumes/18.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Vital capacity equals:",
@@ -2860,7 +3526,14 @@ SINA.lectures["physio1-lung-volumes"] = {
     "TLC + RV"
    ],
    "answer": 0,
-   "why": "Maximal exhaled volume."
+   "why": "Maximal exhaled volume.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-lung-volumes/21.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Functional residual capacity equals:",
@@ -2871,7 +3544,19 @@ SINA.lectures["physio1-lung-volumes"] = {
     "VT + ERV"
    ],
    "answer": 1,
-   "why": "After normal expiration."
+   "why": "After normal expiration.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-lung-volumes/20.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 20
+    },
+    {
+     "src": "files/slides/physio1-lung-volumes/21.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Total lung capacity equals:",
@@ -2882,7 +3567,19 @@ SINA.lectures["physio1-lung-volumes"] = {
     "FRC + VT"
    ],
    "answer": 0,
-   "why": "About 6 L."
+   "why": "About 6 L.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-lung-volumes/21.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 21
+    },
+    {
+     "src": "files/slides/physio1-lung-volumes/40.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Inspiratory capacity equals:",
@@ -2893,7 +3590,19 @@ SINA.lectures["physio1-lung-volumes"] = {
     "TLC − VT"
    ],
    "answer": 0,
-   "why": "From end of normal expiration."
+   "why": "From end of normal expiration.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-lung-volumes/20.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 20
+    },
+    {
+     "src": "files/slides/physio1-lung-volumes/21.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which cannot be measured with a simple spirometer?",
@@ -2904,7 +3613,14 @@ SINA.lectures["physio1-lung-volumes"] = {
     "IRV"
    ],
    "answer": 2,
-   "why": "Needs plethysmography or gas dilution."
+   "why": "Needs plethysmography or gas dilution.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-lung-volumes/23.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "During inspiration, alveolar pressure is:",
@@ -2915,7 +3631,14 @@ SINA.lectures["physio1-lung-volumes"] = {
     "Zero"
    ],
    "answer": 1,
-   "why": "Air flows in."
+   "why": "Air flows in.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-lung-volumes/09.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Intrapleural pressure at rest is:",
@@ -2926,7 +3649,14 @@ SINA.lectures["physio1-lung-volumes"] = {
     "Positive always"
    ],
    "answer": 1,
-   "why": "About 756 mmHg."
+   "why": "About 756 mmHg.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-lung-volumes/09.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "In obstructive lung disease, residual volume usually:",
@@ -2937,7 +3667,14 @@ SINA.lectures["physio1-lung-volumes"] = {
     "Becomes zero"
    ],
    "answer": 1,
-   "why": "Air trapping."
+   "why": "Air trapping.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-lung-volumes/36.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Air trapping leads to:",
@@ -2948,7 +3685,14 @@ SINA.lectures["physio1-lung-volumes"] = {
     "Lower TLC always"
    ],
    "answer": 1,
-   "why": "Distension."
+   "why": "Distension.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-lung-volumes/36.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "COPD combines:",
@@ -2959,7 +3703,14 @@ SINA.lectures["physio1-lung-volumes"] = {
     "Embolism and infarction"
    ],
    "answer": 1,
-   "why": "Mostly smoking."
+   "why": "Mostly smoking.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-lung-volumes/34.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "The main cause of COPD is:",
@@ -2981,7 +3732,19 @@ SINA.lectures["physio1-lung-volumes"] = {
     "VT − VD"
    ],
    "answer": 0,
-   "why": "~6-7.5 L/min."
+   "why": "~6-7.5 L/min.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-lung-volumes/02.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 2
+    },
+    {
+     "src": "files/slides/physio1-lung-volumes/41.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "If IRV = 3,000, VT = 500, ERV = 1,200 mL, vital capacity is:",
@@ -2992,7 +3755,19 @@ SINA.lectures["physio1-lung-volumes"] = {
     "6,000 mL"
    ],
    "answer": 1,
-   "why": "Sum of the three."
+   "why": "Sum of the three.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-lung-volumes/19.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 19
+    },
+    {
+     "src": "files/slides/physio1-lung-volumes/21.jpg",
+     "lec": "Lung volumes and capacities",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3424,7 +4199,19 @@ SINA.lectures["physio1-pulmonary-vascular"] = {
     "Temperature"
    ],
    "answer": 1,
-   "why": "Local alveolar hypoxia."
+   "why": "Local alveolar hypoxia.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pulmonary-vascular/03.jpg",
+     "lec": "Pulmonary vascular physiology",
+     "n": 3
+    },
+    {
+     "src": "files/slides/physio1-pulmonary-vascular/04.jpg",
+     "lec": "Pulmonary vascular physiology",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "In hypoxia, systemic arteries generally:",
@@ -3457,7 +4244,14 @@ SINA.lectures["physio1-pulmonary-vascular"] = {
     "Pneumothorax"
    ],
    "answer": 1,
-   "why": "Right heart strain."
+   "why": "Right heart strain.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pulmonary-vascular/03.jpg",
+     "lec": "Pulmonary vascular physiology",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "HPV involves closure of:",
@@ -3490,7 +4284,19 @@ SINA.lectures["physio1-pulmonary-vascular"] = {
     "Normal"
    ],
    "answer": 1,
-   "why": "Dead space, high V/Q."
+   "why": "Dead space, high V/Q.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pulmonary-vascular/20.jpg",
+     "lec": "Pulmonary vascular physiology",
+     "n": 20
+    },
+    {
+     "src": "files/slides/physio1-pulmonary-vascular/21.jpg",
+     "lec": "Pulmonary vascular physiology",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "In asthma, affected alveoli are:",
@@ -3501,7 +4307,19 @@ SINA.lectures["physio1-pulmonary-vascular"] = {
     "Collapsed and unperfused only"
    ],
    "answer": 1,
-   "why": "Low V/Q."
+   "why": "Low V/Q.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pulmonary-vascular/20.jpg",
+     "lec": "Pulmonary vascular physiology",
+     "n": 20
+    },
+    {
+     "src": "files/slides/physio1-pulmonary-vascular/21.jpg",
+     "lec": "Pulmonary vascular physiology",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "A poorly perfused lung region responds with:",
@@ -3512,7 +4330,14 @@ SINA.lectures["physio1-pulmonary-vascular"] = {
     "Surfactant loss"
    ],
    "answer": 1,
-   "why": "Low PCO₂."
+   "why": "Low PCO₂.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pulmonary-vascular/21.jpg",
+     "lec": "Pulmonary vascular physiology",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Pulmonary artery pressure is normally about:",
@@ -3523,7 +4348,14 @@ SINA.lectures["physio1-pulmonary-vascular"] = {
     "5/2 mmHg"
    ],
    "answer": 1,
-   "why": "Low-pressure circuit."
+   "why": "Low-pressure circuit.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pulmonary-vascular/15.jpg",
+     "lec": "Pulmonary vascular physiology",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Blood passing through pneumonic alveoli is an example of:",
@@ -3545,7 +4377,14 @@ SINA.lectures["physio1-pulmonary-vascular"] = {
     "Aorta and pulmonary vein"
    ],
    "answer": 1,
-   "why": "Close after birth."
+   "why": "Close after birth.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pulmonary-vascular/13.jpg",
+     "lec": "Pulmonary vascular physiology",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The logic of HPV resembles insulin release, where K⁺ channel closure causes:",
@@ -3567,7 +4406,14 @@ SINA.lectures["physio1-pulmonary-vascular"] = {
     "A right-to-left shunt"
    ],
    "answer": 1,
-   "why": "High PO₂."
+   "why": "High PO₂.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pulmonary-vascular/20.jpg",
+     "lec": "Pulmonary vascular physiology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The aim of ventilation-perfusion coupling is a regional V/Q near:",
@@ -3578,7 +4424,19 @@ SINA.lectures["physio1-pulmonary-vascular"] = {
     "100"
    ],
    "answer": 1,
-   "why": "Matching."
+   "why": "Matching.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pulmonary-vascular/05.jpg",
+     "lec": "Pulmonary vascular physiology",
+     "n": 5
+    },
+    {
+     "src": "files/slides/physio1-pulmonary-vascular/06.jpg",
+     "lec": "Pulmonary vascular physiology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3972,7 +4830,19 @@ SINA.lectures["physio1-gi-intro"] = {
     "Oesophagus"
    ],
    "answer": 1,
-   "why": "Villi and microvilli give a vast surface."
+   "why": "Villi and microvilli give a vast surface.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gi-intro/04.jpg",
+     "lec": "Introduction to digestive physiology",
+     "n": 4
+    },
+    {
+     "src": "files/slides/physio1-gi-intro/07.jpg",
+     "lec": "Introduction to digestive physiology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The myenteric plexus mainly controls:",
@@ -4005,7 +4875,14 @@ SINA.lectures["physio1-gi-intro"] = {
     "Secreting acid"
    ],
    "answer": 1,
-   "why": "No enzymes in bile."
+   "why": "No enzymes in bile.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gi-intro/07.jpg",
+     "lec": "Introduction to digestive physiology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which organ secretes enzymes for carbohydrates, proteins and fats?",
@@ -4016,7 +4893,14 @@ SINA.lectures["physio1-gi-intro"] = {
     "Colon"
    ],
    "answer": 1,
-   "why": "Amylase, proteases, lipase."
+   "why": "Amylase, proteases, lipase.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gi-intro/07.jpg",
+     "lec": "Introduction to digestive physiology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The main role of the colon is:",
@@ -4027,7 +4911,14 @@ SINA.lectures["physio1-gi-intro"] = {
     "Gastric acid secretion"
    ],
    "answer": 1,
-   "why": "Plus storage."
+   "why": "Plus storage.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gi-intro/07.jpg",
+     "lec": "Introduction to digestive physiology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The parasympathetic supply to most of the gut is carried by the:",
@@ -4038,7 +4929,19 @@ SINA.lectures["physio1-gi-intro"] = {
     "Hypoglossal nerve"
    ],
    "answer": 1,
-   "why": "Stimulates motility and secretion."
+   "why": "Stimulates motility and secretion.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gi-intro/02.jpg",
+     "lec": "Introduction to digestive physiology",
+     "n": 2
+    },
+    {
+     "src": "files/slides/physio1-gi-intro/06.jpg",
+     "lec": "Introduction to digestive physiology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Seeing and smelling food starts secretion in the:",
@@ -4071,7 +4974,14 @@ SINA.lectures["physio1-gi-intro"] = {
     "Secretion"
    ],
    "answer": 1,
-   "why": "Chemical digestion."
+   "why": "Chemical digestion.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gi-intro/03.jpg",
+     "lec": "Introduction to digestive physiology",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The sympathetic system generally:",
@@ -4480,7 +5390,14 @@ SINA.lectures["physio1-oral"] = {
     "Identical"
    ],
    "answer": 1,
-   "why": "Ducts remove salt, not water."
+   "why": "Ducts remove salt, not water.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-oral/09.jpg",
+     "lec": "Saliva, mastication and deglutition",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Primary saliva secreted by acinar cells is:",
@@ -4491,7 +5408,14 @@ SINA.lectures["physio1-oral"] = {
     "Free of electrolytes"
    ],
    "answer": 1,
-   "why": "Plasma-like."
+   "why": "Plasma-like.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-oral/09.jpg",
+     "lec": "Saliva, mastication and deglutition",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The salivary ducts secrete:",
@@ -4502,7 +5426,19 @@ SINA.lectures["physio1-oral"] = {
     "Water only"
    ],
    "answer": 1,
-   "why": "And reabsorb Na⁺/Cl⁻."
+   "why": "And reabsorb Na⁺/Cl⁻.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-oral/09.jpg",
+     "lec": "Saliva, mastication and deglutition",
+     "n": 9
+    },
+    {
+     "src": "files/slides/physio1-oral/12.jpg",
+     "lec": "Saliva, mastication and deglutition",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The main stimulus of salivary secretion is:",
@@ -4513,7 +5449,14 @@ SINA.lectures["physio1-oral"] = {
     "Insulin"
    ],
    "answer": 1,
-   "why": "Watery saliva."
+   "why": "Watery saliva.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-oral/11.jpg",
+     "lec": "Saliva, mastication and deglutition",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The enzyme in saliva that begins starch digestion is:",
@@ -4524,7 +5467,14 @@ SINA.lectures["physio1-oral"] = {
     "Lactase"
    ],
    "answer": 1,
-   "why": "Ptyalin."
+   "why": "Ptyalin.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-oral/13.jpg",
+     "lec": "Saliva, mastication and deglutition",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The muscles of mastication are supplied by:",
@@ -4535,7 +5485,14 @@ SINA.lectures["physio1-oral"] = {
     "Vagus nerve"
    ],
    "answer": 1,
-   "why": "Trigeminal motor root."
+   "why": "Trigeminal motor root.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-oral/24.jpg",
+     "lec": "Saliva, mastication and deglutition",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which phase of swallowing is voluntary?",
@@ -4546,7 +5503,14 @@ SINA.lectures["physio1-oral"] = {
     "All three"
    ],
    "answer": 0,
-   "why": "The rest is reflex."
+   "why": "The rest is reflex.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-oral/10.jpg",
+     "lec": "Saliva, mastication and deglutition",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The swallowing centre is in the:",
@@ -4557,7 +5521,14 @@ SINA.lectures["physio1-oral"] = {
     "Spinal cord"
    ],
    "answer": 1,
-   "why": "Brainstem."
+   "why": "Brainstem.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-oral/27.jpg",
+     "lec": "Saliva, mastication and deglutition",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "During the pharyngeal phase, the airway is protected by:",
@@ -4568,7 +5539,14 @@ SINA.lectures["physio1-oral"] = {
     "Increased breathing"
    ],
    "answer": 1,
-   "why": "Breathing stops briefly."
+   "why": "Breathing stops briefly.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-oral/27.jpg",
+     "lec": "Saliva, mastication and deglutition",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Xerostomia is typical of:",
@@ -4579,7 +5557,14 @@ SINA.lectures["physio1-oral"] = {
     "Hyperthyroidism"
    ],
    "answer": 0,
-   "why": "Autoimmune exocrinopathy."
+   "why": "Autoimmune exocrinopathy.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-oral/17.jpg",
+     "lec": "Saliva, mastication and deglutition",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Zenker's diverticulum lies:",
@@ -4590,7 +5575,19 @@ SINA.lectures["physio1-oral"] = {
     "Just above the lower sphincter"
    ],
    "answer": 0,
-   "why": "Pharyngo-oesophageal pouch."
+   "why": "Pharyngo-oesophageal pouch.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-oral/27.jpg",
+     "lec": "Saliva, mastication and deglutition",
+     "n": 27
+    },
+    {
+     "src": "files/slides/physio1-oral/29.jpg",
+     "lec": "Saliva, mastication and deglutition",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Aldosterone acts on salivary ducts to:",
@@ -4601,7 +5598,14 @@ SINA.lectures["physio1-oral"] = {
     "Increase water entry"
    ],
    "answer": 0,
-   "why": "Like the kidney."
+   "why": "Like the kidney.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-oral/12.jpg",
+     "lec": "Saliva, mastication and deglutition",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "At high flow rates saliva becomes:",
@@ -5015,7 +6019,14 @@ SINA.lectures["physio1-gastric-motility"] = {
     "Chief cells"
    ],
    "answer": 1,
-   "why": "Generate slow waves."
+   "why": "Generate slow waves.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-motility/08.jpg",
+     "lec": "Gastric motility",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Phase III of the migrating motor complex is triggered by:",
@@ -5026,7 +6037,14 @@ SINA.lectures["physio1-gastric-motility"] = {
     "Insulin"
    ],
    "answer": 1,
-   "why": "Fasting housekeeper."
+   "why": "Fasting housekeeper.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-motility/11.jpg",
+     "lec": "Gastric motility",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The MMC cycle lasts about:",
@@ -5037,7 +6055,14 @@ SINA.lectures["physio1-gastric-motility"] = {
     "24 hours"
    ],
    "answer": 1,
-   "why": "Interrupted by feeding."
+   "why": "Interrupted by feeding.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-motility/13.jpg",
+     "lec": "Gastric motility",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Receptive relaxation is mediated by:",
@@ -5048,7 +6073,14 @@ SINA.lectures["physio1-gastric-motility"] = {
     "Histamine"
    ],
    "answer": 1,
-   "why": "Vagovagal reflex."
+   "why": "Vagovagal reflex.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-motility/17.jpg",
+     "lec": "Gastric motility",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Liquid emptying mainly depends on:",
@@ -5059,7 +6091,19 @@ SINA.lectures["physio1-gastric-motility"] = {
     "Pyloric closure"
    ],
    "answer": 1,
-   "why": "Pressure gradient."
+   "why": "Pressure gradient.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-motility/03.jpg",
+     "lec": "Gastric motility",
+     "n": 3
+    },
+    {
+     "src": "files/slides/physio1-gastric-motility/16.jpg",
+     "lec": "Gastric motility",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "During feeding the pylorus allows particles of about:",
@@ -5081,7 +6125,14 @@ SINA.lectures["physio1-gastric-motility"] = {
     "Motilin"
    ],
    "answer": 3,
-   "why": "Motilin accelerates."
+   "why": "Motilin accelerates.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-motility/40.jpg",
+     "lec": "Gastric motility",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Erythromycin speeds gastric emptying because it:",
@@ -5092,7 +6143,14 @@ SINA.lectures["physio1-gastric-motility"] = {
     "Relaxes the pylorus only"
    ],
    "answer": 1,
-   "why": "Motilin agonist."
+   "why": "Motilin agonist.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-motility/40.jpg",
+     "lec": "Gastric motility",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "A classic cause of gastroparesis is:",
@@ -5103,7 +6161,14 @@ SINA.lectures["physio1-gastric-motility"] = {
     "Hepatitis A"
    ],
    "answer": 0,
-   "why": "Vagal neuropathy."
+   "why": "Vagal neuropathy.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-motility/36.jpg",
+     "lec": "Gastric motility",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "The ¹³C-octanoic acid breath test measures:",
@@ -5125,7 +6190,14 @@ SINA.lectures["physio1-gastric-motility"] = {
     "Anticholinergics"
    ],
    "answer": 1,
-   "why": "Prokinetics."
+   "why": "Prokinetics.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-motility/40.jpg",
+     "lec": "Gastric motility",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Large indigestible solids leave the stomach:",
@@ -5136,7 +6208,19 @@ SINA.lectures["physio1-gastric-motility"] = {
     "Never"
    ],
    "answer": 1,
-   "why": "Fasting state."
+   "why": "Fasting state.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-motility/11.jpg",
+     "lec": "Gastric motility",
+     "n": 11
+    },
+    {
+     "src": "files/slides/physio1-gastric-motility/20.jpg",
+     "lec": "Gastric motility",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Retropulsion occurs when:",
@@ -5147,7 +6231,19 @@ SINA.lectures["physio1-gastric-motility"] = {
     "The duodenum contracts before the antrum"
    ],
    "answer": 0,
-   "why": "Grinding."
+   "why": "Grinding.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-motility/20.jpg",
+     "lec": "Gastric motility",
+     "n": 20
+    },
+    {
+     "src": "files/slides/physio1-gastric-motility/21.jpg",
+     "lec": "Gastric motility",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Dumping syndrome results from:",
@@ -5158,7 +6254,14 @@ SINA.lectures["physio1-gastric-motility"] = {
     "Failure of the LES to relax"
    ],
    "answer": 1,
-   "why": "Often after gastric surgery."
+   "why": "Often after gastric surgery.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-motility/41.jpg",
+     "lec": "Gastric motility",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5564,7 +6667,14 @@ SINA.lectures["physio1-gastric-secretion"] = {
     "D cells"
    ],
    "answer": 1,
-   "why": "Along with HCl."
+   "why": "Along with HCl.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-secretion/18.jpg",
+     "lec": "Gastric secretion",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Pepsinogen is secreted by:",
@@ -5575,7 +6685,14 @@ SINA.lectures["physio1-gastric-secretion"] = {
     "Mucous neck cells only"
    ],
    "answer": 1,
-   "why": "Activated by acid."
+   "why": "Activated by acid.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-secretion/46.jpg",
+     "lec": "Gastric secretion",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "Gastrin is secreted by G cells located in the:",
@@ -5586,7 +6703,19 @@ SINA.lectures["physio1-gastric-secretion"] = {
     "Duodenal crypts only"
    ],
    "answer": 1,
-   "why": "Antral glands."
+   "why": "Antral glands.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-secretion/07.jpg",
+     "lec": "Gastric secretion",
+     "n": 7
+    },
+    {
+     "src": "files/slides/physio1-gastric-secretion/44.jpg",
+     "lec": "Gastric secretion",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "The proton pump exchanges H⁺ for:",
@@ -5597,7 +6726,14 @@ SINA.lectures["physio1-gastric-secretion"] = {
     "Ca²⁺"
    ],
    "answer": 1,
-   "why": "H⁺/K⁺ ATPase."
+   "why": "H⁺/K⁺ ATPase.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-secretion/27.jpg",
+     "lec": "Gastric secretion",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "After a meal, blood leaving the stomach is alkaline because:",
@@ -5608,7 +6744,14 @@ SINA.lectures["physio1-gastric-secretion"] = {
     "K⁺ leaves the cell into the blood"
    ],
    "answer": 0,
-   "why": "Alkaline tide."
+   "why": "Alkaline tide.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-secretion/27.jpg",
+     "lec": "Gastric secretion",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Histamine stimulates the parietal cell through:",
@@ -5619,7 +6762,19 @@ SINA.lectures["physio1-gastric-secretion"] = {
     "CCK2 receptors"
    ],
    "answer": 1,
-   "why": "Cimetidine blocks it."
+   "why": "Cimetidine blocks it.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-secretion/25.jpg",
+     "lec": "Gastric secretion",
+     "n": 25
+    },
+    {
+     "src": "files/slides/physio1-gastric-secretion/50.jpg",
+     "lec": "Gastric secretion",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "Acetylcholine acts on the parietal cell via:",
@@ -5630,7 +6785,19 @@ SINA.lectures["physio1-gastric-secretion"] = {
     "β2 receptors"
    ],
    "answer": 1,
-   "why": "Ca²⁺ pathway."
+   "why": "Ca²⁺ pathway.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-secretion/25.jpg",
+     "lec": "Gastric secretion",
+     "n": 25
+    },
+    {
+     "src": "files/slides/physio1-gastric-secretion/43.jpg",
+     "lec": "Gastric secretion",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "The main inhibitor of gastrin release is:",
@@ -5641,7 +6808,19 @@ SINA.lectures["physio1-gastric-secretion"] = {
     "GRP"
    ],
    "answer": 1,
-   "why": "From D cells when pH < 3."
+   "why": "From D cells when pH < 3.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-secretion/14.jpg",
+     "lec": "Gastric secretion",
+     "n": 14
+    },
+    {
+     "src": "files/slides/physio1-gastric-secretion/31.jpg",
+     "lec": "Gastric secretion",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "The phase responsible for most acid secretion is:",
@@ -5652,7 +6831,14 @@ SINA.lectures["physio1-gastric-secretion"] = {
     "Interdigestive"
    ],
    "answer": 1,
-   "why": "About 60%."
+   "why": "About 60%.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-secretion/36.jpg",
+     "lec": "Gastric secretion",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Vitamin B12-intrinsic factor complex is absorbed in the:",
@@ -5663,7 +6849,14 @@ SINA.lectures["physio1-gastric-secretion"] = {
     "Colon"
    ],
    "answer": 2,
-   "why": "Specific receptor."
+   "why": "Specific receptor.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-secretion/31.jpg",
+     "lec": "Gastric secretion",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "NSAIDs damage the gastric mucosa mainly by:",
@@ -5674,7 +6867,14 @@ SINA.lectures["physio1-gastric-secretion"] = {
     "Killing H. pylori"
    ],
    "answer": 0,
-   "why": "Less mucus and HCO₃⁻."
+   "why": "Less mucus and HCO₃⁻.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-secretion/31.jpg",
+     "lec": "Gastric secretion",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Omeprazole works by blocking:",
@@ -5696,7 +6896,14 @@ SINA.lectures["physio1-gastric-secretion"] = {
     "VIP"
    ],
    "answer": 1,
-   "why": "Gastrinoma."
+   "why": "Gastrinoma.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-secretion/58.jpg",
+     "lec": "Gastric secretion",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "In autoimmune atrophic gastritis, serum gastrin is:",
@@ -5707,7 +6914,19 @@ SINA.lectures["physio1-gastric-secretion"] = {
     "Absent"
    ],
    "answer": 1,
-   "why": "No acid to inhibit it."
+   "why": "No acid to inhibit it.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-secretion/35.jpg",
+     "lec": "Gastric secretion",
+     "n": 35
+    },
+    {
+     "src": "files/slides/physio1-gastric-secretion/44.jpg",
+     "lec": "Gastric secretion",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "As secretion rate rises, the H⁺ concentration of gastric juice:",
@@ -5718,7 +6937,14 @@ SINA.lectures["physio1-gastric-secretion"] = {
     "Becomes alkaline at high flow"
    ],
    "answer": 0,
-   "why": "Rate varies, not concentration."
+   "why": "Rate varies, not concentration.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-secretion/22.jpg",
+     "lec": "Gastric secretion",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Gastric lipase accounts for about what share of fat digestion?",
@@ -5729,7 +6955,14 @@ SINA.lectures["physio1-gastric-secretion"] = {
     "0%"
    ],
    "answer": 0,
-   "why": "More important in newborns."
+   "why": "More important in newborns.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-secretion/30.jpg",
+     "lec": "Gastric secretion",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Vagal fibres stimulate G cells through:",
@@ -5740,7 +6973,14 @@ SINA.lectures["physio1-gastric-secretion"] = {
     "Secretin"
    ],
    "answer": 1,
-   "why": "Not ACh directly."
+   "why": "Not ACh directly.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-gastric-secretion/43.jpg",
+     "lec": "Gastric secretion",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Which does gastric acid NOT do?",
@@ -6185,7 +7425,14 @@ SINA.lectures["physio1-pancreas"] = {
     "δ cells"
    ],
    "answer": 1,
-   "why": "Stimulated by secretin."
+   "why": "Stimulated by secretin.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pancreas/34.jpg",
+     "lec": "Exocrine pancreas",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "The main stimulus for pancreatic bicarbonate secretion is:",
@@ -6196,7 +7443,14 @@ SINA.lectures["physio1-pancreas"] = {
     "Somatostatin"
    ],
    "answer": 1,
-   "why": "Released by acid chyme."
+   "why": "Released by acid chyme.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pancreas/04.jpg",
+     "lec": "Exocrine pancreas",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "CCK is released in response to:",
@@ -6207,7 +7461,14 @@ SINA.lectures["physio1-pancreas"] = {
     "Glucose in blood"
    ],
    "answer": 1,
-   "why": "From I cells."
+   "why": "From I cells.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pancreas/04.jpg",
+     "lec": "Exocrine pancreas",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Trypsinogen is converted to trypsin by:",
@@ -6218,7 +7479,19 @@ SINA.lectures["physio1-pancreas"] = {
     "Bile salts"
    ],
    "answer": 1,
-   "why": "Duodenal brush border."
+   "why": "Duodenal brush border.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pancreas/16.jpg",
+     "lec": "Exocrine pancreas",
+     "n": 16
+    },
+    {
+     "src": "files/slides/physio1-pancreas/18.jpg",
+     "lec": "Exocrine pancreas",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which pancreatic enzyme is secreted in active form?",
@@ -6229,7 +7502,14 @@ SINA.lectures["physio1-pancreas"] = {
     "Proelastase"
    ],
    "answer": 1,
-   "why": "Needs colipase."
+   "why": "Needs colipase.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pancreas/17.jpg",
+     "lec": "Exocrine pancreas",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The pancreas avoids autodigestion partly through:",
@@ -6240,7 +7520,14 @@ SINA.lectures["physio1-pancreas"] = {
     "Lack of blood supply"
    ],
    "answer": 0,
-   "why": "PSTI."
+   "why": "PSTI.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pancreas/19.jpg",
+     "lec": "Exocrine pancreas",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Daily volume of pancreatic juice is about:",
@@ -6251,7 +7538,14 @@ SINA.lectures["physio1-pancreas"] = {
     "500 mL"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pancreas/13.jpg",
+     "lec": "Exocrine pancreas",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "As pancreatic flow rises, bicarbonate concentration:",
@@ -6273,7 +7567,14 @@ SINA.lectures["physio1-pancreas"] = {
     "Na⁺/K⁺ ATPase"
    ],
    "answer": 0,
-   "why": "Cl⁻/HCO₃⁻ channel."
+   "why": "Cl⁻/HCO₃⁻ channel.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pancreas/33.jpg",
+     "lec": "Exocrine pancreas",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "The most specific blood test for acute pancreatitis is:",
@@ -6284,7 +7585,14 @@ SINA.lectures["physio1-pancreas"] = {
     "Bilirubin"
    ],
    "answer": 1,
-   "why": "> 3 × normal."
+   "why": "> 3 × normal.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pancreas/27.jpg",
+     "lec": "Exocrine pancreas",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "The two main causes of acute pancreatitis are:",
@@ -6306,7 +7614,14 @@ SINA.lectures["physio1-pancreas"] = {
     "Coeliac disease"
    ],
    "answer": 1,
-   "why": "Low in insufficiency."
+   "why": "Low in insufficiency.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pancreas/33.jpg",
+     "lec": "Exocrine pancreas",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Chronic pancreatitis may cause diabetes because:",
@@ -6317,7 +7632,14 @@ SINA.lectures["physio1-pancreas"] = {
     "Bile flow to the gut stops"
    ],
    "answer": 0,
-   "why": "Endocrine loss."
+   "why": "Endocrine loss.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pancreas/33.jpg",
+     "lec": "Exocrine pancreas",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which phase contributes most to pancreatic secretion?",
@@ -6328,7 +7650,19 @@ SINA.lectures["physio1-pancreas"] = {
     "Interdigestive"
    ],
    "answer": 2,
-   "why": "Secretin and CCK."
+   "why": "Secretin and CCK.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-pancreas/22.jpg",
+     "lec": "Exocrine pancreas",
+     "n": 22
+    },
+    {
+     "src": "files/slides/physio1-pancreas/25.jpg",
+     "lec": "Exocrine pancreas",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "A gene linked to hereditary pancreatitis is:",
@@ -6777,7 +8111,14 @@ SINA.lectures["physio1-small-intestine-motility"] = {
     "24 hours"
    ],
    "answer": 1,
-   "why": "Fasting state."
+   "why": "Fasting state.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-small-intestine-motility/06.jpg",
+     "lec": "Small intestine motility",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The hormone that initiates the MMC is:",
@@ -6788,7 +8129,14 @@ SINA.lectures["physio1-small-intestine-motility"] = {
     "CCK"
    ],
    "answer": 1,
-   "why": "From duodenal M cells."
+   "why": "From duodenal M cells.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-small-intestine-motility/06.jpg",
+     "lec": "Small intestine motility",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which phase of the MMC is the 'housekeeper'?",
@@ -6799,7 +8147,14 @@ SINA.lectures["physio1-small-intestine-motility"] = {
     "Phase IV"
    ],
    "answer": 2,
-   "why": "Intense contractions."
+   "why": "Intense contractions.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-small-intestine-motility/06.jpg",
+     "lec": "Small intestine motility",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The MMC is interrupted by:",
@@ -6810,7 +8165,14 @@ SINA.lectures["physio1-small-intestine-motility"] = {
     "Motilin"
    ],
    "answer": 1,
-   "why": "Fed pattern replaces it."
+   "why": "Fed pattern replaces it.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-small-intestine-motility/06.jpg",
+     "lec": "Small intestine motility",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Segmentation mainly serves to:",
@@ -6821,7 +8183,19 @@ SINA.lectures["physio1-small-intestine-motility"] = {
     "Close the ileocaecal valve"
    ],
    "answer": 1,
-   "why": "Local contractions."
+   "why": "Local contractions.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-small-intestine-motility/07.jpg",
+     "lec": "Small intestine motility",
+     "n": 7
+    },
+    {
+     "src": "files/slides/physio1-small-intestine-motility/08.jpg",
+     "lec": "Small intestine motility",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "In peristalsis, ahead of the bolus the gut:",
@@ -6832,7 +8206,14 @@ SINA.lectures["physio1-small-intestine-motility"] = {
     "Stays unchanged"
    ],
    "answer": 1,
-   "why": "Law of the intestine."
+   "why": "Law of the intestine.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-small-intestine-motility/08.jpg",
+     "lec": "Small intestine motility",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Motor activity of the gut is controlled mainly by the:",
@@ -6843,7 +8224,14 @@ SINA.lectures["physio1-small-intestine-motility"] = {
     "Spinal cord only"
    ],
    "answer": 1,
-   "why": "Auerbach."
+   "why": "Auerbach.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-small-intestine-motility/05.jpg",
+     "lec": "Small intestine motility",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Sympathetic stimulation of the small intestine:",
@@ -6854,7 +8242,14 @@ SINA.lectures["physio1-small-intestine-motility"] = {
     "Triggers segmentation"
    ],
    "answer": 1,
-   "why": "Noradrenaline."
+   "why": "Noradrenaline.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-small-intestine-motility/09.jpg",
+     "lec": "Small intestine motility",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "A mediator of peristaltic contraction is:",
@@ -6865,7 +8260,14 @@ SINA.lectures["physio1-small-intestine-motility"] = {
     "Somatostatin"
    ],
    "answer": 1,
-   "why": "With ACh and substance P."
+   "why": "With ACh and substance P.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-small-intestine-motility/08.jpg",
+     "lec": "Small intestine motility",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Loss of the MMC predisposes to:",
@@ -6876,7 +8278,19 @@ SINA.lectures["physio1-small-intestine-motility"] = {
     "Hypoglycaemia"
    ],
    "answer": 0,
-   "why": "Residue not cleared."
+   "why": "Residue not cleared.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-small-intestine-motility/06.jpg",
+     "lec": "Small intestine motility",
+     "n": 6
+    },
+    {
+     "src": "files/slides/physio1-small-intestine-motility/10.jpg",
+     "lec": "Small intestine motility",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Postoperative loss of intestinal motility is called:",
@@ -6887,7 +8301,19 @@ SINA.lectures["physio1-small-intestine-motility"] = {
     "Diverticulosis"
    ],
    "answer": 1,
-   "why": "No mechanical obstruction."
+   "why": "No mechanical obstruction.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-small-intestine-motility/10.jpg",
+     "lec": "Small intestine motility",
+     "n": 10
+    },
+    {
+     "src": "files/slides/physio1-small-intestine-motility/11.jpg",
+     "lec": "Small intestine motility",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The longest part of the small intestine is the:",
@@ -6898,7 +8324,14 @@ SINA.lectures["physio1-small-intestine-motility"] = {
     "Caecum"
    ],
    "answer": 2,
-   "why": "About 3 m."
+   "why": "About 3 m.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-small-intestine-motility/04.jpg",
+     "lec": "Small intestine motility",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Diarrhoea from excess motility occurs because:",
@@ -6909,7 +8342,14 @@ SINA.lectures["physio1-small-intestine-motility"] = {
     "The pylorus closes"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-small-intestine-motility/10.jpg",
+     "lec": "Small intestine motility",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -7335,7 +8775,14 @@ SINA.lectures["physio1-absorption"] = {
     "Simple diffusion"
    ],
    "answer": 1,
-   "why": "Secondary active transport."
+   "why": "Secondary active transport.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-absorption/14.jpg",
+     "lec": "Intestinal absorption",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Fructose enters the enterocyte via:",
@@ -7346,7 +8793,14 @@ SINA.lectures["physio1-absorption"] = {
     "Endocytosis"
    ],
    "answer": 1,
-   "why": "Facilitated diffusion."
+   "why": "Facilitated diffusion.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-absorption/16.jpg",
+     "lec": "Intestinal absorption",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "All monosaccharides leave the enterocyte via:",
@@ -7357,7 +8811,14 @@ SINA.lectures["physio1-absorption"] = {
     "CFTR"
    ],
    "answer": 0,
-   "why": "Basolateral."
+   "why": "Basolateral.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-absorption/16.jpg",
+     "lec": "Intestinal absorption",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Lactose is split into:",
@@ -7368,7 +8829,14 @@ SINA.lectures["physio1-absorption"] = {
     "Galactose + fructose"
    ],
    "answer": 1,
-   "why": "By lactase."
+   "why": "By lactase.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-absorption/11.jpg",
+     "lec": "Intestinal absorption",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Vitamin B12 is absorbed in the:",
@@ -7379,7 +8847,14 @@ SINA.lectures["physio1-absorption"] = {
     "Colon"
    ],
    "answer": 2,
-   "why": "With intrinsic factor."
+   "why": "With intrinsic factor.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-absorption/27.jpg",
+     "lec": "Intestinal absorption",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Chylomicrons enter the circulation through:",
@@ -7390,7 +8865,14 @@ SINA.lectures["physio1-absorption"] = {
     "Capillaries of the villi"
    ],
    "answer": 1,
-   "why": "Too large for capillaries."
+   "why": "Too large for capillaries.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-absorption/24.jpg",
+     "lec": "Intestinal absorption",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Micelles are formed with the help of:",
@@ -7401,7 +8883,14 @@ SINA.lectures["physio1-absorption"] = {
     "Intrinsic factor"
    ],
    "answer": 1,
-   "why": "And lecithin."
+   "why": "And lecithin.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-absorption/22.jpg",
+     "lec": "Intestinal absorption",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "The fat-soluble vitamins are:",
@@ -7412,7 +8901,14 @@ SINA.lectures["physio1-absorption"] = {
     "C and K"
    ],
    "answer": 1,
-   "why": "Follow lipids."
+   "why": "Follow lipids.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-absorption/25.jpg",
+     "lec": "Intestinal absorption",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Calcium absorption in the duodenum requires:",
@@ -7423,7 +8919,14 @@ SINA.lectures["physio1-absorption"] = {
     "Bile salts only"
    ],
    "answer": 0,
-   "why": "And PTH."
+   "why": "And PTH.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-absorption/29.jpg",
+     "lec": "Intestinal absorption",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Iron is absorbed mainly in the:",
@@ -7434,7 +8937,14 @@ SINA.lectures["physio1-absorption"] = {
     "Stomach"
    ],
    "answer": 0,
-   "why": "Proximal."
+   "why": "Proximal.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-absorption/30.jpg",
+     "lec": "Intestinal absorption",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Total absorptive surface of the small intestine is about:",
@@ -7445,7 +8955,19 @@ SINA.lectures["physio1-absorption"] = {
     "2000 m²"
    ],
    "answer": 2,
-   "why": "Folds, villi, microvilli."
+   "why": "Folds, villi, microvilli.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-absorption/03.jpg",
+     "lec": "Intestinal absorption",
+     "n": 3
+    },
+    {
+     "src": "files/slides/physio1-absorption/07.jpg",
+     "lec": "Intestinal absorption",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Coeliac disease is caused by an immune reaction to:",
@@ -7456,7 +8978,14 @@ SINA.lectures["physio1-absorption"] = {
     "Casein only"
    ],
    "answer": 1,
-   "why": "Villous atrophy."
+   "why": "Villous atrophy.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-absorption/32.jpg",
+     "lec": "Intestinal absorption",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Water absorption in the gut is:",
@@ -7467,7 +8996,14 @@ SINA.lectures["physio1-absorption"] = {
     "Driven by aldosterone alone"
    ],
    "answer": 1,
-   "why": "Follows solutes."
+   "why": "Follows solutes.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-absorption/28.jpg",
+     "lec": "Intestinal absorption",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Stool water per day is normally about:",
@@ -7478,7 +9014,14 @@ SINA.lectures["physio1-absorption"] = {
     "5 L"
    ],
    "answer": 1,
-   "why": "Most is absorbed."
+   "why": "Most is absorbed.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-absorption/28.jpg",
+     "lec": "Intestinal absorption",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Before binding intrinsic factor, B12 is freed from R protein by:",
@@ -7489,7 +9032,14 @@ SINA.lectures["physio1-absorption"] = {
     "Lactase"
    ],
    "answer": 1,
-   "why": "In the duodenum."
+   "why": "In the duodenum.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-absorption/27.jpg",
+     "lec": "Intestinal absorption",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Bilirubin is converted to urobilinogen by:",
@@ -7500,7 +9050,14 @@ SINA.lectures["physio1-absorption"] = {
     "Gastric acid"
    ],
    "answer": 1,
-   "why": "Microbiota."
+   "why": "Microbiota.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-absorption/34.jpg",
+     "lec": "Intestinal absorption",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Bile salts are reabsorbed mainly in the:",
@@ -7511,7 +9068,14 @@ SINA.lectures["physio1-absorption"] = {
     "Stomach"
    ],
    "answer": 1,
-   "why": "Enterohepatic circulation."
+   "why": "Enterohepatic circulation.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-absorption/24.jpg",
+     "lec": "Intestinal absorption",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -7941,7 +9505,14 @@ SINA.lectures["physio1-colon-motility"] = {
     "Villi"
    ],
    "answer": 1,
-   "why": "Three bands."
+   "why": "Three bands.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-colon-motility/06.jpg",
+     "lec": "Colon motility",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Water absorption occurs mostly in the:",
@@ -7952,7 +9523,19 @@ SINA.lectures["physio1-colon-motility"] = {
     "Anal canal"
    ],
    "answer": 0,
-   "why": "Absorptive colon."
+   "why": "Absorptive colon.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-colon-motility/11.jpg",
+     "lec": "Colon motility",
+     "n": 11
+    },
+    {
+     "src": "files/slides/physio1-colon-motility/12.jpg",
+     "lec": "Colon motility",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Haustral contractions are:",
@@ -7963,7 +9546,14 @@ SINA.lectures["physio1-colon-motility"] = {
     "Only in the rectum"
    ],
    "answer": 1,
-   "why": "Proximal colon."
+   "why": "Proximal colon.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-colon-motility/12.jpg",
+     "lec": "Colon motility",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Mass movements are also called:",
@@ -7974,7 +9564,14 @@ SINA.lectures["physio1-colon-motility"] = {
     "MMC phase I"
    ],
    "answer": 1,
-   "why": "High-amplitude propagating contractions."
+   "why": "High-amplitude propagating contractions.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-colon-motility/16.jpg",
+     "lec": "Colon motility",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The reflex that increases colonic activity after a meal is:",
@@ -7985,7 +9582,14 @@ SINA.lectures["physio1-colon-motility"] = {
     "Enterogastric"
    ],
    "answer": 1,
-   "why": "Gastric distension."
+   "why": "Gastric distension.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-colon-motility/22.jpg",
+     "lec": "Colon motility",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Colonic slow waves are generated by:",
@@ -7996,7 +9600,14 @@ SINA.lectures["physio1-colon-motility"] = {
     "Paneth cells"
    ],
    "answer": 1,
-   "why": "About 2-6/min."
+   "why": "About 2-6/min.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-colon-motility/18.jpg",
+     "lec": "Colon motility",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Parasympathetic supply to the distal colon comes from:",
@@ -8007,7 +9618,19 @@ SINA.lectures["physio1-colon-motility"] = {
     "Lumbar splanchnic nerves"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-colon-motility/07.jpg",
+     "lec": "Colon motility",
+     "n": 7
+    },
+    {
+     "src": "files/slides/physio1-colon-motility/18.jpg",
+     "lec": "Colon motility",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Sympathetic stimulation of the colon:",
@@ -8018,7 +9641,14 @@ SINA.lectures["physio1-colon-motility"] = {
     "Relaxes the internal sphincter"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-colon-motility/18.jpg",
+     "lec": "Colon motility",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Hirschsprung disease is due to:",
@@ -8029,7 +9659,14 @@ SINA.lectures["physio1-colon-motility"] = {
     "Mucosal ulceration"
    ],
    "answer": 0,
-   "why": "Aganglionosis."
+   "why": "Aganglionosis.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-colon-motility/25.jpg",
+     "lec": "Colon motility",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The gold standard to diagnose Hirschsprung disease is:",
@@ -8040,7 +9677,14 @@ SINA.lectures["physio1-colon-motility"] = {
     "Stool culture"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-colon-motility/25.jpg",
+     "lec": "Colon motility",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Retrograde colonic contractions serve to:",
@@ -8051,7 +9695,14 @@ SINA.lectures["physio1-colon-motility"] = {
     "Empty the caecum into the ileum"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-colon-motility/15.jpg",
+     "lec": "Colon motility",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Colonic inertia is:",
@@ -8062,7 +9713,14 @@ SINA.lectures["physio1-colon-motility"] = {
     "Rectal prolapse"
    ],
    "answer": 0,
-   "why": "Weak propulsion."
+   "why": "Weak propulsion.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-colon-motility/24.jpg",
+     "lec": "Colon motility",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Colonic secretion is mainly:",
@@ -8073,7 +9731,14 @@ SINA.lectures["physio1-colon-motility"] = {
     "Bile"
    ],
    "answer": 1,
-   "why": "Protective, lubricating."
+   "why": "Protective, lubricating.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-colon-motility/09.jpg",
+     "lec": "Colon motility",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -8488,7 +10153,14 @@ SINA.lectures["physio1-anorectal"] = {
     "Rectal wall"
    ],
    "answer": 1,
-   "why": "About 70%."
+   "why": "About 70%.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-anorectal/06.jpg",
+     "lec": "Anorectal motility",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The external anal sphincter is:",
@@ -8499,7 +10171,14 @@ SINA.lectures["physio1-anorectal"] = {
     "Part of the rectal wall"
    ],
    "answer": 1,
-   "why": "Pudendal nerve."
+   "why": "Pudendal nerve.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-anorectal/23.jpg",
+     "lec": "Anorectal motility",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The puborectalis maintains the anorectal angle at about:",
@@ -8510,7 +10189,19 @@ SINA.lectures["physio1-anorectal"] = {
     "180°"
    ],
    "answer": 1,
-   "why": "At rest."
+   "why": "At rest.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-anorectal/06.jpg",
+     "lec": "Anorectal motility",
+     "n": 6
+    },
+    {
+     "src": "files/slides/physio1-anorectal/14.jpg",
+     "lec": "Anorectal motility",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The recto-anal inhibitory reflex relaxes the:",
@@ -8521,7 +10212,19 @@ SINA.lectures["physio1-anorectal"] = {
     "Diaphragm"
    ],
    "answer": 1,
-   "why": "Sampling."
+   "why": "Sampling.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-anorectal/18.jpg",
+     "lec": "Anorectal motility",
+     "n": 18
+    },
+    {
+     "src": "files/slides/physio1-anorectal/19.jpg",
+     "lec": "Anorectal motility",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The recto-anal excitatory reflex contracts the:",
@@ -8532,7 +10235,14 @@ SINA.lectures["physio1-anorectal"] = {
     "Sigmoid colon"
    ],
    "answer": 1,
-   "why": "Guarding reflex."
+   "why": "Guarding reflex.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-anorectal/20.jpg",
+     "lec": "Anorectal motility",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Rectal compliance means:",
@@ -8543,7 +10253,14 @@ SINA.lectures["physio1-anorectal"] = {
     "Fast transit"
    ],
    "answer": 0,
-   "why": "Capacitive system."
+   "why": "Capacitive system.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-anorectal/12.jpg",
+     "lec": "Anorectal motility",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Voluntary control of the EAS travels in the:",
@@ -8554,7 +10271,14 @@ SINA.lectures["physio1-anorectal"] = {
     "Vagus"
    ],
    "answer": 1,
-   "why": "S2-S4."
+   "why": "S2-S4.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-anorectal/23.jpg",
+     "lec": "Anorectal motility",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "During defecation the anorectal angle:",
@@ -8565,7 +10289,14 @@ SINA.lectures["physio1-anorectal"] = {
     "Disappears"
    ],
    "answer": 1,
-   "why": "Puborectalis relaxes."
+   "why": "Puborectalis relaxes.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-anorectal/23.jpg",
+     "lec": "Anorectal motility",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Resting anal canal pressure is about:",
@@ -8576,7 +10307,19 @@ SINA.lectures["physio1-anorectal"] = {
     "0 cmH₂O"
    ],
    "answer": 1,
-   "why": "IAS."
+   "why": "IAS.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-anorectal/09.jpg",
+     "lec": "Anorectal motility",
+     "n": 9
+    },
+    {
+     "src": "files/slides/physio1-anorectal/11.jpg",
+     "lec": "Anorectal motility",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Paradoxical contraction of the pelvic floor on straining is:",
@@ -8587,7 +10330,14 @@ SINA.lectures["physio1-anorectal"] = {
     "Colonic inertia"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-anorectal/28.jpg",
+     "lec": "Anorectal motility",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The best test for sphincter anatomical defects is:",
@@ -8598,7 +10348,14 @@ SINA.lectures["physio1-anorectal"] = {
     "Barium swallow"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-anorectal/27.jpg",
+     "lec": "Anorectal motility",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Initial continence is short-lived because:",
@@ -8609,7 +10366,14 @@ SINA.lectures["physio1-anorectal"] = {
     "The IAS relaxes"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-anorectal/13.jpg",
+     "lec": "Anorectal motility",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The RAIR is absent in:",
@@ -9021,7 +10785,14 @@ SINA.lectures["physio1-microbiota"] = {
     "Protozoa"
    ],
    "answer": 1,
-   "why": "About 95%."
+   "why": "About 95%.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-microbiota/04.jpg",
+     "lec": "Intestinal microbiota",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Bacterial density is highest in the:",
@@ -9032,7 +10803,14 @@ SINA.lectures["physio1-microbiota"] = {
     "Jejunum"
    ],
    "answer": 2,
-   "why": "~10¹²/g."
+   "why": "~10¹²/g.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-microbiota/08.jpg",
+     "lec": "Intestinal microbiota",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The main energy source of colonocytes is:",
@@ -9043,7 +10821,14 @@ SINA.lectures["physio1-microbiota"] = {
     "Propionate"
    ],
    "answer": 1,
-   "why": "SCFA."
+   "why": "SCFA.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-microbiota/18.jpg",
+     "lec": "Intestinal microbiota",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Propionate mainly regulates:",
@@ -9054,7 +10839,14 @@ SINA.lectures["physio1-microbiota"] = {
     "Mucus production"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-microbiota/10.jpg",
+     "lec": "Intestinal microbiota",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "A vitamin produced by gut bacteria is:",
@@ -9065,7 +10857,19 @@ SINA.lectures["physio1-microbiota"] = {
     "Vitamin D"
    ],
    "answer": 1,
-   "why": "Also B vitamins."
+   "why": "Also B vitamins.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-microbiota/05.jpg",
+     "lec": "Intestinal microbiota",
+     "n": 5
+    },
+    {
+     "src": "files/slides/physio1-microbiota/11.jpg",
+     "lec": "Intestinal microbiota",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Akkermansia muciniphila is associated with:",
@@ -9076,7 +10880,14 @@ SINA.lectures["physio1-microbiota"] = {
     "Vitamin C synthesis"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-microbiota/12.jpg",
+     "lec": "Intestinal microbiota",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Methanobrevibacter smithii belongs to the:",
@@ -9087,7 +10898,14 @@ SINA.lectures["physio1-microbiota"] = {
     "Protozoa"
    ],
    "answer": 0,
-   "why": "Methane."
+   "why": "Methane.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-microbiota/07.jpg",
+     "lec": "Intestinal microbiota",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Prebiotics are:",
@@ -9098,7 +10916,14 @@ SINA.lectures["physio1-microbiota"] = {
     "Screened stool transplants"
    ],
    "answer": 1,
-   "why": "E.g. inulin."
+   "why": "E.g. inulin.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-microbiota/18.jpg",
+     "lec": "Intestinal microbiota",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Saccharomyces boulardii is used as a:",
@@ -9109,7 +10934,14 @@ SINA.lectures["physio1-microbiota"] = {
     "Synbiotic fibre"
    ],
    "answer": 1,
-   "why": "Yeast."
+   "why": "Yeast.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-microbiota/17.jpg",
+     "lec": "Intestinal microbiota",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The main indication for faecal microbiota transplantation is:",
@@ -9120,7 +10952,14 @@ SINA.lectures["physio1-microbiota"] = {
     "Refractory coeliac disease"
    ],
    "answer": 1,
-   "why": "~90% success."
+   "why": "~90% success.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-microbiota/20.jpg",
+     "lec": "Intestinal microbiota",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Colonisation resistance refers to:",
@@ -9131,7 +10970,14 @@ SINA.lectures["physio1-microbiota"] = {
     "Bile resistance"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-microbiota/12.jpg",
+     "lec": "Intestinal microbiota",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Microbiota converts primary bile acids into:",
@@ -9142,7 +10988,14 @@ SINA.lectures["physio1-microbiota"] = {
     "Chylomicrons"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-microbiota/11.jpg",
+     "lec": "Intestinal microbiota",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "A factor shaping the newborn microbiota is:",
@@ -9153,7 +11006,14 @@ SINA.lectures["physio1-microbiota"] = {
     "Height"
    ],
    "answer": 0,
-   "why": "Vaginal vs caesarean."
+   "why": "Vaginal vs caesarean.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-microbiota/09.jpg",
+     "lec": "Intestinal microbiota",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -9574,7 +11434,19 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "Noradrenaline"
    ],
    "answer": 1,
-   "why": "Classic exception."
+   "why": "Classic exception.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/22.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 22
+    },
+    {
+     "src": "files/slides/physio1-endocrine-intro/49.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Steroid hormones are derived from:",
@@ -9585,7 +11457,14 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "Arachidonic acid"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/25.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Peptide hormones are released by:",
@@ -9596,7 +11475,14 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "Gap junctions"
    ],
    "answer": 1,
-   "why": "Stored in granules."
+   "why": "Stored in granules.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/23.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Growth hormone and prolactin signal through:",
@@ -9607,7 +11493,14 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "Ion channels"
    ],
    "answer": 1,
-   "why": "JAK2."
+   "why": "JAK2.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/34.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Insulin acts through a:",
@@ -9618,7 +11511,19 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "Cytokine receptor"
    ],
    "answer": 1,
-   "why": "Intrinsic kinase."
+   "why": "Intrinsic kinase.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/32.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 32
+    },
+    {
+     "src": "files/slides/physio1-endocrine-intro/34.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "TRH and GnRH signal via:",
@@ -9629,7 +11534,14 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "JAK/STAT"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/49.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Dopamine inhibits prolactin through:",
@@ -9640,7 +11552,14 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "RTK"
    ],
    "answer": 1,
-   "why": "↓ cAMP."
+   "why": "↓ cAMP.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/49.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "In pregnancy, raised TBG leads to:",
@@ -9651,7 +11570,19 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "Low TSH"
    ],
    "answer": 1,
-   "why": "Euthyroid."
+   "why": "Euthyroid.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/28.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 28
+    },
+    {
+     "src": "files/slides/physio1-endocrine-intro/50.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "A high TSH with low free T4 indicates:",
@@ -9662,7 +11593,14 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "TBG excess"
    ],
    "answer": 1,
-   "why": "Loss of negative feedback."
+   "why": "Loss of negative feedback.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/53.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "Low ACTH with low cortisol indicates:",
@@ -9673,7 +11611,19 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "Adrenal tumour"
    ],
    "answer": 1,
-   "why": "Tropic deficiency."
+   "why": "Tropic deficiency.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/47.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 47
+    },
+    {
+     "src": "files/slides/physio1-endocrine-intro/48.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "An example of positive feedback is:",
@@ -9684,7 +11634,14 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "Glucose on insulin"
    ],
    "answer": 1,
-   "why": "Ends with ovulation."
+   "why": "Ends with ovulation.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/43.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "The adrenal medulla derives from:",
@@ -9695,7 +11652,14 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "Yolk sac"
    ],
    "answer": 1,
-   "why": "Catecholamines."
+   "why": "Catecholamines.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/19.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Tachyphylaxis is:",
@@ -9706,7 +11670,14 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "Hormone deficiency"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/36.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "To diagnose hormone excess you mostly use:",
@@ -9717,7 +11688,14 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "Imaging only"
    ],
    "answer": 1,
-   "why": "E.g. dexamethasone."
+   "why": "E.g. dexamethasone.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/48.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "A hormone that acts on the same cell that released it is:",
@@ -9728,7 +11706,14 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "Neurocrine"
    ],
    "answer": 2,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/27.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Pulsatile GnRH secretion is important because it:",
@@ -9739,7 +11724,14 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "Blocks LH"
    ],
    "answer": 0,
-   "why": "Continuous GnRH suppresses LH/FSH."
+   "why": "Continuous GnRH suppresses LH/FSH.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/51.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "Thyroid hormone increases cardiac responsiveness by:",
@@ -9750,7 +11742,14 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "Lowering cAMP"
    ],
    "answer": 0,
-   "why": "Cross-regulation."
+   "why": "Cross-regulation.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/37.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which is mainly regulated by a substrate rather than a tropic hormone?",
@@ -9761,7 +11760,19 @@ SINA.lectures["physio1-endocrine-intro"] = {
     "Testosterone"
    ],
    "answer": 1,
-   "why": "Glucose."
+   "why": "Glucose.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-endocrine-intro/47.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 47
+    },
+    {
+     "src": "files/slides/physio1-endocrine-intro/51.jpg",
+     "lec": "Introduction to endocrine physiology",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -10203,7 +12214,14 @@ SINA.lectures["physio1-hypothalamus-pituitary"] = {
     "Median eminence of the stalk"
    ],
    "answer": 1,
-   "why": "Magnocellular neurons."
+   "why": "Magnocellular neurons.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-hypothalamus-pituitary/03.jpg",
+     "lec": "Hypothalamus and pituitary",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The main stimulus of ADH release is:",
@@ -10214,7 +12232,14 @@ SINA.lectures["physio1-hypothalamus-pituitary"] = {
     "High blood volume"
    ],
    "answer": 1,
-   "why": "Osmoreceptors."
+   "why": "Osmoreceptors.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-hypothalamus-pituitary/03.jpg",
+     "lec": "Hypothalamus and pituitary",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "ADH increases water reabsorption through:",
@@ -10225,7 +12250,14 @@ SINA.lectures["physio1-hypothalamus-pituitary"] = {
     "Na⁺ channels"
    ],
    "answer": 1,
-   "why": "Gs, cAMP."
+   "why": "Gs, cAMP.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-hypothalamus-pituitary/05.jpg",
+     "lec": "Hypothalamus and pituitary",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Vasoconstriction by ADH is mediated by:",
@@ -10236,7 +12268,14 @@ SINA.lectures["physio1-hypothalamus-pituitary"] = {
     "D2"
    ],
    "answer": 0,
-   "why": "Gq."
+   "why": "Gq.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-hypothalamus-pituitary/05.jpg",
+     "lec": "Hypothalamus and pituitary",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Lithium causes:",
@@ -10247,7 +12286,14 @@ SINA.lectures["physio1-hypothalamus-pituitary"] = {
     "Acromegaly"
    ],
    "answer": 1,
-   "why": "Renal resistance."
+   "why": "Renal resistance.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-hypothalamus-pituitary/05.jpg",
+     "lec": "Hypothalamus and pituitary",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "SIADH produces:",
@@ -10258,7 +12304,14 @@ SINA.lectures["physio1-hypothalamus-pituitary"] = {
     "Polyuria"
    ],
    "answer": 1,
-   "why": "Dilutional."
+   "why": "Dilutional.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-hypothalamus-pituitary/05.jpg",
+     "lec": "Hypothalamus and pituitary",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Alcohol causes diuresis by:",
@@ -10269,7 +12322,14 @@ SINA.lectures["physio1-hypothalamus-pituitary"] = {
     "Raising oxytocin"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-hypothalamus-pituitary/03.jpg",
+     "lec": "Hypothalamus and pituitary",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Milk ejection is caused by:",
@@ -10280,7 +12340,14 @@ SINA.lectures["physio1-hypothalamus-pituitary"] = {
     "Oestrogen"
    ],
    "answer": 1,
-   "why": "Myoepithelial contraction."
+   "why": "Myoepithelial contraction.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-hypothalamus-pituitary/04.jpg",
+     "lec": "Hypothalamus and pituitary",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Prolactin is tonically inhibited by:",
@@ -10302,7 +12369,14 @@ SINA.lectures["physio1-hypothalamus-pituitary"] = {
     "Nuclear receptor"
    ],
    "answer": 1,
-   "why": "Cytokine receptor."
+   "why": "Cytokine receptor.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-hypothalamus-pituitary/06.jpg",
+     "lec": "Hypothalamus and pituitary",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "GH is described as diabetogenic because it:",
@@ -10313,7 +12387,14 @@ SINA.lectures["physio1-hypothalamus-pituitary"] = {
     "Stores glycogen"
    ],
    "answer": 0,
-   "why": "Opposes insulin."
+   "why": "Opposes insulin.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-hypothalamus-pituitary/06.jpg",
+     "lec": "Hypothalamus and pituitary",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which stimulates GH secretion?",
@@ -10324,7 +12405,14 @@ SINA.lectures["physio1-hypothalamus-pituitary"] = {
     "Somatostatin"
    ],
    "answer": 1,
-   "why": "Also arginine, ghrelin, stress."
+   "why": "Also arginine, ghrelin, stress.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-hypothalamus-pituitary/07.jpg",
+     "lec": "Hypothalamus and pituitary",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "IGF-1 is mainly produced by the:",
@@ -10357,7 +12445,14 @@ SINA.lectures["physio1-hypothalamus-pituitary"] = {
     "Neurophysin"
    ],
    "answer": 1,
-   "why": "With MSH and β-endorphin."
+   "why": "With MSH and β-endorphin.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-hypothalamus-pituitary/05.jpg",
+     "lec": "Hypothalamus and pituitary",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Primary hypothyroidism can raise prolactin because:",
@@ -10368,7 +12463,19 @@ SINA.lectures["physio1-hypothalamus-pituitary"] = {
     "GH falls"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-hypothalamus-pituitary/05.jpg",
+     "lec": "Hypothalamus and pituitary",
+     "n": 5
+    },
+    {
+     "src": "files/slides/physio1-hypothalamus-pituitary/07.jpg",
+     "lec": "Hypothalamus and pituitary",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Hypophysiotropic hormones reach the anterior pituitary via:",
@@ -10379,7 +12486,14 @@ SINA.lectures["physio1-hypothalamus-pituitary"] = {
     "CSF"
    ],
    "answer": 1,
-   "why": "Median eminence."
+   "why": "Median eminence.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-hypothalamus-pituitary/06.jpg",
+     "lec": "Hypothalamus and pituitary",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Prolactin suppresses fertility by inhibiting:",
@@ -10837,7 +12951,14 @@ SINA.lectures["physio1-thyroid"] = {
     "Thyroglobulin"
    ],
    "answer": 1,
-   "why": "Basolateral, secondary active."
+   "why": "Basolateral, secondary active.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-thyroid/07.jpg",
+     "lec": "Thyroid physiology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The enzyme that oxidises iodide and couples iodotyrosines is:",
@@ -10848,7 +12969,14 @@ SINA.lectures["physio1-thyroid"] = {
     "DUOX"
    ],
    "answer": 1,
-   "why": "Uses H₂O₂."
+   "why": "Uses H₂O₂.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-thyroid/08.jpg",
+     "lec": "Thyroid physiology",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "DIT + DIT forms:",
@@ -10870,7 +12998,14 @@ SINA.lectures["physio1-thyroid"] = {
     "Thyroglobulin"
    ],
    "answer": 1,
-   "why": "3-5 times."
+   "why": "3-5 times.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-thyroid/02.jpg",
+     "lec": "Thyroid physiology",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Most circulating T4 is bound to:",
@@ -10881,7 +13016,14 @@ SINA.lectures["physio1-thyroid"] = {
     "Free"
    ],
    "answer": 1,
-   "why": "Highest affinity."
+   "why": "Highest affinity.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-thyroid/03.jpg",
+     "lec": "Thyroid physiology",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "In pregnancy, raised TBG gives:",
@@ -10892,7 +13034,14 @@ SINA.lectures["physio1-thyroid"] = {
     "Hypothyroidism"
    ],
    "answer": 1,
-   "why": "Euthyroid."
+   "why": "Euthyroid.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-thyroid/03.jpg",
+     "lec": "Thyroid physiology",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Deiodinases require:",
@@ -10903,7 +13052,14 @@ SINA.lectures["physio1-thyroid"] = {
     "Copper"
    ],
    "answer": 1,
-   "why": "Selenocysteine."
+   "why": "Selenocysteine.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-thyroid/03.jpg",
+     "lec": "Thyroid physiology",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The deiodinase that inactivates thyroid hormone is:",
@@ -10914,7 +13070,14 @@ SINA.lectures["physio1-thyroid"] = {
     "TPO"
    ],
    "answer": 2,
-   "why": "Inner-ring."
+   "why": "Inner-ring.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-thyroid/03.jpg",
+     "lec": "Thyroid physiology",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "TRH acts on thyrotrophs via:",
@@ -10936,7 +13099,14 @@ SINA.lectures["physio1-thyroid"] = {
     "rT3"
    ],
    "answer": 1,
-   "why": "Steep inverse relation."
+   "why": "Steep inverse relation.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-thyroid/05.jpg",
+     "lec": "Thyroid physiology",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Excess iodide acutely blocking hormone synthesis is the:",
@@ -10947,7 +13117,14 @@ SINA.lectures["physio1-thyroid"] = {
     "Bohr effect"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-thyroid/02.jpg",
+     "lec": "Thyroid physiology",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Graves' disease is caused by antibodies that:",
@@ -10958,7 +13135,19 @@ SINA.lectures["physio1-thyroid"] = {
     "Block NIS"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-thyroid/05.jpg",
+     "lec": "Thyroid physiology",
+     "n": 5
+    },
+    {
+     "src": "files/slides/physio1-thyroid/07.jpg",
+     "lec": "Thyroid physiology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Primary hypothyroidism shows:",
@@ -10969,7 +13158,14 @@ SINA.lectures["physio1-thyroid"] = {
     "High TSH, high T4"
    ],
    "answer": 1,
-   "why": "Loss of feedback."
+   "why": "Loss of feedback.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-thyroid/08.jpg",
+     "lec": "Thyroid physiology",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Thyroid hormone increases heart rate mainly by:",
@@ -10980,7 +13176,19 @@ SINA.lectures["physio1-thyroid"] = {
     "Lowering Ca²⁺"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-thyroid/06.jpg",
+     "lec": "Thyroid physiology",
+     "n": 6
+    },
+    {
+     "src": "files/slides/physio1-thyroid/07.jpg",
+     "lec": "Thyroid physiology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Thyroid deficiency from birth causes:",
@@ -10991,7 +13199,14 @@ SINA.lectures["physio1-thyroid"] = {
     "Acromegaly"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-thyroid/08.jpg",
+     "lec": "Thyroid physiology",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Hashimoto's thyroiditis is associated with:",
@@ -11002,7 +13217,14 @@ SINA.lectures["physio1-thyroid"] = {
     "Low TSH"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-thyroid/08.jpg",
+     "lec": "Thyroid physiology",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which tissue does NOT increase oxygen use with thyroid hormone?",
@@ -11013,7 +13235,14 @@ SINA.lectures["physio1-thyroid"] = {
     "Skeletal muscle"
    ],
    "answer": 2,
-   "why": "Also testes, spleen."
+   "why": "Also testes, spleen.",
+   "slides": [
+    {
+     "src": "files/slides/physio1-thyroid/07.jpg",
+     "lec": "Thyroid physiology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The thyroid receptor often binds DNA as a heterodimer with:",
@@ -11024,7 +13253,14 @@ SINA.lectures["physio1-thyroid"] = {
     "STAT"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio1-thyroid/06.jpg",
+     "lec": "Thyroid physiology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

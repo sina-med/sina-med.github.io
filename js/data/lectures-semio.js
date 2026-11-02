@@ -74,7 +74,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "Raising blood pressure"
    ],
    "answer": 0,
-   "why": "Cough maintains airway permeability by eliminating secretions and foreign particles. It is non-specific."
+   "why": "Cough maintains airway permeability by eliminating secretions and foreign particles. It is non-specific.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/03.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which is a cough receptor zone outside the chest?",
@@ -85,7 +92,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "The kidney"
    ],
    "answer": 1,
-   "why": "Tussigenic zones include the external auditory canal, pharynx, larynx, trachea, carina and large bronchi, plus pleura, mediastinum, pericardium, diaphragm, oesophagus and stomach."
+   "why": "Tussigenic zones include the external auditory canal, pharynx, larynx, trachea, carina and large bronchi, plus pleura, mediastinum, pericardium, diaphragm, oesophagus and stomach.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/05.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "How long does a chronic cough last?",
@@ -96,7 +110,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "Exactly 1 week"
    ],
    "answer": 2,
-   "why": "Acute: under 3 weeks. Subacute: 3 to 8 weeks. Chronic: over 8 weeks."
+   "why": "Acute: under 3 weeks. Subacute: 3 to 8 weeks. Chronic: over 8 weeks.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/07.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which causes a nocturnal cough?",
@@ -107,7 +128,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "GERD or asthma"
    ],
    "answer": 3,
-   "why": "Nocturnal: GERD, asthma. Morning bronchial cleansing: bronchiectasis, chronic bronchitis."
+   "why": "Nocturnal: GERD, asthma. Morning bronchial cleansing: bronchiectasis, chronic bronchitis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/10.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What does a bitonal cough suggest?",
@@ -118,7 +146,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "Acid reflux disease"
    ],
    "answer": 1,
-   "why": "Bitonal cough: compression or paralysis of the recurrent nerve. Painful cough: pleural or parietal involvement."
+   "why": "Bitonal cough: compression or paralysis of the recurrent nerve. Painful cough: pleural or parietal involvement.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/12.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "How is chronic bronchitis defined?",
@@ -129,7 +164,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "3 months a year for 2 years"
    ],
    "answer": 3,
-   "why": "A productive morning cough with mucous sputum, at least 3 months a year for 2 consecutive years."
+   "why": "A productive morning cough with mucous sputum, at least 3 months a year for 2 consecutive years.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/15.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which drug class causes a chronic dry cough?",
@@ -140,7 +182,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "Penicillins"
    ],
    "answer": 0,
-   "why": "ACE inhibitors are a classic cause of chronic dry cough."
+   "why": "ACE inhibitors are a classic cause of chronic dry cough.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/17.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "What volume defines bronchorrhoea?",
@@ -151,7 +200,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "Over 500 mL per day"
    ],
    "answer": 2,
-   "why": "Excessive expectoration: over 30 mL/day. Bronchorrhoea: over 100 mL/day."
+   "why": "Excessive expectoration: over 30 mL/day. Bronchorrhoea: over 100 mL/day.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/25.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "What does foul-smelling sputum suggest?",
@@ -162,7 +218,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "Anaerobic infection"
    ],
    "answer": 3,
-   "why": "A foul odour points to anaerobic germs."
+   "why": "A foul odour points to anaerobic germs.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/25.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Which sputum is typical of acute pulmonary oedema?",
@@ -173,7 +236,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "Purulent sputum"
    ],
    "answer": 0,
-   "why": "Frothy sputum is white, fluid and aerated, sometimes salmon-pink. Pearly (Laennec) sputum is seen in asthma."
+   "why": "Frothy sputum is white, fluid and aerated, sometimes salmon-pink. Pearly (Laennec) sputum is seen in asthma.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/26.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Why is mucociliary clearance impaired in smokers?",
@@ -184,7 +254,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "Smoking weakens the diaphragm"
    ],
    "answer": 2,
-   "why": "Clearance is reduced by smoking and in bronchiectasis, chronic bronchitis, cystic fibrosis and primary ciliary dyskinesia."
+   "why": "Clearance is reduced by smoking and in bronchiectasis, chronic bronchitis, cystic fibrosis and primary ciliary dyskinesia.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/23.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What is a vomica?",
@@ -195,7 +272,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "A dry irritative cough"
    ],
    "answer": 1,
-   "why": "A vomica is the sudden evacuation through the mouth, during coughing, of an abundant purulent collection."
+   "why": "A vomica is the sudden evacuation through the mouth, during coughing, of an abundant purulent collection.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/30.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "What does a clear-liquid vomica suggest?",
@@ -206,7 +290,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "A hydatid cyst"
    ],
    "answer": 3,
-   "why": "Clear liquid: hydatid cyst. Pus: abscess. Pus with bile: liver abscess with bronchial fistula. Chocolate pus: amoebic abscess."
+   "why": "Clear liquid: hydatid cyst. Pus: abscess. Pus with bile: liver abscess with bronchial fistula. Chocolate pus: amoebic abscess.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/33.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "What is hemoptysis?",
@@ -217,7 +308,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "Swallowed nosebleed"
    ],
    "answer": 2,
-   "why": "Blood expectorated from the subglottic airways during coughing; it excludes gum, pharyngeal, nasal and digestive bleeding."
+   "why": "Blood expectorated from the subglottic airways during coughing; it excludes gum, pharyngeal, nasal and digestive bleeding.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/37.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which features favour hemoptysis over haematemesis?",
@@ -228,7 +326,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "A digestive history"
    ],
    "answer": 0,
-   "why": "Hemoptysis: respiratory history, coughing, bright red frothy blood. Haematemesis: vomiting, dark non-aerated blood, food debris."
+   "why": "Hemoptysis: respiratory history, coughing, bright red frothy blood. Haematemesis: vomiting, dark non-aerated blood, food debris.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/39.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "What volume defines high-abundance hemoptysis?",
@@ -239,7 +344,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "About 200 mL"
    ],
    "answer": 1,
-   "why": "Low: under 50 mL. Medium: 300 to 500 mL. High: over 500 mL at once or in 24 hours. Every hemoptysis is an emergency."
+   "why": "Low: under 50 mL. Medium: 300 to 500 mL. High: over 500 mL at once or in 24 hours. Every hemoptysis is an emergency.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/40.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "What share of hemoptysis is idiopathic?",
@@ -250,7 +362,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "About 80 percent"
    ],
    "answer": 2,
-   "why": "About 15 percent have no cause found; causes include cancer, tuberculosis, bronchiectasis, hydatid cyst, valvulopathy and embolism."
+   "why": "About 15 percent have no cause found; causes include cancer, tuberculosis, bronchiectasis, hydatid cyst, valvulopathy and embolism.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/44.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Which part of the chest is barely sensitive to pain?",
@@ -261,7 +380,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "The lung parenchyma"
    ],
    "answer": 3,
-   "why": "The lung and tracheobronchial tree are weakly sensitive; the pleura, mediastinum and chest wall are intensely sensitive."
+   "why": "The lung and tracheobronchial tree are weakly sensitive; the pleura, mediastinum and chest wall are intensely sensitive.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/48.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Which chest pain is sudden and stabbing?",
@@ -272,7 +398,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "Mesothelioma"
    ],
    "answer": 1,
-   "why": "A sudden stabbing pain suggests pneumothorax; progressive pain suggests bronchial cancer."
+   "why": "A sudden stabbing pain suggests pneumothorax; progressive pain suggests bronchial cancer.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/49.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Which chest pain improves sitting forward?",
@@ -283,7 +416,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "Aortic dissection"
    ],
    "answer": 0,
-   "why": "Pericarditis: sharp retrosternal pain, worse on coughing, swallowing and inspiration, relieved by sitting and leaning forward."
+   "why": "Pericarditis: sharp retrosternal pain, worse on coughing, swallowing and inspiration, relieved by sitting and leaning forward.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/58.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "Which chest pain radiates to the back in hypertensive men?",
@@ -294,7 +434,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "Oesophageal spasm"
    ],
    "answer": 2,
-   "why": "Aortic dissection: intense median retrosternal pain radiating to the back, typically in elderly hypertensive atheromatous men."
+   "why": "Aortic dissection: intense median retrosternal pain radiating to the back, typically in elderly hypertensive atheromatous men.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/54.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "What is the normal respiratory rate?",
@@ -305,7 +452,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "About 40 per minute"
    ],
    "answer": 0,
-   "why": "Normal breathing is calm, regular and unconscious at about 16 cycles per minute."
+   "why": "Normal breathing is calm, regular and unconscious at about 16 cycles per minute.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/68.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 68
+    }
+   ]
   },
   {
    "q": "What is orthopnoea?",
@@ -316,7 +470,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "Breathlessness lying down"
    ],
    "answer": 3,
-   "why": "Orthopnoea: dyspnoea in decubitus. Platypnoea: dyspnoea on moving from supine to upright."
+   "why": "Orthopnoea: dyspnoea in decubitus. Platypnoea: dyspnoea on moving from supine to upright.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/75.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 75
+    }
+   ]
   },
   {
    "q": "Expiratory dyspnoea suggests what?",
@@ -327,7 +488,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     "Pneumothorax"
    ],
    "answer": 1,
-   "why": "Inspiratory dyspnoea: high (laryngotracheal) obstruction. Expiratory: low obstruction, as in asthma."
+   "why": "Inspiratory dyspnoea: high (laryngotracheal) obstruction. Expiratory: low obstruction, as in asthma.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/75.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 75
+    }
+   ]
   },
   {
    "q": "Which are complications of cough? (choose all)",
@@ -341,7 +509,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     0,
     1
    ],
-   "why": "Syncope, ruptured bullae (pneumothorax), rib fracture, incontinence, hernia, vomiting, insomnia."
+   "why": "Syncope, ruptured bullae (pneumothorax), rib fracture, incontinence, hernia, vomiting, insomnia.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/13.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which are causes of acute cough? (choose all)",
@@ -355,7 +530,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     0,
     1
    ],
-   "why": "Acute cough: infections, asthma exacerbation, pneumothorax, pleurisy, left heart failure, pulmonary embolism."
+   "why": "Acute cough: infections, asthma exacerbation, pneumothorax, pleurisy, left heart failure, pulmonary embolism.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/14.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which scales grade dyspnoea? (choose all)",
@@ -369,7 +551,14 @@ SINA.lectures["semio-resp-symptoms"] = {
     0,
     1
    ],
-   "why": "NYHA and the modified Medical Research Council (mMRC) scale."
+   "why": "NYHA and the modified Medical Research Council (mMRC) scale.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-symptoms/74.jpg",
+     "lec": "Respiratory clinical symptoms",
+     "n": 74
+    }
+   ]
   }
  ],
  "cards": [
@@ -603,7 +792,14 @@ SINA.lectures["semio-resp-exam"] = {
     "Percuss, image, palpate, then test"
    ],
    "answer": 0,
-   "why": "Inspection, palpation, percussion and auscultation, then signs are grouped into syndromes."
+   "why": "Inspection, palpation, percussion and auscultation, then signs are grouped into syndromes.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/03.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "How should the patient be positioned for inspection?",
@@ -614,7 +810,14 @@ SINA.lectures["semio-resp-exam"] = {
     "Prone with arms raised"
    ],
    "answer": 1,
-   "why": "Naked chest, seated or standing, in full light; watch the patient undress for dyspnoea."
+   "why": "Naked chest, seated or standing, in full light; watch the patient undress for dyspnoea.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/04.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What causes a barrel chest?",
@@ -625,7 +828,14 @@ SINA.lectures["semio-resp-exam"] = {
     "A parietal tumour"
    ],
    "answer": 2,
-   "why": "Bilateral distension with a larger anteroposterior diameter: emphysema, asthma. Unilateral distension: pleurisy. Whole retraction: pachypleuritis."
+   "why": "Bilateral distension with a larger anteroposterior diameter: emphysema, asthma. Unilateral distension: pleurisy. Whole retraction: pachypleuritis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/07.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What is kyphosis?",
@@ -636,7 +846,14 @@ SINA.lectures["semio-resp-exam"] = {
     "A posterior dorsal curve"
    ],
    "answer": 3,
-   "why": "Kyphosis: posterior convexity of the dorsal spine. Lordosis: anterior lumbar convexity. Scoliosis: lateral deviation."
+   "why": "Kyphosis: posterior convexity of the dorsal spine. Lordosis: anterior lumbar convexity. Scoliosis: lateral deviation.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/10.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What is the normal adult respiratory rate?",
@@ -647,7 +864,14 @@ SINA.lectures["semio-resp-exam"] = {
     "25 to 35 per minute"
    ],
    "answer": 1,
-   "why": "Adults 12 to 20; infants and neonates 30 to 60. Polypnoea over 20; bradypnoea under 12."
+   "why": "Adults 12 to 20; infants and neonates 30 to 60. Polypnoea over 20; bradypnoea under 12.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/12.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "What is the tripod position?",
@@ -658,7 +882,14 @@ SINA.lectures["semio-resp-exam"] = {
     "Leaning forward, hands on knees"
    ],
    "answer": 3,
-   "why": "Patients with emphysema or distress lean forward with hands on knees to use accessory muscles, especially pectoralis major."
+   "why": "Patients with emphysema or distress lean forward with hands on knees to use accessory muscles, especially pectoralis major.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/13.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which is a sign of increased work of breathing?",
@@ -669,7 +900,14 @@ SINA.lectures["semio-resp-exam"] = {
     "A slow pulse"
    ],
    "answer": 0,
-   "why": "Accessory muscle use, nasal flaring, intercostal, subcostal and suprasternal retractions, grunting, pursed lips, paradoxical breathing."
+   "why": "Accessory muscle use, nasal flaring, intercostal, subcostal and suprasternal retractions, grunting, pursed lips, paradoxical breathing.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/14.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "What does digital clubbing indicate?",
@@ -680,7 +918,14 @@ SINA.lectures["semio-resp-exam"] = {
     "Vitamin C excess"
    ],
    "answer": 2,
-   "why": "Enlarged, rounded Hippocratic nails with swollen distal phalanges indicate a pathology causing chronic hypoxaemia."
+   "why": "Enlarged, rounded Hippocratic nails with swollen distal phalanges indicate a pathology causing chronic hypoxaemia.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/22.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "What Lovibond angle indicates clubbing?",
@@ -691,7 +936,14 @@ SINA.lectures["semio-resp-exam"] = {
     "180 degrees or more"
    ],
    "answer": 3,
-   "why": "A Lovibond angle of 180 degrees or more; in the Schamroth test the diamond window between opposed nails disappears."
+   "why": "A Lovibond angle of 180 degrees or more; in the Schamroth test the diamond window between opposed nails disappears.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/23.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What distinguishes Pierre Marie osteoarthropathy from simple clubbing?",
@@ -702,7 +954,14 @@ SINA.lectures["semio-resp-exam"] = {
     "Spoon-shaped nails"
    ],
    "answer": 0,
-   "why": "Hypertrophic osteoarthropathy: painful clubbing, hypertrophic extremities with effusions, vasomotor disorders, arthralgia and periostitis of long bones; hereditary or paraneoplastic."
+   "why": "Hypertrophic osteoarthropathy: painful clubbing, hypertrophic extremities with effusions, vasomotor disorders, arthralgia and periostitis of long bones; hereditary or paraneoplastic.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/24.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which signs make up Horner's syndrome?",
@@ -713,7 +972,14 @@ SINA.lectures["semio-resp-exam"] = {
     "Miosis and exophthalmos"
    ],
    "answer": 2,
-   "why": "Miosis, ptosis with apparent enophthalmos, and loss of sweating on the same side of the face."
+   "why": "Miosis, ptosis with apparent enophthalmos, and loss of sweating on the same side of the face.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/29.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "What does the patient say to test tactile fremitus in English?",
@@ -724,7 +990,14 @@ SINA.lectures["semio-resp-exam"] = {
     "Thirty-three"
    ],
    "answer": 1,
-   "why": "Toy boat in English, 44 in Arabic, 33 in French, while the examiner feels the vibrations."
+   "why": "Toy boat in English, 44 in Arabic, 33 in French, while the examiner feels the vibrations.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/30.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "When is tactile fremitus increased?",
@@ -735,7 +1008,14 @@ SINA.lectures["semio-resp-exam"] = {
     "Pneumonia"
    ],
    "answer": 3,
-   "why": "Increased in pneumonia (consolidation). Decreased or abolished in pleurisy, pneumothorax, atelectasis and emphysema bullae."
+   "why": "Increased in pneumonia (consolidation). Decreased or abolished in pleurisy, pneumothorax, atelectasis and emphysema bullae.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/31.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Which organs are dull to percussion?",
@@ -746,7 +1026,14 @@ SINA.lectures["semio-resp-exam"] = {
     "The healthy lung"
    ],
    "answer": 2,
-   "why": "Dull: liver, heart. Resonant: gastric air sac, left colonic angle, healthy lung."
+   "why": "Dull: liver, heart. Resonant: gastric air sac, left colonic angle, healthy lung.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/34.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "What does hyperresonance indicate?",
@@ -757,7 +1044,14 @@ SINA.lectures["semio-resp-exam"] = {
     "Pachypleuritis"
    ],
    "answer": 0,
-   "why": "Hyperresonance: excess air (pneumothorax, emphysema). Dullness: pleurisy, pachypleuritis, consolidation."
+   "why": "Hyperresonance: excess air (pneumothorax, emphysema). Dullness: pleurisy, pachypleuritis, consolidation.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/35.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "When is vesicular breathing mainly heard?",
@@ -768,7 +1062,14 @@ SINA.lectures["semio-resp-exam"] = {
     "It is never heard"
    ],
    "answer": 1,
-   "why": "Vesicular breathing is heard over both lungs, especially in inspiration and early expiration."
+   "why": "Vesicular breathing is heard over both lungs, especially in inspiration and early expiration.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/38.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Where is tracheal breathing heard?",
@@ -779,7 +1080,14 @@ SINA.lectures["semio-resp-exam"] = {
     "Over the abdomen"
    ],
    "answer": 2,
-   "why": "Tracheal breathing: very loud, over the neck. Bronchial breathing: loud, high-pitched, over the sternum."
+   "why": "Tracheal breathing: very loud, over the neck. Bronchial breathing: loud, high-pitched, over the sternum.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/38.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "What do fine velcro crackles suggest?",
@@ -790,7 +1098,14 @@ SINA.lectures["semio-resp-exam"] = {
     "Fibrosis or oedema"
    ],
    "answer": 3,
-   "why": "Fine crackles: fluid, infection, fibrosis (velcro). Coarse crackles: fluid or infection (rice krispies)."
+   "why": "Fine crackles: fluid, infection, fibrosis (velcro). Coarse crackles: fluid or infection (rice krispies).",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/40.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "What sound is a pleural rub compared to?",
@@ -801,7 +1116,14 @@ SINA.lectures["semio-resp-exam"] = {
     "A crowing rooster"
    ],
    "answer": 1,
-   "why": "A pleural rub, heard at the end of inspiration from inflamed pleura, sounds like a foot creaking in fresh snow."
+   "why": "A pleural rub, heard at the end of inspiration from inflamed pleura, sounds like a foot creaking in fresh snow.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/41.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "What is stridor?",
@@ -812,7 +1134,14 @@ SINA.lectures["semio-resp-exam"] = {
     "Soft vesicular breathing"
    ],
    "answer": 0,
-   "why": "Stridor: inspiratory, musical, very loud, monophonic, from laryngeal spasm or swelling in upper airway obstruction."
+   "why": "Stridor: inspiratory, musical, very loud, monophonic, from laryngeal spasm or swelling in upper airway obstruction.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/41.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Which findings suggest consolidation?",
@@ -823,7 +1152,14 @@ SINA.lectures["semio-resp-exam"] = {
     "Resonance, wheeze"
    ],
    "answer": 2,
-   "why": "Consolidation: dull, bronchial breathing, coarse crackles, increased vocal resonance."
+   "why": "Consolidation: dull, bronchial breathing, coarse crackles, increased vocal resonance.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/42.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Which findings suggest pneumothorax?",
@@ -834,7 +1170,14 @@ SINA.lectures["semio-resp-exam"] = {
     "Normal, fine crackles"
    ],
    "answer": 0,
-   "why": "Pneumothorax: hyperresonant, breath sounds abolished, vocal resonance decreased."
+   "why": "Pneumothorax: hyperresonant, breath sounds abolished, vocal resonance decreased.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/42.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "What must be reported in a pleurisy on general exam?",
@@ -845,7 +1188,14 @@ SINA.lectures["semio-resp-exam"] = {
     "Pericarditis, ascites"
    ],
    "answer": 3,
-   "why": "In pleurisy, report the presence or absence of pericarditis and ascites, and of meningeal signs."
+   "why": "In pleurisy, report the presence or absence of pericarditis and ascites, and of meningeal signs.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/43.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "In which condition must lymph nodes be reported?",
@@ -856,7 +1206,14 @@ SINA.lectures["semio-resp-exam"] = {
     "Pneumothorax"
    ],
    "answer": 1,
-   "why": "Report adenopathy in tuberculosis, haematological malignancy and sarcoidosis."
+   "why": "Report adenopathy in tuberculosis, haematological malignancy and sarcoidosis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/44.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Which cause abolished breath sounds on one side? (choose all)",
@@ -870,7 +1227,14 @@ SINA.lectures["semio-resp-exam"] = {
     0,
     1
    ],
-   "why": "One-sided: pleurisy, pneumothorax, hydropneumothorax, main bronchus obstruction. Bilateral: upper airway obstruction or advanced emphysema."
+   "why": "One-sided: pleurisy, pneumothorax, hydropneumothorax, main bronchus obstruction. Bilateral: upper airway obstruction or advanced emphysema.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/39.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which are thoracic deformities? (choose all)",
@@ -884,7 +1248,14 @@ SINA.lectures["semio-resp-exam"] = {
     0,
     1
    ],
-   "why": "Pectus excavatum (funnel), carinatum (keel) and arcuatum (wave)."
+   "why": "Pectus excavatum (funnel), carinatum (keel) and arcuatum (wave).",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/09.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which are added sounds? (choose all)",
@@ -898,7 +1269,14 @@ SINA.lectures["semio-resp-exam"] = {
     0,
     1
    ],
-   "why": "Added: wheeze, rhonchi, crackles, rub, stridor. Vesicular and tracheal breathing are normal sounds."
+   "why": "Added: wheeze, rhonchi, crackles, rub, stridor. Vesicular and tracheal breathing are normal sounds.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-exam/42.jpg",
+     "lec": "Respiratory clinical examination",
+     "n": 42
+    }
+   ]
   }
  ],
  "cards": [
@@ -1118,7 +1496,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Blood in the bronchi"
    ],
    "answer": 0,
-   "why": "Fluid effusion syndrome: fluid in the pleural cavity, between the two pleural layers."
+   "why": "Fluid effusion syndrome: fluid in the pleural cavity, between the two pleural layers.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/02.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What does the X-ray show in a pleural effusion?",
@@ -1129,7 +1514,19 @@ SINA.lectures["semio-resp-syndromes"] = {
     "A cavity with a fluid level"
    ],
    "answer": 1,
-   "why": "Homogeneous density with a meniscus margin and blunting of the costophrenic angle."
+   "why": "Homogeneous density with a meniscus margin and blunting of the costophrenic angle.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/06.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 6
+    },
+    {
+     "src": "files/slides/semio-resp-syndromes/07.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which way does the trachea move in a large effusion?",
@@ -1140,7 +1537,19 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Upward"
    ],
    "answer": 2,
-   "why": "A large effusion opacifies the hemithorax, shifts the mediastinum and deviates the trachea away."
+   "why": "A large effusion opacifies the hemithorax, shifts the mediastinum and deviates the trachea away.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/06.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 6
+    },
+    {
+     "src": "files/slides/semio-resp-syndromes/09.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Where is the needle inserted in thoracentesis?",
@@ -1151,7 +1560,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Above the lower rib"
    ],
    "answer": 3,
-   "why": "In the zone of complete dullness, shaving the upper edge of the lower rib to avoid the intercostal bundle."
+   "why": "In the zone of complete dullness, shaving the upper edge of the lower rib to avoid the intercostal bundle.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/12.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "What albumin level defines an exudate?",
@@ -1162,7 +1578,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Exactly 5 g/L"
    ],
    "answer": 1,
-   "why": "Exudate: albumin over 30 g/L, inflammatory. Transudate: under 30 g/L, mechanical."
+   "why": "Exudate: albumin over 30 g/L, inflammatory. Transudate: under 30 g/L, mechanical.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/16.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "What confirms the cause of a pleurisy?",
@@ -1173,7 +1596,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Pleural biopsy"
    ],
    "answer": 3,
-   "why": "Pleural biopsy or thoracoscopy confirm the aetiology."
+   "why": "Pleural biopsy or thoracoscopy confirm the aetiology.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/17.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "What is a pneumothorax?",
@@ -1184,7 +1614,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "A collapsed bronchus"
    ],
    "answer": 0,
-   "why": "Air in the pleural space presses on and collapses the lung."
+   "why": "Air in the pleural space presses on and collapses the lung.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/21.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "What is a primary pneumothorax?",
@@ -1195,7 +1632,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "One from emphysema"
    ],
    "answer": 2,
-   "why": "Primary (primitive): no clinical or radiological lesion. Secondary: pre-existing lung damage."
+   "why": "Primary (primitive): no clinical or radiological lesion. Secondary: pre-existing lung damage.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/22.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "What does percussion find in pneumothorax?",
@@ -1206,7 +1650,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Hyperresonance"
    ],
    "answer": 3,
-   "why": "Distended painful hemithorax, reduced expansion, decreased fremitus, hyperresonance, reduced or absent breath sounds."
+   "why": "Distended painful hemithorax, reduced expansion, decreased fremitus, hyperresonance, reduced or absent breath sounds.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/27.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "What X-ray line marks a pneumothorax?",
@@ -1217,7 +1668,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "The air bronchogram"
    ],
    "answer": 0,
-   "why": "A thin opaque line around the collapsed lung is the visceral pleura, with a hyperlucent area devoid of markings beyond it."
+   "why": "A thin opaque line around the collapsed lung is the visceral pleura, with a hyperlucent area devoid of markings beyond it.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/28.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "What X-ray shows a hydropneumothorax?",
@@ -1228,7 +1686,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "An air bronchogram"
    ],
    "answer": 2,
-   "why": "Mixed syndrome: a pleural opacity surmounted by a hyperlucent area devoid of markings."
+   "why": "Mixed syndrome: a pleural opacity surmounted by a hyperlucent area devoid of markings.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/34.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "What fluid defines a pyopneumothorax?",
@@ -1239,7 +1704,19 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Clear fluid with air"
    ],
    "answer": 1,
-   "why": "Yellow: hydropneumothorax. Pus: pyopneumothorax. Blood: haemopneumothorax. Chyle: chylopneumothorax."
+   "why": "Yellow: hydropneumothorax. Pus: pyopneumothorax. Blood: haemopneumothorax. Chyle: chylopneumothorax.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/33.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 33
+    },
+    {
+     "src": "files/slides/semio-resp-syndromes/35.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "What does palpation find in consolidation?",
@@ -1250,7 +1727,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Increased fremitus"
    ],
    "answer": 3,
-   "why": "Consolidation: increased fremitus, dullness, bronchial breath sounds and crackles."
+   "why": "Consolidation: increased fremitus, dullness, bronchial breath sounds and crackles.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/37.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "What is an air bronchogram?",
@@ -1261,7 +1745,19 @@ SINA.lectures["semio-resp-syndromes"] = {
     "A blunted costal angle"
    ],
    "answer": 2,
-   "why": "Translucent bronchi visible inside an alveolar opacity, typical of consolidation."
+   "why": "Translucent bronchi visible inside an alveolar opacity, typical of consolidation.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/38.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 38
+    },
+    {
+     "src": "files/slides/semio-resp-syndromes/39.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which causes a retracted consolidation?",
@@ -1272,7 +1768,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Tuberculous pneumonia"
    ],
    "answer": 0,
-   "why": "Retracted: intrinsic or extrinsic bronchial stenosis, parenchymal destruction. Non-retracted: pneumonia, infarction, tuberculous pneumonia."
+   "why": "Retracted: intrinsic or extrinsic bronchial stenosis, parenchymal destruction. Non-retracted: pneumonia, infarction, tuberculous pneumonia.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/43.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Which way do structures move in a retracted opacity?",
@@ -1283,7 +1786,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Downward only"
    ],
    "answer": 1,
-   "why": "Thoracic structures shift toward the collapsed side, with crowding of the ribs."
+   "why": "Thoracic structures shift toward the collapsed side, with crowding of the ribs.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/42.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Which emphysema type is the pink puffer?",
@@ -1294,7 +1804,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Asthma"
    ],
    "answer": 2,
-   "why": "Panlobular: pink puffer. Centrilobular: blue bloater."
+   "why": "Panlobular: pink puffer. Centrilobular: blue bloater.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/47.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "What does percussion find in emphysema?",
@@ -1305,7 +1822,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Diffuse hyperresonance"
    ],
    "answer": 3,
-   "why": "Barrel chest, polypnoea, diffuse hyperresonance, decreased fremitus and reduced breath sounds."
+   "why": "Barrel chest, polypnoea, diffuse hyperresonance, decreased fremitus and reduced breath sounds.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/46.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "Which is a cause of a cavitary syndrome?",
@@ -1316,7 +1840,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Acute bronchitis"
    ],
    "answer": 1,
-   "why": "Tuberculous cavern, lung abscess, excavated cancer, ruptured hydatid cyst."
+   "why": "Tuberculous cavern, lung abscess, excavated cancer, ruptured hydatid cyst.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/51.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "What does the X-ray show in acute bronchitis?",
@@ -1327,7 +1858,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Hyperlucency"
    ],
    "answer": 0,
-   "why": "Acute bronchitis: dry then productive cough; exam and X-ray are often normal."
+   "why": "Acute bronchitis: dry then productive cough; exam and X-ray are often normal.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/54.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "What is bronchiectasis?",
@@ -1338,7 +1876,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Pleural thickening"
    ],
    "answer": 2,
-   "why": "A permanent, irreversible increase in bronchial calibre (3rd to 8th order), with morning bronchorrhoea."
+   "why": "A permanent, irreversible increase in bronchial calibre (3rd to 8th order), with morning bronchorrhoea.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/56.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "What causes superior vena cava syndrome most often?",
@@ -1349,7 +1894,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Pneumothorax"
    ],
    "answer": 0,
-   "why": "Obstruction of the SVC, most often by thrombus or tumour infiltration."
+   "why": "Obstruction of the SVC, most often by thrombus or tumour infiltration.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/65.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 65
+    }
+   ]
   },
   {
    "q": "Which is a late sign of SVC syndrome?",
@@ -1360,7 +1912,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Face and neck oedema"
    ],
    "answer": 3,
-   "why": "Late: permanent oedema of face, neck and thorax, collateral veins, telangiectasia and cyanosis worse on coughing. Early: dizziness, tinnitus, headache, eyelid oedema, jugular turgor."
+   "why": "Late: permanent oedema of face, neck and thorax, collateral veins, telangiectasia and cyanosis worse on coughing. Early: dizziness, tinnitus, headache, eyelid oedema, jugular turgor.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/67.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 67
+    }
+   ]
   },
   {
    "q": "What is Pancoast-Tobias syndrome?",
@@ -1371,7 +1930,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     "Oesophageal compression"
    ],
    "answer": 1,
-   "why": "Horner syndrome, an apical tumour and bone lysis."
+   "why": "Horner syndrome, an apical tumour and bone lysis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/72.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 72
+    }
+   ]
   },
   {
    "q": "Which signs define a pleural fluid effusion? (choose all)",
@@ -1385,7 +1951,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     0,
     1
    ],
-   "why": "Dullness, reduced or abolished fremitus and reduced or abolished breath sounds."
+   "why": "Dullness, reduced or abolished fremitus and reduced or abolished breath sounds.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/04.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which are roles of thoracentesis? (choose all)",
@@ -1399,7 +1972,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     0,
     1
    ],
-   "why": "Confirm the effusion, show its gross appearance and obtain fluid for analysis."
+   "why": "Confirm the effusion, show its gross appearance and obtain fluid for analysis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/13.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which nerve involvement signs occur in mediastinal syndromes? (choose all)",
@@ -1413,7 +1993,14 @@ SINA.lectures["semio-resp-syndromes"] = {
     0,
     1
    ],
-   "why": "Horner (sympathetic), hiccups and girdle pain (phrenic), dysphonia (recurrent), bradycardia and sialorrhoea (vagus)."
+   "why": "Horner (sympathetic), hiccups and girdle pain (phrenic), dysphonia (recurrent), bradycardia and sialorrhoea (vagus).",
+   "slides": [
+    {
+     "src": "files/slides/semio-resp-syndromes/73.jpg",
+     "lec": "Thoracic syndromes",
+     "n": 73
+    }
+   ]
   }
  ],
  "cards": [
@@ -1622,7 +2209,14 @@ SINA.lectures["semio-cv-intro"] = {
     "A full hour"
    ],
    "answer": 0,
-   "why": "Resting comfortably, supine or sitting, for 3 to 5 minutes, with no blood draw just before."
+   "why": "Resting comfortably, supine or sitting, for 3 to 5 minutes, with no blood draw just before.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-intro/03.jpg",
+     "lec": "Cardiovascular semiology: introduction",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which arm should not be used for blood pressure?",
@@ -1633,7 +2227,14 @@ SINA.lectures["semio-cv-intro"] = {
     "The non-dominant arm"
    ],
    "answer": 1,
-   "why": "Avoid an arm with a medical problem or on the side of a mastectomy, to avoid lymphoedema; use a bare arm."
+   "why": "Avoid an arm with a medical problem or on the side of a mastectomy, to avoid lymphoedema; use a bare arm.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-intro/03.jpg",
+     "lec": "Cardiovascular semiology: introduction",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "What does a vertical sternal scar indicate?",
@@ -1644,7 +2245,14 @@ SINA.lectures["semio-cv-intro"] = {
     "A rib fracture"
    ],
    "answer": 2,
-   "why": "A vertical scar over the sternum indicates previous open-heart surgery."
+   "why": "A vertical scar over the sternum indicates previous open-heart surgery.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-intro/04.jpg",
+     "lec": "Cardiovascular semiology: introduction",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Pectus excavatum may point to which syndrome?",
@@ -1655,7 +2263,19 @@ SINA.lectures["semio-cv-intro"] = {
     "Marfan syndrome"
    ],
    "answer": 3,
-   "why": "A sunken or protruding sternum, with ligamentous hypermobility, may signal Marfan syndrome."
+   "why": "A sunken or protruding sternum, with ligamentous hypermobility, may signal Marfan syndrome.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-intro/05.jpg",
+     "lec": "Cardiovascular semiology: introduction",
+     "n": 5
+    },
+    {
+     "src": "files/slides/semio-cv-intro/06.jpg",
+     "lec": "Cardiovascular semiology: introduction",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "What do yellow plaques around the eyelids suggest?",
@@ -1666,7 +2286,14 @@ SINA.lectures["semio-cv-intro"] = {
     "Liver failure"
    ],
    "answer": 1,
-   "why": "Xanthelasma may signify hypercholesterolaemia, a cardiovascular risk factor, though it also occurs without it."
+   "why": "Xanthelasma may signify hypercholesterolaemia, a cardiovascular risk factor, though it also occurs without it.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-intro/08.jpg",
+     "lec": "Cardiovascular semiology: introduction",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "What are Roth spots a classic sign of?",
@@ -1677,7 +2304,14 @@ SINA.lectures["semio-cv-intro"] = {
     "Endocarditis"
    ],
    "answer": 3,
-   "why": "Retinal red rings with a white centre, seen in only about 2 percent of endocarditis."
+   "why": "Retinal red rings with a white centre, seen in only about 2 percent of endocarditis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-intro/09.jpg",
+     "lec": "Cardiovascular semiology: introduction",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "At Hb 10 g/dL, when does cyanosis appear?",
@@ -1688,7 +2322,14 @@ SINA.lectures["semio-cv-intro"] = {
     "It never appears"
    ],
    "answer": 0,
-   "why": "The lower the Hb, the lower the saturation needed; cyanosis in a severely anaemic patient means critical illness."
+   "why": "The lower the Hb, the lower the saturation needed; cyanosis in a severely anaemic patient means critical illness.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-intro/11.jpg",
+     "lec": "Cardiovascular semiology: introduction",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which endocarditis lesions are painful?",
@@ -1699,7 +2340,14 @@ SINA.lectures["semio-cv-intro"] = {
     "Roth spots"
    ],
    "answer": 2,
-   "why": "Osler nodes: raised, painful, red, from immune complexes. Janeway lesions: small, red, painless. Splinter haemorrhages: dark lines under nails, from microemboli."
+   "why": "Osler nodes: raised, painful, red, from immune complexes. Janeway lesions: small, red, painless. Splinter haemorrhages: dark lines under nails, from microemboli.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-intro/13.jpg",
+     "lec": "Cardiovascular semiology: introduction",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which jugular vein is always observed?",
@@ -1710,7 +2358,14 @@ SINA.lectures["semio-cv-intro"] = {
     "The right internal jugular"
    ],
    "answer": 3,
-   "why": "Always observe the right internal jugular vein; distension reflects raised central venous pressure."
+   "why": "Always observe the right internal jugular vein; distension reflects raised central venous pressure.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-intro/16.jpg",
+     "lec": "Cardiovascular semiology: introduction",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "What does jugular venous distension evaluate?",
@@ -1721,7 +2376,14 @@ SINA.lectures["semio-cv-intro"] = {
     "Thyroid size"
    ],
    "answer": 0,
-   "why": "It evaluates right heart function and central venous pressure; it is not a sign of dehydration."
+   "why": "It evaluates right heart function and central venous pressure; it is not a sign of dehydration.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-intro/16.jpg",
+     "lec": "Cardiovascular semiology: introduction",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "At what angle is the patient placed to assess the JVP?",
@@ -1732,7 +2394,14 @@ SINA.lectures["semio-cv-intro"] = {
     "Head down"
    ],
    "answer": 2,
-   "why": "Supine with the head raised 15 to 45 degrees, head turned left."
+   "why": "Supine with the head raised 15 to 45 degrees, head turned left.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-intro/18.jpg",
+     "lec": "Cardiovascular semiology: introduction",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "What height above the sternal angle is positive?",
@@ -1743,7 +2412,14 @@ SINA.lectures["semio-cv-intro"] = {
     "Any visible vein"
    ],
    "answer": 1,
-   "why": "A sustained rise over 4 cm above the sternal angle after pressure on the liver is positive."
+   "why": "A sustained rise over 4 cm above the sternal angle after pressure on the liver is positive.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-intro/18.jpg",
+     "lec": "Cardiovascular semiology: introduction",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Where does dependent oedema occur?",
@@ -1754,7 +2430,14 @@ SINA.lectures["semio-cv-intro"] = {
     "Areas below the heart"
    ],
    "answer": 3,
-   "why": "Fluid accumulates under the skin in regions lower than the heart: legs, ankles, arms."
+   "why": "Fluid accumulates under the skin in regions lower than the heart: legs, ankles, arms.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-intro/20.jpg",
+     "lec": "Cardiovascular semiology: introduction",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which is a sign of right heart failure?",
@@ -1765,7 +2448,14 @@ SINA.lectures["semio-cv-intro"] = {
     "Fine basal crackles"
    ],
    "answer": 2,
-   "why": "Right heart failure: jugular distension, dependent oedema, ascites, hepatosplenomegaly, anorexia, GI distress."
+   "why": "Right heart failure: jugular distension, dependent oedema, ascites, hepatosplenomegaly, anorexia, GI distress.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-intro/19.jpg",
+     "lec": "Cardiovascular semiology: introduction",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which are signs of infective endocarditis? (choose all)",
@@ -1779,7 +2469,14 @@ SINA.lectures["semio-cv-intro"] = {
     0,
     1
    ],
-   "why": "Osler nodes, Janeway lesions, splinter haemorrhages and Roth spots."
+   "why": "Osler nodes, Janeway lesions, splinter haemorrhages and Roth spots.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-intro/13.jpg",
+     "lec": "Cardiovascular semiology: introduction",
+     "n": 13
+    }
+   ]
   }
  ],
  "cards": [
@@ -1919,7 +2616,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "The pericardium fills"
    ],
    "answer": 0,
-   "why": "The heart muscle does not pump blood as well as it should; blood backs up and fluid builds in the lungs."
+   "why": "The heart muscle does not pump blood as well as it should; blood backs up and fluid builds in the lungs.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/02.jpg",
+     "lec": "Left heart failure",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Systolic heart failure means the heart cannot do what?",
@@ -1930,7 +2634,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Relax the aorta"
    ],
    "answer": 1,
-   "why": "Systolic: can't pump; stretched, thin chambers. Diastolic: can't fill; stiff, thick chambers."
+   "why": "Systolic: can't pump; stretched, thin chambers. Diastolic: can't fill; stiff, thick chambers.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/04.jpg",
+     "lec": "Left heart failure",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which chambers characterise diastolic failure?",
@@ -1941,7 +2652,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Calcified"
    ],
    "answer": 2,
-   "why": "Diastolic heart failure has stiff, thick walls that cannot fill."
+   "why": "Diastolic heart failure has stiff, thick walls that cannot fill.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/04.jpg",
+     "lec": "Left heart failure",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "How is stroke volume calculated?",
@@ -1952,7 +2670,19 @@ SINA.lectures["semio-cv-lhf"] = {
     "EDV minus ESV"
    ],
    "answer": 3,
-   "why": "Stroke volume = end-diastolic minus end-systolic volume: 135 minus 65 = 70 mL."
+   "why": "Stroke volume = end-diastolic minus end-systolic volume: 135 minus 65 = 70 mL.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/08.jpg",
+     "lec": "Left heart failure",
+     "n": 8
+    },
+    {
+     "src": "files/slides/semio-cv-lhf/09.jpg",
+     "lec": "Left heart failure",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What is normal cardiac output?",
@@ -1963,7 +2693,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "About 50 mL per minute"
    ],
    "answer": 1,
-   "why": "Cardiac output = heart rate x stroke volume: 70 x 70 mL = 4.9 L/min."
+   "why": "Cardiac output = heart rate x stroke volume: 70 x 70 mL = 4.9 L/min.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/10.jpg",
+     "lec": "Left heart failure",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What is a normal ejection fraction?",
@@ -1974,7 +2711,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "64 to 70 percent"
    ],
    "answer": 3,
-   "why": "Normal about 64 to 70 percent; 40 to 50 is borderline; 40 percent or less is systolic failure."
+   "why": "Normal about 64 to 70 percent; 40 to 50 is borderline; 40 percent or less is systolic failure.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/09.jpg",
+     "lec": "Left heart failure",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What is the ejection fraction in diastolic failure?",
@@ -1985,7 +2729,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Over 95 percent"
    ],
    "answer": 0,
-   "why": "In diastolic failure the ejection fraction stays normal (about 64 percent), but stroke volume is still low because filling is reduced."
+   "why": "In diastolic failure the ejection fraction stays normal (about 64 percent), but stroke volume is still low because filling is reduced.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/13.jpg",
+     "lec": "Left heart failure",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "What does the Frank-Starling mechanism describe?",
@@ -1996,7 +2747,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Valves closing"
    ],
    "answer": 2,
-   "why": "Like a rubber band: more ventricular filling (preload) gives a larger stroke volume."
+   "why": "Like a rubber band: more ventricular filling (preload) gives a larger stroke volume.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/14.jpg",
+     "lec": "Left heart failure",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "How does long-standing hypertension cause heart failure?",
@@ -2007,7 +2765,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Hypertrophy, weakness"
    ],
    "answer": 3,
-   "why": "Higher arterial pressure makes pumping harder, causing hypertrophy, squeezed coronaries, higher oxygen demand and weaker contractions."
+   "why": "Higher arterial pressure makes pumping harder, causing hypertrophy, squeezed coronaries, higher oxygen demand and weaker contractions.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/17.jpg",
+     "lec": "Left heart failure",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which system causes fluid retention in heart failure?",
@@ -2018,7 +2783,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Insulin system"
    ],
    "answer": 0,
-   "why": "Low renal flow activates the renin-angiotensin-aldosterone system, retaining fluid to raise preload."
+   "why": "Low renal flow activates the renin-angiotensin-aldosterone system, retaining fluid to raise preload.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/19.jpg",
+     "lec": "Left heart failure",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which causes diastolic left heart failure?",
@@ -2029,7 +2801,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Hyperthyroidism"
    ],
    "answer": 2,
-   "why": "Diastolic causes: long-standing hypertension, aortic stenosis, hypertrophic and restrictive cardiomyopathy."
+   "why": "Diastolic causes: long-standing hypertension, aortic stenosis, hypertrophic and restrictive cardiomyopathy.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/19.jpg",
+     "lec": "Left heart failure",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "What is the main consequence of left heart failure?",
@@ -2040,7 +2819,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Jaundice"
    ],
    "answer": 1,
-   "why": "Blood backs up into the pulmonary veins, fluid leaks into the lungs: dyspnoea, orthopnoea and crackles."
+   "why": "Blood backs up into the pulmonary veins, fluid leaks into the lungs: dyspnoea, orthopnoea and crackles.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/02.jpg",
+     "lec": "Left heart failure",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What is paroxysmal nocturnal dyspnoea?",
@@ -2051,7 +2837,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Waking breathless at night"
    ],
    "answer": 3,
-   "why": "The patient wakes 1 to 2 hours after falling asleep with air hunger or a feeling of drowning."
+   "why": "The patient wakes 1 to 2 hours after falling asleep with air hunger or a feeling of drowning.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/21.jpg",
+     "lec": "Left heart failure",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which sputum occurs in pulmonary oedema?",
@@ -2062,7 +2855,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Chocolate pus"
    ],
    "answer": 2,
-   "why": "Coughing up blood or bloody froth is a symptom of pulmonary oedema."
+   "why": "Coughing up blood or bloody froth is a symptom of pulmonary oedema.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/21.jpg",
+     "lec": "Left heart failure",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which are signs of pulmonary oedema? (choose all)",
@@ -2076,7 +2876,14 @@ SINA.lectures["semio-cv-lhf"] = {
     0,
     1
    ],
-   "why": "Dyspnoea, orthopnoea, PND, crackles and frothy sputum."
+   "why": "Dyspnoea, orthopnoea, PND, crackles and frothy sputum.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/21.jpg",
+     "lec": "Left heart failure",
+     "n": 21
+    }
+   ]
   }
  ],
  "cards": [
@@ -2234,7 +3041,19 @@ SINA.lectures["semio-cv-rhf"] = {
     "Hyperthyroidism"
    ],
    "answer": 0,
-   "why": "Right heart failure is often caused by left heart failure, making it biventricular."
+   "why": "Right heart failure is often caused by left heart failure, making it biventricular.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/04.jpg",
+     "lec": "Right heart failure",
+     "n": 4
+    },
+    {
+     "src": "files/slides/semio-cv-rhf/06.jpg",
+     "lec": "Right heart failure",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "How does left heart failure strain the right ventricle?",
@@ -2245,7 +3064,19 @@ SINA.lectures["semio-cv-rhf"] = {
     "It blocks the coronaries"
    ],
    "answer": 1,
-   "why": "Backed-up blood raises pulmonary artery pressure, so the right ventricle must pump harder."
+   "why": "Backed-up blood raises pulmonary artery pressure, so the right ventricle must pump harder.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/02.jpg",
+     "lec": "Right heart failure",
+     "n": 2
+    },
+    {
+     "src": "files/slides/semio-cv-rhf/03.jpg",
+     "lec": "Right heart failure",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which shunt direction occurs in septal defects initially?",
@@ -2256,7 +3087,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "No shunt"
    ],
    "answer": 2,
-   "why": "Blood flows from the high-pressure left side to the low-pressure right side through atrial or ventricular septal defects, overloading the right heart."
+   "why": "Blood flows from the high-pressure left side to the low-pressure right side through atrial or ventricular septal defects, overloading the right heart.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/06.jpg",
+     "lec": "Right heart failure",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "How does chronic lung disease cause right heart failure?",
@@ -2267,7 +3105,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Hypoxic vasoconstriction"
    ],
    "answer": 3,
-   "why": "Hypoxia constricts pulmonary arterioles, raising pulmonary pressure and causing right ventricular hypertrophy and failure: cor pulmonale."
+   "why": "Hypoxia constricts pulmonary arterioles, raising pulmonary pressure and causing right ventricular hypertrophy and failure: cor pulmonale.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/16.jpg",
+     "lec": "Right heart failure",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "What is right heart failure from lung disease called?",
@@ -2278,7 +3123,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Dressler syndrome"
    ],
    "answer": 1,
-   "why": "Right heart failure secondary to chronic pulmonary problems is cor pulmonale."
+   "why": "Right heart failure secondary to chronic pulmonary problems is cor pulmonale.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/16.jpg",
+     "lec": "Right heart failure",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which blood change accompanies chronic hypoxia?",
@@ -2289,7 +3141,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Polycythaemia"
    ],
    "answer": 3,
-   "why": "Chronic hypoxia leads to polycythaemia, along with pulmonary hypertension, systemic inflammation and endothelial dysfunction."
+   "why": "Chronic hypoxia leads to polycythaemia, along with pulmonary hypertension, systemic inflammation and endothelial dysfunction.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/12.jpg",
+     "lec": "Right heart failure",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which is a sign of severe hypoxia?",
@@ -2300,7 +3159,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Calm alertness"
    ],
    "answer": 0,
-   "why": "Severe hypoxia: tachycardia, tachypnoea, bradycardia, extreme restlessness and cyanosis."
+   "why": "Severe hypoxia: tachycardia, tachypnoea, bradycardia, extreme restlessness and cyanosis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/13.jpg",
+     "lec": "Right heart failure",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Where does systemic venous congestion show first in the neck?",
@@ -2311,7 +3177,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Tracheal shift"
    ],
    "answer": 2,
-   "why": "Backed-up systemic venous blood distends the jugular veins."
+   "why": "Backed-up systemic venous blood distends the jugular veins.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/16.jpg",
+     "lec": "Right heart failure",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "What can long-standing hepatic congestion lead to?",
@@ -2322,7 +3195,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Cardiac cirrhosis"
    ],
    "answer": 3,
-   "why": "Painful hepatosplenomegaly can progress to cardiac cirrhosis and liver failure."
+   "why": "Painful hepatosplenomegaly can progress to cardiac cirrhosis and liver failure.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/14.jpg",
+     "lec": "Right heart failure",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Where does oedema collect when a patient lies down?",
@@ -2333,7 +3213,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "The hands"
    ],
    "answer": 0,
-   "why": "Gravity: ankles and legs when standing, the sacrum when lying down."
+   "why": "Gravity: ankles and legs when standing, the sacrum when lying down.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/15.jpg",
+     "lec": "Right heart failure",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "How deep is a grade 3 pitting oedema?",
@@ -2344,7 +3231,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "8 mm"
    ],
    "answer": 2,
-   "why": "Grade 1: 2 mm. Grade 2: 3 to 4 mm. Grade 3: 5 to 6 mm. Grade 4: 8 mm."
+   "why": "Grade 1: 2 mm. Grade 2: 3 to 4 mm. Grade 3: 5 to 6 mm. Grade 4: 8 mm.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/15.jpg",
+     "lec": "Right heart failure",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which fluid collection fills the peritoneum in RHF?",
@@ -2355,7 +3249,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Haemarthrosis"
    ],
    "answer": 1,
-   "why": "The peritoneal space takes up a lot of fluid: ascites."
+   "why": "The peritoneal space takes up a lot of fluid: ascites.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/14.jpg",
+     "lec": "Right heart failure",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which GI symptoms occur in right heart failure?",
@@ -2366,7 +3267,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Anorexia, GI distress"
    ],
    "answer": 3,
-   "why": "GI tract congestion causes anorexia, GI distress and weight loss."
+   "why": "GI tract congestion causes anorexia, GI distress and weight loss.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/19.jpg",
+     "lec": "Right heart failure",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which is a left, not right, heart failure sign?",
@@ -2377,7 +3285,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Hepatomegaly"
    ],
    "answer": 2,
-   "why": "Left: pulmonary congestion, orthopnoea, PND, frothy cough. Right: peripheral congestion, oedema, ascites, liver congestion."
+   "why": "Left: pulmonary congestion, orthopnoea, PND, frothy cough. Right: peripheral congestion, oedema, ascites, liver congestion.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/19.jpg",
+     "lec": "Right heart failure",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which cause right heart failure? (choose all)",
@@ -2391,7 +3306,19 @@ SINA.lectures["semio-cv-rhf"] = {
     0,
     1
    ],
-   "why": "Left heart failure, septal defects and chronic lung disease."
+   "why": "Left heart failure, septal defects and chronic lung disease.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/06.jpg",
+     "lec": "Right heart failure",
+     "n": 6
+    },
+    {
+     "src": "files/slides/semio-cv-rhf/09.jpg",
+     "lec": "Right heart failure",
+     "n": 9
+    }
+   ]
   }
  ],
  "cards": [
@@ -2536,7 +3463,19 @@ SINA.lectures["semio-cv-angina"] = {
     "Death of the heart"
    ],
    "answer": 0,
-   "why": "From Latin for strangling of the chest: chest pain from myocardial ischaemia."
+   "why": "From Latin for strangling of the chest: chest pain from myocardial ischaemia.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/02.jpg",
+     "lec": "Angina pectoris",
+     "n": 2
+    },
+    {
+     "src": "files/slides/semio-cv-angina/04.jpg",
+     "lec": "Angina pectoris",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "How may angina present in elderly patients?",
@@ -2547,7 +3486,14 @@ SINA.lectures["semio-cv-angina"] = {
     "Sudden loss of vision"
    ],
    "answer": 1,
-   "why": "Classically squeezing chest pain radiating to neck, jaw, arms, shoulders, back; in the elderly, stomach-area pain after meals; in women, burning or tenderness."
+   "why": "Classically squeezing chest pain radiating to neck, jaw, arms, shoulders, back; in the elderly, stomach-area pain after meals; in women, burning or tenderness.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/04.jpg",
+     "lec": "Angina pectoris",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What separates angina from a heart attack?",
@@ -2558,7 +3504,14 @@ SINA.lectures["semio-cv-angina"] = {
     "Left arm pain"
    ],
    "answer": 2,
-   "why": "Angina is transient ischaemia without infarction; a heart attack is permanent damage."
+   "why": "Angina is transient ischaemia without infarction; a heart attack is permanent damage.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/05.jpg",
+     "lec": "Angina pectoris",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What coronary stenosis typically causes stable angina?",
@@ -2569,7 +3522,14 @@ SINA.lectures["semio-cv-angina"] = {
     "Over 70 percent"
    ],
    "answer": 3,
-   "why": "Atherosclerotic plaque narrowing a coronary artery by more than 70 percent cannot meet demand on exertion."
+   "why": "Atherosclerotic plaque narrowing a coronary artery by more than 70 percent cannot meet demand on exertion.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/07.jpg",
+     "lec": "Angina pectoris",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What relieves stable angina?",
@@ -2580,7 +3540,19 @@ SINA.lectures["semio-cv-angina"] = {
     "Exercise"
    ],
    "answer": 1,
-   "why": "Stable angina comes on with exercise or stress and is relieved by rest."
+   "why": "Stable angina comes on with exercise or stress and is relieved by rest.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/12.jpg",
+     "lec": "Angina pectoris",
+     "n": 12
+    },
+    {
+     "src": "files/slides/semio-cv-angina/18.jpg",
+     "lec": "Angina pectoris",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which layer suffers ischaemia in stable angina?",
@@ -2591,7 +3563,14 @@ SINA.lectures["semio-cv-angina"] = {
     "The subendocardium"
    ],
    "answer": 3,
-   "why": "Stable angina causes subendocardial ischaemia, releasing adenosine and bradykinin, which cause pain."
+   "why": "Stable angina causes subendocardial ischaemia, releasing adenosine and bradykinin, which cause pain.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/11.jpg",
+     "lec": "Angina pectoris",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What ECG change occurs in stable angina?",
@@ -2602,7 +3581,19 @@ SINA.lectures["semio-cv-angina"] = {
     "Peaked T waves"
    ],
    "answer": 0,
-   "why": "Stable and unstable angina: ST depression (subendocardial). Prinzmetal: ST elevation (transmural)."
+   "why": "Stable and unstable angina: ST depression (subendocardial). Prinzmetal: ST elevation (transmural).",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/23.jpg",
+     "lec": "Angina pectoris",
+     "n": 23
+    },
+    {
+     "src": "files/slides/semio-cv-angina/24.jpg",
+     "lec": "Angina pectoris",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "What causes unstable angina?",
@@ -2613,7 +3604,19 @@ SINA.lectures["semio-cv-angina"] = {
     "Anaemia"
    ],
    "answer": 2,
-   "why": "A thrombus on the plaque further narrows the artery, so pain occurs even at rest and does not go away."
+   "why": "A thrombus on the plaque further narrows the artery, so pain occurs even at rest and does not go away.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/07.jpg",
+     "lec": "Angina pectoris",
+     "n": 7
+    },
+    {
+     "src": "files/slides/semio-cv-angina/17.jpg",
+     "lec": "Angina pectoris",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Why is unstable angina an emergency?",
@@ -2635,7 +3638,19 @@ SINA.lectures["semio-cv-angina"] = {
     "A fresh clot"
    ],
    "answer": 0,
-   "why": "Vasospastic (Prinzmetal) angina comes from coronary artery spasm, with or without atherosclerosis."
+   "why": "Vasospastic (Prinzmetal) angina comes from coronary artery spasm, with or without atherosclerosis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/07.jpg",
+     "lec": "Angina pectoris",
+     "n": 7
+    },
+    {
+     "src": "files/slides/semio-cv-angina/09.jpg",
+     "lec": "Angina pectoris",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "When does Prinzmetal angina typically occur?",
@@ -2646,7 +3661,14 @@ SINA.lectures["semio-cv-angina"] = {
     "Only in winter"
    ],
    "answer": 2,
-   "why": "It can occur at rest, often at night, triggered by emotional stress, smoking or cocaine."
+   "why": "It can occur at rest, often at night, triggered by emotional stress, smoking or cocaine.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/19.jpg",
+     "lec": "Angina pectoris",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "What ECG change occurs in Prinzmetal angina?",
@@ -2657,7 +3679,14 @@ SINA.lectures["semio-cv-angina"] = {
     "A normal ECG"
    ],
    "answer": 1,
-   "why": "Transmural ischaemia gives ST elevation during attacks."
+   "why": "Transmural ischaemia gives ST elevation during attacks.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/19.jpg",
+     "lec": "Angina pectoris",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which drugs provoke spasm to diagnose Prinzmetal?",
@@ -2668,7 +3697,14 @@ SINA.lectures["semio-cv-angina"] = {
     "Ergonovine or ACh"
    ],
    "answer": 3,
-   "why": "A provocative test with ergonovine or acetylcholine."
+   "why": "A provocative test with ergonovine or acetylcholine.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/19.jpg",
+     "lec": "Angina pectoris",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "What is the sublingual treatment of angina?",
@@ -2679,7 +3715,19 @@ SINA.lectures["semio-cv-angina"] = {
     "Furosemide"
    ],
    "answer": 2,
-   "why": "Nitroglycerin under the tongue, plus long-acting nitrates, aspirin, beta blockers and calcium channel blockers."
+   "why": "Nitroglycerin under the tongue, plus long-acting nitrates, aspirin, beta blockers and calcium channel blockers.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/26.jpg",
+     "lec": "Angina pectoris",
+     "n": 26
+    },
+    {
+     "src": "files/slides/semio-cv-angina/27.jpg",
+     "lec": "Angina pectoris",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "What surgical options treat angina?",
@@ -2690,7 +3738,14 @@ SINA.lectures["semio-cv-angina"] = {
     "Heart transplant only"
    ],
    "answer": 0,
-   "why": "Coronary angioplasty and coronary bypass surgery."
+   "why": "Coronary angioplasty and coronary bypass surgery.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/27.jpg",
+     "lec": "Angina pectoris",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which treat angina? (choose all)",
@@ -2704,7 +3759,19 @@ SINA.lectures["semio-cv-angina"] = {
     0,
     1
    ],
-   "why": "Nitrates, aspirin, beta blockers and calcium channel blockers."
+   "why": "Nitrates, aspirin, beta blockers and calcium channel blockers.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/26.jpg",
+     "lec": "Angina pectoris",
+     "n": 26
+    },
+    {
+     "src": "files/slides/semio-cv-angina/27.jpg",
+     "lec": "Angina pectoris",
+     "n": 27
+    }
+   ]
   }
  ],
  "cards": [
@@ -2849,7 +3916,14 @@ SINA.lectures["semio-cv-arrhythmia"] = {
     "Heart block"
    ],
    "answer": 0,
-   "why": "Atrial fibrillation is the most common clinically significant arrhythmia worldwide."
+   "why": "Atrial fibrillation is the most common clinically significant arrhythmia worldwide.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-arrhythmia/02.jpg",
+     "lec": "Arrhythmias",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "How many people had AFib in 2019?",
@@ -2860,7 +3934,14 @@ SINA.lectures["semio-cv-arrhythmia"] = {
     "About 1 million"
    ],
    "answer": 1,
-   "why": "33.5 million in 2010, almost 59 million in 2019, projected to rise over 60 percent by 2050."
+   "why": "33.5 million in 2010, almost 59 million in 2019, projected to rise over 60 percent by 2050.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-arrhythmia/03.jpg",
+     "lec": "Arrhythmias",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Where does normal depolarisation start?",
@@ -2871,7 +3952,14 @@ SINA.lectures["semio-cv-arrhythmia"] = {
     "The Purkinje fibres"
    ],
    "answer": 2,
-   "why": "SA node, atria, AV node, bundle of His, Purkinje fibres, ventricles."
+   "why": "SA node, atria, AV node, bundle of His, Purkinje fibres, ventricles.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-arrhythmia/07.jpg",
+     "lec": "Arrhythmias",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What does the P wave represent?",
@@ -2882,7 +3970,14 @@ SINA.lectures["semio-cv-arrhythmia"] = {
     "Atrial depolarisation"
    ],
    "answer": 3,
-   "why": "P: atrial depolarisation (right atrium slightly first). QRS: ventricular depolarisation. T: ventricular repolarisation."
+   "why": "P: atrial depolarisation (right atrium slightly first). QRS: ventricular depolarisation. T: ventricular repolarisation.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-arrhythmia/09.jpg",
+     "lec": "Arrhythmias",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What is the normal QRS duration?",
@@ -2893,7 +3988,14 @@ SINA.lectures["semio-cv-arrhythmia"] = {
     "0.01 to 0.02 s"
    ],
    "answer": 1,
-   "why": "Normal adult QRS is 0.08 to 0.12 s; longer is a wide QRS."
+   "why": "Normal adult QRS is 0.08 to 0.12 s; longer is a wide QRS.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-arrhythmia/10.jpg",
+     "lec": "Arrhythmias",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What is the ECG hallmark of atrial fibrillation?",
@@ -2904,7 +4006,14 @@ SINA.lectures["semio-cv-arrhythmia"] = {
     "No P, irregular QRS"
    ],
    "answer": 3,
-   "why": "AFib: absent P waves and irregularly irregular QRS spacing. Flutter: sawtooth F waves."
+   "why": "AFib: absent P waves and irregularly irregular QRS spacing. Flutter: sawtooth F waves.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-arrhythmia/23.jpg",
+     "lec": "Arrhythmias",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What is the atrial rate in atrial flutter?",
@@ -2915,7 +4024,14 @@ SINA.lectures["semio-cv-arrhythmia"] = {
     "Under 50 per minute"
    ],
    "answer": 0,
-   "why": "Flutter: 250 to 350, organised re-entrant circuit. AFib: 350 to 600, chaotic."
+   "why": "Flutter: 250 to 350, organised re-entrant circuit. AFib: 350 to 600, chaotic.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-arrhythmia/23.jpg",
+     "lec": "Arrhythmias",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What is the ventricular response in flutter?",
@@ -2926,7 +4042,14 @@ SINA.lectures["semio-cv-arrhythmia"] = {
     "Very slow"
    ],
    "answer": 2,
-   "why": "Flutter's ventricular response is often regular; AFib's is irregularly irregular."
+   "why": "Flutter's ventricular response is often regular; AFib's is irregularly irregular.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-arrhythmia/23.jpg",
+     "lec": "Arrhythmias",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Where do clots form in atrial fibrillation?",
@@ -2937,7 +4060,14 @@ SINA.lectures["semio-cv-arrhythmia"] = {
     "Left atrial appendage"
    ],
    "answer": 3,
-   "why": "Stagnant blood in the left atrial appendage forms clots that can cause embolic stroke."
+   "why": "Stagnant blood in the left atrial appendage forms clots that can cause embolic stroke.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-arrhythmia/18.jpg",
+     "lec": "Arrhythmias",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "By how much does AFib raise stroke risk?",
@@ -2948,7 +4078,19 @@ SINA.lectures["semio-cv-arrhythmia"] = {
     "About fifty times"
    ],
    "answer": 0,
-   "why": "Atrial fibrillation increases stroke risk about five-fold."
+   "why": "Atrial fibrillation increases stroke risk about five-fold.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-arrhythmia/17.jpg",
+     "lec": "Arrhythmias",
+     "n": 17
+    },
+    {
+     "src": "files/slides/semio-cv-arrhythmia/23.jpg",
+     "lec": "Arrhythmias",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which valve disease is linked to AFib?",
@@ -2959,7 +4101,14 @@ SINA.lectures["semio-cv-arrhythmia"] = {
     "Aortic regurgitation only"
    ],
    "answer": 2,
-   "why": "Structural causes: hypertension, coronary disease, valvular disease especially mitral, heart failure and cardiomyopathy."
+   "why": "Structural causes: hypertension, coronary disease, valvular disease especially mitral, heart failure and cardiomyopathy.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-arrhythmia/15.jpg",
+     "lec": "Arrhythmias",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "How does hypertension cause AFib?",
@@ -2970,7 +4119,14 @@ SINA.lectures["semio-cv-arrhythmia"] = {
     "Acute pericarditis"
    ],
    "answer": 1,
-   "why": "Long-standing high blood pressure enlarges and scars the atria."
+   "why": "Long-standing high blood pressure enlarges and scars the atria.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-arrhythmia/15.jpg",
+     "lec": "Arrhythmias",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "What is the ratio of AFib to flutter?",
@@ -2981,7 +4137,14 @@ SINA.lectures["semio-cv-arrhythmia"] = {
     "About 9 to 1"
    ],
    "answer": 3,
-   "why": "About 50 to 60 million have AFib versus 2 to 6 million with flutter."
+   "why": "About 50 to 60 million have AFib versus 2 to 6 million with flutter.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-arrhythmia/25.jpg",
+     "lec": "Arrhythmias",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Which is a management option for AFib?",
@@ -2992,7 +4155,14 @@ SINA.lectures["semio-cv-arrhythmia"] = {
     "Splenectomy"
    ],
    "answer": 2,
-   "why": "Management follows the ABC pathway: stroke prevention, rhythm control, ablation, left atrial appendage occlusion."
+   "why": "Management follows the ABC pathway: stroke prevention, rhythm control, ablation, left atrial appendage occlusion.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-arrhythmia/21.jpg",
+     "lec": "Arrhythmias",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which cause atrial fibrillation? (choose all)",
@@ -3006,7 +4176,14 @@ SINA.lectures["semio-cv-arrhythmia"] = {
     0,
     1
    ],
-   "why": "Hypertension, coronary disease, valvular (especially mitral) disease, heart failure, cardiomyopathy."
+   "why": "Hypertension, coronary disease, valvular (especially mitral) disease, heart failure, cardiomyopathy.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-arrhythmia/15.jpg",
+     "lec": "Arrhythmias",
+     "n": 15
+    }
+   ]
   }
  ],
  "cards": [
@@ -3156,7 +4333,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Q = ΔP + R"
    ],
    "answer": 0,
-   "why": "Flow equals the pressure difference divided by resistance."
+   "why": "Flow equals the pressure difference divided by resistance.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/03.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "If resistance rises at constant pressure, what happens?",
@@ -3167,7 +4351,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Nothing changes"
    ],
    "answer": 1,
-   "why": "From Q = ΔP / R, higher resistance at the same pressure means lower flow."
+   "why": "From Q = ΔP / R, higher resistance at the same pressure means lower flow.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/03.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "When does left coronary flow mainly occur?",
@@ -3178,7 +4369,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Only in exercise"
    ],
    "answer": 2,
-   "why": "Left coronary flow peaks in diastole, when the contracting muscle no longer compresses the vessels."
+   "why": "Left coronary flow peaks in diastole, when the contracting muscle no longer compresses the vessels.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/15.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which substance relaxes vascular smooth muscle?",
@@ -3189,7 +4387,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Nitric oxide"
    ],
    "answer": 3,
-   "why": "Endothelial nitric oxide relaxes smooth muscle; endothelin-1, angiotensin II and thromboxane A2 constrict it."
+   "why": "Endothelial nitric oxide relaxes smooth muscle; endothelin-1, angiotensin II and thromboxane A2 constrict it.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/19.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "What does endothelial dysfunction lead to?",
@@ -3211,7 +4416,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Cardiovascular disease"
    ],
    "answer": 3,
-   "why": "Cardiovascular disease causes about 17.7 million deaths a year."
+   "why": "Cardiovascular disease causes about 17.7 million deaths a year.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/28.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "In high-income countries, which kills more?",
@@ -3222,7 +4434,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Trauma"
    ],
    "answer": 0,
-   "why": "In high-income countries cancer causes twice as many deaths as cardiovascular disease."
+   "why": "In high-income countries cancer causes twice as many deaths as cardiovascular disease.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/28.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "What share of cardiovascular disease is due to modifiable risk factors?",
@@ -3233,7 +4452,19 @@ SINA.lectures["semio-cv-revision"] = {
     "About 50 percent"
    ],
    "answer": 2,
-   "why": "Over 70 percent of cardiovascular disease worldwide is caused by modifiable risk factors (PURE study)."
+   "why": "Over 70 percent of cardiovascular disease worldwide is caused by modifiable risk factors (PURE study).",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/28.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 28
+    },
+    {
+     "src": "files/slides/semio-cv-revision/29.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which is a metabolic cardiovascular risk factor?",
@@ -3244,7 +4475,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Hypertension"
    ],
    "answer": 3,
-   "why": "Metabolic: hypertension, diabetes, cholesterol, waist-to-hip ratio. Others: tobacco, alcohol, poor diet, low physical activity, air pollution, depression."
+   "why": "Metabolic: hypertension, diabetes, cholesterol, waist-to-hip ratio. Others: tobacco, alcohol, poor diet, low physical activity, air pollution, depression.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/29.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which drive mortality in low-income but not high-income countries?",
@@ -3255,7 +4493,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Obesity on its own"
    ],
    "answer": 0,
-   "why": "Poor diet, low education, household air pollution and low strength are major drivers in low-income countries."
+   "why": "Poor diet, low education, household air pollution and low strength are major drivers in low-income countries.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/29.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which angina type gives ST elevation?",
@@ -3266,7 +4511,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Microvascular"
    ],
    "answer": 2,
-   "why": "Transmural ischaemia from spasm gives ST elevation; stable and unstable give ST depression."
+   "why": "Transmural ischaemia from spasm gives ST elevation; stable and unstable give ST depression.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/27.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which heart failure has stiff, thick chambers?",
@@ -3277,7 +4529,14 @@ SINA.lectures["semio-cv-revision"] = {
     "High-output"
    ],
    "answer": 1,
-   "why": "Diastolic: can't fill, stiff thick chambers. Systolic: can't pump, stretched thin chambers."
+   "why": "Diastolic: can't fill, stiff thick chambers. Systolic: can't pump, stretched thin chambers.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/04.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which are modifiable risk factors? (choose all)",
@@ -3291,7 +4550,14 @@ SINA.lectures["semio-cv-revision"] = {
     0,
     1
    ],
-   "why": "Tobacco, hypertension, diabetes, cholesterol, diet, activity; age and sex are not modifiable."
+   "why": "Tobacco, hypertension, diabetes, cholesterol, diet, activity; age and sex are not modifiable.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/29.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 29
+    }
+   ]
   }
  ],
  "cards": [
@@ -3431,7 +4697,14 @@ SINA.lectures["semio-gi-exam"] = {
     "At the feet"
    ],
    "answer": 0,
-   "why": "The patient lies flat; the doctor stands on the patient's right."
+   "why": "The patient lies flat; the doctor stands on the patient's right.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/04.jpg",
+     "lec": "Digestive physical examination",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What does atrophic glossitis suggest?",
@@ -3442,7 +4715,19 @@ SINA.lectures["semio-gi-exam"] = {
     "Acute hepatitis A"
    ],
    "answer": 1,
-   "why": "Atrophic glossitis: B12 deficiency. Angular cheilitis: iron deficiency. White tongue plaques: candidiasis. Aphthous ulcers: e.g. IBD."
+   "why": "Atrophic glossitis: B12 deficiency. Angular cheilitis: iron deficiency. White tongue plaques: candidiasis. Aphthous ulcers: e.g. IBD.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/06.jpg",
+     "lec": "Digestive physical examination",
+     "n": 6
+    },
+    {
+     "src": "files/slides/semio-gi-exam/07.jpg",
+     "lec": "Digestive physical examination",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What does angular cheilitis suggest?",
@@ -3453,7 +4738,14 @@ SINA.lectures["semio-gi-exam"] = {
     "Hypothyroidism"
    ],
    "answer": 2,
-   "why": "Angular cheilitis is a sign of iron deficiency anaemia."
+   "why": "Angular cheilitis is a sign of iron deficiency anaemia.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/07.jpg",
+     "lec": "Digestive physical examination",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which lymph node signals digestive cancer metastasis?",
@@ -3464,7 +4756,14 @@ SINA.lectures["semio-gi-exam"] = {
     "Left supraclavicular"
    ],
    "answer": 3,
-   "why": "The left supraclavicular node is the key site of digestive cancer metastasis."
+   "why": "The left supraclavicular node is the key site of digestive cancer metastasis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/08.jpg",
+     "lec": "Digestive physical examination",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "How many regions is the abdomen divided into?",
@@ -3475,7 +4774,14 @@ SINA.lectures["semio-gi-exam"] = {
     "Twelve"
    ],
    "answer": 1,
-   "why": "The abdomen is described in 9 quadrants (regions)."
+   "why": "The abdomen is described in 9 quadrants (regions).",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/09.jpg",
+     "lec": "Digestive physical examination",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What is an eventration?",
@@ -3486,7 +4792,14 @@ SINA.lectures["semio-gi-exam"] = {
     "A hernia on a scar"
    ],
    "answer": 3,
-   "why": "Eventration is a hernia on a surgical scar, seen on inspection."
+   "why": "Eventration is a hernia on a surgical scar, seen on inspection.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/11.jpg",
+     "lec": "Digestive physical examination",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What do abdominal collateral veins suggest?",
@@ -3497,7 +4810,14 @@ SINA.lectures["semio-gi-exam"] = {
     "Pancreatitis"
    ],
    "answer": 0,
-   "why": "Collateral veins are a sign of portal hypertension."
+   "why": "Collateral veins are a sign of portal hypertension.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/12.jpg",
+     "lec": "Digestive physical examination",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Why bend the knees during palpation?",
@@ -3508,7 +4828,14 @@ SINA.lectures["semio-gi-exam"] = {
     "To lower the liver"
    ],
    "answer": 2,
-   "why": "Supine with bent knees relaxes the abdominal wall; palpate lightly then deeply in all quadrants."
+   "why": "Supine with bent knees relaxes the abdominal wall; palpate lightly then deeply in all quadrants.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/13.jpg",
+     "lec": "Digestive physical examination",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Why ask for a deep breath when palpating the liver?",
@@ -3519,7 +4846,14 @@ SINA.lectures["semio-gi-exam"] = {
     "It pushes the liver down"
    ],
    "answer": 3,
-   "why": "Filling the lungs flattens the diaphragm, which lowers the liver toward the hand."
+   "why": "Filling the lungs flattens the diaphragm, which lowers the liver toward the hand.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/14.jpg",
+     "lec": "Digestive physical examination",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Is the normal spleen easy to palpate?",
@@ -3530,7 +4864,14 @@ SINA.lectures["semio-gi-exam"] = {
     "Only on the left side"
    ],
    "answer": 0,
-   "why": "The normal spleen lies deep under the ribs; splenomegaly is easy to feel and moves with breathing."
+   "why": "The normal spleen lies deep under the ribs; splenomegaly is easy to feel and moves with breathing.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/15.jpg",
+     "lec": "Digestive physical examination",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which abdominal area is dull on percussion?",
@@ -3541,7 +4882,14 @@ SINA.lectures["semio-gi-exam"] = {
     "The umbilical area"
    ],
    "answer": 2,
-   "why": "The abdomen is tympanic except the right hypochondrium (liver) and the hypogastrium if the bladder is full."
+   "why": "The abdomen is tympanic except the right hypochondrium (liver) and the hypogastrium if the bladder is full.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/16.jpg",
+     "lec": "Digestive physical examination",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "What abnormal sound may auscultation find?",
@@ -3552,7 +4900,14 @@ SINA.lectures["semio-gi-exam"] = {
     "Stridor"
    ],
    "answer": 1,
-   "why": "Auscultate bowel sounds and arteries; abnormal arterial sounds suggest e.g. aortic aneurysm."
+   "why": "Auscultate bowel sounds and arteries; abnormal arterial sounds suggest e.g. aortic aneurysm.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/17.jpg",
+     "lec": "Digestive physical examination",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which position is used for rectal examination?",
@@ -3563,7 +4918,14 @@ SINA.lectures["semio-gi-exam"] = {
     "Knee-chest or lateral"
    ],
    "answer": 3,
-   "why": "Chest-to-knee or lateral (Sims) position, with gloves and lubricant."
+   "why": "Chest-to-knee or lateral (Sims) position, with gloves and lubricant.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/18.jpg",
+     "lec": "Digestive physical examination",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which are oral signs of deficiency? (choose all)",
@@ -3577,7 +4939,14 @@ SINA.lectures["semio-gi-exam"] = {
     0,
     1
    ],
-   "why": "Glossitis (B12) and angular cheilitis (iron)."
+   "why": "Glossitis (B12) and angular cheilitis (iron).",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/06.jpg",
+     "lec": "Digestive physical examination",
+     "n": 6
+    }
+   ]
   }
  ],
  "cards": [
@@ -3723,7 +5092,14 @@ SINA.lectures["semio-gi-jaundice"] = {
     "About 1 µmol/L"
    ],
    "answer": 0,
-   "why": "Jaundice is excess bilirubin, typically above 35 µmol/L, with yellow sclera and/or skin."
+   "why": "Jaundice is excess bilirubin, typically above 35 µmol/L, with yellow sclera and/or skin.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/10.jpg",
+     "lec": "Jaundice",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Where does bilirubin come from?",
@@ -3734,7 +5110,14 @@ SINA.lectures["semio-gi-jaundice"] = {
     "Bile salt synthesis"
    ],
    "answer": 1,
-   "why": "Bilirubin is a pigment from haemoglobin breakdown, eliminated in bile and colouring urine and stool."
+   "why": "Bilirubin is a pigment from haemoglobin breakdown, eliminated in bile and colouring urine and stool.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/06.jpg",
+     "lec": "Jaundice",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "How is jaundice diagnosed?",
@@ -3745,7 +5128,14 @@ SINA.lectures["semio-gi-jaundice"] = {
     "Only by serology"
    ],
    "answer": 2,
-   "why": "The positive diagnosis of jaundice is clinical examination."
+   "why": "The positive diagnosis of jaundice is clinical examination.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/07.jpg",
+     "lec": "Jaundice",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which stool colour suggests cholestasis?",
@@ -3756,7 +5146,14 @@ SINA.lectures["semio-gi-jaundice"] = {
     "Pale, acholic"
    ],
    "answer": 3,
-   "why": "Cholestasis: pruritus, dark urine, pale acholic stools, steatorrhoea, xanthoma, and ADEK vitamin deficiency."
+   "why": "Cholestasis: pruritus, dark urine, pale acholic stools, steatorrhoea, xanthoma, and ADEK vitamin deficiency.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/14.jpg",
+     "lec": "Jaundice",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which enzymes rise in cholestasis?",
@@ -3767,7 +5164,14 @@ SINA.lectures["semio-gi-jaundice"] = {
     "CK and troponin"
    ],
    "answer": 1,
-   "why": "Conjugated bilirubin, GGT, ALP, cholesterol and 5'-nucleotidase rise; prothrombin time lengthens."
+   "why": "Conjugated bilirubin, GGT, ALP, cholesterol and 5'-nucleotidase rise; prothrombin time lengthens.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/16.jpg",
+     "lec": "Jaundice",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Why is the prothrombin time prolonged in cholestasis?",
@@ -3778,7 +5182,14 @@ SINA.lectures["semio-gi-jaundice"] = {
     "Low vitamin K"
    ],
    "answer": 3,
-   "why": "Fat-soluble vitamins (A, D, E, K) are malabsorbed; less vitamin K prolongs prothrombin time (ratio under 70 percent)."
+   "why": "Fat-soluble vitamins (A, D, E, K) are malabsorbed; less vitamin K prolongs prothrombin time (ratio under 70 percent).",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/16.jpg",
+     "lec": "Jaundice",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "What triad defines acute cholangitis?",
@@ -3789,7 +5200,14 @@ SINA.lectures["semio-gi-jaundice"] = {
     "Jaundice, ascites, oedema"
    ],
    "answer": 0,
-   "why": "Acute cholangitis: pain, fever and jaundice."
+   "why": "Acute cholangitis: pain, fever and jaundice.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/18.jpg",
+     "lec": "Jaundice",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "What is the first step in the aetiological strategy?",
@@ -3800,7 +5218,19 @@ SINA.lectures["semio-gi-jaundice"] = {
     "A CT scan first"
    ],
    "answer": 2,
-   "why": "The first step is to separate cholestatic (conjugated) from non-cholestatic (unconjugated) jaundice."
+   "why": "The first step is to separate cholestatic (conjugated) from non-cholestatic (unconjugated) jaundice.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/22.jpg",
+     "lec": "Jaundice",
+     "n": 22
+    },
+    {
+     "src": "files/slides/semio-gi-jaundice/25.jpg",
+     "lec": "Jaundice",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Which bilirubin rises in haemolysis?",
@@ -3811,7 +5241,14 @@ SINA.lectures["semio-gi-jaundice"] = {
     "Unconjugated"
    ],
    "answer": 3,
-   "why": "Non-cholestatic jaundice is unconjugated, as in haemolysis."
+   "why": "Non-cholestatic jaundice is unconjugated, as in haemolysis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/22.jpg",
+     "lec": "Jaundice",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "What does ultrasound look for in cholestatic jaundice?",
@@ -3822,7 +5259,14 @@ SINA.lectures["semio-gi-jaundice"] = {
     "Ascites only"
    ],
    "answer": 0,
-   "why": "Dilated ducts: extrahepatic obstruction (e.g. biliary stones). Not dilated: intrahepatic (e.g. chronic liver disease)."
+   "why": "Dilated ducts: extrahepatic obstruction (e.g. biliary stones). Not dilated: intrahepatic (e.g. chronic liver disease).",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/22.jpg",
+     "lec": "Jaundice",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which investigation is therapeutic?",
@@ -3833,7 +5277,14 @@ SINA.lectures["semio-gi-jaundice"] = {
     "MRI"
    ],
    "answer": 2,
-   "why": "ERCP is listed as therapeutic; ultrasound, CT, MRI, endoscopic ultrasound and biopsy are diagnostic."
+   "why": "ERCP is listed as therapeutic; ultrasound, CT, MRI, endoscopic ultrasound and biopsy are diagnostic.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/21.jpg",
+     "lec": "Jaundice",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which skin sign may accompany cholestasis?",
@@ -3844,7 +5295,14 @@ SINA.lectures["semio-gi-jaundice"] = {
     "Acne"
    ],
    "answer": 1,
-   "why": "Xanthoma and xanthelasma from hypercholesterolaemia."
+   "why": "Xanthoma and xanthelasma from hypercholesterolaemia.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/14.jpg",
+     "lec": "Jaundice",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which are signs of cholestasis? (choose all)",
@@ -3858,7 +5316,14 @@ SINA.lectures["semio-gi-jaundice"] = {
     0,
     1
    ],
-   "why": "Pruritus, dark urine, pale stools, steatorrhoea."
+   "why": "Pruritus, dark urine, pale stools, steatorrhoea.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/14.jpg",
+     "lec": "Jaundice",
+     "n": 14
+    }
+   ]
   }
  ],
  "cards": [
@@ -3998,7 +5463,14 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "A normal finding"
    ],
    "answer": 0,
-   "why": "Enlargement of the whole liver or part of it; diagnosis is clinical."
+   "why": "Enlargement of the whole liver or part of it; diagnosis is clinical.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/10.jpg",
+     "lec": "Hepatomegaly",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What is the normal liver span on the midclavicular line?",
@@ -4009,7 +5481,14 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Exactly 20 cm"
    ],
    "answer": 1,
-   "why": "The upper limit is found by percussion from top down; normal right liver span is under 12 cm."
+   "why": "The upper limit is found by percussion from top down; normal right liver span is under 12 cm.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/16.jpg",
+     "lec": "Hepatomegaly",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "What confirms hepatomegaly first-line?",
@@ -4020,7 +5499,14 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "A chest X-ray film"
    ],
    "answer": 2,
-   "why": "Abdominal ultrasound is first-line, then CT if needed."
+   "why": "Abdominal ultrasound is first-line, then CT if needed.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/28.jpg",
+     "lec": "Hepatomegaly",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which is a differential of right-sided hepatomegaly?",
@@ -4031,7 +5517,14 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Riedel lobe"
    ],
    "answer": 3,
-   "why": "Right: liver ptosis, Riedel lobe, colon flexure, right kidney, gallbladder. Left: stomach, transverse colon, pancreatic body."
+   "why": "Right: liver ptosis, Riedel lobe, colon flexure, right kidney, gallbladder. Left: stomach, transverse colon, pancreatic body.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/21.jpg",
+     "lec": "Hepatomegaly",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "What liver is hard, irregular and nodular without pain?",
@@ -4042,7 +5535,19 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Acute hepatitis"
    ],
    "answer": 1,
-   "why": "Cirrhosis: firm to hard, sharp irregular border, nodular surface, painless."
+   "why": "Cirrhosis: firm to hard, sharp irregular border, nodular surface, painless.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/18.jpg",
+     "lec": "Hepatomegaly",
+     "n": 18
+    },
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/23.jpg",
+     "lec": "Hepatomegaly",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What liver is soft, smooth and painful?",
@@ -4053,7 +5558,14 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Cardiac congestion"
    ],
    "answer": 3,
-   "why": "Cardiac: diffuse enlargement, soft to firm, regular border, smooth, painful."
+   "why": "Cardiac: diffuse enlargement, soft to firm, regular border, smooth, painful.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/23.jpg",
+     "lec": "Hepatomegaly",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which liver is hard, nodular and painful?",
@@ -4064,7 +5576,14 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Normal liver"
    ],
    "answer": 0,
-   "why": "Neoplastic: diffuse or localised, hard, irregular, nodular, painful."
+   "why": "Neoplastic: diffuse or localised, hard, irregular, nodular, painful.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/23.jpg",
+     "lec": "Hepatomegaly",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which causes intense liver pain?",
@@ -4075,7 +5594,14 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Haemochromatosis"
    ],
    "answer": 2,
-   "why": "Abscess: localised, firm, smooth, intensely painful."
+   "why": "Abscess: localised, firm, smooth, intensely painful.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/23.jpg",
+     "lec": "Hepatomegaly",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "HMG with splenomegaly and collaterals suggests?",
@@ -4086,7 +5612,19 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Cirrhosis"
    ],
    "answer": 3,
-   "why": "Hepatomegaly, splenomegaly and collateral veins point to cirrhosis with portal hypertension."
+   "why": "Hepatomegaly, splenomegaly and collateral veins point to cirrhosis with portal hypertension.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/12.jpg",
+     "lec": "Hepatomegaly",
+     "n": 12
+    },
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/27.jpg",
+     "lec": "Hepatomegaly",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Painful HMG with hepatojugular reflux suggests?",
@@ -4097,7 +5635,19 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Abscess"
    ],
    "answer": 0,
-   "why": "A painful liver with hepatojugular reflux points to cardiac congestion."
+   "why": "A painful liver with hepatojugular reflux points to cardiac congestion.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/25.jpg",
+     "lec": "Hepatomegaly",
+     "n": 25
+    },
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/27.jpg",
+     "lec": "Hepatomegaly",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "HMG with neurological symptoms suggests?",
@@ -4108,7 +5658,19 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Adenoma"
    ],
    "answer": 2,
-   "why": "Hepatomegaly with neurological signs suggests Wilson's disease, a metabolic cause."
+   "why": "Hepatomegaly with neurological signs suggests Wilson's disease, a metabolic cause.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/25.jpg",
+     "lec": "Hepatomegaly",
+     "n": 25
+    },
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/27.jpg",
+     "lec": "Hepatomegaly",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which is a metabolic cause of hepatomegaly?",
@@ -4119,7 +5681,14 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Metastasis"
    ],
    "answer": 1,
-   "why": "Metabolic: steatosis, Wilson's, haemochromatosis, Gaucher. Congestion: heart failure, Budd-Chiari."
+   "why": "Metabolic: steatosis, Wilson's, haemochromatosis, Gaucher. Congestion: heart failure, Budd-Chiari.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/25.jpg",
+     "lec": "Hepatomegaly",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Which cause hepatomegaly? (choose all)",
@@ -4133,7 +5702,14 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     0,
     1
    ],
-   "why": "Heart failure, steatosis, cirrhosis, tumours, hepatitis and more."
+   "why": "Heart failure, steatosis, cirrhosis, tumours, hepatitis and more.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/25.jpg",
+     "lec": "Hepatomegaly",
+     "n": 25
+    }
+   ]
   }
  ],
  "cards": [
@@ -4266,7 +5842,14 @@ SINA.lectures["semio-gi-constipation"] = {
     "More than 3"
    ],
    "answer": 0,
-   "why": "Clinically fewer than 3 stools a week; quantitatively under 100 g/day; qualitatively hard, dehydrated stools."
+   "why": "Clinically fewer than 3 stools a week; quantitatively under 100 g/day; qualitatively hard, dehydrated stools.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/04.jpg",
+     "lec": "Constipation",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What daily stool weight suggests constipation?",
@@ -4277,7 +5860,14 @@ SINA.lectures["semio-gi-constipation"] = {
     "Over 300 g"
    ],
    "answer": 1,
-   "why": "A reduced amount under 100 g of faeces per day."
+   "why": "A reduced amount under 100 g of faeces per day.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/04.jpg",
+     "lec": "Constipation",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What are the two mechanisms of primary constipation?",
@@ -4288,7 +5878,19 @@ SINA.lectures["semio-gi-constipation"] = {
     "Drugs and diabetes"
    ],
    "answer": 2,
-   "why": "Primary (functional) constipation: slow colonic transit or outlet dysfunction."
+   "why": "Primary (functional) constipation: slow colonic transit or outlet dysfunction.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/05.jpg",
+     "lec": "Constipation",
+     "n": 5
+    },
+    {
+     "src": "files/slides/semio-gi-constipation/06.jpg",
+     "lec": "Constipation",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "What causes outlet dysfunction?",
@@ -4299,7 +5901,14 @@ SINA.lectures["semio-gi-constipation"] = {
     "Tight pelvic floor"
    ],
    "answer": 3,
-   "why": "The pelvic floor contracts or fails to relax during defecation, obstructing expulsion and causing incomplete evacuation."
+   "why": "The pelvic floor contracts or fails to relax during defecation, obstructing expulsion and causing incomplete evacuation.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/08.jpg",
+     "lec": "Constipation",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which hormone deficiency slows motility?",
@@ -4310,7 +5919,19 @@ SINA.lectures["semio-gi-constipation"] = {
     "Oxytocin"
    ],
    "answer": 1,
-   "why": "Hypothyroidism is an endocrine cause of constipation."
+   "why": "Hypothyroidism is an endocrine cause of constipation.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/10.jpg",
+     "lec": "Constipation",
+     "n": 10
+    },
+    {
+     "src": "files/slides/semio-gi-constipation/26.jpg",
+     "lec": "Constipation",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which drug commonly causes constipation?",
@@ -4321,7 +5942,14 @@ SINA.lectures["semio-gi-constipation"] = {
     "Opioids"
    ],
    "answer": 3,
-   "why": "Opioids, antidepressants, antihistamines and iron supplements."
+   "why": "Opioids, antidepressants, antihistamines and iron supplements.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/26.jpg",
+     "lec": "Constipation",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "What do absent bowel sounds suggest?",
@@ -4332,7 +5960,14 @@ SINA.lectures["semio-gi-constipation"] = {
     "Diarrhoea"
    ],
    "answer": 0,
-   "why": "Absent sounds: ileus. Hyperactive sounds: obstruction."
+   "why": "Absent sounds: ileus. Hyperactive sounds: obstruction.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/15.jpg",
+     "lec": "Constipation",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Why is the digital rectal exam key?",
@@ -4343,7 +5978,14 @@ SINA.lectures["semio-gi-constipation"] = {
     "It tests thyroid"
    ],
    "answer": 2,
-   "why": "DRE assesses impaction, anal tone, masses and pelvic floor dysfunction."
+   "why": "DRE assesses impaction, anal tone, masses and pelvic floor dysfunction.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/16.jpg",
+     "lec": "Constipation",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which is a red flag in constipation?",
@@ -4354,7 +5996,14 @@ SINA.lectures["semio-gi-constipation"] = {
     "Rectal bleeding"
    ],
    "answer": 3,
-   "why": "Red flags: rectal bleeding, weight loss, anaemia, severe pain, family history of colorectal cancer or IBD."
+   "why": "Red flags: rectal bleeding, weight loss, anaemia, severe pain, family history of colorectal cancer or IBD.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/20.jpg",
+     "lec": "Constipation",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which test diagnoses dyssynergic defecation?",
@@ -4365,7 +6014,14 @@ SINA.lectures["semio-gi-constipation"] = {
     "CBC"
    ],
    "answer": 0,
-   "why": "Anorectal manometry measures anal and rectal pressures to diagnose outlet dysfunction."
+   "why": "Anorectal manometry measures anal and rectal pressures to diagnose outlet dysfunction.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/24.jpg",
+     "lec": "Constipation",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which electrolyte disorder causes constipation?",
@@ -4376,7 +6032,14 @@ SINA.lectures["semio-gi-constipation"] = {
     "Hypomagnesaemia only"
    ],
    "answer": 2,
-   "why": "Hypercalcaemia and hypokalaemia are metabolic causes."
+   "why": "Hypercalcaemia and hypokalaemia are metabolic causes.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/26.jpg",
+     "lec": "Constipation",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which is a cause of outlet dysfunction?",
@@ -4387,7 +6050,19 @@ SINA.lectures["semio-gi-constipation"] = {
     "Hypothyroidism"
    ],
    "answer": 1,
-   "why": "Outlet causes: anismus, megarectum, rectocele, internal rectal prolapse. Slow transit: colonic inertia, spastic colon."
+   "why": "Outlet causes: anismus, megarectum, rectocele, internal rectal prolapse. Slow transit: colonic inertia, spastic colon.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/27.jpg",
+     "lec": "Constipation",
+     "n": 27
+    },
+    {
+     "src": "files/slides/semio-gi-constipation/28.jpg",
+     "lec": "Constipation",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which drugs cause constipation? (choose all)",
@@ -4401,7 +6076,14 @@ SINA.lectures["semio-gi-constipation"] = {
     0,
     1
    ],
-   "why": "Opioids, antidepressants, antihistamines and iron."
+   "why": "Opioids, antidepressants, antihistamines and iron.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/26.jpg",
+     "lec": "Constipation",
+     "n": 26
+    }
+   ]
   }
  ],
  "cards": [
@@ -4541,7 +6223,14 @@ SINA.lectures["semio-gi-dysentery"] = {
     "Vomiting and fever only"
    ],
    "answer": 0,
-   "why": "A syndrome of diffuse abdominal pain, frequent stools with mucus, blood and/or pus, and false urges."
+   "why": "A syndrome of diffuse abdominal pain, frequent stools with mucus, blood and/or pus, and false urges.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysentery/04.jpg",
+     "lec": "Dysentery",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What does dysentery reflect?",
@@ -4552,7 +6241,14 @@ SINA.lectures["semio-gi-dysentery"] = {
     "A kidney stone attack"
    ],
    "answer": 1,
-   "why": "It reflects the reaction of the rectum to inflammatory, infectious or neoplastic disorders."
+   "why": "It reflects the reaction of the rectum to inflammatory, infectious or neoplastic disorders.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysentery/04.jpg",
+     "lec": "Dysentery",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Where does dysenteric pain often focus?",
@@ -4563,7 +6259,14 @@ SINA.lectures["semio-gi-dysentery"] = {
     "Umbilicus"
    ],
    "answer": 2,
-   "why": "Severe cramps along the colon, often focused on the left iliac fossa, with an urgent urge to defecate."
+   "why": "Severe cramps along the colon, often focused on the left iliac fossa, with an urgent urge to defecate.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysentery/07.jpg",
+     "lec": "Dysentery",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What is tenesmus?",
@@ -4574,7 +6277,14 @@ SINA.lectures["semio-gi-dysentery"] = {
     "Urge with empty rectum"
    ],
    "answer": 3,
-   "why": "A repeated, painful urge to defecate with no stool, as if evacuation were incomplete."
+   "why": "A repeated, painful urge to defecate with no stool, as if evacuation were incomplete.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysentery/07.jpg",
+     "lec": "Dysentery",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What are dysenteric stools composed of?",
@@ -4585,7 +6295,14 @@ SINA.lectures["semio-gi-dysentery"] = {
     "Fatty oily stool"
    ],
    "answer": 1,
-   "why": "Non-faecal stools of whitish mucus with pus and blood."
+   "why": "Non-faecal stools of whitish mucus with pus and blood.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysentery/08.jpg",
+     "lec": "Dysentery",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which test is recommended after recent antibiotics?",
@@ -4596,7 +6313,14 @@ SINA.lectures["semio-gi-dysentery"] = {
     "C. difficile toxin"
    ],
    "answer": 3,
-   "why": "Clostridium difficile toxin assay for recent antibiotic use."
+   "why": "Clostridium difficile toxin assay for recent antibiotic use.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysentery/14.jpg",
+     "lec": "Dysentery",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which parasite is seen on stool microscopy in amoebic dysentery?",
@@ -4607,7 +6331,14 @@ SINA.lectures["semio-gi-dysentery"] = {
     "Ascaris lumbricoides"
    ],
    "answer": 0,
-   "why": "Stool microscopy looks for RBCs, WBCs, mucus and parasites such as Entamoeba histolytica."
+   "why": "Stool microscopy looks for RBCs, WBCs, mucus and parasites such as Entamoeba histolytica.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysentery/15.jpg",
+     "lec": "Dysentery",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which bacteria does stool culture identify?",
@@ -4618,7 +6349,14 @@ SINA.lectures["semio-gi-dysentery"] = {
     "Mycobacterium"
    ],
    "answer": 2,
-   "why": "Shigella, Salmonella, Campylobacter and E. coli."
+   "why": "Shigella, Salmonella, Campylobacter and E. coli.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysentery/15.jpg",
+     "lec": "Dysentery",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which exam confirms the diagnosis?",
@@ -4629,7 +6367,14 @@ SINA.lectures["semio-gi-dysentery"] = {
     "Sigmoidoscopy"
    ],
    "answer": 3,
-   "why": "Endoscopy shows inflammation, ulcers and bleeding and allows targeted biopsy."
+   "why": "Endoscopy shows inflammation, ulcers and bleeding and allows targeted biopsy.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysentery/16.jpg",
+     "lec": "Dysentery",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "When is abdominal CT indicated?",
@@ -4640,7 +6385,14 @@ SINA.lectures["semio-gi-dysentery"] = {
     "Only in children"
    ],
    "answer": 0,
-   "why": "Severe or atypical symptoms, suspected perforation or abscess, or an inconclusive diagnosis."
+   "why": "Severe or atypical symptoms, suspected perforation or abscess, or an inconclusive diagnosis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysentery/17.jpg",
+     "lec": "Dysentery",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which is a cause of dysentery?",
@@ -4651,7 +6403,14 @@ SINA.lectures["semio-gi-dysentery"] = {
     "Asthma"
    ],
    "answer": 2,
-   "why": "Causes: colorectal cancer and polyps, IBD, infectious proctitis, radiation and ischaemic colitis."
+   "why": "Causes: colorectal cancer and polyps, IBD, infectious proctitis, radiation and ischaemic colitis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysentery/18.jpg",
+     "lec": "Dysentery",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "What does hypotension suggest in dysentery?",
@@ -4662,7 +6421,14 @@ SINA.lectures["semio-gi-dysentery"] = {
     "Simple constipation"
    ],
    "answer": 1,
-   "why": "Hypotension may occur with severe dehydration or septic shock."
+   "why": "Hypotension may occur with severe dehydration or septic shock.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysentery/10.jpg",
+     "lec": "Dysentery",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which are infectious causes of dysentery? (choose all)",
@@ -4676,7 +6442,14 @@ SINA.lectures["semio-gi-dysentery"] = {
     0,
     1
    ],
-   "why": "Entamoeba, CMV, E. coli, Salmonella, Shigella."
+   "why": "Entamoeba, CMV, E. coli, Salmonella, Shigella.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysentery/18.jpg",
+     "lec": "Dysentery",
+     "n": 18
+    }
+   ]
   }
  ],
  "cards": [
@@ -4810,7 +6583,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Only when swallowing"
    ],
    "answer": 0,
-   "why": "The normal thyroid is not visible; a large goitre may be."
+   "why": "The normal thyroid is not visible; a large goitre may be.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/05.jpg",
+     "lec": "Thyroid semiology",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What does a thyroid bruit indicate?",
@@ -4821,7 +6601,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Normal thyroid"
    ],
    "answer": 1,
-   "why": "A thyroid noise indicates abnormally high blood flow, sometimes with a thrill, in hyperthyroidism."
+   "why": "A thyroid noise indicates abnormally high blood flow, sometimes with a thrill, in hyperthyroidism.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/08.jpg",
+     "lec": "Thyroid semiology",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "What is TSH in hyperthyroidism?",
@@ -4832,7 +6619,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Variable"
    ],
    "answer": 2,
-   "why": "TSH is suppressed; free T4 and/or T3 are raised."
+   "why": "TSH is suppressed; free T4 and/or T3 are raised.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/20.jpg",
+     "lec": "Thyroid semiology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which is a cardiovascular sign of hyperthyroidism?",
@@ -4843,7 +6637,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Resting tachycardia"
    ],
    "answer": 3,
-   "why": "Persistent resting tachycardia, palpitations, loud heart sounds, systolic murmur, raised systolic BP."
+   "why": "Persistent resting tachycardia, palpitations, loud heart sounds, systolic murmur, raised systolic BP.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/16.jpg",
+     "lec": "Thyroid semiology",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which tremor is typical of hyperthyroidism?",
@@ -4854,7 +6655,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Flapping tremor"
    ],
    "answer": 1,
-   "why": "A fine rhythmic tremor of the hands, tongue or lightly closed eyelids."
+   "why": "A fine rhythmic tremor of the hands, tongue or lightly closed eyelids.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/17.jpg",
+     "lec": "Thyroid semiology",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "What is lid lag?",
@@ -4865,7 +6673,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Lid lags looking down"
    ],
    "answer": 3,
-   "why": "The upper lid lags behind the globe when the patient looks slowly down."
+   "why": "The upper lid lags behind the globe when the patient looks slowly down.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/18.jpg",
+     "lec": "Thyroid semiology",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "What is the most common cause of hyperthyroidism?",
@@ -4876,7 +6691,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Iodine deficiency"
    ],
    "answer": 0,
-   "why": "Graves' disease, autoimmune, predominantly in women aged 20 to 40."
+   "why": "Graves' disease, autoimmune, predominantly in women aged 20 to 40.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/23.jpg",
+     "lec": "Thyroid semiology",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which antibodies are specific to Graves' disease?",
@@ -4887,7 +6709,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Antinuclear antibodies"
    ],
    "answer": 2,
-   "why": "Positive TSH receptor antibodies (TRAb, TSI) are highly specific."
+   "why": "Positive TSH receptor antibodies (TRAb, TSI) are highly specific.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/28.jpg",
+     "lec": "Thyroid semiology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which triad is diagnostic of Graves' disease?",
@@ -4898,7 +6727,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Toxicosis, goitre, proptosis"
    ],
    "answer": 3,
-   "why": "Clinically: thyrotoxicosis plus goitre plus exophthalmos."
+   "why": "Clinically: thyrotoxicosis plus goitre plus exophthalmos.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/33.jpg",
+     "lec": "Thyroid semiology",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "What does scintigraphy show in toxic adenoma?",
@@ -4909,7 +6745,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     "No uptake anywhere"
    ],
    "answer": 0,
-   "why": "A hyperfixing hot nodule with reduced uptake elsewhere; no eye signs."
+   "why": "A hyperfixing hot nodule with reduced uptake elsewhere; no eye signs.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/29.jpg",
+     "lec": "Thyroid semiology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "What is the Jod-Basedow effect?",
@@ -4920,7 +6763,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Eye disease in Graves'"
    ],
    "answer": 2,
-   "why": "Hyperthyroidism after iodine or iodinated contrast, usually in autonomous nodules."
+   "why": "Hyperthyroidism after iodine or iodinated contrast, usually in autonomous nodules.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/31.jpg",
+     "lec": "Thyroid semiology",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "What is TSH in primary hypothyroidism?",
@@ -4931,7 +6781,19 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Undetectable"
    ],
    "answer": 1,
-   "why": "TSH is markedly raised; free T4 and T3 are low."
+   "why": "TSH is markedly raised; free T4 and T3 are low.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/09.jpg",
+     "lec": "Thyroid semiology",
+     "n": 9
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/43.jpg",
+     "lec": "Thyroid semiology",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Which lab abnormality occurs in hypothyroidism?",
@@ -4942,7 +6804,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Hypercholesterolaemia"
    ],
    "answer": 3,
-   "why": "Macrocytic anaemia, dilutional hyponatraemia, hypercholesterolaemia, hyperprolactinaemia."
+   "why": "Macrocytic anaemia, dilutional hyponatraemia, hypercholesterolaemia, hyperprolactinaemia.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/40.jpg",
+     "lec": "Thyroid semiology",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "What is the main cause of endemic goitre?",
@@ -4953,7 +6822,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Amiodarone"
    ],
    "answer": 2,
-   "why": "Iodine deficiency is the main cause of endemic goitre and myxoedematous cretinism."
+   "why": "Iodine deficiency is the main cause of endemic goitre and myxoedematous cretinism.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/41.jpg",
+     "lec": "Thyroid semiology",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "What is myxoedema coma?",
@@ -4964,7 +6840,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     "A goitre bleed"
    ],
    "answer": 0,
-   "why": "Rare, in the elderly: weakness, stupor, hypothermia, hypoglycaemia, hyponatraemia, hypoventilation, shock."
+   "why": "Rare, in the elderly: weakness, stupor, hypothermia, hypoglycaemia, hyponatraemia, hypoventilation, shock.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/42.jpg",
+     "lec": "Thyroid semiology",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Above what volume is a female thyroid a goitre?",
@@ -4975,7 +6858,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     "10 cm³"
    ],
    "answer": 1,
-   "why": "Goitre: over 18 cm³ in women, over 20 cm³ in men; thickness over 2.5 cm."
+   "why": "Goitre: over 18 cm³ in women, over 20 cm³ in men; thickness over 2.5 cm.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/44.jpg",
+     "lec": "Thyroid semiology",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "What share of thyroid lumps are benign?",
@@ -4986,7 +6876,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     "About 5 percent"
    ],
    "answer": 2,
-   "why": "The majority, 90 to 95 percent, are benign, though work-up is often needed."
+   "why": "The majority, 90 to 95 percent, are benign, though work-up is often needed.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/46.jpg",
+     "lec": "Thyroid semiology",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "Which ultrasound grades need fine-needle aspiration?",
@@ -4997,7 +6894,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     "U3 to U5"
    ],
    "answer": 3,
-   "why": "FNAC for U3 (indeterminate), U4 (suspicious) and U5 (malignant) lesions."
+   "why": "FNAC for U3 (indeterminate), U4 (suspicious) and U5 (malignant) lesions.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/47.jpg",
+     "lec": "Thyroid semiology",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "Which are signs of hyperthyroidism? (choose all)",
@@ -5011,7 +6915,14 @@ SINA.lectures["semio-endo-thyroid"] = {
     0,
     1
    ],
-   "why": "Heat intolerance, fine tremor, tachycardia, weight loss."
+   "why": "Heat intolerance, fine tremor, tachycardia, weight loss.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/36.jpg",
+     "lec": "Thyroid semiology",
+     "n": 36
+    }
+   ]
   }
  ],
  "cards": [
@@ -5161,7 +7072,19 @@ SINA.lectures["semio-endo-adrenal"] = {
     "Generalised thinness"
    ],
    "answer": 0,
-   "why": "Truncal obesity with a moon face and particular fat deposits, while the limbs lose muscle."
+   "why": "Truncal obesity with a moon face and particular fat deposits, while the limbs lose muscle.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/21.jpg",
+     "lec": "Adrenal semiology",
+     "n": 21
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/26.jpg",
+     "lec": "Adrenal semiology",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "What skin sign is typical of Cushing's syndrome?",
@@ -5172,7 +7095,14 @@ SINA.lectures["semio-endo-adrenal"] = {
     "Café-au-lait spots"
    ],
    "answer": 1,
-   "why": "Wide purple striae, with acne."
+   "why": "Wide purple striae, with acne.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/26.jpg",
+     "lec": "Adrenal semiology",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which muscles waste in Cushing's syndrome?",
@@ -5183,7 +7113,19 @@ SINA.lectures["semio-endo-adrenal"] = {
     "The heart"
    ],
    "answer": 2,
-   "why": "Proximal limb muscle atrophy contrasts with truncal obesity."
+   "why": "Proximal limb muscle atrophy contrasts with truncal obesity.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/21.jpg",
+     "lec": "Adrenal semiology",
+     "n": 21
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/26.jpg",
+     "lec": "Adrenal semiology",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which metabolic disorder accompanies hypercortisolism?",
@@ -5194,7 +7136,14 @@ SINA.lectures["semio-endo-adrenal"] = {
     "Diabetes"
    ],
    "answer": 3,
-   "why": "Cortisol excess causes diabetes or prediabetes and hypertension."
+   "why": "Cortisol excess causes diabetes or prediabetes and hypertension.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/26.jpg",
+     "lec": "Adrenal semiology",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which bone disease occurs in Cushing's syndrome?",
@@ -5205,7 +7154,14 @@ SINA.lectures["semio-endo-adrenal"] = {
     "Rickets"
    ],
    "answer": 1,
-   "why": "Hypercortisolism causes osteoporosis."
+   "why": "Hypercortisolism causes osteoporosis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/19.jpg",
+     "lec": "Adrenal semiology",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which psychiatric risk is stressed in hypercortisolism?",
@@ -5216,7 +7172,14 @@ SINA.lectures["semio-endo-adrenal"] = {
     "Depression, suicide"
    ],
    "answer": 3,
-   "why": "Depression with suicide risk, or euphoria and delirium."
+   "why": "Depression with suicide risk, or euphoria and delirium.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/26.jpg",
+     "lec": "Adrenal semiology",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which clotting risk rises in Cushing's syndrome?",
@@ -5227,7 +7190,19 @@ SINA.lectures["semio-endo-adrenal"] = {
     "No change"
    ],
    "answer": 0,
-   "why": "There is a high risk of thrombosis."
+   "why": "There is a high risk of thrombosis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/26.jpg",
+     "lec": "Adrenal semiology",
+     "n": 26
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/36.jpg",
+     "lec": "Adrenal semiology",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "What does high ACTH with cortisol excess indicate?",
@@ -5238,7 +7213,14 @@ SINA.lectures["semio-endo-adrenal"] = {
     "A normal result"
    ],
    "answer": 2,
-   "why": "ACTH-dependent (high ACTH): pituitary or ectopic source. ACTH-independent (low ACTH): adrenal source."
+   "why": "ACTH-dependent (high ACTH): pituitary or ectopic source. ACTH-independent (low ACTH): adrenal source.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/26.jpg",
+     "lec": "Adrenal semiology",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "What is Cushing's disease?",
@@ -5249,7 +7231,19 @@ SINA.lectures["semio-endo-adrenal"] = {
     "A pituitary source"
    ],
    "answer": 3,
-   "why": "Cushing's disease is the pituitary cause; Cushing's syndrome is cortisol excess of any cause."
+   "why": "Cushing's disease is the pituitary cause; Cushing's syndrome is cortisol excess of any cause.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/30.jpg",
+     "lec": "Adrenal semiology",
+     "n": 30
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/31.jpg",
+     "lec": "Adrenal semiology",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "What does MIBG scintigraphy evaluate?",
@@ -5260,7 +7254,19 @@ SINA.lectures["semio-endo-adrenal"] = {
     "Kidney function"
    ],
    "answer": 0,
-   "why": "MIBG scintigraphy is a functional test of the adrenal medulla and paragangliomas."
+   "why": "MIBG scintigraphy is a functional test of the adrenal medulla and paragangliomas.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/67.jpg",
+     "lec": "Adrenal semiology",
+     "n": 67
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/75.jpg",
+     "lec": "Adrenal semiology",
+     "n": 75
+    }
+   ]
   },
   {
    "q": "Which imaging assesses adrenal adenoma size and lipid?",
@@ -5271,7 +7277,14 @@ SINA.lectures["semio-endo-adrenal"] = {
     "Mammography"
    ],
    "answer": 2,
-   "why": "CT shows adenoma size, lipid structure and tumour extension."
+   "why": "CT shows adenoma size, lipid structure and tumour extension.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/74.jpg",
+     "lec": "Adrenal semiology",
+     "n": 74
+    }
+   ]
   },
   {
    "q": "Which are signs of hypercortisolism? (choose all)",
@@ -5285,7 +7298,14 @@ SINA.lectures["semio-endo-adrenal"] = {
     0,
     1
    ],
-   "why": "Moon face, purple striae, truncal obesity, hypertension."
+   "why": "Moon face, purple striae, truncal obesity, hypertension.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/26.jpg",
+     "lec": "Adrenal semiology",
+     "n": 26
+    }
+   ]
   }
  ],
  "cards": [
@@ -5640,7 +7660,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Over 100 g/day"
    ],
    "answer": 0,
-   "why": "Over 300 g/day, more than 3 stools a day, water over 90 percent of stool weight."
+   "why": "Over 300 g/day, more than 3 stools a day, water over 90 percent of stool weight.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/03.jpg",
+     "lec": "Diarrhoea",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "How long does acute diarrhoea last?",
@@ -5651,7 +7678,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "2 to 4 weeks"
    ],
    "answer": 0,
-   "why": "Acute under 2 weeks; prolonged 2 to 4 weeks; chronic over 4 weeks."
+   "why": "Acute under 2 weeks; prolonged 2 to 4 weeks; chronic over 4 weeks.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/04.jpg",
+     "lec": "Diarrhoea",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What is false diarrhoea?",
@@ -5662,7 +7696,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Small hard stools under 300 g"
    ],
    "answer": 3,
-   "why": "Small hard stools totalling under 300 g/day; distinguish from incontinence and non-faecal discharge."
+   "why": "Small hard stools totalling under 300 g/day; distinguish from incontinence and non-faecal discharge.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/05.jpg",
+     "lec": "Diarrhoea",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which mechanism causes choleriform diarrhoea?",
@@ -5673,7 +7714,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Fast transit"
    ],
    "answer": 0,
-   "why": "Secretory (choleriform): profuse watery diarrhoea persisting during fasting, e.g. cholera, ETEC."
+   "why": "Secretory (choleriform): profuse watery diarrhoea persisting during fasting, e.g. cholera, ETEC.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/08.jpg",
+     "lec": "Diarrhoea",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which germ causes invasive dysenteric diarrhoea?",
@@ -5684,7 +7732,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Vibrio cholerae"
    ],
    "answer": 2,
-   "why": "Invasive: Shigella, Salmonella, Campylobacter, with bloody mucus, fever, pain, tenesmus."
+   "why": "Invasive: Shigella, Salmonella, Campylobacter, with bloody mucus, fever, pain, tenesmus.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/08.jpg",
+     "lec": "Diarrhoea",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which recent drug suggests C. difficile?",
@@ -5695,7 +7750,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Antacids"
    ],
    "answer": 2,
-   "why": "Recent antibiotics point to Clostridioides difficile."
+   "why": "Recent antibiotics point to Clostridioides difficile.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/10.jpg",
+     "lec": "Diarrhoea",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Above what duration are tests indicated in acute diarrhoea?",
@@ -5706,7 +7768,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "1 month"
    ],
    "answer": 0,
-   "why": "Tests only if severe dehydration, blood or pus, fever over 38°C, over 3 days, epidemic or immunosuppression."
+   "why": "Tests only if severe dehydration, blood or pus, fever over 38°C, over 3 days, epidemic or immunosuppression.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/11.jpg",
+     "lec": "Diarrhoea",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which diarrhoea stops with fasting?",
@@ -5717,7 +7786,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Osmotic"
    ],
    "answer": 3,
-   "why": "Osmotic and motor diarrhoea stop with fasting; secretory and malabsorptive persist."
+   "why": "Osmotic and motor diarrhoea stop with fasting; secretory and malabsorptive persist.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/20.jpg",
+     "lec": "Diarrhoea",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which diarrhoea gives greasy, pale, foul stools?",
@@ -5728,7 +7804,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Osmotic"
    ],
    "answer": 1,
-   "why": "Malabsorption: abundant greasy stools with weight loss, anaemia, bone pain; celiac, Crohn's, pancreatic insufficiency."
+   "why": "Malabsorption: abundant greasy stools with weight loss, anaemia, bone pain; celiac, Crohn's, pancreatic insufficiency.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/17.jpg",
+     "lec": "Diarrhoea",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which is a cause of motor diarrhoea?",
@@ -5739,7 +7822,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Cholera"
    ],
    "answer": 0,
-   "why": "Motor: hyperthyroidism, diabetes, carcinoid, gastrectomy, IBS; post-prandial and urgent."
+   "why": "Motor: hyperthyroidism, diabetes, carcinoid, gastrectomy, IBS; post-prandial and urgent.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/18.jpg",
+     "lec": "Diarrhoea",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "How is exudative diarrhoea diagnosed?",
@@ -5750,7 +7840,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Anti-transglutaminase"
    ],
    "answer": 2,
-   "why": "Protein loss into the gut, from lymphangiectasia, lymphoma, cirrhosis, UC."
+   "why": "Protein loss into the gut, from lymphangiectasia, lymphoma, cirrhosis, UC.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/19.jpg",
+     "lec": "Diarrhoea",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which test screens for celiac disease?",
@@ -5761,7 +7858,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Anti-transglutaminase"
    ],
    "answer": 3,
-   "why": "Second-line tests: TSH, HIV, anti-transglutaminase, stool parasitology; then EGD with duodenal biopsies."
+   "why": "Second-line tests: TSH, HIV, anti-transglutaminase, stool parasitology; then EGD with duodenal biopsies.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/16.jpg",
+     "lec": "Diarrhoea",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which are first-line tests in chronic diarrhoea? (choose all)",
@@ -5775,7 +7879,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     0,
     1
    ],
-   "why": "CBC, CRP, electrolytes, liver tests, electrophoresis, calcium, vitamin D, ferritin, albumin."
+   "why": "CBC, CRP, electrolytes, liver tests, electrophoresis, calcium, vitamin D, ferritin, albumin.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/16.jpg",
+     "lec": "Diarrhoea",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which stool weight defines diarrhoea?",
@@ -5786,7 +7897,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Over 300 g/day"
    ],
    "answer": 3,
-   "why": "With frequency over 3/day and water over 90%."
+   "why": "With frequency over 3/day and water over 90%.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/03.jpg",
+     "lec": "Diarrhoea",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Small, hard stools totalling under 300 g/day suggest:",
@@ -5797,7 +7915,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Cholera"
    ],
    "answer": 0,
-   "why": "A differential diagnosis of diarrhoea."
+   "why": "A differential diagnosis of diarrhoea.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/05.jpg",
+     "lec": "Diarrhoea",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Choleriform diarrhoea is caused by:",
@@ -5808,7 +7933,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Accelerated transit after a meal"
    ],
    "answer": 2,
-   "why": "Cholera, enterotoxigenic E. coli."
+   "why": "Cholera, enterotoxigenic E. coli.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/08.jpg",
+     "lec": "Diarrhoea",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which feature suggests dysenteric diarrhoea?",
@@ -5819,7 +7951,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Diarrhoea that stops with fasting"
    ],
    "answer": 2,
-   "why": "Shigella, Salmonella, Campylobacter."
+   "why": "Shigella, Salmonella, Campylobacter.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/08.jpg",
+     "lec": "Diarrhoea",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Recent antibiotic use with diarrhoea suggests:",
@@ -5830,7 +7969,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Coeliac disease"
    ],
    "answer": 1,
-   "why": "A key point of the history."
+   "why": "A key point of the history.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/10.jpg",
+     "lec": "Diarrhoea",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "In acute diarrhoea, tests are indicated when it lasts over:",
@@ -5841,7 +7987,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "3 days"
    ],
    "answer": 3,
-   "why": "Or with dehydration, blood, fever, epidemic context, immunosuppression."
+   "why": "Or with dehydration, blood, fever, epidemic context, immunosuppression.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/11.jpg",
+     "lec": "Diarrhoea",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which examination is mandatory in chronic diarrhoea?",
@@ -5852,7 +8005,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Spirometry"
    ],
    "answer": 2,
-   "why": "Along with hydration, nutrition and extra-abdominal signs."
+   "why": "Along with hydration, nutrition and extra-abdominal signs.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/15.jpg",
+     "lec": "Diarrhoea",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which second-line test screens for coeliac disease?",
@@ -5863,7 +8023,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Thyroid-stimulating hormone"
    ],
    "answer": 1,
-   "why": "Confirmed by duodenal biopsies."
+   "why": "Confirmed by duodenal biopsies.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/16.jpg",
+     "lec": "Diarrhoea",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which diarrhoea stops with fasting?",
@@ -5874,7 +8041,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Osmotic"
    ],
    "answer": 3,
-   "why": "Motor diarrhoea also improves with fasting."
+   "why": "Motor diarrhoea also improves with fasting.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/18.jpg",
+     "lec": "Diarrhoea",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Abundant, greasy, pale, foul-smelling stools suggest:",
@@ -5885,7 +8059,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Motor diarrhoea"
    ],
    "answer": 1,
-   "why": "With weight loss, anaemia, bone pain."
+   "why": "With weight loss, anaemia, bone pain.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/17.jpg",
+     "lec": "Diarrhoea",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Post-prandial, urgent diarrhoea that improves with fasting, in hyperthyroidism, is:",
@@ -5896,7 +8077,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Motor"
    ],
    "answer": 3,
-   "why": "Due to accelerated transit."
+   "why": "Due to accelerated transit.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/18.jpg",
+     "lec": "Diarrhoea",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "How is exudative diarrhoea diagnosed?",
@@ -5907,7 +8095,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Double-contrast barium enema"
    ],
    "answer": 0,
-   "why": "Loss of plasma proteins into the gut."
+   "why": "Loss of plasma proteins into the gut.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/19.jpg",
+     "lec": "Diarrhoea",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which drug can cause secretory diarrhoea?",
@@ -5918,7 +8113,14 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Colchicine"
    ],
    "answer": 3,
-   "why": "Also digitalis."
+   "why": "Also digitalis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-diarrhoea/19.jpg",
+     "lec": "Diarrhoea",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -6459,7 +8661,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Food sticking"
    ],
    "answer": 1,
-   "why": "Odynophagia: painful swallowing. Aphagia: complete inability. Globus: lump sensation without true difficulty."
+   "why": "Odynophagia: painful swallowing. Aphagia: complete inability. Globus: lump sensation without true difficulty.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/05.jpg",
+     "lec": "Dysphagia",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What must progressive dysphagia in an adult be assumed to be?",
@@ -6470,7 +8679,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "GERD"
    ],
    "answer": 2,
-   "why": "Until proven otherwise, investigated by upper endoscopy."
+   "why": "Until proven otherwise, investigated by upper endoscopy.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/03.jpg",
+     "lec": "Dysphagia",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which phase of swallowing is voluntary?",
@@ -6481,7 +8697,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "The pharyngeal phase"
    ],
    "answer": 0,
-   "why": "Oral: voluntary; pharyngeal: reflex; oesophageal: involuntary peristalsis."
+   "why": "Oral: voluntary; pharyngeal: reflex; oesophageal: involuntary peristalsis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/04.jpg",
+     "lec": "Dysphagia",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What suggests oropharyngeal dysphagia?",
@@ -6492,7 +8715,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Heartburn"
    ],
    "answer": 2,
-   "why": "Difficulty initiating, with cough or nasal regurgitation: neurological, muscular or ENT causes."
+   "why": "Difficulty initiating, with cough or nasal regurgitation: neurological, muscular or ENT causes.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/06.jpg",
+     "lec": "Dysphagia",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Solids first then liquids suggests?",
@@ -6503,7 +8733,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Globus"
    ],
    "answer": 2,
-   "why": "Solids then liquids: mechanical. Liquids more than solids (paradoxical): motor, as in achalasia."
+   "why": "Solids then liquids: mechanical. Liquids more than solids (paradoxical): motor, as in achalasia.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/09.jpg",
+     "lec": "Dysphagia",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which disorder causes paradoxical dysphagia?",
@@ -6514,7 +8751,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Achalasia"
    ],
    "answer": 3,
-   "why": "Achalasia: solids and liquids from onset, intermittent, worse with hot or cold, general state preserved."
+   "why": "Achalasia: solids and liquids from onset, intermittent, worse with hot or cold, general state preserved.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/16.jpg",
+     "lec": "Dysphagia",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "What does manometry show in achalasia?",
@@ -6525,7 +8769,19 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Acid reflux only"
    ],
    "answer": 1,
-   "why": "Absent peristalsis and a lower oesophageal sphincter that does not relax."
+   "why": "Absent peristalsis and a lower oesophageal sphincter that does not relax.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/07.jpg",
+     "lec": "Dysphagia",
+     "n": 7
+    },
+    {
+     "src": "files/slides/semio-gi-dysphagia/16.jpg",
+     "lec": "Dysphagia",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "What is the first-line test for dysphagia?",
@@ -6536,7 +8792,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Manometry"
    ],
    "answer": 1,
-   "why": "EGD visualises the mucosa and allows biopsies; it is the gold standard."
+   "why": "EGD visualises the mucosa and allows biopsies; it is the gold standard.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/13.jpg",
+     "lec": "Dysphagia",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which cause follows long-standing reflux?",
@@ -6547,7 +8810,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Zenker's diverticulum"
    ],
    "answer": 2,
-   "why": "Peptic stricture: reflux history, slow progression, mainly solids, no early deterioration."
+   "why": "Peptic stricture: reflux history, slow progression, mainly solids, no early deterioration.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/15.jpg",
+     "lec": "Dysphagia",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "What is Zenker's diverticulum?",
@@ -6558,7 +8828,19 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "A spasm"
    ],
    "answer": 2,
-   "why": "A structural ENT cause, a pulsion diverticulum, shown by barium swallow."
+   "why": "A structural ENT cause, a pulsion diverticulum, shown by barium swallow.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/13.jpg",
+     "lec": "Dysphagia",
+     "n": 13
+    },
+    {
+     "src": "files/slides/semio-gi-dysphagia/18.jpg",
+     "lec": "Dysphagia",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which is a neurological cause of dysphagia?",
@@ -6569,7 +8851,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Hiatal hernia"
    ],
    "answer": 0,
-   "why": "Stroke, Parkinson's, ALS, multiple sclerosis, myasthenia gravis, myopathies."
+   "why": "Stroke, Parkinson's, ALS, multiple sclerosis, myasthenia gravis, myopathies.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/19.jpg",
+     "lec": "Dysphagia",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which weight loss is a red flag?",
@@ -6580,7 +8869,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Over 5 kg"
    ],
    "answer": 3,
-   "why": "Red flags: age over 50, rapid progression, weight loss over 5 kg, iron deficiency anaemia, caustic, GERD or radiation history."
+   "why": "Red flags: age over 50, rapid progression, weight loss over 5 kg, iron deficiency anaemia, caustic, GERD or radiation history.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/20.jpg",
+     "lec": "Dysphagia",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which are red flags in dysphagia? (choose all)",
@@ -6594,7 +8890,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     0,
     1
    ],
-   "why": "Age over 50, rapid progression, weight loss over 5 kg, anaemia, caustic or radiation history."
+   "why": "Age over 50, rapid progression, weight loss over 5 kg, anaemia, caustic or radiation history.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/20.jpg",
+     "lec": "Dysphagia",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Painful swallowing is called:",
@@ -6605,7 +8908,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Globus"
    ],
    "answer": 2,
-   "why": "Often infectious or inflammatory."
+   "why": "Often infectious or inflammatory.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/05.jpg",
+     "lec": "Dysphagia",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "A lump sensation in the throat without real difficulty swallowing is:",
@@ -6616,7 +8926,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Globus"
    ],
    "answer": 3,
-   "why": "Always clarify what the patient means."
+   "why": "Always clarify what the patient means.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/05.jpg",
+     "lec": "Dysphagia",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Cough during meals and nasal regurgitation suggest:",
@@ -6627,7 +8944,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Oropharyngeal dysphagia"
    ],
    "answer": 3,
-   "why": "Neurological, muscular or ENT causes."
+   "why": "Neurological, muscular or ENT causes.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/06.jpg",
+     "lec": "Dysphagia",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Dysphagia to solids then liquids, progressive, suggests:",
@@ -6638,7 +8962,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Diffuse spasm"
    ],
    "answer": 2,
-   "why": "Such as cancer or peptic stricture."
+   "why": "Such as cancer or peptic stricture.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/07.jpg",
+     "lec": "Dysphagia",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Paradoxical dysphagia (liquids as much as solids) suggests:",
@@ -6649,7 +8980,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Achalasia"
    ],
    "answer": 3,
-   "why": "A motor disorder."
+   "why": "A motor disorder.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/09.jpg",
+     "lec": "Dysphagia",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Sudden dysphagia most suggests:",
@@ -6660,7 +8998,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Foreign body or spasm"
    ],
    "answer": 3,
-   "why": "Progressive onset suggests cancer or stricture."
+   "why": "Progressive onset suggests cancer or stricture.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/08.jpg",
+     "lec": "Dysphagia",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "What is the first-line investigation for dysphagia?",
@@ -6671,7 +9016,19 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Manometry"
    ],
    "answer": 0,
-   "why": "Allows biopsies to exclude malignancy."
+   "why": "Allows biopsies to exclude malignancy.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/03.jpg",
+     "lec": "Dysphagia",
+     "n": 3
+    },
+    {
+     "src": "files/slides/semio-gi-dysphagia/22.jpg",
+     "lec": "Dysphagia",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which test confirms achalasia?",
@@ -6682,7 +9039,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Endoscopy alone"
    ],
    "answer": 2,
-   "why": "Absent peristalsis and a non-relaxing LES."
+   "why": "Absent peristalsis and a non-relaxing LES.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/16.jpg",
+     "lec": "Dysphagia",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Zenker's diverticulum is best seen on:",
@@ -6693,7 +9057,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Barium swallow"
    ],
    "answer": 3,
-   "why": "A pulsion diverticulum of the pharynx."
+   "why": "A pulsion diverticulum of the pharynx.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/13.jpg",
+     "lec": "Dysphagia",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which cranial nerves are examined in dysphagia?",
@@ -6704,7 +9075,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "I to IV"
    ],
    "answer": 1,
-   "why": "Glossopharyngeal, vagus, accessory, hypoglossal."
+   "why": "Glossopharyngeal, vagus, accessory, hypoglossal.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/11.jpg",
+     "lec": "Dysphagia",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which is NOT a red flag for dysphagia?",
@@ -6715,7 +9093,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Weight loss of more than 5 kg"
    ],
    "answer": 1,
-   "why": "The others require urgent referral."
+   "why": "The others require urgent referral.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/20.jpg",
+     "lec": "Dysphagia",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "A peptic stricture typically presents with:",
@@ -6726,7 +9111,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Sudden aphagia after eating a piece of meat"
    ],
    "answer": 0,
-   "why": "General state initially preserved."
+   "why": "General state initially preserved.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/15.jpg",
+     "lec": "Dysphagia",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which is an extrinsic cause of dysphagia?",
@@ -6737,7 +9129,14 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Achalasia"
    ],
    "answer": 0,
-   "why": "Also mediastinal tumours and an enlarged left atrium."
+   "why": "Also mediastinal tumours and an enlarged left atrium.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-dysphagia/18.jpg",
+     "lec": "Dysphagia",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -7251,7 +9650,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Dysphagia"
    ],
    "answer": 1,
-   "why": "Retrosternal burning rising to the throat, postprandial or nocturnal, triggered by bending or lying."
+   "why": "Retrosternal burning rising to the throat, postprandial or nocturnal, triggered by bending or lying.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/07.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What prevents reflux at rest?",
@@ -7262,7 +9668,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "The upper sphincter only"
    ],
    "answer": 1,
-   "why": "The lower oesophageal sphincter and the diaphragmatic crura form the anti-reflux barrier."
+   "why": "The lower oesophageal sphincter and the diaphragmatic crura form the anti-reflux barrier.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/05.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What is the most frequent anatomical cause of GERD?",
@@ -7273,7 +9686,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Pyloric stenosis"
    ],
    "answer": 2,
-   "why": "Hiatal hernia is the most frequent anatomical cause."
+   "why": "Hiatal hernia is the most frequent anatomical cause.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/16.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which food lowers LES tone?",
@@ -7284,7 +9704,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Bread"
    ],
    "answer": 1,
-   "why": "Fats, chocolate, caffeine, alcohol, mint and spicy foods lower LES tone."
+   "why": "Fats, chocolate, caffeine, alcohol, mint and spicy foods lower LES tone.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/06.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which drug lowers LES tone?",
@@ -7295,7 +9722,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Metformin"
    ],
    "answer": 2,
-   "why": "Nitrates, theophylline, anticholinergics, calcium channel blockers, progesterone, sedatives."
+   "why": "Nitrates, theophylline, anticholinergics, calcium channel blockers, progesterone, sedatives.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/06.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which is an extra-digestive GERD sign?",
@@ -7306,7 +9740,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Nocturnal cough"
    ],
    "answer": 3,
-   "why": "Chronic cough, asthma-like symptoms, laryngitis, hoarseness, dental erosions, pseudo-anginal chest pain."
+   "why": "Chronic cough, asthma-like symptoms, laryngitis, hoarseness, dental erosions, pseudo-anginal chest pain.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/11.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "When is the diagnosis of GERD clinical?",
@@ -7317,7 +9758,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Only after pH-metry"
    ],
    "answer": 1,
-   "why": "Typical forms are diagnosed clinically; tests are for atypical cases, red flags, poor response or age over 50."
+   "why": "Typical forms are diagnosed clinically; tests are for atypical cases, red flags, poor response or age over 50.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/13.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Does a normal endoscopy exclude GERD?",
@@ -7328,7 +9776,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Yes, always"
    ],
    "answer": 1,
-   "why": "Many patients have non-erosive reflux disease."
+   "why": "Many patients have non-erosive reflux disease.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/14.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "What pH-metry result confirms GERD?",
@@ -7339,7 +9794,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "pH over 7 all day"
    ],
    "answer": 0,
-   "why": "24-hour pH-metry is the reference test."
+   "why": "24-hour pH-metry is the reference test.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/15.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which test detects non-acid reflux?",
@@ -7350,7 +9812,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Endoscopy"
    ],
    "answer": 0,
-   "why": "Impedancemetry detects non-acid reflux; manometry assesses LES pressure."
+   "why": "Impedancemetry detects non-acid reflux; manometry assesses LES pressure.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/15.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which complication carries a cancer risk?",
@@ -7361,7 +9830,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Hoarseness"
    ],
    "answer": 2,
-   "why": "Barrett's oesophagus is mucosal metaplasia with cancer risk."
+   "why": "Barrett's oesophagus is mucosal metaplasia with cancer risk.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/17.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which is a GERD alarm sign?",
@@ -7372,7 +9848,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Dysphagia"
    ],
    "answer": 3,
-   "why": "Dysphagia, odynophagia, GI bleeding, iron deficiency anaemia, weight loss, vomiting: endoscopy needed."
+   "why": "Dysphagia, odynophagia, GI bleeding, iron deficiency anaemia, weight loss, vomiting: endoscopy needed.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/12.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which conditions predispose to GERD? (choose all)",
@@ -7386,7 +9869,14 @@ SINA.lectures["semio-gi-gerd"] = {
     0,
     1
    ],
-   "why": "Obesity, pregnancy and tight clothing raise intra-abdominal pressure."
+   "why": "Obesity, pregnancy and tight clothing raise intra-abdominal pressure.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/06.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "What prevents reflux at rest?",
@@ -7397,7 +9887,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "The LES and the diaphragmatic crura"
    ],
    "answer": 3,
-   "why": "Weakness or transient relaxation allows reflux."
+   "why": "Weakness or transient relaxation allows reflux.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/05.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The most frequent anatomical cause of GERD is:",
@@ -7408,7 +9905,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Pyloric stenosis"
    ],
    "answer": 0,
-   "why": "It displaces the LES from the crura."
+   "why": "It displaces the LES from the crura.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/16.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which food lowers LES tone?",
@@ -7419,7 +9923,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Rice"
    ],
    "answer": 1,
-   "why": "Also fats, caffeine, alcohol, mint, spicy food."
+   "why": "Also fats, caffeine, alcohol, mint, spicy food.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/06.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which drug can promote reflux?",
@@ -7430,7 +9941,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Amoxicillin"
    ],
    "answer": 1,
-   "why": "Also theophylline, anticholinergics, calcium channel blockers, progesterone."
+   "why": "Also theophylline, anticholinergics, calcium channel blockers, progesterone.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/06.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "What is the most characteristic symptom of GERD?",
@@ -7441,7 +9959,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Pyrosis (heartburn)"
    ],
    "answer": 3,
-   "why": "A retrosternal burning rising to the throat."
+   "why": "A retrosternal burning rising to the throat.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/07.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Water brash means:",
@@ -7452,7 +9977,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Hypersalivation"
    ],
    "answer": 3,
-   "why": "An 'other digestive sign' of GERD."
+   "why": "An 'other digestive sign' of GERD.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/09.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which is an extra-digestive manifestation of GERD?",
@@ -7463,7 +9995,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Ascites"
    ],
    "answer": 0,
-   "why": "Also hoarseness, dental erosions, non-cardiac chest pain."
+   "why": "Also hoarseness, dental erosions, non-cardiac chest pain.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/11.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "In typical GERD (heartburn + regurgitation), the diagnosis is:",
@@ -7474,7 +10013,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Always by pH-metry"
    ],
    "answer": 0,
-   "why": "Tests are reserved for specific situations."
+   "why": "Tests are reserved for specific situations.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/13.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which is an alarm sign requiring endoscopy?",
@@ -7485,7 +10031,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Dysphagia"
    ],
    "answer": 3,
-   "why": "Also odynophagia, bleeding, anaemia, weight loss, vomiting."
+   "why": "Also odynophagia, bleeding, anaemia, weight loss, vomiting.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/12.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "A normal endoscopy in a patient with typical symptoms:",
@@ -7496,7 +10049,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Excludes GERD"
    ],
    "answer": 2,
-   "why": "Non-erosive reflux disease is common."
+   "why": "Non-erosive reflux disease is common.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/14.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "pH-metry confirms GERD when oesophageal pH is below 4 for more than:",
@@ -7507,7 +10067,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "50% of the time"
    ],
    "answer": 0,
-   "why": "The reference test for acid reflux."
+   "why": "The reference test for acid reflux.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/15.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which test detects non-acid reflux?",
@@ -7518,7 +10085,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "Barium swallow"
    ],
    "answer": 2,
-   "why": "Manometry evaluates LES pressure and motility."
+   "why": "Manometry evaluates LES pressure and motility.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/15.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Barrett's oesophagus is:",
@@ -7529,7 +10103,14 @@ SINA.lectures["semio-gi-gerd"] = {
     "A diverticulum"
    ],
    "answer": 2,
-   "why": "A complication of long-standing reflux."
+   "why": "A complication of long-standing reflux.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/17.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -8019,7 +10600,19 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Black tarry digested blood"
    ],
    "answer": 3,
-   "why": "Melena: black, tarry, foul stools of digested blood. Haematochezia: bright red rectal blood."
+   "why": "Melena: black, tarry, foul stools of digested blood. Haematochezia: bright red rectal blood.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/04.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 4
+    },
+    {
+     "src": "files/slides/semio-gi-bleeding/07.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Haematemesis indicates a lesion above what?",
@@ -8030,7 +10623,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "The ileocaecal valve"
    ],
    "answer": 2,
-   "why": "Haematemesis points to the upper GI tract, proximal to the angle of Treitz."
+   "why": "Haematemesis points to the upper GI tract, proximal to the angle of Treitz.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/06.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "How long after bleeding starts does melena appear?",
@@ -8041,7 +10641,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "1 week"
    ],
    "answer": 2,
-   "why": "Melena appears 6 to 8 hours after bleeding starts."
+   "why": "Melena appears 6 to 8 hours after bleeding starts.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/07.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What can mimic melena?",
@@ -8052,7 +10659,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Iron supplements"
    ],
    "answer": 3,
-   "why": "Iron, charcoal, bismuth and some foods darken stools."
+   "why": "Iron, charcoal, bismuth and some foods darken stools.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/07.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What can haematochezia also indicate?",
@@ -8063,7 +10677,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Occult bleeding"
    ],
    "answer": 0,
-   "why": "Usually lower tract, but massive upper bleeding with fast transit can cause it."
+   "why": "Usually lower tract, but massive upper bleeding with fast transit can cause it.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/08.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "How is occult bleeding revealed?",
@@ -8074,7 +10695,19 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Haematemesis"
    ],
    "answer": 2,
-   "why": "Chronic minimal loss shows as iron deficiency anaemia or a positive faecal occult blood test."
+   "why": "Chronic minimal loss shows as iron deficiency anaemia or a positive faecal occult blood test.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/04.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 4
+    },
+    {
+     "src": "files/slides/semio-gi-bleeding/09.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Does a normal haemoglobin rule out recent bleeding?",
@@ -8085,7 +10718,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Only if melena"
    ],
    "answer": 2,
-   "why": "Haemoglobin takes time to fall after acute bleeding."
+   "why": "Haemoglobin takes time to fall after acute bleeding.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/10.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "How many IV lines are placed in severe GI bleeding?",
@@ -8096,7 +10736,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Two large-bore lines"
    ],
    "answer": 3,
-   "why": "Two large-bore lines for filling and transfusion, plus group, crossmatch and bloods."
+   "why": "Two large-bore lines for filling and transfusion, plus group, crossmatch and bloods.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/11.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What is the first-line exam for upper GI bleeding?",
@@ -8107,7 +10754,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "CT scan"
    ],
    "answer": 0,
-   "why": "EGD after stabilisation finds the source in over 90 percent and can treat it."
+   "why": "EGD after stabilisation finds the source in over 90 percent and can treat it.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/14.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "What causes a Mallory-Weiss tear?",
@@ -8118,7 +10772,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Vomiting"
    ],
    "answer": 3,
-   "why": "A mucosal tear at the oesophagogastric junction after vomiting."
+   "why": "A mucosal tear at the oesophagogastric junction after vomiting.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/16.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which lower GI cause is typical in the young?",
@@ -8129,7 +10790,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Meckel's diverticulum"
    ],
    "answer": 3,
-   "why": "Ulcers and varices in adults, polyps or cancer in the elderly, Meckel's in the young."
+   "why": "Ulcers and varices in adults, polyps or cancer in the elderly, Meckel's in the young.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/21.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which endoscopic treatment is used for varices?",
@@ -8140,7 +10808,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Adrenaline only"
    ],
    "answer": 1,
-   "why": "Variceal band ligation; injection, thermal coagulation and clips for other lesions."
+   "why": "Variceal band ligation; injection, thermal coagulation and clips for other lesions.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/19.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which are severity signs in GI bleeding? (choose all)",
@@ -8154,7 +10829,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     0,
     1
    ],
-   "why": "Pallor, cold extremities, tachycardia; severe: hypotension, polypnoea, oliguria, altered consciousness, mottling."
+   "why": "Pallor, cold extremities, tachycardia; severe: hypotension, polypnoea, oliguria, altered consciousness, mottling.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/10.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Haematemesis indicates a lesion located:",
@@ -8165,7 +10847,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "In the rectum"
    ],
    "answer": 1,
-   "why": "The upper GI tract."
+   "why": "The upper GI tract.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/06.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which feature distinguishes haemoptysis from haematemesis?",
@@ -8176,7 +10865,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Clots mixed with food debris"
    ],
    "answer": 2,
-   "why": "Haematemesis follows nausea and may contain food."
+   "why": "Haematemesis follows nausea and may contain food.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/06.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "How long after bleeding starts does melaena appear?",
@@ -8187,7 +10883,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "6 to 8 hours"
    ],
    "answer": 3,
-   "why": "Time for blood to be digested."
+   "why": "Time for blood to be digested.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/07.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which can mimic melaena?",
@@ -8198,7 +10901,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Beetroot only"
    ],
    "answer": 0,
-   "why": "Also charcoal, bismuth and some foods."
+   "why": "Also charcoal, bismuth and some foods.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/07.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Bright red rectal blood with shock may come from:",
@@ -8209,7 +10919,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Only a Mallory-Weiss tear"
    ],
    "answer": 0,
-   "why": "Haematochezia usually suggests a lower source."
+   "why": "Haematochezia usually suggests a lower source.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/08.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Why can a normal haemoglobin be misleading?",
@@ -8220,7 +10937,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "The analyser is often inaccurate"
    ],
    "answer": 1,
-   "why": "A normal Hb does not rule out recent bleeding."
+   "why": "A normal Hb does not rule out recent bleeding.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/10.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which is a sign of severe bleeding?",
@@ -8231,7 +10955,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Abdominal bloating without pallor"
    ],
    "answer": 0,
-   "why": "Also polypnoea and mottling."
+   "why": "Also polypnoea and mottling.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/10.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The first emergency measure is to place:",
@@ -8242,7 +10973,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Two large-bore peripheral IV lines"
    ],
    "answer": 3,
-   "why": "For fluids and transfusion."
+   "why": "For fluids and transfusion.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/11.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Upper GI endoscopy identifies the source in:",
@@ -8253,7 +10991,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "About 30%"
    ],
    "answer": 0,
-   "why": "It is diagnostic, prognostic and therapeutic."
+   "why": "It is diagnostic, prognostic and therapeutic.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/14.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "A tear after repeated vomiting is:",
@@ -8264,7 +11009,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Zenker's diverticulum"
    ],
    "answer": 2,
-   "why": "A mucosal rupture causing haematemesis."
+   "why": "A mucosal rupture causing haematemesis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/16.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which is a lower GI bleeding cause typical in young patients?",
@@ -8275,7 +11027,19 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Colon cancer"
    ],
    "answer": 0,
-   "why": "Polyps and cancer are commoner in the elderly."
+   "why": "Polyps and cancer are commoner in the elderly.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/17.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 17
+    },
+    {
+     "src": "files/slides/semio-gi-bleeding/21.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which endoscopic technique treats oesophageal varices?",
@@ -8286,7 +11050,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Colonoscopy"
    ],
    "answer": 1,
-   "why": "Other techniques: injection, thermal coagulation, clips."
+   "why": "Other techniques: injection, thermal coagulation, clips.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/19.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which drug is given for a suspected peptic ulcer bleed?",
@@ -8297,7 +11068,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "NSAID"
    ],
    "answer": 0,
-   "why": "NSAIDs and aspirin are causes."
+   "why": "NSAIDs and aspirin are causes.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/18.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which causes carry the worst prognosis?",
@@ -8308,7 +11086,14 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Erosive gastritis"
    ],
    "answer": 2,
-   "why": "Along with severity, comorbidities and delay."
+   "why": "Along with severity, comorbidities and delay.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/20.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

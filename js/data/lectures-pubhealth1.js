@@ -198,7 +198,14 @@ SINA.lectures["pubhealth1-intro"] = {
     "1948"
    ],
    "answer": 3,
-   "why": "WHO Constitution."
+   "why": "WHO Constitution.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/10.jpg",
+     "lec": "Introduction to public health",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "According to WHO, health is:",
@@ -209,7 +216,19 @@ SINA.lectures["pubhealth1-intro"] = {
     "Physical fitness"
    ],
    "answer": 2,
-   "why": "Not merely the absence of disease or infirmity."
+   "why": "Not merely the absence of disease or infirmity.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/10.jpg",
+     "lec": "Introduction to public health",
+     "n": 10
+    },
+    {
+     "src": "files/slides/pubhealth1-intro/13.jpg",
+     "lec": "Introduction to public health",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Who defined public health as 'the science and art of preventing disease, prolonging life and promoting health'?",
@@ -220,7 +239,14 @@ SINA.lectures["pubhealth1-intro"] = {
     "Chadwick"
    ],
    "answer": 0,
-   "why": "Through organised efforts and informed choices."
+   "why": "Through organised efforts and informed choices.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/12.jpg",
+     "lec": "Introduction to public health",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The public health approach targets:",
@@ -231,7 +257,14 @@ SINA.lectures["pubhealth1-intro"] = {
     "Only children"
    ],
    "answer": 2,
-   "why": "Even those who do not consult."
+   "why": "Even those who do not consult.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/16.jpg",
+     "lec": "Introduction to public health",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which feature belongs to the clinical approach?",
@@ -242,7 +275,14 @@ SINA.lectures["pubhealth1-intro"] = {
     "Acts throughout life"
    ],
    "answer": 0,
-   "why": "The doctor has the power."
+   "why": "The doctor has the power.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/16.jpg",
+     "lec": "Introduction to public health",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "A blood pressure screening programme in workplaces is an example of:",
@@ -253,7 +293,14 @@ SINA.lectures["pubhealth1-intro"] = {
     "Palliation"
    ],
    "answer": 1,
-   "why": "It acts before disease fully develops."
+   "why": "It acts before disease fully develops.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/21.jpg",
+     "lec": "Introduction to public health",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Building parks and regulating school cafeterias is an example of:",
@@ -264,7 +311,14 @@ SINA.lectures["pubhealth1-intro"] = {
     "Curative care"
    ],
    "answer": 2,
-   "why": "Creating supportive environments."
+   "why": "Creating supportive environments.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/22.jpg",
+     "lec": "Introduction to public health",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which book is attributed to Hippocrates?",
@@ -275,7 +329,14 @@ SINA.lectures["pubhealth1-intro"] = {
     "Airs, Waters and Places"
    ],
    "answer": 3,
-   "why": "5th-4th century BCE."
+   "why": "5th-4th century BCE.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/25.jpg",
+     "lec": "Introduction to public health",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The Public Health Act was passed in the UK in:",
@@ -286,7 +347,14 @@ SINA.lectures["pubhealth1-intro"] = {
     "1948"
    ],
    "answer": 1,
-   "why": "Sanitation era."
+   "why": "Sanitation era.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/26.jpg",
+     "lec": "Introduction to public health",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "John Snow is known for:",
@@ -297,7 +365,14 @@ SINA.lectures["pubhealth1-intro"] = {
     "Rabies vaccine"
    ],
    "answer": 0,
-   "why": "Environmental approach."
+   "why": "Environmental approach.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/28.jpg",
+     "lec": "Introduction to public health",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The bacteriological era of public health was founded on:",
@@ -308,7 +383,14 @@ SINA.lectures["pubhealth1-intro"] = {
     "Genetics"
    ],
    "answer": 0,
-   "why": "1880-1930."
+   "why": "1880-1930.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/29.jpg",
+     "lec": "Introduction to public health",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "What share of global deaths do non-communicable diseases cause?",
@@ -319,7 +401,14 @@ SINA.lectures["pubhealth1-intro"] = {
     "70%"
    ],
    "answer": 3,
-   "why": "Driven by diet, inactivity, tobacco, alcohol."
+   "why": "Driven by diet, inactivity, tobacco, alcohol.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/34.jpg",
+     "lec": "Introduction to public health",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which is a criterion of a public health problem?",
@@ -330,7 +419,19 @@ SINA.lectures["pubhealth1-intro"] = {
     "Inequalities and vulnerability"
    ],
    "answer": 3,
-   "why": "Also social perception."
+   "why": "Also social perception.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/31.jpg",
+     "lec": "Introduction to public health",
+     "n": 31
+    },
+    {
+     "src": "files/slides/pubhealth1-intro/32.jpg",
+     "lec": "Introduction to public health",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "In the ER case, referring the boy to social services addresses his:",
@@ -341,7 +442,14 @@ SINA.lectures["pubhealth1-intro"] = {
     "Vaccination"
    ],
    "answer": 0,
-   "why": "Part of holistic care."
+   "why": "Part of holistic care.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/09.jpg",
+     "lec": "Introduction to public health",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Rudolf Virchow's report emphasised:",
@@ -352,7 +460,14 @@ SINA.lectures["pubhealth1-intro"] = {
     "New vaccines"
    ],
    "answer": 1,
-   "why": "He proposed universal education."
+   "why": "He proposed universal education.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/28.jpg",
+     "lec": "Introduction to public health",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -756,7 +871,14 @@ SINA.lectures["pubhealth1-determinants"] = {
     "Only their genes"
    ],
    "answer": 2,
-   "why": "Three core questions."
+   "why": "Three core questions.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/04.jpg",
+     "lec": "Determinants of health",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which is a non-modifiable CVD risk factor?",
@@ -767,7 +889,14 @@ SINA.lectures["pubhealth1-determinants"] = {
     "Smoking"
    ],
    "answer": 1,
-   "why": "Also age, sex, ethnicity."
+   "why": "Also age, sex, ethnicity.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/07.jpg",
+     "lec": "Determinants of health",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Increased CHD risk exists if the father had a heart attack before age:",
@@ -778,7 +907,14 @@ SINA.lectures["pubhealth1-determinants"] = {
     "75"
    ],
    "answer": 0,
-   "why": "Or the mother before 65."
+   "why": "Or the mother before 65.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/07.jpg",
+     "lec": "Determinants of health",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "How much weekly physical activity does the lecture recommend?",
@@ -789,7 +925,14 @@ SINA.lectures["pubhealth1-determinants"] = {
     "30 minutes"
    ],
    "answer": 1,
-   "why": "Moderate to vigorous intensity."
+   "why": "Moderate to vigorous intensity.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/08.jpg",
+     "lec": "Determinants of health",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "High blood pressure in people with diabetes is defined above:",
@@ -800,7 +943,14 @@ SINA.lectures["pubhealth1-determinants"] = {
     "130/80"
    ],
    "answer": 3,
-   "why": "140/90 for most people."
+   "why": "140/90 for most people.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/09.jpg",
+     "lec": "Determinants of health",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which is a protective factor?",
@@ -811,7 +961,14 @@ SINA.lectures["pubhealth1-determinants"] = {
     "Family conflict"
    ],
    "answer": 2,
-   "why": "They shield against worsening conditions."
+   "why": "They shield against worsening conditions.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/12.jpg",
+     "lec": "Determinants of health",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Family conflict and social isolation are examples of:",
@@ -822,7 +979,14 @@ SINA.lectures["pubhealth1-determinants"] = {
     "Protective factors"
    ],
    "answer": 0,
-   "why": "For mood disorders and substance use."
+   "why": "For mood disorders and substance use.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/12.jpg",
+     "lec": "Determinants of health",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "A criticism of models like Dever's is that they:",
@@ -833,7 +997,14 @@ SINA.lectures["pubhealth1-determinants"] = {
     "They are too recent to be useful"
    ],
    "answer": 2,
-   "why": "Is it fair?"
+   "why": "Is it fair?",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/22.jpg",
+     "lec": "Determinants of health",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Who wrote 'The Health Gap'?",
@@ -844,7 +1015,14 @@ SINA.lectures["pubhealth1-determinants"] = {
     "Marmot"
    ],
    "answer": 3,
-   "why": "Social determinants of health."
+   "why": "Social determinants of health.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/37.jpg",
+     "lec": "Determinants of health",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which is a social determinant of health?",
@@ -855,7 +1033,14 @@ SINA.lectures["pubhealth1-determinants"] = {
     "Height"
    ],
    "answer": 1,
-   "why": "Higher education, longer and healthier life."
+   "why": "Higher education, longer and healthier life.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/32.jpg",
+     "lec": "Determinants of health",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Housing quality, transport and air quality belong to:",
@@ -866,7 +1051,14 @@ SINA.lectures["pubhealth1-determinants"] = {
     "Biology"
    ],
    "answer": 0,
-   "why": "A social determinant domain."
+   "why": "A social determinant domain.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/33.jpg",
+     "lec": "Determinants of health",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which determinants guide public health interventions most?",
@@ -877,7 +1069,14 @@ SINA.lectures["pubhealth1-determinants"] = {
     "Modifiable"
    ],
    "answer": 3,
-   "why": "They can be changed."
+   "why": "They can be changed.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/19.jpg",
+     "lec": "Determinants of health",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1353,7 +1552,14 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Tertiary prevention"
    ],
    "answer": 0,
-   "why": "It prevents new cases."
+   "why": "It prevents new cases.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/11.jpg",
+     "lec": "Public health approaches: prevention",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Immunisation programmes are an example of:",
@@ -1364,7 +1570,19 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Tertiary prevention"
    ],
    "answer": 0,
-   "why": "Before exposure to disease."
+   "why": "Before exposure to disease.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/09.jpg",
+     "lec": "Public health approaches: prevention",
+     "n": 9
+    },
+    {
+     "src": "files/slides/pubhealth1-approaches/10.jpg",
+     "lec": "Public health approaches: prevention",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Cancer screening is an example of:",
@@ -1375,7 +1593,14 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Health promotion"
    ],
    "answer": 1,
-   "why": "Early detection before clinical signs."
+   "why": "Early detection before clinical signs.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/10.jpg",
+     "lec": "Public health approaches: prevention",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Rehabilitation and palliative care are:",
@@ -1386,7 +1611,14 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Primary prevention"
    ],
    "answer": 0,
-   "why": "They reduce disability and recurrence."
+   "why": "They reduce disability and recurrence.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/14.jpg",
+     "lec": "Public health approaches: prevention",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which form of prevention is generally the most cost-effective?",
@@ -1397,7 +1629,14 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Primary"
    ],
    "answer": 3,
-   "why": "Disease is largely avoided."
+   "why": "Disease is largely avoided.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/11.jpg",
+     "lec": "Public health approaches: prevention",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which is a condition for offering screening?",
@@ -1408,7 +1647,14 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Low cost disease"
    ],
    "answer": 1,
-   "why": "Also frequent disease and feasible mass diagnosis."
+   "why": "Also frequent disease and feasible mass diagnosis.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/13.jpg",
+     "lec": "Public health approaches: prevention",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Health promotion was launched by WHO at:",
@@ -1419,7 +1665,14 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Rio 1992"
    ],
    "answer": 1,
-   "why": "The Ottawa Charter."
+   "why": "The Ottawa Charter.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/16.jpg",
+     "lec": "Public health approaches: prevention",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Health promotion is defined as:",
@@ -1430,7 +1683,14 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Enabling control over one's health"
    ],
    "answer": 3,
-   "why": "Ottawa definition."
+   "why": "Ottawa definition.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/16.jpg",
+     "lec": "Public health approaches: prevention",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which is a prerequisite for health in the Ottawa Charter?",
@@ -1441,7 +1701,14 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Medicines"
    ],
    "answer": 1,
-   "why": "Also shelter, education, food, income, equity..."
+   "why": "Also shelter, education, food, income, equity...",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/18.jpg",
+     "lec": "Public health approaches: prevention",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which is NOT one of the five Ottawa action pillars?",
@@ -1452,7 +1719,19 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Build healthy public policy"
    ],
    "answer": 2,
-   "why": "Also community action and personal skills."
+   "why": "Also community action and personal skills.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/20.jpg",
+     "lec": "Public health approaches: prevention",
+     "n": 20
+    },
+    {
+     "src": "files/slides/pubhealth1-approaches/28.jpg",
+     "lec": "Public health approaches: prevention",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Health impact assessment is a tool to:",
@@ -1463,7 +1742,19 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Predict health effects of policies"
    ],
    "answer": 3,
-   "why": "Part of building healthy public policy."
+   "why": "Part of building healthy public policy.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/04.jpg",
+     "lec": "Public health approaches: prevention",
+     "n": 4
+    },
+    {
+     "src": "files/slides/pubhealth1-approaches/23.jpg",
+     "lec": "Public health approaches: prevention",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Health literacy belongs to which pillar?",
@@ -1474,7 +1765,14 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Develop personal skills"
    ],
    "answer": 3,
-   "why": "Finding, understanding, using health information."
+   "why": "Finding, understanding, using health information.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/31.jpg",
+     "lec": "Public health approaches: prevention",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "In health promotion the population is considered:",
@@ -1485,7 +1783,14 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Only patients"
    ],
    "answer": 0,
-   "why": "Prevention treats it as an object."
+   "why": "Prevention treats it as an object.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/34.jpg",
+     "lec": "Public health approaches: prevention",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Disease prevention is based on which model?",
@@ -1496,7 +1801,14 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Community"
    ],
    "answer": 1,
-   "why": "Vertical programmes targeting risk factors."
+   "why": "Vertical programmes targeting risk factors.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/34.jpg",
+     "lec": "Public health approaches: prevention",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1956,7 +2268,19 @@ SINA.lectures["pubhealth1-indicators"] = {
     "A quantitative health measure"
    ],
    "answer": 3,
-   "why": "Used to describe, monitor and evaluate."
+   "why": "Used to describe, monitor and evaluate.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/03.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 3
+    },
+    {
+     "src": "files/slides/pubhealth1-indicators/05.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Hospital bed density belongs to which domain?",
@@ -1967,7 +2291,14 @@ SINA.lectures["pubhealth1-indicators"] = {
     "Risk factors"
    ],
    "answer": 0,
-   "why": "Also health expenditure as % of GDP."
+   "why": "Also health expenditure as % of GDP.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/04.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Prevalence is best described as a:",
@@ -1978,7 +2309,19 @@ SINA.lectures["pubhealth1-indicators"] = {
     "Proportion"
    ],
    "answer": 3,
-   "why": "Unitless fraction of existing cases."
+   "why": "Unitless fraction of existing cases.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/03.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 3
+    },
+    {
+     "src": "files/slides/pubhealth1-indicators/10.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Incidence measures:",
@@ -1989,7 +2332,14 @@ SINA.lectures["pubhealth1-indicators"] = {
     "All existing cases"
    ],
    "answer": 1,
-   "why": "Existing cases define prevalence."
+   "why": "Existing cases define prevalence.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/13.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "9 diabetes cases occur among 3,000 people followed for 2 years. The incidence rate is:",
@@ -2000,7 +2350,19 @@ SINA.lectures["pubhealth1-indicators"] = {
     "3 per 1,000 person-years"
    ],
    "answer": 1,
-   "why": "9 / 6,000 person-years."
+   "why": "9 / 6,000 person-years.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/11.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 11
+    },
+    {
+     "src": "files/slides/pubhealth1-indicators/25.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "'Have you ever had asthma?' measures:",
@@ -2011,7 +2373,14 @@ SINA.lectures["pubhealth1-indicators"] = {
     "Point prevalence"
    ],
    "answer": 2,
-   "why": "A period prevalence."
+   "why": "A period prevalence.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/17.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "80 of 1,000 mothers say their child has diarrhoea today. This is:",
@@ -2022,7 +2391,14 @@ SINA.lectures["pubhealth1-indicators"] = {
     "Case fatality of 8%"
    ],
    "answer": 1,
-   "why": "At one moment."
+   "why": "At one moment.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/16.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Who is excluded from the denominator of incidence?",
@@ -2033,7 +2409,19 @@ SINA.lectures["pubhealth1-indicators"] = {
     "Men"
    ],
    "answer": 0,
-   "why": "They are no longer at risk."
+   "why": "They are no longer at risk.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/13.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 13
+    },
+    {
+     "src": "files/slides/pubhealth1-indicators/20.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The denominator of an incidence rate is:",
@@ -2044,7 +2432,14 @@ SINA.lectures["pubhealth1-indicators"] = {
     "Population at the start"
    ],
    "answer": 1,
-   "why": "Incidence density."
+   "why": "Incidence density.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/23.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "274 strokes over 908,447 person-years gives an incidence rate of about:",
@@ -2055,7 +2450,14 @@ SINA.lectures["pubhealth1-indicators"] = {
     "274 per 100,000"
    ],
    "answer": 0,
-   "why": "The cumulative incidence was 2.3 per 1,000."
+   "why": "The cumulative incidence was 2.3 per 1,000.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/25.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "If incidence stays constant but disease duration increases, prevalence:",
@@ -2066,7 +2468,14 @@ SINA.lectures["pubhealth1-indicators"] = {
     "Rises"
    ],
    "answer": 3,
-   "why": "Prevalence ≈ incidence × duration."
+   "why": "Prevalence ≈ incidence × duration.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/28.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Case fatality measures:",
@@ -2077,7 +2486,14 @@ SINA.lectures["pubhealth1-indicators"] = {
     "Population deaths from all causes"
    ],
    "answer": 0,
-   "why": "Deaths among cases within a time."
+   "why": "Deaths among cases within a time.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/34.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "The crude mortality rate uses as denominator:",
@@ -2088,7 +2504,19 @@ SINA.lectures["pubhealth1-indicators"] = {
     "The number of cases"
    ],
    "answer": 1,
-   "why": "All causes of death in the numerator."
+   "why": "All causes of death in the numerator.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/30.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 30
+    },
+    {
+     "src": "files/slides/pubhealth1-indicators/32.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "DALY is an example of:",
@@ -2099,7 +2527,14 @@ SINA.lectures["pubhealth1-indicators"] = {
     "A composite index"
    ],
    "answer": 3,
-   "why": "Disability-adjusted life years."
+   "why": "Disability-adjusted life years.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/07.jpg",
+     "lec": "Health indicators and measures of",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2541,7 +2976,14 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "People"
    ],
    "answer": 3,
-   "why": "Epi = upon, logy = science."
+   "why": "Epi = upon, logy = science.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/19.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which definition of epidemiology is the standard (Last, 1988)?",
@@ -2552,7 +2994,19 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "The study of individual patients' diseases"
    ],
    "answer": 2,
-   "why": "The most complete definition."
+   "why": "The most complete definition.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/21.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 21
+    },
+    {
+     "src": "files/slides/pubhealth1-epidemiology/22.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "In epidemiology, 'distribution' refers to:",
@@ -2563,7 +3017,19 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "Time, place and person"
    ],
    "answer": 3,
-   "why": "Determinants are the causes."
+   "why": "Determinants are the causes.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/22.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 22
+    },
+    {
+     "src": "files/slides/pubhealth1-epidemiology/24.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Epidemiology studies:",
@@ -2574,7 +3040,14 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "Only microbes"
    ],
    "answer": 2,
-   "why": "Specified populations."
+   "why": "Specified populations.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/25.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Who described contagion in a 14th-century plague treatise?",
@@ -2585,7 +3058,14 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "William Farr"
    ],
    "answer": 0,
-   "why": "Centuries before Pasteur."
+   "why": "Centuries before Pasteur.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/08.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "James Lind (1747) is known for:",
@@ -2596,7 +3076,19 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "Smoking studies"
    ],
    "answer": 1,
-   "why": "Lemons and limes cured scurvy."
+   "why": "Lemons and limes cured scurvy.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/09.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 9
+    },
+    {
+     "src": "files/slides/pubhealth1-epidemiology/10.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "John Graunt (1662) was the first to:",
@@ -2607,7 +3099,14 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "Discover bacteria"
    ],
    "answer": 1,
-   "why": "From London mortality bills."
+   "why": "From London mortality bills.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/11.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Who is considered the father of modern vital statistics and surveillance?",
@@ -2618,7 +3117,14 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "William Farr"
    ],
    "answer": 3,
-   "why": "Also disease classification."
+   "why": "Also disease classification.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/13.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "A disease constantly present in a population is:",
@@ -2629,7 +3135,14 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "Pandemic"
    ],
    "answer": 1,
-   "why": "Epidemic = excess over usual level."
+   "why": "Epidemic = excess over usual level.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/20.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "An epidemic spreading worldwide is a:",
@@ -2640,7 +3153,14 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "Outbreak only"
    ],
    "answer": 0,
-   "why": "E.g. COVID-19."
+   "why": "E.g. COVID-19.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/20.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Descriptive epidemiology mainly:",
@@ -2651,7 +3171,14 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "Tests hypotheses"
    ],
    "answer": 0,
-   "why": "Analytical studies test them."
+   "why": "Analytical studies test them.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/31.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Case-control and cohort studies are:",
@@ -2662,7 +3189,14 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "Analytical observational"
    ],
    "answer": 3,
-   "why": "They identify risk factors."
+   "why": "They identify risk factors.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/34.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Randomly assigning participants to a drug or placebo defines a:",
@@ -2673,7 +3207,14 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "Randomised controlled trial"
    ],
    "answer": 3,
-   "why": "Experimental design."
+   "why": "Experimental design.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/35.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "At the top of the evidence pyramid are:",
@@ -2684,7 +3225,14 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "Expert opinion"
    ],
    "answer": 0,
-   "why": "Opinion and in vitro research are at the base."
+   "why": "Opinion and in vitro research are at the base.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/36.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3166,7 +3714,19 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Quantitative discrete variable"
    ],
    "answer": 0,
-   "why": "No natural order."
+   "why": "No natural order.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/03.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 3
+    },
+    {
+     "src": "files/slides/pubhealth1-biostat/34.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Pain rated mild/moderate/severe is:",
@@ -3177,7 +3737,14 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Nominal"
    ],
    "answer": 1,
-   "why": "Ordered categories."
+   "why": "Ordered categories.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/03.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Number of children is:",
@@ -3188,7 +3755,14 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Qualitative nominal"
    ],
    "answer": 1,
-   "why": "Integers only."
+   "why": "Integers only.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/03.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Blood pressure is a:",
@@ -3199,7 +3773,14 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Discrete variable"
    ],
    "answer": 2,
-   "why": "Any real value."
+   "why": "Any real value.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/03.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which design compares people with and without a disease?",
@@ -3210,7 +3791,14 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Cohort"
    ],
    "answer": 2,
-   "why": "Cases vs controls."
+   "why": "Cases vs controls.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/04.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "A cross-sectional study:",
@@ -3221,7 +3809,14 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Collects data at one point in time"
    ],
    "answer": 3,
-   "why": "A snapshot."
+   "why": "A snapshot.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/03.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "In a normal distribution:",
@@ -3232,7 +3827,19 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Mode is zero"
    ],
    "answer": 0,
-   "why": "Symmetric bell curve."
+   "why": "Symmetric bell curve.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/08.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 8
+    },
+    {
+     "src": "files/slides/pubhealth1-biostat/09.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which test checks whether data are normally distributed?",
@@ -3243,7 +3850,19 @@ SINA.lectures["pubhealth1-biostat"] = {
     "t-test"
    ],
    "answer": 0,
-   "why": "H₀: data are normal."
+   "why": "H₀: data are normal.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/04.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 4
+    },
+    {
+     "src": "files/slides/pubhealth1-biostat/16.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Shapiro-Wilk gives p = 0.001. The data are:",
@@ -3254,7 +3873,14 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Not normal"
    ],
    "answer": 3,
-   "why": "p ≤ 0.05 rejects normality."
+   "why": "p ≤ 0.05 rejects normality.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/10.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The best graph for a continuous variable's distribution is:",
@@ -3265,7 +3891,19 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Histogram"
    ],
    "answer": 3,
-   "why": "Box plots compare groups."
+   "why": "Box plots compare groups.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/10.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 10
+    },
+    {
+     "src": "files/slides/pubhealth1-biostat/18.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Association between two categorical variables is tested with:",
@@ -3276,7 +3914,14 @@ SINA.lectures["pubhealth1-biostat"] = {
     "t-test"
    ],
    "answer": 1,
-   "why": "Fisher's exact test if the sample is small."
+   "why": "Fisher's exact test if the sample is small.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/05.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Comparing mean BMI between two groups with normal data uses:",
@@ -3287,7 +3932,14 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Chi-square"
    ],
    "answer": 1,
-   "why": "Mann-Whitney if not normal."
+   "why": "Mann-Whitney if not normal.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/05.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Correlation between two non-normal quantitative variables uses:",
@@ -3298,7 +3950,14 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Spearman"
    ],
    "answer": 3,
-   "why": "Pearson if normal."
+   "why": "Pearson if normal.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/05.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Range equals:",
@@ -3309,7 +3968,14 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Standard deviation × 2"
    ],
    "answer": 0,
-   "why": "A measure of dispersion."
+   "why": "A measure of dispersion.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/09.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "A common data-cleaning step is:",
@@ -3320,7 +3986,19 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Checking for missing values"
    ],
    "answer": 3,
-   "why": "Also duplicates, inconsistencies, coding errors."
+   "why": "Also duplicates, inconsistencies, coding errors.",
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/06.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 6
+    },
+    {
+     "src": "files/slides/pubhealth1-biostat/39.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

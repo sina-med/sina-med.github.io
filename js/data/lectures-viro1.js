@@ -230,7 +230,14 @@ SINA.lectures["viro1-intro"] = {
     "Influenza"
    ],
    "answer": 1,
-   "why": "Landsteiner and Popper, 1909."
+   "why": "Landsteiner and Popper, 1909.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-intro/04.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Ivanowski showed that the tobacco mosaic agent:",
@@ -241,7 +248,14 @@ SINA.lectures["viro1-intro"] = {
     "Was visible by light microscopy"
    ],
    "answer": 1,
-   "why": "Filterable."
+   "why": "Filterable.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-intro/04.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Viruses are obligate intracellular parasites because they lack:",
@@ -252,7 +266,14 @@ SINA.lectures["viro1-intro"] = {
     "Receptor-binding proteins"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-intro/07.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which statement is true of all viruses?",
@@ -263,7 +284,19 @@ SINA.lectures["viro1-intro"] = {
     "They divide by binary fission"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-intro/11.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 11
+    },
+    {
+     "src": "files/slides/viro1-intro/20.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The capsid is made of:",
@@ -274,7 +307,14 @@ SINA.lectures["viro1-intro"] = {
     "Host ribosomes"
    ],
    "answer": 1,
-   "why": "Protein subunits."
+   "why": "Protein subunits.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-intro/11.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which is a naked (non-enveloped) virus?",
@@ -285,7 +325,19 @@ SINA.lectures["viro1-intro"] = {
     "Influenza"
    ],
    "answer": 1,
-   "why": "Picornavirus family."
+   "why": "Picornavirus family.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-intro/17.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 17
+    },
+    {
+     "src": "files/slides/viro1-intro/18.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Retroviruses belong to Baltimore class:",
@@ -296,7 +348,14 @@ SINA.lectures["viro1-intro"] = {
     "VII"
    ],
    "answer": 2,
-   "why": "RNA with reverse transcription."
+   "why": "RNA with reverse transcription.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-intro/20.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Hepatitis B virus belongs to Baltimore class:",
@@ -307,7 +366,14 @@ SINA.lectures["viro1-intro"] = {
     "VII"
    ],
    "answer": 3,
-   "why": "DNA with reverse transcription."
+   "why": "DNA with reverse transcription.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-intro/20.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "A cell that allows complete viral replication is called:",
@@ -318,7 +384,14 @@ SINA.lectures["viro1-intro"] = {
     "Resistant"
    ],
    "answer": 1,
-   "why": "Susceptibility = receptor."
+   "why": "Susceptibility = receptor.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-intro/24.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Hepatitis D virus needs co-infection with:",
@@ -329,7 +402,14 @@ SINA.lectures["viro1-intro"] = {
     "HEV"
    ],
    "answer": 1,
-   "why": "Satellite virus."
+   "why": "Satellite virus.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-intro/30.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "RNA viruses exist as quasispecies because:",
@@ -340,7 +420,14 @@ SINA.lectures["viro1-intro"] = {
     "They depend on helper viruses"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-intro/29.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which virus is associated with Kaposi sarcoma?",
@@ -351,7 +438,14 @@ SINA.lectures["viro1-intro"] = {
     "HTLV-1"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-intro/34.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "The HPV vaccine is made of:",
@@ -362,7 +456,14 @@ SINA.lectures["viro1-intro"] = {
     "Toxoid"
    ],
    "answer": 1,
-   "why": "VLPs."
+   "why": "VLPs.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-intro/35.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Emerging viral diseases are most often:",
@@ -373,7 +474,14 @@ SINA.lectures["viro1-intro"] = {
     "Prion diseases"
    ],
    "answer": 0,
-   "why": "Animal reservoir."
+   "why": "Animal reservoir.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-intro/32.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Viroids infect:",
@@ -384,7 +492,14 @@ SINA.lectures["viro1-intro"] = {
     "Only insects"
    ],
    "answer": 1,
-   "why": "Circular ssRNA."
+   "why": "Circular ssRNA.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-intro/30.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which nucleic acid combination can a virion contain?",
@@ -395,7 +510,19 @@ SINA.lectures["viro1-intro"] = {
     "Only DNA"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-intro/10.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 10
+    },
+    {
+     "src": "files/slides/viro1-intro/11.jpg",
+     "lec": "Introduction to medical virology",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -819,7 +946,14 @@ SINA.lectures["viro1-diagnosis"] = {
     "Gram stain"
    ],
    "answer": 1,
-   "why": "With cytopathic effect."
+   "why": "With cytopathic effect.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-diagnosis/15.jpg",
+     "lec": "Laboratory diagnosis of viral infections",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "If a specimen cannot be processed the same day, it should be kept:",
@@ -830,7 +964,14 @@ SINA.lectures["viro1-diagnosis"] = {
     "At 37 °C"
    ],
    "answer": 1,
-   "why": "Freezing damages envelopes."
+   "why": "Freezing damages envelopes.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-diagnosis/10.jpg",
+     "lec": "Laboratory diagnosis of viral infections",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "A cytopathic effect is:",
@@ -841,7 +982,14 @@ SINA.lectures["viro1-diagnosis"] = {
     "A rash caused by the virus"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-diagnosis/15.jpg",
+     "lec": "Laboratory diagnosis of viral infections",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "In real-time PCR, a low Ct value means:",
@@ -852,7 +1000,14 @@ SINA.lectures["viro1-diagnosis"] = {
     "A negative test"
    ],
    "answer": 1,
-   "why": "Inverse relationship."
+   "why": "Inverse relationship.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-diagnosis/35.jpg",
+     "lec": "Laboratory diagnosis of viral infections",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Which is detected as a circulating antigen by ELISA?",
@@ -863,7 +1018,14 @@ SINA.lectures["viro1-diagnosis"] = {
     "CD4 count"
    ],
    "answer": 1,
-   "why": "Also HIV p24."
+   "why": "Also HIV p24.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-diagnosis/28.jpg",
+     "lec": "Laboratory diagnosis of viral infections",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "IgM antibodies indicate:",
@@ -874,7 +1036,14 @@ SINA.lectures["viro1-diagnosis"] = {
     "Immunodeficiency"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-diagnosis/44.jpg",
+     "lec": "Laboratory diagnosis of viral infections",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "The three steps of a PCR cycle are:",
@@ -885,7 +1054,14 @@ SINA.lectures["viro1-diagnosis"] = {
     "Binding, washing, reading"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-diagnosis/33.jpg",
+     "lec": "Laboratory diagnosis of viral infections",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "To detect an RNA virus by PCR you first need:",
@@ -896,7 +1072,19 @@ SINA.lectures["viro1-diagnosis"] = {
     "Electron microscopy"
    ],
    "answer": 0,
-   "why": "RT-PCR."
+   "why": "RT-PCR.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-diagnosis/05.jpg",
+     "lec": "Laboratory diagnosis of viral infections",
+     "n": 5
+    },
+    {
+     "src": "files/slides/viro1-diagnosis/17.jpg",
+     "lec": "Laboratory diagnosis of viral infections",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Electron microscopy requires at least:",
@@ -907,7 +1095,14 @@ SINA.lectures["viro1-diagnosis"] = {
     "A single virion"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-diagnosis/18.jpg",
+     "lec": "Laboratory diagnosis of viral infections",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "An advantage of antigen detection over culture is:",
@@ -918,7 +1113,19 @@ SINA.lectures["viro1-diagnosis"] = {
     "It detects antibodies"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-diagnosis/17.jpg",
+     "lec": "Laboratory diagnosis of viral infections",
+     "n": 17
+    },
+    {
+     "src": "files/slides/viro1-diagnosis/20.jpg",
+     "lec": "Laboratory diagnosis of viral infections",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Viral genome sequencing is clinically used to:",
@@ -929,7 +1136,14 @@ SINA.lectures["viro1-diagnosis"] = {
     "Detect CPE"
    ],
    "answer": 0,
-   "why": "Also genotyping."
+   "why": "Also genotyping.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-diagnosis/43.jpg",
+     "lec": "Laboratory diagnosis of viral infections",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Molecular labs use one-way workflow to prevent:",
@@ -940,7 +1154,14 @@ SINA.lectures["viro1-diagnosis"] = {
     "Degradation of the antibodies"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-diagnosis/30.jpg",
+     "lec": "Laboratory diagnosis of viral infections",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "A significant rise in IgG between two samples indicates:",
@@ -951,7 +1172,14 @@ SINA.lectures["viro1-diagnosis"] = {
     "Lab error"
    ],
    "answer": 1,
-   "why": "Paired sera."
+   "why": "Paired sera.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-diagnosis/44.jpg",
+     "lec": "Laboratory diagnosis of viral infections",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1367,7 +1595,19 @@ SINA.lectures["viro1-orthomyxo-paramyxo"] = {
     "Circular DNA"
    ],
    "answer": 2,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/08.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 8
+    },
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/15.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Influenza A subtypes are defined by:",
@@ -1378,7 +1618,14 @@ SINA.lectures["viro1-orthomyxo-paramyxo"] = {
     "The polymerase"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/17.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Annual influenza epidemics are due to:",
@@ -1389,7 +1636,14 @@ SINA.lectures["viro1-orthomyxo-paramyxo"] = {
     "Latency"
    ],
    "answer": 1,
-   "why": "Point mutations."
+   "why": "Point mutations.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/20.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Influenza pandemics are caused by:",
@@ -1400,7 +1654,14 @@ SINA.lectures["viro1-orthomyxo-paramyxo"] = {
     "Vaccine failure"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/20.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The 1918 Spanish flu was caused by:",
@@ -1411,7 +1672,14 @@ SINA.lectures["viro1-orthomyxo-paramyxo"] = {
     "H5N1"
    ],
    "answer": 2,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/13.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Oseltamivir inhibits:",
@@ -1422,7 +1690,14 @@ SINA.lectures["viro1-orthomyxo-paramyxo"] = {
     "RNA polymerase"
    ],
    "answer": 1,
-   "why": "Blocks release."
+   "why": "Blocks release.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/29.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Aspirin is contraindicated in children with influenza because of:",
@@ -1433,7 +1708,14 @@ SINA.lectures["viro1-orthomyxo-paramyxo"] = {
     "SSPE"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/29.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "The incubation period of influenza is about:",
@@ -1444,7 +1726,19 @@ SINA.lectures["viro1-orthomyxo-paramyxo"] = {
     "6 months"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/23.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 23
+    },
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/52.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "The main cause of influenza deaths is:",
@@ -1455,7 +1749,14 @@ SINA.lectures["viro1-orthomyxo-paramyxo"] = {
     "Renal failure"
    ],
    "answer": 1,
-   "why": "Viral or bacterial."
+   "why": "Viral or bacterial.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/23.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Koplik spots are pathognomonic of:",
@@ -1466,7 +1767,14 @@ SINA.lectures["viro1-orthomyxo-paramyxo"] = {
     "Scarlet fever"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/40.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "A late, rare complication of measles is:",
@@ -1477,7 +1785,14 @@ SINA.lectures["viro1-orthomyxo-paramyxo"] = {
     "Laryngotracheobronchitis"
    ],
    "answer": 1,
-   "why": "Years later."
+   "why": "Years later.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/42.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "The measles vaccine is:",
@@ -1488,7 +1803,19 @@ SINA.lectures["viro1-orthomyxo-paramyxo"] = {
     "Toxoid"
    ],
    "answer": 1,
-   "why": "MMR."
+   "why": "MMR.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/31.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 31
+    },
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/48.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "RSV typically causes in infants:",
@@ -1499,7 +1826,14 @@ SINA.lectures["viro1-orthomyxo-paramyxo"] = {
     "Otitis only"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/57.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 57
+    }
+   ]
   },
   {
    "q": "The rapid method of choice for RSV in the lecture is:",
@@ -1510,7 +1844,19 @@ SINA.lectures["viro1-orthomyxo-paramyxo"] = {
     "Electron microscopy"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/53.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 53
+    },
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/58.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "Parainfluenza types 1 and 2 are classically associated with:",
@@ -1521,7 +1867,14 @@ SINA.lectures["viro1-orthomyxo-paramyxo"] = {
     "Parotitis"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/37.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Paramyxoviruses characteristically form:",
@@ -1532,7 +1885,19 @@ SINA.lectures["viro1-orthomyxo-paramyxo"] = {
     "Biofilms"
    ],
    "answer": 1,
-   "why": "Giant cells."
+   "why": "Giant cells.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/35.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 35
+    },
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/46.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "Measles can in principle be eradicated because:",
@@ -1543,7 +1908,14 @@ SINA.lectures["viro1-orthomyxo-paramyxo"] = {
     "It has no vaccine"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-orthomyxo-paramyxo/48.jpg",
+     "lec": "Influenza, measles, RSV and",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Vitamin A is given in measles to:",
@@ -2009,7 +2381,14 @@ SINA.lectures["viro1-hepatitis"] = {
     "HEV"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hepatitis/13.jpg",
+     "lec": "Viral hepatitis",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which hepatitis viruses are transmitted mainly faeco-orally?",
@@ -2031,7 +2410,14 @@ SINA.lectures["viro1-hepatitis"] = {
     "HBsAg"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hepatitis/19.jpg",
+     "lec": "Viral hepatitis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Hepatitis A:",
@@ -2053,7 +2439,14 @@ SINA.lectures["viro1-hepatitis"] = {
     "Vaccinated adults"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hepatitis/41.jpg",
+     "lec": "Viral hepatitis",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "The marker of chronic hepatitis B is HBsAg persisting beyond:",
@@ -2064,7 +2457,14 @@ SINA.lectures["viro1-hepatitis"] = {
     "5 years"
    ],
    "answer": 2,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hepatitis/42.jpg",
+     "lec": "Viral hepatitis",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "After HBV vaccination alone, the only positive marker is:",
@@ -2075,7 +2475,14 @@ SINA.lectures["viro1-hepatitis"] = {
     "HBeAg"
    ],
    "answer": 2,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hepatitis/42.jpg",
+     "lec": "Viral hepatitis",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "The marker of acute hepatitis B is:",
@@ -2086,7 +2493,14 @@ SINA.lectures["viro1-hepatitis"] = {
     "Anti-HBe"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hepatitis/42.jpg",
+     "lec": "Viral hepatitis",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "HBeAg indicates:",
@@ -2097,7 +2511,14 @@ SINA.lectures["viro1-hepatitis"] = {
     "Resolved past infection"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hepatitis/42.jpg",
+     "lec": "Viral hepatitis",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Chronic HBV is most likely after infection at:",
@@ -2108,7 +2529,19 @@ SINA.lectures["viro1-hepatitis"] = {
     "Age 70"
    ],
    "answer": 0,
-   "why": "80-95%."
+   "why": "80-95%.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hepatitis/38.jpg",
+     "lec": "Viral hepatitis",
+     "n": 38
+    },
+    {
+     "src": "files/slides/viro1-hepatitis/57.jpg",
+     "lec": "Viral hepatitis",
+     "n": 57
+    }
+   ]
   },
   {
    "q": "HBV replicates through:",
@@ -2130,7 +2563,19 @@ SINA.lectures["viro1-hepatitis"] = {
     "HEV capsid"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hepatitis/42.jpg",
+     "lec": "Viral hepatitis",
+     "n": 42
+    },
+    {
+     "src": "files/slides/viro1-hepatitis/46.jpg",
+     "lec": "Viral hepatitis",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "HDV superinfection of a chronic HBV carrier usually leads to:",
@@ -2141,7 +2586,14 @@ SINA.lectures["viro1-hepatitis"] = {
     "Immunity"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hepatitis/52.jpg",
+     "lec": "Viral hepatitis",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "HCV belongs to the family:",
@@ -2152,7 +2604,14 @@ SINA.lectures["viro1-hepatitis"] = {
     "Hepeviridae"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hepatitis/57.jpg",
+     "lec": "Viral hepatitis",
+     "n": 57
+    }
+   ]
   },
   {
    "q": "A positive anti-HCV with undetectable HCV RNA means:",
@@ -2163,7 +2622,14 @@ SINA.lectures["viro1-hepatitis"] = {
     "Protection from vaccination"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hepatitis/67.jpg",
+     "lec": "Viral hepatitis",
+     "n": 67
+    }
+   ]
   },
   {
    "q": "Current HCV treatment with direct-acting antivirals cures about:",
@@ -2174,7 +2640,19 @@ SINA.lectures["viro1-hepatitis"] = {
     "> 95%"
    ],
    "answer": 3,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hepatitis/57.jpg",
+     "lec": "Viral hepatitis",
+     "n": 57
+    },
+    {
+     "src": "files/slides/viro1-hepatitis/68.jpg",
+     "lec": "Viral hepatitis",
+     "n": 68
+    }
+   ]
   },
   {
    "q": "Which hepatitis virus has no vaccine?",
@@ -2185,7 +2663,14 @@ SINA.lectures["viro1-hepatitis"] = {
     "HEV (China)"
    ],
    "answer": 2,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hepatitis/60.jpg",
+     "lec": "Viral hepatitis",
+     "n": 60
+    }
+   ]
   },
   {
    "q": "HBV and HCV are major causes of:",
@@ -2196,7 +2681,14 @@ SINA.lectures["viro1-hepatitis"] = {
     "Gastric cancer"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hepatitis/34.jpg",
+     "lec": "Viral hepatitis",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2670,7 +3162,19 @@ SINA.lectures["viro1-retroviruses"] = {
     "DNA helicase"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-retroviruses/05.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 5
+    },
+    {
+     "src": "files/slides/viro1-retroviruses/13.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The retrovirus genome consists of:",
@@ -2681,7 +3185,14 @@ SINA.lectures["viro1-retroviruses"] = {
     "Segmented dsRNA"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-retroviruses/05.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "HIV binds to CD4 through:",
@@ -2692,7 +3203,14 @@ SINA.lectures["viro1-retroviruses"] = {
     "Integrase"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-retroviruses/13.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Besides CD4, HIV requires the co-receptor:",
@@ -2703,7 +3221,19 @@ SINA.lectures["viro1-retroviruses"] = {
     "TLR4"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-retroviruses/05.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 5
+    },
+    {
+     "src": "files/slides/viro1-retroviruses/18.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "p24 is a product of the gene:",
@@ -2714,7 +3244,14 @@ SINA.lectures["viro1-retroviruses"] = {
     "nef"
    ],
    "answer": 1,
-   "why": "Capsid."
+   "why": "Capsid.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-retroviruses/13.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Integrase is encoded by:",
@@ -2725,7 +3262,14 @@ SINA.lectures["viro1-retroviruses"] = {
     "tat"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-retroviruses/13.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "HIV-1 group M originated from SIV of:",
@@ -2736,7 +3280,14 @@ SINA.lectures["viro1-retroviruses"] = {
     "Gorillas only"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-retroviruses/10.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "HIV-2 is:",
@@ -2747,7 +3298,19 @@ SINA.lectures["viro1-retroviruses"] = {
     "A DNA virus, not a retrovirus"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-retroviruses/11.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 11
+    },
+    {
+     "src": "files/slides/viro1-retroviruses/15.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The average time from infection to AIDS without treatment is:",
@@ -2758,7 +3321,14 @@ SINA.lectures["viro1-retroviruses"] = {
     "6 months"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-retroviruses/21.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "AIDS is typically defined by CD4 counts below:",
@@ -2769,7 +3339,14 @@ SINA.lectures["viro1-retroviruses"] = {
     "50/mm³ only"
    ],
    "answer": 2,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-retroviruses/22.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "HIV infection in a newborn of an infected mother is diagnosed by:",
@@ -2780,7 +3357,14 @@ SINA.lectures["viro1-retroviruses"] = {
     "Rapid antibody test"
    ],
    "answer": 1,
-   "why": "Maternal IgG crosses the placenta."
+   "why": "Maternal IgG crosses the placenta.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-retroviruses/28.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "HIV viral load is measured by:",
@@ -2791,7 +3375,14 @@ SINA.lectures["viro1-retroviruses"] = {
     "Culture"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-retroviruses/29.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Antiretroviral therapy should be started:",
@@ -2802,7 +3393,14 @@ SINA.lectures["viro1-retroviruses"] = {
     "Never in pregnancy"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-retroviruses/30.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "PrEP stands for:",
@@ -2813,7 +3411,14 @@ SINA.lectures["viro1-retroviruses"] = {
     "Primary infection"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-retroviruses/32.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "HTLV-1 causes:",
@@ -2824,7 +3429,14 @@ SINA.lectures["viro1-retroviruses"] = {
     "Hodgkin lymphoma"
    ],
    "answer": 1,
-   "why": "And HAM/TSP."
+   "why": "And HAM/TSP.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-retroviruses/38.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "HTLV-1 is notably transmitted by:",
@@ -2835,7 +3447,14 @@ SINA.lectures["viro1-retroviruses"] = {
     "Respiratory droplets"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-retroviruses/38.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "During the asymptomatic phase of HIV infection, viral replication is:",
@@ -2846,7 +3465,14 @@ SINA.lectures["viro1-retroviruses"] = {
     "Only in the gut"
    ],
    "answer": 1,
-   "why": "Clinically latent, biologically active."
+   "why": "Clinically latent, biologically active.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-retroviruses/22.jpg",
+     "lec": "Retroviruses: HIV and HTLV",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3293,7 +3919,19 @@ SINA.lectures["viro1-herpesviruses"] = {
     "No envelope"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-herpesviruses/10.jpg",
+     "lec": "Herpesviruses",
+     "n": 10
+    },
+    {
+     "src": "files/slides/viro1-herpesviruses/19.jpg",
+     "lec": "Herpesviruses",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "HSV-1 becomes latent after oral infection in the:",
@@ -3304,7 +3942,19 @@ SINA.lectures["viro1-herpesviruses"] = {
     "Lymph nodes"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-herpesviruses/09.jpg",
+     "lec": "Herpesviruses",
+     "n": 9
+    },
+    {
+     "src": "files/slides/viro1-herpesviruses/10.jpg",
+     "lec": "Herpesviruses",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "During latency, herpes DNA is:",
@@ -3315,7 +3965,14 @@ SINA.lectures["viro1-herpesviruses"] = {
     "Absent"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-herpesviruses/12.jpg",
+     "lec": "Herpesviruses",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Antivirals cannot eradicate latent herpes because:",
@@ -3326,7 +3983,14 @@ SINA.lectures["viro1-herpesviruses"] = {
     "The drugs are too weak"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-herpesviruses/11.jpg",
+     "lec": "Herpesviruses",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The first cause of viral encephalitis is:",
@@ -3337,7 +4001,14 @@ SINA.lectures["viro1-herpesviruses"] = {
     "Rabies"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-herpesviruses/16.jpg",
+     "lec": "Herpesviruses",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "HSV encephalitis typically involves the:",
@@ -3348,7 +4019,14 @@ SINA.lectures["viro1-herpesviruses"] = {
     "Spinal cord"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-herpesviruses/15.jpg",
+     "lec": "Herpesviruses",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Neonatal herpes is usually acquired:",
@@ -3359,7 +4037,14 @@ SINA.lectures["viro1-herpesviruses"] = {
     "Through blood transfusion"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-herpesviruses/16.jpg",
+     "lec": "Herpesviruses",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Shingles is caused by reactivation of:",
@@ -3370,7 +4055,14 @@ SINA.lectures["viro1-herpesviruses"] = {
     "EBV"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-herpesviruses/19.jpg",
+     "lec": "Herpesviruses",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Infectious mononucleosis is caused by:",
@@ -3381,7 +4073,14 @@ SINA.lectures["viro1-herpesviruses"] = {
     "HSV-2"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-herpesviruses/20.jpg",
+     "lec": "Herpesviruses",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "EBV is associated with:",
@@ -3392,7 +4091,14 @@ SINA.lectures["viro1-herpesviruses"] = {
     "Adult T-cell leukaemia"
    ],
    "answer": 1,
-   "why": "And nasopharyngeal carcinoma."
+   "why": "And nasopharyngeal carcinoma.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-herpesviruses/22.jpg",
+     "lec": "Herpesviruses",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "The drug of choice for CMV is:",
@@ -3403,7 +4109,14 @@ SINA.lectures["viro1-herpesviruses"] = {
     "Zidovudine"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-herpesviruses/25.jpg",
+     "lec": "Herpesviruses",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The varicella vaccine is:",
@@ -3414,7 +4127,19 @@ SINA.lectures["viro1-herpesviruses"] = {
     "Toxoid"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-herpesviruses/26.jpg",
+     "lec": "Herpesviruses",
+     "n": 26
+    },
+    {
+     "src": "files/slides/viro1-herpesviruses/27.jpg",
+     "lec": "Herpesviruses",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Shingrix is a:",
@@ -3425,7 +4150,14 @@ SINA.lectures["viro1-herpesviruses"] = {
     "Toxoid"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-herpesviruses/28.jpg",
+     "lec": "Herpesviruses",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The preferred diagnostic method for herpes lesions is:",
@@ -3436,7 +4168,14 @@ SINA.lectures["viro1-herpesviruses"] = {
     "Tzanck smear only"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-herpesviruses/24.jpg",
+     "lec": "Herpesviruses",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "CMV latency is mainly in:",
@@ -3447,7 +4186,14 @@ SINA.lectures["viro1-herpesviruses"] = {
     "Osteocytes in bone"
    ],
    "answer": 1,
-   "why": "β-herpesvirus."
+   "why": "β-herpesvirus.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-herpesviruses/12.jpg",
+     "lec": "Herpesviruses",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3873,7 +4619,14 @@ SINA.lectures["viro1-hpv"] = {
     "Retrovirus"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hpv/32.jpg",
+     "lec": "Human papillomavirus (HPV)",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "The HPV types causing most cervical cancers are:",
@@ -3884,7 +4637,14 @@ SINA.lectures["viro1-hpv"] = {
     "31 only"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hpv/45.jpg",
+     "lec": "Human papillomavirus (HPV)",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Genital warts are mainly due to types:",
@@ -3895,7 +4655,14 @@ SINA.lectures["viro1-hpv"] = {
     "45 and 52"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hpv/45.jpg",
+     "lec": "Human papillomavirus (HPV)",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "The cell typical of HPV infection on cytology is the:",
@@ -3917,7 +4684,14 @@ SINA.lectures["viro1-hpv"] = {
     "Skin cancer"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hpv/31.jpg",
+     "lec": "Human papillomavirus (HPV)",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "HPV vaccines are made of:",
@@ -3928,7 +4702,19 @@ SINA.lectures["viro1-hpv"] = {
     "DNA plasmids"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hpv/28.jpg",
+     "lec": "Human papillomavirus (HPV)",
+     "n": 28
+    },
+    {
+     "src": "files/slides/viro1-hpv/45.jpg",
+     "lec": "Human papillomavirus (HPV)",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "The nonavalent vaccine includes:",
@@ -3939,7 +4725,14 @@ SINA.lectures["viro1-hpv"] = {
     "All 200 known genotypes of HPV"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hpv/45.jpg",
+     "lec": "Human papillomavirus (HPV)",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Progression from HPV infection to invasive cancer usually takes:",
@@ -3950,7 +4743,14 @@ SINA.lectures["viro1-hpv"] = {
     "A lifetime always"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hpv/42.jpg",
+     "lec": "Human papillomavirus (HPV)",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Mother-to-child HPV transmission can cause:",
@@ -3961,7 +4761,14 @@ SINA.lectures["viro1-hpv"] = {
     "Cataract"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hpv/38.jpg",
+     "lec": "Human papillomavirus (HPV)",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "The screening test that examines cervical cells is:",
@@ -3972,7 +4779,14 @@ SINA.lectures["viro1-hpv"] = {
     "Culture"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hpv/43.jpg",
+     "lec": "Human papillomavirus (HPV)",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "About what share of CIN 1 lesions regress?",
@@ -3983,7 +4797,14 @@ SINA.lectures["viro1-hpv"] = {
     "None"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hpv/42.jpg",
+     "lec": "Human papillomavirus (HPV)",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "After HPV vaccination, cervical screening:",
@@ -3994,7 +4815,14 @@ SINA.lectures["viro1-hpv"] = {
     "Is replaced by serology"
    ],
    "answer": 1,
-   "why": "Vaccines do not cover all types."
+   "why": "Vaccines do not cover all types.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-hpv/45.jpg",
+     "lec": "Human papillomavirus (HPV)",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4428,7 +5256,14 @@ SINA.lectures["viro1-rabies"] = {
     "Picornaviridae"
    ],
    "answer": 1,
-   "why": "Genus Lyssavirus."
+   "why": "Genus Lyssavirus.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-rabies/03.jpg",
+     "lec": "Rabies",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The rabies virion is:",
@@ -4439,7 +5274,14 @@ SINA.lectures["viro1-rabies"] = {
     "Brick-shaped"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-rabies/05.jpg",
+     "lec": "Rabies",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The main source of human rabies worldwide is:",
@@ -4450,7 +5292,14 @@ SINA.lectures["viro1-rabies"] = {
     "Monkeys"
    ],
    "answer": 1,
-   "why": "~99%."
+   "why": "~99%.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-rabies/08.jpg",
+     "lec": "Rabies",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The usual incubation period of rabies is:",
@@ -4461,7 +5310,14 @@ SINA.lectures["viro1-rabies"] = {
     "24 hours"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-rabies/10.jpg",
+     "lec": "Rabies",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "An early symptom of rabies is:",
@@ -4472,7 +5328,14 @@ SINA.lectures["viro1-rabies"] = {
     "Profuse watery diarrhoea"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-rabies/10.jpg",
+     "lec": "Rabies",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Hydrophobia is characteristic of:",
@@ -4483,7 +5346,14 @@ SINA.lectures["viro1-rabies"] = {
     "Botulism"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-rabies/11.jpg",
+     "lec": "Rabies",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The first step of post-exposure prophylaxis is:",
@@ -4494,7 +5364,19 @@ SINA.lectures["viro1-rabies"] = {
     "Waiting for symptoms"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-rabies/16.jpg",
+     "lec": "Rabies",
+     "n": 16
+    },
+    {
+     "src": "files/slides/viro1-rabies/19.jpg",
+     "lec": "Rabies",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "A transdermal dog bite is WHO category:",
@@ -4505,7 +5387,14 @@ SINA.lectures["viro1-rabies"] = {
     "IV"
    ],
    "answer": 2,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-rabies/19.jpg",
+     "lec": "Rabies",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Category III exposure requires:",
@@ -4516,7 +5405,14 @@ SINA.lectures["viro1-rabies"] = {
     "Oral antiviral therapy"
    ],
    "answer": 2,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-rabies/19.jpg",
+     "lec": "Rabies",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The Essen schedule gives vaccine on days:",
@@ -4527,7 +5423,14 @@ SINA.lectures["viro1-rabies"] = {
     "0 only"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-rabies/18.jpg",
+     "lec": "Rabies",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Licking of intact skin by a suspect animal requires:",
@@ -4538,7 +5441,14 @@ SINA.lectures["viro1-rabies"] = {
     "Hospital admission"
    ],
    "answer": 2,
-   "why": "Category I."
+   "why": "Category I.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-rabies/19.jpg",
+     "lec": "Rabies",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Pasteur's first rabies vaccine was given in 1885 to:",
@@ -4549,7 +5459,14 @@ SINA.lectures["viro1-rabies"] = {
     "Sarah Nelms"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-rabies/03.jpg",
+     "lec": "Rabies",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "In the Americas, most human rabies deaths are now due to:",
@@ -4560,7 +5477,14 @@ SINA.lectures["viro1-rabies"] = {
     "Rodents"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-rabies/12.jpg",
+     "lec": "Rabies",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Rabies can be diagnosed ante-mortem from:",
@@ -4571,7 +5495,14 @@ SINA.lectures["viro1-rabies"] = {
     "Urine dipstick"
    ],
    "answer": 0,
-   "why": "Antigen or RNA."
+   "why": "Antigen or RNA.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-rabies/13.jpg",
+     "lec": "Rabies",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4999,7 +5930,14 @@ SINA.lectures["viro1-gastroenteritis"] = {
     "Sapovirus"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-gastroenteritis/13.jpg",
+     "lec": "Viral gastroenteritis",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The leading cause of gastroenteritis outbreaks at all ages is:",
@@ -5010,7 +5948,14 @@ SINA.lectures["viro1-gastroenteritis"] = {
     "Hepatitis A"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-gastroenteritis/13.jpg",
+     "lec": "Viral gastroenteritis",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The rotavirus genome is:",
@@ -5021,7 +5966,14 @@ SINA.lectures["viro1-gastroenteritis"] = {
     "(−)ssRNA"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-gastroenteritis/11.jpg",
+     "lec": "Viral gastroenteritis",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Rotavirus belongs to:",
@@ -5054,7 +6006,14 @@ SINA.lectures["viro1-gastroenteritis"] = {
     "6 and 11"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-gastroenteritis/07.jpg",
+     "lec": "Viral gastroenteritis",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Rotavirus neutralising antibodies target:",
@@ -5065,7 +6024,14 @@ SINA.lectures["viro1-gastroenteritis"] = {
     "Capsid lipid"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-gastroenteritis/11.jpg",
+     "lec": "Viral gastroenteritis",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which disinfectant is effective against norovirus?",
@@ -5076,7 +6042,14 @@ SINA.lectures["viro1-gastroenteritis"] = {
     "Bacteriostatic soap"
    ],
    "answer": 2,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-gastroenteritis/17.jpg",
+     "lec": "Viral gastroenteritis",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The main treatment of viral gastroenteritis is:",
@@ -5087,7 +6060,14 @@ SINA.lectures["viro1-gastroenteritis"] = {
     "Steroids"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-gastroenteritis/25.jpg",
+     "lec": "Viral gastroenteritis",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Rotavirus vaccines are given:",
@@ -5109,7 +6089,14 @@ SINA.lectures["viro1-gastroenteritis"] = {
     "Faecal viral load"
    ],
    "answer": 1,
-   "why": "20 points."
+   "why": "20 points.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-gastroenteritis/12.jpg",
+     "lec": "Viral gastroenteritis",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The dominant norovirus genotype is:",
@@ -5120,7 +6107,19 @@ SINA.lectures["viro1-gastroenteritis"] = {
     "GV"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-gastroenteritis/07.jpg",
+     "lec": "Viral gastroenteritis",
+     "n": 7
+    },
+    {
+     "src": "files/slides/viro1-gastroenteritis/23.jpg",
+     "lec": "Viral gastroenteritis",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Why is there still no norovirus vaccine?",
@@ -5131,7 +6130,14 @@ SINA.lectures["viro1-gastroenteritis"] = {
     "It has no capsid"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-gastroenteritis/23.jpg",
+     "lec": "Viral gastroenteritis",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5543,7 +6549,14 @@ SINA.lectures["viro1-vaccines-antivirals"] = {
     "Salk's polio vaccine"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-vaccines-antivirals/03.jpg",
+     "lec": "Vaccines and antiviral therapy",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which is a live attenuated viral vaccine?",
@@ -5554,7 +6567,14 @@ SINA.lectures["viro1-vaccines-antivirals"] = {
     "HPV"
    ],
    "answer": 2,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-vaccines-antivirals/21.jpg",
+     "lec": "Vaccines and antiviral therapy",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Live vaccines are contraindicated in:",
@@ -5565,7 +6585,14 @@ SINA.lectures["viro1-vaccines-antivirals"] = {
     "Health workers"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-vaccines-antivirals/21.jpg",
+     "lec": "Vaccines and antiviral therapy",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The hepatitis B vaccine is:",
@@ -5576,7 +6603,14 @@ SINA.lectures["viro1-vaccines-antivirals"] = {
     "mRNA"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-vaccines-antivirals/21.jpg",
+     "lec": "Vaccines and antiviral therapy",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Passive immunisation provides protection that is:",
@@ -5587,7 +6621,14 @@ SINA.lectures["viro1-vaccines-antivirals"] = {
     "Only cellular"
    ],
    "answer": 1,
-   "why": "About 4 months."
+   "why": "About 4 months.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-vaccines-antivirals/16.jpg",
+     "lec": "Vaccines and antiviral therapy",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Herd immunity means:",
@@ -5598,7 +6639,14 @@ SINA.lectures["viro1-vaccines-antivirals"] = {
     "Each person needs two vaccines"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-vaccines-antivirals/20.jpg",
+     "lec": "Vaccines and antiviral therapy",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Why is it harder to develop antivirals than antibiotics?",
@@ -5609,7 +6657,14 @@ SINA.lectures["viro1-vaccines-antivirals"] = {
     "Viruses are extracellular"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-vaccines-antivirals/25.jpg",
+     "lec": "Vaccines and antiviral therapy",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The antiviral that proved safe, effective antivirals were possible was:",
@@ -5620,7 +6675,14 @@ SINA.lectures["viro1-vaccines-antivirals"] = {
     "Interferon"
    ],
    "answer": 1,
-   "why": "1983."
+   "why": "1983.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-vaccines-antivirals/29.jpg",
+     "lec": "Vaccines and antiviral therapy",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "The first HIV reverse transcriptase inhibitor of major benefit was:",
@@ -5631,7 +6693,14 @@ SINA.lectures["viro1-vaccines-antivirals"] = {
     "Ganciclovir"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-vaccines-antivirals/30.jpg",
+     "lec": "Vaccines and antiviral therapy",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Oseltamivir acts at the stage of:",
@@ -5653,7 +6722,14 @@ SINA.lectures["viro1-vaccines-antivirals"] = {
     "Rabies"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-vaccines-antivirals/22.jpg",
+     "lec": "Vaccines and antiviral therapy",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "There is no effective rhinovirus vaccine mainly because of:",
@@ -5664,7 +6740,14 @@ SINA.lectures["viro1-vaccines-antivirals"] = {
     "Lack of immunity"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-vaccines-antivirals/22.jpg",
+     "lec": "Vaccines and antiviral therapy",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "mRNA vaccines work by:",
@@ -5675,7 +6758,14 @@ SINA.lectures["viro1-vaccines-antivirals"] = {
     "Directly killing infected cells"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/viro1-vaccines-antivirals/21.jpg",
+     "lec": "Vaccines and antiviral therapy",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Memory responses alone may not protect against a disease with:",
@@ -5686,7 +6776,14 @@ SINA.lectures["viro1-vaccines-antivirals"] = {
     "A DNA genome"
    ],
    "answer": 1,
-   "why": "Antibodies must already be high."
+   "why": "Antibodies must already be high.",
+   "slides": [
+    {
+     "src": "files/slides/viro1-vaccines-antivirals/13.jpg",
+     "lec": "Vaccines and antiviral therapy",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

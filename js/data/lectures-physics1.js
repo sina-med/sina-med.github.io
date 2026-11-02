@@ -213,7 +213,14 @@ SINA.lectures["physics1-units"] = {
     "9"
    ],
    "answer": 0,
-   "why": "m, kg, s, A, K, mol, cd."
+   "why": "m, kg, s, A, K, mol, cd.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-units/08.jpg",
+     "lec": "Quantities, units and measurement",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The SI unit of amount of substance is:",
@@ -224,7 +231,14 @@ SINA.lectures["physics1-units"] = {
     "Litre"
    ],
    "answer": 0,
-   "why": "Avogadro's number of entities."
+   "why": "Avogadro's number of entities.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-units/22.jpg",
+     "lec": "Quantities, units and measurement",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "One newton equals:",
@@ -235,7 +249,19 @@ SINA.lectures["physics1-units"] = {
     "kg·m·s⁻¹"
    ],
    "answer": 1,
-   "why": "Mass × acceleration."
+   "why": "Mass × acceleration.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-units/17.jpg",
+     "lec": "Quantities, units and measurement",
+     "n": 17
+    },
+    {
+     "src": "files/slides/physics1-units/24.jpg",
+     "lec": "Quantities, units and measurement",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "One pascal equals:",
@@ -246,7 +272,14 @@ SINA.lectures["physics1-units"] = {
     "kg·m⁻³"
    ],
    "answer": 0,
-   "why": "Pressure."
+   "why": "Pressure.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-units/11.jpg",
+     "lec": "Quantities, units and measurement",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The dimension of force is:",
@@ -257,7 +290,14 @@ SINA.lectures["physics1-units"] = {
     "M·L·T⁻²"
    ],
    "answer": 3,
-   "why": "Energy is M·L²·T⁻²."
+   "why": "Energy is M·L²·T⁻².",
+   "slides": [
+    {
+     "src": "files/slides/physics1-units/17.jpg",
+     "lec": "Quantities, units and measurement",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which quantity is intensive?",
@@ -268,7 +308,19 @@ SINA.lectures["physics1-units"] = {
     "Volume"
    ],
    "answer": 1,
-   "why": "It does not depend on system size."
+   "why": "It does not depend on system size.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-units/08.jpg",
+     "lec": "Quantities, units and measurement",
+     "n": 8
+    },
+    {
+     "src": "files/slides/physics1-units/12.jpg",
+     "lec": "Quantities, units and measurement",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Extensive quantities are:",
@@ -279,7 +331,14 @@ SINA.lectures["physics1-units"] = {
     "Unitless"
    ],
    "answer": 1,
-   "why": "E.g. mass, volume."
+   "why": "E.g. mass, volume.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-units/12.jpg",
+     "lec": "Quantities, units and measurement",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The prefix 'nano' means:",
@@ -290,7 +349,14 @@ SINA.lectures["physics1-units"] = {
     "10⁻⁹"
    ],
    "answer": 3,
-   "why": "Pico is 10⁻¹²."
+   "why": "Pico is 10⁻¹².",
+   "slides": [
+    {
+     "src": "files/slides/physics1-units/15.jpg",
+     "lec": "Quantities, units and measurement",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "A dimensional equation is used to:",
@@ -301,7 +367,14 @@ SINA.lectures["physics1-units"] = {
     "Measure temperature"
    ],
    "answer": 1,
-   "why": "Both sides must have the same dimensions."
+   "why": "Both sides must have the same dimensions.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-units/16.jpg",
+     "lec": "Quantities, units and measurement",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "A systematic error:",
@@ -312,7 +385,19 @@ SINA.lectures["physics1-units"] = {
     "Is reduced by averaging"
    ],
    "answer": 2,
-   "why": "E.g. poor calibration."
+   "why": "E.g. poor calibration.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-units/27.jpg",
+     "lec": "Quantities, units and measurement",
+     "n": 27
+    },
+    {
+     "src": "files/slides/physics1-units/30.jpg",
+     "lec": "Quantities, units and measurement",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Random errors are reduced by:",
@@ -323,7 +408,14 @@ SINA.lectures["physics1-units"] = {
     "Averaging repeated measurements"
    ],
    "answer": 3,
-   "why": "They scatter around the true value."
+   "why": "They scatter around the true value.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-units/43.jpg",
+     "lec": "Quantities, units and measurement",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "For a quotient C = n/V, the relative uncertainty is:",
@@ -334,7 +426,14 @@ SINA.lectures["physics1-units"] = {
     "Δn/n + ΔV/V"
    ],
    "answer": 3,
-   "why": "Relative uncertainties add."
+   "why": "Relative uncertainties add.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-units/51.jpg",
+     "lec": "Quantities, units and measurement",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "For a sum, you add:",
@@ -345,7 +444,14 @@ SINA.lectures["physics1-units"] = {
     "Nothing"
    ],
    "answer": 0,
-   "why": "Δ(a + b) = Δa + Δb."
+   "why": "Δ(a + b) = Δa + Δb.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-units/51.jpg",
+     "lec": "Quantities, units and measurement",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "The gray (Gy) equals:",
@@ -356,7 +462,14 @@ SINA.lectures["physics1-units"] = {
     "A·s"
    ],
    "answer": 1,
-   "why": "Absorbed dose."
+   "why": "Absorbed dose.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-units/11.jpg",
+     "lec": "Quantities, units and measurement",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -786,7 +899,14 @@ SINA.lectures["physics1-states"] = {
     "Only pressure"
    ],
    "answer": 0,
-   "why": "The molecules are the same."
+   "why": "The molecules are the same.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-states/05.jpg",
+     "lec": "Physical states of matter",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "According to Coulomb's law, the force between ions is inversely proportional to:",
@@ -797,7 +917,14 @@ SINA.lectures["physics1-states"] = {
     "Temperature"
    ],
    "answer": 0,
-   "why": "F = kqq′/(εd²)."
+   "why": "F = kqq′/(εd²).",
+   "slides": [
+    {
+     "src": "files/slides/physics1-states/07.jpg",
+     "lec": "Physical states of matter",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Why do salts dissociate well in water?",
@@ -808,7 +935,14 @@ SINA.lectures["physics1-states"] = {
     "Water is a gas"
    ],
    "answer": 1,
-   "why": "Ionic attraction is weakened."
+   "why": "Ionic attraction is weakened.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-states/08.jpg",
+     "lec": "Physical states of matter",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Van der Waals forces act between:",
@@ -819,7 +953,14 @@ SINA.lectures["physics1-states"] = {
     "Nuclei"
    ],
    "answer": 0,
-   "why": "Very short range."
+   "why": "Very short range.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-states/09.jpg",
+     "lec": "Physical states of matter",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Hydration is:",
@@ -830,7 +971,14 @@ SINA.lectures["physics1-states"] = {
     "Solvation by water"
    ],
    "answer": 3,
-   "why": "E.g. Na⁺ surrounded by water oxygens."
+   "why": "E.g. Na⁺ surrounded by water oxygens.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-states/13.jpg",
+     "lec": "Physical states of matter",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The main cause of molecular dispersion is:",
@@ -841,7 +989,14 @@ SINA.lectures["physics1-states"] = {
     "Coulomb force"
    ],
    "answer": 1,
-   "why": "It increases with temperature."
+   "why": "It increases with temperature.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-states/15.jpg",
+     "lec": "Physical states of matter",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "A liquid has:",
@@ -852,7 +1007,14 @@ SINA.lectures["physics1-states"] = {
     "Ordered molecules"
    ],
    "answer": 1,
-   "why": "It flows."
+   "why": "It flows.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-states/19.jpg",
+     "lec": "Physical states of matter",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "A gas is:",
@@ -863,7 +1025,14 @@ SINA.lectures["physics1-states"] = {
     "Compressible"
    ],
    "answer": 3,
-   "why": "Molecules far apart."
+   "why": "Molecules far apart.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-states/20.jpg",
+     "lec": "Physical states of matter",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "During melting of pure ice at 1 atm, temperature:",
@@ -874,7 +1043,14 @@ SINA.lectures["physics1-states"] = {
     "Falls"
    ],
    "answer": 1,
-   "why": "Solid and liquid coexist."
+   "why": "Solid and liquid coexist.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-states/23.jpg",
+     "lec": "Physical states of matter",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Supercooling (superfusion) is:",
@@ -885,7 +1061,14 @@ SINA.lectures["physics1-states"] = {
     "Freezing above 0 °C"
    ],
    "answer": 2,
-   "why": "It then freezes suddenly."
+   "why": "It then freezes suddenly.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-states/24.jpg",
+     "lec": "Physical states of matter",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Cryoscopic depression is proportional to:",
@@ -896,7 +1079,14 @@ SINA.lectures["physics1-states"] = {
     "Osmolality"
    ],
    "answer": 3,
-   "why": "Δθ = K × osmolality."
+   "why": "Δθ = K × osmolality.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-states/25.jpg",
+     "lec": "Physical states of matter",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The cryoscopic constant of water is:",
@@ -907,7 +1097,14 @@ SINA.lectures["physics1-states"] = {
     "1.86"
    ],
    "answer": 3,
-   "why": "°C·kg/mol."
+   "why": "°C·kg/mol.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-states/26.jpg",
+     "lec": "Physical states of matter",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Sublimation is the transition:",
@@ -918,7 +1115,14 @@ SINA.lectures["physics1-states"] = {
     "Solid → liquid"
    ],
    "answer": 0,
-   "why": "Without passing through liquid."
+   "why": "Without passing through liquid.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-states/32.jpg",
+     "lec": "Physical states of matter",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "How does sweating cool the body?",
@@ -929,7 +1133,19 @@ SINA.lectures["physics1-states"] = {
     "By radiation only"
    ],
    "answer": 1,
-   "why": "Main heat loss in hot conditions."
+   "why": "Main heat loss in hot conditions.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-states/04.jpg",
+     "lec": "Physical states of matter",
+     "n": 4
+    },
+    {
+     "src": "files/slides/physics1-states/33.jpg",
+     "lec": "Physical states of matter",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1315,7 +1531,14 @@ SINA.lectures["physics1-water"] = {
     "60-65%"
    ],
    "answer": 3,
-   "why": "Higher in infants."
+   "why": "Higher in infants.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-water/04.jpg",
+     "lec": "Biophysics of water and solutions",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Intracellular water represents about:",
@@ -1326,7 +1549,14 @@ SINA.lectures["physics1-water"] = {
     "4.5% of body weight"
    ],
    "answer": 2,
-   "why": "Extracellular ~20%."
+   "why": "Extracellular ~20%.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-water/04.jpg",
+     "lec": "Biophysics of water and solutions",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Plasma water represents about:",
@@ -1337,7 +1567,14 @@ SINA.lectures["physics1-water"] = {
     "20%"
    ],
    "answer": 1,
-   "why": "Interstitial ~15.5%."
+   "why": "Interstitial ~15.5%.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-water/04.jpg",
+     "lec": "Biophysics of water and solutions",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Water molecules are linked to each other by:",
@@ -1348,7 +1585,14 @@ SINA.lectures["physics1-water"] = {
     "Ionic bonds"
    ],
    "answer": 2,
-   "why": "Due to polarity."
+   "why": "Due to polarity.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-water/05.jpg",
+     "lec": "Biophysics of water and solutions",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Why does ice float?",
@@ -1359,7 +1603,14 @@ SINA.lectures["physics1-water"] = {
     "It contains air"
    ],
    "answer": 0,
-   "why": "Hydrogen bonds form an open lattice."
+   "why": "Hydrogen bonds form an open lattice.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-water/05.jpg",
+     "lec": "Biophysics of water and solutions",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The specific heat of water is about:",
@@ -1370,7 +1621,14 @@ SINA.lectures["physics1-water"] = {
     "4.184 J/g·°C"
    ],
    "answer": 3,
-   "why": "Very high: buffers temperature."
+   "why": "Very high: buffers temperature.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-water/07.jpg",
+     "lec": "Biophysics of water and solutions",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Water's dielectric constant at 25 °C is about:",
@@ -1381,7 +1639,19 @@ SINA.lectures["physics1-water"] = {
     "1"
    ],
    "answer": 1,
-   "why": "Makes it a strong solvent for ions."
+   "why": "Makes it a strong solvent for ions.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-water/07.jpg",
+     "lec": "Biophysics of water and solutions",
+     "n": 7
+    },
+    {
+     "src": "files/slides/physics1-water/31.jpg",
+     "lec": "Biophysics of water and solutions",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Water can act as an acid and a base: it is:",
@@ -1392,7 +1662,14 @@ SINA.lectures["physics1-water"] = {
     "Hydrophobic"
    ],
    "answer": 0,
-   "why": "Amphoterism."
+   "why": "Amphoterism.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-water/08.jpg",
+     "lec": "Biophysics of water and solutions",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "How many equivalents in 1 mol of Ca²⁺?",
@@ -1403,7 +1680,14 @@ SINA.lectures["physics1-water"] = {
     "2"
    ],
    "answer": 3,
-   "why": "1 mol = z Eq."
+   "why": "1 mol = z Eq.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-water/10.jpg",
+     "lec": "Biophysics of water and solutions",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The Faraday constant is about:",
@@ -1414,7 +1698,14 @@ SINA.lectures["physics1-water"] = {
     "8.314 C"
    ],
    "answer": 0,
-   "why": "Charge of one mole of electrons."
+   "why": "Charge of one mole of electrons.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-water/15.jpg",
+     "lec": "Biophysics of water and solutions",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The sum of molal concentrations of all solutes is the:",
@@ -1425,7 +1716,14 @@ SINA.lectures["physics1-water"] = {
     "Molarity"
    ],
    "answer": 0,
-   "why": "Osmolarity uses molarities."
+   "why": "Osmolarity uses molarities.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-water/12.jpg",
+     "lec": "Biophysics of water and solutions",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Equivalent concentration equals:",
@@ -1436,7 +1734,14 @@ SINA.lectures["physics1-water"] = {
     "Molarity / valence"
    ],
    "answer": 1,
-   "why": "In Eq/L or mEq/L."
+   "why": "In Eq/L or mEq/L.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-water/14.jpg",
+     "lec": "Biophysics of water and solutions",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "A neutral solution has 20 mEq/L Na⁺, 45 mEq/L Cl⁻ and K⁺. K⁺ =",
@@ -1447,7 +1752,14 @@ SINA.lectures["physics1-water"] = {
     "25 mEq/L"
    ],
    "answer": 3,
-   "why": "Electroneutrality: 45 = 20 + K⁺."
+   "why": "Electroneutrality: 45 = 20 + K⁺.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-water/18.jpg",
+     "lec": "Biophysics of water and solutions",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1794,7 +2106,14 @@ SINA.lectures["physics1-gases"] = {
     "133.3 Pa"
    ],
    "answer": 3,
-   "why": "1 atm = 760 mmHg."
+   "why": "1 atm = 760 mmHg.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-gases/07.jpg",
+     "lec": "Biophysics of the gaseous state",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "1 atm is approximately:",
@@ -1805,7 +2124,14 @@ SINA.lectures["physics1-gases"] = {
     "10 cm of water"
    ],
    "answer": 2,
-   "why": "Also ≈ 101 kPa."
+   "why": "Also ≈ 101 kPa.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-gases/07.jpg",
+     "lec": "Biophysics of the gaseous state",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Hydrostatic pressure increases with depth as:",
@@ -1816,7 +2142,14 @@ SINA.lectures["physics1-gases"] = {
     "ΔP = PV"
    ],
    "answer": 1,
-   "why": "Pascal's law of fluid statics."
+   "why": "Pascal's law of fluid statics.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-gases/08.jpg",
+     "lec": "Biophysics of the gaseous state",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "A negative transmural pressure tends to:",
@@ -1827,7 +2160,14 @@ SINA.lectures["physics1-gases"] = {
     "Raise temperature"
    ],
    "answer": 2,
-   "why": "PTM = inside − outside."
+   "why": "PTM = inside − outside.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-gases/10.jpg",
+     "lec": "Biophysics of the gaseous state",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Boyle-Mariotte's law states that at constant T and n:",
@@ -1838,7 +2178,14 @@ SINA.lectures["physics1-gases"] = {
     "P/T = constant"
    ],
    "answer": 0,
-   "why": "Pressure up, volume down."
+   "why": "Pressure up, volume down.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-gases/11.jpg",
+     "lec": "Biophysics of the gaseous state",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Gay-Lussac's law: at constant V and n,",
@@ -1849,7 +2196,14 @@ SINA.lectures["physics1-gases"] = {
     "P ∝ T (absolute)"
    ],
    "answer": 3,
-   "why": "P/T = constant."
+   "why": "P/T = constant.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-gases/14.jpg",
+     "lec": "Biophysics of the gaseous state",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "At 0 °C and 1 atm, one mole of ideal gas occupies:",
@@ -1860,7 +2214,14 @@ SINA.lectures["physics1-gases"] = {
     "24.5 L"
    ],
    "answer": 1,
-   "why": "Standard molar volume."
+   "why": "Standard molar volume.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-gases/15.jpg",
+     "lec": "Biophysics of the gaseous state",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "R, the ideal gas constant, is:",
@@ -1871,7 +2232,14 @@ SINA.lectures["physics1-gases"] = {
     "0.082 J/mol·K"
    ],
    "answer": 0,
-   "why": "In SI units."
+   "why": "In SI units.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-gases/16.jpg",
+     "lec": "Biophysics of the gaseous state",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Lung volumes are usually reported in:",
@@ -1882,7 +2250,14 @@ SINA.lectures["physics1-gases"] = {
     "BTPS"
    ],
    "answer": 3,
-   "why": "37 °C, saturated with water vapour."
+   "why": "37 °C, saturated with water vapour.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-gases/19.jpg",
+     "lec": "Biophysics of the gaseous state",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "STPD means:",
@@ -1893,7 +2268,14 @@ SINA.lectures["physics1-gases"] = {
     "Ambient, saturated"
    ],
    "answer": 0,
-   "why": "Standard conditions."
+   "why": "Standard conditions.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-gases/19.jpg",
+     "lec": "Biophysics of the gaseous state",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Partial pressure of a gas equals:",
@@ -1904,7 +2286,14 @@ SINA.lectures["physics1-gases"] = {
     "Total pressure"
    ],
    "answer": 0,
-   "why": "Dalton's law."
+   "why": "Dalton's law.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-gases/21.jpg",
+     "lec": "Biophysics of the gaseous state",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "With 21% O₂ at sea level (760 mmHg), P_O₂ of dry air ≈",
@@ -1915,7 +2304,14 @@ SINA.lectures["physics1-gases"] = {
     "21 mmHg"
    ],
    "answer": 1,
-   "why": "0.21 × 760."
+   "why": "0.21 × 760.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-gases/07.jpg",
+     "lec": "Biophysics of the gaseous state",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "A gas behaves ideally at:",
@@ -1926,7 +2322,14 @@ SINA.lectures["physics1-gases"] = {
     "Low pressure or high temperature"
    ],
    "answer": 3,
-   "why": "Molecules far apart."
+   "why": "Molecules far apart.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-gases/16.jpg",
+     "lec": "Biophysics of the gaseous state",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2295,7 +2698,14 @@ SINA.lectures["physics1-energetics"] = {
     "F × mass"
    ],
    "answer": 2,
-   "why": "A scalar product."
+   "why": "A scalar product.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-energetics/06.jpg",
+     "lec": "Energetics: work, potentials and",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The SI unit of work is:",
@@ -2306,7 +2716,19 @@ SINA.lectures["physics1-energetics"] = {
     "Newton"
    ],
    "answer": 1,
-   "why": "kg·m²·s⁻²."
+   "why": "kg·m²·s⁻².",
+   "slides": [
+    {
+     "src": "files/slides/physics1-energetics/06.jpg",
+     "lec": "Energetics: work, potentials and",
+     "n": 6
+    },
+    {
+     "src": "files/slides/physics1-energetics/16.jpg",
+     "lec": "Energetics: work, potentials and",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "When the force is perpendicular to the displacement, work is:",
@@ -2317,7 +2739,19 @@ SINA.lectures["physics1-energetics"] = {
     "Negative"
    ],
    "answer": 0,
-   "why": "cos 90° = 0."
+   "why": "cos 90° = 0.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-energetics/07.jpg",
+     "lec": "Energetics: work, potentials and",
+     "n": 7
+    },
+    {
+     "src": "files/slides/physics1-energetics/08.jpg",
+     "lec": "Energetics: work, potentials and",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "For a fluid pushed in a pipe, dW equals:",
@@ -2339,7 +2773,14 @@ SINA.lectures["physics1-energetics"] = {
     "W = −ΔE"
    ],
    "answer": 3,
-   "why": "Spontaneous work lowers energy."
+   "why": "Spontaneous work lowers energy.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-energetics/11.jpg",
+     "lec": "Energetics: work, potentials and",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "A potential difference is:",
@@ -2350,7 +2791,19 @@ SINA.lectures["physics1-energetics"] = {
     "Force per area"
    ],
    "answer": 0,
-   "why": "ΔY = ΔE/X."
+   "why": "ΔY = ΔE/X.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-energetics/13.jpg",
+     "lec": "Energetics: work, potentials and",
+     "n": 13
+    },
+    {
+     "src": "files/slides/physics1-energetics/19.jpg",
+     "lec": "Energetics: work, potentials and",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "A spontaneous displacement always:",
@@ -2361,7 +2814,14 @@ SINA.lectures["physics1-energetics"] = {
     "Increases potential energy"
    ],
    "answer": 0,
-   "why": "Energy is transformed, not lost."
+   "why": "Energy is transformed, not lost.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-energetics/14.jpg",
+     "lec": "Energetics: work, potentials and",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The gravitational potential is:",
@@ -2372,7 +2832,19 @@ SINA.lectures["physics1-energetics"] = {
     "m·g"
    ],
    "answer": 2,
-   "why": "Potential energy per unit mass."
+   "why": "Potential energy per unit mass.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-energetics/13.jpg",
+     "lec": "Energetics: work, potentials and",
+     "n": 13
+    },
+    {
+     "src": "files/slides/physics1-energetics/15.jpg",
+     "lec": "Energetics: work, potentials and",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The volt equals:",
@@ -2383,7 +2855,19 @@ SINA.lectures["physics1-energetics"] = {
     "J/C"
    ],
    "answer": 3,
-   "why": "Energy per unit charge."
+   "why": "Energy per unit charge.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-energetics/13.jpg",
+     "lec": "Energetics: work, potentials and",
+     "n": 13
+    },
+    {
+     "src": "files/slides/physics1-energetics/16.jpg",
+     "lec": "Energetics: work, potentials and",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The chemical potential of a solute increases with:",
@@ -2394,7 +2878,14 @@ SINA.lectures["physics1-energetics"] = {
     "Its mass"
    ],
    "answer": 1,
-   "why": "µ = µ⁰ + RT ln C."
+   "why": "µ = µ⁰ + RT ln C.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-energetics/21.jpg",
+     "lec": "Energetics: work, potentials and",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Ion movement across membranes depends on the:",
@@ -2405,7 +2896,19 @@ SINA.lectures["physics1-energetics"] = {
     "Kinetic energy only"
    ],
    "answer": 0,
-   "why": "Chemical + electrical terms."
+   "why": "Chemical + electrical terms.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-energetics/24.jpg",
+     "lec": "Energetics: work, potentials and",
+     "n": 24
+    },
+    {
+     "src": "files/slides/physics1-energetics/28.jpg",
+     "lec": "Energetics: work, potentials and",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2770,7 +3273,14 @@ SINA.lectures["physics1-viscosity"] = {
     "Temperature"
    ],
    "answer": 1,
-   "why": "Internal friction."
+   "why": "Internal friction.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-viscosity/05.jpg",
+     "lec": "Viscosity applied to biological fluids",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Newton's law of viscosity is:",
@@ -2781,7 +3291,14 @@ SINA.lectures["physics1-viscosity"] = {
     "F = PV"
    ],
    "answer": 2,
-   "why": "dv/dx = velocity gradient."
+   "why": "dv/dx = velocity gradient.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-viscosity/07.jpg",
+     "lec": "Viscosity applied to biological fluids",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The SI unit of viscosity is:",
@@ -2792,7 +3309,14 @@ SINA.lectures["physics1-viscosity"] = {
     "Joule"
    ],
    "answer": 1,
-   "why": "1 Pa·s = 10 poise."
+   "why": "1 Pa·s = 10 poise.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-viscosity/08.jpg",
+     "lec": "Viscosity applied to biological fluids",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Viscosity of water at 20 °C is about:",
@@ -2803,7 +3327,14 @@ SINA.lectures["physics1-viscosity"] = {
     "10⁻⁶ Pa·s"
    ],
    "answer": 2,
-   "why": "Honey ≈ 10 Pa·s."
+   "why": "Honey ≈ 10 Pa·s.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-viscosity/10.jpg",
+     "lec": "Viscosity applied to biological fluids",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "When temperature rises, the viscosity of a liquid:",
@@ -2814,7 +3345,14 @@ SINA.lectures["physics1-viscosity"] = {
     "Falls"
    ],
    "answer": 3,
-   "why": "Explains poor flow in cold extremities."
+   "why": "Explains poor flow in cold extremities.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-viscosity/18.jpg",
+     "lec": "Viscosity applied to biological fluids",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Einstein's law is:",
@@ -2825,7 +3363,14 @@ SINA.lectures["physics1-viscosity"] = {
     "η = η°(1 + kφ)"
    ],
    "answer": 3,
-   "why": "φ = relative volume."
+   "why": "φ = relative volume.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-viscosity/15.jpg",
+     "lec": "Viscosity applied to biological fluids",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "For spherical particles, k equals:",
@@ -2836,7 +3381,19 @@ SINA.lectures["physics1-viscosity"] = {
     "1"
    ],
    "answer": 1,
-   "why": "Linear macromolecules > 1000."
+   "why": "Linear macromolecules > 1000.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-viscosity/15.jpg",
+     "lec": "Viscosity applied to biological fluids",
+     "n": 15
+    },
+    {
+     "src": "files/slides/physics1-viscosity/16.jpg",
+     "lec": "Viscosity applied to biological fluids",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "In blood, the relative volume φ corresponds to:",
@@ -2847,7 +3404,19 @@ SINA.lectures["physics1-viscosity"] = {
     "White cell count"
    ],
    "answer": 0,
-   "why": "η_blood = η_plasma(1 + 2.6 Ht)."
+   "why": "η_blood = η_plasma(1 + 2.6 Ht).",
+   "slides": [
+    {
+     "src": "files/slides/physics1-viscosity/17.jpg",
+     "lec": "Viscosity applied to biological fluids",
+     "n": 17
+    },
+    {
+     "src": "files/slides/physics1-viscosity/18.jpg",
+     "lec": "Viscosity applied to biological fluids",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Blood viscosity increases in:",
@@ -2858,7 +3427,19 @@ SINA.lectures["physics1-viscosity"] = {
     "Warmth"
    ],
    "answer": 0,
-   "why": "Higher haematocrit."
+   "why": "Higher haematocrit.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-viscosity/18.jpg",
+     "lec": "Viscosity applied to biological fluids",
+     "n": 18
+    },
+    {
+     "src": "files/slides/physics1-viscosity/21.jpg",
+     "lec": "Viscosity applied to biological fluids",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Plasma viscosity rises in inflammation mainly because of:",
@@ -2869,7 +3450,14 @@ SINA.lectures["physics1-viscosity"] = {
     "Albumin"
    ],
    "answer": 1,
-   "why": "Linear macromolecules."
+   "why": "Linear macromolecules.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-viscosity/19.jpg",
+     "lec": "Viscosity applied to biological fluids",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "A Newtonian fluid has a viscosity that:",
@@ -2880,7 +3468,14 @@ SINA.lectures["physics1-viscosity"] = {
     "Is zero"
    ],
    "answer": 0,
-   "why": "Blood is non-Newtonian."
+   "why": "Blood is non-Newtonian.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-viscosity/20.jpg",
+     "lec": "Viscosity applied to biological fluids",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Red blood cells are classified as:",
@@ -2891,7 +3486,19 @@ SINA.lectures["physics1-viscosity"] = {
     "Macromolecules"
    ],
    "answer": 0,
-   "why": "Visible by light microscopy."
+   "why": "Visible by light microscopy.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-viscosity/12.jpg",
+     "lec": "Viscosity applied to biological fluids",
+     "n": 12
+    },
+    {
+     "src": "files/slides/physics1-viscosity/13.jpg",
+     "lec": "Viscosity applied to biological fluids",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3237,7 +3844,19 @@ SINA.lectures["physics1-migration"] = {
     "Only the solvent moves"
    ],
    "answer": 1,
-   "why": "E.g. red cells settling in plasma."
+   "why": "E.g. red cells settling in plasma.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-migration/10.jpg",
+     "lec": "Migration movements: sedimentation,",
+     "n": 10
+    },
+    {
+     "src": "files/slides/physics1-migration/13.jpg",
+     "lec": "Migration movements: sedimentation,",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Stokes' law for a sphere is:",
@@ -3248,7 +3867,14 @@ SINA.lectures["physics1-migration"] = {
     "R = ω²R"
    ],
    "answer": 0,
-   "why": "Drag opposes motion (sign negative)."
+   "why": "Drag opposes motion (sign negative).",
+   "slides": [
+    {
+     "src": "files/slides/physics1-migration/05.jpg",
+     "lec": "Migration movements: sedimentation,",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Drag force increases with:",
@@ -3259,7 +3885,14 @@ SINA.lectures["physics1-migration"] = {
     "Lower viscosity"
    ],
    "answer": 2,
-   "why": "R ∝ ηv."
+   "why": "R ∝ ηv.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-migration/06.jpg",
+     "lec": "Migration movements: sedimentation,",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The driving force in sedimentation equals:",
@@ -3270,7 +3903,14 @@ SINA.lectures["physics1-migration"] = {
     "Zero"
    ],
    "answer": 0,
-   "why": "V·g(ρ_s − ρ₀)."
+   "why": "V·g(ρ_s − ρ₀).",
+   "slides": [
+    {
+     "src": "files/slides/physics1-migration/08.jpg",
+     "lec": "Migration movements: sedimentation,",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The ESR measures:",
@@ -3281,7 +3921,19 @@ SINA.lectures["physics1-migration"] = {
     "Plasma height at 1 h"
    ],
    "answer": 3,
-   "why": "In anticoagulated blood."
+   "why": "In anticoagulated blood.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-migration/10.jpg",
+     "lec": "Migration movements: sedimentation,",
+     "n": 10
+    },
+    {
+     "src": "files/slides/physics1-migration/11.jpg",
+     "lec": "Migration movements: sedimentation,",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "A normal ESR at 1 hour is:",
@@ -3292,7 +3944,14 @@ SINA.lectures["physics1-migration"] = {
     "> 100 mm"
    ],
    "answer": 2,
-   "why": "Raised in inflammation."
+   "why": "Raised in inflammation.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-migration/12.jpg",
+     "lec": "Migration movements: sedimentation,",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Centrifugal acceleration equals:",
@@ -3314,7 +3973,19 @@ SINA.lectures["physics1-migration"] = {
     "qE"
    ],
    "answer": 3,
-   "why": "Balanced by drag at constant velocity."
+   "why": "Balanced by drag at constant velocity.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-migration/03.jpg",
+     "lec": "Migration movements: sedimentation,",
+     "n": 3
+    },
+    {
+     "src": "files/slides/physics1-migration/16.jpg",
+     "lec": "Migration movements: sedimentation,",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The flux of particles Φ equals:",
@@ -3325,7 +3996,14 @@ SINA.lectures["physics1-migration"] = {
     "C/v"
    ],
    "answer": 0,
-   "why": "Concentration × area × velocity."
+   "why": "Concentration × area × velocity.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-migration/18.jpg",
+     "lec": "Migration movements: sedimentation,",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Electrophoresis separates proteins according to:",
@@ -3336,7 +4014,19 @@ SINA.lectures["physics1-migration"] = {
     "Charge, size and shape"
    ],
    "answer": 3,
-   "why": "Different migration velocities."
+   "why": "Different migration velocities.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-migration/16.jpg",
+     "lec": "Migration movements: sedimentation,",
+     "n": 16
+    },
+    {
+     "src": "files/slides/physics1-migration/20.jpg",
+     "lec": "Migration movements: sedimentation,",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3717,7 +4407,19 @@ SINA.lectures["physics1-diffusion"] = {
     "Only macromolecules"
    ],
    "answer": 1,
-   "why": "Used in haemodialysis."
+   "why": "Used in haemodialysis.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-diffusion/05.jpg",
+     "lec": "Membranes and simple elementary",
+     "n": 5
+    },
+    {
+     "src": "files/slides/physics1-diffusion/19.jpg",
+     "lec": "Membranes and simple elementary",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "A semipermeable membrane lets through:",
@@ -3728,7 +4430,14 @@ SINA.lectures["physics1-diffusion"] = {
     "Only proteins"
    ],
    "answer": 0,
-   "why": "Basis of osmosis."
+   "why": "Basis of osmosis.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-diffusion/05.jpg",
+     "lec": "Membranes and simple elementary",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Passive transport:",
@@ -3739,7 +4448,14 @@ SINA.lectures["physics1-diffusion"] = {
     "Uses ATP"
    ],
    "answer": 1,
-   "why": "Diffusion, osmosis, facilitated diffusion."
+   "why": "Diffusion, osmosis, facilitated diffusion.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-diffusion/06.jpg",
+     "lec": "Membranes and simple elementary",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Simple diffusion is driven by:",
@@ -3750,7 +4466,14 @@ SINA.lectures["physics1-diffusion"] = {
     "Concentration gradients"
    ],
    "answer": 3,
-   "why": "Fick's law."
+   "why": "Fick's law.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-diffusion/08.jpg",
+     "lec": "Membranes and simple elementary",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Simple convection is driven by:",
@@ -3761,7 +4484,19 @@ SINA.lectures["physics1-diffusion"] = {
     "Electric field"
    ],
    "answer": 0,
-   "why": "Φ = K·S·(P₁ − P₂)."
+   "why": "Φ = K·S·(P₁ − P₂).",
+   "slides": [
+    {
+     "src": "files/slides/physics1-diffusion/09.jpg",
+     "lec": "Membranes and simple elementary",
+     "n": 9
+    },
+    {
+     "src": "files/slides/physics1-diffusion/10.jpg",
+     "lec": "Membranes and simple elementary",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Ions moving under both chemical and electrical gradients follow the:",
@@ -3772,7 +4507,19 @@ SINA.lectures["physics1-diffusion"] = {
     "Viscosity"
    ],
    "answer": 0,
-   "why": "Electrochemical migration."
+   "why": "Electrochemical migration.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-diffusion/07.jpg",
+     "lec": "Membranes and simple elementary",
+     "n": 7
+    },
+    {
+     "src": "files/slides/physics1-diffusion/12.jpg",
+     "lec": "Membranes and simple elementary",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "An equilibrium potential appears when:",
@@ -3783,7 +4530,19 @@ SINA.lectures["physics1-diffusion"] = {
     "No ion crosses"
    ],
    "answer": 2,
-   "why": "Charge separation stops net flow."
+   "why": "Charge separation stops net flow.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-diffusion/14.jpg",
+     "lec": "Membranes and simple elementary",
+     "n": 14
+    },
+    {
+     "src": "files/slides/physics1-diffusion/15.jpg",
+     "lec": "Membranes and simple elementary",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The Nernst equation gives:",
@@ -3794,7 +4553,19 @@ SINA.lectures["physics1-diffusion"] = {
     "An ion's equilibrium potential"
    ],
    "answer": 3,
-   "why": "E = (RT/zF) ln(C₁/C₂)."
+   "why": "E = (RT/zF) ln(C₁/C₂).",
+   "slides": [
+    {
+     "src": "files/slides/physics1-diffusion/18.jpg",
+     "lec": "Membranes and simple elementary",
+     "n": 18
+    },
+    {
+     "src": "files/slides/physics1-diffusion/21.jpg",
+     "lec": "Membranes and simple elementary",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The Donnan equilibrium is caused by:",
@@ -3805,7 +4576,19 @@ SINA.lectures["physics1-diffusion"] = {
     "Hydrostatic pressure"
    ],
    "answer": 1,
-   "why": "Proteins trapped on one side."
+   "why": "Proteins trapped on one side.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-diffusion/16.jpg",
+     "lec": "Membranes and simple elementary",
+     "n": 16
+    },
+    {
+     "src": "files/slides/physics1-diffusion/19.jpg",
+     "lec": "Membranes and simple elementary",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "A diffusion potential arises from:",
@@ -3816,7 +4599,19 @@ SINA.lectures["physics1-diffusion"] = {
     "Hydrostatic pressure"
    ],
    "answer": 0,
-   "why": "The faster ion leads."
+   "why": "The faster ion leads.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-diffusion/12.jpg",
+     "lec": "Membranes and simple elementary",
+     "n": 12
+    },
+    {
+     "src": "files/slides/physics1-diffusion/13.jpg",
+     "lec": "Membranes and simple elementary",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4175,7 +4970,19 @@ SINA.lectures["physics1-osmosis"] = {
     "Only with ATP"
    ],
    "answer": 1,
-   "why": "Through a semipermeable membrane."
+   "why": "Through a semipermeable membrane.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-osmosis/04.jpg",
+     "lec": "Osmotic phenomena and oncotic pressure",
+     "n": 4
+    },
+    {
+     "src": "files/slides/physics1-osmosis/05.jpg",
+     "lec": "Osmotic phenomena and oncotic pressure",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Osmotic pressure is:",
@@ -4186,7 +4993,19 @@ SINA.lectures["physics1-osmosis"] = {
     "The pressure of the solute"
    ],
    "answer": 0,
-   "why": "Applied to the concentrated side."
+   "why": "Applied to the concentrated side.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-osmosis/02.jpg",
+     "lec": "Osmotic phenomena and oncotic pressure",
+     "n": 2
+    },
+    {
+     "src": "files/slides/physics1-osmosis/03.jpg",
+     "lec": "Osmotic phenomena and oncotic pressure",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Van't Hoff's law is:",
@@ -4197,7 +5016,14 @@ SINA.lectures["physics1-osmosis"] = {
     "PV = nRT"
    ],
    "answer": 2,
-   "why": "For dilute solutions of small particles."
+   "why": "For dilute solutions of small particles.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-osmosis/08.jpg",
+     "lec": "Osmotic phenomena and oncotic pressure",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "In Van't Hoff's law, C is the:",
@@ -4208,7 +5034,14 @@ SINA.lectures["physics1-osmosis"] = {
     "Molality of water"
    ],
    "answer": 0,
-   "why": "Only particles that cannot cross count."
+   "why": "Only particles that cannot cross count.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-osmosis/08.jpg",
+     "lec": "Osmotic phenomena and oncotic pressure",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "For neutral macromolecules, measured osmotic pressure is:",
@@ -4219,7 +5052,19 @@ SINA.lectures["physics1-osmosis"] = {
     "Slightly higher"
    ],
    "answer": 3,
-   "why": "ω = RTC + RTvC²."
+   "why": "ω = RTC + RTvC².",
+   "slides": [
+    {
+     "src": "files/slides/physics1-osmosis/10.jpg",
+     "lec": "Osmotic phenomena and oncotic pressure",
+     "n": 10
+    },
+    {
+     "src": "files/slides/physics1-osmosis/15.jpg",
+     "lec": "Osmotic phenomena and oncotic pressure",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The Donnan effect is due to:",
@@ -4230,7 +5075,14 @@ SINA.lectures["physics1-osmosis"] = {
     "Temperature"
    ],
    "answer": 2,
-   "why": "It adds a Donnan pressure."
+   "why": "It adds a Donnan pressure.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-osmosis/15.jpg",
+     "lec": "Osmotic phenomena and oncotic pressure",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Plasma oncotic pressure is about:",
@@ -4241,7 +5093,14 @@ SINA.lectures["physics1-osmosis"] = {
     "760 mmHg"
    ],
    "answer": 2,
-   "why": "3.2 kPa at 37 °C."
+   "why": "3.2 kPa at 37 °C.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-osmosis/16.jpg",
+     "lec": "Osmotic phenomena and oncotic pressure",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Plasma oncotic pressure is mainly due to:",
@@ -4252,7 +5111,14 @@ SINA.lectures["physics1-osmosis"] = {
     "Albumin"
    ],
    "answer": 3,
-   "why": "About 85%."
+   "why": "About 85%.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-osmosis/16.jpg",
+     "lec": "Osmotic phenomena and oncotic pressure",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "A fall in plasma albumin tends to cause:",
@@ -4263,7 +5129,19 @@ SINA.lectures["physics1-osmosis"] = {
     "Dehydration"
    ],
    "answer": 0,
-   "why": "Less water held in capillaries."
+   "why": "Less water held in capillaries.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-osmosis/16.jpg",
+     "lec": "Osmotic phenomena and oncotic pressure",
+     "n": 16
+    },
+    {
+     "src": "files/slides/physics1-osmosis/24.jpg",
+     "lec": "Osmotic phenomena and oncotic pressure",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Osmotic pressure depends on temperature because:",
@@ -4274,7 +5152,14 @@ SINA.lectures["physics1-osmosis"] = {
     "ω = RTC includes absolute T"
    ],
    "answer": 3,
-   "why": "Proportional to T."
+   "why": "Proportional to T.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-osmosis/08.jpg",
+     "lec": "Osmotic phenomena and oncotic pressure",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4592,7 +5477,14 @@ SINA.lectures["physics1-fluid-transfers"] = {
     "42 L"
    ],
    "answer": 1,
-   "why": "≈ 40% of body weight."
+   "why": "≈ 40% of body weight.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-fluid-transfers/04.jpg",
+     "lec": "Fluid transfers in the organism",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Plasma water volume is about:",
@@ -4603,7 +5495,14 @@ SINA.lectures["physics1-fluid-transfers"] = {
     "5 L"
    ],
    "answer": 2,
-   "why": "≈ 4% of body weight."
+   "why": "≈ 4% of body weight.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-fluid-transfers/04.jpg",
+     "lec": "Fluid transfers in the organism",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Across a dialysis membrane, the effective osmotic pressure is the:",
@@ -4614,7 +5513,19 @@ SINA.lectures["physics1-fluid-transfers"] = {
     "Atmospheric pressure"
    ],
    "answer": 2,
-   "why": "Small solutes cross freely."
+   "why": "Small solutes cross freely.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-fluid-transfers/03.jpg",
+     "lec": "Fluid transfers in the organism",
+     "n": 3
+    },
+    {
+     "src": "files/slides/physics1-fluid-transfers/06.jpg",
+     "lec": "Fluid transfers in the organism",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The Starling equation is:",
@@ -4625,7 +5536,19 @@ SINA.lectures["physics1-fluid-transfers"] = {
     "K·S(ΔP − Δπ)"
    ],
    "answer": 3,
-   "why": "Hydrostatic vs oncotic."
+   "why": "Hydrostatic vs oncotic.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-fluid-transfers/06.jpg",
+     "lec": "Fluid transfers in the organism",
+     "n": 6
+    },
+    {
+     "src": "files/slides/physics1-fluid-transfers/09.jpg",
+     "lec": "Fluid transfers in the organism",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Between meals, net intestinal flow is:",
@@ -4636,7 +5559,14 @@ SINA.lectures["physics1-fluid-transfers"] = {
     "+10, absorption"
    ],
    "answer": 3,
-   "why": "2 − 20 − 0 + 28."
+   "why": "2 − 20 − 0 + 28.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-fluid-transfers/10.jpg",
+     "lec": "Fluid transfers in the organism",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Why is intestinal oncotic pressure ≈ 0?",
@@ -4647,7 +5577,14 @@ SINA.lectures["physics1-fluid-transfers"] = {
     "High pressure"
    ],
    "answer": 0,
-   "why": "Proteins broken down."
+   "why": "Proteins broken down.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-fluid-transfers/09.jpg",
+     "lec": "Fluid transfers in the organism",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "If intestinal capillary pressure exceeds ~30 mmHg:",
@@ -4658,7 +5595,14 @@ SINA.lectures["physics1-fluid-transfers"] = {
     "Oncotic pressure rises"
    ],
    "answer": 2,
-   "why": "Intestinal congestion."
+   "why": "Intestinal congestion.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-fluid-transfers/11.jpg",
+     "lec": "Fluid transfers in the organism",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "At the arterial end of a capillary, net flow is about:",
@@ -4669,7 +5613,14 @@ SINA.lectures["physics1-fluid-transfers"] = {
     "+7 mmHg, filtration"
    ],
    "answer": 3,
-   "why": "35 − 6 + 6 − 28."
+   "why": "35 − 6 + 6 − 28.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-fluid-transfers/12.jpg",
+     "lec": "Fluid transfers in the organism",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "At the venous end, net flow is about:",
@@ -4680,7 +5631,14 @@ SINA.lectures["physics1-fluid-transfers"] = {
     "+20"
    ],
    "answer": 1,
-   "why": "20 − 6 + 6 − 28."
+   "why": "20 − 6 + 6 − 28.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-fluid-transfers/13.jpg",
+     "lec": "Fluid transfers in the organism",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which favours oedema?",
@@ -4691,7 +5649,19 @@ SINA.lectures["physics1-fluid-transfers"] = {
     "High plasma albumin"
    ],
    "answer": 0,
-   "why": "Also raised capillary hydrostatic pressure."
+   "why": "Also raised capillary hydrostatic pressure.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-fluid-transfers/09.jpg",
+     "lec": "Fluid transfers in the organism",
+     "n": 9
+    },
+    {
+     "src": "files/slides/physics1-fluid-transfers/15.jpg",
+     "lec": "Fluid transfers in the organism",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5008,7 +5978,19 @@ SINA.lectures["physics1-circulation"] = {
     "Portal circulation"
    ],
    "answer": 1,
-   "why": "Via the pulmonary artery."
+   "why": "Via the pulmonary artery.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-circulation/06.jpg",
+     "lec": "Biophysics of the blood circulation",
+     "n": 6
+    },
+    {
+     "src": "files/slides/physics1-circulation/08.jpg",
+     "lec": "Biophysics of the blood circulation",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Blood is a:",
@@ -5019,7 +6001,14 @@ SINA.lectures["physics1-circulation"] = {
     "Newtonian fluid"
    ],
    "answer": 0,
-   "why": "Viscosity varies with flow."
+   "why": "Viscosity varies with flow.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-circulation/09.jpg",
+     "lec": "Biophysics of the blood circulation",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "According to Poiseuille, flow is proportional to:",
@@ -5030,7 +6019,19 @@ SINA.lectures["physics1-circulation"] = {
     "r"
    ],
    "answer": 2,
-   "why": "Small changes in radius matter hugely."
+   "why": "Small changes in radius matter hugely.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-circulation/12.jpg",
+     "lec": "Biophysics of the blood circulation",
+     "n": 12
+    },
+    {
+     "src": "files/slides/physics1-circulation/18.jpg",
+     "lec": "Biophysics of the blood circulation",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Sustained high blood viscosity (polycythaemia) tends to cause:",
@@ -5041,7 +6042,14 @@ SINA.lectures["physics1-circulation"] = {
     "Anaemia"
    ],
    "answer": 0,
-   "why": "Pressure rises to keep flow."
+   "why": "Pressure rises to keep flow.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-circulation/10.jpg",
+     "lec": "Biophysics of the blood circulation",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Flow in the aorta is typically:",
@@ -5052,7 +6060,14 @@ SINA.lectures["physics1-circulation"] = {
     "Turbulent"
    ],
    "answer": 3,
-   "why": "High velocity."
+   "why": "High velocity.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-circulation/12.jpg",
+     "lec": "Biophysics of the blood circulation",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Bernoulli's equation expresses:",
@@ -5063,7 +6078,14 @@ SINA.lectures["physics1-circulation"] = {
     "Viscosity"
    ],
    "answer": 2,
-   "why": "P + ρgh + ½ρv² = const."
+   "why": "P + ρgh + ½ρv² = const.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-circulation/13.jpg",
+     "lec": "Biophysics of the blood circulation",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "In a stenosis:",
@@ -5074,7 +6096,14 @@ SINA.lectures["physics1-circulation"] = {
     "Flow stops"
    ],
    "answer": 2,
-   "why": "Murmur and thrill."
+   "why": "Murmur and thrill.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-circulation/14.jpg",
+     "lec": "Biophysics of the blood circulation",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "In an aneurysm:",
@@ -5085,7 +6114,14 @@ SINA.lectures["physics1-circulation"] = {
     "Velocity falls and pressure rises"
    ],
    "answer": 3,
-   "why": "Bernoulli."
+   "why": "Bernoulli.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-circulation/13.jpg",
+     "lec": "Biophysics of the blood circulation",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Where is blood velocity lowest?",
@@ -5096,7 +6132,14 @@ SINA.lectures["physics1-circulation"] = {
     "Arteries"
    ],
    "answer": 0,
-   "why": "Largest total cross-section."
+   "why": "Largest total cross-section.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-circulation/17.jpg",
+     "lec": "Biophysics of the blood circulation",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Laplace's law for a vessel is:",
@@ -5107,7 +6150,14 @@ SINA.lectures["physics1-circulation"] = {
     "T = P·r"
    ],
    "answer": 3,
-   "why": "Tension grows with radius."
+   "why": "Tension grows with radius.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-circulation/18.jpg",
+     "lec": "Biophysics of the blood circulation",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5460,7 +6510,14 @@ SINA.lectures["physics1-respiration"] = {
     "Both"
    ],
    "answer": 2,
-   "why": "Inspiration needs muscle contraction."
+   "why": "Inspiration needs muscle contraction.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-respiration/07.jpg",
+     "lec": "Biophysics of respiration and gas",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The conduction zone ends at the:",
@@ -5471,7 +6528,14 @@ SINA.lectures["physics1-respiration"] = {
     "Alveolar ducts"
    ],
    "answer": 1,
-   "why": "Then the respiratory zone begins."
+   "why": "Then the respiratory zone begins.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-respiration/05.jpg",
+     "lec": "Biophysics of respiration and gas",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Alveolar PO₂ is about:",
@@ -5482,7 +6546,14 @@ SINA.lectures["physics1-respiration"] = {
     "40 mmHg"
    ],
    "answer": 2,
-   "why": "Atmospheric PO₂ ≈ 152 mmHg."
+   "why": "Atmospheric PO₂ ≈ 152 mmHg.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-respiration/09.jpg",
+     "lec": "Biophysics of respiration and gas",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Alveolar PCO₂ is about:",
@@ -5493,7 +6564,19 @@ SINA.lectures["physics1-respiration"] = {
     "47 mmHg"
    ],
    "answer": 0,
-   "why": "Venous blood ≈ 47."
+   "why": "Venous blood ≈ 47.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-respiration/10.jpg",
+     "lec": "Biophysics of respiration and gas",
+     "n": 10
+    },
+    {
+     "src": "files/slides/physics1-respiration/18.jpg",
+     "lec": "Biophysics of respiration and gas",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Gases diffuse across the alveolar membrane according to:",
@@ -5504,7 +6587,14 @@ SINA.lectures["physics1-respiration"] = {
     "Stokes' law"
    ],
    "answer": 2,
-   "why": "Flux ∝ D·s·S·ΔP/e."
+   "why": "Flux ∝ D·s·S·ΔP/e.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-respiration/09.jpg",
+     "lec": "Biophysics of respiration and gas",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "CO₂ diffuses more easily than O₂ because it is:",
@@ -5515,7 +6605,14 @@ SINA.lectures["physics1-respiration"] = {
     "About 20 times more soluble"
    ],
    "answer": 3,
-   "why": "Solubility coefficient."
+   "why": "Solubility coefficient.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-respiration/11.jpg",
+     "lec": "Biophysics of respiration and gas",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Thickening of the alveolar-capillary membrane:",
@@ -5526,7 +6623,14 @@ SINA.lectures["physics1-respiration"] = {
     "Has no effect"
    ],
    "answer": 0,
-   "why": "Flux ∝ 1/e."
+   "why": "Flux ∝ 1/e.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-respiration/10.jpg",
+     "lec": "Biophysics of respiration and gas",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Surfactant is produced by:",
@@ -5537,7 +6641,14 @@ SINA.lectures["physics1-respiration"] = {
     "Type I pneumocytes"
    ],
    "answer": 1,
-   "why": "Lowers surface tension."
+   "why": "Lowers surface tension.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-respiration/17.jpg",
+     "lec": "Biophysics of respiration and gas",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Absence of surfactant in premature newborns causes:",
@@ -5548,7 +6659,14 @@ SINA.lectures["physics1-respiration"] = {
     "Emphysema"
    ],
    "answer": 0,
-   "why": "Alveoli cannot open."
+   "why": "Alveoli cannot open.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-respiration/06.jpg",
+     "lec": "Biophysics of respiration and gas",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Most O₂ in blood travels:",
@@ -5559,7 +6677,19 @@ SINA.lectures["physics1-respiration"] = {
     "Bound to haemoglobin"
    ],
    "answer": 3,
-   "why": "About 98%."
+   "why": "About 98%.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-respiration/24.jpg",
+     "lec": "Biophysics of respiration and gas",
+     "n": 24
+    },
+    {
+     "src": "files/slides/physics1-respiration/25.jpg",
+     "lec": "Biophysics of respiration and gas",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Most CO₂ in blood travels as:",
@@ -5976,7 +7106,14 @@ SINA.lectures["physics1-acid-base"] = {
     "7.00-7.20"
    ],
    "answer": 2,
-   "why": "Venous slightly lower."
+   "why": "Venous slightly lower.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-acid-base/16.jpg",
+     "lec": "Acid-base balance",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "pH is defined as:",
@@ -5987,7 +7124,14 @@ SINA.lectures["physics1-acid-base"] = {
     "−log[H⁺]"
    ],
    "answer": 3,
-   "why": "[H⁺] = 10⁻ᵖᴴ."
+   "why": "[H⁺] = 10⁻ᵖᴴ.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-acid-base/26.jpg",
+     "lec": "Acid-base balance",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "A strong acid has:",
@@ -5998,7 +7142,14 @@ SINA.lectures["physics1-acid-base"] = {
     "High Ka, low pKa"
    ],
    "answer": 3,
-   "why": "It dissociates easily."
+   "why": "It dissociates easily.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-acid-base/07.jpg",
+     "lec": "Acid-base balance",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "A buffer consists of:",
@@ -6009,7 +7160,19 @@ SINA.lectures["physics1-acid-base"] = {
     "Water only"
    ],
    "answer": 0,
-   "why": "It damps pH changes."
+   "why": "It damps pH changes.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-acid-base/13.jpg",
+     "lec": "Acid-base balance",
+     "n": 13
+    },
+    {
+     "src": "files/slides/physics1-acid-base/29.jpg",
+     "lec": "Acid-base balance",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "The pKa of the bicarbonate buffer at 37 °C is:",
@@ -6020,7 +7183,19 @@ SINA.lectures["physics1-acid-base"] = {
     "9.2"
    ],
    "answer": 2,
-   "why": "Phosphate: 6.82."
+   "why": "Phosphate: 6.82.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-acid-base/11.jpg",
+     "lec": "Acid-base balance",
+     "n": 11
+    },
+    {
+     "src": "files/slides/physics1-acid-base/13.jpg",
+     "lec": "Acid-base balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Normal plasma bicarbonate is about:",
@@ -6031,7 +7206,14 @@ SINA.lectures["physics1-acid-base"] = {
     "140 mmol/L"
    ],
    "answer": 2,
-   "why": "Measured on blood gases."
+   "why": "Measured on blood gases.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-acid-base/11.jpg",
+     "lec": "Acid-base balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Normal arterial PCO₂ is about:",
@@ -6042,7 +7224,19 @@ SINA.lectures["physics1-acid-base"] = {
     "760 mmHg"
    ],
    "answer": 1,
-   "why": "40 ± 3 mmHg."
+   "why": "40 ± 3 mmHg.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-acid-base/12.jpg",
+     "lec": "Acid-base balance",
+     "n": 12
+    },
+    {
+     "src": "files/slides/physics1-acid-base/22.jpg",
+     "lec": "Acid-base balance",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Why is bicarbonate called an 'open' buffer?",
@@ -6064,7 +7258,19 @@ SINA.lectures["physics1-acid-base"] = {
     "6.10"
    ],
    "answer": 0,
-   "why": "6.1 + log(24/1.2) = 6.1 + log 20."
+   "why": "6.1 + log(24/1.2) = 6.1 + log 20.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-acid-base/12.jpg",
+     "lec": "Acid-base balance",
+     "n": 12
+    },
+    {
+     "src": "files/slides/physics1-acid-base/22.jpg",
+     "lec": "Acid-base balance",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "The main buffer inside red cells is:",
@@ -6075,7 +7281,19 @@ SINA.lectures["physics1-acid-base"] = {
     "Bicarbonate"
    ],
    "answer": 0,
-   "why": "Blood buffers better than plasma."
+   "why": "Blood buffers better than plasma.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-acid-base/14.jpg",
+     "lec": "Acid-base balance",
+     "n": 14
+    },
+    {
+     "src": "files/slides/physics1-acid-base/21.jpg",
+     "lec": "Acid-base balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Hypoventilation causes:",
@@ -6086,7 +7304,19 @@ SINA.lectures["physics1-acid-base"] = {
     "Metabolic alkalosis"
    ],
    "answer": 1,
-   "why": "CO₂ retention."
+   "why": "CO₂ retention.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-acid-base/22.jpg",
+     "lec": "Acid-base balance",
+     "n": 22
+    },
+    {
+     "src": "files/slides/physics1-acid-base/32.jpg",
+     "lec": "Acid-base balance",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Metabolic acidosis is compensated by:",
@@ -6097,7 +7327,19 @@ SINA.lectures["physics1-acid-base"] = {
     "Hyperventilation lowering PCO₂"
    ],
    "answer": 3,
-   "why": "Lungs act within minutes."
+   "why": "Lungs act within minutes.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-acid-base/18.jpg",
+     "lec": "Acid-base balance",
+     "n": 18
+    },
+    {
+     "src": "files/slides/physics1-acid-base/34.jpg",
+     "lec": "Acid-base balance",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Prolonged vomiting typically causes:",
@@ -6108,7 +7350,14 @@ SINA.lectures["physics1-acid-base"] = {
     "Metabolic acidosis"
    ],
    "answer": 1,
-   "why": "Loss of gastric acid."
+   "why": "Loss of gastric acid.",
+   "slides": [
+    {
+     "src": "files/slides/physics1-acid-base/36.jpg",
+     "lec": "Acid-base balance",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

@@ -205,7 +205,14 @@ SINA.lectures["anat3-orbit"] = {
     "Eight"
    ],
    "answer": 2,
-   "why": "Frontal, sphenoid and ethmoid (cranial) plus zygomatic, lacrimal, maxilla and palatine (facial): 3 cranial + 4 facial = 7."
+   "why": "Frontal, sphenoid and ethmoid (cranial) plus zygomatic, lacrimal, maxilla and palatine (facial): 3 cranial + 4 facial = 7.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbit/05.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which two bones form the roof of the orbit?",
@@ -216,7 +223,14 @@ SINA.lectures["anat3-orbit"] = {
     "Orbital plate of the ethmoid and orbital plate of the frontal bone"
    ],
    "answer": 0,
-   "why": "The roof is the orbital plate of the frontal bone plus, posteriorly, the lesser wing of the sphenoid. The greater wing belongs to the lateral wall."
+   "why": "The roof is the orbital plate of the frontal bone plus, posteriorly, the lesser wing of the sphenoid. The greater wing belongs to the lateral wall.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbit/24.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which orbital wall is the thickest and strongest?",
@@ -227,7 +241,14 @@ SINA.lectures["anat3-orbit"] = {
     "Lateral wall (zygomatic and greater wing of sphenoid)"
    ],
    "answer": 3,
-   "why": "The lateral wall (zygomatic bone + greater wing of the sphenoid) is the strongest. The medial wall, thinned by the lamina papyracea, is the thinnest."
+   "why": "The lateral wall (zygomatic bone + greater wing of the sphenoid) is the strongest. The medial wall, thinned by the lamina papyracea, is the thinnest.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbit/24.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The paper-thin lamina papyracea is part of which bone?",
@@ -238,7 +259,19 @@ SINA.lectures["anat3-orbit"] = {
     "Palatine bone"
    ],
    "answer": 1,
-   "why": "Lamina papyracea is the orbital plate of the ethmoid. It forms the largest part of the medial wall and separates the orbit from the ethmoid sinus."
+   "why": "Lamina papyracea is the orbital plate of the ethmoid. It forms the largest part of the medial wall and separates the orbit from the ethmoid sinus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbit/24.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 24
+    },
+    {
+     "src": "files/slides/anat3-orbit/27.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "The floor of the orbit is also the roof of which air space?",
@@ -249,7 +282,14 @@ SINA.lectures["anat3-orbit"] = {
     "Sphenoid sinus"
    ],
    "answer": 1,
-   "why": "The orbital floor (maxilla, zygomatic, palatine) separates the orbit from the maxillary sinus below. The frontal sinus lies above, the ethmoidal cells medially."
+   "why": "The orbital floor (maxilla, zygomatic, palatine) separates the orbit from the maxillary sinus below. The frontal sinus lies above, the ethmoidal cells medially.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbit/06.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which structures pass through the optic canal?",
@@ -260,7 +300,14 @@ SINA.lectures["anat3-orbit"] = {
     "Optic nerve and ophthalmic artery"
    ],
    "answer": 3,
-   "why": "The optic canal (in the lesser wing of the sphenoid) carries the optic nerve (CN II) and the ophthalmic artery. The ophthalmic artery does not use the superior orbital fissure."
+   "why": "The optic canal (in the lesser wing of the sphenoid) carries the optic nerve (CN II) and the ophthalmic artery. The ophthalmic artery does not use the superior orbital fissure.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbit/24.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which nerve passes through the superior orbital fissure OUTSIDE the common tendinous ring?",
@@ -271,7 +318,19 @@ SINA.lectures["anat3-orbit"] = {
     "Inferior division of the oculomotor nerve"
    ],
    "answer": 0,
-   "why": "Outside the ring: lacrimal nerve, frontal nerve, trochlear nerve (CN IV) and the superior ophthalmic vein (LFT + vein). Inside the ring: both divisions of CN III, CN VI and the nasociliary nerve."
+   "why": "Outside the ring: lacrimal nerve, frontal nerve, trochlear nerve (CN IV) and the superior ophthalmic vein (LFT + vein). Inside the ring: both divisions of CN III, CN VI and the nasociliary nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbit/21.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 21
+    },
+    {
+     "src": "files/slides/anat3-orbit/24.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The superior orbital fissure lies between which structures?",
@@ -282,7 +341,14 @@ SINA.lectures["anat3-orbit"] = {
     "Greater wing of the sphenoid and maxilla"
    ],
    "answer": 2,
-   "why": "The superior orbital fissure is the gap between the lesser and greater wings of the sphenoid. The inferior orbital fissure lies between the greater wing of the sphenoid and the maxilla."
+   "why": "The superior orbital fissure is the gap between the lesser and greater wings of the sphenoid. The inferior orbital fissure lies between the greater wing of the sphenoid and the maxilla.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbit/24.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The infraorbital nerve is a continuation of which nerve?",
@@ -293,7 +359,14 @@ SINA.lectures["anat3-orbit"] = {
     "Maxillary nerve (V2)"
    ],
    "answer": 3,
-   "why": "The maxillary nerve enters the orbit via the inferior orbital fissure and continues as the infraorbital nerve, which leaves through the infraorbital foramen onto the face."
+   "why": "The maxillary nerve enters the orbit via the inferior orbital fissure and continues as the infraorbital nerve, which leaves through the infraorbital foramen onto the face.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbit/24.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which extraocular muscle does NOT arise from the orbital apex?",
@@ -304,7 +377,14 @@ SINA.lectures["anat3-orbit"] = {
     "Levator palpebrae superioris"
    ],
    "answer": 0,
-   "why": "The inferior oblique arises from the orbital surface of the maxilla, near the front of the floor. All the others arise at the apex (common tendinous ring, body of sphenoid or lesser wing)."
+   "why": "The inferior oblique arises from the orbital surface of the maxilla, near the front of the floor. All the others arise at the apex (common tendinous ring, body of sphenoid or lesser wing).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbit/30.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which muscle is supplied by the abducens nerve (CN VI)?",
@@ -315,7 +395,14 @@ SINA.lectures["anat3-orbit"] = {
     "Inferior rectus"
    ],
    "answer": 2,
-   "why": "LR6 SO4: lateral rectus is supplied by CN VI, superior oblique by CN IV, and every other extraocular muscle (including levator palpebrae superioris) by CN III."
+   "why": "LR6 SO4: lateral rectus is supplied by CN VI, superior oblique by CN IV, and every other extraocular muscle (including levator palpebrae superioris) by CN III.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbit/30.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Roughly what angle do the lateral walls of the two orbits form with each other?",
@@ -326,7 +413,14 @@ SINA.lectures["anat3-orbit"] = {
     "Parallel (0 degrees)"
    ],
    "answer": 1,
-   "why": "The lateral walls of the two orbits meet at about 90 degrees. The two orbital axes make about 45 degrees with each other, while the medial walls are roughly parallel."
+   "why": "The lateral walls of the two orbits meet at about 90 degrees. The two orbital axes make about 45 degrees with each other, while the medial walls are roughly parallel.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbit/14.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which structures pass through the superior orbital fissure INSIDE the common tendinous ring? (choose all)",
@@ -340,7 +434,14 @@ SINA.lectures["anat3-orbit"] = {
     0,
     1
    ],
-   "why": "Inside the ring: both divisions of CN III, CN VI and the nasociliary nerve. The frontal nerve and the superior ophthalmic vein pass outside the ring."
+   "why": "Inside the ring: both divisions of CN III, CN VI and the nasociliary nerve. The frontal nerve and the superior ophthalmic vein pass outside the ring.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbit/24.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which muscles are supplied by the oculomotor nerve (CN III)? (choose all)",
@@ -354,7 +455,14 @@ SINA.lectures["anat3-orbit"] = {
     0,
     2
    ],
-   "why": "LR6 SO4: lateral rectus is CN VI and superior oblique is CN IV. Everything else, including the inferior oblique and levator palpebrae superioris, is CN III."
+   "why": "LR6 SO4: lateral rectus is CN VI and superior oblique is CN IV. Everything else, including the inferior oblique and levator palpebrae superioris, is CN III.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbit/30.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which bones take part in the floor of the orbit? (choose all)",
@@ -368,7 +476,19 @@ SINA.lectures["anat3-orbit"] = {
     0,
     1
    ],
-   "why": "The floor is formed by the orbital surface of the maxilla, the zygomatic bone and the orbital process of the palatine. The lacrimal and ethmoid belong to the medial wall."
+   "why": "The floor is formed by the orbital surface of the maxilla, the zygomatic bone and the orbital process of the palatine. The lacrimal and ethmoid belong to the medial wall.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbit/05.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 5
+    },
+    {
+     "src": "files/slides/anat3-orbit/06.jpg",
+     "lec": "The orbit: osteology and myology",
+     "n": 6
+    }
+   ]
   }
  ],
  "cards": [
@@ -1336,7 +1456,14 @@ SINA.lectures["anat3-face-osteology"] = {
     "28"
    ],
    "answer": 1,
-   "why": "22 bones: 8 cranial (neurocranium) and 14 facial (viscerocranium, which includes the mandible)."
+   "why": "22 bones: 8 cranial (neurocranium) and 14 facial (viscerocranium, which includes the mandible).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/08.jpg",
+     "lec": "Osteology of the face",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which of these is a cranial bone rather than a facial bone?",
@@ -1347,7 +1474,19 @@ SINA.lectures["anat3-face-osteology"] = {
     "Ethmoid"
    ],
    "answer": 3,
-   "why": "The 8 cranial bones are the frontal, ethmoid, sphenoid, occipital, 2 parietals and 2 temporals. The others listed are facial bones."
+   "why": "The 8 cranial bones are the frontal, ethmoid, sphenoid, occipital, 2 parietals and 2 temporals. The others listed are facial bones.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/05.jpg",
+     "lec": "Osteology of the face",
+     "n": 5
+    },
+    {
+     "src": "files/slides/anat3-face-osteology/06.jpg",
+     "lec": "Osteology of the face",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Besides the mandible, which facial bone is unpaired?",
@@ -1358,7 +1497,19 @@ SINA.lectures["anat3-face-osteology"] = {
     "Nasal"
    ],
    "answer": 0,
-   "why": "The facial skeleton has 6 paired bones (maxilla, zygomatic, palatine, nasal, lacrimal, inferior nasal concha) and 2 unpaired bones: the mandible and the vomer."
+   "why": "The facial skeleton has 6 paired bones (maxilla, zygomatic, palatine, nasal, lacrimal, inferior nasal concha) and 2 unpaired bones: the mandible and the vomer.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/08.jpg",
+     "lec": "Osteology of the face",
+     "n": 8
+    },
+    {
+     "src": "files/slides/anat3-face-osteology/09.jpg",
+     "lec": "Osteology of the face",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which bone contains the sella turcica, the fossa that holds the pituitary gland?",
@@ -1369,7 +1520,14 @@ SINA.lectures["anat3-face-osteology"] = {
     "Occipital"
    ],
    "answer": 2,
-   "why": "The sella turcica is a saddle-shaped depression on the upper surface of the body of the sphenoid."
+   "why": "The sella turcica is a saddle-shaped depression on the upper surface of the body of the sphenoid.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/12.jpg",
+     "lec": "Osteology of the face",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which opening in the greater wing of the sphenoid transmits the maxillary nerve (V2)?",
@@ -1380,7 +1538,19 @@ SINA.lectures["anat3-face-osteology"] = {
     "Optic canal"
    ],
    "answer": 2,
-   "why": "Foramen rotundum carries V2, foramen ovale carries V3 (mandibular nerve), and foramen spinosum carries the middle meningeal vessels. The optic canal is in the lesser wing."
+   "why": "Foramen rotundum carries V2, foramen ovale carries V3 (mandibular nerve), and foramen spinosum carries the middle meningeal vessels. The optic canal is in the lesser wing.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/06.jpg",
+     "lec": "Osteology of the face",
+     "n": 6
+    },
+    {
+     "src": "files/slides/anat3-face-osteology/09.jpg",
+     "lec": "Osteology of the face",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which structures pass through the foramina of the cribriform plate?",
@@ -1391,7 +1561,14 @@ SINA.lectures["anat3-face-osteology"] = {
     "Maxillary nerve (CN V2)"
    ],
    "answer": 0,
-   "why": "The cribriform plate is the sieve-like roof of the nasal cavity. Its small openings carry the fibres of the olfactory nerves from the nose to the brain."
+   "why": "The cribriform plate is the sieve-like roof of the nasal cavity. Its small openings carry the fibres of the olfactory nerves from the nose to the brain.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/06.jpg",
+     "lec": "Osteology of the face",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which part of the ethmoid forms the upper part of the bony nasal septum?",
@@ -1402,7 +1579,19 @@ SINA.lectures["anat3-face-osteology"] = {
     "Perpendicular plate"
    ],
    "answer": 3,
-   "why": "The perpendicular plate hangs down from the cribriform plate and, with the vomer, forms the bony nasal septum. The crista galli is its upward projection, anchoring the falx cerebri."
+   "why": "The perpendicular plate hangs down from the cribriform plate and, with the vomer, forms the bony nasal septum. The crista galli is its upward projection, anchoring the falx cerebri.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/06.jpg",
+     "lec": "Osteology of the face",
+     "n": 6
+    },
+    {
+     "src": "files/slides/anat3-face-osteology/09.jpg",
+     "lec": "Osteology of the face",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The zygomatic arch is formed by the temporal process of the zygomatic bone and which other structure?",
@@ -1413,7 +1602,14 @@ SINA.lectures["anat3-face-osteology"] = {
     "Zygomatic process of the frontal bone"
    ],
    "answer": 1,
-   "why": "The arch is completed by the zygomatic process of the temporal bone joining the temporal process of the zygomatic bone at the temporozygomatic suture."
+   "why": "The arch is completed by the zygomatic process of the temporal bone joining the temporal process of the zygomatic bone at the temporozygomatic suture.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/14.jpg",
+     "lec": "Osteology of the face",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "How many processes does each maxilla have?",
@@ -1424,7 +1620,14 @@ SINA.lectures["anat3-face-osteology"] = {
     "Five"
    ],
    "answer": 0,
-   "why": "Each maxilla has a body and four processes: frontal, zygomatic, alveolar and palatine."
+   "why": "Each maxilla has a body and four processes: frontal, zygomatic, alveolar and palatine.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/23.jpg",
+     "lec": "Osteology of the face",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which is the largest paranasal sinus?",
@@ -1435,7 +1638,14 @@ SINA.lectures["anat3-face-osteology"] = {
     "Maxillary sinus"
    ],
    "answer": 3,
-   "why": "The maxillary sinus lies in the body of the maxilla and is the largest. The maxilla is the only facial bone that contains a paranasal sinus."
+   "why": "The maxillary sinus lies in the body of the maxilla and is the largest. The maxilla is the only facial bone that contains a paranasal sinus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/13.jpg",
+     "lec": "Osteology of the face",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which structure separates the coronoid and condylar processes of the mandible?",
@@ -1446,7 +1656,14 @@ SINA.lectures["anat3-face-osteology"] = {
     "Angle of the mandible"
    ],
    "answer": 1,
-   "why": "The mandibular notch is the deep concavity between the coronoid process in front and the condylar process behind."
+   "why": "The mandibular notch is the deep concavity between the coronoid process in front and the condylar process behind.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/30.jpg",
+     "lec": "Osteology of the face",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which nerve enters the mandibular foramen on the inner surface of the ramus?",
@@ -1457,7 +1674,19 @@ SINA.lectures["anat3-face-osteology"] = {
     "Maxillary nerve (V2)"
    ],
    "answer": 2,
-   "why": "The inferior alveolar nerve (from V3) enters the mandibular foramen and runs in the mandibular canal. Its mental branch later exits through the mental foramen."
+   "why": "The inferior alveolar nerve (from V3) enters the mandibular foramen and runs in the mandibular canal. Its mental branch later exits through the mental foramen.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/06.jpg",
+     "lec": "Osteology of the face",
+     "n": 6
+    },
+    {
+     "src": "files/slides/anat3-face-osteology/08.jpg",
+     "lec": "Osteology of the face",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which bones meet at the pterion?",
@@ -1468,7 +1697,14 @@ SINA.lectures["anat3-face-osteology"] = {
     "Frontal, parietal, squamous temporal and greater wing of sphenoid"
    ],
    "answer": 3,
-   "why": "The pterion is the H-shaped junction of the frontal bone, parietal bone, squamous part of the temporal bone and greater wing of the sphenoid. It lies over the anterior branch of the middle meningeal artery."
+   "why": "The pterion is the H-shaped junction of the frontal bone, parietal bone, squamous part of the temporal bone and greater wing of the sphenoid. It lies over the anterior branch of the middle meningeal artery.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/21.jpg",
+     "lec": "Osteology of the face",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which gland sits in the sublingual fossa of the mandible?",
@@ -1490,7 +1726,19 @@ SINA.lectures["anat3-face-osteology"] = {
     "Zygomatic bone"
    ],
    "answer": 1,
-   "why": "The mandibular (glenoid) fossa is on the squamous part of the temporal bone, just below the zygomatic process. Together with the head of the mandible it forms the temporomandibular joint."
+   "why": "The mandibular (glenoid) fossa is on the squamous part of the temporal bone, just below the zygomatic process. Together with the head of the mandible it forms the temporomandibular joint.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/09.jpg",
+     "lec": "Osteology of the face",
+     "n": 9
+    },
+    {
+     "src": "files/slides/anat3-face-osteology/14.jpg",
+     "lec": "Osteology of the face",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which structure forms the posterior part of the hard palate?",
@@ -1501,7 +1749,19 @@ SINA.lectures["anat3-face-osteology"] = {
     "Medial pterygoid plate of sphenoid"
    ],
    "answer": 2,
-   "why": "The palatine processes of the maxillae form the front of the hard palate, and the horizontal plates of the palatine bones complete it behind."
+   "why": "The palatine processes of the maxillae form the front of the hard palate, and the horizontal plates of the palatine bones complete it behind.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/09.jpg",
+     "lec": "Osteology of the face",
+     "n": 9
+    },
+    {
+     "src": "files/slides/anat3-face-osteology/30.jpg",
+     "lec": "Osteology of the face",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which bones are shown as part of the cranial base in the lecture figure? (choose all)",
@@ -1515,7 +1775,14 @@ SINA.lectures["anat3-face-osteology"] = {
     0,
     1
    ],
-   "why": "The lecture's cranial base figure colours the frontal, sphenoid, temporal, parietal, occipital and ethmoid bones. The nasal bone and vomer are facial bones that take no part in the cranial base."
+   "why": "The lecture's cranial base figure colours the frontal, sphenoid, temporal, parietal, occipital and ethmoid bones. The nasal bone and vomer are facial bones that take no part in the cranial base.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/06.jpg",
+     "lec": "Osteology of the face",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which processes belong to the maxilla? (choose all)",
@@ -1529,7 +1796,19 @@ SINA.lectures["anat3-face-osteology"] = {
     0,
     1
    ],
-   "why": "The maxilla has four processes: frontal, zygomatic, alveolar and palatine. The pterygoid process belongs to the sphenoid and the petrous part to the temporal bone."
+   "why": "The maxilla has four processes: frontal, zygomatic, alveolar and palatine. The pterygoid process belongs to the sphenoid and the petrous part to the temporal bone.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/09.jpg",
+     "lec": "Osteology of the face",
+     "n": 9
+    },
+    {
+     "src": "files/slides/anat3-face-osteology/14.jpg",
+     "lec": "Osteology of the face",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which structures are found on the inner surface of the body of the mandible? (choose all)",
@@ -1543,7 +1822,19 @@ SINA.lectures["anat3-face-osteology"] = {
     0,
     1
    ],
-   "why": "The sublingual and submandibular fossae lie on the inner surface, above and below the mylohyoid line. The mental foramen is on the outer surface and the coronoid process is on the ramus."
+   "why": "The sublingual and submandibular fossae lie on the inner surface, above and below the mylohyoid line. The mental foramen is on the outer surface and the coronoid process is on the ramus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/23.jpg",
+     "lec": "Osteology of the face",
+     "n": 23
+    },
+    {
+     "src": "files/slides/anat3-face-osteology/30.jpg",
+     "lec": "Osteology of the face",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which bones meet at the pterion? (choose all)",
@@ -1557,7 +1848,19 @@ SINA.lectures["anat3-face-osteology"] = {
     0,
     1
    ],
-   "why": "The pterion is the H-shaped junction of the frontal, parietal, squamous temporal and greater wing of the sphenoid. The occipital and ethmoid take no part in it."
+   "why": "The pterion is the H-shaped junction of the frontal, parietal, squamous temporal and greater wing of the sphenoid. The occipital and ethmoid take no part in it.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-face-osteology/06.jpg",
+     "lec": "Osteology of the face",
+     "n": 6
+    },
+    {
+     "src": "files/slides/anat3-face-osteology/07.jpg",
+     "lec": "Osteology of the face",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -2474,7 +2777,14 @@ SINA.lectures["anat3-facial-muscles"] = {
     "Glossopharyngeal nerve (CN IX)"
    ],
    "answer": 0,
-   "why": "All the muscles of facial expression are supplied by the facial nerve. The trigeminal nerve, through V3, supplies the muscles of mastication instead."
+   "why": "All the muscles of facial expression are supplied by the facial nerve. The trigeminal nerve, through V3, supplies the muscles of mastication instead.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/03.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Where do the muscles of facial expression insert?",
@@ -2485,7 +2795,14 @@ SINA.lectures["anat3-facial-muscles"] = {
     "Into the cartilage of the external ear"
    ],
    "answer": 1,
-   "why": "They lie in the superficial fascia, arise from bone or fascia and insert into the skin. That is why their contraction moves the skin and produces expressions."
+   "why": "They lie in the superficial fascia, arise from bone or fascia and insert into the skin. That is why their contraction moves the skin and produces expressions.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/03.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The two bellies of the occipitofrontalis are joined by which structure?",
@@ -2496,7 +2813,14 @@ SINA.lectures["anat3-facial-muscles"] = {
     "Pterygomandibular raphe"
    ],
    "answer": 2,
-   "why": "The frontal and occipital bellies are connected by the intervening tendinous sheet, the galea aponeurotica (epicranial aponeurosis). The frontal belly has no bony attachment."
+   "why": "The frontal and occipital bellies are connected by the intervening tendinous sheet, the galea aponeurotica (epicranial aponeurosis). The frontal belly has no bony attachment.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/12.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which part of the orbicularis oculi closes the eyelids gently, as in blinking or sleep?",
@@ -2507,7 +2831,14 @@ SINA.lectures["anat3-facial-muscles"] = {
     "Palpebral part"
    ],
    "answer": 3,
-   "why": "The palpebral part acts involuntarily and closes the lids gently. The orbital part closes the eye forcefully and is under conscious control, wrinkling the forehead."
+   "why": "The palpebral part acts involuntarily and closes the lids gently. The orbital part closes the eye forcefully and is under conscious control, wrinkling the forehead.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/16.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which muscle is known as the frowning muscle and draws the eyebrows medially and downward?",
@@ -2518,7 +2849,14 @@ SINA.lectures["anat3-facial-muscles"] = {
     "Nasalis, transverse part"
    ],
    "answer": 1,
-   "why": "The corrugator supercilii arises from the medial end of the superciliary arch and inserts into the skin of the medial half of the eyebrow, making vertical wrinkles above the nose."
+   "why": "The corrugator supercilii arises from the medial end of the superciliary arch and inserts into the skin of the medial half of the eyebrow, making vertical wrinkles above the nose.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/17.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which muscle draws down the medial angle of the eyebrows and produces transverse wrinkles over the bridge of the nose?",
@@ -2529,7 +2867,14 @@ SINA.lectures["anat3-facial-muscles"] = {
     "Procerus"
    ],
    "answer": 3,
-   "why": "The procerus is a small pyramidal slip arising from the nasal bone and upper part of the lateral nasal cartilage, inserting into the skin of the lower forehead between the eyebrows."
+   "why": "The procerus is a small pyramidal slip arising from the nasal bone and upper part of the lateral nasal cartilage, inserting into the skin of the lower forehead between the eyebrows.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/20.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which muscle forms the muscular component of the cheek?",
@@ -2540,7 +2885,19 @@ SINA.lectures["anat3-facial-muscles"] = {
     "Orbicularis oris"
    ],
    "answer": 2,
-   "why": "The buccinator is a thin quadrilateral muscle between the maxilla and mandible. It compresses the cheeks so food stays between the teeth during chewing, and it is used in blowing and suckling."
+   "why": "The buccinator is a thin quadrilateral muscle between the maxilla and mandible. It compresses the cheeks so food stays between the teeth during chewing, and it is used in blowing and suckling.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/23.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 23
+    },
+    {
+     "src": "files/slides/anat3-facial-muscles/24.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Into which structure do the posterior fibres of the buccinator continue?",
@@ -2551,7 +2908,14 @@ SINA.lectures["anat3-facial-muscles"] = {
     "Sphenomandibular ligament"
    ],
    "answer": 0,
-   "why": "The buccinator arises from the posterior parts of the maxilla and mandible and from the pterygomandibular raphe, which separates it from the superior constrictor of the pharynx."
+   "why": "The buccinator arises from the posterior parts of the maxilla and mandible and from the pterygomandibular raphe, which separates it from the superior constrictor of the pharynx.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/23.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which muscle is described as the pouting muscle of the chin?",
@@ -2562,7 +2926,14 @@ SINA.lectures["anat3-facial-muscles"] = {
     "Mentalis"
    ],
    "answer": 3,
-   "why": "The mentalis arises from the mandible below the incisor teeth and inserts into the skin of the chin. It raises and protrudes the lower lip, wrinkling the chin skin."
+   "why": "The mentalis arises from the mandible below the incisor teeth and inserts into the skin of the chin. It raises and protrudes the lower lip, wrinkling the chin skin.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/26.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "The levator palpebrae superioris is supplied by which nerve?",
@@ -2573,7 +2944,14 @@ SINA.lectures["anat3-facial-muscles"] = {
     "Abducens nerve (CN VI), the lateral rectus nerve"
    ],
    "answer": 1,
-   "why": "It arises from the lesser wing of the sphenoid above the optic canal and inserts into the superior tarsal plate. Unlike the facial muscles around it, it is supplied by CN III."
+   "why": "It arises from the lesser wing of the sphenoid above the optic canal and inserts into the superior tarsal plate. Unlike the facial muscles around it, it is supplied by CN III.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/18.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which muscle of mastication inserts on the coronoid process of the mandible?",
@@ -2584,7 +2962,19 @@ SINA.lectures["anat3-facial-muscles"] = {
     "Lateral pterygoid"
    ],
    "answer": 0,
-   "why": "The temporalis arises from the floor of the temporal fossa and the deep temporal fascia and inserts on the coronoid process and anterior border of the ramus. Its posterior fibres retract the mandible."
+   "why": "The temporalis arises from the floor of the temporal fossa and the deep temporal fascia and inserts on the coronoid process and anterior border of the ramus. Its posterior fibres retract the mandible.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/37.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 37
+    },
+    {
+     "src": "files/slides/anat3-facial-muscles/40.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "The lateral pterygoid inserts mainly on which part of the mandible?",
@@ -2595,7 +2985,14 @@ SINA.lectures["anat3-facial-muscles"] = {
     "Mental protuberance"
    ],
    "answer": 2,
-   "why": "Its two heads insert on the pterygoid fovea of the neck of the condylar process, and on the capsule and articular disc of the temporomandibular joint. It protrudes the mandible."
+   "why": "Its two heads insert on the pterygoid fovea of the neck of the condylar process, and on the capsule and articular disc of the temporomandibular joint. It protrudes the mandible.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/41.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Which nerve supplies the muscles of mastication?",
@@ -2606,7 +3003,14 @@ SINA.lectures["anat3-facial-muscles"] = {
     "Mandibular nerve (V3)"
    ],
    "answer": 3,
-   "why": "All four muscles of mastication are supplied by branches of the mandibular division of the trigeminal nerve."
+   "why": "All four muscles of mastication are supplied by branches of the mandibular division of the trigeminal nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/37.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which structure divides the temporomandibular joint into two synovial cavities?",
@@ -2617,7 +3021,14 @@ SINA.lectures["anat3-facial-muscles"] = {
     "Joint capsule"
    ],
    "answer": 0,
-   "why": "The TMJ has an articular disc, so the bones never touch. The joint surfaces are covered by fibrocartilage, not hyaline cartilage."
+   "why": "The TMJ has an articular disc, so the bones never touch. The joint surfaces are covered by fibrocartilage, not hyaline cartilage.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/34.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which movement at the temporomandibular joint is mostly caused by gravity?",
@@ -2628,7 +3039,14 @@ SINA.lectures["anat3-facial-muscles"] = {
     "Retraction of the mandible"
    ],
    "answer": 2,
-   "why": "Elevation and depression happen in the lower part of the joint. Depression is mainly due to gravity, with the digastric, geniohyoid and mylohyoid helping if there is resistance."
+   "why": "Elevation and depression happen in the lower part of the joint. Depression is mainly due to gravity, with the digastric, geniohyoid and mylohyoid helping if there is resistance.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/36.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "In a dislocation of the temporomandibular joint, the head of the mandible slips out of the mandibular fossa and is pulled in which direction?",
@@ -2639,7 +3057,14 @@ SINA.lectures["anat3-facial-muscles"] = {
     "Superiorly"
    ],
    "answer": 1,
-   "why": "The head slips out and is pulled forward, so the patient cannot close the mouth. A blow to the side of the face, yawning or a large bite can cause it."
+   "why": "The head slips out and is pulled forward, so the patient cannot close the mouth. A blow to the side of the face, yawning or a large bite can cause it.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/43.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Which muscles belong to the muscles of mastication? (choose all)",
@@ -2653,7 +3078,14 @@ SINA.lectures["anat3-facial-muscles"] = {
     0,
     1
    ],
-   "why": "The four muscles of mastication are the temporalis, masseter, medial pterygoid and lateral pterygoid. The buccinator and platysma are muscles of facial expression, supplied by CN VII."
+   "why": "The four muscles of mastication are the temporalis, masseter, medial pterygoid and lateral pterygoid. The buccinator and platysma are muscles of facial expression, supplied by CN VII.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/40.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Which muscles are supplied by the buccal branch of the facial nerve, according to the lecture? (choose all)",
@@ -2667,7 +3099,19 @@ SINA.lectures["anat3-facial-muscles"] = {
     0,
     1
    ],
-   "why": "The lecture lists the buccal branch as supplying the orbicularis oris, buccinator and zygomaticus. The temporalis is a muscle of mastication (V3) and the platysma takes the cervical branch."
+   "why": "The lecture lists the buccal branch as supplying the orbicularis oris, buccinator and zygomaticus. The temporalis is a muscle of mastication (V3) and the platysma takes the cervical branch.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/05.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 5
+    },
+    {
+     "src": "files/slides/anat3-facial-muscles/28.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which are actions of the buccinator? (choose all)",
@@ -2681,7 +3125,14 @@ SINA.lectures["anat3-facial-muscles"] = {
     0,
     1
    ],
-   "why": "The buccinator compresses the cheek, keeping food under the teeth, and expels air from the distended cheeks, as in blowing a trumpet. Neonates use it to suckle."
+   "why": "The buccinator compresses the cheek, keeping food under the teeth, and expels air from the distended cheeks, as in blowing a trumpet. Neonates use it to suckle.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/24.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which ligaments of the temporomandibular joint are mentioned in the lecture? (choose all)",
@@ -2695,7 +3146,14 @@ SINA.lectures["anat3-facial-muscles"] = {
     0,
     1
    ],
-   "why": "The lecture names three extracapsular ligaments: the lateral, sphenomandibular and stylomandibular ligaments. They stabilise the joint."
+   "why": "The lecture names three extracapsular ligaments: the lateral, sphenomandibular and stylomandibular ligaments. They stabilise the joint.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-facial-muscles/35.jpg",
+     "lec": "Muscles of the facio-maxillary region",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -4667,7 +5125,19 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "The ciliary ganglion"
    ],
    "answer": 0,
-   "why": "The lecture lists the orbital contents as the eyeball (the most essential), the extraocular muscles, fascia bulbi, nerves, vessels, the ciliary ganglion, the lacrimal gland and orbital fat."
+   "why": "The lecture lists the orbital contents as the eyeball (the most essential), the extraocular muscles, fascia bulbi, nerves, vessels, the ciliary ganglion, the lacrimal gland and orbital fat.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/02.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 2
+    },
+    {
+     "src": "files/slides/anat3-orbital-appendages/19.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which nerve supplies the levator palpebrae superioris?",
@@ -4678,7 +5148,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "Abducens nerve (CN VI), as for the lateral rectus"
    ],
    "answer": 1,
-   "why": "The levator palpebrae superioris raises the upper eyelid and is supplied by CN III. Its smooth part, the superior tarsal muscle, is supplied by sympathetic fibres."
+   "why": "The levator palpebrae superioris raises the upper eyelid and is supplied by CN III. Its smooth part, the superior tarsal muscle, is supplied by sympathetic fibres.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/16.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Roughly how thick is the eyelid?",
@@ -4689,7 +5166,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "About 1 cm"
    ],
    "answer": 2,
-   "why": "The lecture gives the thickness of the eyelid as 2 to 3 mm."
+   "why": "The lecture gives the thickness of the eyelid as 2 to 3 mm.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/08.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which part of the eyelid carries the eyelashes?",
@@ -4700,7 +5184,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "The lateral part, the ciliary part"
    ],
    "answer": 3,
-   "why": "The eyelid has a medial part and a lateral part. The lateral part carries the eyelashes and is known as the ciliary part."
+   "why": "The eyelid has a medial part and a lateral part. The lateral part carries the eyelashes and is known as the ciliary part.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/07.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What is the orbital septum?",
@@ -4711,7 +5202,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "A fold of conjunctiva at the medial angle"
    ],
    "answer": 1,
-   "why": "The orbital septum is part of the tarsal plate. It connects the tarsi to the margins of the orbit, bounds the orbital fat anteriorly and helps limit the spread of infection between the face and the orbit."
+   "why": "The orbital septum is part of the tarsal plate. It connects the tarsi to the margins of the orbit, bounds the orbital fat anteriorly and helps limit the spread of infection between the face and the orbit.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/09.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which glands are modified apocrine sweat glands in the eyelid?",
@@ -4722,7 +5220,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "Ciliary glands of Moll"
    ],
    "answer": 3,
-   "why": "The ciliary glands of Moll are modified apocrine sweat glands. The glands of Zeis are sebaceous glands at the base of the eyelash follicles."
+   "why": "The ciliary glands of Moll are modified apocrine sweat glands. The glands of Zeis are sebaceous glands at the base of the eyelash follicles.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/12.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "What are the tarsal plates made of?",
@@ -4733,7 +5238,19 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "Adipose tissue"
    ],
    "answer": 0,
-   "why": "The superior and inferior tarsi are plates of dense connective tissue that give the eyelid its shape and rigidity, and they contain the tarsal (meibomian) glands."
+   "why": "The superior and inferior tarsi are plates of dense connective tissue that give the eyelid its shape and rigidity, and they contain the tarsal (meibomian) glands.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/09.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 9
+    },
+    {
+     "src": "files/slides/anat3-orbital-appendages/28.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Where does the palpebral conjunctiva become the bulbar conjunctiva?",
@@ -4744,7 +5261,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "At the orbital septum"
    ],
    "answer": 2,
-   "why": "The palpebral conjunctiva lines the eyelid and reflects at the superior and inferior conjunctival fornices onto the eyeball as the bulbar conjunctiva, enclosing the conjunctival sac."
+   "why": "The palpebral conjunctiva lines the eyelid and reflects at the superior and inferior conjunctival fornices onto the eyeball as the bulbar conjunctiva, enclosing the conjunctival sac.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/15.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "What are the two stated functions of the tear film?",
@@ -4755,7 +5279,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "Lubricating the eye and protecting it"
    ],
    "answer": 3,
-   "why": "The tear film is made of water and contains electrolytes and proteins. Its functions are to lubricate the eye and to protect it from infections."
+   "why": "The tear film is made of water and contains electrolytes and proteins. Its functions are to lubricate the eye and to protect it from infections.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/17.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which layer of the tear film is produced by the meibomian glands?",
@@ -4766,7 +5297,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "The corneal layer"
    ],
    "answer": 0,
-   "why": "Oil layer: meibomian glands, preventing evaporation. Water layer: lacrimal glands, lubricating, allowing blinking, washing away debris and forming a smooth surface. Mucin layer: goblet cells of the conjunctiva, attaching the film to the eye and spreading water evenly."
+   "why": "Oil layer: meibomian glands, preventing evaporation. Water layer: lacrimal glands, lubricating, allowing blinking, washing away debris and forming a smooth surface. Mucin layer: goblet cells of the conjunctiva, attaching the film to the eye and spreading water evenly.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/23.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which cells produce the mucin layer of the tear film?",
@@ -4777,7 +5315,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "Ciliary glands of Moll"
    ],
    "answer": 2,
-   "why": "The mucin layer is produced by the goblet cells of the conjunctiva. It attaches the tear film to the eye and spreads the water evenly."
+   "why": "The mucin layer is produced by the goblet cells of the conjunctiva. It attaches the tear film to the eye and spreads the water evenly.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/23.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Where is the lacrimal gland located?",
@@ -4788,7 +5333,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "Within the tarsal plate of the upper eyelid, at the margin"
    ],
    "answer": 1,
-   "why": "The lacrimal gland sits anteriorly in the superolateral aspect of the orbit, within the lacrimal fossa, a depression in the orbital plate of the frontal bone."
+   "why": "The lacrimal gland sits anteriorly in the superolateral aspect of the orbit, within the lacrimal fossa, a depression in the orbital plate of the frontal bone.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/19.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Into which structure does the lacrimal fluid empty?",
@@ -4799,7 +5351,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "The superior conjunctival fornix"
    ],
    "answer": 3,
-   "why": "The acini produce a watery serous secretion which is secreted into excretory ducts that empty into the superior conjunctival fornix. The fluid is then spread over the cornea by blinking."
+   "why": "The acini produce a watery serous secretion which is secreted into excretory ducts that empty into the superior conjunctival fornix. The fluid is then spread over the cornea by blinking.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/20.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "What are the two parts of the lacrimal gland?",
@@ -4810,7 +5369,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "Anterior and posterior"
    ],
    "answer": 2,
-   "why": "The gland is about 2 cm long. The orbital part is larger and sits on the lateral margin of the levator palpebrae superioris. The palpebral part is smaller and lies along the inner surface of the eyelid."
+   "why": "The gland is about 2 cm long. The orbital part is larger and sits on the lateral margin of the levator palpebrae superioris. The palpebral part is smaller and lies along the inner surface of the eyelid.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/20.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The main arterial supply of the lacrimal gland comes from which artery?",
@@ -4821,7 +5387,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "The superficial temporal artery"
    ],
    "answer": 0,
-   "why": "The lacrimal artery is derived from the ophthalmic artery, a branch of the internal carotid. Venous drainage is via the superior ophthalmic vein into the cavernous sinus."
+   "why": "The lacrimal artery is derived from the ophthalmic artery, a branch of the internal carotid. Venous drainage is via the superior ophthalmic vein into the cavernous sinus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/22.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Where does lymph from the lacrimal gland drain?",
@@ -4832,7 +5405,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "Occipital nodes"
    ],
    "answer": 1,
-   "why": "Lymphatic drainage is to the superficial parotid lymph nodes, which empty into the superior deep cervical nodes."
+   "why": "Lymphatic drainage is to the superficial parotid lymph nodes, which empty into the superior deep cervical nodes.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/22.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Sensory innervation of the lacrimal gland is carried by which nerve?",
@@ -4843,7 +5423,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "The nasociliary nerve, from V2"
    ],
    "answer": 2,
-   "why": "The sensory fibres travel in the lacrimal nerve, a branch of the ophthalmic nerve, which is itself derived from the trigeminal nerve."
+   "why": "The sensory fibres travel in the lacrimal nerve, a branch of the ophthalmic nerve, which is itself derived from the trigeminal nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/25.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Where do the parasympathetic fibres to the lacrimal gland synapse?",
@@ -4854,7 +5441,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "In the pterygopalatine ganglion"
    ],
    "answer": 3,
-   "why": "Preganglionic parasympathetic fibres travel in the greater petrosal nerve (a branch of the facial nerve) and then the nerve of the pterygoid canal, before synapsing in the pterygopalatine ganglion. Postganglionic fibres travel with the maxillary nerve and finally the zygomatic nerve."
+   "why": "Preganglionic parasympathetic fibres travel in the greater petrosal nerve (a branch of the facial nerve) and then the nerve of the pterygoid canal, before synapsing in the pterygopalatine ganglion. Postganglionic fibres travel with the maxillary nerve and finally the zygomatic nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/25.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "What effect do the sympathetic fibres have on the lacrimal gland?",
@@ -4865,7 +5459,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "They have no effect on the gland"
    ],
    "answer": 1,
-   "why": "Parasympathetic fibres stimulate fluid secretion from the lacrimal gland. Sympathetic fibres, from the superior cervical ganglion travelling on the internal carotid plexus and the deep petrosal nerve, inhibit it."
+   "why": "Parasympathetic fibres stimulate fluid secretion from the lacrimal gland. Sympathetic fibres, from the superior cervical ganglion travelling on the internal carotid plexus and the deep petrosal nerve, inhibit it.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/26.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "What does the ciliary ganglion relay, and through which branches?",
@@ -4876,7 +5477,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     "Taste fibres from the anterior tongue"
    ],
    "answer": 0,
-   "why": "The ciliary ganglion is a peripheral parasympathetic ganglion relaying parasympathetic impulses from the oculomotor nerve to target structures. It also transports sympathetic impulses from the internal carotid plexus and sensory impulses from the nasociliary nerve. Its branches are the short ciliary nerves."
+   "why": "The ciliary ganglion is a peripheral parasympathetic ganglion relaying parasympathetic impulses from the oculomotor nerve to target structures. It also transports sympathetic impulses from the internal carotid plexus and sensory impulses from the nasociliary nerve. Its branches are the short ciliary nerves.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/29.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which are the stated functions of the eyelashes (cilia)? (choose all)",
@@ -4890,7 +5498,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     0,
     1
    ],
-   "why": "The lecture gives three functions for the cilia: protecting the eyes from foreign particles, preventing evaporation of the tear film, and acting as sensory receptors."
+   "why": "The lecture gives three functions for the cilia: protecting the eyes from foreign particles, preventing evaporation of the tear film, and acting as sensory receptors.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/23.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which layers make up the eyelid, according to the lecture? (choose all)",
@@ -4904,7 +5519,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     0,
     1
    ],
-   "why": "The five layers are: skin, loose connective tissue and adipose tissue, the muscular layer (orbicularis oculi and levator palpebrae superioris), the tarsal plate and the palpebral conjunctiva. The sclera and vitreous body belong to the eyeball."
+   "why": "The five layers are: skin, loose connective tissue and adipose tissue, the muscular layer (orbicularis oculi and levator palpebrae superioris), the tarsal plate and the palpebral conjunctiva. The sclera and vitreous body belong to the eyeball.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/28.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which glands lie in the subcutaneous tissue of the eyelid margin? (choose all)",
@@ -4918,7 +5540,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     0,
     1
    ],
-   "why": "The sebaceous glands of Zeis and the ciliary glands of Moll (modified apocrine sweat glands) sit at the lid margin and contribute sebum to the lipid film across the anterior chamber of the eye."
+   "why": "The sebaceous glands of Zeis and the ciliary glands of Moll (modified apocrine sweat glands) sit at the lid margin and contribute sebum to the lipid film across the anterior chamber of the eye.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/13.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which structures anchor the orbicularis oculi at the eyelid? (choose all)",
@@ -4932,7 +5561,14 @@ SINA.lectures["anat3-orbital-appendages"] = {
     0,
     1
    ],
-   "why": "The lecture names the medial and lateral palpebral ligaments in connection with the orbital part of orbicularis oculi."
+   "why": "The lecture names the medial and lateral palpebral ligaments in connection with the orbital part of orbicularis oculi.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-orbital-appendages/10.jpg",
+     "lec": "Anatomy of the orbital appendages",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -5744,7 +6380,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "The jelly filling the posterior segment"
    ],
    "answer": 0,
-   "why": "Tenon's capsule, the fascial sheath of the eyeball, separates the eye from the orbital fat and forms a socket in which it moves."
+   "why": "Tenon's capsule, the fascial sheath of the eyeball, separates the eye from the orbital fat and forms a socket in which it moves.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/04.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What proportion of the outer coat does the cornea form?",
@@ -5755,7 +6398,19 @@ SINA.lectures["anat3-eyeball-1"] = {
     "Five sixths"
    ],
    "answer": 1,
-   "why": "The cornea forms one sixth of the outer coat and the sclera the other five sixths."
+   "why": "The cornea forms one sixth of the outer coat and the sclera the other five sixths.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/07.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 7
+    },
+    {
+     "src": "files/slides/anat3-eyeball-1/09.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which statement about the cornea is correct?",
@@ -5766,7 +6421,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "It is less sensitive than the sclera"
    ],
    "answer": 2,
-   "why": "The cornea has higher convexity, is completely avascular, is nourished by the lacrimal gland outside and the aqueous humour inside, and is highly sensitive through CN V1."
+   "why": "The cornea has higher convexity, is completely avascular, is nourished by the lacrimal gland outside and the aqueous humour inside, and is highly sensitive through CN V1.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/09.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which nerve carries sensation from the cornea?",
@@ -5777,7 +6439,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "The ophthalmic nerve (V1)"
    ],
    "answer": 3,
-   "why": "The cornea is highly sensitive and its sensation is carried by the ophthalmic division of the trigeminal nerve."
+   "why": "The cornea is highly sensitive and its sensation is carried by the ophthalmic division of the trigeminal nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/09.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What is the epislera?",
@@ -5788,7 +6457,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "A ring of muscle inside the iris"
    ],
    "answer": 1,
-   "why": "The episclera is the outermost layer of the sclera, composed of loose fibrous elastic tissue, and attaches to Tenon's capsule. A vascular plexus of superficial and deep episcleral vessels lies between the bulbar conjunctiva and the sclera."
+   "why": "The episclera is the outermost layer of the sclera, composed of loose fibrous elastic tissue, and attaches to Tenon's capsule. A vascular plexus of superficial and deep episcleral vessels lies between the bulbar conjunctiva and the sclera.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/05.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What are the three parts of the uvea (vascular layer)?",
@@ -5799,7 +6475,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "Iris, ciliary body and choroid"
    ],
    "answer": 3,
-   "why": "The uvea or uveal tract lies between the sclera and the retina. Its anterior portion is the iris and ciliary body; its posterior portion is the choroid."
+   "why": "The uvea or uveal tract lies between the sclera and the retina. Its anterior portion is the iris and ciliary body; its posterior portion is the choroid.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/13.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which structure alters the shape and thickness of the lens?",
@@ -5810,7 +6493,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "The sclera and episclera"
    ],
    "answer": 0,
-   "why": "The ciliary body is a muscular structure connecting the choroid with the circumference of the iris. It alters the shape and thickness of the lens (accommodation), and its ciliary processes secrete aqueous humour."
+   "why": "The ciliary body is a muscular structure connecting the choroid with the circumference of the iris. It alters the shape and thickness of the lens (accommodation), and its ciliary processes secrete aqueous humour.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/15.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "What happens to the pupil on parasympathetic stimulation in bright light?",
@@ -5821,7 +6511,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "It becomes oval"
    ],
    "answer": 2,
-   "why": "Light exposure and parasympathetic stimulation narrow the pupil (miosis) via the sphincter pupillae. Darkness and sympathetic stimulation widen it (mydriasis) via the dilator pupillae."
+   "why": "Light exposure and parasympathetic stimulation narrow the pupil (miosis) via the sphincter pupillae. Darkness and sympathetic stimulation widen it (mydriasis) via the dilator pupillae.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/17.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Where are the sphincter pupillae muscles located?",
@@ -5832,7 +6529,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "Within the iris"
    ],
    "answer": 3,
-   "why": "The iris is a pigmented diaphragm with a central aperture, the pupil, on the anterior surface of the lens. Sphincter muscles within it adjust pupil size in response to light and the autonomic nervous system."
+   "why": "The iris is a pigmented diaphragm with a central aperture, the pupil, on the anterior surface of the lens. Sphincter muscles within it adjust pupil size in response to light and the autonomic nervous system.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/17.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "What is the aqueous fluid?",
@@ -5843,7 +6547,19 @@ SINA.lectures["anat3-eyeball-1"] = {
     "A layer of the tear film"
    ],
    "answer": 0,
-   "why": "Aqueous fluid is a clear plasma-derived ultrafiltrate, normally devoid of proteins, cells or other macromolecules."
+   "why": "Aqueous fluid is a clear plasma-derived ultrafiltrate, normally devoid of proteins, cells or other macromolecules.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/18.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 18
+    },
+    {
+     "src": "files/slides/anat3-eyeball-1/21.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which structure secretes the aqueous humour?",
@@ -5854,7 +6570,19 @@ SINA.lectures["anat3-eyeball-1"] = {
     "The goblet cells"
    ],
    "answer": 2,
-   "why": "The ciliary processes of the ciliary body secrete aqueous humour into the posterior chamber. It is formed by diffusion, ultrafiltration and active secretion."
+   "why": "The ciliary processes of the ciliary body secrete aqueous humour into the posterior chamber. It is formed by diffusion, ultrafiltration and active secretion.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/19.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 19
+    },
+    {
+     "src": "files/slides/anat3-eyeball-1/21.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Through which opening does the aqueous fluid pass from the posterior to the anterior chamber?",
@@ -5865,7 +6593,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "The ora serrata"
    ],
    "answer": 1,
-   "why": "Aqueous is formed by the ciliary body and secreted into the posterior chamber. It traverses the pupil to enter the anterior chamber and exits through one of two drainage pathways."
+   "why": "Aqueous is formed by the ciliary body and secreted into the posterior chamber. It traverses the pupil to enter the anterior chamber and exits through one of two drainage pathways.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/21.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which drainage route accounts for most aqueous outflow?",
@@ -5876,7 +6611,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "The trabecular meshwork route"
    ],
    "answer": 3,
-   "why": "The trabecular meshwork route accounts for 50 to 75 percent of aqueous drainage. It is pressure sensitive: outflow increases with greater intraocular pressure."
+   "why": "The trabecular meshwork route accounts for 50 to 75 percent of aqueous drainage. It is pressure sensitive: outflow increases with greater intraocular pressure.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/23.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which canal does the aqueous enter after crossing the trabecular meshwork?",
@@ -5887,7 +6629,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "The hyaloid canal"
    ],
    "answer": 2,
-   "why": "Aqueous traverses the trabecular meshwork, crosses the inner wall of Schlemm's canal, then passes into collector channels, aqueous veins and episcleral veins."
+   "why": "Aqueous traverses the trabecular meshwork, crosses the inner wall of Schlemm's canal, then passes into collector channels, aqueous veins and episcleral veins.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/23.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What is characteristic of the uveoscleral route?",
@@ -5898,7 +6647,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "It is the only route in young people"
    ],
    "answer": 0,
-   "why": "In the uveoscleral route the aqueous passes from the anterior chamber angle into the connective tissue spaces within the ciliary muscle. Its flow is intraocular pressure independent, so it keeps draining despite pressure fluctuations."
+   "why": "In the uveoscleral route the aqueous passes from the anterior chamber angle into the connective tissue spaces within the ciliary muscle. Its flow is intraocular pressure independent, so it keeps draining despite pressure fluctuations.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/24.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Name the four refractive media of the eye in order.",
@@ -5909,7 +6665,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "Tear film, cornea, iris, lens"
    ],
    "answer": 1,
-   "why": "The refractive media are the cornea, the aqueous humour, the lens and the vitreous humour."
+   "why": "The refractive media are the cornea, the aqueous humour, the lens and the vitreous humour.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/26.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Where does maximum refraction occur?",
@@ -5920,7 +6683,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "At the retina"
    ],
    "answer": 2,
-   "why": "The lens is transparent and biconvex, enclosed in a capsule suspended by zonular fibres, but maximum refraction occurs through the cornea."
+   "why": "The lens is transparent and biconvex, enclosed in a capsule suspended by zonular fibres, but maximum refraction occurs through the cornea.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/27.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "What happens to the lens during parasympathetic stimulation (CN III)?",
@@ -5931,7 +6701,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "The ciliary muscles contract, the zonules relax and the lens thickens"
    ],
    "answer": 3,
-   "why": "CN III parasympathetic stimulation produces sphincter-like contraction of the ciliary muscles, the ring becomes smaller, the zonules relax, and the lens relaxes and thickens: accommodation for near vision."
+   "why": "CN III parasympathetic stimulation produces sphincter-like contraction of the ciliary muscles, the ring becomes smaller, the zonules relax, and the lens relaxes and thickens: accommodation for near vision.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/28.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which three components make up the lens, histologically?",
@@ -5942,7 +6719,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "Epithelium, stroma and endothelium"
    ],
    "answer": 1,
-   "why": "The lens is a biconvex structure of great elasticity, lost with age as the lens hardens. Its three components are the capsule, the subcapsular epithelium (only on the anterior surface) and the lens fibres, filled with crystallins."
+   "why": "The lens is a biconvex structure of great elasticity, lost with age as the lens hardens. Its three components are the capsule, the subcapsular epithelium (only on the anterior surface) and the lens fibres, filled with crystallins.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/29.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "How much of the posterior segment does the vitreous body fill?",
@@ -5953,7 +6737,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "All of it, 100 percent"
    ],
    "answer": 0,
-   "why": "The vitreous body is a jelly-like substance filling up 80 percent of the posterior segment of the eyeball. It transmits light and holds the retina and lens in place."
+   "why": "The vitreous body is a jelly-like substance filling up 80 percent of the posterior segment of the eyeball. It transmits light and holds the retina and lens in place.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/32.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "What is the optic disc, and why is it called the blind spot?",
@@ -5964,7 +6755,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "The point where the retina meets the ora serrata"
    ],
    "answer": 2,
-   "why": "The optic disc (papilla) is located in the fundus of the retina, where the sensory fibres of the optic nerve enter the eyeball. It has no photoreceptors, hence the blind spot."
+   "why": "The optic disc (papilla) is located in the fundus of the retina, where the sensory fibres of the optic nerve enter the eyeball. It has no photoreceptors, hence the blind spot.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/04.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which part of the retina is responsible for high-acuity vision?",
@@ -5975,7 +6773,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "The pigmented cell layer"
    ],
    "answer": 0,
-   "why": "The macula contains special photoreceptor cones for visual acuity and lacks blood vessels. At its centre is the fovea, responsible for high-acuity vision and densely saturated with cone photoreceptors."
+   "why": "The macula contains special photoreceptor cones for visual acuity and lacks blood vessels. At its centre is the fovea, responsible for high-acuity vision and densely saturated with cone photoreceptors.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/37.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which photoreceptors are responsible for vision at low light levels?",
@@ -5986,7 +6791,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "Rods"
    ],
    "answer": 3,
-   "why": "Rods handle scotopic (low light) vision, do not mediate colour vision and have low spatial acuity. Cones work at higher light levels (photopic vision), give colour vision and high spatial acuity. The central fovea is populated exclusively by cones."
+   "why": "Rods handle scotopic (low light) vision, do not mediate colour vision and have low spatial acuity. Cones work at higher light levels (photopic vision), give colour vision and high spatial acuity. The central fovea is populated exclusively by cones.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/37.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Roughly how many rods and cones does the retina contain?",
@@ -5997,7 +6809,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     "About 120 million of each"
    ],
    "answer": 1,
-   "why": "The retina has approximately 120 million rods, extremely sensitive to light, and 6 million cones in each retina."
+   "why": "The retina has approximately 120 million rods, extremely sensitive to light, and 6 million cones in each retina.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/38.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which are functions of the aqueous fluid? (choose all)",
@@ -6011,7 +6830,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     0,
     1
    ],
-   "why": "Its functions are delivering oxygen and nutrients and removing waste products, inflammatory products and other cellular debris from the posterior cornea and crystalline lens; providing a low refractive index transparent medium between the lens and cornea; and maintaining intraocular pressure for the optimal shape and alignment of ocular structures."
+   "why": "Its functions are delivering oxygen and nutrients and removing waste products, inflammatory products and other cellular debris from the posterior cornea and crystalline lens; providing a low refractive index transparent medium between the lens and cornea; and maintaining intraocular pressure for the optimal shape and alignment of ocular structures.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/18.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which structures belong to the vascular layer (uvea)? (choose all)",
@@ -6025,7 +6851,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     0,
     1
    ],
-   "why": "The uvea is made of the iris, the ciliary body and the choroid. The sclera belongs to the fibrous layer and the retina to the neural layer."
+   "why": "The uvea is made of the iris, the ciliary body and the choroid. The sclera belongs to the fibrous layer and the retina to the neural layer.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/13.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which are stated functions of the vitreous humour? (choose all)",
@@ -6039,7 +6872,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     0,
     1
    ],
-   "why": "The vitreous body is a watery jelly filling about 80 percent of the posterior segment. It transmits light and holds the retina and lens in their respective places. It is also called the postremal or vitreous chamber."
+   "why": "The vitreous body is a watery jelly filling about 80 percent of the posterior segment. It transmits light and holds the retina and lens in their respective places. It is also called the postremal or vitreous chamber.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/32.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which features describe rod cells? (choose all)",
@@ -6053,7 +6893,14 @@ SINA.lectures["anat3-eyeball-1"] = {
     0,
     1
    ],
-   "why": "Rods are thin and elongated, in two portions. Their flattened disks contain the pigment visual purple, or rhodopsin, bleached by light to initiate the visual stimulus. They are used at low light levels. The central fovea is populated exclusively by cones, which handle colour vision."
+   "why": "Rods are thin and elongated, in two portions. Their flattened disks contain the pigment visual purple, or rhodopsin, bleached by light to initiate the visual stimulus. They are used at low light levels. The central fovea is populated exclusively by cones, which handle colour vision.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eyeball-1/38.jpg",
+     "lec": "Anatomy of the eyeball I",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -6760,7 +7607,19 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "The trochlea"
    ],
    "answer": 0,
-   "why": "All four recti arise from the common ring tendon at the orbital apex. The superior oblique arises from the body of the sphenoid and the inferior oblique from the anterior part of the floor of the orbit."
+   "why": "All four recti arise from the common ring tendon at the orbital apex. The superior oblique arises from the body of the sphenoid and the inferior oblique from the anterior part of the floor of the orbit.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/08.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 8
+    },
+    {
+     "src": "files/slides/anat3-ocular-muscles/12.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which muscle inserts into the superior tarsus and the skin of the upper eyelid?",
@@ -6771,7 +7630,14 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "Orbicularis oculi"
    ],
    "answer": 1,
-   "why": "It arises from the lesser wing of the sphenoid, superior and anterior to the optic canal. Its deep layer, the superior tarsal muscle, is supplied by sympathetic fibres. Its action is elevating the upper eyelid."
+   "why": "It arises from the lesser wing of the sphenoid, superior and anterior to the optic canal. Its deep layer, the superior tarsal muscle, is supplied by sympathetic fibres. Its action is elevating the upper eyelid.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/09.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The superior oblique tendon passes through which structure?",
@@ -6782,7 +7648,19 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "The inferior orbital fissure"
    ],
    "answer": 2,
-   "why": "The superior oblique arises from the body of the sphenoid. Its tendon passes through a fibrous ring, the trochlea, which changes its direction before it inserts deep to the superior rectus muscle."
+   "why": "The superior oblique arises from the body of the sphenoid. Its tendon passes through a fibrous ring, the trochlea, which changes its direction before it inserts deep to the superior rectus muscle.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/07.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 7
+    },
+    {
+     "src": "files/slides/anat3-ocular-muscles/08.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which extraocular muscle arises from the anterior part of the floor of the orbit?",
@@ -6793,7 +7671,14 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "Inferior oblique"
    ],
    "answer": 3,
-   "why": "The inferior oblique arises from the anterior part of the floor of the orbit (the maxilla), posterior and temporo-inferior quadrant, and inserts into the sclera deep to the lateral rectus muscle."
+   "why": "The inferior oblique arises from the anterior part of the floor of the orbit (the maxilla), posterior and temporo-inferior quadrant, and inserts into the sclera deep to the lateral rectus muscle.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/08.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "What is the primary action of the superior rectus?",
@@ -6804,7 +7689,19 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "Elevation, with extorsion and abduction"
    ],
    "answer": 1,
-   "why": "Superior rectus: elevation, intorsion, adduction. Inferior rectus: depression, extorsion, adduction. Both take the oculomotor nerve."
+   "why": "Superior rectus: elevation, intorsion, adduction. Inferior rectus: depression, extorsion, adduction. Both take the oculomotor nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/09.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 9
+    },
+    {
+     "src": "files/slides/anat3-ocular-muscles/12.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which muscle is supplied by the trochlear nerve (CN IV)?",
@@ -6815,7 +7712,19 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "Superior oblique"
    ],
    "answer": 3,
-   "why": "LR6 SO4: the lateral rectus takes CN VI and the superior oblique takes CN IV. Every other extraocular muscle takes CN III."
+   "why": "LR6 SO4: the lateral rectus takes CN VI and the superior oblique takes CN IV. Every other extraocular muscle takes CN III.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/07.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 7
+    },
+    {
+     "src": "files/slides/anat3-ocular-muscles/09.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What is the primary action of the superior oblique?",
@@ -6826,7 +7735,19 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "Depression, extorsion and adduction"
    ],
    "answer": 0,
-   "why": "SO: intorsion, depression, abduction. IO: extorsion, elevation, abduction. That pair is the mirror image of each other."
+   "why": "SO: intorsion, depression, abduction. IO: extorsion, elevation, abduction. That pair is the mirror image of each other.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/12.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 12
+    },
+    {
+     "src": "files/slides/anat3-ocular-muscles/17.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which muscle abducts the eyeball and takes the abducens nerve?",
@@ -6837,7 +7758,19 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "Inferior oblique"
    ],
    "answer": 2,
-   "why": "The lateral rectus arises from the common ring tendon, inserts on the anterior and lateral surface, and abducts the eyeball. It is the only muscle supplied by CN VI."
+   "why": "The lateral rectus arises from the common ring tendon, inserts on the anterior and lateral surface, and abducts the eyeball. It is the only muscle supplied by CN VI.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/09.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 9
+    },
+    {
+     "src": "files/slides/anat3-ocular-muscles/12.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which two muscles intort the eyeball?",
@@ -6848,7 +7781,19 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "Superior oblique and superior rectus"
    ],
    "answer": 3,
-   "why": "Intorsion is done by the two superior muscles, superior oblique and superior rectus; extorsion by the two inferior muscles, inferior oblique and inferior rectus."
+   "why": "Intorsion is done by the two superior muscles, superior oblique and superior rectus; extorsion by the two inferior muscles, inferior oblique and inferior rectus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/08.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 8
+    },
+    {
+     "src": "files/slides/anat3-ocular-muscles/12.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which part of the retina is not sensitive to light?",
@@ -6859,7 +7804,19 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "The optic radiation fibres"
    ],
    "answer": 0,
-   "why": "The non-visual retina is the portion not sensitive to light: the anterior continuation of the pigment cell layer plus supporting cells over the ciliary body and the posterior surface of the iris."
+   "why": "The non-visual retina is the portion not sensitive to light: the anterior continuation of the pigment cell layer plus supporting cells over the ciliary body and the posterior surface of the iris.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/08.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 8
+    },
+    {
+     "src": "files/slides/anat3-ocular-muscles/33.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Where does the neural layer of the retina end anteriorly?",
@@ -6870,7 +7827,14 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "At the fovea"
    ],
    "answer": 2,
-   "why": "The neural layer is light-receptive and ends anteriorly along the ora serrata. The pigmented cell layer is a single layer of cells that absorbs light to reduce scattering within the eye."
+   "why": "The neural layer is light-receptive and ends anteriorly along the ora serrata. The pigmented cell layer is a single layer of cells that absorbs light to reduce scattering within the eye.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/02.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Which cells of the retina generate action potentials?",
@@ -6881,7 +7845,14 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "Pigment epithelial cells"
    ],
    "answer": 1,
-   "why": "Photoreceptors and bipolar cells produce graded potentials rather than action potentials. Ganglion cells generate action potentials, and their axons join together to form the optic nerve."
+   "why": "Photoreceptors and bipolar cells produce graded potentials rather than action potentials. Ganglion cells generate action potentials, and their axons join together to form the optic nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/09.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which is the correct order of the visual pathway?",
@@ -6892,7 +7863,19 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "Optic nerve, chiasm, tract, geniculate, radiation, cortex"
    ],
    "answer": 3,
-   "why": "Eye, optic nerve, optic chiasm, optic tract, lateral geniculate nucleus (in the thalamus), optic radiation, primary visual cortex in the occipital lobe."
+   "why": "Eye, optic nerve, optic chiasm, optic tract, lateral geniculate nucleus (in the thalamus), optic radiation, primary visual cortex in the occipital lobe.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/32.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 32
+    },
+    {
+     "src": "files/slides/anat3-ocular-muscles/33.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which retinal fibres cross at the optic chiasm?",
@@ -6903,7 +7886,14 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "None of them"
    ],
    "answer": 2,
-   "why": "Fibres from the medial (nasal) half of each retina cross over to the optic tract of the opposite side. The temporal fibres stay on the same side."
+   "why": "Fibres from the medial (nasal) half of each retina cross over to the optic tract of the opposite side. The temporal fibres stay on the same side.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/28.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Where do the ganglion cell fibres synapse before reaching the cortex?",
@@ -6914,7 +7904,19 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "The Edinger-Westphal nucleus"
    ],
    "answer": 0,
-   "why": "The ganglion nerve fibres synapse at the lateral geniculate nucleus, a relay centre in the thalamus. The fibres leaving it form the optic radiation."
+   "why": "The ganglion nerve fibres synapse at the lateral geniculate nucleus, a relay centre in the thalamus. The fibres leaving it form the optic radiation.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/32.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 32
+    },
+    {
+     "src": "files/slides/anat3-ocular-muscles/33.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Where is the primary visual cortex?",
@@ -6925,7 +7927,14 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "In the frontal lobe, at the front"
    ],
    "answer": 1,
-   "why": "The optic radiation relays the signal from the lateral geniculate nucleus to the primary visual cortex within the occipital lobe."
+   "why": "The optic radiation relays the signal from the lateral geniculate nucleus to the primary visual cortex within the occipital lobe.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/32.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Damage at the optic chiasm produces which visual defect?",
@@ -6936,7 +7945,14 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "No visual defect at all"
    ],
    "answer": 2,
-   "why": "At the chiasm the crossing fibres are cut, so the temporal (lateral) portions of the visual field are lost in both eyes. The lecture describes this as damage at site 3."
+   "why": "At the chiasm the crossing fibres are cut, so the temporal (lateral) portions of the visual field are lost in both eyes. The lecture describes this as damage at site 3.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/33.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Cutting one optic nerve completely produces which defect?",
@@ -6947,7 +7963,14 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "Total loss of vision in that eye"
    ],
    "answer": 3,
-   "why": "Damage at site 1 in the lecture: the entire optic nerve is cut and there is a total loss of vision from that eye."
+   "why": "Damage at site 1 in the lecture: the entire optic nerve is cut and there is a total loss of vision from that eye.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/33.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Damage to the optic tract or the fibre tract from the lateral geniculate to the cortex causes what?",
@@ -6958,7 +7981,14 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "Loss of central vision only"
    ],
    "answer": 1,
-   "why": "Damage at sites 4 and 5 causes identical visual loss: in the lecture's example, loss of vision of the right side."
+   "why": "Damage at sites 4 and 5 causes identical visual loss: in the lecture's example, loss of vision of the right side.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/33.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "In the pupillary light reflex, where do the preganglionic parasympathetic fibres originate?",
@@ -6969,7 +7999,14 @@ SINA.lectures["anat3-ocular-muscles"] = {
     "The superior cervical ganglion"
    ],
    "answer": 0,
-   "why": "The preganglionic parasympathetic fibres originate in the Edinger-Westphal nucleus and travel in cranial nerve III to the ciliary ganglion. From there postganglionic fibres reach the pupillary constrictor muscle."
+   "why": "The preganglionic parasympathetic fibres originate in the Edinger-Westphal nucleus and travel in cranial nerve III to the ciliary ganglion. From there postganglionic fibres reach the pupillary constrictor muscle.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/34.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which muscles are supplied by the oculomotor nerve (CN III)? (choose all)",
@@ -6983,7 +8020,19 @@ SINA.lectures["anat3-ocular-muscles"] = {
     0,
     1
    ],
-   "why": "CN III supplies the levator palpebrae superioris, superior rectus, inferior rectus, medial rectus and inferior oblique. The superior oblique is CN IV and the lateral rectus is CN VI."
+   "why": "CN III supplies the levator palpebrae superioris, superior rectus, inferior rectus, medial rectus and inferior oblique. The superior oblique is CN IV and the lateral rectus is CN VI.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/05.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 5
+    },
+    {
+     "src": "files/slides/anat3-ocular-muscles/08.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which muscles elevate the eyeball? (choose all)",
@@ -6997,7 +8046,19 @@ SINA.lectures["anat3-ocular-muscles"] = {
     0,
     1
    ],
-   "why": "Elevation: superior rectus and inferior oblique. Depression: inferior rectus and superior oblique."
+   "why": "Elevation: superior rectus and inferior oblique. Depression: inferior rectus and superior oblique.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/08.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 8
+    },
+    {
+     "src": "files/slides/anat3-ocular-muscles/09.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which structures does the visual pathway pass through between the eye and the cortex? (choose all)",
@@ -7011,7 +8072,19 @@ SINA.lectures["anat3-ocular-muscles"] = {
     0,
     1
    ],
-   "why": "The pathway runs eye, optic nerve, optic chiasm, optic tract, lateral geniculate nucleus, optic radiation, primary visual cortex. The ciliary ganglion belongs to the pupillary pathway and the trochlea to the superior oblique."
+   "why": "The pathway runs eye, optic nerve, optic chiasm, optic tract, lateral geniculate nucleus, optic radiation, primary visual cortex. The ciliary ganglion belongs to the pupillary pathway and the trochlea to the superior oblique.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/32.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 32
+    },
+    {
+     "src": "files/slides/anat3-ocular-muscles/33.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which are features of the non-visual retina? (choose all)",
@@ -7025,7 +8098,19 @@ SINA.lectures["anat3-ocular-muscles"] = {
     0,
     1
    ],
-   "why": "The non-visual retina is the portion not sensitive to light: the anterior continuation of the pigment cell layer plus supporting cells over the ciliary body and the posterior surface of the iris."
+   "why": "The non-visual retina is the portion not sensitive to light: the anterior continuation of the pigment cell layer plus supporting cells over the ciliary body and the posterior surface of the iris.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-muscles/02.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 2
+    },
+    {
+     "src": "files/slides/anat3-ocular-muscles/08.jpg",
+     "lec": "Anatomy of the eyeball II:",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -7704,7 +8789,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     "X, XI and XII"
    ],
    "answer": 0,
-   "why": "The lecture's mnemonic: 128 are the sensory nerves; 3, 4, 6, 11 and 12 are the motor nerves; 5, 7, 9 and 10 are mixed. Parasympathetic fibres run in 3, 7, 9 and 10."
+   "why": "The lecture's mnemonic: 128 are the sensory nerves; 3, 4, 6, 11 and 12 are the motor nerves; 5, 7, 9 and 10 are mixed. Parasympathetic fibres run in 3, 7, 9 and 10.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/04.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which cranial nerves carry parasympathetic fibres?",
@@ -7715,7 +8807,19 @@ SINA.lectures["anat3-eye-innervation"] = {
     "V, XI and XII"
    ],
    "answer": 1,
-   "why": "Remember 3, 7, 9, 10. In the orbit it is CN III that carries the parasympathetic supply, through the ciliary ganglion."
+   "why": "Remember 3, 7, 9, 10. In the orbit it is CN III that carries the parasympathetic supply, through the ciliary ganglion.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/11.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 11
+    },
+    {
+     "src": "files/slides/anat3-eye-innervation/33.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Why is the optic nerve surrounded by CSF?",
@@ -7726,7 +8830,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     "Because it passes through the cavernous sinus"
    ],
    "answer": 2,
-   "why": "The optic nerve is sheathed by dura, arachnoid and pia, with a subarachnoid space containing CSF. Raised intracranial pressure is therefore transmitted along the nerve."
+   "why": "The optic nerve is sheathed by dura, arachnoid and pia, with a subarachnoid space containing CSF. Raised intracranial pressure is therefore transmitted along the nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/33.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "The first order neuron of the visual pathway is which cell?",
@@ -7737,7 +8848,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     "The cone or rod photoreceptor"
    ],
    "answer": 3,
-   "why": "First order: cone and rod photoreceptors. Second order: bipolar cells, whose axons form the optic nerve after the ganglion cells. Third order: the neuron from the lateral geniculate body to the cerebral cortex."
+   "why": "First order: cone and rod photoreceptors. Second order: bipolar cells, whose axons form the optic nerve after the ganglion cells. Third order: the neuron from the lateral geniculate body to the cerebral cortex.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/03.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which nerve supplies the superior oblique muscle?",
@@ -7748,7 +8866,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     "Ophthalmic nerve (V1)"
    ],
    "answer": 1,
-   "why": "The lecture lists: motor supply CN III, parasympathetic supply CN III, motor supply CN IV, motor supply CN VI. LR6 SO4 still applies."
+   "why": "The lecture lists: motor supply CN III, parasympathetic supply CN III, motor supply CN IV, motor supply CN VI. LR6 SO4 still applies.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/07.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The abducens nucleus contains motor neurons and which other cell type?",
@@ -7759,7 +8884,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     "Interneurons crossing the midline"
    ],
    "answer": 3,
-   "why": "The abducens nucleus contains motor neurons controlling the lateral rectus on the same side, and interneurons that cross the midline to the contralateral oculomotor nucleus, which controls the medial rectus of the opposite eye."
+   "why": "The abducens nucleus contains motor neurons controlling the lateral rectus on the same side, and interneurons that cross the midline to the contralateral oculomotor nucleus, which controls the medial rectus of the opposite eye.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/14.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "What does the medial longitudinal fasciculus do?",
@@ -7770,7 +8902,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     "It relays visual information to the cortex"
    ],
    "answer": 0,
-   "why": "The MLF links CN III, IV, VI and the vestibular system, so the eyes move together in a conjugate way and can compensate for head rotation."
+   "why": "The MLF links CN III, IV, VI and the vestibular system, so the eyes move together in a conjugate way and can compensate for head rotation.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/15.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which muscle does the lens use to change shape in accommodation?",
@@ -7781,7 +8920,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     "The superior tarsal muscle"
    ],
    "answer": 2,
-   "why": "In the near response the ciliary muscles contract, the suspensory ligament relaxes, the lens becomes more convex and the dioptric power of the eye increases, so the near object focuses on the retina."
+   "why": "In the near response the ciliary muscles contract, the suspensory ligament relaxes, the lens becomes more convex and the dioptric power of the eye increases, so the near object focuses on the retina.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/24.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Name the three parts of the near response.",
@@ -7792,7 +8938,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     "Accommodation, pupil change, convergence"
    ],
    "answer": 3,
-   "why": "The lecture gives four linked boxes: lens changes (accommodation), changes in the pupil, the near response and convergence of the eyes. Its goal is clear vision of a nearby object."
+   "why": "The lecture gives four linked boxes: lens changes (accommodation), changes in the pupil, the near response and convergence of the eyes. Its goal is clear vision of a nearby object.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/24.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "What happens to the lens for far vision, at rest?",
@@ -7803,7 +8956,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     "The pupil constricts and the lens thickens"
    ],
    "answer": 0,
-   "why": "Far vision, at rest: the ciliary muscles are relaxed and the ligaments are taut (tense), so the lens is flat. Near vision: the ciliary muscle contracts, the suspensory ligaments relax and the lens becomes convex."
+   "why": "Far vision, at rest: the ciliary muscles are relaxed and the ligaments are taut (tense), so the lens is flat. Near vision: the ciliary muscle contracts, the suspensory ligaments relax and the lens becomes convex.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/24.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Trace the afferent limb of the accommodation reflex.",
@@ -7814,7 +8974,19 @@ SINA.lectures["anat3-eye-innervation"] = {
     "Ciliary muscle, ciliary ganglion, oculomotor nerve"
    ],
    "answer": 2,
-   "why": "Afferent: retina, optic nerve, optic chiasma, optic tract, lateral geniculate body, visual cortex. Efferent: oculomotor nucleus, parasympathetic fibres, ciliary ganglion, ciliary muscle and circular pupillary muscle."
+   "why": "Afferent: retina, optic nerve, optic chiasma, optic tract, lateral geniculate body, visual cortex. Efferent: oculomotor nucleus, parasympathetic fibres, ciliary ganglion, ciliary muscle and circular pupillary muscle.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/25.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 25
+    },
+    {
+     "src": "files/slides/anat3-eye-innervation/33.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which structure is the relay for the afferent limb of the pupillary light reflex?",
@@ -7825,7 +8997,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     "The ciliary ganglion"
    ],
    "answer": 1,
-   "why": "Light enters the pupil and stimulates the retina. Ganglion cells transmit the signal to the optic nerve, the nasal fibres cross at the chiasm, and fibres from the optic tracts project to the pretectal nuclei in the dorsal midbrain."
+   "why": "Light enters the pupil and stimulates the retina. Ganglion cells transmit the signal to the optic nerve, the nasal fibres cross at the chiasm, and fibres from the optic tracts project to the pretectal nuclei in the dorsal midbrain.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/33.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "How do the pretectal nuclei produce the consensual response?",
@@ -7836,7 +9015,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     "They project to both Edinger-Westphal nuclei"
    ],
    "answer": 3,
-   "why": "The pretectal nuclei project to the ipsilateral Edinger-Westphal nucleus and also to the contralateral one via the posterior commissure. That is why light in one eye constricts both pupils."
+   "why": "The pretectal nuclei project to the ipsilateral Edinger-Westphal nucleus and also to the contralateral one via the posterior commissure. That is why light in one eye constricts both pupils.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/33.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which nerves carry the postganglionic parasympathetic fibres to the pupil?",
@@ -7847,7 +9033,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     "The zygomatic nerve"
    ],
    "answer": 2,
-   "why": "The Edinger-Westphal nucleus sends preganglionic fibres along the oculomotor nerve to the ciliary ganglion. Its postganglionic fibres, the short ciliary nerves, innervate the sphincter muscle of the pupil."
+   "why": "The Edinger-Westphal nucleus sends preganglionic fibres along the oculomotor nerve to the ciliary ganglion. Its postganglionic fibres, the short ciliary nerves, innervate the sphincter muscle of the pupil.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/33.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "What happens to the pupils in darkness?",
@@ -7858,7 +9051,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     "Only the stimulated eye responds"
    ],
    "answer": 0,
-   "why": "In darkness the reflex becomes inhibited, which results in dilation of the pupil in both eyes."
+   "why": "In darkness the reflex becomes inhibited, which results in dilation of the pupil in both eyes.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/26.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "What is the afferent limb of the corneal reflex?",
@@ -7869,7 +9069,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     "The short ciliary nerves"
    ],
    "answer": 1,
-   "why": "Touch on the cornea travels in the ophthalmic branch of V to the spinal nucleus of the trigeminal nerve. The efferent limb is the facial motor nucleus on both sides, through the temporal branch of CN VII, closing the eyes."
+   "why": "Touch on the cornea travels in the ophthalmic branch of V to the spinal nucleus of the trigeminal nerve. The efferent limb is the facial motor nucleus on both sides, through the temporal branch of CN VII, closing the eyes.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/33.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which muscle contracts in the corneal reflex, and which nerve drives it?",
@@ -7880,7 +9087,19 @@ SINA.lectures["anat3-eye-innervation"] = {
     "Ciliary muscle, through the ciliary ganglion"
    ],
    "answer": 2,
-   "why": "The facial motor nucleus is activated on both sides, so touching one cornea makes both eyes blink through the orbicularis oculi."
+   "why": "The facial motor nucleus is activated on both sides, so touching one cornea makes both eyes blink through the orbicularis oculi.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/08.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 8
+    },
+    {
+     "src": "files/slides/anat3-eye-innervation/14.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Cones serve which type of vision?",
@@ -7891,7 +9110,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     "Photopic vision: bright light"
    ],
    "answer": 3,
-   "why": "Photopic vision is bright light vision served by cones, with high visual acuity for colours and details, and low sensitivity to light. Scotopic vision is night and dim light vision served by rods, with low acuity, no colour, and great sensitivity to light."
+   "why": "Photopic vision is bright light vision served by cones, with high visual acuity for colours and details, and low sensitivity to light. Scotopic vision is night and dim light vision served by rods, with low acuity, no colour, and great sensitivity to light.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/19.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which nerve carries the parasympathetic fibres toward the lacrimal gland after the geniculate ganglion?",
@@ -7902,7 +9128,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     "The chorda tympani"
    ],
    "answer": 1,
-   "why": "The pathway runs from the facial nerve through the greater superficial petrosal nerve and the pterygoid canal to the pterygopalatine ganglion, then along the zygomatic and lacrimal nerves to the gland. The deep petrosal nerve carries the sympathetic fibres."
+   "why": "The pathway runs from the facial nerve through the greater superficial petrosal nerve and the pterygoid canal to the pterygopalatine ganglion, then along the zygomatic and lacrimal nerves to the gland. The deep petrosal nerve carries the sympathetic fibres.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/37.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which three types of fibre pass through the ciliary ganglion?",
@@ -7913,7 +9146,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     "Sensory fibres only"
    ],
    "answer": 0,
-   "why": "In the lecture's colour diagram: green for parasympathetic, red for sympathetic and blue for sensory. The parasympathetic fibres synapse there; the sympathetic and sensory fibres pass straight through."
+   "why": "In the lecture's colour diagram: green for parasympathetic, red for sympathetic and blue for sensory. The parasympathetic fibres synapse there; the sympathetic and sensory fibres pass straight through.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/31.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Which cranial nerves supply the extraocular muscles? (choose all)",
@@ -7927,7 +9167,19 @@ SINA.lectures["anat3-eye-innervation"] = {
     0,
     1
    ],
-   "why": "CN III, IV and VI supply the extraocular muscles. CN II is purely sensory for vision, and CN VII supplies the muscles of facial expression, including the orbicularis oculi."
+   "why": "CN III, IV and VI supply the extraocular muscles. CN II is purely sensory for vision, and CN VII supplies the muscles of facial expression, including the orbicularis oculi.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/14.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 14
+    },
+    {
+     "src": "files/slides/anat3-eye-innervation/33.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which changes happen in the near response? (choose all)",
@@ -7941,7 +9193,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     0,
     1
    ],
-   "why": "The near response: accommodation of the lens (the ciliary muscle contracts, the suspensory ligament relaxes, the lens becomes more convex), changes in the pupil, and convergence of the eyes."
+   "why": "The near response: accommodation of the lens (the ciliary muscle contracts, the suspensory ligament relaxes, the lens becomes more convex), changes in the pupil, and convergence of the eyes.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/24.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which structures are on the efferent limb of the pupillary light reflex? (choose all)",
@@ -7955,7 +9214,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     0,
     1
    ],
-   "why": "Efferent: Edinger-Westphal nucleus, oculomotor nerve, ciliary ganglion, short ciliary nerves, sphincter pupillae. The optic nerve and the lateral geniculate nucleus belong to the afferent side and to vision."
+   "why": "Efferent: Edinger-Westphal nucleus, oculomotor nerve, ciliary ganglion, short ciliary nerves, sphincter pupillae. The optic nerve and the lateral geniculate nucleus belong to the afferent side and to vision.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/33.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which are features of scotopic vision? (choose all)",
@@ -7969,7 +9235,14 @@ SINA.lectures["anat3-eye-innervation"] = {
     0,
     1
    ],
-   "why": "Scotopic: night and dim light vision, served by rods, low visual acuity, no colours or details, great sensitivity to light. Photopic vision by cones gives colour and detail."
+   "why": "Scotopic: night and dim light vision, served by rods, low visual acuity, no colours or details, great sensitivity to light. Photopic vision by cones gives colour and detail.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-eye-innervation/19.jpg",
+     "lec": "Motor and sensory innervation of the",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -8624,7 +9897,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "The superficial temporal artery"
    ],
    "answer": 0,
-   "why": "The ophthalmic artery is the first branch off the internal carotid as it emerges from the cavernous sinus on the medial side of the clinoid process."
+   "why": "The ophthalmic artery is the first branch off the internal carotid as it emerges from the cavernous sinus on the medial side of the clinoid process.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/03.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Through which opening does the ophthalmic artery enter the orbit?",
@@ -8635,7 +9915,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "The supraorbital foramen"
    ],
    "answer": 1,
-   "why": "It passes through the optic canal, travels along the medial wall of the orbit and divides into its terminal branches."
+   "why": "It passes through the optic canal, travels along the medial wall of the orbit and divides into its terminal branches.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/04.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which artery supplies the lacrimal gland?",
@@ -8646,7 +9933,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "The central retinal artery"
    ],
    "answer": 2,
-   "why": "The lacrimal artery supplies the lacrimal gland, and its terminal branches supply the lateral upper and lower eyelids and the conjunctiva."
+   "why": "The lacrimal artery supplies the lacrimal gland, and its terminal branches supply the lateral upper and lower eyelids and the conjunctiva.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/07.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which branch of the ophthalmic artery supplies the retina?",
@@ -8657,7 +9951,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "The central retinal artery"
    ],
    "answer": 3,
-   "why": "The central retinal artery branches off the posterior third of the ophthalmic artery and enters the dural sheath of the optic nerve about 13 mm behind the globe. It supplies the retina."
+   "why": "The central retinal artery branches off the posterior third of the ophthalmic artery and enters the dural sheath of the optic nerve about 13 mm behind the globe. It supplies the retina.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/08.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which arteries supply the choroid and ciliary processes?",
@@ -8668,7 +9969,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "The palpebral arteries"
    ],
    "answer": 1,
-   "why": "Short ciliary arteries supply the choroid and ciliary processes. Long ciliary arteries supply the anterior segment and anastomose with the extraocular muscle branches."
+   "why": "Short ciliary arteries supply the choroid and ciliary processes. Long ciliary arteries supply the anterior segment and anastomose with the extraocular muscle branches.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/08.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which vein provides the main venous drainage of the orbit?",
@@ -8679,7 +9987,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "The superior ophthalmic vein"
    ],
    "answer": 3,
-   "why": "The superior ophthalmic vein originates in the superonasal quadrant of the orbit and extends posteriorly through the medial part of the superior orbital fissure into the cavernous sinus."
+   "why": "The superior ophthalmic vein originates in the superonasal quadrant of the orbit and extends posteriorly through the medial part of the superior orbital fissure into the cavernous sinus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/09.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What do the vortex veins drain?",
@@ -8690,7 +10005,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "The eyelids"
    ],
    "answer": 0,
-   "why": "The vortex veins carry the venous drainage of the uveal tract and pierce the sclera posterior to the globe's equator, draining into the two main veins."
+   "why": "The vortex veins carry the venous drainage of the uveal tract and pierce the sclera posterior to the globe's equator, draining into the two main veins.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/09.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What is strabismus?",
@@ -8701,7 +10023,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "Clouding of the lens"
    ],
    "answer": 2,
-   "why": "A squint occurs when the eyes don't point in the same direction. The most common type is where one eye turns slightly inwards, towards the nose. Squints affect about one in 20 children."
+   "why": "A squint occurs when the eyes don't point in the same direction. The most common type is where one eye turns slightly inwards, towards the nose. Squints affect about one in 20 children.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/10.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which type of strabismus is an inward turning of the eye?",
@@ -8712,7 +10041,19 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "Esotropia"
    ],
    "answer": 3,
-   "why": "Esotropia: inward turning. Exotropia: outward turning. Hypotropia: downward turning. Hypertropia: upward turning."
+   "why": "Esotropia: inward turning. Exotropia: outward turning. Hypotropia: downward turning. Hypertropia: upward turning.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/10.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 10
+    },
+    {
+     "src": "files/slides/anat3-ocular-clinical/37.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "What is nystagmus?",
@@ -8723,7 +10064,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "Clouding of the cornea"
    ],
    "answer": 0,
-   "why": "Nystagmus is a vision condition in which the eyes make repetitive, uncontrolled movements, often resulting in reduced vision and depth perception, and it can affect balance and coordination. It is typically caused by brain injuries and results from brain damage."
+   "why": "Nystagmus is a vision condition in which the eyes make repetitive, uncontrolled movements, often resulting in reduced vision and depth perception, and it can affect balance and coordination. It is typically caused by brain injuries and results from brain damage.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/12.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "In myopia (nearsightedness), where does the image focus?",
@@ -8734,7 +10082,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "On the optic disc"
    ],
    "answer": 2,
-   "why": "A nearsighted person sees near objects clearly while distant objects are blurred. Farsightedness (hyperopia) is the image being focused behind the retina rather than directly on it, which may be caused by the eyeball being too small or the focusing power being too weak."
+   "why": "A nearsighted person sees near objects clearly while distant objects are blurred. Farsightedness (hyperopia) is the image being focused behind the retina rather than directly on it, which may be caused by the eyeball being too small or the focusing power being too weak.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/14.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which orbital wall is most prone to blowout fracture?",
@@ -8745,7 +10100,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "The posterior wall"
    ],
    "answer": 1,
-   "why": "The most common blowout fractures are those of the inferior orbital wall, the floor. In about half of cases they occur together with fractures of the medial orbital wall."
+   "why": "The most common blowout fractures are those of the inferior orbital wall, the floor. In about half of cases they occur together with fractures of the medial orbital wall.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/18.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "With an orbital floor fracture, what may prolapse into the maxillary sinus?",
@@ -8756,7 +10118,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "Orbital fat"
    ],
    "answer": 3,
-   "why": "With orbital floor fractures, prolapse of orbital fat into the maxillary sinus may be seen, sometimes accompanied by inferior rectus muscle prolapse."
+   "why": "With orbital floor fractures, prolapse of orbital fat into the maxillary sinus may be seen, sometimes accompanied by inferior rectus muscle prolapse.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/18.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "If clear fluid drips into the orbital cavity after trauma, which wall is likely fractured?",
@@ -8767,7 +10136,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "The medial wall"
    ],
    "answer": 2,
-   "why": "Superior blowout fractures may involve the neighbouring sinus as well as the anterior cranial fossa, presenting with leakage of cerebrospinal fluid."
+   "why": "Superior blowout fractures may involve the neighbouring sinus as well as the anterior cranial fossa, presenting with leakage of cerebrospinal fluid.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/18.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which muscle is involved in ptosis, and which nerve supplies it?",
@@ -8778,7 +10154,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "Ciliary muscle, supplied by CN VI"
    ],
    "answer": 0,
-   "why": "Ptosis is drooping of the eyelid. The levator palpebrae superioris raises the upper lid and is supplied by the oculomotor nerve; its smooth superior tarsal part is sympathetic."
+   "why": "Ptosis is drooping of the eyelid. The levator palpebrae superioris raises the upper lid and is supplied by the oculomotor nerve; its smooth superior tarsal part is sympathetic.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/21.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "In facial nerve palsy, what happens to the eye?",
@@ -8789,7 +10172,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "Vision is lost in that eye"
    ],
    "answer": 1,
-   "why": "In facial nerve palsy the person cannot wrinkle the brow, the eyelid droops and the eye is difficult to close completely, the smile is asymmetrical, and the corner of the mouth droops."
+   "why": "In facial nerve palsy the person cannot wrinkle the brow, the eyelid droops and the eye is difficult to close completely, the smile is asymmetrical, and the corner of the mouth droops.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/22.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "What is the difference between a chalazion and a stye?",
@@ -8800,7 +10190,19 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "There is no difference, the names are interchangeable"
    ],
    "answer": 2,
-   "why": "The lecture compares them directly: a chalazion is a blocked meibomian gland within the lid, while a stye is a blocked oil gland on the edge of the eyelid."
+   "why": "The lecture compares them directly: a chalazion is a blocked meibomian gland within the lid, while a stye is a blocked oil gland on the edge of the eyelid.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/07.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 7
+    },
+    {
+     "src": "files/slides/anat3-ocular-clinical/51.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "Conjunctivitis affects which layer of the eye?",
@@ -8811,7 +10213,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "The outer layer"
    ],
    "answer": 3,
-   "why": "Conjunctivitis, also known as pink eye, affects the outer layer, while uveitis affects the middle layer. Uveitis may result from inflammation associated with an autoimmune disorder; conjunctivitis is typically bacterial, viral or fungal."
+   "why": "Conjunctivitis, also known as pink eye, affects the outer layer, while uveitis affects the middle layer. Uveitis may result from inflammation associated with an autoimmune disorder; conjunctivitis is typically bacterial, viral or fungal.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/28.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "What is papilloedema?",
@@ -8822,7 +10231,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "Clouding of the lens"
    ],
    "answer": 1,
-   "why": "Papilloedema is optic disc swelling secondary to raised intracranial pressure, because the subarachnoid space continues along the optic nerve sheath."
+   "why": "Papilloedema is optic disc swelling secondary to raised intracranial pressure, because the subarachnoid space continues along the optic nerve sheath.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/30.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Glaucoma damages which structure?",
@@ -8833,7 +10249,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "The lacrimal gland"
    ],
    "answer": 0,
-   "why": "Glaucoma is a chronic, progressive eye disease caused by damage to the optic nerve, leading to visual field loss. A major risk factor is eye pressure: an abnormality in the drainage system causes fluid to build up."
+   "why": "Glaucoma is a chronic, progressive eye disease caused by damage to the optic nerve, leading to visual field loss. A major risk factor is eye pressure: an abnormality in the drainage system causes fluid to build up.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/32.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which cells continue as the optic nerve of the eye?",
@@ -8844,7 +10267,19 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "Amacrine cells"
    ],
    "answer": 2,
-   "why": "The axons of the retinal ganglion cells join together and leave the eye at the optic disc to form the optic nerve."
+   "why": "The axons of the retinal ganglion cells join together and leave the eye at the optic disc to form the optic nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/08.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 8
+    },
+    {
+     "src": "files/slides/anat3-ocular-clinical/34.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "An expanding pituitary tumour compressing the optic chiasma causes which defect?",
@@ -8855,7 +10290,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "Contralateral hemianopia"
    ],
    "answer": 0,
-   "why": "The pituitary sits beneath the chiasm, so it compresses the crossing nasal fibres, which carry the temporal halves of both visual fields."
+   "why": "The pituitary sits beneath the chiasm, so it compresses the crossing nasal fibres, which carry the temporal halves of both visual fields.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/39.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Absence of the corneal reflex may indicate what?",
@@ -8866,7 +10308,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "Deep coma or a nerve lesion"
    ],
    "answer": 3,
-   "why": "Absence of the corneal reflex may indicate deep coma or stroke, either unilaterally or bilaterally. Unilateral loss may also indicate a lesion involving the trigeminal or facial nerve. Repeat the test on the other eye and document it."
+   "why": "Absence of the corneal reflex may indicate deep coma or stroke, either unilaterally or bilaterally. Unilateral loss may also indicate a lesion involving the trigeminal or facial nerve. Repeat the test on the other eye and document it.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/36.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "What is retinal detachment?",
@@ -8877,7 +10326,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     "Thinning of the cornea"
    ],
    "answer": 1,
-   "why": "Retinal detachment is an emergency in which a thin layer of tissue at the back of the eye pulls away from the layer of blood vessels that provides it with oxygen and nutrients. It is often accompanied by flashes and floaters."
+   "why": "Retinal detachment is an emergency in which a thin layer of tissue at the back of the eye pulls away from the layer of blood vessels that provides it with oxygen and nutrients. It is often accompanied by flashes and floaters.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/29.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which vessels drain the orbit? (choose all)",
@@ -8891,7 +10347,19 @@ SINA.lectures["anat3-ocular-clinical"] = {
     0,
     1
    ],
-   "why": "The superior and inferior ophthalmic veins and the vortex veins drain the orbit. The central retinal and lacrimal arteries are part of the arterial supply."
+   "why": "The superior and inferior ophthalmic veins and the vortex veins drain the orbit. The central retinal and lacrimal arteries are part of the arterial supply.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/08.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 8
+    },
+    {
+     "src": "files/slides/anat3-ocular-clinical/09.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which treatments for retinal detachment does the lecture mention? (choose all)",
@@ -8905,7 +10373,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     0,
     1
    ],
-   "why": "The lecture lists removing and replacing the jelly inside the eye (vitrectomy), attaching a small band around the eye to push the wall and retina closer together (scleral buckling), and injecting a bubble of gas to push the retina back (pneumatic retinopexy)."
+   "why": "The lecture lists removing and replacing the jelly inside the eye (vitrectomy), attaching a small band around the eye to push the wall and retina closer together (scleral buckling), and injecting a bubble of gas to push the retina back (pneumatic retinopexy).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/29.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which bones form the floor of the orbit, the wall most prone to blowout fracture? (choose all)",
@@ -8919,7 +10394,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     0,
     1
    ],
-   "why": "Floor: maxilla, zygomatic bone and palatine bone. The frontal bone forms the roof and the sphenoid body part of the medial wall."
+   "why": "Floor: maxilla, zygomatic bone and palatine bone. The frontal bone forms the roof and the sphenoid body part of the medial wall.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/18.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which are features of nystagmus, according to the lecture? (choose all)",
@@ -8933,7 +10415,14 @@ SINA.lectures["anat3-ocular-clinical"] = {
     0,
     1
    ],
-   "why": "Nystagmus often results in reduced vision and depth perception and can affect balance and coordination. The movements can be side to side, up and down, or circular."
+   "why": "Nystagmus often results in reduced vision and depth perception and can affect balance and coordination. The movements can be side to side, up and down, or circular.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ocular-clinical/12.jpg",
+     "lec": "Vascular supply and applied anatomy",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -9775,7 +11264,14 @@ SINA.lectures["anat3-sinuses"] = {
     "A cone with its base at the roof"
    ],
    "answer": 0,
-   "why": "The nasal cavities are the uppermost parts of the respiratory tract and contain the olfactory receptors. They are elongated wedge-shaped spaces with a large inferior base and a narrow superior apex."
+   "why": "The nasal cavities are the uppermost parts of the respiratory tract and contain the olfactory receptors. They are elongated wedge-shaped spaces with a large inferior base and a narrow superior apex.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/02.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What are the nares and the choanae?",
@@ -9786,7 +11282,14 @@ SINA.lectures["anat3-sinuses"] = {
     "Both are parts of the nasal septum"
    ],
    "answer": 1,
-   "why": "The skeletal framework consists mainly of bone and cartilage. Nares: the external opening of the nose. Choanae: open into the nasopharynx."
+   "why": "The skeletal framework consists mainly of bone and cartilage. Nares: the external opening of the nose. Choanae: open into the nasopharynx.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/02.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Into how many air channels do the conchae divide each nasal cavity?",
@@ -9797,7 +11300,14 @@ SINA.lectures["anat3-sinuses"] = {
     "Five"
    ],
    "answer": 2,
-   "why": "The conchae divide each nasal cavity into four air channels: the inferior, middle and superior meatuses and the spheno-ethmoidal recess."
+   "why": "The conchae divide each nasal cavity into four air channels: the inferior, middle and superior meatuses and the spheno-ethmoidal recess.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/06.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Where is the middle nasal meatus?",
@@ -9808,7 +11318,14 @@ SINA.lectures["anat3-sinuses"] = {
     "Between the inferior and middle conchae"
    ],
    "answer": 3,
-   "why": "Inferior meatus: between the inferior concha and the nasal floor. Middle meatus: between the inferior and middle conchae. Superior meatus: between the middle and superior conchae. Spheno-ethmoidal recess: between the superior concha and the nasal roof."
+   "why": "Inferior meatus: between the inferior concha and the nasal floor. Middle meatus: between the inferior and middle conchae. Superior meatus: between the middle and superior conchae. Spheno-ethmoidal recess: between the superior concha and the nasal roof.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/06.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "How many paranasal air sinuses are there?",
@@ -9819,7 +11336,14 @@ SINA.lectures["anat3-sinuses"] = {
     "Six"
    ],
    "answer": 1,
-   "why": "There are four paranasal air sinuses: the ethmoidal cells, sphenoidal, maxillary and frontal sinuses. They are invaginations from the nasal cavity that drain into spaces associated with the lateral nasal wall."
+   "why": "There are four paranasal air sinuses: the ethmoidal cells, sphenoidal, maxillary and frontal sinuses. They are invaginations from the nasal cavity that drain into spaces associated with the lateral nasal wall.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/08.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "What are the stated functions of the paranasal sinuses?",
@@ -9830,7 +11354,14 @@ SINA.lectures["anat3-sinuses"] = {
     "Lightening the skull"
    ],
    "answer": 3,
-   "why": "The lecture gives two: they make the skull lighter and add resonance to the voice. Infection causes sinusitis."
+   "why": "The lecture gives two: they make the skull lighter and add resonance to the voice. Infection causes sinusitis.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/08.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "At what age do the sinuses enlarge rapidly?",
@@ -9841,7 +11372,14 @@ SINA.lectures["anat3-sinuses"] = {
     "Only after the age of 60"
    ],
    "answer": 0,
-   "why": "The sinuses are rudimentary or even absent at birth, enlarge rapidly at the age of 6 to 7 years, then again after puberty. They increase in size through enlargement of the bones from birth to adult life, and resorption of bone in old age."
+   "why": "The sinuses are rudimentary or even absent at birth, enlarge rapidly at the age of 6 to 7 years, then again after puberty. They increase in size through enlargement of the bones from birth to adult life, and resorption of bone in old age.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/11.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What lines the paranasal sinuses?",
@@ -9852,7 +11390,14 @@ SINA.lectures["anat3-sinuses"] = {
     "Cartilage"
    ],
    "answer": 2,
-   "why": "The sinuses are lined by a respiratory epithelium, continuous with the lining of the nasal cavity."
+   "why": "The sinuses are lined by a respiratory epithelium, continuous with the lining of the nasal cavity.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/11.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What is the average size of a frontal sinus?",
@@ -9863,7 +11408,14 @@ SINA.lectures["anat3-sinuses"] = {
     "About 2.5 cm"
    ],
    "answer": 3,
-   "why": "There is one frontal sinus on each side. They are variable in size and are the most superior of the sinuses, with an average size of 2.5 cm, and each is triangular in shape."
+   "why": "There is one frontal sinus on each side. They are variable in size and are the most superior of the sinuses, with an average size of 2.5 cm, and each is triangular in shape.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/12.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Where does the frontal sinus drain?",
@@ -9874,7 +11426,14 @@ SINA.lectures["anat3-sinuses"] = {
     "Into the inferior meatus"
    ],
    "answer": 0,
-   "why": "The frontal sinus is rudimentary at birth and usually well developed by the age of 7 or 8. It drains onto the lateral wall of the middle meatus via the frontonasal duct."
+   "why": "The frontal sinus is rudimentary at birth and usually well developed by the age of 7 or 8. It drains onto the lateral wall of the middle meatus via the frontonasal duct.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/12.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which nerves supply the frontal sinus?",
@@ -9885,7 +11444,14 @@ SINA.lectures["anat3-sinuses"] = {
     "The olfactory nerve (CN I)"
    ],
    "answer": 2,
-   "why": "The frontal sinus is supplied by branches of the supraorbital nerve and supratrochlear nerve from the ophthalmic nerve (V1). Its blood supply comes from branches of the anterior ethmoidal, supraorbital and supratrochlear arteries."
+   "why": "The frontal sinus is supplied by branches of the supraorbital nerve and supratrochlear nerve from the ophthalmic nerve (V1). Its blood supply comes from branches of the anterior ethmoidal, supraorbital and supratrochlear arteries.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/13.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "How many sets of ethmoidal air cells are there?",
@@ -9896,7 +11462,14 @@ SINA.lectures["anat3-sinuses"] = {
     "One continuous cavity"
    ],
    "answer": 1,
-   "why": "The ethmoidal sinus is composed of three sets of ethmoidal air cells: anterior, middle and posterior. There are 3 to 18 ethmoid air cells on each side."
+   "why": "The ethmoidal sinus is composed of three sets of ethmoidal air cells: anterior, middle and posterior. There are 3 to 18 ethmoid air cells on each side.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/14.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "What is the ethmoid bulla?",
@@ -9907,7 +11480,14 @@ SINA.lectures["anat3-sinuses"] = {
     "A swelling of the meatus wall"
    ],
    "answer": 3,
-   "why": "The thin-walled, bony, honeycombed spaces collectively form the ethmoidal labyrinth, located between the orbits and the nasal fossae. The ethmoid bulla is produced by the middle ethmoid air cells and swells the lateral wall of the middle meatus."
+   "why": "The thin-walled, bony, honeycombed spaces collectively form the ethmoidal labyrinth, located between the orbits and the nasal fossae. The ethmoid bulla is produced by the middle ethmoid air cells and swells the lateral wall of the middle meatus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/14.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which nerves supply the ethmoidal sinus?",
@@ -9918,7 +11498,14 @@ SINA.lectures["anat3-sinuses"] = {
     "The olfactory nerve"
    ],
    "answer": 2,
-   "why": "It is innervated by the anterior and posterior ethmoidal branches of the nasociliary nerve from the ophthalmic nerve (V1), and by the maxillary nerve (V2) via orbital branches from the pterygopalatine ganglion."
+   "why": "It is innervated by the anterior and posterior ethmoidal branches of the nasociliary nerve from the ophthalmic nerve (V1), and by the maxillary nerve (V2) via orbital branches from the pterygopalatine ganglion.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/15.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Where does the ethmoidal sinus drain its lymph?",
@@ -9929,7 +11516,14 @@ SINA.lectures["anat3-sinuses"] = {
     "Occipital nodes"
    ],
    "answer": 0,
-   "why": "Primary lymphatic drainage: submandibular lymph nodes for the anterior and middle ethmoid sinuses, and retropharyngeal lymph nodes for the posterior ethmoid sinus."
+   "why": "Primary lymphatic drainage: submandibular lymph nodes for the anterior and middle ethmoid sinuses, and retropharyngeal lymph nodes for the posterior ethmoid sinus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/15.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which is the largest paranasal sinus?",
@@ -9940,7 +11534,14 @@ SINA.lectures["anat3-sinuses"] = {
     "The ethmoidal sinus"
    ],
    "answer": 1,
-   "why": "There is one on each side, and it is the largest of the paranasal sinuses, about 3.5 x 2.5 x 3.5 cm. It completely fills the body of the maxilla and is pyramidal in shape."
+   "why": "There is one on each side, and it is the largest of the paranasal sinuses, about 3.5 x 2.5 x 3.5 cm. It completely fills the body of the maxilla and is pyramidal in shape.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/18.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "What forms the roof of the maxillary sinus?",
@@ -9951,7 +11552,14 @@ SINA.lectures["anat3-sinuses"] = {
     "The zygomatic process of the maxilla"
    ],
    "answer": 2,
-   "why": "The maxillary sinus is pyramidal: roof, the inferior orbital margin; floor, the alveolus of the maxilla; base, the lateral wall of the nose; apex, the zygomatic process of the maxilla."
+   "why": "The maxillary sinus is pyramidal: roof, the inferior orbital margin; floor, the alveolus of the maxilla; base, the lateral wall of the nose; apex, the zygomatic process of the maxilla.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/18.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which nerve innervates the maxillary sinus?",
@@ -9962,7 +11570,19 @@ SINA.lectures["anat3-sinuses"] = {
     "The maxillary nerve (V2)"
    ],
    "answer": 3,
-   "why": "It is innervated by the infraorbital and alveolar branches of the maxillary nerve (V2), receives blood through branches from the infraorbital and superior alveolar branches of the maxillary arteries, and drains its lymph to the submandibular nodes."
+   "why": "It is innervated by the infraorbital and alveolar branches of the maxillary nerve (V2), receives blood through branches from the infraorbital and superior alveolar branches of the maxillary arteries, and drains its lymph to the submandibular nodes.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/19.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 19
+    },
+    {
+     "src": "files/slides/anat3-sinuses/20.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which structures lie superior to the sphenoidal sinus?",
@@ -9973,7 +11593,14 @@ SINA.lectures["anat3-sinuses"] = {
     "The nasal septum only"
    ],
    "answer": 1,
-   "why": "Relations: superior, the hypophyseal fossa, pituitary gland and optic chiasma; inferior, the nasopharynx and pterygoid canal; medial, the other sphenoid bone; lateral, the cavernous sinus, internal carotid artery and cranial nerves III, IV, V1, V2 and VI."
+   "why": "Relations: superior, the hypophyseal fossa, pituitary gland and optic chiasma; inferior, the nasopharynx and pterygoid canal; medial, the other sphenoid bone; lateral, the cavernous sinus, internal carotid artery and cranial nerves III, IV, V1, V2 and VI.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/22.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Where does the sphenoidal sinus open?",
@@ -9984,7 +11611,19 @@ SINA.lectures["anat3-sinuses"] = {
     "Into the superior meatus"
    ],
    "answer": 0,
-   "why": "The sphenoidal sinus opens at the sphenoidal ostium into the spheno-ethmoidal recess, above the superior concha."
+   "why": "The sphenoidal sinus opens at the sphenoidal ostium into the spheno-ethmoidal recess, above the superior concha.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/06.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 6
+    },
+    {
+     "src": "files/slides/anat3-sinuses/24.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which sinuses drain into the middle meatus? (choose all)",
@@ -9998,7 +11637,14 @@ SINA.lectures["anat3-sinuses"] = {
     0,
     1
    ],
-   "why": "Middle meatus: the maxillary sinus (via the ethmoidal infundibulum), the frontal sinus (via the frontonasal duct) and the anterior and middle ethmoidal cells. The sphenoidal sinus opens into the spheno-ethmoidal recess; the posterior ethmoidal cells into the superior meatus."
+   "why": "Middle meatus: the maxillary sinus (via the ethmoidal infundibulum), the frontal sinus (via the frontonasal duct) and the anterior and middle ethmoidal cells. The sphenoidal sinus opens into the spheno-ethmoidal recess; the posterior ethmoidal cells into the superior meatus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/24.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which are relations of the sphenoidal sinus laterally? (choose all)",
@@ -10012,7 +11658,14 @@ SINA.lectures["anat3-sinuses"] = {
     0,
     1
    ],
-   "why": "Laterally: the cavernous sinus, internal carotid artery and cranial nerves III, IV, V1, V2 and VI. The pituitary gland lies superiorly and the nasopharynx inferiorly."
+   "why": "Laterally: the cavernous sinus, internal carotid artery and cranial nerves III, IV, V1, V2 and VI. The pituitary gland lies superiorly and the nasopharynx inferiorly.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/22.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which arteries supply the maxillary sinus? (choose all)",
@@ -10026,7 +11679,19 @@ SINA.lectures["anat3-sinuses"] = {
     0,
     1
    ],
-   "why": "The maxillary sinus receives blood through branches from the infraorbital and superior alveolar branches of the maxillary arteries. The supratrochlear and anterior ethmoidal arteries supply the frontal and ethmoidal sinuses."
+   "why": "The maxillary sinus receives blood through branches from the infraorbital and superior alveolar branches of the maxillary arteries. The supratrochlear and anterior ethmoidal arteries supply the frontal and ethmoidal sinuses.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/13.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 13
+    },
+    {
+     "src": "files/slides/anat3-sinuses/15.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which air channels does the lateral nasal wall contain? (choose all)",
@@ -10040,7 +11705,14 @@ SINA.lectures["anat3-sinuses"] = {
     0,
     1
    ],
-   "why": "The conchae divide each nasal cavity into four air channels: the inferior, middle and superior meatuses and the spheno-ethmoidal recess. The ethmoidal labyrinth is the honeycomb of air cells in the ethmoid bone, and the pterygopalatine fossa lies outside the nasal cavity."
+   "why": "The conchae divide each nasal cavity into four air channels: the inferior, middle and superior meatuses and the spheno-ethmoidal recess. The ethmoidal labyrinth is the honeycomb of air cells in the ethmoid bone, and the pterygopalatine fossa lies outside the nasal cavity.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-sinuses/06.jpg",
+     "lec": "Nose and paranasal sinuses",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -10741,7 +12413,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "The soft palate and uvula"
    ],
    "answer": 0,
-   "why": "The oral cavity extends from the lips to the oropharyngeal isthmus, the junction of mouth and pharynx. It is subdivided into the vestibule and the oral cavity proper."
+   "why": "The oral cavity extends from the lips to the oropharyngeal isthmus, the junction of mouth and pharynx. It is subdivided into the vestibule and the oral cavity proper.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/02.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What bounds the oropharyngeal isthmus above and below?",
@@ -10752,7 +12431,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "The teeth above and below"
    ],
    "answer": 1,
-   "why": "It is bounded above by the soft palate and the palatoglossal folds, and below by the dorsum of the tongue."
+   "why": "It is bounded above by the soft palate and the palatoglossal folds, and below by the dorsum of the tongue.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/02.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What is the vestibule of the mouth?",
@@ -10763,7 +12449,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "The pouch beneath the tongue"
    ],
    "answer": 2,
-   "why": "The vestibule is a slit-like space between the cheeks and the gums, communicating with the exterior through the oral fissure. When the jaws are closed it communicates with the oral cavity proper behind the third molar tooth on each side."
+   "why": "The vestibule is a slit-like space between the cheeks and the gums, communicating with the exterior through the oral fissure. When the jaws are closed it communicates with the oral cavity proper behind the third molar tooth on each side.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/03.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which muscle forms the lateral wall of the vestibule?",
@@ -10774,7 +12467,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "Buccinator"
    ],
    "answer": 3,
-   "why": "The lateral wall of the vestibule is formed by the cheek, which is composed of the buccinator muscle, covered laterally by the skin and medially by the mucous membrane."
+   "why": "The lateral wall of the vestibule is formed by the cheek, which is composed of the buccinator muscle, covered laterally by the skin and medially by the mucous membrane.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/04.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Where does the parotid duct open?",
@@ -10785,7 +12485,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "Into the floor of the nose"
    ],
    "answer": 1,
-   "why": "A small papilla on the mucosa opposite the upper second molar tooth marks the opening of the duct of the parotid gland."
+   "why": "A small papilla on the mucosa opposite the upper second molar tooth marks the opening of the duct of the parotid gland.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/04.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What forms the floor of the oral cavity proper?",
@@ -10796,7 +12503,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "The mylohyoid muscle"
    ],
    "answer": 3,
-   "why": "The oral cavity proper is the cavity within the alveolar margins of the maxillae and the mandible. Its roof is the hard palate anteriorly and the soft palate posteriorly; its floor is formed by the mylohyoid muscle, and the anterior two thirds of the tongue lies on that floor."
+   "why": "The oral cavity proper is the cavity within the alveolar margins of the maxillae and the mandible. Its roof is the hard palate anteriorly and the soft palate posteriorly; its floor is formed by the mylohyoid muscle, and the anterior two thirds of the tongue lies on that floor.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/05.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which duct opens on the papilla beside the frenulum of the tongue?",
@@ -10807,7 +12521,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "The frontonasal duct"
    ],
    "answer": 0,
-   "why": "On each side of the frenulum, a small papilla has the opening of the duct of the submandibular gland. A rounded ridge extending backward and laterally from the papilla is produced by the sublingual gland."
+   "why": "On each side of the frenulum, a small papilla has the opening of the duct of the submandibular gland. A rounded ridge extending backward and laterally from the papilla is produced by the sublingual gland.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/06.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which nerve gives sensation to the floor of the mouth?",
@@ -10818,7 +12539,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "The facial nerve (CN VII)"
    ],
    "answer": 2,
-   "why": "Sensory supply of the oral cavity: roof, the greater palatine and nasopalatine nerves (branches of the maxillary nerve); floor, the lingual nerve (branch of the mandibular nerve); cheek, the buccal nerve (branch of the mandibular nerve)."
+   "why": "Sensory supply of the oral cavity: roof, the greater palatine and nasopalatine nerves (branches of the maxillary nerve); floor, the lingual nerve (branch of the mandibular nerve); cheek, the buccal nerve (branch of the mandibular nerve).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/07.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which nerve supplies the buccinator and orbicularis oris?",
@@ -10829,7 +12557,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "The facial nerve (CN VII)"
    ],
    "answer": 3,
-   "why": "Motor supply: the muscle in the cheek (buccinator) and the lip (orbicularis oris) are supplied by branches of the facial nerve."
+   "why": "Motor supply: the muscle in the cheek (buccinator) and the lip (orbicularis oris) are supplied by branches of the facial nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/07.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The tongue is divided into how many parts, and what are they?",
@@ -10840,7 +12575,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "One continuous muscular mass"
    ],
    "answer": 0,
-   "why": "The tongue is a mass of striated muscles covered with mucous membrane, divided into right and left halves by a median septum. Three parts: oral (anterior two thirds), pharyngeal (posterior third) and root. Two surfaces: dorsal and ventral."
+   "why": "The tongue is a mass of striated muscles covered with mucous membrane, divided into right and left halves by a median septum. Three parts: oral (anterior two thirds), pharyngeal (posterior third) and root. Two surfaces: dorsal and ventral.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/08.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "What separates the anterior two thirds from the posterior third of the tongue?",
@@ -10851,7 +12593,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "The plica fimbriata"
    ],
    "answer": 2,
-   "why": "The dorsal surface is divided into anterior two thirds and posterior one third by a V-shaped sulcus terminalis. The apex of the sulcus faces backward and is marked by a pit called the foramen cecum."
+   "why": "The dorsal surface is divided into anterior two thirds and posterior one third by a V-shaped sulcus terminalis. The apex of the sulcus faces backward and is marked by a pit called the foramen cecum.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/08.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "What is the foramen cecum a remnant of?",
@@ -10862,7 +12611,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "The pharyngeal pouch"
    ],
    "answer": 1,
-   "why": "The foramen cecum is an embryological remnant marking the site of the upper end of the thyroglossal duct."
+   "why": "The foramen cecum is an embryological remnant marking the site of the upper end of the thyroglossal duct.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/04.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which three types of papillae are on the anterior two thirds of the tongue?",
@@ -10873,7 +12629,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "Filiform, fungiform and vallate"
    ],
    "answer": 3,
-   "why": "The mucosa of the anterior two thirds is rough and shows three types of papillae: filiform, fungiform and vallate. The posterior third has no papillae but shows a nodular surface because of underlying lymphatic nodules, the lingual tonsils."
+   "why": "The mucosa of the anterior two thirds is rough and shows three types of papillae: filiform, fungiform and vallate. The posterior third has no papillae but shows a nodular surface because of underlying lymphatic nodules, the lingual tonsils.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/11.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What gives the posterior third of the tongue its nodular surface?",
@@ -10884,7 +12647,19 @@ SINA.lectures["anat3-oral-cavity"] = {
     "Sublingual glands"
    ],
    "answer": 2,
-   "why": "The posterior third has no papillae but shows a nodular surface because of the underlying lymphatic nodules, the lingual tonsils."
+   "why": "The posterior third has no papillae but shows a nodular surface because of the underlying lymphatic nodules, the lingual tonsils.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/11.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 11
+    },
+    {
+     "src": "files/slides/anat3-oral-cavity/17.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "What is the plica fimbriata?",
@@ -10895,7 +12670,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "The opening of the submandibular duct"
    ],
    "answer": 0,
-   "why": "The ventral surface is smooth with no papillae. In the midline anteriorly a mucosal fold, the frenulum, connects the tongue with the floor of the mouth. Lateral to the frenulum the deep lingual vein can be seen through the mucosa, and lateral to that a fold of mucosa forms the plica fimbriata."
+   "why": "The ventral surface is smooth with no papillae. In the midline anteriorly a mucosal fold, the frenulum, connects the tongue with the floor of the mouth. Lateral to the frenulum the deep lingual vein can be seen through the mucosa, and lateral to that a fold of mucosa forms the plica fimbriata.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/11.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What do the intrinsic muscles of the tongue do?",
@@ -10906,7 +12688,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "They open the auditory tube"
    ],
    "answer": 1,
-   "why": "Intrinsic muscles are confined to the tongue with no bony attachment: longitudinal, transverse and vertical fibres. Their function is to alter the shape of the tongue. Extrinsic muscles connect it to surrounding structures and help in its movements."
+   "why": "Intrinsic muscles are confined to the tongue with no bony attachment: longitudinal, transverse and vertical fibres. Their function is to alter the shape of the tongue. Extrinsic muscles connect it to surrounding structures and help in its movements.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/12.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Name the four extrinsic muscles of the tongue.",
@@ -10917,7 +12706,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "Longitudinal, transverse, vertical and oblique"
    ],
    "answer": 2,
-   "why": "The extrinsic muscles connect the tongue to the soft palate and the bones (mandible, hyoid bone, styloid process): palatoglossus, genioglossus, hyoglossus and styloglossus."
+   "why": "The extrinsic muscles connect the tongue to the soft palate and the bones (mandible, hyoid bone, styloid process): palatoglossus, genioglossus, hyoglossus and styloglossus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/13.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which muscle protrudes the tongue?",
@@ -10928,7 +12724,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "Genioglossus on both sides"
    ],
    "answer": 3,
-   "why": "Protrusion: genioglossus on both sides. Retraction: styloglossus and hyoglossus on both sides. Depression: hyoglossus and genioglossus on both sides. Elevation: styloglossus and palatoglossus on both sides."
+   "why": "Protrusion: genioglossus on both sides. Retraction: styloglossus and hyoglossus on both sides. Depression: hyoglossus and genioglossus on both sides. Elevation: styloglossus and palatoglossus on both sides.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/14.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which nerve carries general sensation from the anterior two thirds of the tongue?",
@@ -10939,7 +12742,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "The internal laryngeal nerve, from CN X"
    ],
    "answer": 1,
-   "why": "Anterior two thirds: general sensation by the lingual nerve (a branch of CN V3), special sensation (taste) by the chorda tympani (CN VII). Posterior third: general and special sensation by the glossopharyngeal nerve (CN IX). Base: general and special sensation by the internal laryngeal nerve (CN X)."
+   "why": "Anterior two thirds: general sensation by the lingual nerve (a branch of CN V3), special sensation (taste) by the chorda tympani (CN VII). Posterior third: general and special sensation by the glossopharyngeal nerve (CN IX). Base: general and special sensation by the internal laryngeal nerve (CN X).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/15.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which nerve supplies all the muscles of the tongue except palatoglossus?",
@@ -10950,7 +12760,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "The facial nerve (CN VII)"
    ],
    "answer": 0,
-   "why": "Motor supply: the hypoglossal nerve supplies all the muscles; the vagus nerve supplies the palatoglossus."
+   "why": "Motor supply: the hypoglossal nerve supplies all the muscles; the vagus nerve supplies the palatoglossus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/15.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which artery is the main supply of the tongue?",
@@ -10961,7 +12778,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "The maxillary artery"
    ],
    "answer": 2,
-   "why": "Arteries: the lingual artery, the tonsillar branch of the facial artery and the ascending pharyngeal artery. Veins: the lingual vein, which ultimately drains into the internal jugular vein."
+   "why": "Arteries: the lingual artery, the tonsillar branch of the facial artery and the ascending pharyngeal artery. Veins: the lingual vein, which ultimately drains into the internal jugular vein.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/16.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Where does lymph from the tip of the tongue drain?",
@@ -10972,7 +12796,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "To the retropharyngeal nodes"
    ],
    "answer": 0,
-   "why": "Tip: submental nodes bilaterally and then deep cervical nodes. Anterior two thirds: submandibular nodes unilaterally, then deep cervical nodes. Posterior third: deep cervical nodes, mainly the jugulodigastric."
+   "why": "Tip: submental nodes bilaterally and then deep cervical nodes. Anterior two thirds: submandibular nodes unilaterally, then deep cervical nodes. Posterior third: deep cervical nodes, mainly the jugulodigastric.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/17.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which bones form the hard palate?",
@@ -10983,7 +12814,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "The maxillae and palatine bones"
    ],
    "answer": 3,
-   "why": "The hard palate lies in the roof of the oral cavity and forms the floor of the nasal cavity. It is formed by the palatine processes of the maxillae in front and the horizontal plates of the palatine bones behind, and is bounded by the alveolar arches."
+   "why": "The hard palate lies in the roof of the oral cavity and forms the floor of the nasal cavity. It is formed by the palatine processes of the maxillae in front and the horizontal plates of the palatine bones behind, and is bounded by the alveolar arches.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/20.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "What is the palatine aponeurosis?",
@@ -10994,7 +12832,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "The bony plate of the hard palate"
    ],
    "answer": 1,
-   "why": "The palatine aponeurosis is a fibrous sheath attached to the posterior border of the hard palate. It is the expanded tendon of tensor veli palatini, and it splits to enclose the musculus uvulae and gives origin and insertion to the palatine muscles."
+   "why": "The palatine aponeurosis is a fibrous sheath attached to the posterior border of the hard palate. It is the expanded tendon of tensor veli palatini, and it splits to enclose the musculus uvulae and gives origin and insertion to the palatine muscles.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/22.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which muscle of the soft palate is supplied by the mandibular nerve?",
@@ -11005,7 +12850,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "Musculus uvulae"
    ],
    "answer": 0,
-   "why": "Tensor veli palatini: origin the spine of the sphenoid and auditory tube, supplied by the medial pterygoid nerve of the mandibular nerve, tensing the soft palate. All the other palatine muscles take the pharyngeal plexus."
+   "why": "Tensor veli palatini: origin the spine of the sphenoid and auditory tube, supplied by the medial pterygoid nerve of the mandibular nerve, tensing the soft palate. All the other palatine muscles take the pharyngeal plexus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/23.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which is the largest major salivary gland?",
@@ -11016,7 +12868,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "The lingual gland"
    ],
    "answer": 2,
-   "why": "The parotid (para = around, otic = ear) is the largest major salivary gland. It is purely serous and weighs about 15 grams. Its superficial portion lies in front of the external ear, and its deeper part fills the retromolar fossa."
+   "why": "The parotid (para = around, otic = ear) is the largest major salivary gland. It is purely serous and weighs about 15 grams. Its superficial portion lies in front of the external ear, and its deeper part fills the retromolar fossa.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/25.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Which duct crosses the masseter and pierces the buccinator?",
@@ -11027,7 +12886,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "The nasolacrimal duct"
    ],
    "answer": 1,
-   "why": "The main excretory duct, the Stensen's duct, crosses the masseter and pierces the buccinator to open at a papilla at the buccal mucosa opposite the maxillary second molar. It measures 4 to 6 mm in length and 5 mm in diameter."
+   "why": "The main excretory duct, the Stensen's duct, crosses the masseter and pierces the buccinator to open at a papilla at the buccal mucosa opposite the maxillary second molar. It measures 4 to 6 mm in length and 5 mm in diameter.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/26.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which type of secretory unit predominates in the submandibular gland?",
@@ -11038,7 +12904,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "Serous units"
    ],
    "answer": 3,
-   "why": "The submandibular (submaxillary) gland is the second largest and is a mixed gland with both serous and mucous units, but serous units predominate. The sublingual gland is also mixed, but mucous units predominate there."
+   "why": "The submandibular (submaxillary) gland is the second largest and is a mixed gland with both serous and mucous units, but serous units predominate. The sublingual gland is also mixed, but mucous units predominate there.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/27.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Where does the submandibular duct open?",
@@ -11049,7 +12922,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "Into the floor of the nose"
    ],
    "answer": 0,
-   "why": "The main excretory duct of the submandibular gland is Wharton's duct. It runs forward above the mylohyoid muscle, lying just below the mucosa and the floor of the mouth, and opens on the sublingual papilla, lateral to the lingual frenulum."
+   "why": "The main excretory duct of the submandibular gland is Wharton's duct. It runs forward above the mylohyoid muscle, lying just below the mucosa and the floor of the mouth, and opens on the sublingual papilla, lateral to the lingual frenulum.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/28.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which is the smallest of the major salivary glands?",
@@ -11060,7 +12940,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     "They are all the same size"
    ],
    "answer": 2,
-   "why": "The sublingual gland is the smallest of the major salivary glands. It lies between the floor of the mouth, below the mucosa and above the mylohyoid muscle. It is a mixed gland, but mucous units predominate."
+   "why": "The sublingual gland is the smallest of the major salivary glands. It lies between the floor of the mouth, below the mucosa and above the mylohyoid muscle. It is a mixed gland, but mucous units predominate.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/29.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which nerves carry taste from the tongue? (choose all)",
@@ -11074,7 +12961,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     0,
     1
    ],
-   "why": "Taste: the chorda tympani for the anterior two thirds, the glossopharyngeal nerve for the posterior third, and the internal laryngeal nerve of the vagus for the base. The lingual nerve carries general sensation and the hypoglossal nerve is motor."
+   "why": "Taste: the chorda tympani for the anterior two thirds, the glossopharyngeal nerve for the posterior third, and the internal laryngeal nerve of the vagus for the base. The lingual nerve carries general sensation and the hypoglossal nerve is motor.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/15.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which muscles are extrinsic muscles of the tongue? (choose all)",
@@ -11088,7 +12982,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     0,
     1
    ],
-   "why": "The four extrinsic muscles are palatoglossus, genioglossus, hyoglossus and styloglossus. The mylohyoid forms the floor of the mouth and the buccinator the cheek."
+   "why": "The four extrinsic muscles are palatoglossus, genioglossus, hyoglossus and styloglossus. The mylohyoid forms the floor of the mouth and the buccinator the cheek.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/13.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which are the three major salivary glands? (choose all)",
@@ -11102,7 +13003,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     0,
     1
    ],
-   "why": "The three major salivary glands are the parotid, submandibular and sublingual. The lacrimal gland makes tears, and the pterygopalatine is a ganglion, not a gland."
+   "why": "The three major salivary glands are the parotid, submandibular and sublingual. The lacrimal gland makes tears, and the pterygopalatine is a ganglion, not a gland.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/24.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which structures form the roof of the oral cavity proper? (choose all)",
@@ -11116,7 +13024,14 @@ SINA.lectures["anat3-oral-cavity"] = {
     0,
     1
    ],
-   "why": "The roof is the hard palate in front and the soft palate behind. The mylohyoid forms the floor, on which the anterior two thirds of the tongue lies."
+   "why": "The roof is the hard palate in front and the soft palate behind. The mylohyoid forms the floor, on which the anterior two thirds of the tongue lies.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-oral-cavity/05.jpg",
+     "lec": "Oral cavity proper, tongue and palate",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -11994,7 +13909,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "Stoma"
    ],
    "answer": 0,
-   "why": "The Greek word for nose is rhinos, so the study of the nose and its diseases is termed rhinology."
+   "why": "The Greek word for nose is rhinos, so the study of the nose and its diseases is termed rhinology.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/03.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which of these is NOT a stated function of the nose?",
@@ -12005,7 +13927,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "Air conditioning of inspired air"
    ],
    "answer": 1,
-   "why": "The six functions given are respiration, olfaction, protection of the lower respiratory passages, air conditioning of the inspired air, vocal resonance, and nasal reflex functions such as sneezing."
+   "why": "The six functions given are respiration, olfaction, protection of the lower respiratory passages, air conditioning of the inspired air, vocal resonance, and nasal reflex functions such as sneezing.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/03.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "From what do the nasal cavities develop?",
@@ -12016,7 +13945,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "The primary palate"
    ],
    "answer": 2,
-   "why": "The nose and nasal cavities are formed by five facial prominences derived from the first branchial arch, appearing at the end of the fifth week. The nasal cavities derive from the nasal placodes, which invaginate to form the primitive nasal cavity, the primitive olfactory gutter."
+   "why": "The nose and nasal cavities are formed by five facial prominences derived from the first branchial arch, appearing at the end of the fifth week. The nasal cavities derive from the nasal placodes, which invaginate to form the primitive nasal cavity, the primitive olfactory gutter.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/07.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Initially, what separates the nasal cavity from the primary oral cavity?",
@@ -12027,7 +13963,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "The oronasal membrane"
    ],
    "answer": 3,
-   "why": "Initially the oronasal membrane separates the two. The nasal cavity is later separated from the oral cavity by the maturation of the primary and secondary palate."
+   "why": "Initially the oronasal membrane separates the two. The nasal cavity is later separated from the oral cavity by the maturation of the primary and secondary palate.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/07.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "How many walls does each nasal cavity have?",
@@ -12038,7 +13981,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "Six"
    ],
    "answer": 1,
-   "why": "Each nasal cavity is shaped like a long sagittal corridor with four walls (roof, floor, medial and lateral) and two apertures, anterior and posterior."
+   "why": "Each nasal cavity is shaped like a long sagittal corridor with four walls (roof, floor, medial and lateral) and two apertures, anterior and posterior.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/11.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which three structures form the nasal septum?",
@@ -12049,7 +13999,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "Ethmoid plate, vomer, cartilage"
    ],
    "answer": 3,
-   "why": "The medial wall is the nasal septum, an osteo-cartilaginous structure: the perpendicular plate of the ethmoid, the vomer bone and the septal cartilage."
+   "why": "The medial wall is the nasal septum, an osteo-cartilaginous structure: the perpendicular plate of the ethmoid, the vomer bone and the septal cartilage.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/13.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "What forms the anterior two thirds of the floor of the nasal cavity?",
@@ -12060,7 +14017,19 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "The medial pterygoid plate"
    ],
    "answer": 0,
-   "why": "Floor: anterior two thirds, the palatine process of the maxillary bone; posterior third, the horizontal plate of the palatine bone."
+   "why": "Floor: anterior two thirds, the palatine process of the maxillary bone; posterior third, the horizontal plate of the palatine bone.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/16.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 16
+    },
+    {
+     "src": "files/slides/anat3-nasal-cavity/21.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which three bones form the roof, front to back?",
@@ -12071,7 +14040,19 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "Ethmoid, lacrimal and palatine"
    ],
    "answer": 2,
-   "why": "The roof runs anterior (nasal), superior (ethmoidal) and posterior (sphenoidal)."
+   "why": "The roof runs anterior (nasal), superior (ethmoidal) and posterior (sphenoidal).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/14.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 14
+    },
+    {
+     "src": "files/slides/anat3-nasal-cavity/42.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "What is the bony anterior opening of the nasal cavity called?",
@@ -12082,7 +14063,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "The piriform aperture"
    ],
    "answer": 3,
-   "why": "The anterior opening is the bony piriform aperture, circumscribed above by the nasal bones and below and laterally by the frontal process of the maxillary bone. The vestibule lies more anteriorly, with the major alar and septal cartilages."
+   "why": "The anterior opening is the bony piriform aperture, circumscribed above by the nasal bones and below and laterally by the frontal process of the maxillary bone. The vestibule lies more anteriorly, with the major alar and septal cartilages.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/17.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "What separates the two choanae?",
@@ -12093,7 +14081,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "The horizontal plate of the palate"
    ],
    "answer": 0,
-   "why": "The posterior orifice is the choana: oval with a large vertical axis, limited above by the body of the sphenoid, below by the horizontal plate of the palate, laterally by the pterygoid process, and medially by the vomer, which separates the two choanae."
+   "why": "The posterior orifice is the choana: oval with a large vertical axis, limited above by the body of the sphenoid, below by the horizontal plate of the palate, laterally by the pterygoid process, and medially by the vomer, which separates the two choanae.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/19.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "How many bone pieces make up the lateral wall?",
@@ -12104,7 +14099,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "Eight"
    ],
    "answer": 2,
-   "why": "Six: the medial side of the maxillary body, the medial side of the frontal process of the maxilla, the medial aspect of the ethmoid, the lacrimal bone, the perpendicular plate of the palatine bone and the medial plate of the pterygoid process."
+   "why": "Six: the medial side of the maxillary body, the medial side of the frontal process of the maxilla, the medial aspect of the ethmoid, the lacrimal bone, the perpendicular plate of the palatine bone and the medial plate of the pterygoid process.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/20.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Into which three topographic portions is the lateral wall divided?",
@@ -12115,7 +14117,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "Bony, cartilaginous and mucosal"
    ],
    "answer": 1,
-   "why": "Anterior pre-turbinal area, the turbinal area (bony projections, the conchae or turbinates, and the meatuses), and the posterior retroturbinal area."
+   "why": "Anterior pre-turbinal area, the turbinal area (bony projections, the conchae or turbinates, and the meatuses), and the posterior retroturbinal area.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/23.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which concha is an independent bone?",
@@ -12126,7 +14135,19 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "The inferior concha"
    ],
    "answer": 3,
-   "why": "The inferior turbinate is an independent bone, the most extended and elongated. The superior and middle turbinates detach from the medial aspect of the ethmoid."
+   "why": "The inferior turbinate is an independent bone, the most extended and elongated. The superior and middle turbinates detach from the medial aspect of the ethmoid.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/25.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 25
+    },
+    {
+     "src": "files/slides/anat3-nasal-cavity/26.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which processes does the inferior concha have?",
@@ -12137,7 +14158,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "Orbital, sphenoidal and pyramidal"
    ],
    "answer": 2,
-   "why": "The inferior turbinate has three processes: lacrimal, ethmoidal and maxillary. Its medial side faces the septum and its lateral side the inferior meatus."
+   "why": "The inferior turbinate has three processes: lacrimal, ethmoidal and maxillary. Its medial side faces the septum and its lateral side the inferior meatus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/26.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which turbinate is inconstant?",
@@ -12148,7 +14176,19 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "The superior turbinate"
    ],
    "answer": 0,
-   "why": "There are three, sometimes four, conchae. The supreme turbinate is inconstant."
+   "why": "There are three, sometimes four, conchae. The supreme turbinate is inconstant.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/25.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 25
+    },
+    {
+     "src": "files/slides/anat3-nasal-cavity/29.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "What opens into the inferior meatus?",
@@ -12159,7 +14199,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "The sphenoidal sinus"
    ],
    "answer": 1,
-   "why": "The inferior meatus lies close to the floor of the nasal cavity and receives the opening of the nasolacrimal duct."
+   "why": "The inferior meatus lies close to the floor of the nasal cavity and receives the opening of the nasolacrimal duct.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/33.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which sinuses open into the middle meatus?",
@@ -12170,7 +14217,19 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "The posterior ethmoidal cells only"
    ],
    "answer": 2,
-   "why": "Middle meatus: the anterior ethmoidal cells, the ostium of the maxillary sinus and the frontal sinus. Superior meatus: the posterior ethmoidal cells, the sphenoidal sinus and the sphenopalatine foramen."
+   "why": "Middle meatus: the anterior ethmoidal cells, the ostium of the maxillary sinus and the frontal sinus. Superior meatus: the posterior ethmoidal cells, the sphenoidal sinus and the sphenopalatine foramen.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/30.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 30
+    },
+    {
+     "src": "files/slides/anat3-nasal-cavity/35.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Which artery supplying the septum is a branch of the facial artery?",
@@ -12181,7 +14240,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "The superior labial artery"
    ],
    "answer": 3,
-   "why": "The septum is supplied by septal branches of the anterior and posterior ethmoidal arteries (from the ophthalmic), the sphenopalatine and greater palatine arteries (from the maxillary), and the superior labial artery (from the facial)."
+   "why": "The septum is supplied by septal branches of the anterior and posterior ethmoidal arteries (from the ophthalmic), the sphenopalatine and greater palatine arteries (from the maxillary), and the superior labial artery (from the facial).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/36.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Which artery supplies the posterosuperior quadrant of the lateral wall?",
@@ -12192,7 +14258,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "The facial artery"
    ],
    "answer": 1,
-   "why": "Anterosuperior quadrant: anterior ethmoidal artery. Anteroinferior: branches of the facial and greater palatine arteries. Posterosuperior: sphenopalatine artery. Posteroinferior: branches of the greater palatine artery, which pierces the perpendicular plate of the palatine."
+   "why": "Anterosuperior quadrant: anterior ethmoidal artery. Anteroinferior: branches of the facial and greater palatine arteries. Posterosuperior: sphenopalatine artery. Posteroinferior: branches of the greater palatine artery, which pierces the perpendicular plate of the palatine.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/37.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "What is Little's area, and why does it matter?",
@@ -12203,7 +14276,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "The valve controlling nasal airflow"
    ],
    "answer": 0,
-   "why": "Little's area lies in the anteroinferior part of the nasal septum just above the vestibule. The septal branches of the anterior ethmoidal, sphenopalatine, greater palatine and superior labial arteries anastomose there to form Kiesselbach's plexus. It is the commonest site of nose bleeding in children and young adults, usually from fingernail trauma."
+   "why": "Little's area lies in the anteroinferior part of the nasal septum just above the vestibule. The septal branches of the anterior ethmoidal, sphenopalatine, greater palatine and superior labial arteries anastomose there to form Kiesselbach's plexus. It is the commonest site of nose bleeding in children and young adults, usually from fingernail trauma.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/56.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "Which two cranial nerves supply the nasal cavity?",
@@ -12214,7 +14294,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "The vagus (X) and accessory (XI) nerves"
    ],
    "answer": 2,
-   "why": "Innervation is provided by branches of V and I: sensory nerves from V (the spheno-palatine nerve from V2 and the internal nasal nerve) and the olfactory nerves (CN I)."
+   "why": "Innervation is provided by branches of V and I: sensory nerves from V (the spheno-palatine nerve from V2 and the internal nasal nerve) and the olfactory nerves (CN I).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/39.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which nerve can be sectioned to control excessive rhinorrhea?",
@@ -12225,7 +14312,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "The olfactory nerve"
    ],
    "answer": 0,
-   "why": "Excessive rhinorrhea due to vasomotor and allergic rhinitis can be controlled by sectioning the Vidian nerve, the nerve of the pterygoid canal."
+   "why": "Excessive rhinorrhea due to vasomotor and allergic rhinitis can be controlled by sectioning the Vidian nerve, the nerve of the pterygoid canal.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/56.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "What lies above the roof of the nasal cavity, from front to back?",
@@ -12236,7 +14330,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "Frontal sinus, cerebral fossa, sphenoid"
    ],
    "answer": 3,
-   "why": "Relations of the roof, front to back: the frontal sinus, the anterior cerebral fossa and the sphenoidal sinus. The choana relates to the rhinopharynx."
+   "why": "Relations of the roof, front to back: the frontal sinus, the anterior cerebral fossa and the sphenoidal sinus. The choana relates to the rhinopharynx.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/42.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "What are the four ventilatory functions of the nose?",
@@ -12247,7 +14348,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     "Smell, taste, hearing and balance"
    ],
    "answer": 1,
-   "why": "The ventilatory function has four parts: airflow control (rheostat), filtration, humidification (hygrostat) and heating (thermostat)."
+   "why": "The ventilatory function has four parts: airflow control (rheostat), filtration, humidification (hygrostat) and heating (thermostat).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/59.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 59
+    }
+   ]
   },
   {
    "q": "Which arteries supply the nasal septum? (choose all)",
@@ -12261,7 +14369,19 @@ SINA.lectures["anat3-nasal-cavity"] = {
     0,
     1
    ],
-   "why": "The septum is supplied by septal branches of the anterior and posterior ethmoidal arteries, the sphenopalatine, the greater palatine and the superior labial arteries. That mix of internal and external carotid branches explains the frequency of epistaxis."
+   "why": "The septum is supplied by septal branches of the anterior and posterior ethmoidal arteries, the sphenopalatine, the greater palatine and the superior labial arteries. That mix of internal and external carotid branches explains the frequency of epistaxis.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/36.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 36
+    },
+    {
+     "src": "files/slides/anat3-nasal-cavity/37.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "What opens into the superior meatus? (choose all)",
@@ -12275,7 +14395,19 @@ SINA.lectures["anat3-nasal-cavity"] = {
     0,
     1
    ],
-   "why": "Superior meatus: the posterior ethmoidal cells, the sphenoidal sinus and the sphenopalatine foramen. The frontal sinus drains into the middle meatus and the nasolacrimal duct into the inferior meatus."
+   "why": "Superior meatus: the posterior ethmoidal cells, the sphenoidal sinus and the sphenopalatine foramen. The frontal sinus drains into the middle meatus and the nasolacrimal duct into the inferior meatus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/30.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 30
+    },
+    {
+     "src": "files/slides/anat3-nasal-cavity/35.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Which veins drain the nasal cavity? (choose all)",
@@ -12289,7 +14421,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     0,
     1
    ],
-   "why": "Venous drainage has two networks, a deep periosteal and a superficial mucous one, draining to the internal maxillary vein, the ophthalmic vein and the facial vein."
+   "why": "Venous drainage has two networks, a deep periosteal and a superficial mucous one, draining to the internal maxillary vein, the ophthalmic vein and the facial vein.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/38.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which valves modify the size of the nasal fossa? (choose all)",
@@ -12303,7 +14442,14 @@ SINA.lectures["anat3-nasal-cavity"] = {
     0,
     1
    ],
-   "why": "Three valves regulate airflow: the nostril valve, the nasal valve and the septo-turbinal valve. They modify the size of the nasal fossa and so the resistance to airflow."
+   "why": "Three valves regulate airflow: the nostril valve, the nasal valve and the septo-turbinal valve. They modify the size of the nasal fossa and so the resistance to airflow.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-nasal-cavity/62.jpg",
+     "lec": "Anatomy of the nasal cavity",
+     "n": 62
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -13148,7 +15294,14 @@ SINA.lectures["anat3-larynx"] = {
     "Twelve"
    ],
    "answer": 0,
-   "why": "Nine cartilages: three unpaired (thyroid, cricoid, epiglottis) and three paired (arytenoid, corniculate, cuneiform). The principal ones are the cricoid, the thyroid and the two arytenoids."
+   "why": "Nine cartilages: three unpaired (thyroid, cricoid, epiglottis) and three paired (arytenoid, corniculate, cuneiform). The principal ones are the cricoid, the thyroid and the two arytenoids.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/15.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which cartilages are unpaired?",
@@ -13159,7 +15312,14 @@ SINA.lectures["anat3-larynx"] = {
     "Epiglottis, corniculate and cuneiform"
    ],
    "answer": 1,
-   "why": "The unpaired cartilages are large: thyroid, cricoid and epiglottis. The paired ones are small: arytenoid, corniculate and cuneiform."
+   "why": "The unpaired cartilages are large: thyroid, cricoid and epiglottis. The paired ones are small: arytenoid, corniculate and cuneiform.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/15.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Where does the larynx extend, superiorly and inferiorly?",
@@ -13170,7 +15330,14 @@ SINA.lectures["anat3-larynx"] = {
     "From the epiglottis at C3 to the sternal notch at T1"
    ],
    "answer": 2,
-   "why": "Superior: the upper border of the thyroid cartilage, at the level of the body of C4. Inferior: the lower edge of the cricoid cartilage, at the lower edge of C6."
+   "why": "Superior: the upper border of the thyroid cartilage, at the level of the body of C4. Inferior: the lower edge of the cricoid cartilage, at the lower edge of C6.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/09.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Where does the larynx sit in children compared with adults?",
@@ -13181,7 +15348,14 @@ SINA.lectures["anat3-larynx"] = {
     "Higher, at C2 to C3"
    ],
    "answer": 3,
-   "why": "The position varies with age: it is higher in children (C2 to C3) than in adults. In newborns it is in contact with the veil, which is why they keep exclusive nasal breathing until about four months."
+   "why": "The position varies with age: it is higher in children (C2 to C3) than in adults. In newborns it is in contact with the veil, which is why they keep exclusive nasal breathing until about four months.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/08.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which cartilage is the only complete ring in the airway?",
@@ -13192,7 +15366,14 @@ SINA.lectures["anat3-larynx"] = {
     "The arytenoid"
    ],
    "answer": 1,
-   "why": "The cricoid is a signet-shaped ring with a narrow anterior arch and a broad posterior lamina, at the level of C6. It completely encircles the lumen of the larynx and is considered the foundation stone of the larynx."
+   "why": "The cricoid is a signet-shaped ring with a narrow anterior arch and a broad posterior lamina, at the level of C6. It completely encircles the lumen of the larynx and is considered the foundation stone of the larynx.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/20.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "What shape is the epiglottic cartilage said to have?",
@@ -13203,7 +15384,14 @@ SINA.lectures["anat3-larynx"] = {
     "A tennis racket"
    ],
    "answer": 3,
-   "why": "The epiglottis is shaped like a tennis racket with a curved lower handle forming the foot of the epiglottis. The thyroid is like an open book, the cricoid a signet ring and the arytenoid a triangular pyramid."
+   "why": "The epiglottis is shaped like a tennis racket with a curved lower handle forming the foot of the epiglottis. The thyroid is like an open book, the cricoid a signet ring and the arytenoid a triangular pyramid.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/19.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "What inserts on the vocal process of the arytenoid cartilage?",
@@ -13214,7 +15402,14 @@ SINA.lectures["anat3-larynx"] = {
     "The lateral cricoarytenoid muscle"
    ],
    "answer": 0,
-   "why": "The anterior angle of the base is extended by the vocal process, which gives insertion to the vocal ligament. The lateral angle bears the muscular process, on which the posterior and lateral cricoarytenoid muscles insert."
+   "why": "The anterior angle of the base is extended by the vocal process, which gives insertion to the vocal ligament. The lateral angle bears the muscular process, on which the posterior and lateral cricoarytenoid muscles insert.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/22.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which joint is functionally the most important?",
@@ -13225,7 +15420,14 @@ SINA.lectures["anat3-larynx"] = {
     "The cricotracheal joint"
    ],
    "answer": 2,
-   "why": "The cricoarytenoid joint is an elliptical synovial articulation reinforced by the posterior cricoarytenoid ligament. Its rotatory movement abducts or adducts the vocal cords, and its gliding movement opens or closes the posterior part of the glottis."
+   "why": "The cricoarytenoid joint is an elliptical synovial articulation reinforced by the posterior cricoarytenoid ligament. Its rotatory movement abducts or adducts the vocal cords, and its gliding movement opens or closes the posterior part of the glottis.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/25.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "What movement happens at the cricothyroid joint?",
@@ -13236,7 +15438,14 @@ SINA.lectures["anat3-larynx"] = {
     "Tilting of the cricoid"
    ],
    "answer": 3,
-   "why": "The cricothyroid joint is a flat synovial joint between the lower cornu of the thyroid cartilage and the lateral face of the cricoid. Tilting of the arch up and the lamina down tenses the vocal cords."
+   "why": "The cricothyroid joint is a flat synovial joint between the lower cornu of the thyroid cartilage and the lateral face of the cricoid. Tilting of the arch up and the lamina down tenses the vocal cords.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/26.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which is the only muscle that abducts the vocal cords?",
@@ -13247,7 +15456,14 @@ SINA.lectures["anat3-larynx"] = {
     "The cricothyroid"
    ],
    "answer": 0,
-   "why": "All the intrinsic muscles adduct the vocal cords except the posterior cricoarytenoids, which abduct them. They are called the safety muscles of the larynx: if they are paralysed the adductors take the upper hand and the person may die from lack of air."
+   "why": "All the intrinsic muscles adduct the vocal cords except the posterior cricoarytenoids, which abduct them. They are called the safety muscles of the larynx: if they are paralysed the adductors take the upper hand and the person may die from lack of air.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/37.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Why is the cricothyroid called the tuning fork of the larynx?",
@@ -13258,7 +15474,14 @@ SINA.lectures["anat3-larynx"] = {
     "It relaxes the cords to lower the pitch"
    ],
    "answer": 2,
-   "why": "The cricothyroid is important for the tone and pitch of the voice: when sound is about to be produced it tenses the vocal cord and makes it ready to vibrate like a tuning fork. Paralysis after an external laryngeal nerve lesion alters the voice significantly, especially in singers."
+   "why": "The cricothyroid is important for the tone and pitch of the voice: when sound is about to be produced it tenses the vocal cord and makes it ready to vibrate like a tuning fork. Paralysis after an external laryngeal nerve lesion alters the voice significantly, especially in singers.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/37.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which intrinsic muscle is unpaired?",
@@ -13269,7 +15492,14 @@ SINA.lectures["anat3-larynx"] = {
     "The posterior cricoarytenoid"
    ],
    "answer": 1,
-   "why": "All the intrinsic muscles of the larynx are paired except the transverse arytenoid (interarytenoid), which is unpaired."
+   "why": "All the intrinsic muscles of the larynx are paired except the transverse arytenoid (interarytenoid), which is unpaired.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/37.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which muscle lies on the outer aspect of the larynx?",
@@ -13280,7 +15510,14 @@ SINA.lectures["anat3-larynx"] = {
     "The cricothyroid"
    ],
    "answer": 3,
-   "why": "The cricothyroid is the only intrinsic muscle lying on the outer aspect of the larynx. That is also why it is reached by the external branch of the superior laryngeal nerve."
+   "why": "The cricothyroid is the only intrinsic muscle lying on the outer aspect of the larynx. That is also why it is reached by the external branch of the superior laryngeal nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/37.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which nerve supplies the cricothyroid muscle?",
@@ -13291,7 +15528,19 @@ SINA.lectures["anat3-larynx"] = {
     "The glossopharyngeal nerve"
    ],
    "answer": 2,
-   "why": "The cricothyroid is supplied by the external branch of the superior laryngeal nerve. All the other intrinsic muscles are supplied by the recurrent (inferior) laryngeal nerve."
+   "why": "The cricothyroid is supplied by the external branch of the superior laryngeal nerve. All the other intrinsic muscles are supplied by the recurrent (inferior) laryngeal nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/53.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 53
+    },
+    {
+     "src": "files/slides/anat3-larynx/55.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 55
+    }
+   ]
   },
   {
    "q": "What does the internal branch of the superior laryngeal nerve supply?",
@@ -13302,7 +15551,14 @@ SINA.lectures["anat3-larynx"] = {
     "Motor supply to the cricothyroid"
    ],
    "answer": 0,
-   "why": "The internal branch pierces the thyrohyoid membrane and gives sensory innervation to the supraglottic mucosa, plus autonomic fibres. The recurrent laryngeal nerve gives sensation below the vocal folds."
+   "why": "The internal branch pierces the thyrohyoid membrane and gives sensory innervation to the supraglottic mucosa, plus autonomic fibres. The recurrent laryngeal nerve gives sensation below the vocal folds.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/55.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 55
+    }
+   ]
   },
   {
    "q": "Which space lies between the vestibular folds and the vocal folds?",
@@ -13313,7 +15569,14 @@ SINA.lectures["anat3-larynx"] = {
     "The piriform recess"
    ],
    "answer": 1,
-   "why": "Vestibule: the space above the vestibular folds. Ventricle (of Morgagni): between the vestibular folds and the vocal folds. Infraglottic cavity: below the vocal folds."
+   "why": "Vestibule: the space above the vestibular folds. Ventricle (of Morgagni): between the vestibular folds and the vocal folds. Infraglottic cavity: below the vocal folds.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/45.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "What is the rima glottidis?",
@@ -13324,7 +15587,19 @@ SINA.lectures["anat3-larynx"] = {
     "The opening of the laryngeal ventricle"
    ],
    "answer": 2,
-   "why": "The glottis is delimited by the two vocal cords and is triangular in shape. It is narrower than the vestibular cleft, and a narrow zone in children, where obstructive oedema causes respiratory distress very rapidly."
+   "why": "The glottis is delimited by the two vocal cords and is triangular in shape. It is narrower than the vestibular cleft, and a narrow zone in children, where obstructive oedema causes respiratory distress very rapidly.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/40.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 40
+    },
+    {
+     "src": "files/slides/anat3-larynx/41.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Which epithelium covers the vocal cords?",
@@ -13335,7 +15610,14 @@ SINA.lectures["anat3-larynx"] = {
     "Non-keratinized stratified squamous"
    ],
    "answer": 3,
-   "why": "The laryngeal epithelium is respiratory type (cylindric stratified) throughout, except at the vocal cords and the upper half of the epiglottis, which are non-keratinized stratified squamous."
+   "why": "The laryngeal epithelium is respiratory type (cylindric stratified) throughout, except at the vocal cords and the upper half of the epiglottis, which are non-keratinized stratified squamous.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/47.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "Which artery supplies the supraglottic larynx?",
@@ -13346,7 +15628,14 @@ SINA.lectures["anat3-larynx"] = {
     "The ascending pharyngeal artery"
    ],
    "answer": 1,
-   "why": "Superior laryngeal artery, a branch of the superior thyroid artery, supplies the supraglottic part. The anteroinferior laryngeal artery supplies the anterior infraglottic stage. The posteroinferior laryngeal artery, from the inferior thyroid artery, supplies the posterior laryngeal mucosa."
+   "why": "Superior laryngeal artery, a branch of the superior thyroid artery, supplies the supraglottic part. The anteroinferior laryngeal artery supplies the anterior infraglottic stage. The posteroinferior laryngeal artery, from the inferior thyroid artery, supplies the posterior laryngeal mucosa.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/49.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Where is lymphatic drainage of the larynx absent?",
@@ -13357,7 +15646,14 @@ SINA.lectures["anat3-larynx"] = {
     "In the piriform sinus"
    ],
    "answer": 0,
-   "why": "Lymphatic drainage is very rich in the supraglottic zone, thinner in the subglottic zone and absent at the vocal cords. Supraglottic drains to the internal jugular chain; infraglottic to the pretracheal and paratracheal nodes and the internal jugular chain."
+   "why": "Lymphatic drainage is very rich in the supraglottic zone, thinner in the subglottic zone and absent at the vocal cords. Supraglottic drains to the internal jugular chain; infraglottic to the pretracheal and paratracheal nodes and the internal jugular chain.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/51.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "What happens if one recurrent laryngeal nerve is damaged?",
@@ -13368,7 +15664,14 @@ SINA.lectures["anat3-larynx"] = {
     "Only sensation above the cords is lost"
    ],
    "answer": 2,
-   "why": "Unilateral damage leaves the cord on the affected side in the paramedian position, between abduction and adduction, not vibrating. Usually the other cord compensates and phonation is not much affected."
+   "why": "Unilateral damage leaves the cord on the affected side in the paramedian position, between abduction and adduction, not vibrating. Usually the other cord compensates and phonation is not much affected.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/37.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "What is the cadaveric position of the vocal cords?",
@@ -13379,7 +15682,14 @@ SINA.lectures["anat3-larynx"] = {
     "Cords widely open during quiet breathing"
    ],
    "answer": 0,
-   "why": "If the recurrent and external laryngeal nerves are involved on both sides, all the intrinsic muscles are paralysed, the cords are further abducted and fixed. This is the cadaveric position of the vocal cords or rima glottidis."
+   "why": "If the recurrent and external laryngeal nerves are involved on both sides, all the intrinsic muscles are paralysed, the cords are further abducted and fixed. This is the cadaveric position of the vocal cords or rima glottidis.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/37.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Where do vocal nodules form, and why there?",
@@ -13390,7 +15700,14 @@ SINA.lectures["anat3-larynx"] = {
     "At the anterior third junction"
    ],
    "answer": 3,
-   "why": "During vibration the area of maximum contact between the cords is at the junction of their anterior one third and posterior two thirds, so it takes the most friction. People who overuse the voice, such as teachers and singers, develop inflammatory nodules there."
+   "why": "During vibration the area of maximum contact between the cords is at the junction of their anterior one third and posterior two thirds, so it takes the most friction. People who overuse the voice, such as teachers and singers, develop inflammatory nodules there.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/64.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 64
+    }
+   ]
   },
   {
    "q": "Which three acoustic parameters characterise the voice?",
@@ -13401,7 +15718,14 @@ SINA.lectures["anat3-larynx"] = {
     "Resonance, articulation and tone"
    ],
    "answer": 1,
-   "why": "Frequency, in Hertz, depends on the vibration speed of the vocal folds. Intensity, in dB, depends on the force of pulmonary expiration (subglottic pressure). Pitch depends on the accommodation of the vocal folds but especially on the shape of the supralaryngeal cavities."
+   "why": "Frequency, in Hertz, depends on the vibration speed of the vocal folds. Intensity, in dB, depends on the force of pulmonary expiration (subglottic pressure). Pitch depends on the accommodation of the vocal folds but especially on the shape of the supralaryngeal cavities.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/58.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "Which functions does the larynx perform? (choose all)",
@@ -13415,7 +15739,14 @@ SINA.lectures["anat3-larynx"] = {
     0,
     1
    ],
-   "why": "The functions of the larynx are phonation, respiration, protection and deglutition. It acts as a sphincter at the inlet of the lower respiratory tract."
+   "why": "The functions of the larynx are phonation, respiration, protection and deglutition. It acts as a sphincter at the inlet of the lower respiratory tract.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/07.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which muscles adduct the vocal cords? (choose all)",
@@ -13429,7 +15760,14 @@ SINA.lectures["anat3-larynx"] = {
     0,
     1
    ],
-   "why": "Adductors: the lateral cricoarytenoids and the transverse arytenoid. The posterior cricoarytenoids are the only abductors. The cricothyroid tenses the cords rather than adducting them."
+   "why": "Adductors: the lateral cricoarytenoids and the transverse arytenoid. The posterior cricoarytenoids are the only abductors. The cricothyroid tenses the cords rather than adducting them.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/37.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which muscles tense the vocal cords? (choose all)",
@@ -13443,7 +15781,14 @@ SINA.lectures["anat3-larynx"] = {
     0,
     1
    ],
-   "why": "Cricothyroid and vocalis tense the vocal cords; the thyroarytenoid relaxes them; the posterior cricoarytenoid abducts them."
+   "why": "Cricothyroid and vocalis tense the vocal cords; the thyroarytenoid relaxes them; the posterior cricoarytenoid abducts them.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/37.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which are extrinsic muscles that elevate the larynx? (choose all)",
@@ -13457,7 +15802,14 @@ SINA.lectures["anat3-larynx"] = {
     0,
     1
    ],
-   "why": "Elevators: thyrohyoid, mylohyoid and digastric. Depressors: sternothyroid, sternohyoid and omohyoid. The extrinsic muscles ensure laryngeal mobility, especially during swallowing."
+   "why": "Elevators: thyrohyoid, mylohyoid and digastric. Depressors: sternothyroid, sternohyoid and omohyoid. The extrinsic muscles ensure laryngeal mobility, especially during swallowing.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/38.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -14368,7 +16720,14 @@ SINA.lectures["anat3-pharynx"] = {
     "A bony canal"
    ],
    "answer": 0,
-   "why": "The pharynx is a funnel-shaped fibromuscular tube extending from the base of the skull to the oesophagus, lined throughout with mucous membrane."
+   "why": "The pharynx is a funnel-shaped fibromuscular tube extending from the base of the skull to the oesophagus, lined throughout with mucous membrane.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/06.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "How long is the pharynx?",
@@ -14379,7 +16738,14 @@ SINA.lectures["anat3-pharynx"] = {
     "20 to 22 cm"
    ],
    "answer": 1,
-   "why": "Length 12 to 14 cm. Width 3.5 cm at its base and 1.5 cm at the pharyngo-oesophageal junction."
+   "why": "Length 12 to 14 cm. Width 3.5 cm at its base and 1.5 cm at the pharyngo-oesophageal junction.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/08.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Where does the pharynx become the oesophagus?",
@@ -14390,7 +16756,14 @@ SINA.lectures["anat3-pharynx"] = {
     "At the level of the sternal notch, T1"
    ],
    "answer": 2,
-   "why": "Inferiorly it is continuous with the oesophagus at the level of the lower border of the cricoid cartilage anteriorly and the lower border of C6 posteriorly."
+   "why": "Inferiorly it is continuous with the oesophagus at the level of the lower border of the cricoid cartilage anteriorly and the lower border of C6 posteriorly.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/10.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What lies posterior to the pharynx?",
@@ -14401,7 +16774,14 @@ SINA.lectures["anat3-pharynx"] = {
     "The prevertebral fascia"
    ],
    "answer": 3,
-   "why": "The pharynx is separated from the prevertebral fascia only by a layer of loose areolar tissue, which allows it to slide freely on the fascia during swallowing."
+   "why": "The pharynx is separated from the prevertebral fascia only by a layer of loose areolar tissue, which allows it to slide freely on the fascia during swallowing.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/10.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Name the three subdivisions of the pharynx.",
@@ -14412,7 +16792,14 @@ SINA.lectures["anat3-pharynx"] = {
     "Rhinopharynx, hypopharynx and oesophagus"
    ],
    "answer": 1,
-   "why": "From above downwards: the nasopharynx behind the nose, the oropharynx behind the oral cavity and the laryngopharynx behind the larynx."
+   "why": "From above downwards: the nasopharynx behind the nose, the oropharynx behind the oral cavity and the laryngopharynx behind the larynx.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/12.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which fascia lines the deep surface of the pharyngeal muscles?",
@@ -14423,7 +16810,14 @@ SINA.lectures["anat3-pharynx"] = {
     "The pharyngobasilar fascia"
    ],
    "answer": 3,
-   "why": "The buccopharyngeal fascia covers the lateral (outer) surface of the constrictor muscles; the pharyngobasilar fascia lines their deep surface."
+   "why": "The buccopharyngeal fascia covers the lateral (outer) surface of the constrictor muscles; the pharyngobasilar fascia lines their deep surface.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/15.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Name the three constrictor muscles.",
@@ -14434,7 +16828,14 @@ SINA.lectures["anat3-pharynx"] = {
     "Tensor, levator and musculus uvulae"
    ],
    "answer": 0,
-   "why": "The pharyngeal muscles are the three constrictors (superior, middle, inferior) and three elevators (stylopharyngeus, salpingopharyngeus, palatopharyngeus)."
+   "why": "The pharyngeal muscles are the three constrictors (superior, middle, inferior) and three elevators (stylopharyngeus, salpingopharyngeus, palatopharyngeus).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/21.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "What are the two parts of the inferior constrictor?",
@@ -14445,7 +16846,14 @@ SINA.lectures["anat3-pharynx"] = {
     "Oblique and transverse parts"
    ],
    "answer": 2,
-   "why": "The inferior constrictor has a thyropharyngeus part, from the oblique line on the thyroid lamina, and a cricopharyngeus part, from the cricoid cartilage. Cricopharyngeus is supplied by the recurrent laryngeal nerve."
+   "why": "The inferior constrictor has a thyropharyngeus part, from the oblique line on the thyroid lamina, and a cricopharyngeus part, from the cricoid cartilage. Cricopharyngeus is supplied by the recurrent laryngeal nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/20.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Where do the constrictor muscles insert posteriorly?",
@@ -14456,7 +16864,14 @@ SINA.lectures["anat3-pharynx"] = {
     "Into the median fibrous raphe"
    ],
    "answer": 3,
-   "why": "All three constrictors insert into the median fibrous raphe in the midline behind. The superior constrictor also reaches the pharyngeal tubercle on the base of the skull."
+   "why": "All three constrictors insert into the median fibrous raphe in the midline behind. The superior constrictor also reaches the pharyngeal tubercle on the base of the skull.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/20.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which nerve supplies most pharyngeal muscles?",
@@ -14467,7 +16882,19 @@ SINA.lectures["anat3-pharynx"] = {
     "The hypoglossal nerve (CN XII)"
    ],
    "answer": 0,
-   "why": "The vagus innervates all the muscles of the pharynx and soft palate except the tensor veli palatini (CN V3) and the stylopharyngeus (CN IX)."
+   "why": "The vagus innervates all the muscles of the pharynx and soft palate except the tensor veli palatini (CN V3) and the stylopharyngeus (CN IX).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/25.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 25
+    },
+    {
+     "src": "files/slides/anat3-pharynx/33.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which muscle is supplied by the glossopharyngeal nerve?",
@@ -14478,7 +16905,19 @@ SINA.lectures["anat3-pharynx"] = {
     "Superior constrictor"
    ],
    "answer": 2,
-   "why": "The stylopharyngeus is the only muscle supplied by CN IX. The salpingopharyngeus and palatopharyngeus take the vagus through the pharyngeal plexus."
+   "why": "The stylopharyngeus is the only muscle supplied by CN IX. The salpingopharyngeus and palatopharyngeus take the vagus through the pharyngeal plexus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/22.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 22
+    },
+    {
+     "src": "files/slides/anat3-pharynx/23.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Where do the longitudinal muscles insert?",
@@ -14489,7 +16928,14 @@ SINA.lectures["anat3-pharynx"] = {
     "On the hyoid bone"
    ],
    "answer": 1,
-   "why": "Stylopharyngeus, palatopharyngeus and salpingopharyngeus all insert on the posterior border of the thyroid lamina. They elevate the larynx and shorten the pharynx during swallowing."
+   "why": "Stylopharyngeus, palatopharyngeus and salpingopharyngeus all insert on the posterior border of the thyroid lamina. They elevate the larynx and shorten the pharynx during swallowing.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/23.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What do the longitudinal muscles do?",
@@ -14500,7 +16946,14 @@ SINA.lectures["anat3-pharynx"] = {
     "Elevate the larynx"
    ],
    "answer": 3,
-   "why": "At the same time the palatopharyngeal sphincter, formed by some fibres of palatopharyngeus, closes the nasopharyngeal isthmus."
+   "why": "At the same time the palatopharyngeal sphincter, formed by some fibres of palatopharyngeus, closes the nasopharyngeal isthmus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/24.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which tonsil sits in the nasopharynx?",
@@ -14511,7 +16964,19 @@ SINA.lectures["anat3-pharynx"] = {
     "The tubal tonsil only"
    ],
    "answer": 2,
-   "why": "Features of the nasopharynx: the pharyngeal tonsil (adenoids), the opening of the auditory tube, and the torus tubarius, a raised ridge above the tube opening."
+   "why": "Features of the nasopharynx: the pharyngeal tonsil (adenoids), the opening of the auditory tube, and the torus tubarius, a raised ridge above the tube opening.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/26.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 26
+    },
+    {
+     "src": "files/slides/anat3-pharynx/27.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "What does the auditory tube connect?",
@@ -14522,7 +16987,19 @@ SINA.lectures["anat3-pharynx"] = {
     "The oral cavity and the nose"
    ],
    "answer": 0,
-   "why": "The auditory (Eustachian, pharyngotympanic) tube opens into the nasopharynx. The torus tubarius is the raised ridge above its opening, and the salpingopharyngeal fold runs down from it."
+   "why": "The auditory (Eustachian, pharyngotympanic) tube opens into the nasopharynx. The torus tubarius is the raised ridge above its opening, and the salpingopharyngeal fold runs down from it.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/26.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 26
+    },
+    {
+     "src": "files/slides/anat3-pharynx/27.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "What forms the posterior wall of the oropharynx?",
@@ -14533,7 +17010,14 @@ SINA.lectures["anat3-pharynx"] = {
     "The palatopharyngeus"
    ],
    "answer": 1,
-   "why": "In the oropharynx the posterior wall is the superior pharyngeal constrictor; in the laryngopharynx it is the middle and inferior constrictors."
+   "why": "In the oropharynx the posterior wall is the superior pharyngeal constrictor; in the laryngopharynx it is the middle and inferior constrictors.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/38.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which tonsils are found in the oropharynx?",
@@ -14544,7 +17028,14 @@ SINA.lectures["anat3-pharynx"] = {
     "Only the lingual tonsil"
    ],
    "answer": 2,
-   "why": "The oropharynx contains the palatine tonsils, between the palatoglossal and palatopharyngeal arches, and the lingual tonsil on the back of the tongue."
+   "why": "The oropharynx contains the palatine tonsils, between the palatoglossal and palatopharyngeal arches, and the lingual tonsil on the back of the tongue.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/28.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "What is the piriform fossa, and why does it matter?",
@@ -14555,7 +17046,14 @@ SINA.lectures["anat3-pharynx"] = {
     "A recess beside the laryngeal inlet"
    ],
    "answer": 3,
-   "why": "The piriform fossa is a deep recess, broad above and narrow below, in the anterior part of the lateral wall of the laryngopharynx on each side of the laryngeal inlet, produced by the bulging of the larynx. Swallowed foreign bodies may lodge there."
+   "why": "The piriform fossa is a deep recess, broad above and narrow below, in the anterior part of the lateral wall of the laryngopharynx on each side of the laryngeal inlet, produced by the bulging of the larynx. Swallowed foreign bodies may lodge there.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/32.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which artery is the main supply of the pharynx?",
@@ -14566,7 +17064,14 @@ SINA.lectures["anat3-pharynx"] = {
     "The maxillary artery"
    ],
    "answer": 1,
-   "why": "The ascending pharyngeal artery, the second branch of the external carotid, is the main supply. The ascending palatine and tonsillar arteries (facial), the greater palatine and pharyngeal arteries (maxillary) and the lingual artery also contribute."
+   "why": "The ascending pharyngeal artery, the second branch of the external carotid, is the main supply. The ascending palatine and tonsillar arteries (facial), the greater palatine and pharyngeal arteries (maxillary) and the lingual artery also contribute.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/35.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Where does the pharynx drain its lymph?",
@@ -14577,7 +17082,14 @@ SINA.lectures["anat3-pharynx"] = {
     "The occipital nodes"
    ],
    "answer": 0,
-   "why": "Lymphatics drain into the jugulodigastric node, also called the tonsillar node."
+   "why": "Lymphatics drain into the jugulodigastric node, also called the tonsillar node.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/36.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Which nerves make up the pharyngeal plexus?",
@@ -14588,7 +17100,14 @@ SINA.lectures["anat3-pharynx"] = {
     "CN VII, CN IX and CN XI"
    ],
    "answer": 2,
-   "why": "The pharyngeal plexus is composed of the glossopharyngeal nerve, the vagus nerve and sympathetic fibres from the superior cervical ganglion."
+   "why": "The pharyngeal plexus is composed of the glossopharyngeal nerve, the vagus nerve and sympathetic fibres from the superior cervical ganglion.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/33.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "What carries sensation from the upper pharynx?",
@@ -14599,7 +17118,14 @@ SINA.lectures["anat3-pharynx"] = {
     "The facial nerve (CN VII)"
    ],
    "answer": 0,
-   "why": "Sensory innervation: the upper pharynx by the maxillary nerve (V2) and the glossopharyngeal nerve (CN IX); the lower pharynx by the vagus nerve (CN X)."
+   "why": "Sensory innervation: the upper pharynx by the maxillary nerve (V2) and the glossopharyngeal nerve (CN IX); the lower pharynx by the vagus nerve (CN X).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/33.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which stage of swallowing is voluntary?",
@@ -14610,7 +17136,14 @@ SINA.lectures["anat3-pharynx"] = {
     "The first stage, in the mouth"
    ],
    "answer": 3,
-   "why": "Deglutition has three successive stages: the first in the mouth is voluntary, the second in the pharynx and the third in the oesophagus are involuntary."
+   "why": "Deglutition has three successive stages: the first in the mouth is voluntary, the second in the pharynx and the third in the oesophagus are involuntary.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/38.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "What closes the nasopharyngeal isthmus during swallowing?",
@@ -14621,7 +17154,14 @@ SINA.lectures["anat3-pharynx"] = {
     "Elevation of the hyoid bone"
    ],
    "answer": 1,
-   "why": "In the second stage the nasopharyngeal isthmus is closed by elevation of the soft palate and contraction of Passavant's ridge, preventing food entering the nasopharynx. The laryngeal inlet is closed by approximation of the aryepiglottic folds."
+   "why": "In the second stage the nasopharyngeal isthmus is closed by elevation of the soft palate and contraction of Passavant's ridge, preventing food entering the nasopharynx. The laryngeal inlet is closed by approximation of the aryepiglottic folds.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/38.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which muscles are elevators of the pharynx? (choose all)",
@@ -14635,7 +17175,14 @@ SINA.lectures["anat3-pharynx"] = {
     0,
     1
    ],
-   "why": "The three elevators (longitudinal muscles) are stylopharyngeus, salpingopharyngeus and palatopharyngeus. The constrictors are the circular layer."
+   "why": "The three elevators (longitudinal muscles) are stylopharyngeus, salpingopharyngeus and palatopharyngeus. The constrictors are the circular layer.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/43.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Which features belong to the nasopharynx? (choose all)",
@@ -14649,7 +17196,19 @@ SINA.lectures["anat3-pharynx"] = {
     0,
     1
    ],
-   "why": "Nasopharynx: pharyngeal tonsil (adenoids), the auditory tube opening and the torus tubarius. The palatine tonsil is in the oropharynx and the piriform recess in the laryngopharynx."
+   "why": "Nasopharynx: pharyngeal tonsil (adenoids), the auditory tube opening and the torus tubarius. The palatine tonsil is in the oropharynx and the piriform recess in the laryngopharynx.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/26.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 26
+    },
+    {
+     "src": "files/slides/anat3-pharynx/27.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which arteries supply the pharynx? (choose all)",
@@ -14663,7 +17222,14 @@ SINA.lectures["anat3-pharynx"] = {
     0,
     1
    ],
-   "why": "The pharynx is supplied by the ascending pharyngeal artery (external carotid), the ascending palatine and tonsillar arteries (facial), the greater palatine and pharyngeal arteries (maxillary) and the lingual artery."
+   "why": "The pharynx is supplied by the ascending pharyngeal artery (external carotid), the ascending palatine and tonsillar arteries (facial), the greater palatine and pharyngeal arteries (maxillary) and the lingual artery.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/35.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "What happens in the second stage of deglutition? (choose all)",
@@ -14677,7 +17243,14 @@ SINA.lectures["anat3-pharynx"] = {
     0,
     1
    ],
-   "why": "The second stage is rapid and involuntary: the nasopharyngeal isthmus closes, the laryngeal inlet closes, and the pharynx and larynx are elevated as the bolus passes from oropharynx to laryngopharynx."
+   "why": "The second stage is rapid and involuntary: the nasopharyngeal isthmus closes, the laryngeal inlet closes, and the pharynx and larynx are elevated as the bolus passes from oropharynx to laryngopharynx.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pharynx/38.jpg",
+     "lec": "Anatomy of the pharynx",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -15468,7 +18041,14 @@ SINA.lectures["anat3-thyroid"] = {
     "Cortisol and aldosterone"
    ],
    "answer": 0,
-   "why": "The thyroid is a unique median endocrine gland in the neck. It ensures a major metabolic function: the secretion of thyroid hormones and calcitonin."
+   "why": "The thyroid is a unique median endocrine gland in the neck. It ensures a major metabolic function: the secretion of thyroid hormones and calcitonin.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/02.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "At which vertebral levels does the thyroid lie?",
@@ -15479,7 +18059,14 @@ SINA.lectures["anat3-thyroid"] = {
     "T2 to T4"
    ],
    "answer": 1,
-   "why": "The gland lies in the lower part of the front and side of the neck, opposite the C5, C6, C7 and T1 vertebrae, clasping the upper part of the trachea."
+   "why": "The gland lies in the lower part of the front and side of the neck, opposite the C5, C6, C7 and T1 vertebrae, clasping the upper part of the trachea.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/14.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Where does the thyroid sit in relation to the infrahyoid muscles?",
@@ -15490,7 +18077,14 @@ SINA.lectures["anat3-thyroid"] = {
     "Above the hyoid bone"
    ],
    "answer": 2,
-   "why": "It is located in the infrahyoid region in front of the upper end of the trachea and the lower part of the larynx, just behind the infrahyoid muscles."
+   "why": "It is located in the infrahyoid region in front of the upper end of the trachea and the lower part of the larynx, just behind the infrahyoid muscles.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/08.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Name the four infrahyoid strap muscles.",
@@ -15501,7 +18095,14 @@ SINA.lectures["anat3-thyroid"] = {
     "Thyrohyoid, sternohyoid, omohyoid and sternothyroid"
    ],
    "answer": 3,
-   "why": "Four pairs of strap muscles in a fascial sheath in the anterior neck. They fix or depress the hyoid bone during swallowing and speech, supplied by the anterior rami of the upper three cervical nerves."
+   "why": "Four pairs of strap muscles in a fascial sheath in the anterior neck. They fix or depress the hyoid bone during swallowing and speech, supplied by the anterior rami of the upper three cervical nerves.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/11.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What shape does the thyroid gland resemble from the front?",
@@ -15512,7 +18113,14 @@ SINA.lectures["anat3-thyroid"] = {
     "A tennis racket"
    ],
    "answer": 1,
-   "why": "Two vertical lateral lobes joined by a horizontal transverse isthmus. In anterior view the whole looks roughly like an H, or a butterfly, moulded on the aerodigestive axis."
+   "why": "Two vertical lateral lobes joined by a horizontal transverse isthmus. In anterior view the whole looks roughly like an H, or a butterfly, moulded on the aerodigestive axis.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/15.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "What is the average weight of the thyroid gland?",
@@ -15523,7 +18131,14 @@ SINA.lectures["anat3-thyroid"] = {
     "About 30 g"
    ],
    "answer": 3,
-   "why": "Height of the lateral lobes 6 cm, width 6 cm between their lateral edges, isthmus 1 cm wide by 1.5 cm high, weight about 30 g. It is variable, and the gland is bigger in women than in men."
+   "why": "Height of the lateral lobes 6 cm, width 6 cm between their lateral edges, isthmus 1 cm wide by 1.5 cm high, weight about 30 g. It is variable, and the gland is bigger in women than in men.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/15.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "What shape is each lateral lobe?",
@@ -15534,7 +18149,14 @@ SINA.lectures["anat3-thyroid"] = {
     "A signet ring"
    ],
    "answer": 0,
-   "why": "Each lateral lobe is a triangular pyramid with a tapered apex (upper pole) resting against the posterior and inferior part of the thyroid cartilage, a rounded base (lower pole) one or two centimetres from the sternum, and three sides."
+   "why": "Each lateral lobe is a triangular pyramid with a tapered apex (upper pole) resting against the posterior and inferior part of the thyroid cartilage, a rounded base (lower pole) one or two centimetres from the sternum, and three sides.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/17.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which face of the lateral lobe is applied to the trachea and larynx?",
@@ -15545,7 +18167,14 @@ SINA.lectures["anat3-thyroid"] = {
     "The superficial face"
    ],
    "answer": 2,
-   "why": "Three sides: a peripheral (anterolateral) convex superficial face; a medial (internal) visceral side applied to the lateral side of the trachea and the lower larynx; and a posterior face moulded on the vascular-nervous bundle of the neck."
+   "why": "Three sides: a peripheral (anterolateral) convex superficial face; a medial (internal) visceral side applied to the lateral side of the trachea and the lower larynx; and a posterior face moulded on the vascular-nervous bundle of the neck.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/17.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "What is the pyramidal lobe?",
@@ -15556,7 +18185,14 @@ SINA.lectures["anat3-thyroid"] = {
     "An extension of the isthmus"
    ],
    "answer": 3,
-   "why": "From the upper edge of the isthmus, to the left of the median line, an inconstant extension of variable length stands out: the pyramidal lobe."
+   "why": "From the upper edge of the isthmus, to the left of the median line, an inconstant extension of variable length stands out: the pyramidal lobe.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/18.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which capsule is formed by condensation of the gland's own fibrous stroma?",
@@ -15567,7 +18203,14 @@ SINA.lectures["anat3-thyroid"] = {
     "The carotid sheath"
    ],
    "answer": 0,
-   "why": "The gland is covered by two capsules: an inner true capsule, formed by peripheral condensation of the fibrous stroma of the gland, and an outer false capsule derived from the splitting of the pretracheal fascia."
+   "why": "The gland is covered by two capsules: an inner true capsule, formed by peripheral condensation of the fibrous stroma of the gland, and an outer false capsule derived from the splitting of the pretracheal fascia.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/20.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "What is the suspensory ligament of Berry?",
@@ -15578,7 +18221,14 @@ SINA.lectures["anat3-thyroid"] = {
     "A fold of pretracheal fascia over the trachea"
    ],
    "answer": 2,
-   "why": "On the medial surface of the thyroid lobe the false capsule thickens to form the suspensory ligament of Berry, connecting the lobe to the cricoid cartilage."
+   "why": "On the medial surface of the thyroid lobe the false capsule thickens to form the suspensory ligament of Berry, connecting the lobe to the cricoid cartilage.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/20.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Why is the thyroid removed along with its true capsule?",
@@ -15589,7 +18239,14 @@ SINA.lectures["anat3-thyroid"] = {
     "Because the false capsule is too thin to hold"
    ],
    "answer": 1,
-   "why": "The dense venous plexus, unlike that of the prostate gland, lies deep to the true capsule. To avoid haemorrhage during thyroidectomy the gland is removed along with the true capsule."
+   "why": "The dense venous plexus, unlike that of the prostate gland, lies deep to the true capsule. To avoid haemorrhage during thyroidectomy the gland is removed along with the true capsule.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/20.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which tracheal rings does the posterior aspect of the isthmus cover?",
@@ -15600,7 +18257,14 @@ SINA.lectures["anat3-thyroid"] = {
     "The 2nd to 4th"
    ],
    "answer": 3,
-   "why": "The posterior aspect of the thyroid isthmus covers the 2nd, 3rd and 4th tracheal rings, and is attached to the trachea by the thyro-tracheal ligament, the median ligament of Berry."
+   "why": "The posterior aspect of the thyroid isthmus covers the 2nd, 3rd and 4th tracheal rings, and is attached to the trachea by the thyro-tracheal ligament, the median ligament of Berry.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/27.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Why does the thyroid move when you swallow?",
@@ -15611,7 +18275,14 @@ SINA.lectures["anat3-thyroid"] = {
     "Because the pretracheal fascia is loose"
    ],
    "answer": 2,
-   "why": "The posteromedial border of the lateral lobe is attached to the first three tracheal rings by the thyro-tracheal ligament. The thyroid body is united with the trachea and larynx, so it follows their movement during swallowing."
+   "why": "The posteromedial border of the lateral lobe is attached to the first three tracheal rings by the thyro-tracheal ligament. The thyroid body is united with the trachea and larynx, so it follows their movement during swallowing.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/28.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "What lies behind the medial side of the lateral lobes?",
@@ -15622,7 +18293,14 @@ SINA.lectures["anat3-thyroid"] = {
     "The parathyroid glands only"
    ],
    "answer": 0,
-   "why": "Backwards, the medial side of the lateral lobes responds to the pharynx and then to the oesophagus."
+   "why": "Backwards, the medial side of the lateral lobes responds to the pharynx and then to the oesophagus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/29.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Where does the right recurrent laryngeal nerve arise?",
@@ -15633,7 +18311,14 @@ SINA.lectures["anat3-thyroid"] = {
     "At the carotid bifurcation"
    ],
    "answer": 1,
-   "why": "On the right it originates from the vagus at the level of the right subclavian artery, approaches the right oesophageal angle, passes in front of the branches of the inferior thyroid artery, then under the fibres of the inferior constrictor."
+   "why": "On the right it originates from the vagus at the level of the right subclavian artery, approaches the right oesophageal angle, passes in front of the branches of the inferior thyroid artery, then under the fibres of the inferior constrictor.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/31.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Where does the left recurrent laryngeal nerve arise?",
@@ -15644,7 +18329,14 @@ SINA.lectures["anat3-thyroid"] = {
     "At the cricoid cartilage"
    ],
    "answer": 2,
-   "why": "On the left it arises from the vagus below the aortic arch, has a mediastinal course between the trachea and the aortic arch, runs along the oesotracheal angle in front of the left edge of the oesophagus, and passes behind the branches of the inferior thyroid artery."
+   "why": "On the left it arises from the vagus below the aortic arch, has a mediastinal course between the trachea and the aortic arch, runs along the oesotracheal angle in front of the left edge of the oesophagus, and passes behind the branches of the inferior thyroid artery.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/32.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "What are the parathyroid glands like?",
@@ -15655,7 +18347,14 @@ SINA.lectures["anat3-thyroid"] = {
     "Small flattened orange-yellow glands"
    ],
    "answer": 3,
-   "why": "They are small endocrine glands, orange-yellow in colour and flattened, located in the fat of the thyroid space."
+   "why": "They are small endocrine glands, orange-yellow in colour and flattened, located in the fat of the thyroid space.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/34.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Where is the inferior parathyroid gland found?",
@@ -15666,7 +18365,14 @@ SINA.lectures["anat3-thyroid"] = {
     "Within the carotid sheath"
    ],
    "answer": 1,
-   "why": "The inferior parathyroid lies on the posteromedial border of the lateral lobe, outside the inferior laryngeal nerve, below the termination of the inferior thyroid artery. The superior parathyroid lies on the same posteromedial border."
+   "why": "The inferior parathyroid lies on the posteromedial border of the lateral lobe, outside the inferior laryngeal nerve, below the termination of the inferior thyroid artery. The superior parathyroid lies on the same posteromedial border.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/34.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Where does the superior thyroid artery come from?",
@@ -15677,7 +18383,14 @@ SINA.lectures["anat3-thyroid"] = {
     "It is a branch of the common carotid"
    ],
    "answer": 0,
-   "why": "The superior thyroid artery is the first branch of the external carotid. It ends at the top of the lateral lobe, dividing into a lateral branch, a medial branch joining the upper border of the isthmus, and a posterior branch."
+   "why": "The superior thyroid artery is the first branch of the external carotid. It ends at the top of the lateral lobe, dividing into a lateral branch, a medial branch joining the upper border of the isthmus, and a posterior branch.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/37.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Where does the inferior thyroid artery come from?",
@@ -15688,7 +18401,14 @@ SINA.lectures["anat3-thyroid"] = {
     "The aortic arch directly"
    ],
    "answer": 2,
-   "why": "The inferior thyroid artery is a branch of the thyrocervical trunk, a collateral of the subclavian artery. It divides into a posterior, an inferior and a middle branch."
+   "why": "The inferior thyroid artery is a branch of the thyrocervical trunk, a collateral of the subclavian artery. It divides into a posterior, an inferior and a middle branch.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/38.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which is described as the only true pedicle of each lobe?",
@@ -15699,7 +18419,14 @@ SINA.lectures["anat3-thyroid"] = {
     "The thyroid ima artery"
    ],
    "answer": 0,
-   "why": "The superior thyroid pedicle is the only true pedicle of each lobe, approaching the superior pole of the lateral lobe. It is made of the superior thyroid artery and veins."
+   "why": "The superior thyroid pedicle is the only true pedicle of each lobe, approaching the superior pole of the lateral lobe. It is made of the superior thyroid artery and veins.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/36.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Where do the inferior thyroid veins drain?",
@@ -15710,7 +18437,14 @@ SINA.lectures["anat3-thyroid"] = {
     "Into the left brachiocephalic vein"
    ],
    "answer": 3,
-   "why": "The superior thyroid vein drains into the internal jugular vein, most often via the thyro-linguo-facial (Farabeuf) trunk. The middle thyroid veins join the internal jugular directly. The inferior thyroid veins descend to the left brachiocephalic vein."
+   "why": "The superior thyroid vein drains into the internal jugular vein, most often via the thyro-linguo-facial (Farabeuf) trunk. The middle thyroid veins join the internal jugular directly. The inferior thyroid veins descend to the left brachiocephalic vein.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/39.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which cells secrete calcitonin, and what does it do?",
@@ -15721,7 +18455,14 @@ SINA.lectures["anat3-thyroid"] = {
     "The C cells; it raises blood calcium"
    ],
    "answer": 1,
-   "why": "Calcitonin is secreted by the C cells. It is a hypocalcemic hormone that inhibits bone demineralization, preventing the passage of calcium into the blood, and is regulated by the level of calcium in the blood."
+   "why": "Calcitonin is secreted by the C cells. It is a hypocalcemic hormone that inhibits bone demineralization, preventing the passage of calcium into the blood, and is regulated by the level of calcium in the blood.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/45.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Which structures are at risk in thyroid surgery? (choose all)",
@@ -15735,7 +18476,19 @@ SINA.lectures["anat3-thyroid"] = {
     0,
     1
    ],
-   "why": "The lecture stresses that the anatomical relations with the recurrent nerves and the parathyroid glands are the major risks in thyroidectomy."
+   "why": "The lecture stresses that the anatomical relations with the recurrent nerves and the parathyroid glands are the major risks in thyroidectomy.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/02.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 2
+    },
+    {
+     "src": "files/slides/anat3-thyroid/50.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "Which veins drain the thyroid gland? (choose all)",
@@ -15749,7 +18502,14 @@ SINA.lectures["anat3-thyroid"] = {
     0,
     1
    ],
-   "why": "Three groups: the superior thyroid vein to the internal jugular (often via the Farabeuf trunk), the middle thyroid veins directly to the internal jugular, and the inferior thyroid veins to the left brachiocephalic vein."
+   "why": "Three groups: the superior thyroid vein to the internal jugular (often via the Farabeuf trunk), the middle thyroid veins directly to the internal jugular, and the inferior thyroid veins to the left brachiocephalic vein.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/39.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which are actions of thyroid hormones? (choose all)",
@@ -15763,7 +18523,14 @@ SINA.lectures["anat3-thyroid"] = {
     0,
     1
    ],
-   "why": "Thyroid hormones accelerate enzymatic metabolism (increasing oxygen consumption and heat production), accelerate carbohydrate metabolism (lowering blood sugar), accelerate lipid catabolism, accelerate diuresis, have a hypercalcemic action by accelerating bone resorption, and act on cartilage ossification and growth."
+   "why": "Thyroid hormones accelerate enzymatic metabolism (increasing oxygen consumption and heat production), accelerate carbohydrate metabolism (lowering blood sugar), accelerate lipid catabolism, accelerate diuresis, have a hypercalcemic action by accelerating bone resorption, and act on cartilage ossification and growth.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/44.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Which are actions of parathyroid hormone? (choose all)",
@@ -15777,7 +18544,14 @@ SINA.lectures["anat3-thyroid"] = {
     0,
     1
    ],
-   "why": "Parathyroid secretion participates in the regulation of phosphocalcic metabolism with vitamin D and calcitonin. It is hypercalcemic (increasing bone resorption, promoting intestinal absorption and renal reabsorption of calcium) and hypophosphoremic (decreasing renal reabsorption of phosphates)."
+   "why": "Parathyroid secretion participates in the regulation of phosphocalcic metabolism with vitamin D and calcitonin. It is hypercalcemic (increasing bone resorption, promoting intestinal absorption and renal reabsorption of calcium) and hypophosphoremic (decreasing renal reabsorption of phosphates).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/46.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -16623,7 +19397,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "The submental and submandibular triangles"
    ],
    "answer": 0,
-   "why": "Each side of the neck is divided into two major well-known triangles: the anterior triangle and the posterior triangle. Both are covered by the deep fascia of the neck, and only after its removal do the secondary triangles come into view."
+   "why": "Each side of the neck is divided into two major well-known triangles: the anterior triangle and the posterior triangle. Both are covered by the deep fascia of the neck, and only after its removal do the secondary triangles come into view.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What forms the lateral boundary of the anterior triangle?",
@@ -16634,7 +19415,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "The clavicle"
    ],
    "answer": 1,
-   "why": "The anterior triangle is bounded laterally by the anterior border of sternocleidomastoid, medially by the midline, and superiorly by the lower border of the mandible."
+   "why": "The anterior triangle is bounded laterally by the anterior border of sternocleidomastoid, medially by the midline, and superiorly by the lower border of the mandible.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What forms the posterolateral boundary of the posterior triangle?",
@@ -16645,7 +19433,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "The midline of the neck"
    ],
    "answer": 2,
-   "why": "The posterior triangle is bounded anteromedially by the posterior border of sternocleidomastoid, posterolaterally by the anterior border of trapezius, and inferiorly by the clavicle."
+   "why": "The posterior triangle is bounded anteromedially by the posterior border of sternocleidomastoid, posterolaterally by the anterior border of trapezius, and inferiorly by the clavicle.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Which triangle of the neck is unpaired?",
@@ -16656,7 +19451,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "The submental triangle"
    ],
    "answer": 3,
-   "why": "The anterior triangle is subdivided into three paired triangles (carotid, submandibular and muscular) and one unpaired triangle, the submental, which lies below the chin between the anterior bellies of digastric of both sides."
+   "why": "The anterior triangle is subdivided into three paired triangles (carotid, submandibular and muscular) and one unpaired triangle, the submental, which lies below the chin between the anterior bellies of digastric of both sides.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Into which two triangles is the posterior triangle subdivided?",
@@ -16667,7 +19469,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "Lesser's and Pirogoff's triangles"
    ],
    "answer": 1,
-   "why": "The posterior triangle is subdivided into the occipital triangle and the subclavian, or omoclavicular, triangle."
+   "why": "The posterior triangle is subdivided into the occipital triangle and the subclavian, or omoclavicular, triangle.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What bounds the carotid triangle above?",
@@ -16678,7 +19487,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "Stylohyoid and digastric"
    ],
    "answer": 3,
-   "why": "The carotid triangle is bounded below and anteroinferiorly by the superior belly of omohyoid, above by stylohyoid and the posterior belly of digastric, and posteriorly by sternocleidomastoid."
+   "why": "The carotid triangle is bounded below and anteroinferiorly by the superior belly of omohyoid, above by stylohyoid and the posterior belly of digastric, and posteriorly by sternocleidomastoid.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Which forgotten triangle lies inside the carotid triangle?",
@@ -16689,7 +19505,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "Beclard's triangle"
    ],
    "answer": 0,
-   "why": "The carotid triangle contains the triangle of Farabeuf. Lesser's, Pirogoff's and Beclard's triangles are housed within the submandibular triangle."
+   "why": "The carotid triangle contains the triangle of Farabeuf. Lesser's, Pirogoff's and Beclard's triangles are housed within the submandibular triangle.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Who was Farabeuf's triangle named after?",
@@ -16700,7 +19523,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "A French anatomist, Pierre Beclard"
    ],
    "answer": 2,
-   "why": "Farabeuf's triangle is named after the French surgeon Louis Hubert Farabeuf, who lived from 1841 to 1910."
+   "why": "Farabeuf's triangle is named after the French surgeon Louis Hubert Farabeuf, who lived from 1841 to 1910.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What forms the posterior boundary of Farabeuf's triangle?",
@@ -16711,7 +19541,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "The internal jugular vein"
    ],
    "answer": 3,
-   "why": "Farabeuf's triangle is bounded posteriorly by the internal jugular vein, anteroinferiorly by the common facial vein, and superiorly by the hypoglossal nerve, which forms its base."
+   "why": "Farabeuf's triangle is bounded posteriorly by the internal jugular vein, anteroinferiorly by the common facial vein, and superiorly by the hypoglossal nerve, which forms its base.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What are the contents of Farabeuf's triangle?",
@@ -16722,7 +19559,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "The accessory nerve and cervical plexus"
    ],
    "answer": 0,
-   "why": "Its contents are one branch of the common carotid artery, or the carotid bifurcation, and the jugulodigastric lymph node. It is a well-known sign for identifying the common carotid artery and its bifurcation."
+   "why": "Its contents are one branch of the common carotid artery, or the carotid bifurcation, and the jugulodigastric lymph node. It is a well-known sign for identifying the common carotid artery and its bifurcation.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What is the main content of the submandibular triangle?",
@@ -16733,7 +19577,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "The sublingual gland"
    ],
    "answer": 2,
-   "why": "The submandibular gland is the main content of the triangle and lies in its anterior part, superficial to which is the anterior facial vein."
+   "why": "The submandibular gland is the main content of the triangle and lies in its anterior part, superficial to which is the anterior facial vein.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What divides the submandibular triangle into anterior and posterior parts?",
@@ -16744,7 +19595,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "The hyoglossus muscle"
    ],
    "answer": 1,
-   "why": "The submandibular triangle is bordered superiorly by the inferior border of the body of the mandible and lies between the anterior and posterior bellies of digastric. It is subdivided into anterior and posterior parts by the stylomandibular ligament."
+   "why": "The submandibular triangle is bordered superiorly by the inferior border of the body of the mandible and lies between the anterior and posterior bellies of digastric. It is subdivided into anterior and posterior parts by the stylomandibular ligament.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What lies in the posterior part of the submandibular triangle?",
@@ -16755,7 +19613,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "The external carotid artery"
    ],
    "answer": 3,
-   "why": "In the posterior part lies the external carotid artery, ascending deep into the substance of the parotid gland. Beneath the gland, on the surface of mylohyoid, are the submental artery and the mylohyoid nerve and vessels."
+   "why": "In the posterior part lies the external carotid artery, ascending deep into the substance of the parotid gland. Beneath the gland, on the surface of mylohyoid, are the submental artery and the mylohyoid nerve and vessels.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Which three forgotten triangles lie within the submandibular triangle?",
@@ -16766,7 +19631,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "The occipital, subclavian and muscular"
    ],
    "answer": 2,
-   "why": "Beclard's, Lesser's and Pirogoff's triangles, also known as the forgotten or smaller triangles of the neck, are housed within the submandibular triangle."
+   "why": "Beclard's, Lesser's and Pirogoff's triangles, also known as the forgotten or smaller triangles of the neck, are housed within the submandibular triangle.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What forms the superior border of Lesser's triangle?",
@@ -16777,7 +19649,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "The greater cornu of the hyoid"
    ],
    "answer": 0,
-   "why": "Lesser's triangle is bounded by the hypoglossal nerve superiorly, the anterior belly and intermediate tendon of digastric inferiorly, and the posterior margin of mylohyoid posteriorly. Its floor is formed by hyoglossus and mylohyoid."
+   "why": "Lesser's triangle is bounded by the hypoglossal nerve superiorly, the anterior belly and intermediate tendon of digastric inferiorly, and the posterior margin of mylohyoid posteriorly. Its floor is formed by hyoglossus and mylohyoid.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What forms the floor of Lesser's triangle?",
@@ -16788,7 +19667,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "Geniohyoid and genioglossus"
    ],
    "answer": 1,
-   "why": "The floor of Lesser's triangle is formed by the hyoglossus and mylohyoid muscles."
+   "why": "The floor of Lesser's triangle is formed by the hyoglossus and mylohyoid muscles.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Who was Pirogoff's triangle named after?",
@@ -16799,7 +19685,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "An English anatomist"
    ],
    "answer": 2,
-   "why": "It is named after the Russian surgeon and scientist Nikolai I Pirogoff, who lived from 1810 to 1881 and gave the first description of this area of the neck."
+   "why": "It is named after the Russian surgeon and scientist Nikolai I Pirogoff, who lived from 1810 to 1881 and gave the first description of this area of the neck.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What may be found within Pirogoff's triangle?",
@@ -16810,7 +19703,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "The lingual artery"
    ],
    "answer": 3,
-   "why": "The lingual artery can sometimes be found in Pirogoff's triangle, underneath the fibres of the hyoglossus muscle. The triangle is also considered the posterior continuation of Lesser's triangle."
+   "why": "The lingual artery can sometimes be found in Pirogoff's triangle, underneath the fibres of the hyoglossus muscle. The triangle is also considered the posterior continuation of Lesser's triangle.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What forms the inferior boundary of Beclard's triangle?",
@@ -16821,7 +19721,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "The clavicle"
    ],
    "answer": 1,
-   "why": "Beclard's triangle is bounded inferiorly by the greater cornu of the hyoid bone, superiorly by the posterior belly of digastric, and posteriorly by the posterior border of hyoglossus, which forms its base."
+   "why": "Beclard's triangle is bounded inferiorly by the greater cornu of the hyoid bone, superiorly by the posterior belly of digastric, and posteriorly by the posterior border of hyoglossus, which forms its base.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What are the contents of Beclard's triangle?",
@@ -16832,7 +19739,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     "The internal jugular vein only"
    ],
    "answer": 0,
-   "why": "Beclard's triangle is also known as the posterior triangle of the lingual artery. Its contents are the lingual artery and the hypoglossal nerve. Sometimes the arcus raninus, the anastomosis between the right and left end branches of the deep lingual artery, is also present. The triangle helps in ligating the external carotid artery."
+   "why": "Beclard's triangle is also known as the posterior triangle of the lingual artery. Its contents are the lingual artery and the hypoglossal nerve. Sometimes the arcus raninus, the anastomosis between the right and left end branches of the deep lingual artery, is also present. The triangle helps in ligating the external carotid artery.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Which triangles subdivide the anterior triangle? (choose all)",
@@ -16846,7 +19760,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     0,
     1
    ],
-   "why": "The anterior triangle is subdivided into the carotid, submandibular and muscular triangles, all paired, plus the unpaired submental triangle. The occipital and subclavian triangles subdivide the posterior triangle."
+   "why": "The anterior triangle is subdivided into the carotid, submandibular and muscular triangles, all paired, plus the unpaired submental triangle. The occipital and subclavian triangles subdivide the posterior triangle.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Which structures bound Farabeuf's triangle? (choose all)",
@@ -16860,7 +19781,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     0,
     1
    ],
-   "why": "Farabeuf's triangle is bounded by the internal jugular vein posteriorly, the common facial vein anteroinferiorly and the hypoglossal nerve superiorly."
+   "why": "Farabeuf's triangle is bounded by the internal jugular vein posteriorly, the common facial vein anteroinferiorly and the hypoglossal nerve superiorly.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Which are well-known landmarks of the neck, according to this paper? (choose all)",
@@ -16874,7 +19802,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     0,
     1
    ],
-   "why": "The paper names the thyroid cartilage, the hyoid bone, the trachea and the sternocleidomastoid muscle as the well-known landmarks of the neck."
+   "why": "The paper names the thyroid cartilage, the hyoid bone, the trachea and the sternocleidomastoid muscle as the well-known landmarks of the neck.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/02.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What are these forgotten triangles useful for? (choose all)",
@@ -16888,7 +19823,14 @@ SINA.lectures["anat3-neck-triangles"] = {
     0,
     1
    ],
-   "why": "The paper concludes that these triangles are reliable and constant landmarks for identifying the common carotid artery, ligating the lingual artery, identifying the hypoglossal nerve and recognising the common facial vein."
+   "why": "The paper concludes that these triangles are reliable and constant landmarks for identifying the common carotid artery, ligating the lingual artery, identifying the hypoglossal nerve and recognising the common facial vein.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-neck-triangles/03.jpg",
+     "lec": "The forgotten triangles of the neck",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -17733,7 +20675,19 @@ SINA.lectures["anat3-ear-1"] = {
     "The zygomatic process of the bone"
    ],
    "answer": 0,
-   "why": "The ear is divided into external, middle and inner parts, mostly within the petrous part of the temporal bone."
+   "why": "The ear is divided into external, middle and inner parts, mostly within the petrous part of the temporal bone.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/02.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 2
+    },
+    {
+     "src": "files/slides/anat3-ear-1/04.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which part of the auricle has no cartilage framework?",
@@ -17744,7 +20698,14 @@ SINA.lectures["anat3-ear-1"] = {
     "The tragus"
    ],
    "answer": 1,
-   "why": "The ear lobe is a simple skin fold without a cartilage framework."
+   "why": "The ear lobe is a simple skin fold without a cartilage framework.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/13.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which fraction of the pinna is fixed to the skull?",
@@ -17755,7 +20716,14 @@ SINA.lectures["anat3-ear-1"] = {
     "The whole pinna"
    ],
    "answer": 2,
-   "why": "The pinna is joined to the skull by its anterior third; the posterior two thirds constitute its mobile part."
+   "why": "The pinna is joined to the skull by its anterior third; the posterior two thirds constitute its mobile part.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/11.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which four projections of the lateral auricle are constant?",
@@ -17766,7 +20734,14 @@ SINA.lectures["anat3-ear-1"] = {
     "Helix, anthelix, tragi"
    ],
    "answer": 3,
-   "why": "The helix runs around the upper two thirds; the anthelix is a bifid projection concentric to it, separated by the scapha; then the tragus and antitragus."
+   "why": "The helix runs around the upper two thirds; the anthelix is a bifid projection concentric to it, separated by the scapha; then the tragus and antitragus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/13.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Where does auricularis posterior arise?",
@@ -17777,7 +20752,14 @@ SINA.lectures["anat3-ear-1"] = {
     "From the tragus"
    ],
    "answer": 1,
-   "why": "The anterior and superior auricular muscles arise from the epicranial aponeurosis; the posterior arises from the mastoid process and inserts into the eminentia conchae."
+   "why": "The anterior and superior auricular muscles arise from the epicranial aponeurosis; the posterior arises from the mastoid process and inserts into the eminentia conchae.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/15.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "How long is the external auditory canal?",
@@ -17788,7 +20770,14 @@ SINA.lectures["anat3-ear-1"] = {
     "25 mm"
    ],
    "answer": 3,
-   "why": "A cylindrical canal closed internally by the tympanic membrane: length 25 mm, average width 8 mm, with an elongated S-shaped course."
+   "why": "A cylindrical canal closed internally by the tympanic membrane: length 25 mm, average width 8 mm, with an elongated S-shaped course.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/17.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "What proportion of the canal is cartilaginous?",
@@ -17799,7 +20788,19 @@ SINA.lectures["anat3-ear-1"] = {
     "The whole canal"
    ],
    "answer": 0,
-   "why": "The cartilaginous part forms the outer third (8 mm); the bony part forms the inner two thirds (16 mm)."
+   "why": "The cartilaginous part forms the outer third (8 mm); the bony part forms the inner two thirds (16 mm).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/19.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 19
+    },
+    {
+     "src": "files/slides/anat3-ear-1/20.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Where are the ceruminous glands of the canal?",
@@ -17810,7 +20811,14 @@ SINA.lectures["anat3-ear-1"] = {
     "On the tympanic membrane"
    ],
    "answer": 2,
-   "why": "The thick skin of the cartilaginous part contains hair and ceruminous glands. The thin skin of the bony part has neither."
+   "why": "The thick skin of the cartilaginous part contains hair and ceruminous glands. The thin skin of the bony part has neither.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/19.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "How is the pinna pulled to examine the canal and drum?",
@@ -17821,7 +20829,14 @@ SINA.lectures["anat3-ear-1"] = {
     "Up, back and outwards"
    ],
    "answer": 3,
-   "why": "Pulling the pinna upwards, backwards and laterally straightens the S-shaped canal so the tympanic membrane can be seen."
+   "why": "Pulling the pinna upwards, backwards and laterally straightens the S-shaped canal so the tympanic membrane can be seen.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/18.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which arteries supply the external ear?",
@@ -17832,7 +20847,14 @@ SINA.lectures["anat3-ear-1"] = {
     "Branches of the internal carotid artery"
    ],
    "answer": 0,
-   "why": "The external ear is supplied by the superficial temporal and posterior auricular arteries, both branches of the external carotid."
+   "why": "The external ear is supplied by the superficial temporal and posterior auricular arteries, both branches of the external carotid.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/23.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Name the three cavities of the middle ear.",
@@ -17843,7 +20865,14 @@ SINA.lectures["anat3-ear-1"] = {
     "Oval window, round window, cavity"
    ],
    "answer": 2,
-   "why": "The middle ear is an air cavity in the temporal bone: a central tympanic cavity, continued behind by the mastoid cells and forward by the Eustachian tube."
+   "why": "The middle ear is an air cavity in the temporal bone: a central tympanic cavity, continued behind by the mastoid cells and forward by the Eustachian tube.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/27.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "How many walls of the tympanic cavity are bony?",
@@ -17854,7 +20883,19 @@ SINA.lectures["anat3-ear-1"] = {
     "Three"
    ],
    "answer": 1,
-   "why": "It is a six-sided box: five bony walls, and the sixth, lateral wall membranous, formed by the tympanic membrane."
+   "why": "It is a six-sided box: five bony walls, and the sixth, lateral wall membranous, formed by the tympanic membrane.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/30.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 30
+    },
+    {
+     "src": "files/slides/anat3-ear-1/32.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "How much of the lateral wall is the tympanic membrane?",
@@ -17865,7 +20906,14 @@ SINA.lectures["anat3-ear-1"] = {
     "4/5"
    ],
    "answer": 3,
-   "why": "The lateral wall separates the tympanic cavity from the external acoustic canal and is formed in four fifths by the tympanic membrane."
+   "why": "The lateral wall separates the tympanic cavity from the external acoustic canal and is formed in four fifths by the tympanic membrane.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/33.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which part of the eardrum lacks the fibrous layer?",
@@ -17876,7 +20924,14 @@ SINA.lectures["anat3-ear-1"] = {
     "The umbo"
    ],
    "answer": 2,
-   "why": "In the pars flaccida (Shrapnell's membrane) the middle fibrous layer is replaced by loose areolar tissue, so it is thin, lax and slightly pinkish."
+   "why": "In the pars flaccida (Shrapnell's membrane) the middle fibrous layer is replaced by loose areolar tissue, so it is thin, lax and slightly pinkish.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/38.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "What lines the outer layer of the eardrum?",
@@ -17887,7 +20942,14 @@ SINA.lectures["anat3-ear-1"] = {
     "Transitional epithelium type"
    ],
    "answer": 0,
-   "why": "Three layers: an outer cuticular layer of stratified squamous epithelium, a middle fibrous layer, and an inner mucosal layer of low columnar epithelium."
+   "why": "Three layers: an outer cuticular layer of stratified squamous epithelium, a middle fibrous layer, and an inner mucosal layer of low columnar epithelium.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/36.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "What separates the tympanic cavity from the middle cranial fossa?",
@@ -17898,7 +20960,14 @@ SINA.lectures["anat3-ear-1"] = {
     "The aditus ad antrum"
    ],
    "answer": 1,
-   "why": "The roof, the tegmen tympani, is a thin plate of bone separating the tympanic cavity from the middle cranial fossa."
+   "why": "The roof, the tegmen tympani, is a thin plate of bone separating the tympanic cavity from the middle cranial fossa.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/41.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "What lies beneath the floor of the tympanic cavity?",
@@ -17909,7 +20978,14 @@ SINA.lectures["anat3-ear-1"] = {
     "The mastoid antrum"
    ],
    "answer": 2,
-   "why": "The floor is a thin plate of bone separating the cavity from the jugular bulb. Sometimes it is congenitally deficient and the bulb projects into the middle ear, covered only by mucosa."
+   "why": "The floor is a thin plate of bone separating the cavity from the jugular bulb. Sometimes it is congenitally deficient and the bulb projects into the middle ear, covered only by mucosa.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/41.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "What lies in front of the lower anterior wall?",
@@ -17920,7 +20996,14 @@ SINA.lectures["anat3-ear-1"] = {
     "The internal carotid artery"
    ],
    "answer": 3,
-   "why": "The anterior wall separates the cavity from the internal carotid artery below; above it has two openings, for tensor tympani and for the auditory tube."
+   "why": "The anterior wall separates the cavity from the internal carotid artery below; above it has two openings, for tensor tympani and for the auditory tube.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/42.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "What connects the tympanic cavity to the mastoid?",
@@ -17931,7 +21014,14 @@ SINA.lectures["anat3-ear-1"] = {
     "The cochlear canal of bone"
    ],
    "answer": 1,
-   "why": "The posterior wall presents the aditus ad antrum, and the vertical part of the facial canal runs in it behind the pyramid down to the stylomastoid foramen."
+   "why": "The posterior wall presents the aditus ad antrum, and the vertical part of the facial canal runs in it behind the pyramid down to the stylomastoid foramen.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/43.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "What divides the medial wall into two levels?",
@@ -17942,7 +21032,14 @@ SINA.lectures["anat3-ear-1"] = {
     "The tegmen tympani"
    ],
    "answer": 0,
-   "why": "The medial (labyrinthine) wall is divided by the prominence of the facial canal: above it the lateral semicircular canal; below it the promontory, oval window and round window."
+   "why": "The medial (labyrinthine) wall is divided by the prominence of the facial canal: above it the lateral semicircular canal; below it the promontory, oval window and round window.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/40.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Which is the smallest ossicle?",
@@ -17953,7 +21050,14 @@ SINA.lectures["anat3-ear-1"] = {
     "They are equal"
    ],
    "answer": 2,
-   "why": "The stapes is the smallest and lightest, about 2 mg, with a head, anterior and posterior crura and a footplate."
+   "why": "The stapes is the smallest and lightest, about 2 mg, with a head, anterior and posterior crura and a footplate.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/50.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "What is the largest mastoid cell called?",
@@ -17964,7 +21068,14 @@ SINA.lectures["anat3-ear-1"] = {
     "The promontory"
    ],
    "answer": 0,
-   "why": "The mastoid cells are air cells in the mastoid bone. The antrum is the most developed, and all cells communicate with each other and with the tympanic cavity."
+   "why": "The mastoid cells are air cells in the mastoid bone. The antrum is the most developed, and all cells communicate with each other and with the tympanic cavity.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/52.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "What does the Eustachian tube connect?",
@@ -17975,7 +21086,14 @@ SINA.lectures["anat3-ear-1"] = {
     "The nasopharynx and middle ear"
    ],
    "answer": 3,
-   "why": "An osseocartilaginous tube running downwards, forwards and medially from the tympanic cavity to the nasopharynx. It equalises air pressure on both sides of the drum."
+   "why": "An osseocartilaginous tube running downwards, forwards and medially from the tympanic cavity to the nasopharynx. It equalises air pressure on both sides of the drum.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/53.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "Which nerve contributes Jacobson's nerve to the tympanic plexus?",
@@ -17986,7 +21104,14 @@ SINA.lectures["anat3-ear-1"] = {
     "CN V"
    ],
    "answer": 1,
-   "why": "The tympanic plexus on the promontory is formed by the tympanic branch of CN IX (Jacobson's nerve), sympathetic fibres from the internal carotid plexus and a branch from the geniculate ganglion."
+   "why": "The tympanic plexus on the promontory is formed by the tympanic branch of CN IX (Jacobson's nerve), sympathetic fibres from the internal carotid plexus and a branch from the geniculate ganglion.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/56.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "Which are functions of the Eustachian tube? (choose all)",
@@ -18000,7 +21125,14 @@ SINA.lectures["anat3-ear-1"] = {
     0,
     1
    ],
-   "why": "The lecture gives three functions: maintaining equilibrium of air pressure, protection, and drainage."
+   "why": "The lecture gives three functions: maintaining equilibrium of air pressure, protection, and drainage.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/54.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "Which lie on the lower level of the medial wall? (choose all)",
@@ -18014,7 +21146,19 @@ SINA.lectures["anat3-ear-1"] = {
     0,
     1
    ],
-   "why": "Below the facial canal prominence: the promontory, the oval window and the round window. The lateral semicircular canal prominence is above it; the tegmen is the roof."
+   "why": "Below the facial canal prominence: the promontory, the oval window and the round window. The lateral semicircular canal prominence is above it; the tegmen is the roof.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/39.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 39
+    },
+    {
+     "src": "files/slides/anat3-ear-1/40.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Which are parts of the malleus? (choose all)",
@@ -18028,7 +21172,14 @@ SINA.lectures["anat3-ear-1"] = {
     0,
     1
    ],
-   "why": "Malleus: head, neck, manubrium, lateral and anterior processes. The lenticular process belongs to the incus, the footplate to the stapes."
+   "why": "Malleus: head, neck, manubrium, lateral and anterior processes. The lenticular process belongs to the incus, the footplate to the stapes.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/48.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Which nerves supply the external ear? (choose all)",
@@ -18042,7 +21193,14 @@ SINA.lectures["anat3-ear-1"] = {
     0,
     1
    ],
-   "why": "The external ear is supplied by the superficial cervical plexus, the nervus intermedius (VII bis) and the trigeminal nerve."
+   "why": "The external ear is supplied by the superficial cervical plexus, the nervus intermedius (VII bis) and the trigeminal nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/23.jpg",
+     "lec": "Anatomy of the ear, part 1: external",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -18920,7 +22078,14 @@ SINA.lectures["anat3-ear-2"] = {
     "Air"
    ],
    "answer": 0,
-   "why": "The membranous labyrinth is a closed system of fluid-filled sacs and ducts containing endolymph. The space between it and the bony labyrinth holds perilymph."
+   "why": "The membranous labyrinth is a closed system of fluid-filled sacs and ducts containing endolymph. The space between it and the bony labyrinth holds perilymph.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/04.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What lies between the bony and membranous labyrinths?",
@@ -18931,7 +22096,14 @@ SINA.lectures["anat3-ear-2"] = {
     "Blood"
    ],
    "answer": 1,
-   "why": "The membranous labyrinth lies within the bony labyrinth in the petrous temporal bone, and the space between them is filled with perilymph."
+   "why": "The membranous labyrinth lies within the bony labyrinth in the petrous temporal bone, and the space between them is filled with perilymph.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/04.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Name the three parts of the bony labyrinth.",
@@ -18942,7 +22114,19 @@ SINA.lectures["anat3-ear-2"] = {
     "Cochlear duct, utricle, sac"
    ],
    "answer": 2,
-   "why": "The bony labyrinth, derived from the otic capsule, has three parts: the cochlea, the vestibule and the semicircular canals, lined by periosteum and containing perilymph."
+   "why": "The bony labyrinth, derived from the otic capsule, has three parts: the cochlea, the vestibule and the semicircular canals, lined by periosteum and containing perilymph.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/06.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 6
+    },
+    {
+     "src": "files/slides/anat3-ear-2/08.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which is NOT part of the membranous labyrinth?",
@@ -18953,7 +22137,19 @@ SINA.lectures["anat3-ear-2"] = {
     "The modiolus"
    ],
    "answer": 3,
-   "why": "The membranous labyrinth comprises the semicircular ducts, the cochlear duct, the utricle and the saccule. The modiolus is the bony central pillar of the cochlea."
+   "why": "The membranous labyrinth comprises the semicircular ducts, the cochlear duct, the utricle and the saccule. The modiolus is the bony central pillar of the cochlea.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/07.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 7
+    },
+    {
+     "src": "files/slides/anat3-ear-2/19.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "How long is the bony cochlear tube?",
@@ -18964,7 +22160,14 @@ SINA.lectures["anat3-ear-2"] = {
     "3 mm"
    ],
    "answer": 1,
-   "why": "The cochlea looks like a snail shell: a bony tube 30 mm long and 1 to 2 mm in diameter, spiralling around the modiolus."
+   "why": "The cochlea looks like a snail shell: a bony tube 30 mm long and 1 to 2 mm in diameter, spiralling around the modiolus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/09.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What is the modiolus?",
@@ -18975,7 +22178,14 @@ SINA.lectures["anat3-ear-2"] = {
     "The central bony pillar"
    ],
    "answer": 3,
-   "why": "The modiolus is the axial bony stem around which the cochlear canal spirals. Its base lies at the fundus of the internal acoustic meatus and is perforated by fibres of the cochlear nerve."
+   "why": "The modiolus is the axial bony stem around which the cochlear canal spirals. Its base lies at the fundus of the internal acoustic meatus and is perforated by fibres of the cochlear nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/11.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What does the basal turn of the cochlea form in the middle ear?",
@@ -18986,7 +22196,14 @@ SINA.lectures["anat3-ear-2"] = {
     "The aditus"
    ],
    "answer": 0,
-   "why": "The cochlear canal spirals around the modiolus, and its basal turn bulges into the tympanic cavity as the promontory."
+   "why": "The cochlear canal spirals around the modiolus, and its basal turn bulges into the tympanic cavity as the promontory.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/11.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What divides the cochlear canal into scala vestibuli and scala tympani?",
@@ -18997,7 +22214,14 @@ SINA.lectures["anat3-ear-2"] = {
     "The stria vascularis"
    ],
    "answer": 2,
-   "why": "A spiral ridge of bone, the spiral lamina, projects from the modiolus like the thread of a screw and partly divides the canal into scala vestibuli above and scala tympani below."
+   "why": "A spiral ridge of bone, the spiral lamina, projects from the modiolus like the thread of a screw and partly divides the canal into scala vestibuli above and scala tympani below.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/11.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Where do the scala vestibuli and scala tympani communicate?",
@@ -19008,7 +22232,14 @@ SINA.lectures["anat3-ear-2"] = {
     "At the helicotrema"
    ],
    "answer": 3,
-   "why": "They communicate at the apex of the cochlea through a small opening, the helicotrema."
+   "why": "They communicate at the apex of the cochlea through a small opening, the helicotrema.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/11.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What closes the round window?",
@@ -19019,7 +22250,14 @@ SINA.lectures["anat3-ear-2"] = {
     "The tegmen tympani"
    ],
    "answer": 0,
-   "why": "The fenestra cochleae (round window) opens into the tympanic cavity below and behind the promontory and is closed by the secondary tympanic membrane."
+   "why": "The fenestra cochleae (round window) opens into the tympanic cavity below and behind the promontory and is closed by the secondary tympanic membrane.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/14.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "What does the aqueduct of the cochlea connect?",
@@ -19030,7 +22268,14 @@ SINA.lectures["anat3-ear-2"] = {
     "The utricle and saccule"
    ],
    "answer": 2,
-   "why": "The aqueduct of the cochlea is a narrow canal through which the perilymph of the cochlea communicates with the cerebrospinal fluid."
+   "why": "The aqueduct of the cochlea is a narrow canal through which the perilymph of the cochlea communicates with the cerebrospinal fluid.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/14.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "What closes the oval window?",
@@ -19041,7 +22286,14 @@ SINA.lectures["anat3-ear-2"] = {
     "The basilar membrane"
    ],
    "answer": 1,
-   "why": "The lateral wall of the vestibule communicates with the middle ear by the fenestra vestibuli, closed by the footplate of the stapes and the annular ligament."
+   "why": "The lateral wall of the vestibule communicates with the middle ear by the fenestra vestibuli, closed by the footplate of the stapes and the annular ligament.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/15.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "At what angle do the semicircular canals lie to each other?",
@@ -19052,7 +22304,14 @@ SINA.lectures["anat3-ear-2"] = {
     "90 degrees"
    ],
    "answer": 3,
-   "why": "There are three bony semicircular canals, anterior, posterior and lateral, lying in three planes at 90 degrees to each other."
+   "why": "There are three bony semicircular canals, anterior, posterior and lateral, lying in three planes at 90 degrees to each other.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/16.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which semicircular canal lies in the horizontal plane?",
@@ -19063,7 +22322,14 @@ SINA.lectures["anat3-ear-2"] = {
     "The superior canal"
    ],
    "answer": 2,
-   "why": "The anterior and posterior canals lie in vertical planes; the lateral canal lies in the horizontal plane."
+   "why": "The anterior and posterior canals lie in vertical planes; the lateral canal lies in the horizontal plane.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/18.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "What is the crus commune?",
@@ -19074,7 +22340,14 @@ SINA.lectures["anat3-ear-2"] = {
     "The apex of the cochlea"
    ],
    "answer": 0,
-   "why": "The posterior non-ampullated end of the anterior canal unites with the upper non-ampullated end of the posterior canal to form the crus commune, which opens into the vestibule."
+   "why": "The posterior non-ampullated end of the anterior canal unites with the upper non-ampullated end of the posterior canal to form the crus commune, which opens into the vestibule.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/17.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "By how many openings do the semicircular canals open into the vestibule?",
@@ -19085,7 +22358,14 @@ SINA.lectures["anat3-ear-2"] = {
     "Four"
    ],
    "answer": 1,
-   "why": "Three canals would give six ends, but the anterior and posterior canals share the crus commune, so there are five openings."
+   "why": "Three canals would give six ends, but the anterior and posterior canals share the crus commune, so there are five openings.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/18.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which duct connects the cochlear duct to the saccule?",
@@ -19096,7 +22376,14 @@ SINA.lectures["anat3-ear-2"] = {
     "The crus commune"
    ],
    "answer": 2,
-   "why": "The basal turn of the cochlear duct connects to the saccule by the ductus reuniens. The saccule and utricle are joined by a Y-shaped utriculo-saccular duct, which expands into the endolymphatic duct and sac."
+   "why": "The basal turn of the cochlear duct connects to the saccule by the ductus reuniens. The saccule and utricle are joined by a Y-shaped utriculo-saccular duct, which expands into the endolymphatic duct and sac.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/21.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "What is the sensory receptor for hearing?",
@@ -19107,7 +22394,14 @@ SINA.lectures["anat3-ear-2"] = {
     "The spiral organ of Corti"
    ],
    "answer": 3,
-   "why": "The organ of Corti in the cochlear duct is the receptor for hearing. The maculae of the saccule and utricle serve static balance; the cristae ampullaris of the semicircular ducts serve kinetic balance."
+   "why": "The organ of Corti in the cochlear duct is the receptor for hearing. The maculae of the saccule and utricle serve static balance; the cristae ampullaris of the semicircular ducts serve kinetic balance.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/22.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "What do the maculae of the utricle and saccule detect?",
@@ -19118,7 +22412,14 @@ SINA.lectures["anat3-ear-2"] = {
     "Pressure changes"
    ],
    "answer": 1,
-   "why": "The maculae are responsible for static balance, carried by the vestibular nerve with the kinetic signals from the cristae."
+   "why": "The maculae are responsible for static balance, carried by the vestibular nerve with the kinetic signals from the cristae.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/22.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which hair cells carry most auditory information to the brain?",
@@ -19129,7 +22430,14 @@ SINA.lectures["anat3-ear-2"] = {
     "The rod cells"
    ],
    "answer": 0,
-   "why": "Inner hair cells ensure mechano-electrical transduction and connect to about 45,000 afferent fibres, 90 to 95 percent of the cochlear nerve. Outer hair cells are contractile and innervated by efferent fibres, increasing frequency selectivity."
+   "why": "Inner hair cells ensure mechano-electrical transduction and connect to about 45,000 afferent fibres, 90 to 95 percent of the cochlear nerve. Outer hair cells are contractile and innervated by efferent fibres, increasing frequency selectivity.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/33.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "What role do the outer hair cells play?",
@@ -19140,7 +22448,14 @@ SINA.lectures["anat3-ear-2"] = {
     "They close the oval window"
    ],
    "answer": 2,
-   "why": "Outer hair cells are not true sensory receptors: they have contractile properties, react to sound excitation and increase frequency selectivity, modulating the inner hair cells."
+   "why": "Outer hair cells are not true sensory receptors: they have contractile properties, react to sound excitation and increase frequency selectivity, modulating the inner hair cells.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/33.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Where does the vestibulocochlear nerve divide?",
@@ -19151,7 +22466,14 @@ SINA.lectures["anat3-ear-2"] = {
     "At the cochlear apex, in the canal"
    ],
    "answer": 0,
-   "why": "CN VIII divides in the internal auditory canal into an anterior branch, the cochlear nerve, and a posterior branch, the vestibular nerve."
+   "why": "CN VIII divides in the internal auditory canal into an anterior branch, the cochlear nerve, and a posterior branch, the vestibular nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/33.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which nerve supplies the macula of the saccule?",
@@ -19162,7 +22484,14 @@ SINA.lectures["anat3-ear-2"] = {
     "The inferior vestibular nerve"
    ],
    "answer": 3,
-   "why": "The superior vestibular nerve gives the utricular, superior ampullary and lateral ampullary nerves. The inferior vestibular nerve forms the saccular nerve. There is also a posterior ampullary nerve."
+   "why": "The superior vestibular nerve gives the utricular, superior ampullary and lateral ampullary nerves. The inferior vestibular nerve forms the saccular nerve. There is also a posterior ampullary nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/34.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which artery supplies the labyrinth?",
@@ -19173,7 +22502,14 @@ SINA.lectures["anat3-ear-2"] = {
     "The posterior auricular artery"
    ],
    "answer": 1,
-   "why": "The labyrinthine artery arises from the anterior inferior cerebellar artery or directly from the basilar trunk."
+   "why": "The labyrinthine artery arises from the anterior inferior cerebellar artery or directly from the basilar trunk.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/35.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Which structures make up the membranous labyrinth? (choose all)",
@@ -19187,7 +22523,19 @@ SINA.lectures["anat3-ear-2"] = {
     0,
     1
    ],
-   "why": "Membranous: semicircular ducts, cochlear duct, utricle, saccule. The modiolus and the vestibule are bony."
+   "why": "Membranous: semicircular ducts, cochlear duct, utricle, saccule. The modiolus and the vestibule are bony.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/19.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 19
+    },
+    {
+     "src": "files/slides/anat3-ear-2/21.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which receptors serve balance? (choose all)",
@@ -19201,7 +22549,14 @@ SINA.lectures["anat3-ear-2"] = {
     0,
     1
    ],
-   "why": "Maculae of the utricle and saccule serve static balance; cristae ampullaris of the semicircular ducts serve kinetic balance. The organ of Corti serves hearing."
+   "why": "Maculae of the utricle and saccule serve static balance; cristae ampullaris of the semicircular ducts serve kinetic balance. The organ of Corti serves hearing.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/22.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which belong to the posterior (balance) labyrinth? (choose all)",
@@ -19215,7 +22570,14 @@ SINA.lectures["anat3-ear-2"] = {
     0,
     1
    ],
-   "why": "The posterior labyrinth, for balance, includes the utricle, saccule, semicircular ducts and endolymphatic system. The anterior labyrinth, for hearing, is the cochlear duct."
+   "why": "The posterior labyrinth, for balance, includes the utricle, saccule, semicircular ducts and endolymphatic system. The anterior labyrinth, for hearing, is the cochlear duct.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/19.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which branches arise from the superior vestibular nerve? (choose all)",
@@ -19229,7 +22591,14 @@ SINA.lectures["anat3-ear-2"] = {
     0,
     1
    ],
-   "why": "Superior vestibular nerve: utricular, superior ampullary and lateral ampullary nerves. The saccular nerve comes from the inferior vestibular nerve."
+   "why": "Superior vestibular nerve: utricular, superior ampullary and lateral ampullary nerves. The saccular nerve comes from the inferior vestibular nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/34.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -20014,7 +23383,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "The notochord of the embryo"
    ],
    "answer": 0,
-   "why": "The caudal end of the neural tube develops to form the spinal cord."
+   "why": "The caudal end of the neural tube develops to form the spinal cord.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/05.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which layer of the neural tube becomes the grey matter?",
@@ -20025,7 +23401,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "The neural crest"
    ],
    "answer": 1,
-   "why": "Ventricular zone: innermost, giving neuroblasts and glioblasts. Mantle zone: becomes grey matter. Marginal zone: outermost, becomes white matter."
+   "why": "Ventricular zone: innermost, giving neuroblasts and glioblasts. Mantle zone: becomes grey matter. Marginal zone: outermost, becomes white matter.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/05.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which plate develops into the motor neurons?",
@@ -20036,7 +23419,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "The floor plate of the tube"
    ],
    "answer": 2,
-   "why": "The mantle layer splits into the dorsal alar plate (sensory) and the ventral basal plate (motor), separated by the sulcus limitans, with autonomic neurons in the intermediate zone."
+   "why": "The mantle layer splits into the dorsal alar plate (sensory) and the ventral basal plate (motor), separated by the sulcus limitans, with autonomic neurons in the intermediate zone.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/06.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Where do the dorsal (sensory) roots come from?",
@@ -20047,7 +23437,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "The neural crest"
    ],
    "answer": 3,
-   "why": "Ventral motor roots arise from basal plate motor neurons; dorsal sensory roots arise from neural crest cells outside the neural tube."
+   "why": "Ventral motor roots arise from basal plate motor neurons; dorsal sensory roots arise from neural crest cells outside the neural tube.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/07.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "At what level does the adult spinal cord end?",
@@ -20058,7 +23455,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "T10/T11"
    ],
    "answer": 1,
-   "why": "At 6 months of fetal life it reaches S1, at birth L3, and in adults the L1/L2 intervertebral disc."
+   "why": "At 6 months of fetal life it reaches S1, at birth L3, and in adults the L1/L2 intervertebral disc.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/09.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Why does the adult cord stop short of the vertebral canal?",
@@ -20069,7 +23473,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "The spine outgrows the cord"
    ],
    "answer": 3,
-   "why": "The cord finishes growing at about 4 years, the vertebral column at 14 to 18, so the cord occupies only the upper two thirds of the canal."
+   "why": "The cord finishes growing at about 4 years, the vertebral column at 14 to 18, so the cord occupies only the upper two thirds of the canal.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/08.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "What is the cauda equina?",
@@ -20080,7 +23491,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "The lower meningeal sac"
    ],
    "answer": 0,
-   "why": "The lumbar, sacral and coccygeal roots run obliquely below the conus medullaris, resembling a horse's tail, in the lumbar cistern."
+   "why": "The lumbar, sacral and coccygeal roots run obliquely below the conus medullaris, resembling a horse's tail, in the lumbar cistern.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/14.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "What anchors the spinal cord to the coccyx?",
@@ -20091,7 +23509,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "The posterior longitudinal ligament"
    ],
    "answer": 2,
-   "why": "The filum terminale extends from the tip of the conus medullaris to the first coccygeal vertebra, anchoring the cord."
+   "why": "The filum terminale extends from the tip of the conus medullaris to the first coccygeal vertebra, anchoring the cord.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/12.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "How long is the spinal cord?",
@@ -20102,7 +23527,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "40 to 45 cm"
    ],
    "answer": 3,
-   "why": "Length 40 to 45 cm, transverse diameter 10 to 12 mm, anteroposterior about 8 mm, mass 25 to 30 g."
+   "why": "Length 40 to 45 cm, transverse diameter 10 to 12 mm, anteroposterior about 8 mm, mass 25 to 30 g.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/11.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "How many pairs of spinal nerves are there?",
@@ -20113,7 +23545,19 @@ SINA.lectures["anat3-spinal-cord"] = {
     "29"
    ],
    "answer": 0,
-   "why": "8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 1 coccygeal: 31 pairs."
+   "why": "8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 1 coccygeal: 31 pairs.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/13.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 13
+    },
+    {
+     "src": "files/slides/anat3-spinal-cord/34.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "What is the extent of the cervical enlargement?",
@@ -20124,7 +23568,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "C1 to C4"
    ],
    "answer": 2,
-   "why": "The cervical enlargement (C4 to T1) supplies the upper limbs; the lumbar enlargement (L1 to S3) the lower limbs."
+   "why": "The cervical enlargement (C4 to T1) supplies the upper limbs; the lumbar enlargement (L1 to S3) the lower limbs.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/14.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which surface groove of the spinal cord is deep?",
@@ -20135,7 +23586,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "The anterolateral sulcus"
    ],
    "answer": 1,
-   "why": "A deep anterior median fissure, a shallow posterior median sulcus, and anterolateral and posterolateral sulci where the root filaments emerge."
+   "why": "A deep anterior median fissure, a shallow posterior median sulcus, and anterolateral and posterolateral sulci where the root filaments emerge.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/17.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "What shape is the grey matter in cross-section?",
@@ -20146,7 +23604,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "A butterfly"
    ],
    "answer": 3,
-   "why": "Central grey matter shaped like a butterfly or H, with four wings, the horns, surrounded by peripheral white matter."
+   "why": "Central grey matter shaped like a butterfly or H, with four wings, the horns, surrounded by peripheral white matter.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/18.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "What do the posterior horns receive?",
@@ -20157,7 +23622,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "Cerebrospinal fluid"
    ],
    "answer": 2,
-   "why": "Dorsal horns receive sensory input from afferent fibres entering via the dorsal roots; ventral horns contain motor neurons."
+   "why": "Dorsal horns receive sensory input from afferent fibres entering via the dorsal roots; ventral horns contain motor neurons.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/19.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Where are the lateral horns found?",
@@ -20168,7 +23640,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "L3 to S1 only"
    ],
    "answer": 0,
-   "why": "Lateral horns lie in T1 to L2 for sympathetic outflow and in S2 to S4 for parasympathetic outflow."
+   "why": "Lateral horns lie in T1 to L2 for sympathetic outflow and in S2 to S4 for parasympathetic outflow.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/19.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which motor neurons of the anterior horn supply the limbs?",
@@ -20179,7 +23658,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "The central group"
    ],
    "answer": 1,
-   "why": "In the ventral horn the lateral group supplies the limbs; the medial group the trunk, head and neck."
+   "why": "In the ventral horn the lateral group supplies the limbs; the medial group the trunk, head and neck.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/20.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which tract carries pain and temperature?",
@@ -20190,7 +23676,19 @@ SINA.lectures["anat3-spinal-cord"] = {
     "The vestibulospinal tract"
    ],
    "answer": 2,
-   "why": "Ascending: dorsal columns (fine touch, proprioception) and anterolateral spinothalamic tracts (pain, temperature). Descending: corticospinal (voluntary movement) and vestibulospinal (balance, posture)."
+   "why": "Ascending: dorsal columns (fine touch, proprioception) and anterolateral spinothalamic tracts (pain, temperature). Descending: corticospinal (voluntary movement) and vestibulospinal (balance, posture).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/21.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 21
+    },
+    {
+     "src": "files/slides/anat3-spinal-cord/32.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which meningeal space contains CSF?",
@@ -20201,7 +23699,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "The subarachnoid space"
    ],
    "answer": 3,
-   "why": "The meninges are dura, arachnoid and pia from outside in. The subarachnoid space, between arachnoid and pia, holds CSF."
+   "why": "The meninges are dura, arachnoid and pia from outside in. The subarachnoid space, between arachnoid and pia, holds CSF.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/28.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "What is the denticulate ligament?",
@@ -20212,7 +23717,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "A ligament of the vertebral bodies"
    ],
    "answer": 1,
-   "why": "The pia sends lateral connective septa, the denticulate ligament, which insert between the roots and attach to the dural sheath."
+   "why": "The pia sends lateral connective septa, the denticulate ligament, which insert between the roots and attach to the dural sheath.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/29.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which artery gives the anterior and posterior spinal arteries?",
@@ -20223,7 +23735,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "The internal carotid"
    ],
    "answer": 0,
-   "why": "The vertebral artery gives the anterior and posterior spinal arteries; segmental arteries give 31 pairs of radicular branches."
+   "why": "The vertebral artery gives the anterior and posterior spinal arteries; segmental arteries give 31 pairs of radicular branches.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/30.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which structures bound the spinal canal laterally?",
@@ -20234,7 +23753,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "The spinous processes"
    ],
    "answer": 2,
-   "why": "Anteriorly the vertebral bodies, discs and longitudinal ligaments; posteriorly the laminae; laterally the pedicles, which delimit the intervertebral foramina."
+   "why": "Anteriorly the vertebral bodies, discs and longitudinal ligaments; posteriorly the laminae; laterally the pedicles, which delimit the intervertebral foramina.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/26.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "What do the intervertebral foramina transmit?",
@@ -20245,7 +23771,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "CSF"
    ],
    "answer": 0,
-   "why": "The pedicles delimit the intervertebral foramina, through which the spinal nerves leave the canal."
+   "why": "The pedicles delimit the intervertebral foramina, through which the spinal nerves leave the canal.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/26.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which space holds fat and the venous plexus?",
@@ -20256,7 +23789,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     "The epidural space"
    ],
    "answer": 3,
-   "why": "Your professor's own quiz question: the epidural space, outside the dura, contains fat and the venous plexus."
+   "why": "Your professor's own quiz question: the epidural space, outside the dura, contains fat and the venous plexus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/39.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Why is lumbar puncture done below L3?",
@@ -20267,7 +23807,19 @@ SINA.lectures["anat3-spinal-cord"] = {
     "The meninges end at L3"
    ],
    "answer": 1,
-   "why": "In adults the cord ends at L1/L2. Below it, only the cauda equina floats in CSF, and the roots move aside from the needle."
+   "why": "In adults the cord ends at L1/L2. Below it, only the cauda equina floats in CSF, and the roots move aside from the needle.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/08.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 8
+    },
+    {
+     "src": "files/slides/anat3-spinal-cord/14.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "What are the main functions of the spinal cord? (choose all)",
@@ -20281,7 +23833,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     0,
     1
    ],
-   "why": "Conduction, reflex activity and autonomic control."
+   "why": "Conduction, reflex activity and autonomic control.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/31.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Which are ascending (sensory) tracts? (choose all)",
@@ -20295,7 +23854,19 @@ SINA.lectures["anat3-spinal-cord"] = {
     0,
     1
    ],
-   "why": "Ascending: dorsal columns and spinothalamic tracts. Descending: corticospinal and vestibulospinal."
+   "why": "Ascending: dorsal columns and spinothalamic tracts. Descending: corticospinal and vestibulospinal.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/21.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 21
+    },
+    {
+     "src": "files/slides/anat3-spinal-cord/22.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "What does the spinal canal contain? (choose all)",
@@ -20309,7 +23880,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     0,
     1
    ],
-   "why": "The canal contains the cord, meninges, vessels, nerve roots and surrounding fatty tissue. The discs and pedicles form its walls."
+   "why": "The canal contains the cord, meninges, vessels, nerve roots and surrounding fatty tissue. The discs and pedicles form its walls.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/27.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "What features mark a spinal cord compression syndrome? (choose all)",
@@ -20323,7 +23901,14 @@ SINA.lectures["anat3-spinal-cord"] = {
     0,
     1
    ],
-   "why": "Compression is a neurosurgical emergency with a localized lesion syndrome, a sublesional syndrome and a spinal syndrome."
+   "why": "Compression is a neurosurgical emergency with a localized lesion syndrome, a sublesional syndrome and a spinal syndrome.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/35.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -23921,7 +27506,19 @@ SINA.lectures["anat3-diencephalon"] = {
     "The epithalamus"
    ],
    "answer": 0,
-   "why": "Your professor's question. The diencephalon has four parts: epithalamus, thalamus, subthalamus and hypothalamus. The pons belongs to the brainstem."
+   "why": "Your professor's question. The diencephalon has four parts: epithalamus, thalamus, subthalamus and hypothalamus. The pons belongs to the brainstem.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/04.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 4
+    },
+    {
+     "src": "files/slides/anat3-diencephalon/34.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Around which cavity is the diencephalon organised?",
@@ -23932,7 +27529,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "The cerebral aqueduct"
    ],
    "answer": 1,
-   "why": "The diencephalon is the central brain around the third ventricle, above the brainstem and below the corpus callosum and cortex."
+   "why": "The diencephalon is the central brain around the third ventricle, above the brainstem and below the corpus callosum and cortex.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/04.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What joins the two thalami?",
@@ -23943,7 +27547,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "The internal capsule"
    ],
    "answer": 2,
-   "why": "Each thalamus connects to the other via the interthalamic adhesion."
+   "why": "Each thalamus connects to the other via the interthalamic adhesion.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/06.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "What divides the thalamus into three main parts?",
@@ -23954,7 +27565,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "The internal medullary lamina"
    ],
    "answer": 3,
-   "why": "A Y-shaped sheet of white matter, the internal medullary lamina, divides each thalamus into anterior, medial and lateral parts."
+   "why": "A Y-shaped sheet of white matter, the internal medullary lamina, divides each thalamus into anterior, medial and lateral parts.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/07.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What is the pulvinar?",
@@ -23965,7 +27583,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "A part of the pineal gland"
    ],
    "answer": 1,
-   "why": "The pulvinar is the posterior nuclear group, the rearmost part of the thalamus, lateral to the pineal gland."
+   "why": "The pulvinar is the posterior nuclear group, the rearmost part of the thalamus, lateral to the pineal gland.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/12.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which geniculate body relays vision?",
@@ -23976,7 +27601,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "The lateral one (LGB)"
    ],
    "answer": 3,
-   "why": "The LGB receives visual input from the retina via the optic tract and relays it via the optic radiations to the occipital cortex. The MGB relays hearing from the inferior colliculus to the temporal cortex."
+   "why": "The LGB receives visual input from the retina via the optic tract and relays it via the optic radiations to the occipital cortex. The MGB relays hearing from the inferior colliculus to the temporal cortex.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/09.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Where does the medial geniculate body send its output?",
@@ -23987,7 +27619,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "The cerebellum"
    ],
    "answer": 0,
-   "why": "The MGB receives auditory input from the inferior colliculus and projects to the primary auditory cortex in the temporal lobe."
+   "why": "The MGB receives auditory input from the inferior colliculus and projects to the primary auditory cortex in the temporal lobe.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/09.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What does the anterior pole of the thalamus form?",
@@ -23998,7 +27637,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "The front of the midbrain"
    ],
    "answer": 2,
-   "why": "The anterior pole forms the posterior wall of the interventricular foramen of Monro, where five veins join to form the internal cerebral vein."
+   "why": "The anterior pole forms the posterior wall of the interventricular foramen of Monro, where five veins join to form the internal cerebral vein.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/10.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What does the medial wall of each thalamus form?",
@@ -24009,7 +27655,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "Side wall of the third ventricle"
    ],
    "answer": 3,
-   "why": "The medial surfaces of the two thalami form the lateral walls of the third ventricle."
+   "why": "The medial surfaces of the two thalami form the lateral walls of the third ventricle.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/10.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which sensation is NOT filtered by the thalamus?",
@@ -24020,7 +27673,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "Hearing"
    ],
    "answer": 0,
-   "why": "Your professor's question. Olfactory inputs exist but are not filtered; all other sensations are processed in the thalamus before reaching the cortex."
+   "why": "Your professor's question. Olfactory inputs exist but are not filtered; all other sensations are processed in the thalamus before reaching the cortex.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/14.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which artery mainly supplies the thalamus?",
@@ -24031,7 +27691,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "The basilar trunk"
    ],
    "answer": 2,
-   "why": "The thalamus is supplied by branches of the posterior cerebral artery, in four territories: anterior, inferolateral, paramedian and posterior."
+   "why": "The thalamus is supplied by branches of the posterior cerebral artery, in four territories: anterior, inferolateral, paramedian and posterior.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/15.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "What forms the floor of the third ventricle?",
@@ -24042,7 +27709,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "The corpus callosum"
    ],
    "answer": 1,
-   "why": "The hypothalamus lies below the thalamus and makes up the floor of the third ventricle, ending in the infundibulum to the pituitary."
+   "why": "The hypothalamus lies below the thalamus and makes up the floor of the third ventricle, ending in the infundibulum to the pituitary.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/16.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Name the three regions of the hypothalamus.",
@@ -24053,7 +27727,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "Supraoptic, tuber, mammillary"
    ],
    "answer": 3,
-   "why": "The hypothalamus is divided into supraoptic, tuberal and mammillary regions."
+   "why": "The hypothalamus is divided into supraoptic, tuberal and mammillary regions.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/17.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "What is the hypothalamus's most basic function?",
@@ -24064,7 +27745,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "Melatonin secretion"
    ],
    "answer": 2,
-   "why": "It maintains a steady internal state: hunger, thirst, temperature, blood pressure and heart rate. It links the nervous and endocrine systems and controls the stress response."
+   "why": "It maintains a steady internal state: hunger, thirst, temperature, blood pressure and heart rate. It links the nervous and endocrine systems and controls the stress response.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/18.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which structure controls autonomic and endocrine activity?",
@@ -24075,7 +27763,19 @@ SINA.lectures["anat3-diencephalon"] = {
     "The basal ganglia"
    ],
    "answer": 0,
-   "why": "Your professor's question. The hypothalamus interfaces with the pituitary to control endocrine activity and holds autonomic control centres."
+   "why": "Your professor's question. The hypothalamus interfaces with the pituitary to control endocrine activity and holds autonomic control centres.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/16.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 16
+    },
+    {
+     "src": "files/slides/anat3-diencephalon/18.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The pineal gland belongs to which part of the diencephalon?",
@@ -24086,7 +27786,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "The subthalamus"
    ],
    "answer": 1,
-   "why": "Your professor's question. The epithalamus includes the habenula, the stria medullaris and the pineal gland."
+   "why": "Your professor's question. The epithalamus includes the habenula, the stria medullaris and the pineal gland.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/20.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "What does the pineal gland secrete?",
@@ -24097,7 +27804,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "Cortisol"
    ],
    "answer": 2,
-   "why": "Its pinealocytes secrete melatonin in response to darkness, regulating circadian rhythms."
+   "why": "Its pinealocytes secrete melatonin in response to darkness, regulating circadian rhythms.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/20.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Where does the pineal gland sit?",
@@ -24108,7 +27822,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "Between the two superior colliculi"
    ],
    "answer": 3,
-   "why": "A small piriform projection from the back wall of the third ventricle, below the splenium, in the groove between the two superior colliculi."
+   "why": "A small piriform projection from the back wall of the third ventricle, below the splenium, in the groove between the two superior colliculi.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/23.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which disorders are linked to epithalamic dysfunction?",
@@ -24119,7 +27840,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "Hearing loss in both ears"
    ],
    "answer": 1,
-   "why": "Dysfunction of the epithalamus is linked to major depression, schizophrenia and sleep disorders; low melatonin tends to cause mood disorders."
+   "why": "Dysfunction of the epithalamus is linked to major depression, schizophrenia and sleep disorders; low melatonin tends to cause mood disorders.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/25.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "What bounds the subthalamus laterally?",
@@ -24130,7 +27858,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "The third ventricle wall"
    ],
    "answer": 0,
-   "why": "The subthalamus lies below the thalamus and above the midbrain: medially the hypothalamus, laterally the internal capsule, posteriorly the red nucleus and substantia nigra."
+   "why": "The subthalamus lies below the thalamus and above the midbrain: medially the hypothalamus, laterally the internal capsule, posteriorly the red nucleus and substantia nigra.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/26.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "What neurotransmitter do subthalamic nucleus neurons use?",
@@ -24141,7 +27876,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "Acetylcholine"
    ],
    "answer": 2,
-   "why": "The subthalamic nucleus has glutamatergic neurons projecting to the internal globus pallidus, whose GABAergic neurons inhibit the thalamus and so inhibit movement."
+   "why": "The subthalamic nucleus has glutamatergic neurons projecting to the internal globus pallidus, whose GABAergic neurons inhibit the thalamus and so inhibit movement.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/28.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "A lesion of the subthalamic nucleus causes what?",
@@ -24152,7 +27894,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "Cortical blindness"
    ],
    "answer": 0,
-   "why": "Lesions disrupt the inhibition of movement by the internal globus pallidus, producing hemiballismus, wild flinging movements of one side."
+   "why": "Lesions disrupt the inhibition of movement by the internal globus pallidus, producing hemiballismus, wild flinging movements of one side.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/28.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "What are the fields of Forel?",
@@ -24163,7 +27912,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "Motor fibre bundles"
    ],
    "answer": 3,
-   "why": "The fields of Forel are fibre bundles connecting the globus pallidus, thalamus and subthalamic nucleus, important for motor signal transmission."
+   "why": "The fields of Forel are fibre bundles connecting the globus pallidus, thalamus and subthalamic nucleus, important for motor signal transmission.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/27.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Why is the thalamus called the gateway to the cortex?",
@@ -24174,7 +27930,14 @@ SINA.lectures["anat3-diencephalon"] = {
     "It contains the motor cortex"
    ],
    "answer": 1,
-   "why": "Every sensation except smell is filtered in the thalamus before reaching the cortex, so it controls what the cortex receives."
+   "why": "Every sensation except smell is filtered in the thalamus before reaching the cortex, so it controls what the cortex receives.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/35.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Which are the four parts of the diencephalon? (choose all)",
@@ -24188,7 +27951,14 @@ SINA.lectures["anat3-diencephalon"] = {
     0,
     1
    ],
-   "why": "Epithalamus, thalamus, subthalamus and hypothalamus."
+   "why": "Epithalamus, thalamus, subthalamus and hypothalamus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/04.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which functions belong to the thalamus? (choose all)",
@@ -24202,7 +27972,14 @@ SINA.lectures["anat3-diencephalon"] = {
     0,
     1
    ],
-   "why": "The thalamus maintains consciousness and sleep, filters sensory information for the cortex, and modulates motor responses via the basal ganglia."
+   "why": "The thalamus maintains consciousness and sleep, filters sensory information for the cortex, and modulates motor responses via the basal ganglia.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/14.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which structures belong to the epithalamus? (choose all)",
@@ -24216,7 +27993,14 @@ SINA.lectures["anat3-diencephalon"] = {
     0,
     1
    ],
-   "why": "Epithalamus: stria medullaris, posterior commissure, habenular nuclei, pineal body and paraventricular nuclei. The mammillary bodies belong to the hypothalamus."
+   "why": "Epithalamus: stria medullaris, posterior commissure, habenular nuclei, pineal body and paraventricular nuclei. The mammillary bodies belong to the hypothalamus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/21.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "What does the hypothalamus regulate? (choose all)",
@@ -24230,7 +28014,14 @@ SINA.lectures["anat3-diencephalon"] = {
     0,
     1
    ],
-   "why": "It controls hunger, thirst, body temperature, blood pressure, heart rate, sexual activity and the stress response."
+   "why": "It controls hunger, thirst, body temperature, blood pressure, heart rate, sexual activity and the stress response.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/18.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -26246,7 +30037,14 @@ SINA.lectures["anat3-pns"] = {
     "The brainstem and cerebellum"
    ],
    "answer": 0,
-   "why": "The PNS comprises all neural structures outside the brain and spinal cord: cranial nerves, spinal nerves, and their branches, plexuses and ganglia."
+   "why": "The PNS comprises all neural structures outside the brain and spinal cord: cranial nerves, spinal nerves, and their branches, plexuses and ganglia.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/02.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What do afferent nerves do?",
@@ -26257,7 +30055,14 @@ SINA.lectures["anat3-pns"] = {
     "Connect the two hemispheres"
    ],
    "answer": 1,
-   "why": "Afferent nerves bring information to the CNS; efferent nerves carry signals from the CNS to organs and muscles."
+   "why": "Afferent nerves bring information to the CNS; efferent nerves carry signals from the CNS to organs and muscles.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/06.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which cranial nerve controls the muscles of mastication?",
@@ -26268,7 +30073,14 @@ SINA.lectures["anat3-pns"] = {
     "The glossopharyngeal nerve"
    ],
    "answer": 2,
-   "why": "CN V is mixed: sensation of the face and motor to the muscles of mastication. CN VII moves the muscles of facial expression."
+   "why": "CN V is mixed: sensation of the face and motor to the muscles of mastication. CN VII moves the muscles of facial expression.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/08.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which cranial nerves carry parasympathetic fibres that start salivation?",
@@ -26279,7 +30091,14 @@ SINA.lectures["anat3-pns"] = {
     "VII and IX"
    ],
    "answer": 3,
-   "why": "III, VII and IX contact autonomic ganglia: III for pupillary constriction, VII and IX for salivation. X targets thoracic and upper abdominal ganglia."
+   "why": "III, VII and IX contact autonomic ganglia: III for pupillary constriction, VII and IX for salivation. X targets thoracic and upper abdominal ganglia.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/09.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Through what do olfactory axons pass?",
@@ -26290,7 +30109,14 @@ SINA.lectures["anat3-pns"] = {
     "The superior orbital fissure"
    ],
    "answer": 1,
-   "why": "Olfactory axons from the olfactory epithelium pass through the cribriform plate and synapse in the olfactory bulbs."
+   "why": "Olfactory axons from the olfactory epithelium pass through the cribriform plate and synapse in the olfactory bulbs.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/10.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What forms the optic nerve?",
@@ -26301,7 +30127,14 @@ SINA.lectures["anat3-pns"] = {
     "The ganglion cell axons"
    ],
    "answer": 3,
-   "why": "Photoreceptors convert light; bipolar, ganglion and horizontal cells process it; ganglion cell axons form the optic nerve."
+   "why": "Photoreceptors convert light; bipolar, ganglion and horizontal cells process it; ganglion cell axons form the optic nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/11.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What does a lesion of the right optic tract cause?",
@@ -26312,7 +30145,14 @@ SINA.lectures["anat3-pns"] = {
     "Blindness of the left eye"
    ],
    "answer": 0,
-   "why": "Each optic tract carries the contralateral visual field of both eyes, so an optic tract lesion gives a contralateral homonymous hemianopia."
+   "why": "Each optic tract carries the contralateral visual field of both eyes, so an optic tract lesion gives a contralateral homonymous hemianopia.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/13.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Where is the primary visual cortex?",
@@ -26323,7 +30163,14 @@ SINA.lectures["anat3-pns"] = {
     "In the insula"
    ],
    "answer": 2,
-   "why": "The primary visual cortex, V1 or area 17, lies around the calcarine sulcus of the occipital lobe."
+   "why": "The primary visual cortex, V1 or area 17, lies around the calcarine sulcus of the occipital lobe.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/14.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which muscle does the trochlear nerve supply?",
@@ -26334,7 +30181,14 @@ SINA.lectures["anat3-pns"] = {
     "The superior oblique"
    ],
    "answer": 3,
-   "why": "CN III supplies the superior, inferior and medial recti, the inferior oblique and levator palpebrae superioris; CN IV the superior oblique; CN VI the lateral rectus."
+   "why": "CN III supplies the superior, inferior and medial recti, the inferior oblique and levator palpebrae superioris; CN IV the superior oblique; CN VI the lateral rectus.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/16.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Where is the trigeminal ganglion?",
@@ -26345,7 +30199,14 @@ SINA.lectures["anat3-pns"] = {
     "In the internal acoustic meatus"
    ],
    "answer": 0,
-   "why": "The sensory fibres synapse in the large trigeminal (Gasserian) ganglion in Meckel's cave."
+   "why": "The sensory fibres synapse in the large trigeminal (Gasserian) ganglion in Meckel's cave.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/18.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Through which opening does the maxillary division pass?",
@@ -26356,7 +30217,14 @@ SINA.lectures["anat3-pns"] = {
     "The foramen spinosum"
    ],
    "answer": 2,
-   "why": "Ophthalmic (sensory): superior orbital fissure. Maxillary (sensory): foramen rotundum. Mandibular (sensory and motor): foramen ovale."
+   "why": "Ophthalmic (sensory): superior orbital fissure. Maxillary (sensory): foramen rotundum. Mandibular (sensory and motor): foramen ovale.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/18.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Why does a stroke spare the upper face?",
@@ -26367,7 +30235,14 @@ SINA.lectures["anat3-pns"] = {
     "It lies outside the facial nucleus"
    ],
    "answer": 1,
-   "why": "The upper face receives bilateral upper motor neuron input; the lower face only contralateral input. So a supranuclear lesion weakens only the lower face."
+   "why": "The upper face receives bilateral upper motor neuron input; the lower face only contralateral input. So a supranuclear lesion weakens only the lower face.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/19.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "What is the narrowest part of the facial canal?",
@@ -26378,7 +30253,14 @@ SINA.lectures["anat3-pns"] = {
     "The labyrinthine segment"
    ],
    "answer": 3,
-   "why": "Three segments in the temporal bone: labyrinthine (narrowest, to the geniculate ganglion), tympanic (above the oval window) and mastoid (giving the nerve to stapedius and chorda tympani)."
+   "why": "Three segments in the temporal bone: labyrinthine (narrowest, to the geniculate ganglion), tympanic (above the oval window) and mastoid (giving the nerve to stapedius and chorda tympani).",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/20.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Through which opening does the facial nerve leave the skull?",
@@ -26389,7 +30271,14 @@ SINA.lectures["anat3-pns"] = {
     "The internal acoustic meatus"
    ],
    "answer": 2,
-   "why": "It exits via the stylomastoid foramen, enters the parotid gland and divides into its five purely motor branches."
+   "why": "It exits via the stylomastoid foramen, enters the parotid gland and divides into its five purely motor branches.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/21.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "How many pairs of spinal nerves are there?",
@@ -26400,7 +30289,14 @@ SINA.lectures["anat3-pns"] = {
     "33"
    ],
    "answer": 0,
-   "why": "8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 1 coccygeal, each leaving through the intervertebral foramen at its level."
+   "why": "8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 1 coccygeal, each leaving through the intervertebral foramen at its level.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/24.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which plexus gives the phrenic nerve?",
@@ -26411,7 +30307,14 @@ SINA.lectures["anat3-pns"] = {
     "The sacral plexus"
    ],
    "answer": 1,
-   "why": "The cervical plexus (C1 to C5) supplies the posterior neck and head and gives the phrenic nerve to the diaphragm."
+   "why": "The cervical plexus (C1 to C5) supplies the posterior neck and head and gives the phrenic nerve to the diaphragm.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/26.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "From which roots does the brachial plexus form?",
@@ -26422,7 +30325,14 @@ SINA.lectures["anat3-pns"] = {
     "L4 to S4"
    ],
    "answer": 2,
-   "why": "The brachial plexus (C4 to T1) gives the radial, axillary, ulnar and median nerves of the arm."
+   "why": "The brachial plexus (C4 to T1) gives the radial, axillary, ulnar and median nerves of the arm.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/26.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which is the major nerve of the lumbar plexus?",
@@ -26433,7 +30343,14 @@ SINA.lectures["anat3-pns"] = {
     "The femoral nerve"
    ],
    "answer": 3,
-   "why": "The lumbar plexus supplies the pelvis and anterior leg; its major nerve is the femoral, whose saphenous branch runs down the anterior lower leg."
+   "why": "The lumbar plexus supplies the pelvis and anterior leg; its major nerve is the femoral, whose saphenous branch runs down the anterior lower leg.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/26.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Where does the sciatic nerve leave the pelvis?",
@@ -26444,7 +30361,14 @@ SINA.lectures["anat3-pns"] = {
     "The femoral canal"
    ],
    "answer": 1,
-   "why": "The largest and longest nerve, from L4 to S3, it exits through the greater sciatic foramen, usually below piriformis."
+   "why": "The largest and longest nerve, from L4 to S3, it exits through the greater sciatic foramen, usually below piriformis.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/27.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Where does the sciatic nerve usually divide?",
@@ -26455,7 +30379,14 @@ SINA.lectures["anat3-pns"] = {
     "In the pelvis"
    ],
    "answer": 0,
-   "why": "It descends in the posterior thigh on adductor magnus, supplying the hamstrings, and divides near the popliteal fossa into the tibial and common fibular nerves."
+   "why": "It descends in the posterior thigh on adductor magnus, supplying the hamstrings, and divides near the popliteal fossa into the tibial and common fibular nerves.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/27.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "What is the most common cause of sciatica?",
@@ -26466,7 +30397,14 @@ SINA.lectures["anat3-pns"] = {
     "Diabetic neuropathy"
    ],
    "answer": 2,
-   "why": "The most common cause of sciatica is a bulging or herniated intervertebral disc compressing the nerve roots."
+   "why": "The most common cause of sciatica is a bulging or herniated intervertebral disc compressing the nerve roots.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/27.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which receptor do somatic motor neurons act on?",
@@ -26477,7 +30415,14 @@ SINA.lectures["anat3-pns"] = {
     "GABA receptors"
    ],
    "answer": 0,
-   "why": "A single somatic motor neuron runs from the ventral horn to skeletal muscle, releasing acetylcholine onto nicotinic receptors, with no ganglion in between."
+   "why": "A single somatic motor neuron runs from the ventral horn to skeletal muscle, releasing acetylcholine onto nicotinic receptors, with no ganglion in between.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/31.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Which reflex is monosynaptic?",
@@ -26488,7 +30433,14 @@ SINA.lectures["anat3-pns"] = {
     "The patellar reflex"
    ],
    "answer": 3,
-   "why": "The knee jerk: quadriceps stretch activates the muscle spindle, the sensory neuron synapses directly on the motor neuron, and the muscle contracts. It tests spinal segment integrity."
+   "why": "The knee jerk: quadriceps stretch activates the muscle spindle, the sensory neuron synapses directly on the motor neuron, and the muscle contracts. It tests spinal segment integrity.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/33.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Where does the sympathetic outflow originate?",
@@ -26499,7 +30451,14 @@ SINA.lectures["anat3-pns"] = {
     "The dorsal root ganglia"
    ],
    "answer": 1,
-   "why": "Sympathetic: thoracolumbar, from the lateral horn of T1 to L2. Parasympathetic: craniosacral, from brainstem nuclei (III, VII, IX, X) and S2 to S4."
+   "why": "Sympathetic: thoracolumbar, from the lateral horn of T1 to L2. Parasympathetic: craniosacral, from brainstem nuclei (III, VII, IX, X) and S2 to S4.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/39.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which are sympathetic effects? (choose all)",
@@ -26513,7 +30472,14 @@ SINA.lectures["anat3-pns"] = {
     0,
     1
    ],
-   "why": "Sympathetic: faster heart, mydriasis, bronchodilation, reduced gut activity, sweating, skin and gut vasoconstriction, glucose release. Gut motility and bladder contraction are parasympathetic."
+   "why": "Sympathetic: faster heart, mydriasis, bronchodilation, reduced gut activity, sweating, skin and gut vasoconstriction, glucose release. Gut motility and bladder contraction are parasympathetic.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/38.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which cranial nerves carry parasympathetic fibres? (choose all)",
@@ -26527,7 +30493,14 @@ SINA.lectures["anat3-pns"] = {
     0,
     1
    ],
-   "why": "Parasympathetic cranial outflow: III, VII, IX and X."
+   "why": "Parasympathetic cranial outflow: III, VII, IX and X.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/39.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which are signs of Horner's syndrome? (choose all)",
@@ -26541,7 +30514,14 @@ SINA.lectures["anat3-pns"] = {
     0,
     1
    ],
-   "why": "A lesion of the sympathetic pathway causes ptosis, miosis and anhidrosis."
+   "why": "A lesion of the sympathetic pathway causes ptosis, miosis and anhidrosis.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/43.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Which plexuses make up the enteric nervous system? (choose all)",
@@ -26555,7 +30535,14 @@ SINA.lectures["anat3-pns"] = {
     0,
     1
    ],
-   "why": "The myenteric plexus controls motility; the submucosal plexus regulates secretion and blood flow."
+   "why": "The myenteric plexus controls motility; the submucosal plexus regulates secretion and blood flow.",
+   "slides": [
+    {
+     "src": "files/slides/anat3-pns/41.jpg",
+     "lec": "Anatomy of the peripheral nervous system",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",

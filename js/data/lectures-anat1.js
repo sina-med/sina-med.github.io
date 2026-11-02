@@ -220,7 +220,14 @@ SINA.lectures["anat1-upper-skeleton"] = {
     "Clavicle and sternum"
    ],
    "answer": 0,
-   "why": "It links the limb to the thorax."
+   "why": "It links the limb to the thorax.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-upper-skeleton/02.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The clavicle articulates laterally with the:",
@@ -231,7 +238,14 @@ SINA.lectures["anat1-upper-skeleton"] = {
     "Glenoid"
    ],
    "answer": 0,
-   "why": "Medially with the sternum."
+   "why": "Medially with the sternum.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-upper-skeleton/02.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The deltoid inserts on the clavicle's:",
@@ -242,7 +256,14 @@ SINA.lectures["anat1-upper-skeleton"] = {
     "Medial two-thirds"
    ],
    "answer": 1,
-   "why": "Pectoralis major takes the medial two-thirds."
+   "why": "Pectoralis major takes the medial two-thirds.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-upper-skeleton/05.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The spine of the scapula ends laterally in the:",
@@ -253,7 +274,14 @@ SINA.lectures["anat1-upper-skeleton"] = {
     "Inferior angle"
    ],
    "answer": 0,
-   "why": "Which meets the clavicle."
+   "why": "Which meets the clavicle.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-upper-skeleton/03.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which muscles attach to the coracoid process?",
@@ -264,7 +292,14 @@ SINA.lectures["anat1-upper-skeleton"] = {
     "PMi, CB, biceps short head"
    ],
    "answer": 3,
-   "why": "Three muscles."
+   "why": "Three muscles.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-upper-skeleton/03.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The long head of the triceps arises from the:",
@@ -275,7 +310,14 @@ SINA.lectures["anat1-upper-skeleton"] = {
     "Acromion"
    ],
    "answer": 1,
-   "why": "Biceps long head: supraglenoid."
+   "why": "Biceps long head: supraglenoid.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-upper-skeleton/03.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which muscle inserts on the lesser tubercle of the humerus?",
@@ -286,7 +328,14 @@ SINA.lectures["anat1-upper-skeleton"] = {
     "Supraspinatus"
    ],
    "answer": 1,
-   "why": "The others use the greater tubercle."
+   "why": "The others use the greater tubercle.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-upper-skeleton/04.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The long head of the biceps tendon runs in the:",
@@ -297,7 +346,14 @@ SINA.lectures["anat1-upper-skeleton"] = {
     "Bicipital groove"
    ],
    "answer": 3,
-   "why": "Between the tubercles."
+   "why": "Between the tubercles.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-upper-skeleton/04.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The radial nerve runs in the:",
@@ -308,7 +364,14 @@ SINA.lectures["anat1-upper-skeleton"] = {
     "Olecranon fossa"
    ],
    "answer": 1,
-   "why": "With the deep brachial vessels."
+   "why": "With the deep brachial vessels.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-upper-skeleton/04.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The capitulum articulates with the:",
@@ -319,7 +382,14 @@ SINA.lectures["anat1-upper-skeleton"] = {
     "Scaphoid"
    ],
    "answer": 2,
-   "why": "The trochlea articulates with the ulna."
+   "why": "The trochlea articulates with the ulna.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-upper-skeleton/06.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Flexor muscles of the forearm originate from the:",
@@ -330,7 +400,14 @@ SINA.lectures["anat1-upper-skeleton"] = {
     "Medial epicondyle"
    ],
    "answer": 3,
-   "why": "Extensors: lateral epicondyle."
+   "why": "Extensors: lateral epicondyle.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-upper-skeleton/05.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The biceps brachii inserts on the:",
@@ -341,7 +418,19 @@ SINA.lectures["anat1-upper-skeleton"] = {
     "Radial tuberosity"
    ],
    "answer": 3,
-   "why": "Forearm flexor and supinator."
+   "why": "Forearm flexor and supinator.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-upper-skeleton/05.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 5
+    },
+    {
+     "src": "files/slides/anat1-upper-skeleton/06.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "How many carpal bones are there?",
@@ -363,7 +452,19 @@ SINA.lectures["anat1-upper-skeleton"] = {
     "Posterior"
    ],
    "answer": 1,
-   "why": "Ulna is medial."
+   "why": "Ulna is medial.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-upper-skeleton/05.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 5
+    },
+    {
+     "src": "files/slides/anat1-upper-skeleton/06.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -785,7 +886,14 @@ SINA.lectures["anat1-shoulder"] = {
     "Pectoralis major edge"
    ],
    "answer": 3,
-   "why": "Superior: the clavicle."
+   "why": "Superior: the clavicle.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-shoulder/02.jpg",
+     "lec": "The shoulder: pectoral region and axilla",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Which bony point is palpable at the top of the deltopectoral groove?",
@@ -807,7 +915,14 @@ SINA.lectures["anat1-shoulder"] = {
     "Quadrangular pyramid"
    ],
    "answer": 3,
-   "why": "Four walls."
+   "why": "Four walls.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-shoulder/03.jpg",
+     "lec": "The shoulder: pectoral region and axilla",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Pectoralis major performs:",
@@ -818,7 +933,14 @@ SINA.lectures["anat1-shoulder"] = {
     "Elbow flexion"
    ],
    "answer": 1,
-   "why": "Innervated by pectoral nerves."
+   "why": "Innervated by pectoral nerves.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-shoulder/03.jpg",
+     "lec": "The shoulder: pectoral region and axilla",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Pectoralis minor inserts on the:",
@@ -829,7 +951,14 @@ SINA.lectures["anat1-shoulder"] = {
     "Humerus"
    ],
    "answer": 1,
-   "why": "From ribs 3-5."
+   "why": "From ribs 3-5.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-shoulder/04.jpg",
+     "lec": "The shoulder: pectoral region and axilla",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which structure pierces the clavipectoral fascia?",
@@ -840,7 +969,14 @@ SINA.lectures["anat1-shoulder"] = {
     "Basilic vein"
    ],
    "answer": 2,
-   "why": "Also the thoracoacromial artery."
+   "why": "Also the thoracoacromial artery.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-shoulder/04.jpg",
+     "lec": "The shoulder: pectoral region and axilla",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The medial wall of the axilla is formed by the:",
@@ -851,7 +987,14 @@ SINA.lectures["anat1-shoulder"] = {
     "Coracobrachialis"
    ],
    "answer": 1,
-   "why": "Innervated by the long thoracic nerve."
+   "why": "Innervated by the long thoracic nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-shoulder/05.jpg",
+     "lec": "The shoulder: pectoral region and axilla",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Damage to the long thoracic nerve paralyses the:",
@@ -862,7 +1005,14 @@ SINA.lectures["anat1-shoulder"] = {
     "Biceps"
    ],
    "answer": 0,
-   "why": "Winged scapula."
+   "why": "Winged scapula.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-shoulder/05.jpg",
+     "lec": "The shoulder: pectoral region and axilla",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The musculocutaneous nerve pierces the:",
@@ -873,7 +1023,14 @@ SINA.lectures["anat1-shoulder"] = {
     "Deltoid"
    ],
    "answer": 1,
-   "why": "It supplies the elbow flexors."
+   "why": "It supplies the elbow flexors.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-shoulder/06.jpg",
+     "lec": "The shoulder: pectoral region and axilla",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The axillary artery becomes the brachial artery at the:",
@@ -884,7 +1041,14 @@ SINA.lectures["anat1-shoulder"] = {
     "First rib"
    ],
    "answer": 0,
-   "why": "Continuation of the subclavian."
+   "why": "Continuation of the subclavian.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-shoulder/06.jpg",
+     "lec": "The shoulder: pectoral region and axilla",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The axillary vein lies:",
@@ -895,7 +1059,14 @@ SINA.lectures["anat1-shoulder"] = {
     "Medial to the artery"
    ],
    "answer": 3,
-   "why": "Continues as the subclavian vein."
+   "why": "Continues as the subclavian vein.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-shoulder/06.jpg",
+     "lec": "The shoulder: pectoral region and axilla",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The ulnar nerve arises from the:",
@@ -906,7 +1077,14 @@ SINA.lectures["anat1-shoulder"] = {
     "Posterior cord"
    ],
    "answer": 0,
-   "why": "With the medial root of the median."
+   "why": "With the medial root of the median.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-shoulder/06.jpg",
+     "lec": "The shoulder: pectoral region and axilla",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The posterior cord gives the:",
@@ -917,7 +1095,14 @@ SINA.lectures["anat1-shoulder"] = {
     "Musculocutaneous nerve"
    ],
    "answer": 1,
-   "why": "Axillary = circumflex nerve."
+   "why": "Axillary = circumflex nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-shoulder/06.jpg",
+     "lec": "The shoulder: pectoral region and axilla",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Axillary lymph nodes drain:",
@@ -1324,7 +1509,14 @@ SINA.lectures["anat1-scapular"] = {
     "Thoracodorsal nerve"
    ],
    "answer": 2,
-   "why": "Elevates the shoulders."
+   "why": "Elevates the shoulders.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-scapular/02.jpg",
+     "lec": "The scapular region and deltoid",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The latissimus dorsi performs:",
@@ -1335,7 +1527,19 @@ SINA.lectures["anat1-scapular"] = {
     "Abduction"
    ],
    "answer": 1,
-   "why": "Thoracodorsal nerve."
+   "why": "Thoracodorsal nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-scapular/03.jpg",
+     "lec": "The scapular region and deltoid",
+     "n": 3
+    },
+    {
+     "src": "files/slides/anat1-scapular/05.jpg",
+     "lec": "The scapular region and deltoid",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which muscle initiates abduction of the shoulder?",
@@ -1346,7 +1550,14 @@ SINA.lectures["anat1-scapular"] = {
     "Rhomboid"
    ],
    "answer": 0,
-   "why": "Inserts on the top of the greater tubercle."
+   "why": "Inserts on the top of the greater tubercle.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-scapular/04.jpg",
+     "lec": "The scapular region and deltoid",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Infraspinatus performs:",
@@ -1357,7 +1568,19 @@ SINA.lectures["anat1-scapular"] = {
     "Medial rotation"
    ],
    "answer": 1,
-   "why": "Suprascapular nerve."
+   "why": "Suprascapular nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-scapular/03.jpg",
+     "lec": "The scapular region and deltoid",
+     "n": 3
+    },
+    {
+     "src": "files/slides/anat1-scapular/04.jpg",
+     "lec": "The scapular region and deltoid",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Teres minor is innervated by the:",
@@ -1368,7 +1591,19 @@ SINA.lectures["anat1-scapular"] = {
     "Axillary nerve"
    ],
    "answer": 3,
-   "why": "Like the deltoid."
+   "why": "Like the deltoid.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-scapular/06.jpg",
+     "lec": "The scapular region and deltoid",
+     "n": 6
+    },
+    {
+     "src": "files/slides/anat1-scapular/07.jpg",
+     "lec": "The scapular region and deltoid",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Rhomboid muscles:",
@@ -1379,7 +1614,14 @@ SINA.lectures["anat1-scapular"] = {
     "Abduct the arm"
    ],
    "answer": 2,
-   "why": "Dorsal scapular nerve."
+   "why": "Dorsal scapular nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-scapular/05.jpg",
+     "lec": "The scapular region and deltoid",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Levator scapulae arises from:",
@@ -1390,7 +1632,14 @@ SINA.lectures["anat1-scapular"] = {
     "Ribs 1-8"
    ],
    "answer": 0,
-   "why": "Inserts on the superomedial angle."
+   "why": "Inserts on the superomedial angle.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-scapular/05.jpg",
+     "lec": "The scapular region and deltoid",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The quadrangular space transmits the:",
@@ -1401,7 +1650,14 @@ SINA.lectures["anat1-scapular"] = {
     "Ulnar nerve"
    ],
    "answer": 2,
-   "why": "Lateral to the long head of triceps."
+   "why": "Lateral to the long head of triceps.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-scapular/06.jpg",
+     "lec": "The scapular region and deltoid",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which structure divides the space between teres minor and major?",
@@ -1412,7 +1668,14 @@ SINA.lectures["anat1-scapular"] = {
     "Long head of triceps"
    ],
    "answer": 3,
-   "why": "From the infraglenoid tubercle."
+   "why": "From the infraglenoid tubercle.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-scapular/06.jpg",
+     "lec": "The scapular region and deltoid",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The radial nerve enters the posterior arm through the:",
@@ -1423,7 +1686,14 @@ SINA.lectures["anat1-scapular"] = {
     "Quadrangular space"
    ],
    "answer": 1,
-   "why": "Humerotricipital fissure."
+   "why": "Humerotricipital fissure.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-scapular/06.jpg",
+     "lec": "The scapular region and deltoid",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The deltoid inserts on the:",
@@ -1434,7 +1704,14 @@ SINA.lectures["anat1-scapular"] = {
     "Acromion"
    ],
    "answer": 0,
-   "why": "Main abductor."
+   "why": "Main abductor.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-scapular/07.jpg",
+     "lec": "The scapular region and deltoid",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Damage to the axillary nerve (e.g. surgical neck fracture) weakens:",
@@ -1445,7 +1722,14 @@ SINA.lectures["anat1-scapular"] = {
     "Shoulder abduction (deltoid)"
    ],
    "answer": 3,
-   "why": "Also teres minor."
+   "why": "Also teres minor.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-scapular/07.jpg",
+     "lec": "The scapular region and deltoid",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1824,7 +2108,19 @@ SINA.lectures["anat1-arm"] = {
     "The humerus only"
    ],
    "answer": 1,
-   "why": "Anterior and posterior."
+   "why": "Anterior and posterior.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-arm/03.jpg",
+     "lec": "The arm: compartments and brachial canal",
+     "n": 3
+    },
+    {
+     "src": "files/slides/anat1-arm/04.jpg",
+     "lec": "The arm: compartments and brachial canal",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The brachialis inserts on the:",
@@ -1835,7 +2131,14 @@ SINA.lectures["anat1-arm"] = {
     "Coracoid"
    ],
    "answer": 0,
-   "why": "Pure elbow flexor."
+   "why": "Pure elbow flexor.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-arm/03.jpg",
+     "lec": "The arm: compartments and brachial canal",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The biceps brachii inserts on the:",
@@ -1846,7 +2149,14 @@ SINA.lectures["anat1-arm"] = {
     "Olecranon"
    ],
    "answer": 2,
-   "why": "Flexion and supination."
+   "why": "Flexion and supination.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-arm/02.jpg",
+     "lec": "The arm: compartments and brachial canal",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The anterior arm muscles are innervated by the:",
@@ -1857,7 +2167,19 @@ SINA.lectures["anat1-arm"] = {
     "Ulnar nerve"
    ],
    "answer": 0,
-   "why": "Nerve of elbow flexion."
+   "why": "Nerve of elbow flexion.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-arm/02.jpg",
+     "lec": "The arm: compartments and brachial canal",
+     "n": 2
+    },
+    {
+     "src": "files/slides/anat1-arm/03.jpg",
+     "lec": "The arm: compartments and brachial canal",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The triceps brachii inserts on the:",
@@ -1868,7 +2190,14 @@ SINA.lectures["anat1-arm"] = {
     "Olecranon"
    ],
    "answer": 3,
-   "why": "Elbow extension."
+   "why": "Elbow extension.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-arm/03.jpg",
+     "lec": "The arm: compartments and brachial canal",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The lateral head of triceps arises:",
@@ -1879,7 +2208,14 @@ SINA.lectures["anat1-arm"] = {
     "From the coracoid"
    ],
    "answer": 2,
-   "why": "Medial head: below."
+   "why": "Medial head: below.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-arm/03.jpg",
+     "lec": "The arm: compartments and brachial canal",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which artery accompanies the radial nerve in the radial groove?",
@@ -1890,7 +2226,19 @@ SINA.lectures["anat1-arm"] = {
     "Brachial artery"
    ],
    "answer": 2,
-   "why": "A branch of the brachial artery."
+   "why": "A branch of the brachial artery.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-arm/03.jpg",
+     "lec": "The arm: compartments and brachial canal",
+     "n": 3
+    },
+    {
+     "src": "files/slides/anat1-arm/04.jpg",
+     "lec": "The arm: compartments and brachial canal",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which is NOT in the brachial canal?",
@@ -1901,7 +2249,14 @@ SINA.lectures["anat1-arm"] = {
     "Radial nerve"
    ],
    "answer": 3,
-   "why": "The radial nerve is posterior."
+   "why": "The radial nerve is posterior.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-arm/05.jpg",
+     "lec": "The arm: compartments and brachial canal",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The brachial artery divides at the elbow into:",
@@ -1912,7 +2267,19 @@ SINA.lectures["anat1-arm"] = {
     "Anterior and posterior interosseous"
    ],
    "answer": 0,
-   "why": "In the cubital fossa."
+   "why": "In the cubital fossa.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-arm/04.jpg",
+     "lec": "The arm: compartments and brachial canal",
+     "n": 4
+    },
+    {
+     "src": "files/slides/anat1-arm/05.jpg",
+     "lec": "The arm: compartments and brachial canal",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "In the distal arm, the ulnar nerve passes:",
@@ -1923,7 +2290,14 @@ SINA.lectures["anat1-arm"] = {
     "Behind the medial intermuscular septum"
    ],
    "answer": 3,
-   "why": "Toward the medial epicondyle."
+   "why": "Toward the medial epicondyle.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-arm/05.jpg",
+     "lec": "The arm: compartments and brachial canal",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2287,7 +2661,14 @@ SINA.lectures["anat1-cubital-fold"] = {
     "10 cm"
    ],
    "answer": 1,
-   "why": "Between the epicondyles laterally."
+   "why": "Between the epicondyles laterally.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-cubital-fold/02.jpg",
+     "lec": "The cubital fold (antecubital fossa)",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Which muscle is the most lateral of the medial epicondylar group?",
@@ -2309,7 +2690,19 @@ SINA.lectures["anat1-cubital-fold"] = {
     "Flexor carpi ulnaris"
    ],
    "answer": 2,
-   "why": "With ECRL and ECRB."
+   "why": "With ECRL and ECRB.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-cubital-fold/02.jpg",
+     "lec": "The cubital fold (antecubital fossa)",
+     "n": 2
+    },
+    {
+     "src": "files/slides/anat1-cubital-fold/03.jpg",
+     "lec": "The cubital fold (antecubital fossa)",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The medial bicipital groove contains the:",
@@ -2320,7 +2713,14 @@ SINA.lectures["anat1-cubital-fold"] = {
     "Radial nerve"
    ],
    "answer": 0,
-   "why": "Closed by the bicipital aponeurosis."
+   "why": "Closed by the bicipital aponeurosis.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-cubital-fold/02.jpg",
+     "lec": "The cubital fold (antecubital fossa)",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The brachial artery divides about:",
@@ -2331,7 +2731,14 @@ SINA.lectures["anat1-cubital-fold"] = {
     "2 cm below the joint"
    ],
    "answer": 3,
-   "why": "Into radial and ulnar arteries."
+   "why": "Into radial and ulnar arteries.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-cubital-fold/02.jpg",
+     "lec": "The cubital fold (antecubital fossa)",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The radial nerve at the elbow runs in the:",
@@ -2342,7 +2749,19 @@ SINA.lectures["anat1-cubital-fold"] = {
     "Medial bicipital groove"
    ],
    "answer": 2,
-   "why": "Then divides."
+   "why": "Then divides.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-cubital-fold/02.jpg",
+     "lec": "The cubital fold (antecubital fossa)",
+     "n": 2
+    },
+    {
+     "src": "files/slides/anat1-cubital-fold/03.jpg",
+     "lec": "The cubital fold (antecubital fossa)",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The deep (motor) branch of the radial nerve pierces the:",
@@ -2353,7 +2772,14 @@ SINA.lectures["anat1-cubital-fold"] = {
     "Brachialis"
    ],
    "answer": 2,
-   "why": "Supplies the posterior forearm."
+   "why": "Supplies the posterior forearm.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-cubital-fold/03.jpg",
+     "lec": "The cubital fold (antecubital fossa)",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Where is the brachial pulse palpated at the elbow?",
@@ -2364,7 +2790,19 @@ SINA.lectures["anat1-cubital-fold"] = {
     "Medial bicipital groove"
    ],
    "answer": 3,
-   "why": "Medial to the biceps tendon."
+   "why": "Medial to the biceps tendon.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-cubital-fold/02.jpg",
+     "lec": "The cubital fold (antecubital fossa)",
+     "n": 2
+    },
+    {
+     "src": "files/slides/anat1-cubital-fold/03.jpg",
+     "lec": "The cubital fold (antecubital fossa)",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The superficial veins of the cubital fold continue as:",
@@ -2375,7 +2813,14 @@ SINA.lectures["anat1-cubital-fold"] = {
     "Brachial veins only"
    ],
    "answer": 0,
-   "why": "'M'-shaped network."
+   "why": "'M'-shaped network.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-cubital-fold/03.jpg",
+     "lec": "The cubital fold (antecubital fossa)",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which nerve passes behind the elbow in the epicondylo-olecranon groove?",
@@ -2386,7 +2831,14 @@ SINA.lectures["anat1-cubital-fold"] = {
     "Ulnar"
    ],
    "answer": 3,
-   "why": "The 'funny bone'."
+   "why": "The 'funny bone'.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-cubital-fold/04.jpg",
+     "lec": "The cubital fold (antecubital fossa)",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2765,7 +3217,14 @@ SINA.lectures["anat1-forearm"] = {
     "Radius"
    ],
    "answer": 1,
-   "why": "Supplied by the ulnar nerve."
+   "why": "Supplied by the ulnar nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-forearm/02.jpg",
+     "lec": "Topographic anatomy of the forearm",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Flexor digitorum superficialis inserts on the:",
@@ -2776,7 +3235,19 @@ SINA.lectures["anat1-forearm"] = {
     "Distal phalanges"
    ],
    "answer": 2,
-   "why": "FDP inserts on distal phalanges."
+   "why": "FDP inserts on distal phalanges.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-forearm/03.jpg",
+     "lec": "Topographic anatomy of the forearm",
+     "n": 3
+    },
+    {
+     "src": "files/slides/anat1-forearm/04.jpg",
+     "lec": "Topographic anatomy of the forearm",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The median nerve in the forearm passes:",
@@ -2787,7 +3258,14 @@ SINA.lectures["anat1-forearm"] = {
     "Under the FDS arch"
    ],
    "answer": 3,
-   "why": "Mid-forearm."
+   "why": "Mid-forearm.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-forearm/03.jpg",
+     "lec": "Topographic anatomy of the forearm",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which part of flexor digitorum profundus is supplied by the ulnar nerve?",
@@ -2798,7 +3276,19 @@ SINA.lectures["anat1-forearm"] = {
     "Fingers 4-5"
    ],
    "answer": 3,
-   "why": "Median for 2-3."
+   "why": "Median for 2-3.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-forearm/04.jpg",
+     "lec": "Topographic anatomy of the forearm",
+     "n": 4
+    },
+    {
+     "src": "files/slides/anat1-forearm/05.jpg",
+     "lec": "Topographic anatomy of the forearm",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which forearm muscles are NOT supplied by the median nerve?",
@@ -2809,7 +3299,14 @@ SINA.lectures["anat1-forearm"] = {
     "Pronator teres and FDS"
    ],
    "answer": 1,
-   "why": "Ulnar nerve."
+   "why": "Ulnar nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-forearm/05.jpg",
+     "lec": "Topographic anatomy of the forearm",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The radial pulse is felt between the tendons of:",
@@ -2820,7 +3317,14 @@ SINA.lectures["anat1-forearm"] = {
     "ECRL and ECRB"
    ],
    "answer": 0,
-   "why": "Pulse groove."
+   "why": "Pulse groove.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-forearm/06.jpg",
+     "lec": "Topographic anatomy of the forearm",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which muscle is supplied by the deep radial nerve and supinates?",
@@ -2831,7 +3335,14 @@ SINA.lectures["anat1-forearm"] = {
     "Biceps"
    ],
    "answer": 0,
-   "why": "Origin lateral epicondyle."
+   "why": "Origin lateral epicondyle.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-forearm/04.jpg",
+     "lec": "Topographic anatomy of the forearm",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Brachioradialis mainly:",
@@ -2842,7 +3353,14 @@ SINA.lectures["anat1-forearm"] = {
     "Extends the wrist"
    ],
    "answer": 1,
-   "why": "Inserts on the radial styloid."
+   "why": "Inserts on the radial styloid.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-forearm/06.jpg",
+     "lec": "Topographic anatomy of the forearm",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Extensor pollicis longus inserts on the:",
@@ -2853,7 +3371,14 @@ SINA.lectures["anat1-forearm"] = {
     "Proximal phalanx of the thumb"
    ],
    "answer": 0,
-   "why": "EPB: proximal phalanx; APL: 1st metacarpal."
+   "why": "EPB: proximal phalanx; APL: 1st metacarpal.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-forearm/08.jpg",
+     "lec": "Topographic anatomy of the forearm",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Posterior compartment muscles are supplied by the:",
@@ -2864,7 +3389,14 @@ SINA.lectures["anat1-forearm"] = {
     "Musculocutaneous nerve"
    ],
    "answer": 0,
-   "why": "Posterior interosseous nerve."
+   "why": "Posterior interosseous nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-forearm/08.jpg",
+     "lec": "Topographic anatomy of the forearm",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3236,7 +3768,14 @@ SINA.lectures["anat1-hand-muscles"] = {
     "Opponens pollicis"
    ],
    "answer": 1,
-   "why": "Supplied by the ulnar nerve."
+   "why": "Supplied by the ulnar nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-muscles/02.jpg",
+     "lec": "Muscular compartments of the hand",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The thenar branch of the median nerve supplies:",
@@ -3247,7 +3786,14 @@ SINA.lectures["anat1-hand-muscles"] = {
     "All thenar muscles"
    ],
    "answer": 0,
-   "why": "Adductor and deep FPB: ulnar."
+   "why": "Adductor and deep FPB: ulnar.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-muscles/02.jpg",
+     "lec": "Muscular compartments of the hand",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The adductor pollicis is supplied by the:",
@@ -3258,7 +3804,14 @@ SINA.lectures["anat1-hand-muscles"] = {
     "Median nerve"
    ],
    "answer": 2,
-   "why": "A deep thenar muscle."
+   "why": "A deep thenar muscle.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-muscles/02.jpg",
+     "lec": "Muscular compartments of the hand",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The hypothenar muscles are supplied by the:",
@@ -3269,7 +3822,14 @@ SINA.lectures["anat1-hand-muscles"] = {
     "Median nerve"
    ],
    "answer": 0,
-   "why": "All four of them."
+   "why": "All four of them.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-muscles/02.jpg",
+     "lec": "Muscular compartments of the hand",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Which is a hypothenar muscle?",
@@ -3280,7 +3840,14 @@ SINA.lectures["anat1-hand-muscles"] = {
     "Opponens pollicis"
    ],
    "answer": 1,
-   "why": "Little-finger group."
+   "why": "Little-finger group.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-muscles/02.jpg",
+     "lec": "Muscular compartments of the hand",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Dorsal interossei:",
@@ -3291,7 +3858,14 @@ SINA.lectures["anat1-hand-muscles"] = {
     "Adduct the fingers"
    ],
    "answer": 2,
-   "why": "DAB."
+   "why": "DAB.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-muscles/02.jpg",
+     "lec": "Muscular compartments of the hand",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Palmar interossei:",
@@ -3302,7 +3876,14 @@ SINA.lectures["anat1-hand-muscles"] = {
     "Oppose the thumb"
    ],
    "answer": 2,
-   "why": "PAD."
+   "why": "PAD.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-muscles/02.jpg",
+     "lec": "Muscular compartments of the hand",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Loss of thumb opposition suggests injury to the:",
@@ -3313,7 +3894,14 @@ SINA.lectures["anat1-hand-muscles"] = {
     "Ulnar nerve"
    ],
    "answer": 0,
-   "why": "Opponens pollicis, thenar branch."
+   "why": "Opponens pollicis, thenar branch.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-muscles/02.jpg",
+     "lec": "Muscular compartments of the hand",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3697,7 +4285,14 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
     "Anatomical snuffbox"
    ],
    "answer": 3,
-   "why": "Then the first web space."
+   "why": "Then the first web space.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-vessels-nerves/03.jpg",
+     "lec": "Vascularisation and innervation of",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The superficial palmar arch is formed mainly by the:",
@@ -3708,7 +4303,14 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
     "Interosseous artery"
    ],
    "answer": 0,
-   "why": "In front of the flexor tendons."
+   "why": "In front of the flexor tendons.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-vessels-nerves/02.jpg",
+     "lec": "Vascularisation and innervation of",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The deep palmar arch is formed mainly by the:",
@@ -3719,7 +4321,14 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
     "Brachial artery"
    ],
    "answer": 0,
-   "why": "Behind the flexor tendons."
+   "why": "Behind the flexor tendons.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-vessels-nerves/02.jpg",
+     "lec": "Vascularisation and innervation of",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The anterior wall of the carpal tunnel is the:",
@@ -3730,7 +4339,14 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
     "Pisiform"
    ],
    "answer": 1,
-   "why": "The bones form the posterior wall."
+   "why": "The bones form the posterior wall.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-vessels-nerves/03.jpg",
+     "lec": "Vascularisation and innervation of",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which nerve passes through the carpal tunnel?",
@@ -3741,7 +4357,14 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
     "Radial"
    ],
    "answer": 2,
-   "why": "With the finger flexor tendons."
+   "why": "With the finger flexor tendons.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-vessels-nerves/03.jpg",
+     "lec": "Vascularisation and innervation of",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The median nerve gives sensation to:",
@@ -3752,7 +4375,14 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
     "Dorsum of hand only"
    ],
    "answer": 1,
-   "why": "Palmar side."
+   "why": "Palmar side.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-vessels-nerves/04.jpg",
+     "lec": "Vascularisation and innervation of",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The ulnar nerve at the wrist passes through:",
@@ -3763,7 +4393,14 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
     "Guyon's canal"
    ],
    "answer": 3,
-   "why": "Lateral to the pisiform."
+   "why": "Lateral to the pisiform.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-vessels-nerves/04.jpg",
+     "lec": "Vascularisation and innervation of",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The deep branch of the ulnar nerve supplies:",
@@ -3774,7 +4411,14 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
     "Lumbricals only"
    ],
    "answer": 1,
-   "why": "Most intrinsic hand muscles."
+   "why": "Most intrinsic hand muscles.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-vessels-nerves/04.jpg",
+     "lec": "Vascularisation and innervation of",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Numbness of the little finger suggests a lesion of the:",
@@ -3785,7 +4429,14 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
     "Axillary nerve"
    ],
    "answer": 1,
-   "why": "Medial half of ring + little finger."
+   "why": "Medial half of ring + little finger.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-vessels-nerves/04.jpg",
+     "lec": "Vascularisation and innervation of",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4172,7 +4823,19 @@ SINA.lectures["anat1-thorax-overview"] = {
     "Rib 7"
    ],
    "answer": 1,
-   "why": "At the T4-T5 level."
+   "why": "At the T4-T5 level.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-overview/06.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 6
+    },
+    {
+     "src": "files/slides/anat1-thorax-overview/41.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "The sternal angle lies at the vertebral level of:",
@@ -4183,7 +4846,19 @@ SINA.lectures["anat1-thorax-overview"] = {
     "T2-T3"
    ],
    "answer": 2,
-   "why": "Also the plane dividing the mediastinum."
+   "why": "Also the plane dividing the mediastinum.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-overview/25.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 25
+    },
+    {
+     "src": "files/slides/anat1-thorax-overview/41.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "The midclavicular line passes:",
@@ -4194,7 +4869,14 @@ SINA.lectures["anat1-thorax-overview"] = {
     "Through the axilla"
    ],
    "answer": 1,
-   "why": "Dropped from the middle of the clavicle."
+   "why": "Dropped from the middle of the clavicle.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-overview/07.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The inferior thoracic aperture is closed by the:",
@@ -4205,7 +4887,14 @@ SINA.lectures["anat1-thorax-overview"] = {
     "Pleura"
    ],
    "answer": 2,
-   "why": "The superior aperture is open."
+   "why": "The superior aperture is open.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-overview/10.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which forms the superior thoracic aperture?",
@@ -4216,7 +4905,19 @@ SINA.lectures["anat1-thorax-overview"] = {
     "T1, first ribs, manubrium"
    ],
    "answer": 3,
-   "why": "Continuity with the neck."
+   "why": "Continuity with the neck.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-overview/10.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 10
+    },
+    {
+     "src": "files/slides/anat1-thorax-overview/17.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which dome of the diaphragm is higher?",
@@ -4227,7 +4928,19 @@ SINA.lectures["anat1-thorax-overview"] = {
     "Right"
    ],
    "answer": 3,
-   "why": "Reaches rib 5."
+   "why": "Reaches rib 5.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-overview/22.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 22
+    },
+    {
+     "src": "files/slides/anat1-thorax-overview/41.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Which structure passes behind the diaphragm rather than through it?",
@@ -4238,7 +4951,14 @@ SINA.lectures["anat1-thorax-overview"] = {
     "Phrenic nerve"
    ],
    "answer": 1,
-   "why": "Through the aortic hiatus behind."
+   "why": "Through the aortic hiatus behind.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-overview/58.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "The mediastinum is divided into superior and inferior parts by a plane through the:",
@@ -4249,7 +4969,19 @@ SINA.lectures["anat1-thorax-overview"] = {
     "Clavicles"
    ],
    "answer": 0,
-   "why": "Transverse thoracic plane."
+   "why": "Transverse thoracic plane.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-overview/25.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 25
+    },
+    {
+     "src": "files/slides/anat1-thorax-overview/59.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 59
+    }
+   ]
   },
   {
    "q": "The middle mediastinum contains the:",
@@ -4260,7 +4992,14 @@ SINA.lectures["anat1-thorax-overview"] = {
     "Sympathetic chain"
    ],
    "answer": 0,
-   "why": "Anterior: between sternum and pericardium."
+   "why": "Anterior: between sternum and pericardium.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-overview/26.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "The pleura lining the thoracic wall is the:",
@@ -4271,7 +5010,14 @@ SINA.lectures["anat1-thorax-overview"] = {
     "Endothoracic fascia"
    ],
    "answer": 1,
-   "why": "Visceral pleura covers the lung."
+   "why": "Visceral pleura covers the lung.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-overview/28.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The largest pleural recess is the:",
@@ -4282,7 +5028,14 @@ SINA.lectures["anat1-thorax-overview"] = {
     "Apical"
    ],
    "answer": 0,
-   "why": "Clinically most important."
+   "why": "Clinically most important.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-overview/29.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "The pleural cavities extend:",
@@ -4293,7 +5046,19 @@ SINA.lectures["anat1-thorax-overview"] = {
     "Into the abdomen"
    ],
    "answer": 0,
-   "why": "Into the root of the neck."
+   "why": "Into the root of the neck.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-overview/13.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 13
+    },
+    {
+     "src": "files/slides/anat1-thorax-overview/30.jpg",
+     "lec": "Thorax part 1: overview",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4693,7 +5458,14 @@ SINA.lectures["anat1-thorax-osteology"] = {
     "T7"
    ],
    "answer": 2,
-   "why": "Sternal angle at T4-T5."
+   "why": "Sternal angle at T4-T5.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-osteology/06.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The costal margin is formed by costal cartilages:",
@@ -4704,7 +5476,19 @@ SINA.lectures["anat1-thorax-osteology"] = {
     "1-3"
    ],
    "answer": 1,
-   "why": "Palpable lower border of the cage."
+   "why": "Palpable lower border of the cage.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-osteology/06.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 6
+    },
+    {
+     "src": "files/slides/anat1-thorax-osteology/19.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The only bony joint between upper limb and axial skeleton is the:",
@@ -4715,7 +5499,14 @@ SINA.lectures["anat1-thorax-osteology"] = {
     "Costovertebral"
    ],
    "answer": 0,
-   "why": "At the manubrium."
+   "why": "At the manubrium.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-osteology/15.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which does NOT occur at the sternal angle level?",
@@ -4726,7 +5517,19 @@ SINA.lectures["anat1-thorax-osteology"] = {
     "Rib 2 articulation"
    ],
    "answer": 1,
-   "why": "The oesophageal hiatus is at T10."
+   "why": "The oesophageal hiatus is at T10.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-osteology/06.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 6
+    },
+    {
+     "src": "files/slides/anat1-thorax-osteology/33.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "True ribs are:",
@@ -4737,7 +5540,19 @@ SINA.lectures["anat1-thorax-osteology"] = {
     "1-7"
    ],
    "answer": 3,
-   "why": "They join the sternum directly."
+   "why": "They join the sternum directly.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-osteology/07.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 7
+    },
+    {
+     "src": "files/slides/anat1-thorax-osteology/19.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Floating ribs are:",
@@ -4748,7 +5563,19 @@ SINA.lectures["anat1-thorax-osteology"] = {
     "8-10"
    ],
    "answer": 2,
-   "why": "No anterior attachment."
+   "why": "No anterior attachment.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-osteology/19.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 19
+    },
+    {
+     "src": "files/slides/anat1-thorax-osteology/22.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "The tubercle of a rib articulates with the:",
@@ -4759,7 +5586,19 @@ SINA.lectures["anat1-thorax-osteology"] = {
     "Sternum"
    ],
    "answer": 0,
-   "why": "The head articulates with vertebral bodies."
+   "why": "The head articulates with vertebral bodies.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-osteology/21.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 21
+    },
+    {
+     "src": "files/slides/anat1-thorax-osteology/37.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Rib fractures commonly occur:",
@@ -4770,7 +5609,14 @@ SINA.lectures["anat1-thorax-osteology"] = {
     "At the costal cartilage"
    ],
    "answer": 2,
-   "why": "The weakest point."
+   "why": "The weakest point.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-osteology/21.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "On rib 1, the subclavian vein groove lies:",
@@ -4781,7 +5627,14 @@ SINA.lectures["anat1-thorax-osteology"] = {
     "In front of the scalene tubercle"
    ],
    "answer": 3,
-   "why": "The artery groove is behind."
+   "why": "The artery groove is behind.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-osteology/22.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "In the costal groove, the order from top to bottom is:",
@@ -4792,7 +5645,14 @@ SINA.lectures["anat1-thorax-osteology"] = {
     "Artery, nerve, vein"
    ],
    "answer": 1,
-   "why": "VAN."
+   "why": "VAN.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-osteology/25.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Which structure is most at risk when the upper part of an intercostal space is perforated?",
@@ -4803,7 +5663,14 @@ SINA.lectures["anat1-thorax-osteology"] = {
     "Artery"
    ],
    "answer": 0,
-   "why": "It lies lowest, often below the groove."
+   "why": "It lies lowest, often below the groove.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-osteology/25.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "How many thoracic vertebrae are there?",
@@ -4814,7 +5681,19 @@ SINA.lectures["anat1-thorax-osteology"] = {
     "12"
    ],
    "answer": 3,
-   "why": "Each articulates with a pair of ribs."
+   "why": "Each articulates with a pair of ribs.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-osteology/12.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 12
+    },
+    {
+     "src": "files/slides/anat1-thorax-osteology/13.jpg",
+     "lec": "Thorax part 2: osteology",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5212,7 +6091,19 @@ SINA.lectures["anat1-thorax-myology"] = {
     "Serratus anterior"
    ],
    "answer": 1,
-   "why": "From ribs 3-5."
+   "why": "From ribs 3-5.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-myology/05.jpg",
+     "lec": "Thorax part 3: myology",
+     "n": 5
+    },
+    {
+     "src": "files/slides/anat1-thorax-myology/07.jpg",
+     "lec": "Thorax part 3: myology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Serratus anterior mainly:",
@@ -5223,7 +6114,19 @@ SINA.lectures["anat1-thorax-myology"] = {
     "Elevates the clavicle"
    ],
    "answer": 2,
-   "why": "From ribs 1-8."
+   "why": "From ribs 1-8.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-myology/08.jpg",
+     "lec": "Thorax part 3: myology",
+     "n": 8
+    },
+    {
+     "src": "files/slides/anat1-thorax-myology/09.jpg",
+     "lec": "Thorax part 3: myology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Intercostal nerves and vessels run between the:",
@@ -5234,7 +6137,14 @@ SINA.lectures["anat1-thorax-myology"] = {
     "Pleura and lung"
    ],
    "answer": 1,
-   "why": "Internal and innermost."
+   "why": "Internal and innermost.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-myology/10.jpg",
+     "lec": "Thorax part 3: myology",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "External intercostal muscles are most active during:",
@@ -5245,7 +6155,14 @@ SINA.lectures["anat1-thorax-myology"] = {
     "Expiration"
    ],
    "answer": 2,
-   "why": "They raise the ribs."
+   "why": "They raise the ribs.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-myology/11.jpg",
+     "lec": "Thorax part 3: myology",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Internal intercostal muscles:",
@@ -5256,7 +6173,14 @@ SINA.lectures["anat1-thorax-myology"] = {
     "Lower the ribs (expiration)"
    ],
    "answer": 3,
-   "why": "Fibres at right angles to the external ones."
+   "why": "Fibres at right angles to the external ones.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-myology/12.jpg",
+     "lec": "Thorax part 3: myology",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "When the diaphragm contracts it:",
@@ -5267,7 +6191,19 @@ SINA.lectures["anat1-thorax-myology"] = {
     "Descends and flattens"
    ],
    "answer": 3,
-   "why": "Thoracic volume increases."
+   "why": "Thoracic volume increases.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-myology/23.jpg",
+     "lec": "Thorax part 3: myology",
+     "n": 23
+    },
+    {
+     "src": "files/slides/anat1-thorax-myology/28.jpg",
+     "lec": "Thorax part 3: myology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The right crus of the diaphragm arises from:",
@@ -5278,7 +6214,19 @@ SINA.lectures["anat1-thorax-myology"] = {
     "L4-L5"
    ],
    "answer": 1,
-   "why": "The left from L1-L2."
+   "why": "The left from L1-L2.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-myology/23.jpg",
+     "lec": "Thorax part 3: myology",
+     "n": 23
+    },
+    {
+     "src": "files/slides/anat1-thorax-myology/24.jpg",
+     "lec": "Thorax part 3: myology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The phrenic nerve arises from:",
@@ -5289,7 +6237,14 @@ SINA.lectures["anat1-thorax-myology"] = {
     "C6-C8"
    ],
    "answer": 0,
-   "why": "'C3, 4, 5 keep the diaphragm alive'."
+   "why": "'C3, 4, 5 keep the diaphragm alive'.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-myology/24.jpg",
+     "lec": "Thorax part 3: myology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The inferior vena cava passes through the diaphragm at:",
@@ -5300,7 +6255,14 @@ SINA.lectures["anat1-thorax-myology"] = {
     "L1"
    ],
    "answer": 0,
-   "why": "In the central tendon."
+   "why": "In the central tendon.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-myology/25.jpg",
+     "lec": "Thorax part 3: myology",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The oesophagus passes through the diaphragm at:",
@@ -5311,7 +6273,14 @@ SINA.lectures["anat1-thorax-myology"] = {
     "T12"
    ],
    "answer": 1,
-   "why": "With the vagal trunks."
+   "why": "With the vagal trunks.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-myology/26.jpg",
+     "lec": "Thorax part 3: myology",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "The aorta passes the diaphragm at:",
@@ -5322,7 +6291,14 @@ SINA.lectures["anat1-thorax-myology"] = {
     "L3"
    ],
    "answer": 0,
-   "why": "Behind it, with the thoracic duct."
+   "why": "Behind it, with the thoracic duct.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-myology/27.jpg",
+     "lec": "Thorax part 3: myology",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "The phrenic nerve descends:",
@@ -5333,7 +6309,14 @@ SINA.lectures["anat1-thorax-myology"] = {
     "In the posterior mediastinum"
    ],
    "answer": 0,
-   "why": "With the pericardiacophrenic vessels."
+   "why": "With the pericardiacophrenic vessels.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-myology/24.jpg",
+     "lec": "Thorax part 3: myology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5747,7 +6730,14 @@ SINA.lectures["anat1-thorax-walls"] = {
     "L1-L5"
    ],
    "answer": 1,
-   "why": "T12 is the subcostal nerve."
+   "why": "T12 is the subcostal nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-walls/13.jpg",
+     "lec": "Thorax part 4: thoracic walls and breast",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The internal thoracic artery arises from the:",
@@ -5758,7 +6748,19 @@ SINA.lectures["anat1-thorax-walls"] = {
     "Subclavian artery"
    ],
    "answer": 3,
-   "why": "Runs beside the sternum."
+   "why": "Runs beside the sternum.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-walls/15.jpg",
+     "lec": "Thorax part 4: thoracic walls and breast",
+     "n": 15
+    },
+    {
+     "src": "files/slides/anat1-thorax-walls/19.jpg",
+     "lec": "Thorax part 4: thoracic walls and breast",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The internal thoracic artery ends as the:",
@@ -5769,7 +6771,14 @@ SINA.lectures["anat1-thorax-walls"] = {
     "Subcostal artery"
    ],
    "answer": 0,
-   "why": "Terminal branches."
+   "why": "Terminal branches.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-walls/16.jpg",
+     "lec": "Thorax part 4: thoracic walls and breast",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The first two posterior intercostal arteries arise from the:",
@@ -5780,7 +6789,19 @@ SINA.lectures["anat1-thorax-walls"] = {
     "Internal thoracic artery"
    ],
    "answer": 0,
-   "why": "The rest come from the aorta."
+   "why": "The rest come from the aorta.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-walls/15.jpg",
+     "lec": "Thorax part 4: thoracic walls and breast",
+     "n": 15
+    },
+    {
+     "src": "files/slides/anat1-thorax-walls/17.jpg",
+     "lec": "Thorax part 4: thoracic walls and breast",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Medial mammary branches come from the:",
@@ -5791,7 +6812,14 @@ SINA.lectures["anat1-thorax-walls"] = {
     "Aorta"
    ],
    "answer": 2,
-   "why": "Spaces 2-4."
+   "why": "Spaces 2-4.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-walls/16.jpg",
+     "lec": "Thorax part 4: thoracic walls and breast",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The lower nine posterior intercostal veins drain into the:",
@@ -5802,7 +6830,19 @@ SINA.lectures["anat1-thorax-walls"] = {
     "Internal thoracic vein"
    ],
    "answer": 1,
-   "why": "Then the SVC."
+   "why": "Then the SVC.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-walls/19.jpg",
+     "lec": "Thorax part 4: thoracic walls and breast",
+     "n": 19
+    },
+    {
+     "src": "files/slides/anat1-thorax-walls/21.jpg",
+     "lec": "Thorax part 4: thoracic walls and breast",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Parasternal lymph nodes drain the:",
@@ -5813,7 +6853,14 @@ SINA.lectures["anat1-thorax-walls"] = {
     "Lateral breast"
    ],
    "answer": 1,
-   "why": "Along the internal thoracic artery."
+   "why": "Along the internal thoracic artery.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-walls/22.jpg",
+     "lec": "Thorax part 4: thoracic walls and breast",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "The mammary gland overlies ribs:",
@@ -5824,7 +6871,14 @@ SINA.lectures["anat1-thorax-walls"] = {
     "2-6"
    ],
    "answer": 3,
-   "why": "From sternum to midaxillary line."
+   "why": "From sternum to midaxillary line.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-walls/23.jpg",
+     "lec": "Thorax part 4: thoracic walls and breast",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The retromammary space:",
@@ -5835,7 +6889,14 @@ SINA.lectures["anat1-thorax-walls"] = {
     "Allows breast mobility"
    ],
    "answer": 3,
-   "why": "Loose connective tissue."
+   "why": "Loose connective tissue.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-walls/25.jpg",
+     "lec": "Thorax part 4: thoracic walls and breast",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The subcostal artery runs:",
@@ -5846,7 +6907,19 @@ SINA.lectures["anat1-thorax-walls"] = {
     "Above rib 1"
    ],
    "answer": 0,
-   "why": "A branch of the aorta."
+   "why": "A branch of the aorta.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-thorax-walls/12.jpg",
+     "lec": "Thorax part 4: thoracic walls and breast",
+     "n": 12
+    },
+    {
+     "src": "files/slides/anat1-thorax-walls/17.jpg",
+     "lec": "Thorax part 4: thoracic walls and breast",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -6348,7 +7421,14 @@ SINA.lectures["anat1-heart"] = {
     "Left atrium"
    ],
    "answer": 3,
-   "why": "Faces posteriorly."
+   "why": "Faces posteriorly.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-heart/09.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which chamber forms the inferior border of the heart?",
@@ -6359,7 +7439,14 @@ SINA.lectures["anat1-heart"] = {
     "Left ventricle"
    ],
    "answer": 0,
-   "why": "The left border is the LV."
+   "why": "The left border is the LV.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-heart/10.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The right border of the heart is formed by:",
@@ -6370,7 +7457,14 @@ SINA.lectures["anat1-heart"] = {
     "Aorta"
    ],
    "answer": 1,
-   "why": "On a chest X-ray."
+   "why": "On a chest X-ray.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-heart/10.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The anterior interventricular groove contains the:",
@@ -6381,7 +7475,14 @@ SINA.lectures["anat1-heart"] = {
     "Posterior descending artery"
    ],
    "answer": 0,
-   "why": "Middle cardiac vein is posterior."
+   "why": "Middle cardiac vein is posterior.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-heart/12.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The transverse pericardial sinus lies:",
@@ -6392,7 +7493,14 @@ SINA.lectures["anat1-heart"] = {
     "Around the IVC"
    ],
    "answer": 2,
-   "why": "The oblique sinus is behind the heart."
+   "why": "The oblique sinus is behind the heart.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-heart/15.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The coronary sinus drains into the:",
@@ -6403,7 +7511,14 @@ SINA.lectures["anat1-heart"] = {
     "SVC"
    ],
    "answer": 1,
-   "why": "With both venae cavae."
+   "why": "With both venae cavae.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-heart/17.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The moderator band is found in the:",
@@ -6414,7 +7529,19 @@ SINA.lectures["anat1-heart"] = {
     "Left atrium"
    ],
    "answer": 1,
-   "why": "Septomarginal trabecula."
+   "why": "Septomarginal trabecula.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-heart/19.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 19
+    },
+    {
+     "src": "files/slides/anat1-heart/34.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Chordae tendineae connect papillary muscles to:",
@@ -6425,7 +7552,19 @@ SINA.lectures["anat1-heart"] = {
     "The aorta"
    ],
    "answer": 2,
-   "why": "Prevent prolapse."
+   "why": "Prevent prolapse.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-heart/19.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 19
+    },
+    {
+     "src": "files/slides/anat1-heart/36.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "The left atrium is in direct contact with the:",
@@ -6447,7 +7586,14 @@ SINA.lectures["anat1-heart"] = {
     "RA and RV"
    ],
    "answer": 2,
-   "why": "Bicuspid."
+   "why": "Bicuspid.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-heart/20.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The SA and AV nodes are usually supplied by the:",
@@ -6458,7 +7604,19 @@ SINA.lectures["anat1-heart"] = {
     "Right coronary artery"
    ],
    "answer": 3,
-   "why": "RCA."
+   "why": "RCA.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-heart/25.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 25
+    },
+    {
+     "src": "files/slides/anat1-heart/27.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "The LAD supplies the:",
@@ -6469,7 +7627,19 @@ SINA.lectures["anat1-heart"] = {
     "Anterior LV and apex"
    ],
    "answer": 3,
-   "why": "Anterior interventricular artery."
+   "why": "Anterior interventricular artery.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-heart/25.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 25
+    },
+    {
+     "src": "files/slides/anat1-heart/28.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which chamber has the thickest wall?",
@@ -6480,7 +7650,14 @@ SINA.lectures["anat1-heart"] = {
     "Right atrium"
    ],
    "answer": 0,
-   "why": "Pumps against systemic pressure."
+   "why": "Pumps against systemic pressure.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-heart/21.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -6939,7 +8116,19 @@ SINA.lectures["anat1-aorta"] = {
     "Oesophagus"
    ],
    "answer": 1,
-   "why": "Just behind the manubrium."
+   "why": "Just behind the manubrium.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-aorta/04.jpg",
+     "lec": "Thorax parts 6-7: great vessels and",
+     "n": 4
+    },
+    {
+     "src": "files/slides/anat1-aorta/07.jpg",
+     "lec": "Thorax parts 6-7: great vessels and",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The pulmonary trunk divides at the level of:",
@@ -6950,7 +8139,14 @@ SINA.lectures["anat1-aorta"] = {
     "T5-T6"
    ],
    "answer": 3,
-   "why": "Behind the 3rd left costal cartilage."
+   "why": "Behind the 3rd left costal cartilage.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-aorta/07.jpg",
+     "lec": "Thorax parts 6-7: great vessels and",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The coronary arteries arise from the:",
@@ -6961,7 +8157,19 @@ SINA.lectures["anat1-aorta"] = {
     "Aortic arch"
    ],
    "answer": 0,
-   "why": "Right and left sinuses."
+   "why": "Right and left sinuses.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-aorta/07.jpg",
+     "lec": "Thorax parts 6-7: great vessels and",
+     "n": 7
+    },
+    {
+     "src": "files/slides/anat1-aorta/09.jpg",
+     "lec": "Thorax parts 6-7: great vessels and",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which is NOT a direct branch of the aortic arch?",
@@ -6972,7 +8180,14 @@ SINA.lectures["anat1-aorta"] = {
     "Left subclavian"
    ],
    "answer": 0,
-   "why": "From the brachiocephalic trunk."
+   "why": "From the brachiocephalic trunk.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-aorta/07.jpg",
+     "lec": "Thorax parts 6-7: great vessels and",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Each brachiocephalic vein is formed by:",
@@ -6983,7 +8198,14 @@ SINA.lectures["anat1-aorta"] = {
     "SVC + IVC"
    ],
    "answer": 2,
-   "why": "Behind the medial clavicle."
+   "why": "Behind the medial clavicle.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-aorta/12.jpg",
+     "lec": "Thorax parts 6-7: great vessels and",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The SVC receives which vein just before entering the pericardium?",
@@ -6994,7 +8216,14 @@ SINA.lectures["anat1-aorta"] = {
     "Internal thoracic"
    ],
    "answer": 1,
-   "why": "Arching over the right lung root."
+   "why": "Arching over the right lung root.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-aorta/11.jpg",
+     "lec": "Thorax parts 6-7: great vessels and",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The SVC enters the right atrium at the level of the:",
@@ -7005,7 +8234,14 @@ SINA.lectures["anat1-aorta"] = {
     "Sternal angle"
    ],
    "answer": 1,
-   "why": "It begins behind the 1st."
+   "why": "It begins behind the 1st.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-aorta/05.jpg",
+     "lec": "Thorax parts 6-7: great vessels and",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "After puberty the thymus:",
@@ -7016,7 +8252,14 @@ SINA.lectures["anat1-aorta"] = {
     "Atrophies and becomes fatty"
    ],
    "answer": 3,
-   "why": "Large in children."
+   "why": "Large in children.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-aorta/04.jpg",
+     "lec": "Thorax parts 6-7: great vessels and",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Why can parathyroid glands be found in the thymus?",
@@ -7027,7 +8270,14 @@ SINA.lectures["anat1-aorta"] = {
     "Shared pouch origin"
    ],
    "answer": 3,
-   "why": "Ectopic parathyroid."
+   "why": "Ectopic parathyroid.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-aorta/04.jpg",
+     "lec": "Thorax parts 6-7: great vessels and",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The left brachiocephalic vein in children is less protected because:",
@@ -7038,7 +8288,14 @@ SINA.lectures["anat1-aorta"] = {
     "It is behind the aorta"
    ],
    "answer": 0,
-   "why": "Risk in neck surgery."
+   "why": "Risk in neck surgery.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-aorta/05.jpg",
+     "lec": "Thorax parts 6-7: great vessels and",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -7466,7 +8723,19 @@ SINA.lectures["anat1-respiratory"] = {
     "Bronchial arteries"
    ],
    "answer": 3,
-   "why": "Oxygenated blood."
+   "why": "Oxygenated blood.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-respiratory/07.jpg",
+     "lec": "Thorax part 8: lungs and respiratory",
+     "n": 7
+    },
+    {
+     "src": "files/slides/anat1-respiratory/10.jpg",
+     "lec": "Thorax part 8: lungs and respiratory",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Parasympathetic stimulation of the lung causes:",
@@ -7477,7 +8746,14 @@ SINA.lectures["anat1-respiratory"] = {
     "Bronchoconstriction"
    ],
    "answer": 3,
-   "why": "Via the vagus nerve."
+   "why": "Via the vagus nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-respiratory/10.jpg",
+     "lec": "Thorax part 8: lungs and respiratory",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The trachea bifurcates at the level of:",
@@ -7488,7 +8764,14 @@ SINA.lectures["anat1-respiratory"] = {
     "C6"
    ],
    "answer": 0,
-   "why": "Sternal angle."
+   "why": "Sternal angle.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-respiratory/08.jpg",
+     "lec": "Thorax part 8: lungs and respiratory",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "How many lobar bronchi arise from the right main bronchus?",
@@ -7499,7 +8782,19 @@ SINA.lectures["anat1-respiratory"] = {
     "10"
    ],
    "answer": 0,
-   "why": "Superior, middle, inferior."
+   "why": "Superior, middle, inferior.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-respiratory/08.jpg",
+     "lec": "Thorax part 8: lungs and respiratory",
+     "n": 8
+    },
+    {
+     "src": "files/slides/anat1-respiratory/25.jpg",
+     "lec": "Thorax part 8: lungs and respiratory",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Gas exchange takes place in the:",
@@ -7510,7 +8805,14 @@ SINA.lectures["anat1-respiratory"] = {
     "Segmental bronchi"
    ],
    "answer": 1,
-   "why": "At the end of the bronchioles."
+   "why": "At the end of the bronchioles.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-respiratory/08.jpg",
+     "lec": "Thorax part 8: lungs and respiratory",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The apex of the lung:",
@@ -7521,7 +8823,19 @@ SINA.lectures["anat1-respiratory"] = {
     "Is on the mediastinal surface"
    ],
    "answer": 2,
-   "why": "Crossed by subclavian vessels."
+   "why": "Crossed by subclavian vessels.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-respiratory/05.jpg",
+     "lec": "Thorax part 8: lungs and respiratory",
+     "n": 5
+    },
+    {
+     "src": "files/slides/anat1-respiratory/11.jpg",
+     "lec": "Thorax part 8: lungs and respiratory",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The hilum of the lung is found on the:",
@@ -7532,7 +8846,19 @@ SINA.lectures["anat1-respiratory"] = {
     "Costal surface"
    ],
    "answer": 1,
-   "why": "Where the root enters."
+   "why": "Where the root enters.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-respiratory/05.jpg",
+     "lec": "Thorax part 8: lungs and respiratory",
+     "n": 5
+    },
+    {
+     "src": "files/slides/anat1-respiratory/11.jpg",
+     "lec": "Thorax part 8: lungs and respiratory",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which fissure is found only in the right lung?",
@@ -7543,7 +8869,14 @@ SINA.lectures["anat1-respiratory"] = {
     "Horizontal"
    ],
    "answer": 3,
-   "why": "Separates superior and middle lobes."
+   "why": "Separates superior and middle lobes.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-respiratory/14.jpg",
+     "lec": "Thorax part 8: lungs and respiratory",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The lingula belongs to the:",
@@ -7554,7 +8887,19 @@ SINA.lectures["anat1-respiratory"] = {
     "Right middle lobe"
    ],
    "answer": 1,
-   "why": "Equivalent of the middle lobe."
+   "why": "Equivalent of the middle lobe.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-respiratory/09.jpg",
+     "lec": "Thorax part 8: lungs and respiratory",
+     "n": 9
+    },
+    {
+     "src": "files/slides/anat1-respiratory/25.jpg",
+     "lec": "Thorax part 8: lungs and respiratory",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Why is the right lung shorter?",
@@ -7565,7 +8910,14 @@ SINA.lectures["anat1-respiratory"] = {
     "The heart is on the right"
    ],
    "answer": 1,
-   "why": "It is also wider."
+   "why": "It is also wider.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-respiratory/09.jpg",
+     "lec": "Thorax part 8: lungs and respiratory",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -7975,7 +9327,14 @@ SINA.lectures["anat1-intro"] = {
     "Cutting up"
    ],
    "answer": 3,
-   "why": "Latin equivalent: dissection."
+   "why": "Latin equivalent: dissection.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-intro/04.jpg",
+     "lec": "Introduction to anatomy",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which level comes directly after the cellular level?",
@@ -7986,7 +9345,14 @@ SINA.lectures["anat1-intro"] = {
     "Organ"
    ],
    "answer": 2,
-   "why": "Four basic tissues."
+   "why": "Four basic tissues.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-intro/07.jpg",
+     "lec": "Introduction to anatomy",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Regional anatomy is described as the basis of:",
@@ -7997,7 +9363,14 @@ SINA.lectures["anat1-intro"] = {
     "Surgery"
    ],
    "answer": 3,
-   "why": "Regions examined as a group."
+   "why": "Regions examined as a group.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-intro/10.jpg",
+     "lec": "Introduction to anatomy",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Structures that absorb most X-rays are called:",
@@ -8008,7 +9381,14 @@ SINA.lectures["anat1-intro"] = {
     "Radiotransparent"
    ],
    "answer": 2,
-   "why": "Bone, calcium stones, metals."
+   "why": "Bone, calcium stones, metals.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-intro/17.jpg",
+     "lec": "Introduction to anatomy",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The official anatomical vocabulary today is the:",
@@ -8019,7 +9399,14 @@ SINA.lectures["anat1-intro"] = {
     "Gray's list"
    ],
    "answer": 0,
-   "why": "Latin and Greek terms."
+   "why": "Latin and Greek terms.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-intro/20.jpg",
+     "lec": "Introduction to anatomy",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "In the anatomical position the palms face:",
@@ -8030,7 +9417,14 @@ SINA.lectures["anat1-intro"] = {
     "Downward"
    ],
    "answer": 1,
-   "why": "Thumbs pointing away from the body."
+   "why": "Thumbs pointing away from the body.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-intro/21.jpg",
+     "lec": "Introduction to anatomy",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "A patient lying face up is:",
@@ -8041,7 +9435,14 @@ SINA.lectures["anat1-intro"] = {
     "Lateral recumbent"
    ],
    "answer": 1,
-   "why": "Prone is face down."
+   "why": "Prone is face down.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-intro/24.jpg",
+     "lec": "Introduction to anatomy",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Proximal and distal are used mainly for:",
@@ -8052,7 +9453,14 @@ SINA.lectures["anat1-intro"] = {
     "The limbs"
    ],
    "answer": 3,
-   "why": "Relative to the limb root."
+   "why": "Relative to the limb root.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-intro/33.jpg",
+     "lec": "Introduction to anatomy",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "The axis of the hand passes through the:",
@@ -8063,7 +9471,14 @@ SINA.lectures["anat1-intro"] = {
     "Thumb"
    ],
    "answer": 1,
-   "why": "Foot: 2nd toe."
+   "why": "Foot: 2nd toe.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-intro/63.jpg",
+     "lec": "Introduction to anatomy",
+     "n": 63
+    }
+   ]
   },
   {
    "q": "A plane dividing the body into equal right and left halves is the:",
@@ -8074,7 +9489,19 @@ SINA.lectures["anat1-intro"] = {
     "Transverse"
    ],
    "answer": 0,
-   "why": "Parasagittal: unequal."
+   "why": "Parasagittal: unequal.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-intro/45.jpg",
+     "lec": "Introduction to anatomy",
+     "n": 45
+    },
+    {
+     "src": "files/slides/anat1-intro/47.jpg",
+     "lec": "Introduction to anatomy",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "The frontal (coronal) plane divides the body into:",
@@ -8085,7 +9512,14 @@ SINA.lectures["anat1-intro"] = {
     "Superior and inferior"
    ],
    "answer": 0,
-   "why": "Vertical, side to side."
+   "why": "Vertical, side to side.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-intro/49.jpg",
+     "lec": "Introduction to anatomy",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Shoulder abduction occurs about which axis?",
@@ -8096,7 +9530,14 @@ SINA.lectures["anat1-intro"] = {
     "Anteroposterior"
    ],
    "answer": 3,
-   "why": "In the frontal plane."
+   "why": "In the frontal plane.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-intro/66.jpg",
+     "lec": "Introduction to anatomy",
+     "n": 66
+    }
+   ]
   },
   {
    "q": "The elbow is a:",
@@ -8107,7 +9548,14 @@ SINA.lectures["anat1-intro"] = {
     "Uniaxial hinge joint"
    ],
    "answer": 3,
-   "why": "Flexion and extension only."
+   "why": "Flexion and extension only.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-intro/73.jpg",
+     "lec": "Introduction to anatomy",
+     "n": 73
+    }
+   ]
   },
   {
    "q": "Supination turns the palm:",
@@ -8118,7 +9566,14 @@ SINA.lectures["anat1-intro"] = {
     "Toward the thigh"
    ],
    "answer": 0,
-   "why": "Pronation turns it backward."
+   "why": "Pronation turns it backward.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-intro/73.jpg",
+     "lec": "Introduction to anatomy",
+     "n": 73
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -8502,7 +9957,19 @@ SINA.lectures["anat1-surface-joints"] = {
     "Pectoralis major"
    ],
    "answer": 2,
-   "why": "Lies over the humeral head."
+   "why": "Lies over the humeral head.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-surface-joints/04.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 4
+    },
+    {
+     "src": "files/slides/anat1-surface-joints/24.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which surface sign disappears in shoulder dislocation?",
@@ -8513,7 +9980,19 @@ SINA.lectures["anat1-surface-joints"] = {
     "Snuffbox"
    ],
    "answer": 2,
-   "why": "The rounded contour flattens."
+   "why": "The rounded contour flattens.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-surface-joints/02.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 2
+    },
+    {
+     "src": "files/slides/anat1-surface-joints/25.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The brachial pulse is felt in the:",
@@ -8524,7 +10003,19 @@ SINA.lectures["anat1-surface-joints"] = {
     "Medial bicipital groove"
    ],
    "answer": 3,
-   "why": "At the elbow crease."
+   "why": "At the elbow crease.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-surface-joints/02.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 2
+    },
+    {
+     "src": "files/slides/anat1-surface-joints/19.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "With the elbow flexed at 90°, the olecranon and epicondyles form a:",
@@ -8535,7 +10026,14 @@ SINA.lectures["anat1-surface-joints"] = {
     "Circle"
    ],
    "answer": 0,
-   "why": "A straight line in extension."
+   "why": "A straight line in extension.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-surface-joints/02.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The radial pulse is palpated between the tendons of:",
@@ -8546,7 +10044,14 @@ SINA.lectures["anat1-surface-joints"] = {
     "FCU and PL"
    ],
    "answer": 1,
-   "why": "Pulse groove."
+   "why": "Pulse groove.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-surface-joints/03.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The medial border of the anatomical snuffbox is the tendon of:",
@@ -8557,7 +10062,19 @@ SINA.lectures["anat1-surface-joints"] = {
     "Flexor carpi radialis"
    ],
    "answer": 0,
-   "why": "EPB and APL form the lateral border."
+   "why": "EPB and APL form the lateral border.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-surface-joints/03.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 3
+    },
+    {
+     "src": "files/slides/anat1-surface-joints/13.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "How many degrees of freedom does the shoulder have?",
@@ -8568,7 +10085,19 @@ SINA.lectures["anat1-surface-joints"] = {
     "3"
    ],
    "answer": 3,
-   "why": "Flexion-extension, abduction-adduction, rotations."
+   "why": "Flexion-extension, abduction-adduction, rotations.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-surface-joints/05.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 5
+    },
+    {
+     "src": "files/slides/anat1-surface-joints/31.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Why are shoulder dislocations frequent?",
@@ -8579,7 +10108,19 @@ SINA.lectures["anat1-surface-joints"] = {
     "Absent ligaments"
    ],
    "answer": 1,
-   "why": "Mostly anterior."
+   "why": "Mostly anterior.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-surface-joints/04.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 4
+    },
+    {
+     "src": "files/slides/anat1-surface-joints/06.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The glenoid labrum is:",
@@ -8590,7 +10131,14 @@ SINA.lectures["anat1-surface-joints"] = {
     "Fibrocartilage ring"
    ],
    "answer": 3,
-   "why": "Enlarges the socket."
+   "why": "Enlarges the socket.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-surface-joints/04.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The elbow's humero-ulnar joint links the trochlea to the:",
@@ -8601,7 +10149,14 @@ SINA.lectures["anat1-surface-joints"] = {
     "Radial head"
    ],
    "answer": 1,
-   "why": "Humeroradial: capitulum + radial head."
+   "why": "Humeroradial: capitulum + radial head.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-surface-joints/06.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The elbow joint itself allows:",
@@ -8612,7 +10167,14 @@ SINA.lectures["anat1-surface-joints"] = {
     "Three degrees of freedom"
    ],
    "answer": 1,
-   "why": "Pronation-supination uses the radio-ulnar joints."
+   "why": "Pronation-supination uses the radio-ulnar joints.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-surface-joints/07.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which carpal bones articulate with the radius at the wrist?",
@@ -8623,7 +10185,14 @@ SINA.lectures["anat1-surface-joints"] = {
     "Trapezium and trapezoid"
    ],
    "answer": 0,
-   "why": "With the triangular fibrocartilage."
+   "why": "With the triangular fibrocartilage.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-surface-joints/07.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Ulnar deviation of the wrist reaches about:",
@@ -8634,7 +10203,14 @@ SINA.lectures["anat1-surface-joints"] = {
     "45°"
    ],
    "answer": 3,
-   "why": "Radial deviation about 15°."
+   "why": "Radial deviation about 15°.",
+   "slides": [
+    {
+     "src": "files/slides/anat1-surface-joints/08.jpg",
+     "lec": "Surface anatomy and joints of the",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

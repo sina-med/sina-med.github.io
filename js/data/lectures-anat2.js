@@ -177,7 +177,14 @@ SINA.lectures["anat2-abdominal-wall"] = {
     "Scarpa's"
    ],
    "answer": 3,
-   "why": "Camper's is fatty."
+   "why": "Camper's is fatty.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-abdominal-wall/52.jpg",
+     "lec": "Abdominal wall and inguinal canal",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "The three flat muscles, superficial to deep, are:",
@@ -188,7 +195,19 @@ SINA.lectures["anat2-abdominal-wall"] = {
     "TA, IO, EO"
    ],
    "answer": 2,
-   "why": "External oblique is outermost."
+   "why": "External oblique is outermost.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-abdominal-wall/21.jpg",
+     "lec": "Abdominal wall and inguinal canal",
+     "n": 21
+    },
+    {
+     "src": "files/slides/anat2-abdominal-wall/25.jpg",
+     "lec": "Abdominal wall and inguinal canal",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The inguinal ligament is formed by the:",
@@ -199,7 +218,19 @@ SINA.lectures["anat2-abdominal-wall"] = {
     "Internal oblique"
    ],
    "answer": 1,
-   "why": "Its rolled lower edge."
+   "why": "Its rolled lower edge.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-abdominal-wall/22.jpg",
+     "lec": "Abdominal wall and inguinal canal",
+     "n": 22
+    },
+    {
+     "src": "files/slides/anat2-abdominal-wall/25.jpg",
+     "lec": "Abdominal wall and inguinal canal",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The cremaster muscle derives mainly from the:",
@@ -210,7 +241,14 @@ SINA.lectures["anat2-abdominal-wall"] = {
     "External oblique"
    ],
    "answer": 2,
-   "why": "Surrounds the spermatic cord."
+   "why": "Surrounds the spermatic cord.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-abdominal-wall/25.jpg",
+     "lec": "Abdominal wall and inguinal canal",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Below the arcuate line, behind rectus abdominis lies:",
@@ -221,7 +259,14 @@ SINA.lectures["anat2-abdominal-wall"] = {
     "The external oblique"
    ],
    "answer": 0,
-   "why": "All aponeuroses pass in front."
+   "why": "All aponeuroses pass in front.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-abdominal-wall/52.jpg",
+     "lec": "Abdominal wall and inguinal canal",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "The umbilical vein becomes the:",
@@ -232,7 +277,14 @@ SINA.lectures["anat2-abdominal-wall"] = {
     "Round ligament of the liver"
    ],
    "answer": 3,
-   "why": "Urachus → median umbilical ligament."
+   "why": "Urachus → median umbilical ligament.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-abdominal-wall/38.jpg",
+     "lec": "Abdominal wall and inguinal canal",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Superficial lymph below the umbilicus drains to:",
@@ -243,7 +295,14 @@ SINA.lectures["anat2-abdominal-wall"] = {
     "Cervical nodes"
    ],
    "answer": 1,
-   "why": "Above: axillary."
+   "why": "Above: axillary.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-abdominal-wall/43.jpg",
+     "lec": "Abdominal wall and inguinal canal",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "A Spigelian hernia occurs at the:",
@@ -254,7 +313,14 @@ SINA.lectures["anat2-abdominal-wall"] = {
     "Umbilicus"
    ],
    "answer": 0,
-   "why": "Lateral edge of rectus."
+   "why": "Lateral edge of rectus.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-abdominal-wall/29.jpg",
+     "lec": "Abdominal wall and inguinal canal",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "The deep inguinal ring is an opening in the:",
@@ -265,7 +331,19 @@ SINA.lectures["anat2-abdominal-wall"] = {
     "Transversalis fascia"
    ],
    "answer": 3,
-   "why": "Superficial ring is in the EO."
+   "why": "Superficial ring is in the EO.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-abdominal-wall/34.jpg",
+     "lec": "Abdominal wall and inguinal canal",
+     "n": 34
+    },
+    {
+     "src": "files/slides/anat2-abdominal-wall/63.jpg",
+     "lec": "Abdominal wall and inguinal canal",
+     "n": 63
+    }
+   ]
   },
   {
    "q": "The floor of the inguinal canal is the:",
@@ -276,7 +354,14 @@ SINA.lectures["anat2-abdominal-wall"] = {
     "Transversalis fascia"
    ],
    "answer": 0,
-   "why": "Plus lacunar ligament."
+   "why": "Plus lacunar ligament.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-abdominal-wall/66.jpg",
+     "lec": "Abdominal wall and inguinal canal",
+     "n": 66
+    }
+   ]
   },
   {
    "q": "In females, the inguinal canal contains the:",
@@ -287,7 +372,14 @@ SINA.lectures["anat2-abdominal-wall"] = {
     "Ovarian artery"
    ],
    "answer": 0,
-   "why": "Plus ilio-inguinal nerve."
+   "why": "Plus ilio-inguinal nerve.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-abdominal-wall/67.jpg",
+     "lec": "Abdominal wall and inguinal canal",
+     "n": 67
+    }
+   ]
   },
   {
    "q": "An indirect inguinal hernia passes:",
@@ -298,7 +390,19 @@ SINA.lectures["anat2-abdominal-wall"] = {
     "Through the femoral canal"
    ],
    "answer": 1,
-   "why": "Direct: medial."
+   "why": "Direct: medial.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-abdominal-wall/25.jpg",
+     "lec": "Abdominal wall and inguinal canal",
+     "n": 25
+    },
+    {
+     "src": "files/slides/anat2-abdominal-wall/62.jpg",
+     "lec": "Abdominal wall and inguinal canal",
+     "n": 62
+    }
+   ]
   },
   {
    "q": "Which muscle lies laterally in the posterior abdominal wall?",
@@ -309,7 +413,14 @@ SINA.lectures["anat2-abdominal-wall"] = {
     "Quadratus lumborum"
    ],
    "answer": 3,
-   "why": "Psoas is medial."
+   "why": "Psoas is medial.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-abdominal-wall/81.jpg",
+     "lec": "Abdominal wall and inguinal canal",
+     "n": 81
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -727,7 +838,19 @@ SINA.lectures["anat2-stomach-oesophagus"] = {
     "25 cm"
    ],
    "answer": 3,
-   "why": "From C6 to T11."
+   "why": "From C6 to T11.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/04.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 4
+    },
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/09.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The oesophagus begins at the level of:",
@@ -738,7 +861,14 @@ SINA.lectures["anat2-stomach-oesophagus"] = {
     "T4"
    ],
    "answer": 2,
-   "why": "Continues from the pharynx."
+   "why": "Continues from the pharynx.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/09.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The oesophagus crosses the diaphragm at:",
@@ -749,7 +879,19 @@ SINA.lectures["anat2-stomach-oesophagus"] = {
     "T10"
    ],
    "answer": 3,
-   "why": "Oesophageal hiatus."
+   "why": "Oesophageal hiatus.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/09.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 9
+    },
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/16.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Achalasia is:",
@@ -760,7 +902,14 @@ SINA.lectures["anat2-stomach-oesophagus"] = {
     "Stomach ulcer"
    ],
    "answer": 2,
-   "why": "GERD is LES dysfunction with reflux."
+   "why": "GERD is LES dysfunction with reflux.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/10.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The oesophageal epithelium is:",
@@ -771,7 +920,14 @@ SINA.lectures["anat2-stomach-oesophagus"] = {
     "Transitional"
    ],
    "answer": 0,
-   "why": "Resists abrasion."
+   "why": "Resists abrasion.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/12.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The upper third of the oesophageal muscularis is:",
@@ -782,7 +938,14 @@ SINA.lectures["anat2-stomach-oesophagus"] = {
     "Smooth"
    ],
    "answer": 1,
-   "why": "Lower third smooth."
+   "why": "Lower third smooth.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/12.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which structure lies directly in front of the lower thoracic oesophagus?",
@@ -793,7 +956,19 @@ SINA.lectures["anat2-stomach-oesophagus"] = {
     "Trachea"
    ],
    "answer": 1,
-   "why": "Enlarged LA can compress it."
+   "why": "Enlarged LA can compress it.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/09.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 9
+    },
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/19.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The left gastric vein drains into the:",
@@ -804,7 +979,19 @@ SINA.lectures["anat2-stomach-oesophagus"] = {
     "Portal vein"
    ],
    "answer": 3,
-   "why": "Portosystemic anastomosis site."
+   "why": "Portosystemic anastomosis site.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/22.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 22
+    },
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/65.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 65
+    }
+   ]
   },
   {
    "q": "The hepatoduodenal ligament contains the:",
@@ -815,7 +1002,14 @@ SINA.lectures["anat2-stomach-oesophagus"] = {
     "Gastroepiploic vessels"
    ],
    "answer": 1,
-   "why": "Part of the lesser omentum."
+   "why": "Part of the lesser omentum.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/58.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "The Pringle manoeuvre compresses the:",
@@ -826,7 +1020,14 @@ SINA.lectures["anat2-stomach-oesophagus"] = {
     "Gastrocolic ligament"
    ],
    "answer": 0,
-   "why": "Controls liver bleeding."
+   "why": "Controls liver bleeding.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/56.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "The short gastric vessels run in the:",
@@ -837,7 +1038,19 @@ SINA.lectures["anat2-stomach-oesophagus"] = {
     "Falciform ligament"
    ],
    "answer": 0,
-   "why": "From the splenic artery."
+   "why": "From the splenic artery.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/62.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 62
+    },
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/63.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 63
+    }
+   ]
   },
   {
    "q": "The right gastric artery arises from the:",
@@ -848,7 +1061,19 @@ SINA.lectures["anat2-stomach-oesophagus"] = {
     "Common hepatic artery"
    ],
    "answer": 3,
-   "why": "Lesser curvature."
+   "why": "Lesser curvature.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/62.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 62
+    },
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/63.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 63
+    }
+   ]
   },
   {
    "q": "The right gastroepiploic artery arises from the:",
@@ -859,7 +1084,19 @@ SINA.lectures["anat2-stomach-oesophagus"] = {
     "Gastroduodenal artery"
    ],
    "answer": 3,
-   "why": "Greater curvature."
+   "why": "Greater curvature.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/62.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 62
+    },
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/63.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 63
+    }
+   ]
   },
   {
    "q": "Parasympathetic supply of the stomach is via the:",
@@ -870,7 +1107,14 @@ SINA.lectures["anat2-stomach-oesophagus"] = {
     "Splanchnic nerves"
    ],
    "answer": 0,
-   "why": "Stimulates secretion and motility."
+   "why": "Stimulates secretion and motility.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-stomach-oesophagus/68.jpg",
+     "lec": "Oesophagus and stomach",
+     "n": 68
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1268,7 +1512,19 @@ SINA.lectures["anat2-small-intestine"] = {
     "30 cm"
    ],
    "answer": 0,
-   "why": "Longest part of the GI tract."
+   "why": "Longest part of the GI tract.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-small-intestine/06.jpg",
+     "lec": "The small intestine",
+     "n": 6
+    },
+    {
+     "src": "files/slides/anat2-small-intestine/07.jpg",
+     "lec": "The small intestine",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The ileum makes up about what fraction of the jejunoileum?",
@@ -1279,7 +1535,14 @@ SINA.lectures["anat2-small-intestine"] = {
     "3/5"
    ],
    "answer": 3,
-   "why": "Jejunum 2/5."
+   "why": "Jejunum 2/5.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-small-intestine/47.jpg",
+     "lec": "The small intestine",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "Most of the duodenum is:",
@@ -1290,7 +1553,14 @@ SINA.lectures["anat2-small-intestine"] = {
     "In the thorax"
    ],
    "answer": 0,
-   "why": "Except its first part."
+   "why": "Except its first part.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-small-intestine/21.jpg",
+     "lec": "The small intestine",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Bile and pancreatic juice enter the duodenum in its:",
@@ -1301,7 +1571,14 @@ SINA.lectures["anat2-small-intestine"] = {
     "3rd part"
    ],
    "answer": 1,
-   "why": "Major duodenal papilla."
+   "why": "Major duodenal papilla.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-small-intestine/22.jpg",
+     "lec": "The small intestine",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which vessels cross in front of the 3rd part of the duodenum?",
@@ -1312,7 +1589,14 @@ SINA.lectures["anat2-small-intestine"] = {
     "Gastric vessels"
    ],
    "answer": 2,
-   "why": "Horizontal part."
+   "why": "Horizontal part.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-small-intestine/45.jpg",
+     "lec": "The small intestine",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "The ligament of Treitz suspends the:",
@@ -1323,7 +1607,14 @@ SINA.lectures["anat2-small-intestine"] = {
     "Gallbladder"
    ],
    "answer": 2,
-   "why": "Suspensory ligament of the duodenum."
+   "why": "Suspensory ligament of the duodenum.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-small-intestine/26.jpg",
+     "lec": "The small intestine",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Brunner's glands are characteristic of the:",
@@ -1334,7 +1625,19 @@ SINA.lectures["anat2-small-intestine"] = {
     "Duodenum"
    ],
    "answer": 3,
-   "why": "Submucosal glands."
+   "why": "Submucosal glands.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-small-intestine/04.jpg",
+     "lec": "The small intestine",
+     "n": 4
+    },
+    {
+     "src": "files/slides/anat2-small-intestine/36.jpg",
+     "lec": "The small intestine",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Peyer's patches are characteristic of the:",
@@ -1345,7 +1648,14 @@ SINA.lectures["anat2-small-intestine"] = {
     "Duodenum"
    ],
    "answer": 2,
-   "why": "Aggregated lymphoid follicles."
+   "why": "Aggregated lymphoid follicles.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-small-intestine/35.jpg",
+     "lec": "The small intestine",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Compared with the ileum, the jejunum is:",
@@ -1356,7 +1666,14 @@ SINA.lectures["anat2-small-intestine"] = {
     "Without plicae"
    ],
    "answer": 1,
-   "why": "Long vasa recta."
+   "why": "Long vasa recta.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-small-intestine/42.jpg",
+     "lec": "The small intestine",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Jejunal and ileal arteries arise from the:",
@@ -1367,7 +1684,14 @@ SINA.lectures["anat2-small-intestine"] = {
     "Superior mesenteric artery"
    ],
    "answer": 3,
-   "why": "15-18 branches."
+   "why": "15-18 branches.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-small-intestine/43.jpg",
+     "lec": "The small intestine",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Vasa recta are:",
@@ -1378,7 +1702,14 @@ SINA.lectures["anat2-small-intestine"] = {
     "Straight arteries"
    ],
    "answer": 3,
-   "why": "Long in the jejunum."
+   "why": "Long in the jejunum.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-small-intestine/43.jpg",
+     "lec": "The small intestine",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Which cells of the small intestine are antimicrobial?",
@@ -1389,7 +1720,19 @@ SINA.lectures["anat2-small-intestine"] = {
     "Parietal cells"
    ],
    "answer": 0,
-   "why": "Secrete defensins."
+   "why": "Secrete defensins.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-small-intestine/04.jpg",
+     "lec": "The small intestine",
+     "n": 4
+    },
+    {
+     "src": "files/slides/anat2-small-intestine/11.jpg",
+     "lec": "The small intestine",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1787,7 +2130,14 @@ SINA.lectures["anat2-colon"] = {
     "Vitamin K production (flora)"
    ],
    "answer": 1,
-   "why": "That happens in the small intestine."
+   "why": "That happens in the small intestine.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-colon/03.jpg",
+     "lec": "The colon and appendix",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Taeniae coli are:",
@@ -1798,7 +2148,14 @@ SINA.lectures["anat2-colon"] = {
     "Sacculations"
    ],
    "answer": 2,
-   "why": "Three bands."
+   "why": "Three bands.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-colon/09.jpg",
+     "lec": "The colon and appendix",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The caecum is usually located in the:",
@@ -1809,7 +2166,14 @@ SINA.lectures["anat2-colon"] = {
     "Epigastrium"
    ],
    "answer": 0,
-   "why": "About 75% of people."
+   "why": "About 75% of people.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-colon/10.jpg",
+     "lec": "The colon and appendix",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The appendix base is found where:",
@@ -1820,7 +2184,14 @@ SINA.lectures["anat2-colon"] = {
     "The hepatic flexure lies"
    ],
    "answer": 1,
-   "why": "Surgical landmark."
+   "why": "Surgical landmark.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-colon/13.jpg",
+     "lec": "The colon and appendix",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The appendix is about how long?",
@@ -1831,7 +2202,14 @@ SINA.lectures["anat2-colon"] = {
     "6-10 cm"
    ],
    "answer": 3,
-   "why": "Blind diverticulum."
+   "why": "Blind diverticulum.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-colon/13.jpg",
+     "lec": "The colon and appendix",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Why does appendicitis pain vary in location?",
@@ -1842,7 +2220,14 @@ SINA.lectures["anat2-colon"] = {
     "Nerves differ"
    ],
    "answer": 1,
-   "why": "Retrocaecal, pelvic, etc."
+   "why": "Retrocaecal, pelvic, etc.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-colon/14.jpg",
+     "lec": "The colon and appendix",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which colon segment has a mesentery and is mobile?",
@@ -1853,7 +2238,19 @@ SINA.lectures["anat2-colon"] = {
     "Descending colon"
    ],
    "answer": 0,
-   "why": "Transverse mesocolon (and sigmoid)."
+   "why": "Transverse mesocolon (and sigmoid).",
+   "slides": [
+    {
+     "src": "files/slides/anat2-colon/09.jpg",
+     "lec": "The colon and appendix",
+     "n": 9
+    },
+    {
+     "src": "files/slides/anat2-colon/25.jpg",
+     "lec": "The colon and appendix",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The root of the sigmoid mesocolon lies over the:",
@@ -1864,7 +2261,14 @@ SINA.lectures["anat2-colon"] = {
     "Right ureter"
    ],
    "answer": 1,
-   "why": "Important in surgery."
+   "why": "Important in surgery.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-colon/22.jpg",
+     "lec": "The colon and appendix",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "The middle colic artery comes from the:",
@@ -1875,7 +2279,19 @@ SINA.lectures["anat2-colon"] = {
     "Coeliac trunk"
    ],
    "answer": 1,
-   "why": "Supplies the transverse colon."
+   "why": "Supplies the transverse colon.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-colon/09.jpg",
+     "lec": "The colon and appendix",
+     "n": 9
+    },
+    {
+     "src": "files/slides/anat2-colon/17.jpg",
+     "lec": "The colon and appendix",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The sigmoid arteries come from the:",
@@ -2357,7 +2773,14 @@ SINA.lectures["anat2-liver"] = {
     "0.5%"
    ],
    "answer": 2,
-   "why": "4-5% in infants."
+   "why": "4-5% in infants.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-liver/02.jpg",
+     "lec": "The liver",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The liver's double inflow consists of:",
@@ -2368,7 +2791,19 @@ SINA.lectures["anat2-liver"] = {
     "Portal vein and hepatic artery"
    ],
    "answer": 3,
-   "why": "Outflow: hepatic veins and bile ducts."
+   "why": "Outflow: hepatic veins and bile ducts.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-liver/39.jpg",
+     "lec": "The liver",
+     "n": 39
+    },
+    {
+     "src": "files/slides/anat2-liver/66.jpg",
+     "lec": "The liver",
+     "n": 66
+    }
+   ]
   },
   {
    "q": "The upper border of the liver reaches the:",
@@ -2379,7 +2814,19 @@ SINA.lectures["anat2-liver"] = {
     "5th right rib"
    ],
    "answer": 3,
-   "why": "To the 6th left rib."
+   "why": "To the 6th left rib.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-liver/07.jpg",
+     "lec": "The liver",
+     "n": 7
+    },
+    {
+     "src": "files/slides/anat2-liver/08.jpg",
+     "lec": "The liver",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The bare area of the liver is found on its:",
@@ -2390,7 +2837,14 @@ SINA.lectures["anat2-liver"] = {
     "Inferior surface"
    ],
    "answer": 0,
-   "why": "Not covered by peritoneum."
+   "why": "Not covered by peritoneum.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-liver/11.jpg",
+     "lec": "The liver",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The round ligament of the liver is the remnant of the:",
@@ -2401,7 +2855,19 @@ SINA.lectures["anat2-liver"] = {
     "Ductus arteriosus"
    ],
    "answer": 2,
-   "why": "Ligamentum venosum = ductus venosus."
+   "why": "Ligamentum venosum = ductus venosus.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-liver/22.jpg",
+     "lec": "The liver",
+     "n": 22
+    },
+    {
+     "src": "files/slides/anat2-liver/28.jpg",
+     "lec": "The liver",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which lobe lies between the IVC and the ligamentum venosum?",
@@ -2412,7 +2878,14 @@ SINA.lectures["anat2-liver"] = {
     "Quadrate"
    ],
    "answer": 2,
-   "why": "Segment 1."
+   "why": "Segment 1.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-liver/55.jpg",
+     "lec": "The liver",
+     "n": 55
+    }
+   ]
   },
   {
    "q": "The portal triad runs in the:",
@@ -2423,7 +2896,14 @@ SINA.lectures["anat2-liver"] = {
     "Coronary ligament"
    ],
    "answer": 1,
-   "why": "To the porta hepatis."
+   "why": "To the porta hepatis.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-liver/39.jpg",
+     "lec": "The liver",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which is NOT a portosystemic anastomosis?",
@@ -2434,7 +2914,14 @@ SINA.lectures["anat2-liver"] = {
     "Oesophageal"
    ],
    "answer": 1,
-   "why": "The fourth is retroperitoneal."
+   "why": "The fourth is retroperitoneal.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-liver/42.jpg",
+     "lec": "The liver",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "'Caput medusae' reflects dilation of which anastomosis?",
@@ -2445,7 +2932,14 @@ SINA.lectures["anat2-liver"] = {
     "Oesophageal"
    ],
    "answer": 0,
-   "why": "Around the umbilicus."
+   "why": "Around the umbilicus.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-liver/42.jpg",
+     "lec": "The liver",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "How many Couinaud segments does the liver have?",
@@ -2456,7 +2950,14 @@ SINA.lectures["anat2-liver"] = {
     "6"
    ],
    "answer": 0,
-   "why": "4 sectors, 2 hemilivers."
+   "why": "4 sectors, 2 hemilivers.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-liver/50.jpg",
+     "lec": "The liver",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "The right and left hemilivers are separated by the plane of the:",
@@ -2467,7 +2968,19 @@ SINA.lectures["anat2-liver"] = {
     "Falciform ligament"
    ],
    "answer": 1,
-   "why": "Main portal fissure."
+   "why": "Main portal fissure.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-liver/51.jpg",
+     "lec": "The liver",
+     "n": 51
+    },
+    {
+     "src": "files/slides/anat2-liver/52.jpg",
+     "lec": "The liver",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "Segment 1 corresponds to the:",
@@ -2478,7 +2991,19 @@ SINA.lectures["anat2-liver"] = {
     "Caudate lobe"
    ],
    "answer": 3,
-   "why": "Drains directly into the IVC."
+   "why": "Drains directly into the IVC.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-liver/30.jpg",
+     "lec": "The liver",
+     "n": 30
+    },
+    {
+     "src": "files/slides/anat2-liver/55.jpg",
+     "lec": "The liver",
+     "n": 55
+    }
+   ]
   },
   {
    "q": "Glisson's capsule pain is carried by the:",
@@ -2489,7 +3014,14 @@ SINA.lectures["anat2-liver"] = {
     "Coeliac plexus only"
    ],
    "answer": 1,
-   "why": "Somatic innervation."
+   "why": "Somatic innervation.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-liver/66.jpg",
+     "lec": "The liver",
+     "n": 66
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2930,7 +3462,14 @@ SINA.lectures["anat2-biliary"] = {
     "3-4 L"
    ],
    "answer": 2,
-   "why": "Continuously."
+   "why": "Continuously.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-biliary/04.jpg",
+     "lec": "The biliary system",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Bilirubin comes from the breakdown of:",
@@ -2941,7 +3480,14 @@ SINA.lectures["anat2-biliary"] = {
     "Cholesterol"
    ],
    "answer": 1,
-   "why": "Main bile pigment."
+   "why": "Main bile pigment.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-biliary/04.jpg",
+     "lec": "The biliary system",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Bile salts are reabsorbed mainly in the:",
@@ -2952,7 +3498,14 @@ SINA.lectures["anat2-biliary"] = {
     "Jejunum"
    ],
    "answer": 0,
-   "why": "Enterohepatic circulation."
+   "why": "Enterohepatic circulation.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-biliary/04.jpg",
+     "lec": "The biliary system",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which hepatic duct has a long extrahepatic course?",
@@ -2963,7 +3516,14 @@ SINA.lectures["anat2-biliary"] = {
     "Right"
    ],
    "answer": 1,
-   "why": "Under the quadrate lobe."
+   "why": "Under the quadrate lobe.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-biliary/17.jpg",
+     "lec": "The biliary system",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The common bile duct is formed by the union of the:",
@@ -2974,7 +3534,19 @@ SINA.lectures["anat2-biliary"] = {
     "Common hepatic and cystic ducts"
    ],
    "answer": 3,
-   "why": "In the hepatoduodenal ligament."
+   "why": "In the hepatoduodenal ligament.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-biliary/19.jpg",
+     "lec": "The biliary system",
+     "n": 19
+    },
+    {
+     "src": "files/slides/anat2-biliary/25.jpg",
+     "lec": "The biliary system",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The common bile duct passes through the:",
@@ -2985,7 +3557,14 @@ SINA.lectures["anat2-biliary"] = {
     "Transverse mesocolon"
    ],
    "answer": 2,
-   "why": "Intrapancreatic part."
+   "why": "Intrapancreatic part.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-biliary/32.jpg",
+     "lec": "The biliary system",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "The ampulla opens into the:",
@@ -2996,7 +3575,14 @@ SINA.lectures["anat2-biliary"] = {
     "Stomach"
    ],
    "answer": 0,
-   "why": "Major duodenal papilla."
+   "why": "Major duodenal papilla.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-biliary/32.jpg",
+     "lec": "The biliary system",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which sphincter controls bile and pancreatic juice release?",
@@ -3007,7 +3593,14 @@ SINA.lectures["anat2-biliary"] = {
     "Ileocaecal"
    ],
    "answer": 2,
-   "why": "At the papilla."
+   "why": "At the papilla.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-biliary/33.jpg",
+     "lec": "The biliary system",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "The gallbladder lies under which liver segments?",
@@ -3018,7 +3611,14 @@ SINA.lectures["anat2-biliary"] = {
     "4b-5"
    ],
    "answer": 3,
-   "why": "Above the first part of duodenum."
+   "why": "Above the first part of duodenum.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-biliary/23.jpg",
+     "lec": "The biliary system",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The valve of Heister is found in the:",
@@ -3029,7 +3629,14 @@ SINA.lectures["anat2-biliary"] = {
     "Ampulla"
    ],
    "answer": 1,
-   "why": "Spiral folds."
+   "why": "Spiral folds.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-biliary/25.jpg",
+     "lec": "The biliary system",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Which artery crosses the hepatocystic triangle?",
@@ -3040,7 +3647,14 @@ SINA.lectures["anat2-biliary"] = {
     "Gastroduodenal"
    ],
    "answer": 0,
-   "why": "Must be identified in cholecystectomy."
+   "why": "Must be identified in cholecystectomy.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-biliary/28.jpg",
+     "lec": "The biliary system",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Gallbladder pain referred to the right shoulder involves the:",
@@ -3051,7 +3665,19 @@ SINA.lectures["anat2-biliary"] = {
     "Right phrenic nerve"
    ],
    "answer": 3,
-   "why": "C3-C5."
+   "why": "C3-C5.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-biliary/05.jpg",
+     "lec": "The biliary system",
+     "n": 5
+    },
+    {
+     "src": "files/slides/anat2-biliary/38.jpg",
+     "lec": "The biliary system",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3494,7 +4120,14 @@ SINA.lectures["anat2-pancreas"] = {
     "Insulin and glucagon"
    ],
    "answer": 3,
-   "why": "Endocrine part."
+   "why": "Endocrine part.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pancreas/02.jpg",
+     "lec": "The pancreas",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Which part of the pancreas lies in the C of the duodenum?",
@@ -3505,7 +4138,19 @@ SINA.lectures["anat2-pancreas"] = {
     "Head"
    ],
    "answer": 3,
-   "why": "CBD behind it."
+   "why": "CBD behind it.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pancreas/08.jpg",
+     "lec": "The pancreas",
+     "n": 8
+    },
+    {
+     "src": "files/slides/anat2-pancreas/17.jpg",
+     "lec": "The pancreas",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The uncinate process lies behind the:",
@@ -3516,7 +4161,19 @@ SINA.lectures["anat2-pancreas"] = {
     "Splenic artery"
    ],
    "answer": 0,
-   "why": "Hooks medially."
+   "why": "Hooks medially.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pancreas/11.jpg",
+     "lec": "The pancreas",
+     "n": 11
+    },
+    {
+     "src": "files/slides/anat2-pancreas/16.jpg",
+     "lec": "The pancreas",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The portal vein forms behind the:",
@@ -3527,7 +4184,14 @@ SINA.lectures["anat2-pancreas"] = {
     "Uncinate process"
    ],
    "answer": 2,
-   "why": "SMV + splenic vein."
+   "why": "SMV + splenic vein.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pancreas/13.jpg",
+     "lec": "The pancreas",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The pancreatic tail lies in the:",
@@ -3538,7 +4202,14 @@ SINA.lectures["anat2-pancreas"] = {
     "Gastrocolic ligament"
    ],
    "answer": 2,
-   "why": "With splenic vessels."
+   "why": "With splenic vessels.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pancreas/19.jpg",
+     "lec": "The pancreas",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The main pancreatic duct is named after:",
@@ -3549,7 +4220,14 @@ SINA.lectures["anat2-pancreas"] = {
     "Oddi"
    ],
    "answer": 1,
-   "why": "Joins the CBD."
+   "why": "Joins the CBD.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pancreas/25.jpg",
+     "lec": "The pancreas",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The accessory pancreatic duct opens at the:",
@@ -3560,7 +4238,14 @@ SINA.lectures["anat2-pancreas"] = {
     "Pylorus"
    ],
    "answer": 1,
-   "why": "Duct of Santorini."
+   "why": "Duct of Santorini.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pancreas/28.jpg",
+     "lec": "The pancreas",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "An annular pancreas results from failure of:",
@@ -3571,7 +4256,14 @@ SINA.lectures["anat2-pancreas"] = {
     "Spleen development"
    ],
    "answer": 0,
-   "why": "Ring around D2."
+   "why": "Ring around D2.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pancreas/24.jpg",
+     "lec": "The pancreas",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Pancreas divisum means:",
@@ -3582,7 +4274,19 @@ SINA.lectures["anat2-pancreas"] = {
     "Two separate glands"
    ],
    "answer": 0,
-   "why": "Dorsal duct drains via minor papilla."
+   "why": "Dorsal duct drains via minor papilla.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pancreas/28.jpg",
+     "lec": "The pancreas",
+     "n": 28
+    },
+    {
+     "src": "files/slides/anat2-pancreas/29.jpg",
+     "lec": "The pancreas",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "The inferior pancreaticoduodenal arteries arise from the:",
@@ -3593,7 +4297,14 @@ SINA.lectures["anat2-pancreas"] = {
     "Gastroduodenal artery"
    ],
    "answer": 1,
-   "why": "Superior ones from the GDA."
+   "why": "Superior ones from the GDA.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pancreas/35.jpg",
+     "lec": "The pancreas",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "The body and tail are supplied mainly by the:",
@@ -3604,7 +4315,14 @@ SINA.lectures["anat2-pancreas"] = {
     "Splenic artery"
    ],
    "answer": 3,
-   "why": "Dorsal, greater pancreatic arteries."
+   "why": "Dorsal, greater pancreatic arteries.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pancreas/37.jpg",
+     "lec": "The pancreas",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Venous blood from the pancreatic body drains into the:",
@@ -3615,7 +4333,19 @@ SINA.lectures["anat2-pancreas"] = {
     "IVC"
    ],
    "answer": 1,
-   "why": "Head: SMV and portal."
+   "why": "Head: SMV and portal.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pancreas/13.jpg",
+     "lec": "The pancreas",
+     "n": 13
+    },
+    {
+     "src": "files/slides/anat2-pancreas/38.jpg",
+     "lec": "The pancreas",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4039,7 +4769,14 @@ SINA.lectures["anat2-spleen"] = {
     "500 g"
    ],
    "answer": 2,
-   "why": "10-12 cm long."
+   "why": "10-12 cm long.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-spleen/02.jpg",
+     "lec": "The spleen",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The spleen is:",
@@ -4050,7 +4787,14 @@ SINA.lectures["anat2-spleen"] = {
     "Retroperitoneal"
    ],
    "answer": 1,
-   "why": "Suspended by ligaments."
+   "why": "Suspended by ligaments.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-spleen/02.jpg",
+     "lec": "The spleen",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The spleen lies against which ribs?",
@@ -4061,7 +4805,14 @@ SINA.lectures["anat2-spleen"] = {
     "Left 11-12 only"
    ],
    "answer": 0,
-   "why": "Long axis along rib 10."
+   "why": "Long axis along rib 10.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-spleen/04.jpg",
+     "lec": "The spleen",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "A spleen palpable below the left costal margin is usually:",
@@ -4072,7 +4823,19 @@ SINA.lectures["anat2-spleen"] = {
     "Absent"
    ],
    "answer": 1,
-   "why": "Splenomegaly."
+   "why": "Splenomegaly.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-spleen/14.jpg",
+     "lec": "The spleen",
+     "n": 14
+    },
+    {
+     "src": "files/slides/anat2-spleen/19.jpg",
+     "lec": "The spleen",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which ligament carries the short gastric vessels?",
@@ -4083,7 +4846,14 @@ SINA.lectures["anat2-spleen"] = {
     "Gastrosplenic"
    ],
    "answer": 3,
-   "why": "From the greater curvature."
+   "why": "From the greater curvature.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-spleen/14.jpg",
+     "lec": "The spleen",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which ligament contains the tail of the pancreas?",
@@ -4094,7 +4864,14 @@ SINA.lectures["anat2-spleen"] = {
     "Hepatoduodenal"
    ],
    "answer": 0,
-   "why": "With the splenic vessels."
+   "why": "With the splenic vessels.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-spleen/14.jpg",
+     "lec": "The spleen",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The splenic artery is the largest branch of the:",
@@ -4105,7 +4882,14 @@ SINA.lectures["anat2-spleen"] = {
     "SMA"
    ],
    "answer": 0,
-   "why": "Tortuous course."
+   "why": "Tortuous course.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-spleen/19.jpg",
+     "lec": "The spleen",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The splenic artery runs along the:",
@@ -4116,7 +4900,14 @@ SINA.lectures["anat2-spleen"] = {
     "Transverse colon"
    ],
    "answer": 2,
-   "why": "Behind the lesser sac."
+   "why": "Behind the lesser sac.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-spleen/19.jpg",
+     "lec": "The spleen",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Segmental branching of the splenic artery allows:",
@@ -4127,7 +4918,14 @@ SINA.lectures["anat2-spleen"] = {
     "Partial (segmental) splenectomy"
    ],
    "answer": 3,
-   "why": "Spleen preservation."
+   "why": "Spleen preservation.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-spleen/20.jpg",
+     "lec": "The spleen",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The splenic vein joins the SMV to form the:",
@@ -4138,7 +4936,14 @@ SINA.lectures["anat2-spleen"] = {
     "Renal vein"
    ],
    "answer": 1,
-   "why": "Behind the pancreatic neck."
+   "why": "Behind the pancreatic neck.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-spleen/23.jpg",
+     "lec": "The spleen",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The spleen is separated from the ribs by the diaphragm and the:",
@@ -4149,7 +4954,14 @@ SINA.lectures["anat2-spleen"] = {
     "Paracolic gutter"
    ],
    "answer": 0,
-   "why": "Rib fractures can injure pleura and spleen."
+   "why": "Rib fractures can injure pleura and spleen.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-spleen/04.jpg",
+     "lec": "The spleen",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4565,7 +5377,14 @@ SINA.lectures["anat2-vessels"] = {
     "L4"
    ],
    "answer": 3,
-   "why": "Into the common iliac arteries."
+   "why": "Into the common iliac arteries.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-vessels/03.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The coeliac trunk arises at:",
@@ -4576,7 +5395,14 @@ SINA.lectures["anat2-vessels"] = {
     "L3"
    ],
    "answer": 2,
-   "why": "Supplies the foregut."
+   "why": "Supplies the foregut.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-vessels/06.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The superior mesenteric artery arises at:",
@@ -4587,7 +5413,14 @@ SINA.lectures["anat2-vessels"] = {
     "L1"
    ],
    "answer": 3,
-   "why": "Midgut."
+   "why": "Midgut.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-vessels/08.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The inferior mesenteric artery arises at:",
@@ -4598,7 +5431,14 @@ SINA.lectures["anat2-vessels"] = {
     "L1"
    ],
    "answer": 2,
-   "why": "Hindgut."
+   "why": "Hindgut.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-vessels/10.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which is NOT a branch of the coeliac trunk?",
@@ -4609,7 +5449,19 @@ SINA.lectures["anat2-vessels"] = {
     "Left gastric"
    ],
    "answer": 0,
-   "why": "Middle colic comes from the SMA."
+   "why": "Middle colic comes from the SMA.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-vessels/08.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 8
+    },
+    {
+     "src": "files/slides/anat2-vessels/09.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The SMA supplies all of the small intestine except the:",
@@ -4620,7 +5472,14 @@ SINA.lectures["anat2-vessels"] = {
     "Ileum"
    ],
    "answer": 1,
-   "why": "Duodenum shared with coeliac."
+   "why": "Duodenum shared with coeliac.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-vessels/08.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The renal arteries arise:",
@@ -4631,7 +5490,19 @@ SINA.lectures["anat2-vessels"] = {
     "From the IMA"
    ],
    "answer": 1,
-   "why": "Lateral branches."
+   "why": "Lateral branches.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-vessels/13.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 13
+    },
+    {
+     "src": "files/slides/anat2-vessels/17.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The gonadal arteries arise:",
@@ -4642,7 +5513,14 @@ SINA.lectures["anat2-vessels"] = {
     "Aorta, below renals"
    ],
    "answer": 3,
-   "why": "Run on psoas."
+   "why": "Run on psoas.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-vessels/13.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The IVC begins at the level of:",
@@ -4653,7 +5531,14 @@ SINA.lectures["anat2-vessels"] = {
     "L1"
    ],
    "answer": 1,
-   "why": "Union of common iliac veins."
+   "why": "Union of common iliac veins.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-vessels/23.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The IVC passes through the diaphragm at:",
@@ -4664,7 +5549,14 @@ SINA.lectures["anat2-vessels"] = {
     "L1"
    ],
    "answer": 0,
-   "why": "Central tendon."
+   "why": "Central tendon.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-vessels/23.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The left gonadal vein drains into the:",
@@ -4675,7 +5567,19 @@ SINA.lectures["anat2-vessels"] = {
     "Portal vein"
    ],
    "answer": 0,
-   "why": "The right drains into the IVC."
+   "why": "The right drains into the IVC.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-vessels/24.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 24
+    },
+    {
+     "src": "files/slides/anat2-vessels/27.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which veins do NOT drain into the IVC?",
@@ -4686,7 +5590,19 @@ SINA.lectures["anat2-vessels"] = {
     "Gut and spleen veins"
    ],
    "answer": 3,
-   "why": "They go to the portal vein."
+   "why": "They go to the portal vein.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-vessels/23.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 23
+    },
+    {
+     "src": "files/slides/anat2-vessels/27.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "The inferior mesenteric vein usually drains into the:",
@@ -4697,7 +5613,14 @@ SINA.lectures["anat2-vessels"] = {
     "Splenic vein"
    ],
    "answer": 3,
-   "why": "Then portal vein."
+   "why": "Then portal vein.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-vessels/27.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "TIPS is a treatment for:",
@@ -4708,7 +5631,14 @@ SINA.lectures["anat2-vessels"] = {
     "DVT"
    ],
    "answer": 0,
-   "why": "Transjugular intrahepatic portosystemic shunt."
+   "why": "Transjugular intrahepatic portosystemic shunt.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-vessels/32.jpg",
+     "lec": "Blood vessels of the abdomen",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5117,7 +6047,19 @@ SINA.lectures["anat2-lymph-nerves"] = {
     "Left subclavian vein"
    ],
    "answer": 3,
-   "why": "At the left venous angle."
+   "why": "At the left venous angle.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-lymph-nerves/07.jpg",
+     "lec": "Lymphatics and innervation of the",
+     "n": 7
+    },
+    {
+     "src": "files/slides/anat2-lymph-nerves/08.jpg",
+     "lec": "Lymphatics and innervation of the",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Visceral lymphatics generally follow the:",
@@ -5128,7 +6070,14 @@ SINA.lectures["anat2-lymph-nerves"] = {
     "Veins"
    ],
    "answer": 2,
-   "why": "Parietal lymphatics follow veins."
+   "why": "Parietal lymphatics follow veins.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-lymph-nerves/09.jpg",
+     "lec": "Lymphatics and innervation of the",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Lymph from the midgut drains to the:",
@@ -5139,7 +6088,19 @@ SINA.lectures["anat2-lymph-nerves"] = {
     "Inferior mesenteric nodes"
    ],
    "answer": 1,
-   "why": "Foregut → coeliac."
+   "why": "Foregut → coeliac.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-lymph-nerves/14.jpg",
+     "lec": "Lymphatics and innervation of the",
+     "n": 14
+    },
+    {
+     "src": "files/slides/anat2-lymph-nerves/15.jpg",
+     "lec": "Lymphatics and innervation of the",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The cisterna chyli lies in front of:",
@@ -5150,7 +6111,14 @@ SINA.lectures["anat2-lymph-nerves"] = {
     "S1"
    ],
    "answer": 2,
-   "why": "5-7 cm sac."
+   "why": "5-7 cm sac.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-lymph-nerves/17.jpg",
+     "lec": "Lymphatics and innervation of the",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Lymph from the lower third of the oesophagus drains to the:",
@@ -5161,7 +6129,14 @@ SINA.lectures["anat2-lymph-nerves"] = {
     "Axillary nodes"
    ],
    "answer": 0,
-   "why": "Middle third → mediastinal."
+   "why": "Middle third → mediastinal.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-lymph-nerves/21.jpg",
+     "lec": "Lymphatics and innervation of the",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Why can oesophageal cancer spread far along the organ?",
@@ -5172,7 +6147,14 @@ SINA.lectures["anat2-lymph-nerves"] = {
     "Submucosal network"
    ],
    "answer": 3,
-   "why": "Bidirectional flow."
+   "why": "Bidirectional flow.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-lymph-nerves/20.jpg",
+     "lec": "Lymphatics and innervation of the",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which nerve passes through the inguinal canal?",
@@ -5183,7 +6165,14 @@ SINA.lectures["anat2-lymph-nerves"] = {
     "Iliohypogastric"
    ],
    "answer": 1,
-   "why": "L1."
+   "why": "L1.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-lymph-nerves/38.jpg",
+     "lec": "Lymphatics and innervation of the",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "The genital branch of the genitofemoral nerve supplies the:",
@@ -5194,7 +6183,14 @@ SINA.lectures["anat2-lymph-nerves"] = {
     "Psoas"
    ],
    "answer": 0,
-   "why": "And scrotal/labial skin."
+   "why": "And scrotal/labial skin.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-lymph-nerves/38.jpg",
+     "lec": "Lymphatics and innervation of the",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "The greater splanchnic nerve (T5-T9) synapses in the:",
@@ -5205,7 +6201,14 @@ SINA.lectures["anat2-lymph-nerves"] = {
     "Coeliac ganglion"
    ],
    "answer": 3,
-   "why": "Foregut."
+   "why": "Foregut.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-lymph-nerves/43.jpg",
+     "lec": "Lymphatics and innervation of the",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Parasympathetic supply to the descending colon comes from:",
@@ -5216,7 +6219,14 @@ SINA.lectures["anat2-lymph-nerves"] = {
     "Greater splanchnic"
    ],
    "answer": 0,
-   "why": "Hindgut."
+   "why": "Hindgut.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-lymph-nerves/45.jpg",
+     "lec": "Lymphatics and innervation of the",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "The vagus supplies the gut as far as:",
@@ -5227,7 +6237,14 @@ SINA.lectures["anat2-lymph-nerves"] = {
     "The duodenum"
    ],
    "answer": 0,
-   "why": "Midgut boundary."
+   "why": "Midgut boundary.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-lymph-nerves/45.jpg",
+     "lec": "Lymphatics and innervation of the",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Sympathetic stimulation of the gut:",
@@ -5238,7 +6255,19 @@ SINA.lectures["anat2-lymph-nerves"] = {
     "Relaxes sphincters"
    ],
    "answer": 1,
-   "why": "Fight or flight."
+   "why": "Fight or flight.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-lymph-nerves/42.jpg",
+     "lec": "Lymphatics and innervation of the",
+     "n": 42
+    },
+    {
+     "src": "files/slides/anat2-lymph-nerves/48.jpg",
+     "lec": "Lymphatics and innervation of the",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "The myenteric plexus is also called:",
@@ -5249,7 +6278,14 @@ SINA.lectures["anat2-lymph-nerves"] = {
     "Auerbach's plexus"
    ],
    "answer": 3,
-   "why": "Between muscle layers."
+   "why": "Between muscle layers.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-lymph-nerves/46.jpg",
+     "lec": "Lymphatics and innervation of the",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5629,7 +6665,14 @@ SINA.lectures["anat2-pelvic-vessels"] = {
     "S3"
    ],
    "answer": 2,
-   "why": "Aorta bifurcates at L4."
+   "why": "Aorta bifurcates at L4.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pelvic-vessels/05.jpg",
+     "lec": "Pelvic vessels, lymphatics and",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The external iliac artery becomes the:",
@@ -5640,7 +6683,14 @@ SINA.lectures["anat2-pelvic-vessels"] = {
     "Internal pudendal artery"
    ],
    "answer": 2,
-   "why": "Under the inguinal ligament."
+   "why": "Under the inguinal ligament.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pelvic-vessels/05.jpg",
+     "lec": "Pelvic vessels, lymphatics and",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which branch belongs to the posterior division of the internal iliac?",
@@ -5651,7 +6701,19 @@ SINA.lectures["anat2-pelvic-vessels"] = {
     "Superior gluteal"
    ],
    "answer": 3,
-   "why": "Also iliolumbar and lateral sacral."
+   "why": "Also iliolumbar and lateral sacral.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pelvic-vessels/15.jpg",
+     "lec": "Pelvic vessels, lymphatics and",
+     "n": 15
+    },
+    {
+     "src": "files/slides/anat2-pelvic-vessels/16.jpg",
+     "lec": "Pelvic vessels, lymphatics and",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The obliterated umbilical artery forms the:",
@@ -5662,7 +6724,14 @@ SINA.lectures["anat2-pelvic-vessels"] = {
     "Round ligament"
    ],
    "answer": 0,
-   "why": "Superior vesical arises from its patent part."
+   "why": "Superior vesical arises from its patent part.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pelvic-vessels/08.jpg",
+     "lec": "Pelvic vessels, lymphatics and",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The uterine artery crosses:",
@@ -5673,7 +6742,14 @@ SINA.lectures["anat2-pelvic-vessels"] = {
     "Under the ureter"
    ],
    "answer": 1,
-   "why": "'Water under the bridge'."
+   "why": "'Water under the bridge'.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pelvic-vessels/10.jpg",
+     "lec": "Pelvic vessels, lymphatics and",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The internal pudendal artery leaves the pelvis through the:",
@@ -5684,7 +6760,14 @@ SINA.lectures["anat2-pelvic-vessels"] = {
     "Obturator canal"
    ],
    "answer": 0,
-   "why": "Returns through the lesser."
+   "why": "Returns through the lesser.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pelvic-vessels/13.jpg",
+     "lec": "Pelvic vessels, lymphatics and",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The middle rectal artery anastomoses with the:",
@@ -5695,7 +6778,14 @@ SINA.lectures["anat2-pelvic-vessels"] = {
     "Other rectal arteries"
    ],
    "answer": 3,
-   "why": "IMA and pudendal territories."
+   "why": "IMA and pudendal territories.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pelvic-vessels/11.jpg",
+     "lec": "Pelvic vessels, lymphatics and",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The superior rectal vein drains into the:",
@@ -5706,7 +6796,14 @@ SINA.lectures["anat2-pelvic-vessels"] = {
     "Left renal vein"
    ],
    "answer": 1,
-   "why": "Portosystemic anastomosis."
+   "why": "Portosystemic anastomosis.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pelvic-vessels/19.jpg",
+     "lec": "Pelvic vessels, lymphatics and",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which nodes are key for prostate and cervical cancer staging?",
@@ -5717,7 +6814,14 @@ SINA.lectures["anat2-pelvic-vessels"] = {
     "Obturator"
    ],
    "answer": 3,
-   "why": "In the obturator fossa."
+   "why": "In the obturator fossa.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pelvic-vessels/21.jpg",
+     "lec": "Pelvic vessels, lymphatics and",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The superior hypogastric plexus lies in front of:",
@@ -5728,7 +6832,14 @@ SINA.lectures["anat2-pelvic-vessels"] = {
     "S3"
    ],
    "answer": 1,
-   "why": "Purely sympathetic."
+   "why": "Purely sympathetic.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pelvic-vessels/26.jpg",
+     "lec": "Pelvic vessels, lymphatics and",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "The pelvic splanchnic nerves arise from:",
@@ -5739,7 +6850,14 @@ SINA.lectures["anat2-pelvic-vessels"] = {
     "T10-L2"
    ],
    "answer": 1,
-   "why": "Nervi erigentes."
+   "why": "Nervi erigentes.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pelvic-vessels/28.jpg",
+     "lec": "Pelvic vessels, lymphatics and",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Erection is mainly mediated by:",
@@ -5750,7 +6868,19 @@ SINA.lectures["anat2-pelvic-vessels"] = {
     "Pudendal motor fibres only"
    ],
    "answer": 0,
-   "why": "Point and shoot."
+   "why": "Point and shoot.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pelvic-vessels/25.jpg",
+     "lec": "Pelvic vessels, lymphatics and",
+     "n": 25
+    },
+    {
+     "src": "files/slides/anat2-pelvic-vessels/27.jpg",
+     "lec": "Pelvic vessels, lymphatics and",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Ejaculation is mainly mediated by:",
@@ -5761,7 +6891,14 @@ SINA.lectures["anat2-pelvic-vessels"] = {
     "Sympathetic fibres"
    ],
    "answer": 3,
-   "why": "Also bladder neck closure."
+   "why": "Also bladder neck closure.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pelvic-vessels/26.jpg",
+     "lec": "Pelvic vessels, lymphatics and",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "A lesion of S2-S4 typically causes:",
@@ -5772,7 +6909,14 @@ SINA.lectures["anat2-pelvic-vessels"] = {
     "Spastic bladder"
    ],
    "answer": 2,
-   "why": "Lower motor neurone."
+   "why": "Lower motor neurone.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-pelvic-vessels/31.jpg",
+     "lec": "Pelvic vessels, lymphatics and",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -6135,7 +7279,19 @@ SINA.lectures["anat2-perineum"] = {
     "Psoas"
    ],
    "answer": 1,
-   "why": "Pelvic diaphragm."
+   "why": "Pelvic diaphragm.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-perineum/06.jpg",
+     "lec": "Perineum and pelvic floor",
+     "n": 6
+    },
+    {
+     "src": "files/slides/anat2-perineum/27.jpg",
+     "lec": "Perineum and pelvic floor",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "The perineum lies:",
@@ -6146,7 +7302,14 @@ SINA.lectures["anat2-perineum"] = {
     "In the thigh"
    ],
    "answer": 2,
-   "why": "Soft tissues below."
+   "why": "Soft tissues below.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-perineum/08.jpg",
+     "lec": "Perineum and pelvic floor",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The perineum is divided into two triangles by a line joining the:",
@@ -6157,7 +7320,14 @@ SINA.lectures["anat2-perineum"] = {
     "Sacral promontory and coccyx"
    ],
    "answer": 2,
-   "why": "Urogenital and anal."
+   "why": "Urogenital and anal.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-perineum/09.jpg",
+     "lec": "Perineum and pelvic floor",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which muscle lies in the superficial perineal space?",
@@ -6168,7 +7338,19 @@ SINA.lectures["anat2-perineum"] = {
     "Bulbospongiosus"
    ],
    "answer": 3,
-   "why": "Also ischiocavernosus."
+   "why": "Also ischiocavernosus.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-perineum/19.jpg",
+     "lec": "Perineum and pelvic floor",
+     "n": 19
+    },
+    {
+     "src": "files/slides/anat2-perineum/20.jpg",
+     "lec": "Perineum and pelvic floor",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The external urethral sphincter lies in the:",
@@ -6179,7 +7361,19 @@ SINA.lectures["anat2-perineum"] = {
     "Deep perineal space"
    ],
    "answer": 3,
-   "why": "With the deep transverse perineal muscle."
+   "why": "With the deep transverse perineal muscle.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-perineum/13.jpg",
+     "lec": "Perineum and pelvic floor",
+     "n": 13
+    },
+    {
+     "src": "files/slides/anat2-perineum/14.jpg",
+     "lec": "Perineum and pelvic floor",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The anal triangle contains the:",
@@ -6190,7 +7384,19 @@ SINA.lectures["anat2-perineum"] = {
     "Corpora cavernosa"
    ],
    "answer": 0,
-   "why": "Posterior triangle."
+   "why": "Posterior triangle.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-perineum/09.jpg",
+     "lec": "Perineum and pelvic floor",
+     "n": 9
+    },
+    {
+     "src": "files/slides/anat2-perineum/13.jpg",
+     "lec": "Perineum and pelvic floor",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The perineal body is:",
@@ -6212,7 +7418,19 @@ SINA.lectures["anat2-perineum"] = {
     "Puborectalis"
    ],
    "answer": 3,
-   "why": "Maintains continence."
+   "why": "Maintains continence.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-perineum/29.jpg",
+     "lec": "Perineum and pelvic floor",
+     "n": 29
+    },
+    {
+     "src": "files/slides/anat2-perineum/30.jpg",
+     "lec": "Perineum and pelvic floor",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Weakness of the pelvic floor can cause:",
@@ -6223,7 +7441,14 @@ SINA.lectures["anat2-perineum"] = {
     "Inguinal hernia only"
    ],
    "answer": 1,
-   "why": "Childbirth, ageing."
+   "why": "Childbirth, ageing.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-perineum/02.jpg",
+     "lec": "Perineum and pelvic floor",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The greater vestibular glands are found in the:",
@@ -6234,7 +7459,19 @@ SINA.lectures["anat2-perineum"] = {
     "Pelvic cavity"
    ],
    "answer": 0,
-   "why": "Female perineum."
+   "why": "Female perineum.",
+   "slides": [
+    {
+     "src": "files/slides/anat2-perineum/16.jpg",
+     "lec": "Perineum and pelvic floor",
+     "n": 16
+    },
+    {
+     "src": "files/slides/anat2-perineum/17.jpg",
+     "lec": "Perineum and pelvic floor",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

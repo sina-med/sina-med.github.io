@@ -203,7 +203,14 @@ SINA.lectures["embryo1-gametogenesis"] = {
     "Polyploid"
    ],
    "answer": 1,
-   "why": "23 chromosomes."
+   "why": "23 chromosomes.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gametogenesis/05.jpg",
+     "lec": "Gametogenesis",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Crossing-over occurs during:",
@@ -214,7 +221,19 @@ SINA.lectures["embryo1-gametogenesis"] = {
     "Interphase"
    ],
    "answer": 0,
-   "why": "Between non-sister chromatids of homologues."
+   "why": "Between non-sister chromatids of homologues.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gametogenesis/07.jpg",
+     "lec": "Gametogenesis",
+     "n": 7
+    },
+    {
+     "src": "files/slides/embryo1-gametogenesis/08.jpg",
+     "lec": "Gametogenesis",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Homologous chromosomes separate in:",
@@ -225,7 +244,19 @@ SINA.lectures["embryo1-gametogenesis"] = {
     "S phase"
    ],
    "answer": 1,
-   "why": "Meiosis I is reductional."
+   "why": "Meiosis I is reductional.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gametogenesis/08.jpg",
+     "lec": "Gametogenesis",
+     "n": 8
+    },
+    {
+     "src": "files/slides/embryo1-gametogenesis/09.jpg",
+     "lec": "Gametogenesis",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Spermatogenesis begins:",
@@ -236,7 +267,14 @@ SINA.lectures["embryo1-gametogenesis"] = {
     "In the third month of fetal life"
    ],
    "answer": 1,
-   "why": "Oogonia multiply before birth instead."
+   "why": "Oogonia multiply before birth instead.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gametogenesis/23.jpg",
+     "lec": "Gametogenesis",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Sperm become motile and able to fertilise in the:",
@@ -247,7 +285,14 @@ SINA.lectures["embryo1-gametogenesis"] = {
     "Prostate"
    ],
    "answer": 1,
-   "why": "Maturation and storage."
+   "why": "Maturation and storage.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gametogenesis/12.jpg",
+     "lec": "Gametogenesis",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The primary spermatocyte has:",
@@ -258,7 +303,14 @@ SINA.lectures["embryo1-gametogenesis"] = {
     "2n chromosomes, 2N DNA"
    ],
    "answer": 1,
-   "why": "DNA replicated before meiosis I."
+   "why": "DNA replicated before meiosis I.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gametogenesis/16.jpg",
+     "lec": "Gametogenesis",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Spermiogenesis involves:",
@@ -269,7 +321,14 @@ SINA.lectures["embryo1-gametogenesis"] = {
     "Formation of polar bodies"
    ],
    "answer": 1,
-   "why": "Spermatid to spermatozoon."
+   "why": "Spermatid to spermatozoon.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gametogenesis/18.jpg",
+     "lec": "Gametogenesis",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Residual cytoplasm of spermatids is phagocytosed by:",
@@ -280,7 +339,14 @@ SINA.lectures["embryo1-gametogenesis"] = {
     "Macrophages of the epididymis"
    ],
    "answer": 1,
-   "why": "Sertoli cells support spermatogenesis."
+   "why": "Sertoli cells support spermatogenesis.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gametogenesis/20.jpg",
+     "lec": "Gametogenesis",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Primary oocytes are arrested in:",
@@ -291,7 +357,19 @@ SINA.lectures["embryo1-gametogenesis"] = {
     "Telophase II"
    ],
    "answer": 1,
-   "why": "From fetal life until just before ovulation."
+   "why": "From fetal life until just before ovulation.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gametogenesis/23.jpg",
+     "lec": "Gametogenesis",
+     "n": 23
+    },
+    {
+     "src": "files/slides/embryo1-gametogenesis/24.jpg",
+     "lec": "Gametogenesis",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The ovulated cell is a:",
@@ -302,7 +380,14 @@ SINA.lectures["embryo1-gametogenesis"] = {
     "Oogonium from the cortex"
    ],
    "answer": 1,
-   "why": "Meiosis II completes at fertilisation."
+   "why": "Meiosis II completes at fertilisation.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gametogenesis/24.jpg",
+     "lec": "Gametogenesis",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The follicle with a single antrum is the:",
@@ -313,7 +398,14 @@ SINA.lectures["embryo1-gametogenesis"] = {
     "Corpus luteum"
    ],
    "answer": 2,
-   "why": "Ready to ovulate."
+   "why": "Ready to ovulate.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gametogenesis/24.jpg",
+     "lec": "Gametogenesis",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "One primary oocyte gives:",
@@ -324,7 +416,14 @@ SINA.lectures["embryo1-gametogenesis"] = {
     "Eight ova after two divisions"
    ],
    "answer": 1,
-   "why": "Asymmetric divisions."
+   "why": "Asymmetric divisions.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gametogenesis/30.jpg",
+     "lec": "Gametogenesis",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Capacitation takes place in the:",
@@ -335,7 +434,14 @@ SINA.lectures["embryo1-gametogenesis"] = {
     "Prostate"
    ],
    "answer": 1,
-   "why": "Uterus and tubes, 5-7 hours."
+   "why": "Uterus and tubes, 5-7 hours.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gametogenesis/40.jpg",
+     "lec": "Gametogenesis",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "The acrosome reaction allows the sperm to:",
@@ -346,7 +452,14 @@ SINA.lectures["embryo1-gametogenesis"] = {
     "Become haploid"
    ],
    "answer": 1,
-   "why": "Exocytosis of acrosomal enzymes."
+   "why": "Exocytosis of acrosomal enzymes.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gametogenesis/43.jpg",
+     "lec": "Gametogenesis",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Fertilisation usually occurs in the:",
@@ -357,7 +470,14 @@ SINA.lectures["embryo1-gametogenesis"] = {
     "Cervix"
    ],
    "answer": 1,
-   "why": "Ampulla of the tube."
+   "why": "Ampulla of the tube.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gametogenesis/21.jpg",
+     "lec": "Gametogenesis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -737,7 +857,14 @@ SINA.lectures["embryo1-implantation"] = {
     "Blastocyst"
    ],
    "answer": 3,
-   "why": "Blastocoel."
+   "why": "Blastocoel.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-implantation/32.jpg",
+     "lec": "Fertilisation to implantation",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which structure prevents implantation in the uterine tube?",
@@ -748,7 +875,14 @@ SINA.lectures["embryo1-implantation"] = {
     "β-hCG"
    ],
    "answer": 1,
-   "why": "It disappears before implantation."
+   "why": "It disappears before implantation.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-implantation/33.jpg",
+     "lec": "Fertilisation to implantation",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "The trophoblast layer that forms new cells is the:",
@@ -759,7 +893,14 @@ SINA.lectures["embryo1-implantation"] = {
     "Cytotrophoblast"
    ],
    "answer": 3,
-   "why": "Cells then join the syncytium."
+   "why": "Cells then join the syncytium.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-implantation/34.jpg",
+     "lec": "Fertilisation to implantation",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "β-hCG is secreted by the:",
@@ -770,7 +911,14 @@ SINA.lectures["embryo1-implantation"] = {
     "Endometrium"
    ],
    "answer": 2,
-   "why": "Maintains the corpus luteum."
+   "why": "Maintains the corpus luteum.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-implantation/18.jpg",
+     "lec": "Fertilisation to implantation",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The main function of the decidual reaction is:",
@@ -781,7 +929,14 @@ SINA.lectures["embryo1-implantation"] = {
     "Formation of the amnion"
    ],
    "answer": 1,
-   "why": "Endometrial response to implantation."
+   "why": "Endometrial response to implantation.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-implantation/11.jpg",
+     "lec": "Fertilisation to implantation",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The cavity that forms the fetus's water bag is the:",
@@ -792,7 +947,14 @@ SINA.lectures["embryo1-implantation"] = {
     "Exocoelomic cavity"
    ],
    "answer": 0,
-   "why": "Amniotic fluid."
+   "why": "Amniotic fluid.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-implantation/37.jpg",
+     "lec": "Fertilisation to implantation",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Progesterone given to prevent miscarriage acts on receptors in the:",
@@ -803,7 +965,19 @@ SINA.lectures["embryo1-implantation"] = {
     "Amnion"
    ],
    "answer": 0,
-   "why": "Maintains the decidua."
+   "why": "Maintains the decidua.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-implantation/11.jpg",
+     "lec": "Fertilisation to implantation",
+     "n": 11
+    },
+    {
+     "src": "files/slides/embryo1-implantation/38.jpg",
+     "lec": "Fertilisation to implantation",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which is a result of fertilisation?",
@@ -814,7 +988,14 @@ SINA.lectures["embryo1-implantation"] = {
     "Formation of the amnion"
    ],
    "answer": 1,
-   "why": "Plus diploid number and cleavage."
+   "why": "Plus diploid number and cleavage.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-implantation/07.jpg",
+     "lec": "Fertilisation to implantation",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Immediately after sperm entry:",
@@ -825,7 +1006,14 @@ SINA.lectures["embryo1-implantation"] = {
     "The morula forms"
    ],
    "answer": 0,
-   "why": "Block to polyspermy."
+   "why": "Block to polyspermy.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-implantation/08.jpg",
+     "lec": "Fertilisation to implantation",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The bilaminar disc is made of:",
@@ -836,7 +1024,14 @@ SINA.lectures["embryo1-implantation"] = {
     "Amnion and chorion"
    ],
    "answer": 1,
-   "why": "Week 2."
+   "why": "Week 2.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-implantation/21.jpg",
+     "lec": "Fertilisation to implantation",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The uteroplacental circulation begins when:",
@@ -847,7 +1042,14 @@ SINA.lectures["embryo1-implantation"] = {
     "The umbilical cord is complete"
    ],
    "answer": 0,
-   "why": "End of week 2."
+   "why": "End of week 2.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-implantation/24.jpg",
+     "lec": "Fertilisation to implantation",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "At the end of week 2 the only connection between embryo and trophoblast is the:",
@@ -858,7 +1060,19 @@ SINA.lectures["embryo1-implantation"] = {
     "Notochord"
    ],
    "answer": 1,
-   "why": "Future umbilical cord."
+   "why": "Future umbilical cord.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-implantation/09.jpg",
+     "lec": "Fertilisation to implantation",
+     "n": 9
+    },
+    {
+     "src": "files/slides/embryo1-implantation/27.jpg",
+     "lec": "Fertilisation to implantation",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "The most common site of ectopic pregnancy is the:",
@@ -869,7 +1083,14 @@ SINA.lectures["embryo1-implantation"] = {
     "Abdominal cavity"
    ],
    "answer": 1,
-   "why": "Ampulla especially."
+   "why": "Ampulla especially.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-implantation/38.jpg",
+     "lec": "Fertilisation to implantation",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Implantation begins around:",
@@ -880,7 +1101,14 @@ SINA.lectures["embryo1-implantation"] = {
     "Day 21"
    ],
    "answer": 1,
-   "why": "Completed in week 2."
+   "why": "Completed in week 2.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-implantation/17.jpg",
+     "lec": "Fertilisation to implantation",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "A missed period with low β-hCG raises suspicion of:",
@@ -891,7 +1119,14 @@ SINA.lectures["embryo1-implantation"] = {
     "Normal pregnancy"
    ],
    "answer": 1,
-   "why": "hCG rises more slowly."
+   "why": "hCG rises more slowly.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-implantation/18.jpg",
+     "lec": "Fertilisation to implantation",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1290,7 +1525,19 @@ SINA.lectures["embryo1-gastrulation"] = {
     "Somites"
    ],
    "answer": 1,
-   "why": "On the epiblast."
+   "why": "On the epiblast.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gastrulation/13.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 13
+    },
+    {
+     "src": "files/slides/embryo1-gastrulation/15.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Gastrulation forms:",
@@ -1301,7 +1548,14 @@ SINA.lectures["embryo1-gastrulation"] = {
     "The placenta"
    ],
    "answer": 1,
-   "why": "Ectoderm, mesoderm, endoderm."
+   "why": "Ectoderm, mesoderm, endoderm.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gastrulation/16.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The primitive node lies at the:",
@@ -1312,7 +1566,14 @@ SINA.lectures["embryo1-gastrulation"] = {
     "Cloacal membrane"
    ],
    "answer": 1,
-   "why": "With the primitive pit."
+   "why": "With the primitive pit.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gastrulation/15.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The germ layer made by the epiblast left on the surface is the:",
@@ -1323,7 +1584,19 @@ SINA.lectures["embryo1-gastrulation"] = {
     "Hypoblast"
    ],
    "answer": 2,
-   "why": "Invaginated cells make the others."
+   "why": "Invaginated cells make the others.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gastrulation/16.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 16
+    },
+    {
+     "src": "files/slides/embryo1-gastrulation/17.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which region stays bilaminar?",
@@ -1334,7 +1607,14 @@ SINA.lectures["embryo1-gastrulation"] = {
     "Somite"
    ],
    "answer": 1,
-   "why": "Also the cloacal membrane."
+   "why": "Also the cloacal membrane.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gastrulation/17.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The most common tumour of newborns is:",
@@ -1345,7 +1625,14 @@ SINA.lectures["embryo1-gastrulation"] = {
     "Retinoblastoma"
    ],
    "answer": 1,
-   "why": "Remnant of the primitive streak."
+   "why": "Remnant of the primitive streak.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gastrulation/21.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The primary inducer of the neural plate is the:",
@@ -1356,7 +1643,14 @@ SINA.lectures["embryo1-gastrulation"] = {
     "Amnion"
    ],
    "answer": 1,
-   "why": "Also the axial skeleton."
+   "why": "Also the axial skeleton.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gastrulation/24.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The notochord persists in the adult as the:",
@@ -1367,7 +1661,14 @@ SINA.lectures["embryo1-gastrulation"] = {
     "Ligamentum flavum"
    ],
    "answer": 1,
-   "why": "Of intervertebral discs."
+   "why": "Of intervertebral discs.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gastrulation/33.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "The neural tube forms the:",
@@ -1378,7 +1679,19 @@ SINA.lectures["embryo1-gastrulation"] = {
     "Skin"
    ],
    "answer": 1,
-   "why": "Central nervous system."
+   "why": "Central nervous system.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gastrulation/28.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 28
+    },
+    {
+     "src": "files/slides/embryo1-gastrulation/32.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which derives from the neural crest?",
@@ -1389,7 +1702,14 @@ SINA.lectures["embryo1-gastrulation"] = {
     "Retina"
    ],
    "answer": 1,
-   "why": "Chromaffin cells."
+   "why": "Chromaffin cells.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gastrulation/32.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Schwann cells and melanocytes come from the:",
@@ -1400,7 +1720,19 @@ SINA.lectures["embryo1-gastrulation"] = {
     "Notochord"
    ],
    "answer": 1,
-   "why": "Migrating crest cells."
+   "why": "Migrating crest cells.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gastrulation/29.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 29
+    },
+    {
+     "src": "files/slides/embryo1-gastrulation/32.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Anencephaly results from failure of closure of the:",
@@ -1411,7 +1743,19 @@ SINA.lectures["embryo1-gastrulation"] = {
     "Cloacal membrane"
    ],
    "answer": 1,
-   "why": "Cranial neural tube."
+   "why": "Cranial neural tube.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gastrulation/31.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 31
+    },
+    {
+     "src": "files/slides/embryo1-gastrulation/34.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Abortion is defined as termination of pregnancy before:",
@@ -1422,7 +1766,14 @@ SINA.lectures["embryo1-gastrulation"] = {
     "37 weeks"
    ],
    "answer": 1,
-   "why": "About half from chromosomal anomalies."
+   "why": "About half from chromosomal anomalies.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gastrulation/36.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "The embryonic period extends from implantation to:",
@@ -1433,7 +1784,14 @@ SINA.lectures["embryo1-gastrulation"] = {
     "Week 20"
    ],
    "answer": 1,
-   "why": "Then the fetal period."
+   "why": "Then the fetal period.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gastrulation/11.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The prechordal plate is a signalling centre for the:",
@@ -1444,7 +1802,14 @@ SINA.lectures["embryo1-gastrulation"] = {
     "Kidneys"
    ],
    "answer": 1,
-   "why": "Shh and PAX6."
+   "why": "Shh and PAX6.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-gastrulation/14.jpg",
+     "lec": "Gastrulation and neurulation",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1828,7 +2193,14 @@ SINA.lectures["embryo1-folding"] = {
     "Limb buds"
    ],
    "answer": 1,
-   "why": "Paraxial mesoderm."
+   "why": "Paraxial mesoderm.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-folding/12.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The number of somites is used to:",
@@ -1839,7 +2211,19 @@ SINA.lectures["embryo1-folding"] = {
     "Predict birth weight"
    ],
    "answer": 1,
-   "why": "Weeks 4-5."
+   "why": "Weeks 4-5.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-folding/02.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 2
+    },
+    {
+     "src": "files/slides/embryo1-folding/14.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Somites give rise to:",
@@ -1850,7 +2234,14 @@ SINA.lectures["embryo1-folding"] = {
     "Adrenal medulla and ganglia"
    ],
    "answer": 1,
-   "why": "Sclerotome, myotome, dermatome."
+   "why": "Sclerotome, myotome, dermatome.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-folding/12.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which is a mesodermal derivative?",
@@ -1861,7 +2252,14 @@ SINA.lectures["embryo1-folding"] = {
     "Gut epithelium"
    ],
    "answer": 1,
-   "why": "Also spleen and blood."
+   "why": "Also spleen and blood.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-folding/10.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "After the head fold, the septum transversum lies:",
@@ -1872,7 +2270,14 @@ SINA.lectures["embryo1-folding"] = {
     "Dorsal to the neural tube"
    ],
    "answer": 1,
-   "why": "Future part of the diaphragm."
+   "why": "Future part of the diaphragm.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-folding/17.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The tail fold brings which structure ventrally?",
@@ -1883,7 +2288,14 @@ SINA.lectures["embryo1-folding"] = {
     "The notochord"
    ],
    "answer": 1,
-   "why": "Also forms the hindgut."
+   "why": "Also forms the hindgut.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-folding/19.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The midgut communicates with the umbilical vesicle through the:",
@@ -1894,7 +2306,14 @@ SINA.lectures["embryo1-folding"] = {
     "Connecting stalk"
    ],
    "answer": 1,
-   "why": "Remnant: Meckel's diverticulum."
+   "why": "Remnant: Meckel's diverticulum.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-folding/21.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The intraembryonic coelom gives the:",
@@ -1905,7 +2324,19 @@ SINA.lectures["embryo1-folding"] = {
     "Chorionic cavity"
    ],
    "answer": 1,
-   "why": "Formed in lateral mesoderm."
+   "why": "Formed in lateral mesoderm.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-folding/11.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 11
+    },
+    {
+     "src": "files/slides/embryo1-folding/12.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The first site of haematopoiesis is the:",
@@ -1916,7 +2347,19 @@ SINA.lectures["embryo1-folding"] = {
     "Bone marrow"
    ],
    "answer": 1,
-   "why": "Weeks 3-8."
+   "why": "Weeks 3-8.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-folding/02.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 2
+    },
+    {
+     "src": "files/slides/embryo1-folding/25.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The liver produces blood from:",
@@ -1927,7 +2370,19 @@ SINA.lectures["embryo1-folding"] = {
     "Only after birth"
    ],
    "answer": 1,
-   "why": "Main fetal site."
+   "why": "Main fetal site.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-folding/30.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 30
+    },
+    {
+     "src": "files/slides/embryo1-folding/31.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Physiological umbilical herniation appears in week:",
@@ -1938,7 +2393,19 @@ SINA.lectures["embryo1-folding"] = {
     "12"
    ],
    "answer": 1,
-   "why": "The gut returns by week 10."
+   "why": "The gut returns by week 10.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-folding/31.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 31
+    },
+    {
+     "src": "files/slides/embryo1-folding/35.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "The heart starts pumping in week:",
@@ -1949,7 +2416,14 @@ SINA.lectures["embryo1-folding"] = {
     "12"
    ],
    "answer": 1,
-   "why": "End of week 3 to week 4."
+   "why": "End of week 3 to week 4.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-folding/27.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "The period most sensitive to teratogens is:",
@@ -1960,7 +2434,19 @@ SINA.lectures["embryo1-folding"] = {
     "Neonatal"
    ],
    "answer": 1,
-   "why": "Organogenesis."
+   "why": "Organogenesis.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-folding/02.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 2
+    },
+    {
+     "src": "files/slides/embryo1-folding/25.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Fetal alcohol syndrome includes:",
@@ -1971,7 +2457,14 @@ SINA.lectures["embryo1-folding"] = {
     "Isolated cleft hand"
    ],
    "answer": 1,
-   "why": "Plus heart and cognitive defects."
+   "why": "Plus heart and cognitive defects.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-folding/36.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Folding in the horizontal plane forms the:",
@@ -1982,7 +2475,19 @@ SINA.lectures["embryo1-folding"] = {
     "Neural tube"
    ],
    "answer": 1,
-   "why": "Lateral folds."
+   "why": "Lateral folds.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-folding/11.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 11
+    },
+    {
+     "src": "files/slides/embryo1-folding/12.jpg",
+     "lec": "Folding, somites and organogenesis",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2370,7 +2875,14 @@ SINA.lectures["embryo1-placenta"] = {
     "Hypoblast"
    ],
    "answer": 1,
-   "why": "They never form the embryo."
+   "why": "They never form the embryo.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-placenta/05.jpg",
+     "lec": "The placenta",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The fetal part of the placenta is the:",
@@ -2381,7 +2893,19 @@ SINA.lectures["embryo1-placenta"] = {
     "Decidua capsularis"
    ],
    "answer": 1,
-   "why": "Bushy chorion."
+   "why": "Bushy chorion.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-placenta/15.jpg",
+     "lec": "The placenta",
+     "n": 15
+    },
+    {
+     "src": "files/slides/embryo1-placenta/16.jpg",
+     "lec": "The placenta",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The maternal part of the placenta is the:",
@@ -2392,7 +2916,14 @@ SINA.lectures["embryo1-placenta"] = {
     "Chorion laeve"
    ],
    "answer": 0,
-   "why": "Under the implantation site."
+   "why": "Under the implantation site.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-placenta/16.jpg",
+     "lec": "The placenta",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The placenta is fully developed by week:",
@@ -2403,7 +2934,19 @@ SINA.lectures["embryo1-placenta"] = {
     "20"
    ],
    "answer": 2,
-   "why": "Starts in week 3."
+   "why": "Starts in week 3.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-placenta/19.jpg",
+     "lec": "The placenta",
+     "n": 19
+    },
+    {
+     "src": "files/slides/embryo1-placenta/28.jpg",
+     "lec": "The placenta",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The umbilical vein carries:",
@@ -2414,7 +2957,14 @@ SINA.lectures["embryo1-placenta"] = {
     "Lymph"
    ],
    "answer": 1,
-   "why": "Single vein."
+   "why": "Single vein.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-placenta/23.jpg",
+     "lec": "The placenta",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "How many umbilical arteries are normally present?",
@@ -2425,7 +2975,14 @@ SINA.lectures["embryo1-placenta"] = {
     "Four"
    ],
    "answer": 1,
-   "why": "Plus one vein."
+   "why": "Plus one vein.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-placenta/23.jpg",
+     "lec": "The placenta",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Maternal blood enters the intervillous space through the:",
@@ -2436,7 +2993,14 @@ SINA.lectures["embryo1-placenta"] = {
     "Uterine veins"
    ],
    "answer": 1,
-   "why": "80-100 of them."
+   "why": "80-100 of them.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-placenta/23.jpg",
+     "lec": "The placenta",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The volume of maternal blood in the intervillous space at term is about:",
@@ -2447,7 +3011,14 @@ SINA.lectures["embryo1-placenta"] = {
     "1 L"
    ],
    "answer": 1,
-   "why": "Renewed 3-4 times a minute."
+   "why": "Renewed 3-4 times a minute.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-placenta/23.jpg",
+     "lec": "The placenta",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The umbilical vessels are embedded in:",
@@ -2458,7 +3029,14 @@ SINA.lectures["embryo1-placenta"] = {
     "Chorion laeve"
    ],
    "answer": 1,
-   "why": "Mucoid connective tissue."
+   "why": "Mucoid connective tissue.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-placenta/25.jpg",
+     "lec": "The placenta",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "hCG is produced by the:",
@@ -2469,7 +3047,14 @@ SINA.lectures["embryo1-placenta"] = {
     "Amnion"
    ],
    "answer": 1,
-   "why": "Also steroids."
+   "why": "Also steroids.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-placenta/31.jpg",
+     "lec": "The placenta",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Which is NOT a layer of the early placental barrier?",
@@ -2480,7 +3065,14 @@ SINA.lectures["embryo1-placenta"] = {
     "Fetal capillary endothelium"
    ],
    "answer": 2,
-   "why": "Decidua is maternal."
+   "why": "Decidua is maternal.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-placenta/16.jpg",
+     "lec": "The placenta",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "A hydatidiform mole can become:",
@@ -2491,7 +3083,14 @@ SINA.lectures["embryo1-placenta"] = {
     "Lymphoma"
    ],
    "answer": 1,
-   "why": "Gestational trophoblastic tumour."
+   "why": "Gestational trophoblastic tumour.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-placenta/13.jpg",
+     "lec": "The placenta",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Dizygotic twins have:",
@@ -2502,7 +3101,19 @@ SINA.lectures["embryo1-placenta"] = {
     "One chorion, two placentas"
    ],
    "answer": 1,
-   "why": "Placentas separate or fused."
+   "why": "Placentas separate or fused.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-placenta/35.jpg",
+     "lec": "The placenta",
+     "n": 35
+    },
+    {
+     "src": "files/slides/embryo1-placenta/37.jpg",
+     "lec": "The placenta",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "The commonest arrangement in monozygotic twins is:",
@@ -2513,7 +3124,14 @@ SINA.lectures["embryo1-placenta"] = {
     "Conjoined"
    ],
    "answer": 1,
-   "why": "About 65%."
+   "why": "About 65%.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-placenta/35.jpg",
+     "lec": "The placenta",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Haemolytic disease of the newborn is caused by maternal:",
@@ -2524,7 +3142,14 @@ SINA.lectures["embryo1-placenta"] = {
     "Complement from the decidua"
    ],
    "answer": 1,
-   "why": "Rh-negative mother, Rh-positive fetus."
+   "why": "Rh-negative mother, Rh-positive fetus.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-placenta/23.jpg",
+     "lec": "The placenta",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2936,7 +3561,14 @@ SINA.lectures["embryo1-membranes"] = {
     "3 L"
    ],
    "answer": 2,
-   "why": "30 mL at 10 weeks, 450 mL at 20."
+   "why": "30 mL at 10 weeks, 450 mL at 20.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-membranes/05.jpg",
+     "lec": "Fetal membranes and fetal assessment",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Polyhydramnios is defined as more than:",
@@ -2947,7 +3579,14 @@ SINA.lectures["embryo1-membranes"] = {
     "5000 mL"
    ],
    "answer": 2,
-   "why": "Often GI or CNS anomalies."
+   "why": "Often GI or CNS anomalies.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-membranes/06.jpg",
+     "lec": "Fetal membranes and fetal assessment",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Oligohydramnios is typical of:",
@@ -2969,7 +3608,14 @@ SINA.lectures["embryo1-membranes"] = {
     "Polycythaemia"
    ],
    "answer": 1,
-   "why": "Fluid is needed for lung growth."
+   "why": "Fluid is needed for lung growth.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-membranes/07.jpg",
+     "lec": "Fetal membranes and fetal assessment",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Primordial germ cells first appear in the:",
@@ -2980,7 +3626,14 @@ SINA.lectures["embryo1-membranes"] = {
     "Amnion"
    ],
    "answer": 1,
-   "why": "Week 3, then migrate."
+   "why": "Week 3, then migrate.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-membranes/08.jpg",
+     "lec": "Fetal membranes and fetal assessment",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The allantois becomes the:",
@@ -2991,7 +3644,14 @@ SINA.lectures["embryo1-membranes"] = {
     "Ligamentum venosum"
    ],
    "answer": 1,
-   "why": "Via the urachus."
+   "why": "Via the urachus.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-membranes/09.jpg",
+     "lec": "Fetal membranes and fetal assessment",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "In the first trimester fetal age is best estimated by:",
@@ -3002,7 +3662,19 @@ SINA.lectures["embryo1-membranes"] = {
     "Foot length"
    ],
    "answer": 1,
-   "why": "Head measurements come later."
+   "why": "Head measurements come later.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-membranes/14.jpg",
+     "lec": "Fetal membranes and fetal assessment",
+     "n": 14
+    },
+    {
+     "src": "files/slides/embryo1-membranes/15.jpg",
+     "lec": "Fetal membranes and fetal assessment",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Chorionic villus sampling is performed at:",
@@ -3013,7 +3685,14 @@ SINA.lectures["embryo1-membranes"] = {
     "After 20 weeks"
    ],
    "answer": 1,
-   "why": "Earlier than amniocentesis."
+   "why": "Earlier than amniocentesis.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-membranes/19.jpg",
+     "lec": "Fetal membranes and fetal assessment",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Amniocentesis is usually performed at:",
@@ -3024,7 +3703,14 @@ SINA.lectures["embryo1-membranes"] = {
     "36 weeks"
    ],
    "answer": 1,
-   "why": "Chromosomes, AFP."
+   "why": "Chromosomes, AFP.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-membranes/16.jpg",
+     "lec": "Fetal membranes and fetal assessment",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "A raised amniotic AFP suggests:",
@@ -3035,7 +3721,14 @@ SINA.lectures["embryo1-membranes"] = {
     "Normal pregnancy"
    ],
    "answer": 1,
-   "why": "Also abdominal wall defects."
+   "why": "Also abdominal wall defects.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-membranes/17.jpg",
+     "lec": "Fetal membranes and fetal assessment",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Low maternal serum AFP is associated with:",
@@ -3046,7 +3739,14 @@ SINA.lectures["embryo1-membranes"] = {
     "Anencephaly"
    ],
    "answer": 1,
-   "why": "Chromosomal defects."
+   "why": "Chromosomal defects.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-membranes/17.jpg",
+     "lec": "Fetal membranes and fetal assessment",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Cordocentesis samples:",
@@ -3057,7 +3757,14 @@ SINA.lectures["embryo1-membranes"] = {
     "Maternal blood"
    ],
    "answer": 1,
-   "why": "After 18 weeks."
+   "why": "After 18 weeks.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-membranes/21.jpg",
+     "lec": "Fetal membranes and fetal assessment",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Spectrophotometric study of amniotic fluid assesses:",
@@ -3068,7 +3775,14 @@ SINA.lectures["embryo1-membranes"] = {
     "Neural tube closure"
    ],
    "answer": 1,
-   "why": "Bilirubin pigments."
+   "why": "Bilirubin pigments.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-membranes/22.jpg",
+     "lec": "Fetal membranes and fetal assessment",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "The amniochorionic membrane is formed by fusion of:",
@@ -3079,7 +3793,14 @@ SINA.lectures["embryo1-membranes"] = {
     "Allantois and amnion"
    ],
    "answer": 1,
-   "why": "Cavity obliterated."
+   "why": "Cavity obliterated.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-membranes/03.jpg",
+     "lec": "Fetal membranes and fetal assessment",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3485,7 +4206,14 @@ SINA.lectures["embryo1-fetal-period"] = {
     "20"
    ],
    "answer": 1,
-   "why": "Week 10 of pregnancy."
+   "why": "Week 10 of pregnancy.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-fetal-period/10.jpg",
+     "lec": "The fetal period",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Pregnancy counted from fertilisation lasts about:",
@@ -3496,7 +4224,14 @@ SINA.lectures["embryo1-fetal-period"] = {
     "42 weeks"
    ],
    "answer": 1,
-   "why": "40 weeks from the last period."
+   "why": "40 weeks from the last period.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-fetal-period/07.jpg",
+     "lec": "The fetal period",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Growth in length is fastest during months:",
@@ -3507,7 +4242,14 @@ SINA.lectures["embryo1-fetal-period"] = {
     "8-9"
    ],
    "answer": 1,
-   "why": "Weight gain in months 8-9."
+   "why": "Weight gain in months 8-9.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-fetal-period/13.jpg",
+     "lec": "The fetal period",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "At birth the head is about what fraction of body length?",
@@ -3518,7 +4260,19 @@ SINA.lectures["embryo1-fetal-period"] = {
     "One tenth"
    ],
    "answer": 2,
-   "why": "Half at month 3."
+   "why": "Half at month 3.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-fetal-period/13.jpg",
+     "lec": "The fetal period",
+     "n": 13
+    },
+    {
+     "src": "files/slides/embryo1-fetal-period/32.jpg",
+     "lec": "The fetal period",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Quickening is first felt around:",
@@ -3529,7 +4283,14 @@ SINA.lectures["embryo1-fetal-period"] = {
     "Month 9"
    ],
    "answer": 1,
-   "why": "Fetal movements felt by the mother."
+   "why": "Fetal movements felt by the mother.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-fetal-period/16.jpg",
+     "lec": "The fetal period",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Vernix caseosa is:",
@@ -3540,7 +4301,14 @@ SINA.lectures["embryo1-fetal-period"] = {
     "Brown fat"
    ],
    "answer": 1,
-   "why": "Protects skin from the fluid."
+   "why": "Protects skin from the fluid.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-fetal-period/16.jpg",
+     "lec": "The fetal period",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Brown fat serves to:",
@@ -3551,7 +4319,14 @@ SINA.lectures["embryo1-fetal-period"] = {
     "Make blood"
    ],
    "answer": 1,
-   "why": "Thermogenesis."
+   "why": "Thermogenesis.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-fetal-period/16.jpg",
+     "lec": "The fetal period",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Surfactant production begins around weeks:",
@@ -3562,7 +4337,14 @@ SINA.lectures["embryo1-fetal-period"] = {
     "37-40"
    ],
    "answer": 1,
-   "why": "Type II pneumocytes."
+   "why": "Type II pneumocytes.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-fetal-period/17.jpg",
+     "lec": "The fetal period",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The age of viability is reached around weeks:",
@@ -3573,7 +4355,14 @@ SINA.lectures["embryo1-fetal-period"] = {
     "35-38"
    ],
    "answer": 2,
-   "why": "Lungs and CNS mature enough."
+   "why": "Lungs and CNS mature enough.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-fetal-period/18.jpg",
+     "lec": "The fetal period",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The bone marrow takes over haematopoiesis from the spleen by about:",
@@ -3584,7 +4373,14 @@ SINA.lectures["embryo1-fetal-period"] = {
     "Birth"
    ],
    "answer": 2,
-   "why": "Spleen active weeks 10-28."
+   "why": "Spleen active weeks 10-28.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-fetal-period/18.jpg",
+     "lec": "The fetal period",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Preterm birth is defined as birth before:",
@@ -3595,7 +4391,14 @@ SINA.lectures["embryo1-fetal-period"] = {
     "42 weeks"
    ],
    "answer": 1,
-   "why": "Post-term beyond 42."
+   "why": "Post-term beyond 42.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-fetal-period/20.jpg",
+     "lec": "The fetal period",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Low birth weight is below:",
@@ -3606,7 +4409,14 @@ SINA.lectures["embryo1-fetal-period"] = {
     "4000 g"
    ],
    "answer": 1,
-   "why": "Normal 2500-4000 g."
+   "why": "Normal 2500-4000 g.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-fetal-period/20.jpg",
+     "lec": "The fetal period",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Small for gestational age means weight below the:",
@@ -3617,7 +4427,14 @@ SINA.lectures["embryo1-fetal-period"] = {
     "50th percentile"
    ],
    "answer": 1,
-   "why": "For gestational age."
+   "why": "For gestational age.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-fetal-period/21.jpg",
+     "lec": "The fetal period",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which is a cause of IUGR?",
@@ -3628,7 +4445,14 @@ SINA.lectures["embryo1-fetal-period"] = {
     "Polyhydramnios"
    ],
    "answer": 1,
-   "why": "Also hypertension, twins, infection."
+   "why": "Also hypertension, twins, infection.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-fetal-period/22.jpg",
+     "lec": "The fetal period",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Chorionic villus sampling mainly detects:",
@@ -3639,7 +4463,14 @@ SINA.lectures["embryo1-fetal-period"] = {
     "Heart defects"
    ],
    "answer": 1,
-   "why": "Karyotype at 10-12 weeks."
+   "why": "Karyotype at 10-12 weeks.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-fetal-period/30.jpg",
+     "lec": "The fetal period",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4024,7 +4855,14 @@ SINA.lectures["embryo1-git"] = {
     "Urorectal septum"
    ],
    "answer": 1,
-   "why": "Ectoderm meets endoderm."
+   "why": "Ectoderm meets endoderm.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-git/04.jpg",
+     "lec": "Development of the digestive system",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Oesophageal atresia is most often associated with:",
@@ -4035,7 +4873,19 @@ SINA.lectures["embryo1-git"] = {
     "Meckel's diverticulum"
    ],
    "answer": 1,
-   "why": "About 90%."
+   "why": "About 90%.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-git/10.jpg",
+     "lec": "Development of the digestive system",
+     "n": 10
+    },
+    {
+     "src": "files/slides/embryo1-git/47.jpg",
+     "lec": "Development of the digestive system",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "Oesophageal atresia in pregnancy typically causes:",
@@ -4046,7 +4896,19 @@ SINA.lectures["embryo1-git"] = {
     "Placenta praevia"
    ],
    "answer": 1,
-   "why": "The fetus cannot swallow."
+   "why": "The fetus cannot swallow.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-git/10.jpg",
+     "lec": "Development of the digestive system",
+     "n": 10
+    },
+    {
+     "src": "files/slides/embryo1-git/47.jpg",
+     "lec": "Development of the digestive system",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "The greater curvature of the stomach forms because the:",
@@ -4057,7 +4919,14 @@ SINA.lectures["embryo1-git"] = {
     "Spleen pulls it"
    ],
    "answer": 1,
-   "why": "Then the stomach rotates."
+   "why": "Then the stomach rotates.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-git/12.jpg",
+     "lec": "Development of the digestive system",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The stomach rotates around its long axis by:",
@@ -4068,7 +4937,14 @@ SINA.lectures["embryo1-git"] = {
     "45° clockwise"
    ],
    "answer": 0,
-   "why": "Left vagus comes to lie anteriorly."
+   "why": "Left vagus comes to lie anteriorly.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-git/15.jpg",
+     "lec": "Development of the digestive system",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The duodenum becomes:",
@@ -4079,7 +4955,14 @@ SINA.lectures["embryo1-git"] = {
     "Part of the hindgut"
    ],
    "answer": 1,
-   "why": "Pulled right by the stomach's rotation."
+   "why": "Pulled right by the stomach's rotation.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-git/18.jpg",
+     "lec": "Development of the digestive system",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The hepatic diverticulum grows into the:",
@@ -4090,7 +4973,14 @@ SINA.lectures["embryo1-git"] = {
     "Umbilical cord"
    ],
    "answer": 1,
-   "why": "Mesoderm gives Kupffer cells."
+   "why": "Mesoderm gives Kupffer cells.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-git/26.jpg",
+     "lec": "Development of the digestive system",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Bile secretion by the fetal liver begins around week:",
@@ -4101,7 +4991,14 @@ SINA.lectures["embryo1-git"] = {
     "20"
    ],
    "answer": 2,
-   "why": "Meconium from the 4th month."
+   "why": "Meconium from the 4th month.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-git/27.jpg",
+     "lec": "Development of the digestive system",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "The spleen develops in the:",
@@ -4112,7 +5009,19 @@ SINA.lectures["embryo1-git"] = {
     "Hindgut"
    ],
    "answer": 1,
-   "why": "Mesodermal organ."
+   "why": "Mesodermal organ.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-git/25.jpg",
+     "lec": "Development of the digestive system",
+     "n": 25
+    },
+    {
+     "src": "files/slides/embryo1-git/28.jpg",
+     "lec": "Development of the digestive system",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The physiological umbilical hernia returns by week:",
@@ -4123,7 +5032,14 @@ SINA.lectures["embryo1-git"] = {
     "14"
    ],
    "answer": 2,
-   "why": "Caecum last."
+   "why": "Caecum last.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-git/35.jpg",
+     "lec": "Development of the digestive system",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "The midgut rotates in total:",
@@ -4134,7 +5050,19 @@ SINA.lectures["embryo1-git"] = {
     "360°"
    ],
    "answer": 2,
-   "why": "Around the superior mesenteric artery."
+   "why": "Around the superior mesenteric artery.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-git/38.jpg",
+     "lec": "Development of the digestive system",
+     "n": 38
+    },
+    {
+     "src": "files/slides/embryo1-git/41.jpg",
+     "lec": "Development of the digestive system",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Meckel's diverticulum is a remnant of the:",
@@ -4145,7 +5073,19 @@ SINA.lectures["embryo1-git"] = {
     "Cloaca"
    ],
    "answer": 1,
-   "why": "Proximal part."
+   "why": "Proximal part.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-git/33.jpg",
+     "lec": "Development of the digestive system",
+     "n": 33
+    },
+    {
+     "src": "files/slides/embryo1-git/34.jpg",
+     "lec": "Development of the digestive system",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "The epithelium of the urinary bladder comes from the:",
@@ -4156,7 +5096,19 @@ SINA.lectures["embryo1-git"] = {
     "Mesoderm"
    ],
    "answer": 2,
-   "why": "After the urorectal septum."
+   "why": "After the urorectal septum.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-git/44.jpg",
+     "lec": "Development of the digestive system",
+     "n": 44
+    },
+    {
+     "src": "files/slides/embryo1-git/45.jpg",
+     "lec": "Development of the digestive system",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "A defect with gut herniating through a membrane-covered umbilical sac is:",
@@ -4167,7 +5119,14 @@ SINA.lectures["embryo1-git"] = {
     "Meckel's"
    ],
    "answer": 1,
-   "why": "50% have other anomalies."
+   "why": "50% have other anomalies.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-git/48.jpg",
+     "lec": "Development of the digestive system",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Hirschsprung disease results from failure of migration of:",
@@ -4178,7 +5137,14 @@ SINA.lectures["embryo1-git"] = {
     "Notochord"
    ],
    "answer": 1,
-   "why": "Absent ganglia in the colon."
+   "why": "Absent ganglia in the colon.",
+   "slides": [
+    {
+     "src": "files/slides/embryo1-git/52.jpg",
+     "lec": "Development of the digestive system",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

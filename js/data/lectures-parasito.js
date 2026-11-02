@@ -262,7 +262,14 @@ SINA.lectures["parasito-intro"] = {
     "Eukaryotic"
    ],
    "answer": 3,
-   "why": "Viruses are akaryotic, bacteria prokaryotic."
+   "why": "Viruses are akaryotic, bacteria prokaryotic.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-intro/02.jpg",
+     "lec": "Introduction to parasitology",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Which is written correctly?",
@@ -273,7 +280,14 @@ SINA.lectures["parasito-intro"] = {
     "SCHISTOSOMA MANSONI"
    ],
    "answer": 2,
-   "why": "Genus capitalised, species lower case, in italics."
+   "why": "Genus capitalised, species lower case, in italics.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-intro/03.jpg",
+     "lec": "Introduction to parasitology",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Helminths belong to:",
@@ -284,7 +298,14 @@ SINA.lectures["parasito-intro"] = {
     "Fungi"
    ],
    "answer": 1,
-   "why": "With arthropods."
+   "why": "With arthropods.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-intro/05.jpg",
+     "lec": "Introduction to parasitology",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Candida albicans in the human gut is an example of:",
@@ -295,7 +316,14 @@ SINA.lectures["parasito-intro"] = {
     "Symbiosis"
    ],
    "answer": 2,
-   "why": "Beneficial to one, neutral for the other."
+   "why": "Beneficial to one, neutral for the other.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-intro/10.jpg",
+     "lec": "Introduction to parasitology",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Humans are an accidental host of:",
@@ -306,7 +334,14 @@ SINA.lectures["parasito-intro"] = {
     "Entamoeba histolytica"
    ],
    "answer": 0,
-   "why": "The dog is the definitive host."
+   "why": "The dog is the definitive host.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-intro/09.jpg",
+     "lec": "Introduction to parasitology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Larva migrans is an example of:",
@@ -317,7 +352,14 @@ SINA.lectures["parasito-intro"] = {
     "A short direct cycle"
    ],
    "answer": 1,
-   "why": "The larva never reaches adulthood."
+   "why": "The larva never reaches adulthood.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-intro/09.jpg",
+     "lec": "Introduction to parasitology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "An anthropozoonosis is:",
@@ -328,7 +370,14 @@ SINA.lectures["parasito-intro"] = {
     "Plant only"
    ],
    "answer": 2,
-   "why": "E.g. trichinosis, hydatid cyst."
+   "why": "E.g. trichinosis, hydatid cyst.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-intro/11.jpg",
+     "lec": "Introduction to parasitology",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Schistosoma enters the body by:",
@@ -339,7 +388,14 @@ SINA.lectures["parasito-intro"] = {
     "Skin penetration in fresh water"
    ],
    "answer": 3,
-   "why": "Trans-cutaneous route."
+   "why": "Trans-cutaneous route.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-intro/16.jpg",
+     "lec": "Introduction to parasitology",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Toxoplasma can be transmitted:",
@@ -350,7 +406,14 @@ SINA.lectures["parasito-intro"] = {
     "By mosquitoes"
    ],
    "answer": 1,
-   "why": "Causing abortion or malformations."
+   "why": "Causing abortion or malformations.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-intro/16.jpg",
+     "lec": "Introduction to parasitology",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The definitive host harbours:",
@@ -361,7 +424,14 @@ SINA.lectures["parasito-intro"] = {
     "Larval forms"
    ],
    "answer": 0,
-   "why": "The intermediate host carries larval or asexual forms."
+   "why": "The intermediate host carries larval or asexual forms.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-intro/21.jpg",
+     "lec": "Introduction to parasitology",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Anopheles in malaria is:",
@@ -372,7 +442,14 @@ SINA.lectures["parasito-intro"] = {
     "An intermediate host"
    ],
    "answer": 0,
-   "why": "Sexual reproduction occurs in the mosquito."
+   "why": "Sexual reproduction occurs in the mosquito.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-intro/20.jpg",
+     "lec": "Introduction to parasitology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Ancylostoma has a:",
@@ -383,7 +460,14 @@ SINA.lectures["parasito-intro"] = {
     "Long direct cycle (maturation in soil)"
    ],
    "answer": 3,
-   "why": "Single host, but eggs mature outside."
+   "why": "Single host, but eggs mature outside.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-intro/32.jpg",
+     "lec": "Introduction to parasitology",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Taenia has an indirect cycle because it needs:",
@@ -394,7 +478,14 @@ SINA.lectures["parasito-intro"] = {
     "A pig or cattle host"
    ],
    "answer": 3,
-   "why": "It is heteroxenous."
+   "why": "It is heteroxenous.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-intro/33.jpg",
+     "lec": "Introduction to parasitology",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Evening anal pruritus in a child suggests:",
@@ -405,7 +496,14 @@ SINA.lectures["parasito-intro"] = {
     "Ascariasis"
    ],
    "answer": 0,
-   "why": "Diagnosed by the Graham scotch-tape test."
+   "why": "Diagnosed by the Graham scotch-tape test.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-intro/29.jpg",
+     "lec": "Introduction to parasitology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "How is pinworm treated?",
@@ -416,7 +514,14 @@ SINA.lectures["parasito-intro"] = {
     "Surgical removal of the worms"
    ],
    "answer": 1,
-   "why": "Treat contacts, hand hygiene, wash bedding."
+   "why": "Treat contacts, hand hygiene, wash bedding.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-intro/30.jpg",
+     "lec": "Introduction to parasitology",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Toxoplasma cysts in meat are destroyed by cooking above:",
@@ -427,7 +532,14 @@ SINA.lectures["parasito-intro"] = {
     "65 °C"
    ],
    "answer": 3,
-   "why": "Eating habits explain prevalence differences."
+   "why": "Eating habits explain prevalence differences.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-intro/43.jpg",
+     "lec": "Introduction to parasitology",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -840,7 +952,19 @@ SINA.lectures["parasito-diagnosis"] = {
     "A single negative exam does not exclude parasites"
    ],
    "answer": 3,
-   "why": "Shedding is intermittent and sensitivity low."
+   "why": "Shedding is intermittent and sensitivity low.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-diagnosis/06.jpg",
+     "lec": "Diagnosis in parasitology",
+     "n": 6
+    },
+    {
+     "src": "files/slides/parasito-diagnosis/23.jpg",
+     "lec": "Diagnosis in parasitology",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Before a stool exam, the patient should follow:",
@@ -851,7 +975,14 @@ SINA.lectures["parasito-diagnosis"] = {
     "A 24-hour fast"
    ],
    "answer": 2,
-   "why": "Pasta, rice, eggs, dairy."
+   "why": "Pasta, rice, eggs, dairy.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-diagnosis/08.jpg",
+     "lec": "Diagnosis in parasitology",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Diarrhoeal stools should be examined within:",
@@ -862,7 +993,19 @@ SINA.lectures["parasito-diagnosis"] = {
     "3 days"
    ],
    "answer": 0,
-   "why": "To see motile vegetative forms."
+   "why": "To see motile vegetative forms.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-diagnosis/04.jpg",
+     "lec": "Diagnosis in parasitology",
+     "n": 4
+    },
+    {
+     "src": "files/slides/parasito-diagnosis/09.jpg",
+     "lec": "Diagnosis in parasitology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Lugol staining shows:",
@@ -873,7 +1016,14 @@ SINA.lectures["parasito-diagnosis"] = {
     "Nothing useful for identification"
    ],
    "answer": 2,
-   "why": "The standard slide stain."
+   "why": "The standard slide stain.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-diagnosis/12.jpg",
+     "lec": "Diagnosis in parasitology",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Flotation and sedimentation techniques are useful mainly for:",
@@ -884,7 +1034,14 @@ SINA.lectures["parasito-diagnosis"] = {
     "Bacteria"
    ],
    "answer": 0,
-   "why": "Not applicable to protozoa."
+   "why": "Not applicable to protozoa.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-diagnosis/15.jpg",
+     "lec": "Diagnosis in parasitology",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Ritchie's method is a:",
@@ -895,7 +1052,14 @@ SINA.lectures["parasito-diagnosis"] = {
     "A technique for blood parasites"
    ],
    "answer": 1,
-   "why": "It concentrates eggs and cysts."
+   "why": "It concentrates eggs and cysts.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-diagnosis/16.jpg",
+     "lec": "Diagnosis in parasitology",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which stain detects Cryptosporidium?",
@@ -906,7 +1070,14 @@ SINA.lectures["parasito-diagnosis"] = {
     "Lugol"
    ],
    "answer": 2,
-   "why": "Acid-fast red oocysts on a green background."
+   "why": "Acid-fast red oocysts on a green background.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-diagnosis/18.jpg",
+     "lec": "Diagnosis in parasitology",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The Baermann technique extracts:",
@@ -917,7 +1088,14 @@ SINA.lectures["parasito-diagnosis"] = {
     "Strongyloides larvae"
    ],
    "answer": 3,
-   "why": "Using larval thermo- and hygrotropism."
+   "why": "Using larval thermo- and hygrotropism.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-diagnosis/20.jpg",
+     "lec": "Diagnosis in parasitology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Pinworm eggs are best found by:",
@@ -928,7 +1106,14 @@ SINA.lectures["parasito-diagnosis"] = {
     "Stool exam"
    ],
    "answer": 1,
-   "why": "Eggs are laid at the anal margin."
+   "why": "Eggs are laid at the anal margin.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-diagnosis/21.jpg",
+     "lec": "Diagnosis in parasitology",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The WHO reference technique for malaria diagnosis is:",
@@ -939,7 +1124,14 @@ SINA.lectures["parasito-diagnosis"] = {
     "Thin smear"
    ],
    "answer": 0,
-   "why": "The thin smear identifies the species."
+   "why": "The thin smear identifies the species.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-diagnosis/41.jpg",
+     "lec": "Diagnosis in parasitology",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "When should blood be drawn for Plasmodium?",
@@ -950,7 +1142,14 @@ SINA.lectures["parasito-diagnosis"] = {
     "After meals"
    ],
    "answer": 0,
-   "why": "Microfilariae follow their own periodicity."
+   "why": "Microfilariae follow their own periodicity.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-diagnosis/36.jpg",
+     "lec": "Diagnosis in parasitology",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Which technique is used for trypanosomes?",
@@ -961,7 +1160,14 @@ SINA.lectures["parasito-diagnosis"] = {
     "Triple centrifugation"
    ],
    "answer": 3,
-   "why": "Parasites appear in the pellet."
+   "why": "Parasites appear in the pellet.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-diagnosis/44.jpg",
+     "lec": "Diagnosis in parasitology",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Serology is indicated when:",
@@ -972,7 +1178,14 @@ SINA.lectures["parasito-diagnosis"] = {
     "Direct diagnosis is impossible"
    ],
    "answer": 3,
-   "why": "Also dead ends and larval migration."
+   "why": "Also dead ends and larval migration.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-diagnosis/51.jpg",
+     "lec": "Diagnosis in parasitology",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "Which antibody crosses the placenta?",
@@ -983,7 +1196,14 @@ SINA.lectures["parasito-diagnosis"] = {
     "IgM"
    ],
    "answer": 0,
-   "why": "IgM appears first and does not cross."
+   "why": "IgM appears first and does not cross.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-diagnosis/50.jpg",
+     "lec": "Diagnosis in parasitology",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "Good serological practice requires:",
@@ -994,7 +1214,14 @@ SINA.lectures["parasito-diagnosis"] = {
     "A urine sample instead of serum"
    ],
    "answer": 1,
-   "why": "Screening then confirmation."
+   "why": "Screening then confirmation.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-diagnosis/53.jpg",
+     "lec": "Diagnosis in parasitology",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1411,7 +1638,14 @@ SINA.lectures["parasito-amoebiasis"] = {
     "Entamoeba histolytica"
    ],
    "answer": 3,
-   "why": "The only invasive one among 9 species."
+   "why": "The only invasive one among 9 species.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-amoebiasis/02.jpg",
+     "lec": "Amoebiasis",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What proportion of E. histolytica infections are asymptomatic?",
@@ -1422,7 +1656,19 @@ SINA.lectures["parasito-amoebiasis"] = {
     "10%"
    ],
    "answer": 2,
-   "why": "Amoebiasis-infection."
+   "why": "Amoebiasis-infection.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-amoebiasis/05.jpg",
+     "lec": "Amoebiasis",
+     "n": 5
+    },
+    {
+     "src": "files/slides/parasito-amoebiasis/17.jpg",
+     "lec": "Amoebiasis",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The haematophagous invasive form is:",
@@ -1433,7 +1679,14 @@ SINA.lectures["parasito-amoebiasis"] = {
     "The minuta form"
    ],
    "answer": 0,
-   "why": "20-40 µm, ingests red cells."
+   "why": "20-40 µm, ingests red cells.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-amoebiasis/07.jpg",
+     "lec": "Amoebiasis",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The infective form of E. histolytica is:",
@@ -1444,7 +1697,14 @@ SINA.lectures["parasito-amoebiasis"] = {
     "The egg"
    ],
    "answer": 2,
-   "why": "Resistant in water and food."
+   "why": "Resistant in water and food.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-amoebiasis/10.jpg",
+     "lec": "Amoebiasis",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "E. histolytica cysts are resistant to:",
@@ -1455,7 +1715,14 @@ SINA.lectures["parasito-amoebiasis"] = {
     "Freezing"
    ],
    "answer": 0,
-   "why": "Hence filtration or boiling of water."
+   "why": "Hence filtration or boiling of water.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-amoebiasis/35.jpg",
+     "lec": "Amoebiasis",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Which is a route of amoebiasis transmission?",
@@ -1466,7 +1733,14 @@ SINA.lectures["parasito-amoebiasis"] = {
     "Skin penetration"
    ],
    "answer": 1,
-   "why": "Besides faecal-oral contamination."
+   "why": "Besides faecal-oral contamination.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-amoebiasis/12.jpg",
+     "lec": "Amoebiasis",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The cycle of E. histolytica is:",
@@ -1477,7 +1751,14 @@ SINA.lectures["parasito-amoebiasis"] = {
     "Indirect with an intermediate host"
    ],
    "answer": 2,
-   "why": "No maturation outside is needed."
+   "why": "No maturation outside is needed.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-amoebiasis/14.jpg",
+     "lec": "Amoebiasis",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Amoebic dysentery stools are:",
@@ -1488,7 +1769,14 @@ SINA.lectures["parasito-amoebiasis"] = {
     "Mucus and blood without faeces"
    ],
    "answer": 3,
-   "why": "'Rectal sputum', with tenesmus."
+   "why": "'Rectal sputum', with tenesmus.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-amoebiasis/18.jpg",
+     "lec": "Amoebiasis",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Hepatic amoebiasis occurs within 5 months of dysentery in:",
@@ -1499,7 +1787,14 @@ SINA.lectures["parasito-amoebiasis"] = {
     "50%"
    ],
    "answer": 1,
-   "why": "Via the portal system."
+   "why": "Via the portal system.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-amoebiasis/19.jpg",
+     "lec": "Amoebiasis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Fontan's triad is:",
@@ -1510,7 +1805,14 @@ SINA.lectures["parasito-amoebiasis"] = {
     "Jaundice, dark urine and pale stools"
    ],
    "answer": 0,
-   "why": "The amoebic liver abscess picture."
+   "why": "The amoebic liver abscess picture.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-amoebiasis/21.jpg",
+     "lec": "Amoebiasis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The pus of an amoebic liver abscess is described as:",
@@ -1521,7 +1823,14 @@ SINA.lectures["parasito-amoebiasis"] = {
     "Chocolate foam"
    ],
    "answer": 0,
-   "why": "Necrotic material with trophozoites."
+   "why": "Necrotic material with trophozoites.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-amoebiasis/21.jpg",
+     "lec": "Amoebiasis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which test diagnoses hepatic amoebiasis?",
@@ -1532,7 +1841,14 @@ SINA.lectures["parasito-amoebiasis"] = {
     "ELISA serology"
    ],
    "answer": 3,
-   "why": "Visceral amoebiasis → serology."
+   "why": "Visceral amoebiasis → serology.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-amoebiasis/30.jpg",
+     "lec": "Amoebiasis",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "First-line tissue amoebicide is:",
@@ -1554,7 +1870,14 @@ SINA.lectures["parasito-amoebiasis"] = {
     "To prevent malaria in endemic areas"
    ],
    "answer": 0,
-   "why": "It is a contact amoebicide, not absorbed."
+   "why": "It is a contact amoebicide, not absorbed.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-amoebiasis/33.jpg",
+     "lec": "Amoebiasis",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Chocolate-brown vomica suggests:",
@@ -1565,7 +1888,14 @@ SINA.lectures["parasito-amoebiasis"] = {
     "Aspergilloma bleeding into the airway"
    ],
    "answer": 1,
-   "why": "Hepatobronchial fistula."
+   "why": "Hepatobronchial fistula.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-amoebiasis/22.jpg",
+     "lec": "Amoebiasis",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1966,7 +2296,14 @@ SINA.lectures["parasito-flagellates"] = {
     "Giardia intestinalis"
    ],
    "answer": 3,
-   "why": "The others are well tolerated."
+   "why": "The others are well tolerated.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-flagellates/02.jpg",
+     "lec": "Intestinal and urogenital flagellates",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Where does Giardia multiply?",
@@ -1977,7 +2314,14 @@ SINA.lectures["parasito-flagellates"] = {
     "Stomach"
    ],
    "answer": 2,
-   "why": "Attached to the enterocytes."
+   "why": "Attached to the enterocytes.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-flagellates/07.jpg",
+     "lec": "Intestinal and urogenital flagellates",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Giardia is the commonest cause of:",
@@ -1988,7 +2332,14 @@ SINA.lectures["parasito-flagellates"] = {
     "Non-bacterial diarrhoea"
    ],
    "answer": 3,
-   "why": "Especially in young children."
+   "why": "Especially in young children.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-flagellates/03.jpg",
+     "lec": "Intestinal and urogenital flagellates",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The Giardia trophozoite has:",
@@ -1999,7 +2350,14 @@ SINA.lectures["parasito-flagellates"] = {
     "4 nuclei, no flagella"
    ],
    "answer": 2,
-   "why": "Pear-shaped, bilaterally symmetrical."
+   "why": "Pear-shaped, bilaterally symmetrical.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-flagellates/04.jpg",
+     "lec": "Intestinal and urogenital flagellates",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The Giardia cyst has:",
@@ -2010,7 +2368,14 @@ SINA.lectures["parasito-flagellates"] = {
     "8 nuclei"
    ],
    "answer": 0,
-   "why": "It is the infective, resistant form."
+   "why": "It is the infective, resistant form.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-flagellates/05.jpg",
+     "lec": "Intestinal and urogenital flagellates",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "How does Giardia cause malabsorption?",
@@ -2021,7 +2386,14 @@ SINA.lectures["parasito-flagellates"] = {
     "By invading the liver"
    ],
    "answer": 1,
-   "why": "Fats, fat-soluble vitamins, B12."
+   "why": "Fats, fat-soluble vitamins, B12.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-flagellates/07.jpg",
+     "lec": "Intestinal and urogenital flagellates",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which presentation suggests giardiasis in a child?",
@@ -2032,7 +2404,14 @@ SINA.lectures["parasito-flagellates"] = {
     "Bloody dysentery"
    ],
    "answer": 1,
-   "why": "Steatorrhoea and failure to thrive."
+   "why": "Steatorrhoea and failure to thrive.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-flagellates/08.jpg",
+     "lec": "Intestinal and urogenital flagellates",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "If stool exams are negative but giardiasis is strongly suspected:",
@@ -2043,7 +2422,14 @@ SINA.lectures["parasito-flagellates"] = {
     "Duodenal aspirate or biopsy"
    ],
    "answer": 3,
-   "why": "Trophozoites live in the duodenum."
+   "why": "Trophozoites live in the duodenum.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-flagellates/09.jpg",
+     "lec": "Intestinal and urogenital flagellates",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Drug of choice for giardiasis:",
@@ -2054,7 +2440,14 @@ SINA.lectures["parasito-flagellates"] = {
     "Albendazole"
    ],
    "answer": 1,
-   "why": "Or single-dose tinidazole/secnidazole."
+   "why": "Or single-dose tinidazole/secnidazole.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-flagellates/10.jpg",
+     "lec": "Intestinal and urogenital flagellates",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Trichomonas vaginalis differs from Giardia by:",
@@ -2065,7 +2458,14 @@ SINA.lectures["parasito-flagellates"] = {
     "Being non-pathogenic"
    ],
    "answer": 0,
-   "why": "Transmitted sexually as the trophozoite."
+   "why": "Transmitted sexually as the trophozoite.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-flagellates/13.jpg",
+     "lec": "Intestinal and urogenital flagellates",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Typical discharge in trichomoniasis is:",
@@ -2076,7 +2476,14 @@ SINA.lectures["parasito-flagellates"] = {
     "White and curdy"
    ],
    "answer": 0,
-   "why": "With pruritus, dysuria, dyspareunia."
+   "why": "With pruritus, dysuria, dyspareunia.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-flagellates/14.jpg",
+     "lec": "Intestinal and urogenital flagellates",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "How does T. vaginalis move on a fresh exam?",
@@ -2087,7 +2494,14 @@ SINA.lectures["parasito-flagellates"] = {
     "Rotating on itself clockwise"
    ],
    "answer": 3,
-   "why": "Thanks to flagella and undulating membrane."
+   "why": "Thanks to flagella and undulating membrane.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-flagellates/13.jpg",
+     "lec": "Intestinal and urogenital flagellates",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "How should a vaginal swab for Trichomonas be taken?",
@@ -2098,7 +2512,14 @@ SINA.lectures["parasito-flagellates"] = {
     "Speculum without lubricant"
    ],
    "answer": 3,
-   "why": "Lubricant can impair motility."
+   "why": "Lubricant can impair motility.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-flagellates/15.jpg",
+     "lec": "Intestinal and urogenital flagellates",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "A key rule in treating trichomoniasis is:",
@@ -2109,7 +2530,14 @@ SINA.lectures["parasito-flagellates"] = {
     "Surgery"
    ],
    "answer": 0,
-   "why": "To avoid reinfection."
+   "why": "To avoid reinfection.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-flagellates/16.jpg",
+     "lec": "Intestinal and urogenital flagellates",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2515,7 +2943,14 @@ SINA.lectures["parasito-coccidiosis"] = {
     "Helminths"
    ],
    "answer": 2,
-   "why": "Cryptosporidium, Cyclospora, Isospora."
+   "why": "Cryptosporidium, Cyclospora, Isospora.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-coccidiosis/02.jpg",
+     "lec": "Intestinal coccidioses and",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The infective form of coccidia is:",
@@ -2526,7 +2961,14 @@ SINA.lectures["parasito-coccidiosis"] = {
     "The oocyst"
    ],
    "answer": 3,
-   "why": "The pathogenic form is the intracellular trophozoite."
+   "why": "The pathogenic form is the intracellular trophozoite.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-coccidiosis/04.jpg",
+     "lec": "Intestinal coccidioses and",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Why does Cryptosporidium cause waterborne epidemics?",
@@ -2537,7 +2979,14 @@ SINA.lectures["parasito-coccidiosis"] = {
     "Its oocysts resist chlorination"
    ],
    "answer": 3,
-   "why": "More than 50 epidemics described."
+   "why": "More than 50 epidemics described.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-coccidiosis/05.jpg",
+     "lec": "Intestinal coccidioses and",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which Cryptosporidium species infects both humans and mammals?",
@@ -2548,7 +2997,14 @@ SINA.lectures["parasito-coccidiosis"] = {
     "C. muris"
    ],
    "answer": 0,
-   "why": "C. hominis is human-specific."
+   "why": "C. hominis is human-specific.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-coccidiosis/05.jpg",
+     "lec": "Intestinal coccidioses and",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Severe chronic cryptosporidiosis occurs mainly in AIDS with CD4 below:",
@@ -2559,7 +3015,14 @@ SINA.lectures["parasito-coccidiosis"] = {
     "1,000"
    ],
    "answer": 2,
-   "why": "Also in transplant recipients."
+   "why": "Also in transplant recipients.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-coccidiosis/07.jpg",
+     "lec": "Intestinal coccidioses and",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "In immunocompetent people, cryptosporidiosis is usually:",
@@ -2570,7 +3033,14 @@ SINA.lectures["parasito-coccidiosis"] = {
     "Bloody with mucus and fever"
    ],
    "answer": 2,
-   "why": "Watery gastroenteritis."
+   "why": "Watery gastroenteritis.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-coccidiosis/09.jpg",
+     "lec": "Intestinal coccidioses and",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which stain reveals coccidian oocysts?",
@@ -2581,7 +3051,19 @@ SINA.lectures["parasito-coccidiosis"] = {
     "Lugol"
    ],
    "answer": 1,
-   "why": "Acid-fast pink-red oocysts."
+   "why": "Acid-fast pink-red oocysts.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-coccidiosis/12.jpg",
+     "lec": "Intestinal coccidioses and",
+     "n": 12
+    },
+    {
+     "src": "files/slides/parasito-coccidiosis/18.jpg",
+     "lec": "Intestinal coccidioses and",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The key to treating cryptosporidiosis in AIDS is:",
@@ -2592,7 +3074,14 @@ SINA.lectures["parasito-coccidiosis"] = {
     "Metronidazole for ten days"
    ],
    "answer": 1,
-   "why": "With nitazoxanide, paromomycin or azithromycin."
+   "why": "With nitazoxanide, paromomycin or azithromycin.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-coccidiosis/14.jpg",
+     "lec": "Intestinal coccidioses and",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Cyclospora is classically linked to eating:",
@@ -2603,7 +3092,14 @@ SINA.lectures["parasito-coccidiosis"] = {
     "Unpasteurised milk or cheese"
    ],
    "answer": 0,
-   "why": "Contaminated fresh produce."
+   "why": "Contaminated fresh produce.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-coccidiosis/15.jpg",
+     "lec": "Intestinal coccidioses and",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Cyclosporiasis is treated with:",
@@ -2614,7 +3110,14 @@ SINA.lectures["parasito-coccidiosis"] = {
     "Metronidazole"
    ],
    "answer": 0,
-   "why": "Ciprofloxacin if intolerant."
+   "why": "Ciprofloxacin if intolerant.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-coccidiosis/23.jpg",
+     "lec": "Intestinal coccidioses and",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Isospora belli diarrhoea is typically accompanied by:",
@@ -2625,7 +3128,14 @@ SINA.lectures["parasito-coccidiosis"] = {
     "Jaundice"
    ],
    "answer": 1,
-   "why": "An opportunistic tropical infection."
+   "why": "An opportunistic tropical infection.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-coccidiosis/20.jpg",
+     "lec": "Intestinal coccidioses and",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Blastocystis hominis is considered significant when:",
@@ -2636,7 +3146,14 @@ SINA.lectures["parasito-coccidiosis"] = {
     "More than 5 per field with diarrhoea"
    ],
    "answer": 3,
-   "why": "Symptoms correlate with numbers."
+   "why": "Symptoms correlate with numbers.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-coccidiosis/25.jpg",
+     "lec": "Intestinal coccidioses and",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "First-line treatment of Blastocystis is:",
@@ -2647,7 +3164,14 @@ SINA.lectures["parasito-coccidiosis"] = {
     "Cotrimoxazole"
    ],
    "answer": 1,
-   "why": "Cotrimoxazole if it fails."
+   "why": "Cotrimoxazole if it fails.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-coccidiosis/25.jpg",
+     "lec": "Intestinal coccidioses and",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3119,7 +3643,14 @@ SINA.lectures["parasito-malaria"] = {
     "Female Anopheles"
    ],
    "answer": 3,
-   "why": "Biting at night."
+   "why": "Biting at night.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/03.jpg",
+     "lec": "Malaria",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Premunition in malaria is:",
@@ -3130,7 +3661,14 @@ SINA.lectures["parasito-malaria"] = {
     "A vaccine given to children"
    ],
    "answer": 1,
-   "why": "Built up over about 5 years."
+   "why": "Built up over about 5 years.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/03.jpg",
+     "lec": "Malaria",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Most malaria deaths occur:",
@@ -3141,7 +3679,14 @@ SINA.lectures["parasito-malaria"] = {
     "In Morocco, among farmers"
    ],
    "answer": 2,
-   "why": "90% of deaths in Africa."
+   "why": "90% of deaths in Africa.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/04.jpg",
+     "lec": "Malaria",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Morocco was certified malaria-free by WHO in:",
@@ -3152,7 +3697,14 @@ SINA.lectures["parasito-malaria"] = {
     "2004"
    ],
    "answer": 0,
-   "why": "Current cases are imported."
+   "why": "Current cases are imported.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/05.jpg",
+     "lec": "Malaria",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which species causes cerebral malaria?",
@@ -3163,7 +3715,14 @@ SINA.lectures["parasito-malaria"] = {
     "P. falciparum"
    ],
    "answer": 3,
-   "why": "Through sequestration of infected red cells."
+   "why": "Through sequestration of infected red cells.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/24.jpg",
+     "lec": "Malaria",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Late relapses months after return are due to:",
@@ -3174,7 +3733,14 @@ SINA.lectures["parasito-malaria"] = {
     "Schizonts of P. falciparum"
    ],
    "answer": 2,
-   "why": "Dormant liver forms."
+   "why": "Dormant liver forms.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/13.jpg",
+     "lec": "Malaria",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "P. malariae causes fever every:",
@@ -3185,7 +3751,14 @@ SINA.lectures["parasito-malaria"] = {
     "72 h (quartan)"
    ],
    "answer": 3,
-   "why": "Benign quartan fever."
+   "why": "Benign quartan fever.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/07.jpg",
+     "lec": "Malaria",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "P. knowlesi is found in:",
@@ -3196,7 +3769,14 @@ SINA.lectures["parasito-malaria"] = {
     "Sub-Saharan Africa"
    ],
    "answer": 0,
-   "why": "24-hour fever, possible severe forms."
+   "why": "24-hour fever, possible severe forms.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/08.jpg",
+     "lec": "Malaria",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The incubation of a primary attack is:",
@@ -3207,7 +3787,14 @@ SINA.lectures["parasito-malaria"] = {
     "1 year"
    ],
    "answer": 2,
-   "why": "Fever, chills, sweats."
+   "why": "Fever, chills, sweats.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/19.jpg",
+     "lec": "Malaria",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which biological sign is a clue to malaria?",
@@ -3218,7 +3805,14 @@ SINA.lectures["parasito-malaria"] = {
     "Thrombocytopenia"
    ],
    "answer": 3,
-   "why": "With haemolytic anaemia."
+   "why": "With haemolytic anaemia.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/17.jpg",
+     "lec": "Malaria",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which is a WHO criterion of severe malaria?",
@@ -3229,7 +3823,14 @@ SINA.lectures["parasito-malaria"] = {
     "Parasitaemia 1%"
    ],
    "answer": 1,
-   "why": "Also seizures, Hb < 7, acidosis, renal failure."
+   "why": "Also seizures, Hb < 7, acidosis, renal failure.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/26.jpg",
+     "lec": "Malaria",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Results of a malaria test should be given within:",
@@ -3240,7 +3841,14 @@ SINA.lectures["parasito-malaria"] = {
     "1 week"
    ],
    "answer": 1,
-   "why": "It is a biological emergency."
+   "why": "It is a biological emergency.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/27.jpg",
+     "lec": "Malaria",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which test identifies the Plasmodium species best?",
@@ -3251,7 +3859,14 @@ SINA.lectures["parasito-malaria"] = {
     "RDT alone"
    ],
    "answer": 0,
-   "why": "The thick drop is more sensitive."
+   "why": "The thick drop is more sensitive.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/49.jpg",
+     "lec": "Malaria",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Rapid diagnostic tests for malaria:",
@@ -3262,7 +3877,14 @@ SINA.lectures["parasito-malaria"] = {
     "Measure parasitaemia"
    ],
    "answer": 0,
-   "why": "Always combined with thick/thin films."
+   "why": "Always combined with thick/thin films.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/45.jpg",
+     "lec": "Malaria",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Uncomplicated falciparum malaria in Morocco is treated with:",
@@ -3273,7 +3895,14 @@ SINA.lectures["parasito-malaria"] = {
     "Artemether-lumefantrine for 3 days"
    ],
    "answer": 3,
-   "why": "Plus single-dose primaquine."
+   "why": "Plus single-dose primaquine.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/53.jpg",
+     "lec": "Malaria",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "Primaquine is added for P. vivax to:",
@@ -3284,7 +3913,14 @@ SINA.lectures["parasito-malaria"] = {
     "Kill hypnozoites and prevent relapse"
    ],
    "answer": 3,
-   "why": "Check G6PD first."
+   "why": "Check G6PD first.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/53.jpg",
+     "lec": "Malaria",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "Severe malaria is treated with:",
@@ -3295,7 +3931,14 @@ SINA.lectures["parasito-malaria"] = {
     "Primaquine alone"
    ],
    "answer": 2,
-   "why": "Or IV quinine, in intensive care."
+   "why": "Or IV quinine, in intensive care.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/54.jpg",
+     "lec": "Malaria",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "Is serology useful for acute malaria diagnosis?",
@@ -3306,7 +3949,14 @@ SINA.lectures["parasito-malaria"] = {
     "Yes, it is the first-line test"
    ],
    "answer": 1,
-   "why": "It stays positive for years."
+   "why": "It stays positive for years.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malaria/51.jpg",
+     "lec": "Malaria",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3785,7 +4435,14 @@ SINA.lectures["parasito-toxoplasmosis"] = {
     "Dog"
    ],
    "answer": 2,
-   "why": "The sexual cycle occurs only in felines."
+   "why": "The sexual cycle occurs only in felines.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-toxoplasmosis/08.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Humans are, for Toxoplasma:",
@@ -3796,7 +4453,14 @@ SINA.lectures["parasito-toxoplasmosis"] = {
     "Vectors carrying it to cats"
    ],
    "answer": 1,
-   "why": "Only the asexual cycle occurs."
+   "why": "Only the asexual cycle occurs.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-toxoplasmosis/08.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The form that crosses the placenta is:",
@@ -3807,7 +4471,14 @@ SINA.lectures["parasito-toxoplasmosis"] = {
     "Tachyzoite"
    ],
    "answer": 3,
-   "why": "Active multiplying form of the acute phase."
+   "why": "Active multiplying form of the acute phase.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-toxoplasmosis/05.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Tissue cysts contain:",
@@ -3818,7 +4489,14 @@ SINA.lectures["parasito-toxoplasmosis"] = {
     "Bradyzoites"
    ],
    "answer": 3,
-   "why": "Slowly multiplying, out of reach of antibodies and drugs."
+   "why": "Slowly multiplying, out of reach of antibodies and drugs.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-toxoplasmosis/06.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Tissue cysts in meat are destroyed by:",
@@ -3829,7 +4507,14 @@ SINA.lectures["parasito-toxoplasmosis"] = {
     "Washing the meat in water"
    ],
    "answer": 0,
-   "why": "Cook meat well or freeze it first."
+   "why": "Cook meat well or freeze it first.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-toxoplasmosis/06.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Freshly passed cat oocysts are:",
@@ -3840,7 +4525,14 @@ SINA.lectures["parasito-toxoplasmosis"] = {
     "Destroyed within one day"
    ],
    "answer": 2,
-   "why": "They then survive about a year."
+   "why": "They then survive about a year.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-toxoplasmosis/07.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Transmission to the fetus is most frequent in:",
@@ -3851,7 +4543,19 @@ SINA.lectures["parasito-toxoplasmosis"] = {
     "Third trimester (but lesions milder)"
    ],
    "answer": 3,
-   "why": "First-trimester infection is rarer but more severe."
+   "why": "First-trimester infection is rarer but more severe.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-toxoplasmosis/11.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 11
+    },
+    {
+     "src": "files/slides/parasito-toxoplasmosis/28.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Acquired toxoplasmosis in immunocompetent people is most often:",
@@ -3862,7 +4566,14 @@ SINA.lectures["parasito-toxoplasmosis"] = {
     "Chorioretinitis"
    ],
    "answer": 2,
-   "why": "Otherwise benign cervical lymphadenopathy."
+   "why": "Otherwise benign cervical lymphadenopathy.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-toxoplasmosis/15.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which triad suggests severe congenital toxoplasmosis?",
@@ -3873,7 +4584,14 @@ SINA.lectures["parasito-toxoplasmosis"] = {
     "Cleft palate and polydactyly"
    ],
    "answer": 1,
-   "why": "Plus seizures and mental retardation."
+   "why": "Plus seizures and mental retardation.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-toxoplasmosis/29.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "IgG+ IgM− in a pregnant woman means:",
@@ -3884,7 +4602,19 @@ SINA.lectures["parasito-toxoplasmosis"] = {
     "A recent primary infection"
    ],
    "answer": 1,
-   "why": "No follow-up needed for toxoplasmosis."
+   "why": "No follow-up needed for toxoplasmosis.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-toxoplasmosis/24.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 24
+    },
+    {
+     "src": "files/slides/parasito-toxoplasmosis/26.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "IgG− IgM− in a pregnant woman requires:",
@@ -3895,7 +4625,14 @@ SINA.lectures["parasito-toxoplasmosis"] = {
     "Treatment with spiramycin"
    ],
    "answer": 0,
-   "why": "She is non-immune."
+   "why": "She is non-immune.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-toxoplasmosis/26.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "An IgG avidity index above 0.5 means:",
@@ -3906,7 +4643,19 @@ SINA.lectures["parasito-toxoplasmosis"] = {
     "No infection"
    ],
    "answer": 0,
-   "why": "Low avidity suggests recent infection."
+   "why": "Low avidity suggests recent infection.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-toxoplasmosis/22.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 22
+    },
+    {
+     "src": "files/slides/parasito-toxoplasmosis/26.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Antenatal diagnosis of fetal infection uses:",
@@ -3917,7 +4666,14 @@ SINA.lectures["parasito-toxoplasmosis"] = {
     "Maternal CD4"
    ],
    "answer": 1,
-   "why": "Amniocentesis from 14-20 weeks."
+   "why": "Amniocentesis from 14-20 weeks.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-toxoplasmosis/31.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "A newborn is infected congenitally if it has:",
@@ -3928,7 +4684,14 @@ SINA.lectures["parasito-toxoplasmosis"] = {
     "Its own IgM from day 5"
    ],
    "answer": 3,
-   "why": "IgM does not cross the placenta."
+   "why": "IgM does not cross the placenta.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-toxoplasmosis/32.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Maternal seroconversion with negative antenatal diagnosis is treated with:",
@@ -3939,7 +4702,14 @@ SINA.lectures["parasito-toxoplasmosis"] = {
     "Cotrimoxazole"
    ],
    "answer": 0,
-   "why": "Pyrimethamine-sulfadiazine if the fetus is infected."
+   "why": "Pyrimethamine-sulfadiazine if the fetus is infected.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-toxoplasmosis/35.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Primary toxoplasmosis prophylaxis in AIDS starts when CD4 fall below:",
@@ -3950,7 +4720,14 @@ SINA.lectures["parasito-toxoplasmosis"] = {
     "200"
    ],
    "answer": 2,
-   "why": "With cotrimoxazole."
+   "why": "With cotrimoxazole.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-toxoplasmosis/36.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "The typical presentation in AIDS is:",
@@ -3961,7 +4738,19 @@ SINA.lectures["parasito-toxoplasmosis"] = {
     "Lymphadenopathy only"
    ],
    "answer": 1,
-   "why": "Reactivation of brain cysts."
+   "why": "Reactivation of brain cysts.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-toxoplasmosis/06.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 6
+    },
+    {
+     "src": "files/slides/parasito-toxoplasmosis/33.jpg",
+     "lec": "Toxoplasmosis",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4430,7 +5219,14 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "Sandflies (Phlebotomus)"
    ],
    "answer": 3,
-   "why": "Female sandflies take blood meals."
+   "why": "Female sandflies take blood meals.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/12.jpg",
+     "lec": "Leishmaniasis",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The form of Leishmania found in human macrophages is:",
@@ -4441,7 +5237,14 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "Cyst"
    ],
    "answer": 1,
-   "why": "Aflagellate, 2-6 µm."
+   "why": "Aflagellate, 2-6 µm.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/07.jpg",
+     "lec": "Leishmaniasis",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The reservoir of L. infantum is:",
@@ -4452,7 +5255,14 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "Rodents"
    ],
    "answer": 2,
-   "why": "Zoonotic visceral leishmaniasis."
+   "why": "Zoonotic visceral leishmaniasis.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/42.jpg",
+     "lec": "Leishmaniasis",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "The reservoir of L. major is:",
@@ -4463,7 +5273,19 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "Humans"
    ],
    "answer": 0,
-   "why": "Rural zoonotic cutaneous leishmaniasis."
+   "why": "Rural zoonotic cutaneous leishmaniasis.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/42.jpg",
+     "lec": "Leishmaniasis",
+     "n": 42
+    },
+    {
+     "src": "files/slides/parasito-leishmaniasis/49.jpg",
+     "lec": "Leishmaniasis",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Since when has leishmaniasis been notifiable in Morocco?",
@@ -4474,7 +5296,14 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "1995"
    ],
    "answer": 3,
-   "why": "A public health problem with social stigma."
+   "why": "A public health problem with social stigma.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/02.jpg",
+     "lec": "Leishmaniasis",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The classic triad of infant visceral leishmaniasis is:",
@@ -4485,7 +5314,14 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "Diarrhoea, fever, vomiting"
    ],
    "answer": 2,
-   "why": "With hepatomegaly and pancytopenia."
+   "why": "With hepatomegaly and pancytopenia.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/51.jpg",
+     "lec": "Leishmaniasis",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "Which protein pattern is typical of visceral leishmaniasis?",
@@ -4496,7 +5332,14 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "Polyclonal hypergammaglobulinaemia"
    ],
    "answer": 3,
-   "why": "With hypoalbuminaemia."
+   "why": "With hypoalbuminaemia.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/17.jpg",
+     "lec": "Leishmaniasis",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The reference sample for VL diagnosis in adults is:",
@@ -4507,7 +5350,14 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "Urine sediment"
    ],
    "answer": 0,
-   "why": "Iliac crest or spinous process in children."
+   "why": "Iliac crest or spinous process in children.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/18.jpg",
+     "lec": "Leishmaniasis",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The rK39 rapid test detects:",
@@ -4518,7 +5368,14 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "Amastigotes"
    ],
    "answer": 2,
-   "why": "Sensitivity > 90% in 15 minutes."
+   "why": "Sensitivity > 90% in 15 minutes.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/19.jpg",
+     "lec": "Leishmaniasis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which species causes urban 'dry' cutaneous leishmaniasis?",
@@ -4529,7 +5386,14 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "L. tropica"
    ],
    "answer": 3,
-   "why": "Single, slow lesion; human reservoir."
+   "why": "Single, slow lesion; human reservoir.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/46.jpg",
+     "lec": "Leishmaniasis",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "L. major lesions are typically:",
@@ -4540,7 +5404,14 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "Limited to the nasal mucosa"
    ],
    "answer": 1,
-   "why": "Short incubation 10-45 days."
+   "why": "Short incubation 10-45 days.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/24.jpg",
+     "lec": "Leishmaniasis",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "A characteristic feature of cutaneous leishmaniasis ulcers is:",
@@ -4551,7 +5422,19 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "They are on covered skin"
    ],
    "answer": 1,
-   "why": "On exposed areas."
+   "why": "On exposed areas.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/23.jpg",
+     "lec": "Leishmaniasis",
+     "n": 23
+    },
+    {
+     "src": "files/slides/parasito-leishmaniasis/31.jpg",
+     "lec": "Leishmaniasis",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Mucocutaneous leishmaniasis (espundia) is caused mainly by:",
@@ -4562,7 +5445,19 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "L. donovani"
    ],
    "answer": 0,
-   "why": "New World; destroys nose and palate."
+   "why": "New World; destroys nose and palate.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/14.jpg",
+     "lec": "Leishmaniasis",
+     "n": 14
+    },
+    {
+     "src": "files/slides/parasito-leishmaniasis/30.jpg",
+     "lec": "Leishmaniasis",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Where is the skin sample taken for diagnosis?",
@@ -4573,7 +5468,14 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "Healthy skin far from the lesion"
    ],
    "answer": 0,
-   "why": "MGG smear, NNN culture, biopsy."
+   "why": "MGG smear, NNN culture, biopsy.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/32.jpg",
+     "lec": "Leishmaniasis",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "In Morocco, intralesional Glucantime is used for:",
@@ -4584,7 +5486,19 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "Fewer than 5 lesions under 4 cm"
    ],
    "answer": 3,
-   "why": "IM for > 5 lesions or > 4 cm."
+   "why": "IM for > 5 lesions or > 4 cm.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/32.jpg",
+     "lec": "Leishmaniasis",
+     "n": 32
+    },
+    {
+     "src": "files/slides/parasito-leishmaniasis/34.jpg",
+     "lec": "Leishmaniasis",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which is a contraindication to Glucantime?",
@@ -4595,7 +5509,14 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "Pregnancy"
    ],
    "answer": 3,
-   "why": "Also age > 50, severe renal, hepatic, cardiac failure."
+   "why": "Also age > 50, severe renal, hepatic, cardiac failure.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/37.jpg",
+     "lec": "Leishmaniasis",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "What must be monitored during antimony treatment?",
@@ -4606,7 +5527,14 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "Skin colour"
    ],
    "answer": 2,
-   "why": "Plus blood count, liver, pancreas, kidney."
+   "why": "Plus blood count, liver, pancreas, kidney.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/39.jpg",
+     "lec": "Leishmaniasis",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Liposomal amphotericin B is used in:",
@@ -4617,7 +5545,14 @@ SINA.lectures["parasito-leishmaniasis"] = {
     "Pinworm"
    ],
    "answer": 1,
-   "why": "Allows higher doses with less toxicity."
+   "why": "Allows higher doses with less toxicity.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-leishmaniasis/38.jpg",
+     "lec": "Leishmaniasis",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5034,7 +5969,14 @@ SINA.lectures["parasito-nematodes"] = {
     "Trichuris"
    ],
    "answer": 2,
-   "why": "So autoinfestation is possible."
+   "why": "So autoinfestation is possible.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-nematodes/04.jpg",
+     "lec": "Intestinal nematodes: pinworm,",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Where do female pinworms lay their eggs?",
@@ -5045,7 +5987,14 @@ SINA.lectures["parasito-nematodes"] = {
     "At the perianal area at night"
    ],
    "answer": 3,
-   "why": "Causing evening anal itching."
+   "why": "Causing evening anal itching.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-nematodes/04.jpg",
+     "lec": "Intestinal nematodes: pinworm,",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Pinworm is diagnosed by:",
@@ -5056,7 +6005,14 @@ SINA.lectures["parasito-nematodes"] = {
     "Graham scotch-tape test"
    ],
    "answer": 3,
-   "why": "Eggs are on the perianal skin."
+   "why": "Eggs are on the perianal skin.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-nematodes/11.jpg",
+     "lec": "Intestinal nematodes: pinworm,",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Why repeat albendazole 15-21 days later for pinworm?",
@@ -5067,7 +6023,14 @@ SINA.lectures["parasito-nematodes"] = {
     "To treat the larvae in the lungs"
    ],
    "answer": 0,
-   "why": "Plus household measures."
+   "why": "Plus household measures.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-nematodes/12.jpg",
+     "lec": "Intestinal nematodes: pinworm,",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Where do adult Ascaris live?",
@@ -5078,7 +6041,14 @@ SINA.lectures["parasito-nematodes"] = {
     "Caecum"
    ],
    "answer": 2,
-   "why": "They are large and very mobile."
+   "why": "They are large and very mobile.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-nematodes/14.jpg",
+     "lec": "Intestinal nematodes: pinworm,",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Ascaris eggs are:",
@@ -5089,7 +6059,14 @@ SINA.lectures["parasito-nematodes"] = {
     "Operculated"
    ],
    "answer": 2,
-   "why": "Outer mamillated shell."
+   "why": "Outer mamillated shell.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-nematodes/16.jpg",
+     "lec": "Intestinal nematodes: pinworm,",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Löffler syndrome in ascariasis is due to:",
@@ -5100,7 +6077,14 @@ SINA.lectures["parasito-nematodes"] = {
     "Eggs in the liver"
    ],
    "answer": 1,
-   "why": "Cough, fever, transient infiltrate, eosinophilia."
+   "why": "Cough, fever, transient infiltrate, eosinophilia.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-nematodes/20.jpg",
+     "lec": "Intestinal nematodes: pinworm,",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "How long until Ascaris adults appear after infection?",
@@ -5111,7 +6095,19 @@ SINA.lectures["parasito-nematodes"] = {
     "1 week"
    ],
    "answer": 1,
-   "why": "Longevity about 12 months."
+   "why": "Longevity about 12 months.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-nematodes/17.jpg",
+     "lec": "Intestinal nematodes: pinworm,",
+     "n": 17
+    },
+    {
+     "src": "files/slides/parasito-nematodes/19.jpg",
+     "lec": "Intestinal nematodes: pinworm,",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Is autoinfestation possible with Ascaris?",
@@ -5122,7 +6118,14 @@ SINA.lectures["parasito-nematodes"] = {
     "Yes"
    ],
    "answer": 0,
-   "why": "It is a faecal-hazard disease."
+   "why": "It is a faecal-hazard disease.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-nematodes/25.jpg",
+     "lec": "Intestinal nematodes: pinworm,",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "A rare surgical complication of ascariasis is:",
@@ -5133,7 +6136,14 @@ SINA.lectures["parasito-nematodes"] = {
     "Liver abscess"
    ],
    "answer": 0,
-   "why": "Due to the worm's size and mobility."
+   "why": "Due to the worm's size and mobility.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-nematodes/20.jpg",
+     "lec": "Intestinal nematodes: pinworm,",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Trichuris eggs are recognised by:",
@@ -5144,7 +6154,14 @@ SINA.lectures["parasito-nematodes"] = {
     "A lid (operculum)"
    ],
    "answer": 1,
-   "why": "Double shell, not embryonated."
+   "why": "Double shell, not embryonated.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-nematodes/27.jpg",
+     "lec": "Intestinal nematodes: pinworm,",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Heavy whipworm infection can cause:",
@@ -5155,7 +6172,14 @@ SINA.lectures["parasito-nematodes"] = {
     "Rectal prolapse and anaemia"
    ],
    "answer": 3,
-   "why": "Plus dysentery and tenesmus."
+   "why": "Plus dysentery and tenesmus.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-nematodes/29.jpg",
+     "lec": "Intestinal nematodes: pinworm,",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which drugs treat Ascaris?",
@@ -5166,7 +6190,14 @@ SINA.lectures["parasito-nematodes"] = {
     "Chloroquine"
    ],
    "answer": 1,
-   "why": "Plus faecal-hazard control."
+   "why": "Plus faecal-hazard control.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-nematodes/23.jpg",
+     "lec": "Intestinal nematodes: pinworm,",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5566,7 +6597,14 @@ SINA.lectures["parasito-hookworm-strongyloides"] = {
     "Skin penetration by L3 larvae"
    ],
    "answer": 3,
-   "why": "Barefoot contact with contaminated mud."
+   "why": "Barefoot contact with contaminated mud.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hookworm-strongyloides/08.jpg",
+     "lec": "Hookworms and strongyloidiasis",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Ancylostoma duodenale is characterised by:",
@@ -5577,7 +6615,14 @@ SINA.lectures["parasito-hookworm-strongyloides"] = {
     "No mouth at all"
    ],
    "answer": 2,
-   "why": "Necator americanus has cutting plates."
+   "why": "Necator americanus has cutting plates.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hookworm-strongyloides/06.jpg",
+     "lec": "Hookworms and strongyloidiasis",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which workers are classically exposed to hookworm?",
@@ -5588,7 +6633,14 @@ SINA.lectures["parasito-hookworm-strongyloides"] = {
     "Miners and farm workers"
    ],
    "answer": 3,
-   "why": "Warm, damp, faeces-enriched soil."
+   "why": "Warm, damp, faeces-enriched soil.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hookworm-strongyloides/08.jpg",
+     "lec": "Hookworms and strongyloidiasis",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The main consequence of chronic hookworm infection is:",
@@ -5599,7 +6651,14 @@ SINA.lectures["parasito-hookworm-strongyloides"] = {
     "Liver abscess"
    ],
    "answer": 2,
-   "why": "Adults suck blood in the duodenum."
+   "why": "Adults suck blood in the duodenum.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hookworm-strongyloides/10.jpg",
+     "lec": "Hookworms and strongyloidiasis",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Löffler syndrome in hookworm infection occurs during:",
@@ -5610,7 +6669,19 @@ SINA.lectures["parasito-hookworm-strongyloides"] = {
     "The period of treatment"
    ],
    "answer": 0,
-   "why": "Dry cough and high eosinophilia."
+   "why": "Dry cough and high eosinophilia.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hookworm-strongyloides/10.jpg",
+     "lec": "Hookworms and strongyloidiasis",
+     "n": 10
+    },
+    {
+     "src": "files/slides/parasito-hookworm-strongyloides/24.jpg",
+     "lec": "Hookworms and strongyloidiasis",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Treatment of hookworm infection is:",
@@ -5621,7 +6692,14 @@ SINA.lectures["parasito-hookworm-strongyloides"] = {
     "Metronidazole for ten days"
    ],
    "answer": 1,
-   "why": "Plus folic acid."
+   "why": "Plus folic acid.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hookworm-strongyloides/13.jpg",
+     "lec": "Hookworms and strongyloidiasis",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "In Strongyloides, the intestinal adult is:",
@@ -5632,7 +6710,14 @@ SINA.lectures["parasito-hookworm-strongyloides"] = {
     "A cyst"
    ],
    "answer": 1,
-   "why": "It reproduces without a male."
+   "why": "It reproduces without a male.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hookworm-strongyloides/18.jpg",
+     "lec": "Hookworms and strongyloidiasis",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Why can strongyloidiasis persist for over 30 years?",
@@ -5643,7 +6728,14 @@ SINA.lectures["parasito-hookworm-strongyloides"] = {
     "Endogenous autoinfection cycle"
    ],
    "answer": 3,
-   "why": "L1 larvae become infective inside the host."
+   "why": "L1 larvae become infective inside the host.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hookworm-strongyloides/23.jpg",
+     "lec": "Hookworms and strongyloidiasis",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Larva currens is:",
@@ -5654,7 +6746,14 @@ SINA.lectures["parasito-hookworm-strongyloides"] = {
     "A rash on the palms"
    ],
    "answer": 1,
-   "why": "Seen during autoinfection around the waist."
+   "why": "Seen during autoinfection around the waist.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hookworm-strongyloides/25.jpg",
+     "lec": "Hookworms and strongyloidiasis",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Malignant strongyloidiasis is typically triggered by:",
@@ -5665,7 +6764,14 @@ SINA.lectures["parasito-hookworm-strongyloides"] = {
     "Routine vaccination"
    ],
    "answer": 0,
-   "why": "Also lymphomas and transplants."
+   "why": "Also lymphomas and transplants.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hookworm-strongyloides/26.jpg",
+     "lec": "Hookworms and strongyloidiasis",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "The eosinophilia of strongyloidiasis is typically:",
@@ -5676,7 +6782,14 @@ SINA.lectures["parasito-hookworm-strongyloides"] = {
     "Always strictly normal"
    ],
    "answer": 0,
-   "why": "From repeated autoinfection."
+   "why": "From repeated autoinfection.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hookworm-strongyloides/27.jpg",
+     "lec": "Hookworms and strongyloidiasis",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which technique detects light Strongyloides infections?",
@@ -5687,7 +6800,14 @@ SINA.lectures["parasito-hookworm-strongyloides"] = {
     "Baermann method"
    ],
    "answer": 3,
-   "why": "Using larval thermo- and hygrotropism."
+   "why": "Using larval thermo- and hygrotropism.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hookworm-strongyloides/28.jpg",
+     "lec": "Hookworms and strongyloidiasis",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which larvae are seen in the stool in strongyloidiasis?",
@@ -5698,7 +6818,19 @@ SINA.lectures["parasito-hookworm-strongyloides"] = {
     "Rhabditoid L1"
    ],
    "answer": 3,
-   "why": "Hookworm usually shows eggs instead."
+   "why": "Hookworm usually shows eggs instead.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hookworm-strongyloides/12.jpg",
+     "lec": "Hookworms and strongyloidiasis",
+     "n": 12
+    },
+    {
+     "src": "files/slides/parasito-hookworm-strongyloides/21.jpg",
+     "lec": "Hookworms and strongyloidiasis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "A single-dose treatment for strongyloidiasis is:",
@@ -5709,7 +6841,14 @@ SINA.lectures["parasito-hookworm-strongyloides"] = {
     "Praziquantel"
    ],
    "answer": 0,
-   "why": "Albendazole needs 3 days."
+   "why": "Albendazole needs 3 days.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hookworm-strongyloides/29.jpg",
+     "lec": "Hookworms and strongyloidiasis",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -6115,7 +7254,19 @@ SINA.lectures["parasito-distomatosis"] = {
     "Cestodes"
    ],
    "answer": 2,
-   "why": "Unsegmented, leaf-shaped platyhelminths."
+   "why": "Unsegmented, leaf-shaped platyhelminths.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-distomatosis/02.jpg",
+     "lec": "Distomatoses (flukes)",
+     "n": 2
+    },
+    {
+     "src": "files/slides/parasito-distomatosis/06.jpg",
+     "lec": "Distomatoses (flukes)",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "A distinctive anatomical feature of flukes is:",
@@ -6126,7 +7277,14 @@ SINA.lectures["parasito-distomatosis"] = {
     "An incomplete gut without anus"
    ],
    "answer": 3,
-   "why": "They have oral and ventral suckers."
+   "why": "They have oral and ventral suckers.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-distomatosis/05.jpg",
+     "lec": "Distomatoses (flukes)",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The intermediate host of Fasciola hepatica is:",
@@ -6137,7 +7295,14 @@ SINA.lectures["parasito-distomatosis"] = {
     "Freshwater snail Lymnaea truncatula"
    ],
    "answer": 3,
-   "why": "Found near cattle pastures."
+   "why": "Found near cattle pastures.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-distomatosis/02.jpg",
+     "lec": "Distomatoses (flukes)",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Humans usually acquire fasciolosis by eating:",
@@ -6148,7 +7313,14 @@ SINA.lectures["parasito-distomatosis"] = {
     "Undercooked pork"
    ],
    "answer": 0,
-   "why": "Carrying encysted metacercariae."
+   "why": "Carrying encysted metacercariae.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-distomatosis/03.jpg",
+     "lec": "Distomatoses (flukes)",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The definitive hosts of Fasciola hepatica are mainly:",
@@ -6159,7 +7331,14 @@ SINA.lectures["parasito-distomatosis"] = {
     "Dogs"
    ],
    "answer": 2,
-   "why": "Humans are accidental hosts."
+   "why": "Humans are accidental hosts.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-distomatosis/06.jpg",
+     "lec": "Distomatoses (flukes)",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Where do adult Fasciola live?",
@@ -6170,7 +7349,14 @@ SINA.lectures["parasito-distomatosis"] = {
     "Small intestine"
    ],
    "answer": 2,
-   "why": "Attached by suckers to the epithelium."
+   "why": "Attached by suckers to the epithelium.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-distomatosis/06.jpg",
+     "lec": "Distomatoses (flukes)",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The invasion phase of fasciolosis causes:",
@@ -6181,7 +7367,14 @@ SINA.lectures["parasito-distomatosis"] = {
     "Watery diarrhoea from the gut"
    ],
    "answer": 1,
-   "why": "In the first weeks."
+   "why": "In the first weeks.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-distomatosis/08.jpg",
+     "lec": "Distomatoses (flukes)",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "When do eggs appear in the stool?",
@@ -6192,7 +7385,19 @@ SINA.lectures["parasito-distomatosis"] = {
     "Never, eggs are not shed"
    ],
    "answer": 1,
-   "why": "Only in the state phase."
+   "why": "Only in the state phase.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-distomatosis/08.jpg",
+     "lec": "Distomatoses (flukes)",
+     "n": 8
+    },
+    {
+     "src": "files/slides/parasito-distomatosis/11.jpg",
+     "lec": "Distomatoses (flukes)",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which test is useful in the invasion phase?",
@@ -6203,7 +7408,14 @@ SINA.lectures["parasito-distomatosis"] = {
     "Duodenal aspirate"
    ],
    "answer": 0,
-   "why": "Positive from about 3 weeks."
+   "why": "Positive from about 3 weeks.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-distomatosis/12.jpg",
+     "lec": "Distomatoses (flukes)",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "After effective treatment, serology:",
@@ -6214,7 +7426,14 @@ SINA.lectures["parasito-distomatosis"] = {
     "Turns IgE positive permanently"
    ],
    "answer": 0,
-   "why": "Due to antigen release from dying worms."
+   "why": "Due to antigen release from dying worms.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-distomatosis/12.jpg",
+     "lec": "Distomatoses (flukes)",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The F. hepatica egg is:",
@@ -6225,7 +7444,14 @@ SINA.lectures["parasito-distomatosis"] = {
     "Barrel-shaped with polar plugs"
    ],
    "answer": 1,
-   "why": "Large and thin-shelled."
+   "why": "Large and thin-shelled.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-distomatosis/11.jpg",
+     "lec": "Distomatoses (flukes)",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which fluke can mimic pulmonary tuberculosis?",
@@ -6236,7 +7462,14 @@ SINA.lectures["parasito-distomatosis"] = {
     "Paragonimus"
    ],
    "answer": 3,
-   "why": "Eggs are found in sputum."
+   "why": "Eggs are found in sputum.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-distomatosis/09.jpg",
+     "lec": "Distomatoses (flukes)",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Dicrocoelium eggs in human stool may reflect:",
@@ -6247,7 +7480,14 @@ SINA.lectures["parasito-distomatosis"] = {
     "A very heavy infection"
    ],
    "answer": 1,
-   "why": "A 'false' infection."
+   "why": "A 'false' infection.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-distomatosis/09.jpg",
+     "lec": "Distomatoses (flukes)",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -6707,7 +7947,14 @@ SINA.lectures["parasito-bilharzia"] = {
     "Venous plexuses"
    ],
    "answer": 3,
-   "why": "They are blood flukes."
+   "why": "They are blood flukes.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-bilharzia/02.jpg",
+     "lec": "Schistosomiasis (bilharzia)",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "How do humans become infected with Schistosoma?",
@@ -6718,7 +7965,19 @@ SINA.lectures["parasito-bilharzia"] = {
     "Being bitten by infected mosquitoes"
    ],
    "answer": 2,
-   "why": "The 'bare feet' disease."
+   "why": "The 'bare feet' disease.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-bilharzia/02.jpg",
+     "lec": "Schistosomiasis (bilharzia)",
+     "n": 2
+    },
+    {
+     "src": "files/slides/parasito-bilharzia/12.jpg",
+     "lec": "Schistosomiasis (bilharzia)",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which species exists in Morocco?",
@@ -6729,7 +7988,14 @@ SINA.lectures["parasito-bilharzia"] = {
     "S. haematobium"
    ],
    "answer": 3,
-   "why": "Urogenital schistosomiasis only."
+   "why": "Urogenital schistosomiasis only.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-bilharzia/02.jpg",
+     "lec": "Schistosomiasis (bilharzia)",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The intermediate host of S. haematobium is:",
@@ -6740,7 +8006,14 @@ SINA.lectures["parasito-bilharzia"] = {
     "Biomphalaria"
    ],
    "answer": 2,
-   "why": "Biomphalaria hosts S. mansoni."
+   "why": "Biomphalaria hosts S. mansoni.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-bilharzia/03.jpg",
+     "lec": "Schistosomiasis (bilharzia)",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The S. haematobium egg has:",
@@ -6751,7 +8024,14 @@ SINA.lectures["parasito-bilharzia"] = {
     "No spine"
    ],
    "answer": 0,
-   "why": "S. mansoni has a large lateral spine."
+   "why": "S. mansoni has a large lateral spine.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-bilharzia/07.jpg",
+     "lec": "Schistosomiasis (bilharzia)",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What explains the pathology of schistosomiasis?",
@@ -6762,7 +8042,19 @@ SINA.lectures["parasito-bilharzia"] = {
     "Bacterial superinfection of the bladder"
    ],
    "answer": 1,
-   "why": "Live adults cause no reaction."
+   "why": "Live adults cause no reaction.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-bilharzia/13.jpg",
+     "lec": "Schistosomiasis (bilharzia)",
+     "n": 13
+    },
+    {
+     "src": "files/slides/parasito-bilharzia/15.jpg",
+     "lec": "Schistosomiasis (bilharzia)",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which phase features fever, cough and very high eosinophilia?",
@@ -6773,7 +8065,14 @@ SINA.lectures["parasito-bilharzia"] = {
     "Penetration"
    ],
    "answer": 1,
-   "why": "Parasitological exams are still negative."
+   "why": "Parasitological exams are still negative.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-bilharzia/18.jpg",
+     "lec": "Schistosomiasis (bilharzia)",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The key symptom of urogenital schistosomiasis is:",
@@ -6784,7 +8083,14 @@ SINA.lectures["parasito-bilharzia"] = {
     "Terminal haematuria"
    ],
    "answer": 3,
-   "why": "With cystitis signs; risk of bladder cancer."
+   "why": "With cystitis signs; risk of bladder cancer.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-bilharzia/19.jpg",
+     "lec": "Schistosomiasis (bilharzia)",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Chronic S. mansoni infection can lead to:",
@@ -6795,7 +8101,19 @@ SINA.lectures["parasito-bilharzia"] = {
     "Chorioretinitis and loss of vision"
    ],
    "answer": 1,
-   "why": "Through egg granulomas in the liver."
+   "why": "Through egg granulomas in the liver.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-bilharzia/12.jpg",
+     "lec": "Schistosomiasis (bilharzia)",
+     "n": 12
+    },
+    {
+     "src": "files/slides/parasito-bilharzia/19.jpg",
+     "lec": "Schistosomiasis (bilharzia)",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "When do eggs appear in urine or stool?",
@@ -6806,7 +8124,14 @@ SINA.lectures["parasito-bilharzia"] = {
     "After 2 days"
    ],
    "answer": 0,
-   "why": "Maturation and migration take time."
+   "why": "Maturation and migration take time.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-bilharzia/22.jpg",
+     "lec": "Schistosomiasis (bilharzia)",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "When should urine be collected for S. haematobium eggs?",
@@ -6817,7 +8142,14 @@ SINA.lectures["parasito-bilharzia"] = {
     "Any time, the timing does not matter"
    ],
    "answer": 0,
-   "why": "Egg excretion peaks at midday."
+   "why": "Egg excretion peaks at midday.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-bilharzia/23.jpg",
+     "lec": "Schistosomiasis (bilharzia)",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "A live egg on urine exam indicates:",
@@ -6828,7 +8160,14 @@ SINA.lectures["parasito-bilharzia"] = {
     "Active, evolving bilharzia"
    ],
    "answer": 3,
-   "why": "Dead or calcified eggs indicate old infection."
+   "why": "Dead or calcified eggs indicate old infection.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-bilharzia/23.jpg",
+     "lec": "Schistosomiasis (bilharzia)",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which test can diagnose the invasion phase?",
@@ -6839,7 +8178,14 @@ SINA.lectures["parasito-bilharzia"] = {
     "Serology"
    ],
    "answer": 3,
-   "why": "Antibodies appear 15-30 days after infection."
+   "why": "Antibodies appear 15-30 days after infection.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-bilharzia/27.jpg",
+     "lec": "Schistosomiasis (bilharzia)",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Treatment of schistosomiasis is:",
@@ -6850,7 +8196,14 @@ SINA.lectures["parasito-bilharzia"] = {
     "Ivermectin as a single dose"
    ],
    "answer": 0,
-   "why": "40 mg/kg (60 mg/kg for S. japonicum)."
+   "why": "40 mg/kg (60 mg/kg for S. japonicum).",
+   "slides": [
+    {
+     "src": "files/slides/parasito-bilharzia/28.jpg",
+     "lec": "Schistosomiasis (bilharzia)",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -7335,7 +8688,19 @@ SINA.lectures["parasito-hydatidosis"] = {
     "Dog"
    ],
    "answer": 3,
-   "why": "The adult tapeworm lives in its intestine."
+   "why": "The adult tapeworm lives in its intestine.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hydatidosis/07.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 7
+    },
+    {
+     "src": "files/slides/parasito-hydatidosis/08.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Humans are, for E. granulosus:",
@@ -7346,7 +8711,14 @@ SINA.lectures["parasito-hydatidosis"] = {
     "Vectors that spread eggs to sheep"
    ],
    "answer": 2,
-   "why": "The cycle stops in humans."
+   "why": "The cycle stops in humans.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hydatidosis/07.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "How do humans become infected?",
@@ -7357,7 +8729,14 @@ SINA.lectures["parasito-hydatidosis"] = {
     "Bites of mosquitoes that fed on dogs"
    ],
    "answer": 1,
-   "why": "Direct dog contact or indirect via food and water."
+   "why": "Direct dog contact or indirect via food and water.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hydatidosis/07.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "How do dogs become infected?",
@@ -7368,7 +8747,19 @@ SINA.lectures["parasito-hydatidosis"] = {
     "From humans"
    ],
    "answer": 2,
-   "why": "Adults develop in 6 weeks."
+   "why": "Adults develop in 6 weeks.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hydatidosis/08.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 8
+    },
+    {
+     "src": "files/slides/parasito-hydatidosis/44.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Which layer of the hydatid cyst is NOT parasitic?",
@@ -7379,7 +8770,14 @@ SINA.lectures["parasito-hydatidosis"] = {
     "Brood capsule"
    ],
    "answer": 0,
-   "why": "It is compressed host organ tissue."
+   "why": "It is compressed host organ tissue.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hydatidosis/22.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which layer produces protoscolices and hydatid fluid?",
@@ -7390,7 +8788,14 @@ SINA.lectures["parasito-hydatidosis"] = {
     "Hydatid sand"
    ],
    "answer": 1,
-   "why": "The fertile membrane."
+   "why": "The fertile membrane.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hydatidosis/22.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "The most common location of the hydatid cyst is:",
@@ -7401,7 +8806,14 @@ SINA.lectures["parasito-hydatidosis"] = {
     "Brain"
    ],
    "answer": 2,
-   "why": "50-60% of cases."
+   "why": "50-60% of cases.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hydatidosis/27.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "A feared immediate complication of cyst rupture is:",
@@ -7412,7 +8824,14 @@ SINA.lectures["parasito-hydatidosis"] = {
     "Anaphylactic shock"
    ],
    "answer": 3,
-   "why": "Plus later secondary echinococcosis."
+   "why": "Plus later secondary echinococcosis.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hydatidosis/26.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "A pulmonary hydatid cyst rupturing into a bronchus causes:",
@@ -7423,7 +8842,14 @@ SINA.lectures["parasito-hydatidosis"] = {
     "Jaundice"
    ],
    "answer": 1,
-   "why": "With the 'water-lily' sign on imaging."
+   "why": "With the 'water-lily' sign on imaging.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hydatidosis/28.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The main imaging test that guides treatment is:",
@@ -7434,7 +8860,19 @@ SINA.lectures["parasito-hydatidosis"] = {
     "Chest X-ray"
    ],
    "answer": 0,
-   "why": "CE1 to CE5 stages."
+   "why": "CE1 to CE5 stages.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hydatidosis/34.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 34
+    },
+    {
+     "src": "files/slides/parasito-hydatidosis/42.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "A CE5 cyst is:",
@@ -7445,7 +8883,19 @@ SINA.lectures["parasito-hydatidosis"] = {
     "Simple unilocular"
    ],
    "answer": 0,
-   "why": "Managed by watch and wait."
+   "why": "Managed by watch and wait.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hydatidosis/41.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 41
+    },
+    {
+     "src": "files/slides/parasito-hydatidosis/42.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Which Western blot band is specific to E. granulosus?",
@@ -7456,7 +8906,14 @@ SINA.lectures["parasito-hydatidosis"] = {
     "17 kDa"
    ],
    "answer": 3,
-   "why": "16 and 18 kDa are specific to E. multilocularis."
+   "why": "16 and 18 kDa are specific to E. multilocularis.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hydatidosis/36.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "A negative hydatid serology:",
@@ -7467,7 +8924,14 @@ SINA.lectures["parasito-hydatidosis"] = {
     "Does not exclude it (e.g. calcified cyst)"
    ],
    "answer": 3,
-   "why": "Sensitivity is not 100%."
+   "why": "Sensitivity is not 100%.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hydatidosis/35.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "PAIR stands for:",
@@ -7478,7 +8942,19 @@ SINA.lectures["parasito-hydatidosis"] = {
     "None"
    ],
    "answer": 0,
-   "why": "With a scolicide such as 95% alcohol."
+   "why": "With a scolicide such as 95% alcohol.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hydatidosis/40.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 40
+    },
+    {
+     "src": "files/slides/parasito-hydatidosis/43.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Albendazole is contraindicated in:",
@@ -7489,7 +8965,14 @@ SINA.lectures["parasito-hydatidosis"] = {
     "Patients over 70 years"
    ],
    "answer": 1,
-   "why": "Side effects: neutropenia, transaminases, alopecia."
+   "why": "Side effects: neutropenia, transaminases, alopecia.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hydatidosis/41.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Which measure prevents hydatidosis?",
@@ -7500,7 +8983,14 @@ SINA.lectures["parasito-hydatidosis"] = {
     "Deworming dogs, destroying offal"
    ],
    "answer": 3,
-   "why": "Plus hand washing and washing vegetables."
+   "why": "Plus hand washing and washing vegetables.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-hydatidosis/44.jpg",
+     "lec": "Hydatidosis (hydatid cyst)",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -7985,7 +9475,14 @@ SINA.lectures["parasito-candidiasis"] = {
     "A commensal of the gut and mucosae"
    ],
    "answer": 3,
-   "why": "It becomes pathogenic when defences fail."
+   "why": "It becomes pathogenic when defences fail.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-candidiasis/03.jpg",
+     "lec": "Candidiasis",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Candida yeasts are:",
@@ -7996,7 +9493,14 @@ SINA.lectures["parasito-candidiasis"] = {
     "Septate moulds"
    ],
    "answer": 2,
-   "why": "Cryptococcus is the capsulated yeast."
+   "why": "Cryptococcus is the capsulated yeast.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-candidiasis/03.jpg",
+     "lec": "Candidiasis",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which is an iatrogenic factor for candidiasis?",
@@ -8007,7 +9511,14 @@ SINA.lectures["parasito-candidiasis"] = {
     "Physical exercise"
    ],
    "answer": 0,
-   "why": "Also steroids, catheters, parenteral nutrition."
+   "why": "Also steroids, catheters, parenteral nutrition.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-candidiasis/05.jpg",
+     "lec": "Candidiasis",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Oesophageal candidiasis in HIV typically occurs when CD4 fall below:",
@@ -8018,7 +9529,14 @@ SINA.lectures["parasito-candidiasis"] = {
     "500"
    ],
    "answer": 2,
-   "why": "Oral candidiasis below about 300."
+   "why": "Oral candidiasis below about 300.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-candidiasis/09.jpg",
+     "lec": "Candidiasis",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What proportion of women have at least one episode of vulvovaginal candidiasis?",
@@ -8029,7 +9547,14 @@ SINA.lectures["parasito-candidiasis"] = {
     "25%"
    ],
    "answer": 0,
-   "why": "C. albicans 80%, C. glabrata 10%."
+   "why": "C. albicans 80%, C. glabrata 10%.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-candidiasis/13.jpg",
+     "lec": "Candidiasis",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Typical discharge in vulvovaginal candidiasis is:",
@@ -8040,7 +9565,14 @@ SINA.lectures["parasito-candidiasis"] = {
     "Frothy green"
    ],
    "answer": 1,
-   "why": "With itching and burning."
+   "why": "With itching and burning.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-candidiasis/13.jpg",
+     "lec": "Candidiasis",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Candidal intertrigo shows:",
@@ -8051,7 +9583,14 @@ SINA.lectures["parasito-candidiasis"] = {
     "Scaly ring with central clearing"
    ],
    "answer": 2,
-   "why": "Starting at the bottom of the fold."
+   "why": "Starting at the bottom of the fold.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-candidiasis/15.jpg",
+     "lec": "Candidiasis",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Candida nail infection usually starts with:",
@@ -8062,7 +9601,14 @@ SINA.lectures["parasito-candidiasis"] = {
     "Painful perionyxis"
    ],
    "answer": 3,
-   "why": "Mostly fingernails of the dominant hand."
+   "why": "Mostly fingernails of the dominant hand.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-candidiasis/19.jpg",
+     "lec": "Candidiasis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which host criterion suggests invasive fungal infection?",
@@ -8073,7 +9619,14 @@ SINA.lectures["parasito-candidiasis"] = {
     "A maculopapular skin rash"
    ],
    "answer": 1,
-   "why": "In a high-risk patient."
+   "why": "In a high-risk patient.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-candidiasis/24.jpg",
+     "lec": "Candidiasis",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "On a mucosal sample, Candida is significant when:",
@@ -8084,7 +9637,19 @@ SINA.lectures["parasito-candidiasis"] = {
     "Never"
    ],
    "answer": 0,
-   "why": "To distinguish infection from commensalism."
+   "why": "To distinguish infection from commensalism.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-candidiasis/22.jpg",
+     "lec": "Candidiasis",
+     "n": 22
+    },
+    {
+     "src": "files/slides/parasito-candidiasis/31.jpg",
+     "lec": "Candidiasis",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "The reference culture medium is:",
@@ -8095,7 +9660,14 @@ SINA.lectures["parasito-candidiasis"] = {
     "Löwenstein-Jensen"
    ],
    "answer": 0,
-   "why": "Chromogenic media give rapid identification."
+   "why": "Chromogenic media give rapid identification.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-candidiasis/32.jpg",
+     "lec": "Candidiasis",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which test rapidly identifies C. albicans?",
@@ -8106,7 +9678,14 @@ SINA.lectures["parasito-candidiasis"] = {
     "Germ-tube test in serum"
    ],
    "answer": 3,
-   "why": "3 hours at 37 °C."
+   "why": "3 hours at 37 °C.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-candidiasis/36.jpg",
+     "lec": "Candidiasis",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Which antigen is detected in invasive candidiasis?",
@@ -8117,7 +9696,14 @@ SINA.lectures["parasito-candidiasis"] = {
     "Mannan"
    ],
    "answer": 3,
-   "why": "Combined with antibodies; also β-glucan."
+   "why": "Combined with antibodies; also β-glucan.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-candidiasis/44.jpg",
+     "lec": "Candidiasis",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Oral thrush can be treated with:",
@@ -8128,7 +9714,14 @@ SINA.lectures["parasito-candidiasis"] = {
     "Oral terbinafine for six weeks"
    ],
    "answer": 0,
-   "why": "Fluconazole if recurrent."
+   "why": "Fluconazole if recurrent.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-candidiasis/46.jpg",
+     "lec": "Candidiasis",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "Which drugs treat disseminated candidiasis?",
@@ -8139,7 +9732,14 @@ SINA.lectures["parasito-candidiasis"] = {
     "Griseofulvin tablets for a month"
    ],
    "answer": 1,
-   "why": "Plus voriconazole."
+   "why": "Plus voriconazole.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-candidiasis/50.jpg",
+     "lec": "Candidiasis",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -8549,7 +10149,14 @@ SINA.lectures["parasito-malassezioses"] = {
     "Filamentous moulds"
    ],
    "answer": 2,
-   "why": "They need fatty acids from sebum."
+   "why": "They need fatty acids from sebum.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malassezioses/04.jpg",
+     "lec": "Malassezioses (pityriasis versicolor)",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Why is pityriasis versicolor rare before puberty?",
@@ -8560,7 +10167,14 @@ SINA.lectures["parasito-malassezioses"] = {
     "Children have immunity"
    ],
    "answer": 1,
-   "why": "It peaks between 18 and 40."
+   "why": "It peaks between 18 and 40.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malassezioses/04.jpg",
+     "lec": "Malassezioses (pityriasis versicolor)",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which is a favouring factor for malassezioses?",
@@ -8571,7 +10185,19 @@ SINA.lectures["parasito-malassezioses"] = {
     "Antibiotics only"
    ],
    "answer": 0,
-   "why": "Also oils and fatty cosmetics."
+   "why": "Also oils and fatty cosmetics.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malassezioses/05.jpg",
+     "lec": "Malassezioses (pityriasis versicolor)",
+     "n": 5
+    },
+    {
+     "src": "files/slides/parasito-malassezioses/06.jpg",
+     "lec": "Malassezioses (pityriasis versicolor)",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which hormonal state favours malassezioses?",
@@ -8582,7 +10208,14 @@ SINA.lectures["parasito-malassezioses"] = {
     "Hypothyroidism"
    ],
    "answer": 1,
-   "why": "Also pregnancy and contraceptives."
+   "why": "Also pregnancy and contraceptives.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malassezioses/07.jpg",
+     "lec": "Malassezioses (pityriasis versicolor)",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The 'chip sign' (signe du copeau) refers to:",
@@ -8593,7 +10226,14 @@ SINA.lectures["parasito-malassezioses"] = {
     "Fine scaling revealed by scratching a lesion"
    ],
    "answer": 3,
-   "why": "Typical of active pityriasis versicolor."
+   "why": "Typical of active pityriasis versicolor.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malassezioses/14.jpg",
+     "lec": "Malassezioses (pityriasis versicolor)",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "After treatment of pityriasis versicolor, the skin:",
@@ -8604,7 +10244,14 @@ SINA.lectures["parasito-malassezioses"] = {
     "Scars"
    ],
    "answer": 2,
-   "why": "Faster with sun exposure."
+   "why": "Faster with sun exposure.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malassezioses/21.jpg",
+     "lec": "Malassezioses (pityriasis versicolor)",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Under Wood's lamp, pityriasis versicolor shows:",
@@ -8615,7 +10262,14 @@ SINA.lectures["parasito-malassezioses"] = {
     "Blue fluorescence"
    ],
    "answer": 0,
-   "why": "Due to porphyrin production."
+   "why": "Due to porphyrin production.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malassezioses/17.jpg",
+     "lec": "Malassezioses (pityriasis versicolor)",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The direct exam of Malassezia shows:",
@@ -8626,7 +10280,14 @@ SINA.lectures["parasito-malassezioses"] = {
     "Capsulated yeasts with a halo"
    ],
    "answer": 2,
-   "why": "On scotch tape with methylene blue."
+   "why": "On scotch tape with methylene blue.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malassezioses/17.jpg",
+     "lec": "Malassezioses (pityriasis versicolor)",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Is culture needed to diagnose pityriasis versicolor?",
@@ -8637,7 +10298,14 @@ SINA.lectures["parasito-malassezioses"] = {
     "No, it is not essential"
    ],
    "answer": 3,
-   "why": "The direct exam suffices."
+   "why": "The direct exam suffices.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malassezioses/20.jpg",
+     "lec": "Malassezioses (pityriasis versicolor)",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Seborrhoeic dermatitis typically affects:",
@@ -8648,7 +10316,14 @@ SINA.lectures["parasito-malassezioses"] = {
     "Finger and toe nails"
    ],
    "answer": 1,
-   "why": "Areas rich in sebaceous glands."
+   "why": "Areas rich in sebaceous glands.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malassezioses/09.jpg",
+     "lec": "Malassezioses (pityriasis versicolor)",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What should patients be told about pityriasis versicolor?",
@@ -8659,7 +10334,19 @@ SINA.lectures["parasito-malassezioses"] = {
     "It causes cancer"
    ],
    "answer": 0,
-   "why": "Patient information is part of treatment."
+   "why": "Patient information is part of treatment.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malassezioses/20.jpg",
+     "lec": "Malassezioses (pityriasis versicolor)",
+     "n": 20
+    },
+    {
+     "src": "files/slides/parasito-malassezioses/21.jpg",
+     "lec": "Malassezioses (pityriasis versicolor)",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "A single-application topical treatment option is:",
@@ -8670,7 +10357,14 @@ SINA.lectures["parasito-malassezioses"] = {
     "Ketoconazole foaming gel"
    ],
    "answer": 3,
-   "why": "Other azoles twice daily for 2-3 weeks."
+   "why": "Other azoles twice daily for 2-3 weeks.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-malassezioses/22.jpg",
+     "lec": "Malassezioses (pityriasis versicolor)",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -9075,7 +10769,14 @@ SINA.lectures["parasito-cryptococcosis"] = {
     "A polysaccharide capsule"
    ],
    "answer": 3,
-   "why": "The main virulence factor."
+   "why": "The main virulence factor.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-cryptococcosis/25.jpg",
+     "lec": "Cryptococcosis",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The main environmental reservoir is:",
@@ -9086,7 +10787,14 @@ SINA.lectures["parasito-cryptococcosis"] = {
     "Contaminated water"
    ],
    "answer": 2,
-   "why": "Also bat guano and soil."
+   "why": "Also bat guano and soil.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-cryptococcosis/05.jpg",
+     "lec": "Cryptococcosis",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "How is Cryptococcus acquired?",
@@ -9097,7 +10805,14 @@ SINA.lectures["parasito-cryptococcosis"] = {
     "Inhalation of spores"
    ],
    "answer": 3,
-   "why": "No human-to-human transmission except grafts."
+   "why": "No human-to-human transmission except grafts.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-cryptococcosis/05.jpg",
+     "lec": "Cryptococcosis",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Cryptococcosis in HIV typically occurs when CD4 are below:",
@@ -9108,7 +10823,14 @@ SINA.lectures["parasito-cryptococcosis"] = {
     "500"
    ],
    "answer": 2,
-   "why": "It is AIDS-defining."
+   "why": "It is AIDS-defining.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-cryptococcosis/07.jpg",
+     "lec": "Cryptococcosis",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Why does Cryptococcus favour the CNS?",
@@ -9119,7 +10841,14 @@ SINA.lectures["parasito-cryptococcosis"] = {
     "It is inhaled directly into the brain"
    ],
    "answer": 0,
-   "why": "After lung entry and blood spread."
+   "why": "After lung entry and blood spread.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-cryptococcosis/08.jpg",
+     "lec": "Cryptococcosis",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Cryptococcal meningoencephalitis typically begins:",
@@ -9130,7 +10859,14 @@ SINA.lectures["parasito-cryptococcosis"] = {
     "With diarrhoea"
    ],
    "answer": 1,
-   "why": "Cranial nerve palsies are common."
+   "why": "Cranial nerve palsies are common.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-cryptococcosis/09.jpg",
+     "lec": "Cryptococcosis",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Raised intracranial pressure in cryptococcal meningitis is managed by:",
@@ -9141,7 +10877,14 @@ SINA.lectures["parasito-cryptococcosis"] = {
     "Emergency neurosurgery"
    ],
    "answer": 1,
-   "why": "A poor prognostic sign."
+   "why": "A poor prognostic sign.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-cryptococcosis/11.jpg",
+     "lec": "Cryptococcosis",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which test gives an emergency diagnosis on CSF?",
@@ -9152,7 +10895,19 @@ SINA.lectures["parasito-cryptococcosis"] = {
     "India ink showing capsulated yeasts"
    ],
    "answer": 3,
-   "why": "Plus cryptococcal antigen."
+   "why": "Plus cryptococcal antigen.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-cryptococcosis/16.jpg",
+     "lec": "Cryptococcosis",
+     "n": 16
+    },
+    {
+     "src": "files/slides/parasito-cryptococcosis/21.jpg",
+     "lec": "Cryptococcosis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "CSF in cryptococcal meningitis is typically:",
@@ -9163,7 +10918,14 @@ SINA.lectures["parasito-cryptococcosis"] = {
     "Always completely normal"
    ],
    "answer": 1,
-   "why": "It may be normal in AIDS."
+   "why": "It may be normal in AIDS.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-cryptococcosis/20.jpg",
+     "lec": "Cryptococcosis",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which is the method of choice for indirect diagnosis?",
@@ -9174,7 +10936,19 @@ SINA.lectures["parasito-cryptococcosis"] = {
     "Intradermal skin test"
    ],
    "answer": 0,
-   "why": "Antibodies have no diagnostic value."
+   "why": "Antibodies have no diagnostic value.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-cryptococcosis/24.jpg",
+     "lec": "Cryptococcosis",
+     "n": 24
+    },
+    {
+     "src": "files/slides/parasito-cryptococcosis/25.jpg",
+     "lec": "Cryptococcosis",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Cryptococcus grows on Sabouraud:",
@@ -9185,7 +10959,14 @@ SINA.lectures["parasito-cryptococcosis"] = {
     "With actidione only"
    ],
    "answer": 0,
-   "why": "Mucoid beige colonies in 3-5 days."
+   "why": "Mucoid beige colonies in 3-5 days.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-cryptococcosis/22.jpg",
+     "lec": "Cryptococcosis",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "A rapid identification test for Cryptococcus is:",
@@ -9196,7 +10977,14 @@ SINA.lectures["parasito-cryptococcosis"] = {
     "Urease positivity"
    ],
    "answer": 3,
-   "why": "Positive within 4 hours at 37 °C."
+   "why": "Positive within 4 hours at 37 °C.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-cryptococcosis/23.jpg",
+     "lec": "Cryptococcosis",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Induction treatment of cryptococcal meningitis in HIV is:",
@@ -9207,7 +10995,14 @@ SINA.lectures["parasito-cryptococcosis"] = {
     "Amphotericin B + flucytosine for 2 weeks"
    ],
    "answer": 3,
-   "why": "Then fluconazole consolidation and maintenance."
+   "why": "Then fluconazole consolidation and maintenance.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-cryptococcosis/26.jpg",
+     "lec": "Cryptococcosis",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "If Cryptococcus is found in sputum, you should:",
@@ -9218,7 +11013,14 @@ SINA.lectures["parasito-cryptococcosis"] = {
     "Repeat the sputum in one year"
    ],
    "answer": 0,
-   "why": "Meningitis may be latent."
+   "why": "Meningitis may be latent.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-cryptococcosis/10.jpg",
+     "lec": "Cryptococcosis",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -9675,7 +11477,14 @@ SINA.lectures["parasito-aspergillosis"] = {
     "A. niger"
    ],
    "answer": 0,
-   "why": "About 90% of cases."
+   "why": "About 90% of cases.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-aspergillosis/04.jpg",
+     "lec": "Aspergillosis",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Aspergillus hyphae are:",
@@ -9686,7 +11495,14 @@ SINA.lectures["parasito-aspergillosis"] = {
     "Pigmented and aseptate"
    ],
    "answer": 1,
-   "why": "Hyalohyphomycetes."
+   "why": "Hyalohyphomycetes.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-aspergillosis/04.jpg",
+     "lec": "Aspergillosis",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "How does Aspergillus usually infect humans?",
@@ -9697,7 +11513,14 @@ SINA.lectures["parasito-aspergillosis"] = {
     "Ingestion"
    ],
    "answer": 1,
-   "why": "Also via wounds and burns."
+   "why": "Also via wounds and burns.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-aspergillosis/08.jpg",
+     "lec": "Aspergillosis",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which hospital event can cause aspergillosis outbreaks?",
@@ -9708,7 +11531,14 @@ SINA.lectures["parasito-aspergillosis"] = {
     "Heat waves"
    ],
    "answer": 2,
-   "why": "Protection with HEPA filters and laminar flow."
+   "why": "Protection with HEPA filters and laminar flow.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-aspergillosis/10.jpg",
+     "lec": "Aspergillosis",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The major risk factor for invasive pulmonary aspergillosis is:",
@@ -9719,7 +11549,14 @@ SINA.lectures["parasito-aspergillosis"] = {
     "Neutropenia < 500/mm³ for more than 10 days"
    ],
    "answer": 3,
-   "why": "Also long-term corticosteroids."
+   "why": "Also long-term corticosteroids.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-aspergillosis/21.jpg",
+     "lec": "Aspergillosis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "An aspergilloma develops:",
@@ -9730,7 +11567,14 @@ SINA.lectures["parasito-aspergillosis"] = {
     "In the skin after a minor wound"
    ],
    "answer": 0,
-   "why": "A fungus ball with an air crescent."
+   "why": "A fungus ball with an air crescent.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-aspergillosis/19.jpg",
+     "lec": "Aspergillosis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The treatment of choice for pulmonary aspergilloma is:",
@@ -9741,7 +11585,14 @@ SINA.lectures["parasito-aspergillosis"] = {
     "Surgery"
    ],
    "answer": 3,
-   "why": "Local amphotericin if surgery is impossible."
+   "why": "Local amphotericin if surgery is impossible.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-aspergillosis/48.jpg",
+     "lec": "Aspergillosis",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Extrinsic allergic alveolitis (farmer's lung) is diagnosed by:",
@@ -9752,7 +11603,19 @@ SINA.lectures["parasito-aspergillosis"] = {
     "Positive blood cultures for moulds"
    ],
    "answer": 1,
-   "why": "Type III/IV hypersensitivity."
+   "why": "Type III/IV hypersensitivity.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-aspergillosis/15.jpg",
+     "lec": "Aspergillosis",
+     "n": 15
+    },
+    {
+     "src": "files/slides/parasito-aspergillosis/16.jpg",
+     "lec": "Aspergillosis",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which is typical of ABPA?",
@@ -9763,7 +11626,14 @@ SINA.lectures["parasito-aspergillosis"] = {
     "Low total IgE with lymphocytosis"
    ],
    "answer": 0,
-   "why": "In asthma or cystic fibrosis."
+   "why": "In asthma or cystic fibrosis.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-aspergillosis/18.jpg",
+     "lec": "Aspergillosis",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "When should IPA be suspected in a neutropenic patient?",
@@ -9774,7 +11644,14 @@ SINA.lectures["parasito-aspergillosis"] = {
     "A skin rash on the chest and back"
    ],
    "answer": 1,
-   "why": "Often with pleuritic pain."
+   "why": "Often with pleuritic pain.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-aspergillosis/23.jpg",
+     "lec": "Aspergillosis",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The early CT sign of IPA in neutropenic patients is:",
@@ -9785,7 +11662,14 @@ SINA.lectures["parasito-aspergillosis"] = {
     "Tree-in-bud"
    ],
    "answer": 1,
-   "why": "Perinodular haemorrhage; air crescent later."
+   "why": "Perinodular haemorrhage; air crescent later.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-aspergillosis/24.jpg",
+     "lec": "Aspergillosis",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Galactomannan antigen detection:",
@@ -9796,7 +11680,14 @@ SINA.lectures["parasito-aspergillosis"] = {
     "Is useless in neutropenic patients"
    ],
    "answer": 0,
-   "why": "Screen twice weekly; confirm on a 2nd sample."
+   "why": "Screen twice weekly; confirm on a 2nd sample.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-aspergillosis/37.jpg",
+     "lec": "Aspergillosis",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "A false-positive galactomannan can be caused by:",
@@ -9807,7 +11698,14 @@ SINA.lectures["parasito-aspergillosis"] = {
     "Piperacillin-tazobactam"
    ],
    "answer": 3,
-   "why": "Also amoxicillin-clavulanate and some foods."
+   "why": "Also amoxicillin-clavulanate and some foods.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-aspergillosis/37.jpg",
+     "lec": "Aspergillosis",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "The reference treatment of invasive aspergillosis is:",
@@ -9818,7 +11716,19 @@ SINA.lectures["parasito-aspergillosis"] = {
     "Nystatin"
    ],
    "answer": 0,
-   "why": "Fluconazole and 5-FC are inactive on Aspergillus."
+   "why": "Fluconazole and 5-FC are inactive on Aspergillus.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-aspergillosis/46.jpg",
+     "lec": "Aspergillosis",
+     "n": 46
+    },
+    {
+     "src": "files/slides/parasito-aspergillosis/47.jpg",
+     "lec": "Aspergillosis",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "Which Aspergillus species is resistant to amphotericin B?",
@@ -9829,7 +11739,14 @@ SINA.lectures["parasito-aspergillosis"] = {
     "A. fumigatus"
    ],
    "answer": 2,
-   "why": "An emerging species."
+   "why": "An emerging species.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-aspergillosis/04.jpg",
+     "lec": "Aspergillosis",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -10226,7 +12143,14 @@ SINA.lectures["parasito-pneumocystosis"] = {
     "A Gram-negative bacterium"
    ],
    "answer": 2,
-   "why": "An opportunistic fungus."
+   "why": "An opportunistic fungus.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-pneumocystosis/02.jpg",
+     "lec": "Pneumocystosis",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "In HIV, pneumocystosis typically occurs when CD4 fall below:",
@@ -10237,7 +12161,14 @@ SINA.lectures["parasito-pneumocystosis"] = {
     "500"
    ],
    "answer": 1,
-   "why": "It was the first AIDS complication before ART."
+   "why": "It was the first AIDS complication before ART.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-pneumocystosis/02.jpg",
+     "lec": "Pneumocystosis",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "How is Pneumocystis transmitted?",
@@ -10248,7 +12179,14 @@ SINA.lectures["parasito-pneumocystosis"] = {
     "Mosquitoes"
    ],
    "answer": 0,
-   "why": "Humans are the reservoir."
+   "why": "Humans are the reservoir.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-pneumocystosis/02.jpg",
+     "lec": "Pneumocystosis",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Which non-HIV factor predisposes to pneumocystosis?",
@@ -10259,7 +12197,14 @@ SINA.lectures["parasito-pneumocystosis"] = {
     "Asthma"
    ],
    "answer": 1,
-   "why": "Also chemotherapy, transplants, haemopathies."
+   "why": "Also chemotherapy, transplants, haemopathies.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-pneumocystosis/02.jpg",
+     "lec": "Pneumocystosis",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Typical symptoms are:",
@@ -10270,7 +12215,14 @@ SINA.lectures["parasito-pneumocystosis"] = {
     "Dyspnoea, dry cough, fever, hypoxaemia"
    ],
    "answer": 3,
-   "why": "Insidious in HIV."
+   "why": "Insidious in HIV.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-pneumocystosis/03.jpg",
+     "lec": "Pneumocystosis",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Lung auscultation in pneumocystosis is often:",
@@ -10281,7 +12233,14 @@ SINA.lectures["parasito-pneumocystosis"] = {
     "Full of crackles"
    ],
    "answer": 2,
-   "why": "Contrasting with marked hypoxaemia."
+   "why": "Contrasting with marked hypoxaemia.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-pneumocystosis/03.jpg",
+     "lec": "Pneumocystosis",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The typical CT finding is:",
@@ -10292,7 +12251,14 @@ SINA.lectures["parasito-pneumocystosis"] = {
     "Pleural effusion"
    ],
    "answer": 0,
-   "why": "Alveolar-interstitial syndrome."
+   "why": "Alveolar-interstitial syndrome.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-pneumocystosis/03.jpg",
+     "lec": "Pneumocystosis",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which biological marker is often raised?",
@@ -10303,7 +12269,14 @@ SINA.lectures["parasito-pneumocystosis"] = {
     "Eosinophils"
    ],
    "answer": 2,
-   "why": "With hypoxaemia and low lymphocytes."
+   "why": "With hypoxaemia and low lymphocytes.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-pneumocystosis/04.jpg",
+     "lec": "Pneumocystosis",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "How is Pneumocystis demonstrated?",
@@ -10314,7 +12287,14 @@ SINA.lectures["parasito-pneumocystosis"] = {
     "Direct exam of BAL (Grocott, MGG) or PCR"
    ],
    "answer": 3,
-   "why": "It cannot be cultured."
+   "why": "It cannot be cultured.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-pneumocystosis/04.jpg",
+     "lec": "Pneumocystosis",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "First-line treatment is:",
@@ -10325,7 +12305,19 @@ SINA.lectures["parasito-pneumocystosis"] = {
     "Vancomycin"
    ],
    "answer": 1,
-   "why": "IV or oral."
+   "why": "IV or oral.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-pneumocystosis/07.jpg",
+     "lec": "Pneumocystosis",
+     "n": 7
+    },
+    {
+     "src": "files/slides/parasito-pneumocystosis/08.jpg",
+     "lec": "Pneumocystosis",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Corticosteroids are added when PaO₂ is below:",
@@ -10336,7 +12328,19 @@ SINA.lectures["parasito-pneumocystosis"] = {
     "90 mmHg"
    ],
    "answer": 0,
-   "why": "They reduce mortality and ventilation."
+   "why": "They reduce mortality and ventilation.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-pneumocystosis/07.jpg",
+     "lec": "Pneumocystosis",
+     "n": 7
+    },
+    {
+     "src": "files/slides/parasito-pneumocystosis/08.jpg",
+     "lec": "Pneumocystosis",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Secondary prophylaxis is given:",
@@ -10347,7 +12351,14 @@ SINA.lectures["parasito-pneumocystosis"] = {
     "After any episode, whatever the CD4"
    ],
    "answer": 3,
-   "why": "Stopped when CD4 > 200 for 3 months on ART."
+   "why": "Stopped when CD4 > 200 for 3 months on ART.",
+   "slides": [
+    {
+     "src": "files/slides/parasito-pneumocystosis/09.jpg",
+     "lec": "Pneumocystosis",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

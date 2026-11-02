@@ -220,7 +220,14 @@ SINA.lectures["genetics1-intro"] = {
     "Evolution only"
    ],
    "answer": 0,
-   "why": "Three core concepts."
+   "why": "Three core concepts.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-intro/08.jpg",
+     "lec": "Introduction to molecular genetics:",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Albinism results from a problem with:",
@@ -231,7 +238,14 @@ SINA.lectures["genetics1-intro"] = {
     "Insulin"
    ],
    "answer": 1,
-   "why": "A non-functional protein gives a phenotype."
+   "why": "A non-functional protein gives a phenotype.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-intro/07.jpg",
+     "lec": "Introduction to molecular genetics:",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Besides the nucleus, DNA is found in:",
@@ -242,7 +256,14 @@ SINA.lectures["genetics1-intro"] = {
     "Golgi"
    ],
    "answer": 1,
-   "why": "Mitochondrial genome."
+   "why": "Mitochondrial genome.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-intro/13.jpg",
+     "lec": "Introduction to molecular genetics:",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Transcription produces:",
@@ -253,7 +274,14 @@ SINA.lectures["genetics1-intro"] = {
     "DNA from RNA"
    ],
    "answer": 2,
-   "why": "Translation makes protein."
+   "why": "Translation makes protein.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-intro/13.jpg",
+     "lec": "Introduction to molecular genetics:",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Where does translation take place?",
@@ -264,7 +292,14 @@ SINA.lectures["genetics1-intro"] = {
     "Mitochondrial membrane"
    ],
    "answer": 2,
-   "why": "On ribosomes."
+   "why": "On ribosomes.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-intro/13.jpg",
+     "lec": "Introduction to molecular genetics:",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "A nucleotide is composed of:",
@@ -275,7 +310,14 @@ SINA.lectures["genetics1-intro"] = {
     "Phosphate + pentose + base"
    ],
    "answer": 3,
-   "why": "A nucleoside lacks the phosphate."
+   "why": "A nucleoside lacks the phosphate.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-intro/15.jpg",
+     "lec": "Introduction to molecular genetics:",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which bases are purines?",
@@ -286,7 +328,14 @@ SINA.lectures["genetics1-intro"] = {
     "T and U"
    ],
    "answer": 0,
-   "why": "Pyrimidines: C, T, U."
+   "why": "Pyrimidines: C, T, U.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-intro/17.jpg",
+     "lec": "Introduction to molecular genetics:",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "In DNA, adenine pairs with:",
@@ -297,7 +346,19 @@ SINA.lectures["genetics1-intro"] = {
     "Uracil"
    ],
    "answer": 0,
-   "why": "In RNA, A pairs with U."
+   "why": "In RNA, A pairs with U.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-intro/17.jpg",
+     "lec": "Introduction to molecular genetics:",
+     "n": 17
+    },
+    {
+     "src": "files/slides/genetics1-intro/22.jpg",
+     "lec": "Introduction to molecular genetics:",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Thymine differs from uracil by:",
@@ -308,7 +369,14 @@ SINA.lectures["genetics1-intro"] = {
     "A methyl group at position 5"
    ],
    "answer": 3,
-   "why": "Uracil replaces thymine in RNA."
+   "why": "Uracil replaces thymine in RNA.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-intro/17.jpg",
+     "lec": "Introduction to molecular genetics:",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "What gives DNA its negative charge?",
@@ -319,7 +387,14 @@ SINA.lectures["genetics1-intro"] = {
     "Phosphate groups"
    ],
    "answer": 3,
-   "why": "In the sugar-phosphate backbone."
+   "why": "In the sugar-phosphate backbone.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-intro/19.jpg",
+     "lec": "Introduction to molecular genetics:",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The N-glycosidic bond joins the sugar's C1′ to which atom of a purine?",
@@ -330,7 +405,14 @@ SINA.lectures["genetics1-intro"] = {
     "N7"
    ],
    "answer": 1,
-   "why": "N1 for pyrimidines."
+   "why": "N1 for pyrimidines.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-intro/20.jpg",
+     "lec": "Introduction to molecular genetics:",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Deoxyadenosine is a:",
@@ -341,7 +423,19 @@ SINA.lectures["genetics1-intro"] = {
     "Nucleotide"
    ],
    "answer": 1,
-   "why": "Base + deoxyribose, no phosphate."
+   "why": "Base + deoxyribose, no phosphate.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-intro/11.jpg",
+     "lec": "Introduction to molecular genetics:",
+     "n": 11
+    },
+    {
+     "src": "files/slides/genetics1-intro/15.jpg",
+     "lec": "Introduction to molecular genetics:",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "A nucleic acid sequence is defined by:",
@@ -352,7 +446,14 @@ SINA.lectures["genetics1-intro"] = {
     "The order of its bases"
    ],
    "answer": 3,
-   "why": "Sugar and phosphate do not vary."
+   "why": "Sugar and phosphate do not vary.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-intro/23.jpg",
+     "lec": "Introduction to molecular genetics:",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Nucleic acid synthesis proceeds in which direction?",
@@ -363,7 +464,14 @@ SINA.lectures["genetics1-intro"] = {
     "Both"
    ],
    "answer": 0,
-   "why": "Nucleotides are added to the 3′-OH."
+   "why": "Nucleotides are added to the 3′-OH.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-intro/23.jpg",
+     "lec": "Introduction to molecular genetics:",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Nucleotides are linked by:",
@@ -374,7 +482,14 @@ SINA.lectures["genetics1-intro"] = {
     "3′-5′ phosphodiester bonds"
    ],
    "answer": 3,
-   "why": "3′-OH + 5′-phosphate."
+   "why": "3′-OH + 5′-phosphate.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-intro/24.jpg",
+     "lec": "Introduction to molecular genetics:",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -847,7 +962,14 @@ SINA.lectures["genetics1-genome"] = {
     "Watson and Crick"
    ],
    "answer": 3,
-   "why": "Franklin's X-ray images were key."
+   "why": "Franklin's X-ray images were key.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-genome/04.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Chargaff's rules state that in double-stranded DNA:",
@@ -858,7 +980,19 @@ SINA.lectures["genetics1-genome"] = {
     "A = G"
    ],
    "answer": 2,
-   "why": "So purines = pyrimidines."
+   "why": "So purines = pyrimidines.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-genome/14.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 14
+    },
+    {
+     "src": "files/slides/genetics1-genome/15.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "How many hydrogen bonds link G and C?",
@@ -880,7 +1014,14 @@ SINA.lectures["genetics1-genome"] = {
     "Hybridisation"
    ],
    "answer": 2,
-   "why": "Rejoining is renaturation."
+   "why": "Rejoining is renaturation.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-genome/13.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which DNA form is left-handed?",
@@ -891,7 +1032,14 @@ SINA.lectures["genetics1-genome"] = {
     "A-DNA"
    ],
    "answer": 0,
-   "why": "Rare, high salt, alternating purine-pyrimidine."
+   "why": "Rare, high salt, alternating purine-pyrimidine.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-genome/15.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The common physiological DNA form is:",
@@ -902,7 +1050,14 @@ SINA.lectures["genetics1-genome"] = {
     "C-DNA"
    ],
    "answer": 1,
-   "why": "About 10 bp per turn."
+   "why": "About 10 bp per turn.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-genome/15.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "One turn of B-DNA measures:",
@@ -913,7 +1068,19 @@ SINA.lectures["genetics1-genome"] = {
     "0.34 nm"
    ],
    "answer": 2,
-   "why": "10 bp per turn."
+   "why": "10 bp per turn.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-genome/15.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 15
+    },
+    {
+     "src": "files/slides/genetics1-genome/18.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The human genome contains about:",
@@ -924,7 +1091,14 @@ SINA.lectures["genetics1-genome"] = {
     "3.055 billion bp"
    ],
    "answer": 3,
-   "why": "Per haploid genome."
+   "why": "Per haploid genome.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-genome/21.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "What proportion of the human genome codes for proteins?",
@@ -935,7 +1109,19 @@ SINA.lectures["genetics1-genome"] = {
     "90%"
    ],
    "answer": 1,
-   "why": "About 20,000 genes."
+   "why": "About 20,000 genes.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-genome/47.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 47
+    },
+    {
+     "src": "files/slides/genetics1-genome/54.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "About what proportion of the genome is repeated sequences?",
@@ -946,7 +1132,14 @@ SINA.lectures["genetics1-genome"] = {
     "1%"
    ],
    "answer": 0,
-   "why": "SINE, LINE, LTR."
+   "why": "SINE, LINE, LTR.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-genome/21.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The first truly complete human genome was produced in:",
@@ -957,7 +1150,14 @@ SINA.lectures["genetics1-genome"] = {
     "2001"
    ],
    "answer": 0,
-   "why": "By the T2T consortium."
+   "why": "By the T2T consortium.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-genome/20.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The histone octamer contains two copies each of:",
@@ -968,7 +1168,19 @@ SINA.lectures["genetics1-genome"] = {
     "H2A, H2B, H3, H4"
    ],
    "answer": 3,
-   "why": "H1 is the linker histone."
+   "why": "H1 is the linker histone.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-genome/29.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 29
+    },
+    {
+     "src": "files/slides/genetics1-genome/30.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "A nucleosome wraps about:",
@@ -979,7 +1191,14 @@ SINA.lectures["genetics1-genome"] = {
     "146 bp"
    ],
    "answer": 3,
-   "why": "About twice around the octamer."
+   "why": "About twice around the octamer.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-genome/30.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "The 30-nm solenoid has how many nucleosomes per turn?",
@@ -990,7 +1209,14 @@ SINA.lectures["genetics1-genome"] = {
     "20"
    ],
    "answer": 0,
-   "why": "Organised by histone H1."
+   "why": "Organised by histone H1.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-genome/31.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Epigenetic modifications:",
@@ -1001,7 +1227,14 @@ SINA.lectures["genetics1-genome"] = {
     "Are mutations"
    ],
    "answer": 1,
-   "why": "Methylation, acetylation, phosphorylation."
+   "why": "Methylation, acetylation, phosphorylation.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-genome/29.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Euchromatin is:",
@@ -1012,7 +1245,14 @@ SINA.lectures["genetics1-genome"] = {
     "Loosely packed and active"
    ],
    "answer": 3,
-   "why": "Heterochromatin is dense and silent."
+   "why": "Heterochromatin is dense and silent.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-genome/34.jpg",
+     "lec": "The human genome: DNA structure and",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1550,7 +1790,14 @@ SINA.lectures["genetics1-replication"] = {
     "Random"
    ],
    "answer": 0,
-   "why": "Each daughter molecule keeps one parental strand."
+   "why": "Each daughter molecule keeps one parental strand.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-replication/05.jpg",
+     "lec": "DNA replication",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which ion is a required cofactor for DNA polymerase?",
@@ -1561,7 +1808,14 @@ SINA.lectures["genetics1-replication"] = {
     "Mg²⁺"
    ],
    "answer": 3,
-   "why": "Along with dNTPs and ATP."
+   "why": "Along with dNTPs and ATP.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-replication/14.jpg",
+     "lec": "DNA replication",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Origins of replication in eukaryotes are recognised by:",
@@ -1572,7 +1826,14 @@ SINA.lectures["genetics1-replication"] = {
     "PCNA"
    ],
    "answer": 1,
-   "why": "Origin recognition complex."
+   "why": "Origin recognition complex.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-replication/07.jpg",
+     "lec": "DNA replication",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "How many origins does a eukaryotic chromosome have?",
@@ -1583,7 +1844,14 @@ SINA.lectures["genetics1-replication"] = {
     "One"
    ],
    "answer": 0,
-   "why": "Bacteria have a single origin."
+   "why": "Bacteria have a single origin.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-replication/07.jpg",
+     "lec": "DNA replication",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which enzyme unwinds the double helix using ATP?",
@@ -1594,7 +1862,14 @@ SINA.lectures["genetics1-replication"] = {
     "Topoisomerase I"
    ],
    "answer": 2,
-   "why": "It breaks hydrogen bonds between bases."
+   "why": "It breaks hydrogen bonds between bases.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-replication/12.jpg",
+     "lec": "DNA replication",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "What prevents separated strands from reannealing?",
@@ -1605,7 +1880,19 @@ SINA.lectures["genetics1-replication"] = {
     "RPA"
    ],
    "answer": 3,
-   "why": "Also protects from nucleases."
+   "why": "Also protects from nucleases.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-replication/36.jpg",
+     "lec": "DNA replication",
+     "n": 36
+    },
+    {
+     "src": "files/slides/genetics1-replication/37.jpg",
+     "lec": "DNA replication",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Type II topoisomerase:",
@@ -1616,7 +1903,14 @@ SINA.lectures["genetics1-replication"] = {
     "Cuts both strands and uses ATP"
    ],
    "answer": 3,
-   "why": "DNA gyrase in bacteria."
+   "why": "DNA gyrase in bacteria.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-replication/14.jpg",
+     "lec": "DNA replication",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which polymerase synthesises the leading strand in eukaryotes?",
@@ -1627,7 +1921,19 @@ SINA.lectures["genetics1-replication"] = {
     "Pol δ"
    ],
    "answer": 2,
-   "why": "Pol δ makes the lagging strand."
+   "why": "Pol δ makes the lagging strand.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-replication/17.jpg",
+     "lec": "DNA replication",
+     "n": 17
+    },
+    {
+     "src": "files/slides/genetics1-replication/35.jpg",
+     "lec": "DNA replication",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Which polymerase replicates mitochondrial DNA?",
@@ -1638,7 +1944,14 @@ SINA.lectures["genetics1-replication"] = {
     "Pol ε"
    ],
    "answer": 0,
-   "why": "The only polymerase in mitochondria."
+   "why": "The only polymerase in mitochondria.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-replication/17.jpg",
+     "lec": "DNA replication",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Pol α differs from Pol δ and ε because it:",
@@ -1649,7 +1962,14 @@ SINA.lectures["genetics1-replication"] = {
     "Has no 3′→5′ exonuclease"
    ],
    "answer": 3,
-   "why": "It starts synthesis with primase."
+   "why": "It starts synthesis with primase.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-replication/17.jpg",
+     "lec": "DNA replication",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "PCNA is:",
@@ -1660,7 +1980,19 @@ SINA.lectures["genetics1-replication"] = {
     "A sliding clamp"
    ],
    "answer": 3,
-   "why": "Raises processivity."
+   "why": "Raises processivity.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-replication/17.jpg",
+     "lec": "DNA replication",
+     "n": 17
+    },
+    {
+     "src": "files/slides/genetics1-replication/18.jpg",
+     "lec": "DNA replication",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Okazaki fragments are made on the:",
@@ -1671,7 +2003,19 @@ SINA.lectures["genetics1-replication"] = {
     "Both strands"
    ],
    "answer": 0,
-   "why": "Discontinuous synthesis away from the fork."
+   "why": "Discontinuous synthesis away from the fork.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-replication/20.jpg",
+     "lec": "DNA replication",
+     "n": 20
+    },
+    {
+     "src": "files/slides/genetics1-replication/22.jpg",
+     "lec": "DNA replication",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which enzymes remove RNA primers in eukaryotes?",
@@ -1682,7 +2026,19 @@ SINA.lectures["genetics1-replication"] = {
     "Topoisomerase"
    ],
    "answer": 1,
-   "why": "Pol I does this in bacteria."
+   "why": "Pol I does this in bacteria.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-replication/22.jpg",
+     "lec": "DNA replication",
+     "n": 22
+    },
+    {
+     "src": "files/slides/genetics1-replication/26.jpg",
+     "lec": "DNA replication",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Okazaki fragments are joined by:",
@@ -1693,7 +2049,19 @@ SINA.lectures["genetics1-replication"] = {
     "Primase"
    ],
    "answer": 2,
-   "why": "After gaps are filled by Pol δ."
+   "why": "After gaps are filled by Pol δ.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-replication/22.jpg",
+     "lec": "DNA replication",
+     "n": 22
+    },
+    {
+     "src": "files/slides/genetics1-replication/26.jpg",
+     "lec": "DNA replication",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Telomerase adds which repeat?",
@@ -1704,7 +2072,14 @@ SINA.lectures["genetics1-replication"] = {
     "ATATAT"
    ],
    "answer": 2,
-   "why": "It is an RNA-dependent DNA polymerase."
+   "why": "It is an RNA-dependent DNA polymerase.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-replication/29.jpg",
+     "lec": "DNA replication",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "The main replicative polymerase of E. coli is:",
@@ -1715,7 +2090,19 @@ SINA.lectures["genetics1-replication"] = {
     "Pol II"
    ],
    "answer": 1,
-   "why": "Pol I removes primers."
+   "why": "Pol I removes primers.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-replication/26.jpg",
+     "lec": "DNA replication",
+     "n": 26
+    },
+    {
+     "src": "files/slides/genetics1-replication/35.jpg",
+     "lec": "DNA replication",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Decatenation of daughter DNA molecules is done by:",
@@ -1726,7 +2113,14 @@ SINA.lectures["genetics1-replication"] = {
     "Helicase"
    ],
    "answer": 0,
-   "why": "Separating interlinked molecules."
+   "why": "Separating interlinked molecules.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-replication/32.jpg",
+     "lec": "DNA replication",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2244,7 +2638,19 @@ SINA.lectures["genetics1-transcription"] = {
     "260 nm"
    ],
    "answer": 3,
-   "why": "Single strands absorb more (hyperchromic effect)."
+   "why": "Single strands absorb more (hyperchromic effect).",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-transcription/09.jpg",
+     "lec": "DNA transcription",
+     "n": 9
+    },
+    {
+     "src": "files/slides/genetics1-transcription/10.jpg",
+     "lec": "DNA transcription",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The melting temperature (Tm) of DNA increases with:",
@@ -2255,7 +2661,14 @@ SINA.lectures["genetics1-transcription"] = {
     "AT content"
    ],
    "answer": 2,
-   "why": "Also with length and cations."
+   "why": "Also with length and cations.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-transcription/10.jpg",
+     "lec": "DNA transcription",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "RNA polymerase reads the template strand in which direction?",
@@ -2266,7 +2679,14 @@ SINA.lectures["genetics1-transcription"] = {
     "5′ → 3′"
    ],
    "answer": 1,
-   "why": "RNA is made 5′ → 3′."
+   "why": "RNA is made 5′ → 3′.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-transcription/13.jpg",
+     "lec": "DNA transcription",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The mRNA sequence is identical to the:",
@@ -2277,7 +2697,19 @@ SINA.lectures["genetics1-transcription"] = {
     "Antisense strand"
    ],
    "answer": 2,
-   "why": "It is complementary to the template."
+   "why": "It is complementary to the template.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-transcription/05.jpg",
+     "lec": "DNA transcription",
+     "n": 5
+    },
+    {
+     "src": "files/slides/genetics1-transcription/11.jpg",
+     "lec": "DNA transcription",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which polymerase makes 28S, 18S and 5.8S rRNA?",
@@ -2288,7 +2720,19 @@ SINA.lectures["genetics1-transcription"] = {
     "Pol II"
    ],
    "answer": 0,
-   "why": "In the nucleolus."
+   "why": "In the nucleolus.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-transcription/23.jpg",
+     "lec": "DNA transcription",
+     "n": 23
+    },
+    {
+     "src": "files/slides/genetics1-transcription/32.jpg",
+     "lec": "DNA transcription",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which polymerase makes tRNA and 5S rRNA?",
@@ -2299,7 +2743,14 @@ SINA.lectures["genetics1-transcription"] = {
     "Primase"
    ],
    "answer": 1,
-   "why": "Using internal promoters."
+   "why": "Using internal promoters.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-transcription/26.jpg",
+     "lec": "DNA transcription",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "The CTD with YSPTSPS repeats belongs to:",
@@ -2310,7 +2761,19 @@ SINA.lectures["genetics1-transcription"] = {
     "Pol I"
    ],
    "answer": 2,
-   "why": "It recruits processing factors."
+   "why": "It recruits processing factors.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-transcription/05.jpg",
+     "lec": "DNA transcription",
+     "n": 5
+    },
+    {
+     "src": "files/slides/genetics1-transcription/24.jpg",
+     "lec": "DNA transcription",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The TATA box lies about:",
@@ -2321,7 +2784,14 @@ SINA.lectures["genetics1-transcription"] = {
     "25-30 bp upstream of +1"
    ],
    "answer": 3,
-   "why": "Bound by TBP."
+   "why": "Bound by TBP.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-transcription/34.jpg",
+     "lec": "DNA transcription",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which factor binds the promoter first?",
@@ -2332,7 +2802,19 @@ SINA.lectures["genetics1-transcription"] = {
     "TFIIF"
    ],
    "answer": 1,
-   "why": "It bends the DNA."
+   "why": "It bends the DNA.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-transcription/05.jpg",
+     "lec": "DNA transcription",
+     "n": 5
+    },
+    {
+     "src": "files/slides/genetics1-transcription/41.jpg",
+     "lec": "DNA transcription",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "TFIIB:",
@@ -2343,7 +2825,19 @@ SINA.lectures["genetics1-transcription"] = {
     "Adds the poly(A) tail"
    ],
    "answer": 0,
-   "why": "Bridges TFIID and Pol II."
+   "why": "Bridges TFIID and Pol II.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-transcription/35.jpg",
+     "lec": "DNA transcription",
+     "n": 35
+    },
+    {
+     "src": "files/slides/genetics1-transcription/41.jpg",
+     "lec": "DNA transcription",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Which factor has helicase and CTD kinase activity?",
@@ -2354,7 +2848,19 @@ SINA.lectures["genetics1-transcription"] = {
     "TFIIA"
    ],
    "answer": 0,
-   "why": "It opens DNA and triggers promoter clearance."
+   "why": "It opens DNA and triggers promoter clearance.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-transcription/05.jpg",
+     "lec": "DNA transcription",
+     "n": 5
+    },
+    {
+     "src": "files/slides/genetics1-transcription/43.jpg",
+     "lec": "DNA transcription",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Repressors act mainly by recruiting:",
@@ -2365,7 +2871,14 @@ SINA.lectures["genetics1-transcription"] = {
     "HDACs, corepressors"
    ],
    "answer": 3,
-   "why": "Chromatin condensation."
+   "why": "Chromatin condensation.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-transcription/36.jpg",
+     "lec": "DNA transcription",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Steroid hormone receptors use which DNA-binding motif?",
@@ -2376,7 +2889,14 @@ SINA.lectures["genetics1-transcription"] = {
     "Zinc finger"
    ],
    "answer": 3,
-   "why": "Zn²⁺ stabilises the motif."
+   "why": "Zn²⁺ stabilises the motif.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-transcription/37.jpg",
+     "lec": "DNA transcription",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "The polyadenylation signal is:",
@@ -2387,7 +2907,14 @@ SINA.lectures["genetics1-transcription"] = {
     "GGGCGG"
    ],
    "answer": 0,
-   "why": "Recognised by CPSF."
+   "why": "Recognised by CPSF.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-transcription/45.jpg",
+     "lec": "DNA transcription",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Which exonuclease causes Pol II to dissociate at termination?",
@@ -2398,7 +2925,14 @@ SINA.lectures["genetics1-transcription"] = {
     "Dicer"
    ],
    "answer": 1,
-   "why": "The 'torpedo' model."
+   "why": "The 'torpedo' model.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-transcription/45.jpg",
+     "lec": "DNA transcription",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Which RNA has catalytic (ribozyme) activity forming peptide bonds?",
@@ -2409,7 +2943,14 @@ SINA.lectures["genetics1-transcription"] = {
     "rRNA"
    ],
    "answer": 3,
-   "why": "In the large ribosomal subunit."
+   "why": "In the large ribosomal subunit.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-transcription/30.jpg",
+     "lec": "DNA transcription",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2821,7 +3362,19 @@ SINA.lectures["genetics1-rna-processing"] = {
     "7-methylguanosine linked 5′-5′"
    ],
    "answer": 3,
-   "why": "Unique 5′-5′ triphosphate bond."
+   "why": "Unique 5′-5′ triphosphate bond.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-rna-processing/06.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 6
+    },
+    {
+     "src": "files/slides/genetics1-rna-processing/07.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "When is the cap added?",
@@ -2832,7 +3385,14 @@ SINA.lectures["genetics1-rna-processing"] = {
     "After splicing"
    ],
    "answer": 2,
-   "why": "Very early."
+   "why": "Very early.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-rna-processing/06.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which enzyme adds GMP during capping?",
@@ -2843,7 +3403,14 @@ SINA.lectures["genetics1-rna-processing"] = {
     "Ligase"
    ],
    "answer": 1,
-   "why": "Then methyltransferase methylates N7."
+   "why": "Then methyltransferase methylates N7.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-rna-processing/07.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which is NOT a function of the cap?",
@@ -2854,7 +3421,19 @@ SINA.lectures["genetics1-rna-processing"] = {
     "Protection from 5′ exonucleases"
    ],
    "answer": 2,
-   "why": "Tailing is done by PAP at the 3′ end."
+   "why": "Tailing is done by PAP at the 3′ end.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-rna-processing/08.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 8
+    },
+    {
+     "src": "files/slides/genetics1-rna-processing/09.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "CPSF binds the sequence:",
@@ -2865,7 +3444,14 @@ SINA.lectures["genetics1-rna-processing"] = {
     "GU-rich"
    ],
    "answer": 0,
-   "why": "CstF binds the GU-rich region."
+   "why": "CstF binds the GU-rich region.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-rna-processing/09.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Poly(A) polymerase adds about:",
@@ -2876,7 +3462,14 @@ SINA.lectures["genetics1-rna-processing"] = {
     "5 A"
    ],
    "answer": 1,
-   "why": "Without a template."
+   "why": "Without a template.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-rna-processing/09.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Alternative polyadenylation mainly changes:",
@@ -2887,7 +3480,14 @@ SINA.lectures["genetics1-rna-processing"] = {
     "The promoter"
    ],
    "answer": 2,
-   "why": "Sometimes the protein if inside the last exon."
+   "why": "Sometimes the protein if inside the last exon.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-rna-processing/10.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which snRNP recognises the branch point?",
@@ -2898,7 +3498,19 @@ SINA.lectures["genetics1-rna-processing"] = {
     "U2"
    ],
    "answer": 3,
-   "why": "U1 binds the 5′ splice site."
+   "why": "U1 binds the 5′ splice site.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-rna-processing/11.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 11
+    },
+    {
+     "src": "files/slides/genetics1-rna-processing/12.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "In the first splicing step, the nucleophile is:",
@@ -2909,7 +3521,14 @@ SINA.lectures["genetics1-rna-processing"] = {
     "Water"
    ],
    "answer": 1,
-   "why": "Forming a lariat."
+   "why": "Forming a lariat.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-rna-processing/12.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The excised intron has the shape of a:",
@@ -2920,7 +3539,14 @@ SINA.lectures["genetics1-rna-processing"] = {
     "Hairpin"
    ],
    "answer": 0,
-   "why": "Then degraded."
+   "why": "Then degraded.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-rna-processing/12.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Calcitonin and CGRP arise from:",
@@ -2931,7 +3557,14 @@ SINA.lectures["genetics1-rna-processing"] = {
     "Two genes"
    ],
    "answer": 0,
-   "why": "Thyroid vs nervous system."
+   "why": "Thyroid vs nervous system.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-rna-processing/17.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Bcl-xL and Bcl-xS are:",
@@ -2942,7 +3575,14 @@ SINA.lectures["genetics1-rna-processing"] = {
     "Opposing splice isoforms"
    ],
    "answer": 3,
-   "why": "Anti- vs pro-apoptotic."
+   "why": "Anti- vs pro-apoptotic.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-rna-processing/17.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which disease is linked to SMN1/SMN2 splicing?",
@@ -2953,7 +3593,14 @@ SINA.lectures["genetics1-rna-processing"] = {
     "Spinal muscular atrophy"
    ],
    "answer": 3,
-   "why": "SMN2 is only partially functional."
+   "why": "SMN2 is only partially functional.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-rna-processing/17.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "A-to-I RNA editing is performed by:",
@@ -2964,7 +3611,14 @@ SINA.lectures["genetics1-rna-processing"] = {
     "CPSF"
    ],
    "answer": 0,
-   "why": "C-to-U by APOBEC."
+   "why": "C-to-U by APOBEC.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-rna-processing/19.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Processed pseudogenes lack:",
@@ -2975,7 +3629,14 @@ SINA.lectures["genetics1-rna-processing"] = {
     "Exons"
    ],
    "answer": 1,
-   "why": "Made by retrotransposition of mRNA."
+   "why": "Made by retrotransposition of mRNA.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-rna-processing/22.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which feature is present in prokaryotic mRNA?",
@@ -2986,7 +3647,14 @@ SINA.lectures["genetics1-rna-processing"] = {
     "Coupled translation"
    ],
    "answer": 3,
-   "why": "No nucleus separates them."
+   "why": "No nucleus separates them.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-rna-processing/25.jpg",
+     "lec": "Post-transcriptional RNA processing",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3459,7 +4127,14 @@ SINA.lectures["genetics1-translation"] = {
     "20"
    ],
    "answer": 2,
-   "why": "For 20 amino acids."
+   "why": "For 20 amino acids.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-translation/05.jpg",
+     "lec": "Gene expression: translation",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The genetic code is degenerate because:",
@@ -3470,7 +4145,19 @@ SINA.lectures["genetics1-translation"] = {
     "One codon codes several amino acids"
    ],
    "answer": 1,
-   "why": "Explained by wobble."
+   "why": "Explained by wobble.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-translation/06.jpg",
+     "lec": "Gene expression: translation",
+     "n": 6
+    },
+    {
+     "src": "files/slides/genetics1-translation/19.jpg",
+     "lec": "Gene expression: translation",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "In human mitochondria, UGA codes for:",
@@ -3481,7 +4168,14 @@ SINA.lectures["genetics1-translation"] = {
     "Tryptophan"
    ],
    "answer": 3,
-   "why": "AUA codes Met."
+   "why": "AUA codes Met.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-translation/07.jpg",
+     "lec": "Gene expression: translation",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "A frameshift mutation is caused by:",
@@ -3492,7 +4186,14 @@ SINA.lectures["genetics1-translation"] = {
     "Insertion or deletion of 1-2 nucleotides"
    ],
    "answer": 3,
-   "why": "All downstream codons change."
+   "why": "All downstream codons change.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-translation/11.jpg",
+     "lec": "Gene expression: translation",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The amino acid attaches to the tRNA at the:",
@@ -3503,7 +4204,19 @@ SINA.lectures["genetics1-translation"] = {
     "Anticodon loop"
    ],
    "answer": 0,
-   "why": "Via aminoacyl-tRNA synthetase."
+   "why": "Via aminoacyl-tRNA synthetase.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-translation/12.jpg",
+     "lec": "Gene expression: translation",
+     "n": 12
+    },
+    {
+     "src": "files/slides/genetics1-translation/14.jpg",
+     "lec": "Gene expression: translation",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Aminoacyl-tRNA synthetases activate amino acids using:",
@@ -3514,7 +4227,14 @@ SINA.lectures["genetics1-translation"] = {
     "NADH"
    ],
    "answer": 2,
-   "why": "Forming aminoacyl-adenylate."
+   "why": "Forming aminoacyl-adenylate.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-translation/14.jpg",
+     "lec": "Gene expression: translation",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The eukaryotic ribosome is:",
@@ -3525,7 +4245,14 @@ SINA.lectures["genetics1-translation"] = {
     "80S (40S + 60S)"
    ],
    "answer": 3,
-   "why": "About 60% rRNA."
+   "why": "About 60% rRNA.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-translation/16.jpg",
+     "lec": "Gene expression: translation",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Peptide bond formation is catalysed by:",
@@ -3536,7 +4263,19 @@ SINA.lectures["genetics1-translation"] = {
     "tRNA"
    ],
    "answer": 2,
-   "why": "Peptidyl transferase centre."
+   "why": "Peptidyl transferase centre.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-translation/16.jpg",
+     "lec": "Gene expression: translation",
+     "n": 16
+    },
+    {
+     "src": "files/slides/genetics1-translation/17.jpg",
+     "lec": "Gene expression: translation",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which site holds the tRNA with the growing peptide?",
@@ -3547,7 +4286,14 @@ SINA.lectures["genetics1-translation"] = {
     "Decoding site"
    ],
    "answer": 1,
-   "why": "A: incoming; E: exit."
+   "why": "A: incoming; E: exit.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-translation/18.jpg",
+     "lec": "Gene expression: translation",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Wobble occurs at which codon position?",
@@ -3558,7 +4304,14 @@ SINA.lectures["genetics1-translation"] = {
     "First"
    ],
    "answer": 1,
-   "why": "Allows G-U pairing."
+   "why": "Allows G-U pairing.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-translation/19.jpg",
+     "lec": "Gene expression: translation",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which factor brings the initiator Met-tRNAi to the 40S?",
@@ -3569,7 +4322,14 @@ SINA.lectures["genetics1-translation"] = {
     "eEF1A"
    ],
    "answer": 0,
-   "why": "Ternary complex."
+   "why": "Ternary complex.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-translation/20.jpg",
+     "lec": "Gene expression: translation",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which factor binds the 5′ cap?",
@@ -3580,7 +4340,14 @@ SINA.lectures["genetics1-translation"] = {
     "eIF5B"
    ],
    "answer": 0,
-   "why": "eIF4G is the scaffold."
+   "why": "eIF4G is the scaffold.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-translation/20.jpg",
+     "lec": "Gene expression: translation",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The scanning ribosome recognises the first AUG in a:",
@@ -3591,7 +4358,14 @@ SINA.lectures["genetics1-translation"] = {
     "Poly(A) signal"
    ],
    "answer": 1,
-   "why": "Shine-Dalgarno is bacterial."
+   "why": "Shine-Dalgarno is bacterial.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-translation/21.jpg",
+     "lec": "Gene expression: translation",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Translocation is driven by:",
@@ -3602,7 +4376,14 @@ SINA.lectures["genetics1-translation"] = {
     "eEF2-GTP"
    ],
    "answer": 3,
-   "why": "The ribosome moves one codon."
+   "why": "The ribosome moves one codon.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-translation/23.jpg",
+     "lec": "Gene expression: translation",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which are the stop codons?",
@@ -3613,7 +4394,14 @@ SINA.lectures["genetics1-translation"] = {
     "UUU, UAG, UGA"
    ],
    "answer": 0,
-   "why": "Recognised by eRF1."
+   "why": "Recognised by eRF1.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-translation/24.jpg",
+     "lec": "Gene expression: translation",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The peptide is released by eRF1 through its:",
@@ -3624,7 +4412,14 @@ SINA.lectures["genetics1-translation"] = {
     "CCA end"
    ],
    "answer": 2,
-   "why": "In the peptidyl transferase centre."
+   "why": "In the peptidyl transferase centre.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-translation/24.jpg",
+     "lec": "Gene expression: translation",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Secreted proteins are made on:",
@@ -3635,7 +4430,14 @@ SINA.lectures["genetics1-translation"] = {
     "Free ribosomes"
    ],
    "answer": 1,
-   "why": "Signal peptide recognised by SRP."
+   "why": "Signal peptide recognised by SRP.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-translation/28.jpg",
+     "lec": "Gene expression: translation",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4059,7 +4861,19 @@ SINA.lectures["genetics1-mutation"] = {
     "Normal"
    ],
    "answer": 3,
-   "why": "It is a sequence change."
+   "why": "It is a sequence change.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-mutation/06.jpg",
+     "lec": "Gene mutations",
+     "n": 6
+    },
+    {
+     "src": "files/slides/genetics1-mutation/18.jpg",
+     "lec": "Gene mutations",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The average human mutation frequency per gene per generation is about:",
@@ -4070,7 +4884,14 @@ SINA.lectures["genetics1-mutation"] = {
     "10⁻²"
    ],
    "answer": 2,
-   "why": "Range 10⁻⁴ to 10⁻⁸."
+   "why": "Range 10⁻⁴ to 10⁻⁸.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-mutation/06.jpg",
+     "lec": "Gene mutations",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "A classic mutation hot spot is:",
@@ -4081,7 +4902,14 @@ SINA.lectures["genetics1-mutation"] = {
     "TATA box"
    ],
    "answer": 0,
-   "why": "Prone to C→T transitions."
+   "why": "Prone to C→T transitions.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-mutation/18.jpg",
+     "lec": "Gene mutations",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "A somatic mutation:",
@@ -4092,7 +4920,14 @@ SINA.lectures["genetics1-mutation"] = {
     "Is always lethal"
    ],
    "answer": 2,
-   "why": "Not inherited."
+   "why": "Not inherited.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-mutation/07.jpg",
+     "lec": "Gene mutations",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Germline mosaicism arises during:",
@@ -4103,7 +4938,14 @@ SINA.lectures["genetics1-mutation"] = {
     "Old age"
    ],
    "answer": 0,
-   "why": "Somatic mosaicism arises early in the embryo."
+   "why": "Somatic mosaicism arises early in the embryo.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-mutation/08.jpg",
+     "lec": "Gene mutations",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "A transition is:",
@@ -4114,7 +4956,14 @@ SINA.lectures["genetics1-mutation"] = {
     "An insertion"
    ],
    "answer": 1,
-   "why": "About twice as common as transversions."
+   "why": "About twice as common as transversions.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-mutation/17.jpg",
+     "lec": "Gene mutations",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "An SNP is a variant with population frequency above:",
@@ -4125,7 +4974,14 @@ SINA.lectures["genetics1-mutation"] = {
     "10%"
    ],
    "answer": 2,
-   "why": "Mostly non-pathogenic."
+   "why": "Mostly non-pathogenic.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-mutation/18.jpg",
+     "lec": "Gene mutations",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "STRs (microsatellites) are repeats of:",
@@ -4136,7 +4992,14 @@ SINA.lectures["genetics1-mutation"] = {
     "1-4 nucleotides"
    ],
    "answer": 3,
-   "why": "Used in forensics."
+   "why": "Used in forensics.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-mutation/18.jpg",
+     "lec": "Gene mutations",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "A silent mutation:",
@@ -4147,7 +5010,14 @@ SINA.lectures["genetics1-mutation"] = {
     "Deletes an exon"
    ],
    "answer": 1,
-   "why": "Often at the 3rd codon base."
+   "why": "Often at the 3rd codon base.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-mutation/18.jpg",
+     "lec": "Gene mutations",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Sickle cell disease results from which type of mutation?",
@@ -4158,7 +5028,14 @@ SINA.lectures["genetics1-mutation"] = {
     "Frameshift"
    ],
    "answer": 0,
-   "why": "In the β-globin (HBB) gene."
+   "why": "In the β-globin (HBB) gene.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-mutation/18.jpg",
+     "lec": "Gene mutations",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Duchenne muscular dystrophy is cited as an example of:",
@@ -4169,7 +5046,14 @@ SINA.lectures["genetics1-mutation"] = {
     "Missense"
    ],
    "answer": 0,
-   "why": "Truncated dystrophin."
+   "why": "Truncated dystrophin.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-mutation/24.jpg",
+     "lec": "Gene mutations",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "A readthrough mutation:",
@@ -4180,7 +5064,19 @@ SINA.lectures["genetics1-mutation"] = {
     "Stop → sense codon"
    ],
    "answer": 3,
-   "why": "C-terminally extended protein."
+   "why": "C-terminally extended protein.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-mutation/26.jpg",
+     "lec": "Gene mutations",
+     "n": 26
+    },
+    {
+     "src": "files/slides/genetics1-mutation/29.jpg",
+     "lec": "Gene mutations",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Tay-Sachs disease is cited as an example of:",
@@ -4191,7 +5087,14 @@ SINA.lectures["genetics1-mutation"] = {
     "Frameshift"
    ],
    "answer": 3,
-   "why": "HEXA gene."
+   "why": "HEXA gene.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-mutation/24.jpg",
+     "lec": "Gene mutations",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "A dominant-negative mutation:",
@@ -4202,7 +5105,14 @@ SINA.lectures["genetics1-mutation"] = {
     "Has no effect"
    ],
    "answer": 0,
-   "why": "E.g. Marfan (FBN1)."
+   "why": "E.g. Marfan (FBN1).",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-mutation/24.jpg",
+     "lec": "Gene mutations",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "A mutation in a splice site typically causes:",
@@ -4213,7 +5123,19 @@ SINA.lectures["genetics1-mutation"] = {
     "A longer poly(A) tail"
    ],
    "answer": 1,
-   "why": "Aberrant mRNA splicing."
+   "why": "Aberrant mRNA splicing.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-mutation/21.jpg",
+     "lec": "Gene mutations",
+     "n": 21
+    },
+    {
+     "src": "files/slides/genetics1-mutation/36.jpg",
+     "lec": "Gene mutations",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4643,7 +5565,14 @@ SINA.lectures["genetics1-chromosomal"] = {
     "One organ only"
    ],
    "answer": 1,
-   "why": "The accident happened in a gamete or just after fertilisation."
+   "why": "The accident happened in a gamete or just after fertilisation.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/05.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Mosaic numerical anomalies result from:",
@@ -4654,7 +5583,14 @@ SINA.lectures["genetics1-chromosomal"] = {
     "Post-zygotic nondisjunction"
    ],
    "answer": 3,
-   "why": "Especially common for sex chromosomes."
+   "why": "Especially common for sex chromosomes.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/07.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The cause of most aneuploidies is:",
@@ -4665,7 +5601,19 @@ SINA.lectures["genetics1-chromosomal"] = {
     "Nondisjunction during meiosis"
    ],
    "answer": 3,
-   "why": "In meiosis I or II."
+   "why": "In meiosis I or II.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/10.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 10
+    },
+    {
+     "src": "files/slides/genetics1-chromosomal/20.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The prevalence of Down syndrome is about:",
@@ -4676,7 +5624,14 @@ SINA.lectures["genetics1-chromosomal"] = {
     "1:70,000"
    ],
    "answer": 0,
-   "why": "Trisomy 21, viable into adulthood."
+   "why": "Trisomy 21, viable into adulthood.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/12.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which trisomy features rocker-bottom feet and overlapping fingers?",
@@ -4687,7 +5642,14 @@ SINA.lectures["genetics1-chromosomal"] = {
     "21"
    ],
    "answer": 0,
-   "why": "Edwards syndrome."
+   "why": "Edwards syndrome.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/12.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Klinefelter syndrome karyotype is:",
@@ -4698,7 +5660,14 @@ SINA.lectures["genetics1-chromosomal"] = {
     "47,XXX"
    ],
    "answer": 2,
-   "why": "Tall, small testes, infertility."
+   "why": "Tall, small testes, infertility.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/14.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Turner syndrome karyotype is:",
@@ -4709,7 +5678,14 @@ SINA.lectures["genetics1-chromosomal"] = {
     "46,XY"
    ],
    "answer": 1,
-   "why": "Short stature, gonadal dysgenesis."
+   "why": "Short stature, gonadal dysgenesis.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/14.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The most common polyploidy in humans is:",
@@ -4720,7 +5696,14 @@ SINA.lectures["genetics1-chromosomal"] = {
     "Triploidy"
    ],
    "answer": 3,
-   "why": "Usually early miscarriage."
+   "why": "Usually early miscarriage.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/19.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Dispermy is a cause of:",
@@ -4731,7 +5714,14 @@ SINA.lectures["genetics1-chromosomal"] = {
     "Diandry"
    ],
    "answer": 3,
-   "why": "Two sperm fertilise one egg."
+   "why": "Two sperm fertilise one egg.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/21.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "A balanced rearrangement carrier is usually:",
@@ -4742,7 +5732,14 @@ SINA.lectures["genetics1-chromosomal"] = {
     "Monosomic"
    ],
    "answer": 0,
-   "why": "Risk of miscarriage or affected child."
+   "why": "Risk of miscarriage or affected child.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/32.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "An isochromosome has:",
@@ -4753,7 +5750,14 @@ SINA.lectures["genetics1-chromosomal"] = {
     "A ring shape"
    ],
    "answer": 0,
-   "why": "E.g. i(Xq) in Turner."
+   "why": "E.g. i(Xq) in Turner.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/24.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "A pericentric inversion:",
@@ -4764,7 +5768,14 @@ SINA.lectures["genetics1-chromosomal"] = {
     "Is a deletion"
    ],
    "answer": 1,
-   "why": "Paracentric excludes it."
+   "why": "Paracentric excludes it.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/27.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Robertsonian translocations involve:",
@@ -4775,7 +5786,14 @@ SINA.lectures["genetics1-chromosomal"] = {
     "Any two chromosomes"
    ],
    "answer": 1,
-   "why": "Carriers have 45 chromosomes."
+   "why": "Carriers have 45 chromosomes.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/30.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "A t(14;21) carrier is at risk of having a child with:",
@@ -4786,7 +5804,19 @@ SINA.lectures["genetics1-chromosomal"] = {
     "Klinefelter"
    ],
    "answer": 0,
-   "why": "Translocation trisomy 21."
+   "why": "Translocation trisomy 21.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/12.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 12
+    },
+    {
+     "src": "files/slides/genetics1-chromosomal/31.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "The resolution of a standard karyotype is about:",
@@ -4797,7 +5827,19 @@ SINA.lectures["genetics1-chromosomal"] = {
     "10-50 kb"
    ],
    "answer": 1,
-   "why": "Detects large anomalies."
+   "why": "Detects large anomalies.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/36.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 36
+    },
+    {
+     "src": "files/slides/genetics1-chromosomal/41.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Which test is first-line for unexplained developmental delay?",
@@ -4808,7 +5850,14 @@ SINA.lectures["genetics1-chromosomal"] = {
     "Karyotype"
    ],
    "answer": 1,
-   "why": "Genome-wide CNVs."
+   "why": "Genome-wide CNVs.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/38.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which technique cannot detect balanced rearrangements?",
@@ -4819,7 +5868,14 @@ SINA.lectures["genetics1-chromosomal"] = {
     "CMA"
    ],
    "answer": 3,
-   "why": "It measures copy number only."
+   "why": "It measures copy number only.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/41.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "MLPA is especially suited to detect:",
@@ -4830,7 +5886,14 @@ SINA.lectures["genetics1-chromosomal"] = {
     "Triploidy"
    ],
    "answer": 0,
-   "why": "E.g. DMD, BRCA1."
+   "why": "E.g. DMD, BRCA1.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-chromosomal/39.jpg",
+     "lec": "Chromosomal anomalies: detection and",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5287,7 +6350,14 @@ SINA.lectures["genetics1-heredity"] = {
     "~74%"
    ],
    "answer": 3,
-   "why": "Linked to consanguinity."
+   "why": "Linked to consanguinity.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/05.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "A congenital disease is:",
@@ -5298,7 +6368,19 @@ SINA.lectures["genetics1-heredity"] = {
     "Always acquired later"
    ],
    "answer": 1,
-   "why": "E.g. congenital rubella is not genetic."
+   "why": "E.g. congenital rubella is not genetic.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/08.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 8
+    },
+    {
+     "src": "files/slides/genetics1-heredity/11.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The ABO blood group system illustrates:",
@@ -5309,7 +6391,14 @@ SINA.lectures["genetics1-heredity"] = {
     "Imprinting"
    ],
    "answer": 2,
-   "why": "A and B are both expressed."
+   "why": "A and B are both expressed.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/10.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "For an autosomal dominant disease, Aa × aa gives an affected child risk of:",
@@ -5320,7 +6409,19 @@ SINA.lectures["genetics1-heredity"] = {
     "25%"
    ],
    "answer": 0,
-   "why": "In each pregnancy."
+   "why": "In each pregnancy.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/17.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 17
+    },
+    {
+     "src": "files/slides/genetics1-heredity/23.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "A healthy couple has two children with the same autosomal dominant disease. A likely explanation is:",
@@ -5331,7 +6432,14 @@ SINA.lectures["genetics1-heredity"] = {
     "Germline mosaicism"
    ],
    "answer": 3,
-   "why": "Negative parental testing does not mean zero risk."
+   "why": "Negative parental testing does not mean zero risk.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/18.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Retinoblastoma is an example of:",
@@ -5342,7 +6450,14 @@ SINA.lectures["genetics1-heredity"] = {
     "X-linked inheritance"
    ],
    "answer": 2,
-   "why": "10% of carriers do not develop tumours."
+   "why": "10% of carriers do not develop tumours.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/19.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Pleiotropy means:",
@@ -5353,7 +6468,14 @@ SINA.lectures["genetics1-heredity"] = {
     "One gene affecting several traits"
    ],
    "answer": 3,
-   "why": "E.g. Marfan, cleidocranial dysostosis."
+   "why": "E.g. Marfan, cleidocranial dysostosis.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/20.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Marfan syndrome is caused by mutations in:",
@@ -5364,7 +6486,19 @@ SINA.lectures["genetics1-heredity"] = {
     "FGFR3"
    ],
    "answer": 0,
-   "why": "Autosomal dominant."
+   "why": "Autosomal dominant.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/21.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 21
+    },
+    {
+     "src": "files/slides/genetics1-heredity/22.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Two carrier parents (Aa × Aa) of a recessive disease have what risk per child of an affected child?",
@@ -5375,7 +6509,14 @@ SINA.lectures["genetics1-heredity"] = {
     "75%"
    ],
    "answer": 2,
-   "why": "And 50% healthy carriers."
+   "why": "And 50% healthy carriers.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/23.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which pattern is typically 'horizontal' in a pedigree?",
@@ -5386,7 +6527,19 @@ SINA.lectures["genetics1-heredity"] = {
     "Autosomal recessive"
    ],
    "answer": 3,
-   "why": "Affected siblings in one generation."
+   "why": "Affected siblings in one generation.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/13.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 13
+    },
+    {
+     "src": "files/slides/genetics1-heredity/23.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which is an autosomal recessive disease?",
@@ -5397,7 +6550,14 @@ SINA.lectures["genetics1-heredity"] = {
     "NF1"
    ],
    "answer": 1,
-   "why": "CFTR gene."
+   "why": "CFTR gene.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/10.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "A hallmark of X-linked recessive inheritance is:",
@@ -5408,7 +6568,19 @@ SINA.lectures["genetics1-heredity"] = {
     "50% of all children affected"
    ],
    "answer": 1,
-   "why": "Transmission through carrier mothers."
+   "why": "Transmission through carrier mothers.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/28.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 28
+    },
+    {
+     "src": "files/slides/genetics1-heredity/29.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "A healthy father and a carrier mother (X-linked recessive): what proportion of sons are affected?",
@@ -5419,7 +6591,14 @@ SINA.lectures["genetics1-heredity"] = {
     "0%"
    ],
    "answer": 0,
-   "why": "Daughters: 50% carriers."
+   "why": "Daughters: 50% carriers.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/29.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Haemophilia A is due to deficiency of:",
@@ -5430,7 +6609,14 @@ SINA.lectures["genetics1-heredity"] = {
     "Fibrinogen"
    ],
    "answer": 0,
-   "why": "Haemophilia B = factor IX."
+   "why": "Haemophilia B = factor IX.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/30.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "An affected father with an X-linked dominant disease transmits it to:",
@@ -5441,7 +6627,19 @@ SINA.lectures["genetics1-heredity"] = {
     "All daughters and no sons"
    ],
    "answer": 3,
-   "why": "He gives his X to every daughter."
+   "why": "He gives his X to every daughter.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/29.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 29
+    },
+    {
+     "src": "files/slides/genetics1-heredity/33.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Fragile X syndrome involves the gene:",
@@ -5452,7 +6650,14 @@ SINA.lectures["genetics1-heredity"] = {
     "FMR1"
    ],
    "answer": 3,
-   "why": "Leading inherited cause of intellectual disability."
+   "why": "Leading inherited cause of intellectual disability.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/34.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Mitochondrial diseases are transmitted:",
@@ -5463,7 +6668,19 @@ SINA.lectures["genetics1-heredity"] = {
     "By both parents"
    ],
    "answer": 2,
-   "why": "Heteroplasmy explains variable severity."
+   "why": "Heteroplasmy explains variable severity.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/38.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 38
+    },
+    {
+     "src": "files/slides/genetics1-heredity/39.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Genomic imprinting means:",
@@ -5474,7 +6691,14 @@ SINA.lectures["genetics1-heredity"] = {
     "Loss of a chromosome"
    ],
    "answer": 1,
-   "why": "Epigenetic, reset each generation."
+   "why": "Epigenetic, reset each generation.",
+   "slides": [
+    {
+     "src": "files/slides/genetics1-heredity/42.jpg",
+     "lec": "Hereditary disease transmission",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

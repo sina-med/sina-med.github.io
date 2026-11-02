@@ -125,7 +125,19 @@ SINA.lectures["hemato1-intro"] = {
     "Bone"
    ],
    "answer": 0,
-   "why": "Haematology."
+   "why": "Haematology.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-intro/08.jpg",
+     "lec": "Introduction to haematology",
+     "n": 8
+    },
+    {
+     "src": "files/slides/hemato1-intro/10.jpg",
+     "lec": "Introduction to haematology",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Who described the four humours?",
@@ -136,7 +148,14 @@ SINA.lectures["hemato1-intro"] = {
     "Galen"
    ],
    "answer": 2,
-   "why": "Blood, phlegm, black and yellow bile."
+   "why": "Blood, phlegm, black and yellow bile.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-intro/14.jpg",
+     "lec": "Introduction to haematology",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Who is associated with the introduction of the microscope to study blood?",
@@ -147,7 +166,14 @@ SINA.lectures["hemato1-intro"] = {
     "Hippocrates"
    ],
    "answer": 1,
-   "why": "17th century."
+   "why": "17th century.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-intro/16.jpg",
+     "lec": "Introduction to haematology",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Pernicious anaemia was first treated with:",
@@ -158,7 +184,14 @@ SINA.lectures["hemato1-intro"] = {
     "Iron"
    ],
    "answer": 0,
-   "why": "Castle, early 20th century."
+   "why": "Castle, early 20th century.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-intro/17.jpg",
+     "lec": "Introduction to haematology",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Blood volume represents about what share of body weight?",
@@ -169,7 +202,14 @@ SINA.lectures["hemato1-intro"] = {
     "8%"
    ],
    "answer": 3,
-   "why": "About 5.6 L in a 70 kg man."
+   "why": "About 5.6 L in a 70 kg man.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-intro/18.jpg",
+     "lec": "Introduction to haematology",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Normal blood pH is:",
@@ -180,7 +220,14 @@ SINA.lectures["hemato1-intro"] = {
     "7.6-7.8"
    ],
    "answer": 0,
-   "why": "Slightly alkaline."
+   "why": "Slightly alkaline.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-intro/18.jpg",
+     "lec": "Introduction to haematology",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Blood viscosity compared with water is about:",
@@ -191,7 +238,14 @@ SINA.lectures["hemato1-intro"] = {
     "5 times higher"
    ],
    "answer": 3,
-   "why": "Due to red cells and proteins."
+   "why": "Due to red cells and proteins.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-intro/18.jpg",
+     "lec": "Introduction to haematology",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Plasma makes up about what share of blood?",
@@ -202,7 +256,14 @@ SINA.lectures["hemato1-intro"] = {
     "90%"
    ],
    "answer": 1,
-   "why": "Cells ~45%."
+   "why": "Cells ~45%.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-intro/18.jpg",
+     "lec": "Introduction to haematology",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which formed element is mainly responsible for haemostasis?",
@@ -213,7 +274,14 @@ SINA.lectures["hemato1-intro"] = {
     "Red cells"
    ],
    "answer": 2,
-   "why": "With coagulation factors."
+   "why": "With coagulation factors.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-intro/07.jpg",
+     "lec": "Introduction to haematology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Blood osmolarity is about:",
@@ -224,7 +292,14 @@ SINA.lectures["hemato1-intro"] = {
     "1000 mOsm"
    ],
    "answer": 1,
-   "why": "Isotonic to cells."
+   "why": "Isotonic to cells.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-intro/18.jpg",
+     "lec": "Introduction to haematology",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -531,7 +606,14 @@ SINA.lectures["hemato1-haematopoiesis"] = {
     "10¹¹-10¹²"
    ],
    "answer": 3,
-   "why": "Most regenerative tissue."
+   "why": "Most regenerative tissue.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haematopoiesis/04.jpg",
+     "lec": "Haematopoiesis",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The life span of a red blood cell is about:",
@@ -542,7 +624,14 @@ SINA.lectures["hemato1-haematopoiesis"] = {
     "7 days"
    ],
    "answer": 0,
-   "why": "Platelets 7-10 days."
+   "why": "Platelets 7-10 days.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haematopoiesis/03.jpg",
+     "lec": "Haematopoiesis",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "When does haematopoiesis begin?",
@@ -553,7 +642,14 @@ SINA.lectures["hemato1-haematopoiesis"] = {
     "About 3 weeks after conception"
    ],
    "answer": 3,
-   "why": "In the yolk sac."
+   "why": "In the yolk sac.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haematopoiesis/07.jpg",
+     "lec": "Haematopoiesis",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The main site of haematopoiesis in the early fetus is the:",
@@ -564,7 +660,19 @@ SINA.lectures["hemato1-haematopoiesis"] = {
     "Bone marrow"
    ],
    "answer": 1,
-   "why": "Plus placenta."
+   "why": "Plus placenta.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haematopoiesis/07.jpg",
+     "lec": "Haematopoiesis",
+     "n": 7
+    },
+    {
+     "src": "files/slides/hemato1-haematopoiesis/09.jpg",
+     "lec": "Haematopoiesis",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "In adults, haematopoiesis is mainly confined to the:",
@@ -575,7 +683,14 @@ SINA.lectures["hemato1-haematopoiesis"] = {
     "Spleen"
    ],
    "answer": 1,
-   "why": "Flat bones, vertebrae."
+   "why": "Flat bones, vertebrae.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haematopoiesis/08.jpg",
+     "lec": "Haematopoiesis",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Extramedullary haematopoiesis in thalassaemia causes:",
@@ -586,7 +701,14 @@ SINA.lectures["hemato1-haematopoiesis"] = {
     "Lymphopenia"
    ],
    "answer": 2,
-   "why": "Return to fetal sites."
+   "why": "Return to fetal sites.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haematopoiesis/09.jpg",
+     "lec": "Haematopoiesis",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which property belongs to HSCs?",
@@ -597,7 +719,14 @@ SINA.lectures["hemato1-haematopoiesis"] = {
     "Morphological identification"
    ],
    "answer": 1,
-   "why": "Also multipotency."
+   "why": "Also multipotency.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haematopoiesis/12.jpg",
+     "lec": "Haematopoiesis",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Progenitor cells are:",
@@ -608,7 +737,14 @@ SINA.lectures["hemato1-haematopoiesis"] = {
     "Mature"
    ],
    "answer": 0,
-   "why": "CMP and CLP."
+   "why": "CMP and CLP.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haematopoiesis/13.jpg",
+     "lec": "Haematopoiesis",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Precursor (blast) cells are:",
@@ -619,7 +755,14 @@ SINA.lectures["hemato1-haematopoiesis"] = {
     "Not identifiable"
    ],
    "answer": 1,
-   "why": "E.g. proerythroblast."
+   "why": "E.g. proerythroblast.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haematopoiesis/18.jpg",
+     "lec": "Haematopoiesis",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Stem cells and progenitors are identified by:",
@@ -630,7 +773,14 @@ SINA.lectures["hemato1-haematopoiesis"] = {
     "Haemoglobin level"
    ],
    "answer": 0,
-   "why": "Surface antigens."
+   "why": "Surface antigens.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haematopoiesis/23.jpg",
+     "lec": "Haematopoiesis",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which growth factor acts specifically on red cell production?",
@@ -641,7 +791,19 @@ SINA.lectures["hemato1-haematopoiesis"] = {
     "EPO"
    ],
    "answer": 3,
-   "why": "Erythropoietin."
+   "why": "Erythropoietin.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haematopoiesis/27.jpg",
+     "lec": "Haematopoiesis",
+     "n": 27
+    },
+    {
+     "src": "files/slides/hemato1-haematopoiesis/40.jpg",
+     "lec": "Haematopoiesis",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Thrombopoietin (TPO) stimulates:",
@@ -652,7 +814,14 @@ SINA.lectures["hemato1-haematopoiesis"] = {
     "Neutrophils"
    ],
    "answer": 0,
-   "why": "Megakaryopoiesis."
+   "why": "Megakaryopoiesis.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haematopoiesis/41.jpg",
+     "lec": "Haematopoiesis",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Which growth factor acts early on many lineages?",
@@ -663,7 +832,14 @@ SINA.lectures["hemato1-haematopoiesis"] = {
     "EPO"
    ],
    "answer": 1,
-   "why": "Also IL-3, GM-CSF."
+   "why": "Also IL-3, GM-CSF.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haematopoiesis/26.jpg",
+     "lec": "Haematopoiesis",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which test is the simplest exploration of haematopoiesis?",
@@ -674,7 +850,14 @@ SINA.lectures["hemato1-haematopoiesis"] = {
     "Complete blood count"
    ],
    "answer": 3,
-   "why": "Automated."
+   "why": "Automated.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haematopoiesis/30.jpg",
+     "lec": "Haematopoiesis",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1035,7 +1218,14 @@ SINA.lectures["hemato1-rbc"] = {
     "10 million/mm³"
    ],
    "answer": 0,
-   "why": "Most abundant cell."
+   "why": "Most abundant cell.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-rbc/02.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Why can red cells not divide?",
@@ -1046,7 +1236,14 @@ SINA.lectures["hemato1-rbc"] = {
     "Short life"
    ],
    "answer": 1,
-   "why": "No synthesis either."
+   "why": "No synthesis either.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-rbc/02.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The normal MCV is about:",
@@ -1057,7 +1254,14 @@ SINA.lectures["hemato1-rbc"] = {
     "120-130 fL"
    ],
    "answer": 1,
-   "why": "Mean corpuscular volume."
+   "why": "Mean corpuscular volume.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-rbc/06.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which protein belongs to the red cell cytoskeleton?",
@@ -1068,7 +1272,19 @@ SINA.lectures["hemato1-rbc"] = {
     "Albumin"
    ],
    "answer": 2,
-   "why": "Also ankyrin, actin, 4.1."
+   "why": "Also ankyrin, actin, 4.1.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-rbc/10.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 10
+    },
+    {
+     "src": "files/slides/hemato1-rbc/11.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Blood-group antigens are carried mainly by:",
@@ -1079,7 +1295,14 @@ SINA.lectures["hemato1-rbc"] = {
     "Glycophorins"
    ],
    "answer": 3,
-   "why": "Integral proteins."
+   "why": "Integral proteins.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-rbc/11.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "One haemoglobin molecule can carry how many O₂?",
@@ -1090,7 +1313,14 @@ SINA.lectures["hemato1-rbc"] = {
     "2"
    ],
    "answer": 0,
-   "why": "One per haem."
+   "why": "One per haem.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-rbc/19.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Adult haemoglobin A is:",
@@ -1112,7 +1342,19 @@ SINA.lectures["hemato1-rbc"] = {
     "6"
    ],
    "answer": 1,
-   "why": "α cluster on 16."
+   "why": "α cluster on 16.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-rbc/24.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 24
+    },
+    {
+     "src": "files/slides/hemato1-rbc/84.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 84
+    }
+   ]
   },
   {
    "q": "β-thalassaemia usually becomes apparent at about:",
@@ -1123,7 +1365,14 @@ SINA.lectures["hemato1-rbc"] = {
     "Puberty"
    ],
    "answer": 0,
-   "why": "When γ chains switch off."
+   "why": "When γ chains switch off.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-rbc/25.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Methaemoglobin contains iron in the form:",
@@ -1134,7 +1383,19 @@ SINA.lectures["hemato1-rbc"] = {
     "Fe²⁺"
    ],
    "answer": 1,
-   "why": "Cannot bind O₂."
+   "why": "Cannot bind O₂.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-rbc/26.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 26
+    },
+    {
+     "src": "files/slides/hemato1-rbc/92.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 92
+    }
+   ]
   },
   {
    "q": "Anaemia in an adult woman is defined as Hb below:",
@@ -1145,7 +1406,14 @@ SINA.lectures["hemato1-rbc"] = {
     "13 g/dL"
    ],
    "answer": 1,
-   "why": "Men: 13 g/dL."
+   "why": "Men: 13 g/dL.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-rbc/33.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "The key enzyme of red cell glycolysis is:",
@@ -1156,7 +1424,14 @@ SINA.lectures["hemato1-rbc"] = {
     "Catalase"
    ],
    "answer": 0,
-   "why": "Produces ATP."
+   "why": "Produces ATP.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-rbc/40.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "G6PD in red cells produces:",
@@ -1167,7 +1442,19 @@ SINA.lectures["hemato1-rbc"] = {
     "NADPH"
    ],
    "answer": 3,
-   "why": "Regenerates glutathione."
+   "why": "Regenerates glutathione.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-rbc/42.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 42
+    },
+    {
+     "src": "files/slides/hemato1-rbc/43.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Erythropoietin is produced mainly by the:",
@@ -1178,7 +1465,19 @@ SINA.lectures["hemato1-rbc"] = {
     "Liver"
    ],
    "answer": 0,
-   "why": "In response to hypoxia."
+   "why": "In response to hypoxia.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-rbc/59.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 59
+    },
+    {
+     "src": "files/slides/hemato1-rbc/91.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 91
+    }
+   ]
   },
   {
    "q": "Aged red cells are removed mainly by:",
@@ -1189,7 +1488,19 @@ SINA.lectures["hemato1-rbc"] = {
     "Kidney"
    ],
    "answer": 2,
-   "why": "Physiological haemolysis."
+   "why": "Physiological haemolysis.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-rbc/67.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 67
+    },
+    {
+     "src": "files/slides/hemato1-rbc/68.jpg",
+     "lec": "Red blood cells and erythropoiesis",
+     "n": 68
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1593,7 +1904,14 @@ SINA.lectures["hemato1-iron"] = {
     "4-5 g"
    ],
    "answer": 3,
-   "why": "Stable amount."
+   "why": "Stable amount.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-iron/02.jpg",
+     "lec": "Iron metabolism",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Most body iron is found in:",
@@ -1604,7 +1922,14 @@ SINA.lectures["hemato1-iron"] = {
     "Transferrin"
    ],
    "answer": 0,
-   "why": "60-75%."
+   "why": "60-75%.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-iron/06.jpg",
+     "lec": "Iron metabolism",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "How much iron is absorbed per day from a normal diet?",
@@ -1615,7 +1940,14 @@ SINA.lectures["hemato1-iron"] = {
     "15-20 mg"
    ],
    "answer": 1,
-   "why": "About 10% of intake."
+   "why": "About 10% of intake.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-iron/09.jpg",
+     "lec": "Iron metabolism",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which dietary iron is best absorbed?",
@@ -1626,7 +1958,19 @@ SINA.lectures["hemato1-iron"] = {
     "Iron in breast milk only"
    ],
    "answer": 0,
-   "why": "About 20%."
+   "why": "About 20%.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-iron/03.jpg",
+     "lec": "Iron metabolism",
+     "n": 3
+    },
+    {
+     "src": "files/slides/hemato1-iron/30.jpg",
+     "lec": "Iron metabolism",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Absorption of non-haem iron is increased by:",
@@ -1637,7 +1981,14 @@ SINA.lectures["hemato1-iron"] = {
     "Calcium"
    ],
    "answer": 2,
-   "why": "Tannins reduce it."
+   "why": "Tannins reduce it.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-iron/13.jpg",
+     "lec": "Iron metabolism",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Iron is absorbed mainly in the:",
@@ -1648,7 +1999,14 @@ SINA.lectures["hemato1-iron"] = {
     "Colon"
    ],
    "answer": 1,
-   "why": "And proximal jejunum."
+   "why": "And proximal jejunum.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-iron/11.jpg",
+     "lec": "Iron metabolism",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which transporter imports iron into the enterocyte?",
@@ -1659,7 +2017,19 @@ SINA.lectures["hemato1-iron"] = {
     "TfR1"
    ],
    "answer": 1,
-   "why": "After reduction by DcytB."
+   "why": "After reduction by DcytB.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-iron/13.jpg",
+     "lec": "Iron metabolism",
+     "n": 13
+    },
+    {
+     "src": "files/slides/hemato1-iron/15.jpg",
+     "lec": "Iron metabolism",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Iron leaves the enterocyte through:",
@@ -1670,7 +2040,14 @@ SINA.lectures["hemato1-iron"] = {
     "DMT1"
    ],
    "answer": 2,
-   "why": "Main regulation point."
+   "why": "Main regulation point.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-iron/15.jpg",
+     "lec": "Iron metabolism",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Transferrin binds iron in the form:",
@@ -1681,7 +2058,14 @@ SINA.lectures["hemato1-iron"] = {
     "Haem"
    ],
    "answer": 1,
-   "why": "Two per molecule."
+   "why": "Two per molecule.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-iron/32.jpg",
+     "lec": "Iron metabolism",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Hepcidin acts by:",
@@ -1692,7 +2076,19 @@ SINA.lectures["hemato1-iron"] = {
     "Increasing absorption"
    ],
    "answer": 2,
-   "why": "Reduces iron entry to blood."
+   "why": "Reduces iron entry to blood.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-iron/14.jpg",
+     "lec": "Iron metabolism",
+     "n": 14
+    },
+    {
+     "src": "files/slides/hemato1-iron/32.jpg",
+     "lec": "Iron metabolism",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Hepcidin levels rise in:",
@@ -1703,7 +2099,19 @@ SINA.lectures["hemato1-iron"] = {
     "Inflammation and iron excess"
    ],
    "answer": 3,
-   "why": "Anaemia of inflammation."
+   "why": "Anaemia of inflammation.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-iron/33.jpg",
+     "lec": "Iron metabolism",
+     "n": 33
+    },
+    {
+     "src": "files/slides/hemato1-iron/49.jpg",
+     "lec": "Iron metabolism",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "The best laboratory marker of iron stores is:",
@@ -1714,7 +2122,19 @@ SINA.lectures["hemato1-iron"] = {
     "Serum ferritin"
    ],
    "answer": 3,
-   "why": "But rises in inflammation."
+   "why": "But rises in inflammation.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-iron/42.jpg",
+     "lec": "Iron metabolism",
+     "n": 42
+    },
+    {
+     "src": "files/slides/hemato1-iron/45.jpg",
+     "lec": "Iron metabolism",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Which stain detects marrow iron?",
@@ -2117,7 +2537,14 @@ SINA.lectures["hemato1-b9-b12"] = {
     "DNA"
    ],
    "answer": 3,
-   "why": "Not RNA."
+   "why": "Not RNA.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-b9-b12/05.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Deficiency causes which type of anaemia?",
@@ -2128,7 +2555,19 @@ SINA.lectures["hemato1-b9-b12"] = {
     "Microcytic"
    ],
    "answer": 0,
-   "why": "Nucleo-cytoplasmic asynchrony."
+   "why": "Nucleo-cytoplasmic asynchrony.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-b9-b12/05.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 5
+    },
+    {
+     "src": "files/slides/hemato1-b9-b12/06.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The main dietary sources of folate are:",
@@ -2139,7 +2578,19 @@ SINA.lectures["hemato1-b9-b12"] = {
     "Leafy greens, liver"
    ],
    "answer": 3,
-   "why": "Heat-labile."
+   "why": "Heat-labile.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-b9-b12/10.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 10
+    },
+    {
+     "src": "files/slides/hemato1-b9-b12/11.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Daily folate needs in pregnancy are about:",
@@ -2150,7 +2601,14 @@ SINA.lectures["hemato1-b9-b12"] = {
     "5 mg"
    ],
    "answer": 1,
-   "why": "Adults 330 µg."
+   "why": "Adults 330 µg.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-b9-b12/10.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Folate supplementation in pregnancy prevents:",
@@ -2161,7 +2619,14 @@ SINA.lectures["hemato1-b9-b12"] = {
     "Anaemia only"
    ],
    "answer": 1,
-   "why": "Spina bifida."
+   "why": "Spina bifida.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-b9-b12/20.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Folate is absorbed mainly in the:",
@@ -2172,7 +2637,14 @@ SINA.lectures["hemato1-b9-b12"] = {
     "Terminal ileum"
    ],
    "answer": 2,
-   "why": "B12 in the terminal ileum."
+   "why": "B12 in the terminal ileum.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-b9-b12/33.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Folate circulates in plasma as:",
@@ -2183,7 +2655,14 @@ SINA.lectures["hemato1-b9-b12"] = {
     "Folic acid"
    ],
    "answer": 1,
-   "why": "Inactive form."
+   "why": "Inactive form.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-b9-b12/09.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which enzyme needs vitamin B12?",
@@ -2194,7 +2673,19 @@ SINA.lectures["hemato1-b9-b12"] = {
     "Dihydrofolate reductase"
    ],
    "answer": 0,
-   "why": "Converts homocysteine to methionine."
+   "why": "Converts homocysteine to methionine.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-b9-b12/04.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 4
+    },
+    {
+     "src": "files/slides/hemato1-b9-b12/27.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Vitamin B12 contains which metal?",
@@ -2205,7 +2696,19 @@ SINA.lectures["hemato1-b9-b12"] = {
     "Iron"
    ],
    "answer": 1,
-   "why": "Corrin ring."
+   "why": "Corrin ring.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-b9-b12/09.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 9
+    },
+    {
+     "src": "files/slides/hemato1-b9-b12/26.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Intrinsic factor is secreted by:",
@@ -2216,7 +2719,19 @@ SINA.lectures["hemato1-b9-b12"] = {
     "Chief cells"
    ],
    "answer": 0,
-   "why": "Needed for B12 absorption."
+   "why": "Needed for B12 absorption.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-b9-b12/33.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 33
+    },
+    {
+     "src": "files/slides/hemato1-b9-b12/34.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "B12 is absorbed in the:",
@@ -2227,7 +2742,14 @@ SINA.lectures["hemato1-b9-b12"] = {
     "Terminal ileum"
    ],
    "answer": 3,
-   "why": "Bound to intrinsic factor."
+   "why": "Bound to intrinsic factor.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-b9-b12/33.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Why does B12 deficiency take years to develop?",
@@ -2238,7 +2760,14 @@ SINA.lectures["hemato1-b9-b12"] = {
     "Fast absorption"
    ],
    "answer": 0,
-   "why": "Stores last years."
+   "why": "Stores last years.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-b9-b12/11.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Pernicious anaemia is caused by:",
@@ -2249,7 +2778,14 @@ SINA.lectures["hemato1-b9-b12"] = {
     "Folate excess"
    ],
    "answer": 1,
-   "why": "Anti-IF / anti-parietal cell."
+   "why": "Anti-IF / anti-parietal cell.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-b9-b12/39.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which feature distinguishes B12 from folate deficiency?",
@@ -2260,7 +2796,19 @@ SINA.lectures["hemato1-b9-b12"] = {
     "Neurological damage"
    ],
    "answer": 3,
-   "why": "Subacute combined degeneration."
+   "why": "Subacute combined degeneration.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-b9-b12/20.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 20
+    },
+    {
+     "src": "files/slides/hemato1-b9-b12/36.jpg",
+     "lec": "Vitamin B9 and B12 metabolism",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2594,7 +3142,14 @@ SINA.lectures["hemato1-cbc"] = {
     "Heparin"
    ],
    "answer": 2,
-   "why": "Lavender top."
+   "why": "Lavender top.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-cbc/05.jpg",
+     "lec": "The complete blood count",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "A CBC sample is rejected if it is:",
@@ -2605,7 +3160,14 @@ SINA.lectures["hemato1-cbc"] = {
     "In EDTA"
    ],
    "answer": 0,
-   "why": "Pre-analytical rules."
+   "why": "Pre-analytical rules.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-cbc/05.jpg",
+     "lec": "The complete blood count",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "When is a blood smear mandatory?",
@@ -2616,7 +3178,14 @@ SINA.lectures["hemato1-cbc"] = {
     "Only for platelets"
    ],
    "answer": 1,
-   "why": "MGG stain."
+   "why": "MGG stain.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-cbc/07.jpg",
+     "lec": "The complete blood count",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Anaemia in an adult man is Hb below:",
@@ -2627,7 +3196,14 @@ SINA.lectures["hemato1-cbc"] = {
     "12 g/dL"
    ],
    "answer": 0,
-   "why": "Women: 12 g/dL."
+   "why": "Women: 12 g/dL.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-cbc/15.jpg",
+     "lec": "The complete blood count",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The normal MCV is:",
@@ -2638,7 +3214,14 @@ SINA.lectures["hemato1-cbc"] = {
     "60-70 fL"
    ],
    "answer": 2,
-   "why": "Mean corpuscular volume."
+   "why": "Mean corpuscular volume.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-cbc/18.jpg",
+     "lec": "The complete blood count",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "An MCV above 120 fL suggests:",
@@ -2649,7 +3232,14 @@ SINA.lectures["hemato1-cbc"] = {
     "Megaloblastic anaemia"
    ],
    "answer": 3,
-   "why": "B12/folate."
+   "why": "B12/folate.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-cbc/20.jpg",
+     "lec": "The complete blood count",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Hypochromia is defined by an MCHC below:",
@@ -2660,7 +3250,14 @@ SINA.lectures["hemato1-cbc"] = {
     "27 g/dL"
    ],
    "answer": 0,
-   "why": "MCH < 27 pg."
+   "why": "MCH < 27 pg.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-cbc/19.jpg",
+     "lec": "The complete blood count",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "An RDW above 15% indicates:",
@@ -2671,7 +3268,14 @@ SINA.lectures["hemato1-cbc"] = {
     "Anisocytosis"
    ],
    "answer": 3,
-   "why": "Variable size."
+   "why": "Variable size.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-cbc/21.jpg",
+     "lec": "The complete blood count",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Variation in red cell shape is called:",
@@ -2682,7 +3286,14 @@ SINA.lectures["hemato1-cbc"] = {
     "Anisocytosis"
    ],
    "answer": 1,
-   "why": "E.g. sickle cells."
+   "why": "E.g. sickle cells.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-cbc/27.jpg",
+     "lec": "The complete blood count",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "The normal WBC count is:",
@@ -2693,7 +3304,14 @@ SINA.lectures["hemato1-cbc"] = {
     "4-10 G/L"
    ],
    "answer": 3,
-   "why": "Leukopenia < 4."
+   "why": "Leukopenia < 4.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-cbc/38.jpg",
+     "lec": "The complete blood count",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Agranulocytosis is a neutrophil count below:",
@@ -2704,7 +3322,14 @@ SINA.lectures["hemato1-cbc"] = {
     "1.8 G/L"
    ],
    "answer": 2,
-   "why": "Neutropenia < 1.5."
+   "why": "Neutropenia < 1.5.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-cbc/40.jpg",
+     "lec": "The complete blood count",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "The white cell differential should be interpreted as:",
@@ -2715,7 +3340,19 @@ SINA.lectures["hemato1-cbc"] = {
     "Ratios to platelets"
    ],
    "answer": 1,
-   "why": "% × total count."
+   "why": "% × total count.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-cbc/13.jpg",
+     "lec": "The complete blood count",
+     "n": 13
+    },
+    {
+     "src": "files/slides/hemato1-cbc/38.jpg",
+     "lec": "The complete blood count",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Eosinophilia is defined as eosinophils above:",
@@ -2726,7 +3363,14 @@ SINA.lectures["hemato1-cbc"] = {
     "4 G/L"
    ],
    "answer": 1,
-   "why": "Basophilia > 0.1."
+   "why": "Basophilia > 0.1.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-cbc/40.jpg",
+     "lec": "The complete blood count",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "The normal platelet count is:",
@@ -2737,7 +3381,14 @@ SINA.lectures["hemato1-cbc"] = {
     "150-400 G/L"
    ],
    "answer": 3,
-   "why": "Thrombocytopenia < 150."
+   "why": "Thrombocytopenia < 150.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-cbc/48.jpg",
+     "lec": "The complete blood count",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "During pregnancy, the accepted lower Hb limit is about:",
@@ -2748,7 +3399,19 @@ SINA.lectures["hemato1-cbc"] = {
     "13 g/dL"
    ],
    "answer": 2,
-   "why": "Haemodilution."
+   "why": "Haemodilution.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-cbc/11.jpg",
+     "lec": "The complete blood count",
+     "n": 11
+    },
+    {
+     "src": "files/slides/hemato1-cbc/33.jpg",
+     "lec": "The complete blood count",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3068,7 +3731,14 @@ SINA.lectures["hemato1-anaemias"] = {
     "13 g/dL"
    ],
    "answer": 2,
-   "why": "Men: 13 g/dL."
+   "why": "Men: 13 g/dL.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-anaemias/03.jpg",
+     "lec": "Anaemias",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The most noticeable symptom of anaemia is:",
@@ -3079,7 +3749,14 @@ SINA.lectures["hemato1-anaemias"] = {
     "Rash"
    ],
    "answer": 0,
-   "why": "Tissue hypoxia."
+   "why": "Tissue hypoxia.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-anaemias/10.jpg",
+     "lec": "Anaemias",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The reticulocyte count reflects:",
@@ -3090,7 +3767,14 @@ SINA.lectures["hemato1-anaemias"] = {
     "B12 level"
    ],
    "answer": 1,
-   "why": "Regenerative or not."
+   "why": "Regenerative or not.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-anaemias/11.jpg",
+     "lec": "Anaemias",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which tests suggest haemolysis?",
@@ -3101,7 +3785,14 @@ SINA.lectures["hemato1-anaemias"] = {
     "B12, folate"
    ],
    "answer": 0,
-   "why": "Plus Coombs test."
+   "why": "Plus Coombs test.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-anaemias/12.jpg",
+     "lec": "Anaemias",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "A microcytic anaemia has an MCV below:",
@@ -3112,7 +3803,14 @@ SINA.lectures["hemato1-anaemias"] = {
     "120 fL"
    ],
    "answer": 2,
-   "why": "Hypochromic."
+   "why": "Hypochromic.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-anaemias/13.jpg",
+     "lec": "Anaemias",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which is a cause of microcytic anaemia?",
@@ -3123,7 +3821,19 @@ SINA.lectures["hemato1-anaemias"] = {
     "Thalassaemia"
    ],
    "answer": 3,
-   "why": "Also iron deficiency."
+   "why": "Also iron deficiency.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-anaemias/13.jpg",
+     "lec": "Anaemias",
+     "n": 13
+    },
+    {
+     "src": "files/slides/hemato1-anaemias/16.jpg",
+     "lec": "Anaemias",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which is a cause of macrocytic anaemia?",
@@ -3134,7 +3844,19 @@ SINA.lectures["hemato1-anaemias"] = {
     "Thalassaemia"
    ],
    "answer": 0,
-   "why": "MCV > 100."
+   "why": "MCV > 100.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-anaemias/13.jpg",
+     "lec": "Anaemias",
+     "n": 13
+    },
+    {
+     "src": "files/slides/hemato1-anaemias/51.jpg",
+     "lec": "Anaemias",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "The most common nutritional deficiency in the world is:",
@@ -3145,7 +3867,14 @@ SINA.lectures["hemato1-anaemias"] = {
     "Iron"
    ],
    "answer": 3,
-   "why": "About 30% affected."
+   "why": "About 30% affected.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-anaemias/17.jpg",
+     "lec": "Anaemias",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which lab profile fits iron deficiency anaemia?",
@@ -3156,7 +3885,14 @@ SINA.lectures["hemato1-anaemias"] = {
     "High MCV, high ferritin"
    ],
    "answer": 1,
-   "why": "Microcytic, hypochromic."
+   "why": "Microcytic, hypochromic.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-anaemias/16.jpg",
+     "lec": "Anaemias",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Pica is:",
@@ -3167,7 +3903,14 @@ SINA.lectures["hemato1-anaemias"] = {
     "Eating non-food items"
    ],
    "answer": 3,
-   "why": "Classic in iron deficiency."
+   "why": "Classic in iron deficiency.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-anaemias/21.jpg",
+     "lec": "Anaemias",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The usual adult oral iron dose is:",
@@ -3178,7 +3921,14 @@ SINA.lectures["hemato1-anaemias"] = {
     "1 g/day"
    ],
    "answer": 2,
-   "why": "Or 60-100 mg on alternate days."
+   "why": "Or 60-100 mg on alternate days.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-anaemias/32.jpg",
+     "lec": "Anaemias",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Oral iron should be taken:",
@@ -3189,7 +3939,14 @@ SINA.lectures["hemato1-anaemias"] = {
     "With tea"
    ],
    "answer": 1,
-   "why": "Avoid coffee, PPIs."
+   "why": "Avoid coffee, PPIs.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-anaemias/35.jpg",
+     "lec": "Anaemias",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "After Hb normalises, iron should be continued for:",
@@ -3200,7 +3957,14 @@ SINA.lectures["hemato1-anaemias"] = {
     "2 years"
    ],
    "answer": 1,
-   "why": "To refill stores."
+   "why": "To refill stores.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-anaemias/34.jpg",
+     "lec": "Anaemias",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Folate stores in the liver last about:",
@@ -3211,7 +3975,19 @@ SINA.lectures["hemato1-anaemias"] = {
     "3-4 months"
    ],
    "answer": 3,
-   "why": "B12 stores last 2-4 years."
+   "why": "B12 stores last 2-4 years.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-anaemias/45.jpg",
+     "lec": "Anaemias",
+     "n": 45
+    },
+    {
+     "src": "files/slides/hemato1-anaemias/46.jpg",
+     "lec": "Anaemias",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "The most frequent cause of B12 deficiency is:",
@@ -3222,7 +3998,14 @@ SINA.lectures["hemato1-anaemias"] = {
     "Vegan diet"
    ],
    "answer": 2,
-   "why": "Autoimmune gastric atrophy."
+   "why": "Autoimmune gastric atrophy.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-anaemias/46.jpg",
+     "lec": "Anaemias",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3558,7 +4341,19 @@ SINA.lectures["hemato1-wbc-1"] = {
     "Neutrophils and monocytes"
    ],
    "answer": 3,
-   "why": "Lymphocytes are lymphoid."
+   "why": "Lymphocytes are lymphoid.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-1/03.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 3
+    },
+    {
+     "src": "files/slides/hemato1-wbc-1/06.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "A total WBC of 3,500 with 90% lymphocytes means:",
@@ -3569,7 +4364,14 @@ SINA.lectures["hemato1-wbc-1"] = {
     "Lymphocytosis"
    ],
    "answer": 0,
-   "why": "Use absolute values."
+   "why": "Use absolute values.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-1/15.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Leukopenia in adults is a WBC below:",
@@ -3580,7 +4382,19 @@ SINA.lectures["hemato1-wbc-1"] = {
     "4,000/mm³"
    ],
    "answer": 3,
-   "why": "Leukocytosis > 10,000."
+   "why": "Leukocytosis > 10,000.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-1/03.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 3
+    },
+    {
+     "src": "files/slides/hemato1-wbc-1/16.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The main growth factor for neutrophils is:",
@@ -3591,7 +4405,19 @@ SINA.lectures["hemato1-wbc-1"] = {
     "IL-5"
    ],
    "answer": 1,
-   "why": "Also IL-3, GM-CSF."
+   "why": "Also IL-3, GM-CSF.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-1/36.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 36
+    },
+    {
+     "src": "files/slides/hemato1-wbc-1/74.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 74
+    }
+   ]
   },
   {
    "q": "Neutrophils and monocytes share which progenitor?",
@@ -3602,7 +4428,14 @@ SINA.lectures["hemato1-wbc-1"] = {
     "CLP"
    ],
    "answer": 1,
-   "why": "Granulocyte-macrophage."
+   "why": "Granulocyte-macrophage.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-1/21.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Agranulocytosis is an ANC below:",
@@ -3613,7 +4446,14 @@ SINA.lectures["hemato1-wbc-1"] = {
     "1,800/mm³"
    ],
    "answer": 2,
-   "why": "High infection risk."
+   "why": "High infection risk.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-1/41.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Tonsillitis in severe neutropenia typically shows:",
@@ -3624,7 +4464,19 @@ SINA.lectures["hemato1-wbc-1"] = {
     "No lesion"
    ],
    "answer": 1,
-   "why": "No neutrophils to make pus."
+   "why": "No neutrophils to make pus.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-1/42.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 42
+    },
+    {
+     "src": "files/slides/hemato1-wbc-1/43.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Pseudoneutropenia is due to:",
@@ -3635,7 +4487,14 @@ SINA.lectures["hemato1-wbc-1"] = {
     "Antibodies"
    ],
    "answer": 0,
-   "why": "Normalises after exercise."
+   "why": "Normalises after exercise.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-1/52.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "Hypersegmented neutrophils suggest:",
@@ -3646,7 +4505,19 @@ SINA.lectures["hemato1-wbc-1"] = {
     "Allergy"
    ],
    "answer": 1,
-   "why": "B12 or folate deficiency."
+   "why": "B12 or folate deficiency.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-1/28.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 28
+    },
+    {
+     "src": "files/slides/hemato1-wbc-1/49.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Neutrophilia in bacterial infection is typically:",
@@ -3657,7 +4528,14 @@ SINA.lectures["hemato1-wbc-1"] = {
     "2,000-4,000/mm³"
    ],
    "answer": 0,
-   "why": "With raised CRP and PCT."
+   "why": "With raised CRP and PCT.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-1/56.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "The main cytokine for eosinophil production is:",
@@ -3668,7 +4546,19 @@ SINA.lectures["hemato1-wbc-1"] = {
     "IL-5"
    ],
    "answer": 3,
-   "why": "Plus IL-3, GM-CSF."
+   "why": "Plus IL-3, GM-CSF.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-1/66.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 66
+    },
+    {
+     "src": "files/slides/hemato1-wbc-1/74.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 74
+    }
+   ]
   },
   {
    "q": "The most common cause of reactive eosinophilia is:",
@@ -3679,7 +4569,19 @@ SINA.lectures["hemato1-wbc-1"] = {
     "Viral infection"
    ],
    "answer": 0,
-   "why": "Also allergy."
+   "why": "Also allergy.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-1/68.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 68
+    },
+    {
+     "src": "files/slides/hemato1-wbc-1/75.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 75
+    }
+   ]
   },
   {
    "q": "Hypereosinophilic syndrome is defined by eosinophils persistently above:",
@@ -3690,7 +4592,14 @@ SINA.lectures["hemato1-wbc-1"] = {
     "100/mm³"
    ],
    "answer": 1,
-   "why": "Organ damage (heart, lung)."
+   "why": "Organ damage (heart, lung).",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-1/68.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 68
+    }
+   ]
   },
   {
    "q": "Basophil granules contain mainly:",
@@ -3701,7 +4610,14 @@ SINA.lectures["hemato1-wbc-1"] = {
     "Histamine"
    ],
    "answer": 3,
-   "why": "Also serotonin, peroxidase."
+   "why": "Also serotonin, peroxidase.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-1/71.jpg",
+     "lec": "White blood cells, part I: granulocytes",
+     "n": 71
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4041,7 +4957,14 @@ SINA.lectures["hemato1-wbc-2"] = {
     "Lymphocyte"
    ],
    "answer": 2,
-   "why": "12-20 µm."
+   "why": "12-20 µm.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-2/06.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Monocytes have a nucleus that is typically:",
@@ -4052,7 +4975,14 @@ SINA.lectures["hemato1-wbc-2"] = {
     "Round and dense"
    ],
    "answer": 0,
-   "why": "With brain-like folds."
+   "why": "With brain-like folds.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-2/06.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "How long do monocytes stay in the blood?",
@@ -4063,7 +4993,19 @@ SINA.lectures["hemato1-wbc-2"] = {
     "8 days"
    ],
    "answer": 1,
-   "why": "Then enter tissues."
+   "why": "Then enter tissues.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-2/08.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 8
+    },
+    {
+     "src": "files/slides/hemato1-wbc-2/37.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "The main growth factor for monocytes is:",
@@ -4074,7 +5016,19 @@ SINA.lectures["hemato1-wbc-2"] = {
     "G-CSF"
    ],
    "answer": 0,
-   "why": "Also GM-CSF, IL-3."
+   "why": "Also GM-CSF, IL-3.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-2/12.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 12
+    },
+    {
+     "src": "files/slides/hemato1-wbc-2/19.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Kupffer cells are macrophages of the:",
@@ -4085,7 +5039,14 @@ SINA.lectures["hemato1-wbc-2"] = {
     "Lung"
    ],
    "answer": 2,
-   "why": "Microglia in CNS; osteoclasts in bone."
+   "why": "Microglia in CNS; osteoclasts in bone.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-2/14.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which is a housekeeping function of macrophages?",
@@ -4096,7 +5057,14 @@ SINA.lectures["hemato1-wbc-2"] = {
     "Destroying senescent red cells"
    ],
    "answer": 3,
-   "why": "Scavengers."
+   "why": "Scavengers.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-2/19.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Monocytosis is defined as monocytes above:",
@@ -4107,7 +5075,14 @@ SINA.lectures["hemato1-wbc-2"] = {
     "5,000/mm³"
    ],
    "answer": 0,
-   "why": "Monocytopenia < 200."
+   "why": "Monocytopenia < 200.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-2/23.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Gaucher disease involves accumulation of:",
@@ -4118,7 +5093,14 @@ SINA.lectures["hemato1-wbc-2"] = {
     "Glucocerebroside"
    ],
    "answer": 3,
-   "why": "β-glucosidase deficiency."
+   "why": "β-glucosidase deficiency.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-2/24.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "B, T and NK lymphocytes are distinguished by:",
@@ -4129,7 +5111,14 @@ SINA.lectures["hemato1-wbc-2"] = {
     "Size"
    ],
    "answer": 1,
-   "why": "They look alike."
+   "why": "They look alike.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-2/29.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Large granular lymphocytes are mainly:",
@@ -4140,7 +5129,14 @@ SINA.lectures["hemato1-wbc-2"] = {
     "NK and cytotoxic T cells"
    ],
    "answer": 3,
-   "why": "About 3% of lymphocytes."
+   "why": "About 3% of lymphocytes.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-2/32.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Antigen-dependent lymphopoiesis takes place in the:",
@@ -4151,7 +5147,19 @@ SINA.lectures["hemato1-wbc-2"] = {
     "Bone marrow"
    ],
    "answer": 2,
-   "why": "After antigen recognition."
+   "why": "After antigen recognition.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-2/33.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 33
+    },
+    {
+     "src": "files/slides/hemato1-wbc-2/34.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "The main causes of reactive lymphocytosis are:",
@@ -4162,7 +5170,19 @@ SINA.lectures["hemato1-wbc-2"] = {
     "Allergy"
    ],
    "answer": 1,
-   "why": "E.g. EBV."
+   "why": "E.g. EBV.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-2/42.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 42
+    },
+    {
+     "src": "files/slides/hemato1-wbc-2/44.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Infectious mononucleosis is caused by:",
@@ -4173,7 +5193,14 @@ SINA.lectures["hemato1-wbc-2"] = {
     "HIV"
    ],
    "answer": 1,
-   "why": "Anti-VCA antibodies."
+   "why": "Anti-VCA antibodies.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-2/44.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Which bacterial infection classically causes lymphocytosis?",
@@ -4184,7 +5211,14 @@ SINA.lectures["hemato1-wbc-2"] = {
     "Pertussis"
    ],
    "answer": 3,
-   "why": "Whooping cough."
+   "why": "Whooping cough.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-2/45.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "CLL is characterised by accumulation of:",
@@ -4195,7 +5229,14 @@ SINA.lectures["hemato1-wbc-2"] = {
     "T lymphocytes"
    ],
    "answer": 2,
-   "why": "Median age 70."
+   "why": "Median age 70.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-wbc-2/47.jpg",
+     "lec": "White blood cells, part II: monocytes",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4557,7 +5598,14 @@ SINA.lectures["hemato1-haemostasis"] = {
     "Fibrin formation"
    ],
    "answer": 2,
-   "why": "Then the platelet plug."
+   "why": "Then the platelet plug.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haemostasis/03.jpg",
+     "lec": "Introduction to haemostasis",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Primary haemostasis refers to:",
@@ -4568,7 +5616,14 @@ SINA.lectures["hemato1-haemostasis"] = {
     "Clot dissolution"
    ],
    "answer": 1,
-   "why": "Secondary = coagulation."
+   "why": "Secondary = coagulation.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haemostasis/03.jpg",
+     "lec": "Introduction to haemostasis",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Secondary haemostasis converts:",
@@ -4579,7 +5634,14 @@ SINA.lectures["hemato1-haemostasis"] = {
     "Prothrombin to fibrinogen"
    ],
    "answer": 0,
-   "why": "Coagulation cascade."
+   "why": "Coagulation cascade.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haemostasis/07.jpg",
+     "lec": "Introduction to haemostasis",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which is an inherited thrombophilia?",
@@ -4590,7 +5652,19 @@ SINA.lectures["hemato1-haemostasis"] = {
     "Haemophilia A"
    ],
    "answer": 1,
-   "why": "Also prothrombin mutation, protein C deficiency."
+   "why": "Also prothrombin mutation, protein C deficiency.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haemostasis/03.jpg",
+     "lec": "Introduction to haemostasis",
+     "n": 3
+    },
+    {
+     "src": "files/slides/hemato1-haemostasis/06.jpg",
+     "lec": "Introduction to haemostasis",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Platelets are fragments of:",
@@ -4601,7 +5675,14 @@ SINA.lectures["hemato1-haemostasis"] = {
     "Megakaryocytes"
    ],
    "answer": 3,
-   "why": "Anucleate."
+   "why": "Anucleate.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haemostasis/02.jpg",
+     "lec": "Introduction to haemostasis",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Endomitosis means:",
@@ -4612,7 +5693,14 @@ SINA.lectures["hemato1-haemostasis"] = {
     "Fragmentation"
    ],
    "answer": 2,
-   "why": "Makes large polyploid megakaryocytes."
+   "why": "Makes large polyploid megakaryocytes.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haemostasis/02.jpg",
+     "lec": "Introduction to haemostasis",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "One megakaryocyte produces about:",
@@ -4623,7 +5711,14 @@ SINA.lectures["hemato1-haemostasis"] = {
     "20 platelets"
    ],
    "answer": 0,
-   "why": "By fragmentation."
+   "why": "By fragmentation.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haemostasis/02.jpg",
+     "lec": "Introduction to haemostasis",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The main regulator of platelet production is:",
@@ -4634,7 +5729,19 @@ SINA.lectures["hemato1-haemostasis"] = {
     "G-CSF"
    ],
    "answer": 2,
-   "why": "Made by the liver."
+   "why": "Made by the liver.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haemostasis/02.jpg",
+     "lec": "Introduction to haemostasis",
+     "n": 2
+    },
+    {
+     "src": "files/slides/hemato1-haemostasis/03.jpg",
+     "lec": "Introduction to haemostasis",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which platelet granules contain ADP and serotonin?",
@@ -4645,7 +5752,19 @@ SINA.lectures["hemato1-haemostasis"] = {
     "Dense granules"
    ],
    "answer": 3,
-   "why": "α-granules: VWF, fibrinogen."
+   "why": "α-granules: VWF, fibrinogen.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haemostasis/02.jpg",
+     "lec": "Introduction to haemostasis",
+     "n": 2
+    },
+    {
+     "src": "files/slides/hemato1-haemostasis/03.jpg",
+     "lec": "Introduction to haemostasis",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Von Willebrand factor circulates bound to:",
@@ -4656,7 +5775,14 @@ SINA.lectures["hemato1-haemostasis"] = {
     "Fibrinogen"
    ],
    "answer": 1,
-   "why": "And bridges platelets to collagen."
+   "why": "And bridges platelets to collagen.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haemostasis/03.jpg",
+     "lec": "Introduction to haemostasis",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The normal, uninjured endothelium is:",
@@ -4667,7 +5793,19 @@ SINA.lectures["hemato1-haemostasis"] = {
     "Absent in capillaries"
    ],
    "answer": 0,
-   "why": "Heparan sulfate, inhibitors."
+   "why": "Heparan sulfate, inhibitors.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-haemostasis/02.jpg",
+     "lec": "Introduction to haemostasis",
+     "n": 2
+    },
+    {
+     "src": "files/slides/hemato1-haemostasis/08.jpg",
+     "lec": "Introduction to haemostasis",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "About what share of platelets is held in the spleen?",
@@ -5046,7 +6184,14 @@ SINA.lectures["hemato1-primary"] = {
     "Clot formation and fluid blood maintenance"
    ],
    "answer": 3,
-   "why": "Clot then dissolution."
+   "why": "Clot then dissolution.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-primary/06.jpg",
+     "lec": "Primary haemostasis",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Primary haemostasis forms:",
@@ -5057,7 +6202,14 @@ SINA.lectures["hemato1-primary"] = {
     "A fibrin clot"
    ],
    "answer": 0,
-   "why": "Reinforced by coagulation."
+   "why": "Reinforced by coagulation.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-primary/21.jpg",
+     "lec": "Primary haemostasis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Platelet adhesion depends on:",
@@ -5068,7 +6220,14 @@ SINA.lectures["hemato1-primary"] = {
     "GPIb and von Willebrand factor"
    ],
    "answer": 3,
-   "why": "VWF bridges to collagen."
+   "why": "VWF bridges to collagen.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-primary/42.jpg",
+     "lec": "Primary haemostasis",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Aggregation depends on:",
@@ -5079,7 +6238,19 @@ SINA.lectures["hemato1-primary"] = {
     "GPIb and VWF"
    ],
    "answer": 1,
-   "why": "Fibrinogen bridges platelets."
+   "why": "Fibrinogen bridges platelets.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-primary/42.jpg",
+     "lec": "Primary haemostasis",
+     "n": 42
+    },
+    {
+     "src": "files/slides/hemato1-primary/53.jpg",
+     "lec": "Primary haemostasis",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "Which granules contain ADP and serotonin?",
@@ -5090,7 +6261,14 @@ SINA.lectures["hemato1-primary"] = {
     "α-granules"
    ],
    "answer": 1,
-   "why": "4-5 per platelet."
+   "why": "4-5 per platelet.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-primary/37.jpg",
+     "lec": "Primary haemostasis",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Von Willebrand factor protects which clotting factor?",
@@ -5101,7 +6279,14 @@ SINA.lectures["hemato1-primary"] = {
     "Factor IX"
    ],
    "answer": 2,
-   "why": "Anti-haemophilic factor A."
+   "why": "Anti-haemophilic factor A.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-primary/42.jpg",
+     "lec": "Primary haemostasis",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "The intact endothelium:",
@@ -5112,7 +6297,19 @@ SINA.lectures["hemato1-primary"] = {
     "Exposes collagen"
    ],
    "answer": 1,
-   "why": "Prostacyclin, heparan sulfate."
+   "why": "Prostacyclin, heparan sulfate.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-primary/40.jpg",
+     "lec": "Primary haemostasis",
+     "n": 40
+    },
+    {
+     "src": "files/slides/hemato1-primary/41.jpg",
+     "lec": "Primary haemostasis",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "After adhesion, platelets change shape from:",
@@ -5123,7 +6320,19 @@ SINA.lectures["hemato1-primary"] = {
     "They do not change"
    ],
    "answer": 0,
-   "why": "Increases surface area."
+   "why": "Increases surface area.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-primary/47.jpg",
+     "lec": "Primary haemostasis",
+     "n": 47
+    },
+    {
+     "src": "files/slides/hemato1-primary/48.jpg",
+     "lec": "Primary haemostasis",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Thromboxane A2 is produced via:",
@@ -5134,7 +6343,14 @@ SINA.lectures["hemato1-primary"] = {
     "Thrombin only"
    ],
    "answer": 1,
-   "why": "From arachidonic acid."
+   "why": "From arachidonic acid.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-primary/50.jpg",
+     "lec": "Primary haemostasis",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "Aspirin inhibits platelets for about:",
@@ -5145,7 +6361,14 @@ SINA.lectures["hemato1-primary"] = {
     "1 day"
    ],
    "answer": 0,
-   "why": "Irreversible COX-1 acetylation."
+   "why": "Irreversible COX-1 acetylation.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-primary/49.jpg",
+     "lec": "Primary haemostasis",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Phosphatidylserine exposure on activated platelets serves to:",
@@ -5156,7 +6379,19 @@ SINA.lectures["hemato1-primary"] = {
     "Surface for clotting"
    ],
    "answer": 3,
-   "why": "Links to secondary haemostasis."
+   "why": "Links to secondary haemostasis.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-primary/23.jpg",
+     "lec": "Primary haemostasis",
+     "n": 23
+    },
+    {
+     "src": "files/slides/hemato1-primary/51.jpg",
+     "lec": "Primary haemostasis",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "Glanzmann thrombasthenia is a deficiency of:",
@@ -5167,7 +6402,19 @@ SINA.lectures["hemato1-primary"] = {
     "GPIb"
    ],
    "answer": 0,
-   "why": "Aggregation defect."
+   "why": "Aggregation defect.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-primary/53.jpg",
+     "lec": "Primary haemostasis",
+     "n": 53
+    },
+    {
+     "src": "files/slides/hemato1-primary/68.jpg",
+     "lec": "Primary haemostasis",
+     "n": 68
+    }
+   ]
   },
   {
    "q": "Bernard-Soulier syndrome is a deficiency of:",
@@ -5178,7 +6425,14 @@ SINA.lectures["hemato1-primary"] = {
     "Fibrinogen"
    ],
    "answer": 1,
-   "why": "Adhesion defect."
+   "why": "Adhesion defect.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-primary/68.jpg",
+     "lec": "Primary haemostasis",
+     "n": 68
+    }
+   ]
   },
   {
    "q": "PF4 released by platelets:",
@@ -5189,7 +6443,14 @@ SINA.lectures["hemato1-primary"] = {
     "Neutralises heparin"
    ],
    "answer": 3,
-   "why": "Also attracts white cells."
+   "why": "Also attracts white cells.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-primary/48.jpg",
+     "lec": "Primary haemostasis",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5550,7 +6811,19 @@ SINA.lectures["hemato1-coagulation"] = {
     "Factor XII to XIIa only"
    ],
    "answer": 0,
-   "why": "Fibrin stabilises the plug."
+   "why": "Fibrin stabilises the plug.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-coagulation/17.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 17
+    },
+    {
+     "src": "files/slides/hemato1-coagulation/26.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which factors are called labile?",
@@ -5561,7 +6834,14 @@ SINA.lectures["hemato1-coagulation"] = {
     "II and VII"
    ],
    "answer": 1,
-   "why": "Lost in stored blood."
+   "why": "Lost in stored blood.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-coagulation/13.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The main initiator of coagulation in vivo is:",
@@ -5572,7 +6852,19 @@ SINA.lectures["hemato1-coagulation"] = {
     "Calcium"
    ],
    "answer": 1,
-   "why": "Extrinsic pathway."
+   "why": "Extrinsic pathway.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-coagulation/12.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 12
+    },
+    {
+     "src": "files/slides/hemato1-coagulation/14.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which are vitamin K-dependent factors?",
@@ -5583,7 +6875,19 @@ SINA.lectures["hemato1-coagulation"] = {
     "V, VIII, XI"
    ],
    "answer": 2,
-   "why": "Plus proteins C and S."
+   "why": "Plus proteins C and S.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-coagulation/15.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 15
+    },
+    {
+     "src": "files/slides/hemato1-coagulation/71.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 71
+    }
+   ]
   },
   {
    "q": "Warfarin works by:",
@@ -5594,7 +6898,14 @@ SINA.lectures["hemato1-coagulation"] = {
     "Blocking vitamin K"
    ],
    "answer": 3,
-   "why": "PIVKA released."
+   "why": "PIVKA released.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-coagulation/15.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The tenase complex consists of:",
@@ -5605,7 +6916,14 @@ SINA.lectures["hemato1-coagulation"] = {
     "Xa + Va"
    ],
    "answer": 0,
-   "why": "Activates factor X."
+   "why": "Activates factor X.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-coagulation/23.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The prothrombinase complex converts:",
@@ -5616,7 +6934,14 @@ SINA.lectures["hemato1-coagulation"] = {
     "Prothrombin to thrombin"
    ],
    "answer": 3,
-   "why": "Xa + Va."
+   "why": "Xa + Va.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-coagulation/26.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which factor cross-links fibrin?",
@@ -5627,7 +6952,19 @@ SINA.lectures["hemato1-coagulation"] = {
     "Factor V"
    ],
    "answer": 1,
-   "why": "Fibrin-stabilising factor."
+   "why": "Fibrin-stabilising factor.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-coagulation/26.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 26
+    },
+    {
+     "src": "files/slides/hemato1-coagulation/33.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Deficiency of factor XII causes:",
@@ -5638,7 +6975,14 @@ SINA.lectures["hemato1-coagulation"] = {
     "Haemophilia A"
    ],
    "answer": 0,
-   "why": "Contact factors are not needed in vivo."
+   "why": "Contact factors are not needed in vivo.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-coagulation/30.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Haemophilia A is a deficiency of:",
@@ -5649,7 +6993,19 @@ SINA.lectures["hemato1-coagulation"] = {
     "Factor XI"
    ],
    "answer": 1,
-   "why": "Haemophilia B: factor IX."
+   "why": "Haemophilia B: factor IX.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-coagulation/51.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 51
+    },
+    {
+     "src": "files/slides/hemato1-coagulation/55.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 55
+    }
+   ]
   },
   {
    "q": "Antithrombin activity is greatly enhanced by:",
@@ -5660,7 +7016,14 @@ SINA.lectures["hemato1-coagulation"] = {
     "Calcium"
    ],
    "answer": 1,
-   "why": "Inactivates thrombin and Xa."
+   "why": "Inactivates thrombin and Xa.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-coagulation/36.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Activated protein C inactivates:",
@@ -5671,7 +7034,19 @@ SINA.lectures["hemato1-coagulation"] = {
     "Fibrinogen"
    ],
    "answer": 0,
-   "why": "With protein S."
+   "why": "With protein S.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-coagulation/06.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 6
+    },
+    {
+     "src": "files/slides/hemato1-coagulation/07.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The citrate tube ratio of blood to anticoagulant should be:",
@@ -5682,7 +7057,14 @@ SINA.lectures["hemato1-coagulation"] = {
     "9:1"
    ],
    "answer": 3,
-   "why": "Underfilling prolongs times."
+   "why": "Underfilling prolongs times.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-coagulation/42.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "The prothrombin time (PT) explores the:",
@@ -5693,7 +7075,19 @@ SINA.lectures["hemato1-coagulation"] = {
     "Fibrinolysis"
    ],
    "answer": 0,
-   "why": "Factors I, II, V, VII, X."
+   "why": "Factors I, II, V, VII, X.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-coagulation/43.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 43
+    },
+    {
+     "src": "files/slides/hemato1-coagulation/54.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "Heparin contamination from a central line typically prolongs the:",
@@ -5704,7 +7098,14 @@ SINA.lectures["hemato1-coagulation"] = {
     "PT only"
    ],
    "answer": 2,
-   "why": "Pre-analytical error."
+   "why": "Pre-analytical error.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-coagulation/42.jpg",
+     "lec": "Coagulation (secondary haemostasis)",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -6064,7 +7465,14 @@ SINA.lectures["hemato1-platelets"] = {
     "50,000/µL"
    ],
    "answer": 1,
-   "why": "Often asymptomatic above 50,000."
+   "why": "Often asymptomatic above 50,000.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-platelets/04.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Life-threatening spontaneous bleeding risk appears below:",
@@ -6075,7 +7483,19 @@ SINA.lectures["hemato1-platelets"] = {
     "150,000/µL"
    ],
    "answer": 2,
-   "why": "GI or intracranial."
+   "why": "GI or intracranial.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-platelets/04.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 4
+    },
+    {
+     "src": "files/slides/hemato1-platelets/05.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which bleeding pattern is typical of platelet disorders?",
@@ -6086,7 +7506,14 @@ SINA.lectures["hemato1-platelets"] = {
     "Delayed bleeding after surgery only"
    ],
    "answer": 1,
-   "why": "Joints suggest factor deficiency."
+   "why": "Joints suggest factor deficiency.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-platelets/13.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which is a mechanism of increased platelet destruction?",
@@ -6097,7 +7524,14 @@ SINA.lectures["hemato1-platelets"] = {
     "B12 deficiency"
    ],
    "answer": 1,
-   "why": "Antibodies destroy platelets."
+   "why": "Antibodies destroy platelets.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-platelets/09.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Hypersplenism causes thrombocytopenia by:",
@@ -6108,7 +7542,14 @@ SINA.lectures["hemato1-platelets"] = {
     "Dilution"
    ],
    "answer": 1,
-   "why": "Platelets trapped in the spleen."
+   "why": "Platelets trapped in the spleen.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-platelets/08.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "DIC causes:",
@@ -6119,7 +7560,14 @@ SINA.lectures["hemato1-platelets"] = {
     "Isolated anaemia without thrombosis"
    ],
    "answer": 1,
-   "why": "Consumption of platelets and factors."
+   "why": "Consumption of platelets and factors.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-platelets/09.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What must be ruled out first in low platelets?",
@@ -6130,7 +7578,19 @@ SINA.lectures["hemato1-platelets"] = {
     "DIC"
    ],
    "answer": 1,
-   "why": "Smear + citrate tube."
+   "why": "Smear + citrate tube.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-platelets/11.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 11
+    },
+    {
+     "src": "files/slides/hemato1-platelets/14.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Pancytopenia with thrombocytopenia suggests:",
@@ -6141,7 +7601,19 @@ SINA.lectures["hemato1-platelets"] = {
     "Iron deficiency"
    ],
    "answer": 1,
-   "why": "Also B12/folate deficiency."
+   "why": "Also B12/folate deficiency.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-platelets/09.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 9
+    },
+    {
+     "src": "files/slides/hemato1-platelets/14.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Schistocytes on the smear suggest:",
@@ -6152,7 +7624,14 @@ SINA.lectures["hemato1-platelets"] = {
     "Viral marrow suppression"
    ],
    "answer": 1,
-   "why": "Fragmented red cells."
+   "why": "Fragmented red cells.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-platelets/15.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "First-line treatment of ITP is:",
@@ -6163,7 +7642,14 @@ SINA.lectures["hemato1-platelets"] = {
     "Iron"
    ],
    "answer": 1,
-   "why": "Transfusion may be ineffective."
+   "why": "Transfusion may be ineffective.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-platelets/17.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The platelet transfusion threshold before neurosurgery is:",
@@ -6174,7 +7660,14 @@ SINA.lectures["hemato1-platelets"] = {
     "< 10,000"
    ],
    "answer": 2,
-   "why": "Also eye surgery."
+   "why": "Also eye surgery.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-platelets/19.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Prophylactic platelet transfusion in a stable patient is given below:",
@@ -6185,7 +7678,14 @@ SINA.lectures["hemato1-platelets"] = {
     "150,000/µL"
    ],
    "answer": 0,
-   "why": "< 20,000 if fever or bleeding."
+   "why": "< 20,000 if fever or bleeding.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-platelets/19.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Most thrombocytosis is:",
@@ -6196,7 +7696,19 @@ SINA.lectures["hemato1-platelets"] = {
     "Artefactual"
    ],
    "answer": 1,
-   "why": "More than 80%."
+   "why": "More than 80%.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-platelets/23.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 23
+    },
+    {
+     "src": "files/slides/hemato1-platelets/28.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Howell-Jolly bodies on the smear point to:",
@@ -6207,7 +7719,14 @@ SINA.lectures["hemato1-platelets"] = {
     "ITP"
    ],
    "answer": 1,
-   "why": "Reactive thrombocytosis."
+   "why": "Reactive thrombocytosis.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-platelets/25.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Reactive thrombocytosis is managed by:",
@@ -6218,7 +7737,14 @@ SINA.lectures["hemato1-platelets"] = {
     "Urgent splenectomy"
    ],
    "answer": 1,
-   "why": "Even if very high."
+   "why": "Even if very high.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-platelets/27.jpg",
+     "lec": "Thrombocytopenia and thrombocytosis",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -6578,7 +8104,14 @@ SINA.lectures["hemato1-bleeding"] = {
     "Rare (under 1%)"
    ],
    "answer": 1,
-   "why": "Often underdiagnosed."
+   "why": "Often underdiagnosed.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-bleeding/03.jpg",
+     "lec": "Approach to the bleeding patient",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The best predictor of a bleeding disorder is:",
@@ -6589,7 +8122,19 @@ SINA.lectures["hemato1-bleeding"] = {
     "Bleeding time"
    ],
    "answer": 1,
-   "why": "Guides the laboratory work-up."
+   "why": "Guides the laboratory work-up.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-bleeding/13.jpg",
+     "lec": "Approach to the bleeding patient",
+     "n": 13
+    },
+    {
+     "src": "files/slides/hemato1-bleeding/17.jpg",
+     "lec": "Approach to the bleeding patient",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Haemarthrosis suggests:",
@@ -6600,7 +8145,14 @@ SINA.lectures["hemato1-bleeding"] = {
     "Normal bleeding"
    ],
    "answer": 1,
-   "why": "Deep tissue bleeding."
+   "why": "Deep tissue bleeding.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-bleeding/04.jpg",
+     "lec": "Approach to the bleeding patient",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Petechiae and gum bleeding suggest:",
@@ -6611,7 +8163,19 @@ SINA.lectures["hemato1-bleeding"] = {
     "Liver disease only"
    ],
    "answer": 1,
-   "why": "Platelets or VWF."
+   "why": "Platelets or VWF.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-bleeding/04.jpg",
+     "lec": "Approach to the bleeding patient",
+     "n": 4
+    },
+    {
+     "src": "files/slides/hemato1-bleeding/19.jpg",
+     "lec": "Approach to the bleeding patient",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Bleeding after circumcision or from the umbilical stump suggests:",
@@ -6622,7 +8186,14 @@ SINA.lectures["hemato1-bleeding"] = {
     "Normal finding"
    ],
    "answer": 1,
-   "why": "Lifelong symptoms."
+   "why": "Lifelong symptoms.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-bleeding/05.jpg",
+     "lec": "Approach to the bleeding patient",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The ISTH-BAT is:",
@@ -6633,7 +8204,14 @@ SINA.lectures["hemato1-bleeding"] = {
     "A coagulation factor"
    ],
    "answer": 1,
-   "why": "Standardises bleeding history."
+   "why": "Standardises bleeding history.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-bleeding/07.jpg",
+     "lec": "Approach to the bleeding patient",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "History and examination together detect a haemostatic disorder with about:",
@@ -6644,7 +8222,14 @@ SINA.lectures["hemato1-bleeding"] = {
     "20% accuracy"
    ],
    "answer": 1,
-   "why": "Before any test."
+   "why": "Before any test.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-bleeding/10.jpg",
+     "lec": "Approach to the bleeding patient",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which is a first-line screening test?",
@@ -6655,7 +8240,14 @@ SINA.lectures["hemato1-bleeding"] = {
     "PAI-1 activity"
    ],
    "answer": 2,
-   "why": "Also CBC, PT, fibrinogen, PFA-100."
+   "why": "Also CBC, PT, fibrinogen, PFA-100.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-bleeding/14.jpg",
+     "lec": "Approach to the bleeding patient",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Tranexamic acid works by:",
@@ -6666,7 +8258,14 @@ SINA.lectures["hemato1-bleeding"] = {
     "Blocking vitamin K recycling"
    ],
    "answer": 1,
-   "why": "Antifibrinolytic."
+   "why": "Antifibrinolytic.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-bleeding/16.jpg",
+     "lec": "Approach to the bleeding patient",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Von Willebrand disease affects about:",
@@ -6677,7 +8276,14 @@ SINA.lectures["hemato1-bleeding"] = {
     "1 in 100,000"
    ],
    "answer": 1,
-   "why": "Most common inherited bleeding disorder."
+   "why": "Most common inherited bleeding disorder.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-bleeding/19.jpg",
+     "lec": "Approach to the bleeding patient",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The most common type of VWD is:",
@@ -6688,7 +8294,14 @@ SINA.lectures["hemato1-bleeding"] = {
     "Type 4"
    ],
    "answer": 0,
-   "why": "Reduced VWF."
+   "why": "Reduced VWF.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-bleeding/19.jpg",
+     "lec": "Approach to the bleeding patient",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The most severe VWD type is:",
@@ -6699,7 +8312,14 @@ SINA.lectures["hemato1-bleeding"] = {
     "Type 2N"
    ],
    "answer": 2,
-   "why": "Absent VWF."
+   "why": "Absent VWF.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-bleeding/19.jpg",
+     "lec": "Approach to the bleeding patient",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which drugs should VWD patients avoid?",
@@ -6710,7 +8330,19 @@ SINA.lectures["hemato1-bleeding"] = {
     "Desmopressin (DDAVP)"
    ],
    "answer": 1,
-   "why": "They worsen bleeding."
+   "why": "They worsen bleeding.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-bleeding/05.jpg",
+     "lec": "Approach to the bleeding patient",
+     "n": 5
+    },
+    {
+     "src": "files/slides/hemato1-bleeding/21.jpg",
+     "lec": "Approach to the bleeding patient",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -7081,7 +8713,19 @@ SINA.lectures["hemato1-transfusion"] = {
     "No ABO antibody"
    ],
    "answer": 1,
-   "why": "Regular antibody against the absent antigen."
+   "why": "Regular antibody against the absent antigen.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-transfusion/09.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 9
+    },
+    {
+     "src": "files/slides/hemato1-transfusion/43.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "ABO natural antibodies are mainly of class:",
@@ -7092,7 +8736,14 @@ SINA.lectures["hemato1-transfusion"] = {
     "IgE"
    ],
    "answer": 1,
-   "why": "They agglutinate; they do not cross the placenta."
+   "why": "They agglutinate; they do not cross the placenta.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-transfusion/20.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Anti-D antibodies are:",
@@ -7103,7 +8754,19 @@ SINA.lectures["hemato1-transfusion"] = {
     "Immune IgA"
    ],
    "answer": 1,
-   "why": "Made after exposure to D-positive cells."
+   "why": "Made after exposure to D-positive cells.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-transfusion/08.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 8
+    },
+    {
+     "src": "files/slides/hemato1-transfusion/29.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "The universal red cell donor is group:",
@@ -7114,7 +8777,19 @@ SINA.lectures["hemato1-transfusion"] = {
     "O"
    ],
    "answer": 3,
-   "why": "O red cells carry neither A nor B."
+   "why": "O red cells carry neither A nor B.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-transfusion/11.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 11
+    },
+    {
+     "src": "files/slides/hemato1-transfusion/65.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 65
+    }
+   ]
   },
   {
    "q": "The universal recipient is group:",
@@ -7125,7 +8800,14 @@ SINA.lectures["hemato1-transfusion"] = {
     "B"
    ],
    "answer": 2,
-   "why": "AB plasma has no anti-A or anti-B."
+   "why": "AB plasma has no anti-A or anti-B.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-transfusion/65.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 65
+    }
+   ]
   },
   {
    "q": "The Beth-Vincent test identifies:",
@@ -7136,7 +8818,14 @@ SINA.lectures["hemato1-transfusion"] = {
     "Irregular antibodies"
    ],
    "answer": 1,
-   "why": "Patient red cells against anti-A and anti-B sera."
+   "why": "Patient red cells against anti-A and anti-B sera.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-transfusion/65.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 65
+    }
+   ]
   },
   {
    "q": "The Simonin test uses:",
@@ -7147,7 +8836,14 @@ SINA.lectures["hemato1-transfusion"] = {
     "Anti-human globulin only"
    ],
    "answer": 1,
-   "why": "It finds the plasma antibodies."
+   "why": "It finds the plasma antibodies.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-transfusion/65.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 65
+    }
+   ]
   },
   {
    "q": "ABO genes are located on chromosome:",
@@ -7158,7 +8854,19 @@ SINA.lectures["hemato1-transfusion"] = {
     "19"
    ],
    "answer": 2,
-   "why": "9q34."
+   "why": "9q34.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-transfusion/06.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 6
+    },
+    {
+     "src": "files/slides/hemato1-transfusion/32.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "The Kell antigen K is:",
@@ -7169,7 +8877,19 @@ SINA.lectures["hemato1-transfusion"] = {
     "A natural IgM antibody in all people"
    ],
    "answer": 1,
-   "why": "K-negative patients get K-negative cells."
+   "why": "K-negative patients get K-negative cells.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-transfusion/30.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 30
+    },
+    {
+     "src": "files/slides/hemato1-transfusion/67.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 67
+    }
+   ]
   },
   {
    "q": "Proportion of Rh D positive people in the lecture:",
@@ -7180,7 +8900,14 @@ SINA.lectures["hemato1-transfusion"] = {
     "99%"
    ],
    "answer": 2,
-   "why": "15% are D negative."
+   "why": "15% are D negative.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-transfusion/22.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Red cell concentrates are stored:",
@@ -7191,7 +8918,19 @@ SINA.lectures["hemato1-transfusion"] = {
     "7 days at -20 °C"
    ],
    "answer": 1,
-   "why": "Platelets 5 days, plasma 1 year."
+   "why": "Platelets 5 days, plasma 1 year.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-transfusion/02.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 2
+    },
+    {
+     "src": "files/slides/hemato1-transfusion/69.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 69
+    }
+   ]
   },
   {
    "q": "Platelet concentrates are stored:",
@@ -7202,7 +8941,14 @@ SINA.lectures["hemato1-transfusion"] = {
     "At 37 °C"
    ],
    "answer": 1,
-   "why": "Cold damages platelets."
+   "why": "Cold damages platelets.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-transfusion/69.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 69
+    }
+   ]
   },
   {
    "q": "Irradiation of blood components prevents:",
@@ -7213,7 +8959,14 @@ SINA.lectures["hemato1-transfusion"] = {
     "Haemolysis"
    ],
    "answer": 1,
-   "why": "25-45 Gy inactivates donor lymphocytes."
+   "why": "25-45 Gy inactivates donor lymphocytes.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-transfusion/63.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 63
+    }
+   ]
   },
   {
    "q": "Washed red cells are indicated for:",
@@ -7224,7 +8977,14 @@ SINA.lectures["hemato1-transfusion"] = {
     "Iron deficiency before surgery"
    ],
    "answer": 1,
-   "why": "Removes plasma proteins."
+   "why": "Removes plasma proteins.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-transfusion/65.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 65
+    }
+   ]
   },
   {
    "q": "A Rh-negative recipient should receive red cells that are:",
@@ -7235,7 +8995,14 @@ SINA.lectures["hemato1-transfusion"] = {
     "Group O only"
    ],
    "answer": 1,
-   "why": "Avoid immunisation to D."
+   "why": "Avoid immunisation to D.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-transfusion/43.jpg",
+     "lec": "Blood groups and transfusion",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -7612,7 +9379,14 @@ SINA.lectures["hemato1-splenomegaly"] = {
     "Palpable below the umbilicus"
    ],
    "answer": 1,
-   "why": "A palpable spleen is abnormal."
+   "why": "A palpable spleen is abnormal.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-splenomegaly/06.jpg",
+     "lec": "Splenomegaly",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Normal spleen weight is below about:",
@@ -7623,7 +9397,14 @@ SINA.lectures["hemato1-splenomegaly"] = {
     "1 kg"
    ],
    "answer": 1,
-   "why": "Around 12 × 7 cm."
+   "why": "Around 12 × 7 cm.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-splenomegaly/07.jpg",
+     "lec": "Splenomegaly",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The spleen lies along the left ribs:",
@@ -7634,7 +9415,14 @@ SINA.lectures["hemato1-splenomegaly"] = {
     "7th-9th"
    ],
    "answer": 1,
-   "why": "Behind the stomach."
+   "why": "Behind the stomach.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-splenomegaly/07.jpg",
+     "lec": "Splenomegaly",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Two examination signs that identify the spleen:",
@@ -7645,7 +9433,14 @@ SINA.lectures["hemato1-splenomegaly"] = {
     "Bimanual contact and resonance"
    ],
    "answer": 1,
-   "why": "Kidneys ballot; the spleen has notches."
+   "why": "Kidneys ballot; the spleen has notches.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-splenomegaly/18.jpg",
+     "lec": "Splenomegaly",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which proportion of platelets is pooled in the spleen?",
@@ -7656,7 +9451,14 @@ SINA.lectures["hemato1-splenomegaly"] = {
     "80%"
    ],
    "answer": 2,
-   "why": "Hence thrombocytopenia with a big spleen."
+   "why": "Hence thrombocytopenia with a big spleen.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-splenomegaly/10.jpg",
+     "lec": "Splenomegaly",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Hypersplenism anaemia is typically:",
@@ -7667,7 +9469,14 @@ SINA.lectures["hemato1-splenomegaly"] = {
     "Sideroblastic, iron-loaded"
    ],
    "answer": 1,
-   "why": "Destruction and pooling."
+   "why": "Destruction and pooling.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-splenomegaly/11.jpg",
+     "lec": "Splenomegaly",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "In hypersplenism the bone marrow is:",
@@ -7678,7 +9487,14 @@ SINA.lectures["hemato1-splenomegaly"] = {
     "Infiltrated by blasts"
    ],
    "answer": 1,
-   "why": "It compensates for peripheral loss."
+   "why": "It compensates for peripheral loss.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-splenomegaly/13.jpg",
+     "lec": "Splenomegaly",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which is NOT a differential diagnosis of a left upper quadrant mass?",
@@ -7689,7 +9505,19 @@ SINA.lectures["hemato1-splenomegaly"] = {
     "Tumour of the left colic angle"
    ],
    "answer": 2,
-   "why": "The gallbladder is on the right."
+   "why": "The gallbladder is on the right.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-splenomegaly/20.jpg",
+     "lec": "Splenomegaly",
+     "n": 20
+    },
+    {
+     "src": "files/slides/hemato1-splenomegaly/21.jpg",
+     "lec": "Splenomegaly",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "CBC with film plus abdominal ultrasound explain about:",
@@ -7700,7 +9528,14 @@ SINA.lectures["hemato1-splenomegaly"] = {
     "100%"
    ],
    "answer": 2,
-   "why": "First-line work-up."
+   "why": "First-line work-up.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-splenomegaly/25.jpg",
+     "lec": "Splenomegaly",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Mediterranean origin and consanguinity suggest:",
@@ -7711,7 +9546,14 @@ SINA.lectures["hemato1-splenomegaly"] = {
     "Cirrhosis"
    ],
    "answer": 1,
-   "why": "Haemoglobinopathy."
+   "why": "Haemoglobinopathy.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-splenomegaly/24.jpg",
+     "lec": "Splenomegaly",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "A widened portal vein with ascites on ultrasound suggests:",
@@ -7722,7 +9564,19 @@ SINA.lectures["hemato1-splenomegaly"] = {
     "Endocarditis"
    ],
    "answer": 1,
-   "why": "Congestive splenomegaly."
+   "why": "Congestive splenomegaly.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-splenomegaly/22.jpg",
+     "lec": "Splenomegaly",
+     "n": 22
+    },
+    {
+     "src": "files/slides/hemato1-splenomegaly/32.jpg",
+     "lec": "Splenomegaly",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Reactive lymphocytes on the film point to:",
@@ -7733,7 +9587,14 @@ SINA.lectures["hemato1-splenomegaly"] = {
     "Budd-Chiari"
    ],
    "answer": 1,
-   "why": "EBV."
+   "why": "EBV.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-splenomegaly/26.jpg",
+     "lec": "Splenomegaly",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Budd-Chiari syndrome causes splenomegaly by:",
@@ -7744,7 +9605,14 @@ SINA.lectures["hemato1-splenomegaly"] = {
     "Extramedullary haematopoiesis"
    ],
    "answer": 1,
-   "why": "Hepatic vein obstruction."
+   "why": "Hepatic vein obstruction.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-splenomegaly/32.jpg",
+     "lec": "Splenomegaly",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Gaucher disease is a cause of:",
@@ -7755,7 +9623,14 @@ SINA.lectures["hemato1-splenomegaly"] = {
     "Immune splenomegaly from autoantibodies"
    ],
    "answer": 1,
-   "why": "Storage disease."
+   "why": "Storage disease.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-splenomegaly/35.jpg",
+     "lec": "Splenomegaly",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Felty's syndrome associates splenomegaly with:",
@@ -7766,7 +9641,14 @@ SINA.lectures["hemato1-splenomegaly"] = {
     "Alcoholic cirrhosis"
    ],
    "answer": 1,
-   "why": "Immune dysregulation."
+   "why": "Immune dysregulation.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-splenomegaly/36.jpg",
+     "lec": "Splenomegaly",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -8154,7 +10036,19 @@ SINA.lectures["hemato1-lymphadenopathy"] = {
     "5 cm"
    ],
    "answer": 1,
-   "why": "Inguinal nodes up to 2 cm can be normal."
+   "why": "Inguinal nodes up to 2 cm can be normal.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/03.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 3
+    },
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/08.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Generalized lymphadenopathy means:",
@@ -8165,7 +10059,14 @@ SINA.lectures["hemato1-lymphadenopathy"] = {
     "Any node over 2 cm"
    ],
    "answer": 2,
-   "why": "Suggests a systemic cause."
+   "why": "Suggests a systemic cause.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/02.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "In primary care, the proportion of malignant nodes is:",
@@ -8176,7 +10077,14 @@ SINA.lectures["hemato1-lymphadenopathy"] = {
     "50%"
    ],
    "answer": 0,
-   "why": "Most are benign."
+   "why": "Most are benign.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/02.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Axillary nodes drain the:",
@@ -8187,7 +10095,14 @@ SINA.lectures["hemato1-lymphadenopathy"] = {
     "Stomach"
    ],
    "answer": 1,
-   "why": "Examine the breast."
+   "why": "Examine the breast.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/10.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "A left supraclavicular node points first to a cancer of the:",
@@ -8198,7 +10113,14 @@ SINA.lectures["hemato1-lymphadenopathy"] = {
     "Scalp"
    ],
    "answer": 1,
-   "why": "Right side: lung, mediastinum."
+   "why": "Right side: lung, mediastinum.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/34.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "A fistulising node suggests:",
@@ -8209,7 +10131,14 @@ SINA.lectures["hemato1-lymphadenopathy"] = {
     "Melanoma"
    ],
    "answer": 1,
-   "why": "Caseation drains to the skin."
+   "why": "Caseation drains to the skin.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/21.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Mediastinal nodes can cause:",
@@ -8220,7 +10149,14 @@ SINA.lectures["hemato1-lymphadenopathy"] = {
     "Horner syndrome only"
    ],
    "answer": 1,
-   "why": "Face and neck swelling, distended veins."
+   "why": "Face and neck swelling, distended veins.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/15.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which is a biopsy criterion?",
@@ -8231,7 +10167,19 @@ SINA.lectures["hemato1-lymphadenopathy"] = {
     "Node that shrinks in 1 week"
    ],
    "answer": 1,
-   "why": "Also hard, fixed, > 4-6 weeks."
+   "why": "Also hard, fixed, > 4-6 weeks.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/30.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 30
+    },
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/31.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "A neck swelling that moves up on swallowing is likely:",
@@ -8242,7 +10190,19 @@ SINA.lectures["hemato1-lymphadenopathy"] = {
     "A carotid aneurysm"
    ],
    "answer": 1,
-   "why": "Thyroid follows the larynx."
+   "why": "Thyroid follows the larynx.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/24.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 24
+    },
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/26.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "An inguinal swelling to differentiate from a node:",
@@ -8253,7 +10213,14 @@ SINA.lectures["hemato1-lymphadenopathy"] = {
     "Folliculitis"
    ],
    "answer": 1,
-   "why": "Cough impulse, reducibility."
+   "why": "Cough impulse, reducibility.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/26.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Drugs that can cause generalized lymphadenopathy:",
@@ -8264,7 +10231,14 @@ SINA.lectures["hemato1-lymphadenopathy"] = {
     "Iron, folate"
    ],
    "answer": 1,
-   "why": "Anticonvulsant pseudolymphoma."
+   "why": "Anticonvulsant pseudolymphoma.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/35.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Reactive lymphocytes on the CBC with nodes suggest:",
@@ -8275,7 +10249,14 @@ SINA.lectures["hemato1-lymphadenopathy"] = {
     "Tuberculosis"
    ],
    "answer": 1,
-   "why": "EBV."
+   "why": "EBV.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/28.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "In children, lymphadenopathy is mostly:",
@@ -8286,7 +10267,14 @@ SINA.lectures["hemato1-lymphadenopathy"] = {
     "Drug-induced"
    ],
    "answer": 1,
-   "why": "In adults, widen the search."
+   "why": "In adults, widen the search.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/20.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Metastatic colonisation of a node is by:",
@@ -8297,7 +10285,14 @@ SINA.lectures["hemato1-lymphadenopathy"] = {
     "Reactive B cells"
    ],
    "answer": 1,
-   "why": "Loco-regional cancer."
+   "why": "Loco-regional cancer.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/11.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Whatever the site of an unexplained node, always examine the skin for:",
@@ -8308,7 +10303,19 @@ SINA.lectures["hemato1-lymphadenopathy"] = {
     "Eczema"
    ],
    "answer": 1,
-   "why": "Melanoma spreads to regional nodes."
+   "why": "Melanoma spreads to regional nodes.",
+   "slides": [
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/10.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 10
+    },
+    {
+     "src": "files/slides/hemato1-lymphadenopathy/11.jpg",
+     "lec": "Lymphadenopathy",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

@@ -238,7 +238,14 @@ SINA.lectures["cellbio1-methods"] = {
     "UV lamp"
    ],
    "answer": 3,
-   "why": "The UV lamp is used in fluorescence microscopy."
+   "why": "The UV lamp is used in fluorescence microscopy.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-methods/15.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The condenser of a light microscope:",
@@ -249,7 +256,14 @@ SINA.lectures["cellbio1-methods"] = {
     "Records the image"
    ],
    "answer": 2,
-   "why": "The objective magnifies."
+   "why": "The objective magnifies.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-methods/07.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which microscope detects fluorescent labels using a UV lamp?",
@@ -260,7 +274,14 @@ SINA.lectures["cellbio1-methods"] = {
     "TEM"
    ],
    "answer": 1,
-   "why": "Used to type cancers."
+   "why": "Used to type cancers.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-methods/15.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Living, unstained cells in culture are observed with the:",
@@ -271,7 +292,14 @@ SINA.lectures["cellbio1-methods"] = {
     "SEM"
    ],
    "answer": 2,
-   "why": "Lamp above, objective below."
+   "why": "Lamp above, objective below.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-methods/22.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Why does a TEM need a vacuum pump?",
@@ -282,7 +310,19 @@ SINA.lectures["cellbio1-methods"] = {
     "To increase light"
    ],
    "answer": 0,
-   "why": "Electrons collide with air molecules."
+   "why": "Electrons collide with air molecules.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-methods/25.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 25
+    },
+    {
+     "src": "files/slides/cellbio1-methods/31.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Organelle ultrastructure requires:",
@@ -293,7 +333,14 @@ SINA.lectures["cellbio1-methods"] = {
     "Light microscope"
    ],
    "answer": 1,
-   "why": "About 100,000× vs 1,000×."
+   "why": "About 100,000× vs 1,000×.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-methods/24.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "3D surface images of red blood cells are obtained with:",
@@ -304,7 +351,14 @@ SINA.lectures["cellbio1-methods"] = {
     "Fluorescence microscope"
    ],
    "answer": 2,
-   "why": "Scanning electron microscope."
+   "why": "Scanning electron microscope.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-methods/28.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "A blood smear is stained with:",
@@ -315,7 +369,14 @@ SINA.lectures["cellbio1-methods"] = {
     "MGG"
    ],
    "answer": 3,
-   "why": "After air-drying."
+   "why": "After air-drying.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-methods/36.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "The correct order of histological processing is:",
@@ -326,7 +387,19 @@ SINA.lectures["cellbio1-methods"] = {
     "Inclusion, sampling, staining"
    ],
    "answer": 1,
-   "why": "Then microscopy."
+   "why": "Then microscopy.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-methods/36.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 36
+    },
+    {
+     "src": "files/slides/cellbio1-methods/55.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 55
+    }
+   ]
   },
   {
    "q": "Which fixative is used in medicine?",
@@ -337,7 +410,14 @@ SINA.lectures["cellbio1-methods"] = {
     "Trypsin"
    ],
    "answer": 0,
-   "why": "Preserves tissue in a life-like state."
+   "why": "Preserves tissue in a life-like state.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-methods/39.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "The purpose of paraffin inclusion is to:",
@@ -348,7 +428,14 @@ SINA.lectures["cellbio1-methods"] = {
     "Stain nuclei"
    ],
    "answer": 0,
-   "why": "Replaces intracellular water."
+   "why": "Replaces intracellular water.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-methods/40.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "In HE staining, nuclei appear:",
@@ -359,7 +446,14 @@ SINA.lectures["cellbio1-methods"] = {
     "Blue"
    ],
    "answer": 3,
-   "why": "Haematoxylin is basic; eosin stains cytoplasm pink."
+   "why": "Haematoxylin is basic; eosin stains cytoplasm pink.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-methods/43.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "HES staining shows fibres in:",
@@ -370,7 +464,14 @@ SINA.lectures["cellbio1-methods"] = {
     "Yellow"
    ],
    "answer": 3,
-   "why": "Used to assess fibrosis."
+   "why": "Used to assess fibrosis.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-methods/44.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Cell culture is performed at:",
@@ -381,7 +482,14 @@ SINA.lectures["cellbio1-methods"] = {
     "34 °C, neutral pH"
    ],
    "answer": 0,
-   "why": "In a CO₂ incubator."
+   "why": "In a CO₂ incubator.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-methods/53.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "Which enzyme is used to dissociate tissue for culture?",
@@ -392,7 +500,14 @@ SINA.lectures["cellbio1-methods"] = {
     "DNase"
    ],
    "answer": 1,
-   "why": "Or collagenase."
+   "why": "Or collagenase.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-methods/55.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 55
+    }
+   ]
   },
   {
    "q": "Which is a medical application of cell culture?",
@@ -403,7 +518,14 @@ SINA.lectures["cellbio1-methods"] = {
     "Karyotype"
    ],
    "answer": 3,
-   "why": "Also IVF and drug testing."
+   "why": "Also IVF and drug testing.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-methods/63.jpg",
+     "lec": "Cell study methods: microscopy,",
+     "n": 63
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -838,7 +960,14 @@ SINA.lectures["cellbio1-membrane"] = {
     "Rigid and symmetric"
    ],
    "answer": 1,
-   "why": "Molecules move; sugars only outside."
+   "why": "Molecules move; sugars only outside.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-membrane/07.jpg",
+     "lec": "The plasma membrane: structure,",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The red blood cell membrane is about:",
@@ -849,7 +978,14 @@ SINA.lectures["cellbio1-membrane"] = {
     "100% protein"
    ],
    "answer": 1,
-   "why": "Composition by mass."
+   "why": "Composition by mass.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-membrane/03.jpg",
+     "lec": "The plasma membrane: structure,",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which small molecule is NOT part of phospholipid heads?",
@@ -860,7 +996,14 @@ SINA.lectures["cellbio1-membrane"] = {
     "Serine"
    ],
    "answer": 2,
-   "why": "Also ethanolamine."
+   "why": "Also ethanolamine.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-membrane/04.jpg",
+     "lec": "The plasma membrane: structure,",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The role of cholesterol in the membrane is to:",
@@ -871,7 +1014,14 @@ SINA.lectures["cellbio1-membrane"] = {
     "Carry glucose"
    ],
    "answer": 2,
-   "why": "Inserted between phospholipids."
+   "why": "Inserted between phospholipids.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-membrane/05.jpg",
+     "lec": "The plasma membrane: structure,",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Membrane carbohydrates are found:",
@@ -882,7 +1032,14 @@ SINA.lectures["cellbio1-membrane"] = {
     "Only on the extracellular face"
    ],
    "answer": 3,
-   "why": "Forming the glycocalyx."
+   "why": "Forming the glycocalyx.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-membrane/07.jpg",
+     "lec": "The plasma membrane: structure,",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which crosses by simple diffusion?",
@@ -893,7 +1050,19 @@ SINA.lectures["cellbio1-membrane"] = {
     "Na⁺ via the pump"
    ],
    "answer": 0,
-   "why": "Gases diffuse freely."
+   "why": "Gases diffuse freely.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-membrane/13.jpg",
+     "lec": "The plasma membrane: structure,",
+     "n": 13
+    },
+    {
+     "src": "files/slides/cellbio1-membrane/14.jpg",
+     "lec": "The plasma membrane: structure,",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Facilitated diffusion:",
@@ -904,7 +1073,14 @@ SINA.lectures["cellbio1-membrane"] = {
     "Goes down the gradient using a protein"
    ],
    "answer": 3,
-   "why": "Channels, aquaporins, carriers."
+   "why": "Channels, aquaporins, carriers.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-membrane/17.jpg",
+     "lec": "The plasma membrane: structure,",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Water crosses the membrane mainly through:",
@@ -915,7 +1091,14 @@ SINA.lectures["cellbio1-membrane"] = {
     "Na⁺/K⁺-ATPase"
    ],
    "answer": 1,
-   "why": "Also by osmosis."
+   "why": "Also by osmosis.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-membrane/16.jpg",
+     "lec": "The plasma membrane: structure,",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The Na⁺/K⁺-ATPase moves:",
@@ -926,7 +1109,14 @@ SINA.lectures["cellbio1-membrane"] = {
     "Na⁺ in and K⁺ out"
    ],
    "answer": 0,
-   "why": "3 Na⁺ out, 2 K⁺ in per ATP."
+   "why": "3 Na⁺ out, 2 K⁺ in per ATP.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-membrane/19.jpg",
+     "lec": "The plasma membrane: structure,",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "MDR (ABC) pumps explain:",
@@ -937,7 +1127,14 @@ SINA.lectures["cellbio1-membrane"] = {
     "Water transport"
    ],
    "answer": 1,
-   "why": "They expel drugs using ATP."
+   "why": "They expel drugs using ATP.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-membrane/22.jpg",
+     "lec": "The plasma membrane: structure,",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Endocytosis vesicles form on:",
@@ -948,7 +1145,14 @@ SINA.lectures["cellbio1-membrane"] = {
     "Aquaporins"
    ],
    "answer": 2,
-   "why": "A triskelion peripheral protein."
+   "why": "A triskelion peripheral protein.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-membrane/24.jpg",
+     "lec": "The plasma membrane: structure,",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Phagocytosis concerns:",
@@ -959,7 +1163,14 @@ SINA.lectures["cellbio1-membrane"] = {
     "Liquids"
    ],
    "answer": 0,
-   "why": "Macrophages, Kupffer cells, osteoclasts."
+   "why": "Macrophages, Kupffer cells, osteoclasts.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-membrane/24.jpg",
+     "lec": "The plasma membrane: structure,",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Exocytosis requires membrane fusion via:",
@@ -970,7 +1181,14 @@ SINA.lectures["cellbio1-membrane"] = {
     "SNARE proteins"
    ],
    "answer": 3,
-   "why": "Saliva, hormones, zymogens."
+   "why": "Saliva, hormones, zymogens.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-membrane/25.jpg",
+     "lec": "The plasma membrane: structure,",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "In the PKA pathway, the second messenger is:",
@@ -981,7 +1199,14 @@ SINA.lectures["cellbio1-membrane"] = {
     "Ca²⁺"
    ],
    "answer": 0,
-   "why": "Made by adenylyl cyclase."
+   "why": "Made by adenylyl cyclase.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-membrane/37.jpg",
+     "lec": "The plasma membrane: structure,",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "IP3 acts by:",
@@ -992,7 +1217,14 @@ SINA.lectures["cellbio1-membrane"] = {
     "Releasing Ca²⁺ from the smooth ER"
    ],
    "answer": 3,
-   "why": "Then DAG + Ca²⁺ activate PKC."
+   "why": "Then DAG + Ca²⁺ activate PKC.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-membrane/39.jpg",
+     "lec": "The plasma membrane: structure,",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Growth factors typically signal through:",
@@ -1003,7 +1235,14 @@ SINA.lectures["cellbio1-membrane"] = {
     "RTK → MAP kinase"
    ],
    "answer": 3,
-   "why": "Leading to mitosis."
+   "why": "Leading to mitosis.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-membrane/45.jpg",
+     "lec": "The plasma membrane: structure,",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1434,7 +1673,14 @@ SINA.lectures["cellbio1-cytoskeleton"] = {
     "70% water"
    ],
    "answer": 3,
-   "why": "Plus small and large molecules."
+   "why": "Plus small and large molecules.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/03.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which filament is thinnest?",
@@ -1445,7 +1691,14 @@ SINA.lectures["cellbio1-cytoskeleton"] = {
     "Microtubules"
    ],
    "answer": 2,
-   "why": "5-8 nm."
+   "why": "5-8 nm.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/04.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Microtubules have a diameter of about:",
@@ -1456,7 +1709,14 @@ SINA.lectures["cellbio1-cytoskeleton"] = {
     "5-8 nm"
    ],
    "answer": 1,
-   "why": "Hollow tubes."
+   "why": "Hollow tubes.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/04.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "G-actin carries which nucleotide?",
@@ -1467,7 +1727,19 @@ SINA.lectures["cellbio1-cytoskeleton"] = {
     "GTP"
    ],
    "answer": 2,
-   "why": "Tubulin carries GTP."
+   "why": "Tubulin carries GTP.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/25.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 25
+    },
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/28.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Actin nucleation into two chains involves:",
@@ -1478,7 +1750,19 @@ SINA.lectures["cellbio1-cytoskeleton"] = {
     "γ-TuRC"
    ],
    "answer": 0,
-   "why": "γ-TuRC nucleates microtubules."
+   "why": "γ-TuRC nucleates microtubules.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/08.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 8
+    },
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/26.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "The contractile ring of cytokinesis is made of:",
@@ -1489,7 +1773,19 @@ SINA.lectures["cellbio1-cytoskeleton"] = {
     "Keratin"
    ],
    "answer": 1,
-   "why": "With myosin II."
+   "why": "With myosin II.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/14.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 14
+    },
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/17.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which small G protein regulates vesicle traffic?",
@@ -1500,7 +1796,14 @@ SINA.lectures["cellbio1-cytoskeleton"] = {
     "Ran"
    ],
    "answer": 2,
-   "why": "Ran: nuclear transport."
+   "why": "Ran: nuclear transport.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/22.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "How many protofilaments form a microtubule?",
@@ -1511,7 +1814,19 @@ SINA.lectures["cellbio1-cytoskeleton"] = {
     "13"
    ],
    "answer": 3,
-   "why": "On the γ-TuRC."
+   "why": "On the γ-TuRC.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/25.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 25
+    },
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/26.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which proteins carry cargo along microtubules?",
@@ -1522,7 +1837,14 @@ SINA.lectures["cellbio1-cytoskeleton"] = {
     "Myosin II and actin"
    ],
    "answer": 1,
-   "why": "Motor proteins using ATP."
+   "why": "Motor proteins using ATP.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/30.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Colchicine acts by:",
@@ -1533,7 +1855,19 @@ SINA.lectures["cellbio1-cytoskeleton"] = {
     "Cutting actin"
    ],
    "answer": 0,
-   "why": "An antimitotic."
+   "why": "An antimitotic.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/25.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 25
+    },
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/37.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Taxol blocks cell division by:",
@@ -1544,7 +1878,14 @@ SINA.lectures["cellbio1-cytoskeleton"] = {
     "Destroying actin"
    ],
    "answer": 0,
-   "why": "Used in breast cancer."
+   "why": "Used in breast cancer.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/37.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Intermediate filaments are:",
@@ -1555,7 +1896,14 @@ SINA.lectures["cellbio1-cytoskeleton"] = {
     "Stable, not cycling"
    ],
    "answer": 3,
-   "why": "The true skeleton."
+   "why": "The true skeleton.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/39.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "The nuclear lamina is made of:",
@@ -1566,7 +1914,14 @@ SINA.lectures["cellbio1-cytoskeleton"] = {
     "Lamins"
    ],
    "answer": 3,
-   "why": "Lamins A, B, C."
+   "why": "Lamins A, B, C.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/39.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "A tumour positive for cytokeratin is most likely a:",
@@ -1588,7 +1943,14 @@ SINA.lectures["cellbio1-cytoskeleton"] = {
     "Epithelium"
    ],
    "answer": 1,
-   "why": "Gliomas."
+   "why": "Gliomas.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/40.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Defective flagellar microtubules in sperm cause:",
@@ -1599,7 +1961,14 @@ SINA.lectures["cellbio1-cytoskeleton"] = {
     "Male infertility"
    ],
    "answer": 3,
-   "why": "Flagella cannot beat."
+   "why": "Flagella cannot beat.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cytoskeleton/34.jpg",
+     "lec": "The cytosol and the cytoskeleton",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2073,7 +2442,14 @@ SINA.lectures["cellbio1-cycle-nucleus"] = {
     "G1"
    ],
    "answer": 0,
-   "why": "Interphase has G1, S, G2."
+   "why": "Interphase has G1, S, G2.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cycle-nucleus/03.jpg",
+     "lec": "The cell cycle and the nucleus",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Neurons that no longer divide are in:",
@@ -2084,7 +2460,14 @@ SINA.lectures["cellbio1-cycle-nucleus"] = {
     "S"
    ],
    "answer": 2,
-   "why": "Also lens cells."
+   "why": "Also lens cells.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cycle-nucleus/03.jpg",
+     "lec": "The cell cycle and the nucleus",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The G1/S checkpoint is also called the:",
@@ -2095,7 +2478,14 @@ SINA.lectures["cellbio1-cycle-nucleus"] = {
     "DNA damage point only"
    ],
    "answer": 1,
-   "why": "Checks environment and cell size."
+   "why": "Checks environment and cell size.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cycle-nucleus/05.jpg",
+     "lec": "The cell cycle and the nucleus",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The G2/M checkpoint verifies that:",
@@ -2106,7 +2496,14 @@ SINA.lectures["cellbio1-cycle-nucleus"] = {
     "DNA replication is complete and correct"
    ],
    "answer": 3,
-   "why": "Quantity and quality of DNA."
+   "why": "Quantity and quality of DNA.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cycle-nucleus/05.jpg",
+     "lec": "The cell cycle and the nucleus",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The metaphase checkpoint checks:",
@@ -2117,7 +2514,14 @@ SINA.lectures["cellbio1-cycle-nucleus"] = {
     "Cell size"
    ],
    "answer": 1,
-   "why": "Before anaphase."
+   "why": "Before anaphase.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cycle-nucleus/05.jpg",
+     "lec": "The cell cycle and the nucleus",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "p53 and pRb are:",
@@ -2128,7 +2532,14 @@ SINA.lectures["cellbio1-cycle-nucleus"] = {
     "Tumour suppressors"
    ],
    "answer": 3,
-   "why": "They guard checkpoints 1 and 2."
+   "why": "They guard checkpoints 1 and 2.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cycle-nucleus/06.jpg",
+     "lec": "The cell cycle and the nucleus",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which is a CDK inhibitor?",
@@ -2139,7 +2550,14 @@ SINA.lectures["cellbio1-cycle-nucleus"] = {
     "Polo kinase"
    ],
    "answer": 1,
-   "why": "Also p16, p27, Wee1."
+   "why": "Also p16, p27, Wee1.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cycle-nucleus/10.jpg",
+     "lec": "The cell cycle and the nucleus",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The perinuclear space is about:",
@@ -2150,7 +2568,19 @@ SINA.lectures["cellbio1-cycle-nucleus"] = {
     "3 µm"
    ],
    "answer": 0,
-   "why": "Between the two nuclear membranes."
+   "why": "Between the two nuclear membranes.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cycle-nucleus/14.jpg",
+     "lec": "The cell cycle and the nucleus",
+     "n": 14
+    },
+    {
+     "src": "files/slides/cellbio1-cycle-nucleus/24.jpg",
+     "lec": "The cell cycle and the nucleus",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The outer nuclear membrane is continuous with:",
@@ -2161,7 +2591,14 @@ SINA.lectures["cellbio1-cycle-nucleus"] = {
     "Rough endoplasmic reticulum"
    ],
    "answer": 3,
-   "why": "It carries ribosomes."
+   "why": "It carries ribosomes.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cycle-nucleus/24.jpg",
+     "lec": "The cell cycle and the nucleus",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Progeria is caused by a mutation in:",
@@ -2172,7 +2609,14 @@ SINA.lectures["cellbio1-cycle-nucleus"] = {
     "Tubulin"
    ],
    "answer": 1,
-   "why": "Nuclear lamina defect."
+   "why": "Nuclear lamina defect.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cycle-nucleus/25.jpg",
+     "lec": "The cell cycle and the nucleus",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "rDNA loops of the nucleolus come from chromosomes:",
@@ -2183,7 +2627,14 @@ SINA.lectures["cellbio1-cycle-nucleus"] = {
     "17 and 18"
    ],
    "answer": 0,
-   "why": "The acrocentric chromosomes."
+   "why": "The acrocentric chromosomes.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cycle-nucleus/14.jpg",
+     "lec": "The cell cycle and the nucleus",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "How many Barr bodies does a 47,XXX woman have?",
@@ -2194,7 +2645,14 @@ SINA.lectures["cellbio1-cycle-nucleus"] = {
     "0"
    ],
    "answer": 2,
-   "why": "One fewer than the number of X chromosomes."
+   "why": "One fewer than the number of X chromosomes.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cycle-nucleus/14.jpg",
+     "lec": "The cell cycle and the nucleus",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Cajal bodies contain:",
@@ -2205,7 +2663,14 @@ SINA.lectures["cellbio1-cycle-nucleus"] = {
     "Ribosomes"
    ],
    "answer": 2,
-   "why": "Repairing telomeres."
+   "why": "Repairing telomeres.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cycle-nucleus/14.jpg",
+     "lec": "The cell cycle and the nucleus",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Nuclear import requires:",
@@ -2216,7 +2681,14 @@ SINA.lectures["cellbio1-cycle-nucleus"] = {
     "NLS and importins"
    ],
    "answer": 3,
-   "why": "RanGTP dissociates the complex inside."
+   "why": "RanGTP dissociates the complex inside.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cycle-nucleus/32.jpg",
+     "lec": "The cell cycle and the nucleus",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Nuclear export uses:",
@@ -2227,7 +2699,14 @@ SINA.lectures["cellbio1-cycle-nucleus"] = {
     "Clathrin"
    ],
    "answer": 1,
-   "why": "RanGAP releases the cargo in the cytoplasm."
+   "why": "RanGAP releases the cargo in the cytoplasm.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cycle-nucleus/35.jpg",
+     "lec": "The cell cycle and the nucleus",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Euchromatin is:",
@@ -2238,7 +2717,14 @@ SINA.lectures["cellbio1-cycle-nucleus"] = {
     "Decondensed and transcribed"
    ],
    "answer": 3,
-   "why": "Heterochromatin is condensed."
+   "why": "Heterochromatin is condensed.",
+   "slides": [
+    {
+     "src": "files/slides/cellbio1-cycle-nucleus/14.jpg",
+     "lec": "The cell cycle and the nucleus",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

@@ -233,7 +233,19 @@ SINA.lectures["pharma-dynamics"] = {
     "What the body does to the drug"
    ],
    "answer": 0,
-   "why": "Pharmacokinetics is the reverse."
+   "why": "Pharmacokinetics is the reverse.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/05.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 5
+    },
+    {
+     "src": "files/slides/pharma-dynamics/07.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which bond type is usually irreversible?",
@@ -244,7 +256,14 @@ SINA.lectures["pharma-dynamics"] = {
     "Van der Waals"
    ],
    "answer": 0,
-   "why": "Most drug binding is reversible."
+   "why": "Most drug binding is reversible.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/13.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Drugs larger than about which molecular weight do not diffuse readily?",
@@ -255,7 +274,14 @@ SINA.lectures["pharma-dynamics"] = {
     "100"
    ],
    "answer": 1,
-   "why": "Most drugs are 100 to 1,000 Da."
+   "why": "Most drugs are 100 to 1,000 Da.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/10.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which enantiomer of carvedilol is the potent β-blocker?",
@@ -266,7 +292,14 @@ SINA.lectures["pharma-dynamics"] = {
     "Both equally"
    ],
    "answer": 1,
-   "why": "The (R) isomer is about 100-fold weaker at β."
+   "why": "The (R) isomer is about 100-fold weaker at β.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/11.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "A lower Kd means:",
@@ -277,7 +310,14 @@ SINA.lectures["pharma-dynamics"] = {
     "Lower potency"
    ],
    "answer": 2,
-   "why": "Kd is the concentration occupying 50% of receptors."
+   "why": "Kd is the concentration occupying 50% of receptors.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/30.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Potency refers to:",
@@ -288,7 +328,14 @@ SINA.lectures["pharma-dynamics"] = {
     "The dose producing 50% of the maximal effect"
    ],
    "answer": 3,
-   "why": "EC₅₀ or ED₅₀."
+   "why": "EC₅₀ or ED₅₀.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/54.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "Efficacy refers to:",
@@ -299,7 +346,19 @@ SINA.lectures["pharma-dynamics"] = {
     "The maximal response a drug can produce"
    ],
    "answer": 3,
-   "why": "Emax."
+   "why": "Emax.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/33.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 33
+    },
+    {
+     "src": "files/slides/pharma-dynamics/54.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "Buprenorphine is a:",
@@ -310,7 +369,14 @@ SINA.lectures["pharma-dynamics"] = {
     "Full µ agonist"
    ],
    "answer": 0,
-   "why": "Safer than morphine because of less respiratory depression."
+   "why": "Safer than morphine because of less respiratory depression.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/46.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "An inverse agonist:",
@@ -321,7 +387,14 @@ SINA.lectures["pharma-dynamics"] = {
     "Reduces the constitutive activity of the receptor"
    ],
    "answer": 3,
-   "why": "Example given: nalmefene."
+   "why": "Example given: nalmefene.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/23.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "A competitive antagonist shifts the agonist curve:",
@@ -332,7 +405,14 @@ SINA.lectures["pharma-dynamics"] = {
     "To the left"
    ],
    "answer": 2,
-   "why": "It can be overcome by more agonist."
+   "why": "It can be overcome by more agonist.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/40.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Phenoxybenzamine is:",
@@ -343,7 +423,19 @@ SINA.lectures["pharma-dynamics"] = {
     "An allosteric enhancer of noradrenaline"
    ],
    "answer": 1,
-   "why": "Used in phaeochromocytoma."
+   "why": "Used in phaeochromocytoma.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/42.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 42
+    },
+    {
+     "src": "files/slides/pharma-dynamics/44.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Why can exercise overcome propranolol's effect on heart rate?",
@@ -354,7 +446,14 @@ SINA.lectures["pharma-dynamics"] = {
     "Propranolol is a partial agonist at β1"
    ],
    "answer": 1,
-   "why": "Competitive block depends on agonist concentration."
+   "why": "Competitive block depends on agonist concentration.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/43.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Benzodiazepines act on GABA-A receptors as:",
@@ -365,7 +464,14 @@ SINA.lectures["pharma-dynamics"] = {
     "Competitive antagonists"
    ],
    "answer": 0,
-   "why": "They bind a separate site."
+   "why": "They bind a separate site.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/45.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Acetylcholine lowering heart rate against noradrenaline is an example of:",
@@ -376,7 +482,14 @@ SINA.lectures["pharma-dynamics"] = {
     "Inverse agonism"
    ],
    "answer": 2,
-   "why": "Opposite pathways, different receptors."
+   "why": "Opposite pathways, different receptors.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/47.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "Insulin and EGF act through:",
@@ -387,7 +500,14 @@ SINA.lectures["pharma-dynamics"] = {
     "G protein-coupled receptors"
    ],
    "answer": 2,
-   "why": "Also PDGF, ANP, TGF-β."
+   "why": "Also PDGF, ANP, TGF-β.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/49.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Which ligands act on intracellular receptors?",
@@ -398,7 +518,14 @@ SINA.lectures["pharma-dynamics"] = {
     "Steroids and thyroid hormone"
    ],
    "answer": 3,
-   "why": "They regulate gene transcription."
+   "why": "They regulate gene transcription.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/48.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Therapeutic index is:",
@@ -409,7 +536,14 @@ SINA.lectures["pharma-dynamics"] = {
     "TD₅₀ / ED₅₀"
    ],
    "answer": 3,
-   "why": "Larger = wider therapeutic window."
+   "why": "Larger = wider therapeutic window.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/57.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 57
+    }
+   ]
   },
   {
    "q": "If TD₅₀ is 200 mg and ED₅₀ 20 mg, the TI is:",
@@ -420,7 +554,19 @@ SINA.lectures["pharma-dynamics"] = {
     "0.1"
    ],
    "answer": 1,
-   "why": "200 / 20 = 10."
+   "why": "200 / 20 = 10.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/66.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 66
+    },
+    {
+     "src": "files/slides/pharma-dynamics/67.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 67
+    }
+   ]
   },
   {
    "q": "Which drug has a narrow therapeutic index?",
@@ -431,7 +577,14 @@ SINA.lectures["pharma-dynamics"] = {
     "Lithium"
    ],
    "answer": 3,
-   "why": "Also digoxin, phenytoin, theophylline."
+   "why": "Also digoxin, phenytoin, theophylline.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/60.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 60
+    }
+   ]
   },
   {
    "q": "Rapidly developing loss of response is called:",
@@ -442,7 +595,14 @@ SINA.lectures["pharma-dynamics"] = {
     "Tolerance"
    ],
    "answer": 0,
-   "why": "Tolerance develops more slowly."
+   "why": "Tolerance develops more slowly.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/61.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 61
+    }
+   ]
   },
   {
    "q": "If 1 mg lorazepam matches 10 mg diazepam, then lorazepam is:",
@@ -453,7 +613,19 @@ SINA.lectures["pharma-dynamics"] = {
     "More potent"
    ],
    "answer": 3,
-   "why": "Same effect at a lower dose = potency."
+   "why": "Same effect at a lower dose = potency.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/34.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 34
+    },
+    {
+     "src": "files/slides/pharma-dynamics/42.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "GABA-A activation reduces neuronal excitability by:",
@@ -464,7 +636,19 @@ SINA.lectures["pharma-dynamics"] = {
     "Sodium entry"
    ],
    "answer": 1,
-   "why": "It is a ligand-gated chloride channel."
+   "why": "It is a ligand-gated chloride channel.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-dynamics/50.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 50
+    },
+    {
+     "src": "files/slides/pharma-dynamics/77.jpg",
+     "lec": "Pharmacodynamics",
+     "n": 77
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -984,7 +1168,19 @@ SINA.lectures["pharma-biotransformation"] = {
     "Paracetamol → reactive metabolite"
    ],
    "answer": 3,
-   "why": "Toxification is rare; paracetamol is the classic example."
+   "why": "Toxification is rare; paracetamol is the classic example.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/03.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 3
+    },
+    {
+     "src": "files/slides/pharma-biotransformation/04.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which routes undergo first-pass metabolism?",
@@ -995,7 +1191,19 @@ SINA.lectures["pharma-biotransformation"] = {
     "Intramuscular"
    ],
    "answer": 0,
-   "why": "The drug passes the gut wall and liver first."
+   "why": "The drug passes the gut wall and liver first.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/07.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 7
+    },
+    {
+     "src": "files/slides/pharma-biotransformation/15.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Where is most CYP450 activity located?",
@@ -1006,7 +1214,14 @@ SINA.lectures["pharma-biotransformation"] = {
     "Lysosomes"
    ],
    "answer": 1,
-   "why": "Some mitochondrial CYP exists in the adrenal."
+   "why": "Some mitochondrial CYP exists in the adrenal.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/11.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What does CYP450 require for drug oxidation?",
@@ -1017,7 +1232,14 @@ SINA.lectures["pharma-biotransformation"] = {
     "NADPH, P450 reductase and O₂"
    ],
    "answer": 3,
-   "why": "A haem iron performs the redox steps."
+   "why": "A haem iron performs the redox steps.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/12.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which enzyme metabolises about half of all drugs?",
@@ -1028,7 +1250,14 @@ SINA.lectures["pharma-biotransformation"] = {
     "CYP1A2"
    ],
    "answer": 2,
-   "why": "It is also abundant in the gut wall."
+   "why": "It is also abundant in the gut wall.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/15.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Grapefruit juice increases the bioavailability of some drugs by inhibiting:",
@@ -1039,7 +1268,19 @@ SINA.lectures["pharma-biotransformation"] = {
     "CYP2D6 in the liver"
    ],
    "answer": 2,
-   "why": "Especially calcium channel blockers and statins."
+   "why": "Especially calcium channel blockers and statins.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/15.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 15
+    },
+    {
+     "src": "files/slides/pharma-biotransformation/34.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which enzyme metabolises S-warfarin and phenytoin?",
@@ -1050,7 +1291,19 @@ SINA.lectures["pharma-biotransformation"] = {
     "CYP1A2"
    ],
    "answer": 0,
-   "why": "CYP2C9 polymorphisms contribute to warfarin variability."
+   "why": "CYP2C9 polymorphisms contribute to warfarin variability.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/02.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 2
+    },
+    {
+     "src": "files/slides/pharma-biotransformation/24.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Smoking induces:",
@@ -1061,7 +1314,14 @@ SINA.lectures["pharma-biotransformation"] = {
     "NAT2"
    ],
    "answer": 1,
-   "why": "Ethanol induces CYP2E1."
+   "why": "Ethanol induces CYP2E1.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/16.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which is a CYP450 inducer?",
@@ -1072,7 +1332,14 @@ SINA.lectures["pharma-biotransformation"] = {
     "Erythromycin"
    ],
    "answer": 1,
-   "why": "Also phenytoin, carbamazepine, barbiturates, St John's wort."
+   "why": "Also phenytoin, carbamazepine, barbiturates, St John's wort.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/16.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Why do some patients get no pain relief from codeine?",
@@ -1083,7 +1350,19 @@ SINA.lectures["pharma-biotransformation"] = {
     "They have liver failure"
    ],
    "answer": 0,
-   "why": "Codeine must be converted to morphine."
+   "why": "Codeine must be converted to morphine.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/02.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 2
+    },
+    {
+     "src": "files/slides/pharma-biotransformation/22.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "An ultra-rapid CYP2D6 metaboliser given codeine risks:",
@@ -1094,7 +1373,14 @@ SINA.lectures["pharma-biotransformation"] = {
     "Opioid overdose"
    ],
    "answer": 3,
-   "why": "Too much morphine is made too quickly."
+   "why": "Too much morphine is made too quickly.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/23.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Why should a patient on tamoxifen avoid fluoxetine?",
@@ -1105,7 +1391,14 @@ SINA.lectures["pharma-biotransformation"] = {
     "It induces CYP3A4"
    ],
    "answer": 2,
-   "why": "The patient may lose the benefit of tamoxifen."
+   "why": "The patient may lose the benefit of tamoxifen.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/26.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Most of the variation in warfarin dose comes from polymorphism in:",
@@ -1116,7 +1409,14 @@ SINA.lectures["pharma-biotransformation"] = {
     "NAT2"
    ],
    "answer": 1,
-   "why": "CYP2C9 also contributes."
+   "why": "CYP2C9 also contributes.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/24.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Ultra-rapid CYP2C19 metabolisers more often fail treatment with:",
@@ -1127,7 +1427,14 @@ SINA.lectures["pharma-biotransformation"] = {
     "Codeine"
    ],
    "answer": 2,
-   "why": "For H. pylori or reflux oesophagitis."
+   "why": "For H. pylori or reflux oesophagitis.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/25.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Which enzyme is responsible for Gilbert's syndrome?",
@@ -1138,7 +1445,14 @@ SINA.lectures["pharma-biotransformation"] = {
     "UGT1A1"
    ],
    "answer": 3,
-   "why": "A glucuronidation polymorphism."
+   "why": "A glucuronidation polymorphism.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/31.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Isoniazid, hydralazine and procainamide are metabolised by:",
@@ -1149,7 +1463,14 @@ SINA.lectures["pharma-biotransformation"] = {
     "Sulfation"
    ],
    "answer": 0,
-   "why": "Slow acetylators reach higher levels."
+   "why": "Slow acetylators reach higher levels.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/30.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Roughly what proportion of Middle Eastern people are slow acetylators?",
@@ -1160,7 +1481,14 @@ SINA.lectures["pharma-biotransformation"] = {
     "10%"
    ],
    "answer": 1,
-   "why": "About 50% of Caucasians and 25% of Asians."
+   "why": "About 50% of Caucasians and 25% of Asians.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/30.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Deficiency of plasma cholinesterase causes:",
@@ -1171,7 +1499,14 @@ SINA.lectures["pharma-biotransformation"] = {
     "Prolonged paralysis after succinylcholine"
    ],
    "answer": 3,
-   "why": "Succinylcholine is normally hydrolysed quickly."
+   "why": "Succinylcholine is normally hydrolysed quickly.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/32.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which enzyme metabolises ethanol at low to moderate concentrations?",
@@ -1182,7 +1517,14 @@ SINA.lectures["pharma-biotransformation"] = {
     "CYP2E1 only"
    ],
    "answer": 1,
-   "why": "CYP2E1 contributes at high concentrations."
+   "why": "CYP2E1 contributes at high concentrations.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-biotransformation/27.jpg",
+     "lec": "Biotransformation (drug metabolism)",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1642,7 +1984,14 @@ SINA.lectures["pharma-trials"] = {
     "Penicillin, digoxin, lithium"
    ],
    "answer": 0,
-   "why": "Remember 'PEA'."
+   "why": "Remember 'PEA'.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/06.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "In zero-order kinetics:",
@@ -1653,7 +2002,14 @@ SINA.lectures["pharma-trials"] = {
     "Elimination is exponential"
    ],
    "answer": 2,
-   "why": "Because the elimination system is saturated."
+   "why": "Because the elimination system is saturated.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/06.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Half-life increases when:",
@@ -1664,7 +2020,14 @@ SINA.lectures["pharma-trials"] = {
     "The dose falls"
    ],
    "answer": 2,
-   "why": "t½ = 0.693 × Vd / CL."
+   "why": "t½ = 0.693 × Vd / CL.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/14.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "After 4-5 half-lives, about how much drug is eliminated?",
@@ -1675,7 +2038,14 @@ SINA.lectures["pharma-trials"] = {
     "75%"
    ],
    "answer": 0,
-   "why": "50, 75, 87.5, 93.75, 96.9%."
+   "why": "50, 75, 87.5, 93.75, 96.9%.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/14.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "At urine pH 8, the ratio of ionised to unionised salicylate (pKa 3) is:",
@@ -1686,7 +2056,14 @@ SINA.lectures["pharma-trials"] = {
     "100,000:1"
    ],
    "answer": 3,
-   "why": "10^(8-3) = 10^5 = 100,000:1 (the slide's arithmetic shows 10⁵)."
+   "why": "10^(8-3) = 10^5 = 100,000:1 (the slide's arithmetic shows 10⁵).",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/13.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Forced alkaline diuresis is used mainly for overdose of:",
@@ -1697,7 +2074,14 @@ SINA.lectures["pharma-trials"] = {
     "Salicylate and phenobarbital"
    ],
    "answer": 3,
-   "why": "Weak acids trapped in alkaline urine."
+   "why": "Weak acids trapped in alkaline urine.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/13.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Why are new compounds screened on hERG channels?",
@@ -1708,7 +2092,14 @@ SINA.lectures["pharma-trials"] = {
     "To test efficacy against epilepsy"
    ],
    "answer": 0,
-   "why": "Part of cardiac safety screening."
+   "why": "Part of cardiac safety screening.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/21.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "How high can the placebo response be?",
@@ -1719,7 +2110,19 @@ SINA.lectures["pharma-trials"] = {
     "80-90%"
    ],
    "answer": 1,
-   "why": "Hence blinded, placebo-controlled trials."
+   "why": "Hence blinded, placebo-controlled trials.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/40.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 40
+    },
+    {
+     "src": "files/slides/pharma-trials/42.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Phase 1 trials usually involve:",
@@ -1730,7 +2133,14 @@ SINA.lectures["pharma-trials"] = {
     "Only children"
    ],
    "answer": 0,
-   "why": "Except for AIDS or cancer drugs."
+   "why": "Except for AIDS or cancer drugs.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/42.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "The main goal of phase 1 is:",
@@ -1741,7 +2151,14 @@ SINA.lectures["pharma-trials"] = {
     "Safety and dose-finding"
    ],
    "answer": 3,
-   "why": "PK is often measured too."
+   "why": "PK is often measured too.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/42.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Which phase has the highest failure rate?",
@@ -1752,7 +2169,14 @@ SINA.lectures["pharma-trials"] = {
     "Phase 4"
    ],
    "answer": 1,
-   "why": "Only about 25% move on to phase 3."
+   "why": "Only about 25% move on to phase 3.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/43.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Phase 3 trials typically compare the new drug with:",
@@ -1763,7 +2187,14 @@ SINA.lectures["pharma-trials"] = {
     "No comparator at all"
    ],
    "answer": 1,
-   "why": "In hundreds to thousands of patients."
+   "why": "In hundreds to thousands of patients.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/44.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "A toxicity with incidence 1 in 10,000 is usually found in:",
@@ -1774,7 +2205,14 @@ SINA.lectures["pharma-trials"] = {
     "Phase 2 (proof of concept)"
    ],
    "answer": 2,
-   "why": "Several hundred thousand exposures may be needed."
+   "why": "Several hundred thousand exposures may be needed.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/44.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "In a crossover trial:",
@@ -1785,7 +2223,14 @@ SINA.lectures["pharma-trials"] = {
     "Each subject receives only one treatment"
    ],
    "answer": 2,
-   "why": "Useful when disease severity varies."
+   "why": "Useful when disease severity varies.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/38.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Why does pregnancy shorten the half-life of aminoglycosides?",
@@ -1796,7 +2241,14 @@ SINA.lectures["pharma-trials"] = {
     "Increased GFR"
    ],
    "answer": 3,
-   "why": "Renal clearance rises."
+   "why": "Renal clearance rises.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/48.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Which drug property favours crossing the placenta?",
@@ -1807,7 +2259,14 @@ SINA.lectures["pharma-trials"] = {
     "High protein binding"
    ],
    "answer": 0,
-   "why": "Drugs under 400-500 Da cross best."
+   "why": "Drugs under 400-500 Da cross best.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/49.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "The placenta inactivates:",
@@ -1818,7 +2277,14 @@ SINA.lectures["pharma-trials"] = {
     "Prednisolone to prednisone"
    ],
    "answer": 3,
-   "why": "Prednisone is inactive."
+   "why": "Prednisone is inactive.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/49.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Thalidomide's critical exposure window is:",
@@ -1829,7 +2295,14 @@ SINA.lectures["pharma-trials"] = {
     "The first week after delivery"
    ],
    "answer": 1,
-   "why": "20-30% of exposed children developed limb defects."
+   "why": "20-30% of exposed children developed limb defects.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-trials/50.jpg",
+     "lec": "Clinical trials and new drug development",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2236,7 +2709,14 @@ SINA.lectures["pharma-vigilance"] = {
     "EMA"
    ],
    "answer": 2,
-   "why": "Detection, assessment, understanding and prevention of adverse effects."
+   "why": "Detection, assessment, understanding and prevention of adverse effects.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-vigilance/03.jpg",
+     "lec": "Pharmacovigilance",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Roughly how many US drugs have safety issues after approval?",
@@ -2247,7 +2727,14 @@ SINA.lectures["pharma-vigilance"] = {
     "None"
    ],
    "answer": 1,
-   "why": "Hence continuous monitoring."
+   "why": "Hence continuous monitoring.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-vigilance/05.jpg",
+     "lec": "Pharmacovigilance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which is one of the 'five too's' of clinical trials?",
@@ -2258,7 +2745,14 @@ SINA.lectures["pharma-vigilance"] = {
     "Too many elderly"
    ],
    "answer": 2,
-   "why": "Also too simple, too median-aged, too narrow, too brief."
+   "why": "Also too simple, too median-aged, too narrow, too brief.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-vigilance/07.jpg",
+     "lec": "Pharmacovigilance",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Why do trials miss rare adverse effects?",
@@ -2269,7 +2763,14 @@ SINA.lectures["pharma-vigilance"] = {
     "They include the elderly"
    ],
    "answer": 0,
-   "why": "Only about 0.1% of AEs may be detected before marketing."
+   "why": "Only about 0.1% of AEs may be detected before marketing.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-vigilance/07.jpg",
+     "lec": "Pharmacovigilance",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "An ADR is defined as occurring at:",
@@ -2280,7 +2781,14 @@ SINA.lectures["pharma-vigilance"] = {
     "Doses in animals"
    ],
    "answer": 2,
-   "why": "And requiring treatment, dose change or caution."
+   "why": "And requiring treatment, dose change or caution.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-vigilance/08.jpg",
+     "lec": "Pharmacovigilance",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which is a serious ADR?",
@@ -2291,7 +2799,14 @@ SINA.lectures["pharma-vigilance"] = {
     "Hospitalisation"
    ],
    "answer": 3,
-   "why": "Also death, life-threat, disability, congenital anomaly."
+   "why": "Also death, life-threat, disability, congenital anomaly.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-vigilance/12.jpg",
+     "lec": "Pharmacovigilance",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "A serious unexpected ADR must be reported within:",
@@ -2302,7 +2817,14 @@ SINA.lectures["pharma-vigilance"] = {
     "7 days"
    ],
    "answer": 0,
-   "why": "Fatal or life-threatening unexpected ADRs: 7 calendar days."
+   "why": "Fatal or life-threatening unexpected ADRs: 7 calendar days.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-vigilance/12.jpg",
+     "lec": "Pharmacovigilance",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Non-serious ADRs are reported:",
@@ -2313,7 +2835,14 @@ SINA.lectures["pharma-vigilance"] = {
     "Within 7 days"
    ],
    "answer": 1,
-   "why": "They are not expedited."
+   "why": "They are not expedited.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-vigilance/12.jpg",
+     "lec": "Pharmacovigilance",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The 1937 sulfanilamide disaster was caused by:",
@@ -2324,7 +2853,14 @@ SINA.lectures["pharma-vigilance"] = {
     "Wrong dose"
    ],
    "answer": 0,
-   "why": "107 people died."
+   "why": "107 people died.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-vigilance/11.jpg",
+     "lec": "Pharmacovigilance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The sulfanilamide disaster led to:",
@@ -2335,7 +2871,14 @@ SINA.lectures["pharma-vigilance"] = {
     "The 1938 Food, Drug and Cosmetic Act"
    ],
    "answer": 3,
-   "why": "It increased the FDA's authority."
+   "why": "It increased the FDA's authority.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-vigilance/11.jpg",
+     "lec": "Pharmacovigilance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What is the first step of pharmacovigilance?",
@@ -2346,7 +2889,14 @@ SINA.lectures["pharma-vigilance"] = {
     "Run a new trial"
    ],
    "answer": 0,
-   "why": "Then review and respond."
+   "why": "Then review and respond.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-vigilance/09.jpg",
+     "lec": "Pharmacovigilance",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2796,7 +3346,14 @@ SINA.lectures["pharma-interactions"] = {
     "Absorption, distribution, metabolism, excretion"
    ],
    "answer": 3,
-   "why": "Pharmacodynamic interactions act at the target."
+   "why": "Pharmacodynamic interactions act at the target.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/04.jpg",
+     "lec": "Drug interactions",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Ibuprofen plus paracetamol for pain is an example of:",
@@ -2807,7 +3364,14 @@ SINA.lectures["pharma-interactions"] = {
     "Chelation in the gut"
    ],
    "answer": 1,
-   "why": "The effects sum."
+   "why": "The effects sum.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/05.jpg",
+     "lec": "Drug interactions",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Sedatives combined with alcohol are an example of:",
@@ -2818,7 +3382,14 @@ SINA.lectures["pharma-interactions"] = {
     "No interaction"
    ],
    "answer": 2,
-   "why": "The combined depression exceeds the sum."
+   "why": "The combined depression exceeds the sum.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/05.jpg",
+     "lec": "Drug interactions",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Naloxone reversing an opioid overdose is:",
@@ -2829,7 +3400,14 @@ SINA.lectures["pharma-interactions"] = {
     "Induction"
    ],
    "answer": 0,
-   "why": "It blocks opioid receptors."
+   "why": "It blocks opioid receptors.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/05.jpg",
+     "lec": "Drug interactions",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Omeprazole taken with atazanavir causes:",
@@ -2840,7 +3418,14 @@ SINA.lectures["pharma-interactions"] = {
     "A 94% fall in atazanavir AUC"
    ],
    "answer": 3,
-   "why": "Atazanavir needs an acid pH to dissolve."
+   "why": "Atazanavir needs an acid pH to dissolve.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/07.jpg",
+     "lec": "Drug interactions",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Why should tetracyclines not be taken with milk or antacids?",
@@ -2851,7 +3436,14 @@ SINA.lectures["pharma-interactions"] = {
     "Tetracyclines are destroyed by stomach acid"
    ],
    "answer": 2,
-   "why": "Separate the doses."
+   "why": "Separate the doses.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/09.jpg",
+     "lec": "Drug interactions",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Quinidine increases digoxin absorption because it:",
@@ -2862,7 +3454,14 @@ SINA.lectures["pharma-interactions"] = {
     "Inhibits P-glycoprotein"
    ],
    "answer": 3,
-   "why": "By about 2.5-fold."
+   "why": "By about 2.5-fold.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/15.jpg",
+     "lec": "Drug interactions",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "How long does enzyme induction take to develop?",
@@ -2873,7 +3472,14 @@ SINA.lectures["pharma-interactions"] = {
     "Minutes"
    ],
    "answer": 0,
-   "why": "New CYP protein must be made."
+   "why": "New CYP protein must be made.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/22.jpg",
+     "lec": "Drug interactions",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Enzyme induction works through which nuclear receptors?",
@@ -2884,7 +3490,14 @@ SINA.lectures["pharma-interactions"] = {
     "H1 and H2"
    ],
    "answer": 2,
-   "why": "They increase CYP gene transcription."
+   "why": "They increase CYP gene transcription.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/22.jpg",
+     "lec": "Drug interactions",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Grapefruit juice inhibits CYP3A4 by:",
@@ -2895,7 +3508,14 @@ SINA.lectures["pharma-interactions"] = {
     "Mechanism-based irreversible inactivation"
    ],
    "answer": 3,
-   "why": "The effect lasts until new enzyme is made."
+   "why": "The effect lasts until new enzyme is made.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/20.jpg",
+     "lec": "Drug interactions",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "A woman on phenytoin has an unplanned pregnancy despite the pill. Why?",
@@ -2906,7 +3526,14 @@ SINA.lectures["pharma-interactions"] = {
     "Phenytoin inhibits CYP3A4 and raises levels"
    ],
    "answer": 1,
-   "why": "Induction increases contraceptive metabolism."
+   "why": "Induction increases contraceptive metabolism.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/17.jpg",
+     "lec": "Drug interactions",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Chronic alcohol use increases paracetamol toxicity by:",
@@ -2917,7 +3544,19 @@ SINA.lectures["pharma-interactions"] = {
     "Blocking glucuronidation"
    ],
    "answer": 1,
-   "why": "More toxic metabolite is formed."
+   "why": "More toxic metabolite is formed.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/12.jpg",
+     "lec": "Drug interactions",
+     "n": 12
+    },
+    {
+     "src": "files/slides/pharma-interactions/22.jpg",
+     "lec": "Drug interactions",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "St John's wort combined with an SSRI risks:",
@@ -2928,7 +3567,14 @@ SINA.lectures["pharma-interactions"] = {
     "Hyperkalaemia"
    ],
    "answer": 0,
-   "why": "Also with triptans and dextromethorphan."
+   "why": "Also with triptans and dextromethorphan.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/17.jpg",
+     "lec": "Drug interactions",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which drug depends mainly on CYP3A4 and is very sensitive to its inhibition?",
@@ -2939,7 +3585,14 @@ SINA.lectures["pharma-interactions"] = {
     "Voriconazole"
    ],
    "answer": 0,
-   "why": "Drugs with several routes are less sensitive."
+   "why": "Drugs with several routes are less sensitive.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/20.jpg",
+     "lec": "Drug interactions",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Probenecid prolongs penicillin's half-life by inhibiting:",
@@ -2950,7 +3603,19 @@ SINA.lectures["pharma-interactions"] = {
     "Renal OAT transporters"
    ],
    "answer": 3,
-   "why": "Reducing tubular secretion."
+   "why": "Reducing tubular secretion.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/06.jpg",
+     "lec": "Drug interactions",
+     "n": 6
+    },
+    {
+     "src": "files/slides/pharma-interactions/15.jpg",
+     "lec": "Drug interactions",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Gemfibrozil raises rosuvastatin levels by inhibiting:",
@@ -2961,7 +3626,14 @@ SINA.lectures["pharma-interactions"] = {
     "Hepatic OATP uptake"
    ],
    "answer": 3,
-   "why": "By 88% in the cited study."
+   "why": "By 88% in the cited study.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/15.jpg",
+     "lec": "Drug interactions",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Why does a 50% rise in atorvastatin rarely matter?",
@@ -2972,7 +3644,14 @@ SINA.lectures["pharma-interactions"] = {
     "It has no side effects"
    ],
    "answer": 2,
-   "why": "The same rise in a narrow-TI drug could be dangerous."
+   "why": "The same rise in a narrow-TI drug could be dangerous.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/26.jpg",
+     "lec": "Drug interactions",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Therapeutic duplication means:",
@@ -2983,7 +3662,14 @@ SINA.lectures["pharma-interactions"] = {
     "Two drugs with different mechanisms for one disease"
    ],
    "answer": 1,
-   "why": "Their effects add up."
+   "why": "Their effects add up.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-interactions/28.jpg",
+     "lec": "Drug interactions",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3444,7 +4130,14 @@ SINA.lectures["pharma-asthma"] = {
     "About 3 million"
    ],
    "answer": 2,
-   "why": "It is the commonest chronic disease."
+   "why": "It is the commonest chronic disease.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/03.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "T2-high asthma is characterised by:",
@@ -3455,7 +4148,14 @@ SINA.lectures["pharma-asthma"] = {
     "Eosinophils, allergy and high IgE"
    ],
    "answer": 3,
-   "why": "It responds well to corticosteroids."
+   "why": "It responds well to corticosteroids.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/18.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which drug is first line for an acute asthma attack?",
@@ -3466,7 +4166,19 @@ SINA.lectures["pharma-asthma"] = {
     "Salbutamol"
    ],
    "answer": 3,
-   "why": "A short-acting β₂ agonist."
+   "why": "A short-acting β₂ agonist.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/31.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 31
+    },
+    {
+     "src": "files/slides/pharma-asthma/32.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "β₂ agonists relax airway smooth muscle by:",
@@ -3477,7 +4189,14 @@ SINA.lectures["pharma-asthma"] = {
     "Inhibiting IgE"
    ],
    "answer": 2,
-   "why": "Leading to bronchodilation."
+   "why": "Leading to bronchodilation.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/28.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which is a long-acting β₂ agonist?",
@@ -3488,7 +4207,14 @@ SINA.lectures["pharma-asthma"] = {
     "Ipratropium"
    ],
    "answer": 0,
-   "why": "Also salmeterol."
+   "why": "Also salmeterol.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/60.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 60
+    }
+   ]
   },
   {
    "q": "Tiotropium is a:",
@@ -3499,7 +4225,14 @@ SINA.lectures["pharma-asthma"] = {
     "Long-acting muscarinic antagonist"
    ],
    "answer": 3,
-   "why": "Brand Spiriva."
+   "why": "Brand Spiriva.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/37.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which condition calls for caution with inhaled antimuscarinics?",
@@ -3510,7 +4243,14 @@ SINA.lectures["pharma-asthma"] = {
     "Hypothyroidism"
    ],
    "answer": 1,
-   "why": "Also bladder outflow obstruction and glaucoma."
+   "why": "Also bladder outflow obstruction and glaucoma.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/39.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "What is first-line long-term control for persistent asthma?",
@@ -3521,7 +4261,19 @@ SINA.lectures["pharma-asthma"] = {
     "Montelukast alone"
    ],
    "answer": 1,
-   "why": "ICS reduce airway inflammation."
+   "why": "ICS reduce airway inflammation.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/42.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 42
+    },
+    {
+     "src": "files/slides/pharma-asthma/44.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "The main local adverse effect of inhaled corticosteroids is:",
@@ -3532,7 +4284,14 @@ SINA.lectures["pharma-asthma"] = {
     "Tachycardia"
    ],
    "answer": 0,
-   "why": "Prevented by rinsing the mouth."
+   "why": "Prevented by rinsing the mouth.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/44.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Montelukast acts by:",
@@ -3543,7 +4302,14 @@ SINA.lectures["pharma-asthma"] = {
     "Blocking cysteinyl leukotriene receptors"
    ],
    "answer": 3,
-   "why": "Used for prophylaxis and exercise-induced bronchospasm."
+   "why": "Used for prophylaxis and exercise-induced bronchospasm.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/48.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Which drug requires therapeutic drug monitoring because of its narrow window?",
@@ -3554,7 +4320,14 @@ SINA.lectures["pharma-asthma"] = {
     "Salbutamol"
    ],
    "answer": 1,
-   "why": "With many interactions and variable clearance."
+   "why": "With many interactions and variable clearance.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/54.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "Smoking affects theophylline by:",
@@ -3565,7 +4338,14 @@ SINA.lectures["pharma-asthma"] = {
     "No effect"
    ],
    "answer": 2,
-   "why": "Smoking induces its metabolism."
+   "why": "Smoking induces its metabolism.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/54.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "Roflumilast is a:",
@@ -3576,7 +4356,14 @@ SINA.lectures["pharma-asthma"] = {
     "Non-selective PDE inhibitor"
    ],
    "answer": 1,
-   "why": "Approved in COPD."
+   "why": "Approved in COPD.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/50.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "SMART therapy uses:",
@@ -3587,7 +4374,14 @@ SINA.lectures["pharma-asthma"] = {
     "One ICS-formoterol inhaler for both"
    ],
    "answer": 3,
-   "why": "E.g. budesonide/formoterol."
+   "why": "E.g. budesonide/formoterol.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/60.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 60
+    }
+   ]
   },
   {
    "q": "Why formoterol in SMART rather than salmeterol?",
@@ -3598,7 +4392,14 @@ SINA.lectures["pharma-asthma"] = {
     "It is a corticosteroid itself"
    ],
    "answer": 0,
-   "why": "So it can serve as a reliever."
+   "why": "So it can serve as a reliever.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/59.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 59
+    }
+   ]
   },
   {
    "q": "Omalizumab targets:",
@@ -3609,7 +4410,14 @@ SINA.lectures["pharma-asthma"] = {
     "IL-5"
    ],
    "answer": 0,
-   "why": "It stops IgE binding to mast cells and basophils."
+   "why": "It stops IgE binding to mast cells and basophils.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/65.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 65
+    }
+   ]
   },
   {
    "q": "Dupilumab blocks:",
@@ -3620,7 +4428,14 @@ SINA.lectures["pharma-asthma"] = {
     "IL-4/IL-13 signalling"
    ],
    "answer": 3,
-   "why": "Mepolizumab and benralizumab act on the IL-5 pathway."
+   "why": "Mepolizumab and benralizumab act on the IL-5 pathway.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/64.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 64
+    }
+   ]
   },
   {
    "q": "What is the purpose of a spacer?",
@@ -3631,7 +4446,14 @@ SINA.lectures["pharma-asthma"] = {
     "To replace the inhaler completely"
    ],
    "answer": 1,
-   "why": "Valved holding chambers reduce coordination problems."
+   "why": "Valved holding chambers reduce coordination problems.",
+   "slides": [
+    {
+     "src": "files/slides/pharma-asthma/72.jpg",
+     "lec": "Drugs for asthma and COPD",
+     "n": 72
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

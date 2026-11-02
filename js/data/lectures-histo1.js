@@ -198,7 +198,14 @@ SINA.lectures["histo1-intro"] = {
     "Radiology and histology"
    ],
    "answer": 1,
-   "why": "Three microscopic levels."
+   "why": "Three microscopic levels.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-intro/03.jpg",
+     "lec": "Introduction to histology",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The correct order of tissue preparation is:",
@@ -209,7 +216,14 @@ SINA.lectures["histo1-intro"] = {
     "Sectioning, fixation, staining, embedding"
    ],
    "answer": 1,
-   "why": "Fix first to stop autolysis."
+   "why": "Fix first to stop autolysis.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-intro/28.jpg",
+     "lec": "Introduction to histology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The main purpose of fixation is to:",
@@ -220,7 +234,14 @@ SINA.lectures["histo1-intro"] = {
     "Remove water"
    ],
    "answer": 1,
-   "why": "Stops autolysis."
+   "why": "Stops autolysis.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-intro/29.jpg",
+     "lec": "Introduction to histology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "A fixative used for electron microscopy is:",
@@ -231,7 +252,14 @@ SINA.lectures["histo1-intro"] = {
     "Haematoxylin"
    ],
    "answer": 1,
-   "why": "With osmium tetroxide."
+   "why": "With osmium tetroxide.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-intro/29.jpg",
+     "lec": "Introduction to histology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Sections for light microscopy are usually cut at:",
@@ -242,7 +270,14 @@ SINA.lectures["histo1-intro"] = {
     "1 mm"
    ],
    "answer": 1,
-   "why": "With a microtome."
+   "why": "With a microtome.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-intro/31.jpg",
+     "lec": "Introduction to histology",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Before paraffin embedding, the tissue is:",
@@ -253,7 +288,14 @@ SINA.lectures["histo1-intro"] = {
     "Sectioned"
    ],
    "answer": 1,
-   "why": "Ethanol then a clearing agent."
+   "why": "Ethanol then a clearing agent.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-intro/29.jpg",
+     "lec": "Introduction to histology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Haematoxylin stains nuclei because it:",
@@ -264,7 +306,14 @@ SINA.lectures["histo1-intro"] = {
     "Binds collagen fibres specifically"
    ],
    "answer": 1,
-   "why": "Basophilia."
+   "why": "Basophilia.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-intro/33.jpg",
+     "lec": "Introduction to histology",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Eosin stains:",
@@ -275,7 +324,14 @@ SINA.lectures["histo1-intro"] = {
     "Fat droplets black"
    ],
    "answer": 1,
-   "why": "Acid dye."
+   "why": "Acid dye.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-intro/32.jpg",
+     "lec": "Introduction to histology",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "A structure that stains with haematoxylin is described as:",
@@ -286,7 +342,14 @@ SINA.lectures["histo1-intro"] = {
     "Argyrophilic"
    ],
    "answer": 1,
-   "why": "Binds the basic dye."
+   "why": "Binds the basic dye.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-intro/33.jpg",
+     "lec": "Introduction to histology",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Total magnification of a light microscope equals:",
@@ -297,7 +360,14 @@ SINA.lectures["histo1-intro"] = {
     "Eyepiece alone"
    ],
    "answer": 1,
-   "why": "E.g. 40 × 10 = 400."
+   "why": "E.g. 40 × 10 = 400.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-intro/16.jpg",
+     "lec": "Introduction to histology",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Resolution is:",
@@ -308,7 +378,19 @@ SINA.lectures["histo1-intro"] = {
     "Colour contrast between two stains"
    ],
    "answer": 1,
-   "why": "Not the same as magnification."
+   "why": "Not the same as magnification.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-intro/19.jpg",
+     "lec": "Introduction to histology",
+     "n": 19
+    },
+    {
+     "src": "files/slides/histo1-intro/24.jpg",
+     "lec": "Introduction to histology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The best microscope for living unstained cells is:",
@@ -319,7 +401,19 @@ SINA.lectures["histo1-intro"] = {
     "Confocal only"
    ],
    "answer": 1,
-   "why": "Converts phase differences to contrast."
+   "why": "Converts phase differences to contrast.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-intro/35.jpg",
+     "lec": "Introduction to histology",
+     "n": 35
+    },
+    {
+     "src": "files/slides/histo1-intro/36.jpg",
+     "lec": "Introduction to histology",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Highly ordered molecules such as collagen are best seen with:",
@@ -330,7 +424,14 @@ SINA.lectures["histo1-intro"] = {
     "Light microscope without stain"
    ],
    "answer": 1,
-   "why": "Birefringence."
+   "why": "Birefringence.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-intro/38.jpg",
+     "lec": "Introduction to histology",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Electron microscopy cannot be used to:",
@@ -341,7 +442,14 @@ SINA.lectures["histo1-intro"] = {
     "Study organelles"
    ],
    "answer": 1,
-   "why": "Vacuum and fixation."
+   "why": "Vacuum and fixation.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-intro/36.jpg",
+     "lec": "Introduction to histology",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Which is a basic dye?",
@@ -352,7 +460,14 @@ SINA.lectures["histo1-intro"] = {
     "Acid fuchsin"
    ],
    "answer": 2,
-   "why": "Also methylene blue."
+   "why": "Also methylene blue.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-intro/32.jpg",
+     "lec": "Introduction to histology",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -754,7 +869,19 @@ SINA.lectures["histo1-epithelium"] = {
     "Without junctions"
    ],
    "answer": 1,
-   "why": "Fed by diffusion."
+   "why": "Fed by diffusion.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-epithelium/05.jpg",
+     "lec": "Epithelial tissue",
+     "n": 5
+    },
+    {
+     "src": "files/slides/histo1-epithelium/13.jpg",
+     "lec": "Epithelial tissue",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Microvilli contain a core of:",
@@ -765,7 +892,14 @@ SINA.lectures["histo1-epithelium"] = {
     "Collagen"
    ],
    "answer": 1,
-   "why": "Cilia contain microtubules."
+   "why": "Cilia contain microtubules.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-epithelium/09.jpg",
+     "lec": "Epithelial tissue",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Stereocilia are found in the:",
@@ -776,7 +910,14 @@ SINA.lectures["histo1-epithelium"] = {
     "Uterine tube"
    ],
    "answer": 1,
-   "why": "Also inner-ear hair cells."
+   "why": "Also inner-ear hair cells.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-epithelium/10.jpg",
+     "lec": "Epithelial tissue",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Motile cilia are typical of the:",
@@ -787,7 +928,14 @@ SINA.lectures["histo1-epithelium"] = {
     "Bladder"
    ],
    "answer": 0,
-   "why": "And uterine tubes."
+   "why": "And uterine tubes.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-epithelium/11.jpg",
+     "lec": "Epithelial tissue",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which junction allows action potentials to spread in the heart?",
@@ -798,7 +946,14 @@ SINA.lectures["histo1-epithelium"] = {
     "Hemidesmosome"
    ],
    "answer": 2,
-   "why": "Connexon channels."
+   "why": "Connexon channels.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-epithelium/23.jpg",
+     "lec": "Epithelial tissue",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The junction that keeps gut bacteria out of the blood is the:",
@@ -809,7 +964,14 @@ SINA.lectures["histo1-epithelium"] = {
     "Hemidesmosome"
    ],
    "answer": 1,
-   "why": "Occluding junction."
+   "why": "Occluding junction.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-epithelium/23.jpg",
+     "lec": "Epithelial tissue",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The basal lamina is rich in collagen type:",
@@ -820,7 +982,14 @@ SINA.lectures["histo1-epithelium"] = {
     "IV"
    ],
    "answer": 3,
-   "why": "The reticular lamina has type III."
+   "why": "The reticular lamina has type III.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-epithelium/15.jpg",
+     "lec": "Epithelial tissue",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Hemidesmosomes attach epithelial cells to:",
@@ -831,7 +1000,14 @@ SINA.lectures["histo1-epithelium"] = {
     "The lumen"
    ],
    "answer": 1,
-   "why": "Via integrins."
+   "why": "Via integrins.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-epithelium/21.jpg",
+     "lec": "Epithelial tissue",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Lung alveoli are lined by:",
@@ -842,7 +1018,14 @@ SINA.lectures["histo1-epithelium"] = {
     "Pseudostratified"
    ],
    "answer": 1,
-   "why": "Thin for diffusion."
+   "why": "Thin for diffusion.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-epithelium/33.jpg",
+     "lec": "Epithelial tissue",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "The respiratory passages are lined by:",
@@ -853,7 +1036,14 @@ SINA.lectures["histo1-epithelium"] = {
     "Stratified cuboidal epithelium"
    ],
    "answer": 1,
-   "why": "With goblet cells."
+   "why": "With goblet cells.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-epithelium/33.jpg",
+     "lec": "Epithelial tissue",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "The urinary bladder is lined by:",
@@ -864,7 +1054,14 @@ SINA.lectures["histo1-epithelium"] = {
     "Pseudostratified"
    ],
    "answer": 1,
-   "why": "Urothelium."
+   "why": "Urothelium.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-epithelium/33.jpg",
+     "lec": "Epithelial tissue",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "The epidermis is:",
@@ -875,7 +1072,19 @@ SINA.lectures["histo1-epithelium"] = {
     "Pseudostratified columnar"
    ],
    "answer": 1,
-   "why": "Waterproof protection."
+   "why": "Waterproof protection.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-epithelium/33.jpg",
+     "lec": "Epithelial tissue",
+     "n": 33
+    },
+    {
+     "src": "files/slides/histo1-epithelium/34.jpg",
+     "lec": "Epithelial tissue",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "A unicellular exocrine gland is the:",
@@ -886,7 +1095,14 @@ SINA.lectures["histo1-epithelium"] = {
     "Podocyte"
    ],
    "answer": 1,
-   "why": "Secretes mucus."
+   "why": "Secretes mucus.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-epithelium/36.jpg",
+     "lec": "Epithelial tissue",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "A gland with a branched duct is called:",
@@ -897,7 +1113,14 @@ SINA.lectures["histo1-epithelium"] = {
     "Holocrine"
    ],
    "answer": 1,
-   "why": "Unbranched = simple."
+   "why": "Unbranched = simple.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-epithelium/38.jpg",
+     "lec": "Epithelial tissue",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "In holocrine secretion:",
@@ -908,7 +1131,19 @@ SINA.lectures["histo1-epithelium"] = {
     "No secretion occurs"
    ],
    "answer": 1,
-   "why": "Sebaceous glands."
+   "why": "Sebaceous glands.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-epithelium/36.jpg",
+     "lec": "Epithelial tissue",
+     "n": 36
+    },
+    {
+     "src": "files/slides/histo1-epithelium/40.jpg",
+     "lec": "Epithelial tissue",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1265,7 +1500,14 @@ SINA.lectures["histo1-connective"] = {
     "Neural crest only"
    ],
    "answer": 1,
-   "why": "Mostly mesodermal."
+   "why": "Mostly mesodermal.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-connective/06.jpg",
+     "lec": "Connective tissue",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which connective tissue is avascular?",
@@ -1276,7 +1518,19 @@ SINA.lectures["histo1-connective"] = {
     "Dermis"
    ],
    "answer": 1,
-   "why": "Nourished by diffusion."
+   "why": "Nourished by diffusion.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-connective/04.jpg",
+     "lec": "Connective tissue",
+     "n": 4
+    },
+    {
+     "src": "files/slides/histo1-connective/05.jpg",
+     "lec": "Connective tissue",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The main cell of connective tissue proper is the:",
@@ -1287,7 +1541,14 @@ SINA.lectures["histo1-connective"] = {
     "Macrophage"
    ],
    "answer": 1,
-   "why": "Makes fibres and ground substance."
+   "why": "Makes fibres and ground substance.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-connective/10.jpg",
+     "lec": "Connective tissue",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Mast cell granules contain:",
@@ -1298,7 +1559,14 @@ SINA.lectures["histo1-connective"] = {
     "Collagen"
    ],
    "answer": 1,
-   "why": "Released via IgE."
+   "why": "Released via IgE.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-connective/14.jpg",
+     "lec": "Connective tissue",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "A clock-face nucleus is typical of the:",
@@ -1309,7 +1577,14 @@ SINA.lectures["histo1-connective"] = {
     "Adipocyte"
    ],
    "answer": 1,
-   "why": "Antibody-secreting cell."
+   "why": "Antibody-secreting cell.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-connective/16.jpg",
+     "lec": "Connective tissue",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Tissue macrophages derive from:",
@@ -1320,7 +1595,14 @@ SINA.lectures["histo1-connective"] = {
     "Plasma cells"
    ],
    "answer": 1,
-   "why": "Phagocytosis, antigen presentation."
+   "why": "Phagocytosis, antigen presentation.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-connective/15.jpg",
+     "lec": "Connective tissue",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The most abundant and strongest collagen is type:",
@@ -1331,7 +1613,19 @@ SINA.lectures["histo1-connective"] = {
     "IV"
    ],
    "answer": 0,
-   "why": "Bone, tendon, dermis."
+   "why": "Bone, tendon, dermis.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-connective/14.jpg",
+     "lec": "Connective tissue",
+     "n": 14
+    },
+    {
+     "src": "files/slides/histo1-connective/21.jpg",
+     "lec": "Connective tissue",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Reticular fibres consist of collagen type:",
@@ -1342,7 +1636,14 @@ SINA.lectures["histo1-connective"] = {
     "IV"
    ],
    "answer": 2,
-   "why": "Stained by silver."
+   "why": "Stained by silver.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-connective/24.jpg",
+     "lec": "Connective tissue",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Hydroxylation of proline during collagen synthesis requires:",
@@ -1364,7 +1665,19 @@ SINA.lectures["histo1-connective"] = {
     "In the Golgi before secretion"
    ],
    "answer": 1,
-   "why": "Procollagen peptidase."
+   "why": "Procollagen peptidase.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-connective/22.jpg",
+     "lec": "Connective tissue",
+     "n": 22
+    },
+    {
+     "src": "files/slides/histo1-connective/23.jpg",
+     "lec": "Connective tissue",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Elastic fibres are abundant in the:",
@@ -1375,7 +1688,14 @@ SINA.lectures["histo1-connective"] = {
     "Bone"
    ],
    "answer": 1,
-   "why": "Also lungs, yellow ligaments."
+   "why": "Also lungs, yellow ligaments.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-connective/25.jpg",
+     "lec": "Connective tissue",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Tendons are made of:",
@@ -1386,7 +1706,19 @@ SINA.lectures["histo1-connective"] = {
     "Mucous tissue"
    ],
    "answer": 1,
-   "why": "Parallel collagen."
+   "why": "Parallel collagen.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-connective/04.jpg",
+     "lec": "Connective tissue",
+     "n": 4
+    },
+    {
+     "src": "files/slides/histo1-connective/28.jpg",
+     "lec": "Connective tissue",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The dermis is an example of:",
@@ -1397,7 +1729,19 @@ SINA.lectures["histo1-connective"] = {
     "Mucous CT"
    ],
    "answer": 1,
-   "why": "Resists pull in all directions."
+   "why": "Resists pull in all directions.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-connective/04.jpg",
+     "lec": "Connective tissue",
+     "n": 4
+    },
+    {
+     "src": "files/slides/histo1-connective/28.jpg",
+     "lec": "Connective tissue",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Wharton's jelly is:",
@@ -1408,7 +1752,14 @@ SINA.lectures["histo1-connective"] = {
     "Reticular tissue"
    ],
    "answer": 1,
-   "why": "Rich in hyaluronan."
+   "why": "Rich in hyaluronan.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-connective/32.jpg",
+     "lec": "Connective tissue",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Brown adipose tissue is specialised for:",
@@ -1419,7 +1770,14 @@ SINA.lectures["histo1-connective"] = {
     "Blood formation"
    ],
    "answer": 1,
-   "why": "Many mitochondria."
+   "why": "Many mitochondria.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-connective/35.jpg",
+     "lec": "Connective tissue",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1782,7 +2140,14 @@ SINA.lectures["histo1-cartilage"] = {
     "Lymphatic vessels in lacunae"
    ],
    "answer": 1,
-   "why": "It is avascular."
+   "why": "It is avascular.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-cartilage/11.jpg",
+     "lec": "Cartilage",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The main collagen of cartilage matrix is type:",
@@ -1793,7 +2158,19 @@ SINA.lectures["histo1-cartilage"] = {
     "IV"
    ],
    "answer": 1,
-   "why": "Fibrocartilage adds type I."
+   "why": "Fibrocartilage adds type I.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-cartilage/12.jpg",
+     "lec": "Cartilage",
+     "n": 12
+    },
+    {
+     "src": "files/slides/histo1-cartilage/16.jpg",
+     "lec": "Cartilage",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Chondrocytes lie in spaces called:",
@@ -1804,7 +2181,14 @@ SINA.lectures["histo1-cartilage"] = {
     "Haversian canals"
    ],
    "answer": 1,
-   "why": "Often in isogenous groups."
+   "why": "Often in isogenous groups.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-cartilage/14.jpg",
+     "lec": "Cartilage",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "An isogenous group is:",
@@ -1815,7 +2199,19 @@ SINA.lectures["histo1-cartilage"] = {
     "Osteoblasts"
    ],
    "answer": 1,
-   "why": "Sign of interstitial growth."
+   "why": "Sign of interstitial growth.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-cartilage/14.jpg",
+     "lec": "Cartilage",
+     "n": 14
+    },
+    {
+     "src": "files/slides/histo1-cartilage/20.jpg",
+     "lec": "Cartilage",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Growth by chondrocytes dividing inside the cartilage is:",
@@ -1826,7 +2222,14 @@ SINA.lectures["histo1-cartilage"] = {
     "Endochondral"
    ],
    "answer": 1,
-   "why": "Growth from within."
+   "why": "Growth from within.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-cartilage/20.jpg",
+     "lec": "Cartilage",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Appositional growth occurs from the:",
@@ -1837,7 +2240,14 @@ SINA.lectures["histo1-cartilage"] = {
     "Synovium"
    ],
    "answer": 1,
-   "why": "Growth in girth."
+   "why": "Growth in girth.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-cartilage/20.jpg",
+     "lec": "Cartilage",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The most abundant type of cartilage is:",
@@ -1848,7 +2258,14 @@ SINA.lectures["histo1-cartilage"] = {
     "Mucous"
    ],
    "answer": 1,
-   "why": "Glassy matrix."
+   "why": "Glassy matrix.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-cartilage/23.jpg",
+     "lec": "Cartilage",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The external ear contains:",
@@ -1859,7 +2276,14 @@ SINA.lectures["histo1-cartilage"] = {
     "Bone"
    ],
    "answer": 1,
-   "why": "Also the epiglottis."
+   "why": "Also the epiglottis.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-cartilage/26.jpg",
+     "lec": "Cartilage",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which cartilage lacks a perichondrium?",
@@ -1870,7 +2294,14 @@ SINA.lectures["histo1-cartilage"] = {
     "Costal cartilage"
    ],
    "answer": 2,
-   "why": "And articular cartilage."
+   "why": "And articular cartilage.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-cartilage/23.jpg",
+     "lec": "Cartilage",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The intervertebral disc's annulus fibrosus is:",
@@ -1881,7 +2312,14 @@ SINA.lectures["histo1-cartilage"] = {
     "Mucous tissue"
    ],
    "answer": 2,
-   "why": "Also menisci, pubic symphysis."
+   "why": "Also menisci, pubic symphysis.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-cartilage/31.jpg",
+     "lec": "Cartilage",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Epiphyseal growth plates are made of:",
@@ -1892,7 +2330,14 @@ SINA.lectures["histo1-cartilage"] = {
     "Dense CT"
    ],
    "answer": 1,
-   "why": "Model for bone."
+   "why": "Model for bone.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-cartilage/33.jpg",
+     "lec": "Cartilage",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Hyaline matrix looks homogeneous because collagen fibres:",
@@ -1903,7 +2348,14 @@ SINA.lectures["histo1-cartilage"] = {
     "Are heavily calcified"
    ],
    "answer": 1,
-   "why": "Glassy appearance."
+   "why": "Glassy appearance.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-cartilage/25.jpg",
+     "lec": "Cartilage",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The inner layer of the perichondrium is:",
@@ -1914,7 +2366,19 @@ SINA.lectures["histo1-cartilage"] = {
     "Elastic"
    ],
    "answer": 1,
-   "why": "Contains chondroblasts."
+   "why": "Contains chondroblasts.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-cartilage/28.jpg",
+     "lec": "Cartilage",
+     "n": 28
+    },
+    {
+     "src": "files/slides/histo1-cartilage/33.jpg",
+     "lec": "Cartilage",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Proteoglycans of cartilage contain:",
@@ -1925,7 +2389,14 @@ SINA.lectures["histo1-cartilage"] = {
     "Hydroxyapatite crystals"
    ],
    "answer": 1,
-   "why": "On a core protein."
+   "why": "On a core protein.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-cartilage/16.jpg",
+     "lec": "Cartilage",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The epiglottis is made of:",
@@ -1936,7 +2407,19 @@ SINA.lectures["histo1-cartilage"] = {
     "Bone"
    ],
    "answer": 1,
-   "why": "Flexible support."
+   "why": "Flexible support.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-cartilage/26.jpg",
+     "lec": "Cartilage",
+     "n": 26
+    },
+    {
+     "src": "files/slides/histo1-cartilage/33.jpg",
+     "lec": "Cartilage",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2337,7 +2820,14 @@ SINA.lectures["histo1-bone"] = {
     "IV"
    ],
    "answer": 0,
-   "why": "85-95% of bone protein."
+   "why": "85-95% of bone protein.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-bone/20.jpg",
+     "lec": "Bone",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Removing the mineral from bone makes it:",
@@ -2348,7 +2838,14 @@ SINA.lectures["histo1-bone"] = {
     "Unchanged"
    ],
    "answer": 1,
-   "why": "Collagen alone bends."
+   "why": "Collagen alone bends.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-bone/07.jpg",
+     "lec": "Bone",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The cell that synthesises osteoid is the:",
@@ -2359,7 +2856,19 @@ SINA.lectures["histo1-bone"] = {
     "Chondrocyte"
    ],
    "answer": 1,
-   "why": "Then becomes an osteocyte."
+   "why": "Then becomes an osteocyte.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-bone/10.jpg",
+     "lec": "Bone",
+     "n": 10
+    },
+    {
+     "src": "files/slides/histo1-bone/12.jpg",
+     "lec": "Bone",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Osteocytes communicate through:",
@@ -2370,7 +2879,14 @@ SINA.lectures["histo1-bone"] = {
     "Sharpey's fibres"
    ],
    "answer": 1,
-   "why": "Processes link cells."
+   "why": "Processes link cells.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-bone/16.jpg",
+     "lec": "Bone",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Osteoclasts derive from:",
@@ -2381,7 +2897,14 @@ SINA.lectures["histo1-bone"] = {
     "Chondroblasts"
    ],
    "answer": 1,
-   "why": "Fused, multinucleated."
+   "why": "Fused, multinucleated.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-bone/10.jpg",
+     "lec": "Bone",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Osteoclasts lie in:",
@@ -2392,7 +2915,14 @@ SINA.lectures["histo1-bone"] = {
     "The cement line"
    ],
    "answer": 1,
-   "why": "Resorption bays."
+   "why": "Resorption bays.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-bone/17.jpg",
+     "lec": "Bone",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Sharpey's fibres anchor the:",
@@ -2403,7 +2933,14 @@ SINA.lectures["histo1-bone"] = {
     "Osteon to cement line"
    ],
    "answer": 1,
-   "why": "Collagen fibres."
+   "why": "Collagen fibres.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-bone/18.jpg",
+     "lec": "Bone",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Haversian canals are connected transversely by:",
@@ -2414,7 +2951,14 @@ SINA.lectures["histo1-bone"] = {
     "Cement lines"
    ],
    "answer": 1,
-   "why": "Perforating canals."
+   "why": "Perforating canals.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-bone/37.jpg",
+     "lec": "Bone",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Remnants of old osteons are the:",
@@ -2425,7 +2969,19 @@ SINA.lectures["histo1-bone"] = {
     "Trabeculae"
    ],
    "answer": 1,
-   "why": "Between newer osteons."
+   "why": "Between newer osteons.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-bone/37.jpg",
+     "lec": "Bone",
+     "n": 37
+    },
+    {
+     "src": "files/slides/histo1-bone/38.jpg",
+     "lec": "Bone",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Woven bone is characterised by:",
@@ -2436,7 +2992,14 @@ SINA.lectures["histo1-bone"] = {
     "Osteons"
    ],
    "answer": 1,
-   "why": "First bone formed."
+   "why": "First bone formed.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-bone/31.jpg",
+     "lec": "Bone",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Flat bones of the skull vault form by:",
@@ -2447,7 +3010,14 @@ SINA.lectures["histo1-bone"] = {
     "Metaplasia"
    ],
    "answer": 1,
-   "why": "Directly from mesenchyme."
+   "why": "Directly from mesenchyme.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-bone/29.jpg",
+     "lec": "Bone",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Lengthening of long bones depends mainly on the:",
@@ -2458,7 +3028,14 @@ SINA.lectures["histo1-bone"] = {
     "Diploë"
    ],
    "answer": 1,
-   "why": "Columns of dividing chondrocytes."
+   "why": "Columns of dividing chondrocytes.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-bone/28.jpg",
+     "lec": "Bone",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "In the zone of calcification of the growth plate:",
@@ -2469,7 +3046,14 @@ SINA.lectures["histo1-bone"] = {
     "Bone marrow is absent"
    ],
    "answer": 1,
-   "why": "Then bone is laid."
+   "why": "Then bone is laid.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-bone/28.jpg",
+     "lec": "Bone",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Vitamin D deficiency in children causes:",
@@ -2491,7 +3075,14 @@ SINA.lectures["histo1-bone"] = {
     "Absence of osteoclasts"
    ],
    "answer": 1,
-   "why": "Short stature."
+   "why": "Short stature.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-bone/45.jpg",
+     "lec": "Bone",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2936,7 +3527,14 @@ SINA.lectures["histo1-blood"] = {
     "50%"
    ],
    "answer": 1,
-   "why": "5-6 L in men."
+   "why": "5-6 L in men.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-blood/05.jpg",
+     "lec": "Blood",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Plasma is about what percentage water?",
@@ -2947,7 +3545,14 @@ SINA.lectures["histo1-blood"] = {
     "99%"
    ],
    "answer": 2,
-   "why": "10% solutes."
+   "why": "10% solutes.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-blood/08.jpg",
+     "lec": "Blood",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The plasma protein chiefly responsible for oncotic pressure is:",
@@ -2958,7 +3563,14 @@ SINA.lectures["histo1-blood"] = {
     "Haemoglobin"
    ],
    "answer": 1,
-   "why": "Largest fraction."
+   "why": "Largest fraction.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-blood/08.jpg",
+     "lec": "Blood",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "After centrifugation, the buffy coat contains:",
@@ -2969,7 +3581,19 @@ SINA.lectures["histo1-blood"] = {
     "Fibrin"
    ],
    "answer": 1,
-   "why": "Between plasma and red cells."
+   "why": "Between plasma and red cells.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-blood/06.jpg",
+     "lec": "Blood",
+     "n": 6
+    },
+    {
+     "src": "files/slides/histo1-blood/10.jpg",
+     "lec": "Blood",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The haematocrit is the percentage of:",
@@ -2980,7 +3604,19 @@ SINA.lectures["histo1-blood"] = {
     "Platelets"
    ],
    "answer": 1,
-   "why": "Packed cell volume."
+   "why": "Packed cell volume.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-blood/11.jpg",
+     "lec": "Blood",
+     "n": 11
+    },
+    {
+     "src": "files/slides/histo1-blood/14.jpg",
+     "lec": "Blood",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The biconcave shape of red cells is maintained by:",
@@ -2991,7 +3627,14 @@ SINA.lectures["histo1-blood"] = {
     "Collagen"
    ],
    "answer": 1,
-   "why": "Membrane skeleton."
+   "why": "Membrane skeleton.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-blood/12.jpg",
+     "lec": "Blood",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Red cell life span is about:",
@@ -3002,7 +3645,14 @@ SINA.lectures["histo1-blood"] = {
     "1 year"
    ],
    "answer": 2,
-   "why": "Removed by the spleen."
+   "why": "Removed by the spleen.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-blood/12.jpg",
+     "lec": "Blood",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The most numerous leucocyte is the:",
@@ -3013,7 +3663,14 @@ SINA.lectures["histo1-blood"] = {
     "Eosinophil"
    ],
    "answer": 1,
-   "why": "2-6 lobes."
+   "why": "2-6 lobes.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-blood/23.jpg",
+     "lec": "Blood",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "A leucocyte with a bilobed nucleus and red granules is the:",
@@ -3024,7 +3681,14 @@ SINA.lectures["histo1-blood"] = {
     "Monocyte"
    ],
    "answer": 1,
-   "why": "Parasites and allergy."
+   "why": "Parasites and allergy.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-blood/24.jpg",
+     "lec": "Blood",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The rarest leucocyte is the:",
@@ -3046,7 +3710,14 @@ SINA.lectures["histo1-blood"] = {
     "Basophil"
    ],
    "answer": 1,
-   "why": "Becomes a macrophage."
+   "why": "Becomes a macrophage.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-blood/27.jpg",
+     "lec": "Blood",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "B lymphocytes differentiate into:",
@@ -3057,7 +3728,14 @@ SINA.lectures["histo1-blood"] = {
     "Neutrophils"
    ],
    "answer": 1,
-   "why": "Antibody secretion."
+   "why": "Antibody secretion.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-blood/26.jpg",
+     "lec": "Blood",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Azurophilic granules are:",
@@ -3068,7 +3746,14 @@ SINA.lectures["histo1-blood"] = {
     "Glycogen"
    ],
    "answer": 1,
-   "why": "Stain purple."
+   "why": "Stain purple.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-blood/21.jpg",
+     "lec": "Blood",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The granular central part of a platelet is the:",
@@ -3079,7 +3764,19 @@ SINA.lectures["histo1-blood"] = {
     "Canaliculus"
    ],
    "answer": 1,
-   "why": "Pale periphery = hyalomere."
+   "why": "Pale periphery = hyalomere.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-blood/28.jpg",
+     "lec": "Blood",
+     "n": 28
+    },
+    {
+     "src": "files/slides/histo1-blood/41.jpg",
+     "lec": "Blood",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Platelet life span is about:",
@@ -3090,7 +3787,14 @@ SINA.lectures["histo1-blood"] = {
     "1 year"
    ],
    "answer": 1,
-   "why": "Removed by the spleen."
+   "why": "Removed by the spleen.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-blood/41.jpg",
+     "lec": "Blood",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3506,7 +4210,19 @@ SINA.lectures["histo1-muscle"] = {
     "Single and peripheral"
    ],
    "answer": 1,
-   "why": "Cardiac and smooth: central."
+   "why": "Cardiac and smooth: central.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-muscle/03.jpg",
+     "lec": "Muscle tissue",
+     "n": 3
+    },
+    {
+     "src": "files/slides/histo1-muscle/48.jpg",
+     "lec": "Muscle tissue",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Intercalated discs are characteristic of:",
@@ -3517,7 +4233,19 @@ SINA.lectures["histo1-muscle"] = {
     "All muscle"
    ],
    "answer": 1,
-   "why": "Gap junctions and desmosomes."
+   "why": "Gap junctions and desmosomes.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-muscle/34.jpg",
+     "lec": "Muscle tissue",
+     "n": 34
+    },
+    {
+     "src": "files/slides/histo1-muscle/52.jpg",
+     "lec": "Muscle tissue",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "Smooth muscle lacks striations because:",
@@ -3528,7 +4256,14 @@ SINA.lectures["histo1-muscle"] = {
     "Its cells have no nucleus"
    ],
    "answer": 1,
-   "why": "Anchored to dense bodies."
+   "why": "Anchored to dense bodies.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-muscle/38.jpg",
+     "lec": "Muscle tissue",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "The light band containing only thin filaments is the:",
@@ -3539,7 +4274,19 @@ SINA.lectures["histo1-muscle"] = {
     "M line"
    ],
    "answer": 1,
-   "why": "Bisected by the Z line."
+   "why": "Bisected by the Z line.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-muscle/15.jpg",
+     "lec": "Muscle tissue",
+     "n": 15
+    },
+    {
+     "src": "files/slides/histo1-muscle/16.jpg",
+     "lec": "Muscle tissue",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "During contraction, which does NOT change in length?",
@@ -3550,7 +4297,19 @@ SINA.lectures["histo1-muscle"] = {
     "Sarcomere"
    ],
    "answer": 2,
-   "why": "Equals myosin length."
+   "why": "Equals myosin length.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-muscle/15.jpg",
+     "lec": "Muscle tissue",
+     "n": 15
+    },
+    {
+     "src": "files/slides/histo1-muscle/16.jpg",
+     "lec": "Muscle tissue",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "A sarcomere extends between two:",
@@ -3561,7 +4320,19 @@ SINA.lectures["histo1-muscle"] = {
     "A bands"
    ],
    "answer": 1,
-   "why": "Repeating unit."
+   "why": "Repeating unit.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-muscle/07.jpg",
+     "lec": "Muscle tissue",
+     "n": 7
+    },
+    {
+     "src": "files/slides/histo1-muscle/14.jpg",
+     "lec": "Muscle tissue",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The connective tissue around a fascicle is the:",
@@ -3572,7 +4343,14 @@ SINA.lectures["histo1-muscle"] = {
     "Periosteum"
    ],
    "answer": 1,
-   "why": "Endomysium surrounds one fibre."
+   "why": "Endomysium surrounds one fibre.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-muscle/04.jpg",
+     "lec": "Muscle tissue",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Gap junctions in intercalated discs allow:",
@@ -3583,7 +4361,14 @@ SINA.lectures["histo1-muscle"] = {
     "Glycogen storage"
    ],
    "answer": 1,
-   "why": "The heart beats as a unit."
+   "why": "The heart beats as a unit.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-muscle/52.jpg",
+     "lec": "Muscle tissue",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "Skeletal muscle repair relies on:",
@@ -3594,7 +4379,14 @@ SINA.lectures["histo1-muscle"] = {
     "Pericytes only"
    ],
    "answer": 1,
-   "why": "Muscle stem cells."
+   "why": "Muscle stem cells.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-muscle/51.jpg",
+     "lec": "Muscle tissue",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "After a myocardial infarction, the dead muscle is replaced by:",
@@ -3616,7 +4408,14 @@ SINA.lectures["histo1-muscle"] = {
     "Anucleate"
    ],
    "answer": 1,
-   "why": "Gut, vessels."
+   "why": "Gut, vessels.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-muscle/53.jpg",
+     "lec": "Muscle tissue",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "The triad of skeletal muscle is made of a T tubule and:",
@@ -3627,7 +4426,19 @@ SINA.lectures["histo1-muscle"] = {
     "Two nuclei"
    ],
    "answer": 1,
-   "why": "Calcium release."
+   "why": "Calcium release.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-muscle/20.jpg",
+     "lec": "Muscle tissue",
+     "n": 20
+    },
+    {
+     "src": "files/slides/histo1-muscle/23.jpg",
+     "lec": "Muscle tissue",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Voluntary muscle is:",
@@ -3638,7 +4449,14 @@ SINA.lectures["histo1-muscle"] = {
     "Myoepithelial"
    ],
    "answer": 1,
-   "why": "Somatic motor nerves."
+   "why": "Somatic motor nerves.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-muscle/51.jpg",
+     "lec": "Muscle tissue",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "The sarcoplasmic reticulum stores:",
@@ -3649,7 +4467,14 @@ SINA.lectures["histo1-muscle"] = {
     "ATP only"
    ],
    "answer": 1,
-   "why": "Released to trigger contraction."
+   "why": "Released to trigger contraction.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-muscle/19.jpg",
+     "lec": "Muscle tissue",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Branched striated cells with one central nucleus are:",
@@ -3660,7 +4485,19 @@ SINA.lectures["histo1-muscle"] = {
     "Myoepithelial"
    ],
    "answer": 1,
-   "why": "Myocardium."
+   "why": "Myocardium.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-muscle/50.jpg",
+     "lec": "Muscle tissue",
+     "n": 50
+    },
+    {
+     "src": "files/slides/histo1-muscle/52.jpg",
+     "lec": "Muscle tissue",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4020,7 +4857,19 @@ SINA.lectures["histo1-nervous"] = {
     "Neurofilaments"
    ],
    "answer": 1,
-   "why": "Basophilic."
+   "why": "Basophilic.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-nervous/11.jpg",
+     "lec": "Nervous tissue",
+     "n": 11
+    },
+    {
+     "src": "files/slides/histo1-nervous/12.jpg",
+     "lec": "Nervous tissue",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Nissl bodies are absent from the:",
@@ -4031,7 +4880,19 @@ SINA.lectures["histo1-nervous"] = {
     "Perikaryon"
    ],
    "answer": 2,
-   "why": "And the axon."
+   "why": "And the axon.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-nervous/09.jpg",
+     "lec": "Nervous tissue",
+     "n": 9
+    },
+    {
+     "src": "files/slides/histo1-nervous/14.jpg",
+     "lec": "Nervous tissue",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Impulses are carried towards the cell body by:",
@@ -4042,7 +4903,19 @@ SINA.lectures["histo1-nervous"] = {
     "Nodes of Ranvier"
    ],
    "answer": 1,
-   "why": "Axons carry away."
+   "why": "Axons carry away.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-nervous/07.jpg",
+     "lec": "Nervous tissue",
+     "n": 7
+    },
+    {
+     "src": "files/slides/histo1-nervous/09.jpg",
+     "lec": "Nervous tissue",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Most neurons in the body are:",
@@ -4053,7 +4926,14 @@ SINA.lectures["histo1-nervous"] = {
     "Pseudounipolar"
    ],
    "answer": 2,
-   "why": "About 99%."
+   "why": "About 99%.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-nervous/24.jpg",
+     "lec": "Nervous tissue",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Sensory neurons of the dorsal root ganglia are:",
@@ -4064,7 +4944,14 @@ SINA.lectures["histo1-nervous"] = {
     "Anaxonic"
    ],
    "answer": 2,
-   "why": "One process splits in two."
+   "why": "One process splits in two.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-nervous/24.jpg",
+     "lec": "Nervous tissue",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Bipolar neurons are found in the:",
@@ -4086,7 +4973,14 @@ SINA.lectures["histo1-nervous"] = {
     "Microglia"
    ],
    "answer": 1,
-   "why": "Up to ~50 axons each."
+   "why": "Up to ~50 axons each.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-nervous/17.jpg",
+     "lec": "Nervous tissue",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "A single Schwann cell myelinates:",
@@ -4097,7 +4991,19 @@ SINA.lectures["histo1-nervous"] = {
     "Only unmyelinated axons"
    ],
    "answer": 1,
-   "why": "PNS."
+   "why": "PNS.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-nervous/17.jpg",
+     "lec": "Nervous tissue",
+     "n": 17
+    },
+    {
+     "src": "files/slides/histo1-nervous/20.jpg",
+     "lec": "Nervous tissue",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Saltatory conduction occurs because the impulse jumps between:",
@@ -4108,7 +5014,14 @@ SINA.lectures["histo1-nervous"] = {
     "Nissl bodies"
    ],
    "answer": 1,
-   "why": "Much faster."
+   "why": "Much faster.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-nervous/40.jpg",
+     "lec": "Nervous tissue",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "The connective tissue around a fascicle is the:",
@@ -4119,7 +5032,14 @@ SINA.lectures["histo1-nervous"] = {
     "Pia mater"
    ],
    "answer": 1,
-   "why": "Forms a barrier."
+   "why": "Forms a barrier.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-nervous/32.jpg",
+     "lec": "Nervous tissue",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "The blood-brain barrier involves the foot processes of:",
@@ -4130,7 +5050,14 @@ SINA.lectures["histo1-nervous"] = {
     "Oligodendrocytes"
    ],
    "answer": 1,
-   "why": "With endothelium and basement membrane."
+   "why": "With endothelium and basement membrane.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-nervous/37.jpg",
+     "lec": "Nervous tissue",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "The phagocytes of the CNS are:",
@@ -4141,7 +5068,14 @@ SINA.lectures["histo1-nervous"] = {
     "Satellite cells"
    ],
    "answer": 1,
-   "why": "From monocytes."
+   "why": "From monocytes.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-nervous/45.jpg",
+     "lec": "Nervous tissue",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Ependymal cells line the:",
@@ -4152,7 +5086,14 @@ SINA.lectures["histo1-nervous"] = {
     "Ganglia"
    ],
    "answer": 1,
-   "why": "CSF."
+   "why": "CSF.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-nervous/44.jpg",
+     "lec": "Nervous tissue",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "White matter consists mainly of:",
@@ -4163,7 +5104,14 @@ SINA.lectures["histo1-nervous"] = {
     "Ependyma"
    ],
    "answer": 1,
-   "why": "Grey matter has cell bodies."
+   "why": "Grey matter has cell bodies.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-nervous/53.jpg",
+     "lec": "Nervous tissue",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "Guillain-Barré syndrome is a:",
@@ -4511,7 +5459,14 @@ SINA.lectures["histo1-git"] = {
     "Serosa"
    ],
    "answer": 1,
-   "why": "Loose CT of the mucosa."
+   "why": "Loose CT of the mucosa.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-git/08.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The myenteric plexus lies:",
@@ -4522,7 +5477,19 @@ SINA.lectures["histo1-git"] = {
     "In the submucosa"
    ],
    "answer": 1,
-   "why": "Controls peristalsis."
+   "why": "Controls peristalsis.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-git/10.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 10
+    },
+    {
+     "src": "files/slides/histo1-git/12.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The inner layer of the muscularis externa is:",
@@ -4533,7 +5500,14 @@ SINA.lectures["histo1-git"] = {
     "Absent"
    ],
    "answer": 1,
-   "why": "Forms sphincters."
+   "why": "Forms sphincters.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-git/10.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Parts of the gut outside the peritoneal cavity are covered by:",
@@ -4544,7 +5518,14 @@ SINA.lectures["histo1-git"] = {
     "Mesothelium only"
    ],
    "answer": 1,
-   "why": "E.g. oesophagus."
+   "why": "E.g. oesophagus.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-git/11.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The oesophagus is lined by:",
@@ -4555,7 +5536,14 @@ SINA.lectures["histo1-git"] = {
     "Pseudostratified ciliated epithelium"
    ],
    "answer": 1,
-   "why": "Protection against abrasion."
+   "why": "Protection against abrasion.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-git/14.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Longitudinal folds of the empty stomach are called:",
@@ -4566,7 +5554,14 @@ SINA.lectures["histo1-git"] = {
     "Villi"
    ],
    "answer": 1,
-   "why": "Flatten on filling."
+   "why": "Flatten on filling.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-git/20.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Gastric glands open into:",
@@ -4577,7 +5572,19 @@ SINA.lectures["histo1-git"] = {
     "Brunner's glands"
    ],
    "answer": 1,
-   "why": "Surface foveolae."
+   "why": "Surface foveolae.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-git/23.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 23
+    },
+    {
+     "src": "files/slides/histo1-git/24.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Plicae circulares are folds of:",
@@ -4588,7 +5595,14 @@ SINA.lectures["histo1-git"] = {
     "Serosa"
    ],
    "answer": 1,
-   "why": "Permanent folds."
+   "why": "Permanent folds.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-git/31.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "The central lymphatic of a villus is the:",
@@ -4599,7 +5613,14 @@ SINA.lectures["histo1-git"] = {
     "Paneth cell"
    ],
    "answer": 1,
-   "why": "Absorbs fat."
+   "why": "Absorbs fat.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-git/32.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Paneth cells are found in the:",
@@ -4610,7 +5631,19 @@ SINA.lectures["histo1-git"] = {
     "Colonic surface"
    ],
    "answer": 1,
-   "why": "Antimicrobial secretion."
+   "why": "Antimicrobial secretion.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-git/40.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 40
+    },
+    {
+     "src": "files/slides/histo1-git/45.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Brunner's glands are located in the:",
@@ -4621,7 +5654,14 @@ SINA.lectures["histo1-git"] = {
     "Gastric mucosa"
    ],
    "answer": 1,
-   "why": "Alkaline mucus."
+   "why": "Alkaline mucus.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-git/40.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Peyer's patches are characteristic of the:",
@@ -4632,7 +5672,14 @@ SINA.lectures["histo1-git"] = {
     "Stomach"
    ],
    "answer": 1,
-   "why": "Lymphoid follicles."
+   "why": "Lymphoid follicles.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-git/39.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Teniae coli are:",
@@ -4643,7 +5690,14 @@ SINA.lectures["histo1-git"] = {
     "Fat pouches"
    ],
    "answer": 1,
-   "why": "Three bands in the colon."
+   "why": "Three bands in the colon.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-git/46.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "Which feature is absent in the large intestine?",
@@ -4654,7 +5708,14 @@ SINA.lectures["histo1-git"] = {
     "Muscularis mucosae"
    ],
    "answer": 1,
-   "why": "No villi or plicae."
+   "why": "No villi or plicae.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-git/45.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "The endocrine part of the pancreas is the:",
@@ -4665,7 +5726,14 @@ SINA.lectures["histo1-git"] = {
     "Lobular septum"
    ],
    "answer": 1,
-   "why": "Insulin, glucagon."
+   "why": "Insulin, glucagon.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-git/54.jpg",
+     "lec": "Histology of the digestive system",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5029,7 +6097,14 @@ SINA.lectures["histo1-urinary"] = {
     "80-85%"
    ],
    "answer": 1,
-   "why": "They concentrate urine."
+   "why": "They concentrate urine.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-urinary/10.jpg",
+     "lec": "Histology of the urinary system",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The visceral layer of Bowman's capsule is formed by:",
@@ -5040,7 +6115,19 @@ SINA.lectures["histo1-urinary"] = {
     "Endothelium"
    ],
    "answer": 1,
-   "why": "Pedicels on the GBM."
+   "why": "Pedicels on the GBM.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-urinary/15.jpg",
+     "lec": "Histology of the urinary system",
+     "n": 15
+    },
+    {
+     "src": "files/slides/histo1-urinary/18.jpg",
+     "lec": "Histology of the urinary system",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The parietal layer of Bowman's capsule is:",
@@ -5051,7 +6138,14 @@ SINA.lectures["histo1-urinary"] = {
     "Pseudostratified"
    ],
    "answer": 0,
-   "why": "Becomes cuboidal at the urinary pole."
+   "why": "Becomes cuboidal at the urinary pole.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-urinary/18.jpg",
+     "lec": "Histology of the urinary system",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The charge barrier of the glomerular basement membrane is due to:",
@@ -5062,7 +6156,14 @@ SINA.lectures["histo1-urinary"] = {
     "Podocyte actin"
    ],
    "answer": 1,
-   "why": "Restricts anions."
+   "why": "Restricts anions.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-urinary/15.jpg",
+     "lec": "Histology of the urinary system",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Filtration slits lie between:",
@@ -5073,7 +6174,14 @@ SINA.lectures["histo1-urinary"] = {
     "Tubular cells"
    ],
    "answer": 1,
-   "why": "Bridged by a diaphragm."
+   "why": "Bridged by a diaphragm.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-urinary/15.jpg",
+     "lec": "Histology of the urinary system",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Mesangial cells contract in response to:",
@@ -5084,7 +6192,14 @@ SINA.lectures["histo1-urinary"] = {
     "Insulin"
    ],
    "answer": 1,
-   "why": "Reducing glomerular flow."
+   "why": "Reducing glomerular flow.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-urinary/19.jpg",
+     "lec": "Histology of the urinary system",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "A tubule with acidophilic cells and a brush border is the:",
@@ -5095,7 +6210,14 @@ SINA.lectures["histo1-urinary"] = {
     "Thin limb"
    ],
    "answer": 1,
-   "why": "Many mitochondria."
+   "why": "Many mitochondria.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-urinary/23.jpg",
+     "lec": "Histology of the urinary system",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The thin descending limb of the loop of Henle is:",
@@ -5106,7 +6228,14 @@ SINA.lectures["histo1-urinary"] = {
     "Covered by microvilli"
    ],
    "answer": 1,
-   "why": "Ascending limb impermeable."
+   "why": "Ascending limb impermeable.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-urinary/23.jpg",
+     "lec": "Histology of the urinary system",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Aldosterone acts on the DCT to:",
@@ -5117,7 +6246,14 @@ SINA.lectures["histo1-urinary"] = {
     "Reabsorb protein"
    ],
    "answer": 1,
-   "why": "Also the collecting duct."
+   "why": "Also the collecting duct.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-urinary/31.jpg",
+     "lec": "Histology of the urinary system",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Renin is secreted by:",
@@ -5128,7 +6264,19 @@ SINA.lectures["histo1-urinary"] = {
     "Principal cells"
    ],
    "answer": 1,
-   "why": "Modified smooth muscle of the afferent arteriole."
+   "why": "Modified smooth muscle of the afferent arteriole.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-urinary/19.jpg",
+     "lec": "Histology of the urinary system",
+     "n": 19
+    },
+    {
+     "src": "files/slides/histo1-urinary/23.jpg",
+     "lec": "Histology of the urinary system",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The macula densa belongs to the:",
@@ -5139,7 +6287,14 @@ SINA.lectures["histo1-urinary"] = {
     "Loop of Henle thin limb"
    ],
    "answer": 1,
-   "why": "Senses tubular fluid."
+   "why": "Senses tubular fluid.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-urinary/23.jpg",
+     "lec": "Histology of the urinary system",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Intercalated cells of the collecting duct secrete:",
@@ -5150,7 +6305,14 @@ SINA.lectures["histo1-urinary"] = {
     "Aldosterone"
    ],
    "answer": 1,
-   "why": "Acid-base balance."
+   "why": "Acid-base balance.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-urinary/31.jpg",
+     "lec": "Histology of the urinary system",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Urothelium surface cells are:",
@@ -5161,7 +6323,14 @@ SINA.lectures["histo1-urinary"] = {
     "Columnar with brush border"
    ],
    "answer": 1,
-   "why": "Adjust to volume."
+   "why": "Adjust to volume.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-urinary/33.jpg",
+     "lec": "Histology of the urinary system",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "The ureter's muscle coat is:",
@@ -5172,7 +6341,14 @@ SINA.lectures["histo1-urinary"] = {
     "A single oblique layer"
    ],
    "answer": 1,
-   "why": "Outer longitudinal only distally."
+   "why": "Outer longitudinal only distally.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-urinary/35.jpg",
+     "lec": "Histology of the urinary system",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "The prostatic urethra is lined by:",
@@ -5183,7 +6359,14 @@ SINA.lectures["histo1-urinary"] = {
     "Pseudostratified"
    ],
    "answer": 1,
-   "why": "Prostatic ducts open into it."
+   "why": "Prostatic ducts open into it.",
+   "slides": [
+    {
+     "src": "files/slides/histo1-urinary/39.jpg",
+     "lec": "Histology of the urinary system",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

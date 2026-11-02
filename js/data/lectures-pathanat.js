@@ -200,7 +200,19 @@ SINA.lectures["pathanat-intro"] = {
     "Only the genes that cause disease"
    ],
    "answer": 1,
-   "why": "Pathology is defined as the study of structural and functional changes caused by disease."
+   "why": "Pathology is defined as the study of structural and functional changes caused by disease.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/13.jpg",
+     "lec": "Introduction to pathology",
+     "n": 13
+    },
+    {
+     "src": "files/slides/pathanat-intro/44.jpg",
+     "lec": "Introduction to pathology",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Who is considered the father of cellular pathology, proposing disease arises from changes in cells?",
@@ -211,7 +223,14 @@ SINA.lectures["pathanat-intro"] = {
     "Rudolf Virchow"
    ],
    "answer": 3,
-   "why": "Virchow founded cellular pathology; Morgagni had earlier linked disease to organ-level changes."
+   "why": "Virchow founded cellular pathology; Morgagni had earlier linked disease to organ-level changes.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/10.jpg",
+     "lec": "Introduction to pathology",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "An aetiology that is unknown is described as:",
@@ -222,7 +241,14 @@ SINA.lectures["pathanat-intro"] = {
     "Primary"
    ],
    "answer": 2,
-   "why": "A known cause is 'primary'; an unknown cause is 'idiopathic'."
+   "why": "A known cause is 'primary'; an unknown cause is 'idiopathic'.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/39.jpg",
+     "lec": "Introduction to pathology",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "What does 'pathogenesis' refer to?",
@@ -233,7 +259,14 @@ SINA.lectures["pathanat-intro"] = {
     "The cause of disease itself"
    ],
    "answer": 0,
-   "why": "Pathogenesis (pathos + genesis) is the mechanism/development of the disease process."
+   "why": "Pathogenesis (pathos + genesis) is the mechanism/development of the disease process.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/41.jpg",
+     "lec": "Introduction to pathology",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "A lesion affecting a single structure is called:",
@@ -244,7 +277,14 @@ SINA.lectures["pathanat-intro"] = {
     "A lesional complex"
    ],
    "answer": 2,
-   "why": "An elementary lesion is damage to one structure; several combined form a lesional complex."
+   "why": "An elementary lesion is damage to one structure; several combined form a lesional complex.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/46.jpg",
+     "lec": "Introduction to pathology",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "Which pair correctly matches level of examination with its name?",
@@ -255,7 +295,14 @@ SINA.lectures["pathanat-intro"] = {
     "Naked eye = macroscopic pathology"
    ],
    "answer": 3,
-   "why": "Naked-eye/magnifying-glass examination is macroscopic pathology; microscope on tissue is histology, on cells is cytology."
+   "why": "Naked-eye/magnifying-glass examination is macroscopic pathology; microscope on tissue is histology, on cells is cytology.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/18.jpg",
+     "lec": "Introduction to pathology",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "General pathology mainly covers:",
@@ -266,7 +313,19 @@ SINA.lectures["pathanat-intro"] = {
     "Organ-specific disease patterns only"
    ],
    "answer": 1,
-   "why": "General pathology explores basic mechanisms; systematic pathology applies them organ by organ."
+   "why": "General pathology explores basic mechanisms; systematic pathology applies them organ by organ.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/28.jpg",
+     "lec": "Introduction to pathology",
+     "n": 28
+    },
+    {
+     "src": "files/slides/pathanat-intro/29.jpg",
+     "lec": "Introduction to pathology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Who published 'De Humani Corporis Fabrica' (1543), correcting Galen's anatomical errors?",
@@ -277,7 +336,14 @@ SINA.lectures["pathanat-intro"] = {
     "Rudolf Virchow"
    ],
    "answer": 0,
-   "why": "Vesalius's Renaissance work corrected Galenic anatomy through direct dissection."
+   "why": "Vesalius's Renaissance work corrected Galenic anatomy through direct dissection.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/09.jpg",
+     "lec": "Introduction to pathology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The anatomo-clinical correlation is essential because:",
@@ -288,7 +354,19 @@ SINA.lectures["pathanat-intro"] = {
     "It links the lesion with the clinical picture"
    ],
    "answer": 3,
-   "why": "Diagnosis requires correlating morphological findings with the clinical picture."
+   "why": "Diagnosis requires correlating morphological findings with the clinical picture.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/53.jpg",
+     "lec": "Introduction to pathology",
+     "n": 53
+    },
+    {
+     "src": "files/slides/pathanat-intro/54.jpg",
+     "lec": "Introduction to pathology",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "Which of these is an ACQUIRED (not genetic) category of aetiology?",
@@ -299,7 +377,14 @@ SINA.lectures["pathanat-intro"] = {
     "Hereditary"
    ],
    "answer": 1,
-   "why": "Acquired causes include infectious, nutritional, chemical and physical factors, as opposed to genetic causes."
+   "why": "Acquired causes include infectious, nutritional, chemical and physical factors, as opposed to genetic causes.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/40.jpg",
+     "lec": "Introduction to pathology",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Who established the germ theory of disease, alongside Robert Koch?",
@@ -310,7 +395,14 @@ SINA.lectures["pathanat-intro"] = {
     "Giovanni Morgagni"
    ],
    "answer": 1,
-   "why": "Pasteur and Koch established that microorganisms cause many diseases (germ theory)."
+   "why": "Pasteur and Koch established that microorganisms cause many diseases (germ theory).",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/10.jpg",
+     "lec": "Introduction to pathology",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Who invented the microscope, enabling the study of cells and microorganisms?",
@@ -321,7 +413,14 @@ SINA.lectures["pathanat-intro"] = {
     "Paul Langerhans"
    ],
    "answer": 2,
-   "why": "Van Leeuwenhoek's microscopy opened cellular-level observation central to pathology."
+   "why": "Van Leeuwenhoek's microscopy opened cellular-level observation central to pathology.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/10.jpg",
+     "lec": "Introduction to pathology",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Anatomical pathology is practised by:",
@@ -332,7 +431,14 @@ SINA.lectures["pathanat-intro"] = {
     "Any laboratory biologist"
    ],
    "answer": 0,
-   "why": "Unlike general medical analyses (open to biologist physicians or pharmacists), anatomical pathology is a pathologist-physician's role."
+   "why": "Unlike general medical analyses (open to biologist physicians or pharmacists), anatomical pathology is a pathologist-physician's role.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/14.jpg",
+     "lec": "Introduction to pathology",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Immunohistochemistry, molecular biology and (rarely) electron microscopy are used in the diagnostic process mainly to:",
@@ -343,7 +449,14 @@ SINA.lectures["pathanat-intro"] = {
     "Determine the patient's prognosis alone"
    ],
    "answer": 1,
-   "why": "These are additional techniques that complement the core morphological/microscopic analysis."
+   "why": "These are additional techniques that complement the core morphological/microscopic analysis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/56.jpg",
+     "lec": "Introduction to pathology",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "The term 'autopsy' comes from the Greek for:",
@@ -354,7 +467,14 @@ SINA.lectures["pathanat-intro"] = {
     "To see for oneself"
    ],
    "answer": 3,
-   "why": "Autopsia means 'to see for oneself'; scientific autopsies date from about 300 BC."
+   "why": "Autopsia means 'to see for oneself'; scientific autopsies date from about 300 BC.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/07.jpg",
+     "lec": "Introduction to pathology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which civilisation practised removal and examination of internal organs around 3000 BC?",
@@ -365,7 +485,14 @@ SINA.lectures["pathanat-intro"] = {
     "Romans"
    ],
    "answer": 2,
-   "why": "Through the religious practice of mummification."
+   "why": "Through the religious practice of mummification.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/08.jpg",
+     "lec": "Introduction to pathology",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "During the Middle Ages, pathology progressed little because:",
@@ -376,7 +503,14 @@ SINA.lectures["pathanat-intro"] = {
     "Galen's teachings dominated and dissection was taboo"
    ],
    "answer": 3,
-   "why": "Human dissection was rare for religious and cultural reasons."
+   "why": "Human dissection was rare for religious and cultural reasons.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/09.jpg",
+     "lec": "Introduction to pathology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which modern technology is cited for analysing pathology images for faster diagnosis?",
@@ -387,7 +521,14 @@ SINA.lectures["pathanat-intro"] = {
     "Artificial intelligence (e.g. PathAI)"
    ],
    "answer": 3,
-   "why": "The lecture also cites digital pathology, single-cell sequencing and spatial transcriptomics as future directions."
+   "why": "The lecture also cites digital pathology, single-cell sequencing and spatial transcriptomics as future directions.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/11.jpg",
+     "lec": "Introduction to pathology",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Cirrhosis is used in the lecture as an example of:",
@@ -398,7 +539,14 @@ SINA.lectures["pathanat-intro"] = {
     "A psychogenic disease"
    ],
    "answer": 0,
-   "why": "The nodular liver is a gross lesion; trichrome staining shows the fibrous bands microscopically."
+   "why": "The nodular liver is a gross lesion; trichrome staining shows the fibrous bands microscopically.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/20.jpg",
+     "lec": "Introduction to pathology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Multifocal granulomas in tuberculosis illustrate:",
@@ -409,7 +557,14 @@ SINA.lectures["pathanat-intro"] = {
     "An elementary lesion only"
    ],
    "answer": 0,
-   "why": "Granuloma is the microscopic lesion of TB; multifocal granulomas are the gross lesion."
+   "why": "Granuloma is the microscopic lesion of TB; multifocal granulomas are the gross lesion.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/23.jpg",
+     "lec": "Introduction to pathology",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which is a systematic (systemic) pathology topic rather than a general pathology topic?",
@@ -420,7 +575,14 @@ SINA.lectures["pathanat-intro"] = {
     "Cardiovascular system pathology"
    ],
    "answer": 3,
-   "why": "Systematic pathology applies general mechanisms to organ systems."
+   "why": "Systematic pathology applies general mechanisms to organ systems.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/29.jpg",
+     "lec": "Introduction to pathology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Forensic pathology deals with:",
@@ -431,7 +593,14 @@ SINA.lectures["pathanat-intro"] = {
     "Experiments on cultured tissue"
    ],
    "answer": 2,
-   "why": "It is one of the subfields of human pathology, with histopathology, cytopathology and molecular pathology."
+   "why": "It is one of the subfields of human pathology, with histopathology, cytopathology and molecular pathology.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/31.jpg",
+     "lec": "Introduction to pathology",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "A disease whose cause is drug-induced is classified as:",
@@ -442,7 +611,14 @@ SINA.lectures["pathanat-intro"] = {
     "Hereditary"
    ],
    "answer": 2,
-   "why": "Acquired causes include metabolic, infective, inflammatory, drug-induced, vascular, degenerative and growth disorders."
+   "why": "Acquired causes include metabolic, infective, inflammatory, drug-induced, vascular, degenerative and growth disorders.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/35.jpg",
+     "lec": "Introduction to pathology",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "The incubation period is best described as:",
@@ -453,7 +629,14 @@ SINA.lectures["pathanat-intro"] = {
     "The expected outcome of the disease"
    ],
    "answer": 0,
-   "why": "It belongs to pathogenesis — how the disease develops."
+   "why": "It belongs to pathogenesis — how the disease develops.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/42.jpg",
+     "lec": "Introduction to pathology",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "In the pathologist's reasoning, clinical information is the equivalent of:",
@@ -464,7 +647,14 @@ SINA.lectures["pathanat-intro"] = {
     "The physical examination"
    ],
    "answer": 1,
-   "why": "The semiology of cellular and tissue alterations is the equivalent of the physical examination."
+   "why": "The semiology of cellular and tissue alterations is the equivalent of the physical examination.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/54.jpg",
+     "lec": "Introduction to pathology",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "In the clinical case, lung tumour cells positive for PSA and negative for TTF-1 indicated:",
@@ -475,7 +665,14 @@ SINA.lectures["pathanat-intro"] = {
     "A lymphoma"
    ],
    "answer": 0,
-   "why": "PSA positivity pointed to prostatic origin, confirmed as a solitary lung metastasis."
+   "why": "PSA positivity pointed to prostatic origin, confirmed as a solitary lung metastasis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/64.jpg",
+     "lec": "Introduction to pathology",
+     "n": 64
+    }
+   ]
   },
   {
    "q": "Which is NOT a role of pathology listed in the lecture?",
@@ -486,7 +683,14 @@ SINA.lectures["pathanat-intro"] = {
     "Prescribing the drug dose"
    ],
    "answer": 3,
-   "why": "The four roles: diagnostic, prognostic, therapeutic response, research."
+   "why": "The four roles: diagnostic, prognostic, therapeutic response, research.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/32.jpg",
+     "lec": "Introduction to pathology",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Electron microscopy in the diagnostic process is:",
@@ -497,7 +701,14 @@ SINA.lectures["pathanat-intro"] = {
     "Used routinely for every biopsy"
    ],
    "answer": 0,
-   "why": "Macroscopy and optical microscopy are the core, complemented by IHC and molecular biology."
+   "why": "Macroscopy and optical microscopy are the core, complemented by IHC and molecular biology.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/56.jpg",
+     "lec": "Introduction to pathology",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "Health is defined in the lecture as:",
@@ -508,7 +719,14 @@ SINA.lectures["pathanat-intro"] = {
     "Normal results on every laboratory test"
    ],
    "answer": 2,
-   "why": "Normality spans anatomy, histology, genetics, physiology and biochemistry."
+   "why": "Normality spans anatomy, histology, genetics, physiology and biochemistry.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-intro/34.jpg",
+     "lec": "Introduction to pathology",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1054,7 +1272,14 @@ SINA.lectures["pathanat-techniques"] = {
     "Absolute ethanol"
    ],
    "answer": 2,
-   "why": "Formalin at 10% is cheap, penetrates rapidly and does not over-harden tissue; it must be handled carefully as it is toxic and carcinogenic."
+   "why": "Formalin at 10% is cheap, penetrates rapidly and does not over-harden tissue; it must be handled carefully as it is toxic and carcinogenic.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/38.jpg",
+     "lec": "Techniques in pathology",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "How thick are routine paraffin sections cut for microscopy?",
@@ -1065,7 +1290,14 @@ SINA.lectures["pathanat-techniques"] = {
     "10 to 20 microns"
    ],
    "answer": 2,
-   "why": "The microtome cuts thin sections, 3 to 5 microns, which are floated onto slides."
+   "why": "The microtome cuts thin sections, 3 to 5 microns, which are floated onto slides.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/65.jpg",
+     "lec": "Techniques in pathology",
+     "n": 65
+    }
+   ]
   },
   {
    "q": "In H&E staining, what does haematoxylin stain?",
@@ -1076,7 +1308,19 @@ SINA.lectures["pathanat-techniques"] = {
     "Collagen fibres"
    ],
    "answer": 0,
-   "why": "Haematoxylin stains acidic structures (nucleic acids in the nucleus) blue; eosin stains basic structures (cytoplasm) pink."
+   "why": "Haematoxylin stains acidic structures (nucleic acids in the nucleus) blue; eosin stains basic structures (cytoplasm) pink.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/69.jpg",
+     "lec": "Techniques in pathology",
+     "n": 69
+    },
+    {
+     "src": "files/slides/pathanat-techniques/70.jpg",
+     "lec": "Techniques in pathology",
+     "n": 70
+    }
+   ]
   },
   {
    "q": "Which special stain is used to confirm amyloid deposits?",
@@ -1087,7 +1331,14 @@ SINA.lectures["pathanat-techniques"] = {
     "PAS"
    ],
    "answer": 0,
-   "why": "Congo red-stained amyloid shows apple-green birefringence under polarised light."
+   "why": "Congo red-stained amyloid shows apple-green birefringence under polarised light.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/93.jpg",
+     "lec": "Techniques in pathology",
+     "n": 93
+    }
+   ]
   },
   {
    "q": "Which stain detects iron (haemosiderin) in tissue?",
@@ -1098,7 +1349,14 @@ SINA.lectures["pathanat-techniques"] = {
     "Fontana stain"
    ],
    "answer": 1,
-   "why": "Perls' Prussian blue reaction detects haemosiderin/iron."
+   "why": "Perls' Prussian blue reaction detects haemosiderin/iron.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/92.jpg",
+     "lec": "Techniques in pathology",
+     "n": 92
+    }
+   ]
   },
   {
    "q": "What is the main disadvantage of frozen section compared with paraffin sections?",
@@ -1109,7 +1367,14 @@ SINA.lectures["pathanat-techniques"] = {
     "It cannot be done during surgery"
    ],
    "answer": 0,
-   "why": "Frozen sections are fast but the morphology is inferior to paraffin, so the diagnosis must be confirmed after formal fixation and embedding."
+   "why": "Frozen sections are fast but the morphology is inferior to paraffin, so the diagnosis must be confirmed after formal fixation and embedding.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/107.jpg",
+     "lec": "Techniques in pathology",
+     "n": 107
+    }
+   ]
   },
   {
    "q": "Which of these is NOT a typical indication for frozen section?",
@@ -1120,7 +1385,14 @@ SINA.lectures["pathanat-techniques"] = {
     "Routine diagnosis with no urgency"
    ],
    "answer": 3,
-   "why": "Frozen section is reserved for results with an immediate impact on the operation, not for routine, non-urgent diagnosis."
+   "why": "Frozen section is reserved for results with an immediate impact on the operation, not for routine, non-urgent diagnosis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/109.jpg",
+     "lec": "Techniques in pathology",
+     "n": 109
+    }
+   ]
   },
   {
    "q": "What does immunohistochemistry (IHC) detect?",
@@ -1131,7 +1403,14 @@ SINA.lectures["pathanat-techniques"] = {
     "Only glycogen content"
    ],
    "answer": 0,
-   "why": "IHC uses an antibody linked to an enzyme or fluorochrome to reveal a specific antigen as a coloured reaction."
+   "why": "IHC uses an antibody linked to an enzyme or fluorochrome to reveal a specific antigen as a coloured reaction.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/95.jpg",
+     "lec": "Techniques in pathology",
+     "n": 95
+    }
+   ]
   },
   {
    "q": "A fine-needle aspiration (FNA) of a thyroid nodule is an example of which type of specimen?",
@@ -1142,7 +1421,19 @@ SINA.lectures["pathanat-techniques"] = {
     "Cytological specimen"
    ],
    "answer": 3,
-   "why": "FNA/FNAC collects isolated cells, making it a cytological specimen, unlike a biopsy which contains cells and tissue architecture."
+   "why": "FNA/FNAC collects isolated cells, making it a cytological specimen, unlike a biopsy which contains cells and tissue architecture.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/08.jpg",
+     "lec": "Techniques in pathology",
+     "n": 8
+    },
+    {
+     "src": "files/slides/pathanat-techniques/09.jpg",
+     "lec": "Techniques in pathology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "How long are paraffin blocks and slides typically archived?",
@@ -1153,7 +1444,14 @@ SINA.lectures["pathanat-techniques"] = {
     "1 month, like the tissue"
    ],
    "answer": 1,
-   "why": "Storage is at least 10 years, allowing second opinions and further IHC or genetic testing, and is lifelong for paediatric pathology."
+   "why": "Storage is at least 10 years, allowing second opinions and further IHC or genetic testing, and is lifelong for paediatric pathology.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/128.jpg",
+     "lec": "Techniques in pathology",
+     "n": 128
+    }
+   ]
   },
   {
    "q": "What happens to residual tissue fragments after the pathology report is issued?",
@@ -1164,7 +1462,14 @@ SINA.lectures["pathanat-techniques"] = {
     "They are frozen indefinitely at -80°C"
    ],
    "answer": 0,
-   "why": "Residual specimens are preserved in formalin in ventilated cabinets for about a month after the report, then destroyed by incineration."
+   "why": "Residual specimens are preserved in formalin in ventilated cabinets for about a month after the report, then destroyed by incineration.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/126.jpg",
+     "lec": "Techniques in pathology",
+     "n": 126
+    }
+   ]
   },
   {
    "q": "A forensic autopsy is performed when...",
@@ -1175,7 +1480,14 @@ SINA.lectures["pathanat-techniques"] = {
     "It is required for insurance purposes only"
    ],
    "answer": 1,
-   "why": "Forensic autopsy addresses a possible criminal cause of death; clinical/academic autopsy addresses uncertain medical cause of death, education, and research."
+   "why": "Forensic autopsy addresses a possible criminal cause of death; clinical/academic autopsy addresses uncertain medical cause of death, education, and research.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/28.jpg",
+     "lec": "Techniques in pathology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which step in tissue processing removes the fixative before clearing?",
@@ -1186,7 +1498,14 @@ SINA.lectures["pathanat-techniques"] = {
     "Dehydration through graded alcohols"
    ],
    "answer": 3,
-   "why": "Dehydration passes the tissue through increasing alcohol concentrations to remove water/fixative before clearing and wax infiltration."
+   "why": "Dehydration passes the tissue through increasing alcohol concentrations to remove water/fixative before clearing and wax infiltration.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/55.jpg",
+     "lec": "Techniques in pathology",
+     "n": 55
+    }
+   ]
   },
   {
    "q": "What is the purpose of paraffin impregnation/embedding?",
@@ -1197,7 +1516,14 @@ SINA.lectures["pathanat-techniques"] = {
     "To fix the tissue initially"
    ],
    "answer": 2,
-   "why": "Wax fills the spaces left by water removal, hardening the tissue so the microtome can cut very thin, intact sections."
+   "why": "Wax fills the spaces left by water removal, hardening the tissue so the microtome can cut very thin, intact sections.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/56.jpg",
+     "lec": "Techniques in pathology",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "Cytology as a screening or diagnostic test...",
@@ -1208,7 +1534,14 @@ SINA.lectures["pathanat-techniques"] = {
     "Is only used in dermatology"
    ],
    "answer": 0,
-   "why": "Cytopathology gives partial, sometimes uncertain information and should be confirmed histologically before chemotherapy, radiotherapy or surgery."
+   "why": "Cytopathology gives partial, sometimes uncertain information and should be confirmed histologically before chemotherapy, radiotherapy or surgery.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/89.jpg",
+     "lec": "Techniques in pathology",
+     "n": 89
+    }
+   ]
   },
   {
    "q": "Fresh samples should reach the pathology lab within:",
@@ -1219,7 +1552,14 @@ SINA.lectures["pathanat-techniques"] = {
     "1 week"
    ],
    "answer": 2,
-   "why": "Sample quality determines the quality of the study; transport by pneumatic tube, dumbwaiter or staff."
+   "why": "Sample quality determines the quality of the study; transport by pneumatic tube, dumbwaiter or staff.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/36.jpg",
+     "lec": "Techniques in pathology",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Formaldehyde in solution is called:",
@@ -1230,7 +1570,14 @@ SINA.lectures["pathanat-techniques"] = {
     "Formalin"
    ],
    "answer": 3,
-   "why": "Formaldehyde is a gas soluble in water; the 10% solution is the usual fixative."
+   "why": "Formaldehyde is a gas soluble in water; the 10% solution is the usual fixative.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/38.jpg",
+     "lec": "Techniques in pathology",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which is a hazard of formalin?",
@@ -1241,7 +1588,14 @@ SINA.lectures["pathanat-techniques"] = {
     "It freezes the tissue"
    ],
    "answer": 1,
-   "why": "Hence careful handling; it is cheap and penetrates rapidly."
+   "why": "Hence careful handling; it is cheap and penetrates rapidly.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/38.jpg",
+     "lec": "Techniques in pathology",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Cassette engraving mainly serves to:",
@@ -1252,7 +1606,14 @@ SINA.lectures["pathanat-techniques"] = {
     "Traceability of each sample"
    ],
    "answer": 3,
-   "why": "Manual marker or laser engraving prevents specimen mix-ups."
+   "why": "Manual marker or laser engraving prevents specimen mix-ups.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/44.jpg",
+     "lec": "Techniques in pathology",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Grossing is performed by:",
@@ -1263,7 +1624,14 @@ SINA.lectures["pathanat-techniques"] = {
     "The laboratory secretary"
    ],
    "answer": 2,
-   "why": "Biopsies are counted and measured; specimens are oriented, measured, weighed and the margins inked."
+   "why": "Biopsies are counted and measured; specimens are oriented, measured, weighed and the margins inked.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/48.jpg",
+     "lec": "Techniques in pathology",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Margins of a surgical specimen are inked to:",
@@ -1274,7 +1642,14 @@ SINA.lectures["pathanat-techniques"] = {
     "Prevent autolysis of the tissue"
    ],
    "answer": 0,
-   "why": "Ink marks the surgical edge so that margin status can be assessed."
+   "why": "Ink marks the surgical edge so that margin status can be assessed.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/48.jpg",
+     "lec": "Techniques in pathology",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Sections are floated on a warm water bath to:",
@@ -1285,7 +1660,19 @@ SINA.lectures["pathanat-techniques"] = {
     "Fix them in formalin"
    ],
    "answer": 2,
-   "why": "Then the slides are stained and mounted with a cover slip."
+   "why": "Then the slides are stained and mounted with a cover slip.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/67.jpg",
+     "lec": "Techniques in pathology",
+     "n": 67
+    },
+    {
+     "src": "files/slides/pathanat-techniques/75.jpg",
+     "lec": "Techniques in pathology",
+     "n": 75
+    }
+   ]
   },
   {
    "q": "Which special stain detects calcification?",
@@ -1296,7 +1683,14 @@ SINA.lectures["pathanat-techniques"] = {
     "PAS"
    ],
    "answer": 1,
-   "why": "Fontana: melanin; PAS: glycogen/mucin; Congo red: amyloid."
+   "why": "Fontana: melanin; PAS: glycogen/mucin; Congo red: amyloid.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/92.jpg",
+     "lec": "Techniques in pathology",
+     "n": 92
+    }
+   ]
   },
   {
    "q": "Masson's trichrome is used to detect:",
@@ -1307,7 +1701,14 @@ SINA.lectures["pathanat-techniques"] = {
     "Amyloid"
    ],
    "answer": 2,
-   "why": "It highlights collagen in fibrous tissue."
+   "why": "It highlights collagen in fibrous tissue.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/91.jpg",
+     "lec": "Techniques in pathology",
+     "n": 91
+    }
+   ]
   },
   {
    "q": "The touch preparation (imprint) technique consists of:",
@@ -1318,7 +1719,14 @@ SINA.lectures["pathanat-techniques"] = {
     "Injecting dye into the specimen"
    ],
    "answer": 0,
-   "why": "It gives a rapid overview of cellular details."
+   "why": "It gives a rapid overview of cellular details.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/80.jpg",
+     "lec": "Techniques in pathology",
+     "n": 80
+    }
+   ]
   },
   {
    "q": "Cytocentrifugation is used for:",
@@ -1329,7 +1737,14 @@ SINA.lectures["pathanat-techniques"] = {
     "Concentrating cells from fluids"
    ],
    "answer": 3,
-   "why": "Fixation, centrifugation and staining must be prompt to avoid autolysis."
+   "why": "Fixation, centrifugation and staining must be prompt to avoid autolysis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/82.jpg",
+     "lec": "Techniques in pathology",
+     "n": 82
+    }
+   ]
   },
   {
    "q": "Papanicolaou staining of cervical smears requires fixation by:",
@@ -1340,7 +1755,14 @@ SINA.lectures["pathanat-techniques"] = {
     "Formalin for 24 hours"
    ],
    "answer": 2,
-   "why": "Air-drying is used for May-Grünwald-Giemsa staining."
+   "why": "Air-drying is used for May-Grünwald-Giemsa staining.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/83.jpg",
+     "lec": "Techniques in pathology",
+     "n": 83
+    }
+   ]
   },
   {
    "q": "Detection of EGFR mutations in lung adenocarcinoma is an example of molecular biology used for:",
@@ -1351,7 +1773,14 @@ SINA.lectures["pathanat-techniques"] = {
     "Diagnosis of infection"
    ],
    "answer": 1,
-   "why": "Other uses: EBV detection, lymphoma diagnosis, N-Myc prognosis in neuroblastoma."
+   "why": "Other uses: EBV detection, lymphoma diagnosis, N-Myc prognosis in neuroblastoma.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/100.jpg",
+     "lec": "Techniques in pathology",
+     "n": 100
+    }
+   ]
   },
   {
    "q": "A tumour bank stores samples:",
@@ -1362,7 +1791,14 @@ SINA.lectures["pathanat-techniques"] = {
     "Fresh and frozen at -80°C with consent"
    ],
    "answer": 3,
-   "why": "Both tumour and non-tumour tissue for potential molecular studies."
+   "why": "Both tumour and non-tumour tissue for potential molecular studies.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/131.jpg",
+     "lec": "Techniques in pathology",
+     "n": 131
+    }
+   ]
   },
   {
    "q": "Paper archives are usually kept:",
@@ -1373,7 +1809,14 @@ SINA.lectures["pathanat-techniques"] = {
     "1 month after the report"
    ],
    "answer": 1,
-   "why": "They ensure confidentiality and support follow-up, research and quality assurance."
+   "why": "They ensure confidentiality and support follow-up, research and quality assurance.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/129.jpg",
+     "lec": "Techniques in pathology",
+     "n": 129
+    }
+   ]
   },
   {
    "q": "Blocks and slides are archived at:",
@@ -1384,7 +1827,14 @@ SINA.lectures["pathanat-techniques"] = {
     "37°C in an incubator"
    ],
    "answer": 2,
-   "why": "Stable temperature and dryness preserve them for second opinions and further tests."
+   "why": "Stable temperature and dryness preserve them for second opinions and further tests.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/127.jpg",
+     "lec": "Techniques in pathology",
+     "n": 127
+    }
+   ]
   },
   {
    "q": "In the clinical case of a bleeding friable colonic mass, the right first step was:",
@@ -1395,7 +1845,14 @@ SINA.lectures["pathanat-techniques"] = {
     "Fine-needle aspiration"
    ],
    "answer": 0,
-   "why": "The biopsy showed a moderately differentiated adenocarcinoma, leading to left colectomy."
+   "why": "The biopsy showed a moderately differentiated adenocarcinoma, leading to left colectomy.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-techniques/142.jpg",
+     "lec": "Techniques in pathology",
+     "n": 142
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3050,7 +3507,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Ischaemic/hypoxic injury"
    ],
    "answer": 3,
-   "why": "Ischaemia and hypoxia are the most common causes and can produce reversible or irreversible injury."
+   "why": "Ischaemia and hypoxia are the most common causes and can produce reversible or irreversible injury.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/32.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Cell injury typically begins with:",
@@ -3061,7 +3525,19 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Nuclear fragmentation"
    ],
    "answer": 0,
-   "why": "Without ATP the membrane pumps fail and calcium accumulates in the cytoplasm."
+   "why": "Without ATP the membrane pumps fail and calcium accumulates in the cytoplasm.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/34.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 34
+    },
+    {
+     "src": "files/slides/pathanat-cell-injury/38.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Excess cytoplasmic calcium is harmful because it:",
@@ -3072,7 +3548,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Stimulates protein synthesis and repair"
    ],
    "answer": 2,
-   "why": "These three effects are the classic consequences of calcium overload."
+   "why": "These three effects are the classic consequences of calcium overload.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/39.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "After how long of hypoxia does cardiac muscle suffer irreversible injury?",
@@ -3083,7 +3566,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "About 2 minutes"
    ],
    "answer": 1,
-   "why": "Cardiac muscle is highly susceptible; skeletal muscle withstands hypoxia much longer."
+   "why": "Cardiac muscle is highly susceptible; skeletal muscle withstands hypoxia much longer.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/31.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Which is a sign of REVERSIBLE cell injury?",
@@ -3094,7 +3584,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Membrane blebs and swollen mitochondria"
    ],
    "answer": 3,
-   "why": "Blebs, swollen ER/mitochondria and myelin figures are reversible; nuclear changes mark irreversibility."
+   "why": "Blebs, swollen ER/mitochondria and myelin figures are reversible; nuclear changes mark irreversibility.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/41.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "The earliest and commonest morphological form of reversible injury is:",
@@ -3105,7 +3602,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Mucoid change"
    ],
    "answer": 1,
-   "why": "Hydropic change (cloudy swelling) is water accumulation in the cytoplasm."
+   "why": "Hydropic change (cloudy swelling) is water accumulation in the cytoplasm.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/51.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "Mallory bodies are an example of:",
@@ -3116,7 +3620,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Extracellular hyaline in arterioles"
    ],
    "answer": 2,
-   "why": "Mallory's hyaline is seen in hepatocytes in alcoholic liver cell injury."
+   "why": "Mallory's hyaline is seen in hepatocytes in alcoholic liver cell injury.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/60.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 60
+    }
+   ]
   },
   {
    "q": "Russell bodies represent:",
@@ -3127,7 +3638,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Fat droplets stored in hepatocytes"
    ],
    "answer": 0,
-   "why": "Russell bodies are intracellular hyaline in plasma cells."
+   "why": "Russell bodies are intracellular hyaline in plasma cells.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/61.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 61
+    }
+   ]
   },
   {
    "q": "Zenker's degeneration of the rectus abdominis occurs in:",
@@ -3138,7 +3656,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Alcoholism"
    ],
    "answer": 0,
-   "why": "It is a hyaline degeneration of muscle seen in typhoid fever."
+   "why": "It is a hyaline degeneration of muscle seen in typhoid fever.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/59.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 59
+    }
+   ]
   },
   {
    "q": "Which stain is positive for epithelial mucin but negative for connective-tissue mucin?",
@@ -3149,7 +3674,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "H&E"
    ],
    "answer": 2,
-   "why": "Epithelial mucin is PAS-positive; connective-tissue mucin is PAS-negative but colloidal-iron positive; both are Alcian blue positive."
+   "why": "Epithelial mucin is PAS-positive; connective-tissue mucin is PAS-negative but colloidal-iron positive; both are Alcian blue positive.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/67.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 67
+    }
+   ]
   },
   {
    "q": "Fatty change is most commonly seen in which organ?",
@@ -3160,7 +3692,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Bone"
    ],
    "answer": 1,
-   "why": "Intracellular neutral fat accumulation is particularly common in the liver, but can affect heart, muscle and kidney."
+   "why": "Intracellular neutral fat accumulation is particularly common in the liver, but can affect heart, muscle and kidney.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/74.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 74
+    }
+   ]
   },
   {
    "q": "Hyaline arteriolosclerosis of renal vessels is seen in:",
@@ -3171,7 +3710,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Typhoid fever"
    ],
    "answer": 0,
-   "why": "It is a classic extracellular hyaline change."
+   "why": "It is a classic extracellular hyaline change.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/64.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 64
+    }
+   ]
   },
   {
    "q": "Autolysis is:",
@@ -3182,7 +3728,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "A subtype of apoptosis"
    ],
    "answer": 1,
-   "why": "Autolysis is distinct from both necrosis and apoptosis."
+   "why": "Autolysis is distinct from both necrosis and apoptosis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/78.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 78
+    }
+   ]
   },
   {
    "q": "Which is an immunologic cause of cell injury?",
@@ -3193,7 +3746,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Anaphylactic reaction"
    ],
    "answer": 3,
-   "why": "Hypersensitivity, anaphylaxis and autoimmune disease are immunologic causes."
+   "why": "Hypersensitivity, anaphylaxis and autoimmune disease are immunologic causes.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/23.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The functional and structural unit of all living things is:",
@@ -3204,7 +3764,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "The tissue"
    ],
    "answer": 0,
-   "why": "The cell is the smallest living thing in the human organism."
+   "why": "The cell is the smallest living thing in the human organism.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/05.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which organelle detoxifies harmful substances and synthesises lipids?",
@@ -3215,7 +3782,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Golgi apparatus"
    ],
    "answer": 0,
-   "why": "Rough ER makes proteins; Golgi packages them; lysosomes digest waste."
+   "why": "Rough ER makes proteins; Golgi packages them; lysosomes digest waste.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/07.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Rapid change in atmospheric pressure is classified as which cause of injury?",
@@ -3226,7 +3800,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Chemical"
    ],
    "answer": 1,
-   "why": "With mechanical trauma, heat/cold, electricity and radiation."
+   "why": "With mechanical trauma, heat/cold, electricity and radiation.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/16.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Oxygen at high concentration is listed as a:",
@@ -3237,7 +3818,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Chemical cause of cell injury"
    ],
    "answer": 3,
-   "why": "With cyanide, arsenic, mercury, acids, pollutants, pesticides, hypertonic solutions, alcohol and drugs."
+   "why": "With cyanide, arsenic, mercury, acids, pollutants, pesticides, hypertonic solutions, alcohol and drugs.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/18.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Psychogenic diseases such as depression show:",
@@ -3248,7 +3836,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Necrosis of cortical cells"
    ],
    "answer": 2,
-   "why": "But addiction, alcoholism and smoking cause organic disease."
+   "why": "But addiction, alcoholism and smoking cause organic disease.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/22.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Immunity is described as a 'double-edged sword' because:",
@@ -3259,7 +3854,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "It protects but can also injure"
    ],
    "answer": 3,
-   "why": "Anaphylaxis and autoimmune diseases are examples."
+   "why": "Anaphylaxis and autoimmune diseases are examples.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/23.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Cellular ageing (senescence) leads to:",
@@ -3270,7 +3872,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Hyperplasia of every organ"
    ],
    "answer": 2,
-   "why": "Culminating in death of the individual."
+   "why": "Culminating in death of the individual.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/24.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which factor determines the outcome of cell injury?",
@@ -3281,7 +3890,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "The season in which injury occurs"
    ],
    "answer": 1,
-   "why": "Plus intracellular events and morphological consequences."
+   "why": "Plus intracellular events and morphological consequences.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/28.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Membrane blebs and myelin figures are signs of:",
@@ -3292,7 +3908,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Gangrene"
    ],
    "answer": 2,
-   "why": "Myelin figures are phospholipids from damaged membranes."
+   "why": "Myelin figures are phospholipids from damaged membranes.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/41.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Hydropic change is also called:",
@@ -3303,7 +3926,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Myxoid change of the stroma"
    ],
    "answer": 1,
-   "why": "Water accumulates giving cytoplasmic vacuoles."
+   "why": "Water accumulates giving cytoplasmic vacuoles.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/51.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "Grossly, an organ with hydropic change is:",
@@ -3314,7 +3944,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Black from pigment deposits"
    ],
    "answer": 2,
-   "why": "Kidney, liver, pancreas or heart muscle swell."
+   "why": "Kidney, liver, pancreas or heart muscle swell.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/52.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "Hyaline droplets in proximal tubular cells result from:",
@@ -3325,7 +3962,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Reabsorbed plasma protein in proteinuria"
    ],
    "answer": 3,
-   "why": "An intracellular hyaline change."
+   "why": "An intracellular hyaline change.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/57.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 57
+    }
+   ]
   },
   {
    "q": "Hyaline degeneration in uterine leiomyomas is:",
@@ -3336,7 +3980,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Intracellular"
    ],
    "answer": 1,
-   "why": "Also old scars and hyaline arteriolosclerosis."
+   "why": "Also old scars and hyaline arteriolosclerosis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/64.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 64
+    }
+   ]
   },
   {
    "q": "Connective-tissue mucin is called:",
@@ -3347,7 +3998,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Lipofuscin"
    ],
    "answer": 2,
-   "why": "Produced by connective-tissue cells; PAS negative, colloidal iron positive."
+   "why": "Produced by connective-tissue cells; PAS negative, colloidal iron positive.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/67.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 67
+    }
+   ]
   },
   {
    "q": "Cystic fibrosis illustrates:",
@@ -3358,7 +4016,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Excess epithelial mucin"
    ],
    "answer": 3,
-   "why": "With catarrhal inflammation and mucin-secreting tumours."
+   "why": "With catarrhal inflammation and mucin-secreting tumours.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/70.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 70
+    }
+   ]
   },
   {
    "q": "Myxomatous change in the dermis occurs in:",
@@ -3369,7 +4034,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Myxoedema"
    ],
    "answer": 3,
-   "why": "Also myxoid change in fibroadenoma."
+   "why": "Also myxoid change in fibroadenoma.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/73.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 73
+    }
+   ]
   },
   {
    "q": "Lipoid nephrosis is fatty change of the:",
@@ -3380,7 +4052,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Liver"
    ],
    "answer": 0,
-   "why": "Fatty change is commonest in the liver but occurs in heart, skeletal muscle and kidney."
+   "why": "Fatty change is commonest in the liver but occurs in heart, skeletal muscle and kidney.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/74.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 74
+    }
+   ]
   },
   {
    "q": "Which listed change follows local cell death?",
@@ -3391,7 +4070,14 @@ SINA.lectures["pathanat-cell-injury"] = {
     "Hydropic change"
    ],
    "answer": 1,
-   "why": "Local processes: autolysis, necrosis, apoptosis; changes following: gangrene, calcification."
+   "why": "Local processes: autolysis, necrosis, apoptosis; changes following: gangrene, calcification.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-injury/77.jpg",
+     "lec": "Cell injury: causes and pathogenesis",
+     "n": 77
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3982,7 +4668,19 @@ SINA.lectures["pathanat-cell-death"] = {
     "Adjacent inflammation"
    ],
    "answer": 3,
-   "why": "Necrosis leaks cellular contents and elicits inflammation; apoptosis does not."
+   "why": "Necrosis leaks cellular contents and elicits inflammation; apoptosis does not.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/30.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 30
+    },
+    {
+     "src": "files/slides/pathanat-cell-death/32.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Nuclear shrinkage with DNA condensation into a solid mass is called:",
@@ -3993,7 +4691,19 @@ SINA.lectures["pathanat-cell-death"] = {
     "Apoptosis"
    ],
    "answer": 2,
-   "why": "Pyknosis is shrinkage; karyorrhexis is fragmentation; karyolysis is dissolution."
+   "why": "Pyknosis is shrinkage; karyorrhexis is fragmentation; karyolysis is dissolution.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/12.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 12
+    },
+    {
+     "src": "files/slides/pathanat-cell-death/13.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Coagulative necrosis is characteristic of infarcts in all solid organs except:",
@@ -4004,7 +4714,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "The spleen"
    ],
    "answer": 1,
-   "why": "Brain infarcts undergo liquefactive necrosis."
+   "why": "Brain infarcts undergo liquefactive necrosis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/18.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Caseous necrosis is typical of:",
@@ -4015,7 +4732,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Acute pancreatitis"
    ],
    "answer": 2,
-   "why": "Friable yellow-white necrosis with a granulomatous border is the hallmark of TB."
+   "why": "Friable yellow-white necrosis with a granulomatous border is the hallmark of TB.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/22.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Fat necrosis in the peritoneal cavity is caused by:",
@@ -4026,7 +4750,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Immune complexes in small vessels"
    ],
    "answer": 0,
-   "why": "Acute pancreatitis releases lipases that destroy peripancreatic fat — an emergency."
+   "why": "Acute pancreatitis releases lipases that destroy peripancreatic fat — an emergency.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/26.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Fibrinoid necrosis results from:",
@@ -4037,7 +4768,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Deposition of antigen-antibody complexes and fibrin in artery walls"
    ],
    "answer": 3,
-   "why": "It is seen in immune-mediated vasculitis such as polyarteritis nodosa."
+   "why": "It is seen in immune-mediated vasculitis such as polyarteritis nodosa.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/27.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which is a PHYSIOLOGICAL cause of apoptosis?",
@@ -4048,7 +4786,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "HIV infection of cells"
    ],
    "answer": 1,
-   "why": "Involution of hormone-dependent tissue after hormone withdrawal is physiological apoptosis."
+   "why": "Involution of hormone-dependent tissue after hormone withdrawal is physiological apoptosis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/33.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Executioner caspases are:",
@@ -4059,7 +4804,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "3, 6, 7"
    ],
    "answer": 3,
-   "why": "Activator caspases 2, 8, 9, 10 switch on executioner caspases 3, 6, 7."
+   "why": "Activator caspases 2, 8, 9, 10 switch on executioner caspases 3, 6, 7.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/39.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "The mitochondrial (intrinsic) pathway of apoptosis converges on which caspase?",
@@ -4070,7 +4822,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Caspase 8"
    ],
    "answer": 2,
-   "why": "Intrinsic → caspase 9; extrinsic (death receptor) → caspase 8."
+   "why": "Intrinsic → caspase 9; extrinsic (death receptor) → caspase 8.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/38.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Fas ligand (FasL) is expressed mainly on:",
@@ -4081,7 +4840,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Fibroblasts"
    ],
    "answer": 1,
-   "why": "FasL on activated T cells engages Fas death receptors to trigger the extrinsic pathway."
+   "why": "FasL on activated T cells engages Fas death receptors to trigger the extrinsic pathway.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/41.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Excess BCL-2 in follicular lymphoma leads to:",
@@ -4092,7 +4858,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Karyolysis of the nuclei"
    ],
    "answer": 2,
-   "why": "BCL-2 is anti-apoptotic; its overexpression prevents Bax/Bak release and cell death."
+   "why": "BCL-2 is anti-apoptotic; its overexpression prevents Bax/Bak release and cell death.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/43.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "p53 acts at which cell-cycle checkpoint?",
@@ -4103,7 +4876,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "S/G2"
    ],
    "answer": 2,
-   "why": "p53 arrests the cycle at G1/S to allow DNA repair, and triggers apoptosis via Bax if repair fails."
+   "why": "p53 arrests the cycle at G1/S to allow DNA repair, and triggers apoptosis via Bax if repair fails.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/43.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "In necrosis the cytoplasm becomes more eosinophilic because:",
@@ -4114,7 +4894,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Eosin binds denatured proteins and basophilia is lost with decreased RNA"
    ],
    "answer": 3,
-   "why": "Denatured proteins bind eosin; lost RNA removes basophilia; lost glycogen gives a glassy look."
+   "why": "Denatured proteins bind eosin; lost RNA removes basophilia; lost glycogen gives a glassy look.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/10.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Gangrenous necrosis of the lower limb combines ischaemia with:",
@@ -4125,7 +4912,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Viral infection"
    ],
    "answer": 0,
-   "why": "Gangrene = coagulative necrosis of multiple layers from lost blood supply, often with anaerobic germs."
+   "why": "Gangrene = coagulative necrosis of multiple layers from lost blood supply, often with anaerobic germs.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/25.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Cell death typically:",
@@ -4136,7 +4930,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Never occurs without inflammation"
    ],
    "answer": 2,
-   "why": "Cells may be nonfunctional yet viable early; morphology lags behind death."
+   "why": "Cells may be nonfunctional yet viable early; morphology lags behind death.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/05.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The word necrosis comes from the Greek for:",
@@ -4158,7 +4959,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Karyolysis of the nucleus"
    ],
    "answer": 0,
-   "why": "Eosin binds denatured proteins; glycogen loss adds a glassy look."
+   "why": "Eosin binds denatured proteins; glycogen loss adds a glassy look.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/10.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The nucleus of a necrotic cell disappears in about:",
@@ -4169,7 +4977,19 @@ SINA.lectures["pathanat-cell-death"] = {
     "1 hour"
    ],
    "answer": 1,
-   "why": "Through pyknosis, karyorrhexis and karyolysis."
+   "why": "Through pyknosis, karyorrhexis and karyolysis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/12.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 12
+    },
+    {
+     "src": "files/slides/pathanat-cell-death/13.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Oesophageal necrosis after caustic ingestion is an example of:",
@@ -4180,7 +5000,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Physiological death of epithelial cells"
    ],
    "answer": 0,
-   "why": "Tissue necrosis = a group of cells dying under the same stress."
+   "why": "Tissue necrosis = a group of cells dying under the same stress.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/14.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "In coagulative necrosis, anucleate cells may persist for:",
@@ -4191,7 +5018,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Minutes"
    ],
    "answer": 2,
-   "why": "Proteolysis is blocked so architecture is preserved until leukocytes digest the debris."
+   "why": "Proteolysis is blocked so architecture is preserved until leukocytes digest the debris.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/18.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Liquefactive necrosis converts tissue into:",
@@ -4202,7 +5036,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Calcified, chalky tissue"
    ],
    "answer": 0,
-   "why": "Leukocyte enzymes digest the tissue, typically in bacterial or fungal infection."
+   "why": "Leukocyte enzymes digest the tissue, typically in bacterial or fungal infection.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/21.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Caseous necrosis is bordered by:",
@@ -4213,7 +5054,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Fat"
    ],
    "answer": 0,
-   "why": "Friable yellow-white debris with obliterated architecture, characteristic of tuberculosis."
+   "why": "Friable yellow-white debris with obliterated architecture, characteristic of tuberculosis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/22.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Breast cytosteatonecrosis is typically caused by:",
@@ -4224,7 +5072,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Trauma such as a seatbelt injury"
    ],
    "answer": 3,
-   "why": "Fat necrosis in the breast mimics a tumour."
+   "why": "Fat necrosis in the breast mimics a tumour.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/26.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Gangrenous necrosis is linked to the combined effects of:",
@@ -4235,7 +5090,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Hormones and diet"
    ],
    "answer": 1,
-   "why": "Usually the lower limb after loss of blood supply."
+   "why": "Usually the lower limb after loss of blood supply.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/25.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Fibrinoid necrosis stains like:",
@@ -4246,7 +5108,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Collagen (pale pink fibres)"
    ],
    "answer": 1,
-   "why": "Immune complexes plus fibrin in vessel walls in autoimmune disease."
+   "why": "Immune complexes plus fibrin in vessel walls in autoimmune disease.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/27.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Apoptosis and necrosis:",
@@ -4257,7 +5126,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Can coexist, and apoptosis may progress to necrosis"
    ],
    "answer": 3,
-   "why": "Some pathological stimuli induce apoptosis that then becomes necrosis."
+   "why": "Some pathological stimuli induce apoptosis that then becomes necrosis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/29.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Apoptotic cell membranes are altered so that:",
@@ -4268,7 +5144,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "They swell and burst open"
    ],
    "answer": 0,
-   "why": "Rapid clearance prevents inflammation."
+   "why": "Rapid clearance prevents inflammation.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/30.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Endometrial breakdown during the menstrual cycle is an example of apoptosis due to:",
@@ -4279,7 +5162,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Viral infection"
    ],
    "answer": 1,
-   "why": "Involution of hormone-dependent tissue is physiological."
+   "why": "Involution of hormone-dependent tissue is physiological.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/33.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which cells kill virus-infected and tumour cells by inducing apoptosis?",
@@ -4290,7 +5180,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Erythrocytes"
    ],
    "answer": 2,
-   "why": "For example in HBV and HPV infections."
+   "why": "For example in HBV and HPV infections.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/33.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Accumulation of misfolded proteins from gene mutations triggers:",
@@ -4301,7 +5198,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Hyperplasia"
    ],
    "answer": 1,
-   "why": "Also DNA damage and some viral infections (adenovirus, HIV)."
+   "why": "Also DNA damage and some viral infections (adenovirus, HIV).",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/34.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Caspases are:",
@@ -4312,7 +5216,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Lipases that digest membranes"
    ],
    "answer": 0,
-   "why": "Activated depending on the balance of pro- and anti-apoptotic proteins."
+   "why": "Activated depending on the balance of pro- and anti-apoptotic proteins.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/38.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "BH3 proteins act in which pathway?",
@@ -4323,7 +5234,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Both pathways equally"
    ],
    "answer": 2,
-   "why": "They counter anti-apoptotic BCL-2 family members."
+   "why": "They counter anti-apoptotic BCL-2 family members.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/43.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Which therapy exploits apoptosis?",
@@ -4334,7 +5252,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Anti-BCL2 drugs and DNA-damaging chemo/radiotherapy"
    ],
    "answer": 3,
-   "why": "Radiation and cytotoxic drugs push damaged cells into p53-dependent apoptosis."
+   "why": "Radiation and cytotoxic drugs push damaged cells into p53-dependent apoptosis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/43.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Macrophages resorbing nuclear debris in germinal centres illustrate:",
@@ -4345,7 +5270,14 @@ SINA.lectures["pathanat-cell-death"] = {
     "Fibrinoid necrosis of vessels"
    ],
    "answer": 0,
-   "why": "Elimination of lymphocytes at the end of an immune response."
+   "why": "Elimination of lymphocytes at the end of an immune response.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-cell-death/33.jpg",
+     "lec": "Cell death: necrosis and apoptosis",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4940,7 +5872,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "IL-6"
    ],
    "answer": 2,
-   "why": "Histamine from mast cells and basophils acts within 1 minute for about 10 minutes."
+   "why": "Histamine from mast cells and basophils acts within 1 minute for about 10 minutes.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/26.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which cell predominates in the first 6–24 hours of acute inflammation?",
@@ -4951,7 +5890,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Neutrophils"
    ],
    "answer": 3,
-   "why": "Neutrophils are the most numerous, respond fastest and adhere firmly to selectins; monocytes replace them at 24–48 h."
+   "why": "Neutrophils are the most numerous, respond fastest and adhere firmly to selectins; monocytes replace them at 24–48 h.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/50.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "Which is an anti-inflammatory cytokine?",
@@ -4962,7 +5908,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "TNF-α"
    ],
    "answer": 2,
-   "why": "IL-4, IL-10 and IL-13 are anti-inflammatory; IL-1, TNF-α and IL-6 are pro-inflammatory."
+   "why": "IL-4, IL-10 and IL-13 are anti-inflammatory; IL-1, TNF-α and IL-6 are pro-inflammatory.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/28.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The correct order of leukocyte diapedesis is:",
@@ -4973,7 +5926,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Adhesion → slowing → margination → chemotaxis → rolling"
    ],
    "answer": 2,
-   "why": "Flow slows, neutrophils marginate, roll and adhere, cross the wall between endothelial cells, then migrate along a chemotactic gradient."
+   "why": "Flow slows, neutrophils marginate, roll and adhere, cross the wall between endothelial cells, then migrate along a chemotactic gradient.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/42.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Opsonisation involves coating the target with:",
@@ -4984,7 +5944,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Histamine"
    ],
    "answer": 0,
-   "why": "Opsonins (complement, antibodies) promote recognition and phagocytosis."
+   "why": "Opsonins (complement, antibodies) promote recognition and phagocytosis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/53.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "Fever during inflammation is mediated by:",
@@ -4995,7 +5962,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "IL-10 acting on the liver"
    ],
    "answer": 0,
-   "why": "Cytokines TNF and IL-1 induce prostaglandin production in the hypothalamus."
+   "why": "Cytokines TNF and IL-1 induce prostaglandin production in the hypothalamus.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/63.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 63
+    }
+   ]
   },
   {
    "q": "C-reactive protein synthesis is mainly stimulated by:",
@@ -5006,7 +5980,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Serotonin acting on platelets"
    ],
    "answer": 2,
-   "why": "Acute-phase proteins (CRP, fibrinogen, SAA) are made by the liver under IL-6."
+   "why": "Acute-phase proteins (CRP, fibrinogen, SAA) are made by the liver under IL-6.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/63.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 63
+    }
+   ]
   },
   {
    "q": "Granulation tissue typically appears:",
@@ -5017,7 +5998,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Only after 3 months"
    ],
    "answer": 0,
-   "why": "Granulation tissue is transitional connective tissue appearing early to fill the defect."
+   "why": "Granulation tissue is transitional connective tissue appearing early to fill the defect.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/70.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 70
+    }
+   ]
   },
   {
    "q": "Which tissue is PERMANENT (unable to regenerate)?",
@@ -5028,7 +6016,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Skin epithelium"
    ],
    "answer": 2,
-   "why": "Myocardial cells and CNS neurons cannot regenerate; liver is stable, skin and marrow are labile."
+   "why": "Myocardial cells and CNS neurons cannot regenerate; liver is stable, skin and marrow are labile.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/65.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 65
+    }
+   ]
   },
   {
    "q": "Repair in the brain is carried out by:",
@@ -5039,7 +6034,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Astrocytes (gliosis)"
    ],
    "answer": 3,
-   "why": "Brain repair produces gliosis rather than fibrous scar."
+   "why": "Brain repair produces gliosis rather than fibrous scar.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/77.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 77
+    }
+   ]
   },
   {
    "q": "A phlegmon spreads diffusely because of:",
@@ -5050,7 +6052,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Streptococcal hyaluronidase"
    ],
    "answer": 3,
-   "why": "Hyaluronidase dissolves hyaluronic acid, letting altered neutrophils disseminate without collection."
+   "why": "Hyaluronidase dissolves hyaluronic acid, letting altered neutrophils disseminate without collection.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/93.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 93
+    }
+   ]
   },
   {
    "q": "Pus accumulated within a natural cavity such as the pleura is called:",
@@ -5061,7 +6070,19 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Pustule"
    ],
    "answer": 0,
-   "why": "Abscess: cavity in a solid organ; pustule: in/under epidermis; empyema: natural cavity."
+   "why": "Abscess: cavity in a solid organ; pustule: in/under epidermis; empyema: natural cavity.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/92.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 92
+    },
+    {
+     "src": "files/slides/pathanat-inflammation-acute/94.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 94
+    }
+   ]
   },
   {
    "q": "Haemorrhagic inflammation of the adrenal glands in meningococcaemia is:",
@@ -5072,7 +6093,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Fibrinous pericarditis"
    ],
    "answer": 2,
-   "why": "Endothelial fragility and erythrodiapedesis cause adrenal haemorrhage."
+   "why": "Endothelial fragility and erythrodiapedesis cause adrenal haemorrhage.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/86.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 86
+    }
+   ]
   },
   {
    "q": "Compared with acute inflammation, chronic inflammation is characterised by:",
@@ -5083,7 +6111,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Spontaneous healing within days"
    ],
    "answer": 1,
-   "why": "Persistence of the agent leads to mononuclear infiltrate, fibrosis and no tendency to spontaneous recovery."
+   "why": "Persistence of the agent leads to mononuclear infiltrate, fibrosis and no tendency to spontaneous recovery.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/97.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 97
+    }
+   ]
   },
   {
    "q": "The first collagen type deposited in young granulation tissue is:",
@@ -5094,7 +6129,19 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Type I"
    ],
    "answer": 0,
-   "why": "Young granulation tissue is rich in type III collagen, hyaluronic acid and fibronectin; remodelling enriches type I."
+   "why": "Young granulation tissue is rich in type III collagen, hyaluronic acid and fibronectin; remodelling enriches type I.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/75.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 75
+    },
+    {
+     "src": "files/slides/pathanat-inflammation-acute/76.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 76
+    }
+   ]
   },
   {
    "q": "Which of these is an endogenous cause of inflammation?",
@@ -5105,7 +6152,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "A bacterial infection"
    ],
    "answer": 0,
-   "why": "Endogenous: vascular abnormalities, dysregulated immunity, physiological."
+   "why": "Endogenous: vascular abnormalities, dysregulated immunity, physiological.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/13.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Tissue macrophages are also called:",
@@ -5116,7 +6170,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Myeloblasts"
    ],
    "answer": 1,
-   "why": "Bone marrow monoblast → blood monocyte → tissue histiocyte."
+   "why": "Bone marrow monoblast → blood monocyte → tissue histiocyte.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/16.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which granulocyte is rich in histamine and serotonin?",
@@ -5127,7 +6188,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Monocyte"
    ],
    "answer": 1,
-   "why": "Basophil granules mask the nucleus."
+   "why": "Basophil granules mask the nucleus.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/20.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Eosinophils predominate in:",
@@ -5138,7 +6206,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Fibrosis and scarring"
    ],
    "answer": 2,
-   "why": "Lymphocytes may arrive first in viral infection."
+   "why": "Lymphocytes may arrive first in viral infection.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/50.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "CD20 marks which cells?",
@@ -5149,7 +6224,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "NK cells"
    ],
    "answer": 0,
-   "why": "T cells are CD3+; NK cells give direct cytotoxicity."
+   "why": "T cells are CD3+; NK cells give direct cytotoxicity.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/22.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which mediator system involves about 20 plasma proteins activated by microorganisms?",
@@ -5160,7 +6242,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Complement"
    ],
    "answer": 3,
-   "why": "Bacterial lysis and opsonisation."
+   "why": "Bacterial lysis and opsonisation.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/25.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Bradykinin causes:",
@@ -5171,7 +6260,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Fibrin formation"
    ],
    "answer": 2,
-   "why": "Kinins stimulate nociceptors."
+   "why": "Kinins stimulate nociceptors.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/25.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Serotonin in inflammation originates from:",
@@ -5182,7 +6278,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Endothelium"
    ],
    "answer": 1,
-   "why": "It increases capillary permeability."
+   "why": "It increases capillary permeability.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/26.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Nitric oxide in inflammation is produced by:",
@@ -5193,7 +6296,19 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Endothelial cells and macrophages"
    ],
    "answer": 3,
-   "why": "It relaxes smooth muscle."
+   "why": "It relaxes smooth muscle.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/27.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 27
+    },
+    {
+     "src": "files/slides/pathanat-inflammation-acute/29.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Interferons mainly modulate:",
@@ -5204,7 +6319,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Coagulation"
    ],
    "answer": 1,
-   "why": "Cytokines also stimulate haematopoiesis."
+   "why": "Cytokines also stimulate haematopoiesis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/28.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Endothelial cell contraction producing intercellular gaps is a mechanism of:",
@@ -5215,7 +6337,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Phagocytosis"
    ],
    "answer": 2,
-   "why": "Others: endothelial necrosis, vesicle channels, leaky new vessels."
+   "why": "Others: endothelial necrosis, vesicle channels, leaky new vessels.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/38.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "During margination, red cells occupy:",
@@ -5226,7 +6355,19 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "The interstitium outside the vessel"
    ],
    "answer": 1,
-   "why": "Leukocytes move to the periphery."
+   "why": "Leukocytes move to the periphery.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/41.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 41
+    },
+    {
+     "src": "files/slides/pathanat-inflammation-acute/42.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Neutrophils cross the vessel wall by:",
@@ -5237,7 +6378,19 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Lysis and rupture of the vessel wall"
    ],
    "answer": 1,
-   "why": "Using various enzymes."
+   "why": "Using various enzymes.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/44.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 44
+    },
+    {
+     "src": "files/slides/pathanat-inflammation-acute/45.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Why are neutrophils early and short-lived?",
@@ -5248,7 +6401,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "They live for months and act late"
    ],
    "answer": 2,
-   "why": "P- and E-selectins are rapidly induced on endothelium."
+   "why": "P- and E-selectins are rapidly induced on endothelium.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/50.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "Toll-like receptors recognise:",
@@ -5259,7 +6419,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Collagen in the matrix"
    ],
    "answer": 0,
-   "why": "Part of innate immunity."
+   "why": "Part of innate immunity.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/53.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "Phagolysosome digestion involves:",
@@ -5270,7 +6437,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Falling pH and hydrolytic enzymes"
    ],
    "answer": 3,
-   "why": "Fusion of phagosome with lysosome."
+   "why": "Fusion of phagosome with lysosome.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/55.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 55
+    }
+   ]
   },
   {
    "q": "Leukocyte function defects cause:",
@@ -5281,7 +6455,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Reduced inflammation and better health"
    ],
    "answer": 0,
-   "why": "Acquired or inherited."
+   "why": "Acquired or inherited.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/57.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 57
+    }
+   ]
   },
   {
    "q": "External spontaneous debridement occurs by:",
@@ -5292,7 +6473,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Lymphatic drainage of oedema"
    ],
    "answer": 2,
-   "why": "Artificial external debridement is surgical incision."
+   "why": "Artificial external debridement is surgical incision.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/60.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 60
+    }
+   ]
   },
   {
    "q": "Septic shock features:",
@@ -5303,7 +6491,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Low TNF with high IL-10 levels"
    ],
    "answer": 1,
-   "why": "A systemic effect of severe infection."
+   "why": "A systemic effect of severe infection.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/63.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 63
+    }
+   ]
   },
   {
    "q": "Which are stable (quiescent) tissues?",
@@ -5314,7 +6509,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Bone marrow"
    ],
    "answer": 0,
-   "why": "They regain proliferation in pathological conditions."
+   "why": "They regain proliferation in pathological conditions.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/65.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 65
+    }
+   ]
   },
   {
    "q": "Acetylcholine from nerve impulses inhibits:",
@@ -5325,7 +6527,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Histamine"
    ],
    "answer": 2,
-   "why": "One of the resolution mechanisms."
+   "why": "One of the resolution mechanisms.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/67.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 67
+    }
+   ]
   },
   {
    "q": "Lipoxins secreted by neutrophils:",
@@ -5336,7 +6545,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Recruit more neutrophils"
    ],
    "answer": 0,
-   "why": "Resolvins and protectins promote neutrophil apoptosis and phagocytosis."
+   "why": "Resolvins and protectins promote neutrophil apoptosis and phagocytosis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/67.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 67
+    }
+   ]
   },
   {
    "q": "The first step of angiogenesis is:",
@@ -5347,7 +6563,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Degradation of the basement membrane"
    ],
    "answer": 3,
-   "why": "Then migration, proliferation as buds, maturation, periendothelial recruitment."
+   "why": "Then migration, proliferation as buds, maturation, periendothelial recruitment.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/72.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 72
+    }
+   ]
   },
   {
    "q": "Growth factors for fibroblast migration/proliferation include:",
@@ -5358,7 +6581,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Bradykinin"
    ],
    "answer": 1,
-   "why": "VEGF and angiopoietin drive vessels."
+   "why": "VEGF and angiopoietin drive vessels.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/73.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 73
+    }
+   ]
   },
   {
    "q": "Young granulation tissue is rich in:",
@@ -5369,7 +6599,19 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Elastin and mature fat"
    ],
    "answer": 0,
-   "why": "Remodelling enriches type I collagen and reduces volume."
+   "why": "Remodelling enriches type I collagen and reduces volume.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/75.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 75
+    },
+    {
+     "src": "files/slides/pathanat-inflammation-acute/76.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 76
+    }
+   ]
   },
   {
    "q": "Cutaneous epithelial regeneration begins:",
@@ -5380,7 +6622,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "At the edges, from basal cells"
    ],
    "answer": 3,
-   "why": "Then basement-membrane components are synthesised."
+   "why": "Then basement-membrane components are synthesised.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/78.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 78
+    }
+   ]
   },
   {
    "q": "A pyogenic granuloma (botriomycoma) is:",
@@ -5391,7 +6640,19 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Exuberant, bleeding granulation tissue"
    ],
    "answer": 3,
-   "why": "Polypoid red nodule with a large central vessel surrounded by small ones."
+   "why": "Polypoid red nodule with a large central vessel surrounded by small ones.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/81.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 81
+    },
+    {
+     "src": "files/slides/pathanat-inflammation-acute/82.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 82
+    }
+   ]
   },
   {
    "q": "A keloid consists of:",
@@ -5402,7 +6663,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Fibrin and trapped red cells"
    ],
    "answer": 0,
-   "why": "Smooth, hard pinkish protrusion."
+   "why": "Smooth, hard pinkish protrusion.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/83.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 83
+    }
+   ]
   },
   {
    "q": "Solar erythema is an example of:",
@@ -5413,7 +6681,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Haemorrhagic inflammation"
    ],
    "answer": 0,
-   "why": "Persistent vasodilatation with minimal oedema, no sequelae."
+   "why": "Persistent vasodilatation with minimal oedema, no sequelae.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/84.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 84
+    }
+   ]
   },
   {
    "q": "Exudative alveolitis illustrates:",
@@ -5424,7 +6699,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Congestive inflammation"
    ],
    "answer": 1,
-   "why": "Abundant exudate fills the alveoli."
+   "why": "Abundant exudate fills the alveoli.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/85.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 85
+    }
+   ]
   },
   {
    "q": "Fibrinous pericarditis results from:",
@@ -5435,7 +6717,19 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Pus filling the pericardial sac"
    ],
    "answer": 1,
-   "why": "Persistence of vascular phenomena."
+   "why": "Persistence of vascular phenomena.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/84.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 84
+    },
+    {
+     "src": "files/slides/pathanat-inflammation-acute/97.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 97
+    }
+   ]
   },
   {
    "q": "Pyocytes are:",
@@ -5446,7 +6740,19 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Fibroblasts making collagen"
    ],
    "answer": 2,
-   "why": "The main constituent of pus."
+   "why": "The main constituent of pus.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/50.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 50
+    },
+    {
+     "src": "files/slides/pathanat-inflammation-acute/68.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 68
+    }
+   ]
   },
   {
    "q": "An abscess cavity is formed by:",
@@ -5457,7 +6763,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Liquefaction by neutrophil enzymes"
    ],
    "answer": 3,
-   "why": "A localised suppurative inflammation in a solid organ."
+   "why": "A localised suppurative inflammation in a solid organ.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/92.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 92
+    }
+   ]
   },
   {
    "q": "Gangrenous cholecystitis is an example of:",
@@ -5468,7 +6781,14 @@ SINA.lectures["pathanat-inflammation-acute"] = {
     "Congestive inflammation"
    ],
    "answer": 2,
-   "why": "Necrosis from anaerobes (Clostridium perfringens) or ischaemia."
+   "why": "Necrosis from anaerobes (Clostridium perfringens) or ischaemia.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-inflammation-acute/95.jpg",
+     "lec": "Acute inflammation and repair",
+     "n": 95
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -8389,7 +9709,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Both alleles must be mutated to have an effect"
    ],
    "answer": 1,
-   "why": "Oncogenes are gain-of-function versions of proto-oncogenes; one mutated allele suffices."
+   "why": "Oncogenes are gain-of-function versions of proto-oncogenes; one mutated allele suffices.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/34.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "TP53 is called the 'guardian of the genome' because it:",
@@ -8400,7 +9727,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Arrests the cycle or triggers apoptosis when DNA is damaged"
    ],
    "answer": 3,
-   "why": "As a 'guardian' tumour suppressor it controls the damage response; its loss accelerates other mutations."
+   "why": "As a 'guardian' tumour suppressor it controls the damage response; its loss accelerates other mutations.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/38.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which chemical carcinogen is DIRECT-acting (no metabolic activation needed)?",
@@ -8411,7 +9745,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "β-naphthylamine"
    ],
    "answer": 2,
-   "why": "Alkylating and acylating agents damage DNA directly; aromatic hydrocarbons and amines need cytochrome P-450 activation."
+   "why": "Alkylating and acylating agents damage DNA directly; aromatic hydrocarbons and amines need cytochrome P-450 activation.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/20.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "HPV oncoprotein E7 binds and inactivates:",
@@ -8422,7 +9763,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "MYC"
    ],
    "answer": 0,
-   "why": "E6 neutralises p53, E7 neutralises RB."
+   "why": "E6 neutralises p53, E7 neutralises RB.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/24.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The Philadelphia chromosome t(9;22) creates:",
@@ -8433,7 +9781,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "BCR-ABL fusion with tyrosine kinase activity"
    ],
    "answer": 3,
-   "why": "BCR-ABL drives chronic myeloid leukaemia."
+   "why": "BCR-ABL drives chronic myeloid leukaemia.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/49.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Follicular lymphoma is indolent because t(14;18) causes:",
@@ -8444,7 +9799,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Explosive proliferation of B cells"
    ],
    "answer": 0,
-   "why": "The tumour grows by evading cell death rather than by rapid division."
+   "why": "The tumour grows by evading cell death rather than by rapid division.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/59.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 59
+    }
+   ]
   },
   {
    "q": "HER2 amplification in breast cancer is targeted by:",
@@ -8455,7 +9817,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Bevacizumab"
    ],
    "answer": 1,
-   "why": "Trastuzumab and pertuzumab are anti-HER2 therapies; bevacizumab is anti-VEGF, rituximab anti-CD20."
+   "why": "Trastuzumab and pertuzumab are anti-HER2 therapies; bevacizumab is anti-VEGF, rituximab anti-CD20.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/44.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "NMYC amplification is characteristic of:",
@@ -8466,7 +9835,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Lung cancer"
    ],
    "answer": 2,
-   "why": "Amplified in 25–30% of neuroblastomas and linked to poor prognosis."
+   "why": "Amplified in 25–30% of neuroblastomas and linked to poor prognosis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/44.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Promoter hypermethylation silencing p16/INK4a is an example of:",
@@ -8477,7 +9853,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Epigenetic alteration"
    ],
    "answer": 3,
-   "why": "Epigenetic changes alter expression without mutating the DNA sequence."
+   "why": "Epigenetic changes alter expression without mutating the DNA sequence.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/50.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "Tumour cells achieve limitless replication by:",
@@ -8488,7 +9871,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Losing MHC class I"
    ],
    "answer": 2,
-   "why": "Telomerase extends telomeres, preventing checkpoint-driven senescence."
+   "why": "Telomerase extends telomeres, preventing checkpoint-driven senescence.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/60.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 60
+    }
+   ]
   },
   {
    "q": "Hypoxia drives tumour angiogenesis through:",
@@ -8499,7 +9889,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "RB → cyclin E"
    ],
    "answer": 2,
-   "why": "HIF-1α is an oxygen-sensitive transcription factor inducing VEGF; anti-VEGF bevacizumab blocks this."
+   "why": "HIF-1α is an oxygen-sensitive transcription factor inducing VEGF; anti-VEGF bevacizumab blocks this.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/62.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 62
+    }
+   ]
   },
   {
    "q": "The first step of extracellular matrix invasion is:",
@@ -8510,7 +9907,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Loosening of tumour cells by loss of E-cadherin"
    ],
    "answer": 3,
-   "why": "Loss of intercellular binding precedes proteolysis, altered attachment and migration."
+   "why": "Loss of intercellular binding precedes proteolysis, altered attachment and migration.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/66.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 66
+    }
+   ]
   },
   {
    "q": "Which is the dominant antitumour immune mechanism?",
@@ -8521,7 +9925,19 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "CD8+ cytotoxic T lymphocytes recognising antigens on MHC class I"
    ],
    "answer": 3,
-   "why": "Cell-mediated immunity dominates, especially against virus-associated tumours; NK cells are the first line."
+   "why": "Cell-mediated immunity dominates, especially against virus-associated tumours; NK cells are the first line.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/71.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 71
+    },
+    {
+     "src": "files/slides/pathanat-carcinogenesis/73.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 73
+    }
+   ]
   },
   {
    "q": "Carcinomas preferentially metastasise via:",
@@ -8532,7 +9948,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Direct implantation"
    ],
    "answer": 0,
-   "why": "Sarcomas prefer the blood; renal cell and follicular thyroid carcinoma are exceptions among carcinomas."
+   "why": "Sarcomas prefer the blood; renal cell and follicular thyroid carcinoma are exceptions among carcinomas.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/91.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 91
+    }
+   ]
   },
   {
    "q": "Familial adenomatous polyposis is a precursor condition that:",
@@ -8543,7 +9966,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "May possibly lead to cancer"
    ],
    "answer": 0,
-   "why": "Genetic conditions like FAP and xeroderma pigmentosum surely predispose; acquired lesions like colonic adenoma or cirrhosis may predispose."
+   "why": "Genetic conditions like FAP and xeroderma pigmentosum surely predispose; acquired lesions like colonic adenoma or cirrhosis may predispose.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/79.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 79
+    }
+   ]
   },
   {
    "q": "The locoregional stage of a cancer corresponds to:",
@@ -8554,7 +9984,19 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Invasion of adjacent organs and vessels"
    ],
    "answer": 3,
-   "why": "Stages: local (in situ), locoregional (invasive), generalisation (emboli), metastasis."
+   "why": "Stages: local (in situ), locoregional (invasive), generalisation (emboli), metastasis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/87.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 87
+    },
+    {
+     "src": "files/slides/pathanat-carcinogenesis/88.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 88
+    }
+   ]
   },
   {
    "q": "Helicobacter pylori is implicated in:",
@@ -8565,7 +10007,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Gastric cancer and MALT lymphoma"
    ],
    "answer": 3,
-   "why": "Chronic inflammation, proliferation, ROS and CagA drive gastric malignancies."
+   "why": "Chronic inflammation, proliferation, ROS and CagA drive gastric malignancies.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/30.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Carcinogenesis is defined as:",
@@ -8576,7 +10025,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Cell death by apoptosis"
    ],
    "answer": 0,
-   "why": "Lethal damage would kill the cell; non-lethal damage lets it proliferate."
+   "why": "Lethal damage would kill the cell; non-lethal damage lets it proliferate.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/05.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Tumours are monoclonal because:",
@@ -8587,7 +10043,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "They contain supporting stroma"
    ],
    "answer": 2,
-   "why": "Genetic alterations give growth and survival advantages over normal cells."
+   "why": "Genetic alterations give growth and survival advantages over normal cells.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/06.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which checkpoint verifies complete DNA replication?",
@@ -8598,7 +10061,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "G2/M"
    ],
    "answer": 3,
-   "why": "G1/S checks DNA integrity and nutrients; metaphase/anaphase checks chromosome attachment."
+   "why": "G1/S checks DNA integrity and nutrients; metaphase/anaphase checks chromosome attachment.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/10.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Palbociclib is an example of:",
@@ -8609,7 +10079,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "An anti-VEGF antibody"
    ],
    "answer": 0,
-   "why": "Cyclins and CDKs drive the cycle; inhibiting them is a therapeutic strategy."
+   "why": "Cyclins and CDKs drive the cycle; inhibiting them is a therapeutic strategy.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/14.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Cancer cells respond to DNA damage by:",
@@ -8620,7 +10097,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Ignoring stop signals"
    ],
    "answer": 3,
-   "why": "Apoptosis is often disabled too."
+   "why": "Apoptosis is often disabled too.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/13.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Cyclophosphamide and nitrosoureas are:",
@@ -8631,7 +10115,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Indirect carcinogens needing P-450"
    ],
    "answer": 1,
-   "why": "Alkylating agents need no metabolic conversion."
+   "why": "Alkylating agents need no metabolic conversion.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/19.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Aflatoxin B1 is a carcinogen of what origin?",
@@ -8642,7 +10133,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "An oncogenic virus"
    ],
    "answer": 2,
-   "why": "With griseofulvin, cycasin and safrole."
+   "why": "With griseofulvin, cycasin and safrole.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/21.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Promoters differ from initiators because they:",
@@ -8653,7 +10151,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Are oncogenic viruses"
    ],
    "answer": 0,
-   "why": "Initiation → promotion → progression."
+   "why": "Initiation → promotion → progression.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/18.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Radiation carcinogens include:",
@@ -8664,7 +10169,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "UV, X-rays, nuclear fission and radionuclides"
    ],
    "answer": 3,
-   "why": "All sources of ionising or UV radiation."
+   "why": "All sources of ionising or UV radiation.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/23.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "LMP1 of EBV promotes B-cell proliferation via:",
@@ -8675,7 +10187,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "NF-κB and JAK/STAT, while activating BCL2"
    ],
    "answer": 3,
-   "why": "Leading to Burkitt lymphoma."
+   "why": "Leading to Burkitt lymphoma.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/26.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "HTLV-1 causes cancer through:",
@@ -8686,7 +10205,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "CagA"
    ],
    "answer": 0,
-   "why": "T-cell leukaemia/lymphoma; an RNA virus."
+   "why": "T-cell leukaemia/lymphoma; an RNA virus.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/29.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "CagA is a gene of:",
@@ -8697,7 +10223,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Human papillomavirus"
    ],
    "answer": 1,
-   "why": "It stimulates growth-factor pathways in gastric cells."
+   "why": "It stimulates growth-factor pathways in gastric cells.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/30.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Tumour suppressor 'governors' act by:",
@@ -8708,7 +10241,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Repairing DNA"
    ],
    "answer": 2,
-   "why": "'Guardians' like TP53 control the damage response."
+   "why": "'Guardians' like TP53 control the damage response.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/38.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Mutation of a guardian gene:",
@@ -8719,7 +10259,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Directly increases proliferation"
    ],
    "answer": 1,
-   "why": "It removes the damage-control response."
+   "why": "It removes the damage-control response.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/38.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Deletion of 13q14 is associated with:",
@@ -8730,7 +10277,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Lung cancer"
    ],
    "answer": 2,
-   "why": "Deletion of 17p is associated with loss of p53."
+   "why": "Deletion of 17p is associated with loss of p53.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/42.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "BRAF V600E is a base substitution seen in:",
@@ -8741,7 +10295,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Ewing sarcoma"
    ],
    "answer": 1,
-   "why": "EGFR L858R/L861Q are seen in lung cancer."
+   "why": "EGFR L858R/L861Q are seen in lung cancer.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/41.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "CDKN2A loss removes:",
@@ -8752,7 +10313,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "HER2, removing a receptor"
    ],
    "answer": 2,
-   "why": "Seen in breast, melanoma and bladder cancer."
+   "why": "Seen in breast, melanoma and bladder cancer.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/43.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Amplification of HER2 is found in about what share of breast cancers?",
@@ -8763,7 +10331,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "2%"
    ],
    "answer": 0,
-   "why": "Poor prognosis but targetable with trastuzumab and pertuzumab."
+   "why": "Poor prognosis but targetable with trastuzumab and pertuzumab.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/44.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "ALK rearrangement in lung adenocarcinoma can be demonstrated by:",
@@ -8774,7 +10349,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "H&E staining alone"
    ],
    "answer": 0,
-   "why": "Gene fusions such as ALK, RET, NTRK and FGFR are therapeutic targets."
+   "why": "Gene fusions such as ALK, RET, NTRK and FGFR are therapeutic targets.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/45.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "In Burkitt lymphoma, MYC is overexpressed because:",
@@ -8785,7 +10367,19 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "A deletion removes the MYC repressor on chromosome 14"
    ],
    "answer": 1,
-   "why": "A translocation removing the gene from its normal control."
+   "why": "A translocation removing the gene from its normal control.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/47.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 47
+    },
+    {
+     "src": "files/slides/pathanat-carcinogenesis/48.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Ewing sarcoma carries:",
@@ -8796,7 +10390,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "t(9;22)"
    ],
    "answer": 1,
-   "why": "A fusion gene encoding a chimeric transcription factor."
+   "why": "A fusion gene encoding a chimeric transcription factor.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/49.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Epigenetic changes are:",
@@ -8807,7 +10408,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Changes found only in virus-infected cells"
    ],
    "answer": 2,
-   "why": "Histone modification and DNA methylation."
+   "why": "Histone modification and DNA methylation.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/50.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "p14/ARF is epigenetically silenced in:",
@@ -8818,7 +10426,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Melanoma only"
    ],
    "answer": 2,
-   "why": "p16/INK4a is silenced in a wide variety of cancers."
+   "why": "p16/INK4a is silenced in a wide variety of cancers.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/50.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "In the colorectal model, loss of APC occurs on chromosome:",
@@ -8829,7 +10444,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "18q"
    ],
    "answer": 0,
-   "why": "Then hypomethylation, RAS (12p), 18q suppressor loss, p53 (17p)."
+   "why": "Then hypomethylation, RAS (12p), 18q suppressor loss, p53 (17p).",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/53.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "Glioblastoma secreting PDGF illustrates:",
@@ -8840,7 +10462,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Angiogenesis"
    ],
    "answer": 0,
-   "why": "Self-sufficiency in growth signals."
+   "why": "Self-sufficiency in growth signals.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/56.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "RB prevents transcription of:",
@@ -8851,7 +10480,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "BCL2"
    ],
    "answer": 2,
-   "why": "Arresting cells in G1; loss of RB removes this brake."
+   "why": "Arresting cells in G1; loss of RB removes this brake.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/58.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "Normal cells lack:",
@@ -8862,7 +10498,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Telomeres"
    ],
    "answer": 1,
-   "why": "Telomere shortening triggers senescence via p53 and RB; tumours reactivate telomerase."
+   "why": "Telomere shortening triggers senescence via p53 and RB; tumours reactivate telomerase.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/60.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 60
+    }
+   ]
   },
   {
    "q": "Tumour vessels are typically:",
@@ -8873,7 +10516,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Leaky, dilated and haphazardly connected"
    ],
    "answer": 3,
-   "why": "Angiogenesis (neoangiogenesis and vasculogenesis) is needed for growth and metastasis."
+   "why": "Angiogenesis (neoangiogenesis and vasculogenesis) is needed for growth and metastasis.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/61.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 61
+    }
+   ]
   },
   {
    "q": "Bevacizumab targets:",
@@ -8884,7 +10534,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "VEGF"
    ],
    "answer": 3,
-   "why": "An approved anti-angiogenic antibody."
+   "why": "An approved anti-angiogenic antibody.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/63.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 63
+    }
+   ]
   },
   {
    "q": "The sequence of the metastatic cascade is:",
@@ -8895,7 +10552,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Transit → local invasion → extravasation → growth"
    ],
    "answer": 1,
-   "why": "A multistep process."
+   "why": "A multistep process.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/64.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 64
+    }
+   ]
   },
   {
    "q": "Cathepsin D and urokinase plasminogen activator are used by tumour cells to:",
@@ -8906,7 +10570,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Degrade basement membrane and interstitial tissue"
    ],
    "answer": 3,
-   "why": "With matrix metalloproteinases."
+   "why": "With matrix metalloproteinases.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/67.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 67
+    }
+   ]
   },
   {
    "q": "Normal epithelial cells bind basement-membrane laminin via:",
@@ -8917,7 +10588,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Cadherins at their basal surface"
    ],
    "answer": 1,
-   "why": "Tumour cells change this attachment."
+   "why": "Tumour cells change this attachment.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/68.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 68
+    }
+   ]
   },
   {
    "q": "Circulating tumour cells form emboli with:",
@@ -8928,7 +10606,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Red cells, which carry oxygen to them"
    ],
    "answer": 1,
-   "why": "Better survival against host effector cells."
+   "why": "Better survival against host effector cells.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/69.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 69
+    }
+   ]
   },
   {
    "q": "Breast cancer cells home to certain organs because they express:",
@@ -8939,7 +10624,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Integrins alone, with no chemokine signals"
    ],
    "answer": 0,
-   "why": "Chemokines CXCL12 and CCL21 mark the target organs."
+   "why": "Chemokines CXCL12 and CCL21 mark the target organs.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/70.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 70
+    }
+   ]
   },
   {
    "q": "Tumour antigens are presented to CD8+ T cells on:",
@@ -8950,7 +10642,19 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "CD20"
    ],
    "answer": 1,
-   "why": "Cell-mediated immunity is the dominant antitumour mechanism."
+   "why": "Cell-mediated immunity is the dominant antitumour mechanism.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/71.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 71
+    },
+    {
+     "src": "files/slides/pathanat-carcinogenesis/73.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 73
+    }
+   ]
   },
   {
    "q": "MAGE and BAGE are:",
@@ -8961,7 +10665,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Cancer-testis antigens aberrantly expressed"
    ],
    "answer": 3,
-   "why": "CEA and AFP are oncofetal antigens."
+   "why": "CEA and AFP are oncofetal antigens.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/72.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 72
+    }
+   ]
   },
   {
    "q": "M1 macrophages are activated by:",
@@ -8972,7 +10683,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "VEGF from hypoxic tumour cells"
    ],
    "answer": 1,
-   "why": "They kill via reactive oxygen metabolites and TNF."
+   "why": "They kill via reactive oxygen metabolites and TNF.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/75.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 75
+    }
+   ]
   },
   {
    "q": "Rituximab targets:",
@@ -8983,7 +10701,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "CD20 on B cells"
    ],
    "answer": 3,
-   "why": "Used in some non-Hodgkin lymphomas."
+   "why": "Used in some non-Hodgkin lymphomas.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/76.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 76
+    }
+   ]
   },
   {
    "q": "Xeroderma pigmentosum is a precursor condition that:",
@@ -8994,7 +10719,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Is acquired"
    ],
    "answer": 0,
-   "why": "A genetic DNA-repair defect."
+   "why": "A genetic DNA-repair defect.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/79.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 79
+    }
+   ]
   },
   {
    "q": "Renal cell carcinoma and follicular thyroid carcinoma prefer which route of spread?",
@@ -9005,7 +10737,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Transcoelomic"
    ],
    "answer": 1,
-   "why": "Unlike most carcinomas, which spread by lymphatics."
+   "why": "Unlike most carcinomas, which spread by lymphatics.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/90.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 90
+    }
+   ]
   },
   {
    "q": "Ovarian carcinoma spreading over the liver surface is:",
@@ -9016,7 +10755,14 @@ SINA.lectures["pathanat-carcinogenesis"] = {
     "Lymphatic spread"
    ],
    "answer": 2,
-   "why": "Across the peritoneal cavity."
+   "why": "Across the peritoneal cavity.",
+   "slides": [
+    {
+     "src": "files/slides/pathanat-carcinogenesis/92.jpg",
+     "lec": "Carcinogenesis and the hallmarks of",
+     "n": 92
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

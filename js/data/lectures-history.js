@@ -278,7 +278,14 @@ SINA.lectures["history-physiology"] = {
     "Heart"
    ],
    "answer": 2,
-   "why": "Natural spirit in the liver, vital spirit in the lungs (blood + air), animal spirit in the brain (source of motion)."
+   "why": "Natural spirit in the liver, vital spirit in the lungs (blood + air), animal spirit in the brain (source of motion).",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/13.jpg",
+     "lec": "History of physiology",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Who first described the pulmonary circulation in the 13th century?",
@@ -289,7 +296,14 @@ SINA.lectures["history-physiology"] = {
     "Descartes"
    ],
    "answer": 2,
-   "why": "His work remained unknown in Europe until translated; Servetus was burned in 1553 for describing it."
+   "why": "His work remained unknown in Europe until translated; Servetus was burned in 1553 for describing it.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/17.jpg",
+     "lec": "History of physiology",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "William Harvey's key contribution was:",
@@ -300,7 +314,14 @@ SINA.lectures["history-physiology"] = {
     "Showing blood circulates and the heart is a pump"
    ],
    "answer": 3,
-   "why": "Using mathematics and experiment, he mounted the first serious challenge to Galen."
+   "why": "Using mathematics and experiment, he mounted the first serious challenge to Galen.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/18.jpg",
+     "lec": "History of physiology",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Descartes placed the human soul in the:",
@@ -311,7 +332,14 @@ SINA.lectures["history-physiology"] = {
     "Heart"
    ],
    "answer": 2,
-   "why": "Cartesian dualism: the soul is only human and resides in the pineal gland, separate from bodily mechanics."
+   "why": "Cartesian dualism: the soul is only human and resides in the pineal gland, separate from bodily mechanics.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/20.jpg",
+     "lec": "History of physiology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "'Iatromechanism' compares the human body to:",
@@ -322,7 +350,14 @@ SINA.lectures["history-physiology"] = {
     "A river"
    ],
    "answer": 0,
-   "why": "Body functioning was explained by similarities with mechanics — the human as a clock."
+   "why": "Body functioning was explained by similarities with mechanics — the human as a clock.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/21.jpg",
+     "lec": "History of physiology",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "John Mayow's candle-and-mouse experiment supported the idea that:",
@@ -333,7 +368,14 @@ SINA.lectures["history-physiology"] = {
     "Life is a form of combustion"
    ],
    "answer": 3,
-   "why": "Breathable air and burnable air are identical: life as combustion of carbon in oxygen (iatrochemistry)."
+   "why": "Breathable air and burnable air are identical: life as combustion of carbon in oxygen (iatrochemistry).",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/25.jpg",
+     "lec": "History of physiology",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Animal electricity was discovered by:",
@@ -344,7 +386,14 @@ SINA.lectures["history-physiology"] = {
     "Comte"
    ],
    "answer": 1,
-   "why": "Galvani (18th c.) showed electric current could produce a reflex movement."
+   "why": "Galvani (18th c.) showed electric current could produce a reflex movement.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/26.jpg",
+     "lec": "History of physiology",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "The Bell-Magendie law concerns:",
@@ -355,7 +404,14 @@ SINA.lectures["history-physiology"] = {
     "The respiratory centre"
    ],
    "answer": 1,
-   "why": "It distinguished motor and sensory nerves; Legallois located the respiratory centre in the medulla."
+   "why": "It distinguished motor and sensory nerves; Legallois located the respiratory centre in the medulla.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/28.jpg",
+     "lec": "History of physiology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The concept of the 'milieu intérieur' is attributed to:",
@@ -366,7 +422,14 @@ SINA.lectures["history-physiology"] = {
     "Harvey"
    ],
    "answer": 0,
-   "why": "Bernard recognised that organisms maintain a constant internal environment (homeostasis)."
+   "why": "Bernard recognised that organisms maintain a constant internal environment (homeostasis).",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/30.jpg",
+     "lec": "History of physiology",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "William Beaumont studied digestion thanks to:",
@@ -377,7 +440,14 @@ SINA.lectures["history-physiology"] = {
     "A patient with a gastric fistula (Alexis St. Martin)"
    ],
    "answer": 3,
-   "why": "His awareness of research elsewhere let him exploit this 'accident' — discovery favours the prepared mind."
+   "why": "His awareness of research elsewhere let him exploit this 'accident' — discovery favours the prepared mind.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/32.jpg",
+     "lec": "History of physiology",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "The first Nobel Prize in Physiology or Medicine was awarded in:",
@@ -388,7 +458,19 @@ SINA.lectures["history-physiology"] = {
     "1947"
    ],
    "answer": 1,
-   "why": "1821: Magendie's journal; 1947: Nuremberg Code; 1968: Declaration of Helsinki."
+   "why": "1821: Magendie's journal; 1947: Nuremberg Code; 1968: Declaration of Helsinki.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/29.jpg",
+     "lec": "History of physiology",
+     "n": 29
+    },
+    {
+     "src": "files/slides/history-physiology/35.jpg",
+     "lec": "History of physiology",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "The first principle of the Nuremberg Code (1947) is:",
@@ -399,7 +481,14 @@ SINA.lectures["history-physiology"] = {
     "Prior animal studies"
    ],
    "answer": 2,
-   "why": "The Code was written after Nazi experiments on prisoners; consent is its cornerstone."
+   "why": "The Code was written after Nazi experiments on prisoners; consent is its cornerstone.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/36.jpg",
+     "lec": "History of physiology",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Positivism in 19th-century physiology is associated with:",
@@ -410,7 +499,14 @@ SINA.lectures["history-physiology"] = {
     "Auguste Comte"
    ],
    "answer": 3,
-   "why": "Comte's positivism framed the experimental, measurable approach that still prevails."
+   "why": "Comte's positivism framed the experimental, measurable approach that still prevails.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/27.jpg",
+     "lec": "History of physiology",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which pair correctly matches a dualism in the history of physiology?",
@@ -421,7 +517,19 @@ SINA.lectures["history-physiology"] = {
     "Empiricism vs materialism"
    ],
    "answer": 2,
-   "why": "The three dualisms: vitalism/mechanism (concept of life), teleology/empiricism (method), speculation/experimentation (strategy)."
+   "why": "The three dualisms: vitalism/mechanism (concept of life), teleology/empiricism (method), speculation/experimentation (strategy).",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/07.jpg",
+     "lec": "History of physiology",
+     "n": 7
+    },
+    {
+     "src": "files/slides/history-physiology/08.jpg",
+     "lec": "History of physiology",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Physiology derives from the Greek for:",
@@ -432,7 +540,14 @@ SINA.lectures["history-physiology"] = {
     "The study of nature"
    ],
    "answer": 3,
-   "why": "It studies the function of living beings."
+   "why": "It studies the function of living beings.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/04.jpg",
+     "lec": "History of physiology",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Dividing functions into smaller tasks such as mastication or absorption reflects:",
@@ -443,7 +558,14 @@ SINA.lectures["history-physiology"] = {
     "Vitalism, the belief in life forces"
    ],
    "answer": 2,
-   "why": "Alimentation, transportation, metabolism, growth and repair, excretion."
+   "why": "Alimentation, transportation, metabolism, growth and repair, excretion.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/05.jpg",
+     "lec": "History of physiology",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Vitalism holds that:",
@@ -454,7 +576,14 @@ SINA.lectures["history-physiology"] = {
     "Existence is only tangible, visible matter"
    ],
    "answer": 1,
-   "why": "Related to theological notions of spirit and soul; mechanism is the materialist opposite."
+   "why": "Related to theological notions of spirit and soul; mechanism is the materialist opposite.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/07.jpg",
+     "lec": "History of physiology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Teleology is:",
@@ -465,7 +594,14 @@ SINA.lectures["history-physiology"] = {
     "Knowledge through pure observation"
    ],
    "answer": 0,
-   "why": "Empiricism is knowledge without theoretical bias of higher purpose."
+   "why": "Empiricism is knowledge without theoretical bias of higher purpose.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/08.jpg",
+     "lec": "History of physiology",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "In Galen's scheme, the vital spirit was:",
@@ -476,7 +612,14 @@ SINA.lectures["history-physiology"] = {
     "Blood produced from food in the liver"
    ],
    "answer": 1,
-   "why": "Natural spirit: liver; animal spirit: brain."
+   "why": "Natural spirit: liver; animal spirit: brain.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/13.jpg",
+     "lec": "History of physiology",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Galen postulated pores in the heart because:",
@@ -487,7 +630,14 @@ SINA.lectures["history-physiology"] = {
     "Human dissection was forbidden"
    ],
    "answer": 3,
-   "why": "He worked within a teleological framework of organ faculties."
+   "why": "He worked within a teleological framework of organ faculties.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/14.jpg",
+     "lec": "History of physiology",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The Galenic faculties of each organ were:",
@@ -498,7 +648,14 @@ SINA.lectures["history-physiology"] = {
     "Fast, slow, strong and weak"
    ],
    "answer": 2,
-   "why": "A teleological framework."
+   "why": "A teleological framework.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/14.jpg",
+     "lec": "History of physiology",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Why did Galen's physiology appeal to the medieval church?",
@@ -509,7 +666,14 @@ SINA.lectures["history-physiology"] = {
     "It denied the existence of God"
    ],
    "answer": 0,
-   "why": "His work was repeated without expressed doubt until the 15th–16th centuries."
+   "why": "His work was repeated without expressed doubt until the 15th–16th centuries.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/16.jpg",
+     "lec": "History of physiology",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Michael Servetus was burned alive in 1553 after:",
@@ -520,7 +684,14 @@ SINA.lectures["history-physiology"] = {
     "Describing the pulmonary circulation"
    ],
    "answer": 3,
-   "why": "A Spanish physician and cleric."
+   "why": "A Spanish physician and cleric.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/17.jpg",
+     "lec": "History of physiology",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Galileo's maxim quoted in the lecture is:",
@@ -531,7 +702,19 @@ SINA.lectures["history-physiology"] = {
     "Life is combustion"
    ],
    "answer": 0,
-   "why": "The spirit of mechanism."
+   "why": "The spirit of mechanism.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/07.jpg",
+     "lec": "History of physiology",
+     "n": 7
+    },
+    {
+     "src": "files/slides/history-physiology/18.jpg",
+     "lec": "History of physiology",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Descartes claimed the heart:",
@@ -542,7 +725,14 @@ SINA.lectures["history-physiology"] = {
     "Makes blood from digested food"
    ],
    "answer": 1,
-   "why": "Despite Harvey's pump, he kept a heating model."
+   "why": "Despite Harvey's pump, he kept a heating model.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/21.jpg",
+     "lec": "History of physiology",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Critics of Cartesian dualism argued that:",
@@ -553,7 +743,14 @@ SINA.lectures["history-physiology"] = {
     "The heart is a pump, not a furnace"
    ],
    "answer": 2,
-   "why": "Dualism could not account for these links."
+   "why": "Dualism could not account for these links.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/23.jpg",
+     "lec": "History of physiology",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "For Descartes, a sick man is:",
@@ -564,7 +761,14 @@ SINA.lectures["history-physiology"] = {
     "Outside the laws that govern nature"
    ],
    "answer": 1,
-   "why": "The body as a machine of bones, nerves, muscles, veins, blood and skin."
+   "why": "The body as a machine of bones, nerves, muscles, veins, blood and skin.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/22.jpg",
+     "lec": "History of physiology",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Mayow found that only some air could:",
@@ -575,7 +779,14 @@ SINA.lectures["history-physiology"] = {
     "Be seen"
    ],
    "answer": 1,
-   "why": "Breathable and burnable air are identical."
+   "why": "Breathable and burnable air are identical.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/25.jpg",
+     "lec": "History of physiology",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Legallois discovered:",
@@ -586,7 +797,14 @@ SINA.lectures["history-physiology"] = {
     "The law of motor and sensory roots"
    ],
    "answer": 2,
-   "why": "A 19th-century discovery from animal experimentation."
+   "why": "A 19th-century discovery from animal experimentation.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/28.jpg",
+     "lec": "History of physiology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "19th-century physiology used:",
@@ -597,7 +815,14 @@ SINA.lectures["history-physiology"] = {
     "Only human volunteers, never animals"
    ],
    "answer": 0,
-   "why": "Experiments were often cruel."
+   "why": "Experiments were often cruel.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/28.jpg",
+     "lec": "History of physiology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Physiology became a separate discipline when:",
@@ -608,7 +833,14 @@ SINA.lectures["history-physiology"] = {
     "It got its own institutes, chairs and journals"
    ],
    "answer": 3,
-   "why": "Magendie's journal dates from 1821."
+   "why": "Magendie's journal dates from 1821.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/29.jpg",
+     "lec": "History of physiology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Alexis St. Martin is remembered for:",
@@ -619,7 +851,14 @@ SINA.lectures["history-physiology"] = {
     "Inventing the stethoscope"
    ],
    "answer": 1,
-   "why": "'The little window of the stomach'."
+   "why": "'The little window of the stomach'.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/32.jpg",
+     "lec": "History of physiology",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Historians regard chance in discovery as:",
@@ -630,7 +869,14 @@ SINA.lectures["history-physiology"] = {
     "The master of the game in physiology"
    ],
    "answer": 0,
-   "why": "Beaumont knew research elsewhere and could exploit the accident."
+   "why": "Beaumont knew research elsewhere and could exploit the accident.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/32.jpg",
+     "lec": "History of physiology",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "William Osler introduced physiology in medical education as:",
@@ -641,7 +887,14 @@ SINA.lectures["history-physiology"] = {
     "A useless subject"
    ],
    "answer": 1,
-   "why": "20th-century mechanism celebrated."
+   "why": "20th-century mechanism celebrated.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/33.jpg",
+     "lec": "History of physiology",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Santorio is cited as an example of:",
@@ -652,7 +905,14 @@ SINA.lectures["history-physiology"] = {
     "A scientist tried at Nuremberg"
    ],
    "answer": 2,
-   "why": "Researchers and student volunteers were historical human subjects."
+   "why": "Researchers and student volunteers were historical human subjects.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/36.jpg",
+     "lec": "History of physiology",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "The Declaration of Helsinki dates from:",
@@ -663,7 +923,14 @@ SINA.lectures["history-physiology"] = {
     "1947"
    ],
    "answer": 1,
-   "why": "PETA was founded in 1980."
+   "why": "PETA was founded in 1980.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/37.jpg",
+     "lec": "History of physiology",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Neurosciences are given as an example of:",
@@ -674,7 +941,14 @@ SINA.lectures["history-physiology"] = {
     "20th-century specialisation"
    ],
    "answer": 3,
-   "why": "Physiology fragmented into subdisciplines."
+   "why": "Physiology fragmented into subdisciplines.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/38.jpg",
+     "lec": "History of physiology",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which principle of the Nuremberg Code concerns the researcher?",
@@ -685,7 +959,14 @@ SINA.lectures["history-physiology"] = {
     "Results that are useful for society"
    ],
    "answer": 0,
-   "why": "Also proper facilities and stopping if harm appears."
+   "why": "Also proper facilities and stopping if harm appears.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/36.jpg",
+     "lec": "History of physiology",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Under the Nuremberg Code, an experiment expected to cause death:",
@@ -696,7 +977,14 @@ SINA.lectures["history-physiology"] = {
     "Is allowed whenever the subject consents"
    ],
    "answer": 2,
-   "why": "Risk must not exceed the humanitarian importance of the problem."
+   "why": "Risk must not exceed the humanitarian importance of the problem.",
+   "slides": [
+    {
+     "src": "files/slides/history-physiology/36.jpg",
+     "lec": "History of physiology",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1272,7 +1560,19 @@ SINA.lectures["history-pathology"] = {
     "Predict outcomes"
    ],
    "answer": 1,
-   "why": "The five are: explain, identify, predict, justify treatment, prove or refute an explanation."
+   "why": "The five are: explain, identify, predict, justify treatment, prove or refute an explanation.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/09.jpg",
+     "lec": "History of pathology",
+     "n": 9
+    },
+    {
+     "src": "files/slides/history-pathology/10.jpg",
+     "lec": "History of pathology",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "'Illness' differs from 'disease' in that illness is:",
@@ -1283,7 +1583,14 @@ SINA.lectures["history-pathology"] = {
     "The patient's own suffering, unchanged over time"
    ],
    "answer": 3,
-   "why": "Disease is the medical idea about illness, which changes with knowledge."
+   "why": "Disease is the medical idea about illness, which changes with knowledge.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/11.jpg",
+     "lec": "History of pathology",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "An ontological theory of disease focuses on:",
@@ -1294,7 +1601,14 @@ SINA.lectures["history-pathology"] = {
     "The patient's feelings"
    ],
    "answer": 0,
-   "why": "Physiological theories look inside; ontological theories look to external causes."
+   "why": "Physiological theories look inside; ontological theories look to external causes.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/12.jpg",
+     "lec": "History of pathology",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "In 'The Sacred Disease', Hippocratic authors attributed epilepsy to:",
@@ -1305,7 +1619,19 @@ SINA.lectures["history-pathology"] = {
     "Heredity passed down from the parents"
    ],
    "answer": 0,
-   "why": "They rejected the supernatural and used the best science of the time — humoral imbalance."
+   "why": "They rejected the supernatural and used the best science of the time — humoral imbalance.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/16.jpg",
+     "lec": "History of pathology",
+     "n": 16
+    },
+    {
+     "src": "files/slides/history-pathology/17.jpg",
+     "lec": "History of pathology",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Who distinguished fevers with and without rash in the 9th century?",
@@ -1316,7 +1642,14 @@ SINA.lectures["history-pathology"] = {
     "Morgagni"
    ],
    "answer": 1,
-   "why": "An early step in nosology — distinguishing diseases by symptom patterns."
+   "why": "An early step in nosology — distinguishing diseases by symptom patterns.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/19.jpg",
+     "lec": "History of pathology",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Thomas Sydenham is remembered for describing:",
@@ -1327,7 +1660,14 @@ SINA.lectures["history-pathology"] = {
     "DNA"
    ],
    "answer": 1,
-   "why": "Sydenham favoured observation over theory, treating diseases as entities."
+   "why": "Sydenham favoured observation over theory, treating diseases as entities.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/20.jpg",
+     "lec": "History of pathology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Morgagni's 1761 treatise marked the birth of:",
@@ -1338,7 +1678,14 @@ SINA.lectures["history-pathology"] = {
     "Bacteriology"
    ],
    "answer": 2,
-   "why": "'The Seats and Causes of Diseases Investigated by Anatomy' correlated diseases with organic lesions."
+   "why": "'The Seats and Causes of Diseases Investigated by Anatomy' correlated diseases with organic lesions.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/23.jpg",
+     "lec": "History of pathology",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Who described leukaemia in 1846 and brought cell theory to pathology?",
@@ -1349,7 +1696,14 @@ SINA.lectures["history-pathology"] = {
     "Koch"
    ],
    "answer": 0,
-   "why": "With the microscope (1830s), diseases were classified by tissue changes."
+   "why": "With the microscope (1830s), diseases were classified by tissue changes.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/25.jpg",
+     "lec": "History of pathology",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Joseph Lister is known for:",
@@ -1360,7 +1714,14 @@ SINA.lectures["history-pathology"] = {
     "Using carbolic acid to kill germs in open fractures"
    ],
    "answer": 3,
-   "why": "The British surgeon applied germ theory to antisepsis."
+   "why": "The British surgeon applied germ theory to antisepsis.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/27.jpg",
+     "lec": "History of pathology",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Robert Koch received the Nobel Prize in 1905 for:",
@@ -1371,7 +1732,14 @@ SINA.lectures["history-pathology"] = {
     "Developing the first rabies vaccine"
    ],
    "answer": 1,
-   "why": "Koch, a German physician, identified the tuberculosis bacillus."
+   "why": "Koch, a German physician, identified the tuberculosis bacillus.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/27.jpg",
+     "lec": "History of pathology",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "The triumph of germ theory in the 1880s shifted the concept of disease toward:",
@@ -1382,7 +1750,14 @@ SINA.lectures["history-pathology"] = {
     "Divine will"
    ],
    "answer": 2,
-   "why": "Laboratory medicine and bacteriology followed, though infection also depends on the host."
+   "why": "Laboratory medicine and bacteriology followed, though infection also depends on the host.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/28.jpg",
+     "lec": "History of pathology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "DNA was discovered in 1952 by:",
@@ -1393,7 +1768,14 @@ SINA.lectures["history-pathology"] = {
     "Morgagni and Virchow"
    ],
    "answer": 2,
-   "why": "They received the Nobel Prize in 1962; heredity 'struck back' after the germ era."
+   "why": "They received the Nobel Prize in 1962; heredity 'struck back' after the germ era.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/31.jpg",
+     "lec": "History of pathology",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Autopsies for retrospective diagnosis date back to the:",
@@ -1404,7 +1786,14 @@ SINA.lectures["history-pathology"] = {
     "19th century"
    ],
    "answer": 1,
-   "why": "They became widespread in medicine and law from the 19th century (forensic pathology)."
+   "why": "They became widespread in medicine and law from the 19th century (forensic pathology).",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/10.jpg",
+     "lec": "History of pathology",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Phrenology, proposed by Franz Gall, is presented as an example of:",
@@ -1415,7 +1804,19 @@ SINA.lectures["history-pathology"] = {
     "A direct precursor of the germ theory"
    ],
    "answer": 1,
-   "why": "It illustrates how each period's pathology is validated by its own science."
+   "why": "It illustrates how each period's pathology is validated by its own science.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/04.jpg",
+     "lec": "History of pathology",
+     "n": 4
+    },
+    {
+     "src": "files/slides/history-pathology/16.jpg",
+     "lec": "History of pathology",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Pathology derives from the Greek for the study of:",
@@ -1426,7 +1827,14 @@ SINA.lectures["history-pathology"] = {
     "Death"
    ],
    "answer": 0,
-   "why": "Material knowledge about disease."
+   "why": "Material knowledge about disease.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/04.jpg",
+     "lec": "History of pathology",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Pathology 'has always been practised' because:",
@@ -1437,7 +1845,14 @@ SINA.lectures["history-pathology"] = {
     "It has always had its own name and school"
    ],
    "answer": 0,
-   "why": "Even unnamed, it was validated by the science of each time."
+   "why": "Even unnamed, it was validated by the science of each time.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/04.jpg",
+     "lec": "History of pathology",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The concept of normality:",
@@ -1448,7 +1863,19 @@ SINA.lectures["history-pathology"] = {
     "Was settled once and for all by Galen"
    ],
    "answer": 1,
-   "why": "And old normalities can become pathological."
+   "why": "And old normalities can become pathological.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/07.jpg",
+     "lec": "History of pathology",
+     "n": 7
+    },
+    {
+     "src": "files/slides/history-pathology/11.jpg",
+     "lec": "History of pathology",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Modern prognosis relies on:",
@@ -1459,7 +1886,14 @@ SINA.lectures["history-pathology"] = {
     "Divination by priests and astrologers"
    ],
    "answer": 1,
-   "why": "Once it resembled divination ('you'll die on the fifth day')."
+   "why": "Once it resembled divination ('you'll die on the fifth day').",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/08.jpg",
+     "lec": "History of pathology",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Through history, therapeutic rationales were usually applied:",
@@ -1470,7 +1904,14 @@ SINA.lectures["history-pathology"] = {
     "Only by nosologists in the 18th century"
    ],
    "answer": 2,
-   "why": "The remedy persists while the explanation changes."
+   "why": "The remedy persists while the explanation changes.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/09.jpg",
+     "lec": "History of pathology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Malpractice lawsuits are linked to which function of pathology?",
@@ -1481,7 +1922,14 @@ SINA.lectures["history-pathology"] = {
     "Explain suffering (spiritual or scientific)"
    ],
    "answer": 2,
-   "why": "Autopsies became widespread in medicine and law in the 19th century."
+   "why": "Autopsies became widespread in medicine and law in the 19th century.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/10.jpg",
+     "lec": "History of pathology",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "A physiological theory of disease looks at:",
@@ -1492,7 +1940,14 @@ SINA.lectures["history-pathology"] = {
     "The inside: what the patient is"
    ],
    "answer": 3,
-   "why": "Ontological theories look at what the patient has."
+   "why": "Ontological theories look at what the patient has.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/12.jpg",
+     "lec": "History of pathology",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Under supernatural theories, treatment aimed at:",
@@ -1503,7 +1958,14 @@ SINA.lectures["history-pathology"] = {
     "Killing germs with antiseptic agents"
    ],
    "answer": 0,
-   "why": "The patient's idea of cause mattered more than the illness features."
+   "why": "The patient's idea of cause mattered more than the illness features.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/14.jpg",
+     "lec": "History of pathology",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which modern attitude echoes supernatural thinking?",
@@ -1514,7 +1976,14 @@ SINA.lectures["history-pathology"] = {
     "Requesting an autopsy after death"
    ],
    "answer": 1,
-   "why": "Also outrage at being sick without sin, or health as superiority."
+   "why": "Also outrage at being sick without sin, or health as superiority.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/15.jpg",
+     "lec": "History of pathology",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Job's patience is cited to illustrate:",
@@ -1525,7 +1994,14 @@ SINA.lectures["history-pathology"] = {
     "Germ theory and the external invader"
    ],
    "answer": 2,
-   "why": "Religion still comforts and stigmatises."
+   "why": "Religion still comforts and stigmatises.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/15.jpg",
+     "lec": "History of pathology",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Hippocratic pathology had how many themes?",
@@ -1536,7 +2012,14 @@ SINA.lectures["history-pathology"] = {
     "One: to restore the balance of humours"
    ],
    "answer": 2,
-   "why": "In concert with the best science of the time."
+   "why": "In concert with the best science of the time.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/16.jpg",
+     "lec": "History of pathology",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Symptoms of the Sacred Disease described by Hippocrates include:",
@@ -1547,7 +2030,14 @@ SINA.lectures["history-pathology"] = {
     "Falls, shaking and loss of consciousness"
    ],
    "answer": 3,
-   "why": "Epilepsy."
+   "why": "Epilepsy.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/17.jpg",
+     "lec": "History of pathology",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which exception did humoral (physiological) theory admit?",
@@ -1558,7 +2048,14 @@ SINA.lectures["history-pathology"] = {
     "Trauma and miasma"
    ],
    "answer": 3,
-   "why": "Everything else was imbalance of humours."
+   "why": "Everything else was imbalance of humours.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/18.jpg",
+     "lec": "History of pathology",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Uroscopy was:",
@@ -1569,7 +2066,14 @@ SINA.lectures["history-pathology"] = {
     "A form of autopsy on the urinary tract"
    ],
    "answer": 0,
-   "why": "With the rise of sensualism, iatrophysics and iatrochemistry."
+   "why": "With the rise of sensualism, iatrophysics and iatrochemistry.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/19.jpg",
+     "lec": "History of pathology",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Nosologists treated diseases as:",
@@ -1580,7 +2084,14 @@ SINA.lectures["history-pathology"] = {
     "Entities in classification tables"
    ],
    "answer": 3,
-   "why": "More observation, less theorising."
+   "why": "More observation, less theorising.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/20.jpg",
+     "lec": "History of pathology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "What made anatomy irrelevant at the bedside two centuries ago?",
@@ -1591,7 +2102,14 @@ SINA.lectures["history-pathology"] = {
     "Dissection was forbidden everywhere"
    ],
    "answer": 2,
-   "why": "Three reasons given in the lecture."
+   "why": "Three reasons given in the lecture.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/22.jpg",
+     "lec": "History of pathology",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Morgagni's treatise contained:",
@@ -1602,7 +2120,14 @@ SINA.lectures["history-pathology"] = {
     "An index of diseases and an index of organic lesions"
    ],
    "answer": 3,
-   "why": "Correlating clinic and anatomy."
+   "why": "Correlating clinic and anatomy.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/23.jpg",
+     "lec": "History of pathology",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "In the 19th century 'phthisis' or 'consumption' became:",
@@ -1613,7 +2138,14 @@ SINA.lectures["history-pathology"] = {
     "Tuberculosis"
    ],
    "answer": 3,
-   "why": "Disease redefined by lesion rather than feeling."
+   "why": "Disease redefined by lesion rather than feeling.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/24.jpg",
+     "lec": "History of pathology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "From the 1830s diseases were classified by:",
@@ -1624,7 +2156,14 @@ SINA.lectures["history-pathology"] = {
     "The patient's symptoms alone"
    ],
    "answer": 0,
-   "why": "Virchow's cell theory followed."
+   "why": "Virchow's cell theory followed.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/25.jpg",
+     "lec": "History of pathology",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "'One could have disease even if not feeling sick' follows from:",
@@ -1635,7 +2174,14 @@ SINA.lectures["history-pathology"] = {
     "Supernatural theory"
    ],
    "answer": 2,
-   "why": "A key shift of the morgue era."
+   "why": "A key shift of the morgue era.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/25.jpg",
+     "lec": "History of pathology",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Joseph Meister is associated with:",
@@ -1646,7 +2192,14 @@ SINA.lectures["history-pathology"] = {
     "Uroscopy as a diagnostic method"
    ],
    "answer": 1,
-   "why": "Vaccination followed germ theory."
+   "why": "Vaccination followed germ theory.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/28.jpg",
+     "lec": "History of pathology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "'The lab coat' era refers to:",
@@ -1657,7 +2210,14 @@ SINA.lectures["history-pathology"] = {
     "Laboratory medicine inside hospitals"
    ],
    "answer": 3,
-   "why": "Bacteriology was born as a discipline."
+   "why": "Bacteriology was born as a discipline.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/28.jpg",
+     "lec": "History of pathology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Why could germ theory not explain everything?",
@@ -1668,7 +2228,14 @@ SINA.lectures["history-pathology"] = {
     "The theory was banned by the Church"
    ],
    "answer": 0,
-   "why": "A limit of pure ontology."
+   "why": "A limit of pure ontology.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/30.jpg",
+     "lec": "History of pathology",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Paleopathology uses molecular tools to:",
@@ -1679,7 +2246,14 @@ SINA.lectures["history-pathology"] = {
     "Make vaccines from ancient viruses"
    ],
    "answer": 2,
-   "why": "An application of 'heredity strikes back'."
+   "why": "An application of 'heredity strikes back'.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/33.jpg",
+     "lec": "History of pathology",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Epigenetics is presented as:",
@@ -1690,7 +2264,14 @@ SINA.lectures["history-pathology"] = {
     "Purely internal, like humoral theory"
    ],
    "answer": 0,
-   "why": "The current model mixes physiological and ontological views."
+   "why": "The current model mixes physiological and ontological views.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/34.jpg",
+     "lec": "History of pathology",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Blaming patients and stigmatising communities are dangers of:",
@@ -1701,7 +2282,14 @@ SINA.lectures["history-pathology"] = {
     "Extrapolating the current pathology model"
    ],
    "answer": 3,
-   "why": "The subjective still has a place in the concept of disease."
+   "why": "The subjective still has a place in the concept of disease.",
+   "slides": [
+    {
+     "src": "files/slides/history-pathology/34.jpg",
+     "lec": "History of pathology",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2280,7 +2868,14 @@ SINA.lectures["history-pharmacology"] = {
     "Plant"
    ],
    "answer": 2,
-   "why": "The ambiguity reflects that every drug can also harm."
+   "why": "The ambiguity reflects that every drug can also harm.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/06.jpg",
+     "lec": "History of pharmacology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "'Similia similibus curantur' is the principle behind:",
@@ -2291,7 +2886,19 @@ SINA.lectures["history-pharmacology"] = {
     "Antibiotics"
    ],
    "answer": 1,
-   "why": "Like cures like; its opposite, contraria contrariis, underlies most conventional treatment."
+   "why": "Like cures like; its opposite, contraria contrariis, underlies most conventional treatment.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/13.jpg",
+     "lec": "History of pharmacology",
+     "n": 13
+    },
+    {
+     "src": "files/slides/history-pharmacology/17.jpg",
+     "lec": "History of pharmacology",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Theriac and Mithridate were:",
@@ -2302,7 +2909,14 @@ SINA.lectures["history-pharmacology"] = {
     "Anaesthetics"
    ],
    "answer": 2,
-   "why": "Mithridate dates from the 1st century BC; both kept a mystical aura until the 19th century."
+   "why": "Mithridate dates from the 1st century BC; both kept a mystical aura until the 19th century.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/19.jpg",
+     "lec": "History of pharmacology",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "In the 15th century, which metal was used to treat syphilis?",
@@ -2313,7 +2927,14 @@ SINA.lectures["history-pharmacology"] = {
     "Antimony"
    ],
    "answer": 0,
-   "why": "Mercury for syphilis; antimony was used 'for everything'."
+   "why": "Mercury for syphilis; antimony was used 'for everything'.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/21.jpg",
+     "lec": "History of pharmacology",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Apothecaries were:",
@@ -2324,7 +2945,14 @@ SINA.lectures["history-pharmacology"] = {
     "University physicians reading Greek texts"
    ],
    "answer": 2,
-   "why": "Mostly practised by women; botany stayed in the medical curriculum until the 20th century."
+   "why": "Mostly practised by women; botany stayed in the medical curriculum until the 20th century.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/25.jpg",
+     "lec": "History of pharmacology",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Insulin was first used to treat diabetic children in:",
@@ -2335,7 +2963,14 @@ SINA.lectures["history-pharmacology"] = {
     "Boston, 1962"
    ],
    "answer": 1,
-   "why": "Banting and Best, under Macleod, with Collip's purification; Nobel Prize 1923."
+   "why": "Banting and Best, under Macleod, with Collip's purification; Nobel Prize 1923.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/31.jpg",
+     "lec": "History of pharmacology",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Who won the Nobel Prize for insulin in 1923?",
@@ -2346,7 +2981,14 @@ SINA.lectures["history-pharmacology"] = {
     "Banting and Best"
    ],
    "answer": 0,
-   "why": "Banting and Macleod received it; the patent was sold to the University of Toronto for one dollar."
+   "why": "Banting and Macleod received it; the patent was sold to the University of Toronto for one dollar.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/31.jpg",
+     "lec": "History of pharmacology",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "James Lind (1747) is remembered for a trial on:",
@@ -2357,7 +2999,14 @@ SINA.lectures["history-pharmacology"] = {
     "Tuberculosis"
    ],
    "answer": 1,
-   "why": "An early controlled clinical trial comparing treatments in sailors."
+   "why": "An early controlled clinical trial comparing treatments in sailors.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/34.jpg",
+     "lec": "History of pharmacology",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Randomisation of treated and control groups was introduced in the:",
@@ -2368,7 +3017,14 @@ SINA.lectures["history-pharmacology"] = {
     "1940s"
    ],
    "answer": 3,
-   "why": "Controls 1900s, committees 1930s, randomisation 1940s, blinding after 1940."
+   "why": "Controls 1900s, committees 1930s, randomisation 1940s, blinding after 1940.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/34.jpg",
+     "lec": "History of pharmacology",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "The thalidomide catastrophe affected about:",
@@ -2379,7 +3035,14 @@ SINA.lectures["history-pharmacology"] = {
     "100 children"
    ],
    "answer": 0,
-   "why": "It illustrates therapeutic innovation going awry."
+   "why": "It illustrates therapeutic innovation going awry.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/37.jpg",
+     "lec": "History of pharmacology",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Frances Oldham Kelsey (1962) is known for:",
@@ -2390,7 +3053,14 @@ SINA.lectures["history-pharmacology"] = {
     "Refusing US approval of thalidomide"
    ],
    "answer": 3,
-   "why": "Her caution showed licensing procedures should not be blamed for slowing innovation."
+   "why": "Her caution showed licensing procedures should not be blamed for slowing innovation.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/38.jpg",
+     "lec": "History of pharmacology",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Galenical pharmacology relied on:",
@@ -2401,7 +3071,14 @@ SINA.lectures["history-pharmacology"] = {
     "Synthetic pure drugs made in laboratories"
    ],
    "answer": 2,
-   "why": "Diet, lifestyle, bloodletting, baths and about 300 medications."
+   "why": "Diet, lifestyle, bloodletting, baths and about 300 medications.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/19.jpg",
+     "lec": "History of pharmacology",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which is listed among the 'magic problems' of magic bullets?",
@@ -2412,7 +3089,14 @@ SINA.lectures["history-pharmacology"] = {
     "Drug resistance and nosocomial infections"
    ],
    "answer": 3,
-   "why": "Alongside dangerous side effects and disillusionment with universal eradication."
+   "why": "Alongside dangerous side effects and disillusionment with universal eradication.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/36.jpg",
+     "lec": "History of pharmacology",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Which US president's death is used as an opening example in the lecture?",
@@ -2423,7 +3107,14 @@ SINA.lectures["history-pharmacology"] = {
     "Lincoln"
    ],
    "answer": 1,
-   "why": "12th president, 1849–1850, a case of harmful treatment."
+   "why": "12th president, 1849–1850, a case of harmful treatment.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/04.jpg",
+     "lec": "History of pharmacology",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The lecture's opening principle is:",
@@ -2434,7 +3125,19 @@ SINA.lectures["history-pharmacology"] = {
     "Similia similibus"
    ],
    "answer": 1,
-   "why": "First do no harm."
+   "why": "First do no harm.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/02.jpg",
+     "lec": "History of pharmacology",
+     "n": 2
+    },
+    {
+     "src": "files/slides/history-pharmacology/19.jpg",
+     "lec": "History of pharmacology",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which of these was a way therapies were discovered?",
@@ -2445,7 +3148,14 @@ SINA.lectures["history-pharmacology"] = {
     "Only laboratory synthesis"
    ],
    "answer": 0,
-   "why": "Empirical means, confounded by the placebo effect."
+   "why": "Empirical means, confounded by the placebo effect.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/06.jpg",
+     "lec": "History of pharmacology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "'Contraria contrariis curantur' means:",
@@ -2456,7 +3166,19 @@ SINA.lectures["history-pharmacology"] = {
     "Nature heals"
    ],
    "answer": 1,
-   "why": "Healing with side effects; the basis of most conventional treatment."
+   "why": "Healing with side effects; the basis of most conventional treatment.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/16.jpg",
+     "lec": "History of pharmacology",
+     "n": 16
+    },
+    {
+     "src": "files/slides/history-pharmacology/17.jpg",
+     "lec": "History of pharmacology",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Theriac takes its name from:",
@@ -2467,7 +3189,14 @@ SINA.lectures["history-pharmacology"] = {
     "Therion, meaning beast"
    ],
    "answer": 3,
-   "why": "Mithridate was named after King Mithridates."
+   "why": "Mithridate was named after King Mithridates.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/15.jpg",
+     "lec": "History of pharmacology",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Drug resistance is presented as an example of:",
@@ -2478,7 +3207,14 @@ SINA.lectures["history-pharmacology"] = {
     "The influence of alchemy on medicine"
    ],
    "answer": 0,
-   "why": "Alongside drugs vanishing because of side effects."
+   "why": "Alongside drugs vanishing because of side effects.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/17.jpg",
+     "lec": "History of pharmacology",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Non-drug remedies in Greco-Roman medicine included:",
@@ -2489,7 +3225,14 @@ SINA.lectures["history-pharmacology"] = {
     "Insulin extracted from animals"
    ],
    "answer": 2,
-   "why": "To re-establish the balance of humours."
+   "why": "To re-establish the balance of humours.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/19.jpg",
+     "lec": "History of pharmacology",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The Chelsea Physic Garden illustrates:",
@@ -2500,7 +3243,14 @@ SINA.lectures["history-pharmacology"] = {
     "The first controlled clinical trial"
    ],
    "answer": 1,
-   "why": "Botany was a standard subject until the 20th century."
+   "why": "Botany was a standard subject until the 20th century.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/24.jpg",
+     "lec": "History of pharmacology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which drug classification is by physiological effect?",
@@ -2511,7 +3261,14 @@ SINA.lectures["history-pharmacology"] = {
     "Poison vs antidote"
    ],
    "answer": 1,
-   "why": "Physical properties are another scheme."
+   "why": "Physical properties are another scheme.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/26.jpg",
+     "lec": "History of pharmacology",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "The French Revolution's influence on pharmacology was to:",
@@ -2522,7 +3279,14 @@ SINA.lectures["history-pharmacology"] = {
     "Reject old complex mixtures in favour of pure drugs"
    ],
    "answer": 3,
-   "why": "Throw away everything old, find new ways to treat."
+   "why": "Throw away everything old, find new ways to treat.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/26.jpg",
+     "lec": "History of pharmacology",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "'Why give a pill when you can cut and cure?' refers to:",
@@ -2533,7 +3297,14 @@ SINA.lectures["history-pharmacology"] = {
     "Vaccination"
    ],
    "answer": 1,
-   "why": "Surgery competing with drug therapy."
+   "why": "Surgery competing with drug therapy.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/26.jpg",
+     "lec": "History of pharmacology",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Magic bullets were sought after acceptance of:",
@@ -2544,7 +3315,14 @@ SINA.lectures["history-pharmacology"] = {
     "Phrenology"
    ],
    "answer": 2,
-   "why": "Vaccines and drugs to treat germs."
+   "why": "Vaccines and drugs to treat germs.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/27.jpg",
+     "lec": "History of pharmacology",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Before insulin, diabetic children were kept alive by:",
@@ -2555,7 +3333,14 @@ SINA.lectures["history-pharmacology"] = {
     "Antibiotics"
    ],
    "answer": 1,
-   "why": "The only known way to slow the disease."
+   "why": "The only known way to slow the disease.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/31.jpg",
+     "lec": "History of pharmacology",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "James Collip's role in the insulin story was:",
@@ -2566,7 +3351,14 @@ SINA.lectures["history-pharmacology"] = {
     "Discovering the pancreas as an organ"
    ],
    "answer": 2,
-   "why": "With Banting, Best and Macleod."
+   "why": "With Banting, Best and Macleod.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/31.jpg",
+     "lec": "History of pharmacology",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Untreated control groups appeared in the:",
@@ -2577,7 +3369,14 @@ SINA.lectures["history-pharmacology"] = {
     "1740s"
    ],
    "answer": 0,
-   "why": "Committees followed in the 1930s."
+   "why": "Committees followed in the 1930s.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/34.jpg",
+     "lec": "History of pharmacology",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Blinding and standardisation of trials date from:",
@@ -2588,7 +3387,14 @@ SINA.lectures["history-pharmacology"] = {
     "Before 1800"
    ],
    "answer": 2,
-   "why": "Just after randomisation."
+   "why": "Just after randomisation.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/34.jpg",
+     "lec": "History of pharmacology",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which question does the lecture raise about life expectancy?",
@@ -2599,7 +3405,14 @@ SINA.lectures["history-pharmacology"] = {
     "Whether drugs have become too cheap"
    ],
    "answer": 1,
-   "why": "Part of recent scepticism."
+   "why": "Part of recent scepticism.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/36.jpg",
+     "lec": "History of pharmacology",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Nosocomial infections are:",
@@ -2610,7 +3423,14 @@ SINA.lectures["history-pharmacology"] = {
     "Hospital-acquired infections"
    ],
    "answer": 3,
-   "why": "Listed among the 'magic problems'."
+   "why": "Listed among the 'magic problems'.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/36.jpg",
+     "lec": "History of pharmacology",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Thalidomide harm spread across about:",
@@ -2621,7 +3441,14 @@ SINA.lectures["history-pharmacology"] = {
     "25 countries"
    ],
    "answer": 3,
-   "why": "About 10,000 children affected."
+   "why": "About 10,000 children affected.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/37.jpg",
+     "lec": "History of pharmacology",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "The lesson from Frances Oldham Kelsey is that:",
@@ -2632,7 +3459,14 @@ SINA.lectures["history-pharmacology"] = {
     "Clinical trials are useless for rare effects"
    ],
    "answer": 0,
-   "why": "Her refusal to approve thalidomide protected the USA."
+   "why": "Her refusal to approve thalidomide protected the USA.",
+   "slides": [
+    {
+     "src": "files/slides/history-pharmacology/38.jpg",
+     "lec": "History of pharmacology",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3240,7 +4074,14 @@ SINA.lectures["history-epidemics"] = {
     "1798"
    ],
    "answer": 2,
-   "why": "It arrived from Asia by ship and killed about 30% of Europe's population."
+   "why": "It arrived from Asia by ship and killed about 30% of Europe's population.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/05.jpg",
+     "lec": "Epidemics in history",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The vector of bubonic plague is:",
@@ -3251,7 +4092,14 @@ SINA.lectures["history-epidemics"] = {
     "The mosquito"
    ],
    "answer": 0,
-   "why": "Yersinia pestis lives in the black rat and is transmitted by its flea."
+   "why": "Yersinia pestis lives in the black rat and is transmitted by its flea.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/08.jpg",
+     "lec": "Epidemics in history",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which control measure was born with the plague?",
@@ -3262,7 +4110,14 @@ SINA.lectures["history-epidemics"] = {
     "Antibiotics"
    ],
    "answer": 2,
-   "why": "Along with home confinement, plague doctors and pesthouses."
+   "why": "Along with home confinement, plague doctors and pesthouses.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/06.jpg",
+     "lec": "Epidemics in history",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Syphilis was nicknamed:",
@@ -3273,7 +4128,14 @@ SINA.lectures["history-epidemics"] = {
     "The Spanish disease"
    ],
    "answer": 1,
-   "why": "After the 1490s outbreak in the French armies."
+   "why": "After the 1490s outbreak in the French armies.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/09.jpg",
+     "lec": "Epidemics in history",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Leprosy is presented as the main example of:",
@@ -3284,7 +4146,14 @@ SINA.lectures["history-epidemics"] = {
     "Vector-borne disease"
    ],
    "answer": 1,
-   "why": "Extreme isolation and stigma for a mildly contagious disease; WHO strategy now anti-discrimination."
+   "why": "Extreme isolation and stigma for a mildly contagious disease; WHO strategy now anti-discrimination.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/11.jpg",
+     "lec": "Epidemics in history",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Who linked cholera to drinking water in 1854?",
@@ -3295,7 +4164,14 @@ SINA.lectures["history-epidemics"] = {
     "Louis Pasteur"
    ],
    "answer": 2,
-   "why": "Vibrio cholerae itself was identified in 1884."
+   "why": "Vibrio cholerae itself was identified in 1884.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/12.jpg",
+     "lec": "Epidemics in history",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Jenner's 1798 experiment used:",
@@ -3306,7 +4182,14 @@ SINA.lectures["history-epidemics"] = {
     "Attenuated smallpox"
    ],
    "answer": 1,
-   "why": "Vaccinia (cowpox) infection protected against variola (smallpox)."
+   "why": "Vaccinia (cowpox) infection protected against variola (smallpox).",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/15.jpg",
+     "lec": "Epidemics in history",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Smallpox was declared eradicated on:",
@@ -3317,7 +4200,14 @@ SINA.lectures["history-epidemics"] = {
     "9 December 1979"
    ],
    "answer": 3,
-   "why": "The first human disease eradicated, about 200 years after Jenner."
+   "why": "The first human disease eradicated, about 200 years after Jenner.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/15.jpg",
+     "lec": "Epidemics in history",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The most important cause of adult death in the 19th century was:",
@@ -3328,7 +4218,14 @@ SINA.lectures["history-epidemics"] = {
     "Tuberculosis"
    ],
    "answer": 3,
-   "why": "Patients were treated in sanatoria."
+   "why": "Patients were treated in sanatoria.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/16.jpg",
+     "lec": "Epidemics in history",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The 1918 influenza pandemic caused:",
@@ -3339,7 +4236,14 @@ SINA.lectures["history-epidemics"] = {
     "Fewer than 1 million deaths"
    ],
    "answer": 1,
-   "why": "The 'Spanish flu' did not start in Spain and led to new epidemic-control institutions."
+   "why": "The 'Spanish flu' did not start in Spain and led to new epidemic-control institutions.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/18.jpg",
+     "lec": "Epidemics in history",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "AIDS was initially called:",
@@ -3350,7 +4254,14 @@ SINA.lectures["history-epidemics"] = {
     "GRID"
    ],
    "answer": 3,
-   "why": "'Gay-related immunodeficiency', after its 1981 emergence in the USA."
+   "why": "'Gay-related immunodeficiency', after its 1981 emergence in the USA.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/19.jpg",
+     "lec": "Epidemics in history",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The Moroccan oil tragedy of 1959 caused an epidemic of:",
@@ -3361,7 +4272,14 @@ SINA.lectures["history-epidemics"] = {
     "Four-limb paralysis"
    ],
    "answer": 3,
-   "why": "It struck whole families in Meknes, then the Rif and elsewhere."
+   "why": "It struck whole families in Meknes, then the Rif and elsewhere.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/22.jpg",
+     "lec": "Epidemics in history",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which stage of society's reaction to an epidemic comes first?",
@@ -3372,7 +4290,14 @@ SINA.lectures["history-epidemics"] = {
     "Control measures"
    ],
    "answer": 1,
-   "why": "Then panic and flight, explanations, control measures, and a new normal."
+   "why": "Then panic and flight, explanations, control measures, and a new normal.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/04.jpg",
+     "lec": "Epidemics in history",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Epidemics affect populations at which levels?",
@@ -3383,7 +4308,14 @@ SINA.lectures["history-epidemics"] = {
     "Economic, social, intellectual and political"
    ],
    "answer": 3,
-   "why": "The lecture's opening question."
+   "why": "The lecture's opening question.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/03.jpg",
+     "lec": "Epidemics in history",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which explanation of the Black Death targeted minorities?",
@@ -3394,7 +4326,14 @@ SINA.lectures["history-epidemics"] = {
     "Blaming altered air and atmospheric vapours"
    ],
    "answer": 2,
-   "why": "Alongside atmospheric and divine explanations."
+   "why": "Alongside atmospheric and divine explanations.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/05.jpg",
+     "lec": "Epidemics in history",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Officials responded to plague deaths by:",
@@ -3405,7 +4344,14 @@ SINA.lectures["history-epidemics"] = {
     "Burning the victims' houses as treatment"
    ],
    "answer": 2,
-   "why": "While many fled the cities leaving the sick behind."
+   "why": "While many fled the cities leaving the sick behind.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/05.jpg",
+     "lec": "Epidemics in history",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Plague doctors and pesthouses were:",
@@ -3416,7 +4362,14 @@ SINA.lectures["history-epidemics"] = {
     "Modern inventions of the 20th century"
    ],
    "answer": 0,
-   "why": "With quarantine and home confinement."
+   "why": "With quarantine and home confinement.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/06.jpg",
+     "lec": "Epidemics in history",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The cause of the Black Death was verified by:",
@@ -3427,7 +4380,14 @@ SINA.lectures["history-epidemics"] = {
     "Microscopy in 1348"
    ],
    "answer": 1,
-   "why": "Yersinia pestis in the black rat, transmitted by fleas."
+   "why": "Yersinia pestis in the black rat, transmitted by fleas.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/08.jpg",
+     "lec": "Epidemics in history",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Early syphilis trials were scandalous because they were performed on:",
@@ -3438,7 +4398,14 @@ SINA.lectures["history-epidemics"] = {
     "Prisoners of war"
    ],
    "answer": 2,
-   "why": "An ethical stain of the era."
+   "why": "An ethical stain of the era.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/09.jpg",
+     "lec": "Epidemics in history",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Syphilis today is:",
@@ -3449,7 +4416,14 @@ SINA.lectures["history-epidemics"] = {
     "A viral disease without any curative treatment"
    ],
    "answer": 2,
-   "why": "Treponema pallidum remains sexually transmitted."
+   "why": "Treponema pallidum remains sexually transmitted.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/10.jpg",
+     "lec": "Epidemics in history",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Leprosariums and bells were:",
@@ -3460,7 +4434,14 @@ SINA.lectures["history-epidemics"] = {
     "Vaccination tools"
    ],
    "answer": 0,
-   "why": "For a mildly contagious disease."
+   "why": "For a mildly contagious disease.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/11.jpg",
+     "lec": "Epidemics in history",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Hansen's disease is:",
@@ -3471,7 +4452,14 @@ SINA.lectures["history-epidemics"] = {
     "Syphilis"
    ],
    "answer": 1,
-   "why": "Mycobacterium leprae."
+   "why": "Mycobacterium leprae.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/11.jpg",
+     "lec": "Epidemics in history",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The WHO global leprosy strategy 2016–2020 was based on:",
@@ -3482,7 +4470,14 @@ SINA.lectures["history-epidemics"] = {
     "Quarantine"
    ],
    "answer": 2,
-   "why": "Reversing centuries of stigma."
+   "why": "Reversing centuries of stigma.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/11.jpg",
+     "lec": "Epidemics in history",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Cholera immigrants were:",
@@ -3493,7 +4488,14 @@ SINA.lectures["history-epidemics"] = {
     "Vaccinated at the port before being released"
    ],
    "answer": 0,
-   "why": "Disease was personified in the poor and immigrants."
+   "why": "Disease was personified in the poor and immigrants.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/12.jpg",
+     "lec": "Epidemics in history",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Cholera still spreads where:",
@@ -3504,7 +4506,14 @@ SINA.lectures["history-epidemics"] = {
     "Water is contaminated with sewage"
    ],
    "answer": 3,
-   "why": "Vibrio cholerae identified in 1884."
+   "why": "Vibrio cholerae identified in 1884.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/12.jpg",
+     "lec": "Epidemics in history",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Smallpox was used as a biological weapon via:",
@@ -3515,7 +4524,14 @@ SINA.lectures["history-epidemics"] = {
     "Poisoned wells"
    ],
    "answer": 2,
-   "why": "A historical atrocity."
+   "why": "A historical atrocity.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/14.jpg",
+     "lec": "Epidemics in history",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Smallpox was controlled without knowing its cause thanks to:",
@@ -3526,7 +4542,14 @@ SINA.lectures["history-epidemics"] = {
     "The principles that it was inevitable and survivors were immune"
    ],
    "answer": 3,
-   "why": "Leading to variolation and then vaccination."
+   "why": "Leading to variolation and then vaccination.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/14.jpg",
+     "lec": "Epidemics in history",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Vaccinia refers to:",
@@ -3537,7 +4560,14 @@ SINA.lectures["history-epidemics"] = {
     "Monkeypox"
    ],
    "answer": 1,
-   "why": "Variola is smallpox."
+   "why": "Variola is smallpox.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/15.jpg",
+     "lec": "Epidemics in history",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "What debate surrounds smallpox today?",
@@ -3548,7 +4578,14 @@ SINA.lectures["history-epidemics"] = {
     "Whether the disease truly existed in antiquity"
    ],
    "answer": 0,
-   "why": "After eradication in 1979."
+   "why": "After eradication in 1979.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/15.jpg",
+     "lec": "Epidemics in history",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Tuberculosis patients in the 19th century were treated in:",
@@ -3559,7 +4596,14 @@ SINA.lectures["history-epidemics"] = {
     "Hospitals only"
    ],
    "answer": 0,
-   "why": "Wasting, fever and cough leading to death."
+   "why": "Wasting, fever and cough leading to death.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/16.jpg",
+     "lec": "Epidemics in history",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "McKeown (1970) argued that:",
@@ -3570,7 +4614,14 @@ SINA.lectures["history-epidemics"] = {
     "Health workers deserved full credit for the decline"
    ],
    "answer": 2,
-   "why": "A famous critique of medical self-congratulation."
+   "why": "A famous critique of medical self-congratulation.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/17.jpg",
+     "lec": "Epidemics in history",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The 1918 pandemic led to:",
@@ -3581,7 +4632,14 @@ SINA.lectures["history-epidemics"] = {
     "The complete eradication of influenza viruses"
    ],
    "answer": 0,
-   "why": "The 'Black flu'."
+   "why": "The 'Black flu'.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/18.jpg",
+     "lec": "Epidemics in history",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "AIDS spread most heavily in:",
@@ -3592,7 +4650,14 @@ SINA.lectures["history-epidemics"] = {
     "Antarctica"
    ],
    "answer": 0,
-   "why": "Millions of deaths worldwide."
+   "why": "Millions of deaths worldwide.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/19.jpg",
+     "lec": "Epidemics in history",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Cuba's response to AIDS is cited as:",
@@ -3603,7 +4668,14 @@ SINA.lectures["history-epidemics"] = {
     "An epidemic ignored by the authorities"
    ],
    "answer": 1,
-   "why": "Alongside years of delay in credible investigation."
+   "why": "Alongside years of delay in credible investigation.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/19.jpg",
+     "lec": "Epidemics in history",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which epidemic is dated to the 1990s in the lecture?",
@@ -3614,7 +4686,14 @@ SINA.lectures["history-epidemics"] = {
     "Ebola"
    ],
    "answer": 3,
-   "why": "Swine flu 2009, mad cow 2001, bilharzia 1970s."
+   "why": "Swine flu 2009, mad cow 2001, bilharzia 1970s.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/21.jpg",
+     "lec": "Epidemics in history",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The Moroccan oil tragedy affected:",
@@ -3625,7 +4704,14 @@ SINA.lectures["history-epidemics"] = {
     "Only children"
    ],
    "answer": 0,
-   "why": "Acute paralysis of the four limbs."
+   "why": "Acute paralysis of the four limbs.",
+   "slides": [
+    {
+     "src": "files/slides/history-epidemics/22.jpg",
+     "lec": "Epidemics in history",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4212,7 +5298,14 @@ SINA.lectures["history-technology"] = {
     "He needed to detect X-rays"
    ],
    "answer": 1,
-   "why": "He rolled a notebook into a cylinder and heard the heartbeat."
+   "why": "He rolled a notebook into a cylinder and heard the heartbeat.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/04.jpg",
+     "lec": "History of medical technology",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Laennec died of:",
@@ -4223,7 +5316,14 @@ SINA.lectures["history-technology"] = {
     "Tuberculosis"
    ],
    "answer": 3,
-   "why": "At 45, examined with his own invention."
+   "why": "At 45, examined with his own invention.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/05.jpg",
+     "lec": "History of medical technology",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Who initiated the neuron theory and described synapses?",
@@ -4234,7 +5334,14 @@ SINA.lectures["history-technology"] = {
     "Ernst Ruska"
    ],
    "answer": 2,
-   "why": "Nobel Prize 1906."
+   "why": "Nobel Prize 1906.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/06.jpg",
+     "lec": "History of medical technology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The electron microscope dates from:",
@@ -4245,7 +5352,14 @@ SINA.lectures["history-technology"] = {
     "1670"
    ],
    "answer": 0,
-   "why": "Ernst Ruska, Nobel Prize 1986; it extended visualisation to molecules."
+   "why": "Ernst Ruska, Nobel Prize 1986; it extended visualisation to molecules.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/07.jpg",
+     "lec": "History of medical technology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "X-rays were discovered by Röntgen in:",
@@ -4256,7 +5370,14 @@ SINA.lectures["history-technology"] = {
     "1975"
    ],
    "answer": 1,
-   "why": "He received the first Nobel Prize in Physics in 1901."
+   "why": "He received the first Nobel Prize in Physics in 1901.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/11.jpg",
+     "lec": "History of medical technology",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Chronophotography was mainly used to study:",
@@ -4267,7 +5388,14 @@ SINA.lectures["history-technology"] = {
     "Bacteria"
    ],
    "answer": 2,
-   "why": "Photography (1820s) also served the teaching of pathology."
+   "why": "Photography (1820s) also served the teaching of pathology.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/09.jpg",
+     "lec": "History of medical technology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The Asilomar conference (1975) addressed:",
@@ -4278,7 +5406,14 @@ SINA.lectures["history-technology"] = {
     "Antisepsis"
    ],
    "answer": 0,
-   "why": "140 biologists, physicians, lawyers and science writers."
+   "why": "140 biologists, physicians, lawyers and science writers.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/13.jpg",
+     "lec": "History of medical technology",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "High blood pressure is cited as an example of:",
@@ -4289,7 +5424,14 @@ SINA.lectures["history-technology"] = {
     "A disease unaffected by technology"
    ],
    "answer": 2,
-   "why": "Technology revolutionised the concept of disease and raises the question of normality."
+   "why": "Technology revolutionised the concept of disease and raises the question of normality.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/14.jpg",
+     "lec": "History of medical technology",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "According to Laennec, doctors should listen to:",
@@ -4300,7 +5442,14 @@ SINA.lectures["history-technology"] = {
     "Both the chest and the patient's story"
    ],
    "answer": 3,
-   "why": "He warned against relying too heavily on organic explanations."
+   "why": "He warned against relying too heavily on organic explanations.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/05.jpg",
+     "lec": "History of medical technology",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which was the first diagnostic instrument to achieve international popularity?",
@@ -4311,7 +5460,14 @@ SINA.lectures["history-technology"] = {
     "The stethoscope"
    ],
    "answer": 3,
-   "why": "It allowed detection of anatomical changes in the living."
+   "why": "It allowed detection of anatomical changes in the living.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/05.jpg",
+     "lec": "History of medical technology",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Einstein's 1931 quote in the lecture asks technical endeavours to focus on:",
@@ -4322,7 +5478,14 @@ SINA.lectures["history-technology"] = {
     "Better machines"
    ],
    "answer": 0,
-   "why": "The human side of technology."
+   "why": "The human side of technology.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/03.jpg",
+     "lec": "History of medical technology",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Laennec is nicknamed:",
@@ -4333,7 +5496,14 @@ SINA.lectures["history-technology"] = {
     "The bone-setter"
    ],
    "answer": 1,
-   "why": "For his obsession with the cylinder."
+   "why": "For his obsession with the cylinder.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/05.jpg",
+     "lec": "History of medical technology",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Laennec's first stethoscope was:",
@@ -4344,7 +5514,14 @@ SINA.lectures["history-technology"] = {
     "A glass rod"
    ],
    "answer": 2,
-   "why": "He then built many prototypes."
+   "why": "He then built many prototypes.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/04.jpg",
+     "lec": "History of medical technology",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The stethoscope allowed:",
@@ -4355,7 +5532,14 @@ SINA.lectures["history-technology"] = {
     "Measuring the blood pressure"
    ],
    "answer": 1,
-   "why": "Detailed description of lung and heart sounds."
+   "why": "Detailed description of lung and heart sounds.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/05.jpg",
+     "lec": "History of medical technology",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Laennec died at age:",
@@ -4366,7 +5550,14 @@ SINA.lectures["history-technology"] = {
     "85"
    ],
    "answer": 0,
-   "why": "From tuberculosis, examined by his own invention."
+   "why": "From tuberculosis, examined by his own invention.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/05.jpg",
+     "lec": "History of medical technology",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Van Leeuwenhoek was:",
@@ -4377,7 +5568,14 @@ SINA.lectures["history-technology"] = {
     "Spanish"
    ],
    "answer": 0,
-   "why": "1670, microscopic pathology."
+   "why": "1670, microscopic pathology.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/06.jpg",
+     "lec": "History of medical technology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Ramón y Cajal received the Nobel Prize in:",
@@ -4388,7 +5586,14 @@ SINA.lectures["history-technology"] = {
     "1986"
    ],
    "answer": 1,
-   "why": "For the neuron theory and synapses."
+   "why": "For the neuron theory and synapses.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/06.jpg",
+     "lec": "History of medical technology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The electron microscope helped understand:",
@@ -4399,7 +5604,14 @@ SINA.lectures["history-technology"] = {
     "The physics of sound"
    ],
    "answer": 2,
-   "why": "Rods and cones of the retina are shown as an example."
+   "why": "Rods and cones of the retina are shown as an example.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/08.jpg",
+     "lec": "History of medical technology",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Photography was invented in the:",
@@ -4410,7 +5622,14 @@ SINA.lectures["history-technology"] = {
     "1670s"
    ],
    "answer": 2,
-   "why": "Chronophotography studied movement."
+   "why": "Chronophotography studied movement.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/09.jpg",
+     "lec": "History of medical technology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Modern imaging listed in the lecture includes:",
@@ -4421,7 +5640,14 @@ SINA.lectures["history-technology"] = {
     "Ultrasound, CT scan and MRI"
    ],
    "answer": 3,
-   "why": "All descendants of Röntgen's discovery."
+   "why": "All descendants of Röntgen's discovery.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/12.jpg",
+     "lec": "History of medical technology",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Using bacteria to produce human proteins is an application of:",
@@ -4432,7 +5658,14 @@ SINA.lectures["history-technology"] = {
     "Auscultation"
    ],
    "answer": 0,
-   "why": "Discussed at Asilomar 1975."
+   "why": "Discussed at Asilomar 1975.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/13.jpg",
+     "lec": "History of medical technology",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Stem-cell use raises questions of:",
@@ -4443,7 +5676,14 @@ SINA.lectures["history-technology"] = {
     "Optics"
    ],
    "answer": 0,
-   "why": "Part of the biotechnology discussion."
+   "why": "Part of the biotechnology discussion.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/13.jpg",
+     "lec": "History of medical technology",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Technology produced a revolution in:",
@@ -4454,7 +5694,14 @@ SINA.lectures["history-technology"] = {
     "Surgery only, not diagnosis"
    ],
    "answer": 1,
-   "why": "With irrefutable benefits and paradoxes."
+   "why": "With irrefutable benefits and paradoxes.",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/14.jpg",
+     "lec": "History of medical technology",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which paradox does the lecture raise?",
@@ -4465,7 +5712,14 @@ SINA.lectures["history-technology"] = {
     "Diagnosis has become impossible without machines"
    ],
    "answer": 0,
-   "why": "'What is normality?'"
+   "why": "'What is normality?'",
+   "slides": [
+    {
+     "src": "files/slides/history-technology/14.jpg",
+     "lec": "History of medical technology",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5030,7 +6284,14 @@ SINA.lectures["history-surgery"] = {
     "Cutting and healing"
    ],
    "answer": 0,
-   "why": "Surgery is the work of the hand; medicine the work of the mind."
+   "why": "Surgery is the work of the hand; medicine the work of the mind.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/04.jpg",
+     "lec": "History of surgery",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The Edwin Smith Papyrus (1600 BC) contains:",
@@ -5041,7 +6302,14 @@ SINA.lectures["history-surgery"] = {
     "A description of ether anaesthesia"
    ],
    "answer": 0,
-   "why": "An Egyptian surgical treatise interpreted in 1930."
+   "why": "An Egyptian surgical treatise interpreted in 1930.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/11.jpg",
+     "lec": "History of surgery",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Under the Babylonian code, a surgeon who hurt a free man:",
@@ -5052,7 +6320,14 @@ SINA.lectures["history-surgery"] = {
     "Paid a fine"
    ],
    "answer": 1,
-   "why": "Harming a slave only required replacing the slave."
+   "why": "Harming a slave only required replacing the slave.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/10.jpg",
+     "lec": "History of surgery",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Medieval surgery was dominated by the work of:",
@@ -5063,7 +6338,14 @@ SINA.lectures["history-surgery"] = {
     "Joseph Lister"
    ],
    "answer": 1,
-   "why": "Translated into Latin: bloodletting, cautery, operations and instruments."
+   "why": "Translated into Latin: bloodletting, cautery, operations and instruments.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/13.jpg",
+     "lec": "History of surgery",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "'I bandage them but God heals them' is attributed to:",
@@ -5074,7 +6356,14 @@ SINA.lectures["history-surgery"] = {
     "Ambroise Paré"
    ],
    "answer": 3,
-   "why": "Paré (1510–1590) is the father of modern surgery."
+   "why": "Paré (1510–1590) is the father of modern surgery.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/14.jpg",
+     "lec": "History of surgery",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Historically, surgeons were trained by:",
@@ -5085,7 +6374,14 @@ SINA.lectures["history-surgery"] = {
     "Military academies only"
    ],
    "answer": 2,
-   "why": "Physicians were university scientists; surgeons learned by doing."
+   "why": "Physicians were university scientists; surgeons learned by doing.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/15.jpg",
+     "lec": "History of surgery",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The word 'anaesthesia' came with the use of:",
@@ -5096,7 +6392,14 @@ SINA.lectures["history-surgery"] = {
     "Opium"
    ],
    "answer": 1,
-   "why": "Chloroform followed in 1845; before that, alcohol, opium and bleeding induced fainting."
+   "why": "Chloroform followed in 1845; before that, alcohol, opium and bleeding induced fainting.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/20.jpg",
+     "lec": "History of surgery",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Semmelweis (1847) introduced:",
@@ -5107,7 +6410,14 @@ SINA.lectures["history-surgery"] = {
     "Hand-washing with chlorinated lime"
    ],
    "answer": 3,
-   "why": "Lister used carbolic acid in 1867; gloves were patented in 1878."
+   "why": "Lister used carbolic acid in 1867; gloves were patented in 1878.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/22.jpg",
+     "lec": "History of surgery",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Charles McBurney first described:",
@@ -5118,7 +6428,14 @@ SINA.lectures["history-surgery"] = {
     "Kidney transplant"
    ],
    "answer": 2,
-   "why": "The first gall-bladder operation was 1867."
+   "why": "The first gall-bladder operation was 1867.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/23.jpg",
+     "lec": "History of surgery",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The first surgeon to win a Nobel Prize (1909) was:",
@@ -5129,7 +6446,14 @@ SINA.lectures["history-surgery"] = {
     "Joseph Murray"
    ],
    "answer": 2,
-   "why": "Murray won in 1990 for the first kidney transplant (1954)."
+   "why": "Murray won in 1990 for the first kidney transplant (1954).",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/23.jpg",
+     "lec": "History of surgery",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The first successful heart transplant (1967) was performed by:",
@@ -5140,7 +6464,14 @@ SINA.lectures["history-surgery"] = {
     "Christiaan Barnard"
    ],
    "answer": 3,
-   "why": "In South Africa; Lillehei did the first open-heart operation in 1952 using hypothermia."
+   "why": "In South Africa; Lillehei did the first open-heart operation in 1952 using hypothermia.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/23.jpg",
+     "lec": "History of surgery",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The two main challenges of modern surgery were:",
@@ -5151,7 +6482,14 @@ SINA.lectures["history-surgery"] = {
     "Cost and time"
    ],
    "answer": 0,
-   "why": "Solved by anaesthesia and antisepsis/asepsis."
+   "why": "Solved by anaesthesia and antisepsis/asepsis.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/17.jpg",
+     "lec": "History of surgery",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "George Ross's quote contrasts:",
@@ -5162,7 +6500,14 @@ SINA.lectures["history-surgery"] = {
     "Doctors and nurses"
    ],
    "answer": 2,
-   "why": "'Any fool can take off a leg. It takes a surgeon to save one.'"
+   "why": "'Any fool can take off a leg. It takes a surgeon to save one.'",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/03.jpg",
+     "lec": "History of surgery",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Surgery is described as:",
@@ -5173,7 +6518,14 @@ SINA.lectures["history-surgery"] = {
     "A 19th-century invention"
    ],
    "answer": 0,
-   "why": "Born from warfare and survival."
+   "why": "Born from warfare and survival.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/05.jpg",
+     "lec": "History of surgery",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Elective surgery differs from urgent surgery by being:",
@@ -5184,7 +6536,14 @@ SINA.lectures["history-surgery"] = {
     "A deliberate, cautious choice, not a necessity"
    ],
    "answer": 3,
-   "why": "Urgent surgery is necessity."
+   "why": "Urgent surgery is necessity.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/05.jpg",
+     "lec": "History of surgery",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Tafoughalt (Pigeons' cave) provides evidence of:",
@@ -5195,7 +6554,14 @@ SINA.lectures["history-surgery"] = {
     "Greek splints for fractures"
    ],
    "answer": 2,
-   "why": "About 12,000 BC."
+   "why": "About 12,000 BC.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/07.jpg",
+     "lec": "History of surgery",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Army ants were used as:",
@@ -5206,7 +6572,14 @@ SINA.lectures["history-surgery"] = {
     "Anaesthetics"
    ],
    "answer": 0,
-   "why": "Their bites closed wounds."
+   "why": "Their bites closed wounds.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/09.jpg",
+     "lec": "History of surgery",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Splints to set fractures date from about:",
@@ -5217,7 +6590,14 @@ SINA.lectures["history-surgery"] = {
     "500 AD"
    ],
    "answer": 2,
-   "why": "Ancient evidence of orthopaedic care."
+   "why": "Ancient evidence of orthopaedic care.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/06.jpg",
+     "lec": "History of surgery",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The Edwin Smith Papyrus is kept at:",
@@ -5228,7 +6608,14 @@ SINA.lectures["history-surgery"] = {
     "The New York Academy of Medicine"
    ],
    "answer": 3,
-   "why": "Interpreted in 1930."
+   "why": "Interpreted in 1930.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/11.jpg",
+     "lec": "History of surgery",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Egyptian embalming contributed to surgery by:",
@@ -5239,7 +6626,14 @@ SINA.lectures["history-surgery"] = {
     "Discovering germs in wounds"
    ],
    "answer": 0,
-   "why": "Mummification required extensive handling of bodies."
+   "why": "Mummification required extensive handling of bodies.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/12.jpg",
+     "lec": "History of surgery",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Al-Zahrawi's work reached Europe through:",
@@ -5250,7 +6644,14 @@ SINA.lectures["history-surgery"] = {
     "Photography"
    ],
    "answer": 0,
-   "why": "Bloodletting, cautery, operations and instruments."
+   "why": "Bloodletting, cautery, operations and instruments.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/13.jpg",
+     "lec": "History of surgery",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "In the pre-modern era, physicians differed from surgeons by:",
@@ -5261,7 +6662,14 @@ SINA.lectures["history-surgery"] = {
     "Having university education and reading Greek"
    ],
    "answer": 3,
-   "why": "Surgeons came from the barber class."
+   "why": "Surgeons came from the barber class.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/15.jpg",
+     "lec": "History of surgery",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The Royal College of Physicians of England was founded in:",
@@ -5272,7 +6680,14 @@ SINA.lectures["history-surgery"] = {
     "1909"
    ],
    "answer": 2,
-   "why": "The Royal College of Surgeons of England in 1843."
+   "why": "The Royal College of Surgeons of England in 1843.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/16.jpg",
+     "lec": "History of surgery",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "French surgeons rose to eminence during:",
@@ -5283,7 +6698,14 @@ SINA.lectures["history-surgery"] = {
     "The Crusades"
    ],
    "answer": 1,
-   "why": "War drives surgical progress."
+   "why": "War drives surgical progress.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/17.jpg",
+     "lec": "History of surgery",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Before anaesthesia, surgeons used:",
@@ -5294,7 +6716,14 @@ SINA.lectures["history-surgery"] = {
     "Chloroform dripped onto a cloth"
    ],
    "answer": 1,
-   "why": "Pre-anaesthetic amputations were brutal."
+   "why": "Pre-anaesthetic amputations were brutal.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/20.jpg",
+     "lec": "History of surgery",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Thomas Eakins's 1875 portrait shows:",
@@ -5305,7 +6734,14 @@ SINA.lectures["history-surgery"] = {
     "Samuel Gross operating"
    ],
    "answer": 3,
-   "why": "An icon of modern surgery."
+   "why": "An icon of modern surgery.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/21.jpg",
+     "lec": "History of surgery",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Rubber gloves were patented in:",
@@ -5316,7 +6752,14 @@ SINA.lectures["history-surgery"] = {
     "1867"
    ],
    "answer": 0,
-   "why": "Asepsis preferred over antisepsis."
+   "why": "Asepsis preferred over antisepsis.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/22.jpg",
+     "lec": "History of surgery",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "The first gall-bladder operation dates from:",
@@ -5327,7 +6770,14 @@ SINA.lectures["history-surgery"] = {
     "1889"
    ],
    "answer": 2,
-   "why": "Start of the surgical century."
+   "why": "Start of the surgical century.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/23.jpg",
+     "lec": "History of surgery",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The first open-heart operation used:",
@@ -5338,7 +6788,14 @@ SINA.lectures["history-surgery"] = {
     "Hypothermia (Lillehei, 1952)"
    ],
    "answer": 3,
-   "why": "Cooling the patient bought time."
+   "why": "Cooling the patient bought time.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/23.jpg",
+     "lec": "History of surgery",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Joseph Murray won the Nobel Prize in:",
@@ -5349,7 +6806,14 @@ SINA.lectures["history-surgery"] = {
     "1967"
    ],
    "answer": 1,
-   "why": "For the first kidney transplant (1954)."
+   "why": "For the first kidney transplant (1954).",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/23.jpg",
+     "lec": "History of surgery",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Plastic surgery developed mainly because of:",
@@ -5360,7 +6824,14 @@ SINA.lectures["history-surgery"] = {
     "Fashion"
    ],
    "answer": 1,
-   "why": "Reconstructing the wounded."
+   "why": "Reconstructing the wounded.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/23.jpg",
+     "lec": "History of surgery",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Less invasive modern procedures include:",
@@ -5371,7 +6842,14 @@ SINA.lectures["history-surgery"] = {
     "Routine bloodletting"
    ],
    "answer": 0,
-   "why": "Late 20th-century developments."
+   "why": "Late 20th-century developments.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/23.jpg",
+     "lec": "History of surgery",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Surgical polemics discussed in the lecture include:",
@@ -5382,7 +6860,14 @@ SINA.lectures["history-surgery"] = {
     "Whether ether is better than chloroform"
    ],
    "answer": 1,
-   "why": "Current ethical debates."
+   "why": "Current ethical debates.",
+   "slides": [
+    {
+     "src": "files/slides/history-surgery/24.jpg",
+     "lec": "History of surgery",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5940,7 +7425,14 @@ SINA.lectures["history-medical-art"] = {
     "Sadness"
    ],
    "answer": 2,
-   "why": "Contempt mixes anger and disgust with a sense of superiority."
+   "why": "Contempt mixes anger and disgust with a sense of superiority.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/08.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "A wrinkled nose bridge with a curled upper lip exposing the teeth indicates:",
@@ -5951,7 +7443,14 @@ SINA.lectures["history-medical-art"] = {
     "Confusion"
    ],
    "answer": 0,
-   "why": "A strong aversion to odours, tastes, sights or actions."
+   "why": "A strong aversion to odours, tastes, sights or actions.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/09.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Wide eyes with dilated pupils, dramatically arched eyebrows and an open mouth show:",
@@ -5962,7 +7461,14 @@ SINA.lectures["history-medical-art"] = {
     "Sadness"
    ],
    "answer": 1,
-   "why": "A sudden, unexpected reaction."
+   "why": "A sudden, unexpected reaction.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/10.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which is NOT one of the five keys to emotional intelligence?",
@@ -5973,7 +7479,19 @@ SINA.lectures["history-medical-art"] = {
     "Empathy"
    ],
    "answer": 1,
-   "why": "The keys are self-awareness, self-regulation, motivation, empathy and social skills."
+   "why": "The keys are self-awareness, self-regulation, motivation, empathy and social skills.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/31.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 31
+    },
+    {
+     "src": "files/slides/history-medical-art/38.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "A 'humanistic' social style is:",
@@ -5984,7 +7502,14 @@ SINA.lectures["history-medical-art"] = {
     "Task-avoidant"
    ],
    "answer": 0,
-   "why": "Pragmatic = performance-driven; humanistic = relationship-driven."
+   "why": "Pragmatic = performance-driven; humanistic = relationship-driven.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/21.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Emotional self-regulation aims to:",
@@ -5995,7 +7520,14 @@ SINA.lectures["history-medical-art"] = {
     "Ignore feedback that feels uncomfortable"
    ],
    "answer": 2,
-   "why": "Using short-term tools (breathing, grounding) and long-term ones (journaling, self-compassion)."
+   "why": "Using short-term tools (breathing, grounding) and long-term ones (journaling, self-compassion).",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/38.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which is a LONG-term self-regulation tool?",
@@ -6006,7 +7538,14 @@ SINA.lectures["history-medical-art"] = {
     "Postural change"
    ],
    "answer": 0,
-   "why": "Long-term: proactive thinking, journaling, emotional hygiene, visual imagery, cognitive empathy, self-compassion."
+   "why": "Long-term: proactive thinking, journaling, emotional hygiene, visual imagery, cognitive empathy, self-compassion.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/38.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "'Perspective-taking' corresponds to which dimension of empathy?",
@@ -6017,7 +7556,19 @@ SINA.lectures["history-medical-art"] = {
     "Social"
    ],
    "answer": 2,
-   "why": "Emotional = feeling what the other feels; behavioural = compassion, acting to help."
+   "why": "Emotional = feeling what the other feels; behavioural = compassion, acting to help.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/38.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 38
+    },
+    {
+     "src": "files/slides/history-medical-art/44.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Which reply is most empathic to a classmate who feels they are 'failing'?",
@@ -6028,7 +7579,14 @@ SINA.lectures["history-medical-art"] = {
     "Maybe you're just not managing your time very well"
    ],
    "answer": 0,
-   "why": "It names the feeling and offers presence rather than judgement."
+   "why": "It names the feeling and offers presence rather than judgement.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/47.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "When you disagree with someone, you should:",
@@ -6039,7 +7597,14 @@ SINA.lectures["history-medical-art"] = {
     "Understand how they feel and treat their feelings as information"
    ],
    "answer": 3,
-   "why": "Disagree with grace and manner."
+   "why": "Disagree with grace and manner.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/55.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 55
+    }
+   ]
   },
   {
    "q": "The Thomas-Kilmann model balances:",
@@ -6050,7 +7615,14 @@ SINA.lectures["history-medical-art"] = {
     "Motivation to reach one's interests and motivation to cooperate"
    ],
    "answer": 3,
-   "why": "It maps conflict-resolution styles on these two axes."
+   "why": "It maps conflict-resolution styles on these two axes.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/59.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 59
+    }
+   ]
   },
   {
    "q": "The correct order of non-violent communication is:",
@@ -6061,7 +7633,14 @@ SINA.lectures["history-medical-art"] = {
     "Need → observation → request → feeling"
    ],
    "answer": 0,
-   "why": "State what you observed, how you felt, the need behind it, and a concrete request."
+   "why": "State what you observed, how you felt, the need behind it, and a concrete request.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/64.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 64
+    }
+   ]
   },
   {
    "q": "'I understand how you feel, but you're wrong' is an example of:",
@@ -6072,7 +7651,14 @@ SINA.lectures["history-medical-art"] = {
     "Non-violent communication"
    ],
    "answer": 0,
-   "why": "The 'but' negates the empathy expressed."
+   "why": "The 'but' negates the empathy expressed.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/47.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "Which cues signal confusion?",
@@ -6083,7 +7669,14 @@ SINA.lectures["history-medical-art"] = {
     "Curled upper lip and wrinkled nose bridge"
    ],
    "answer": 2,
-   "why": "Uncertainty while trying to make sense of something."
+   "why": "Uncertainty while trying to make sense of something.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/02.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "A pale face with wide eyes and a tense mouth signals:",
@@ -6094,7 +7687,14 @@ SINA.lectures["history-medical-art"] = {
     "Contempt"
    ],
    "answer": 1,
-   "why": "A natural response to perceived danger."
+   "why": "A natural response to perceived danger.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/03.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "A small closed-lip smile with lifted chin and relaxed eyes signals:",
@@ -6105,7 +7705,14 @@ SINA.lectures["history-medical-art"] = {
     "Sadness"
    ],
    "answer": 1,
-   "why": "Ease and readiness, no visible tension."
+   "why": "Ease and readiness, no visible tension.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/05.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Downcast half-closed eyes and slack downturned lips signal:",
@@ -6116,7 +7723,14 @@ SINA.lectures["history-medical-art"] = {
     "Surprise"
    ],
    "answer": 2,
-   "why": "Low energy, dejection, unfulfilled expectation."
+   "why": "Low energy, dejection, unfulfilled expectation.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/06.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Watery eyes with drooping lids and a downturned mouth signal:",
@@ -6127,7 +7741,14 @@ SINA.lectures["history-medical-art"] = {
     "Disgust"
    ],
    "answer": 0,
-   "why": "Sorrow and emotional pain."
+   "why": "Sorrow and emotional pain.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/07.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The lecture says patients' expressions:",
@@ -6138,7 +7759,14 @@ SINA.lectures["history-medical-art"] = {
     "Never change"
    ],
    "answer": 1,
-   "why": "Empathy expands what the observer perceives."
+   "why": "Empathy expands what the observer perceives.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/11.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "'Observation is more than eyesight' means:",
@@ -6149,7 +7777,14 @@ SINA.lectures["history-medical-art"] = {
     "Ignoring faces to focus on the lab results"
    ],
    "answer": 0,
-   "why": "'When we slow down to see, we begin to understand.'"
+   "why": "'When we slow down to see, we begin to understand.'",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/12.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "A pragmatic social style is:",
@@ -6160,7 +7795,14 @@ SINA.lectures["history-medical-art"] = {
     "Emotion-driven"
    ],
    "answer": 0,
-   "why": "The humanistic style is relationship-driven."
+   "why": "The humanistic style is relationship-driven.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/21.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which component of self-awareness covers what drives you?",
@@ -6171,7 +7813,14 @@ SINA.lectures["history-medical-art"] = {
     "Social style"
    ],
    "answer": 1,
-   "why": "Alongside mindset."
+   "why": "Alongside mindset.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/15.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The median-nerve scenario in the lecture is used to identify:",
@@ -6182,7 +7831,14 @@ SINA.lectures["history-medical-art"] = {
     "A diagnosis of carpal tunnel syndrome"
    ],
    "answer": 2,
-   "why": "Emotional self-awareness."
+   "why": "Emotional self-awareness.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/30.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Mindset in the lecture concerns your attitude toward:",
@@ -6193,7 +7849,14 @@ SINA.lectures["history-medical-art"] = {
     "Personalities, stress, emotions and relationships"
    ],
    "answer": 3,
-   "why": "A component of self-awareness."
+   "why": "A component of self-awareness.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/33.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which is a SHORT-term self-regulation tool?",
@@ -6204,7 +7867,14 @@ SINA.lectures["history-medical-art"] = {
     "Sensory grounding"
    ],
    "answer": 3,
-   "why": "With breathing, posture, cognitive break, positive self-talk."
+   "why": "With breathing, posture, cognitive break, positive self-talk.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/38.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "'My ideas aren't always chosen; maybe I should get feedback' is an example of:",
@@ -6215,7 +7885,14 @@ SINA.lectures["history-medical-art"] = {
     "Non-violent communication"
    ],
    "answer": 1,
-   "why": "Rephrasing negative into proactive thinking."
+   "why": "Rephrasing negative into proactive thinking.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/39.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "The behavioural dimension of empathy is:",
@@ -6226,7 +7903,14 @@ SINA.lectures["history-medical-art"] = {
     "Perspective-taking"
    ],
    "answer": 0,
-   "why": "Cognitive, emotional, behavioural."
+   "why": "Cognitive, emotional, behavioural.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/44.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "'It's just basic tissues, how did you confuse those?' is:",
@@ -6237,7 +7921,14 @@ SINA.lectures["history-medical-art"] = {
     "Neutral"
    ],
    "answer": 0,
-   "why": "Contrast with naming the embarrassment."
+   "why": "Contrast with naming the embarrassment.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/46.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "'Don't be so sensitive; it's part of medicine' fails because it:",
@@ -6248,7 +7939,19 @@ SINA.lectures["history-medical-art"] = {
     "Offers help"
    ],
    "answer": 1,
-   "why": "Better: acknowledge, then offer to talk it through."
+   "why": "Better: acknowledge, then offer to talk it through.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/08.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 8
+    },
+    {
+     "src": "files/slides/history-medical-art/48.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Which social skill is listed?",
@@ -6259,7 +7962,14 @@ SINA.lectures["history-medical-art"] = {
     "Diagnosing"
    ],
    "answer": 0,
-   "why": "With active listening, disagreeing, conflict resolution, NVC."
+   "why": "With active listening, disagreeing, conflict resolution, NVC.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/51.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "In the Thomas-Kilmann model, the two axes are:",
@@ -6270,7 +7980,14 @@ SINA.lectures["history-medical-art"] = {
     "Motivation to reach one's interests and motivation to cooperate"
    ],
    "answer": 3,
-   "why": "Defining conflict styles."
+   "why": "Defining conflict styles.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/59.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 59
+    }
+   ]
   },
   {
    "q": "In NVC, 'because I need to feel listened to' is the:",
@@ -6281,7 +7998,14 @@ SINA.lectures["history-medical-art"] = {
     "Feeling"
    ],
    "answer": 2,
-   "why": "Request follows: a concrete, willing action."
+   "why": "Request follows: a concrete, willing action.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/64.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 64
+    }
+   ]
   },
   {
    "q": "An NVC request should be:",
@@ -6292,7 +8016,14 @@ SINA.lectures["history-medical-art"] = {
     "Silent, leaving the other to guess the need"
    ],
    "answer": 1,
-   "why": "E.g. put the phone aside for 10 minutes."
+   "why": "E.g. put the phone aside for 10 minutes.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/64.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 64
+    }
+   ]
   },
   {
    "q": "'I appreciate what you are telling me, but you're off base' illustrates:",
@@ -6303,7 +8034,14 @@ SINA.lectures["history-medical-art"] = {
     "Empathy cancelled by 'but'"
    ],
    "answer": 3,
-   "why": "Such statements negate the acknowledgement."
+   "why": "Such statements negate the acknowledgement.",
+   "slides": [
+    {
+     "src": "files/slides/history-medical-art/49.jpg",
+     "lec": "The art of medicine: emotions,",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

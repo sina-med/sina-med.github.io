@@ -198,7 +198,14 @@ SINA.lectures["immuno1-lymphoid"] = {
     "Bone marrow"
    ],
    "answer": 3,
-   "why": "T cells mature in the thymus."
+   "why": "T cells mature in the thymus.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-lymphoid/05.jpg",
+     "lec": "Lymphoid organs and lymphocyte selection",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which is a secondary lymphoid organ?",
@@ -209,7 +216,19 @@ SINA.lectures["immuno1-lymphoid"] = {
     "Thymus"
    ],
    "answer": 2,
-   "why": "Also lymph nodes and MALT."
+   "why": "Also lymph nodes and MALT.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-lymphoid/05.jpg",
+     "lec": "Lymphoid organs and lymphocyte selection",
+     "n": 5
+    },
+    {
+     "src": "files/slides/immuno1-lymphoid/30.jpg",
+     "lec": "Lymphoid organs and lymphocyte selection",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which is NOT a consequence of gene rearrangement?",
@@ -220,7 +239,14 @@ SINA.lectures["immuno1-lymphoid"] = {
     "Reversal in daughter cells"
    ],
    "answer": 3,
-   "why": "Daughter cells inherit it."
+   "why": "Daughter cells inherit it.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-lymphoid/16.jpg",
+     "lec": "Lymphoid organs and lymphocyte selection",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "A developing B cell whose BCR binds self-antigen first undergoes:",
@@ -231,7 +257,14 @@ SINA.lectures["immuno1-lymphoid"] = {
     "Immediate proliferation"
    ],
    "answer": 2,
-   "why": "Then apoptosis if still self-reactive."
+   "why": "Then apoptosis if still self-reactive.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-lymphoid/17.jpg",
+     "lec": "Lymphoid organs and lymphocyte selection",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "About what proportion of B cells die in the bone marrow?",
@@ -242,7 +275,14 @@ SINA.lectures["immuno1-lymphoid"] = {
     "5%"
    ],
    "answer": 0,
-   "why": "Negative selection."
+   "why": "Negative selection.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-lymphoid/17.jpg",
+     "lec": "Lymphoid organs and lymphocyte selection",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The thymus is located in the:",
@@ -253,7 +293,14 @@ SINA.lectures["immuno1-lymphoid"] = {
     "Abdomen"
    ],
    "answer": 1,
-   "why": "Base on the pericardium."
+   "why": "Base on the pericardium.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-lymphoid/18.jpg",
+     "lec": "Lymphoid organs and lymphocyte selection",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Positive selection in the thymus ensures:",
@@ -264,7 +311,14 @@ SINA.lectures["immuno1-lymphoid"] = {
     "Self-tolerance"
    ],
    "answer": 1,
-   "why": "Occurs in the cortex."
+   "why": "Occurs in the cortex.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-lymphoid/25.jpg",
+     "lec": "Lymphoid organs and lymphocyte selection",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Negative selection in the thymus ensures:",
@@ -275,7 +329,14 @@ SINA.lectures["immuno1-lymphoid"] = {
     "Self-tolerance"
    ],
    "answer": 3,
-   "why": "Occurs in the medulla."
+   "why": "Occurs in the medulla.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-lymphoid/25.jpg",
+     "lec": "Lymphoid organs and lymphocyte selection",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Thymic hormones peak at:",
@@ -286,7 +347,14 @@ SINA.lectures["immuno1-lymphoid"] = {
     "Age 50"
    ],
    "answer": 1,
-   "why": "Then decline with involution."
+   "why": "Then decline with involution.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-lymphoid/19.jpg",
+     "lec": "Lymphoid organs and lymphocyte selection",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "T cells represent about what share of blood lymphocytes?",
@@ -297,7 +365,14 @@ SINA.lectures["immuno1-lymphoid"] = {
     "100%"
    ],
    "answer": 0,
-   "why": "B cells 5-15%."
+   "why": "B cells 5-15%.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-lymphoid/28.jpg",
+     "lec": "Lymphoid organs and lymphocyte selection",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The main antibody of mucosal immunity is:",
@@ -308,7 +383,14 @@ SINA.lectures["immuno1-lymphoid"] = {
     "IgD"
    ],
    "answer": 0,
-   "why": "MALT."
+   "why": "MALT.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-lymphoid/30.jpg",
+     "lec": "Lymphoid organs and lymphocyte selection",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "The paracortex of a lymph node is rich in:",
@@ -319,7 +401,14 @@ SINA.lectures["immuno1-lymphoid"] = {
     "T cells"
    ],
    "answer": 3,
-   "why": "Thymus-dependent zone."
+   "why": "Thymus-dependent zone.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-lymphoid/32.jpg",
+     "lec": "Lymphoid organs and lymphocyte selection",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Secondary follicles appear:",
@@ -330,7 +419,14 @@ SINA.lectures["immuno1-lymphoid"] = {
     "3-5 days after antigen encounter"
    ],
    "answer": 3,
-   "why": "With germinal centres."
+   "why": "With germinal centres.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-lymphoid/32.jpg",
+     "lec": "Lymphoid organs and lymphocyte selection",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Peyer patches belong to:",
@@ -341,7 +437,19 @@ SINA.lectures["immuno1-lymphoid"] = {
     "The thymus"
    ],
    "answer": 0,
-   "why": "Gut-associated lymphoid tissue."
+   "why": "Gut-associated lymphoid tissue.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-lymphoid/40.jpg",
+     "lec": "Lymphoid organs and lymphocyte selection",
+     "n": 40
+    },
+    {
+     "src": "files/slides/immuno1-lymphoid/46.jpg",
+     "lec": "Lymphoid organs and lymphocyte selection",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -757,7 +865,14 @@ SINA.lectures["immuno1-cells"] = {
     "10¹⁵"
    ],
    "answer": 0,
-   "why": "Continuous renewal."
+   "why": "Continuous renewal.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-cells/07.jpg",
+     "lec": "Hematopoiesis and cells of the immune",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "A hematopoietic stem cell is characterised by:",
@@ -768,7 +883,14 @@ SINA.lectures["immuno1-cells"] = {
     "Only red cell production"
    ],
    "answer": 0,
-   "why": "Gives two progenitors."
+   "why": "Gives two progenitors.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-cells/05.jpg",
+     "lec": "Hematopoiesis and cells of the immune",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which cells are the first to respond to infection?",
@@ -779,7 +901,19 @@ SINA.lectures["immuno1-cells"] = {
     "B cells"
    ],
    "answer": 1,
-   "why": "Innate immunity."
+   "why": "Innate immunity.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-cells/04.jpg",
+     "lec": "Hematopoiesis and cells of the immune",
+     "n": 4
+    },
+    {
+     "src": "files/slides/immuno1-cells/19.jpg",
+     "lec": "Hematopoiesis and cells of the immune",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Neutrophils represent about what share of circulating WBC?",
@@ -790,7 +924,14 @@ SINA.lectures["immuno1-cells"] = {
     "5%"
    ],
    "answer": 0,
-   "why": "Lifespan ~36 h."
+   "why": "Lifespan ~36 h.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-cells/15.jpg",
+     "lec": "Hematopoiesis and cells of the immune",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Eosinophils are mainly involved in:",
@@ -801,7 +942,14 @@ SINA.lectures["immuno1-cells"] = {
     "Allergy and parasitic diseases"
    ],
    "answer": 3,
-   "why": "2-5% of WBC."
+   "why": "2-5% of WBC.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-cells/15.jpg",
+     "lec": "Hematopoiesis and cells of the immune",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which cell becomes a mast cell in tissues?",
@@ -812,7 +960,14 @@ SINA.lectures["immuno1-cells"] = {
     "NK cell"
    ],
    "answer": 1,
-   "why": "Histamine, heparin."
+   "why": "Histamine, heparin.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-cells/15.jpg",
+     "lec": "Hematopoiesis and cells of the immune",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Macrophages present antigen to T cells using:",
@@ -823,7 +978,14 @@ SINA.lectures["immuno1-cells"] = {
     "Lysozyme"
    ],
    "answer": 1,
-   "why": "Antigen-presenting cells."
+   "why": "Antigen-presenting cells.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-cells/29.jpg",
+     "lec": "Hematopoiesis and cells of the immune",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which monocyte product is a pyrogen?",
@@ -834,7 +996,14 @@ SINA.lectures["immuno1-cells"] = {
     "IL-1"
    ],
    "answer": 3,
-   "why": "Also induces acute-phase proteins."
+   "why": "Also induces acute-phase proteins.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-cells/13.jpg",
+     "lec": "Hematopoiesis and cells of the immune",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "NK cells lack:",
@@ -845,7 +1014,19 @@ SINA.lectures["immuno1-cells"] = {
     "Granzymes"
    ],
    "answer": 1,
-   "why": "They are not T or B cells."
+   "why": "They are not T or B cells.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-cells/19.jpg",
+     "lec": "Hematopoiesis and cells of the immune",
+     "n": 19
+    },
+    {
+     "src": "files/slides/immuno1-cells/37.jpg",
+     "lec": "Hematopoiesis and cells of the immune",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "ADCC by NK cells requires:",
@@ -856,7 +1037,14 @@ SINA.lectures["immuno1-cells"] = {
     "MHC class II"
    ],
    "answer": 2,
-   "why": "Via the Fc receptor."
+   "why": "Via the Fc receptor.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-cells/22.jpg",
+     "lec": "Hematopoiesis and cells of the immune",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "NKT cells are especially abundant in the:",
@@ -867,7 +1055,14 @@ SINA.lectures["immuno1-cells"] = {
     "Liver"
    ],
    "answer": 3,
-   "why": "~30% of T cells there."
+   "why": "~30% of T cells there.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-cells/24.jpg",
+     "lec": "Hematopoiesis and cells of the immune",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "γδ T cells are abundant in:",
@@ -878,7 +1073,14 @@ SINA.lectures["immuno1-cells"] = {
     "Epithelia (gut, skin)"
    ],
    "answer": 3,
-   "why": "Not restricted to classical MHC."
+   "why": "Not restricted to classical MHC.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-cells/26.jpg",
+     "lec": "Hematopoiesis and cells of the immune",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "CD8 T cells mainly:",
@@ -889,7 +1091,19 @@ SINA.lectures["immuno1-cells"] = {
     "Phagocytose"
    ],
    "answer": 0,
-   "why": "Cytotoxic."
+   "why": "Cytotoxic.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-cells/26.jpg",
+     "lec": "Hematopoiesis and cells of the immune",
+     "n": 26
+    },
+    {
+     "src": "files/slides/immuno1-cells/27.jpg",
+     "lec": "Hematopoiesis and cells of the immune",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "In the thymus, immature thymocytes are first:",
@@ -900,7 +1114,14 @@ SINA.lectures["immuno1-cells"] = {
     "CD4⁺CD8⁺"
    ],
    "answer": 1,
-   "why": "Then double positive."
+   "why": "Then double positive.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-cells/28.jpg",
+     "lec": "Hematopoiesis and cells of the immune",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1316,7 +1537,14 @@ SINA.lectures["immuno1-antigens"] = {
     "Produce antibodies only"
    ],
    "answer": 2,
-   "why": "Innate or adaptive."
+   "why": "Innate or adaptive.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-antigens/03.jpg",
+     "lec": "Antigens",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Immunogenicity means the ability to:",
@@ -1327,7 +1555,14 @@ SINA.lectures["immuno1-antigens"] = {
     "Trigger an immune response in vivo"
    ],
    "answer": 3,
-   "why": "Antigenicity = recognition."
+   "why": "Antigenicity = recognition.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-antigens/05.jpg",
+     "lec": "Antigens",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which statement is correct?",
@@ -1349,7 +1584,14 @@ SINA.lectures["immuno1-antigens"] = {
     "1 MDa"
    ],
    "answer": 0,
-   "why": "Larger molecules are more immunogenic."
+   "why": "Larger molecules are more immunogenic.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-antigens/08.jpg",
+     "lec": "Antigens",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Rank of immunogenicity by chemical nature:",
@@ -1360,7 +1602,14 @@ SINA.lectures["immuno1-antigens"] = {
     "Nucleic acids > proteins"
    ],
    "answer": 2,
-   "why": "Proteins are the most immunogenic."
+   "why": "Proteins are the most immunogenic.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-antigens/35.jpg",
+     "lec": "Antigens",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Very low (ng) antigen doses tend to induce:",
@@ -1371,7 +1620,14 @@ SINA.lectures["immuno1-antigens"] = {
     "Paralysis"
    ],
    "answer": 2,
-   "why": "Very high doses cause paralysis."
+   "why": "Very high doses cause paralysis.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-antigens/11.jpg",
+     "lec": "Antigens",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The part of an antibody binding the epitope is the:",
@@ -1382,7 +1638,14 @@ SINA.lectures["immuno1-antigens"] = {
     "Fc"
    ],
    "answer": 1,
-   "why": "Complementary site."
+   "why": "Complementary site.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-antigens/12.jpg",
+     "lec": "Antigens",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Most protein epitopes are:",
@@ -1393,7 +1656,19 @@ SINA.lectures["immuno1-antigens"] = {
     "Linear"
    ],
    "answer": 1,
-   "why": "Lost when the protein is denatured."
+   "why": "Lost when the protein is denatured.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-antigens/20.jpg",
+     "lec": "Antigens",
+     "n": 20
+    },
+    {
+     "src": "files/slides/immuno1-antigens/21.jpg",
+     "lec": "Antigens",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "T cells recognise antigen:",
@@ -1404,7 +1679,14 @@ SINA.lectures["immuno1-antigens"] = {
     "Only carbohydrates"
    ],
    "answer": 0,
-   "why": "B cells see native antigen."
+   "why": "B cells see native antigen.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-antigens/18.jpg",
+     "lec": "Antigens",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "A hapten is:",
@@ -1415,7 +1697,19 @@ SINA.lectures["immuno1-antigens"] = {
     "Immunogenic alone"
    ],
    "answer": 0,
-   "why": "Needs a carrier."
+   "why": "Needs a carrier.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-antigens/02.jpg",
+     "lec": "Antigens",
+     "n": 2
+    },
+    {
+     "src": "files/slides/immuno1-antigens/15.jpg",
+     "lec": "Antigens",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Staphylococcal enterotoxins act as:",
@@ -1426,7 +1720,14 @@ SINA.lectures["immuno1-antigens"] = {
     "Adjuvants"
    ],
    "answer": 1,
-   "why": "Polyclonal T activation."
+   "why": "Polyclonal T activation.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-antigens/28.jpg",
+     "lec": "Antigens",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "ABO blood group antigens are examples of:",
@@ -1437,7 +1738,14 @@ SINA.lectures["immuno1-antigens"] = {
     "Alloantigens"
    ],
    "answer": 3,
-   "why": "Differences within a species."
+   "why": "Differences within a species.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-antigens/32.jpg",
+     "lec": "Antigens",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Individuals with the Bombay phenotype lack:",
@@ -1448,7 +1756,14 @@ SINA.lectures["immuno1-antigens"] = {
     "A antigen only"
    ],
    "answer": 1,
-   "why": "They have anti-H antibodies."
+   "why": "They have anti-H antibodies.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-antigens/34.jpg",
+     "lec": "Antigens",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1866,7 +2181,14 @@ SINA.lectures["immuno1-immunoglobulins"] = {
     "2 heavy + 2 light chains"
    ],
    "answer": 3,
-   "why": "Linked by disulfide bridges."
+   "why": "Linked by disulfide bridges.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-immunoglobulins/05.jpg",
+     "lec": "Immunoglobulins and antibody functions",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The Ig class is determined by the:",
@@ -1877,7 +2199,14 @@ SINA.lectures["immuno1-immunoglobulins"] = {
     "Light chain"
    ],
    "answer": 0,
-   "why": "μ, γ, α, δ, ε."
+   "why": "μ, γ, α, δ, ε.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-immunoglobulins/04.jpg",
+     "lec": "Immunoglobulins and antibody functions",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Papain digestion of IgG yields:",
@@ -1888,7 +2217,14 @@ SINA.lectures["immuno1-immunoglobulins"] = {
     "2 Fab + 1 Fc"
    ],
    "answer": 3,
-   "why": "Cut at the hinge."
+   "why": "Cut at the hinge.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-immunoglobulins/23.jpg",
+     "lec": "Immunoglobulins and antibody functions",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Antigen recognition is performed by the:",
@@ -1899,7 +2235,19 @@ SINA.lectures["immuno1-immunoglobulins"] = {
     "J chain"
    ],
    "answer": 1,
-   "why": "CDRs."
+   "why": "CDRs.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-immunoglobulins/36.jpg",
+     "lec": "Immunoglobulins and antibody functions",
+     "n": 36
+    },
+    {
+     "src": "files/slides/immuno1-immunoglobulins/39.jpg",
+     "lec": "Immunoglobulins and antibody functions",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "The CDRs are:",
@@ -1910,7 +2258,14 @@ SINA.lectures["immuno1-immunoglobulins"] = {
     "Complement receptors"
    ],
    "answer": 1,
-   "why": "On a framework."
+   "why": "On a framework.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-immunoglobulins/11.jpg",
+     "lec": "Immunoglobulins and antibody functions",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Antigen-antibody bonds are:",
@@ -1921,7 +2276,14 @@ SINA.lectures["immuno1-immunoglobulins"] = {
     "Covalent"
    ],
    "answer": 2,
-   "why": "Electrostatic, H-bonds, Van der Waals, hydrophobic."
+   "why": "Electrostatic, H-bonds, Van der Waals, hydrophobic.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-immunoglobulins/14.jpg",
+     "lec": "Immunoglobulins and antibody functions",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The secreted form of IgM is a:",
@@ -1932,7 +2294,14 @@ SINA.lectures["immuno1-immunoglobulins"] = {
     "Dimer"
    ],
    "answer": 1,
-   "why": "With a J chain."
+   "why": "With a J chain.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-immunoglobulins/16.jpg",
+     "lec": "Immunoglobulins and antibody functions",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which Ig is produced first in a primary response?",
@@ -1943,7 +2312,14 @@ SINA.lectures["immuno1-immunoglobulins"] = {
     "IgA"
    ],
    "answer": 0,
-   "why": "Naive B cells."
+   "why": "Naive B cells.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-immunoglobulins/17.jpg",
+     "lec": "Immunoglobulins and antibody functions",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which Ig is the best activator of the classical complement pathway?",
@@ -1954,7 +2330,14 @@ SINA.lectures["immuno1-immunoglobulins"] = {
     "IgG4"
    ],
    "answer": 1,
-   "why": "Pentameric."
+   "why": "Pentameric.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-immunoglobulins/20.jpg",
+     "lec": "Immunoglobulins and antibody functions",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which Ig crosses the placenta?",
@@ -1965,7 +2348,14 @@ SINA.lectures["immuno1-immunoglobulins"] = {
     "IgA"
    ],
    "answer": 0,
-   "why": "Protects the newborn."
+   "why": "Protects the newborn.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-immunoglobulins/21.jpg",
+     "lec": "Immunoglobulins and antibody functions",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The half-life of IgG1 is about:",
@@ -1976,7 +2366,14 @@ SINA.lectures["immuno1-immunoglobulins"] = {
     "21-24 days"
    ],
    "answer": 3,
-   "why": "IgG3 is shorter."
+   "why": "IgG3 is shorter.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-immunoglobulins/25.jpg",
+     "lec": "Immunoglobulins and antibody functions",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Secretory IgA contains:",
@@ -1987,7 +2384,14 @@ SINA.lectures["immuno1-immunoglobulins"] = {
     "CH4 domain"
    ],
    "answer": 0,
-   "why": "Dimer transported by transcytosis."
+   "why": "Dimer transported by transcytosis.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-immunoglobulins/28.jpg",
+     "lec": "Immunoglobulins and antibody functions",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which Ig predominates in saliva, tears and colostrum?",
@@ -1998,7 +2402,14 @@ SINA.lectures["immuno1-immunoglobulins"] = {
     "IgG"
    ],
    "answer": 1,
-   "why": "Mucosal immunity."
+   "why": "Mucosal immunity.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-immunoglobulins/27.jpg",
+     "lec": "Immunoglobulins and antibody functions",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "IgE is mainly involved in:",
@@ -2009,7 +2420,14 @@ SINA.lectures["immuno1-immunoglobulins"] = {
     "Allergy and parasitic immunity"
    ],
    "answer": 3,
-   "why": "Binds mast cells."
+   "why": "Binds mast cells.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-immunoglobulins/34.jpg",
+     "lec": "Immunoglobulins and antibody functions",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2445,7 +2863,14 @@ SINA.lectures["immuno1-complement"] = {
     "35"
    ],
    "answer": 3,
-   "why": "12 directly effector."
+   "why": "12 directly effector.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-complement/08.jpg",
+     "lec": "The complement system",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Most complement proteins are synthesised by the:",
@@ -2456,7 +2881,14 @@ SINA.lectures["immuno1-complement"] = {
     "Bone marrow"
    ],
    "answer": 0,
-   "why": "About 95%."
+   "why": "About 95%.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-complement/10.jpg",
+     "lec": "The complement system",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The complement level at birth is about:",
@@ -2467,7 +2899,14 @@ SINA.lectures["immuno1-complement"] = {
     "Double the adult level"
    ],
    "answer": 1,
-   "why": "Higher than adults from 2-14 years."
+   "why": "Higher than adults from 2-14 years.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-complement/09.jpg",
+     "lec": "The complement system",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Genes for C2, C4 and factor B are located in the:",
@@ -2478,7 +2917,14 @@ SINA.lectures["immuno1-complement"] = {
     "Mitochondria"
    ],
    "answer": 0,
-   "why": "Chromosome 6."
+   "why": "Chromosome 6.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-complement/11.jpg",
+     "lec": "The complement system",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The classical pathway is triggered mainly by:",
@@ -2489,7 +2935,14 @@ SINA.lectures["immuno1-complement"] = {
     "Properdin"
    ],
    "answer": 2,
-   "why": "Antibody-dependent."
+   "why": "Antibody-dependent.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-complement/16.jpg",
+     "lec": "The complement system",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The lectin pathway uses:",
@@ -2500,7 +2953,14 @@ SINA.lectures["immuno1-complement"] = {
     "IgE"
    ],
    "answer": 1,
-   "why": "Recognises carbohydrates."
+   "why": "Recognises carbohydrates.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-complement/18.jpg",
+     "lec": "The complement system",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Properdin stabilises the:",
@@ -2511,7 +2971,14 @@ SINA.lectures["immuno1-complement"] = {
     "Classical C3 convertase"
    ],
    "answer": 1,
-   "why": "Amplification loop."
+   "why": "Amplification loop.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-complement/19.jpg",
+     "lec": "The complement system",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The classical C3 convertase is:",
@@ -2522,7 +2989,19 @@ SINA.lectures["immuno1-complement"] = {
     "C5b-9"
    ],
    "answer": 2,
-   "why": "Formed after C1s cleaves C4 and C2."
+   "why": "Formed after C1s cleaves C4 and C2.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-complement/16.jpg",
+     "lec": "The complement system",
+     "n": 16
+    },
+    {
+     "src": "files/slides/immuno1-complement/18.jpg",
+     "lec": "The complement system",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "All complement pathways converge on:",
@@ -2544,7 +3023,14 @@ SINA.lectures["immuno1-complement"] = {
     "C1-C4"
    ],
    "answer": 2,
-   "why": "Forms a pore."
+   "why": "Forms a pore.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-complement/17.jpg",
+     "lec": "The complement system",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "C3a and C5a are:",
@@ -2555,7 +3041,14 @@ SINA.lectures["immuno1-complement"] = {
     "Anaphylatoxins (inflammation)"
    ],
    "answer": 3,
-   "why": "Also chemotactic."
+   "why": "Also chemotactic.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-complement/22.jpg",
+     "lec": "The complement system",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which fragment is the main opsonin?",
@@ -2566,7 +3059,19 @@ SINA.lectures["immuno1-complement"] = {
     "C3b"
    ],
    "answer": 3,
-   "why": "Promotes phagocytosis."
+   "why": "Promotes phagocytosis.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-complement/23.jpg",
+     "lec": "The complement system",
+     "n": 23
+    },
+    {
+     "src": "files/slides/immuno1-complement/26.jpg",
+     "lec": "The complement system",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "In complement nomenclature, the 'a' fragment is usually:",
@@ -2577,7 +3082,14 @@ SINA.lectures["immuno1-complement"] = {
     "An antibody"
    ],
    "answer": 0,
-   "why": "'b' is the large fragment."
+   "why": "'b' is the large fragment.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-complement/13.jpg",
+     "lec": "The complement system",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2975,7 +3487,19 @@ SINA.lectures["immuno1-dynamics"] = {
     "Hormones"
    ],
    "answer": 1,
-   "why": "Selects matching lymphocytes."
+   "why": "Selects matching lymphocytes.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-dynamics/05.jpg",
+     "lec": "Dynamics of the immune response",
+     "n": 5
+    },
+    {
+     "src": "files/slides/immuno1-dynamics/23.jpg",
+     "lec": "Dynamics of the immune response",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Where does the adaptive response start?",
@@ -2986,7 +3510,14 @@ SINA.lectures["immuno1-dynamics"] = {
     "Thymus"
    ],
    "answer": 2,
-   "why": "APC-T cooperation."
+   "why": "APC-T cooperation.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-dynamics/10.jpg",
+     "lec": "Dynamics of the immune response",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "CD4 T cells recognise antigen presented by:",
@@ -2997,7 +3528,19 @@ SINA.lectures["immuno1-dynamics"] = {
     "Complement"
    ],
    "answer": 1,
-   "why": "CD8 with MHC class I."
+   "why": "CD8 with MHC class I.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-dynamics/08.jpg",
+     "lec": "Dynamics of the immune response",
+     "n": 8
+    },
+    {
+     "src": "files/slides/immuno1-dynamics/27.jpg",
+     "lec": "Dynamics of the immune response",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Signal 2 in T-cell activation is:",
@@ -3008,7 +3551,14 @@ SINA.lectures["immuno1-dynamics"] = {
     "TCR binding"
    ],
    "answer": 2,
-   "why": "Signal 3 = cytokines."
+   "why": "Signal 3 = cytokines.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-dynamics/09.jpg",
+     "lec": "Dynamics of the immune response",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Late activation events involve:",
@@ -3019,7 +3569,14 @@ SINA.lectures["immuno1-dynamics"] = {
     "NF-κB, NFAT"
    ],
    "answer": 3,
-   "why": "Gene transcription."
+   "why": "Gene transcription.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-dynamics/12.jpg",
+     "lec": "Dynamics of the immune response",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Th1 differentiation is driven by:",
@@ -3030,7 +3587,19 @@ SINA.lectures["immuno1-dynamics"] = {
     "IL-12"
    ],
    "answer": 3,
-   "why": "Secretes IL-2, IFN-γ."
+   "why": "Secretes IL-2, IFN-γ.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-dynamics/14.jpg",
+     "lec": "Dynamics of the immune response",
+     "n": 14
+    },
+    {
+     "src": "files/slides/immuno1-dynamics/27.jpg",
+     "lec": "Dynamics of the immune response",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Th2 cells mainly secrete:",
@@ -3041,7 +3610,14 @@ SINA.lectures["immuno1-dynamics"] = {
     "IFN-γ and IL-2"
    ],
    "answer": 1,
-   "why": "Humoral immunity."
+   "why": "Humoral immunity.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-dynamics/14.jpg",
+     "lec": "Dynamics of the immune response",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Cellular immunity mainly targets:",
@@ -3052,7 +3628,14 @@ SINA.lectures["immuno1-dynamics"] = {
     "Toxins"
    ],
    "answer": 0,
-   "why": "Viruses, intracellular bacteria."
+   "why": "Viruses, intracellular bacteria.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-dynamics/14.jpg",
+     "lec": "Dynamics of the immune response",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "T-independent antigens are typically:",
@@ -3063,7 +3646,14 @@ SINA.lectures["immuno1-dynamics"] = {
     "Haptens"
    ],
    "answer": 0,
-   "why": "Repeated epitopes."
+   "why": "Repeated epitopes.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-dynamics/18.jpg",
+     "lec": "Dynamics of the immune response",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "A T-independent response produces:",
@@ -3074,7 +3664,14 @@ SINA.lectures["immuno1-dynamics"] = {
     "IgG with memory"
    ],
    "answer": 1,
-   "why": "No class switching."
+   "why": "No class switching.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-dynamics/18.jpg",
+     "lec": "Dynamics of the immune response",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "B-T cooperation depends on:",
@@ -3085,7 +3682,14 @@ SINA.lectures["immuno1-dynamics"] = {
     "Complement"
    ],
    "answer": 0,
-   "why": "Th provides help."
+   "why": "Th provides help.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-dynamics/21.jpg",
+     "lec": "Dynamics of the immune response",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Class switching changes:",
@@ -3096,7 +3700,14 @@ SINA.lectures["immuno1-dynamics"] = {
     "The light chain"
    ],
    "answer": 0,
-   "why": "Heavy-chain constant gene rearrangement."
+   "why": "Heavy-chain constant gene rearrangement.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-dynamics/19.jpg",
+     "lec": "Dynamics of the immune response",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3524,7 +4135,14 @@ SINA.lectures["immuno1-anti-infectious"] = {
     "Epithelial barriers"
    ],
    "answer": 3,
-   "why": "Skin and mucosae."
+   "why": "Skin and mucosae.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-anti-infectious/07.jpg",
+     "lec": "Anti-infectious immunity",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Th1 polarisation is driven by:",
@@ -3535,7 +4153,14 @@ SINA.lectures["immuno1-anti-infectious"] = {
     "IL-4"
    ],
    "answer": 2,
-   "why": "Transcription factor T-bet."
+   "why": "Transcription factor T-bet.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-anti-infectious/10.jpg",
+     "lec": "Anti-infectious immunity",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Th17 cells are especially important against:",
@@ -3546,7 +4171,14 @@ SINA.lectures["immuno1-anti-infectious"] = {
     "Helminths"
    ],
    "answer": 0,
-   "why": "IL-17 recruits neutrophils."
+   "why": "IL-17 recruits neutrophils.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-anti-infectious/10.jpg",
+     "lec": "Anti-infectious immunity",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Regulatory T cells express:",
@@ -3557,7 +4189,14 @@ SINA.lectures["immuno1-anti-infectious"] = {
     "RORγt"
    ],
    "answer": 2,
-   "why": "Immunosuppression."
+   "why": "Immunosuppression.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-anti-infectious/10.jpg",
+     "lec": "Anti-infectious immunity",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Type I interferons are:",
@@ -3568,7 +4207,14 @@ SINA.lectures["immuno1-anti-infectious"] = {
     "TNF"
    ],
    "answer": 0,
-   "why": "Antiviral state."
+   "why": "Antiviral state.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-anti-infectious/20.jpg",
+     "lec": "Anti-infectious immunity",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which enzyme blocks viral protein synthesis in IFN-treated cells?",
@@ -3579,7 +4225,14 @@ SINA.lectures["immuno1-anti-infectious"] = {
     "Catalase"
    ],
    "answer": 1,
-   "why": "Also OAS and Mx."
+   "why": "Also OAS and Mx.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-anti-infectious/20.jpg",
+     "lec": "Anti-infectious immunity",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which cells mainly kill virus-infected cells?",
@@ -3590,7 +4243,19 @@ SINA.lectures["immuno1-anti-infectious"] = {
     "Neutrophils and eosinophils"
    ],
    "answer": 2,
-   "why": "Cytotoxicity."
+   "why": "Cytotoxicity.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-anti-infectious/13.jpg",
+     "lec": "Anti-infectious immunity",
+     "n": 13
+    },
+    {
+     "src": "files/slides/immuno1-anti-infectious/21.jpg",
+     "lec": "Anti-infectious immunity",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Neutralising antibodies act on:",
@@ -3601,7 +4266,14 @@ SINA.lectures["immuno1-anti-infectious"] = {
     "Free virus"
    ],
    "answer": 3,
-   "why": "Humoral response."
+   "why": "Humoral response.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-anti-infectious/21.jpg",
+     "lec": "Anti-infectious immunity",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The main defence against bacteria is:",
@@ -3612,7 +4284,14 @@ SINA.lectures["immuno1-anti-infectious"] = {
     "IgE"
    ],
    "answer": 1,
-   "why": "Highly bactericidal."
+   "why": "Highly bactericidal.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-anti-infectious/24.jpg",
+     "lec": "Anti-infectious immunity",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Intracellular bacteria are controlled mainly by:",
@@ -3623,7 +4302,14 @@ SINA.lectures["immuno1-anti-infectious"] = {
     "IgE"
    ],
    "answer": 0,
-   "why": "IFN-γ, TNF."
+   "why": "IFN-γ, TNF.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-anti-infectious/24.jpg",
+     "lec": "Anti-infectious immunity",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Mycobacterium tuberculosis escapes by:",
@@ -3634,7 +4320,14 @@ SINA.lectures["immuno1-anti-infectious"] = {
     "A capsule"
    ],
    "answer": 0,
-   "why": "Listeria lyses the phagosome."
+   "why": "Listeria lyses the phagosome.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-anti-infectious/25.jpg",
+     "lec": "Anti-infectious immunity",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Helminths trigger mainly a:",
@@ -3645,7 +4338,14 @@ SINA.lectures["immuno1-anti-infectious"] = {
     "Th2, IgE"
    ],
    "answer": 3,
-   "why": "Hypereosinophilia."
+   "why": "Hypereosinophilia.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-anti-infectious/26.jpg",
+     "lec": "Anti-infectious immunity",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Plasmodium escapes immunity by:",
@@ -3656,7 +4356,14 @@ SINA.lectures["immuno1-anti-infectious"] = {
     "Antigenic variation"
    ],
    "answer": 3,
-   "why": "Also immunosuppression."
+   "why": "Also immunosuppression.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-anti-infectious/30.jpg",
+     "lec": "Anti-infectious immunity",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Fungal wall components activate which complement pathway?",
@@ -3667,7 +4374,14 @@ SINA.lectures["immuno1-anti-infectious"] = {
     "None"
    ],
    "answer": 0,
-   "why": "Glycans, zymosan."
+   "why": "Glycans, zymosan.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-anti-infectious/31.jpg",
+     "lec": "Anti-infectious immunity",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Extracellular pathogens are eliminated mainly by:",
@@ -3678,7 +4392,19 @@ SINA.lectures["immuno1-anti-infectious"] = {
     "CD8 T cells only"
    ],
    "answer": 1,
-   "why": "Antibodies, complement, phagocytes."
+   "why": "Antibodies, complement, phagocytes.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-anti-infectious/24.jpg",
+     "lec": "Anti-infectious immunity",
+     "n": 24
+    },
+    {
+     "src": "files/slides/immuno1-anti-infectious/33.jpg",
+     "lec": "Anti-infectious immunity",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4075,7 +4801,14 @@ SINA.lectures["immuno1-innate"] = {
     "8 million years ago"
    ],
    "answer": 2,
-   "why": "Widespread in living organisms."
+   "why": "Widespread in living organisms.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-innate/03.jpg",
+     "lec": "Innate immunity",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Compared with adaptive immunity, innate immunity is:",
@@ -4086,7 +4819,14 @@ SINA.lectures["immuno1-innate"] = {
     "Slow and specific"
    ],
    "answer": 1,
-   "why": "Hours, constant recognition."
+   "why": "Hours, constant recognition.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-innate/05.jpg",
+     "lec": "Innate immunity",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The pH of the skin surface is about:",
@@ -4097,7 +4837,14 @@ SINA.lectures["immuno1-innate"] = {
     "7.4"
    ],
    "answer": 0,
-   "why": "Inhibits microbial growth."
+   "why": "Inhibits microbial growth.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-innate/09.jpg",
+     "lec": "Innate immunity",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "In cystic fibrosis, airway defence fails because:",
@@ -4108,7 +4855,14 @@ SINA.lectures["immuno1-innate"] = {
     "Lysozyme is absent"
    ],
    "answer": 1,
-   "why": "CFTR defect."
+   "why": "CFTR defect.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-innate/11.jpg",
+     "lec": "Innate immunity",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Lysozyme acts by:",
@@ -4119,7 +4873,19 @@ SINA.lectures["immuno1-innate"] = {
     "Breaking walls"
    ],
    "answer": 3,
-   "why": "Gram+ and Gram− bacteria."
+   "why": "Gram+ and Gram− bacteria.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-innate/12.jpg",
+     "lec": "Innate immunity",
+     "n": 12
+    },
+    {
+     "src": "files/slides/immuno1-innate/16.jpg",
+     "lec": "Innate immunity",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Lactoferrin inhibits bacteria by:",
@@ -4130,7 +4896,14 @@ SINA.lectures["immuno1-innate"] = {
     "Lysing walls"
    ],
    "answer": 2,
-   "why": "Iron is needed for growth."
+   "why": "Iron is needed for growth.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-innate/15.jpg",
+     "lec": "Innate immunity",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Antimicrobial peptides are mainly:",
@@ -4141,7 +4914,14 @@ SINA.lectures["immuno1-innate"] = {
     "Lipids"
    ],
    "answer": 0,
-   "why": "They bind negative microbial membranes."
+   "why": "They bind negative microbial membranes.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-innate/16.jpg",
+     "lec": "Innate immunity",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "α-defensins are produced by:",
@@ -4152,7 +4932,14 @@ SINA.lectures["immuno1-innate"] = {
     "Keratinocytes only"
    ],
    "answer": 2,
-   "why": "β-defensins: epithelia."
+   "why": "β-defensins: epithelia.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-innate/17.jpg",
+     "lec": "Innate immunity",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which proteins act as primitive opsonins in the lung?",
@@ -4163,7 +4950,14 @@ SINA.lectures["immuno1-innate"] = {
     "SP-A and SP-D"
    ],
    "answer": 3,
-   "why": "Surfactant."
+   "why": "Surfactant.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-innate/15.jpg",
+     "lec": "Innate immunity",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which is NOT a role of commensal flora?",
@@ -4174,7 +4968,19 @@ SINA.lectures["immuno1-innate"] = {
     "Producing colicins"
    ],
    "answer": 1,
-   "why": "Antibodies come from B cells."
+   "why": "Antibodies come from B cells.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-innate/25.jpg",
+     "lec": "Innate immunity",
+     "n": 25
+    },
+    {
+     "src": "files/slides/immuno1-innate/29.jpg",
+     "lec": "Innate immunity",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "NK cell inhibitory receptors (KIR) recognise:",
@@ -4185,7 +4991,14 @@ SINA.lectures["immuno1-innate"] = {
     "MHC class II"
    ],
    "answer": 0,
-   "why": "Missing self triggers killing."
+   "why": "Missing self triggers killing.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-innate/24.jpg",
+     "lec": "Innate immunity",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Innate cells recognise microbes through:",
@@ -4196,7 +5009,19 @@ SINA.lectures["immuno1-innate"] = {
     "PRRs"
    ],
    "answer": 3,
-   "why": "PAMP recognition."
+   "why": "PAMP recognition.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-innate/29.jpg",
+     "lec": "Innate immunity",
+     "n": 29
+    },
+    {
+     "src": "files/slides/immuno1-innate/31.jpg",
+     "lec": "Innate immunity",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4569,7 +5394,14 @@ SINA.lectures["immuno1-inflammation"] = {
     "Restore homeostasis"
    ],
    "answer": 3,
-   "why": "Heal injured tissue."
+   "why": "Heal injured tissue.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-inflammation/03.jpg",
+     "lec": "The inflammatory response",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which is NOT a cause of inflammation?",
@@ -4580,7 +5412,14 @@ SINA.lectures["immuno1-inflammation"] = {
     "Bacterial toxins"
    ],
    "answer": 2,
-   "why": "Physical, chemical, infectious, immune, necrosis."
+   "why": "Physical, chemical, infectious, immune, necrosis.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-inflammation/05.jpg",
+     "lec": "The inflammatory response",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which is a resident (tissue) inflammatory cell?",
@@ -4591,7 +5430,14 @@ SINA.lectures["immuno1-inflammation"] = {
     "Monocyte"
    ],
    "answer": 1,
-   "why": "Also macrophages, endothelial cells."
+   "why": "Also macrophages, endothelial cells.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-inflammation/15.jpg",
+     "lec": "The inflammatory response",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The main producers of cytokines are:",
@@ -4602,7 +5448,14 @@ SINA.lectures["immuno1-inflammation"] = {
     "Hepatocytes only"
    ],
    "answer": 2,
-   "why": "Intercellular messengers."
+   "why": "Intercellular messengers.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-inflammation/08.jpg",
+     "lec": "The inflammatory response",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "A cytokine acting on the cell that produced it acts in:",
@@ -4613,7 +5466,14 @@ SINA.lectures["immuno1-inflammation"] = {
     "Paracrine"
    ],
    "answer": 0,
-   "why": "Paracrine: neighbours."
+   "why": "Paracrine: neighbours.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-inflammation/09.jpg",
+     "lec": "The inflammatory response",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The first phase of the inflammatory response is:",
@@ -4624,7 +5484,19 @@ SINA.lectures["immuno1-inflammation"] = {
     "Initiation"
    ],
    "answer": 3,
-   "why": "Vascular phase."
+   "why": "Vascular phase.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-inflammation/15.jpg",
+     "lec": "The inflammatory response",
+     "n": 15
+    },
+    {
+     "src": "files/slides/immuno1-inflammation/25.jpg",
+     "lec": "The inflammatory response",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Leukocyte rolling depends on:",
@@ -4635,7 +5507,14 @@ SINA.lectures["immuno1-inflammation"] = {
     "Antibodies"
    ],
    "answer": 1,
-   "why": "Adhesion uses integrins."
+   "why": "Adhesion uses integrins.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-inflammation/16.jpg",
+     "lec": "The inflammatory response",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The correct extravasation order is:",
@@ -4646,7 +5525,14 @@ SINA.lectures["immuno1-inflammation"] = {
     "Adhesion, rolling, migration, diapedesis"
    ],
    "answer": 0,
-   "why": "Four steps."
+   "why": "Four steps.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-inflammation/17.jpg",
+     "lec": "The inflammatory response",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "IL-8 mainly attracts:",
@@ -4657,7 +5543,19 @@ SINA.lectures["immuno1-inflammation"] = {
     "Neutrophils"
    ],
    "answer": 3,
-   "why": "MCP-1 attracts monocytes."
+   "why": "MCP-1 attracts monocytes.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-inflammation/15.jpg",
+     "lec": "The inflammatory response",
+     "n": 15
+    },
+    {
+     "src": "files/slides/immuno1-inflammation/16.jpg",
+     "lec": "The inflammatory response",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Eotaxin attracts:",
@@ -4668,7 +5566,14 @@ SINA.lectures["immuno1-inflammation"] = {
     "Monocytes"
    ],
    "answer": 0,
-   "why": "Allergy."
+   "why": "Allergy.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-inflammation/16.jpg",
+     "lec": "The inflammatory response",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Redness and heat result from:",
@@ -4679,7 +5584,14 @@ SINA.lectures["immuno1-inflammation"] = {
     "Fibrosis"
    ],
    "answer": 0,
-   "why": "Swelling from exudation."
+   "why": "Swelling from exudation.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-inflammation/24.jpg",
+     "lec": "The inflammatory response",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The 'fifth cardinal sign' is:",
@@ -4690,7 +5602,14 @@ SINA.lectures["immuno1-inflammation"] = {
     "Itching"
    ],
    "answer": 1,
-   "why": "Added to the classic four."
+   "why": "Added to the classic four.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-inflammation/24.jpg",
+     "lec": "The inflammatory response",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "In the cellular phase, which cells arrive first?",
@@ -4701,7 +5620,14 @@ SINA.lectures["immuno1-inflammation"] = {
     "Neutrophils"
    ],
    "answer": 3,
-   "why": "Then monocytes/macrophages."
+   "why": "Then monocytes/macrophages.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-inflammation/15.jpg",
+     "lec": "The inflammatory response",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5084,7 +6010,14 @@ SINA.lectures["immuno1-phagocytosis"] = {
     "0.05 µm"
    ],
    "answer": 2,
-   "why": "Pathogens, debris, dead cells."
+   "why": "Pathogens, debris, dead cells.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-phagocytosis/04.jpg",
+     "lec": "Phagocytosis and microbicidal processes",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which antibodies are the best opsonins?",
@@ -5095,7 +6028,14 @@ SINA.lectures["immuno1-phagocytosis"] = {
     "IgG1 and IgG3"
    ],
    "answer": 3,
-   "why": "Bind Fcγ receptors."
+   "why": "Bind Fcγ receptors.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-phagocytosis/29.jpg",
+     "lec": "Phagocytosis and microbicidal processes",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Opsonisation means:",
@@ -5106,7 +6046,14 @@ SINA.lectures["immuno1-phagocytosis"] = {
     "Coating a target"
    ],
    "answer": 3,
-   "why": "E.g. C3b, IgG."
+   "why": "E.g. C3b, IgG.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-phagocytosis/29.jpg",
+     "lec": "Phagocytosis and microbicidal processes",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which granulocyte is the main phagocyte?",
@@ -5117,7 +6064,14 @@ SINA.lectures["immuno1-phagocytosis"] = {
     "Mast cell"
    ],
    "answer": 0,
-   "why": "First line of defence."
+   "why": "First line of defence.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-phagocytosis/08.jpg",
+     "lec": "Phagocytosis and microbicidal processes",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "After about how long in blood do monocytes enter tissues?",
@@ -5128,7 +6082,14 @@ SINA.lectures["immuno1-phagocytosis"] = {
     "8 minutes"
    ],
    "answer": 2,
-   "why": "Then become macrophages."
+   "why": "Then become macrophages.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-phagocytosis/09.jpg",
+     "lec": "Phagocytosis and microbicidal processes",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which is NOT a macrophage function?",
@@ -5139,7 +6100,19 @@ SINA.lectures["immuno1-phagocytosis"] = {
     "Phagocytosis"
    ],
    "answer": 2,
-   "why": "Antibodies come from plasma cells."
+   "why": "Antibodies come from plasma cells.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-phagocytosis/04.jpg",
+     "lec": "Phagocytosis and microbicidal processes",
+     "n": 4
+    },
+    {
+     "src": "files/slides/immuno1-phagocytosis/09.jpg",
+     "lec": "Phagocytosis and microbicidal processes",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which is a bacterial chemoattractant?",
@@ -5150,7 +6123,14 @@ SINA.lectures["immuno1-phagocytosis"] = {
     "Lactoferrin"
    ],
    "answer": 1,
-   "why": "Also PAF, LTB4, C5a."
+   "why": "Also PAF, LTB4, C5a.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-phagocytosis/12.jpg",
+     "lec": "Phagocytosis and microbicidal processes",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Engulfment depends on:",
@@ -5161,7 +6141,14 @@ SINA.lectures["immuno1-phagocytosis"] = {
     "DNA release"
    ],
    "answer": 1,
-   "why": "Forms the phagosome."
+   "why": "Forms the phagosome.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-phagocytosis/18.jpg",
+     "lec": "Phagocytosis and microbicidal processes",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The respiratory burst is driven by:",
@@ -5172,7 +6159,14 @@ SINA.lectures["immuno1-phagocytosis"] = {
     "NO synthase"
    ],
    "answer": 0,
-   "why": "Produces superoxide."
+   "why": "Produces superoxide.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-phagocytosis/22.jpg",
+     "lec": "Phagocytosis and microbicidal processes",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which enzyme protects host cells from ROS?",
@@ -5183,7 +6177,14 @@ SINA.lectures["immuno1-phagocytosis"] = {
     "Elastase"
    ],
    "answer": 0,
-   "why": "Also catalase, glutathione peroxidase."
+   "why": "Also catalase, glutathione peroxidase.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-phagocytosis/25.jpg",
+     "lec": "Phagocytosis and microbicidal processes",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Nitric oxide belongs to:",
@@ -5194,7 +6195,19 @@ SINA.lectures["immuno1-phagocytosis"] = {
     "Opsonins"
    ],
    "answer": 1,
-   "why": "Made by NO synthase."
+   "why": "Made by NO synthase.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-phagocytosis/25.jpg",
+     "lec": "Phagocytosis and microbicidal processes",
+     "n": 25
+    },
+    {
+     "src": "files/slides/immuno1-phagocytosis/29.jpg",
+     "lec": "Phagocytosis and microbicidal processes",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "NETs are made of:",
@@ -5205,7 +6218,14 @@ SINA.lectures["immuno1-phagocytosis"] = {
     "DNA and histones with enzymes"
    ],
    "answer": 3,
-   "why": "Released by neutrophils."
+   "why": "Released by neutrophils.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-phagocytosis/27.jpg",
+     "lec": "Phagocytosis and microbicidal processes",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "NETosis requires the activity of:",
@@ -5216,7 +6236,14 @@ SINA.lectures["immuno1-phagocytosis"] = {
     "Lysozyme"
    ],
    "answer": 1,
-   "why": "'Post-mortem' defence."
+   "why": "'Post-mortem' defence.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-phagocytosis/27.jpg",
+     "lec": "Phagocytosis and microbicidal processes",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5618,7 +6645,14 @@ SINA.lectures["immuno1-mhc"] = {
     "H2"
    ],
    "answer": 2,
-   "why": "Human leukocyte antigen."
+   "why": "Human leukocyte antigen.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-mhc/04.jpg",
+     "lec": "MHC and antigen-presenting cells",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Who described the HLA system in humans?",
@@ -5629,7 +6663,14 @@ SINA.lectures["immuno1-mhc"] = {
     "Dausset"
    ],
    "answer": 3,
-   "why": "Nobel Prize 1980."
+   "why": "Nobel Prize 1980.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-mhc/04.jpg",
+     "lec": "MHC and antigen-presenting cells",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "MHC class I is expressed on:",
@@ -5640,7 +6681,19 @@ SINA.lectures["immuno1-mhc"] = {
     "All nucleated cells"
    ],
    "answer": 3,
-   "why": "Presents to CD8."
+   "why": "Presents to CD8.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-mhc/07.jpg",
+     "lec": "MHC and antigen-presenting cells",
+     "n": 7
+    },
+    {
+     "src": "files/slides/immuno1-mhc/35.jpg",
+     "lec": "MHC and antigen-presenting cells",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "MHC class II presents peptides to:",
@@ -5651,7 +6704,14 @@ SINA.lectures["immuno1-mhc"] = {
     "B cells"
    ],
    "answer": 0,
-   "why": "Mainly on APCs."
+   "why": "Mainly on APCs.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-mhc/07.jpg",
+     "lec": "MHC and antigen-presenting cells",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "MHC class I associates with:",
@@ -5662,7 +6722,14 @@ SINA.lectures["immuno1-mhc"] = {
     "J chain"
    ],
    "answer": 2,
-   "why": "With a heavy α chain."
+   "why": "With a heavy α chain.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-mhc/08.jpg",
+     "lec": "MHC and antigen-presenting cells",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "MHC class I binds peptides of about:",
@@ -5673,7 +6740,14 @@ SINA.lectures["immuno1-mhc"] = {
     "3 amino acids"
    ],
    "answer": 2,
-   "why": "Closed groove."
+   "why": "Closed groove.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-mhc/09.jpg",
+     "lec": "MHC and antigen-presenting cells",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which gene belongs to MHC class II?",
@@ -5684,7 +6758,19 @@ SINA.lectures["immuno1-mhc"] = {
     "HLA-B"
    ],
    "answer": 1,
-   "why": "Also DP, DQ."
+   "why": "Also DP, DQ.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-mhc/06.jpg",
+     "lec": "MHC and antigen-presenting cells",
+     "n": 6
+    },
+    {
+     "src": "files/slides/immuno1-mhc/10.jpg",
+     "lec": "MHC and antigen-presenting cells",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "MHC class III genes code for:",
@@ -5695,7 +6781,14 @@ SINA.lectures["immuno1-mhc"] = {
     "Insulin"
    ],
    "answer": 1,
-   "why": "Not antigen-presenting."
+   "why": "Not antigen-presenting.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-mhc/07.jpg",
+     "lec": "MHC and antigen-presenting cells",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Codominance of HLA means:",
@@ -5706,7 +6799,14 @@ SINA.lectures["immuno1-mhc"] = {
     "Only paternal alleles are expressed"
    ],
    "answer": 0,
-   "why": "Inherited as haplotypes."
+   "why": "Inherited as haplotypes.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-mhc/10.jpg",
+     "lec": "MHC and antigen-presenting cells",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Dendritic cells are especially abundant in:",
@@ -5717,7 +6817,14 @@ SINA.lectures["immuno1-mhc"] = {
     "Bone"
    ],
    "answer": 0,
-   "why": "Sentinels."
+   "why": "Sentinels.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-mhc/20.jpg",
+     "lec": "MHC and antigen-presenting cells",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Endogenous antigens are processed by the:",
@@ -5728,7 +6835,14 @@ SINA.lectures["immuno1-mhc"] = {
     "Nucleus"
    ],
    "answer": 1,
-   "why": "Loaded onto MHC I."
+   "why": "Loaded onto MHC I.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-mhc/27.jpg",
+     "lec": "MHC and antigen-presenting cells",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "A classical co-stimulatory pair is:",
@@ -5739,7 +6853,19 @@ SINA.lectures["immuno1-mhc"] = {
     "B7 (CD80/86)-CD28"
    ],
    "answer": 3,
-   "why": "Signal 2."
+   "why": "Signal 2.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-mhc/29.jpg",
+     "lec": "MHC and antigen-presenting cells",
+     "n": 29
+    },
+    {
+     "src": "files/slides/immuno1-mhc/30.jpg",
+     "lec": "MHC and antigen-presenting cells",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "A T cell receiving signal 1 without signal 2 becomes:",
@@ -5750,7 +6876,14 @@ SINA.lectures["immuno1-mhc"] = {
     "Activated"
    ],
    "answer": 1,
-   "why": "Inactivation."
+   "why": "Inactivation.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-mhc/29.jpg",
+     "lec": "MHC and antigen-presenting cells",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -6130,7 +7263,14 @@ SINA.lectures["immuno1-testing"] = {
     "Non-covalent"
    ],
    "answer": 3,
-   "why": "Ionic, hydrogen, hydrophobic, Van der Waals."
+   "why": "Ionic, hydrogen, hydrophobic, Van der Waals.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-testing/03.jpg",
+     "lec": "Immunological testing: diagnostic",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "With a soluble antigen, immune complexes form a:",
@@ -6141,7 +7281,14 @@ SINA.lectures["immuno1-testing"] = {
     "Fluorescence"
    ],
    "answer": 2,
-   "why": "Particulate antigens agglutinate."
+   "why": "Particulate antigens agglutinate.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-testing/05.jpg",
+     "lec": "Immunological testing: diagnostic",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Maximal precipitation occurs in the:",
@@ -6152,7 +7299,14 @@ SINA.lectures["immuno1-testing"] = {
     "Absence of antigen"
    ],
    "answer": 1,
-   "why": "Largest complexes."
+   "why": "Largest complexes.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-testing/06.jpg",
+     "lec": "Immunological testing: diagnostic",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which technique measures antigen concentration by ring diameter?",
@@ -6163,7 +7317,14 @@ SINA.lectures["immuno1-testing"] = {
     "Coombs"
    ],
    "answer": 2,
-   "why": "Compared with standards."
+   "why": "Compared with standards.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-testing/08.jpg",
+     "lec": "Immunological testing: diagnostic",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Double immunodiffusion is the:",
@@ -6174,7 +7335,14 @@ SINA.lectures["immuno1-testing"] = {
     "Oudin technique"
    ],
    "answer": 0,
-   "why": "Antigen and antibody diffuse toward each other."
+   "why": "Antigen and antibody diffuse toward each other.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-testing/09.jpg",
+     "lec": "Immunological testing: diagnostic",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "ABO blood grouping is based on:",
@@ -6185,7 +7353,14 @@ SINA.lectures["immuno1-testing"] = {
     "Direct agglutination"
    ],
    "answer": 3,
-   "why": "Anti-A and anti-B sera."
+   "why": "Anti-A and anti-B sera.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-testing/13.jpg",
+     "lec": "Immunological testing: diagnostic",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The Coombs test is used in:",
@@ -6196,7 +7371,14 @@ SINA.lectures["immuno1-testing"] = {
     "HIV confirmation"
    ],
    "answer": 1,
-   "why": "Anti-globulin test."
+   "why": "Anti-globulin test.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-testing/15.jpg",
+     "lec": "Immunological testing: diagnostic",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Labelled techniques are:",
@@ -6207,7 +7389,14 @@ SINA.lectures["immuno1-testing"] = {
     "Only visible by eye"
    ],
    "answer": 0,
-   "why": "Fluorescence, enzymes, isotopes."
+   "why": "Fluorescence, enzymes, isotopes.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-testing/18.jpg",
+     "lec": "Immunological testing: diagnostic",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Immunofluorescence is read with a:",
@@ -6218,7 +7407,14 @@ SINA.lectures["immuno1-testing"] = {
     "Fluorescence microscope"
    ],
    "answer": 3,
-   "why": "Under 3 hours."
+   "why": "Under 3 hours.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-testing/18.jpg",
+     "lec": "Immunological testing: diagnostic",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "In ELISA, the signal comes from:",
@@ -6229,7 +7425,14 @@ SINA.lectures["immuno1-testing"] = {
     "Precipitation"
    ],
    "answer": 0,
-   "why": "Read as optical density."
+   "why": "Read as optical density.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-testing/18.jpg",
+     "lec": "Immunological testing: diagnostic",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Detecting anti-HIV antibodies uses which ELISA format?",
@@ -6240,7 +7443,14 @@ SINA.lectures["immuno1-testing"] = {
     "Direct"
    ],
    "answer": 0,
-   "why": "Direct ELISA detects antigen."
+   "why": "Direct ELISA detects antigen.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-testing/20.jpg",
+     "lec": "Immunological testing: diagnostic",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "In Western blot, proteins are transferred onto:",
@@ -6251,7 +7461,14 @@ SINA.lectures["immuno1-testing"] = {
     "Glass slide"
    ],
    "answer": 1,
-   "why": "After gel electrophoresis."
+   "why": "After gel electrophoresis.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-testing/24.jpg",
+     "lec": "Immunological testing: diagnostic",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Why is a positive HIV ELISA confirmed by Western blot?",
@@ -6262,7 +7479,14 @@ SINA.lectures["immuno1-testing"] = {
     "ELISA can give false positives"
    ],
    "answer": 3,
-   "why": "Confirmation test."
+   "why": "Confirmation test.",
+   "slides": [
+    {
+     "src": "files/slides/immuno1-testing/23.jpg",
+     "lec": "Immunological testing: diagnostic",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

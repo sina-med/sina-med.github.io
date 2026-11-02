@@ -182,7 +182,19 @@ SINA.lectures["bacterio1-structure"] = {
     "90S"
    ],
    "answer": 1,
-   "why": "Antibiotic target."
+   "why": "Antibiotic target.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-structure/15.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 15
+    },
+    {
+     "src": "files/slides/bacterio1-structure/18.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Prokaryotes lack:",
@@ -193,7 +205,19 @@ SINA.lectures["bacterio1-structure"] = {
     "A plasma membrane"
    ],
    "answer": 1,
-   "why": "DNA is in a nucleoid."
+   "why": "DNA is in a nucleoid.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-structure/14.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 14
+    },
+    {
+     "src": "files/slides/bacterio1-structure/17.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Bacteria divide by:",
@@ -204,7 +228,14 @@ SINA.lectures["bacterio1-structure"] = {
     "Budding only"
    ],
    "answer": 1,
-   "why": "Exponential growth."
+   "why": "Exponential growth.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-structure/61.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 61
+    }
+   ]
   },
   {
    "q": "The bacterial capsule mainly helps bacteria to:",
@@ -215,7 +246,19 @@ SINA.lectures["bacterio1-structure"] = {
     "Form spores"
    ],
    "answer": 1,
-   "why": "Virulence factor."
+   "why": "Virulence factor.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-structure/19.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 19
+    },
+    {
+     "src": "files/slides/bacterio1-structure/20.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The Hib and pneumococcal vaccines are based on:",
@@ -226,7 +269,19 @@ SINA.lectures["bacterio1-structure"] = {
     "Peptidoglycan"
    ],
    "answer": 1,
-   "why": "Purified capsule."
+   "why": "Purified capsule.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-structure/19.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 19
+    },
+    {
+     "src": "files/slides/bacterio1-structure/20.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Lipopolysaccharide (endotoxin) is found in:",
@@ -237,7 +292,14 @@ SINA.lectures["bacterio1-structure"] = {
     "Polysaccharide capsules"
    ],
    "answer": 1,
-   "why": "Toxic when released."
+   "why": "Toxic when released.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-structure/17.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Teichoic acids are characteristic of:",
@@ -248,7 +310,14 @@ SINA.lectures["bacterio1-structure"] = {
     "Viruses"
    ],
    "answer": 1,
-   "why": "Thick peptidoglycan."
+   "why": "Thick peptidoglycan.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-structure/21.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "β-lactam antibiotics act by binding:",
@@ -259,7 +328,14 @@ SINA.lectures["bacterio1-structure"] = {
     "Folic acid enzymes"
    ],
    "answer": 1,
-   "why": "Block peptidoglycan cross-linking."
+   "why": "Block peptidoglycan cross-linking.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-structure/21.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The structure used to transfer plasmids is the:",
@@ -270,7 +346,14 @@ SINA.lectures["bacterio1-structure"] = {
     "Capsule"
    ],
    "answer": 1,
-   "why": "Conjugation."
+   "why": "Conjugation.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-structure/26.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Endospores are produced by:",
@@ -281,7 +364,19 @@ SINA.lectures["bacterio1-structure"] = {
     "Neisseria"
    ],
    "answer": 1,
-   "why": "Resist heat and drying."
+   "why": "Resist heat and drying.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-structure/27.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 27
+    },
+    {
+     "src": "files/slides/bacterio1-structure/33.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Strict anaerobes die in oxygen because they lack:",
@@ -292,7 +387,14 @@ SINA.lectures["bacterio1-structure"] = {
     "Conjugative plasmids"
    ],
    "answer": 1,
-   "why": "Toxic oxygen radicals."
+   "why": "Toxic oxygen radicals.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-structure/42.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "MacConkey agar is:",
@@ -303,7 +405,14 @@ SINA.lectures["bacterio1-structure"] = {
     "Simple"
    ],
    "answer": 1,
-   "why": "Gram-negatives; lactose."
+   "why": "Gram-negatives; lactose.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-structure/57.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 57
+    }
+   ]
   },
   {
    "q": "Chocolate agar is an example of:",
@@ -314,7 +423,19 @@ SINA.lectures["bacterio1-structure"] = {
     "Differential medium only"
    ],
    "answer": 1,
-   "why": "Heated blood."
+   "why": "Heated blood.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-structure/56.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 56
+    },
+    {
+     "src": "files/slides/bacterio1-structure/58.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "Semi-solid media are used to study:",
@@ -325,7 +446,14 @@ SINA.lectures["bacterio1-structure"] = {
     "Antibiotic resistance"
    ],
    "answer": 1,
-   "why": "≤ 0.5% agar."
+   "why": "≤ 0.5% agar.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-structure/51.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "The phase of fastest division is the:",
@@ -336,7 +464,14 @@ SINA.lectures["bacterio1-structure"] = {
     "Death phase"
    ],
    "answer": 1,
-   "why": "Log phase."
+   "why": "Log phase.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-structure/62.jpg",
+     "lec": "Bacterial structure, nutrition and",
+     "n": 62
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -674,7 +809,14 @@ SINA.lectures["bacterio1-genetics"] = {
     "Made of single-stranded RNA"
    ],
    "answer": 1,
-   "why": "1-100 kb."
+   "why": "1-100 kb.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-genetics/04.jpg",
+     "lec": "Bacterial genetics",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Genes enabling a plasmid to transfer itself are the:",
@@ -685,7 +827,14 @@ SINA.lectures["bacterio1-genetics"] = {
     "rec genes"
    ],
    "answer": 1,
-   "why": "Conjugative plasmids."
+   "why": "Conjugative plasmids.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-genetics/06.jpg",
+     "lec": "Bacterial genetics",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "A non-conjugative plasmid can move by:",
@@ -696,7 +845,14 @@ SINA.lectures["bacterio1-genetics"] = {
     "It can never move"
    ],
    "answer": 1,
-   "why": "Co-transfer."
+   "why": "Co-transfer.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-genetics/06.jpg",
+     "lec": "Bacterial genetics",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Transposons are best described as:",
@@ -707,7 +863,19 @@ SINA.lectures["bacterio1-genetics"] = {
     "Ribosomal RNA genes"
    ],
    "answer": 1,
-   "why": "Move by recombination."
+   "why": "Move by recombination.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-genetics/04.jpg",
+     "lec": "Bacterial genetics",
+     "n": 4
+    },
+    {
+     "src": "files/slides/bacterio1-genetics/07.jpg",
+     "lec": "Bacterial genetics",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Gene cassettes are integrated by:",
@@ -718,7 +886,14 @@ SINA.lectures["bacterio1-genetics"] = {
     "Reverse transcriptase"
    ],
    "answer": 1,
-   "why": "No enzyme of their own."
+   "why": "No enzyme of their own.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-genetics/08.jpg",
+     "lec": "Bacterial genetics",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Phenotypic variation is:",
@@ -729,7 +904,19 @@ SINA.lectures["bacterio1-genetics"] = {
     "Due to conjugation"
    ],
    "answer": 1,
-   "why": "Regulation only."
+   "why": "Regulation only.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-genetics/10.jpg",
+     "lec": "Bacterial genetics",
+     "n": 10
+    },
+    {
+     "src": "files/slides/bacterio1-genetics/12.jpg",
+     "lec": "Bacterial genetics",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The spontaneous mutation rate is about:",
@@ -740,7 +927,14 @@ SINA.lectures["bacterio1-genetics"] = {
     "10⁻¹⁵ per genome"
    ],
    "answer": 2,
-   "why": "Rarity."
+   "why": "Rarity.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-genetics/12.jpg",
+     "lec": "Bacterial genetics",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Antibiotics and resistance mutations:",
@@ -751,7 +945,14 @@ SINA.lectures["bacterio1-genetics"] = {
     "Resistance is always plasmid-borne"
    ],
    "answer": 1,
-   "why": "Selection."
+   "why": "Selection.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-genetics/13.jpg",
+     "lec": "Bacterial genetics",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Combination therapy in tuberculosis works because mutations are:",
@@ -762,7 +963,14 @@ SINA.lectures["bacterio1-genetics"] = {
     "Induced by the drugs"
    ],
    "answer": 1,
-   "why": "Two resistances rarely coexist."
+   "why": "Two resistances rarely coexist.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-genetics/12.jpg",
+     "lec": "Bacterial genetics",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Griffith's experiment demonstrated:",
@@ -773,7 +981,19 @@ SINA.lectures["bacterio1-genetics"] = {
     "Transposition"
    ],
    "answer": 1,
-   "why": "S. pneumoniae in mice."
+   "why": "S. pneumoniae in mice.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-genetics/16.jpg",
+     "lec": "Bacterial genetics",
+     "n": 16
+    },
+    {
+     "src": "files/slides/bacterio1-genetics/17.jpg",
+     "lec": "Bacterial genetics",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Transformation requires bacteria that are:",
@@ -784,7 +1004,14 @@ SINA.lectures["bacterio1-genetics"] = {
     "Sporulating"
    ],
    "answer": 1,
-   "why": "Take up naked DNA."
+   "why": "Take up naked DNA.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-genetics/16.jpg",
+     "lec": "Bacterial genetics",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Transduction uses:",
@@ -795,7 +1022,14 @@ SINA.lectures["bacterio1-genetics"] = {
     "An integron"
    ],
    "answer": 1,
-   "why": "Virus of bacteria."
+   "why": "Virus of bacteria.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-genetics/20.jpg",
+     "lec": "Bacterial genetics",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Conjugation requires:",
@@ -806,7 +1040,14 @@ SINA.lectures["bacterio1-genetics"] = {
     "Endospore germination"
    ],
    "answer": 0,
-   "why": "Commonest in nature."
+   "why": "Commonest in nature.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-genetics/23.jpg",
+     "lec": "Bacterial genetics",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Hfr bacteria have:",
@@ -817,7 +1058,14 @@ SINA.lectures["bacterio1-genetics"] = {
     "An integrated phage genome"
    ],
    "answer": 1,
-   "why": "High-frequency recombination."
+   "why": "High-frequency recombination.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-genetics/23.jpg",
+     "lec": "Bacterial genetics",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which is a natural transformable bacterium?",
@@ -828,7 +1076,19 @@ SINA.lectures["bacterio1-genetics"] = {
     "Clostridium tetani"
    ],
    "answer": 1,
-   "why": "Also Neisseria, Haemophilus."
+   "why": "Also Neisseria, Haemophilus.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-genetics/16.jpg",
+     "lec": "Bacterial genetics",
+     "n": 16
+    },
+    {
+     "src": "files/slides/bacterio1-genetics/18.jpg",
+     "lec": "Bacterial genetics",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1174,7 +1434,14 @@ SINA.lectures["bacterio1-host"] = {
     "Saprophytism"
    ],
    "answer": 1,
-   "why": "E.g. lactobacilli."
+   "why": "E.g. lactobacilli.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-host/06.jpg",
+     "lec": "Host-pathogen interactions",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Staphylococcus epidermidis on the skin is an example of:",
@@ -1185,7 +1452,14 @@ SINA.lectures["bacterio1-host"] = {
     "Mutualism with harm"
    ],
    "answer": 1,
-   "why": "Harmless in normal conditions."
+   "why": "Harmless in normal conditions.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-host/07.jpg",
+     "lec": "Host-pathogen interactions",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Transient flora differs from resident flora because it:",
@@ -1196,7 +1470,14 @@ SINA.lectures["bacterio1-host"] = {
     "Is never pathogenic"
    ],
    "answer": 1,
-   "why": "Superficial, temporary."
+   "why": "Superficial, temporary.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-host/11.jpg",
+     "lec": "Host-pathogen interactions",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which is normally sterile?",
@@ -1207,7 +1488,14 @@ SINA.lectures["bacterio1-host"] = {
     "Oropharynx"
    ],
    "answer": 1,
-   "why": "Also bladder, liver, spleen."
+   "why": "Also bladder, liver, spleen.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-host/13.jpg",
+     "lec": "Host-pathogen interactions",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Virulence is best measured by:",
@@ -1218,7 +1506,14 @@ SINA.lectures["bacterio1-host"] = {
     "Capsule thickness only"
    ],
    "answer": 1,
-   "why": "Quantitative."
+   "why": "Quantitative.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-host/15.jpg",
+     "lec": "Host-pathogen interactions",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Staphylococcal protein A inhibits phagocytosis by:",
@@ -1229,7 +1524,14 @@ SINA.lectures["bacterio1-host"] = {
     "Blocking complement C3 only"
    ],
    "answer": 1,
-   "why": "Prevents opsonisation."
+   "why": "Prevents opsonisation.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-host/19.jpg",
+     "lec": "Host-pathogen interactions",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Mycobacteria survive in macrophages by:",
@@ -1240,7 +1542,14 @@ SINA.lectures["bacterio1-host"] = {
     "Releasing endotoxin"
    ],
    "answer": 1,
-   "why": "Also Legionella."
+   "why": "Also Legionella.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-host/18.jpg",
+     "lec": "Host-pathogen interactions",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "E. coli adheres to bladder epithelium with:",
@@ -1251,7 +1560,14 @@ SINA.lectures["bacterio1-host"] = {
     "Teichoic acid"
    ],
    "answer": 1,
-   "why": "Causes UTIs."
+   "why": "Causes UTIs.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-host/20.jpg",
+     "lec": "Host-pathogen interactions",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "IgA protease is produced by:",
@@ -1262,7 +1578,14 @@ SINA.lectures["bacterio1-host"] = {
     "Lactobacillus"
    ],
    "answer": 0,
-   "why": "Mucosal pathogens."
+   "why": "Mucosal pathogens.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-host/21.jpg",
+     "lec": "Host-pathogen interactions",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "A toxoid is:",
@@ -1273,7 +1596,14 @@ SINA.lectures["bacterio1-host"] = {
     "Endotoxin"
    ],
    "answer": 1,
-   "why": "Formalin-treated."
+   "why": "Formalin-treated.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-host/25.jpg",
+     "lec": "Host-pathogen interactions",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The toxic part of endotoxin is:",
@@ -1284,7 +1614,19 @@ SINA.lectures["bacterio1-host"] = {
     "Teichoic acid"
    ],
    "answer": 1,
-   "why": "LPS."
+   "why": "LPS.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-host/26.jpg",
+     "lec": "Host-pathogen interactions",
+     "n": 26
+    },
+    {
+     "src": "files/slides/bacterio1-host/27.jpg",
+     "lec": "Host-pathogen interactions",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Endotoxin is recognised by:",
@@ -1295,7 +1637,14 @@ SINA.lectures["bacterio1-host"] = {
     "IgE"
    ],
    "answer": 0,
-   "why": "On monocytes and macrophages."
+   "why": "On monocytes and macrophages.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-host/26.jpg",
+     "lec": "Host-pathogen interactions",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "A nosocomial infection appears:",
@@ -1306,7 +1655,14 @@ SINA.lectures["bacterio1-host"] = {
     "Only in ICU"
    ],
    "answer": 1,
-   "why": "Healthcare-associated."
+   "why": "Healthcare-associated.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-host/38.jpg",
+     "lec": "Host-pathogen interactions",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "BCG is an example of vaccine made of:",
@@ -1317,7 +1673,14 @@ SINA.lectures["bacterio1-host"] = {
     "Capsular antigen"
    ],
    "answer": 1,
-   "why": "Against tuberculosis."
+   "why": "Against tuberculosis.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-host/36.jpg",
+     "lec": "Host-pathogen interactions",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "A disease spreading across several continents is:",
@@ -1328,7 +1691,14 @@ SINA.lectures["bacterio1-host"] = {
     "Sporadic"
    ],
    "answer": 2,
-   "why": "WHO definition."
+   "why": "WHO definition.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-host/45.jpg",
+     "lec": "Host-pathogen interactions",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1716,7 +2086,19 @@ SINA.lectures["bacterio1-antibiotics"] = {
     "High concentrations"
    ],
    "answer": 1,
-   "why": "Harms bacteria, not host."
+   "why": "Harms bacteria, not host.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-antibiotics/07.jpg",
+     "lec": "Antibiotics",
+     "n": 7
+    },
+    {
+     "src": "files/slides/bacterio1-antibiotics/08.jpg",
+     "lec": "Antibiotics",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "β-lactams act by binding:",
@@ -1727,7 +2109,14 @@ SINA.lectures["bacterio1-antibiotics"] = {
     "RNA polymerase"
    ],
    "answer": 1,
-   "why": "Block peptidoglycan."
+   "why": "Block peptidoglycan.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-antibiotics/51.jpg",
+     "lec": "Antibiotics",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "MRSA is resistant to methicillin because of:",
@@ -1738,7 +2127,14 @@ SINA.lectures["bacterio1-antibiotics"] = {
     "Porin loss"
    ],
    "answer": 1,
-   "why": "Low-affinity PBP."
+   "why": "Low-affinity PBP.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-antibiotics/26.jpg",
+     "lec": "Antibiotics",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Clavulanic acid is:",
@@ -1749,7 +2145,14 @@ SINA.lectures["bacterio1-antibiotics"] = {
     "An aminoglycoside"
    ],
    "answer": 1,
-   "why": "Suicide inhibitor."
+   "why": "Suicide inhibitor.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-antibiotics/29.jpg",
+     "lec": "Antibiotics",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Third-generation cephalosporins are inactive against:",
@@ -1760,7 +2163,14 @@ SINA.lectures["bacterio1-antibiotics"] = {
     "Haemophilus"
    ],
    "answer": 1,
-   "why": "Natural resistance."
+   "why": "Natural resistance.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-antibiotics/31.jpg",
+     "lec": "Antibiotics",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Carbapenems are notable for:",
@@ -1771,7 +2181,14 @@ SINA.lectures["bacterio1-antibiotics"] = {
     "Natural resistance of anaerobes"
    ],
    "answer": 1,
-   "why": "Reserve drugs."
+   "why": "Reserve drugs.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-antibiotics/33.jpg",
+     "lec": "Antibiotics",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Vancomycin is active only against:",
@@ -1782,7 +2199,19 @@ SINA.lectures["bacterio1-antibiotics"] = {
     "Anaerobic Gram-negatives"
    ],
    "answer": 1,
-   "why": "Too large for porins."
+   "why": "Too large for porins.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-antibiotics/20.jpg",
+     "lec": "Antibiotics",
+     "n": 20
+    },
+    {
+     "src": "files/slides/bacterio1-antibiotics/35.jpg",
+     "lec": "Antibiotics",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Aminoglycosides bind the:",
@@ -1793,7 +2222,14 @@ SINA.lectures["bacterio1-antibiotics"] = {
     "DNA gyrase"
    ],
    "answer": 1,
-   "why": "Misreading."
+   "why": "Misreading.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-antibiotics/51.jpg",
+     "lec": "Antibiotics",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "A major toxicity of aminoglycosides is:",
@@ -1804,7 +2240,14 @@ SINA.lectures["bacterio1-antibiotics"] = {
     "Red man syndrome"
    ],
    "answer": 1,
-   "why": "Monitor levels."
+   "why": "Monitor levels.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-antibiotics/37.jpg",
+     "lec": "Antibiotics",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Macrolides are mainly:",
@@ -1815,7 +2258,19 @@ SINA.lectures["bacterio1-antibiotics"] = {
     "Membrane-active"
    ],
    "answer": 1,
-   "why": "Atypical bacteria."
+   "why": "Atypical bacteria.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-antibiotics/38.jpg",
+     "lec": "Antibiotics",
+     "n": 38
+    },
+    {
+     "src": "files/slides/bacterio1-antibiotics/51.jpg",
+     "lec": "Antibiotics",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "Tetracyclines are useful against:",
@@ -1826,7 +2281,14 @@ SINA.lectures["bacterio1-antibiotics"] = {
     "Only MRSA strains"
    ],
    "answer": 1,
-   "why": "Also Brucella, Rickettsia."
+   "why": "Also Brucella, Rickettsia.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-antibiotics/39.jpg",
+     "lec": "Antibiotics",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Chloramphenicol's feared adverse effect is:",
@@ -1837,7 +2299,14 @@ SINA.lectures["bacterio1-antibiotics"] = {
     "Photosensitivity"
    ],
    "answer": 1,
-   "why": "Limits its use."
+   "why": "Limits its use.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-antibiotics/40.jpg",
+     "lec": "Antibiotics",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Fluoroquinolones inhibit:",
@@ -1848,7 +2317,14 @@ SINA.lectures["bacterio1-antibiotics"] = {
     "Peptidoglycan cross-links"
    ],
    "answer": 1,
-   "why": "E.g. ciprofloxacin."
+   "why": "E.g. ciprofloxacin.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-antibiotics/51.jpg",
+     "lec": "Antibiotics",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "Rifampicin must be combined in tuberculosis because:",
@@ -1859,7 +2335,14 @@ SINA.lectures["bacterio1-antibiotics"] = {
     "It is only bacteriostatic"
    ],
    "answer": 1,
-   "why": "Mutations are specific."
+   "why": "Mutations are specific.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-antibiotics/44.jpg",
+     "lec": "Antibiotics",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "A synergistic combination is:",
@@ -1870,7 +2353,14 @@ SINA.lectures["bacterio1-antibiotics"] = {
     "Tetracycline + erythromycin"
    ],
    "answer": 1,
-   "why": "Enterococcal endocarditis."
+   "why": "Enterococcal endocarditis.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-antibiotics/18.jpg",
+     "lec": "Antibiotics",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2276,7 +2766,19 @@ SINA.lectures["bacterio1-pyogenes"] = {
     "Coagulase positive"
    ],
    "answer": 1,
-   "why": "First step."
+   "why": "First step.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pyogenes/10.jpg",
+     "lec": "Streptococcus pyogenes",
+     "n": 10
+    },
+    {
+     "src": "files/slides/bacterio1-pyogenes/32.jpg",
+     "lec": "Streptococcus pyogenes",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Lancefield grouping is based on:",
@@ -2287,7 +2789,14 @@ SINA.lectures["bacterio1-pyogenes"] = {
     "Pattern of haemolysis"
    ],
    "answer": 1,
-   "why": "Letters A, B, C..."
+   "why": "Letters A, B, C...",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pyogenes/05.jpg",
+     "lec": "Streptococcus pyogenes",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "α-haemolysis is due to:",
@@ -2298,7 +2807,14 @@ SINA.lectures["bacterio1-pyogenes"] = {
     "Streptolysin O"
    ],
    "answer": 1,
-   "why": "Green zone."
+   "why": "Green zone.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pyogenes/07.jpg",
+     "lec": "Streptococcus pyogenes",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "S. pyogenes belongs to Lancefield group:",
@@ -2320,7 +2836,14 @@ SINA.lectures["bacterio1-pyogenes"] = {
     "Colistin"
    ],
    "answer": 1,
-   "why": "Screening disc."
+   "why": "Screening disc.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pyogenes/32.jpg",
+     "lec": "Streptococcus pyogenes",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "A CAMP-positive β-haemolytic streptococcus is:",
@@ -2331,7 +2854,19 @@ SINA.lectures["bacterio1-pyogenes"] = {
     "E. faecalis"
    ],
    "answer": 1,
-   "why": "Group B."
+   "why": "Group B.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pyogenes/10.jpg",
+     "lec": "Streptococcus pyogenes",
+     "n": 10
+    },
+    {
+     "src": "files/slides/bacterio1-pyogenes/26.jpg",
+     "lec": "Streptococcus pyogenes",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "The main antiphagocytic factor of S. pyogenes is:",
@@ -2342,7 +2877,14 @@ SINA.lectures["bacterio1-pyogenes"] = {
     "Pneumolysin"
    ],
    "answer": 1,
-   "why": "Also basis of emm typing."
+   "why": "Also basis of emm typing.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pyogenes/28.jpg",
+     "lec": "Streptococcus pyogenes",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Scarlet fever is caused by:",
@@ -2353,7 +2895,19 @@ SINA.lectures["bacterio1-pyogenes"] = {
     "Hyaluronidase spread"
    ],
    "answer": 1,
-   "why": "Sandpaper rash."
+   "why": "Sandpaper rash.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pyogenes/14.jpg",
+     "lec": "Streptococcus pyogenes",
+     "n": 14
+    },
+    {
+     "src": "files/slides/bacterio1-pyogenes/15.jpg",
+     "lec": "Streptococcus pyogenes",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Streptococcal toxic shock is driven by:",
@@ -2364,7 +2918,14 @@ SINA.lectures["bacterio1-pyogenes"] = {
     "Teichoic acid"
    ],
    "answer": 1,
-   "why": "Cytokine storm."
+   "why": "Cytokine storm.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pyogenes/14.jpg",
+     "lec": "Streptococcus pyogenes",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Acute rheumatic fever follows untreated:",
@@ -2375,7 +2936,14 @@ SINA.lectures["bacterio1-pyogenes"] = {
     "Cellulitis only"
    ],
    "answer": 1,
-   "why": "Molecular mimicry."
+   "why": "Molecular mimicry.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pyogenes/18.jpg",
+     "lec": "Streptococcus pyogenes",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Post-streptococcal glomerulonephritis is due to:",
@@ -2386,7 +2954,14 @@ SINA.lectures["bacterio1-pyogenes"] = {
     "Molecular mimicry with valves"
    ],
    "answer": 1,
-   "why": "After throat or skin infection."
+   "why": "After throat or skin infection.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pyogenes/18.jpg",
+     "lec": "Streptococcus pyogenes",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The drug of choice for S. pyogenes is:",
@@ -2397,7 +2972,14 @@ SINA.lectures["bacterio1-pyogenes"] = {
     "Gentamicin"
    ],
    "answer": 1,
-   "why": "No resistance."
+   "why": "No resistance.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pyogenes/29.jpg",
+     "lec": "Streptococcus pyogenes",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Pharyngitis is treated for 10 days mainly to:",
@@ -2408,7 +2990,14 @@ SINA.lectures["bacterio1-pyogenes"] = {
     "Avoid scarlet fever"
    ],
    "answer": 1,
-   "why": "Full eradication."
+   "why": "Full eradication.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pyogenes/29.jpg",
+     "lec": "Streptococcus pyogenes",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Clindamycin is added in necrotising fasciitis because it:",
@@ -2419,7 +3008,14 @@ SINA.lectures["bacterio1-pyogenes"] = {
     "Has no side effects"
    ],
    "answer": 1,
-   "why": "Inhibits protein synthesis."
+   "why": "Inhibits protein synthesis.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pyogenes/12.jpg",
+     "lec": "Streptococcus pyogenes",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "A rapid antigen test for GAS detects:",
@@ -2430,7 +3026,14 @@ SINA.lectures["bacterio1-pyogenes"] = {
     "Streptolysin O activity"
    ],
    "answer": 1,
-   "why": "Point of care."
+   "why": "Point of care.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pyogenes/27.jpg",
+     "lec": "Streptococcus pyogenes",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2814,7 +3417,14 @@ SINA.lectures["bacterio1-pneumoniae"] = {
     "Gram-positive rods"
    ],
    "answer": 1,
-   "why": "Sometimes short chains."
+   "why": "Sometimes short chains.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pneumoniae/06.jpg",
+     "lec": "Streptococcus pneumoniae",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Pneumococcal colonies on blood agar are:",
@@ -2825,7 +3435,14 @@ SINA.lectures["bacterio1-pneumoniae"] = {
     "Black"
    ],
    "answer": 1,
-   "why": "Green zone."
+   "why": "Green zone.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pneumoniae/12.jpg",
+     "lec": "Streptococcus pneumoniae",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "A test separating pneumococcus from viridans streptococci is:",
@@ -2836,7 +3453,14 @@ SINA.lectures["bacterio1-pneumoniae"] = {
     "CAMP"
    ],
    "answer": 1,
-   "why": "Also bile solubility."
+   "why": "Also bile solubility.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pneumoniae/06.jpg",
+     "lec": "Streptococcus pneumoniae",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Bile solubility of pneumococcus is due to:",
@@ -2847,7 +3471,19 @@ SINA.lectures["bacterio1-pneumoniae"] = {
     "Neuraminidase"
    ],
    "answer": 1,
-   "why": "LytA."
+   "why": "LytA.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pneumoniae/09.jpg",
+     "lec": "Streptococcus pneumoniae",
+     "n": 9
+    },
+    {
+     "src": "files/slides/bacterio1-pneumoniae/16.jpg",
+     "lec": "Streptococcus pneumoniae",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The capsule protects pneumococcus by:",
@@ -2858,7 +3494,14 @@ SINA.lectures["bacterio1-pneumoniae"] = {
     "Forming resistant spores"
    ],
    "answer": 1,
-   "why": "Main virulence factor."
+   "why": "Main virulence factor.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pneumoniae/08.jpg",
+     "lec": "Streptococcus pneumoniae",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Pneumococcal serotypes number more than:",
@@ -2869,7 +3512,14 @@ SINA.lectures["bacterio1-pneumoniae"] = {
     "500"
    ],
    "answer": 2,
-   "why": "Capsular types."
+   "why": "Capsular types.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pneumoniae/07.jpg",
+     "lec": "Streptococcus pneumoniae",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "C-reactive protein got its name from reacting with the pneumococcal:",
@@ -2880,7 +3530,14 @@ SINA.lectures["bacterio1-pneumoniae"] = {
     "M protein"
    ],
    "answer": 1,
-   "why": "Cell wall antigen."
+   "why": "Cell wall antigen.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pneumoniae/07.jpg",
+     "lec": "Streptococcus pneumoniae",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Pneumolysin is a:",
@@ -2891,7 +3548,14 @@ SINA.lectures["bacterio1-pneumoniae"] = {
     "Siderophore"
    ],
    "answer": 1,
-   "why": "Lyses host cells."
+   "why": "Lyses host cells.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pneumoniae/09.jpg",
+     "lec": "Streptococcus pneumoniae",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The commonest cause of community-acquired pneumonia is:",
@@ -2913,7 +3577,14 @@ SINA.lectures["bacterio1-pneumoniae"] = {
     "Bile"
    ],
    "answer": 1,
-   "why": "Capnophilic."
+   "why": "Capnophilic.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pneumoniae/12.jpg",
+     "lec": "Streptococcus pneumoniae",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The pneumococcal urinary antigen test detects:",
@@ -2924,7 +3595,14 @@ SINA.lectures["bacterio1-pneumoniae"] = {
     "Antibodies"
    ],
    "answer": 1,
-   "why": "Works after antibiotics."
+   "why": "Works after antibiotics.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pneumoniae/14.jpg",
+     "lec": "Streptococcus pneumoniae",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "PCR for pneumococcus commonly targets:",
@@ -2935,7 +3613,14 @@ SINA.lectures["bacterio1-pneumoniae"] = {
     "stx"
    ],
    "answer": 1,
-   "why": "Autolysin gene."
+   "why": "Autolysin gene.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pneumoniae/16.jpg",
+     "lec": "Streptococcus pneumoniae",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Empirical treatment of pneumococcal meningitis is:",
@@ -2946,7 +3631,14 @@ SINA.lectures["bacterio1-pneumoniae"] = {
     "Azithromycin"
    ],
    "answer": 1,
-   "why": "Until susceptibility known."
+   "why": "Until susceptibility known.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pneumoniae/17.jpg",
+     "lec": "Streptococcus pneumoniae",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Penicillin resistance in pneumococcus is due to:",
@@ -2968,7 +3660,14 @@ SINA.lectures["bacterio1-pneumoniae"] = {
     "Whole killed bacteria"
    ],
    "answer": 1,
-   "why": "Carrier protein."
+   "why": "Carrier protein.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-pneumoniae/18.jpg",
+     "lec": "Streptococcus pneumoniae",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3333,7 +4032,19 @@ SINA.lectures["bacterio1-haemophilus"] = {
     "Gram-negative diplococci"
    ],
    "answer": 1,
-   "why": "Small, variable shapes."
+   "why": "Small, variable shapes.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-haemophilus/08.jpg",
+     "lec": "Haemophilus influenzae type b",
+     "n": 8
+    },
+    {
+     "src": "files/slides/bacterio1-haemophilus/16.jpg",
+     "lec": "Haemophilus influenzae type b",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "X factor is:",
@@ -3355,7 +4066,14 @@ SINA.lectures["bacterio1-haemophilus"] = {
     "Cholesterol"
    ],
    "answer": 1,
-   "why": "Heat-labile."
+   "why": "Heat-labile.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-haemophilus/17.jpg",
+     "lec": "Haemophilus influenzae type b",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "H. influenzae grows on:",
@@ -3366,7 +4084,14 @@ SINA.lectures["bacterio1-haemophilus"] = {
     "Löwenstein-Jensen"
    ],
    "answer": 1,
-   "why": "X and V released."
+   "why": "X and V released.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-haemophilus/17.jpg",
+     "lec": "Haemophilus influenzae type b",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Satellitism of H. influenzae occurs around:",
@@ -3377,7 +4102,14 @@ SINA.lectures["bacterio1-haemophilus"] = {
     "Pseudomonas"
    ],
    "answer": 1,
-   "why": "Source of V factor."
+   "why": "Source of V factor.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-haemophilus/18.jpg",
+     "lec": "Haemophilus influenzae type b",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The Hib capsule is made of:",
@@ -3388,7 +4120,14 @@ SINA.lectures["bacterio1-haemophilus"] = {
     "Teichoic acid"
    ],
    "answer": 1,
-   "why": "PRP."
+   "why": "PRP.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-haemophilus/23.jpg",
+     "lec": "Haemophilus influenzae type b",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Hib invasive disease mainly affects children aged:",
@@ -3399,7 +4138,14 @@ SINA.lectures["bacterio1-haemophilus"] = {
     "Adolescents"
    ],
    "answer": 1,
-   "why": "Before vaccination."
+   "why": "Before vaccination.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-haemophilus/13.jpg",
+     "lec": "Haemophilus influenzae type b",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Acute epiglottitis presents with:",
@@ -3410,7 +4156,14 @@ SINA.lectures["bacterio1-haemophilus"] = {
     "Diarrhoea"
    ],
    "answer": 1,
-   "why": "Airway emergency."
+   "why": "Airway emergency.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-haemophilus/22.jpg",
+     "lec": "Haemophilus influenzae type b",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Non-typeable H. influenzae typically causes:",
@@ -3421,7 +4174,14 @@ SINA.lectures["bacterio1-haemophilus"] = {
     "Septic arthritis in toddlers"
    ],
    "answer": 1,
-   "why": "Non-invasive."
+   "why": "Non-invasive.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-haemophilus/13.jpg",
+     "lec": "Haemophilus influenzae type b",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Samples for Haemophilus should be:",
@@ -3432,7 +4192,14 @@ SINA.lectures["bacterio1-haemophilus"] = {
     "Fixed in formalin"
    ],
    "answer": 1,
-   "why": "Cold-sensitive."
+   "why": "Cold-sensitive.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-haemophilus/15.jpg",
+     "lec": "Haemophilus influenzae type b",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Serological diagnosis of H. influenzae infection is:",
@@ -3443,7 +4210,14 @@ SINA.lectures["bacterio1-haemophilus"] = {
     "Done by ASO"
    ],
    "answer": 1,
-   "why": "Direct diagnosis only."
+   "why": "Direct diagnosis only.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-haemophilus/14.jpg",
+     "lec": "Haemophilus influenzae type b",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "First-line treatment of Hib meningitis is:",
@@ -3454,7 +4228,19 @@ SINA.lectures["bacterio1-haemophilus"] = {
     "Vancomycin"
    ],
    "answer": 1,
-   "why": "IV third-generation cephalosporin."
+   "why": "IV third-generation cephalosporin.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-haemophilus/21.jpg",
+     "lec": "Haemophilus influenzae type b",
+     "n": 21
+    },
+    {
+     "src": "files/slides/bacterio1-haemophilus/22.jpg",
+     "lec": "Haemophilus influenzae type b",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Ampicillin resistance in H. influenzae is mainly due to:",
@@ -3465,7 +4251,19 @@ SINA.lectures["bacterio1-haemophilus"] = {
     "Capsule"
    ],
    "answer": 1,
-   "why": "Penicillinase."
+   "why": "Penicillinase.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-haemophilus/21.jpg",
+     "lec": "Haemophilus influenzae type b",
+     "n": 21
+    },
+    {
+     "src": "files/slides/bacterio1-haemophilus/22.jpg",
+     "lec": "Haemophilus influenzae type b",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Chemoprophylaxis for contacts of Hib disease is:",
@@ -3476,7 +4274,14 @@ SINA.lectures["bacterio1-haemophilus"] = {
     "Vancomycin"
    ],
    "answer": 1,
-   "why": "Household and daycare."
+   "why": "Household and daycare.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-haemophilus/22.jpg",
+     "lec": "Haemophilus influenzae type b",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "The Hib vaccine is immunogenic in infants because the PRP is:",
@@ -3487,7 +4292,14 @@ SINA.lectures["bacterio1-haemophilus"] = {
     "Given orally as drops"
    ],
    "answer": 1,
-   "why": "T-dependent response."
+   "why": "T-dependent response.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-haemophilus/23.jpg",
+     "lec": "Haemophilus influenzae type b",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3852,7 +4664,19 @@ SINA.lectures["bacterio1-mycobacteria"] = {
     "Are killed by weak acid"
    ],
    "answer": 1,
-   "why": "Lipid-rich wall."
+   "why": "Lipid-rich wall.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycobacteria/04.jpg",
+     "lec": "Mycobacteria and tuberculosis",
+     "n": 4
+    },
+    {
+     "src": "files/slides/bacterio1-mycobacteria/19.jpg",
+     "lec": "Mycobacteria and tuberculosis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The classic stain for mycobacteria is:",
@@ -3863,7 +4687,14 @@ SINA.lectures["bacterio1-mycobacteria"] = {
     "India ink"
    ],
    "answer": 1,
-   "why": "Red bacilli."
+   "why": "Red bacilli.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycobacteria/19.jpg",
+     "lec": "Mycobacteria and tuberculosis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "M. tuberculosis is:",
@@ -3874,7 +4705,14 @@ SINA.lectures["bacterio1-mycobacteria"] = {
     "Facultative"
    ],
    "answer": 1,
-   "why": "Favours lung apices."
+   "why": "Favours lung apices.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycobacteria/08.jpg",
+     "lec": "Mycobacteria and tuberculosis",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The medium used to culture M. tuberculosis is:",
@@ -3885,7 +4723,19 @@ SINA.lectures["bacterio1-mycobacteria"] = {
     "Thayer-Martin"
    ],
    "answer": 1,
-   "why": "Egg-based."
+   "why": "Egg-based.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycobacteria/08.jpg",
+     "lec": "Mycobacteria and tuberculosis",
+     "n": 8
+    },
+    {
+     "src": "files/slides/bacterio1-mycobacteria/19.jpg",
+     "lec": "Mycobacteria and tuberculosis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Colonies of M. tuberculosis appear after:",
@@ -3896,7 +4746,14 @@ SINA.lectures["bacterio1-mycobacteria"] = {
     "6 months"
    ],
    "answer": 1,
-   "why": "Slow growth."
+   "why": "Slow growth.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycobacteria/19.jpg",
+     "lec": "Mycobacteria and tuberculosis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Transmission of tuberculosis is mainly:",
@@ -3907,7 +4764,14 @@ SINA.lectures["bacterio1-mycobacteria"] = {
     "Vector-borne"
    ],
    "answer": 1,
-   "why": "Droplet nuclei."
+   "why": "Droplet nuclei.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycobacteria/04.jpg",
+     "lec": "Mycobacteria and tuberculosis",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "In latent TB the bacilli are contained in a:",
@@ -3929,7 +4793,14 @@ SINA.lectures["bacterio1-mycobacteria"] = {
     "Hyaluronic acid"
    ],
    "answer": 1,
-   "why": "PDIM, with PGL."
+   "why": "PDIM, with PGL.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycobacteria/11.jpg",
+     "lec": "Mycobacteria and tuberculosis",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Sputum for TB diagnosis is collected:",
@@ -3940,7 +4811,14 @@ SINA.lectures["bacterio1-mycobacteria"] = {
     "Only by bronchoscopy"
    ],
    "answer": 1,
-   "why": "Maximises yield."
+   "why": "Maximises yield.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycobacteria/15.jpg",
+     "lec": "Mycobacteria and tuberculosis",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "GeneXpert detects M. tuberculosis and resistance to:",
@@ -3951,7 +4829,14 @@ SINA.lectures["bacterio1-mycobacteria"] = {
     "Streptomycin"
    ],
    "answer": 1,
-   "why": "rpoB mutations."
+   "why": "rpoB mutations.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycobacteria/20.jpg",
+     "lec": "Mycobacteria and tuberculosis",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The standard regimen for drug-susceptible TB is:",
@@ -3962,7 +4847,14 @@ SINA.lectures["bacterio1-mycobacteria"] = {
     "2 weeks of rifampicin"
    ],
    "answer": 1,
-   "why": "6 months."
+   "why": "6 months.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycobacteria/21.jpg",
+     "lec": "Mycobacteria and tuberculosis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "TB drugs are always combined to:",
@@ -3973,7 +4865,14 @@ SINA.lectures["bacterio1-mycobacteria"] = {
     "Avoid all side effects"
    ],
    "answer": 1,
-   "why": "Specific mutations."
+   "why": "Specific mutations.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycobacteria/20.jpg",
+     "lec": "Mycobacteria and tuberculosis",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "An indirect test for TB infection is:",
@@ -3984,7 +4883,14 @@ SINA.lectures["bacterio1-mycobacteria"] = {
     "GeneXpert"
    ],
    "answer": 1,
-   "why": "Also the tuberculin skin test."
+   "why": "Also the tuberculin skin test.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycobacteria/14.jpg",
+     "lec": "Mycobacteria and tuberculosis",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "MDR-TB treatment lasts at least:",
@@ -3995,7 +4901,14 @@ SINA.lectures["bacterio1-mycobacteria"] = {
     "5 years"
    ],
    "answer": 2,
-   "why": "Specialised protocols."
+   "why": "Specialised protocols.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycobacteria/21.jpg",
+     "lec": "Mycobacteria and tuberculosis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "BCG is given in Morocco:",
@@ -4006,7 +4919,14 @@ SINA.lectures["bacterio1-mycobacteria"] = {
     "In adolescence"
    ],
    "answer": 1,
-   "why": "National immunisation plan."
+   "why": "National immunisation plan.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycobacteria/22.jpg",
+     "lec": "Mycobacteria and tuberculosis",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4371,7 +5291,19 @@ SINA.lectures["bacterio1-chlamydia"] = {
     "A fungus"
    ],
    "answer": 1,
-   "why": "Needs host ATP."
+   "why": "Needs host ATP.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-chlamydia/05.jpg",
+     "lec": "Chlamydia pneumoniae",
+     "n": 5
+    },
+    {
+     "src": "files/slides/bacterio1-chlamydia/07.jpg",
+     "lec": "Chlamydia pneumoniae",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The infectious form of Chlamydia is the:",
@@ -4382,7 +5314,14 @@ SINA.lectures["bacterio1-chlamydia"] = {
     "Spore"
    ],
    "answer": 1,
-   "why": "Metabolically inactive."
+   "why": "Metabolically inactive.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-chlamydia/05.jpg",
+     "lec": "Chlamydia pneumoniae",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The replicative form is the:",
@@ -4393,7 +5332,19 @@ SINA.lectures["bacterio1-chlamydia"] = {
     "Inclusion"
    ],
    "answer": 1,
-   "why": "Binary fission."
+   "why": "Binary fission.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-chlamydia/04.jpg",
+     "lec": "Chlamydia pneumoniae",
+     "n": 4
+    },
+    {
+     "src": "files/slides/bacterio1-chlamydia/05.jpg",
+     "lec": "Chlamydia pneumoniae",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Chlamydia is called an energy parasite because it:",
@@ -4404,7 +5355,14 @@ SINA.lectures["bacterio1-chlamydia"] = {
     "Ferments glucose"
    ],
    "answer": 1,
-   "why": "Limited own ATP."
+   "why": "Limited own ATP.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-chlamydia/05.jpg",
+     "lec": "Chlamydia pneumoniae",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "β-lactams are ineffective against Chlamydia mainly because it:",
@@ -4415,7 +5373,14 @@ SINA.lectures["bacterio1-chlamydia"] = {
     "Is actually a virus"
    ],
    "answer": 1,
-   "why": "No target."
+   "why": "No target.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-chlamydia/05.jpg",
+     "lec": "Chlamydia pneumoniae",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The reservoir of C. pneumoniae is:",
@@ -4437,7 +5402,14 @@ SINA.lectures["bacterio1-chlamydia"] = {
     "Stool sample"
    ],
    "answer": 1,
-   "why": "Also aspirates."
+   "why": "Also aspirates.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-chlamydia/12.jpg",
+     "lec": "Chlamydia pneumoniae",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "In MIF serology, IgM appears about:",
@@ -4448,7 +5420,14 @@ SINA.lectures["bacterio1-chlamydia"] = {
     "Never"
    ],
    "answer": 1,
-   "why": "IgG at 6-8 weeks."
+   "why": "IgG at 6-8 weeks.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-chlamydia/15.jpg",
+     "lec": "Chlamydia pneumoniae",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "First-line treatment of C. pneumoniae is:",
@@ -4459,7 +5438,14 @@ SINA.lectures["bacterio1-chlamydia"] = {
     "Colistin"
    ],
    "answer": 1,
-   "why": "Azithromycin, clarithromycin."
+   "why": "Azithromycin, clarithromycin.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-chlamydia/16.jpg",
+     "lec": "Chlamydia pneumoniae",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "A condition associated with chronic C. pneumoniae infection is:",
@@ -4470,7 +5456,14 @@ SINA.lectures["bacterio1-chlamydia"] = {
     "Scarlet fever"
    ],
    "answer": 1,
-   "why": "Controversial link."
+   "why": "Controversial link.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-chlamydia/04.jpg",
+     "lec": "Chlamydia pneumoniae",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Most C. pneumoniae infections are:",
@@ -4481,7 +5474,14 @@ SINA.lectures["bacterio1-chlamydia"] = {
     "Diarrhoeal"
    ],
    "answer": 1,
-   "why": "70-90%."
+   "why": "70-90%.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-chlamydia/10.jpg",
+     "lec": "Chlamydia pneumoniae",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Chlamydia avoids destruction in cells by:",
@@ -4492,7 +5492,14 @@ SINA.lectures["bacterio1-chlamydia"] = {
     "Its capsule"
    ],
    "answer": 1,
-   "why": "Protected inclusion."
+   "why": "Protected inclusion.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-chlamydia/08.jpg",
+     "lec": "Chlamydia pneumoniae",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Persistent Chlamydia forms under interferon-γ are:",
@@ -4503,7 +5510,19 @@ SINA.lectures["bacterio1-chlamydia"] = {
     "L-forms"
    ],
    "answer": 1,
-   "why": "Enlarged non-dividing RBs."
+   "why": "Enlarged non-dividing RBs.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-chlamydia/05.jpg",
+     "lec": "Chlamydia pneumoniae",
+     "n": 5
+    },
+    {
+     "src": "files/slides/bacterio1-chlamydia/06.jpg",
+     "lec": "Chlamydia pneumoniae",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Compared with typical pneumonia, treatment of C. pneumoniae is:",
@@ -4514,7 +5533,14 @@ SINA.lectures["bacterio1-chlamydia"] = {
     "Only topical"
    ],
    "answer": 1,
-   "why": "Intracellular cycle."
+   "why": "Intracellular cycle.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-chlamydia/16.jpg",
+     "lec": "Chlamydia pneumoniae",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "A vaccine against C. pneumoniae:",
@@ -4525,7 +5551,14 @@ SINA.lectures["bacterio1-chlamydia"] = {
     "Is BCG"
    ],
    "answer": 1,
-   "why": "Hygiene measures only."
+   "why": "Hygiene measures only.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-chlamydia/17.jpg",
+     "lec": "Chlamydia pneumoniae",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4868,7 +5901,14 @@ SINA.lectures["bacterio1-bordetella"] = {
     "A spirochete"
    ],
    "answer": 1,
-   "why": "Single or pairs."
+   "why": "Single or pairs.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-bordetella/05.jpg",
+     "lec": "Bordetella pertussis",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "B. pertussis colonises the:",
@@ -4879,7 +5919,14 @@ SINA.lectures["bacterio1-bordetella"] = {
     "Skin"
    ],
    "answer": 1,
-   "why": "Nasopharynx to bronchi."
+   "why": "Nasopharynx to bronchi.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-bordetella/04.jpg",
+     "lec": "Bordetella pertussis",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The stage of highest contagiousness is the:",
@@ -4890,7 +5937,19 @@ SINA.lectures["bacterio1-bordetella"] = {
     "Incubation only"
    ],
    "answer": 0,
-   "why": "Looks like a cold."
+   "why": "Looks like a cold.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-bordetella/11.jpg",
+     "lec": "Bordetella pertussis",
+     "n": 11
+    },
+    {
+     "src": "files/slides/bacterio1-bordetella/17.jpg",
+     "lec": "Bordetella pertussis",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The inspiratory whoop occurs in the:",
@@ -4901,7 +5960,14 @@ SINA.lectures["bacterio1-bordetella"] = {
     "Incubation"
    ],
    "answer": 1,
-   "why": "After coughing fits."
+   "why": "After coughing fits.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-bordetella/11.jpg",
+     "lec": "Bordetella pertussis",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "A typical blood finding in pertussis is:",
@@ -4912,7 +5978,19 @@ SINA.lectures["bacterio1-bordetella"] = {
     "Thrombocytopenia"
    ],
    "answer": 1,
-   "why": "Due to pertussis toxin."
+   "why": "Due to pertussis toxin.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-bordetella/06.jpg",
+     "lec": "Bordetella pertussis",
+     "n": 6
+    },
+    {
+     "src": "files/slides/bacterio1-bordetella/12.jpg",
+     "lec": "Bordetella pertussis",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Tracheal cytotoxin causes:",
@@ -4923,7 +6001,14 @@ SINA.lectures["bacterio1-bordetella"] = {
     "Low blood glucose"
    ],
    "answer": 1,
-   "why": "Impaired clearance."
+   "why": "Impaired clearance.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-bordetella/04.jpg",
+     "lec": "Bordetella pertussis",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "An adhesin of B. pertussis is:",
@@ -4934,7 +6019,14 @@ SINA.lectures["bacterio1-bordetella"] = {
     "Pneumococcal pneumolysin"
    ],
    "answer": 1,
-   "why": "Also pertactin, fimbriae."
+   "why": "Also pertactin, fimbriae.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-bordetella/06.jpg",
+     "lec": "Bordetella pertussis",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The swab for pertussis should be taken from the:",
@@ -4945,7 +6037,14 @@ SINA.lectures["bacterio1-bordetella"] = {
     "Ear"
    ],
    "answer": 1,
-   "why": "Dacron or flocked."
+   "why": "Dacron or flocked.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-bordetella/12.jpg",
+     "lec": "Bordetella pertussis",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The first-line diagnostic test for pertussis is:",
@@ -4956,7 +6055,14 @@ SINA.lectures["bacterio1-bordetella"] = {
     "Blood culture"
    ],
    "answer": 1,
-   "why": "Early and after antibiotics."
+   "why": "Early and after antibiotics.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-bordetella/17.jpg",
+     "lec": "Bordetella pertussis",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The reference culture medium is:",
@@ -4967,7 +6073,14 @@ SINA.lectures["bacterio1-bordetella"] = {
     "Löwenstein-Jensen"
    ],
    "answer": 1,
-   "why": "Charcoal-horse blood."
+   "why": "Charcoal-horse blood.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-bordetella/13.jpg",
+     "lec": "Bordetella pertussis",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Pertussis colonies are described as:",
@@ -4978,7 +6091,14 @@ SINA.lectures["bacterio1-bordetella"] = {
     "Medusa head"
    ],
    "answer": 1,
-   "why": "Small, shiny."
+   "why": "Small, shiny.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-bordetella/14.jpg",
+     "lec": "Bordetella pertussis",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Serology for pertussis is:",
@@ -4989,7 +6109,14 @@ SINA.lectures["bacterio1-bordetella"] = {
     "Done on day 1"
    ],
    "answer": 1,
-   "why": "Hard to interpret after vaccination."
+   "why": "Hard to interpret after vaccination.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-bordetella/19.jpg",
+     "lec": "Bordetella pertussis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "First-line treatment of pertussis is:",
@@ -5000,7 +6127,14 @@ SINA.lectures["bacterio1-bordetella"] = {
     "Gentamicin"
    ],
    "answer": 1,
-   "why": "Azithromycin."
+   "why": "Azithromycin.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-bordetella/21.jpg",
+     "lec": "Bordetella pertussis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The alternative when macrolides cannot be used is:",
@@ -5011,7 +6145,14 @@ SINA.lectures["bacterio1-bordetella"] = {
     "Fosfomycin"
    ],
    "answer": 1,
-   "why": "TMP-SMX."
+   "why": "TMP-SMX.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-bordetella/21.jpg",
+     "lec": "Bordetella pertussis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "In Morocco, the primary pertussis doses are given at:",
@@ -5022,7 +6163,14 @@ SINA.lectures["bacterio1-bordetella"] = {
     "5 years"
    ],
    "answer": 1,
-   "why": "Boosters 18 months, 5 years."
+   "why": "Boosters 18 months, 5 years.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-bordetella/22.jpg",
+     "lec": "Bordetella pertussis",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5367,7 +6515,14 @@ SINA.lectures["bacterio1-mycoplasma"] = {
     "Acid-fastness"
    ],
    "answer": 1,
-   "why": "Class Mollicutes."
+   "why": "Class Mollicutes.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycoplasma/03.jpg",
+     "lec": "Mycoplasma",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The mycoplasma membrane is unusual because it contains:",
@@ -5378,7 +6533,14 @@ SINA.lectures["bacterio1-mycoplasma"] = {
     "LPS"
    ],
    "answer": 1,
-   "why": "Cholesterol from host."
+   "why": "Cholesterol from host.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycoplasma/04.jpg",
+     "lec": "Mycoplasma",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Mycoplasmas are the smallest:",
@@ -5389,7 +6551,14 @@ SINA.lectures["bacterio1-mycoplasma"] = {
     "Protozoan parasites"
    ],
    "answer": 1,
-   "why": "0.3-0.85 µm."
+   "why": "0.3-0.85 µm.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycoplasma/04.jpg",
+     "lec": "Mycoplasma",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Mycoplasmas are naturally resistant to:",
@@ -5400,7 +6569,14 @@ SINA.lectures["bacterio1-mycoplasma"] = {
     "Fluoroquinolones"
    ],
    "answer": 1,
-   "why": "No wall."
+   "why": "No wall.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycoplasma/15.jpg",
+     "lec": "Mycoplasma",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "M. pneumoniae typically causes:",
@@ -5422,7 +6598,14 @@ SINA.lectures["bacterio1-mycoplasma"] = {
     "Guillain-Barré only"
    ],
    "answer": 1,
-   "why": "Anti-RBC IgM."
+   "why": "Anti-RBC IgM.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycoplasma/06.jpg",
+     "lec": "Mycoplasma",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Ureaplasma urealyticum causes:",
@@ -5433,7 +6616,14 @@ SINA.lectures["bacterio1-mycoplasma"] = {
     "Endocarditis"
    ],
    "answer": 1,
-   "why": "Also PID."
+   "why": "Also PID.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycoplasma/06.jpg",
+     "lec": "Mycoplasma",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "M. hominis is associated with:",
@@ -5444,7 +6634,14 @@ SINA.lectures["bacterio1-mycoplasma"] = {
     "Scarlet fever"
    ],
    "answer": 1,
-   "why": "Urogenital."
+   "why": "Urogenital.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycoplasma/06.jpg",
+     "lec": "Mycoplasma",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The gold standard diagnosis for M. pneumoniae is:",
@@ -5455,7 +6652,14 @@ SINA.lectures["bacterio1-mycoplasma"] = {
     "Blood count"
    ],
    "answer": 1,
-   "why": "Throat or nasopharynx."
+   "why": "Throat or nasopharynx.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycoplasma/09.jpg",
+     "lec": "Mycoplasma",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Culture of M. pneumoniae is rarely done because it:",
@@ -5466,7 +6670,19 @@ SINA.lectures["bacterio1-mycoplasma"] = {
     "Is dangerous"
    ],
    "answer": 1,
-   "why": "Special media."
+   "why": "Special media.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycoplasma/11.jpg",
+     "lec": "Mycoplasma",
+     "n": 11
+    },
+    {
+     "src": "files/slides/bacterio1-mycoplasma/12.jpg",
+     "lec": "Mycoplasma",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "A medium used for mycoplasmas is:",
@@ -5477,7 +6693,19 @@ SINA.lectures["bacterio1-mycoplasma"] = {
     "Regan-Lowe"
    ],
    "answer": 1,
-   "why": "Also PPLO, Hayflick."
+   "why": "Also PPLO, Hayflick.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycoplasma/04.jpg",
+     "lec": "Mycoplasma",
+     "n": 4
+    },
+    {
+     "src": "files/slides/bacterio1-mycoplasma/11.jpg",
+     "lec": "Mycoplasma",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Serology for mycoplasma needs:",
@@ -5488,7 +6716,14 @@ SINA.lectures["bacterio1-mycoplasma"] = {
     "Urine"
    ],
    "answer": 1,
-   "why": "Rising titres."
+   "why": "Rising titres.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycoplasma/13.jpg",
+     "lec": "Mycoplasma",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The mycoplasma toxin that ADP-ribosylates host proteins is:",
@@ -5499,7 +6734,19 @@ SINA.lectures["bacterio1-mycoplasma"] = {
     "Shiga toxin"
    ],
    "answer": 1,
-   "why": "Community-acquired respiratory distress syndrome toxin."
+   "why": "Community-acquired respiratory distress syndrome toxin.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycoplasma/05.jpg",
+     "lec": "Mycoplasma",
+     "n": 5
+    },
+    {
+     "src": "files/slides/bacterio1-mycoplasma/08.jpg",
+     "lec": "Mycoplasma",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Mycoplasmas attach to epithelium with:",
@@ -5510,7 +6757,14 @@ SINA.lectures["bacterio1-mycoplasma"] = {
     "Conjugative sex pili"
    ],
    "answer": 1,
-   "why": "Adhesins at one pole."
+   "why": "Adhesins at one pole.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycoplasma/08.jpg",
+     "lec": "Mycoplasma",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "An effective drug for M. pneumoniae is:",
@@ -5521,7 +6775,19 @@ SINA.lectures["bacterio1-mycoplasma"] = {
     "Vancomycin"
    ],
    "answer": 1,
-   "why": "Macrolide."
+   "why": "Macrolide.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-mycoplasma/15.jpg",
+     "lec": "Mycoplasma",
+     "n": 15
+    },
+    {
+     "src": "files/slides/bacterio1-mycoplasma/16.jpg",
+     "lec": "Mycoplasma",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5881,7 +7147,19 @@ SINA.lectures["bacterio1-enterobacteria-1"] = {
     "Gram positive"
    ],
    "answer": 1,
-   "why": "Key screening test."
+   "why": "Key screening test.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/41.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 41
+    },
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/69.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 69
+    }
+   ]
   },
   {
    "q": "The flagellar antigen of enterobacteria is the:",
@@ -5892,7 +7170,14 @@ SINA.lectures["bacterio1-enterobacteria-1"] = {
     "Vi antigen"
    ],
    "answer": 1,
-   "why": "O = somatic, K = capsular."
+   "why": "O = somatic, K = capsular.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/15.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "E. coli on MacConkey agar gives:",
@@ -5903,7 +7188,14 @@ SINA.lectures["bacterio1-enterobacteria-1"] = {
     "Swarming growth"
    ],
    "answer": 1,
-   "why": "Metallic sheen on EMB."
+   "why": "Metallic sheen on EMB.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/10.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The commonest cause of urinary tract infection is:",
@@ -5914,7 +7206,14 @@ SINA.lectures["bacterio1-enterobacteria-1"] = {
     "Enterococcus"
    ],
    "answer": 1,
-   "why": "About 90%."
+   "why": "About 90%.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/20.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Neonatal meningitis by E. coli is linked to the capsular antigen:",
@@ -5925,7 +7224,14 @@ SINA.lectures["bacterio1-enterobacteria-1"] = {
     "Vi"
    ],
    "answer": 0,
-   "why": "Anti-phagocytic."
+   "why": "Anti-phagocytic.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/34.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "ETEC causes diarrhoea through:",
@@ -5936,7 +7242,14 @@ SINA.lectures["bacterio1-enterobacteria-1"] = {
     "Attaching-effacing lesions only"
    ],
    "answer": 1,
-   "why": "Watery, non-inflammatory."
+   "why": "Watery, non-inflammatory.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/28.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The E. coli pathotype that behaves like Shigella is:",
@@ -5947,7 +7260,14 @@ SINA.lectures["bacterio1-enterobacteria-1"] = {
     "EAEC"
    ],
    "answer": 2,
-   "why": "Dysentery."
+   "why": "Dysentery.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/29.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Haemolytic uraemic syndrome is associated with:",
@@ -5958,7 +7278,14 @@ SINA.lectures["bacterio1-enterobacteria-1"] = {
     "UPEC"
    ],
    "answer": 1,
-   "why": "Shiga toxins, O157:H7."
+   "why": "Shiga toxins, O157:H7.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/30.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "For uncomplicated cystitis with resistant E. coli, a good option is:",
@@ -5969,7 +7296,14 @@ SINA.lectures["bacterio1-enterobacteria-1"] = {
     "Clindamycin"
    ],
    "answer": 1,
-   "why": "Or nitrofurantoin."
+   "why": "Or nitrofurantoin.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/37.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Severe infections by ESBL-producing enterobacteria are treated with:",
@@ -5980,7 +7314,19 @@ SINA.lectures["bacterio1-enterobacteria-1"] = {
     "Erythromycin"
    ],
    "answer": 1,
-   "why": "± aminoglycoside."
+   "why": "± aminoglycoside.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/37.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 37
+    },
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/73.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 73
+    }
+   ]
   },
   {
    "q": "Klebsiella pneumoniae colonies are typically:",
@@ -5991,7 +7337,19 @@ SINA.lectures["bacterio1-enterobacteria-1"] = {
     "Black-centred"
    ],
    "answer": 1,
-   "why": "Capsule."
+   "why": "Capsule.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/13.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 13
+    },
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/34.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Klebsiella is:",
@@ -6002,7 +7360,14 @@ SINA.lectures["bacterio1-enterobacteria-1"] = {
     "Acid-fast"
    ],
    "answer": 1,
-   "why": "Unlike K. aerogenes."
+   "why": "Unlike K. aerogenes.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/69.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 69
+    }
+   ]
   },
   {
    "q": "Klebsiella is naturally resistant to:",
@@ -6013,7 +7378,14 @@ SINA.lectures["bacterio1-enterobacteria-1"] = {
     "Colistin"
    ],
    "answer": 1,
-   "why": "Chromosomal penicillinase."
+   "why": "Chromosomal penicillinase.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/73.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 73
+    }
+   ]
   },
   {
    "q": "Hypervirulent K. pneumoniae typically causes:",
@@ -6024,7 +7396,14 @@ SINA.lectures["bacterio1-enterobacteria-1"] = {
     "Bullous impetigo"
    ],
    "answer": 1,
-   "why": "Eye, lung."
+   "why": "Eye, lung.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/47.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "The single most important measure against hospital spread of Klebsiella is:",
@@ -6035,7 +7414,19 @@ SINA.lectures["bacterio1-enterobacteria-1"] = {
     "Antiseptic mouthwash"
    ],
    "answer": 1,
-   "why": "WHO 5 moments."
+   "why": "WHO 5 moments.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/50.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 50
+    },
+    {
+     "src": "files/slides/bacterio1-enterobacteria-1/74.jpg",
+     "lec": "Enterobacteriaceae I: E. coli and",
+     "n": 74
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -6373,7 +7764,14 @@ SINA.lectures["bacterio1-enterobacteria-2"] = {
     "A mucoid appearance only"
    ],
    "answer": 1,
-   "why": "H₂S production."
+   "why": "H₂S production.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/10.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Salmonella are:",
@@ -6384,7 +7782,19 @@ SINA.lectures["bacterio1-enterobacteria-2"] = {
     "Urease positive"
    ],
    "answer": 1,
-   "why": "Pale colonies."
+   "why": "Pale colonies.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/10.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 10
+    },
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/69.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 69
+    }
+   ]
   },
   {
    "q": "The reservoir of S. Typhi is:",
@@ -6395,7 +7805,14 @@ SINA.lectures["bacterio1-enterobacteria-2"] = {
     "Cattle"
    ],
    "answer": 1,
-   "why": "Strict human pathogen."
+   "why": "Strict human pathogen.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/58.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "Non-typhoidal Salmonella usually cause:",
@@ -6406,7 +7823,14 @@ SINA.lectures["bacterio1-enterobacteria-2"] = {
     "Lobar pneumonia"
    ],
    "answer": 1,
-   "why": "Zoonotic."
+   "why": "Zoonotic.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/58.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "S. Typhi survives and spreads by living inside:",
@@ -6417,7 +7841,19 @@ SINA.lectures["bacterio1-enterobacteria-2"] = {
     "Platelets"
    ],
    "answer": 1,
-   "why": "Systemic disease."
+   "why": "Systemic disease.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/29.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 29
+    },
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/58.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "Chronic typhoid carriers harbour the bacteria in the:",
@@ -6428,7 +7864,14 @@ SINA.lectures["bacterio1-enterobacteria-2"] = {
     "Skin"
    ],
    "answer": 1,
-   "why": "Keep shedding."
+   "why": "Keep shedding.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/58.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "The best test in the first week of typhoid is:",
@@ -6439,7 +7882,14 @@ SINA.lectures["bacterio1-enterobacteria-2"] = {
     "Urine culture"
    ],
    "answer": 1,
-   "why": "80-90% positive."
+   "why": "80-90% positive.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/63.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 63
+    }
+   ]
   },
   {
    "q": "A feared complication of typhoid is:",
@@ -6450,7 +7900,19 @@ SINA.lectures["bacterio1-enterobacteria-2"] = {
     "Endocarditis only"
    ],
    "answer": 1,
-   "why": "Also haemorrhage."
+   "why": "Also haemorrhage.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/58.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 58
+    },
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/59.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 59
+    }
+   ]
   },
   {
    "q": "The oral live typhoid vaccine is:",
@@ -6461,7 +7923,14 @@ SINA.lectures["bacterio1-enterobacteria-2"] = {
     "DTP"
    ],
    "answer": 1,
-   "why": "4 capsules."
+   "why": "4 capsules.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/65.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 65
+    }
+   ]
   },
   {
    "q": "Enterobacter cloacae is intrinsically resistant to amoxicillin-clavulanate because of:",
@@ -6472,7 +7941,19 @@ SINA.lectures["bacterio1-enterobacteria-2"] = {
     "Porin loss only"
    ],
    "answer": 1,
-   "why": "Also C1G/C2G."
+   "why": "Also C1G/C2G.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/72.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 72
+    },
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/73.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 73
+    }
+   ]
   },
   {
    "q": "Enterobacter aerogenes has been renamed:",
@@ -6483,7 +7964,14 @@ SINA.lectures["bacterio1-enterobacteria-2"] = {
     "Proteus aerogenes"
    ],
    "answer": 1,
-   "why": "Genetic closeness."
+   "why": "Genetic closeness.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/70.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 70
+    }
+   ]
   },
   {
    "q": "Proteus is recognised on blood agar by:",
@@ -6494,7 +7982,14 @@ SINA.lectures["bacterio1-enterobacteria-2"] = {
     "Mucoid colonies"
    ],
    "answer": 1,
-   "why": "High motility."
+   "why": "High motility.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/76.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 76
+    }
+   ]
   },
   {
    "q": "Proteus causes urinary stones through:",
@@ -6505,7 +8000,19 @@ SINA.lectures["bacterio1-enterobacteria-2"] = {
     "Capsule"
    ],
    "answer": 1,
-   "why": "Struvite."
+   "why": "Struvite.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/79.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 79
+    },
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/82.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 82
+    }
+   ]
   },
   {
    "q": "Struvite stones are made of:",
@@ -6516,7 +8023,19 @@ SINA.lectures["bacterio1-enterobacteria-2"] = {
     "Cystine"
    ],
    "answer": 1,
-   "why": "Alkaline urine."
+   "why": "Alkaline urine.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/79.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 79
+    },
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/82.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 82
+    }
+   ]
   },
   {
    "q": "Proteus is naturally resistant to:",
@@ -6527,7 +8046,19 @@ SINA.lectures["bacterio1-enterobacteria-2"] = {
     "Amikacin"
    ],
    "answer": 1,
-   "why": "Also tetracyclines."
+   "why": "Also tetracyclines.",
+   "slides": [
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/48.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 48
+    },
+    {
+     "src": "files/slides/bacterio1-enterobacteria-2/73.jpg",
+     "lec": "Enterobacteriaceae II: Salmonella,",
+     "n": 73
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

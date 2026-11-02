@@ -276,7 +276,14 @@ SINA.lectures["toxico-intro"] = {
     "Hippocrates"
    ],
    "answer": 2,
-   "why": "'The dose makes the poison.'"
+   "why": "'The dose makes the poison.'",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/04.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "A toxin differs from a toxicant in that a toxin is:",
@@ -287,7 +294,14 @@ SINA.lectures["toxico-intro"] = {
     "Always lethal"
    ],
    "answer": 2,
-   "why": "Toxicants are synthetic, e.g. pesticides."
+   "why": "Toxicants are synthetic, e.g. pesticides.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/06.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Toxicokinetics studies:",
@@ -298,7 +312,14 @@ SINA.lectures["toxico-intro"] = {
     "Absorption, distribution, metabolism and excretion"
    ],
    "answer": 3,
-   "why": "Toxicodynamics studies target and effects."
+   "why": "Toxicodynamics studies target and effects.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/07.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Mithridatism is:",
@@ -309,7 +330,14 @@ SINA.lectures["toxico-intro"] = {
     "An antidote made from viper venom"
    ],
    "answer": 0,
-   "why": "Named after Mithridates VI of Pontus."
+   "why": "Named after Mithridates VI of Pontus.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/09.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Socrates was executed with:",
@@ -320,7 +348,14 @@ SINA.lectures["toxico-intro"] = {
     "Aconite"
    ],
    "answer": 2,
-   "why": "In 399 BC."
+   "why": "In 399 BC.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/11.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "For a functional toxicant:",
@@ -331,7 +366,14 @@ SINA.lectures["toxico-intro"] = {
     "Blood concentration and severity evolve in parallel"
    ],
    "answer": 3,
-   "why": "E.g. morphine, atropine, barbiturates."
+   "why": "E.g. morphine, atropine, barbiturates.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/22.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Paracetamol overdose is an example of a:",
@@ -342,7 +384,14 @@ SINA.lectures["toxico-intro"] = {
     "Functional toxicant"
    ],
    "answer": 1,
-   "why": "With a delayed, silent initial phase."
+   "why": "With a delayed, silent initial phase.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/22.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "The Rumack-Matthew nomogram can be used from:",
@@ -353,7 +402,14 @@ SINA.lectures["toxico-intro"] = {
     "48 to 72 h"
    ],
    "answer": 2,
-   "why": "After a single acute paracetamol ingestion."
+   "why": "After a single acute paracetamol ingestion.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/28.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Paraquat causes:",
@@ -364,7 +420,14 @@ SINA.lectures["toxico-intro"] = {
     "Pulmonary fibrosis"
    ],
    "answer": 3,
-   "why": "A morphological toxicant with very high mortality."
+   "why": "A morphological toxicant with very high mortality.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/29.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Alkali ingestion typically causes:",
@@ -375,7 +438,14 @@ SINA.lectures["toxico-intro"] = {
     "Liquefactive necrosis, deeper than acids"
    ],
    "answer": 3,
-   "why": "Acids form a protective eschar."
+   "why": "Acids form a protective eschar.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/30.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Organophosphates act by:",
@@ -386,7 +456,14 @@ SINA.lectures["toxico-intro"] = {
     "Alkylating DNA"
    ],
    "answer": 1,
-   "why": "Causing a cholinergic toxidrome."
+   "why": "Causing a cholinergic toxidrome.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/34.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which drug reactivates acetylcholinesterase after organophosphate poisoning?",
@@ -397,7 +474,14 @@ SINA.lectures["toxico-intro"] = {
     "Pralidoxime"
    ],
    "answer": 3,
-   "why": "It removes the phosphoryl group."
+   "why": "It removes the phosphoryl group.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/36.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "How much greater is CO's affinity for haemoglobin than oxygen's?",
@@ -408,7 +492,14 @@ SINA.lectures["toxico-intro"] = {
     "21 times"
    ],
    "answer": 0,
-   "why": "Forming carboxyhaemoglobin."
+   "why": "Forming carboxyhaemoglobin.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/38.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "A carboxyhaemoglobin of 60-70% is:",
@@ -419,7 +510,14 @@ SINA.lectures["toxico-intro"] = {
     "Normal for a smoker"
    ],
    "answer": 0,
-   "why": "Normal under 1.6%, smokers 3-5%."
+   "why": "Normal under 1.6%, smokers 3-5%.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/41.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "The antidote treatment of CO poisoning is:",
@@ -430,7 +528,14 @@ SINA.lectures["toxico-intro"] = {
     "Methylene blue injection"
    ],
    "answer": 1,
-   "why": "Hyperbaric oxygen is the antidote."
+   "why": "Hyperbaric oxygen is the antidote.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/42.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Benzodiazepines act on:",
@@ -441,7 +546,14 @@ SINA.lectures["toxico-intro"] = {
     "DNA"
    ],
    "answer": 0,
-   "why": "Like barbiturates and ethanol."
+   "why": "Like barbiturates and ethanol.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/43.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "'Takaout Roumia' refers to:",
@@ -452,7 +564,14 @@ SINA.lectures["toxico-intro"] = {
     "Paraphenylenediamine (PPD)"
    ],
    "answer": 3,
-   "why": "Takaout beldia is Tamarix aphylla."
+   "why": "Takaout beldia is Tamarix aphylla.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/51.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "Which is a feature of PPD ingestion?",
@@ -463,7 +582,14 @@ SINA.lectures["toxico-intro"] = {
     "Isolated severe hypoglycaemia"
    ],
    "answer": 0,
-   "why": "Also methaemoglobinaemia; 20-90% fatality."
+   "why": "Also methaemoglobinaemia; 20-90% fatality.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/54.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "The basis of antidote treatment is:",
@@ -474,7 +600,14 @@ SINA.lectures["toxico-intro"] = {
     "Enzyme induction by the toxicant"
    ],
    "answer": 1,
-   "why": "Antidotes oppose the toxicant."
+   "why": "Antidotes oppose the toxicant.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/71.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 71
+    }
+   ]
   },
   {
    "q": "Which is a cumulative toxicant?",
@@ -485,7 +618,14 @@ SINA.lectures["toxico-intro"] = {
     "Ethanol single dose"
    ],
    "answer": 0,
-   "why": "Also DDT, digitalis, Hg, Cd, As, F."
+   "why": "Also DDT, digitalis, Hg, Cd, As, F.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-intro/73.jpg",
+     "lec": "Introduction to toxicology",
+     "n": 73
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -973,7 +1113,14 @@ SINA.lectures["toxico-kinetics"] = {
     "Passive diffusion"
    ],
    "answer": 3,
-   "why": "No carrier, no energy, down the concentration gradient."
+   "why": "No carrier, no energy, down the concentration gradient.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/07.jpg",
+     "lec": "Toxicokinetics",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "According to Fick's law, diffusion is faster when:",
@@ -984,7 +1131,14 @@ SINA.lectures["toxico-kinetics"] = {
     "The concentration gradient is kept small"
    ],
    "answer": 0,
-   "why": "Rate ∝ area × gradient / thickness."
+   "why": "Rate ∝ area × gradient / thickness.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/08.jpg",
+     "lec": "Toxicokinetics",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which transport requires ATP and works against a gradient?",
@@ -995,7 +1149,14 @@ SINA.lectures["toxico-kinetics"] = {
     "Active transport"
    ],
    "answer": 3,
-   "why": "It is selective and saturable."
+   "why": "It is selective and saturable.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/10.jpg",
+     "lec": "Toxicokinetics",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "P-glycoprotein is:",
@@ -1006,7 +1167,14 @@ SINA.lectures["toxico-kinetics"] = {
     "A plasma protein"
    ],
    "answer": 0,
-   "why": "It pumps toxicants out of cells."
+   "why": "It pumps toxicants out of cells.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/30.jpg",
+     "lec": "Toxicokinetics",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Bioavailability is calculated as:",
@@ -1017,7 +1185,14 @@ SINA.lectures["toxico-kinetics"] = {
     "AUC IV / AUC oral"
    ],
    "answer": 1,
-   "why": "IV bioavailability is 100% by definition."
+   "why": "IV bioavailability is 100% by definition.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/17.jpg",
+     "lec": "Toxicokinetics",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "A weak acid in the stomach (low pH) is:",
@@ -1028,7 +1203,19 @@ SINA.lectures["toxico-kinetics"] = {
     "More ionised and poorly absorbed"
    ],
    "answer": 1,
-   "why": "Only the un-ionised form crosses membranes."
+   "why": "Only the un-ionised form crosses membranes.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/19.jpg",
+     "lec": "Toxicokinetics",
+     "n": 19
+    },
+    {
+     "src": "files/slides/toxico-kinetics/27.jpg",
+     "lec": "Toxicokinetics",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "What is the net effect of plasma protein binding?",
@@ -1039,7 +1226,14 @@ SINA.lectures["toxico-kinetics"] = {
     "Increases immediate toxicity, shortens intoxication"
    ],
    "answer": 2,
-   "why": "It also reduces filtration and metabolism."
+   "why": "It also reduces filtration and metabolism.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/26.jpg",
+     "lec": "Toxicokinetics",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Ion trapping makes which compounds accumulate in cells?",
@@ -1050,7 +1244,19 @@ SINA.lectures["toxico-kinetics"] = {
     "Proteins"
    ],
    "answer": 2,
-   "why": "Intracellular pH (6.9) is lower than plasma (7.4)."
+   "why": "Intracellular pH (6.9) is lower than plasma (7.4).",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/27.jpg",
+     "lec": "Toxicokinetics",
+     "n": 27
+    },
+    {
+     "src": "files/slides/toxico-kinetics/28.jpg",
+     "lec": "Toxicokinetics",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Paraquat shows tropism for:",
@@ -1061,7 +1267,14 @@ SINA.lectures["toxico-kinetics"] = {
     "Bone"
    ],
    "answer": 0,
-   "why": "Heavy metals favour kidney and bone; digitalis the heart."
+   "why": "Heavy metals favour kidney and bone; digitalis the heart.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/29.jpg",
+     "lec": "Toxicokinetics",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "A high volume of distribution means:",
@@ -1072,7 +1285,19 @@ SINA.lectures["toxico-kinetics"] = {
     "The toxicant leaves plasma for tissues"
    ],
    "answer": 3,
-   "why": "Vd = amount in body / plasma concentration."
+   "why": "Vd = amount in body / plasma concentration.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/33.jpg",
+     "lec": "Toxicokinetics",
+     "n": 33
+    },
+    {
+     "src": "files/slides/toxico-kinetics/63.jpg",
+     "lec": "Toxicokinetics",
+     "n": 63
+    }
+   ]
   },
   {
    "q": "Which phase I product of paracetamol is hepatotoxic?",
@@ -1083,7 +1308,14 @@ SINA.lectures["toxico-kinetics"] = {
     "Glucuronide"
    ],
    "answer": 2,
-   "why": "Neutralised by glutathione conjugation."
+   "why": "Neutralised by glutathione conjugation.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/44.jpg",
+     "lec": "Toxicokinetics",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Isoniazid is metabolised mainly by:",
@@ -1094,7 +1326,14 @@ SINA.lectures["toxico-kinetics"] = {
     "Sulfation"
    ],
    "answer": 2,
-   "why": "Fast and slow acetylators differ genetically."
+   "why": "Fast and slow acetylators differ genetically.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/49.jpg",
+     "lec": "Toxicokinetics",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Which is an enzyme inducer?",
@@ -1105,7 +1344,14 @@ SINA.lectures["toxico-kinetics"] = {
     "Rifampicin"
    ],
    "answer": 3,
-   "why": "Smoking and alcohol also induce."
+   "why": "Smoking and alcohol also induce.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/49.jpg",
+     "lec": "Toxicokinetics",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Alkalinising the urine increases excretion of:",
@@ -1116,7 +1362,14 @@ SINA.lectures["toxico-kinetics"] = {
     "Weak bases"
    ],
    "answer": 1,
-   "why": "Ionised weak acids are not reabsorbed."
+   "why": "Ionised weak acids are not reabsorbed.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/56.jpg",
+     "lec": "Toxicokinetics",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "How fast does hair grow, allowing it to date exposures?",
@@ -1127,7 +1380,14 @@ SINA.lectures["toxico-kinetics"] = {
     "1 cm per year"
    ],
    "answer": 0,
-   "why": "A retrospective calendar of exposure."
+   "why": "A retrospective calendar of exposure.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/60.jpg",
+     "lec": "Toxicokinetics",
+     "n": 60
+    }
+   ]
   },
   {
    "q": "Half-life equals:",
@@ -1149,7 +1409,14 @@ SINA.lectures["toxico-kinetics"] = {
     "Penicillin"
    ],
    "answer": 0,
-   "why": "A constant amount is removed per unit time."
+   "why": "A constant amount is removed per unit time.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/64.jpg",
+     "lec": "Toxicokinetics",
+     "n": 64
+    }
+   ]
   },
   {
    "q": "Steady state is reached after about:",
@@ -1160,7 +1427,14 @@ SINA.lectures["toxico-kinetics"] = {
     "4 to 5 half-lives"
    ],
    "answer": 3,
-   "why": "Intake then equals elimination."
+   "why": "Intake then equals elimination.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/64.jpg",
+     "lec": "Toxicokinetics",
+     "n": 64
+    }
+   ]
   },
   {
    "q": "Which post-mortem sample best reflects ante-mortem blood levels?",
@@ -1171,7 +1445,19 @@ SINA.lectures["toxico-kinetics"] = {
     "Cardiac blood"
    ],
    "answer": 2,
-   "why": "Vitreous humour is also resistant to redistribution."
+   "why": "Vitreous humour is also resistant to redistribution.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/69.jpg",
+     "lec": "Toxicokinetics",
+     "n": 69
+    },
+    {
+     "src": "files/slides/toxico-kinetics/77.jpg",
+     "lec": "Toxicokinetics",
+     "n": 77
+    }
+   ]
   },
   {
    "q": "Why can post-mortem ethanol be falsely positive?",
@@ -1182,7 +1468,19 @@ SINA.lectures["toxico-kinetics"] = {
     "Bacterial production after death"
    ],
    "answer": 3,
-   "why": "Vitreous humour helps check it."
+   "why": "Vitreous humour helps check it.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-kinetics/66.jpg",
+     "lec": "Toxicokinetics",
+     "n": 66
+    },
+    {
+     "src": "files/slides/toxico-kinetics/69.jpg",
+     "lec": "Toxicokinetics",
+     "n": 69
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1584,7 +1882,14 @@ SINA.lectures["toxico-experimental"] = {
     "Fatal cardiac arrhythmias"
    ],
    "answer": 1,
-   "why": "It had not been tested for teratogenicity."
+   "why": "It had not been tested for teratogenicity.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-experimental/06.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Thalidomide is used today in:",
@@ -1595,7 +1900,14 @@ SINA.lectures["toxico-experimental"] = {
     "Type 2 diabetes mellitus"
    ],
    "answer": 1,
-   "why": "Thanks to its antiangiogenic action."
+   "why": "Thanks to its antiangiogenic action.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-experimental/08.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "LD₅₀ is:",
@@ -1606,7 +1918,14 @@ SINA.lectures["toxico-experimental"] = {
     "The maximum tolerated dose"
    ],
    "answer": 2,
-   "why": "After a single administration."
+   "why": "After a single administration.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-experimental/14.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "A lower LD₅₀ means a substance is:",
@@ -1617,7 +1936,19 @@ SINA.lectures["toxico-experimental"] = {
     "Not toxic"
    ],
    "answer": 2,
-   "why": "Botulinum toxin has an LD₅₀ of about 1 ng/kg."
+   "why": "Botulinum toxin has an LD₅₀ of about 1 ng/kg.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-experimental/27.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 27
+    },
+    {
+     "src": "files/slides/toxico-experimental/29.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "For inhalation toxicity, the parameter used is:",
@@ -1628,7 +1959,14 @@ SINA.lectures["toxico-experimental"] = {
     "LC₅₀"
    ],
    "answer": 3,
-   "why": "Expressed in mg/L or ppm."
+   "why": "Expressed in mg/L or ppm.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-experimental/24.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "How long are animals observed after a single-dose study?",
@@ -1639,7 +1977,14 @@ SINA.lectures["toxico-experimental"] = {
     "6 months"
    ],
    "answer": 0,
-   "why": "Clinical signs, weight, food, behaviour, mortality."
+   "why": "Clinical signs, weight, food, behaviour, mortality.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-experimental/19.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The 3Rs principle stands for:",
@@ -1650,7 +1995,14 @@ SINA.lectures["toxico-experimental"] = {
     "Replace, Reduce, Refine"
    ],
    "answer": 3,
-   "why": "The ethical framework for animal testing."
+   "why": "The ethical framework for animal testing.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-experimental/21.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "A subchronic repeated-dose study lasts:",
@@ -1661,7 +2013,14 @@ SINA.lectures["toxico-experimental"] = {
     "28 days"
    ],
    "answer": 1,
-   "why": "Subacute 28 days; chronic 6 months or more."
+   "why": "Subacute 28 days; chronic 6 months or more.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-experimental/35.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "The main output of repeated-dose studies used for risk assessment is:",
@@ -1672,7 +2031,19 @@ SINA.lectures["toxico-experimental"] = {
     "LC₅₀"
    ],
    "answer": 0,
-   "why": "The no observed adverse effect level."
+   "why": "The no observed adverse effect level.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-experimental/33.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 33
+    },
+    {
+     "src": "files/slides/toxico-experimental/37.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "The Ames test uses:",
@@ -1683,7 +2054,14 @@ SINA.lectures["toxico-experimental"] = {
     "Pregnant rabbits and rats"
    ],
    "answer": 1,
-   "why": "Mutagens cause reverse mutations to histidine independence."
+   "why": "Mutagens cause reverse mutations to histidine independence.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-experimental/43.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Why is S9 mix added in the Ames test?",
@@ -1694,7 +2072,19 @@ SINA.lectures["toxico-experimental"] = {
     "To simulate liver metabolic activation"
    ],
    "answer": 3,
-   "why": "Some substances are mutagenic only after metabolism."
+   "why": "Some substances are mutagenic only after metabolism.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-experimental/44.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 44
+    },
+    {
+     "src": "files/slides/toxico-experimental/50.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "A clastogenic effect is:",
@@ -1705,7 +2095,19 @@ SINA.lectures["toxico-experimental"] = {
     "A tumour"
    ],
    "answer": 0,
-   "why": "Aneugenic effects change chromosome number."
+   "why": "Aneugenic effects change chromosome number.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-experimental/41.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 41
+    },
+    {
+     "src": "files/slides/toxico-experimental/56.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "The micronucleus test detects:",
@@ -1716,7 +2118,14 @@ SINA.lectures["toxico-experimental"] = {
     "Clastogenic and aneugenic effects"
    ],
    "answer": 3,
-   "why": "Micronuclei come from fragments or lagging chromosomes."
+   "why": "Micronuclei come from fragments or lagging chromosomes.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-experimental/56.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "In the chromosomal aberration test, colchicine is used to:",
@@ -1727,7 +2136,14 @@ SINA.lectures["toxico-experimental"] = {
     "Kill cells"
    ],
    "answer": 0,
-   "why": "Chromosomes are then analysed microscopically."
+   "why": "Chromosomes are then analysed microscopically.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-experimental/53.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "Which IARC group contains tobacco smoke and asbestos?",
@@ -1738,7 +2154,14 @@ SINA.lectures["toxico-experimental"] = {
     "Group 3"
    ],
    "answer": 0,
-   "why": "Carcinogenic to humans."
+   "why": "Carcinogenic to humans.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-experimental/63.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 63
+    }
+   ]
   },
   {
    "q": "How long do rodent carcinogenicity studies last?",
@@ -1749,7 +2172,14 @@ SINA.lectures["toxico-experimental"] = {
     "18 to 24 months"
    ],
    "answer": 3,
-   "why": "Roughly the rodent lifetime."
+   "why": "Roughly the rodent lifetime.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-experimental/64.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 64
+    }
+   ]
   },
   {
    "q": "Which OECD guideline covers embryo-fetal development (teratogenicity)?",
@@ -1760,7 +2190,19 @@ SINA.lectures["toxico-experimental"] = {
     "TG 471"
    ],
    "answer": 0,
-   "why": "TG 471 is the Ames test."
+   "why": "TG 471 is the Ames test.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-experimental/46.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 46
+    },
+    {
+     "src": "files/slides/toxico-experimental/69.jpg",
+     "lec": "Experimental (preclinical) toxicology",
+     "n": 69
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2234,7 +2676,19 @@ SINA.lectures["toxico-systemic"] = {
     "Bound to CO"
    ],
    "answer": 1,
-   "why": "Ferric iron cannot bind oxygen."
+   "why": "Ferric iron cannot bind oxygen.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/12.jpg",
+     "lec": "Systemic toxicology",
+     "n": 12
+    },
+    {
+     "src": "files/slides/toxico-systemic/24.jpg",
+     "lec": "Systemic toxicology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which is a classic sign of methaemoglobinaemia?",
@@ -2245,7 +2699,19 @@ SINA.lectures["toxico-systemic"] = {
     "Chocolate-brown blood, O₂-resistant cyanosis"
    ],
    "answer": 3,
-   "why": "Pulse oximetry reads about 85%."
+   "why": "Pulse oximetry reads about 85%.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/17.jpg",
+     "lec": "Systemic toxicology",
+     "n": 17
+    },
+    {
+     "src": "files/slides/toxico-systemic/24.jpg",
+     "lec": "Systemic toxicology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which drug can cause methaemoglobinaemia?",
@@ -2256,7 +2722,14 @@ SINA.lectures["toxico-systemic"] = {
     "Benzocaine"
    ],
    "answer": 3,
-   "why": "Also dapsone, lidocaine, nitrates, sulphonamides."
+   "why": "Also dapsone, lidocaine, nitrates, sulphonamides.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/15.jpg",
+     "lec": "Systemic toxicology",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The first-line antidote for methaemoglobinaemia is:",
@@ -2267,7 +2740,14 @@ SINA.lectures["toxico-systemic"] = {
     "Vitamin K"
    ],
    "answer": 0,
-   "why": "1-2 mg/kg IV over 5 minutes."
+   "why": "1-2 mg/kg IV over 5 minutes.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/18.jpg",
+     "lec": "Systemic toxicology",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Methylene blue is contraindicated in:",
@@ -2278,7 +2758,19 @@ SINA.lectures["toxico-systemic"] = {
     "Pregnancy only"
    ],
    "answer": 0,
-   "why": "Risk of haemolysis."
+   "why": "Risk of haemolysis.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/18.jpg",
+     "lec": "Systemic toxicology",
+     "n": 18
+    },
+    {
+     "src": "files/slides/toxico-systemic/19.jpg",
+     "lec": "Systemic toxicology",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "In CO poisoning, pulse oximetry is:",
@@ -2289,7 +2781,14 @@ SINA.lectures["toxico-systemic"] = {
     "Falsely normal"
    ],
    "answer": 3,
-   "why": "It cannot distinguish COHb from oxyhaemoglobin."
+   "why": "It cannot distinguish COHb from oxyhaemoglobin.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/24.jpg",
+     "lec": "Systemic toxicology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "What is the COHb half-life on 100% oxygen?",
@@ -2300,7 +2799,14 @@ SINA.lectures["toxico-systemic"] = {
     "5 minutes"
    ],
    "answer": 1,
-   "why": "About 4-6 hours on room air."
+   "why": "About 4-6 hours on room air.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/23.jpg",
+     "lec": "Systemic toxicology",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Hyperbaric oxygen is indicated in a pregnant woman when COHb exceeds:",
@@ -2311,7 +2817,14 @@ SINA.lectures["toxico-systemic"] = {
     "15%"
    ],
    "answer": 3,
-   "why": "Over 25% in other adults."
+   "why": "Over 25% in other adults.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/23.jpg",
+     "lec": "Systemic toxicology",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which solvent is metabolised to CO?",
@@ -2322,7 +2835,14 @@ SINA.lectures["toxico-systemic"] = {
     "Benzene"
    ],
    "answer": 2,
-   "why": "Found in paint strippers."
+   "why": "Found in paint strippers.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/21.jpg",
+     "lec": "Systemic toxicology",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Basophilic stippling with microcytic anaemia suggests:",
@@ -2333,7 +2853,14 @@ SINA.lectures["toxico-systemic"] = {
     "B12 deficiency"
    ],
    "answer": 1,
-   "why": "Lead inhibits δ-ALA dehydratase and ferrochelatase."
+   "why": "Lead inhibits δ-ALA dehydratase and ferrochelatase.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/28.jpg",
+     "lec": "Systemic toxicology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Nitrous oxide abuse causes which anaemia?",
@@ -2344,7 +2871,14 @@ SINA.lectures["toxico-systemic"] = {
     "Aplastic (marrow failure)"
    ],
    "answer": 2,
-   "why": "MCV above 100 fL."
+   "why": "MCV above 100 fL.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/29.jpg",
+     "lec": "Systemic toxicology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Bite cells and Heinz bodies point to:",
@@ -2355,7 +2889,14 @@ SINA.lectures["toxico-systemic"] = {
     "Lead poisoning"
    ],
    "answer": 1,
-   "why": "Oxidative damage to red cells."
+   "why": "Oxidative damage to red cells.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/30.jpg",
+     "lec": "Systemic toxicology",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which is a classic trigger of favism?",
@@ -2366,7 +2907,14 @@ SINA.lectures["toxico-systemic"] = {
     "Milk"
    ],
    "answer": 0,
-   "why": "G6PD deficiency."
+   "why": "G6PD deficiency.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/31.jpg",
+     "lec": "Systemic toxicology",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Which antipsychotic causes agranulocytosis?",
@@ -2377,7 +2925,14 @@ SINA.lectures["toxico-systemic"] = {
     "Olanzapine"
    ],
    "answer": 1,
-   "why": "Neutrophils under 500/µL."
+   "why": "Neutrophils under 500/µL.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/37.jpg",
+     "lec": "Systemic toxicology",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Chloramphenicol is classically associated with:",
@@ -2388,7 +2943,14 @@ SINA.lectures["toxico-systemic"] = {
     "Polycythaemia"
    ],
    "answer": 2,
-   "why": "A cause of toxic pancytopenia."
+   "why": "A cause of toxic pancytopenia.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/43.jpg",
+     "lec": "Systemic toxicology",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Aspirin causes platelet dysfunction by:",
@@ -2399,7 +2961,14 @@ SINA.lectures["toxico-systemic"] = {
     "Irreversible COX-1 inhibition"
    ],
    "answer": 3,
-   "why": "Clopidogrel blocks ADP receptors."
+   "why": "Clopidogrel blocks ADP receptors.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/40.jpg",
+     "lec": "Systemic toxicology",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Warfarin and anticoagulant rodenticides act by:",
@@ -2410,7 +2979,14 @@ SINA.lectures["toxico-systemic"] = {
     "Activating plasmin"
    ],
    "answer": 0,
-   "why": "Factors II, VII, IX and X fall."
+   "why": "Factors II, VII, IX and X fall.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/47.jpg",
+     "lec": "Systemic toxicology",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "Which toxicant causes a high anion gap acidosis with visual disturbances?",
@@ -2421,7 +2997,14 @@ SINA.lectures["toxico-systemic"] = {
     "Ammonium chloride"
    ],
    "answer": 0,
-   "why": "Via formic acid."
+   "why": "Via formic acid.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/62.jpg",
+     "lec": "Systemic toxicology",
+     "n": 62
+    }
+   ]
   },
   {
    "q": "Ethylene glycol poisoning features:",
@@ -2432,7 +3015,14 @@ SINA.lectures["toxico-systemic"] = {
     "A normal anion gap acidosis"
    ],
    "answer": 1,
-   "why": "Via glycolic and oxalic acids."
+   "why": "Via glycolic and oxalic acids.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/62.jpg",
+     "lec": "Systemic toxicology",
+     "n": 62
+    }
+   ]
   },
   {
    "q": "Which toxicant gives a normal anion gap acidosis?",
@@ -2443,7 +3033,14 @@ SINA.lectures["toxico-systemic"] = {
     "Cyanide"
    ],
    "answer": 0,
-   "why": "Via renal tubular acidosis."
+   "why": "Via renal tubular acidosis.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/63.jpg",
+     "lec": "Systemic toxicology",
+     "n": 63
+    }
+   ]
   },
   {
    "q": "Early salicylate poisoning typically causes:",
@@ -2454,7 +3051,14 @@ SINA.lectures["toxico-systemic"] = {
     "Respiratory alkalosis (low PCO₂)"
    ],
    "answer": 3,
-   "why": "Later a high anion gap metabolic acidosis."
+   "why": "Later a high anion gap metabolic acidosis.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/62.jpg",
+     "lec": "Systemic toxicology",
+     "n": 62
+    }
+   ]
   },
   {
    "q": "Which CK level suggests rhabdomyolysis?",
@@ -2465,7 +3069,14 @@ SINA.lectures["toxico-systemic"] = {
     "Normal"
    ],
    "answer": 2,
-   "why": "With myoglobinuria and dark urine."
+   "why": "With myoglobinuria and dark urine.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/68.jpg",
+     "lec": "Systemic toxicology",
+     "n": 68
+    }
+   ]
   },
   {
    "q": "The key treatment of toxic rhabdomyolysis is:",
@@ -2476,7 +3087,14 @@ SINA.lectures["toxico-systemic"] = {
     "Aggressive IV fluids, high urine output"
    ],
    "answer": 3,
-   "why": "Sometimes with urine alkalinisation."
+   "why": "Sometimes with urine alkalinisation.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/69.jpg",
+     "lec": "Systemic toxicology",
+     "n": 69
+    }
+   ]
   },
   {
    "q": "Statins can cause:",
@@ -2487,7 +3105,14 @@ SINA.lectures["toxico-systemic"] = {
     "Methaemoglobinaemia"
    ],
    "answer": 2,
-   "why": "By disrupting muscle metabolism."
+   "why": "By disrupting muscle metabolism.",
+   "slides": [
+    {
+     "src": "files/slides/toxico-systemic/70.jpg",
+     "lec": "Systemic toxicology",
+     "n": 70
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

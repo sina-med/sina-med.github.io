@@ -198,7 +198,14 @@ SINA.lectures["chem1-matter"] = {
     "The distribution of its electrons"
    ],
    "answer": 3,
-   "why": "The nucleus is tiny."
+   "why": "The nucleus is tiny.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-matter/04.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Where is almost all the mass of an atom?",
@@ -209,7 +216,19 @@ SINA.lectures["chem1-matter"] = {
     "Electron cloud"
    ],
    "answer": 2,
-   "why": "Protons and neutrons are ~1,800 times heavier than electrons."
+   "why": "Protons and neutrons are ~1,800 times heavier than electrons.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-matter/05.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 5
+    },
+    {
+     "src": "files/slides/chem1-matter/06.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The charge of an electron is:",
@@ -220,7 +239,14 @@ SINA.lectures["chem1-matter"] = {
     "−1.602×10⁻¹⁹ C"
    ],
    "answer": 3,
-   "why": "9.109×10⁻³¹ kg is its mass."
+   "why": "9.109×10⁻³¹ kg is its mass.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-matter/07.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The proton mass is about how many electron masses?",
@@ -231,7 +257,19 @@ SINA.lectures["chem1-matter"] = {
     "18"
    ],
    "answer": 2,
-   "why": "The neutron is 1839."
+   "why": "The neutron is 1839.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-matter/08.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 8
+    },
+    {
+     "src": "files/slides/chem1-matter/17.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Z represents:",
@@ -242,7 +280,19 @@ SINA.lectures["chem1-matter"] = {
     "Number of neutrons"
    ],
    "answer": 0,
-   "why": "It defines the element."
+   "why": "It defines the element.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-matter/09.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 9
+    },
+    {
+     "src": "files/slides/chem1-matter/11.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "For ²³Na (Z = 11), the number of neutrons is:",
@@ -253,7 +303,14 @@ SINA.lectures["chem1-matter"] = {
     "34"
    ],
    "answer": 1,
-   "why": "N = A − Z = 23 − 11."
+   "why": "N = A − Z = 23 − 11.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-matter/14.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Isotopes of an element have:",
@@ -264,7 +321,14 @@ SINA.lectures["chem1-matter"] = {
     "Different Z"
    ],
    "answer": 1,
-   "why": "Different numbers of neutrons."
+   "why": "Different numbers of neutrons.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-matter/11.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Avogadro's number is about:",
@@ -275,7 +339,19 @@ SINA.lectures["chem1-matter"] = {
     "6.02×10²³"
    ],
    "answer": 3,
-   "why": "Atoms in one mole."
+   "why": "Atoms in one mole.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-matter/12.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 12
+    },
+    {
+     "src": "files/slides/chem1-matter/14.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "By definition, 1 atomic mass unit equals:",
@@ -286,7 +362,19 @@ SINA.lectures["chem1-matter"] = {
     "1 gram"
    ],
    "answer": 1,
-   "why": "≈ 1.66×10⁻²⁴ g."
+   "why": "≈ 1.66×10⁻²⁴ g.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-matter/13.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 13
+    },
+    {
+     "src": "files/slides/chem1-matter/14.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "One mole of carbon-12 weighs:",
@@ -297,7 +385,14 @@ SINA.lectures["chem1-matter"] = {
     "1 g"
    ],
    "answer": 0,
-   "why": "So 1 u = 1/Nₐ g."
+   "why": "So 1 u = 1/Nₐ g.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-matter/14.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "To find the mass of one atom:",
@@ -308,7 +403,14 @@ SINA.lectures["chem1-matter"] = {
     "Multiply molar mass by Nₐ"
    ],
    "answer": 0,
-   "why": "m = M / Nₐ."
+   "why": "m = M / Nₐ.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-matter/14.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The mass defect of a nucleus is:",
@@ -319,7 +421,14 @@ SINA.lectures["chem1-matter"] = {
     "Missing nucleon mass"
    ],
    "answer": 3,
-   "why": "The real nucleus is lighter."
+   "why": "The real nucleus is lighter.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-matter/08.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The binding energy is calculated by:",
@@ -330,7 +439,14 @@ SINA.lectures["chem1-matter"] = {
     "ΔE = Δm·c²"
    ],
    "answer": 3,
-   "why": "Einstein's relation."
+   "why": "Einstein's relation.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-matter/17.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The neutron is:",
@@ -341,7 +457,19 @@ SINA.lectures["chem1-matter"] = {
     "Negative"
    ],
    "answer": 0,
-   "why": "Slightly heavier than the proton."
+   "why": "Slightly heavier than the proton.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-matter/06.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 6
+    },
+    {
+     "src": "files/slides/chem1-matter/08.jpg",
+     "lec": "Structure of matter: the atom and its",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -744,7 +872,14 @@ SINA.lectures["chem1-bohr"] = {
     "In a tiny positive nucleus"
    ],
    "answer": 3,
-   "why": "Electrons orbit around it."
+   "why": "Electrons orbit around it.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bohr/06.jpg",
+     "lec": "Models of the atom: Rutherford,",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "What holds electrons around the nucleus in Rutherford's model?",
@@ -755,7 +890,19 @@ SINA.lectures["chem1-bohr"] = {
     "Nuclear force"
    ],
    "answer": 2,
-   "why": "Balanced by the centrifugal effect."
+   "why": "Balanced by the centrifugal effect.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bohr/06.jpg",
+     "lec": "Models of the atom: Rutherford,",
+     "n": 6
+    },
+    {
+     "src": "files/slides/chem1-bohr/07.jpg",
+     "lec": "Models of the atom: Rutherford,",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The hydrogen emission spectrum is:",
@@ -766,7 +913,19 @@ SINA.lectures["chem1-bohr"] = {
     "Only infrared"
    ],
    "answer": 0,
-   "why": "Evidence of quantised energy."
+   "why": "Evidence of quantised energy.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bohr/09.jpg",
+     "lec": "Models of the atom: Rutherford,",
+     "n": 9
+    },
+    {
+     "src": "files/slides/chem1-bohr/11.jpg",
+     "lec": "Models of the atom: Rutherford,",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The four visible lines of hydrogen form the:",
@@ -777,7 +936,14 @@ SINA.lectures["chem1-bohr"] = {
     "Lyman series"
    ],
    "answer": 2,
-   "why": "Ending on n = 2."
+   "why": "Ending on n = 2.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bohr/09.jpg",
+     "lec": "Models of the atom: Rutherford,",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Why did Rutherford's model fail?",
@@ -788,7 +954,14 @@ SINA.lectures["chem1-bohr"] = {
     "It ignored protons"
    ],
    "answer": 0,
-   "why": "And give a continuous spectrum."
+   "why": "And give a continuous spectrum.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bohr/10.jpg",
+     "lec": "Models of the atom: Rutherford,",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The energy of a quantum is:",
@@ -799,7 +972,14 @@ SINA.lectures["chem1-bohr"] = {
     "ΔE = mc²"
    ],
    "answer": 1,
-   "why": "Planck-Einstein."
+   "why": "Planck-Einstein.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bohr/11.jpg",
+     "lec": "Models of the atom: Rutherford,",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "When an atom absorbs a photon of frequency ν:",
@@ -810,7 +990,14 @@ SINA.lectures["chem1-bohr"] = {
     "E = 0"
    ],
    "answer": 2,
-   "why": "It becomes excited."
+   "why": "It becomes excited.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bohr/13.jpg",
+     "lec": "Models of the atom: Rutherford,",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Bohr's first postulate states that electrons move on:",
@@ -821,7 +1008,14 @@ SINA.lectures["chem1-bohr"] = {
     "Quantised stationary orbits"
    ],
    "answer": 3,
-   "why": "Mechanical postulate."
+   "why": "Mechanical postulate.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bohr/13.jpg",
+     "lec": "Models of the atom: Rutherford,",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The ground state of hydrogen corresponds to:",
@@ -843,7 +1037,14 @@ SINA.lectures["chem1-bohr"] = {
     "mvr = h·ν"
    ],
    "answer": 0,
-   "why": "n is the principal quantum number."
+   "why": "n is the principal quantum number.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bohr/14.jpg",
+     "lec": "Models of the atom: Rutherford,",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The energy of hydrogen's level n is:",
@@ -854,7 +1055,14 @@ SINA.lectures["chem1-bohr"] = {
     "−13.6·n eV"
    ],
    "answer": 0,
-   "why": "Ground state −13.6 eV."
+   "why": "Ground state −13.6 eV.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bohr/13.jpg",
+     "lec": "Models of the atom: Rutherford,",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The ionisation energy of hydrogen is:",
@@ -1329,7 +1537,14 @@ SINA.lectures["chem1-quantum"] = {
     "λ = h / (m·v)"
    ],
    "answer": 3,
-   "why": "Matter waves."
+   "why": "Matter waves.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-quantum/02.jpg",
+     "lec": "Quantum mechanics, quantum numbers",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Heisenberg's principle states that we cannot know precisely both:",
@@ -1340,7 +1555,19 @@ SINA.lectures["chem1-quantum"] = {
     "Energy and time only"
    ],
    "answer": 2,
-   "why": "Δx·Δp ≥ h/2π."
+   "why": "Δx·Δp ≥ h/2π.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-quantum/02.jpg",
+     "lec": "Quantum mechanics, quantum numbers",
+     "n": 2
+    },
+    {
+     "src": "files/slides/chem1-quantum/03.jpg",
+     "lec": "Quantum mechanics, quantum numbers",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "In quantum mechanics, the electron's trajectory is replaced by:",
@@ -1351,7 +1578,14 @@ SINA.lectures["chem1-quantum"] = {
     "A probability of presence"
    ],
    "answer": 3,
-   "why": "Described by ψ."
+   "why": "Described by ψ.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-quantum/03.jpg",
+     "lec": "Quantum mechanics, quantum numbers",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "ψ² is proportional to:",
@@ -1362,7 +1596,14 @@ SINA.lectures["chem1-quantum"] = {
     "The nuclear charge"
    ],
    "answer": 2,
-   "why": "It defines the orbital."
+   "why": "It defines the orbital.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-quantum/04.jpg",
+     "lec": "Quantum mechanics, quantum numbers",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The principal quantum number n can be:",
@@ -1373,7 +1614,14 @@ SINA.lectures["chem1-quantum"] = {
     "Half-integer"
    ],
    "answer": 0,
-   "why": "n = 1 is the innermost shell."
+   "why": "n = 1 is the innermost shell.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-quantum/06.jpg",
+     "lec": "Quantum mechanics, quantum numbers",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "For n = 3, the possible l values are:",
@@ -1384,7 +1632,19 @@ SINA.lectures["chem1-quantum"] = {
     "1, 2, 3"
    ],
    "answer": 1,
-   "why": "3s, 3p, 3d."
+   "why": "3s, 3p, 3d.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-quantum/09.jpg",
+     "lec": "Quantum mechanics, quantum numbers",
+     "n": 9
+    },
+    {
+     "src": "files/slides/chem1-quantum/13.jpg",
+     "lec": "Quantum mechanics, quantum numbers",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which subshell does not exist?",
@@ -1417,7 +1677,14 @@ SINA.lectures["chem1-quantum"] = {
     "1 to 7"
    ],
    "answer": 1,
-   "why": "2l + 1 = 7 orbitals."
+   "why": "2l + 1 = 7 orbitals.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-quantum/17.jpg",
+     "lec": "Quantum mechanics, quantum numbers",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "How many orbitals are in a d subshell?",
@@ -1428,7 +1695,14 @@ SINA.lectures["chem1-quantum"] = {
     "7"
    ],
    "answer": 0,
-   "why": "2l + 1 with l = 2."
+   "why": "2l + 1 with l = 2.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-quantum/17.jpg",
+     "lec": "Quantum mechanics, quantum numbers",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "How many electrons can the 4f subshell hold?",
@@ -1439,7 +1713,14 @@ SINA.lectures["chem1-quantum"] = {
     "18"
    ],
    "answer": 0,
-   "why": "7 orbitals × 2."
+   "why": "7 orbitals × 2.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-quantum/17.jpg",
+     "lec": "Quantum mechanics, quantum numbers",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The spin quantum number can be:",
@@ -1450,7 +1731,14 @@ SINA.lectures["chem1-quantum"] = {
     "+½ or −½"
    ],
    "answer": 3,
-   "why": "Spin up or down."
+   "why": "Spin up or down.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-quantum/15.jpg",
+     "lec": "Quantum mechanics, quantum numbers",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "How many orbitals are there for l = 4?",
@@ -1461,7 +1749,14 @@ SINA.lectures["chem1-quantum"] = {
     "9"
    ],
    "answer": 3,
-   "why": "(2×4) + 1."
+   "why": "(2×4) + 1.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-quantum/17.jpg",
+     "lec": "Quantum mechanics, quantum numbers",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The rule that no two electrons in an atom share all four quantum numbers is:",
@@ -1472,7 +1767,14 @@ SINA.lectures["chem1-quantum"] = {
     "Heisenberg's principle"
    ],
    "answer": 0,
-   "why": "Hence max 2 electrons of opposite spin per orbital."
+   "why": "Hence max 2 electrons of opposite spin per orbital.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-quantum/05.jpg",
+     "lec": "Quantum mechanics, quantum numbers",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1938,7 +2240,14 @@ SINA.lectures["chem1-configuration"] = {
     "n = 3"
    ],
    "answer": 3,
-   "why": "Five d orbitals."
+   "why": "Five d orbitals.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-configuration/08.jpg",
+     "lec": "Atomic orbitals and electron",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "How many orbitals are in the n = 3 level?",
@@ -1949,7 +2258,19 @@ SINA.lectures["chem1-configuration"] = {
     "4"
    ],
    "answer": 2,
-   "why": "n² = 9: one 3s, three 3p, five 3d."
+   "why": "n² = 9: one 3s, three 3p, five 3d.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-configuration/05.jpg",
+     "lec": "Atomic orbitals and electron",
+     "n": 5
+    },
+    {
+     "src": "files/slides/chem1-configuration/08.jpg",
+     "lec": "Atomic orbitals and electron",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The maximum number of electrons in shell n is:",
@@ -1971,7 +2292,14 @@ SINA.lectures["chem1-configuration"] = {
     "1s² 2s⁸ 3s¹"
    ],
    "answer": 1,
-   "why": "One valence electron."
+   "why": "One valence electron.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-configuration/10.jpg",
+     "lec": "Atomic orbitals and electron",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "'1s²' is read as:",
@@ -1982,7 +2310,19 @@ SINA.lectures["chem1-configuration"] = {
     "One squared s"
    ],
    "answer": 1,
-   "why": "The superscript counts electrons."
+   "why": "The superscript counts electrons.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-configuration/07.jpg",
+     "lec": "Atomic orbitals and electron",
+     "n": 7
+    },
+    {
+     "src": "files/slides/chem1-configuration/14.jpg",
+     "lec": "Atomic orbitals and electron",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "According to the Aufbau principle, which fills first?",
@@ -1993,7 +2333,14 @@ SINA.lectures["chem1-configuration"] = {
     "4s"
    ],
    "answer": 3,
-   "why": "4s has lower n + l (4) than 3d (5)."
+   "why": "4s has lower n + l (4) than 3d (5).",
+   "slides": [
+    {
+     "src": "files/slides/chem1-configuration/15.jpg",
+     "lec": "Atomic orbitals and electron",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Orbital energy order in the Aufbau rule follows:",
@@ -2004,7 +2351,14 @@ SINA.lectures["chem1-configuration"] = {
     "l only"
    ],
    "answer": 1,
-   "why": "Lower n first when n + l is equal."
+   "why": "Lower n first when n + l is equal.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-configuration/15.jpg",
+     "lec": "Atomic orbitals and electron",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which elements are classic exceptions to the Aufbau order?",
@@ -2015,7 +2369,14 @@ SINA.lectures["chem1-configuration"] = {
     "Na and Mg"
    ],
    "answer": 0,
-   "why": "Half-filled or full d subshells."
+   "why": "Half-filled or full d subshells.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-configuration/17.jpg",
+     "lec": "Atomic orbitals and electron",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The Pauli exclusion principle limits each orbital to:",
@@ -2026,7 +2387,14 @@ SINA.lectures["chem1-configuration"] = {
     "1 electron"
    ],
    "answer": 0,
-   "why": "No two share all four numbers."
+   "why": "No two share all four numbers.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-configuration/18.jpg",
+     "lec": "Atomic orbitals and electron",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Hund's rule states that in a subshell electrons:",
@@ -2037,7 +2405,14 @@ SINA.lectures["chem1-configuration"] = {
     "Fill singly, parallel spins"
    ],
    "answer": 3,
-   "why": "Maximum multiplicity."
+   "why": "Maximum multiplicity.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-configuration/18.jpg",
+     "lec": "Atomic orbitals and electron",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "How many unpaired electrons does nitrogen (1s² 2s² 2p³) have?",
@@ -2059,7 +2434,14 @@ SINA.lectures["chem1-configuration"] = {
     "1s² 2s² 2p⁶ 3s¹ 3p¹"
    ],
    "answer": 0,
-   "why": "Two valence electrons."
+   "why": "Two valence electrons.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-configuration/10.jpg",
+     "lec": "Atomic orbitals and electron",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2464,7 +2846,14 @@ SINA.lectures["chem1-periodic"] = {
     "118"
    ],
    "answer": 3,
-   "why": "Some are man-made."
+   "why": "Some are man-made.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-periodic/04.jpg",
+     "lec": "The periodic table",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which metal is liquid at normal temperature?",
@@ -2475,7 +2864,14 @@ SINA.lectures["chem1-periodic"] = {
     "Sodium"
    ],
    "answer": 2,
-   "why": "All other metals are solid."
+   "why": "All other metals are solid.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-periodic/06.jpg",
+     "lec": "The periodic table",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "'Ductile' means a metal can be:",
@@ -2486,7 +2882,14 @@ SINA.lectures["chem1-periodic"] = {
     "Stretched without breaking"
    ],
    "answer": 3,
-   "why": "Malleable = can be rolled or crushed."
+   "why": "Malleable = can be rolled or crushed.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-periodic/08.jpg",
+     "lec": "The periodic table",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Metals form:",
@@ -2497,7 +2900,14 @@ SINA.lectures["chem1-periodic"] = {
     "Diatomic gases"
    ],
    "answer": 2,
-   "why": "They are electron donors."
+   "why": "They are electron donors.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-periodic/08.jpg",
+     "lec": "The periodic table",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Metalloids are characterised by:",
@@ -2508,7 +2918,14 @@ SINA.lectures["chem1-periodic"] = {
     "Resistance rising with temperature"
    ],
    "answer": 0,
-   "why": "Resistance falls with temperature."
+   "why": "Resistance falls with temperature.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-periodic/10.jpg",
+     "lec": "The periodic table",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The modern periodic table orders elements by:",
@@ -2519,7 +2936,14 @@ SINA.lectures["chem1-periodic"] = {
     "Density"
    ],
    "answer": 1,
-   "why": "Following Klechkowski's rule."
+   "why": "Following Klechkowski's rule.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-periodic/12.jpg",
+     "lec": "The periodic table",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "How many periods and columns does the periodic table have?",
@@ -2530,7 +2954,14 @@ SINA.lectures["chem1-periodic"] = {
     "8 and 16"
    ],
    "answer": 1,
-   "why": "Periods = shells."
+   "why": "Periods = shells.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-periodic/13.jpg",
+     "lec": "The periodic table",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Elements in the same column share:",
@@ -2541,7 +2972,19 @@ SINA.lectures["chem1-periodic"] = {
     "Outer configuration"
    ],
    "answer": 3,
-   "why": "Hence similar properties."
+   "why": "Hence similar properties.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-periodic/12.jpg",
+     "lec": "The periodic table",
+     "n": 12
+    },
+    {
+     "src": "files/slides/chem1-periodic/13.jpg",
+     "lec": "The periodic table",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Scandium (1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹) belongs to the:",
@@ -2552,7 +2995,14 @@ SINA.lectures["chem1-periodic"] = {
     "p block"
    ],
    "answer": 1,
-   "why": "Outer ns² (n−1)d¹."
+   "why": "Outer ns² (n−1)d¹.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-periodic/17.jpg",
+     "lec": "The periodic table",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Alkali metals have outer configuration:",
@@ -2563,7 +3013,14 @@ SINA.lectures["chem1-periodic"] = {
     "ns² np⁶"
    ],
    "answer": 0,
-   "why": "Li, Na, K…"
+   "why": "Li, Na, K…",
+   "slides": [
+    {
+     "src": "files/slides/chem1-periodic/20.jpg",
+     "lec": "The periodic table",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Alkali metal oxides react with water to give:",
@@ -2574,7 +3031,14 @@ SINA.lectures["chem1-periodic"] = {
     "Strong acids"
    ],
    "answer": 0,
-   "why": "E.g. NaOH."
+   "why": "E.g. NaOH.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-periodic/20.jpg",
+     "lec": "The periodic table",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Halogens usually have oxidation state:",
@@ -2585,7 +3049,14 @@ SINA.lectures["chem1-periodic"] = {
     "−1"
    ],
    "answer": 3,
-   "why": "They gain one electron."
+   "why": "They gain one electron.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-periodic/25.jpg",
+     "lec": "The periodic table",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Chalcogens (O, S, Se) tend to:",
@@ -2596,7 +3067,19 @@ SINA.lectures["chem1-periodic"] = {
     "Gain 2 electrons"
    ],
    "answer": 3,
-   "why": "Oxidation state −2."
+   "why": "Oxidation state −2.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-periodic/24.jpg",
+     "lec": "The periodic table",
+     "n": 24
+    },
+    {
+     "src": "files/slides/chem1-periodic/25.jpg",
+     "lec": "The periodic table",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Transition metals are known for:",
@@ -2607,7 +3090,14 @@ SINA.lectures["chem1-periodic"] = {
     "ns¹ configuration only"
    ],
    "answer": 0,
-   "why": "Three series of 10."
+   "why": "Three series of 10.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-periodic/32.jpg",
+     "lec": "The periodic table",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3040,7 +3530,14 @@ SINA.lectures["chem1-bonds"] = {
     "Lowers the overall energy"
    ],
    "answer": 3,
-   "why": "Stability comes from energy loss."
+   "why": "Stability comes from energy loss.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bonds/36.jpg",
+     "lec": "Chemical bonds",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "In Lewis theory, the kernel is:",
@@ -3051,7 +3548,14 @@ SINA.lectures["chem1-bonds"] = {
     "The valence shell"
    ],
    "answer": 2,
-   "why": "The outer shell holds up to 8 electrons."
+   "why": "The outer shell holds up to 8 electrons.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bonds/37.jpg",
+     "lec": "Chemical bonds",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which electrons form chemical bonds?",
@@ -3062,7 +3566,19 @@ SINA.lectures["chem1-bonds"] = {
     "Nuclear particles"
    ],
    "answer": 0,
-   "why": "Shown as dots in Lewis symbols."
+   "why": "Shown as dots in Lewis symbols.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bonds/37.jpg",
+     "lec": "Chemical bonds",
+     "n": 37
+    },
+    {
+     "src": "files/slides/chem1-bonds/47.jpg",
+     "lec": "Chemical bonds",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "How many dots does oxygen's Lewis symbol have?",
@@ -3073,7 +3589,14 @@ SINA.lectures["chem1-bonds"] = {
     "8"
    ],
    "answer": 2,
-   "why": "Six valence electrons."
+   "why": "Six valence electrons.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bonds/38.jpg",
+     "lec": "Chemical bonds",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "The duet rule applies to:",
@@ -3084,7 +3607,14 @@ SINA.lectures["chem1-bonds"] = {
     "Carbon"
    ],
    "answer": 0,
-   "why": "It reaches the He structure."
+   "why": "It reaches the He structure.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bonds/50.jpg",
+     "lec": "Chemical bonds",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "A covalent bond is formed by:",
@@ -3095,7 +3625,14 @@ SINA.lectures["chem1-bonds"] = {
     "Attraction between ions"
    ],
    "answer": 1,
-   "why": "Typical of carbon compounds."
+   "why": "Typical of carbon compounds.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bonds/41.jpg",
+     "lec": "Chemical bonds",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "In a polar covalent bond:",
@@ -3106,7 +3643,14 @@ SINA.lectures["chem1-bonds"] = {
     "Ions are formed"
    ],
    "answer": 2,
-   "why": "Water is an example."
+   "why": "Water is an example.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bonds/42.jpg",
+     "lec": "Chemical bonds",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Compared with ionic and covalent bonds, hydrogen bonds are:",
@@ -3117,7 +3661,14 @@ SINA.lectures["chem1-bonds"] = {
     "Weaker"
    ],
    "answer": 3,
-   "why": "They shape water's properties."
+   "why": "They shape water's properties.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bonds/43.jpg",
+     "lec": "Chemical bonds",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "An ionic bond typically forms between:",
@@ -3128,7 +3679,14 @@ SINA.lectures["chem1-bonds"] = {
     "Two noble gases"
    ],
    "answer": 1,
-   "why": "E.g. NaCl, MgCl₂."
+   "why": "E.g. NaCl, MgCl₂.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bonds/45.jpg",
+     "lec": "Chemical bonds",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Which favours ionic bond formation?",
@@ -3139,7 +3697,14 @@ SINA.lectures["chem1-bonds"] = {
     "High ionisation energy of the metal"
    ],
    "answer": 0,
-   "why": "Plus high electron gain enthalpy of the anion-forming atom."
+   "why": "Plus high electron gain enthalpy of the anion-forming atom.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bonds/45.jpg",
+     "lec": "Chemical bonds",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "In a Lewis structure, the central atom is usually the:",
@@ -3150,7 +3715,14 @@ SINA.lectures["chem1-bonds"] = {
     "Most electronegative"
    ],
    "answer": 0,
-   "why": "H and F are terminal."
+   "why": "H and F are terminal.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bonds/48.jpg",
+     "lec": "Chemical bonds",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "How many valence electrons does CO have in total?",
@@ -3161,7 +3733,14 @@ SINA.lectures["chem1-bonds"] = {
     "10"
    ],
    "answer": 3,
-   "why": "4 (C) + 6 (O); triple bond."
+   "why": "4 (C) + 6 (O); triple bond.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bonds/49.jpg",
+     "lec": "Chemical bonds",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "In LCAO theory, combining 2 atomic orbitals gives:",
@@ -3172,7 +3751,14 @@ SINA.lectures["chem1-bonds"] = {
     "2 MOs"
    ],
    "answer": 3,
-   "why": "Number of MOs = number of AOs."
+   "why": "Number of MOs = number of AOs.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bonds/53.jpg",
+     "lec": "Chemical bonds",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "A π molecular orbital comes from:",
@@ -3183,7 +3769,19 @@ SINA.lectures["chem1-bonds"] = {
     "Nuclear fusion"
    ],
    "answer": 0,
-   "why": "σ comes from axial overlap."
+   "why": "σ comes from axial overlap.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bonds/55.jpg",
+     "lec": "Chemical bonds",
+     "n": 55
+    },
+    {
+     "src": "files/slides/chem1-bonds/56.jpg",
+     "lec": "Chemical bonds",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "The electron configuration of H₂ is:",
@@ -3194,7 +3792,19 @@ SINA.lectures["chem1-bonds"] = {
     "σ*1s²"
    ],
    "answer": 1,
-   "why": "Both electrons in the bonding MO."
+   "why": "Both electrons in the bonding MO.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-bonds/37.jpg",
+     "lec": "Chemical bonds",
+     "n": 37
+    },
+    {
+     "src": "files/slides/chem1-bonds/39.jpg",
+     "lec": "Chemical bonds",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3644,7 +4254,14 @@ SINA.lectures["chem1-solutions"] = {
     "Homogeneous mixture with particles < 1 nm"
    ],
    "answer": 3,
-   "why": "Single phase."
+   "why": "Single phase.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-solutions/04.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "In tincture of iodine, the solvent is:",
@@ -3655,7 +4272,14 @@ SINA.lectures["chem1-solutions"] = {
     "Water"
    ],
    "answer": 2,
-   "why": "Iodine is the solute."
+   "why": "Iodine is the solute.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-solutions/06.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "How many types of solutions exist by physical state?",
@@ -3666,7 +4290,14 @@ SINA.lectures["chem1-solutions"] = {
     "12"
    ],
    "answer": 1,
-   "why": "Any state as solute or solvent."
+   "why": "Any state as solute or solvent.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-solutions/07.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which property belongs to a true solution?",
@@ -3677,7 +4308,14 @@ SINA.lectures["chem1-solutions"] = {
     "Particles are visible"
    ],
    "answer": 2,
-   "why": "It is stable."
+   "why": "It is stable.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-solutions/09.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "For dilute aqueous solutions, 1 ppm equals:",
@@ -3699,7 +4337,19 @@ SINA.lectures["chem1-solutions"] = {
     "Grams per 100 mL"
    ],
    "answer": 1,
-   "why": "M = n/V."
+   "why": "M = n/V.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-solutions/14.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 14
+    },
+    {
+     "src": "files/slides/chem1-solutions/15.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which unit is independent of temperature?",
@@ -3710,7 +4360,14 @@ SINA.lectures["chem1-solutions"] = {
     "Molarity"
    ],
    "answer": 2,
-   "why": "Also mole fraction."
+   "why": "Also mole fraction.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-solutions/17.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The normality of 1 M H₂SO₄ is:",
@@ -3721,7 +4378,14 @@ SINA.lectures["chem1-solutions"] = {
     "2 N"
    ],
    "answer": 3,
-   "why": "Two H⁺ per molecule."
+   "why": "Two H⁺ per molecule.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-solutions/15.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "How much 2 M stock is needed to make 100 mL of 0.5 M solution?",
@@ -3732,7 +4396,19 @@ SINA.lectures["chem1-solutions"] = {
     "50 mL"
    ],
    "answer": 1,
-   "why": "M₁V₁ = M₂V₂: 2 × V = 0.5 × 100."
+   "why": "M₁V₁ = M₂V₂: 2 × V = 0.5 × 100.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-solutions/13.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 13
+    },
+    {
+     "src": "files/slides/chem1-solutions/14.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "When diluting a strong acid you should:",
@@ -3743,7 +4419,14 @@ SINA.lectures["chem1-solutions"] = {
     "Mix quickly with heat"
    ],
    "answer": 0,
-   "why": "The heat is absorbed by the water."
+   "why": "The heat is absorbed by the water.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-solutions/20.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "About what percentage of the human body is water?",
@@ -3754,7 +4437,14 @@ SINA.lectures["chem1-solutions"] = {
     "25%"
    ],
    "answer": 0,
-   "why": "About 45 L in a 70 kg person."
+   "why": "About 45 L in a 70 kg person.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-solutions/21.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which solute makes water conduct electricity?",
@@ -3765,7 +4455,14 @@ SINA.lectures["chem1-solutions"] = {
     "NaCl"
    ],
    "answer": 3,
-   "why": "It is an electrolyte."
+   "why": "It is an electrolyte.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-solutions/22.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "A supersaturated solution:",
@@ -3776,7 +4473,14 @@ SINA.lectures["chem1-solutions"] = {
     "Exceeds its solubility"
    ],
    "answer": 3,
-   "why": "E.g. a fizzy drink before going flat."
+   "why": "E.g. a fizzy drink before going flat.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-solutions/24.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "At 25 °C, Kw equals:",
@@ -3787,7 +4491,14 @@ SINA.lectures["chem1-solutions"] = {
     "10⁻⁷"
    ],
    "answer": 0,
-   "why": "[H₃O⁺][OH⁻]."
+   "why": "[H₃O⁺][OH⁻].",
+   "slides": [
+    {
+     "src": "files/slides/chem1-solutions/28.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "A solution with [H₃O⁺] = 10⁻⁴ M is:",
@@ -3798,7 +4509,19 @@ SINA.lectures["chem1-solutions"] = {
     "Basic"
    ],
    "answer": 1,
-   "why": "pH 4."
+   "why": "pH 4.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-solutions/50.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 50
+    },
+    {
+     "src": "files/slides/chem1-solutions/51.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "pH is defined as:",
@@ -3809,7 +4532,14 @@ SINA.lectures["chem1-solutions"] = {
     "−log[H₃O⁺]"
    ],
    "answer": 3,
-   "why": "Potential of hydrogen."
+   "why": "Potential of hydrogen.",
+   "slides": [
+    {
+     "src": "files/slides/chem1-solutions/32.jpg",
+     "lec": "Chemistry in solutions",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

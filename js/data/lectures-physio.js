@@ -381,7 +381,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "Hormones of the brain"
    ],
    "answer": 0,
-   "why": "Neurophysiology studies the functional properties of neurons, glia and networks."
+   "why": "Neurophysiology studies the functional properties of neurons, glia and networks.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/05.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which technique measures brain activity at the molar level?",
@@ -392,7 +399,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "Single-cell recording"
    ],
    "answer": 1,
-   "why": "Electrophysiology ranges from the molar (EEG) to the cellular (intracellular recording)."
+   "why": "Electrophysiology ranges from the molar (EEG) to the cellular (intracellular recording).",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/06.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "What makes up the CNS?",
@@ -403,7 +417,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "The sensory organs"
    ],
    "answer": 2,
-   "why": "The brain and spinal cord form the CNS; nerves, ganglia and sensory organs form the PNS."
+   "why": "The brain and spinal cord form the CNS; nerves, ganglia and sensory organs form the PNS.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/10.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What are the three functions of the nervous system?",
@@ -414,7 +435,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "Input, integration, output"
    ],
    "answer": 3,
-   "why": "The nervous system performs sensory input, integration and motor output."
+   "why": "The nervous system performs sensory input, integration and motor output.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/12.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which division is called the brain of the gut?",
@@ -425,7 +453,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "The spinal cord"
    ],
    "answer": 1,
-   "why": "The PNS has three parts: somatic (voluntary), autonomic (involuntary) and enteric (the brain of the gut)."
+   "why": "The PNS has three parts: somatic (voluntary), autonomic (involuntary) and enteric (the brain of the gut).",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/13.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "What separates the parietal and occipital lobes?",
@@ -436,7 +471,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "The parieto-occipital sulcus"
    ],
    "answer": 3,
-   "why": "Central sulcus: frontal from parietal. Lateral (Sylvian) fissure: temporal below. Parieto-occipital sulcus: parietal from occipital."
+   "why": "Central sulcus: frontal from parietal. Lateral (Sylvian) fissure: temporal below. Parieto-occipital sulcus: parietal from occipital.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/18.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which structure produces CSF?",
@@ -447,7 +489,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "The pia mater"
    ],
    "answer": 0,
-   "why": "CSF is made by the choroid plexus, a modified vascular structure in the ventricles."
+   "why": "CSF is made by the choroid plexus, a modified vascular structure in the ventricles.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/26.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Through which opening does CSF pass from the lateral to the third ventricle?",
@@ -458,7 +507,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "The central canal"
    ],
    "answer": 2,
-   "why": "Lateral ventricles, foramen of Monro, third ventricle, cerebral aqueduct, fourth ventricle, foramen of Magendie, subarachnoid space, arachnoid granulations, superior sagittal sinus."
+   "why": "Lateral ventricles, foramen of Monro, third ventricle, cerebral aqueduct, fourth ventricle, foramen of Magendie, subarachnoid space, arachnoid granulations, superior sagittal sinus.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/28.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Where is CSF reabsorbed into the blood?",
@@ -469,7 +525,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "Arachnoid granulations"
    ],
    "answer": 3,
-   "why": "CSF returns to the venous circulation through the arachnoid granulations into the superior sagittal sinus."
+   "why": "CSF returns to the venous circulation through the arachnoid granulations into the superior sagittal sinus.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/28.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "How much does CSF buoyancy reduce the brain's net weight?",
@@ -480,7 +543,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "It does not change it"
    ],
    "answer": 0,
-   "why": "Buoyancy cuts the net weight from about 1400 g to about 50 g, reducing pressure at the base of the brain."
+   "why": "Buoyancy cuts the net weight from about 1400 g to about 50 g, reducing pressure at the base of the brain.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/29.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "What is hydrocephalus?",
@@ -491,7 +561,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "Loss of the choroid plexus"
    ],
    "answer": 2,
-   "why": "It raises intracranial pressure; in childhood it can enlarge the head and cause convulsions, tunnel vision and mental disability."
+   "why": "It raises intracranial pressure; in childhood it can enlarge the head and cause convulsions, tunnel vision and mental disability.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/30.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which meningeal layer has spider-like trabeculae?",
@@ -502,7 +579,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "The ependymal layer"
    ],
    "answer": 1,
-   "why": "Dura outermost, arachnoid in the middle with its trabeculae, pia closely applied to the brain. Where they separate, cisterns of CSF form."
+   "why": "Dura outermost, arachnoid in the middle with its trabeculae, pia closely applied to the brain. Where they separate, cisterns of CSF form.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/27.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "What is the neurotransmitter at all autonomic ganglia?",
@@ -513,7 +597,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "Acetylcholine"
    ],
    "answer": 3,
-   "why": "ACh acts at all autonomic ganglia, on nicotinic receptors, in both divisions."
+   "why": "ACh acts at all autonomic ganglia, on nicotinic receptors, in both divisions.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/36.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Which receptor does ACh act on at parasympathetic targets?",
@@ -524,7 +615,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "Beta adrenergic"
    ],
    "answer": 2,
-   "why": "Parasympathetic postganglionic fibres release ACh onto muscarinic receptors, which are G-protein coupled."
+   "why": "Parasympathetic postganglionic fibres release ACh onto muscarinic receptors, which are G-protein coupled.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/37.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "What do most sympathetic postganglionic fibres release?",
@@ -535,7 +633,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "Serotonin"
    ],
    "answer": 0,
-   "why": "NE acts on alpha or beta adrenergic receptors. There are three exceptions."
+   "why": "NE acts on alpha or beta adrenergic receptors. There are three exceptions.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/38.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "What do the sympathetic fibres to sweat glands release?",
@@ -546,7 +651,19 @@ SINA.lectures["physio-intro-neuro"] = {
     "Adrenaline"
    ],
    "answer": 1,
-   "why": "They are sympathetic cholinergic neurons, the first exception."
+   "why": "They are sympathetic cholinergic neurons, the first exception.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/39.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 39
+    },
+    {
+     "src": "files/slides/physio-intro-neuro/40.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "What do sympathetic fibres to the renal vessels release?",
@@ -557,7 +674,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "Histamine"
    ],
    "answer": 2,
-   "why": "Postganglionic neurons to the renal vascular smooth muscle release dopamine, the second exception."
+   "why": "Postganglionic neurons to the renal vascular smooth muscle release dopamine, the second exception.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/40.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "In what ratio does the adrenal medulla release adrenaline and noradrenaline?",
@@ -568,7 +692,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "About 4 to 1"
    ],
    "answer": 3,
-   "why": "Preganglionic fibres synapse directly on the adrenal gland via nicotinic receptors, and it releases adrenaline and noradrenaline 4:1."
+   "why": "Preganglionic fibres synapse directly on the adrenal gland via nicotinic receptors, and it releases adrenaline and noradrenaline 4:1.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/40.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "What does the sympathetic system do to the bronchi?",
@@ -579,7 +710,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "Fills them with mucus"
    ],
    "answer": 1,
-   "why": "Sympathetic: pupils dilate, bronchi dilate, heart speeds up, gut slows, bladder sphincter contracts. Parasympathetic does the reverse."
+   "why": "Sympathetic: pupils dilate, bronchi dilate, heart speeds up, gut slows, bladder sphincter contracts. Parasympathetic does the reverse.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/31.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "What is a dermatome?",
@@ -590,7 +728,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "A type of skin receptor"
    ],
    "answer": 0,
-   "why": "A dermatome is an area of skin whose cutaneous fibres all track back to the same spinal level; its fibres may travel in different cutaneous nerves."
+   "why": "A dermatome is an area of skin whose cutaneous fibres all track back to the same spinal level; its fibres may travel in different cutaneous nerves.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/48.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "What is a myotome?",
@@ -601,7 +746,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "A group of tendons"
    ],
    "answer": 2,
-   "why": "Each set of spinal nerves innervates a set of muscles; testing them assesses nerve damage."
+   "why": "Each set of spinal nerves innervates a set of muscles; testing them assesses nerve damage.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/54.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "Which mechanoreceptor is slowly adapting and in the epidermis?",
@@ -612,7 +764,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "Free nerve endings"
    ],
    "answer": 0,
-   "why": "Merkel: slowly adapting, about 25%, the only epidermal ones. Meissner: rapidly adapting, about 40%. Pacinian: rapidly adapting, deep, 10 to 15%. Ruffini: slowly adapting, deep."
+   "why": "Merkel: slowly adapting, about 25%, the only epidermal ones. Meissner: rapidly adapting, about 40%. Pacinian: rapidly adapting, deep, 10 to 15%. Ruffini: slowly adapting, deep.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/50.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "Which fibres carry second (burning) pain?",
@@ -623,7 +782,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "C fibres"
    ],
    "answer": 3,
-   "why": "First, sharp pain travels in myelinated A-delta fibres; second, dull burning pain in unmyelinated C fibres."
+   "why": "First, sharp pain travels in myelinated A-delta fibres; second, dull burning pain in unmyelinated C fibres.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/58.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "Where do C fibres terminate in the dorsal horn?",
@@ -634,7 +800,14 @@ SINA.lectures["physio-intro-neuro"] = {
     "Lamina 10 only"
    ],
    "answer": 1,
-   "why": "C fibres end in laminae 1 and 2; A-delta in 1 and 5. Second-order axons from laminae 1 and 5 cross and ascend in the anterolateral column."
+   "why": "C fibres end in laminae 1 and 2; A-delta in 1 and 5. Second-order axons from laminae 1 and 5 cross and ascend in the anterolateral column.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/59.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 59
+    }
+   ]
   },
   {
    "q": "Which are functions of the CSF? (choose all)",
@@ -648,7 +821,14 @@ SINA.lectures["physio-intro-neuro"] = {
     0,
     1
    ],
-   "why": "Protection, buoyancy, excretion of waste and acting as an endocrine medium for the brain."
+   "why": "Protection, buoyancy, excretion of waste and acting as an endocrine medium for the brain.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/29.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which are parasympathetic effects? (choose all)",
@@ -662,7 +842,14 @@ SINA.lectures["physio-intro-neuro"] = {
     0,
     1
    ],
-   "why": "Parasympathetic: constricted pupils, copious saliva, more gut motility, slower heart, constricted bronchi."
+   "why": "Parasympathetic: constricted pupils, copious saliva, more gut motility, slower heart, constricted bronchi.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/31.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Which tracts are motor indirect pathways? (choose all)",
@@ -676,7 +863,14 @@ SINA.lectures["physio-intro-neuro"] = {
     0,
     1
    ],
-   "why": "Indirect: rubrospinal, tectospinal, vestibulospinal, lateral and medial reticulospinal. Direct: lateral and anterior corticospinal and corticobulbar."
+   "why": "Indirect: rubrospinal, tectospinal, vestibulospinal, lateral and medial reticulospinal. Direct: lateral and anterior corticospinal and corticobulbar.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/56.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "What does the posterior column carry? (choose all)",
@@ -690,7 +884,14 @@ SINA.lectures["physio-intro-neuro"] = {
     0,
     1
    ],
-   "why": "Gracile and cuneate fasciculi: discriminative touch, light pressure, vibration and conscious proprioception. Pain and temperature go in the spinothalamic tract."
+   "why": "Gracile and cuneate fasciculi: discriminative touch, light pressure, vibration and conscious proprioception. Pain and temperature go in the spinothalamic tract.",
+   "slides": [
+    {
+     "src": "files/slides/physio-intro-neuro/56.jpg",
+     "lec": "Introduction to neurophysiology",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -1296,7 +1497,14 @@ SINA.lectures["physio-neurons"] = {
     "Astrocytes and microglia"
    ],
    "answer": 0,
-   "why": "Neurons are the signalling cells; neuroglia support their development, growth, survival and structure."
+   "why": "Neurons are the signalling cells; neuroglia support their development, growth, survival and structure.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/05.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which glial cells form myelin in the CNS?",
@@ -1307,7 +1515,14 @@ SINA.lectures["physio-neurons"] = {
     "Microglia"
    ],
    "answer": 1,
-   "why": "Myelin is formed by oligodendrocytes in the CNS and Schwann cells in the PNS."
+   "why": "Myelin is formed by oligodendrocytes in the CNS and Schwann cells in the PNS.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/81.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 81
+    }
+   ]
   },
   {
    "q": "Which zone of the neuron initiates action potentials?",
@@ -1318,7 +1533,19 @@ SINA.lectures["physio-neurons"] = {
     "The terminals (output zone)"
    ],
    "answer": 2,
-   "why": "Four zones: input (dendrites and cell body), trigger (axon hillock), conducting (axon) and output (axon terminals)."
+   "why": "Four zones: input (dendrites and cell body), trigger (axon hillock), conducting (axon) and output (axon terminals).",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/07.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 7
+    },
+    {
+     "src": "files/slides/physio-neurons/76.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 76
+    }
+   ]
   },
   {
    "q": "How many axons does a neuron have?",
@@ -1329,7 +1556,14 @@ SINA.lectures["physio-neurons"] = {
     "Exactly one"
    ],
    "answer": 3,
-   "why": "All neurons contain one and only one axon; dendrites may be absent, one or many."
+   "why": "All neurons contain one and only one axon; dendrites may be absent, one or many.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/10.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Why can neurons not divide?",
@@ -1340,7 +1574,19 @@ SINA.lectures["physio-neurons"] = {
     "They lack a Golgi apparatus"
    ],
    "answer": 1,
-   "why": "Neurons have no centrosome, so they have lost the power of division."
+   "why": "Neurons have no centrosome, so they have lost the power of division.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/11.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 11
+    },
+    {
+     "src": "files/slides/physio-neurons/21.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Where are Nissl granules absent?",
@@ -1351,7 +1597,14 @@ SINA.lectures["physio-neurons"] = {
     "In the axon and hillock"
    ],
    "answer": 3,
-   "why": "Nissl granules, the tigroid substance, are in the cell body and dendrites but absent from the axon and axon hillock."
+   "why": "Nissl granules, the tigroid substance, are in the cell body and dendrites but absent from the axon and axon hillock.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/22.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which neurons have long axons reaching remote organs?",
@@ -1362,7 +1615,14 @@ SINA.lectures["physio-neurons"] = {
     "Interneurons of the cortex"
    ],
    "answer": 0,
-   "why": "Golgi type I neurons have long axons from the CNS to remote organs; Golgi type II have short axons in the cortex and cord."
+   "why": "Golgi type I neurons have long axons from the CNS to remote organs; Golgi type II have short axons in the cortex and cord.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/17.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which direction does the axon carry impulses?",
@@ -1373,7 +1633,14 @@ SINA.lectures["physio-neurons"] = {
     "Towards the dendrites"
    ],
    "answer": 2,
-   "why": "The axon conducts centrifugally, away from the soma; dendrites conduct centripetally, towards it."
+   "why": "The axon conducts centrifugally, away from the soma; dendrites conduct centripetally, towards it.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/10.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What do dendrites generate?",
@@ -1384,7 +1651,14 @@ SINA.lectures["physio-neurons"] = {
     "Local potentials"
    ],
    "answer": 3,
-   "why": "Dendrites conduct toward the cell body and generate local, graded potentials rather than action potentials."
+   "why": "Dendrites conduct toward the cell body and generate local, graded potentials rather than action potentials.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/24.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which channel type is always open?",
@@ -1395,7 +1669,14 @@ SINA.lectures["physio-neurons"] = {
     "Mechanically gated channels"
    ],
    "answer": 0,
-   "why": "Leaky channels are non-gated and always open. The others open in response to voltage, a ligand or physical force."
+   "why": "Leaky channels are non-gated and always open. The others open in response to voltage, a ligand or physical force.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/31.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "How is ion flux through a channel described?",
@@ -1406,7 +1687,14 @@ SINA.lectures["physio-neurons"] = {
     "Needs a carrier"
    ],
    "answer": 2,
-   "why": "Ion flux through a channel is always passive, down the electrochemical gradient, up to a million ions per second."
+   "why": "Ion flux through a channel is always passive, down the electrochemical gradient, up to a million ions per second.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/32.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "What makes a channel pore selective for anions?",
@@ -1417,7 +1705,14 @@ SINA.lectures["physio-neurons"] = {
     "A phosphate group"
    ],
    "answer": 1,
-   "why": "Charge selectivity: a positive charge in the pore repels cations, so the channel passes anions, and vice versa. Size selectivity then separates ions within a charge class."
+   "why": "Charge selectivity: a positive charge in the pore repels cations, so the channel passes anions, and vice versa. Size selectivity then separates ions within a charge class.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/33.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "What is the resting membrane potential of a typical neuron?",
@@ -1428,7 +1723,14 @@ SINA.lectures["physio-neurons"] = {
     "-70 mV"
    ],
    "answer": 3,
-   "why": "About -70 mV, due to intracellular negative proteins, moderate intracellular K+ and high extracellular Na+."
+   "why": "About -70 mV, due to intracellular negative proteins, moderate intracellular K+ and high extracellular Na+.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/46.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "What is the equilibrium potential of K+?",
@@ -1439,7 +1741,14 @@ SINA.lectures["physio-neurons"] = {
     "About 0 mV"
    ],
    "answer": 2,
-   "why": "K+ tends to leave down its concentration gradient while the negative interior holds it in; the two balance at about -90 mV. For Na+ the equilibrium is about +60 mV."
+   "why": "K+ tends to leave down its concentration gradient while the negative interior holds it in; the two balance at about -90 mV. For Na+ the equilibrium is about +60 mV.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/48.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Why is the resting potential close to the K+ equilibrium?",
@@ -1450,7 +1759,14 @@ SINA.lectures["physio-neurons"] = {
     "Proteins cross the membrane"
    ],
    "answer": 0,
-   "why": "At rest K+ permeability is high through leak channels, while few Na+ channels are open, so the potential sits near the K+ equilibrium."
+   "why": "At rest K+ permeability is high through leak channels, while few Na+ channels are open, so the potential sits near the K+ equilibrium.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/51.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "What is depolarization?",
@@ -1461,7 +1777,19 @@ SINA.lectures["physio-neurons"] = {
     "Ions stop moving"
    ],
    "answer": 1,
-   "why": "Depolarization: less negative, as when positive ions enter. Hyperpolarization: more negative. Repolarization: return to rest."
+   "why": "Depolarization: less negative, as when positive ions enter. Hyperpolarization: more negative. Repolarization: return to rest.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/47.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 47
+    },
+    {
+     "src": "files/slides/physio-neurons/54.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "What sets the size of a graded potential?",
@@ -1472,7 +1800,14 @@ SINA.lectures["physio-neurons"] = {
     "The myelin thickness"
    ],
    "answer": 2,
-   "why": "The deflection is proportional to the stimulus (V = IR). Graded potentials are local, vary in size and fade with distance."
+   "why": "The deflection is proportional to the stimulus (V = IR). Graded potentials are local, vary in size and fade with distance.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/61.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 61
+    }
+   ]
   },
   {
    "q": "What is meant by all or none?",
@@ -1483,7 +1818,14 @@ SINA.lectures["physio-neurons"] = {
     "It is always the same size"
    ],
    "answer": 3,
-   "why": "Once threshold is reached, the action potential has the same magnitude and pattern every time, and spreads without decrement."
+   "why": "Once threshold is reached, the action potential has the same magnitude and pattern every time, and spreads without decrement.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/65.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 65
+    }
+   ]
   },
   {
    "q": "At what potential do voltage-gated Na+ channels open?",
@@ -1494,7 +1836,14 @@ SINA.lectures["physio-neurons"] = {
     "+30 mV"
    ],
    "answer": 1,
-   "why": "Both voltage-gated Na+ and K+ channels are closed at -70 mV and open at about -50 to -55 mV; Na+ opens rapidly, K+ slowly."
+   "why": "Both voltage-gated Na+ and K+ channels are closed at -70 mV and open at about -50 to -55 mV; Na+ opens rapidly, K+ slowly.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/69.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 69
+    }
+   ]
   },
   {
    "q": "What closes the voltage-gated Na+ channel after it opens?",
@@ -1505,7 +1854,14 @@ SINA.lectures["physio-neurons"] = {
     "A ligand binding"
    ],
    "answer": 0,
-   "why": "Na+ channels are closed by a separate inactivation gate. This temporary inactivation also makes the action potential travel only one way."
+   "why": "Na+ channels are closed by a separate inactivation gate. This temporary inactivation also makes the action potential travel only one way.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/69.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 69
+    }
+   ]
   },
   {
    "q": "What causes the falling phase of the action potential?",
@@ -1516,7 +1872,19 @@ SINA.lectures["physio-neurons"] = {
     "Ca2+ flowing in"
    ],
    "answer": 2,
-   "why": "Rising phase: Na+ rushes in. Falling phase: K+ leaves through the slow voltage-gated K+ channels, which close late and cause the dip below rest."
+   "why": "Rising phase: Na+ rushes in. Falling phase: K+ leaves through the slow voltage-gated K+ channels, which close late and cause the dip below rest.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/69.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 69
+    },
+    {
+     "src": "files/slides/physio-neurons/71.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 71
+    }
+   ]
   },
   {
    "q": "Why does an action potential travel only one way along the axon?",
@@ -1527,7 +1895,14 @@ SINA.lectures["physio-neurons"] = {
     "Myelin prevents backflow"
    ],
    "answer": 0,
-   "why": "The Na+ channels just behind the wave are temporarily inactivated, like dominoes that have already fallen."
+   "why": "The Na+ channels just behind the wave are temporarily inactivated, like dominoes that have already fallen.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/77.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 77
+    }
+   ]
   },
   {
    "q": "Which two factors increase conduction velocity?",
@@ -1538,7 +1913,19 @@ SINA.lectures["physio-neurons"] = {
     "Myelin and axon diameter"
    ],
    "answer": 3,
-   "why": "Myelin insulates the axon; a larger diameter lowers resistance. Fast axons are both large and myelinated."
+   "why": "Myelin insulates the axon; a larger diameter lowers resistance. Fast axons are both large and myelinated.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/80.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 80
+    },
+    {
+     "src": "files/slides/physio-neurons/83.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 83
+    }
+   ]
   },
   {
    "q": "Where do ions cross the membrane in a myelinated axon?",
@@ -1549,7 +1936,14 @@ SINA.lectures["physio-neurons"] = {
     "All along the axon"
    ],
    "answer": 1,
-   "why": "Voltage-gated channels cluster at the nodes of Ranvier, and the signal jumps node to node: saltatory conduction. It is faster and needs fewer Na+/K+ pumps."
+   "why": "Voltage-gated channels cluster at the nodes of Ranvier, and the signal jumps node to node: saltatory conduction. It is faster and needs fewer Na+/K+ pumps.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/81.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 81
+    }
+   ]
   },
   {
    "q": "Which are neuroglial cells? (choose all)",
@@ -1563,7 +1957,14 @@ SINA.lectures["physio-neurons"] = {
     0,
     1
    ],
-   "why": "Neuroglia: ependymal cells, astrocytes, Schwann cells, oligodendrocytes and microglia."
+   "why": "Neuroglia: ependymal cells, astrocytes, Schwann cells, oligodendrocytes and microglia.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/05.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which set the resting membrane potential? (choose all)",
@@ -1577,7 +1978,14 @@ SINA.lectures["physio-neurons"] = {
     0,
     1
    ],
-   "why": "Negative proteins inside, moderate K+ inside and high Na+ outside give about -70 mV. Voltage-gated Na+ channels are closed at rest."
+   "why": "Negative proteins inside, moderate K+ inside and high Na+ outside give about -70 mV. Voltage-gated Na+ channels are closed at rest.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/46.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "Which stimuli can activate neurons? (choose all)",
@@ -1591,7 +1999,14 @@ SINA.lectures["physio-neurons"] = {
     0,
     1
    ],
-   "why": "Mechanical (touch, vibration), electrical (voltage change) and chemical (taste, smell, ligands) stimuli."
+   "why": "Mechanical (touch, vibration), electrical (voltage change) and chemical (taste, smell, ligands) stimuli.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/30.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which are properties of an action potential? (choose all)",
@@ -1605,7 +2020,14 @@ SINA.lectures["physio-neurons"] = {
     0,
     1
    ],
-   "why": "It is all or none, propagates without decrement, keeps the same pattern and travels one way toward the terminal."
+   "why": "It is all or none, propagates without decrement, keeps the same pattern and travels one way toward the terminal.",
+   "slides": [
+    {
+     "src": "files/slides/physio-neurons/65.jpg",
+     "lec": "Neurons and electrical communication",
+     "n": 65
+    }
+   ]
   },
   {
    "q": "Which phase of the action potential is at the arrow?",
@@ -2311,7 +2733,14 @@ SINA.lectures["physio-myotatic"] = {
     "The brain's decision"
    ],
    "answer": 0,
-   "why": "The precise location of the stimulus fixes which muscle contracts; its strength sets the amplitude of the response. Reflexes are graded behaviours."
+   "why": "The precise location of the stimulus fixes which muscle contracts; its strength sets the amplitude of the response. Reflexes are graded behaviours.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/04.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which type of reflex protects the body from injury?",
@@ -2322,7 +2751,14 @@ SINA.lectures["physio-myotatic"] = {
     "Endocrine reflexes"
    ],
    "answer": 1,
-   "why": "Somatic reflexes start at somatic sensory endings, act on skeletal muscle and protect from injury. Autonomic reflexes start in the viscera and act on soft tissue organs."
+   "why": "Somatic reflexes start at somatic sensory endings, act on skeletal muscle and protect from injury. Autonomic reflexes start in the viscera and act on soft tissue organs.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/06.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "How many synapses are in the CNS part of the myotatic reflex?",
@@ -2333,7 +2769,14 @@ SINA.lectures["physio-myotatic"] = {
     "None"
    ],
    "answer": 2,
-   "why": "It is monosynaptic: one synapse in the CNS, between the sensory and motor neuron. Counting the neuromuscular junction, the arc has two synapses."
+   "why": "It is monosynaptic: one synapse in the CNS, between the sensory and motor neuron. Counting the neuromuscular junction, the arc has two synapses.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/47.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "What triggers the myotatic reflex?",
@@ -2344,7 +2787,19 @@ SINA.lectures["physio-myotatic"] = {
     "Sudden passive stretch"
    ],
    "answer": 3,
-   "why": "A sudden passive stretch of the muscle belly makes the agonist contract while its antagonist relaxes."
+   "why": "A sudden passive stretch of the muscle belly makes the agonist contract while its antagonist relaxes.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/09.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 9
+    },
+    {
+     "src": "files/slides/physio-myotatic/10.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What is the role of the tonic phase?",
@@ -2355,7 +2810,14 @@ SINA.lectures["physio-myotatic"] = {
     "Controlling breathing"
    ],
    "answer": 1,
-   "why": "The tonic phase keeps the anti-gravity muscles of neck, trunk and legs active. The weight of the head stretches the neck extensors, which contract reflexly: muscle tone."
+   "why": "The tonic phase keeps the anti-gravity muscles of neck, trunk and legs active. The weight of the head stretches the neck extensors, which contract reflexly: muscle tone.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/12.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which afferents carry the phasic response?",
@@ -2366,7 +2828,14 @@ SINA.lectures["physio-myotatic"] = {
     "Type Ia"
    ],
    "answer": 3,
-   "why": "A dynamic change in length, such as a tendon tap, triggers a transient phasic contraction through Ia afferents."
+   "why": "A dynamic change in length, such as a tendon tap, triggers a transient phasic contraction through Ia afferents.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/13.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "What does hyporeflexia usually indicate?",
@@ -2377,7 +2846,19 @@ SINA.lectures["physio-myotatic"] = {
     "Anxiety"
    ],
    "answer": 0,
-   "why": "An absent or diminished response usually means disease of the two-neuron arc: the sensory or motor nerve or its segment."
+   "why": "An absent or diminished response usually means disease of the two-neuron arc: the sensory or motor nerve or its segment.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/17.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 17
+    },
+    {
+     "src": "files/slides/physio-myotatic/35.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "What does hyperreflexia usually indicate?",
@@ -2388,7 +2869,14 @@ SINA.lectures["physio-myotatic"] = {
     "A dorsal root lesion"
    ],
    "answer": 2,
-   "why": "Hyperactive or clonic reflexes indicate interruption of corticospinal and other descending pathways above the reflex level."
+   "why": "Hyperactive or clonic reflexes indicate interruption of corticospinal and other descending pathways above the reflex level.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/17.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "How is a normal reflex graded?",
@@ -2399,7 +2887,14 @@ SINA.lectures["physio-myotatic"] = {
     "2+"
    ],
    "answer": 3,
-   "why": "0 no response; 1+ diminished; 2+ normal; 3+ stronger than average; 4+ hyperactive."
+   "why": "0 no response; 1+ diminished; 2+ normal; 3+ stronger than average; 4+ hyperactive.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/21.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which muscle responds in the Achilles reflex?",
@@ -2410,7 +2905,14 @@ SINA.lectures["physio-myotatic"] = {
     "The hamstrings"
    ],
    "answer": 0,
-   "why": "Patellar: quadriceps, leg extension. Achilles: soleus, foot extension. Bicipital: biceps, forearm flexion. Tricipital: triceps, forearm extension."
+   "why": "Patellar: quadriceps, leg extension. Achilles: soleus, foot extension. Bicipital: biceps, forearm flexion. Tricipital: triceps, forearm extension.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/21.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "In the H-reflex recording, which wave comes first?",
@@ -2421,7 +2923,14 @@ SINA.lectures["physio-myotatic"] = {
     "The T wave"
    ],
    "answer": 2,
-   "why": "Stimulating the popliteal fossa first activates motor fibres directly (the M wave), then Ia fibres reach the motor neuron and give the longer-latency H-reflex."
+   "why": "Stimulating the popliteal fossa first activates motor fibres directly (the M wave), then Ia fibres reach the motor neuron and give the longer-latency H-reflex.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/23.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What does the muscle spindle detect?",
@@ -2432,7 +2941,14 @@ SINA.lectures["physio-myotatic"] = {
     "Skin temperature"
    ],
    "answer": 1,
-   "why": "The spindle signals length; the Golgi tendon organ signals tension."
+   "why": "The spindle signals length; the Golgi tendon organ signals tension.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/28.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which afferents come from the Golgi tendon organ?",
@@ -2443,7 +2959,14 @@ SINA.lectures["physio-myotatic"] = {
     "Group Ib"
    ],
    "answer": 3,
-   "why": "Golgi tendon organs are low-threshold mechanoreceptors in tendons signalling changes in tension via group Ib afferents."
+   "why": "Golgi tendon organs are low-threshold mechanoreceptors in tendons signalling changes in tension via group Ib afferents.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/29.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "How many intrafusal fibres does a spindle contain?",
@@ -2454,7 +2977,14 @@ SINA.lectures["physio-myotatic"] = {
     "Over a hundred"
    ],
    "answer": 2,
-   "why": "Muscle spindles consist of four to eight specialised intrafusal fibres."
+   "why": "Muscle spindles consist of four to eight specialised intrafusal fibres.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/29.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which spindle endings signal static limb position?",
@@ -2465,7 +2995,14 @@ SINA.lectures["physio-myotatic"] = {
     "Free nerve endings"
    ],
    "answer": 0,
-   "why": "Primary endings signal the velocity and direction of movement; secondary endings signal static position."
+   "why": "Primary endings signal the velocity and direction of movement; secondary endings signal static position.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/29.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "How is the spindle arranged relative to the muscle?",
@@ -2476,7 +3013,14 @@ SINA.lectures["physio-myotatic"] = {
     "Around the nerve"
    ],
    "answer": 1,
-   "why": "Spindles lie in parallel with the skeletal muscle, so contraction unloads them and stretch stimulates them."
+   "why": "Spindles lie in parallel with the skeletal muscle, so contraction unloads them and stretch stimulates them.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/37.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which intrafusal fibre types exist?",
@@ -2487,7 +3031,14 @@ SINA.lectures["physio-myotatic"] = {
     "Fast and slow twitch"
    ],
    "answer": 2,
-   "why": "Three types: nuclear chain fibres, static nuclear bag fibres and dynamic nuclear bag fibres."
+   "why": "Three types: nuclear chain fibres, static nuclear bag fibres and dynamic nuclear bag fibres.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/41.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Which afferent carries both static and dynamic information?",
@@ -2498,7 +3049,14 @@ SINA.lectures["physio-myotatic"] = {
     "The Ia fibre"
    ],
    "answer": 3,
-   "why": "Ia (17 µm, 70 to 110 m/s) innervates both bag and chain fibres, signalling length and speed. II (8 µm, 30 to 70 m/s) mainly chain fibres, signalling length only."
+   "why": "Ia (17 µm, 70 to 110 m/s) innervates both bag and chain fibres, signalling length and speed. II (8 µm, 30 to 70 m/s) mainly chain fibres, signalling length only.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/42.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "What is reciprocal inhibition?",
@@ -2509,7 +3067,14 @@ SINA.lectures["physio-myotatic"] = {
     "Tendon organ inhibition"
    ],
    "answer": 1,
-   "why": "Reflex contraction of the agonist is accompanied by inhibition of the antagonist through an inhibitory interneuron: in a knee jerk, the quadriceps contracts and the hamstrings relax."
+   "why": "Reflex contraction of the agonist is accompanied by inhibition of the antagonist through an inhibitory interneuron: in a knee jerk, the quadriceps contracts and the hamstrings relax.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/48.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "What do gamma motor neurons do?",
@@ -2520,7 +3085,14 @@ SINA.lectures["physio-myotatic"] = {
     "Carry sensory signals"
    ],
    "answer": 0,
-   "why": "They contract the ends of intrafusal fibres, adjusting spindle length to muscle length so the spindle stays sensitive during contraction."
+   "why": "They contract the ends of intrafusal fibres, adjusting spindle length to muscle length so the spindle stays sensitive during contraction.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/51.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "What is alpha-gamma coactivation?",
@@ -2531,7 +3103,19 @@ SINA.lectures["physio-myotatic"] = {
     "Two alphas fire together"
    ],
    "answer": 2,
-   "why": "When alpha neurons contract the muscle, gamma neurons contract the spindle ends, so the spindle does not go slack."
+   "why": "When alpha neurons contract the muscle, gamma neurons contract the spindle ends, so the spindle does not go slack.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/49.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 49
+    },
+    {
+     "src": "files/slides/physio-myotatic/51.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "Where is the cell body of the spindle's sensory neuron?",
@@ -2542,7 +3126,14 @@ SINA.lectures["physio-myotatic"] = {
     "The lateral horn of T1"
    ],
    "answer": 0,
-   "why": "Afferent cell bodies lie in the spinal ganglion of the dorsal root (a T-shaped neuron); efferent cell bodies lie in the ventral horn."
+   "why": "Afferent cell bodies lie in the spinal ganglion of the dorsal root (a T-shaped neuron); efferent cell bodies lie in the ventral horn.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/53.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "What does a positive Babinski sign after age 1.5 mean?",
@@ -2553,7 +3144,14 @@ SINA.lectures["physio-myotatic"] = {
     "A corticospinal lesion"
    ],
    "answer": 3,
-   "why": "Stroking the lateral sole extends the great toe. Normal under 1.5 years because the corticospinal tract is not yet myelinated; after that it indicates a corticospinal lesion."
+   "why": "Stroking the lateral sole extends the great toe. Normal under 1.5 years because the corticospinal tract is not yet myelinated; after that it indicates a corticospinal lesion.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/35.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Which segments are the centre of the patellar reflex?",
@@ -2564,7 +3162,14 @@ SINA.lectures["physio-myotatic"] = {
     "T10 to T12"
    ],
    "answer": 1,
-   "why": "The patellar reflex depends on L2 to L4. It is often absent in chronic diabetes or neurosyphilis and exaggerated with descending motor tract disease."
+   "why": "The patellar reflex depends on L2 to L4. It is often absent in chronic diabetes or neurosyphilis and exaggerated with descending motor tract disease.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/35.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Which are roles of the myotatic reflex? (choose all)",
@@ -2578,7 +3183,14 @@ SINA.lectures["physio-myotatic"] = {
     0,
     1
    ],
-   "why": "Maintaining tone, adjusting posture, adapting muscle function during exercise and preventing injury from overstretching."
+   "why": "Maintaining tone, adjusting posture, adapting muscle function during exercise and preventing injury from overstretching.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/15.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which are proprioceptors? (choose all)",
@@ -2592,7 +3204,14 @@ SINA.lectures["physio-myotatic"] = {
     0,
     1
    ],
-   "why": "Proprioceptors include the spindle, the Golgi tendon organ, joint kinesthetic receptors and the vestibular apparatus."
+   "why": "Proprioceptors include the spindle, the Golgi tendon organ, joint kinesthetic receptors and the vestibular apparatus.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/28.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which diseases can abolish the Achilles reflex? (choose all)",
@@ -2606,7 +3225,14 @@ SINA.lectures["physio-myotatic"] = {
     0,
     1
    ],
-   "why": "Diabetes, neurosyphilis, alcoholism and subarachnoid haemorrhage can abolish it. Cervical cord compression exaggerates it."
+   "why": "Diabetes, neurosyphilis, alcoholism and subarachnoid haemorrhage can abolish it. Cervical cord compression exaggerates it.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/35.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Which are polysynaptic reflexes? (choose all)",
@@ -2620,7 +3246,19 @@ SINA.lectures["physio-myotatic"] = {
     0,
     1
    ],
-   "why": "The tendon, flexor (withdrawal) and crossed extensor reflexes are polysynaptic. The myotatic and patellar reflexes are monosynaptic."
+   "why": "The tendon, flexor (withdrawal) and crossed extensor reflexes are polysynaptic. The myotatic and patellar reflexes are monosynaptic.",
+   "slides": [
+    {
+     "src": "files/slides/physio-myotatic/34.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 34
+    },
+    {
+     "src": "files/slides/physio-myotatic/35.jpg",
+     "lec": "The myotatic reflexes",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Which part of the reflex arc is at the arrow?",
@@ -3348,7 +3986,19 @@ SINA.lectures["physio-muscle-2"] = {
     "One sarcomere and its bridges"
    ],
    "answer": 0,
-   "why": "A motor unit is a single motor neuron and all the muscle fibres it innervates, which contract together. Each fibre is innervated by only one motor neuron."
+   "why": "A motor unit is a single motor neuron and all the muscle fibres it innervates, which contract together. Each fibre is innervated by only one motor neuron.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/04.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 4
+    },
+    {
+     "src": "files/slides/physio-muscle-2/26.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "How many ACh molecules does one vesicle contain?",
@@ -3359,7 +4009,14 @@ SINA.lectures["physio-muscle-2"] = {
     "About 1 million"
    ],
    "answer": 1,
-   "why": "Each vesicle holds a fixed amount of ACh, about 1000 molecules."
+   "why": "Each vesicle holds a fixed amount of ACh, about 1000 molecules.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/06.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "How wide is the synaptic cleft at the NMJ?",
@@ -3370,7 +4027,14 @@ SINA.lectures["physio-muscle-2"] = {
     "About 500 nm"
    ],
    "answer": 2,
-   "why": "The gap is about 50 nm, and ACh takes about 0.5 ms to diffuse across it."
+   "why": "The gap is about 50 nm, and ACh takes about 0.5 ms to diffuse across it.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/06.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "What triggers ACh release from the nerve terminal?",
@@ -3381,7 +4045,19 @@ SINA.lectures["physio-muscle-2"] = {
     "Opening of voltage-gated Ca2+ channels"
    ],
    "answer": 3,
-   "why": "The action potential opens voltage-gated Ca2+ channels; Ca2+ entry releases ACh, which diffuses and binds the receptor."
+   "why": "The action potential opens voltage-gated Ca2+ channels; Ca2+ entry releases ACh, which diffuses and binds the receptor.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/07.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 7
+    },
+    {
+     "src": "files/slides/physio-muscle-2/11.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What type of receptor is the nicotinic ACh receptor?",
@@ -3392,7 +4068,14 @@ SINA.lectures["physio-muscle-2"] = {
     "An enzyme-linked receptor"
    ],
    "answer": 1,
-   "why": "A ligand-gated, cation-selective channel. Two ACh molecules bind the two α subunits to open it."
+   "why": "A ligand-gated, cation-selective channel. Two ACh molecules bind the two α subunits to open it.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/09.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "How is ACh removed from the cleft?",
@@ -3403,7 +4086,14 @@ SINA.lectures["physio-muscle-2"] = {
     "By acetylcholinesterase"
    ],
    "answer": 3,
-   "why": "AChE on the end plate breaks ACh into acetate and choline; choline is taken back up. AChE is not regulated, so longer stimulation needs more ACh."
+   "why": "AChE on the end plate breaks ACh into acetate and choline; choline is taken back up. AChE is not regulated, so longer stimulation needs more ACh.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/08.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "What voltage change does one vesicle produce?",
@@ -3414,7 +4104,14 @@ SINA.lectures["physio-muscle-2"] = {
     "About 5 mV"
    ],
    "answer": 0,
-   "why": "One vesicle gives a miniature end plate potential of about 0.5 mV. About 100 vesicles sum to an EPP of about 50 mV, enough to reach threshold."
+   "why": "One vesicle gives a miniature end plate potential of about 0.5 mV. About 100 vesicles sum to an EPP of about 50 mV, enough to reach threshold.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/10.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which receptor on the T-tubule senses depolarization?",
@@ -3425,7 +4122,14 @@ SINA.lectures["physio-muscle-2"] = {
     "The SERCA pump"
    ],
    "answer": 2,
-   "why": "L-type voltage-gated Ca2+ channels, the DHP receptors, open along the T-tubules and trigger the ryanodine receptors of the SR."
+   "why": "L-type voltage-gated Ca2+ channels, the DHP receptors, open along the T-tubules and trigger the ryanodine receptors of the SR.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/11.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What releases Ca2+ from the sarcoplasmic reticulum?",
@@ -3436,7 +4140,14 @@ SINA.lectures["physio-muscle-2"] = {
     "The ryanodine receptor"
    ],
    "answer": 3,
-   "why": "The ryanodine receptor on the SR releases Ca2+ into the cytosol. SERCA pumps it back."
+   "why": "The ryanodine receptor on the SR releases Ca2+ into the cytosol. SERCA pumps it back.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/11.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What does Ca2+ bind to start contraction?",
@@ -3447,7 +4158,19 @@ SINA.lectures["physio-muscle-2"] = {
     "Actin"
    ],
    "answer": 0,
-   "why": "Ca2+ binds troponin, which shifts tropomyosin and unmasks the myosin-binding sites on actin."
+   "why": "Ca2+ binds troponin, which shifts tropomyosin and unmasks the myosin-binding sites on actin.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/11.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 11
+    },
+    {
+     "src": "files/slides/physio-muscle-2/37.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "By how much can SR Ca2+ exceed cytosolic Ca2+?",
@@ -3458,7 +4181,14 @@ SINA.lectures["physio-muscle-2"] = {
     "It is about equal"
    ],
    "answer": 2,
-   "why": "Resting cytosol holds about 0.1 µmol/L; the SR may hold 10,000 times more. On release, cytosolic Ca2+ rises 10-fold or more."
+   "why": "Resting cytosol holds about 0.1 µmol/L; the SR may hold 10,000 times more. On release, cytosolic Ca2+ rises 10-fold or more.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/37.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "How does smooth muscle activate contraction?",
@@ -3469,7 +4199,14 @@ SINA.lectures["physio-muscle-2"] = {
     "Direct ACh binding to myosin"
    ],
    "answer": 1,
-   "why": "Smooth muscle uses Ca2+-calmodulin to activate MLCK, phosphorylating myosin. It is slow but can be sustained. Nitric oxide relaxes it via cGMP."
+   "why": "Smooth muscle uses Ca2+-calmodulin to activate MLCK, phosphorylating myosin. It is slow but can be sustained. Nitric oxide relaxes it via cGMP.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/22.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which muscle type has no intrinsic activity?",
@@ -3480,7 +4217,14 @@ SINA.lectures["physio-muscle-2"] = {
     "Skeletal muscle"
    ],
    "answer": 3,
-   "why": "Skeletal muscle needs a motor neuron. Smooth muscle has a slow wave and cardiac muscle a pacemaker potential."
+   "why": "Skeletal muscle needs a motor neuron. Smooth muscle has a slow wave and cardiac muscle a pacemaker potential.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/22.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "How many twitches can stored sarcoplasmic ATP power?",
@@ -3491,7 +4235,14 @@ SINA.lectures["physio-muscle-2"] = {
     "Only 1"
    ],
    "answer": 2,
-   "why": "The sarcoplasm holds enough ATP for about 8 twitches; creatine kinase keeps ADP/ATP low for continuous work."
+   "why": "The sarcoplasm holds enough ATP for about 8 twitches; creatine kinase keeps ADP/ATP low for continuous work.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/59.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 59
+    }
+   ]
   },
   {
    "q": "What sets the tension of a single fibre?",
@@ -3502,7 +4253,14 @@ SINA.lectures["physio-muscle-2"] = {
     "Blood flow and oxygen"
    ],
    "answer": 0,
-   "why": "Single-fibre tension depends on the number of pivoting cross-bridges, the resting length at stimulation and the stimulation frequency."
+   "why": "Single-fibre tension depends on the number of pivoting cross-bridges, the resting length at stimulation and the stimulation frequency.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/24.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "What is the normal resting sarcomere length?",
@@ -3513,7 +4271,14 @@ SINA.lectures["physio-muscle-2"] = {
     "Exactly optimal"
    ],
    "answer": 1,
-   "why": "Optimal overlap of thick and thin filaments gives the greatest tension; too much or too little reduces it."
+   "why": "Optimal overlap of thick and thin filaments gives the greatest tension; too much or too little reduces it.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/24.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which muscles have the smallest motor units?",
@@ -3524,7 +4289,14 @@ SINA.lectures["physio-muscle-2"] = {
     "The trunk muscles"
    ],
    "answer": 2,
-   "why": "The fewer fibres per neuron, the finer the movement. Motor units range from about 50 to 500 fibres."
+   "why": "The fewer fibres per neuron, the finer the movement. Motor units range from about 50 to 500 fibres.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/26.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "What is the most important way to control whole-muscle tension?",
@@ -3535,7 +4307,14 @@ SINA.lectures["physio-muscle-2"] = {
     "Recruiting more motor units"
    ],
    "answer": 3,
-   "why": "Recruitment of motor units is the main means; the other is raising stimulation frequency."
+   "why": "Recruitment of motor units is the main means; the other is raising stimulation frequency.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/28.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "What is tetanus?",
@@ -3546,7 +4325,19 @@ SINA.lectures["physio-muscle-2"] = {
     "Ca2+ removal"
    ],
    "answer": 1,
-   "why": "At high frequency the fibre cannot relax between action potentials, so contractions summate. In incomplete tetanus it partly relaxes."
+   "why": "At high frequency the fibre cannot relax between action potentials, so contractions summate. In incomplete tetanus it partly relaxes.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/44.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 44
+    },
+    {
+     "src": "files/slides/physio-muscle-2/45.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "What is treppe?",
@@ -3557,7 +4348,14 @@ SINA.lectures["physio-muscle-2"] = {
     "Loss of ATP"
    ],
    "answer": 0,
-   "why": "In a muscle rested for a long time, each contraction is stronger than the one before until they level off."
+   "why": "In a muscle rested for a long time, each contraction is stronger than the one before until they level off.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/46.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "At what ATP depletion does peripheral fatigue occur?",
@@ -3568,7 +4366,14 @@ SINA.lectures["physio-muscle-2"] = {
     "About 90 percent"
    ],
    "answer": 2,
-   "why": "At about 30 percent depletion the ADP/ATP ratio is too high for cross-bridges. Rigor mortis is complete depletion."
+   "why": "At about 30 percent depletion the ADP/ATP ratio is too high for cross-bridges. Rigor mortis is complete depletion.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/53.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "Why do cross-bridges stay locked in rigor mortis?",
@@ -3579,7 +4384,14 @@ SINA.lectures["physio-muscle-2"] = {
     "Troponin is destroyed"
    ],
    "answer": 0,
-   "why": "With no ATP, Ca2+ cannot be pumped and cross-bridges cannot dissociate. It begins about 3 hours after death and lasts up to 72 hours."
+   "why": "With no ATP, Ca2+ cannot be pumped and cross-bridges cannot dissociate. It begins about 3 hours after death and lasts up to 72 hours.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/53.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "Which fibres resist fatigue the most?",
@@ -3590,7 +4402,14 @@ SINA.lectures["physio-muscle-2"] = {
     "Type I fibres"
    ],
    "answer": 3,
-   "why": "Type I: slow oxidative, high mitochondria and myoglobin, used for hours. IIa intermediate (under 30 minutes). IIb fast glycolytic, fatigue in under 5 minutes."
+   "why": "Type I: slow oxidative, high mitochondria and myoglobin, used for hours. IIa intermediate (under 30 minutes). IIb fast glycolytic, fatigue in under 5 minutes.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/57.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 57
+    }
+   ]
   },
   {
    "q": "Which enzyme is deficient in McArdle disease?",
@@ -3601,7 +4420,19 @@ SINA.lectures["physio-muscle-2"] = {
     "Acetylcholinesterase"
    ],
    "answer": 1,
-   "why": "Type V GSD: cramps, fatigue and myoglobinuria on exercise, no lactate rise, and a characteristic second wind. Tarui (type VII) lacks muscle PFK."
+   "why": "Type V GSD: cramps, fatigue and myoglobinuria on exercise, no lactate rise, and a characteristic second wind. Tarui (type VII) lacks muscle PFK.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/64.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 64
+    },
+    {
+     "src": "files/slides/physio-muscle-2/65.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 65
+    }
+   ]
   },
   {
    "q": "What causes myasthenia gravis?",
@@ -3612,7 +4443,14 @@ SINA.lectures["physio-muscle-2"] = {
     "Loss of motor neurons"
    ],
    "answer": 2,
-   "why": "Autoimmune suppression of postsynaptic nicotinic receptors, treated with AChE inhibitors. Lambert-Eaton attacks presynaptic Ca2+ channels."
+   "why": "Autoimmune suppression of postsynaptic nicotinic receptors, treated with AChE inhibitors. Lambert-Eaton attacks presynaptic Ca2+ channels.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/68.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 68
+    }
+   ]
   },
   {
    "q": "Which protein is missing in Duchenne muscular dystrophy?",
@@ -3623,7 +4461,14 @@ SINA.lectures["physio-muscle-2"] = {
     "Titin"
    ],
    "answer": 0,
-   "why": "An X-linked recessive disorder (Xp21) of dystrophin. Becker dystrophy is milder, with partly functional dystrophin. CK is markedly raised."
+   "why": "An X-linked recessive disorder (Xp21) of dystrophin. Becker dystrophy is milder, with partly functional dystrophin. CK is markedly raised.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/71.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 71
+    }
+   ]
   },
   {
    "q": "Which are the ways to increase whole-muscle force? (choose all)",
@@ -3637,7 +4482,14 @@ SINA.lectures["physio-muscle-2"] = {
     0,
     1
    ],
-   "why": "Force rises by recruiting more motor units and by increasing frequency (force-frequency)."
+   "why": "Force rises by recruiting more motor units and by increasing frequency (force-frequency).",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/28.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which are features of endurance training? (choose all)",
@@ -3651,7 +4503,14 @@ SINA.lectures["physio-muscle-2"] = {
     0,
     1
    ],
-   "why": "Little hypertrophy but more and larger mitochondria, glycogen, myoglobin, oxidative enzymes and capillaries."
+   "why": "Little hypertrophy but more and larger mitochondria, glycogen, myoglobin, oxidative enzymes and capillaries.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/62.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 62
+    }
+   ]
   },
   {
    "q": "Which are signs of Duchenne muscular dystrophy? (choose all)",
@@ -3665,7 +4524,19 @@ SINA.lectures["physio-muscle-2"] = {
     0,
     1
    ],
-   "why": "Falls, a waddling gait, using the arms to stand, proximal weakness and calf hypertrophy in a young boy."
+   "why": "Falls, a waddling gait, using the arms to stand, proximal weakness and calf hypertrophy in a young boy.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/70.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 70
+    },
+    {
+     "src": "files/slides/physio-muscle-2/71.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 71
+    }
+   ]
   },
   {
    "q": "Which are causes of muscle fatigue? (choose all)",
@@ -3679,7 +4550,19 @@ SINA.lectures["physio-muscle-2"] = {
     0,
     1
    ],
-   "why": "Metabolic depletion, low pH, low glycogen and damage to the sarcolemma and SR. Synaptic fatigue is from lack of ACh."
+   "why": "Metabolic depletion, low pH, low glycogen and damage to the sarcolemma and SR. Synaptic fatigue is from lack of ACh.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-2/47.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 47
+    },
+    {
+     "src": "files/slides/physio-muscle-2/49.jpg",
+     "lec": "Muscle physiology, part II",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -4407,7 +5290,14 @@ SINA.lectures["physio-pain"] = {
     "Pain felt in a lost limb"
    ],
    "answer": 0,
-   "why": "Allodynia: pain from a normally harmless stimulus, such as light touch on sunburned skin. Hyperalgesia: an exaggerated response to a noxious stimulus."
+   "why": "Allodynia: pain from a normally harmless stimulus, such as light touch on sunburned skin. Hyperalgesia: an exaggerated response to a noxious stimulus.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/04.jpg",
+     "lec": "Physiology of pain",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What is nociception?",
@@ -4418,7 +5308,14 @@ SINA.lectures["physio-pain"] = {
     "Pain in the viscera only"
    ],
    "answer": 1,
-   "why": "The IASP defines nociception as the unconscious activity induced by a harmful stimulus; pain is the unpleasant sensory and emotional experience."
+   "why": "The IASP defines nociception as the unconscious activity induced by a harmful stimulus; pain is the unpleasant sensory and emotional experience.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/04.jpg",
+     "lec": "Physiology of pain",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "How soon is fast pain felt?",
@@ -4429,7 +5326,14 @@ SINA.lectures["physio-pain"] = {
     "After about 10 seconds"
    ],
    "answer": 2,
-   "why": "Fast pain is felt within about 0.1 s; slow pain begins after 1 s or more and builds over seconds to minutes."
+   "why": "Fast pain is felt within about 0.1 s; slow pain begins after 1 s or more and builds over seconds to minutes.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/07.jpg",
+     "lec": "Physiology of pain",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Where is fast-sharp pain NOT felt?",
@@ -4440,7 +5344,14 @@ SINA.lectures["physio-pain"] = {
     "In deep tissues"
    ],
    "answer": 3,
-   "why": "Fast pain arises from needle pricks, cuts, burns and electric shock in the skin; it is not felt in deeper tissues."
+   "why": "Fast pain arises from needle pricks, cuts, burns and electric shock in the skin; it is not felt in deeper tissues.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/08.jpg",
+     "lec": "Physiology of pain",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "What are pain receptors?",
@@ -4451,7 +5362,14 @@ SINA.lectures["physio-pain"] = {
     "Muscle spindles"
    ],
    "answer": 1,
-   "why": "All pain receptors in skin and tissues are free nerve endings, found in the skin, periosteum, arterial walls, joint surfaces and the falx and tentorium."
+   "why": "All pain receptors in skin and tissues are free nerve endings, found in the skin, periosteum, arterial walls, joint surfaces and the falx and tentorium.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/10.jpg",
+     "lec": "Physiology of pain",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "At what temperature is TRPV1 activated?",
@@ -4462,7 +5380,14 @@ SINA.lectures["physio-pain"] = {
     "About 45°C"
    ],
    "answer": 3,
-   "why": "TRPV1 (VR-1), on C and A-delta fibres, responds to about 45°C and to capsaicin. TRPV2 needs about 52°C, ignores capsaicin, and is on A-delta fibres."
+   "why": "TRPV1 (VR-1), on C and A-delta fibres, responds to about 45°C and to capsaicin. TRPV2 needs about 52°C, ignores capsaicin, and is on A-delta fibres.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/11.jpg",
+     "lec": "Physiology of pain",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which receptor senses hot water and capsaicin?",
@@ -4473,7 +5398,19 @@ SINA.lectures["physio-pain"] = {
     "TRPA1"
    ],
    "answer": 0,
-   "why": "Your professor's own question: TRPV1 senses hot water and capsaicin."
+   "why": "Your professor's own question: TRPV1 senses hot water and capsaicin.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/54.jpg",
+     "lec": "Physiology of pain",
+     "n": 54
+    },
+    {
+     "src": "files/slides/physio-pain/55.jpg",
+     "lec": "Physiology of pain",
+     "n": 55
+    }
+   ]
   },
   {
    "q": "Which substances enhance pain endings without exciting them?",
@@ -4484,7 +5421,14 @@ SINA.lectures["physio-pain"] = {
     "Serotonin and acetylcholine"
    ],
    "answer": 2,
-   "why": "Bradykinin, serotonin, histamine, K+, acids, ACh and proteolytic enzymes excite pain endings; prostaglandins and substance P only sensitise them."
+   "why": "Bradykinin, serotonin, histamine, K+, acids, ACh and proteolytic enzymes excite pain endings; prostaglandins and substance P only sensitise them.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/14.jpg",
+     "lec": "Physiology of pain",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which chemical may be most responsible for post-injury pain?",
@@ -4495,7 +5439,14 @@ SINA.lectures["physio-pain"] = {
     "Bradykinin"
    ],
    "answer": 3,
-   "why": "Extracts of damaged tissue cause intense pain, and bradykinin seems the most painful of them."
+   "why": "Extracts of damaged tissue cause intense pain, and bradykinin seems the most painful of them.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/18.jpg",
+     "lec": "Physiology of pain",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "How do pain receptors adapt?",
@@ -4506,7 +5457,14 @@ SINA.lectures["physio-pain"] = {
     "Only in the viscera"
    ],
    "answer": 0,
-   "why": "They adapt very little; sometimes excitation grows as the stimulus continues, which keeps the person aware of ongoing damage."
+   "why": "They adapt very little; sometimes excitation grows as the stimulus continues, which keeps the person aware of ongoing damage.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/18.jpg",
+     "lec": "Physiology of pain",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Why does an exercising ischaemic muscle hurt so fast?",
@@ -4517,7 +5475,14 @@ SINA.lectures["physio-pain"] = {
     "Its spindles fire"
    ],
    "answer": 2,
-   "why": "Pain appears within 15 to 20 s if the ischaemic muscle is exercised, versus 3 to 4 minutes at rest; lactic acid, bradykinin and proteolytic enzymes stimulate the endings."
+   "why": "Pain appears within 15 to 20 s if the ischaemic muscle is exercised, versus 3 to 4 minutes at rest; lactic acid, bradykinin and proteolytic enzymes stimulate the endings.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/19.jpg",
+     "lec": "Physiology of pain",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "At what speed do A-delta fibres conduct?",
@@ -4528,7 +5493,14 @@ SINA.lectures["physio-pain"] = {
     "35 to 75 m/s"
    ],
    "answer": 1,
-   "why": "A-delta fibres carry fast pain at 6 to 30 m/s; unmyelinated C fibres carry slow pain at 0.5 to 2 m/s."
+   "why": "A-delta fibres carry fast pain at 6 to 30 m/s; unmyelinated C fibres carry slow pain at 0.5 to 2 m/s.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/23.jpg",
+     "lec": "Physiology of pain",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which fibres mediate fast pain?",
@@ -4539,7 +5511,19 @@ SINA.lectures["physio-pain"] = {
     "A-delta fibres"
    ],
    "answer": 3,
-   "why": "Your professor's own question: fast pain travels in A-delta fibres."
+   "why": "Your professor's own question: fast pain travels in A-delta fibres.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/56.jpg",
+     "lec": "Physiology of pain",
+     "n": 56
+    },
+    {
+     "src": "files/slides/physio-pain/57.jpg",
+     "lec": "Physiology of pain",
+     "n": 57
+    }
+   ]
   },
   {
    "q": "What is a delayed, diffuse pain sensation called?",
@@ -4550,7 +5534,19 @@ SINA.lectures["physio-pain"] = {
     "Nociception"
    ],
    "answer": 2,
-   "why": "Your professor's own question: second pain, carried by C fibres."
+   "why": "Your professor's own question: second pain, carried by C fibres.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/60.jpg",
+     "lec": "Physiology of pain",
+     "n": 60
+    },
+    {
+     "src": "files/slides/physio-pain/61.jpg",
+     "lec": "Physiology of pain",
+     "n": 61
+    }
+   ]
   },
   {
    "q": "In which lamina do A-delta fast pain fibres mainly end?",
@@ -4561,7 +5557,19 @@ SINA.lectures["physio-pain"] = {
     "Lamina VII"
    ],
    "answer": 0,
-   "why": "Fast A-delta fibres end mainly in lamina I (marginalis), exciting neospinothalamic neurons. Slow C fibres end mainly in laminae II and III, the substantia gelatinosa."
+   "why": "Fast A-delta fibres end mainly in lamina I (marginalis), exciting neospinothalamic neurons. Slow C fibres end mainly in laminae II and III, the substantia gelatinosa.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/27.jpg",
+     "lec": "Physiology of pain",
+     "n": 27
+    },
+    {
+     "src": "files/slides/physio-pain/31.jpg",
+     "lec": "Physiology of pain",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "What is the substantia gelatinosa?",
@@ -4572,7 +5580,14 @@ SINA.lectures["physio-pain"] = {
     "Laminae VIII and IX"
    ],
    "answer": 1,
-   "why": "Laminae II and III of the dorsal horn together form the substantia gelatinosa, where the paleospinothalamic C fibres terminate."
+   "why": "Laminae II and III of the dorsal horn together form the substantia gelatinosa, where the paleospinothalamic C fibres terminate.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/31.jpg",
+     "lec": "Physiology of pain",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Where does the neospinothalamic tract mainly end?",
@@ -4583,7 +5598,14 @@ SINA.lectures["physio-pain"] = {
     "The tectum"
    ],
    "answer": 2,
-   "why": "Most neospinothalamic fibres run to the ventrobasal complex of the thalamus, then to the somatosensory cortex."
+   "why": "Most neospinothalamic fibres run to the ventrobasal complex of the thalamus, then to the somatosensory cortex.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/30.jpg",
+     "lec": "Physiology of pain",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "What transmitter do A-delta pain fibres release?",
@@ -4594,7 +5616,14 @@ SINA.lectures["physio-pain"] = {
     "Glutamate"
    ],
    "answer": 3,
-   "why": "A-delta endings release glutamate, acting for milliseconds. C fibres release glutamate and substance P, which builds up over seconds to minutes."
+   "why": "A-delta endings release glutamate, acting for milliseconds. C fibres release glutamate and substance P, which builds up over seconds to minutes.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/32.jpg",
+     "lec": "Physiology of pain",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "What fraction of paleospinothalamic fibres reaches the thalamus?",
@@ -4605,7 +5634,14 @@ SINA.lectures["physio-pain"] = {
     "None at all"
    ],
    "answer": 1,
-   "why": "Most end in the reticular nuclei, the tectum or the periaqueductal grey, which is why slow pain is poorly localised."
+   "why": "Most end in the reticular nuclei, the tectum or the periaqueductal grey, which is why slow pain is poorly localised.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/33.jpg",
+     "lec": "Physiology of pain",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which nucleus relays the analgesia system to the cord?",
@@ -4616,7 +5652,14 @@ SINA.lectures["physio-pain"] = {
     "The caudate nucleus"
    ],
    "answer": 0,
-   "why": "Periaqueductal and periventricular grey, then the raphe magnus in the lower pons, then a pain-inhibitory complex in the dorsal horn."
+   "why": "Periaqueductal and periventricular grey, then the raphe magnus in the lower pons, then a pain-inhibitory complex in the dorsal horn.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/35.jpg",
+     "lec": "Physiology of pain",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Which two transmitters dominate the analgesia system?",
@@ -4627,7 +5670,19 @@ SINA.lectures["physio-pain"] = {
     "Histamine and ACh"
    ],
    "answer": 2,
-   "why": "PAG fibres secrete enkephalin; raphe fibres secrete serotonin in the dorsal horn, which makes local neurons release enkephalin too."
+   "why": "PAG fibres secrete enkephalin; raphe fibres secrete serotonin in the dorsal horn, which makes local neurons release enkephalin too.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/37.jpg",
+     "lec": "Physiology of pain",
+     "n": 37
+    },
+    {
+     "src": "files/slides/physio-pain/52.jpg",
+     "lec": "Physiology of pain",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "How does enkephalin act on the 2nd order neuron?",
@@ -4638,7 +5693,19 @@ SINA.lectures["physio-pain"] = {
     "It blocks K+ channels"
    ],
    "answer": 0,
-   "why": "Enkephalin reduces presynaptic Ca2+ entry and transmitter release, and hyperpolarises the second-order neuron by opening K+ channels."
+   "why": "Enkephalin reduces presynaptic Ca2+ entry and transmitter release, and hyperpolarises the second-order neuron by opening K+ channels.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/58.jpg",
+     "lec": "Physiology of pain",
+     "n": 58
+    },
+    {
+     "src": "files/slides/physio-pain/59.jpg",
+     "lec": "Physiology of pain",
+     "n": 59
+    }
+   ]
   },
   {
    "q": "What is the mechanism of referred pain?",
@@ -4649,7 +5716,14 @@ SINA.lectures["physio-pain"] = {
     "Shared 2nd order neurons"
    ],
    "answer": 3,
-   "why": "Visceral pain fibres synapse on the same second-order neurons as skin fibres, so the brain reads visceral pain as coming from the skin: the convergence-projection theory."
+   "why": "Visceral pain fibres synapse on the same second-order neurons as skin fibres, so the brain reads visceral pain as coming from the skin: the convergence-projection theory.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/40.jpg",
+     "lec": "Physiology of pain",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Which is almost insensitive to pain?",
@@ -4660,7 +5734,14 @@ SINA.lectures["physio-pain"] = {
     "The joint surfaces"
    ],
    "answer": 1,
-   "why": "The liver parenchyma, the lung alveoli and the brain are almost insensitive to pain."
+   "why": "The liver parenchyma, the lung alveoli and the brain are almost insensitive to pain.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/44.jpg",
+     "lec": "Physiology of pain",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Which are the three main components of pain physiology? (choose all)",
@@ -4674,7 +5755,14 @@ SINA.lectures["physio-pain"] = {
     0,
     1
    ],
-   "why": "Transduction, transmission and modulation."
+   "why": "Transduction, transmission and modulation.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/15.jpg",
+     "lec": "Physiology of pain",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which stimuli cause visceral pain? (choose all)",
@@ -4688,7 +5776,14 @@ SINA.lectures["physio-pain"] = {
     0,
     1
    ],
-   "why": "Ischaemia, chemical damage, smooth muscle spasm, excess distension and stretching of connective tissue. Cutting the viscera does not."
+   "why": "Ischaemia, chemical damage, smooth muscle spasm, excess distension and stretching of connective tissue. Cutting the viscera does not.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/41.jpg",
+     "lec": "Physiology of pain",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "What does enkephalin do in the dorsal horn? (choose all)",
@@ -4702,7 +5797,19 @@ SINA.lectures["physio-pain"] = {
     0,
     1
    ],
-   "why": "Your professor's question: it inhibits Ca2+ influx and transmitter release, raises K+ efflux and hyperpolarises the second-order neuron: all of the above."
+   "why": "Your professor's question: it inhibits Ca2+ influx and transmitter release, raises K+ efflux and hyperpolarises the second-order neuron: all of the above.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/58.jpg",
+     "lec": "Physiology of pain",
+     "n": 58
+    },
+    {
+     "src": "files/slides/physio-pain/59.jpg",
+     "lec": "Physiology of pain",
+     "n": 59
+    }
+   ]
   },
   {
    "q": "Where does the slow paleospinothalamic pathway mainly end? (choose all)",
@@ -4716,7 +5823,19 @@ SINA.lectures["physio-pain"] = {
     0,
     1
    ],
-   "why": "The reticular nuclei, the tectum and the periaqueductal grey."
+   "why": "The reticular nuclei, the tectum and the periaqueductal grey.",
+   "slides": [
+    {
+     "src": "files/slides/physio-pain/33.jpg",
+     "lec": "Physiology of pain",
+     "n": 33
+    },
+    {
+     "src": "files/slides/physio-pain/46.jpg",
+     "lec": "Physiology of pain",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -5372,7 +6491,14 @@ SINA.lectures["physio-stress"] = {
     "Stress that improves function"
    ],
    "answer": 0,
-   "why": "A stressor challenges the homeostatic state; stress is the physiological or psychological response to it."
+   "why": "A stressor challenges the homeostatic state; stress is the physiological or psychological response to it.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/03.jpg",
+     "lec": "Physiology of stress",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "What is resilience?",
@@ -5383,7 +6509,14 @@ SINA.lectures["physio-stress"] = {
     "A persistent unresolved stress"
    ],
    "answer": 1,
-   "why": "Resilience: bouncing back from the initial negative effects. Hardiness: coping successfully and remaining healthy."
+   "why": "Resilience: bouncing back from the initial negative effects. Hardiness: coping successfully and remaining healthy.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/03.jpg",
+     "lec": "Physiology of stress",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "What is eustress?",
@@ -5394,7 +6527,14 @@ SINA.lectures["physio-stress"] = {
     "Stress lasting over a month"
    ],
    "answer": 2,
-   "why": "Eustress enhances function; distress is persistent and unresolved by coping or adaptation."
+   "why": "Eustress enhances function; distress is persistent and unresolved by coping or adaptation.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/03.jpg",
+     "lec": "Physiology of stress",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Who first described stress, and when?",
@@ -5405,7 +6545,14 @@ SINA.lectures["physio-stress"] = {
     "Hans Selye, 1936"
    ],
    "answer": 3,
-   "why": "Selye described stress in 1936 as the nonspecific response of the body to any demand: the general adaptation syndrome."
+   "why": "Selye described stress in 1936 as the nonspecific response of the body to any demand: the general adaptation syndrome.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/04.jpg",
+     "lec": "Physiology of stress",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which is part of Selye's alarm reaction triad?",
@@ -5416,7 +6563,14 @@ SINA.lectures["physio-stress"] = {
     "Healed gastric mucosa"
    ],
    "answer": 1,
-   "why": "The triad: enlarged, discharging adrenal cortex; involution of the thymus, spleen and lymph nodes; bleeding ulcers in the stomach and duodenum."
+   "why": "The triad: enlarged, discharging adrenal cortex; involution of the thymus, spleen and lymph nodes; bleeding ulcers in the stomach and duodenum.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/05.jpg",
+     "lec": "Physiology of stress",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What share of primary care visits relate to stress and lifestyle?",
@@ -5427,7 +6581,14 @@ SINA.lectures["physio-stress"] = {
     "Up to 70 percent"
    ],
    "answer": 3,
-   "why": "It has been estimated that up to 70 percent of primary care visits are for stress and lifestyle problems."
+   "why": "It has been estimated that up to 70 percent of primary care visits are for stress and lifestyle problems.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/08.jpg",
+     "lec": "Physiology of stress",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which is a physical stressor?",
@@ -5438,7 +6599,14 @@ SINA.lectures["physio-stress"] = {
     "An unmet internal drive"
    ],
    "answer": 0,
-   "why": "Physical stressors actually disturb physiology, such as haemorrhage and infection. Psychological stressors threaten and are anticipated."
+   "why": "Physical stressors actually disturb physiology, such as haemorrhage and infection. Psychological stressors threaten and are anticipated.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/09.jpg",
+     "lec": "Physiology of stress",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Where are physical stressors mainly processed?",
@@ -5449,7 +6617,14 @@ SINA.lectures["physio-stress"] = {
     "The occipital lobe"
    ],
    "answer": 2,
-   "why": "Physical stressors are processed by brainstem and hypothalamic regions and need an immediate, almost reflexive response."
+   "why": "Physical stressors are processed by brainstem and hypothalamic regions and need an immediate, almost reflexive response.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/10.jpg",
+     "lec": "Physiology of stress",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which phase of the stress response is fast?",
@@ -5460,7 +6635,14 @@ SINA.lectures["physio-stress"] = {
     "The SN and SAM phase"
    ],
    "answer": 3,
-   "why": "First phase: autonomic (SN and SAM), rapid. Second phase: the HPA axis, sluggish but amplified and protracted."
+   "why": "First phase: autonomic (SN and SAM), rapid. Second phase: the HPA axis, sluggish but amplified and protracted.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/10.jpg",
+     "lec": "Physiology of stress",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "How long does acute stress last?",
@@ -5471,7 +6653,14 @@ SINA.lectures["physio-stress"] = {
     "Several years"
    ],
    "answer": 0,
-   "why": "Acute stressors are recent and short (under 2 days to 4 weeks); chronic stress lasts longer than a month."
+   "why": "Acute stressors are recent and short (under 2 days to 4 weeks); chronic stress lasts longer than a month.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/13.jpg",
+     "lec": "Physiology of stress",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "What happens to the parasympathetic system in acute stress?",
@@ -5482,7 +6671,14 @@ SINA.lectures["physio-stress"] = {
     "It is abolished forever"
    ],
    "answer": 2,
-   "why": "In fight or flight the SN, SAM and HPA systems are activated and the parasympathetic system is diminished."
+   "why": "In fight or flight the SN, SAM and HPA systems are activated and the parasympathetic system is diminished.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/13.jpg",
+     "lec": "Physiology of stress",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which is decreased during acute stress?",
@@ -5493,7 +6689,19 @@ SINA.lectures["physio-stress"] = {
     "Epinephrine release"
    ],
    "answer": 1,
-   "why": "Your professor's question: GI blood flow falls, while cardiac output, glucose release, epinephrine and cortisol rise."
+   "why": "Your professor's question: GI blood flow falls, while cardiac output, glucose release, epinephrine and cortisol rise.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/36.jpg",
+     "lec": "Physiology of stress",
+     "n": 36
+    },
+    {
+     "src": "files/slides/physio-stress/37.jpg",
+     "lec": "Physiology of stress",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "What happens to blood coagulation in fight or flight?",
@@ -5504,7 +6712,14 @@ SINA.lectures["physio-stress"] = {
     "It speeds up"
    ],
    "answer": 3,
-   "why": "The coagulation rate rises to minimise blood loss if injury occurs."
+   "why": "The coagulation rate rises to minimise blood loss if injury occurs.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/16.jpg",
+     "lec": "Physiology of stress",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which adrenal zone makes aldosterone?",
@@ -5515,7 +6730,14 @@ SINA.lectures["physio-stress"] = {
     "The medulla"
    ],
    "answer": 2,
-   "why": "Glomerulosa: mineralocorticoids such as aldosterone. Fasciculata: glucocorticoids and androgens. Reticularis: androgens and glucocorticoids. Medulla: catecholamines."
+   "why": "Glomerulosa: mineralocorticoids such as aldosterone. Fasciculata: glucocorticoids and androgens. Reticularis: androgens and glucocorticoids. Medulla: catecholamines.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/17.jpg",
+     "lec": "Physiology of stress",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which gland part releases epinephrine?",
@@ -5526,7 +6748,14 @@ SINA.lectures["physio-stress"] = {
     "The hypothalamus"
    ],
    "answer": 0,
-   "why": "The adrenal medulla releases epinephrine, norepinephrine and dopamine."
+   "why": "The adrenal medulla releases epinephrine, norepinephrine and dopamine.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/17.jpg",
+     "lec": "Physiology of stress",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which order is correct for the HPA axis?",
@@ -5537,7 +6766,19 @@ SINA.lectures["physio-stress"] = {
     "CRH, cortisol, ACTH"
    ],
    "answer": 1,
-   "why": "Your professor's question: hypothalamus CRH, anterior pituitary ACTH, adrenal cortex cortisol."
+   "why": "Your professor's question: hypothalamus CRH, anterior pituitary ACTH, adrenal cortex cortisol.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/34.jpg",
+     "lec": "Physiology of stress",
+     "n": 34
+    },
+    {
+     "src": "files/slides/physio-stress/35.jpg",
+     "lec": "Physiology of stress",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Where is CRH produced?",
@@ -5548,7 +6789,14 @@ SINA.lectures["physio-stress"] = {
     "The anterior pituitary"
    ],
    "answer": 2,
-   "why": "CRH comes from the paraventricular nucleus of the hypothalamus and is the major stimulus for ACTH."
+   "why": "CRH comes from the paraventricular nucleus of the hypothalamus and is the major stimulus for ACTH.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/18.jpg",
+     "lec": "Physiology of stress",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "What is the main inhibitor of CRH and ACTH release?",
@@ -5559,7 +6807,14 @@ SINA.lectures["physio-stress"] = {
     "Cortisol"
    ],
    "answer": 3,
-   "why": "Cortisol feeds back to inhibit CRH and ACTH secretion by regulating gene expression."
+   "why": "Cortisol feeds back to inhibit CRH and ACTH secretion by regulating gene expression.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/18.jpg",
+     "lec": "Physiology of stress",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which brainstem nucleus is the noradrenaline system?",
@@ -5570,7 +6825,14 @@ SINA.lectures["physio-stress"] = {
     "The inferior olive"
    ],
    "answer": 1,
-   "why": "Locus coeruleus: norepinephrine, raising arousal. Raphe nuclei: serotonin."
+   "why": "Locus coeruleus: norepinephrine, raising arousal. Raphe nuclei: serotonin.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/19.jpg",
+     "lec": "Physiology of stress",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "What is cortisol's effect on insulin?",
@@ -5581,7 +6843,14 @@ SINA.lectures["physio-stress"] = {
     "It releases insulin"
    ],
    "answer": 0,
-   "why": "Cortisol is anti-insulin, permissive for glucagon and catecholamines, raises vascular alpha receptors, is anti-inflammatory and regulates renal water excretion."
+   "why": "Cortisol is anti-insulin, permissive for glucagon and catecholamines, raises vascular alpha receptors, is anti-inflammatory and regulates renal water excretion.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/20.jpg",
+     "lec": "Physiology of stress",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which hormones fall during prolonged stress?",
@@ -5592,7 +6861,14 @@ SINA.lectures["physio-stress"] = {
     "Endorphins and cortisol"
    ],
    "answer": 2,
-   "why": "GH and prolactin, which enhance immunity, generally fall in prolonged stress; endorphins rise and are immunosuppressive."
+   "why": "GH and prolactin, which enhance immunity, generally fall in prolonged stress; endorphins rise and are immunosuppressive.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/21.jpg",
+     "lec": "Physiology of stress",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which circuit is critical for ending the stress response?",
@@ -5603,7 +6879,14 @@ SINA.lectures["physio-stress"] = {
     "Cochlea to olive"
    ],
    "answer": 0,
-   "why": "Cortisol acts on the hippocampus, which turns off the HPA response via the PVN; lesions prolong stress and raise PVN CRH."
+   "why": "Cortisol acts on the hippocampus, which turns off the HPA response via the PVN; lesions prolong stress and raise PVN CRH.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/23.jpg",
+     "lec": "Physiology of stress",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What share of the body's serotonin comes from the gut?",
@@ -5614,7 +6897,14 @@ SINA.lectures["physio-stress"] = {
     "About 95 percent"
    ],
    "answer": 3,
-   "why": "Gut mucosal cells and ENS neurons produce 95 percent of the body's serotonin."
+   "why": "Gut mucosal cells and ENS neurons produce 95 percent of the body's serotonin.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/25.jpg",
+     "lec": "Physiology of stress",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "What gastrointestinal effect does chronic stress have?",
@@ -5625,7 +6915,14 @@ SINA.lectures["physio-stress"] = {
     "More mucus protection"
    ],
    "answer": 1,
-   "why": "Chronic stress causes gastric acid and pepsin hypersecretion, leading to peptic ulcer disease and GERD."
+   "why": "Chronic stress causes gastric acid and pepsin hypersecretion, leading to peptic ulcer disease and GERD.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/27.jpg",
+     "lec": "Physiology of stress",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which systems are activated in acute stress? (choose all)",
@@ -5639,7 +6936,19 @@ SINA.lectures["physio-stress"] = {
     0,
     1
    ],
-   "why": "Your professor's question: the SN (plus SAM and HPA) is enhanced; parasympathetic, immune, reproductive and GI activity falls."
+   "why": "Your professor's question: the SN (plus SAM and HPA) is enhanced; parasympathetic, immune, reproductive and GI activity falls.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/32.jpg",
+     "lec": "Physiology of stress",
+     "n": 32
+    },
+    {
+     "src": "files/slides/physio-stress/33.jpg",
+     "lec": "Physiology of stress",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which are cardiovascular fight-or-flight effects? (choose all)",
@@ -5653,7 +6962,14 @@ SINA.lectures["physio-stress"] = {
     0,
     1
    ],
-   "why": "Heart rate, contractility, cardiac output and pressure rise; blood shifts to muscle and heart, away from gut and kidneys."
+   "why": "Heart rate, contractility, cardiac output and pressure rise; blood shifts to muscle and heart, away from gut and kidneys.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/15.jpg",
+     "lec": "Physiology of stress",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which limbic structures respond to psychological stress? (choose all)",
@@ -5667,7 +6983,14 @@ SINA.lectures["physio-stress"] = {
     0,
     1
    ],
-   "why": "PFC, amygdala, hippocampus, PVN, VTA and nucleus accumbens."
+   "why": "PFC, amygdala, hippocampus, PVN, VTA and nucleus accumbens.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/11.jpg",
+     "lec": "Physiology of stress",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which are cardiovascular effects of chronic stress? (choose all)",
@@ -5681,7 +7004,14 @@ SINA.lectures["physio-stress"] = {
     0,
     1
    ],
-   "why": "Coronary disease, ischaemia, infarction, heart failure, sudden death, tachycardia, dysrhythmias and hypertension."
+   "why": "Coronary disease, ischaemia, infarction, heart failure, sudden death, tachycardia, dysrhythmias and hypertension.",
+   "slides": [
+    {
+     "src": "files/slides/physio-stress/27.jpg",
+     "lec": "Physiology of stress",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -6307,7 +7637,14 @@ SINA.lectures["physio-vision"] = {
     "All wavelengths"
    ],
    "answer": 0,
-   "why": "Visible light runs from purple to red; ultraviolet and infrared are invisible."
+   "why": "Visible light runs from purple to red; ultraviolet and infrared are invisible.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/05.jpg",
+     "lec": "Physiology of vision",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What is the refractive index of air?",
@@ -6318,7 +7655,14 @@ SINA.lectures["physio-vision"] = {
     "1.5"
    ],
    "answer": 1,
-   "why": "Air's refractive index is 1, and others are calculated relative to it."
+   "why": "Air's refractive index is 1, and others are calculated relative to it.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/06.jpg",
+     "lec": "Physiology of vision",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "When does a light ray not refract?",
@@ -6329,7 +7673,14 @@ SINA.lectures["physio-vision"] = {
     "When it enters water"
    ],
    "answer": 2,
-   "why": "A ray hitting a surface perpendicularly is not refracted, whatever the indices; any deviation increases refraction."
+   "why": "A ray hitting a surface perpendicularly is not refracted, whatever the indices; any deviation increases refraction.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/06.jpg",
+     "lec": "Physiology of vision",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "What is the power of a lens with a 50 cm focal length?",
@@ -6340,7 +7691,14 @@ SINA.lectures["physio-vision"] = {
     "2 dioptres"
    ],
    "answer": 3,
-   "why": "Refractive power is the inverse of focal length in metres: 1 / 0.5 = 2 D. Convex lenses are positive, concave negative."
+   "why": "Refractive power is the inverse of focal length in metres: 1 / 0.5 = 2 D. Convex lenses are positive, concave negative.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/07.jpg",
+     "lec": "Physiology of vision",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "How many refraction points are in the eye?",
@@ -6351,7 +7709,14 @@ SINA.lectures["physio-vision"] = {
     "Six"
    ],
    "answer": 1,
-   "why": "Air to cornea, cornea to aqueous humour, aqueous humour to lens, lens to vitreous humour."
+   "why": "Air to cornea, cornea to aqueous humour, aqueous humour to lens, lens to vitreous humour.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/08.jpg",
+     "lec": "Physiology of vision",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "How much of the eye's refractive power is in the cornea?",
@@ -6362,7 +7727,19 @@ SINA.lectures["physio-vision"] = {
     "Two thirds"
    ],
    "answer": 3,
-   "why": "Two thirds of the eye's refractive power is in the cornea."
+   "why": "Two thirds of the eye's refractive power is in the cornea.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/08.jpg",
+     "lec": "Physiology of vision",
+     "n": 8
+    },
+    {
+     "src": "files/slides/physio-vision/09.jpg",
+     "lec": "Physiology of vision",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which nerve carries the motor arm of the corneal reflex?",
@@ -6373,7 +7750,14 @@ SINA.lectures["physio-vision"] = {
     "The oculomotor nerve"
    ],
    "answer": 0,
-   "why": "Touch is sensed by the trigeminal nerve; its sensory nucleus synapses on the facial motor nucleus, which closes the eye and drives lacrimation."
+   "why": "Touch is sensed by the trigeminal nerve; its sensory nucleus synapses on the facial motor nucleus, which closes the eye and drives lacrimation.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/09.jpg",
+     "lec": "Physiology of vision",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What is miosis?",
@@ -6384,7 +7768,19 @@ SINA.lectures["physio-vision"] = {
     "Eye convergence"
    ],
    "answer": 2,
-   "why": "Miosis is constriction; mydriasis is dilation."
+   "why": "Miosis is constriction; mydriasis is dilation.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/11.jpg",
+     "lec": "Physiology of vision",
+     "n": 11
+    },
+    {
+     "src": "files/slides/physio-vision/13.jpg",
+     "lec": "Physiology of vision",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Why does a constricted pupil sharpen vision?",
@@ -6395,7 +7791,14 @@ SINA.lectures["physio-vision"] = {
     "More depth of focus"
    ],
    "answer": 3,
-   "why": "Through a small pupil light rays come to focus quickly, raising acuity: depth of focus. The best acuity comes from rays within 5 degrees."
+   "why": "Through a small pupil light rays come to focus quickly, raising acuity: depth of focus. The best acuity comes from rays within 5 degrees.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/12.jpg",
+     "lec": "Physiology of vision",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which nucleus drives pupillary constriction in the light reflex?",
@@ -6406,7 +7809,14 @@ SINA.lectures["physio-vision"] = {
     "Trigeminal sensory nucleus"
    ],
    "answer": 0,
-   "why": "Optic nerve to the pretectal area, then the Edinger-Westphal nucleus of CN III, then via the ciliary ganglion to the constrictors. Dark dilation is sympathetic via the cervical ganglion."
+   "why": "Optic nerve to the pretectal area, then the Edinger-Westphal nucleus of CN III, then via the ciliary ganglion to the constrictors. Dark dilation is sympathetic via the cervical ganglion.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/14.jpg",
+     "lec": "Physiology of vision",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "What is the consensual light reflex?",
@@ -6417,7 +7827,14 @@ SINA.lectures["physio-vision"] = {
     "Blinking to touch"
    ],
    "answer": 2,
-   "why": "Light in one eye constricts that pupil (direct) and the other (consensual or indirect), because the optic pathways decussate."
+   "why": "Light in one eye constricts that pupil (direct) and the other (consensual or indirect), because the optic pathways decussate.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/15.jpg",
+     "lec": "Physiology of vision",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Why is a lost light reflex after head trauma serious?",
@@ -6428,7 +7845,14 @@ SINA.lectures["physio-vision"] = {
     "It is a normal finding"
    ],
    "answer": 1,
-   "why": "The light reflex centres sit in the brainstem beside the vital centres, so its loss suggests brainstem injury."
+   "why": "The light reflex centres sit in the brainstem beside the vital centres, so its loss suggests brainstem injury.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/15.jpg",
+     "lec": "Physiology of vision",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Where is aqueous humour reabsorbed?",
@@ -6439,7 +7863,14 @@ SINA.lectures["physio-vision"] = {
     "The canal of Schlemm"
    ],
    "answer": 3,
-   "why": "It is made by the ciliary body, fills the anterior chamber and drains through the canal of Schlemm, at the iris-cornea junction."
+   "why": "It is made by the ciliary body, fills the anterior chamber and drains through the canal of Schlemm, at the iris-cornea junction.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/18.jpg",
+     "lec": "Physiology of vision",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "What causes glaucoma?",
@@ -6450,7 +7881,14 @@ SINA.lectures["physio-vision"] = {
     "Detached vitreous"
    ],
    "answer": 2,
-   "why": "Obstruction raises aqueous volume and intraocular pressure, which can damage the lens and retina and cause loss of vision."
+   "why": "Obstruction raises aqueous volume and intraocular pressure, which can damage the lens and retina and cause loss of vision.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/19.jpg",
+     "lec": "Physiology of vision",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "What happens to the lens when the ciliary muscles contract?",
@@ -6461,7 +7899,19 @@ SINA.lectures["physio-vision"] = {
     "It moves backwards"
    ],
    "answer": 0,
-   "why": "Ciliary contraction relaxes the zonular fibres, so the lens rounds up, increasing refractive power for near vision."
+   "why": "Ciliary contraction relaxes the zonular fibres, so the lens rounds up, increasing refractive power for near vision.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/22.jpg",
+     "lec": "Physiology of vision",
+     "n": 22
+    },
+    {
+     "src": "files/slides/physio-vision/23.jpg",
+     "lec": "Physiology of vision",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which three events make up the near response?",
@@ -6472,7 +7922,19 @@ SINA.lectures["physio-vision"] = {
     "Convergence, dilation, blinking"
    ],
    "answer": 1,
-   "why": "Near vision is parasympathetic: the lens thickens, the pupils constrict and the eyes converge."
+   "why": "Near vision is parasympathetic: the lens thickens, the pupils constrict and the eyes converge.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/13.jpg",
+     "lec": "Physiology of vision",
+     "n": 13
+    },
+    {
+     "src": "files/slides/physio-vision/23.jpg",
+     "lec": "Physiology of vision",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What causes presbyopia?",
@@ -6483,7 +7945,14 @@ SINA.lectures["physio-vision"] = {
     "Loss of rods"
    ],
    "answer": 2,
-   "why": "Lens proteins denature with age, so the lens loses elasticity and accommodation, impairing near vision; accommodation nears zero after 70."
+   "why": "Lens proteins denature with age, so the lens loses elasticity and accommodation, impairing near vision; accommodation nears zero after 70.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/25.jpg",
+     "lec": "Physiology of vision",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "In myopia, where does light focus?",
@@ -6494,7 +7963,14 @@ SINA.lectures["physio-vision"] = {
     "In front of the retina"
    ],
    "answer": 3,
-   "why": "Myopia: in front of the retina. Hyperopia: behind it. Emmetropia: on it."
+   "why": "Myopia: in front of the retina. Hyperopia: behind it. Emmetropia: on it.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/26.jpg",
+     "lec": "Physiology of vision",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "What causes astigmatism?",
@@ -6505,7 +7981,14 @@ SINA.lectures["physio-vision"] = {
     "Loss of cones"
    ],
    "answer": 1,
-   "why": "Astigmatism comes from loss of smoothness of the cornea or lens surface and is corrected with cylindrical lenses."
+   "why": "Astigmatism comes from loss of smoothness of the cornea or lens surface and is corrected with cylindrical lenses.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/27.jpg",
+     "lec": "Physiology of vision",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "What is the visual acuity of an emmetropic eye?",
@@ -6516,7 +7999,14 @@ SINA.lectures["physio-vision"] = {
     "6/60"
    ],
    "answer": 0,
-   "why": "Letter charts are read at 20 feet (6 m). Seeing only the largest letter gives 20/200, one tenth of normal."
+   "why": "Letter charts are read at 20 feet (6 m). Seeing only the largest letter gives 20/200, one tenth of normal.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/27.jpg",
+     "lec": "Physiology of vision",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Where is visual acuity highest?",
@@ -6527,7 +8017,14 @@ SINA.lectures["physio-vision"] = {
     "The ora serrata"
    ],
    "answer": 2,
-   "why": "The macula and its fovea hold only 2 percent of the retina but a third of all ganglion cells, with cones dominant and fewer overlying layers."
+   "why": "The macula and its fovea hold only 2 percent of the retina but a third of all ganglion cells, with cones dominant and fewer overlying layers.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/30.jpg",
+     "lec": "Physiology of vision",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Why is the optic disc a blind spot?",
@@ -6538,7 +8035,14 @@ SINA.lectures["physio-vision"] = {
     "It is behind the lens"
    ],
    "answer": 0,
-   "why": "The optic nerve leaves there; the brain fills in the gap using the other eye."
+   "why": "The optic nerve leaves there; the brain fills in the gap using the other eye.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/31.jpg",
+     "lec": "Physiology of vision",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Which photoreceptors are scotopic?",
@@ -6549,7 +8053,14 @@ SINA.lectures["physio-vision"] = {
     "Rods"
    ],
    "answer": 3,
-   "why": "Rods serve dim-light black-and-white vision; cones are high-threshold, photopic and give colour."
+   "why": "Rods serve dim-light black-and-white vision; cones are high-threshold, photopic and give colour.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/34.jpg",
+     "lec": "Physiology of vision",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which retinal cells produce action potentials?",
@@ -6560,7 +8071,19 @@ SINA.lectures["physio-vision"] = {
     "Photoreceptors"
    ],
    "answer": 1,
-   "why": "Photoreceptors, bipolar, horizontal and amacrine cells use graded potentials; ganglion cells fire action potentials and form the optic nerve."
+   "why": "Photoreceptors, bipolar, horizontal and amacrine cells use graded potentials; ganglion cells fire action potentials and form the optic nerve.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/29.jpg",
+     "lec": "Physiology of vision",
+     "n": 29
+    },
+    {
+     "src": "files/slides/physio-vision/38.jpg",
+     "lec": "Physiology of vision",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which cells provide lateral inhibition in the retina? (choose all)",
@@ -6574,7 +8097,19 @@ SINA.lectures["physio-vision"] = {
     0,
     1
    ],
-   "why": "Horizontal cells act at the photoreceptor-bipolar level, amacrine cells at the bipolar-ganglion level."
+   "why": "Horizontal cells act at the photoreceptor-bipolar level, amacrine cells at the bipolar-ganglion level.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/35.jpg",
+     "lec": "Physiology of vision",
+     "n": 35
+    },
+    {
+     "src": "files/slides/physio-vision/37.jpg",
+     "lec": "Physiology of vision",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Which are signs seen on ophthalmoscopy? (choose all)",
@@ -6588,7 +8123,14 @@ SINA.lectures["physio-vision"] = {
     0,
     1
    ],
-   "why": "Papilloedema (raised intracranial pressure), optic atrophy (pale, enlarged disc) and macular degeneration are fundus findings."
+   "why": "Papilloedema (raised intracranial pressure), optic atrophy (pale, enlarged disc) and macular degeneration are fundus findings.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/33.jpg",
+     "lec": "Physiology of vision",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "What are the functions of aqueous humour? (choose all)",
@@ -6602,7 +8144,14 @@ SINA.lectures["physio-vision"] = {
     0,
     1
    ],
-   "why": "It nourishes the lens and cornea and maintains intraocular pressure."
+   "why": "It nourishes the lens and cornea and maintains intraocular pressure.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vision/18.jpg",
+     "lec": "Physiology of vision",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -7304,7 +8853,14 @@ SINA.lectures["physio-vestibular"] = {
     "Limb position only"
    ],
    "answer": 0,
-   "why": "It detects orientation and motion of the head, not the body, and relays them to the vestibular nuclei and cerebellum via CN VIII."
+   "why": "It detects orientation and motion of the head, not the body, and relays them to the vestibular nuclei and cerebellum via CN VIII.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/06.jpg",
+     "lec": "The vestibular system",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "What is kinesthesis?",
@@ -7315,7 +8871,14 @@ SINA.lectures["physio-vestibular"] = {
     "Sense of taste"
    ],
    "answer": 1,
-   "why": "Kinesthesis, a somatosensory system, tells us the relative position and motion of body parts; it works with equilibrium, mediated by the vestibular system."
+   "why": "Kinesthesis, a somatosensory system, tells us the relative position and motion of body parts; it works with equilibrium, mediated by the vestibular system.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/04.jpg",
+     "lec": "The vestibular system",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which organs detect linear acceleration?",
@@ -7326,7 +8889,14 @@ SINA.lectures["physio-vestibular"] = {
     "The ossicles"
    ],
    "answer": 2,
-   "why": "The otolithic organs detect gravity and linear acceleration, plus pitch and roll tilts. The canals detect angular acceleration."
+   "why": "The otolithic organs detect gravity and linear acceleration, plus pitch and roll tilts. The canals detect angular acceleration.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/09.jpg",
+     "lec": "The vestibular system",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What do the semicircular canals detect?",
@@ -7337,7 +8907,19 @@ SINA.lectures["physio-vestibular"] = {
     "Angular acceleration"
    ],
    "answer": 3,
-   "why": "They detect angular accelerations from rotation of the head or body."
+   "why": "They detect angular accelerations from rotation of the head or body.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/08.jpg",
+     "lec": "The vestibular system",
+     "n": 8
+    },
+    {
+     "src": "files/slides/physio-vestibular/09.jpg",
+     "lec": "The vestibular system",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What gel covers the hair cells of the canals?",
@@ -7348,7 +8930,14 @@ SINA.lectures["physio-vestibular"] = {
     "The basilar membrane"
    ],
    "answer": 1,
-   "why": "Cupula in the canals; otolithic membrane in the utricle and saccule."
+   "why": "Cupula in the canals; otolithic membrane in the utricle and saccule.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/09.jpg",
+     "lec": "The vestibular system",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What fluid bathes the apical surface of the hair cells?",
@@ -7359,7 +8948,14 @@ SINA.lectures["physio-vestibular"] = {
     "Endolymph"
    ],
    "answer": 3,
-   "why": "Apices are bathed in endolymph, separated by tight junctions from the perilymph around the basolateral surfaces."
+   "why": "Apices are bathed in endolymph, separated by tight junctions from the perilymph around the basolateral surfaces.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/09.jpg",
+     "lec": "The vestibular system",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What happens when stereocilia bend toward the tallest row?",
@@ -7370,7 +8966,14 @@ SINA.lectures["physio-vestibular"] = {
     "The cell dies"
    ],
    "answer": 0,
-   "why": "Deflection toward the tallest row increases channel opening (depolarisation); away from it decreases it."
+   "why": "Deflection toward the tallest row increases channel opening (depolarisation); away from it decreases it.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/09.jpg",
+     "lec": "The vestibular system",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "How is the utricular macula oriented with the head upright?",
@@ -7381,7 +8984,14 @@ SINA.lectures["physio-vestibular"] = {
     "It has no orientation"
    ],
    "answer": 2,
-   "why": "The utricular macula lies horizontally and the saccular macula vertically when the head is upright."
+   "why": "The utricular macula lies horizontally and the saccular macula vertically when the head is upright.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/10.jpg",
+     "lec": "The vestibular system",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "When rotation starts, which way does endolymph tilt the crista?",
@@ -7392,7 +9002,14 @@ SINA.lectures["physio-vestibular"] = {
     "Opposite to the rotation"
    ],
    "answer": 3,
-   "why": "At the start the endolymph lags and tilts the crista opposite to rotation; on stopping it tilts it in the same direction."
+   "why": "At the start the endolymph lags and tilts the crista opposite to rotation; on stopping it tilts it in the same direction.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/11.jpg",
+     "lec": "The vestibular system",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What happens during steady head rotation?",
@@ -7403,7 +9020,14 @@ SINA.lectures["physio-vestibular"] = {
     "The endolymph stops"
    ],
    "answer": 0,
-   "why": "At constant velocity friction brings the endolymph to the same speed, so the cupula and receptors return to rest."
+   "why": "At constant velocity friction brings the endolymph to the same speed, so the cupula and receptors return to rest.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/14.jpg",
+     "lec": "The vestibular system",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "How are the three canals oriented?",
@@ -7414,7 +9038,14 @@ SINA.lectures["physio-vestibular"] = {
     "All vertical"
    ],
    "answer": 2,
-   "why": "Being roughly perpendicular, together they detect every direction of rotation."
+   "why": "Being roughly perpendicular, together they detect every direction of rotation.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/15.jpg",
+     "lec": "The vestibular system",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Turning the head right excites which lateral canal?",
@@ -7425,7 +9056,14 @@ SINA.lectures["physio-vestibular"] = {
     "Neither"
    ],
    "answer": 1,
-   "why": "Excitation occurs on the side the head turns to, with inhibition on the other side."
+   "why": "Excitation occurs on the side the head turns to, with inhibition on the other side.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/16.jpg",
+     "lec": "The vestibular system",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "What gives the maculae their sensitivity to gravity?",
@@ -7436,7 +9074,14 @@ SINA.lectures["physio-vestibular"] = {
     "Otoconia weight"
    ],
    "answer": 3,
-   "why": "The otoconial crystals pull on the membrane and bend the stereocilia, signalling static head orientation."
+   "why": "The otoconial crystals pull on the membrane and bend the stereocilia, signalling static head orientation.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/17.jpg",
+     "lec": "The vestibular system",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "On a head tilt, which utricular hair cells fire more?",
@@ -7447,7 +9092,14 @@ SINA.lectures["physio-vestibular"] = {
     "None of them"
    ],
    "answer": 2,
-   "why": "Hair cells on the upward slope side of the striola increase firing; those on the downward slope decrease it."
+   "why": "Hair cells on the upward slope side of the striola increase firing; those on the downward slope decrease it.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/18.jpg",
+     "lec": "The vestibular system",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which division of the vestibular nerve supplies the posterior crista?",
@@ -7458,7 +9110,14 @@ SINA.lectures["physio-vestibular"] = {
     "The facial nerve"
    ],
    "answer": 0,
-   "why": "The superior division supplies the lateral and anterior cristae and most of the utricle; the inferior supplies the rest of the saccule and the posterior crista via the singular nerve."
+   "why": "The superior division supplies the lateral and anterior cristae and most of the utricle; the inferior supplies the rest of the saccule and the posterior crista via the singular nerve.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/19.jpg",
+     "lec": "The vestibular system",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Through what opening does the singular nerve pass?",
@@ -7469,7 +9128,14 @@ SINA.lectures["physio-vestibular"] = {
     "The jugular foramen"
    ],
    "answer": 1,
-   "why": "The singular branch to the posterior ampullary crest passes through the foramen singulare."
+   "why": "The singular branch to the posterior ampullary crest passes through the foramen singulare.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/19.jpg",
+     "lec": "The vestibular system",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Where are the vestibular nerve cell bodies?",
@@ -7480,7 +9146,14 @@ SINA.lectures["physio-vestibular"] = {
     "The dorsal root ganglion"
    ],
    "answer": 2,
-   "why": "Bipolar neurons in the vestibular ganglion, in the lateral internal acoustic meatus."
+   "why": "Bipolar neurons in the vestibular ganglion, in the lateral internal acoustic meatus.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/21.jpg",
+     "lec": "The vestibular system",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Where does the vestibular nerve enter the brainstem?",
@@ -7491,7 +9164,14 @@ SINA.lectures["physio-vestibular"] = {
     "The cerebellopontine angle"
    ],
    "answer": 3,
-   "why": "It enters at the cerebellopontine angle and ends in the vestibular nuclear complex."
+   "why": "It enters at the cerebellopontine angle and ends in the vestibular nuclear complex.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/21.jpg",
+     "lec": "The vestibular system",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which tract links vestibular nuclei to eye muscle nuclei?",
@@ -7502,7 +9182,14 @@ SINA.lectures["physio-vestibular"] = {
     "The optic radiation"
    ],
    "answer": 1,
-   "why": "The MLF connects the vestibular nuclei with the oculomotor, trochlear and abducens nuclei and upper spinal motor neurons."
+   "why": "The MLF connects the vestibular nuclei with the oculomotor, trochlear and abducens nuclei and upper spinal motor neurons.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/23.jpg",
+     "lec": "The vestibular system",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What does the caloric test stimulate?",
@@ -7513,7 +9200,14 @@ SINA.lectures["physio-vestibular"] = {
     "The saccule"
    ],
    "answer": 0,
-   "why": "Warm or cold water in the ear canal appears to stimulate the lateral canal crista directly, producing nystagmus."
+   "why": "Warm or cold water in the ear canal appears to stimulate the lateral canal crista directly, producing nystagmus.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/23.jpg",
+     "lec": "The vestibular system",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What is Ménière's disease linked to?",
@@ -7524,7 +9218,14 @@ SINA.lectures["physio-vestibular"] = {
     "Damaged motor cortex"
    ],
    "answer": 2,
-   "why": "Spontaneous high afferent activity causes dizziness and nausea, the nausea via the vagal reflex pathway."
+   "why": "Spontaneous high afferent activity causes dizziness and nausea, the nausea via the vagal reflex pathway.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/23.jpg",
+     "lec": "The vestibular system",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What does an MLF lesion cause?",
@@ -7535,7 +9236,14 @@ SINA.lectures["physio-vestibular"] = {
     "Bell's palsy of the face"
    ],
    "answer": 0,
-   "why": "Slowed or absent adduction of the ipsilateral eye with nystagmus of the abducting eye; often from multiple sclerosis."
+   "why": "Slowed or absent adduction of the ipsilateral eye with nystagmus of the abducting eye; often from multiple sclerosis.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/24.jpg",
+     "lec": "The vestibular system",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "What does the vestibulo-ocular reflex do?",
@@ -7546,7 +9254,14 @@ SINA.lectures["physio-vestibular"] = {
     "Steadies the gaze"
    ],
    "answer": 3,
-   "why": "It rotates the eyes opposite to head movement so the retina stays steady; the flocculus drives its long-term adaptation."
+   "why": "It rotates the eyes opposite to head movement so the retina stays steady; the flocculus drives its long-term adaptation.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/25.jpg",
+     "lec": "The vestibular system",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Which muscles does the anterior canal drive in the VOR?",
@@ -7557,7 +9272,14 @@ SINA.lectures["physio-vestibular"] = {
     "Ipsilateral IO, contralateral SR"
    ],
    "answer": 1,
-   "why": "The anterior canal influences the ipsilateral superior rectus and the contralateral inferior oblique."
+   "why": "The anterior canal influences the ipsilateral superior rectus and the contralateral inferior oblique.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/25.jpg",
+     "lec": "The vestibular system",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Which inputs does the CNS integrate for balance? (choose all)",
@@ -7571,7 +9293,14 @@ SINA.lectures["physio-vestibular"] = {
     0,
     1
    ],
-   "why": "Visual, vestibular and proprioceptive input, integrated especially by the cerebellum."
+   "why": "Visual, vestibular and proprioceptive input, integrated especially by the cerebellum.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/08.jpg",
+     "lec": "The vestibular system",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which does the superior vestibular division supply? (choose all)",
@@ -7585,7 +9314,14 @@ SINA.lectures["physio-vestibular"] = {
     0,
     1
    ],
-   "why": "Superior: lateral and anterior cristae, most of the utricle and part of the saccule."
+   "why": "Superior: lateral and anterior cristae, most of the utricle and part of the saccule.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/19.jpg",
+     "lec": "The vestibular system",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which are cortical vestibular areas? (choose all)",
@@ -7599,7 +9335,14 @@ SINA.lectures["physio-vestibular"] = {
     0,
     1
    ],
-   "why": "Area 2v, area 3a, area 7 and the parieto-insular vestibular cortex."
+   "why": "Area 2v, area 3a, area 7 and the parieto-insular vestibular cortex.",
+   "slides": [
+    {
+     "src": "files/slides/physio-vestibular/21.jpg",
+     "lec": "The vestibular system",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -7875,7 +9618,14 @@ SINA.lectures["physio-taste-smell"] = {
     "Umami"
    ],
    "answer": 0,
-   "why": "Salty signals sodium and osmotic balance; sweet and umami signal energy-rich nutrients; sour and bitter signal acids and possible toxins."
+   "why": "Salty signals sodium and osmotic balance; sweet and umami signal energy-rich nutrients; sour and bitter signal acids and possible toxins.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/07.jpg",
+     "lec": "Taste and olfaction",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What substance gives umami taste?",
@@ -7886,7 +9636,14 @@ SINA.lectures["physio-taste-smell"] = {
     "Sodium chloride"
    ],
    "answer": 1,
-   "why": "Umami (savoury) is the taste of MSG. Quinine is the classic bitter tastant, HCl and tartaric acid sour, NaCl salty."
+   "why": "Umami (savoury) is the taste of MSG. Quinine is the classic bitter tastant, HCl and tartaric acid sour, NaCl salty.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/07.jpg",
+     "lec": "Taste and olfaction",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which tastes are innately aversive?",
@@ -7897,7 +9654,14 @@ SINA.lectures["physio-taste-smell"] = {
     "Umami and salty"
    ],
    "answer": 2,
-   "why": "Sour and bitter signal acids and potential toxins and are rejected even by newborns."
+   "why": "Sour and bitter signal acids and potential toxins and are rejected even by newborns.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/07.jpg",
+     "lec": "Taste and olfaction",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What do neonate taste tests show?",
@@ -7908,7 +9672,14 @@ SINA.lectures["physio-taste-smell"] = {
     "The responses are innate"
    ],
    "answer": 3,
-   "why": "Newborns make different facial expressions to bitter and sweet without prior experience (Steiner, 1979)."
+   "why": "Newborns make different facial expressions to bitter and sweet without prior experience (Steiner, 1979).",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/08.jpg",
+     "lec": "Taste and olfaction",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Where are taste buds NOT found?",
@@ -7919,7 +9690,14 @@ SINA.lectures["physio-taste-smell"] = {
     "The upper oesophagus"
    ],
    "answer": 1,
-   "why": "Taste buds lie on the dorsal and lateral tongue, soft palate, larynx, uvula, pharynx, epiglottis and upper oesophagus."
+   "why": "Taste buds lie on the dorsal and lateral tongue, soft palate, larynx, uvula, pharynx, epiglottis and upper oesophagus.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/09.jpg",
+     "lec": "Taste and olfaction",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What must happen before a chemical can be tasted?",
@@ -7930,7 +9708,14 @@ SINA.lectures["physio-taste-smell"] = {
     "Dissolve in saliva"
    ],
    "answer": 3,
-   "why": "It must dissolve in saliva and contact the gustatory hairs; binding then depolarises the taste cell."
+   "why": "It must dissolve in saliva and contact the gustatory hairs; binding then depolarises the taste cell.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/10.jpg",
+     "lec": "Taste and olfaction",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "How many receptor cells does a taste bud contain?",
@@ -7941,7 +9726,14 @@ SINA.lectures["physio-taste-smell"] = {
     "About 10,000"
    ],
    "answer": 0,
-   "why": "Each taste bud contains about 100 taste receptor cells."
+   "why": "Each taste bud contains about 100 taste receptor cells.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/10.jpg",
+     "lec": "Taste and olfaction",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What final event triggers transmitter release in taste cells?",
@@ -7952,7 +9744,14 @@ SINA.lectures["physio-taste-smell"] = {
     "Sodium efflux"
    ],
    "answer": 2,
-   "why": "All taste responses end in Ca2+ influx, vesicle fusion and neurotransmitter release."
+   "why": "All taste responses end in Ca2+ influx, vesicle fusion and neurotransmitter release.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/11.jpg",
+     "lec": "Taste and olfaction",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which drug blocks the salty taste channel?",
@@ -7963,7 +9762,14 @@ SINA.lectures["physio-taste-smell"] = {
     "Amiloride"
    ],
    "answer": 3,
-   "why": "Salt enters through a selective Na+ channel, passing only Na+ and Li+, blocked by the diuretic amiloride."
+   "why": "Salt enters through a selective Na+ channel, passing only Na+ and Li+, blocked by the diuretic amiloride.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/12.jpg",
+     "lec": "Taste and olfaction",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which channel mediates sour taste?",
@@ -7974,7 +9780,14 @@ SINA.lectures["physio-taste-smell"] = {
     "A sweet GPCR"
    ],
    "answer": 0,
-   "why": "Sour taste comes from H+ entering through the proton channel PKD2L1, a TRP-type channel."
+   "why": "Sour taste comes from H+ entering through the proton channel PKD2L1, a TRP-type channel.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/12.jpg",
+     "lec": "Taste and olfaction",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "What is ageusia?",
@@ -7985,7 +9798,14 @@ SINA.lectures["physio-taste-smell"] = {
     "Enhanced taste"
    ],
    "answer": 2,
-   "why": "Ageusia is loss of taste, not to be confused with anosmia, loss of smell."
+   "why": "Ageusia is loss of taste, not to be confused with anosmia, loss of smell.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/15.jpg",
+     "lec": "Taste and olfaction",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "What is phantogeusia?",
@@ -7996,7 +9816,14 @@ SINA.lectures["physio-taste-smell"] = {
     "Complete loss of taste"
    ],
    "answer": 1,
-   "why": "Phantogeusia: a persistent, usually unpleasant taste without any stimulus. Parageusia: distorted taste."
+   "why": "Phantogeusia: a persistent, usually unpleasant taste without any stimulus. Parageusia: distorted taste.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/15.jpg",
+     "lec": "Taste and olfaction",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which disease causes an abnormal appetite for salt?",
@@ -8007,7 +9834,14 @@ SINA.lectures["physio-taste-smell"] = {
     "Addison's disease"
    ],
    "answer": 3,
-   "why": "Addison's disease is listed among causes of taste impairment, with an abnormal salt appetite."
+   "why": "Addison's disease is listed among causes of taste impairment, with an abnormal salt appetite.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/16.jpg",
+     "lec": "Taste and olfaction",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which disease smells like decomposing apples?",
@@ -8018,7 +9852,14 @@ SINA.lectures["physio-taste-smell"] = {
     "Scrofula"
    ],
    "answer": 2,
-   "why": "Diabetic ketosis: fruity; typhoid: baked bread; yellow fever: a butcher's shop; scrofula: stale beer; diphtheria: sweet."
+   "why": "Diabetic ketosis: fruity; typhoid: baked bread; yellow fever: a butcher's shop; scrofula: stale beer; diphtheria: sweet.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/18.jpg",
+     "lec": "Taste and olfaction",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "What kind of cell is an olfactory receptor?",
@@ -8029,7 +9870,19 @@ SINA.lectures["physio-taste-smell"] = {
     "A hair cell"
    ],
    "answer": 0,
-   "why": "Olfactory receptor cells are neurons, unlike taste cells, which are modified epithelial cells."
+   "why": "Olfactory receptor cells are neurons, unlike taste cells, which are modified epithelial cells.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/17.jpg",
+     "lec": "Taste and olfaction",
+     "n": 17
+    },
+    {
+     "src": "files/slides/physio-taste-smell/25.jpg",
+     "lec": "Taste and olfaction",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "How do smells change with continued exposure?",
@@ -8040,7 +9893,14 @@ SINA.lectures["physio-taste-smell"] = {
     "They turn to taste"
    ],
    "answer": 1,
-   "why": "Smells habituate rapidly."
+   "why": "Smells habituate rapidly.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/17.jpg",
+     "lec": "Taste and olfaction",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "What is parosmia?",
@@ -8051,7 +9911,14 @@ SINA.lectures["physio-taste-smell"] = {
     "All odours unpleasant"
    ],
    "answer": 2,
-   "why": "Parosmia: a familiar smell is distorted. Phantosmia: smell without odour. Cacosmia: all odours unpleasant."
+   "why": "Parosmia: a familiar smell is distorted. Phantosmia: smell without odour. Cacosmia: all odours unpleasant.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/22.jpg",
+     "lec": "Taste and olfaction",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "What is olfactory agnosia?",
@@ -8062,7 +9929,14 @@ SINA.lectures["physio-taste-smell"] = {
     "Detected, not classified"
    ],
    "answer": 3,
-   "why": "Agnosia: odours are detected but cannot be classified or contrasted."
+   "why": "Agnosia: odours are detected but cannot be classified or contrasted.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/22.jpg",
+     "lec": "Taste and olfaction",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Where are new olfactory bulb neurons generated?",
@@ -8073,7 +9947,14 @@ SINA.lectures["physio-taste-smell"] = {
     "The cerebellum"
    ],
    "answer": 1,
-   "why": "They arise in the subventricular zone of the lateral ventricles and migrate to the bulbs via the rostral migratory stream."
+   "why": "They arise in the subventricular zone of the lateral ventricles and migrate to the bulbs via the rostral migratory stream.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/25.jpg",
+     "lec": "Taste and olfaction",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "By how much does olfactory neurogenesis fall with age in mice?",
@@ -8084,7 +9965,14 @@ SINA.lectures["physio-taste-smell"] = {
     "It does not change"
    ],
    "answer": 0,
-   "why": "Neurogenesis in the olfactory epithelium declines by about 90 percent between 3 and 16 months in mice."
+   "why": "Neurogenesis in the olfactory epithelium declines by about 90 percent between 3 and 16 months in mice.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/25.jpg",
+     "lec": "Taste and olfaction",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Olfactory loss is an early sign of which diseases?",
@@ -8095,7 +9983,14 @@ SINA.lectures["physio-taste-smell"] = {
     "Myasthenia and ALS both"
    ],
    "answer": 2,
-   "why": "Olfactory dysfunction is an early symptom of idiopathic Parkinson's disease and Alzheimer's dementia."
+   "why": "Olfactory dysfunction is an early symptom of idiopathic Parkinson's disease and Alzheimer's dementia.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/27.jpg",
+     "lec": "Taste and olfaction",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "For which olfactory loss is causal treatment available?",
@@ -8106,7 +10001,14 @@ SINA.lectures["physio-taste-smell"] = {
     "Loss from head trauma"
    ],
    "answer": 0,
-   "why": "Only olfactory dysfunction due to nasal disease has causal treatment: surgery or corticosteroids."
+   "why": "Only olfactory dysfunction due to nasal disease has causal treatment: surgery or corticosteroids.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/27.jpg",
+     "lec": "Taste and olfaction",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "How many US adults report total loss of smell?",
@@ -8117,7 +10019,14 @@ SINA.lectures["physio-taste-smell"] = {
     "1 to 2 percent"
    ],
    "answer": 3,
-   "why": "1 to 2 percent report total loss of smell; 7 million have taste and 14 million smell disorders."
+   "why": "1 to 2 percent report total loss of smell; 7 million have taste and 14 million smell disorders.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/06.jpg",
+     "lec": "Taste and olfaction",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which factor increases taste and smell disorders?",
@@ -8128,7 +10037,14 @@ SINA.lectures["physio-taste-smell"] = {
     "Warm climate"
    ],
    "answer": 1,
-   "why": "Prevalence of both disorders increases with age, reaching 13.9 percent in institutionalised older adults."
+   "why": "Prevalence of both disorders increases with age, reaching 13.9 percent in institutionalised older adults.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/06.jpg",
+     "lec": "Taste and olfaction",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which influence taste perception? (choose all)",
@@ -8142,7 +10058,14 @@ SINA.lectures["physio-taste-smell"] = {
     0,
     1
    ],
-   "why": "Odour, temperature, texture and past experience with food all shape taste."
+   "why": "Odour, temperature, texture and past experience with food all shape taste.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/14.jpg",
+     "lec": "Taste and olfaction",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which are quantitative olfactory disorders? (choose all)",
@@ -8156,7 +10079,14 @@ SINA.lectures["physio-taste-smell"] = {
     0,
     1
    ],
-   "why": "Quantitative: hyposmia and anosmia. Qualitative: parosmia, phantosmia, cacosmia."
+   "why": "Quantitative: hyposmia and anosmia. Qualitative: parosmia, phantosmia, cacosmia.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/22.jpg",
+     "lec": "Taste and olfaction",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which are causes of taste impairment? (choose all)",
@@ -8170,7 +10100,14 @@ SINA.lectures["physio-taste-smell"] = {
     0,
     1
    ],
-   "why": "Causes include Bell's palsy, oral infections, head trauma, tumours, vitamin deficiencies, wisdom tooth extraction, MS, cancer, radiation, chemotherapy and drugs."
+   "why": "Causes include Bell's palsy, oral infections, head trauma, tumours, vitamin deficiencies, wisdom tooth extraction, MS, cancer, radiation, chemotherapy and drugs.",
+   "slides": [
+    {
+     "src": "files/slides/physio-taste-smell/16.jpg",
+     "lec": "Taste and olfaction",
+     "n": 16
+    }
+   ]
   }
  ],
  "cards": [
@@ -9199,7 +11136,14 @@ SINA.lectures["physio-chemical"] = {
     "Electrical current through the cleft"
    ],
    "answer": 1,
-   "why": "Current cannot flow across the cleft, so a chemical intermediate is needed."
+   "why": "Current cannot flow across the cleft, so a chemical intermediate is needed.",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/05.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What is the direct trigger for neurotransmitter exocytosis?",
@@ -9210,7 +11154,14 @@ SINA.lectures["physio-chemical"] = {
     "Binding of transmitter to its receptor"
    ],
    "answer": 1,
-   "why": "Voltage-gated Ca²⁺ channels open when the AP arrives."
+   "why": "Voltage-gated Ca²⁺ channels open when the AP arrives.",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/18.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "An IPSP is typically produced by:",
@@ -9221,7 +11172,14 @@ SINA.lectures["physio-chemical"] = {
     "K⁺ channels being blocked"
    ],
    "answer": 1,
-   "why": "Negative ions in hyperpolarize."
+   "why": "Negative ions in hyperpolarize.",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/20.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Why can a single EPSP not fire an action potential?",
@@ -9232,7 +11190,14 @@ SINA.lectures["physio-chemical"] = {
     "Postsynaptic cells lack voltage-gated channels"
    ],
    "answer": 1,
-   "why": "-70 to -50/-55 mV needs summation."
+   "why": "-70 to -50/-55 mV needs summation.",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/22.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Temporal summation occurs when:",
@@ -9243,7 +11208,14 @@ SINA.lectures["physio-chemical"] = {
     "The postsynaptic neuron fires repeatedly"
    ],
    "answer": 1,
-   "why": "Same location, closer timing."
+   "why": "Same location, closer timing.",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/25.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The main excitatory neurotransmitter of the brain is:",
@@ -9254,7 +11226,14 @@ SINA.lectures["physio-chemical"] = {
     "Serotonin"
    ],
    "answer": 2,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/28.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Acetylcholine is inhibitory in cardiac muscle because it acts on:",
@@ -9265,7 +11244,14 @@ SINA.lectures["physio-chemical"] = {
     "Adrenergic receptors"
    ],
    "answer": 1,
-   "why": "The receptor decides the effect."
+   "why": "The receptor decides the effect.",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/30.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Indirect (second-messenger) receptors are characterised by:",
@@ -9276,7 +11262,14 @@ SINA.lectures["physio-chemical"] = {
     "Use only by amino acid transmitters"
    ],
    "answer": 1,
-   "why": "G protein, adenylate cyclase, cAMP."
+   "why": "G protein, adenylate cyclase, cAMP.",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/32.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Acetylcholinesterase splits acetylcholine into:",
@@ -9287,7 +11280,19 @@ SINA.lectures["physio-chemical"] = {
     "Choline and GABA"
    ],
    "answer": 1,
-   "why": "Choline is recycled; ChAT rebuilds ACh."
+   "why": "Choline is recycled; ChAT rebuilds ACh.",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/36.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 36
+    },
+    {
+     "src": "files/slides/physio-chemical/37.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "SSRIs act by:",
@@ -9298,7 +11303,14 @@ SINA.lectures["physio-chemical"] = {
     "Blocking Ca²⁺ entry"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/38.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Tetanus toxin causes spasms by:",
@@ -9309,7 +11321,14 @@ SINA.lectures["physio-chemical"] = {
     "Blocking voltage-gated K⁺ channels in motor axons"
    ],
    "answer": 1,
-   "why": "Loss of inhibition."
+   "why": "Loss of inhibition.",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/38.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Which receptor is tonic (slowly adapting)?",
@@ -9320,7 +11339,19 @@ SINA.lectures["physio-chemical"] = {
     "Temperature receptor"
    ],
    "answer": 2,
-   "why": "Posture needs continuous information."
+   "why": "Posture needs continuous information.",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/59.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 59
+    },
+    {
+     "src": "files/slides/physio-chemical/61.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 61
+    }
+   ]
   },
   {
    "q": "In sensitization, serotonin increases transmitter release by:",
@@ -9331,7 +11362,14 @@ SINA.lectures["physio-chemical"] = {
     "Increasing acetylcholinesterase in the synaptic cleft"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/64.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 64
+    }
+   ]
   },
   {
    "q": "Where do pain and temperature fibres cross the midline?",
@@ -9342,7 +11380,19 @@ SINA.lectures["physio-chemical"] = {
     "Cortex"
    ],
    "answer": 1,
-   "why": "Fine touch and vibration cross in the medulla."
+   "why": "Fine touch and vibration cross in the medulla.",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/65.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 65
+    },
+    {
+     "src": "files/slides/physio-chemical/66.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 66
+    }
+   ]
   },
   {
    "q": "Stimulus intensity is coded by:",
@@ -9353,7 +11403,14 @@ SINA.lectures["physio-chemical"] = {
     "Faster conduction velocity of the afferent axon"
    ],
    "answer": 1,
-   "why": "Action potentials are all-or-none."
+   "why": "Action potentials are all-or-none.",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/56.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "Receptor potentials differ from action potentials because they:",
@@ -9364,7 +11421,14 @@ SINA.lectures["physio-chemical"] = {
     "Travel long distances without decrement"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/50.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "Two-point discrimination is best in areas with:",
@@ -9375,7 +11439,14 @@ SINA.lectures["physio-chemical"] = {
     "Only tonic receptors"
    ],
    "answer": 1,
-   "why": "Fingertips."
+   "why": "Fingertips.",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/71.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 71
+    }
+   ]
   },
   {
    "q": "Which afferents are not consciously perceived?",
@@ -9386,7 +11457,14 @@ SINA.lectures["physio-chemical"] = {
     "Proprioceptive"
    ],
    "answer": 1,
-   "why": "From organs of the body cavities."
+   "why": "From organs of the body cavities.",
+   "slides": [
+    {
+     "src": "files/slides/physio-chemical/47.jpg",
+     "lec": "Synapses and chemical communication",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -9941,7 +12019,19 @@ SINA.lectures["physio-muscle-1"] = {
     "They lack sarcomeres"
    ],
    "answer": 1,
-   "why": "Formed by fusion of 100+ myoblasts."
+   "why": "Formed by fusion of 100+ myoblasts.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-1/04.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 4
+    },
+    {
+     "src": "files/slides/physio-muscle-1/20.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Which Ca²⁺-binding regulatory protein is used by smooth muscle?",
@@ -9952,7 +12042,14 @@ SINA.lectures["physio-muscle-1"] = {
     "Titin"
    ],
    "answer": 1,
-   "why": "Skeletal and cardiac use troponin."
+   "why": "Skeletal and cardiac use troponin.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-1/16.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which muscle type has the fastest myosin ATPase?",
@@ -9963,7 +12060,14 @@ SINA.lectures["physio-muscle-1"] = {
     "All are equal"
    ],
    "answer": 2,
-   "why": "Smooth is slowest, cardiac intermediate."
+   "why": "Smooth is slowest, cardiac intermediate.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-1/16.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The source of Ca²⁺ for skeletal muscle contraction is:",
@@ -9974,7 +12078,14 @@ SINA.lectures["physio-muscle-1"] = {
     "The nucleus"
    ],
    "answer": 1,
-   "why": "Smooth and cardiac also use ECF."
+   "why": "Smooth and cardiac also use ECF.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-1/16.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "A triad is formed by:",
@@ -9985,7 +12096,19 @@ SINA.lectures["physio-muscle-1"] = {
     "Actin, myosin and titin"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-1/18.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 18
+    },
+    {
+     "src": "files/slides/physio-muscle-1/19.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Strength training increases muscle size mainly by:",
@@ -9996,7 +12119,14 @@ SINA.lectures["physio-muscle-1"] = {
     "Increasing the number of motor neurons"
    ],
    "answer": 1,
-   "why": "Fibre number is fixed at birth."
+   "why": "Fibre number is fixed at birth.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-1/20.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Myosin is a hexamer made of:",
@@ -10007,7 +12137,19 @@ SINA.lectures["physio-muscle-1"] = {
     "3 heavy and 3 light chains"
    ],
    "answer": 0,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-1/02.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 2
+    },
+    {
+     "src": "files/slides/physio-muscle-1/14.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which part of myosin holds the ATP-binding site?",
@@ -10018,7 +12160,14 @@ SINA.lectures["physio-muscle-1"] = {
     "The coiled coil"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-1/14.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which band contains only thin filaments?",
@@ -10029,7 +12178,14 @@ SINA.lectures["physio-muscle-1"] = {
     "M line"
    ],
    "answer": 2,
-   "why": "I = isotropic, light."
+   "why": "I = isotropic, light.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-1/22.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "During contraction, which region keeps the same length?",
@@ -10040,7 +12196,19 @@ SINA.lectures["physio-muscle-1"] = {
     "Sarcomere"
    ],
    "answer": 2,
-   "why": "It equals the thick filament length."
+   "why": "It equals the thick filament length.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-1/02.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 2
+    },
+    {
+     "src": "files/slides/physio-muscle-1/26.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Thick filaments are made of:",
@@ -10051,7 +12219,14 @@ SINA.lectures["physio-muscle-1"] = {
     "Troponin"
    ],
    "answer": 1,
-   "why": "About 250 myosin II molecules."
+   "why": "About 250 myosin II molecules.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-1/27.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "The DHP receptor is:",
@@ -10062,7 +12237,14 @@ SINA.lectures["physio-muscle-1"] = {
     "A K⁺ leak channel of the sarcolemma"
    ],
    "answer": 1,
-   "why": "It gates the ryanodine receptor."
+   "why": "It gates the ryanodine receptor.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-1/27.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which protein pumps Ca²⁺ back into the SR?",
@@ -10073,7 +12255,14 @@ SINA.lectures["physio-muscle-1"] = {
     "Calmodulin"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-1/27.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "In an isometric contraction:",
@@ -10084,7 +12273,19 @@ SINA.lectures["physio-muscle-1"] = {
     "No cross-bridges form"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-1/32.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 32
+    },
+    {
+     "src": "files/slides/physio-muscle-1/33.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Which is a structural (not contractile) protein?",
@@ -10095,7 +12296,14 @@ SINA.lectures["physio-muscle-1"] = {
     "Troponin"
    ],
    "answer": 2,
-   "why": "Troponin is regulatory."
+   "why": "Troponin is regulatory.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-1/12.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The motor protein that bends cilia and flagella is:",
@@ -10106,7 +12314,14 @@ SINA.lectures["physio-muscle-1"] = {
     "Actin"
    ],
    "answer": 2,
-   "why": "Kinesins move organelles."
+   "why": "Kinesins move organelles.",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-1/13.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which property describes recoil to resting length?",
@@ -10117,7 +12332,14 @@ SINA.lectures["physio-muscle-1"] = {
     "Contractility"
    ],
    "answer": 1,
-   "why": ""
+   "why": "",
+   "slides": [
+    {
+     "src": "files/slides/physio-muscle-1/06.jpg",
+     "lec": "Muscle physiology, part I: skeletal",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Smooth muscle is slow partly because it:",
@@ -17801,7 +20023,14 @@ SINA.lectures["physio-bioen-revision"] = {
     "30 to 35"
    ],
    "answer": 1,
-   "why": "20 to 25 is optimal."
+   "why": "20 to 25 is optimal.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/03.jpg",
+     "lec": "Bioenergetics 6: revision (obesity,",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "In the US, about what share of people is obese?",
@@ -17848,7 +20077,14 @@ SINA.lectures["physio-bioen-revision"] = {
     "Growth hormone"
    ],
    "answer": 1,
-   "why": "Recombinant leptin reverses the obesity."
+   "why": "Recombinant leptin reverses the obesity.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/06.jpg",
+     "lec": "Bioenergetics 6: revision (obesity,",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Obesity with high leptin levels suggests:",
@@ -17859,7 +20095,19 @@ SINA.lectures["physio-bioen-revision"] = {
     "Perfectly normal leptin signalling"
    ],
    "answer": 1,
-   "why": "High leptin + obesity: abnormal Ob-R."
+   "why": "High leptin + obesity: abnormal Ob-R.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/08.jpg",
+     "lec": "Bioenergetics 6: revision (obesity,",
+     "n": 8
+    },
+    {
+     "src": "files/slides/physio-bioen-revision/14.jpg",
+     "lec": "Bioenergetics 6: revision (obesity,",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Leptin signalling can fail because of:",
@@ -17982,7 +20230,14 @@ SINA.lectures["physio-bioen-revision"] = {
     "8.0 mmol/L"
    ],
    "answer": 1,
-   "why": "Desirable below 5.0; high above 6.2 mmol/L."
+   "why": "Desirable below 5.0; high above 6.2 mmol/L.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/20.jpg",
+     "lec": "Bioenergetics 6: revision (obesity,",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "HDL is too low in men below:",
@@ -17993,7 +20248,14 @@ SINA.lectures["physio-bioen-revision"] = {
     "2.6 mmol/L"
    ],
    "answer": 1,
-   "why": "Too low: below 1.0 (men), 1.2 (women)."
+   "why": "Too low: below 1.0 (men), 1.2 (women).",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/20.jpg",
+     "lec": "Bioenergetics 6: revision (obesity,",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Normal triglycerides are below:",
@@ -18004,7 +20266,14 @@ SINA.lectures["physio-bioen-revision"] = {
     "5.6 mmol/L"
    ],
    "answer": 1,
-   "why": "Normal below 1.7; borderline high 1.7-2.3; high 2.3-5.6."
+   "why": "Normal below 1.7; borderline high 1.7-2.3; high 2.3-5.6.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/20.jpg",
+     "lec": "Bioenergetics 6: revision (obesity,",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "In established heart disease or diabetes, LDL should be no more than:",
@@ -18015,7 +20284,14 @@ SINA.lectures["physio-bioen-revision"] = {
     "6.2 mmol/L"
    ],
    "answer": 1,
-   "why": "LDL ≤ 2.5 and total cholesterol ≤ 4.5 mmol/L."
+   "why": "LDL ≤ 2.5 and total cholesterol ≤ 4.5 mmol/L.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/20.jpg",
+     "lec": "Bioenergetics 6: revision (obesity,",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "HDL cholesterol is converted by the liver into:",
@@ -18026,7 +20302,14 @@ SINA.lectures["physio-bioen-revision"] = {
     "Ketone bodies"
    ],
    "answer": 1,
-   "why": "The liver converts HDL cholesterol into bile salts."
+   "why": "The liver converts HDL cholesterol into bile salts.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-revision/19.jpg",
+     "lec": "Bioenergetics 6: revision (obesity,",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

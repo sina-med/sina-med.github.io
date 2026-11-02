@@ -170,7 +170,19 @@ SINA.lectures["biochem1-amino-acids"] = {
     "500"
    ],
    "answer": 1,
-   "why": "20 standard + 2 non-standard."
+   "why": "20 standard + 2 non-standard.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-amino-acids/11.jpg",
+     "lec": "Introduction to biochemistry and",
+     "n": 11
+    },
+    {
+     "src": "files/slides/biochem1-amino-acids/14.jpg",
+     "lec": "Introduction to biochemistry and",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which is an essential amino acid?",
@@ -181,7 +193,14 @@ SINA.lectures["biochem1-amino-acids"] = {
     "Glutamate"
    ],
    "answer": 2,
-   "why": "Must come from the diet."
+   "why": "Must come from the diet.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-amino-acids/15.jpg",
+     "lec": "Introduction to biochemistry and",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Arginine is conditionally essential during:",
@@ -192,7 +211,14 @@ SINA.lectures["biochem1-amino-acids"] = {
     "Sleep"
    ],
    "answer": 1,
-   "why": "Demand exceeds synthesis."
+   "why": "Demand exceeds synthesis.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-amino-acids/15.jpg",
+     "lec": "Introduction to biochemistry and",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which amino acid has no asymmetric carbon?",
@@ -203,7 +229,19 @@ SINA.lectures["biochem1-amino-acids"] = {
     "Alanine"
    ],
    "answer": 2,
-   "why": "Its R group is H."
+   "why": "Its R group is H.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-amino-acids/16.jpg",
+     "lec": "Introduction to biochemistry and",
+     "n": 16
+    },
+    {
+     "src": "files/slides/biochem1-amino-acids/19.jpg",
+     "lec": "Introduction to biochemistry and",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Natural protein amino acids are in the:",
@@ -214,7 +252,14 @@ SINA.lectures["biochem1-amino-acids"] = {
     "L configuration"
    ],
    "answer": 3,
-   "why": "Enantiomers."
+   "why": "Enantiomers.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-amino-acids/20.jpg",
+     "lec": "Introduction to biochemistry and",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "At physiological pH, amino acids exist mainly as:",
@@ -225,7 +270,14 @@ SINA.lectures["biochem1-amino-acids"] = {
     "Zwitterions"
    ],
    "answer": 3,
-   "why": "Dipolar ions."
+   "why": "Dipolar ions.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-amino-acids/21.jpg",
+     "lec": "Introduction to biochemistry and",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which amino acids absorb UV light?",
@@ -236,7 +288,14 @@ SINA.lectures["biochem1-amino-acids"] = {
     "Acidic"
    ],
    "answer": 1,
-   "why": "Used to measure proteins at 280 nm."
+   "why": "Used to measure proteins at 280 nm.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-amino-acids/32.jpg",
+     "lec": "Introduction to biochemistry and",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which amino acid is an exception to the common structure?",
@@ -247,7 +306,14 @@ SINA.lectures["biochem1-amino-acids"] = {
     "Lysine"
    ],
    "answer": 0,
-   "why": "Cyclic side chain."
+   "why": "Cyclic side chain.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-amino-acids/24.jpg",
+     "lec": "Introduction to biochemistry and",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Decarboxylation of histidine gives:",
@@ -258,7 +324,14 @@ SINA.lectures["biochem1-amino-acids"] = {
     "Glutamine"
    ],
    "answer": 0,
-   "why": "Mediator of allergy."
+   "why": "Mediator of allergy.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-amino-acids/39.jpg",
+     "lec": "Introduction to biochemistry and",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Decarboxylation of glutamate gives:",
@@ -269,7 +342,14 @@ SINA.lectures["biochem1-amino-acids"] = {
     "Asparagine"
    ],
    "answer": 1,
-   "why": "Inhibitory neurotransmitter."
+   "why": "Inhibitory neurotransmitter.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-amino-acids/39.jpg",
+     "lec": "Introduction to biochemistry and",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which amino acids are commonly phosphorylated?",
@@ -280,7 +360,14 @@ SINA.lectures["biochem1-amino-acids"] = {
     "Asp, Glu"
    ],
    "answer": 0,
-   "why": "Post-translational modification."
+   "why": "Post-translational modification.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-amino-acids/43.jpg",
+     "lec": "Introduction to biochemistry and",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Hydrophobic amino acids have:",
@@ -291,7 +378,14 @@ SINA.lectures["biochem1-amino-acids"] = {
     "Amide groups"
    ],
    "answer": 0,
-   "why": "'Water hating'."
+   "why": "'Water hating'.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-amino-acids/34.jpg",
+     "lec": "Introduction to biochemistry and",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -644,7 +738,14 @@ SINA.lectures["biochem1-proteins"] = {
     "100 amino acids"
    ],
    "answer": 3,
-   "why": "Polypeptides > 10."
+   "why": "Polypeptides > 10.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-proteins/04.jpg",
+     "lec": "Peptides and proteins",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The peptide bond forms between:",
@@ -655,7 +756,14 @@ SINA.lectures["biochem1-proteins"] = {
     "Two side chains"
    ],
    "answer": 2,
-   "why": "With release of water."
+   "why": "With release of water.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-proteins/06.jpg",
+     "lec": "Peptides and proteins",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The peptide bond is:",
@@ -666,7 +774,14 @@ SINA.lectures["biochem1-proteins"] = {
     "Freely rotating"
    ],
    "answer": 1,
-   "why": "No rotation."
+   "why": "No rotation.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-proteins/06.jpg",
+     "lec": "Peptides and proteins",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Insulin contains:",
@@ -677,7 +792,14 @@ SINA.lectures["biochem1-proteins"] = {
     "21 amino acids"
    ],
    "answer": 2,
-   "why": "Made by pancreatic β-cells."
+   "why": "Made by pancreatic β-cells.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-proteins/08.jpg",
+     "lec": "Peptides and proteins",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Glutathione is a(n):",
@@ -688,7 +810,14 @@ SINA.lectures["biochem1-proteins"] = {
     "Enzyme"
    ],
    "answer": 0,
-   "why": "Glu, Cys, Gly."
+   "why": "Glu, Cys, Gly.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-proteins/07.jpg",
+     "lec": "Peptides and proteins",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The α-helix is part of the:",
@@ -699,7 +828,14 @@ SINA.lectures["biochem1-proteins"] = {
     "Secondary structure"
    ],
    "answer": 3,
-   "why": "Stabilised by hydrogen bonds."
+   "why": "Stabilised by hydrogen bonds.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-proteins/13.jpg",
+     "lec": "Peptides and proteins",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which amino acids favour β-turns?",
@@ -710,7 +846,14 @@ SINA.lectures["biochem1-proteins"] = {
     "Lys and Arg"
    ],
    "answer": 1,
-   "why": "They change the chain's direction."
+   "why": "They change the chain's direction.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-proteins/14.jpg",
+     "lec": "Peptides and proteins",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Quaternary structure refers to:",
@@ -721,7 +864,14 @@ SINA.lectures["biochem1-proteins"] = {
     "Amino acid sequence"
    ],
    "answer": 0,
-   "why": "E.g. haemoglobin."
+   "why": "E.g. haemoglobin.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-proteins/16.jpg",
+     "lec": "Peptides and proteins",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which protein is globular?",
@@ -732,7 +882,14 @@ SINA.lectures["biochem1-proteins"] = {
     "Haemoglobin"
    ],
    "answer": 3,
-   "why": "The others are fibrous."
+   "why": "The others are fibrous.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-proteins/21.jpg",
+     "lec": "Peptides and proteins",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "LDL and HDL are:",
@@ -743,7 +900,14 @@ SINA.lectures["biochem1-proteins"] = {
     "Glycoproteins"
    ],
    "answer": 0,
-   "why": "Conjugated proteins."
+   "why": "Conjugated proteins.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-proteins/21.jpg",
+     "lec": "Peptides and proteins",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Casein is a:",
@@ -754,7 +918,14 @@ SINA.lectures["biochem1-proteins"] = {
     "Lipoprotein"
    ],
    "answer": 0,
-   "why": "Milk protein."
+   "why": "Milk protein.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-proteins/21.jpg",
+     "lec": "Peptides and proteins",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Denaturation affects:",
@@ -776,7 +947,14 @@ SINA.lectures["biochem1-proteins"] = {
     "Physiological pH 7.4"
    ],
    "answer": 3,
-   "why": "Extreme pH does."
+   "why": "Extreme pH does.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-proteins/23.jpg",
+     "lec": "Peptides and proteins",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1150,7 +1328,19 @@ SINA.lectures["biochem1-enzymes"] = {
     "Lowering the activation energy"
    ],
    "answer": 3,
-   "why": "They are recovered unchanged."
+   "why": "They are recovered unchanged.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-enzymes/03.jpg",
+     "lec": "Enzymes and coenzymes",
+     "n": 3
+    },
+    {
+     "src": "files/slides/biochem1-enzymes/04.jpg",
+     "lec": "Enzymes and coenzymes",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Ribozymes are:",
@@ -1161,7 +1351,19 @@ SINA.lectures["biochem1-enzymes"] = {
     "Coenzymes"
    ],
    "answer": 2,
-   "why": "The exception to enzymes being proteins."
+   "why": "The exception to enzymes being proteins.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-enzymes/03.jpg",
+     "lec": "Enzymes and coenzymes",
+     "n": 3
+    },
+    {
+     "src": "files/slides/biochem1-enzymes/04.jpg",
+     "lec": "Enzymes and coenzymes",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The 'lock and key' model describes:",
@@ -1172,7 +1374,14 @@ SINA.lectures["biochem1-enzymes"] = {
     "Substrate specificity"
    ],
    "answer": 3,
-   "why": "Double specificity."
+   "why": "Double specificity.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-enzymes/06.jpg",
+     "lec": "Enzymes and coenzymes",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "How many digits are in an EC number?",
@@ -1183,7 +1392,14 @@ SINA.lectures["biochem1-enzymes"] = {
     "2"
    ],
    "answer": 2,
-   "why": "Class, subclass, sub-subclass, enzyme."
+   "why": "Class, subclass, sub-subclass, enzyme.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-enzymes/09.jpg",
+     "lec": "Enzymes and coenzymes",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which EC class is number 3?",
@@ -1194,7 +1410,14 @@ SINA.lectures["biochem1-enzymes"] = {
     "Lyases"
    ],
    "answer": 0,
-   "why": "They use water to break bonds."
+   "why": "They use water to break bonds.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-enzymes/09.jpg",
+     "lec": "Enzymes and coenzymes",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Kinases belong to which class?",
@@ -1205,7 +1428,14 @@ SINA.lectures["biochem1-enzymes"] = {
     "Ligases"
    ],
    "answer": 1,
-   "why": "They transfer phosphate groups."
+   "why": "They transfer phosphate groups.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-enzymes/23.jpg",
+     "lec": "Enzymes and coenzymes",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "A competitive inhibitor:",
@@ -1216,7 +1446,14 @@ SINA.lectures["biochem1-enzymes"] = {
     "Binds elsewhere"
    ],
    "answer": 1,
-   "why": "Overcome by more substrate."
+   "why": "Overcome by more substrate.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-enzymes/18.jpg",
+     "lec": "Enzymes and coenzymes",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "An uncompetitive inhibitor binds:",
@@ -1227,7 +1464,14 @@ SINA.lectures["biochem1-enzymes"] = {
     "The ES complex"
    ],
    "answer": 3,
-   "why": "Distinct from non-competitive."
+   "why": "Distinct from non-competitive.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-enzymes/16.jpg",
+     "lec": "Enzymes and coenzymes",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which ion is the cofactor of kinases?",
@@ -1238,7 +1482,14 @@ SINA.lectures["biochem1-enzymes"] = {
     "Fe²⁺"
    ],
    "answer": 1,
-   "why": "Zn²⁺: DNA polymerase."
+   "why": "Zn²⁺: DNA polymerase.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-enzymes/21.jpg",
+     "lec": "Enzymes and coenzymes",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Apoenzyme + cofactor gives the:",
@@ -1249,7 +1500,14 @@ SINA.lectures["biochem1-enzymes"] = {
     "Proenzyme"
    ],
    "answer": 0,
-   "why": "Active complete enzyme."
+   "why": "Active complete enzyme.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-enzymes/22.jpg",
+     "lec": "Enzymes and coenzymes",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which coenzyme carries acyl groups?",
@@ -1260,7 +1518,14 @@ SINA.lectures["biochem1-enzymes"] = {
     "NAD⁺"
    ],
    "answer": 0,
-   "why": "From pantothenic acid."
+   "why": "From pantothenic acid.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-enzymes/23.jpg",
+     "lec": "Enzymes and coenzymes",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Pyridoxal phosphate is needed for:",
@@ -1271,7 +1536,14 @@ SINA.lectures["biochem1-enzymes"] = {
     "Transfer of amino groups"
    ],
    "answer": 3,
-   "why": "Transaminases (vitamin B6)."
+   "why": "Transaminases (vitamin B6).",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-enzymes/23.jpg",
+     "lec": "Enzymes and coenzymes",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Biotin is the coenzyme of:",
@@ -1282,7 +1554,14 @@ SINA.lectures["biochem1-enzymes"] = {
     "Carboxylation"
    ],
    "answer": 3,
-   "why": "E.g. pyruvate carboxylase."
+   "why": "E.g. pyruvate carboxylase.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-enzymes/23.jpg",
+     "lec": "Enzymes and coenzymes",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "TPP (thiamine pyrophosphate) is needed for:",
@@ -1293,7 +1572,14 @@ SINA.lectures["biochem1-enzymes"] = {
     "Hydrolysis"
    ],
    "answer": 0,
-   "why": "Vitamin B1."
+   "why": "Vitamin B1.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-enzymes/23.jpg",
+     "lec": "Enzymes and coenzymes",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1688,7 +1974,14 @@ SINA.lectures["biochem1-carbohydrates"] = {
     "Aldehyde group"
    ],
    "answer": 3,
-   "why": "Ketoses have a ketone."
+   "why": "Ketoses have a ketone.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carbohydrates/06.jpg",
+     "lec": "Carbohydrates: structure and",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The general formula of monosaccharides is:",
@@ -1699,7 +1992,19 @@ SINA.lectures["biochem1-carbohydrates"] = {
     "C₁₂H₂₂O₁₁"
    ],
    "answer": 2,
-   "why": "Disaccharides: C₁₂H₂₂O₁₁."
+   "why": "Disaccharides: C₁₂H₂₂O₁₁.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carbohydrates/26.jpg",
+     "lec": "Carbohydrates: structure and",
+     "n": 26
+    },
+    {
+     "src": "files/slides/biochem1-carbohydrates/28.jpg",
+     "lec": "Carbohydrates: structure and",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Fructose is a:",
@@ -1710,7 +2015,19 @@ SINA.lectures["biochem1-carbohydrates"] = {
     "Hexose ketose"
    ],
    "answer": 3,
-   "why": "Glucose is a hexose aldose."
+   "why": "Glucose is a hexose aldose.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carbohydrates/12.jpg",
+     "lec": "Carbohydrates: structure and",
+     "n": 12
+    },
+    {
+     "src": "files/slides/biochem1-carbohydrates/13.jpg",
+     "lec": "Carbohydrates: structure and",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Ribose is a:",
@@ -1721,7 +2038,14 @@ SINA.lectures["biochem1-carbohydrates"] = {
     "Hexose"
    ],
    "answer": 2,
-   "why": "Component of RNA."
+   "why": "Component of RNA.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carbohydrates/16.jpg",
+     "lec": "Carbohydrates: structure and",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Epimers differ at:",
@@ -1732,7 +2056,14 @@ SINA.lectures["biochem1-carbohydrates"] = {
     "The anomeric carbon only"
    ],
    "answer": 0,
-   "why": "E.g. glucose and galactose (C4)."
+   "why": "E.g. glucose and galactose (C4).",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carbohydrates/12.jpg",
+     "lec": "Carbohydrates: structure and",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "α and β anomers arise from:",
@@ -1754,7 +2085,14 @@ SINA.lectures["biochem1-carbohydrates"] = {
     "Glucose + galactose"
    ],
    "answer": 1,
-   "why": "α1-2β bond."
+   "why": "α1-2β bond.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carbohydrates/26.jpg",
+     "lec": "Carbohydrates: structure and",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Why is sucrose non-reducing?",
@@ -1765,7 +2103,19 @@ SINA.lectures["biochem1-carbohydrates"] = {
     "It has no free anomeric OH"
    ],
    "answer": 3,
-   "why": "Both anomeric carbons are in the bond."
+   "why": "Both anomeric carbons are in the bond.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carbohydrates/26.jpg",
+     "lec": "Carbohydrates: structure and",
+     "n": 26
+    },
+    {
+     "src": "files/slides/biochem1-carbohydrates/27.jpg",
+     "lec": "Carbohydrates: structure and",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Lactose is made of:",
@@ -1776,7 +2126,14 @@ SINA.lectures["biochem1-carbohydrates"] = {
     "Mannose + glucose"
    ],
    "answer": 1,
-   "why": "Milk sugar."
+   "why": "Milk sugar.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carbohydrates/29.jpg",
+     "lec": "Carbohydrates: structure and",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "A positive Fehling test gives:",
@@ -1787,7 +2144,14 @@ SINA.lectures["biochem1-carbohydrates"] = {
     "Purple colour"
    ],
    "answer": 0,
-   "why": "Cu²⁺ reduced to Cu₂O."
+   "why": "Cu²⁺ reduced to Cu₂O.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carbohydrates/27.jpg",
+     "lec": "Carbohydrates: structure and",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Glycogen branches are formed by:",
@@ -1798,7 +2162,19 @@ SINA.lectures["biochem1-carbohydrates"] = {
     "α1-4 bonds"
    ],
    "answer": 0,
-   "why": "Chains are α1-4."
+   "why": "Chains are α1-4.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carbohydrates/39.jpg",
+     "lec": "Carbohydrates: structure and",
+     "n": 39
+    },
+    {
+     "src": "files/slides/biochem1-carbohydrates/40.jpg",
+     "lec": "Carbohydrates: structure and",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Where is glycogen stored?",
@@ -1809,7 +2185,14 @@ SINA.lectures["biochem1-carbohydrates"] = {
     "Liver and muscle"
    ],
    "answer": 3,
-   "why": "Animal storage."
+   "why": "Animal storage.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carbohydrates/39.jpg",
+     "lec": "Carbohydrates: structure and",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Cellulose is indigestible for humans because of its:",
@@ -1820,7 +2203,14 @@ SINA.lectures["biochem1-carbohydrates"] = {
     "β1-4 bonds"
    ],
    "answer": 3,
-   "why": "Aids intestinal transit."
+   "why": "Aids intestinal transit.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carbohydrates/43.jpg",
+     "lec": "Carbohydrates: structure and",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Hyaluronic acid is a:",
@@ -1831,7 +2221,14 @@ SINA.lectures["biochem1-carbohydrates"] = {
     "Glycoprotein"
    ],
    "answer": 0,
-   "why": "In cartilage, vitreous, synovial fluid."
+   "why": "In cartilage, vitreous, synovial fluid.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carbohydrates/45.jpg",
+     "lec": "Carbohydrates: structure and",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2253,7 +2650,14 @@ SINA.lectures["biochem1-lipids"] = {
     "Organic solvents"
    ],
    "answer": 3,
-   "why": "Insoluble in water."
+   "why": "Insoluble in water.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipids/05.jpg",
+     "lec": "Lipids: structure, classes and",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "An amphiphilic molecule is:",
@@ -2264,7 +2668,19 @@ SINA.lectures["biochem1-lipids"] = {
     "Only hydrophilic"
    ],
    "answer": 0,
-   "why": "Also called amphipathic."
+   "why": "Also called amphipathic.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipids/02.jpg",
+     "lec": "Lipids: structure, classes and",
+     "n": 2
+    },
+    {
+     "src": "files/slides/biochem1-lipids/05.jpg",
+     "lec": "Lipids: structure, classes and",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Myelin's lipid insulation allows:",
@@ -2275,7 +2691,14 @@ SINA.lectures["biochem1-lipids"] = {
     "Muscle contraction"
    ],
    "answer": 1,
-   "why": "Electrical insulation."
+   "why": "Electrical insulation.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipids/12.jpg",
+     "lec": "Lipids: structure, classes and",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Palmitic acid is:",
@@ -2286,7 +2709,14 @@ SINA.lectures["biochem1-lipids"] = {
     "C4:0"
    ],
    "answer": 0,
-   "why": "Saturated."
+   "why": "Saturated.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipids/21.jpg",
+     "lec": "Lipids: structure, classes and",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "α-Linolenic acid is an:",
@@ -2297,7 +2727,19 @@ SINA.lectures["biochem1-lipids"] = {
     "Omega-6"
    ],
    "answer": 2,
-   "why": "C18:3."
+   "why": "C18:3.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipids/21.jpg",
+     "lec": "Lipids: structure, classes and",
+     "n": 21
+    },
+    {
+     "src": "files/slides/biochem1-lipids/22.jpg",
+     "lec": "Lipids: structure, classes and",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Trans fatty acids are associated with:",
@@ -2308,7 +2750,14 @@ SINA.lectures["biochem1-lipids"] = {
     "Vitamin D synthesis"
    ],
    "answer": 1,
-   "why": "From hydrogenated oils."
+   "why": "From hydrogenated oils.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipids/18.jpg",
+     "lec": "Lipids: structure, classes and",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Triglycerides are:",
@@ -2319,7 +2768,19 @@ SINA.lectures["biochem1-lipids"] = {
     "Water-soluble"
    ],
    "answer": 1,
-   "why": "Storage fat."
+   "why": "Storage fat.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipids/05.jpg",
+     "lec": "Lipids: structure, classes and",
+     "n": 5
+    },
+    {
+     "src": "files/slides/biochem1-lipids/23.jpg",
+     "lec": "Lipids: structure, classes and",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Lecithin is:",
@@ -2330,7 +2791,14 @@ SINA.lectures["biochem1-lipids"] = {
     "Cholesterol ester"
    ],
    "answer": 2,
-   "why": "A phosphoglyceride."
+   "why": "A phosphoglyceride.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipids/26.jpg",
+     "lec": "Lipids: structure, classes and",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Most body cholesterol comes from:",
@@ -2341,7 +2809,19 @@ SINA.lectures["biochem1-lipids"] = {
     "Bile"
    ],
    "answer": 1,
-   "why": "Diet ~20%."
+   "why": "Diet ~20%.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipids/31.jpg",
+     "lec": "Lipids: structure, classes and",
+     "n": 31
+    },
+    {
+     "src": "files/slides/biochem1-lipids/35.jpg",
+     "lec": "Lipids: structure, classes and",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Cholesterol is NOT a precursor of:",
@@ -2363,7 +2843,14 @@ SINA.lectures["biochem1-lipids"] = {
     "COX-1 and COX-2"
    ],
    "answer": 3,
-   "why": "NSAIDs, analgesics."
+   "why": "NSAIDs, analgesics.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipids/38.jpg",
+     "lec": "Lipids: structure, classes and",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Lipoproteins are classified by:",
@@ -2374,7 +2861,14 @@ SINA.lectures["biochem1-lipids"] = {
     "Density and size"
    ],
    "answer": 3,
-   "why": "Ultracentrifugation."
+   "why": "Ultracentrifugation.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipids/40.jpg",
+     "lec": "Lipids: structure, classes and",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "High LDL promotes:",
@@ -2385,7 +2879,14 @@ SINA.lectures["biochem1-lipids"] = {
     "Hypoglycaemia"
    ],
    "answer": 0,
-   "why": "'Bad cholesterol'."
+   "why": "'Bad cholesterol'.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipids/02.jpg",
+     "lec": "Lipids: structure, classes and",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2776,7 +3277,14 @@ SINA.lectures["biochem1-nucleotides"] = {
     "Parallel"
    ],
    "answer": 2,
-   "why": "Watson and Crick double helix."
+   "why": "Watson and Crick double helix.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-nucleotides/07.jpg",
+     "lec": "Nucleotides and nucleic acids",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Nucleotides within a strand are joined by:",
@@ -2787,7 +3295,14 @@ SINA.lectures["biochem1-nucleotides"] = {
     "Hydrogen bonds"
    ],
    "answer": 1,
-   "why": "Strands pair by hydrogen bonds."
+   "why": "Strands pair by hydrogen bonds.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-nucleotides/07.jpg",
+     "lec": "Nucleotides and nucleic acids",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "A nucleoside consists of:",
@@ -2798,7 +3313,19 @@ SINA.lectures["biochem1-nucleotides"] = {
     "Phosphate + base"
    ],
    "answer": 2,
-   "why": "The nucleotide adds phosphate."
+   "why": "The nucleotide adds phosphate.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-nucleotides/08.jpg",
+     "lec": "Nucleotides and nucleic acids",
+     "n": 8
+    },
+    {
+     "src": "files/slides/biochem1-nucleotides/09.jpg",
+     "lec": "Nucleotides and nucleic acids",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "DNA absorbs UV maximally at:",
@@ -2809,7 +3336,14 @@ SINA.lectures["biochem1-nucleotides"] = {
     "280 nm"
    ],
    "answer": 0,
-   "why": "Proteins: 280 nm."
+   "why": "Proteins: 280 nm.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-nucleotides/12.jpg",
+     "lec": "Nucleotides and nucleic acids",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "DNA rich in GC has a:",
@@ -2820,7 +3354,14 @@ SINA.lectures["biochem1-nucleotides"] = {
     "No Tm"
    ],
    "answer": 2,
-   "why": "Three hydrogen bonds per GC pair."
+   "why": "Three hydrogen bonds per GC pair.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-nucleotides/07.jpg",
+     "lec": "Nucleotides and nucleic acids",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which enzymes cut DNA inside a strand?",
@@ -2831,7 +3372,14 @@ SINA.lectures["biochem1-nucleotides"] = {
     "Endonucleases"
    ],
    "answer": 3,
-   "why": "Exonucleases cut from the ends."
+   "why": "Exonucleases cut from the ends.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-nucleotides/12.jpg",
+     "lec": "Nucleotides and nucleic acids",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "RNA contains:",
@@ -2842,7 +3390,19 @@ SINA.lectures["biochem1-nucleotides"] = {
     "Ribose and thymine"
    ],
    "answer": 0,
-   "why": "Single strand."
+   "why": "Single strand.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-nucleotides/16.jpg",
+     "lec": "Nucleotides and nucleic acids",
+     "n": 16
+    },
+    {
+     "src": "files/slides/biochem1-nucleotides/19.jpg",
+     "lec": "Nucleotides and nucleic acids",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which RNA carries amino acids?",
@@ -2853,7 +3413,14 @@ SINA.lectures["biochem1-nucleotides"] = {
     "rRNA"
    ],
    "answer": 1,
-   "why": "MicroRNA regulates."
+   "why": "MicroRNA regulates.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-nucleotides/18.jpg",
+     "lec": "Nucleotides and nucleic acids",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "cAMP is a:",
@@ -2864,7 +3431,14 @@ SINA.lectures["biochem1-nucleotides"] = {
     "Coenzyme"
    ],
    "answer": 0,
-   "why": "Free nucleotide."
+   "why": "Free nucleotide.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-nucleotides/21.jpg",
+     "lec": "Nucleotides and nucleic acids",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which technique amplifies DNA?",
@@ -2875,7 +3449,14 @@ SINA.lectures["biochem1-nucleotides"] = {
     "PCR"
    ],
    "answer": 3,
-   "why": "Polymerase chain reaction."
+   "why": "Polymerase chain reaction.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-nucleotides/23.jpg",
+     "lec": "Nucleotides and nucleic acids",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "An example of a retrovirus genome is:",
@@ -2886,7 +3467,19 @@ SINA.lectures["biochem1-nucleotides"] = {
     "Lipid"
    ],
    "answer": 0,
-   "why": "Adenovirus is a DNA virus."
+   "why": "Adenovirus is a DNA virus.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-nucleotides/06.jpg",
+     "lec": "Nucleotides and nucleic acids",
+     "n": 6
+    },
+    {
+     "src": "files/slides/biochem1-nucleotides/15.jpg",
+     "lec": "Nucleotides and nucleic acids",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3285,7 +3878,14 @@ SINA.lectures["biochem1-carb-metabolism"] = {
     "0.3-0.5 g/L"
    ],
    "answer": 0,
-   "why": "3.9-5.6 mmol/L."
+   "why": "3.9-5.6 mmol/L.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carb-metabolism/08.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Where does glycolysis occur?",
@@ -3307,7 +3907,19 @@ SINA.lectures["biochem1-carb-metabolism"] = {
     "1 pyruvate"
    ],
    "answer": 1,
-   "why": "Net 2 ATP + 2 NADH."
+   "why": "Net 2 ATP + 2 NADH.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carb-metabolism/29.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 29
+    },
+    {
+     "src": "files/slides/biochem1-carb-metabolism/30.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which is an irreversible regulated step of glycolysis?",
@@ -3318,7 +3930,14 @@ SINA.lectures["biochem1-carb-metabolism"] = {
     "Hexokinase/glucokinase"
    ],
    "answer": 3,
-   "why": "Also PFK-1 and pyruvate kinase."
+   "why": "Also PFK-1 and pyruvate kinase.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carb-metabolism/14.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "In anaerobic muscle, pyruvate becomes:",
@@ -3329,7 +3948,19 @@ SINA.lectures["biochem1-carb-metabolism"] = {
     "Acetyl-CoA"
    ],
    "answer": 1,
-   "why": "Recycled via the Cori cycle."
+   "why": "Recycled via the Cori cycle.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carb-metabolism/03.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 3
+    },
+    {
+     "src": "files/slides/biochem1-carb-metabolism/23.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The Cori cycle links:",
@@ -3340,7 +3971,19 @@ SINA.lectures["biochem1-carb-metabolism"] = {
     "Muscle and liver"
    ],
    "answer": 3,
-   "why": "Lactate → glucose in liver."
+   "why": "Lactate → glucose in liver.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carb-metabolism/30.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 30
+    },
+    {
+     "src": "files/slides/biochem1-carb-metabolism/33.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Pyruvate is converted to acetyl-CoA by:",
@@ -3351,7 +3994,14 @@ SINA.lectures["biochem1-carb-metabolism"] = {
     "Pyruvate kinase"
    ],
    "answer": 1,
-   "why": "Entry to the Krebs cycle."
+   "why": "Entry to the Krebs cycle.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carb-metabolism/29.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "One NADH yields about:",
@@ -3362,7 +4012,19 @@ SINA.lectures["biochem1-carb-metabolism"] = {
     "4 ATP"
    ],
    "answer": 0,
-   "why": "FADH₂ ≈ 1.5 ATP."
+   "why": "FADH₂ ≈ 1.5 ATP.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carb-metabolism/29.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 29
+    },
+    {
+     "src": "files/slides/biochem1-carb-metabolism/30.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Complete oxidation of glucose yields about:",
@@ -3373,7 +4035,19 @@ SINA.lectures["biochem1-carb-metabolism"] = {
     "30-32 ATP"
    ],
    "answer": 3,
-   "why": "Depends on the shuttle."
+   "why": "Depends on the shuttle.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carb-metabolism/29.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 29
+    },
+    {
+     "src": "files/slides/biochem1-carb-metabolism/30.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "The glycerol-3-phosphate shuttle operates mainly in:",
@@ -3384,7 +4058,14 @@ SINA.lectures["biochem1-carb-metabolism"] = {
     "Kidney only"
    ],
    "answer": 1,
-   "why": "1.5 ATP per NADH."
+   "why": "1.5 ATP per NADH.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carb-metabolism/30.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Glycogenesis uses activated glucose in the form of:",
@@ -3395,7 +4076,14 @@ SINA.lectures["biochem1-carb-metabolism"] = {
     "ATP-glucose"
    ],
    "answer": 0,
-   "why": "Primed by glycogenin."
+   "why": "Primed by glycogenin.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carb-metabolism/32.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which enzyme releases free glucose from glycogen in the liver (not muscle)?",
@@ -3406,7 +4094,14 @@ SINA.lectures["biochem1-carb-metabolism"] = {
     "Phosphorylase"
    ],
    "answer": 2,
-   "why": "Muscle keeps its glucose."
+   "why": "Muscle keeps its glucose.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carb-metabolism/34.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Glycogenolysis is activated by:",
@@ -3417,7 +4112,14 @@ SINA.lectures["biochem1-carb-metabolism"] = {
     "Fed state"
    ],
    "answer": 2,
-   "why": "Fasting, intense effort."
+   "why": "Fasting, intense effort.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carb-metabolism/34.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which amino acids are NOT glucogenic?",
@@ -3428,7 +4130,14 @@ SINA.lectures["biochem1-carb-metabolism"] = {
     "Leu and Lys"
    ],
    "answer": 3,
-   "why": "They are purely ketogenic."
+   "why": "They are purely ketogenic.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carb-metabolism/39.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Gluconeogenesis takes place mainly in:",
@@ -3439,7 +4148,14 @@ SINA.lectures["biochem1-carb-metabolism"] = {
     "Red cells"
    ],
    "answer": 1,
-   "why": "Not the reverse of glycolysis."
+   "why": "Not the reverse of glycolysis.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carb-metabolism/37.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "The key enzyme of the pentose phosphate pathway is:",
@@ -3450,7 +4166,14 @@ SINA.lectures["biochem1-carb-metabolism"] = {
     "G6PD"
    ],
    "answer": 3,
-   "why": "Produces NADPH and ribose-5-P."
+   "why": "Produces NADPH and ribose-5-P.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-carb-metabolism/40.jpg",
+     "lec": "Carbohydrate metabolism",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3871,7 +4594,14 @@ SINA.lectures["biochem1-lipid-metabolism"] = {
     "IP3 and DAG"
    ],
    "answer": 3,
-   "why": "From phosphatidylinositol."
+   "why": "From phosphatidylinositol.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipid-metabolism/06.jpg",
+     "lec": "Lipid metabolism",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Arachidonic acid is the precursor of:",
@@ -3882,7 +4612,14 @@ SINA.lectures["biochem1-lipid-metabolism"] = {
     "Bile salts"
    ],
    "answer": 2,
-   "why": "Released by phospholipase A2."
+   "why": "Released by phospholipase A2.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipid-metabolism/06.jpg",
+     "lec": "Lipid metabolism",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Fatty acid activation costs about:",
@@ -3893,7 +4630,19 @@ SINA.lectures["biochem1-lipid-metabolism"] = {
     "2 ATP"
    ],
    "answer": 3,
-   "why": "Forms acyl-CoA."
+   "why": "Forms acyl-CoA.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipid-metabolism/16.jpg",
+     "lec": "Lipid metabolism",
+     "n": 16
+    },
+    {
+     "src": "files/slides/biochem1-lipid-metabolism/31.jpg",
+     "lec": "Lipid metabolism",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Long-chain fatty acids enter mitochondria via:",
@@ -3904,7 +4653,14 @@ SINA.lectures["biochem1-lipid-metabolism"] = {
     "Albumin"
    ],
    "answer": 2,
-   "why": "The carnitine shuttle."
+   "why": "The carnitine shuttle.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipid-metabolism/12.jpg",
+     "lec": "Lipid metabolism",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The last step of each β-oxidation turn is:",
@@ -3915,7 +4671,19 @@ SINA.lectures["biochem1-lipid-metabolism"] = {
     "Hydration"
    ],
    "answer": 0,
-   "why": "Releases acetyl-CoA."
+   "why": "Releases acetyl-CoA.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipid-metabolism/16.jpg",
+     "lec": "Lipid metabolism",
+     "n": 16
+    },
+    {
+     "src": "files/slides/biochem1-lipid-metabolism/21.jpg",
+     "lec": "Lipid metabolism",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "How many acetyl-CoA come from palmitate (C16)?",
@@ -3926,7 +4694,14 @@ SINA.lectures["biochem1-lipid-metabolism"] = {
     "4"
    ],
    "answer": 1,
-   "why": "n = 8; 7 turns."
+   "why": "n = 8; 7 turns.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipid-metabolism/04.jpg",
+     "lec": "Lipid metabolism",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The net ATP yield of palmitate oxidation is about:",
@@ -3948,7 +4723,14 @@ SINA.lectures["biochem1-lipid-metabolism"] = {
     "Propionyl-CoA"
    ],
    "answer": 3,
-   "why": "→ succinyl-CoA."
+   "why": "→ succinyl-CoA.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipid-metabolism/17.jpg",
+     "lec": "Lipid metabolism",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Ketone bodies are made in:",
@@ -3959,7 +4741,14 @@ SINA.lectures["biochem1-lipid-metabolism"] = {
     "Kidney only"
    ],
    "answer": 1,
-   "why": "From acetyl-CoA."
+   "why": "From acetyl-CoA.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipid-metabolism/21.jpg",
+     "lec": "Lipid metabolism",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which cells cannot use ketone bodies?",
@@ -3970,7 +4759,14 @@ SINA.lectures["biochem1-lipid-metabolism"] = {
     "Heart cells"
    ],
    "answer": 0,
-   "why": "No mitochondria: strictly glucose-dependent."
+   "why": "No mitochondria: strictly glucose-dependent.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipid-metabolism/22.jpg",
+     "lec": "Lipid metabolism",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Uncontrolled diabetes can cause:",
@@ -3981,7 +4777,14 @@ SINA.lectures["biochem1-lipid-metabolism"] = {
     "Metabolic alkalosis"
    ],
    "answer": 0,
-   "why": "Metabolic acidosis."
+   "why": "Metabolic acidosis.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipid-metabolism/22.jpg",
+     "lec": "Lipid metabolism",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Fatty acid synthesis takes place in the:",
@@ -3992,7 +4795,19 @@ SINA.lectures["biochem1-lipid-metabolism"] = {
     "Cytoplasm"
    ],
    "answer": 3,
-   "why": "By fatty acid synthase."
+   "why": "By fatty acid synthase.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipid-metabolism/26.jpg",
+     "lec": "Lipid metabolism",
+     "n": 26
+    },
+    {
+     "src": "files/slides/biochem1-lipid-metabolism/30.jpg",
+     "lec": "Lipid metabolism",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "The key regulated enzyme of cholesterol synthesis is:",
@@ -4003,7 +4818,19 @@ SINA.lectures["biochem1-lipid-metabolism"] = {
     "HMG-CoA reductase"
    ],
    "answer": 3,
-   "why": "Target of statins."
+   "why": "Target of statins.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipid-metabolism/33.jpg",
+     "lec": "Lipid metabolism",
+     "n": 33
+    },
+    {
+     "src": "files/slides/biochem1-lipid-metabolism/34.jpg",
+     "lec": "Lipid metabolism",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Primary bile salts are conjugated to:",
@@ -4014,7 +4841,14 @@ SINA.lectures["biochem1-lipid-metabolism"] = {
     "Phosphate"
    ],
    "answer": 0,
-   "why": "In the liver."
+   "why": "In the liver.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-lipid-metabolism/35.jpg",
+     "lec": "Lipid metabolism",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4429,7 +5263,14 @@ SINA.lectures["biochem1-aa-metabolism"] = {
     "Hydrolysis of peptide bonds"
    ],
    "answer": 3,
-   "why": "Proteins → peptides → amino acids."
+   "why": "Proteins → peptides → amino acids.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-aa-metabolism/04.jpg",
+     "lec": "Amino acid metabolism and the urea cycle",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which protease works in an acidic medium?",
@@ -4440,7 +5281,14 @@ SINA.lectures["biochem1-aa-metabolism"] = {
     "Carboxypeptidase"
    ],
    "answer": 0,
-   "why": "Stomach."
+   "why": "Stomach.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-aa-metabolism/05.jpg",
+     "lec": "Amino acid metabolism and the urea cycle",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which is an endogenous proteolysis system?",
@@ -4451,7 +5299,19 @@ SINA.lectures["biochem1-aa-metabolism"] = {
     "Trypsin"
    ],
    "answer": 1,
-   "why": "Also lysosomes and calpains."
+   "why": "Also lysosomes and calpains.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-aa-metabolism/07.jpg",
+     "lec": "Amino acid metabolism and the urea cycle",
+     "n": 7
+    },
+    {
+     "src": "files/slides/biochem1-aa-metabolism/08.jpg",
+     "lec": "Amino acid metabolism and the urea cycle",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Calpastatin:",
@@ -4462,7 +5322,14 @@ SINA.lectures["biochem1-aa-metabolism"] = {
     "Activates calpain"
    ],
    "answer": 0,
-   "why": "Regulates calpain activity."
+   "why": "Regulates calpain activity.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-aa-metabolism/07.jpg",
+     "lec": "Amino acid metabolism and the urea cycle",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Decarboxylation of tryptophan leads to:",
@@ -4517,7 +5384,14 @@ SINA.lectures["biochem1-aa-metabolism"] = {
     "Brain"
    ],
    "answer": 1,
-   "why": "Transaminases."
+   "why": "Transaminases.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-aa-metabolism/13.jpg",
+     "lec": "Amino acid metabolism and the urea cycle",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "ALT converts alanine + α-ketoglutarate into:",
@@ -4528,7 +5402,14 @@ SINA.lectures["biochem1-aa-metabolism"] = {
     "Aspartate"
    ],
    "answer": 2,
-   "why": "AST uses aspartate."
+   "why": "AST uses aspartate.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-aa-metabolism/13.jpg",
+     "lec": "Amino acid metabolism and the urea cycle",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Oxidative deamination releases:",
@@ -4550,7 +5431,14 @@ SINA.lectures["biochem1-aa-metabolism"] = {
     "Liver"
    ],
    "answer": 3,
-   "why": "Urea cycle; excreted by kidney."
+   "why": "Urea cycle; excreted by kidney.",
+   "slides": [
+    {
+     "src": "files/slides/biochem1-aa-metabolism/16.jpg",
+     "lec": "Amino acid metabolism and the urea cycle",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which amino acids are purely ketogenic?",

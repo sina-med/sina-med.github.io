@@ -250,7 +250,19 @@ SINA.lectures["term1-intro"] = {
     "Word root"
    ],
    "answer": 3,
-   "why": "E.g. gastr = stomach."
+   "why": "E.g. gastr = stomach.",
+   "slides": [
+    {
+     "src": "files/slides/term1-intro/12.jpg",
+     "lec": "Introduction to medical terminology",
+     "n": 12
+    },
+    {
+     "src": "files/slides/term1-intro/13.jpg",
+     "lec": "Introduction to medical terminology",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "A combining form is:",
@@ -261,7 +273,19 @@ SINA.lectures["term1-intro"] = {
     "A word root plus a combining vowel"
    ],
    "answer": 3,
-   "why": "Usually root + o: gastr/o."
+   "why": "Usually root + o: gastr/o.",
+   "slides": [
+    {
+     "src": "files/slides/term1-intro/13.jpg",
+     "lec": "Introduction to medical terminology",
+     "n": 13
+    },
+    {
+     "src": "files/slides/term1-intro/14.jpg",
+     "lec": "Introduction to medical terminology",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Where does a suffix always appear?",
@@ -272,7 +296,19 @@ SINA.lectures["term1-intro"] = {
     "In the middle"
    ],
    "answer": 2,
-   "why": "It usually indicates a procedure, condition or disease."
+   "why": "It usually indicates a procedure, condition or disease.",
+   "slides": [
+    {
+     "src": "files/slides/term1-intro/14.jpg",
+     "lec": "Introduction to medical terminology",
+     "n": 14
+    },
+    {
+     "src": "files/slides/term1-intro/15.jpg",
+     "lec": "Introduction to medical terminology",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "How should you decode a medical term?",
@@ -283,7 +319,14 @@ SINA.lectures["term1-intro"] = {
     "Start with the root"
    ],
    "answer": 0,
-   "why": "Then work toward the beginning."
+   "why": "Then work toward the beginning.",
+   "slides": [
+    {
+     "src": "files/slides/term1-intro/08.jpg",
+     "lec": "Introduction to medical terminology",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "In 'pericardiectomy', 'peri-' means:",
@@ -294,7 +337,14 @@ SINA.lectures["term1-intro"] = {
     "Within"
    ],
    "answer": 1,
-   "why": "Surgical removal of part of the pericardium."
+   "why": "Surgical removal of part of the pericardium.",
+   "slides": [
+    {
+     "src": "files/slides/term1-intro/11.jpg",
+     "lec": "Introduction to medical terminology",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which rule applies to 'gastr/o/dynia'?",
@@ -305,7 +355,14 @@ SINA.lectures["term1-intro"] = {
     "A prefix links two roots"
    ],
    "answer": 0,
-   "why": "-dynia starts with a consonant."
+   "why": "-dynia starts with a consonant.",
+   "slides": [
+    {
+     "src": "files/slides/term1-intro/25.jpg",
+     "lec": "Introduction to medical terminology",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Why is it 'gastritis' and not 'gastroitis'?",
@@ -316,7 +373,14 @@ SINA.lectures["term1-intro"] = {
     "The prefix rule applies"
    ],
    "answer": 0,
-   "why": "Rule 1."
+   "why": "Rule 1.",
+   "slides": [
+    {
+     "src": "files/slides/term1-intro/25.jpg",
+     "lec": "Introduction to medical terminology",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The suffix -ectomy means:",
@@ -327,7 +391,14 @@ SINA.lectures["term1-intro"] = {
     "Surgical removal"
    ],
    "answer": 3,
-   "why": "-otomy means incision."
+   "why": "-otomy means incision.",
+   "slides": [
+    {
+     "src": "files/slides/term1-intro/11.jpg",
+     "lec": "Introduction to medical terminology",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The suffix -rrhaphy means:",
@@ -371,7 +442,14 @@ SINA.lectures["term1-intro"] = {
     "Normal pressure"
    ],
    "answer": 1,
-   "why": "hypo- = deficient, decreased."
+   "why": "hypo- = deficient, decreased.",
+   "slides": [
+    {
+     "src": "files/slides/term1-intro/42.jpg",
+     "lec": "Introduction to medical terminology",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "'Eupnoea' means:",
@@ -393,7 +471,14 @@ SINA.lectures["term1-intro"] = {
     "Blue"
    ],
    "answer": 1,
-   "why": "Erythrocyte = red blood cell."
+   "why": "Erythrocyte = red blood cell.",
+   "slides": [
+    {
+     "src": "files/slides/term1-intro/42.jpg",
+     "lec": "Introduction to medical terminology",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Which is a 'pertaining to' suffix?",
@@ -426,7 +511,19 @@ SINA.lectures["term1-intro"] = {
     "Sign"
    ],
    "answer": 3,
-   "why": "A sign can be observed and measured."
+   "why": "A sign can be observed and measured.",
+   "slides": [
+    {
+     "src": "files/slides/term1-intro/20.jpg",
+     "lec": "Introduction to medical terminology",
+     "n": 20
+    },
+    {
+     "src": "files/slides/term1-intro/21.jpg",
+     "lec": "Introduction to medical terminology",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "'Myelopathy' means disease of the:",
@@ -931,7 +1028,19 @@ SINA.lectures["term1-cardio"] = {
     "Study of the heart (suffix meaning first)"
    ],
    "answer": 3,
-   "why": "-logy = study of; cardi/o = heart."
+   "why": "-logy = study of; cardi/o = heart.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/38.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 38
+    },
+    {
+     "src": "files/slides/term1-cardio/39.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Which combining form does NOT mean vessel?",
@@ -942,7 +1051,19 @@ SINA.lectures["term1-cardio"] = {
     "angi/o"
    ],
    "answer": 0,
-   "why": "phleb/o means vein."
+   "why": "phleb/o means vein.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/24.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 24
+    },
+    {
+     "src": "files/slides/term1-cardio/25.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "'Aortostenosis' means:",
@@ -953,7 +1074,19 @@ SINA.lectures["term1-cardio"] = {
     "Narrowing of the aorta"
    ],
    "answer": 3,
-   "why": "-stenosis = narrowing."
+   "why": "-stenosis = narrowing.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/13.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 13
+    },
+    {
+     "src": "files/slides/term1-cardio/14.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "'Arteriosclerosis' means:",
@@ -964,7 +1097,19 @@ SINA.lectures["term1-cardio"] = {
     "Rupture of an artery"
    ],
    "answer": 0,
-   "why": "-sclerosis = hardening."
+   "why": "-sclerosis = hardening.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/15.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 15
+    },
+    {
+     "src": "files/slides/term1-cardio/16.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "An atheroma is:",
@@ -975,7 +1120,19 @@ SINA.lectures["term1-cardio"] = {
     "A defect in a heart valve"
    ],
    "answer": 1,
-   "why": "ather/o = fatty plaque."
+   "why": "ather/o = fatty plaque.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/08.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 8
+    },
+    {
+     "src": "files/slides/term1-cardio/09.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "'Thrombolysis' means:",
@@ -986,7 +1143,19 @@ SINA.lectures["term1-cardio"] = {
     "Removal of a vein"
    ],
    "answer": 1,
-   "why": "-lysis = breaking up."
+   "why": "-lysis = breaking up.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/31.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 31
+    },
+    {
+     "src": "files/slides/term1-cardio/32.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "'Phlebitis' means:",
@@ -997,7 +1166,19 @@ SINA.lectures["term1-cardio"] = {
     "Inflammation of the heart"
    ],
    "answer": 2,
-   "why": "phleb/o = vein."
+   "why": "phleb/o = vein.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/27.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 27
+    },
+    {
+     "src": "files/slides/term1-cardio/28.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The innermost layer of the heart is the:",
@@ -1008,7 +1189,14 @@ SINA.lectures["term1-cardio"] = {
     "Parietal pericardium"
    ],
    "answer": 2,
-   "why": "endo- = within."
+   "why": "endo- = within.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/39.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "The epicardium is the:",
@@ -1019,7 +1207,19 @@ SINA.lectures["term1-cardio"] = {
     "Heart muscle"
    ],
    "answer": 0,
-   "why": "It lies upon the heart."
+   "why": "It lies upon the heart.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/42.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 42
+    },
+    {
+     "src": "files/slides/term1-cardio/43.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "An electrocardiogram is:",
@@ -1030,7 +1230,14 @@ SINA.lectures["term1-cardio"] = {
     "A record of the heart's electrical activity"
    ],
    "answer": 3,
-   "why": "electr/o + cardi/o + -gram."
+   "why": "electr/o + cardi/o + -gram.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/23.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Angina pectoris is:",
@@ -1041,7 +1248,14 @@ SINA.lectures["term1-cardio"] = {
     "Enlargement of the heart"
    ],
    "answer": 2,
-   "why": "A warning sign of myocardial infarction."
+   "why": "A warning sign of myocardial infarction.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/67.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 67
+    }
+   ]
   },
   {
    "q": "Myocardial infarction is:",
@@ -1052,7 +1266,19 @@ SINA.lectures["term1-cardio"] = {
     "An irregular heart rhythm"
    ],
    "answer": 2,
-   "why": "Troponin is released."
+   "why": "Troponin is released.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/67.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 67
+    },
+    {
+     "src": "files/slides/term1-cardio/70.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 70
+    }
+   ]
   },
   {
    "q": "'Bradycardia' means:",
@@ -1063,7 +1289,14 @@ SINA.lectures["term1-cardio"] = {
     "Slow heart rate"
    ],
    "answer": 3,
-   "why": "brady- = slow."
+   "why": "brady- = slow.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/69.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 69
+    }
+   ]
   },
   {
    "q": "The treatment for ventricular fibrillation is:",
@@ -1074,7 +1307,14 @@ SINA.lectures["term1-cardio"] = {
     "Rest"
    ],
    "answer": 1,
-   "why": "It is a life-threatening emergency."
+   "why": "It is a life-threatening emergency.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/69.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 69
+    }
+   ]
   },
   {
    "q": "Vital signs include:",
@@ -1085,7 +1325,14 @@ SINA.lectures["term1-cardio"] = {
     "CRP and blood count"
    ],
    "answer": 0,
-   "why": "TPR + BP."
+   "why": "TPR + BP.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/68.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 68
+    }
+   ]
   },
   {
    "q": "Which blood test detects death of myocardial cells?",
@@ -1096,7 +1343,14 @@ SINA.lectures["term1-cardio"] = {
     "Haemoglobin"
    ],
    "answer": 1,
-   "why": "Two proteins released when myocardial cells die."
+   "why": "Two proteins released when myocardial cells die.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/70.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 70
+    }
+   ]
   },
   {
    "q": "CABG stands for:",
@@ -1107,7 +1361,14 @@ SINA.lectures["term1-cardio"] = {
     "Cardiac angiography by graft"
    ],
    "answer": 0,
-   "why": "It bypasses an occluded coronary artery."
+   "why": "It bypasses an occluded coronary artery.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/76.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 76
+    }
+   ]
   },
   {
    "q": "How does aspirin prevent heart attacks?",
@@ -1118,7 +1379,14 @@ SINA.lectures["term1-cardio"] = {
     "Keeps platelets from sticking together"
    ],
    "answer": 3,
-   "why": "Thrombolytics dissolve existing clots."
+   "why": "Thrombolytics dissolve existing clots.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/75.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 75
+    }
+   ]
   },
   {
    "q": "'Endarterectomy' means:",
@@ -1129,7 +1397,19 @@ SINA.lectures["term1-cardio"] = {
     "Suturing of an aneurysm"
    ],
    "answer": 2,
-   "why": "end- + arter + -ectomy."
+   "why": "end- + arter + -ectomy.",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/08.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 8
+    },
+    {
+     "src": "files/slides/term1-cardio/09.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "'Hypercholesterolemia' means:",
@@ -1140,7 +1420,14 @@ SINA.lectures["term1-cardio"] = {
     "More than normal cholesterol in the blood"
    ],
    "answer": 3,
-   "why": "hyper- + cholesterol + -emia (blood)."
+   "why": "hyper- + cholesterol + -emia (blood).",
+   "slides": [
+    {
+     "src": "files/slides/term1-cardio/70.jpg",
+     "lec": "Cardiovascular system terminology",
+     "n": 70
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1655,7 +1942,14 @@ SINA.lectures["term1-resp"] = {
     "Physiological activity during sleep"
    ],
    "answer": 3,
-   "why": "Used to detect sleep apnoea."
+   "why": "Used to detect sleep apnoea.",
+   "slides": [
+    {
+     "src": "files/slides/term1-resp/07.jpg",
+     "lec": "Respiratory system terminology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which combining form means lung?",
@@ -1677,7 +1971,19 @@ SINA.lectures["term1-resp"] = {
     "Ear, nose and throat"
    ],
    "answer": 2,
-   "why": "pulmon = lung."
+   "why": "pulmon = lung.",
+   "slides": [
+    {
+     "src": "files/slides/term1-resp/11.jpg",
+     "lec": "Respiratory system terminology",
+     "n": 11
+    },
+    {
+     "src": "files/slides/term1-resp/12.jpg",
+     "lec": "Respiratory system terminology",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "An otolaryngologist is also called:",
@@ -1688,7 +1994,19 @@ SINA.lectures["term1-resp"] = {
     "An ENT specialist"
    ],
    "answer": 3,
-   "why": "ot/o ear + laryng/o larynx."
+   "why": "ot/o ear + laryng/o larynx.",
+   "slides": [
+    {
+     "src": "files/slides/term1-resp/19.jpg",
+     "lec": "Respiratory system terminology",
+     "n": 19
+    },
+    {
+     "src": "files/slides/term1-resp/20.jpg",
+     "lec": "Respiratory system terminology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The structure acting as a lid over the laryngopharynx is the:",
@@ -1699,7 +2017,19 @@ SINA.lectures["term1-resp"] = {
     "Adam's apple"
    ],
    "answer": 1,
-   "why": "It closes during swallowing."
+   "why": "It closes during swallowing.",
+   "slides": [
+    {
+     "src": "files/slides/term1-resp/19.jpg",
+     "lec": "Respiratory system terminology",
+     "n": 19
+    },
+    {
+     "src": "files/slides/term1-resp/20.jpg",
+     "lec": "Respiratory system terminology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The smallest divisions of the bronchial tree are the:",
@@ -1710,7 +2040,14 @@ SINA.lectures["term1-resp"] = {
     "Trachea"
    ],
    "answer": 1,
-   "why": "They end in alveolar ducts and sacs."
+   "why": "They end in alveolar ducts and sacs.",
+   "slides": [
+    {
+     "src": "files/slides/term1-resp/22.jpg",
+     "lec": "Respiratory system terminology",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "The heart, aorta, oesophagus and trachea lie in the:",
@@ -1721,7 +2058,19 @@ SINA.lectures["term1-resp"] = {
     "Dorsal cavity"
    ],
    "answer": 2,
-   "why": "Between the lungs."
+   "why": "Between the lungs.",
+   "slides": [
+    {
+     "src": "files/slides/term1-resp/18.jpg",
+     "lec": "Respiratory system terminology",
+     "n": 18
+    },
+    {
+     "src": "files/slides/term1-resp/19.jpg",
+     "lec": "Respiratory system terminology",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "'Tachypnea' is:",
@@ -1732,7 +2081,14 @@ SINA.lectures["term1-resp"] = {
     "Abnormally rapid breathing (> 20/min)"
    ],
    "answer": 3,
-   "why": "tachy- = rapid."
+   "why": "tachy- = rapid.",
+   "slides": [
+    {
+     "src": "files/slides/term1-resp/45.jpg",
+     "lec": "Respiratory system terminology",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "'Apnea' means:",
@@ -1743,7 +2099,14 @@ SINA.lectures["term1-resp"] = {
     "Temporary absence of breathing"
    ],
    "answer": 3,
-   "why": "a- = without."
+   "why": "a- = without.",
+   "slides": [
+    {
+     "src": "files/slides/term1-resp/07.jpg",
+     "lec": "Respiratory system terminology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "'Dysphonia' is:",
@@ -1754,7 +2117,14 @@ SINA.lectures["term1-resp"] = {
     "Complete loss of the voice"
    ],
    "answer": 1,
-   "why": "Aphonia is complete loss."
+   "why": "Aphonia is complete loss.",
+   "slides": [
+    {
+     "src": "files/slides/term1-resp/46.jpg",
+     "lec": "Respiratory system terminology",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "'Epistaxis' means:",
@@ -1787,7 +2157,14 @@ SINA.lectures["term1-resp"] = {
     "Haemothorax"
    ],
    "answer": 0,
-   "why": "pneum/o = air or lung."
+   "why": "pneum/o = air or lung.",
+   "slides": [
+    {
+     "src": "files/slides/term1-resp/23.jpg",
+     "lec": "Respiratory system terminology",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Pus in the pleural cavity is:",
@@ -2365,7 +2742,14 @@ SINA.lectures["term1-gi"] = {
     "Surgical repair of the rectum"
    ],
    "answer": 3,
-   "why": "-plasty = repair."
+   "why": "-plasty = repair.",
+   "slides": [
+    {
+     "src": "files/slides/term1-gi/05.jpg",
+     "lec": "Digestive system terminology",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which combining form means gums?",
@@ -2376,7 +2760,14 @@ SINA.lectures["term1-gi"] = {
     "stomat/o"
    ],
    "answer": 1,
-   "why": "Gingivitis."
+   "why": "Gingivitis.",
+   "slides": [
+    {
+     "src": "files/slides/term1-gi/09.jpg",
+     "lec": "Digestive system terminology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "'Sublingual' means:",
@@ -2398,7 +2789,14 @@ SINA.lectures["term1-gi"] = {
     "Bleeding gums"
    ],
    "answer": 0,
-   "why": "Also called ptyalism."
+   "why": "Also called ptyalism.",
+   "slides": [
+    {
+     "src": "files/slides/term1-gi/11.jpg",
+     "lec": "Digestive system terminology",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "An esophagoscope is:",
@@ -2409,7 +2807,19 @@ SINA.lectures["term1-gi"] = {
     "An examining instrument"
    ],
    "answer": 3,
-   "why": "-scope = instrument; -scopy = examination."
+   "why": "-scope = instrument; -scopy = examination.",
+   "slides": [
+    {
+     "src": "files/slides/term1-gi/12.jpg",
+     "lec": "Digestive system terminology",
+     "n": 12
+    },
+    {
+     "src": "files/slides/term1-gi/71.jpg",
+     "lec": "Digestive system terminology",
+     "n": 71
+    }
+   ]
   },
   {
    "q": "'Haematemesis' means:",
@@ -2420,7 +2830,14 @@ SINA.lectures["term1-gi"] = {
     "Blood in stool"
    ],
    "answer": 2,
-   "why": "hemat/o + -emesis."
+   "why": "hemat/o + -emesis.",
+   "slides": [
+    {
+     "src": "files/slides/term1-gi/26.jpg",
+     "lec": "Digestive system terminology",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "'Dyspepsia' is:",
@@ -2431,7 +2848,19 @@ SINA.lectures["term1-gi"] = {
     "Painful or difficult digestion"
    ],
    "answer": 3,
-   "why": "-pepsia = digestion."
+   "why": "-pepsia = digestion.",
+   "slides": [
+    {
+     "src": "files/slides/term1-gi/14.jpg",
+     "lec": "Digestive system terminology",
+     "n": 14
+    },
+    {
+     "src": "files/slides/term1-gi/27.jpg",
+     "lec": "Digestive system terminology",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "'Dysphagia' is:",
@@ -2442,7 +2871,14 @@ SINA.lectures["term1-gi"] = {
     "Excess saliva"
    ],
    "answer": 0,
-   "why": "-phagia = swallowing, eating."
+   "why": "-phagia = swallowing, eating.",
+   "slides": [
+    {
+     "src": "files/slides/term1-gi/14.jpg",
+     "lec": "Digestive system terminology",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "'Anorexia' means:",
@@ -2453,7 +2889,14 @@ SINA.lectures["term1-gi"] = {
     "Excess appetite"
    ],
    "answer": 2,
-   "why": "-orexia = appetite."
+   "why": "-orexia = appetite.",
+   "slides": [
+    {
+     "src": "files/slides/term1-gi/14.jpg",
+     "lec": "Digestive system terminology",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "'Aerophagia' is:",
@@ -2464,7 +2907,14 @@ SINA.lectures["term1-gi"] = {
     "Swallowing air"
    ],
    "answer": 3,
-   "why": "aer/o = air."
+   "why": "aer/o = air.",
+   "slides": [
+    {
+     "src": "files/slides/term1-gi/28.jpg",
+     "lec": "Digestive system terminology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which combining form means gallbladder?",
@@ -2475,7 +2925,14 @@ SINA.lectures["term1-gi"] = {
     "col/o"
    ],
    "answer": 1,
-   "why": "chol/e alone means bile."
+   "why": "chol/e alone means bile.",
+   "slides": [
+    {
+     "src": "files/slides/term1-gi/65.jpg",
+     "lec": "Digestive system terminology",
+     "n": 65
+    }
+   ]
   },
   {
    "q": "'-lithiasis' means:",
@@ -2486,7 +2943,14 @@ SINA.lectures["term1-gi"] = {
     "Removal"
    ],
    "answer": 1,
-   "why": "Cholelithiasis = gallstones."
+   "why": "Cholelithiasis = gallstones.",
+   "slides": [
+    {
+     "src": "files/slides/term1-gi/07.jpg",
+     "lec": "Digestive system terminology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "enter/o refers to the:",
@@ -2497,7 +2961,14 @@ SINA.lectures["term1-gi"] = {
     "Rectum"
    ],
    "answer": 0,
-   "why": "col/o is the large intestine."
+   "why": "col/o is the large intestine.",
+   "slides": [
+    {
+     "src": "files/slides/term1-gi/06.jpg",
+     "lec": "Digestive system terminology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The semiliquid mass formed in the stomach is:",
@@ -2508,7 +2979,14 @@ SINA.lectures["term1-gi"] = {
     "Bile"
    ],
    "answer": 0,
-   "why": "The bolus is swallowed food."
+   "why": "The bolus is swallowed food.",
+   "slides": [
+    {
+     "src": "files/slides/term1-gi/18.jpg",
+     "lec": "Digestive system terminology",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Involuntary muscle contractions moving food are called:",
@@ -2519,7 +2997,14 @@ SINA.lectures["term1-gi"] = {
     "Peristalsis"
    ],
    "answer": 3,
-   "why": "They carry the bolus down."
+   "why": "They carry the bolus down.",
+   "slides": [
+    {
+     "src": "files/slides/term1-gi/18.jpg",
+     "lec": "Digestive system terminology",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "A carcinoma is:",
@@ -2530,7 +3015,19 @@ SINA.lectures["term1-gi"] = {
     "A malignant tumour"
    ],
    "answer": 3,
-   "why": "carcin/o + -oma."
+   "why": "carcin/o + -oma.",
+   "slides": [
+    {
+     "src": "files/slides/term1-gi/23.jpg",
+     "lec": "Digestive system terminology",
+     "n": 23
+    },
+    {
+     "src": "files/slides/term1-gi/60.jpg",
+     "lec": "Digestive system terminology",
+     "n": 60
+    }
+   ]
   },
   {
    "q": "'Epigastric' means pertaining to:",
@@ -2541,7 +3038,14 @@ SINA.lectures["term1-gi"] = {
     "The liver"
    ],
    "answer": 2,
-   "why": "epi- = above, upon."
+   "why": "epi- = above, upon.",
+   "slides": [
+    {
+     "src": "files/slides/term1-gi/24.jpg",
+     "lec": "Digestive system terminology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Gastrectomy is:",
@@ -2552,7 +3056,19 @@ SINA.lectures["term1-gi"] = {
     "Incision of the stomach"
    ],
    "answer": 1,
-   "why": "Gastrotomy is an incision."
+   "why": "Gastrotomy is an incision.",
+   "slides": [
+    {
+     "src": "files/slides/term1-gi/22.jpg",
+     "lec": "Digestive system terminology",
+     "n": 22
+    },
+    {
+     "src": "files/slides/term1-gi/52.jpg",
+     "lec": "Digestive system terminology",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3003,7 +3519,19 @@ SINA.lectures["term1-endocrine"] = {
     "Directly into the bloodstream"
    ],
    "answer": 3,
-   "why": "Endocrine = secrete within."
+   "why": "Endocrine = secrete within.",
+   "slides": [
+    {
+     "src": "files/slides/term1-endocrine/18.jpg",
+     "lec": "Endocrine system terminology",
+     "n": 18
+    },
+    {
+     "src": "files/slides/term1-endocrine/19.jpg",
+     "lec": "Endocrine system terminology",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "'Homeostasis' is formed from:",
@@ -3036,7 +3564,14 @@ SINA.lectures["term1-endocrine"] = {
     "Sleep"
    ],
    "answer": 2,
-   "why": "parathyroid/o."
+   "why": "parathyroid/o.",
+   "slides": [
+    {
+     "src": "files/slides/term1-endocrine/20.jpg",
+     "lec": "Endocrine system terminology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The pineal gland influences:",
@@ -3058,7 +3593,19 @@ SINA.lectures["term1-endocrine"] = {
     "Pineal"
    ],
    "answer": 1,
-   "why": "Under hypothalamic control."
+   "why": "Under hypothalamic control.",
+   "slides": [
+    {
+     "src": "files/slides/term1-endocrine/19.jpg",
+     "lec": "Endocrine system terminology",
+     "n": 19
+    },
+    {
+     "src": "files/slides/term1-endocrine/20.jpg",
+     "lec": "Endocrine system terminology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "ACTH stimulates the:",
@@ -3069,7 +3616,19 @@ SINA.lectures["term1-endocrine"] = {
     "Thyroid"
    ],
    "answer": 2,
-   "why": "Adrenocorticotropic hormone."
+   "why": "Adrenocorticotropic hormone.",
+   "slides": [
+    {
+     "src": "files/slides/term1-endocrine/19.jpg",
+     "lec": "Endocrine system terminology",
+     "n": 19
+    },
+    {
+     "src": "files/slides/term1-endocrine/20.jpg",
+     "lec": "Endocrine system terminology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Growth hormone is also called:",
@@ -3080,7 +3639,19 @@ SINA.lectures["term1-endocrine"] = {
     "Somatotropic hormone"
    ],
    "answer": 3,
-   "why": "somat/o = body."
+   "why": "somat/o = body.",
+   "slides": [
+    {
+     "src": "files/slides/term1-endocrine/19.jpg",
+     "lec": "Endocrine system terminology",
+     "n": 19
+    },
+    {
+     "src": "files/slides/term1-endocrine/20.jpg",
+     "lec": "Endocrine system terminology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Prolactin is also known as:",
@@ -3091,7 +3662,19 @@ SINA.lectures["term1-endocrine"] = {
     "Somatotropin"
    ],
    "answer": 1,
-   "why": "lact/o = milk."
+   "why": "lact/o = milk.",
+   "slides": [
+    {
+     "src": "files/slides/term1-endocrine/17.jpg",
+     "lec": "Endocrine system terminology",
+     "n": 17
+    },
+    {
+     "src": "files/slides/term1-endocrine/18.jpg",
+     "lec": "Endocrine system terminology",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "MSH causes:",
@@ -3168,7 +3751,19 @@ SINA.lectures["term1-endocrine"] = {
     "Endocrine glands"
    ],
    "answer": 3,
-   "why": "endocrin = to secrete within."
+   "why": "endocrin = to secrete within.",
+   "slides": [
+    {
+     "src": "files/slides/term1-endocrine/18.jpg",
+     "lec": "Endocrine system terminology",
+     "n": 18
+    },
+    {
+     "src": "files/slides/term1-endocrine/19.jpg",
+     "lec": "Endocrine system terminology",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3565,7 +4160,19 @@ SINA.lectures["term1-nervous"] = {
     "Brain and spinal cord"
    ],
    "answer": 3,
-   "why": "The PNS carries signals to and from it."
+   "why": "The PNS carries signals to and from it.",
+   "slides": [
+    {
+     "src": "files/slides/term1-nervous/06.jpg",
+     "lec": "Nervous system terminology",
+     "n": 6
+    },
+    {
+     "src": "files/slides/term1-nervous/07.jpg",
+     "lec": "Nervous system terminology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "How many pairs of spinal nerves are there?",
@@ -3576,7 +4183,14 @@ SINA.lectures["term1-nervous"] = {
     "12"
    ],
    "answer": 2,
-   "why": "Plus 12 pairs of cranial nerves."
+   "why": "Plus 12 pairs of cranial nerves.",
+   "slides": [
+    {
+     "src": "files/slides/term1-nervous/07.jpg",
+     "lec": "Nervous system terminology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The outermost meningeal layer is the:",
@@ -3587,7 +4201,14 @@ SINA.lectures["term1-nervous"] = {
     "Pia mater"
    ],
    "answer": 0,
-   "why": "'Hard mother'."
+   "why": "'Hard mother'.",
+   "slides": [
+    {
+     "src": "files/slides/term1-nervous/06.jpg",
+     "lec": "Nervous system terminology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Cerebrospinal fluid is found in the:",
@@ -3598,7 +4219,14 @@ SINA.lectures["term1-nervous"] = {
     "Subdural space"
    ],
    "answer": 2,
-   "why": "Between arachnoid and pia."
+   "why": "Between arachnoid and pia.",
+   "slides": [
+    {
+     "src": "files/slides/term1-nervous/06.jpg",
+     "lec": "Nervous system terminology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The pia mater is:",
@@ -3609,7 +4237,14 @@ SINA.lectures["term1-nervous"] = {
     "Fat-filled"
    ],
    "answer": 0,
-   "why": "'Tender mother'."
+   "why": "'Tender mother'.",
+   "slides": [
+    {
+     "src": "files/slides/term1-nervous/06.jpg",
+     "lec": "Nervous system terminology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "'Encephalitis' means inflammation of the:",
@@ -3620,7 +4255,14 @@ SINA.lectures["term1-nervous"] = {
     "Nerve"
    ],
    "answer": 1,
-   "why": "encephal/o = brain."
+   "why": "encephal/o = brain.",
+   "slides": [
+    {
+     "src": "files/slides/term1-nervous/06.jpg",
+     "lec": "Nervous system terminology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "A glioma is a tumour of:",
@@ -3664,7 +4306,19 @@ SINA.lectures["term1-nervous"] = {
     "Cutting the cord"
    ],
    "answer": 0,
-   "why": "-malacia = softening."
+   "why": "-malacia = softening.",
+   "slides": [
+    {
+     "src": "files/slides/term1-nervous/06.jpg",
+     "lec": "Nervous system terminology",
+     "n": 6
+    },
+    {
+     "src": "files/slides/term1-nervous/07.jpg",
+     "lec": "Nervous system terminology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "'Hemiparesis' means:",
@@ -3719,7 +4373,14 @@ SINA.lectures["term1-nervous"] = {
     "Endocrinology"
    ],
    "answer": 1,
-   "why": "Neurology treats nervous system disease."
+   "why": "Neurology treats nervous system disease.",
+   "slides": [
+    {
+     "src": "files/slides/term1-nervous/07.jpg",
+     "lec": "Nervous system terminology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4118,7 +4779,14 @@ SINA.lectures["term1-immune"] = {
     "Lacteals (gut)"
    ],
    "answer": 3,
-   "why": "With fat-soluble vitamins."
+   "why": "With fat-soluble vitamins.",
+   "slides": [
+    {
+     "src": "files/slides/term1-immune/05.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The lymphatic system is often called the:",
@@ -4129,7 +4797,14 @@ SINA.lectures["term1-immune"] = {
     "Portal system"
    ],
    "answer": 2,
-   "why": "It works alongside blood circulation."
+   "why": "It works alongside blood circulation.",
+   "slides": [
+    {
+     "src": "files/slides/term1-immune/06.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Lymphatic capillaries are:",
@@ -4140,7 +4815,14 @@ SINA.lectures["term1-immune"] = {
     "Valveless ducts"
    ],
    "answer": 0,
-   "why": "Cells part briefly to let lymph in."
+   "why": "Cells part briefly to let lymph in.",
+   "slides": [
+    {
+     "src": "files/slides/term1-immune/06.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Why do lymphatic vessels have valves?",
@@ -4151,7 +4833,14 @@ SINA.lectures["term1-immune"] = {
     "To filter bacteria"
    ],
    "answer": 2,
-   "why": "Like veins."
+   "why": "Like veins.",
+   "slides": [
+    {
+     "src": "files/slides/term1-immune/06.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Where does lymph return to the blood?",
@@ -4162,7 +4851,14 @@ SINA.lectures["term1-immune"] = {
     "The kidneys"
    ],
    "answer": 0,
-   "why": "Via two ducts."
+   "why": "Via two ducts.",
+   "slides": [
+    {
+     "src": "files/slides/term1-immune/05.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "An oncologist treats:",
@@ -4173,7 +4869,14 @@ SINA.lectures["term1-immune"] = {
     "Lymph disorders"
    ],
    "answer": 1,
-   "why": "onc = tumour."
+   "why": "onc = tumour.",
+   "slides": [
+    {
+     "src": "files/slides/term1-immune/07.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "An antigen is:",
@@ -4184,7 +4887,14 @@ SINA.lectures["term1-immune"] = {
     "A hormone"
    ],
    "answer": 2,
-   "why": "Viruses, bacteria, toxins, transplants."
+   "why": "Viruses, bacteria, toxins, transplants.",
+   "slides": [
+    {
+     "src": "files/slides/term1-immune/09.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which cells produce antibodies?",
@@ -4195,7 +4905,14 @@ SINA.lectures["term1-immune"] = {
     "B cells"
    ],
    "answer": 3,
-   "why": "Each makes a specific antibody."
+   "why": "Each makes a specific antibody.",
+   "slides": [
+    {
+     "src": "files/slides/term1-immune/13.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Antibodies are also called:",
@@ -4206,7 +4923,19 @@ SINA.lectures["term1-immune"] = {
     "Antigens"
    ],
    "answer": 1,
-   "why": "Ig."
+   "why": "Ig.",
+   "slides": [
+    {
+     "src": "files/slides/term1-immune/13.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 13
+    },
+    {
+     "src": "files/slides/term1-immune/14.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "An autoimmune disorder is one in which:",
@@ -4217,7 +4946,19 @@ SINA.lectures["term1-immune"] = {
     "Allergies occur"
    ],
    "answer": 0,
-   "why": "Loss of tolerance."
+   "why": "Loss of tolerance.",
+   "slides": [
+    {
+     "src": "files/slides/term1-immune/09.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 9
+    },
+    {
+     "src": "files/slides/term1-immune/14.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Tolerance means:",
@@ -4228,7 +4969,14 @@ SINA.lectures["term1-immune"] = {
     "Allergic reaction"
    ],
    "answer": 0,
-   "why": "Also reduced drug response with repeated use."
+   "why": "Also reduced drug response with repeated use.",
+   "slides": [
+    {
+     "src": "files/slides/term1-immune/09.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The prefix 'oligo-' means:",
@@ -4239,7 +4987,14 @@ SINA.lectures["term1-immune"] = {
     "Few, small amount"
    ],
    "answer": 3,
-   "why": "E.g. oliguria."
+   "why": "E.g. oliguria.",
+   "slides": [
+    {
+     "src": "files/slides/term1-immune/12.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The prefix 'pseudo-' means:",
@@ -4250,7 +5005,14 @@ SINA.lectures["term1-immune"] = {
     "False"
    ],
    "answer": 3,
-   "why": "E.g. pseudocyst."
+   "why": "E.g. pseudocyst.",
+   "slides": [
+    {
+     "src": "files/slides/term1-immune/12.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The prefix 'leuko-' refers to:",
@@ -4261,7 +5023,14 @@ SINA.lectures["term1-immune"] = {
     "Blood"
    ],
    "answer": 0,
-   "why": "Leukocyte = white blood cell."
+   "why": "Leukocyte = white blood cell.",
+   "slides": [
+    {
+     "src": "files/slides/term1-immune/11.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "A pathogen is:",
@@ -4272,7 +5041,19 @@ SINA.lectures["term1-immune"] = {
     "A harmless microbe"
    ],
    "answer": 1,
-   "why": "path/o = disease + -gen = producing."
+   "why": "path/o = disease + -gen = producing.",
+   "slides": [
+    {
+     "src": "files/slides/term1-immune/08.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 8
+    },
+    {
+     "src": "files/slides/term1-immune/14.jpg",
+     "lec": "Immune and lymphatic system terminology",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4665,7 +5446,14 @@ SINA.lectures["term1-repro"] = {
     "Pubic symphysis and coccyx"
    ],
    "answer": 3,
-   "why": "In both sexes."
+   "why": "In both sexes.",
+   "slides": [
+    {
+     "src": "files/slides/term1-repro/04.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which combining form means testicle?",
@@ -4676,7 +5464,14 @@ SINA.lectures["term1-repro"] = {
     "oophor/o"
    ],
    "answer": 2,
-   "why": "Also orch/o, test/i."
+   "why": "Also orch/o, test/i.",
+   "slides": [
+    {
+     "src": "files/slides/term1-repro/28.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which combining form means ovary?",
@@ -4687,7 +5482,14 @@ SINA.lectures["term1-repro"] = {
     "mast/o"
    ],
    "answer": 0,
-   "why": "Also ovari/o."
+   "why": "Also ovari/o.",
+   "slides": [
+    {
+     "src": "files/slides/term1-repro/21.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "salping/o refers to the:",
@@ -4698,7 +5500,19 @@ SINA.lectures["term1-repro"] = {
     "Cervix"
    ],
    "answer": 2,
-   "why": "Site of fertilisation."
+   "why": "Site of fertilisation.",
+   "slides": [
+    {
+     "src": "files/slides/term1-repro/18.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 18
+    },
+    {
+     "src": "files/slides/term1-repro/29.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which is NOT a combining form for uterus?",
@@ -4709,7 +5523,14 @@ SINA.lectures["term1-repro"] = {
     "hyster/o"
    ],
    "answer": 0,
-   "why": "colp/o means vagina."
+   "why": "colp/o means vagina.",
+   "slides": [
+    {
+     "src": "files/slides/term1-repro/24.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The muscular layer of the uterus is the:",
@@ -4720,7 +5541,19 @@ SINA.lectures["term1-repro"] = {
     "Cervix"
    ],
    "answer": 1,
-   "why": "my/o = muscle."
+   "why": "my/o = muscle.",
+   "slides": [
+    {
+     "src": "files/slides/term1-repro/38.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 38
+    },
+    {
+     "src": "files/slides/term1-repro/39.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "'Nullipara' describes a woman who:",
@@ -4731,7 +5564,19 @@ SINA.lectures["term1-repro"] = {
     "Has twins"
    ],
    "answer": 2,
-   "why": "-para = to give birth; nulligravida = never pregnant."
+   "why": "-para = to give birth; nulligravida = never pregnant.",
+   "slides": [
+    {
+     "src": "files/slides/term1-repro/27.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 27
+    },
+    {
+     "src": "files/slides/term1-repro/29.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "'Menarche' is:",
@@ -4742,7 +5587,14 @@ SINA.lectures["term1-repro"] = {
     "The first menstrual period"
    ],
    "answer": 3,
-   "why": "men/o = menstruation."
+   "why": "men/o = menstruation.",
+   "slides": [
+    {
+     "src": "files/slides/term1-repro/26.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "'Mastopexy' is:",
@@ -4775,7 +5627,19 @@ SINA.lectures["term1-repro"] = {
     "A breast"
    ],
    "answer": 0,
-   "why": "oophor/o = ovary."
+   "why": "oophor/o = ovary.",
+   "slides": [
+    {
+     "src": "files/slides/term1-repro/21.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 21
+    },
+    {
+     "src": "files/slides/term1-repro/29.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "'Galactorrhea' means:",
@@ -4786,7 +5650,14 @@ SINA.lectures["term1-repro"] = {
     "Milk flow from the breast"
    ],
    "answer": 3,
-   "why": "galact/o = milk."
+   "why": "galact/o = milk.",
+   "slides": [
+    {
+     "src": "files/slides/term1-repro/25.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "'Haematospermia' means:",
@@ -4797,7 +5668,19 @@ SINA.lectures["term1-repro"] = {
     "Blood in the semen"
    ],
    "answer": 3,
-   "why": "hemat/o + sperm."
+   "why": "hemat/o + sperm.",
+   "slides": [
+    {
+     "src": "files/slides/term1-repro/18.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 18
+    },
+    {
+     "src": "files/slides/term1-repro/28.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "An episiotomy is:",
@@ -4808,7 +5691,19 @@ SINA.lectures["term1-repro"] = {
     "Tube ligation"
    ],
    "answer": 0,
-   "why": "To enlarge the vaginal opening."
+   "why": "To enlarge the vaginal opening.",
+   "slides": [
+    {
+     "src": "files/slides/term1-repro/18.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 18
+    },
+    {
+     "src": "files/slides/term1-repro/46.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "A urologist treats:",
@@ -4819,7 +5714,14 @@ SINA.lectures["term1-repro"] = {
     "Skin and hair disorders"
    ],
    "answer": 1,
-   "why": "ur = urine."
+   "why": "ur = urine.",
+   "slides": [
+    {
+     "src": "files/slides/term1-repro/05.jpg",
+     "lec": "Reproductive system terminology",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5217,7 +6119,19 @@ SINA.lectures["term1-msk"] = {
     "Hormone digestion"
    ],
    "answer": 3,
-   "why": "Red marrow forms blood cells."
+   "why": "Red marrow forms blood cells.",
+   "slides": [
+    {
+     "src": "files/slides/term1-msk/08.jpg",
+     "lec": "Musculoskeletal system terminology",
+     "n": 8
+    },
+    {
+     "src": "files/slides/term1-msk/25.jpg",
+     "lec": "Musculoskeletal system terminology",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Red bone marrow is found in:",
@@ -5228,7 +6142,19 @@ SINA.lectures["term1-msk"] = {
     "The medullary cavity"
    ],
    "answer": 2,
-   "why": "Yellow marrow fills the medullary cavity."
+   "why": "Yellow marrow fills the medullary cavity.",
+   "slides": [
+    {
+     "src": "files/slides/term1-msk/08.jpg",
+     "lec": "Musculoskeletal system terminology",
+     "n": 8
+    },
+    {
+     "src": "files/slides/term1-msk/20.jpg",
+     "lec": "Musculoskeletal system terminology",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The shaft of a long bone is the:",
@@ -5250,7 +6176,19 @@ SINA.lectures["term1-msk"] = {
     "Joint stiffness"
    ],
    "answer": 2,
-   "why": "hydr- fluid + arthr + -osis."
+   "why": "hydr- fluid + arthr + -osis.",
+   "slides": [
+    {
+     "src": "files/slides/term1-msk/06.jpg",
+     "lec": "Musculoskeletal system terminology",
+     "n": 6
+    },
+    {
+     "src": "files/slides/term1-msk/07.jpg",
+     "lec": "Musculoskeletal system terminology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Arthroscopy is:",
@@ -5261,7 +6199,19 @@ SINA.lectures["term1-msk"] = {
     "Removal of a joint"
    ],
    "answer": 0,
-   "why": "Minimally invasive."
+   "why": "Minimally invasive.",
+   "slides": [
+    {
+     "src": "files/slides/term1-msk/06.jpg",
+     "lec": "Musculoskeletal system terminology",
+     "n": 6
+    },
+    {
+     "src": "files/slides/term1-msk/07.jpg",
+     "lec": "Musculoskeletal system terminology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Bursitis is inflammation of a:",
@@ -5272,7 +6222,19 @@ SINA.lectures["term1-msk"] = {
     "Joint cartilage"
    ],
    "answer": 1,
-   "why": "Often from overuse."
+   "why": "Often from overuse.",
+   "slides": [
+    {
+     "src": "files/slides/term1-msk/06.jpg",
+     "lec": "Musculoskeletal system terminology",
+     "n": 6
+    },
+    {
+     "src": "files/slides/term1-msk/07.jpg",
+     "lec": "Musculoskeletal system terminology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Osteoporosis develops when:",
@@ -5283,7 +6245,14 @@ SINA.lectures["term1-msk"] = {
     "Joints fuse"
    ],
    "answer": 2,
-   "why": "Osteopenia = bone deficiency."
+   "why": "Osteopenia = bone deficiency.",
+   "slides": [
+    {
+     "src": "files/slides/term1-msk/29.jpg",
+     "lec": "Musculoskeletal system terminology",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "spondyl/o refers to:",
@@ -5294,7 +6263,14 @@ SINA.lectures["term1-msk"] = {
     "Vertebra"
    ],
    "answer": 3,
-   "why": "Vertebral column."
+   "why": "Vertebral column.",
+   "slides": [
+    {
+     "src": "files/slides/term1-msk/30.jpg",
+     "lec": "Musculoskeletal system terminology",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "kyph/o means:",
@@ -5316,7 +6292,14 @@ SINA.lectures["term1-msk"] = {
     "Tendon inflammation"
    ],
    "answer": 0,
-   "why": "-lysis = freeing."
+   "why": "-lysis = freeing.",
+   "slides": [
+    {
+     "src": "files/slides/term1-msk/08.jpg",
+     "lec": "Musculoskeletal system terminology",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "An autograft comes from:",
@@ -5349,7 +6332,19 @@ SINA.lectures["term1-msk"] = {
     "Binding, fusion"
    ],
    "answer": 3,
-   "why": "Arthrodesis = joint fusion."
+   "why": "Arthrodesis = joint fusion.",
+   "slides": [
+    {
+     "src": "files/slides/term1-msk/06.jpg",
+     "lec": "Musculoskeletal system terminology",
+     "n": 6
+    },
+    {
+     "src": "files/slides/term1-msk/07.jpg",
+     "lec": "Musculoskeletal system terminology",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "'Brachydactyly' means:",
@@ -5371,7 +6366,19 @@ SINA.lectures["term1-msk"] = {
     "Joint pain"
    ],
    "answer": 1,
-   "why": "hem/a = blood."
+   "why": "hem/a = blood.",
+   "slides": [
+    {
+     "src": "files/slides/term1-msk/25.jpg",
+     "lec": "Musculoskeletal system terminology",
+     "n": 25
+    },
+    {
+     "src": "files/slides/term1-msk/28.jpg",
+     "lec": "Musculoskeletal system terminology",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5763,7 +6770,14 @@ SINA.lectures["term1-skin"] = {
     "To cover or enclose"
    ],
    "answer": 3,
-   "why": "Skin and related structures."
+   "why": "Skin and related structures.",
+   "slides": [
+    {
+     "src": "files/slides/term1-skin/04.jpg",
+     "lec": "Integumentary system terminology",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The largest organ of the body is the:",
@@ -5774,7 +6788,14 @@ SINA.lectures["term1-skin"] = {
     "Liver"
    ],
    "answer": 2,
-   "why": "About 2 square yards in adults."
+   "why": "About 2 square yards in adults.",
+   "slides": [
+    {
+     "src": "files/slides/term1-skin/04.jpg",
+     "lec": "Integumentary system terminology",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which vitamin does the skin help synthesise?",
@@ -5785,7 +6806,14 @@ SINA.lectures["term1-skin"] = {
     "Vitamin K"
    ],
    "answer": 0,
-   "why": "From ultraviolet light."
+   "why": "From ultraviolet light.",
+   "slides": [
+    {
+     "src": "files/slides/term1-skin/04.jpg",
+     "lec": "Integumentary system terminology",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which combining form means sweat?",
@@ -5796,7 +6824,14 @@ SINA.lectures["term1-skin"] = {
     "pil/o"
    ],
    "answer": 2,
-   "why": "seb/o is sebum."
+   "why": "seb/o is sebum.",
+   "slides": [
+    {
+     "src": "files/slides/term1-skin/04.jpg",
+     "lec": "Integumentary system terminology",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Sebaceous glands secrete:",
@@ -5807,7 +6842,14 @@ SINA.lectures["term1-skin"] = {
     "Melanin"
    ],
    "answer": 0,
-   "why": "Lubricates skin, discourages bacteria."
+   "why": "Lubricates skin, discourages bacteria.",
+   "slides": [
+    {
+     "src": "files/slides/term1-skin/04.jpg",
+     "lec": "Integumentary system terminology",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which combining form means nail?",
@@ -5829,7 +6871,14 @@ SINA.lectures["term1-skin"] = {
     "Dry"
    ],
    "answer": 2,
-   "why": "Rhytidectomy = facelift."
+   "why": "Rhytidectomy = facelift.",
+   "slides": [
+    {
+     "src": "files/slides/term1-skin/09.jpg",
+     "lec": "Integumentary system terminology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "urtic/o means:",
@@ -5840,7 +6889,14 @@ SINA.lectures["term1-skin"] = {
     "Hives, rash"
    ],
    "answer": 3,
-   "why": "Urticaria."
+   "why": "Urticaria.",
+   "slides": [
+    {
+     "src": "files/slides/term1-skin/13.jpg",
+     "lec": "Integumentary system terminology",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "xer/o means:",
@@ -5851,7 +6907,19 @@ SINA.lectures["term1-skin"] = {
     "Red"
    ],
    "answer": 1,
-   "why": "Xeroderma = dry skin."
+   "why": "Xeroderma = dry skin.",
+   "slides": [
+    {
+     "src": "files/slides/term1-skin/09.jpg",
+     "lec": "Integumentary system terminology",
+     "n": 9
+    },
+    {
+     "src": "files/slides/term1-skin/13.jpg",
+     "lec": "Integumentary system terminology",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "myc/o means:",
@@ -5862,7 +6930,14 @@ SINA.lectures["term1-skin"] = {
     "Marrow"
    ],
    "answer": 0,
-   "why": "Onychomycosis = fungal nail infection."
+   "why": "Onychomycosis = fungal nail infection.",
+   "slides": [
+    {
+     "src": "files/slides/term1-skin/15.jpg",
+     "lec": "Integumentary system terminology",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "An open comedo is a:",
@@ -5884,7 +6959,14 @@ SINA.lectures["term1-skin"] = {
     "Excessive sebum production"
    ],
    "answer": 3,
-   "why": "seb/o + -rrhea."
+   "why": "seb/o + -rrhea.",
+   "slides": [
+    {
+     "src": "files/slides/term1-skin/15.jpg",
+     "lec": "Integumentary system terminology",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "A macule is:",
@@ -5895,7 +6977,14 @@ SINA.lectures["term1-skin"] = {
     "Flat, discoloured, under 1 cm"
    ],
    "answer": 3,
-   "why": "A papule is raised."
+   "why": "A papule is raised.",
+   "slides": [
+    {
+     "src": "files/slides/term1-skin/13.jpg",
+     "lec": "Integumentary system terminology",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "A dermatologist treats:",
@@ -5906,7 +6995,14 @@ SINA.lectures["term1-skin"] = {
     "Bones"
    ],
    "answer": 0,
-   "why": "dermat = skin."
+   "why": "dermat = skin.",
+   "slides": [
+    {
+     "src": "files/slides/term1-skin/09.jpg",
+     "lec": "Integumentary system terminology",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Hair helps to:",
@@ -5917,7 +7013,14 @@ SINA.lectures["term1-skin"] = {
     "Excrete waste"
    ],
    "answer": 1,
-   "why": "pil/o, pil/i."
+   "why": "pil/o, pil/i.",
+   "slides": [
+    {
+     "src": "files/slides/term1-skin/04.jpg",
+     "lec": "Integumentary system terminology",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
