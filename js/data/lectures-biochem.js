@@ -4407,7 +4407,14 @@ SINA.lectures["biochem-hepatic"] = {
     "About 100 percent"
    ],
    "answer": 0,
-   "why": "About 1500 mL/min: 75 percent portal vein, 25 percent hepatic artery."
+   "why": "About 1500 mL/min: 75 percent portal vein, 25 percent hepatic artery.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/05.jpg",
+     "lec": "Hepatic exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What is the functional unit of the liver?",
@@ -4418,7 +4425,14 @@ SINA.lectures["biochem-hepatic"] = {
     "The alveolus"
    ],
    "answer": 1,
-   "why": "Blood flows from the portal space between hepatocyte plates to the centrilobular vein."
+   "why": "Blood flows from the portal space between hepatocyte plates to the centrilobular vein.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/06.jpg",
+     "lec": "Hepatic exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which enzyme is more liver-specific?",
@@ -4429,7 +4443,14 @@ SINA.lectures["biochem-hepatic"] = {
     "CK"
    ],
    "answer": 2,
-   "why": "ALT is more liver-specific; AST is also in heart and muscle."
+   "why": "ALT is more liver-specific; AST is also in heart and muscle.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/20.jpg",
+     "lec": "Hepatic exploration",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Why must haemolysis be avoided for AST?",
@@ -4440,7 +4461,14 @@ SINA.lectures["biochem-hepatic"] = {
     "Red cells hold 20 times more AST"
    ],
    "answer": 3,
-   "why": "Erythrocyte AST is about 20 times the plasma level."
+   "why": "Erythrocyte AST is about 20 times the plasma level.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/21.jpg",
+     "lec": "Hepatic exploration",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "What is the upper reference for transaminases in men?",
@@ -4451,7 +4479,14 @@ SINA.lectures["biochem-hepatic"] = {
     "100 IU/L"
    ],
    "answer": 1,
-   "why": "Under 45 IU/L in men, under 35 IU/L in women."
+   "why": "Under 45 IU/L in men, under 35 IU/L in women.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/21.jpg",
+     "lec": "Hepatic exploration",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "When do transaminases rise very high?",
@@ -4462,7 +4497,14 @@ SINA.lectures["biochem-hepatic"] = {
     "Acute hepatitis"
    ],
    "answer": 3,
-   "why": "Large rises in acute viral, toxic, drug-induced or ischaemic hepatitis; moderate in most other liver disease."
+   "why": "Large rises in acute viral, toxic, drug-induced or ischaemic hepatitis; moderate in most other liver disease.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/22.jpg",
+     "lec": "Hepatic exploration",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Which LDH isoenzyme is most abundant in the liver?",
@@ -4473,7 +4515,14 @@ SINA.lectures["biochem-hepatic"] = {
     "LDH3"
    ],
    "answer": 0,
-   "why": "LDH5 in liver, LDH1 in heart, LDH2 in red cells; isoenzymes are rarely used in practice."
+   "why": "LDH5 in liver, LDH1 in heart, LDH2 in red cells; isoenzymes are rarely used in practice.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/24.jpg",
+     "lec": "Hepatic exploration",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which two enzymes rise together in cholestasis?",
@@ -4484,7 +4533,19 @@ SINA.lectures["biochem-hepatic"] = {
     "Amylase and lipase"
    ],
    "answer": 2,
-   "why": "Both membrane enzymes rise in intra- or extrahepatic cholestasis."
+   "why": "Both membrane enzymes rise in intra- or extrahepatic cholestasis.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/30.jpg",
+     "lec": "Hepatic exploration",
+     "n": 30
+    },
+    {
+     "src": "files/slides/biochem-hepatic/34.jpg",
+     "lec": "Hepatic exploration",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "What causes pruritus in cholestasis?",
@@ -4495,7 +4556,14 @@ SINA.lectures["biochem-hepatic"] = {
     "Bile acids in blood"
    ],
    "answer": 3,
-   "why": "Bile acids cause itching; conjugated bilirubin causes jaundice; cholesterol can double."
+   "why": "Bile acids cause itching; conjugated bilirubin causes jaundice; cholesterol can double.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/27.jpg",
+     "lec": "Hepatic exploration",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Why is ALP higher in children?",
@@ -4506,7 +4574,14 @@ SINA.lectures["biochem-hepatic"] = {
     "Diet"
    ],
    "answer": 0,
-   "why": "During growth the bone fraction predominates, up to 90 percent of total ALP."
+   "why": "During growth the bone fraction predominates, up to 90 percent of total ALP.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/31.jpg",
+     "lec": "Hepatic exploration",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "What does an isolated high GGT suggest?",
@@ -4517,7 +4592,14 @@ SINA.lectures["biochem-hepatic"] = {
     "Haemolysis"
    ],
    "answer": 2,
-   "why": "An isolated high GGT indicates chronic alcoholism; drugs like phenobarbital and paracetamol also raise it."
+   "why": "An isolated high GGT indicates chronic alcoholism; drugs like phenobarbital and paracetamol also raise it.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/34.jpg",
+     "lec": "Hepatic exploration",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Which is the most sensitive indicator of hepatobiliary disease?",
@@ -4528,7 +4610,14 @@ SINA.lectures["biochem-hepatic"] = {
     "LDH"
    ],
    "answer": 1,
-   "why": "GGT is the most sensitive indicator of liver and biliary disease."
+   "why": "GGT is the most sensitive indicator of liver and biliary disease.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/34.jpg",
+     "lec": "Hepatic exploration",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "What is the normal total bilirubin?",
@@ -4539,7 +4628,14 @@ SINA.lectures["biochem-hepatic"] = {
     "3.4 to 17.1 µmol/L"
    ],
    "answer": 3,
-   "why": "Total 2 to 10 mg/L (3.4 to 17.1 µmol/L); conjugated 0 to 3.4 µmol/L."
+   "why": "Total 2 to 10 mg/L (3.4 to 17.1 µmol/L); conjugated 0 to 3.4 µmol/L.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/36.jpg",
+     "lec": "Hepatic exploration",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "At what level does jaundice appear in the conjunctiva?",
@@ -4550,7 +4646,14 @@ SINA.lectures["biochem-hepatic"] = {
     "Above 500 µmol/L"
    ],
    "answer": 2,
-   "why": "Conjunctiva above 30 µmol/L, skin above 50 µmol/L."
+   "why": "Conjunctiva above 30 µmol/L, skin above 50 µmol/L.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/36.jpg",
+     "lec": "Hepatic exploration",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "How must a bilirubin sample be handled?",
@@ -4561,7 +4664,14 @@ SINA.lectures["biochem-hepatic"] = {
     "Frozen immediately"
    ],
    "answer": 0,
-   "why": "Wrap the tube, for example in foil, because bilirubin photo-oxidises."
+   "why": "Wrap the tube, for example in foil, because bilirubin photo-oxidises.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/36.jpg",
+     "lec": "Hepatic exploration",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "How is ammonium removed from the body?",
@@ -4572,7 +4682,14 @@ SINA.lectures["biochem-hepatic"] = {
     "Skin sweat"
    ],
    "answer": 1,
-   "why": "Ammonium, toxic to the brain, is eliminated exclusively by the liver as urea."
+   "why": "Ammonium, toxic to the brain, is eliminated exclusively by the liver as urea.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/40.jpg",
+     "lec": "Hepatic exploration",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "What is the normal serum albumin?",
@@ -4583,7 +4700,14 @@ SINA.lectures["biochem-hepatic"] = {
     "1 to 2 g/L"
    ],
    "answer": 2,
-   "why": "Albumin, made only by the liver, is 40 to 60 percent of total protein and maintains oncotic pressure."
+   "why": "Albumin, made only by the liver, is 40 to 60 percent of total protein and maintains oncotic pressure.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/41.jpg",
+     "lec": "Hepatic exploration",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "What prolonged prothrombin time signals bleeding risk?",
@@ -4594,7 +4718,14 @@ SINA.lectures["biochem-hepatic"] = {
     "3 seconds longer"
    ],
    "answer": 3,
-   "why": "A prothrombin time prolonged by 3 seconds carries a haemorrhage risk."
+   "why": "A prothrombin time prolonged by 3 seconds carries a haemorrhage risk.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/42.jpg",
+     "lec": "Hepatic exploration",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Which marker screens for hepatocellular carcinoma?",
@@ -4605,7 +4736,14 @@ SINA.lectures["biochem-hepatic"] = {
     "Albumin"
    ],
    "answer": 1,
-   "why": "AFP, the main fetal protein, rises again in HCC; it is used to screen cirrhosis and chronic hepatitis."
+   "why": "AFP, the main fetal protein, rises again in HCC; it is used to screen cirrhosis and chronic hepatitis.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/45.jpg",
+     "lec": "Hepatic exploration",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Low ceruloplasmin suggests which disease?",
@@ -4616,7 +4754,14 @@ SINA.lectures["biochem-hepatic"] = {
     "Hepatitis A"
    ],
    "answer": 0,
-   "why": "Ceruloplasmin carries copper and collapses in Wilson's disease and in liver failure."
+   "why": "Ceruloplasmin carries copper and collapses in Wilson's disease and in liver failure.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/46.jpg",
+     "lec": "Hepatic exploration",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "Which are markers of hepatocellular insufficiency? (choose all)",
@@ -4630,7 +4775,19 @@ SINA.lectures["biochem-hepatic"] = {
     0,
     1
    ],
-   "why": "Ammonium, albumin and coagulation factors explore liver synthesis and metabolism."
+   "why": "Ammonium, albumin and coagulation factors explore liver synthesis and metabolism.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/02.jpg",
+     "lec": "Hepatic exploration",
+     "n": 2
+    },
+    {
+     "src": "files/slides/biochem-hepatic/42.jpg",
+     "lec": "Hepatic exploration",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Which are consequences of cholestasis? (choose all)",
@@ -4644,7 +4801,14 @@ SINA.lectures["biochem-hepatic"] = {
     0,
     1
    ],
-   "why": "Steatorrhoea, ADEK malabsorption, pale stools, pruritus, jaundice, raised cholesterol."
+   "why": "Steatorrhoea, ADEK malabsorption, pale stools, pruritus, jaundice, raised cholesterol.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/26.jpg",
+     "lec": "Hepatic exploration",
+     "n": 26
+    }
+   ]
   }
  ],
  "cards": [
@@ -6425,7 +6589,14 @@ SINA.lectures["biochem-cardiac"] = {
     "AST"
    ],
    "answer": 0,
-   "why": "Troponins, with chest pain and an abnormal ECG; they are more specific than the old markers."
+   "why": "Troponins, with chest pain and an abnormal ECG; they are more specific than the old markers.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/04.jpg",
+     "lec": "Cardiac exploration",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which is an old, non-specific infarction marker?",
@@ -6436,7 +6607,14 @@ SINA.lectures["biochem-cardiac"] = {
     "NT-proBNP"
    ],
    "answer": 1,
-   "why": "Old markers: myoglobin, CPK, CK-MB, AST, LDH; not specific, no longer routine."
+   "why": "Old markers: myoglobin, CPK, CK-MB, AST, LDH; not specific, no longer routine.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/05.jpg",
+     "lec": "Cardiac exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "When does high-sensitivity troponin rise after chest pain?",
@@ -6447,7 +6625,14 @@ SINA.lectures["biochem-cardiac"] = {
     "After 10 minutes"
    ],
    "answer": 2,
-   "why": "High-sensitivity: 2 hours. Conventional assay: 4 hours."
+   "why": "High-sensitivity: 2 hours. Conventional assay: 4 hours.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/06.jpg",
+     "lec": "Cardiac exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "When does troponin peak?",
@@ -6458,7 +6643,14 @@ SINA.lectures["biochem-cardiac"] = {
     "Around 14 hours"
    ],
    "answer": 3,
-   "why": "Peak around the 14th hour."
+   "why": "Peak around the 14th hour.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/06.jpg",
+     "lec": "Cardiac exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which troponin stays high longest?",
@@ -6469,7 +6661,14 @@ SINA.lectures["biochem-cardiac"] = {
     "Both equally"
    ],
    "answer": 1,
-   "why": "cTnI stays high 75 to 140 hours; cTnT over ten days."
+   "why": "cTnI stays high 75 to 140 hours; cTnT over ten days.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/06.jpg",
+     "lec": "Cardiac exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Why is troponin C of no use in cardiology?",
@@ -6480,7 +6679,14 @@ SINA.lectures["biochem-cardiac"] = {
     "Shared by all muscle"
    ],
    "answer": 3,
-   "why": "Troponin C has one isoform shared by all striated muscles."
+   "why": "Troponin C has one isoform shared by all striated muscles.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/07.jpg",
+     "lec": "Cardiac exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Why follow troponin in the same lab?",
@@ -6491,7 +6697,14 @@ SINA.lectures["biochem-cardiac"] = {
     "Other labs lose samples"
    ],
    "answer": 0,
-   "why": "Troponin assays are not standardised, so monitor in one lab."
+   "why": "Troponin assays are not standardised, so monitor in one lab.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/08.jpg",
+     "lec": "Cardiac exploration",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Which non-coronary condition raises troponin?",
@@ -6502,7 +6715,14 @@ SINA.lectures["biochem-cardiac"] = {
     "Migraine"
    ],
    "answer": 2,
-   "why": "Myocarditis, drug and chemotherapy toxicity, acute ventricular failure, pericarditis."
+   "why": "Myocarditis, drug and chemotherapy toxicity, acute ventricular failure, pericarditis.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/07.jpg",
+     "lec": "Cardiac exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which markers diagnose chronic heart failure?",
@@ -6513,7 +6733,14 @@ SINA.lectures["biochem-cardiac"] = {
     "BNP and NT-proBNP"
    ],
    "answer": 3,
-   "why": "Natriuretic peptides, cleaved from proBNP and secreted by cardiomyocytes."
+   "why": "Natriuretic peptides, cleaved from proBNP and secreted by cardiomyocytes.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/09.jpg",
+     "lec": "Cardiac exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What effect do natriuretic peptides have?",
@@ -6524,7 +6751,14 @@ SINA.lectures["biochem-cardiac"] = {
     "Potassium retention"
    ],
    "answer": 0,
-   "why": "Diuretic, natriuretic and vasodilator, opposing renin-angiotensin-aldosterone and vasopressin."
+   "why": "Diuretic, natriuretic and vasodilator, opposing renin-angiotensin-aldosterone and vasopressin.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/09.jpg",
+     "lec": "Cardiac exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "How does BNP vary with body mass index?",
@@ -6535,7 +6769,14 @@ SINA.lectures["biochem-cardiac"] = {
     "It doubles"
    ],
    "answer": 2,
-   "why": "Natriuretic peptides rise with age and in women, and are inversely proportional to BMI."
+   "why": "Natriuretic peptides rise with age and in women, and are inversely proportional to BMI.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/10.jpg",
+     "lec": "Cardiac exploration",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "In which patients is NT-proBNP less reliable?",
@@ -6546,7 +6787,14 @@ SINA.lectures["biochem-cardiac"] = {
     "Asthma"
    ],
    "answer": 1,
-   "why": "NT-proBNP has analytical interference in renal insufficiency."
+   "why": "NT-proBNP has analytical interference in renal insufficiency.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/10.jpg",
+     "lec": "Cardiac exploration",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Where is CRP produced?",
@@ -6557,7 +6805,14 @@ SINA.lectures["biochem-cardiac"] = {
     "The liver"
    ],
    "answer": 3,
-   "why": "CRP is an acute phase protein made by the liver in response to interleukin-6."
+   "why": "CRP is an acute phase protein made by the liver in response to interleukin-6.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/11.jpg",
+     "lec": "Cardiac exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "When does CRP peak after inflammation starts?",
@@ -6568,7 +6823,14 @@ SINA.lectures["biochem-cardiac"] = {
     "After 1 month"
    ],
    "answer": 2,
-   "why": "Rises at 6 to 7 hours, peaks at 48 to 72 hours, normal (under 6 mg/L) by one week."
+   "why": "Rises at 6 to 7 hours, peaks at 48 to 72 hours, normal (under 6 mg/L) by one week.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/11.jpg",
+     "lec": "Cardiac exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What does a persistent low CRP signify?",
@@ -6579,7 +6841,14 @@ SINA.lectures["biochem-cardiac"] = {
     "Myocardial infarction"
    ],
    "answer": 0,
-   "why": "Persistent low-grade CRP (under 10 mg/L) after inflammation settles marks cardiovascular risk, measured by ultrasensitive CRP."
+   "why": "Persistent low-grade CRP (under 10 mg/L) after inflammation settles marks cardiovascular risk, measured by ultrasensitive CRP.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/12.jpg",
+     "lec": "Cardiac exploration",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which raise troponin besides infarction? (choose all)",
@@ -6593,7 +6862,14 @@ SINA.lectures["biochem-cardiac"] = {
     0,
     1
    ],
-   "why": "Myocarditis, drug and chemotherapy toxicity, acute ventricular failure, pericarditis."
+   "why": "Myocarditis, drug and chemotherapy toxicity, acute ventricular failure, pericarditis.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/07.jpg",
+     "lec": "Cardiac exploration",
+     "n": 7
+    }
+   ]
   }
  ],
  "cards": [
@@ -6782,7 +7058,14 @@ SINA.lectures["biochem-renal"] = {
     "Cortisol, aldosterone, DHEA"
    ],
    "answer": 0,
-   "why": "Renin (blood pressure), erythropoietin (red cells) and active vitamin D (calcium-phosphate)."
+   "why": "Renin (blood pressure), erythropoietin (red cells) and active vitamin D (calcium-phosphate).",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/04.jpg",
+     "lec": "Renal exploration",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What does serum creatinine reflect besides GFR?",
@@ -6793,7 +7076,14 @@ SINA.lectures["biochem-renal"] = {
     "Liver function"
    ],
    "answer": 1,
-   "why": "Creatinine comes from muscle creatine and is independent of diet and hydration."
+   "why": "Creatinine comes from muscle creatine and is independent of diet and hydration.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/05.jpg",
+     "lec": "Renal exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What is normal serum creatinine in men?",
@@ -6804,7 +7094,14 @@ SINA.lectures["biochem-renal"] = {
     "90 to 120 mg/L"
    ],
    "answer": 2,
-   "why": "Men 9 to 12, women 6 to 11, children 3 to 8 mg/L."
+   "why": "Men 9 to 12, women 6 to 11, children 3 to 8 mg/L.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/05.jpg",
+     "lec": "Renal exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Why must urea be sampled fasting?",
@@ -6815,7 +7112,14 @@ SINA.lectures["biochem-renal"] = {
     "It rises after meals"
    ],
    "answer": 3,
-   "why": "Urea depends on protein intake and rises post-prandially; normal 0.15 to 0.45 g/L."
+   "why": "Urea depends on protein intake and rises post-prandially; normal 0.15 to 0.45 g/L.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/06.jpg",
+     "lec": "Renal exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "What else affects urea besides filtration?",
@@ -6826,7 +7130,14 @@ SINA.lectures["biochem-renal"] = {
     "Height only"
    ],
    "answer": 1,
-   "why": "Urea depends on diuresis, fluid intake, dietary protein and catabolism."
+   "why": "Urea depends on diuresis, fluid intake, dietary protein and catabolism.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/06.jpg",
+     "lec": "Renal exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Why is cystatin C more accurate than creatinine?",
@@ -6837,7 +7148,14 @@ SINA.lectures["biochem-renal"] = {
     "Less muscle-dependent"
    ],
    "answer": 3,
-   "why": "Produced by all cells, stable from 3 months to 70 years, less influenced by age, sex and muscle."
+   "why": "Produced by all cells, stable from 3 months to 70 years, less influenced by age, sex and muscle.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/07.jpg",
+     "lec": "Renal exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What raises cystatin C independently of the kidney?",
@@ -6848,7 +7166,14 @@ SINA.lectures["biochem-renal"] = {
     "Dehydration"
    ],
    "answer": 0,
-   "why": "Corticosteroids raise it dose-dependently; it is costly and second-line."
+   "why": "Corticosteroids raise it dose-dependently; it is costly and second-line.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/07.jpg",
+     "lec": "Renal exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What is uric acid the end product of?",
@@ -6859,7 +7184,14 @@ SINA.lectures["biochem-renal"] = {
     "Fatty acids"
    ],
    "answer": 2,
-   "why": "Uric acid is the final catabolite of purines; sample fasting after 3 days purine-free."
+   "why": "Uric acid is the final catabolite of purines; sample fasting after 3 days purine-free.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/08.jpg",
+     "lec": "Renal exploration",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "At what potassium level is life threatened?",
@@ -6870,7 +7202,14 @@ SINA.lectures["biochem-renal"] = {
     "Above 6.5 mmol/L"
    ],
    "answer": 3,
-   "why": "Hyperkalaemia above 6.5 mmol/L is life-threatening in acute renal failure."
+   "why": "Hyperkalaemia above 6.5 mmol/L is life-threatening in acute renal failure.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/09.jpg",
+     "lec": "Renal exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What is normal plasma osmolality?",
@@ -6881,7 +7220,14 @@ SINA.lectures["biochem-renal"] = {
     "About 900 mOsm/L"
    ],
    "answer": 0,
-   "why": "[(Na + K) x 2] + urea + glucose = 290 ± 5 mOsm/L."
+   "why": "[(Na + K) x 2] + urea + glucose = 290 ± 5 mOsm/L.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/10.jpg",
+     "lec": "Renal exploration",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What happens to calcium in chronic renal failure?",
@@ -6892,7 +7238,14 @@ SINA.lectures["biochem-renal"] = {
     "It doubles"
    ],
    "answer": 2,
-   "why": "Calcium falls, phosphate and PTH rise: renal osteodystrophy with secondary hyperparathyroidism."
+   "why": "Calcium falls, phosphate and PTH rise: renal osteodystrophy with secondary hyperparathyroidism.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/11.jpg",
+     "lec": "Renal exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What urine volume defines oliguria?",
@@ -6903,7 +7256,14 @@ SINA.lectures["biochem-renal"] = {
     "Over 2.5 L/day"
    ],
    "answer": 1,
-   "why": "Normal 0.75 to 2 L. Polyuria over 2.5 L, oliguria under 0.6 L, anuria under 0.1 L."
+   "why": "Normal 0.75 to 2 L. Polyuria over 2.5 L, oliguria under 0.6 L, anuria under 0.1 L.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/12.jpg",
+     "lec": "Renal exploration",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "What is the upper limit of physiological proteinuria?",
@@ -6914,7 +7274,14 @@ SINA.lectures["biochem-renal"] = {
     "150 mg/24 h"
    ],
    "answer": 3,
-   "why": "Physiological 50 to 150 mg/24 h; pathological over 150 mg/24 h and permanent."
+   "why": "Physiological 50 to 150 mg/24 h; pathological over 150 mg/24 h and permanent.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/13.jpg",
+     "lec": "Renal exploration",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "What range defines microalbuminuria?",
@@ -6925,7 +7292,14 @@ SINA.lectures["biochem-renal"] = {
     "Under 3 mg/24 h"
    ],
    "answer": 2,
-   "why": "Microalbuminuria, between physiological and frank proteinuria, predicts nephropathy, e.g. in diabetes."
+   "why": "Microalbuminuria, between physiological and frank proteinuria, predicts nephropathy, e.g. in diabetes.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/14.jpg",
+     "lec": "Renal exploration",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "What is the normal urinary Na/K ratio?",
@@ -6936,7 +7310,14 @@ SINA.lectures["biochem-renal"] = {
     "Above 10"
    ],
    "answer": 0,
-   "why": "Urinary sodium over potassium is normally greater than 1."
+   "why": "Urinary sodium over potassium is normally greater than 1.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/15.jpg",
+     "lec": "Renal exploration",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "What is the clearance formula?",
@@ -6947,7 +7328,19 @@ SINA.lectures["biochem-renal"] = {
     "V / (U x P)"
    ],
    "answer": 1,
-   "why": "Clearance = urinary concentration x urine flow / plasma concentration."
+   "why": "Clearance = urinary concentration x urine flow / plasma concentration.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/19.jpg",
+     "lec": "Renal exploration",
+     "n": 19
+    },
+    {
+     "src": "files/slides/biochem-renal/22.jpg",
+     "lec": "Renal exploration",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "What is normal creatinine clearance in men?",
@@ -6958,7 +7351,14 @@ SINA.lectures["biochem-renal"] = {
     "10 ± 5 mL/min"
    ],
    "answer": 2,
-   "why": "Men 130 ± 20, women 110 ± 20 mL/min per 1.73 m²."
+   "why": "Men 130 ± 20, women 110 ± 20 mL/min per 1.73 m².",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/19.jpg",
+     "lec": "Renal exploration",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "At what clearance is dialysis needed?",
@@ -6969,7 +7369,14 @@ SINA.lectures["biochem-renal"] = {
     "Under 5 mL/min"
    ],
    "answer": 3,
-   "why": "Moderate 50 to 70, significant 20 to 50, severe 5 to 20; under 5 needs dialysis or transplant."
+   "why": "Moderate 50 to 70, significant 20 to 50, severe 5 to 20; under 5 needs dialysis or transplant.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/21.jpg",
+     "lec": "Renal exploration",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "What is the main error in measured clearance?",
@@ -6980,7 +7387,14 @@ SINA.lectures["biochem-renal"] = {
     "Using the wrong tube"
    ],
    "answer": 1,
-   "why": "Incomplete 24-hour collection or incomplete bladder emptying; formulas such as MDRD avoid this."
+   "why": "Incomplete 24-hour collection or incomplete bladder emptying; formulas such as MDRD avoid this.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/20.jpg",
+     "lec": "Renal exploration",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "What urine osmolality is normal after water restriction?",
@@ -6991,7 +7405,14 @@ SINA.lectures["biochem-renal"] = {
     "Under 50 mOsm/kg"
    ],
    "answer": 0,
-   "why": "After overnight water fasting, morning urine should exceed 800 mOsm/kg."
+   "why": "After overnight water fasting, morning urine should exceed 800 mOsm/kg.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/23.jpg",
+     "lec": "Renal exploration",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which are routine renal tests? (choose all)",
@@ -7005,7 +7426,19 @@ SINA.lectures["biochem-renal"] = {
     0,
     1
    ],
-   "why": "Creatinine, proteinuria and microalbuminuria, with ionogram, calcium-phosphate and uric acid."
+   "why": "Creatinine, proteinuria and microalbuminuria, with ionogram, calcium-phosphate and uric acid.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/02.jpg",
+     "lec": "Renal exploration",
+     "n": 2
+    },
+    {
+     "src": "files/slides/biochem-renal/25.jpg",
+     "lec": "Renal exploration",
+     "n": 25
+    }
+   ]
   }
  ],
  "cards": [
@@ -7410,7 +7843,14 @@ SINA.lectures["biochem-spe"] = {
     "Gamma globulins"
    ],
    "answer": 3,
-   "why": "The liver makes all serum proteins except gamma globulins, made by lymphoid tissue."
+   "why": "The liver makes all serum proteins except gamma globulins, made by lymphoid tissue.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/03.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "At what pH is electrophoresis run?",
@@ -7421,7 +7861,14 @@ SINA.lectures["biochem-spe"] = {
     "5 to 6"
    ],
    "answer": 2,
-   "why": "At alkaline pH all serum proteins are negatively charged and migrate towards the anode."
+   "why": "At alkaline pH all serum proteins are negatively charged and migrate towards the anode.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/06.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Towards which electrode do proteins migrate?",
@@ -7432,7 +7879,14 @@ SINA.lectures["biochem-spe"] = {
     "The anode"
    ],
    "answer": 3,
-   "why": "As anions, proteins move to the positive anode."
+   "why": "As anions, proteins move to the positive anode.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/06.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Why is an anticoagulant tube forbidden?",
@@ -7443,7 +7897,19 @@ SINA.lectures["biochem-spe"] = {
     "It denatures IgG"
    ],
    "answer": 1,
-   "why": "Plasma fibrinogen adds an extra band; use a dry or clot-activator tube (serum)."
+   "why": "Plasma fibrinogen adds an extra band; use a dry or clot-activator tube (serum).",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/07.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 7
+    },
+    {
+     "src": "files/slides/biochem-spe/20.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "How many fractions does agarose gel separate?",
@@ -7454,7 +7920,19 @@ SINA.lectures["biochem-spe"] = {
     "Five"
    ],
    "answer": 3,
-   "why": "Albumin plus alpha-1, alpha-2, beta and gamma globulins."
+   "why": "Albumin plus alpha-1, alpha-2, beta and gamma globulins.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/13.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 13
+    },
+    {
+     "src": "files/slides/biochem-spe/21.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which protein migrates fastest and farthest?",
@@ -7465,7 +7943,14 @@ SINA.lectures["biochem-spe"] = {
     "Fibrinogen"
    ],
    "answer": 0,
-   "why": "Albumin is the most abundant and fastest fraction."
+   "why": "Albumin is the most abundant and fastest fraction.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/13.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "What is the normal albumin/globulin ratio?",
@@ -7476,7 +7961,14 @@ SINA.lectures["biochem-spe"] = {
     "Exactly 1"
    ],
    "answer": 2,
-   "why": "The A/G ratio compares albumin to all globulins."
+   "why": "The A/G ratio compares albumin to all globulins.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/14.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "What is the advantage of capillary electrophoresis?",
@@ -7487,7 +7979,14 @@ SINA.lectures["biochem-spe"] = {
     "Uses blotting paper"
    ],
    "answer": 1,
-   "why": "CZE is automated, fast, and runs each patient independently."
+   "why": "CZE is automated, fast, and runs each patient independently.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/12.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "What does a split albumin peak indicate?",
@@ -7498,7 +7997,14 @@ SINA.lectures["biochem-spe"] = {
     "Myeloma"
    ],
    "answer": 1,
-   "why": "Two albumins of different structure: hereditary (permanent, harmless) or acquired (beta-lactams in renal failure)."
+   "why": "Two albumins of different structure: hereditary (permanent, harmless) or acquired (beta-lactams in renal failure).",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/21.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which fraction falls in intravascular haemolysis?",
@@ -7509,7 +8015,14 @@ SINA.lectures["biochem-spe"] = {
     "Albumin"
    ],
    "answer": 0,
-   "why": "Haptoglobin, in alpha-2, is consumed in haemolysis."
+   "why": "Haptoglobin, in alpha-2, is consumed in haemolysis.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/19.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which fractions rise in acute inflammation?",
@@ -7520,7 +8033,14 @@ SINA.lectures["biochem-spe"] = {
     "Gamma only"
    ],
    "answer": 2,
-   "why": "Inflammatory proteins sit in alpha-1 and alpha-2."
+   "why": "Inflammatory proteins sit in alpha-1 and alpha-2.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/23.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What causes a beta-gamma block?",
@@ -7531,7 +8051,14 @@ SINA.lectures["biochem-spe"] = {
     "Nephrotic syndrome"
    ],
    "answer": 0,
-   "why": "Polyclonal IgA rise fuses the beta and gamma fractions."
+   "why": "Polyclonal IgA rise fuses the beta and gamma fractions.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/25.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "What does a narrow-based gamma peak suggest?",
@@ -7542,7 +8069,14 @@ SINA.lectures["biochem-spe"] = {
     "Polyclonal infection"
    ],
    "answer": 2,
-   "why": "Monoclonal: malignant (myeloma), accompanying (lymphoma) or benign (elderly). A dome shape is polyclonal."
+   "why": "Monoclonal: malignant (myeloma), accompanying (lymphoma) or benign (elderly). A dome shape is polyclonal.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/27.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which test identifies the monoclonal immunoglobulin?",
@@ -7553,7 +8087,14 @@ SINA.lectures["biochem-spe"] = {
     "Capillary electrophoresis"
    ],
    "answer": 0,
-   "why": "Anti-G, A, M, kappa and lambda antibodies type the immunoglobulin."
+   "why": "Anti-G, A, M, kappa and lambda antibodies type the immunoglobulin.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/28.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which fractions rise in nephrotic syndrome? (choose all)",
@@ -7567,7 +8108,14 @@ SINA.lectures["biochem-spe"] = {
     0,
     1
    ],
-   "why": "Albumin is lost in urine while alpha-2 macroglobulin rises."
+   "why": "Albumin is lost in urine while alpha-2 macroglobulin rises.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/22.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "At pH 8.2-8.6, serum proteins migrate toward:",
@@ -7578,7 +8126,14 @@ SINA.lectures["biochem-spe"] = {
     "The anode"
    ],
    "answer": 3,
-   "why": "They are all negatively charged anions at alkaline pH."
+   "why": "They are all negatively charged anions at alkaline pH.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/06.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which protein migrates fastest and furthest?",
@@ -7589,7 +8144,14 @@ SINA.lectures["biochem-spe"] = {
     "Beta globulin"
    ],
    "answer": 2,
-   "why": "It is also the most abundant, giving the most intense band."
+   "why": "It is also the most abundant, giving the most intense band.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/13.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Why must SPE use serum and not plasma?",
@@ -7600,7 +8162,14 @@ SINA.lectures["biochem-spe"] = {
     "Serum is cheaper to collect than plasma"
    ],
    "answer": 1,
-   "why": "Collect in a dry tube or with a clot activator."
+   "why": "Collect in a dry tube or with a clot activator.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/07.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which organ produces gamma globulins?",
@@ -7611,7 +8180,14 @@ SINA.lectures["biochem-spe"] = {
     "Bone"
    ],
    "answer": 2,
-   "why": "The liver makes all other serum proteins."
+   "why": "The liver makes all other serum proteins.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/03.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The normal albumin/globulin ratio is:",
@@ -7622,7 +8198,14 @@ SINA.lectures["biochem-spe"] = {
     "3 to 5"
    ],
    "answer": 1,
-   "why": "Derived from the fraction values."
+   "why": "Derived from the fraction values.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/14.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which stain reveals the bands on the gel?",
@@ -7633,7 +8216,14 @@ SINA.lectures["biochem-spe"] = {
     "Amido black"
    ],
    "answer": 3,
-   "why": "Then a densitometer reads optical density."
+   "why": "Then a densitometer reads optical density.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/11.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "An advantage of capillary zone electrophoresis is:",
@@ -7644,7 +8234,14 @@ SINA.lectures["biochem-spe"] = {
     "It is fully automated and gives same-day results per patient"
    ],
    "answer": 3,
-   "why": "No need to batch 15 to 30 patients."
+   "why": "No need to batch 15 to 30 patients.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/12.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Haemolysis on SPE typically shows as:",
@@ -7655,7 +8252,14 @@ SINA.lectures["biochem-spe"] = {
     "Bisalbuminaemia with two peaks"
    ],
    "answer": 2,
-   "why": "Haemoglobin appears as an extra band."
+   "why": "Haemoglobin appears as an extra band.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/19.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Bisalbuminaemia can be acquired with:",
@@ -7666,7 +8270,14 @@ SINA.lectures["biochem-spe"] = {
     "Normal pregnancy after 20 weeks"
    ],
    "answer": 1,
-   "why": "It may also be hereditary and harmless."
+   "why": "It may also be hereditary and harmless.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/21.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "A decreased alpha-1 fraction suggests:",
@@ -7677,7 +8288,14 @@ SINA.lectures["biochem-spe"] = {
     "Myeloma"
    ],
    "answer": 0,
-   "why": "Or general causes of low protein."
+   "why": "Or general causes of low protein.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/23.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Nephrotic syndrome raises which fraction?",
@@ -7688,7 +8306,14 @@ SINA.lectures["biochem-spe"] = {
     "Gamma (immunoglobulins)"
    ],
    "answer": 0,
-   "why": "While albumin falls through urinary loss."
+   "why": "While albumin falls through urinary loss.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/22.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Intravascular haemolysis lowers alpha-2 because of low:",
@@ -7699,7 +8324,14 @@ SINA.lectures["biochem-spe"] = {
     "CRP"
    ],
    "answer": 2,
-   "why": "Haptoglobin binds free haemoglobin and is consumed."
+   "why": "Haptoglobin binds free haemoglobin and is consumed.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/24.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "A beta-gamma block is typical of:",
@@ -7710,7 +8342,14 @@ SINA.lectures["biochem-spe"] = {
     "Alcoholic cirrhosis"
    ],
    "answer": 3,
-   "why": "Due to polyclonal IgA."
+   "why": "Due to polyclonal IgA.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/25.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "A polyclonal increase in gamma globulins looks like:",
@@ -7721,7 +8360,14 @@ SINA.lectures["biochem-spe"] = {
     "No change"
    ],
    "answer": 0,
-   "why": "Seen in infections; a monoclonal spike is narrow-based."
+   "why": "Seen in infections; a monoclonal spike is narrow-based.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/27.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which test types a monoclonal immunoglobulin?",
@@ -7732,7 +8378,14 @@ SINA.lectures["biochem-spe"] = {
     "Immunofixation"
    ],
    "answer": 3,
-   "why": "Anti-IgG, IgA, IgM, kappa and lambda lanes."
+   "why": "Anti-IgG, IgA, IgM, kappa and lambda lanes.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/28.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which is an indication for SPE?",
@@ -7743,7 +8396,14 @@ SINA.lectures["biochem-spe"] = {
     "Mild acne vulgaris"
    ],
    "answer": 1,
-   "why": "Suspected hypogammaglobulinaemia; also high ESR, bone pain, hypercalcaemia, inflammation, cirrhosis."
+   "why": "Suspected hypogammaglobulinaemia; also high ESR, bone pain, hypercalcaemia, inflammation, cirrhosis.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/30.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -8315,7 +8975,14 @@ SINA.lectures["biochem-lipids"] = {
     "Phospholipids only"
    ],
    "answer": 2,
-   "why": "The apolar core holds triglycerides and cholesterol esters; the shell holds phospholipids, free cholesterol and apoproteins."
+   "why": "The apolar core holds triglycerides and cholesterol esters; the shell holds phospholipids, free cholesterol and apoproteins.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/05.jpg",
+     "lec": "Lipid anomaly",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What share of cholesterol is endogenous?",
@@ -8326,7 +8993,14 @@ SINA.lectures["biochem-lipids"] = {
     "Two thirds"
    ],
    "answer": 3,
-   "why": "Two thirds from hepatic synthesis, one third from food."
+   "why": "Two thirds from hepatic synthesis, one third from food.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/07.jpg",
+     "lec": "Lipid anomaly",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which lipoprotein is richest in triglycerides?",
@@ -8337,7 +9011,14 @@ SINA.lectures["biochem-lipids"] = {
     "LDL"
    ],
    "answer": 1,
-   "why": "Chylomicrons (86 to 94 percent TG), then VLDL; LDL is rich in cholesterol esters; HDL in phospholipids."
+   "why": "Chylomicrons (86 to 94 percent TG), then VLDL; LDL is rich in cholesterol esters; HDL in phospholipids.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/11.jpg",
+     "lec": "Lipid anomaly",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which apoprotein characterises LDL?",
@@ -8348,7 +9029,19 @@ SINA.lectures["biochem-lipids"] = {
     "Apo CII"
    ],
    "answer": 1,
-   "why": "LDL carries Apo B100; HDL carries Apo A and C."
+   "why": "LDL carries Apo B100; HDL carries Apo A and C.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/09.jpg",
+     "lec": "Lipid anomaly",
+     "n": 9
+    },
+    {
+     "src": "files/slides/biochem-lipids/11.jpg",
+     "lec": "Lipid anomaly",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which lipoprotein is the densest?",
@@ -8359,7 +9052,19 @@ SINA.lectures["biochem-lipids"] = {
     "VLDL"
    ],
    "answer": 2,
-   "why": "The fattier the lipoprotein the lighter; HDL is densest, chylomicrons largest."
+   "why": "The fattier the lipoprotein the lighter; HDL is densest, chylomicrons largest.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/13.jpg",
+     "lec": "Lipid anomaly",
+     "n": 13
+    },
+    {
+     "src": "files/slides/biochem-lipids/15.jpg",
+     "lec": "Lipid anomaly",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which enzyme does Apo AI activate?",
@@ -8370,7 +9075,14 @@ SINA.lectures["biochem-lipids"] = {
     "LCAT"
    ],
    "answer": 3,
-   "why": "Lecithin cholesterol acyl transferase esterifies HDL cholesterol."
+   "why": "Lecithin cholesterol acyl transferase esterifies HDL cholesterol.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/09.jpg",
+     "lec": "Lipid anomaly",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which enzyme degrades chylomicron triglycerides?",
@@ -8381,7 +9093,14 @@ SINA.lectures["biochem-lipids"] = {
     "Lipoprotein lipase"
    ],
    "answer": 3,
-   "why": "Endothelial LPL releases glycerol and fatty acids."
+   "why": "Endothelial LPL releases glycerol and fatty acids.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/16.jpg",
+     "lec": "Lipid anomaly",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "What does IDL become in the liver?",
@@ -8392,7 +9111,14 @@ SINA.lectures["biochem-lipids"] = {
     "VLDL"
    ],
    "answer": 0,
-   "why": "VLDL → IDL (by LPL) → LDL (by hepatic triglyceride lipase)."
+   "why": "VLDL → IDL (by LPL) → LDL (by hepatic triglyceride lipase).",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/17.jpg",
+     "lec": "Lipid anomaly",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Why is HDL good cholesterol?",
@@ -8403,7 +9129,14 @@ SINA.lectures["biochem-lipids"] = {
     "It removes excess cholesterol"
    ],
    "answer": 3,
-   "why": "HDL captures free cholesterol, esterifies it and returns it to the liver: anti-atherogenic."
+   "why": "HDL captures free cholesterol, esterifies it and returns it to the liver: anti-atherogenic.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/21.jpg",
+     "lec": "Lipid anomaly",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "How long should the patient fast for a lipid profile?",
@@ -8414,7 +9147,14 @@ SINA.lectures["biochem-lipids"] = {
     "At least 12 hours"
    ],
    "answer": 3,
-   "why": "12-hour fast, 15 min rest, away from acute illness; wait 3 to 4 months after an infarction."
+   "why": "12-hour fast, 15 min rest, away from acute illness; wait 3 to 4 months after an infarction.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/24.jpg",
+     "lec": "Lipid anomaly",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "What does a lactescent creamy serum mean?",
@@ -8425,7 +9165,14 @@ SINA.lectures["biochem-lipids"] = {
     "Excess LDL"
    ],
    "answer": 0,
-   "why": "Clear: normal. Creamy layer: chylomicrons. Cloudy: VLDL or IDL."
+   "why": "Clear: normal. Creamy layer: chylomicrons. Cloudy: VLDL or IDL.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/25.jpg",
+     "lec": "Lipid anomaly",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "What is the upper limit of normal triglycerides?",
@@ -8436,7 +9183,14 @@ SINA.lectures["biochem-lipids"] = {
     "4 g/L"
    ],
    "answer": 0,
-   "why": "TG 0.5 to 1.5 g/L; total cholesterol 1.5 to 2 g/L; HDL 0.35 to 0.65 g/L."
+   "why": "TG 0.5 to 1.5 g/L; total cholesterol 1.5 to 2 g/L; HDL 0.35 to 0.65 g/L.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/26.jpg",
+     "lec": "Lipid anomaly",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "When can Friedewald's formula not be used?",
@@ -8447,7 +9201,14 @@ SINA.lectures["biochem-lipids"] = {
     "Triglycerides over 3.5 g/L"
    ],
    "answer": 3,
-   "why": "LDL = TC − HDL − TG/5 (g/L) only if TG is under 4 mmol/L (3.5 g/L)."
+   "why": "LDL = TC − HDL − TG/5 (g/L) only if TG is under 4 mmol/L (3.5 g/L).",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/26.jpg",
+     "lec": "Lipid anomaly",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "What is the LDL target with cardiovascular risk factors?",
@@ -8458,7 +9219,14 @@ SINA.lectures["biochem-lipids"] = {
     "Under 1 mmol/L"
    ],
    "answer": 0,
-   "why": "Without risk factors under 4 mmol/L; with them under 2.6 mmol/L."
+   "why": "Without risk factors under 4 mmol/L; with them under 2.6 mmol/L.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/27.jpg",
+     "lec": "Lipid anomaly",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which are cardiovascular risk factors? (choose all)",
@@ -8472,7 +9240,14 @@ SINA.lectures["biochem-lipids"] = {
     0,
     1
    ],
-   "why": "Age over 50 (men) or 60 (women), family coronary history, tobacco, hypertension, type 2 diabetes, HDL under 1 mmol/L, microalbuminuria."
+   "why": "Age over 50 (men) or 60 (women), family coronary history, tobacco, hypertension, type 2 diabetes, HDL under 1 mmol/L, microalbuminuria.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/27.jpg",
+     "lec": "Lipid anomaly",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which lipids form the apolar core of a lipoprotein?",
@@ -8483,7 +9258,14 @@ SINA.lectures["biochem-lipids"] = {
     "Apoproteins"
    ],
    "answer": 1,
-   "why": "The shell holds phospholipids, free cholesterol and apoproteins."
+   "why": "The shell holds phospholipids, free cholesterol and apoproteins.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/05.jpg",
+     "lec": "Lipid anomaly",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What proportion of cholesterol is made by the liver?",
@@ -8494,7 +9276,14 @@ SINA.lectures["biochem-lipids"] = {
     "None"
    ],
    "answer": 1,
-   "why": "One third comes from food."
+   "why": "One third comes from food.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/07.jpg",
+     "lec": "Lipid anomaly",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which apoprotein activates LCAT?",
@@ -8505,7 +9294,14 @@ SINA.lectures["biochem-lipids"] = {
     "Apo E"
    ],
    "answer": 2,
-   "why": "LCAT esterifies HDL cholesterol."
+   "why": "LCAT esterifies HDL cholesterol.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/09.jpg",
+     "lec": "Lipid anomaly",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which lipoprotein is richest in triglycerides?",
@@ -8516,7 +9312,14 @@ SINA.lectures["biochem-lipids"] = {
     "HDL"
    ],
    "answer": 2,
-   "why": "86 to 94%, followed by VLDL."
+   "why": "86 to 94%, followed by VLDL.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/11.jpg",
+     "lec": "Lipid anomaly",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which lipoprotein is the densest?",
@@ -8527,7 +9330,14 @@ SINA.lectures["biochem-lipids"] = {
     "VLDL"
    ],
    "answer": 0,
-   "why": "Less fat means smaller and denser."
+   "why": "Less fat means smaller and denser.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/12.jpg",
+     "lec": "Lipid anomaly",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which enzyme converts IDL to LDL?",
@@ -8538,7 +9348,14 @@ SINA.lectures["biochem-lipids"] = {
     "HMG-CoA reductase"
    ],
    "answer": 2,
-   "why": "LPL converts VLDL to IDL."
+   "why": "LPL converts VLDL to IDL.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/17.jpg",
+     "lec": "Lipid anomaly",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Why is HDL called 'good cholesterol'?",
@@ -8549,7 +9366,14 @@ SINA.lectures["biochem-lipids"] = {
     "It carries dietary triglycerides from the gut"
    ],
    "answer": 0,
-   "why": "Preventing accumulation in the vascular wall."
+   "why": "Preventing accumulation in the vascular wall.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/21.jpg",
+     "lec": "Lipid anomaly",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "How long should the fast be before a lipid profile?",
@@ -8560,7 +9384,14 @@ SINA.lectures["biochem-lipids"] = {
     "48 hours"
    ],
    "answer": 2,
-   "why": "And 15 minutes' rest."
+   "why": "And 15 minutes' rest.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/24.jpg",
+     "lec": "Lipid anomaly",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "How long should you wait after a myocardial infarction before a lipid profile?",
@@ -8571,7 +9402,14 @@ SINA.lectures["biochem-lipids"] = {
     "1 year"
    ],
    "answer": 2,
-   "why": "Acute illness distorts the results."
+   "why": "Acute illness distorts the results.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/24.jpg",
+     "lec": "Lipid anomaly",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "A lactescent serum with a creamy layer indicates excess:",
@@ -8582,7 +9420,14 @@ SINA.lectures["biochem-lipids"] = {
     "Chylomicrons"
    ],
    "answer": 3,
-   "why": "Opalescent serum points to VLDL or IDL."
+   "why": "Opalescent serum points to VLDL or IDL.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/25.jpg",
+     "lec": "Lipid anomaly",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Friedewald's formula can be used only if triglycerides are below:",
@@ -8593,7 +9438,14 @@ SINA.lectures["biochem-lipids"] = {
     "1 g/L"
    ],
    "answer": 2,
-   "why": "Above that, measure LDL directly or use Planella's formula."
+   "why": "Above that, measure LDL directly or use Planella's formula.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/26.jpg",
+     "lec": "Lipid anomaly",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Which is NOT listed as a cardiovascular risk factor for the LDL target?",
@@ -8604,7 +9456,19 @@ SINA.lectures["biochem-lipids"] = {
     "Type 2 diabetes"
    ],
    "answer": 2,
-   "why": "Low HDL (under 1 mmol/L) is the risk factor."
+   "why": "Low HDL (under 1 mmol/L) is the risk factor.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/26.jpg",
+     "lec": "Lipid anomaly",
+     "n": 26
+    },
+    {
+     "src": "files/slides/biochem-lipids/27.jpg",
+     "lec": "Lipid anomaly",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "With cardiovascular risk factors, the LDL target is below:",
@@ -8615,7 +9479,14 @@ SINA.lectures["biochem-lipids"] = {
     "4 mmol/L"
    ],
    "answer": 0,
-   "why": "Below 4 mmol/L without risk factors."
+   "why": "Below 4 mmol/L without risk factors.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/27.jpg",
+     "lec": "Lipid anomaly",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Atherogenic risk rises with:",
@@ -8626,7 +9497,14 @@ SINA.lectures["biochem-lipids"] = {
     "The apo B/apo AI ratio"
    ],
    "answer": 3,
-   "why": "Apo dosage is the most accurate risk assessment."
+   "why": "Apo dosage is the most accurate risk assessment.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/28.jpg",
+     "lec": "Lipid anomaly",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Type I hyperlipoproteinaemia in the Fredrickson classification is:",
@@ -8637,7 +9515,14 @@ SINA.lectures["biochem-lipids"] = {
     "Hyper-LDL"
    ],
    "answer": 1,
-   "why": "Mainly triglycerides."
+   "why": "Mainly triglycerides.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/30.jpg",
+     "lec": "Lipid anomaly",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -9155,7 +10040,14 @@ SINA.lectures["biochem-calcium"] = {
     "10 g"
    ],
    "answer": 1,
-   "why": "Rising to 1.2 g/day in growth, pregnancy, lactation and menopause."
+   "why": "Rising to 1.2 g/day in growth, pregnancy, lactation and menopause.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/05.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What share of body calcium is in bone?",
@@ -9166,7 +10058,14 @@ SINA.lectures["biochem-calcium"] = {
     "99 percent"
    ],
    "answer": 3,
-   "why": "1 kg of calcium, 99 percent in bone."
+   "why": "1 kg of calcium, 99 percent in bone.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/05.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What share of serum calcium is ionised?",
@@ -9177,7 +10076,14 @@ SINA.lectures["biochem-calcium"] = {
     "80 percent"
    ],
    "answer": 2,
-   "why": "45 percent ionised, 5 percent complexed (diffusible), 50 percent protein-bound, mostly albumin."
+   "why": "45 percent ionised, 5 percent complexed (diffusible), 50 percent protein-bound, mostly albumin.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/06.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Where is calcium mainly absorbed?",
@@ -9188,7 +10094,14 @@ SINA.lectures["biochem-calcium"] = {
     "The colon"
    ],
    "answer": 0,
-   "why": "Acidity helps; active transport needs calcitriol and is saturable; passive transport takes over above 600 mg/day."
+   "why": "Acidity helps; active transport needs calcitriol and is saturable; passive transport takes over above 600 mg/day.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/07.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What share of filtered calcium is reabsorbed?",
@@ -9199,7 +10112,19 @@ SINA.lectures["biochem-calcium"] = {
     "10 percent"
    ],
    "answer": 2,
-   "why": "Calciuria depends on calcaemia: all reabsorbed when low, half when high."
+   "why": "Calciuria depends on calcaemia: all reabsorbed when low, half when high.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/08.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 8
+    },
+    {
+     "src": "files/slides/biochem-calcium/09.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Where is phosphorus mainly absorbed?",
@@ -9210,7 +10135,14 @@ SINA.lectures["biochem-calcium"] = {
     "The jejunum and ileum"
    ],
    "answer": 3,
-   "why": "A little further along than calcium, parallel to intake."
+   "why": "A little further along than calcium, parallel to intake.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/10.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What share of body phosphorus is in bone?",
@@ -9221,7 +10153,14 @@ SINA.lectures["biochem-calcium"] = {
     "99 percent"
    ],
    "answer": 1,
-   "why": "85 percent bone, 14 percent intracellular, 1 percent extracellular."
+   "why": "85 percent bone, 14 percent intracellular, 1 percent extracellular.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/11.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What is the net effect of PTH?",
@@ -9232,7 +10171,14 @@ SINA.lectures["biochem-calcium"] = {
     "Raises both"
    ],
    "answer": 0,
-   "why": "PTH is hypercalcaemic and hypophosphataemic."
+   "why": "PTH is hypercalcaemic and hypophosphataemic.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/16.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which PTH fragment is active?",
@@ -9243,7 +10189,14 @@ SINA.lectures["biochem-calcium"] = {
     "The N-terminal fragment"
    ],
    "answer": 3,
-   "why": "PTH (84 amino acids) is cleaved in liver and kidney; the N-terminal carries all activity."
+   "why": "PTH (84 amino acids) is cleaved in liver and kidney; the N-terminal carries all activity.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/15.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which cells make calcitonin?",
@@ -9254,7 +10207,14 @@ SINA.lectures["biochem-calcium"] = {
     "Parathyroid chief cells"
    ],
    "answer": 1,
-   "why": "Calcitonin fixes Ca and P on bone and lowers their renal reabsorption: hypocalcaemic, hypophosphataemic."
+   "why": "Calcitonin fixes Ca and P on bone and lowers their renal reabsorption: hypocalcaemic, hypophosphataemic.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/17.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "What is the net effect of calcitriol?",
@@ -9265,7 +10225,14 @@ SINA.lectures["biochem-calcium"] = {
     "Lowers phosphate only"
    ],
    "answer": 1,
-   "why": "1,25-dihydroxy vitamin D3 raises intestinal absorption and renal reabsorption of both."
+   "why": "1,25-dihydroxy vitamin D3 raises intestinal absorption and renal reabsorption of both.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/18.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Which tube is forbidden for calcium?",
@@ -9276,7 +10243,14 @@ SINA.lectures["biochem-calcium"] = {
     "Serum gel tube"
    ],
    "answer": 2,
-   "why": "EDTA, citrate and oxalate chelate calcium."
+   "why": "EDTA, citrate and oxalate chelate calcium.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/20.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "What is normal serum calcium?",
@@ -9287,7 +10261,14 @@ SINA.lectures["biochem-calcium"] = {
     "3.5 to 4.0 mmol/L"
    ],
    "answer": 0,
-   "why": "85 to 105 mg/L; fasting morning sample, short tourniquet."
+   "why": "85 to 105 mg/L; fasting morning sample, short tourniquet.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/20.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Why correct calcium for albumin?",
@@ -9298,7 +10279,14 @@ SINA.lectures["biochem-calcium"] = {
     "Albumin lowers PTH"
    ],
    "answer": 1,
-   "why": "Corrected Ca = measured + (40 − albumin)/40 (mmol/L)."
+   "why": "Corrected Ca = measured + (40 − albumin)/40 (mmol/L).",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/21.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which hormones raise calcaemia? (choose all)",
@@ -9312,7 +10300,14 @@ SINA.lectures["biochem-calcium"] = {
     0,
     1
    ],
-   "why": "PTH and calcitriol are hypercalcaemic; calcitonin lowers calcium; cortisol reduces bone mineralisation and absorption."
+   "why": "PTH and calcitriol are hypercalcaemic; calcitonin lowers calcium; cortisol reduces bone mineralisation and absorption.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/18.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "What fraction of body calcium is in bone?",
@@ -9323,7 +10318,14 @@ SINA.lectures["biochem-calcium"] = {
     "99%"
    ],
    "answer": 3,
-   "why": "About 1 kg of calcium in total."
+   "why": "About 1 kg of calcium in total.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/05.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What share of serum calcium is ionised?",
@@ -9334,7 +10336,14 @@ SINA.lectures["biochem-calcium"] = {
     "80%"
    ],
    "answer": 2,
-   "why": "Another 5% is complexed; half is protein-bound."
+   "why": "Another 5% is complexed; half is protein-bound.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/06.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Where is calcium mainly absorbed?",
@@ -9345,7 +10354,14 @@ SINA.lectures["biochem-calcium"] = {
     "Duodenum"
    ],
    "answer": 3,
-   "why": "The acid environment helps dissolve calcium salts."
+   "why": "The acid environment helps dissolve calcium salts.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/07.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Active intestinal calcium absorption depends on:",
@@ -9356,7 +10372,14 @@ SINA.lectures["biochem-calcium"] = {
     "1,25-dihydroxyvitamin D3"
    ],
    "answer": 3,
-   "why": "It is efficient but saturable."
+   "why": "It is efficient but saturable.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/07.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What proportion of filtered calcium is reabsorbed by the kidney?",
@@ -9367,7 +10390,19 @@ SINA.lectures["biochem-calcium"] = {
     "100% always"
    ],
    "answer": 0,
-   "why": "All of it when calcaemia is low; only half when it is high."
+   "why": "All of it when calcaemia is low; only half when it is high.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/08.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 8
+    },
+    {
+     "src": "files/slides/biochem-calcium/09.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Where is phosphate reabsorbed in the kidney?",
@@ -9378,7 +10413,14 @@ SINA.lectures["biochem-calcium"] = {
     "Collecting duct, under ADH"
    ],
    "answer": 0,
-   "why": "About 90% of the ultrafilterable fraction."
+   "why": "About 90% of the ultrafilterable fraction.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/12.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "What is the overall effect of PTH?",
@@ -9389,7 +10431,14 @@ SINA.lectures["biochem-calcium"] = {
     "Hypercalcaemic, hypophosphataemic"
    ],
    "answer": 3,
-   "why": "Opposite actions on calcium and phosphate in the three organs."
+   "why": "Opposite actions on calcium and phosphate in the three organs.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/16.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which fragment of PTH is biologically active?",
@@ -9400,7 +10449,14 @@ SINA.lectures["biochem-calcium"] = {
     "Middle"
    ],
    "answer": 2,
-   "why": "PTH is cleaved in the liver and kidney."
+   "why": "PTH is cleaved in the liver and kidney.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/15.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Calcitonin is produced by:",
@@ -9411,7 +10467,14 @@ SINA.lectures["biochem-calcium"] = {
     "Adrenal cortex"
    ],
    "answer": 2,
-   "why": "It is hypocalcaemic and hypophosphataemic."
+   "why": "It is hypocalcaemic and hypophosphataemic.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/17.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which hormone raises both calcium and phosphate?",
@@ -9422,7 +10485,14 @@ SINA.lectures["biochem-calcium"] = {
     "Cortisol"
    ],
    "answer": 0,
-   "why": "It increases intestinal absorption and renal reabsorption of both."
+   "why": "It increases intestinal absorption and renal reabsorption of both.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/18.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Why must EDTA tubes not be used for calcaemia?",
@@ -9433,7 +10503,14 @@ SINA.lectures["biochem-calcium"] = {
     "They contain calcium"
    ],
    "answer": 1,
-   "why": "Citrate and oxalate do the same."
+   "why": "Citrate and oxalate do the same.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/20.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Why should the tourniquet not stay on long?",
@@ -9444,7 +10521,19 @@ SINA.lectures["biochem-calcium"] = {
     "It lowers calcium by chelation"
    ],
    "answer": 0,
-   "why": "Half of calcium is protein-bound."
+   "why": "Half of calcium is protein-bound.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/06.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 6
+    },
+    {
+     "src": "files/slides/biochem-calcium/20.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Normal total calcaemia is:",
@@ -9455,7 +10544,14 @@ SINA.lectures["biochem-calcium"] = {
     "2.25 to 2.60 mmol/L"
    ],
    "answer": 3,
-   "why": "85 to 105 mg/L."
+   "why": "85 to 105 mg/L.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/20.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "A patient has calcium 2.0 mmol/L and albumin 30 g/L. Corrected calcium is:",
@@ -9466,7 +10562,14 @@ SINA.lectures["biochem-calcium"] = {
     "1.75 mmol/L"
    ],
    "answer": 0,
-   "why": "2.0 + (40 - 30)/40 = 2.25 mmol/L, which is normal."
+   "why": "2.0 + (40 - 30)/40 = 2.25 mmol/L, which is normal.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/21.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which hormone decreases bone mineralisation and calcium absorption?",
@@ -9477,7 +10580,14 @@ SINA.lectures["biochem-calcium"] = {
     "Thyroid hormone"
    ],
    "answer": 2,
-   "why": "Hence bone loss on long-term corticosteroids."
+   "why": "Hence bone loss on long-term corticosteroids.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/19.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -9998,7 +11108,14 @@ SINA.lectures["biochem-iron"] = {
     "About 40 g"
    ],
    "answer": 2,
-   "why": "About 4 g: 60 percent in haemoglobin, 5 percent myoglobin, 35 percent reserves."
+   "why": "About 4 g: 60 percent in haemoglobin, 5 percent myoglobin, 35 percent reserves.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/04.jpg",
+     "lec": "Iron balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "In which form is heme iron?",
@@ -10009,7 +11126,14 @@ SINA.lectures["biochem-iron"] = {
     "Fe4+"
    ],
    "answer": 1,
-   "why": "Heme iron is ferrous; reserve and transport iron is ferric."
+   "why": "Heme iron is ferrous; reserve and transport iron is ferric.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/04.jpg",
+     "lec": "Iron balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What share of iron is in the reserves?",
@@ -10020,7 +11144,14 @@ SINA.lectures["biochem-iron"] = {
     "About 60 percent"
    ],
    "answer": 1,
-   "why": "1.4 g in ferritin and haemosiderin."
+   "why": "1.4 g in ferritin and haemosiderin.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/04.jpg",
+     "lec": "Iron balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What is the daily iron need of a woman?",
@@ -10031,7 +11162,14 @@ SINA.lectures["biochem-iron"] = {
     "10 mg"
    ],
    "answer": 2,
-   "why": "Men 1 mg, women 2 mg, pregnancy 3 mg (up to 10 mg in the third trimester)."
+   "why": "Men 1 mg, women 2 mg, pregnancy 3 mg (up to 10 mg in the third trimester).",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/08.jpg",
+     "lec": "Iron balance",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "What share of dietary iron is absorbed?",
@@ -10042,7 +11180,14 @@ SINA.lectures["biochem-iron"] = {
     "About 90 percent"
    ],
    "answer": 1,
-   "why": "So intake should be about 10 mg (men) and 20 mg (women); absorbed in duodenum, helped by vitamin C."
+   "why": "So intake should be about 10 mg (men) and 20 mg (women); absorbed in duodenum, helped by vitamin C.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/09.jpg",
+     "lec": "Iron balance",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "How many ferric atoms does transferrin bind?",
@@ -10053,7 +11198,14 @@ SINA.lectures["biochem-iron"] = {
     "Two"
    ],
    "answer": 3,
-   "why": "Transferrin, mostly hepatic, is about one-third saturated."
+   "why": "Transferrin, mostly hepatic, is about one-third saturated.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/11.jpg",
+     "lec": "Iron balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What happens to transferrin when stores fall?",
@@ -10064,7 +11216,14 @@ SINA.lectures["biochem-iron"] = {
     "Synthesis rises"
    ],
    "answer": 3,
-   "why": "Low stores increase transferrin synthesis; overload reduces it."
+   "why": "Low stores increase transferrin synthesis; overload reduces it.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/11.jpg",
+     "lec": "Iron balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What does soluble transferrin receptor reflect?",
@@ -10075,7 +11234,14 @@ SINA.lectures["biochem-iron"] = {
     "Liver function"
    ],
    "answer": 0,
-   "why": "sTfR rises in iron deficiency and helps detect it within inflammatory anaemia."
+   "why": "sTfR rises in iron deficiency and helps detect it within inflammatory anaemia.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/32.jpg",
+     "lec": "Iron balance",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which reserve is readily available?",
@@ -10086,7 +11252,14 @@ SINA.lectures["biochem-iron"] = {
     "Myoglobin"
    ],
    "answer": 1,
-   "why": "Ferritin is easily mobilised; haemosiderin releases iron slowly (Perls' Prussian blue stain)."
+   "why": "Ferritin is easily mobilised; haemosiderin releases iron slowly (Perls' Prussian blue stain).",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/14.jpg",
+     "lec": "Iron balance",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Is isolated serum iron useful?",
@@ -10097,7 +11270,14 @@ SINA.lectures["biochem-iron"] = {
     "Only in men"
    ],
    "answer": 0,
-   "why": "Measure iron together with transferrin to calculate TIBC and saturation."
+   "why": "Measure iron together with transferrin to calculate TIBC and saturation.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/18.jpg",
+     "lec": "Iron balance",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "How is TIBC calculated?",
@@ -10108,7 +11288,14 @@ SINA.lectures["biochem-iron"] = {
     "Transferrin (g/L) x 25"
    ],
    "answer": 3,
-   "why": "TIBC 60 to 95 µmol/L in adults."
+   "why": "TIBC 60 to 95 µmol/L in adults.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/20.jpg",
+     "lec": "Iron balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "What is the first-line test for iron deficiency?",
@@ -10119,7 +11306,14 @@ SINA.lectures["biochem-iron"] = {
     "Transferrin saturation"
    ],
    "answer": 0,
-   "why": "Ferritin under 30 µg/L with anaemia is enough to diagnose iron deficiency anaemia."
+   "why": "Ferritin under 30 µg/L with anaemia is enough to diagnose iron deficiency anaemia.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/27.jpg",
+     "lec": "Iron balance",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "What defines iron deficiency anaemia in women?",
@@ -10130,7 +11324,14 @@ SINA.lectures["biochem-iron"] = {
     "Hb under 120 g/L, microcytic"
    ],
    "answer": 3,
-   "why": "WHO: Hb under 120 (women) or 130 g/L (men), MCV under 80 fL, hypochromic."
+   "why": "WHO: Hb under 120 (women) or 130 g/L (men), MCV under 80 fL, hypochromic.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/26.jpg",
+     "lec": "Iron balance",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "What does hepcidin do?",
@@ -10141,7 +11342,14 @@ SINA.lectures["biochem-iron"] = {
     "Carries iron in plasma"
    ],
    "answer": 0,
-   "why": "Induced by excess iron, it traps iron in enterocytes and macrophages."
+   "why": "Induced by excess iron, it traps iron in enterocytes and macrophages.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/23.jpg",
+     "lec": "Iron balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What saturation threshold screens for haemochromatosis?",
@@ -10152,7 +11360,19 @@ SINA.lectures["biochem-iron"] = {
     "Over 15 percent"
    ],
    "answer": 0,
-   "why": "TS over 45 percent with raised ferritin; HFE gene testing confirms."
+   "why": "TS over 45 percent with raised ferritin; HFE gene testing confirms.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/30.jpg",
+     "lec": "Iron balance",
+     "n": 30
+    },
+    {
+     "src": "files/slides/biochem-iron/31.jpg",
+     "lec": "Iron balance",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Which are signs of primary haemochromatosis? (choose all)",
@@ -10166,7 +11386,14 @@ SINA.lectures["biochem-iron"] = {
     0,
     1
    ],
-   "why": "Melanoderma, hepatomegaly to cirrhosis, diabetes, pituitary hypogonadism, heart disease, joint disease."
+   "why": "Melanoderma, hepatomegaly to cirrhosis, diabetes, pituitary hypogonadism, heart disease, joint disease.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/29.jpg",
+     "lec": "Iron balance",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "How much iron does a healthy adult contain?",
@@ -10177,7 +11404,14 @@ SINA.lectures["biochem-iron"] = {
     "About 4 g"
    ],
    "answer": 3,
-   "why": "60% of it in haemoglobin."
+   "why": "60% of it in haemoglobin.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/04.jpg",
+     "lec": "Iron balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which form of iron is found in haem?",
@@ -10188,7 +11422,14 @@ SINA.lectures["biochem-iron"] = {
     "Ferrous Fe²⁺"
    ],
    "answer": 3,
-   "why": "Stores and plasma iron are ferric."
+   "why": "Stores and plasma iron are ferric.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/04.jpg",
+     "lec": "Iron balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What are the daily iron needs in the third trimester of pregnancy?",
@@ -10199,7 +11440,14 @@ SINA.lectures["biochem-iron"] = {
     "50 mg/day"
    ],
    "answer": 2,
-   "why": "3 mg/day in the first two trimesters."
+   "why": "3 mg/day in the first two trimesters.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/08.jpg",
+     "lec": "Iron balance",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "What proportion of dietary iron is absorbed?",
@@ -10210,7 +11458,14 @@ SINA.lectures["biochem-iron"] = {
     "About 1%"
    ],
    "answer": 1,
-   "why": "So a woman needs about 20 mg of intake."
+   "why": "So a woman needs about 20 mg of intake.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/09.jpg",
+     "lec": "Iron balance",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which factor promotes iron absorption?",
@@ -10221,7 +11476,14 @@ SINA.lectures["biochem-iron"] = {
     "Calcium taken with the meal"
    ],
    "answer": 2,
-   "why": "Animal iron is also better absorbed than plant iron."
+   "why": "Animal iron is also better absorbed than plant iron.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/09.jpg",
+     "lec": "Iron balance",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "How many iron atoms does one transferrin molecule bind?",
@@ -10232,7 +11494,14 @@ SINA.lectures["biochem-iron"] = {
     "One"
    ],
    "answer": 2,
-   "why": "Normally about one-third saturated."
+   "why": "Normally about one-third saturated.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/11.jpg",
+     "lec": "Iron balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What happens to transferrin synthesis when stores fall?",
@@ -10243,7 +11512,14 @@ SINA.lectures["biochem-iron"] = {
     "No change"
    ],
    "answer": 0,
-   "why": "So transferrin is high in iron deficiency."
+   "why": "So transferrin is high in iron deficiency.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/03.jpg",
+     "lec": "Iron balance",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which iron store is mobilised slowly and stains with Perls' blue?",
@@ -10254,7 +11530,14 @@ SINA.lectures["biochem-iron"] = {
     "Myoglobin"
    ],
    "answer": 1,
-   "why": "Ferritin is the readily available store."
+   "why": "Ferritin is the readily available store.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/14.jpg",
+     "lec": "Iron balance",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "TIBC is calculated as:",
@@ -10265,7 +11548,14 @@ SINA.lectures["biochem-iron"] = {
     "Iron / transferrin"
    ],
    "answer": 2,
-   "why": "In µmol/L; normal 60 to 95."
+   "why": "In µmol/L; normal 60 to 95.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/20.jpg",
+     "lec": "Iron balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Normal transferrin saturation in men is:",
@@ -10276,7 +11566,14 @@ SINA.lectures["biochem-iron"] = {
     "60 to 80%"
    ],
    "answer": 0,
-   "why": "Women 15 to 35%."
+   "why": "Women 15 to 35%.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/20.jpg",
+     "lec": "Iron balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "What is the first-line test for suspected iron deficiency?",
@@ -10287,7 +11584,14 @@ SINA.lectures["biochem-iron"] = {
     "Hepcidin"
    ],
    "answer": 2,
-   "why": "Per the HAS 2011 recommendations."
+   "why": "Per the HAS 2011 recommendations.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/27.jpg",
+     "lec": "Iron balance",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which ferritin value, with anaemia, confirms iron deficiency anaemia in adults?",
@@ -10298,7 +11602,14 @@ SINA.lectures["biochem-iron"] = {
     "Above 200 µg/L"
    ],
    "answer": 2,
-   "why": "No other marker is then needed."
+   "why": "No other marker is then needed.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/27.jpg",
+     "lec": "Iron balance",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Why is transferrin saturation a poor test for iron deficiency?",
@@ -10309,7 +11620,14 @@ SINA.lectures["biochem-iron"] = {
     "It is too expensive for screening"
    ],
    "answer": 1,
-   "why": "It drops below 16% once anaemia is established."
+   "why": "It drops below 16% once anaemia is established.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/27.jpg",
+     "lec": "Iron balance",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Hepcidin is:",
@@ -10320,7 +11638,14 @@ SINA.lectures["biochem-iron"] = {
     "Induced by excess iron and blocks iron exit from cells"
    ],
    "answer": 3,
-   "why": "HFE mutations lower hepcidin."
+   "why": "HFE mutations lower hepcidin.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/23.jpg",
+     "lec": "Iron balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which is the screening threshold for primary haemochromatosis?",
@@ -10331,7 +11656,14 @@ SINA.lectures["biochem-iron"] = {
     "Serum iron > 10"
    ],
    "answer": 2,
-   "why": "Confirmed with ferritin and HFE genotyping."
+   "why": "Confirmed with ferritin and HFE genotyping.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/31.jpg",
+     "lec": "Iron balance",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Which organs are preferentially loaded in haemochromatosis?",
@@ -10342,7 +11674,14 @@ SINA.lectures["biochem-iron"] = {
     "Bone and muscle"
    ],
    "answer": 0,
-   "why": "They avidly take up non-transferrin-bound iron."
+   "why": "They avidly take up non-transferrin-bound iron.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/30.jpg",
+     "lec": "Iron balance",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which marker helps find iron deficiency during an inflammatory syndrome?",
@@ -10353,7 +11692,14 @@ SINA.lectures["biochem-iron"] = {
     "Albumin"
    ],
    "answer": 2,
-   "why": "Ferritin is raised by inflammation, sTfR is not."
+   "why": "Ferritin is raised by inflammation, sTfR is not.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/32.jpg",
+     "lec": "Iron balance",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -10886,7 +12232,14 @@ SINA.lectures["biochem-water"] = {
     "About 30 percent"
    ],
    "answer": 0,
-   "why": "About 42 L at 70 kg; 50 percent in women, 75 percent in infants."
+   "why": "About 42 L at 70 kg; 50 percent in women, 75 percent in infants.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/04.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which tissue has the least water?",
@@ -10897,7 +12250,14 @@ SINA.lectures["biochem-water"] = {
     "Muscle"
    ],
    "answer": 2,
-   "why": "Muscle 75, bone 22, fat 10 percent."
+   "why": "Muscle 75, bone 22, fat 10 percent.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/05.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What is the daily water balance?",
@@ -10908,7 +12268,14 @@ SINA.lectures["biochem-water"] = {
     "About 1 L"
    ],
    "answer": 0,
-   "why": "In: 2.2 L drinks, 0.7 L food, 0.3 L metabolic. Out: 1.5 L urine, 0.9 L insensible, 0.1 L stool."
+   "why": "In: 2.2 L drinks, 0.7 L food, 0.3 L metabolic. Out: 1.5 L urine, 0.9 L insensible, 0.1 L stool.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/06.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "What share of body weight is intracellular water?",
@@ -10919,7 +12286,14 @@ SINA.lectures["biochem-water"] = {
     "40 to 50 percent"
    ],
    "answer": 3,
-   "why": "Intracellular 40 to 50 percent (28 L); extracellular 20 percent (15 interstitial, 5 plasma)."
+   "why": "Intracellular 40 to 50 percent (28 L); extracellular 20 percent (15 interstitial, 5 plasma).",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/07.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What is the main intracellular cation?",
@@ -10930,7 +12304,14 @@ SINA.lectures["biochem-water"] = {
     "Calcium"
    ],
    "answer": 1,
-   "why": "Intracellular: K+ and phosphates. Plasma: Na+ and Cl-."
+   "why": "Intracellular: K+ and phosphates. Plasma: Na+ and Cl-.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/10.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What drives Na+ out of cells?",
@@ -10941,7 +12322,14 @@ SINA.lectures["biochem-water"] = {
     "The Na+/K+ ATPase"
    ],
    "answer": 3,
-   "why": "Active transport against the gradient, using energy."
+   "why": "Active transport against the gradient, using energy.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/13.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Which pressure predominates at venous capillaries?",
@@ -10952,7 +12340,14 @@ SINA.lectures["biochem-water"] = {
     "Atmospheric pressure"
    ],
    "answer": 1,
-   "why": "Starling: hydrostatic wins at arterial ends (water out), oncotic at venous ends (water back)."
+   "why": "Starling: hydrostatic wins at arterial ends (water out), oncotic at venous ends (water back).",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/15.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Where does ADH act?",
@@ -10963,7 +12358,14 @@ SINA.lectures["biochem-water"] = {
     "The glomerulus"
    ],
    "answer": 0,
-   "why": "ADH reabsorbs water alone in the collecting ducts."
+   "why": "ADH reabsorbs water alone in the collecting ducts.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/17.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "What does ANF do?",
@@ -10974,7 +12376,14 @@ SINA.lectures["biochem-water"] = {
     "Excretes water and sodium"
    ],
    "answer": 3,
-   "why": "Atrial natriuretic factor is diuretic, natriuretic and vasodilator."
+   "why": "Atrial natriuretic factor is diuretic, natriuretic and vasodilator.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/17.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which tube falsely raises sodium?",
@@ -10985,7 +12394,14 @@ SINA.lectures["biochem-water"] = {
     "Sodium heparin"
    ],
    "answer": 3,
-   "why": "Sodium heparin falsifies sodium; EDTA falsifies potassium."
+   "why": "Sodium heparin falsifies sodium; EDTA falsifies potassium.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/19.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which causes false hyponatraemia?",
@@ -10996,7 +12412,14 @@ SINA.lectures["biochem-water"] = {
     "Hypoglycaemia"
    ],
    "answer": 2,
-   "why": "Lactescent serum and hyperprotidaemia cause false hyponatraemia."
+   "why": "Lactescent serum and hyperprotidaemia cause false hyponatraemia.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/19.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "What is normal serum sodium?",
@@ -11007,7 +12430,19 @@ SINA.lectures["biochem-water"] = {
     "95 to 108 mmol/L"
    ],
    "answer": 2,
-   "why": "Sodium 135 to 145, potassium 3.5 to 5.5, chloride 95 to 108 mmol/L."
+   "why": "Sodium 135 to 145, potassium 3.5 to 5.5, chloride 95 to 108 mmol/L.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/20.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 20
+    },
+    {
+     "src": "files/slides/biochem-water/25.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Which hormone excess causes hyponatraemia?",
@@ -11018,7 +12453,14 @@ SINA.lectures["biochem-water"] = {
     "Aldosterone"
    ],
    "answer": 0,
-   "why": "ADH hypersecretion lowers free water excretion."
+   "why": "ADH hypersecretion lowers free water excretion.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/21.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which is a cause of hypokalaemia?",
@@ -11029,7 +12471,14 @@ SINA.lectures["biochem-water"] = {
     "Hyperaldosteronism"
    ],
    "answer": 3,
-   "why": "Also vomiting, diarrhoea, tubulopathy, anorexia, unsupplemented parenteral nutrition."
+   "why": "Also vomiting, diarrhoea, tubulopathy, anorexia, unsupplemented parenteral nutrition.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/23.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What causes intracellular dehydration?",
@@ -11040,7 +12489,14 @@ SINA.lectures["biochem-water"] = {
     "Heat stroke"
    ],
    "answer": 2,
-   "why": "Pure water loss (diabetes insipidus, intubation, head injury). Extracellular dehydration: isotonic losses (vomiting, diarrhoea, heat stroke)."
+   "why": "Pure water loss (diabetes insipidus, intubation, head injury). Extracellular dehydration: isotonic losses (vomiting, diarrhoea, heat stroke).",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/29.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which cause extracellular hyperhydration (oedema)? (choose all)",
@@ -11054,7 +12510,14 @@ SINA.lectures["biochem-water"] = {
     0,
     1
    ],
-   "why": "Renal failure, heart failure and cirrhosis retain sodium."
+   "why": "Renal failure, heart failure and cirrhosis retain sodium.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/30.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "What percentage of body weight is water in a woman?",
@@ -11065,7 +12528,14 @@ SINA.lectures["biochem-water"] = {
     "50%"
    ],
    "answer": 3,
-   "why": "60% overall, 75% in infants."
+   "why": "60% overall, 75% in infants.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/04.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which tissue has the lowest water content?",
@@ -11076,7 +12546,14 @@ SINA.lectures["biochem-water"] = {
     "Muscle"
    ],
    "answer": 1,
-   "why": "Fat 10%, bone 22%, muscle 75%."
+   "why": "Fat 10%, bone 22%, muscle 75%.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/05.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What is the daily urine output in the lecture's water balance?",
@@ -11087,7 +12564,14 @@ SINA.lectures["biochem-water"] = {
     "3 L"
    ],
    "answer": 0,
-   "why": "Insensible losses 0.9 L, stool 0.1 L."
+   "why": "Insensible losses 0.9 L, stool 0.1 L.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/06.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "How much water is in the plasma of a 70 kg adult?",
@@ -11098,7 +12582,19 @@ SINA.lectures["biochem-water"] = {
     "12 L"
    ],
    "answer": 2,
-   "why": "About 5% of body weight."
+   "why": "About 5% of body weight.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/07.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 7
+    },
+    {
+     "src": "files/slides/biochem-water/08.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "A calcium of 2.50 mmol/L corresponds to:",
@@ -11109,7 +12605,14 @@ SINA.lectures["biochem-water"] = {
     "2.50 mEq/L"
    ],
    "answer": 1,
-   "why": "Divalent ion: mEq = mmol × 2."
+   "why": "Divalent ion: mEq = mmol × 2.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/09.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which is the main intracellular anion?",
@@ -11120,7 +12623,14 @@ SINA.lectures["biochem-water"] = {
     "Chloride"
    ],
    "answer": 2,
-   "why": "Followed by proteins."
+   "why": "Followed by proteins.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/10.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Why does interstitial fluid have slightly more anions than plasma?",
@@ -11131,7 +12641,14 @@ SINA.lectures["biochem-water"] = {
     "It lacks proteins (Donnan equilibrium)"
    ],
    "answer": 3,
-   "why": "Anions ×1.05, cations ×0.95."
+   "why": "Anions ×1.05, cations ×0.95.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/11.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which pump expels sodium from cells?",
@@ -11142,7 +12659,14 @@ SINA.lectures["biochem-water"] = {
     "H⁺/K⁺-ATPase"
    ],
    "answer": 1,
-   "why": "It needs energy to work against the gradient."
+   "why": "It needs energy to work against the gradient.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/13.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "At the arterial end of a capillary:",
@@ -11153,7 +12677,14 @@ SINA.lectures["biochem-water"] = {
     "Proteins leave freely"
    ],
    "answer": 1,
-   "why": "At the venous end oncotic pressure recalls water."
+   "why": "At the venous end oncotic pressure recalls water.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/15.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which hormone reabsorbs water alone in the collecting duct?",
@@ -11164,7 +12695,14 @@ SINA.lectures["biochem-water"] = {
     "ANF"
    ],
    "answer": 2,
-   "why": "Aldosterone retains sodium and water."
+   "why": "Aldosterone retains sodium and water.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/17.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Atrial natriuretic factor is:",
@@ -11175,7 +12713,14 @@ SINA.lectures["biochem-water"] = {
     "Vasoconstricting and pressor"
    ],
    "answer": 0,
-   "why": "Secreted by the cardiac atria."
+   "why": "Secreted by the cardiac atria.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/17.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which tube gives a false potassium result?",
@@ -11186,7 +12731,14 @@ SINA.lectures["biochem-water"] = {
     "EDTA"
    ],
    "answer": 3,
-   "why": "Sodium heparin falsifies sodium."
+   "why": "Sodium heparin falsifies sodium.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/19.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "What can cause a false hyponatraemia?",
@@ -11197,7 +12749,14 @@ SINA.lectures["biochem-water"] = {
     "Dehydration"
    ],
    "answer": 0,
-   "why": "Also hyperproteinaemia."
+   "why": "Also hyperproteinaemia.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/19.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Above which potassium level is the prognosis vital?",
@@ -11208,7 +12767,14 @@ SINA.lectures["biochem-water"] = {
     "6.5 mmol/L"
    ],
    "answer": 3,
-   "why": "Cardiac conduction and neuromuscular disorders."
+   "why": "Cardiac conduction and neuromuscular disorders.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/24.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Which is a renal cause of hypokalaemia?",
@@ -11219,7 +12785,14 @@ SINA.lectures["biochem-water"] = {
     "Renal failure"
    ],
    "answer": 2,
-   "why": "Also tubular nephropathy."
+   "why": "Also tubular nephropathy.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/23.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Plasma chloride typically varies:",
@@ -11230,7 +12803,14 @@ SINA.lectures["biochem-water"] = {
     "Never, it stays fixed at 100 mmol/L"
    ],
    "answer": 0,
-   "why": "It is the main extracellular anion."
+   "why": "It is the main extracellular anion.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/25.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Calculated plasma osmolality equals:",
@@ -11241,7 +12821,14 @@ SINA.lectures["biochem-water"] = {
     "Na × 3 + urea"
    ],
    "answer": 2,
-   "why": "Normal 280 to 300 mOsm/kg H2O."
+   "why": "Normal 280 to 300 mOsm/kg H2O.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/27.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Diabetes insipidus causes which disorder?",
@@ -11252,7 +12839,14 @@ SINA.lectures["biochem-water"] = {
     "No disorder"
    ],
    "answer": 2,
-   "why": "Free water is lost because of ADH deficiency."
+   "why": "Free water is lost because of ADH deficiency.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/29.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Oedema in heart failure is:",
@@ -11263,7 +12857,14 @@ SINA.lectures["biochem-water"] = {
     "Global dehydration"
    ],
    "answer": 0,
-   "why": "From sodium retention."
+   "why": "From sodium retention.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/30.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -11810,7 +13411,14 @@ SINA.lectures["biochem-acid-base"] = {
     "7.37 to 7.43"
    ],
    "answer": 3,
-   "why": "Kept stable by buffers, the lungs and the kidneys."
+   "why": "Kept stable by buffers, the lungs and the kidneys.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/03.jpg",
+     "lec": "Acid-base balance",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which acids do the lungs eliminate?",
@@ -11821,7 +13429,14 @@ SINA.lectures["biochem-acid-base"] = {
     "Volatile acid (CO2)"
    ],
    "answer": 3,
-   "why": "CO2 is the volatile acid; fixed acids (lactic, ketones, phosphoric, sulphuric) go by the kidneys."
+   "why": "CO2 is the volatile acid; fixed acids (lactic, ketones, phosphoric, sulphuric) go by the kidneys.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/05.jpg",
+     "lec": "Acid-base balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What is the main extracellular buffer?",
@@ -11832,7 +13447,14 @@ SINA.lectures["biochem-acid-base"] = {
     "Haemoglobin"
    ],
    "answer": 1,
-   "why": "High concentration, pKa near body pH, and regulated by lungs and kidneys."
+   "why": "High concentration, pKa near body pH, and regulated by lungs and kidneys.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/09.jpg",
+     "lec": "Acid-base balance",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What is the pKa in the Henderson-Hasselbalch bicarbonate equation?",
@@ -11843,7 +13465,14 @@ SINA.lectures["biochem-acid-base"] = {
     "7.4"
    ],
    "answer": 0,
-   "why": "pH = 6.1 + log [HCO3-] / (0.03 x PCO2)."
+   "why": "pH = 6.1 + log [HCO3-] / (0.03 x PCO2).",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/10.jpg",
+     "lec": "Acid-base balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which intracellular buffer has high capacity?",
@@ -11854,7 +13483,19 @@ SINA.lectures["biochem-acid-base"] = {
     "Proteinate"
    ],
    "answer": 1,
-   "why": "The haemoglobin-haemoglobinate system in red cells."
+   "why": "The haemoglobin-haemoglobinate system in red cells.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/08.jpg",
+     "lec": "Acid-base balance",
+     "n": 8
+    },
+    {
+     "src": "files/slides/biochem-acid-base/11.jpg",
+     "lec": "Acid-base balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "How do the lungs respond to metabolic acidosis?",
@@ -11865,7 +13506,14 @@ SINA.lectures["biochem-acid-base"] = {
     "Apnoea"
    ],
    "answer": 2,
-   "why": "Chemoreceptors trigger hyperventilation, lowering PaCO2."
+   "why": "Chemoreceptors trigger hyperventilation, lowering PaCO2.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/13.jpg",
+     "lec": "Acid-base balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Above which bicarbonate level does the kidney excrete it?",
@@ -11876,7 +13524,14 @@ SINA.lectures["biochem-acid-base"] = {
     "22 mmol/L"
    ],
    "answer": 0,
-   "why": "Above 28 mmol/L the kidney excretes HCO3- to prevent alkaline overload."
+   "why": "Above 28 mmol/L the kidney excretes HCO3- to prevent alkaline overload.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/15.jpg",
+     "lec": "Acid-base balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which form eliminates two thirds of acid?",
@@ -11887,7 +13542,14 @@ SINA.lectures["biochem-acid-base"] = {
     "Ammonium (NH4+)"
    ],
    "answer": 3,
-   "why": "NH4+ two thirds; titratable acid (H2PO4-) one third; free H+ little."
+   "why": "NH4+ two thirds; titratable acid (H2PO4-) one third; free H+ little.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/18.jpg",
+     "lec": "Acid-base balance",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "How does acidosis affect potassium?",
@@ -11898,7 +13560,14 @@ SINA.lectures["biochem-acid-base"] = {
     "No effect"
    ],
    "answer": 2,
-   "why": "H+ and K+ exchange."
+   "why": "H+ and K+ exchange.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/17.jpg",
+     "lec": "Acid-base balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which sample is used for blood gases?",
@@ -11909,7 +13578,14 @@ SINA.lectures["biochem-acid-base"] = {
     "Urine"
    ],
    "answer": 2,
-   "why": "Airtight heparinised syringe, anaerobic, on ice, analysed within 1 hour."
+   "why": "Airtight heparinised syringe, anaerobic, on ice, analysed within 1 hour.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/21.jpg",
+     "lec": "Acid-base balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "What is normal PaCO2?",
@@ -11920,7 +13596,14 @@ SINA.lectures["biochem-acid-base"] = {
     "37 to 43 mmHg"
    ],
    "answer": 3,
-   "why": "PaO2 75 to 100 mmHg; HCO3- 22 to 26 mmol/L; SaO2 95 to 99 percent."
+   "why": "PaO2 75 to 100 mmHg; HCO3- 22 to 26 mmol/L; SaO2 95 to 99 percent.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/23.jpg",
+     "lec": "Acid-base balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What is the normal anion gap?",
@@ -11931,7 +13614,14 @@ SINA.lectures["biochem-acid-base"] = {
     "2 ± 1 mEq/L"
    ],
    "answer": 1,
-   "why": "(Na + K) − (Cl + HCO3)."
+   "why": "(Na + K) − (Cl + HCO3).",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/24.jpg",
+     "lec": "Acid-base balance",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Low pH with low HCO3- is which disorder?",
@@ -11942,7 +13632,14 @@ SINA.lectures["biochem-acid-base"] = {
     "Metabolic acidosis"
    ],
    "answer": 3,
-   "why": "Compensated by a lower PaCO2."
+   "why": "Compensated by a lower PaCO2.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/13.jpg",
+     "lec": "Acid-base balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Low pH with high PaCO2 is which disorder?",
@@ -11953,7 +13650,14 @@ SINA.lectures["biochem-acid-base"] = {
     "Respiratory acidosis"
    ],
    "answer": 3,
-   "why": "PaCO2 over 42 mmHg; compensated by higher HCO3-."
+   "why": "PaCO2 over 42 mmHg; compensated by higher HCO3-.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/25.jpg",
+     "lec": "Acid-base balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "High pH with low PaCO2 is which disorder?",
@@ -11964,7 +13668,14 @@ SINA.lectures["biochem-acid-base"] = {
     "Metabolic alkalosis"
    ],
    "answer": 0,
-   "why": "PaCO2 under 36 mmHg; compensated by lower HCO3-."
+   "why": "PaCO2 under 36 mmHg; compensated by lower HCO3-.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/25.jpg",
+     "lec": "Acid-base balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Which are fixed acids? (choose all)",
@@ -11978,7 +13689,14 @@ SINA.lectures["biochem-acid-base"] = {
     0,
     1
    ],
-   "why": "Organic (lactic, ketones) and mineral (phosphoric, sulphuric) fixed acids go by the kidneys."
+   "why": "Organic (lactic, ketones) and mineral (phosphoric, sulphuric) fixed acids go by the kidneys.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/05.jpg",
+     "lec": "Acid-base balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What is the normal plasma pH range given in the lecture?",
@@ -11989,7 +13707,14 @@ SINA.lectures["biochem-acid-base"] = {
     "6.80 to 7.00"
    ],
    "answer": 2,
-   "why": "Despite a daily acid load."
+   "why": "Despite a daily acid load.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/03.jpg",
+     "lec": "Acid-base balance",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which acid is eliminated by the lungs?",
@@ -12000,7 +13725,14 @@ SINA.lectures["biochem-acid-base"] = {
     "CO₂ (volatile acid)"
    ],
    "answer": 3,
-   "why": "Fixed acids are eliminated by the kidneys."
+   "why": "Fixed acids are eliminated by the kidneys.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/05.jpg",
+     "lec": "Acid-base balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "A buffer is most effective when:",
@@ -12011,7 +13743,14 @@ SINA.lectures["biochem-acid-base"] = {
     "It is found only inside cells"
    ],
    "answer": 1,
-   "why": "From the Henderson-Hasselbalch relation."
+   "why": "From the Henderson-Hasselbalch relation.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/08.jpg",
+     "lec": "Acid-base balance",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "What is the pKa used for the bicarbonate system?",
@@ -12022,7 +13761,14 @@ SINA.lectures["biochem-acid-base"] = {
     "9.2"
    ],
    "answer": 1,
-   "why": "pH = 6.1 + log [HCO₃⁻] / (0.03 × PCO₂)."
+   "why": "pH = 6.1 + log [HCO₃⁻] / (0.03 × PCO₂).",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/10.jpg",
+     "lec": "Acid-base balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which is the main extracellular buffer?",
@@ -12033,7 +13779,14 @@ SINA.lectures["biochem-acid-base"] = {
     "Haemoglobin"
    ],
    "answer": 2,
-   "why": "Immediate first line of defence."
+   "why": "Immediate first line of defence.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/09.jpg",
+     "lec": "Acid-base balance",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which buffer is the high-capacity red-cell buffer?",
@@ -12044,7 +13797,14 @@ SINA.lectures["biochem-acid-base"] = {
     "Ammonia/ammonium"
    ],
    "answer": 0,
-   "why": "HbO₂ releases O₂ and binds H⁺."
+   "why": "HbO₂ releases O₂ and binds H⁺.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/12.jpg",
+     "lec": "Acid-base balance",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "How do the lungs respond to metabolic acidosis?",
@@ -12055,7 +13815,14 @@ SINA.lectures["biochem-acid-base"] = {
     "Hypoventilation raising PaCO₂"
    ],
    "answer": 1,
-   "why": "Chemoreceptors sense the falling pH."
+   "why": "Chemoreceptors sense the falling pH.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/13.jpg",
+     "lec": "Acid-base balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Above what plasma bicarbonate does the kidney excrete it?",
@@ -12066,7 +13833,14 @@ SINA.lectures["biochem-acid-base"] = {
     "18 mmol/L"
    ],
    "answer": 2,
-   "why": "Protecting against alkaline overload."
+   "why": "Protecting against alkaline overload.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/15.jpg",
+     "lec": "Acid-base balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "What share of renal acid excretion is in the form of ammonium?",
@@ -12077,7 +13851,14 @@ SINA.lectures["biochem-acid-base"] = {
     "One third"
    ],
    "answer": 0,
-   "why": "One third as titratable acidity (H₂PO₄⁻)."
+   "why": "One third as titratable acidity (H₂PO₄⁻).",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/18.jpg",
+     "lec": "Acid-base balance",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Why does acidosis cause hyperkalaemia?",
@@ -12088,7 +13869,14 @@ SINA.lectures["biochem-acid-base"] = {
     "Haemolysis of the blood sample"
    ],
    "answer": 2,
-   "why": "And conversely alkalosis lowers potassium."
+   "why": "And conversely alkalosis lowers potassium.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/17.jpg",
+     "lec": "Acid-base balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "How must a blood gas sample be handled?",
@@ -12099,7 +13887,14 @@ SINA.lectures["biochem-acid-base"] = {
     "EDTA tube, kept at room temperature"
    ],
    "answer": 2,
-   "why": "Air bubbles and delay change the gases."
+   "why": "Air bubbles and delay change the gases.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/21.jpg",
+     "lec": "Acid-base balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Normal arterial PaCO₂ is:",
@@ -12110,7 +13905,14 @@ SINA.lectures["biochem-acid-base"] = {
     "75 to 100 mmHg"
    ],
    "answer": 0,
-   "why": "PaO₂ is 75 to 100 mmHg."
+   "why": "PaO₂ is 75 to 100 mmHg.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/23.jpg",
+     "lec": "Acid-base balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Normal anion gap is:",
@@ -12121,7 +13923,14 @@ SINA.lectures["biochem-acid-base"] = {
     "30 ± 5 mEq/L"
    ],
    "answer": 1,
-   "why": "(Na + K) - (Cl + HCO₃)."
+   "why": "(Na + K) - (Cl + HCO₃).",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/24.jpg",
+     "lec": "Acid-base balance",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "pH 7.30, HCO₃⁻ 15 mmol/L, PaCO₂ 30 mmHg indicates:",
@@ -12132,7 +13941,19 @@ SINA.lectures["biochem-acid-base"] = {
     "Metabolic alkalosis with hypoventilation"
    ],
    "answer": 2,
-   "why": "Low bicarbonate is primary; PaCO₂ falls in compensation."
+   "why": "Low bicarbonate is primary; PaCO₂ falls in compensation.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/18.jpg",
+     "lec": "Acid-base balance",
+     "n": 18
+    },
+    {
+     "src": "files/slides/biochem-acid-base/25.jpg",
+     "lec": "Acid-base balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "pH 7.30 with PaCO₂ 55 mmHg and raised bicarbonate indicates:",
@@ -12143,7 +13964,14 @@ SINA.lectures["biochem-acid-base"] = {
     "Mixed alkalosis"
    ],
    "answer": 0,
-   "why": "PaCO₂ > 42 mmHg is the primary change."
+   "why": "PaCO₂ > 42 mmHg is the primary change.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/25.jpg",
+     "lec": "Acid-base balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "PaCO₂ up and HCO₃⁻ down together indicate:",
@@ -12154,7 +13982,19 @@ SINA.lectures["biochem-acid-base"] = {
     "Mixed acidosis"
    ],
    "answer": 3,
-   "why": "Both components push pH down."
+   "why": "Both components push pH down.",
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/13.jpg",
+     "lec": "Acid-base balance",
+     "n": 13
+    },
+    {
+     "src": "files/slides/biochem-acid-base/17.jpg",
+     "lec": "Acid-base balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",

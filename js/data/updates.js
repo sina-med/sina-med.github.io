@@ -6,6 +6,7 @@ SINA.updates = [
     "Added: Study next box after every quiz and exam, pointing to the lecture sections and slides behind the missed questions.",
     "Added: more question counts (25, 50, 70, 100) and a custom number.",
     "Changed: quizzes now pick questions not asked before first, spread over every chosen lecture; once all are seen, the oldest come back first.",
+    "Added: slide links (See the slide that explains this) on the questions of all 14 Clinical Biochemistry lectures.",
     "Added: past papers flag questions on lectures outside the next midterm, with an Only midterm questions button.",
     "Fixed: wording of the alkaline phosphatase and Graves' disease questions in Clinical Biochemistry.",
   ]},
