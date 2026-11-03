@@ -956,15 +956,9 @@ SINA.lectures["biochem-preanalytical"] = {
     2,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Many pre-analytical steps take place outside the laboratory (prescription, patient preparation, sampling, transport), so the lab cannot control them, and an error at any step can distort the result.",
    "slides": [
     {
      "src": "files/slides/biochem-preanalytical/19.jpg",
@@ -1145,15 +1139,9 @@ SINA.lectures["biochem-preanalytical"] = {
     1,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Creatine kinase is a muscle enzyme; even moderate exercise such as a jog can multiply it by 4.",
    "slides": [
     {
      "src": "files/slides/biochem-preanalytical/33.jpg",
@@ -1208,15 +1196,9 @@ SINA.lectures["biochem-preanalytical"] = {
     1,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "A tourniquet that is too tight or left too long can raise result values by up to 10% and causes haemolysis.",
    "slides": [
     {
      "src": "files/slides/biochem-preanalytical/42.jpg",
@@ -1328,15 +1310,9 @@ SINA.lectures["biochem-preanalytical"] = {
     1,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "After filling, the tube is mixed gently by inversion 5 to 10 times, within 2 minutes; it is never shaken hard.",
    "slides": [
     {
      "src": "files/slides/biochem-preanalytical/49.jpg",
@@ -2189,15 +2165,9 @@ SINA.lectures["biochem-preanalytical"] = {
     0,
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 33: “a muscle enzyme, … was multiplied by 4,”",
    "x": 1,
    "slides": [
     {
@@ -2337,15 +2307,9 @@ SINA.lectures["biochem-preanalytical"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 36: “may be DIFFERENT from what the patient presents far from the time of taking the sample”",
    "x": 1,
    "slides": [
     {
@@ -2425,15 +2389,9 @@ SINA.lectures["biochem-preanalytical"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 39: “Finally, to use “In vitro Diagnostic Medical Devices”, such as blood collection equipment, it is mandatory to Respect the Conditions and limits of use, which are at the level of the prospectus : (the expiry date, etc.)”",
    "x": 1,
    "slides": [
     {
@@ -2485,15 +2443,9 @@ SINA.lectures["biochem-preanalytical"] = {
     0,
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 42: “Incorrect application of the tourniquet can cause result values to increase, by up to 10%”",
    "x": 1,
    "slides": [
     {
@@ -2544,15 +2496,9 @@ SINA.lectures["biochem-preanalytical"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 43: “a. The order of the tubes : used for sampling must be respected What is the purpose : to avoid interference by transfer … Precaution : Never transfer blood from one tube to another”",
    "x": 1,
    "slides": [
     {
@@ -2631,15 +2577,9 @@ SINA.lectures["biochem-preanalytical"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 44: “(Ethylene Diamine Tetra-Acetic Acid)”",
    "x": 1,
    "slides": [
     {
@@ -2660,15 +2600,9 @@ SINA.lectures["biochem-preanalytical"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 43: “Precaution : Never transfer blood from one tube to another”",
    "x": 1,
    "slides": [
     {
@@ -2719,15 +2653,9 @@ SINA.lectures["biochem-preanalytical"] = {
     2,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 45: “Isolate the Serum/Plasma (in the supernatant) from the blood cells (in the Culot), in order to avoid exchanges between the intra and extracellular environment, ex : … serum/plasma glucose: can be consumed by blood cells (its concentration decreases, if the dosage is delayed) … intracellular potassium can diffuse from intracellular to serum/plasma (its concentration increases, if the dosage is delayed)”",
    "x": 1,
    "slides": [
     {
@@ -2865,15 +2793,9 @@ SINA.lectures["biochem-preanalytical"] = {
     1,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 51: “Prélèvement détérioré … Tube non étiqueté !”",
    "x": 1,
    "slides": [
     {
@@ -2924,15 +2846,9 @@ SINA.lectures["biochem-preanalytical"] = {
     1,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 54: “The tubes must be transported in an upright position : so that the blood clotted, at the level of the dry tube, does not place all along the wall (if the tube is in a lying position) or at the level of the stopper (if the tube is at the upside down), this will interfere with the analysis as the serum will not be readily available.”",
    "x": 1,
    "slides": [
     {
@@ -3012,15 +2928,9 @@ SINA.lectures["biochem-preanalytical"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 55: “therefore, if the analysis is delayed, it is recommended to store the biological samples in the refrigerator between 4 and 8 degrees.”",
    "x": 1,
    "slides": [
     {
@@ -3041,15 +2951,9 @@ SINA.lectures["biochem-preanalytical"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 56: “bilirubin : is sensitive to daylight. In a patient with jaundice (whose blood bilirubin level is high), the longer the patient's blood collection tube is exposed to daylight, the more the bilirubin will degrade over time. The bilirubin level may then \"wrongly\" return to a normal value. … In practice, doctors use this property, to degrade bilirubin in jaundiced newborns, by applying phototherapy.”",
    "x": 1,
    "slides": [
     {
@@ -3070,15 +2974,9 @@ SINA.lectures["biochem-preanalytical"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 56: “In practice, doctors use this property, to degrade bilirubin in jaundiced newborns, by applying phototherapy.”",
    "x": 1,
    "slides": [
     {
@@ -3129,15 +3027,9 @@ SINA.lectures["biochem-preanalytical"] = {
     2,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 58: “Patient's condition : agitation, anemia, stress, condition of the veins (small, distal, difficult, multi-punctured .....)”",
    "x": 1,
    "slides": [
     {
@@ -3158,15 +3050,9 @@ SINA.lectures["biochem-preanalytical"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 59: “Risk and request of unnecessary additional tests, for the patient (if the results are taken into account)”",
    "x": 1,
    "slides": [
     {
@@ -3188,15 +3074,9 @@ SINA.lectures["biochem-preanalytical"] = {
     1,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 60: “to respect the conditions of transport and storage of the biological sample”",
    "x": 1,
    "slides": [
     {
@@ -4336,15 +4216,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
     1,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "At organ level, alpha receptors outnumber beta receptors, but beta receptors have the higher affinity for adrenaline.",
    "slides": [
     {
      "src": "files/slides/biochem-adrenal-medulla/08.jpg",
@@ -4713,15 +4587,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
     0,
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 3: “immediate response to “stress” (of any kind) … response to the body's needs such as : muscular exercise”",
    "x": 1,
    "slides": [
     {
@@ -4800,15 +4668,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 4: “Dopamine: dopaminergic neurons are located primarily in the central nervous system”",
    "x": 1,
    "slides": [
     {
@@ -4946,15 +4808,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 6: “Physiologically, there is a basic secretion of catecholamines : low circulating concentration”",
    "x": 1,
    "slides": [
     {
@@ -4976,15 +4832,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
     2,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 6: “At the central level: the hypothalamic, bulbar and medullary centers”",
    "x": 1,
    "slides": [
     {
@@ -5093,15 +4943,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 7: “Adrenocorticotropic Hormone (ACTH): stimulates the synthesis of dopa and norepinephrine … Tyrosine hydroxylation by tyrosine hydroxylase produces dopa +++ (feedback occurs at this stage to limit catecholamine synthesis)”",
    "x": 1,
    "slides": [
     {
@@ -5123,15 +4967,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
     2,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 5: “Beta hydroxylation of dopamine by dopamine Beta hydroxylase produces noradrenaline (2nd catecholamine) … Finally, the methylation of noradrenaline by phenylalanine N-methyl transferase gives adrenaline (3rd catecholamine)”",
    "x": 1,
    "slides": [
     {
@@ -5211,15 +5049,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 8: “Kidneys: stimulates renin secretion”",
    "x": 1,
    "slides": [
     {
@@ -5240,15 +5072,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 8: “Liver: stimulates glycogenolysis”",
    "x": 1,
    "slides": [
     {
@@ -5475,15 +5301,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 11: “Eye: action on Beta2 is responsible for mydriasis”",
    "x": 1,
    "slides": [
     {
@@ -5535,15 +5355,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
     0,
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 12: “3) Striated muscles : Increases tone and delays fatigue (the secretion of catecholamines increases with physical activity)”",
    "x": 1,
    "slides": [
     {
@@ -5564,15 +5378,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 12: “except the secretion of the sweat glands which persists (in case of fear, the mouth becomes dry and we sweat)”",
    "x": 1,
    "slides": [
     {
@@ -5651,15 +5459,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 13: “3) Electrolytes: hyperkalaemia”",
    "x": 1,
    "slides": [
     {
@@ -5681,15 +5483,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
     0,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 13: “Increased metabolism and calorigenesis … Cutaneous vasoconstriction which reduces heat loss”",
    "x": 1,
    "slides": [
     {
@@ -5739,15 +5535,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 14: “2) Chemical inactivation: The actual catabolism takes place under the action of two enzymes, at the tissue level. These enzymes are located in all cells, mainly those of the liver and kidneys. Their action is as follows :”",
    "x": 1,
    "slides": [
     {
@@ -5827,15 +5617,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
     1,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 15: “The metabolites of the 2 enzymes (COMT and MAO), are conjugated following their hepatic passage, with glucuronic or sulfuric acid, to give their degradation products, which are eliminated in the urine:”",
    "x": 1,
    "slides": [
     {
@@ -5886,15 +5670,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 15: “3-Methyl-4-hydroxy-phenyl-glycol (MHPG)”",
    "x": 1,
    "slides": [
     {
@@ -5946,15 +5724,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
     2,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 17: “70% permanent … 30% intermittent (\"occurs in fits\")”",
    "x": 1,
    "slides": [
     {
@@ -6093,15 +5865,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 19: “Others : Dosage in plasma: Tumor marker: Neuron-specific enolase (NSE)”",
    "x": 1,
    "slides": [
     {
@@ -6123,15 +5889,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
     2,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 20: “In Pharmacology: Adrenaline-based treatments (indicated in: shock and asthma attack)”",
    "x": 1,
    "slides": [
     {
@@ -6240,15 +6000,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 4: “The adrenal medulla is considered a sympathetic ganglion (belonging to the sympathetic nervous system) with endocrine evolution. This concept is based on: … Dopamine: dopaminergic neurons are located primarily in the central nervous system”",
    "x": 1,
    "slides": [
     {
@@ -6269,15 +6023,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 20: “When a stressor or emergency occurs, the adrenal medulla intensifies the fight response, already initiated by the sympathetic nervous system, by releasing catecholamines, which cause brief reactions, throughout the body.”",
    "x": 1,
    "slides": [
     {
@@ -6298,15 +6046,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 10: “Increased cardiac output and blood pressure”",
    "x": 1,
    "slides": [
     {
@@ -6356,15 +6098,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 6: “A. Stimulation of the glandular secretion of catecholamines by : … At the central level: the hypothalamic, bulbar and medullary centers … b. Central: when it occurs: hypoglycemia, hypothermia”",
    "x": 1,
    "slides": [
     {
@@ -6385,15 +6121,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 13: “Inhibition of insulin secretion (also in favor of mild hyperglycemia)”",
    "x": 1,
    "slides": [
     {
@@ -6414,15 +6144,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 6: “1) The nerve pathway of the sympathetic nervous system, via: … At the peripheral level: the splanchnic nerves This nerve stimulation comes in response to different stimuli, of origin :”",
    "x": 1,
    "slides": [
     {
@@ -7513,15 +7237,9 @@ SINA.lectures["biochem-insulin"] = {
     1,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "The liver and the muscles are the large consumers of glucose: insulin activates glycolysis and glycogenesis there.",
    "slides": [
     {
      "src": "files/slides/biochem-insulin/10.jpg",
@@ -7887,15 +7605,9 @@ SINA.lectures["biochem-insulin"] = {
     1,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 3: “Major role in the regulation of energy substrates (glucose, fatty acids and ketone bodies)”",
    "x": 1,
    "slides": [
     {
@@ -7947,15 +7659,9 @@ SINA.lectures["biochem-insulin"] = {
     0,
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 3: “The places of storage of dietary glucose are the muscles, the adipose tissue and the liver.”",
    "x": 1,
    "slides": [
     {
@@ -8005,15 +7711,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 3: “Insulin also has longer-term effects on growth”",
    "x": 1,
    "slides": [
     {
@@ -8063,15 +7763,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 5: “Small protein, 2 chains: Short A chain (21 amino acids) Long B chain (30 amino acids)”",
    "x": 1,
    "slides": [
     {
@@ -8121,15 +7815,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 5: “2 interchain disulphide bridges (S-S) Chain A: a third intrachain disulfide bridge (S-S)”",
    "x": 1,
    "slides": [
     {
@@ -8150,15 +7838,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 6: “The insulin gene is on the short arm of chromosome 11”",
    "x": 1,
    "slides": [
     {
@@ -8209,15 +7891,9 @@ SINA.lectures["biochem-insulin"] = {
     2,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 6: “It is a molecule folded on itself with intra and interchain disulphide bridges which will remain stored in the secretory granules awaiting stimulation (post- prandial hyperglycaemia) These proinsulin-containing granules are abundant in Langerhans β cells”",
    "x": 1,
    "slides": [
     {
@@ -8238,15 +7914,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 7: “Stimulation of secretory granules: food (glucose), hormones (glucagon) bring pro-insulin into contact with a proteinase, which cleaves pro-insulin to release the C part (C-peptide)”",
    "x": 1,
    "slides": [
     {
@@ -8384,15 +8054,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 8: “This membrane depolarization opens the voltage-gated calcium channels (VDCC) which tend to increase the concentration of intracellular Ca++.”",
    "x": 1,
    "slides": [
     {
@@ -8413,15 +8077,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 9: “Intracellular calcium entry stimulates contractile systems that mobilize insulin- containing vesicles to the cytoplasmic membrane for insulin secretion.”",
    "x": 1,
    "slides": [
     {
@@ -8442,15 +8100,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 8: “This results in the inhibition of the release of potassium K+ responsible for the depolarization of the membranes of the β cell.”",
    "x": 1,
    "slides": [
     {
@@ -8472,15 +8124,9 @@ SINA.lectures["biochem-insulin"] = {
     0,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 9: “By autocrine effect, the released insulin binds to its own insulin receptor, which leads to the activation of the transcription … The consequence is the rapid restoration of insulin reserves”",
    "x": 1,
    "slides": [
     {
@@ -8531,15 +8177,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 10: “The pentose phosphate pathway in the liver”",
    "x": 1,
    "slides": [
     {
@@ -8649,15 +8289,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 11: “The entry of glucose into the adipocyte and its conversion into AcetylCoA necessary for the synthesis of fatty acids”",
    "x": 1,
    "slides": [
     {
@@ -8678,15 +8312,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 11: “Insulin inhibits: lipolysis (at the level of adipocytes)”",
    "x": 1,
    "slides": [
     {
@@ -8737,15 +8365,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 12: “3. Protein metabolism … Protein anabolism … Protein catabolism”",
    "x": 1,
    "slides": [
     {
@@ -8766,15 +8388,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 12: “4. Sodium metabolism Insulin stimulates the co-transport of glucose and sodium Na+”",
    "x": 1,
    "slides": [
     {
@@ -8826,15 +8442,9 @@ SINA.lectures["biochem-insulin"] = {
     0,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 13: “Glycolysis: Glucokinase, Pyruvate kinase”",
    "x": 1,
    "slides": [
     {
@@ -8885,15 +8495,9 @@ SINA.lectures["biochem-insulin"] = {
     1,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 14: “Fasting blood glucose … Glycosuria - Ketonuria … Fasting and postprandial blood glucose: every month”",
    "x": 1,
    "slides": [
     {
@@ -8914,15 +8518,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 14: “Hyperglycemia induced per os: pre-diabetic states +++”",
    "x": 1,
    "slides": [
     {
@@ -8943,15 +8541,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 14: “Hb A1c (glycated Hb every 2 to 3 months): HPLC technique (demonstration of hemoglobinopathy)”",
    "x": 1,
    "slides": [
     {
@@ -9061,15 +8653,9 @@ SINA.lectures["biochem-insulin"] = {
     1,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 14: “microalbuminuria, serum creatinine, urea”",
    "x": 1,
    "slides": [
     {
@@ -9090,15 +8676,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 14: “2. Treatment monitoring”",
    "x": 1,
    "slides": [
     {
@@ -9119,15 +8699,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 14: “Hb A1c (glycated Hb every 2 to 3 months): HPLC technique (demonstration of hemoglobinopathy) … Hb A1c (Glycated hemoglobin every 2 to 3 months)”",
    "x": 1,
    "slides": [
     {
@@ -9178,15 +8752,9 @@ SINA.lectures["biochem-insulin"] = {
     0,
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 10: “1- Action of insulin on carbohydrate metabolism: Insulin is the only hypoglycemic hormone The liver and muscles are large consumers of glucose … Glycogenesis in the liver and muscles … Glycogenolysis in liver and muscle”",
    "x": 1,
    "slides": [
     {
@@ -9207,15 +8775,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 5: “Small protein, 2 chains: Short A chain (21 amino acids) Long B chain (30 amino acids) … 2 interchain disulphide bridges (S-S) Chain A: a third intrachain disulfide bridge (S-S)”",
    "x": 1,
    "slides": [
     {
@@ -9296,15 +8858,9 @@ SINA.lectures["biochem-insulin"] = {
     0,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 6: “From its translation into messenger RNA results pre-pro-insulin which is transformed into pro-insulin (containing 3 linked chains A-B-C):”",
    "x": 1,
    "slides": [
     {
@@ -9355,15 +8911,9 @@ SINA.lectures["biochem-insulin"] = {
     1,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 10: “Glycogenesis in the liver and muscles … Glycogenolysis in liver and muscle”",
    "x": 1,
    "slides": [
     {
@@ -9384,15 +8934,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 11: “Entry of fatty acids from lipoproteins into the adipocyte and biosynthesis of triglycerides … The entry of glucose into the adipocyte and its conversion into AcetylCoA necessary for the synthesis of fatty acids”",
    "x": 1,
    "slides": [
     {
@@ -9471,15 +9015,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 14: “Glycosuria, acetonuria, proteinuria: reactive strips (self-monitoring)”",
    "x": 1,
    "slides": [
     {
@@ -9501,15 +9039,9 @@ SINA.lectures["biochem-insulin"] = {
     0,
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 10: “1- Action of insulin on carbohydrate metabolism: Insulin is the only hypoglycemic hormone The liver and muscles are large consumers of glucose … The pentose phosphate pathway in the liver … Gluconeogenesis in the liver”",
    "x": 1,
    "slides": [
     {
@@ -9531,15 +9063,9 @@ SINA.lectures["biochem-insulin"] = {
     0,
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 10: “Glycogenesis in the liver and muscles … Glycolysis in the liver and muscles … Glycogenolysis in liver and muscle”",
    "x": 1,
    "slides": [
     {
@@ -9560,15 +9086,9 @@ SINA.lectures["biochem-insulin"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 10: “1- Action of insulin on carbohydrate metabolism: Insulin is the only hypoglycemic hormone The liver and muscles are large consumers of glucose … Glycolysis in the liver and muscles … Glycogenolysis in liver and muscle”",
    "x": 1,
    "slides": [
     {
@@ -9619,15 +9139,9 @@ SINA.lectures["biochem-insulin"] = {
     2,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 3: “Only hypoglycemic hormone: insulin is secreted according to nutritional status (high blood sugar, presence of food in the digestive tract) and physical activity.”",
    "x": 1,
    "slides": [
     {
@@ -10293,7 +9807,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Assess the degree of liver damage"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 3: “2. The degree of variation in their concentration makes it possible to assess the degree”",
    "x": 1,
    "slides": [
     {
@@ -10350,7 +9864,7 @@ SINA.lectures["biochem-hepatic"] = {
     "75%"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 5: “and 25% by the hepatic artery”",
    "x": 1,
    "slides": [
     {
@@ -10369,7 +9883,7 @@ SINA.lectures["biochem-hepatic"] = {
     "The hepatic artery"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 5: “The efferent vessels represented by the supra-hepatic veins which go towards the inferior vena cava”",
    "x": 1,
    "slides": [
     {
@@ -10388,7 +9902,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Only through bile canaliculi"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 6: “The branches of the vessels afferent to the liver (portal vein and hepatic artery), arrive at the portal space, where the blood will circulate between the hepatocyte blades, towards the centrilobular vein : this is how nutrients are delivered to hepatocytes for their metabolism”",
    "x": 1,
    "slides": [
     {
@@ -10426,7 +9940,7 @@ SINA.lectures["biochem-hepatic"] = {
     "The common hepatic duct and the cystic duct"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 8: “The intrahepatic bile ducts extend extrahepatically as right and left hepatic ducts which join to form the common hepatic duct. … The common hepatic duct joins the cystic duct, which extends from the gallbladder, to form the common bile duct, which passes through the head of the pancreas.”",
    "x": 1,
    "slides": [
     {
@@ -10445,7 +9959,7 @@ SINA.lectures["biochem-hepatic"] = {
     "The spleen"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 8: “The common hepatic duct joins the cystic duct, which extends from the gallbladder, to form the common bile duct, which passes through the head of the pancreas.”",
    "x": 1,
    "slides": [
     {
@@ -10483,7 +9997,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Synthesis and excretion of bile"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 14: “4. Synthesis and excretion of bile: specific function of the liver … The liver is an exocrine gland, through hepatocyte synthesis of bile and its excretion through the bile ducts, into the digestive tract.”",
    "x": 1,
    "slides": [
     {
@@ -10540,7 +10054,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Ceruloplasmin"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 11: “Albumin : the most abundant protein in the blood, it is a non-specific protein”",
    "x": 1,
    "slides": [
     {
@@ -10578,7 +10092,7 @@ SINA.lectures["biochem-hepatic"] = {
     "The liver directly"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 12: “Elimination of free bilirubin : Free bilirubin comes from the physiological lysis of senescent red blood cells in the reticuloendothelial system. This free bilirubin being very toxic for the brain, is quickly captured by the liver which will combine it with glucuronic acid, to transform it into conjugated bilirubin.”",
    "x": 1,
    "slides": [
     {
@@ -10616,7 +10130,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Sulfuric acid"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 35: “Conjugated or direct bilirubin: produced in the liver, after conjugation of free bilirubin with glucuronic acid”",
    "x": 1,
    "slides": [
     {
@@ -10654,7 +10168,7 @@ SINA.lectures["biochem-hepatic"] = {
     "10 mL"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 14: “The daily volume of bile secreted is 1 liter.”",
    "x": 1,
    "slides": [
     {
@@ -10673,7 +10187,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Is stored in the gallbladder with the sphincter of Oddi closed"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 14: “between meals : the sphincter of Oddi is closed and bile remains stored in the gallbladder”",
    "x": 1,
    "slides": [
     {
@@ -10730,7 +10244,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Neutralising acid chyme and forming micelles for fat digestion"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 15: “neutralization of acid gastric chyme, thanks to bicarbonates.”",
    "x": 1,
    "slides": [
     {
@@ -10749,7 +10263,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Haemoglobin"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 16: “4. Synthesis and excretion of bile: specific function of the liver Role of bile acids contained in bile: Bile acids come from the catabolism of cholesterol in the liver cell. Cholesterol is first converted into primary bile acids. These primary bile acids when combined with taurine and glycine, give conjugated bile acids.”",
    "x": 1,
    "slides": [
     {
@@ -10768,7 +10282,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Iron"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 16: “4. Synthesis and excretion of bile: specific function of the liver Role of bile acids contained in bile: Bile acids come from the catabolism of cholesterol in the liver cell. Cholesterol is first converted into primary bile acids. These primary bile acids when combined with taurine and glycine, give conjugated bile acids.”",
    "x": 1,
    "slides": [
     {
@@ -10863,7 +10377,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Ammonium, albumin, clotting factors"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 2: “A. Exploration of Cytolysis Syndrome (hepatocellular damage) Aminotransferases (AST, ALT) / Lactate dehydrogenase (LDH)”",
    "x": 1,
    "slides": [
     {
@@ -10882,7 +10396,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Albumin and ammonium"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 2: “B. Exploration of cholestasis syndrome (biliary retention) Alkaline Phosphatases (ALP) / Gamma-Glutamyl transferase (GGT) / Bilirubin”",
    "x": 1,
    "slides": [
     {
@@ -10901,7 +10415,7 @@ SINA.lectures["biochem-hepatic"] = {
     "AFP"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 2: “C. Exploration of hepatocellular insufficiency syndrome (metabolic function) Ammonium / Albumin / Coagulation factors”",
    "x": 1,
    "slides": [
     {
@@ -11015,7 +10529,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Wilson's disease"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 22: “AST, on their own, increases especially during extra-hepatic disorders, such as: … Myocardial infarction (MI) … Skeletal muscle damage.”",
    "x": 1,
    "slides": [
     {
@@ -11072,7 +10586,7 @@ SINA.lectures["biochem-hepatic"] = {
     "LDH5"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 24: “The study of the increase of an isoenzyme could direct towards the lesion of a given tissue, as on the table (the LDH5 isoenzyme which is more abundant in the liver, LDH1 in the heart and LDH2 in the red blood cell)”",
    "x": 1,
    "slides": [
     {
@@ -11091,7 +10605,7 @@ SINA.lectures["biochem-hepatic"] = {
     "They are too specific"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 24: “but the study of these isoenzymes is not used in current practice because the clinical symptomatology and the other complementary examinations such as radiology, direct more the diagnosis of the pathology.”",
    "x": 1,
    "slides": [
     {
@@ -11110,7 +10624,7 @@ SINA.lectures["biochem-hepatic"] = {
     "3.4 to 17.1 IU/L"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 24: “LDH reference values in adults vary between 190 and 430 IU/L.”",
    "x": 1,
    "slides": [
     {
@@ -11129,7 +10643,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Destruction of hepatocytes"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 25: “Definition of cholestasis syndrome: Decreased or stopped secretion of bile by the liver, in the digestive tract. The bile thus flows back from the liver into the general circulation.”",
    "x": 1,
    "slides": [
     {
@@ -11186,7 +10700,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Excess bilirubin in the gut"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 26: “1. Steatorrhea: fatty stools (due to the malabsorption of fats by the absence … of bile acids in the digestive tract) … 2. Malabsorption of fat-soluble vitamins A, D, E, K : this leads to a predisposition to bleeding, since vitamin K is involved in blood coagulation”",
    "x": 1,
    "slides": [
     {
@@ -11224,7 +10738,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Excess bile acids"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 26: “3. Stool discoloration (due to lack of bilirubin in the digestive tract)”",
    "x": 1,
    "slides": [
     {
@@ -11243,7 +10757,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Double"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 27: “Cholesterol: its plasma concentration can double”",
    "x": 1,
    "slides": [
     {
@@ -11281,7 +10795,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Only heart disease"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 30: “mainly liver and bone tissue, … bone diseases, … certain liver cancers : primary or secondary (metastases).”",
    "x": 1,
    "slides": [
     {
@@ -11300,7 +10814,7 @@ SINA.lectures["biochem-hepatic"] = {
     "25%"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 31: “1) Alkaline Phosphatases (ALP) This is the determination of the total concentration of ALP in the blood, mainly comprising the liver and bone fraction. … The serum concentration of ALP gradually decreases from birth to adulthood. Indeed, during growth, the serum concentration of ALP is higher in children and adolescents than in adults because at this time, it is the bone fraction that predominates in the blood…”",
    "x": 1,
    "slides": [
     {
@@ -11319,7 +10833,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Only after delivery"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 31: “In pregnant women: increase in ALP from the 20th week of pregnancy until term and normalizes 2 or 3 weeks after delivery.”",
    "x": 1,
    "slides": [
     {
@@ -11338,7 +10852,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Higher in women"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 31: “ALP values are also higher in men than in women, which fades with age.”",
    "x": 1,
    "slides": [
     {
@@ -11357,7 +10871,7 @@ SINA.lectures["biochem-hepatic"] = {
     "1 year"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 32: “Bone diseases: Fracture consolidation period (40 days), Osteitis”",
    "x": 1,
    "slides": [
     {
@@ -11395,7 +10909,7 @@ SINA.lectures["biochem-hepatic"] = {
     "On an empty stomach, avoiding haemolysis"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 33: “Sample to be taken on an empty stomach. Avoid hemolysis of the collected sample which can lead to measurement errors.”",
    "x": 1,
    "slides": [
     {
@@ -11414,7 +10928,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Under 50 IU/L in men and under 30 IU/L in women"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 33: “In men (<50 IU/L of serum) than in women (<30 IU/L of serum)”",
    "x": 1,
    "slides": [
     {
@@ -11433,7 +10947,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Undetectable"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 33: “In the neonatal period: 7 to 8 times the adult concentration”",
    "x": 1,
    "slides": [
     {
@@ -11452,7 +10966,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Vitamin K"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 34: “certain medications such as phenobarbital, paracetamol”",
    "x": 1,
    "slides": [
     {
@@ -11471,7 +10985,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Pregnancy only"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 34: “Pancreatic disorders, Diabetes … Heart failure, kidney failure”",
    "x": 1,
    "slides": [
     {
@@ -11490,7 +11004,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Total minus free bilirubin"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 35: “Conjugated or direct bilirubin: produced in the liver, after conjugation of free bilirubin with glucuronic acid”",
    "x": 1,
    "slides": [
     {
@@ -11528,7 +11042,7 @@ SINA.lectures["biochem-hepatic"] = {
     "0 to 3.4 µmol/L (0-2 mg/L)"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 36: “Conjugated bilirubin : 0 - 2 mg/L (0 - 3.4 µmol/L )”",
    "x": 1,
    "slides": [
     {
@@ -11566,7 +11080,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Fasting"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 25: “Extrahepatic bile duct obstruction (gallstones, cancer of the bile ducts, cancer … Intrahepatic bile duct obstruction (hepatitis, cirrhosis, liver metastases)”",
    "x": 1,
    "slides": [
     {
@@ -11604,7 +11118,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Glutamate"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 40: “1) Ammonium : an example of Catabolic function Ammonemia, at physiological pH, is represented in the blood, mainly (98%), in ammonium (NH4+), ionized form.”",
    "x": 1,
    "slides": [
     {
@@ -11642,7 +11156,7 @@ SINA.lectures["biochem-hepatic"] = {
     "By the lungs"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 40: “Another part is produced by intestinal bacteria from dietary proteins and then absorbed by the blood from the portal vein. Ammonium (NH4+), toxic for the brain, is eliminated exclusively by the liver, in the form … of urea, via the urea cycle.”",
    "x": 1,
    "slides": [
     {
@@ -11661,7 +11175,7 @@ SINA.lectures["biochem-hepatic"] = {
     "35 to 50 g/L"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 40: “Reference values: 0.3-0.7 mg/L”",
    "x": 1,
    "slides": [
     {
@@ -11699,7 +11213,7 @@ SINA.lectures["biochem-hepatic"] = {
     "90%"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 41: “Protein synthesized exclusively by the liver: Most abundant circulating protein (40-60% of total protein)”",
    "x": 1,
    "slides": [
     {
@@ -11718,7 +11232,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Clotting"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 41: “Biological roles: Maintenance of plasma oncotic pressure Endogenous reserve of amino acids Plasma transport of many compounds :”",
    "x": 1,
    "slides": [
     {
@@ -11737,7 +11251,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Albumin rises"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 42: “Cholestasis (lack of intestinal reabsorption of vitamin K, involved in coagulation)”",
    "x": 1,
    "slides": [
     {
@@ -11775,7 +11289,7 @@ SINA.lectures["biochem-hepatic"] = {
     "An adult liver enzyme"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 45: “Main circulating plasma protein during fetal life. Declines rapidly after birth. Re-increases in hepatocellular carcinoma (malignant tumor of the liver).”",
    "x": 1,
    "slides": [
     {
@@ -11794,7 +11308,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Diagnosing anaemia"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 45: “The indication for its dosage is, the follow-up of patients with cirrhosis or chronic hepatitis for screening for hepatocellular carcinoma.”",
    "x": 1,
    "slides": [
     {
@@ -11832,7 +11346,7 @@ SINA.lectures["biochem-hepatic"] = {
     "Transports iron"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 46: “Is a protein synthesized by the liver, for the transport of copper in the blood. It is also an acute phase protein of inflammation.”",
    "x": 1,
    "slides": [
     {
@@ -13465,15 +12979,9 @@ SINA.lectures["biochem-steroids"] = {
     1,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 3: “Steroid hormones are of 4 types: … Male hormones (androgens) … Female hormones”",
    "x": 1,
    "slides": [
     {
@@ -13495,15 +13003,9 @@ SINA.lectures["biochem-steroids"] = {
     0,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 3: “The place of their synthesis and the type of steroid hormones synthesized depend on the enzymatic equipment of tissue cells”",
    "x": 1,
    "slides": [
     {
@@ -13583,15 +13085,9 @@ SINA.lectures["biochem-steroids"] = {
     1,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 6: “Fascicular zone: mainly Gluco-corticoids (partly androgens)”",
    "x": 1,
    "slides": [
     {
@@ -13612,15 +13108,9 @@ SINA.lectures["biochem-steroids"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 6: “Reticular zone: Androgens mainly, coming from DeHydroEpiAndrosterone (DHA or DHEA) which is transformed into derivatives androgens and some estrogens”",
    "x": 1,
    "slides": [
     {
@@ -13700,15 +13190,9 @@ SINA.lectures["biochem-steroids"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 10: “Granulosa cells import and convert androgens produced by the cells of the internal theca into oestradiol … of the theca. Then these androgens are converted into oestradiol by the granulosa cells”",
    "x": 1,
    "slides": [
     {
@@ -13788,15 +13272,9 @@ SINA.lectures["biochem-steroids"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 10: “Progesterone is then converted into : Androstenedione and testosterone by the cells”",
    "x": 1,
    "slides": [
     {
@@ -13965,15 +13443,9 @@ SINA.lectures["biochem-steroids"] = {
     1,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 36: “The placenta (during pregnancy) : secretion of estriol (O3) by the feto-placental unit”",
    "x": 1,
    "slides": [
     {
@@ -14055,15 +13527,9 @@ SINA.lectures["biochem-steroids"] = {
     2,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 39: “Ovary: main organ of estrogen and progesterone production, following the stimulation of the corpus luteum by HCG (Chorionic Gonadotrophic Hormone, produced by the embryo and then by the placenta)”",
    "x": 1,
    "slides": [
     {
@@ -14142,15 +13608,9 @@ SINA.lectures["biochem-steroids"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 19: “B- Common stage of steroid hormone synthesis Steroid hormones are synthesised from Cholesterol, which the steroidogenic Cholesterol tissues (adrenal cortex and gonads, mainly) take from the blood”",
    "x": 1,
    "slides": [
     {
@@ -14200,15 +13660,9 @@ SINA.lectures["biochem-steroids"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 19: “hydroxylase: which acts on the carbons of cholesterol in positions 20 and 22 … then cholesterol 20-22 desmolase: which cuts the cholesterol derivative at the hydroxylated carbon level”",
    "x": 1,
    "slides": [
     {
@@ -14230,15 +13684,9 @@ SINA.lectures["biochem-steroids"] = {
     1,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 20: “17αOH Pregnenolone … 17α-OH pregnenolone, … 17 α-OH progesterone”",
    "x": 1,
    "slides": [
     {
@@ -14259,15 +13707,9 @@ SINA.lectures["biochem-steroids"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 22: “fasciculated zone of the”",
    "x": 1,
    "slides": [
     {
@@ -14317,15 +13759,9 @@ SINA.lectures["biochem-steroids"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 24: “will be metabolized in the 11β Androstenedione … liver by 11β … dehydrogenase into”",
    "x": 1,
    "slides": [
     {
@@ -14346,15 +13782,9 @@ SINA.lectures["biochem-steroids"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 26: “DHEA and androgens”",
    "x": 1,
    "slides": [
     {
@@ -14375,15 +13805,9 @@ SINA.lectures["biochem-steroids"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 53: “Steroid hormones play a negative feedback on pituitary stimulins : … Circulating cortisol exerts a negative feedback on”",
    "x": 1,
    "slides": [
     {
@@ -14404,15 +13828,9 @@ SINA.lectures["biochem-steroids"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 28: “At birth: Ambiguity of the external genitalia in the girl child. Families at risk for CAHS should be identified because corticosteroid therapy instituted before the 6th week of amenorrhea during … pregnancy prevents very high blood androgen levels”",
    "x": 1,
    "slides": [
     {
@@ -14493,15 +13911,9 @@ SINA.lectures["biochem-steroids"] = {
     0,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 29: “Exclusively in the glomerular zone of the adrenal cortex”",
    "x": 1,
    "slides": [
     {
@@ -14611,15 +14023,9 @@ SINA.lectures["biochem-steroids"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 33: “Before puberty: conversion of DHA to androstenedione in girls and boys … After puberty in boys, androstenedione is converted to → 11β hydroxy androstenedione”",
    "x": 1,
    "slides": [
     {
@@ -14640,15 +14046,9 @@ SINA.lectures["biochem-steroids"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 33: “After puberty in boys, androstenedione is converted to → 11β hydroxy androstenedione”",
    "x": 1,
    "slides": [
     {
@@ -14729,15 +14129,9 @@ SINA.lectures["biochem-steroids"] = {
     0,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 37: “NB: Obesity in postmenopausal women is a risk factor for hormone-dependent cancers (breast cancer)”",
    "x": 1,
    "slides": [
     {
@@ -14847,15 +14241,9 @@ SINA.lectures["biochem-steroids"] = {
     0,
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 43: “Fetal liver: Development of glycogen function … Cortisol is indirectly involved in the synthesis of pulmonary surfactant in late pregnancy (phospholipid substance lining the alveoli)”",
    "x": 1,
    "slides": [
     {
@@ -14876,15 +14264,9 @@ SINA.lectures["biochem-steroids"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 43: “In the preterm infant, the lack of pulmonary surfactant formation is responsible for: Collapse of the alveoli (absence of their opening) leading to → respiratory distress which is responsible for a disease known as \"hyaline membrane disease\"”",
    "x": 1,
    "slides": [
     {
@@ -14906,15 +14288,9 @@ SINA.lectures["biochem-steroids"] = {
     1,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 44: “The main action of aldosterone is at the level of the distal tubule of the kidney: retention of sodium and elimination … of potassium, leading to an increase in blood volume and blood pressure.”",
    "x": 1,
    "slides": [
     {
@@ -14965,15 +14341,9 @@ SINA.lectures["biochem-steroids"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 46: “Concerning lactation: the abrupt decrease in oestrogen after childbirth represents a stimulus for Prolactin (leading to the milking process)”",
    "x": 1,
    "slides": [
     {
@@ -14995,15 +14365,9 @@ SINA.lectures["biochem-steroids"] = {
     2,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 47: “Anti-oestrogenic hormone (treatment of symptoms of hyperoestrogenism: e.g. breast cysts) … Opposes lactogenesis, during pregnancy”",
    "x": 1,
    "slides": [
     {
@@ -15025,15 +14389,9 @@ SINA.lectures["biochem-steroids"] = {
     1,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 48: “Anabolic role of proteins: Muscle and bone development”",
    "x": 1,
    "slides": [
     {
@@ -15083,15 +14441,9 @@ SINA.lectures["biochem-steroids"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 45: “Explanation: The renin-angiotensin aldosterone system (RAAS) regulates blood pressure and”",
    "x": 1,
    "slides": [
     {
@@ -15113,15 +14465,9 @@ SINA.lectures["biochem-steroids"] = {
     0,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 55: “When the plasma Estrogen concentration exceeds a threshold in the blood, there is a positive Feedback (+) on the luteotropic cells of the anterior pituitary → increase in LH secretion (which coincides with ovulation) → Secretion of Progesterone by the Ovary Progesterone → exerts a negative Feedback ( - ) on GnRH and LH”",
    "x": 1,
    "slides": [
     {
@@ -15172,15 +14518,9 @@ SINA.lectures["biochem-steroids"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 58: “Clinical signs: arterial hypotension, Asthenia, Hypothermia, Hypoglycaemia, Skin pigmentation (related to increased production of Melanostatin Hormone (MSH) which has the same precursor as ACTH”",
    "x": 1,
    "slides": [
     {
@@ -15350,15 +14690,9 @@ SINA.lectures["biochem-steroids"] = {
     1,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 66: “3- male pseudohermaphrodism: female or mixed sex organin male subject (XY) ↗ estrogen, FSH, LH, testosterone, DHT due to the absence of dihydrotestosterone (DHT) receptor: (active metabolite more potent than testosterone, responsible for the differentiation of the external genitalia into testes in the human embryo)”",
    "x": 1,
    "slides": [
     {
@@ -15913,7 +15247,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Suddenly with chest pain"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 4: “of this condition which evolves in a low-noise and progressive (chronic) manner. These two peptides have the same diagnostic value but in practice their use requires some precautions, which we will present.”",
    "x": 1,
    "slides": [
     {
@@ -15951,7 +15285,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Raised BNP"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 8: “The \"hypersensitive\" troponin test for the measurement of troponins T or I: This test is capable of highlighting an abnormal increase in troponins (positive test) at very low concentrations, in other words, at the beginning of cardiac involvement: 2 hours after the chest pain, hence the interest in prescribing the hypersensitive test for the early diagnosis of ACS; … On the other hand, the measurement of…”",
    "x": 1,
    "slides": [
     {
@@ -16008,7 +15342,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Impossible to measure"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 5: “The previous biochemical markers of myocardial infarction, 5 in number, these are the following:: … These markers are not specific for myocardial infarction and therefore do not represent the investigation performed in routine practice for this condition.”",
    "x": 1,
    "slides": [
     {
@@ -16027,7 +15361,7 @@ SINA.lectures["biochem-cardiac"] = {
     "A transaminase"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 5: “ASAT: Aspartate amino transferase (transaminase)”",
    "x": 1,
    "slides": [
     {
@@ -16046,7 +15380,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Cardiac protein kinase"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 5: “CPK: Creatine Phosphokinase”",
    "x": 1,
    "slides": [
     {
@@ -16084,7 +15418,7 @@ SINA.lectures["biochem-cardiac"] = {
     "4 hours"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 8: “On the other hand, the measurement of troponins by a classic non-hypersensitive test only highlights their abnormal increase after 4 hours after the pain.”",
    "x": 1,
    "slides": [
     {
@@ -16103,7 +15437,7 @@ SINA.lectures["biochem-cardiac"] = {
     "The 10th day"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 6: “plasma peak around the 14th hour”",
    "x": 1,
    "slides": [
     {
@@ -16141,7 +15475,7 @@ SINA.lectures["biochem-cardiac"] = {
     "75 to 140 hours"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 6: “remain high for: 75 to 140 hours for cTnI and more than ten days for cTnT, thus allowing the monitoring of the evolution of the myocardial infarction”",
    "x": 1,
    "slides": [
     {
@@ -16160,7 +15494,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Screening for liver disease"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 6: “remain high for: 75 to 140 hours for cTnI and more than ten days for cTnT, thus allowing the monitoring of the evolution of the myocardial infarction”",
    "x": 1,
    "slides": [
     {
@@ -16198,7 +15532,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Alpha, beta and gamma"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 7: “Biology : Troponin and hypersensitive troponin They represent structural proteins of the myocyte contractile system: they therefore regulate muscle activity. They are made up of three subunits: troponin T, C and I.”",
    "x": 1,
    "slides": [
     {
@@ -16217,7 +15551,7 @@ SINA.lectures["biochem-cardiac"] = {
     "One isoform common to all muscles"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 7: “troponin T: two specific isoforms; one to the striated muscles and the other to the myocardium called cardiac Troponin T (cTnT). … (troponin C: a single isoform common to all striated muscles, of no interest in cardiology)”",
    "x": 1,
    "slides": [
     {
@@ -16236,7 +15570,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Two isoforms"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 7: “troponin I: Three tissue-specific isoforms: including cardiac troponin I (cTnI) in the myocardium.”",
    "x": 1,
    "slides": [
     {
@@ -16293,7 +15627,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Coronary obstruction"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 7: “certain non-ischemic attacks of the myocardium: myocarditis, drug toxicities, chemotherapy, etc.”",
    "x": 1,
    "slides": [
     {
@@ -16312,7 +15646,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Raise troponin without acute coronary syndrome"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 7: “1. Concerning Acute Coronary Syndrome (ACS) : Troponins … The increase in troponin can be observed, apart from acute coronary syndrome (ACS) in:”",
    "x": 1,
    "slides": [
     {
@@ -16331,7 +15665,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Measures troponin C"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 8: “The \"hypersensitive\" troponin test for the measurement of troponins T or I: This test is capable of highlighting an abnormal increase in troponins (positive test) at very low concentrations, in other words, at the beginning of cardiac involvement: 2 hours after the chest pain, hence the interest in prescribing the hypersensitive test for the early diagnosis of ACS;”",
    "x": 1,
    "slides": [
     {
@@ -16350,7 +15684,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Rule out infarction definitively"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 6: “increase 2 hours after chest pain for the hypersensitive test (hypersensitive troponin T or I) and 4 hours after pain for the troponin T or I test.”",
    "x": 1,
    "slides": [
     {
@@ -16369,7 +15703,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Fully standardised worldwide"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 8: “Troponin assays are not standardized. It is therefore recommended to monitor patients by this parameter in the same laboratory.”",
    "x": 1,
    "slides": [
     {
@@ -16388,7 +15722,7 @@ SINA.lectures["biochem-cardiac"] = {
     "B-type natriuretic peptide"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 9: “Biology : natriuretic peptides BNP and NT-proBNP … B-type natriuretic peptide (BNP) … and the N-terminal fraction of the B-type natriuretic peptide (NT-proBNP).”",
    "x": 1,
    "slides": [
     {
@@ -16407,7 +15741,7 @@ SINA.lectures["biochem-cardiac"] = {
     "The N-terminal fraction of the BNP precursor"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 9: “and the N-terminal fraction of the B-type natriuretic peptide (NT-proBNP).”",
    "x": 1,
    "slides": [
     {
@@ -16426,7 +15760,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Angiotensinogen"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 9: “2. Concerning the Chronic Heart Failure : BNP and NT-proBNP … Biology : natriuretic peptides BNP and NT-proBNP … These markers are part of the family of natriuretic peptides They exert a diuretic, natriuretic and vasodilator effect (antagonistic action of the renin-angiotensin/aldosterone/vasopressin system) NT-proBNP and BNP are the cleavage products of their precursor, proBNP. They are mainly secreted by…”",
    "x": 1,
    "slides": [
     {
@@ -16445,7 +15779,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Cardiomyocytes"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 9: “These markers are part of the family of natriuretic peptides They exert a diuretic, natriuretic and vasodilator effect (antagonistic action of the renin-angiotensin/aldosterone/vasopressin system) NT-proBNP and BNP are the cleavage products of their precursor, proBNP. They are mainly secreted by cardiomyocytes. BNP and NT-proBNP peptides increase in plasma when:”",
    "x": 1,
    "slides": [
     {
@@ -16464,7 +15798,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Glycogenolytic"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 9: “These markers are part of the family of natriuretic peptides They exert a diuretic, natriuretic and vasodilator effect (antagonistic action of the renin-angiotensin/aldosterone/vasopressin system) NT-proBNP and BNP are the cleavage products of their precursor, proBNP. They are mainly secreted by cardiomyocytes. BNP and NT-proBNP peptides increase in plasma when:”",
    "x": 1,
    "slides": [
     {
@@ -16483,7 +15817,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Thyroid hormones"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 9: “These markers are part of the family of natriuretic peptides They exert a diuretic, natriuretic and vasodilator effect (antagonistic action of the renin-angiotensin/aldosterone/vasopressin system) NT-proBNP and BNP are the cleavage products of their precursor, proBNP. They are mainly secreted by cardiomyocytes. BNP and NT-proBNP peptides increase in plasma when:”",
    "x": 1,
    "slides": [
     {
@@ -16502,7 +15836,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Liver failure only"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 9: “heart failure (fluid overload and high blood pressure)”",
    "x": 1,
    "slides": [
     {
@@ -16559,7 +15893,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Use any laboratory"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 10: “When monitoring these pathologies in the patient, always perform the assay of the same natriuretic peptide (either BNP or NT-proBNP) and in the same laboratory.”",
    "x": 1,
    "slides": [
     {
@@ -16616,7 +15950,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Higher than expected"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 10: “2. Concerning the Chronic Heart Failure : BNP and NT-proBNP What are the points that characterize the dosage of each of the parameters : BNP and NT-proBNP ? … When monitoring these pathologies in the patient, always perform the assay of the same natriuretic peptide (either BNP or NT-proBNP) and in the same laboratory.”",
    "x": 1,
    "slides": [
     {
@@ -16654,7 +15988,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Is more affected by obesity"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 10: “So, which of these two parameters would you choose to dose in practice, for your exploration? The NT-proBNP assay has more advantages and seems practical, but in fact, this one presents analytical interferences (the results may be distorted) in patients with renal insufficiency.”",
    "x": 1,
    "slides": [
     {
@@ -16673,7 +16007,7 @@ SINA.lectures["biochem-cardiac"] = {
     "The kidney"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 11: “C-reactive protein (or CRP) : is a protein of the acute phase of inflammation, produced mainly by the liver in response to inflammatory cytokines (interleukin-6). Its role is to initiate adhesion to phagocytic cells and to activate the complement system. The kinetics of CRP during this inflammatory process is as follows :”",
    "x": 1,
    "slides": [
     {
@@ -16692,7 +16026,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Interferon gamma"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 11: “C-reactive protein (or CRP) : is a protein of the acute phase of inflammation, produced mainly by the liver in response to inflammatory cytokines (interleukin-6). Its role is to initiate adhesion to phagocytic cells and to activate the complement system. The kinetics of CRP during this inflammatory process is as follows :”",
    "x": 1,
    "slides": [
     {
@@ -16711,7 +16045,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Regulating muscle contraction"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 11: “C-reactive protein (or CRP) : is a protein of the acute phase of inflammation, produced mainly by the liver in response to inflammatory cytokines (interleukin-6). Its role is to initiate adhesion to phagocytic cells and to activate the complement system. The kinetics of CRP during this inflammatory process is as follows :”",
    "x": 1,
    "slides": [
     {
@@ -16730,7 +16064,7 @@ SINA.lectures["biochem-cardiac"] = {
     "1 hour"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 11: “increases 6-7 hours after the start of the inflammatory process”",
    "x": 1,
    "slides": [
     {
@@ -16749,7 +16083,7 @@ SINA.lectures["biochem-cardiac"] = {
     "10 days"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 11: “reaches a maximum between 48 and 72 hours,”",
    "x": 1,
    "slides": [
     {
@@ -16768,7 +16102,7 @@ SINA.lectures["biochem-cardiac"] = {
     "1 week"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 11: “returns to normal after 1 week (less than 6 mg/l)”",
    "x": 1,
    "slides": [
     {
@@ -16806,7 +16140,7 @@ SINA.lectures["biochem-cardiac"] = {
     "A standard CRP assay"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 12: “A low concentration of CRP can only be measured by an ultrasensitive test, it is the “ultrasensitive CRP” assay which makes it possible to measure concentrations between 0.01 to a few 10mg/l).”",
    "x": 1,
    "slides": [
     {
@@ -16825,7 +16159,7 @@ SINA.lectures["biochem-cardiac"] = {
     "1 to 2 g/L"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 12: “A low concentration of CRP can only be measured by an ultrasensitive test, it is the “ultrasensitive CRP” assay which makes it possible to measure concentrations between 0.01 to a few 10mg/l).”",
    "x": 1,
    "slides": [
     {
@@ -16844,7 +16178,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Monitoring diabetes"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 4: “3- Finally, the CRPus is a cardiac marker to be aware of. Ultra-sensitive C-reactive protein (CRPus): has been the subject of several scientific publications which have shown its interest in the primary prevention of cardiovascular diseases Indeed, today it is considered a marker of cardiovascular risk.”",
    "x": 1,
    "slides": [
     {
@@ -16863,7 +16197,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Diagnose pneumonia"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 12: “But if a low concentration of CRP persists (less than 10mg/l), beyond the stabilization of an inflammatory reaction, the result must be interpreted as the presence of a “cardiovascular risk”. … In addition, the exact value of this persistent low concentration (which reflects dull and persistent inflammation in the patient's body) is important to know in order to assess the degree of this cardiovascular risk:…”",
    "x": 1,
    "slides": [
     {
@@ -16882,7 +16216,7 @@ SINA.lectures["biochem-cardiac"] = {
     "The coagulation cascade"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 11: “C-reactive protein (or CRP) : is a protein of the acute phase of inflammation, produced mainly by the liver in response to inflammatory cytokines (interleukin-6). Its role is to initiate adhesion to phagocytic cells and to activate the complement system. The kinetics of CRP during this inflammatory process is as follows :”",
    "x": 1,
    "slides": [
     {
@@ -16901,7 +16235,7 @@ SINA.lectures["biochem-cardiac"] = {
     "CRPus"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 9: “2. Concerning the Chronic Heart Failure : BNP and NT-proBNP … Biology : natriuretic peptides BNP and NT-proBNP”",
    "x": 1,
    "slides": [
     {
@@ -16920,7 +16254,7 @@ SINA.lectures["biochem-cardiac"] = {
     "CRPus"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 7: “troponin T: two specific isoforms; one to the striated muscles and the other to the myocardium called cardiac Troponin T (cTnT). … troponin I: Three tissue-specific isoforms: including cardiac troponin I (cTnI) in the myocardium.”",
    "x": 1,
    "slides": [
     {
@@ -16939,7 +16273,7 @@ SINA.lectures["biochem-cardiac"] = {
     "NT-proBNP"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 11: “3. Prognostic marker in coronary pathologies : CRPus … prognostic marker in coronary CRPus : C Reactive Protein ultrasensitive”",
    "x": 1,
    "slides": [
     {
@@ -16958,7 +16292,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Specific for myocardial damage, not only for infarction"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 5: “The previous biochemical markers of myocardial infarction, 5 in number, these are the following:: … These markers are not specific for myocardial infarction and therefore do not represent the investigation performed in routine practice for this condition.”",
    "x": 1,
    "slides": [
     {
@@ -16977,7 +16311,7 @@ SINA.lectures["biochem-cardiac"] = {
     "ECG"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 4: “1- Concerning Acute Coronary Syndrome (ACS) : b- The marker currently required for the diagnosis of myocardial infarction are troponins, as their specificity is higher than that of the old markers (the determination of troponin is associated, for this diagnosis, with the presence of chest pain and an abnormal electrocardiogram in its favour).”",
    "x": 1,
    "slides": [
     {
@@ -16996,7 +16330,7 @@ SINA.lectures["biochem-cardiac"] = {
     "CRPus"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 8: “The \"hypersensitive\" troponin test for the measurement of troponins T or I: This test is capable of highlighting an abnormal increase in troponins (positive test) at very low concentrations, in other words, at the beginning of cardiac involvement: 2 hours after the chest pain, hence the interest in prescribing the hypersensitive test for the early diagnosis of ACS; … On the other hand, the measurement of…”",
    "x": 1,
    "slides": [
     {
@@ -17015,7 +16349,7 @@ SINA.lectures["biochem-cardiac"] = {
     "cTnT and cTnI"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 6: “Kinetics after myocardial infarction, cTnT and cTnI levels: … remain high for: 75 to 140 hours for cTnI and more than ten days for cTnT, thus allowing the monitoring of the evolution of the myocardial infarction”",
    "x": 1,
    "slides": [
     {
@@ -17034,7 +16368,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Troponin C interferes"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 8: “Troponin assays are not standardized. It is therefore recommended to monitor patients by this parameter in the same laboratory.”",
    "x": 1,
    "slides": [
     {
@@ -17053,7 +16387,7 @@ SINA.lectures["biochem-cardiac"] = {
     "In young children only"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 10: “Their concentrations increase \"physiologically\" in the blood with age and in women and are inversely proportional to the body mass index (decrease in overweight people)”",
    "x": 1,
    "slides": [
     {
@@ -17072,7 +16406,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Troponins"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 9: “Biology : natriuretic peptides BNP and NT-proBNP … B-type natriuretic peptide (BNP) … and the N-terminal fraction of the B-type natriuretic peptide (NT-proBNP).”",
    "x": 1,
    "slides": [
     {
@@ -17091,7 +16425,7 @@ SINA.lectures["biochem-cardiac"] = {
     "TSH"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 7: “troponin T: two specific isoforms; one to the striated muscles and the other to the myocardium called cardiac Troponin T (cTnT). … troponin I: Three tissue-specific isoforms: including cardiac troponin I (cTnI) in the myocardium. … certain non-ischemic attacks of the myocardium: myocarditis, drug toxicities, chemotherapy, etc.”",
    "x": 1,
    "slides": [
     {
@@ -17110,7 +16444,7 @@ SINA.lectures["biochem-cardiac"] = {
     "An ACS"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 7: “The increase in troponin can be observed, apart from acute coronary syndrome (ACS) in: … other heart diseases: acute ventricular failure, pericarditis, etc.”",
    "x": 1,
    "slides": [
     {
@@ -17167,7 +16501,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Troponin"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 11: “C-reactive protein (or CRP) : is a protein of the acute phase of inflammation, produced mainly by the liver in response to inflammatory cytokines (interleukin-6). Its role is to initiate adhesion to phagocytic cells and to activate the complement system. The kinetics of CRP during this inflammatory process is as follows :”",
    "x": 1,
    "slides": [
     {
@@ -17186,7 +16520,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Raises blood pressure"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 9: “heart failure (fluid overload and high blood pressure)”",
    "x": 1,
    "slides": [
     {
@@ -17205,7 +16539,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Pick one and keep using it for the same patient"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 10: “When monitoring these pathologies in the patient, always perform the assay of the same natriuretic peptide (either BNP or NT-proBNP) and in the same laboratory. … So, which of these two parameters would you choose to dose in practice, for your exploration? The NT-proBNP assay has more advantages and seems practical, but in fact, this one presents analytical interferences (the results may be distorted) in patients…”",
    "x": 1,
    "slides": [
     {
@@ -17224,7 +16558,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Myocarditis"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 10: “So, which of these two parameters would you choose to dose in practice, for your exploration? The NT-proBNP assay has more advantages and seems practical, but in fact, this one presents analytical interferences (the results may be distorted) in patients with renal insufficiency.”",
    "x": 1,
    "slides": [
     {
@@ -17243,7 +16577,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Iron transport"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 7: “Biology : Troponin and hypersensitive troponin They represent structural proteins of the myocyte contractile system: they therefore regulate muscle activity. They are made up of three subunits: troponin T, C and I.”",
    "x": 1,
    "slides": [
     {
@@ -17262,7 +16596,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Troponin T"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 7: “1. Concerning Acute Coronary Syndrome (ACS) : Troponins … Biology : Troponin and hypersensitive troponin They represent structural proteins of the myocyte contractile system: they therefore regulate muscle activity. They are made up of three subunits: troponin T, C and I. … (troponin C: a single isoform common to all striated muscles, of no interest in cardiology)”",
    "x": 1,
    "slides": [
     {
@@ -17281,7 +16615,7 @@ SINA.lectures["biochem-cardiac"] = {
     "A natriuretic peptide"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 4: “1- Concerning Acute Coronary Syndrome (ACS) : b- The marker currently required for the diagnosis of myocardial infarction are troponins, as their specificity is higher than that of the old markers (the determination of troponin is associated, for this diagnosis, with the presence of chest pain and an abnormal electrocardiogram in its favour).”",
    "x": 1,
    "slides": [
     {
@@ -17300,7 +16634,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Specific for heart failure"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 5: “The previous biochemical markers of myocardial infarction, 5 in number, these are the following:: … These markers are not specific for myocardial infarction and therefore do not represent the investigation performed in routine practice for this condition.”",
    "x": 1,
    "slides": [
     {
@@ -17319,7 +16653,7 @@ SINA.lectures["biochem-cardiac"] = {
     "A prognostic marker"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 4: “1- Concerning Acute Coronary Syndrome (ACS) : b- The marker currently required for the diagnosis of myocardial infarction are troponins, as their specificity is higher than that of the old markers (the determination of troponin is associated, for this diagnosis, with the presence of chest pain and an abnormal electrocardiogram in its favour).”",
    "x": 1,
    "slides": [
     {
@@ -17338,7 +16672,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Nothing"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 9: “2. Concerning the Chronic Heart Failure : BNP and NT-proBNP … Biology : natriuretic peptides BNP and NT-proBNP … These markers are part of the family of natriuretic peptides They exert a diuretic, natriuretic and vasodilator effect (antagonistic action of the renin-angiotensin/aldosterone/vasopressin system) NT-proBNP and BNP are the cleavage products of their precursor, proBNP. They are mainly secreted by…”",
    "x": 1,
    "slides": [
     {
@@ -17357,7 +16691,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Only very high concentrations"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 8: “The \"hypersensitive\" troponin test for the measurement of troponins T or I: This test is capable of highlighting an abnormal increase in troponins (positive test) at very low concentrations, in other words, at the beginning of cardiac involvement: 2 hours after the chest pain, hence the interest in prescribing the hypersensitive test for the early diagnosis of ACS;”",
    "x": 1,
    "slides": [
     {
@@ -17376,7 +16710,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Diagnosis early and follow-up over several days"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 4: “1- Concerning Acute Coronary Syndrome (ACS) : b- The marker currently required for the diagnosis of myocardial infarction are troponins, as their specificity is higher than that of the old markers (the determination of troponin is associated, for this diagnosis, with the presence of chest pain and an abnormal electrocardiogram in its favour). … 2- Concerning chronic heart failure (CHF) : The determination of…”",
    "x": 1,
    "slides": [
     {
@@ -17395,7 +16729,7 @@ SINA.lectures["biochem-cardiac"] = {
     "0.01 mg/L"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 11: “C-reactive protein (or CRP) : is a protein of the acute phase of inflammation, produced mainly by the liver in response to inflammatory cytokines (interleukin-6). Its role is to initiate adhesion to phagocytic cells and to activate the complement system. The kinetics of CRP during this inflammatory process is as follows : … increases 6-7 hours after the start of the inflammatory process … returns to normal after…”",
    "x": 1,
    "slides": [
     {
@@ -17414,7 +16748,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Natriuretic peptides"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 9: “Biology : natriuretic peptides BNP and NT-proBNP … B-type natriuretic peptide (BNP) … and the N-terminal fraction of the B-type natriuretic peptide (NT-proBNP).”",
    "x": 1,
    "slides": [
     {
@@ -17433,7 +16767,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Primary prevention of cardiovascular disease"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 4: “3- Finally, the CRPus is a cardiac marker to be aware of. Ultra-sensitive C-reactive protein (CRPus): has been the subject of several scientific publications which have shown its interest in the primary prevention of cardiovascular diseases Indeed, today it is considered a marker of cardiovascular risk.”",
    "x": 1,
    "slides": [
     {
@@ -17452,7 +16786,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Hypoglycaemia"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 9: “heart failure (fluid overload and high blood pressure)”",
    "x": 1,
    "slides": [
     {
@@ -17471,7 +16805,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Dull, persistent inflammation linked to cardiovascular risk"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 12: “But if a low concentration of CRP persists (less than 10mg/l), beyond the stabilization of an inflammatory reaction, the result must be interpreted as the presence of a “cardiovascular risk”. … In addition, the exact value of this persistent low concentration (which reflects dull and persistent inflammation in the patient's body) is important to know in order to assess the degree of this cardiovascular risk:…”",
    "x": 1,
    "slides": [
     {
@@ -17490,7 +16824,7 @@ SINA.lectures["biochem-cardiac"] = {
     "Lipids only"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 8: “1. Concerning Acute Coronary Syndrome (ACS) : Troponins … The \"hypersensitive\" troponin test for the measurement of troponins T or I: This test is capable of highlighting an abnormal increase in troponins (positive test) at very low concentrations, in other words, at the beginning of cardiac involvement: 2 hours after the chest pain, hence the interest in prescribing the hypersensitive test for the early…”",
    "x": 1,
    "slides": [
     {
@@ -18097,7 +17431,7 @@ SINA.lectures["biochem-renal"] = {
     "Only the renal artery"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 25: “Other more specialized examinations aim to study specific functions of the kidneys (glomerular and tubular) such as:”",
    "x": 1,
    "slides": [
     {
@@ -18116,7 +17450,7 @@ SINA.lectures["biochem-renal"] = {
     "Only imaging"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 3: “either the tubular function The laboratory has an important role in the diagnosis, the evaluation of the prognosis, the follow-up of the treatment and the evolution of the disease.”",
    "x": 1,
    "slides": [
     {
@@ -18135,7 +17469,7 @@ SINA.lectures["biochem-renal"] = {
     "Red cell production"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 4: “renin (regulation of blood pressure),”",
    "x": 1,
    "slides": [
     {
@@ -18154,7 +17488,7 @@ SINA.lectures["biochem-renal"] = {
     "Blood pressure"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 4: “erythropoietin (regulation of red blood cell synthesis)”",
    "x": 1,
    "slides": [
     {
@@ -18173,7 +17507,7 @@ SINA.lectures["biochem-renal"] = {
     "Red cells"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 11: “The normal kidney participates in the activation of vitamin D which intervenes in the phospho-calcic balance.”",
    "x": 1,
    "slides": [
     {
@@ -18230,7 +17564,7 @@ SINA.lectures["biochem-renal"] = {
     "Diet, protein intake and hydration"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 5: “Its concentration independent of dietary, protein intake and hydration status (unlike urea)”",
    "x": 1,
    "slides": [
     {
@@ -18268,7 +17602,7 @@ SINA.lectures["biochem-renal"] = {
     "Bilirubin only"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 5: “Fasting should be moderate otherwise interference with acetoacetone”",
    "x": 1,
    "slides": [
     {
@@ -18287,7 +17621,7 @@ SINA.lectures["biochem-renal"] = {
     "0.15 to 0.45 g/L"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 5: “Women: 6 – 11 mg/l”",
    "x": 1,
    "slides": [
     {
@@ -18306,7 +17640,7 @@ SINA.lectures["biochem-renal"] = {
     "30 to 70 mg/L"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 5: “Child: 3 – 8 mg/l”",
    "x": 1,
    "slides": [
     {
@@ -18363,7 +17697,7 @@ SINA.lectures["biochem-renal"] = {
     "0.15 to 0.45 g/L"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 6: “a- Reference value: 0.15 - 0.45 g/l b- sampling: must be performed in the fasting state (urea increases in the post-prandial period)”",
    "x": 1,
    "slides": [
     {
@@ -18382,7 +17716,7 @@ SINA.lectures["biochem-renal"] = {
     "Troponin"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 6: “Urea determination is most often associated with serum creatinine”",
    "x": 1,
    "slides": [
     {
@@ -18401,7 +17735,7 @@ SINA.lectures["biochem-renal"] = {
     "A purine catabolite"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 7: “3-Cystatin C: Glycoprotein, produced by all cells It is a more accurate marker of renal function than creatinine : It is less influenced by age (stable between 3 months -70 y), sex and muscle mass. It is useful in case of :”",
    "x": 1,
    "slides": [
     {
@@ -18420,7 +17754,7 @@ SINA.lectures["biochem-renal"] = {
     "Birth and 10 years"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 7: “3-Cystatin C: Glycoprotein, produced by all cells It is a more accurate marker of renal function than creatinine : It is less influenced by age (stable between 3 months -70 y), sex and muscle mass. It is useful in case of :”",
    "x": 1,
    "slides": [
     {
@@ -18439,7 +17773,7 @@ SINA.lectures["biochem-renal"] = {
     "Athletes only"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 7: “Subjects with decreased muscle mass: children, cirrhotic, elderly or malnourished people”",
    "x": 1,
    "slides": [
     {
@@ -18458,7 +17792,7 @@ SINA.lectures["biochem-renal"] = {
     "Diabetes insipidus"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 7: “Beginning of acute renal failure: Evaluation of the glomerular filtration rate (early marker)”",
    "x": 1,
    "slides": [
     {
@@ -18477,7 +17811,7 @@ SINA.lectures["biochem-renal"] = {
     "Distal tubular function only"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 7: “Tubulopathies: Marker of proximal tubular renal function Disadvantage : Higher cost than creatinine: test not performed in current practice (used only as a second intention) Sampling: fasting is not essential Corticosteroids increase cystatin C concentration in a dose-dependent manner. Reference values: between 1 and 50 years: 0.5 to 1 mg/l”",
    "x": 1,
    "slides": [
     {
@@ -18515,7 +17849,7 @@ SINA.lectures["biochem-renal"] = {
     "0.5 to 1 mg/L"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 7: “Tubulopathies: Marker of proximal tubular renal function Disadvantage : Higher cost than creatinine: test not performed in current practice (used only as a second intention) Sampling: fasting is not essential Corticosteroids increase cystatin C concentration in a dose-dependent manner. Reference values: between 1 and 50 years: 0.5 to 1 mg/l”",
    "x": 1,
    "slides": [
     {
@@ -18534,7 +17868,7 @@ SINA.lectures["biochem-renal"] = {
     "Muscle mass only"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 8: “It varies according to diet, age and the nycthemeral cycle”",
    "x": 1,
    "slides": [
     {
@@ -18553,7 +17887,7 @@ SINA.lectures["biochem-renal"] = {
     "Fast and follow a purine-free diet for 3 days"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 8: “Often its concentration is not proportional to that of urea and creatinine a- Sampling The patient should be on a fasting, purine-free diet for the previous three days.”",
    "x": 1,
    "slides": [
     {
@@ -18572,7 +17906,7 @@ SINA.lectures["biochem-renal"] = {
     "It clots blood"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 8: “Oxalate and fluoride to be avoided (grey tube) inhibition of uricase b- Reference values: Man 30 – 70 mg/l Woman 20 – 60 mg/l Child 10 – 35 mg/l”",
    "x": 1,
    "slides": [
     {
@@ -18591,7 +17925,7 @@ SINA.lectures["biochem-renal"] = {
     "10 to 35 mg/L"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 8: “Oxalate and fluoride to be avoided (grey tube) inhibition of uricase b- Reference values: Man 30 – 70 mg/l Woman 20 – 60 mg/l Child 10 – 35 mg/l”",
    "x": 1,
    "slides": [
     {
@@ -18610,7 +17944,7 @@ SINA.lectures["biochem-renal"] = {
     "Rises exactly like creatinine"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 8: “Often its concentration is not proportional to that of urea and creatinine a- Sampling The patient should be on a fasting, purine-free diet for the previous three days.”",
    "x": 1,
    "slides": [
     {
@@ -18629,7 +17963,7 @@ SINA.lectures["biochem-renal"] = {
     "Sodium, potassium, chloride, bicarbonate and osmolality"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 9: “4-2 Plasma ionogram: Sodium, Potassium, chlorine, Bicarbonates, Plasma osmolality”",
    "x": 1,
    "slides": [
     {
@@ -18648,7 +17982,7 @@ SINA.lectures["biochem-renal"] = {
     "Potassium"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 9: “Sodium (Na+): main extracellular cation, provides information on plasma osmolality”",
    "x": 1,
    "slides": [
     {
@@ -18667,7 +18001,7 @@ SINA.lectures["biochem-renal"] = {
     "Sodium"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 9: “Potassium (K+): main intracellular cation … Hyperkalaemia: is a common electrolyte disorder in acute renal failure and reflects the impossibility of the kidney to excrete potassium (it leaves the intracellular medium under the influence of acidosis).”",
    "x": 1,
    "slides": [
     {
@@ -18686,7 +18020,7 @@ SINA.lectures["biochem-renal"] = {
     "Potassium intake rises"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 9: “Hyperkalaemia: is a common electrolyte disorder in acute renal failure and reflects the impossibility of the kidney to excrete potassium (it leaves the intracellular medium under the influence of acidosis).”",
    "x": 1,
    "slides": [
     {
@@ -18705,7 +18039,7 @@ SINA.lectures["biochem-renal"] = {
     "Excess intake"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 10: “Bicarbonates (HCO3-): provide information on the acid-base disorders that appear during chronic renal failure (CRI) and which are related to: … The loss of HCO3- … Decreased ability of tubules to secrete NH4+”",
    "x": 1,
    "slides": [
     {
@@ -18743,7 +18077,7 @@ SINA.lectures["biochem-renal"] = {
     "Heart failure"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 11: “In chronic renal failure, this is a determination carried out systematically to assess the bone condition and the activity of the patient's parathyroid glands. In fact, during his pathology, bone osteodystrophy occurs with osteomalacia and secondary hyperparathyroidism.”",
    "x": 1,
    "slides": [
     {
@@ -18762,7 +18096,7 @@ SINA.lectures["biochem-renal"] = {
     "Gigantism"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 11: “In chronic renal failure, this is a determination carried out systematically to assess the bone condition and the activity of the patient's parathyroid glands. In fact, during his pathology, bone osteodystrophy occurs with osteomalacia and secondary hyperparathyroidism.”",
    "x": 1,
    "slides": [
     {
@@ -18800,7 +18134,7 @@ SINA.lectures["biochem-renal"] = {
     "Falls"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 11: “In chronic renal failure, this is a determination carried out systematically to assess the bone condition and the activity of the patient's parathyroid glands. In fact, during his pathology, bone osteodystrophy occurs with osteomalacia and secondary hyperparathyroidism. … Biologically, during Chronic Kidney Failure: serum calcium usually decreases phosphoremia increases as well as the parathyroid hormone PTH…”",
    "x": 1,
    "slides": [
     {
@@ -18819,7 +18153,7 @@ SINA.lectures["biochem-renal"] = {
     "5 to 10 L"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 12: “In a normal adult, the diuresis is: 0.75 to 2 liters … Polyuria: volumes greater than 2.5 liters per 24 hours Main etiologies:”",
    "x": 1,
    "slides": [
     {
@@ -18857,7 +18191,7 @@ SINA.lectures["biochem-renal"] = {
     "0.6 L"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 12: “Polyuria: volumes greater than 2.5 liters per 24 hours Main etiologies:”",
    "x": 1,
    "slides": [
     {
@@ -18895,7 +18229,7 @@ SINA.lectures["biochem-renal"] = {
     "1 L"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 12: “Polyuria: volumes greater than 2.5 liters per 24 hours Main etiologies: … Anuria: volumes less than 0.1 L / 24h”",
    "x": 1,
    "slides": [
     {
@@ -18914,7 +18248,7 @@ SINA.lectures["biochem-renal"] = {
     "Restriction of water intake"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 12: “Oliguria: following a restriction of water intake”",
    "x": 1,
    "slides": [
     {
@@ -18933,7 +18267,7 @@ SINA.lectures["biochem-renal"] = {
     "Fully quantitative"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 13: “2- Proteinuria Proteinuria is the most common urinary anomaly. It may be the only sign of kidney damage. Its screening can be carried out by looking for proteinuria on reactive strips (it is a qualitative method because the result is in the form of: absence or presence of proteinuria) This research has an interest in the early detection of chronic kidney disease. It requires confirmation by quantitative protein…”",
    "x": 1,
    "slides": [
     {
@@ -18952,7 +18286,7 @@ SINA.lectures["biochem-renal"] = {
     "Without any precaution"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 13: “2- Proteinuria Proteinuria is the most common urinary anomaly. It may be the only sign of kidney damage. Its screening can be carried out by looking for proteinuria on reactive strips (it is a qualitative method because the result is in the form of: absence or presence of proteinuria) This research has an interest in the early detection of chronic kidney disease. It requires confirmation by quantitative protein…”",
    "x": 1,
    "slides": [
     {
@@ -18971,7 +18305,7 @@ SINA.lectures["biochem-renal"] = {
     "150 and 300 mg/24 h"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 13: “Physiological proteinuria varies between: 50 – 150 mg/ 24h”",
    "x": 1,
    "slides": [
     {
@@ -18990,7 +18324,7 @@ SINA.lectures["biochem-renal"] = {
     "Always due to diabetes"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 13: “Functional proteinuria: corresponds to a moderate elevation, of an intermittent nature without associated renal lesion. Causes: prolonged orthostatism (standing position related to the trade for example), important effort, hypertension…”",
    "x": 1,
    "slides": [
     {
@@ -19009,7 +18343,7 @@ SINA.lectures["biochem-renal"] = {
     "Glomerulonephritis"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 13: “Functional proteinuria: corresponds to a moderate elevation, of an intermittent nature without associated renal lesion. Causes: prolonged orthostatism (standing position related to the trade for example), important effort, hypertension…”",
    "x": 1,
    "slides": [
     {
@@ -19028,7 +18362,7 @@ SINA.lectures["biochem-renal"] = {
     "Below 150 mg/24 h"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 13: “Pathological proteinuria: proteinuria is greater than 150 mg/24h with a permanent character”",
    "x": 1,
    "slides": [
     {
@@ -19047,7 +18381,7 @@ SINA.lectures["biochem-renal"] = {
     "Glycosuria"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 14: “3- (micro)albuminuria Microalbuminuria (or paucialbuminuria) designates the urinary excretion”",
    "x": 1,
    "slides": [
     {
@@ -19066,7 +18400,7 @@ SINA.lectures["biochem-renal"] = {
     "Liver failure"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 14: “of albumin, in very small quantities, intermediate between the physiological values which are approximately 30 mg/24h and frank proteinuria, greater than 300 mg/24 h. It is a sign of glomerular renal damage: a predictive marker for the appearance of certain nephropathies (for example during complications”",
    "x": 1,
    "slides": [
     {
@@ -19104,7 +18438,7 @@ SINA.lectures["biochem-renal"] = {
     "Bilirubin"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 15: “linked to the blood concentration of Na+ and K+, diuresis and food intake”",
    "x": 1,
    "slides": [
     {
@@ -19142,7 +18476,7 @@ SINA.lectures["biochem-renal"] = {
     "Liver function only"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 16: “4-3- Urinary urea and uric acid: (Provide information on dietary intake and the importance of endogenous catabolism). Urinary urea also testifies to the concentrating power of the kidney.”",
    "x": 1,
    "slides": [
     {
@@ -19180,7 +18514,7 @@ SINA.lectures["biochem-renal"] = {
     "The volume of plasma crossing its capillary wall per unit of time"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 17: “1-Measurement of “Glomerular Filtration Rate” (GFR): Clearance It assesses the ability of the kidney to filter plasma at physiological flow Definition: The GFR of a glomerulus represents the volume of plasma crossing the capillary wall of this glomerulus, per unit of time. Concept of Clearance of a substance eliminated by the kidney: Clearance = volume of blood purified of a substance, by the kidney, per unit of…”",
    "x": 1,
    "slides": [
     {
@@ -19199,7 +18533,7 @@ SINA.lectures["biochem-renal"] = {
     "The urine flow"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 22: “It is the volume of plasma in ml purified by the kidney of its dissolved and osmotically active substances, per unit of time”",
    "x": 1,
    "slides": [
     {
@@ -19218,7 +18552,7 @@ SINA.lectures["biochem-renal"] = {
     "Fully reabsorbed"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 17: “1-Measurement of “Glomerular Filtration Rate” (GFR): Clearance It assesses the ability of the kidney to filter plasma at physiological flow Definition: The GFR of a glomerulus represents the volume of plasma crossing the capillary wall of this glomerulus, per unit of time. Concept of Clearance of a substance eliminated by the kidney: Clearance = volume of blood purified of a substance, by the kidney, per unit of…”",
    "x": 1,
    "slides": [
     {
@@ -19237,7 +18571,7 @@ SINA.lectures["biochem-renal"] = {
     "Total body water"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 19: “2- Creatinine clearance: The value of creatinine clearance has an important semiological importance in renal insufficiency because it is independent of diuresis and directly measures glomerular filtration. It can be calculated by measuring plasma and urinary creatinine concentrations as well as 24-hour urine flow. … Creatinine clearance (ml/min) = -------------------- * Diuresis Serum Creatinine”",
    "x": 1,
    "slides": [
     {
@@ -19256,7 +18590,7 @@ SINA.lectures["biochem-renal"] = {
     "Measures tubular secretion only"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 19: “2- Creatinine clearance: The value of creatinine clearance has an important semiological importance in renal insufficiency because it is independent of diuresis and directly measures glomerular filtration. It can be calculated by measuring plasma and urinary creatinine concentrations as well as 24-hour urine flow.”",
    "x": 1,
    "slides": [
     {
@@ -19275,7 +18609,7 @@ SINA.lectures["biochem-renal"] = {
     "Urea"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 18: “A- Glomerular filtration rate … 2- Creatinine clearance: The value of creatinine clearance has an important semiological significance in renal failure because it is independent of diuresis and directly measures glomerular filtration. Renal Insufficiency is defined by a decrease in the number of functional nephrons, the functions of the nephrons are multiple including glomerular filtration, which leads to…”",
    "x": 1,
    "slides": [
     {
@@ -19294,7 +18628,7 @@ SINA.lectures["biochem-renal"] = {
     "1.73 m²"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 19: “to the reference body surface (1.73 m 2 ) which”",
    "x": 1,
    "slides": [
     {
@@ -19313,7 +18647,7 @@ SINA.lectures["biochem-renal"] = {
     "130 ± 20 mL/min"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 19: “110 ± 20 ml/min women”",
    "x": 1,
    "slides": [
     {
@@ -19332,7 +18666,7 @@ SINA.lectures["biochem-renal"] = {
     "Need two 24-h collections"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 20: “Currently, the previous formula has been replaced by other formulas that take into account muscle mass and avoid errors in urine collection.”",
    "x": 1,
    "slides": [
     {
@@ -19370,7 +18704,7 @@ SINA.lectures["biochem-renal"] = {
     "50 to 70 mL/min"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 21: “Moderate CKD: creatinine clearance between 50 and 70 ml/min (it is most often without clinical impact) … Significant CKD: creatinine clearance between 20 and 50 ml/min (No clinical signs in the absence of anaemia, cardiovascular signs or nephrotic syndrome). … Severe CKD: creatinine clearance between 20 and 5 ml/min Here most biological disorders are present”",
    "x": 1,
    "slides": [
     {
@@ -19389,7 +18723,7 @@ SINA.lectures["biochem-renal"] = {
     "20 to 50 mL/min"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 21: “Severe CKD: creatinine clearance between 20 and 5 ml/min Here most biological disorders are present”",
    "x": 1,
    "slides": [
     {
@@ -19408,7 +18742,7 @@ SINA.lectures["biochem-renal"] = {
     "The kidney is normal"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 21: “Creatinine clearance < 5 ml/min : The kidney is no longer able to ensure blood homeostasis. Need for haemodialysis or renal transplantation.”",
    "x": 1,
    "slides": [
     {
@@ -19427,7 +18761,7 @@ SINA.lectures["biochem-renal"] = {
     "Calcium absorption"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 22: “B- exploration of the tubular functions: … 1- Elimination of water”",
    "x": 1,
    "slides": [
     {
@@ -19446,7 +18780,7 @@ SINA.lectures["biochem-renal"] = {
     "Urine Na / plasma Na"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 22: “it is evaluated by calculating the Osmolar clearance … Osm U = urine osmolality … Osm P = plasma osmolality V: urinary flow”",
    "x": 1,
    "slides": [
     {
@@ -19465,7 +18799,7 @@ SINA.lectures["biochem-renal"] = {
     "Drinks 20 mL/kg of water"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 23: “B- exploration of the tubular functions: 2 Concentration test and dilution test a- Concentration test (water restriction) the subject receives a diet rich in proteins and salts and low in drinks (complete water fasting from 8 p.m. to 8 a.m. the next day) The bladder is emptied at 24 hours”",
    "x": 1,
    "slides": [
     {
@@ -19484,7 +18818,7 @@ SINA.lectures["biochem-renal"] = {
     "2 L at once"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 23: “b- Dilution test (water load test) The subject ingests in 30 to 60 min, an aqueous load of 20ml/kg Urine collected every hour for 5 hours. The osmolarity of one of the samples must be close to 100 mOsm/kg Normally 50% of the aqueous load is removed in 2 hours and 80% in 5 hours”",
    "x": 1,
    "slides": [
     {
@@ -19503,7 +18837,7 @@ SINA.lectures["biochem-renal"] = {
     "290 mOsm/kg"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 23: “b- Dilution test (water load test) The subject ingests in 30 to 60 min, an aqueous load of 20ml/kg Urine collected every hour for 5 hours. The osmolarity of one of the samples must be close to 100 mOsm/kg Normally 50% of the aqueous load is removed in 2 hours and 80% in 5 hours”",
    "x": 1,
    "slides": [
     {
@@ -19522,7 +18856,7 @@ SINA.lectures["biochem-renal"] = {
     "10% in 5 hours"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 23: “b- Dilution test (water load test) The subject ingests in 30 to 60 min, an aqueous load of 20ml/kg Urine collected every hour for 5 hours. The osmolarity of one of the samples must be close to 100 mOsm/kg Normally 50% of the aqueous load is removed in 2 hours and 80% in 5 hours”",
    "x": 1,
    "slides": [
     {
@@ -19541,7 +18875,7 @@ SINA.lectures["biochem-renal"] = {
     "Making albumin"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 24: “reabsorption of Bicarbonate HCO3- … titratable acid excretion H+ … ammonia secretion”",
    "x": 1,
    "slides": [
     {
@@ -19560,7 +18894,7 @@ SINA.lectures["biochem-renal"] = {
     "Creatinine, proteinuria and microalbuminuria"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 25: “Routine examinations that provide complete information on renal function are represented by renal biochemical exploration including the dosage of: … Proteinuria … Microalbuminuria”",
    "x": 1,
    "slides": [
     {
@@ -19579,7 +18913,7 @@ SINA.lectures["biochem-renal"] = {
     "Troponin"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 11: “The normal kidney participates in the activation of vitamin D which intervenes in the phospho-calcic balance.”",
    "x": 1,
    "slides": [
     {
@@ -19598,7 +18932,7 @@ SINA.lectures["biochem-renal"] = {
     "Ionogram only"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 25: “Creatinine Clearance … Concentration Test and Dilution Test”",
    "x": 1,
    "slides": [
     {
@@ -19636,7 +18970,7 @@ SINA.lectures["biochem-renal"] = {
     "Low muscle mass"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 7: “Tubulopathies: Marker of proximal tubular renal function Disadvantage : Higher cost than creatinine: test not performed in current practice (used only as a second intention) Sampling: fasting is not essential Corticosteroids increase cystatin C concentration in a dose-dependent manner. Reference values: between 1 and 50 years: 0.5 to 1 mg/l”",
    "x": 1,
    "slides": [
     {
@@ -19655,7 +18989,7 @@ SINA.lectures["biochem-renal"] = {
     "Incomplete 24-h urine collection"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 20: “With regard to the calculation of creatinine clearance, there are calculation errors, the main cause of which is related to urine collection (incomplete collection over 24 hours or bladder not completely emptied).”",
    "x": 1,
    "slides": [
     {
@@ -19693,7 +19027,7 @@ SINA.lectures["biochem-renal"] = {
     "Greater than 10 always"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 15: “Sodium divided by potassium is normally greater than 1 (Na/K >1)”",
    "x": 1,
    "slides": [
     {
@@ -20792,7 +20126,7 @@ SINA.lectures["biochem-spe"] = {
     "Enzymes of the gut"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 3: “Lymphoid tissue: synthesizes gamma globulins (which are immunity proteins)”",
    "x": 1,
    "slides": [
     {
@@ -20849,7 +20183,7 @@ SINA.lectures["biochem-spe"] = {
     "A negative particle"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 5: “An anode: a positive electrode”",
    "x": 1,
    "slides": [
     {
@@ -20868,7 +20202,7 @@ SINA.lectures["biochem-spe"] = {
     "A neutral molecule"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 5: “A cation: positive particle which is attracted to the cathode”",
    "x": 1,
    "slides": [
     {
@@ -20887,7 +20221,7 @@ SINA.lectures["biochem-spe"] = {
     "Cannot carry charge"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 6: “Proteins are amphoteric molecules, ie capable of changing their overall charge (positive or negative) depending on the pH of the medium.”",
    "x": 1,
    "slides": [
     {
@@ -20944,7 +20278,7 @@ SINA.lectures["biochem-spe"] = {
     "CRP"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 7: “Do not use blood collected on anticoagulant, because the plasma contains fibrinogen, a protein which will be found in the serum to be analyzed and which will then be quantified). … Do not use hemolyzed serum which will contain hemoglobin, a protein which will be found in the serum to be analyzed and which will then be quantified”",
    "x": 1,
    "slides": [
     {
@@ -20963,7 +20297,7 @@ SINA.lectures["biochem-spe"] = {
     "One year"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 7: “If the analysis is deferred, the collected blood can be stored at 4°C for up to … one week.”",
    "x": 1,
    "slides": [
     {
@@ -20982,7 +20316,7 @@ SINA.lectures["biochem-spe"] = {
     "Starch"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 8: “Blotting paper: represents the first medium that was used when the PEP technique was discovered in 1937 and won a Nobel Prize”",
    "x": 1,
    "slides": [
     {
@@ -21001,7 +20335,7 @@ SINA.lectures["biochem-spe"] = {
     "Faster to dry"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 8: “gel: the gel represents a more sensitive support (transparency, porosity better than paper. Agarose gel is currently the most widely used. It allows the separation”",
    "x": 1,
    "slides": [
     {
@@ -21020,7 +20354,7 @@ SINA.lectures["biochem-spe"] = {
     "Fully automated"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 8: “Technique Steps: It is a semi-automated technique, that is to say, which requires the intervention of the technician at different stages of the analytical process.”",
    "x": 1,
    "slides": [
     {
@@ -21039,7 +20373,7 @@ SINA.lectures["biochem-spe"] = {
     "10 mL"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 9: “A small quantity of serum is sufficient to perform the technique (0.1 ml of serum)”",
    "x": 1,
    "slides": [
     {
@@ -21058,7 +20392,7 @@ SINA.lectures["biochem-spe"] = {
     "Particle size, ionic strength and support porosity"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 9: “the size of the particles … the ionic strength of the particles … the porosity of the support”",
    "x": 1,
    "slides": [
     {
@@ -21096,7 +20430,7 @@ SINA.lectures["biochem-spe"] = {
     "A microscope"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 11: “e) Reading the color intensity of the bands with a densitometer: … Each colored band absorbs light at a given wavelength This absorbance, called Optical Density (O.D.) is proportional to the intensity of the coloration of the band, itself proportional to the percentage of protein in the band … It is translated by the densitometer into a peak”",
    "x": 1,
    "slides": [
     {
@@ -21115,7 +20449,7 @@ SINA.lectures["biochem-spe"] = {
     "The size of the gel"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 11: “Each colored band absorbs light at a given wavelength This absorbance, called Optical Density (O.D.) is proportional to the intensity of the coloration of the band, itself proportional to the percentage of protein in the band”",
    "x": 1,
    "slides": [
     {
@@ -21134,7 +20468,7 @@ SINA.lectures["biochem-spe"] = {
     "Paper"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 12: “2) Capillary zone electrophoresis (CZE): new technique Unlike the gel separation technique, this technique uses a capillary tube (long, thin column) as a support, at the level of which the proteins migrate and separate according to the same principle, under the effect of an electric field. Its advantages, this technique:”",
    "x": 1,
    "slides": [
     {
@@ -21172,7 +20506,7 @@ SINA.lectures["biochem-spe"] = {
     "Homogeneous and the most intensely coloured"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 13: “either a particular protein: such as the Albumin band (which is homogeneous and whose coloration is the most intense).”",
    "x": 1,
    "slides": [
     {
@@ -21191,7 +20525,7 @@ SINA.lectures["biochem-spe"] = {
     "Only haemoglobin"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 13: “either a set of proteins (globulins) : with similar physico-chemical migration characteristics”",
    "x": 1,
    "slides": [
     {
@@ -21210,7 +20544,7 @@ SINA.lectures["biochem-spe"] = {
     "Their charge only"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 13: “The width and intensity of the coloring of each band gives an indication of the concentration of the proteins composing this band”",
    "x": 1,
    "slides": [
     {
@@ -21229,7 +20563,7 @@ SINA.lectures["biochem-spe"] = {
     "6 fractions"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 14: “and 4 fractions corresponding to globulins … The variation of Albumin in relation to all of the Globulins is evaluated by the A/G ratio”",
    "x": 1,
    "slides": [
     {
@@ -21248,7 +20582,7 @@ SINA.lectures["biochem-spe"] = {
     "Only a picture"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 14: “these fractions in percentage and in grams/L”",
    "x": 1,
    "slides": [
     {
@@ -21267,7 +20601,7 @@ SINA.lectures["biochem-spe"] = {
     "Transport, acid-base buffering and oncotic pressure"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 15: “molecules, buffer of acid-base variations in the … blood, maintenance of oncotic pressure”",
    "x": 1,
    "slides": [
     {
@@ -21286,7 +20620,7 @@ SINA.lectures["biochem-spe"] = {
     "Hormones"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 15: “Immune Reaction … : Inflammatory … reaction”",
    "x": 1,
    "slides": [
     {
@@ -21305,7 +20639,7 @@ SINA.lectures["biochem-spe"] = {
     "Men only"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 16: “Albumin: decrease in pregnant women and the elderly”",
    "x": 1,
    "slides": [
     {
@@ -21324,7 +20658,7 @@ SINA.lectures["biochem-spe"] = {
     "Decrease in pregnancy"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 16: “Albumin: decrease in pregnant women and the elderly … α1, and α2 globulins: increase during pregnancy and decrease in the elderly”",
    "x": 1,
    "slides": [
     {
@@ -21343,7 +20677,7 @@ SINA.lectures["biochem-spe"] = {
     "In infants"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 16: “β globulins: increase during pregnancy and between 40 and 70 years”",
    "x": 1,
    "slides": [
     {
@@ -21362,7 +20696,7 @@ SINA.lectures["biochem-spe"] = {
     "Iron supplements"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 16: “γglobulins: are low in infants and the elderly: with low immunity (hence the interest of breastfeeding with colostrum, during the days following childbirth)”",
    "x": 1,
    "slides": [
     {
@@ -21400,7 +20734,7 @@ SINA.lectures["biochem-spe"] = {
     "1000 mg/L"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 18: “of the Gammaglobulin fraction, from approximately a concentration between 100-150 mg/l.”",
    "x": 1,
    "slides": [
     {
@@ -21438,7 +20772,7 @@ SINA.lectures["biochem-spe"] = {
     "In the albumin fraction"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 20: “A blood sample taken in a tube containing an anticoagulant will present in its supernatant (which is plasma and not serum) fibrinogen, a protein which will be visible on the proteinogram in the form of a supernumerary band and will appear in the form of an abnormal peak in the gammaglobulin fraction of the Protein Profile.”",
    "x": 1,
    "slides": [
     {
@@ -21457,7 +20791,7 @@ SINA.lectures["biochem-spe"] = {
     "Is permanent on all SPEs and has no clinical consequence"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 21: “Possibly of hereditary origin and therefore permanent at the level of all the PEPs carried out (it has no clinical consequences)”",
    "x": 1,
    "slides": [
     {
@@ -21476,7 +20810,7 @@ SINA.lectures["biochem-spe"] = {
     "Temporary, e.g. with beta-lactams in renal failure"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 21: “Possibly of Acquired origin and will therefore only appear temporarily on the PEP; : It is due, for example, to the taking of beta-lactams by the patient with renal insufficiency, drugs which fix, in part, the albumin”",
    "x": 1,
    "slides": [
     {
@@ -21514,7 +20848,7 @@ SINA.lectures["biochem-spe"] = {
     "Low intake"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 22: “a loss by the body (nephrotic syndrome due to a lesion of the glomerulus and passage of proteins in the urine), an exaggerated catabolism (during a severe inflammatory syndrome)”",
    "x": 1,
    "slides": [
     {
@@ -21533,7 +20867,7 @@ SINA.lectures["biochem-spe"] = {
     "Alpha-1 antitrypsin deficiency"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 23: “Alpha 1 antitrypsin deficiency … Congenital : Alpha1 antitrypsin deficiency”",
    "x": 1,
    "slides": [
     {
@@ -21552,7 +20886,7 @@ SINA.lectures["biochem-spe"] = {
     "Acute inflammatory syndrome, usually with high alpha-2"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 23: “Acute inflammatory syndrome … b) Increase in A1G fraction: Example in acute inflammatory syndrome (usually associated with increased A2G)”",
    "x": 1,
    "slides": [
     {
@@ -21571,7 +20905,7 @@ SINA.lectures["biochem-spe"] = {
     "Transferrin"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 24: “Intravascular hemolysis (decreased haptoglobin)”",
    "x": 1,
    "slides": [
     {
@@ -21590,7 +20924,7 @@ SINA.lectures["biochem-spe"] = {
     "CRP"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 24: “A Nephrotic Syndrome (during which there is an increase in Alpha2 Macroglobuline)”",
    "x": 1,
    "slides": [
     {
@@ -21628,7 +20962,7 @@ SINA.lectures["biochem-spe"] = {
     "Haemoglobin"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 25: “of plasmocytes) which are directed towards the abnormal hepatic fibrous tissue consisting”",
    "x": 1,
    "slides": [
     {
@@ -21647,7 +20981,7 @@ SINA.lectures["biochem-spe"] = {
     "Pregnancy"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 26: “in infants: this is a physiological situation”",
    "x": 1,
    "slides": [
     {
@@ -21666,7 +21000,7 @@ SINA.lectures["biochem-spe"] = {
     "Fasting"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 26: “or secondary (in case of chemotherapy … or corticotherapy, which have an immunosuppressive effect).”",
    "x": 1,
    "slides": [
     {
@@ -21723,7 +21057,7 @@ SINA.lectures["biochem-spe"] = {
     "A clotting disorder"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 27: “either malignant (example of multiple myeloma or bone myeloma: anarchic proliferation of plasmocytes in the marrow of the long bones that they destroy, with increased synthesis of immunoglobulin of a single type such as IgG alone or IgM alone, ...),”",
    "x": 1,
    "slides": [
     {
@@ -21780,7 +21114,7 @@ SINA.lectures["biochem-spe"] = {
     "Albumin"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 28: “further analysis must be requested by the clinician in order to identify the Immunoglobulin. This analysis is called \"immunofixation of a monoclonal immunoglobulin\". Its principle is to deposit the serum of the same patient at the level of 6 circuits of the same gel to which will be added anti-immunoglobulin antibodies of different types (G A M and kappa and lambda light chains).”",
    "x": 1,
    "slides": [
     {
@@ -21799,7 +21133,7 @@ SINA.lectures["biochem-spe"] = {
     "The disease (e.g. Kahler, Waldenström) and its treatment differ"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 29: “This technique therefore allows excess monoclonal immunoglobulins in the serum. This Ig typing is important because the pathology for which it is responsible will be different (Kahler's disease, Waldenstrom's disease, etc.), and therefore patient treatment will be different.”",
    "x": 1,
    "slides": [
     {
@@ -21837,7 +21171,7 @@ SINA.lectures["biochem-spe"] = {
     "Nephrotic syndrome"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 30: “4) certain clinical (such as bone pain) or biological (such as hypercalcaemia) manifestations, this may lead to the suspicion of multiple myeloma for example, towards which the PEP will direct, in the presence of a monoclonal gammopathy.”",
    "x": 1,
    "slides": [
     {
@@ -21856,7 +21190,7 @@ SINA.lectures["biochem-spe"] = {
     "Myeloma"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 30: “3) recurrent infections, in particular bacterial (raising the suspicion of an immune deficiency, which can be demonstrated by hypogammaglobulinemia on PEP)”",
    "x": 1,
    "slides": [
     {
@@ -21875,7 +21209,7 @@ SINA.lectures["biochem-spe"] = {
     "Lose the albumin band"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 31: “therapeutic follow-up of the patient (PEP following effective treatment should gradually normalize)”",
    "x": 1,
    "slides": [
     {
@@ -21894,7 +21228,7 @@ SINA.lectures["biochem-spe"] = {
     "Fractures"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 31: “assess the prognosis of a potentially serious pathology (such as : Immunodeficiency, Monoclonal Gammopathies)”",
    "x": 1,
    "slides": [
     {
@@ -21913,7 +21247,7 @@ SINA.lectures["biochem-spe"] = {
     "Towards the cathode"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 9: “c) Migration of serum proteins: Serum proteins placed at an alkaline pH between 8 < PH < 9 all take on an overall negative charge and all migrate toward the anode.”",
    "x": 1,
    "slides": [
     {
@@ -21932,7 +21266,7 @@ SINA.lectures["biochem-spe"] = {
     "Not at all"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 10: “Serum deposit line”",
    "x": 1,
    "slides": [
     {
@@ -21951,7 +21285,7 @@ SINA.lectures["biochem-spe"] = {
     "Amido black (Amidoschwartz)"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 10: “d) Protein staining: with Amidoschwartz highlights 5 bands of different coloring intensity”",
    "x": 1,
    "slides": [
     {
@@ -21970,7 +21304,7 @@ SINA.lectures["biochem-spe"] = {
     "Myeloma"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 24: “Nephrotic syndrome … A Nephrotic Syndrome (during which there is an increase in Alpha2 Macroglobuline)”",
    "x": 1,
    "slides": [
     {
@@ -21989,7 +21323,7 @@ SINA.lectures["biochem-spe"] = {
     "Nephrotic syndrome"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 25: “b) Increase in the BetaGlobulin fraction: the increase is generally moderate \"BetaGamma Block\": occurs during alcoholic cirrhosis. It is due to the presence of a high concentration of polyclonal immunoglobulins”",
    "x": 1,
    "slides": [
     {
@@ -22008,7 +21342,7 @@ SINA.lectures["biochem-spe"] = {
     "Immune deficiency"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 23: “Acute inflammatory syndrome … b) Increase in A1G fraction: Example in acute inflammatory syndrome (usually associated with increased A2G)”",
    "x": 1,
    "slides": [
     {
@@ -22046,7 +21380,7 @@ SINA.lectures["biochem-spe"] = {
     "Myeloma"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 19: “A haemolyzed sample (related to the quality of the blood sample taken during the pre- analytical phase) will be responsible for the”",
    "x": 1,
    "slides": [
     {
@@ -22065,7 +21399,7 @@ SINA.lectures["biochem-spe"] = {
     "Dehydration"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 23: “Causes of low serum proteins (malnutrition, hepatocellular insufficiency, … renal protein leakage)”",
    "x": 1,
    "slides": [
     {
@@ -22103,7 +21437,7 @@ SINA.lectures["biochem-spe"] = {
     "Speed up diagnosis"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 19: “serum. Hemoglobin is a protein that does not normally exist in serum and will migrate with the rest of serum proteins. It will be visible on the proteinogram as an extra band and will be read by the densitometer and manifested as an abnormal peak in the protein profile. This abnormal peak could delay the treatment of the patient to eliminate a pathology related to an abnormal increase in a serum protein.”",
    "x": 1,
    "slides": [
     {
@@ -22122,7 +21456,7 @@ SINA.lectures["biochem-spe"] = {
     "A confirmatory test"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 31: “Quick and easy technique … a diagnostic orientation (and not to make a confirmatory diagnosis)”",
    "x": 1,
    "slides": [
     {
@@ -22160,7 +21494,7 @@ SINA.lectures["biochem-spe"] = {
     "Multiple myeloma"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 27: “either malignant (example of multiple myeloma or bone myeloma: anarchic proliferation of plasmocytes in the marrow of the long bones that they destroy, with increased synthesis of immunoglobulin of a single type such as IgG alone or IgM alone, ...),”",
    "x": 1,
    "slides": [
     {
@@ -22179,7 +21513,7 @@ SINA.lectures["biochem-spe"] = {
     "After a week"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 12: “allows the separation of proteins from the serum of each patient independently (delivery of the result the same day) and therefore does not require grouping a series of 15 or 30 patients to perform a PEP”",
    "x": 1,
    "slides": [
     {
@@ -22198,7 +21532,7 @@ SINA.lectures["biochem-spe"] = {
     "Charge is zero"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 6: “Proteins are amphoteric molecules, ie capable of changing their overall charge (positive or negative) depending on the pH of the medium. … At this pH, all the serum proteins are negatively charged (anions), and will therefore all migrate from their point of deposit, in the same direction, towards the anode). … glu -”",
    "x": 1,
    "slides": [
     {
@@ -22217,7 +21551,7 @@ SINA.lectures["biochem-spe"] = {
     "The starting point of migration"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 6: “At this pH, all the serum proteins are negatively charged (anions), and will therefore all migrate from their point of deposit, in the same direction, towards the anode).”",
    "x": 1,
    "slides": [
     {
@@ -22236,7 +21570,7 @@ SINA.lectures["biochem-spe"] = {
     "A colour photo only"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 11: “It is translated by the densitometer into a peak”",
    "x": 1,
    "slides": [
     {
@@ -22255,7 +21589,7 @@ SINA.lectures["biochem-spe"] = {
     "Cirrhosis"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 26: “during an immune deficiency: which can be”",
    "x": 1,
    "slides": [
     {
@@ -22274,7 +21608,7 @@ SINA.lectures["biochem-spe"] = {
     "Iron only"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 16: “γglobulins: are low in infants and the elderly: with low immunity (hence the interest of breastfeeding with colostrum, during the days following childbirth)”",
    "x": 1,
    "slides": [
     {
@@ -23419,7 +22753,7 @@ SINA.lectures["biochem-lipids"] = {
     "Diagnosing infection"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 3: “Systematic biological assessment, … Clinical signs (obesity, sedentary lifestyle, arterial hypertension) … and Therapeutic follow-up.”",
    "x": 1,
    "slides": [
     {
@@ -23457,7 +22791,7 @@ SINA.lectures["biochem-lipids"] = {
     "Only triglycerides"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 5: “Apoprotéine périphérique … phospholipids … free cholesterol”",
    "x": 1,
    "slides": [
     {
@@ -23476,7 +22810,7 @@ SINA.lectures["biochem-lipids"] = {
     "Glycerol bound to 2 fatty acids and a phosphate"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 6: “a. Triglycerides : Triglycerides are formed from a glycerol bound to 3 fatty acids. Their origins can be:”",
    "x": 1,
    "slides": [
     {
@@ -23495,7 +22829,7 @@ SINA.lectures["biochem-lipids"] = {
     "Cholesterol"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 6: “Endogenous: Synthesis from sugars or alcohol via acetylCoA”",
    "x": 1,
    "slides": [
     {
@@ -23514,7 +22848,7 @@ SINA.lectures["biochem-lipids"] = {
     "Clotting factors"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 6: “They play a very important role in: It represents the energy reserve in adipocytes and muscle cells.”",
    "x": 1,
    "slides": [
     {
@@ -23552,7 +22886,7 @@ SINA.lectures["biochem-lipids"] = {
     "Clotting"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 7: “synthesis of steroid hormones and bile acids”",
    "x": 1,
    "slides": [
     {
@@ -23571,7 +22905,7 @@ SINA.lectures["biochem-lipids"] = {
     "In bile, partly recycled by the enterohepatic cycle"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 7: “Cholesterol is eliminated in the bile that it composes and partly passes into the enterohepatic cycle (from the intestine, it is absorbed and reaches the liver)”",
    "x": 1,
    "slides": [
     {
@@ -23609,7 +22943,7 @@ SINA.lectures["biochem-lipids"] = {
     "Make hormones"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 9: “Structural role: the apoproteins maintain the macromolecular lipoprotein complex for its solubilization and its transport from the sites of synthesis (liver) to the peripheral sites of use”",
    "x": 1,
    "slides": [
     {
@@ -23628,7 +22962,7 @@ SINA.lectures["biochem-lipids"] = {
     "Transporting oxygen"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 9: “Apoproteins can recognize peripheral apolipoprotein receptors … and, by being effectors (activators) of peripheral enzymes, apoproteins activate lipoprotein metabolism, for example: Apo AI is an activator of Lecithin cholesterol acyl transferase (LCAT), an enzyme that esterifies HDL cholesterol”",
    "x": 1,
    "slides": [
     {
@@ -23647,7 +22981,7 @@ SINA.lectures["biochem-lipids"] = {
     "4"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 9: “There are 5 classes of major apolipoproteins: A, B, C, D, E with subclasses:”",
    "x": 1,
    "slides": [
     {
@@ -23666,7 +23000,7 @@ SINA.lectures["biochem-lipids"] = {
     "VLDL only"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 13: “From chylomicron to HDL: … Chylomicrons … are chylomicron”",
    "x": 1,
    "slides": [
     {
@@ -23685,7 +23019,7 @@ SINA.lectures["biochem-lipids"] = {
     "Phospholipids"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 5: “Phospholipides … phospholipids”",
    "x": 1,
    "slides": [
     {
@@ -23704,7 +23038,7 @@ SINA.lectures["biochem-lipids"] = {
     "Triglycerides"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 19: “Once attached to cell receptors of peripheral tissues, LDL undergo, lysosomal activity and hydrolysis of esterified cholesterol :”",
    "x": 1,
    "slides": [
     {
@@ -23723,7 +23057,7 @@ SINA.lectures["biochem-lipids"] = {
     "Apo A and C"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 11: “LDL consists of Apo B … while HDL consists of Apo A and C”",
    "x": 1,
    "slides": [
     {
@@ -23742,7 +23076,7 @@ SINA.lectures["biochem-lipids"] = {
     "Apo B100"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 11: “B100 … B100 … LDL consists of Apo B”",
    "x": 1,
    "slides": [
     {
@@ -23761,7 +23095,7 @@ SINA.lectures["biochem-lipids"] = {
     "Less dense"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 12: “less fatty, … smaller … and therefore denser.”",
    "x": 1,
    "slides": [
     {
@@ -23780,7 +23114,7 @@ SINA.lectures["biochem-lipids"] = {
     "The chylomicron"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 13: “From chylomicron to HDL: … Chylomicrons … are chylomicron”",
    "x": 1,
    "slides": [
     {
@@ -23799,7 +23133,7 @@ SINA.lectures["biochem-lipids"] = {
     "1.006 to 1.019"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 13: “< 0,94 … 0,94 à 1,006”",
    "x": 1,
    "slides": [
     {
@@ -23818,7 +23152,7 @@ SINA.lectures["biochem-lipids"] = {
     "LDL1"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 13: “LDL 1 (IDL)”",
    "x": 1,
    "slides": [
     {
@@ -23837,7 +23171,7 @@ SINA.lectures["biochem-lipids"] = {
     "Bile acids"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 14: “Free fatty acids released by the adipocyte.”",
    "x": 1,
    "slides": [
     {
@@ -23875,7 +23209,7 @@ SINA.lectures["biochem-lipids"] = {
     "Triglycerides (over 95%)"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 15: “Triglycerides (represent more than 95% of dietary lipids)”",
    "x": 1,
    "slides": [
     {
@@ -23913,7 +23247,7 @@ SINA.lectures["biochem-lipids"] = {
     "Glucose"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 15: “Dietary triglycerides are digested into monoglycerides and free fatty acids.”",
    "x": 1,
    "slides": [
     {
@@ -23932,7 +23266,7 @@ SINA.lectures["biochem-lipids"] = {
     "Insulin"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 15: “These metabolites are solubilized in the intestine by bile acids to be absorbed by the enterocyte which reassembles them into CHYLOMICRONS, the largest lipoproteins which pass from the enterocyte into the blood.”",
    "x": 1,
    "slides": [
     {
@@ -23951,7 +23285,7 @@ SINA.lectures["biochem-lipids"] = {
     "VLDL"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 15: “These metabolites are solubilized in the intestine by bile acids to be absorbed by the enterocyte which reassembles them into CHYLOMICRONS, the largest lipoproteins which pass from the enterocyte into the blood.”",
    "x": 1,
    "slides": [
     {
@@ -23970,7 +23304,7 @@ SINA.lectures["biochem-lipids"] = {
     "The bile"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 16: “a) Chylomicrons : lipoproteins of intestinal origin (exogenous) are synthesized by the intestine post-prandial. They are then released into the lymph and then into the blood.”",
    "x": 1,
    "slides": [
     {
@@ -24008,7 +23342,7 @@ SINA.lectures["biochem-lipids"] = {
     "The liver cell nucleus"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 17: “in the endothelium of the capillaries by lipoprotein lipase, into residual particles … the VLDLs are transformed by lipoprotein lipase of the endothelium of the capillaries:”",
    "x": 1,
    "slides": [
     {
@@ -24027,7 +23361,7 @@ SINA.lectures["biochem-lipids"] = {
     "Glucose"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 6: “a. Triglycerides : Triglycerides are formed from a glycerol bound to 3 fatty acids. Their origins can be:”",
    "x": 1,
    "slides": [
     {
@@ -24046,7 +23380,7 @@ SINA.lectures["biochem-lipids"] = {
     "Apo B/E"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 17: “or \"remnants\", recognized by the receptor for their B/E apoproteins in the liver”",
    "x": 1,
    "slides": [
     {
@@ -24065,7 +23399,7 @@ SINA.lectures["biochem-lipids"] = {
     "IDL"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 17: “into intermediate lipoproteins \"IDL\"”",
    "x": 1,
    "slides": [
     {
@@ -24103,7 +23437,7 @@ SINA.lectures["biochem-lipids"] = {
     "Oxidation to bile acids directly"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 19: “Once attached to cell receptors of peripheral tissues, LDL undergo, lysosomal activity and hydrolysis of esterified cholesterol :”",
    "x": 1,
    "slides": [
     {
@@ -24122,7 +23456,7 @@ SINA.lectures["biochem-lipids"] = {
     "Chylomicrons"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 21: “In blood, HDL captures excess free cholesterol, and transforms it into cholesterol esterified by with lecithin cholesterol acyl transferase (LCAT). Thus preventing the accumulation of free cholesterol in the vascular lumen (anti- atherogenic role) … When HDL receives cholesterol, its size increases … Captured by the liver or steroidogenic tissues, HDL releases its cholesterol and returns to the blood ready to…”",
    "x": 1,
    "slides": [
     {
@@ -24160,7 +23494,7 @@ SINA.lectures["biochem-lipids"] = {
     "Deliver cholesterol to arteries"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 21: “In blood, HDL captures excess free cholesterol, and transforms it into cholesterol esterified by with lecithin cholesterol acyl transferase (LCAT). Thus preventing the accumulation of free cholesterol in the vascular lumen (anti- atherogenic role)”",
    "x": 1,
    "slides": [
     {
@@ -24179,7 +23513,7 @@ SINA.lectures["biochem-lipids"] = {
     "Its size increases"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 21: “When HDL receives cholesterol, its size increases”",
    "x": 1,
    "slides": [
     {
@@ -24217,7 +23551,7 @@ SINA.lectures["biochem-lipids"] = {
     "Exploration of a lipid anomaly (ELA)"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 23: “The lipid profile is currently called \"Exploration of a Lipid Anomaly\" (ELA)”",
    "x": 1,
    "slides": [
     {
@@ -24236,7 +23570,7 @@ SINA.lectures["biochem-lipids"] = {
     "ALT and AST"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 23: “Determination of serum appearance … Dosage of Total cholesterol … LDL Cholesterol Calculation or Dosage”",
    "x": 1,
    "slides": [
     {
@@ -24255,7 +23589,7 @@ SINA.lectures["biochem-lipids"] = {
     "Always first-line"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 23: “The dosages of apolipoproteins A1 and B will provide a good complement in the event of significant or difficult to interpret hypertriglyceridemia.”",
    "x": 1,
    "slides": [
     {
@@ -24293,7 +23627,7 @@ SINA.lectures["biochem-lipids"] = {
     "Routine check-ups"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 24: “far from an acute condition likely to modify it (virosis, viral hepatitis, infarction, surgery) (Do not collect sample after heart attack : wait 3-4 months)”",
    "x": 1,
    "slides": [
     {
@@ -24312,7 +23646,7 @@ SINA.lectures["biochem-lipids"] = {
     "Citrate only"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 24: “At the level of a dry or heparinized tube”",
    "x": 1,
    "slides": [
     {
@@ -24331,7 +23665,7 @@ SINA.lectures["biochem-lipids"] = {
     "Excludes all dyslipidaemia"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 25: “Clear appearance: is normal, but does not exclude hypercholesterolemia”",
    "x": 1,
    "slides": [
     {
@@ -24350,7 +23684,7 @@ SINA.lectures["biochem-lipids"] = {
     "VLDL or IDL"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 25: “Cloudy or opalescent appearance : corresponds to an excess of VLDL or IDL”",
    "x": 1,
    "slides": [
     {
@@ -24369,7 +23703,7 @@ SINA.lectures["biochem-lipids"] = {
     "LDL only"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 25: “Finally, a cloudy appearance and a creamy supernatant corresponds to an excess of VLDL and chylomicrons”",
    "x": 1,
    "slides": [
     {
@@ -24388,7 +23722,7 @@ SINA.lectures["biochem-lipids"] = {
     "Only for children"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 25: “It is essential to mention the appearance of the serum in the report of the analysis results. The appearance of the serum, can be:”",
    "x": 1,
    "slides": [
     {
@@ -24407,7 +23741,7 @@ SINA.lectures["biochem-lipids"] = {
     "2.2 to 6.5 g/L"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 26: “Triglycerides: 0.5 - 1.5 g/l … If the triglycerides are greater than 4 mmol/l (3.5 g/l), the LDL can be measured on an automaton or calculated using : Planella's formula: LDL (mmol/l) = 0.41 * total cholest. (mmol/ l) - 0.32 TG (mmol/l) + 1.7 apo B(g/l) - 0.27.”",
    "x": 1,
    "slides": [
     {
@@ -24426,7 +23760,7 @@ SINA.lectures["biochem-lipids"] = {
     "0.5 to 1.5 g/L"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 26: “Total cholesterol: 1.50 g/l to 2 g/l (2.2 - 6.5 mmol/l)”",
    "x": 1,
    "slides": [
     {
@@ -24445,7 +23779,7 @@ SINA.lectures["biochem-lipids"] = {
     "Above 2 g/L"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 26: “HDL cholesterol: 0.35 – 0.65 g/l The total cholesterol to HDL cholesterol ratio is used as a cardiovascular risk factor and must be less than 4.9 in men and 4.2 in women.”",
    "x": 1,
    "slides": [
     {
@@ -24464,7 +23798,7 @@ SINA.lectures["biochem-lipids"] = {
     "4.9 in men and 4.2 in women"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 26: “HDL cholesterol: 0.35 – 0.65 g/l The total cholesterol to HDL cholesterol ratio is used as a cardiovascular risk factor and must be less than 4.9 in men and 4.2 in women.”",
    "x": 1,
    "slides": [
     {
@@ -24502,7 +23836,7 @@ SINA.lectures["biochem-lipids"] = {
     "Equal to HDL"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 26: “If the triglycerides are greater than 4 mmol/l (3.5 g/l), the LDL can be measured on an automaton or calculated using : Planella's formula: LDL (mmol/l) = 0.41 * total cholest. (mmol/ l) - 0.32 TG (mmol/l) + 1.7 apo B(g/l) - 0.27.”",
    "x": 1,
    "slides": [
     {
@@ -24521,7 +23855,7 @@ SINA.lectures["biochem-lipids"] = {
     "Apo AI only"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 26: “Total cholesterol: 1.50 g/l to 2 g/l (2.2 - 6.5 mmol/l) … If the triglycerides are greater than 4 mmol/l (3.5 g/l), the LDL can be measured on an automaton or calculated using : Planella's formula: LDL (mmol/l) = 0.41 * total cholest. (mmol/ l) - 0.32 TG (mmol/l) + 1.7 apo B(g/l) - 0.27.”",
    "x": 1,
    "slides": [
     {
@@ -24559,7 +23893,7 @@ SINA.lectures["biochem-lipids"] = {
     "6 mmol/L"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 27: “4) Interpretation: the LDL target value (value to be achieved with the treatment) is different depending on the cardiovascular risk factor profile (CVRF) : … If absence of CVRF: the LDL threshold must be less than 4 mmol/l”",
    "x": 1,
    "slides": [
     {
@@ -24578,7 +23912,7 @@ SINA.lectures["biochem-lipids"] = {
     "3 mmol/L"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 27: “HDL less than 1 mmol/l”",
    "x": 1,
    "slides": [
     {
@@ -24597,7 +23931,7 @@ SINA.lectures["biochem-lipids"] = {
     "Irrelevant"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 27: “4) Interpretation: the LDL target value (value to be achieved with the treatment) is different depending on the cardiovascular risk factor profile (CVRF) :”",
    "x": 1,
    "slides": [
     {
@@ -24616,7 +23950,7 @@ SINA.lectures["biochem-lipids"] = {
     "Profile is fully normal"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 28: “Their dosage is indicated if the total cholesterol concentration is high, with high LDL and low HDL and/or high triglycerides.”",
    "x": 1,
    "slides": [
     {
@@ -24635,7 +23969,7 @@ SINA.lectures["biochem-lipids"] = {
     "Total cholesterol alone"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 28: “This assay is the most accurate way to assess the atherogenic risk”",
    "x": 1,
    "slides": [
     {
@@ -24654,7 +23988,7 @@ SINA.lectures["biochem-lipids"] = {
     "Above 1.10 g/L"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 28: “Reference values: apo B equal to 0.6 to 1.40 g/l apo AI greater than 1.10 g/l.”",
    "x": 1,
    "slides": [
     {
@@ -24673,7 +24007,7 @@ SINA.lectures["biochem-lipids"] = {
     "0.35 to 0.65 g/L"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 28: “Reference values: apo B equal to 0.6 to 1.40 g/l apo AI greater than 1.10 g/l.”",
    "x": 1,
    "slides": [
     {
@@ -24692,7 +24026,7 @@ SINA.lectures["biochem-lipids"] = {
     "Proportional to HDL"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 28: “The atherogenic risk is proportional to the ApoB level and inversely proportional to the ApoAI level: The higher the ApoB to ApoAI ratio, the higher the atherogenic risk.”",
    "x": 1,
    "slides": [
     {
@@ -24711,7 +24045,7 @@ SINA.lectures["biochem-lipids"] = {
     "Low triglycerides only"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 28: “Their dosage is indicated if the total cholesterol concentration is high, with high LDL and low HDL and/or high triglycerides.”",
    "x": 1,
    "slides": [
     {
@@ -24730,7 +24064,7 @@ SINA.lectures["biochem-lipids"] = {
     "90%"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 29: “1) Hyperlipoproteinemias: are frequent: about 4% in adults after 30 years. They are of 2 types:”",
    "x": 1,
    "slides": [
     {
@@ -24749,7 +24083,7 @@ SINA.lectures["biochem-lipids"] = {
     "A disease or a drug"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 29: “secondary hyperlipoproteinemias: induced by a disease or a drug)”",
    "x": 1,
    "slides": [
     {
@@ -24768,7 +24102,7 @@ SINA.lectures["biochem-lipids"] = {
     "2 g/L"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 29: “1) Hyperlipoproteinemias: are frequent: about 4% in adults after 30 years. They are of 2 types: … 2) Hypolipoproteinemia: Hypocholesterolemia: Total Cholesterol <1.30 g/l, They are of 2 types:”",
    "x": 1,
    "slides": [
     {
@@ -24806,7 +24140,7 @@ SINA.lectures["biochem-lipids"] = {
     "Classify anaemias"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 30: “Fredrickson classification helps to differentiate dyslipidemia For example, type I hyperlipoproteinemia, also called hyperchylomicrons because its composition is due to the increase in chylomicrons in the blood they are mainly composed of Triglycerides”",
    "x": 1,
    "slides": [
     {
@@ -24825,7 +24159,7 @@ SINA.lectures["biochem-lipids"] = {
     "Triglycerides carried by chylomicrons"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 30: “Fredrickson classification helps to differentiate dyslipidemia For example, type I hyperlipoproteinemia, also called hyperchylomicrons because its composition is due to the increase in chylomicrons in the blood they are mainly composed of Triglycerides”",
    "x": 1,
    "slides": [
     {
@@ -24844,7 +24178,7 @@ SINA.lectures["biochem-lipids"] = {
     "LDL"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 25: “The lactescent aspect and or creamy layer: corresponds to an excess of chylomicrons … Finally, a cloudy appearance and a creamy supernatant corresponds to an excess of VLDL and chylomicrons”",
    "x": 1,
    "slides": [
     {
@@ -24863,7 +24197,7 @@ SINA.lectures["biochem-lipids"] = {
     "3 to 4 months later"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 24: “far from an acute condition likely to modify it (virosis, viral hepatitis, infarction, surgery) (Do not collect sample after heart attack : wait 3-4 months)”",
    "x": 1,
    "slides": [
     {
@@ -24901,7 +24235,7 @@ SINA.lectures["biochem-lipids"] = {
     "It is too low"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 27: “If CVRF exists: the LDL threshold must be less than 2.6 mmol/l”",
    "x": 1,
    "slides": [
     {
@@ -24920,7 +24254,7 @@ SINA.lectures["biochem-lipids"] = {
     "Converted into glucose by muscle"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 16: “or be stored by adipocytes in the form of reserve triglycerides.”",
    "x": 1,
    "slides": [
     {
@@ -24958,7 +24292,7 @@ SINA.lectures["biochem-lipids"] = {
     "Lipoprotein lipase"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 17: “in the endothelium of the capillaries by lipoprotein lipase, into residual particles … the VLDLs are transformed by lipoprotein lipase of the endothelium of the capillaries: … in the liver, the IDLs will undergo the action of hepatic triglyceride lipase to be transformed into LDL.”",
    "x": 1,
    "slides": [
     {
@@ -26030,7 +25364,7 @@ SINA.lectures["biochem-calcium"] = {
     "Carry oxygen"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 3: “The most obvious role of calcium and phosphorus is to constitute the mineral load of the skeleton. But these ions are of VITAL importance for the body (especially calcium). Regarding calcium (Ca2+):”",
    "x": 1,
    "slides": [
     {
@@ -26087,7 +25421,7 @@ SINA.lectures["biochem-calcium"] = {
     "Liver, lung and heart"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 23: “Phosphocalcic metabolism involves: A set of organs: liver, skin, kidney, bone, intestine, parathyroid… A set of hormones (PTH, calcitriol, calcitonin) … The exploration of phosphocalcic metabolism allows the screening and diagnosis of several conditions (bone, endocrine, kidney, etc.)”",
    "x": 1,
    "slides": [
     {
@@ -26106,7 +25440,7 @@ SINA.lectures["biochem-calcium"] = {
     "PTH, calcitonin and vitamin D (calcitriol)"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 4: “Parathyroid hormone (PTH) … Calcitonin (CT) … Vitamin D”",
    "x": 1,
    "slides": [
     {
@@ -26125,7 +25459,7 @@ SINA.lectures["biochem-calcium"] = {
     "Fasting"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 5: “1- Calcium needs Adult 800 to 1000mg/d These needs increase to 1.2g/d in: the newborn, the child in period of growth, period of pregnancy, lactation and menopause. Intake: milk, cheese, certain mineral waters.”",
    "x": 1,
    "slides": [
     {
@@ -26144,7 +25478,7 @@ SINA.lectures["biochem-calcium"] = {
     "Meat only"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 5: “1- Calcium needs Adult 800 to 1000mg/d These needs increase to 1.2g/d in: the newborn, the child in period of growth, period of pregnancy, lactation and menopause. Intake: milk, cheese, certain mineral waters.”",
    "x": 1,
    "slides": [
     {
@@ -26182,7 +25516,7 @@ SINA.lectures["biochem-calcium"] = {
     "Urine only"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 5: “2- Distribution The most important electrolyte in the body weighing 1 kg (equivalent to 25 moles) in a normal subject. 99% is at bone level 1% in soft tissues (muscle, skin, viscera...) and extracellular fluids”",
    "x": 1,
    "slides": [
     {
@@ -26201,7 +25535,7 @@ SINA.lectures["biochem-calcium"] = {
     "Bound to proteins"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 6: “The other half cannot be diffused by the kidney because it is bound to proteins, mainly (80%) to albumin.”",
    "x": 1,
    "slides": [
     {
@@ -26220,7 +25554,7 @@ SINA.lectures["biochem-calcium"] = {
     "Fibrinogen"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 6: “The other half cannot be diffused by the kidney because it is bound to proteins, mainly (80%) to albumin.”",
    "x": 1,
    "slides": [
     {
@@ -26239,7 +25573,7 @@ SINA.lectures["biochem-calcium"] = {
     "45%"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 6: “Among the overall serum calcium concentration: … Half (50%) is diffused by the kidney: 45% is in the form of ionized calcium and 5% as calcium complexed with salts.”",
    "x": 1,
    "slides": [
     {
@@ -26258,7 +25592,7 @@ SINA.lectures["biochem-calcium"] = {
     "Bile acids"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 7: “3- Absorption of Calcium: It mainly sits in the duodenum (acidic environments promote the solubilization of Ca salts and therefore their absorption).”",
    "x": 1,
    "slides": [
     {
@@ -26277,7 +25611,7 @@ SINA.lectures["biochem-calcium"] = {
     "Only in the colon"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 7: “Two mechanisms allow this absorption: Active transport: effective, hormone-dependent (1.25 dihydroxy vitamin D3) but saturable, is activated when calcium intake is low.”",
    "x": 1,
    "slides": [
     {
@@ -26315,7 +25649,7 @@ SINA.lectures["biochem-calcium"] = {
     "Bone only"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 8: “through the stool: dietary calcium and calcium from digestive juices.”",
    "x": 1,
    "slides": [
     {
@@ -26334,7 +25668,7 @@ SINA.lectures["biochem-calcium"] = {
     "Ultrafiltrable calcium (about half of blood calcium)"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 8: “through the urine: concerns only ultrafiltrable calcium, which is filtered by the renal glomerulus (ie half of the calcium circulating in the blood). The majority of this filtered Calcium (95%) will be reabsorbed, because the Calciuria depends on the calcemia:”",
    "x": 1,
    "slides": [
     {
@@ -26353,7 +25687,7 @@ SINA.lectures["biochem-calcium"] = {
     "Excretes all calcium"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 8: “through the urine: concerns only ultrafiltrable calcium, which is filtered by the renal glomerulus (ie half of the calcium circulating in the blood). The majority of this filtered Calcium (95%) will be reabsorbed, because the Calciuria depends on the calcemia: … If the calcemia is low: all the calcium is reabsorbed. … If high Calcemia: reabsorption of only half of the filtered calcium”",
    "x": 1,
    "slides": [
     {
@@ -26372,7 +25706,7 @@ SINA.lectures["biochem-calcium"] = {
     "95% always"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 8: “through the urine: concerns only ultrafiltrable calcium, which is filtered by the renal glomerulus (ie half of the calcium circulating in the blood). The majority of this filtered Calcium (95%) will be reabsorbed, because the Calciuria depends on the calcemia: … If high Calcemia: reabsorption of only half of the filtered calcium”",
    "x": 1,
    "slides": [
     {
@@ -26410,7 +25744,7 @@ SINA.lectures["biochem-calcium"] = {
     "Is independent of intake"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 10: “2) Absorption Absorption occurs parallel to ingestion. It takes place at the level of: jejunum, ileum (a little further than the calcium site)”",
    "x": 1,
    "slides": [
     {
@@ -26448,7 +25782,7 @@ SINA.lectures["biochem-calcium"] = {
     "600 g (0.8% of body mass)"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 11: “0.8% of body mass = 600g(20moles)”",
    "x": 1,
    "slides": [
     {
@@ -26486,7 +25820,7 @@ SINA.lectures["biochem-calcium"] = {
     "ATP and phospholipids"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 11: “ATP, Phospholipids”",
    "x": 1,
    "slides": [
     {
@@ -26505,7 +25839,7 @@ SINA.lectures["biochem-calcium"] = {
     "100%"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 12: “Renal: Ultrafilterable inorganic phosphorus (90% is reabsorbed in the proximal tubule in competition with glucose).”",
    "x": 1,
    "slides": [
     {
@@ -26543,7 +25877,7 @@ SINA.lectures["biochem-calcium"] = {
     "Bile acids"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 12: “Fecal: Dietary Phosphorus + Endogenous Phosphorus”",
    "x": 1,
    "slides": [
     {
@@ -26562,7 +25896,7 @@ SINA.lectures["biochem-calcium"] = {
     "Secreting PTH"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 14: “at the intestinal level these hormones will act by increasing or decreasing the absorption of calcium and phosphorus at the bone level it will promote the mineralization”",
    "x": 1,
    "slides": [
     {
@@ -26581,7 +25915,7 @@ SINA.lectures["biochem-calcium"] = {
     "Parathyroid cells"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 15: “1- Parathormone : PTH is synthesized and secreted by parathyroid cells. Contains 84 amino acids; It is metabolized following its passage through the liver and the kidney where this protein will be cleaved into two fragments. The N terminal fragment carries all the biological activity.”",
    "x": 1,
    "slides": [
     {
@@ -26600,7 +25934,7 @@ SINA.lectures["biochem-calcium"] = {
     "32 amino acids"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 15: “1- Parathormone : PTH is synthesized and secreted by parathyroid cells. Contains 84 amino acids; It is metabolized following its passage through the liver and the kidney where this protein will be cleaved into two fragments. The N terminal fragment carries all the biological activity.”",
    "x": 1,
    "slides": [
     {
@@ -26638,7 +25972,7 @@ SINA.lectures["biochem-calcium"] = {
     "Activates decalcification"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 16: “Regarding calcium: activation of bone decalcification, activation”",
    "x": 1,
    "slides": [
     {
@@ -26657,7 +25991,7 @@ SINA.lectures["biochem-calcium"] = {
     "Increases phosphate reabsorption"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 16: “III. REGULATION OF CALCIUM PHOSPHATE METABOLISM … Effect of PTH on Calcium and Phosphorus at the level of the three tissues : … of intestinal absorption and activation of renal reabsorption”",
    "x": 1,
    "slides": [
     {
@@ -26676,7 +26010,7 @@ SINA.lectures["biochem-calcium"] = {
     "A prohormone cleaved before secretion"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 17: “2- Calcitonin: hormone Synthesized by thyroid parafollicular cells in the form of a prohormone which will be cleaved before its secretion. stimulates bone accretion of calcium and phosphorus (fixation of these minerals on the bone)”",
    "x": 1,
    "slides": [
     {
@@ -26695,7 +26029,7 @@ SINA.lectures["biochem-calcium"] = {
     "Stimulating accretion of calcium and phosphate"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 17: “2- Calcitonin: hormone Synthesized by thyroid parafollicular cells in the form of a prohormone which will be cleaved before its secretion. stimulates bone accretion of calcium and phosphorus (fixation of these minerals on the bone)”",
    "x": 1,
    "slides": [
     {
@@ -26714,7 +26048,7 @@ SINA.lectures["biochem-calcium"] = {
     "By increasing calcium absorption"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 17: “no direct action on intestinal absorption”",
    "x": 1,
    "slides": [
     {
@@ -26733,7 +26067,7 @@ SINA.lectures["biochem-calcium"] = {
     "Increasing calcium reabsorption"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 18: “renal tubular reabsorption of calcium and phosphorus (decreases calciuria)”",
    "x": 1,
    "slides": [
     {
@@ -26752,7 +26086,7 @@ SINA.lectures["biochem-calcium"] = {
     "Neutral"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 17: “Hypocalcemic, hypophosphatemic action”",
    "x": 1,
    "slides": [
     {
@@ -26771,7 +26105,7 @@ SINA.lectures["biochem-calcium"] = {
     "Cholecalciferol"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 18: “(1-25 dihydroxy-cholecalciferol) … and 1-25 dihydroxy-cholecalciferol are vitD3 metabolites that regulate calcium phosphate balance … 1-25 dihydroxy-vitamin D3 is the most active metabolite. increased resorption of old bone increased neoform bone mineralization”",
    "x": 1,
    "slides": [
     {
@@ -26790,7 +26124,7 @@ SINA.lectures["biochem-calcium"] = {
     "Blocks all bone turnover"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 18: “1-25 dihydroxy-vitamin D3 is the most active metabolite. increased resorption of old bone increased neoform bone mineralization”",
    "x": 1,
    "slides": [
     {
@@ -26809,7 +26143,7 @@ SINA.lectures["biochem-calcium"] = {
     "Has no action"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 18: “renal tubular reabsorption of calcium and phosphorus (decreases calciuria)”",
    "x": 1,
    "slides": [
     {
@@ -26828,7 +26162,7 @@ SINA.lectures["biochem-calcium"] = {
     "Hypercalcaemic and hyperphosphataemic"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 18: “Hypercalcemic and hyperphosphatemic action”",
    "x": 1,
    "slides": [
     {
@@ -26866,7 +26200,7 @@ SINA.lectures["biochem-calcium"] = {
     "Increase calcium absorption and bone turnover"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 19: “sex hormones (estrogens): they increase calcium absorption and bone mineralization … thyroid hormones increase calcium absorption increase bone turnover”",
    "x": 1,
    "slides": [
     {
@@ -26885,7 +26219,7 @@ SINA.lectures["biochem-calcium"] = {
     "Increases bone mineralisation"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 19: “sex hormones (estrogens): they increase calcium absorption and bone mineralization … cortisol decreases bone mineralization decreases calcium absorption”",
    "x": 1,
    "slides": [
     {
@@ -26904,7 +26238,7 @@ SINA.lectures["biochem-calcium"] = {
     "In the morning, fasting"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 20: “Calcemia: dosage in the morning on an empty stomach. The tourniquet should neither be too tight nor kept on for long (venous stasis leads to an increase in proteins and thus calcium at the sampling site). Prohibit EDTA, Citrate and oxalate (complex calcium). Reference values: 85 to 105mg/l (2.25 to 2.60 mmol/l)”",
    "x": 1,
    "slides": [
     {
@@ -26923,7 +26257,7 @@ SINA.lectures["biochem-calcium"] = {
     "It activates PTH"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 20: “Calcemia: dosage in the morning on an empty stomach. The tourniquet should neither be too tight nor kept on for long (venous stasis leads to an increase in proteins and thus calcium at the sampling site). Prohibit EDTA, Citrate and oxalate (complex calcium). Reference values: 85 to 105mg/l (2.25 to 2.60 mmol/l)”",
    "x": 1,
    "slides": [
     {
@@ -26980,7 +26314,7 @@ SINA.lectures["biochem-calcium"] = {
     "A citrate tube"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 20: “Calciuria: At the level of 24-hour urine They must be collected at the level of a plastic or decalcified glass bottle”",
    "x": 1,
    "slides": [
     {
@@ -26999,7 +26333,7 @@ SINA.lectures["biochem-calcium"] = {
     "About 50% of serum calcium is protein-bound"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 21: “NB: Any variation in the protein level will cause a variation in serum calcium (because 50% of serum calcium is bound to protein) hence the interest of Purfitt's formula:”",
    "x": 1,
    "slides": [
     {
@@ -27037,7 +26371,7 @@ SINA.lectures["biochem-calcium"] = {
     "Phosphate"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 21: “= Calcium measured [mmol/l] / [ 0.55 + (proteidemia [g/l] /160)]”",
    "x": 1,
    "slides": [
     {
@@ -27056,7 +26390,7 @@ SINA.lectures["biochem-calcium"] = {
     "After a meal"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 22: “2- Dosage of phosphate The sample is taken in the morning on an empty stomach.”",
    "x": 1,
    "slides": [
     {
@@ -27075,7 +26409,7 @@ SINA.lectures["biochem-calcium"] = {
     "ATP"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 22: “Only inorganic phosphorus is measured: Reference values:”",
    "x": 1,
    "slides": [
     {
@@ -27094,7 +26428,7 @@ SINA.lectures["biochem-calcium"] = {
     "2.25 to 2.60 mg/L"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 22: “adult: 30 to 40 mg/l”",
    "x": 1,
    "slides": [
     {
@@ -27132,7 +26466,7 @@ SINA.lectures["biochem-calcium"] = {
     "Hypoglycaemia"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 22: “3-1 - Dosage of PTH : Interest in hypercalcemia”",
    "x": 1,
    "slides": [
     {
@@ -27170,7 +26504,7 @@ SINA.lectures["biochem-calcium"] = {
     "Only anaemia"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 23: “The exploration of phosphocalcic metabolism allows the screening and diagnosis of several conditions (bone, endocrine, kidney, etc.)”",
    "x": 1,
    "slides": [
     {
@@ -27227,7 +26561,7 @@ SINA.lectures["biochem-calcium"] = {
     "Sodium only"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 12: “Renal: Ultrafilterable inorganic phosphorus (90% is reabsorbed in the proximal tubule in competition with glucose).”",
    "x": 1,
    "slides": [
     {
@@ -27246,7 +26580,7 @@ SINA.lectures["biochem-calcium"] = {
     "Water only"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 10: “The contributions are through: milk, dairy products, egg, meat..”",
    "x": 1,
    "slides": [
     {
@@ -27265,7 +26599,7 @@ SINA.lectures["biochem-calcium"] = {
     "In the jejunum and ileum, a little further than calcium"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 10: “2) Absorption Absorption occurs parallel to ingestion. It takes place at the level of: jejunum, ileum (a little further than the calcium site)”",
    "x": 1,
    "slides": [
     {
@@ -27284,7 +26618,7 @@ SINA.lectures["biochem-calcium"] = {
     "Identical to its effect on calcium"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 16: “Effect of PTH on Calcium and Phosphorus at the level of the three tissues : … the action at the level of these 3 tissues is inverse”",
    "x": 1,
    "slides": [
     {
@@ -27303,7 +26637,7 @@ SINA.lectures["biochem-calcium"] = {
     "Falsely low, so it must be corrected"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 21: “Corrected calcium = Measured calcium [mmol/l] + [(40 - Albumin [g/l]) / 40]”",
    "x": 1,
    "slides": [
     {
@@ -27322,7 +26656,7 @@ SINA.lectures["biochem-calcium"] = {
     "The ultrafiltrable, active form (45% of serum calcium)"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 6: “Among the overall serum calcium concentration: … Half (50%) is diffused by the kidney: 45% is in the form of ionized calcium and 5% as calcium complexed with salts.”",
    "x": 1,
    "slides": [
     {
@@ -27341,7 +26675,7 @@ SINA.lectures["biochem-calcium"] = {
     "Dairy products"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 10: “The contributions are through: milk, dairy products, egg, meat..”",
    "x": 1,
    "slides": [
     {
@@ -27360,7 +26694,7 @@ SINA.lectures["biochem-calcium"] = {
     "About 10%"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 8: “through the urine: concerns only ultrafiltrable calcium, which is filtered by the renal glomerulus (ie half of the calcium circulating in the blood). The majority of this filtered Calcium (95%) will be reabsorbed, because the Calciuria depends on the calcemia:”",
    "x": 1,
    "slides": [
     {
@@ -27398,7 +26732,7 @@ SINA.lectures["biochem-calcium"] = {
     "Increased loss in stool"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 18: “increased … intestinal absorption of … calcium and phosphore phosphorus”",
    "x": 1,
    "slides": [
     {
@@ -28560,7 +27894,7 @@ SINA.lectures["biochem-iron"] = {
     "Only seen in men"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 3: “Its deficiency is the most common nutritional deficiency … and its incidence is always high, especially in women and infants.”",
    "x": 1,
    "slides": [
     {
@@ -28579,7 +27913,7 @@ SINA.lectures["biochem-iron"] = {
     "90%"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 4: “60% (2.4g) in Hemoglobin.”",
    "x": 1,
    "slides": [
     {
@@ -28598,7 +27932,7 @@ SINA.lectures["biochem-iron"] = {
     "60%"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 4: “5% (0.2g) in myoglobin.”",
    "x": 1,
    "slides": [
     {
@@ -28617,7 +27951,7 @@ SINA.lectures["biochem-iron"] = {
     "Metallic Fe"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 4: “or ferric iron, oxidized trivalent form distributed at:”",
    "x": 1,
    "slides": [
     {
@@ -28636,7 +27970,7 @@ SINA.lectures["biochem-iron"] = {
     "0.05 g"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 4: “5% (0.2g) in myoglobin. … plasma iron bound to transferrin and in biological fluids: 0.05g.”",
    "x": 1,
    "slides": [
     {
@@ -28655,7 +27989,7 @@ SINA.lectures["biochem-iron"] = {
     "4 g"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 4: “iron reserves (ferritin and hemosiderin): 1.4 g (35%)”",
    "x": 1,
    "slides": [
     {
@@ -28674,7 +28008,7 @@ SINA.lectures["biochem-iron"] = {
     "0.01 g"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 4: “0.01g at the level of cellular respiratory enzymes (cytochromes, oxidases, peroxidases, catalases, Krebs cycle enzymes, etc.).”",
    "x": 1,
    "slides": [
     {
@@ -28693,7 +28027,7 @@ SINA.lectures["biochem-iron"] = {
     "The kidney"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 6: “2- The iron cycle The aged red blood cell will be destroyed by macrophages in the reticuloendothelial system. The destroyed hemoglobin will release iron, part of which is + stored in the form of ferritin and hemosiderin,”",
    "x": 1,
    "slides": [
     {
@@ -28712,7 +28046,7 @@ SINA.lectures["biochem-iron"] = {
     "Is entirely excreted"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 6: “2- The iron cycle The aged red blood cell will be destroyed by macrophages in the reticuloendothelial system. The destroyed hemoglobin will release iron, part of which is + stored in the form of ferritin and hemosiderin, … Return to the bone marrow, to serve again for the formation of erythroblasts.”",
    "x": 1,
    "slides": [
     {
@@ -28731,7 +28065,7 @@ SINA.lectures["biochem-iron"] = {
     "Bile only"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 6: “the rest is eliminated: by urinary route, by intestinal and cutaneous desquamation, by loss of skin appendages and also through episodic losses linked to menstruation, pregnancy, etc.”",
    "x": 1,
    "slides": [
     {
@@ -28788,7 +28122,7 @@ SINA.lectures["biochem-iron"] = {
     "The ileum"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 9: “4- Intestinal absorption of iron: The site: duodenal and lower jejunal resorption.”",
    "x": 1,
    "slides": [
     {
@@ -28807,7 +28141,7 @@ SINA.lectures["biochem-iron"] = {
     "Better absorbed"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 10: “Ferrous iron of animal origin is better absorbed than vegetable iron,”",
    "x": 1,
    "slides": [
     {
@@ -28826,7 +28160,7 @@ SINA.lectures["biochem-iron"] = {
     "Iron overload"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 10: “overloading the body with iron reduces its absorption and, on the contrary, any increase in erythropoietic activity (bleeding, haemolysis, etc.) increases iron absorption.”",
    "x": 1,
    "slides": [
     {
@@ -28883,7 +28217,7 @@ SINA.lectures["biochem-iron"] = {
     "One third of its capacity"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 11: “Overall, plasma transferrin is saturated to approximately one third of its capacity.”",
    "x": 1,
    "slides": [
     {
@@ -28902,7 +28236,7 @@ SINA.lectures["biochem-iron"] = {
     "Ferritin only"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 11: “When transferrin is completely saturated with iron, iron can be transported by other proteins such as albumin or lactoferrin.”",
    "x": 1,
    "slides": [
     {
@@ -28921,7 +28255,7 @@ SINA.lectures["biochem-iron"] = {
     "Decreases"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 11: “A decrease in iron reserves is responsible for an increase in transferrin synthesis”",
    "x": 1,
    "slides": [
     {
@@ -28940,7 +28274,7 @@ SINA.lectures["biochem-iron"] = {
     "Erythroblasts"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 12: “Erythroid cells absorb iron from transferrin via receptors called transferrin receptors (TfR). … All cells in the body have TfR, but erythroblasts are the richest. … These erythroblastic membrane RTf, in their metabolism, give rise to a truncated form, capable of passing into the plasma, where it can be measured and which is called the soluble transferrin receptor (sTfR).”",
    "x": 1,
    "slides": [
     {
@@ -28959,7 +28293,7 @@ SINA.lectures["biochem-iron"] = {
     "Plasma albumin"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 12: “b- Transferrin receptors : … Erythroid cells absorb iron from transferrin via receptors called transferrin receptors (TfR). … The number of TfR is the main regulator of the rate of iron uptake by erythroblasts.”",
    "x": 1,
    "slides": [
     {
@@ -28997,7 +28331,7 @@ SINA.lectures["biochem-iron"] = {
     "Heart and brain"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 14: “6- Iron reserves in the body : It represent approximately one third (35%) of total iron in two storage forms : ferritin and hemosiderin, witch are mainly found in the liver, spleen and bone marrow :”",
    "x": 1,
    "slides": [
     {
@@ -29016,7 +28350,7 @@ SINA.lectures["biochem-iron"] = {
     "The readily available iron store"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 14: “Ferritin represents the readily available storage,”",
    "x": 1,
    "slides": [
     {
@@ -29035,7 +28369,7 @@ SINA.lectures["biochem-iron"] = {
     "Haemoglobin directly"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 14: “the lysosomal digestion of ferritin aggregates.”",
    "x": 1,
    "slides": [
     {
@@ -29054,7 +28388,7 @@ SINA.lectures["biochem-iron"] = {
     "Perls' Prussian blue staining"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 14: “(where it can be demonstrated by Peris staining with Prussian blue).”",
    "x": 1,
    "slides": [
     {
@@ -29073,7 +28407,7 @@ SINA.lectures["biochem-iron"] = {
     "Transferrin and ferrous iron"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 15: “is a ubiquitous structure, composed of a protein (apoferritin) and iron in the ferric state. Although ubiquitous, ferritin is localized more particularly in certain cells:”",
    "x": 1,
    "slides": [
     {
@@ -29111,7 +28445,7 @@ SINA.lectures["biochem-iron"] = {
     "1.4 g/L"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 16: “Plasma ferritin: A very small quantity of ferritin (around 150 µg/l) is found in plasma, where recent assay methods make it possible to measure it. Although quantitatively this ferritin is minor, it is particularly important in the context of exploring iron metabolism, because ferritinemia reflects iron reserves well. It would have two origins:”",
    "x": 1,
    "slides": [
     {
@@ -29130,7 +28464,7 @@ SINA.lectures["biochem-iron"] = {
     "The intestine"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 16: “a large part (80%) would come from macrophages where, after specific synthesis, it would be secreted into the plasma. This ferritin is glycosylated during the secretion process and is poor in iron.”",
    "x": 1,
    "slides": [
     {
@@ -29149,7 +28483,7 @@ SINA.lectures["biochem-iron"] = {
     "Absent"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 16: “another part comes from the lysis of cells from different tissues during their senescence. This ferritin is not glycosylated and is rich in iron. Although quantitatively this ferritin is minor, it is particularly important in the context of exploring iron metabolism, because ferritinemia reflects iron reserves well.”",
    "x": 1,
    "slides": [
     {
@@ -29168,7 +28502,7 @@ SINA.lectures["biochem-iron"] = {
     "The first-line test for deficiency"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 18: “Isolated measurement of serum iron is of no interest”",
    "x": 1,
    "slides": [
     {
@@ -29206,7 +28540,7 @@ SINA.lectures["biochem-iron"] = {
     "8-28 µmol/L"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 19: “Men: 10 - 30 µmol/l (0.55 - 1.65 mg/l)”",
    "x": 1,
    "slides": [
     {
@@ -29225,7 +28559,7 @@ SINA.lectures["biochem-iron"] = {
     "Haemolysed samples are fine"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 19: “take the sample on an empty stomach. … Prohibit all martial therapy 1 week before collection.”",
    "x": 1,
    "slides": [
     {
@@ -29244,7 +28578,7 @@ SINA.lectures["biochem-iron"] = {
     "0.5 to 1 g/L"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 19: “Reference values: Adult (M or F): 2.4 - 3.8 g/l Child (1 year → puberty): 2.2 - 4.0 g/l”",
    "x": 1,
    "slides": [
     {
@@ -29263,7 +28597,7 @@ SINA.lectures["biochem-iron"] = {
     "Measure ferritin"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 19: “evaluate the synthesis capacity of the liver, in relation to the body's iron reserves,”",
    "x": 1,
    "slides": [
     {
@@ -29282,7 +28616,7 @@ SINA.lectures["biochem-iron"] = {
     "60 to 95 µmol/L"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 20: “a- Calculation of Total Iron-Binding Capacity (TIBC) : TIBC (µmol/l) = transferrin (g/l) x 25 Reference values : Adult (M or w): 60 - 95 µmol/l (3.5 - 5.5 mg/l) Child (1 year → puberty): 55 - 100 µmol/l (3.2 - 5.8 mg/l)”",
    "x": 1,
    "slides": [
     {
@@ -29301,7 +28635,7 @@ SINA.lectures["biochem-iron"] = {
     "Plasma iron / TIBC × 100"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 20: “a- Calculation of Total Iron-Binding Capacity (TIBC) : TIBC (µmol/l) = transferrin (g/l) x 25 Reference values : Adult (M or w): 60 - 95 µmol/l (3.5 - 5.5 mg/l) Child (1 year → puberty): 55 - 100 µmol/l (3.2 - 5.8 mg/l) … b-Calculation of Transferrin Saturation (TS) : TS (%) = {plasma iron (μmol/L) / [25 x transferrin (g/L)]} x 100 … or TS (%) = {[plasma iron (μmol/L)]/[TIBC (μmol/L)]} x 100 Reference values :…”",
    "x": 1,
    "slides": [
     {
@@ -29339,7 +28673,7 @@ SINA.lectures["biochem-iron"] = {
     "5-10%"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 20: “or TS (%) = {[plasma iron (μmol/L)]/[TIBC (μmol/L)]} x 100 Reference values : Men: 20-40% Women: 15-35% Child (1 year → puberty): 15 - 40%”",
    "x": 1,
    "slides": [
     {
@@ -29358,7 +28692,7 @@ SINA.lectures["biochem-iron"] = {
     "Ferritin"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 17: “2- functional iron dosage: Hemoglobin iron Hemoglobin Hb MCV (Mean Corpuscular Volume) Mean Corpuscular Hemoglobin Concentration (MCHC) Soluble transferrin receptor (sTfR)”",
    "x": 1,
    "slides": [
     {
@@ -29377,7 +28711,7 @@ SINA.lectures["biochem-iron"] = {
     "Disappears"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 21: “of hematopoietic cells Increases in iron deficiency”",
    "x": 1,
    "slides": [
     {
@@ -29396,7 +28730,7 @@ SINA.lectures["biochem-iron"] = {
     "No nycthemeral cycle"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 22: “a- Serum Ferritin : Note that there is no nycthemeric ferritin cycle”",
    "x": 1,
    "slides": [
     {
@@ -29415,7 +28749,7 @@ SINA.lectures["biochem-iron"] = {
     "30-300 µg/L"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 22: “Reference values ​ : Men: 30 - 300 µg/l Women: 20 - 200 µg/l Child from 1 to 15 years old: 15 to 100 μg/L”",
    "x": 1,
    "slides": [
     {
@@ -29434,7 +28768,7 @@ SINA.lectures["biochem-iron"] = {
     "It does not reflect stores"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 22: “Tissue ferritin : Intraerythrocyte ferritin reflects stocks well, but its measurement requires separation”",
    "x": 1,
    "slides": [
     {
@@ -29453,7 +28787,7 @@ SINA.lectures["biochem-iron"] = {
     "Liver cells"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 23: “Hepsidin regulates sideremia to meet the needs of hematopoiesis. It is a protein secreted by liver cells, depending on the iron concentration in the blood. Indeed, Hepcidin controls the exit of iron from enterocytes and macrophages into the plasma.”",
    "x": 1,
    "slides": [
     {
@@ -29472,7 +28806,7 @@ SINA.lectures["biochem-iron"] = {
     "Red cells"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 23: “Hepsidin regulates sideremia to meet the needs of hematopoiesis. It is a protein secreted by liver cells, depending on the iron concentration in the blood. Indeed, Hepcidin controls the exit of iron from enterocytes and macrophages into the plasma.”",
    "x": 1,
    "slides": [
     {
@@ -29491,7 +28825,7 @@ SINA.lectures["biochem-iron"] = {
     "Blocks absorption more"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 23: “Hepsidin regulates sideremia to meet the needs of hematopoiesis. It is a protein secreted by liver cells, depending on the iron concentration in the blood. Indeed, Hepcidin controls the exit of iron from enterocytes and macrophages into the plasma. … Hepcidin is induced by excess circulating iron and blocks it in macrophages and intestinal cells. This results in iron retention inside cells and a reduction in…”",
    "x": 1,
    "slides": [
     {
@@ -29510,7 +28844,7 @@ SINA.lectures["biochem-iron"] = {
     "Sent to bone"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 23: “Hepcidin is induced by excess circulating iron and blocks it in macrophages and intestinal cells. This results in iron retention inside cells and a reduction in circulating plasma iron. This excess iron is then excreted in the stools, thus preventing an increase in sideremia.”",
    "x": 1,
    "slides": [
     {
@@ -29529,7 +28863,7 @@ SINA.lectures["biochem-iron"] = {
     "Still to be evaluated"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 23: “Conversely, the reduction in circulating iron leads to a reduction in hepcidin and the exit of cellular iron. But the clinical benefit of hepcidin dosing remains to be evaluated.”",
    "x": 1,
    "slides": [
     {
@@ -29548,7 +28882,7 @@ SINA.lectures["biochem-iron"] = {
     "Clinical context (bleeding, inflammation, liver disease), age and sex"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 24: “The martial assessment must always be interpreted according to : a- Clinical context: … presence of liver disease b- Age c- Gender”",
    "x": 1,
    "slides": [
     {
@@ -29567,7 +28901,7 @@ SINA.lectures["biochem-iron"] = {
     "Digestive origin"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 25: “digestive origin: elderly subject.”",
    "x": 1,
    "slides": [
     {
@@ -29586,7 +28920,7 @@ SINA.lectures["biochem-iron"] = {
     "Pulmonary origin"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 25: “genital origin: woman during period of genital activity”",
    "x": 1,
    "slides": [
     {
@@ -29624,7 +28958,7 @@ SINA.lectures["biochem-iron"] = {
     "Haemolysis"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 25: “absorption defect: Chronic Inflammatory Bowel Diseases, chronic diarrhea, gastrectomy, resection of the small intestine.”",
    "x": 1,
    "slides": [
     {
@@ -29643,7 +28977,7 @@ SINA.lectures["biochem-iron"] = {
     "Anaemia first"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 26: “latent deficiency. … proven deficiency.”",
    "x": 1,
    "slides": [
     {
@@ -29662,7 +28996,7 @@ SINA.lectures["biochem-iron"] = {
     "Hb under 100 g/L macrocytic"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 26: “Hb < 120 g/L in women and Hb < 130 g/L in men … It is microcytic (Mean cell volume MCV < 80fl) … and hypochromic (Mean Corpuscular Hemoglobin Concentration (MCHC) < 27 pg)”",
    "x": 1,
    "slides": [
     {
@@ -29681,7 +29015,7 @@ SINA.lectures["biochem-iron"] = {
     "60 fL"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 26: “It is microcytic (Mean cell volume MCV < 80fl)”",
    "x": 1,
    "slides": [
     {
@@ -29700,7 +29034,7 @@ SINA.lectures["biochem-iron"] = {
     "TS must be measured"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 27: “Following the recommendations of the French National Authority for Health (HAS) in 2011: Ferritin is the first-line test to detect iron deficiency. If Ferritin level is reduced, it is an iron deficiency: it is not necessary to measure another marker of iron metabolism. → Plasma ferritin less than 30 μg/L in adults, associated with anemia, would be sufficient to make the diagnosis of iron deficiency anemia.”",
    "x": 1,
    "slides": [
     {
@@ -29738,7 +29072,7 @@ SINA.lectures["biochem-iron"] = {
     "Autosomal recessive"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 29: “a- primary hemochromatosis : Hereditary disease transmitted in an autosomal recessive manner. Characterized by the accumulation of iron in many tissues The Clinical manifestations are:”",
    "x": 1,
    "slides": [
     {
@@ -29776,7 +29110,7 @@ SINA.lectures["biochem-iron"] = {
     "Adrenal origin"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 29: “Gonadal insufficiency of pituitary origin.”",
    "x": 1,
    "slides": [
     {
@@ -29814,7 +29148,7 @@ SINA.lectures["biochem-iron"] = {
     "Macrophages more than the liver"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 29: “Iron initially accumulates … much more in the liver … than in the macrophages”",
    "x": 1,
    "slides": [
     {
@@ -29833,7 +29167,7 @@ SINA.lectures["biochem-iron"] = {
     "Iron deficiency"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 30: “This mutation is responsible for an abnormal decrease in hepatic expression of hepcidin, which promotes an increase in plasma iron bioavailability, characterized by”",
    "x": 1,
    "slides": [
     {
@@ -29852,7 +29186,7 @@ SINA.lectures["biochem-iron"] = {
     "Liver, heart and pancreas"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 30: “Iron not bound to transferrin is avidly absorbed by the liver, heart and pancreas, the preferred target organs of systemic iron overload.”",
    "x": 1,
    "slides": [
     {
@@ -29871,7 +29205,7 @@ SINA.lectures["biochem-iron"] = {
     "Haemoglobin"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 30: “Mutation of the HFE gene causes the majority form of primary hemochromatosis (iron overload disease) … The study of HFE gene mutations is today the central element to confirm the diagnosis of primary hemochromatosis.”",
    "x": 1,
    "slides": [
     {
@@ -29909,7 +29243,7 @@ SINA.lectures["biochem-iron"] = {
     "30 µg/L"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 31: “with elevated ferritin (> 200 μg/L in women and > 300 μg/L in men).”",
    "x": 1,
    "slides": [
     {
@@ -29928,7 +29262,7 @@ SINA.lectures["biochem-iron"] = {
     "Is meaningless"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 31: “Isolated elevated plasma ferritin cannot be used to diagnose iron”",
    "x": 1,
    "slides": [
     {
@@ -29947,7 +29281,7 @@ SINA.lectures["biochem-iron"] = {
     "Ferritin alone"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 32: “Transferrin Saturation (TS) : if iron overload is suspected”",
    "x": 1,
    "slides": [
     {
@@ -29985,7 +29319,7 @@ SINA.lectures["biochem-iron"] = {
     "Is unchanged"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 31: “hemolysis which is responsible for increased but ineffective erythropoiesis, which leads to increased iron absorption. … Overload secondary to metabolic disease : Atransferrinemia Biology: The Transferrin Saturation (TS) is increased in iron overloads, whatever their etiologies. The French National Authority for Health (HAS) has set the”",
    "x": 1,
    "slides": [
     {
@@ -30004,7 +29338,7 @@ SINA.lectures["biochem-iron"] = {
     "1 to 5 µg/L"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 22: “Reference values ​ : Men: 30 - 300 µg/l Women: 20 - 200 µg/l Child from 1 to 15 years old: 15 to 100 μg/L”",
    "x": 1,
    "slides": [
     {
@@ -30023,7 +29357,7 @@ SINA.lectures["biochem-iron"] = {
     "1 µmol/L"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 19: “Reference values: [µmol/l = 17.92 x mg/l]:”",
    "x": 1,
    "slides": [
     {
@@ -30042,7 +29376,7 @@ SINA.lectures["biochem-iron"] = {
     "Iron overload of metabolic origin"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 31: “b - Secondary iron overloads … Overload secondary to metabolic disease : Atransferrinemia Biology: The Transferrin Saturation (TS) is increased in iron overloads, whatever their etiologies. The French National Authority for Health (HAS) has set the”",
    "x": 1,
    "slides": [
     {
@@ -31233,7 +30567,7 @@ SINA.lectures["biochem-water"] = {
     "Cations always exceed anions"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 3: “Electrolytes: These are chemical compounds which, dissolved in a solvent such as water, have the property of dissociating into ions (anions and cations) Example: Sodium chloride (NaCl) dissociates into sodium cation (Na+) and chlorine anion (Cl-): In all physiological fluids, electrical neutrality must be maintained … Electrolytes play a vital role in maintaining homeostasis in the body.”",
    "x": 1,
    "slides": [
     {
@@ -31252,7 +30586,7 @@ SINA.lectures["biochem-water"] = {
     "Blood cells"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 3: “Their study is inseparable from that of water: the movements of water between each compartment are mainly linked to the movements of electrolytes.”",
    "x": 1,
    "slides": [
     {
@@ -31290,7 +30624,7 @@ SINA.lectures["biochem-water"] = {
     "40%"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 4: “Water represents about 60% (2/3) of body weight in humans: this corresponds to a total volume of water of 42 liters in humans with a body weight of 70 kg … Sex: in women, this quantity is less, it represents 50% of body weight … the percentage of water in the body is higher in infants (75%).”",
    "x": 1,
    "slides": [
     {
@@ -31309,7 +30643,7 @@ SINA.lectures["biochem-water"] = {
     "Is unchanged"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 4: “Water represents about 60% (2/3) of body weight in humans: this corresponds to a total volume of water of 42 liters in humans with a body weight of 70 kg … it decreases in the elderly and becomes less than 60%”",
    "x": 1,
    "slides": [
     {
@@ -31328,7 +30662,7 @@ SINA.lectures["biochem-water"] = {
     "22%"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 5: “at the level of the muscle, the percentage of water is high and represents 75%.”",
    "x": 1,
    "slides": [
     {
@@ -31347,7 +30681,7 @@ SINA.lectures["biochem-water"] = {
     "75%"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 5: “It is much less at the bone level, 22%,”",
    "x": 1,
    "slides": [
     {
@@ -31366,7 +30700,7 @@ SINA.lectures["biochem-water"] = {
     "Fat gain"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 5: “In pathology: Any rapid change in body weight should raise suspicion of water retention or loss.”",
    "x": 1,
    "slides": [
     {
@@ -31385,7 +30719,7 @@ SINA.lectures["biochem-water"] = {
     "2.2 L/day"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 6: “Exogenous water, from food (0.7 liters per day) and especially drinks (2.2 L/d)”",
    "x": 1,
    "slides": [
     {
@@ -31404,7 +30738,7 @@ SINA.lectures["biochem-water"] = {
     "2.2 L/day"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 6: “Exogenous water, from food (0.7 liters per day) and especially drinks (2.2 L/d)”",
    "x": 1,
    "slides": [
     {
@@ -31423,7 +30757,7 @@ SINA.lectures["biochem-water"] = {
     "0.3 L/day"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 6: “Exogenous water, from food (0.7 liters per day) and especially drinks (2.2 L/d) … Endogenous water, resulting from cellular metabolism (which represents 0.3 L/d) This makes a total of 2.5 L/d of water supply”",
    "x": 1,
    "slides": [
     {
@@ -31442,7 +30776,7 @@ SINA.lectures["biochem-water"] = {
     "2.5 L/day"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 6: “Insensible losses: through the skin and the lungs which are 0.9 L/d”",
    "x": 1,
    "slides": [
     {
@@ -31461,7 +30795,7 @@ SINA.lectures["biochem-water"] = {
     "0.1 L/day"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 6: “Exogenous water, from food (0.7 liters per day) and especially drinks (2.2 L/d) … Stools: minimum loss of 0.1 L/d”",
    "x": 1,
    "slides": [
     {
@@ -31480,7 +30814,7 @@ SINA.lectures["biochem-water"] = {
     "12 litres"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 7: “2/3 body water”",
    "x": 1,
    "slides": [
     {
@@ -31499,7 +30833,7 @@ SINA.lectures["biochem-water"] = {
     "5%"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 7: “15% of body weight”",
    "x": 1,
    "slides": [
     {
@@ -31518,7 +30852,7 @@ SINA.lectures["biochem-water"] = {
     "The cytoplasm"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 7: ““known as the internal environment””",
    "x": 1,
    "slides": [
     {
@@ -31537,7 +30871,7 @@ SINA.lectures["biochem-water"] = {
     "20% of body weight"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 7: “20% of body weight”",
    "x": 1,
    "slides": [
     {
@@ -31556,7 +30890,7 @@ SINA.lectures["biochem-water"] = {
     "A plasma ultrafiltrate, low in protein"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 7: “plasma ultrafiltrate (low in protein)”",
    "x": 1,
    "slides": [
     {
@@ -31575,7 +30909,7 @@ SINA.lectures["biochem-water"] = {
     "Dissociated (electrolytes) and undissociated (glucose, urea) forms"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 7: “and undissociated (glucose, urea, etc.)”",
    "x": 1,
    "slides": [
     {
@@ -31632,7 +30966,7 @@ SINA.lectures["biochem-water"] = {
     "Negatively charged"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 9: “Proteins are negatively charged at physiological pH”",
    "x": 1,
    "slides": [
     {
@@ -31670,7 +31004,7 @@ SINA.lectures["biochem-water"] = {
     "Phosphate"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 10: “It is low in Sodium (Na+) and Chlorine (Cl-), unlike the plasma sector”",
    "x": 1,
    "slides": [
     {
@@ -31708,7 +31042,7 @@ SINA.lectures["biochem-water"] = {
     "Myoglobin"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 12: “Example: at the level of the red blood cell : … Hemoglobin replaces intracellular proteins of”",
    "x": 1,
    "slides": [
     {
@@ -31727,7 +31061,7 @@ SINA.lectures["biochem-water"] = {
     "Freely permeable to proteins"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 13: “Plasma membranes behave partly like semi-permeable membranes (allow movement of water and electrolytes across it)”",
    "x": 1,
    "slides": [
     {
@@ -31746,7 +31080,7 @@ SINA.lectures["biochem-water"] = {
     "Only active transport"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 13: “by passive diffusion … or by active transport: Active membrane transport essentially concerns Na+ which must be rejected out of the intracellular liquid, thanks to the Na+/K+ ATPase pump, which requires energy to fight against the concentration gradient.”",
    "x": 1,
    "slides": [
     {
@@ -31765,7 +31099,7 @@ SINA.lectures["biochem-water"] = {
     "Works without energy"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 13: “or by active transport: Active membrane transport essentially concerns Na+ which must be rejected out of the intracellular liquid, thanks to the Na+/K+ ATPase pump, which requires energy to fight against the concentration gradient.”",
    "x": 1,
    "slides": [
     {
@@ -31784,7 +31118,7 @@ SINA.lectures["biochem-water"] = {
     "From hypertonic to hypotonic"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 14: “b) The movement of free water through the plasma membrane (its direction) responds to the \"Law of Osmosis\": This means that the water goes from the least concentrated medium (hypotonic) to the most concentrated medium (hypertonic) This movement depends on the osmotic pressure gradient (known as osmolarity) between the intra and extracellular liquids which is proportional to the number of particles in solution.”",
    "x": 1,
    "slides": [
     {
@@ -31803,7 +31137,7 @@ SINA.lectures["biochem-water"] = {
     "Their colour"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 28: “Definition of Osmolarity: It is the number of osmotically active particles per unit volume of plasma (Liter)”",
    "x": 1,
    "slides": [
     {
@@ -31822,7 +31156,7 @@ SINA.lectures["biochem-water"] = {
     "Impermeable to electrolytes"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 15: “freely permeable to water and electrolytes, whose concentration is almost similar in plasma and interstitium,”",
    "x": 1,
    "slides": [
     {
@@ -31841,7 +31175,7 @@ SINA.lectures["biochem-water"] = {
     "Starling's law"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 15: “These exchanges are governed by Starling's law: they are the result of two opposing pressures:”",
    "x": 1,
    "slides": [
     {
@@ -31860,7 +31194,7 @@ SINA.lectures["biochem-water"] = {
     "Sodium"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 15: “much less permeable to proteins, which explains their abundance in plasma compared to interstitial fluid. … Oncotic Pressure (OP): linked to the presence of proteins in the plasma.”",
    "x": 1,
    "slides": [
     {
@@ -31879,7 +31213,7 @@ SINA.lectures["biochem-water"] = {
     "Plasma proteins"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 15: “Hydrostatic Pressure (HP): related to the driving force exerted by the blood (sent by the heart) on the wall of the blood vessels. This pressure allows the blood to circulate continuously in the vascular system”",
    "x": 1,
    "slides": [
     {
@@ -31898,7 +31232,7 @@ SINA.lectures["biochem-water"] = {
     "Red cells"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 16: “of blood circulation, is higher than the OP at the level of the arterial capillaries. It tends to the extravasation of water (exit from the plasma towards the interstitium), carrying with it, dissolved gases (oxygen O2), mineral salts and various organic molecules.”",
    "x": 1,
    "slides": [
     {
@@ -31917,7 +31251,7 @@ SINA.lectures["biochem-water"] = {
     "Glucose only"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 16: “The OP resulting from the presence of proteins is higher than the HP at the level of the venous capillaries. It therefore tends to recall water, from the interstitium to the plasma, carrying with it dissolved gases (carbon dioxide CO2) and metabolic waste.”",
    "x": 1,
    "slides": [
     {
@@ -31936,7 +31270,7 @@ SINA.lectures["biochem-water"] = {
     "Water movements between sectors and the thirst centre"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 17: “1) Water movements between sectors. … 2) Thirst Center: Water consumption adjustment.”",
    "x": 1,
    "slides": [
     {
@@ -31955,7 +31289,7 @@ SINA.lectures["biochem-water"] = {
     "Made by the kidney"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 17: “1) ADH: Antidiuretic Hormone (secreted by the hypothalamus and released by the pituitary gland). Acts by reabsorption of water alone in the collecting tubes”",
    "x": 1,
    "slides": [
     {
@@ -31993,7 +31327,7 @@ SINA.lectures["biochem-water"] = {
     "Reabsorbing water alone"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 17: “of Aldosterone by the adrenal cortex. Aldosterone acts by reabsorption of water and sodium to increase blood volume.”",
    "x": 1,
    "slides": [
     {
@@ -32012,7 +31346,7 @@ SINA.lectures["biochem-water"] = {
     "The kidney"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 17: “3) ANF: Atrial Natriuretic Factor secreted by the atrium of the heart : Diuretic, natriuretic (water and sodium excretion) and vasodilator (lowering blood pressure) action.”",
    "x": 1,
    "slides": [
     {
@@ -32031,7 +31365,7 @@ SINA.lectures["biochem-water"] = {
     "Lipids"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 18: “Ionic disturbances, by measuring electrolytes : Sodium (Natremia), Potassium (Kalemia) and Chlorine (Chloremia). … electrolytes (Sodium (Natremia), Potassium (Kalemia))”",
    "x": 1,
    "slides": [
     {
@@ -32050,7 +31384,7 @@ SINA.lectures["biochem-water"] = {
     "Lipids"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 27: “The calculated Plasma Osmolality is the sum of the concentrations of: (cations + anions) + urea + glucose … which corresponds to the sum of the concentrations of (sodium + potassium) x2 + urea + glucose = 280-300 mosm/kgH2O”",
    "x": 1,
    "slides": [
     {
@@ -32069,7 +31403,7 @@ SINA.lectures["biochem-water"] = {
     "One week"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 19: “Treated samples can be stored for one week at +4°C”",
    "x": 1,
    "slides": [
     {
@@ -32088,7 +31422,7 @@ SINA.lectures["biochem-water"] = {
     "Fasting"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 19: “To avoid the release into the serum of intracellular potassium (K+): Avoid: - hemolysis of samples (related to the poor quality of taking the samples”",
    "x": 1,
    "slides": [
     {
@@ -32145,7 +31479,7 @@ SINA.lectures["biochem-water"] = {
     "With antiseptic"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 19: “2) Regarding the urine sample: 24-hour urine (without antiseptic)”",
    "x": 1,
    "slides": [
     {
@@ -32164,7 +31498,7 @@ SINA.lectures["biochem-water"] = {
     "Extracellular"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 20: “Main extracellular cation (90% extracellular): … Roles of Sodium: Maintenance of extracellular fluid osmotic pressure and water balance.”",
    "x": 1,
    "slides": [
     {
@@ -32183,7 +31517,7 @@ SINA.lectures["biochem-water"] = {
     "Intracellular osmotic pressure"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 20: “Roles of Sodium: Maintenance of extracellular fluid osmotic pressure and water balance.”",
    "x": 1,
    "slides": [
     {
@@ -32240,7 +31574,7 @@ SINA.lectures["biochem-water"] = {
     "Vomiting"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 21: “Electrolytes: High sodium intake more than water (example hypertonic serum)”",
    "x": 1,
    "slides": [
     {
@@ -32259,7 +31593,7 @@ SINA.lectures["biochem-water"] = {
     "3.5 to 5.5 mmol/L"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 22: “of serum potassium: varies between 3.5 - 5.5 mmol/l”",
    "x": 1,
    "slides": [
     {
@@ -32278,7 +31612,7 @@ SINA.lectures["biochem-water"] = {
     "Extracellular osmotic pressure"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 22: “Intracellular osmotic pressure … Cell excitability”",
    "x": 1,
    "slides": [
     {
@@ -32297,7 +31631,7 @@ SINA.lectures["biochem-water"] = {
     "2 mmol/L"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 23: “a) Hypokalemia: Serum potassium less than 3.5 mmol/L Clinical signs :”",
    "x": 1,
    "slides": [
     {
@@ -32316,7 +31650,7 @@ SINA.lectures["biochem-water"] = {
     "Constipation"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 23: “Cardiac symptoms (which determine the severity of hypokalemia)”",
    "x": 1,
    "slides": [
     {
@@ -32335,7 +31669,7 @@ SINA.lectures["biochem-water"] = {
     "Haemolysis"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 29: “of digestive origin: during vomiting, diarrhea”",
    "x": 1,
    "slides": [
     {
@@ -32354,7 +31688,7 @@ SINA.lectures["biochem-water"] = {
     "Anorexia and unsupplemented parenteral nutrition"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 23: “Parenteral (intravenous) nutrition”",
    "x": 1,
    "slides": [
     {
@@ -32373,7 +31707,7 @@ SINA.lectures["biochem-water"] = {
     "Renal failure, IV potassium overload and cell lysis in burns"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 24: “Intravenous potassium overload : by parenteral nutrition … Absence of renal elimination of potassium : Renal failure … Cell lysis: in burn patients”",
    "x": 1,
    "slides": [
     {
@@ -32392,7 +31726,7 @@ SINA.lectures["biochem-water"] = {
     "Cardiac conduction and neuromuscular disturbances"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 24: “Cardiac conduction disturbances occur”",
    "x": 1,
    "slides": [
     {
@@ -32411,7 +31745,7 @@ SINA.lectures["biochem-water"] = {
     "3.5 to 5.5 mmol/L"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 25: “Chlorine reference values vary between 95 - 108 mmol/l”",
    "x": 1,
    "slides": [
     {
@@ -32430,7 +31764,7 @@ SINA.lectures["biochem-water"] = {
     "Fruit"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 25: “Chlorine intakes are: Food mainly: cooking salt”",
    "x": 1,
    "slides": [
     {
@@ -32449,7 +31783,7 @@ SINA.lectures["biochem-water"] = {
     "Diarrhoea only"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 26: “Excessive chlorine intake: infusion of potassium chloride (KCl) or sodium chloride (NaCl)”",
    "x": 1,
    "slides": [
     {
@@ -32468,7 +31802,7 @@ SINA.lectures["biochem-water"] = {
     "Tubulopathy"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 26: “Hypochloremia (serum chlorine below 90 mmol/l), linked to : The loss of chlorine by: … digestive tract: vomiting … through the urinary tract: some diuretics”",
    "x": 1,
    "slides": [
     {
@@ -32506,7 +31840,7 @@ SINA.lectures["biochem-water"] = {
     "Calcaemia"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 27: “Natremia is a good reflection of osmolality”",
    "x": 1,
    "slides": [
     {
@@ -32525,7 +31859,7 @@ SINA.lectures["biochem-water"] = {
     "800 mOsm/kg"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 27: “which corresponds to the sum of the concentrations of (sodium + potassium) x2 + urea + glucose = 280-300 mosm/kgH2O”",
    "x": 1,
    "slides": [
     {
@@ -32544,7 +31878,7 @@ SINA.lectures["biochem-water"] = {
     "A pH meter"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 27: “In addition, plasma Osmolality can be measured by an Osmometer”",
    "x": 1,
    "slides": [
     {
@@ -32563,7 +31897,7 @@ SINA.lectures["biochem-water"] = {
     "Higher than intracellular"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 27: “At equilibrium, the plasma osmolality is equal to the intracellular osmolality.”",
    "x": 1,
    "slides": [
     {
@@ -32582,7 +31916,7 @@ SINA.lectures["biochem-water"] = {
     "A higher concentration than plasma"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 28: “Hypertonic solution: concentration of the solution is greater than the concentration of the plasma … Hypotonic solution: The concentration of the solution is lower than the plasma concentration”",
    "x": 1,
    "slides": [
     {
@@ -32620,7 +31954,7 @@ SINA.lectures["biochem-water"] = {
     "Heart failure"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 29: “inability to satisfy thirst : during a Head injury … kidney loss: diabetes insipidus (inability to retain free water due to antidiuretic hormone (ADH) deficiency)”",
    "x": 1,
    "slides": [
     {
@@ -32639,7 +31973,7 @@ SINA.lectures["biochem-water"] = {
     "Cirrhosis"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 29: “Global dehydration, linked to a : water deficit and slight sodium deficit, linked to an anomaly: - of cutaneous origin: cystic fibrosis … of digestive origin: infant gastroenteritis”",
    "x": 1,
    "slides": [
     {
@@ -32658,7 +31992,7 @@ SINA.lectures["biochem-water"] = {
     "Vomiting"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 30: “Renal failure, by decreased renal excretion of sodium … heart failure”",
    "x": 1,
    "slides": [
     {
@@ -32677,7 +32011,7 @@ SINA.lectures["biochem-water"] = {
     "Excess glucose"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 30: “Intracellular hyperhydration : Resulting in a drop in plasma osmolarity : Decreased sodium level in extracellular fluid”",
    "x": 1,
    "slides": [
     {
@@ -32696,7 +32030,7 @@ SINA.lectures["biochem-water"] = {
     "Hypokalaemia alone"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 30: “Extra-cellular hyperhydration (edema): Increased sodium in the extracellular fluid, is found during: … Intracellular hyperhydration : Resulting in a drop in plasma osmolarity : Decreased sodium level in extracellular fluid … Global hyper-hydration: Association of intra-cellular and extra-cellular hyper-hydration.”",
    "x": 1,
    "slides": [
     {
@@ -32715,7 +32049,7 @@ SINA.lectures["biochem-water"] = {
     "The kidney"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 31: “The kidney plays a fundamental role in this balance.”",
    "x": 1,
    "slides": [
     {
@@ -32734,7 +32068,7 @@ SINA.lectures["biochem-water"] = {
     "Hyperkalaemia"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 23: “a) Hypokalemia: Serum potassium less than 3.5 mmol/L Clinical signs : … Cardiac symptoms (which determine the severity of hypokalemia)”",
    "x": 1,
    "slides": [
     {
@@ -32753,7 +32087,7 @@ SINA.lectures["biochem-water"] = {
     "Hyperaldosteronism"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 24: “Cell lysis: in burn patients”",
    "x": 1,
    "slides": [
     {
@@ -33952,7 +33286,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Lungs, then kidneys, then buffers"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 10: “This buffer is subject to dual regulation by two systems: the lungs and the kidneys:”",
    "x": 1,
    "slides": [
     {
@@ -33971,7 +33305,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Donates protons"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 8: “compensate for a deficiency of H+ protons … or neutralize an excess of H+ protons They are composed of a pair: acid (AH) - base (A-)”",
    "x": 1,
    "slides": [
     {
@@ -33990,7 +33324,7 @@ SINA.lectures["biochem-acid-base"] = {
     "[H+] × 10"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 4: “Moreover, Acid-base balance is assessed by the proton (H+) concentration : pH = -log[H+] Plasma [H+] = 38–42 mmol/L → pH = 7.37 to 7.43 Intracellular [H+] = 100 mmol/L → pH = 7”",
    "x": 1,
    "slides": [
     {
@@ -34009,7 +33343,7 @@ SINA.lectures["biochem-acid-base"] = {
     "100 nmol/L"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 4: “Moreover, Acid-base balance is assessed by the proton (H+) concentration : pH = -log[H+] Plasma [H+] = 38–42 mmol/L → pH = 7.37 to 7.43 Intracellular [H+] = 100 mmol/L → pH = 7”",
    "x": 1,
    "slides": [
     {
@@ -34028,7 +33362,7 @@ SINA.lectures["biochem-acid-base"] = {
     "7 (about 100 nmol/L H+)"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 4: “Moreover, Acid-base balance is assessed by the proton (H+) concentration : pH = -log[H+] Plasma [H+] = 38–42 mmol/L → pH = 7.37 to 7.43 Intracellular [H+] = 100 mmol/L → pH = 7”",
    "x": 1,
    "slides": [
     {
@@ -34047,7 +33381,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Making lactic acid"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 5: “Volatile acids: CO₂ is considered a weak acid Eliminated by the lungs (rapid and massive release of carbonic acid) according to an equilibrium requiring the enzyme carbonic anhydrase (CA) : in direction 1”",
    "x": 1,
    "slides": [
     {
@@ -34066,7 +33400,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Lactic acid and ketone bodies"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 5: “Organic: lactic acid, ketone bodies”",
    "x": 1,
    "slides": [
     {
@@ -34085,7 +33419,7 @@ SINA.lectures["biochem-acid-base"] = {
     "CO2"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 5: “Fixed acids: present in concentrations much lower than those of CO2, but they are very aggressive because they are highly dissociated. Two types are distinguished: … Mineral: phosphoric acid, sulfuric acid Their elimination occurs via the kidneys: … elimination of H⁺ protons bound to fixed acids (NH₄⁺ and NaH₂PO₄).”",
    "x": 1,
    "slides": [
     {
@@ -34104,7 +33438,7 @@ SINA.lectures["biochem-acid-base"] = {
     "The kidneys"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 5: “Mineral: phosphoric acid, sulfuric acid Their elimination occurs via the kidneys: … elimination of H⁺ protons bound to fixed acids (NH₄⁺ and NaH₂PO₄).”",
    "x": 1,
    "slides": [
     {
@@ -34123,7 +33457,7 @@ SINA.lectures["biochem-acid-base"] = {
     "A strong base"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 8: “or neutralize an excess of H+ protons They are composed of a pair: acid (AH) - base (A-)”",
    "x": 1,
    "slides": [
     {
@@ -34142,7 +33476,7 @@ SINA.lectures["biochem-acid-base"] = {
     "pH = pKa + log [A−]/[AH]"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 8: “Henderson-Hasselbalch equation: pH = pKa + log [A⁻] / [AH]”",
    "x": 1,
    "slides": [
     {
@@ -34161,7 +33495,7 @@ SINA.lectures["biochem-acid-base"] = {
     "7.4 + log PCO2"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 10: “pH = 6.1 + log [HCO₃⁻] / a PCO₂ … a: 0.03 (solubility constant of CO₂) PCO₂: partial pressure of CO₂”",
    "x": 1,
    "slides": [
     {
@@ -34180,7 +33514,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Its high concentration, its pKa and ventilatory control"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 9: “High Buffering Capacity : … its high plasma concentration, … and the regulation of ventilation.”",
    "x": 1,
    "slides": [
     {
@@ -34199,7 +33533,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Acts slowly"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 9: “This buffer acts immediately, constituting the first line of defense and preventing a sudden drop in pH. However, its effectiveness is limited over time by the consumption of the buffer salt.”",
    "x": 1,
    "slides": [
     {
@@ -34218,7 +33552,7 @@ SINA.lectures["biochem-acid-base"] = {
     "No role"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 11: “Low buffering capacity despite its high concentration. … System with low buffering capacity.”",
    "x": 1,
    "slides": [
     {
@@ -34256,7 +33590,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Releases CO2"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 12: “Cellular: HbO2 releases its O2 and binds H+ ions.”",
    "x": 1,
    "slides": [
     {
@@ -34275,7 +33609,7 @@ SINA.lectures["biochem-acid-base"] = {
     "HCO3− to give CO2"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 12: “Lung: Hb releases H+ ions, which combine with HCO3- ions to produce H2O and CO2, which is eliminated by the lungs.”",
    "x": 1,
    "slides": [
     {
@@ -34294,7 +33628,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Bone proteins, phosphates and carbamates"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 12: “2-2 Proteins – Bone Phosphates and Carbamates: Important role in acidosis.”",
    "x": 1,
    "slides": [
     {
@@ -34313,7 +33647,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Slow but powerful"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 13: “Its response is rapid thanks to respiratory control of pCO2. The medullary respiratory centers are very sensitive to pH variations. … This regulation remains limited anatomically, biochemically, and physiologically.”",
    "x": 1,
    "slides": [
     {
@@ -34332,7 +33666,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Medullary and peripheral chemoreceptors"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 13: “Its response is rapid thanks to respiratory control of pCO2. The medullary respiratory centers are very sensitive to pH variations. … Metabolic acidosis: The decrease in [HCO3-] and the increase in [H+] stimulate respiratory chemoreceptors → alveolar hyperventilation, which increases CO2 elimination and decreases PaCO2, thus reducing the H+ ion concentration to normalize pH.”",
    "x": 1,
    "slides": [
     {
@@ -34351,7 +33685,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Do nothing"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 13: “Metabolic acidosis: The decrease in [HCO3-] and the increase in [H+] stimulate respiratory chemoreceptors → alveolar hyperventilation, which increases CO2 elimination and decreases PaCO2, thus reducing the H+ ion concentration to normalize pH. … Metabolic alkalosis: The increase in [HCO3-] and pH depresses the respiratory centers → alveolar hypoventilation with hypercapnia (↑ CO2).”",
    "x": 1,
    "slides": [
     {
@@ -34370,7 +33704,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Slower but more powerful and lasting"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 15: “Its action is delayed but more effective and long-lasting, acting against both acidosis and alkalosis.”",
    "x": 1,
    "slides": [
     {
@@ -34389,7 +33723,7 @@ SINA.lectures["biochem-acid-base"] = {
     "The collecting duct"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 15: “filtered in the proximal tubule.”",
    "x": 1,
    "slides": [
     {
@@ -34408,7 +33742,7 @@ SINA.lectures["biochem-acid-base"] = {
     "6.1"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 17: “The concentration of excreted H+ tends to lower urinary pH to 4.4.”",
    "x": 1,
    "slides": [
     {
@@ -34427,7 +33761,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Cl−"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 17: “Elimination of H+ ions at the distal convoluted tubule in exchange for a Na+ ion.”",
    "x": 1,
    "slides": [
     {
@@ -34465,7 +33799,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Hypokalaemia"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 18: “stimulated by acidosis and hyperkalemia.”",
    "x": 1,
    "slides": [
     {
@@ -34484,7 +33818,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Has no effect on bicarbonate"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 17: “2- Excessive H+ excretion and HCO3- regeneration: … H+ excretion: in two forms: … The concentration of excreted H+ tends to lower urinary pH to 4.4.”",
    "x": 1,
    "slides": [
     {
@@ -34522,7 +33856,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Open to air"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 21: “A single-use heparinized syringe is used. Sampling and storage must be carried out under airtight conditions (hermetically sealed syringe): strict anaerobic conditions (maximum 1 hour, without shock or temperature fluctuations). Gently homogenize the blood before measurement (20 to 30 seconds).”",
    "x": 1,
    "slides": [
     {
@@ -34541,7 +33875,7 @@ SINA.lectures["biochem-acid-base"] = {
     "One week"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 21: “Transport to the laboratory must be rapid, and the sample must be kept on ice.”",
    "x": 1,
    "slides": [
     {
@@ -34560,7 +33894,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Blood group"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 21: “Consider the patient's temperature, respiratory status, and atmospheric pressure.”",
    "x": 1,
    "slides": [
     {
@@ -34579,7 +33913,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Heparin"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 22: “The use of non-selective anticoagulants (EDTA, citrate, oxalate) is contraindicated.”",
    "x": 1,
    "slides": [
     {
@@ -34598,7 +33932,7 @@ SINA.lectures["biochem-acid-base"] = {
     "pH + T"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 23: “Results must be corrected for the patient's temperature. pH at patient temperature = pH - α (T - 37) (α = 0.014)”",
    "x": 1,
    "slides": [
     {
@@ -34617,7 +33951,7 @@ SINA.lectures["biochem-acid-base"] = {
     "37 to 43 mmHg"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 23: “c/ Partial pressure of oxygen (pO₂): 75 to 100 mmHg”",
    "x": 1,
    "slides": [
     {
@@ -34636,7 +33970,7 @@ SINA.lectures["biochem-acid-base"] = {
     "12 ± 2 mmol/L"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 23: “d/ Plasma bicarbonate: 22 to 26 mmol/L”",
    "x": 1,
    "slides": [
     {
@@ -34655,7 +33989,7 @@ SINA.lectures["biochem-acid-base"] = {
     "100% always"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 24: “Oxygen saturation (SaO2): 95 to 99% in the arterial blood of a healthy adult.”",
    "x": 1,
    "slides": [
     {
@@ -34674,7 +34008,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Cl− − HCO3−"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 24: “TA (meq/L) = (Na+ + K+) – (Cl– + HCO3–) = 12 ± 2 meq/L”",
    "x": 1,
    "slides": [
     {
@@ -34712,7 +34046,7 @@ SINA.lectures["biochem-acid-base"] = {
     "5 to 10 mmol/L"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 24: “Lactate: 1 to 2 mmol/L.”",
    "x": 1,
    "slides": [
     {
@@ -34731,7 +34065,7 @@ SINA.lectures["biochem-acid-base"] = {
     "pH below 7.37 with HCO3− below 22 mmol/L"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 23: “a/ Whole blood pH: 7.37 to 7.43 … Results must be corrected for the patient's temperature. pH at patient temperature = pH - α (T - 37) (α = 0.014) … d/ Plasma bicarbonate: 22 to 26 mmol/L”",
    "x": 1,
    "slides": [
     {
@@ -34750,7 +34084,7 @@ SINA.lectures["biochem-acid-base"] = {
     "High pH with high HCO3−"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 25: “>42 mmHg … pH > 7.42 … pH > 7.42”",
    "x": 1,
    "slides": [
     {
@@ -34769,7 +34103,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Raises bicarbonate"
    ],
    "answer": 3,
-   "why": "",
+   "why": "In respiratory acidosis (high PaCO2), the kidney compensates slowly by excreting more H+ and regenerating bicarbonate, so HCO3− rises.",
    "x": 1
   },
   {
@@ -34781,7 +34115,7 @@ SINA.lectures["biochem-acid-base"] = {
     "pH low, HCO3− low"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 25: “pH > 7.42 … pH > 7.42”",
    "x": 1,
    "slides": [
     {
@@ -34800,7 +34134,7 @@ SINA.lectures["biochem-acid-base"] = {
     "pH low with high PaCO2"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 25: “pH > 7.42 … pH > 7.42”",
    "x": 1,
    "slides": [
     {
@@ -34819,7 +34153,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Lowers bicarbonate"
    ],
    "answer": 3,
-   "why": "",
+   "why": "In respiratory alkalosis (low PaCO2), the kidney compensates by reabsorbing less bicarbonate, so HCO3− falls.",
    "x": 1
   },
   {
@@ -34831,7 +34165,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Metabolic alkalosis"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 25: “Réponse compensatrice … Acidose métabolique … Acidose respiratoire”",
    "x": 1,
    "slides": [
     {
@@ -34850,7 +34184,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Metabolic alkalosis"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 25: “Acidose respiratoire”",
    "x": 1,
    "slides": [
     {
@@ -34869,7 +34203,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Respiratory acidosis"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 13: “Metabolic alkalosis: The increase in [HCO3-] and pH depresses the respiratory centers → alveolar hypoventilation with hypercapnia (↑ CO2).”",
    "x": 1,
    "slides": [
     {
@@ -34888,7 +34222,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Respiratory alkalosis"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 13: “Metabolic alkalosis: The increase in [HCO3-] and pH depresses the respiratory centers → alveolar hypoventilation with hypercapnia (↑ CO2).”",
    "x": 1,
    "slides": [
     {
@@ -34907,7 +34241,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Sodium"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 24: “Blood ionogram Calculation of the anion gap (presence of unmeasured anions): … Ketone bodies (measured or detected by urine test strips).”",
    "x": 1,
    "slides": [
     {
@@ -34926,7 +34260,7 @@ SINA.lectures["biochem-acid-base"] = {
     "K+ intake rises"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 17: “Elimination of H+ ions at the distal convoluted tubule in exchange for a Na+ ion. … Acidosis leads to hyperkalemia, and conversely: exchange between H+ and K+.”",
    "x": 1,
    "slides": [
     {
@@ -34945,7 +34279,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Without effect on enzymes"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 3: “Any acid-base imbalance can lead to serious disorders, incompatible with life.”",
    "x": 1,
    "slides": [
     {
@@ -34964,7 +34298,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Respiratory acidosis"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 13: “Metabolic alkalosis: The increase in [HCO3-] and pH depresses the respiratory centers → alveolar hypoventilation with hypercapnia (↑ CO2).”",
    "x": 1,
    "slides": [
     {
@@ -34983,7 +34317,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Respiratory acidosis"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 13: “Metabolic acidosis: The decrease in [HCO3-] and the increase in [H+] stimulate respiratory chemoreceptors → alveolar hyperventilation, which increases CO2 elimination and decreases PaCO2, thus reducing the H+ ion concentration to normalize pH. … Metabolic alkalosis: The increase in [HCO3-] and pH depresses the respiratory centers → alveolar hypoventilation with hypercapnia (↑ CO2).”",
    "x": 1,
    "slides": [
     {
@@ -35002,7 +34336,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Metabolic alkalosis"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 13: “Metabolic acidosis: The decrease in [HCO3-] and the increase in [H+] stimulate respiratory chemoreceptors → alveolar hyperventilation, which increases CO2 elimination and decreases PaCO2, thus reducing the H+ ion concentration to normalize pH.”",
    "x": 1,
    "slides": [
     {
@@ -35021,7 +34355,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Respiratory alkalosis"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 13: “Metabolic acidosis: The decrease in [HCO3-] and the increase in [H+] stimulate respiratory chemoreceptors → alveolar hyperventilation, which increases CO2 elimination and decreases PaCO2, thus reducing the H+ ion concentration to normalize pH. … Metabolic alkalosis: The increase in [HCO3-] and pH depresses the respiratory centers → alveolar hypoventilation with hypercapnia (↑ CO2).”",
    "x": 1,
    "slides": [
     {
@@ -35040,7 +34374,7 @@ SINA.lectures["biochem-acid-base"] = {
     "A mixed acidosis"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 25: “Acidose métabolique … Acidose respiratoire … Acidose mixte”",
    "x": 1,
    "slides": [
     {
@@ -35059,7 +34393,7 @@ SINA.lectures["biochem-acid-base"] = {
     "22 mmol/L"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 15: “However, as soon as the HCO3- concentration in the blood exceeds 28 mmol/L, the kidney excretes HCO3- to protect the body against an alkaline overload.”",
    "x": 1,
    "slides": [
     {
@@ -35078,7 +34412,7 @@ SINA.lectures["biochem-acid-base"] = {
     "10%"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 17: “2- Excessive H+ excretion and HCO3- regeneration: … H+ excretion: in two forms: … The concentration of excreted H+ tends to lower urinary pH to 4.4.”",
    "x": 1,
    "slides": [
     {
@@ -35097,7 +34431,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Strong bases"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 11: “1-2 Proteinate:”",
    "x": 1,
    "slides": [
     {
@@ -35116,7 +34450,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Capillary blood"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 21: “Arterial blood is collected by direct puncture of an artery (femoral, radial), and in newborns by capillary blood sampling (from the fingertip).”",
    "x": 1,
    "slides": [
     {
@@ -35135,7 +34469,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Lower potassium only"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 21: “A single-use heparinized syringe is used. Sampling and storage must be carried out under airtight conditions (hermetically sealed syringe): strict anaerobic conditions (maximum 1 hour, without shock or temperature fluctuations). Gently homogenize the blood before measurement (20 to 30 seconds). … Transport to the laboratory must be rapid, and the sample must be kept on ice.”",
    "x": 1,
    "slides": [
     {
@@ -35154,7 +34488,7 @@ SINA.lectures["biochem-acid-base"] = {
     "The lungs make bicarbonate"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 5: “Volatile acids: CO₂ is considered a weak acid Eliminated by the lungs (rapid and massive release of carbonic acid) according to an equilibrium requiring the enzyme carbonic anhydrase (CA) : in direction 1”",
    "x": 1,
    "slides": [
     {
@@ -35173,7 +34507,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Titratable acidity"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 18: “For 1/3 in non-volatile buffers: Titratable acidity (diacid phosphate H2PO4-)”",
    "x": 1,
    "slides": [
     {
@@ -35192,7 +34526,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Bases"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 5: “Fixed acids: present in concentrations much lower than those of CO2, but they are very aggressive because they are highly dissociated. Two types are distinguished: … Organic: lactic acid, ketone bodies … elimination of H⁺ protons bound to fixed acids (NH₄⁺ and NaH₂PO₄).”",
    "x": 1,
    "slides": [
     {
@@ -35211,7 +34545,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Bicarbonate rises"
    ],
    "answer": 1,
-   "why": "",
+   "why": "Slide 13: “Metabolic acidosis: The decrease in [HCO3-] and the increase in [H+] stimulate respiratory chemoreceptors → alveolar hyperventilation, which increases CO2 elimination and decreases PaCO2, thus reducing the H+ ion concentration to normalize pH.”",
    "x": 1,
    "slides": [
     {
@@ -35249,7 +34583,7 @@ SINA.lectures["biochem-acid-base"] = {
     "75 to 100 mmHg"
    ],
    "answer": 2,
-   "why": "",
+   "why": "Slide 23: “a/ Whole blood pH: 7.37 to 7.43 … b/ Partial pressure of carbon dioxide (pCO₂): 37 to 43 mmHg”",
    "x": 1,
    "slides": [
     {
@@ -35268,7 +34602,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Excrete more H+ and regenerate bicarbonate"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 17: “2- Excessive H+ excretion and HCO3- regeneration: … H+ excretion: in two forms:”",
    "x": 1,
    "slides": [
     {
@@ -35287,7 +34621,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Diarrhoea"
    ],
    "answer": 0,
-   "why": "",
+   "why": "Slide 13: “Metabolic alkalosis: The increase in [HCO3-] and pH depresses the respiratory centers → alveolar hypoventilation with hypercapnia (↑ CO2).”",
    "x": 1,
    "slides": [
     {
@@ -35306,7 +34640,7 @@ SINA.lectures["biochem-acid-base"] = {
     "Metabolic acidosis"
    ],
    "answer": 3,
-   "why": "",
+   "why": "Slide 25: “Acidose métabolique”",
    "x": 1,
    "slides": [
     {
@@ -36656,15 +35990,9 @@ SINA.lectures["biochem-thyroid"] = {
     0,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Thyronine is formed by condensing two tyrosines; its two aromatic rings are joined by an ether bridge.",
    "slides": [
     {
      "src": "files/slides/biochem-thyroid/07.jpg",
@@ -36714,15 +36042,9 @@ SINA.lectures["biochem-thyroid"] = {
     0,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Binding one iodine atom to a tyrosine of thyroglobulin gives MIT; binding two gives DIT.",
    "slides": [
     {
      "src": "files/slides/biochem-thyroid/09.jpg",
@@ -36777,15 +36099,9 @@ SINA.lectures["biochem-thyroid"] = {
     0,
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "When the thyrocyte is stimulated, thyroglobulin re-enters by endocytosis and lysosomal enzymes cut T3 and T4 free from it.",
    "slides": [
     {
      "src": "files/slides/biochem-thyroid/11.jpg",
@@ -36835,15 +36151,9 @@ SINA.lectures["biochem-thyroid"] = {
     0,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Each receptor binds only its own specific hormone, because the receptor's shape is complementary to it.",
    "slides": [
     {
      "src": "files/slides/biochem-thyroid/15.jpg",
@@ -37014,15 +36324,9 @@ SINA.lectures["biochem-thyroid"] = {
     0,
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "The iodine in iodinated contrast disturbs thyroid results, so the thyroid work-up is done away from the injection.",
    "slides": [
     {
      "src": "files/slides/biochem-thyroid/32.jpg",
@@ -37454,15 +36758,9 @@ SINA.lectures["biochem-thyroid"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 7: “connected by an ether bridge) After binding active iodine, thyronine gives thyroid hormones T3 and T4 which differ from each other by the number of the iodine atoms they carry”",
    "x": 1,
    "slides": [
     {
@@ -37513,15 +36811,9 @@ SINA.lectures["biochem-thyroid"] = {
     1,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 8: “The thyroglobulin is internalized in vesicles, which move towards the apical pole, where they discharge the thyroglobulin at the level”",
    "x": 1,
    "slides": [
     {
@@ -37543,15 +36835,9 @@ SINA.lectures["biochem-thyroid"] = {
     1,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 9: “under the action of thyroid peroxidase (TPO) … at the apical pole of the thyreocyte”",
    "x": 1,
    "slides": [
     {
@@ -37631,15 +36917,9 @@ SINA.lectures["biochem-thyroid"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 10: “DIT+MIT gives T3 : Triodo-thyronine (composed of 3 iodine atoms) At this stage, thyroid hormones are still bound to thyroglobulin During the formation of thyroid hormones, the fixing of iodine atoms can be done differently, concerning T3, as you can see in the diagram opposite”",
    "x": 1,
    "slides": [
     {
@@ -37660,15 +36940,9 @@ SINA.lectures["biochem-thyroid"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 11: “6) Release of thyroid hormones : In the event of stimulation of the thyreocyte for the synthesis of thyroid hormones, the thyroglobulin enters, by endocytosis, in the cytoplasm, then in the lysosomes Lysosomal enzymes separate thyroid hormones from thyroglobulin”",
    "x": 1,
    "slides": [
     {
@@ -37719,15 +36993,9 @@ SINA.lectures["biochem-thyroid"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 12: “Main hormone secreted by the thyreocyte in the blood (90%)”",
    "x": 1,
    "slides": [
     {
@@ -37866,15 +37134,9 @@ SINA.lectures["biochem-thyroid"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 14: “Thyroid-related hormones are inactive”",
    "x": 1,
    "slides": [
     {
@@ -37896,15 +37158,9 @@ SINA.lectures["biochem-thyroid"] = {
     1,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 16: “but also in the nucleus (for the transcription”",
    "x": 1,
    "slides": [
     {
@@ -37925,15 +37181,9 @@ SINA.lectures["biochem-thyroid"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 16: “T3 is 10 times more active than T4 and binds much more easily to peripheral receptors, for which it has a very high affinity”",
    "x": 1,
    "slides": [
     {
@@ -37983,15 +37233,9 @@ SINA.lectures["biochem-thyroid"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 17: “b) The increase in blood concentrations of T4 : will exert a negative feedback on the hypothalamus- adenohypophysis axis.”",
    "x": 1,
    "slides": [
     {
@@ -38131,15 +37375,9 @@ SINA.lectures["biochem-thyroid"] = {
     2,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 20: “reaches the thyroid via the bloodstream if the body needs it … or is eliminated in the urine, otherwise It represents 80% of the degradation of T4”",
    "x": 1,
    "slides": [
     {
@@ -38249,15 +37487,9 @@ SINA.lectures["biochem-thyroid"] = {
     0,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 23: “d) Increase in the number of adrenergic receptors in the blood vessels by increasing : - the pulse rate … and the systolic pressure”",
    "x": 1,
    "slides": [
     {
@@ -38395,15 +37627,9 @@ SINA.lectures["biochem-thyroid"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 27: “Hypothyroidism profile … A person with hypothyroidism will suffer from : … Weight gain”",
    "x": 1,
    "slides": [
     {
@@ -38483,15 +37709,9 @@ SINA.lectures["biochem-thyroid"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 30: “A – Hyperthyroidism : Hyperthyroidism is the clinical syndrome caused by an excess of circulating FT4 and/or FT3 . It is a common disease that affects more women than men. Several dysfunctions can lead to hyperthyroidism.”",
    "x": 1,
    "slides": [
     {
@@ -38512,15 +37732,9 @@ SINA.lectures["biochem-thyroid"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 31: “3) Toxic multiheteronodular goiter: Presence of hot and cold nodules.”",
    "x": 1,
    "slides": [
     {
@@ -38601,15 +37815,9 @@ SINA.lectures["biochem-thyroid"] = {
    "answers": [
     1
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 34: “1-2) Iodine deficiency: responsible for endemic goiter (widespread among the population of a given place)”",
    "x": 1,
    "slides": [
     {
@@ -38631,15 +37839,9 @@ SINA.lectures["biochem-thyroid"] = {
     1,
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 35: “2-3) Congenital : agenesis or ectopia of the thyroid: during fetal life, responsible for cretinism (Mental retardation) and dwarfism (small size)”",
    "x": 1,
    "slides": [
     {
@@ -38751,15 +37953,9 @@ SINA.lectures["biochem-thyroid"] = {
     1,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 18: “TSH activates all stages of thyroid hormone synthesis (from iodine uptake and its activation, to hormonal secretion, via the synthesis of Thyroperoxidase (TPO) and Thyroglobulin).”",
    "x": 1,
    "slides": [
     {
@@ -38780,15 +37976,9 @@ SINA.lectures["biochem-thyroid"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 29: “Central hyperthyroidism: whether the origin is hypothalamic (increase in TRH) or pituitary (increase in TSH), example in pituitary adenoma. In this case, the TSH will also permanently stimulate the thyroid (which explains the goiter). The thyroid will, in turn, over-secret its thyroid hormones, which explains hyperthyroidism.”",
    "x": 1,
    "slides": [
     {
@@ -38810,15 +38000,9 @@ SINA.lectures["biochem-thyroid"] = {
     0,
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 31: “2) Toxic adenoma or nodular goiter : Localized enlargement of the thyroid which includes, some warm nodules. More common in women.”",
    "x": 1,
    "slides": [
     {
@@ -38839,15 +38023,9 @@ SINA.lectures["biochem-thyroid"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 31: “4) Pregnancy hyperthyroidism : due to the mutation of the TSH receptor gene. This results in a modification of the structure of the TSH receptor, which also becomes abnormally capable of fixing the pregnancy hormone HCG, the concentration of which increases during pregnancy. At the end of pregnancy, the HCG drops and the hyperthyroidism disappears.”",
    "x": 1,
    "slides": [
     {
@@ -38868,15 +38046,9 @@ SINA.lectures["biochem-thyroid"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 32: “iodinated contrast agents : If necessary make an exploration of the thyroid function, it must be done far from an injection of iodinated contrast product. … Otherwise, the results of the thyroid check-up will be disturbed by the quantity of iodine contained in these products, administered FACULTY OF to”",
    "x": 1,
    "slides": [
     {
@@ -38897,15 +38069,9 @@ SINA.lectures["biochem-thyroid"] = {
    "answers": [
     0
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 32: “On the other hand, when this drug is prescribed in a euthyroid patient, it must be followed every 6 months by a thyroid check-up.”",
    "x": 1,
    "slides": [
     {
@@ -38926,15 +38092,9 @@ SINA.lectures["biochem-thyroid"] = {
    "answers": [
     2
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 35: “2-2) Post-surgical hypothyroidism (removal of the thyroid) … or post-radiotherapy hypothyroidism (destruction of thyroid cells)”",
    "x": 1,
    "slides": [
     {
@@ -38955,15 +38115,9 @@ SINA.lectures["biochem-thyroid"] = {
    "answers": [
     3
    ],
-   "notes": [
-    "",
-    "",
-    "",
-    ""
-   ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 35: “B- Hypothyroidism : … 2-1) Mutation of the TSH receptor gene : which becomes insensitive to TSH The receptor can no longer bind to TSH due to its highly modified structure (Mutations are generally rare) … 2-4) Central : pituitary or hypothalamic origin”",
    "x": 1,
    "slides": [
     {

@@ -3,6 +3,8 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "3 November 2026", items: [
+    "Fixed: resumed quizzes now show the current slides and explanations instead of an old saved copy.",
+    "Added: explanations on about 710 Clinical Biochemistry questions that had none, quoting the slide that answers them.",
     "Added: the new Clinical Biochemistry questions now show the lecture slide behind the answer, with the part that answers it in green (1,041 questions)."
   ] },
   { date: "2 November 2026", items: [

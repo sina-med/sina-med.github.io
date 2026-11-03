@@ -2354,6 +2354,18 @@
   }
   function resumeView() {
     var r = resumeInfo(); if (!r) { location.replace("#/"); return; }
+    /* the saved copy may predate a site update: take slides and explanations from the current questions */
+    var idx = {};
+    Object.keys(S.lectures).forEach(function (k) { (S.lectures[k].mcqs || []).forEach(function (q) { idx[qKey(q)] = q; }); });
+    (S.papers || []).forEach(function (pp) { (pp.questions || []).forEach(function (q) { if (q.options) idx[qKey(q)] = q; }); });
+    r.qs = r.qs.map(function (q) {
+      var f = idx[q._k || qKey(q)]; if (!f) return q;
+      var c = {}; for (var k in q) c[k] = q[k];
+      if (f.slides) c.slides = f.slides; else delete c.slides;
+      if (f.why != null) c.why = f.why;
+      if (f.notes && f.notes.some(function (n) { return n; })) c.notes = c.options.map(function (o) { var j = f.options.indexOf(o); return j > -1 ? f.notes[j] : ""; }); else delete c.notes;
+      return c;
+    });
     setView('<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / Resume</p><h1>' + esc(r.title) + '</h1><p class="meta">Picking up where you stopped. <a href="' + esc(r.back || "#/") + '">Back to where it started</a></p><div id="rq"></div></div>', "Resume quiz");
     questionsPanel(document.getElementById("rq"), { id: r.id, mcqs: r.qs, _title: r.title }, r);
   }
