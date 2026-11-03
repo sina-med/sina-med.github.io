@@ -2,6 +2,9 @@
    Style: short changelog lines, developer voice (Added / Fixed / Changed), no "you". */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
+  { date: "3 November 2026", items: [
+    "Added: the new Clinical Biochemistry questions now show the lecture slide behind the answer, with the part that answers it in green (1,041 questions)."
+  ] },
   { date: "2 November 2026", items: [
     "Added: every Clinical Biochemistry and Chemistry lecture now has 100 to 120 questions, so 50 and 100-question quizzes on a single lecture never repeat.",
     "Added: Sina mock questions now show the lecture slide behind the answer, with the part that answers it in green (506 of 552 questions).",

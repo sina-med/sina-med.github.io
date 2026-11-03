@@ -1428,7 +1428,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/12.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The post-analytical phase corresponds to:",
@@ -1450,7 +1457,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/12.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The analytical phase corresponds to:",
@@ -1472,7 +1486,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/13.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "According to the literature cited in the lecture, the proportion of result errors that come from the pre-analytical phase is about:",
@@ -1494,7 +1515,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/16.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The GBEA (Guide de Bonne Exécution des Analyses):",
@@ -1517,7 +1545,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/15.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The international standard cited for the management of non-conformities is:",
@@ -1539,7 +1574,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/52.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "Normal values (reference interval) of a biological parameter:",
@@ -1562,7 +1604,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/04.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "A clinician receives a result that does not fit his patient. After checking, the biologist finds no analytical error. The most likely origin is:",
@@ -1584,7 +1633,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/16.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "High-quality (undamaged) samples lead to:",
@@ -1607,7 +1663,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/06.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Why can the pre-analytical phase easily distort results?",
@@ -1630,7 +1693,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/19.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Among the stakeholders/steps of the pre-analytical phase listed in the lecture:",
@@ -1653,7 +1723,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/18.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "On the prescription, the clinician must mention:",
@@ -1676,7 +1753,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/28.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The concentration of testosterone:",
@@ -1699,7 +1783,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/25.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Alkaline phosphatases are mainly located in:",
@@ -1722,7 +1813,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/26.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "An ALP value can be normal in a child but high in an adult because:",
@@ -1745,7 +1843,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/26.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "In pregnancy, ALP increases because of:",
@@ -1767,7 +1872,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/26.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "In pregnancy, iron and ferritin decrease because:",
@@ -1789,7 +1901,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/27.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "A pregnant woman has low total proteins. This:",
@@ -1812,7 +1931,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/27.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Hormones with a nycthemeral (day-night) rhythm in the lecture include:",
@@ -1835,7 +1961,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/23.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "For a cortisol assay, the most useful information to write on the prescription is:",
@@ -1857,7 +1990,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/23.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Taking blood from the vein where a saline or glucose infusion is running:",
@@ -1880,7 +2020,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/28.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "If sampling on the infusion side cannot be avoided, the lecture advises:",
@@ -1903,7 +2050,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/28.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "When sampling near an infusion site, the first tube taken should be:",
@@ -1925,7 +2079,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/48.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "Changing from lying to standing just before sampling mainly changes:",
@@ -1948,7 +2109,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/30.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "For a hospitalised intensive-care patient, sampling lying or seated:",
@@ -1970,7 +2138,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/31.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "A patient ran to the lab to arrive on time. You should:",
@@ -1993,7 +2168,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/32.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Creatine kinase:",
@@ -2016,7 +2198,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/33.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "The recommended time window for routine blood analyses is:",
@@ -2038,7 +2227,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/34.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "An opalescent (milky) serum received by the biologist:",
@@ -2061,7 +2257,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/35.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "If the patient is not fasting:",
@@ -2084,7 +2287,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/35.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "During a stressful sampling, which hormone can rise?",
@@ -2107,7 +2317,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/36.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Hormone results obtained during stress:",
@@ -2129,7 +2346,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/36.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "In vitro diagnostic medical devices (MD IVD) used for sampling:",
@@ -2152,7 +2376,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/39.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "The CE marking means that the equipment:",
@@ -2174,7 +2405,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/38.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "The conditions and limits of use of sampling equipment (e.g. expiry date) are found:",
@@ -2196,7 +2434,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/39.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "The tourniquet should be placed:",
@@ -2219,7 +2464,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/41.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "A tourniquet left too long or too tight can:",
@@ -2242,7 +2494,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/42.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Avoid the tourniquet when measuring:",
@@ -2265,7 +2524,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/58.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "The purpose of respecting the order of the tubes is to:",
@@ -2287,7 +2553,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/43.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "In the order of tubes shown in the lecture, the first tube is:",
@@ -2309,7 +2582,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/44.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "The citrate tube is used for:",
@@ -2331,7 +2611,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/44.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "EDTA stands for:",
@@ -2353,7 +2640,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/44.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Which statement about blood transfer between tubes is correct?",
@@ -2375,7 +2669,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/43.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Plasma differs from serum because plasma:",
@@ -2397,7 +2698,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/45.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "The separator gel isolates serum/plasma from the cells in order to:",
@@ -2420,7 +2728,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/45.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Even if red cells lyse during transport in a gel tube:",
@@ -2442,7 +2757,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/45.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "A citrate haemostasis tube must be filled so that the ratio of anticoagulant to blood is:",
@@ -2464,7 +2786,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/49.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 49
+    }
+   ]
   },
   {
    "q": "Tubes should not be identified (labelled) before sampling. They must be labelled:",
@@ -2486,7 +2815,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/50.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "An identification error on a tube:",
@@ -2508,7 +2844,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/50.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 50
+    }
+   ]
   },
   {
    "q": "Examples of non-conformities listed in the lecture:",
@@ -2531,7 +2874,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/51.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "Non-conformities cost about:",
@@ -2553,7 +2903,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/52.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 52
+    }
+   ]
   },
   {
    "q": "Tubes should travel upright because otherwise:",
@@ -2576,7 +2933,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/54.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "A tube left 4 hours at room temperature before analysis will show:",
@@ -2599,7 +2963,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/54.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 54
+    }
+   ]
   },
   {
    "q": "Glucose falls more slowly in a sample kept at:",
@@ -2621,7 +2992,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/55.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 55
+    }
+   ]
   },
   {
    "q": "If analysis is delayed, samples should be stored:",
@@ -2643,7 +3021,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/55.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 55
+    }
+   ]
   },
   {
    "q": "A jaundiced patient's bilirubin tube was left in daylight. The result may be:",
@@ -2665,7 +3050,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/56.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "The light-sensitivity of bilirubin is used clinically for:",
@@ -2687,7 +3079,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/56.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 56
+    }
+   ]
   },
   {
    "q": "To reduce haemolysis when sampling, the lecture recommends:",
@@ -2709,7 +3108,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/58.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "Patient factors favouring haemolysis include:",
@@ -2732,7 +3138,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/58.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "If a haemolysed result is taken into account instead of rejected, the risk is:",
@@ -2754,7 +3167,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/59.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 59
+    }
+   ]
   },
   {
    "q": "To control the pre-analytical phase, the conclusion lists:",
@@ -2777,7 +3197,14 @@ SINA.lectures["biochem-preanalytical"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-preanalytical/60.jpg",
+     "lec": "Pre-analytical phase",
+     "n": 60
+    }
+   ]
   }
  ],
  "cards": [
@@ -4207,7 +4634,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/03.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "In adults, adrenaline represents about what share of the adrenal medulla's secretion?",
@@ -4229,7 +4663,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/03.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The name 'epinephrine':",
@@ -4251,7 +4692,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/03.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Catecholamines serve to:",
@@ -4274,7 +4722,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/03.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The embryological argument that the adrenal medulla is a sympathetic ganglion is that it derives from:",
@@ -4296,7 +4751,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/04.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The histological argument for the glandular nature of the adrenal medulla is that:",
@@ -4318,7 +4780,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/04.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Dopaminergic neurons are located mainly in:",
@@ -4340,7 +4809,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/04.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Phenylalanine is converted into tyrosine by:",
@@ -4362,7 +4838,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/07.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The first catecholamine formed in the synthesis chain is:",
@@ -4384,7 +4867,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/05.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Decarboxylation of DOPA:",
@@ -4407,7 +4897,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/05.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Adrenaline is formed from noradrenaline by:",
@@ -4429,7 +4926,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/05.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Physiologically, the circulating concentration of catecholamines at rest is:",
@@ -4451,7 +4955,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/06.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The central nervous centres that drive the adrenal medulla include:",
@@ -4474,7 +4985,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/06.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Low blood pressure stimulating catecholamine release is sensed by:",
@@ -4496,7 +5014,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/06.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Hypoxia and hypercapnia stimulate catecholamine secretion through:",
@@ -4518,7 +5043,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/06.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Intercentral stimuli of catecholamine secretion include:",
@@ -4541,7 +5073,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/06.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "ACTH acts on catecholamine synthesis by stimulating the synthesis of:",
@@ -4563,7 +5102,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/07.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Cortisol stimulates the synthesis of:",
@@ -4586,7 +5132,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/05.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Retrocontrol of catecholamine secretion acts directly on:",
@@ -4609,7 +5162,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/07.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which receptor has the highest affinity for adrenaline?",
@@ -4631,7 +5191,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/08.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Beta-2 stimulation in the kidney causes:",
@@ -4653,7 +5220,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/08.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Beta-2 stimulation in the liver causes:",
@@ -4675,7 +5249,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/08.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Alpha-1 receptor stimulation causes:",
@@ -4698,7 +5279,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/09.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Alpha-2 receptors are found on:",
@@ -4720,7 +5308,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/09.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Positive chronotropic effect means:",
@@ -4742,7 +5337,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/08.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Catecholamines cause vasodilation in:",
@@ -4764,7 +5366,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/10.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The cardiovascular consequences of catecholamines are:",
@@ -4787,7 +5396,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/10.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Beta-2 mimetic drugs are indicated:",
@@ -4810,7 +5426,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/11.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "In the uterus, alpha receptor stimulation causes:",
@@ -4832,7 +5455,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/11.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "On the eye, catecholamines (beta-2) cause:",
@@ -4854,7 +5484,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/11.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "In the bladder, catecholamines cause:",
@@ -4877,7 +5514,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/11.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "In striated muscle, catecholamines:",
@@ -4900,7 +5544,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/12.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "When frightened, the mouth becomes dry but we sweat because catecholamines:",
@@ -4922,7 +5573,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/12.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The effect of catecholamines on wakefulness and alertness is:",
@@ -4944,7 +5602,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/12.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Catecholamines have only a small effect on blood glucose because:",
@@ -4966,7 +5631,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/08.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "On electrolytes, catecholamines cause:",
@@ -4988,7 +5660,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/13.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Thermogenesis by catecholamines involves:",
@@ -5011,7 +5690,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/13.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Inactivation by 'uptake' means that excess catecholamines are:",
@@ -5033,7 +5719,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/14.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "COMT and MAO are found:",
@@ -5055,7 +5748,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/14.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "MAO acts in about what share of catecholamine inactivation?",
@@ -5077,7 +5777,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/14.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "COMT converts noradrenaline into:",
@@ -5099,7 +5806,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/14.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Before urinary elimination, catecholamine metabolites are conjugated in the liver with:",
@@ -5122,7 +5836,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/15.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The 24-hour urine contains:",
@@ -5145,7 +5866,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/15.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "MHPG stands for:",
@@ -5167,7 +5895,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/15.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Pheochromocytoma:",
@@ -5190,7 +5925,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/17.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The hypertension of pheochromocytoma is:",
@@ -5213,7 +5955,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/17.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Neuroblastoma is located:",
@@ -5236,7 +5985,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/17.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "In neuroblastoma, dopamine accumulates because:",
@@ -5258,7 +6014,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/17.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "A 35-year-old has attacks of headache, sweating and very high blood pressure. The first-line test is:",
@@ -5280,7 +6043,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/19.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "A young child has an abdominal mass. To look for neuroblastoma, first-line tests are:",
@@ -5303,7 +6073,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/19.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Neuron-specific enolase (NSE) is:",
@@ -5325,7 +6102,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/19.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Adrenaline-based treatments are indicated in:",
@@ -5348,7 +6132,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/20.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Noradrenaline is stored mainly in:",
@@ -5370,7 +6161,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/04.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Catecholamines are synthesised by:",
@@ -5393,7 +6191,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/04.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Dopamine beta-hydroxylase converts:",
@@ -5415,7 +6220,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/05.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The adrenal medulla intensifies the fight response initiated by:",
@@ -5437,7 +6249,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/04.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Catecholamine effects are described as:",
@@ -5459,7 +6278,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/20.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Increased venous return under catecholamines contributes to:",
@@ -5481,7 +6307,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/10.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Catecholamine secretion increases with:",
@@ -5503,7 +6336,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/12.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Hypothermia stimulates catecholamine secretion as a:",
@@ -5525,7 +6365,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/06.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Inhibition of insulin secretion by catecholamines favours:",
@@ -5547,7 +6394,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/13.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Splanchnic nerve stimulation of the adrenal medulla is part of:",
@@ -5569,7 +6423,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-adrenal-medulla/06.jpg",
+     "lec": "Adrenal medulla hormones",
+     "n": 6
+    }
+   ]
   }
  ],
  "cards": [
@@ -7005,7 +7866,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/03.jpg",
+     "lec": "Insulin",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Insulin regulates the energy substrates:",
@@ -7028,7 +7896,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/03.jpg",
+     "lec": "Insulin",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Insulin secretion depends on:",
@@ -7051,7 +7926,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/03.jpg",
+     "lec": "Insulin",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The storage sites of dietary glucose are:",
@@ -7074,7 +7956,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/03.jpg",
+     "lec": "Insulin",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Without insulin, survival is:",
@@ -7096,7 +7985,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/03.jpg",
+     "lec": "Insulin",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Besides its metabolic effects, insulin also has longer-term effects on:",
@@ -7118,7 +8014,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/03.jpg",
+     "lec": "Insulin",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "On a stained section of pancreas, the β cells:",
@@ -7140,7 +8043,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/04.jpg",
+     "lec": "Insulin",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Insulin is described as:",
@@ -7162,7 +8072,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/05.jpg",
+     "lec": "Insulin",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The total number of disulphide bridges in insulin is:",
@@ -7184,7 +8101,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/05.jpg",
+     "lec": "Insulin",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The intrachain disulphide bridge of insulin is on:",
@@ -7206,7 +8130,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/05.jpg",
+     "lec": "Insulin",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The insulin gene is located on:",
@@ -7228,7 +8159,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/06.jpg",
+     "lec": "Insulin",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Proinsulin contains:",
@@ -7250,7 +8188,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/06.jpg",
+     "lec": "Insulin",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Proinsulin granules:",
@@ -7273,7 +8218,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/06.jpg",
+     "lec": "Insulin",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The enzyme that frees the C-peptide from proinsulin is:",
@@ -7295,7 +8247,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/07.jpg",
+     "lec": "Insulin",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "After cleavage of proinsulin, the β cell releases into the blood:",
@@ -7318,7 +8277,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/07.jpg",
+     "lec": "Insulin",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Glucagon, as named in the lecture, can:",
@@ -7340,7 +8306,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/07.jpg",
+     "lec": "Insulin",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "In the β cell, glucose metabolism first increases:",
@@ -7362,7 +8335,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/08.jpg",
+     "lec": "Insulin",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Inhibition of potassium release in the β cell causes:",
@@ -7384,7 +8364,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/08.jpg",
+     "lec": "Insulin",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "VDCC stands for:",
@@ -7406,7 +8393,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/08.jpg",
+     "lec": "Insulin",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Intracellular calcium in the β cell triggers insulin secretion by:",
@@ -7428,7 +8422,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/09.jpg",
+     "lec": "Insulin",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Order the β-cell secretion steps correctly:",
@@ -7450,7 +8451,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/08.jpg",
+     "lec": "Insulin",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The autocrine effect of insulin on the β cell leads to:",
@@ -7473,7 +8481,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/09.jpg",
+     "lec": "Insulin",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "In the liver and muscles, insulin activates:",
@@ -7496,7 +8511,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/10.jpg",
+     "lec": "Insulin",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Insulin activates the pentose phosphate pathway in:",
@@ -7518,7 +8540,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/10.jpg",
+     "lec": "Insulin",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Insulin inhibits the exit of free glucose from:",
@@ -7540,7 +8569,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/10.jpg",
+     "lec": "Insulin",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "A patient has absolute insulin deficiency. Which liver pathways would be unrestrained?",
@@ -7563,7 +8599,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/10.jpg",
+     "lec": "Insulin",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "In the adipocyte, insulin activates:",
@@ -7586,7 +8629,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/11.jpg",
+     "lec": "Insulin",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Glucose entering the adipocyte under insulin is used to make:",
@@ -7608,7 +8658,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/11.jpg",
+     "lec": "Insulin",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Insulin's effect on lipolysis is:",
@@ -7630,7 +8687,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/11.jpg",
+     "lec": "Insulin",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "In protein metabolism, insulin stimulates:",
@@ -7653,7 +8717,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/12.jpg",
+     "lec": "Insulin",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Insulin is described as an anabolic hormone because it:",
@@ -7675,7 +8746,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/12.jpg",
+     "lec": "Insulin",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "On sodium metabolism, insulin:",
@@ -7697,7 +8775,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/12.jpg",
+     "lec": "Insulin",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Insulin activates the gene of:",
@@ -7720,7 +8805,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/13.jpg",
+     "lec": "Insulin",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Pyruvate kinase:",
@@ -7743,7 +8835,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/13.jpg",
+     "lec": "Insulin",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Genes repressed by insulin belong to:",
@@ -7765,7 +8864,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/13.jpg",
+     "lec": "Insulin",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The lecture's tests for the biological diagnosis of diabetes include:",
@@ -7788,7 +8894,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/14.jpg",
+     "lec": "Insulin",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The oral glucose tolerance test (induced hyperglycaemia per os) is especially useful for:",
@@ -7810,7 +8923,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/14.jpg",
+     "lec": "Insulin",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "HbA1c is measured by HPLC, which also:",
@@ -7832,7 +8952,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/14.jpg",
+     "lec": "Insulin",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "In a diabetic patient with a haemoglobinopathy, glycaemic control is followed with:",
@@ -7854,7 +8981,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/14.jpg",
+     "lec": "Insulin",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Fasting and post-prandial blood glucose in treatment monitoring are checked:",
@@ -7876,7 +9010,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/14.jpg",
+     "lec": "Insulin",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Self-monitoring reactive strips look for:",
@@ -7899,7 +9040,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/14.jpg",
+     "lec": "Insulin",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Kidney follow-up in diabetes includes:",
@@ -7922,7 +9070,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/14.jpg",
+     "lec": "Insulin",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "A lipid profile in a diabetic patient is part of:",
@@ -7944,7 +9099,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/14.jpg",
+     "lec": "Insulin",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "HbA1c is checked every:",
@@ -7966,7 +9128,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/14.jpg",
+     "lec": "Insulin",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "A fasting patient's blood glucose falls. Insulin secretion will:",
@@ -7988,7 +9157,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/03.jpg",
+     "lec": "Insulin",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "After a carbohydrate meal, which happens?",
@@ -8011,7 +9187,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/10.jpg",
+     "lec": "Insulin",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "C-peptide comes from:",
@@ -8033,7 +9216,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/05.jpg",
+     "lec": "Insulin",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which statements about insulin chains are correct?",
@@ -8056,7 +9246,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/05.jpg",
+     "lec": "Insulin",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The total number of amino acids in insulin is:",
@@ -8078,7 +9275,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/05.jpg",
+     "lec": "Insulin",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Pre-pro-insulin is:",
@@ -8101,7 +9305,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/06.jpg",
+     "lec": "Insulin",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Which hormone is the only hypoglycaemic hormone?",
@@ -8123,7 +9334,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/03.jpg",
+     "lec": "Insulin",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Insulin's action on muscle includes:",
@@ -8146,7 +9364,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/10.jpg",
+     "lec": "Insulin",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Insulin favours the 'filling' of adipose cells by:",
@@ -8168,7 +9393,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/11.jpg",
+     "lec": "Insulin",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "A drug that closes K+(ATP) channels in the β cell would:",
@@ -8190,7 +9422,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/08.jpg",
+     "lec": "Insulin",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Glycosuria in diabetes means:",
@@ -8212,7 +9451,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/14.jpg",
+     "lec": "Insulin",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Acetonuria indicates:",
@@ -8234,7 +9480,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/14.jpg",
+     "lec": "Insulin",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Insulin represses gluconeogenesis at two levels:",
@@ -8257,7 +9510,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/10.jpg",
+     "lec": "Insulin",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Glycogenolysis is inhibited by insulin in:",
@@ -8280,7 +9540,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/10.jpg",
+     "lec": "Insulin",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The large consumers of glucose named in the lecture are:",
@@ -8302,7 +9569,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/10.jpg",
+     "lec": "Insulin",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "In the β cell, the rise in ATP inhibits:",
@@ -8324,7 +9598,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/08.jpg",
+     "lec": "Insulin",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Insulin secretion is triggered after a meal by:",
@@ -8347,7 +9628,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/03.jpg",
+     "lec": "Insulin",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "A diabetic patient on monthly follow-up gets which test every month?",
@@ -8369,7 +9657,14 @@ SINA.lectures["biochem-insulin"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-insulin/14.jpg",
+     "lec": "Insulin",
+     "n": 14
+    }
+   ]
   }
  ],
  "cards": [
@@ -8961,7 +10256,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "They are sensitive but not specific.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/03.jpg",
+     "lec": "Hepatic exploration",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Liver biochemical tests are generally:",
@@ -8973,7 +10275,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "They change early but can be abnormal in non-hepatic disease.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/04.jpg",
+     "lec": "Hepatic exploration",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The degree of variation of liver tests allows us to:",
@@ -8985,7 +10294,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/03.jpg",
+     "lec": "Hepatic exploration",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The liver weighs about:",
@@ -8997,7 +10313,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "It is the largest organ, in the right sub-diaphragmatic space.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/05.jpg",
+     "lec": "Hepatic exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Total afferent blood flow to the liver is about:",
@@ -9009,7 +10332,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "75% portal vein, 25% hepatic artery.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/05.jpg",
+     "lec": "Hepatic exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The hepatic artery supplies about what share of liver blood flow?",
@@ -9021,7 +10351,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/05.jpg",
+     "lec": "Hepatic exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Efferent blood leaves the liver through:",
@@ -9033,7 +10370,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/05.jpg",
+     "lec": "Hepatic exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "In the hepatic lobule, blood flows:",
@@ -9045,7 +10389,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/06.jpg",
+     "lec": "Hepatic exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Bile flows in the lobule:",
@@ -9057,7 +10408,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "Opposite direction to blood.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/07.jpg",
+     "lec": "Hepatic exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The common bile duct is formed by the union of:",
@@ -9069,7 +10427,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/08.jpg",
+     "lec": "Hepatic exploration",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The common bile duct passes through:",
@@ -9081,7 +10446,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/08.jpg",
+     "lec": "Hepatic exploration",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Bile enters the duodenum through:",
@@ -9093,7 +10465,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "With the pancreatic duct, surrounded by the sphincter of Oddi.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/08.jpg",
+     "lec": "Hepatic exploration",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The function specific to the liver is:",
@@ -9105,7 +10484,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/14.jpg",
+     "lec": "Hepatic exploration",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The urea cycle transforms:",
@@ -9117,7 +10503,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "Urea is eliminated by the kidney.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/10.jpg",
+     "lec": "Hepatic exploration",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Iron is stored in the liver as:",
@@ -9129,7 +10522,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "Transferrin transports iron.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/10.jpg",
+     "lec": "Hepatic exploration",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The most abundant protein in blood, synthesised by the liver, is:",
@@ -9141,7 +10541,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/11.jpg",
+     "lec": "Hepatic exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Fibrinogen is also called:",
@@ -9153,7 +10560,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "Prothrombin is factor II.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/11.jpg",
+     "lec": "Hepatic exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Free (unconjugated) bilirubin comes from:",
@@ -9165,7 +10579,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/12.jpg",
+     "lec": "Hepatic exploration",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Free bilirubin is toxic mainly to:",
@@ -9177,7 +10598,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "Because it is liposoluble.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/35.jpg",
+     "lec": "Hepatic exploration",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "The liver conjugates bilirubin with:",
@@ -9189,7 +10617,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/35.jpg",
+     "lec": "Hepatic exploration",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "In the intestine, conjugated bilirubin is mainly transformed into:",
@@ -9201,7 +10636,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "A small part is reabsorbed; some leaves in urine as urobilinogen.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/13.jpg",
+     "lec": "Hepatic exploration",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The daily volume of bile is about:",
@@ -9213,7 +10655,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/14.jpg",
+     "lec": "Hepatic exploration",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Between meals, bile:",
@@ -9225,7 +10674,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/14.jpg",
+     "lec": "Hepatic exploration",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The hormone that triggers gallbladder contraction is:",
@@ -9237,7 +10693,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "Secreted by the lining of the small intestine.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/14.jpg",
+     "lec": "Hepatic exploration",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "The pH of bile is:",
@@ -9249,7 +10712,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 1,
    "why": "It is iso-osmotic, greenish yellow.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/15.jpg",
+     "lec": "Hepatic exploration",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Bile helps digestion by:",
@@ -9261,7 +10731,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/15.jpg",
+     "lec": "Hepatic exploration",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Bile acids are derived from:",
@@ -9273,7 +10750,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/16.jpg",
+     "lec": "Hepatic exploration",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Conjugated bile acids are formed by combining primary bile acids with:",
@@ -9285,7 +10769,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/16.jpg",
+     "lec": "Hepatic exploration",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Secondary bile acids are produced by:",
@@ -9297,7 +10788,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "Bile acids return to the liver by the enterohepatic cycle.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/16.jpg",
+     "lec": "Hepatic exploration",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Causes of liver disease listed in the lecture include:",
@@ -9309,7 +10807,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "Also bile duct obstruction and genetic enzyme deficiencies.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/17.jpg",
+     "lec": "Hepatic exploration",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Cytolysis syndrome results in:",
@@ -9321,7 +10826,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 1,
    "why": "Preceded by increased hepatocyte permeability.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/17.jpg",
+     "lec": "Hepatic exploration",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Hepatocellular insufficiency syndrome includes:",
@@ -9333,7 +10845,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "Also hyperammonaemia and reduced drug metabolism.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/42.jpg",
+     "lec": "Hepatic exploration",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Parameters of the cytolysis syndrome are:",
@@ -9345,7 +10864,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/02.jpg",
+     "lec": "Hepatic exploration",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Parameters of the cholestasis syndrome are:",
@@ -9357,7 +10883,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/02.jpg",
+     "lec": "Hepatic exploration",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Parameters of hepatocellular insufficiency are:",
@@ -9369,7 +10902,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/02.jpg",
+     "lec": "Hepatic exploration",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "AST is mainly located in:",
@@ -9381,7 +10921,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "ALT is more liver-specific.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/20.jpg",
+     "lec": "Hepatic exploration",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The upper reference value for transaminases in women is:",
@@ -9393,7 +10940,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "Men: under 45 IU/L.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/21.jpg",
+     "lec": "Hepatic exploration",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "AST alone increases with:",
@@ -9405,7 +10959,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 1,
    "why": "Alcohol and some drugs raise both transaminases.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/21.jpg",
+     "lec": "Hepatic exploration",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Drugs cited as raising both transaminases include:",
@@ -9417,7 +10978,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 1,
    "why": "Alcohol too.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/21.jpg",
+     "lec": "Hepatic exploration",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Moderate transaminase increases are typical of:",
@@ -9429,7 +10997,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "Large increases occur in acute hepatitis.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/22.jpg",
+     "lec": "Hepatic exploration",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "An isolated rise of AST without ALT suggests:",
@@ -9441,7 +11016,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/22.jpg",
+     "lec": "Hepatic exploration",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "LDH is:",
@@ -9453,7 +11035,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "So its interest for the liver is limited.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/23.jpg",
+     "lec": "Hepatic exploration",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The LDH isoenzyme most abundant in the heart is:",
@@ -9465,7 +11054,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 1,
    "why": "LDH2 in red cells, LDH5 in liver.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/24.jpg",
+     "lec": "Hepatic exploration",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The LDH isoenzyme of red blood cells is:",
@@ -9477,7 +11073,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/24.jpg",
+     "lec": "Hepatic exploration",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "LDH isoenzymes are rarely studied in practice because:",
@@ -9489,7 +11092,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/24.jpg",
+     "lec": "Hepatic exploration",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Adult reference values of LDH are:",
@@ -9501,7 +11111,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/24.jpg",
+     "lec": "Hepatic exploration",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Cholestasis is defined as:",
@@ -9513,7 +11130,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/25.jpg",
+     "lec": "Hepatic exploration",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "An extrahepatic cause of cholestasis is:",
@@ -9525,7 +11149,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "Cancer of the bile ducts or pancreatic head too.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/25.jpg",
+     "lec": "Hepatic exploration",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "An intrahepatic cause of cholestasis is:",
@@ -9537,7 +11168,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "Also hepatitis and liver metastases.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/25.jpg",
+     "lec": "Hepatic exploration",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Steatorrhoea in cholestasis is due to:",
@@ -9549,7 +11187,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/26.jpg",
+     "lec": "Hepatic exploration",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Bleeding tendency in cholestasis comes from malabsorption of:",
@@ -9561,7 +11206,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 1,
    "why": "Fat-soluble vitamins A, D, E, K are malabsorbed.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/26.jpg",
+     "lec": "Hepatic exploration",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Pale (discoloured) stools in cholestasis are due to:",
@@ -9573,7 +11225,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/26.jpg",
+     "lec": "Hepatic exploration",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "In cholestasis, plasma cholesterol can:",
@@ -9585,7 +11244,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/27.jpg",
+     "lec": "Hepatic exploration",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "ALP and GGT are located:",
@@ -9597,7 +11263,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "Membrane enzymes.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/28.jpg",
+     "lec": "Hepatic exploration",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Raised ALP helps diagnose:",
@@ -9609,7 +11282,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/30.jpg",
+     "lec": "Hepatic exploration",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "In children and adolescents, the bone fraction of ALP can represent up to:",
@@ -9621,7 +11301,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/31.jpg",
+     "lec": "Hepatic exploration",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "In pregnancy, ALP rises from about:",
@@ -9633,7 +11320,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/31.jpg",
+     "lec": "Hepatic exploration",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Compared by sex, ALP is:",
@@ -9645,7 +11339,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/31.jpg",
+     "lec": "Hepatic exploration",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "During fracture consolidation, ALP rises for about:",
@@ -9657,7 +11358,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/32.jpg",
+     "lec": "Hepatic exploration",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Circulating GGT is of:",
@@ -9669,7 +11377,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "It is 100 times more concentrated in bile than in serum.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/33.jpg",
+     "lec": "Hepatic exploration",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "A GGT sample should be taken:",
@@ -9681,7 +11396,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/33.jpg",
+     "lec": "Hepatic exploration",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Upper reference values of GGT are:",
@@ -9693,7 +11415,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/33.jpg",
+     "lec": "Hepatic exploration",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "In newborns, GGT is about:",
@@ -9705,7 +11434,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/33.jpg",
+     "lec": "Hepatic exploration",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Drugs that raise GGT include:",
@@ -9717,7 +11453,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/34.jpg",
+     "lec": "Hepatic exploration",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Extra-hepatic causes of raised GGT include:",
@@ -9729,7 +11472,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/34.jpg",
+     "lec": "Hepatic exploration",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Conjugated (direct) bilirubin is:",
@@ -9741,7 +11491,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/35.jpg",
+     "lec": "Hepatic exploration",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "Unconjugated bilirubin is calculated as:",
@@ -9753,7 +11510,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "Normal 2-8 mg/L.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/36.jpg",
+     "lec": "Hepatic exploration",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "The reference value of conjugated bilirubin is:",
@@ -9765,7 +11529,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/36.jpg",
+     "lec": "Hepatic exploration",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Jaundice appears on the skin when total bilirubin exceeds:",
@@ -9777,7 +11548,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "Conjunctiva first, above 30 µmol/L.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/36.jpg",
+     "lec": "Hepatic exploration",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Conjugated hyperbilirubinaemia is caused by:",
@@ -9789,7 +11567,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/25.jpg",
+     "lec": "Hepatic exploration",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Neonatal jaundice with conjugated or mixed bilirubin:",
@@ -9801,7 +11586,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "Causes: neonatal hepatitis, bile duct atresia.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/38.jpg",
+     "lec": "Hepatic exploration",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "At physiological pH, blood ammonia is mainly in the form of:",
@@ -9813,7 +11605,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/40.jpg",
+     "lec": "Hepatic exploration",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Part of blood ammonium is produced by:",
@@ -9825,7 +11624,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "Absorbed into the portal vein.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/40.jpg",
+     "lec": "Hepatic exploration",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Ammonium is eliminated:",
@@ -9837,7 +11643,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/40.jpg",
+     "lec": "Hepatic exploration",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "The reference value of ammonaemia is:",
@@ -9849,7 +11662,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/40.jpg",
+     "lec": "Hepatic exploration",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "A hereditary cause of hyperammonaemia is:",
@@ -9861,7 +11681,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "The acquired cause is severe liver failure.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/40.jpg",
+     "lec": "Hepatic exploration",
+     "n": 40
+    }
+   ]
   },
   {
    "q": "Albumin represents about what share of total plasma proteins?",
@@ -9873,7 +11700,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/41.jpg",
+     "lec": "Hepatic exploration",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Biological roles of albumin include:",
@@ -9885,7 +11719,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/41.jpg",
+     "lec": "Hepatic exploration",
+     "n": 41
+    }
+   ]
   },
   {
    "q": "Prothrombin time is prolonged in cholestasis because:",
@@ -9897,7 +11738,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/42.jpg",
+     "lec": "Hepatic exploration",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "Prothrombin complex factors made by the liver are:",
@@ -9909,7 +11757,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "Also factor XI.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/43.jpg",
+     "lec": "Hepatic exploration",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Alpha-fetoprotein is:",
@@ -9921,7 +11776,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/45.jpg",
+     "lec": "Hepatic exploration",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Alpha-fetoprotein dosage is indicated for:",
@@ -9933,7 +11795,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/45.jpg",
+     "lec": "Hepatic exploration",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Alpha-1-antitrypsin deficiency:",
@@ -9945,7 +11814,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "Loss of hepatic elasticity.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/45.jpg",
+     "lec": "Hepatic exploration",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "Ceruloplasmin:",
@@ -9957,7 +11833,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/46.jpg",
+     "lec": "Hepatic exploration",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "Serum ceruloplasmin collapses in:",
@@ -9969,7 +11852,14 @@ SINA.lectures["biochem-hepatic"] = {
    ],
    "answer": 3,
    "why": "Wilson's disease causes tissue copper accumulation.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-hepatic/46.jpg",
+     "lec": "Hepatic exploration",
+     "n": 46
+    }
+   ]
   }
  ],
  "cards": [
@@ -11554,7 +13444,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/04.jpg",
+     "lec": "Steroid hormones",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The 4 types of steroid hormones are:",
@@ -11577,7 +13474,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/03.jpg",
+     "lec": "Steroid hormones",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which steroid hormone a tissue makes depends on:",
@@ -11600,7 +13504,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/03.jpg",
+     "lec": "Steroid hormones",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The same type of steroid (e.g. oestrogens) can exist in different structures, such as:",
@@ -11622,7 +13533,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/05.jpg",
+     "lec": "Steroid hormones",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The glomerular zone of the adrenal cortex secretes:",
@@ -11644,7 +13562,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/06.jpg",
+     "lec": "Steroid hormones",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The fascicular zone secretes:",
@@ -11667,7 +13592,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/06.jpg",
+     "lec": "Steroid hormones",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "In the reticular zone, androgens come mainly from:",
@@ -11689,7 +13621,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/06.jpg",
+     "lec": "Steroid hormones",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "During the first half of the menstrual cycle:",
@@ -11711,7 +13650,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/09.jpg",
+     "lec": "Steroid hormones",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Ovulation coincides with:",
@@ -11734,7 +13680,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/09.jpg",
+     "lec": "Steroid hormones",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "In the follicular phase, granulosa cells:",
@@ -11756,7 +13709,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/10.jpg",
+     "lec": "Steroid hormones",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Leydig cells are located:",
@@ -11778,7 +13738,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/12.jpg",
+     "lec": "Steroid hormones",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Sertoli cells:",
@@ -11801,7 +13768,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/12.jpg",
+     "lec": "Steroid hormones",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "In Leydig cells, testosterone comes from the conversion of:",
@@ -11823,7 +13797,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/10.jpg",
+     "lec": "Steroid hormones",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The placenta:",
@@ -11846,7 +13827,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/14.jpg",
+     "lec": "Steroid hormones",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Oestrogens are steroids with:",
@@ -11868,7 +13856,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/15.jpg",
+     "lec": "Steroid hormones",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which hormones have 21 carbons?",
@@ -11891,7 +13886,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/17.jpg",
+     "lec": "Steroid hormones",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The predominant oestrogen after menopause is:",
@@ -11913,7 +13915,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/37.jpg",
+     "lec": "Steroid hormones",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "In a genitally active woman, oestradiol represents about:",
@@ -11935,7 +13944,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/36.jpg",
+     "lec": "Steroid hormones",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Oestriol (E3) is secreted:",
@@ -11958,7 +13974,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/36.jpg",
+     "lec": "Steroid hormones",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Weak androgens (precursors) include:",
@@ -11981,7 +14004,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/16.jpg",
+     "lec": "Steroid hormones",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Androstenedione:",
@@ -12004,7 +14034,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/16.jpg",
+     "lec": "Steroid hormones",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Progesterone is mainly secreted by:",
@@ -12027,7 +14064,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/39.jpg",
+     "lec": "Steroid hormones",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Desmolases:",
@@ -12049,7 +14093,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/18.jpg",
+     "lec": "Steroid hormones",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The enzyme couple acting successively in steroidogenesis is:",
@@ -12071,7 +14122,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/18.jpg",
+     "lec": "Steroid hormones",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Steroidogenic tissues obtain cholesterol mainly from:",
@@ -12093,7 +14151,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/19.jpg",
+     "lec": "Steroid hormones",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The conversion of cholesterol to pregnenolone happens in:",
@@ -12115,7 +14180,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/19.jpg",
+     "lec": "Steroid hormones",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Before 20-22 desmolase acts, cholesterol is:",
@@ -12137,7 +14209,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/19.jpg",
+     "lec": "Steroid hormones",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The products of the common microsomal pathway include:",
@@ -12160,7 +14239,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/20.jpg",
+     "lec": "Steroid hormones",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Glucocorticoid synthesis takes place:",
@@ -12182,7 +14268,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/22.jpg",
+     "lec": "Steroid hormones",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "To make cortisol, 17α-OH progesterone undergoes:",
@@ -12204,7 +14297,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/27.jpg",
+     "lec": "Steroid hormones",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Cortisol is metabolised in the liver into:",
@@ -12226,7 +14326,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/24.jpg",
+     "lec": "Steroid hormones",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "In 21-hydroxylase deficiency, accumulated 17α-OH progesterone:",
@@ -12248,7 +14355,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/26.jpg",
+     "lec": "Steroid hormones",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "In 21-hydroxylase deficiency, the adrenal cortex hypertrophies because:",
@@ -12270,7 +14384,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/53.jpg",
+     "lec": "Steroid hormones",
+     "n": 53
+    }
+   ]
   },
   {
    "q": "In families at risk of congenital adrenal hyperplasia, corticosteroid therapy:",
@@ -12292,7 +14413,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/28.jpg",
+     "lec": "Steroid hormones",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Signs of congenital adrenal hyperplasia in adolescence include:",
@@ -12315,7 +14443,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/28.jpg",
+     "lec": "Steroid hormones",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Dehydration attacks refractory to rehydration in CAH are due to:",
@@ -12337,7 +14472,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/28.jpg",
+     "lec": "Steroid hormones",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Mineralocorticoid synthesis takes place:",
@@ -12360,7 +14502,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/29.jpg",
+     "lec": "Steroid hormones",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "21-hydroxylase acting on progesterone gives:",
@@ -12382,7 +14531,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/29.jpg",
+     "lec": "Steroid hormones",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Corticosterone:",
@@ -12405,7 +14561,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/30.jpg",
+     "lec": "Steroid hormones",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Gestational hypertension from a mineralocorticoid receptor mutation:",
@@ -12428,7 +14591,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/31.jpg",
+     "lec": "Steroid hormones",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Before puberty, the adrenal glands convert:",
@@ -12450,7 +14620,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/33.jpg",
+     "lec": "Steroid hormones",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "After puberty in boys, adrenal androstenedione is converted into:",
@@ -12472,7 +14649,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/33.jpg",
+     "lec": "Steroid hormones",
+     "n": 33
+    }
+   ]
   },
   {
    "q": "Oestrogen biosynthesis:",
@@ -12495,7 +14679,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/38.jpg",
+     "lec": "Steroid hormones",
+     "n": 38
+    }
+   ]
   },
   {
    "q": "Oestradiol (E2) protects bone against:",
@@ -12517,7 +14708,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/36.jpg",
+     "lec": "Steroid hormones",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "Obesity in postmenopausal women:",
@@ -12540,7 +14738,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/37.jpg",
+     "lec": "Steroid hormones",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "In the 1st trimester of pregnancy, oestrogen and progesterone come mainly from:",
@@ -12562,7 +14767,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/39.jpg",
+     "lec": "Steroid hormones",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "From the 2nd trimester, the feto-placental unit produces oestrogens using DHEA from:",
@@ -12584,7 +14796,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/39.jpg",
+     "lec": "Steroid hormones",
+     "n": 39
+    }
+   ]
   },
   {
    "q": "Cortisol, as a stress hormone:",
@@ -12607,7 +14826,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/42.jpg",
+     "lec": "Steroid hormones",
+     "n": 42
+    }
+   ]
   },
   {
    "q": "In the fetus, cortisol helps:",
@@ -12630,7 +14856,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/43.jpg",
+     "lec": "Steroid hormones",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Hyaline membrane disease of the preterm infant is due to:",
@@ -12652,7 +14885,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/43.jpg",
+     "lec": "Steroid hormones",
+     "n": 43
+    }
+   ]
   },
   {
    "q": "Aldosterone, acting on the distal tubule, leads to:",
@@ -12675,7 +14915,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/44.jpg",
+     "lec": "Steroid hormones",
+     "n": 44
+    }
+   ]
   },
   {
    "q": "Oestrogens cause:",
@@ -12698,7 +14945,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/46.jpg",
+     "lec": "Steroid hormones",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "After childbirth, lactation is triggered by:",
@@ -12720,7 +14974,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/46.jpg",
+     "lec": "Steroid hormones",
+     "n": 46
+    }
+   ]
   },
   {
    "q": "Progesterone in the mammary gland:",
@@ -12743,7 +15004,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/47.jpg",
+     "lec": "Steroid hormones",
+     "n": 47
+    }
+   ]
   },
   {
    "q": "Androgens:",
@@ -12766,7 +15034,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/48.jpg",
+     "lec": "Steroid hormones",
+     "n": 48
+    }
+   ]
   },
   {
    "q": "ACTH is secreted by:",
@@ -12788,7 +15063,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/51.jpg",
+     "lec": "Steroid hormones",
+     "n": 51
+    }
+   ]
   },
   {
    "q": "Variations in blood volume regulate aldosterone through:",
@@ -12810,7 +15092,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/45.jpg",
+     "lec": "Steroid hormones",
+     "n": 45
+    }
+   ]
   },
   {
    "q": "When plasma oestrogen exceeds a threshold:",
@@ -12833,7 +15122,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/55.jpg",
+     "lec": "Steroid hormones",
+     "n": 55
+    }
+   ]
   },
   {
    "q": "Addison's disease (primary total hypocorticism):",
@@ -12856,7 +15152,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/58.jpg",
+     "lec": "Steroid hormones",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "Skin pigmentation in Addison's disease is linked to:",
@@ -12878,7 +15181,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/58.jpg",
+     "lec": "Steroid hormones",
+     "n": 58
+    }
+   ]
   },
   {
    "q": "Sheehan syndrome causes:",
@@ -12901,7 +15211,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/60.jpg",
+     "lec": "Steroid hormones",
+     "n": 60
+    }
+   ]
   },
   {
    "q": "Cushing's disease (as opposed to an adrenal tumour) refers to:",
@@ -12923,7 +15240,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/62.jpg",
+     "lec": "Steroid hormones",
+     "n": 62
+    }
+   ]
   },
   {
    "q": "Turner syndrome:",
@@ -12946,7 +15270,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/65.jpg",
+     "lec": "Steroid hormones",
+     "n": 65
+    }
+   ]
   },
   {
    "q": "In primary male hypogonadism (e.g. Klinefelter, castration), blood shows:",
@@ -12969,7 +15300,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/66.jpg",
+     "lec": "Steroid hormones",
+     "n": 66
+    }
+   ]
   },
   {
    "q": "A boy with early puberty has high testosterone and normal or low FSH. The origin is likely:",
@@ -12991,7 +15329,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/66.jpg",
+     "lec": "Steroid hormones",
+     "n": 66
+    }
+   ]
   },
   {
    "q": "Male pseudohermaphroditism from absent DHT receptors shows:",
@@ -13014,7 +15359,14 @@ SINA.lectures["biochem-steroids"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-steroids/66.jpg",
+     "lec": "Steroid hormones",
+     "n": 66
+    }
+   ]
   }
  ],
  "cards": [
@@ -13524,7 +15876,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "One acute, one chronic.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/03.jpg",
+     "lec": "Cardiac exploration",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Acute coronary syndrome results from:",
@@ -13536,7 +15895,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "It can threaten life shortly after chest pain.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/06.jpg",
+     "lec": "Cardiac exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Chronic heart failure evolves:",
@@ -13548,7 +15914,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/04.jpg",
+     "lec": "Cardiac exploration",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "A 'prognostic' cardiac marker is used to:",
@@ -13560,7 +15933,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "CRPus in the lecture.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/03.jpg",
+     "lec": "Cardiac exploration",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The diagnosis of myocardial infarction combines troponin with:",
@@ -13572,7 +15952,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/08.jpg",
+     "lec": "Cardiac exploration",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "How many 'previous' (old) infarction markers are listed?",
@@ -13584,7 +15971,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "Myoglobin, CPK, CK-MB, AST, LDH.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/05.jpg",
+     "lec": "Cardiac exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which is NOT one of the old infarction markers?",
@@ -13596,7 +15990,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "Troponins are the new markers.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/04.jpg",
+     "lec": "Cardiac exploration",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The old infarction markers are no longer used routinely because they are:",
@@ -13608,7 +16009,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/05.jpg",
+     "lec": "Cardiac exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "AST, one of the old infarction markers, is also called:",
@@ -13620,7 +16028,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/05.jpg",
+     "lec": "Cardiac exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "CPK stands for:",
@@ -13632,7 +16047,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/05.jpg",
+     "lec": "Cardiac exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "With a high-sensitivity assay, troponin T or I rises after chest pain at:",
@@ -13644,7 +16066,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "A classic assay detects it at 4 hours.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/06.jpg",
+     "lec": "Cardiac exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "With a classic (non-hypersensitive) troponin assay, the rise is detected at:",
@@ -13656,7 +16085,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/08.jpg",
+     "lec": "Cardiac exploration",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The plasma peak of troponin occurs around:",
@@ -13668,7 +16104,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/06.jpg",
+     "lec": "Cardiac exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Cardiac troponin I stays elevated for:",
@@ -13680,7 +16123,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "cTnT stays more than 10 days.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/06.jpg",
+     "lec": "Cardiac exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Cardiac troponin T stays elevated for:",
@@ -13692,7 +16142,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/06.jpg",
+     "lec": "Cardiac exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The long persistence of troponins allows:",
@@ -13704,7 +16161,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/06.jpg",
+     "lec": "Cardiac exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Troponins are:",
@@ -13716,7 +16180,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "They regulate muscle activity.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/07.jpg",
+     "lec": "Cardiac exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The three troponin subunits are:",
@@ -13728,7 +16199,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/07.jpg",
+     "lec": "Cardiac exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Troponin T has:",
@@ -13740,7 +16218,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/07.jpg",
+     "lec": "Cardiac exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Troponin I has:",
@@ -13752,7 +16237,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/07.jpg",
+     "lec": "Cardiac exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Troponin C:",
@@ -13764,7 +16256,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 0,
    "why": "So it is of no interest in cardiology.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/07.jpg",
+     "lec": "Cardiac exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Troponin can rise without acute coronary syndrome in:",
@@ -13776,7 +16275,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "Also drug toxicity, chemotherapy, pericarditis, acute ventricular failure.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/07.jpg",
+     "lec": "Cardiac exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Chemotherapy can raise troponin because it causes:",
@@ -13788,7 +16294,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/07.jpg",
+     "lec": "Cardiac exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Pericarditis can:",
@@ -13800,7 +16313,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/07.jpg",
+     "lec": "Cardiac exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The hypersensitive troponin test is useful because it:",
@@ -13812,7 +16332,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/08.jpg",
+     "lec": "Cardiac exploration",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "A patient seen 1 hour after chest pain has a normal troponin. You should:",
@@ -13824,7 +16351,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/06.jpg",
+     "lec": "Cardiac exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Troponin assays are:",
@@ -13836,7 +16370,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/08.jpg",
+     "lec": "Cardiac exploration",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "BNP stands for:",
@@ -13848,7 +16389,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/09.jpg",
+     "lec": "Cardiac exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "NT-proBNP is:",
@@ -13860,7 +16408,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/09.jpg",
+     "lec": "Cardiac exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "BNP and NT-proBNP come from the cleavage of:",
@@ -13872,7 +16427,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/09.jpg",
+     "lec": "Cardiac exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "BNP and NT-proBNP are mainly secreted by:",
@@ -13884,7 +16446,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/09.jpg",
+     "lec": "Cardiac exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Natriuretic peptides have which effects?",
@@ -13896,7 +16465,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/09.jpg",
+     "lec": "Cardiac exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Natriuretic peptides antagonise:",
@@ -13908,7 +16484,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/09.jpg",
+     "lec": "Cardiac exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "BNP and NT-proBNP rise in heart failure because of:",
@@ -13920,7 +16503,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/09.jpg",
+     "lec": "Cardiac exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Besides heart failure, natriuretic peptides can rise in:",
@@ -13932,7 +16522,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "Also endocrine diseases.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/09.jpg",
+     "lec": "Cardiac exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "BNP and NT-proBNP have:",
@@ -13944,7 +16541,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "But their use needs precautions.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/10.jpg",
+     "lec": "Cardiac exploration",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "When following a heart-failure patient with natriuretic peptides, you should:",
@@ -13956,7 +16560,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/10.jpg",
+     "lec": "Cardiac exploration",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Natriuretic peptide concentrations physiologically:",
@@ -13968,7 +16579,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "They are higher in women.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/10.jpg",
+     "lec": "Cardiac exploration",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Natriuretic peptides are inversely proportional to:",
@@ -13980,7 +16598,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "They are lower in overweight people.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/10.jpg",
+     "lec": "Cardiac exploration",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "An obese patient with heart failure may have a BNP that is:",
@@ -13992,7 +16617,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/10.jpg",
+     "lec": "Cardiac exploration",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "NT-proBNP results can be distorted in:",
@@ -14004,7 +16636,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "Analytical interference.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/10.jpg",
+     "lec": "Cardiac exploration",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Compared with BNP, NT-proBNP:",
@@ -14016,7 +16655,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/10.jpg",
+     "lec": "Cardiac exploration",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "CRP is produced mainly by:",
@@ -14028,7 +16674,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/11.jpg",
+     "lec": "Cardiac exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "CRP production is driven by the cytokine:",
@@ -14040,7 +16693,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/11.jpg",
+     "lec": "Cardiac exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The roles of CRP include:",
@@ -14052,7 +16712,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/11.jpg",
+     "lec": "Cardiac exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "CRP starts to rise after the start of inflammation at:",
@@ -14064,7 +16731,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/11.jpg",
+     "lec": "Cardiac exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "CRP reaches its maximum at:",
@@ -14076,7 +16750,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/11.jpg",
+     "lec": "Cardiac exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "CRP returns to normal (under 6 mg/L) after about:",
@@ -14088,7 +16769,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/11.jpg",
+     "lec": "Cardiac exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "A persistent low CRP (under 10 mg/L) after inflammation has settled is interpreted as:",
@@ -14100,7 +16788,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "It reflects dull, persistent inflammation.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/12.jpg",
+     "lec": "Cardiac exploration",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Low CRP concentrations can only be measured with:",
@@ -14112,7 +16807,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/12.jpg",
+     "lec": "Cardiac exploration",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "CRPus can measure concentrations from about:",
@@ -14124,7 +16826,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/12.jpg",
+     "lec": "Cardiac exploration",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "CRPus is mainly of interest in:",
@@ -14136,7 +16845,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/04.jpg",
+     "lec": "Cardiac exploration",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The exact value of a persistently low CRP helps to:",
@@ -14148,7 +16864,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/12.jpg",
+     "lec": "Cardiac exploration",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "CRP belongs to the proteins of:",
@@ -14160,7 +16883,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/11.jpg",
+     "lec": "Cardiac exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which marker is the best choice for diagnosing chronic heart failure?",
@@ -14172,7 +16902,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/09.jpg",
+     "lec": "Cardiac exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which marker is the best choice for diagnosing myocardial infarction?",
@@ -14184,7 +16921,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/07.jpg",
+     "lec": "Cardiac exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which marker is used for prognosis of coronary disease?",
@@ -14196,7 +16940,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/11.jpg",
+     "lec": "Cardiac exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "A patient with known myocarditis has raised troponin without coronary obstruction. This shows that troponin is:",
@@ -14208,7 +16959,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/05.jpg",
+     "lec": "Cardiac exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Troponin specificity for infarction is higher than that of:",
@@ -14220,7 +16978,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/04.jpg",
+     "lec": "Cardiac exploration",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "For an early diagnosis of acute coronary syndrome, the clinician should prescribe:",
@@ -14232,7 +16997,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/08.jpg",
+     "lec": "Cardiac exploration",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Troponin T and I in the heart are written:",
@@ -14244,7 +17016,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/06.jpg",
+     "lec": "Cardiac exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "A troponin result from one laboratory cannot be compared directly with another because:",
@@ -14256,7 +17035,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/08.jpg",
+     "lec": "Cardiac exploration",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Natriuretic peptide levels are higher:",
@@ -14268,7 +17054,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/10.jpg",
+     "lec": "Cardiac exploration",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "BNP and NT-proBNP belong to the family of:",
@@ -14280,7 +17073,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/09.jpg",
+     "lec": "Cardiac exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "A drug causing myocardial toxicity may raise:",
@@ -14292,7 +17092,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/07.jpg",
+     "lec": "Cardiac exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Acute ventricular failure can raise troponin. It is classed as:",
@@ -14304,7 +17111,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/07.jpg",
+     "lec": "Cardiac exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "A patient seen 5 days after an infarction: the troponin most likely still raised is:",
@@ -14316,7 +17130,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "cTnT stays high more than 10 days; cTnI 75-140 h (3-6 days).",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/06.jpg",
+     "lec": "Cardiac exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "A CRP of 120 mg/L in a patient with fever most likely reflects:",
@@ -14328,7 +17149,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "The low persistent values matter for cardiovascular risk.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/12.jpg",
+     "lec": "Cardiac exploration",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Interleukin-6 acts on the liver to produce:",
@@ -14340,7 +17168,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/11.jpg",
+     "lec": "Cardiac exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Natriuretic peptides cause vasodilation, which:",
@@ -14352,7 +17187,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/09.jpg",
+     "lec": "Cardiac exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Which statement about BNP versus NT-proBNP in practice is correct?",
@@ -14364,7 +17206,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/10.jpg",
+     "lec": "Cardiac exploration",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "A dialysis patient's NT-proBNP is very high without symptoms. The likely explanation is:",
@@ -14376,7 +17225,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/10.jpg",
+     "lec": "Cardiac exploration",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Troponins regulate:",
@@ -14388,7 +17244,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/07.jpg",
+     "lec": "Cardiac exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which troponin subunit is useless in cardiology?",
@@ -14400,7 +17263,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/07.jpg",
+     "lec": "Cardiac exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Myoglobin as an infarction marker is:",
@@ -14412,7 +17282,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/04.jpg",
+     "lec": "Cardiac exploration",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "CK-MB is:",
@@ -14424,7 +17301,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/05.jpg",
+     "lec": "Cardiac exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "LDH as an infarction marker is:",
@@ -14436,7 +17320,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/04.jpg",
+     "lec": "Cardiac exploration",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Cirrhosis can raise:",
@@ -14448,7 +17339,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/09.jpg",
+     "lec": "Cardiac exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The hypersensitive troponin test is 'positive' at:",
@@ -14460,7 +17358,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/08.jpg",
+     "lec": "Cardiac exploration",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The kinetics of troponin after infarction allows:",
@@ -14472,7 +17377,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/04.jpg",
+     "lec": "Cardiac exploration",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "After inflammation stabilises, CRP should normally fall below:",
@@ -14484,7 +17396,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/11.jpg",
+     "lec": "Cardiac exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Endocrine diseases can raise:",
@@ -14496,7 +17415,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/09.jpg",
+     "lec": "Cardiac exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "CRPus was shown in many publications to be useful for:",
@@ -14508,7 +17434,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/04.jpg",
+     "lec": "Cardiac exploration",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Natriuretic peptides are mainly secreted when cardiomyocytes face:",
@@ -14520,7 +17453,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/09.jpg",
+     "lec": "Cardiac exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "A persistently low CRP after inflammation reflects:",
@@ -14532,7 +17472,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/12.jpg",
+     "lec": "Cardiac exploration",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "In the diagnosis of ACS, troponin must be interpreted with:",
@@ -14544,7 +17491,14 @@ SINA.lectures["biochem-cardiac"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-cardiac/08.jpg",
+     "lec": "Cardiac exploration",
+     "n": 8
+    }
+   ]
   }
  ],
  "cards": [
@@ -15125,7 +18079,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 1,
    "why": "Each nephron has a glomerulus and tubules.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/03.jpg",
+     "lec": "Renal exploration",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Renal pathologies may involve:",
@@ -15137,7 +18098,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/25.jpg",
+     "lec": "Renal exploration",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The laboratory's role in kidney disease includes:",
@@ -15149,7 +18117,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/03.jpg",
+     "lec": "Renal exploration",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Renin made by the kidney regulates:",
@@ -15161,7 +18136,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/04.jpg",
+     "lec": "Renal exploration",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Erythropoietin made by the kidney regulates:",
@@ -15173,7 +18155,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/04.jpg",
+     "lec": "Renal exploration",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Active vitamin D made by the kidney regulates:",
@@ -15185,7 +18174,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/11.jpg",
+     "lec": "Renal exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The nephron's roles include regulation of:",
@@ -15197,7 +18193,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 3,
    "why": "Plus toxin elimination and endocrine functions.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/04.jpg",
+     "lec": "Renal exploration",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Creatinine is:",
@@ -15209,7 +18212,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "It reflects muscle mass.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/05.jpg",
+     "lec": "Renal exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Unlike urea, serum creatinine is independent of:",
@@ -15221,7 +18231,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/05.jpg",
+     "lec": "Renal exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Creatinine sampling should be done:",
@@ -15233,7 +18250,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "Fasting should be moderate (acetoacetate interference).",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/05.jpg",
+     "lec": "Renal exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Too long a fast can distort creatinine through interference by:",
@@ -15245,7 +18269,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/05.jpg",
+     "lec": "Renal exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The reference value of serum creatinine in women is:",
@@ -15257,7 +18288,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/05.jpg",
+     "lec": "Renal exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The reference value of serum creatinine in children is:",
@@ -15269,7 +18307,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/05.jpg",
+     "lec": "Renal exploration",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Urea is synthesised by:",
@@ -15281,7 +18326,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 1,
    "why": "Ammonia comes from protein catabolism.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/06.jpg",
+     "lec": "Renal exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Urea rises when:",
@@ -15293,7 +18345,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 1,
    "why": "It also rises with high protein intake and catabolism.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/06.jpg",
+     "lec": "Renal exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The reference value of blood urea is:",
@@ -15305,7 +18364,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/06.jpg",
+     "lec": "Renal exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Urea is usually measured together with:",
@@ -15317,7 +18383,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/06.jpg",
+     "lec": "Renal exploration",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Cystatin C is:",
@@ -15329,7 +18402,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/07.jpg",
+     "lec": "Renal exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Cystatin C is stable with age between:",
@@ -15341,7 +18421,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/07.jpg",
+     "lec": "Renal exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Cystatin C is especially useful in:",
@@ -15353,7 +18440,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/07.jpg",
+     "lec": "Renal exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Cystatin C is an early marker of:",
@@ -15365,7 +18459,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/07.jpg",
+     "lec": "Renal exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "In tubulopathies, cystatin C is a marker of:",
@@ -15377,7 +18478,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/07.jpg",
+     "lec": "Renal exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The main disadvantage of cystatin C is:",
@@ -15389,7 +18497,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "Fasting is not essential.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/07.jpg",
+     "lec": "Renal exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The reference value of cystatin C (1-50 years) is:",
@@ -15401,7 +18516,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/07.jpg",
+     "lec": "Renal exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Uric acid varies with:",
@@ -15413,7 +18535,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/08.jpg",
+     "lec": "Renal exploration",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Before a uric acid assay, the patient should:",
@@ -15425,7 +18554,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/08.jpg",
+     "lec": "Renal exploration",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "For uric acid, the grey tube (oxalate/fluoride) is avoided because:",
@@ -15437,7 +18573,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/08.jpg",
+     "lec": "Renal exploration",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The reference value of uric acid in men is:",
@@ -15449,7 +18592,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/08.jpg",
+     "lec": "Renal exploration",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "In renal failure, uric acid:",
@@ -15461,7 +18611,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/08.jpg",
+     "lec": "Renal exploration",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The plasma ionogram includes:",
@@ -15473,7 +18630,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/09.jpg",
+     "lec": "Renal exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The main extracellular cation is:",
@@ -15485,7 +18649,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/09.jpg",
+     "lec": "Renal exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The main intracellular cation is:",
@@ -15497,7 +18668,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/09.jpg",
+     "lec": "Renal exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "In acute renal failure, hyperkalaemia occurs because:",
@@ -15509,7 +18687,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/09.jpg",
+     "lec": "Renal exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "In chronic renal failure, bicarbonate falls because of:",
@@ -15521,7 +18706,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/10.jpg",
+     "lec": "Renal exploration",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Plasma osmolality is estimated by:",
@@ -15533,7 +18725,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "≈ 290 ± 5 mOsm/L.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/10.jpg",
+     "lec": "Renal exploration",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Calcium and phosphate are measured systematically in chronic renal failure to assess:",
@@ -15545,7 +18744,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/11.jpg",
+     "lec": "Renal exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "In chronic renal failure, the bone disease includes:",
@@ -15557,7 +18763,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/11.jpg",
+     "lec": "Renal exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "In chronic renal failure, phosphate:",
@@ -15569,7 +18782,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "Calcium falls; PTH rises.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/11.jpg",
+     "lec": "Renal exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "In chronic renal failure, PTH:",
@@ -15581,7 +18801,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/11.jpg",
+     "lec": "Renal exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Normal adult diuresis is:",
@@ -15593,7 +18820,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/12.jpg",
+     "lec": "Renal exploration",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "A normal diuresis:",
@@ -15605,7 +18839,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "Water excretion can be preserved while GFR is reduced.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/12.jpg",
+     "lec": "Renal exploration",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Polyuria is defined as more than:",
@@ -15617,7 +18858,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/12.jpg",
+     "lec": "Renal exploration",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Causes of polyuria include:",
@@ -15629,7 +18877,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "Also renal failure.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/12.jpg",
+     "lec": "Renal exploration",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Anuria is a urine volume of less than:",
@@ -15641,7 +18896,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/12.jpg",
+     "lec": "Renal exploration",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Physiological oliguria can follow:",
@@ -15653,7 +18915,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/12.jpg",
+     "lec": "Renal exploration",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Proteinuria screening with reactive strips is:",
@@ -15665,7 +18934,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/13.jpg",
+     "lec": "Renal exploration",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The 24-h urine for proteinuria should be collected:",
@@ -15677,7 +18953,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/13.jpg",
+     "lec": "Renal exploration",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Physiological proteinuria ranges between:",
@@ -15689,7 +18972,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/13.jpg",
+     "lec": "Renal exploration",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Functional proteinuria is:",
@@ -15701,7 +18991,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/13.jpg",
+     "lec": "Renal exploration",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Causes of functional proteinuria include:",
@@ -15713,7 +19010,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/13.jpg",
+     "lec": "Renal exploration",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Pathological proteinuria is:",
@@ -15725,7 +19029,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/13.jpg",
+     "lec": "Renal exploration",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Microalbuminuria is also called:",
@@ -15737,7 +19048,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/14.jpg",
+     "lec": "Renal exploration",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Microalbuminuria is a predictive marker of:",
@@ -15749,7 +19067,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/14.jpg",
+     "lec": "Renal exploration",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Frank proteinuria starts above:",
@@ -15761,7 +19086,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 3,
    "why": "Microalbuminuria lies between 30 and 300 mg/24 h.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/14.jpg",
+     "lec": "Renal exploration",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Natriuresis and kaliuresis depend on:",
@@ -15773,7 +19105,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/15.jpg",
+     "lec": "Renal exploration",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "24-h urinary creatinine normally is:",
@@ -15785,7 +19124,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 3,
    "why": "8.8-17.5 mmol.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/15.jpg",
+     "lec": "Renal exploration",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Urinary urea gives information on:",
@@ -15797,7 +19143,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/16.jpg",
+     "lec": "Renal exploration",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Urinary calcium and phosphorus are measured mainly to explore:",
@@ -15809,7 +19162,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 3,
    "why": "And disorders of chronic renal failure.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/16.jpg",
+     "lec": "Renal exploration",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "The GFR of a glomerulus is:",
@@ -15821,7 +19181,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/17.jpg",
+     "lec": "Renal exploration",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Clearance is defined as:",
@@ -15833,7 +19200,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/22.jpg",
+     "lec": "Renal exploration",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "A substance's clearance equals the GFR if it is:",
@@ -15845,7 +19219,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/17.jpg",
+     "lec": "Renal exploration",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "In the clearance formula U × V / P, V is:",
@@ -15857,7 +19238,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/19.jpg",
+     "lec": "Renal exploration",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Creatinine clearance is semiologically important because it:",
@@ -15869,7 +19257,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/19.jpg",
+     "lec": "Renal exploration",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The best overall index of kidney function is:",
@@ -15881,7 +19276,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/18.jpg",
+     "lec": "Renal exploration",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Clearance values must be related to a body surface of:",
@@ -15893,7 +19295,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/19.jpg",
+     "lec": "Renal exploration",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Normal creatinine clearance in women is:",
@@ -15905,7 +19314,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/19.jpg",
+     "lec": "Renal exploration",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Formulas such as MDRD replaced measured clearance because they:",
@@ -15917,7 +19333,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/20.jpg",
+     "lec": "Renal exploration",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Moderate chronic kidney disease corresponds to a clearance of:",
@@ -15929,7 +19352,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "Usually without clinical impact.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/21.jpg",
+     "lec": "Renal exploration",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Significant chronic kidney disease corresponds to a clearance of:",
@@ -15941,7 +19371,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/21.jpg",
+     "lec": "Renal exploration",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Severe chronic kidney disease, with most biological disorders present, corresponds to:",
@@ -15953,7 +19390,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/21.jpg",
+     "lec": "Renal exploration",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Below 5 mL/min of creatinine clearance:",
@@ -15965,7 +19409,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/21.jpg",
+     "lec": "Renal exploration",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Osmolar clearance evaluates:",
@@ -15977,7 +19428,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/22.jpg",
+     "lec": "Renal exploration",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Osmolar clearance is calculated as:",
@@ -15989,7 +19447,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/22.jpg",
+     "lec": "Renal exploration",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "In the concentration (water restriction) test, the patient:",
@@ -16001,7 +19466,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/23.jpg",
+     "lec": "Renal exploration",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "In the dilution test, the water load is:",
@@ -16013,7 +19485,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/23.jpg",
+     "lec": "Renal exploration",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "In the dilution test, normally one urine sample reaches an osmolality close to:",
@@ -16025,7 +19504,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/23.jpg",
+     "lec": "Renal exploration",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "In the dilution test, a normal kidney removes:",
@@ -16037,7 +19523,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/23.jpg",
+     "lec": "Renal exploration",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The kidney controls acid-base balance by:",
@@ -16049,7 +19542,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/24.jpg",
+     "lec": "Renal exploration",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Routine renal tests giving complete information on function are:",
@@ -16061,7 +19561,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/25.jpg",
+     "lec": "Renal exploration",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Simple tests showing the kidney's role in homeostasis include:",
@@ -16073,7 +19580,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/11.jpg",
+     "lec": "Renal exploration",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Specialised renal tests include:",
@@ -16085,7 +19599,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/25.jpg",
+     "lec": "Renal exploration",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "A malnourished elderly woman has a 'normal' creatinine. To assess GFR better, you would use:",
@@ -16097,7 +19618,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "Creatinine underestimates renal failure when muscle mass is low.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/07.jpg",
+     "lec": "Renal exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "A patient on high-dose corticosteroids has a high cystatin C. This may be due to:",
@@ -16109,7 +19637,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/07.jpg",
+     "lec": "Renal exploration",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "A creatinine clearance seems falsely low. The most frequent cause is:",
@@ -16121,7 +19656,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/20.jpg",
+     "lec": "Renal exploration",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "A potassium of 7 mmol/L in acute renal failure means:",
@@ -16133,7 +19675,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 0,
    "why": "Above 6.5 mmol/L is life-threatening.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/09.jpg",
+     "lec": "Renal exploration",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The normal urinary Na/K ratio is:",
@@ -16145,7 +19694,14 @@ SINA.lectures["biochem-renal"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-renal/15.jpg",
+     "lec": "Renal exploration",
+     "n": 15
+    }
+   ]
   }
  ],
  "cards": [
@@ -17218,7 +20774,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "Lymphoid tissue makes the gamma globulins.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/03.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Gamma globulins are:",
@@ -17230,7 +20793,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/03.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "In 'electrophoresis', 'phoresis' refers to:",
@@ -17242,7 +20812,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "Separation under a constant electric field.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/04.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Serum protein electrophoresis is used for:",
@@ -17254,7 +20831,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "It orients, it does not confirm.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/31.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "The anode is:",
@@ -17266,7 +20850,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/05.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "A cation is:",
@@ -17278,7 +20869,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/05.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Proteins are amphoteric, meaning they:",
@@ -17290,7 +20888,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/06.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "At the buffer pH of 8.2-8.6, serum proteins are:",
@@ -17302,7 +20907,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "So they all migrate in the same direction.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/06.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "For SPE, blood should be collected in:",
@@ -17314,7 +20926,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "Serum is needed.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/07.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Using a haemolysed serum for SPE adds:",
@@ -17326,7 +20945,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/07.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "If SPE is deferred, blood can be stored at 4 °C for up to:",
@@ -17338,7 +20964,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/07.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The first support used for electrophoresis, discovered in 1937 (Nobel Prize), was:",
@@ -17350,7 +20983,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/08.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Agarose gel is preferred to paper because it is:",
@@ -17362,7 +21002,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/08.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Gel electrophoresis is:",
@@ -17374,7 +21021,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/08.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The amount of serum needed for SPE on gel is about:",
@@ -17386,7 +21040,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/09.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Protein migration depends on:",
@@ -17398,7 +21059,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/09.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Migration time on gel is about:",
@@ -17410,7 +21078,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 3,
    "why": "The whole manipulation takes about 90 min.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/10.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Band intensity on the gel is read by:",
@@ -17422,7 +21097,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/11.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The optical density of a band is proportional to:",
@@ -17434,7 +21116,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/11.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Capillary zone electrophoresis uses as support:",
@@ -17446,7 +21135,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/12.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Capillary electrophoresis does not require:",
@@ -17458,7 +21154,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 3,
    "why": "Each sample is run independently.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/12.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The albumin band is:",
@@ -17470,7 +21173,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/13.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Globulin bands each contain:",
@@ -17482,7 +21192,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/13.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The width and colour intensity of each band indicate:",
@@ -17494,7 +21211,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/13.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The normal SPE profile shows:",
@@ -17506,7 +21230,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/14.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "SPE numerical results are given as:",
@@ -17518,7 +21249,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/14.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Albumin's roles include:",
@@ -17530,7 +21268,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/15.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Alpha-1 and alpha-2 globulins are mainly:",
@@ -17542,7 +21287,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/15.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Albumin physiologically decreases in:",
@@ -17554,7 +21306,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/16.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Alpha-1 and alpha-2 globulins physiologically:",
@@ -17566,7 +21325,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/16.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Beta globulins physiologically increase:",
@@ -17578,7 +21344,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/16.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Gamma globulins are low in infants, which explains the value of:",
@@ -17590,7 +21363,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/16.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "A dye bubble on the gel can:",
@@ -17602,7 +21382,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "A handling artefact.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/17.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "CRP becomes visible on SPE as a peak in the gamma fraction from about:",
@@ -17614,7 +21401,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/18.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "A narrow gamma peak due to CRP should:",
@@ -17626,7 +21420,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 3,
    "why": "If it persists, a malignant haemopathy must be excluded.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/18.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Fibrinogen on SPE appears:",
@@ -17638,7 +21439,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/20.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Bisalbuminaemia of hereditary origin:",
@@ -17650,7 +21458,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/21.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Acquired bisalbuminaemia is:",
@@ -17662,7 +21477,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/21.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Hypoalbuminaemia can be due to:",
@@ -17674,7 +21496,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "Also exaggerated catabolism in severe inflammation.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/22.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "In nephrotic syndrome, albumin falls because of:",
@@ -17686,7 +21515,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/22.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "A congenital cause of decreased alpha-1 globulins is:",
@@ -17698,7 +21534,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/23.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "An increased alpha-1 fraction is seen in:",
@@ -17710,7 +21553,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/23.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Decreased alpha-2 in intravascular haemolysis is due to low:",
@@ -17722,7 +21572,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/24.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Alpha-2 increases in nephrotic syndrome because of:",
@@ -17734,7 +21591,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/24.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Decreased beta globulins can result from:",
@@ -17746,7 +21610,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "Also causes of low serum proteins.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/25.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The beta-gamma block of alcoholic cirrhosis is due to:",
@@ -17758,7 +21629,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/25.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Physiological hypogammaglobulinaemia occurs in:",
@@ -17770,7 +21648,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/26.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Secondary immune deficiency with low gamma globulins can follow:",
@@ -17782,7 +21667,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/26.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "A polyclonal hypergammaglobulinaemia looks like:",
@@ -17794,7 +21686,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 3,
    "why": "Several immunoglobulins rise together, e.g. in infection.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/27.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "A monoclonal gammopathy can be:",
@@ -17806,7 +21705,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "Myeloma (malignant), lymphoma (accompanying), elderly (benign).",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/27.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Multiple myeloma is:",
@@ -17818,7 +21724,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/27.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "SPE cannot:",
@@ -17830,7 +21743,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "Immunofixation is needed.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/28.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Immunofixation deposits the patient's serum on how many tracks?",
@@ -17842,7 +21762,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "Anti-G, A, M, kappa and lambda (plus a reference).",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/28.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Immunofixation uses antibodies against:",
@@ -17854,7 +21781,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/28.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Typing the monoclonal immunoglobulin matters because:",
@@ -17866,7 +21800,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/29.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Indications for SPE include:",
@@ -17878,7 +21819,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "Also high blood protein, recurrent infections, bone pain or hypercalcaemia, inflammation, cirrhosis.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/30.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Bone pain with hypercalcaemia leads to SPE because of suspected:",
@@ -17890,7 +21838,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/30.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Recurrent bacterial infections lead to SPE because of suspected:",
@@ -17902,7 +21857,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/30.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "After effective treatment, the SPE should:",
@@ -17914,7 +21876,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/31.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "SPE helps assess the prognosis of:",
@@ -17926,7 +21895,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/31.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Albumin migrates:",
@@ -17938,7 +21914,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/09.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Gamma globulins migrate:",
@@ -17950,7 +21933,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/10.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The stain used on gel is:",
@@ -17962,7 +21952,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/10.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "A patient's SPE shows low albumin, high alpha-2 and normal gamma globulins with oedema and proteinuria. This suggests:",
@@ -17974,7 +21971,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/24.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "A patient's SPE shows a beta-gamma block. You suspect:",
@@ -17986,7 +21990,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/25.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "A patient's SPE shows high alpha-1 and alpha-2 with fever. You suspect:",
@@ -17998,7 +22009,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/23.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "A narrow-based peak in the gamma fraction of an elderly patient with bone pain suggests:",
@@ -18010,7 +22028,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 3,
    "why": "Confirm by immunofixation.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/28.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Split alpha-2 fraction with a red serum is most likely due to:",
@@ -18022,7 +22047,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/19.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Causes of low serum proteins affecting several fractions include:",
@@ -18034,7 +22066,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/23.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The A/G ratio compares:",
@@ -18046,7 +22085,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "Normal 1.2-1.8.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/14.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "A haemolysed sample could:",
@@ -18058,7 +22104,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/19.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "SPE is described in the conclusion as:",
@@ -18070,7 +22123,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/31.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Waldenström's disease involves excess:",
@@ -18082,7 +22142,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 3,
    "why": "Identified by immunofixation.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/28.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Kahler's disease is another name for:",
@@ -18094,7 +22161,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/27.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "In capillary electrophoresis, results are delivered:",
@@ -18106,7 +22180,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/12.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Proteins migrate towards the anode because at pH 8.6 their:",
@@ -18118,7 +22199,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/06.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The serum deposit line on the gel is:",
@@ -18130,7 +22218,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/06.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Densitometry translates each band into:",
@@ -18142,7 +22237,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/11.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "A low gamma fraction in an adult with recurrent pneumonia suggests:",
@@ -18154,7 +22256,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/26.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "After childbirth, colostrum provides the infant with:",
@@ -18166,7 +22275,14 @@ SINA.lectures["biochem-spe"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-spe/16.jpg",
+     "lec": "Protein electrophoresis",
+     "n": 16
+    }
+   ]
   }
  ],
  "cards": [
@@ -19285,7 +23401,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "They are major cardiovascular risk factors.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/03.jpg",
+     "lec": "Lipid anomaly",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "A lipid profile is requested for:",
@@ -19297,7 +23420,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/03.jpg",
+     "lec": "Lipid anomaly",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Lipids in plasma are transported:",
@@ -19309,7 +23439,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "They are insoluble in water.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/04.jpg",
+     "lec": "Lipid anomaly",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The peripheral layer of a lipoprotein contains:",
@@ -19321,7 +23458,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/05.jpg",
+     "lec": "Lipid anomaly",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Triglycerides are formed of:",
@@ -19333,7 +23477,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/06.jpg",
+     "lec": "Lipid anomaly",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Endogenous triglycerides are synthesised from:",
@@ -19345,7 +23496,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/06.jpg",
+     "lec": "Lipid anomaly",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Triglycerides serve mainly as:",
@@ -19357,7 +23515,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/06.jpg",
+     "lec": "Lipid anomaly",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Exogenous cholesterol comes from foods such as:",
@@ -19369,7 +23534,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "It is about one third of total cholesterol.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/07.jpg",
+     "lec": "Lipid anomaly",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Cholesterol is used for:",
@@ -19381,7 +23553,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/07.jpg",
+     "lec": "Lipid anomaly",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Cholesterol is eliminated:",
@@ -19393,7 +23572,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/07.jpg",
+     "lec": "Lipid anomaly",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Phospholipids are composed of:",
@@ -19405,7 +23591,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "They form cell membranes.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/08.jpg",
+     "lec": "Lipid anomaly",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The structural role of apoproteins is to:",
@@ -19417,7 +23610,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/09.jpg",
+     "lec": "Lipid anomaly",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The metabolic role of apoproteins includes:",
@@ -19429,7 +23629,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/09.jpg",
+     "lec": "Lipid anomaly",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The number of major apolipoprotein classes is:",
@@ -19441,7 +23648,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/09.jpg",
+     "lec": "Lipid anomaly",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Apo B48 is characteristic of:",
@@ -19453,7 +23667,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/13.jpg",
+     "lec": "Lipid anomaly",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "HDL is particularly rich in:",
@@ -19465,7 +23686,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/05.jpg",
+     "lec": "Lipid anomaly",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "LDL is rich in:",
@@ -19477,7 +23705,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/19.jpg",
+     "lec": "Lipid anomaly",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The apoproteins of HDL are:",
@@ -19489,7 +23724,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/11.jpg",
+     "lec": "Lipid anomaly",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The apoprotein of VLDL and LDL is:",
@@ -19501,7 +23743,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/11.jpg",
+     "lec": "Lipid anomaly",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "From chylomicrons to HDL, lipoproteins become:",
@@ -19513,7 +23762,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/12.jpg",
+     "lec": "Lipid anomaly",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The largest lipoprotein with the highest molecular weight is:",
@@ -19525,7 +23781,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/13.jpg",
+     "lec": "Lipid anomaly",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The density of chylomicrons is:",
@@ -19537,7 +23800,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/13.jpg",
+     "lec": "Lipid anomaly",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "IDL is also called:",
@@ -19549,7 +23819,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/13.jpg",
+     "lec": "Lipid anomaly",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The liver synthesises triglycerides from:",
@@ -19561,7 +23838,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/14.jpg",
+     "lec": "Lipid anomaly",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Hepatic cholesterol synthesis is about:",
@@ -19573,7 +23857,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "From acetyl-CoA.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/14.jpg",
+     "lec": "Lipid anomaly",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Dietary lipids are mostly:",
@@ -19585,7 +23876,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/15.jpg",
+     "lec": "Lipid anomaly",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Vegetable fats are rich in:",
@@ -19597,7 +23895,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "Animal fats are richer in saturated fatty acids.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/15.jpg",
+     "lec": "Lipid anomaly",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "In the stomach and duodenum, dietary triglycerides are digested into:",
@@ -19609,7 +23914,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/15.jpg",
+     "lec": "Lipid anomaly",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Digested lipids are absorbed into the enterocyte after solubilisation by:",
@@ -19621,7 +23933,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/15.jpg",
+     "lec": "Lipid anomaly",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The enterocyte reassembles absorbed lipids into:",
@@ -19633,7 +23952,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/15.jpg",
+     "lec": "Lipid anomaly",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Chylomicrons pass first into:",
@@ -19645,7 +23971,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/16.jpg",
+     "lec": "Lipid anomaly",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "VLDL are mainly synthesised by:",
@@ -19657,7 +23990,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "About 20% exogenous.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/16.jpg",
+     "lec": "Lipid anomaly",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Lipoprotein lipase is located in:",
@@ -19669,7 +24009,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/17.jpg",
+     "lec": "Lipid anomaly",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Lipoprotein lipase breaks triglycerides into:",
@@ -19681,7 +24028,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/06.jpg",
+     "lec": "Lipid anomaly",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Chylomicron remnants are recognised in the liver by receptors for:",
@@ -19693,7 +24047,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/17.jpg",
+     "lec": "Lipid anomaly",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "VLDL degraded by lipoprotein lipase become:",
@@ -19705,7 +24066,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/17.jpg",
+     "lec": "Lipid anomaly",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "LDL deliver cholesterol to:",
@@ -19717,7 +24085,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "Smooth muscle, adipocytes, fibroblasts.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/19.jpg",
+     "lec": "Lipid anomaly",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "After binding to their receptor, LDL undergo:",
@@ -19729,7 +24104,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/19.jpg",
+     "lec": "Lipid anomaly",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Excess free cholesterol released from cells is captured by:",
@@ -19741,7 +24123,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/21.jpg",
+     "lec": "Lipid anomaly",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "LCAT esterifies cholesterol on:",
@@ -19753,7 +24142,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "Activated by Apo AI.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/09.jpg",
+     "lec": "Lipid anomaly",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The anti-atherogenic role of HDL is to:",
@@ -19765,7 +24161,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/21.jpg",
+     "lec": "Lipid anomaly",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "When HDL receives cholesterol:",
@@ -19777,7 +24180,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/21.jpg",
+     "lec": "Lipid anomaly",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "HDL releases its cholesterol in:",
@@ -19789,7 +24199,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "Then returns to the blood.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/21.jpg",
+     "lec": "Lipid anomaly",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The lipid profile is now called:",
@@ -19801,7 +24218,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/23.jpg",
+     "lec": "Lipid anomaly",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The ELA includes:",
@@ -19813,7 +24237,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/23.jpg",
+     "lec": "Lipid anomaly",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Apo AI and B dosages complement the ELA when:",
@@ -19825,7 +24256,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/23.jpg",
+     "lec": "Lipid anomaly",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Before a lipid profile, the patient should rest at least:",
@@ -19837,7 +24275,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "And fast at least 12 hours.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/24.jpg",
+     "lec": "Lipid anomaly",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "A lipid profile should be avoided during:",
@@ -19849,7 +24294,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/24.jpg",
+     "lec": "Lipid anomaly",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Suitable tubes for a lipid profile are:",
@@ -19861,7 +24313,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/24.jpg",
+     "lec": "Lipid anomaly",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "A clear serum:",
@@ -19873,7 +24332,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/25.jpg",
+     "lec": "Lipid anomaly",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "A cloudy or opalescent serum corresponds to excess:",
@@ -19885,7 +24351,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/25.jpg",
+     "lec": "Lipid anomaly",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "A cloudy serum with a creamy supernatant corresponds to excess:",
@@ -19897,7 +24370,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/25.jpg",
+     "lec": "Lipid anomaly",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Mentioning the appearance of the serum in the report is:",
@@ -19909,7 +24389,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/25.jpg",
+     "lec": "Lipid anomaly",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The reference value of triglycerides is:",
@@ -19921,7 +24408,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/26.jpg",
+     "lec": "Lipid anomaly",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "The reference value of total cholesterol is:",
@@ -19933,7 +24427,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/26.jpg",
+     "lec": "Lipid anomaly",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "The reference value of HDL cholesterol is:",
@@ -19945,7 +24446,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/26.jpg",
+     "lec": "Lipid anomaly",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "The total cholesterol/HDL ratio must be below:",
@@ -19957,7 +24465,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/26.jpg",
+     "lec": "Lipid anomaly",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Friedewald's formula in g/L is:",
@@ -19969,7 +24484,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "In mmol/L, TG/2.2.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/26.jpg",
+     "lec": "Lipid anomaly",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "If triglycerides exceed 3.5 g/L, LDL is:",
@@ -19981,7 +24503,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/26.jpg",
+     "lec": "Lipid anomaly",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Planella's formula uses:",
@@ -19993,7 +24522,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/26.jpg",
+     "lec": "Lipid anomaly",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Cardiovascular risk factors for the LDL target include:",
@@ -20005,7 +24541,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "Also early coronary disease history, parental infarction, type 2 diabetes, HDL under 1 mmol/L, microalbuminuria.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/27.jpg",
+     "lec": "Lipid anomaly",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Without cardiovascular risk factors, the LDL target is below:",
@@ -20017,7 +24560,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/27.jpg",
+     "lec": "Lipid anomaly",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "An HDL below what value counts as a risk factor?",
@@ -20029,7 +24579,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/27.jpg",
+     "lec": "Lipid anomaly",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Microalbuminuria counts as:",
@@ -20041,7 +24598,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/27.jpg",
+     "lec": "Lipid anomaly",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Apo AI and B assays are indicated when:",
@@ -20053,7 +24617,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/28.jpg",
+     "lec": "Lipid anomaly",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The most accurate way to assess atherogenic risk is:",
@@ -20065,7 +24636,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/28.jpg",
+     "lec": "Lipid anomaly",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The reference value of apo B is:",
@@ -20077,7 +24655,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/28.jpg",
+     "lec": "Lipid anomaly",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The reference value of apo AI is:",
@@ -20089,7 +24674,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/28.jpg",
+     "lec": "Lipid anomaly",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Atherogenic risk is:",
@@ -20101,7 +24693,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/28.jpg",
+     "lec": "Lipid anomaly",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Dyslipidaemia is defined as:",
@@ -20113,7 +24712,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/28.jpg",
+     "lec": "Lipid anomaly",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Hyperlipoproteinaemias affect about what share of adults over 30?",
@@ -20125,7 +24731,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/29.jpg",
+     "lec": "Lipid anomaly",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Secondary hyperlipoproteinaemias are caused by:",
@@ -20137,7 +24750,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/29.jpg",
+     "lec": "Lipid anomaly",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Hypocholesterolaemia is a total cholesterol below:",
@@ -20149,7 +24769,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/29.jpg",
+     "lec": "Lipid anomaly",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "A secondary cause of hypocholesterolaemia is:",
@@ -20161,7 +24788,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "Also severe liver damage.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/29.jpg",
+     "lec": "Lipid anomaly",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "The Fredrickson classification is used to:",
@@ -20173,7 +24807,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/30.jpg",
+     "lec": "Lipid anomaly",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Type I hyperlipoproteinaemia is mainly made of excess:",
@@ -20185,7 +24826,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/30.jpg",
+     "lec": "Lipid anomaly",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "A patient's serum is creamy on top after standing. The excess lipoprotein is:",
@@ -20197,7 +24845,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/25.jpg",
+     "lec": "Lipid anomaly",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "A patient had a myocardial infarction last week. A lipid profile should be done:",
@@ -20209,7 +24864,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/24.jpg",
+     "lec": "Lipid anomaly",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Calculate LDL (g/L): TC 2.40, HDL 0.40, TG 1.50.",
@@ -20221,7 +24883,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "2.40 − 0.40 − 1.50/5 = 1.70.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/26.jpg",
+     "lec": "Lipid anomaly",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "A smoker with hypertension has LDL 3.2 mmol/L. Compared with the target:",
@@ -20233,7 +24902,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/27.jpg",
+     "lec": "Lipid anomaly",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Fatty acids released by lipoprotein lipase can be:",
@@ -20245,7 +24921,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/16.jpg",
+     "lec": "Lipid anomaly",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Hepatic triglyceride lipase converts:",
@@ -20257,7 +24940,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 1,
    "why": "Lipoprotein lipase converts VLDL into IDL.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/17.jpg",
+     "lec": "Lipid anomaly",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Apo CII on chylomicrons and VLDL activates:",
@@ -20269,7 +24959,14 @@ SINA.lectures["biochem-lipids"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-lipids/17.jpg",
+     "lec": "Lipid anomaly",
+     "n": 17
+    }
+   ]
   }
  ],
  "cards": [
@@ -21334,7 +26031,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/03.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Calcium is vital for:",
@@ -21346,7 +26050,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "Also enzymes, membrane transport and hormone action.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/03.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Phosphorus is involved in:",
@@ -21358,7 +26069,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "Also phospholipids, nucleic acids, ose-phosphates.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/03.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The three organs regulating calcium and phosphate are:",
@@ -21370,7 +26088,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/23.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The three hormones regulating calcium-phosphate balance are:",
@@ -21382,7 +26107,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/04.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Calcium needs rise to 1.2 g/day in:",
@@ -21394,7 +26126,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/05.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Dietary sources of calcium include:",
@@ -21406,7 +26145,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/05.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Total body calcium in a normal adult is about:",
@@ -21418,7 +26164,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "600 g is the phosphorus content.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/05.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Outside bone, 1% of body calcium is found in:",
@@ -21430,7 +26183,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/05.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The half of serum calcium that cannot be filtered by the kidney is:",
@@ -21442,7 +26202,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/06.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Protein-bound calcium is bound mainly (80%) to:",
@@ -21454,7 +26221,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/06.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Calcium complexed with salts represents about:",
@@ -21466,7 +26240,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/06.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Calcium absorption in the duodenum is favoured by:",
@@ -21478,7 +26259,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/07.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Active calcium absorption is:",
@@ -21490,7 +26278,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/07.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Passive calcium absorption takes over when intake reaches about:",
@@ -21502,7 +26297,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "It depends on the concentration gradient.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/07.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Calcium is eliminated in stool from:",
@@ -21514,7 +26316,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/08.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Only which calcium is filtered by the glomerulus?",
@@ -21526,7 +26335,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/08.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "When calcaemia is low, the kidney:",
@@ -21538,7 +26354,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/08.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "When calcaemia is high, the kidney reabsorbs:",
@@ -21550,7 +26373,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/08.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Adult phosphorus needs are about:",
@@ -21562,7 +26392,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "1.2-1.4 g/day in pregnancy or breastfeeding.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/10.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Phosphorus absorption:",
@@ -21574,7 +26411,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/10.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Passive phosphorus absorption is:",
@@ -21586,7 +26430,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "Active absorption depends on calcitriol.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/10.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Total body phosphorus is about:",
@@ -21598,7 +26449,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/11.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Intracellular phosphorus represents about:",
@@ -21610,7 +26468,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "Bone 85%, extracellular 1%.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/11.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Organic phosphorus exists as:",
@@ -21622,7 +26487,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/11.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Plasma inorganic phosphorus is ultrafilterable in about:",
@@ -21634,7 +26506,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/12.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Of ultrafilterable inorganic phosphate, the HPO4 2- form represents:",
@@ -21646,7 +26525,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "H2PO4- is 20%.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/11.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Phosphate is eliminated in stool from:",
@@ -21658,7 +26544,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/12.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The hormones of calcium-phosphate balance act on the intestine by:",
@@ -21670,7 +26563,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/14.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "PTH is synthesised by:",
@@ -21682,7 +26582,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/15.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "PTH contains:",
@@ -21694,7 +26601,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/15.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "PTH is cleaved into two fragments in:",
@@ -21706,7 +26620,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "The N-terminal fragment carries the activity.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/15.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "On bone, PTH:",
@@ -21718,7 +26639,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/16.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "On the kidney, PTH:",
@@ -21730,7 +26658,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/16.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Calcitonin is synthesised as:",
@@ -21742,7 +26677,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/17.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Calcitonin acts on bone by:",
@@ -21754,7 +26696,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/17.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Calcitonin acts on the intestine:",
@@ -21766,7 +26715,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/17.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Calcitonin acts on the kidney by:",
@@ -21778,7 +26734,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/18.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The overall action of calcitonin is:",
@@ -21790,7 +26753,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/17.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The most active vitamin D3 metabolite is:",
@@ -21802,7 +26772,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/18.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "On bone, calcitriol:",
@@ -21814,7 +26791,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/18.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "On the kidney, calcitriol:",
@@ -21826,7 +26810,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/18.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "The overall action of calcitriol is:",
@@ -21838,7 +26829,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/18.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Oestrogens:",
@@ -21850,7 +26848,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "They are not regulating hormones of the balance.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/19.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Thyroid hormones:",
@@ -21862,7 +26867,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/19.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Cortisol (e.g. corticotherapy):",
@@ -21874,7 +26886,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/19.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Calcaemia should be sampled:",
@@ -21886,7 +26905,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/20.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "A long, tight tourniquet falsely raises calcaemia because:",
@@ -21898,7 +26924,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/20.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Anticoagulants forbidden for calcaemia are:",
@@ -21910,7 +26943,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 0,
    "why": "They complex calcium.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/20.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Calcaemia in mg/L is normally:",
@@ -21922,7 +26962,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "2.25-2.60 mmol/L.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/20.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "24-h urine for calciuria must be collected in:",
@@ -21934,7 +26981,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/20.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Correcting calcium is necessary because:",
@@ -21946,7 +27000,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/21.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Corrected calcium = measured calcium + [(40 − albumin)/40]. With Ca 2.10 mmol/L and albumin 20 g/L, corrected calcium is:",
@@ -21958,7 +27019,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "(40 − 20)/40 = 0.5; 2.10 + 0.5 = 2.60.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/21.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The alternative correction formula divides measured calcium by:",
@@ -21970,7 +27038,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/21.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Phosphate sampling should be done:",
@@ -21982,7 +27057,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/22.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "In the lab, only which phosphorus is measured?",
@@ -21994,7 +27076,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/22.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Adult reference values of phosphataemia are:",
@@ -22006,7 +27095,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/22.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Child reference values of phosphataemia are:",
@@ -22018,7 +27114,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "Higher during growth.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/22.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "PTH dosage is mainly of interest in:",
@@ -22030,7 +27133,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/22.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Organs involved in phosphocalcic metabolism, according to the conclusion, include:",
@@ -22042,7 +27152,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "Skin and liver for vitamin D.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/23.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Phosphocalcic exploration helps screen and diagnose:",
@@ -22054,7 +27171,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/23.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "A patient with primary hyperparathyroidism would show:",
@@ -22066,7 +27190,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 2,
    "why": "PTH is hypercalcaemic and hypophosphataemic.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/16.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "A patient with vitamin D deficiency tends to have:",
@@ -22078,7 +27209,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "Calcitriol raises both.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/07.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Phosphate reabsorption in the proximal tubule competes with:",
@@ -22090,7 +27228,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/12.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Phosphorus sources include:",
@@ -22102,7 +27247,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/10.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Phosphorus is absorbed:",
@@ -22114,7 +27266,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/10.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The PTH effect on phosphate in the three tissues is:",
@@ -22126,7 +27285,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/16.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "In hypoalbuminaemia, measured total calcium is:",
@@ -22138,7 +27304,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/21.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Ionised calcium is:",
@@ -22150,7 +27323,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/06.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Calcium needs are covered mainly by:",
@@ -22162,7 +27342,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/10.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Calcium reabsorbed by the kidney represents what share of the filtered calcium overall?",
@@ -22174,7 +27361,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/08.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Calcium is the most important electrolyte in the body by:",
@@ -22186,7 +27380,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 0,
    "why": "About 1 kg.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/05.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The effect of calcitriol on the intestine is:",
@@ -22198,7 +27399,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/18.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Regarding PTH and the intestine:",
@@ -22210,7 +27418,14 @@ SINA.lectures["biochem-calcium"] = {
    ],
    "answer": 3,
    "why": "In the lecture's summary of PTH effects on the three tissues.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-calcium/16.jpg",
+     "lec": "Calcium-phosphate balance",
+     "n": 16
+    }
+   ]
   }
  ],
  "cards": [
@@ -23346,7 +28561,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/03.jpg",
+     "lec": "Iron balance",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Haemoglobin contains about what share of body iron?",
@@ -23358,7 +28580,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/04.jpg",
+     "lec": "Iron balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Myoglobin contains about:",
@@ -23370,7 +28599,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/04.jpg",
+     "lec": "Iron balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Non-haem iron is in the form:",
@@ -23382,7 +28618,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/04.jpg",
+     "lec": "Iron balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Plasma iron bound to transferrin amounts to about:",
@@ -23394,7 +28637,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/04.jpg",
+     "lec": "Iron balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Iron reserves (ferritin and haemosiderin) amount to about:",
@@ -23406,7 +28656,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/04.jpg",
+     "lec": "Iron balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Iron in cellular respiratory enzymes (cytochromes, catalases) amounts to about:",
@@ -23418,7 +28675,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/04.jpg",
+     "lec": "Iron balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Old red cells are destroyed by:",
@@ -23430,7 +28694,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/06.jpg",
+     "lec": "Iron balance",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Iron released from destroyed haemoglobin:",
@@ -23442,7 +28713,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/06.jpg",
+     "lec": "Iron balance",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Iron is lost through:",
@@ -23454,7 +28732,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/06.jpg",
+     "lec": "Iron balance",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Daily iron needs of a man are:",
@@ -23466,7 +28751,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "Women 2 mg/day.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/08.jpg",
+     "lec": "Iron balance",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "To absorb 2 mg/day, a woman's dietary iron intake should be about:",
@@ -23478,7 +28770,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "Only about 10% is absorbed.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/09.jpg",
+     "lec": "Iron balance",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Iron is absorbed mainly in:",
@@ -23490,7 +28789,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/09.jpg",
+     "lec": "Iron balance",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "Iron of animal origin compared with plant iron is:",
@@ -23502,7 +28808,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/10.jpg",
+     "lec": "Iron balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Iron absorption increases with:",
@@ -23514,7 +28827,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/10.jpg",
+     "lec": "Iron balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Iron overload:",
@@ -23526,7 +28846,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 1,
    "why": "The body absorbs only what it needs.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/10.jpg",
+     "lec": "Iron balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Transferrin is synthesised mainly by:",
@@ -23538,7 +28865,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "Partly by marrow and spleen macrophages.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/11.jpg",
+     "lec": "Iron balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Plasma transferrin is normally saturated to about:",
@@ -23550,7 +28884,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/11.jpg",
+     "lec": "Iron balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "When transferrin is fully saturated, iron can be carried by:",
@@ -23562,7 +28903,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/11.jpg",
+     "lec": "Iron balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "In iron overload, transferrin synthesis:",
@@ -23574,7 +28922,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/11.jpg",
+     "lec": "Iron balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The cells richest in transferrin receptors are:",
@@ -23586,7 +28941,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/12.jpg",
+     "lec": "Iron balance",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The main regulator of iron uptake by erythroblasts is:",
@@ -23598,7 +28960,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/12.jpg",
+     "lec": "Iron balance",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The soluble transferrin receptor is:",
@@ -23610,7 +28979,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "It correlates with marrow proliferative activity.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/12.jpg",
+     "lec": "Iron balance",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Iron stores are mainly found in:",
@@ -23622,7 +28998,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/14.jpg",
+     "lec": "Iron balance",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Ferritin is:",
@@ -23634,7 +29017,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/14.jpg",
+     "lec": "Iron balance",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Haemosiderin comes from:",
@@ -23646,7 +29036,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/14.jpg",
+     "lec": "Iron balance",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Haemosiderin in hepatocytes is shown by:",
@@ -23658,7 +29055,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/14.jpg",
+     "lec": "Iron balance",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Tissue ferritin is composed of:",
@@ -23670,7 +29074,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/15.jpg",
+     "lec": "Iron balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "The first iron mobilised for erythropoiesis comes from ferritin of:",
@@ -23682,7 +29093,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "Hepatocyte ferritin is used only if that pathway is exhausted.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/15.jpg",
+     "lec": "Iron balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Plasma ferritin is about:",
@@ -23694,7 +29112,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/16.jpg",
+     "lec": "Iron balance",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "About 80% of plasma ferritin comes from:",
@@ -23706,7 +29131,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/16.jpg",
+     "lec": "Iron balance",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Ferritin from lysis of senescent cells is:",
@@ -23718,7 +29150,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/16.jpg",
+     "lec": "Iron balance",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Isolated measurement of serum iron is:",
@@ -23730,7 +29169,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/18.jpg",
+     "lec": "Iron balance",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Circulating iron is explored by measuring:",
@@ -23742,7 +29188,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "Allowing TIBC and TS calculation.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/20.jpg",
+     "lec": "Iron balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Serum iron reference values in men are:",
@@ -23754,7 +29207,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/19.jpg",
+     "lec": "Iron balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Before a serum iron assay:",
@@ -23766,7 +29226,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/19.jpg",
+     "lec": "Iron balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Transferrin reference values in adults are:",
@@ -23778,7 +29245,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/19.jpg",
+     "lec": "Iron balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Transferrin measurement helps to:",
@@ -23790,7 +29264,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/19.jpg",
+     "lec": "Iron balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "TIBC reference values in adults are:",
@@ -23802,7 +29283,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/20.jpg",
+     "lec": "Iron balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Transferrin saturation equals:",
@@ -23814,7 +29302,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/20.jpg",
+     "lec": "Iron balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "A man has iron 15 µmol/L and transferrin 3 g/L. His TS is:",
@@ -23826,7 +29321,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 2,
    "why": "TIBC = 75 µmol/L; 15/75 = 20%.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/20.jpg",
+     "lec": "Iron balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Normal transferrin saturation in women is:",
@@ -23838,7 +29340,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/20.jpg",
+     "lec": "Iron balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Functional iron is explored by:",
@@ -23850,7 +29359,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/17.jpg",
+     "lec": "Iron balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Soluble transferrin receptor in iron deficiency:",
@@ -23862,7 +29378,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/21.jpg",
+     "lec": "Iron balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Ferritin has:",
@@ -23874,7 +29397,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/22.jpg",
+     "lec": "Iron balance",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Ferritin reference values in men are:",
@@ -23886,7 +29416,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/22.jpg",
+     "lec": "Iron balance",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Intra-erythrocyte ferritin is little used because:",
@@ -23898,7 +29435,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/22.jpg",
+     "lec": "Iron balance",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Hepcidin is secreted by:",
@@ -23910,7 +29454,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/23.jpg",
+     "lec": "Iron balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Hepcidin controls the exit of iron from:",
@@ -23922,7 +29473,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/23.jpg",
+     "lec": "Iron balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "When circulating iron falls, hepcidin:",
@@ -23934,7 +29492,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/23.jpg",
+     "lec": "Iron balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Excess iron retained in enterocytes by hepcidin is:",
@@ -23946,7 +29511,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/23.jpg",
+     "lec": "Iron balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The clinical value of hepcidin dosing is:",
@@ -23958,7 +29530,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/23.jpg",
+     "lec": "Iron balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The iron balance must be interpreted according to:",
@@ -23970,7 +29549,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/24.jpg",
+     "lec": "Iron balance",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "In an elderly subject, chronic iron loss is often of:",
@@ -23982,7 +29568,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/25.jpg",
+     "lec": "Iron balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "In a woman of reproductive age, chronic iron loss is often of:",
@@ -23994,7 +29587,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/25.jpg",
+     "lec": "Iron balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Increased iron use occurs in:",
@@ -24006,7 +29606,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "Also regular blood donation and haemodialysis.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/25.jpg",
+     "lec": "Iron balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Iron absorption defects occur in:",
@@ -24018,7 +29625,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/25.jpg",
+     "lec": "Iron balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Iron deficiency sets in through:",
@@ -24030,7 +29644,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/26.jpg",
+     "lec": "Iron balance",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Iron deficiency anaemia is defined in men by:",
@@ -24042,7 +29663,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/26.jpg",
+     "lec": "Iron balance",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Microcytosis is an MCV below:",
@@ -24054,7 +29682,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/26.jpg",
+     "lec": "Iron balance",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "If ferritin is low, according to HAS 2011:",
@@ -24066,7 +29701,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/27.jpg",
+     "lec": "Iron balance",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Transferrin saturation falls below 16%:",
@@ -24078,7 +29720,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "So it is a poor diagnostic test.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/27.jpg",
+     "lec": "Iron balance",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Primary haemochromatosis is transmitted:",
@@ -24090,7 +29739,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/29.jpg",
+     "lec": "Iron balance",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Clinical signs of primary haemochromatosis include:",
@@ -24102,7 +29758,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 2,
    "why": "Also melanoderma, diabetes, gonadal insufficiency, bone and joint signs.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/29.jpg",
+     "lec": "Iron balance",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Gonadal insufficiency in haemochromatosis is of:",
@@ -24114,7 +29777,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/29.jpg",
+     "lec": "Iron balance",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Biology in primary haemochromatosis shows:",
@@ -24126,7 +29796,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 1,
    "why": "Ferritin rises only in advanced stages.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/29.jpg",
+     "lec": "Iron balance",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "In primary haemochromatosis, iron accumulates initially in:",
@@ -24138,7 +29815,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/29.jpg",
+     "lec": "Iron balance",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "HFE gene mutation causes:",
@@ -24150,7 +29834,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/30.jpg",
+     "lec": "Iron balance",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Iron not bound to transferrin is avidly taken up by:",
@@ -24162,7 +29853,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/30.jpg",
+     "lec": "Iron balance",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "The diagnosis of primary haemochromatosis is confirmed by:",
@@ -24174,7 +29872,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/30.jpg",
+     "lec": "Iron balance",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Secondary iron overload can follow:",
@@ -24186,7 +29891,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "Also haemodialysis supplementation, liver disease, atransferrinaemia.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/31.jpg",
+     "lec": "Iron balance",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Haemochromatosis is confirmed by TS above 45% with ferritin above:",
@@ -24198,7 +29910,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/31.jpg",
+     "lec": "Iron balance",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Isolated high plasma ferritin:",
@@ -24210,7 +29929,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/31.jpg",
+     "lec": "Iron balance",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "If iron overload is suspected, the test to request is:",
@@ -24222,7 +29948,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/32.jpg",
+     "lec": "Iron balance",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "In an inflammatory syndrome, the iron deficiency component of anaemia is diagnosed by:",
@@ -24234,7 +29967,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "Ferritin rises with inflammation.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/32.jpg",
+     "lec": "Iron balance",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "In ineffective but increased erythropoiesis (haemolytic anaemia), iron absorption:",
@@ -24246,7 +29986,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/31.jpg",
+     "lec": "Iron balance",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Child serum ferritin reference (1-15 years) is:",
@@ -24258,7 +30005,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/22.jpg",
+     "lec": "Iron balance",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "µmol/L of iron = 17.92 × mg/L. 1 mg/L of iron equals about:",
@@ -24270,7 +30024,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/19.jpg",
+     "lec": "Iron balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Atransferrinaemia leads to:",
@@ -24282,7 +30043,14 @@ SINA.lectures["biochem-iron"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-iron/31.jpg",
+     "lec": "Iron balance",
+     "n": 31
+    }
+   ]
   }
  ],
  "cards": [
@@ -25447,7 +31215,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "E.g. NaCl into Na+ and Cl-.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/03.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "In all physiological fluids:",
@@ -25459,7 +31234,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/03.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Water movements between compartments are mainly linked to:",
@@ -25471,7 +31253,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/03.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Total body water in a 70 kg man is about:",
@@ -25483,7 +31272,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "60% of body weight.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/04.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "In infants, body water represents about:",
@@ -25495,7 +31291,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/04.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "In the elderly, body water:",
@@ -25507,7 +31310,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/04.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The water content of muscle is about:",
@@ -25519,7 +31329,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/05.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The water content of bone is about:",
@@ -25531,7 +31348,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/05.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "A rapid change in body weight should suggest:",
@@ -25543,7 +31367,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/05.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Water from drinks is about:",
@@ -25555,7 +31386,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/06.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Water from food is about:",
@@ -25567,7 +31405,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/06.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Endogenous (metabolic) water is about:",
@@ -25579,7 +31424,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/06.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Insensible water losses (skin and lungs) are about:",
@@ -25591,7 +31443,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/06.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Minimum water loss in stool is about:",
@@ -25603,7 +31462,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/06.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Intracellular water in a 70 kg adult is about:",
@@ -25615,7 +31481,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/07.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Interstitial fluid represents about:",
@@ -25627,7 +31500,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/07.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The extracellular compartment is called:",
@@ -25639,7 +31519,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/07.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The extracellular compartment represents about:",
@@ -25651,7 +31538,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/07.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Interstitial fluid composition is that of:",
@@ -25663,7 +31557,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/07.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Solutes in plasma exist as:",
@@ -25675,7 +31576,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/07.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "In the SI, ions are expressed in:",
@@ -25687,7 +31595,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "The conventional system uses equivalents.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/09.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "A natraemia of 142 mmol/L equals:",
@@ -25699,7 +31614,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "Sodium is monovalent.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/09.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "At physiological pH, proteins are:",
@@ -25711,7 +31633,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/09.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The main plasma anion is:",
@@ -25723,7 +31652,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "Followed by bicarbonate and proteins.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/10.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The intracellular fluid is low in:",
@@ -25735,7 +31671,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/10.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The 'missing' proteins in interstitial fluid lead to:",
@@ -25747,7 +31690,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "The Donnan equilibrium.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/11.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "In red blood cells, intracellular proteins are largely replaced by:",
@@ -25759,7 +31709,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/12.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Plasma membranes behave partly as:",
@@ -25771,7 +31728,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/13.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Electrolytes cross the cell membrane by:",
@@ -25783,7 +31747,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/13.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The Na+/K+ ATPase pump:",
@@ -25795,7 +31766,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/13.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "According to the law of osmosis, water moves:",
@@ -25807,7 +31785,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/14.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Osmotic pressure is proportional to:",
@@ -25819,7 +31804,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/28.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "The capillary membrane is:",
@@ -25831,7 +31823,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/15.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Exchanges between plasma and interstitium follow:",
@@ -25843,7 +31842,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/15.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Oncotic pressure is due to:",
@@ -25855,7 +31861,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/15.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Hydrostatic pressure is due to:",
@@ -25867,7 +31880,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/15.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "At the arterial end of capillaries, water leaves carrying:",
@@ -25879,7 +31899,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/16.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "At the venous end of capillaries, water returns carrying:",
@@ -25891,7 +31918,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/16.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Extra-renal regulation of water includes:",
@@ -25903,7 +31937,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/17.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "ADH is:",
@@ -25915,7 +31956,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/17.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Renin is released by the kidney in response to:",
@@ -25927,7 +31975,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "Detected via renal sympathetic nerves.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/17.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Aldosterone acts by:",
@@ -25939,7 +31994,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/17.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "ANF is secreted by:",
@@ -25951,7 +32013,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/17.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "The plasma ionogram measures:",
@@ -25963,7 +32032,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/18.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Osmotically active molecules used for osmolality include:",
@@ -25975,7 +32051,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/27.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Treated ionogram samples can be stored at +4 °C for:",
@@ -25987,7 +32070,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/19.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "To avoid falsely high potassium, avoid:",
@@ -25999,7 +32089,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/19.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Sodium heparin tubes give:",
@@ -26011,7 +32108,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "EDTA gives false potassium.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/19.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Hyperproteinaemia can cause:",
@@ -26023,7 +32127,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 0,
    "why": "Like hypertriglyceridaemia.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/19.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "The 24-h urine for a urinary ionogram is collected:",
@@ -26035,7 +32146,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/19.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "About 90% of body sodium is:",
@@ -26047,7 +32165,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/20.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "The role of sodium is to maintain:",
@@ -26059,7 +32184,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/20.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Hyponatraemia can result from:",
@@ -26071,7 +32203,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 0,
    "why": "Also renal or digestive sodium loss, or excess pure water intake.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/21.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Hypernatraemia from water loss can be due to:",
@@ -26083,7 +32222,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "Also diuretics, hyperglycaemia, diarrhoea.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/21.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Hypernatraemia from an electrolyte imbalance occurs with:",
@@ -26095,7 +32241,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/21.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Reference serum potassium is:",
@@ -26107,7 +32260,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/22.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "The roles of potassium are:",
@@ -26119,7 +32279,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/22.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "Hypokalaemia is a potassium below:",
@@ -26131,7 +32298,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/23.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "The severity of hypokalaemia is determined by:",
@@ -26143,7 +32317,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/23.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Digestive causes of hypokalaemia are:",
@@ -26155,7 +32336,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/29.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Intake causes of hypokalaemia include:",
@@ -26167,7 +32355,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/23.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Causes of hyperkalaemia include:",
@@ -26179,7 +32374,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/24.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Life-threatening hyperkalaemia causes:",
@@ -26191,7 +32393,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/24.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Chloride reference values are:",
@@ -26203,7 +32412,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/25.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The main dietary source of chloride is:",
@@ -26215,7 +32431,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/25.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Hyperchloraemia (above 110 mmol/L) can be due to:",
@@ -26227,7 +32450,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/26.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Hypochloraemia (below 90 mmol/L) is linked to:",
@@ -26239,7 +32469,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/26.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "Osmolality is the number of osmotically active particles per:",
@@ -26251,7 +32488,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "Osmolarity is per litre of plasma.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/27.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "A good reflection of osmolality is:",
@@ -26263,7 +32507,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/27.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Calculated plasma osmolality is normally:",
@@ -26275,7 +32526,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/27.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Plasma osmolality can be measured directly with:",
@@ -26287,7 +32545,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/27.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "At equilibrium, plasma osmolality is:",
@@ -26299,7 +32564,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/27.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "A hypertonic solution has:",
@@ -26311,7 +32583,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/28.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Extracellular dehydration is caused by:",
@@ -26323,7 +32602,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "Also heat stroke and renal insufficiency.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/29.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Intracellular dehydration can be caused by:",
@@ -26335,7 +32621,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/29.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Global dehydration (water deficit with slight sodium deficit) occurs in:",
@@ -26347,7 +32640,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/29.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Extracellular hyperhydration (oedema) is found in:",
@@ -26359,7 +32659,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/30.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Intracellular hyperhydration results from:",
@@ -26371,7 +32678,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/30.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Global hyperhydration is:",
@@ -26383,7 +32697,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/30.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "The organ with a fundamental role in water-electrolyte balance is:",
@@ -26395,7 +32716,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/31.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "A patient on intravenous nutrition without potassium becomes weak with cramps and constipation. The likely disorder is:",
@@ -26407,7 +32735,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/23.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "A burn patient with K+ 7 mmol/L has hyperkalaemia from:",
@@ -26419,7 +32754,14 @@ SINA.lectures["biochem-water"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-water/24.jpg",
+     "lec": "Hydro-electrolytic balance",
+     "n": 24
+    }
+   ]
   }
  ],
  "cards": [
@@ -27573,7 +33915,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "Plasma pH 7.37-7.43.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/04.jpg",
+     "lec": "Acid-base balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "The daily acid load comes mainly from:",
@@ -27585,7 +33934,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "Plant foods are mostly alkaline.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/05.jpg",
+     "lec": "Acid-base balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The order of acid-base regulation is:",
@@ -27597,7 +33953,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/10.jpg",
+     "lec": "Acid-base balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "An acid is a substance that:",
@@ -27609,7 +33972,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/08.jpg",
+     "lec": "Acid-base balance",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "pH is defined as:",
@@ -27621,7 +33991,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/04.jpg",
+     "lec": "Acid-base balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Plasma [H+] at pH 7.4 is about:",
@@ -27633,7 +34010,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/04.jpg",
+     "lec": "Acid-base balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Intracellular pH is about:",
@@ -27645,7 +34029,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/04.jpg",
+     "lec": "Acid-base balance",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Carbonic anhydrase is involved in:",
@@ -27657,7 +34048,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/05.jpg",
+     "lec": "Acid-base balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Fixed organic acids include:",
@@ -27669,7 +34067,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/05.jpg",
+     "lec": "Acid-base balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Fixed mineral acids include:",
@@ -27681,7 +34086,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/05.jpg",
+     "lec": "Acid-base balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Fixed acids are eliminated by:",
@@ -27693,7 +34105,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/05.jpg",
+     "lec": "Acid-base balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "A buffer is:",
@@ -27705,7 +34124,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/08.jpg",
+     "lec": "Acid-base balance",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "The Henderson-Hasselbalch equation is:",
@@ -27717,7 +34143,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/08.jpg",
+     "lec": "Acid-base balance",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "For the bicarbonate system, pH equals:",
@@ -27729,7 +34162,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/10.jpg",
+     "lec": "Acid-base balance",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "The bicarbonate buffer is efficient because of:",
@@ -27741,7 +34181,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/09.jpg",
+     "lec": "Acid-base balance",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "A drawback of the bicarbonate buffer is that it:",
@@ -27753,7 +34200,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/09.jpg",
+     "lec": "Acid-base balance",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The proteinate buffer has:",
@@ -27765,7 +34219,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/11.jpg",
+     "lec": "Acid-base balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "The phosphate buffer is especially important in:",
@@ -27777,7 +34238,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "Its capacity in plasma is low.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/11.jpg",
+     "lec": "Acid-base balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "In tissues, oxyhaemoglobin:",
@@ -27789,7 +34257,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/12.jpg",
+     "lec": "Acid-base balance",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "In the lungs, H+ released from haemoglobin joins:",
@@ -27801,7 +34276,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/12.jpg",
+     "lec": "Acid-base balance",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "In acidosis, additional buffering is provided by:",
@@ -27813,7 +34295,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/12.jpg",
+     "lec": "Acid-base balance",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The respiratory response to acid-base disorders is:",
@@ -27825,7 +34314,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/13.jpg",
+     "lec": "Acid-base balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "pH is sensed for ventilation by:",
@@ -27837,7 +34333,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/13.jpg",
+     "lec": "Acid-base balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "In metabolic alkalosis, the lungs:",
@@ -27849,7 +34352,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/13.jpg",
+     "lec": "Acid-base balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The renal response is:",
@@ -27861,7 +34371,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/15.jpg",
+     "lec": "Acid-base balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Filtered bicarbonate is reabsorbed mainly in:",
@@ -27873,7 +34390,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/15.jpg",
+     "lec": "Acid-base balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Urine pH can fall to about:",
@@ -27885,7 +34409,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/17.jpg",
+     "lec": "Acid-base balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Distal H+ secretion is exchanged for:",
@@ -27897,7 +34428,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/17.jpg",
+     "lec": "Acid-base balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Titratable acidity (H2PO4−) accounts for about:",
@@ -27909,7 +34447,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "Ammonium accounts for two thirds.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/17.jpg",
+     "lec": "Acid-base balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Ammonium excretion is stimulated by:",
@@ -27921,7 +34466,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/18.jpg",
+     "lec": "Acid-base balance",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Each mmol of H+ excreted by the kidney:",
@@ -27933,7 +34485,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/17.jpg",
+     "lec": "Acid-base balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Arterial blood for blood gases is usually taken from:",
@@ -27945,7 +34504,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "Capillary blood in newborns.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/21.jpg",
+     "lec": "Acid-base balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "A blood gas syringe must be:",
@@ -27957,7 +34523,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/21.jpg",
+     "lec": "Acid-base balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Blood gases should be analysed within:",
@@ -27969,7 +34542,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/21.jpg",
+     "lec": "Acid-base balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "When sending blood gases, note:",
@@ -27981,7 +34561,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/21.jpg",
+     "lec": "Acid-base balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "For bicarbonate measurement, forbidden tubes are:",
@@ -27993,7 +34580,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/22.jpg",
+     "lec": "Acid-base balance",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "pH corrected for temperature equals:",
@@ -28005,7 +34599,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/23.jpg",
+     "lec": "Acid-base balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Normal PaO2 is:",
@@ -28017,7 +34618,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/23.jpg",
+     "lec": "Acid-base balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Normal plasma bicarbonate is:",
@@ -28029,7 +34637,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/23.jpg",
+     "lec": "Acid-base balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Normal SaO2 is:",
@@ -28041,7 +34656,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/24.jpg",
+     "lec": "Acid-base balance",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "The anion gap is calculated as:",
@@ -28053,7 +34675,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/24.jpg",
+     "lec": "Acid-base balance",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Na 140, K 4, Cl 104, HCO3 24 (mEq/L). The anion gap is:",
@@ -28065,7 +34694,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "144 − 128 = 16.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/24.jpg",
+     "lec": "Acid-base balance",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Normal blood lactate is:",
@@ -28077,7 +34713,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/24.jpg",
+     "lec": "Acid-base balance",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Metabolic acidosis is defined by:",
@@ -28089,7 +34732,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/23.jpg",
+     "lec": "Acid-base balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Respiratory acidosis shows:",
@@ -28101,7 +34751,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/25.jpg",
+     "lec": "Acid-base balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "In respiratory acidosis, renal compensation:",
@@ -28125,7 +34782,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/25.jpg",
+     "lec": "Acid-base balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Respiratory alkalosis shows:",
@@ -28137,7 +34801,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/25.jpg",
+     "lec": "Acid-base balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "In respiratory alkalosis, renal compensation:",
@@ -28161,7 +34832,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/25.jpg",
+     "lec": "Acid-base balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "A patient with severe COPD retains CO2. The primary disorder is:",
@@ -28173,7 +34851,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/25.jpg",
+     "lec": "Acid-base balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "An anxious patient hyperventilates. The expected disorder is:",
@@ -28185,7 +34870,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/13.jpg",
+     "lec": "Acid-base balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Prolonged vomiting with loss of gastric acid tends to cause:",
@@ -28197,7 +34889,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/13.jpg",
+     "lec": "Acid-base balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "A raised anion gap metabolic acidosis suggests accumulation of:",
@@ -28209,7 +34908,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/24.jpg",
+     "lec": "Acid-base balance",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Acidosis causes hyperkalaemia because:",
@@ -28221,7 +34927,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/17.jpg",
+     "lec": "Acid-base balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Severe acid-base imbalance can be:",
@@ -28233,7 +34946,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/03.jpg",
+     "lec": "Acid-base balance",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "pH 7.50, PaCO2 30 mmHg, HCO3− 23 mmol/L indicates:",
@@ -28245,7 +34965,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/13.jpg",
+     "lec": "Acid-base balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "pH 7.48, HCO3− 32 mmol/L, PaCO2 46 mmHg indicates:",
@@ -28257,7 +34984,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/13.jpg",
+     "lec": "Acid-base balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "pH 7.25, PaCO2 60 mmHg, HCO3− 26 mmol/L indicates:",
@@ -28269,7 +35003,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/13.jpg",
+     "lec": "Acid-base balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "pH 7.20, HCO3− 12 mmol/L, PaCO2 25 mmHg indicates:",
@@ -28281,7 +35022,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/13.jpg",
+     "lec": "Acid-base balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "A low pH with both high PaCO2 and low HCO3− is:",
@@ -28293,7 +35041,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/25.jpg",
+     "lec": "Acid-base balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The renal threshold above which bicarbonate is excreted is:",
@@ -28305,7 +35060,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/15.jpg",
+     "lec": "Acid-base balance",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Ammonium accounts for about what share of renal H+ excretion?",
@@ -28317,7 +35079,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/17.jpg",
+     "lec": "Acid-base balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Plasma proteins act as buffers because they are:",
@@ -28329,7 +35098,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/11.jpg",
+     "lec": "Acid-base balance",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "In newborns, blood gases are often measured on:",
@@ -28341,7 +35117,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/21.jpg",
+     "lec": "Acid-base balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Air bubbles in a blood gas syringe would:",
@@ -28353,7 +35136,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/21.jpg",
+     "lec": "Acid-base balance",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "The bicarbonate buffer is controlled by ventilation because:",
@@ -28365,7 +35155,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/05.jpg",
+     "lec": "Acid-base balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Phosphate excreted as NaH2PO4 represents:",
@@ -28377,7 +35174,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/18.jpg",
+     "lec": "Acid-base balance",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "Ketone bodies are measured in acid-base exploration because they are:",
@@ -28389,7 +35193,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/05.jpg",
+     "lec": "Acid-base balance",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The lung's limited capacity means that in metabolic acidosis:",
@@ -28401,7 +35212,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 1,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/13.jpg",
+     "lec": "Acid-base balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "pH 7.40 exactly with high HCO3− and high PaCO2 could be:",
@@ -28413,7 +35231,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "Always look at PaCO2 and bicarbonate, not just pH.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/25.jpg",
+     "lec": "Acid-base balance",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "The PaCO2 normal range is:",
@@ -28425,7 +35250,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 2,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/23.jpg",
+     "lec": "Acid-base balance",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Ammoniagenesis increases in acidosis to:",
@@ -28437,7 +35269,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/17.jpg",
+     "lec": "Acid-base balance",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Respiratory acidosis is caused by:",
@@ -28449,7 +35288,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 0,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/13.jpg",
+     "lec": "Acid-base balance",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Diarrhoea with bicarbonate loss tends to cause:",
@@ -28461,7 +35307,14 @@ SINA.lectures["biochem-acid-base"] = {
    ],
    "answer": 3,
    "why": "",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-acid-base/25.jpg",
+     "lec": "Acid-base balance",
+     "n": 25
+    }
+   ]
   }
  ],
  "cards": [
@@ -30347,7 +37200,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/03.jpg",
+     "lec": "Thyroid hormones",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "The functional unit of the thyroid is:",
@@ -30369,7 +37229,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/03.jpg",
+     "lec": "Thyroid hormones",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "In 3D, the thyroid follicle is:",
@@ -30391,7 +37258,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/05.jpg",
+     "lec": "Thyroid hormones",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The apical pole of the thyrocyte faces:",
@@ -30413,7 +37287,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/05.jpg",
+     "lec": "Thyroid hormones",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "The thyrocyte cytoplasm is rich in:",
@@ -30436,7 +37317,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/05.jpg",
+     "lec": "Thyroid hormones",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Iodine used by the thyroid comes from:",
@@ -30458,7 +37346,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/06.jpg",
+     "lec": "Thyroid hormones",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "The intracellular iodide concentration in the thyrocyte is about:",
@@ -30480,7 +37375,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/06.jpg",
+     "lec": "Thyroid hormones",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Iodide enters the thyrocyte by:",
@@ -30502,7 +37404,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/06.jpg",
+     "lec": "Thyroid hormones",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "Iodide (I⁻) is oxidised into active iodine (I₂):",
@@ -30525,7 +37434,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/09.jpg",
+     "lec": "Thyroid hormones",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The two aromatic rings of thyronine are joined by:",
@@ -30547,7 +37463,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/07.jpg",
+     "lec": "Thyroid hormones",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "T3 and T4 differ from each other by:",
@@ -30569,7 +37492,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/07.jpg",
+     "lec": "Thyroid hormones",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Thyroglobulin:",
@@ -30592,7 +37522,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/08.jpg",
+     "lec": "Thyroid hormones",
+     "n": 8
+    }
+   ]
   },
   {
    "q": "Iodination of the tyrosines of thyroglobulin occurs:",
@@ -30615,7 +37552,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/09.jpg",
+     "lec": "Thyroid hormones",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "MIT carries:",
@@ -30637,7 +37581,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/09.jpg",
+     "lec": "Thyroid hormones",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "T4 is also called:",
@@ -30660,7 +37611,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/12.jpg",
+     "lec": "Thyroid hormones",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "At the coupling stage, the newly formed T3 and T4:",
@@ -30682,7 +37640,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/10.jpg",
+     "lec": "Thyroid hormones",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "When the thyrocyte is stimulated, thyroglobulin re-enters the cell by:",
@@ -30704,7 +37669,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/11.jpg",
+     "lec": "Thyroid hormones",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "Which are secreted into the blood?",
@@ -30727,7 +37699,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/12.jpg",
+     "lec": "Thyroid hormones",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The main hormone secreted by the thyroid into the blood is:",
@@ -30749,7 +37728,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/12.jpg",
+     "lec": "Thyroid hormones",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Part of T4 is converted into T3:",
@@ -30772,7 +37758,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/12.jpg",
+     "lec": "Thyroid hormones",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "The free fraction of thyroid hormones:",
@@ -30795,7 +37788,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/13.jpg",
+     "lec": "Thyroid hormones",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "The plasma protein with the highest affinity for T4 is:",
@@ -30817,7 +37817,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/14.jpg",
+     "lec": "Thyroid hormones",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Albumin, as a thyroid hormone carrier, is:",
@@ -30839,7 +37846,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/14.jpg",
+     "lec": "Thyroid hormones",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Thyroid hormones bound to plasma proteins are:",
@@ -30861,7 +37875,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/14.jpg",
+     "lec": "Thyroid hormones",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "T3 receptors are located:",
@@ -30884,7 +37905,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/16.jpg",
+     "lec": "Thyroid hormones",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "T3 is about how many times more active than T4?",
@@ -30906,7 +37934,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/16.jpg",
+     "lec": "Thyroid hormones",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "TRH is released by:",
@@ -30928,7 +37963,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/17.jpg",
+     "lec": "Thyroid hormones",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "A rise in blood T4:",
@@ -30950,7 +37992,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/17.jpg",
+     "lec": "Thyroid hormones",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "TSH:",
@@ -30973,7 +38022,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/18.jpg",
+     "lec": "Thyroid hormones",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "New TSH assays target the specific beta chain in order to:",
@@ -30995,7 +38051,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/18.jpg",
+     "lec": "Thyroid hormones",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "In the liver, thyroid hormones are conjugated with:",
@@ -31018,7 +38081,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/19.jpg",
+     "lec": "Thyroid hormones",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Deamination, decarboxylation and oxidation of thyroid hormones produce:",
@@ -31040,7 +38110,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/20.jpg",
+     "lec": "Thyroid hormones",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Iodine released by deiodination in the kidney:",
@@ -31063,7 +38140,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/20.jpg",
+     "lec": "Thyroid hormones",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "Deiodination accounts for about what share of T4 degradation?",
@@ -31085,7 +38169,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/20.jpg",
+     "lec": "Thyroid hormones",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "A thyroid check-up is systematically requested in:",
@@ -31107,7 +38198,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/22.jpg",
+     "lec": "Thyroid hormones",
+     "n": 22
+    }
+   ]
   },
   {
    "q": "In bone, thyroid hormones:",
@@ -31130,7 +38228,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/23.jpg",
+     "lec": "Thyroid hormones",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Thyroid hormones increase the number of adrenergic receptors in vessels, which raises:",
@@ -31153,7 +38258,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/23.jpg",
+     "lec": "Thyroid hormones",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "At the cellular level, thyroid hormones increase:",
@@ -31176,7 +38288,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/24.jpg",
+     "lec": "Thyroid hormones",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "Thyroid hormones cause proteolysis leading to:",
@@ -31198,7 +38317,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/24.jpg",
+     "lec": "Thyroid hormones",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "A patient loses weight while keeping a good appetite, sweats and does not tolerate heat. This suggests:",
@@ -31220,7 +38346,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/26.jpg",
+     "lec": "Thyroid hormones",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "The sign described as strongly in favour of hyperthyroidism is:",
@@ -31242,7 +38375,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/26.jpg",
+     "lec": "Thyroid hormones",
+     "n": 26
+    }
+   ]
   },
   {
    "q": "A patient complains of weight gain, cold intolerance, constipation and slow thinking. The most likely diagnosis is:",
@@ -31264,7 +38404,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/27.jpg",
+     "lec": "Thyroid hormones",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "A goitre:",
@@ -31287,7 +38434,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/28.jpg",
+     "lec": "Thyroid hormones",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Graves' disease is mainly seen in:",
@@ -31309,7 +38463,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/30.jpg",
+     "lec": "Thyroid hormones",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "Hyperthyroidism is defined as the clinical syndrome caused by:",
@@ -31331,7 +38492,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/30.jpg",
+     "lec": "Thyroid hormones",
+     "n": 30
+    }
+   ]
   },
   {
    "q": "A toxic multiheteronodular goitre contains:",
@@ -31353,7 +38521,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/31.jpg",
+     "lec": "Thyroid hormones",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Amiodarone is relevant to the thyroid because:",
@@ -31376,7 +38551,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/32.jpg",
+     "lec": "Thyroid hormones",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Antibodies found in Hashimoto's thyroiditis include:",
@@ -31399,7 +38581,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/34.jpg",
+     "lec": "Thyroid hormones",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Endemic goitre (widespread in a given place) is usually due to:",
@@ -31421,7 +38610,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/34.jpg",
+     "lec": "Thyroid hormones",
+     "n": 34
+    }
+   ]
   },
   {
    "q": "Congenital hypothyroidism (thyroid agenesis or ectopia) can cause:",
@@ -31444,7 +38640,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/35.jpg",
+     "lec": "Thyroid hormones",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "TSHus (ultrasensitive TSH):",
@@ -31467,7 +38670,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/36.jpg",
+     "lec": "Thyroid hormones",
+     "n": 36
+    }
+   ]
   },
   {
    "q": "In thyroid replacement therapy, T4 is preferred because:",
@@ -31490,7 +38700,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/37.jpg",
+     "lec": "Thyroid hormones",
+     "n": 37
+    }
+   ]
   },
   {
    "q": "Thyroid peroxidase (TPO) acts at:",
@@ -31513,7 +38730,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/10.jpg",
+     "lec": "Thyroid hormones",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "TSH stimulates the synthesis of:",
@@ -31536,7 +38760,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/18.jpg",
+     "lec": "Thyroid hormones",
+     "n": 18
+    }
+   ]
   },
   {
    "q": "A goitre in central hyperthyroidism (TSH-secreting adenoma) is explained by:",
@@ -31558,7 +38789,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/29.jpg",
+     "lec": "Thyroid hormones",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "A toxic adenoma (nodular goitre) is:",
@@ -31581,7 +38819,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/31.jpg",
+     "lec": "Thyroid hormones",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "Hyperthyroidism of pregnancy disappears:",
@@ -31603,7 +38848,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/31.jpg",
+     "lec": "Thyroid hormones",
+     "n": 31
+    }
+   ]
   },
   {
    "q": "A thyroid work-up should be done far from an iodinated contrast injection because:",
@@ -31625,7 +38877,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/32.jpg",
+     "lec": "Thyroid hormones",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "A patient on amiodarone who is euthyroid should have a thyroid check-up:",
@@ -31647,7 +38906,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/32.jpg",
+     "lec": "Thyroid hormones",
+     "n": 32
+    }
+   ]
   },
   {
    "q": "Post-surgical or post-radiotherapy hypothyroidism results from:",
@@ -31669,7 +38935,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/35.jpg",
+     "lec": "Thyroid hormones",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "A mutation making the TSH receptor insensitive to TSH causes:",
@@ -31691,7 +38964,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/35.jpg",
+     "lec": "Thyroid hormones",
+     "n": 35
+    }
+   ]
   },
   {
    "q": "FT4 allows:",
@@ -31714,7 +38994,14 @@ SINA.lectures["biochem-thyroid"] = {
    "multi": true,
    "hint": "1 or 2 correct answers",
    "why": "See the notes under each option.",
-   "x": 1
+   "x": 1,
+   "slides": [
+    {
+     "src": "files/slides/biochem-thyroid/36.jpg",
+     "lec": "Thyroid hormones",
+     "n": 36
+    }
+   ]
   }
  ],
  "cards": [
