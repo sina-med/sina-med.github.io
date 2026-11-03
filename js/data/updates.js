@@ -3,6 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "3 November 2026", items: [
+    "Changed: Sina mock options rewritten so the right answer is no longer usually the longest one (341 questions; it is now the longest in about 1 in 4, as by chance).",
     "Fixed: resumed quizzes now show the current slides and explanations instead of an old saved copy.",
     "Added: explanations on about 710 Clinical Biochemistry questions that had none, quoting the slide that answers them.",
     "Added: the new Clinical Biochemistry questions now show the lecture slide behind the answer, with the part that answers it in green (1,041 questions)."
