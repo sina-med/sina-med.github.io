@@ -4,8 +4,8 @@ SINA.lectures["semio-endo-adrenal"] = {
  "subject": "semio",
  "group": "Endocrine",
  "title": "Adrenal semiology",
- "sourceFile": "adrenal semiology 2025.pptx (Endocrinology semiology, Pr. Ioana Hristov, 2025-2026)",
- "sourceUrl": "https://drive.google.com/file/d/1nl01u98kwMmqaF9rlpmM8dYVSnl4-K73/view?usp=drivesdk",
+ "sourceFile": "adrenal semiology 2026.pptx (Endocrinology semiology, Pr. Ioana Hristov, 2026-2027)",
+ "sourceUrl": "https://drive.google.com/file/d/1pV8XvGK4a7A5SJ5Zp3Z_8mB6cEqQaJx0/view?usp=drivesdk",
  "buildNote": "<strong>Partial page.</strong> Most slides in this 28 MB PowerPoint are images, so only the readable text is covered: Cushing's syndrome, its ACTH-based classification, and adrenal and catecholamine imaging. A PDF export of the slides would let this page be completed. If your professor says something different, trust your professor.",
  "summary": [
   {

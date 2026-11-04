@@ -5,7 +5,7 @@ SINA.lectures["semio-gi-bleeding"] = {
  "group": "Digestive",
  "title": "Gastrointestinal bleeding",
  "sourceFile": "GI BLEEDING SEMIO 26.27 CANVAS.pdf (Digestive semiology, Prof. O. Bahlaoui, 2026-2027)",
- "sourceUrl": "https://drive.google.com/file/d/1rSH7BDxM7SwwWMMLyhBGbrFFdNnoKRo8/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1xbMsI4gkwC-YDwMvDuqqxg6vC9BCzjPP/view?usp=drivesdk",
  "buildNote": "<strong>Short version.</strong> The full version, with more questions and extra reading, is coming soon. <strong>Built from the lecture slides.</strong> If your professor says something different, trust your professor.",
  "summary": [
   {

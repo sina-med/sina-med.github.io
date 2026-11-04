@@ -5,7 +5,7 @@ SINA.lectures["semio-gi-dysphagia"] = {
  "group": "Digestive",
  "title": "Dysphagia",
  "sourceFile": "DYSPHAGIA SEMIO 26.27 CANVAS.pdf (Digestive semiology, Prof. O. Bahlaoui, 2026-2027)",
- "sourceUrl": "https://drive.google.com/file/d/1khY9fFEvzjfvnyWnsQcdpX5xAGLKUP9o/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1HQNQsE0pYM2dbhVP1iqQWFWx9fxTk2Xf/view?usp=drivesdk",
  "buildNote": "<strong>Short version.</strong> The full version, with more questions and extra reading, is coming soon. <strong>Built from the lecture slides.</strong> If your professor says something different, trust your professor.",
  "summary": [
   {

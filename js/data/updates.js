@@ -3,6 +3,8 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "4 November 2026", items: [
+    "Changed: source links for the 2026-2027 Digestive semiology slides (examination, jaundice, hepatomegaly, diarrhoea, dysphagia, GERD, GI bleeding) and Endocrine semiology slides (thyroid, adrenal).",
+    "Added: 5 more Endocrine semiology lectures listed as coming (pituitary, parathyroid, gonads, diabetes, dyslipidaemia and hyperuricaemia).",
     "Added: upcoming midterms on 10 November for 1st year (Physics and Biophysics) and 2nd year (Semiology, Digestive and Endocrine). Exact lectures not announced yet, so each covers the whole chapters for now.",
     "Changed: a midterm can now cover several subjects, and past midterms no longer show on the home page."
   ] },

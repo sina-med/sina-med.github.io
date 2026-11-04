@@ -4641,7 +4641,7 @@ SINA.lectures["semio-gi-exam"] = {
  "group": "Digestive",
  "title": "Digestive physical examination",
  "sourceFile": "digestive physical examination.pdf (Digestive semiology, Pr. Wafaa Khannoussi)",
- "sourceUrl": "https://drive.google.com/file/d/1nGTxX8RYWu-OXNLfHhUbz_cpZ_7JDrLu/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1MdcLPVs5tAnU2iybrQJcMKkZGwEky1fv/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> If your professor says something different, trust your professor.",
  "summary": [
   {
@@ -5036,7 +5036,7 @@ SINA.lectures["semio-gi-jaundice"] = {
  "group": "Digestive",
  "title": "Jaundice",
  "sourceFile": "JAUNDICE.pdf (Digestive semiology, Pr. Wafaa Khannoussi)",
- "sourceUrl": "https://drive.google.com/file/d/1uUFPGaI8bauMkamUwuT5pUUa2Olce-1X/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1vVoCvAi-4KnwcmPmONxN0U3DkRhUszJY/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> If your professor says something different, trust your professor.",
  "summary": [
   {
@@ -5407,7 +5407,7 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
  "group": "Digestive",
  "title": "Hepatomegaly",
  "sourceFile": "Hepatomegaly.pdf (Digestive semiology, Pr. Wafaa Khannoussi)",
- "sourceUrl": "https://drive.google.com/file/d/1kUMawlqbkKy_aYXvzpXEX5dACBjuTMT8/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1A75ah23W1U76a82QA19w9AER04VCTugP/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> If your professor says something different, trust your professor.",
  "summary": [
   {
@@ -6520,8 +6520,8 @@ SINA.lectures["semio-endo-thyroid"] = {
  "subject": "semio",
  "group": "Endocrine",
  "title": "Thyroid semiology",
- "sourceFile": "thyroid semiology 2025 final.pptx (Endocrinology semiology, Pr. Ioana Hristov, 2025-2026)",
- "sourceUrl": "https://drive.google.com/file/d/1SR9OiyZ4e-HYhZepghWSPk97W5OsMAtb/view?usp=drivesdk",
+ "sourceFile": "thyroid semiology 2026.pptx (Endocrinology semiology, Pr. Ioana Hristov, 2026-2027)",
+ "sourceUrl": "https://drive.google.com/file/d/1VzCxUJLPS-sg8R-ysTdkpH7EDe7Ylvvg/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> If your professor says something different, trust your professor.",
  "summary": [
   {
@@ -7023,8 +7023,8 @@ SINA.lectures["semio-endo-adrenal"] = {
  "subject": "semio",
  "group": "Endocrine",
  "title": "Adrenal semiology",
- "sourceFile": "adrenal semiology 2025.pptx (Endocrinology semiology, Pr. Ioana Hristov, 2025-2026)",
- "sourceUrl": "https://drive.google.com/file/d/1nl01u98kwMmqaF9rlpmM8dYVSnl4-K73/view?usp=drivesdk",
+ "sourceFile": "adrenal semiology 2026.pptx (Endocrinology semiology, Pr. Ioana Hristov, 2026-2027)",
+ "sourceUrl": "https://drive.google.com/file/d/1pV8XvGK4a7A5SJ5Zp3Z_8mB6cEqQaJx0/view?usp=drivesdk",
  "buildNote": "<strong>Partial page.</strong> Most slides in this 28 MB PowerPoint are images, so only the readable text is covered: Cushing's syndrome, its ACTH-based classification, and adrenal and catecholamine imaging. A PDF export of the slides would let this page be completed. If your professor says something different, trust your professor.",
  "summary": [
   {
@@ -7365,7 +7365,7 @@ SINA.lectures["semio-gi-diarrhoea"] = {
  "group": "Digestive",
  "title": "Diarrhoea",
  "sourceFile": "DIARRHEA SEMIO 26.27 CANVAS.pdf (Digestive semiology, Prof. O. Bahlaoui, 2026-2027)",
- "sourceUrl": "https://drive.google.com/file/d/1yWMsG97izVIsT2KPJ1txGDvHraUgUP4G/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1-cYPJvImuPE9491KkFLIOM7NMrwp8FUl/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
  "summary": [
   {
@@ -8407,7 +8407,7 @@ SINA.lectures["semio-gi-dysphagia"] = {
  "group": "Digestive",
  "title": "Dysphagia",
  "sourceFile": "DYSPHAGIA SEMIO 26.27 CANVAS.pdf (Digestive semiology, Prof. O. Bahlaoui, 2026-2027)",
- "sourceUrl": "https://drive.google.com/file/d/1khY9fFEvzjfvnyWnsQcdpX5xAGLKUP9o/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1HQNQsE0pYM2dbhVP1iqQWFWx9fxTk2Xf/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
  "summary": [
   {
@@ -9423,7 +9423,7 @@ SINA.lectures["semio-gi-gerd"] = {
  "group": "Digestive",
  "title": "Gastro-oesophageal reflux disease",
  "sourceFile": "GERD semiology 26.27 CANVAS.pdf (Digestive semiology, Prof. O. Bahlaoui, 2026-2027)",
- "sourceUrl": "https://drive.google.com/file/d/14eyx9RZKtKEZdNjzowCdOv8Rzvs2MFtC/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1lcUkQLGcZUftLWBcWvly0-rmLoKbKU94/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
  "summary": [
   {
@@ -10372,7 +10372,7 @@ SINA.lectures["semio-gi-bleeding"] = {
  "group": "Digestive",
  "title": "Gastrointestinal bleeding",
  "sourceFile": "GI BLEEDING SEMIO 26.27 CANVAS.pdf (Digestive semiology, Prof. O. Bahlaoui, 2026-2027)",
- "sourceUrl": "https://drive.google.com/file/d/1rSH7BDxM7SwwWMMLyhBGbrFFdNnoKRo8/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1xbMsI4gkwC-YDwMvDuqqxg6vC9BCzjPP/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
  "summary": [
   {

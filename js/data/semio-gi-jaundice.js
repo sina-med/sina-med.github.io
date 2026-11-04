@@ -5,7 +5,7 @@ SINA.lectures["semio-gi-jaundice"] = {
  "group": "Digestive",
  "title": "Jaundice",
  "sourceFile": "JAUNDICE.pdf (Digestive semiology, Pr. Wafaa Khannoussi)",
- "sourceUrl": "https://drive.google.com/file/d/1uUFPGaI8bauMkamUwuT5pUUa2Olce-1X/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1vVoCvAi-4KnwcmPmONxN0U3DkRhUszJY/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> If your professor says something different, trust your professor.",
  "summary": [
   {

@@ -102,8 +102,13 @@ SINA.subjects = [
         { id: "semio-gi-bleeding", title: "Gastrointestinal bleeding" }
       ]},
       { name: "Endocrine", items: [
+        { id: "semio-endo-pituitary", title: "Pituitary semiology" },
         { id: "semio-endo-thyroid", title: "Thyroid semiology" },
-        { id: "semio-endo-adrenal", title: "Adrenal semiology" }
+        { id: "semio-endo-parathyroid", title: "Parathyroid semiology" },
+        { id: "semio-endo-adrenal", title: "Adrenal semiology" },
+        { id: "semio-endo-gonads", title: "Gonadal dysfunction semiology" },
+        { id: "semio-endo-diabetes", title: "Diabetes semiology" },
+        { id: "semio-endo-lipids", title: "Dyslipidaemia and hyperuricaemia semiology" }
       ]}
     ] },
   { id: "biochem", name: "Clinical Biochemistry", semester: "S3", status: "live",
@@ -647,8 +652,13 @@ SINA.midterms = [
    {
     "name": "Endocrine",
     "items": [
+     "semio-endo-pituitary",
      "semio-endo-thyroid",
-     "semio-endo-adrenal"
+     "semio-endo-parathyroid",
+     "semio-endo-adrenal",
+     "semio-endo-gonads",
+     "semio-endo-diabetes",
+     "semio-endo-lipids"
     ]
    }
   ],

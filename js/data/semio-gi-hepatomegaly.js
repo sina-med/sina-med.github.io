@@ -5,7 +5,7 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
  "group": "Digestive",
  "title": "Hepatomegaly",
  "sourceFile": "Hepatomegaly.pdf (Digestive semiology, Pr. Wafaa Khannoussi)",
- "sourceUrl": "https://drive.google.com/file/d/1kUMawlqbkKy_aYXvzpXEX5dACBjuTMT8/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1A75ah23W1U76a82QA19w9AER04VCTugP/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> If your professor says something different, trust your professor.",
  "summary": [
   {

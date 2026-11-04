@@ -5,7 +5,7 @@ SINA.lectures["semio-gi-exam"] = {
  "group": "Digestive",
  "title": "Digestive physical examination",
  "sourceFile": "digestive physical examination.pdf (Digestive semiology, Pr. Wafaa Khannoussi)",
- "sourceUrl": "https://drive.google.com/file/d/1nGTxX8RYWu-OXNLfHhUbz_cpZ_7JDrLu/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1MdcLPVs5tAnU2iybrQJcMKkZGwEky1fv/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> If your professor says something different, trust your professor.",
  "summary": [
   {

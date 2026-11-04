@@ -5,7 +5,7 @@ SINA.lectures["semio-gi-gerd"] = {
  "group": "Digestive",
  "title": "Gastro-oesophageal reflux disease",
  "sourceFile": "GERD semiology 26.27 CANVAS.pdf (Digestive semiology, Prof. O. Bahlaoui, 2026-2027)",
- "sourceUrl": "https://drive.google.com/file/d/14eyx9RZKtKEZdNjzowCdOv8Rzvs2MFtC/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1lcUkQLGcZUftLWBcWvly0-rmLoKbKU94/view?usp=drivesdk",
  "buildNote": "<strong>Short version.</strong> The full version, with more questions and extra reading, is coming soon. <strong>Built from the lecture slides.</strong> If your professor says something different, trust your professor.",
  "summary": [
   {
