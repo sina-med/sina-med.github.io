@@ -3118,7 +3118,7 @@
   }
   function leaderboardView(sel) {
     if (!S.api) return notFound();
-    setView('<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / Leaderboard</p><h1>Leaderboard</h1><p class="meta">Best exam-mode score per nickname on each past paper. Ties go to the faster time.</p><div id="lb"><div class="loading-row">' + snakeLoader() + '<span>Loading the leaderboard…</span></div></div></div>', "Leaderboard");
+    setView('<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / Leaderboard</p><h1>Leaderboard</h1><p class="meta">Best exam-mode score per nickname on each past paper this week. Ties go to the faster time. Resets every Tuesday at 23:00.</p><div id="lb"><div class="loading-row">' + snakeLoader() + '<span>Loading the leaderboard…</span></div></div></div>', "Leaderboard");
     var cur = null, last = 0, timer = null;
     function load(fresh) { lbFetch(show, fresh); }
     timer = setInterval(function () { if (!document.getElementById("lb")) { clearInterval(timer); return; } if (!document.hidden) load(true); }, 15000);
