@@ -617,11 +617,106 @@ SINA.programs = [
 SINA.DEFAULT_PROGRAM = "y2-anglo";
 SINA.subjects.forEach(function (s) { if (!s.program) s.program = SINA.DEFAULT_PROGRAM; });
 
-/* Upcoming midterms: the lectures listed here get the blue "On the midterm" label
+/* Upcoming midterms (fallback copy of the Midterms tab of the Sina Sheet, used when the Sheet cannot be read): the lectures listed here get the blue "On the midterm" label
    and appear on the "Upcoming midterm lectures" page for their year. */
 SINA.midterms = [
-  { id: "biochem-midterm", program: "y2-anglo", subject: "biochem", title: "Clinical Biochemistry midterm", date: "2026-11-03",
-    groups: [
-      { name: "Basics and hormones", items: ["biochem-preanalytical", "biochem-thyroid", "biochem-adrenal-medulla", "biochem-insulin", "biochem-steroids"] }
-    ]}
+ {
+  "id": "semio-midterm",
+  "program": "y2-anglo",
+  "subject": "semio",
+  "subjects": [
+   "semio"
+  ],
+  "title": "Semio Gastro/Endocrino",
+  "date": "2026-11-10",
+  "groups": [
+   {
+    "name": "Digestive",
+    "items": [
+     "semio-gi-exam",
+     "semio-gi-jaundice",
+     "semio-gi-hepatomegaly",
+     "semio-gi-constipation",
+     "semio-gi-dysentery",
+     "semio-gi-diarrhoea",
+     "semio-gi-dysphagia",
+     "semio-gi-gerd",
+     "semio-gi-bleeding"
+    ]
+   },
+   {
+    "name": "Endocrine",
+    "items": [
+     "semio-endo-thyroid",
+     "semio-endo-adrenal"
+    ]
+   }
+  ],
+  "tbc": true,
+  "auto": false
+ },
+ {
+  "id": "physics1-biophys1-midterm",
+  "program": "y1-anglo",
+  "subject": "physics1",
+  "subjects": [
+   "physics1",
+   "biophys1"
+  ],
+  "title": "Physics/Biophysics midterm",
+  "date": "",
+  "groups": [
+   {
+    "name": "Physics: General",
+    "items": [
+     "physics1-units"
+    ]
+   },
+   {
+    "name": "Physics: States of matter and energetics",
+    "items": [
+     "physics1-states",
+     "physics1-water",
+     "physics1-gases",
+     "physics1-energetics"
+    ]
+   },
+   {
+    "name": "Physics: Free displacements of matter",
+    "items": [
+     "physics1-viscosity",
+     "physics1-migration",
+     "physics1-diffusion"
+    ]
+   },
+   {
+    "name": "Physics: Membranes and major functions",
+    "items": [
+     "physics1-osmosis",
+     "physics1-fluid-transfers",
+     "physics1-circulation",
+     "physics1-respiration",
+     "physics1-acid-base"
+    ]
+   },
+   {
+    "name": "Biophysics: Ionising radiation",
+    "items": [
+     "biophys1-radioactivity",
+     "biophys1-interactions",
+     "biophys1-radiobiology",
+     "biophys1-radioprotection"
+    ]
+   },
+   {
+    "name": "Biophysics: Senses",
+    "items": [
+     "biophys1-optics",
+     "biophys1-hearing"
+    ]
+   }
+  ],
+  "tbc": true,
+  "auto": true
+ }
 ];

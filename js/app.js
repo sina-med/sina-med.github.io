@@ -708,9 +708,9 @@
     mids.forEach(function (m) {
       var n = 0; m.groups.forEach(function (g) { n += g.items.length; });
       var dl = midDaysLeft(m), cram = dl !== null && dl >= 0 && dl <= 7;
-      midHTML += '<div class="mid-card' + (cram ? " cram" + (dl <= 1 ? " cram-red" : "") : "") + '"><div class="mid-main"><p class="mid-eyebrow">' + (cram ? (dl === 0 ? "Midterm today" : dl === 1 ? "Midterm tomorrow" : "Midterm week") : "Upcoming") + '</p><h2>' + esc(m.title) + '</h2>' + midCountdown(m) + '<p class="meta">' + (n === 1 ? "1 lecture" : n + " lectures") + ' on this exam.</p><div class="row">' +
-        (n === 1 ? '<a class="btn primary" href="#/lecture/' + m.groups[0].items[0] + '">Revise the lecture</a>' : '<a class="btn primary" href="#/midterm">Revise the lectures</a>') + '<a class="btn" href="#/practice/' + m.subject + '/lectures/midterm">Practice questions</a>' +
-        ((S.papers || []).some(function (x) { return x.subject === m.subject; }) ? '<a class="btn" href="#/practice/' + m.subject + '/papers">Past papers as quizzes</a>' : "") + "</div></div>" + midWidgets(m) + (cram ? cramPlan(m, dl) : "") + "</div>";
+      midHTML += '<div class="mid-card' + (cram ? " cram" + (dl <= 1 ? " cram-red" : "") : "") + '"><div class="mid-main"><p class="mid-eyebrow">' + (cram ? (dl === 0 ? "Midterm today" : dl === 1 ? "Midterm tomorrow" : "Midterm week") : "Upcoming") + '</p><h2>' + esc(m.title) + '</h2>' + midCountdown(m) + '<p class="meta">' + (m.tbc ? "Exact lectures not announced yet. For now this covers " + esc(midScope(m)) + "." : (n === 1 ? "1 lecture" : n + " lectures") + " on this exam.") + '</p><div class="row">' +
+        (n === 1 ? '<a class="btn primary" href="#/lecture/' + m.groups[0].items[0] + '">Revise the lecture</a>' : '<a class="btn primary" href="#/midterm">Revise the lectures</a>') + midSubs(m).map(function (sid) { var sb = subjectById(sid); return '<a class="btn" href="#/practice/' + sid + '/lectures/midterm">' + (midSubs(m).length > 1 && sb ? esc(sb.name) + " questions" : "Practice questions") + "</a>"; }).join("") +
+        (midSubs(m).length === 1 && (S.papers || []).some(function (x) { return x.subject === m.subject; }) ? '<a class="btn" href="#/practice/' + m.subject + '/papers">Past papers as quizzes</a>' : "") + "</div></div>" + midWidgets(m) + (cram ? cramPlan(m, dl) : "") + "</div>";
     });
     var html = '<div class="wrap wide"><section class="hero slim"><div class="hero-grid"><div class="hero-text"><p class="hero-brand">Sina<span>.</span></p><h1>Study each lecture, then test yourself on it.</h1>' +
       '<div class="home-search"><input id="home-search" type="search" placeholder="Search a lecture, subject or past paper" aria-label="Search lectures, subjects and past papers" autocomplete="off"><div class="home-results" id="home-results" hidden></div></div></div>' + caduceusHTML() + "</div>" +
@@ -737,8 +737,14 @@
 
 
   /* Midterms */
-  function progMidterms() { return (S.midterms || []).filter(function (m) { return (m.program || S.DEFAULT_PROGRAM) === PROG; }); }
-  function onMidterm(id) { return (S.midterms || []).some(function (m) { return m.groups.some(function (g) { return g.items.indexOf(id) >= 0; }); }); }
+  function progMidterms() { var t = today(); return (S.midterms || []).filter(function (m) { return (m.program || S.DEFAULT_PROGRAM) === PROG && (!m.date || m.date >= t); }); }
+  function midSubs(m) { return m.subjects || [m.subject]; }
+  function midScope(m) {
+    var subs = midSubs(m).map(subjectById).filter(Boolean), n = 0; m.groups.forEach(function (g) { n += g.items.length; });
+    var what = m.auto ? "all of " + subs.map(function (x) { return x.name; }).join(" and ") : "the " + m.groups.map(function (g) { return g.name; }).join(" and ") + " chapter" + (m.groups.length > 1 ? "s" : "");
+    return what + " (" + n + " lecture" + (n === 1 ? "" : "s") + ")";
+  }
+  function onMidterm(id) { return progMidterms().some(function (m) { return m.groups.some(function (g) { return g.items.indexOf(id) >= 0; }); }); }
   function lectureTitle(id) {
     var t = "";
     S.subjects.forEach(function (s) { (s.groups || []).forEach(function (g) { g.items.forEach(function (it) { if (it.id === id) t = it.title; }); }); });
@@ -751,11 +757,11 @@
     ms.forEach(function (m) {
       var sb = subjectById(m.subject), n = 0;
       m.groups.forEach(function (g) { n += g.items.length; });
-      html += '<section class="midterm"><h2 class="group-title">' + esc(m.title) + '</h2><p class="meta">' + (n === 1 ? "1 lecture" : n + " lectures") + (sb ? ' from <a href="#/subject/' + sb.id + '">' + esc(sb.name) + "</a>" : "") + (n === 1 ? ". Only this lecture is on this midterm.</p>" : ". Only these lectures are on this midterm.</p>") + (m.practice ? '<p><a class="btn primary" href="' + esc(m.practice.url) + '">' + esc(m.practice.label) + "</a></p>" : "");
+      html += '<section class="midterm"><h2 class="group-title">' + esc(m.title) + '</h2>' + (m.tbc ? '<p class="meta">Exact lectures not announced yet. Until they are, this covers ' + esc(midScope(m)) + ".</p>" : '<p class="meta">' + (n === 1 ? "1 lecture" : n + " lectures") + (sb ? ' from <a href="#/subject/' + sb.id + '">' + esc(sb.name) + "</a>" : "") + (n === 1 ? ". Only this lecture is on this midterm.</p>" : ". Only these lectures are on this midterm.</p>")) + (m.practice ? '<p><a class="btn primary" href="' + esc(m.practice.url) + '">' + esc(m.practice.label) + "</a></p>" : "");
       m.groups.forEach(function (g) {
         html += '<h3 class="mid-group">' + esc(g.name) + '</h3><ul class="lec-list">' + g.items.map(function (id) {
           return S.lectures[id]
-            ? '<li><a href="#/lecture/' + id + '"><span>' + esc(lectureTitle(id)) + '</span><span class="pill mid">On the midterm</span></a></li>'
+            ? '<li><a href="#/lecture/' + id + '"><span>' + esc(lectureTitle(id)) + '</span><span class="pill mid">' + (m.tbc ? "Midterm scope" : "On the midterm") + "</span></a></li>"
             : '<li><span class="soon"><span>' + esc(lectureTitle(id)) + '</span><span class="pill muted">Coming</span></span></li>';
         }).join("") + "</ul>";
       });
@@ -778,7 +784,7 @@
     if ((S.papers || []).some(function (x) { return x.subject === s.id; })) secs.push(["papers", "Past papers"]);
     return secs;
   }
-  function subjectMid(s) { return progMidterms().filter(function (m) { return m.subject === s.id; })[0]; }
+  function subjectMid(s) { return progMidterms().filter(function (m) { return midSubs(m).indexOf(s.id) > -1; })[0]; }
   function wireTabs(root) {
     var cur = root.querySelector('.tab[aria-selected="true"]');
     if (cur && cur.scrollIntoView) { var t = cur.parentNode; t.scrollLeft = cur.offsetLeft - (t.clientWidth - cur.clientWidth) / 2; }
@@ -1687,7 +1693,7 @@
   /* past papers: which questions are on lectures outside the next midterm of that subject */
   function nextMid(subId) {
     var t = today();
-    return progMidterms().filter(function (m) { return m.subject === subId && (!m.date || m.date >= t); }).sort(function (a, b) { return (a.date || "9") < (b.date || "9") ? -1 : 1; })[0] || null;
+    return progMidterms().filter(function (m) { return midSubs(m).indexOf(subId) > -1 && (!m.date || m.date >= t); }).sort(function (a, b) { return (a.date || "9") < (b.date || "9") ? -1 : 1; })[0] || null;
   }
   function paperOff(x) {
     var m = x.questions && nextMid(x.subject), map = S.paperLec || {};
@@ -2730,14 +2736,14 @@
       '<span class="cb-txt"><span class="cb-t">Cram plan <em>' + lead + '</em></span><span class="cb-s">' + esc(startWith) + '</span></span><svg class="cb-chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>' +
       '<div class="cram-body"><div class="cram-inner"><p class="cram-tip">' + tip + '</p><ol class="cram-list">' + rows.map(function (r) {
         var isWeak = weak.indexOf(r) > -1;
-        return '<li' + (isWeak ? ' class="weak"' : "") + '><a href="#/subject/' + m.subject + "/questions/" + r.id + '" title="' + (r.acc !== null ? r.acc + "% accuracy" : "Not started") + '"><span class="cl-t">' + esc(r.title) + '</span><span class="cl-bar"><i style="width:' + Math.round(r.cov * 100) + '%"></i></span><span class="cl-m">' + r.right + "/" + r.total + "</span></a></li>";
+        return '<li' + (isWeak ? ' class="weak"' : "") + '><a href="#/subject/' + (S.lectures[r.id].subject || m.subject) + "/questions/" + r.id + '" title="' + (r.acc !== null ? r.acc + "% accuracy" : "Not started") + '"><span class="cl-t">' + esc(r.title) + '</span><span class="cl-bar"><i style="width:' + Math.round(r.cov * 100) + '%"></i></span><span class="cl-m">' + r.right + "/" + r.total + "</span></a></li>";
       }).join("") + "</ol>" + (mk ? '<a class="cram-redo" href="#/mistakes">Redo my mistakes (' + mk + ") &rarr;</a>" : "") + "</div></div></div>";
   }
   /* ---------- home: midterm countdown (flip) and progress ring ---------- */
   function midStats(m) {
     var ids = [].concat.apply([], m.groups.map(function (g) { return g.items; })), total = 0, rt = store.get("sina:right", {}), done = 0, keys = {};
     ids.forEach(function (id) { var L = S.lectures[id]; if (!L) return; var fig = L.visual && L.visual.figure; (L.mcqs || []).forEach(function (q) { if (q.target && !fig) return; var k = qKey(q); if (!keys[k]) { total++; keys[k] = 1; } }); });
-    (S.papers || []).forEach(function (x) { if (x.subject !== m.subject || !x.questions) return; x.questions.forEach(function (q) { var k = qKey(q); if (!keys[k]) { total++; keys[k] = 1; } }); });
+    (S.papers || []).forEach(function (x) { if (midSubs(m).indexOf(x.subject) < 0 || !x.questions) return; x.questions.forEach(function (q) { var k = qKey(q); if (!keys[k]) { total++; keys[k] = 1; } }); });
     Object.keys(rt).forEach(function (k) { if (keys[k]) done++; });
     return { total: total, done: done, pct: !total ? 0 : done && done < total ? Math.min(99, Math.max(1, Math.round(done / total * 100))) : Math.round(done / total * 100) };
   }
@@ -2811,24 +2817,41 @@
     return rows;
   }
   function norm(x) { return String(x || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim(); }
+  /* Subject cell can name several subjects ("Physics / Biophysics"). A lecture cell can also be a chapter name
+     ("Digestive"), meaning all its lectures. A row with no lecture cells covers the whole subject(s) and is shown
+     only while it is the next midterm of its year. Both cases are marked as not announced yet (tbc). */
   function midsFromCsv(text) {
     var rows = csvRows(text), out = [];
     var progOf = { "2nd year anglo": "y2-anglo", "1st year anglo": "y1-anglo" };
+    var p2 = function (x) { return ("0" + x).slice(-2); };
     rows.slice(1).forEach(function (r) {
-      var prog = progOf[norm(r[0])], sb = S.subjects.filter(function (x) { return x.program === prog && norm(x.name) === norm(r[1]); })[0];
-      if (!prog || !sb || !sb.groups) return;
-      var want = r.slice(4).map(norm).filter(Boolean), groups = [];
-      sb.groups.forEach(function (g) {
-        var items = g.items.filter(function (it) { return want.indexOf(norm(it.title)) > -1; }).map(function (it) { return it.id; });
-        if (items.length) groups.push({ name: g.name, items: items });
-      });
+      var prog = progOf[norm(r[0])]; if (!prog) return;
+      var sbs = String(r[1] || "").split(/[\/+&,]| and /i).map(norm).filter(Boolean).map(function (nm) {
+        return S.subjects.filter(function (x) { return x.program === prog && x.groups && norm(x.name) === nm; })[0];
+      }).filter(Boolean);
+      if (!sbs.length) return;
+      var want = r.slice(4).map(norm).filter(Boolean), groups = [], byChapter = false;
+      sbs.forEach(function (sb) { sb.groups.forEach(function (g) {
+        var whole = !want.length || want.indexOf(norm(g.name)) > -1;
+        if (whole && want.length) byChapter = true;
+        var items = g.items.filter(function (it) { return whole || want.indexOf(norm(it.title)) > -1; }).map(function (it) { return it.id; });
+        if (items.length) groups.push({ name: sbs.length > 1 ? sb.name + ": " + g.name : g.name, items: items });
+      }); });
       if (!groups.length) return;
       var raw = (r[3] || "").trim(), dm = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/.exec(raw), ym = /^(\d{4})[-\/](\d{1,2})[-\/](\d{1,2})$/.exec(raw);
-      var p2 = function (x) { return ("0" + x).slice(-2); };
       var d = ym ? ym[1] + "-" + p2(ym[2]) + "-" + p2(ym[3]) : dm ? dm[3] + "-" + p2(dm[2]) + "-" + p2(dm[1]) : "";
-      out.push({ id: sb.id + "-midterm", program: prog, subject: sb.id, title: (r[2] || "").trim() || sb.name + " midterm", date: d, groups: groups });
+      out.push({ id: sbs.map(function (x) { return x.id; }).join("-") + "-midterm", program: prog, subject: sbs[0].id, subjects: sbs.map(function (x) { return x.id; }),
+        title: (r[2] || "").trim() || sbs.map(function (x) { return x.name; }).join(" and ") + " midterm", date: d, groups: groups,
+        tbc: !want.length || byChapter, auto: !want.length });
     });
-    return out;
+    /* rows without any lecture listed: keep only the next upcoming one of each year */
+    var t = today();
+    return out.filter(function (m) {
+      if (!m.auto) return true;
+      var next = out.filter(function (x) { return x.program === m.program && (!x.date || x.date >= t); })
+        .sort(function (a, b) { return (a.date || "9") < (b.date || "9") ? -1 : 1; })[0];
+      return next === m;
+    });
   }
   (function () {
     var cached = store.get("sina:midsheet", null);
