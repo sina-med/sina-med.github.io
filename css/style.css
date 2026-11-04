@@ -1582,3 +1582,41 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .ak-card:not(.flipped) .fc-back { max-height: 12rem; overflow: hidden; }
 .fc-actions { position: sticky; bottom: 0; z-index: 6; background: var(--bg); padding: .6rem 0 calc(.6rem + env(safe-area-inset-bottom, 0px)); margin-top: .4rem; }
 .qhead:empty { display: none; }
+
+/* flashcards without the flip animation: show one side at a time */
+.fcard.flip3d, .fcard.flip3d.flipped { transform: none; transition: none; }
+.fcard.flip3d .fc-back { transform: none; }
+.fcard.flip3d:not(.flipped) .fc-back, .fcard.flip3d.flipped .fc-front { display: none; }
+.fcard.fc-enter { animation: none; }
+
+/* AnKing progress tracker */
+.ak-track { border: 1px solid var(--line); border-radius: 16px; background: var(--surface); padding: 1rem 1.1rem; margin: .6rem 0 1.1rem; }
+.ak-track.empty p { margin: 0; color: var(--muted); font-size: .92rem; }
+.ak-track.empty strong { color: var(--ink); }
+.ak-track-top { display: flex; flex-wrap: wrap; align-items: center; gap: .9rem 1.2rem; }
+.ak-ring { display: flex; flex-direction: column; align-items: center; gap: .3rem; width: 6.4rem; text-align: center; font-size: .78rem; color: var(--muted); line-height: 1.25; }
+.ak-ring .pring { width: 76px; height: 76px; }
+.ak-ring text { font-size: 20px; }
+.ak-r1 .fg { stroke: var(--good); } .ak-r2 .fg { stroke: #2f7fd8; }
+.ak-stats { flex: 1 1 13rem; display: grid; grid-template-columns: repeat(2, 1fr); gap: .5rem; }
+.ak-stats div { background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: .45rem .6rem; }
+.ak-stats b { display: block; font-size: 1.25rem; font-variant-numeric: tabular-nums; line-height: 1.2; }
+.ak-stats span { font-size: .76rem; color: var(--muted); }
+.ak-fc { margin-top: 1rem; }
+.ak-fc-h { margin: 0 0 .4rem; font-size: .82rem; font-weight: 700; color: var(--muted); }
+.ak-fc-bars { display: grid; grid-template-columns: repeat(7, 1fr); gap: .35rem; align-items: end; height: 96px; }
+.ak-fc-col { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: .2rem; height: 100%; }
+.ak-fc-b { width: 70%; max-width: 2.2rem; border-radius: 5px 5px 2px 2px; background: var(--good); }
+.ak-fc-col:first-child .ak-fc-b { background: var(--ink); }
+.ak-fc-v { font-size: .72rem; font-variant-numeric: tabular-nums; color: var(--ink); min-height: 1em; }
+.ak-fc-d { font-size: .68rem; color: var(--muted); white-space: nowrap; }
+.ak-chaps { margin-top: .9rem; }
+.ak-chaps summary { cursor: pointer; font-weight: 700; font-size: .9rem; }
+.ak-chaps .pbars { margin-bottom: 0; }
+.ak-mix { border: 1px solid var(--line); border-radius: 14px; padding: .7rem 1rem; margin: 0 0 1rem; background: var(--surface); }
+.ak-mix summary { cursor: pointer; font-weight: 700; }
+.ak-mix .meta { margin: .5rem 0; }
+.ak-mix-c { margin: 0 0 .7rem; }
+.ak-mix-c button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.ak-mix .btn[disabled] { opacity: .5; cursor: default; }
+.ak-from { margin: 0 0 .3rem; font-size: .8rem; font-weight: 600; color: var(--muted); }
