@@ -3,6 +3,8 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "4 November 2026", items: [
+    "Added: Pituitary semiology and Diabetes semiology lectures (summary, 19 questions each with slides, flashcards).",
+    "Added: past papers GI semiology midterm 2023 and Semiology I midterm 2022 as quizzes.",
     "Changed: Semiology midterm, Endocrine part set (thyroid; pituitary, adrenal and diabetes in part). Digestive part not announced yet.",
     "Added: Anki-style review heatmaps, for AnKing on its page and for lecture flashcards on My progress.",
     "Fixed: chapter picker in Mix several chapters overflowing the screen on phones; now a checklist.",
