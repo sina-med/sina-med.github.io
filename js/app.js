@@ -676,8 +676,118 @@
           '<div class="app-actions">' + a.links.map(function (l, n) { return '<a class="btn' + (n === 0 ? " primary" : "") + '" href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.label) + "</a>"; }).join("") + "</div></li>";
       }).join("") + "</ul>";
     });
+    html += '<div class="usmle-drive ak-card"><div><h2>AnKing Step 1 as questions</h2><p>The AnKing Step 1 cards turned into multiple-choice questions, with their pictures. Private: you need the password.</p></div><a class="btn primary" href="#/anking">Open</a></div>';
     html += '<p class="src" style="margin-top:1.6rem">Links open the official sites in a new tab. Suggestions for this page are welcome through the feedback form.</p>';
     setView(html + "</div>", "USMLE prep");
+  }
+
+  /* ---------- AnKing Step 1 as MCQs: password-locked, everything stored encrypted (files/ak) ----------
+     Key = PBKDF2-SHA256(password, salt) -> AES-GCM. The key (not the password) is kept on the device after the first unlock. */
+  var AK = { meta: null, key: null, subs: {}, img: {} }, LET = "abcdefgh";
+  function akHex(h) { var a = new Uint8Array(h.length / 2); for (var i = 0; i < a.length; i++) a[i] = parseInt(h.substr(i * 2, 2), 16); return a; }
+  function akDec(buf) { var b = new Uint8Array(buf); return crypto.subtle.decrypt({ name: "AES-GCM", iv: b.slice(0, 12) }, AK.key, b.slice(12)); }
+  function akText(hex) { return akDec(akHex(hex)).then(function (x) { return new TextDecoder().decode(x); }); }
+  function akMeta() { return AK.meta ? Promise.resolve(AK.meta) : fetch("files/ak/meta.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (m) { AK.meta = m; return m; }); }
+  function akUnlock(pw) {
+    return akMeta().then(function (m) {
+      return crypto.subtle.importKey("raw", new TextEncoder().encode(pw), "PBKDF2", false, ["deriveKey"]).then(function (base) {
+        return crypto.subtle.deriveKey({ name: "PBKDF2", salt: akHex(m.salt), iterations: m.iter, hash: "SHA-256" }, base, { name: "AES-GCM", length: 256 }, true, ["decrypt"]);
+      });
+    }).then(function (k) { AK.key = k; return akText(AK.meta.check); }).then(function (t) {
+      if (t !== "sina-ak-ok") throw new Error("bad");
+      return crypto.subtle.exportKey("raw", AK.key).then(function (raw) { store.set("sina:akkey", Array.prototype.map.call(new Uint8Array(raw), function (x) { return ("0" + x.toString(16)).slice(-2); }).join("")); });
+    });
+  }
+  function akSaved() {
+    var h = store.get("sina:akkey", ""); if (!h || !window.crypto || !crypto.subtle) return Promise.reject();
+    return akMeta().then(function () { return crypto.subtle.importKey("raw", akHex(h), { name: "AES-GCM" }, true, ["decrypt"]); })
+      .then(function (k) { AK.key = k; return akText(AK.meta.check); }).then(function (t) { if (t !== "sina-ak-ok") throw new Error("bad"); });
+  }
+  function akSubject(s) {
+    if (AK.subs[s.f]) return Promise.resolve(AK.subs[s.f]);
+    return fetch("files/ak/q/" + s.f + ".bin").then(function (r) { if (!r.ok) throw new Error("net"); return r.arrayBuffer(); }).then(akDec).then(function (gz) {
+      return new Response(new Blob([gz]).stream().pipeThrough(new DecompressionStream("gzip"))).text();
+    }).then(function (t) { AK.subs[s.f] = JSON.parse(t); return AK.subs[s.f]; });
+  }
+  function akImages(root) {
+    root.querySelectorAll("img[data-ak]").forEach(function (im) {
+      var id = im.getAttribute("data-ak"); im.removeAttribute("data-ak"); im.className = "ak-img"; im.loading = "lazy";
+      if (AK.img[id]) { im.src = AK.img[id]; return; }
+      fetch("files/ak/i/" + id + ".bin").then(function (r) { if (!r.ok) throw new Error("net"); return r.arrayBuffer(); }).then(akDec)
+        .then(function (b) { AK.img[id] = URL.createObjectURL(new Blob([b], { type: "image/webp" })); im.src = AK.img[id]; })
+        .catch(function () { im.remove(); });
+    });
+  }
+  /* question HTML was cleaned at build time; strip anything but simple formatting again here */
+  function akSafe(h) { return String(h || "").replace(/<(\/?)([a-z0-9]+)([^>]*)>/gi, function (m, c, n, rest) { n = n.toLowerCase(); if (n === "img") { var d = /data-ak="([0-9a-f]+)"/.exec(rest); return d ? '<img data-ak="' + d[1] + '" alt="">' : ""; } if (n === "span" && !c) return /ak-blank/.test(rest) ? '<span class="ak-blank">' : "<span>"; return /^(b|i|u|sub|sup|br|ul|ol|li|table|tbody|thead|tr|td|th|span)$/.test(n) ? "<" + c + n + ">" : ""; }); }
+  function ankingView() {
+    var base = '<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / <a href="#/usmle">USMLE prep</a> / AnKing questions</p><h1>AnKing Step 1 as questions</h1>';
+    if (!window.crypto || !crypto.subtle || typeof DecompressionStream === "undefined") { setView(base + "<p>This browser is too old for this section. Update it, or open the site in a recent Chrome or Safari.</p></div>", "AnKing questions"); return; }
+    setView(base + '<p class="meta">Loading…</p></div>', "AnKing questions");
+    akSaved().then(akHome, function () { akLock(base); });
+  }
+  function akLock(base, err) {
+    setView(base + '<p class="lede-s">This section is private. Enter the password you were given.</p>' +
+      '<form id="akf" class="ak-lock"><input id="akpw" type="password" autocomplete="current-password" placeholder="Password" aria-label="Password"><button class="btn primary" type="submit">Unlock</button></form>' +
+      (err ? '<p class="ak-err" role="alert">' + esc(err) + "</p>" : "") + "</div>", "AnKing questions");
+    var f = document.getElementById("akf"), pw = document.getElementById("akpw"); pw.focus();
+    f.onsubmit = function (e) {
+      e.preventDefault(); if (!pw.value) return;
+      f.querySelector("button").disabled = true; f.querySelector("button").textContent = "Checking…";
+      akUnlock(pw.value.trim()).then(akHome, function () { akLock(base, "Wrong password."); });
+    };
+  }
+  function akHome() {
+    var m = AK.meta;
+    Promise.all(m.subjects.map(function (s) { return s.label ? s.label : akText(s.name).then(function (t) { s.label = t; return t; }); })).then(function () {
+      var seen = store.get("sina:akseen", {}), cnt = store.get("sina:akcount", "20");
+      var h = '<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / <a href="#/usmle">USMLE prep</a> / AnKing questions</p><h1>AnKing Step 1 as questions</h1>' +
+        '<p class="lede-s">' + m.total.toLocaleString("en") + " questions made from the AnKing Step 1 cards, grouped by First Aid chapter. The wrong options are taken from other cards on the same topic, so a few will be odd: skip those. Questions you have not seen yet come first.</p>" +
+        '<div class="chips quick" role="group" aria-label="Number of questions">' + ["10", "20", "40", "100"].map(function (n) { return '<button type="button" data-c="' + n + '"' + (n === cnt ? ' class="on" aria-pressed="true"' : ' aria-pressed="false"') + ">" + n + " questions</button>"; }).join("") + "</div>" +
+        '<ul class="lec-list ak-subs">' + m.subjects.map(function (s, n) {
+          var d = seen[s.f] ? Object.keys(seen[s.f]).length : 0;
+          return '<li><a href="#/anking" data-s="' + n + '"><span>' + esc(s.label) + '</span><span class="qn">' + (d ? d.toLocaleString("en") + " / " : "") + s.n.toLocaleString("en") + "</span></a></li>";
+        }).join("") + '</ul><p class="src"><button type="button" class="linkbtn" id="akout">Lock this section on this device</button></p></div>';
+      setView(h, "AnKing questions");
+      app.querySelectorAll("[data-c]").forEach(function (b) { b.onclick = function () { store.set("sina:akcount", b.dataset.c); akHome(); }; });
+      app.querySelectorAll("[data-s]").forEach(function (a) { a.onclick = function (e) { e.preventDefault(); akStart(m.subjects[+a.dataset.s], +store.get("sina:akcount", "20")); }; });
+      document.getElementById("akout").onclick = function () { localStorage.removeItem("sina:akkey"); AK.key = null; ankingView(); };
+    });
+  }
+  function akStart(s, n) {
+    setView('<div class="wrap"><p class="meta">Loading ' + esc(s.label) + "…</p></div>", "AnKing questions");
+    akSubject(s).then(function (all) {
+      var seen = store.get("sina:akseen", {}), sm = seen[s.f] || {};
+      var fresh = shuffle(all.filter(function (q) { return !sm[q.id]; })), old = shuffle(all.filter(function (q) { return sm[q.id]; }));
+      akQuiz(s, fresh.concat(old).slice(0, n));
+    }, function () { setView('<div class="wrap"><p>Could not load these questions. Check the connection and try again.</p><p><a class="btn" href="#/anking">Back</a></p></div>', "AnKing questions"); });
+  }
+  function akQuiz(s, qs) {
+    var i = 0, score = 0, done = [];
+    function mark(q, ok) { var seen = store.get("sina:akseen", {}); seen[s.f] = seen[s.f] || {}; seen[s.f][q.id] = ok ? 1 : 0; store.set("sina:akseen", seen); }
+    function render() {
+      if (i >= qs.length) {
+        setView('<div class="wrap"><p class="crumbs"><a href="#/anking">AnKing questions</a> / ' + esc(s.label) + "</p><h1>" + score + " / " + qs.length + '</h1><div class="row"><button class="btn primary" id="akmore">' + qs.length + ' more</button><a class="btn" href="#/anking">Choose another chapter</a></div></div>', "AnKing questions");
+        document.getElementById("akmore").onclick = function () { akStart(s, qs.length); };
+        return;
+      }
+      var q = qs[i], d = done[i];
+      var h = '<div class="wrap"><p class="crumbs"><a href="#/anking">AnKing questions</a> / ' + esc(s.label) + '</p><p class="qhead">Question ' + (i + 1) + " of " + qs.length + "</p>" +
+        ecgProgress(done.filter(Boolean).length / qs.length) + '<div class="qtext ak-q">' + akSafe(q.q) + "</div>" +
+        q.options.map(function (o, n) {
+          var cls = d ? (n === q.answer ? " correct" : n === d.c ? " wrong" : "") : "";
+          return '<button class="opt' + cls + '" data-n="' + n + '"' + (d ? " disabled" : "") + '><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span></button>";
+        }).join("") +
+        (d ? '<div class="why"><strong>' + (d.c === q.answer ? "Correct." : "Not quite.") + "</strong> Answer: " + esc(q.options[q.answer]) + "." + (q.extra ? '<div class="ak-extra">' + akSafe(q.extra) + "</div>" : "") + "</div>" : "") +
+        '<div class="qnav"><button class="btn" id="prev" type="button"' + (i ? "" : " disabled") + '>&larr; Previous</button><button class="btn' + (d ? " primary" : "") + '" id="fwd" type="button">' + (i + 1 < qs.length ? (d ? "Next question" : "Skip") : "Finish") + " &rarr;</button></div></div>";
+      setView(h, "AnKing questions"); akImages(app);
+      app.querySelectorAll(".opt").forEach(function (b) {
+        b.onclick = function () { if (done[i]) return; var c = +b.dataset.n; done[i] = { c: c }; if (c === q.answer) score++; mark(q, c === q.answer); render(); };
+      });
+      document.getElementById("prev").onclick = function () { if (i) { i--; render(); } };
+      document.getElementById("fwd").onclick = function () { i++; render(); window.scrollTo(0, 0); };
+    }
+    render();
   }
 
   function firstLecture() {
@@ -2782,6 +2892,7 @@
     if (parts[0] === "updates") return updatesView();
     if (parts[0] === "apps") return appsView();
     if (parts[0] === "usmle") return usmleView();
+    if (parts[0] === "anking") return ankingView();
     if (parts[0] === "year" && progValid(parts[1])) { setProgram(parts[1], true); location.replace("#/"); return; }
     if (parts[0] === "midterm") return midtermView();
     if (parts[0] === "progress") return progressView();
