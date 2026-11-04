@@ -1019,8 +1019,7 @@
     akLabels().then(function () {
       var seen = store.get("sina:akseen", {}), sr = store.get("sina:aksrs", {}), day = dayNo(), cm = akCards_();
       var h = akBase() +
-        '<p class="lede-s">' + (cm ? m.total.toLocaleString("en") + " AnKing Step 1 cards as flashcards, scheduled like Anki. Rate each card Again, Hard, Good or Easy and it comes back just before you would forget it. Due cards come first, then new ones."
-          : m.total.toLocaleString("en") + " questions made from the AnKing Step 1 cards, grouped by First Aid chapter. The wrong options are taken from other cards on the same topic, so a few will be odd: skip those. Questions you have not seen yet come first.") + "</p>" +
+        '<p class="lede-s">All AnKing Step 1 flashcards as MCQs or Anki flashcards, with pictures.</p>' +
         akTrackHTML() + akToolsHTML() + akDueHTML() + akMixHTML() +
         '<ul class="lec-list ak-subs">' + m.subjects.map(function (s, n) {
           var o = { n: s.n, d: seen[s.f] ? Object.keys(seen[s.f]).length : 0, st: 0, du: 0 }, mm = sr[s.f] || {};
