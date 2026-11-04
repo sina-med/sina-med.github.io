@@ -3,6 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "4 November 2026", items: [
+    "Changed: Endocrine semiology slides converted from PowerPoint to PDF; Download lecture on Thyroid and Adrenal semiology now gives the PDF.",
     "Changed: source links for the 2026-2027 Digestive semiology slides (examination, jaundice, hepatomegaly, diarrhoea, dysphagia, GERD, GI bleeding) and Endocrine semiology slides (thyroid, adrenal).",
     "Added: 5 more Endocrine semiology lectures listed as coming (pituitary, parathyroid, gonads, diabetes, dyslipidaemia and hyperuricaemia).",
     "Added: upcoming midterms on 10 November for 1st year (Physics and Biophysics) and 2nd year (Semiology, Digestive and Endocrine). Exact lectures not announced yet, so each covers the whole chapters for now.",

@@ -1017,7 +1017,8 @@
     var secs = subSections(sub).map(function (x) { return x[0]; });
     var did = driveId(lec.sourceUrl), ppt = /\.pptx?\b/i.test(lec.sourceFile || ""), who = lecturer(lec);
     var more = [];
-    if (did) more.push('<a role="menuitem" href="https://drive.google.com/uc?export=download&amp;id=' + esc(did) + '" target="_blank" rel="noopener">' + ICON.dl + "Download lecture" + (ppt ? " (PowerPoint)" : "") + "</a>");
+    if (lec.sourcePdf) more.push('<a role="menuitem" href="' + esc(lec.sourcePdf) + '" target="_blank" rel="noopener">' + ICON.dl + "Download lecture (PDF)</a>");
+    else if (did) more.push('<a role="menuitem" href="https://drive.google.com/uc?export=download&amp;id=' + esc(did) + '" target="_blank" rel="noopener">' + ICON.dl + "Download lecture" + (ppt ? " (PowerPoint)" : "") + "</a>");
     more.push('<a role="menuitem" href="#/subject/' + sub.id + "/questions/" + id + '">' + ICON.q + "Practice questions</a>");
     if (secs.indexOf("visual") > -1 && lec.visual) more.push('<a role="menuitem" href="#/subject/' + sub.id + "/visual/" + id + '">' + ICON.v + "Visual</a>");
     if (lec.highYield && lec.highYield.length) more.push('<a role="menuitem" href="#/subject/' + sub.id + "/highyield/" + id + '">' + ICON.hy + "High yield notes</a>");
@@ -1121,8 +1122,9 @@
   function sourceLine(lec) {
     var who = lecturer(lec);
     var id = driveId(lec.sourceUrl), ppt = /\.pptx?\b/i.test(lec.sourceFile || "");
-    if (!id) return who ? '<p class="meta">' + esc(who) + "</p>" : "";
-    return '<p class="srcline"><a class="dlbtn" href="https://drive.google.com/uc?export=download&amp;id=' + esc(id) + '" target="_blank" rel="noopener" title="' + esc(lec.sourceFile || "") + '">' +
+    if (!id && !lec.sourcePdf) return who ? '<p class="meta">' + esc(who) + "</p>" : "";
+    if (lec.sourcePdf) ppt = false;
+    return '<p class="srcline"><a class="dlbtn" href="' + (lec.sourcePdf ? esc(lec.sourcePdf) : "https://drive.google.com/uc?export=download&amp;id=" + esc(id)) + '" target="_blank" rel="noopener" title="' + esc(lec.sourceFile || "") + '">' +
       '<svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg>' +
       "Download lecture" + (ppt ? " (PowerPoint)" : "") + "</a>" + (who ? '<span class="srcwho">' + esc(who) + "</span>" : "") + "</p>";
   }

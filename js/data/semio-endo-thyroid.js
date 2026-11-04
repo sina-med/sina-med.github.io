@@ -4,7 +4,7 @@ SINA.lectures["semio-endo-thyroid"] = {
  "subject": "semio",
  "group": "Endocrine",
  "title": "Thyroid semiology",
- "sourceFile": "thyroid semiology 2026.pptx (Endocrinology semiology, Pr. Ioana Hristov, 2026-2027)",
+ "sourceFile": "thyroid semiology 2026.pdf, converted from the PowerPoint (Endocrinology semiology, Pr. Ioana Hristov, 2026-2027)",
  "sourceUrl": "https://drive.google.com/file/d/1VzCxUJLPS-sg8R-ysTdkpH7EDe7Ylvvg/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> If your professor says something different, trust your professor.",
  "summary": [
@@ -353,5 +353,6 @@ SINA.lectures["semio-endo-thyroid"] = {
    "url": "https://geekymedics.com/thyroid-status-examination/"
   }
  ],
- "verified": "22 Sep 2026"
+ "verified": "22 Sep 2026",
+ "sourcePdf": "files/src/semio-endo-thyroid.pdf"
 };

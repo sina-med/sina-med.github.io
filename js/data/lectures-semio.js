@@ -6520,7 +6520,7 @@ SINA.lectures["semio-endo-thyroid"] = {
  "subject": "semio",
  "group": "Endocrine",
  "title": "Thyroid semiology",
- "sourceFile": "thyroid semiology 2026.pptx (Endocrinology semiology, Pr. Ioana Hristov, 2026-2027)",
+ "sourceFile": "thyroid semiology 2026.pdf, converted from the PowerPoint (Endocrinology semiology, Pr. Ioana Hristov, 2026-2027)",
  "sourceUrl": "https://drive.google.com/file/d/1VzCxUJLPS-sg8R-ysTdkpH7EDe7Ylvvg/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> If your professor says something different, trust your professor.",
  "summary": [
@@ -7015,7 +7015,8 @@ SINA.lectures["semio-endo-thyroid"] = {
    "url": "https://geekymedics.com/thyroid-status-examination/"
   }
  ],
- "verified": "22 Sep 2026"
+ "verified": "22 Sep 2026",
+ "sourcePdf": "files/src/semio-endo-thyroid.pdf"
 };
 window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["semio-endo-adrenal"] = {
@@ -7023,7 +7024,7 @@ SINA.lectures["semio-endo-adrenal"] = {
  "subject": "semio",
  "group": "Endocrine",
  "title": "Adrenal semiology",
- "sourceFile": "adrenal semiology 2026.pptx (Endocrinology semiology, Pr. Ioana Hristov, 2026-2027)",
+ "sourceFile": "adrenal semiology 2026.pdf, converted from the PowerPoint (Endocrinology semiology, Pr. Ioana Hristov, 2026-2027)",
  "sourceUrl": "https://drive.google.com/file/d/1pV8XvGK4a7A5SJ5Zp3Z_8mB6cEqQaJx0/view?usp=drivesdk",
  "buildNote": "<strong>Partial page.</strong> Most slides in this 28 MB PowerPoint are images, so only the readable text is covered: Cushing's syndrome, its ACTH-based classification, and adrenal and catecholamine imaging. A PDF export of the slides would let this page be completed. If your professor says something different, trust your professor.",
  "summary": [
@@ -7356,7 +7357,8 @@ SINA.lectures["semio-endo-adrenal"] = {
    "url": "https://www.ncbi.nlm.nih.gov/books/NBK470218/"
   }
  ],
- "verified": "22 Sep 2026"
+ "verified": "22 Sep 2026",
+ "sourcePdf": "files/src/semio-endo-adrenal.pdf"
 };
 window.SINA = window.SINA || {subjects:[], lectures:{}};
 SINA.lectures["semio-gi-diarrhoea"] = {
