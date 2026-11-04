@@ -1447,7 +1447,8 @@
       if (exam) examIntro(p.querySelector("#quiz"), set, picker); else questionsPanel(p.querySelector("#quiz"), set);
       window.scrollTo(0, 0);
     }
-    picker();
+    /* a link to one lecture (cram plan, Continue) starts that lecture's quiz right away; "Change lectures" goes back to the list */
+    if (arg && arg !== "midterm" && S.lectures[arg] && picked.length === 1) start(false); else picker();
   }
   function subVisualPanel(p, s, arg) {
     var has = function (l) { return l.visual && (l.visual.figure || l.visual.regions || l.visual.mindmap || l.visual.model3d || galleryImages(l.visual).length); };
