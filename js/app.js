@@ -912,26 +912,63 @@
         return '<li><a href="#/anking" data-tr="' + r.s.f + '"><span class="pb-name">' + esc(r.s.label) + '</span><span class="pb-num">' + (r.pct ? r.pct : "<1") + "% · " + r.n.toLocaleString("en") + "/" + r.s.n.toLocaleString("en") + '</span><span class="pb-track"><span class="pb-fill ' + (r.pct >= 60 ? "good" : r.pct >= 25 ? "mid" : "low") + '" style="--w:' + Math.max(1, r.pct) + '%"></span></span></a></li>';
       }).join("") + "</ul></details>" : "") + "</section>";
   }
-  /* several chapters at once */
+  /* several chapters at once, each whole or only some of its parts. sina:akmix = { f: null (whole chapter) | [section names] } */
+  function akMixSel() { var v = store.get("sina:akmix", {}); if (Array.isArray(v)) { var o = {}; v.forEach(function (f) { o[f] = null; }); v = o; } return v; }
   function akMixHTML() {
-    var sel = store.get("sina:akmix", []), cm = akCards_();
-    return '<details class="ak-mix"' + (sel.length ? " open" : "") + '><summary>Mix several chapters</summary><p class="meta">Pick the chapters to ' + (cm ? "study" : "be quizzed on") + ' together.</p><div class="chips ak-mix-c" role="group" aria-label="Chapters">' +
-      AK.meta.subjects.map(function (s) { var on = sel.indexOf(s.f) > -1; return '<button type="button" data-mx="' + s.f + '" aria-pressed="' + on + '"' + (on ? ' class="on"' : "") + ">" + esc(s.label.replace(/ \(no First Aid chapter\)/, "")) + "</button>"; }).join("") +
-      '</div><div class="row"><button class="btn primary" id="mxgo" type="button"></button><button class="btn" id="mxall" type="button">Select all</button><button class="btn" id="mxnone" type="button">Clear</button></div></details>';
+    var sel = akMixSel(), cm = akCards_(), any = Object.keys(sel).length;
+    return '<details class="ak-mix"' + (any ? " open" : "") + '><summary>Mix several chapters</summary><p class="meta">Tick the chapters to ' + (cm ? "study" : "be quizzed on") + ' together. Open a chapter with the arrow to pick only some of its parts.</p><ul class="mx-list">' +
+      AK.meta.subjects.map(function (s) {
+        var on = s.f in sel, part = on && sel[s.f] !== null;
+        return '<li class="mx-row" data-row="' + s.f + '"><div class="mx-top"><label class="mx-ch"><input type="checkbox" data-mx="' + s.f + '"' + (on ? " checked" : "") + '><span>' + esc(s.label.replace(/ \(no First Aid chapter\)/, "")) + '</span></label>' +
+          '<span class="mx-n">' + (part ? sel[s.f].length + " part" + (sel[s.f].length > 1 ? "s" : "") : s.n.toLocaleString("en")) + '</span><button type="button" class="mx-exp" aria-expanded="false" aria-label="Choose parts of ' + esc(s.label) + '"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div><div class="mx-secs" hidden></div></li>';
+      }).join("") + '</ul><div class="row mx-acts"><button class="btn primary" id="mxgo" type="button"></button><button class="btn" id="mxall" type="button">Select all</button><button class="btn" id="mxnone" type="button">Clear</button></div></details>';
   }
   function akMixWire() {
     var go = document.getElementById("mxgo"); if (!go) return;
-    function sel() { return Array.prototype.map.call(app.querySelectorAll("[data-mx][aria-pressed=true]"), function (b) { return b.dataset.mx; }); }
-    function upd() { var n = sel().length; store.set("sina:akmix", sel()); go.disabled = !n; go.textContent = n ? (akCards_() ? "Study " : "Quiz me on ") + n + " chapter" + (n > 1 ? "s" : "") : "Pick at least one chapter"; }
-    function set(b, on) { b.setAttribute("aria-pressed", String(on)); b.classList.toggle("on", on); }
-    app.querySelectorAll("[data-mx]").forEach(function (b) { b.onclick = function () { set(b, b.getAttribute("aria-pressed") !== "true"); upd(); }; });
-    document.getElementById("mxall").onclick = function () { app.querySelectorAll("[data-mx]").forEach(function (b) { set(b, true); }); upd(); };
-    document.getElementById("mxnone").onclick = function () { app.querySelectorAll("[data-mx]").forEach(function (b) { set(b, false); }); upd(); };
+    var sel = akMixSel();
+    function save() { store.set("sina:akmix", sel); }
+    function row(f) { return app.querySelector('[data-row="' + f + '"]'); }
+    function sync(f) {
+      var r = row(f), cb = r.querySelector("[data-mx]"), n = r.querySelector(".mx-n"), s = AK.meta.subjects.filter(function (x) { return x.f === f; })[0];
+      var on = f in sel, part = on && sel[f] !== null;
+      cb.checked = on && !part; cb.indeterminate = part;
+      n.textContent = part ? sel[f].length + " part" + (sel[f].length > 1 ? "s" : "") : s.n.toLocaleString("en");
+      r.querySelectorAll("[data-ms]").forEach(function (x) { x.checked = on && (!part || sel[f].indexOf(x.dataset.ms) > -1); });
+    }
+    function upd() {
+      var fs = Object.keys(sel); save(); go.disabled = !fs.length;
+      go.textContent = fs.length ? (akCards_() ? "Study " : "Quiz me on ") + fs.length + " chapter" + (fs.length > 1 ? "s" : "") : "Tick at least one chapter";
+    }
+    app.querySelectorAll("[data-mx]").forEach(function (cb) { cb.onchange = function () { var f = cb.dataset.mx; if (cb.checked) sel[f] = null; else delete sel[f]; sync(f); upd(); }; });
+    app.querySelectorAll(".mx-exp").forEach(function (b) { b.onclick = function () {
+      var r = b.closest(".mx-row"), f = r.dataset.row, box = r.querySelector(".mx-secs"), op = box.hidden;
+      box.hidden = !op; b.setAttribute("aria-expanded", String(op)); r.classList.toggle("open", op);
+      if (!op || box.dataset.l) return; box.dataset.l = "1"; box.innerHTML = '<p class="meta">Loading parts…</p>';
+      var s = AK.meta.subjects.filter(function (x) { return x.f === f; })[0];
+      akSubject(s).then(function (all) {
+        box.innerHTML = akSecList(all).map(function (x) { return '<label class="mx-sec"><input type="checkbox" data-ms="' + esc(x[0]) + '"><span>' + esc(x[0]) + '</span><span class="mx-n">' + x[1].toLocaleString("en") + "</span></label>"; }).join("");
+        box.querySelectorAll("[data-ms]").forEach(function (x) { x.onchange = function () {
+          var all2 = Array.prototype.map.call(box.querySelectorAll("[data-ms]"), function (y) { return y.dataset.ms; });
+          var cur = f in sel ? (sel[f] === null ? all2.slice() : sel[f].slice()) : [];
+          if (x.checked) { if (cur.indexOf(x.dataset.ms) < 0) cur.push(x.dataset.ms); } else cur = cur.filter(function (y) { return y !== x.dataset.ms; });
+          if (!cur.length) delete sel[f]; else sel[f] = cur.length === all2.length ? null : cur;
+          sync(f); upd();
+        }; });
+        sync(f);
+      }, function () { box.innerHTML = '<p class="meta">Could not load. Check the connection.</p>'; delete box.dataset.l; });
+    }; });
+    document.getElementById("mxall").onclick = function () { AK.meta.subjects.forEach(function (s) { sel[s.f] = null; sync(s.f); }); upd(); };
+    document.getElementById("mxnone").onclick = function () { Object.keys(sel).forEach(function (f) { delete sel[f]; sync(f); }); upd(); };
     go.onclick = function () {
-      var fs = sel(), subs = AK.meta.subjects.filter(function (s) { return fs.indexOf(s.f) > -1; }); if (!subs.length) return;
-      var lab = subs.length === 1 ? subs[0].label : subs.length === AK.meta.subjects.length ? "All chapters" : subs.map(function (s) { return s.label.split(/[ ,]/)[0]; }).join(", ");
-      if (akCards_()) akCardStart(subs, null, lab, akGoHome);
-      else akStart(subs, +store.get("sina:akcount", "20"), null, lab, akGoHome);
+      var subs = AK.meta.subjects.filter(function (s) { return s.f in sel; }); if (!subs.length) return;
+      var pick = {}; subs.forEach(function (s) { pick[s.f] = sel[s.f]; });
+      var partial = subs.some(function (s) { return pick[s.f] !== null; });
+      var filt = partial ? function (q) { var p = pick[q._f]; return p === null || p.indexOf(q.s || "General") > -1; } : null;
+      var lab = subs.length === AK.meta.subjects.length && !partial ? "All chapters" : subs.map(function (s) { return s.label.split(/[ ,]/)[0] + (pick[s.f] ? " (" + pick[s.f].join(", ") + ")" : ""); }).join(", ");
+      Promise.all(subs.map(akSubject)).then(function (ls) { ls.forEach(akNorm);
+        if (akCards_()) akCardStart(subs, filt, lab, akGoHome);
+        else akStart(subs, +store.get("sina:akcount", "20"), filt, lab, akGoHome);
+      }, akFail);
     };
     app.querySelectorAll("[data-tr]").forEach(function (a) { a.onclick = function (e) { e.preventDefault(); var s = AK.meta.subjects.filter(function (x) { return x.f === a.dataset.tr; })[0]; if (s) akChapter(s); }; });
     upd();
@@ -973,10 +1010,7 @@
         if (top) { if (!S2.tops[top]) { S2.tops[top] = { n: 0, d: 0, st: 0, du: 0 }; S2.to.push(top); } add(S2.tops[top], q); }
       });
       /* tiny sections (a handful of mis-tagged cards) join "More topics" */
-      if (order.some(function (k) { return k !== "More topics" && secs[k].n < 10 && order.length > 1; })) {
-        order.forEach(function (k) { if (k !== "More topics" && secs[k].n < 10) all.forEach(function (q) { if ((q.s || "General") === k) { q.t = q.t || k; q.s = "More topics"; } }); });
-        AK.subs[s.f] = all; return akChapter(s);
-      }
+      if (!all._norm) { akNorm(all); return akChapter(s); }
       order.sort(function (a, b) { return a === "More topics" ? 1 : b === "More topics" ? -1 : secs[b].n - secs[a].n; });
       var tot = { n: all.length, d: 0, st: 0, du: 0 }; order.forEach(function (k) { tot.d += secs[k].d; tot.st += secs[k].st; tot.du += secs[k].du; });
       var h = '<div class="wrap"><p class="crumbs"><a href="#/anking">AnKing</a> / ' + esc(s.label) + "</p><h1>" + esc(s.label) + "</h1>" + akToolsHTML() +
@@ -996,6 +1030,17 @@
         else akStart([s], +store.get("sina:akcount", "20"), filt, lab, function () { akChapter(s); });
       }; });
     }, akFail);
+  }
+  function akNorm(all) {
+    if (all._norm) return all; var cnt = {};
+    all.forEach(function (q) { var k = q.s || "General"; cnt[k] = (cnt[k] || 0) + 1; });
+    var ks = Object.keys(cnt);
+    if (ks.length > 1) all.forEach(function (q) { var k = q.s || "General"; if (k !== "More topics" && cnt[k] < 10) { q.t = q.t || k; q.s = "More topics"; } });
+    all._norm = 1; return all;
+  }
+  function akSecList(all) {
+    var c = {}; akNorm(all).forEach(function (q) { var k = q.s || "General"; c[k] = (c[k] || 0) + 1; });
+    return Object.keys(c).sort(function (a, b) { return a === "More topics" ? 1 : b === "More topics" ? -1 : c[b] - c[a]; }).map(function (k) { return [k, c[k]]; });
   }
   function akStart(subs, n, filt, lab, back) {
     setView('<div class="wrap"><p class="meta">Loading questions…</p></div>', "AnKing");
