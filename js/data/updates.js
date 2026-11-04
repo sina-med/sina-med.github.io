@@ -3,6 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "4 November 2026", items: [
+    "Added: green highlights on the slide lines that answer each Pituitary and Diabetes semiology question.",
     "Changed: leaderboard is now weekly and resets every Tuesday at 23:00.",
     "Fixed: Download lecture (PDF) on iPhone and iPad now opens the share sheet to save the file; on computers it downloads.",
     "Fixed: lectures in the cram plan open that lecture's questions instead of the whole subject.",

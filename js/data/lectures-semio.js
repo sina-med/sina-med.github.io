@@ -12225,9 +12225,9 @@ SINA.lectures["semio-endo-diabetes"] = {
    "why": "Normal below 5.7%, prediabetes 5.7 to 6.4%, diabetes 6.5% or more.",
    "slides": [
     {
-     "src": "files/slides/semio-endo-diabetes/13.jpg",
+     "src": "files/slides/semio-endo-diabetes/11.jpg",
      "lec": "Diabetes semiology",
-     "n": 13
+     "n": 11
     }
    ]
   },
