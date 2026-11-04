@@ -764,11 +764,14 @@
   function akDec(buf) { var b = new Uint8Array(buf); return crypto.subtle.decrypt({ name: "AES-GCM", iv: b.slice(0, 12) }, AK.key, b.slice(12)); }
   function akText(hex) { return akDec(akHex(hex)).then(function (x) { return new TextDecoder().decode(x); }); }
   function akMeta() { return AK.meta ? Promise.resolve(AK.meta) : fetch("files/ak/meta.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (m) { AK.meta = m; return m; }); }
+  /* the password unlocks the data key (meta.wrap); curly quotes from phone keyboards count as straight ones */
+  function akPw(p) { return String(p).trim().replace(/[\u2018\u2019\u201B\u2032`\u00B4]/g, "'"); }
   function akUnlock(pw) {
     return akMeta().then(function (m) {
-      return crypto.subtle.importKey("raw", new TextEncoder().encode(pw), "PBKDF2", false, ["deriveKey"]).then(function (base) {
-        return crypto.subtle.deriveKey({ name: "PBKDF2", salt: akHex(m.salt), iterations: m.iter, hash: "SHA-256" }, base, { name: "AES-GCM", length: 256 }, true, ["decrypt"]);
-      });
+      return crypto.subtle.importKey("raw", new TextEncoder().encode(akPw(pw)), "PBKDF2", false, ["deriveKey"]).then(function (base) {
+        return crypto.subtle.deriveKey({ name: "PBKDF2", salt: akHex(m.wsalt), iterations: m.iter, hash: "SHA-256" }, base, { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
+      }).then(function (kek) { var w = akHex(m.wrap); return crypto.subtle.decrypt({ name: "AES-GCM", iv: w.slice(0, 12) }, kek, w.slice(12)); })
+        .then(function (raw) { return crypto.subtle.importKey("raw", raw, { name: "AES-GCM" }, true, ["decrypt"]); });
     }).then(function (k) { AK.key = k; return akText(AK.meta.check); }).then(function (t) {
       if (t !== "sina-ak-ok") throw new Error("bad");
       return crypto.subtle.exportKey("raw", AK.key).then(function (raw) { store.set("sina:akkey", Array.prototype.map.call(new Uint8Array(raw), function (x) { return ("0" + x.toString(16)).slice(-2); }).join("")); });
@@ -865,7 +868,7 @@
     f.onsubmit = function (e) {
       e.preventDefault(); if (!pw.value) return;
       f.querySelector("button").disabled = true; f.querySelector("button").textContent = "Checking…";
-      akUnlock(pw.value.trim()).then(go || akHome, function () { akLock(base, "Wrong password.", go); });
+      akUnlock(pw.value).then(go || akHome, function () { akLock(base, "Wrong password.", go); });
     };
   }
   function akLabels() { return Promise.all(AK.meta.subjects.map(function (s) { return s.label ? s.label : akText(s.name).then(function (t) { s.label = t; return t; }); })); }
