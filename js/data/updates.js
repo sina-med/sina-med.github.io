@@ -3,6 +3,13 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "4 November 2026", items: [
+    "Added: AnKing flashcard mode, scheduled like Anki (Again / Hard / Good / Easy), with a daily count of due cards and a Review now button.",
+    "Changed: lecture flashcards use the same Anki-style scheduling; due cards come first.",
+    "Added: due flashcards on the Review page and in the daily reminder.",
+    "Added: Mark button in quizzes to come back to a question, and a question map to jump to any question.",
+    "Changed: Previous and Next buttons moved above the question.",
+    "Changed: Sketchy, Pixorize and Physeo pictures in a swipeable slider; tap a picture to enlarge it.",
+    "Changed: flashcards flip top to bottom, a bit slower.",
     "Added: Sketchy, Pixorize and Physeo pictures under AnKing questions (30,584 pictures, shown after answering, tap to open).",
     "Added: AnKing Step 1 as multiple-choice questions (29,048 questions with their pictures), on the USMLE prep page, by First Aid chapter, section and topic. Private: locked with a password.",
     "Changed: Endocrine semiology slides converted from PowerPoint to PDF; Download lecture on Thyroid and Adrenal semiology now gives the PDF.",

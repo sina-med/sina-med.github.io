@@ -22,7 +22,7 @@ for (const s of data.subs || []) {
   const due = Number(s.due) || 0, review = s.review && due > 0, daily = s.daily;
   if (!review && !daily) continue;
   const payload = review
-    ? { title: "Sina: " + due + " question" + (due > 1 ? "s" : "") + " to review", body: "Questions you missed are due again today. A few minutes now keeps them fresh.", url: "#/review" }
+    ? { title: "Sina: " + due + " review" + (due > 1 ? "s" : "") + " due", body: "Questions and flashcards are due again today. A few minutes now keeps them fresh.", url: "#/review" }
     : { title: "Sina: daily practice", body: "Ten questions take about ten minutes. Pick up where you left off.", url: "#/" };
   try {
     await webpush.sendNotification(JSON.parse(s.sub), JSON.stringify(payload), { TTL: 6 * 3600 });

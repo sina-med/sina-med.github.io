@@ -681,6 +681,88 @@
     setView(html + "</div>", "USMLE prep");
   }
 
+  /* ---------- Anki-style flashcard scheduling, shared by AnKing and lecture flashcards ----------
+     entry = [due day, interval in days (0 = still learning), ease x100, lapses] */
+  function srsNext(e, g) {
+    var d = dayNo(), ivl = e ? e[1] : 0, ease = e ? e[2] : 250, lap = e ? e[3] : 0, n;
+    if (g === 1) { if (ivl > 0) { lap++; ease = Math.max(130, ease - 20); } return [d, 0, ease, lap]; }
+    if (ivl < 1) { if (g === 2) return [d, 0, ease, lap]; n = g === 4 ? 4 : 1; }
+    else if (g === 2) { n = Math.max(ivl + 1, Math.round(ivl * 1.2)); ease = Math.max(130, ease - 15); }
+    else if (g === 3) n = Math.max(ivl + 1, Math.round(ivl * ease / 100));
+    else { n = Math.max(ivl + 2, Math.round(ivl * ease / 100 * 1.3)); ease += 15; }
+    n = Math.min(n, 3650); return [d + n, n, ease, lap];
+  }
+  function srsFmt(n) { return !n ? "<10m" : n < 30 ? n + "d" : n < 365 ? Math.round(n / 30) + "mo" : Math.round(n / 36.5) / 10 + "y"; }
+  function rateHTML(e) {
+    return '<div class="fc-rate" role="group" aria-label="How well did you know it?">' + [[1, "Again", "r1"], [2, "Hard", "r2"], [3, "Good", "r3"], [4, "Easy", "r4"]].map(function (b) {
+      return '<button type="button" class="btn ' + b[2] + '" data-g="' + b[0] + '"><span>' + b[1] + "</span><small>" + srsFmt(srsNext(e, b[0])[1]) + "</small></button>";
+    }).join("") + "</div>";
+  }
+  function akDue(day) { var a = store.get("sina:aksrs", {}), n = 0; if (day == null) day = dayNo(); Object.keys(a).forEach(function (f) { var m = a[f]; for (var k in m) if (m[k][0] <= day) n++; }); return n; }
+  function fcDue(day) { var a = store.get("sina:fcsrs", {}), n = 0; if (day == null) day = dayNo(); for (var k in a) if (a[k][0] <= day && inProgram(k.split("|")[0])) n++; return n; }
+  function allDue(day) { return dueList(day).length + akDue(day) + fcDue(day); }
+  var remT; function remindSoon() { clearTimeout(remT); remT = setTimeout(remindSync, 4000); }
+  /* keyboard for the card on screen: space or Enter flips, 1-4 rates */
+  var FCK = null;
+  document.addEventListener("keydown", function (e) {
+    if (!FCK || !document.body.contains(FCK.el) || /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName) || e.ctrlKey || e.metaKey || e.altKey) return;
+    FCK.key(e);
+  });
+  function fcKeys(el, shown, flip, rate) {
+    FCK = { el: el, key: function (e) {
+      if ((e.key === " " || e.key === "Enter") && !shown()) { if (e.target.closest && e.target.closest("button, a")) return; e.preventDefault(); flip(); }
+      else if (shown() && /^[1-4]$/.test(e.key)) { e.preventDefault(); rate(+e.key); }
+    } };
+  }
+  /* tap to flip (top to bottom); once flipped, swipe right = Good, left = Again */
+  function fcWire(card, shown, flip, swipe) {
+    var sx = 0, sy = 0, dx = 0, drag = false, moved = false;
+    card.addEventListener("touchstart", function (e) { moved = false; dx = 0; drag = shown(); if (!drag) return; sx = e.touches[0].clientX; sy = e.touches[0].clientY; card.style.transition = "none"; }, { passive: true });
+    card.addEventListener("touchmove", function (e) {
+      if (!drag) return; dx = e.touches[0].clientX - sx; var dy = e.touches[0].clientY - sy;
+      if (!moved && Math.abs(dy) > Math.abs(dx)) { drag = false; card.style.transition = ""; card.style.transform = ""; return; }
+      if (Math.abs(dx) > 8) moved = true;
+      card.style.transform = "translateX(" + dx + "px) rotate(" + (dx / 25) + "deg) rotateX(180deg)";
+      card.classList.toggle("lean-r", dx > 60); card.classList.toggle("lean-l", dx < -60);
+    }, { passive: true });
+    card.addEventListener("touchend", function () {
+      if (!drag) return; drag = false; card.classList.remove("lean-r", "lean-l");
+      if (Math.abs(dx) > 90) { swipe(dx > 0 ? 1 : -1); return; }
+      card.style.transition = ""; card.style.transform = "";
+    });
+    card.addEventListener("click", function (e) { if (moved) { moved = false; return; } if (e.target.closest("a, button")) return; flip(); });
+  }
+  function fcOut(card, dir, done) {
+    if (REDUCE) { done(); return; }
+    card.style.transition = "transform .32s ease-in, opacity .32s ease-in";
+    card.style.transform = "translateX(" + (dir * 120) + "%) rotate(" + (dir * 14) + "deg)" + (card.classList.contains("flipped") ? " rotateX(180deg)" : ""); card.style.opacity = "0";
+    setTimeout(function () { done(); var nc = app.querySelector(".fcard"); if (nc) nc.classList.add("fc-enter"); }, 300);
+  }
+  /* question bar: previous / position (opens the question map) / mark / next, right above the question */
+  var CHK = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.5 6.5 11.5 12.5 4.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  function qbarHTML(i, n, marked, fwdLab, primary, sticky) {
+    return '<div class="qbar' + (sticky ? " sticky" : "") + '"><button class="btn qb-prev" id="prev" type="button"' + (i ? "" : " disabled") + ' aria-label="Previous question">&larr;<span class="qb-l"> Previous</span></button>' +
+      '<button type="button" class="qb-pos" id="qgrid" aria-expanded="false" aria-controls="qgridp"></button>' +
+      '<button type="button" class="qb-mark" id="qmark" aria-pressed="' + !!marked[i] + '" title="Mark this question to come back to it">' + CHK + "<span>" + (marked[i] ? "Marked" : "Mark") + "</span></button>" +
+      '<button class="btn qb-next' + (primary ? " primary" : "") + '" id="fwd" type="button">' + fwdLab + " &rarr;</button></div>" +
+      '<div class="qgrid" id="qgridp" hidden></div>';
+  }
+  function qbarWire(root, o) {
+    var mb = root.querySelector("#qmark"), gb = root.querySelector("#qgrid"), gp = root.querySelector("#qgridp");
+    function cnt() { var m = 0; for (var k in o.marked) if (o.marked[k]) m++; return m; }
+    function lab() { var m = cnt(); gb.innerHTML = "<span>" + (o.i + 1) + " / " + o.n + "</span>" + (m ? '<span class="qb-mn">' + CHK + m + "</span>" : "") + '<svg class="qb-chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>'; gb.setAttribute("aria-label", "Question " + (o.i + 1) + " of " + o.n + (m ? ", " + m + " marked" : "") + ". Show all questions"); }
+    function fill() {
+      var h = '<p class="qg-h">Tap a number to go to that question.' + (cnt() ? " Ticked ones are marked." : "") + '</p><div class="qg-list">';
+      for (var k = 0; k < o.n; k++) h += '<button type="button" class="qg ' + o.state(k) + (o.marked[k] ? " mk" : "") + (k === o.i ? " cur" : "") + '" data-k="' + k + '">' + (k + 1) + "</button>";
+      gp.innerHTML = h + "</div>";
+      gp.querySelectorAll("[data-k]").forEach(function (b) { b.onclick = function () { o.go(+b.dataset.k); }; });
+    }
+    mb.onclick = function () { var on = !o.marked[o.i]; o.marked[o.i] = on; mb.setAttribute("aria-pressed", String(on)); mb.querySelector("span").textContent = on ? "Marked" : "Mark"; lab(); if (!gp.hidden) fill(); };
+    gb.onclick = function () { var op = gp.hidden; gp.hidden = !op; gb.setAttribute("aria-expanded", String(op)); if (op) fill(); };
+    lab();
+  }
+  function markedList(m) { return Object.keys(m).filter(function (k) { return m[k]; }).map(Number).sort(function (a, b) { return a - b; }); }
+
   /* ---------- AnKing Step 1 as MCQs: password-locked, everything stored encrypted (files/ak) ----------
      Key = PBKDF2-SHA256(password, salt) -> AES-GCM. The key (not the password) is kept on the device after the first unlock. */
   var AK = { meta: null, key: null, subs: {}, img: {} }, LET = "abcdefgh";
@@ -721,113 +803,257 @@
   }
   /* question HTML was cleaned at build time; strip anything but simple formatting again here */
   function akSafe(h) { return String(h || "").replace(/<(\/?)([a-z0-9]+)([^>]*)>/gi, function (m, c, n, rest) { n = n.toLowerCase(); if (n === "img") { var d = /data-ak="([0-9a-f]+)"/.exec(rest); return d ? '<img data-ak="' + d[1] + '" alt="">' : ""; } if (n === "span" && !c) return /ak-blank/.test(rest) ? '<span class="ak-blank">' : "<span>"; return /^(b|i|u|sub|sup|br|ul|ol|li|table|tbody|thead|tr|td|th|span)$/.test(n) ? "<" + c + n + ">" : ""; }); }
-  function ankingView() {
-    var base = '<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / <a href="#/usmle">USMLE prep</a> / AnKing questions</p><h1>AnKing Step 1 as questions</h1>';
-    if (!window.crypto || !crypto.subtle || typeof DecompressionStream === "undefined") { setView(base + "<p>This browser is too old for this section. Update it, or open the site in a recent Chrome or Safari.</p></div>", "AnKing questions"); return; }
-    setView(base + '<p class="meta">Loading…</p></div>', "AnKing questions");
-    akSaved().then(akHome, function () { akLock(base); });
+  /* Sketchy / Pixorize / Physeo pictures: one slider, swipe or arrows, tap a picture to enlarge it */
+  function akCarousel(res) {
+    var sl = [], names = [];
+    (res || []).forEach(function (r) {
+      var ids = r[1].filter(function (x) { return /^[0-9a-f]+$/.test(x); }); if (!ids.length) return;
+      names.push(r[0] + " (" + ids.length + ")");
+      ids.forEach(function (id, n) { sl.push({ id: id, cap: r[0] + (ids.length > 1 ? " · " + (n + 1) + " of " + ids.length : "") }); });
+    });
+    if (!sl.length) return "";
+    return '<section class="ak-car" aria-label="Pictures"><div class="ak-car-head"><span class="ak-car-t">' + esc(names.join(" · ")) + '</span><span class="ak-car-n" aria-live="polite">1 / ' + sl.length + "</span></div>" +
+      '<div class="ak-car-track" tabindex="0" aria-label="Pictures, swipe to see the next one">' + sl.map(function (x) { return '<figure class="ak-slide" data-id="' + x.id + '"><div class="ak-slide-img"><span class="ak-car-load">Loading…</span></div><figcaption>' + esc(x.cap) + "</figcaption></figure>"; }).join("") + "</div>" +
+      (sl.length > 1 ? '<button type="button" class="ak-car-b prev" aria-label="Previous picture">&lsaquo;</button><button type="button" class="ak-car-b next" aria-label="Next picture">&rsaquo;</button>' + (sl.length <= 20 ? '<div class="ak-car-dots" aria-hidden="true">' + sl.map(function (x, j) { return "<i" + (j ? "" : ' class="on"') + "></i>"; }).join("") + "</div>" : "") : "") + "</section>";
   }
-  function akLock(base, err) {
+  function akCarInit(root) {
+    root.querySelectorAll(".ak-car").forEach(function (c) {
+      if (c._on) return; c._on = 1;
+      var tr = c.querySelector(".ak-car-track"), sl = tr.children, cnt = c.querySelector(".ak-car-n"), dots = c.querySelectorAll(".ak-car-dots i"), cur = -1;
+      function load(k) { var f = sl[k]; if (!f || f.dataset.l) return; f.dataset.l = "1"; var box = f.querySelector(".ak-slide-img"); box.innerHTML = '<img data-akr="' + f.dataset.id + '" alt="' + esc(f.querySelector("figcaption").textContent) + '">'; akImages(box); }
+      function at() {
+        var k = Math.max(0, Math.min(sl.length - 1, Math.round(tr.scrollLeft / Math.max(1, tr.clientWidth)))); if (k === cur) return; cur = k;
+        load(k); load(k + 1); cnt.textContent = (k + 1) + " / " + sl.length;
+        dots.forEach(function (d, j) { d.classList.toggle("on", j === k); });
+        var pv = c.querySelector(".prev"), nx = c.querySelector(".next"); if (pv) pv.disabled = k === 0; if (nx) nx.disabled = k === sl.length - 1;
+      }
+      function go(k) { k = Math.max(0, Math.min(sl.length - 1, k)); load(k); tr.scrollTo({ left: k * tr.clientWidth, behavior: REDUCE ? "auto" : "smooth" }); }
+      tr.addEventListener("scroll", function () { clearTimeout(tr._t); tr._t = setTimeout(at, 60); }, { passive: true });
+      var pv = c.querySelector(".prev"), nx = c.querySelector(".next");
+      if (pv) pv.onclick = function () { go(cur - 1); }; if (nx) nx.onclick = function () { go(cur + 1); };
+      tr.addEventListener("keydown", function (e) { if (e.key === "ArrowRight") { e.preventDefault(); go(cur + 1); } else if (e.key === "ArrowLeft") { e.preventDefault(); go(cur - 1); } });
+      tr.addEventListener("click", function (e) { var im = e.target.closest("img"); if (im && im.src) akZoom(im.src, im.alt); });
+      at();
+    });
+  }
+  function akZoom(src, alt) {
+    var o = document.createElement("div"); o.className = "ak-zoom"; o.setAttribute("role", "dialog"); o.setAttribute("aria-label", "Picture");
+    o.innerHTML = '<button type="button" class="ak-zoom-x" aria-label="Close">&times;</button><div class="ak-zoom-in"><img alt=""></div><p class="ak-zoom-tip">Tap the picture to zoom in or out</p>';
+    var im = o.querySelector("img"); im.src = src; im.alt = alt || "";
+    document.body.appendChild(o); document.body.style.overflow = "hidden";
+    function close() { o.remove(); document.body.style.overflow = ""; document.removeEventListener("keydown", k); window.removeEventListener("hashchange", close); }
+    function k(e) { if (e.key === "Escape") close(); }
+    o.querySelector(".ak-zoom-x").onclick = close; document.addEventListener("keydown", k); window.addEventListener("hashchange", close);
+    o.addEventListener("click", function (e) { if (e.target === o || e.target.classList.contains("ak-zoom-in")) close(); });
+    im.onclick = function () { im.classList.toggle("big"); };
+    o.querySelector(".ak-zoom-x").focus();
+  }
+  /* the answer filled into the blanks, for the back of a flashcard */
+  function akFill(q) {
+    var h = akSafe(q.q), parts = String(q.options[q.answer]).split(" … "), n = (h.match(/<span class="ak-blank">[^<]*<\/span>/g) || []).length, k = 0;
+    if (parts.length !== n) parts = [q.options[q.answer]];
+    return h.replace(/<span class="ak-blank">[^<]*<\/span>/g, function () { var p = parts[k++]; return p === undefined ? "" : '<span class="ak-ans">' + esc(p) + "</span>"; });
+  }
+  function akBase() { return '<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / <a href="#/usmle">USMLE prep</a> / AnKing</p><h1>AnKing Step 1</h1>'; }
+  function akFail() { setView('<div class="wrap"><p>Could not load these cards. Check the connection and try again.</p><p><a class="btn" href="#/anking">Back</a></p></div>', "AnKing"); }
+  function akGoHome() { if (location.hash === "#/anking") akHome(); else location.hash = "#/anking"; }
+  function ankingView(sub) {
+    var base = akBase(), go = sub === "review" ? akReviewAll : akHome;
+    if (!window.crypto || !crypto.subtle || typeof DecompressionStream === "undefined") { setView(base + "<p>This browser is too old for this section. Update it, or open the site in a recent Chrome or Safari.</p></div>", "AnKing"); return; }
+    setView(base + '<p class="meta">Loading…</p></div>', "AnKing");
+    akSaved().then(go, function () { akLock(base, null, go); });
+  }
+  function akLock(base, err, go) {
     setView(base + '<p class="lede-s">This section is private. Enter the password you were given.</p>' +
       '<form id="akf" class="ak-lock"><input id="akpw" type="password" autocomplete="current-password" placeholder="Password" aria-label="Password"><button class="btn primary" type="submit">Unlock</button></form>' +
-      (err ? '<p class="ak-err" role="alert">' + esc(err) + "</p>" : "") + "</div>", "AnKing questions");
+      (err ? '<p class="ak-err" role="alert">' + esc(err) + "</p>" : "") + "</div>", "AnKing");
     var f = document.getElementById("akf"), pw = document.getElementById("akpw"); pw.focus();
     f.onsubmit = function (e) {
       e.preventDefault(); if (!pw.value) return;
       f.querySelector("button").disabled = true; f.querySelector("button").textContent = "Checking…";
-      akUnlock(pw.value.trim()).then(akHome, function () { akLock(base, "Wrong password."); });
+      akUnlock(pw.value.trim()).then(go || akHome, function () { akLock(base, "Wrong password.", go); });
     };
+  }
+  function akLabels() { return Promise.all(AK.meta.subjects.map(function (s) { return s.label ? s.label : akText(s.name).then(function (t) { s.label = t; return t; }); })); }
+  function akCards_() { return store.get("sina:akmode", "q") === "c"; }
+  function akToolsHTML() {
+    var cm = akCards_(), cnt = store.get("sina:akcount", "20");
+    return '<div class="ak-tools"><div class="lang-tog ak-mode" role="group" aria-label="Study mode"><button type="button" data-mode="q" aria-pressed="' + !cm + '">Questions</button><button type="button" data-mode="c" aria-pressed="' + cm + '">Flashcards</button></div>' +
+      '<div class="chips quick" role="group" aria-label="' + (cm ? "New cards per session" : "Number of questions") + '">' + ["10", "20", "40", "100"].map(function (n) { return '<button type="button" data-c="' + n + '"' + (n === cnt ? ' class="on" aria-pressed="true"' : ' aria-pressed="false"') + ">" + n + (cm ? " new cards" : " questions") + "</button>"; }).join("") + "</div></div>";
+  }
+  function akToolsWire(redraw) {
+    app.querySelectorAll("[data-mode]").forEach(function (b) { b.onclick = function () { store.set("sina:akmode", b.dataset.mode); redraw(); }; });
+    app.querySelectorAll("[data-c]").forEach(function (b) { b.onclick = function () { store.set("sina:akcount", b.dataset.c); app.querySelectorAll("[data-c]").forEach(function (x) { x.classList.toggle("on", x === b); x.setAttribute("aria-pressed", String(x === b)); }); }; });
+  }
+  function akDueHTML() {
+    var due = akDue();
+    return '<div class="ak-due' + (due ? " hot" : "") + '"><div><strong>' + (due ? due.toLocaleString("en") + " flashcard" + (due > 1 ? "s" : "") + " due today" : "No flashcards due today") + "</strong><span>" +
+      (due ? "From every chapter you have started." : "Cards you study come back here when they are due.") + "</span></div>" +
+      (due ? '<a class="btn primary" href="#/anking/review">Review now</a>' : '<a class="btn" href="#/reminders">Daily reminder</a>') + "</div>";
+  }
+  /* counts shown next to a chapter, section or topic */
+  function akFrac(o, cm) {
+    if (cm) return '<span class="qn">' + (o.du ? '<b class="ak-dn">' + o.du.toLocaleString("en") + " due</b> · " : "") + (o.st ? o.st.toLocaleString("en") + " / " : "") + o.n.toLocaleString("en") + "</span>";
+    return '<span class="qn">' + (o.d ? o.d.toLocaleString("en") + " / " : "") + o.n.toLocaleString("en") + "</span>";
   }
   function akHome() {
     var m = AK.meta;
-    Promise.all(m.subjects.map(function (s) { return s.label ? s.label : akText(s.name).then(function (t) { s.label = t; return t; }); })).then(function () {
-      var seen = store.get("sina:akseen", {}), cnt = store.get("sina:akcount", "20");
-      var h = '<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / <a href="#/usmle">USMLE prep</a> / AnKing questions</p><h1>AnKing Step 1 as questions</h1>' +
-        '<p class="lede-s">' + m.total.toLocaleString("en") + " questions made from the AnKing Step 1 cards, grouped by First Aid chapter. The wrong options are taken from other cards on the same topic, so a few will be odd: skip those. Questions you have not seen yet come first.</p>" +
-        '<div class="chips quick" role="group" aria-label="Number of questions">' + ["10", "20", "40", "100"].map(function (n) { return '<button type="button" data-c="' + n + '"' + (n === cnt ? ' class="on" aria-pressed="true"' : ' aria-pressed="false"') + ">" + n + " questions</button>"; }).join("") + "</div>" +
+    akLabels().then(function () {
+      var seen = store.get("sina:akseen", {}), sr = store.get("sina:aksrs", {}), day = dayNo(), cm = akCards_();
+      var h = akBase() +
+        '<p class="lede-s">' + (cm ? m.total.toLocaleString("en") + " AnKing Step 1 cards as flashcards, scheduled like Anki. Rate each card Again, Hard, Good or Easy and it comes back just before you would forget it. Due cards come first, then new ones."
+          : m.total.toLocaleString("en") + " questions made from the AnKing Step 1 cards, grouped by First Aid chapter. The wrong options are taken from other cards on the same topic, so a few will be odd: skip those. Questions you have not seen yet come first.") + "</p>" +
+        akToolsHTML() + akDueHTML() +
         '<ul class="lec-list ak-subs">' + m.subjects.map(function (s, n) {
-          var d = seen[s.f] ? Object.keys(seen[s.f]).length : 0;
-          return '<li><a href="#/anking" data-s="' + n + '"><span>' + esc(s.label) + '</span><span class="qn">' + (d ? d.toLocaleString("en") + " / " : "") + s.n.toLocaleString("en") + "</span></a></li>";
+          var o = { n: s.n, d: seen[s.f] ? Object.keys(seen[s.f]).length : 0, st: 0, du: 0 }, mm = sr[s.f] || {};
+          for (var k in mm) { o.st++; if (mm[k][0] <= day) o.du++; }
+          return '<li><a href="#/anking" data-s="' + n + '"><span>' + esc(s.label) + "</span>" + akFrac(o, cm) + "</a></li>";
         }).join("") + '</ul><p class="src"><button type="button" class="linkbtn" id="akout">Lock this section on this device</button></p></div>';
-      setView(h, "AnKing questions");
-      app.querySelectorAll("[data-c]").forEach(function (b) { b.onclick = function () { store.set("sina:akcount", b.dataset.c); akHome(); }; });
+      setView(h, "AnKing");
+      akToolsWire(akHome);
       app.querySelectorAll("[data-s]").forEach(function (a) { a.onclick = function (e) { e.preventDefault(); akChapter(m.subjects[+a.dataset.s]); }; });
       document.getElementById("akout").onclick = function () { localStorage.removeItem("sina:akkey"); AK.key = null; ankingView(); };
     });
   }
   /* one First Aid chapter: its sections (Pathology, Physiology...) and their topics */
   function akChapter(s) {
-    setView('<div class="wrap"><p class="meta">Loading ' + esc(s.label) + "…</p></div>", "AnKing questions");
+    setView('<div class="wrap"><p class="meta">Loading ' + esc(s.label) + "…</p></div>", "AnKing");
     akSubject(s).then(function (all) {
-      var seen = (store.get("sina:akseen", {})[s.f]) || {}, secs = {}, order = [];
+      var seen = (store.get("sina:akseen", {})[s.f]) || {}, srm = store.get("sina:aksrs", {})[s.f] || {}, day = dayNo(), cm = akCards_(), secs = {}, order = [];
+      function add(o, q) { o.n++; if (seen[q.id] !== undefined) o.d++; var e = srm[q.id]; if (e) { o.st++; if (e[0] <= day) o.du++; } }
       all.forEach(function (q) {
         var sec = q.s || "General", top = q.t || "";
-        if (!secs[sec]) { secs[sec] = { n: 0, d: 0, tops: {}, to: [] }; order.push(sec); }
-        var S2 = secs[sec]; S2.n++; if (seen[q.id] !== undefined) S2.d++;
-        if (top) { if (!S2.tops[top]) { S2.tops[top] = { n: 0, d: 0 }; S2.to.push(top); } S2.tops[top].n++; if (seen[q.id] !== undefined) S2.tops[top].d++; }
+        if (!secs[sec]) { secs[sec] = { n: 0, d: 0, st: 0, du: 0, tops: {}, to: [] }; order.push(sec); }
+        var S2 = secs[sec]; add(S2, q);
+        if (top) { if (!S2.tops[top]) { S2.tops[top] = { n: 0, d: 0, st: 0, du: 0 }; S2.to.push(top); } add(S2.tops[top], q); }
       });
       /* tiny sections (a handful of mis-tagged cards) join "More topics" */
-      order.forEach(function (k) { if (k !== "More topics" && secs[k].n < 10 && order.length > 1) { all.forEach(function (q) { if ((q.s || "General") === k) { q.t = q.t || k; q.s = "More topics"; } }); } });
-      if (order.some(function (k) { return k !== "More topics" && secs[k].n < 10; })) { AK.subs[s.f] = all; return akChapter(s); }
+      if (order.some(function (k) { return k !== "More topics" && secs[k].n < 10 && order.length > 1; })) {
+        order.forEach(function (k) { if (k !== "More topics" && secs[k].n < 10) all.forEach(function (q) { if ((q.s || "General") === k) { q.t = q.t || k; q.s = "More topics"; } }); });
+        AK.subs[s.f] = all; return akChapter(s);
+      }
       order.sort(function (a, b) { return a === "More topics" ? 1 : b === "More topics" ? -1 : secs[b].n - secs[a].n; });
-      var cnt = store.get("sina:akcount", "20");
-      function frac(o) { return '<span class="qn">' + (o.d ? o.d.toLocaleString("en") + " / " : "") + o.n.toLocaleString("en") + "</span>"; }
-      var h = '<div class="wrap"><p class="crumbs"><a href="#/anking">AnKing questions</a> / ' + esc(s.label) + "</p><h1>" + esc(s.label) + "</h1>" +
-        '<div class="chips quick" role="group" aria-label="Number of questions">' + ["10", "20", "40", "100"].map(function (n) { return '<button type="button" data-c="' + n + '"' + (n === cnt ? ' class="on" aria-pressed="true"' : ' aria-pressed="false"') + ">" + n + " questions</button>"; }).join("") + "</div>" +
-        '<p><button class="btn primary" type="button" data-go="">Whole chapter (' + all.length.toLocaleString("en") + ")</button></p>" +
+      var tot = { n: all.length, d: 0, st: 0, du: 0 }; order.forEach(function (k) { tot.d += secs[k].d; tot.st += secs[k].st; tot.du += secs[k].du; });
+      var h = '<div class="wrap"><p class="crumbs"><a href="#/anking">AnKing</a> / ' + esc(s.label) + "</p><h1>" + esc(s.label) + "</h1>" + akToolsHTML() +
+        '<p class="ak-whole"><button class="btn primary" type="button" data-go="">' + (cm ? "Study the whole chapter" : "Whole chapter") + "</button>" + akFrac(tot, cm) + "</p>" +
         order.map(function (k, si) {
           var o = secs[k];
-          return '<details class="ak-sec"><summary><span>' + esc(k) + "</span>" + frac(o) + '</summary><ul class="lec-list"><li><a href="#/anking" data-go="' + si + '"><span><strong>All of ' + esc(k) + "</strong></span>" + frac(o) + "</a></li>" +
-            o.to.sort(function (a, b) { return o.tops[b].n - o.tops[a].n; }).map(function (t, ti) { return '<li><a href="#/anking" data-go="' + si + ":" + ti + '"><span>' + esc(t) + "</span>" + frac(o.tops[t]) + "</a></li>"; }).join("") + "</ul></details>";
+          return '<details class="ak-sec"><summary><span>' + esc(k) + "</span>" + akFrac(o, cm) + '</summary><ul class="lec-list"><li><a href="#/anking" data-go="' + si + '"><span><strong>All of ' + esc(k) + "</strong></span>" + akFrac(o, cm) + "</a></li>" +
+            o.to.sort(function (a, b) { return o.tops[b].n - o.tops[a].n; }).map(function (t, ti) { return '<li><a href="#/anking" data-go="' + si + ":" + ti + '"><span>' + esc(t) + "</span>" + akFrac(o.tops[t], cm) + "</a></li>"; }).join("") + "</ul></details>";
         }).join("") + "</div>";
-      setView(h, "AnKing questions");
-      app.querySelectorAll("[data-c]").forEach(function (b) { b.onclick = function () { store.set("sina:akcount", b.dataset.c); app.querySelectorAll("[data-c]").forEach(function (x) { x.classList.toggle("on", x === b); x.setAttribute("aria-pressed", String(x === b)); }); }; });
+      setView(h, "AnKing");
+      akToolsWire(function () { akChapter(s); });
       app.querySelectorAll("[data-go]").forEach(function (a) { a.onclick = function (e) {
         e.preventDefault(); var g = a.dataset.go, filt = null, lab = s.label;
         if (g !== "") { var pr = g.split(":"), sec = order[+pr[0]], top = pr.length > 1 ? secs[sec].to[+pr[1]] : null; lab = s.label + " · " + (top || sec);
           filt = function (q) { return (q.s || "General") === sec && (!top || q.t === top); }; }
-        akStart(s, +store.get("sina:akcount", "20"), filt, lab);
+        if (akCards_()) akCardStart([s], filt, lab, function () { akChapter(s); });
+        else akStart(s, +store.get("sina:akcount", "20"), filt, lab);
       }; });
-    }, function () { setView('<div class="wrap"><p>Could not load these questions. Check the connection and try again.</p><p><a class="btn" href="#/anking">Back</a></p></div>', "AnKing questions"); });
+    }, akFail);
   }
   function akStart(s, n, filt, lab) {
-    setView('<div class="wrap"><p class="meta">Loading ' + esc(s.label) + "…</p></div>", "AnKing questions");
+    setView('<div class="wrap"><p class="meta">Loading ' + esc(s.label) + "…</p></div>", "AnKing");
     akSubject(s).then(function (all) {
       if (filt) all = all.filter(filt);
-      var seen = store.get("sina:akseen", {}), sm = seen[s.f] || {};
+      var sm = store.get("sina:akseen", {})[s.f] || {};
       var fresh = shuffle(all.filter(function (q) { return !sm[q.id]; })), old = shuffle(all.filter(function (q) { return sm[q.id]; }));
       akQuiz(s, fresh.concat(old).slice(0, n), filt, lab);
-    }, function () { setView('<div class="wrap"><p>Could not load these questions. Check the connection and try again.</p><p><a class="btn" href="#/anking">Back</a></p></div>', "AnKing questions"); });
+    }, akFail);
   }
   function akQuiz(s, qs, filt, lab) {
-    var i = 0, score = 0, done = []; lab = lab || s.label;
+    var i = 0, score = 0, done = [], marked = {}, onlyMk = false; lab = lab || s.label;
     function mark(q, ok) { var seen = store.get("sina:akseen", {}); seen[s.f] = seen[s.f] || {}; seen[s.f][q.id] = ok ? 1 : 0; store.set("sina:akseen", seen); }
+    function nextIdx(k) { if (!onlyMk) return k + 1; for (var j = k + 1; j < qs.length; j++) if (marked[j]) return j; return qs.length; }
     function render() {
       if (i >= qs.length) {
-        setView('<div class="wrap"><p class="crumbs"><a href="#/anking">AnKing questions</a> / ' + esc(lab) + "</p><h1>" + score + " / " + qs.length + '</h1><div class="row"><button class="btn primary" id="akmore">' + qs.length + ' more</button><button class="btn" id="akback">Back to ' + esc(s.label) + '</button><a class="btn" href="#/anking">Choose another chapter</a></div></div>', "AnKing questions");
+        var mk = markedList(marked);
+        setView('<div class="wrap"><p class="crumbs"><a href="#/anking">AnKing</a> / ' + esc(lab) + "</p><h1>" + score + " / " + qs.length + "</h1>" +
+          '<div class="row">' + (mk.length ? '<button class="btn primary" id="akmk">Go back to marked questions (' + mk.length + ")</button>" : "") +
+          '<button class="btn' + (mk.length ? "" : " primary") + '" id="akmore">' + qs.length + ' more</button><button class="btn" id="akback">Back to ' + esc(s.label) + '</button><a class="btn" href="#/anking">Choose another chapter</a></div></div>', "AnKing");
+        if (mk.length) document.getElementById("akmk").onclick = function () { onlyMk = true; i = mk[0]; render(); window.scrollTo(0, 0); };
         document.getElementById("akmore").onclick = function () { akStart(s, qs.length, filt, lab); };
         document.getElementById("akback").onclick = function () { akChapter(s); };
         return;
       }
-      var q = qs[i], d = done[i];
-      var h = '<div class="wrap"><p class="crumbs"><a href="#/anking">AnKing questions</a> / ' + esc(lab) + '</p><p class="qhead">Question ' + (i + 1) + " of " + qs.length + "</p>" +
+      var q = qs[i], d = done[i], last = nextIdx(i) >= qs.length;
+      var h = '<div class="wrap"><p class="crumbs"><a href="#/anking">AnKing</a> / ' + esc(lab) + "</p>" +
+        qbarHTML(i, qs.length, marked, last ? "Finish" : d ? "Next" : "Skip", !!d, true) +
         ecgProgress(done.filter(Boolean).length / qs.length) + '<div class="qtext ak-q">' + akSafe(q.q) + "</div>" +
         q.options.map(function (o, n) {
           var cls = d ? (n === q.answer ? " correct" : n === d.c ? " wrong" : "") : "";
           return '<button class="opt' + cls + '" data-n="' + n + '"' + (d ? " disabled" : "") + '><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span></button>";
         }).join("") +
-        (d ? '<div class="why"><strong>' + (d.c === q.answer ? "Correct." : "Not quite.") + "</strong> Answer: " + esc(q.options[q.answer]) + "." + (q.extra ? '<div class="ak-extra">' + akSafe(q.extra) + "</div>" : "") + "</div>" + (q.res || []).map(function (r) { return '<details class="ak-res"><summary>' + esc(r[0]) + " (" + r[1].length + (r[1].length > 1 ? " pictures" : " picture") + ')</summary><div class="ak-res-body" data-ids="' + r[1].filter(function (x) { return /^[0-9a-f]+$/.test(x); }).join(",") + '"></div></details>'; }).join("") : "") +
-        '<div class="qnav"><button class="btn" id="prev" type="button"' + (i ? "" : " disabled") + '>&larr; Previous</button><button class="btn' + (d ? " primary" : "") + '" id="fwd" type="button">' + (i + 1 < qs.length ? (d ? "Next question" : "Skip") : "Finish") + " &rarr;</button></div></div>";
-      setView(h, "AnKing questions"); akImages(app);
-      app.querySelectorAll(".ak-res").forEach(function (dd) { dd.addEventListener("toggle", function () {
-        var body = dd.querySelector(".ak-res-body"); if (!dd.open || body.childNodes.length) return;
-        body.innerHTML = body.dataset.ids.split(",").map(function (id) { return '<img data-akr="' + id + '" alt="">'; }).join(""); akImages(body);
-      }); });
+        (d ? '<div class="why"><strong>' + (d.c === q.answer ? "Correct." : "Not quite.") + "</strong> Answer: " + esc(q.options[q.answer]) + "." + (q.extra ? '<div class="ak-extra">' + akSafe(q.extra) + "</div>" : "") + "</div>" + akCarousel(q.res) : "") + "</div>";
+      setView(h, "AnKing"); akImages(app); akCarInit(app);
       app.querySelectorAll(".opt").forEach(function (b) {
-        b.onclick = function () { if (done[i]) return; var c = +b.dataset.n; done[i] = { c: c }; if (c === q.answer) score++; mark(q, c === q.answer); render(); };
+        b.onclick = function () { if (done[i]) return; var c = +b.dataset.n; done[i] = { c: c }; if (c === q.answer) score++; mark(q, c === q.answer); var y = window.scrollY; render(); window.scrollTo(0, y); };
       });
-      document.getElementById("prev").onclick = function () { if (i) { i--; render(); } };
-      document.getElementById("fwd").onclick = function () { i++; render(); window.scrollTo(0, 0); };
+      function goTo(k) { i = k; render(); window.scrollTo(0, 0); }
+      qbarWire(app, { i: i, n: qs.length, marked: marked, state: function (k) { var x = done[k]; return x ? (x.c === qs[k].answer ? "ok" : "bad") : ""; }, go: function (k) { onlyMk = false; goTo(k); } });
+      document.getElementById("prev").onclick = function () { if (i) goTo(i - 1); };
+      document.getElementById("fwd").onclick = function () { goTo(nextIdx(i)); };
+    }
+    render();
+  }
+  /* ---------- AnKing flashcards (Anki-style scheduling, stored per device in sina:aksrs) ---------- */
+  function akCardStart(subs, filt, lab, back, nNew) {
+    setView('<div class="wrap"><p class="meta">Loading cards…</p></div>', "AnKing flashcards");
+    if (nNew == null) nNew = +store.get("sina:akcount", "20");
+    Promise.all(subs.map(akSubject)).then(function (lists) {
+      var sr = store.get("sina:aksrs", {}), day = dayNo(), due = [], nw = [];
+      lists.forEach(function (all, k) {
+        var s = subs[k], m = sr[s.f] || {};
+        all.forEach(function (q) { if (filt && !filt(q)) return; var e = m[q.id]; if (e) { if (e[0] <= day) due.push({ s: s, q: q }); } else nw.push({ s: s, q: q }); });
+      });
+      akCards(shuffle(due).concat(shuffle(nw).slice(0, nNew)), lab, back);
+    }, akFail);
+  }
+  function akReviewAll() {
+    akLabels().then(function () {
+      var sr = store.get("sina:aksrs", {}), day = dayNo();
+      var subs = AK.meta.subjects.filter(function (s) { var m = sr[s.f] || {}; for (var k in m) if (m[k][0] <= day) return true; return false; });
+      if (!subs.length) { setView(akBase() + '<p class="empty-note">No AnKing flashcards are due today. Study new cards from a chapter.</p><p><a class="btn" href="#/anking">Back to AnKing</a></p></div>', "AnKing flashcards"); return; }
+      akCardStart(subs, null, "All due cards", akGoHome, 0);
+    });
+  }
+  function akCards(queue, lab, back) {
+    var shown = false, nDone = 0, total = queue.length;
+    function render() {
+      if (!queue.length) {
+        remindSoon();
+        var left = akDue();
+        setView('<div class="wrap"><p class="crumbs"><a href="#/anking">AnKing</a> / ' + esc(lab) + "</p><h1>" + (total ? "Done for now" : "Nothing to study here") + '</h1><p class="lede-s">' +
+          (total ? nDone + " card" + (nDone === 1 ? "" : "s") + " studied. They will come back when they are due." : "No cards are due here and there are no new cards left.") + (left ? " " + left + " more card" + (left > 1 ? "s are" : " is") + " due in other chapters." : "") + "</p>" +
+          '<div class="row">' + (left && location.hash !== "#/anking/review" ? '<a class="btn primary" href="#/anking/review">Review the other due cards</a>' : "") + '<button class="btn" id="akbk" type="button">Back</button></div></div>', "AnKing flashcards");
+        document.getElementById("akbk").onclick = back;
+        return;
+      }
+      var sr = store.get("sina:aksrs", {}), it = queue[0], q = it.q, e = (sr[it.s.f] || {})[q.id], nN = 0, nL = 0, nR = 0;
+      queue.forEach(function (x) { var y = (sr[x.s.f] || {})[x.q.id]; if (!y) nN++; else if (!y[1]) nL++; else nR++; });
+      var h = '<div class="wrap"><p class="crumbs"><a href="#/anking">AnKing</a> / ' + esc(lab) + "</p>" +
+        '<div class="ak-cbar"><span class="ak-cn"><b class="c-new">' + nN + '</b> new · <b class="c-lrn">' + nL + '</b> learning · <b class="c-rev">' + nR + '</b> to review</span><button class="linkbtn" id="akstop" type="button">End session</button></div>' +
+        '<div class="fc-stage"><div class="fcard flip3d ak-card' + (shown ? " flipped" : "") + '" aria-live="polite"><div class="fc-face fc-front"><div class="kind">' + esc(it.s.label + (q.t ? " · " + q.t : "")) + (e ? "" : ' <span class="ak-newtag">New</span>') + '</div><div class="qtext ak-q">' + akSafe(q.q) + '</div><p class="fc-tap">Tap to flip</p></div>' +
+        '<div class="fc-face fc-back"><div class="kind">Answer</div><div class="qtext ak-q">' + akFill(q) + "</div>" + (q.extra ? '<div class="ak-extra">' + akSafe(q.extra) + "</div>" : "") + "</div></div></div>" +
+        '<div class="fc-actions" id="fcact"></div><div id="akcar"' + (shown ? "" : " hidden") + ">" + akCarousel(q.res) + "</div>" +
+        '<p class="fc-swipe">Tap the card to flip it. Then swipe right for Good, left for Again.</p></div>';
+      setView(h, "AnKing flashcards"); akImages(app);
+      var card = app.querySelector(".fcard"), act = document.getElementById("fcact"), car = document.getElementById("akcar");
+      function acts() {
+        act.innerHTML = shown ? rateHTML(e) : '<button class="btn primary fc-show" id="fcshow" type="button">Show answer</button>';
+        act.querySelectorAll("[data-g]").forEach(function (b) { b.onclick = function () { rate(+b.dataset.g); }; });
+        var sb = document.getElementById("fcshow"); if (sb) sb.onclick = flip;
+      }
+      function flip() { shown = !shown; card.classList.toggle("flipped", shown); car.hidden = !shown; if (shown) akCarInit(car); acts(); }
+      function rate(g) {
+        var s2 = store.get("sina:aksrs", {}), nx = srsNext(e, g); s2[it.s.f] = s2[it.s.f] || {}; s2[it.s.f][q.id] = nx; store.set("sina:aksrs", s2);
+        queue.shift(); if (!nx[1]) queue.splice(Math.min(4, queue.length), 0, it); else nDone++;
+        fcOut(card, g === 1 ? -1 : 1, function () { shown = false; render(); window.scrollTo(0, 0); });
+      }
+      acts(); if (shown) akCarInit(car);
+      fcWire(card, function () { return shown; }, flip, function (dir) { rate(dir > 0 ? 3 : 1); });
+      fcKeys(card, function () { return shown; }, flip, rate);
+      document.getElementById("akstop").onclick = function () { remindSoon(); back(); };
     }
     render();
   }
@@ -1588,7 +1814,7 @@
   }
 
   function questionsPanel(p, lec, resume) {
-    var all = lec.mcqs, qs = all, fullRun = true, i = 0, score = 0, wrong = [], done = [], key = "sina:best:" + lec.id, LET = "abcdefgh", streak = 0;
+    var all = lec.mcqs, qs = all, fullRun = true, i = 0, score = 0, wrong = [], done = [], marked = {}, key = "sina:best:" + lec.id, LET = "abcdefgh", streak = 0;
     if (resume) { qs = resume.qs; all = resume.full ? resume.qs : all; fullRun = !!resume.full; done = resume.done || []; i = 0; while (i < qs.length && done[i]) i++; if (i >= qs.length) i = qs.length - 1; }
     /* resume: the unfinished quiz is saved after every answer (one at a time, the most recent) */
     function saveResume() {
@@ -1617,12 +1843,13 @@
         var missed = wrong.slice();
         p.innerHTML = scoreRevealHTML(score, qs.length) +
           (full ? "<p>Best score on this device: " + fmtPts(best) + " / " + all.length + ".</p>" : "<p>Retry of the questions you missed.</p>") +
-          '<div class="row">' + (missed.length ? '<button class="btn primary" id="rev">Show only my wrong answers (' + missed.length + ')</button><button class="btn" id="retry">Retry only these</button>' : '<p class="src">No wrong answers. Well done.</p>') +
+          '<div class="row">' + (markedList(marked).length ? '<button class="btn primary" id="gomk">Go back to marked questions (' + markedList(marked).length + ')</button>' : "") + (missed.length ? '<button class="btn primary" id="rev">Show only my wrong answers (' + missed.length + ')</button><button class="btn" id="retry">Retry only these</button>' : '<p class="src">No wrong answers. Well done.</p>') +
           '<button class="btn" id="again">' + (full ? "Try again" : "Back to the full quiz") + '</button></div>' + weakHTML(missed.map(function (w) { return { q: w.q, lid: lec.id }; })) + '<div id="review"></div>';
         scoreReveal(p, score, qs.length); streak = 0;
-        p.querySelector("#again").onclick = function () { qs = all.map(shuffleQ); fullRun = true; i = 0; score = 0; wrong = []; done = []; render(); };
+        var gm = p.querySelector("#gomk"); if (gm) gm.onclick = function () { i = markedList(marked)[0]; render(); window.scrollTo(0, p.getBoundingClientRect().top + window.scrollY - 120); };
+        p.querySelector("#again").onclick = function () { qs = all.map(shuffleQ); fullRun = true; i = 0; score = 0; wrong = []; done = []; marked = {}; render(); };
         if (missed.length) {
-          p.querySelector("#retry").onclick = function () { qs = missed.map(function (w) { return shuffleQ(w.q); }); fullRun = false; i = 0; score = 0; wrong = []; done = []; render(); };
+          p.querySelector("#retry").onclick = function () { qs = missed.map(function (w) { return shuffleQ(w.q); }); fullRun = false; i = 0; score = 0; wrong = []; done = []; marked = {}; render(); };
           p.querySelector("#rev").onclick = function () {
             var box = p.querySelector("#review");
             if (box.innerHTML) { box.innerHTML = ""; this.textContent = "Show only my wrong answers (" + missed.length + ")"; return; }
@@ -1647,9 +1874,8 @@
       var pic = qph ? qph : (q.target && qfig)
         ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "q" + i }) + "</div>"
         : "";
-      p.innerHTML = '<p class="qhead">Question ' + (i + 1) + " of " + qs.length + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + (q._off ? '<span class="qoff">Not on the midterm</span>' : "") + flameHTML(streak, false) + '</p>' + ecgProgress(done.filter(Boolean).length / qs.length) + '<p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
-        q.options.map(function (o, n) { return '<button class="opt" data-n="' + n + '" aria-pressed="false"><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span></button>"; }).join("") + (multi ? '<button class="btn primary" id="chk" type="button">Check my answer</button>' : "") + '<div id="fb"></div>' +
-        '<div class="qnav"><button class="btn" id="prev" type="button"' + (i ? "" : " disabled") + '>&larr; Previous</button><button class="btn" id="fwd" type="button">' + (i + 1 < qs.length ? "Next" : "Finish") + ' &rarr;</button></div>';
+      p.innerHTML = qbarHTML(i, qs.length, marked, i + 1 < qs.length ? "Next" : "Finish", false, false) + '<p class="qhead">' + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + (q._off ? '<span class="qoff">Not on the midterm</span>' : "") + flameHTML(streak, false) + '</p>' + ecgProgress(done.filter(Boolean).length / qs.length) + '<p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
+        q.options.map(function (o, n) { return '<button class="opt" data-n="' + n + '" aria-pressed="false"><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span></button>"; }).join("") + (multi ? '<button class="btn primary" id="chk" type="button">Check my answer</button>' : "") + '<div id="fb"></div>';
       centerTarget(p);
       var opts = p.querySelectorAll(".opt");
       function finish(chosen, skipped) {
@@ -1675,7 +1901,7 @@
         p.querySelector("#rep").onclick = function () { reportMistake(q, lec.id); };
         saveResume();
         var qe = p.querySelector(".qecg"); if (qe) qe.outerHTML = ecgProgress(done.filter(Boolean).length / qs.length);
-        var fw = p.querySelector("#fwd"); fw.classList.add("primary"); fw.innerHTML = (i + 1 < qs.length ? "Next question" : "See score") + " &rarr;";
+        var fw = p.querySelector("#fwd"); fw.classList.add("primary"); fw.innerHTML = (i + 1 < qs.length ? "Next" : "See score") + " &rarr;";
         if (!skipped) fw.focus({ preventScroll: true });
       }
       if (multi) {
@@ -1687,9 +1913,11 @@
       } else {
         opts.forEach(function (b) { b.addEventListener("click", function () { finish([+b.dataset.n]); }); });
       }
-      p.querySelector("#prev").onclick = function () { if (i > 0) { i--; render(); window.scrollTo(0, p.getBoundingClientRect().top + window.scrollY - 120); } };
+      function toTop() { window.scrollTo(0, p.getBoundingClientRect().top + window.scrollY - 120); }
+      qbarWire(p, { i: i, n: qs.length, marked: marked, state: function (k) { var x = done[k]; return x ? (x.ok ? "ok" : "bad") : ""; }, go: function (k) { i = k; render(); toTop(); } });
+      p.querySelector("#prev").onclick = function () { if (i > 0) { i--; render(); toTop(); } };
       p.querySelector("#fwd").onclick = function () {
-        if (done[i]) { i++; render(); return; }
+        if (done[i]) { i++; render(); toTop(); return; }
         /* moving on without answering: show the answer first (counts as wrong) */
         var picked = []; opts.forEach(function (b) { if (b.getAttribute("aria-pressed") === "true") picked.push(+b.dataset.n); });
         finish(picked, !picked.length);
@@ -1701,67 +1929,68 @@
     render();
   }
 
+  /* lecture flashcards, scheduled like Anki (sina:fcsrs, key "lectureId|cardId") */
   function cardsPanel(p, lec) {
-    var key = "sina:known:" + lec.id, known = store.get(key, []), filter = "all", order = lec.cards.map(function (c) { return c.id; }), pos = 0, shown = false;
-    var byId = {}; lec.cards.forEach(function (c) { byId[c.id] = c; });
-    function list() { return order.filter(function (id) { return filter === "all" || byId[id].type === filter; }); }
+    var filter = "all", cram = false, queue = [], shown = false, done = 0, LK = lec.id + "|";
+    var kinds = lec.cards.some(function (x) { return x.type === "image"; }) ? [["all", "All"], ["text", "Text"], ["image", "Pictures"]] : [];
+    function pool() { return lec.cards.filter(function (c) { return filter === "all" || c.type === filter; }); }
+    function build() {
+      var sr = store.get("sina:fcsrs", {}), d = dayNo(), L = pool();
+      queue = cram ? shuffle(L.slice()) : shuffle(L.filter(function (c) { var e = sr[LK + c.id]; return e && e[0] <= d; })).concat(L.filter(function (c) { return !sr[LK + c.id]; }));
+    }
+    function reset() { var sr = store.get("sina:fcsrs", {}); Object.keys(sr).forEach(function (k) { if (k.indexOf(LK) === 0) delete sr[k]; }); store.set("sina:fcsrs", sr); cram = false; done = 0; shown = false; build(); render(); }
     function render() {
-      var L = list();
-      if (pos >= L.length) pos = 0;
-      var c = byId[L[pos]], nk = L.filter(function (id) { return known.indexOf(id) > -1; }).length;
-      var pic = "";
+      var sr = store.get("sina:fcsrs", {}), d = dayNo(), L = pool(), nN = 0, nL = 0, nR = 0;
+      queue.forEach(function (c) { var e = sr[LK + c.id]; if (!e) nN++; else if (!e[1]) nL++; else nR++; });
+      var learned = L.filter(function (c) { var e = sr[LK + c.id]; return e && e[1] > 0; }).length;
+      var tools = '<div class="deck-tools"><div class="chips" role="group" aria-label="Card type">' + kinds.map(function (f) { return '<button data-f="' + f[0] + '" aria-pressed="' + (f[0] === filter) + '">' + f[1] + "</button>"; }).join("") +
+        '</div><span class="progress-line">' + (queue.length ? nN + " new · " + nL + " learning · " + nR + " to review" : learned + " of " + L.length + " cards learned") + "</span></div>";
+      function wireChips() { p.querySelectorAll(".chips button").forEach(function (b) { b.onclick = function () { filter = b.dataset.f; shown = false; build(); render(); }; }); }
+      if (!queue.length) {
+        var nd = null; L.forEach(function (c) { var e = sr[LK + c.id]; if (e && (nd === null || e[0] < nd)) nd = e[0]; });
+        var dd = nd === null ? null : nd - d;
+        p.innerHTML = tools + '<div class="fc-donebox"><p><strong>' + (done ? "Done for now." : "All caught up on this lecture.") + "</strong> " +
+          (dd === null ? "" : "The next card comes back " + (dd <= 0 ? "today" : dd === 1 ? "tomorrow" : "in " + dd + " days") + ".") + "</p>" +
+          '<p class="meta">Cards come back just before you would forget them: rate a card Again, Hard, Good or Easy and the next time is set from that.</p>' +
+          '<div class="row"><button class="btn primary" id="cram">Go through all ' + L.length + ' cards anyway</button><button class="btn" id="rst">Reset progress</button></div></div>';
+        wireChips(); remindSoon();
+        p.querySelector("#cram").onclick = function () { cram = true; shown = false; build(); render(); };
+        p.querySelector("#rst").onclick = reset;
+        return;
+      }
+      var c = queue[0], e = sr[LK + c.id], pic = "";
       if (c.type === "image" && photoQ(lec.id, c.target)) pic = photoQ(lec.id, c.target);
       else if (c.type === "image") {
         pic = lec.visual && lec.visual.figure
           ? '<div class="diagram-box">' + figureSVG(lec.visual.figure, { mode: "quiz", target: c.target, uid: "fc" }) + "</div>"
           : '<div class="diagram-box">' + orbitSVG({ mode: "quiz", target: c.target, uid: "fc" }) + "</div>";
       }
-      var front = '<div class="kind">' + (c.type === "image" ? "Picture card" : "Text card") + '</div><div class="front">' + esc(c.type === "image" && lec.visual && lec.visual.figure ? figQText({ q: c.front, target: c.target }, lec.visual.figure) : c.front) + "</div>" + pic;
-      var kinds = lec.cards.some(function (x) { return x.type === "image"; }) ? [["all", "All"], ["text", "Text"], ["image", "Pictures"]] : [];
-      p.innerHTML = '<div class="deck-tools"><div class="chips" role="group" aria-label="Card type">' + kinds.map(function (f) { return '<button data-f="' + f[0] + '" aria-pressed="' + (f[0] === filter) + '">' + f[1] + "</button>"; }).join("") +
-        '</div><span class="progress-line">Card ' + (pos + 1) + " of " + L.length + ", " + nk + ' known</span></div>' +
+      var front = '<div class="kind">' + (c.type === "image" ? "Picture card" : "Text card") + (e ? "" : ' <span class="ak-newtag">New</span>') + '</div><div class="front">' + esc(c.type === "image" && lec.visual && lec.visual.figure ? figQText({ q: c.front, target: c.target }, lec.visual.figure) : c.front) + "</div>" + pic;
+      p.innerHTML = tools +
         '<div class="fc-stage"><div class="fcard flip3d' + (shown ? " flipped" : "") + '" aria-live="polite"><div class="fc-face fc-front">' + front + '<p class="fc-tap">Tap to flip</p></div>' +
         '<div class="fc-face fc-back"><div class="kind">Answer</div><div class="front small">' + esc(c.front) + '</div><div class="back"><p>' + esc(c.back) + "</p></div></div></div></div>" +
-        '<p class="fc-swipe">Swipe right if you knew it, left if still learning.</p>' +
-        '<div class="row" style="margin-top:1rem"><span class="fc-acts"></span><button class="btn" id="shuf">Shuffle</button><button class="btn" id="rst">Reset progress</button></div>';
-      centerTarget(p);
-      p.querySelectorAll(".chips button").forEach(function (b) { b.onclick = function () { filter = b.dataset.f; pos = 0; shown = false; render(); }; });
-      var $ = function (s) { return p.querySelector(s); }, card = $(".fcard"), acts = $(".fc-acts");
-      function next(dir, knew) {
-        if (knew && known.indexOf(c.id) < 0) { known.push(c.id); store.set(key, known); }
-        if (REDUCE) { pos++; shown = false; render(); return; }
-        card.style.transition = "transform .32s ease-in, opacity .32s ease-in";
-        card.style.transform = "translateX(" + (dir * 120) + "%) rotate(" + (dir * 14) + "deg)" + (shown ? " rotateY(180deg)" : ""); card.style.opacity = "0";
-        setTimeout(function () { pos++; shown = false; render(); var nc = p.querySelector(".fcard"); if (nc) nc.classList.add("fc-enter"); }, 300);
+        '<div class="fc-actions" id="fcact"></div><p class="fc-swipe">Tap the card to flip it. Then swipe right for Good, left for Again.</p>' +
+        '<div class="row" style="margin-top:1rem"><button class="btn" id="shuf">Shuffle</button><button class="btn" id="rst">Reset progress</button></div>';
+      centerTarget(p); wireChips();
+      var card = p.querySelector(".fcard"), act = p.querySelector("#fcact");
+      function acts() {
+        act.innerHTML = shown ? rateHTML(e) : '<button class="btn primary fc-show" id="fcshow" type="button">Show answer</button>';
+        act.querySelectorAll("[data-g]").forEach(function (b) { b.onclick = function () { rate(+b.dataset.g); }; });
+        var sb = act.querySelector("#fcshow"); if (sb) sb.onclick = flip;
       }
-      function setActs() {
-        acts.innerHTML = shown ? '<button class="btn primary" id="got">I knew it</button><button class="btn" id="again">Still learning</button>' : '<button class="btn primary" id="rev">Show answer</button>';
-        if ($("#rev")) $("#rev").onclick = flip;
-        if ($("#got")) $("#got").onclick = function () { next(1, true); };
-        if ($("#again")) $("#again").onclick = function () { next(-1, false); };
+      function flip() { shown = !shown; card.classList.toggle("flipped", shown); acts(); if (shown) { var g = act.querySelector(".r3"); if (g) g.focus({ preventScroll: true }); } }
+      function rate(g) {
+        var s2 = store.get("sina:fcsrs", {}), nx = srsNext(e, g); s2[LK + c.id] = nx; store.set("sina:fcsrs", s2);
+        queue.shift(); if (!nx[1]) queue.splice(Math.min(3, queue.length), 0, c); else done++;
+        fcOut(card, g === 1 ? -1 : 1, function () { shown = false; render(); });
       }
-      function flip() { shown = !shown; card.classList.toggle("flipped", shown); setActs(); if (shown) { var g = $("#got"); if (g) g.focus({ preventScroll: true }); } }
-      setActs();
-      /* tap to flip; swipe right = knew it, left = still learning */
-      var sx = 0, sy = 0, dx = 0, drag = false, moved = false;
-      card.addEventListener("touchstart", function (e) { sx = e.touches[0].clientX; sy = e.touches[0].clientY; dx = 0; drag = true; moved = false; card.style.transition = "none"; }, { passive: true });
-      card.addEventListener("touchmove", function (e) {
-        if (!drag) return; dx = e.touches[0].clientX - sx; var dy = e.touches[0].clientY - sy;
-        if (!moved && Math.abs(dy) > Math.abs(dx)) { drag = false; card.style.transform = ""; return; }
-        if (Math.abs(dx) > 8) moved = true;
-        card.style.transform = "translateX(" + dx + "px) rotate(" + (dx / 25) + "deg)" + (shown ? " rotateY(180deg)" : "");
-        card.classList.toggle("lean-r", dx > 60); card.classList.toggle("lean-l", dx < -60);
-      }, { passive: true });
-      card.addEventListener("touchend", function () {
-        if (!drag) return; drag = false; card.classList.remove("lean-r", "lean-l");
-        if (Math.abs(dx) > 90) { next(dx > 0 ? 1 : -1, dx > 0); return; }
-        card.style.transition = ""; card.style.transform = "";
-      });
-      card.addEventListener("click", function (e) { if (moved) { moved = false; return; } if (e.target.closest("a, button")) return; flip(); });
-      $("#shuf").onclick = function () { order = shuffle(order); pos = 0; shown = false; render(); };
-      $("#rst").onclick = function () { known = []; store.set(key, known); pos = 0; shown = false; render(); };
+      acts();
+      fcWire(card, function () { return shown; }, flip, function (dir) { rate(dir > 0 ? 3 : 1); });
+      fcKeys(card, function () { return shown; }, flip, rate);
+      p.querySelector("#shuf").onclick = function () { queue = shuffle(queue); shown = false; render(); };
+      p.querySelector("#rst").onclick = reset;
     }
-    render();
+    build(); render();
   }
 
   function deeperPanel(p, lec) {
@@ -1946,8 +2175,8 @@
     if (rs) h += t("#/resume", "go", "Resume quiz", esc(rs.title) + " · " + rs.n + "/" + rs.qs.length, "qt-go");
     else if (last && last.h) h += t(last.h, "go", "Continue", esc(last.t), "qt-go");
     h += t("#/mistakes", "redo", "Redo my mistakes", mk ? mk + " question" + (mk > 1 ? "s" : "") + " to redo" : "No mistakes yet", mk ? "qt-hot" : "");
-    var due = dueList().length;
-    if (due) h += t("#/review", "redo", "Review due", due + " question" + (due > 1 ? "s" : "") + " for today", "qt-hot");
+    var due = allDue();
+    if (due) h += t("#/review", "redo", "Review due", due + " review" + (due > 1 ? "s" : "") + " for today", "qt-hot");
     h += t("#/progress", "prog", "My progress", seen ? Math.round(ok / seen * 100) + "% accuracy · " + seen + " answered" : "Start a quiz to track it");
     if (S.api) h += t("#/leaderboard", "lb", "Leaderboard", "Best past paper scores");
     return h + "</nav>";
@@ -2139,17 +2368,25 @@
   }
 
   /* ---------- spaced repetition: reviews due today ---------- */
-  function dueList() {
-    var sr = store.get("sina:srs", {}), idx = qIndex(), d = dayNo(), out = [];
+  function dueList(day) {
+    var sr = store.get("sina:srs", {}), idx = qIndex(), d = day == null ? dayNo() : day, out = [];
     Object.keys(sr).forEach(function (k) { var e = idx[k]; if (e && sr[k][1] <= d && inProgram(e.lid)) out.push({ k: k, e: e, box: sr[k][0] }); });
     return out;
   }
+  function fcDueHTML() {
+    var a = akDue(), sr = store.get("sina:fcsrs", {}), d = dayNo(), by = {};
+    for (var k in sr) if (sr[k][0] <= d) { var lid = k.split("|")[0]; if (inProgram(lid)) by[lid] = (by[lid] || 0) + 1; }
+    var ls = Object.keys(by);
+    if (!a && !ls.length) return "";
+    return '<h2 class="rev-h">Flashcards due</h2><ul class="lec-list fc-due-list">' + (a ? '<li><a href="#/anking/review"><span>AnKing Step 1</span><span class="qn">' + a + "</span></a></li>" : "") +
+      ls.map(function (lid) { return '<li><a href="#/lecture/' + lid + '/cards"><span>' + esc(lectureTitle(lid) || (S.lectures[lid] && S.lectures[lid].title) || lid) + '</span><span class="qn">' + by[lid] + "</span></a></li>"; }).join("") + "</ul>";
+  }
   function reviewView() {
-    var list = dueList(), sr = store.get("sina:srs", {}), later = Object.keys(sr).length - list.length;
+    var list = dueList(), sr = store.get("sina:srs", {}), later = Object.keys(sr).length - list.length, fch = fcDueHTML();
     var html = '<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / Review</p><h1>Review due today</h1>' +
       '<p class="meta">Questions you missed come back after 1 day, then 3, 7, 16 and 35 days each time you get them right. Miss one again and it starts over.</p>';
-    if (!list.length) { setView(html + '<p class="empty-note">Nothing due today.' + (later > 0 ? " " + later + " question" + (later > 1 ? "s are" : " is") + " scheduled for later days." : " Questions you miss will be scheduled here.") + '</p><p><a class="btn" href="#/reminders">Set a daily reminder</a></p></div>', "Review"); return; }
-    html += '<div class="row" style="margin:.4rem 0 1rem"><button class="btn primary" id="rv-go">Review ' + list.length + " question" + (list.length > 1 ? "s" : "") + '</button><a class="btn" href="#/reminders">Reminders</a></div><div id="rvq"></div></div>';
+    if (!list.length) { setView(html + fch + (fch ? '<h2 class="rev-h">Questions due</h2>' : "") + '<p class="empty-note">' + (fch ? "No questions due today." : "Nothing due today.") + (later > 0 ? " " + later + " question" + (later > 1 ? "s are" : " is") + " scheduled for later days." : " Questions you miss will be scheduled here.") + '</p><p><a class="btn" href="#/reminders">Set a daily reminder</a></p></div>', "Review"); return; }
+    html += fch + (fch ? '<h2 class="rev-h">Questions due</h2>' : "") + '<div class="row" style="margin:.4rem 0 1rem"><button class="btn primary" id="rv-go">Review ' + list.length + " question" + (list.length > 1 ? "s" : "") + '</button><a class="btn" href="#/reminders">Reminders</a></div><div id="rvq"></div></div>';
     setView(html, "Review");
     document.getElementById("rv-go").onclick = function () {
       var pool = shuffle(list).map(function (m) { var c = shuffleQ(m.e.q), d = {}; for (var k in c) d[k] = c[k]; d._k = m.k; d._lid = m.e.lid; d._fig = m.e.fig; d._from = srcTitle(m.e.lid); return d; });
@@ -2164,14 +2401,17 @@
   function isIOS() { return /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1); }
   function standalone() { return (window.matchMedia && matchMedia("(display-mode: standalone)").matches) || navigator.standalone; }
   function remindPost(r, sub) {
-    return fetch(S.api, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ type: "sub", sub: sub, h: r.h, m: r.m, tz: new Date().getTimezoneOffset(), daily: r.daily, review: r.review, due: dueList().length }) });
+    return fetch(S.api, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ type: "sub", sub: sub, h: r.h, m: r.m, tz: new Date().getTimezoneOffset(), daily: r.daily, review: r.review, due: remindDue(r) }) });
   }
+  /* what will be due at the next reminder: today's if it has not gone off yet, otherwise tomorrow's */
+  function remindDue(r) { var n = new Date(), past = n.getHours() * 60 + n.getMinutes() >= (r.h || 0) * 60 + (r.m || 0); return allDue(dayNo() + (past ? 1 : 0)); }
   function remindSync() {
     var r = store.get("sina:remind", null);
-    if (!r || !r.on || !S.api || !pushOK() || r.synced === today() || Notification.permission !== "granted") return;
+    if (!r || !r.on || !S.api || !pushOK() || Notification.permission !== "granted") return;
+    var due = remindDue(r); if (r.synced === today() && r.sdue === due) return;
     navigator.serviceWorker.ready.then(function (reg) { return reg.pushManager.getSubscription(); }).then(function (sub) {
       if (!sub) return;
-      remindPost(r, sub.toJSON()).then(function () { r.synced = today(); store.set("sina:remind", r); });
+      remindPost(r, sub.toJSON()).then(function () { r.synced = today(); r.sdue = due; store.set("sina:remind", r); });
     }).catch(function () {});
   }
   function remindersView() {
@@ -2186,11 +2426,11 @@
     var t = ("0" + r.h).slice(-2) + ":" + ("0" + r.m).slice(-2);
     html += (block ? '<p class="rem-block">' + block + "</p>" : "") +
       '<div class="rem-card"' + (block ? ' aria-disabled="true"' : "") + '><label class="rem-row"><span>Remind me at</span><input type="time" id="rm-t" value="' + t + '"' + (block ? " disabled" : "") + "></label>" +
-      '<label class="rem-row"><input type="checkbox" id="rm-rv"' + (r.review ? " checked" : "") + (block ? " disabled" : "") + '><span>Reviews due (spaced repetition)</span></label>' +
+      '<label class="rem-row"><input type="checkbox" id="rm-rv"' + (r.review ? " checked" : "") + (block ? " disabled" : "") + '><span>Reviews due: questions and flashcards (spaced repetition)</span></label>' +
       '<label class="rem-row"><input type="checkbox" id="rm-dl"' + (r.daily ? " checked" : "") + (block ? " disabled" : "") + '><span>Daily practice, on days with nothing to review</span></label>' +
       '<div class="row"><button class="btn primary" id="rm-on"' + (block ? " disabled" : "") + ">" + (r.on ? "Save" : "Turn on reminders") + "</button>" + (r.on ? '<button class="btn" id="rm-test">Send a test</button><button class="btn" id="rm-off">Turn off</button>' : "") + "</div>" +
       '<p class="meta" id="rm-msg">' + (r.on ? "Reminders are on at " + t + "." : "") + "</p></div>" +
-      '<p class="meta">Due today: ' + dueList().length + ' question(s). <a href="#/review">Open the review</a>.</p></div>';
+      '<p class="meta">Due today: ' + allDue() + ' (questions and flashcards). <a href="#/review">Open the review</a>.</p></div>';
     setView(html, "Reminders");
     var msg = document.getElementById("rm-msg");
     function read() { var v = (document.getElementById("rm-t").value || "19:00").split(":"); r.h = +v[0] || 0; r.m = +v[1] || 0; r.review = document.getElementById("rm-rv").checked; r.daily = document.getElementById("rm-dl").checked; }
@@ -2203,7 +2443,7 @@
       }).then(function (reg) {
         return reg.pushManager.getSubscription().then(function (s) { return s || reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64u(S.vapid) }); });
       }).then(function (sub) { return remindPost(r, sub.toJSON()); }).then(function () {
-        r.on = true; r.synced = today(); store.set("sina:remind", r); remindersView();
+        r.on = true; r.synced = today(); r.sdue = remindDue(r); store.set("sina:remind", r); remindersView();
         toast("Reminders on. You'll get one a day at " + ("0" + r.h).slice(-2) + ":" + ("0" + r.m).slice(-2) + ".");
       }).catch(function (e) { msg.textContent = (e && e.message) || "Could not turn reminders on."; });
     };
@@ -2934,7 +3174,7 @@
     if (parts[0] === "updates") return updatesView();
     if (parts[0] === "apps") return appsView();
     if (parts[0] === "usmle") return usmleView();
-    if (parts[0] === "anking") return ankingView();
+    if (parts[0] === "anking") return ankingView(parts[1]);
     if (parts[0] === "year" && progValid(parts[1])) { setProgram(parts[1], true); location.replace("#/"); return; }
     if (parts[0] === "midterm") return midtermView();
     if (parts[0] === "progress") return progressView();
