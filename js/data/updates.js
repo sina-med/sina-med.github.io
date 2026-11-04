@@ -3,7 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "4 November 2026", items: [
-    "Added: AnKing Step 1 as multiple-choice questions (29,093 questions with their pictures), on the USMLE prep page. Private: locked with a password.",
+    "Added: AnKing Step 1 as multiple-choice questions (29,048 questions with their pictures), on the USMLE prep page, by First Aid chapter, section and topic. Private: locked with a password.",
     "Changed: Endocrine semiology slides converted from PowerPoint to PDF; Download lecture on Thyroid and Adrenal semiology now gives the PDF.",
     "Changed: source links for the 2026-2027 Digestive semiology slides (examination, jaundice, hepatomegaly, diarrhoea, dysphagia, GERD, GI bleeding) and Endocrine semiology slides (thyroid, adrenal).",
     "Added: 5 more Endocrine semiology lectures listed as coming (pituitary, parathyroid, gonads, diabetes, dyslipidaemia and hyperuricaemia).",

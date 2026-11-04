@@ -1489,3 +1489,14 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .ak-extra table, .ak-q table { border-collapse: collapse; margin: 0.5rem 0; display: block; overflow-x: auto; max-width: 100%; }
 .ak-extra td, .ak-extra th, .ak-q td, .ak-q th { border: 1px solid var(--line); padding: 0.25rem 0.45rem; vertical-align: top; }
 .chips.quick button.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+.ak-res { margin: 0.6rem 0; border: 1px solid var(--line); border-radius: 10px; padding: 0.55rem 0.8rem; background: var(--surface); }
+.ak-res summary { cursor: pointer; font-weight: 600; }
+.ak-res-body .ak-img { margin: 0.6rem 0 0; }
+.ak-sec { margin: 0.5rem 0; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.ak-sec > summary { display: flex; justify-content: space-between; gap: 1rem; padding: 0.8rem 1rem; cursor: pointer; font-weight: 600; }
+.ak-sec > ul { margin: 0 0.6rem 0.6rem; }
+.ak-sec .lec-list a, .ak-subs a { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+.ak-sec .lec-list a .qn, .ak-subs a .qn { margin-left: auto; white-space: nowrap; }
+.ak-sec > summary { font-family: var(--sans); }
+.ak-sec .lec-list a > span:first-child, .ak-subs a > span:first-child { flex: 1 1 auto; min-width: 0; }
+.ak-sec .lec-list a > .qn, .ak-subs a > .qn { flex: 0 0 auto; }

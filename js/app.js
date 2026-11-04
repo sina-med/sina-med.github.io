@@ -709,12 +709,13 @@
       return new Response(new Blob([gz]).stream().pipeThrough(new DecompressionStream("gzip"))).text();
     }).then(function (t) { AK.subs[s.f] = JSON.parse(t); return AK.subs[s.f]; });
   }
+  var AK_MEDIA = "https://sina-med.github.io/ak-media/i/";
   function akImages(root) {
-    root.querySelectorAll("img[data-ak]").forEach(function (im) {
-      var id = im.getAttribute("data-ak"); im.removeAttribute("data-ak"); im.className = "ak-img"; im.loading = "lazy";
+    root.querySelectorAll("img[data-ak], img[data-akr]").forEach(function (im) {
+      var r = im.hasAttribute("data-akr"), id = im.getAttribute(r ? "data-akr" : "data-ak"); im.removeAttribute(r ? "data-akr" : "data-ak"); im.className = "ak-img"; im.loading = "lazy";
       if (AK.img[id]) { im.src = AK.img[id]; return; }
-      fetch("files/ak/i/" + id + ".bin").then(function (r) { if (!r.ok) throw new Error("net"); return r.arrayBuffer(); }).then(akDec)
-        .then(function (b) { AK.img[id] = URL.createObjectURL(new Blob([b], { type: "image/webp" })); im.src = AK.img[id]; })
+      fetch((r ? AK_MEDIA : "files/ak/i/") + id + ".bin").then(function (r) { if (!r.ok) throw new Error("net"); return r.arrayBuffer(); }).then(akDec)
+        .then(function (b) { AK.img[id] = URL.createObjectURL(new Blob([b], { type: r ? "image/avif" : "image/webp" })); im.src = AK.img[id]; })
         .catch(function () { im.remove(); });
     });
   }
@@ -750,37 +751,78 @@
         }).join("") + '</ul><p class="src"><button type="button" class="linkbtn" id="akout">Lock this section on this device</button></p></div>';
       setView(h, "AnKing questions");
       app.querySelectorAll("[data-c]").forEach(function (b) { b.onclick = function () { store.set("sina:akcount", b.dataset.c); akHome(); }; });
-      app.querySelectorAll("[data-s]").forEach(function (a) { a.onclick = function (e) { e.preventDefault(); akStart(m.subjects[+a.dataset.s], +store.get("sina:akcount", "20")); }; });
+      app.querySelectorAll("[data-s]").forEach(function (a) { a.onclick = function (e) { e.preventDefault(); akChapter(m.subjects[+a.dataset.s]); }; });
       document.getElementById("akout").onclick = function () { localStorage.removeItem("sina:akkey"); AK.key = null; ankingView(); };
     });
   }
-  function akStart(s, n) {
+  /* one First Aid chapter: its sections (Pathology, Physiology...) and their topics */
+  function akChapter(s) {
     setView('<div class="wrap"><p class="meta">Loading ' + esc(s.label) + "…</p></div>", "AnKing questions");
     akSubject(s).then(function (all) {
-      var seen = store.get("sina:akseen", {}), sm = seen[s.f] || {};
-      var fresh = shuffle(all.filter(function (q) { return !sm[q.id]; })), old = shuffle(all.filter(function (q) { return sm[q.id]; }));
-      akQuiz(s, fresh.concat(old).slice(0, n));
+      var seen = (store.get("sina:akseen", {})[s.f]) || {}, secs = {}, order = [];
+      all.forEach(function (q) {
+        var sec = q.s || "General", top = q.t || "";
+        if (!secs[sec]) { secs[sec] = { n: 0, d: 0, tops: {}, to: [] }; order.push(sec); }
+        var S2 = secs[sec]; S2.n++; if (seen[q.id] !== undefined) S2.d++;
+        if (top) { if (!S2.tops[top]) { S2.tops[top] = { n: 0, d: 0 }; S2.to.push(top); } S2.tops[top].n++; if (seen[q.id] !== undefined) S2.tops[top].d++; }
+      });
+      /* tiny sections (a handful of mis-tagged cards) join "More topics" */
+      order.forEach(function (k) { if (k !== "More topics" && secs[k].n < 10 && order.length > 1) { all.forEach(function (q) { if ((q.s || "General") === k) { q.t = q.t || k; q.s = "More topics"; } }); } });
+      if (order.some(function (k) { return k !== "More topics" && secs[k].n < 10; })) { AK.subs[s.f] = all; return akChapter(s); }
+      order.sort(function (a, b) { return a === "More topics" ? 1 : b === "More topics" ? -1 : secs[b].n - secs[a].n; });
+      var cnt = store.get("sina:akcount", "20");
+      function frac(o) { return '<span class="qn">' + (o.d ? o.d.toLocaleString("en") + " / " : "") + o.n.toLocaleString("en") + "</span>"; }
+      var h = '<div class="wrap"><p class="crumbs"><a href="#/anking">AnKing questions</a> / ' + esc(s.label) + "</p><h1>" + esc(s.label) + "</h1>" +
+        '<div class="chips quick" role="group" aria-label="Number of questions">' + ["10", "20", "40", "100"].map(function (n) { return '<button type="button" data-c="' + n + '"' + (n === cnt ? ' class="on" aria-pressed="true"' : ' aria-pressed="false"') + ">" + n + " questions</button>"; }).join("") + "</div>" +
+        '<p><button class="btn primary" type="button" data-go="">Whole chapter (' + all.length.toLocaleString("en") + ")</button></p>" +
+        order.map(function (k, si) {
+          var o = secs[k];
+          return '<details class="ak-sec"><summary><span>' + esc(k) + "</span>" + frac(o) + '</summary><ul class="lec-list"><li><a href="#/anking" data-go="' + si + '"><span><strong>All of ' + esc(k) + "</strong></span>" + frac(o) + "</a></li>" +
+            o.to.sort(function (a, b) { return o.tops[b].n - o.tops[a].n; }).map(function (t, ti) { return '<li><a href="#/anking" data-go="' + si + ":" + ti + '"><span>' + esc(t) + "</span>" + frac(o.tops[t]) + "</a></li>"; }).join("") + "</ul></details>";
+        }).join("") + "</div>";
+      setView(h, "AnKing questions");
+      app.querySelectorAll("[data-c]").forEach(function (b) { b.onclick = function () { store.set("sina:akcount", b.dataset.c); app.querySelectorAll("[data-c]").forEach(function (x) { x.classList.toggle("on", x === b); x.setAttribute("aria-pressed", String(x === b)); }); }; });
+      app.querySelectorAll("[data-go]").forEach(function (a) { a.onclick = function (e) {
+        e.preventDefault(); var g = a.dataset.go, filt = null, lab = s.label;
+        if (g !== "") { var pr = g.split(":"), sec = order[+pr[0]], top = pr.length > 1 ? secs[sec].to[+pr[1]] : null; lab = s.label + " · " + (top || sec);
+          filt = function (q) { return (q.s || "General") === sec && (!top || q.t === top); }; }
+        akStart(s, +store.get("sina:akcount", "20"), filt, lab);
+      }; });
     }, function () { setView('<div class="wrap"><p>Could not load these questions. Check the connection and try again.</p><p><a class="btn" href="#/anking">Back</a></p></div>', "AnKing questions"); });
   }
-  function akQuiz(s, qs) {
-    var i = 0, score = 0, done = [];
+  function akStart(s, n, filt, lab) {
+    setView('<div class="wrap"><p class="meta">Loading ' + esc(s.label) + "…</p></div>", "AnKing questions");
+    akSubject(s).then(function (all) {
+      if (filt) all = all.filter(filt);
+      var seen = store.get("sina:akseen", {}), sm = seen[s.f] || {};
+      var fresh = shuffle(all.filter(function (q) { return !sm[q.id]; })), old = shuffle(all.filter(function (q) { return sm[q.id]; }));
+      akQuiz(s, fresh.concat(old).slice(0, n), filt, lab);
+    }, function () { setView('<div class="wrap"><p>Could not load these questions. Check the connection and try again.</p><p><a class="btn" href="#/anking">Back</a></p></div>', "AnKing questions"); });
+  }
+  function akQuiz(s, qs, filt, lab) {
+    var i = 0, score = 0, done = []; lab = lab || s.label;
     function mark(q, ok) { var seen = store.get("sina:akseen", {}); seen[s.f] = seen[s.f] || {}; seen[s.f][q.id] = ok ? 1 : 0; store.set("sina:akseen", seen); }
     function render() {
       if (i >= qs.length) {
-        setView('<div class="wrap"><p class="crumbs"><a href="#/anking">AnKing questions</a> / ' + esc(s.label) + "</p><h1>" + score + " / " + qs.length + '</h1><div class="row"><button class="btn primary" id="akmore">' + qs.length + ' more</button><a class="btn" href="#/anking">Choose another chapter</a></div></div>', "AnKing questions");
-        document.getElementById("akmore").onclick = function () { akStart(s, qs.length); };
+        setView('<div class="wrap"><p class="crumbs"><a href="#/anking">AnKing questions</a> / ' + esc(lab) + "</p><h1>" + score + " / " + qs.length + '</h1><div class="row"><button class="btn primary" id="akmore">' + qs.length + ' more</button><button class="btn" id="akback">Back to ' + esc(s.label) + '</button><a class="btn" href="#/anking">Choose another chapter</a></div></div>', "AnKing questions");
+        document.getElementById("akmore").onclick = function () { akStart(s, qs.length, filt, lab); };
+        document.getElementById("akback").onclick = function () { akChapter(s); };
         return;
       }
       var q = qs[i], d = done[i];
-      var h = '<div class="wrap"><p class="crumbs"><a href="#/anking">AnKing questions</a> / ' + esc(s.label) + '</p><p class="qhead">Question ' + (i + 1) + " of " + qs.length + "</p>" +
+      var h = '<div class="wrap"><p class="crumbs"><a href="#/anking">AnKing questions</a> / ' + esc(lab) + '</p><p class="qhead">Question ' + (i + 1) + " of " + qs.length + "</p>" +
         ecgProgress(done.filter(Boolean).length / qs.length) + '<div class="qtext ak-q">' + akSafe(q.q) + "</div>" +
         q.options.map(function (o, n) {
           var cls = d ? (n === q.answer ? " correct" : n === d.c ? " wrong" : "") : "";
           return '<button class="opt' + cls + '" data-n="' + n + '"' + (d ? " disabled" : "") + '><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span></button>";
         }).join("") +
-        (d ? '<div class="why"><strong>' + (d.c === q.answer ? "Correct." : "Not quite.") + "</strong> Answer: " + esc(q.options[q.answer]) + "." + (q.extra ? '<div class="ak-extra">' + akSafe(q.extra) + "</div>" : "") + "</div>" : "") +
+        (d ? '<div class="why"><strong>' + (d.c === q.answer ? "Correct." : "Not quite.") + "</strong> Answer: " + esc(q.options[q.answer]) + "." + (q.extra ? '<div class="ak-extra">' + akSafe(q.extra) + "</div>" : "") + "</div>" + (q.res || []).map(function (r) { return '<details class="ak-res"><summary>' + esc(r[0]) + " (" + r[1].length + (r[1].length > 1 ? " pictures" : " picture") + ')</summary><div class="ak-res-body" data-ids="' + r[1].filter(function (x) { return /^[0-9a-f]+$/.test(x); }).join(",") + '"></div></details>'; }).join("") : "") +
         '<div class="qnav"><button class="btn" id="prev" type="button"' + (i ? "" : " disabled") + '>&larr; Previous</button><button class="btn' + (d ? " primary" : "") + '" id="fwd" type="button">' + (i + 1 < qs.length ? (d ? "Next question" : "Skip") : "Finish") + " &rarr;</button></div></div>";
       setView(h, "AnKing questions"); akImages(app);
+      app.querySelectorAll(".ak-res").forEach(function (dd) { dd.addEventListener("toggle", function () {
+        var body = dd.querySelector(".ak-res-body"); if (!dd.open || body.childNodes.length) return;
+        body.innerHTML = body.dataset.ids.split(",").map(function (id) { return '<img data-akr="' + id + '" alt="">'; }).join(""); akImages(body);
+      }); });
       app.querySelectorAll(".opt").forEach(function (b) {
         b.onclick = function () { if (done[i]) return; var c = +b.dataset.n; done[i] = { c: c }; if (c === q.answer) score++; mark(q, c === q.answer); render(); };
       });
