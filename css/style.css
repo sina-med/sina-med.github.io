@@ -1632,3 +1632,30 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .mx-acts { flex-wrap: wrap; }
 .ak-mix .btn[disabled] { opacity: .5; cursor: default; }
 .ak-from { margin: 0 0 .3rem; font-size: .8rem; font-weight: 600; color: var(--muted); }
+
+/* review heatmap */
+.hm { margin: .3rem 0 1rem; }
+.hm-scroll { overflow-x: auto; padding-bottom: .3rem; scrollbar-width: thin; }
+.hm-months { display: flex; gap: 3px; font-size: .62rem; color: var(--muted); height: 1rem; }
+.hm-months { width: max-content; }
+.hm-months span { flex: 0 0 11px; width: 11px; min-width: 0; white-space: nowrap; overflow: visible; }
+.hm-grid { display: flex; gap: 3px; width: max-content; }
+.hm-col { display: grid; grid-template-rows: repeat(7, 11px); gap: 3px; }
+.hm-grid i, .hm-key i { display: block; width: 11px; height: 11px; border-radius: 2.5px; }
+.hm-0 { background: color-mix(in srgb, var(--ink) 8%, var(--bg)); }
+.hm-1 { background: color-mix(in srgb, var(--good) 30%, var(--bg)); }
+.hm-2 { background: color-mix(in srgb, var(--good) 55%, var(--bg)); }
+.hm-3 { background: color-mix(in srgb, var(--good) 78%, var(--bg)); }
+.hm-4 { background: var(--good); }
+.hm-x { visibility: hidden; }
+.hm-grid i[data-h] { cursor: pointer; }
+.hm-today { box-shadow: inset 0 0 0 1.5px var(--ink); }
+.hm-sel { outline: 2px solid var(--ink); outline-offset: 1px; }
+.hm-tip { margin: .35rem 0 .5rem; font-size: .78rem; color: var(--muted); min-height: 1.2em; }
+.hm-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: .4rem; }
+.hm-stats div { background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: .4rem .5rem; }
+.hm-stats b { display: block; font-size: 1.05rem; font-variant-numeric: tabular-nums; }
+.hm-stats span { font-size: .7rem; color: var(--muted); line-height: 1.2; display: block; }
+@media (max-width: 420px) { .hm-stats { grid-template-columns: repeat(2, 1fr); } }
+.hm-key { display: flex; align-items: center; justify-content: flex-end; gap: 3px; margin-top: .5rem; font-size: .68rem; color: var(--muted); }
+.ak-heat { margin-top: 1rem; }

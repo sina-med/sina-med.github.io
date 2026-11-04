@@ -665,7 +665,7 @@
     var COST = { "Free": "free", "Free trial": "trial", "Paid": "paid" };
     var html = '<div class="wrap wide"><p class="crumbs"><a href="#/">Home</a> / USMLE prep</p><h1>USMLE Step 1 prep</h1>' +
       '<p class="lede">Resources for students preparing for the USMLE Step 1 alongside the medical school curriculum. Start with the free ones; the paid ones are listed so you know what people mean when they mention them.</p>';
-    html += '<div class="usmle-drive usmle-ak"><div><h2>AnKing Step 1</h2><p>All 29,048 AnKing Step 1 cards as multiple-choice questions or Anki-style flashcards, with their pictures, by First Aid chapter. Private: you need the password.</p></div><a class="btn primary" href="#/anking">Open</a></div>';
+    html += '<div class="usmle-drive usmle-ak"><div><h2>AnKing Step 1</h2><p>All AnKing Step 1 flashcards as MCQs or Anki flashcards, with pictures.<br>Needs password.</p></div><a class="btn primary" href="#/anking">Open</a></div>';
     if (U.drive) html += '<div class="usmle-drive"><div><h2>Shared PDF folder</h2><p>High-yield PDFs and documents collected for the promo, all in one Google Drive folder. New files are added regularly.</p></div><a class="btn primary" href="' + esc(U.drive) + '" target="_blank" rel="noopener">Open the Drive folder</a></div>';
     U.sections.forEach(function (sec) {
       html += "<h2>" + esc(sec.title) + '</h2><ul class="apps-grid">' + sec.items.map(function (a) {
@@ -698,7 +698,39 @@
       return '<button type="button" class="btn ' + b[2] + '" data-g="' + b[0] + '"><span>' + b[1] + "</span><small>" + srsFmt(srsNext(e, b[0])[1]) + "</small></button>";
     }).join("") + "</div>";
   }
-  function akLog(k) { var l = store.get("sina:aklog", {}), d = dayNo(); l[d] = l[d] || [0, 0]; l[d][k]++; var ks = Object.keys(l); if (ks.length > 120) ks.sort().slice(0, ks.length - 120).forEach(function (x) { delete l[x]; }); store.set("sina:aklog", l); }
+  function akLog(k) { var l = store.get("sina:aklog", {}), d = dayNo(); l[d] = l[d] || [0, 0]; l[d][k]++; var ks = Object.keys(l); if (ks.length > 400) ks.sort().slice(0, ks.length - 400).forEach(function (x) { delete l[x]; }); store.set("sina:aklog", l); }
+  function fcLog() { var l = store.get("sina:fclog", {}), d = dayNo(); l[d] = (l[d] || 0) + 1; var ks = Object.keys(l); if (ks.length > 400) ks.sort().slice(0, ks.length - 400).forEach(function (x) { delete l[x]; }); store.set("sina:fclog", l); }
+  /* Anki-style review heatmap: the last year, one square per day, darker = more reviews */
+  function heatHTML(cnt, what) {
+    var d = dayNo(), start = d - 364, MS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    start -= (new Date(start * 864e5).getUTCDay() + 6) % 7;
+    var mx = 0, tot = 0, act = 0, first = null, best = 0, run = 0;
+    for (var x = start; x <= d; x++) { var v = cnt[x] || 0; if (v > mx) mx = v; tot += v; if (v) { act++; if (first === null) first = x; run++; if (run > best) best = run; } else run = 0; }
+    var cur = 0; for (var y = d; cnt[y]; y--) cur++; if (!cur) for (var z = d - 1; cnt[z]; z--) cur++;
+    var cols = "", months = "";
+    for (var c = start, ci = 0; c <= d; c += 7, ci++) {
+      var col = "";
+      for (var k = 0; k < 7; k++) {
+        var day = c + k; if (day > d) { col += '<i class="hm-x"></i>'; continue; }
+        var n = cnt[day] || 0, lv = n ? Math.min(4, Math.ceil(n / Math.max(mx, 1) * 4)) : 0, dt = new Date(day * 864e5);
+        col += '<i class="hm-' + lv + (day === d ? " hm-today" : "") + '" data-h="' + dt.getUTCDate() + " " + MS[dt.getUTCMonth()] + " " + dt.getUTCFullYear() + ": " + n + " " + what + '" title="' + dt.getUTCDate() + " " + MS[dt.getUTCMonth()] + ": " + n + '"></i>';
+      }
+      var m0 = new Date(c * 864e5), m6 = new Date(Math.min(c + 6, d) * 864e5);
+      months += "<span>" + (ci === 0 || m6.getUTCMonth() !== m0.getUTCMonth() || m0.getUTCDate() === 1 ? MS[m6.getUTCMonth()] : "") + "</span>";
+      cols += '<div class="hm-col">' + col + "</div>";
+    }
+    var span = first === null ? 0 : d - first + 1;
+    return '<div class="hm"><div class="hm-scroll"><div class="hm-months">' + months + '</div><div class="hm-grid">' + cols + "</div></div>" +
+      '<p class="hm-tip" aria-live="polite">' + (tot ? "Tap a day to see its count." : "Each square is a day. It fills in as you study.") + "</p>" +
+      '<div class="hm-stats"><div><b>' + (act ? Math.round(tot / act) : 0) + '</b><span>daily average</span></div><div><b>' + (span ? Math.round(act / span * 100) : 0) + '%</b><span>days studied</span></div><div><b>' + best + '</b><span>longest streak</span></div><div><b>' + cur + '</b><span>current streak</span></div></div>' +
+      '<div class="hm-key" aria-hidden="true">Less <i class="hm-0"></i><i class="hm-1"></i><i class="hm-2"></i><i class="hm-3"></i><i class="hm-4"></i> More</div></div>';
+  }
+  function heatWire(root) {
+    root.querySelectorAll(".hm").forEach(function (h) {
+      var sc = h.querySelector(".hm-scroll"), tip = h.querySelector(".hm-tip"); sc.scrollLeft = sc.scrollWidth;
+      h.querySelector(".hm-grid").addEventListener("click", function (e) { var c = e.target.closest("[data-h]"); if (!c) return; h.querySelectorAll(".hm-sel").forEach(function (x) { x.classList.remove("hm-sel"); }); c.classList.add("hm-sel"); tip.textContent = c.dataset.h; });
+    });
+  }
   function akDue(day) { var a = store.get("sina:aksrs", {}), n = 0; if (day == null) day = dayNo(); Object.keys(a).forEach(function (f) { var m = a[f]; for (var k in m) if (m[k][0] <= day) n++; }); return n; }
   function fcDue(day) { var a = store.get("sina:fcsrs", {}), n = 0; if (day == null) day = dayNo(); for (var k in a) if (a[k][0] <= day && inProgram(k.split("|")[0])) n++; return n; }
   function allDue(day) { return dueList(day).length + akDue(day) + fcDue(day); }
@@ -907,9 +939,10 @@
     if (!studied && !qs) return '<section class="ak-track empty"><p><strong>Your AnKing progress</strong> shows up here once you start: cards learned, questions seen, accuracy, your streak and what is due this week.</p></section>';
     rows.sort(function (a, b) { return b.pct - a.pct; });
     return '<section class="ak-track" aria-label="Your AnKing progress"><div class="ak-track-top">' +
-      ring(learned / tot * 100, "ak-r1", learned.toLocaleString("en") + " cards learned") + ring(qs / tot * 100, "ak-r2", qs.toLocaleString("en") + " questions seen") +
+      ring(learned / tot * 100, "ak-r1", learned.toLocaleString("en") + (learned === 1 ? " card" : " cards") + " learned") + ring(qs / tot * 100, "ak-r2", qs.toLocaleString("en") + (qs === 1 ? " question" : " questions") + " seen") +
       '<div class="ak-stats"><div><b>' + (qs ? Math.round(ok / qs * 100) + "%" : "–") + "</b><span>questions right</span></div><div><b>" + akDue().toLocaleString("en") + "</b><span>cards due today</span></div>" +
       "<div><b>" + (today[0] + today[1]) + "</b><span>done today</span></div><div><b>" + streak + '</b><span>day streak</span></div></div></div>' +
+      (function () { var c = {}; for (var k in log) c[k] = (log[k][0] || 0) + (log[k][1] || 0); return '<div class="ak-heat"><p class="ak-fc-h">Review heatmap</p>' + heatHTML(c, "cards and questions") + "</div>"; })() +
       (studied ? '<div class="ak-fc"><p class="ak-fc-h">Cards due, next 7 days</p><div class="ak-fc-bars">' + fc.map(function (v, k) { var dt = new Date(now.getTime() + k * 864e5); return '<div class="ak-fc-col" title="' + v + ' due"><span class="ak-fc-v">' + (v || "") + '</span><span class="ak-fc-b" style="height:' + Math.max(v ? 6 : 2, Math.round(v / mx * 56)) + 'px"></span><span class="ak-fc-d">' + (DN[k] || wd[dt.getDay()]) + "</span></div>"; }).join("") + "</div></div>" : "") +
       (rows.length ? '<details class="ak-chaps"><summary>By chapter (' + rows.length + ' started)</summary><ul class="pbars">' + rows.map(function (r) {
         return '<li><a href="#/anking" data-tr="' + r.s.f + '"><span class="pb-name">' + esc(r.s.label) + '</span><span class="pb-num">' + (r.pct ? r.pct : "<1") + "% · " + r.n.toLocaleString("en") + "/" + r.s.n.toLocaleString("en") + '</span><span class="pb-track"><span class="pb-fill ' + (r.pct >= 60 ? "good" : r.pct >= 25 ? "mid" : "low") + '" style="--w:' + Math.max(1, r.pct) + '%"></span></span></a></li>';
@@ -994,7 +1027,7 @@
           for (var k in mm) { o.st++; if (mm[k][0] <= day) o.du++; }
           return '<li><a href="#/anking" data-s="' + n + '"><span>' + esc(s.label) + "</span>" + akFrac(o, cm) + "</a></li>";
         }).join("") + '</ul><p class="src"><button type="button" class="linkbtn" id="akout">Lock this section on this device</button></p></div>';
-      setView(h, "AnKing"); animateRings();
+      setView(h, "AnKing"); animateRings(); heatWire(app);
       akToolsWire(akHome); akMixWire();
       app.querySelectorAll("[data-s]").forEach(function (a) { a.onclick = function (e) { e.preventDefault(); akChapter(m.subjects[+a.dataset.s]); }; });
       document.getElementById("akout").onclick = function () { localStorage.removeItem("sina:akkey"); AK.key = null; ankingView(); };
@@ -2075,7 +2108,7 @@
       }
       function flip() { shown = !shown; card.classList.toggle("flipped", shown); acts(); if (shown) { var g = act.querySelector(".r3"); if (g) g.focus({ preventScroll: true }); } }
       function rate(g) {
-        var s2 = store.get("sina:fcsrs", {}), nx = srsNext(e, g); s2[LK + c.id] = nx; store.set("sina:fcsrs", s2);
+        var s2 = store.get("sina:fcsrs", {}), nx = srsNext(e, g); s2[LK + c.id] = nx; store.set("sina:fcsrs", s2); fcLog();
         queue.shift(); if (!nx[1]) queue.splice(Math.min(3, queue.length), 0, c); else done++;
         fcOut(card, g === 1 ? -1 : 1, function () { shown = false; render(); });
       }
@@ -2592,8 +2625,9 @@
       '<div class="prog-top"><div class="prog-card">' + ringSVG(acc, "Overall accuracy") + '<span>Overall accuracy</span></div>' +
       '<div class="prog-card"><b class="big">' + seen + '</b><span>questions answered</span></div>' +
       '<div class="prog-card"><b class="big">' + streak + '</b><span>day' + (streak === 1 ? "" : "s") + " in a row</span></div>" +
-      '<div class="prog-card"><b class="big">' + mk + '</b><span>mistakes to redo</span>' + (mk ? '<a class="btn small primary" href="#/mistakes">Redo them</a>' : "") + "</div></div>";
-    if (!rows.length) { setView(html + '<p class="empty-note">Nothing yet. Answer some questions and your scores per lecture will appear here.</p></div>', "My progress"); animateRings(); return; }
+      '<div class="prog-card"><b class="big">' + mk + '</b><span>mistakes to redo</span>' + (mk ? '<a class="btn small primary" href="#/mistakes">Redo them</a>' : "") + "</div></div>" +
+      '<h2>Flashcard heatmap</h2><p class="meta">Lecture flashcards you rated each day. ' + (fcDue() ? '<a href="#/review">' + fcDue() + " due today</a>." : "") + "</p>" + heatHTML(store.get("sina:fclog", {}), "flashcards");
+    if (!rows.length) { setView(html + '<p class="empty-note">Nothing yet. Answer some questions and your scores per lecture will appear here.</p></div>', "My progress"); animateRings(); heatWire(app); return; }
     var weak = rows.filter(function (r) { return r.n >= 5; }).sort(function (a, b) { return a.pct - b.pct; }).slice(0, 5);
     if (weak.length) html += '<h2>Weakest lectures</h2><p class="meta">Lowest accuracy, at least 5 questions answered.</p>' + barList(weak);
     var subs = {};
@@ -2602,7 +2636,7 @@
       var sb = subjectById(sid); html += "<h2>" + esc(sb ? sb.name : sid) + "</h2>" + barList(subs[sid].sort(function (a, b) { return a.pct - b.pct; }));
     });
     setView(html + '<p class="src" style="margin-top:1.5rem"><button class="btn small" id="prog-reset">Reset my progress</button></p></div>', "My progress");
-    animateRings();
+    animateRings(); heatWire(app);
     document.getElementById("prog-reset").onclick = function () { if (confirm("Reset all progress saved on this device?")) { ["sina:stats", "sina:mistakes", "sina:days"].forEach(function (k) { store.set(k, k === "sina:days" ? [] : {}); }); progressView(); } };
     function barList(list) {
       return '<ul class="pbars">' + list.map(function (r) {
