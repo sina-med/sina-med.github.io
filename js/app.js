@@ -1656,7 +1656,7 @@
       try { file = new File([b], name, { type: "application/pdf" }); } catch (err) {}
       var touch = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1) || /Android/.test(navigator.userAgent);
       if (touch && file && navigator.canShare && navigator.canShare({ files: [file] })) {
-        return navigator.share({ files: [file], title: name.replace(/\.pdf$/, "") }).catch(function (err) { if (!err || err.name !== "AbortError") throw err; });
+        return navigator.share({ files: [file] }).catch(function (err) { if (!err || err.name !== "AbortError") throw err; });
       }
       var u = URL.createObjectURL(b), l = document.createElement("a"); l.href = u; l.download = name; document.body.appendChild(l); l.click(); l.remove();
       setTimeout(function () { URL.revokeObjectURL(u); }, 60000);
