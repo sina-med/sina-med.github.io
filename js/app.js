@@ -1532,7 +1532,7 @@
     var secs = subSections(sub).map(function (x) { return x[0]; });
     var did = driveId(lec.sourceUrl), ppt = /\.pptx?\b/i.test(lec.sourceFile || ""), who = lecturer(lec);
     var more = [];
-    if (lec.sourcePdf) more.push('<a role="menuitem" href="' + esc(lec.sourcePdf) + '" target="_blank" rel="noopener">' + ICON.dl + "Download lecture (PDF)</a>");
+    if (lec.sourcePdf) { var pdfName = (lectureTitle(lec.id) || lec.title || "lecture").replace(/[\\/:*?"<>|]+/g, "") + ".pdf"; more.push('<a role="menuitem" href="' + esc(lec.sourcePdf) + '" data-pdf="' + esc(lec.sourcePdf) + '" data-name="' + esc(pdfName) + '" download="' + esc(pdfName) + '">' + ICON.dl + "Download lecture (PDF)</a>"); }
     else if (did) more.push('<a role="menuitem" href="https://drive.google.com/uc?export=download&amp;id=' + esc(did) + '" target="_blank" rel="noopener">' + ICON.dl + "Download lecture" + (ppt ? " (PowerPoint)" : "") + "</a>");
     more.push('<a role="menuitem" href="#/subject/' + sub.id + "/questions/" + id + '">' + ICON.q + "Practice questions</a>");
     if (secs.indexOf("visual") > -1 && lec.visual) more.push('<a role="menuitem" href="#/subject/' + sub.id + "/visual/" + id + '">' + ICON.v + "Visual</a>");
@@ -1639,10 +1639,29 @@
     var id = driveId(lec.sourceUrl), ppt = /\.pptx?\b/i.test(lec.sourceFile || "");
     if (!id && !lec.sourcePdf) return who ? '<p class="meta">' + esc(who) + "</p>" : "";
     if (lec.sourcePdf) ppt = false;
-    return '<p class="srcline"><a class="dlbtn" href="' + (lec.sourcePdf ? esc(lec.sourcePdf) : "https://drive.google.com/uc?export=download&amp;id=" + esc(id)) + '" target="_blank" rel="noopener" title="' + esc(lec.sourceFile || "") + '">' +
+    var fname = (lectureTitle(lec.id) || lec.title || "lecture").replace(/[\\/:*?"<>|]+/g, "") + ".pdf";
+    return '<p class="srcline"><a class="dlbtn" href="' + (lec.sourcePdf ? esc(lec.sourcePdf) : "https://drive.google.com/uc?export=download&amp;id=" + esc(id)) + '"' + (lec.sourcePdf ? ' data-pdf="' + esc(lec.sourcePdf) + '" data-name="' + esc(fname) + '" download="' + esc(fname) + '"' : ' target="_blank" rel="noopener"') + ' title="' + esc(lec.sourceFile || "") + '">' +
       '<svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg>' +
       "Download lecture" + (ppt ? " (PowerPoint)" : "") + "</a>" + (who ? '<span class="srcwho">' + esc(who) + "</span>" : "") + "</p>";
   }
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest("a[data-pdf]"); if (!a || !window.fetch || !window.Blob) return;
+    e.preventDefault(); if (a.dataset.busy) return;
+    var lab = a.lastChild, old = lab && lab.nodeType === 3 ? lab.nodeValue : null; a.dataset.busy = "1";
+    function say(t) { if (old !== null) lab.nodeValue = t; }
+    function done() { delete a.dataset.busy; if (old !== null) lab.nodeValue = old; }
+    say("Preparing the PDF…");
+    fetch(a.dataset.pdf).then(function (r) { if (!r.ok) throw new Error("net"); return r.blob(); }).then(function (b) {
+      var name = a.dataset.name || "lecture.pdf", file = null;
+      try { file = new File([b], name, { type: "application/pdf" }); } catch (err) {}
+      var touch = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1) || /Android/.test(navigator.userAgent);
+      if (touch && file && navigator.canShare && navigator.canShare({ files: [file] })) {
+        return navigator.share({ files: [file], title: name.replace(/\.pdf$/, "") }).catch(function (err) { if (!err || err.name !== "AbortError") throw err; });
+      }
+      var u = URL.createObjectURL(b), l = document.createElement("a"); l.href = u; l.download = name; document.body.appendChild(l); l.click(); l.remove();
+      setTimeout(function () { URL.revokeObjectURL(u); }, 60000);
+    }).then(done, function () { done(); window.open(a.getAttribute("href"), "_blank"); });
+  });
   function galleryImages(v) { return (v.images && v.images.length ? v.images : (v.image ? [v.image] : [])).filter(function (im) { return im && im.src; }); }
   function galleryHTML(v) {
     var ims = galleryImages(v); if (!ims.length) return "";

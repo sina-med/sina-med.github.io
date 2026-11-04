@@ -3,6 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "4 November 2026", items: [
+    "Fixed: Download lecture (PDF) on iPhone and iPad now opens the share sheet to save the file; on computers it downloads.",
     "Fixed: lectures in the cram plan open that lecture's questions instead of the whole subject.",
     "Added: Pituitary semiology and Diabetes semiology lectures (summary, 19 questions each with slides, flashcards).",
     "Added: past papers GI semiology midterm 2023 and Semiology I midterm 2022 as quizzes.",
