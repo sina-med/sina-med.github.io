@@ -665,6 +665,7 @@
     var COST = { "Free": "free", "Free trial": "trial", "Paid": "paid" };
     var html = '<div class="wrap wide"><p class="crumbs"><a href="#/">Home</a> / USMLE prep</p><h1>USMLE Step 1 prep</h1>' +
       '<p class="lede">Resources for students preparing for the USMLE Step 1 alongside the medical school curriculum. Start with the free ones; the paid ones are listed so you know what people mean when they mention them.</p>';
+    html += '<div class="usmle-drive usmle-ak"><div><h2>AnKing Step 1</h2><p>All 29,048 AnKing Step 1 cards as multiple-choice questions or Anki-style flashcards, with their pictures, by First Aid chapter. Private: you need the password.</p></div><a class="btn primary" href="#/anking">Open</a></div>';
     if (U.drive) html += '<div class="usmle-drive"><div><h2>Shared PDF folder</h2><p>High-yield PDFs and documents collected for the promo, all in one Google Drive folder. New files are added regularly.</p></div><a class="btn primary" href="' + esc(U.drive) + '" target="_blank" rel="noopener">Open the Drive folder</a></div>';
     U.sections.forEach(function (sec) {
       html += "<h2>" + esc(sec.title) + '</h2><ul class="apps-grid">' + sec.items.map(function (a) {
@@ -676,7 +677,6 @@
           '<div class="app-actions">' + a.links.map(function (l, n) { return '<a class="btn' + (n === 0 ? " primary" : "") + '" href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.label) + "</a>"; }).join("") + "</div></li>";
       }).join("") + "</ul>";
     });
-    html += '<div class="usmle-drive ak-card"><div><h2>AnKing Step 1 as questions</h2><p>The AnKing Step 1 cards turned into multiple-choice questions, with their pictures. Private: you need the password.</p></div><a class="btn primary" href="#/anking">Open</a></div>';
     html += '<p class="src" style="margin-top:1.6rem">Links open the official sites in a new tab. Suggestions for this page are welcome through the feedback form.</p>';
     setView(html + "</div>", "USMLE prep");
   }
