@@ -647,23 +647,28 @@ SINA.midterms = [
      "semio-gi-dysphagia",
      "semio-gi-gerd",
      "semio-gi-bleeding"
-    ]
+    ],
+    "tbc": true
    },
    {
     "name": "Endocrine",
     "items": [
      "semio-endo-pituitary",
      "semio-endo-thyroid",
-     "semio-endo-parathyroid",
      "semio-endo-adrenal",
-     "semio-endo-gonads",
-     "semio-endo-diabetes",
-     "semio-endo-lipids"
-    ]
+     "semio-endo-diabetes"
+    ],
+    "tbc": false
    }
   ],
-  "tbc": true,
-  "auto": false
+  "tbc": false,
+  "auto": false,
+  "notes": {
+   "semio-endo-pituitary": "acromegaly, prolactinoma, pituitary tumour (mass effect)",
+   "semio-endo-adrenal": "Cushing syndrome, adrenal insufficiency, phaeochromocytoma",
+   "semio-endo-diabetes": "the symptoms that reveal the disease"
+  },
+  "part": true
  },
  {
   "id": "physics1-biophys1-midterm",

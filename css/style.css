@@ -1659,3 +1659,4 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (max-width: 420px) { .hm-stats { grid-template-columns: repeat(2, 1fr); } }
 .hm-key { display: flex; align-items: center; justify-content: flex-end; gap: 3px; margin-top: .5rem; font-size: .68rem; color: var(--muted); }
 .ak-heat { margin-top: 1rem; }
+.mid-note { display: block; font-size: .8rem; color: var(--muted); font-weight: 400; margin-top: .15rem; }

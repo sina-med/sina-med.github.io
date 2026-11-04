@@ -3,6 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "4 November 2026", items: [
+    "Changed: Semiology midterm, Endocrine part set (thyroid; pituitary, adrenal and diabetes in part). Digestive part not announced yet.",
     "Added: Anki-style review heatmaps, for AnKing on its page and for lecture flashcards on My progress.",
     "Fixed: chapter picker in Mix several chapters overflowing the screen on phones; now a checklist.",
     "Added: pick parts of a chapter (Pathology, Physiology, Pharmacology...) in Mix several chapters.",

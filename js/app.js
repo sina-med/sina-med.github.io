@@ -1214,7 +1214,7 @@
     mids.forEach(function (m) {
       var n = 0; m.groups.forEach(function (g) { n += g.items.length; });
       var dl = midDaysLeft(m), cram = dl !== null && dl >= 0 && dl <= 7;
-      midHTML += '<div class="mid-card' + (cram ? " cram" + (dl <= 1 ? " cram-red" : "") : "") + '"><div class="mid-main"><p class="mid-eyebrow">' + (cram ? (dl === 0 ? "Midterm today" : dl === 1 ? "Midterm tomorrow" : "Midterm week") : "Upcoming") + '</p><h2>' + esc(m.title) + '</h2>' + midCountdown(m) + '<p class="meta">' + (m.tbc ? "Exact lectures not announced yet. For now this covers " + esc(midScope(m)) + "." : (n === 1 ? "1 lecture" : n + " lectures") + " on this exam.") + '</p><div class="row">' +
+      midHTML += '<div class="mid-card' + (cram ? " cram" + (dl <= 1 ? " cram-red" : "") : "") + '"><div class="mid-main"><p class="mid-eyebrow">' + (cram ? (dl === 0 ? "Midterm today" : dl === 1 ? "Midterm tomorrow" : "Midterm week") : "Upcoming") + '</p><h2>' + esc(m.title) + '</h2>' + midCountdown(m) + '<p class="meta">' + esc(midLine(m)) + '</p><div class="row">' +
         (n === 1 ? '<a class="btn primary" href="#/lecture/' + m.groups[0].items[0] + '">Revise the lecture</a>' : '<a class="btn primary" href="#/midterm">Revise the lectures</a>') + midSubs(m).map(function (sid) { var sb = subjectById(sid); return '<a class="btn" href="#/practice/' + sid + '/lectures/midterm">' + (midSubs(m).length > 1 && sb ? esc(sb.name) + " questions" : "Practice questions") + "</a>"; }).join("") +
         (midSubs(m).length === 1 && (S.papers || []).some(function (x) { return x.subject === m.subject; }) ? '<a class="btn" href="#/practice/' + m.subject + '/papers">Past papers as quizzes</a>' : "") + "</div></div>" + midWidgets(m) + (cram ? cramPlan(m, dl) : "") + "</div>";
     });
@@ -1245,6 +1245,13 @@
   /* Midterms */
   function progMidterms() { var t = today(); return (S.midterms || []).filter(function (m) { return (m.program || S.DEFAULT_PROGRAM) === PROG && (!m.date || m.date >= t); }); }
   function midSubs(m) { return m.subjects || [m.subject]; }
+  /* "Endocrine: 4 lectures set. Digestive: exact lectures not announced yet." */
+  function midLine(m) {
+    var n = 0; m.groups.forEach(function (g) { n += g.items.length; });
+    if (m.tbc) return "Exact lectures not announced yet. For now this covers " + midScope(m) + ".";
+    if (!m.part) return (n === 1 ? "1 lecture" : n + " lectures") + " on this exam.";
+    return m.groups.map(function (g) { return g.name + ": " + (g.tbc ? "exact lectures not announced yet" : g.items.length + (g.items.length === 1 ? " lecture set" : " lectures set")); }).join(". ") + ".";
+  }
   function midScope(m) {
     var subs = midSubs(m).map(subjectById).filter(Boolean), n = 0; m.groups.forEach(function (g) { n += g.items.length; });
     var what = m.auto ? "all of " + subs.map(function (x) { return x.name; }).join(" and ") : "the " + m.groups.map(function (g) { return g.name; }).join(" and ") + " chapter" + (m.groups.length > 1 ? "s" : "");
@@ -1263,12 +1270,14 @@
     ms.forEach(function (m) {
       var sb = subjectById(m.subject), n = 0;
       m.groups.forEach(function (g) { n += g.items.length; });
-      html += '<section class="midterm"><h2 class="group-title">' + esc(m.title) + '</h2>' + (m.tbc ? '<p class="meta">Exact lectures not announced yet. Until they are, this covers ' + esc(midScope(m)) + ".</p>" : '<p class="meta">' + (n === 1 ? "1 lecture" : n + " lectures") + (sb ? ' from <a href="#/subject/' + sb.id + '">' + esc(sb.name) + "</a>" : "") + (n === 1 ? ". Only this lecture is on this midterm.</p>" : ". Only these lectures are on this midterm.</p>")) + (m.practice ? '<p><a class="btn primary" href="' + esc(m.practice.url) + '">' + esc(m.practice.label) + "</a></p>" : "");
+      html += '<section class="midterm"><h2 class="group-title">' + esc(m.title) + '</h2>' + (m.part ? '<p class="meta">' + esc(midLine(m)) + "</p>" : m.tbc ? '<p class="meta">Exact lectures not announced yet. Until they are, this covers ' + esc(midScope(m)) + ".</p>" : '<p class="meta">' + (n === 1 ? "1 lecture" : n + " lectures") + (sb ? ' from <a href="#/subject/' + sb.id + '">' + esc(sb.name) + "</a>" : "") + (n === 1 ? ". Only this lecture is on this midterm.</p>" : ". Only these lectures are on this midterm.</p>")) + (m.practice ? '<p><a class="btn primary" href="' + esc(m.practice.url) + '">' + esc(m.practice.label) + "</a></p>" : "");
       m.groups.forEach(function (g) {
-        html += '<h3 class="mid-group">' + esc(g.name) + '</h3><ul class="lec-list">' + g.items.map(function (id) {
+        var tb = m.tbc || (m.part && g.tbc), nt = m.notes || {};
+        html += '<h3 class="mid-group">' + esc(g.name) + '</h3>' + (m.part && g.tbc ? '<p class="meta">Exact lectures not announced yet: for now, the whole chapter.</p>' : "") + '<ul class="lec-list">' + g.items.map(function (id) {
+          var note = nt[id] ? '<span class="mid-note">Only: ' + esc(nt[id]) + "</span>" : !tb && m.part ? '<span class="mid-note">Whole lecture</span>' : "";
           return S.lectures[id]
-            ? '<li><a href="#/lecture/' + id + '"><span>' + esc(lectureTitle(id)) + '</span><span class="pill mid">' + (m.tbc ? "Midterm scope" : "On the midterm") + "</span></a></li>"
-            : '<li><span class="soon"><span>' + esc(lectureTitle(id)) + '</span><span class="pill muted">Coming</span></span></li>';
+            ? '<li><a href="#/lecture/' + id + '"><span>' + esc(lectureTitle(id)) + note + '</span><span class="pill mid">' + (tb ? "Midterm scope" : "On the midterm") + "</span></a></li>"
+            : '<li><span class="soon"><span>' + esc(lectureTitle(id)) + note + '</span><span class="pill muted">Coming</span></span></li>';
         }).join("") + "</ul>";
       });
       html += "</section>";
@@ -3354,19 +3363,20 @@
         return S.subjects.filter(function (x) { return x.program === prog && x.groups && norm(x.name) === nm; })[0];
       }).filter(Boolean);
       if (!sbs.length) return;
-      var want = r.slice(4).map(norm).filter(Boolean), groups = [], byChapter = false;
+      /* a lecture cell can carry the part that is on the exam: "Pituitary semiology: acromegaly, prolactinoma" */
+      var want = [], wnote = {}, notes = {}, groups = [];
+      r.slice(4).forEach(function (c) { c = String(c || "").trim(); if (!c) return; var k = c.indexOf(":"), t = norm(k > 0 ? c.slice(0, k) : c); want.push(t); if (k > 0 && c.slice(k + 1).trim()) wnote[t] = c.slice(k + 1).trim(); });
       sbs.forEach(function (sb) { sb.groups.forEach(function (g) {
         var whole = !want.length || want.indexOf(norm(g.name)) > -1;
-        if (whole && want.length) byChapter = true;
-        var items = g.items.filter(function (it) { return whole || want.indexOf(norm(it.title)) > -1; }).map(function (it) { return it.id; });
-        if (items.length) groups.push({ name: sbs.length > 1 ? sb.name + ": " + g.name : g.name, items: items });
+        var items = g.items.filter(function (it) { return whole || want.indexOf(norm(it.title)) > -1; }).map(function (it) { if (wnote[norm(it.title)]) notes[it.id] = wnote[norm(it.title)]; return it.id; });
+        if (items.length) groups.push({ name: sbs.length > 1 ? sb.name + ": " + g.name : g.name, items: items, tbc: whole });
       }); });
       if (!groups.length) return;
       var raw = (r[3] || "").trim(), dm = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/.exec(raw), ym = /^(\d{4})[-\/](\d{1,2})[-\/](\d{1,2})$/.exec(raw);
       var d = ym ? ym[1] + "-" + p2(ym[2]) + "-" + p2(ym[3]) : dm ? dm[3] + "-" + p2(dm[2]) + "-" + p2(dm[1]) : "";
       out.push({ id: sbs.map(function (x) { return x.id; }).join("-") + "-midterm", program: prog, subject: sbs[0].id, subjects: sbs.map(function (x) { return x.id; }),
-        title: (r[2] || "").trim() || sbs.map(function (x) { return x.name; }).join(" and ") + " midterm", date: d, groups: groups,
-        tbc: !want.length || byChapter, auto: !want.length });
+        title: (r[2] || "").trim() || sbs.map(function (x) { return x.name; }).join(" and ") + " midterm", date: d, groups: groups, notes: notes,
+        tbc: groups.every(function (g) { return g.tbc; }), part: groups.some(function (g) { return g.tbc; }) && !groups.every(function (g) { return g.tbc; }), auto: !want.length });
     });
     /* rows without any lecture listed: keep only the next upcoming one of each year */
     var t = today();
