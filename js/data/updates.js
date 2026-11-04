@@ -3,8 +3,6 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "4 November 2026", items: [
-    "Changed: new password for the AnKing section (devices already unlocked stay unlocked).",
-    "Changed: AnKing Step 1 moved to the top of the USMLE prep page.",
     "Fixed: chapter picker in Mix several chapters overflowing the screen on phones; now a checklist.",
     "Added: pick parts of a chapter (Pathology, Physiology, Pharmacology...) in Mix several chapters.",
     "Added: AnKing progress tracker (cards learned, questions seen, accuracy, day streak, cards due over the next 7 days, progress by chapter).",
