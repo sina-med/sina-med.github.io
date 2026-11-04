@@ -664,7 +664,7 @@ SINA.midterms = [
    "biophys1"
   ],
   "title": "Physics/Biophysics midterm",
-  "date": "",
+  "date": "2026-11-10",
   "groups": [
    {
     "name": "Physics: General",

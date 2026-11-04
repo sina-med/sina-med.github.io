@@ -3,7 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "4 November 2026", items: [
-    "Added: upcoming midterms for 1st year (Physics and Biophysics) and 2nd year (Semiology, Digestive and Endocrine). Exact lectures not announced yet, so each covers the whole chapters for now.",
+    "Added: upcoming midterms on 10 November for 1st year (Physics and Biophysics) and 2nd year (Semiology, Digestive and Endocrine). Exact lectures not announced yet, so each covers the whole chapters for now.",
     "Changed: a midterm can now cover several subjects, and past midterms no longer show on the home page."
   ] },
   { date: "3 November 2026", items: [
