@@ -40,7 +40,15 @@ SINA.lectures["semio-cv-angina"] = {
  ],
  "visual": {
   "kind": "model",
-  "intro": ""
+  "intro": "",
+  "images": [
+   {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Diagram_of_the_human_heart_(cropped).svg?width=760",
+    "alt": "Chambers, valves and great vessels of the heart.",
+    "caption": "Chambers, valves and great vessels of the heart.",
+    "credit": "Via Wikimedia Commons (open licence; see Full size for author and licence)."
+   }
+  ]
  },
  "mcqs": [
   {
@@ -52,7 +60,19 @@ SINA.lectures["semio-cv-angina"] = {
     "Death of the heart"
    ],
    "answer": 0,
-   "why": "From Latin for strangling of the chest: chest pain from myocardial ischaemia."
+   "why": "From Latin for strangling of the chest: chest pain from myocardial ischaemia.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/02.jpg",
+     "lec": "Angina pectoris",
+     "n": 2
+    },
+    {
+     "src": "files/slides/semio-cv-angina/04.jpg",
+     "lec": "Angina pectoris",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "How may angina present in elderly patients?",
@@ -63,7 +83,14 @@ SINA.lectures["semio-cv-angina"] = {
     "Sudden loss of vision"
    ],
    "answer": 1,
-   "why": "Classically squeezing chest pain radiating to neck, jaw, arms, shoulders, back; in the elderly, stomach-area pain after meals; in women, burning or tenderness."
+   "why": "Classically squeezing chest pain radiating to neck, jaw, arms, shoulders, back; in the elderly, stomach-area pain after meals; in women, burning or tenderness.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/04.jpg",
+     "lec": "Angina pectoris",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "What separates angina from a heart attack?",
@@ -74,7 +101,14 @@ SINA.lectures["semio-cv-angina"] = {
     "Left arm pain"
    ],
    "answer": 2,
-   "why": "Angina is transient ischaemia without infarction; a heart attack is permanent damage."
+   "why": "Angina is transient ischaemia without infarction; a heart attack is permanent damage.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/05.jpg",
+     "lec": "Angina pectoris",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "What coronary stenosis typically causes stable angina?",
@@ -85,7 +119,14 @@ SINA.lectures["semio-cv-angina"] = {
     "Over 70 percent"
    ],
    "answer": 3,
-   "why": "Atherosclerotic plaque narrowing a coronary artery by more than 70 percent cannot meet demand on exertion."
+   "why": "Atherosclerotic plaque narrowing a coronary artery by more than 70 percent cannot meet demand on exertion.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/07.jpg",
+     "lec": "Angina pectoris",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "What relieves stable angina?",
@@ -96,7 +137,14 @@ SINA.lectures["semio-cv-angina"] = {
     "Exercise"
    ],
    "answer": 1,
-   "why": "Stable angina comes on with exercise or stress and is relieved by rest."
+   "why": "Stable angina comes on with exercise or stress and is relieved by rest.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/12.jpg",
+     "lec": "Angina pectoris",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which layer suffers ischaemia in stable angina?",
@@ -107,7 +155,14 @@ SINA.lectures["semio-cv-angina"] = {
     "The subendocardium"
    ],
    "answer": 3,
-   "why": "Stable angina causes subendocardial ischaemia, releasing adenosine and bradykinin, which cause pain."
+   "why": "Stable angina causes subendocardial ischaemia, releasing adenosine and bradykinin, which cause pain.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/11.jpg",
+     "lec": "Angina pectoris",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What ECG change occurs in stable angina?",
@@ -118,7 +173,19 @@ SINA.lectures["semio-cv-angina"] = {
     "Peaked T waves"
    ],
    "answer": 0,
-   "why": "Stable and unstable angina: ST depression (subendocardial). Prinzmetal: ST elevation (transmural)."
+   "why": "Stable and unstable angina: ST depression (subendocardial). Prinzmetal: ST elevation (transmural).",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/23.jpg",
+     "lec": "Angina pectoris",
+     "n": 23
+    },
+    {
+     "src": "files/slides/semio-cv-angina/24.jpg",
+     "lec": "Angina pectoris",
+     "n": 24
+    }
+   ]
   },
   {
    "q": "What causes unstable angina?",
@@ -129,7 +196,19 @@ SINA.lectures["semio-cv-angina"] = {
     "Anaemia"
    ],
    "answer": 2,
-   "why": "A thrombus on the plaque further narrows the artery, so pain occurs even at rest and does not go away."
+   "why": "A thrombus on the plaque further narrows the artery, so pain occurs even at rest and does not go away.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/07.jpg",
+     "lec": "Angina pectoris",
+     "n": 7
+    },
+    {
+     "src": "files/slides/semio-cv-angina/17.jpg",
+     "lec": "Angina pectoris",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Why is unstable angina an emergency?",
@@ -151,7 +230,19 @@ SINA.lectures["semio-cv-angina"] = {
     "A fresh clot"
    ],
    "answer": 0,
-   "why": "Vasospastic (Prinzmetal) angina comes from coronary artery spasm, with or without atherosclerosis."
+   "why": "Vasospastic (Prinzmetal) angina comes from coronary artery spasm, with or without atherosclerosis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/20.jpg",
+     "lec": "Angina pectoris",
+     "n": 20
+    },
+    {
+     "src": "files/slides/semio-cv-angina/19.jpg",
+     "lec": "Angina pectoris",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "When does Prinzmetal angina typically occur?",
@@ -162,7 +253,14 @@ SINA.lectures["semio-cv-angina"] = {
     "Only in winter"
    ],
    "answer": 2,
-   "why": "It can occur at rest, often at night, triggered by emotional stress, smoking or cocaine."
+   "why": "It can occur at rest, often at night, triggered by emotional stress, smoking or cocaine.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/19.jpg",
+     "lec": "Angina pectoris",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "What ECG change occurs in Prinzmetal angina?",
@@ -173,7 +271,14 @@ SINA.lectures["semio-cv-angina"] = {
     "A normal ECG"
    ],
    "answer": 1,
-   "why": "Transmural ischaemia gives ST elevation during attacks."
+   "why": "Transmural ischaemia gives ST elevation during attacks.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/19.jpg",
+     "lec": "Angina pectoris",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which drugs provoke spasm to diagnose Prinzmetal?",
@@ -184,7 +289,14 @@ SINA.lectures["semio-cv-angina"] = {
     "Ergonovine or ACh"
    ],
    "answer": 3,
-   "why": "A provocative test with ergonovine or acetylcholine."
+   "why": "A provocative test with ergonovine or acetylcholine.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/19.jpg",
+     "lec": "Angina pectoris",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "What is the sublingual treatment of angina?",
@@ -195,7 +307,19 @@ SINA.lectures["semio-cv-angina"] = {
     "Furosemide"
    ],
    "answer": 2,
-   "why": "Nitroglycerin under the tongue, plus long-acting nitrates, aspirin, beta blockers and calcium channel blockers."
+   "why": "Nitroglycerin under the tongue, plus long-acting nitrates, aspirin, beta blockers and calcium channel blockers.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/26.jpg",
+     "lec": "Angina pectoris",
+     "n": 26
+    },
+    {
+     "src": "files/slides/semio-cv-angina/27.jpg",
+     "lec": "Angina pectoris",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "What surgical options treat angina?",
@@ -206,7 +330,14 @@ SINA.lectures["semio-cv-angina"] = {
     "Heart transplant only"
    ],
    "answer": 0,
-   "why": "Coronary angioplasty and coronary bypass surgery."
+   "why": "Coronary angioplasty and coronary bypass surgery.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/27.jpg",
+     "lec": "Angina pectoris",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which treat angina? (choose all)",
@@ -220,7 +351,19 @@ SINA.lectures["semio-cv-angina"] = {
     0,
     1
    ],
-   "why": "Nitrates, aspirin, beta blockers and calcium channel blockers."
+   "why": "Nitrates, aspirin, beta blockers and calcium channel blockers.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-angina/26.jpg",
+     "lec": "Angina pectoris",
+     "n": 26
+    },
+    {
+     "src": "files/slides/semio-cv-angina/27.jpg",
+     "lec": "Angina pectoris",
+     "n": 27
+    }
+   ]
   }
  ],
  "cards": [

@@ -808,11 +808,6 @@ SINA.lectures["semio-endo-pituitary"] = {
      "src": "files/slides/semio-endo-pituitary/15.jpg",
      "lec": "Pituitary semiology",
      "n": 15
-    },
-    {
-     "src": "files/slides/semio-endo-pituitary/16.jpg",
-     "lec": "Pituitary semiology",
-     "n": 16
     }
    ]
   },
@@ -1821,11 +1816,6 @@ SINA.lectures["semio-endo-pituitary"] = {
      "src": "files/slides/semio-endo-pituitary/31.jpg",
      "lec": "Pituitary semiology",
      "n": 31
-    },
-    {
-     "src": "files/slides/semio-endo-pituitary/32.jpg",
-     "lec": "Pituitary semiology",
-     "n": 32
     }
    ]
   },
@@ -2129,11 +2119,6 @@ SINA.lectures["semio-endo-pituitary"] = {
     "High TSH is primary hypothyroidism. Prolactin is ambiguous (low, or high from stalk effect)."
    ],
    "slides": [
-    {
-     "src": "files/slides/semio-endo-pituitary/39.jpg",
-     "lec": "Pituitary semiology",
-     "n": 39
-    },
     {
      "src": "files/slides/semio-endo-pituitary/28.jpg",
      "lec": "Pituitary semiology",

@@ -138,9 +138,9 @@ SINA.lectures["semio-endo-adrenal"] = {
    "why": "Hypercortisolism causes osteoporosis.",
    "slides": [
     {
-     "src": "files/slides/semio-endo-adrenal/19.jpg",
+     "src": "files/slides/semio-endo-adrenal/p24.jpg",
      "lec": "Adrenal semiology",
-     "n": 19
+     "n": 24
     }
    ]
   },
@@ -214,11 +214,6 @@ SINA.lectures["semio-endo-adrenal"] = {
    "answer": 3,
    "why": "Cushing's disease is the pituitary cause; Cushing's syndrome is cortisol excess of any cause.",
    "slides": [
-    {
-     "src": "files/slides/semio-endo-adrenal/30.jpg",
-     "lec": "Adrenal semiology",
-     "n": 30
-    },
     {
      "src": "files/slides/semio-endo-adrenal/31.jpg",
      "lec": "Adrenal semiology",
@@ -1240,19 +1235,19 @@ SINA.lectures["semio-endo-adrenal"] = {
    ],
    "slides": [
     {
-     "src": "files/slides/semio-endo-adrenal/p62.jpg",
-     "lec": "Adrenal semiology",
-     "n": 62
-    },
-    {
-     "src": "files/slides/semio-endo-adrenal/p63.jpg",
-     "lec": "Adrenal semiology",
-     "n": 63
-    },
-    {
      "src": "files/slides/semio-endo-adrenal/p64.jpg",
      "lec": "Adrenal semiology",
      "n": 64
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p41.jpg",
+     "lec": "Adrenal semiology",
+     "n": 41
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p51.jpg",
+     "lec": "Adrenal semiology",
+     "n": 51
     }
    ]
   },
@@ -2114,11 +2109,6 @@ SINA.lectures["semio-endo-adrenal"] = {
      "src": "files/slides/semio-endo-adrenal/p52.jpg",
      "lec": "Adrenal semiology",
      "n": 52
-    },
-    {
-     "src": "files/slides/semio-endo-adrenal/p53.jpg",
-     "lec": "Adrenal semiology",
-     "n": 53
     }
    ]
   },

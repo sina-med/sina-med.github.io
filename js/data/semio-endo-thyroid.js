@@ -214,9 +214,9 @@ SINA.lectures["semio-endo-thyroid"] = {
    "why": "Clinically: thyrotoxicosis plus goitre plus exophthalmos.",
    "slides": [
     {
-     "src": "files/slides/semio-endo-thyroid/33.jpg",
+     "src": "files/slides/semio-endo-thyroid/p31.jpg",
      "lec": "Thyroid semiology",
-     "n": 33
+     "n": 31
     }
    ]
   },
@@ -239,21 +239,30 @@ SINA.lectures["semio-endo-thyroid"] = {
    ]
   },
   {
-   "q": "What is the Jod-Basedow effect?",
+   "q": "Per the slides, toxic multinodular goitre:",
    "options": [
-    "Hypothyroidism after iodine",
-    "Goitre from iodine lack",
-    "Hyperthyroidism after iodine",
-    "Eye disease in Graves'"
+    "Arises in older patients with a long-standing euthyroid multinodular goitre",
+    "Shows multiple functioning nodules or a patchy uptake on scintigraphy",
+    "Shows diffuse homogeneous hyperfixation on scintigraphy",
+    "Is diagnosed clinically by thyrotoxicosis, goitre and exophthalmos"
    ],
-   "answer": 2,
-   "why": "Hyperthyroidism after iodine or iodinated contrast, usually in autonomous nodules.",
+   "why": "Toxic multinodular goitre emerges slowly in older patients with a long-standing euthyroid multinodular goitre; scintigraphy shows multiple functioning nodules or an irregular, patchy distribution. Diffuse homogeneous hyperfixation and the triad with exophthalmos belong to Graves' disease.",
    "slides": [
     {
-     "src": "files/slides/semio-endo-thyroid/31.jpg",
+     "src": "files/slides/semio-endo-thyroid/p36.jpg",
      "lec": "Thyroid semiology",
-     "n": 31
+     "n": 36
     }
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "Correct: older patients, long-standing euthyroid MNG.",
+    "Correct: multiple functioning nodules or patchy distribution.",
+    "Wrong: diffuse homogeneous hyperfixation is Graves' disease.",
+    "Wrong: that triad is Graves' disease."
    ]
   },
   {
@@ -1126,11 +1135,6 @@ SINA.lectures["semio-endo-thyroid"] = {
      "src": "files/slides/semio-endo-thyroid/p45.jpg",
      "lec": "Thyroid semiology",
      "n": 45
-    },
-    {
-     "src": "files/slides/semio-endo-thyroid/p57.jpg",
-     "lec": "Thyroid semiology",
-     "n": 57
     }
    ]
   },
@@ -1243,11 +1247,6 @@ SINA.lectures["semio-endo-thyroid"] = {
      "src": "files/slides/semio-endo-thyroid/p48.jpg",
      "lec": "Thyroid semiology",
      "n": 48
-    },
-    {
-     "src": "files/slides/semio-endo-thyroid/p41.jpg",
-     "lec": "Thyroid semiology",
-     "n": 41
     }
    ]
   },

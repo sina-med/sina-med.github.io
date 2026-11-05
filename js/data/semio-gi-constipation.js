@@ -799,11 +799,6 @@ SINA.lectures["semio-gi-constipation"] = {
      "src": "files/slides/semio-gi-constipation/18.jpg",
      "lec": "Constipation",
      "n": 18
-    },
-    {
-     "src": "files/slides/semio-gi-constipation/24.jpg",
-     "lec": "Constipation",
-     "n": 24
     }
    ]
   },

@@ -41,7 +41,15 @@ SINA.lectures["semio-cv-lhf"] = {
  ],
  "visual": {
   "kind": "model",
-  "intro": ""
+  "intro": "",
+  "images": [
+   {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Diagram_of_the_human_heart_(cropped).svg?width=760",
+    "alt": "Chambers, valves and great vessels of the heart.",
+    "caption": "Chambers, valves and great vessels of the heart.",
+    "credit": "Via Wikimedia Commons (open licence; see Full size for author and licence)."
+   }
+  ]
  },
  "mcqs": [
   {
@@ -53,7 +61,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "The pericardium fills"
    ],
    "answer": 0,
-   "why": "The heart muscle does not pump blood as well as it should; blood backs up and fluid builds in the lungs."
+   "why": "The heart muscle does not pump blood as well as it should; blood backs up and fluid builds in the lungs.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/02.jpg",
+     "lec": "Left heart failure",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "Systolic heart failure means the heart cannot do what?",
@@ -64,7 +79,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Relax the aorta"
    ],
    "answer": 1,
-   "why": "Systolic: can't pump; stretched, thin chambers. Diastolic: can't fill; stiff, thick chambers."
+   "why": "Systolic: can't pump; stretched, thin chambers. Diastolic: can't fill; stiff, thick chambers.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/04.jpg",
+     "lec": "Left heart failure",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which chambers characterise diastolic failure?",
@@ -75,7 +97,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Calcified"
    ],
    "answer": 2,
-   "why": "Diastolic heart failure has stiff, thick walls that cannot fill."
+   "why": "Diastolic heart failure has stiff, thick walls that cannot fill.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/04.jpg",
+     "lec": "Left heart failure",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "How is stroke volume calculated?",
@@ -86,7 +115,19 @@ SINA.lectures["semio-cv-lhf"] = {
     "EDV minus ESV"
    ],
    "answer": 3,
-   "why": "Stroke volume = end-diastolic minus end-systolic volume: 135 minus 65 = 70 mL."
+   "why": "Stroke volume = end-diastolic minus end-systolic volume: 135 minus 65 = 70 mL.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/08.jpg",
+     "lec": "Left heart failure",
+     "n": 8
+    },
+    {
+     "src": "files/slides/semio-cv-lhf/09.jpg",
+     "lec": "Left heart failure",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "What is normal cardiac output?",
@@ -97,7 +138,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "About 50 mL per minute"
    ],
    "answer": 1,
-   "why": "Cardiac output = heart rate x stroke volume: 70 x 70 mL = 4.9 L/min."
+   "why": "Cardiac output = heart rate x stroke volume: 70 x 70 mL = 4.9 L/min.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/10.jpg",
+     "lec": "Left heart failure",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What is a normal ejection fraction?",
@@ -108,7 +156,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "64 to 70 percent"
    ],
    "answer": 3,
-   "why": "Normal about 64 to 70 percent; 40 to 50 is borderline; 40 percent or less is systolic failure."
+   "why": "Normal about 64 to 70 percent; 40 to 50 is borderline; 40 percent or less is systolic failure.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/11.jpg",
+     "lec": "Left heart failure",
+     "n": 11
+    }
+   ]
   },
   {
    "q": "What is the ejection fraction in diastolic failure?",
@@ -119,7 +174,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Over 95 percent"
    ],
    "answer": 0,
-   "why": "In diastolic failure the ejection fraction stays normal (about 64 percent), but stroke volume is still low because filling is reduced."
+   "why": "In diastolic failure the ejection fraction stays normal (about 64 percent), but stroke volume is still low because filling is reduced.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/13.jpg",
+     "lec": "Left heart failure",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "What does the Frank-Starling mechanism describe?",
@@ -130,7 +192,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Valves closing"
    ],
    "answer": 2,
-   "why": "Like a rubber band: more ventricular filling (preload) gives a larger stroke volume."
+   "why": "Like a rubber band: more ventricular filling (preload) gives a larger stroke volume.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/14.jpg",
+     "lec": "Left heart failure",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "How does long-standing hypertension cause heart failure?",
@@ -141,7 +210,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Hypertrophy, weakness"
    ],
    "answer": 3,
-   "why": "Higher arterial pressure makes pumping harder, causing hypertrophy, squeezed coronaries, higher oxygen demand and weaker contractions."
+   "why": "Higher arterial pressure makes pumping harder, causing hypertrophy, squeezed coronaries, higher oxygen demand and weaker contractions.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/17.jpg",
+     "lec": "Left heart failure",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "Which system causes fluid retention in heart failure?",
@@ -152,7 +228,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Insulin system"
    ],
    "answer": 0,
-   "why": "Low renal flow activates the renin-angiotensin-aldosterone system, retaining fluid to raise preload."
+   "why": "Low renal flow activates the renin-angiotensin-aldosterone system, retaining fluid to raise preload.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/19.jpg",
+     "lec": "Left heart failure",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which causes diastolic left heart failure?",
@@ -163,7 +246,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Hyperthyroidism"
    ],
    "answer": 2,
-   "why": "Diastolic causes: long-standing hypertension, aortic stenosis, hypertrophic and restrictive cardiomyopathy."
+   "why": "Diastolic causes: long-standing hypertension, aortic stenosis, hypertrophic and restrictive cardiomyopathy.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/19.jpg",
+     "lec": "Left heart failure",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "What is the main consequence of left heart failure?",
@@ -174,7 +264,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Jaundice"
    ],
    "answer": 1,
-   "why": "Blood backs up into the pulmonary veins, fluid leaks into the lungs: dyspnoea, orthopnoea and crackles."
+   "why": "Blood backs up into the pulmonary veins, fluid leaks into the lungs: dyspnoea, orthopnoea and crackles.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/02.jpg",
+     "lec": "Left heart failure",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "What is paroxysmal nocturnal dyspnoea?",
@@ -185,7 +282,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Waking breathless at night"
    ],
    "answer": 3,
-   "why": "The patient wakes 1 to 2 hours after falling asleep with air hunger or a feeling of drowning."
+   "why": "The patient wakes 1 to 2 hours after falling asleep with air hunger or a feeling of drowning.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/21.jpg",
+     "lec": "Left heart failure",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which sputum occurs in pulmonary oedema?",
@@ -196,7 +300,14 @@ SINA.lectures["semio-cv-lhf"] = {
     "Chocolate pus"
    ],
    "answer": 2,
-   "why": "Coughing up blood or bloody froth is a symptom of pulmonary oedema."
+   "why": "Coughing up blood or bloody froth is a symptom of pulmonary oedema.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/21.jpg",
+     "lec": "Left heart failure",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Which are signs of pulmonary oedema? (choose all)",
@@ -210,7 +321,14 @@ SINA.lectures["semio-cv-lhf"] = {
     0,
     1
    ],
-   "why": "Dyspnoea, orthopnoea, PND, crackles and frothy sputum."
+   "why": "Dyspnoea, orthopnoea, PND, crackles and frothy sputum.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-lhf/21.jpg",
+     "lec": "Left heart failure",
+     "n": 21
+    }
+   ]
   }
  ],
  "cards": [

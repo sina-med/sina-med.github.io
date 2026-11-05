@@ -41,7 +41,15 @@ SINA.lectures["semio-cv-rhf"] = {
  ],
  "visual": {
   "kind": "model",
-  "intro": ""
+  "intro": "",
+  "images": [
+   {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Diagram_of_the_human_heart_(cropped).svg?width=760",
+    "alt": "Chambers, valves and great vessels of the heart.",
+    "caption": "Chambers, valves and great vessels of the heart.",
+    "credit": "Via Wikimedia Commons (open licence; see Full size for author and licence)."
+   }
+  ]
  },
  "mcqs": [
   {
@@ -53,7 +61,19 @@ SINA.lectures["semio-cv-rhf"] = {
     "Hyperthyroidism"
    ],
    "answer": 0,
-   "why": "Right heart failure is often caused by left heart failure, making it biventricular."
+   "why": "Right heart failure is often caused by left heart failure, making it biventricular.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/04.jpg",
+     "lec": "Right heart failure",
+     "n": 4
+    },
+    {
+     "src": "files/slides/semio-cv-rhf/06.jpg",
+     "lec": "Right heart failure",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "How does left heart failure strain the right ventricle?",
@@ -64,7 +84,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "It blocks the coronaries"
    ],
    "answer": 1,
-   "why": "Backed-up blood raises pulmonary artery pressure, so the right ventricle must pump harder."
+   "why": "Backed-up blood raises pulmonary artery pressure, so the right ventricle must pump harder.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/04.jpg",
+     "lec": "Right heart failure",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which shunt direction occurs in septal defects initially?",
@@ -75,7 +102,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "No shunt"
    ],
    "answer": 2,
-   "why": "Blood flows from the high-pressure left side to the low-pressure right side through atrial or ventricular septal defects, overloading the right heart."
+   "why": "Blood flows from the high-pressure left side to the low-pressure right side through atrial or ventricular septal defects, overloading the right heart.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/06.jpg",
+     "lec": "Right heart failure",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "How does chronic lung disease cause right heart failure?",
@@ -86,7 +120,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Hypoxic vasoconstriction"
    ],
    "answer": 3,
-   "why": "Hypoxia constricts pulmonary arterioles, raising pulmonary pressure and causing right ventricular hypertrophy and failure: cor pulmonale."
+   "why": "Hypoxia constricts pulmonary arterioles, raising pulmonary pressure and causing right ventricular hypertrophy and failure: cor pulmonale.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/16.jpg",
+     "lec": "Right heart failure",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "What is right heart failure from lung disease called?",
@@ -97,7 +138,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Dressler syndrome"
    ],
    "answer": 1,
-   "why": "Right heart failure secondary to chronic pulmonary problems is cor pulmonale."
+   "why": "Right heart failure secondary to chronic pulmonary problems is cor pulmonale.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/16.jpg",
+     "lec": "Right heart failure",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which blood change accompanies chronic hypoxia?",
@@ -108,7 +156,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Polycythaemia"
    ],
    "answer": 3,
-   "why": "Chronic hypoxia leads to polycythaemia, along with pulmonary hypertension, systemic inflammation and endothelial dysfunction."
+   "why": "Chronic hypoxia leads to polycythaemia, along with pulmonary hypertension, systemic inflammation and endothelial dysfunction.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/12.jpg",
+     "lec": "Right heart failure",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Which is a sign of severe hypoxia?",
@@ -119,7 +174,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Calm alertness"
    ],
    "answer": 0,
-   "why": "Severe hypoxia: tachycardia, tachypnoea, bradycardia, extreme restlessness and cyanosis."
+   "why": "Severe hypoxia: tachycardia, tachypnoea, bradycardia, extreme restlessness and cyanosis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/13.jpg",
+     "lec": "Right heart failure",
+     "n": 13
+    }
+   ]
   },
   {
    "q": "Where does systemic venous congestion show first in the neck?",
@@ -130,7 +192,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Tracheal shift"
    ],
    "answer": 2,
-   "why": "Backed-up systemic venous blood distends the jugular veins."
+   "why": "Backed-up systemic venous blood distends the jugular veins.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/16.jpg",
+     "lec": "Right heart failure",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "What can long-standing hepatic congestion lead to?",
@@ -141,7 +210,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Cardiac cirrhosis"
    ],
    "answer": 3,
-   "why": "Painful hepatosplenomegaly can progress to cardiac cirrhosis and liver failure."
+   "why": "Painful hepatosplenomegaly can progress to cardiac cirrhosis and liver failure.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/14.jpg",
+     "lec": "Right heart failure",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Where does oedema collect when a patient lies down?",
@@ -152,7 +228,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "The hands"
    ],
    "answer": 0,
-   "why": "Gravity: ankles and legs when standing, the sacrum when lying down."
+   "why": "Gravity: ankles and legs when standing, the sacrum when lying down.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/15.jpg",
+     "lec": "Right heart failure",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "How deep is a grade 3 pitting oedema?",
@@ -163,7 +246,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "8 mm"
    ],
    "answer": 2,
-   "why": "Grade 1: 2 mm. Grade 2: 3 to 4 mm. Grade 3: 5 to 6 mm. Grade 4: 8 mm."
+   "why": "Grade 1: 2 mm. Grade 2: 3 to 4 mm. Grade 3: 5 to 6 mm. Grade 4: 8 mm.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/15.jpg",
+     "lec": "Right heart failure",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which fluid collection fills the peritoneum in RHF?",
@@ -174,7 +264,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Haemarthrosis"
    ],
    "answer": 1,
-   "why": "The peritoneal space takes up a lot of fluid: ascites."
+   "why": "The peritoneal space takes up a lot of fluid: ascites.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/14.jpg",
+     "lec": "Right heart failure",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Which GI symptoms occur in right heart failure?",
@@ -185,7 +282,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Anorexia, GI distress"
    ],
    "answer": 3,
-   "why": "GI tract congestion causes anorexia, GI distress and weight loss."
+   "why": "GI tract congestion causes anorexia, GI distress and weight loss.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/19.jpg",
+     "lec": "Right heart failure",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which is a left, not right, heart failure sign?",
@@ -196,7 +300,14 @@ SINA.lectures["semio-cv-rhf"] = {
     "Hepatomegaly"
    ],
    "answer": 2,
-   "why": "Left: pulmonary congestion, orthopnoea, PND, frothy cough. Right: peripheral congestion, oedema, ascites, liver congestion."
+   "why": "Left: pulmonary congestion, orthopnoea, PND, frothy cough. Right: peripheral congestion, oedema, ascites, liver congestion.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/19.jpg",
+     "lec": "Right heart failure",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "Which cause right heart failure? (choose all)",
@@ -210,7 +321,19 @@ SINA.lectures["semio-cv-rhf"] = {
     0,
     1
    ],
-   "why": "Left heart failure, septal defects and chronic lung disease."
+   "why": "Left heart failure, septal defects and chronic lung disease.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-rhf/06.jpg",
+     "lec": "Right heart failure",
+     "n": 6
+    },
+    {
+     "src": "files/slides/semio-cv-rhf/09.jpg",
+     "lec": "Right heart failure",
+     "n": 9
+    }
+   ]
   }
  ],
  "cards": [

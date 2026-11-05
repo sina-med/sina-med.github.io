@@ -39,7 +39,21 @@ SINA.lectures["semio-cv-revision"] = {
  ],
  "visual": {
   "kind": "model",
-  "intro": ""
+  "intro": "",
+  "images": [
+   {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Diagram_of_the_human_heart_(cropped).svg?width=760",
+    "alt": "Chambers, valves and great vessels of the heart.",
+    "caption": "Chambers, valves and great vessels of the heart.",
+    "credit": "Via Wikimedia Commons (open licence; see Full size for author and licence)."
+   },
+   {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/SinusRhythmLabels.svg?width=760",
+    "alt": "Normal ECG complex with P wave, QRS and T wave labelled.",
+    "caption": "Normal ECG complex with P wave, QRS and T wave labelled.",
+    "credit": "Via Wikimedia Commons (open licence; see Full size for author and licence)."
+   }
+  ]
  },
  "mcqs": [
   {
@@ -51,7 +65,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Q = ΔP + R"
    ],
    "answer": 0,
-   "why": "Flow equals the pressure difference divided by resistance."
+   "why": "Flow equals the pressure difference divided by resistance.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/03.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "If resistance rises at constant pressure, what happens?",
@@ -62,7 +83,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Nothing changes"
    ],
    "answer": 1,
-   "why": "From Q = ΔP / R, higher resistance at the same pressure means lower flow."
+   "why": "From Q = ΔP / R, higher resistance at the same pressure means lower flow.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/03.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "When does left coronary flow mainly occur?",
@@ -73,7 +101,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Only in exercise"
    ],
    "answer": 2,
-   "why": "Left coronary flow peaks in diastole, when the contracting muscle no longer compresses the vessels."
+   "why": "Left coronary flow peaks in diastole, when the contracting muscle no longer compresses the vessels.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/15.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 15
+    }
+   ]
   },
   {
    "q": "Which substance relaxes vascular smooth muscle?",
@@ -84,7 +119,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Nitric oxide"
    ],
    "answer": 3,
-   "why": "Endothelial nitric oxide relaxes smooth muscle; endothelin-1, angiotensin II and thromboxane A2 constrict it."
+   "why": "Endothelial nitric oxide relaxes smooth muscle; endothelin-1, angiotensin II and thromboxane A2 constrict it.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/19.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 19
+    }
+   ]
   },
   {
    "q": "What does endothelial dysfunction lead to?",
@@ -106,7 +148,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Cardiovascular disease"
    ],
    "answer": 3,
-   "why": "Cardiovascular disease causes about 17.7 million deaths a year."
+   "why": "Cardiovascular disease causes about 17.7 million deaths a year.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/28.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "In high-income countries, which kills more?",
@@ -117,7 +166,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Trauma"
    ],
    "answer": 0,
-   "why": "In high-income countries cancer causes twice as many deaths as cardiovascular disease."
+   "why": "In high-income countries cancer causes twice as many deaths as cardiovascular disease.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/28.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "What share of cardiovascular disease is due to modifiable risk factors?",
@@ -128,7 +184,14 @@ SINA.lectures["semio-cv-revision"] = {
     "About 50 percent"
    ],
    "answer": 2,
-   "why": "Over 70 percent of cardiovascular disease worldwide is caused by modifiable risk factors (PURE study)."
+   "why": "Over 70 percent of cardiovascular disease worldwide is caused by modifiable risk factors (PURE study).",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/29.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which is a metabolic cardiovascular risk factor?",
@@ -139,7 +202,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Hypertension"
    ],
    "answer": 3,
-   "why": "Metabolic: hypertension, diabetes, cholesterol, waist-to-hip ratio. Others: tobacco, alcohol, poor diet, low physical activity, air pollution, depression."
+   "why": "Metabolic: hypertension, diabetes, cholesterol, waist-to-hip ratio. Others: tobacco, alcohol, poor diet, low physical activity, air pollution, depression.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/29.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which drive mortality in low-income but not high-income countries?",
@@ -150,7 +220,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Obesity on its own"
    ],
    "answer": 0,
-   "why": "Poor diet, low education, household air pollution and low strength are major drivers in low-income countries."
+   "why": "Poor diet, low education, household air pollution and low strength are major drivers in low-income countries.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/29.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 29
+    }
+   ]
   },
   {
    "q": "Which angina type gives ST elevation?",
@@ -161,7 +238,14 @@ SINA.lectures["semio-cv-revision"] = {
     "Microvascular"
    ],
    "answer": 2,
-   "why": "Transmural ischaemia from spasm gives ST elevation; stable and unstable give ST depression."
+   "why": "Transmural ischaemia from spasm gives ST elevation; stable and unstable give ST depression.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/27.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which heart failure has stiff, thick chambers?",
@@ -172,7 +256,14 @@ SINA.lectures["semio-cv-revision"] = {
     "High-output"
    ],
    "answer": 1,
-   "why": "Diastolic: can't fill, stiff thick chambers. Systolic: can't pump, stretched thin chambers."
+   "why": "Diastolic: can't fill, stiff thick chambers. Systolic: can't pump, stretched thin chambers.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/04.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 4
+    }
+   ]
   },
   {
    "q": "Which are modifiable risk factors? (choose all)",
@@ -186,7 +277,14 @@ SINA.lectures["semio-cv-revision"] = {
     0,
     1
    ],
-   "why": "Tobacco, hypertension, diabetes, cholesterol, diet, activity; age and sex are not modifiable."
+   "why": "Tobacco, hypertension, diabetes, cholesterol, diet, activity; age and sex are not modifiable.",
+   "slides": [
+    {
+     "src": "files/slides/semio-cv-revision/29.jpg",
+     "lec": "Cardiovascular revision",
+     "n": 29
+    }
+   ]
   }
  ],
  "cards": [

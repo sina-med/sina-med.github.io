@@ -2714,9 +2714,9 @@ SINA.lectures["semio-cv-lhf"] = {
    "why": "Normal about 64 to 70 percent; 40 to 50 is borderline; 40 percent or less is systolic failure.",
    "slides": [
     {
-     "src": "files/slides/semio-cv-lhf/09.jpg",
+     "src": "files/slides/semio-cv-lhf/11.jpg",
      "lec": "Left heart failure",
-     "n": 9
+     "n": 11
     }
    ]
   },
@@ -3067,14 +3067,9 @@ SINA.lectures["semio-cv-rhf"] = {
    "why": "Backed-up blood raises pulmonary artery pressure, so the right ventricle must pump harder.",
    "slides": [
     {
-     "src": "files/slides/semio-cv-rhf/02.jpg",
+     "src": "files/slides/semio-cv-rhf/04.jpg",
      "lec": "Right heart failure",
-     "n": 2
-    },
-    {
-     "src": "files/slides/semio-cv-rhf/03.jpg",
-     "lec": "Right heart failure",
-     "n": 3
+     "n": 4
     }
    ]
   },
@@ -3546,11 +3541,6 @@ SINA.lectures["semio-cv-angina"] = {
      "src": "files/slides/semio-cv-angina/12.jpg",
      "lec": "Angina pectoris",
      "n": 12
-    },
-    {
-     "src": "files/slides/semio-cv-angina/18.jpg",
-     "lec": "Angina pectoris",
-     "n": 18
     }
    ]
   },
@@ -3641,14 +3631,14 @@ SINA.lectures["semio-cv-angina"] = {
    "why": "Vasospastic (Prinzmetal) angina comes from coronary artery spasm, with or without atherosclerosis.",
    "slides": [
     {
-     "src": "files/slides/semio-cv-angina/07.jpg",
+     "src": "files/slides/semio-cv-angina/20.jpg",
      "lec": "Angina pectoris",
-     "n": 7
+     "n": 20
     },
     {
-     "src": "files/slides/semio-cv-angina/09.jpg",
+     "src": "files/slides/semio-cv-angina/19.jpg",
      "lec": "Angina pectoris",
-     "n": 9
+     "n": 19
     }
    ]
   },
@@ -4455,11 +4445,6 @@ SINA.lectures["semio-cv-revision"] = {
    "why": "Over 70 percent of cardiovascular disease worldwide is caused by modifiable risk factors (PURE study).",
    "slides": [
     {
-     "src": "files/slides/semio-cv-revision/28.jpg",
-     "lec": "Cardiovascular revision",
-     "n": 28
-    },
-    {
      "src": "files/slides/semio-cv-revision/29.jpg",
      "lec": "Cardiovascular revision",
      "n": 29
@@ -5118,11 +5103,6 @@ SINA.lectures["semio-gi-exam"] = {
      "src": "files/slides/semio-gi-exam/05.jpg",
      "lec": "Digestive physical examination",
      "n": 5
-    },
-    {
-     "src": "files/slides/semio-gi-exam/08.jpg",
-     "lec": "Digestive physical examination",
-     "n": 8
     }
    ]
   },
@@ -7768,26 +7748,30 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
    ]
   },
   {
-   "q": "HMG with splenomegaly and collaterals suggests?",
+   "q": "Per the clinical orientation table, a hepatomegaly due to cirrhosis is typically:",
    "options": [
-    "Heart failure",
-    "Liver abscess",
-    "Wilson's disease",
-    "Cirrhosis"
+    "Firm or hard in consistency",
+    "Irregular or nodular at the surface",
+    "Soft with a smooth surface",
+    "Intensely painful"
    ],
-   "answer": 3,
-   "why": "Hepatomegaly, splenomegaly and collateral veins point to cirrhosis with portal hypertension.",
+   "why": "Clinical orientation table: cirrhosis gives a firm or hard liver with a sharp or irregular border, an irregular or nodular surface and no pain. A soft, smooth, painful liver is cardiac; intense pain points to an abscess.",
    "slides": [
     {
-     "src": "files/slides/semio-gi-hepatomegaly/12.jpg",
+     "src": "files/slides/semio-gi-hepatomegaly/23.jpg",
      "lec": "Hepatomegaly",
-     "n": 12
-    },
-    {
-     "src": "files/slides/semio-gi-hepatomegaly/27.jpg",
-     "lec": "Hepatomegaly",
-     "n": 27
+     "n": 23
     }
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "Correct: firm or hard.",
+    "Correct: irregular or nodular surface.",
+    "Wrong: soft and smooth fits the cardiac liver.",
+    "Wrong: pain is absent in cirrhosis; intense pain suggests an abscess."
    ]
   },
   {
@@ -8745,11 +8729,6 @@ SINA.lectures["semio-gi-constipation"] = {
      "src": "files/slides/semio-gi-constipation/18.jpg",
      "lec": "Constipation",
      "n": 18
-    },
-    {
-     "src": "files/slides/semio-gi-constipation/24.jpg",
-     "lec": "Constipation",
-     "n": 24
     }
    ]
   },
@@ -10009,9 +9988,9 @@ SINA.lectures["semio-endo-thyroid"] = {
    "why": "Clinically: thyrotoxicosis plus goitre plus exophthalmos.",
    "slides": [
     {
-     "src": "files/slides/semio-endo-thyroid/33.jpg",
+     "src": "files/slides/semio-endo-thyroid/p31.jpg",
      "lec": "Thyroid semiology",
-     "n": 33
+     "n": 31
     }
    ]
   },
@@ -10034,21 +10013,30 @@ SINA.lectures["semio-endo-thyroid"] = {
    ]
   },
   {
-   "q": "What is the Jod-Basedow effect?",
+   "q": "Per the slides, toxic multinodular goitre:",
    "options": [
-    "Hypothyroidism after iodine",
-    "Goitre from iodine lack",
-    "Hyperthyroidism after iodine",
-    "Eye disease in Graves'"
+    "Arises in older patients with a long-standing euthyroid multinodular goitre",
+    "Shows multiple functioning nodules or a patchy uptake on scintigraphy",
+    "Shows diffuse homogeneous hyperfixation on scintigraphy",
+    "Is diagnosed clinically by thyrotoxicosis, goitre and exophthalmos"
    ],
-   "answer": 2,
-   "why": "Hyperthyroidism after iodine or iodinated contrast, usually in autonomous nodules.",
+   "why": "Toxic multinodular goitre emerges slowly in older patients with a long-standing euthyroid multinodular goitre; scintigraphy shows multiple functioning nodules or an irregular, patchy distribution. Diffuse homogeneous hyperfixation and the triad with exophthalmos belong to Graves' disease.",
    "slides": [
     {
-     "src": "files/slides/semio-endo-thyroid/31.jpg",
+     "src": "files/slides/semio-endo-thyroid/p36.jpg",
      "lec": "Thyroid semiology",
-     "n": 31
+     "n": 36
     }
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "Correct: older patients, long-standing euthyroid MNG.",
+    "Correct: multiple functioning nodules or patchy distribution.",
+    "Wrong: diffuse homogeneous hyperfixation is Graves' disease.",
+    "Wrong: that triad is Graves' disease."
    ]
   },
   {
@@ -10921,11 +10909,6 @@ SINA.lectures["semio-endo-thyroid"] = {
      "src": "files/slides/semio-endo-thyroid/p45.jpg",
      "lec": "Thyroid semiology",
      "n": 45
-    },
-    {
-     "src": "files/slides/semio-endo-thyroid/p57.jpg",
-     "lec": "Thyroid semiology",
-     "n": 57
     }
    ]
   },
@@ -11038,11 +11021,6 @@ SINA.lectures["semio-endo-thyroid"] = {
      "src": "files/slides/semio-endo-thyroid/p48.jpg",
      "lec": "Thyroid semiology",
      "n": 48
-    },
-    {
-     "src": "files/slides/semio-endo-thyroid/p41.jpg",
-     "lec": "Thyroid semiology",
-     "n": 41
     }
    ]
   },
@@ -11505,9 +11483,9 @@ SINA.lectures["semio-endo-adrenal"] = {
    "why": "Hypercortisolism causes osteoporosis.",
    "slides": [
     {
-     "src": "files/slides/semio-endo-adrenal/19.jpg",
+     "src": "files/slides/semio-endo-adrenal/p24.jpg",
      "lec": "Adrenal semiology",
-     "n": 19
+     "n": 24
     }
    ]
   },
@@ -11581,11 +11559,6 @@ SINA.lectures["semio-endo-adrenal"] = {
    "answer": 3,
    "why": "Cushing's disease is the pituitary cause; Cushing's syndrome is cortisol excess of any cause.",
    "slides": [
-    {
-     "src": "files/slides/semio-endo-adrenal/30.jpg",
-     "lec": "Adrenal semiology",
-     "n": 30
-    },
     {
      "src": "files/slides/semio-endo-adrenal/31.jpg",
      "lec": "Adrenal semiology",
@@ -12607,19 +12580,19 @@ SINA.lectures["semio-endo-adrenal"] = {
    ],
    "slides": [
     {
-     "src": "files/slides/semio-endo-adrenal/p62.jpg",
-     "lec": "Adrenal semiology",
-     "n": 62
-    },
-    {
-     "src": "files/slides/semio-endo-adrenal/p63.jpg",
-     "lec": "Adrenal semiology",
-     "n": 63
-    },
-    {
      "src": "files/slides/semio-endo-adrenal/p64.jpg",
      "lec": "Adrenal semiology",
      "n": 64
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p41.jpg",
+     "lec": "Adrenal semiology",
+     "n": 41
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p51.jpg",
+     "lec": "Adrenal semiology",
+     "n": 51
     }
    ]
   },
@@ -13481,11 +13454,6 @@ SINA.lectures["semio-endo-adrenal"] = {
      "src": "files/slides/semio-endo-adrenal/p52.jpg",
      "lec": "Adrenal semiology",
      "n": 52
-    },
-    {
-     "src": "files/slides/semio-endo-adrenal/p53.jpg",
-     "lec": "Adrenal semiology",
-     "n": 53
     }
    ]
   },
@@ -19685,11 +19653,6 @@ SINA.lectures["semio-endo-pituitary"] = {
      "src": "files/slides/semio-endo-pituitary/15.jpg",
      "lec": "Pituitary semiology",
      "n": 15
-    },
-    {
-     "src": "files/slides/semio-endo-pituitary/16.jpg",
-     "lec": "Pituitary semiology",
-     "n": 16
     }
    ]
   },
@@ -20698,11 +20661,6 @@ SINA.lectures["semio-endo-pituitary"] = {
      "src": "files/slides/semio-endo-pituitary/31.jpg",
      "lec": "Pituitary semiology",
      "n": 31
-    },
-    {
-     "src": "files/slides/semio-endo-pituitary/32.jpg",
-     "lec": "Pituitary semiology",
-     "n": 32
     }
    ]
   },
@@ -21006,11 +20964,6 @@ SINA.lectures["semio-endo-pituitary"] = {
     "High TSH is primary hypothyroidism. Prolactin is ambiguous (low, or high from stalk effect)."
    ],
    "slides": [
-    {
-     "src": "files/slides/semio-endo-pituitary/39.jpg",
-     "lec": "Pituitary semiology",
-     "n": 39
-    },
     {
      "src": "files/slides/semio-endo-pituitary/28.jpg",
      "lec": "Pituitary semiology",
@@ -21592,11 +21545,6 @@ SINA.lectures["semio-endo-diabetes"] = {
      "src": "files/slides/semio-endo-diabetes/04.jpg",
      "lec": "Diabetes semiology",
      "n": 4
-    },
-    {
-     "src": "files/slides/semio-endo-diabetes/15.jpg",
-     "lec": "Diabetes semiology",
-     "n": 15
     }
    ]
   },
@@ -23475,11 +23423,6 @@ SINA.lectures["semio-endo-diabetes"] = {
      "src": "files/slides/semio-endo-diabetes/57.jpg",
      "lec": "Diabetes semiology",
      "n": 57
-    },
-    {
-     "src": "files/slides/semio-endo-diabetes/56.jpg",
-     "lec": "Diabetes semiology",
-     "n": 56
     }
    ]
   },

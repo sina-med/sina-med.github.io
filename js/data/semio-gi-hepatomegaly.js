@@ -41,7 +41,15 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
  ],
  "visual": {
   "kind": "model",
-  "intro": ""
+  "intro": "",
+  "images": [
+   {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Digestive_system_diagram_en.svg?width=760",
+    "alt": "The digestive system, labelled.",
+    "caption": "The digestive system, labelled.",
+    "credit": "Via Wikimedia Commons (open licence; see Full size for author and licence)."
+   }
+  ]
  },
  "mcqs": [
   {
@@ -53,7 +61,14 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "A normal finding"
    ],
    "answer": 0,
-   "why": "Enlargement of the whole liver or part of it; diagnosis is clinical."
+   "why": "Enlargement of the whole liver or part of it; diagnosis is clinical.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/10.jpg",
+     "lec": "Hepatomegaly",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "What is the normal liver span on the midclavicular line?",
@@ -64,7 +79,14 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Exactly 20 cm"
    ],
    "answer": 1,
-   "why": "The upper limit is found by percussion from top down; normal right liver span is under 12 cm."
+   "why": "The upper limit is found by percussion from top down; normal right liver span is under 12 cm.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/16.jpg",
+     "lec": "Hepatomegaly",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "What confirms hepatomegaly first-line?",
@@ -75,7 +97,14 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "A chest X-ray film"
    ],
    "answer": 2,
-   "why": "Abdominal ultrasound is first-line, then CT if needed."
+   "why": "Abdominal ultrasound is first-line, then CT if needed.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/28.jpg",
+     "lec": "Hepatomegaly",
+     "n": 28
+    }
+   ]
   },
   {
    "q": "Which is a differential of right-sided hepatomegaly?",
@@ -86,7 +115,14 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Riedel lobe"
    ],
    "answer": 3,
-   "why": "Right: liver ptosis, Riedel lobe, colon flexure, right kidney, gallbladder. Left: stomach, transverse colon, pancreatic body."
+   "why": "Right: liver ptosis, Riedel lobe, colon flexure, right kidney, gallbladder. Left: stomach, transverse colon, pancreatic body.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/21.jpg",
+     "lec": "Hepatomegaly",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "What liver is hard, irregular and nodular without pain?",
@@ -97,7 +133,19 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Acute hepatitis"
    ],
    "answer": 1,
-   "why": "Cirrhosis: firm to hard, sharp irregular border, nodular surface, painless."
+   "why": "Cirrhosis: firm to hard, sharp irregular border, nodular surface, painless.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/18.jpg",
+     "lec": "Hepatomegaly",
+     "n": 18
+    },
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/23.jpg",
+     "lec": "Hepatomegaly",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "What liver is soft, smooth and painful?",
@@ -108,7 +156,14 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Cardiac congestion"
    ],
    "answer": 3,
-   "why": "Cardiac: diffuse enlargement, soft to firm, regular border, smooth, painful."
+   "why": "Cardiac: diffuse enlargement, soft to firm, regular border, smooth, painful.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/23.jpg",
+     "lec": "Hepatomegaly",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which liver is hard, nodular and painful?",
@@ -119,7 +174,14 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Normal liver"
    ],
    "answer": 0,
-   "why": "Neoplastic: diffuse or localised, hard, irregular, nodular, painful."
+   "why": "Neoplastic: diffuse or localised, hard, irregular, nodular, painful.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/23.jpg",
+     "lec": "Hepatomegaly",
+     "n": 23
+    }
+   ]
   },
   {
    "q": "Which causes intense liver pain?",
@@ -130,18 +192,41 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Haemochromatosis"
    ],
    "answer": 2,
-   "why": "Abscess: localised, firm, smooth, intensely painful."
+   "why": "Abscess: localised, firm, smooth, intensely painful.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/23.jpg",
+     "lec": "Hepatomegaly",
+     "n": 23
+    }
+   ]
   },
   {
-   "q": "HMG with splenomegaly and collaterals suggests?",
+   "q": "Per the clinical orientation table, a hepatomegaly due to cirrhosis is typically:",
    "options": [
-    "Heart failure",
-    "Liver abscess",
-    "Wilson's disease",
-    "Cirrhosis"
+    "Firm or hard in consistency",
+    "Irregular or nodular at the surface",
+    "Soft with a smooth surface",
+    "Intensely painful"
    ],
-   "answer": 3,
-   "why": "Hepatomegaly, splenomegaly and collateral veins point to cirrhosis with portal hypertension."
+   "why": "Clinical orientation table: cirrhosis gives a firm or hard liver with a sharp or irregular border, an irregular or nodular surface and no pain. A soft, smooth, painful liver is cardiac; intense pain points to an abscess.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/23.jpg",
+     "lec": "Hepatomegaly",
+     "n": 23
+    }
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "Correct: firm or hard.",
+    "Correct: irregular or nodular surface.",
+    "Wrong: soft and smooth fits the cardiac liver.",
+    "Wrong: pain is absent in cirrhosis; intense pain suggests an abscess."
+   ]
   },
   {
    "q": "Painful HMG with hepatojugular reflux suggests?",
@@ -152,7 +237,19 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Abscess"
    ],
    "answer": 0,
-   "why": "A painful liver with hepatojugular reflux points to cardiac congestion."
+   "why": "A painful liver with hepatojugular reflux points to cardiac congestion.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/25.jpg",
+     "lec": "Hepatomegaly",
+     "n": 25
+    },
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/27.jpg",
+     "lec": "Hepatomegaly",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "HMG with neurological symptoms suggests?",
@@ -163,7 +260,19 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Adenoma"
    ],
    "answer": 2,
-   "why": "Hepatomegaly with neurological signs suggests Wilson's disease, a metabolic cause."
+   "why": "Hepatomegaly with neurological signs suggests Wilson's disease, a metabolic cause.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/25.jpg",
+     "lec": "Hepatomegaly",
+     "n": 25
+    },
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/27.jpg",
+     "lec": "Hepatomegaly",
+     "n": 27
+    }
+   ]
   },
   {
    "q": "Which is a metabolic cause of hepatomegaly?",
@@ -174,7 +283,14 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     "Metastasis"
    ],
    "answer": 1,
-   "why": "Metabolic: steatosis, Wilson's, haemochromatosis, Gaucher. Congestion: heart failure, Budd-Chiari."
+   "why": "Metabolic: steatosis, Wilson's, haemochromatosis, Gaucher. Congestion: heart failure, Budd-Chiari.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/25.jpg",
+     "lec": "Hepatomegaly",
+     "n": 25
+    }
+   ]
   },
   {
    "q": "Which cause hepatomegaly? (choose all)",
@@ -188,7 +304,14 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
     0,
     1
    ],
-   "why": "Heart failure, steatosis, cirrhosis, tumours, hepatitis and more."
+   "why": "Heart failure, steatosis, cirrhosis, tumours, hepatitis and more.",
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-hepatomegaly/25.jpg",
+     "lec": "Hepatomegaly",
+     "n": 25
+    }
+   ]
   }
  ],
  "cards": [

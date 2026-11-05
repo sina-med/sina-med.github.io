@@ -482,11 +482,6 @@ SINA.lectures["semio-gi-exam"] = {
      "src": "files/slides/semio-gi-exam/05.jpg",
      "lec": "Digestive physical examination",
      "n": 5
-    },
-    {
-     "src": "files/slides/semio-gi-exam/08.jpg",
-     "lec": "Digestive physical examination",
-     "n": 8
     }
    ]
   },

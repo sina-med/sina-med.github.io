@@ -475,11 +475,6 @@ SINA.lectures["semio-endo-diabetes"] = {
      "src": "files/slides/semio-endo-diabetes/04.jpg",
      "lec": "Diabetes semiology",
      "n": 4
-    },
-    {
-     "src": "files/slides/semio-endo-diabetes/15.jpg",
-     "lec": "Diabetes semiology",
-     "n": 15
     }
    ]
   },
@@ -2358,11 +2353,6 @@ SINA.lectures["semio-endo-diabetes"] = {
      "src": "files/slides/semio-endo-diabetes/57.jpg",
      "lec": "Diabetes semiology",
      "n": 57
-    },
-    {
-     "src": "files/slides/semio-endo-diabetes/56.jpg",
-     "lec": "Diabetes semiology",
-     "n": 56
     }
    ]
   },
