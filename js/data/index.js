@@ -95,6 +95,7 @@ SINA.subjects = [
         { id: "semio-gi-jaundice", title: "Jaundice" },
         { id: "semio-gi-hepatomegaly", title: "Hepatomegaly" },
         { id: "semio-gi-constipation", title: "Constipation" },
+        { id: "semio-gi-vomiting", title: "Nausea and vomiting" },
         { id: "semio-gi-dysentery", title: "Dysentery" },
         { id: "semio-gi-diarrhoea", title: "Diarrhoea" },
         { id: "semio-gi-dysphagia", title: "Dysphagia" },
@@ -640,15 +641,12 @@ SINA.midterms = [
     "items": [
      "semio-gi-exam",
      "semio-gi-jaundice",
-     "semio-gi-hepatomegaly",
      "semio-gi-constipation",
-     "semio-gi-dysentery",
-     "semio-gi-diarrhoea",
-     "semio-gi-dysphagia",
+     "semio-gi-vomiting",
      "semio-gi-gerd",
      "semio-gi-bleeding"
     ],
-    "tbc": true
+    "tbc": false
    },
    {
     "name": "Endocrine",
@@ -668,7 +666,7 @@ SINA.midterms = [
    "semio-endo-adrenal": "Cushing syndrome, adrenal insufficiency, phaeochromocytoma",
    "semio-endo-diabetes": "the symptoms that reveal the disease"
   },
-  "part": true
+  "part": false
  },
  {
   "id": "physics1-biophys1-midterm",

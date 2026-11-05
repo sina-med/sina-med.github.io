@@ -2,6 +2,9 @@
    Style: short changelog lines, developer voice (Added / Fixed / Changed), no "you". */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
+  { date: "5 November 2026", items: [
+    "Changed: Semiology midterm, Digestive part set: physical examination, jaundice, GERD, GI bleeding, constipation, nausea and vomiting (coming)."
+  ] },
   { date: "4 November 2026", items: [
     "Added: green highlights on the answering slide lines for all Semiology questions (respiratory, cardiovascular, digestive, endocrine).",
     "Added: green highlights on the slide lines that answer each Pituitary and Diabetes semiology question.",
