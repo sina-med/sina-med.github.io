@@ -4947,6 +4947,979 @@ SINA.lectures["semio-gi-exam"] = {
      "n": 6
     }
    ]
+  },
+  {
+   "q": "Parts of the digestive system accessible to physical examination include:",
+   "options": [
+    "The mouth",
+    "The anal region and lower rectum",
+    "The liver, partially",
+    "The oesophagus, by cervical palpation"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The slide lists the mouth, stomach/small intestine/colon, anal region and lower rectum, and the liver and spleen partially. The oesophagus is not accessible to examination.",
+   "notes": [
+    "Listed as accessible digestive tract.",
+    "Listed as accessible.",
+    "Liver is accessible only partially.",
+    "Slide 8: oesophagus not accessible to examination."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/03.jpg",
+     "lec": "Digestive physical examination",
+     "n": 3
+    },
+    {
+     "src": "files/slides/semio-gi-exam/08.jpg",
+     "lec": "Digestive physical examination",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Regarding the liver and spleen on examination:",
+   "options": [
+    "Both are only partially accessible",
+    "The normal spleen is easily felt in every patient",
+    "The liver cannot be examined at all",
+    "The normal spleen is hard to examine"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "why": "Liver and spleen are listed as partially accessible; the spleen is hard to examine when normal and easy to feel when enlarged.",
+   "notes": [
+    "Slide 3: liver and spleen partially accessible.",
+    "Normal spleen is hard to examine.",
+    "Liver is partially accessible and palpated under right ribs.",
+    "Slide 15: hard to examine when normal."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/03.jpg",
+     "lec": "Digestive physical examination",
+     "n": 3
+    },
+    {
+     "src": "files/slides/semio-gi-exam/15.jpg",
+     "lec": "Digestive physical examination",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "Before examining a patient, the doctor should:",
+   "options": [
+    "Check the patient's identity",
+    "Explain the examination and take consent",
+    "Check the temperature of the room",
+    "Ask the patient to sit upright on a chair"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Before examination: check identity, explain and take consent, intimate calm environment, check room temperature, patient lying flat, doctor on the right side.",
+   "notes": [
+    "Listed first on slide 4.",
+    "Listed on slide 4.",
+    "Listed on slide 4.",
+    "The patient lies flat on a bed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/04.jpg",
+     "lec": "Digestive physical examination",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "About the setting of the digestive examination:",
+   "options": [
+    "An intimate and calm environment",
+    "Patient lying flat on a bed",
+    "Doctor standing on the patient's left side",
+    "Patient standing during abdominal examination"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The slide asks for an intimate, calm environment, the patient lying flat on a bed and the doctor on the patient's right side.",
+   "notes": [
+    "Listed on slide 4.",
+    "Listed on slide 4.",
+    "The doctor stands on the right side.",
+    "Patient lies flat on a bed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/04.jpg",
+     "lec": "Digestive physical examination",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "Examination of the oral cavity includes:",
+   "options": [
+    "Dental examination",
+    "Gingiva",
+    "Palate",
+    "Tongue"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Oral cavity: dental examination, gingiva, palate, internal face of cheeks, tongue, tonsil and uvula.",
+   "notes": [
+    "Listed on slide 5.",
+    "Listed on slide 5.",
+    "Listed on slide 5.",
+    "Listed on slide 5."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/05.jpg",
+     "lec": "Digestive physical examination",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "Regarding the structures examined in the oral cavity:",
+   "options": [
+    "Thyroid gland",
+    "Internal face of the cheeks",
+    "Left supraclavicular lymph node",
+    "Cervical vessels by auscultation"
+   ],
+   "answer": 1,
+   "why": "The internal face of the cheeks is part of the oral cavity exam; thyroid, nodes and vascular auscultation belong to the cervical examination.",
+   "notes": [
+    "Part of the cervical examination.",
+    "Listed in oral cavity exam.",
+    "Part of the cervical examination.",
+    "Part of the cervical examination."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/05.jpg",
+     "lec": "Digestive physical examination",
+     "n": 5
+    },
+    {
+     "src": "files/slides/semio-gi-exam/08.jpg",
+     "lec": "Digestive physical examination",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "An aphthous ulcer of the oral mucosa may be seen in:",
+   "options": [
+    "Portal hypertension",
+    "Aortic aneurysm",
+    "Inflammatory bowel diseases",
+    "Oral fungal infection"
+   ],
+   "answer": 2,
+   "why": "The slide gives aphthous ulcer of the oral mucosa with the example of inflammatory bowel diseases.",
+   "notes": [
+    "Portal hypertension gives collateral veins (slide 12), not oral ulcers.",
+    "An aortic aneurysm is an auscultation finding (slide 17).",
+    "Example given on slide 6.",
+    "Fungal infection is oral candidiasis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/06.jpg",
+     "lec": "Digestive physical examination",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "Atrophic glossitis is characterised by:",
+   "options": [
+    "Inflammation of the tongue",
+    "Vitamin B12 deficiency as an example cause",
+    "A white fungal plaque on the tongue",
+    "Fissures at the corners of the mouth"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Atrophic glossitis = inflammation of the tongue, e.g. vitamin B12 deficiency.",
+   "notes": [
+    "Defined so on slide 6.",
+    "Example given on slide 6.",
+    "That is oral candidiasis.",
+    "That is angular cheilitis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/06.jpg",
+     "lec": "Digestive physical examination",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "About oral candidiasis:",
+   "options": [
+    "It causes a white plaque on the tongue",
+    "It is a fungal infection",
+    "It is a bacterial infection",
+    "It is an aphthous ulcer typical of IBD"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Oral candidiasis: white plaque on the tongue (fungus infection).",
+   "notes": [
+    "Shown on slide 7.",
+    "Slide 7: fungus infection.",
+    "Slide 7: it is a fungus infection.",
+    "Aphthous ulcer is a different lesion."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/07.jpg",
+     "lec": "Digestive physical examination",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "Correct pairings of oral lesion and cause include:",
+   "options": [
+    "Angular cheilitis - iron deficiency anaemia",
+    "Aphthous ulcer - inflammatory bowel disease",
+    "Atrophic glossitis - vitamin B12 deficiency",
+    "Oral candidiasis - bacterial infection"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Slides 6-7: aphthous ulcer (IBD), atrophic glossitis (B12 deficiency), oral candidiasis (fungus), angular cheilitis (iron deficiency anaemia).",
+   "notes": [
+    "Pairing given on slide 7.",
+    "Pairing given on slide 6.",
+    "Pairing given on slide 6.",
+    "Candidiasis is a fungal infection (slide 7)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/06.jpg",
+     "lec": "Digestive physical examination",
+     "n": 6
+    },
+    {
+     "src": "files/slides/semio-gi-exam/07.jpg",
+     "lec": "Digestive physical examination",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "The cervical examination in digestive semiology includes:",
+   "options": [
+    "Cervical lymph nodes",
+    "Thyroid examination",
+    "Percussion of the thyroid",
+    "Direct palpation of the oesophagus"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Cervical exam: lymph nodes (left supraclavicular ++), thyroid, vascular auscultation; the oesophagus is not accessible.",
+   "notes": [
+    "Listed on slide 8.",
+    "Listed on slide 8.",
+    "Not listed; thyroid is assessed for mobility with swallowing.",
+    "Oesophagus not accessible to examination."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/08.jpg",
+     "lec": "Digestive physical examination",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "About the oesophagus on physical examination:",
+   "options": [
+    "It is palpated in the left supraclavicular fossa",
+    "It is not accessible to examination",
+    "It is assessed by epigastric percussion",
+    "It is felt by deep palpation under the left ribs"
+   ],
+   "answer": 1,
+   "why": "The slide states the oesophagus is not accessible to examination (one may only look for a cervical mass).",
+   "notes": [
+    "That site is for lymph nodes.",
+    "Stated on slide 8.",
+    "Not accessible to examination.",
+    "Not accessible; that is spleen palpation."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/08.jpg",
+     "lec": "Digestive physical examination",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "On cervical examination, the thyroid:",
+   "options": [
+    "Is fixed and does not move with swallowing",
+    "Is mobile with swallowing",
+    "Is examined as part of the oral cavity",
+    "Is examined during the proctological examination"
+   ],
+   "answer": 1,
+   "why": "Thyroid examination: the gland is mobile with swallowing.",
+   "notes": [
+    "Slide says mobile with swallowing.",
+    "Stated on slide 8.",
+    "It is part of the cervical exam.",
+    "It is part of the cervical examination (slide 8)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/08.jpg",
+     "lec": "Digestive physical examination",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Regarding the left supraclavicular lymph node:",
+   "options": [
+    "It is a key node in the cervical examination",
+    "It may reveal metastasis of digestive cancers",
+    "It is examined during the proctological exam",
+    "It is a sign of portal hypertension"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Left supraclavicular ++ (metastasis of digestive cancers).",
+   "notes": [
+    "Marked ++ on slide 8.",
+    "Stated on slide 8.",
+    "It belongs to the cervical exam.",
+    "Portal hypertension gives collateral veins."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/08.jpg",
+     "lec": "Digestive physical examination",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Organs projecting onto the right hypochondriac region include:",
+   "options": [
+    "Liver",
+    "Gallbladder",
+    "Sigmoid colon",
+    "Spleen"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Right hypochondriac: liver, gallbladder, right kidney, small intestine.",
+   "notes": [
+    "Shown on slide 9.",
+    "Shown on slide 9.",
+    "Sigmoid is left iliac/hypogastric.",
+    "Spleen is in the left hypochondriac region."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/09.jpg",
+     "lec": "Digestive physical examination",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "Organs projecting onto the left hypochondriac region include:",
+   "options": [
+    "Spleen",
+    "Left kidney",
+    "Appendix",
+    "Pancreas",
+    "Gallbladder"
+   ],
+   "answers": [
+    0,
+    1,
+    3
+   ],
+   "why": "Left hypochondriac: spleen, colon, left kidney, pancreas.",
+   "notes": [
+    "Shown on slide 9.",
+    "Shown on slide 9.",
+    "Appendix is in the right iliac region.",
+    "Shown on slide 9.",
+    "Gallbladder is right hypochondriac/lumbar."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/09.jpg",
+     "lec": "Digestive physical examination",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "The right iliac region contains:",
+   "options": [
+    "The sigmoid colon",
+    "The urinary bladder",
+    "The appendix and caecum",
+    "The spleen"
+   ],
+   "answer": 2,
+   "why": "Right iliac region: appendix, caecum.",
+   "notes": [
+    "Sigmoid is left iliac/hypogastric.",
+    "Bladder is hypogastric.",
+    "Shown on slide 9.",
+    "Spleen is left hypochondriac."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/09.jpg",
+     "lec": "Digestive physical examination",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "The hypogastric region contains:",
+   "options": [
+    "Urinary bladder",
+    "Sigmoid colon",
+    "Female reproductive organs",
+    "Caecum"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Hypogastric region: urinary bladder, sigmoid colon, female reproductive organs.",
+   "notes": [
+    "Shown on slide 9.",
+    "Shown on slide 9.",
+    "Shown on slide 9.",
+    "Caecum is in the right iliac region."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/09.jpg",
+     "lec": "Digestive physical examination",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "About the nine regions of the abdomen:",
+   "options": [
+    "The middle row is right lumbar, umbilical, left lumbar",
+    "The epigastric region is in the upper middle",
+    "The hypogastric region is in the lower left",
+    "The umbilical region lies in the upper row"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Upper row: right hypochondriac, epigastric, left hypochondriac; middle: right lumbar, umbilical, left lumbar; lower: right iliac, hypogastric, left iliac.",
+   "notes": [
+    "Shown on slide 9.",
+    "Region 2 on slide 9.",
+    "Hypogastric is lower middle (region 8).",
+    "Umbilical is region 5, middle row."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/09.jpg",
+     "lec": "Digestive physical examination",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "The systematic abdominal examination comprises:",
+   "options": [
+    "Inspection",
+    "Palpation",
+    "Percussion",
+    "Auscultation",
+    "Transillumination"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Systematic examination in 4 steps: inspection, palpation, percussion, auscultation.",
+   "notes": [
+    "Step 1.",
+    "Step 2.",
+    "Step 3.",
+    "Step 4.",
+    "Not one of the 4 steps."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/10.jpg",
+     "lec": "Digestive physical examination",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "On abdominal inspection, the examiner looks for:",
+   "options": [
+    "Surgical scars",
+    "Hernia or eventration",
+    "Collateral veins",
+    "Tenderness"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Inspection: surgical scars, hernia/eventration, collateral veins, bulge/asymmetry, dermatological lesions.",
+   "notes": [
+    "Slide 11.",
+    "Slide 11.",
+    "Slide 12.",
+    "Tenderness is sought on palpation."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/11.jpg",
+     "lec": "Digestive physical examination",
+     "n": 11
+    },
+    {
+     "src": "files/slides/semio-gi-exam/12.jpg",
+     "lec": "Digestive physical examination",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Inspection findings listed on the slides include:",
+   "options": [
+    "Tympany",
+    "Abdominal bulge or asymmetry",
+    "Bowel sounds",
+    "Tenderness"
+   ],
+   "answer": 1,
+   "why": "Slide 12 lists collateral veins, abdominal bulge/asymmetry and dermatological lesions under inspection.",
+   "notes": [
+    "Found on percussion.",
+    "Listed under inspection.",
+    "Heard on auscultation.",
+    "Found on palpation."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/12.jpg",
+     "lec": "Digestive physical examination",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Abdominal palpation technique includes:",
+   "options": [
+    "Light superficial palpation, then deep",
+    "One hand or two hands",
+    "Examining all quadrants",
+    "Starting deep, then superficial"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Palpation: supine with bent knees, superficial then deep, one hand or 2, all quadrants.",
+   "notes": [
+    "Slide 13 order.",
+    "Slide 13.",
+    "Slide 13.",
+    "Order is superficial first, then deep."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/13.jpg",
+     "lec": "Digestive physical examination",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "Abdominal palpation searches for:",
+   "options": [
+    "A mass, which should be delineated",
+    "Bowel sounds",
+    "Hepatomegaly or splenomegaly",
+    "Tympany"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Palpation looks for a mass (delineate), tenderness, pain, hepatomegaly and splenomegaly.",
+   "notes": [
+    "Slide 13.",
+    "Heard on auscultation.",
+    "Slide 13.",
+    "Tympany is a percussion finding."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/13.jpg",
+     "lec": "Digestive physical examination",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "Liver palpation is performed:",
+   "options": [
+    "Under the right ribs",
+    "With a flat hand using the fingertips, or a hook",
+    "During a deep breath",
+    "Under the left ribs"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Liver palpation: under right ribs, flat hand with tip of fingers or hook, during deep breath.",
+   "notes": [
+    "Slide 14.",
+    "Slide 14.",
+    "Slide 14.",
+    "Left ribs are for the spleen."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/14.jpg",
+     "lec": "Digestive physical examination",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "During liver palpation, a deep inspiration:",
+   "options": [
+    "Raises the diaphragm, hiding the liver",
+    "Flattens the diaphragm, lowering the liver",
+    "Relaxes the abdominal wall muscles",
+    "Pushes the liver toward the left flank"
+   ],
+   "answer": 1,
+   "why": "Deep breath fills the lungs, flattens the diaphragm and lowers the liver towards the abdomen.",
+   "notes": [
+    "The diaphragm flattens and descends.",
+    "Mechanism on slide 14.",
+    "Bent knees relax the abdomen.",
+    "Liver moves down towards the abdomen."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/14.jpg",
+     "lec": "Digestive physical examination",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "About spleen palpation:",
+   "options": [
+    "It is done deep under the ribs",
+    "Splenomegaly is easy to feel",
+    "An enlarged spleen moves with breathing",
+    "A normal spleen is easy to feel"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Spleen: deep under the ribs, hard to examine when normal; splenomegaly easy, moves with breath.",
+   "notes": [
+    "Slide 15.",
+    "Slide 15.",
+    "Slide 15.",
+    "Normal spleen is hard to examine."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/15.jpg",
+     "lec": "Digestive physical examination",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "Regarding percussion sounds:",
+   "options": [
+    "Tympany is a hollow sound due to air",
+    "Dullness indicates a dense organ or fluid",
+    "Tympany indicates fluid",
+    "Dullness indicates air"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Tympany = hollow sound = air; dull sound = dense organ or fluid.",
+   "notes": [
+    "Slide 16.",
+    "Slide 16.",
+    "Fluid gives dullness.",
+    "Air gives tympany."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/16.jpg",
+     "lec": "Digestive physical examination",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "On percussion of the normal abdomen:",
+   "options": [
+    "Most of the abdomen is tympanic",
+    "The right hypochondrium is dull (liver)",
+    "The hypogastrium is dull if the bladder is full",
+    "The left iliac region is always dull"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "All the abdomen is tympanic except the right hypochondriac quadrant (liver) and the hypogastric region if the bladder is full.",
+   "notes": [
+    "Slide 16.",
+    "Slide 16.",
+    "Slide 16.",
+    "Not an exception on the slide."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/16.jpg",
+     "lec": "Digestive physical examination",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Abdominal auscultation assesses:",
+   "options": [
+    "Bowel movement sounds",
+    "The arteries",
+    "Abnormal sounds such as in aortic aneurysm",
+    "The liver span"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Auscultation: bowel movement sounds, arteries (normal beats, abnormal sounds e.g. aortic aneurysm).",
+   "notes": [
+    "Slide 17.",
+    "Slide 17.",
+    "Slide 17 example.",
+    "Not listed under auscultation."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/17.jpg",
+     "lec": "Digestive physical examination",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Preparation for the proctological examination includes:",
+   "options": [
+    "Explaining and taking consent",
+    "An intimate, calm room",
+    "Gloves and lubricant",
+    "Patient lying supine and flat"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Preparation: explain + consent, intimate calm room; position chest-to-knee or lateral (Sims); gloves + lubricant.",
+   "notes": [
+    "Slide 18.",
+    "Slide 18.",
+    "Slide 18.",
+    "Position is chest-to-knee or lateral (Sims)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/18.jpg",
+     "lec": "Digestive physical examination",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "The digital rectal examination assesses:",
+   "options": [
+    "The anal canal",
+    "The distal rectum",
+    "The caecum",
+    "The sigmoid colon"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Digital examination: anal canal, distal rectum, prostate.",
+   "notes": [
+    "Slide 18.",
+    "Slide 18.",
+    "Caecum is in the right iliac region, not reachable.",
+    "Beyond reach; not listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/18.jpg",
+     "lec": "Digestive physical examination",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "Steps of the proctological examination include:",
+   "options": [
+    "Inspection of the anal area and skin",
+    "Digital examination",
+    "Percussion of the anal region",
+    "Auscultation over the rectum"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The proctological exam includes inspection (anal area, skin) and digital examination.",
+   "notes": [
+    "Slide 18.",
+    "Slide 18.",
+    "Not part of the slide.",
+    "Not part of the slide."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/18.jpg",
+     "lec": "Digestive physical examination",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "Per the illustrated rectal examination sequence:",
+   "options": [
+    "Lubricate the right index finger",
+    "Apply gentle pressure to the anus before advancing",
+    "Assess anal tone while advancing the finger",
+    "Sweep the rectum clockwise and anticlockwise",
+    "Insert the finger without lubricant"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Slide 19 steps: examine skin, lubricate right index, gentle pressure, advance and assess anal tone, clockwise then anticlockwise sweeps, clean off lubricant.",
+   "notes": [
+    "Step 2.",
+    "Step 3.",
+    "Step 4.",
+    "Steps 5 and 6.",
+    "Lubrication is step 2."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/19.jpg",
+     "lec": "Digestive physical examination",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "At the start and end of the rectal examination:",
+   "options": [
+    "The exam ends with percussion of the abdomen",
+    "The skin is examined first",
+    "The exam ends by cleaning off lubricant",
+    "The exam starts with a deep rectal sweep"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "why": "Step 1 is examining the skin; step 7 is end-of-examination care: clean off any lubricant.",
+   "notes": [
+    "Not on slide 19.",
+    "Step 1 on slide 19.",
+    "Step 7 on slide 19.",
+    "Sweeps come after advancing the finger."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/19.jpg",
+     "lec": "Digestive physical examination",
+     "n": 19
+    }
+   ]
   }
  ],
  "cards": [
@@ -5322,6 +6295,1197 @@ SINA.lectures["semio-gi-jaundice"] = {
      "src": "files/slides/semio-gi-jaundice/14.jpg",
      "lec": "Jaundice",
      "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Jaundice is defined as:",
+   "options": [
+    "A form of viral hepatitis",
+    "Yellow discolouration of the sclera and/or skin",
+    "Hyperbilirubinaemia",
+    "Chronic pruritus"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "why": "Jaundice = excess bilirubin with yellow discolouration of the sclera and/or skin; it is a symptom of many diseases, not a disease itself.",
+   "notes": [
+    "Viral hepatitis is only one possible cause.",
+    "Definition on slide 10.",
+    "Excess bilirubin, slide 10.",
+    "Pruritus is an associated cholestasis symptom."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/05.jpg",
+     "lec": "Jaundice",
+     "n": 5
+    },
+    {
+     "src": "files/slides/semio-gi-jaundice/10.jpg",
+     "lec": "Jaundice",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "About bilirubin:",
+   "options": [
+    "It is an enzyme that helps digest lipids",
+    "It is a pigment from haemoglobin breakdown",
+    "It is eliminated in bile",
+    "Its derivatives colour urine and stool"
+   ],
+   "answers": [
+    1,
+    2,
+    3
+   ],
+   "why": "Haemoglobin is degraded to bilirubin, conjugated in the liver, excreted in bile; urobilinogen (urine) and stercobilinogen (stool) derive from it.",
+   "notes": [
+    "It is a pigment, not an enzyme.",
+    "Shown on slide 11.",
+    "Conjugated bilirubin goes to bile and gut.",
+    "Urobilinogen and stercobilinogen, slide 11."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/06.jpg",
+     "lec": "Jaundice",
+     "n": 6
+    },
+    {
+     "src": "files/slides/semio-gi-jaundice/11.jpg",
+     "lec": "Jaundice",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "The positive diagnosis of jaundice relies on:",
+   "options": [
+    "Liver biopsy",
+    "Mandatory imaging",
+    "Clinical examination",
+    "Viral serology"
+   ],
+   "answer": 2,
+   "why": "The slide states: Diagnosis = clinical examination.",
+   "notes": [
+    "Biopsy is an aetiological exploration.",
+    "Imaging serves aetiology, not diagnosis.",
+    "Slide 13.",
+    "Serology serves aetiology."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/07.jpg",
+     "lec": "Jaundice",
+     "n": 7
+    },
+    {
+     "src": "files/slides/semio-gi-jaundice/13.jpg",
+     "lec": "Jaundice",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "Aetiologies of jaundice include:",
+   "options": [
+    "Obstruction of the bile ducts",
+    "Excess bilirubin production (haemolysis)",
+    "Infection such as viral hepatitis",
+    "Genetic conditions"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Causes span biliary obstruction, haemolysis, liver disease including viral hepatitis, and haematological or genetic diseases (e.g. Gilbert).",
+   "notes": [
+    "Extrahepatic cholestasis, slide 22.",
+    "Haemolysis branch, slide 22.",
+    "Viral hepatitis on slide 23.",
+    "Take-home: genetic disease; Gilbert on slide 23."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/08.jpg",
+     "lec": "Jaundice",
+     "n": 8
+    },
+    {
+     "src": "files/slides/semio-gi-jaundice/22.jpg",
+     "lec": "Jaundice",
+     "n": 22
+    },
+    {
+     "src": "files/slides/semio-gi-jaundice/23.jpg",
+     "lec": "Jaundice",
+     "n": 23
+    },
+    {
+     "src": "files/slides/semio-gi-jaundice/25.jpg",
+     "lec": "Jaundice",
+     "n": 25
+    }
+   ]
+  },
+  {
+   "q": "According to the introduction slide, jaundice:",
+   "options": [
+    "Is typically defined by bilirubin above 35 umol/L",
+    "Is a symptom of a wide range of diseases",
+    "Is a single disease of the liver",
+    "Is diagnosed only with imaging"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Jaundice = excess bilirubin (typically >35 umol/L), a symptom of many diseases needing a structured aetiological strategy.",
+   "notes": [
+    "Slide 10 threshold.",
+    "Slide 10.",
+    "It is a symptom, not one disease.",
+    "Diagnosis is clinical (slide 13)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/10.jpg",
+     "lec": "Jaundice",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "The take-home messages state that:",
+   "options": [
+    "Jaundice is always due to liver disease",
+    "It can be a symptom of haematological or genetic disease",
+    "Physiology of bilirubin is key to aetiological reasoning",
+    "Separating cholestatic from non-cholestatic is the first step"
+   ],
+   "answers": [
+    1,
+    2,
+    3
+   ],
+   "why": "Jaundice is usually liver/biliary but can be haematological or genetic; bilirubin physiology guides reasoning; cholestatic vs non-cholestatic is step one.",
+   "notes": [
+    "Usually, not always, liver/biliary.",
+    "Slide 25.",
+    "Slide 25.",
+    "Slide 25."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/25.jpg",
+     "lec": "Jaundice",
+     "n": 25
+    }
+   ]
+  },
+  {
+   "q": "On the bilirubin physiology diagram, macrophages:",
+   "options": [
+    "Take up red cells and degrade haemoglobin",
+    "Produce unconjugated bilirubin",
+    "Also play a role in cholesterol metabolism",
+    "Conjugate bilirubin with glucuronic acid"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "In macrophages haemoglobin becomes unconjugated bilirubin; macrophages play an important role in bilirubin and cholesterol metabolism.",
+   "notes": [
+    "Slide 11.",
+    "Slide 11.",
+    "Stated on slide 11.",
+    "Conjugation occurs in the liver."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/11.jpg",
+     "lec": "Jaundice",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Bilirubin is combined with glucuronic acid (conjugated) in the:",
+   "options": [
+    "Macrophage",
+    "Liver (hepatocyte)",
+    "Kidney",
+    "Gut lumen"
+   ],
+   "answer": 1,
+   "why": "Unconjugated bilirubin reaches the liver where it is combined with glucuronic acid to form conjugated bilirubin.",
+   "notes": [
+    "Macrophage makes unconjugated bilirubin.",
+    "Slides 11-12.",
+    "Kidney excretes urobilinogen.",
+    "Gut forms urobilinogen."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/11.jpg",
+     "lec": "Jaundice",
+     "n": 11
+    },
+    {
+     "src": "files/slides/semio-gi-jaundice/12.jpg",
+     "lec": "Jaundice",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "After excretion into the gut, per the diagram:",
+   "options": [
+    "Bilirubin is transformed into urobilinogen",
+    "Stercobilinogen is eliminated in stool",
+    "Part of urobilinogen returns via the portal vein",
+    "Bilirubin is conjugated in the gut wall"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "In the gut bilirubin becomes urobilinogen, partly reabsorbed via the portal vein (some reaching the kidney), the rest eliminated as stercobilinogen.",
+   "notes": [
+    "Slide 11.",
+    "Slide 11.",
+    "Portal vein arrow, slide 11.",
+    "Conjugation is hepatic."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/11.jpg",
+     "lec": "Jaundice",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "In the hepatocyte (slide 12):",
+   "options": [
+    "Bilirubin is converted to stercobilinogen",
+    "Conjugated bilirubin is secreted towards the bile canaliculus",
+    "Bilirubin arriving from blood is conjugated",
+    "Haemoglobin is broken down into bilirubin"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "why": "The hepatocyte takes up bilirubin from blood, conjugates it and secretes conjugated bilirubin into bile.",
+   "notes": [
+    "Stercobilinogen forms in the gut.",
+    "Step 5 on slide 12.",
+    "Step 4 on slide 12.",
+    "This happens in macrophages."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/12.jpg",
+     "lec": "Jaundice",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Yellow discolouration of jaundice is looked for on:",
+   "options": [
+    "The sclera",
+    "The skin",
+    "The hair",
+    "The iris"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Jaundice is yellow discolouration of the sclera and/or skin; slides 3 and 13 show scleral icterus.",
+   "notes": [
+    "Slides 3 and 10.",
+    "Slide 10.",
+    "Not on slide.",
+    "Scleral, not iridal, discolouration is shown (slide 3)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/03.jpg",
+     "lec": "Jaundice",
+     "n": 3
+    },
+    {
+     "src": "files/slides/semio-gi-jaundice/10.jpg",
+     "lec": "Jaundice",
+     "n": 10
+    },
+    {
+     "src": "files/slides/semio-gi-jaundice/13.jpg",
+     "lec": "Jaundice",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "Symptoms associated with cholestasis syndrome include:",
+   "options": [
+    "Steatorrhoea",
+    "Xanthoma or xanthelasma",
+    "Signs of fat-soluble vitamin deficiency",
+    "Black tarry stools"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Cholestasis: pruritus, dark urine, acholic stool, steatorrhoea, xanthoma/xanthelasma, symptoms of fat-soluble vitamins ADEK.",
+   "notes": [
+    "Slide 14.",
+    "Slide 14.",
+    "Slide 14.",
+    "Stools are acholic (pale)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/14.jpg",
+     "lec": "Jaundice",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Fat-soluble vitamins whose deficiency may occur in cholestasis include:",
+   "options": [
+    "Vitamin A",
+    "Vitamin D",
+    "Vitamin C",
+    "Vitamin B12"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The slide lists symptoms of liposoluble vitamins ADEK.",
+   "notes": [
+    "A of ADEK.",
+    "D of ADEK.",
+    "Water-soluble; not ADEK.",
+    "Water-soluble; not ADEK."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/14.jpg",
+     "lec": "Jaundice",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Xanthelasma and xanthoma in a jaundiced patient:",
+   "options": [
+    "Are linked to the cholestasis syndrome",
+    "Fit with the hypercholesterolaemia of cholestasis",
+    "Are a sign of haemolysis",
+    "Result from vitamin K deficiency"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Xanthoma/xanthelasma are listed among cholestasis symptoms, and hypercholesterolaemia is a cholestasis laboratory finding.",
+   "notes": [
+    "Slides 14-15.",
+    "Slide 16.",
+    "Not a haemolysis feature.",
+    "Vitamin K deficiency prolongs PT."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/14.jpg",
+     "lec": "Jaundice",
+     "n": 14
+    },
+    {
+     "src": "files/slides/semio-gi-jaundice/15.jpg",
+     "lec": "Jaundice",
+     "n": 15
+    },
+    {
+     "src": "files/slides/semio-gi-jaundice/16.jpg",
+     "lec": "Jaundice",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Laboratory findings of the cholestasis syndrome include:",
+   "options": [
+    "Raised conjugated bilirubin",
+    "Low cholesterol",
+    "Shortened prothrombin time",
+    "Isolated raised unconjugated bilirubin"
+   ],
+   "answer": 0,
+   "why": "Cholestasis: conjugated bilirubin, GGT, ALP, hypercholesterolaemia, prolonged PT, 5'nucleotidase.",
+   "notes": [
+    "Slide 16.",
+    "Hypercholesterolaemia is expected.",
+    "PT is prolonged (ratio <70%).",
+    "Unconjugated pattern is non-cholestatic."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/16.jpg",
+     "lec": "Jaundice",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "In cholestasis, prothrombin time is abnormal when the ratio falls below:",
+   "options": [
+    "90%",
+    "70%",
+    "30%",
+    "120%"
+   ],
+   "answer": 1,
+   "why": "Prolonged prothrombin time (or decreased ratio <70%).",
+   "notes": [
+    "Not the slide threshold.",
+    "Slide 16.",
+    "Not the slide threshold.",
+    "Ratio decreases, not increases."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/16.jpg",
+     "lec": "Jaundice",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Enzymes raised in cholestasis include:",
+   "options": [
+    "GGT",
+    "Creatine kinase",
+    "5'nucleotidase",
+    "Acetylcholinesterase"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Cholestasis enzymes: GGT, ALP, (5'nucleotidase).",
+   "notes": [
+    "Slide 16.",
+    "Not a cholestasis marker on the slide.",
+    "Slide 16.",
+    "Not a cholestasis marker."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/16.jpg",
+     "lec": "Jaundice",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Total bilirubin in a jaundiced patient may be:",
+   "options": [
+    "Mainly conjugated",
+    "Mainly unconjugated",
+    "Mixed (both)",
+    "Always normal"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Increased total bilirubin: conjugated or unconjugated or both.",
+   "notes": [
+    "Slide 16.",
+    "Slide 16.",
+    "Slide 16.",
+    "Total bilirubin is increased."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/16.jpg",
+     "lec": "Jaundice",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "The medical history of a jaundiced patient covers:",
+   "options": [
+    "Age, sex and occupation",
+    "Visual acuity",
+    "Medications and supplements",
+    "Blood group"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "History: age, sex, occupation, chronic liver disease, surgery, autoimmune disease, viral risk factors, travel, lifestyle, medications, family history.",
+   "notes": [
+    "Slide 17.",
+    "Not a history item on slide 17.",
+    "Slide 17.",
+    "Not listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/17.jpg",
+     "lec": "Jaundice",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Further history items for jaundice are:",
+   "options": [
+    "Autoimmune disease",
+    "Risk factors for viral hepatitis",
+    "Smoking, alcohol, drug use",
+    "Family history of jaundice or cancer"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "All are listed on the medical history slide.",
+   "notes": [
+    "Slide 17.",
+    "Slide 17.",
+    "Lifestyle, slide 17.",
+    "Slide 17."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/17.jpg",
+     "lec": "Jaundice",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Characterising the jaundice itself involves:",
+   "options": [
+    "Acute or chronic onset",
+    "Duration",
+    "Aggravating or intermittent course",
+    "Which side of the body is more yellow"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Jaundice: acute or chronic onset, duration, aggravating or intermittent.",
+   "notes": [
+    "Slide 18.",
+    "Slide 18.",
+    "Slide 18.",
+    "Not on slide."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/18.jpg",
+     "lec": "Jaundice",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "Associated symptoms to ask about in jaundice include:",
+   "options": [
+    "Fever",
+    "GI bleeding",
+    "Neurological symptoms",
+    "Joint pain",
+    "Hearing loss"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Associated: fever, abdominal pain, dyspepsia, GI bleeding, diarrhoea, neurological symptoms, weight loss, joint pain.",
+   "notes": [
+    "Slide 18.",
+    "Slide 18.",
+    "Slide 18.",
+    "Slide 18.",
+    "Not listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/18.jpg",
+     "lec": "Jaundice",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "Jaundice with fever and abdominal pain suggests:",
+   "options": [
+    "Gilbert syndrome",
+    "Crigler-Najjar syndrome",
+    "Acute cholangitis",
+    "Dubin-Johnson syndrome"
+   ],
+   "answer": 2,
+   "why": "Acute cholangitis: PAIN, FEVER, JAUNDICE.",
+   "notes": [
+    "Isolated unconjugated, non-haemolytic.",
+    "Non-haemolytic conjugation defect (slide 23); not the pain-fever-jaundice triad.",
+    "Slide 18.",
+    "Conjugated with normal LFTs."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/18.jpg",
+     "lec": "Jaundice",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "General items of the physical examination in jaundice include:",
+   "options": [
+    "Glasgow coma scale",
+    "Asterixis",
+    "Visual field testing",
+    "Peak expiratory flow"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Physical exam: GCS, PS, BMI, asterixis, foetor hepaticus, oedema, vitals.",
+   "notes": [
+    "Slide 19.",
+    "Slide 19.",
+    "Not listed on slide 19.",
+    "Not listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/19.jpg",
+     "lec": "Jaundice",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Skin signs sought in a jaundiced patient include:",
+   "options": [
+    "Spider angioma",
+    "Port-wine stain",
+    "Koilonychia",
+    "Gynaecomastia"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "why": "Dermatological exam: sclera, skin, pruritus lesions, purpura, ecchymoses, spider angioma, palmar erythrosis, gynaecomastia, tattoos.",
+   "notes": [
+    "Slide 19.",
+    "Not listed on slide 19.",
+    "Not listed.",
+    "Slide 19."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/19.jpg",
+     "lec": "Jaundice",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "The dermatological exam in jaundice also looks for:",
+   "options": [
+    "Tattoos",
+    "Scratch (pruritus) lesions",
+    "Cafe-au-lait spots",
+    "Purpura and ecchymoses"
+   ],
+   "answers": [
+    0,
+    1,
+    3
+   ],
+   "why": "Listed: pruritus lesions, purpura, ecchymoses, tattoos, among others.",
+   "notes": [
+    "Slide 19.",
+    "Slide 19.",
+    "Not listed.",
+    "Slide 19."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/19.jpg",
+     "lec": "Jaundice",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Regarding the digestive and other examination in jaundice:",
+   "options": [
+    "Proctological examination is included",
+    "Lymph nodes are examined",
+    "The abdomen can be skipped if imaging is planned",
+    "Only the sclera needs examination"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Digestive exam: buccal cavity, abdomen, proctological exam; plus lymph nodes and other organs and systems.",
+   "notes": [
+    "Slide 19.",
+    "Slide 19.",
+    "Abdomen is part of the exam.",
+    "Full systemic exam is required."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/19.jpg",
+     "lec": "Jaundice",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Haemolysis tests listed in the jaundice workup include:",
+   "options": [
+    "Lactate dehydrogenase (LDH)",
+    "Haptoglobin",
+    "GGT",
+    "Alkaline phosphatase"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Haemolysis tests: LDH, haptoglobin, Coombs tests, haemoglobin electrophoresis.",
+   "notes": [
+    "Slide 20.",
+    "Slide 20.",
+    "GGT is a cholestasis enzyme.",
+    "ALP is a cholestasis enzyme."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/20.jpg",
+     "lec": "Jaundice",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "About the laboratory test list for jaundice:",
+   "options": [
+    "It is given in no particular order",
+    "It includes iron tests and protein electrophoresis",
+    "It includes autoimmune tests",
+    "It requires viral serology always first"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Warning: this is a list, no order intended; includes CBC, smear, PT, LFT, protein electrophoresis, iron, haemolysis, autoimmune, viral and infection tests.",
+   "notes": [
+    "Slide 20 warning.",
+    "Slide 20.",
+    "Slide 20.",
+    "No order is intended."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/20.jpg",
+     "lec": "Jaundice",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "Imaging and other explorations listed for jaundice include:",
+   "options": [
+    "Endoscopic ultrasound",
+    "Liver biopsy",
+    "Coronary angiography",
+    "Bone scintigraphy"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Abdomino-pelvic ultrasound, CT, MRI, endoscopic ultrasound, liver biopsy, ERCP (therapeutic).",
+   "notes": [
+    "Slide 21.",
+    "Slide 21.",
+    "Not listed.",
+    "Not listed on slide 21."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/21.jpg",
+     "lec": "Jaundice",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "Cholestatic jaundice corresponds to raised:",
+   "options": [
+    "Unconjugated bilirubin",
+    "Conjugated bilirubin",
+    "Haptoglobin",
+    "Reticulocytes"
+   ],
+   "answer": 1,
+   "why": "Strategy: cholestatic jaundice (conjugated bilirubin) vs non-cholestatic (unconjugated).",
+   "notes": [
+    "That is non-cholestatic.",
+    "Slide 22.",
+    "Haptoglobin falls in haemolysis.",
+    "Reticulocytes rise in haemolysis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/22.jpg",
+     "lec": "Jaundice",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Cholestatic jaundice with dilated bile ducts on ultrasound:",
+   "options": [
+    "Points to an extrahepatic (obstructive) cause",
+    "May be due to biliary lithiasis",
+    "Points to an intrahepatic cause",
+    "Suggests haemolysis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Dilated bile ducts: yes = extrahepatic (obstructive), e.g. biliary lithiasis; no = intrahepatic, e.g. chronic liver disease.",
+   "notes": [
+    "Slide 22.",
+    "Slide 22 example.",
+    "That is when ducts are not dilated.",
+    "Haemolysis is non-cholestatic."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/22.jpg",
+     "lec": "Jaundice",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Cholestatic jaundice without bile duct dilatation:",
+   "options": [
+    "Is intrahepatic",
+    "May be due to chronic liver disease",
+    "Is typically due to biliary lithiasis",
+    "Is due to corpuscular haemolysis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "No dilated ducts = intrahepatic cholestasis, e.g. chronic liver diseases.",
+   "notes": [
+    "Slide 22.",
+    "Slide 22 example.",
+    "Lithiasis is the extrahepatic example.",
+    "Haemolysis is non-cholestatic."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/22.jpg",
+     "lec": "Jaundice",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Regarding non-cholestatic jaundice in the strategy:",
+   "options": [
+    "Bilirubin is unconjugated",
+    "Haemolysis is the question to ask",
+    "Corpuscular haemolysis is usually extravascular",
+    "Extracorpuscular haemolysis is usually extravascular"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Non-cholestatic (unconjugated) -> haemolysis? Corpuscular: usually extravascular; extracorpuscular: usually intravascular (per the slide).",
+   "notes": [
+    "Slide 22.",
+    "Slide 22.",
+    "Slide 22.",
+    "Per the lecture slides, extracorpuscular haemolysis is usually intravascular; some textbooks say immune (extracorpuscular) haemolysis is often extravascular."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/22.jpg",
+     "lec": "Jaundice",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "On the differential chart, unconjugated bilirubin with raised reticulocytes:",
+   "options": [
+    "Indicates haemolysis",
+    "Leads to a blood film",
+    "Leads to viral serology",
+    "Suggests Gilbert syndrome"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Unconjugated -> CBC; retic up = haemolysis, next steps blood film and viral serology.",
+   "notes": [
+    "Slide 23.",
+    "Slide 23 next step.",
+    "Slide 23 next step.",
+    "Gilbert is non-haemolytic (retic low)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/23.jpg",
+     "lec": "Jaundice",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "Haemolytic causes on the differential chart include:",
+   "options": [
+    "Sickle cell anaemia",
+    "Rotor syndrome",
+    "Autoimmune haemolytic anaemia",
+    "Crigler-Najjar syndrome"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Haemolysis: G6PD, sickle cell anaemia, AIHA, MAHA.",
+   "notes": [
+    "Slide 23.",
+    "Conjugated, excretion defect.",
+    "Slide 23.",
+    "Non-haemolytic conjugation defect."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/23.jpg",
+     "lec": "Jaundice",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "Non-haemolytic unconjugated hyperbilirubinaemia may be due to:",
+   "options": [
+    "Gilbert syndrome",
+    "Crigler-Najjar syndrome",
+    "Sickle cell anaemia",
+    "G6PD deficiency"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Non-haemolytic (error in conjugation): Gilbert, Crigler-Najjar, neonatal jaundice.",
+   "notes": [
+    "Slide 23.",
+    "Slide 23.",
+    "Sickle cell is haemolytic.",
+    "G6PD is haemolytic."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/23.jpg",
+     "lec": "Jaundice",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "On the chart, conjugated hyperbilirubinaemia with normal LFTs suggests:",
+   "options": [
+    "Dubin-Johnson syndrome",
+    "Primary sclerosing cholangitis",
+    "Rotor syndrome",
+    "Choledocholithiasis"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Normal LFT: decreased excretion/reuptake of bilirubin, e.g. Dubin-Johnson and Rotor syndromes.",
+   "notes": [
+    "Slide 23.",
+    "Cholestasis pattern (ALP, GGT up).",
+    "Slide 23.",
+    "Cholestasis pattern."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/23.jpg",
+     "lec": "Jaundice",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "A cholestatic pattern (raised ALP and GGT) on the chart may be due to:",
+   "options": [
+    "Choledocholithiasis",
+    "Primary sclerosing cholangitis",
+    "Obstructing tumours",
+    "Pregnancy"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Cholestasis possible diagnoses: choledocholithiasis, PSC, obstructing tumours, any liver disease, pregnancy.",
+   "notes": [
+    "Slide 23.",
+    "Slide 23.",
+    "Slide 23.",
+    "Slide 23."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/23.jpg",
+     "lec": "Jaundice",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "On the chart, hepatocellular injury with AST:ALT > 2 suggests:",
+   "options": [
+    "Alcoholic liver disease",
+    "Hepatocellular carcinoma",
+    "Dubin-Johnson syndrome",
+    "Early viral hepatitis"
+   ],
+   "answers": [
+    0,
+    1,
+    3
+   ],
+   "why": "AST:ALT > 2: alcoholic liver disease, hepatocellular carcinoma, early viral hepatitis (per chart).",
+   "notes": [
+    "Slide 23.",
+    "Slide 23.",
+    "Normal LFT branch.",
+    "Per the lecture slides (chart); some textbooks say an AST:ALT ratio > 2 points mainly to alcohol, while viral hepatitis usually has ALT > AST."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/23.jpg",
+     "lec": "Jaundice",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "Hepatocellular injury with ALT > AST leads, on the chart, to:",
+   "options": [
+    "Viral serology",
+    "ANA and ASMA",
+    "AMA",
+    "Coombs test"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "ALT > AST next steps: viral serology, ANA & ASMA, AMA, transferrins, alpha-1 antitrypsin.",
+   "notes": [
+    "Slide 23.",
+    "Slide 23.",
+    "Slide 23.",
+    "A haemolysis test."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/23.jpg",
+     "lec": "Jaundice",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "On the chart, the first test after finding raised unconjugated bilirubin is:",
+   "options": [
+    "Liver function tests",
+    "CBC",
+    "MRCP / ERCP",
+    "Genetic studies"
+   ],
+   "answer": 1,
+   "why": "Unconjugated bilirubin -> CBC (reticulocytes); conjugated bilirubin -> LFT.",
+   "notes": [
+    "LFT follows conjugated bilirubin.",
+    "Slide 23.",
+    "For cholestasis.",
+    "Later step in non-haemolytic branch."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/23.jpg",
+     "lec": "Jaundice",
+     "n": 23
     }
    ]
   }
@@ -6082,6 +8246,1121 @@ SINA.lectures["semio-gi-constipation"] = {
      "src": "files/slides/semio-gi-constipation/26.jpg",
      "lec": "Constipation",
      "n": 26
+    }
+   ]
+  },
+  {
+   "q": "About the clinical aspect of the definition of constipation:",
+   "options": [
+    "Delayed evacuation of the large bowel content",
+    "Fewer than 3 stools per week",
+    "Stool output above 300 g/day",
+    "Passage of liquid stools"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Clinically, constipation is a delayed evacuation of the large bowel content, with fewer than 3 stools per week.",
+   "notes": [
+    "Correct: clinical aspect on the definition slide.",
+    "Correct: <3 stools/week is the clinical threshold.",
+    "Wrong: quantitative aspect is a reduced amount, <100 g/day.",
+    "Wrong: constipated stools are hard from dehydration."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/04.jpg",
+     "lec": "Constipation",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "Regarding constipation as a complaint:",
+   "options": [
+    "It is one of the most common gastrointestinal complaints",
+    "It is subdivided into primary (functional) and secondary forms",
+    "It is a rare complaint with a single etiology",
+    "Its evaluation does not require a systematic approach"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Constipation is one of the most common GI complaints, with several subtypes (primary/secondary; slow transit/outlet dysfunction) and several etiologies; a systematic approach leads to diagnosis.",
+   "notes": [
+    "Correct: stated on the slide.",
+    "Correct: one of the subtype pairs.",
+    "Wrong: common, with several etiologies.",
+    "Wrong: a systematic approach leads to effective diagnosis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/05.jpg",
+     "lec": "Constipation",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "Primary constipation is characterised by:",
+   "options": [
+    "Often a chronic course",
+    "Being often isolated",
+    "Being functional",
+    "A recent onset as a complication of an underlying disease"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Primary constipation is often chronic and isolated: functional constipation, with two mechanisms (slow transit, outlet dysfunction).",
+   "notes": [
+    "Correct: often chronic.",
+    "Correct: often isolated.",
+    "Correct: also called functional constipation.",
+    "Wrong: recent onset with an underlying condition defines secondary constipation."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/06.jpg",
+     "lec": "Constipation",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "About slow colonic transit:",
+   "options": [
+    "Stool moves slowly through the colon",
+    "It is synonymous with outlet dysfunction",
+    "It may be associated with hyperspasticity and increased secondary contractions",
+    "It is mainly caused by failure of the pelvic floor to relax"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Slow transit = delayed movement of stool through the colon, often with reduced motility or hyperspasticity with increased secondary colonic contractions.",
+   "notes": [
+    "Correct: definition on the slide.",
+    "Wrong: outlet dysfunction is the other, distinct mechanism of primary constipation.",
+    "Correct: hyperspasticity is also possible (spastic colon).",
+    "Wrong: pelvic floor failure to relax is outlet dysfunction."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/07.jpg",
+     "lec": "Constipation",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "Outlet dysfunction is defined as impaired rectal evacuation due to:",
+   "options": [
+    "Inadequate propulsion and/or increased resistance",
+    "Accelerated colonic transit with liquid stools",
+    "Excess water secretion into the colonic lumen",
+    "Isolated reduction of right-sided colonic contractions"
+   ],
+   "answer": 0,
+   "why": "Outlet dysfunction: impaired rectal evacuation from inadequate rectal propulsive forces, increased resistance to evacuation, or both.",
+   "notes": [
+    "Correct: either or both mechanisms per the slide.",
+    "Wrong: transit is not accelerated in outlet dysfunction.",
+    "Wrong: excess water absorption, not secretion, hardens stools.",
+    "Wrong: reduced colonic contractions describe slow transit."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/08.jpg",
+     "lec": "Constipation",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Regarding the pelvic floor and defecation:",
+   "options": [
+    "Pelvic floor muscles should contract during normal defecation",
+    "In outlet dysfunction, pelvic floor muscles contract or fail to relax",
+    "This obstruction causes a sensation of incomplete evacuation",
+    "Outlet dysfunction is a form of secondary constipation"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "why": "Normally the pelvic floor relaxes to let stool pass; in outlet dysfunction it contracts or fails to relax, obstructing expulsion with a feeling of incomplete evacuation.",
+   "notes": [
+    "Wrong: they should relax.",
+    "Correct: paradoxical contraction or failure to relax.",
+    "Correct: stated on the slide.",
+    "Wrong: it is a mechanism of primary (functional) constipation."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/08.jpg",
+     "lec": "Constipation",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "About secondary constipation:",
+   "options": [
+    "It is more recent in onset",
+    "It is usually chronic and isolated",
+    "It may be associated with non-digestive conditions",
+    "It has no identifiable cause"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Secondary constipation is more recent, occurs as a symptom or complication of an underlying condition, digestive or non-digestive.",
+   "notes": [
+    "Correct: more recent in onset.",
+    "Wrong: chronic and isolated describes primary constipation.",
+    "Correct: digestive or non-digestive issues.",
+    "Wrong: it results from an identifiable condition."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/09.jpg",
+     "lec": "Constipation",
+     "n": 9
+    },
+    {
+     "src": "files/slides/semio-gi-constipation/26.jpg",
+     "lec": "Constipation",
+     "n": 26
+    }
+   ]
+  },
+  {
+   "q": "Hardening of stools in constipation is explained by:",
+   "options": [
+    "Excess water absorption during slow transit",
+    "Increased water secretion into the colonic lumen",
+    "Accelerated colonic transit through the colon",
+    "Reduced water absorption by the colonic mucosa"
+   ],
+   "answer": 0,
+   "why": "Slow transit can result in excess water absorption, leading to hard stools.",
+   "notes": [
+    "Correct: slow transit allows excess water absorption.",
+    "Wrong: secretion would soften stools.",
+    "Wrong: transit is slowed, not accelerated.",
+    "Wrong: absorption is increased."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/10.jpg",
+     "lec": "Constipation",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "Risk factors for constipation to look for in the history include:",
+   "options": [
+    "Older age",
+    "Low-fiber diet",
+    "Sedentary lifestyle",
+    "Pregnancy"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Risk factors listed: older patients, low-fiber diet, sedentary lifestyle, pregnancy.",
+   "notes": [
+    "Correct: listed risk factor.",
+    "Correct: listed risk factor.",
+    "Correct: listed risk factor.",
+    "Correct: listed risk factor."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/11.jpg",
+     "lec": "Constipation",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Characteristics of constipation to specify during the interview include:",
+   "options": [
+    "Duration of symptoms and any recent worsening",
+    "Need for manual maneuvers to evacuate stool",
+    "Type of laxatives currently used",
+    "Nocturnal awakenings to pass watery stools"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Specify chronicity, frequency, straining, consistency, incomplete evacuation, anorectal obstruction, manual maneuvers and current treatment (type of laxatives).",
+   "notes": [
+    "Correct: chronicity.",
+    "Correct: manual maneuvers.",
+    "Correct: current treatment, type of laxatives.",
+    "Wrong: watery stools are not a constipation characteristic."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/12.jpg",
+     "lec": "Constipation",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Stool consistency typical of constipation, as described in the history slide:",
+   "options": [
+    "Hard or pellet-like",
+    "Watery",
+    "Mushy with ragged edges",
+    "Soft blobs passed easily"
+   ],
+   "answer": 0,
+   "why": "Stool consistency: hard or pellet-like stools.",
+   "notes": [
+    "Correct: stated on the slide.",
+    "Wrong: Bristol type 7, liquid.",
+    "Wrong: Bristol type 6.",
+    "Wrong: Bristol type 5."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/12.jpg",
+     "lec": "Constipation",
+     "n": 12
+    },
+    {
+     "src": "files/slides/semio-gi-constipation/13.jpg",
+     "lec": "Constipation",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "On the Bristol Stool Form Scale:",
+   "options": [
+    "Type 1 = separate hard lumps, like nuts, hard to pass",
+    "Type 4 = like a sausage or snake, smooth and soft",
+    "Type 7 = watery, no solid pieces, entirely liquid",
+    "Type 2 = soft blobs with clear-cut edges"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Type 1 hard lumps like nuts; type 4 smooth soft sausage; type 7 entirely liquid. Soft blobs are type 5.",
+   "notes": [
+    "Correct: as shown.",
+    "Correct: as shown.",
+    "Correct: as shown.",
+    "Wrong: type 2 is sausage-shaped but lumpy."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/13.jpg",
+     "lec": "Constipation",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "Associated symptoms to look for in a constipated patient include:",
+   "options": [
+    "Weight loss and fatigue",
+    "Abdominal pain",
+    "Vomiting",
+    "Gastrointestinal bleeding"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Associated symptoms: general (weight loss, fatigue), abdominal pain, vomiting, GI bleeding, extra-digestive symptoms.",
+   "notes": [
+    "Correct: general symptoms.",
+    "Correct: listed.",
+    "Correct: listed.",
+    "Correct: listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/14.jpg",
+     "lec": "Constipation",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Abdominal examination findings in constipation, as described in the lecture:",
+   "options": [
+    "Inspection may show abdominal distension",
+    "Palpation looks for tenderness and masses",
+    "Dullness on percussion is suggestive of fecal loading",
+    "Tympany on percussion is suggestive of fecal loading"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Inspection: distension; palpation: tenderness, masses; percussion: tympany indicates gas, dullness suggests fecal loading.",
+   "notes": [
+    "Correct: inspection finding.",
+    "Correct: palpation.",
+    "Correct: percussion.",
+    "Wrong: tympany indicates gas."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/15.jpg",
+     "lec": "Constipation",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "On auscultation of a constipated patient, hyperactive bowel sounds could suggest:",
+   "options": [
+    "An obstruction",
+    "An ileus with paralysed bowel",
+    "Fecal loading of the colon",
+    "A normal, healthy colon"
+   ],
+   "answer": 0,
+   "why": "Absent bowel sounds could suggest an ileus; hyperactive sounds could suggest an obstruction.",
+   "notes": [
+    "Correct: per the slide.",
+    "Wrong: absent sounds suggest ileus.",
+    "Wrong: fecal loading is suggested by dullness on percussion.",
+    "Wrong: it is a pathological finding here."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/15.jpg",
+     "lec": "Constipation",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "Positions used for the digital rectal examination in constipation:",
+   "options": [
+    "Squatting during straining, to look for rectal prolapse",
+    "Knee-chest position",
+    "Supine position only",
+    "Prone position with arms raised"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Squatting during straining to check for rectal prolapse; knee-chest or left lateral position.",
+   "notes": [
+    "Correct: to detect rectal prolapse.",
+    "Correct: listed.",
+    "Wrong: the slide lists squatting, knee-chest or left lateral.",
+    "Wrong: not listed on the slide."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/16.jpg",
+     "lec": "Constipation",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Inspection of the perianal area during the rectal examination looks for:",
+   "options": [
+    "Hemorrhoids",
+    "Anal fissures",
+    "Anal fistulas",
+    "Rectal strictures"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Inspection: examine the perianal area for hemorrhoids, fissures or fistulas (illustrated on the following slide).",
+   "notes": [
+    "Correct: listed and illustrated.",
+    "Correct: listed and illustrated.",
+    "Correct: listed and illustrated.",
+    "Wrong: strictures are found on palpation."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/16.jpg",
+     "lec": "Constipation",
+     "n": 16
+    },
+    {
+     "src": "files/slides/semio-gi-constipation/17.jpg",
+     "lec": "Constipation",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Other examinations in a constipated patient:",
+   "options": [
+    "Pelvic examination in women may identify pelvic organ prolapse",
+    "Neurological examination may help rule out spinal cord injury",
+    "Neurological examination may help rule out autonomic dysfunction",
+    "Pelvic examination is the reference test for slow transit"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Pelvic exam (women) may find gynecological causes such as pelvic organ prolapse; neurological exam rules out spinal cord injury or autonomic dysfunction.",
+   "notes": [
+    "Correct: gynecological cause.",
+    "Correct: neurological cause.",
+    "Correct: neurological cause.",
+    "Wrong: slow transit is assessed by colonic transit studies."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/18.jpg",
+     "lec": "Constipation",
+     "n": 18
+    },
+    {
+     "src": "files/slides/semio-gi-constipation/24.jpg",
+     "lec": "Constipation",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "The main aims of the work-up in constipation are:",
+   "options": [
+    "To rule out secondary constipation",
+    "If primary, to differentiate slow transit from outlet dysfunction",
+    "To confirm the diagnosis of constipation itself",
+    "To replace the patient history and clinical examination"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Work-up aims: rule out secondary constipation; if primary, differentiate slow transit from outlet dysfunction.",
+   "notes": [
+    "Correct: first aim.",
+    "Correct: second aim.",
+    "Wrong: the diagnosis of constipation is usually easy clinically.",
+    "Wrong: history and exam remain the basis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/19.jpg",
+     "lec": "Constipation",
+     "n": 19
+    },
+    {
+     "src": "files/slides/semio-gi-constipation/31.jpg",
+     "lec": "Constipation",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "q": "Indications for a work-up in constipation include:",
+   "options": [
+    "Persistent or chronic constipation",
+    "Failure of initial treatment",
+    "Need to differentiate slow transit from outlet dysfunction",
+    "A single episode of hard stool"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Indications: persistent/chronic constipation, failure of initial treatment, differentiating types, and alarm symptoms.",
+   "notes": [
+    "Correct: listed.",
+    "Correct: listed.",
+    "Correct: listed.",
+    "Wrong: not an indication."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/20.jpg",
+     "lec": "Constipation",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "Alarm symptoms ('red flags') in constipation include:",
+   "options": [
+    "Weight loss",
+    "Anemia",
+    "Severe abdominal pain",
+    "Family history of inflammatory bowel disease",
+    "Abdominal bloating alone"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Red flags: rectal bleeding, weight loss, anemia, severe abdominal pain, family history of colorectal cancer or IBD.",
+   "notes": [
+    "Correct: red flag.",
+    "Correct: red flag.",
+    "Correct: red flag.",
+    "Correct: red flag.",
+    "Wrong: bloating is a feature of slow transit and IBS-C."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/20.jpg",
+     "lec": "Constipation",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "About colonoscopy in the work-up of constipation:",
+   "options": [
+    "It allows direct visualisation of the colon with biopsies if needed",
+    "It can identify polyps or strictures",
+    "It is a functional test for primary constipation",
+    "It measures anal sphincter pressures"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Colonoscopy, an initial test to rule out organic disease, directly visualises the colon to identify polyps, strictures; biopsies can be taken.",
+   "notes": [
+    "Correct: per the slide.",
+    "Correct: per the slide.",
+    "Wrong: it is an initial test to rule out organic disease.",
+    "Wrong: that is anorectal manometry."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/21.jpg",
+     "lec": "Constipation",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "CT scan or MRI in constipation is especially indicated when:",
+   "options": [
+    "An obstruction or a tumour is suspected",
+    "Dyssynergic defecation is suspected",
+    "The Bristol stool type must be determined",
+    "Anal tone must be assessed"
+   ],
+   "answer": 0,
+   "why": "CT or MRI gives detailed imaging of abdominal structures, especially when an obstruction or tumour is suspected.",
+   "notes": [
+    "Correct: per the slide.",
+    "Wrong: anorectal manometry.",
+    "Wrong: Bristol type comes from the history.",
+    "Wrong: assessed by DRE."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/22.jpg",
+     "lec": "Constipation",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Laboratory tests and what they look for in constipation:",
+   "options": [
+    "CBC: anemia or infection",
+    "Thyroid function tests: hypercalcemia",
+    "Serum electrolytes: hypercalcemia or hypokalemia",
+    "Blood glucose: hypothyroidism"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "CBC for anemia/infection, thyroid tests for hypothyroidism, electrolytes for hypercalcemia/hypokalemia, glucose for diabetes.",
+   "notes": [
+    "Correct: per the slide.",
+    "Wrong: thyroid tests look for hypothyroidism; electrolytes detect hypercalcemia.",
+    "Correct: per the slide.",
+    "Wrong: blood glucose screens for diabetes."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/23.jpg",
+     "lec": "Constipation",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "About the celiac panel in constipation:",
+   "options": [
+    "It includes tissue transglutaminase antibodies",
+    "It includes total serum IgA",
+    "It is requested systematically in every patient",
+    "It is a functional test of anorectal function"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Celiac panel (if indicated): tissue transglutaminase antibodies and total serum IgA.",
+   "notes": [
+    "Correct: listed.",
+    "Correct: listed.",
+    "Wrong: only 'if indicated'.",
+    "Wrong: it is a lab test to rule out organic disease."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/23.jpg",
+     "lec": "Constipation",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "Regarding functional tests in constipation:",
+   "options": [
+    "They are requested based on the clinical context",
+    "They are indicated when primary constipation is suspected",
+    "They include colonoscopy",
+    "They are the first tests to rule out organic disease"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Functional tests are requested by clinical context if primary constipation is suspected: colonic transit studies, defecography, anorectal manometry.",
+   "notes": [
+    "Correct: per the slide.",
+    "Correct: per the slide.",
+    "Wrong: colonoscopy is an initial test to rule out organic disease.",
+    "Wrong: organic disease is ruled out by initial tests (endoscopy, imaging, labs)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/24.jpg",
+     "lec": "Constipation",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "Defecography in constipation:",
+   "options": [
+    "Identifies rectal prolapse or structural defects",
+    "Measures pressures in the anal sphincter and rectum",
+    "Allows biopsies of the colon",
+    "Screens for hypothyroidism"
+   ],
+   "answer": 0,
+   "why": "Defecography identifies rectal prolapse or structural defects.",
+   "notes": [
+    "Correct: per the slide.",
+    "Wrong: that is anorectal manometry.",
+    "Wrong: that is colonoscopy.",
+    "Wrong: that is thyroid function tests."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/24.jpg",
+     "lec": "Constipation",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "In the diagnostic algorithm for constipation:",
+   "options": [
+    "The first step is history, physical examination and digital rectal examination",
+    "With alarm symptoms, functional tests are done first",
+    "Without alarm symptoms, functional tests point toward primary constipation",
+    "With alarm symptoms, the work-up points toward primary constipation"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "After history, exam and DRE: alarm symptoms -> colonoscopy, imaging, labs (secondary); no alarm symptoms -> functional tests (primary).",
+   "notes": [
+    "Correct: top of the algorithm.",
+    "Wrong: alarm symptoms lead to colonoscopy, imaging, labs.",
+    "Correct: 'NO' branch.",
+    "Wrong: alarm symptoms lead toward secondary constipation."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/25.jpg",
+     "lec": "Constipation",
+     "n": 25
+    }
+   ]
+  },
+  {
+   "q": "Secondary (organic) constipation:",
+   "options": [
+    "Results from an identifiable condition",
+    "Is synonymous with functional constipation",
+    "Is diagnosed mainly by anorectal manometry",
+    "Is mainly due to colonic inertia or spastic colon"
+   ],
+   "answer": 0,
+   "why": "Secondary/organic constipation results from an identifiable structural, biochemical or medical condition.",
+   "notes": [
+    "Correct: structural, biochemical or medical condition.",
+    "Wrong: functional = primary.",
+    "Wrong: manometry is a functional test for primary constipation.",
+    "Wrong: colonic inertia is a primary cause."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/26.jpg",
+     "lec": "Constipation",
+     "n": 26
+    }
+   ]
+  },
+  {
+   "q": "Gastrointestinal causes of secondary constipation include:",
+   "options": [
+    "Colorectal cancer",
+    "Congenital megacolon",
+    "Extrinsic compressions",
+    "Rectal prolapse",
+    "Colonic inertia"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "GI disorders: colorectal cancer, benign tumours, strictures, congenital megacolon, extrinsic compressions, fissures, rectal prolapse, hemorrhoids.",
+   "notes": [
+    "Correct: listed.",
+    "Correct: listed.",
+    "Correct: listed.",
+    "Correct: listed.",
+    "Wrong: a cause of primary slow transit constipation."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/26.jpg",
+     "lec": "Constipation",
+     "n": 26
+    }
+   ]
+  },
+  {
+   "q": "Neurological causes of secondary constipation include:",
+   "options": [
+    "Parkinson's disease",
+    "Multiple sclerosis",
+    "Stroke",
+    "Anismus"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Neurological disorders: Parkinson's disease, multiple sclerosis, spinal cord injury, stroke.",
+   "notes": [
+    "Correct: listed.",
+    "Correct: listed.",
+    "Correct: listed.",
+    "Wrong: anismus is a cause of primary outlet dysfunction."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/26.jpg",
+     "lec": "Constipation",
+     "n": 26
+    },
+    {
+     "src": "files/slides/semio-gi-constipation/30.jpg",
+     "lec": "Constipation",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "Endocrine and metabolic causes of secondary constipation listed in the lecture include:",
+   "options": [
+    "Chronic kidney disease",
+    "Hypokalemia",
+    "Hyperthyroidism",
+    "Hypocalcemia"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Endocrine/metabolic: hypothyroidism, diabetes mellitus, hypercalcemia, hypokalemia, chronic kidney disease.",
+   "notes": [
+    "Correct: listed.",
+    "Correct: listed.",
+    "Wrong: it is hypothyroidism that is listed.",
+    "Wrong: it is hypercalcemia that is listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/26.jpg",
+     "lec": "Constipation",
+     "n": 26
+    }
+   ]
+  },
+  {
+   "q": "Medications causing constipation, according to the lecture, include:",
+   "options": [
+    "SSRIs and tricyclic antidepressants",
+    "Antihistamines",
+    "Calcium channel blockers",
+    "Prokinetics such as metoclopramide"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Medications: opioids, antidepressants (tricyclics, SSRIs), antihistamines, iron; the diagram adds calcium channel blockers and antipsychotics.",
+   "notes": [
+    "Correct: listed.",
+    "Correct: listed.",
+    "Correct: in the classification diagram.",
+    "Wrong: prokinetics stimulate motility and are not listed as causes."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/26.jpg",
+     "lec": "Constipation",
+     "n": 26
+    },
+    {
+     "src": "files/slides/semio-gi-constipation/30.jpg",
+     "lec": "Constipation",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "Slow transit constipation is characterised by:",
+   "options": [
+    "Fewer than 3 bowel movements per week",
+    "Abdominal bloating",
+    "Frequent need for digital maneuvers to evacuate",
+    "Hard stools"
+   ],
+   "answers": [
+    0,
+    1,
+    3
+   ],
+   "why": "Slow transit: <3 BM/week, bloating, abdominal pain, hard stools; causes colonic inertia, spastic colon.",
+   "notes": [
+    "Correct: listed.",
+    "Correct: listed.",
+    "Wrong: digital maneuvers characterise outlet dysfunction.",
+    "Correct: listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/27.jpg",
+     "lec": "Constipation",
+     "n": 27
+    }
+   ]
+  },
+  {
+   "q": "Outlet dysfunction is characterised by:",
+   "options": [
+    "Difficulty in evacuation",
+    "Frequent need for a digital maneuver to evacuate",
+    "An empty rectum on digital rectal examination",
+    "Colonic inertia as its main cause"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Outlet dysfunction: difficulty in evacuation, often requires digital maneuver; DRE shows presence of stool.",
+   "notes": [
+    "Correct: listed.",
+    "Correct: listed.",
+    "Wrong: DRE shows presence of stool.",
+    "Wrong: colonic inertia causes slow transit."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/28.jpg",
+     "lec": "Constipation",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "Causes of outlet dysfunction include:",
+   "options": [
+    "Megarectum",
+    "Rectocele",
+    "Colonic inertia",
+    "Spastic colon"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Causes of outlet dysfunction: anismus, megarectum, rectocele, internal rectal prolapse; colonic inertia and spastic colon cause slow transit.",
+   "notes": [
+    "Correct: listed.",
+    "Correct: listed.",
+    "Wrong: cause of slow transit constipation.",
+    "Wrong: cause of slow transit constipation."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/28.jpg",
+     "lec": "Constipation",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "Constipation-predominant irritable bowel syndrome (IBS-C) is characterised by:",
+   "options": [
+    "Abdominal discomfort",
+    "Bloating and cramping",
+    "An organic lesion found on colonoscopy",
+    "Frequent watery stools"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "IBS-C: abdominal discomfort, infrequent bowel movements, bloating, cramping, but no organic pathology.",
+   "notes": [
+    "Correct: listed.",
+    "Correct: listed.",
+    "Wrong: no organic pathology is present.",
+    "Wrong: bowel movements are infrequent."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/29.jpg",
+     "lec": "Constipation",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "Factors involved in IBS-C include:",
+   "options": [
+    "Increased visceral hypersensitivity",
+    "Disruption of the normal gut-brain interaction",
+    "Stress or anxiety exacerbating symptoms",
+    "Reduced visceral sensitivity"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "IBS-C factors: increased visceral hypersensitivity, gut-brain interaction disruption, psychological factors such as stress or anxiety.",
+   "notes": [
+    "Correct: listed.",
+    "Correct: listed.",
+    "Correct: psychological factors.",
+    "Wrong: sensitivity is increased."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/29.jpg",
+     "lec": "Constipation",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "In the classification diagram of constipation, dyssynergic defecation belongs to:",
+   "options": [
+    "Functional defecation disorders",
+    "Slow-transit constipation (myopathy/neuropathy)",
+    "Neurologic disorders of secondary constipation",
+    "Primary colonic disorders of secondary constipation"
+   ],
+   "answer": 0,
+   "why": "Primary constipation: IBS-C, slow transit (myopathy, neuropathy), functional defecation disorders -> dyssynergic defecation.",
+   "notes": [
+    "Correct: per the diagram.",
+    "Wrong: slow transit splits into myopathy and neuropathy.",
+    "Wrong: neurologic: Parkinson, spinal cord injury, diabetes.",
+    "Wrong: stricture, cancer, fissure, proctitis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/30.jpg",
+     "lec": "Constipation",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "Conclusions of the lecture on constipation:",
+   "options": [
+    "The diagnosis of constipation is usually easy",
+    "The etiological diagnosis relies on thorough history and complete examination",
+    "Paraclinical exams are indicated to rule out an organic origin",
+    "Paraclinical exams are needed to make the diagnosis of constipation"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Diagnosis is usually easy; etiology relies on history and complete examination; paraclinical exams rule out an organic origin.",
+   "notes": [
+    "Correct: per the conclusion.",
+    "Correct: per the conclusion.",
+    "Correct: per the conclusion.",
+    "Wrong: diagnosis is clinical; tests look for organic causes."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/31.jpg",
+     "lec": "Constipation",
+     "n": 31
     }
    ]
   }
@@ -6923,6 +10202,1074 @@ SINA.lectures["semio-endo-thyroid"] = {
      "n": 36
     }
    ]
+  },
+  {
+   "q": "Regarding inspection of the thyroid region:",
+   "options": [
+    "The patient is asked to swallow",
+    "Inflammatory signs such as oedema and redness are sought",
+    "A normal thyroid gland is usually visible as a midline bulge on inspection from the front",
+    "A thyroglossal cyst is assessed by asking the patient to stick out the tongue"
+   ],
+   "answers": [
+    0,
+    1,
+    3
+   ],
+   "why": "Inspection is done from front and side, with swallowing, looking for goitre, scars, dilated veins and inflammatory signs; a thyroglossal cyst is tested with 'stick out tongue'. The normal thyroid is not visible.",
+   "notes": [
+    "Correct: 'Swallow' is part of thyroid inspection.",
+    "Correct: search for inflammatory signs (oedema, redness).",
+    "Wrong: the normal thyroid is not visible.",
+    "Correct: thyroglossal cyst - 'stick out tongue'."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p05.jpg",
+     "lec": "Thyroid semiology",
+     "n": 5
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p07.jpg",
+     "lec": "Thyroid semiology",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "According to the slides, T4 increases:",
+   "options": [
+    "Lipolysis",
+    "Intestinal peristalsis",
+    "Nervous excitability",
+    "Protein catabolism, causing muscle loss"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "The slide lists T4: + lipolysis, + intestinal peristaltism, + nervous excitability, + proteic catabolism (muscle loss).",
+   "notes": [
+    "Correct: T4 + lipolysis.",
+    "Correct: T4 + intestinal peristaltism.",
+    "Correct: T4 + nervous excitability.",
+    "Correct: T4 + protein catabolism (muscle loss)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p12.jpg",
+     "lec": "Thyroid semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Regarding T3 and T4 production:",
+   "options": [
+    "T3 makes up about 1/15 of the produced thyroid hormones",
+    "T3 makes up about half of the produced thyroid hormones",
+    "T3 is the main thyroid hormone produced",
+    "T4 is the main thyroid hormone"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "why": "T4 is the main thyroid hormone; T3 is 1/15 of the produced thyroid hormones.",
+   "notes": [
+    "Correct: T3 is 1/15 of produced hormones.",
+    "Wrong: T3 is only about 1/15.",
+    "Wrong: T4 is the main thyroid hormone.",
+    "Correct: T4 is the main thyroid hormone."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p12.jpg",
+     "lec": "Thyroid semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "On thyroid ultrasound, the nodule characteristics to describe include:",
+   "options": [
+    "Size",
+    "Liquid or solid structure",
+    "Margins and vascularisation",
+    "Micro- or macro-calcifications",
+    "Its hot or cold functional status, as judged by tracer uptake"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Ultrasound describes nodule size, structure (liquid/solid), margins, vascularisation and calcifications (micro/macro), and searches for lymphadenopathy. Hot/cold is a scintigraphy finding.",
+   "notes": [
+    "Correct: size is described.",
+    "Correct: US structure liquid or solid.",
+    "Correct: aspect of margins and vascularisation.",
+    "Correct: calcification micro/macro.",
+    "Wrong: hot/cold nodules are defined on scintigraphy."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p13.jpg",
+     "lec": "Thyroid semiology",
+     "n": 13
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p16.jpg",
+     "lec": "Thyroid semiology",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Normal thyroid dimensions on ultrasound per the slides:",
+   "options": [
+    "Lobe height 4-6 cm",
+    "Lobe width 1.5-2.5 cm",
+    "A thickness above 2.5 cm suggests goitre",
+    "Lobe height 10-12 cm, with a thickness up to 4 cm being normal"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Normal dimensions: height 4-6 cm, width 1.5-2.5 cm, thickness 1.5-2.5 cm; if >2.5 cm, goitre.",
+   "notes": [
+    "Correct: normal height 4-6 cm.",
+    "Correct: normal width 1.5-2.5 cm.",
+    "Correct: thickness >2.5 cm = goitre.",
+    "Wrong: normal height is 4-6 cm."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p15.jpg",
+     "lec": "Thyroid semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "Thyroid scintigraphy:",
+   "options": [
+    "Uses iodine-123 or technetium-99m",
+    "Can show an ectopic thyroid",
+    "Classifies nodules as hot (hyperfunctioning) or cold (non-functioning)",
+    "Is described as the optimal, first-line means of evaluating the whole thyroid gland"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Scintigraphy uses I123 or Tc99m, shows size, shape, position/ectopic thyroid, and hot or cold nodules. Ultrasound is called the optimal means of evaluating the gland.",
+   "notes": [
+    "Correct: radioactive I123 or Tc99m.",
+    "Correct: images show position/ectopic thyroid.",
+    "Correct: hyperfunctional 'hot' vs non-functional 'cold'.",
+    "Wrong: ultrasound is the optimal means of evaluation."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p16.jpg",
+     "lec": "Thyroid semiology",
+     "n": 16
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p15.jpg",
+     "lec": "Thyroid semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "In the thyroid dysfunction aetiology table, subacute thyroiditis and painless thyroiditis are classified as:",
+   "options": [
+    "Thyrotoxicosis from destructive thyroiditis",
+    "Hormone insufficiency (hypothyroidism)",
+    "Normal thyroid function",
+    "Hyperthyroidism from hormone overproduction by a functional nodule"
+   ],
+   "answer": 0,
+   "why": "The table splits thyrotoxicosis into hyperthyroidism (Basedow, pregnancy, functional nodule) and destructive thyroiditis (subacute, painless).",
+   "notes": [
+    "Correct: listed under destructive thyroiditis.",
+    "Wrong: the hypothyroid (insufficiency) column holds Hashimoto's disease; subacute and painless thyroiditis sit under thyrotoxicosis.",
+    "Wrong: normal column holds simple goitre and tumours.",
+    "Wrong: functional nodule is a separate hyperthyroid cause."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p17.jpg",
+     "lec": "Thyroid semiology",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Cardiovascular manifestations of hyperthyroidism include:",
+   "options": [
+    "Loud, ringing heart sounds",
+    "A systolic murmur, mostly at the apex",
+    "Increased systolic blood pressure",
+    "Palpitations, sometimes with exertional dyspnoea"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Slide: persistent resting tachycardia with palpitations and sometimes exertional dyspnoea, loud ringing heart sounds, systolic murmur mostly at the apex, increased systolic BP.",
+   "notes": [
+    "Correct: heart sounds are loud and ringing.",
+    "Correct: systolic murmur mostly at the apex.",
+    "Correct: increased systolic BP.",
+    "Correct: palpitations and sometimes exertional dyspnoea."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p20.jpg",
+     "lec": "Thyroid semiology",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "Ocular signs of thyrotoxicosis listed with the general hyperthyroid manifestations are:",
+   "options": [
+    "Retraction of the upper or lower eyelids",
+    "Rarity of blinking",
+    "Fine tremor of the lightly closed lids",
+    "Chemosis with palpebral oedema and scleral injection"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Ocular signs of thyrotoxicosis: lid retraction, lid lag, rarity of the blink, fine tremor of lightly closed lids. Chemosis belongs to Graves' ophthalmopathy.",
+   "notes": [
+    "Correct: lid retraction is a thyrotoxicosis sign.",
+    "Correct: rarity of the blink.",
+    "Correct: fine tremor of the lightly closed lids.",
+    "Wrong: chemosis is listed under Graves' ophthalmopathy."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p22.jpg",
+     "lec": "Thyroid semiology",
+     "n": 22
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p29.jpg",
+     "lec": "Thyroid semiology",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "Graves' ophthalmopathy:",
+   "options": [
+    "Involves inflammation of orbital muscles, periocular tissue and retro-orbital fat",
+    "Can cause diplopia and scleral injection",
+    "Can reduce visual acuity through optic neuropathy",
+    "Is a typical feature of toxic adenoma, accompanying its isolated and painless nodule"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Ophthalmopathy is inflammatory involvement of orbital muscles (myositis), periocular tissues and retro-orbital fat: lid retraction, exophthalmos, chemosis, scleral injection, diplopia, optic neuropathy. Toxic adenoma has no ocular signs.",
+   "notes": [
+    "Correct: myositis, periocular tissue and retro-orbital fat.",
+    "Correct: diplopia and scleral injection are listed.",
+    "Correct: decreased visual acuity = optic neuropathy.",
+    "Wrong: toxic adenoma has no ocular signs."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p29.jpg",
+     "lec": "Thyroid semiology",
+     "n": 29
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p34.jpg",
+     "lec": "Thyroid semiology",
+     "n": 34
+    }
+   ]
+  },
+  {
+   "q": "About Graves' disease:",
+   "options": [
+    "It is an autoimmune disease on a genetically predisposed background",
+    "It may be associated with other autoimmune diseases",
+    "Scintigraphy typically shows a single hot nodule with an extinguished contralateral lobe",
+    "It affects mainly men"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Graves': most common cause, predominantly female, autoimmune on a genetic background, sometimes with other autoimmune diseases; scintigraphy shows diffuse homogeneous hyperfixation.",
+   "notes": [
+    "Correct: autoimmune, genetically predisposed background.",
+    "Correct: sometimes associated with other autoimmune diseases.",
+    "Wrong: diffuse homogeneous hyperfixation; hot nodule = toxic adenoma.",
+    "Wrong: predominantly female."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p25.jpg",
+     "lec": "Thyroid semiology",
+     "n": 25
+    }
+   ]
+  },
+  {
+   "q": "Graves' disease predominantly affects people aged:",
+   "options": [
+    "20-40 years",
+    "Under 10 years",
+    "60-80 years",
+    "Over 80 years"
+   ],
+   "answer": 0,
+   "why": "Epidemiology slide: Graves disease predominantly affects those aged 20-40 years; overall hyperthyroidism incidence rises with age.",
+   "notes": [
+    "Correct: 20-40 years.",
+    "Wrong: not the stated peak.",
+    "Wrong: toxic multinodular goitre is the older-patient cause.",
+    "Wrong: not the stated peak."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p27.jpg",
+     "lec": "Thyroid semiology",
+     "n": 27
+    }
+   ]
+  },
+  {
+   "q": "Investigation findings supporting Graves' disease include:",
+   "options": [
+    "Anti-TPO antibodies, which are described as the highly specific marker of the disease",
+    "Enlarged thyroid volume with 'hell-like' vascularisation on ultrasound",
+    "A fairly symmetric gland with very homogeneous tracer distribution on scintigraphy",
+    "A cold nodule on scintigraphy"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "why": "Graves': TRAb highly specific; ultrasound shows enlarged volume with hell-like vascularisation; scintigraphy shows an enlarged symmetric gland with homogeneous tracer uptake.",
+   "notes": [
+    "Wrong: TSH-receptor antibodies are the specific ones.",
+    "Correct: enlarged volume, hell-like vascularisation.",
+    "Correct: symmetric gland, homogeneous tracer distribution.",
+    "Wrong: Graves gives diffuse hyperfixation."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p32.jpg",
+     "lec": "Thyroid semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "A young woman has low BMI, bilateral lid retraction and proptosis, a diffuse soft non-tender goitre and fine tremor. Expected results include:",
+   "options": [
+    "Low TSH",
+    "Raised T4 and T3",
+    "Positive TSH receptor antibodies",
+    "Raised TSH reflecting loss of negative feedback"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "This Graves' case shows thyrotoxicosis + goitre + eye signs; hyperthyroidism gives suppressed TSH, raised FT4/FT3, and TRAb are specific.",
+   "notes": [
+    "Correct: TSH is suppressed in hyperthyroidism.",
+    "Correct: elevated FT4 and/or FT3.",
+    "Correct: TRAb specific for Graves'.",
+    "Wrong: TSH is suppressed, not raised."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p33.jpg",
+     "lec": "Thyroid semiology",
+     "n": 33
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p24.jpg",
+     "lec": "Thyroid semiology",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "Toxic adenoma is characterised by:",
+   "options": [
+    "Exophthalmos and chemosis",
+    "An isolated, painless nodule on palpation",
+    "Reduced or absent contralateral lobe function on scintigraphy",
+    "Diffuse homogeneous hyperfixation of the whole gland on scintigraphy"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "why": "Toxic adenoma: thyrotoxicosis, no ocular signs, isolated painless nodule; scintigraphy shows a hot nodule with decreased/absent contralateral function.",
+   "notes": [
+    "Wrong: toxic adenoma has no ocular signs.",
+    "Correct: +/- voluminous, isolated, painless nodule.",
+    "Correct: contralateral lobe function reduced or absent.",
+    "Wrong: that is Graves' disease."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p34.jpg",
+     "lec": "Thyroid semiology",
+     "n": 34
+    }
+   ]
+  },
+  {
+   "q": "Toxic multinodular goitre:",
+   "options": [
+    "Occurs in older patients with long-standing euthyroid multinodular goitre",
+    "May extend substernally, so signs of compression must be sought",
+    "Shows multiple functioning nodules or patchy uptake on scintigraphy",
+    "Typically presents with exophthalmos and diplopia in young women aged 20 to 40 years"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "It emerges slowly in older patients with long-standing euthyroid MNG; the goitre may be large and substernal (look for compression); scintigraphy shows multiple functioning nodules or patchy uptake.",
+   "notes": [
+    "Correct: older patients, long-standing euthyroid MNG.",
+    "Correct: may extend substernally; look for compression.",
+    "Correct: multiple functioning nodules or patchy distribution.",
+    "Wrong: eye signs and young women suggest Graves'."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p36.jpg",
+     "lec": "Thyroid semiology",
+     "n": 36
+    }
+   ]
+  },
+  {
+   "q": "The hyperthyroid phase of thyroiditis is due to:",
+   "options": [
+    "Release of stored FT4 and FT3 after inflammation and cytolysis",
+    "Increased new hormone synthesis driven by a raised pituitary TSH secretion",
+    "An autonomous hyperfunctioning nodule",
+    "TSH receptor stimulating antibodies"
+   ],
+   "answer": 0,
+   "why": "Aggression (antibodies, viral, drugs) causes inflammation/cytolysis, releasing FT4 and FT3; the phase is auto-limited by stock depletion.",
+   "notes": [
+    "Correct: inflammation-cytolysis releases stored hormones.",
+    "Wrong: no TSH-driven synthesis.",
+    "Wrong: that is toxic adenoma.",
+    "Wrong: that is Graves' mechanism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p37.jpg",
+     "lec": "Thyroid semiology",
+     "n": 37
+    }
+   ]
+  },
+  {
+   "q": "Features of subacute de Quervain thyroiditis listed in the lecture include:",
+   "options": [
+    "Neck pain",
+    "Tender, firm, enlarged thyroid",
+    "Recent viral infection",
+    "Painless goitre with exophthalmos"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Self-limited thyroid inflammation; key factors: neck pain, tender firm enlarged thyroid, fever, palpitations; other factors: recent viral infection, myalgia, malaise, tremor.",
+   "notes": [
+    "Correct: neck pain is a key diagnostic factor.",
+    "Correct: tender, firm, enlarged thyroid.",
+    "Correct: recent viral infection.",
+    "Wrong: it is painful; exophthalmos suggests Graves'."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p38.jpg",
+     "lec": "Thyroid semiology",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "q": "About hypothyroidism:",
+   "options": [
+    "It causes a generalised slowing down of metabolic processes",
+    "It always has a pituitary origin, with the thyroid gland itself being normal",
+    "It can be of primary (peripheral) or secondary (pituitary) origin",
+    "It results from an excess of thyroid hormones"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Hypothyroidism is a clinical syndrome from thyroid hormone deficiency, causing generalised slowing of metabolism; origin may be primary (peripheral) or secondary (pituitary).",
+   "notes": [
+    "Correct: generalised slowing of metabolic processes.",
+    "Wrong: can also be primary.",
+    "Correct: primary or secondary origin.",
+    "Wrong: it is a hormone deficiency."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p40.jpg",
+     "lec": "Thyroid semiology",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "q": "In the hypo- versus hyperthyroidism table, features common to both include:",
+   "options": [
+    "Fatigue",
+    "Muscle weakness",
+    "Menstrual irregularity",
+    "Goitre",
+    "Tremor of the hands and eyelids"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Shared row: fatigue, muscle weakness, menstrual irregularity, enlarged thyroid (goitre). Tremor is in the hyperthyroid column.",
+   "notes": [
+    "Correct: shared feature.",
+    "Correct: shared feature.",
+    "Correct: shared feature.",
+    "Correct: enlarged thyroid in both.",
+    "Wrong: tremor is listed for hyperthyroidism only."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p41.jpg",
+     "lec": "Thyroid semiology",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "q": "Features of hypothyroidism in the comparison table include:",
+   "options": [
+    "Constipation",
+    "Frequent bowel movements and soft stools",
+    "Depression and impaired memory",
+    "Thinning skin"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Hypothyroid column: weight gain, loss of appetite, cold sensitivity, thinning hair, dry skin, constipation, joint pain, depression/impaired memory, bradycardia.",
+   "notes": [
+    "Correct: constipation.",
+    "Wrong: listed for hyperthyroidism.",
+    "Correct: depression, impaired memory.",
+    "Wrong: thinning skin is hyperthyroid; hypo gives dry skin."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p41.jpg",
+     "lec": "Thyroid semiology",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "q": "Signs of hypothyroidism shown in the lecture figures include:",
+   "options": [
+    "Puffy face and eyelids",
+    "Loss of eyebrow hair",
+    "Carpal tunnel syndrome",
+    "Delayed relaxation of tendon reflexes"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Figures show puffy face, loss of eyebrow hair, carpal tunnel syndrome, slow heartbeat, and delayed relaxation of tendon reflexes.",
+   "notes": [
+    "Correct: puffy face/eyelids.",
+    "Correct: loss of eyebrow hair.",
+    "Correct: carpal tunnel syndrome.",
+    "Correct: delayed relaxation of tendon reflexes."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p42.jpg",
+     "lec": "Thyroid semiology",
+     "n": 42
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p49.jpg",
+     "lec": "Thyroid semiology",
+     "n": 49
+    }
+   ]
+  },
+  {
+   "q": "The hypometabolism syndrome of hypothyroidism is described as:",
+   "options": [
+    "Asthenia that is physical, psychological, intellectual and sexual",
+    "Isolated proximal muscle weakness without any psychological or intellectual change",
+    "Increased energy with insomnia",
+    "Memory loss without any fatigue"
+   ],
+   "answer": 0,
+   "why": "Hypometabolism affects the main vital functions: physical, psychological, intellectual and sexual asthenia.",
+   "notes": [
+    "Correct: global four-domain asthenia.",
+    "Wrong: asthenia is global.",
+    "Wrong: that suggests hyperthyroidism.",
+    "Wrong: fatigue is central."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p44.jpg",
+     "lec": "Thyroid semiology",
+     "n": 44
+    }
+   ]
+  },
+  {
+   "q": "Laboratory signs of organ damage in hypothyroidism include:",
+   "options": [
+    "Macrocytic anaemia",
+    "Dilutional hyponatraemia",
+    "Hyperprolactinaemia",
+    "Hypocholesterolaemia with low LDL"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Organ-damage tests: macrocytic anaemia, dilutional hyponatraemia (fluid retention), hypercholesterolaemia, hyperprolactinaemia. Per the lecture slides; some textbooks say the anaemia is more often normocytic.",
+   "notes": [
+    "Correct: macrocytic anaemia (per slides).",
+    "Correct: dilutional hyponatraemia from fluid retention.",
+    "Correct: hyperprolactinaemia.",
+    "Wrong: cholesterol is raised."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p45.jpg",
+     "lec": "Thyroid semiology",
+     "n": 45
+    }
+   ]
+  },
+  {
+   "q": "Etiological antibody tests for hypothyroidism per the slides are:",
+   "options": [
+    "Anti-TPO antibodies",
+    "Anti-thyroglobulin antibodies",
+    "Calcitonin",
+    "TSH receptor stimulating antibodies"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Etiological investigations: autoantibody assays anti-TPO and anti-Tg, plus CBC, guided by history and clinical picture.",
+   "notes": [
+    "Correct: anti-TPO ab.",
+    "Correct: anti-Tg ab.",
+    "Wrong: calcitonin is a thyroid cancer marker.",
+    "Wrong: stimulating TRAb point to Graves'."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p45.jpg",
+     "lec": "Thyroid semiology",
+     "n": 45
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p57.jpg",
+     "lec": "Thyroid semiology",
+     "n": 57
+    }
+   ]
+  },
+  {
+   "q": "Causes of hypothyroidism listed in the lecture include:",
+   "options": [
+    "Thyroidectomy",
+    "Radioactive iodine (131I) therapy",
+    "Amiodarone or lithium",
+    "Toxic adenoma (autonomous hyperfunctioning nodule)"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Causes: iatrogenic (thyroidectomy+++, 131I, neck irradiation), drugs (antithyroid drugs, lithium, amiodarone, TKI, checkpoint inhibitors), thyroiditis, iodine deficiency, congenital, central.",
+   "notes": [
+    "Correct: thyroidectomy is the main iatrogenic cause.",
+    "Correct: postablative due to 131I.",
+    "Correct: drug-induced causes listed.",
+    "Wrong: toxic adenoma causes hyperthyroidism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p43.jpg",
+     "lec": "Thyroid semiology",
+     "n": 43
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p46.jpg",
+     "lec": "Thyroid semiology",
+     "n": 46
+    }
+   ]
+  },
+  {
+   "q": "Neonatal hypothyroidism can result from:",
+   "options": [
+    "Placental transmission of TSH-receptor blocking antibodies",
+    "Maternal TSH crossing the placenta and suppressing the fetal thyroid",
+    "Maternal excess of T4",
+    "A neonatal toxic adenoma"
+   ],
+   "answer": 0,
+   "why": "The aetiology slide lists neonatal hypothyroidism due to placental transmission of TSH-R blocking antibodies.",
+   "notes": [
+    "Correct: TSH-R blocking antibodies cross the placenta.",
+    "Wrong: not listed.",
+    "Wrong: would not cause hypothyroidism.",
+    "Wrong: toxic adenoma causes hyperthyroidism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p47.jpg",
+     "lec": "Thyroid semiology",
+     "n": 47
+    }
+   ]
+  },
+  {
+   "q": "Myxoedema coma:",
+   "options": [
+    "Mainly affects the elderly",
+    "Combines stupor, hypothermia and hypoventilation",
+    "Is associated with hypoglycaemia and hyponatraemia",
+    "Is a frequent and benign condition, mostly seen in young adults"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Rare end stage of untreated hypothyroidism, in the elderly: weakness, stupor, hypothermia, hypoglycaemia, hyponatraemia, hypoventilation, then shock and death.",
+   "notes": [
+    "Correct: elderly.",
+    "Correct: stupor, hypothermia, hypoventilation.",
+    "Correct: hypoglycaemia and hyponatraemia.",
+    "Wrong: rare and can lead to shock and death."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p48.jpg",
+     "lec": "Thyroid semiology",
+     "n": 48
+    }
+   ]
+  },
+  {
+   "q": "Cardiovascular complications of hypothyroidism include:",
+   "options": [
+    "Myxoedema cardiomyopathy with congestive heart failure",
+    "Pericardial effusion that usually becomes large enough to cause tamponade",
+    "Coronary disease related to raised total and LDL cholesterol",
+    "Persistent resting tachycardia"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Myxoedema cardiomyopathy causing CHF, myxoedema pericarditis (effusion rarely enough to cause tamponade), and coronary disease from high total/LDL cholesterol.",
+   "notes": [
+    "Correct: cardiomyopathy causing CHF.",
+    "Wrong: effusion rarely causes tamponade.",
+    "Correct: CAD linked to high cholesterol and LDL.",
+    "Wrong: hypothyroidism gives bradycardia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p48.jpg",
+     "lec": "Thyroid semiology",
+     "n": 48
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p41.jpg",
+     "lec": "Thyroid semiology",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "q": "On the TSH/T4 synthesis chart:",
+   "options": [
+    "High TSH with normal T4 indicates subclinical hypothyroidism",
+    "Low TSH with normal T4 indicates subclinical hyperthyroidism",
+    "High TSH with normal T4 indicates clinical, full-fledged hyperthyroidism",
+    "Subclinical states always have abnormal T4"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The chart marks 'High TSH, normal T4' as subclinical hypothyroidism and 'Low TSH, normal T4' as subclinical hyperthyroidism.",
+   "notes": [
+    "Correct: subclinical (early) hypothyroidism.",
+    "Correct: subclinical (early) hyperthyroidism.",
+    "Wrong: high TSH points to hypothyroidism.",
+    "Wrong: in subclinical states T4 is normal."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p50.jpg",
+     "lec": "Thyroid semiology",
+     "n": 50
+    }
+   ]
+  },
+  {
+   "q": "A 45-year-old woman has fatigue, weight gain, cold intolerance, constipation, hoarseness, puffy face, dry coarse skin, bradycardia, delayed ankle-jerk relaxation and a neck swelling. Regarding the diagnosis:",
+   "options": [
+    "Hypothyroidism due to Hashimoto thyroiditis is the most likely diagnosis",
+    "Graves' disease is likely, given the goitre",
+    "Subacute (de Quervain) thyroiditis is likely",
+    "Thyroid carcinoma is the most likely diagnosis"
+   ],
+   "answer": 0,
+   "why": "All features are hypothyroid (hypometabolism, bradycardia, delayed reflexes) with a goitre; Hashimoto is the common autoimmune cause.",
+   "notes": [
+    "Correct: classic hypothyroid picture with goitre.",
+    "Wrong: Graves' gives weight loss, heat intolerance, tachycardia.",
+    "Wrong: de Quervain has a painful tender thyroid and fever.",
+    "Wrong: cancer presents as a nodule, not hypometabolism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p51.jpg",
+     "lec": "Thyroid semiology",
+     "n": 51
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p42.jpg",
+     "lec": "Thyroid semiology",
+     "n": 42
+    }
+   ]
+  },
+  {
+   "q": "Clinical features that may be seen in thyroid cancer include:",
+   "options": [
+    "Hoarseness or change in voice",
+    "Cervical lymphadenopathy",
+    "Stridor, an inspiratory sign of upper airway obstruction",
+    "Exophthalmos with chemosis and diplopia as the presenting signs"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Most common presentation is a nodule/mass; features include hoarseness, cervical lymphadenopathy and stridor (harsh high-pitched inspiratory sound of upper airway obstruction).",
+   "notes": [
+    "Correct: hoarseness/change in voice.",
+    "Correct: cervical lymphadenopathy.",
+    "Correct: stridor indicates upper airway obstruction.",
+    "Wrong: exophthalmos belongs to Graves'."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p53.jpg",
+     "lec": "Thyroid semiology",
+     "n": 53
+    }
+   ]
+  },
+  {
+   "q": "On the ultrasound U-score for thyroid nodules:",
+   "options": [
+    "U4 means suspicious",
+    "U4 means benign",
+    "U2 means benign",
+    "U3 means malignant"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "U1 normal, U2 benign, U3 indeterminate/equivocal, U4 suspicious, U5 malignant.",
+   "notes": [
+    "Correct: U4 = suspicious.",
+    "Wrong: U2 = benign; U4 = suspicious.",
+    "Correct: U2 = benign.",
+    "Wrong: U3 = indeterminate/equivocal; U5 = malignant."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p54.jpg",
+     "lec": "Thyroid semiology",
+     "n": 54
+    }
+   ]
+  },
+  {
+   "q": "Regarding fine needle aspiration cytology (FNAC) of thyroid lumps:",
+   "options": [
+    "U1-U2 lesions need FNAC only if high risk for malignancy",
+    "A U3 lesion needs FNAC",
+    "All U2 lesions must be aspirated, whatever the malignancy risk",
+    "U5 lesions do not need FNAC"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "FNAC should be carried out on all U3-U5 lesions; U1 and U2 do not need FNAC unless high risk for malignancy.",
+   "notes": [
+    "Correct: only if high risk.",
+    "Correct: U3-U5 all need FNAC.",
+    "Wrong: U2 needs FNAC only if high risk.",
+    "Wrong: U5 needs FNAC."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p54.jpg",
+     "lec": "Thyroid semiology",
+     "n": 54
+    }
+   ]
+  },
+  {
+   "q": "In the thyroid cancer staging figure:",
+   "options": [
+    "T1a corresponds to a tumour of 0-1 cm",
+    "T2 corresponds to a tumour over 4 cm that is confined to the thyroid",
+    "T4a: invasion of other structures, surgery still possible",
+    "T1a means invasion of the trachea"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Figure: T1a tumour 0-1 cm; T2 tumour 2-4 cm; T4a tumour invasion of other structures with surgical removal still possible.",
+   "notes": [
+    "Correct: T1a = 0-1 cm.",
+    "Wrong: T2 = 2-4 cm.",
+    "Correct: T4a definition on the figure.",
+    "Wrong: T1a is a small intrathyroid tumour."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p56.jpg",
+     "lec": "Thyroid semiology",
+     "n": 56
+    }
+   ]
+  },
+  {
+   "q": "The diagnostic algorithm for thyroid cancer includes:",
+   "options": [
+    "Thyroid palpation and ultrasound",
+    "Thyroid hormone tests plus calcitonin as a tumour marker",
+    "Fine needle aspiration biopsy, then histopathology",
+    "Thyroid scintigraphy as the mandatory first step before palpation"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Algorithm: 1 palpation, 2 ultrasound, 3 thyroid hormones + tumour markers (calcitonin), 4 FNA biopsy, 5 histopathology.",
+   "notes": [
+    "Correct: steps 1 and 2.",
+    "Correct: step 3 includes calcitonin.",
+    "Correct: steps 4 and 5.",
+    "Wrong: scintigraphy is not in the algorithm."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p57.jpg",
+     "lec": "Thyroid semiology",
+     "n": 57
+    }
+   ]
+  },
+  {
+   "q": "According to the lecture summary:",
+   "options": [
+    "20-60% of adults have thyroid nodules, usually under 1 cm",
+    "Hashimoto thyroiditis is very common",
+    "Thyroid ultrasound is expensive and rarely informative",
+    "The family history and radiation exposure are irrelevant for a thyroid lump"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Summary: 20-60% of adults have nodules (usually <1 cm); ultrasound is accessible, cheap and informative; Hashimoto is very common. Lump work-up includes family history and radiation exposure.",
+   "notes": [
+    "Correct: very frequent pathology.",
+    "Correct: Hashimoto thyroiditis is very common.",
+    "Wrong: accessible, cheap and gives important information.",
+    "Wrong: both must be carefully evaluated."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p58.jpg",
+     "lec": "Thyroid semiology",
+     "n": 58
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p52.jpg",
+     "lec": "Thyroid semiology",
+     "n": 52
+    }
+   ]
   }
  ],
  "cards": [
@@ -7305,6 +11652,1173 @@ SINA.lectures["semio-endo-adrenal"] = {
      "src": "files/slides/semio-endo-adrenal/26.jpg",
      "lec": "Adrenal semiology",
      "n": 26
+    }
+   ]
+  },
+  {
+   "q": "Hypercortisolism is defined as:",
+   "options": [
+    "All clinical and biological signs of a chronic glucocorticoid excess",
+    "A brief, transient rise in cortisol during an acute stress such as surgery",
+    "A chronic excess of mineralocorticoids with hypertension and low potassium",
+    "A deficit of adrenal androgens"
+   ],
+   "answer": 0,
+   "why": "Definition: all the clinical and biological manifestations caused by a chronic excess of glucocorticoids; adrenal hypercortisolism is called Cushing's syndrome.",
+   "notes": [
+    "Slide definition.",
+    "Wrong: the excess is chronic.",
+    "Wrong: that is hyperaldosteronism.",
+    "Wrong: unrelated to the definition."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p15.jpg",
+     "lec": "Adrenal semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "According to the pathophysiology diagram, glucocorticoid excess causes:",
+   "options": [
+    "Glaucoma",
+    "Peptic ulcerations",
+    "Reduced linear growth",
+    "Increased bone formation"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The diagram lists eye: glaucoma; GI tract: peptic ulcerations; growth: decreased linear growth; bone: decreased bone formation and mass, osteoporosis.",
+   "notes": [
+    "Eye effect on slide 16.",
+    "GI effect on slide 16.",
+    "Growth effect on slide 16.",
+    "Wrong: bone formation and bone mass decrease."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p16.jpg",
+     "lec": "Adrenal semiology",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Carbohydrate and lipid effects of glucocorticoid excess (diabetogenic effect) include:",
+   "options": [
+    "More hepatic glycogen deposition",
+    "More peripheral insulin resistance",
+    "More gluconeogenesis",
+    "More free fatty acid production"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "The diagram lists increased hepatic glycogen deposition, peripheral insulin resistance, gluconeogenesis and free fatty acid production, giving a diabetogenic effect.",
+   "notes": [
+    "Shown on slide 16.",
+    "Shown on slide 16.",
+    "Shown on slide 16.",
+    "Shown on slide 16."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p16.jpg",
+     "lec": "Adrenal semiology",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Cushing disease versus Cushing syndrome:",
+   "options": [
+    "Their symptoms are the same",
+    "Long-term glucocorticoid medication causes Cushing syndrome",
+    "Cushing disease has a fundamentally different clinical picture",
+    "Cushing disease is caused by an adrenal adenoma"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The comparison chart says symptoms are the same for both; causes of Cushing syndrome include long-term glucocorticoid use, while Cushing disease is the pituitary ACTH source.",
+   "notes": [
+    "Chart: same for syndrome and disease.",
+    "Listed cause of Cushing syndrome.",
+    "Wrong: symptoms are the same.",
+    "Wrong: Cushing disease is pituitary ACTH excess."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p18.jpg",
+     "lec": "Adrenal semiology",
+     "n": 18
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p19.jpg",
+     "lec": "Adrenal semiology",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Causes of endogenous Cushing syndrome and their share on the causes chart:",
+   "options": [
+    "Pituitary ACTH source, 60-70%",
+    "Adrenal adenoma, 60-70%",
+    "Ectopic ACTH, 30-40%",
+    "Adrenal carcinoma, accounting for 10-20% of cases"
+   ],
+   "answer": 0,
+   "why": "The causes chart gives pituitary 60-70%, ectopic hormones 5-10%, adrenal adenoma 10-20% and adrenal carcinoma 5-7%.",
+   "notes": [
+    "Slide value.",
+    "Wrong: adenoma is 10-20%.",
+    "Wrong: ectopic is 5-10%.",
+    "Wrong: carcinoma is 5-7%."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p19.jpg",
+     "lec": "Adrenal semiology",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Sources of ectopic ACTH shown on the causes chart:",
+   "options": [
+    "Small cell lung carcinoma",
+    "Carcinoid tumour",
+    "Medullary thyroid carcinoma",
+    "Adrenal carcinoma"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Ectopic hormone sources: small cell lung cancer, carcinoid, medullary thyroid carcinoma and pancreatic islet cell tumour. Adrenal carcinoma is ACTH-independent.",
+   "notes": [
+    "Ectopic source.",
+    "Ectopic source.",
+    "Ectopic source.",
+    "Wrong: it is an ACTH-independent adrenal cause."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p19.jpg",
+     "lec": "Adrenal semiology",
+     "n": 19
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p33.jpg",
+     "lec": "Adrenal semiology",
+     "n": 33
+    }
+   ]
+  },
+  {
+   "q": "Muscle wasting in Cushing syndrome:",
+   "options": [
+    "Is often proximal",
+    "Is most prominent in the lower limbs",
+    "Goes with low fat-free mass and low total body protein",
+    "Mainly affects the small muscles of the hands"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Muscle wasting is often proximal and most prominent in the lower extremities (myopathy); hypercortisolism is linked to low fat-free mass and low total body protein.",
+   "notes": [
+    "Slide 21.",
+    "Slide 21.",
+    "Slide 21.",
+    "Wrong: it is proximal."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p21.jpg",
+     "lec": "Adrenal semiology",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "On the fat-deposit drawing, the buffalo hump corresponds to the:",
+   "options": [
+    "Dorsal scapular deposit",
+    "Temporal deposit",
+    "Episternal deposit",
+    "Supraclavicular deposit above the collarbones"
+   ],
+   "answer": 0,
+   "why": "The drawing shows temporal, supraclavicular, dorsal scapular and episternal fat deposits; the dorsal scapular one is the buffalo hump between the shoulders.",
+   "notes": [
+    "Fat hump between the shoulders.",
+    "Wrong: this rounds the face.",
+    "Wrong: in front of the sternum.",
+    "Wrong: above the clavicles."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p22.jpg",
+     "lec": "Adrenal semiology",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Stretch marks in Cushing syndrome are:",
+   "options": [
+    "Large, over 1 cm wide",
+    "Found on the abdomen, axillae and breasts",
+    "Thin, white and under 1 mm wide",
+    "Limited to the face"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Skin atrophy: pink or purple stretch marks, large (>1 cm), on the abdomen, axillary area and breasts.",
+   "notes": [
+    "Slide 23.",
+    "Slide 23; photos on slides 28-29.",
+    "Wrong: they are pink or purple and large.",
+    "Wrong: abdomen, axillae, breasts."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p23.jpg",
+     "lec": "Adrenal semiology",
+     "n": 23
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p28.jpg",
+     "lec": "Adrenal semiology",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "Psychiatric features or complications of hypercortisolism include:",
+   "options": [
+    "Euphoria, sometimes with delirium or mania",
+    "Emotional lability and paranoia",
+    "Insomnia",
+    "Agitation"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Psychiatric repercussions: euphoria with sometimes delirium or mania, depression with suicidal thoughts, emotional lability, paranoia; complications: insomnia, agitation, euphoria, maniac or depressive states.",
+   "notes": [
+    "Slide 23.",
+    "Slide 23.",
+    "Complication on slide 37.",
+    "Complication on slide 37."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p23.jpg",
+     "lec": "Adrenal semiology",
+     "n": 23
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p37.jpg",
+     "lec": "Adrenal semiology",
+     "n": 37
+    }
+   ]
+  },
+  {
+   "q": "Bone catabolism in Cushing syndrome causes:",
+   "options": [
+    "Pain, especially spinal pain",
+    "Osteopetrosis",
+    "Pathologic fractures",
+    "Increased bone formation"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Bone catabolism: pain, especially spinal; osteoporosis with vertebral compression; pathologic fractures.",
+   "notes": [
+    "Slide 24.",
+    "Wrong: osteoporosis, not osteopetrosis.",
+    "Slide 24.",
+    "Wrong: bone formation decreases."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p24.jpg",
+     "lec": "Adrenal semiology",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "Impaired glucose tolerance or diabetes occurs in Cushing syndrome in about:",
+   "options": [
+    "30% of patients",
+    "5% of patients",
+    "90% of patients",
+    "Every patient, without exception"
+   ],
+   "answer": 0,
+   "why": "Other features: impaired glucose tolerance/diabetes mellitus (30%), hyperlipidaemia, increased susceptibility to infections.",
+   "notes": [
+    "Slide value.",
+    "Wrong: slide says 30%.",
+    "Wrong: slide says 30%.",
+    "Wrong: slide says 30%."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p25.jpg",
+     "lec": "Adrenal semiology",
+     "n": 25
+    }
+   ]
+  },
+  {
+   "q": "First-step tests showing excessive cortisol secretion or a disturbed rhythm:",
+   "options": [
+    "24 h urinary free cortisol",
+    "Midnight salivary cortisol",
+    "Serum cortisol cycle with high midnight cortisol",
+    "Plasma ACTH at 8-9 a.m."
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Initial tests: 24 h urinary free cortisol, midnight salivary cortisol, and serum cortisol cycle (high midnight cortisol). ACTH is used later to find the cause.",
+   "notes": [
+    "Initial test.",
+    "Initial test.",
+    "Initial test (circadian rhythm).",
+    "Wrong: ACTH is a cause-finding test."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p30.jpg",
+     "lec": "Adrenal semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "Regarding dexamethasone suppression tests in suspected Cushing:",
+   "options": [
+    "The 1 mg overnight test is the best screening test",
+    "The low-dose test uses 2 mg/day for 48 h",
+    "The low-dose test uses 8 mg/day",
+    "The high-dose test is the first screening test"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The 1 mg overnight DXM test is the best screening test; the LDDST (2 mg/day for 48 h) is optimal in psychiatric problems, morbid obesity or alcoholism. The HDDST is for finding the cause.",
+   "notes": [
+    "Slide 30.",
+    "Slide 30.",
+    "Wrong: 2 mg/day.",
+    "Wrong: HDDST follows a high or normal ACTH."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p30.jpg",
+     "lec": "Adrenal semiology",
+     "n": 30
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p31.jpg",
+     "lec": "Adrenal semiology",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "q": "Plasma ACTH at 8-9 a.m. in confirmed Cushing syndrome:",
+   "options": [
+    "Low ACTH points to an ACTH-independent cause",
+    "After low ACTH, the next step is adrenal localising studies",
+    "An inappropriately normal ACTH rules out an ACTH-secreting tumour",
+    "High ACTH points to an adrenal adenoma"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Low ACTH means ACTH-independent Cushing (adrenal tumours), then adrenal localising studies; high or inappropriately normal ACTH means an ACTH-secreting neoplasm (pituitary or ectopic), then HDDST.",
+   "notes": [
+    "Slide 31.",
+    "Slide 31.",
+    "Wrong: inappropriately normal ACTH also suggests ACTH secretion.",
+    "Wrong: adrenal tumours lower ACTH."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p31.jpg",
+     "lec": "Adrenal semiology",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "q": "Other lab changes due to excess cortisol include:",
+   "options": [
+    "Hypokalaemia",
+    "Neutrophilic leukocytosis with lymphopenia",
+    "Hyperkalaemia",
+    "Anaemia"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Other lab tests: impaired glucose tolerance or diabetes, polycythaemia, hyperleukocytosis with PNN, lymphopenia, hypokalaemia, hypertriglyceridaemia.",
+   "notes": [
+    "Slide 32.",
+    "Slide 32.",
+    "Wrong: potassium is low.",
+    "Wrong: polycythaemia is described."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p32.jpg",
+     "lec": "Adrenal semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "ACTH-dependent Cushing syndrome:",
+   "options": [
+    "Has normal or raised ACTH",
+    "Can come from a corticotroph pituitary adenoma",
+    "Can come from ectopic ACTH or CRH secretion",
+    "Can come from an adrenal carcinoma"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "ACTH-dependent Cushing: normal or elevated ACTH, of pituitary origin (corticotroph adenoma) or ectopic/paraneoplastic ACTH or CRH secretion (small cell lung cancer, neuroendocrine tumours).",
+   "notes": [
+    "Slide 33.",
+    "Pituitary origin.",
+    "Ectopic origin.",
+    "Wrong: adrenal tumours are ACTH-independent."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p33.jpg",
+     "lec": "Adrenal semiology",
+     "n": 33
+    }
+   ]
+  },
+  {
+   "q": "Complications of Cushing syndrome include:",
+   "options": [
+    "Hyperuricaemia",
+    "Hypertensive retinopathy",
+    "Viral and fungal infections",
+    "Low total cholesterol"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Complications: diabetes, dyslipidaemia (high TC, high TG), hyperuricaemia; hypertension with LVH and retinopathy; bacterial, viral and mycotic infections; thromboembolism.",
+   "notes": [
+    "Metabolic complication.",
+    "Cardiovascular complication.",
+    "Increased infection risk.",
+    "Wrong: total cholesterol is high."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p36.jpg",
+     "lec": "Adrenal semiology",
+     "n": 36
+    }
+   ]
+  },
+  {
+   "q": "About adrenal insufficiency (AI):",
+   "options": [
+    "Primary AI is a lesion of both adrenal glands",
+    "Secondary AI is due to impaired corticotropic control",
+    "Primary AI is a lesion of one adrenal gland",
+    "It is always a total deficit of every adrenal hormone"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "AI is a more or less complete deficit of glucocorticoids and/or mineralocorticoids and/or androgens; primary = lesion of both adrenals; secondary = impaired corticotropic control.",
+   "notes": [
+    "Slide 39.",
+    "Slide 39.",
+    "Wrong: both glands are affected.",
+    "Wrong: deficit is more or less complete."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p39.jpg",
+     "lec": "Adrenal semiology",
+     "n": 39
+    }
+   ]
+  },
+  {
+   "q": "Symptoms of adrenal insufficiency listed on the slides include:",
+   "options": [
+    "Hypoglycaemic episodes when fasting",
+    "Depressive or psychotic disorders",
+    "Amenorrhoea",
+    "Nausea and abdominal pain"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "GI disturbances (nausea, abdominal pain, diarrhoea), hypoglycaemia from cortisol deficiency, depressive or psychotic disorders and amenorrhoea are listed.",
+   "notes": [
+    "Slide 41.",
+    "Slide 41.",
+    "Slide 41.",
+    "Slide 40."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p40.jpg",
+     "lec": "Adrenal semiology",
+     "n": 40
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p41.jpg",
+     "lec": "Adrenal semiology",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "q": "Hyperpigmentation in primary adrenal insufficiency:",
+   "options": [
+    "Is accentuated over knuckles, toes, elbows and knees",
+    "Appears in scars formed after the onset of ACTH excess",
+    "Appears in old scars formed before the disease",
+    "Spares the mucosa"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Predominant in sun-exposed areas and pressure areas; scars formed after the onset of ACTH excess become pigmented, older ones do not; it also affects buccal mucosa and gums.",
+   "notes": [
+    "Slide 42.",
+    "Slide 42.",
+    "Wrong: older scars do not.",
+    "Wrong: buccal mucosa and gums are pigmented."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p42.jpg",
+     "lec": "Adrenal semiology",
+     "n": 42
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p43.jpg",
+     "lec": "Adrenal semiology",
+     "n": 43
+    }
+   ]
+  },
+  {
+   "q": "A positive Schellong test is:",
+   "options": [
+    "A fall in systolic BP of at least 20 mmHg within 3 min of standing",
+    "A fall in diastolic BP of at least 10 mmHg within 3 min of standing",
+    "A fall in systolic BP of 10 mmHg after 10 min",
+    "A rise in BP on standing"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Systolic hypotension is present in about 90%, with orthostatic dizziness or syncope; positive Schellong = SBP fall >= 20 mmHg or DBP fall >= 10 mmHg within 3 min of standing.",
+   "notes": [
+    "Slide 47.",
+    "Slide 47.",
+    "Wrong threshold and time.",
+    "Wrong: BP falls."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p47.jpg",
+     "lec": "Adrenal semiology",
+     "n": 47
+    }
+   ]
+  },
+  {
+   "q": "An 8 a.m. serum cortisol of 3 ug/dl means:",
+   "options": [
+    "Adrenal insufficiency is confirmed",
+    "Adrenal insufficiency is excluded",
+    "Dynamic tests are needed before any conclusion",
+    "Cortisol is normal"
+   ],
+   "answer": 0,
+   "why": "8 am cortisol < 5 ug/dl (80 nmol/l) means AI; > 18 ug/dl excludes AI; intermediate values need dynamic tests.",
+   "notes": [
+    "Below 5 ug/dl.",
+    "Wrong: exclusion needs > 18 ug/dl.",
+    "Wrong: only intermediate values need them.",
+    "Wrong: it is low."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p48.jpg",
+     "lec": "Adrenal semiology",
+     "n": 48
+    }
+   ]
+  },
+  {
+   "q": "The standard synacthen test consists of:",
+   "options": [
+    "Cortisol at T0 and T60 after 250 ug tetracosactide IM",
+    "Cortisol the morning after 1 mg dexamethasone at midnight",
+    "GH after a 75 g oral glucose load",
+    "Cortisol after 8 mg dexamethasone"
+   ],
+   "answer": 0,
+   "why": "Cortisolaemia is measured at T0 and T60 min after IM injection of 250 ug tetracosactide; an insufficient rise (< 18 ug/dl) confirms adrenal insufficiency.",
+   "notes": [
+    "Slide 49.",
+    "Wrong: Cushing screening test.",
+    "Wrong: acromegaly test.",
+    "Wrong: high-dose DXM test for Cushing's cause."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p49.jpg",
+     "lec": "Adrenal semiology",
+     "n": 49
+    }
+   ]
+  },
+  {
+   "q": "Biological clues of adrenal insufficiency include:",
+   "options": [
+    "Hyponatraemia",
+    "Hyperkalaemia",
+    "Microcytic hypochromic anaemia",
+    "Frequent hypercalcaemia"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Other tests: hyponatraemia, hyperkalaemia, hypercalcaemia is rare; fasting glucose low-normal; CBC: moderate normochromic normocytic anaemia.",
+   "notes": [
+    "Slide 50.",
+    "Slide 50.",
+    "Wrong: anaemia is normochromic, normocytic.",
+    "Wrong: hypercalcaemia is rare."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p50.jpg",
+     "lec": "Adrenal semiology",
+     "n": 50
+    }
+   ]
+  },
+  {
+   "q": "In confirmed adrenal insufficiency, an 8 a.m. ACTH that is high means:",
+   "options": [
+    "A peripheral (adrenal) origin",
+    "A central (pituitary or hypothalamic) origin",
+    "A pituitary tumour",
+    "A normal result"
+   ],
+   "answer": 0,
+   "why": "Etiologic workup first step: 8 am ACTH high = peripheral origin; normal or low = central origin.",
+   "notes": [
+    "Slide 51.",
+    "Wrong: central origin has normal or low ACTH.",
+    "Wrong: pituitary causes have low ACTH.",
+    "Wrong: ACTH is raised by loss of feedback."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p51.jpg",
+     "lec": "Adrenal semiology",
+     "n": 51
+    }
+   ]
+  },
+  {
+   "q": "Causes of primary adrenal insufficiency include:",
+   "options": [
+    "Autoimmune Addison's disease",
+    "Bilateral adrenal haemorrhage",
+    "Bilateral adrenal metastases",
+    "A pituitary tumour"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Primary AI: Addison's disease (anti-21-hydroxylase antibodies), adrenal tuberculosis, and other causes: haemorrhage, metastasis, infection.",
+   "notes": [
+    "Slide 52.",
+    "Slide 52; CT on slide 55.",
+    "Slide 52; CT on slide 55.",
+    "Wrong: that causes secondary AI."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p52.jpg",
+     "lec": "Adrenal semiology",
+     "n": 52
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p55.jpg",
+     "lec": "Adrenal semiology",
+     "n": 55
+    }
+   ]
+  },
+  {
+   "q": "In primary adrenal insufficiency, calcified adrenals on imaging suggest:",
+   "options": [
+    "Adrenal tuberculosis",
+    "Autoimmune Addison's disease",
+    "Pituitary failure",
+    "Bilateral adrenal haemorrhage"
+   ],
+   "answer": 0,
+   "why": "Per the slides, adrenal tuberculosis shows calcifications on imaging (CT on slide 54); autoimmune Addison's is identified by anti-21-hydroxylase antibodies; bilateral haemorrhage shows large, heterogeneous glands.",
+   "notes": [
+    "Slides 52 and 54.",
+    "Wrong: the slides link autoimmune Addison's to anti-21-hydroxylase antibodies, not calcifications.",
+    "Wrong: adrenals are not the lesion.",
+    "Wrong: large, heterogeneous glands."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p52.jpg",
+     "lec": "Adrenal semiology",
+     "n": 52
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p54.jpg",
+     "lec": "Adrenal semiology",
+     "n": 54
+    }
+   ]
+  },
+  {
+   "q": "Secondary adrenal insufficiency differs from primary by:",
+   "options": [
+    "No hyperpigmentation, with pale skin",
+    "More frequent hypoglycaemic events",
+    "Hypotension and digestive signs are rare",
+    "Marked hyperkalaemia"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Secondary AI: no hyperpigmentation (ACTH deficiency, pale depigmentation); hypoglycaemia is more frequent; hypotension and digestive disorders are rare as mineralocorticoid secretion is preserved; no hyperkalaemia.",
+   "notes": [
+    "Slide 56.",
+    "Slide 56.",
+    "Slide 56: mineralocorticoids kept.",
+    "Wrong: no hyperkalaemia (slide 57)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p56.jpg",
+     "lec": "Adrenal semiology",
+     "n": 56
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p57.jpg",
+     "lec": "Adrenal semiology",
+     "n": 57
+    }
+   ]
+  },
+  {
+   "q": "Acute adrenal insufficiency can be triggered by:",
+   "options": [
+    "Infection, trauma or surgery",
+    "Stopping treatment",
+    "Diuretics or laxative abuse",
+    "A salt-free diet"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Acute AI: natural evolution of slow AI, revealed by an intercurrent illness (infection, trauma, surgery), therapeutic error (stopping treatment, diuretics, laxatives, salt-free diet) or haemorrhage on healthy adrenals.",
+   "notes": [
+    "Acute episode on slide 58.",
+    "Therapeutic error.",
+    "Therapeutic error.",
+    "Therapeutic error."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p58.jpg",
+     "lec": "Adrenal semiology",
+     "n": 58
+    }
+   ]
+  },
+  {
+   "q": "The clinical picture of acute adrenal insufficiency includes:",
+   "options": [
+    "Cardiovascular collapse with a thready pulse",
+    "Abdominal and lumbar fossa pain with vomiting",
+    "Confusion, even coma",
+    "A hypertensive crisis"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Cardiovascular collapse (major hypotension, pallor, sweating, cold extremities, thready pulse), intense digestive signs, neurological disorders up to coma and dehydration.",
+   "notes": [
+    "Slide 59.",
+    "Slide 59.",
+    "Slide 59.",
+    "Wrong: major hypotension occurs."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p59.jpg",
+     "lec": "Adrenal semiology",
+     "n": 59
+    }
+   ]
+  },
+  {
+   "q": "In acute adrenal insufficiency:",
+   "options": [
+    "Diagnosis is confirmed by the response to high-dose hydrocortisone",
+    "Hormone samples are taken without delaying treatment",
+    "Treatment waits for hormone results",
+    "Hypoglycaemia excludes the diagnosis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Labs: hyponatraemia, hyperkalaemia with ECG changes, haemoconcentration, hypoglycaemia; diagnosis confirmed by response to high-dose hydrocortisone, with assays done without delaying treatment.",
+   "notes": [
+    "Slide 60.",
+    "Slide 60.",
+    "Wrong: treatment is not delayed.",
+    "Wrong: hypoglycaemia is a lab sign."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p60.jpg",
+     "lec": "Adrenal semiology",
+     "n": 60
+    }
+   ]
+  },
+  {
+   "q": "The hormone pattern of autoimmune (primary) adrenal insufficiency is:",
+   "options": [
+    "High ACTH, low cortisol, low aldosterone",
+    "Low ACTH, low cortisol, normal aldosterone",
+    "High ACTH, high cortisol, normal aldosterone",
+    "Low ACTH, high cortisol, low aldosterone"
+   ],
+   "answer": 0,
+   "why": "Slide 61: autoimmune AI = high ACTH (hyperpigmentation), low cortisol + low aldosterone; secondary AI = low ACTH, low cortisol, normal aldosterone.",
+   "notes": [
+    "Slide 61.",
+    "Wrong: secondary AI pattern.",
+    "Wrong: cortisol is low.",
+    "Wrong: ACTH is high."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p61.jpg",
+     "lec": "Adrenal semiology",
+     "n": 61
+    }
+   ]
+  },
+  {
+   "q": "A man has BMI 17, BP 100/60, glucose 0.65 g/l and pigmented gums and palmar creases; cortisol 3.1 ng/ml (N 30-200) and ACTH 300 pg/l (N 10-60). Per the slides:",
+   "options": [
+    "The diagnosis is primary adrenal insufficiency",
+    "The low glucose fits cortisol deficiency",
+    "High ACTH points to a pituitary cause",
+    "This is Cushing syndrome"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The clinical case concludes primary adrenal insufficiency: low cortisol with high ACTH and hyperpigmentation; hypoglycaemia reflects cortisol deficiency.",
+   "notes": [
+    "Slide 64 answer.",
+    "Slide 41.",
+    "Wrong: high ACTH means peripheral origin.",
+    "Wrong: cortisol is low."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p62.jpg",
+     "lec": "Adrenal semiology",
+     "n": 62
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p63.jpg",
+     "lec": "Adrenal semiology",
+     "n": 63
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p64.jpg",
+     "lec": "Adrenal semiology",
+     "n": 64
+    }
+   ]
+  },
+  {
+   "q": "About phaeochromocytoma:",
+   "options": [
+    "It is a tumour of chromaffin cells of the adrenal medulla",
+    "Extra-adrenal forms are called paragangliomas",
+    "It is a curable cause of hypertension",
+    "It is a tumour of the adrenal cortex"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Definition: tumours of chromaffin cells of the adrenal medulla (phaeochromocytomas) or extra-adrenal (paragangliomas) secreting catecholamines; a curable cause of hypertension.",
+   "notes": [
+    "Slide 71.",
+    "Slide 71.",
+    "Slide 71.",
+    "Wrong: it arises from the medulla."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p71.jpg",
+     "lec": "Adrenal semiology",
+     "n": 71
+    }
+   ]
+  },
+  {
+   "q": "Possible paraganglioma locations shown on the figure:",
+   "options": [
+    "Head and neck",
+    "Organ of Zuckerkandl",
+    "Bladder wall",
+    "The liver"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The figure shows 1 head and neck paragangliomas, 2 phaeochromocytomas (adrenals), 3 organ of Zuckerkandl, 4 bladder paragangliomas.",
+   "notes": [
+    "Label 1.",
+    "Label 3.",
+    "Label 4.",
+    "Wrong: not a location shown on the figure (1 head and neck, 2 adrenals = phaeochromocytoma, 3 organ of Zuckerkandl, 4 bladder)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p72.jpg",
+     "lec": "Adrenal semiology",
+     "n": 72
+    }
+   ]
+  },
+  {
+   "q": "Paroxysmal symptoms of phaeochromocytoma:",
+   "options": [
+    "Can be triggered by tumour compression",
+    "Include headache, sweating and palpitations (triad)",
+    "Include flushing and warm extremities",
+    "Always last the same time"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Paroxysmal symptoms are triggered by tumour compression, variable in frequency, duration and intensity: headaches, palpitations, pallor, profuse sweating, cooling of the extremities.",
+   "notes": [
+    "Slide 73.",
+    "Slide 73 triad.",
+    "Wrong: pallor and cold extremities.",
+    "Wrong: variable duration."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p73.jpg",
+     "lec": "Adrenal semiology",
+     "n": 73
+    }
+   ]
+  },
+  {
+   "q": "During a phaeochromocytoma attack, the patient may have:",
+   "options": [
+    "Anxiety and tremors",
+    "BP much higher than usual",
+    "Abdominal or chest pain",
+    "Slow pulse and low BP"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Attacks may include anxiety, tremors, sometimes vomiting, visual disorders, abdominal or chest pain; BP can be considerably higher than usual.",
+   "notes": [
+    "Slide 74.",
+    "Slide 74.",
+    "Slide 74.",
+    "Wrong: palpitations and high BP occur."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p74.jpg",
+     "lec": "Adrenal semiology",
+     "n": 74
+    }
+   ]
+  },
+  {
+   "q": "Signs of hypermetabolism in phaeochromocytoma include:",
+   "options": [
+    "Weight loss",
+    "Fever",
+    "Thermophobia",
+    "Glucose intolerance or diabetes"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Signs of hypermetabolism: weight loss, fever, thermophobia, glucose intolerance or even diabetes.",
+   "notes": [
+    "Slide 75.",
+    "Slide 75.",
+    "Slide 75.",
+    "Slide 75."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p75.jpg",
+     "lec": "Adrenal semiology",
+     "n": 75
+    }
+   ]
+  },
+  {
+   "q": "Biological diagnosis of phaeochromocytoma:",
+   "options": [
+    "Urinary methoxylated derivatives are the key test",
+    "VMA is the reference test today",
+    "Plasma catecholamines are easy to interpret",
+    "Plasma methoxylated derivatives (metanephrines) are useful"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "why": "Urine: catecholamines, especially methoxylated derivatives (urinary+++); VMA is less reliable and no longer used; plasma catecholamines have a short half-life and are hard to interpret; plasma metanephrines are very useful.",
+   "notes": [
+    "Slide 76.",
+    "Wrong: less reliable, no longer used.",
+    "Wrong: short half-life, hard to interpret.",
+    "Slide 76."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p76.jpg",
+     "lec": "Adrenal semiology",
+     "n": 76
+    }
+   ]
+  },
+  {
+   "q": "Imaging in phaeochromocytoma:",
+   "options": [
+    "CT and MRI are the examinations of choice for localisation",
+    "MIBG scintigraphy searches the whole body for ectopic sites and metastases",
+    "MIBG replaces CT and MRI",
+    "Ultrasound is the examination of choice"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "CT and MRI localise the tumour (intra-abdominal or thoracic in almost all cases); MIBG completes them by whole-body search for multiple, ectopic or metastatic lesions, even very small ones.",
+   "notes": [
+    "Slide 77.",
+    "Slide 77.",
+    "Wrong: it completes them.",
+    "Wrong: CT and MRI are."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p77.jpg",
+     "lec": "Adrenal semiology",
+     "n": 77
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p79.jpg",
+     "lec": "Adrenal semiology",
+     "n": 79
     }
    ]
   }
@@ -9481,8 +14995,8 @@ SINA.lectures["semio-gi-gerd"] = {
       "LES + diaphragmatic",
       "crura: anti-reflux barrier"
      ],
-     "lx": 380.0,
-     "ly": 58.0
+     "lx": 380,
+     "ly": 58
     },
     "factors": {
      "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"40\" y=\"30\" width=\"200\" height=\"60\" rx=\"10\"/>",
@@ -9490,8 +15004,8 @@ SINA.lectures["semio-gi-gerd"] = {
       "Risk factors: hiatal hernia,",
       "obesity, pregnancy, drugs"
      ],
-     "lx": 140.0,
-     "ly": 58.0
+     "lx": 140,
+     "ly": 58
     },
     "typical": {
      "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"520\" y=\"30\" width=\"200\" height=\"60\" rx=\"10\"/>",
@@ -9499,8 +15013,8 @@ SINA.lectures["semio-gi-gerd"] = {
       "Typical: pyrosis +",
       "regurgitation"
      ],
-     "lx": 620.0,
-     "ly": 58.0
+     "lx": 620,
+     "ly": 58
     },
     "extra": {
      "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2e2a8\" x=\"520\" y=\"160\" width=\"200\" height=\"60\" rx=\"10\"/>",
@@ -9508,8 +15022,8 @@ SINA.lectures["semio-gi-gerd"] = {
       "Extra-digestive: cough,",
       "hoarseness, chest pain"
      ],
-     "lx": 620.0,
-     "ly": 188.0
+     "lx": 620,
+     "ly": 188
     },
     "alarm": {
      "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"280\" y=\"160\" width=\"200\" height=\"60\" rx=\"10\"/>",
@@ -9517,8 +15031,8 @@ SINA.lectures["semio-gi-gerd"] = {
       "Alarm signs →",
       "endoscopy"
      ],
-     "lx": 380.0,
-     "ly": 188.0
+     "lx": 380,
+     "ly": 188
     },
     "comp": {
      "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f7d9b8\" x=\"40\" y=\"160\" width=\"200\" height=\"60\" rx=\"10\"/>",
@@ -9526,8 +15040,8 @@ SINA.lectures["semio-gi-gerd"] = {
       "Complications: oesophagitis,",
       "stricture, Barrett's"
      ],
-     "lx": 140.0,
-     "ly": 188.0
+     "lx": 140,
+     "ly": 188
     },
     "ph": {
      "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d9ecec\" x=\"280\" y=\"290\" width=\"200\" height=\"60\" rx=\"10\"/>",
@@ -9535,16 +15049,16 @@ SINA.lectures["semio-gi-gerd"] = {
       "24 h pH-metry:",
       "pH < 4 > 5% of time"
      ],
-     "lx": 380.0,
-     "ly": 318.0
+     "lx": 380,
+     "ly": 318
     }
    },
    "arrows": {
     "barrier": [
      {
       "t": [
-       280.0,
-       38.0
+       280,
+       38
       ],
       "d": [
        -70,
@@ -9556,8 +15070,8 @@ SINA.lectures["semio-gi-gerd"] = {
     "factors": [
      {
       "t": [
-       40.0,
-       38.0
+       40,
+       38
       ],
       "d": [
        -70,
@@ -9569,8 +15083,8 @@ SINA.lectures["semio-gi-gerd"] = {
     "typical": [
      {
       "t": [
-       520.0,
-       38.0
+       520,
+       38
       ],
       "d": [
        -70,
@@ -9582,8 +15096,8 @@ SINA.lectures["semio-gi-gerd"] = {
     "extra": [
      {
       "t": [
-       520.0,
-       168.0
+       520,
+       168
       ],
       "d": [
        -70,
@@ -9595,8 +15109,8 @@ SINA.lectures["semio-gi-gerd"] = {
     "alarm": [
      {
       "t": [
-       280.0,
-       168.0
+       280,
+       168
       ],
       "d": [
        -70,
@@ -9608,8 +15122,8 @@ SINA.lectures["semio-gi-gerd"] = {
     "comp": [
      {
       "t": [
-       40.0,
-       168.0
+       40,
+       168
       ],
       "d": [
        -70,
@@ -9621,8 +15135,8 @@ SINA.lectures["semio-gi-gerd"] = {
     "ph": [
      {
       "t": [
-       280.0,
-       298.0
+       280,
+       298
       ],
       "d": [
        -70,
@@ -10197,6 +15711,556 @@ SINA.lectures["semio-gi-gerd"] = {
    ],
    "answer": 1,
    "why": "The arrow points to: pH monitoring. Reference test: GERD confirmed if oesophageal pH is below 4 for more than 5% of the time."
+  },
+  {
+   "q": "About gastro-oesophageal reflux disease (GERD) in general:",
+   "options": [
+    "It is an acute, self-limiting condition",
+    "It is a chronic and relapsing condition",
+    "Its severity depends only on how intense the heartburn is",
+    "It results from retrograde flow of gastric contents into the oesophagus"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "why": "GERD results from retrograde flow of gastric contents into the oesophagus; it is chronic and relapsing, and its severity depends on oesophageal lesions or complications.",
+   "notes": [
+    "Wrong: the slide calls it chronic and relapsing.",
+    "Correct: chronic and relapsing, affects quality of life.",
+    "Wrong: severity depends on lesions/complications (ulcers, stenosis, metaplasia).",
+    "Correct: this is the definition of the mechanism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/03.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 3
+    }
+   ]
+  },
+  {
+   "q": "Regarding physiological versus pathological reflux:",
+   "options": [
+    "Physiological reflux is transient and postprandial",
+    "Pathological reflux is by definition asymptomatic",
+    "Physiological reflux causes no mucosal damage",
+    "Pathological reflux involves frequent or prolonged episodes"
+   ],
+   "answers": [
+    0,
+    2,
+    3
+   ],
+   "why": "Physiological reflux is transient, postprandial, asymptomatic, with no mucosal damage; pathological reflux has frequent or prolonged episodes causing symptoms, inflammation or complications.",
+   "notes": [
+    "Correct: transient and postprandial.",
+    "Wrong: pathological reflux causes symptoms, inflammation or complications.",
+    "Correct: no mucosal damage in physiological reflux.",
+    "Correct: frequent or prolonged episodes."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/04.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "Predisposing factors for GERD listed in the pathophysiology include:",
+   "options": [
+    "Rapid gastric emptying",
+    "Delayed gastric emptying",
+    "Tight clothing",
+    "Increased LES tone"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "why": "Predisposing factors: LES hypotonia, hiatal hernia, increased intra-abdominal pressure (obesity, pregnancy, tight clothing), delayed gastric emptying, certain foods or drugs.",
+   "notes": [
+    "Wrong: it is delayed, not rapid, emptying.",
+    "Correct: delayed gastric emptying is listed.",
+    "Correct: raises intra-abdominal pressure.",
+    "Wrong: LES hypotonia, not hypertonia, predisposes."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/06.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "Foods that decrease LES tone include:",
+   "options": [
+    "Mint",
+    "Caffeine",
+    "Spicy foods",
+    "Fats"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Foods that decrease LES tone: fats, chocolate, caffeine, alcohol, mint, spicy foods.",
+   "notes": [
+    "Correct: listed.",
+    "Correct: listed.",
+    "Correct: listed.",
+    "Correct: listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/06.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "Medications that can promote reflux include:",
+   "options": [
+    "Theophylline",
+    "Amoxicillin",
+    "Anticholinergics",
+    "Sedatives"
+   ],
+   "answers": [
+    0,
+    2,
+    3
+   ],
+   "why": "Drugs involved: nitrates, theophylline, anticholinergics, calcium channel blockers, progesterone; sedatives are also cited among causes.",
+   "notes": [
+    "Correct: listed on the pathophysiology slide.",
+    "Wrong: not cited as lowering LES tone.",
+    "Correct: listed.",
+    "Correct: listed among medication causes."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/06.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 6
+    },
+    {
+     "src": "files/slides/semio-gi-gerd/16.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Pyrosis (heartburn) is characterised by:",
+   "options": [
+    "Retrosternal burning rising from the epigastrium to the throat",
+    "Triggering by bending forward or lying down",
+    "Possible relief by antacids",
+    "Burning descending from the throat to the epigastrium"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Pyrosis is a retrosternal burning rising from the epigastrium to the throat, often postprandial or nocturnal, triggered by bending forward, lying down or heavy meals, and may be relieved by antacids.",
+   "notes": [
+    "Correct: ascending retrosternal burning.",
+    "Correct: posture is a classic trigger.",
+    "Correct: may be relieved by antacids.",
+    "Wrong: the burning rises, it does not descend."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/07.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "Regurgitation in GERD:",
+   "options": [
+    "Is effortless",
+    "Is preceded by nausea and retching",
+    "Produces a hot, bitter taste in the mouth",
+    "Requires abdominal muscle effort like vomiting"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Regurgitation is the effortless reflux of acidic gastric contents into the mouth, producing a hot, bitter taste and throat burning; often with heartburn, after meals or lying down.",
+   "notes": [
+    "Correct: effortless reflux.",
+    "Wrong: nausea and retching precede vomiting, not regurgitation.",
+    "Correct: hot, bitter taste and throat burning.",
+    "Wrong: regurgitation is effortless."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/08.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "ENT and oral manifestations of GERD include:",
+   "options": [
+    "Epistaxis",
+    "Dental erosions",
+    "Globus pharyngeus",
+    "Chronic dysphonia"
+   ],
+   "answers": [
+    1,
+    2,
+    3
+   ],
+   "why": "ENT/oral symptoms: dental erosions, gingivitis, chronic pharyngitis, laryngitis, globus pharyngeus, hoarseness or chronic dysphonia.",
+   "notes": [
+    "Wrong: not listed.",
+    "Correct: dental erosions (and gingivitis).",
+    "Correct: lump/foreign body sensation.",
+    "Correct: hoarseness or chronic dysphonia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/10.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "Globus pharyngeus refers to:",
+   "options": [
+    "Pain during swallowing",
+    "Difficulty swallowing",
+    "A sensation of a lump or foreign body in the throat",
+    "Hypersalivation"
+   ],
+   "answer": 2,
+   "why": "Globus pharyngeus is the sensation of a lump or foreign body, listed among ENT manifestations of GERD.",
+   "notes": [
+    "Wrong: that is odynophagia.",
+    "Wrong: that is dysphagia.",
+    "Correct: definition on the ENT slide.",
+    "Wrong: that is water brash."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/10.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "Respiratory manifestations of GERD include:",
+   "options": [
+    "Asthma-like symptoms due to micro-aspirations",
+    "Haemoptysis",
+    "Laryngospasm",
+    "Pleural effusion"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Respiratory symptoms: chronic (especially nocturnal) cough, asthma-like symptoms due to micro-aspirations, recurrent bronchitis or laryngospasm.",
+   "notes": [
+    "Correct: mechanism is micro-aspiration.",
+    "Wrong: not a GERD manifestation on the slides.",
+    "Correct: recurrent bronchitis or laryngospasm.",
+    "Wrong: not listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/11.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Non-cardiac chest pain in GERD:",
+   "options": [
+    "Is a typical oesophageal symptom alongside heartburn",
+    "Can mimic angina (pseudo-anginal pain)",
+    "Is caused by coronary ischaemia",
+    "Is listed among alarm signs"
+   ],
+   "answer": 1,
+   "why": "Cardiac/thoracic symptom: non-cardiac chest pain mimicking angina; such atypical presentations may mislead diagnosis and delay management.",
+   "notes": [
+    "Wrong: it is an extra-digestive (atypical) manifestation.",
+    "Correct: pseudo-anginal pain.",
+    "Wrong: it is non-cardiac by definition.",
+    "Wrong: not among the red flags."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/11.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Alarm signs (red flags) in a patient with reflux symptoms include:",
+   "options": [
+    "Water brash",
+    "Iron deficiency anaemia",
+    "Weight loss or anorexia",
+    "Vomiting or signs of obstruction"
+   ],
+   "answers": [
+    1,
+    2,
+    3
+   ],
+   "why": "Red flags: dysphagia, odynophagia, GI bleeding (haematemesis, melena), iron deficiency anaemia, weight loss or anorexia, vomiting or signs of obstruction.",
+   "notes": [
+    "Wrong: water brash is an ordinary digestive sign.",
+    "Correct: listed red flag.",
+    "Correct: listed red flag.",
+    "Correct: listed red flag."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/12.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Regarding alarm signs in GERD:",
+   "options": [
+    "Odynophagia means pain during swallowing",
+    "Odynophagia means difficulty swallowing",
+    "Alarm signs can be managed without endoscopy",
+    "Belching is a red flag"
+   ],
+   "answer": 0,
+   "why": "Odynophagia is pain during swallowing (dysphagia is difficulty swallowing); the presence of any alarm sign requires endoscopic evaluation.",
+   "notes": [
+    "Correct: slide definition.",
+    "Wrong: that is dysphagia.",
+    "Wrong: any alarm sign requires endoscopy.",
+    "Wrong: belching is a common digestive sign."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/12.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Additional tests (beyond clinical diagnosis) in GERD are reserved for:",
+   "options": [
+    "Atypical or extra-digestive presentations",
+    "Poor response to treatment",
+    "Age over 50 or long-standing reflux",
+    "A young patient with typical heartburn and regurgitation"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Typical forms are diagnosed clinically; tests are reserved for atypical/extra-digestive forms, alarm signs, poor response to treatment, age over 50 or long-standing reflux.",
+   "notes": [
+    "Correct: listed indication.",
+    "Correct: listed indication.",
+    "Correct: listed indication.",
+    "Wrong: typical forms are diagnosed clinically."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/13.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 13
+    },
+    {
+     "src": "files/slides/semio-gi-gerd/14.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Findings at upper GI endoscopy in GERD may include:",
+   "options": [
+    "Erosions",
+    "Ulcerations",
+    "Fibrotic narrowing (peptic stricture)",
+    "Metaplasia (Barrett's oesophagus)"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Endoscopic findings: peptic oesophagitis (erosions, ulcerations), peptic stricture (fibrotic narrowing), Barrett's oesophagus (metaplasia).",
+   "notes": [
+    "Correct: peptic oesophagitis.",
+    "Correct: peptic oesophagitis.",
+    "Correct: peptic stricture.",
+    "Correct: Barrett's oesophagus."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/14.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "About 24-hour oesophageal pH-metry:",
+   "options": [
+    "It evaluates LES pressure",
+    "It is the reference test for pathological acid reflux",
+    "It is particularly useful in atypical symptoms or NERD",
+    "It is mainly used to detect non-acid reflux"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "why": "24h pH monitoring is the reference test for pathological acid reflux, particularly useful when symptoms are atypical or in NERD.",
+   "notes": [
+    "Wrong: that is manometry.",
+    "Correct: reference test.",
+    "Correct: atypical symptoms and NERD.",
+    "Wrong: non-acid reflux is detected by impedancemetry."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/15.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "Regarding other tests in GERD:",
+   "options": [
+    "Manometry evaluates LES pressure and motility disorders",
+    "Impedancemetry is the reference test for acid reflux",
+    "Barium swallow looks for complications such as stenosis or hernia",
+    "Manometry visualises Barrett's metaplasia"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Manometry evaluates LES pressure and motility; impedancemetry detects non-acid reflux; barium swallow is used for complications (stenosis, hernia).",
+   "notes": [
+    "Correct: slide statement.",
+    "Wrong: pH-metry is the reference test for acid reflux.",
+    "Correct: slide statement.",
+    "Wrong: metaplasia is seen at endoscopy."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/15.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "LES hypotonia as a cause of GERD:",
+   "options": [
+    "Is the most frequent anatomical cause",
+    "Can only be congenital",
+    "Can be congenital or acquired",
+    "Is the same thing as hiatal hernia"
+   ],
+   "answer": 2,
+   "why": "LES hypotonia may be congenital or acquired; hiatal hernia is the most frequent anatomical cause.",
+   "notes": [
+    "Wrong: hiatal hernia is the most frequent anatomical cause.",
+    "Wrong: it can also be acquired.",
+    "Correct: congenital or acquired.",
+    "Wrong: they are listed as separate causes."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/16.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "About peptic stricture as a complication of GERD:",
+   "options": [
+    "It results from fibrosis",
+    "It is a metaplasia with cancer risk",
+    "It causes dysphagia",
+    "It is the main cause of chronic cough"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Peptic stricture: fibrosis and narrowing causing dysphagia. Barrett's is the metaplasia with cancer risk.",
+   "notes": [
+    "Correct: fibrosis and narrowing.",
+    "Wrong: that is Barrett's oesophagus.",
+    "Correct: narrowing causes dysphagia.",
+    "Wrong: cough is a respiratory complication, not stricture."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/17.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "According to the key messages and conclusion of the GERD lecture:",
+   "options": [
+    "Endoscopy is required in every patient with heartburn",
+    "GERD is a rare disease",
+    "GERD is a purely digestive disease",
+    "Chronic cough or dysphonia should make you consider extra-digestive GERD"
+   ],
+   "answer": 3,
+   "why": "Key messages: GERD is frequent and often benign, diagnosis is clinical in typical cases, endoscopy if red flags, and always consider extra-digestive forms in chronic cough or dysphonia; it is at the crossroads of digestive, ENT and respiratory pathology.",
+   "notes": [
+    "Wrong: endoscopy is indicated if red flags are present.",
+    "Wrong: GERD is frequent.",
+    "Wrong: it is at the crossroads of digestive, ENT and respiratory pathology.",
+    "Correct: key message."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/18.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 18
+    },
+    {
+     "src": "files/slides/semio-gi-gerd/19.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 19
+    }
+   ]
   }
  ],
  "cards": [
@@ -10431,8 +16495,8 @@ SINA.lectures["semio-gi-bleeding"] = {
       "Haematemesis:",
       "upper GI"
      ],
-     "lx": 120.0,
-     "ly": 58.0
+     "lx": 120,
+     "ly": 58
     },
     "mel": {
      "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"215\" y=\"30\" width=\"160\" height=\"60\" rx=\"10\"/>",
@@ -10440,8 +16504,8 @@ SINA.lectures["semio-gi-bleeding"] = {
       "Melaena:",
       "usually upper"
      ],
-     "lx": 295.0,
-     "ly": 58.0
+     "lx": 295,
+     "ly": 58
     },
     "hemato": {
      "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"390\" y=\"30\" width=\"160\" height=\"60\" rx=\"10\"/>",
@@ -10449,8 +16513,8 @@ SINA.lectures["semio-gi-bleeding"] = {
       "Haematochezia:",
       "usually lower"
      ],
-     "lx": 470.0,
-     "ly": 58.0
+     "lx": 470,
+     "ly": 58
     },
     "occ": {
      "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2e2a8\" x=\"565\" y=\"30\" width=\"160\" height=\"60\" rx=\"10\"/>",
@@ -10458,8 +16522,8 @@ SINA.lectures["semio-gi-bleeding"] = {
       "Occult: anaemia,",
       "FOBT"
      ],
-     "lx": 645.0,
-     "ly": 58.0
+     "lx": 645,
+     "ly": 58
     },
     "sev": {
      "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"40\" y=\"170\" width=\"200\" height=\"60\" rx=\"10\"/>",
@@ -10467,8 +16531,8 @@ SINA.lectures["semio-gi-bleeding"] = {
       "Assess severity:",
       "shock signs"
      ],
-     "lx": 140.0,
-     "ly": 198.0
+     "lx": 140,
+     "ly": 198
     },
     "resus": {
      "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f7d9b8\" x=\"280\" y=\"170\" width=\"200\" height=\"60\" rx=\"10\"/>",
@@ -10476,8 +16540,8 @@ SINA.lectures["semio-gi-bleeding"] = {
       "2 large IV lines,",
       "fluids, transfusion"
      ],
-     "lx": 380.0,
-     "ly": 198.0
+     "lx": 380,
+     "ly": 198
     },
     "egd": {
      "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d9ecec\" x=\"520\" y=\"170\" width=\"200\" height=\"60\" rx=\"10\"/>",
@@ -10485,16 +16549,16 @@ SINA.lectures["semio-gi-bleeding"] = {
       "Endoscopy: diagnosis",
       "and haemostasis"
      ],
-     "lx": 620.0,
-     "ly": 198.0
+     "lx": 620,
+     "ly": 198
     }
    },
    "arrows": {
     "hema": [
      {
       "t": [
-       40.0,
-       38.0
+       40,
+       38
       ],
       "d": [
        -70,
@@ -10506,8 +16570,8 @@ SINA.lectures["semio-gi-bleeding"] = {
     "mel": [
      {
       "t": [
-       215.0,
-       38.0
+       215,
+       38
       ],
       "d": [
        -70,
@@ -10519,8 +16583,8 @@ SINA.lectures["semio-gi-bleeding"] = {
     "hemato": [
      {
       "t": [
-       390.0,
-       38.0
+       390,
+       38
       ],
       "d": [
        -70,
@@ -10532,8 +16596,8 @@ SINA.lectures["semio-gi-bleeding"] = {
     "occ": [
      {
       "t": [
-       565.0,
-       38.0
+       565,
+       38
       ],
       "d": [
        -70,
@@ -10545,8 +16609,8 @@ SINA.lectures["semio-gi-bleeding"] = {
     "sev": [
      {
       "t": [
-       40.0,
-       178.0
+       40,
+       178
       ],
       "d": [
        -70,
@@ -10558,8 +16622,8 @@ SINA.lectures["semio-gi-bleeding"] = {
     "resus": [
      {
       "t": [
-       280.0,
-       178.0
+       280,
+       178
       ],
       "d": [
        -70,
@@ -10571,8 +16635,8 @@ SINA.lectures["semio-gi-bleeding"] = {
     "egd": [
      {
       "t": [
-       520.0,
-       178.0
+       520,
+       178
       ],
       "d": [
        -70,
@@ -11180,6 +17244,551 @@ SINA.lectures["semio-gi-bleeding"] = {
    ],
    "answer": 0,
    "why": "The arrow points to: Endoscopy. Upper endoscopy finds the source in over 90%; colonoscopy for lower bleeding; treats by injection, coagulation, clips, banding."
+  },
+  {
+   "q": "The management of GI bleeding involves:",
+   "options": [
+    "Assessing the severity of bleeding",
+    "Haemodynamic stabilisation and resuscitation",
+    "Establishing the etiological diagnosis",
+    "Adapting specific treatment, often endoscopic"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "GI bleeding is a medical and surgical emergency; management involves assessing severity, haemodynamic stabilisation, etiological diagnosis and specific (often endoscopic) treatment.",
+   "notes": [
+    "Correct: listed step.",
+    "Correct: listed step.",
+    "Correct: listed step.",
+    "Correct: listed step."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/03.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 3
+    }
+   ]
+  },
+  {
+   "q": "Regarding the types of GI bleeding:",
+   "options": [
+    "Melena is the vomiting of digested blood",
+    "Occult bleeding is always visible in the stools",
+    "Haematochezia is the emission of bright red blood from the anus",
+    "Haematemesis is the passage of black stools"
+   ],
+   "answer": 2,
+   "why": "Haematemesis = vomiting of blood; melena = black tarry digested blood in stools; haematochezia = bright red blood from the anus; occult bleeding is revealed only by anaemia or a positive FOBT.",
+   "notes": [
+    "Wrong: melena is black tarry stools.",
+    "Wrong: occult bleeding is microscopic, revealed by anaemia or FOBT.",
+    "Correct: slide definition.",
+    "Wrong: haematemesis is vomiting of blood."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/04.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "The three levels of diagnosis in GI bleeding are:",
+   "options": [
+    "Positive diagnosis: confirming the bleeding is digestive",
+    "Topographic diagnosis: identifying the underlying disease",
+    "Etiological diagnosis: identifying the underlying lesion or disease",
+    "Topographic diagnosis: upper versus lower GI origin"
+   ],
+   "answers": [
+    0,
+    2,
+    3
+   ],
+   "why": "Positive diagnosis confirms bleeding is digestive; topographic diagnosis determines upper vs lower origin; etiological diagnosis identifies the lesion or disease.",
+   "notes": [
+    "Correct: positive diagnosis.",
+    "Wrong: that is the etiological diagnosis.",
+    "Correct: etiological diagnosis.",
+    "Correct: topographic diagnosis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/05.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "About melena:",
+   "options": [
+    "It may originate from the small intestine",
+    "It always indicates a lesion above the angle of Treitz",
+    "It may originate from the right colon",
+    "Charcoal and bismuth can mimic it"
+   ],
+   "answers": [
+    0,
+    2,
+    3
+   ],
+   "why": "Melena usually indicates upper GI bleeding but may also originate from the small intestine or right colon; differential: iron, charcoal, bismuth or certain foods.",
+   "notes": [
+    "Correct: possible origin.",
+    "Wrong: usually upper, but not always.",
+    "Correct: possible origin.",
+    "Correct: listed differential diagnoses."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/07.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "About occult or non-externalised bleeding:",
+   "options": [
+    "It may originate from any part of the digestive tract",
+    "It typically causes macrocytic anaemia",
+    "Massive forms can present as shock without visible bleeding",
+    "Massive forms can be diagnosed by gastric aspiration or rectal exam"
+   ],
+   "answers": [
+    0,
+    2,
+    3
+   ],
+   "why": "Occult bleeding is minimal chronic loss detected by FOBT or microcytic anaemia, from any part of the tract; massive non-externalised bleeding presents as shock, diagnosed by gastric aspiration or rectal exam.",
+   "notes": [
+    "Correct: any level of the tract.",
+    "Wrong: the anaemia is microcytic.",
+    "Correct: shock without visible blood.",
+    "Correct: slide statement."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/09.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "Early clinical warning signs of significant GI bleeding include:",
+   "options": [
+    "Pallor",
+    "Warm extremities",
+    "Restlessness",
+    "Polyuria"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Warning signs: pallor, cold extremities, restlessness, tachycardia. Severe forms: hypotension, polypnoea, oliguria, altered consciousness, mottling.",
+   "notes": [
+    "Correct: warning sign.",
+    "Wrong: extremities are cold.",
+    "Correct: warning sign.",
+    "Wrong: oliguria, not polyuria, marks severity."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/10.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "The association of haematemesis with melena or rectal bleeding indicates:",
+   "options": [
+    "Occult bleeding",
+    "Abundant bleeding",
+    "A purely lower GI source",
+    "Minor, self-limiting bleeding"
+   ],
+   "answer": 1,
+   "why": "Per the severity slide: haematemesis + melena or rectal bleeding = abundant bleeding.",
+   "notes": [
+    "Wrong: the bleeding is externalised.",
+    "Correct: slide statement.",
+    "Wrong: haematemesis implies an upper source.",
+    "Wrong: it marks abundant bleeding."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/10.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "The initial laboratory work-up in GI bleeding includes:",
+   "options": [
+    "Faecal occult blood test",
+    "Blood typing and crossmatch",
+    "Ionogram and creatinine",
+    "Liver enzymes"
+   ],
+   "answers": [
+    1,
+    2,
+    3
+   ],
+   "why": "Initial work-up: CBC, blood typing, crossmatch, ionogram, creatinine, liver enzymes.",
+   "notes": [
+    "Wrong: not part of the emergency work-up; bleeding is visible.",
+    "Correct: listed.",
+    "Correct: listed.",
+    "Correct: listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/11.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Emergency measures in GI bleeding include:",
+   "options": [
+    "Hospitalisation in an emergency or intensive care unit",
+    "Withholding fluids until endoscopy is done",
+    "Gastric tube and urinary catheter for monitoring",
+    "Monitoring haemoglobin only, without urine output"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Measures: ICU/emergency admission, two large-bore IV lines, work-up, vascular filling (crystalloids, transfusion), oxygen, gastric tube and urinary catheter, continuous surveillance of BP, pulse, urine output and mental status.",
+   "notes": [
+    "Correct: first measure.",
+    "Wrong: vascular filling with crystalloids is given.",
+    "Correct: for monitoring.",
+    "Wrong: urine output is part of surveillance."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/11.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "In the etiological history of GI bleeding, the physician asks about:",
+   "options": [
+    "Past peptic ulcer",
+    "NSAID or aspirin intake",
+    "Sudden or progressive onset, with or without pain",
+    "Associated weight loss or diarrhoea"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "History: past peptic ulcer, liver disease, anticoagulants, NSAIDs, aspirin; onset sudden or progressive, with or without pain; associated asthenia, weight loss, abdominal pain, diarrhoea.",
+   "notes": [
+    "Correct: past history.",
+    "Correct: drug history.",
+    "Correct: onset.",
+    "Correct: associated symptoms."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/12.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Physical examination findings and their orientation in GI bleeding:",
+   "options": [
+    "Epigastric tenderness suggests ulcer or gastritis",
+    "Signs of portal hypertension suggest varices",
+    "Rectal examination checks for haemorrhoids, fissure or rectal mass",
+    "Epigastric tenderness suggests varices"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Epigastric tenderness -> ulcer or gastritis; signs of liver disease or portal hypertension -> varices; rectal exam confirms melena/haematochezia and looks for haemorrhoids, fissure or rectal mass.",
+   "notes": [
+    "Correct: slide statement.",
+    "Correct: slide statement.",
+    "Correct: slide statement.",
+    "Wrong: varices are suggested by portal hypertension signs."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/13.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "About upper GI endoscopy (EGD) in GI bleeding:",
+   "options": [
+    "It should be done before any resuscitation",
+    "It has diagnostic, prognostic and therapeutic roles",
+    "It is performed urgently after stabilisation",
+    "It is the first-line exam for lower GI bleeding"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "why": "EGD is first-line in suspected upper GI bleeding, performed urgently after stabilisation, with diagnostic, prognostic and therapeutic roles.",
+   "notes": [
+    "Wrong: it is done after stabilisation.",
+    "Correct: three roles.",
+    "Correct: urgent, after stabilisation.",
+    "Wrong: colonoscopy is key for lower GI bleeding."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/14.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Exploration of lower GI and small-bowel bleeding:",
+   "options": [
+    "Anoscopy and rectoscopy explore anal or rectal causes",
+    "Colonoscopy is the key exam for lower GI bleeding",
+    "Capsule endoscopy or enteroscopy explore the small intestine if no source is found",
+    "Capsule endoscopy is first-line for upper GI bleeding"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Anoscopy/rectoscopy for anal or rectal causes; colonoscopy is the key exam for lower GI bleeding; enteroscopy or capsule endoscopy explore the small intestine if no source is found.",
+   "notes": [
+    "Correct: slide statement.",
+    "Correct: key exam.",
+    "Correct: second-line small-bowel exploration.",
+    "Wrong: EGD is first-line for upper bleeding."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/15.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "Causes of upper GI bleeding include:",
+   "options": [
+    "Erosive gastritis or duodenitis",
+    "Haemorrhoids",
+    "Stress ulcers",
+    "Oesophageal cancer"
+   ],
+   "answers": [
+    0,
+    2,
+    3
+   ],
+   "why": "Upper GI causes: peptic ulcer, oesophageal/gastric varices, Mallory-Weiss tear, erosive gastritis or duodenitis, gastric or oesophageal cancer, stress ulcers, drug-induced lesions.",
+   "notes": [
+    "Correct: listed.",
+    "Wrong: haemorrhoids are an anal (lower) cause.",
+    "Correct: listed.",
+    "Correct: listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/16.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Oesophageal or gastric varices:",
+   "options": [
+    "Are a lower GI bleeding cause",
+    "Are caused by NSAIDs",
+    "Result from portal hypertension",
+    "Are typical of young patients, like Meckel's diverticulum"
+   ],
+   "answer": 2,
+   "why": "Varices (oesophageal or gastric) are due to portal hypertension and are an upper GI cause; ulcers and varices predominate in adults.",
+   "notes": [
+    "Wrong: they are an upper GI cause.",
+    "Wrong: NSAIDs cause drug-induced lesions/ulcers.",
+    "Correct: portal hypertension.",
+    "Wrong: ulcers and varices are cited in adults."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/16.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 16
+    },
+    {
+     "src": "files/slides/semio-gi-bleeding/21.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "Causes of lower GI bleeding include:",
+   "options": [
+    "Angiodysplasia",
+    "Mallory-Weiss tear",
+    "Oesophageal varices",
+    "Diverticular disease"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "why": "Lower GI causes: anal lesions; colorectal cancer or polyps, diverticular disease, angiodysplasia, IBD; small-bowel vascular malformations, tumours, Meckel's diverticulum.",
+   "notes": [
+    "Correct: colorectal and small-bowel cause.",
+    "Wrong: upper GI cause after vomiting.",
+    "Wrong: upper GI cause.",
+    "Correct: colorectal cause."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/17.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Endoscopic haemostasis techniques include:",
+   "options": [
+    "Adrenaline or sclerosant injection",
+    "Thermal coagulation",
+    "Haemoclips",
+    "Surgery as the first-line technique"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Endoscopic haemostasis: injection (adrenaline, sclerosant), thermal coagulation, haemoclips, variceal band ligation. Surgery is for refractory bleeding or perforation.",
+   "notes": [
+    "Correct: injection.",
+    "Correct: thermal.",
+    "Correct: mechanical.",
+    "Wrong: surgery is reserved for refractory bleeding or perforation."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/19.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Surgery in GI bleeding is indicated for:",
+   "options": [
+    "Refractory bleeding",
+    "Every case of melena",
+    "Perforation",
+    "All varices as first-line treatment"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Surgery is indicated in case of refractory bleeding or perforation.",
+   "notes": [
+    "Correct: slide indication.",
+    "Wrong: endoscopy is the cornerstone.",
+    "Correct: slide indication.",
+    "Wrong: varices get band ligation."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/19.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "The prognosis of GI bleeding depends on:",
+   "options": [
+    "The patient's comorbidities",
+    "The patient's blood group",
+    "Variceal causes having a better prognosis than ulcers",
+    "The speed and adequacy of management"
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "why": "Prognosis depends on etiology (variceal and malignant causes worse), severity of initial bleeding, comorbidities, and speed and adequacy of management.",
+   "notes": [
+    "Correct: listed factor.",
+    "Wrong: not a listed factor.",
+    "Wrong: variceal causes are worse.",
+    "Correct: listed factor."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/20.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "According to the key messages on GI bleeding:",
+   "options": [
+    "Meckel's diverticulum is typical of the elderly",
+    "Polyps or cancer are typical causes in the elderly",
+    "Severity is assessed only after endoscopy",
+    "Endoscopy has only a diagnostic role"
+   ],
+   "answer": 1,
+   "why": "Key messages: always assess severity first; endoscopy is the cornerstone of diagnosis and therapy; ulcers and varices in adults, polyps or cancer in the elderly, Meckel's in the young.",
+   "notes": [
+    "Wrong: Meckel's is cited in the young.",
+    "Correct: slide statement.",
+    "Wrong: always assess severity first.",
+    "Wrong: it is the cornerstone of diagnosis and therapy."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/21.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 21
+    }
+   ]
   }
  ],
  "cards": [
@@ -11811,6 +18420,781 @@ SINA.lectures["semio-endo-pituitary"] = {
      "n": 18
     }
    ]
+  },
+  {
+   "q": "Regarding the clinical features of hyperprolactinaemia:",
+   "options": [
+    "They are the same whatever the cause of the prolactin excess",
+    "Galactorrhoea may be spontaneous or induced",
+    "Galactorrhoea is always permanent, never intermittent",
+    "Mass effect is seen with microadenomas"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The slide states that the manifestations of PRL excess are the same regardless of the cause; galactorrhoea can be spontaneous/induced and permanent/intermittent. Mass effects occur with macroadenomas only.",
+   "notes": [
+    "Slide: same manifestations regardless of cause.",
+    "Slide: spontaneous or induced.",
+    "Wrong: it can be permanent or intermittent.",
+    "Wrong: mass effect occurs with macroadenomas only."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/08.jpg",
+     "lec": "Pituitary semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "In a man with hyperprolactinaemia, the slides list:",
+   "options": [
+    "Erectile dysfunction",
+    "Gynaecomastia",
+    "Infertility",
+    "Frontal bossing"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "In men the usual manifestations are those of hypogonadism: low libido (initial symptom), erectile dysfunction, gynaecomastia and infertility.",
+   "notes": [
+    "Listed under men.",
+    "Listed under men; shown in the photo on slide 9.",
+    "Listed under men.",
+    "Wrong: that is a feature of acromegaly, not prolactin excess."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/08.jpg",
+     "lec": "Pituitary semiology",
+     "n": 8
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/09.jpg",
+     "lec": "Pituitary semiology",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "Menstrual disorders caused by hyperprolactinaemia include:",
+   "options": [
+    "Primary or secondary amenorrhoea",
+    "Menorrhagia",
+    "Cycles shortened to under 21 days",
+    "Post-menopausal bleeding"
+   ],
+   "answer": 0,
+   "why": "Slide 8 lists menstrual disorders as primary or secondary amenorrhoea and oligomenorrhoea: prolactin excess reduces or stops cycles.",
+   "notes": [
+    "Listed on slide 8.",
+    "Not listed: prolactin excess reduces cycles.",
+    "Not listed: oligomenorrhoea (fewer cycles) is described.",
+    "Not listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/08.jpg",
+     "lec": "Pituitary semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "In men, the usual manifestations of hyperprolactinaemia are those of:",
+   "options": [
+    "Hypogonadism",
+    "Hypercortisolism",
+    "Hyperthyroidism",
+    "GH excess"
+   ],
+   "answer": 0,
+   "why": "The slide states that in men the usual manifestations are those of hypogonadism.",
+   "notes": [
+    "Correct per slide 8.",
+    "Wrong: that is Cushing, not prolactin excess.",
+    "Wrong: not a feature of prolactin excess.",
+    "Wrong: that is acromegaly."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/08.jpg",
+     "lec": "Pituitary semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "According to the hyperprolactinaemia mechanism diagram:",
+   "options": [
+    "GnRH secretion falls",
+    "FSH and LH fall",
+    "Ovulation stops (anovulation)",
+    "Dopamine inhibition of prolactin is increased"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The diagram shows prolactin rising with dopamine falling, GnRH falling, FSH/LH falling and anovulation, plus milk secretion.",
+   "notes": [
+    "Shown as GnRH down.",
+    "Shown as FSH and LH down.",
+    "Shown as anovulation.",
+    "Wrong: dopamine is shown as decreased."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/09.jpg",
+     "lec": "Pituitary semiology",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "The work-up of hyperprolactinaemia on the slides includes:",
+   "options": [
+    "Prolactin assay with polyethylene glycol (PEG)",
+    "Dexamethasone suppression test",
+    "Classifying a prolactinoma as micro or macro/invasive",
+    "Adrenal CT scan"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Investigations: prolactin assay with PEG and pituitary MRI, which classifies prolactinomas as micro or macro/invasive.",
+   "notes": [
+    "Listed investigation.",
+    "Wrong: that is a Cushing test.",
+    "MRI classification on slide 10.",
+    "Wrong: adrenal CT is not part of this work-up."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/10.jpg",
+     "lec": "Pituitary semiology",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "Physiological causes of hyperprolactinaemia include:",
+   "options": [
+    "Nipple stimulation",
+    "Exercise",
+    "Sleep",
+    "Seizures"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "The physiologic column of the table lists pregnancy, nursing, nipple stimulation, exercise, stress, sleep and seizures.",
+   "notes": [
+    "Physiologic cause.",
+    "Physiologic cause.",
+    "Physiologic cause.",
+    "Listed in the physiologic column."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Drugs that can raise prolactin include:",
+   "options": [
+    "Haloperidol",
+    "Opioids",
+    "Monoamine oxidase inhibitors",
+    "Levodopa"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Pharmacologic causes include dopamine antagonists (phenothiazines, haloperidol, risperidone, metoclopramide, reserpine, methyldopa, opioids), MAO inhibitors, IV cimetidine, verapamil and TRH.",
+   "notes": [
+    "Dopamine antagonist in the table.",
+    "Listed with dopamine antagonists.",
+    "Listed.",
+    "Wrong: levodopa increases dopamine, which inhibits prolactin."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Regarding drug-induced hyperprolactinaemia:",
+   "options": [
+    "It is usually mild, about 25 to 100 ng/mL",
+    "Risperidone can push levels above 200 ng/mL",
+    "Opioids typically push levels above 200 ng/mL",
+    "Verapamil typically gives levels above 200 ng/mL"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Table footnote: drug-induced hyperprolactinaemia is usually mild (25-100 ng/mL) except for the highlighted agents (phenothiazines, risperidone, metoclopramide), which can exceed 200 ng/mL.",
+   "notes": [
+    "Footnote value.",
+    "Highlighted agent.",
+    "Wrong: opioids are not among the highlighted agents.",
+    "Wrong: verapamil is not a highlighted agent."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Pathological causes of hyperprolactinaemia include:",
+   "options": [
+    "Hypophyseal stalk lesion (stalk effect)",
+    "Polycystic ovary syndrome",
+    "Acromegaly with GH and prolactin co-secretion",
+    "Excess hypothalamic dopamine secretion"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The pathologic column lists pituitary tumours (prolactinoma, acromegaly co-secreting GH and PRL, nonsecretory adenoma), hypothyroidism, CKD, liver failure, stalk lesion, irradiation, spinal cord lesions, hypophysitis and PCOS.",
+   "notes": [
+    "Listed as stalk effect.",
+    "Listed.",
+    "Listed under pituitary tumours.",
+    "Wrong: dopamine inhibits prolactin; less dopamine raises it."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "A 28-year-old woman on risperidone has galactorrhoea and amenorrhoea. Per the slides:",
+   "options": [
+    "Risperidone is a recognised cause of high prolactin",
+    "With risperidone, prolactin may exceed 200 ng/mL",
+    "High prolactin always means a prolactinoma",
+    "Her symptoms differ from those of a prolactinoma"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Risperidone is a dopamine antagonist that can raise prolactin above 200 ng/mL, and PRL excess gives the same features whatever the cause.",
+   "notes": [
+    "Pharmacologic cause in the table.",
+    "Highlighted agent in the footnote.",
+    "Wrong: many physiologic, drug and disease causes exist.",
+    "Wrong: manifestations are the same regardless of cause."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/08.jpg",
+     "lec": "Pituitary semiology",
+     "n": 8
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Features of the acromegalic face include:",
+   "options": [
+    "Enlargement of the nose",
+    "Deep nasolabial furrows",
+    "Teeth separation and malocclusion",
+    "A small, receding mandible"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Acromegalic facies: prominent supraorbital ridges, frontal bossing, nose enlargement, prognathism, dental problems, coarse features, deep nasolabial furrows, macroglossia and large lips.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed as dental problems.",
+    "Wrong: the mandible grows downward and forward (prognathism)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/15.jpg",
+     "lec": "Pituitary semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "In acromegaly, the slides describe:",
+   "options": [
+    "A sonorous, deepening voice",
+    "Thin, dry skin",
+    "Macroglossia",
+    "Small, slender hands"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Acromegaly gives a sonorous deepening voice, macroglossia, large thickened bulky hands and feet, and thick oily sweaty skin.",
+   "notes": [
+    "Listed.",
+    "Wrong: skin is thickened, oily and sweaty.",
+    "Listed with large lips.",
+    "Wrong: hands become large, thickened and bulky."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/15.jpg",
+     "lec": "Pituitary semiology",
+     "n": 15
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/16.jpg",
+     "lec": "Pituitary semiology",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "About acromegaly:",
+   "options": [
+    "It is GH hypersecretion in adults",
+    "The mandible grows backward",
+    "The supraorbital ridges become flattened",
+    "The facial features become finer"
+   ],
+   "answer": 0,
+   "why": "Acromegaly is GH hypersecretion in adults; the mandible grows downward and forward (prognathism), the supraorbital ridges become prominent and the features coarsen.",
+   "notes": [
+    "Slide title.",
+    "Wrong: it grows downward and forward (prognathism).",
+    "Wrong: they become prominent.",
+    "Wrong: the features coarsen."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/15.jpg",
+     "lec": "Pituitary semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "Generalised visceromegaly in acromegaly includes:",
+   "options": [
+    "Thyromegaly",
+    "Enlarged salivary glands",
+    "Shrinkage of the kidneys",
+    "Atrophy of the spleen"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Slide 17: thyromegaly and enlargement of the salivary glands, with enlargement of other organs (liver, heart, kidney).",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Wrong: liver, heart and kidneys enlarge.",
+    "Wrong: organs enlarge; atrophy is not described."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/17.jpg",
+     "lec": "Pituitary semiology",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Acromegalic arthropathy is:",
+   "options": [
+    "Degenerative arthritis of the spine, hips and knees",
+    "Grouped with neural signs as articular and neural manifestations",
+    "An inflammatory autoimmune arthritis",
+    "Limited to the small joints, sparing the spine"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Articular and neural manifestations: acromegalic arthropathy is degenerative arthritis of the spine, hips and knees.",
+   "notes": [
+    "Slide definition.",
+    "Slide heading groups them.",
+    "Wrong: it is described as degenerative.",
+    "Wrong: the spine is involved."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/17.jpg",
+     "lec": "Pituitary semiology",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "A patient with acromegaly has night-time tingling of the hand. Regarding this complaint:",
+   "options": [
+    "It fits carpal tunnel syndrome from median nerve compression",
+    "It is caused by ulnar nerve entrapment",
+    "It comes from neural enlargement and wrist tissue swelling",
+    "It affects under 5% of patients"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Neural enlargement and wrist tissue swelling lead to carpal tunnel syndrome in up to half of patients, with painful median nerve compression and acroparaesthesias.",
+   "notes": [
+    "Slide: painful median nerve compression.",
+    "Wrong: the median nerve is involved.",
+    "Slide mechanism.",
+    "Wrong: up to half of all patients."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/17.jpg",
+     "lec": "Pituitary semiology",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Endocrine and metabolic abnormalities seen in acromegaly include:",
+   "options": [
+    "Diabetes mellitus or impaired glucose tolerance",
+    "Type IV hypertriglyceridaemia",
+    "Hypercalciuria",
+    "Diffuse or nodular goitre"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Slide 17 lists DM/IGT, type IV hypertriglyceridaemia, hyperlipoproteinaemia, hypercalciuria and diffuse or nodular goitre.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/17.jpg",
+     "lec": "Pituitary semiology",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "The work-up of acromegaly includes:",
+   "options": [
+    "IGF-1 and GH during a 75 g OGTT",
+    "1 mg overnight dexamethasone test",
+    "Short synacthen test with 250 ug tetracosactide",
+    "Urinary methoxylated catecholamine derivatives"
+   ],
+   "answer": 0,
+   "why": "Acromegaly investigations: IGF-1, GH inhibition in the 75 g glucose tolerance test, prolactin (co-secretion) and pituitary MRI.",
+   "notes": [
+    "Listed blood tests on slide 18.",
+    "Wrong: a Cushing screening test.",
+    "Wrong: an adrenal insufficiency test.",
+    "Wrong: a phaeochromocytoma test."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/18.jpg",
+     "lec": "Pituitary semiology",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "In the 75 g glucose tolerance test used for acromegaly:",
+   "options": [
+    "The test looks for inhibition of GH by glucose",
+    "Lack of GH inhibition supports acromegaly",
+    "It is used to measure prolactin suppression",
+    "Glucose normally stimulates GH secretion"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The slide lists 'GH - inhibition in glucose tolerance 75 g test': glucose should suppress GH, and in acromegaly it does not.",
+   "notes": [
+    "Slide wording.",
+    "Inadequate suppression points to GH excess.",
+    "Wrong: GH is the hormone tested.",
+    "Wrong: glucose normally inhibits GH."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/18.jpg",
+     "lec": "Pituitary semiology",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "Pituitary anatomy relevant to mass effect:",
+   "options": [
+    "The gland sits in the sella turcica",
+    "The cavernous sinuses lie on both sides",
+    "The optic chiasm lies below the gland",
+    "The posterior lobe is the adenohypophysis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The pituitary lies in the hypophyseal fossa of the sella turcica, with the optic chiasm above and the cavernous sinuses on both sides.",
+   "notes": [
+    "Sella turcica below.",
+    "Cavernous sinuses on both sides.",
+    "Wrong: the chiasm is above.",
+    "Wrong: the anterior lobe is the adenohypophysis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/04.jpg",
+     "lec": "Pituitary semiology",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "The pituitary gland measures about:",
+   "options": [
+    "5 x 10 x 15 mm",
+    "5 x 5 x 5 cm",
+    "1 x 1 x 1 mm",
+    "2 x 3 x 4 cm (a large mass)"
+   ],
+   "answer": 0,
+   "why": "Slide 4 gives pituitary dimensions of 5x10x15 mm, lying in the sella turcica below the optic chiasm.",
+   "notes": [
+    "Slide value.",
+    "Wrong: far too large.",
+    "Wrong: far too small.",
+    "Wrong: too large; that would be a macroadenoma-sized mass."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/04.jpg",
+     "lec": "Pituitary semiology",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "Lateral extension of a pituitary tumour causes diplopia by compressing the cranial nerves:",
+   "options": [
+    "III (oculomotor)",
+    "IV (trochlear)",
+    "VI (abducens)",
+    "VII (facial)"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Slide 22: compression of cranial nerves III, IV and VI gives diplopia and palpebral ptosis.",
+   "notes": [
+    "Named on slide 22.",
+    "Named on slide 22.",
+    "Named on slide 22.",
+    "Wrong: not part of the cavernous sinus compression described."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/21.jpg",
+     "lec": "Pituitary semiology",
+     "n": 21
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/22.jpg",
+     "lec": "Pituitary semiology",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Visual field defects of the optic-chiasmatic syndrome include:",
+   "options": [
+    "Bitemporal superior quadrantanopia",
+    "Bitemporal hemianopia",
+    "Homonymous contralateral hemianopia",
+    "Binasal hemianopia"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Suprasellar extension compresses the chiasm: bitemporal visual loss in the superior fields (bitemporal superior quadrantanopia, then hemianopia) and homonymous contralateral hemianopia.",
+   "notes": [
+    "Slide 24.",
+    "Slide 24.",
+    "Slide 24 (nasal field of the other eye).",
+    "Wrong: not described on the slides."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/23.jpg",
+     "lec": "Pituitary semiology",
+     "n": 23
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/24.jpg",
+     "lec": "Pituitary semiology",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "Ophthalmological signs described as RARE in pituitary mass effect:",
+   "options": [
+    "Decreased visual acuity",
+    "Optic atrophy",
+    "Papilloedema",
+    "Bitemporal superior visual loss"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Rarely, decreased visual acuity, pupillary abnormalities, optic atrophy, papilloedema, cranial nerve palsies and nystagmus may be seen; bitemporal superior loss is the typical sign.",
+   "notes": [
+    "Listed as rare.",
+    "Listed as rare.",
+    "Listed as rare.",
+    "Wrong: this is the typical chiasmal sign, not a rare one."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/24.jpg",
+     "lec": "Pituitary semiology",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "The optic-chiasmatic syndrome is caused by:",
+   "options": [
+    "Suprasellar extension of the adenoma",
+    "Downward extension into the sphenoid sinus",
+    "Lateral extension into the cavernous sinus",
+    "Hyperfunction of the posterior lobe"
+   ],
+   "answer": 0,
+   "why": "Suprasellar extension of the pituitary adenoma compresses the optic chiasm, giving the optic-chiasmatic syndrome.",
+   "notes": [
+    "Slide 24.",
+    "Wrong: the chiasm lies above the gland.",
+    "Wrong: this gives cranial nerve palsies (diplopia, ptosis).",
+    "Wrong: not a mass effect mechanism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/24.jpg",
+     "lec": "Pituitary semiology",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "About the diagnosis and management of pituitary apoplexy:",
+   "options": [
+    "Diagnosis rests on clinical features and pituitary imaging",
+    "Early transsphenoidal decompression is done within 8 days",
+    "Diagnosis needs adrenal venous sampling",
+    "Surgery should wait at least 3 months"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Diagnosis is based on clinical features and pituitary imaging; it can cause panhypopituitarism; early transsphenoidal decompression within 8 days is advised.",
+   "notes": [
+    "Slide 25.",
+    "Slide 25.",
+    "Wrong: diagnosis uses clinical features and pituitary imaging.",
+    "Wrong: decompression is early (within 8 days)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/25.jpg",
+     "lec": "Pituitary semiology",
+     "n": 25
+    }
+   ]
+  },
+  {
+   "q": "Features of pituitary apoplexy:",
+   "options": [
+    "Spontaneous haemorrhagic infarction of a pituitary tumour",
+    "Meningismus and altered consciousness",
+    "It occurs in a normal gland without a tumour",
+    "Pituitary function is usually left intact"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Apoplexy is spontaneous haemorrhagic infarction of a pituitary tumour, with headache, visual loss, ophthalmoplegia, meningismus and altered consciousness; it often causes pituitary insufficiency.",
+   "notes": [
+    "Slide definition.",
+    "Listed features.",
+    "Wrong: it is infarction of a pituitary tumour.",
+    "Wrong: it often causes partial or total insufficiency."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/25.jpg",
+     "lec": "Pituitary semiology",
+     "n": 25
+    }
+   ]
   }
  ],
  "cards": [
@@ -12358,6 +19742,1021 @@ SINA.lectures["semio-endo-diabetes"] = {
      "src": "files/slides/semio-endo-diabetes/10.jpg",
      "lec": "Diabetes semiology",
      "n": 10
+    }
+   ]
+  },
+  {
+   "q": "According to the lecture definition, the hyperglycaemia of diabetes:",
+   "options": [
+    "Is chronic",
+    "Results from absolute or relative deficient insulin secretion",
+    "May result from deficient insulin action (insulin resistance)",
+    "Is always due to autoimmune destruction of the pancreatic beta cells"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Definition: chronic hyperglycaemia due to an absolute or relative deficiency of insulin secretion and/or insulin action (insulin resistance).",
+   "notes": [
+    "Correct: chronic hyperglycaemia.",
+    "Correct: absolute or relative secretion deficiency.",
+    "Correct: insulin action defect = insulin resistance.",
+    "Wrong: autoimmunity applies to type 1 only."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/04.jpg",
+     "lec": "Diabetes semiology",
+     "n": 4
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/15.jpg",
+     "lec": "Diabetes semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "A diabetes found on a routine blood test in a patient without symptoms corresponds to the diagnostic circumstance:",
+   "options": [
+    "Accidental diagnosis",
+    "Hyperglycaemia symptoms",
+    "Acute complication",
+    "Chronic complication"
+   ],
+   "answer": 0,
+   "why": "Diagnosis circumstances: accidental diagnosis, hyperglycaemia symptoms, or acute/chronic complications.",
+   "notes": [
+    "Correct: incidental discovery.",
+    "Wrong: patient is asymptomatic.",
+    "Wrong: no acute complication here.",
+    "Wrong: no chronic complication here."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/06.jpg",
+     "lec": "Diabetes semiology",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "In the 'Main symptoms of diabetes' figure, symptoms marked as more common in type 1 include:",
+   "options": [
+    "Smell of acetone on the breath",
+    "Kussmaul breathing",
+    "Abdominal pain, nausea and vomiting",
+    "Blurred vision, the eye symptom shown on the figure"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Red items (more common in type 1): lethargy, stupor, acetone breath, Kussmaul breathing, abdominal pain, nausea, vomiting. Blurred vision is not marked red.",
+   "notes": [
+    "Correct: shown in red (type 1).",
+    "Correct: Kussmaul hyperventilation shown in red.",
+    "Correct: gastric symptoms shown in red.",
+    "Wrong: blurred vision is not marked type 1-specific."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/07.jpg",
+     "lec": "Diabetes semiology",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "In the 'Main symptoms of diabetes' figure, the urinary signs shown are:",
+   "options": [
+    "Polyuria",
+    "Glycosuria",
+    "Haematuria",
+    "Oliguria with dark urine"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The urinary box lists polyuria and glycosuria.",
+   "notes": [
+    "Correct: polyuria.",
+    "Correct: glycosuria.",
+    "Wrong: not listed.",
+    "Wrong: diabetes causes polyuria."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/07.jpg",
+     "lec": "Diabetes semiology",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "On the diabetes semiology slide, diabetic neuropathy is shown as:",
+   "options": [
+    "Pain, tingling or numbness in the hands or feet",
+    "Painless proximal muscle hypertrophy of both thighs",
+    "Episodes of fever with neck pain",
+    "Isolated hearing loss"
+   ],
+   "answer": 0,
+   "why": "The semiology slide lists paresthesia; the neuropathy figure shows pain, tingling or numbness in hands or feet, often related to diabetes.",
+   "notes": [
+    "Correct: shown on the neuropathy panel.",
+    "Wrong: not described.",
+    "Wrong: suggests de Quervain thyroiditis.",
+    "Wrong: not described."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/08.jpg",
+     "lec": "Diabetes semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Symptoms of diabetes on the Cleveland Clinic panel include:",
+   "options": [
+    "Increased thirst",
+    "Fatigue",
+    "Frequent urination",
+    "Weight gain with increased appetite"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Panel: increased thirst, slow-healing cuts and sores, fatigue, blurred vision, frequent urination, unexplained weight loss.",
+   "notes": [
+    "Correct: increased thirst.",
+    "Correct: fatigue.",
+    "Correct: frequent urination.",
+    "Wrong: unexplained weight loss is listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/08.jpg",
+     "lec": "Diabetes semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "In diabetes, polydipsia is due to:",
+   "options": [
+    "Polyuria",
+    "Excess ADH secretion causing water retention",
+    "Direct stimulation of the thirst centre by ketones",
+    "Dry mouth from autonomic neuropathy"
+   ],
+   "answer": 0,
+   "why": "Hyperglycaemia review of symptoms: polyuria is due to glycosuria (osmotic diuresis) and polydipsia is due to polyuria.",
+   "notes": [
+    "Correct: polydipsia due to polyuria.",
+    "Wrong: not the mechanism on the slide.",
+    "Wrong: not the mechanism on the slide.",
+    "Wrong: not the mechanism on the slide."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/09.jpg",
+     "lec": "Diabetes semiology",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "On a urine test strip, findings relevant to diabetes and its complications include:",
+   "options": [
+    "Glucose (glycosuria)",
+    "Ketones (ketonuria)",
+    "Protein (proteinuria)",
+    "Free thyroid hormones (T4)"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Strips detect glycosuria; ketonuria confirms ketosis in DKA; proteinuria on strips can reveal diabetic nephropathy.",
+   "notes": [
+    "Correct: glycosuria appears once blood glucose exceeds ~1.8 g/L (renal threshold).",
+    "Correct: ketonuria with urine test strip.",
+    "Correct: proteinuria with strips (nephropathy).",
+    "Wrong: not measured on urine strips."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/10.jpg",
+     "lec": "Diabetes semiology",
+     "n": 10
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/14.jpg",
+     "lec": "Diabetes semiology",
+     "n": 14
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/31.jpg",
+     "lec": "Diabetes semiology",
+     "n": 31
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/61.jpg",
+     "lec": "Diabetes semiology",
+     "n": 61
+    }
+   ]
+  },
+  {
+   "q": "On the 'Road to type 2 diabetes' chart, values in the prediabetes range include:",
+   "options": [
+    "Fasting glucose 115 mg/dL",
+    "2-hour OGTT glucose 160 mg/dL",
+    "HbA1c 6.7%",
+    "HbA1c 5.5% measured on a single sample"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Prediabetes: A1c 5.7-6.4%, fasting 100-125 mg/dL, OGTT 140-199 mg/dL. Diabetes: A1c >=6.5%; normal A1c <5.7%.",
+   "notes": [
+    "Correct: within 100-125 mg/dL.",
+    "Correct: within 140-199 mg/dL.",
+    "Wrong: >=6.5% is diabetes.",
+    "Wrong: below 5.7% is normal."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/11.jpg",
+     "lec": "Diabetes semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Equivalent diagnostic thresholds for diabetes per the slides:",
+   "options": [
+    "Fasting glucose 126 mg/dL = 7.0 mmol/L",
+    "HbA1c 6.5% = 48 mmol/mol",
+    "2-hour OGTT glucose 200 mg/dL = 11.1 mmol/L",
+    "Random glucose 200 mg/dL = 7.0 mmol/L with symptoms"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Criteria: FPG >=126 mg/dL (7.0 mmol/L), 2-h OGTT >=200 mg/dL (11.1 mmol/L), A1c >=6.5% (48 mmol/mol), random >=200 mg/dL (11.1 mmol/L) with symptoms.",
+   "notes": [
+    "Correct: 126 mg/dL = 7.0 mmol/L.",
+    "Correct: 6.5% = 48 mmol/mol.",
+    "Correct: 200 mg/dL = 11.1 mmol/L.",
+    "Wrong: 200 mg/dL = 11.1 mmol/L."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/12.jpg",
+     "lec": "Diabetes semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Results that meet a diagnostic criterion for diabetes:",
+   "options": [
+    "Fasting glucose 1.30 g/L on two samples",
+    "HbA1c 7%",
+    "Random glucose 2.3 g/L in a patient with no symptoms",
+    "2-hour OGTT glucose 1.6 g/L"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "FPG >=1.26 g/L on 2 samples, A1c >=6.5%, OGTT 2-h >=2 g/L, or random >=2 g/L only with classic symptoms or hyperglycaemic crisis.",
+   "notes": [
+    "Correct: >=126 mg/dL on 2 samples.",
+    "Correct: >=6.5%.",
+    "Wrong: random criterion requires classic symptoms or crisis.",
+    "Wrong: 160 mg/dL is prediabetes."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/12.jpg",
+     "lec": "Diabetes semiology",
+     "n": 12
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/11.jpg",
+     "lec": "Diabetes semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Capillary blood glucose is defined as:",
+   "options": [
+    "Glucose measured in a capillary vessel",
+    "A 24-hour urine collection for glucose",
+    "A laboratory measurement of venous HbA1c",
+    "A 2-hour oral glucose tolerance test"
+   ],
+   "answer": 0,
+   "why": "Examination slide: capillary blood glucose = measurement of glucose level in a capillary vessel, done with glucose meters.",
+   "notes": [
+    "Correct: slide definition.",
+    "Wrong: that is a urine test.",
+    "Wrong: HbA1c is a lab criterion.",
+    "Wrong: OGTT is a separate diagnostic test."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/10.jpg",
+     "lec": "Diabetes semiology",
+     "n": 10
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/13.jpg",
+     "lec": "Diabetes semiology",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "Type 1 diabetes:",
+   "options": [
+    "Results from total insulin deficiency",
+    "Is due to beta-cell destruction by autoantibodies",
+    "Becomes apparent after about 90% of beta cells are destroyed",
+    "Is mainly caused by insulin resistance linked to android obesity"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Type 1: total insulin deficiency from autoimmune destruction of beta cells; occurs after 90% of beta cells are destroyed.",
+   "notes": [
+    "Correct: total insulin deficiency.",
+    "Correct: beta-cell destruction by autoantibodies.",
+    "Correct: after 90% destroyed.",
+    "Wrong: insulin resistance is a type 2 mechanism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/15.jpg",
+     "lec": "Diabetes semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "In the type 1 diabetes figure, blood glucose rises because:",
+   "options": [
+    "No insulin is made, so glucose cannot enter cells",
+    "The pancreas secretes excess but inactive insulin",
+    "Glucose absorption from the intestine is increased",
+    "The kidney reabsorbs more glucose than normal"
+   ],
+   "answer": 0,
+   "why": "Figure: the body destroys the beta cells, no insulin is produced, glucose cannot move into the cells and blood glucose rises.",
+   "notes": [
+    "Correct: insulin acts as the key letting glucose in.",
+    "Wrong: no insulin is produced.",
+    "Wrong: not shown for type 1.",
+    "Wrong: shown in the type 2 figure, not type 1."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/16.jpg",
+     "lec": "Diabetes semiology",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Per the slides, type 1 diabetes typically features:",
+   "options": [
+    "A history of autoimmune disease",
+    "A vital and definitive need for insulin therapy",
+    "Chronic complications assessed already at discovery",
+    "Associated cardiovascular risk factors"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Type 1: acute onset, young, normal/thin, ketosis at onset, no family history, autoimmune history, no CV factors, vital definitive insulin; chronic complications assessed later.",
+   "notes": [
+    "Correct: history of autoimmune disease.",
+    "Correct: vital and definitive insulin therapy.",
+    "Wrong: assessed 'after'; at discovery is type 2.",
+    "Wrong: no CV factors associated."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/17.jpg",
+     "lec": "Diabetes semiology",
+     "n": 17
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/22.jpg",
+     "lec": "Diabetes semiology",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Factors involved in type 2 diabetes include:",
+   "options": [
+    "Family history of diabetes",
+    "Insufficient physical activity",
+    "Obesity, especially android obesity",
+    "Insulin resistance with progressive insulin deficiency"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Type 2: genetic (family history), environmental (nutritional imbalance, low activity, android obesity) and metabolic factors (insulin resistance, progressive insulin deficiency).",
+   "notes": [
+    "Correct: genetic factor.",
+    "Correct: environmental factor.",
+    "Correct: environmental factor.",
+    "Correct: metabolic factors."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/18.jpg",
+     "lec": "Diabetes semiology",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "Mechanisms of hyperglycaemia in type 2 diabetes shown in the figure include:",
+   "options": [
+    "Increased hepatic glucose production",
+    "Decreased glucose uptake in muscle and adipose tissue",
+    "Decreased incretin effect",
+    "Decreased renal glucose reabsorption, increasing glucosuria"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Figure: increased hepatic glucose production, decreased muscle/adipose uptake, decreased incretin effect and increased glucose reabsorption feed hyperglycaemia.",
+   "notes": [
+    "Correct: increased hepatic production.",
+    "Correct: decreased peripheral uptake.",
+    "Correct: decreased incretin effect.",
+    "Wrong: renal reabsorption is increased."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/20.jpg",
+     "lec": "Diabetes semiology",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "Conditions clustered with hyperglycaemia in type 2 diabetes include:",
+   "options": [
+    "Obesity",
+    "Hypertension",
+    "Dyslipidaemia",
+    "Hyperthyroidism"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Type 2 slide: hyperglycaemia with obesity, hypertension, cardiovascular disease, kidney disease, dyslipidaemia.",
+   "notes": [
+    "Correct: obesity.",
+    "Correct: hypertension.",
+    "Correct: dyslipidaemia.",
+    "Wrong: not listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/21.jpg",
+     "lec": "Diabetes semiology",
+     "n": 21
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/19.jpg",
+     "lec": "Diabetes semiology",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "In type 2 diabetes:",
+   "options": [
+    "Ketoacidosis may occur with an additional factor such as infection",
+    "Hyperglycaemia symptoms appear mainly if very unbalanced",
+    "Insulin secretion is absent, so insulin therapy is vital from diagnosis",
+    "Ketosis is frequent at onset"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Type 2: ketoacidosis only with an additional factor (infection, intercurrent disease); hyperglycaemia symptoms if very unbalanced; insulin secretion persists; ketosis absent.",
+   "notes": [
+    "Correct: needs an additional factor.",
+    "Correct: symptoms if very unbalanced.",
+    "Wrong: insulin secretion is persistent.",
+    "Wrong: no inaugural ketoacidosis in type 2."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/22.jpg",
+     "lec": "Diabetes semiology",
+     "n": 22
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/23.jpg",
+     "lec": "Diabetes semiology",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "In the classification table, features of type 1 compared with type 2 diabetes:",
+   "options": [
+    "Hyperglycaemia symptoms are marked +++ in type 1",
+    "Autoantibodies are present in type 1",
+    "Familial history is stronger in type 1",
+    "Cardiovascular risk factors are present in type 1"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Table: type 1 has +++ hyperglycaemia symptoms, autoantibodies, frequent ketosis; familial history is +++ in type 2; CV risk factors are type 2.",
+   "notes": [
+    "Correct: +++ in type 1, - in type 2.",
+    "Correct: self antibodies + in type 1.",
+    "Wrong: + in type 1 vs +++ in type 2.",
+    "Wrong: CV risk factors - in type 1."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/23.jpg",
+     "lec": "Diabetes semiology",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "The frequency of type 1 diabetes among diabetics, per the table, is:",
+   "options": [
+    "10-15%",
+    "85-90%",
+    "50%",
+    "Less than 1%"
+   ],
+   "answer": 0,
+   "why": "Table: type 1 10-15%, type 2 85-90%.",
+   "notes": [
+    "Correct: 10-15%.",
+    "Wrong: that is type 2.",
+    "Wrong: not on the table.",
+    "Wrong: not on the table."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/23.jpg",
+     "lec": "Diabetes semiology",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "Diabetic ketoacidosis is characterised by:",
+   "options": [
+    "Blood glucose >13.88 mmol/L",
+    "Blood pH <7.3",
+    "Serum bicarbonate <18 mmol/L",
+    "Absent ketonaemia and ketonuria"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "DKA figure: glucose >13.88 mmol/L, pH <7.3, bicarbonate <18 mmol/L, ketonaemia, ketonuria, glycosuria. Note: page 33 prints 'Bicarbonate <7.3', which is the pH threshold; bicarbonate <18 mmol/L is per page 24 and textbooks.",
+   "notes": [
+    "Correct: >13.88 mmol/L (about 250 mg/dL).",
+    "Correct: pH <7.3.",
+    "Correct: bicarbonate <18 mmol/L.",
+    "Wrong: ketonaemia is raised."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/24.jpg",
+     "lec": "Diabetes semiology",
+     "n": 24
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/33.jpg",
+     "lec": "Diabetes semiology",
+     "n": 33
+    }
+   ]
+  },
+  {
+   "q": "Risk factors for diabetic ketoacidosis include:",
+   "options": [
+    "Omission of insulin therapy",
+    "Improper management of an intercurrent infection",
+    "New-onset diabetes mellitus",
+    "Intense physical activity, delayed meals or insufficient food intake"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Risk factors on the DKA figure: omission of insulin, improper management of intercurrent infection, new-onset diabetes. Intense exercise is a cause of hypoglycaemia.",
+   "notes": [
+    "Correct: omission of insulin.",
+    "Correct: intercurrent infection.",
+    "Correct: DKA can reveal new diabetes.",
+    "Wrong: listed as a hypoglycaemia cause."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/24.jpg",
+     "lec": "Diabetes semiology",
+     "n": 24
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/35.jpg",
+     "lec": "Diabetes semiology",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "Acute complications of diabetes include:",
+   "options": [
+    "Diabetic ketoacidosis",
+    "Hypoglycaemia",
+    "Hyperosmolar hyperglycaemic state",
+    "Lactic acidosis",
+    "Diabetic retinopathy with vitreous haemorrhage"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Acute: DKA, hypoglycaemia, hyperosmolar hyperglycaemic state, lactic acidosis. Chronic: degenerative complications such as retinopathy.",
+   "notes": [
+    "Correct: acute.",
+    "Correct: acute.",
+    "Correct: acute.",
+    "Correct: acute.",
+    "Wrong: a chronic microvascular complication."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/26.jpg",
+     "lec": "Diabetes semiology",
+     "n": 26
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/25.jpg",
+     "lec": "Diabetes semiology",
+     "n": 25
+    }
+   ]
+  },
+  {
+   "q": "In the pathophysiology of diabetic ketoacidosis:",
+   "options": [
+    "Increased lipolysis supplies free fatty acids for ketogenesis",
+    "Glucosuria causes osmotic diuresis and dehydration",
+    "Counter-regulatory hormones are decreased, blocking gluconeogenesis",
+    "Relative insulin excess drives ketogenesis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Absolute insulin deficiency + increased counter-regulatory hormones: lipolysis, FFA, ketogenesis, ketonaemia, acidosis; hyperglycaemia, glucosuria, osmotic diuresis, dehydration.",
+   "notes": [
+    "Correct: lipolysis -> FFA -> ketogenesis.",
+    "Correct: osmotic diuresis -> dehydration.",
+    "Wrong: counter-regulatory hormones are increased.",
+    "Wrong: insulin deficiency is absolute."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/29.jpg",
+     "lec": "Diabetes semiology",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "In most adults, the signs of diabetic ketoacidosis develop:",
+   "options": [
+    "Gradually, over a few days",
+    "Suddenly, within a few minutes",
+    "Insidiously, over several years",
+    "Only after the patient becomes comatose"
+   ],
+   "answer": 0,
+   "why": "Gradual onset of signs and symptoms (a few days), except in children, pregnant women, the elderly, or a malfunctioning insulin pump.",
+   "notes": [
+    "Correct: gradual onset, a few days.",
+    "Wrong: onset is gradual; faster in listed exceptions.",
+    "Wrong: that describes the 2-3 year diagnostic delay of diabetes.",
+    "Wrong: mild forms precede altered consciousness."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/30.jpg",
+     "lec": "Diabetes semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "In mild ketoacidosis, signs of ketosis (as opposed to signs of hyperglycaemia) include:",
+   "options": [
+    "Fruity (ketonic) breath",
+    "Anorexia",
+    "Nausea and vomiting",
+    "Frequent urination at night"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Ketosis: abdominal pain, nausea, vomiting, anorexia, ketonic breath. Hyperglycaemia: polyuria, polydipsia, thirst, blurry vision, nocturia, weight loss.",
+   "notes": [
+    "Correct: ketonic breath.",
+    "Correct: anorexia.",
+    "Correct: nausea, vomiting.",
+    "Wrong: nocturia is a hyperglycaemia sign."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/30.jpg",
+     "lec": "Diabetes semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "Physical examination findings of mild ketoacidosis include:",
+   "options": [
+    "Capillary blood glucose usually >2.50 g/L",
+    "Ketonuria on urine test strip",
+    "Capillary blood glucose usually below 1.10 g/L",
+    "Coma"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Mild DKA: capillary glucose usually >2.50 g/L, ketonuria on strip, high ketonaemia. Coma belongs to severe forms.",
+   "notes": [
+    "Correct: >2.50 g/L.",
+    "Correct: ketonuria with strip.",
+    "Wrong: that is a normal fasting value.",
+    "Wrong: altered consciousness is moderate-severe."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/31.jpg",
+     "lec": "Diabetes semiology",
+     "n": 31
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/32.jpg",
+     "lec": "Diabetes semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "In moderate to severe ketoacidosis, signs of extracellular dehydration listed are:",
+   "options": [
+    "Arterial hypotension",
+    "Tachycardia",
+    "Sunken eyes",
+    "Dry mucous membranes and thirst"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Extracellular dehydration: dry skin, arterial hypotension, tachycardia. Intracellular: thirst, dry mucous membranes, sunken eyes.",
+   "notes": [
+    "Correct: extracellular sign.",
+    "Correct: extracellular sign.",
+    "Wrong: listed as intracellular dehydration.",
+    "Wrong: listed as intracellular dehydration."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/32.jpg",
+     "lec": "Diabetes semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "In moderate to severe ketoacidosis:",
+   "options": [
+    "Kussmaul respiration is tachypnoea with deep inspirations",
+    "Abdominal pain can be pseudosurgical",
+    "Mental status ranges from drowsiness to coma",
+    "Breathing is slow and shallow, with a long expiratory pause"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Signs of acidosis: dehydration, Kussmaul respiration (tachypnoea with deep inspirations), pseudosurgical abdominal pain, altered mental status from drowsiness to coma.",
+   "notes": [
+    "Correct: Kussmaul definition.",
+    "Correct: pseudosurgical abdominal pain.",
+    "Correct: drowsiness to coma.",
+    "Wrong: Kussmaul is fast and deep."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/32.jpg",
+     "lec": "Diabetes semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "Biochemical diagnostic criteria for DKA in adults include:",
+   "options": [
+    "Ketonaemia >=3 mmol/L or ketonuria >2+",
+    "Blood glucose >250 mg/dL or known diabetes",
+    "Blood glucose above 600 mg/dL is required for the diagnosis",
+    "Trace ketonuria is sufficient"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Criteria: ketonaemia >=3 mmol/L or significant ketonuria (>2+), glucose >250 mg/dL (>14 mmol/L) or known diabetes, plus acidosis.",
+   "notes": [
+    "Correct: ketonaemia >=3 or ketonuria >2+.",
+    "Correct: >250 mg/dL or known diabetes.",
+    "Wrong: threshold is >250 mg/dL.",
+    "Wrong: ketonuria must be significant (>2+)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/33.jpg",
+     "lec": "Diabetes semiology",
+     "n": 33
+    }
+   ]
+  },
+  {
+   "q": "Diabetic retinopathy as a mode of discovery:",
+   "options": [
+    "Vision is usually normal until vitreous haemorrhage or retinal detachment",
+    "Clinical signs are poor, so at-risk patients need screening by fundus examination",
+    "It always causes early visual loss",
+    "It is diagnosed by measuring intraocular pressure alone, without fundus examination"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Retinopathy has poor clinical signs; vision is usually normal until vitreous haemorrhage or retinal detachment; screening by fundus +/- angiography.",
+   "notes": [
+    "Correct: circumstance of discovery.",
+    "Correct: asymptomatic, screening by fundus.",
+    "Wrong: vision usually normal early.",
+    "Wrong: fundus after dilation is key."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/44.jpg",
+     "lec": "Diabetes semiology",
+     "n": 44
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/42.jpg",
+     "lec": "Diabetes semiology",
+     "n": 42
+    }
+   ]
+  },
+  {
+   "q": "Circumstances of discovery of diabetic nephropathy include:",
+   "options": [
+    "Systematic annual check-up",
+    "Oedematous or nephrotic syndrome",
+    "Presence of hypertension",
+    "Proteinuria on urine strips"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "CoD: systematic annual check-up, oedematous/nephrotic syndrome, hypertension, proteinuria with strips.",
+   "notes": [
+    "Correct: annual check-up.",
+    "Correct: oedematous or nephrotic syndrome.",
+    "Correct: hypertension.",
+    "Correct: proteinuria with strips."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/61.jpg",
+     "lec": "Diabetes semiology",
+     "n": 61
+    }
+   ]
+  },
+  {
+   "q": "Coronary artery disease in a diabetic may be discovered through:",
+   "options": [
+    "Atypical chest pain such as epigastric ache or exertional dyspnoea",
+    "Silent myocardial ischaemia",
+    "Heart failure",
+    "Typical angina-like chest pain, which is the usual presentation in diabetics"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "CoD: atypical chest pain (epigastric ache, exertional dyspnoea, palpitations, lipothymia), uncommon typical pain, silent ischaemia, acute complications, heart failure.",
+   "notes": [
+    "Correct: atypical pain is listed.",
+    "Correct: silent myocardial ischaemia.",
+    "Correct: complication: heart failure.",
+    "Wrong: typical chest pain is uncommon."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/71.jpg",
+     "lec": "Diabetes semiology",
+     "n": 71
+    }
+   ]
+  },
+  {
+   "q": "Regarding stroke in diabetes:",
+   "options": [
+    "A stroke can reveal diabetes",
+    "A stroke can induce a DKA revealing diabetes",
+    "Strokes in diabetics are mostly haemorrhagic rather than ischaemic",
+    "Strokes are less frequent in diabetics"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Strokes are more frequent in diabetics, mainly ischaemic; a stroke can reveal diabetes or induce a DKA revealing it.",
+   "notes": [
+    "Correct: can reveal diabetes.",
+    "Correct: can induce revealing DKA.",
+    "Wrong: ischaemic stroke+++.",
+    "Wrong: more frequent in diabetics."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/77.jpg",
+     "lec": "Diabetes semiology",
+     "n": 77
     }
    ]
   }

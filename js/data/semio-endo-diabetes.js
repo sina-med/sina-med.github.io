@@ -449,6 +449,1021 @@ SINA.lectures["semio-endo-diabetes"] = {
      "n": 10
     }
    ]
+  },
+  {
+   "q": "According to the lecture definition, the hyperglycaemia of diabetes:",
+   "options": [
+    "Is chronic",
+    "Results from absolute or relative deficient insulin secretion",
+    "May result from deficient insulin action (insulin resistance)",
+    "Is always due to autoimmune destruction of the pancreatic beta cells"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Definition: chronic hyperglycaemia due to an absolute or relative deficiency of insulin secretion and/or insulin action (insulin resistance).",
+   "notes": [
+    "Correct: chronic hyperglycaemia.",
+    "Correct: absolute or relative secretion deficiency.",
+    "Correct: insulin action defect = insulin resistance.",
+    "Wrong: autoimmunity applies to type 1 only."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/04.jpg",
+     "lec": "Diabetes semiology",
+     "n": 4
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/15.jpg",
+     "lec": "Diabetes semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "A diabetes found on a routine blood test in a patient without symptoms corresponds to the diagnostic circumstance:",
+   "options": [
+    "Accidental diagnosis",
+    "Hyperglycaemia symptoms",
+    "Acute complication",
+    "Chronic complication"
+   ],
+   "answer": 0,
+   "why": "Diagnosis circumstances: accidental diagnosis, hyperglycaemia symptoms, or acute/chronic complications.",
+   "notes": [
+    "Correct: incidental discovery.",
+    "Wrong: patient is asymptomatic.",
+    "Wrong: no acute complication here.",
+    "Wrong: no chronic complication here."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/06.jpg",
+     "lec": "Diabetes semiology",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "In the 'Main symptoms of diabetes' figure, symptoms marked as more common in type 1 include:",
+   "options": [
+    "Smell of acetone on the breath",
+    "Kussmaul breathing",
+    "Abdominal pain, nausea and vomiting",
+    "Blurred vision, the eye symptom shown on the figure"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Red items (more common in type 1): lethargy, stupor, acetone breath, Kussmaul breathing, abdominal pain, nausea, vomiting. Blurred vision is not marked red.",
+   "notes": [
+    "Correct: shown in red (type 1).",
+    "Correct: Kussmaul hyperventilation shown in red.",
+    "Correct: gastric symptoms shown in red.",
+    "Wrong: blurred vision is not marked type 1-specific."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/07.jpg",
+     "lec": "Diabetes semiology",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "In the 'Main symptoms of diabetes' figure, the urinary signs shown are:",
+   "options": [
+    "Polyuria",
+    "Glycosuria",
+    "Haematuria",
+    "Oliguria with dark urine"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The urinary box lists polyuria and glycosuria.",
+   "notes": [
+    "Correct: polyuria.",
+    "Correct: glycosuria.",
+    "Wrong: not listed.",
+    "Wrong: diabetes causes polyuria."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/07.jpg",
+     "lec": "Diabetes semiology",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "On the diabetes semiology slide, diabetic neuropathy is shown as:",
+   "options": [
+    "Pain, tingling or numbness in the hands or feet",
+    "Painless proximal muscle hypertrophy of both thighs",
+    "Episodes of fever with neck pain",
+    "Isolated hearing loss"
+   ],
+   "answer": 0,
+   "why": "The semiology slide lists paresthesia; the neuropathy figure shows pain, tingling or numbness in hands or feet, often related to diabetes.",
+   "notes": [
+    "Correct: shown on the neuropathy panel.",
+    "Wrong: not described.",
+    "Wrong: suggests de Quervain thyroiditis.",
+    "Wrong: not described."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/08.jpg",
+     "lec": "Diabetes semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Symptoms of diabetes on the Cleveland Clinic panel include:",
+   "options": [
+    "Increased thirst",
+    "Fatigue",
+    "Frequent urination",
+    "Weight gain with increased appetite"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Panel: increased thirst, slow-healing cuts and sores, fatigue, blurred vision, frequent urination, unexplained weight loss.",
+   "notes": [
+    "Correct: increased thirst.",
+    "Correct: fatigue.",
+    "Correct: frequent urination.",
+    "Wrong: unexplained weight loss is listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/08.jpg",
+     "lec": "Diabetes semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "In diabetes, polydipsia is due to:",
+   "options": [
+    "Polyuria",
+    "Excess ADH secretion causing water retention",
+    "Direct stimulation of the thirst centre by ketones",
+    "Dry mouth from autonomic neuropathy"
+   ],
+   "answer": 0,
+   "why": "Hyperglycaemia review of symptoms: polyuria is due to glycosuria (osmotic diuresis) and polydipsia is due to polyuria.",
+   "notes": [
+    "Correct: polydipsia due to polyuria.",
+    "Wrong: not the mechanism on the slide.",
+    "Wrong: not the mechanism on the slide.",
+    "Wrong: not the mechanism on the slide."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/09.jpg",
+     "lec": "Diabetes semiology",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "On a urine test strip, findings relevant to diabetes and its complications include:",
+   "options": [
+    "Glucose (glycosuria)",
+    "Ketones (ketonuria)",
+    "Protein (proteinuria)",
+    "Free thyroid hormones (T4)"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Strips detect glycosuria; ketonuria confirms ketosis in DKA; proteinuria on strips can reveal diabetic nephropathy.",
+   "notes": [
+    "Correct: glycosuria appears once blood glucose exceeds ~1.8 g/L (renal threshold).",
+    "Correct: ketonuria with urine test strip.",
+    "Correct: proteinuria with strips (nephropathy).",
+    "Wrong: not measured on urine strips."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/10.jpg",
+     "lec": "Diabetes semiology",
+     "n": 10
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/14.jpg",
+     "lec": "Diabetes semiology",
+     "n": 14
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/31.jpg",
+     "lec": "Diabetes semiology",
+     "n": 31
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/61.jpg",
+     "lec": "Diabetes semiology",
+     "n": 61
+    }
+   ]
+  },
+  {
+   "q": "On the 'Road to type 2 diabetes' chart, values in the prediabetes range include:",
+   "options": [
+    "Fasting glucose 115 mg/dL",
+    "2-hour OGTT glucose 160 mg/dL",
+    "HbA1c 6.7%",
+    "HbA1c 5.5% measured on a single sample"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Prediabetes: A1c 5.7-6.4%, fasting 100-125 mg/dL, OGTT 140-199 mg/dL. Diabetes: A1c >=6.5%; normal A1c <5.7%.",
+   "notes": [
+    "Correct: within 100-125 mg/dL.",
+    "Correct: within 140-199 mg/dL.",
+    "Wrong: >=6.5% is diabetes.",
+    "Wrong: below 5.7% is normal."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/11.jpg",
+     "lec": "Diabetes semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Equivalent diagnostic thresholds for diabetes per the slides:",
+   "options": [
+    "Fasting glucose 126 mg/dL = 7.0 mmol/L",
+    "HbA1c 6.5% = 48 mmol/mol",
+    "2-hour OGTT glucose 200 mg/dL = 11.1 mmol/L",
+    "Random glucose 200 mg/dL = 7.0 mmol/L with symptoms"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Criteria: FPG >=126 mg/dL (7.0 mmol/L), 2-h OGTT >=200 mg/dL (11.1 mmol/L), A1c >=6.5% (48 mmol/mol), random >=200 mg/dL (11.1 mmol/L) with symptoms.",
+   "notes": [
+    "Correct: 126 mg/dL = 7.0 mmol/L.",
+    "Correct: 6.5% = 48 mmol/mol.",
+    "Correct: 200 mg/dL = 11.1 mmol/L.",
+    "Wrong: 200 mg/dL = 11.1 mmol/L."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/12.jpg",
+     "lec": "Diabetes semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Results that meet a diagnostic criterion for diabetes:",
+   "options": [
+    "Fasting glucose 1.30 g/L on two samples",
+    "HbA1c 7%",
+    "Random glucose 2.3 g/L in a patient with no symptoms",
+    "2-hour OGTT glucose 1.6 g/L"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "FPG >=1.26 g/L on 2 samples, A1c >=6.5%, OGTT 2-h >=2 g/L, or random >=2 g/L only with classic symptoms or hyperglycaemic crisis.",
+   "notes": [
+    "Correct: >=126 mg/dL on 2 samples.",
+    "Correct: >=6.5%.",
+    "Wrong: random criterion requires classic symptoms or crisis.",
+    "Wrong: 160 mg/dL is prediabetes."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/12.jpg",
+     "lec": "Diabetes semiology",
+     "n": 12
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/11.jpg",
+     "lec": "Diabetes semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Capillary blood glucose is defined as:",
+   "options": [
+    "Glucose measured in a capillary vessel",
+    "A 24-hour urine collection for glucose",
+    "A laboratory measurement of venous HbA1c",
+    "A 2-hour oral glucose tolerance test"
+   ],
+   "answer": 0,
+   "why": "Examination slide: capillary blood glucose = measurement of glucose level in a capillary vessel, done with glucose meters.",
+   "notes": [
+    "Correct: slide definition.",
+    "Wrong: that is a urine test.",
+    "Wrong: HbA1c is a lab criterion.",
+    "Wrong: OGTT is a separate diagnostic test."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/10.jpg",
+     "lec": "Diabetes semiology",
+     "n": 10
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/13.jpg",
+     "lec": "Diabetes semiology",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "Type 1 diabetes:",
+   "options": [
+    "Results from total insulin deficiency",
+    "Is due to beta-cell destruction by autoantibodies",
+    "Becomes apparent after about 90% of beta cells are destroyed",
+    "Is mainly caused by insulin resistance linked to android obesity"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Type 1: total insulin deficiency from autoimmune destruction of beta cells; occurs after 90% of beta cells are destroyed.",
+   "notes": [
+    "Correct: total insulin deficiency.",
+    "Correct: beta-cell destruction by autoantibodies.",
+    "Correct: after 90% destroyed.",
+    "Wrong: insulin resistance is a type 2 mechanism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/15.jpg",
+     "lec": "Diabetes semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "In the type 1 diabetes figure, blood glucose rises because:",
+   "options": [
+    "No insulin is made, so glucose cannot enter cells",
+    "The pancreas secretes excess but inactive insulin",
+    "Glucose absorption from the intestine is increased",
+    "The kidney reabsorbs more glucose than normal"
+   ],
+   "answer": 0,
+   "why": "Figure: the body destroys the beta cells, no insulin is produced, glucose cannot move into the cells and blood glucose rises.",
+   "notes": [
+    "Correct: insulin acts as the key letting glucose in.",
+    "Wrong: no insulin is produced.",
+    "Wrong: not shown for type 1.",
+    "Wrong: shown in the type 2 figure, not type 1."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/16.jpg",
+     "lec": "Diabetes semiology",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Per the slides, type 1 diabetes typically features:",
+   "options": [
+    "A history of autoimmune disease",
+    "A vital and definitive need for insulin therapy",
+    "Chronic complications assessed already at discovery",
+    "Associated cardiovascular risk factors"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Type 1: acute onset, young, normal/thin, ketosis at onset, no family history, autoimmune history, no CV factors, vital definitive insulin; chronic complications assessed later.",
+   "notes": [
+    "Correct: history of autoimmune disease.",
+    "Correct: vital and definitive insulin therapy.",
+    "Wrong: assessed 'after'; at discovery is type 2.",
+    "Wrong: no CV factors associated."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/17.jpg",
+     "lec": "Diabetes semiology",
+     "n": 17
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/22.jpg",
+     "lec": "Diabetes semiology",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Factors involved in type 2 diabetes include:",
+   "options": [
+    "Family history of diabetes",
+    "Insufficient physical activity",
+    "Obesity, especially android obesity",
+    "Insulin resistance with progressive insulin deficiency"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Type 2: genetic (family history), environmental (nutritional imbalance, low activity, android obesity) and metabolic factors (insulin resistance, progressive insulin deficiency).",
+   "notes": [
+    "Correct: genetic factor.",
+    "Correct: environmental factor.",
+    "Correct: environmental factor.",
+    "Correct: metabolic factors."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/18.jpg",
+     "lec": "Diabetes semiology",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "Mechanisms of hyperglycaemia in type 2 diabetes shown in the figure include:",
+   "options": [
+    "Increased hepatic glucose production",
+    "Decreased glucose uptake in muscle and adipose tissue",
+    "Decreased incretin effect",
+    "Decreased renal glucose reabsorption, increasing glucosuria"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Figure: increased hepatic glucose production, decreased muscle/adipose uptake, decreased incretin effect and increased glucose reabsorption feed hyperglycaemia.",
+   "notes": [
+    "Correct: increased hepatic production.",
+    "Correct: decreased peripheral uptake.",
+    "Correct: decreased incretin effect.",
+    "Wrong: renal reabsorption is increased."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/20.jpg",
+     "lec": "Diabetes semiology",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "Conditions clustered with hyperglycaemia in type 2 diabetes include:",
+   "options": [
+    "Obesity",
+    "Hypertension",
+    "Dyslipidaemia",
+    "Hyperthyroidism"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Type 2 slide: hyperglycaemia with obesity, hypertension, cardiovascular disease, kidney disease, dyslipidaemia.",
+   "notes": [
+    "Correct: obesity.",
+    "Correct: hypertension.",
+    "Correct: dyslipidaemia.",
+    "Wrong: not listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/21.jpg",
+     "lec": "Diabetes semiology",
+     "n": 21
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/19.jpg",
+     "lec": "Diabetes semiology",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "In type 2 diabetes:",
+   "options": [
+    "Ketoacidosis may occur with an additional factor such as infection",
+    "Hyperglycaemia symptoms appear mainly if very unbalanced",
+    "Insulin secretion is absent, so insulin therapy is vital from diagnosis",
+    "Ketosis is frequent at onset"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Type 2: ketoacidosis only with an additional factor (infection, intercurrent disease); hyperglycaemia symptoms if very unbalanced; insulin secretion persists; ketosis absent.",
+   "notes": [
+    "Correct: needs an additional factor.",
+    "Correct: symptoms if very unbalanced.",
+    "Wrong: insulin secretion is persistent.",
+    "Wrong: no inaugural ketoacidosis in type 2."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/22.jpg",
+     "lec": "Diabetes semiology",
+     "n": 22
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/23.jpg",
+     "lec": "Diabetes semiology",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "In the classification table, features of type 1 compared with type 2 diabetes:",
+   "options": [
+    "Hyperglycaemia symptoms are marked +++ in type 1",
+    "Autoantibodies are present in type 1",
+    "Familial history is stronger in type 1",
+    "Cardiovascular risk factors are present in type 1"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Table: type 1 has +++ hyperglycaemia symptoms, autoantibodies, frequent ketosis; familial history is +++ in type 2; CV risk factors are type 2.",
+   "notes": [
+    "Correct: +++ in type 1, - in type 2.",
+    "Correct: self antibodies + in type 1.",
+    "Wrong: + in type 1 vs +++ in type 2.",
+    "Wrong: CV risk factors - in type 1."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/23.jpg",
+     "lec": "Diabetes semiology",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "The frequency of type 1 diabetes among diabetics, per the table, is:",
+   "options": [
+    "10-15%",
+    "85-90%",
+    "50%",
+    "Less than 1%"
+   ],
+   "answer": 0,
+   "why": "Table: type 1 10-15%, type 2 85-90%.",
+   "notes": [
+    "Correct: 10-15%.",
+    "Wrong: that is type 2.",
+    "Wrong: not on the table.",
+    "Wrong: not on the table."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/23.jpg",
+     "lec": "Diabetes semiology",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "Diabetic ketoacidosis is characterised by:",
+   "options": [
+    "Blood glucose >13.88 mmol/L",
+    "Blood pH <7.3",
+    "Serum bicarbonate <18 mmol/L",
+    "Absent ketonaemia and ketonuria"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "DKA figure: glucose >13.88 mmol/L, pH <7.3, bicarbonate <18 mmol/L, ketonaemia, ketonuria, glycosuria. Note: page 33 prints 'Bicarbonate <7.3', which is the pH threshold; bicarbonate <18 mmol/L is per page 24 and textbooks.",
+   "notes": [
+    "Correct: >13.88 mmol/L (about 250 mg/dL).",
+    "Correct: pH <7.3.",
+    "Correct: bicarbonate <18 mmol/L.",
+    "Wrong: ketonaemia is raised."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/24.jpg",
+     "lec": "Diabetes semiology",
+     "n": 24
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/33.jpg",
+     "lec": "Diabetes semiology",
+     "n": 33
+    }
+   ]
+  },
+  {
+   "q": "Risk factors for diabetic ketoacidosis include:",
+   "options": [
+    "Omission of insulin therapy",
+    "Improper management of an intercurrent infection",
+    "New-onset diabetes mellitus",
+    "Intense physical activity, delayed meals or insufficient food intake"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Risk factors on the DKA figure: omission of insulin, improper management of intercurrent infection, new-onset diabetes. Intense exercise is a cause of hypoglycaemia.",
+   "notes": [
+    "Correct: omission of insulin.",
+    "Correct: intercurrent infection.",
+    "Correct: DKA can reveal new diabetes.",
+    "Wrong: listed as a hypoglycaemia cause."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/24.jpg",
+     "lec": "Diabetes semiology",
+     "n": 24
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/35.jpg",
+     "lec": "Diabetes semiology",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "Acute complications of diabetes include:",
+   "options": [
+    "Diabetic ketoacidosis",
+    "Hypoglycaemia",
+    "Hyperosmolar hyperglycaemic state",
+    "Lactic acidosis",
+    "Diabetic retinopathy with vitreous haemorrhage"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Acute: DKA, hypoglycaemia, hyperosmolar hyperglycaemic state, lactic acidosis. Chronic: degenerative complications such as retinopathy.",
+   "notes": [
+    "Correct: acute.",
+    "Correct: acute.",
+    "Correct: acute.",
+    "Correct: acute.",
+    "Wrong: a chronic microvascular complication."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/26.jpg",
+     "lec": "Diabetes semiology",
+     "n": 26
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/25.jpg",
+     "lec": "Diabetes semiology",
+     "n": 25
+    }
+   ]
+  },
+  {
+   "q": "In the pathophysiology of diabetic ketoacidosis:",
+   "options": [
+    "Increased lipolysis supplies free fatty acids for ketogenesis",
+    "Glucosuria causes osmotic diuresis and dehydration",
+    "Counter-regulatory hormones are decreased, blocking gluconeogenesis",
+    "Relative insulin excess drives ketogenesis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Absolute insulin deficiency + increased counter-regulatory hormones: lipolysis, FFA, ketogenesis, ketonaemia, acidosis; hyperglycaemia, glucosuria, osmotic diuresis, dehydration.",
+   "notes": [
+    "Correct: lipolysis -> FFA -> ketogenesis.",
+    "Correct: osmotic diuresis -> dehydration.",
+    "Wrong: counter-regulatory hormones are increased.",
+    "Wrong: insulin deficiency is absolute."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/29.jpg",
+     "lec": "Diabetes semiology",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "In most adults, the signs of diabetic ketoacidosis develop:",
+   "options": [
+    "Gradually, over a few days",
+    "Suddenly, within a few minutes",
+    "Insidiously, over several years",
+    "Only after the patient becomes comatose"
+   ],
+   "answer": 0,
+   "why": "Gradual onset of signs and symptoms (a few days), except in children, pregnant women, the elderly, or a malfunctioning insulin pump.",
+   "notes": [
+    "Correct: gradual onset, a few days.",
+    "Wrong: onset is gradual; faster in listed exceptions.",
+    "Wrong: that describes the 2-3 year diagnostic delay of diabetes.",
+    "Wrong: mild forms precede altered consciousness."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/30.jpg",
+     "lec": "Diabetes semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "In mild ketoacidosis, signs of ketosis (as opposed to signs of hyperglycaemia) include:",
+   "options": [
+    "Fruity (ketonic) breath",
+    "Anorexia",
+    "Nausea and vomiting",
+    "Frequent urination at night"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Ketosis: abdominal pain, nausea, vomiting, anorexia, ketonic breath. Hyperglycaemia: polyuria, polydipsia, thirst, blurry vision, nocturia, weight loss.",
+   "notes": [
+    "Correct: ketonic breath.",
+    "Correct: anorexia.",
+    "Correct: nausea, vomiting.",
+    "Wrong: nocturia is a hyperglycaemia sign."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/30.jpg",
+     "lec": "Diabetes semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "Physical examination findings of mild ketoacidosis include:",
+   "options": [
+    "Capillary blood glucose usually >2.50 g/L",
+    "Ketonuria on urine test strip",
+    "Capillary blood glucose usually below 1.10 g/L",
+    "Coma"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Mild DKA: capillary glucose usually >2.50 g/L, ketonuria on strip, high ketonaemia. Coma belongs to severe forms.",
+   "notes": [
+    "Correct: >2.50 g/L.",
+    "Correct: ketonuria with strip.",
+    "Wrong: that is a normal fasting value.",
+    "Wrong: altered consciousness is moderate-severe."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/31.jpg",
+     "lec": "Diabetes semiology",
+     "n": 31
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/32.jpg",
+     "lec": "Diabetes semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "In moderate to severe ketoacidosis, signs of extracellular dehydration listed are:",
+   "options": [
+    "Arterial hypotension",
+    "Tachycardia",
+    "Sunken eyes",
+    "Dry mucous membranes and thirst"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Extracellular dehydration: dry skin, arterial hypotension, tachycardia. Intracellular: thirst, dry mucous membranes, sunken eyes.",
+   "notes": [
+    "Correct: extracellular sign.",
+    "Correct: extracellular sign.",
+    "Wrong: listed as intracellular dehydration.",
+    "Wrong: listed as intracellular dehydration."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/32.jpg",
+     "lec": "Diabetes semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "In moderate to severe ketoacidosis:",
+   "options": [
+    "Kussmaul respiration is tachypnoea with deep inspirations",
+    "Abdominal pain can be pseudosurgical",
+    "Mental status ranges from drowsiness to coma",
+    "Breathing is slow and shallow, with a long expiratory pause"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Signs of acidosis: dehydration, Kussmaul respiration (tachypnoea with deep inspirations), pseudosurgical abdominal pain, altered mental status from drowsiness to coma.",
+   "notes": [
+    "Correct: Kussmaul definition.",
+    "Correct: pseudosurgical abdominal pain.",
+    "Correct: drowsiness to coma.",
+    "Wrong: Kussmaul is fast and deep."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/32.jpg",
+     "lec": "Diabetes semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "Biochemical diagnostic criteria for DKA in adults include:",
+   "options": [
+    "Ketonaemia >=3 mmol/L or ketonuria >2+",
+    "Blood glucose >250 mg/dL or known diabetes",
+    "Blood glucose above 600 mg/dL is required for the diagnosis",
+    "Trace ketonuria is sufficient"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Criteria: ketonaemia >=3 mmol/L or significant ketonuria (>2+), glucose >250 mg/dL (>14 mmol/L) or known diabetes, plus acidosis.",
+   "notes": [
+    "Correct: ketonaemia >=3 or ketonuria >2+.",
+    "Correct: >250 mg/dL or known diabetes.",
+    "Wrong: threshold is >250 mg/dL.",
+    "Wrong: ketonuria must be significant (>2+)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/33.jpg",
+     "lec": "Diabetes semiology",
+     "n": 33
+    }
+   ]
+  },
+  {
+   "q": "Diabetic retinopathy as a mode of discovery:",
+   "options": [
+    "Vision is usually normal until vitreous haemorrhage or retinal detachment",
+    "Clinical signs are poor, so at-risk patients need screening by fundus examination",
+    "It always causes early visual loss",
+    "It is diagnosed by measuring intraocular pressure alone, without fundus examination"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Retinopathy has poor clinical signs; vision is usually normal until vitreous haemorrhage or retinal detachment; screening by fundus +/- angiography.",
+   "notes": [
+    "Correct: circumstance of discovery.",
+    "Correct: asymptomatic, screening by fundus.",
+    "Wrong: vision usually normal early.",
+    "Wrong: fundus after dilation is key."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/44.jpg",
+     "lec": "Diabetes semiology",
+     "n": 44
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/42.jpg",
+     "lec": "Diabetes semiology",
+     "n": 42
+    }
+   ]
+  },
+  {
+   "q": "Circumstances of discovery of diabetic nephropathy include:",
+   "options": [
+    "Systematic annual check-up",
+    "Oedematous or nephrotic syndrome",
+    "Presence of hypertension",
+    "Proteinuria on urine strips"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "CoD: systematic annual check-up, oedematous/nephrotic syndrome, hypertension, proteinuria with strips.",
+   "notes": [
+    "Correct: annual check-up.",
+    "Correct: oedematous or nephrotic syndrome.",
+    "Correct: hypertension.",
+    "Correct: proteinuria with strips."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/61.jpg",
+     "lec": "Diabetes semiology",
+     "n": 61
+    }
+   ]
+  },
+  {
+   "q": "Coronary artery disease in a diabetic may be discovered through:",
+   "options": [
+    "Atypical chest pain such as epigastric ache or exertional dyspnoea",
+    "Silent myocardial ischaemia",
+    "Heart failure",
+    "Typical angina-like chest pain, which is the usual presentation in diabetics"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "CoD: atypical chest pain (epigastric ache, exertional dyspnoea, palpitations, lipothymia), uncommon typical pain, silent ischaemia, acute complications, heart failure.",
+   "notes": [
+    "Correct: atypical pain is listed.",
+    "Correct: silent myocardial ischaemia.",
+    "Correct: complication: heart failure.",
+    "Wrong: typical chest pain is uncommon."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/71.jpg",
+     "lec": "Diabetes semiology",
+     "n": 71
+    }
+   ]
+  },
+  {
+   "q": "Regarding stroke in diabetes:",
+   "options": [
+    "A stroke can reveal diabetes",
+    "A stroke can induce a DKA revealing diabetes",
+    "Strokes in diabetics are mostly haemorrhagic rather than ischaemic",
+    "Strokes are less frequent in diabetics"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Strokes are more frequent in diabetics, mainly ischaemic; a stroke can reveal diabetes or induce a DKA revealing it.",
+   "notes": [
+    "Correct: can reveal diabetes.",
+    "Correct: can induce revealing DKA.",
+    "Wrong: ischaemic stroke+++.",
+    "Wrong: more frequent in diabetics."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/77.jpg",
+     "lec": "Diabetes semiology",
+     "n": 77
+    }
+   ]
   }
  ],
  "cards": [

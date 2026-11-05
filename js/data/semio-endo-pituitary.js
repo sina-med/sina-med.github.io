@@ -448,6 +448,781 @@ SINA.lectures["semio-endo-pituitary"] = {
      "n": 18
     }
    ]
+  },
+  {
+   "q": "Regarding the clinical features of hyperprolactinaemia:",
+   "options": [
+    "They are the same whatever the cause of the prolactin excess",
+    "Galactorrhoea may be spontaneous or induced",
+    "Galactorrhoea is always permanent, never intermittent",
+    "Mass effect is seen with microadenomas"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The slide states that the manifestations of PRL excess are the same regardless of the cause; galactorrhoea can be spontaneous/induced and permanent/intermittent. Mass effects occur with macroadenomas only.",
+   "notes": [
+    "Slide: same manifestations regardless of cause.",
+    "Slide: spontaneous or induced.",
+    "Wrong: it can be permanent or intermittent.",
+    "Wrong: mass effect occurs with macroadenomas only."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/08.jpg",
+     "lec": "Pituitary semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "In a man with hyperprolactinaemia, the slides list:",
+   "options": [
+    "Erectile dysfunction",
+    "Gynaecomastia",
+    "Infertility",
+    "Frontal bossing"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "In men the usual manifestations are those of hypogonadism: low libido (initial symptom), erectile dysfunction, gynaecomastia and infertility.",
+   "notes": [
+    "Listed under men.",
+    "Listed under men; shown in the photo on slide 9.",
+    "Listed under men.",
+    "Wrong: that is a feature of acromegaly, not prolactin excess."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/08.jpg",
+     "lec": "Pituitary semiology",
+     "n": 8
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/09.jpg",
+     "lec": "Pituitary semiology",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "Menstrual disorders caused by hyperprolactinaemia include:",
+   "options": [
+    "Primary or secondary amenorrhoea",
+    "Menorrhagia",
+    "Cycles shortened to under 21 days",
+    "Post-menopausal bleeding"
+   ],
+   "answer": 0,
+   "why": "Slide 8 lists menstrual disorders as primary or secondary amenorrhoea and oligomenorrhoea: prolactin excess reduces or stops cycles.",
+   "notes": [
+    "Listed on slide 8.",
+    "Not listed: prolactin excess reduces cycles.",
+    "Not listed: oligomenorrhoea (fewer cycles) is described.",
+    "Not listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/08.jpg",
+     "lec": "Pituitary semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "In men, the usual manifestations of hyperprolactinaemia are those of:",
+   "options": [
+    "Hypogonadism",
+    "Hypercortisolism",
+    "Hyperthyroidism",
+    "GH excess"
+   ],
+   "answer": 0,
+   "why": "The slide states that in men the usual manifestations are those of hypogonadism.",
+   "notes": [
+    "Correct per slide 8.",
+    "Wrong: that is Cushing, not prolactin excess.",
+    "Wrong: not a feature of prolactin excess.",
+    "Wrong: that is acromegaly."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/08.jpg",
+     "lec": "Pituitary semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "According to the hyperprolactinaemia mechanism diagram:",
+   "options": [
+    "GnRH secretion falls",
+    "FSH and LH fall",
+    "Ovulation stops (anovulation)",
+    "Dopamine inhibition of prolactin is increased"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The diagram shows prolactin rising with dopamine falling, GnRH falling, FSH/LH falling and anovulation, plus milk secretion.",
+   "notes": [
+    "Shown as GnRH down.",
+    "Shown as FSH and LH down.",
+    "Shown as anovulation.",
+    "Wrong: dopamine is shown as decreased."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/09.jpg",
+     "lec": "Pituitary semiology",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "The work-up of hyperprolactinaemia on the slides includes:",
+   "options": [
+    "Prolactin assay with polyethylene glycol (PEG)",
+    "Dexamethasone suppression test",
+    "Classifying a prolactinoma as micro or macro/invasive",
+    "Adrenal CT scan"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Investigations: prolactin assay with PEG and pituitary MRI, which classifies prolactinomas as micro or macro/invasive.",
+   "notes": [
+    "Listed investigation.",
+    "Wrong: that is a Cushing test.",
+    "MRI classification on slide 10.",
+    "Wrong: adrenal CT is not part of this work-up."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/10.jpg",
+     "lec": "Pituitary semiology",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "Physiological causes of hyperprolactinaemia include:",
+   "options": [
+    "Nipple stimulation",
+    "Exercise",
+    "Sleep",
+    "Seizures"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "The physiologic column of the table lists pregnancy, nursing, nipple stimulation, exercise, stress, sleep and seizures.",
+   "notes": [
+    "Physiologic cause.",
+    "Physiologic cause.",
+    "Physiologic cause.",
+    "Listed in the physiologic column."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Drugs that can raise prolactin include:",
+   "options": [
+    "Haloperidol",
+    "Opioids",
+    "Monoamine oxidase inhibitors",
+    "Levodopa"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Pharmacologic causes include dopamine antagonists (phenothiazines, haloperidol, risperidone, metoclopramide, reserpine, methyldopa, opioids), MAO inhibitors, IV cimetidine, verapamil and TRH.",
+   "notes": [
+    "Dopamine antagonist in the table.",
+    "Listed with dopamine antagonists.",
+    "Listed.",
+    "Wrong: levodopa increases dopamine, which inhibits prolactin."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Regarding drug-induced hyperprolactinaemia:",
+   "options": [
+    "It is usually mild, about 25 to 100 ng/mL",
+    "Risperidone can push levels above 200 ng/mL",
+    "Opioids typically push levels above 200 ng/mL",
+    "Verapamil typically gives levels above 200 ng/mL"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Table footnote: drug-induced hyperprolactinaemia is usually mild (25-100 ng/mL) except for the highlighted agents (phenothiazines, risperidone, metoclopramide), which can exceed 200 ng/mL.",
+   "notes": [
+    "Footnote value.",
+    "Highlighted agent.",
+    "Wrong: opioids are not among the highlighted agents.",
+    "Wrong: verapamil is not a highlighted agent."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Pathological causes of hyperprolactinaemia include:",
+   "options": [
+    "Hypophyseal stalk lesion (stalk effect)",
+    "Polycystic ovary syndrome",
+    "Acromegaly with GH and prolactin co-secretion",
+    "Excess hypothalamic dopamine secretion"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The pathologic column lists pituitary tumours (prolactinoma, acromegaly co-secreting GH and PRL, nonsecretory adenoma), hypothyroidism, CKD, liver failure, stalk lesion, irradiation, spinal cord lesions, hypophysitis and PCOS.",
+   "notes": [
+    "Listed as stalk effect.",
+    "Listed.",
+    "Listed under pituitary tumours.",
+    "Wrong: dopamine inhibits prolactin; less dopamine raises it."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "A 28-year-old woman on risperidone has galactorrhoea and amenorrhoea. Per the slides:",
+   "options": [
+    "Risperidone is a recognised cause of high prolactin",
+    "With risperidone, prolactin may exceed 200 ng/mL",
+    "High prolactin always means a prolactinoma",
+    "Her symptoms differ from those of a prolactinoma"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Risperidone is a dopamine antagonist that can raise prolactin above 200 ng/mL, and PRL excess gives the same features whatever the cause.",
+   "notes": [
+    "Pharmacologic cause in the table.",
+    "Highlighted agent in the footnote.",
+    "Wrong: many physiologic, drug and disease causes exist.",
+    "Wrong: manifestations are the same regardless of cause."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/08.jpg",
+     "lec": "Pituitary semiology",
+     "n": 8
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Features of the acromegalic face include:",
+   "options": [
+    "Enlargement of the nose",
+    "Deep nasolabial furrows",
+    "Teeth separation and malocclusion",
+    "A small, receding mandible"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Acromegalic facies: prominent supraorbital ridges, frontal bossing, nose enlargement, prognathism, dental problems, coarse features, deep nasolabial furrows, macroglossia and large lips.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed as dental problems.",
+    "Wrong: the mandible grows downward and forward (prognathism)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/15.jpg",
+     "lec": "Pituitary semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "In acromegaly, the slides describe:",
+   "options": [
+    "A sonorous, deepening voice",
+    "Thin, dry skin",
+    "Macroglossia",
+    "Small, slender hands"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Acromegaly gives a sonorous deepening voice, macroglossia, large thickened bulky hands and feet, and thick oily sweaty skin.",
+   "notes": [
+    "Listed.",
+    "Wrong: skin is thickened, oily and sweaty.",
+    "Listed with large lips.",
+    "Wrong: hands become large, thickened and bulky."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/15.jpg",
+     "lec": "Pituitary semiology",
+     "n": 15
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/16.jpg",
+     "lec": "Pituitary semiology",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "About acromegaly:",
+   "options": [
+    "It is GH hypersecretion in adults",
+    "The mandible grows backward",
+    "The supraorbital ridges become flattened",
+    "The facial features become finer"
+   ],
+   "answer": 0,
+   "why": "Acromegaly is GH hypersecretion in adults; the mandible grows downward and forward (prognathism), the supraorbital ridges become prominent and the features coarsen.",
+   "notes": [
+    "Slide title.",
+    "Wrong: it grows downward and forward (prognathism).",
+    "Wrong: they become prominent.",
+    "Wrong: the features coarsen."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/15.jpg",
+     "lec": "Pituitary semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "Generalised visceromegaly in acromegaly includes:",
+   "options": [
+    "Thyromegaly",
+    "Enlarged salivary glands",
+    "Shrinkage of the kidneys",
+    "Atrophy of the spleen"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Slide 17: thyromegaly and enlargement of the salivary glands, with enlargement of other organs (liver, heart, kidney).",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Wrong: liver, heart and kidneys enlarge.",
+    "Wrong: organs enlarge; atrophy is not described."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/17.jpg",
+     "lec": "Pituitary semiology",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Acromegalic arthropathy is:",
+   "options": [
+    "Degenerative arthritis of the spine, hips and knees",
+    "Grouped with neural signs as articular and neural manifestations",
+    "An inflammatory autoimmune arthritis",
+    "Limited to the small joints, sparing the spine"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Articular and neural manifestations: acromegalic arthropathy is degenerative arthritis of the spine, hips and knees.",
+   "notes": [
+    "Slide definition.",
+    "Slide heading groups them.",
+    "Wrong: it is described as degenerative.",
+    "Wrong: the spine is involved."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/17.jpg",
+     "lec": "Pituitary semiology",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "A patient with acromegaly has night-time tingling of the hand. Regarding this complaint:",
+   "options": [
+    "It fits carpal tunnel syndrome from median nerve compression",
+    "It is caused by ulnar nerve entrapment",
+    "It comes from neural enlargement and wrist tissue swelling",
+    "It affects under 5% of patients"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Neural enlargement and wrist tissue swelling lead to carpal tunnel syndrome in up to half of patients, with painful median nerve compression and acroparaesthesias.",
+   "notes": [
+    "Slide: painful median nerve compression.",
+    "Wrong: the median nerve is involved.",
+    "Slide mechanism.",
+    "Wrong: up to half of all patients."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/17.jpg",
+     "lec": "Pituitary semiology",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Endocrine and metabolic abnormalities seen in acromegaly include:",
+   "options": [
+    "Diabetes mellitus or impaired glucose tolerance",
+    "Type IV hypertriglyceridaemia",
+    "Hypercalciuria",
+    "Diffuse or nodular goitre"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Slide 17 lists DM/IGT, type IV hypertriglyceridaemia, hyperlipoproteinaemia, hypercalciuria and diffuse or nodular goitre.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/17.jpg",
+     "lec": "Pituitary semiology",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "The work-up of acromegaly includes:",
+   "options": [
+    "IGF-1 and GH during a 75 g OGTT",
+    "1 mg overnight dexamethasone test",
+    "Short synacthen test with 250 ug tetracosactide",
+    "Urinary methoxylated catecholamine derivatives"
+   ],
+   "answer": 0,
+   "why": "Acromegaly investigations: IGF-1, GH inhibition in the 75 g glucose tolerance test, prolactin (co-secretion) and pituitary MRI.",
+   "notes": [
+    "Listed blood tests on slide 18.",
+    "Wrong: a Cushing screening test.",
+    "Wrong: an adrenal insufficiency test.",
+    "Wrong: a phaeochromocytoma test."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/18.jpg",
+     "lec": "Pituitary semiology",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "In the 75 g glucose tolerance test used for acromegaly:",
+   "options": [
+    "The test looks for inhibition of GH by glucose",
+    "Lack of GH inhibition supports acromegaly",
+    "It is used to measure prolactin suppression",
+    "Glucose normally stimulates GH secretion"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The slide lists 'GH - inhibition in glucose tolerance 75 g test': glucose should suppress GH, and in acromegaly it does not.",
+   "notes": [
+    "Slide wording.",
+    "Inadequate suppression points to GH excess.",
+    "Wrong: GH is the hormone tested.",
+    "Wrong: glucose normally inhibits GH."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/18.jpg",
+     "lec": "Pituitary semiology",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "Pituitary anatomy relevant to mass effect:",
+   "options": [
+    "The gland sits in the sella turcica",
+    "The cavernous sinuses lie on both sides",
+    "The optic chiasm lies below the gland",
+    "The posterior lobe is the adenohypophysis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The pituitary lies in the hypophyseal fossa of the sella turcica, with the optic chiasm above and the cavernous sinuses on both sides.",
+   "notes": [
+    "Sella turcica below.",
+    "Cavernous sinuses on both sides.",
+    "Wrong: the chiasm is above.",
+    "Wrong: the anterior lobe is the adenohypophysis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/04.jpg",
+     "lec": "Pituitary semiology",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "The pituitary gland measures about:",
+   "options": [
+    "5 x 10 x 15 mm",
+    "5 x 5 x 5 cm",
+    "1 x 1 x 1 mm",
+    "2 x 3 x 4 cm (a large mass)"
+   ],
+   "answer": 0,
+   "why": "Slide 4 gives pituitary dimensions of 5x10x15 mm, lying in the sella turcica below the optic chiasm.",
+   "notes": [
+    "Slide value.",
+    "Wrong: far too large.",
+    "Wrong: far too small.",
+    "Wrong: too large; that would be a macroadenoma-sized mass."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/04.jpg",
+     "lec": "Pituitary semiology",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "Lateral extension of a pituitary tumour causes diplopia by compressing the cranial nerves:",
+   "options": [
+    "III (oculomotor)",
+    "IV (trochlear)",
+    "VI (abducens)",
+    "VII (facial)"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Slide 22: compression of cranial nerves III, IV and VI gives diplopia and palpebral ptosis.",
+   "notes": [
+    "Named on slide 22.",
+    "Named on slide 22.",
+    "Named on slide 22.",
+    "Wrong: not part of the cavernous sinus compression described."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/21.jpg",
+     "lec": "Pituitary semiology",
+     "n": 21
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/22.jpg",
+     "lec": "Pituitary semiology",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Visual field defects of the optic-chiasmatic syndrome include:",
+   "options": [
+    "Bitemporal superior quadrantanopia",
+    "Bitemporal hemianopia",
+    "Homonymous contralateral hemianopia",
+    "Binasal hemianopia"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Suprasellar extension compresses the chiasm: bitemporal visual loss in the superior fields (bitemporal superior quadrantanopia, then hemianopia) and homonymous contralateral hemianopia.",
+   "notes": [
+    "Slide 24.",
+    "Slide 24.",
+    "Slide 24 (nasal field of the other eye).",
+    "Wrong: not described on the slides."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/23.jpg",
+     "lec": "Pituitary semiology",
+     "n": 23
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/24.jpg",
+     "lec": "Pituitary semiology",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "Ophthalmological signs described as RARE in pituitary mass effect:",
+   "options": [
+    "Decreased visual acuity",
+    "Optic atrophy",
+    "Papilloedema",
+    "Bitemporal superior visual loss"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Rarely, decreased visual acuity, pupillary abnormalities, optic atrophy, papilloedema, cranial nerve palsies and nystagmus may be seen; bitemporal superior loss is the typical sign.",
+   "notes": [
+    "Listed as rare.",
+    "Listed as rare.",
+    "Listed as rare.",
+    "Wrong: this is the typical chiasmal sign, not a rare one."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/24.jpg",
+     "lec": "Pituitary semiology",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "The optic-chiasmatic syndrome is caused by:",
+   "options": [
+    "Suprasellar extension of the adenoma",
+    "Downward extension into the sphenoid sinus",
+    "Lateral extension into the cavernous sinus",
+    "Hyperfunction of the posterior lobe"
+   ],
+   "answer": 0,
+   "why": "Suprasellar extension of the pituitary adenoma compresses the optic chiasm, giving the optic-chiasmatic syndrome.",
+   "notes": [
+    "Slide 24.",
+    "Wrong: the chiasm lies above the gland.",
+    "Wrong: this gives cranial nerve palsies (diplopia, ptosis).",
+    "Wrong: not a mass effect mechanism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/24.jpg",
+     "lec": "Pituitary semiology",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "About the diagnosis and management of pituitary apoplexy:",
+   "options": [
+    "Diagnosis rests on clinical features and pituitary imaging",
+    "Early transsphenoidal decompression is done within 8 days",
+    "Diagnosis needs adrenal venous sampling",
+    "Surgery should wait at least 3 months"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Diagnosis is based on clinical features and pituitary imaging; it can cause panhypopituitarism; early transsphenoidal decompression within 8 days is advised.",
+   "notes": [
+    "Slide 25.",
+    "Slide 25.",
+    "Wrong: diagnosis uses clinical features and pituitary imaging.",
+    "Wrong: decompression is early (within 8 days)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/25.jpg",
+     "lec": "Pituitary semiology",
+     "n": 25
+    }
+   ]
+  },
+  {
+   "q": "Features of pituitary apoplexy:",
+   "options": [
+    "Spontaneous haemorrhagic infarction of a pituitary tumour",
+    "Meningismus and altered consciousness",
+    "It occurs in a normal gland without a tumour",
+    "Pituitary function is usually left intact"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Apoplexy is spontaneous haemorrhagic infarction of a pituitary tumour, with headache, visual loss, ophthalmoplegia, meningismus and altered consciousness; it often causes pituitary insufficiency.",
+   "notes": [
+    "Slide definition.",
+    "Listed features.",
+    "Wrong: it is infarction of a pituitary tumour.",
+    "Wrong: it often causes partial or total insufficiency."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/25.jpg",
+     "lec": "Pituitary semiology",
+     "n": 25
+    }
+   ]
   }
  ],
  "cards": [
