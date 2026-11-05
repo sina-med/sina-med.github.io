@@ -12821,6 +12821,911 @@ SINA.lectures["semio-endo-adrenal"] = {
      "n": 79
     }
    ]
+  },
+  {
+   "q": "About the zonation of the adrenal gland:",
+   "options": [
+    "The cortex makes up 80-90% of the gland",
+    "The zona glomerulosa secretes aldosterone",
+    "The zona reticularis secretes cortisol",
+    "The medulla makes up 40-50% of the gland"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The zonation diagram shows a cortex of 80-90% (glomerulosa -> aldosterone, fasciculata -> cortisol, reticularis -> weak androgens) and a medulla of 10-20%.",
+   "notes": [
+    "Correct: cortex 80-90%.",
+    "Correct: zona glomerulosa -> aldosterone.",
+    "Wrong: reticularis makes weak androgens; cortisol comes from the fasciculata.",
+    "Wrong: the medulla is only 10-20%."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p05.jpg",
+     "lec": "Adrenal semiology",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "The adrenal medulla:",
+   "options": [
+    "Is made of chromaffin cells",
+    "Secretes catecholamines",
+    "Secretes about 80% epinephrine and 20% norepinephrine",
+    "Secretes weak androgens"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Per the diagram, the medulla (10-20%) contains chromaffin cells secreting catecholamines: epinephrine 80%, norepinephrine 20%.",
+   "notes": [
+    "Correct: chromaffin cells.",
+    "Correct: catecholamines.",
+    "Correct: epinephrine 80%, norepinephrine 20%.",
+    "Wrong: weak androgens come from the zona reticularis of the cortex."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p05.jpg",
+     "lec": "Adrenal semiology",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "The zona fasciculata:",
+   "options": [
+    "Secretes cortisol",
+    "Secretes aldosterone",
+    "Is part of the adrenal medulla",
+    "Secretes catecholamines"
+   ],
+   "answer": 0,
+   "why": "The zonation diagram shows zona fasciculata -> cortisol, a steroid hormone of the cortex.",
+   "notes": [
+    "Correct: fasciculata -> cortisol.",
+    "Wrong: aldosterone comes from the zona glomerulosa.",
+    "Wrong: it is a zone of the cortex.",
+    "Wrong: catecholamines come from the medulla."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p05.jpg",
+     "lec": "Adrenal semiology",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "Secretions of the adrenal cortex listed in the steroidogenesis reminder:",
+   "options": [
+    "Glucocorticoids: cortisol and deoxycortisol",
+    "Mineralocorticoids: aldosterone and corticosterone",
+    "Catecholamines from the zona reticularis",
+    "Norepinephrine from the zona glomerulosa"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The cortex produces 3 types of secretions: glucocorticoids (cortisol, deoxycortisol), mineralocorticoids (aldosterone, corticosterone) and androgens.",
+   "notes": [
+    "Correct: as listed on the slide.",
+    "Correct: as listed on the slide (per the slides; textbooks note corticosterone also has glucocorticoid activity).",
+    "Wrong: catecholamines are medullary; the third cortical type is androgens.",
+    "Wrong: norepinephrine is a medullary catecholamine."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p06.jpg",
+     "lec": "Adrenal semiology",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "On the steroidogenesis diagram:",
+   "options": [
+    "All three cortical zones start from cholesterol",
+    "Side-chain cleavage (CYP11A1) turns cholesterol into pregnenolone",
+    "11-hydroxylase (CYP11B1) turns 11-deoxycortisol into cortisol",
+    "Aldosterone is synthesised in the zona reticularis"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Each zone starts from cholesterol -> pregnenolone (CYP11A1); in the fasciculata, 11-deoxycortisol -> cortisol via CYP11B1; aldosterone is made in the glomerulosa.",
+   "notes": [
+    "Correct: cholesterol is the start in each zone.",
+    "Correct: CYP11A1 side-chain cleavage.",
+    "Correct: last step of cortisol synthesis.",
+    "Wrong: aldosterone is made in the zona glomerulosa."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p07.jpg",
+     "lec": "Adrenal semiology",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "Aldosterone synthesis in the zona glomerulosa, per the diagram:",
+   "options": [
+    "Progesterone is converted to 11-deoxycorticosterone by 21-hydroxylase",
+    "The last step is the 18-oxidase (CYP11B2)",
+    "The pathway passes through 17(OH)-progesterone",
+    "The pathway ends in 11-deoxycortisol"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "In the glomerulosa: progesterone -> DOC (21-hydroxylase) -> corticosterone -> 18(OH)-corticosterone -> aldosterone (18-oxidase, CYP11B2).",
+   "notes": [
+    "Correct: 21-hydroxylase gives DOC.",
+    "Correct: 18-oxidase gives aldosterone.",
+    "Wrong: 17(OH)-progesterone belongs to the fasciculata (cortisol) pathway.",
+    "Wrong: 11-deoxycortisol is the cortisol precursor in the fasciculata."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p07.jpg",
+     "lec": "Adrenal semiology",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "In the zona reticularis, per the steroidogenesis diagram:",
+   "options": [
+    "17,20-lyase (CYP17) turns 17(OH)-pregnenolone into DHEA",
+    "Sulfotransferase (SULT2A1) turns DHEA into DHEAS",
+    "3beta-HSD has very low activity",
+    "DHEA can be converted to androstenedione"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "The reticularis path: 17(OH)-pregnenolone -> DHEA (17,20-lyase) -> DHEAS (SULT2A1); DHEA -> androstenedione via 3beta-HSD, which has very low activity in this zone.",
+   "notes": [
+    "Correct: shown on the diagram.",
+    "Correct: shown on the diagram.",
+    "Correct: 'very low activity in this zone'.",
+    "Correct: DHEA -> androstenedione (delta5 to delta4)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p07.jpg",
+     "lec": "Adrenal semiology",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "Regulation of cortisol secretion, per the diagram:",
+   "options": [
+    "Hypothalamic CRH stimulates pituitary ACTH",
+    "Cortisol exerts negative feedback on the hypothalamus and pituitary",
+    "ACTH inhibits cortisol secretion",
+    "Hypoglycaemia inhibits the axis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Hypothalamus -> CRH -> pituitary -> ACTH -> adrenals -> cortisol, with negative feedback of cortisol; stressors such as hypoglycaemia stimulate the hypothalamus.",
+   "notes": [
+    "Correct: CRH drives ACTH.",
+    "Correct: two negative feedback loops shown.",
+    "Wrong: ACTH stimulates the adrenals.",
+    "Wrong: hypoglycaemia is a stressor that stimulates the axis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p08.jpg",
+     "lec": "Adrenal semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Effects of cortisol shown on the regulation diagram:",
+   "options": [
+    "Increased gluconeogenesis",
+    "Increased lipolysis",
+    "Increased cardiac output",
+    "Decreased proteolysis"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Metabolism: up gluconeogenesis, glycogenolysis, proteolysis, lipolysis; cardiovascular: up myocardial contractility, cardiac output and catecholamine pressor effect.",
+   "notes": [
+    "Correct: listed under metabolism.",
+    "Correct: listed under metabolism.",
+    "Correct: listed under cardiovascular system.",
+    "Wrong: proteolysis is increased."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p08.jpg",
+     "lec": "Adrenal semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "On the aldosterone regulation diagram, renin secretion is inhibited by:",
+   "options": [
+    "ANP",
+    "Dopamine",
+    "Increased beta-adrenergic action",
+    "Decreased renal arterial pressure"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Renin is stimulated by low renal arterial pressure, beta-adrenergic action and prostaglandins, and inhibited by ANP and dopamine.",
+   "notes": [
+    "Correct: ANP inhibits renin.",
+    "Correct: dopamine inhibits renin.",
+    "Wrong: beta-adrenergic action stimulates renin.",
+    "Wrong: low renal arterial pressure stimulates renin."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p08.jpg",
+     "lec": "Adrenal semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "About the renin-angiotensin-aldosterone system on the diagram:",
+   "options": [
+    "Angiotensinogen comes from the liver",
+    "Angiotensin I becomes angiotensin II in the lungs",
+    "Angiotensin II stimulates aldosterone secretion",
+    "Aldosterone increases Na+ and water retention"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Liver angiotensinogen -> (renin) angiotensin I -> (lungs) angiotensin II -> adrenal aldosterone -> Na+ and water retention, K+ excretion, raised ECF volume and renal arterial pressure.",
+   "notes": [
+    "Correct: liver makes angiotensinogen.",
+    "Correct: conversion shown in the lungs.",
+    "Correct: angiotensin II acts on the adrenals.",
+    "Correct: Na+ (+ water) retention."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p08.jpg",
+     "lec": "Adrenal semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Physiological effects of corticosteroids:",
+   "options": [
+    "Adrenal androgens have a minor role compared with gonadal sex hormones",
+    "Adrenal androgens are the main source of sex hormones",
+    "Glucocorticoids have no effect on growth",
+    "Glucocorticoids act only on carbohydrate metabolism"
+   ],
+   "answer": 0,
+   "why": "Glucocorticoids: metabolic actions (carbohydrate, protein, lipid, hydro-electrolytic), neurologic and muscular effects, growth; adrenal androgens: minor role compared with gonadal sex hormones.",
+   "notes": [
+    "Correct: as stated on the slide.",
+    "Wrong: their role is minor.",
+    "Wrong: growth is one of the listed effects.",
+    "Wrong: also protein, lipid and hydro-electrolytic metabolism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p09.jpg",
+     "lec": "Adrenal semiology",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "Mineralocorticoids:",
+   "options": [
+    "Act mainly on water and electrolyte metabolism",
+    "Take part in acid-base balance",
+    "Cause Na+ excretion and K+ retention",
+    "Have a minor role compared with gonadal hormones"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Mineralocorticoids act on water and electrolyte metabolism (+++): Na+ reabsorption, K+ excretion and acid-base balance.",
+   "notes": [
+    "Correct: their main action.",
+    "Correct: listed on the slide.",
+    "Wrong: reverse - Na+ reabsorption and K+ excretion.",
+    "Wrong: that describes adrenal androgens."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p09.jpg",
+     "lec": "Adrenal semiology",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "Clinical examination of the adrenal glands:",
+   "options": [
+    "Normal adrenals are not accessible to clinical examination",
+    "A very large tumour may become accessible",
+    "It searches for signs of hormonal hypo- or hypersecretion",
+    "Normal adrenals are palpated by bimanual flank palpation"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "In the physiological state the adrenals are not accessible to examination, unless the tumour is very large; the exam looks for signs of hormonal hypo- or hypersecretion.",
+   "notes": [
+    "Correct: as stated.",
+    "Correct: 'unless the tumor is so large'.",
+    "Correct: the aim of the examination.",
+    "Wrong: normal adrenals cannot be examined."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p10.jpg",
+     "lec": "Adrenal semiology",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "On adrenal CT/MRI, adrenal hyperplasia appears as:",
+   "options": [
+    "A homogeneous increase in volume with preserved morphology",
+    "A small retracted gland",
+    "Adrenal calcifications",
+    "A unilateral heterogeneous mass with loss of shape"
+   ],
+   "answer": 0,
+   "why": "CT/MRI: hyperplasia = homogeneous increase in volume with preserved morphology.",
+   "notes": [
+    "Correct: definition on the slide.",
+    "Wrong: that is atrophy (e.g. autoimmune AI).",
+    "Wrong: calcifications suggest tuberculosis.",
+    "Wrong: morphology is preserved in hyperplasia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p11.jpg",
+     "lec": "Adrenal semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Adrenal CT scan/MRI:",
+   "options": [
+    "Is the examination of choice for adrenal exploration",
+    "Shows normal adrenals with an inverted Y shape",
+    "Cannot visualise normal adrenals",
+    "Cannot detect adrenal atrophy"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "CT/MRI is the examination of choice: it visualises normal adrenals (inverted Y) and pathological states (tumours, hyperplasia, atrophy).",
+   "notes": [
+    "Correct: examination of choice.",
+    "Correct: inverted-Y shape.",
+    "Wrong: that is ultrasound.",
+    "Wrong: atrophy is one of the pathological situations shown."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p11.jpg",
+     "lec": "Adrenal semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Adrenal scintigraphy:",
+   "options": [
+    "Uses a radioactive marker taken up by the adrenals",
+    "Shows hyperplasia as bilateral or unilateral homogeneous fixation",
+    "Can reveal a tumour or metastasis",
+    "Is the examination of choice for adrenal exploration"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Scintigraphy injects a radioactive marker with adrenal uptake: normal fixation, hyperplasia (increased volume, bilateral or unilateral homogeneous fixation), tumour or metastasis.",
+   "notes": [
+    "Correct: principle of the test.",
+    "Correct: as stated for hyperplasia.",
+    "Correct: listed on the slide.",
+    "Wrong: CT/MRI is the examination of choice."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p12.jpg",
+     "lec": "Adrenal semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Regarding ultrasound and urinary tree X-ray of the adrenals:",
+   "options": [
+    "Ultrasound visualises normal adrenals well",
+    "Ultrasound detects tumours larger than 5 cm",
+    "Urinary tree X-ray studies the adrenal area for calcifications",
+    "Ultrasound has very good resolution"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "why": "Ultrasound has bad resolution, does not visualise normal adrenals and detects tumours >5 cm; X-ray of the urinary tree studies the adrenal area (calcifications).",
+   "notes": [
+    "Wrong: it does not visualise normal adrenals.",
+    "Correct: tumours >5 cm.",
+    "Correct: looks for calcifications.",
+    "Wrong: resolution is bad."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p13.jpg",
+     "lec": "Adrenal semiology",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "Features labelled on the Cushing syndrome drawing include:",
+   "options": [
+    "Thinning of hair",
+    "Acne",
+    "Increased body and facial hair",
+    "Thick skin and subcutaneous tissue"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The drawing labels thinning of hair, acne, moon face, red cheeks, increased body and facial hair, buffalo hump, thin skin and subcutaneous tissue, easy bruising and slow wound healing.",
+   "notes": [
+    "Correct: labelled.",
+    "Correct: labelled.",
+    "Correct: labelled.",
+    "Wrong: the skin and subcutaneous tissue are thin."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p20.jpg",
+     "lec": "Adrenal semiology",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "The face of the child photographed in the Cushing section shows:",
+   "options": [
+    "A round moon face",
+    "Red cheeks",
+    "Pigmented gums and pale skin",
+    "A thin face with temporal wasting"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The photo shows a round, full face with red cheeks, matching 'moon face' and 'red cheeks' on the labelled drawing.",
+   "notes": [
+    "Correct: round, full face.",
+    "Correct: facial redness.",
+    "Wrong: mucosal pigmentation is a sign of primary adrenal insufficiency.",
+    "Wrong: the face is full, not wasted."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p27.jpg",
+     "lec": "Adrenal semiology",
+     "n": 27
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p20.jpg",
+     "lec": "Adrenal semiology",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "Images in the Cushing aetiology section show:",
+   "options": [
+    "A pituitary adenoma on MRI (pituitary, ACTH-dependent origin)",
+    "An adrenal adenoma on CT with its resected yellow specimen",
+    "Bilateral adrenal calcifications of tuberculosis",
+    "A paraganglioma of the bladder wall"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "After the aetiologies slide (pituitary adenoma vs adrenal adenoma), the lecture shows a pituitary MRI with a sellar adenoma and an adrenal CT with the resected yellow adenoma.",
+   "notes": [
+    "Correct: sellar mass on sagittal and coronal MRI.",
+    "Correct: adrenal nodule and surgical specimen.",
+    "Wrong: calcified adrenals are shown in the AI section.",
+    "Wrong: paragangliomas belong to the phaeochromocytoma section."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p34.jpg",
+     "lec": "Adrenal semiology",
+     "n": 34
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p35.jpg",
+     "lec": "Adrenal semiology",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "According to the clinical examination slide, the hyperpigmentation of primary adrenal insufficiency:",
+   "options": [
+    "Is a fundamental element of the diagnosis",
+    "Predominates in sun-exposed areas",
+    "Involves palmar creases, nipples and areolae",
+    "Is the key sign of secondary adrenal insufficiency"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Hyperpigmentation is a fundamental element of diagnosis, seen in non-naturally pigmented patients, mainly in sun-exposed areas, with palmar creases, nail beds, nipples, areolae and mucosa involved.",
+   "notes": [
+    "Correct: stated on the slide.",
+    "Correct: sun-exposed areas predominate.",
+    "Correct: listed sites.",
+    "Wrong: secondary AI has no hyperpigmentation (pale skin)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p42.jpg",
+     "lec": "Adrenal semiology",
+     "n": 42
+    }
+   ]
+  },
+  {
+   "q": "The photographs of primary adrenal insufficiency show pigmentation of:",
+   "options": [
+    "The tongue and buccal mucosa",
+    "The nail beds of the toes",
+    "The whites of the eyes",
+    "Only the old scars"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The photos show pigmented tongue and buccal mucosa and pigmented toenail beds, matching the slide: buccal mucosa, gums and nail beds.",
+   "notes": [
+    "Correct: buccal mucosa and tongue photo.",
+    "Correct: toenail beds photo.",
+    "Wrong: not shown or listed.",
+    "Wrong: new scars pigment, old scars do not."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p45.jpg",
+     "lec": "Adrenal semiology",
+     "n": 45
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p46.jpg",
+     "lec": "Adrenal semiology",
+     "n": 46
+    }
+   ]
+  },
+  {
+   "q": "Autoimmune Addison's disease is marked by:",
+   "options": [
+    "Anti-21-hydroxylase antibodies",
+    "Adrenal calcifications on imaging",
+    "Anti-thyroperoxidase antibodies",
+    "Homogeneously enlarged adrenals"
+   ],
+   "answer": 0,
+   "why": "Primary AI aetiologies: Addison's disease - anti-21-hydroxylase antibodies; adrenal tuberculosis - calcifications on imaging.",
+   "notes": [
+    "Correct: the listed marker.",
+    "Wrong: calcifications point to adrenal tuberculosis.",
+    "Wrong: thyroid antibody, not listed.",
+    "Wrong: autoimmune adrenals are small (cortical retraction)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p52.jpg",
+     "lec": "Adrenal semiology",
+     "n": 52
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p53.jpg",
+     "lec": "Adrenal semiology",
+     "n": 53
+    }
+   ]
+  },
+  {
+   "q": "On CT, autoimmune adrenal insufficiency shows:",
+   "options": [
+    "A small adrenal with cortical retraction",
+    "Bilateral adrenal calcifications",
+    "A large heterogeneous adrenal mass",
+    "Homogeneous enlargement with preserved shape"
+   ],
+   "answer": 0,
+   "why": "CT in AI assesses adrenal structure and size and tumoral aetiology; the example shows autoimmune involvement: small left adrenal (cortical retraction).",
+   "notes": [
+    "Correct: caption of the CT image.",
+    "Wrong: calcifications suggest tuberculosis.",
+    "Wrong: suggests a tumoral cause.",
+    "Wrong: that describes hyperplasia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p53.jpg",
+     "lec": "Adrenal semiology",
+     "n": 53
+    }
+   ]
+  },
+  {
+   "q": "Aldosterone-producing adenoma:",
+   "options": [
+    "Is a benign tumour of the adrenal cortex",
+    "Produces excessive aldosterone",
+    "Presents with systolo-diastolic hypertension and hypokalaemia",
+    "Is a tumour of the adrenal medulla"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "It is a benign adenoma of the adrenal cortex producing excessive aldosterone; clinically, systolo-diastolic hypertension with hypokalaemia.",
+   "notes": [
+    "Correct: benign cortical adenoma.",
+    "Correct: aldosterone excess.",
+    "Correct: key clinical picture.",
+    "Wrong: medullary tumour = phaeochromocytoma."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p66.jpg",
+     "lec": "Adrenal semiology",
+     "n": 66
+    }
+   ]
+  },
+  {
+   "q": "Manifestations of hypokalaemia in aldosterone-producing adenoma:",
+   "options": [
+    "Fatigue and muscle cramps",
+    "Polyuria and polydipsia",
+    "Pseudo-paralysis",
+    "Purple striae"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Hypokalaemia causes fatigue and muscle cramps, polyuria and polydipsia, paresthesia and pseudo-paralysis.",
+   "notes": [
+    "Correct: listed.",
+    "Correct: listed.",
+    "Correct: listed.",
+    "Wrong: purple striae are a sign of Cushing syndrome."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p67.jpg",
+     "lec": "Adrenal semiology",
+     "n": 67
+    }
+   ]
+  },
+  {
+   "q": "The hormonal pattern of aldosterone-producing adenoma on the slides:",
+   "options": [
+    "High aldosterone, low renin, ratio above 64",
+    "High aldosterone, high renin",
+    "Low aldosterone, low renin",
+    "Normal ratio below 64 with high renin"
+   ],
+   "answer": 0,
+   "why": "Normal aldosterone/renin ratio is <64; in adenoma, aldosterone is high and renin low with a ratio >64.",
+   "notes": [
+    "Correct: per the slide (units not given; cut-offs vary with assay units in textbooks).",
+    "Wrong: renin is suppressed.",
+    "Wrong: aldosterone is high.",
+    "Wrong: <64 is the normal ratio."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p68.jpg",
+     "lec": "Adrenal semiology",
+     "n": 68
+    }
+   ]
+  },
+  {
+   "q": "Conditions for measuring the aldosterone/renin ratio:",
+   "options": [
+    "Normo-sodium diet",
+    "Stopping antihypertensives that interfere with the renin-angiotensin system",
+    "Fasting morning sample",
+    "Salt-free diet for several days"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Conditions: normal sodium diet, discontinuation of anti-HTA drugs interfering with the renin-angiotensin system, fasting morning sample.",
+   "notes": [
+    "Correct: listed condition.",
+    "Correct: listed condition.",
+    "Correct: listed condition.",
+    "Wrong: the diet must be normo-sodium."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p68.jpg",
+     "lec": "Adrenal semiology",
+     "n": 68
+    }
+   ]
+  },
+  {
+   "q": "On noriodocholesterol scintigraphy, an aldosterone-producing adenoma gives:",
+   "options": [
+    "Unilateral hyperfixation",
+    "Bilateral homogeneous fixation",
+    "No fixation at all",
+    "Multiple ectopic whole-body foci"
+   ],
+   "answer": 0,
+   "why": "Morphological exploration: noriodocholesterol scintigraphy - adenoma: unilateral hyperfixation.",
+   "notes": [
+    "Correct: as stated.",
+    "Wrong: bilateral homogeneous fixation suggests hyperplasia.",
+    "Wrong: the adenoma hyperfixes.",
+    "Wrong: whole-body search is MIBG for phaeochromocytoma."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p69.jpg",
+     "lec": "Adrenal semiology",
+     "n": 69
+    }
+   ]
+  },
+  {
+   "q": "On CT, an aldosterone-producing adenoma:",
+   "options": [
+    "Appears as a hypodense mass",
+    "Usually measures 1 to 3 cm",
+    "Usually exceeds 5 cm and is easily seen on ultrasound",
+    "Is seen far better on MRI than on CT"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "CT scan: hypodense mass of 1 to 3 cm; MRI is roughly equivalent to CT.",
+   "notes": [
+    "Correct: hypodense mass.",
+    "Correct: 1 to 3 cm.",
+    "Wrong: it is small; ultrasound detects only tumours >5 cm.",
+    "Wrong: MRI is about equal to CT."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p69.jpg",
+     "lec": "Adrenal semiology",
+     "n": 69
+    }
+   ]
+  },
+  {
+   "q": "Adrenal computed tomography in the phaeochromocytoma section:",
+   "options": [
+    "Assesses tumour extension",
+    "The example horizontal section shows a left phaeochromocytoma",
+    "Measures catecholamine secretion",
+    "The example shows a right adrenal tuberculosis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Adrenal CT assesses adenoma size, structure (lipid) and tumour extension; the image is a horizontal section of a left phaeochromocytoma.",
+   "notes": [
+    "Correct: tumour extension is listed.",
+    "Correct: image caption.",
+    "Wrong: secretion is measured biologically (metanephrines).",
+    "Wrong: caption says left phaeochromocytoma."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p78.jpg",
+     "lec": "Adrenal semiology",
+     "n": 78
+    }
+   ]
+  },
+  {
+   "q": "Per the synthesis slide:",
+   "options": [
+    "Adrenal cortex hypersecretion includes Cushing and hyperaldosteronism",
+    "Primary adrenal insufficiency comes with hyperpigmentation",
+    "Hyperaldosteronism is linked to an aldosterone-secreting adenoma",
+    "Phaeochromocytoma is a form of cortex insufficiency"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Synthesis: cortex hypersecretion (Cushing, hyperaldosteronism); cortex insufficiency, primary (with hyperpigmentation) or secondary; hyperaldosteronism - aldosterone-secreting adenoma; phaeochromocytoma.",
+   "notes": [
+    "Correct: as listed.",
+    "Correct: primary AI with hyperpigmentation.",
+    "Correct: as listed.",
+    "Wrong: phaeochromocytoma is a medullary catecholamine tumour."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p80.jpg",
+     "lec": "Adrenal semiology",
+     "n": 80
+    }
+   ]
   }
  ],
  "cards": [
@@ -19195,6 +20100,923 @@ SINA.lectures["semio-endo-pituitary"] = {
      "n": 25
     }
    ]
+  },
+  {
+   "q": "Hypersecretion syndromes of the pituitary listed in the clinical presentation include:",
+   "options": [
+    "ACTH hypersecretion (Cushing disease)",
+    "TSH hypersecretion",
+    "FSH/LH hypersecretion",
+    "Oxytocin hypersecretion from the anterior lobe"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The slide lists prolactin, ACTH (Cushing disease), GH, TSH and FSH/LH hypersecretion.",
+   "notes": [
+    "Listed: ACTH hypersecretion - Cushing disease.",
+    "Listed: TSH hypersecretion.",
+    "Listed: FSH/LH hypersecretion.",
+    "Oxytocin is a posterior pituitary hormone and is not in the list."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/07.jpg",
+     "lec": "Pituitary semiology",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "On the pituitary physiology reminder diagram, prolactin acts on:",
+   "options": [
+    "The thyroid",
+    "The adrenal cortex",
+    "The mammary glands",
+    "The testis and ovary"
+   ],
+   "answer": 2,
+   "why": "The diagram shows prolactin going to the mammary glands; TSH to thyroid, ACTH to adrenal cortex, FSH/LH to gonads.",
+   "notes": [
+    "Thyroid is the target of TSH.",
+    "Adrenal cortex is the target of ACTH.",
+    "Correct: prolactin targets the mammary glands.",
+    "Gonads are the targets of FSH and LH."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/05.jpg",
+     "lec": "Pituitary semiology",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "In the 'Pituitary and friends' summary, oxytocin acts on:",
+   "options": [
+    "The uterus",
+    "The mammary gland",
+    "The kidney",
+    "The thyroid"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The summary slide shows oxytocin arrows to the uterus and to the mammary gland (with prolactin).",
+   "notes": [
+    "Shown: oxytocin to uterus.",
+    "Shown: oxytocin and prolactin to mammary gland.",
+    "The kidney is the target of ADH.",
+    "The thyroid is the target of TSH."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/40.jpg",
+     "lec": "Pituitary semiology",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "q": "According to the Cushing disease axis diagram:",
+   "options": [
+    "Corticotropin releasing hormone from the hypothalamus stimulates ACTH",
+    "The adenoma is located in the anterior pituitary",
+    "Cortisol exerts negative feedback on hypothalamus and pituitary",
+    "ACTH acts mainly on the posterior pituitary"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The diagram shows CRH (+) to an anterior pituitary adenoma, ACTH (+) to the adrenals, and cortisol (-) feedback to both hypothalamus and pituitary.",
+   "notes": [
+    "Shown: CRH stimulates (+) ACTH release.",
+    "Labelled 'anterior pituitary adenoma'.",
+    "Red (-) arrows return to hypothalamus and pituitary.",
+    "ACTH acts on the adrenal glands, not the posterior pituitary."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/12.jpg",
+     "lec": "Pituitary semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Systemic features of hypercortisolism shown on the Cushing body diagram include:",
+   "options": [
+    "Osteoporosis",
+    "High blood sugar",
+    "Hypertension and cardiac hypertrophy",
+    "Poor wound healing and easy bruising"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "The diagram labels moon face, acne, thin skin, weight gain, striae, pendulous abdomen, muscle weakness, poor wound healing, easy bruising, hypertension, cardiac hypertrophy, high blood sugar, menstrual irregularities, osteoporosis and skin ulcers.",
+   "notes": [
+    "Labelled on the diagram.",
+    "Labelled 'high blood sugar'.",
+    "Both labelled on the diagram.",
+    "Both labelled on the diagram."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/13.jpg",
+     "lec": "Pituitary semiology",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "A patient has a pendulous abdomen with stretch marks, a moon face, muscle weakness and easy bruising. Per the slides, investigate:",
+   "options": [
+    "Cortisol/ACTH axis",
+    "GH/IGF-1 axis",
+    "Prolactin axis",
+    "TSH/thyroid axis"
+   ],
+   "answer": 0,
+   "why": "These are Cushing features; the slide says 'LOOK for Cortisol/ACTH axis'.",
+   "notes": [
+    "Correct: Cushing features point to the cortisol/ACTH axis.",
+    "GH excess gives acromegalic features, not striae and moon face.",
+    "Prolactin excess gives galactorrhoea and hypogonadism.",
+    "TSH excess gives central hyperthyroidism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/13.jpg",
+     "lec": "Pituitary semiology",
+     "n": 13
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/37.jpg",
+     "lec": "Pituitary semiology",
+     "n": 37
+    }
+   ]
+  },
+  {
+   "q": "Lab tests for Cushing disease listed on the slides include:",
+   "options": [
+    "Free urinary or salivary cortisol",
+    "Evening (vesperal) cortisol on the nycthemeral cycle",
+    "1 mg overnight dexamethasone suppression test",
+    "GH during a 75 g glucose tolerance test"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Lab tests: free urinary/salivary cortisol, nycthemeral cycle with vesperal cortisol, 1 mg overnight dexamethasone test, and ACTH level.",
+   "notes": [
+    "Listed.",
+    "Listed: loss of the evening cortisol fall.",
+    "Listed as the suppressive test.",
+    "The OGTT with GH is the acromegaly work-up."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/14.jpg",
+     "lec": "Pituitary semiology",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Regarding the diagnosis of Cushing disease:",
+   "options": [
+    "High cortisol with inadequate dexamethasone suppression defines hypercortisolism",
+    "Hypercortisolism with inadequate (non-suppressed) ACTH means Cushing disease",
+    "Pituitary MRI usually shows a macroadenoma compressing the chiasm",
+    "Normal suppression after dexamethasone confirms the disease"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Slide: high cortisol + inadequate suppression in DXM test = hypercortisolism; hypercortisolism + inadequate ACTH = Cushing disease; MRI usually shows an ACTH-secreting microadenoma.",
+   "notes": [
+    "Stated on the slide.",
+    "Stated: 'inadequate ACTH' = not suppressed despite high cortisol.",
+    "MRI usually shows a microadenoma.",
+    "Inadequate, not normal, suppression points to hypercortisolism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/14.jpg",
+     "lec": "Pituitary semiology",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Central hyperthyroidism due to TSH hypersecretion:",
+   "options": [
+    "Is very rare",
+    "Is due to a pituitary adenoma",
+    "Shows high FT4 and FT3 with normal or high TSH",
+    "Shows high FT4 with a suppressed TSH"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Slide: TSH hypersecretion is very rare; pituitary adenoma; high FT4 + FT3 with normal or high TSH.",
+   "notes": [
+    "Stated: 'very rare'.",
+    "Stated: pituitary adenoma (TSH-secreting tumour).",
+    "Stated: TSH is not suppressed.",
+    "Suppressed TSH is not the central pattern described."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/19.jpg",
+     "lec": "Pituitary semiology",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Hypopituitarism is:",
+   "options": [
+    "Diminished or absent secretion of one or more pituitary hormones",
+    "A deficiency that can be partial or complete",
+    "Always the loss of all anterior pituitary hormones together",
+    "Excess secretion of a single trophic hormone"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Slide: hypopituitarism is diminished or absent secretion of one or more pituitary hormones (partial or complete deficiency).",
+   "notes": [
+    "Definition on the slide.",
+    "Stated: partial or complete.",
+    "One or more hormones, not necessarily all.",
+    "That describes hypersecretion, not hypopituitarism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/27.jpg",
+     "lec": "Pituitary semiology",
+     "n": 27
+    }
+   ]
+  },
+  {
+   "q": "In panhypopituitarism, the slides match each deficiency to:",
+   "options": [
+    "GH: short stature or features of low GH in adults",
+    "TSH: central hypothyroidism",
+    "ACTH: central adrenocortical insufficiency",
+    "PRL: failure of postpartum lactation"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "The panhypopituitarism chart: GH - short stature/low GH features; FSH/LH - central hypogonadism; TSH - central hypothyroidism; ACTH - central ACI; PRL - failure of postpartum lactation.",
+   "notes": [
+    "Shown on the chart.",
+    "Shown on the chart.",
+    "Shown: central ACI.",
+    "Shown on the chart."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/28.jpg",
+     "lec": "Pituitary semiology",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "FSH and LH deficiency in hypopituitarism produces:",
+   "options": [
+    "Central hypothyroidism",
+    "Central hypogonadism",
+    "Failure of postpartum lactation",
+    "Polyuria and polydipsia"
+   ],
+   "answer": 1,
+   "why": "On the chart FSH, LH deficiency leads to central hypogonadism.",
+   "notes": [
+    "Due to TSH deficiency.",
+    "Correct: FSH/LH deficiency - central hypogonadism.",
+    "Due to prolactin deficiency.",
+    "Due to ADH deficiency."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/28.jpg",
+     "lec": "Pituitary semiology",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "ACTH deficiency looks like Addison's disease (primary adrenal insufficiency) except for the absence of:",
+   "options": [
+    "Weakness",
+    "Hyperpigmentation",
+    "Hyperkalaemia",
+    "Weight loss"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "why": "Table: ACTH deficiency is as in Addison's disease except lack of hyperpigmentation and hyperkalaemia; the cartoon says 'all the problems of primary Addison's except dark skin'.",
+   "notes": [
+    "Weakness is present (shown on the cartoon).",
+    "Absent: no ACTH, so no dark skin.",
+    "Absent per the table.",
+    "Weight loss is present (shown on the cartoon)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/29.jpg",
+     "lec": "Pituitary semiology",
+     "n": 29
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/30.jpg",
+     "lec": "Pituitary semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "TSH deficiency in hypopituitarism:",
+   "options": [
+    "Resembles primary hypothyroidism",
+    "Occurs without a goitre",
+    "Typically causes a large goitre",
+    "Presents with polyuria and polydipsia"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Table: TSH deficiency is as in primary hypothyroidism, except lack of goitre.",
+   "notes": [
+    "Stated in the table.",
+    "Stated: lack of goitre.",
+    "No goitre, since TSH drive is missing.",
+    "Polyuria/polydipsia is ADH deficiency."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/29.jpg",
+     "lec": "Pituitary semiology",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "In adults, GH deficiency causes:",
+   "options": [
+    "Reduced exercise capacity",
+    "Reduced lean body mass and increased body fat",
+    "Increased cardiovascular risk and impaired well-being",
+    "Short stature"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Table: GH deficiency - children: short stature; adults: reduced exercise capacity, lower lean mass, more body fat, impaired psychological well-being, higher CV risk.",
+   "notes": [
+    "Listed for adults.",
+    "Listed for adults.",
+    "Listed for adults.",
+    "Short stature is the feature in children."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/29.jpg",
+     "lec": "Pituitary semiology",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "LH/FSH deficiency produces:",
+   "options": [
+    "In women, oligo/amenorrhoea with anovulatory cycles",
+    "In men, erectile dysfunction, low libido and testicular atrophy",
+    "Osteoporosis in both sexes",
+    "Increased axillary and pubic hair"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Table: women - oligo/amenorrhoea, anovulation, loss of axillary/pubic hair, osteoporosis; men - ED, low libido, testicular atrophy, loss of sexual hair, osteoporosis.",
+   "notes": [
+    "Listed for women.",
+    "Listed for men.",
+    "Listed for both sexes.",
+    "Sexual hair is lost, not increased."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/29.jpg",
+     "lec": "Pituitary semiology",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "Causes of hypopituitarism illustrated on the cartoon slide include:",
+   "options": [
+    "Pituitary adenoma",
+    "Pituitary infarct",
+    "Empty sella",
+    "Hyperprolactinaemia from pregnancy"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The cartoon shows three causes: adenoma, infarct and 'empty sella'.",
+   "notes": [
+    "Illustrated.",
+    "Illustrated.",
+    "Illustrated.",
+    "Not shown; pregnancy is a physiological cause of high prolactin."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/30.jpg",
+     "lec": "Pituitary semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "According to the hypopituitarism cartoon:",
+   "options": [
+    "It may end in sudden death",
+    "Personality changes, weakness and weight loss may occur",
+    "It is hard to treat even once suspected",
+    "Diabetes insipidus is never seen"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The cartoon shows personality changes, weakness, weight loss, muscle wasting, lost libido/amenorrhoea and sudden death; 'easy to diagnose and treat if you think of it'; DI may be present.",
+   "notes": [
+    "Shown (tombstone: sudden death).",
+    "All shown on the figure.",
+    "Slide says easy to diagnose and treat if you think of it.",
+    "DI is listed as 'may also be present'."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/30.jpg",
+     "lec": "Pituitary semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "The slides describe the classic triad of hypopituitarism as:",
+   "options": [
+    "Pallor, hirsutism, hyperpigmentation",
+    "Pallor, depilation, depigmentation",
+    "Moon face, purple striae, plethora",
+    "Polyuria, polydipsia, nocturia"
+   ],
+   "answer": 1,
+   "why": "Slide: 'Triad: pallor, depilation, depigmentation'.",
+   "notes": [
+    "Hirsutism and dark skin are the opposite.",
+    "Correct: the triad on the slide.",
+    "These are Cushing features.",
+    "These suggest vasopressin deficiency."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/31.jpg",
+     "lec": "Pituitary semiology",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "q": "The skin and face in hypopituitarism show:",
+   "options": [
+    "Constant depigmentation of the areolas and external genitalia",
+    "A pale, slightly 'old' face",
+    "Thick, oily, sweaty skin",
+    "Purple striae on the abdomen"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Slide: pale facies, a bit 'old'; depigmentation of areolas and genitalia is constant; thin, cold, dry skin with fine wrinkles.",
+   "notes": [
+    "Stated as constant.",
+    "Stated: pale facies, a bit 'old'.",
+    "Skin is thin, cold and dry; oily skin is acromegaly.",
+    "Purple striae are a Cushing sign."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/31.jpg",
+     "lec": "Pituitary semiology",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "q": "Loss of axillary and pubic hair in hypopituitarism is due to absence of:",
+   "options": [
+    "Adrenal androgens",
+    "Gonadal androgens",
+    "Thyroid hormones",
+    "Vasopressin"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Slide: loss of axillary and pubic hair, due to the absence of adrenal and gonadal androgens.",
+   "notes": [
+    "Stated (ACTH deficiency).",
+    "Stated (LH/FSH deficiency).",
+    "Not the cause given on the slide.",
+    "Vasopressin deficiency causes polyuria, not hair loss."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/31.jpg",
+     "lec": "Pituitary semiology",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "q": "A woman has a pale face and a completely hairless axilla, as in the lecture photos. This fits:",
+   "options": [
+    "Hypopituitarism",
+    "Cushing disease",
+    "Acromegaly",
+    "Central hyperthyroidism"
+   ],
+   "answer": 0,
+   "why": "The photos follow the hypopituitarism slide: pallor and depilation are part of the triad pallor, depilation, depigmentation.",
+   "notes": [
+    "Correct: pallor and depilation.",
+    "Cushing gives plethora and hirsutism.",
+    "Acromegaly gives coarse, oily, sweaty skin.",
+    "Not associated with pallor and depilation on the slides."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/31.jpg",
+     "lec": "Pituitary semiology",
+     "n": 31
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/32.jpg",
+     "lec": "Pituitary semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "Once anterior hypophyseal insufficiency (AHI) is diagnosed, the slides say to request:",
+   "options": [
+    "Adrenal CT scan",
+    "Pituitary MRI",
+    "Thyroid scintigraphy",
+    "Neck ultrasound"
+   ],
+   "answer": 1,
+   "why": "Slide: the diagnosis of AHI should lead to pituitary imaging: pituitary MRI.",
+   "notes": [
+    "Not the imaging named for AHI.",
+    "Correct: pituitary MRI.",
+    "Not the imaging named for AHI.",
+    "Not the imaging named for AHI."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/33.jpg",
+     "lec": "Pituitary semiology",
+     "n": 33
+    }
+   ]
+  },
+  {
+   "q": "About the posterior pituitary:",
+   "options": [
+    "It releases arginine vasopressin",
+    "It releases oxytocin",
+    "It secretes prolactin",
+    "It is the adenohypophysis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Slide: posterior pituitary hormones are vasopressin (AVP) and oxytocin; the posterior lobe is the neurohypophysis.",
+   "notes": [
+    "Stated. The slide writes 'desmopressine'; textbooks call desmopressin the synthetic AVP analogue.",
+    "Stated.",
+    "Prolactin is anterior pituitary.",
+    "Posterior lobe = neurohypophysis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/34.jpg",
+     "lec": "Pituitary semiology",
+     "n": 34
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/04.jpg",
+     "lec": "Pituitary semiology",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "In arginine vasopressin deficiency:",
+   "options": [
+    "The cause is a hypothalamic-pituitary disruption",
+    "AVP release is deficient",
+    "Polyuria comes first and drives polydipsia",
+    "The kidney fails to respond to normal AVP"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Diagram: (1) hypothalamic-pituitary disruption, (2) deficient AVP release, (3) polyuria, (4) polydipsia.",
+   "notes": [
+    "Step 1 on the diagram.",
+    "Step 2 on the diagram.",
+    "Polyuria (3) precedes polydipsia (4).",
+    "That is AVP resistance."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/35.jpg",
+     "lec": "Pituitary semiology",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "In arginine vasopressin resistance:",
+   "options": [
+    "AVP acts ineffectively on the kidneys",
+    "AVP release is increased in compensation",
+    "AVP release is suppressed",
+    "Excess drinking is the first event"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Diagram: (1) ineffective AVP action in the kidneys, (2) polyuria, (3) polydipsia with compensated increased AVP release.",
+   "notes": [
+    "Step 1 on the diagram.",
+    "Shown: compensated increased AVP release.",
+    "Suppressed AVP is primary polydipsia.",
+    "Drinking first is primary polydipsia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/35.jpg",
+     "lec": "Pituitary semiology",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "On the differential diagnosis diagram, primary polydipsia starts with:",
+   "options": [
+    "Deficient AVP release",
+    "Ineffective AVP action in the kidneys",
+    "Excessive drinking",
+    "A hypothalamic-pituitary lesion"
+   ],
+   "answer": 2,
+   "why": "Diagram: (1) polydipsia, (2) suppressed AVP release, (3) polyuria.",
+   "notes": [
+    "AVP is suppressed secondarily, not primarily deficient.",
+    "That is AVP resistance.",
+    "Correct: polydipsia is step 1.",
+    "That is AVP deficiency."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/35.jpg",
+     "lec": "Pituitary semiology",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "Polyuria and polydipsia are found in:",
+   "options": [
+    "Arginine vasopressin deficiency",
+    "Arginine vasopressin resistance",
+    "Primary polydipsia",
+    "ADH deficiency in hypopituitarism"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "All three conditions of the differential diagnosis produce polyuria and polydipsia; the hypopituitarism table lists ADH deficiency as polyuria and polydipsia.",
+   "notes": [
+    "Shown on the diagram.",
+    "Shown on the diagram.",
+    "Shown on the diagram.",
+    "Table: ADH deficiency - polyuria and polydipsia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/35.jpg",
+     "lec": "Pituitary semiology",
+     "n": 35
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/29.jpg",
+     "lec": "Pituitary semiology",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "Symptoms of Cushing's syndrome listed on the Lancet case slide include:",
+   "options": [
+    "Decreased libido",
+    "Psychiatric disorders",
+    "Polyuria and polydipsia",
+    "Galactorrhoea"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Symptoms: decreased libido, psychiatric disorders, proximal muscle weakness, hair loss, menstrual irregularities.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Not listed; points to vasopressin disorders.",
+    "Not listed; points to hyperprolactinaemia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/38.jpg",
+     "lec": "Pituitary semiology",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "q": "Comorbidities of high cortisol shown on the Lancet slide include:",
+   "options": [
+    "Hypertension",
+    "Hypercoagulability",
+    "Infections",
+    "Hypoglycaemia"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Comorbidities: hypertension, glucose metabolism impairment, bone disease, infections, hypercoagulability.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Cortisol causes glucose metabolism impairment (high sugar), not hypoglycaemia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/38.jpg",
+     "lec": "Pituitary semiology",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "q": "Regarding the Cushing's syndrome case slide (Lancet 2023):",
+   "options": [
+    "High cortisol may come from pituitary, adrenal or lung lesions",
+    "The patient improved 12 months after transsphenoidal surgery",
+    "Only pituitary tumours can raise cortisol",
+    "Bone disease is not a comorbidity"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The figure shows pituitary, adrenal and lung sources of high cortisol, and the patient before and 12 months after transsphenoidal surgery.",
+   "notes": [
+    "Three sources shown.",
+    "Before/after photos shown.",
+    "Adrenal and lung sources are also shown.",
+    "Bone disease is listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/38.jpg",
+     "lec": "Pituitary semiology",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "q": "In the post-traumatic hypopituitarism case, the clinical signs described include:",
+   "options": [
+    "Lack of facial hair",
+    "Queen Anne's sign",
+    "Pale skin and muscular atrophy",
+    "Hyperpigmentation"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Caption: lack of facial hair, dehydration, Queen Anne's sign, pale skin, muscular atrophy, loss of body hair and anorexia.",
+   "notes": [
+    "In the caption.",
+    "In the caption (panel A).",
+    "In the caption.",
+    "Pallor, not dark skin, as ACTH is lacking."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/39.jpg",
+     "lec": "Pituitary semiology",
+     "n": 39
+    }
+   ]
+  },
+  {
+   "q": "In the post-traumatic hypopituitarism case (flattened pituitary after a middle cranial fossa fracture), anterior pituitary tests would show:",
+   "options": [
+    "Low cortisol",
+    "Low fT4 with a TSH that is not raised",
+    "Low GH",
+    "Markedly raised TSH with low fT4"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Severe hypopituitarism gives central adrenal insufficiency, central hypothyroidism and GH deficiency (panhypopituitarism chart). The slide asks the question without giving answers.",
+   "notes": [
+    "Central ACI from ACTH deficiency.",
+    "Central hypothyroidism: TSH is low or normal.",
+    "GH deficiency.",
+    "High TSH is primary hypothyroidism. Prolactin is ambiguous (low, or high from stalk effect)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/39.jpg",
+     "lec": "Pituitary semiology",
+     "n": 39
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/28.jpg",
+     "lec": "Pituitary semiology",
+     "n": 28
+    }
+   ]
   }
  ],
  "cards": [
@@ -20757,6 +22579,1418 @@ SINA.lectures["semio-endo-diabetes"] = {
      "src": "files/slides/semio-endo-diabetes/77.jpg",
      "lec": "Diabetes semiology",
      "n": 77
+    }
+   ]
+  },
+  {
+   "q": "Regarding hypoglycaemia as defined in the lecture:",
+   "options": [
+    "It is defined by a blood glucose level <= 0.7 g/L (ADA threshold)",
+    "It is directly or indirectly responsible for 2 to 4% of deaths due to diabetes",
+    "It requires emergency treatment",
+    "It is defined by a blood glucose below 0.5 g/L in all diabetics"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Hypoglycaemia is an abnormal fall in blood glucose, defined by <= 0.7 g/L (ADA), a dreaded complication responsible for 2-4% of diabetes deaths, needing emergency treatment +++.",
+   "notes": [
+    "ADA threshold quoted on the slide.",
+    "Stated as directly or indirectly responsible for 2-4% of deaths.",
+    "'Emergency treatment +++' on the slide.",
+    "Wrong threshold; the slide uses <= 0.7 g/L."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/35.jpg",
+     "lec": "Diabetes semiology",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "Causes of hypoglycaemia listed in the lecture include:",
+   "options": [
+    "Insulin or sulfonylurea overdose",
+    "Delay in taking a meal",
+    "Insufficient food intake",
+    "Intense physical activity",
+    "Omission of insulin therapy"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Etiologies listed: insulin or sulfonylurea overdose, delayed meal, insufficient food intake and intense physical activity.",
+   "notes": [
+    "Listed etiology.",
+    "Listed etiology.",
+    "Listed etiology.",
+    "Listed etiology.",
+    "Insulin omission is a risk factor for ketoacidosis, not hypoglycaemia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/35.jpg",
+     "lec": "Diabetes semiology",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "Hypoglycaemia may be discovered:",
+   "options": [
+    "Incidentally on self-monitoring of blood glucose, with no symptoms",
+    "Through complications such as seizures or coma",
+    "Only when HbA1c falls below 4%",
+    "Only in patients who are not treated with insulin"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Circumstances of discovery: clinical symptoms, incidental finding on self-monitoring (asymptomatic), or complications such as seizures and coma.",
+   "notes": [
+    "Listed: incidental, asymptomatic, on self-monitoring.",
+    "Listed: complications - seizures, coma.",
+    "HbA1c is not mentioned as a mode of discovery.",
+    "Insulin overdose is itself a leading cause."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/36.jpg",
+     "lec": "Diabetes semiology",
+     "n": 36
+    }
+   ]
+  },
+  {
+   "q": "The Whipple triad comprises:",
+   "options": [
+    "Symptoms of hypoglycaemia",
+    "Low blood glucose (values < 70 mg/dL)",
+    "Resolution of symptoms after glucose intake",
+    "Ketonuria on a urine test strip"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Whipple triad: symptoms of hypoglycaemia, low blood glucose (< 70 mg/dL) and resolution of symptoms after glucose intake.",
+   "notes": [
+    "First element of the triad.",
+    "Second element; threshold as given on the slide.",
+    "Third element of the triad.",
+    "Ketonuria relates to ketosis/DKA, not to the triad."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/36.jpg",
+     "lec": "Diabetes semiology",
+     "n": 36
+    }
+   ]
+  },
+  {
+   "q": "Adrenergic (autonomic) signs of hypoglycaemia include:",
+   "options": [
+    "Tremor",
+    "Confusion",
+    "Palpitations",
+    "Convulsions"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Adrenergic signs: tremor, palpitations, anxiety, sweating, hunger; confusion and convulsions are neuroglycopenic.",
+   "notes": [
+    "Adrenergic column.",
+    "Neuroglycopenic column.",
+    "Adrenergic column.",
+    "Neuroglycopenic column."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/37.jpg",
+     "lec": "Diabetes semiology",
+     "n": 37
+    }
+   ]
+  },
+  {
+   "q": "Neuroglycopenic signs of hypoglycaemia include:",
+   "options": [
+    "Convulsions",
+    "Behaviour changes",
+    "Incoordination",
+    "Anxiety"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Neuroglycopenic signs: confusion, drowsiness, speech difficulty, weakness, incoordination, headache, visual disturbance, behaviour changes, convulsions, loss of consciousness.",
+   "notes": [
+    "Neuroglycopenic column.",
+    "Neuroglycopenic column.",
+    "Neuroglycopenic column.",
+    "Anxiety is listed as an adrenergic sign."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/37.jpg",
+     "lec": "Diabetes semiology",
+     "n": 37
+    }
+   ]
+  },
+  {
+   "q": "Symptoms of moderate neuroglucopenia listed in the lecture include:",
+   "options": [
+    "Irritability",
+    "Impaired judgment",
+    "Kussmaul breathing",
+    "Polyuria"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Moderate neuroglucopenia: dizziness, drowsiness, irritability, confusion, personality changes, difficulty speaking, weakness, headache, blurred vision, impaired judgment.",
+   "notes": [
+    "Listed under moderate.",
+    "Listed under moderate.",
+    "Kussmaul breathing is a sign of ketoacidosis.",
+    "Polyuria is a sign of hyperglycaemia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/38.jpg",
+     "lec": "Diabetes semiology",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "q": "In the classification of hypoglycaemia:",
+   "options": [
+    "Level 1 (alert value) is <= 70 mg/dL (3.9 mmol/L)",
+    "Level 2 (clinically significant) is < 54 mg/dL (3.0 mmol/L)",
+    "Level 3 is defined by a glucose below 40 mg/dL",
+    "Level 1 by definition requires injectable glucagon"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Level 1 <= 70 mg/dL (treat with fast-acting carbohydrate, adjust therapy); level 2 < 54 mg/dL; level 3 has no specific glucose threshold.",
+   "notes": [
+    "Value on the table.",
+    "Value on the table.",
+    "Level 3 has no specific glucose threshold.",
+    "Level 1 is treated with fast-acting carbohydrate and dose adjustment."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/39.jpg",
+     "lec": "Diabetes semiology",
+     "n": 39
+    }
+   ]
+  },
+  {
+   "q": "Severe hypoglycaemia (level 3) is characterised by:",
+   "options": [
+    "No specific glucose threshold",
+    "Severe cognitive impairment, seizures or coma",
+    "Need for external assistance and injectable treatment (glucose, glucagon)",
+    "A glucose between 54 and 70 mg/dL"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Level 3: no specific glucose threshold; severe cognitive impairment, seizures, coma requiring external assistance and injectable glucose or glucagon.",
+   "notes": [
+    "Stated on the table.",
+    "Stated on the table.",
+    "Stated on the table.",
+    "54-70 mg/dL corresponds to level 1."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/39.jpg",
+     "lec": "Diabetes semiology",
+     "n": 39
+    }
+   ]
+  },
+  {
+   "q": "Microvascular complications of diabetes are manifested mainly by:",
+   "options": [
+    "Thickening of the capillary basement membrane",
+    "An accelerated form of atherosclerosis",
+    "Segmental demyelination of Schwann cells",
+    "Plaque formation in the coronary arteries"
+   ],
+   "answer": 0,
+   "why": "Microvascular disease of capillaries and precapillary arterioles is manifested mainly by thickening of the capillary basement membrane.",
+   "notes": [
+    "Stated on the slide.",
+    "Defines macrovascular complications (p41).",
+    "Mechanism of neuropathy only (p47).",
+    "Macrovascular (coronary) disease."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/40.jpg",
+     "lec": "Diabetes semiology",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "q": "Per the lecture's classification, conditions listed as microvascular complications are:",
+   "options": [
+    "Diabetic retinopathy",
+    "Diabetic nephropathy",
+    "Diabetic neuropathy",
+    "Cardiomegaly with heart failure",
+    "Stroke"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "The microvascular slide lists retinopathy, nephropathy, neuropathy and cardiomegaly with heart failure; stroke is macrovascular.",
+   "notes": [
+    "Listed microvascular.",
+    "Listed microvascular.",
+    "Listed microvascular.",
+    "Per the lecture slides; many textbooks call it diabetic cardiomyopathy rather than microangiopathy.",
+    "Cerebrovascular disease is macrovascular."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/40.jpg",
+     "lec": "Diabetes semiology",
+     "n": 40
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/41.jpg",
+     "lec": "Diabetes semiology",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "q": "Macrovascular complications of diabetes correspond to:",
+   "options": [
+    "An accelerated form of atherosclerosis",
+    "Thickening of the capillary basement membrane",
+    "Segmental demyelination of Schwann cells",
+    "Mesangial matrix deposition"
+   ],
+   "answer": 0,
+   "why": "Macrovascular complications are an accelerated atherosclerosis: chronic heart disease (more MI), stroke, PAD (peripheral gangrene). Gangrene is pictured on p75.",
+   "notes": [
+    "Definition on the slide.",
+    "Defines microvascular disease.",
+    "Neuropathy mechanism.",
+    "Nephropathy lesion."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/41.jpg",
+     "lec": "Diabetes semiology",
+     "n": 41
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/75.jpg",
+     "lec": "Diabetes semiology",
+     "n": 75
+    }
+   ]
+  },
+  {
+   "q": "On the risk-factor wheels, factors shown for macrovascular but NOT for microvascular complications include:",
+   "options": [
+    "Smoking",
+    "Obesity",
+    "Glucose",
+    "Genetics"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The microvascular wheel shows only glucose, BP and genetics; the macrovascular wheel adds lipids, smoking, insulin resistance, obesity and inflammation.",
+   "notes": [
+    "Only on the macrovascular wheel.",
+    "Only on the macrovascular wheel.",
+    "Present on both wheels.",
+    "Present on both wheels."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/72.jpg",
+     "lec": "Diabetes semiology",
+     "n": 72
+    }
+   ]
+  },
+  {
+   "q": "On the slide 'Vascular injury and diabetes / Glycemic control and macrovascular disease':",
+   "options": [
+    "Vascular injury was a non-issue until the detection of insulin, then an increasing concern",
+    "ACCORD, ADVANCE and VADT are trials of glycaemic control and vascular outcomes in type 2 diabetes",
+    "The trials shown studied only children with type 1 diabetes",
+    "Erectile dysfunction is not shown among vascular targets"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The figure states vascular injury became a concern after insulin was discovered and cites ACCORD, ADVANCE and VADT on intensive glucose control in type 2 diabetes.",
+   "notes": [
+    "Stated on the figure.",
+    "Titles refer to type 2 diabetes.",
+    "All three concern type 2 diabetes in adults.",
+    "'Male organ (erectile dysfunction)' is shown."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/73.jpg",
+     "lec": "Diabetes semiology",
+     "n": 73
+    }
+   ]
+  },
+  {
+   "q": "On the 'Major complications of diabetes' figure:",
+   "options": [
+    "High blood glucose and blood pressure can damage eye vessels, causing retinopathy, cataracts and glaucoma",
+    "High blood pressure damages small kidney vessels and excess glucose overworks the kidneys",
+    "Brain complications are classed as microvascular",
+    "Hypoglycaemia is given as the main cause of coronary heart disease"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Microvascular: eye, kidney, neuropathy. Macrovascular: brain, heart (high BP and insulin resistance raise coronary risk), extremities.",
+   "notes": [
+    "Eye panel text.",
+    "Kidney panel text.",
+    "Brain (stroke, TIA) is on the macrovascular side.",
+    "Heart panel cites high BP and insulin resistance."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/78.jpg",
+     "lec": "Diabetes semiology",
+     "n": 78
+    }
+   ]
+  },
+  {
+   "q": "Regarding the pathophysiology and stages of diabetic retinopathy:",
+   "options": [
+    "Hyperglycaemia leads to occlusion of retinal vessels",
+    "Retinal ischaemia leads to reactive proliferation of neovessels",
+    "Stages are non-proliferative, severe (pre-proliferative) and proliferative",
+    "Fundus examination is reserved for patients with visual symptoms"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Hyperglycaemia occludes retinal vessels; ischaemia drives neovessel proliferation; three stages are listed; screening by fundus is needed as signs are poor.",
+   "notes": [
+    "Stated on the slide.",
+    "Stated on the slide.",
+    "Three stages listed.",
+    "Screening of at-risk asymptomatic patients is required."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/42.jpg",
+     "lec": "Diabetes semiology",
+     "n": 42
+    }
+   ]
+  },
+  {
+   "q": "On the diabetic retinopathy images, growth of abnormal blood vessels characterises:",
+   "options": [
+    "Proliferative diabetic retinopathy",
+    "Non-proliferative diabetic retinopathy",
+    "Cataract",
+    "Glaucoma"
+   ],
+   "answer": 0,
+   "why": "NPDR image labels aneurysm, hard exudate and haemorrhage; the proliferative image labels growth of abnormal vessels (neovessels from ischaemia).",
+   "notes": [
+    "Label on the proliferative image.",
+    "NPDR shows aneurysms, exudates, haemorrhages.",
+    "A lens disorder, not shown on fundus image.",
+    "Not shown on these images."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/43.jpg",
+     "lec": "Diabetes semiology",
+     "n": 43
+    }
+   ]
+  },
+  {
+   "q": "The ophthalmological examination of a diabetic includes:",
+   "options": [
+    "Visual acuity with and without optical correction",
+    "Intraocular pressure measurement (glaucoma test)",
+    "Examination of the iris and lens for rubeosis iridis and cataract",
+    "Examination of the vitreous and fundus after pupillary dilation"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "All four components are listed on the retinopathy examination slide.",
+   "notes": [
+    "Listed.",
+    "Listed as glaucoma test.",
+    "Listed.",
+    "Listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/45.jpg",
+     "lec": "Diabetes semiology",
+     "n": 45
+    }
+   ]
+  },
+  {
+   "q": "Regarding diabetic neuropathy:",
+   "options": [
+    "It is a heterogeneous group of disorders with diverse manifestations",
+    "It has the same frequency in type 1 as in type 2 diabetes",
+    "Diabetics are 15-40 times more likely to require a lower-limb amputation",
+    "Peripheral and autonomic forms are always symptomatic"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Neuropathy is heterogeneous, equally frequent in T1 and T2, causes high morbidity (15-40x amputation risk), and may be subclinical or symptomatic.",
+   "notes": [
+    "Stated on the slide.",
+    "Stated on the slide.",
+    "Stated on the slide.",
+    "They may be sub-clinical."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/46.jpg",
+     "lec": "Diabetes semiology",
+     "n": 46
+    }
+   ]
+  },
+  {
+   "q": "Pathological changes in diabetic peripheral neuropathy include:",
+   "options": [
+    "Ischaemia of the vessels that supply the nerves",
+    "Segmental demyelination affecting the Schwann cell, slowing nerve conduction",
+    "Axonal hypertrophy that speeds up nerve conduction",
+    "Autoimmune anti-myelin antibodies as the main mechanism"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Two pathologic changes: ischaemia of nerve-supplying vessels and segmental demyelination of Schwann cells slowing conduction.",
+   "notes": [
+    "First change on the slide.",
+    "Second change on the slide.",
+    "Conduction is slowed, not accelerated.",
+    "Not on the slide; hyperglycaemia is the driver."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/47.jpg",
+     "lec": "Diabetes semiology",
+     "n": 47
+    }
+   ]
+  },
+  {
+   "q": "Bilateral sensory diabetic polyneuropathy features:",
+   "options": [
+    "Paresthesias including numbness and tingling",
+    "Impaired vibration sense and two-point discrimination",
+    "Decreased ankle and knee-jerk reflexes",
+    "Brisk reflexes with an extensor plantar response"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Polyneuropathy: paresthesias, impaired pain, temperature, light touch, two-point and vibration sense, decreased ankle and knee reflexes.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Reflexes are decreased, not brisk."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/48.jpg",
+     "lec": "Diabetes semiology",
+     "n": 48
+    }
+   ]
+  },
+  {
+   "q": "Diabetic amyotrophy is associated with:",
+   "options": [
+    "Weakness, wasting and severe pain of pelvic girdle and thigh muscles",
+    "Distal symmetric loss of vibration sense only",
+    "Involvement of a single mixed nerve trunk",
+    "A painless course"
+   ],
+   "answer": 0,
+   "why": "Amyotrophy: muscle weakness, wasting and severe pain of muscles in the pelvic girdle and thigh.",
+   "notes": [
+    "Definition on the slide.",
+    "That fits sensory polyneuropathy.",
+    "That defines mononeuropathy.",
+    "Severe pain is a feature."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/48.jpg",
+     "lec": "Diabetes semiology",
+     "n": 48
+    }
+   ]
+  },
+  {
+   "q": "Diabetic mononeuropathy:",
+   "options": [
+    "Involves a mixed nerve trunk",
+    "Includes loss of sensation, pain and motor weakness",
+    "Is a bilateral symmetric sensory disorder",
+    "Mainly affects pelvic girdle muscles with wasting"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Mononeuropathy: involvement of a mixed nerve trunk with loss of sensation, pain and motor weakness.",
+   "notes": [
+    "Stated on the slide.",
+    "Stated on the slide.",
+    "Describes polyneuropathy.",
+    "Describes amyotrophy."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/48.jpg",
+     "lec": "Diabetes semiology",
+     "n": 48
+    }
+   ]
+  },
+  {
+   "q": "Manifestations of diabetic autonomic neuropathy include:",
+   "options": [
+    "Postural hypotension",
+    "Gastroparesis or diabetic diarrhoea",
+    "Erectile dysfunction",
+    "Excessive sweating",
+    "Resting bradycardia"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Autonomic: postural hypotension, resting tachycardia, loss of sweating, gastroparesis, diabetic diarrhoea, bladder atony, erectile dysfunction.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Sweating is lost, not increased.",
+    "Resting tachycardia is listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/49.jpg",
+     "lec": "Diabetes semiology",
+     "n": 49
+    }
+   ]
+  },
+  {
+   "q": "The clinical assessment of diabetic neuropathy includes:",
+   "options": [
+    "Scores such as the DN4 questionnaire and Toronto score",
+    "Vibration sensation with a 128-Hz tuning fork",
+    "Vibration sensation with a 512-Hz tuning fork",
+    "Routine nerve biopsy"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Assessment: history, symptoms with DN4/Toronto, autonomic signs, then temperature, pinprick and vibration with a 128-Hz tuning fork.",
+   "notes": [
+    "Listed.",
+    "Listed; shown on p52.",
+    "The slide specifies 128 Hz.",
+    "Not part of the assessment shown."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/50.jpg",
+     "lec": "Diabetes semiology",
+     "n": 50
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/52.jpg",
+     "lec": "Diabetes semiology",
+     "n": 52
+    }
+   ]
+  },
+  {
+   "q": "Signs of autonomic neuropathy sought on the feet during neuropathy assessment include:",
+   "options": [
+    "Skin dryness",
+    "Hyperkeratosis",
+    "Loss of sweating",
+    "Absent foot pulses"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Autonomic neuropathy signs++: skin dryness, hyperkeratosis, loss of sweating.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Loss of pulses is a sign of PAD."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/50.jpg",
+     "lec": "Diabetes semiology",
+     "n": 50
+    }
+   ]
+  },
+  {
+   "q": "The monofilament test in diabetic neuropathy:",
+   "options": [
+    "Uses a 10 g monofilament",
+    "Is applied to plantar sites such as the big toe and metatarsal heads",
+    "Assesses deep (proprioceptive) sensation",
+    "Is applied to the dorsum of the foot"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The 10 g monofilament is applied to the sole (hallux, metatarsal heads) and tests superficial sensation.",
+   "notes": [
+    "10 g on the slide.",
+    "Sites shown on the plantar diagram.",
+    "Monofilament tests superficial sensation (p57).",
+    "Diagram shows plantar sites."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/51.jpg",
+     "lec": "Diabetes semiology",
+     "n": 51
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/57.jpg",
+     "lec": "Diabetes semiology",
+     "n": 57
+    }
+   ]
+  },
+  {
+   "q": "About the DN4 questionnaire:",
+   "options": [
+    "A total score of 4/10 is the cut-off for neuropathic pain",
+    "It asks about burning, painful cold and electric shocks",
+    "It includes examination items: hypoaesthesia to touch and prick, and pain caused by brushing",
+    "Its maximum score is 19"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "DN4: 10 items (7 interview, 3 examination); cut-off for neuropathic pain is 4/10.",
+   "notes": [
+    "Cut-off stated on the form.",
+    "Question 1 items.",
+    "Questions 3 and 4.",
+    "19 is the maximum of the Toronto score."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/53.jpg",
+     "lec": "Diabetes semiology",
+     "n": 53
+    }
+   ]
+  },
+  {
+   "q": "In the Toronto clinical neuropathy score:",
+   "options": [
+    "An absent reflex scores 2",
+    "A total of 9 indicates moderate neuropathy",
+    "A total of 6 indicates no neuropathy",
+    "Sensory testing is performed on the heel"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Reflex absent = 2, reduced = 1; total 0-19; <= 5 none, 6-8 mild, 9-11 moderate, >= 12 severe; sensory testing on the first toe.",
+   "notes": [
+    "Stated.",
+    "9-11 = moderate.",
+    "6-8 = mild neuropathy.",
+    "Performed on the first toe."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/54.jpg",
+     "lec": "Diabetes semiology",
+     "n": 54
+    }
+   ]
+  },
+  {
+   "q": "Foot-care advice for patients with diabetic neuropathy includes:",
+   "options": [
+    "Clean feet daily and use moisturising lotions",
+    "Perform daily foot self-examination, using a mirror if needed",
+    "Check shoes for tears and sharp edges",
+    "Inspect for redness, cuts, swelling and blisters",
+    "Walk barefoot to improve foot sensation"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Active prevention: daily cleaning and moisturiser, daily self-exam with a mirror, check shoes, inspect for redness, cuts, swelling, blisters.",
+   "notes": [
+    "Shown on the slide.",
+    "Shown on the slide.",
+    "Shown on the slide.",
+    "Shown on the slide.",
+    "Not advised; contradicts protecting insensate feet."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/55.jpg",
+     "lec": "Diabetes semiology",
+     "n": 55
+    }
+   ]
+  },
+  {
+   "q": "Characteristics of the neuropathic foot include:",
+   "options": [
+    "Hot feet",
+    "Dry skin with hyperkeratosis",
+    "Hammer or claw toe deformities",
+    "Cold, pale foot with absent pulses"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Neuropathic feet: hot, dry skin with hyperkeratosis, superficial and deep sensory disorders, deformities (hammer, claw toes).",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "These are signs of PAD (p68)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/57.jpg",
+     "lec": "Diabetes semiology",
+     "n": 57
+    }
+   ]
+  },
+  {
+   "q": "In the neuropathic foot, deep (proprioceptive) sensation disorders are assessed by:",
+   "options": [
+    "Reflexes and tuning fork",
+    "10 g monofilament",
+    "Ankle-brachial index",
+    "Arterial Doppler"
+   ],
+   "answer": 0,
+   "why": "Deep (proprioceptive) sensation: reflexes, tuning fork; monofilament tests superficial sensation.",
+   "notes": [
+    "Listed on p57; reflexes pictured p56.",
+    "Superficial sensation test.",
+    "PAD test.",
+    "PAD test."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/57.jpg",
+     "lec": "Diabetes semiology",
+     "n": 57
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/56.jpg",
+     "lec": "Diabetes semiology",
+     "n": 56
+    }
+   ]
+  },
+  {
+   "q": "Charcot arthropathy:",
+   "options": [
+    "Occurs with severe neuropathy and long-standing diabetes",
+    "Is initiated by an injury causing a bone fracture",
+    "Leads to gross deformity with a cubic foot",
+    "Is caused by arterial occlusion with dry gangrene"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Charcot: severe neuropathy, long-standing diabetes, initiating injury with fracture, gross deformity, cubic foot, acute Charcot foot.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Not the mechanism on the slide."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/58.jpg",
+     "lec": "Diabetes semiology",
+     "n": 58
+    }
+   ]
+  },
+  {
+   "q": "Regarding diabetic foot wounds and gangrene:",
+   "options": [
+    "Neuropathic foot wounds may go undetected, get infected and lead to gangrene",
+    "In peripheral vascular disease, foot wounds heal slowly, contributing to gangrene",
+    "Foot ulcers are typically very painful, so they are noticed early",
+    "Gangrene is classed only as a microvascular complication"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Neuropathy lets wounds go unnoticed and get infected; PVD slows healing; gangrene appears in the macroangiopathy section.",
+   "notes": [
+    "Neuropathy panel, p78.",
+    "Extremities panel, p78.",
+    "Neuropathy makes them painless and undetected.",
+    "Gangrene is shown under macroangiopathy (p75, p41)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/78.jpg",
+     "lec": "Diabetes semiology",
+     "n": 78
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/59.jpg",
+     "lec": "Diabetes semiology",
+     "n": 59
+    }
+   ]
+  },
+  {
+   "q": "In cardiac autonomic neuropathy, per the slides:",
+   "options": [
+    "Orthostatic hypotension is sought by measuring BP supine and after 3 minutes standing",
+    "Orthostatic hypotension is a fall of 30 mmHg systolic and/or 10 mmHg at 3 minutes",
+    "Permanent tachycardia and cardiac denervation can cause silent myocardial ischaemia",
+    "BP is measured after 10 minutes sitting"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "BP supine then after 3 min of orthostatism: loss of 30 mmHg SBP and/or 10 mmHg; permanent tachycardia, denervation, silent ischaemia.",
+   "notes": [
+    "Method on the slide.",
+    "Per the lecture slides; most guidelines use >= 20 mmHg systolic or >= 10 diastolic.",
+    "Stated on the slide.",
+    "Not the method described."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/60.jpg",
+     "lec": "Diabetes semiology",
+     "n": 60
+    }
+   ]
+  },
+  {
+   "q": "In the clinical presentation of diabetic nephropathy:",
+   "options": [
+    "The history covers type and duration of diabetes, urinary tract infection and glycaemic balance",
+    "The disease is often asymptomatic",
+    "Examination looks for oedema, hypertension and urine strip findings",
+    "Haematuria with flank pain is the typical presentation"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "History: type and history of diabetes, UTI, glycaemic balance. Exam: asymptomatic disease, oedema, HTN, urine strip.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Not on the slide."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/61.jpg",
+     "lec": "Diabetes semiology",
+     "n": 61
+    }
+   ]
+  },
+  {
+   "q": "The laboratory assessment of diabetic nephropathy includes:",
+   "options": [
+    "Conventional 24-hour urine collection",
+    "Albumin-to-creatinine ratio (ACR) on an early morning spot urine",
+    "ACR measured in blood",
+    "Renal angiography"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Assessment: 24-h urine, ACR on early morning spot urine (a urine test), serum creatinine and GFR (eGFR is a blood test).",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "ACR is a urine test (p65).",
+    "Not part of the assessment."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/62.jpg",
+     "lec": "Diabetes semiology",
+     "n": 62
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/65.jpg",
+     "lec": "Diabetes semiology",
+     "n": 65
+    }
+   ]
+  },
+  {
+   "q": "KDIGO 2012 GFR categories (mL/min/1.73 m2):",
+   "options": [
+    "G1: normal or high, >= 90",
+    "G3a: mildly to moderately decreased, 45-59",
+    "G4: severely decreased, 15-29",
+    "G5: kidney failure, < 30"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "G1 >= 90, G2 60-89, G3a 45-59, G3b 30-44, G4 15-29, G5 < 15.",
+   "notes": [
+    "From the table.",
+    "From the table.",
+    "From the table.",
+    "G5 is < 15."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/66.jpg",
+     "lec": "Diabetes semiology",
+     "n": 66
+    }
+   ]
+  },
+  {
+   "q": "A diabetic with an ACR of 150 mg/g (AER around 150 mg/24 h) is classified as:",
+   "options": [
+    "A2, moderately increased albuminuria",
+    "A1, normal to mildly increased",
+    "A3, severely increased",
+    "Nephrotic-range albuminuria"
+   ],
+   "answer": 0,
+   "why": "A1 ACR < 30 mg/g; A2 30-300 mg/g; A3 > 300 mg/g; nephrotic syndrome usually > 2200 mg/24 h.",
+   "notes": [
+    "30-300 mg/g = A2.",
+    "A1 is < 30 mg/g.",
+    "A3 is > 300 mg/g.",
+    "Nephrotic range is > 2200 mg/24 h."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/66.jpg",
+     "lec": "Diabetes semiology",
+     "n": 66
+    }
+   ]
+  },
+  {
+   "q": "Symptoms of diabetic nephropathy shown on the infographic include:",
+   "options": [
+    "Protein in the urine",
+    "Swelling of ankles, hands, feet or eyes",
+    "Persistent itching",
+    "Increased appetite with weight gain"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Listed symptoms: worsening BP regulation, proteinuria, swelling, increased urge to urinate, dyspnoea, loss of appetite, nausea, itching, exhaustion.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Loss of appetite is listed instead."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/63.jpg",
+     "lec": "Diabetes semiology",
+     "n": 63
+    }
+   ]
+  },
+  {
+   "q": "Glomerular changes of diabetic kidney disease shown on the physiopathology figure include:",
+   "options": [
+    "Basement membrane thickening",
+    "Arteriole hyalinosis",
+    "Reduced mesangial matrix",
+    "Podocyte proliferation with increased slit diaphragms"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Figure b shows basement membrane thickening, arteriole hyalinosis, mesangial matrix deposition, podocytopathy (loss, effacement, fewer slit diaphragms), albuminuria.",
+   "notes": [
+    "Labelled on the figure.",
+    "Labelled on the figure.",
+    "Mesangial matrix deposition is shown.",
+    "Podocyte loss and fewer slit diaphragms."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/64.jpg",
+     "lec": "Diabetes semiology",
+     "n": 64
+    }
+   ]
+  },
+  {
+   "q": "The foot pulses demonstrated on the peripheral artery disease slide are:",
+   "options": [
+    "Dorsal pedal pulse",
+    "Posterior tibial pulse",
+    "Femoral pulse",
+    "Radial pulse"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The PAD slide shows palpation of the dorsalis pedis and posterior tibial pulses.",
+   "notes": [
+    "Shown.",
+    "Shown.",
+    "Not shown on the slide.",
+    "Not a lower-limb pulse."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/67.jpg",
+     "lec": "Diabetes semiology",
+     "n": 67
+    }
+   ]
+  },
+  {
+   "q": "Clinical signs of peripheral artery disease include:",
+   "options": [
+    "Loss of pulses",
+    "Presence of a bruit",
+    "Brittle, slow-growing toenails",
+    "Hot feet with bounding pulses"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "PAD exam: loss of pulses, pain on palpation, pallor, muscle atrophy and hair loss, cool cyanotic skin, bruit, brittle slow-growing nails.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Hot feet suggest neuropathy; PAD gives cool skin."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/68.jpg",
+     "lec": "Diabetes semiology",
+     "n": 68
+    }
+   ]
+  },
+  {
+   "q": "The paraclinical work-up of peripheral artery disease includes:",
+   "options": [
+    "Ankle-brachial index (ABI)",
+    "Arterial Doppler of the lower limbs",
+    "CT angiography systematically in every patient",
+    "128-Hz tuning fork"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "ABI, arterial Doppler; CT angiography/MRA only if candidate for angioplasty or bypass. ABI measurement is pictured on p76.",
+   "notes": [
+    "Listed; shown on p76.",
+    "Listed.",
+    "Only if angioplasty or bypass is considered.",
+    "Neuropathy tool."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/68.jpg",
+     "lec": "Diabetes semiology",
+     "n": 68
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/76.jpg",
+     "lec": "Diabetes semiology",
+     "n": 76
+    }
+   ]
+  },
+  {
+   "q": "On the 'Type 2 diabetes and PAD' poster, warning signs include:",
+   "options": [
+    "Leg pain that does not go away after exercising",
+    "Foot or toe wounds that heal slowly or not at all",
+    "Poor toenail growth or hair loss on the legs",
+    "Lower temperature in the lower leg or foot than the rest of the body"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "The poster lists all four as reasons to see a doctor; PAD is a narrowing of arteries, usually of the legs.",
+   "notes": [
+    "On the poster.",
+    "On the poster.",
+    "On the poster.",
+    "On the poster."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/69.jpg",
+     "lec": "Diabetes semiology",
+     "n": 69
+    }
+   ]
+  },
+  {
+   "q": "Circumstances of discovery of diabetic coronary artery disease include:",
+   "options": [
+    "Acute complications of diabetes or glycaemic imbalance",
+    "Palpitations or lipothymia",
+    "Typical chest pain as the most common presentation",
+    "Isolated proteinuria"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "CoD: atypical pain (epigastric ache, exertional dyspnoea, palpitations, lipothymia), typical pain (uncommon), SMI, acute complications/imbalance, heart failure.",
+   "notes": [
+    "Listed.",
+    "Listed as atypical presentation.",
+    "Typical chest pain is uncommon.",
+    "Circumstance of nephropathy, not CAD."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/71.jpg",
+     "lec": "Diabetes semiology",
+     "n": 71
+    }
+   ]
+  },
+  {
+   "q": "In suspected diabetic coronary artery disease:",
+   "options": [
+    "Examination should rule out other causes of chest pain",
+    "Cardiac and vascular auscultation is performed",
+    "Troponin assay looks for myocardial necrosis",
+    "The ankle-brachial index is the key diagnostic test"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Clinical: rule out other chest pain causes, cardiac and vascular auscultation. Paraclinical: ECG, troponin (necrosis), coronary angiography.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "ABI is for PAD."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/74.jpg",
+     "lec": "Diabetes semiology",
+     "n": 74
+    }
+   ]
+  },
+  {
+   "q": "On the coronary artery disease figure:",
+   "options": [
+    "Four stages are shown, from healthy artery to near complete blockage",
+    "Initial fatty deposits are shown before plaque that obstructs blood flow",
+    "The most advanced stage shown is near complete blockage",
+    "The most advanced stage shown is complete occlusion by a thrombus",
+    "The healthy artery already shows fatty deposits in its wall"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Stages pictured in order: healthy artery, initial fatty deposits, plaque obstructs blood flow, near complete blockage.",
+   "notes": [
+    "Four labelled stages.",
+    "Fatty deposits come second, obstructing plaque third.",
+    "Last stage pictured.",
+    "No complete occlusion or thrombus is shown.",
+    "The healthy artery has no deposits."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/70.jpg",
+     "lec": "Diabetes semiology",
+     "n": 70
+    }
+   ]
+  },
+  {
+   "q": "The assessment after a stroke in a diabetic includes:",
+   "options": [
+    "Carotid Doppler ultrasonography",
+    "CT scan",
+    "ECG and echocardiography or cardiac stress test",
+    "Lumbar puncture"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Assessment: ECG, echocardiography/stress test, coronary angiogram, carotid Doppler, CT scan.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Not listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/77.jpg",
+     "lec": "Diabetes semiology",
+     "n": 77
+    }
+   ]
+  },
+  {
+   "q": "According to the lecture conclusion:",
+   "options": [
+    "Severity of diabetes depends on its acute and chronic complications",
+    "Type 2 diabetes has no inaugural ketoacidosis",
+    "Type 1 diabetes occurs typically with overweight and cardiovascular risk factors",
+    "Diagnosis relies on symptoms alone, without specific criteria"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Conclusion: diagnosis based on specific criteria; T1 sudden, young, no overweight or CV risk; T2 older, no inaugural ketoacidosis; severity = complications.",
+   "notes": [
+    "Stated.",
+    "Stated.",
+    "T1 is without overweight or CV risk factors.",
+    "Diagnosis is based on specific criteria."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/79.jpg",
+     "lec": "Diabetes semiology",
+     "n": 79
     }
    ]
   }

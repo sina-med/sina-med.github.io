@@ -3,6 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "5 November 2026", items: [
+    "Added: more Semiology MCQs (endocrine).",
     "Added: new MCQs for Semiology (digestive and endocrine).",
     "Removed: Neurology, musculoskeletal and obstetrics/urinary Semiology past papers.",
     "Changed: Semiology midterm, Digestive part set: physical examination, jaundice, GERD, GI bleeding, constipation, nausea and vomiting (coming)."

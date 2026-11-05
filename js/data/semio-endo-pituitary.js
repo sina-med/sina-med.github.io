@@ -1223,6 +1223,923 @@ SINA.lectures["semio-endo-pituitary"] = {
      "n": 25
     }
    ]
+  },
+  {
+   "q": "Hypersecretion syndromes of the pituitary listed in the clinical presentation include:",
+   "options": [
+    "ACTH hypersecretion (Cushing disease)",
+    "TSH hypersecretion",
+    "FSH/LH hypersecretion",
+    "Oxytocin hypersecretion from the anterior lobe"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The slide lists prolactin, ACTH (Cushing disease), GH, TSH and FSH/LH hypersecretion.",
+   "notes": [
+    "Listed: ACTH hypersecretion - Cushing disease.",
+    "Listed: TSH hypersecretion.",
+    "Listed: FSH/LH hypersecretion.",
+    "Oxytocin is a posterior pituitary hormone and is not in the list."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/07.jpg",
+     "lec": "Pituitary semiology",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "On the pituitary physiology reminder diagram, prolactin acts on:",
+   "options": [
+    "The thyroid",
+    "The adrenal cortex",
+    "The mammary glands",
+    "The testis and ovary"
+   ],
+   "answer": 2,
+   "why": "The diagram shows prolactin going to the mammary glands; TSH to thyroid, ACTH to adrenal cortex, FSH/LH to gonads.",
+   "notes": [
+    "Thyroid is the target of TSH.",
+    "Adrenal cortex is the target of ACTH.",
+    "Correct: prolactin targets the mammary glands.",
+    "Gonads are the targets of FSH and LH."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/05.jpg",
+     "lec": "Pituitary semiology",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "In the 'Pituitary and friends' summary, oxytocin acts on:",
+   "options": [
+    "The uterus",
+    "The mammary gland",
+    "The kidney",
+    "The thyroid"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The summary slide shows oxytocin arrows to the uterus and to the mammary gland (with prolactin).",
+   "notes": [
+    "Shown: oxytocin to uterus.",
+    "Shown: oxytocin and prolactin to mammary gland.",
+    "The kidney is the target of ADH.",
+    "The thyroid is the target of TSH."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/40.jpg",
+     "lec": "Pituitary semiology",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "q": "According to the Cushing disease axis diagram:",
+   "options": [
+    "Corticotropin releasing hormone from the hypothalamus stimulates ACTH",
+    "The adenoma is located in the anterior pituitary",
+    "Cortisol exerts negative feedback on hypothalamus and pituitary",
+    "ACTH acts mainly on the posterior pituitary"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The diagram shows CRH (+) to an anterior pituitary adenoma, ACTH (+) to the adrenals, and cortisol (-) feedback to both hypothalamus and pituitary.",
+   "notes": [
+    "Shown: CRH stimulates (+) ACTH release.",
+    "Labelled 'anterior pituitary adenoma'.",
+    "Red (-) arrows return to hypothalamus and pituitary.",
+    "ACTH acts on the adrenal glands, not the posterior pituitary."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/12.jpg",
+     "lec": "Pituitary semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Systemic features of hypercortisolism shown on the Cushing body diagram include:",
+   "options": [
+    "Osteoporosis",
+    "High blood sugar",
+    "Hypertension and cardiac hypertrophy",
+    "Poor wound healing and easy bruising"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "The diagram labels moon face, acne, thin skin, weight gain, striae, pendulous abdomen, muscle weakness, poor wound healing, easy bruising, hypertension, cardiac hypertrophy, high blood sugar, menstrual irregularities, osteoporosis and skin ulcers.",
+   "notes": [
+    "Labelled on the diagram.",
+    "Labelled 'high blood sugar'.",
+    "Both labelled on the diagram.",
+    "Both labelled on the diagram."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/13.jpg",
+     "lec": "Pituitary semiology",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "A patient has a pendulous abdomen with stretch marks, a moon face, muscle weakness and easy bruising. Per the slides, investigate:",
+   "options": [
+    "Cortisol/ACTH axis",
+    "GH/IGF-1 axis",
+    "Prolactin axis",
+    "TSH/thyroid axis"
+   ],
+   "answer": 0,
+   "why": "These are Cushing features; the slide says 'LOOK for Cortisol/ACTH axis'.",
+   "notes": [
+    "Correct: Cushing features point to the cortisol/ACTH axis.",
+    "GH excess gives acromegalic features, not striae and moon face.",
+    "Prolactin excess gives galactorrhoea and hypogonadism.",
+    "TSH excess gives central hyperthyroidism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/13.jpg",
+     "lec": "Pituitary semiology",
+     "n": 13
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/37.jpg",
+     "lec": "Pituitary semiology",
+     "n": 37
+    }
+   ]
+  },
+  {
+   "q": "Lab tests for Cushing disease listed on the slides include:",
+   "options": [
+    "Free urinary or salivary cortisol",
+    "Evening (vesperal) cortisol on the nycthemeral cycle",
+    "1 mg overnight dexamethasone suppression test",
+    "GH during a 75 g glucose tolerance test"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Lab tests: free urinary/salivary cortisol, nycthemeral cycle with vesperal cortisol, 1 mg overnight dexamethasone test, and ACTH level.",
+   "notes": [
+    "Listed.",
+    "Listed: loss of the evening cortisol fall.",
+    "Listed as the suppressive test.",
+    "The OGTT with GH is the acromegaly work-up."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/14.jpg",
+     "lec": "Pituitary semiology",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Regarding the diagnosis of Cushing disease:",
+   "options": [
+    "High cortisol with inadequate dexamethasone suppression defines hypercortisolism",
+    "Hypercortisolism with inadequate (non-suppressed) ACTH means Cushing disease",
+    "Pituitary MRI usually shows a macroadenoma compressing the chiasm",
+    "Normal suppression after dexamethasone confirms the disease"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Slide: high cortisol + inadequate suppression in DXM test = hypercortisolism; hypercortisolism + inadequate ACTH = Cushing disease; MRI usually shows an ACTH-secreting microadenoma.",
+   "notes": [
+    "Stated on the slide.",
+    "Stated: 'inadequate ACTH' = not suppressed despite high cortisol.",
+    "MRI usually shows a microadenoma.",
+    "Inadequate, not normal, suppression points to hypercortisolism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/14.jpg",
+     "lec": "Pituitary semiology",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Central hyperthyroidism due to TSH hypersecretion:",
+   "options": [
+    "Is very rare",
+    "Is due to a pituitary adenoma",
+    "Shows high FT4 and FT3 with normal or high TSH",
+    "Shows high FT4 with a suppressed TSH"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Slide: TSH hypersecretion is very rare; pituitary adenoma; high FT4 + FT3 with normal or high TSH.",
+   "notes": [
+    "Stated: 'very rare'.",
+    "Stated: pituitary adenoma (TSH-secreting tumour).",
+    "Stated: TSH is not suppressed.",
+    "Suppressed TSH is not the central pattern described."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/19.jpg",
+     "lec": "Pituitary semiology",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Hypopituitarism is:",
+   "options": [
+    "Diminished or absent secretion of one or more pituitary hormones",
+    "A deficiency that can be partial or complete",
+    "Always the loss of all anterior pituitary hormones together",
+    "Excess secretion of a single trophic hormone"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Slide: hypopituitarism is diminished or absent secretion of one or more pituitary hormones (partial or complete deficiency).",
+   "notes": [
+    "Definition on the slide.",
+    "Stated: partial or complete.",
+    "One or more hormones, not necessarily all.",
+    "That describes hypersecretion, not hypopituitarism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/27.jpg",
+     "lec": "Pituitary semiology",
+     "n": 27
+    }
+   ]
+  },
+  {
+   "q": "In panhypopituitarism, the slides match each deficiency to:",
+   "options": [
+    "GH: short stature or features of low GH in adults",
+    "TSH: central hypothyroidism",
+    "ACTH: central adrenocortical insufficiency",
+    "PRL: failure of postpartum lactation"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "The panhypopituitarism chart: GH - short stature/low GH features; FSH/LH - central hypogonadism; TSH - central hypothyroidism; ACTH - central ACI; PRL - failure of postpartum lactation.",
+   "notes": [
+    "Shown on the chart.",
+    "Shown on the chart.",
+    "Shown: central ACI.",
+    "Shown on the chart."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/28.jpg",
+     "lec": "Pituitary semiology",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "FSH and LH deficiency in hypopituitarism produces:",
+   "options": [
+    "Central hypothyroidism",
+    "Central hypogonadism",
+    "Failure of postpartum lactation",
+    "Polyuria and polydipsia"
+   ],
+   "answer": 1,
+   "why": "On the chart FSH, LH deficiency leads to central hypogonadism.",
+   "notes": [
+    "Due to TSH deficiency.",
+    "Correct: FSH/LH deficiency - central hypogonadism.",
+    "Due to prolactin deficiency.",
+    "Due to ADH deficiency."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/28.jpg",
+     "lec": "Pituitary semiology",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "ACTH deficiency looks like Addison's disease (primary adrenal insufficiency) except for the absence of:",
+   "options": [
+    "Weakness",
+    "Hyperpigmentation",
+    "Hyperkalaemia",
+    "Weight loss"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "why": "Table: ACTH deficiency is as in Addison's disease except lack of hyperpigmentation and hyperkalaemia; the cartoon says 'all the problems of primary Addison's except dark skin'.",
+   "notes": [
+    "Weakness is present (shown on the cartoon).",
+    "Absent: no ACTH, so no dark skin.",
+    "Absent per the table.",
+    "Weight loss is present (shown on the cartoon)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/29.jpg",
+     "lec": "Pituitary semiology",
+     "n": 29
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/30.jpg",
+     "lec": "Pituitary semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "TSH deficiency in hypopituitarism:",
+   "options": [
+    "Resembles primary hypothyroidism",
+    "Occurs without a goitre",
+    "Typically causes a large goitre",
+    "Presents with polyuria and polydipsia"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Table: TSH deficiency is as in primary hypothyroidism, except lack of goitre.",
+   "notes": [
+    "Stated in the table.",
+    "Stated: lack of goitre.",
+    "No goitre, since TSH drive is missing.",
+    "Polyuria/polydipsia is ADH deficiency."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/29.jpg",
+     "lec": "Pituitary semiology",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "In adults, GH deficiency causes:",
+   "options": [
+    "Reduced exercise capacity",
+    "Reduced lean body mass and increased body fat",
+    "Increased cardiovascular risk and impaired well-being",
+    "Short stature"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Table: GH deficiency - children: short stature; adults: reduced exercise capacity, lower lean mass, more body fat, impaired psychological well-being, higher CV risk.",
+   "notes": [
+    "Listed for adults.",
+    "Listed for adults.",
+    "Listed for adults.",
+    "Short stature is the feature in children."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/29.jpg",
+     "lec": "Pituitary semiology",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "LH/FSH deficiency produces:",
+   "options": [
+    "In women, oligo/amenorrhoea with anovulatory cycles",
+    "In men, erectile dysfunction, low libido and testicular atrophy",
+    "Osteoporosis in both sexes",
+    "Increased axillary and pubic hair"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Table: women - oligo/amenorrhoea, anovulation, loss of axillary/pubic hair, osteoporosis; men - ED, low libido, testicular atrophy, loss of sexual hair, osteoporosis.",
+   "notes": [
+    "Listed for women.",
+    "Listed for men.",
+    "Listed for both sexes.",
+    "Sexual hair is lost, not increased."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/29.jpg",
+     "lec": "Pituitary semiology",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "Causes of hypopituitarism illustrated on the cartoon slide include:",
+   "options": [
+    "Pituitary adenoma",
+    "Pituitary infarct",
+    "Empty sella",
+    "Hyperprolactinaemia from pregnancy"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The cartoon shows three causes: adenoma, infarct and 'empty sella'.",
+   "notes": [
+    "Illustrated.",
+    "Illustrated.",
+    "Illustrated.",
+    "Not shown; pregnancy is a physiological cause of high prolactin."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/30.jpg",
+     "lec": "Pituitary semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "According to the hypopituitarism cartoon:",
+   "options": [
+    "It may end in sudden death",
+    "Personality changes, weakness and weight loss may occur",
+    "It is hard to treat even once suspected",
+    "Diabetes insipidus is never seen"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The cartoon shows personality changes, weakness, weight loss, muscle wasting, lost libido/amenorrhoea and sudden death; 'easy to diagnose and treat if you think of it'; DI may be present.",
+   "notes": [
+    "Shown (tombstone: sudden death).",
+    "All shown on the figure.",
+    "Slide says easy to diagnose and treat if you think of it.",
+    "DI is listed as 'may also be present'."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/30.jpg",
+     "lec": "Pituitary semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "The slides describe the classic triad of hypopituitarism as:",
+   "options": [
+    "Pallor, hirsutism, hyperpigmentation",
+    "Pallor, depilation, depigmentation",
+    "Moon face, purple striae, plethora",
+    "Polyuria, polydipsia, nocturia"
+   ],
+   "answer": 1,
+   "why": "Slide: 'Triad: pallor, depilation, depigmentation'.",
+   "notes": [
+    "Hirsutism and dark skin are the opposite.",
+    "Correct: the triad on the slide.",
+    "These are Cushing features.",
+    "These suggest vasopressin deficiency."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/31.jpg",
+     "lec": "Pituitary semiology",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "q": "The skin and face in hypopituitarism show:",
+   "options": [
+    "Constant depigmentation of the areolas and external genitalia",
+    "A pale, slightly 'old' face",
+    "Thick, oily, sweaty skin",
+    "Purple striae on the abdomen"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Slide: pale facies, a bit 'old'; depigmentation of areolas and genitalia is constant; thin, cold, dry skin with fine wrinkles.",
+   "notes": [
+    "Stated as constant.",
+    "Stated: pale facies, a bit 'old'.",
+    "Skin is thin, cold and dry; oily skin is acromegaly.",
+    "Purple striae are a Cushing sign."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/31.jpg",
+     "lec": "Pituitary semiology",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "q": "Loss of axillary and pubic hair in hypopituitarism is due to absence of:",
+   "options": [
+    "Adrenal androgens",
+    "Gonadal androgens",
+    "Thyroid hormones",
+    "Vasopressin"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Slide: loss of axillary and pubic hair, due to the absence of adrenal and gonadal androgens.",
+   "notes": [
+    "Stated (ACTH deficiency).",
+    "Stated (LH/FSH deficiency).",
+    "Not the cause given on the slide.",
+    "Vasopressin deficiency causes polyuria, not hair loss."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/31.jpg",
+     "lec": "Pituitary semiology",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "q": "A woman has a pale face and a completely hairless axilla, as in the lecture photos. This fits:",
+   "options": [
+    "Hypopituitarism",
+    "Cushing disease",
+    "Acromegaly",
+    "Central hyperthyroidism"
+   ],
+   "answer": 0,
+   "why": "The photos follow the hypopituitarism slide: pallor and depilation are part of the triad pallor, depilation, depigmentation.",
+   "notes": [
+    "Correct: pallor and depilation.",
+    "Cushing gives plethora and hirsutism.",
+    "Acromegaly gives coarse, oily, sweaty skin.",
+    "Not associated with pallor and depilation on the slides."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/31.jpg",
+     "lec": "Pituitary semiology",
+     "n": 31
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/32.jpg",
+     "lec": "Pituitary semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "Once anterior hypophyseal insufficiency (AHI) is diagnosed, the slides say to request:",
+   "options": [
+    "Adrenal CT scan",
+    "Pituitary MRI",
+    "Thyroid scintigraphy",
+    "Neck ultrasound"
+   ],
+   "answer": 1,
+   "why": "Slide: the diagnosis of AHI should lead to pituitary imaging: pituitary MRI.",
+   "notes": [
+    "Not the imaging named for AHI.",
+    "Correct: pituitary MRI.",
+    "Not the imaging named for AHI.",
+    "Not the imaging named for AHI."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/33.jpg",
+     "lec": "Pituitary semiology",
+     "n": 33
+    }
+   ]
+  },
+  {
+   "q": "About the posterior pituitary:",
+   "options": [
+    "It releases arginine vasopressin",
+    "It releases oxytocin",
+    "It secretes prolactin",
+    "It is the adenohypophysis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Slide: posterior pituitary hormones are vasopressin (AVP) and oxytocin; the posterior lobe is the neurohypophysis.",
+   "notes": [
+    "Stated. The slide writes 'desmopressine'; textbooks call desmopressin the synthetic AVP analogue.",
+    "Stated.",
+    "Prolactin is anterior pituitary.",
+    "Posterior lobe = neurohypophysis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/34.jpg",
+     "lec": "Pituitary semiology",
+     "n": 34
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/04.jpg",
+     "lec": "Pituitary semiology",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "In arginine vasopressin deficiency:",
+   "options": [
+    "The cause is a hypothalamic-pituitary disruption",
+    "AVP release is deficient",
+    "Polyuria comes first and drives polydipsia",
+    "The kidney fails to respond to normal AVP"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Diagram: (1) hypothalamic-pituitary disruption, (2) deficient AVP release, (3) polyuria, (4) polydipsia.",
+   "notes": [
+    "Step 1 on the diagram.",
+    "Step 2 on the diagram.",
+    "Polyuria (3) precedes polydipsia (4).",
+    "That is AVP resistance."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/35.jpg",
+     "lec": "Pituitary semiology",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "In arginine vasopressin resistance:",
+   "options": [
+    "AVP acts ineffectively on the kidneys",
+    "AVP release is increased in compensation",
+    "AVP release is suppressed",
+    "Excess drinking is the first event"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Diagram: (1) ineffective AVP action in the kidneys, (2) polyuria, (3) polydipsia with compensated increased AVP release.",
+   "notes": [
+    "Step 1 on the diagram.",
+    "Shown: compensated increased AVP release.",
+    "Suppressed AVP is primary polydipsia.",
+    "Drinking first is primary polydipsia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/35.jpg",
+     "lec": "Pituitary semiology",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "On the differential diagnosis diagram, primary polydipsia starts with:",
+   "options": [
+    "Deficient AVP release",
+    "Ineffective AVP action in the kidneys",
+    "Excessive drinking",
+    "A hypothalamic-pituitary lesion"
+   ],
+   "answer": 2,
+   "why": "Diagram: (1) polydipsia, (2) suppressed AVP release, (3) polyuria.",
+   "notes": [
+    "AVP is suppressed secondarily, not primarily deficient.",
+    "That is AVP resistance.",
+    "Correct: polydipsia is step 1.",
+    "That is AVP deficiency."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/35.jpg",
+     "lec": "Pituitary semiology",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "Polyuria and polydipsia are found in:",
+   "options": [
+    "Arginine vasopressin deficiency",
+    "Arginine vasopressin resistance",
+    "Primary polydipsia",
+    "ADH deficiency in hypopituitarism"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "All three conditions of the differential diagnosis produce polyuria and polydipsia; the hypopituitarism table lists ADH deficiency as polyuria and polydipsia.",
+   "notes": [
+    "Shown on the diagram.",
+    "Shown on the diagram.",
+    "Shown on the diagram.",
+    "Table: ADH deficiency - polyuria and polydipsia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/35.jpg",
+     "lec": "Pituitary semiology",
+     "n": 35
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/29.jpg",
+     "lec": "Pituitary semiology",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "Symptoms of Cushing's syndrome listed on the Lancet case slide include:",
+   "options": [
+    "Decreased libido",
+    "Psychiatric disorders",
+    "Polyuria and polydipsia",
+    "Galactorrhoea"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Symptoms: decreased libido, psychiatric disorders, proximal muscle weakness, hair loss, menstrual irregularities.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Not listed; points to vasopressin disorders.",
+    "Not listed; points to hyperprolactinaemia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/38.jpg",
+     "lec": "Pituitary semiology",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "q": "Comorbidities of high cortisol shown on the Lancet slide include:",
+   "options": [
+    "Hypertension",
+    "Hypercoagulability",
+    "Infections",
+    "Hypoglycaemia"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Comorbidities: hypertension, glucose metabolism impairment, bone disease, infections, hypercoagulability.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Cortisol causes glucose metabolism impairment (high sugar), not hypoglycaemia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/38.jpg",
+     "lec": "Pituitary semiology",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "q": "Regarding the Cushing's syndrome case slide (Lancet 2023):",
+   "options": [
+    "High cortisol may come from pituitary, adrenal or lung lesions",
+    "The patient improved 12 months after transsphenoidal surgery",
+    "Only pituitary tumours can raise cortisol",
+    "Bone disease is not a comorbidity"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The figure shows pituitary, adrenal and lung sources of high cortisol, and the patient before and 12 months after transsphenoidal surgery.",
+   "notes": [
+    "Three sources shown.",
+    "Before/after photos shown.",
+    "Adrenal and lung sources are also shown.",
+    "Bone disease is listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/38.jpg",
+     "lec": "Pituitary semiology",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "q": "In the post-traumatic hypopituitarism case, the clinical signs described include:",
+   "options": [
+    "Lack of facial hair",
+    "Queen Anne's sign",
+    "Pale skin and muscular atrophy",
+    "Hyperpigmentation"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Caption: lack of facial hair, dehydration, Queen Anne's sign, pale skin, muscular atrophy, loss of body hair and anorexia.",
+   "notes": [
+    "In the caption.",
+    "In the caption (panel A).",
+    "In the caption.",
+    "Pallor, not dark skin, as ACTH is lacking."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/39.jpg",
+     "lec": "Pituitary semiology",
+     "n": 39
+    }
+   ]
+  },
+  {
+   "q": "In the post-traumatic hypopituitarism case (flattened pituitary after a middle cranial fossa fracture), anterior pituitary tests would show:",
+   "options": [
+    "Low cortisol",
+    "Low fT4 with a TSH that is not raised",
+    "Low GH",
+    "Markedly raised TSH with low fT4"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Severe hypopituitarism gives central adrenal insufficiency, central hypothyroidism and GH deficiency (panhypopituitarism chart). The slide asks the question without giving answers.",
+   "notes": [
+    "Central ACI from ACTH deficiency.",
+    "Central hypothyroidism: TSH is low or normal.",
+    "GH deficiency.",
+    "High TSH is primary hypothyroidism. Prolactin is ambiguous (low, or high from stalk effect)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/39.jpg",
+     "lec": "Pituitary semiology",
+     "n": 39
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/28.jpg",
+     "lec": "Pituitary semiology",
+     "n": 28
+    }
+   ]
   }
  ],
  "cards": [

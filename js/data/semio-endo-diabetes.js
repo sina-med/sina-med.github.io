@@ -1464,6 +1464,1418 @@ SINA.lectures["semio-endo-diabetes"] = {
      "n": 77
     }
    ]
+  },
+  {
+   "q": "Regarding hypoglycaemia as defined in the lecture:",
+   "options": [
+    "It is defined by a blood glucose level <= 0.7 g/L (ADA threshold)",
+    "It is directly or indirectly responsible for 2 to 4% of deaths due to diabetes",
+    "It requires emergency treatment",
+    "It is defined by a blood glucose below 0.5 g/L in all diabetics"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Hypoglycaemia is an abnormal fall in blood glucose, defined by <= 0.7 g/L (ADA), a dreaded complication responsible for 2-4% of diabetes deaths, needing emergency treatment +++.",
+   "notes": [
+    "ADA threshold quoted on the slide.",
+    "Stated as directly or indirectly responsible for 2-4% of deaths.",
+    "'Emergency treatment +++' on the slide.",
+    "Wrong threshold; the slide uses <= 0.7 g/L."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/35.jpg",
+     "lec": "Diabetes semiology",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "Causes of hypoglycaemia listed in the lecture include:",
+   "options": [
+    "Insulin or sulfonylurea overdose",
+    "Delay in taking a meal",
+    "Insufficient food intake",
+    "Intense physical activity",
+    "Omission of insulin therapy"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Etiologies listed: insulin or sulfonylurea overdose, delayed meal, insufficient food intake and intense physical activity.",
+   "notes": [
+    "Listed etiology.",
+    "Listed etiology.",
+    "Listed etiology.",
+    "Listed etiology.",
+    "Insulin omission is a risk factor for ketoacidosis, not hypoglycaemia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/35.jpg",
+     "lec": "Diabetes semiology",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "Hypoglycaemia may be discovered:",
+   "options": [
+    "Incidentally on self-monitoring of blood glucose, with no symptoms",
+    "Through complications such as seizures or coma",
+    "Only when HbA1c falls below 4%",
+    "Only in patients who are not treated with insulin"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Circumstances of discovery: clinical symptoms, incidental finding on self-monitoring (asymptomatic), or complications such as seizures and coma.",
+   "notes": [
+    "Listed: incidental, asymptomatic, on self-monitoring.",
+    "Listed: complications - seizures, coma.",
+    "HbA1c is not mentioned as a mode of discovery.",
+    "Insulin overdose is itself a leading cause."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/36.jpg",
+     "lec": "Diabetes semiology",
+     "n": 36
+    }
+   ]
+  },
+  {
+   "q": "The Whipple triad comprises:",
+   "options": [
+    "Symptoms of hypoglycaemia",
+    "Low blood glucose (values < 70 mg/dL)",
+    "Resolution of symptoms after glucose intake",
+    "Ketonuria on a urine test strip"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Whipple triad: symptoms of hypoglycaemia, low blood glucose (< 70 mg/dL) and resolution of symptoms after glucose intake.",
+   "notes": [
+    "First element of the triad.",
+    "Second element; threshold as given on the slide.",
+    "Third element of the triad.",
+    "Ketonuria relates to ketosis/DKA, not to the triad."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/36.jpg",
+     "lec": "Diabetes semiology",
+     "n": 36
+    }
+   ]
+  },
+  {
+   "q": "Adrenergic (autonomic) signs of hypoglycaemia include:",
+   "options": [
+    "Tremor",
+    "Confusion",
+    "Palpitations",
+    "Convulsions"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "why": "Adrenergic signs: tremor, palpitations, anxiety, sweating, hunger; confusion and convulsions are neuroglycopenic.",
+   "notes": [
+    "Adrenergic column.",
+    "Neuroglycopenic column.",
+    "Adrenergic column.",
+    "Neuroglycopenic column."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/37.jpg",
+     "lec": "Diabetes semiology",
+     "n": 37
+    }
+   ]
+  },
+  {
+   "q": "Neuroglycopenic signs of hypoglycaemia include:",
+   "options": [
+    "Convulsions",
+    "Behaviour changes",
+    "Incoordination",
+    "Anxiety"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Neuroglycopenic signs: confusion, drowsiness, speech difficulty, weakness, incoordination, headache, visual disturbance, behaviour changes, convulsions, loss of consciousness.",
+   "notes": [
+    "Neuroglycopenic column.",
+    "Neuroglycopenic column.",
+    "Neuroglycopenic column.",
+    "Anxiety is listed as an adrenergic sign."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/37.jpg",
+     "lec": "Diabetes semiology",
+     "n": 37
+    }
+   ]
+  },
+  {
+   "q": "Symptoms of moderate neuroglucopenia listed in the lecture include:",
+   "options": [
+    "Irritability",
+    "Impaired judgment",
+    "Kussmaul breathing",
+    "Polyuria"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Moderate neuroglucopenia: dizziness, drowsiness, irritability, confusion, personality changes, difficulty speaking, weakness, headache, blurred vision, impaired judgment.",
+   "notes": [
+    "Listed under moderate.",
+    "Listed under moderate.",
+    "Kussmaul breathing is a sign of ketoacidosis.",
+    "Polyuria is a sign of hyperglycaemia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/38.jpg",
+     "lec": "Diabetes semiology",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "q": "In the classification of hypoglycaemia:",
+   "options": [
+    "Level 1 (alert value) is <= 70 mg/dL (3.9 mmol/L)",
+    "Level 2 (clinically significant) is < 54 mg/dL (3.0 mmol/L)",
+    "Level 3 is defined by a glucose below 40 mg/dL",
+    "Level 1 by definition requires injectable glucagon"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Level 1 <= 70 mg/dL (treat with fast-acting carbohydrate, adjust therapy); level 2 < 54 mg/dL; level 3 has no specific glucose threshold.",
+   "notes": [
+    "Value on the table.",
+    "Value on the table.",
+    "Level 3 has no specific glucose threshold.",
+    "Level 1 is treated with fast-acting carbohydrate and dose adjustment."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/39.jpg",
+     "lec": "Diabetes semiology",
+     "n": 39
+    }
+   ]
+  },
+  {
+   "q": "Severe hypoglycaemia (level 3) is characterised by:",
+   "options": [
+    "No specific glucose threshold",
+    "Severe cognitive impairment, seizures or coma",
+    "Need for external assistance and injectable treatment (glucose, glucagon)",
+    "A glucose between 54 and 70 mg/dL"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Level 3: no specific glucose threshold; severe cognitive impairment, seizures, coma requiring external assistance and injectable glucose or glucagon.",
+   "notes": [
+    "Stated on the table.",
+    "Stated on the table.",
+    "Stated on the table.",
+    "54-70 mg/dL corresponds to level 1."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/39.jpg",
+     "lec": "Diabetes semiology",
+     "n": 39
+    }
+   ]
+  },
+  {
+   "q": "Microvascular complications of diabetes are manifested mainly by:",
+   "options": [
+    "Thickening of the capillary basement membrane",
+    "An accelerated form of atherosclerosis",
+    "Segmental demyelination of Schwann cells",
+    "Plaque formation in the coronary arteries"
+   ],
+   "answer": 0,
+   "why": "Microvascular disease of capillaries and precapillary arterioles is manifested mainly by thickening of the capillary basement membrane.",
+   "notes": [
+    "Stated on the slide.",
+    "Defines macrovascular complications (p41).",
+    "Mechanism of neuropathy only (p47).",
+    "Macrovascular (coronary) disease."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/40.jpg",
+     "lec": "Diabetes semiology",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "q": "Per the lecture's classification, conditions listed as microvascular complications are:",
+   "options": [
+    "Diabetic retinopathy",
+    "Diabetic nephropathy",
+    "Diabetic neuropathy",
+    "Cardiomegaly with heart failure",
+    "Stroke"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "The microvascular slide lists retinopathy, nephropathy, neuropathy and cardiomegaly with heart failure; stroke is macrovascular.",
+   "notes": [
+    "Listed microvascular.",
+    "Listed microvascular.",
+    "Listed microvascular.",
+    "Per the lecture slides; many textbooks call it diabetic cardiomyopathy rather than microangiopathy.",
+    "Cerebrovascular disease is macrovascular."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/40.jpg",
+     "lec": "Diabetes semiology",
+     "n": 40
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/41.jpg",
+     "lec": "Diabetes semiology",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "q": "Macrovascular complications of diabetes correspond to:",
+   "options": [
+    "An accelerated form of atherosclerosis",
+    "Thickening of the capillary basement membrane",
+    "Segmental demyelination of Schwann cells",
+    "Mesangial matrix deposition"
+   ],
+   "answer": 0,
+   "why": "Macrovascular complications are an accelerated atherosclerosis: chronic heart disease (more MI), stroke, PAD (peripheral gangrene). Gangrene is pictured on p75.",
+   "notes": [
+    "Definition on the slide.",
+    "Defines microvascular disease.",
+    "Neuropathy mechanism.",
+    "Nephropathy lesion."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/41.jpg",
+     "lec": "Diabetes semiology",
+     "n": 41
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/75.jpg",
+     "lec": "Diabetes semiology",
+     "n": 75
+    }
+   ]
+  },
+  {
+   "q": "On the risk-factor wheels, factors shown for macrovascular but NOT for microvascular complications include:",
+   "options": [
+    "Smoking",
+    "Obesity",
+    "Glucose",
+    "Genetics"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The microvascular wheel shows only glucose, BP and genetics; the macrovascular wheel adds lipids, smoking, insulin resistance, obesity and inflammation.",
+   "notes": [
+    "Only on the macrovascular wheel.",
+    "Only on the macrovascular wheel.",
+    "Present on both wheels.",
+    "Present on both wheels."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/72.jpg",
+     "lec": "Diabetes semiology",
+     "n": 72
+    }
+   ]
+  },
+  {
+   "q": "On the slide 'Vascular injury and diabetes / Glycemic control and macrovascular disease':",
+   "options": [
+    "Vascular injury was a non-issue until the detection of insulin, then an increasing concern",
+    "ACCORD, ADVANCE and VADT are trials of glycaemic control and vascular outcomes in type 2 diabetes",
+    "The trials shown studied only children with type 1 diabetes",
+    "Erectile dysfunction is not shown among vascular targets"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The figure states vascular injury became a concern after insulin was discovered and cites ACCORD, ADVANCE and VADT on intensive glucose control in type 2 diabetes.",
+   "notes": [
+    "Stated on the figure.",
+    "Titles refer to type 2 diabetes.",
+    "All three concern type 2 diabetes in adults.",
+    "'Male organ (erectile dysfunction)' is shown."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/73.jpg",
+     "lec": "Diabetes semiology",
+     "n": 73
+    }
+   ]
+  },
+  {
+   "q": "On the 'Major complications of diabetes' figure:",
+   "options": [
+    "High blood glucose and blood pressure can damage eye vessels, causing retinopathy, cataracts and glaucoma",
+    "High blood pressure damages small kidney vessels and excess glucose overworks the kidneys",
+    "Brain complications are classed as microvascular",
+    "Hypoglycaemia is given as the main cause of coronary heart disease"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Microvascular: eye, kidney, neuropathy. Macrovascular: brain, heart (high BP and insulin resistance raise coronary risk), extremities.",
+   "notes": [
+    "Eye panel text.",
+    "Kidney panel text.",
+    "Brain (stroke, TIA) is on the macrovascular side.",
+    "Heart panel cites high BP and insulin resistance."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/78.jpg",
+     "lec": "Diabetes semiology",
+     "n": 78
+    }
+   ]
+  },
+  {
+   "q": "Regarding the pathophysiology and stages of diabetic retinopathy:",
+   "options": [
+    "Hyperglycaemia leads to occlusion of retinal vessels",
+    "Retinal ischaemia leads to reactive proliferation of neovessels",
+    "Stages are non-proliferative, severe (pre-proliferative) and proliferative",
+    "Fundus examination is reserved for patients with visual symptoms"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Hyperglycaemia occludes retinal vessels; ischaemia drives neovessel proliferation; three stages are listed; screening by fundus is needed as signs are poor.",
+   "notes": [
+    "Stated on the slide.",
+    "Stated on the slide.",
+    "Three stages listed.",
+    "Screening of at-risk asymptomatic patients is required."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/42.jpg",
+     "lec": "Diabetes semiology",
+     "n": 42
+    }
+   ]
+  },
+  {
+   "q": "On the diabetic retinopathy images, growth of abnormal blood vessels characterises:",
+   "options": [
+    "Proliferative diabetic retinopathy",
+    "Non-proliferative diabetic retinopathy",
+    "Cataract",
+    "Glaucoma"
+   ],
+   "answer": 0,
+   "why": "NPDR image labels aneurysm, hard exudate and haemorrhage; the proliferative image labels growth of abnormal vessels (neovessels from ischaemia).",
+   "notes": [
+    "Label on the proliferative image.",
+    "NPDR shows aneurysms, exudates, haemorrhages.",
+    "A lens disorder, not shown on fundus image.",
+    "Not shown on these images."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/43.jpg",
+     "lec": "Diabetes semiology",
+     "n": 43
+    }
+   ]
+  },
+  {
+   "q": "The ophthalmological examination of a diabetic includes:",
+   "options": [
+    "Visual acuity with and without optical correction",
+    "Intraocular pressure measurement (glaucoma test)",
+    "Examination of the iris and lens for rubeosis iridis and cataract",
+    "Examination of the vitreous and fundus after pupillary dilation"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "All four components are listed on the retinopathy examination slide.",
+   "notes": [
+    "Listed.",
+    "Listed as glaucoma test.",
+    "Listed.",
+    "Listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/45.jpg",
+     "lec": "Diabetes semiology",
+     "n": 45
+    }
+   ]
+  },
+  {
+   "q": "Regarding diabetic neuropathy:",
+   "options": [
+    "It is a heterogeneous group of disorders with diverse manifestations",
+    "It has the same frequency in type 1 as in type 2 diabetes",
+    "Diabetics are 15-40 times more likely to require a lower-limb amputation",
+    "Peripheral and autonomic forms are always symptomatic"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Neuropathy is heterogeneous, equally frequent in T1 and T2, causes high morbidity (15-40x amputation risk), and may be subclinical or symptomatic.",
+   "notes": [
+    "Stated on the slide.",
+    "Stated on the slide.",
+    "Stated on the slide.",
+    "They may be sub-clinical."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/46.jpg",
+     "lec": "Diabetes semiology",
+     "n": 46
+    }
+   ]
+  },
+  {
+   "q": "Pathological changes in diabetic peripheral neuropathy include:",
+   "options": [
+    "Ischaemia of the vessels that supply the nerves",
+    "Segmental demyelination affecting the Schwann cell, slowing nerve conduction",
+    "Axonal hypertrophy that speeds up nerve conduction",
+    "Autoimmune anti-myelin antibodies as the main mechanism"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Two pathologic changes: ischaemia of nerve-supplying vessels and segmental demyelination of Schwann cells slowing conduction.",
+   "notes": [
+    "First change on the slide.",
+    "Second change on the slide.",
+    "Conduction is slowed, not accelerated.",
+    "Not on the slide; hyperglycaemia is the driver."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/47.jpg",
+     "lec": "Diabetes semiology",
+     "n": 47
+    }
+   ]
+  },
+  {
+   "q": "Bilateral sensory diabetic polyneuropathy features:",
+   "options": [
+    "Paresthesias including numbness and tingling",
+    "Impaired vibration sense and two-point discrimination",
+    "Decreased ankle and knee-jerk reflexes",
+    "Brisk reflexes with an extensor plantar response"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Polyneuropathy: paresthesias, impaired pain, temperature, light touch, two-point and vibration sense, decreased ankle and knee reflexes.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Reflexes are decreased, not brisk."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/48.jpg",
+     "lec": "Diabetes semiology",
+     "n": 48
+    }
+   ]
+  },
+  {
+   "q": "Diabetic amyotrophy is associated with:",
+   "options": [
+    "Weakness, wasting and severe pain of pelvic girdle and thigh muscles",
+    "Distal symmetric loss of vibration sense only",
+    "Involvement of a single mixed nerve trunk",
+    "A painless course"
+   ],
+   "answer": 0,
+   "why": "Amyotrophy: muscle weakness, wasting and severe pain of muscles in the pelvic girdle and thigh.",
+   "notes": [
+    "Definition on the slide.",
+    "That fits sensory polyneuropathy.",
+    "That defines mononeuropathy.",
+    "Severe pain is a feature."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/48.jpg",
+     "lec": "Diabetes semiology",
+     "n": 48
+    }
+   ]
+  },
+  {
+   "q": "Diabetic mononeuropathy:",
+   "options": [
+    "Involves a mixed nerve trunk",
+    "Includes loss of sensation, pain and motor weakness",
+    "Is a bilateral symmetric sensory disorder",
+    "Mainly affects pelvic girdle muscles with wasting"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Mononeuropathy: involvement of a mixed nerve trunk with loss of sensation, pain and motor weakness.",
+   "notes": [
+    "Stated on the slide.",
+    "Stated on the slide.",
+    "Describes polyneuropathy.",
+    "Describes amyotrophy."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/48.jpg",
+     "lec": "Diabetes semiology",
+     "n": 48
+    }
+   ]
+  },
+  {
+   "q": "Manifestations of diabetic autonomic neuropathy include:",
+   "options": [
+    "Postural hypotension",
+    "Gastroparesis or diabetic diarrhoea",
+    "Erectile dysfunction",
+    "Excessive sweating",
+    "Resting bradycardia"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Autonomic: postural hypotension, resting tachycardia, loss of sweating, gastroparesis, diabetic diarrhoea, bladder atony, erectile dysfunction.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Sweating is lost, not increased.",
+    "Resting tachycardia is listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/49.jpg",
+     "lec": "Diabetes semiology",
+     "n": 49
+    }
+   ]
+  },
+  {
+   "q": "The clinical assessment of diabetic neuropathy includes:",
+   "options": [
+    "Scores such as the DN4 questionnaire and Toronto score",
+    "Vibration sensation with a 128-Hz tuning fork",
+    "Vibration sensation with a 512-Hz tuning fork",
+    "Routine nerve biopsy"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Assessment: history, symptoms with DN4/Toronto, autonomic signs, then temperature, pinprick and vibration with a 128-Hz tuning fork.",
+   "notes": [
+    "Listed.",
+    "Listed; shown on p52.",
+    "The slide specifies 128 Hz.",
+    "Not part of the assessment shown."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/50.jpg",
+     "lec": "Diabetes semiology",
+     "n": 50
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/52.jpg",
+     "lec": "Diabetes semiology",
+     "n": 52
+    }
+   ]
+  },
+  {
+   "q": "Signs of autonomic neuropathy sought on the feet during neuropathy assessment include:",
+   "options": [
+    "Skin dryness",
+    "Hyperkeratosis",
+    "Loss of sweating",
+    "Absent foot pulses"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Autonomic neuropathy signs++: skin dryness, hyperkeratosis, loss of sweating.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Loss of pulses is a sign of PAD."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/50.jpg",
+     "lec": "Diabetes semiology",
+     "n": 50
+    }
+   ]
+  },
+  {
+   "q": "The monofilament test in diabetic neuropathy:",
+   "options": [
+    "Uses a 10 g monofilament",
+    "Is applied to plantar sites such as the big toe and metatarsal heads",
+    "Assesses deep (proprioceptive) sensation",
+    "Is applied to the dorsum of the foot"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The 10 g monofilament is applied to the sole (hallux, metatarsal heads) and tests superficial sensation.",
+   "notes": [
+    "10 g on the slide.",
+    "Sites shown on the plantar diagram.",
+    "Monofilament tests superficial sensation (p57).",
+    "Diagram shows plantar sites."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/51.jpg",
+     "lec": "Diabetes semiology",
+     "n": 51
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/57.jpg",
+     "lec": "Diabetes semiology",
+     "n": 57
+    }
+   ]
+  },
+  {
+   "q": "About the DN4 questionnaire:",
+   "options": [
+    "A total score of 4/10 is the cut-off for neuropathic pain",
+    "It asks about burning, painful cold and electric shocks",
+    "It includes examination items: hypoaesthesia to touch and prick, and pain caused by brushing",
+    "Its maximum score is 19"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "DN4: 10 items (7 interview, 3 examination); cut-off for neuropathic pain is 4/10.",
+   "notes": [
+    "Cut-off stated on the form.",
+    "Question 1 items.",
+    "Questions 3 and 4.",
+    "19 is the maximum of the Toronto score."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/53.jpg",
+     "lec": "Diabetes semiology",
+     "n": 53
+    }
+   ]
+  },
+  {
+   "q": "In the Toronto clinical neuropathy score:",
+   "options": [
+    "An absent reflex scores 2",
+    "A total of 9 indicates moderate neuropathy",
+    "A total of 6 indicates no neuropathy",
+    "Sensory testing is performed on the heel"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Reflex absent = 2, reduced = 1; total 0-19; <= 5 none, 6-8 mild, 9-11 moderate, >= 12 severe; sensory testing on the first toe.",
+   "notes": [
+    "Stated.",
+    "9-11 = moderate.",
+    "6-8 = mild neuropathy.",
+    "Performed on the first toe."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/54.jpg",
+     "lec": "Diabetes semiology",
+     "n": 54
+    }
+   ]
+  },
+  {
+   "q": "Foot-care advice for patients with diabetic neuropathy includes:",
+   "options": [
+    "Clean feet daily and use moisturising lotions",
+    "Perform daily foot self-examination, using a mirror if needed",
+    "Check shoes for tears and sharp edges",
+    "Inspect for redness, cuts, swelling and blisters",
+    "Walk barefoot to improve foot sensation"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Active prevention: daily cleaning and moisturiser, daily self-exam with a mirror, check shoes, inspect for redness, cuts, swelling, blisters.",
+   "notes": [
+    "Shown on the slide.",
+    "Shown on the slide.",
+    "Shown on the slide.",
+    "Shown on the slide.",
+    "Not advised; contradicts protecting insensate feet."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/55.jpg",
+     "lec": "Diabetes semiology",
+     "n": 55
+    }
+   ]
+  },
+  {
+   "q": "Characteristics of the neuropathic foot include:",
+   "options": [
+    "Hot feet",
+    "Dry skin with hyperkeratosis",
+    "Hammer or claw toe deformities",
+    "Cold, pale foot with absent pulses"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Neuropathic feet: hot, dry skin with hyperkeratosis, superficial and deep sensory disorders, deformities (hammer, claw toes).",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "These are signs of PAD (p68)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/57.jpg",
+     "lec": "Diabetes semiology",
+     "n": 57
+    }
+   ]
+  },
+  {
+   "q": "In the neuropathic foot, deep (proprioceptive) sensation disorders are assessed by:",
+   "options": [
+    "Reflexes and tuning fork",
+    "10 g monofilament",
+    "Ankle-brachial index",
+    "Arterial Doppler"
+   ],
+   "answer": 0,
+   "why": "Deep (proprioceptive) sensation: reflexes, tuning fork; monofilament tests superficial sensation.",
+   "notes": [
+    "Listed on p57; reflexes pictured p56.",
+    "Superficial sensation test.",
+    "PAD test.",
+    "PAD test."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/57.jpg",
+     "lec": "Diabetes semiology",
+     "n": 57
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/56.jpg",
+     "lec": "Diabetes semiology",
+     "n": 56
+    }
+   ]
+  },
+  {
+   "q": "Charcot arthropathy:",
+   "options": [
+    "Occurs with severe neuropathy and long-standing diabetes",
+    "Is initiated by an injury causing a bone fracture",
+    "Leads to gross deformity with a cubic foot",
+    "Is caused by arterial occlusion with dry gangrene"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Charcot: severe neuropathy, long-standing diabetes, initiating injury with fracture, gross deformity, cubic foot, acute Charcot foot.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Not the mechanism on the slide."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/58.jpg",
+     "lec": "Diabetes semiology",
+     "n": 58
+    }
+   ]
+  },
+  {
+   "q": "Regarding diabetic foot wounds and gangrene:",
+   "options": [
+    "Neuropathic foot wounds may go undetected, get infected and lead to gangrene",
+    "In peripheral vascular disease, foot wounds heal slowly, contributing to gangrene",
+    "Foot ulcers are typically very painful, so they are noticed early",
+    "Gangrene is classed only as a microvascular complication"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Neuropathy lets wounds go unnoticed and get infected; PVD slows healing; gangrene appears in the macroangiopathy section.",
+   "notes": [
+    "Neuropathy panel, p78.",
+    "Extremities panel, p78.",
+    "Neuropathy makes them painless and undetected.",
+    "Gangrene is shown under macroangiopathy (p75, p41)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/78.jpg",
+     "lec": "Diabetes semiology",
+     "n": 78
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/59.jpg",
+     "lec": "Diabetes semiology",
+     "n": 59
+    }
+   ]
+  },
+  {
+   "q": "In cardiac autonomic neuropathy, per the slides:",
+   "options": [
+    "Orthostatic hypotension is sought by measuring BP supine and after 3 minutes standing",
+    "Orthostatic hypotension is a fall of 30 mmHg systolic and/or 10 mmHg at 3 minutes",
+    "Permanent tachycardia and cardiac denervation can cause silent myocardial ischaemia",
+    "BP is measured after 10 minutes sitting"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "BP supine then after 3 min of orthostatism: loss of 30 mmHg SBP and/or 10 mmHg; permanent tachycardia, denervation, silent ischaemia.",
+   "notes": [
+    "Method on the slide.",
+    "Per the lecture slides; most guidelines use >= 20 mmHg systolic or >= 10 diastolic.",
+    "Stated on the slide.",
+    "Not the method described."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/60.jpg",
+     "lec": "Diabetes semiology",
+     "n": 60
+    }
+   ]
+  },
+  {
+   "q": "In the clinical presentation of diabetic nephropathy:",
+   "options": [
+    "The history covers type and duration of diabetes, urinary tract infection and glycaemic balance",
+    "The disease is often asymptomatic",
+    "Examination looks for oedema, hypertension and urine strip findings",
+    "Haematuria with flank pain is the typical presentation"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "History: type and history of diabetes, UTI, glycaemic balance. Exam: asymptomatic disease, oedema, HTN, urine strip.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Not on the slide."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/61.jpg",
+     "lec": "Diabetes semiology",
+     "n": 61
+    }
+   ]
+  },
+  {
+   "q": "The laboratory assessment of diabetic nephropathy includes:",
+   "options": [
+    "Conventional 24-hour urine collection",
+    "Albumin-to-creatinine ratio (ACR) on an early morning spot urine",
+    "ACR measured in blood",
+    "Renal angiography"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Assessment: 24-h urine, ACR on early morning spot urine (a urine test), serum creatinine and GFR (eGFR is a blood test).",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "ACR is a urine test (p65).",
+    "Not part of the assessment."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/62.jpg",
+     "lec": "Diabetes semiology",
+     "n": 62
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/65.jpg",
+     "lec": "Diabetes semiology",
+     "n": 65
+    }
+   ]
+  },
+  {
+   "q": "KDIGO 2012 GFR categories (mL/min/1.73 m2):",
+   "options": [
+    "G1: normal or high, >= 90",
+    "G3a: mildly to moderately decreased, 45-59",
+    "G4: severely decreased, 15-29",
+    "G5: kidney failure, < 30"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "G1 >= 90, G2 60-89, G3a 45-59, G3b 30-44, G4 15-29, G5 < 15.",
+   "notes": [
+    "From the table.",
+    "From the table.",
+    "From the table.",
+    "G5 is < 15."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/66.jpg",
+     "lec": "Diabetes semiology",
+     "n": 66
+    }
+   ]
+  },
+  {
+   "q": "A diabetic with an ACR of 150 mg/g (AER around 150 mg/24 h) is classified as:",
+   "options": [
+    "A2, moderately increased albuminuria",
+    "A1, normal to mildly increased",
+    "A3, severely increased",
+    "Nephrotic-range albuminuria"
+   ],
+   "answer": 0,
+   "why": "A1 ACR < 30 mg/g; A2 30-300 mg/g; A3 > 300 mg/g; nephrotic syndrome usually > 2200 mg/24 h.",
+   "notes": [
+    "30-300 mg/g = A2.",
+    "A1 is < 30 mg/g.",
+    "A3 is > 300 mg/g.",
+    "Nephrotic range is > 2200 mg/24 h."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/66.jpg",
+     "lec": "Diabetes semiology",
+     "n": 66
+    }
+   ]
+  },
+  {
+   "q": "Symptoms of diabetic nephropathy shown on the infographic include:",
+   "options": [
+    "Protein in the urine",
+    "Swelling of ankles, hands, feet or eyes",
+    "Persistent itching",
+    "Increased appetite with weight gain"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Listed symptoms: worsening BP regulation, proteinuria, swelling, increased urge to urinate, dyspnoea, loss of appetite, nausea, itching, exhaustion.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Loss of appetite is listed instead."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/63.jpg",
+     "lec": "Diabetes semiology",
+     "n": 63
+    }
+   ]
+  },
+  {
+   "q": "Glomerular changes of diabetic kidney disease shown on the physiopathology figure include:",
+   "options": [
+    "Basement membrane thickening",
+    "Arteriole hyalinosis",
+    "Reduced mesangial matrix",
+    "Podocyte proliferation with increased slit diaphragms"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Figure b shows basement membrane thickening, arteriole hyalinosis, mesangial matrix deposition, podocytopathy (loss, effacement, fewer slit diaphragms), albuminuria.",
+   "notes": [
+    "Labelled on the figure.",
+    "Labelled on the figure.",
+    "Mesangial matrix deposition is shown.",
+    "Podocyte loss and fewer slit diaphragms."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/64.jpg",
+     "lec": "Diabetes semiology",
+     "n": 64
+    }
+   ]
+  },
+  {
+   "q": "The foot pulses demonstrated on the peripheral artery disease slide are:",
+   "options": [
+    "Dorsal pedal pulse",
+    "Posterior tibial pulse",
+    "Femoral pulse",
+    "Radial pulse"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The PAD slide shows palpation of the dorsalis pedis and posterior tibial pulses.",
+   "notes": [
+    "Shown.",
+    "Shown.",
+    "Not shown on the slide.",
+    "Not a lower-limb pulse."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/67.jpg",
+     "lec": "Diabetes semiology",
+     "n": 67
+    }
+   ]
+  },
+  {
+   "q": "Clinical signs of peripheral artery disease include:",
+   "options": [
+    "Loss of pulses",
+    "Presence of a bruit",
+    "Brittle, slow-growing toenails",
+    "Hot feet with bounding pulses"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "PAD exam: loss of pulses, pain on palpation, pallor, muscle atrophy and hair loss, cool cyanotic skin, bruit, brittle slow-growing nails.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Hot feet suggest neuropathy; PAD gives cool skin."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/68.jpg",
+     "lec": "Diabetes semiology",
+     "n": 68
+    }
+   ]
+  },
+  {
+   "q": "The paraclinical work-up of peripheral artery disease includes:",
+   "options": [
+    "Ankle-brachial index (ABI)",
+    "Arterial Doppler of the lower limbs",
+    "CT angiography systematically in every patient",
+    "128-Hz tuning fork"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "ABI, arterial Doppler; CT angiography/MRA only if candidate for angioplasty or bypass. ABI measurement is pictured on p76.",
+   "notes": [
+    "Listed; shown on p76.",
+    "Listed.",
+    "Only if angioplasty or bypass is considered.",
+    "Neuropathy tool."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/68.jpg",
+     "lec": "Diabetes semiology",
+     "n": 68
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/76.jpg",
+     "lec": "Diabetes semiology",
+     "n": 76
+    }
+   ]
+  },
+  {
+   "q": "On the 'Type 2 diabetes and PAD' poster, warning signs include:",
+   "options": [
+    "Leg pain that does not go away after exercising",
+    "Foot or toe wounds that heal slowly or not at all",
+    "Poor toenail growth or hair loss on the legs",
+    "Lower temperature in the lower leg or foot than the rest of the body"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "The poster lists all four as reasons to see a doctor; PAD is a narrowing of arteries, usually of the legs.",
+   "notes": [
+    "On the poster.",
+    "On the poster.",
+    "On the poster.",
+    "On the poster."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/69.jpg",
+     "lec": "Diabetes semiology",
+     "n": 69
+    }
+   ]
+  },
+  {
+   "q": "Circumstances of discovery of diabetic coronary artery disease include:",
+   "options": [
+    "Acute complications of diabetes or glycaemic imbalance",
+    "Palpitations or lipothymia",
+    "Typical chest pain as the most common presentation",
+    "Isolated proteinuria"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "CoD: atypical pain (epigastric ache, exertional dyspnoea, palpitations, lipothymia), typical pain (uncommon), SMI, acute complications/imbalance, heart failure.",
+   "notes": [
+    "Listed.",
+    "Listed as atypical presentation.",
+    "Typical chest pain is uncommon.",
+    "Circumstance of nephropathy, not CAD."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/71.jpg",
+     "lec": "Diabetes semiology",
+     "n": 71
+    }
+   ]
+  },
+  {
+   "q": "In suspected diabetic coronary artery disease:",
+   "options": [
+    "Examination should rule out other causes of chest pain",
+    "Cardiac and vascular auscultation is performed",
+    "Troponin assay looks for myocardial necrosis",
+    "The ankle-brachial index is the key diagnostic test"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Clinical: rule out other chest pain causes, cardiac and vascular auscultation. Paraclinical: ECG, troponin (necrosis), coronary angiography.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "ABI is for PAD."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/74.jpg",
+     "lec": "Diabetes semiology",
+     "n": 74
+    }
+   ]
+  },
+  {
+   "q": "On the coronary artery disease figure:",
+   "options": [
+    "Four stages are shown, from healthy artery to near complete blockage",
+    "Initial fatty deposits are shown before plaque that obstructs blood flow",
+    "The most advanced stage shown is near complete blockage",
+    "The most advanced stage shown is complete occlusion by a thrombus",
+    "The healthy artery already shows fatty deposits in its wall"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Stages pictured in order: healthy artery, initial fatty deposits, plaque obstructs blood flow, near complete blockage.",
+   "notes": [
+    "Four labelled stages.",
+    "Fatty deposits come second, obstructing plaque third.",
+    "Last stage pictured.",
+    "No complete occlusion or thrombus is shown.",
+    "The healthy artery has no deposits."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/70.jpg",
+     "lec": "Diabetes semiology",
+     "n": 70
+    }
+   ]
+  },
+  {
+   "q": "The assessment after a stroke in a diabetic includes:",
+   "options": [
+    "Carotid Doppler ultrasonography",
+    "CT scan",
+    "ECG and echocardiography or cardiac stress test",
+    "Lumbar puncture"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Assessment: ECG, echocardiography/stress test, coronary angiogram, carotid Doppler, CT scan.",
+   "notes": [
+    "Listed.",
+    "Listed.",
+    "Listed.",
+    "Not listed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/77.jpg",
+     "lec": "Diabetes semiology",
+     "n": 77
+    }
+   ]
+  },
+  {
+   "q": "According to the lecture conclusion:",
+   "options": [
+    "Severity of diabetes depends on its acute and chronic complications",
+    "Type 2 diabetes has no inaugural ketoacidosis",
+    "Type 1 diabetes occurs typically with overweight and cardiovascular risk factors",
+    "Diagnosis relies on symptoms alone, without specific criteria"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Conclusion: diagnosis based on specific criteria; T1 sudden, young, no overweight or CV risk; T2 older, no inaugural ketoacidosis; severity = complications.",
+   "notes": [
+    "Stated.",
+    "Stated.",
+    "T1 is without overweight or CV risk factors.",
+    "Diagnosis is based on specific criteria."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/79.jpg",
+     "lec": "Diabetes semiology",
+     "n": 79
+    }
+   ]
   }
  ],
  "cards": [

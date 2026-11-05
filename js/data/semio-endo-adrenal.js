@@ -1454,6 +1454,911 @@ SINA.lectures["semio-endo-adrenal"] = {
      "n": 79
     }
    ]
+  },
+  {
+   "q": "About the zonation of the adrenal gland:",
+   "options": [
+    "The cortex makes up 80-90% of the gland",
+    "The zona glomerulosa secretes aldosterone",
+    "The zona reticularis secretes cortisol",
+    "The medulla makes up 40-50% of the gland"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The zonation diagram shows a cortex of 80-90% (glomerulosa -> aldosterone, fasciculata -> cortisol, reticularis -> weak androgens) and a medulla of 10-20%.",
+   "notes": [
+    "Correct: cortex 80-90%.",
+    "Correct: zona glomerulosa -> aldosterone.",
+    "Wrong: reticularis makes weak androgens; cortisol comes from the fasciculata.",
+    "Wrong: the medulla is only 10-20%."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p05.jpg",
+     "lec": "Adrenal semiology",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "The adrenal medulla:",
+   "options": [
+    "Is made of chromaffin cells",
+    "Secretes catecholamines",
+    "Secretes about 80% epinephrine and 20% norepinephrine",
+    "Secretes weak androgens"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Per the diagram, the medulla (10-20%) contains chromaffin cells secreting catecholamines: epinephrine 80%, norepinephrine 20%.",
+   "notes": [
+    "Correct: chromaffin cells.",
+    "Correct: catecholamines.",
+    "Correct: epinephrine 80%, norepinephrine 20%.",
+    "Wrong: weak androgens come from the zona reticularis of the cortex."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p05.jpg",
+     "lec": "Adrenal semiology",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "The zona fasciculata:",
+   "options": [
+    "Secretes cortisol",
+    "Secretes aldosterone",
+    "Is part of the adrenal medulla",
+    "Secretes catecholamines"
+   ],
+   "answer": 0,
+   "why": "The zonation diagram shows zona fasciculata -> cortisol, a steroid hormone of the cortex.",
+   "notes": [
+    "Correct: fasciculata -> cortisol.",
+    "Wrong: aldosterone comes from the zona glomerulosa.",
+    "Wrong: it is a zone of the cortex.",
+    "Wrong: catecholamines come from the medulla."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p05.jpg",
+     "lec": "Adrenal semiology",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "Secretions of the adrenal cortex listed in the steroidogenesis reminder:",
+   "options": [
+    "Glucocorticoids: cortisol and deoxycortisol",
+    "Mineralocorticoids: aldosterone and corticosterone",
+    "Catecholamines from the zona reticularis",
+    "Norepinephrine from the zona glomerulosa"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The cortex produces 3 types of secretions: glucocorticoids (cortisol, deoxycortisol), mineralocorticoids (aldosterone, corticosterone) and androgens.",
+   "notes": [
+    "Correct: as listed on the slide.",
+    "Correct: as listed on the slide (per the slides; textbooks note corticosterone also has glucocorticoid activity).",
+    "Wrong: catecholamines are medullary; the third cortical type is androgens.",
+    "Wrong: norepinephrine is a medullary catecholamine."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p06.jpg",
+     "lec": "Adrenal semiology",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "On the steroidogenesis diagram:",
+   "options": [
+    "All three cortical zones start from cholesterol",
+    "Side-chain cleavage (CYP11A1) turns cholesterol into pregnenolone",
+    "11-hydroxylase (CYP11B1) turns 11-deoxycortisol into cortisol",
+    "Aldosterone is synthesised in the zona reticularis"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Each zone starts from cholesterol -> pregnenolone (CYP11A1); in the fasciculata, 11-deoxycortisol -> cortisol via CYP11B1; aldosterone is made in the glomerulosa.",
+   "notes": [
+    "Correct: cholesterol is the start in each zone.",
+    "Correct: CYP11A1 side-chain cleavage.",
+    "Correct: last step of cortisol synthesis.",
+    "Wrong: aldosterone is made in the zona glomerulosa."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p07.jpg",
+     "lec": "Adrenal semiology",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "Aldosterone synthesis in the zona glomerulosa, per the diagram:",
+   "options": [
+    "Progesterone is converted to 11-deoxycorticosterone by 21-hydroxylase",
+    "The last step is the 18-oxidase (CYP11B2)",
+    "The pathway passes through 17(OH)-progesterone",
+    "The pathway ends in 11-deoxycortisol"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "In the glomerulosa: progesterone -> DOC (21-hydroxylase) -> corticosterone -> 18(OH)-corticosterone -> aldosterone (18-oxidase, CYP11B2).",
+   "notes": [
+    "Correct: 21-hydroxylase gives DOC.",
+    "Correct: 18-oxidase gives aldosterone.",
+    "Wrong: 17(OH)-progesterone belongs to the fasciculata (cortisol) pathway.",
+    "Wrong: 11-deoxycortisol is the cortisol precursor in the fasciculata."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p07.jpg",
+     "lec": "Adrenal semiology",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "In the zona reticularis, per the steroidogenesis diagram:",
+   "options": [
+    "17,20-lyase (CYP17) turns 17(OH)-pregnenolone into DHEA",
+    "Sulfotransferase (SULT2A1) turns DHEA into DHEAS",
+    "3beta-HSD has very low activity",
+    "DHEA can be converted to androstenedione"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "The reticularis path: 17(OH)-pregnenolone -> DHEA (17,20-lyase) -> DHEAS (SULT2A1); DHEA -> androstenedione via 3beta-HSD, which has very low activity in this zone.",
+   "notes": [
+    "Correct: shown on the diagram.",
+    "Correct: shown on the diagram.",
+    "Correct: 'very low activity in this zone'.",
+    "Correct: DHEA -> androstenedione (delta5 to delta4)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p07.jpg",
+     "lec": "Adrenal semiology",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "Regulation of cortisol secretion, per the diagram:",
+   "options": [
+    "Hypothalamic CRH stimulates pituitary ACTH",
+    "Cortisol exerts negative feedback on the hypothalamus and pituitary",
+    "ACTH inhibits cortisol secretion",
+    "Hypoglycaemia inhibits the axis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Hypothalamus -> CRH -> pituitary -> ACTH -> adrenals -> cortisol, with negative feedback of cortisol; stressors such as hypoglycaemia stimulate the hypothalamus.",
+   "notes": [
+    "Correct: CRH drives ACTH.",
+    "Correct: two negative feedback loops shown.",
+    "Wrong: ACTH stimulates the adrenals.",
+    "Wrong: hypoglycaemia is a stressor that stimulates the axis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p08.jpg",
+     "lec": "Adrenal semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Effects of cortisol shown on the regulation diagram:",
+   "options": [
+    "Increased gluconeogenesis",
+    "Increased lipolysis",
+    "Increased cardiac output",
+    "Decreased proteolysis"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Metabolism: up gluconeogenesis, glycogenolysis, proteolysis, lipolysis; cardiovascular: up myocardial contractility, cardiac output and catecholamine pressor effect.",
+   "notes": [
+    "Correct: listed under metabolism.",
+    "Correct: listed under metabolism.",
+    "Correct: listed under cardiovascular system.",
+    "Wrong: proteolysis is increased."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p08.jpg",
+     "lec": "Adrenal semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "On the aldosterone regulation diagram, renin secretion is inhibited by:",
+   "options": [
+    "ANP",
+    "Dopamine",
+    "Increased beta-adrenergic action",
+    "Decreased renal arterial pressure"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Renin is stimulated by low renal arterial pressure, beta-adrenergic action and prostaglandins, and inhibited by ANP and dopamine.",
+   "notes": [
+    "Correct: ANP inhibits renin.",
+    "Correct: dopamine inhibits renin.",
+    "Wrong: beta-adrenergic action stimulates renin.",
+    "Wrong: low renal arterial pressure stimulates renin."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p08.jpg",
+     "lec": "Adrenal semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "About the renin-angiotensin-aldosterone system on the diagram:",
+   "options": [
+    "Angiotensinogen comes from the liver",
+    "Angiotensin I becomes angiotensin II in the lungs",
+    "Angiotensin II stimulates aldosterone secretion",
+    "Aldosterone increases Na+ and water retention"
+   ],
+   "answers": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "why": "Liver angiotensinogen -> (renin) angiotensin I -> (lungs) angiotensin II -> adrenal aldosterone -> Na+ and water retention, K+ excretion, raised ECF volume and renal arterial pressure.",
+   "notes": [
+    "Correct: liver makes angiotensinogen.",
+    "Correct: conversion shown in the lungs.",
+    "Correct: angiotensin II acts on the adrenals.",
+    "Correct: Na+ (+ water) retention."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p08.jpg",
+     "lec": "Adrenal semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Physiological effects of corticosteroids:",
+   "options": [
+    "Adrenal androgens have a minor role compared with gonadal sex hormones",
+    "Adrenal androgens are the main source of sex hormones",
+    "Glucocorticoids have no effect on growth",
+    "Glucocorticoids act only on carbohydrate metabolism"
+   ],
+   "answer": 0,
+   "why": "Glucocorticoids: metabolic actions (carbohydrate, protein, lipid, hydro-electrolytic), neurologic and muscular effects, growth; adrenal androgens: minor role compared with gonadal sex hormones.",
+   "notes": [
+    "Correct: as stated on the slide.",
+    "Wrong: their role is minor.",
+    "Wrong: growth is one of the listed effects.",
+    "Wrong: also protein, lipid and hydro-electrolytic metabolism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p09.jpg",
+     "lec": "Adrenal semiology",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "Mineralocorticoids:",
+   "options": [
+    "Act mainly on water and electrolyte metabolism",
+    "Take part in acid-base balance",
+    "Cause Na+ excretion and K+ retention",
+    "Have a minor role compared with gonadal hormones"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Mineralocorticoids act on water and electrolyte metabolism (+++): Na+ reabsorption, K+ excretion and acid-base balance.",
+   "notes": [
+    "Correct: their main action.",
+    "Correct: listed on the slide.",
+    "Wrong: reverse - Na+ reabsorption and K+ excretion.",
+    "Wrong: that describes adrenal androgens."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p09.jpg",
+     "lec": "Adrenal semiology",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "Clinical examination of the adrenal glands:",
+   "options": [
+    "Normal adrenals are not accessible to clinical examination",
+    "A very large tumour may become accessible",
+    "It searches for signs of hormonal hypo- or hypersecretion",
+    "Normal adrenals are palpated by bimanual flank palpation"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "In the physiological state the adrenals are not accessible to examination, unless the tumour is very large; the exam looks for signs of hormonal hypo- or hypersecretion.",
+   "notes": [
+    "Correct: as stated.",
+    "Correct: 'unless the tumor is so large'.",
+    "Correct: the aim of the examination.",
+    "Wrong: normal adrenals cannot be examined."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p10.jpg",
+     "lec": "Adrenal semiology",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "On adrenal CT/MRI, adrenal hyperplasia appears as:",
+   "options": [
+    "A homogeneous increase in volume with preserved morphology",
+    "A small retracted gland",
+    "Adrenal calcifications",
+    "A unilateral heterogeneous mass with loss of shape"
+   ],
+   "answer": 0,
+   "why": "CT/MRI: hyperplasia = homogeneous increase in volume with preserved morphology.",
+   "notes": [
+    "Correct: definition on the slide.",
+    "Wrong: that is atrophy (e.g. autoimmune AI).",
+    "Wrong: calcifications suggest tuberculosis.",
+    "Wrong: morphology is preserved in hyperplasia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p11.jpg",
+     "lec": "Adrenal semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Adrenal CT scan/MRI:",
+   "options": [
+    "Is the examination of choice for adrenal exploration",
+    "Shows normal adrenals with an inverted Y shape",
+    "Cannot visualise normal adrenals",
+    "Cannot detect adrenal atrophy"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "CT/MRI is the examination of choice: it visualises normal adrenals (inverted Y) and pathological states (tumours, hyperplasia, atrophy).",
+   "notes": [
+    "Correct: examination of choice.",
+    "Correct: inverted-Y shape.",
+    "Wrong: that is ultrasound.",
+    "Wrong: atrophy is one of the pathological situations shown."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p11.jpg",
+     "lec": "Adrenal semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Adrenal scintigraphy:",
+   "options": [
+    "Uses a radioactive marker taken up by the adrenals",
+    "Shows hyperplasia as bilateral or unilateral homogeneous fixation",
+    "Can reveal a tumour or metastasis",
+    "Is the examination of choice for adrenal exploration"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Scintigraphy injects a radioactive marker with adrenal uptake: normal fixation, hyperplasia (increased volume, bilateral or unilateral homogeneous fixation), tumour or metastasis.",
+   "notes": [
+    "Correct: principle of the test.",
+    "Correct: as stated for hyperplasia.",
+    "Correct: listed on the slide.",
+    "Wrong: CT/MRI is the examination of choice."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p12.jpg",
+     "lec": "Adrenal semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Regarding ultrasound and urinary tree X-ray of the adrenals:",
+   "options": [
+    "Ultrasound visualises normal adrenals well",
+    "Ultrasound detects tumours larger than 5 cm",
+    "Urinary tree X-ray studies the adrenal area for calcifications",
+    "Ultrasound has very good resolution"
+   ],
+   "answers": [
+    1,
+    2
+   ],
+   "why": "Ultrasound has bad resolution, does not visualise normal adrenals and detects tumours >5 cm; X-ray of the urinary tree studies the adrenal area (calcifications).",
+   "notes": [
+    "Wrong: it does not visualise normal adrenals.",
+    "Correct: tumours >5 cm.",
+    "Correct: looks for calcifications.",
+    "Wrong: resolution is bad."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p13.jpg",
+     "lec": "Adrenal semiology",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "Features labelled on the Cushing syndrome drawing include:",
+   "options": [
+    "Thinning of hair",
+    "Acne",
+    "Increased body and facial hair",
+    "Thick skin and subcutaneous tissue"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The drawing labels thinning of hair, acne, moon face, red cheeks, increased body and facial hair, buffalo hump, thin skin and subcutaneous tissue, easy bruising and slow wound healing.",
+   "notes": [
+    "Correct: labelled.",
+    "Correct: labelled.",
+    "Correct: labelled.",
+    "Wrong: the skin and subcutaneous tissue are thin."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p20.jpg",
+     "lec": "Adrenal semiology",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "The face of the child photographed in the Cushing section shows:",
+   "options": [
+    "A round moon face",
+    "Red cheeks",
+    "Pigmented gums and pale skin",
+    "A thin face with temporal wasting"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The photo shows a round, full face with red cheeks, matching 'moon face' and 'red cheeks' on the labelled drawing.",
+   "notes": [
+    "Correct: round, full face.",
+    "Correct: facial redness.",
+    "Wrong: mucosal pigmentation is a sign of primary adrenal insufficiency.",
+    "Wrong: the face is full, not wasted."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p27.jpg",
+     "lec": "Adrenal semiology",
+     "n": 27
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p20.jpg",
+     "lec": "Adrenal semiology",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "Images in the Cushing aetiology section show:",
+   "options": [
+    "A pituitary adenoma on MRI (pituitary, ACTH-dependent origin)",
+    "An adrenal adenoma on CT with its resected yellow specimen",
+    "Bilateral adrenal calcifications of tuberculosis",
+    "A paraganglioma of the bladder wall"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "After the aetiologies slide (pituitary adenoma vs adrenal adenoma), the lecture shows a pituitary MRI with a sellar adenoma and an adrenal CT with the resected yellow adenoma.",
+   "notes": [
+    "Correct: sellar mass on sagittal and coronal MRI.",
+    "Correct: adrenal nodule and surgical specimen.",
+    "Wrong: calcified adrenals are shown in the AI section.",
+    "Wrong: paragangliomas belong to the phaeochromocytoma section."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p34.jpg",
+     "lec": "Adrenal semiology",
+     "n": 34
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p35.jpg",
+     "lec": "Adrenal semiology",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "According to the clinical examination slide, the hyperpigmentation of primary adrenal insufficiency:",
+   "options": [
+    "Is a fundamental element of the diagnosis",
+    "Predominates in sun-exposed areas",
+    "Involves palmar creases, nipples and areolae",
+    "Is the key sign of secondary adrenal insufficiency"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Hyperpigmentation is a fundamental element of diagnosis, seen in non-naturally pigmented patients, mainly in sun-exposed areas, with palmar creases, nail beds, nipples, areolae and mucosa involved.",
+   "notes": [
+    "Correct: stated on the slide.",
+    "Correct: sun-exposed areas predominate.",
+    "Correct: listed sites.",
+    "Wrong: secondary AI has no hyperpigmentation (pale skin)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p42.jpg",
+     "lec": "Adrenal semiology",
+     "n": 42
+    }
+   ]
+  },
+  {
+   "q": "The photographs of primary adrenal insufficiency show pigmentation of:",
+   "options": [
+    "The tongue and buccal mucosa",
+    "The nail beds of the toes",
+    "The whites of the eyes",
+    "Only the old scars"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The photos show pigmented tongue and buccal mucosa and pigmented toenail beds, matching the slide: buccal mucosa, gums and nail beds.",
+   "notes": [
+    "Correct: buccal mucosa and tongue photo.",
+    "Correct: toenail beds photo.",
+    "Wrong: not shown or listed.",
+    "Wrong: new scars pigment, old scars do not."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p45.jpg",
+     "lec": "Adrenal semiology",
+     "n": 45
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p46.jpg",
+     "lec": "Adrenal semiology",
+     "n": 46
+    }
+   ]
+  },
+  {
+   "q": "Autoimmune Addison's disease is marked by:",
+   "options": [
+    "Anti-21-hydroxylase antibodies",
+    "Adrenal calcifications on imaging",
+    "Anti-thyroperoxidase antibodies",
+    "Homogeneously enlarged adrenals"
+   ],
+   "answer": 0,
+   "why": "Primary AI aetiologies: Addison's disease - anti-21-hydroxylase antibodies; adrenal tuberculosis - calcifications on imaging.",
+   "notes": [
+    "Correct: the listed marker.",
+    "Wrong: calcifications point to adrenal tuberculosis.",
+    "Wrong: thyroid antibody, not listed.",
+    "Wrong: autoimmune adrenals are small (cortical retraction)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p52.jpg",
+     "lec": "Adrenal semiology",
+     "n": 52
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p53.jpg",
+     "lec": "Adrenal semiology",
+     "n": 53
+    }
+   ]
+  },
+  {
+   "q": "On CT, autoimmune adrenal insufficiency shows:",
+   "options": [
+    "A small adrenal with cortical retraction",
+    "Bilateral adrenal calcifications",
+    "A large heterogeneous adrenal mass",
+    "Homogeneous enlargement with preserved shape"
+   ],
+   "answer": 0,
+   "why": "CT in AI assesses adrenal structure and size and tumoral aetiology; the example shows autoimmune involvement: small left adrenal (cortical retraction).",
+   "notes": [
+    "Correct: caption of the CT image.",
+    "Wrong: calcifications suggest tuberculosis.",
+    "Wrong: suggests a tumoral cause.",
+    "Wrong: that describes hyperplasia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p53.jpg",
+     "lec": "Adrenal semiology",
+     "n": 53
+    }
+   ]
+  },
+  {
+   "q": "Aldosterone-producing adenoma:",
+   "options": [
+    "Is a benign tumour of the adrenal cortex",
+    "Produces excessive aldosterone",
+    "Presents with systolo-diastolic hypertension and hypokalaemia",
+    "Is a tumour of the adrenal medulla"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "It is a benign adenoma of the adrenal cortex producing excessive aldosterone; clinically, systolo-diastolic hypertension with hypokalaemia.",
+   "notes": [
+    "Correct: benign cortical adenoma.",
+    "Correct: aldosterone excess.",
+    "Correct: key clinical picture.",
+    "Wrong: medullary tumour = phaeochromocytoma."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p66.jpg",
+     "lec": "Adrenal semiology",
+     "n": 66
+    }
+   ]
+  },
+  {
+   "q": "Manifestations of hypokalaemia in aldosterone-producing adenoma:",
+   "options": [
+    "Fatigue and muscle cramps",
+    "Polyuria and polydipsia",
+    "Pseudo-paralysis",
+    "Purple striae"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Hypokalaemia causes fatigue and muscle cramps, polyuria and polydipsia, paresthesia and pseudo-paralysis.",
+   "notes": [
+    "Correct: listed.",
+    "Correct: listed.",
+    "Correct: listed.",
+    "Wrong: purple striae are a sign of Cushing syndrome."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p67.jpg",
+     "lec": "Adrenal semiology",
+     "n": 67
+    }
+   ]
+  },
+  {
+   "q": "The hormonal pattern of aldosterone-producing adenoma on the slides:",
+   "options": [
+    "High aldosterone, low renin, ratio above 64",
+    "High aldosterone, high renin",
+    "Low aldosterone, low renin",
+    "Normal ratio below 64 with high renin"
+   ],
+   "answer": 0,
+   "why": "Normal aldosterone/renin ratio is <64; in adenoma, aldosterone is high and renin low with a ratio >64.",
+   "notes": [
+    "Correct: per the slide (units not given; cut-offs vary with assay units in textbooks).",
+    "Wrong: renin is suppressed.",
+    "Wrong: aldosterone is high.",
+    "Wrong: <64 is the normal ratio."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p68.jpg",
+     "lec": "Adrenal semiology",
+     "n": 68
+    }
+   ]
+  },
+  {
+   "q": "Conditions for measuring the aldosterone/renin ratio:",
+   "options": [
+    "Normo-sodium diet",
+    "Stopping antihypertensives that interfere with the renin-angiotensin system",
+    "Fasting morning sample",
+    "Salt-free diet for several days"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Conditions: normal sodium diet, discontinuation of anti-HTA drugs interfering with the renin-angiotensin system, fasting morning sample.",
+   "notes": [
+    "Correct: listed condition.",
+    "Correct: listed condition.",
+    "Correct: listed condition.",
+    "Wrong: the diet must be normo-sodium."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p68.jpg",
+     "lec": "Adrenal semiology",
+     "n": 68
+    }
+   ]
+  },
+  {
+   "q": "On noriodocholesterol scintigraphy, an aldosterone-producing adenoma gives:",
+   "options": [
+    "Unilateral hyperfixation",
+    "Bilateral homogeneous fixation",
+    "No fixation at all",
+    "Multiple ectopic whole-body foci"
+   ],
+   "answer": 0,
+   "why": "Morphological exploration: noriodocholesterol scintigraphy - adenoma: unilateral hyperfixation.",
+   "notes": [
+    "Correct: as stated.",
+    "Wrong: bilateral homogeneous fixation suggests hyperplasia.",
+    "Wrong: the adenoma hyperfixes.",
+    "Wrong: whole-body search is MIBG for phaeochromocytoma."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p69.jpg",
+     "lec": "Adrenal semiology",
+     "n": 69
+    }
+   ]
+  },
+  {
+   "q": "On CT, an aldosterone-producing adenoma:",
+   "options": [
+    "Appears as a hypodense mass",
+    "Usually measures 1 to 3 cm",
+    "Usually exceeds 5 cm and is easily seen on ultrasound",
+    "Is seen far better on MRI than on CT"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "CT scan: hypodense mass of 1 to 3 cm; MRI is roughly equivalent to CT.",
+   "notes": [
+    "Correct: hypodense mass.",
+    "Correct: 1 to 3 cm.",
+    "Wrong: it is small; ultrasound detects only tumours >5 cm.",
+    "Wrong: MRI is about equal to CT."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p69.jpg",
+     "lec": "Adrenal semiology",
+     "n": 69
+    }
+   ]
+  },
+  {
+   "q": "Adrenal computed tomography in the phaeochromocytoma section:",
+   "options": [
+    "Assesses tumour extension",
+    "The example horizontal section shows a left phaeochromocytoma",
+    "Measures catecholamine secretion",
+    "The example shows a right adrenal tuberculosis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Adrenal CT assesses adenoma size, structure (lipid) and tumour extension; the image is a horizontal section of a left phaeochromocytoma.",
+   "notes": [
+    "Correct: tumour extension is listed.",
+    "Correct: image caption.",
+    "Wrong: secretion is measured biologically (metanephrines).",
+    "Wrong: caption says left phaeochromocytoma."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p78.jpg",
+     "lec": "Adrenal semiology",
+     "n": 78
+    }
+   ]
+  },
+  {
+   "q": "Per the synthesis slide:",
+   "options": [
+    "Adrenal cortex hypersecretion includes Cushing and hyperaldosteronism",
+    "Primary adrenal insufficiency comes with hyperpigmentation",
+    "Hyperaldosteronism is linked to an aldosterone-secreting adenoma",
+    "Phaeochromocytoma is a form of cortex insufficiency"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Synthesis: cortex hypersecretion (Cushing, hyperaldosteronism); cortex insufficiency, primary (with hyperpigmentation) or secondary; hyperaldosteronism - aldosterone-secreting adenoma; phaeochromocytoma.",
+   "notes": [
+    "Correct: as listed.",
+    "Correct: primary AI with hyperpigmentation.",
+    "Correct: as listed.",
+    "Wrong: phaeochromocytoma is a medullary catecholamine tumour."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p80.jpg",
+     "lec": "Adrenal semiology",
+     "n": 80
+    }
+   ]
   }
  ],
  "cards": [
