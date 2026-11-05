@@ -3,6 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "5 November 2026", items: [
+    "Changed: reformulated how scores are calculated for MCQs and papers to make it as realistic as possible.",
     "Added: more Semiology MCQs (endocrine).",
     "Added: new MCQs for Semiology (digestive and endocrine).",
     "Removed: Neurology, musculoskeletal and obstetrics/urinary Semiology past papers.",

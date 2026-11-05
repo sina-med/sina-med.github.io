@@ -1660,3 +1660,9 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .hm-key { display: flex; align-items: center; justify-content: flex-end; gap: 3px; margin-top: .5rem; font-size: .68rem; color: var(--muted); }
 .ak-heat { margin-top: 1rem; }
 .mid-note { display: block; font-size: .8rem; color: var(--muted); font-weight: 400; margin-top: .15rem; }
+
+/* the options the student picked, shown after checking */
+.opt.mine { box-shadow: inset 6px 0 0 #2f6fd6; border-width: 2px; }
+.opt.mine > .rev-tag { color: #2f6fd6; }
+.opt.mine .letter { color: #fff; background: #2f6fd6; border-radius: 50%; width: 1.4rem; height: 1.4rem; display: inline-grid; place-items: center; font-size: 0.85rem; }
+.opt.correct:not(.mine) { border-style: dashed; }

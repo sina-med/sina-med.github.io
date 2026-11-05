@@ -1984,7 +1984,7 @@
       return ans.map(function (n) { return LET[n] + ". " + q.options[n]; }).join(" and ");
     }
     function feedback(q, ok, skipped, pts) {
-      var head = skipped ? "Skipped." : ok ? "Correct." : pts > 0 ? "Partly right: " + fmtPts(pts) + " of 1 point." : "Not quite.";
+      var head = skipped ? "Skipped." : ok ? "Correct." : pts > 0 ? "Partly right: " + fmtPts(pts) + " of 1 point." : "Not quite: 0 points.";
       var body = q.why ? " " + esc(q.why) : "";
       return '<div class="why"><strong>' + head + "</strong> Correct answer: " + esc(keyText(q)) + "." + body + "</div>" + slidesHTML(q) + '<p class="rep-line"><button type="button" class="linkbtn" id="rep">Report a mistake in this question</button></p>';
     }
@@ -2014,8 +2014,7 @@
               var q = w.q, ans = q.answers || [q.answer];
               return '<div class="rev-item"><p class="qhead">Question ' + w.n + '</p><p class="qtext">' + esc(figQText(q, q._fig || (lec.visual && lec.visual.figure))) + "</p>" + (q.flow ? flowHTML(q, true) : q.occ ? occHTML(q, true) : "") +
                 q.options.map(function (o, n) {
-                  var cls = ans.indexOf(n) > -1 ? " correct" : (w.chosen.indexOf(n) > -1 ? " wrong" : "");
-                  var tag = ans.indexOf(n) > -1 ? '<span class="rev-tag">Correct answer</span>' : (w.chosen.indexOf(n) > -1 ? '<span class="rev-tag">Your answer</span>' : "");
+                  var om = optMark(ans, w.chosen || [], n), cls = om.cls, tag = om.tag;
                   return '<div class="opt static' + cls + '"><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span>" + tag + "</div>";
                 }).join("") + (q.why ? '<div class="why">' + esc(q.why) + "</div>" : "") + slidesHTML(q) + "</div>";
             }).join("");
@@ -2047,7 +2046,9 @@
         opts.forEach(function (x) {
           var n = +x.dataset.n; x.disabled = true; x.classList.remove("picked");
           if (ans.indexOf(n) > -1) x.classList.add("correct"); else if (chosen.indexOf(n) > -1) x.classList.add("wrong");
-          if (q.notes && q.notes[n]) x.insertAdjacentHTML("beforeend", '<span class="onote">' + (ans.indexOf(n) > -1 ? "Correct. " : "Wrong. ") + esc(q.notes[n]) + "</span>");
+          if (chosen.indexOf(n) > -1) x.classList.add("mine");
+          if (!skipped && chosen.length) { var om = optMark(ans, chosen, n); if (om.tag) x.insertAdjacentHTML("beforeend", om.tag); }
+          if (q.notes && q.notes[n]) x.insertAdjacentHTML("beforeend", '<span class="onote">' + (/^(correct|wrong)\b/i.test(q.notes[n]) ? "" : ans.indexOf(n) > -1 ? "Correct. " : "Wrong. ") + esc(q.notes[n]) + "</span>");
         });
         var c = p.querySelector("#chk"); if (c) c.remove();
         if (fresh && !skipped) answerFx(opts, ans, chosen, ok);
@@ -2772,7 +2773,7 @@
           if (onlyWrong && res[k]) return "";
           var ans = q.answers || [q.answer], s = sel[k];
           return '<div class="rev-item"><p class="qhead">Question ' + (k + 1) + (s.length ? "" : " · not answered") + '</p><p class="qtext">' + esc(figQText(q, q._fig)) + "</p>" + (q.flow ? flowHTML(q, true) : q.occ ? occHTML(q, true) : "") +
-            q.options.map(function (o, m) { var cls = ans.indexOf(m) > -1 ? " correct" : (s.indexOf(m) > -1 ? " wrong" : ""), tag = ans.indexOf(m) > -1 ? '<span class="rev-tag">Correct answer</span>' : (s.indexOf(m) > -1 ? '<span class="rev-tag">Your answer</span>' : "");
+            q.options.map(function (o, m) { var om = optMark(ans, s, m), cls = om.cls, tag = om.tag;
               return '<div class="opt static' + cls + '"><span class="letter">' + LET[m].toUpperCase() + "</span><span>" + esc(o) + "</span>" + tag + (q.notes && q.notes[m] ? '<span class="onote">' + esc(q.notes[m]) + "</span>" : "") + "</div>"; }).join("") +
             (q.why ? '<div class="why">' + esc(q.why) + "</div>" : "") + slidesHTML(q) + "</div>";
         }).join("") || '<p class="src">No wrong answers. Well done.</p>';
@@ -2831,11 +2832,17 @@
     function onScroll() { if (!ticking) { ticking = true; requestAnimationFrame(upd); } }
     window.addEventListener("scroll", onScroll, { passive: true }); upd();
   }
-  /* ---------- partial credit: multi-answer questions score (right picks - wrong picks) / number of answers ---------- */
+  /* ---------- partial credit: any wrong pick scores 0; otherwise right picks / number of right answers ---------- */
   function qPoints(q, chosen) {
     var ans = q.answers || [q.answer];
     var r = 0, w = 0; chosen.forEach(function (c) { if (ans.indexOf(c) > -1) r++; else w++; });
-    return Math.max(0, (r - w) / ans.length);
+    return w ? 0 : r / ans.length;
+  }
+  /* option state after answering: class and tag showing what the student picked */
+  function optMark(ans, chosen, n) {
+    var a = ans.indexOf(n) > -1, c = chosen.indexOf(n) > -1;
+    return { cls: (a ? " correct" : c ? " wrong" : "") + (c ? " mine" : ""),
+      tag: a && c ? '<span class="rev-tag">Your answer &middot; correct</span>' : a ? '<span class="rev-tag">Correct answer &middot; not picked</span>' : c ? '<span class="rev-tag">Your answer &middot; wrong</span>' : "" };
   }
   function fmtPts(x) { var r = Math.round(x * 100) / 100; return String(r); }
 
