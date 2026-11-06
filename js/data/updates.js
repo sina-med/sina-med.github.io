@@ -2,6 +2,9 @@
    Style: short changelog lines, developer voice (Added / Fixed / Changed), no "you". */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
+  { date: "6 November 2026", items: [
+    "Fixed: options merged or repeated in 5 past-paper questions (Anatomy 2 abdomen mock, Molecular biology Jan 2023, Histology exam)."
+  ] },
   { date: "5 November 2026", items: [
     "Changed: reformulated how scores are calculated for MCQs and papers to make it as realistic as possible.",
     "Added: more Semiology MCQs (endocrine).",

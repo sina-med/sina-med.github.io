@@ -2046,8 +2046,6 @@
         opts.forEach(function (x) {
           var n = +x.dataset.n; x.disabled = true; x.classList.remove("picked");
           if (ans.indexOf(n) > -1) x.classList.add("correct"); else if (chosen.indexOf(n) > -1) x.classList.add("wrong");
-          if (chosen.indexOf(n) > -1) x.classList.add("mine");
-          if (!skipped && chosen.length) { var om = optMark(ans, chosen, n); if (om.tag) x.insertAdjacentHTML("beforeend", om.tag); }
           if (q.notes && q.notes[n]) x.insertAdjacentHTML("beforeend", '<span class="onote">' + (/^(correct|wrong)\b/i.test(q.notes[n]) ? "" : ans.indexOf(n) > -1 ? "Correct. " : "Wrong. ") + esc(q.notes[n]) + "</span>");
         });
         var c = p.querySelector("#chk"); if (c) c.remove();
@@ -2838,11 +2836,11 @@
     var r = 0, w = 0; chosen.forEach(function (c) { if (ans.indexOf(c) > -1) r++; else w++; });
     return w ? 0 : r / ans.length;
   }
-  /* option state after answering: class and tag showing what the student picked */
+  /* option state in reviews: correct answers, and the student's wrong picks */
   function optMark(ans, chosen, n) {
     var a = ans.indexOf(n) > -1, c = chosen.indexOf(n) > -1;
-    return { cls: (a ? " correct" : c ? " wrong" : "") + (c ? " mine" : ""),
-      tag: a && c ? '<span class="rev-tag">Your answer &middot; correct</span>' : a ? '<span class="rev-tag">Correct answer &middot; not picked</span>' : c ? '<span class="rev-tag">Your answer &middot; wrong</span>' : "" };
+    return { cls: a ? " correct" : c ? " wrong" : "",
+      tag: a ? '<span class="rev-tag">Correct answer</span>' : c ? '<span class="rev-tag">Your answer</span>' : "" };
   }
   function fmtPts(x) { var r = Math.round(x * 100) / 100; return String(r); }
 
