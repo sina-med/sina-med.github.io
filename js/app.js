@@ -900,7 +900,7 @@
     f.onsubmit = function (e) {
       e.preventDefault(); if (!pw.value) return;
       f.querySelector("button").disabled = true; f.querySelector("button").textContent = "Checking…";
-      akUnlock(pw.value).then(go || akHome, function () { akLock(base, "Wrong password.", go); });
+      akUnlock(pw.value).then(function () { ev("anking-unlock"); (go || akHome)(); }, function () { akLock(base, "Wrong password.", go); });
     };
   }
   function akLabels() { return Promise.all(AK.meta.subjects.map(function (s) { return s.label ? s.label : akText(s.name).then(function (t) { s.label = t; return t; }); })); }
@@ -2436,6 +2436,37 @@
     var item = { path: path, title: title || path, event: !!isEvent };
     gcQueue.push(item); gcFlush(0);
   }
+  /* ---------- usage events: which actions people use (one count per action, no personal data) ---------- */
+  var evSeen = {};
+  window.addEventListener("hashchange", function () { evSeen = {}; });
+  function ev(name, extra, once) {
+    var parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean), where = parts[0] === "subject" && parts[3] ? parts[3] : parts[0] === "lecture" || parts[0] === "subject" || parts[0] === "paper" || parts[0] === "practice" ? parts.slice(0, 2).join("-") : (parts[0] || "home");
+    var path = "/event/" + name + (extra ? "/" + extra : ""), key = path + "@" + where;
+    if (once && evSeen[key]) return; evSeen[key] = 1;
+    track(path, name.replace(/-/g, " ") + (extra ? ": " + extra : "") + " · " + where + " | " + progName(), true);
+  }
+  document.addEventListener("click", function (e) {
+    var el = e.target.closest && e.target.closest("a, button, summary"); if (!el) return;
+    var id = el.id, m;
+    try {
+      if (id === "qstart") ev("quiz-start");
+      else if (id === "xgo") ev("exam-start");
+      else if (id === "xsub") ev("exam-submit");
+      else if (id === "wk-go") ev("weak-quiz");
+      else if (id === "mk-all" || el.classList.contains("mk-row")) ev("redo-mistakes");
+      else if (id === "rv-go") ev("review-start");
+      else if (id === "fcshow" || el.closest(".fcard")) ev("flashcards", "", true);
+      else if (id === "rep") ev("report-open");
+      else if (id === "rd-send") ev("report-sent");
+      else if (el.hasAttribute("data-pdf")) ev("pdf-download");
+      else if (el.tagName === "SUMMARY" && el.parentNode.classList.contains("slide-ref")) ev("slide-explain", "", true);
+      else if (el.dataset && el.dataset.mode) ev("anking-mode", el.dataset.mode === "c" ? "flashcards" : "questions");
+      else if (el.dataset && el.dataset.themeChoice) ev("theme", el.dataset.themeChoice);
+      else if (el.classList.contains("qtile")) ev("home-tile", (el.getAttribute("href") || "").replace(/^#\/?/, "").split("/")[0] || "continue");
+      else if (el.closest("#search-results")) ev("search-open");
+      else if (el.tagName === "A" && /^https?:/.test(el.getAttribute("href") || "") && (m = el.hostname) && m !== location.hostname) ev("out", m.replace(/^www\./, ""));
+    } catch (err) {}
+  }, true);
   function trackView() {
     var path = "/" + location.hash.replace(/^#\/?/, "");
     if (path === gcLast) return;
@@ -3094,6 +3125,7 @@
     return '<div class="score-reveal"><svg class="pring big" viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42" stroke-dasharray="' + C + '" stroke-dashoffset="' + C + '" data-to="' + (C * (1 - pct / 100)) + '"/><text x="50" y="57" class="sr-pct">' + (REDUCE ? pct : 0) + '%</text></svg><div class="score"><span class="sr-n">' + (REDUCE ? fmtPts(score) : 0) + "</span> / " + n + "</div></div>" ;
   }
   function scoreReveal(p, score, n) {
+    try { ev("quiz-finished"); } catch (e) {}
     var ring = p.querySelector(".score-reveal .fg"), num = p.querySelector(".sr-n"), pc = p.querySelector(".sr-pct"), pct = n ? Math.round(score / n * 100) : 0;
     requestAnimationFrame(function () { if (ring) ring.style.strokeDashoffset = ring.getAttribute("data-to"); });
     if (REDUCE) return;
