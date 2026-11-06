@@ -2125,6 +2125,296 @@ SINA.lectures["semio-endo-pituitary"] = {
      "n": 28
     }
    ]
+  },
+  {
+   "q": "A 26-year-old woman has galactorrhoea and amenorrhoea. Her pregnancy test is negative. She has been taking metoclopramide for nausea, and her prolactin is 70 ng/mL. What is the most likely explanation?",
+   "options": [
+    "Drug-induced hyperprolactinaemia from a dopamine antagonist",
+    "A macroprolactinoma",
+    "Acromegaly with prolactin co-secretion",
+    "Primary adrenal insufficiency"
+   ],
+   "answer": 0,
+   "why": "Metoclopramide is a dopamine antagonist. Drug-induced hyperprolactinaemia is usually mild, about 25 to 100 ng/mL; only a few agents (such as risperidone) push it above 200 ng/mL.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "A young woman has secondary amenorrhoea and a mildly raised prolactin. What must be ruled out before thinking of a pituitary tumour?",
+   "options": [
+    "Pregnancy",
+    "Acromegaly",
+    "Pituitary apoplexy",
+    "Cushing's disease"
+   ],
+   "answer": 0,
+   "why": "Pregnancy is the first physiological cause of hyperprolactinaemia and of amenorrhoea. Nipple stimulation, exercise, stress and sleep can also raise prolactin.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "A 35-year-old man has headaches, low libido and erectile dysfunction. Prolactin is very high and he has bitemporal visual field loss. What does the visual loss tell you?",
+   "options": [
+    "The prolactinoma is a macroadenoma",
+    "The prolactinoma is a microadenoma",
+    "The cause is drug-induced",
+    "It is unrelated to the tumour"
+   ],
+   "answer": 0,
+   "why": "Mass effects of a prolactinoma happen with macroadenomas only. Prolactinomas are classed as micro or macro/invasive on MRI.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/08.jpg",
+     "lec": "Pituitary semiology",
+     "n": 8
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/10.jpg",
+     "lec": "Pituitary semiology",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "A non-secreting pituitary macroadenoma compresses the pituitary stalk, and prolactin is mildly raised. What explains the high prolactin?",
+   "options": [
+    "The stalk effect",
+    "Co-secretion of GH and prolactin",
+    "Hypothyroidism",
+    "A second tumour making prolactin"
+   ],
+   "answer": 0,
+   "why": "A lesion of the hypophyseal stalk (stalk effect) raises prolactin, so a non-secreting adenoma can come with mild hyperprolactinaemia. The slides list nonsecretory adenoma with the pituitary tumours.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "A 30-year-old man has gynaecomastia, infertility and low libido. Which hormone disorder should be looked for, according to the lecture?",
+   "options": [
+    "Hyperprolactinaemia",
+    "Acromegaly",
+    "Central hyperthyroidism",
+    "Pituitary apoplexy"
+   ],
+   "answer": 0,
+   "why": "In men, hyperprolactinaemia presents as hypogonadism: low libido first, then erectile dysfunction, gynaecomastia and infertility.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/08.jpg",
+     "lec": "Pituitary semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "A patient taking haloperidol has a prolactin of 60 ng/mL. Per the slides:",
+   "options": [
+    "This level fits drug-induced hyperprolactinaemia, usually 25-100 ng/mL",
+    "Any prolactin above 50 ng/mL proves a prolactinoma",
+    "Haloperidol lowers prolactin",
+    "Drug-induced values are always above 200 ng/mL"
+   ],
+   "answer": 0,
+   "why": "Medication-induced hyperprolactinaemia is usually mild (25 to 100 ng/mL). Haloperidol is a dopamine antagonist listed among the causes.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Which clinical setting raises prolactin as a side effect of a test?",
+   "options": [
+    "A thyrotropin-releasing hormone (TRH) stimulation test",
+    "A 75 g oral glucose tolerance test",
+    "A 1 mg dexamethasone suppression test",
+    "A synacthen test"
+   ],
+   "answer": 0,
+   "why": "The TRH stimulation test is listed among the causes of hyperprolactinaemia, because TRH stimulates prolactin release.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "A 45-year-old man with acromegaly snores loudly and is sleepy during the day. Which manifestation is this?",
+   "options": [
+    "Sleep apnoea, a respiratory manifestation of acromegaly",
+    "Pituitary apoplexy",
+    "Central hypothyroidism",
+    "Carpal tunnel syndrome"
+   ],
+   "answer": 0,
+   "why": "Respiratory manifestations of acromegaly: sleep apnoea (macroglossia and soft tissue thickening narrow the airway).",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/17.jpg",
+     "lec": "Pituitary semiology",
+     "n": 17
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/15.jpg",
+     "lec": "Pituitary semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "Which facial finding points to acromegaly rather than to hypothyroidism?",
+   "options": [
+    "Prognathism with teeth separation",
+    "Puffy eyelids",
+    "Loss of the outer eyebrows",
+    "Dry, coarse skin"
+   ],
+   "answer": 0,
+   "why": "Downward and forward growth of the mandible (prognathism) with teeth separation and malocclusion is acromegalic. Puffy face and eyelids, eyebrow loss and dry coarse skin are hypothyroid features.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/15.jpg",
+     "lec": "Pituitary semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "All of these are listed as manifestations of acromegaly EXCEPT:",
+   "options": [
+    "Hypoglycaemia",
+    "Colonic polyps",
+    "Left ventricular hypertrophy",
+    "Hypercalciuria"
+   ],
+   "answer": 0,
+   "why": "Acromegaly gives diabetes or impaired glucose tolerance, not hypoglycaemia. Colonic polyps, hypertension with LVH, hypercalciuria, type IV hypertriglyceridaemia and goitre are all on the slide.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/17.jpg",
+     "lec": "Pituitary semiology",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "A 40-year-old man's shoe and ring sizes have increased, with coarse features and sweating. Why is this acromegaly rather than gigantism?",
+   "options": [
+    "The GH excess started in adulthood",
+    "IGF-1 is normal",
+    "There is no prognathism",
+    "Prolactin is low"
+   ],
+   "answer": 0,
+   "why": "Acromegaly is GH hypersecretion in adults, which enlarges the hands, feet and face. Gigantism is GH excess in childhood, before growth stops.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/15.jpg",
+     "lec": "Pituitary semiology",
+     "n": 15
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/36.jpg",
+     "lec": "Pituitary semiology",
+     "n": 36
+    }
+   ]
+  },
+  {
+   "q": "A patient with a pituitary adenoma has right eyelid ptosis. Which structure is being compressed?",
+   "options": [
+    "The oculomotor nerve (III) in the cavernous sinus",
+    "The optic chiasm",
+    "The abducens nerve (VI) alone",
+    "The posterior pituitary"
+   ],
+   "answer": 0,
+   "why": "Lateral extension into the cavernous sinus compresses cranial nerves III, IV and VI, causing diplopia; ptosis comes from the oculomotor nerve (III), which lifts the eyelid.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/22.jpg",
+     "lec": "Pituitary semiology",
+     "n": 22
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/04.jpg",
+     "lec": "Pituitary semiology",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "A pituitary adenoma extends above the sella. What is the usual first visual field defect?",
+   "options": [
+    "Bitemporal loss starting in the upper fields",
+    "Loss of the lower nasal fields",
+    "Central scotoma in one eye",
+    "Complete blindness of one eye"
+   ],
+   "answer": 0,
+   "why": "Suprasellar extension compresses the optic chiasm from below: bitemporal visual loss begins in the superior field portions (bitemporal superior quadrantanopia), then bitemporal hemianopia.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/24.jpg",
+     "lec": "Pituitary semiology",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "A man with a known macroadenoma suddenly has a severe headache, visual loss, ophthalmoplegia, neck stiffness and drowsiness. Which statement is correct?",
+   "options": [
+    "It is pituitary apoplexy, an emergency that often leaves pituitary insufficiency",
+    "It is a migraine and needs no imaging",
+    "It is the usual slow mass effect of a prolactinoma",
+    "Surgery should be delayed for at least a month"
+   ],
+   "answer": 0,
+   "why": "Pituitary apoplexy is a haemorrhagic infarction of the tumour: fulminant, a medical emergency, frequently followed by partial or total pituitary insufficiency. Early transsphenoidal decompression is done within 8 days.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/25.jpg",
+     "lec": "Pituitary semiology",
+     "n": 25
+    }
+   ]
+  },
+  {
+   "q": "Which signs of pituitary mass effect are described as RARE?",
+   "options": [
+    "Papilloedema and optic atrophy",
+    "Bitemporal hemianopia",
+    "Bitemporal superior quadrantanopia",
+    "Headache"
+   ],
+   "answer": 0,
+   "why": "Rarely, decreased visual acuity, pupillary abnormalities, optic atrophy, papilloedema, cranial nerve palsies and nystagmus are seen. Bitemporal field defects are the classic signs.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/24.jpg",
+     "lec": "Pituitary semiology",
+     "n": 24
+    }
+   ]
   }
  ],
  "cards": [

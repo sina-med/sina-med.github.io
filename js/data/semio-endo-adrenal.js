@@ -2349,6 +2349,496 @@ SINA.lectures["semio-endo-adrenal"] = {
      "n": 80
     }
    ]
+  },
+  {
+   "q": "A 38-year-old woman has central obesity, wide purple striae, proximal muscle weakness and hypertension. Which is the best first screening test?",
+   "options": [
+    "1 mg overnight dexamethasone suppression test",
+    "Plasma ACTH at 8 a.m.",
+    "Adrenal CT scan",
+    "High-dose dexamethasone suppression test"
+   ],
+   "answer": 0,
+   "why": "The first step is to confirm hypercortisolism. The 1 mg overnight dexamethasone test is the best screening test (24 h urinary free cortisol and midnight salivary cortisol also help). ACTH, imaging and the high-dose test come after, to find the cause.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p30.jpg",
+     "lec": "Adrenal semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "Cushing's syndrome is confirmed and the 8 a.m. plasma ACTH is undetectable. What is the next step?",
+   "options": [
+    "Adrenal imaging (CT)",
+    "Pituitary MRI",
+    "High-dose dexamethasone suppression test",
+    "Chest CT to look for an ectopic source"
+   ],
+   "answer": 0,
+   "why": "Low ACTH means ACTH-independent Cushing's (a cortisol-secreting adrenal tumour), so the next step is adrenal localising studies.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p31.jpg",
+     "lec": "Adrenal semiology",
+     "n": 31
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p33.jpg",
+     "lec": "Adrenal semiology",
+     "n": 33
+    }
+   ]
+  },
+  {
+   "q": "Cushing's syndrome is confirmed and ACTH is high or 'inappropriately normal'. Which test comes next per the slides?",
+   "options": [
+    "High-dose dexamethasone suppression test",
+    "Adrenal CT straight away",
+    "Synacthen test",
+    "Aldosterone/renin ratio"
+   ],
+   "answer": 0,
+   "why": "A normal or high ACTH means an ACTH-secreting neoplasm (Cushing's disease or ectopic ACTH). The next step is the high-dose dexamethasone suppression test.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p31.jpg",
+     "lec": "Adrenal semiology",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "q": "Cushing's is suspected in a patient with morbid obesity, alcoholism and depression. Which confirmation test is optimal for them?",
+   "options": [
+    "Low-dose dexamethasone test, 2 mg/day for 48 h",
+    "1 mg overnight dexamethasone test",
+    "Plasma ACTH",
+    "Morning serum cortisol alone"
+   ],
+   "answer": 0,
+   "why": "The low-dose test (2 mg/day for 48 h) is the optimal test for patients with psychiatric problems, morbid obesity or alcoholism.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p30.jpg",
+     "lec": "Adrenal semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "A 62-year-old heavy smoker develops hypercortisolism over a few months with marked hypokalaemia and a high ACTH. What is the most likely source?",
+   "options": [
+    "Ectopic ACTH from a small cell lung carcinoma",
+    "An adrenal adenoma",
+    "Exogenous glucocorticoids",
+    "Adrenal carcinoma"
+   ],
+   "answer": 0,
+   "why": "High ACTH means an ACTH-dependent cause. Besides a pituitary adenoma, ACTH can come from an ectopic tumour, such as small cell lung carcinoma or a neuroendocrine tumour. Adrenal tumours and exogenous steroids give a low ACTH.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p33.jpg",
+     "lec": "Adrenal semiology",
+     "n": 33
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p32.jpg",
+     "lec": "Adrenal semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "A woman with rheumatoid arthritis on long-term prednisolone develops a moon face and purple striae. What is her own ACTH expected to be?",
+   "options": [
+    "Low, because the steroid feeds back on the hypothalamus and pituitary",
+    "High, as in Cushing's disease",
+    "High, as in ectopic ACTH",
+    "Unchanged"
+   ],
+   "answer": 0,
+   "why": "Exogenous glucocorticoids cause Cushing's syndrome. Like cortisol, they exert negative feedback on CRH and ACTH, so ACTH is low.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p19.jpg",
+     "lec": "Adrenal semiology",
+     "n": 19
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p18.jpg",
+     "lec": "Adrenal semiology",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "Which blood count findings fit Cushing's syndrome? (choose all)",
+   "options": [
+    "Polycythaemia",
+    "Neutrophilic leukocytosis",
+    "Lymphopenia",
+    "Lymphocytosis"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Cortisol excess gives polycythaemia, a high white count with neutrophils (PNN) and lymphopenia, plus hypokalaemia, hypertriglyceridaemia and impaired glucose tolerance.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p32.jpg",
+     "lec": "Adrenal semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "Why do patients with Cushing's syndrome bruise without obvious injury?",
+   "options": [
+    "Capillary fragility with thin, fragile skin",
+    "Low platelet count",
+    "Clotting factor deficiency",
+    "Liver failure"
+   ],
+   "answer": 0,
+   "why": "Skin atrophy (fine, fragile skin) and capillary fragility cause ecchymoses without obvious injury.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p23.jpg",
+     "lec": "Adrenal semiology",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "A man with Cushing's syndrome may present with: (choose all)",
+   "options": [
+    "Low libido and impotence",
+    "Some degree of gynaecomastia",
+    "Acne and seborrhoea",
+    "Hyperpigmentation of the gums"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Reproductive dysfunction in Cushing's: folliculitis, acne, seborrhoea, hirsutism and alopecia; in men, lower libido, impotence and some gynaecomastia. Pigmented gums belong to primary adrenal insufficiency.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p24.jpg",
+     "lec": "Adrenal semiology",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "Which complication of Cushing's syndrome is specific to children?",
+   "options": [
+    "Growth retardation",
+    "Aseptic osteonecrosis",
+    "Vertebral compression",
+    "Myopathy"
+   ],
+   "answer": 0,
+   "why": "Bone and muscle complications include osteoporosis with fractures and vertebral compression, aseptic osteonecrosis, myopathy and, in children, growth retardation.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p37.jpg",
+     "lec": "Adrenal semiology",
+     "n": 37
+    }
+   ]
+  },
+  {
+   "q": "A 35-year-old woman has tiredness worse in the evening, weight loss, nausea, BP 90/60 and dark knuckles and gums. Na is 128 mmol/L and K 5.9 mmol/L. What is the most likely diagnosis?",
+   "options": [
+    "Primary adrenal insufficiency",
+    "Secondary adrenal insufficiency",
+    "Cushing's syndrome",
+    "Aldosterone-producing adenoma"
+   ],
+   "answer": 0,
+   "why": "Asthenia peaking in the evening, weight loss, digestive signs, hypotension, hyperpigmentation over pressure areas and gums, hyponatraemia and hyperkalaemia: primary adrenal insufficiency. Secondary AI has no hyperpigmentation and no hyperkalaemia.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p40.jpg",
+     "lec": "Adrenal semiology",
+     "n": 40
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p42.jpg",
+     "lec": "Adrenal semiology",
+     "n": 42
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p50.jpg",
+     "lec": "Adrenal semiology",
+     "n": 50
+    }
+   ]
+  },
+  {
+   "q": "How does the asthenia of adrenal insufficiency typically behave?",
+   "options": [
+    "It increases during the day, peaks in the evening and with effort",
+    "It is worst on waking and improves during the day",
+    "It appears only during fever",
+    "It is purely psychological"
+   ],
+   "answer": 0,
+   "why": "Asthenia (physical, psychological and sexual) increases during the day and is maximal in the evening and during effort.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p40.jpg",
+     "lec": "Adrenal semiology",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "q": "A patient with suspected adrenal insufficiency has an 8 a.m. cortisol of 12 µg/dL. What does this mean?",
+   "options": [
+    "It is intermediate, so a dynamic (synacthen) test is needed",
+    "Adrenal insufficiency is confirmed",
+    "Adrenal insufficiency is excluded",
+    "Cushing's syndrome is likely"
+   ],
+   "answer": 0,
+   "why": "8 a.m. cortisol below 5 µg/dL confirms AI; above 18 µg/dL excludes it. Values in between may be normal or latent insufficiency, so dynamic tests are needed.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p48.jpg",
+     "lec": "Adrenal semiology",
+     "n": 48
+    }
+   ]
+  },
+  {
+   "q": "In a standard synacthen test, cortisol rises to 14 µg/dL at 60 minutes. How is this interpreted?",
+   "options": [
+    "Adrenal insufficiency is confirmed",
+    "The response is normal",
+    "The test must be repeated with dexamethasone",
+    "It shows Cushing's disease"
+   ],
+   "answer": 0,
+   "why": "Cortisol is measured at T0 and T60 after 250 µg tetracosactide IM. An insufficient rise, below 18 µg/dL, confirms adrenal insufficiency.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p49.jpg",
+     "lec": "Adrenal semiology",
+     "n": 49
+    }
+   ]
+  },
+  {
+   "q": "After pituitary surgery, a patient has adrenal insufficiency with pale skin, frequent hypoglycaemia and no hyperkalaemia. Why is there no hyperkalaemia?",
+   "options": [
+    "Mineralocorticoid (aldosterone) secretion is preserved",
+    "ACTH is high",
+    "Cortisol is normal",
+    "The kidneys are damaged"
+   ],
+   "answer": 0,
+   "why": "In secondary AI, the problem is ACTH. Aldosterone is mainly driven by the renin-angiotensin system, so it is conserved: hypotension, digestive signs and hyperkalaemia are rare, and there is no hyperpigmentation.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p56.jpg",
+     "lec": "Adrenal semiology",
+     "n": 56
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p57.jpg",
+     "lec": "Adrenal semiology",
+     "n": 57
+    }
+   ]
+  },
+  {
+   "q": "Why does primary, but not secondary, adrenal insufficiency cause hyperpigmentation?",
+   "options": [
+    "ACTH is high in primary AI",
+    "Aldosterone is high in primary AI",
+    "Cortisol is high in secondary AI",
+    "Melanocytes are destroyed in primary AI"
+   ],
+   "answer": 0,
+   "why": "In primary AI the adrenals fail, cortisol is low and ACTH rises, causing hyperpigmentation. In secondary (pituitary) AI ACTH is low, so the skin is pale.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p61.jpg",
+     "lec": "Adrenal semiology",
+     "n": 61
+    }
+   ]
+  },
+  {
+   "q": "A patient with Addison's disease stopped his treatment, and now has collapse with a thready pulse, abdominal and lumbar pain, vomiting and confusion. Which statement is correct?",
+   "options": [
+    "Give high-dose hydrocortisone at once and take hormone samples without delaying treatment",
+    "Wait for the cortisol result before treating",
+    "Do a synacthen test before any treatment",
+    "Give a salt-free diet"
+   ],
+   "answer": 0,
+   "why": "This is acute adrenal insufficiency, triggered by stopping treatment. Hormone assays are taken without delaying treatment, and the diagnosis is confirmed by the response to high-dose hydrocortisone.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p58.jpg",
+     "lec": "Adrenal semiology",
+     "n": 58
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p59.jpg",
+     "lec": "Adrenal semiology",
+     "n": 59
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p60.jpg",
+     "lec": "Adrenal semiology",
+     "n": 60
+    }
+   ]
+  },
+  {
+   "q": "Which ECG changes come with the hyperkalaemia of acute adrenal insufficiency?",
+   "options": [
+    "QRS prolongation and large T waves",
+    "Short QT and U waves",
+    "ST elevation in all leads",
+    "Low-voltage complexes only"
+   ],
+   "answer": 0,
+   "why": "Hyperkalaemia in acute AI causes ECG disorders (QRS prolongation, large T waves), with a risk of death.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p60.jpg",
+     "lec": "Adrenal semiology",
+     "n": 60
+    }
+   ]
+  },
+  {
+   "q": "Lying BP is 110/70 mmHg. After 2 minutes standing it is 86/66 mmHg and the patient feels dizzy. How is this interpreted?",
+   "options": [
+    "Positive Schellong test (orthostatic hypotension)",
+    "Negative test, since diastolic fell less than 10 mmHg",
+    "Normal response to standing",
+    "The test is only valid after 10 minutes"
+   ],
+   "answer": 0,
+   "why": "Schellong test is positive with a fall in systolic BP of at least 20 mmHg or diastolic of at least 10 mmHg within 3 minutes of standing. Here systolic fell by 24 mmHg.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p47.jpg",
+     "lec": "Adrenal semiology",
+     "n": 47
+    }
+   ]
+  },
+  {
+   "q": "A 40-year-old has attacks of pounding headache, profuse sweating, palpitations and pallor, with BP up to 220/120 during attacks. Which first test is most useful?",
+   "options": [
+    "Urinary methoxylated derivatives (metanephrines)",
+    "Plasma catecholamines",
+    "Urinary VMA",
+    "MIBG scintigraphy before any lab test"
+   ],
+   "answer": 0,
+   "why": "The triad headache + sweating + palpitations with paroxysmal hypertension suggests phaeochromocytoma. Urinary methoxylated derivatives are the key test; plasma catecholamines are hard to interpret and VMA is no longer used.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p73.jpg",
+     "lec": "Adrenal semiology",
+     "n": 73
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p76.jpg",
+     "lec": "Adrenal semiology",
+     "n": 76
+    }
+   ]
+  },
+  {
+   "q": "Why are plasma catecholamines hard to interpret in suspected phaeochromocytoma?",
+   "options": [
+    "They are stress hormones with a short half-life",
+    "They are not secreted by the tumour",
+    "They are only found in urine",
+    "They rise only after MIBG injection"
+   ],
+   "answer": 0,
+   "why": "Plasma catecholamines are stress hormones with a short half-life, so their level is difficult to interpret. Plasma metanephrines are more useful.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p76.jpg",
+     "lec": "Adrenal semiology",
+     "n": 76
+    }
+   ]
+  },
+  {
+   "q": "A patient with a phaeochromocytoma that secretes all the time has hypertension resistant to treatment. Which other finding is possible?",
+   "options": [
+    "Orthostatic hypotension",
+    "Weight gain with cold intolerance",
+    "Hyperpigmentation",
+    "Hypoglycaemia"
+   ],
+   "answer": 0,
+   "why": "With permanent secretion, hypertension of variable level, resistant to usual treatment, is sometimes associated with orthostatic hypotension. Hypermetabolism gives weight loss, fever, thermophobia and glucose intolerance.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p75.jpg",
+     "lec": "Adrenal semiology",
+     "n": 75
+    }
+   ]
+  },
+  {
+   "q": "During abdominal palpation, a patient suddenly develops headache, sweating and a very high BP. Which mechanism do the slides describe?",
+   "options": [
+    "Paroxysmal symptoms of a phaeochromocytoma triggered by tumour compression",
+    "Acute adrenal insufficiency",
+    "A vasovagal reaction",
+    "Pituitary apoplexy"
+   ],
+   "answer": 0,
+   "why": "The paroxysmal symptoms of phaeochromocytoma can be triggered by tumour compression; during attacks BP can be much higher than usual.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p73.jpg",
+     "lec": "Adrenal semiology",
+     "n": 73
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p74.jpg",
+     "lec": "Adrenal semiology",
+     "n": 74
+    }
+   ]
+  },
+  {
+   "q": "Urinary metanephrines are clearly raised but adrenal CT is normal. Which exam searches the whole body for an ectopic or multiple tumour?",
+   "options": [
+    "MIBG scintigraphy",
+    "Noriodocholesterol scintigraphy",
+    "Thyroid scintigraphy",
+    "Repeat adrenal ultrasound"
+   ],
+   "answer": 0,
+   "why": "MIBG scintigraphy completes CT and MRI. It explores the whole body for multiple, ectopic or metastatic sites and can show small lesions missed by CT or MRI. Noriodocholesterol is used for aldosterone adenomas.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p77.jpg",
+     "lec": "Adrenal semiology",
+     "n": 77
+    }
+   ]
   }
  ],
  "cards": [

@@ -1474,6 +1474,505 @@ SINA.lectures["semio-endo-thyroid"] = {
      "n": 52
     }
    ]
+  },
+  {
+   "q": "A 32-year-old woman has weight loss despite a big appetite, palpitations, heat intolerance, a diffuse goitre with a bruit and bilateral exophthalmos. Which result is the most specific for the cause?",
+   "options": [
+    "Positive TSH receptor antibodies (TRAb)",
+    "Suppressed TSH",
+    "Positive anti-TPO antibodies",
+    "Raised calcitonin"
+   ],
+   "answer": 0,
+   "why": "TRAb are highly specific to Graves' disease. A low TSH only confirms thyrotoxicosis, whatever the cause; anti-TPO and anti-Tg are used to look for the cause of hypothyroidism; calcitonin is a tumour marker for thyroid cancer.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p32.jpg",
+     "lec": "Thyroid semiology",
+     "n": 32
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p45.jpg",
+     "lec": "Thyroid semiology",
+     "n": 45
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p57.jpg",
+     "lec": "Thyroid semiology",
+     "n": 57
+    }
+   ]
+  },
+  {
+   "q": "A 45-year-old woman has thyrotoxicosis with a single painless nodule and no eye signs. What is scintigraphy most likely to show?",
+   "options": [
+    "Diffuse homogeneous hyperfixation of an enlarged gland",
+    "A hot nodule with reduced or absent uptake in the rest of the gland",
+    "Multiple functioning nodules with patchy uptake",
+    "A cold nodule"
+   ],
+   "answer": 1,
+   "why": "This is a toxic adenoma: an isolated, painless nodule, thyrotoxicosis and no ocular signs. It shows as a hot (hyperfixing) nodule while the contralateral lobe is reduced or silent. Diffuse uptake fits Graves'; patchy uptake fits toxic multinodular goitre.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p34.jpg",
+     "lec": "Thyroid semiology",
+     "n": 34
+    }
+   ]
+  },
+  {
+   "q": "A thyrotoxic patient could have Graves' disease or a toxic adenoma. Which finding points to Graves' disease?",
+   "options": [
+    "Resting tachycardia",
+    "Suppressed TSH",
+    "Exophthalmos with chemosis and diplopia",
+    "Fine tremor of the hands"
+   ],
+   "answer": 2,
+   "why": "Tachycardia, tremor and a low TSH are part of the thyrotoxicosis syndrome common to every cause. Ophthalmopathy (exophthalmos, chemosis, diplopia) belongs to Graves'; toxic adenoma has no ocular signs.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p29.jpg",
+     "lec": "Thyroid semiology",
+     "n": 29
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p34.jpg",
+     "lec": "Thyroid semiology",
+     "n": 34
+    }
+   ]
+  },
+  {
+   "q": "A 68-year-old with a long-standing euthyroid multinodular goitre now has palpitations and weight loss. The goitre is large and extends behind the sternum. Besides thyroid tests, what must the examination look for?",
+   "options": [
+    "Signs of compression",
+    "Exophthalmos",
+    "A thyroglossal cyst",
+    "Lid lag only"
+   ],
+   "answer": 0,
+   "why": "This is a toxic multinodular goitre: older patient, slow move from the non-toxic to the toxic phase, a goitre that can be large and substernal. The slides say to look for signs of compression.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p36.jpg",
+     "lec": "Thyroid semiology",
+     "n": 36
+    }
+   ]
+  },
+  {
+   "q": "A patient with Graves' ophthalmopathy notices that his vision is getting blurred and dim, not double. What does this suggest?",
+   "options": [
+    "Optic neuropathy",
+    "Simple lid retraction",
+    "Extraocular muscle dysfunction",
+    "Chemosis"
+   ],
+   "answer": 0,
+   "why": "In Graves' ophthalmopathy a decrease in visual acuity means optic neuropathy, the most serious eye sign. Double vision comes from extraocular muscle dysfunction; lid retraction and chemosis do not reduce acuity.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p29.jpg",
+     "lec": "Thyroid semiology",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "Why is the hyperthyroid phase of thyroiditis (for example de Quervain) self-limited?",
+   "options": [
+    "The stock of stored hormone runs out",
+    "TSH receptor antibodies disappear",
+    "The gland starts taking up more iodine",
+    "TSH rises and switches the gland off"
+   ],
+   "answer": 0,
+   "why": "Inflammation and cell destruction release the stored FT4 and FT3. Once that stock is depleted, the toxic phase stops (auto-limited).",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p37.jpg",
+     "lec": "Thyroid semiology",
+     "n": 37
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p38.jpg",
+     "lec": "Thyroid semiology",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "q": "In the 'hyperthyroidism versus thyrotoxicosis' table, which condition gives thyrotoxicosis WITHOUT hyperthyroidism?",
+   "options": [
+    "Graves' disease",
+    "Toxic adenoma",
+    "Subacute thyroiditis",
+    "Toxic nodular goitre"
+   ],
+   "answer": 2,
+   "why": "In thyroiditis the gland is not overproducing: hormone leaks out of damaged cells, so there is thyrotoxicosis without hyperthyroidism. Graves', toxic adenoma and toxic nodular goitre are true hyperthyroidism.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/33.jpg",
+     "lec": "Thyroid semiology",
+     "n": 33
+    }
+   ]
+  },
+  {
+   "q": "A patient has a low FT4 with a TSH that is low or normal rather than high. What does this pattern suggest?",
+   "options": [
+    "Hypothyroidism of secondary (pituitary) origin",
+    "Hashimoto's thyroiditis",
+    "Subclinical hypothyroidism",
+    "Iodine deficiency"
+   ],
+   "answer": 0,
+   "why": "In primary hypothyroidism the pituitary responds to low FT4 with a high TSH. If TSH fails to rise, the problem is the pituitary: secondary (central) hypothyroidism.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p40.jpg",
+     "lec": "Thyroid semiology",
+     "n": 40
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p45.jpg",
+     "lec": "Thyroid semiology",
+     "n": 45
+    }
+   ]
+  },
+  {
+   "q": "A 29-year-old woman has amenorrhoea and galactorrhoea with a high prolactin. She also reports tiredness, cold intolerance and constipation. Which test should be checked first?",
+   "options": [
+    "TSH and FT4",
+    "Urinary metanephrines",
+    "Anti-TSH receptor antibodies",
+    "Calcitonin"
+   ],
+   "answer": 0,
+   "why": "Primary hypothyroidism can raise prolactin (hyperprolactinaemia is among its laboratory findings), and her symptoms fit hypothyroidism. Checking TSH and FT4 avoids blaming a pituitary tumour.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p45.jpg",
+     "lec": "Thyroid semiology",
+     "n": 45
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p41.jpg",
+     "lec": "Thyroid semiology",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "q": "A 50-year-old woman has a firm goitre and hypothyroidism. Which antibody result fits Hashimoto's thyroiditis?",
+   "options": [
+    "Positive anti-TPO and anti-thyroglobulin antibodies",
+    "Positive stimulating TSH receptor antibodies",
+    "Positive anti-21-hydroxylase antibodies",
+    "Negative antibodies with a hot nodule"
+   ],
+   "answer": 0,
+   "why": "The etiological antibody tests for hypothyroidism are anti-TPO and anti-Tg. Stimulating TSH receptor antibodies are the Graves' marker; anti-21-hydroxylase antibodies belong to Addison's disease.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p45.jpg",
+     "lec": "Thyroid semiology",
+     "n": 45
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p46.jpg",
+     "lec": "Thyroid semiology",
+     "n": 46
+    }
+   ]
+  },
+  {
+   "q": "An 80-year-old woman with untreated hypothyroidism is found stuporous, with a temperature of 34 °C and slow, shallow breathing. Which laboratory findings are expected?",
+   "options": [
+    "Hypoglycaemia and hyponatraemia",
+    "Hyperglycaemia and hypernatraemia",
+    "Hypercalcaemia and hyperkalaemia",
+    "Raised FT4 and suppressed TSH"
+   ],
+   "answer": 0,
+   "why": "Myxoedema coma, the end stage of untreated hypothyroidism in the elderly, combines weakness, stupor, hypothermia, hypoglycaemia, hyponatraemia and hypoventilation, and can end in shock and death.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p48.jpg",
+     "lec": "Thyroid semiology",
+     "n": 48
+    }
+   ]
+  },
+  {
+   "q": "A patient with long-standing hypothyroidism has a pericardial effusion on echocardiography. Per the lecture:",
+   "options": [
+    "The effusion is rarely large enough to cause tamponade",
+    "Tamponade is the usual outcome",
+    "It is a sign of thyroid cancer",
+    "It only occurs in hyperthyroidism"
+   ],
+   "answer": 0,
+   "why": "Myxoedema pericarditis gives an effusion that is rarely large enough to cause tamponade. The other cardiovascular complications are myxoedema cardiomyopathy with heart failure and coronary disease linked to high cholesterol.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p48.jpg",
+     "lec": "Thyroid semiology",
+     "n": 48
+    }
+   ]
+  },
+  {
+   "q": "A child from a remote mountain area with iodine-poor food has a goitre, short stature and intellectual delay. What is the most likely picture?",
+   "options": [
+    "Myxoedematous cretinism from iodine deficiency",
+    "Graves' disease",
+    "Toxic multinodular goitre",
+    "Riedel's thyroiditis"
+   ],
+   "answer": 0,
+   "why": "Iodine deficiency is the main cause of endemic goitre and of myxoedematous cretinism.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p46.jpg",
+     "lec": "Thyroid semiology",
+     "n": 46
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p43.jpg",
+     "lec": "Thyroid semiology",
+     "n": 43
+    }
+   ]
+  },
+  {
+   "q": "Which drugs are listed in the lecture as causes of hypothyroidism? (choose all)",
+   "options": [
+    "Amiodarone",
+    "Lithium",
+    "Immune checkpoint inhibitors",
+    "Levothyroxine"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Drug-induced hypothyroidism: antithyroid drugs, lithium, amiodarone, tyrosine kinase inhibitors (TKI) and checkpoint inhibitors. Levothyroxine is the treatment, not a cause.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p43.jpg",
+     "lec": "Thyroid semiology",
+     "n": 43
+    }
+   ]
+  },
+  {
+   "q": "A 40-year-old with no risk factors for cancer has a thyroid nodule graded U2 on ultrasound. What is the next step?",
+   "options": [
+    "No fine-needle aspiration is needed",
+    "Fine-needle aspiration cytology",
+    "Total thyroidectomy",
+    "Measure TSH receptor antibodies"
+   ],
+   "answer": 0,
+   "why": "U2 means benign. FNAC is done for all U3 to U5 lesions; U1 and U2 lesions need FNAC only if the patient is high risk for malignancy.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p54.jpg",
+     "lec": "Thyroid semiology",
+     "n": 54
+    }
+   ]
+  },
+  {
+   "q": "A 55-year-old has a hard thyroid nodule, a voice change for 2 months and a harsh, high-pitched noise on breathing in. Which statement is correct?",
+   "options": [
+    "The noise is stridor, a sign of upper airway obstruction, and with the hoarseness it is a warning sign",
+    "Hoarseness is expected with any benign goitre and needs no work-up",
+    "Most thyroid lumps are malignant, so surgery comes first",
+    "The noise is a thyroid bruit from high blood flow"
+   ],
+   "answer": 0,
+   "why": "Hoarseness, cervical lymph nodes and stridor (a harsh inspiratory sound from upper airway obstruction) are features that may be seen in thyroid cancer. Still, 90-95% of thyroid lumps are benign, so the work-up comes before surgery.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p53.jpg",
+     "lec": "Thyroid semiology",
+     "n": 53
+    }
+   ]
+  },
+  {
+   "q": "In a patient with a suspicious thyroid lump, which history items must be checked carefully?",
+   "options": [
+    "Family history and exposure to radiation",
+    "Recent viral infection only",
+    "Iodine-rich diet only",
+    "Contraceptive pill use"
+   ],
+   "answer": 0,
+   "why": "The work-up of a suspicious lump starts with a full clinical review, carefully evaluating family history and any exposure to radiation, then the examination and thyroid function tests.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p52.jpg",
+     "lec": "Thyroid semiology",
+     "n": 52
+    }
+   ]
+  },
+  {
+   "q": "On ultrasound, a thyroid volume of 19 cm³ means:",
+   "options": [
+    "A goitre in a woman but not in a man",
+    "A goitre in a man but not in a woman",
+    "A goitre in both sexes",
+    "A normal gland in both sexes"
+   ],
+   "answer": 0,
+   "why": "Goitre thresholds: volume above 18 cm³ in women and above 20 cm³ in men. So 19 cm³ is a goitre only in a woman.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p15.jpg",
+     "lec": "Thyroid semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "On ultrasound, a thyroid lobe measures 5 cm high, 2 cm wide and 2.8 cm thick. What does this show?",
+   "options": [
+    "A goitre, because the thickness is above 2.5 cm",
+    "A normal gland",
+    "A goitre, because the height is above 4 cm",
+    "Atrophy of the lobe"
+   ],
+   "answer": 0,
+   "why": "Normal: height 4-6 cm, width 1.5-2.5 cm, thickness 1.5-2.5 cm. A thickness above 2.5 cm means goitre.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p15.jpg",
+     "lec": "Thyroid semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "Regarding bowel habit in hyperthyroidism:",
+   "options": [
+    "Stools are often soft, but true diarrhoea is rare",
+    "Constipation is typical",
+    "Profuse diarrhoea is the rule",
+    "Bowel habit never changes"
+   ],
+   "answer": 0,
+   "why": "Thyroid hormones stimulate gut motility: stools are frequently soft, but diarrhoea is rare. Constipation belongs to hypothyroidism.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/17.jpg",
+     "lec": "Thyroid semiology",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Which pairing of tendon reflexes with thyroid state is correct?",
+   "options": [
+    "Hyperthyroidism: brisk reflexes; hypothyroidism: delayed relaxation",
+    "Hyperthyroidism: delayed relaxation; hypothyroidism: brisk reflexes",
+    "Both give absent reflexes",
+    "Reflexes do not change in thyroid disease"
+   ],
+   "answer": 0,
+   "why": "Hyperthyroidism causes hyperkinesia and hyperreflexia. Hypothyroidism causes delayed relaxation of tendon reflexes (for example of the ankle jerk).",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/17.jpg",
+     "lec": "Thyroid semiology",
+     "n": 17
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p49.jpg",
+     "lec": "Thyroid semiology",
+     "n": 49
+    }
+   ]
+  },
+  {
+   "q": "A thyrotoxic patient has lost muscle bulk. According to the slides, which action of T4 explains this?",
+   "options": [
+    "Increased protein catabolism",
+    "Increased lipolysis",
+    "Increased intestinal peristalsis",
+    "Increased nervous excitability"
+   ],
+   "answer": 0,
+   "why": "T4 increases protein catabolism, causing muscle loss (amyotrophy). Lipolysis explains the fat loss, peristalsis the soft stools and nervous excitability the tremor and irritability.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p12.jpg",
+     "lec": "Thyroid semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Which symptom favours hypothyroidism over hyperthyroidism?",
+   "options": [
+    "Cold sensitivity",
+    "Fine, brittle hair",
+    "Frequent bowel movements",
+    "Tremor"
+   ],
+   "answer": 0,
+   "why": "From the comparison table: hypothyroidism gives cold sensitivity, weight gain, dry skin and constipation; hyperthyroidism gives heat sensitivity, brittle hair, frequent stools and tremor.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p41.jpg",
+     "lec": "Thyroid semiology",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "q": "On scintigraphy, a nodule that does not take up the tracer is called:",
+   "options": [
+    "Cold",
+    "Hot",
+    "Toxic",
+    "Ectopic"
+   ],
+   "answer": 0,
+   "why": "Scintigraphy classifies nodules as hot (hyperfunctional) or cold (non-functional).",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p16.jpg",
+     "lec": "Thyroid semiology",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "A patient develops thyrotoxicosis a few weeks after a large dose of iodine (iodinated contrast). Which entity in the lecture's table fits?",
+   "options": [
+    "Jod-Basedow",
+    "Struma ovarii",
+    "Hashimoto's thyroiditis",
+    "Riedel's thyroiditis"
+   ],
+   "answer": 0,
+   "why": "Jod-Basedow is hyperthyroidism triggered by an iodine load; it is listed with the causes of true hyperthyroidism.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/33.jpg",
+     "lec": "Thyroid semiology",
+     "n": 33
+    }
+   ]
   }
  ],
  "cards": [

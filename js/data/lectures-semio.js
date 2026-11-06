@@ -11248,6 +11248,505 @@ SINA.lectures["semio-endo-thyroid"] = {
      "n": 52
     }
    ]
+  },
+  {
+   "q": "A 32-year-old woman has weight loss despite a big appetite, palpitations, heat intolerance, a diffuse goitre with a bruit and bilateral exophthalmos. Which result is the most specific for the cause?",
+   "options": [
+    "Positive TSH receptor antibodies (TRAb)",
+    "Suppressed TSH",
+    "Positive anti-TPO antibodies",
+    "Raised calcitonin"
+   ],
+   "answer": 0,
+   "why": "TRAb are highly specific to Graves' disease. A low TSH only confirms thyrotoxicosis, whatever the cause; anti-TPO and anti-Tg are used to look for the cause of hypothyroidism; calcitonin is a tumour marker for thyroid cancer.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p32.jpg",
+     "lec": "Thyroid semiology",
+     "n": 32
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p45.jpg",
+     "lec": "Thyroid semiology",
+     "n": 45
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p57.jpg",
+     "lec": "Thyroid semiology",
+     "n": 57
+    }
+   ]
+  },
+  {
+   "q": "A 45-year-old woman has thyrotoxicosis with a single painless nodule and no eye signs. What is scintigraphy most likely to show?",
+   "options": [
+    "Diffuse homogeneous hyperfixation of an enlarged gland",
+    "A hot nodule with reduced or absent uptake in the rest of the gland",
+    "Multiple functioning nodules with patchy uptake",
+    "A cold nodule"
+   ],
+   "answer": 1,
+   "why": "This is a toxic adenoma: an isolated, painless nodule, thyrotoxicosis and no ocular signs. It shows as a hot (hyperfixing) nodule while the contralateral lobe is reduced or silent. Diffuse uptake fits Graves'; patchy uptake fits toxic multinodular goitre.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p34.jpg",
+     "lec": "Thyroid semiology",
+     "n": 34
+    }
+   ]
+  },
+  {
+   "q": "A thyrotoxic patient could have Graves' disease or a toxic adenoma. Which finding points to Graves' disease?",
+   "options": [
+    "Resting tachycardia",
+    "Suppressed TSH",
+    "Exophthalmos with chemosis and diplopia",
+    "Fine tremor of the hands"
+   ],
+   "answer": 2,
+   "why": "Tachycardia, tremor and a low TSH are part of the thyrotoxicosis syndrome common to every cause. Ophthalmopathy (exophthalmos, chemosis, diplopia) belongs to Graves'; toxic adenoma has no ocular signs.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p29.jpg",
+     "lec": "Thyroid semiology",
+     "n": 29
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p34.jpg",
+     "lec": "Thyroid semiology",
+     "n": 34
+    }
+   ]
+  },
+  {
+   "q": "A 68-year-old with a long-standing euthyroid multinodular goitre now has palpitations and weight loss. The goitre is large and extends behind the sternum. Besides thyroid tests, what must the examination look for?",
+   "options": [
+    "Signs of compression",
+    "Exophthalmos",
+    "A thyroglossal cyst",
+    "Lid lag only"
+   ],
+   "answer": 0,
+   "why": "This is a toxic multinodular goitre: older patient, slow move from the non-toxic to the toxic phase, a goitre that can be large and substernal. The slides say to look for signs of compression.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p36.jpg",
+     "lec": "Thyroid semiology",
+     "n": 36
+    }
+   ]
+  },
+  {
+   "q": "A patient with Graves' ophthalmopathy notices that his vision is getting blurred and dim, not double. What does this suggest?",
+   "options": [
+    "Optic neuropathy",
+    "Simple lid retraction",
+    "Extraocular muscle dysfunction",
+    "Chemosis"
+   ],
+   "answer": 0,
+   "why": "In Graves' ophthalmopathy a decrease in visual acuity means optic neuropathy, the most serious eye sign. Double vision comes from extraocular muscle dysfunction; lid retraction and chemosis do not reduce acuity.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p29.jpg",
+     "lec": "Thyroid semiology",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "Why is the hyperthyroid phase of thyroiditis (for example de Quervain) self-limited?",
+   "options": [
+    "The stock of stored hormone runs out",
+    "TSH receptor antibodies disappear",
+    "The gland starts taking up more iodine",
+    "TSH rises and switches the gland off"
+   ],
+   "answer": 0,
+   "why": "Inflammation and cell destruction release the stored FT4 and FT3. Once that stock is depleted, the toxic phase stops (auto-limited).",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p37.jpg",
+     "lec": "Thyroid semiology",
+     "n": 37
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p38.jpg",
+     "lec": "Thyroid semiology",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "q": "In the 'hyperthyroidism versus thyrotoxicosis' table, which condition gives thyrotoxicosis WITHOUT hyperthyroidism?",
+   "options": [
+    "Graves' disease",
+    "Toxic adenoma",
+    "Subacute thyroiditis",
+    "Toxic nodular goitre"
+   ],
+   "answer": 2,
+   "why": "In thyroiditis the gland is not overproducing: hormone leaks out of damaged cells, so there is thyrotoxicosis without hyperthyroidism. Graves', toxic adenoma and toxic nodular goitre are true hyperthyroidism.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/33.jpg",
+     "lec": "Thyroid semiology",
+     "n": 33
+    }
+   ]
+  },
+  {
+   "q": "A patient has a low FT4 with a TSH that is low or normal rather than high. What does this pattern suggest?",
+   "options": [
+    "Hypothyroidism of secondary (pituitary) origin",
+    "Hashimoto's thyroiditis",
+    "Subclinical hypothyroidism",
+    "Iodine deficiency"
+   ],
+   "answer": 0,
+   "why": "In primary hypothyroidism the pituitary responds to low FT4 with a high TSH. If TSH fails to rise, the problem is the pituitary: secondary (central) hypothyroidism.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p40.jpg",
+     "lec": "Thyroid semiology",
+     "n": 40
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p45.jpg",
+     "lec": "Thyroid semiology",
+     "n": 45
+    }
+   ]
+  },
+  {
+   "q": "A 29-year-old woman has amenorrhoea and galactorrhoea with a high prolactin. She also reports tiredness, cold intolerance and constipation. Which test should be checked first?",
+   "options": [
+    "TSH and FT4",
+    "Urinary metanephrines",
+    "Anti-TSH receptor antibodies",
+    "Calcitonin"
+   ],
+   "answer": 0,
+   "why": "Primary hypothyroidism can raise prolactin (hyperprolactinaemia is among its laboratory findings), and her symptoms fit hypothyroidism. Checking TSH and FT4 avoids blaming a pituitary tumour.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p45.jpg",
+     "lec": "Thyroid semiology",
+     "n": 45
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p41.jpg",
+     "lec": "Thyroid semiology",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "q": "A 50-year-old woman has a firm goitre and hypothyroidism. Which antibody result fits Hashimoto's thyroiditis?",
+   "options": [
+    "Positive anti-TPO and anti-thyroglobulin antibodies",
+    "Positive stimulating TSH receptor antibodies",
+    "Positive anti-21-hydroxylase antibodies",
+    "Negative antibodies with a hot nodule"
+   ],
+   "answer": 0,
+   "why": "The etiological antibody tests for hypothyroidism are anti-TPO and anti-Tg. Stimulating TSH receptor antibodies are the Graves' marker; anti-21-hydroxylase antibodies belong to Addison's disease.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p45.jpg",
+     "lec": "Thyroid semiology",
+     "n": 45
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p46.jpg",
+     "lec": "Thyroid semiology",
+     "n": 46
+    }
+   ]
+  },
+  {
+   "q": "An 80-year-old woman with untreated hypothyroidism is found stuporous, with a temperature of 34 °C and slow, shallow breathing. Which laboratory findings are expected?",
+   "options": [
+    "Hypoglycaemia and hyponatraemia",
+    "Hyperglycaemia and hypernatraemia",
+    "Hypercalcaemia and hyperkalaemia",
+    "Raised FT4 and suppressed TSH"
+   ],
+   "answer": 0,
+   "why": "Myxoedema coma, the end stage of untreated hypothyroidism in the elderly, combines weakness, stupor, hypothermia, hypoglycaemia, hyponatraemia and hypoventilation, and can end in shock and death.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p48.jpg",
+     "lec": "Thyroid semiology",
+     "n": 48
+    }
+   ]
+  },
+  {
+   "q": "A patient with long-standing hypothyroidism has a pericardial effusion on echocardiography. Per the lecture:",
+   "options": [
+    "The effusion is rarely large enough to cause tamponade",
+    "Tamponade is the usual outcome",
+    "It is a sign of thyroid cancer",
+    "It only occurs in hyperthyroidism"
+   ],
+   "answer": 0,
+   "why": "Myxoedema pericarditis gives an effusion that is rarely large enough to cause tamponade. The other cardiovascular complications are myxoedema cardiomyopathy with heart failure and coronary disease linked to high cholesterol.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p48.jpg",
+     "lec": "Thyroid semiology",
+     "n": 48
+    }
+   ]
+  },
+  {
+   "q": "A child from a remote mountain area with iodine-poor food has a goitre, short stature and intellectual delay. What is the most likely picture?",
+   "options": [
+    "Myxoedematous cretinism from iodine deficiency",
+    "Graves' disease",
+    "Toxic multinodular goitre",
+    "Riedel's thyroiditis"
+   ],
+   "answer": 0,
+   "why": "Iodine deficiency is the main cause of endemic goitre and of myxoedematous cretinism.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p46.jpg",
+     "lec": "Thyroid semiology",
+     "n": 46
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p43.jpg",
+     "lec": "Thyroid semiology",
+     "n": 43
+    }
+   ]
+  },
+  {
+   "q": "Which drugs are listed in the lecture as causes of hypothyroidism? (choose all)",
+   "options": [
+    "Amiodarone",
+    "Lithium",
+    "Immune checkpoint inhibitors",
+    "Levothyroxine"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Drug-induced hypothyroidism: antithyroid drugs, lithium, amiodarone, tyrosine kinase inhibitors (TKI) and checkpoint inhibitors. Levothyroxine is the treatment, not a cause.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p43.jpg",
+     "lec": "Thyroid semiology",
+     "n": 43
+    }
+   ]
+  },
+  {
+   "q": "A 40-year-old with no risk factors for cancer has a thyroid nodule graded U2 on ultrasound. What is the next step?",
+   "options": [
+    "No fine-needle aspiration is needed",
+    "Fine-needle aspiration cytology",
+    "Total thyroidectomy",
+    "Measure TSH receptor antibodies"
+   ],
+   "answer": 0,
+   "why": "U2 means benign. FNAC is done for all U3 to U5 lesions; U1 and U2 lesions need FNAC only if the patient is high risk for malignancy.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p54.jpg",
+     "lec": "Thyroid semiology",
+     "n": 54
+    }
+   ]
+  },
+  {
+   "q": "A 55-year-old has a hard thyroid nodule, a voice change for 2 months and a harsh, high-pitched noise on breathing in. Which statement is correct?",
+   "options": [
+    "The noise is stridor, a sign of upper airway obstruction, and with the hoarseness it is a warning sign",
+    "Hoarseness is expected with any benign goitre and needs no work-up",
+    "Most thyroid lumps are malignant, so surgery comes first",
+    "The noise is a thyroid bruit from high blood flow"
+   ],
+   "answer": 0,
+   "why": "Hoarseness, cervical lymph nodes and stridor (a harsh inspiratory sound from upper airway obstruction) are features that may be seen in thyroid cancer. Still, 90-95% of thyroid lumps are benign, so the work-up comes before surgery.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p53.jpg",
+     "lec": "Thyroid semiology",
+     "n": 53
+    }
+   ]
+  },
+  {
+   "q": "In a patient with a suspicious thyroid lump, which history items must be checked carefully?",
+   "options": [
+    "Family history and exposure to radiation",
+    "Recent viral infection only",
+    "Iodine-rich diet only",
+    "Contraceptive pill use"
+   ],
+   "answer": 0,
+   "why": "The work-up of a suspicious lump starts with a full clinical review, carefully evaluating family history and any exposure to radiation, then the examination and thyroid function tests.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p52.jpg",
+     "lec": "Thyroid semiology",
+     "n": 52
+    }
+   ]
+  },
+  {
+   "q": "On ultrasound, a thyroid volume of 19 cm³ means:",
+   "options": [
+    "A goitre in a woman but not in a man",
+    "A goitre in a man but not in a woman",
+    "A goitre in both sexes",
+    "A normal gland in both sexes"
+   ],
+   "answer": 0,
+   "why": "Goitre thresholds: volume above 18 cm³ in women and above 20 cm³ in men. So 19 cm³ is a goitre only in a woman.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p15.jpg",
+     "lec": "Thyroid semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "On ultrasound, a thyroid lobe measures 5 cm high, 2 cm wide and 2.8 cm thick. What does this show?",
+   "options": [
+    "A goitre, because the thickness is above 2.5 cm",
+    "A normal gland",
+    "A goitre, because the height is above 4 cm",
+    "Atrophy of the lobe"
+   ],
+   "answer": 0,
+   "why": "Normal: height 4-6 cm, width 1.5-2.5 cm, thickness 1.5-2.5 cm. A thickness above 2.5 cm means goitre.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p15.jpg",
+     "lec": "Thyroid semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "Regarding bowel habit in hyperthyroidism:",
+   "options": [
+    "Stools are often soft, but true diarrhoea is rare",
+    "Constipation is typical",
+    "Profuse diarrhoea is the rule",
+    "Bowel habit never changes"
+   ],
+   "answer": 0,
+   "why": "Thyroid hormones stimulate gut motility: stools are frequently soft, but diarrhoea is rare. Constipation belongs to hypothyroidism.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/17.jpg",
+     "lec": "Thyroid semiology",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Which pairing of tendon reflexes with thyroid state is correct?",
+   "options": [
+    "Hyperthyroidism: brisk reflexes; hypothyroidism: delayed relaxation",
+    "Hyperthyroidism: delayed relaxation; hypothyroidism: brisk reflexes",
+    "Both give absent reflexes",
+    "Reflexes do not change in thyroid disease"
+   ],
+   "answer": 0,
+   "why": "Hyperthyroidism causes hyperkinesia and hyperreflexia. Hypothyroidism causes delayed relaxation of tendon reflexes (for example of the ankle jerk).",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/17.jpg",
+     "lec": "Thyroid semiology",
+     "n": 17
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p49.jpg",
+     "lec": "Thyroid semiology",
+     "n": 49
+    }
+   ]
+  },
+  {
+   "q": "A thyrotoxic patient has lost muscle bulk. According to the slides, which action of T4 explains this?",
+   "options": [
+    "Increased protein catabolism",
+    "Increased lipolysis",
+    "Increased intestinal peristalsis",
+    "Increased nervous excitability"
+   ],
+   "answer": 0,
+   "why": "T4 increases protein catabolism, causing muscle loss (amyotrophy). Lipolysis explains the fat loss, peristalsis the soft stools and nervous excitability the tremor and irritability.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p12.jpg",
+     "lec": "Thyroid semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Which symptom favours hypothyroidism over hyperthyroidism?",
+   "options": [
+    "Cold sensitivity",
+    "Fine, brittle hair",
+    "Frequent bowel movements",
+    "Tremor"
+   ],
+   "answer": 0,
+   "why": "From the comparison table: hypothyroidism gives cold sensitivity, weight gain, dry skin and constipation; hyperthyroidism gives heat sensitivity, brittle hair, frequent stools and tremor.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p41.jpg",
+     "lec": "Thyroid semiology",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "q": "On scintigraphy, a nodule that does not take up the tracer is called:",
+   "options": [
+    "Cold",
+    "Hot",
+    "Toxic",
+    "Ectopic"
+   ],
+   "answer": 0,
+   "why": "Scintigraphy classifies nodules as hot (hyperfunctional) or cold (non-functional).",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p16.jpg",
+     "lec": "Thyroid semiology",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "A patient develops thyrotoxicosis a few weeks after a large dose of iodine (iodinated contrast). Which entity in the lecture's table fits?",
+   "options": [
+    "Jod-Basedow",
+    "Struma ovarii",
+    "Hashimoto's thyroiditis",
+    "Riedel's thyroiditis"
+   ],
+   "answer": 0,
+   "why": "Jod-Basedow is hyperthyroidism triggered by an iodine load; it is listed with the causes of true hyperthyroidism.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/33.jpg",
+     "lec": "Thyroid semiology",
+     "n": 33
+    }
+   ]
   }
  ],
  "cards": [
@@ -13692,6 +14191,496 @@ SINA.lectures["semio-endo-adrenal"] = {
      "src": "files/slides/semio-endo-adrenal/p80.jpg",
      "lec": "Adrenal semiology",
      "n": 80
+    }
+   ]
+  },
+  {
+   "q": "A 38-year-old woman has central obesity, wide purple striae, proximal muscle weakness and hypertension. Which is the best first screening test?",
+   "options": [
+    "1 mg overnight dexamethasone suppression test",
+    "Plasma ACTH at 8 a.m.",
+    "Adrenal CT scan",
+    "High-dose dexamethasone suppression test"
+   ],
+   "answer": 0,
+   "why": "The first step is to confirm hypercortisolism. The 1 mg overnight dexamethasone test is the best screening test (24 h urinary free cortisol and midnight salivary cortisol also help). ACTH, imaging and the high-dose test come after, to find the cause.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p30.jpg",
+     "lec": "Adrenal semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "Cushing's syndrome is confirmed and the 8 a.m. plasma ACTH is undetectable. What is the next step?",
+   "options": [
+    "Adrenal imaging (CT)",
+    "Pituitary MRI",
+    "High-dose dexamethasone suppression test",
+    "Chest CT to look for an ectopic source"
+   ],
+   "answer": 0,
+   "why": "Low ACTH means ACTH-independent Cushing's (a cortisol-secreting adrenal tumour), so the next step is adrenal localising studies.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p31.jpg",
+     "lec": "Adrenal semiology",
+     "n": 31
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p33.jpg",
+     "lec": "Adrenal semiology",
+     "n": 33
+    }
+   ]
+  },
+  {
+   "q": "Cushing's syndrome is confirmed and ACTH is high or 'inappropriately normal'. Which test comes next per the slides?",
+   "options": [
+    "High-dose dexamethasone suppression test",
+    "Adrenal CT straight away",
+    "Synacthen test",
+    "Aldosterone/renin ratio"
+   ],
+   "answer": 0,
+   "why": "A normal or high ACTH means an ACTH-secreting neoplasm (Cushing's disease or ectopic ACTH). The next step is the high-dose dexamethasone suppression test.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p31.jpg",
+     "lec": "Adrenal semiology",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "q": "Cushing's is suspected in a patient with morbid obesity, alcoholism and depression. Which confirmation test is optimal for them?",
+   "options": [
+    "Low-dose dexamethasone test, 2 mg/day for 48 h",
+    "1 mg overnight dexamethasone test",
+    "Plasma ACTH",
+    "Morning serum cortisol alone"
+   ],
+   "answer": 0,
+   "why": "The low-dose test (2 mg/day for 48 h) is the optimal test for patients with psychiatric problems, morbid obesity or alcoholism.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p30.jpg",
+     "lec": "Adrenal semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "A 62-year-old heavy smoker develops hypercortisolism over a few months with marked hypokalaemia and a high ACTH. What is the most likely source?",
+   "options": [
+    "Ectopic ACTH from a small cell lung carcinoma",
+    "An adrenal adenoma",
+    "Exogenous glucocorticoids",
+    "Adrenal carcinoma"
+   ],
+   "answer": 0,
+   "why": "High ACTH means an ACTH-dependent cause. Besides a pituitary adenoma, ACTH can come from an ectopic tumour, such as small cell lung carcinoma or a neuroendocrine tumour. Adrenal tumours and exogenous steroids give a low ACTH.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p33.jpg",
+     "lec": "Adrenal semiology",
+     "n": 33
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p32.jpg",
+     "lec": "Adrenal semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "A woman with rheumatoid arthritis on long-term prednisolone develops a moon face and purple striae. What is her own ACTH expected to be?",
+   "options": [
+    "Low, because the steroid feeds back on the hypothalamus and pituitary",
+    "High, as in Cushing's disease",
+    "High, as in ectopic ACTH",
+    "Unchanged"
+   ],
+   "answer": 0,
+   "why": "Exogenous glucocorticoids cause Cushing's syndrome. Like cortisol, they exert negative feedback on CRH and ACTH, so ACTH is low.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p19.jpg",
+     "lec": "Adrenal semiology",
+     "n": 19
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p18.jpg",
+     "lec": "Adrenal semiology",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "Which blood count findings fit Cushing's syndrome? (choose all)",
+   "options": [
+    "Polycythaemia",
+    "Neutrophilic leukocytosis",
+    "Lymphopenia",
+    "Lymphocytosis"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Cortisol excess gives polycythaemia, a high white count with neutrophils (PNN) and lymphopenia, plus hypokalaemia, hypertriglyceridaemia and impaired glucose tolerance.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p32.jpg",
+     "lec": "Adrenal semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "Why do patients with Cushing's syndrome bruise without obvious injury?",
+   "options": [
+    "Capillary fragility with thin, fragile skin",
+    "Low platelet count",
+    "Clotting factor deficiency",
+    "Liver failure"
+   ],
+   "answer": 0,
+   "why": "Skin atrophy (fine, fragile skin) and capillary fragility cause ecchymoses without obvious injury.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p23.jpg",
+     "lec": "Adrenal semiology",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "A man with Cushing's syndrome may present with: (choose all)",
+   "options": [
+    "Low libido and impotence",
+    "Some degree of gynaecomastia",
+    "Acne and seborrhoea",
+    "Hyperpigmentation of the gums"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Reproductive dysfunction in Cushing's: folliculitis, acne, seborrhoea, hirsutism and alopecia; in men, lower libido, impotence and some gynaecomastia. Pigmented gums belong to primary adrenal insufficiency.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p24.jpg",
+     "lec": "Adrenal semiology",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "Which complication of Cushing's syndrome is specific to children?",
+   "options": [
+    "Growth retardation",
+    "Aseptic osteonecrosis",
+    "Vertebral compression",
+    "Myopathy"
+   ],
+   "answer": 0,
+   "why": "Bone and muscle complications include osteoporosis with fractures and vertebral compression, aseptic osteonecrosis, myopathy and, in children, growth retardation.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p37.jpg",
+     "lec": "Adrenal semiology",
+     "n": 37
+    }
+   ]
+  },
+  {
+   "q": "A 35-year-old woman has tiredness worse in the evening, weight loss, nausea, BP 90/60 and dark knuckles and gums. Na is 128 mmol/L and K 5.9 mmol/L. What is the most likely diagnosis?",
+   "options": [
+    "Primary adrenal insufficiency",
+    "Secondary adrenal insufficiency",
+    "Cushing's syndrome",
+    "Aldosterone-producing adenoma"
+   ],
+   "answer": 0,
+   "why": "Asthenia peaking in the evening, weight loss, digestive signs, hypotension, hyperpigmentation over pressure areas and gums, hyponatraemia and hyperkalaemia: primary adrenal insufficiency. Secondary AI has no hyperpigmentation and no hyperkalaemia.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p40.jpg",
+     "lec": "Adrenal semiology",
+     "n": 40
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p42.jpg",
+     "lec": "Adrenal semiology",
+     "n": 42
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p50.jpg",
+     "lec": "Adrenal semiology",
+     "n": 50
+    }
+   ]
+  },
+  {
+   "q": "How does the asthenia of adrenal insufficiency typically behave?",
+   "options": [
+    "It increases during the day, peaks in the evening and with effort",
+    "It is worst on waking and improves during the day",
+    "It appears only during fever",
+    "It is purely psychological"
+   ],
+   "answer": 0,
+   "why": "Asthenia (physical, psychological and sexual) increases during the day and is maximal in the evening and during effort.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p40.jpg",
+     "lec": "Adrenal semiology",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "q": "A patient with suspected adrenal insufficiency has an 8 a.m. cortisol of 12 µg/dL. What does this mean?",
+   "options": [
+    "It is intermediate, so a dynamic (synacthen) test is needed",
+    "Adrenal insufficiency is confirmed",
+    "Adrenal insufficiency is excluded",
+    "Cushing's syndrome is likely"
+   ],
+   "answer": 0,
+   "why": "8 a.m. cortisol below 5 µg/dL confirms AI; above 18 µg/dL excludes it. Values in between may be normal or latent insufficiency, so dynamic tests are needed.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p48.jpg",
+     "lec": "Adrenal semiology",
+     "n": 48
+    }
+   ]
+  },
+  {
+   "q": "In a standard synacthen test, cortisol rises to 14 µg/dL at 60 minutes. How is this interpreted?",
+   "options": [
+    "Adrenal insufficiency is confirmed",
+    "The response is normal",
+    "The test must be repeated with dexamethasone",
+    "It shows Cushing's disease"
+   ],
+   "answer": 0,
+   "why": "Cortisol is measured at T0 and T60 after 250 µg tetracosactide IM. An insufficient rise, below 18 µg/dL, confirms adrenal insufficiency.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p49.jpg",
+     "lec": "Adrenal semiology",
+     "n": 49
+    }
+   ]
+  },
+  {
+   "q": "After pituitary surgery, a patient has adrenal insufficiency with pale skin, frequent hypoglycaemia and no hyperkalaemia. Why is there no hyperkalaemia?",
+   "options": [
+    "Mineralocorticoid (aldosterone) secretion is preserved",
+    "ACTH is high",
+    "Cortisol is normal",
+    "The kidneys are damaged"
+   ],
+   "answer": 0,
+   "why": "In secondary AI, the problem is ACTH. Aldosterone is mainly driven by the renin-angiotensin system, so it is conserved: hypotension, digestive signs and hyperkalaemia are rare, and there is no hyperpigmentation.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p56.jpg",
+     "lec": "Adrenal semiology",
+     "n": 56
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p57.jpg",
+     "lec": "Adrenal semiology",
+     "n": 57
+    }
+   ]
+  },
+  {
+   "q": "Why does primary, but not secondary, adrenal insufficiency cause hyperpigmentation?",
+   "options": [
+    "ACTH is high in primary AI",
+    "Aldosterone is high in primary AI",
+    "Cortisol is high in secondary AI",
+    "Melanocytes are destroyed in primary AI"
+   ],
+   "answer": 0,
+   "why": "In primary AI the adrenals fail, cortisol is low and ACTH rises, causing hyperpigmentation. In secondary (pituitary) AI ACTH is low, so the skin is pale.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p61.jpg",
+     "lec": "Adrenal semiology",
+     "n": 61
+    }
+   ]
+  },
+  {
+   "q": "A patient with Addison's disease stopped his treatment, and now has collapse with a thready pulse, abdominal and lumbar pain, vomiting and confusion. Which statement is correct?",
+   "options": [
+    "Give high-dose hydrocortisone at once and take hormone samples without delaying treatment",
+    "Wait for the cortisol result before treating",
+    "Do a synacthen test before any treatment",
+    "Give a salt-free diet"
+   ],
+   "answer": 0,
+   "why": "This is acute adrenal insufficiency, triggered by stopping treatment. Hormone assays are taken without delaying treatment, and the diagnosis is confirmed by the response to high-dose hydrocortisone.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p58.jpg",
+     "lec": "Adrenal semiology",
+     "n": 58
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p59.jpg",
+     "lec": "Adrenal semiology",
+     "n": 59
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p60.jpg",
+     "lec": "Adrenal semiology",
+     "n": 60
+    }
+   ]
+  },
+  {
+   "q": "Which ECG changes come with the hyperkalaemia of acute adrenal insufficiency?",
+   "options": [
+    "QRS prolongation and large T waves",
+    "Short QT and U waves",
+    "ST elevation in all leads",
+    "Low-voltage complexes only"
+   ],
+   "answer": 0,
+   "why": "Hyperkalaemia in acute AI causes ECG disorders (QRS prolongation, large T waves), with a risk of death.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p60.jpg",
+     "lec": "Adrenal semiology",
+     "n": 60
+    }
+   ]
+  },
+  {
+   "q": "Lying BP is 110/70 mmHg. After 2 minutes standing it is 86/66 mmHg and the patient feels dizzy. How is this interpreted?",
+   "options": [
+    "Positive Schellong test (orthostatic hypotension)",
+    "Negative test, since diastolic fell less than 10 mmHg",
+    "Normal response to standing",
+    "The test is only valid after 10 minutes"
+   ],
+   "answer": 0,
+   "why": "Schellong test is positive with a fall in systolic BP of at least 20 mmHg or diastolic of at least 10 mmHg within 3 minutes of standing. Here systolic fell by 24 mmHg.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p47.jpg",
+     "lec": "Adrenal semiology",
+     "n": 47
+    }
+   ]
+  },
+  {
+   "q": "A 40-year-old has attacks of pounding headache, profuse sweating, palpitations and pallor, with BP up to 220/120 during attacks. Which first test is most useful?",
+   "options": [
+    "Urinary methoxylated derivatives (metanephrines)",
+    "Plasma catecholamines",
+    "Urinary VMA",
+    "MIBG scintigraphy before any lab test"
+   ],
+   "answer": 0,
+   "why": "The triad headache + sweating + palpitations with paroxysmal hypertension suggests phaeochromocytoma. Urinary methoxylated derivatives are the key test; plasma catecholamines are hard to interpret and VMA is no longer used.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p73.jpg",
+     "lec": "Adrenal semiology",
+     "n": 73
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p76.jpg",
+     "lec": "Adrenal semiology",
+     "n": 76
+    }
+   ]
+  },
+  {
+   "q": "Why are plasma catecholamines hard to interpret in suspected phaeochromocytoma?",
+   "options": [
+    "They are stress hormones with a short half-life",
+    "They are not secreted by the tumour",
+    "They are only found in urine",
+    "They rise only after MIBG injection"
+   ],
+   "answer": 0,
+   "why": "Plasma catecholamines are stress hormones with a short half-life, so their level is difficult to interpret. Plasma metanephrines are more useful.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p76.jpg",
+     "lec": "Adrenal semiology",
+     "n": 76
+    }
+   ]
+  },
+  {
+   "q": "A patient with a phaeochromocytoma that secretes all the time has hypertension resistant to treatment. Which other finding is possible?",
+   "options": [
+    "Orthostatic hypotension",
+    "Weight gain with cold intolerance",
+    "Hyperpigmentation",
+    "Hypoglycaemia"
+   ],
+   "answer": 0,
+   "why": "With permanent secretion, hypertension of variable level, resistant to usual treatment, is sometimes associated with orthostatic hypotension. Hypermetabolism gives weight loss, fever, thermophobia and glucose intolerance.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p75.jpg",
+     "lec": "Adrenal semiology",
+     "n": 75
+    }
+   ]
+  },
+  {
+   "q": "During abdominal palpation, a patient suddenly develops headache, sweating and a very high BP. Which mechanism do the slides describe?",
+   "options": [
+    "Paroxysmal symptoms of a phaeochromocytoma triggered by tumour compression",
+    "Acute adrenal insufficiency",
+    "A vasovagal reaction",
+    "Pituitary apoplexy"
+   ],
+   "answer": 0,
+   "why": "The paroxysmal symptoms of phaeochromocytoma can be triggered by tumour compression; during attacks BP can be much higher than usual.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p73.jpg",
+     "lec": "Adrenal semiology",
+     "n": 73
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p74.jpg",
+     "lec": "Adrenal semiology",
+     "n": 74
+    }
+   ]
+  },
+  {
+   "q": "Urinary metanephrines are clearly raised but adrenal CT is normal. Which exam searches the whole body for an ectopic or multiple tumour?",
+   "options": [
+    "MIBG scintigraphy",
+    "Noriodocholesterol scintigraphy",
+    "Thyroid scintigraphy",
+    "Repeat adrenal ultrasound"
+   ],
+   "answer": 0,
+   "why": "MIBG scintigraphy completes CT and MRI. It explores the whole body for multiple, ectopic or metastatic sites and can show small lesions missed by CT or MRI. Noriodocholesterol is used for aldosterone adenomas.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p77.jpg",
+     "lec": "Adrenal semiology",
+     "n": 77
     }
    ]
   }
@@ -20970,6 +21959,296 @@ SINA.lectures["semio-endo-pituitary"] = {
      "n": 28
     }
    ]
+  },
+  {
+   "q": "A 26-year-old woman has galactorrhoea and amenorrhoea. Her pregnancy test is negative. She has been taking metoclopramide for nausea, and her prolactin is 70 ng/mL. What is the most likely explanation?",
+   "options": [
+    "Drug-induced hyperprolactinaemia from a dopamine antagonist",
+    "A macroprolactinoma",
+    "Acromegaly with prolactin co-secretion",
+    "Primary adrenal insufficiency"
+   ],
+   "answer": 0,
+   "why": "Metoclopramide is a dopamine antagonist. Drug-induced hyperprolactinaemia is usually mild, about 25 to 100 ng/mL; only a few agents (such as risperidone) push it above 200 ng/mL.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "A young woman has secondary amenorrhoea and a mildly raised prolactin. What must be ruled out before thinking of a pituitary tumour?",
+   "options": [
+    "Pregnancy",
+    "Acromegaly",
+    "Pituitary apoplexy",
+    "Cushing's disease"
+   ],
+   "answer": 0,
+   "why": "Pregnancy is the first physiological cause of hyperprolactinaemia and of amenorrhoea. Nipple stimulation, exercise, stress and sleep can also raise prolactin.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "A 35-year-old man has headaches, low libido and erectile dysfunction. Prolactin is very high and he has bitemporal visual field loss. What does the visual loss tell you?",
+   "options": [
+    "The prolactinoma is a macroadenoma",
+    "The prolactinoma is a microadenoma",
+    "The cause is drug-induced",
+    "It is unrelated to the tumour"
+   ],
+   "answer": 0,
+   "why": "Mass effects of a prolactinoma happen with macroadenomas only. Prolactinomas are classed as micro or macro/invasive on MRI.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/08.jpg",
+     "lec": "Pituitary semiology",
+     "n": 8
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/10.jpg",
+     "lec": "Pituitary semiology",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "A non-secreting pituitary macroadenoma compresses the pituitary stalk, and prolactin is mildly raised. What explains the high prolactin?",
+   "options": [
+    "The stalk effect",
+    "Co-secretion of GH and prolactin",
+    "Hypothyroidism",
+    "A second tumour making prolactin"
+   ],
+   "answer": 0,
+   "why": "A lesion of the hypophyseal stalk (stalk effect) raises prolactin, so a non-secreting adenoma can come with mild hyperprolactinaemia. The slides list nonsecretory adenoma with the pituitary tumours.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "A 30-year-old man has gynaecomastia, infertility and low libido. Which hormone disorder should be looked for, according to the lecture?",
+   "options": [
+    "Hyperprolactinaemia",
+    "Acromegaly",
+    "Central hyperthyroidism",
+    "Pituitary apoplexy"
+   ],
+   "answer": 0,
+   "why": "In men, hyperprolactinaemia presents as hypogonadism: low libido first, then erectile dysfunction, gynaecomastia and infertility.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/08.jpg",
+     "lec": "Pituitary semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "A patient taking haloperidol has a prolactin of 60 ng/mL. Per the slides:",
+   "options": [
+    "This level fits drug-induced hyperprolactinaemia, usually 25-100 ng/mL",
+    "Any prolactin above 50 ng/mL proves a prolactinoma",
+    "Haloperidol lowers prolactin",
+    "Drug-induced values are always above 200 ng/mL"
+   ],
+   "answer": 0,
+   "why": "Medication-induced hyperprolactinaemia is usually mild (25 to 100 ng/mL). Haloperidol is a dopamine antagonist listed among the causes.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Which clinical setting raises prolactin as a side effect of a test?",
+   "options": [
+    "A thyrotropin-releasing hormone (TRH) stimulation test",
+    "A 75 g oral glucose tolerance test",
+    "A 1 mg dexamethasone suppression test",
+    "A synacthen test"
+   ],
+   "answer": 0,
+   "why": "The TRH stimulation test is listed among the causes of hyperprolactinaemia, because TRH stimulates prolactin release.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "A 45-year-old man with acromegaly snores loudly and is sleepy during the day. Which manifestation is this?",
+   "options": [
+    "Sleep apnoea, a respiratory manifestation of acromegaly",
+    "Pituitary apoplexy",
+    "Central hypothyroidism",
+    "Carpal tunnel syndrome"
+   ],
+   "answer": 0,
+   "why": "Respiratory manifestations of acromegaly: sleep apnoea (macroglossia and soft tissue thickening narrow the airway).",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/17.jpg",
+     "lec": "Pituitary semiology",
+     "n": 17
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/15.jpg",
+     "lec": "Pituitary semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "Which facial finding points to acromegaly rather than to hypothyroidism?",
+   "options": [
+    "Prognathism with teeth separation",
+    "Puffy eyelids",
+    "Loss of the outer eyebrows",
+    "Dry, coarse skin"
+   ],
+   "answer": 0,
+   "why": "Downward and forward growth of the mandible (prognathism) with teeth separation and malocclusion is acromegalic. Puffy face and eyelids, eyebrow loss and dry coarse skin are hypothyroid features.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/15.jpg",
+     "lec": "Pituitary semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "All of these are listed as manifestations of acromegaly EXCEPT:",
+   "options": [
+    "Hypoglycaemia",
+    "Colonic polyps",
+    "Left ventricular hypertrophy",
+    "Hypercalciuria"
+   ],
+   "answer": 0,
+   "why": "Acromegaly gives diabetes or impaired glucose tolerance, not hypoglycaemia. Colonic polyps, hypertension with LVH, hypercalciuria, type IV hypertriglyceridaemia and goitre are all on the slide.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/17.jpg",
+     "lec": "Pituitary semiology",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "A 40-year-old man's shoe and ring sizes have increased, with coarse features and sweating. Why is this acromegaly rather than gigantism?",
+   "options": [
+    "The GH excess started in adulthood",
+    "IGF-1 is normal",
+    "There is no prognathism",
+    "Prolactin is low"
+   ],
+   "answer": 0,
+   "why": "Acromegaly is GH hypersecretion in adults, which enlarges the hands, feet and face. Gigantism is GH excess in childhood, before growth stops.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/15.jpg",
+     "lec": "Pituitary semiology",
+     "n": 15
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/36.jpg",
+     "lec": "Pituitary semiology",
+     "n": 36
+    }
+   ]
+  },
+  {
+   "q": "A patient with a pituitary adenoma has right eyelid ptosis. Which structure is being compressed?",
+   "options": [
+    "The oculomotor nerve (III) in the cavernous sinus",
+    "The optic chiasm",
+    "The abducens nerve (VI) alone",
+    "The posterior pituitary"
+   ],
+   "answer": 0,
+   "why": "Lateral extension into the cavernous sinus compresses cranial nerves III, IV and VI, causing diplopia; ptosis comes from the oculomotor nerve (III), which lifts the eyelid.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/22.jpg",
+     "lec": "Pituitary semiology",
+     "n": 22
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/04.jpg",
+     "lec": "Pituitary semiology",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "A pituitary adenoma extends above the sella. What is the usual first visual field defect?",
+   "options": [
+    "Bitemporal loss starting in the upper fields",
+    "Loss of the lower nasal fields",
+    "Central scotoma in one eye",
+    "Complete blindness of one eye"
+   ],
+   "answer": 0,
+   "why": "Suprasellar extension compresses the optic chiasm from below: bitemporal visual loss begins in the superior field portions (bitemporal superior quadrantanopia), then bitemporal hemianopia.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/24.jpg",
+     "lec": "Pituitary semiology",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "A man with a known macroadenoma suddenly has a severe headache, visual loss, ophthalmoplegia, neck stiffness and drowsiness. Which statement is correct?",
+   "options": [
+    "It is pituitary apoplexy, an emergency that often leaves pituitary insufficiency",
+    "It is a migraine and needs no imaging",
+    "It is the usual slow mass effect of a prolactinoma",
+    "Surgery should be delayed for at least a month"
+   ],
+   "answer": 0,
+   "why": "Pituitary apoplexy is a haemorrhagic infarction of the tumour: fulminant, a medical emergency, frequently followed by partial or total pituitary insufficiency. Early transsphenoidal decompression is done within 8 days.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/25.jpg",
+     "lec": "Pituitary semiology",
+     "n": 25
+    }
+   ]
+  },
+  {
+   "q": "Which signs of pituitary mass effect are described as RARE?",
+   "options": [
+    "Papilloedema and optic atrophy",
+    "Bitemporal hemianopia",
+    "Bitemporal superior quadrantanopia",
+    "Headache"
+   ],
+   "answer": 0,
+   "why": "Rarely, decreased visual acuity, pupillary abnormalities, optic atrophy, papilloedema, cranial nerve palsies and nystagmus are seen. Bitemporal field defects are the classic signs.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/24.jpg",
+     "lec": "Pituitary semiology",
+     "n": 24
+    }
+   ]
   }
  ],
  "cards": [
@@ -23934,6 +25213,364 @@ SINA.lectures["semio-endo-diabetes"] = {
      "src": "files/slides/semio-endo-diabetes/79.jpg",
      "lec": "Diabetes semiology",
      "n": 79
+    }
+   ]
+  },
+  {
+   "q": "A patient's blood glucose is 1.6 g/L. Should glucose appear in the urine?",
+   "options": [
+    "No, glycosuria starts above about 1.8 g/L",
+    "Yes, any value above 1.26 g/L causes glycosuria",
+    "Yes, glycosuria starts at 1.10 g/L",
+    "Glycosuria depends only on HbA1c"
+   ],
+   "answer": 0,
+   "why": "Glucose passes into the urine once blood sugar exceeds about 1.8 g/L, the threshold of tubular reabsorption.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/10.jpg",
+     "lec": "Diabetes semiology",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "Why does a person with uncontrolled diabetes lose weight while eating more?",
+   "options": [
+    "Without insulin the cells behave as if fasting, so fat is broken down and hunger rises",
+    "Polyuria removes the fat",
+    "Thyroid hormone rises in diabetes",
+    "Food is not absorbed by the gut"
+   ],
+   "answer": 0,
+   "why": "A defect of insulin leads to lipolysis: the cells are in a 'fasting state', so weight drops and polyphagia appears as compensation.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/09.jpg",
+     "lec": "Diabetes semiology",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "Put the hyperglycaemia symptoms in their causal order:",
+   "options": [
+    "Glycosuria, then osmotic diuresis with polyuria, then polydipsia",
+    "Polydipsia, then polyuria, then glycosuria",
+    "Polyphagia, then polyuria, then glycosuria",
+    "Polyuria, then glycosuria, then hyperglycaemia"
+   ],
+   "answer": 0,
+   "why": "Hyperglycaemia causes glycosuria; glycosuria causes an osmotic diuresis (polyuria); polyuria causes polydipsia. In primary polydipsia the order is reversed: drinking comes first.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/09.jpg",
+     "lec": "Diabetes semiology",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "A thin 19-year-old has had 3 weeks of thirst, frequent urination and weight loss. Today he has vomiting, abdominal pain, fruity breath and deep, rapid breathing. What is the most likely situation?",
+   "options": [
+    "Type 1 diabetes revealed by ketoacidosis",
+    "Type 2 diabetes revealed by a hyperosmolar state",
+    "Simple gastroenteritis",
+    "Hypoglycaemia"
+   ],
+   "answer": 0,
+   "why": "Young, thin, acute onset with hyperglycaemia symptoms, then ketosis (fruity breath, nausea, vomiting, abdominal pain) and Kussmaul breathing: type 1 diabetes revealed by ketoacidosis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/17.jpg",
+     "lec": "Diabetes semiology",
+     "n": 17
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/30.jpg",
+     "lec": "Diabetes semiology",
+     "n": 30
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/32.jpg",
+     "lec": "Diabetes semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "A 55-year-old obese man with hypertension has a fasting glucose of 1.35 g/L on two check-up samples. He has no symptoms. Which statement is correct?",
+   "options": [
+    "This is an accidental diagnosis, and chronic complications should be assessed now",
+    "He does not have diabetes because he has no symptoms",
+    "Complications cannot exist yet since diabetes was just found",
+    "Ketoacidosis is the usual way type 2 diabetes is revealed"
+   ],
+   "answer": 0,
+   "why": "Diabetes can be found by chance. Diagnosis comes on average 2 to 3 years after the real onset, so in type 2 diabetes chronic complications are assessed at discovery.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/06.jpg",
+     "lec": "Diabetes semiology",
+     "n": 6
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/22.jpg",
+     "lec": "Diabetes semiology",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Which single result is enough to diagnose diabetes?",
+   "options": [
+    "Random plasma glucose of 2.3 g/L in a patient with polyuria and polydipsia",
+    "One fasting glucose of 1.28 g/L",
+    "HbA1c of 6.2%",
+    "2-hour OGTT glucose of 1.7 g/L"
+   ],
+   "answer": 0,
+   "why": "A random glucose ≥ 2 g/L with classic symptoms is diagnostic. Fasting glucose ≥ 1.26 g/L must be confirmed on 2 samples; HbA1c 6.2% and a 2-hour value of 1.7 g/L are below the thresholds.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/12.jpg",
+     "lec": "Diabetes semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "During a 75 g OGTT, the 2-hour glucose is 11.5 mmol/L. What does it mean?",
+   "options": [
+    "It meets the diabetes criterion (≥ 11.1 mmol/L)",
+    "It is normal",
+    "It is prediabetes only",
+    "OGTT cannot be used to diagnose diabetes"
+   ],
+   "answer": 0,
+   "why": "A 2-hour plasma glucose ≥ 200 mg/dL (11.1 mmol/L) during an OGTT is a diagnostic criterion.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/12.jpg",
+     "lec": "Diabetes semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "An HbA1c of 50 mmol/mol is:",
+   "options": [
+    "Above the diabetes threshold of 48 mmol/mol (6.5%)",
+    "Normal",
+    "In the prediabetes range only",
+    "Below the threshold of 58 mmol/mol"
+   ],
+   "answer": 0,
+   "why": "HbA1c ≥ 6.5%, that is 48 mmol/mol, is a diagnostic criterion.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/12.jpg",
+     "lec": "Diabetes semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "A fasting glucose of 1.15 g/L and a 2-hour OGTT value of 1.55 g/L are:",
+   "options": [
+    "Abnormal but below the diabetes thresholds",
+    "Normal",
+    "Diagnostic of diabetes",
+    "Typical of hypoglycaemia"
+   ],
+   "answer": 0,
+   "why": "Normal is fasting under 1.10 g/L and under 1.40 g/L 2 hours after OGTT. Diabetes needs fasting ≥ 1.26 g/L or 2-hour ≥ 2 g/L. These values sit in between (prediabetes range).",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/05.jpg",
+     "lec": "Diabetes semiology",
+     "n": 5
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/12.jpg",
+     "lec": "Diabetes semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "A 28-year-old woman with Hashimoto's thyroiditis, a normal build and no family history of diabetes develops polyuria over 2 weeks, with ketones in the urine. Which type fits best?",
+   "options": [
+    "Type 1, as suggested by a personal history of autoimmune disease and ketosis",
+    "Type 2, since autoimmunity is typical of type 2",
+    "Gestational diabetes",
+    "Type 2, because the onset is acute"
+   ],
+   "answer": 0,
+   "why": "Type 1: acute onset in a young, normal-to-thin person, ketosis at onset, no family history and a history of autoimmune disease. Autoantibodies and other autoimmune diseases point to type 1.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/17.jpg",
+     "lec": "Diabetes semiology",
+     "n": 17
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/23.jpg",
+     "lec": "Diabetes semiology",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "Why can type 1 diabetes appear abruptly in a previously well young person?",
+   "options": [
+    "Symptoms appear only after about 90% of beta cells are destroyed",
+    "Insulin resistance develops in a few days",
+    "The pancreas is removed by autoantibodies at once",
+    "Glucose stops being filtered by the kidney"
+   ],
+   "answer": 0,
+   "why": "The autoimmune destruction is silent for a long time; diabetes becomes apparent after about 90% of the beta cells have been destroyed.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/15.jpg",
+     "lec": "Diabetes semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "A known type 2 diabetic presents in ketoacidosis. What is the most likely explanation?",
+   "options": [
+    "An additional factor, such as an infection or intercurrent illness",
+    "Type 2 diabetes usually begins with ketoacidosis",
+    "Too much exercise",
+    "A high-protein diet"
+   ],
+   "answer": 0,
+   "why": "In type 2 diabetes ketosis is usually absent; ketoacidosis occurs if there is an additional factor (infection, intercurrent disease). The lecture's conclusion: type 2 diabetes has no inaugural ketoacidosis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/22.jpg",
+     "lec": "Diabetes semiology",
+     "n": 22
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/23.jpg",
+     "lec": "Diabetes semiology",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "In which patients can ketoacidosis develop quickly instead of over a few days? (choose all)",
+   "options": [
+    "A child",
+    "A pregnant woman",
+    "A patient whose insulin pump malfunctions",
+    "A middle-aged adult on stable insulin injections"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "DKA signs usually develop gradually over a few days, except in children, pregnant women and the elderly, or when an insulin pump malfunctions.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/30.jpg",
+     "lec": "Diabetes semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "What does Kussmaul breathing in ketoacidosis correspond to?",
+   "options": [
+    "A sign of acidosis: fast, deep breathing",
+    "A sign of hypoglycaemia",
+    "Slow, shallow breathing from drowsiness",
+    "Bronchospasm"
+   ],
+   "answer": 0,
+   "why": "Kussmaul respiration (tachypnoea with deep inspirations) is listed among the signs of acidosis in moderate to severe ketoacidosis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/32.jpg",
+     "lec": "Diabetes semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "Which features suggest type 2 rather than type 1 diabetes? (choose all)",
+   "options": [
+    "Overweight with hypertension and dyslipidaemia",
+    "A strong family history of diabetes",
+    "Insulin secretion still present",
+    "Autoantibodies at diagnosis"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Type 2: age over 40, progressive onset, strong family history, overweight, cardiovascular risk factors and persistent insulin secretion. Autoantibodies belong to type 1.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/23.jpg",
+     "lec": "Diabetes semiology",
+     "n": 23
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/21.jpg",
+     "lec": "Diabetes semiology",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "Which examination findings are sought when diabetes is discovered? (choose all)",
+   "options": [
+    "Signs of dehydration",
+    "Signs of infection",
+    "Weight, height and BMI",
+    "Hyperpigmentation of the gums"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "At diagnosis: capillary blood glucose, glycosuria, signs of dehydration, weight and height with BMI, infectious signs and a search for complications. Pigmented gums point to adrenal insufficiency.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/10.jpg",
+     "lec": "Diabetes semiology",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "A previously undiagnosed 60-year-old is admitted with a stroke, and his glucose is very high. Per the lecture:",
+   "options": [
+    "A stroke can reveal diabetes, or trigger a ketoacidosis that reveals it",
+    "Diabetes can never first appear at a complication",
+    "The high glucose rules out diabetes",
+    "Strokes only happen in type 1 diabetes"
+   ],
+   "answer": 0,
+   "why": "Diabetes may be discovered at an acute or chronic complication. A stroke can reveal diabetes or induce a DKA revealing diabetes.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/77.jpg",
+     "lec": "Diabetes semiology",
+     "n": 77
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/06.jpg",
+     "lec": "Diabetes semiology",
+     "n": 6
     }
    ]
   }

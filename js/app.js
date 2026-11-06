@@ -1441,8 +1441,8 @@
       pool = pickFresh(pool, count === "all" ? pool.length : Math.max(1, +count || 20));
       var seenKey = "sina:seen:" + picked.slice().sort().join("+");
       if (store.get(seenKey, false)) pool = pool.map(shuffleQ); else store.set(seenKey, true);
-      p.innerHTML = '<div class="quiz-top"><button class="btn small-btn" id="qback" type="button">&larr; Change lectures</button><span class="meta">' + esc(picked.length === 1 ? lectureTitle(picked[0]) : picked.length + " lectures mixed") + '</span></div><div id="quiz"></div>';
-      p.querySelector("#qback").addEventListener("click", picker);
+      p.innerHTML = '<div class="quiz-top"><button class="btn small-btn" id="qback" type="button">' + (picked.length === 1 ? "+ Add more lectures" : "&larr; Change lectures") + '</button><span class="meta"' + (picked.length > 1 ? ' title="' + esc(picked.map(lectureTitle).join(", ")) + '"' : "") + ">" + esc(picked.length === 1 ? lectureTitle(picked[0]) : picked.length + " lectures mixed") + '</span></div><div id="quiz"></div>';
+      p.querySelector("#qback").addEventListener("click", function () { picker(); window.scrollTo(0, 0); });
       var set = { id: "mix:" + picked.slice().sort().join("+") + ":" + count, mcqs: pool };
       if (exam) examIntro(p.querySelector("#quiz"), set, picker); else questionsPanel(p.querySelector("#quiz"), set);
       window.scrollTo(0, 0);

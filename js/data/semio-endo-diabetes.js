@@ -2866,6 +2866,364 @@ SINA.lectures["semio-endo-diabetes"] = {
      "n": 79
     }
    ]
+  },
+  {
+   "q": "A patient's blood glucose is 1.6 g/L. Should glucose appear in the urine?",
+   "options": [
+    "No, glycosuria starts above about 1.8 g/L",
+    "Yes, any value above 1.26 g/L causes glycosuria",
+    "Yes, glycosuria starts at 1.10 g/L",
+    "Glycosuria depends only on HbA1c"
+   ],
+   "answer": 0,
+   "why": "Glucose passes into the urine once blood sugar exceeds about 1.8 g/L, the threshold of tubular reabsorption.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/10.jpg",
+     "lec": "Diabetes semiology",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "Why does a person with uncontrolled diabetes lose weight while eating more?",
+   "options": [
+    "Without insulin the cells behave as if fasting, so fat is broken down and hunger rises",
+    "Polyuria removes the fat",
+    "Thyroid hormone rises in diabetes",
+    "Food is not absorbed by the gut"
+   ],
+   "answer": 0,
+   "why": "A defect of insulin leads to lipolysis: the cells are in a 'fasting state', so weight drops and polyphagia appears as compensation.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/09.jpg",
+     "lec": "Diabetes semiology",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "Put the hyperglycaemia symptoms in their causal order:",
+   "options": [
+    "Glycosuria, then osmotic diuresis with polyuria, then polydipsia",
+    "Polydipsia, then polyuria, then glycosuria",
+    "Polyphagia, then polyuria, then glycosuria",
+    "Polyuria, then glycosuria, then hyperglycaemia"
+   ],
+   "answer": 0,
+   "why": "Hyperglycaemia causes glycosuria; glycosuria causes an osmotic diuresis (polyuria); polyuria causes polydipsia. In primary polydipsia the order is reversed: drinking comes first.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/09.jpg",
+     "lec": "Diabetes semiology",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "A thin 19-year-old has had 3 weeks of thirst, frequent urination and weight loss. Today he has vomiting, abdominal pain, fruity breath and deep, rapid breathing. What is the most likely situation?",
+   "options": [
+    "Type 1 diabetes revealed by ketoacidosis",
+    "Type 2 diabetes revealed by a hyperosmolar state",
+    "Simple gastroenteritis",
+    "Hypoglycaemia"
+   ],
+   "answer": 0,
+   "why": "Young, thin, acute onset with hyperglycaemia symptoms, then ketosis (fruity breath, nausea, vomiting, abdominal pain) and Kussmaul breathing: type 1 diabetes revealed by ketoacidosis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/17.jpg",
+     "lec": "Diabetes semiology",
+     "n": 17
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/30.jpg",
+     "lec": "Diabetes semiology",
+     "n": 30
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/32.jpg",
+     "lec": "Diabetes semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "A 55-year-old obese man with hypertension has a fasting glucose of 1.35 g/L on two check-up samples. He has no symptoms. Which statement is correct?",
+   "options": [
+    "This is an accidental diagnosis, and chronic complications should be assessed now",
+    "He does not have diabetes because he has no symptoms",
+    "Complications cannot exist yet since diabetes was just found",
+    "Ketoacidosis is the usual way type 2 diabetes is revealed"
+   ],
+   "answer": 0,
+   "why": "Diabetes can be found by chance. Diagnosis comes on average 2 to 3 years after the real onset, so in type 2 diabetes chronic complications are assessed at discovery.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/06.jpg",
+     "lec": "Diabetes semiology",
+     "n": 6
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/22.jpg",
+     "lec": "Diabetes semiology",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Which single result is enough to diagnose diabetes?",
+   "options": [
+    "Random plasma glucose of 2.3 g/L in a patient with polyuria and polydipsia",
+    "One fasting glucose of 1.28 g/L",
+    "HbA1c of 6.2%",
+    "2-hour OGTT glucose of 1.7 g/L"
+   ],
+   "answer": 0,
+   "why": "A random glucose ≥ 2 g/L with classic symptoms is diagnostic. Fasting glucose ≥ 1.26 g/L must be confirmed on 2 samples; HbA1c 6.2% and a 2-hour value of 1.7 g/L are below the thresholds.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/12.jpg",
+     "lec": "Diabetes semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "During a 75 g OGTT, the 2-hour glucose is 11.5 mmol/L. What does it mean?",
+   "options": [
+    "It meets the diabetes criterion (≥ 11.1 mmol/L)",
+    "It is normal",
+    "It is prediabetes only",
+    "OGTT cannot be used to diagnose diabetes"
+   ],
+   "answer": 0,
+   "why": "A 2-hour plasma glucose ≥ 200 mg/dL (11.1 mmol/L) during an OGTT is a diagnostic criterion.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/12.jpg",
+     "lec": "Diabetes semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "An HbA1c of 50 mmol/mol is:",
+   "options": [
+    "Above the diabetes threshold of 48 mmol/mol (6.5%)",
+    "Normal",
+    "In the prediabetes range only",
+    "Below the threshold of 58 mmol/mol"
+   ],
+   "answer": 0,
+   "why": "HbA1c ≥ 6.5%, that is 48 mmol/mol, is a diagnostic criterion.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/12.jpg",
+     "lec": "Diabetes semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "A fasting glucose of 1.15 g/L and a 2-hour OGTT value of 1.55 g/L are:",
+   "options": [
+    "Abnormal but below the diabetes thresholds",
+    "Normal",
+    "Diagnostic of diabetes",
+    "Typical of hypoglycaemia"
+   ],
+   "answer": 0,
+   "why": "Normal is fasting under 1.10 g/L and under 1.40 g/L 2 hours after OGTT. Diabetes needs fasting ≥ 1.26 g/L or 2-hour ≥ 2 g/L. These values sit in between (prediabetes range).",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/05.jpg",
+     "lec": "Diabetes semiology",
+     "n": 5
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/12.jpg",
+     "lec": "Diabetes semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "A 28-year-old woman with Hashimoto's thyroiditis, a normal build and no family history of diabetes develops polyuria over 2 weeks, with ketones in the urine. Which type fits best?",
+   "options": [
+    "Type 1, as suggested by a personal history of autoimmune disease and ketosis",
+    "Type 2, since autoimmunity is typical of type 2",
+    "Gestational diabetes",
+    "Type 2, because the onset is acute"
+   ],
+   "answer": 0,
+   "why": "Type 1: acute onset in a young, normal-to-thin person, ketosis at onset, no family history and a history of autoimmune disease. Autoantibodies and other autoimmune diseases point to type 1.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/17.jpg",
+     "lec": "Diabetes semiology",
+     "n": 17
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/23.jpg",
+     "lec": "Diabetes semiology",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "Why can type 1 diabetes appear abruptly in a previously well young person?",
+   "options": [
+    "Symptoms appear only after about 90% of beta cells are destroyed",
+    "Insulin resistance develops in a few days",
+    "The pancreas is removed by autoantibodies at once",
+    "Glucose stops being filtered by the kidney"
+   ],
+   "answer": 0,
+   "why": "The autoimmune destruction is silent for a long time; diabetes becomes apparent after about 90% of the beta cells have been destroyed.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/15.jpg",
+     "lec": "Diabetes semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "A known type 2 diabetic presents in ketoacidosis. What is the most likely explanation?",
+   "options": [
+    "An additional factor, such as an infection or intercurrent illness",
+    "Type 2 diabetes usually begins with ketoacidosis",
+    "Too much exercise",
+    "A high-protein diet"
+   ],
+   "answer": 0,
+   "why": "In type 2 diabetes ketosis is usually absent; ketoacidosis occurs if there is an additional factor (infection, intercurrent disease). The lecture's conclusion: type 2 diabetes has no inaugural ketoacidosis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/22.jpg",
+     "lec": "Diabetes semiology",
+     "n": 22
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/23.jpg",
+     "lec": "Diabetes semiology",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "In which patients can ketoacidosis develop quickly instead of over a few days? (choose all)",
+   "options": [
+    "A child",
+    "A pregnant woman",
+    "A patient whose insulin pump malfunctions",
+    "A middle-aged adult on stable insulin injections"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "DKA signs usually develop gradually over a few days, except in children, pregnant women and the elderly, or when an insulin pump malfunctions.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/30.jpg",
+     "lec": "Diabetes semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "What does Kussmaul breathing in ketoacidosis correspond to?",
+   "options": [
+    "A sign of acidosis: fast, deep breathing",
+    "A sign of hypoglycaemia",
+    "Slow, shallow breathing from drowsiness",
+    "Bronchospasm"
+   ],
+   "answer": 0,
+   "why": "Kussmaul respiration (tachypnoea with deep inspirations) is listed among the signs of acidosis in moderate to severe ketoacidosis.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/32.jpg",
+     "lec": "Diabetes semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "Which features suggest type 2 rather than type 1 diabetes? (choose all)",
+   "options": [
+    "Overweight with hypertension and dyslipidaemia",
+    "A strong family history of diabetes",
+    "Insulin secretion still present",
+    "Autoantibodies at diagnosis"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Type 2: age over 40, progressive onset, strong family history, overweight, cardiovascular risk factors and persistent insulin secretion. Autoantibodies belong to type 1.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/23.jpg",
+     "lec": "Diabetes semiology",
+     "n": 23
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/21.jpg",
+     "lec": "Diabetes semiology",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "Which examination findings are sought when diabetes is discovered? (choose all)",
+   "options": [
+    "Signs of dehydration",
+    "Signs of infection",
+    "Weight, height and BMI",
+    "Hyperpigmentation of the gums"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "At diagnosis: capillary blood glucose, glycosuria, signs of dehydration, weight and height with BMI, infectious signs and a search for complications. Pigmented gums point to adrenal insufficiency.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/10.jpg",
+     "lec": "Diabetes semiology",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "A previously undiagnosed 60-year-old is admitted with a stroke, and his glucose is very high. Per the lecture:",
+   "options": [
+    "A stroke can reveal diabetes, or trigger a ketoacidosis that reveals it",
+    "Diabetes can never first appear at a complication",
+    "The high glucose rules out diabetes",
+    "Strokes only happen in type 1 diabetes"
+   ],
+   "answer": 0,
+   "why": "Diabetes may be discovered at an acute or chronic complication. A stroke can reveal diabetes or induce a DKA revealing diabetes.",
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/77.jpg",
+     "lec": "Diabetes semiology",
+     "n": 77
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/06.jpg",
+     "lec": "Diabetes semiology",
+     "n": 6
+    }
+   ]
   }
  ],
  "cards": [

@@ -3,6 +3,8 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "6 November 2026", items: [
+    "Added: 81 medium-level Semiology endocrine MCQs on the midterm scope (thyroid 25, pituitary 15, adrenal 24, diabetes 17), with slide highlights.",
+    "Changed: a single-lecture quiz now has an Add more lectures button to mix several lectures in one quiz.",
     "Added: Weak spots: your 5 lowest-scoring lectures and a 20-question quiz built from them (on the home page, the midterm card and My progress).",
     "Fixed: options merged or repeated in 5 past-paper questions (Anatomy 2 abdomen mock, Molecular biology Jan 2023, Histology exam)."
   ] },
