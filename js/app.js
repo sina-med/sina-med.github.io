@@ -1214,7 +1214,7 @@
       var n = 0; m.groups.forEach(function (g) { n += g.items.length; });
       var dl = midDaysLeft(m), cram = dl !== null && dl >= 0 && dl <= 7;
       midHTML += '<div class="mid-card' + (cram ? " cram" + (dl <= 1 ? " cram-red" : "") : "") + '"><div class="mid-main"><p class="mid-eyebrow">' + (cram ? (dl === 0 ? "Midterm today" : dl === 1 ? "Midterm tomorrow" : "Midterm week") : "Upcoming") + '</p><h2>' + esc(m.title) + '</h2>' + midCountdown(m) + '<p class="meta">' + esc(midLine(m)) + '</p><div class="row">' +
-        (n === 1 ? '<a class="btn primary" href="#/lecture/' + m.groups[0].items[0] + '">Revise the lecture</a>' : '<a class="btn primary" href="#/midterm">Revise the lectures</a>') + midSubs(m).map(function (sid) { var sb = subjectById(sid); return '<a class="btn" href="#/practice/' + sid + '/lectures/midterm">' + (midSubs(m).length > 1 && sb ? esc(sb.name) + " questions" : "Practice questions") + "</a>"; }).join("") +
+        (n === 1 ? '<a class="btn primary" href="#/lecture/' + m.groups[0].items[0] + '">Revise the lecture</a>' : '<a class="btn primary" href="#/midterm">Revise the lectures</a>') + midSubs(m).map(function (sid) { var sb = subjectById(sid); return '<a class="btn" href="#/practice/' + sid + '/lectures/midterm">' + (midSubs(m).length > 1 && sb ? esc(sb.name) + " questions" : "Practice questions") + "</a>"; }).join("") + '<a class="btn" href="#/weak/midterm">Weak-spot quiz</a>' +
         (midSubs(m).length === 1 && (S.papers || []).some(function (x) { return x.subject === m.subject; }) ? '<a class="btn" href="#/practice/' + m.subject + '/papers">Past papers as quizzes</a>' : "") + "</div></div>" + midWidgets(m) + (cram ? cramPlan(m, dl) : "") + "</div>";
     });
     var html = '<div class="wrap wide"><section class="hero slim"><div class="hero-grid"><div class="hero-text"><p class="hero-brand">Sina<span>.</span></p><h1>Study each lecture, then test yourself on it.</h1>' +
@@ -2322,6 +2322,7 @@
       go: '<path d="M8 5l11 7-11 7z" fill="currentColor"/>',
       redo: '<path d="M4 12a8 8 0 1 0 2.4-5.7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M4 3v5h5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>',
       prog: '<circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2.2" opacity=".3"/><path d="M12 3.5a8.5 8.5 0 0 1 8.5 8.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M7 12.5h2.5l1.5-3 2 6 1.5-3H17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>',
+      weak: '<circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="1.4" fill="currentColor"/>',
       lb: '<path d="M7 4h10v4a5 5 0 0 1-10 0z" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linejoin="round"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4M12 13v4M8 20h8" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>'
     };
     var t = function (href, k, title, sub, cls) { return '<a class="qtile' + (cls ? " " + cls : "") + '" href="' + href + '"><span class="qt-ico"><svg viewBox="0 0 24 24" aria-hidden="true">' + ico[k] + '</svg></span><span class="qt-t">' + title + '</span><span class="qt-s">' + sub + "</span></a>"; };
@@ -2332,6 +2333,7 @@
     h += t("#/mistakes", "redo", "Redo my mistakes", mk ? mk + " question" + (mk > 1 ? "s" : "") + " to redo" : "No mistakes yet", mk ? "qt-hot" : "");
     var due = allDue();
     if (due) h += t("#/review", "redo", "Review due", due + " review" + (due > 1 ? "s" : "") + " for today", "qt-hot");
+    h += t("#/weak", "weak", "Weak spots", seen >= 6 ? "Quiz your 5 weakest lectures" : "Shows up as you answer", "");
     h += t("#/progress", "prog", "My progress", seen ? Math.round(ok / seen * 100) + "% accuracy · " + seen + " answered" : "Start a quiz to track it");
     if (S.api) h += t("#/leaderboard", "lb", "Leaderboard", "Best past paper scores");
     return h + "</nav>";
@@ -2633,6 +2635,53 @@
     app.querySelectorAll(".mk-row").forEach(function (b) { b.onclick = function () { start(by[b.dataset.l]); }; });
   }
 
+  /* ---------- weak spots: the lectures you get wrong most, then a quiz built from them ---------- */
+  function weakData(onlyMid) {
+    var st = store.get("sina:stats", {}), mk = store.get("sina:mistakes", {}), rt = store.get("sina:right", {}), idx = qIndex(), mid = progMidterms()[0], scope = null;
+    if (onlyMid && mid) { scope = {}; mid.groups.forEach(function (g) { g.items.forEach(function (id) { scope[id] = 1; }); }); }
+    var byL = {};
+    Object.keys(idx).forEach(function (k) { var e = idx[k]; if (!S.lectures[e.lid] || !inProgram(e.lid) || (scope && !scope[e.lid])) return; (byL[e.lid] = byL[e.lid] || []).push(k); });
+    var rows = Object.keys(byL).filter(function (lid) { return st[lid] && st[lid][0] >= 3; }).map(function (lid) {
+      var a = st[lid][0], r = st[lid][1], miss = byL[lid].filter(function (k) { return mk[k]; }).length;
+      return { lid: lid, a: a, r: r, pct: Math.round(r / a * 100), score: (r + 1) / (a + 2), miss: miss, keys: byL[lid] };
+    }).sort(function (x, y) { return x.score - y.score || y.miss - x.miss; });
+    var untried = Object.keys(byL).filter(function (lid) { return !st[lid] || st[lid][0] < 3; });
+    return { rows: rows, weak: rows.filter(function (x) { return x.pct < 90; }).slice(0, 5), untried: untried, mid: mid, scope: !!scope, mk: mk, rt: rt, idx: idx };
+  }
+  function weakView(arg) {
+    var mid = progMidterms()[0], only = arg === "midterm" || (arg !== "all" && !!mid && store.get("sina:weakMid", true));
+    var W = weakData(only), N = 20;
+    var html = '<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / <a href="#/progress">My progress</a> / Weak spots</p><h1>Weak spots</h1>' +
+      '<p class="lede-s">Your 5 lectures with the lowest score so far, and a quiz built from them: your past mistakes first, then questions you have not got right yet.</p>';
+    if (mid) html += '<div class="chips quick wk-scope" role="group" aria-label="Which lectures"><button type="button" data-w="midterm" aria-pressed="' + only + '"' + (only ? ' class="on"' : "") + ">" + esc(mid.title) + ' lectures</button><button type="button" data-w="all" aria-pressed="' + !only + '"' + (!only ? ' class="on"' : "") + ">All lectures</button></div>";
+    if (!W.weak.length) {
+      html += '<p class="empty-note">' + (W.rows.length ? "No weak spots: you score 90% or more in every lecture you have practised" + (W.scope ? " for this midterm" : "") + ". Well done." : "Not enough answers yet. Answer at least 3 questions in a few lectures" + (W.scope ? " from this midterm" : "") + " and your weak spots will show here.") + "</p>";
+      if (W.untried.length) html += '<p class="meta">Not practised yet: ' + W.untried.slice(0, 8).map(function (lid) { return '<a href="#/subject/' + S.lectures[lid].subject + "/questions/" + lid + '">' + esc(lectureTitle(lid) || S.lectures[lid].title) + "</a>"; }).join(", ") + (W.untried.length > 8 ? "…" : "") + ".</p>";
+      setView(html + "</div>", "Weak spots"); wkWire(); return;
+    }
+    html += '<ol class="wk-list">' + W.weak.map(function (x) {
+      var tone = x.pct < 50 ? "low" : x.pct < 75 ? "mid" : "good";
+      return '<li><a href="#/subject/' + S.lectures[x.lid].subject + "/questions/" + x.lid + '"><span class="wk-name">' + esc(lectureTitle(x.lid) || S.lectures[x.lid].title) + '</span><span class="wk-num">' + x.pct + "% right · " + x.r + "/" + x.a + (x.miss ? " · " + x.miss + " to redo" : "") + '</span><span class="pb-track"><span class="pb-fill ' + tone + '" style="--w:' + Math.max(2, x.pct) + '%"></span></span></a></li>';
+    }).join("") + "</ol>" +
+      '<div class="row"><button class="btn primary" id="wk-go" type="button">Start the weak-spot quiz (' + N + " questions)</button></div>" +
+      (W.untried.length ? '<p class="meta">Not practised yet' + (W.scope ? " for this midterm" : "") + ": " + W.untried.slice(0, 6).map(function (lid) { return '<a href="#/subject/' + S.lectures[lid].subject + "/questions/" + lid + '">' + esc(lectureTitle(lid) || S.lectures[lid].title) + "</a>"; }).join(", ") + (W.untried.length > 6 ? "…" : "") + ".</p>" : "") +
+      '<div id="wkq"></div></div>';
+    setView(html, "Weak spots"); wkWire(); animateRings();
+    document.getElementById("wk-go").onclick = function () {
+      /* weakest lectures get more questions: weights 5,4,3,2,1 */
+      var tot = 0, ws = W.weak.map(function (x, i) { var w = W.weak.length - i; tot += w; return w; }), pool = [], used = {};
+      W.weak.forEach(function (x, i) {
+        var want = Math.max(1, Math.round(N * ws[i] / tot));
+        var miss = shuffle(x.keys.filter(function (k) { return W.mk[k]; })), notyet = shuffle(x.keys.filter(function (k) { return !W.mk[k] && !W.rt[k]; })), rest = shuffle(x.keys.filter(function (k) { return !W.mk[k] && W.rt[k]; }));
+        miss.concat(notyet, rest).slice(0, want).forEach(function (k) { if (!used[k]) { used[k] = 1; pool.push(k); } });
+      });
+      pool = shuffle(pool).slice(0, N).map(function (k) { var e = W.idx[k], c = shuffleQ(e.q), d = {}; for (var j in c) d[j] = c[j]; d._k = k; d._lid = e.lid; d._fig = e.fig; d._from = lectureTitle(e.lid) || S.lectures[e.lid].title; return d; });
+      var box = document.getElementById("wkq"); app.querySelectorAll(".wk-list, .row, .wk-scope, .lede-s, .wrap > .meta").forEach(function (el) { el.hidden = true; });
+      questionsPanel(box, { id: "weak", _title: "Weak-spot quiz", mcqs: pool }); box.scrollIntoView({ block: "start" });
+    };
+  }
+  function wkWire() { app.querySelectorAll("[data-w]").forEach(function (b) { b.onclick = function () { store.set("sina:weakMid", b.dataset.w === "midterm"); weakView(b.dataset.w); }; }); }
+
   /* ---------- My progress ---------- */
   function streakDays() {
     var days = store.get("sina:days", []), n = 0, d = new Date();
@@ -2662,7 +2711,7 @@
     Object.keys(subs).forEach(function (sid) {
       var sb = subjectById(sid); html += "<h2>" + esc(sb ? sb.name : sid) + "</h2>" + barList(subs[sid].sort(function (a, b) { return a.pct - b.pct; }));
     });
-    setView(html + '<p class="src" style="margin-top:1.5rem"><button class="btn small" id="prog-reset">Reset my progress</button></p></div>', "My progress");
+    setView(html + '<p class="row" style="margin-top:1.2rem"><a class="btn" href="#/weak">Weak spots: quiz my 5 weakest lectures</a></p><p class="src" style="margin-top:1.5rem"><button class="btn small" id="prog-reset">Reset my progress</button></p></div>', "My progress");
     animateRings(); heatWire(app);
     document.getElementById("prog-reset").onclick = function () { if (confirm("Reset all progress saved on this device?")) { ["sina:stats", "sina:mistakes", "sina:days"].forEach(function (k) { store.set(k, k === "sina:days" ? [] : {}); }); progressView(); } };
     function barList(list) {
@@ -3341,6 +3390,7 @@
     if (parts[0] === "midterm") return midtermView();
     if (parts[0] === "progress") return progressView();
     if (parts[0] === "mistakes") return mistakesView();
+    if (parts[0] === "weak") return weakView(parts[1]);
     if (parts[0] === "review") return reviewView();
     if (parts[0] === "reminders") return remindersView();
     if (parts[0] === "leaderboard") return leaderboardView(parts[1]);

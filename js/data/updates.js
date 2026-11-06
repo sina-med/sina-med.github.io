@@ -3,6 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "6 November 2026", items: [
+    "Added: Weak spots: your 5 lowest-scoring lectures and a 20-question quiz built from them (on the home page, the midterm card and My progress).",
     "Fixed: options merged or repeated in 5 past-paper questions (Anatomy 2 abdomen mock, Molecular biology Jan 2023, Histology exam)."
   ] },
   { date: "5 November 2026", items: [

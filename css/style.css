@@ -1660,3 +1660,14 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .hm-key { display: flex; align-items: center; justify-content: flex-end; gap: 3px; margin-top: .5rem; font-size: .68rem; color: var(--muted); }
 .ak-heat { margin-top: 1rem; }
 .mid-note { display: block; font-size: .8rem; color: var(--muted); font-weight: 400; margin-top: .15rem; }
+
+/* weak spots */
+.wk-scope { margin: .4rem 0 1rem; }
+.wk-list { list-style: none; counter-reset: wk; padding: 0; margin: 0 0 1.1rem; display: grid; gap: .5rem; }
+.wk-list li { counter-increment: wk; }
+.wk-list a { display: grid; grid-template-columns: 2rem 1fr; grid-template-areas: "n name" "n num" "n bar"; column-gap: .6rem; row-gap: .2rem; padding: .7rem .9rem; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); text-decoration: none; }
+.wk-list a::before { content: counter(wk); grid-area: n; align-self: center; display: grid; place-items: center; width: 1.8rem; height: 1.8rem; border-radius: 50%; background: color-mix(in srgb, var(--bad) 14%, var(--bg)); color: var(--bad); font-weight: 800; font-size: .9rem; }
+.wk-name { grid-area: name; font-weight: 700; }
+.wk-num { grid-area: num; font-size: .82rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.wk-list .pb-track { grid-area: bar; }
+.wk-list a:hover { border-color: var(--line-strong); }
