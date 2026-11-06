@@ -3,6 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "6 November 2026", items: [
+    "Fixed: 3 reported Adrenal semiology questions that relied on a figure (phaeochromocytoma CT, paraganglioma locations, Cushing aetiologies) reworded to be answerable from the lecture text; note added to the Graves' triad question (lecture vs textbook triad).",
     "Added: Nausea and vomiting lecture (Semiology digestive): summary, 16 flashcards, 78 MCQs with slide highlights, lecture PDF download.",
     "Added: 81 medium-level Semiology endocrine MCQs on the midterm scope (thyroid 25, pituitary 15, adrenal 24, diabetes 17), with slide highlights.",
     "Changed: a single-lecture quiz now has an Add more lectures button to mix several lectures in one quiz.",

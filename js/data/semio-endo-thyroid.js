@@ -211,7 +211,7 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Toxicosis, goitre, proptosis"
    ],
    "answer": 3,
-   "why": "Clinically: thyrotoxicosis plus goitre plus exophthalmos.",
+   "why": "Per the lecture (slide 31), the diagnosis is clinical: thyrotoxicosis + goitre + exophthalmos. Some textbooks quote another triad (hyperthyroidism, ophthalmopathy, pretibial dermopathy); the lecture's triad is the one asked here.",
    "slides": [
     {
      "src": "files/slides/semio-endo-thyroid/p31.jpg",

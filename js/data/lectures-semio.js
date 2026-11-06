@@ -12295,7 +12295,7 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Toxicosis, goitre, proptosis"
    ],
    "answer": 3,
-   "why": "Clinically: thyrotoxicosis plus goitre plus exophthalmos.",
+   "why": "Per the lecture (slide 31), the diagnosis is clinical: thyrotoxicosis + goitre + exophthalmos. Some textbooks quote another triad (hyperthyroidism, ophthalmopathy, pretibial dermopathy); the lecture's triad is the one asked here.",
    "slides": [
     {
      "src": "files/slides/semio-endo-thyroid/p31.jpg",
@@ -15434,7 +15434,7 @@ SINA.lectures["semio-endo-adrenal"] = {
    ]
   },
   {
-   "q": "Possible paraganglioma locations shown on the figure:",
+   "q": "Possible paraganglioma locations given in the lecture:",
    "options": [
     "Head and neck",
     "Organ of Zuckerkandl",
@@ -15448,10 +15448,10 @@ SINA.lectures["semio-endo-adrenal"] = {
    ],
    "why": "The figure shows 1 head and neck paragangliomas, 2 phaeochromocytomas (adrenals), 3 organ of Zuckerkandl, 4 bladder paragangliomas.",
    "notes": [
-    "Label 1.",
-    "Label 3.",
-    "Label 4.",
-    "Wrong: not a location shown on the figure (1 head and neck, 2 adrenals = phaeochromocytoma, 3 organ of Zuckerkandl, 4 bladder)."
+    "Correct: head and neck paragangliomas.",
+    "Correct: organ of Zuckerkandl.",
+    "Correct: bladder paragangliomas.",
+    "Wrong: not listed (the figure shows head and neck, adrenals = phaeochromocytoma, organ of Zuckerkandl, bladder)."
    ],
    "slides": [
     {
@@ -16151,23 +16151,23 @@ SINA.lectures["semio-endo-adrenal"] = {
    ]
   },
   {
-   "q": "Images in the Cushing aetiology section show:",
+   "q": "Causes of Cushing's syndrome given in the lecture:",
    "options": [
-    "A pituitary adenoma on MRI (pituitary, ACTH-dependent origin)",
-    "An adrenal adenoma on CT with its resected yellow specimen",
-    "Bilateral adrenal calcifications of tuberculosis",
+    "A pituitary adenoma secreting ACTH (ACTH-dependent)",
+    "An adrenal adenoma (ACTH-independent)",
+    "Bilateral adrenal tuberculosis",
     "A paraganglioma of the bladder wall"
    ],
    "answers": [
     0,
     1
    ],
-   "why": "After the aetiologies slide (pituitary adenoma vs adrenal adenoma), the lecture shows a pituitary MRI with a sellar adenoma and an adrenal CT with the resected yellow adenoma.",
+   "why": "Aetiologies: ACTH-independent adrenal origin (adenoma, carcinoma, hyperplasia) and ACTH-dependent origin (pituitary adenoma, ectopic ACTH). The lecture illustrates a pituitary adenoma on MRI and a resected adrenal adenoma.",
    "notes": [
-    "Correct: sellar mass on sagittal and coronal MRI.",
-    "Correct: adrenal nodule and surgical specimen.",
-    "Wrong: calcified adrenals are shown in the AI section.",
-    "Wrong: paragangliomas belong to the phaeochromocytoma section."
+    "Correct: pituitary origin, ACTH-dependent.",
+    "Correct: adrenal origin, ACTH-independent.",
+    "Wrong: adrenal tuberculosis causes adrenal insufficiency.",
+    "Wrong: a paraganglioma secretes catecholamines."
    ],
    "slides": [
     {
@@ -16450,23 +16450,23 @@ SINA.lectures["semio-endo-adrenal"] = {
    ]
   },
   {
-   "q": "Adrenal computed tomography in the phaeochromocytoma section:",
+   "q": "In the phaeochromocytoma section, adrenal computed tomography:",
    "options": [
     "Assesses tumour extension",
-    "The example horizontal section shows a left phaeochromocytoma",
+    "Assesses the size and the lipid structure of the adrenal mass",
     "Measures catecholamine secretion",
-    "The example shows a right adrenal tuberculosis"
+    "Is the test that proves catecholamine excess"
    ],
    "answers": [
     0,
     1
    ],
-   "why": "Adrenal CT assesses adenoma size, structure (lipid) and tumour extension; the image is a horizontal section of a left phaeochromocytoma.",
+   "why": "The slide lists what adrenal CT assesses: adenoma size, structure (lipid) and tumour extension; its example is a left phaeochromocytoma. Secretion is shown by biology, not by imaging.",
    "notes": [
     "Correct: tumour extension is listed.",
-    "Correct: image caption.",
+    "Correct: size and structure (lipid) are listed.",
     "Wrong: secretion is measured biologically (metanephrines).",
-    "Wrong: caption says left phaeochromocytoma."
+    "Wrong: catecholamine excess is proven biologically; CT localises the tumour."
    ],
    "slides": [
     {
