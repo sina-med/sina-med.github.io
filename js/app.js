@@ -1266,6 +1266,7 @@
     var ms = progMidterms();
     var html = '<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / Upcoming midterm lectures</p><h1>Upcoming midterm lectures</h1>';
     if (!ms.length) html += "<p>No midterm is listed for this year yet.</p>";
+    else html += '<div class="note">Questions on Sina cover each whole lecture, not only the parts announced for the midterm, so you are ready if the scope changes or something unexpected comes up.</div>';
     ms.forEach(function (m) {
       var sb = subjectById(m.subject), n = 0;
       m.groups.forEach(function (g) { n += g.items.length; });
@@ -1369,7 +1370,7 @@
     var count = store.get("sina:qcount", "20");
     function nQ(ids) { return ids.reduce(function (a, id) { return a + (S.lectures[id].mcqs || []).length; }, 0); }
     function picker() {
-      var h = resumeBanner(function (r) { return /^mix:/.test(r.id) && r.id.slice(4).split(":")[0].split("+").every(function (x) { return S.lectures[x] && S.lectures[x].subject === s.id; }); }) + '<p class="lede-s">Choose one or more lectures, then start. Questions from all the chosen lectures are mixed into one quiz.</p>' +
+      var h = resumeBanner(function (r) { return /^mix:/.test(r.id) && r.id.slice(4).split(":")[0].split("+").every(function (x) { return S.lectures[x] && S.lectures[x].subject === s.id; }); }) + '<p class="lede-s">Choose one or more lectures, then start. Questions from all the chosen lectures are mixed into one quiz.</p><div class="note" style="font-size:.9rem;padding:.6rem .9rem">Questions on Sina cover each whole lecture, not only the parts announced for the midterm, so you are ready if the scope changes or something unexpected comes up.</div>' +
         '<div class="chips quick" role="group" aria-label="Quick choices"><button type="button" data-q="all">All lectures</button>' + (mid ? '<button type="button" data-q="mid">Midterm lectures</button>' : "") + '<button type="button" data-q="none">Clear</button></div>';
       s.groups.forEach(function (g, gi) {
         var its = g.items.filter(function (it) { return S.lectures[it.id]; });
