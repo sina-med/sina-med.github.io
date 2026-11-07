@@ -2,6 +2,9 @@
    Style: short changelog lines, developer voice (Added / Fixed / Changed), no "you". */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
+  { date: "7 November 2026", items: [
+    "Added: 5 Semiology past papers (128 MCQs): gastro-endocrine 2nd session 2023, final 2025, mock test with correction, GI and endocrine past paper, endocrine MCQs (Pr Hristov).",
+  ] },
   { date: "6 November 2026", items: [
     "Fixed: 3 reported Adrenal semiology questions that relied on a figure (phaeochromocytoma CT, paraganglioma locations, Cushing aetiologies) reworded to be answerable from the lecture text; note added to the Graves' triad question (lecture vs textbook triad).",
     "Added: Nausea and vomiting lecture (Semiology digestive): summary, 16 flashcards, 78 MCQs with slide highlights, lecture PDF download.",
