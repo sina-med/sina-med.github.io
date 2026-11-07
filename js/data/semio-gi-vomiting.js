@@ -1181,24 +1181,24 @@ SINA.lectures["semio-gi-vomiting"] = {
    ]
   },
   {
-   "q": "Which endoscopic pictures are shown in the lecture?",
+   "q": "Examples of upper GI endoscopy findings given in the lecture's diagnostic approach:",
    "options": [
     "Gastric ulcer",
     "Gastric cancer",
     "Pylorus obstruction",
-    "Oesophageal varices"
+    "Acute cholecystitis"
    ],
-   "why": "The pictures show erosions, gastric ulcer, gastric cancer and pylorus obstruction.",
+   "why": "The lecture's endoscopy examples are erosions, gastric ulcer, gastric cancer and pylorus obstruction. Cholecystitis is looked for with abdominal ultrasound, not endoscopy.",
    "answers": [
     0,
     1,
     2
    ],
    "notes": [
-    "Correct: shown.",
-    "Correct: shown.",
-    "Correct: shown.",
-    "Wrong: not shown."
+    "Correct: endoscopy example in the lecture.",
+    "Correct: endoscopy example in the lecture.",
+    "Correct: endoscopy example in the lecture.",
+    "Wrong: shown by abdominal ultrasound, not endoscopy."
    ],
    "slides": [
     {

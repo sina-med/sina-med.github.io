@@ -3,6 +3,8 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "7 November 2026", items: [
+    "Fixed: 1 reported question, Semiology, Adrenal semiology.",
+    "Fixed: 1 reported question, Semiology, Nausea and vomiting.",
     "Added: 5 Semiology past papers (128 MCQs): gastro-endocrine 2nd session 2023, final 2025, mock test with correction, GI and endocrine past paper, endocrine MCQs (Pr Hristov).",
   ] },
   { date: "6 November 2026", items: [

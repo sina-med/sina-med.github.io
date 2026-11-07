@@ -2008,7 +2008,7 @@ SINA.lectures["semio-endo-adrenal"] = {
     0,
     1
    ],
-   "why": "Aetiologies: ACTH-independent adrenal origin (adenoma, carcinoma, hyperplasia) and ACTH-dependent origin (pituitary adenoma, ectopic ACTH). The lecture illustrates a pituitary adenoma on MRI and a resected adrenal adenoma.",
+   "why": "Slide 33 (Etiologies): ACTH-independent Cushing is of adrenal origin with low, undetectable ACTH (adenomas, carcinomas, adrenal hyperplasia). ACTH-dependent Cushing has normal or high ACTH, from a pituitary adenoma (corticotropic cells secreting ACTH) or ectopic ACTH/CRH secretion (small-cell lung carcinoma, neuroendocrine tumours). Slides 34-35 show a pituitary adenoma on MRI and a resected adrenal adenoma.",
    "notes": [
     "Correct: pituitary origin, ACTH-dependent.",
     "Correct: adrenal origin, ACTH-independent.",
@@ -2016,6 +2016,11 @@ SINA.lectures["semio-endo-adrenal"] = {
     "Wrong: a paraganglioma secretes catecholamines."
    ],
    "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p33.jpg",
+     "lec": "Adrenal semiology",
+     "n": 33
+    },
     {
      "src": "files/slides/semio-endo-adrenal/p34.jpg",
      "lec": "Adrenal semiology",
