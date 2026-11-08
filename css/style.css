@@ -1674,3 +1674,9 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .wk-num { grid-area: num; font-size: .82rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 .wk-list .pb-track { grid-area: bar; }
 .wk-list a:hover { border-color: var(--line-strong); }
+
+.scope-box { border: 1px solid var(--line); border-radius: 12px; padding: .7rem .9rem .6rem; margin: .4rem 0 .8rem; background: var(--surface); }
+.scope-h { margin: 0 0 .45rem; font-weight: 700; }
+.scope-box .chips { margin: 0 0 .5rem; }
+.scope-list { margin: 0; font-size: .86rem; color: var(--muted); line-height: 1.45; }
+.scope-note { font-size: .86rem; margin: 0 0 .9rem; }

@@ -1349,6 +1349,10 @@
   /* question count presets, and "not asked yet" first so a run of quizzes covers every question of the chosen lectures */
   var PRESETS = ["10", "20", "25", "40", "50", "70", "100"];
   function dayNo() { return Math.floor(Date.now() / 864e5); }
+  /* midterm scope of lecture questions: SINA.midOff lists the questions of partly-examined lectures that are not on the midterm */
+  function midLecs(s) { var m = subjectMid(s), o = {}; if (m) m.groups.forEach(function (g) { g.items.forEach(function (id) { o[id] = 1; }); }); return o; }
+  var MOFF = null;
+  function qOffMid(lid, q) { if (!MOFF) { MOFF = {}; Object.keys(S.midOff || {}).forEach(function (l) { MOFF[l] = {}; S.midOff[l].forEach(function (k) { MOFF[l][k] = 1; }); }); } return !!(MOFF[lid] && MOFF[lid][qKey(q)]); }
   function newCount(ids) { var a = store.get("sina:asked", {}), n = 0; ids.forEach(function (id) { (S.lectures[id].mcqs || []).forEach(function (q) { if (!a[qKey(q)]) n++; }); }); return n; }
   function pickFresh(pool, want) {
     /* not-asked first, oldest-asked next, and each chosen lecture gets its fair share of the quiz */
@@ -1369,16 +1373,21 @@
     var picked = arg === "midterm" && mid ? [].concat.apply([], mid.groups.map(function (g) { return g.items; }))
       : (arg && S.lectures[arg] ? [arg] : store.get(key, []));
     picked = picked.filter(function (id) { return S.lectures[id] && S.lectures[id].subject === s.id; });
-    var count = store.get("sina:qcount", "20");
-    function nQ(ids) { return ids.reduce(function (a, id) { return a + (S.lectures[id].mcqs || []).length; }, 0); }
+    var count = store.get("sina:qcount", "20"), ML = midLecs(s), midOnly = store.get("sina:midOnly", true);
+    function hasMid(ids) { return ids.some(function (id) { return ML[id]; }); }
+    function qsOf(id) { return (S.lectures[id].mcqs || []).filter(function (q) { return !(midOnly && ML[id] && qOffMid(id, q)); }); }
+    function nQ(ids) { return ids.reduce(function (a, id) { return a + qsOf(id).length; }, 0); }
+    function freshQ(ids) { var a = store.get("sina:asked", {}), n = 0; ids.forEach(function (id) { qsOf(id).forEach(function (q) { if (!a[qKey(q)]) n++; }); }); return n; }
     function picker() {
-      var h = resumeBanner(function (r) { return /^mix:/.test(r.id) && r.id.slice(4).split(":")[0].split("+").every(function (x) { return S.lectures[x] && S.lectures[x].subject === s.id; }); }) + '<p class="lede-s">Choose one or more lectures, then start. Questions from all the chosen lectures are mixed into one quiz.</p><div class="note" style="font-size:.9rem;padding:.6rem .9rem">Questions on Sina cover each <strong>whole lecture</strong>, not only the parts announced for the midterm, so you are ready if the scope changes or something unexpected comes up.</div>' +
+      var h = resumeBanner(function (r) { return /^mix:/.test(r.id) && r.id.slice(4).split(":")[0].split("+").every(function (x) { return S.lectures[x] && S.lectures[x].subject === s.id; }); }) + '<p class="lede-s">Choose one or more lectures, then start. Questions from all the chosen lectures are mixed into one quiz.</p>' + (mid ? '<div class="scope-box"><p class="scope-h">Which questions?</p><div class="chips quick scope-chips" role="group" aria-label="Which questions"><button type="button" data-sc="mid" aria-pressed="' + midOnly + '"' + (midOnly ? ' class="on"' : "") + '>Midterm topics only</button><button type="button" data-sc="all" aria-pressed="' + !midOnly + '"' + (!midOnly ? ' class="on"' : "") + '>Whole lecture</button></div>' +
+          '<p class="scope-list">' + esc(mid.title) + ": " + [].concat.apply([], mid.groups.map(function (g) { return g.items; })).filter(function (id) { return S.midOff && S.midOff[id] || /thyroid/.test(id); }).map(function (id) { return "<strong>" + esc(lectureTitle(id) || S.lectures[id].title) + "</strong>: " + esc((mid.notes || {})[id] || "whole lecture"); }).join(" · ") + (mid.groups.length ? " · other lectures: whole lecture" : "") + "</p></div>" : "") +
+        '<p class="meta scope-note">Questions on Sina cover each <strong>whole lecture</strong>, not only the parts announced for the midterm, so you are ready if the scope changes or something unexpected comes up.</p>' +
         '<div class="chips quick" role="group" aria-label="Quick choices"><button type="button" data-q="all">All lectures</button>' + (mid ? '<button type="button" data-q="mid">Midterm lectures</button>' : "") + '<button type="button" data-q="none">Clear</button></div>';
       s.groups.forEach(function (g, gi) {
         var its = g.items.filter(function (it) { return S.lectures[it.id]; });
         if (!its.length) return;
         h += '<div class="pick-group" role="group" aria-label="' + esc(g.name) + '"><label class="pick-row pick-head"><input type="checkbox" class="gchk" data-g="' + gi + '"><span>' + esc(g.name) + '</span><span class="qn">' + its.length + " lecture" + (its.length > 1 ? "s" : "") + "</span></label>" + its.map(function (it) {
-          return '<label class="pick-row"><input type="checkbox" class="lchk" data-g="' + gi + '" value="' + it.id + '"' + (picked.indexOf(it.id) > -1 ? " checked" : "") + "><span>" + esc(it.title) + '</span><span class="qn">' + (S.lectures[it.id].mcqs || []).length + "</span></label>";
+          return '<label class="pick-row"><input type="checkbox" class="lchk" data-g="' + gi + '" value="' + it.id + '"' + (picked.indexOf(it.id) > -1 ? " checked" : "") + "><span>" + esc(it.title) + '</span><span class="qn">' + qsOf(it.id).length + "</span></label>";
         }).join("") + "</div>";
       });
       h += '<div class="start-bar"><label class="pick"><span>Questions</span><select id="qcount"></select></label><input id="qcustom" class="qcustom" type="number" inputmode="numeric" min="1" step="1" aria-label="Number of questions" hidden>' +
@@ -1393,7 +1402,7 @@
         });
         var n = nQ(picked);
         p.querySelector("#qsel").textContent = picked.length ? picked.length + " lecture" + (picked.length > 1 ? "s" : "") + ", " + n + " questions" : "No lecture chosen";
-        var fresh = newCount(picked);
+        var fresh = freshQ(picked);
         if (picked.length) p.querySelector("#qsel").textContent += fresh === n ? " (all new)" : fresh ? ", " + fresh + " not asked yet" : ", all asked once (oldest come back first)";
         var sel = p.querySelector("#qcount"), cu = p.querySelector("#qcustom"), opts = PRESETS.filter(function (v) { return +v < n; }).concat(["all", "custom"]);
         var isCustom = count !== "all" && PRESETS.indexOf(count) < 0 && +count > 0 && +count < n, shown = isCustom ? "custom" : opts.indexOf(count) > -1 ? count : "all";
@@ -1403,6 +1412,7 @@
         var qs2 = p.querySelector("#qspot"); if (qs2) qs2.disabled = !spotTasks(picked).length;
       }
       boxes.forEach(function (b) { b.addEventListener("change", sync); });
+      p.querySelectorAll("[data-sc]").forEach(function (b) { b.addEventListener("click", function () { midOnly = b.dataset.sc === "mid"; store.set("sina:midOnly", midOnly); picker(); }); });
       p.querySelectorAll(".gchk").forEach(function (g) { g.addEventListener("change", function () { boxes.forEach(function (b) { if (b.dataset.g === g.dataset.g) b.checked = g.checked; }); sync(); }); });
       p.querySelectorAll(".quick button").forEach(function (b) {
         b.addEventListener("click", function () {
@@ -1437,7 +1447,10 @@
         var L = S.lectures[id], fig = L.visual && L.visual.figure;
         (L.mcqs || []).forEach(function (q) {
           if (q.target && !fig) return;
+          var off = ML[id] && qOffMid(id, q);
+          if (off && midOnly) return;
           var c = {}; for (var k in q) c[k] = q[k];
+          if (off) c._off = 1;
           c._fig = fig; c._lid = id; c._from = picked.length > 1 ? lectureTitle(id) : ""; pool.push(c);
         });
       });
@@ -1446,7 +1459,15 @@
       if (store.get(seenKey, false)) pool = pool.map(shuffleQ); else store.set(seenKey, true);
       p.innerHTML = '<div class="quiz-top"><button class="btn small-btn" id="qback" type="button">' + (picked.length === 1 ? "+ Add more lectures" : "&larr; Change lectures") + '</button><span class="meta"' + (picked.length > 1 ? ' title="' + esc(picked.map(lectureTitle).join(", ")) + '"' : "") + ">" + esc(picked.length === 1 ? lectureTitle(picked[0]) : picked.length + " lectures mixed") + '</span></div><div id="quiz"></div>';
       p.querySelector("#qback").addEventListener("click", function () { picker(); window.scrollTo(0, 0); });
-      var set = { id: "mix:" + picked.slice().sort().join("+") + ":" + count, mcqs: pool };
+      if (hasMid(picked) && Object.keys(S.midOff || {}).some(function (l) { return picked.indexOf(l) > -1; })) {
+        var qt = p.querySelector(".quiz-top"), sb = document.createElement("button");
+        sb.className = "btn small-btn"; sb.type = "button"; sb.id = "qscope"; sb.textContent = midOnly ? "Show the whole lecture" : "Midterm topics only";
+        sb.title = midOnly ? "Now showing midterm topics only" : "Now showing the whole lecture";
+        sb.addEventListener("click", function () { midOnly = !midOnly; store.set("sina:midOnly", midOnly); start(exam); });
+        qt.insertBefore(sb, qt.querySelector(".meta"));
+        qt.querySelector(".meta").textContent += midOnly ? " · midterm topics" : " · whole lecture";
+      }
+      var set = { id: "mix:" + picked.slice().sort().join("+") + ":" + count + (midOnly && hasMid(picked) ? ":mid" : ""), mcqs: pool };
       if (exam) examIntro(p.querySelector("#quiz"), set, picker); else questionsPanel(p.querySelector("#quiz"), set);
       window.scrollTo(0, 0);
     }
@@ -2674,7 +2695,7 @@
     var st = store.get("sina:stats", {}), mk = store.get("sina:mistakes", {}), rt = store.get("sina:right", {}), idx = qIndex(), mid = progMidterms()[0], scope = null;
     if (onlyMid && mid) { scope = {}; mid.groups.forEach(function (g) { g.items.forEach(function (id) { scope[id] = 1; }); }); }
     var byL = {};
-    Object.keys(idx).forEach(function (k) { var e = idx[k]; if (!S.lectures[e.lid] || !inProgram(e.lid) || (scope && !scope[e.lid])) return; (byL[e.lid] = byL[e.lid] || []).push(k); });
+    Object.keys(idx).forEach(function (k) { var e = idx[k]; if (!S.lectures[e.lid] || !inProgram(e.lid) || (scope && (!scope[e.lid] || qOffMid(e.lid, e.q)))) return; (byL[e.lid] = byL[e.lid] || []).push(k); });
     var rows = Object.keys(byL).filter(function (lid) { return st[lid] && st[lid][0] >= 3; }).map(function (lid) {
       var a = st[lid][0], r = st[lid][1], miss = byL[lid].filter(function (k) { return mk[k]; }).length;
       return { lid: lid, a: a, r: r, pct: Math.round(r / a * 100), score: (r + 1) / (a + 2), miss: miss, keys: byL[lid] };
