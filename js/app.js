@@ -1890,7 +1890,7 @@
   }
 
   /* Lecture slide(s) that prove an answer: collapsed until opened, then click to see full size. */
-  function qKey(q) { var t = (q.q || "") + "|" + (q.options || []).join("|"), h = 5381; for (var i = 0; i < t.length; i++) h = ((h * 33) ^ t.charCodeAt(i)) >>> 0; return h.toString(36); }
+  function qKey(q) { var t = (q.q || "") + "|" + (q.options || []).join("|"), h = 5381; for (var i = 0; i < t.length; i++) h = ((h * 33) ^ t.charCodeAt(i)) >>> 0; var k = h.toString(36); return (S.qAlias && S.qAlias[k]) || k; }
   /* retries: shuffle the options so answers are read, not remembered by position */
   function shuffleQ(q) {
     if (q.options.some(function (o) { return /\b(all|none|both) of the (above|options)\b/i.test(o); })) return q;

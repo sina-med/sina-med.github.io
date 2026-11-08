@@ -4919,7 +4919,7 @@ SINA.lectures["semio-gi-exam"] = {
    ]
   },
   {
-   "q": "Which are oral signs of deficiency? (choose all)",
+   "q": "Which are oral signs of deficiency?",
    "options": [
     "Atrophic glossitis",
     "Angular cheilitis",
@@ -5715,7 +5715,7 @@ SINA.lectures["semio-gi-exam"] = {
    "q": "On percussion of the normal abdomen:",
    "options": [
     "Most of the abdomen is tympanic",
-    "The right hypochondrium is dull (liver)",
+    "The right hypochondrium is dull",
     "The hypogastrium is dull if the bladder is full",
     "The left iliac region is always dull"
    ],
@@ -6264,7 +6264,7 @@ SINA.lectures["semio-gi-jaundice"] = {
    ]
   },
   {
-   "q": "Which are signs of cholestasis? (choose all)",
+   "q": "Which are signs of cholestasis?",
    "options": [
     "Pruritus",
     "Dark urine",
@@ -6509,7 +6509,7 @@ SINA.lectures["semio-gi-jaundice"] = {
    "q": "Bilirubin is combined with glucuronic acid (conjugated) in the:",
    "options": [
     "Macrophage",
-    "Liver (hepatocyte)",
+    "Liver",
     "Kidney",
     "Gut lumen"
    ],
@@ -6798,7 +6798,7 @@ SINA.lectures["semio-gi-jaundice"] = {
    "options": [
     "Mainly conjugated",
     "Mainly unconjugated",
-    "Mixed (both)",
+    "Mixed",
     "Always normal"
    ],
    "answers": [
@@ -7018,7 +7018,7 @@ SINA.lectures["semio-gi-jaundice"] = {
    "q": "The dermatological exam in jaundice also looks for:",
    "options": [
     "Tattoos",
-    "Scratch (pruritus) lesions",
+    "Scratch lesions",
     "Cafe-au-lait spots",
     "Purpura and ecchymoses"
    ],
@@ -7072,7 +7072,7 @@ SINA.lectures["semio-gi-jaundice"] = {
   {
    "q": "Haemolysis tests listed in the jaundice workup include:",
    "options": [
-    "Lactate dehydrogenase (LDH)",
+    "Lactate dehydrogenase",
     "Haptoglobin",
     "GGT",
     "Alkaline phosphatase"
@@ -7178,7 +7178,7 @@ SINA.lectures["semio-gi-jaundice"] = {
   {
    "q": "Cholestatic jaundice with dilated bile ducts on ultrasound:",
    "options": [
-    "Points to an extrahepatic (obstructive) cause",
+    "Points to an extrahepatic cause",
     "May be due to biliary lithiasis",
     "Points to an intrahepatic cause",
     "Suggests haemolysis"
@@ -8219,7 +8219,7 @@ SINA.lectures["semio-gi-constipation"] = {
    ]
   },
   {
-   "q": "Which drugs cause constipation? (choose all)",
+   "q": "Which drugs cause constipation?",
    "options": [
     "Opioids",
     "Iron supplements",
@@ -8270,7 +8270,7 @@ SINA.lectures["semio-gi-constipation"] = {
    "q": "Regarding constipation as a complaint:",
    "options": [
     "It is one of the most common gastrointestinal complaints",
-    "It is subdivided into primary (functional) and secondary forms",
+    "It is subdivided into primary and secondary forms",
     "It is a rare complaint with a single etiology",
     "Its evaluation does not require a systematic approach"
    ],
@@ -9608,7 +9608,7 @@ SINA.lectures["semio-gi-vomiting"] = {
    "q": "Which stimuli can trigger vomiting?",
    "options": [
     "Vestibular system disturbances",
-    "Chemoreceptor trigger zone (CTZ) stimulation by drugs or toxins",
+    "Chemoreceptor trigger zone stimulation by drugs or toxins",
     "Higher cortical centre stimulation",
     "Bradycardia"
    ],
@@ -10106,7 +10106,7 @@ SINA.lectures["semio-gi-vomiting"] = {
   {
    "q": "Vomiting with headache, photophobia and fever should make you think of:",
    "options": [
-    "A meningeal syndrome (meningitis)",
+    "A meningeal syndrome",
     "Diabetic gastroparesis",
     "Gastro-oesophageal reflux disease",
     "Pyloroduodenal stenosis"
@@ -10190,7 +10190,7 @@ SINA.lectures["semio-gi-vomiting"] = {
   {
    "q": "Abdominal percussion in a vomiting patient looks for:",
    "options": [
-    "Fluid (ascites)",
+    "Fluid",
     "Dullness suggesting an abdominal mass",
     "Surgical scars",
     "Tenderness"
@@ -10401,7 +10401,7 @@ SINA.lectures["semio-gi-vomiting"] = {
    "q": "The initial recommended lab tests in vomiting include:",
    "options": [
     "Complete blood count",
-    "Serum electrolytes (sodium, potassium, chloride, bicarbonate)",
+    "Serum electrolytes",
     "Serum lipid profile",
     "Urinalysis for ketones"
    ],
@@ -10500,7 +10500,7 @@ SINA.lectures["semio-gi-vomiting"] = {
   {
    "q": "A 25-year-old woman has had morning vomiting for two weeks. Which test should be part of the first work-up?",
    "options": [
-    "Pregnancy test (hCG)",
+    "Pregnancy test",
     "Cerebral CT scan",
     "Colonoscopy",
     "Anorectal manometry"
@@ -10933,7 +10933,7 @@ SINA.lectures["semio-gi-vomiting"] = {
   {
    "q": "Neurological causes of acute vomiting include:",
    "options": [
-    "Increased intracranial pressure (head injury, stroke, brain tumour)",
+    "Increased intracranial pressure",
     "Meningitis",
     "Vestibular disorders",
     "Peripheral neuropathy"
@@ -11230,9 +11230,9 @@ SINA.lectures["semio-gi-vomiting"] = {
   {
    "q": "Metabolic and endocrine causes of chronic vomiting include:",
    "options": [
-    "Chronic renal failure (uraemic syndrome)",
+    "Chronic renal failure",
     "Hyperthyroidism",
-    "Adrenal insufficiency (Addison's disease)",
+    "Adrenal insufficiency",
     "Diabetic ketoacidosis"
    ],
    "why": "Chronic metabolic/endocrine: chronic renal failure (uraemia), hyperthyroidism, Addison's disease. DKA is an acute cause.",
@@ -11539,7 +11539,7 @@ SINA.lectures["semio-gi-vomiting"] = {
    "options": [
     "Uraemia",
     "Hepatic failure",
-    "Electrolyte disorders (Na+, K+, Ca2+)",
+    "Electrolyte disorders",
     "Gastric outlet obstruction"
    ],
    "why": "Metabolic/systemic: uraemia, DKA, electrolyte disorders, hepatic failure, endocrine (pregnancy, adrenal insufficiency). Gastric outlet obstruction is gastrointestinal.",
@@ -12487,7 +12487,7 @@ SINA.lectures["semio-endo-thyroid"] = {
    ]
   },
   {
-   "q": "Which are signs of hyperthyroidism? (choose all)",
+   "q": "Which are signs of hyperthyroidism?",
    "options": [
     "Heat intolerance",
     "Fine tremor",
@@ -12665,7 +12665,7 @@ SINA.lectures["semio-endo-thyroid"] = {
    "options": [
     "Uses iodine-123 or technetium-99m",
     "Can show an ectopic thyroid",
-    "Classifies nodules as hot (hyperfunctioning) or cold (non-functioning)",
+    "Classifies nodules as hot or cold",
     "Is described as the optimal, first-line means of evaluating the whole thyroid gland"
    ],
    "answers": [
@@ -13035,7 +13035,7 @@ SINA.lectures["semio-endo-thyroid"] = {
    "options": [
     "It causes a generalised slowing down of metabolic processes",
     "It always has a pituitary origin, with the thyroid gland itself being normal",
-    "It can be of primary (peripheral) or secondary (pituitary) origin",
+    "It can be of primary or secondary origin",
     "It results from an excess of thyroid hormones"
    ],
    "answers": [
@@ -13568,7 +13568,7 @@ SINA.lectures["semio-endo-thyroid"] = {
   {
    "q": "A 32-year-old woman has weight loss despite a big appetite, palpitations, heat intolerance, a diffuse goitre with a bruit and bilateral exophthalmos. Which result is the most specific for the cause?",
    "options": [
-    "Positive TSH receptor antibodies (TRAb)",
+    "Positive TSH receptor antibodies",
     "Suppressed TSH",
     "Positive anti-TPO antibodies",
     "Raised calcitonin"
@@ -13714,7 +13714,7 @@ SINA.lectures["semio-endo-thyroid"] = {
   {
    "q": "A patient has a low FT4 with a TSH that is low or normal rather than high. What does this pattern suggest?",
    "options": [
-    "Hypothyroidism of secondary (pituitary) origin",
+    "Secondary hypothyroidism",
     "Hashimoto's thyroiditis",
     "Subclinical hypothyroidism",
     "Iodine deficiency"
@@ -13840,7 +13840,7 @@ SINA.lectures["semio-endo-thyroid"] = {
    ]
   },
   {
-   "q": "Which drugs are listed in the lecture as causes of hypothyroidism? (choose all)",
+   "q": "Which drugs are listed in the lecture as causes of hypothyroidism?",
    "options": [
     "Amiodarone",
     "Lithium",
@@ -14423,7 +14423,7 @@ SINA.lectures["semio-endo-adrenal"] = {
    ]
   },
   {
-   "q": "Which are signs of hypercortisolism? (choose all)",
+   "q": "Which are signs of hypercortisolism?",
    "options": [
     "Moon face",
     "Purple striae",
@@ -15150,8 +15150,8 @@ SINA.lectures["semio-endo-adrenal"] = {
   {
    "q": "In confirmed adrenal insufficiency, an 8 a.m. ACTH that is high means:",
    "options": [
-    "A peripheral (adrenal) origin",
-    "A central (pituitary or hypothalamic) origin",
+    "A peripheral origin",
+    "A central origin",
     "A pituitary tumour",
     "A normal result"
    ],
@@ -15471,7 +15471,7 @@ SINA.lectures["semio-endo-adrenal"] = {
    "q": "Paroxysmal symptoms of phaeochromocytoma:",
    "options": [
     "Can be triggered by tumour compression",
-    "Include headache, sweating and palpitations (triad)",
+    "Include headache, sweating and palpitations",
     "Include flushing and warm extremities",
     "Always last the same time"
    ],
@@ -15557,7 +15557,7 @@ SINA.lectures["semio-endo-adrenal"] = {
     "Urinary methoxylated derivatives are the key test",
     "VMA is the reference test today",
     "Plasma catecholamines are easy to interpret",
-    "Plasma methoxylated derivatives (metanephrines) are useful"
+    "Plasma methoxylated derivatives are useful"
    ],
    "answers": [
     0,
@@ -15720,8 +15720,8 @@ SINA.lectures["semio-endo-adrenal"] = {
    "q": "On the steroidogenesis diagram:",
    "options": [
     "All three cortical zones start from cholesterol",
-    "Side-chain cleavage (CYP11A1) turns cholesterol into pregnenolone",
-    "11-hydroxylase (CYP11B1) turns 11-deoxycortisol into cortisol",
+    "Side-chain cleavage turns cholesterol into pregnenolone",
+    "11-hydroxylase turns 11-deoxycortisol into cortisol",
     "Aldosterone is synthesised in the zona reticularis"
    ],
    "answers": [
@@ -15748,7 +15748,7 @@ SINA.lectures["semio-endo-adrenal"] = {
    "q": "Aldosterone synthesis in the zona glomerulosa, per the diagram:",
    "options": [
     "Progesterone is converted to 11-deoxycorticosterone by 21-hydroxylase",
-    "The last step is the 18-oxidase (CYP11B2)",
+    "The last step is the 18-oxidase",
     "The pathway passes through 17(OH)-progesterone",
     "The pathway ends in 11-deoxycortisol"
    ],
@@ -16159,8 +16159,8 @@ SINA.lectures["semio-endo-adrenal"] = {
   {
    "q": "Causes of Cushing's syndrome given in the lecture:",
    "options": [
-    "A pituitary adenoma secreting ACTH (ACTH-dependent)",
-    "An adrenal adenoma (ACTH-independent)",
+    "A pituitary adenoma secreting ACTH",
+    "An adrenal adenoma",
     "Bilateral adrenal tuberculosis",
     "A paraganglioma of the bladder wall"
    ],
@@ -16536,7 +16536,7 @@ SINA.lectures["semio-endo-adrenal"] = {
   {
    "q": "Cushing's syndrome is confirmed and the 8 a.m. plasma ACTH is undetectable. What is the next step?",
    "options": [
-    "Adrenal imaging (CT)",
+    "Adrenal CT",
     "Pituitary MRI",
     "High-dose dexamethasone suppression test",
     "Chest CT to look for an ectopic source"
@@ -16639,7 +16639,7 @@ SINA.lectures["semio-endo-adrenal"] = {
    ]
   },
   {
-   "q": "Which blood count findings fit Cushing's syndrome? (choose all)",
+   "q": "Which blood count findings fit Cushing's syndrome?",
    "options": [
     "Polycythaemia",
     "Neutrophilic leukocytosis",
@@ -16679,7 +16679,7 @@ SINA.lectures["semio-endo-adrenal"] = {
    ]
   },
   {
-   "q": "A man with Cushing's syndrome may present with: (choose all)",
+   "q": "A man with Cushing's syndrome may present with:",
    "options": [
     "Low libido and impotence",
     "Some degree of gynaecomastia",
@@ -16767,7 +16767,7 @@ SINA.lectures["semio-endo-adrenal"] = {
   {
    "q": "A patient with suspected adrenal insufficiency has an 8 a.m. cortisol of 12 µg/dL. What does this mean?",
    "options": [
-    "It is intermediate, so a dynamic (synacthen) test is needed",
+    "It is intermediate, so a synacthen test is needed",
     "Adrenal insufficiency is confirmed",
     "Adrenal insufficiency is excluded",
     "Cushing's syndrome is likely"
@@ -16803,7 +16803,7 @@ SINA.lectures["semio-endo-adrenal"] = {
   {
    "q": "After pituitary surgery, a patient has adrenal insufficiency with pale skin, frequent hypoglycaemia and no hyperkalaemia. Why is there no hyperkalaemia?",
    "options": [
-    "Mineralocorticoid (aldosterone) secretion is preserved",
+    "Aldosterone secretion is preserved",
     "ACTH is high",
     "Cortisol is normal",
     "The kidneys are damaged"
@@ -16890,7 +16890,7 @@ SINA.lectures["semio-endo-adrenal"] = {
   {
    "q": "Lying BP is 110/70 mmHg. After 2 minutes standing it is 86/66 mmHg and the patient feels dizzy. How is this interpreted?",
    "options": [
-    "Positive Schellong test (orthostatic hypotension)",
+    "Positive Schellong test",
     "Negative test, since diastolic fell less than 10 mmHg",
     "Normal response to standing",
     "The test is only valid after 10 minutes"
@@ -16908,7 +16908,7 @@ SINA.lectures["semio-endo-adrenal"] = {
   {
    "q": "A 40-year-old has attacks of pounding headache, profuse sweating, palpitations and pallor, with BP up to 220/120 during attacks. Which first test is most useful?",
    "options": [
-    "Urinary methoxylated derivatives (metanephrines)",
+    "Urinary metanephrines",
     "Plasma catecholamines",
     "Urinary VMA",
     "MIBG scintigraphy before any lab test"
@@ -19344,7 +19344,7 @@ SINA.lectures["semio-gi-gerd"] = {
    "q": "What is the most characteristic GERD symptom?",
    "options": [
     "Diarrhoea",
-    "Pyrosis (heartburn)",
+    "Heartburn",
     "Hemoptysis",
     "Dysphagia"
    ],
@@ -19557,7 +19557,7 @@ SINA.lectures["semio-gi-gerd"] = {
    ]
   },
   {
-   "q": "Which conditions predispose to GERD? (choose all)",
+   "q": "Which conditions predispose to GERD?",
    "options": [
     "Obesity",
     "Pregnancy",
@@ -19655,7 +19655,7 @@ SINA.lectures["semio-gi-gerd"] = {
     "Diarrhoea",
     "Dysphagia",
     "Haematemesis",
-    "Pyrosis (heartburn)"
+    "Heartburn"
    ],
    "answer": 3,
    "why": "A retrosternal burning rising to the throat.",
@@ -19744,7 +19744,7 @@ SINA.lectures["semio-gi-gerd"] = {
    "options": [
     "Means achalasia",
     "Means cancer",
-    "Does not exclude GERD (NERD)",
+    "Does not exclude GERD",
     "Excludes GERD"
    ],
    "answer": 2,
@@ -20177,7 +20177,7 @@ SINA.lectures["semio-gi-gerd"] = {
    "q": "Non-cardiac chest pain in GERD:",
    "options": [
     "Is a typical oesophageal symptom alongside heartburn",
-    "Can mimic angina (pseudo-anginal pain)",
+    "Can mimic angina",
     "Is caused by coronary ischaemia",
     "Is listed among alarm signs"
    ],
@@ -21067,7 +21067,7 @@ SINA.lectures["semio-gi-bleeding"] = {
    ]
   },
   {
-   "q": "Which are severity signs in GI bleeding? (choose all)",
+   "q": "Which are severity signs in GI bleeding?",
    "options": [
     "Hypotension",
     "Oliguria",
@@ -22216,7 +22216,7 @@ SINA.lectures["semio-endo-pituitary"] = {
  },
  "mcqs": [
   {
-   "q": "In which ways can pituitary disease show itself? (choose all)",
+   "q": "In which ways can pituitary disease show itself?",
    "options": [
     "Hypersecretion of one pituitary axis",
     "Insufficiency of one or more axes",
@@ -22256,7 +22256,7 @@ SINA.lectures["semio-endo-pituitary"] = {
    ]
   },
   {
-   "q": "Which are features of hyperprolactinaemia in a woman? (choose all)",
+   "q": "Which are features of hyperprolactinaemia in a woman?",
    "options": [
     "Galactorrhoea",
     "Amenorrhoea or oligomenorrhoea",
@@ -22317,7 +22317,7 @@ SINA.lectures["semio-endo-pituitary"] = {
    "q": "A high prolactin result: which lab step checks it is not macroprolactin?",
    "options": [
     "Dexamethasone suppression",
-    "Polyethylene glycol (PEG) precipitation",
+    "Polyethylene glycol precipitation",
     "75 g OGTT",
     "Insulin tolerance test"
    ],
@@ -22350,7 +22350,7 @@ SINA.lectures["semio-endo-pituitary"] = {
    ]
   },
   {
-   "q": "Which conditions can cause hyperprolactinaemia? (choose all)",
+   "q": "Which conditions can cause hyperprolactinaemia?",
    "options": [
     "Pregnancy and nursing",
     "Primary hypothyroidism",
@@ -22390,7 +22390,7 @@ SINA.lectures["semio-endo-pituitary"] = {
    ]
   },
   {
-   "q": "Which belong to the acromegalic face? (choose all)",
+   "q": "Which belong to the acromegalic face?",
    "options": [
     "Frontal bossing",
     "Prognathism",
@@ -22453,7 +22453,7 @@ SINA.lectures["semio-endo-pituitary"] = {
    ]
   },
   {
-   "q": "Which are associated with acromegaly? (choose all)",
+   "q": "Which are associated with acromegaly?",
    "options": [
     "Sleep apnoea",
     "Colonic polyps",
@@ -22534,7 +22534,7 @@ SINA.lectures["semio-endo-pituitary"] = {
    ]
   },
   {
-   "q": "A pituitary tumour spreads sideways into the cavernous sinus. What can it cause? (choose all)",
+   "q": "A pituitary tumour spreads sideways into the cavernous sinus. What can it cause?",
    "options": [
     "Diplopia",
     "Eyelid ptosis",
@@ -22560,7 +22560,7 @@ SINA.lectures["semio-endo-pituitary"] = {
    ]
   },
   {
-   "q": "Which are true of pituitary apoplexy? (choose all)",
+   "q": "Which are true of pituitary apoplexy?",
    "options": [
     "Sudden, severe headache with visual loss and ophthalmoplegia",
     "A medical emergency",
@@ -22717,7 +22717,7 @@ SINA.lectures["semio-endo-pituitary"] = {
    "options": [
     "GnRH secretion falls",
     "FSH and LH fall",
-    "Ovulation stops (anovulation)",
+    "Ovulation stops",
     "Dopamine inhibition of prolactin is increased"
    ],
    "answers": [
@@ -22743,7 +22743,7 @@ SINA.lectures["semio-endo-pituitary"] = {
   {
    "q": "The work-up of hyperprolactinaemia on the slides includes:",
    "options": [
-    "Prolactin assay with polyethylene glycol (PEG)",
+    "Prolactin assay with polyethylene glycol",
     "Dexamethasone suppression test",
     "Classifying a prolactinoma as micro or macro/invasive",
     "Adrenal CT scan"
@@ -22854,7 +22854,7 @@ SINA.lectures["semio-endo-pituitary"] = {
   {
    "q": "Pathological causes of hyperprolactinaemia include:",
    "options": [
-    "Hypophyseal stalk lesion (stalk effect)",
+    "Hypophyseal stalk lesion",
     "Polycystic ovary syndrome",
     "Acromegaly with GH and prolactin co-secretion",
     "Excess hypothalamic dopamine secretion"
@@ -23377,7 +23377,7 @@ SINA.lectures["semio-endo-pituitary"] = {
   {
    "q": "Hypersecretion syndromes of the pituitary listed in the clinical presentation include:",
    "options": [
-    "ACTH hypersecretion (Cushing disease)",
+    "ACTH hypersecretion",
     "TSH hypersecretion",
     "FSH/LH hypersecretion",
     "Oxytocin hypersecretion from the anterior lobe"
@@ -23543,7 +23543,7 @@ SINA.lectures["semio-endo-pituitary"] = {
    "q": "Lab tests for Cushing disease listed on the slides include:",
    "options": [
     "Free urinary or salivary cortisol",
-    "Evening (vesperal) cortisol on the nycthemeral cycle",
+    "Evening cortisol on the nycthemeral cycle",
     "1 mg overnight dexamethasone suppression test",
     "GH during a 75 g glucose tolerance test"
    ],
@@ -23571,7 +23571,7 @@ SINA.lectures["semio-endo-pituitary"] = {
    "q": "Regarding the diagnosis of Cushing disease:",
    "options": [
     "High cortisol with inadequate dexamethasone suppression defines hypercortisolism",
-    "Hypercortisolism with inadequate (non-suppressed) ACTH means Cushing disease",
+    "Hypercortisolism with non-suppressed ACTH means Cushing disease",
     "Pituitary MRI usually shows a macroadenoma compressing the chiasm",
     "Normal suppression after dexamethasone confirms the disease"
    ],
@@ -24397,7 +24397,7 @@ SINA.lectures["semio-endo-pituitary"] = {
   {
    "q": "Which clinical setting raises prolactin as a side effect of a test?",
    "options": [
-    "A thyrotropin-releasing hormone (TRH) stimulation test",
+    "A TRH stimulation test",
     "A 75 g oral glucose tolerance test",
     "A 1 mg dexamethasone suppression test",
     "A synacthen test"
@@ -24497,9 +24497,9 @@ SINA.lectures["semio-endo-pituitary"] = {
   {
    "q": "A patient with a pituitary adenoma has right eyelid ptosis. Which structure is being compressed?",
    "options": [
-    "The oculomotor nerve (III) in the cavernous sinus",
+    "The oculomotor nerve in the cavernous sinus",
     "The optic chiasm",
-    "The abducens nerve (VI) alone",
+    "The abducens nerve alone",
     "The posterior pituitary"
    ],
    "answer": 0,
@@ -24771,7 +24771,7 @@ SINA.lectures["semio-endo-diabetes"] = {
    ]
   },
   {
-   "q": "How can diabetes be discovered? (choose all)",
+   "q": "How can diabetes be discovered?",
    "options": [
     "By chance on a routine test",
     "From symptoms of hyperglycaemia",
@@ -24847,7 +24847,7 @@ SINA.lectures["semio-endo-diabetes"] = {
    ]
   },
   {
-   "q": "Which make up the classic hyperglycaemia syndrome? (choose all)",
+   "q": "Which make up the classic hyperglycaemia syndrome?",
    "options": [
     "Polyuria",
     "Polydipsia",
@@ -24887,7 +24887,7 @@ SINA.lectures["semio-endo-diabetes"] = {
    ]
   },
   {
-   "q": "Which other symptoms can reveal diabetes? (choose all)",
+   "q": "Which other symptoms can reveal diabetes?",
    "options": [
     "Blurred vision",
     "Paresthesia",
@@ -24932,7 +24932,7 @@ SINA.lectures["semio-endo-diabetes"] = {
    ]
   },
   {
-   "q": "Which are criteria for diagnosing diabetes? (choose all)",
+   "q": "Which are criteria for diagnosing diabetes?",
    "options": [
     "Fasting glucose ≥ 1.26 g/L on 2 samples",
     "2-hour glucose ≥ 2 g/L during an OGTT",
@@ -24991,7 +24991,7 @@ SINA.lectures["semio-endo-diabetes"] = {
    ]
   },
   {
-   "q": "Which features suggest type 1 diabetes? (choose all)",
+   "q": "Which features suggest type 1 diabetes?",
    "options": [
     "Acute onset in a young person",
     "Normal or thin build",
@@ -25013,7 +25013,7 @@ SINA.lectures["semio-endo-diabetes"] = {
    ]
   },
   {
-   "q": "Which features suggest type 2 diabetes? (choose all)",
+   "q": "Which features suggest type 2 diabetes?",
    "options": [
     "Age over 40 with a family history",
     "Overweight or obesity",
@@ -25099,7 +25099,7 @@ SINA.lectures["semio-endo-diabetes"] = {
    ]
   },
   {
-   "q": "At diagnosis, what does the examination include? (choose all)",
+   "q": "At diagnosis, what does the examination include?",
    "options": [
     "Capillary blood glucose",
     "Weight, height and BMI",
@@ -25125,7 +25125,7 @@ SINA.lectures["semio-endo-diabetes"] = {
    "options": [
     "Is chronic",
     "Results from absolute or relative deficient insulin secretion",
-    "May result from deficient insulin action (insulin resistance)",
+    "May result from deficient insulin action",
     "Is always due to autoimmune destruction of the pancreatic beta cells"
    ],
    "answers": [
@@ -25875,7 +25875,7 @@ SINA.lectures["semio-endo-diabetes"] = {
   {
    "q": "In mild ketoacidosis, signs of ketosis (as opposed to signs of hyperglycaemia) include:",
    "options": [
-    "Fruity (ketonic) breath",
+    "Fruity breath",
     "Anorexia",
     "Nausea and vomiting",
     "Frequent urination at night"
@@ -26133,7 +26133,7 @@ SINA.lectures["semio-endo-diabetes"] = {
   {
    "q": "Regarding hypoglycaemia as defined in the lecture:",
    "options": [
-    "It is defined by a blood glucose level <= 0.7 g/L (ADA threshold)",
+    "It is defined by a blood glucose level <= 0.7 g/L",
     "It is directly or indirectly responsible for 2 to 4% of deaths due to diabetes",
     "It requires emergency treatment",
     "It is defined by a blood glucose below 0.5 g/L in all diabetics"
@@ -26220,7 +26220,7 @@ SINA.lectures["semio-endo-diabetes"] = {
    "q": "The Whipple triad comprises:",
    "options": [
     "Symptoms of hypoglycaemia",
-    "Low blood glucose (values < 70 mg/dL)",
+    "Low blood glucose below 70 mg/dL",
     "Resolution of symptoms after glucose intake",
     "Ketonuria on a urine test strip"
    ],
@@ -26329,8 +26329,8 @@ SINA.lectures["semio-endo-diabetes"] = {
   {
    "q": "In the classification of hypoglycaemia:",
    "options": [
-    "Level 1 (alert value) is <= 70 mg/dL (3.9 mmol/L)",
-    "Level 2 (clinically significant) is < 54 mg/dL (3.0 mmol/L)",
+    "Level 1 is <= 70 mg/dL",
+    "Level 2 is < 54 mg/dL",
     "Level 3 is defined by a glucose below 40 mg/dL",
     "Level 1 by definition requires injectable glucagon"
    ],
@@ -26358,7 +26358,7 @@ SINA.lectures["semio-endo-diabetes"] = {
    "options": [
     "No specific glucose threshold",
     "Severe cognitive impairment, seizures or coma",
-    "Need for external assistance and injectable treatment (glucose, glucagon)",
+    "Need for external assistance and injectable treatment",
     "A glucose between 54 and 70 mg/dL"
    ],
    "answers": [
@@ -26556,7 +26556,7 @@ SINA.lectures["semio-endo-diabetes"] = {
    "options": [
     "Hyperglycaemia leads to occlusion of retinal vessels",
     "Retinal ischaemia leads to reactive proliferation of neovessels",
-    "Stages are non-proliferative, severe (pre-proliferative) and proliferative",
+    "Stages are non-proliferative, severe non-proliferative and proliferative",
     "Fundus examination is reserved for patients with visual symptoms"
    ],
    "answers": [
@@ -27146,8 +27146,8 @@ SINA.lectures["semio-endo-diabetes"] = {
    "q": "The laboratory assessment of diabetic nephropathy includes:",
    "options": [
     "Conventional 24-hour urine collection",
-    "Albumin-to-creatinine ratio (ACR) on an early morning spot urine",
-    "ACR measured in blood",
+    "Albumin-to-creatinine ratio on an early morning spot urine",
+    "Albumin-to-creatinine ratio measured in blood",
     "Renal angiography"
    ],
    "answers": [
@@ -27339,7 +27339,7 @@ SINA.lectures["semio-endo-diabetes"] = {
   {
    "q": "The paraclinical work-up of peripheral artery disease includes:",
    "options": [
-    "Ankle-brachial index (ABI)",
+    "Ankle-brachial index",
     "Arterial Doppler of the lower limbs",
     "CT angiography systematically in every patient",
     "128-Hz tuning fork"
@@ -27663,7 +27663,7 @@ SINA.lectures["semio-endo-diabetes"] = {
   {
    "q": "During a 75 g OGTT, the 2-hour glucose is 11.5 mmol/L. What does it mean?",
    "options": [
-    "It meets the diabetes criterion (≥ 11.1 mmol/L)",
+    "It meets the diabetes criterion",
     "It is normal",
     "It is prediabetes only",
     "OGTT cannot be used to diagnose diabetes"
@@ -27681,7 +27681,7 @@ SINA.lectures["semio-endo-diabetes"] = {
   {
    "q": "An HbA1c of 50 mmol/mol is:",
    "options": [
-    "Above the diabetes threshold of 48 mmol/mol (6.5%)",
+    "Above the diabetes threshold of 48 mmol/mol",
     "Normal",
     "In the prediabetes range only",
     "Below the threshold of 58 mmol/mol"
@@ -27784,7 +27784,7 @@ SINA.lectures["semio-endo-diabetes"] = {
    ]
   },
   {
-   "q": "In which patients can ketoacidosis develop quickly instead of over a few days? (choose all)",
+   "q": "In which patients can ketoacidosis develop quickly instead of over a few days?",
    "options": [
     "A child",
     "A pregnant woman",
@@ -27824,7 +27824,7 @@ SINA.lectures["semio-endo-diabetes"] = {
    ]
   },
   {
-   "q": "Which features suggest type 2 rather than type 1 diabetes? (choose all)",
+   "q": "Which features suggest type 2 rather than type 1 diabetes?",
    "options": [
     "Overweight with hypertension and dyslipidaemia",
     "A strong family history of diabetes",
@@ -27851,7 +27851,7 @@ SINA.lectures["semio-endo-diabetes"] = {
    ]
   },
   {
-   "q": "Which examination findings are sought when diabetes is discovered? (choose all)",
+   "q": "Which examination findings are sought when diabetes is discovered?",
    "options": [
     "Signs of dehydration",
     "Signs of infection",
