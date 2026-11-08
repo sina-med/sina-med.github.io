@@ -2,6 +2,9 @@
    Style: short changelog lines, developer voice (Added / Fixed / Changed), no "you". */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
+  { date: "8 November 2026", items: [
+    "Fixed: 1 reported question, Semiology, Digestive physical examination.",
+  ] },
   { date: "7 November 2026", items: [
     "Added: note on the Midterm page and the question picker: questions cover whole lectures, not only the announced midterm scope.",
     "Fixed: 1 reported question, Semiology, Adrenal semiology.",
