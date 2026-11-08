@@ -2716,22 +2716,26 @@
     }
     html += '<ol class="wk-list">' + W.weak.map(function (x) {
       var tone = x.pct < 50 ? "low" : x.pct < 75 ? "mid" : "good";
-      return '<li><a href="#/subject/' + S.lectures[x.lid].subject + "/questions/" + x.lid + '"><span class="wk-name">' + esc(lectureTitle(x.lid) || S.lectures[x.lid].title) + '</span><span class="wk-num">' + x.pct + "% right · " + x.r + "/" + x.a + (x.miss ? " · " + x.miss + " to redo" : "") + '</span><span class="pb-track"><span class="pb-fill ' + tone + '" style="--w:' + Math.max(2, x.pct) + '%"></span></span></a></li>';
+      return '<li><a href="#/subject/' + S.lectures[x.lid].subject + "/questions/" + x.lid + '"><span class="wk-name">' + esc(lectureTitle(x.lid) || S.lectures[x.lid].title) + '</span><span class="wk-num">' + x.pct + "% right · " + x.r + "/" + x.a + (x.miss ? " · " + x.miss + " to redo" : "") + '</span><span class="pb-track"><span class="pb-fill ' + tone + '" style="--w:' + Math.max(2, x.pct) + '%"></span></span></a><label class="wk-pick"><input type="checkbox" class="wk-chk" value="' + x.lid + '" checked><span>Quiz</span></label></li>';
     }).join("") + "</ol>" +
-      '<div class="row"><button class="btn primary" id="wk-go" type="button">Start the weak-spot quiz (' + N + " questions)</button></div>" +
+      '<p class="meta wk-hint">Tick the lectures to include in the quiz, or tap a lecture to practise it on its own.</p><div class="row"><button class="btn primary" id="wk-go" type="button">Start the weak-spot quiz (' + N + " questions)</button></div>" +
       (W.untried.length ? '<p class="meta">Not practised yet' + (W.scope ? " for this midterm" : "") + ": " + W.untried.slice(0, 6).map(function (lid) { return '<a href="#/subject/' + S.lectures[lid].subject + "/questions/" + lid + '">' + esc(lectureTitle(lid) || S.lectures[lid].title) + "</a>"; }).join(", ") + (W.untried.length > 6 ? "…" : "") + ".</p>" : "") +
       '<div id="wkq"></div></div>';
     setView(html, "Weak spots"); wkWire(); animateRings();
-    document.getElementById("wk-go").onclick = function () {
+    var goB = document.getElementById("wk-go");
+    function chosen() { var on = {}; app.querySelectorAll(".wk-chk").forEach(function (c) { if (c.checked) on[c.value] = 1; }); return W.weak.filter(function (x) { return on[x.lid]; }); }
+    function wkLabel() { var c = chosen(), n = Math.min(N, c.reduce(function (a, x) { return a + x.keys.length; }, 0)); goB.disabled = !c.length; goB.textContent = c.length ? "Start the weak-spot quiz (" + n + " questions" + (c.length < W.weak.length ? ", " + c.length + " lecture" + (c.length > 1 ? "s" : "") : "") + ")" : "Tick at least one lecture"; }
+    app.querySelectorAll(".wk-chk").forEach(function (c) { c.onchange = wkLabel; }); wkLabel();
+    goB.onclick = function () {
       /* weakest lectures get more questions: weights 5,4,3,2,1 */
-      var tot = 0, ws = W.weak.map(function (x, i) { var w = W.weak.length - i; tot += w; return w; }), pool = [], used = {};
-      W.weak.forEach(function (x, i) {
+      var picked = chosen(), tot = 0, ws = picked.map(function (x, i) { var w = picked.length - i; tot += w; return w; }), pool = [], used = {};
+      picked.forEach(function (x, i) {
         var want = Math.max(1, Math.round(N * ws[i] / tot));
         var miss = shuffle(x.keys.filter(function (k) { return W.mk[k]; })), notyet = shuffle(x.keys.filter(function (k) { return !W.mk[k] && !W.rt[k]; })), rest = shuffle(x.keys.filter(function (k) { return !W.mk[k] && W.rt[k]; }));
         miss.concat(notyet, rest).slice(0, want).forEach(function (k) { if (!used[k]) { used[k] = 1; pool.push(k); } });
       });
       pool = shuffle(pool).slice(0, N).map(function (k) { var e = W.idx[k], c = shuffleQ(e.q), d = {}; for (var j in c) d[j] = c[j]; d._k = k; d._lid = e.lid; d._fig = e.fig; d._from = lectureTitle(e.lid) || S.lectures[e.lid].title; return d; });
-      var box = document.getElementById("wkq"); app.querySelectorAll(".wk-list, .row, .wk-scope, .lede-s, .wrap > .meta").forEach(function (el) { el.hidden = true; });
+      var box = document.getElementById("wkq"); app.querySelectorAll(".wk-list, .row, .wk-scope, .lede-s, .wrap > .meta, .wk-hint").forEach(function (el) { el.hidden = true; });
       questionsPanel(box, { id: "weak", _title: "Weak-spot quiz", mcqs: pool }); box.scrollIntoView({ block: "start" });
     };
   }
