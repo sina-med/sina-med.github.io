@@ -129,6 +129,9 @@ a.btn { text-decoration: none; display: inline-block; }
 .pill.muted { background: var(--surface-2); color: var(--muted); font-weight: 600; }
 
 /* notes */
+.note.announce { position: relative; border-left-color: var(--alert); background: var(--alert-soft); padding-right: 2.6rem; margin-top: 0.4rem; }
+.note.announce p { margin: 0 0 0.5rem; } .note.announce p:last-child { margin: 0; }
+.ann-x { position: absolute; top: 0.35rem; right: 0.45rem; width: 2rem; height: 2rem; border: 0; background: transparent; color: var(--ink); font-size: 1.4rem; line-height: 1; cursor: pointer; border-radius: 6px; }
 .note { border-left: 4px solid var(--sage); background: var(--sage-soft); padding: 0.8rem 1rem; border-radius: 0 var(--radius) var(--radius) 0; font-size: 0.95rem; margin: 1rem 0 1.4rem; }
 .check-item { border-left: 4px solid var(--alert); background: var(--alert-soft); padding: 0.7rem 1rem; border-radius: 0 var(--radius) var(--radius) 0; font-size: 0.95rem; margin: 0 0 0.8rem; }
 .src { font-size: 0.85rem; color: var(--muted); }
