@@ -3,6 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "8 November 2026", items: [
+    "Added: a short note under every answer option explaining why it is right or wrong, for all Semiology endocrine questions (thyroid, pituitary, adrenal, diabetes).",
     "Changed: Semiology midterm lectures: removed brackets in answer options that hinted at the correct answer, and the \"(choose all)\" hint in question stems.",
     "Added: Weak spots: tick which of the weak lectures go into the weak-spot quiz.",
     "Added: Midterm topics only / Whole lecture choice before Semiology questions. Pituitary, adrenal and diabetes keep only the announced midterm topics; questions outside them are tagged Not on the midterm in whole-lecture mode.",

@@ -12164,6 +12164,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 5
     }
+   ],
+   "notes": [
+    "A normal thyroid cannot be seen; only a goitre may be visible.",
+    "Only an enlarged gland (goitre) can be seen.",
+    "Sex does not make a normal gland visible.",
+    "Swallowing moves a goitre or nodule up, but a normal gland stays invisible."
    ]
   },
   {
@@ -12182,6 +12188,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 8
     }
+   ],
+   "notes": [
+    "Low flow gives no bruit; hypothyroidism is silent on auscultation.",
+    "High blood flow through the gland in hyperthyroidism makes the bruit, sometimes with a thrill.",
+    "A calcified nodule makes no sound.",
+    "A normal thyroid has no bruit."
    ]
   },
   {
@@ -12200,6 +12212,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 20
     }
+   ],
+   "notes": [
+    "TSH rises in primary hypothyroidism, not hyperthyroidism.",
+    "A normal TSH argues against primary hyperthyroidism.",
+    "High FT4/FT3 switch off pituitary TSH.",
+    "TSH is consistently low in primary hyperthyroidism."
    ]
   },
   {
@@ -12218,6 +12236,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 16
     }
+   ],
+   "notes": [
+    "Hyperthyroidism speeds the heart; bradycardia fits hypothyroidism.",
+    "Systolic BP rises in hyperthyroidism.",
+    "Heart sounds are loud, not soft.",
+    "Persistent resting tachycardia is a key sign."
    ]
   },
   {
@@ -12236,6 +12260,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 17
     }
+   ],
+   "notes": [
+    "A coarse resting tremor suggests Parkinson's disease.",
+    "Fine, rapid tremor of the outstretched hands, tongue or closed eyelids.",
+    "Intention tremor points to a cerebellar problem.",
+    "Flapping tremor (asterixis) suggests liver or kidney failure."
    ]
   },
   {
@@ -12254,6 +12284,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 18
     }
+   ],
+   "notes": [
+    "A drooping eyelid is ptosis.",
+    "Blinking frequency is not lid lag.",
+    "Double vision comes from extraocular muscle dysfunction.",
+    "The upper lid lags behind the globe when the patient looks slowly down."
    ]
   },
   {
@@ -12272,6 +12308,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 23
     }
+   ],
+   "notes": [
+    "Autoimmune Graves' disease is the most common cause, mainly in women aged 20 to 40.",
+    "Toxic adenoma is less common than Graves'.",
+    "Hashimoto's thyroiditis usually causes hypothyroidism.",
+    "Iodine deficiency causes goitre and hypothyroidism."
    ]
   },
   {
@@ -12290,6 +12332,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 28
     }
+   ],
+   "notes": [
+    "Anti-TPO antibodies point to Hashimoto's thyroiditis.",
+    "Anti-thyroglobulin antibodies are used for Hashimoto's, not Graves'.",
+    "TSH receptor antibodies (TRAb, TSI) are highly specific to Graves'.",
+    "Antinuclear antibodies belong to systemic autoimmune disease such as lupus."
    ]
   },
   {
@@ -12308,6 +12356,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 31
     }
+   ],
+   "notes": [
+    "Pain, fever and a goitre suggest subacute (de Quervain) thyroiditis.",
+    "Weight gain and cold intolerance fit hypothyroidism.",
+    "Nodule, hoarseness and lymph nodes are warning signs of thyroid cancer.",
+    "Thyrotoxicosis + goitre + exophthalmos is the clinical triad in the lecture."
    ]
   },
   {
@@ -12326,6 +12380,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 29
     }
+   ],
+   "notes": [
+    "The adenoma takes up tracer while the rest of the gland is suppressed.",
+    "Diffuse uptake is the Graves' pattern.",
+    "A cold nodule does not take up tracer; it is not toxic.",
+    "Tracer is taken up by the hot nodule."
    ]
   },
   {
@@ -12376,6 +12436,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 43
     }
+   ],
+   "notes": [
+    "A suppressed TSH fits hyperthyroidism.",
+    "In primary hypothyroidism the pituitary raises TSH to push the failing gland.",
+    "A normal TSH argues against primary hypothyroidism.",
+    "An undetectable TSH fits hyperthyroidism."
    ]
   },
   {
@@ -12394,6 +12460,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 40
     }
+   ],
+   "notes": [
+    "Cholesterol rises, not falls, in hypothyroidism.",
+    "Sodium falls (dilutional hyponatraemia).",
+    "The anaemia of hypothyroidism is macrocytic.",
+    "Slowed lipid metabolism raises cholesterol."
    ]
   },
   {
@@ -12412,6 +12484,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 41
     }
+   ],
+   "notes": [
+    "Graves' gives a goitre with hyperthyroidism, not endemic goitre.",
+    "Thyroid cancer is not a cause of endemic goitre.",
+    "Iodine deficiency is the main cause of endemic goitre.",
+    "Amiodarone affects thyroid function but does not cause endemic goitre."
    ]
   },
   {
@@ -12430,6 +12508,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 42
     }
+   ],
+   "notes": [
+    "The end stage of untreated hypothyroidism, mostly in the elderly.",
+    "A hyperthyroid crisis is thyroid storm, the opposite picture.",
+    "Myxoedema coma is not a cancer.",
+    "Bleeding into a goitre is a different event."
    ]
   },
   {
@@ -12448,6 +12532,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 44
     }
+   ],
+   "notes": [
+    "5 cm³ is below normal size.",
+    "Above 18 cm³ in women (above 20 cm³ in men) is a goitre.",
+    "40 cm³ is clearly a goitre, but the threshold is lower.",
+    "10 cm³ is within normal size."
    ]
   },
   {
@@ -12466,6 +12556,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 46
     }
+   ],
+   "notes": [
+    "Far too low: most lumps are benign.",
+    "Too low: most lumps are benign.",
+    "90 to 95% of thyroid lumps are benign.",
+    "Only a small share is malignant, not benign."
    ]
   },
   {
@@ -12484,6 +12580,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 47
     }
+   ],
+   "notes": [
+    "U1 needs FNAC only in a high-risk patient.",
+    "U1 and U2 are normal or benign; FNAC only if high risk.",
+    "Suspicious lesions do need cytology.",
+    "FNAC for U3 (indeterminate), U4 (suspicious) and U5 (malignant)."
    ]
   },
   {
@@ -12505,6 +12607,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 36
     }
+   ],
+   "notes": [
+    "Increased heat production makes patients intolerant of heat.",
+    "A fine tremor of the hands is typical.",
+    "Cold intolerance fits hypothyroidism.",
+    "Hyperthyroidism causes tachycardia, not bradycardia."
    ]
   },
   {
@@ -13591,6 +13699,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 57
     }
+   ],
+   "notes": [
+    "TRAb are highly specific to Graves' disease.",
+    "A low TSH confirms thyrotoxicosis but not its cause.",
+    "Anti-TPO antibodies look for Hashimoto's.",
+    "Calcitonin is a tumour marker (medullary thyroid cancer)."
    ]
   },
   {
@@ -13609,6 +13723,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 34
     }
+   ],
+   "notes": [
+    "Diffuse homogeneous uptake is Graves'.",
+    "Toxic adenoma: one hot nodule, the rest of the gland reduced or silent.",
+    "Patchy uptake from several nodules is toxic multinodular goitre.",
+    "A cold nodule is non-functioning and cannot cause thyrotoxicosis."
    ]
   },
   {
@@ -13632,6 +13752,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 34
     }
+   ],
+   "notes": [
+    "Tachycardia is part of thyrotoxicosis from any cause.",
+    "A low TSH is common to every cause of thyrotoxicosis.",
+    "Ophthalmopathy is specific to Graves'; toxic adenoma has no eye signs.",
+    "Tremor is part of thyrotoxicosis from any cause."
    ]
   },
   {
@@ -13650,6 +13776,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 36
     }
+   ],
+   "notes": [
+    "A large substernal goitre can compress the trachea, oesophagus or veins.",
+    "Exophthalmos belongs to Graves', not to multinodular goitre.",
+    "A thyroglossal cyst is a midline congenital lump, not this picture.",
+    "Lid lag can occur in any thyrotoxicosis but is not the specific concern here."
    ]
   },
   {
@@ -13668,6 +13800,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 29
     }
+   ],
+   "notes": [
+    "Falling visual acuity means optic nerve compression, the most serious eye sign.",
+    "Lid retraction does not reduce visual acuity.",
+    "Extraocular muscle dysfunction causes double vision, not dim vision.",
+    "Chemosis is conjunctival swelling and does not reduce acuity."
    ]
   },
   {
@@ -13691,6 +13829,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 38
     }
+   ],
+   "notes": [
+    "Destroyed cells release their stored hormone; once it is used up, the toxic phase stops.",
+    "Thyroiditis is not driven by TSH receptor antibodies.",
+    "Iodine uptake is low in thyroiditis, not high.",
+    "TSH is suppressed during the toxic phase."
    ]
   },
   {
@@ -13709,6 +13853,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 33
     }
+   ],
+   "notes": [
+    "Graves' disease is true hyperthyroidism (the gland overproduces).",
+    "Toxic adenoma is true hyperthyroidism.",
+    "Hormone leaks out of damaged cells, so the gland is not overproducing.",
+    "Toxic nodular goitre is true hyperthyroidism."
    ]
   },
   {
@@ -13732,6 +13882,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 45
     }
+   ],
+   "notes": [
+    "The pituitary fails to raise TSH despite low FT4: a pituitary cause.",
+    "Hashimoto's is primary hypothyroidism with a high TSH.",
+    "Subclinical hypothyroidism has a high TSH with a normal FT4.",
+    "Iodine deficiency is a primary cause with a high TSH."
    ]
   },
   {
@@ -13755,6 +13911,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 41
     }
+   ],
+   "notes": [
+    "Primary hypothyroidism can raise prolactin, and her symptoms fit it.",
+    "Metanephrines look for phaeochromocytoma.",
+    "TRAb look for Graves' disease, not hypothyroidism.",
+    "Calcitonin is a thyroid cancer marker."
    ]
   },
   {
@@ -13778,6 +13940,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 46
     }
+   ],
+   "notes": [
+    "Anti-TPO and anti-Tg are the antibodies of Hashimoto's thyroiditis.",
+    "Stimulating TSH receptor antibodies are the Graves' marker.",
+    "Anti-21-hydroxylase antibodies belong to Addison's disease.",
+    "A hot nodule fits a toxic adenoma, not hypothyroidism."
    ]
   },
   {
@@ -13796,6 +13964,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 48
     }
+   ],
+   "notes": [
+    "Myxoedema coma: hypothermia, hypoglycaemia, hyponatraemia, hypoventilation.",
+    "Glucose and sodium fall, not rise.",
+    "These are not features of myxoedema coma.",
+    "High FT4 with low TSH is hyperthyroidism."
    ]
   },
   {
@@ -13814,6 +13988,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 48
     }
+   ],
+   "notes": [
+    "Myxoedema pericarditis is rarely large enough to cause tamponade.",
+    "Tamponade is rare, not usual.",
+    "The effusion is a complication of hypothyroidism, not cancer.",
+    "It is listed among the complications of hypothyroidism."
    ]
   },
   {
@@ -13837,6 +14017,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 43
     }
+   ],
+   "notes": [
+    "Iodine deficiency causes endemic goitre and myxoedematous cretinism.",
+    "Graves' gives hyperthyroidism, not growth and intellectual delay.",
+    "Toxic multinodular goitre is a disease of older adults.",
+    "Riedel's thyroiditis is a rare fibrosing thyroiditis in adults."
    ]
   },
   {
@@ -13859,6 +14045,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 43
     }
+   ],
+   "notes": [
+    "Amiodarone is a listed cause of drug-induced hypothyroidism.",
+    "Lithium is a listed cause.",
+    "Checkpoint inhibitors are a listed cause.",
+    "Levothyroxine treats hypothyroidism; it does not cause it."
    ]
   },
   {
@@ -13877,6 +14069,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 54
     }
+   ],
+   "notes": [
+    "U2 is benign: no FNAC unless the patient is high risk.",
+    "FNAC is for U3 to U5, or U1-U2 in high-risk patients.",
+    "Surgery is not indicated for a benign-looking nodule.",
+    "TRAb look for Graves' disease, not a nodule's nature."
    ]
   },
   {
@@ -13895,6 +14093,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 53
     }
+   ],
+   "notes": [
+    "Stridor and hoarseness are warning signs that may be seen in thyroid cancer.",
+    "New hoarseness with a hard nodule needs a work-up.",
+    "90 to 95% of thyroid lumps are benign; work-up comes first.",
+    "A bruit is heard over the gland in hyperthyroidism; this inspiratory noise is stridor."
    ]
   },
   {
@@ -13913,6 +14117,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 52
     }
+   ],
+   "notes": [
+    "Family history and radiation exposure must be checked carefully.",
+    "A viral infection points to subacute thyroiditis, not cancer risk.",
+    "Diet alone is not the key history item for a suspicious lump.",
+    "The pill is not a thyroid cancer risk factor."
    ]
   },
   {
@@ -13931,6 +14141,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 15
     }
+   ],
+   "notes": [
+    "19 cm³ is above 18 cm³ (women) but below 20 cm³ (men).",
+    "The female threshold is the lower one, not the male.",
+    "In a man, 19 cm³ is still normal.",
+    "19 cm³ is above the female threshold of 18 cm³."
    ]
   },
   {
@@ -13949,6 +14165,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 15
     }
+   ],
+   "notes": [
+    "Thickness above 2.5 cm defines a goitre.",
+    "A thickness of 2.8 cm is above normal.",
+    "A height of 4 to 6 cm is normal.",
+    "The lobe is enlarged, not atrophic."
    ]
   },
   {
@@ -13967,6 +14189,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 17
     }
+   ],
+   "notes": [
+    "Faster gut motility gives frequent soft stools, but true diarrhoea is rare.",
+    "Constipation belongs to hypothyroidism.",
+    "Profuse diarrhoea is not the rule.",
+    "Thyroid hormones do change bowel habit."
    ]
   },
   {
@@ -13990,6 +14218,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 49
     }
+   ],
+   "notes": [
+    "Hyperthyroidism: hyperreflexia; hypothyroidism: delayed relaxation.",
+    "This swaps the two states.",
+    "Reflexes are not absent in either.",
+    "Reflexes change in both states."
    ]
   },
   {
@@ -14008,6 +14242,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 12
     }
+   ],
+   "notes": [
+    "Protein breakdown causes muscle loss (amyotrophy).",
+    "Lipolysis explains fat loss, not muscle loss.",
+    "Peristalsis explains soft stools.",
+    "Nervous excitability explains tremor and irritability."
    ]
   },
   {
@@ -14026,6 +14266,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 41
     }
+   ],
+   "notes": [
+    "Cold sensitivity is typical of hypothyroidism.",
+    "Fine, brittle hair is listed under hyperthyroidism.",
+    "Frequent bowel movements fit hyperthyroidism.",
+    "Tremor fits hyperthyroidism."
    ]
   },
   {
@@ -14044,6 +14290,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 16
     }
+   ],
+   "notes": [
+    "A non-functioning nodule is 'cold'.",
+    "A hot nodule takes up more tracer than the rest of the gland.",
+    "'Toxic' describes hormone excess, not a scintigraphy pattern.",
+    "Ectopic means thyroid tissue outside its normal place."
    ]
   },
   {
@@ -14062,6 +14314,12 @@ SINA.lectures["semio-endo-thyroid"] = {
      "lec": "Thyroid semiology",
      "n": 33
     }
+   ],
+   "notes": [
+    "An iodine load can trigger hyperthyroidism in a goitre: Jod-Basedow.",
+    "Struma ovarii is thyroid tissue in an ovarian tumour.",
+    "Hashimoto's causes hypothyroidism.",
+    "Riedel's is a fibrosing thyroiditis, not iodine-induced."
    ]
   }
  ],
@@ -14225,6 +14483,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 26
     }
+   ],
+   "notes": [
+    "Fat gathers on the trunk, face and neck.",
+    "The limbs get thinner from muscle wasting.",
+    "Fat is central, not only gluteal.",
+    "Patients gain weight centrally, they do not get thin."
    ]
   },
   {
@@ -14243,6 +14507,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 26
     }
+   ],
+   "notes": [
+    "White, thin striae are common in simple weight gain.",
+    "Wide purple striae (over 1 cm) are typical.",
+    "Vitiligo is a depigmentation, not a Cushing sign.",
+    "Café-au-lait spots belong to neurofibromatosis."
    ]
   },
   {
@@ -14266,6 +14536,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 26
     }
+   ],
+   "notes": [
+    "Facial fat increases (moon face); facial muscles are not the typical site.",
+    "The diaphragm is not the typical site.",
+    "Proximal limb muscles waste, in contrast with truncal obesity.",
+    "The heart is not the muscle that wastes."
    ]
   },
   {
@@ -14284,6 +14560,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 26
     }
+   ],
+   "notes": [
+    "Cortisol raises glucose; hypoglycaemia fits adrenal insufficiency.",
+    "Hypothyroidism is not caused by cortisol excess.",
+    "Hypocalcaemia is not a feature.",
+    "Cortisol excess causes diabetes or prediabetes."
    ]
   },
   {
@@ -14302,6 +14584,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 24
     }
+   ],
+   "notes": [
+    "Osteopetrosis is an excess of bone density.",
+    "Cortisol increases bone breakdown: osteoporosis.",
+    "Paget's disease is not caused by cortisol.",
+    "Rickets comes from vitamin D deficiency in children."
    ]
   },
   {
@@ -14320,6 +14608,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 26
     }
+   ],
+   "notes": [
+    "Autism is a developmental condition.",
+    "Dyslexia is a learning disorder.",
+    "Psychosis can occur, but schizophrenia is not the stressed risk.",
+    "Depression with suicide risk is stressed."
    ]
   },
   {
@@ -14343,6 +14637,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 36
     }
+   ],
+   "notes": [
+    "Hypercoagulability raises the risk of thrombosis.",
+    "Haemophilia is a congenital factor deficiency.",
+    "Bruising comes from fragile capillaries, but the stressed clotting risk is thrombosis.",
+    "Clotting risk does change."
    ]
   },
   {
@@ -14361,6 +14661,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 26
     }
+   ],
+   "notes": [
+    "An adrenal adenoma gives a low ACTH.",
+    "Adrenal insufficiency has low cortisol.",
+    "High ACTH: pituitary or ectopic source.",
+    "High ACTH with high cortisol is not normal."
    ]
   },
   {
@@ -14379,6 +14685,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 31
     }
+   ],
+   "notes": [
+    "Any cortisol excess is Cushing's syndrome.",
+    "An adrenal tumour gives ACTH-independent Cushing's syndrome.",
+    "Ectopic ACTH is an ACTH-dependent cause but not 'Cushing's disease'.",
+    "Cushing's disease is the pituitary ACTH-secreting adenoma."
    ]
   },
   {
@@ -14402,6 +14714,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 75
     }
+   ],
+   "notes": [
+    "MIBG is taken up by catecholamine-producing tissue (adrenal medulla, paragangliomas).",
+    "Thyroid nodules are explored with thyroid scintigraphy.",
+    "Bone metastases are explored with bone scintigraphy.",
+    "Kidney function is not explored by MIBG."
    ]
   },
   {
@@ -14420,6 +14738,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 74
     }
+   ],
+   "notes": [
+    "A chest X-ray cannot assess the adrenals.",
+    "Echocardiography explores the heart.",
+    "CT shows adenoma size, lipid content and extension.",
+    "Mammography explores the breast."
    ]
   },
   {
@@ -14441,6 +14765,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 26
     }
+   ],
+   "notes": [
+    "Fat gathers on the face.",
+    "Wide purple striae are typical.",
+    "Patients gain weight centrally.",
+    "Cortisol excess causes hypertension, not hypotension."
    ]
   },
   {
@@ -16531,6 +16861,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 30
     }
+   ],
+   "notes": [
+    "The best screening test: confirm hypercortisolism first.",
+    "ACTH is measured once hypercortisolism is confirmed, to find the cause.",
+    "Imaging comes after biology.",
+    "The high-dose test separates the causes; it is not for screening."
    ]
   },
   {
@@ -16554,6 +16890,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 33
     }
+   ],
+   "notes": [
+    "Low ACTH means an adrenal source: image the adrenals.",
+    "Pituitary MRI is for ACTH-dependent Cushing's.",
+    "The high-dose test is for ACTH-dependent cases.",
+    "An ectopic source makes ACTH, so ACTH would be high."
    ]
   },
   {
@@ -16572,6 +16914,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 31
     }
+   ],
+   "notes": [
+    "The next step for ACTH-dependent Cushing's.",
+    "Adrenal CT is for a low ACTH.",
+    "Synacthen tests adrenal reserve, not cortisol excess.",
+    "The aldosterone/renin ratio is for hyperaldosteronism."
    ]
   },
   {
@@ -16590,6 +16938,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 30
     }
+   ],
+   "notes": [
+    "The optimal test in psychiatric illness, morbid obesity or alcoholism.",
+    "The 1 mg test gives more false positives in these patients.",
+    "ACTH does not confirm hypercortisolism.",
+    "A single morning cortisol is not enough."
    ]
   },
   {
@@ -16613,6 +16967,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 32
     }
+   ],
+   "notes": [
+    "Smoker, fast onset, marked hypokalaemia, high ACTH: ectopic ACTH.",
+    "An adrenal adenoma gives a low ACTH.",
+    "Exogenous steroids give a low ACTH.",
+    "Adrenal carcinoma gives a low ACTH."
    ]
   },
   {
@@ -16636,6 +16996,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 18
     }
+   ],
+   "notes": [
+    "The steroid suppresses CRH and ACTH by negative feedback.",
+    "Cushing's disease has high ACTH from a pituitary tumour.",
+    "Ectopic ACTH comes from a tumour, not from prednisolone.",
+    "Feedback lowers ACTH."
    ]
   },
   {
@@ -16658,6 +17024,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 32
     }
+   ],
+   "notes": [
+    "Cortisol stimulates red cell production.",
+    "Cortisol raises neutrophils.",
+    "Cortisol lowers lymphocytes.",
+    "Lymphocytes fall, not rise."
    ]
   },
   {
@@ -16676,6 +17048,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 23
     }
+   ],
+   "notes": [
+    "Thin skin and fragile capillaries cause easy bruising.",
+    "Platelets are not low in Cushing's.",
+    "Clotting factors are not deficient.",
+    "Liver failure is not the cause."
    ]
   },
   {
@@ -16698,6 +17076,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 24
     }
+   ],
+   "notes": [
+    "Lower libido and impotence are listed in men.",
+    "Some gynaecomastia is listed in men.",
+    "Acne and seborrhoea are part of the skin changes.",
+    "Pigmented gums belong to primary adrenal insufficiency."
    ]
   },
   {
@@ -16716,6 +17100,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 37
     }
+   ],
+   "notes": [
+    "Growth retardation affects children.",
+    "Osteonecrosis can occur at any age.",
+    "Vertebral compression occurs at any age.",
+    "Myopathy occurs at any age."
    ]
   },
   {
@@ -16744,6 +17134,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 50
     }
+   ],
+   "notes": [
+    "Evening tiredness, pigmentation, low BP, low Na and high K: primary AI.",
+    "Secondary AI has no pigmentation and no hyperkalaemia.",
+    "Cushing's gives weight gain and hypertension.",
+    "An aldosterone adenoma gives hypertension and low potassium."
    ]
   },
   {
@@ -16762,6 +17158,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 40
     }
+   ],
+   "notes": [
+    "Worse as the day goes on and with effort.",
+    "Morning-worst fatigue is not the AI pattern.",
+    "It is a constant symptom, not only with fever.",
+    "It is physical, psychological and sexual, with an organic cause."
    ]
   },
   {
@@ -16780,6 +17182,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 48
     }
+   ],
+   "notes": [
+    "Between 5 and 18 µg/dL: a dynamic test is needed.",
+    "Confirmation needs a value below 5 µg/dL.",
+    "Exclusion needs a value above 18 µg/dL.",
+    "A morning cortisol is not used to detect Cushing's."
    ]
   },
   {
@@ -16798,6 +17206,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 49
     }
+   ],
+   "notes": [
+    "A peak below 18 µg/dL confirms adrenal insufficiency.",
+    "A normal response reaches at least 18 µg/dL.",
+    "Dexamethasone is not part of the synacthen test.",
+    "Synacthen tests adrenal reserve, not cortisol excess."
    ]
   },
   {
@@ -16821,6 +17235,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 57
     }
+   ],
+   "notes": [
+    "Aldosterone depends on the renin-angiotensin system, not ACTH, so potassium stays normal.",
+    "ACTH is low in secondary AI.",
+    "Cortisol is low.",
+    "Nothing points to kidney damage."
    ]
   },
   {
@@ -16839,6 +17259,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 61
     }
+   ],
+   "notes": [
+    "Low cortisol lifts feedback, so ACTH rises and darkens the skin.",
+    "Aldosterone is low in primary AI.",
+    "Cortisol is low in secondary AI.",
+    "Melanocytes are stimulated, not destroyed."
    ]
   },
   {
@@ -16867,6 +17293,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 60
     }
+   ],
+   "notes": [
+    "Acute AI is an emergency: treat at once.",
+    "Waiting for results delays life-saving treatment.",
+    "Dynamic tests come later, not in the emergency.",
+    "Salt loss worsens the crisis; a salt-free diet is a trigger."
    ]
   },
   {
@@ -16885,6 +17317,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 60
     }
+   ],
+   "notes": [
+    "Hyperkalaemia widens QRS and peaks T waves.",
+    "U waves fit hypokalaemia.",
+    "Diffuse ST elevation suggests pericarditis.",
+    "Low voltage alone is not the hyperkalaemia pattern."
    ]
   },
   {
@@ -16903,6 +17341,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 47
     }
+   ],
+   "notes": [
+    "Systolic fell by 24 mmHg within 3 minutes: positive.",
+    "A systolic fall of 20 mmHg or more is enough.",
+    "A 24 mmHg fall with dizziness is abnormal.",
+    "The test is read within 3 minutes of standing."
    ]
   },
   {
@@ -16926,6 +17370,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 76
     }
+   ],
+   "notes": [
+    "The key first test.",
+    "Plasma catecholamines are hard to interpret.",
+    "VMA is no longer used.",
+    "Imaging comes after biological confirmation."
    ]
   },
   {
@@ -16944,6 +17394,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 76
     }
+   ],
+   "notes": [
+    "Stress raises them and they clear fast, so levels are unreliable.",
+    "The tumour does secrete catecholamines.",
+    "They circulate in blood too.",
+    "MIBG is an imaging tracer and does not raise them."
    ]
   },
   {
@@ -16962,6 +17418,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 75
     }
+   ],
+   "notes": [
+    "Permanent secretion can come with orthostatic hypotension.",
+    "Hypermetabolism gives weight loss and heat intolerance.",
+    "Hyperpigmentation fits primary adrenal insufficiency.",
+    "Catecholamines raise glucose: glucose intolerance."
    ]
   },
   {
@@ -16985,6 +17447,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 74
     }
+   ],
+   "notes": [
+    "Tumour compression can trigger an attack.",
+    "Acute AI gives collapse, not a very high BP.",
+    "A vasovagal reaction lowers BP and pulse.",
+    "Apoplexy is a pituitary event with visual loss."
    ]
   },
   {
@@ -17003,6 +17471,12 @@ SINA.lectures["semio-endo-adrenal"] = {
      "lec": "Adrenal semiology",
      "n": 77
     }
+   ],
+   "notes": [
+    "MIBG explores the whole body for ectopic, multiple or metastatic tumours.",
+    "Noriodocholesterol is used for aldosterone adenomas.",
+    "Thyroid scintigraphy explores the thyroid.",
+    "Ultrasound is less sensitive than the CT already done."
    ]
   }
  ],
@@ -22235,6 +22709,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 6
     }
+   ],
+   "notes": [
+    "Each axis can be hypersecreted (prolactin, GH, ACTH, TSH, FSH/LH).",
+    "One or more axes can fail (pituitary insufficiency).",
+    "A tumour can compress nearby structures.",
+    "Hyperpigmentation is not a general sign of pituitary disease."
    ]
   },
   {
@@ -22253,6 +22733,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 4
     }
+   ],
+   "notes": [
+    "The cavernous sinuses lie on each side, not above.",
+    "The optic chiasm lies just above the gland.",
+    "The sphenoid sinus lies below the sella.",
+    "The fourth ventricle is in the posterior fossa, far from the pituitary."
    ]
   },
   {
@@ -22275,6 +22761,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 8
     }
+   ],
+   "notes": [
+    "Milk secretion is a classic sign in women.",
+    "GnRH suppression causes menstrual disorders.",
+    "Anovulation causes infertility.",
+    "Heat intolerance and tremor are signs of hyperthyroidism."
    ]
   },
   {
@@ -22293,6 +22785,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 8
     }
+   ],
+   "notes": [
+    "Galactorrhoea is rare in men.",
+    "Hypogonadism starts with low libido.",
+    "Field loss needs a large tumour and is not the first sign.",
+    "Polyuria is not a sign of high prolactin."
    ]
   },
   {
@@ -22311,6 +22809,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 9
     }
+   ],
+   "notes": [
+    "Prolactin does not destroy the ovaries; the effect is reversible.",
+    "Prolactin lowers GnRH, then LH and FSH, so ovulation stops.",
+    "Oestrogen falls, not rises.",
+    "The effect is central (GnRH), not on the uterus."
    ]
   },
   {
@@ -22329,6 +22833,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 10
     }
+   ],
+   "notes": [
+    "Dexamethasone suppression explores cortisol excess.",
+    "PEG precipitation removes macroprolactin to check the real prolactin level.",
+    "The OGTT is used to confirm acromegaly.",
+    "The insulin tolerance test explores GH and ACTH reserve."
    ]
   },
   {
@@ -22347,6 +22857,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 11
     }
+   ],
+   "notes": [
+    "A dopamine antagonist, so it raises prolactin.",
+    "Levothyroxine does not raise prolactin.",
+    "Metformin does not raise prolactin.",
+    "Paracetamol does not raise prolactin."
    ]
   },
   {
@@ -22369,6 +22885,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 11
     }
+   ],
+   "notes": [
+    "Pregnancy and nursing raise prolactin physiologically.",
+    "Primary hypothyroidism raises prolactin.",
+    "Chronic renal insufficiency raises prolactin.",
+    "Hyperthyroidism is not listed as a cause."
    ]
   },
   {
@@ -22387,6 +22909,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 8
     }
+   ],
+   "notes": [
+    "Microadenomas are too small to compress nearby structures.",
+    "Only macroadenomas give mass effects.",
+    "Microadenomas do not cause mass effect.",
+    "Macroadenomas can compress nearby structures."
    ]
   },
   {
@@ -22409,6 +22937,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 15
     }
+   ],
+   "notes": [
+    "Frontal bossing with prominent supraorbital ridges is acromegalic.",
+    "Forward growth of the mandible is typical.",
+    "Soft tissue thickening enlarges the tongue and lips.",
+    "Exophthalmos belongs to Graves' disease."
    ]
   },
   {
@@ -22432,6 +22966,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 36
     }
+   ],
+   "notes": [
+    "Gigantism is GH excess before the growth plates close, in children.",
+    "GH excess in an adult: big hands and feet, coarse face, oily skin.",
+    "Hypothyroidism does not enlarge hands and feet.",
+    "Paget disease enlarges bones (skull) but does not cause these soft tissue changes."
    ]
   },
   {
@@ -22450,6 +22990,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 17
     }
+   ],
+   "notes": [
+    "Soft tissue swelling at the wrist compresses the median nerve.",
+    "Bell's palsy is a facial nerve palsy, not linked to acromegaly.",
+    "Trigeminal neuralgia is not listed.",
+    "Peroneal nerve palsy is not the typical nerve problem."
    ]
   },
   {
@@ -22472,6 +23018,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 17
     }
+   ],
+   "notes": [
+    "Macroglossia and thick soft tissues narrow the airway.",
+    "Colonic polyps are associated.",
+    "GH excess causes hypertension and LVH.",
+    "GH raises glucose: diabetes, not hypoglycaemia."
    ]
   },
   {
@@ -22490,6 +23042,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 18
     }
+   ],
+   "notes": [
+    "A single random GH is unreliable because GH is pulsatile.",
+    "High IGF-1 and GH not suppressed by a glucose load confirm it.",
+    "GHRH is not the confirmation test.",
+    "Prolactin is often co-secreted (high), and it does not confirm acromegaly."
    ]
   },
   {
@@ -22508,6 +23066,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 18
     }
+   ],
+   "notes": [
+    "Prolactin is usually co-secreted with GH.",
+    "ACTH is not co-secreted with GH.",
+    "Vasopressin comes from the posterior pituitary.",
+    "Calcitonin comes from the thyroid."
    ]
   },
   {
@@ -22531,6 +23095,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 24
     }
+   ],
+   "notes": [
+    "A central scotoma suggests an optic nerve lesion.",
+    "Crossing nasal fibres are hit from below: bitemporal, upper fields first.",
+    "Binasal defects are not the chiasm pattern.",
+    "Tunnel vision in one eye is not the chiasm pattern."
    ]
   },
   {
@@ -22557,6 +23127,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 22
     }
+   ],
+   "notes": [
+    "Cranial nerves III, IV and VI are compressed in the sinus.",
+    "Oculomotor (III) compression causes ptosis.",
+    "Hearing (VIII) is not in the cavernous sinus.",
+    "Smell (I) is not in the cavernous sinus."
    ]
   },
   {
@@ -22579,6 +23155,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 25
     }
+   ],
+   "notes": [
+    "The fulminant picture of bleeding into a tumour.",
+    "It needs urgent care and early decompression.",
+    "Partial or total pituitary insufficiency often follows.",
+    "It is sudden, not slow."
    ]
   },
   {
@@ -22602,6 +23184,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 18
     }
+   ],
+   "notes": [
+    "MRI is the imaging test for pituitary tumours.",
+    "Skull X-ray is not used.",
+    "Neck ultrasound explores the thyroid.",
+    "Thyroid scintigraphy explores thyroid nodules."
    ]
   },
   {
@@ -24297,6 +24885,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 11
     }
+   ],
+   "notes": [
+    "A dopamine antagonist causing mild hyperprolactinaemia (25-100 ng/mL).",
+    "A mild level with a culprit drug points to the drug first.",
+    "There are no acromegalic features.",
+    "Adrenal insufficiency does not cause galactorrhoea."
    ]
   },
   {
@@ -24315,6 +24909,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 11
     }
+   ],
+   "notes": [
+    "Pregnancy is the first physiological cause of high prolactin and amenorrhoea.",
+    "Acromegaly is not the first thing to rule out.",
+    "Apoplexy is a sudden emergency, not this picture.",
+    "Cushing's disease does not explain a high prolactin."
    ]
   },
   {
@@ -24338,6 +24938,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 10
     }
+   ],
+   "notes": [
+    "Mass effect with field loss means a macroadenoma.",
+    "Microadenomas are too small to reach the chiasm.",
+    "Visual loss shows a tumour, not a drug effect.",
+    "Bitemporal loss is caused by the tumour pressing the chiasm."
    ]
   },
   {
@@ -24356,6 +24962,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 11
     }
+   ],
+   "notes": [
+    "Compressing the stalk blocks dopamine, so prolactin rises.",
+    "The adenoma is non-secreting.",
+    "Nothing points to hypothyroidism.",
+    "A second tumour is not needed to explain it."
    ]
   },
   {
@@ -24374,6 +24986,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 8
     }
+   ],
+   "notes": [
+    "In men, hyperprolactinaemia presents as hypogonadism.",
+    "Acromegaly does not give this picture.",
+    "Central hyperthyroidism does not give this picture.",
+    "Apoplexy is sudden headache and visual loss."
    ]
   },
   {
@@ -24392,6 +25010,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 11
     }
+   ],
+   "notes": [
+    "Drug-induced levels are usually 25-100 ng/mL.",
+    "A mild level on a culprit drug does not prove a tumour.",
+    "Haloperidol, a dopamine antagonist, raises prolactin.",
+    "Only a few drugs (risperidone) push it above 200 ng/mL."
    ]
   },
   {
@@ -24410,6 +25034,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 11
     }
+   ],
+   "notes": [
+    "TRH stimulates prolactin release.",
+    "The OGTT tests GH suppression.",
+    "Dexamethasone tests cortisol suppression.",
+    "Synacthen tests cortisol reserve."
    ]
   },
   {
@@ -24433,6 +25063,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 15
     }
+   ],
+   "notes": [
+    "Macroglossia and thick soft tissues narrow the airway.",
+    "Apoplexy is a sudden headache with visual loss.",
+    "Central hypothyroidism does not cause snoring this way.",
+    "Carpal tunnel causes hand symptoms."
    ]
   },
   {
@@ -24451,6 +25087,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 15
     }
+   ],
+   "notes": [
+    "Forward jaw growth with teeth separation is acromegalic.",
+    "Puffy eyelids are hypothyroid.",
+    "Loss of the outer eyebrows is hypothyroid.",
+    "Dry, coarse skin is hypothyroid; acromegalic skin is oily and sweaty."
    ]
   },
   {
@@ -24469,6 +25111,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 17
     }
+   ],
+   "notes": [
+    "GH raises glucose: diabetes, not hypoglycaemia.",
+    "Colonic polyps are listed.",
+    "LVH is listed.",
+    "Hypercalciuria is listed."
    ]
   },
   {
@@ -24492,6 +25140,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 36
     }
+   ],
+   "notes": [
+    "GH excess in an adult is acromegaly; in a child, gigantism.",
+    "IGF-1 is high in both.",
+    "Prognathism can occur in both.",
+    "Prolactin does not separate the two."
    ]
   },
   {
@@ -24515,6 +25169,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 4
     }
+   ],
+   "notes": [
+    "The oculomotor nerve lifts the eyelid; it runs in the cavernous sinus.",
+    "Chiasm compression causes visual field loss.",
+    "Abducens palsy causes diplopia, not ptosis.",
+    "The posterior pituitary has no role in eyelid movement."
    ]
   },
   {
@@ -24533,6 +25193,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 24
     }
+   ],
+   "notes": [
+    "Chiasm pressure from below starts in the upper temporal fields.",
+    "The lower nasal fields are not the first hit.",
+    "A central scotoma is an optic nerve sign.",
+    "Complete blindness in one eye is not the first sign."
    ]
   },
   {
@@ -24551,6 +25217,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 25
     }
+   ],
+   "notes": [
+    "Haemorrhagic infarction of the tumour: an emergency, often followed by pituitary insufficiency.",
+    "Imaging is urgent.",
+    "Apoplexy is sudden, not slow.",
+    "Early transsphenoidal decompression is done within 8 days."
    ]
   },
   {
@@ -24569,6 +25241,12 @@ SINA.lectures["semio-endo-pituitary"] = {
      "lec": "Pituitary semiology",
      "n": 24
     }
+   ],
+   "notes": [
+    "Papilloedema and optic atrophy are rare.",
+    "Bitemporal hemianopia is a classic sign.",
+    "Bitemporal superior quadrantanopia is the classic first sign.",
+    "Headache is common."
    ]
   }
  ],
@@ -24750,6 +25428,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 4
     }
+   ],
+   "notes": [
+    "Chronic hyperglycaemia from deficient insulin secretion and/or action.",
+    "One high value after a meal is not chronic hyperglycaemia.",
+    "Glycosuria is a consequence, not the definition.",
+    "Diabetes is defined by high glucose."
    ]
   },
   {
@@ -24768,6 +25452,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 5
     }
+   ],
+   "notes": [
+    "Normal: fasting under 1.10 g/L and under 1.40 g/L 2 hours after OGTT.",
+    "These limits are too high.",
+    "0.70 g/L is the hypoglycaemia threshold.",
+    "1.26 g/L is the diabetes threshold, not the normal limit."
    ]
   },
   {
@@ -24790,6 +25480,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 6
     }
+   ],
+   "notes": [
+    "Accidental diagnosis on a routine test.",
+    "Polyuria, polydipsia, polyphagia, weight loss.",
+    "Diabetes can be revealed by a complication.",
+    "Diagnosis comes on average 2 to 3 years after onset."
    ]
   },
   {
@@ -24808,6 +25504,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 6
     }
+   ],
+   "notes": [
+    "The median delay is about 2.2 to 2.4 years.",
+    "Much too short.",
+    "Too long for the average delay.",
+    "Diabetes is usually found late, not at onset."
    ]
   },
   {
@@ -24826,6 +25528,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 9
     }
+   ],
+   "notes": [
+    "Glucose in the urine pulls water: osmotic diuresis.",
+    "Vasopressin excess reduces urine output.",
+    "Drinking follows polyuria; it does not cause it.",
+    "Kidney failure is not the mechanism."
    ]
   },
   {
@@ -24844,6 +25552,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 9
     }
+   ],
+   "notes": [
+    "Without insulin, fat is broken down as if the cells were fasting.",
+    "Patients eat more (polyphagia), not less.",
+    "Diarrhoea is not the mechanism.",
+    "Thyroid hormone is not involved."
    ]
   },
   {
@@ -24866,6 +25580,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 9
     }
+   ],
+   "notes": [
+    "Glycosuria causes polyuria.",
+    "Polyuria causes thirst.",
+    "Increased appetite compensates for cellular fasting.",
+    "The syndrome includes weight loss, not gain."
    ]
   },
   {
@@ -24884,6 +25604,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 10
     }
+   ],
+   "notes": [
+    "1.10 g/L is the upper normal fasting value.",
+    "1.26 g/L is the fasting diabetes threshold.",
+    "The tubular reabsorption threshold is about 1.8 g/L.",
+    "Glycosuria starts well below 3 g/L."
    ]
   },
   {
@@ -24911,6 +25637,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 8
     }
+   ],
+   "notes": [
+    "Blurred vision is listed.",
+    "Paresthesia is listed.",
+    "Slow-healing cuts and sores are listed.",
+    "Cold intolerance points to hypothyroidism."
    ]
   },
   {
@@ -24929,6 +25661,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 7
     }
+   ],
+   "notes": [
+    "Ketone bodies give the acetone smell; acidosis drives Kussmaul breathing.",
+    "Hypoglycaemia gives sweating and tremor, not acetone breath.",
+    "Hypothyroidism slows breathing.",
+    "Heart failure gives dyspnoea, not acetone breath."
    ]
   },
   {
@@ -24952,6 +25690,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 12
     }
+   ],
+   "notes": [
+    "Fasting ≥ 1.26 g/L on two samples is a criterion.",
+    "2-hour OGTT ≥ 2 g/L is a criterion.",
+    "HbA1c ≥ 6.5% is a criterion.",
+    "Random ≥ 2 g/L with symptoms is a criterion."
    ]
   },
   {
@@ -24970,6 +25714,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 12
     }
+   ],
+   "notes": [
+    "A single fasting value must be confirmed on a second sample.",
+    "HbA1c ≥ 6.5% is enough.",
+    "2-hour ≥ 2 g/L is enough.",
+    "Random ≥ 2 g/L with symptoms is enough."
    ]
   },
   {
@@ -24988,6 +25738,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 11
     }
+   ],
+   "notes": [
+    "5.7 to 6.4% is prediabetes.",
+    "Diabetes starts at 6.5%.",
+    "Normal is below 5.7%.",
+    "HbA1c does not define hypoglycaemia."
    ]
   },
   {
@@ -25010,6 +25766,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 17
     }
+   ],
+   "notes": [
+    "Type 1 usually starts acutely in young people.",
+    "Patients are normal weight or thin.",
+    "Ketosis at onset is typical.",
+    "Obesity with hypertension suggests type 2."
    ]
   },
   {
@@ -25037,6 +25799,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 23
     }
+   ],
+   "notes": [
+    "Age over 40 with a family history fits type 2.",
+    "Overweight or obesity fits type 2.",
+    "Type 2 starts slowly and may be found at a complication.",
+    "Type 2 has no inaugural ketoacidosis."
    ]
   },
   {
@@ -25055,6 +25823,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 23
     }
+   ],
+   "notes": [
+    "10 to 15% is type 1.",
+    "Too low for type 2.",
+    "Type 2 makes up 85 to 90%.",
+    "Type 1 and other types make up the rest."
    ]
   },
   {
@@ -25073,6 +25847,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 23
     }
+   ],
+   "notes": [
+    "Autoantibodies and autoimmune diseases point to type 1.",
+    "Type 2 is not autoimmune.",
+    "They are present in type 1 only.",
+    "They point to type 1."
    ]
   },
   {
@@ -25096,6 +25876,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 22
     }
+   ],
+   "notes": [
+    "Type 2 is often diagnosed late, so complications may already exist.",
+    "Waiting 10 years misses existing complications.",
+    "They must be looked for.",
+    "Complications are often silent; screening does not wait for symptoms."
    ]
   },
   {
@@ -25118,6 +25904,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 10
     }
+   ],
+   "notes": [
+    "Capillary glucose is part of the examination.",
+    "Weight, height and BMI are recorded.",
+    "Dehydration and infection are looked for.",
+    "Thyroid scintigraphy is not part of it."
    ]
   },
   {
@@ -27553,6 +28345,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 10
     }
+   ],
+   "notes": [
+    "Below the renal threshold of about 1.8 g/L, there is no glycosuria.",
+    "1.26 g/L is the diagnostic threshold, not the renal one.",
+    "1.10 g/L is the normal fasting limit.",
+    "Glycosuria depends on blood glucose, not HbA1c."
    ]
   },
   {
@@ -27571,6 +28369,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 9
     }
+   ],
+   "notes": [
+    "Lipolysis from the 'fasting' cells, with compensatory hunger.",
+    "Polyuria does not remove fat.",
+    "Thyroid hormone does not rise.",
+    "Food is absorbed normally."
    ]
   },
   {
@@ -27589,6 +28393,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 9
     }
+   ],
+   "notes": [
+    "Glycosuria, then osmotic diuresis, then thirst.",
+    "Drinking first is primary polydipsia.",
+    "Polyphagia does not cause polyuria.",
+    "Hyperglycaemia comes first, not last."
    ]
   },
   {
@@ -27617,6 +28427,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 32
     }
+   ],
+   "notes": [
+    "Young, thin, acute symptoms then ketoacidosis: type 1.",
+    "A hyperosmolar state occurs in older type 2 patients, without ketosis.",
+    "Fruity breath and Kussmaul breathing are not gastroenteritis.",
+    "Hypoglycaemia does not cause thirst and polyuria."
    ]
   },
   {
@@ -27640,6 +28456,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 22
     }
+   ],
+   "notes": [
+    "Found by chance, and complications may already be present.",
+    "Two fasting values ≥ 1.26 g/L make the diagnosis.",
+    "Diagnosis comes 2 to 3 years after onset, so complications may exist.",
+    "Type 2 has no inaugural ketoacidosis."
    ]
   },
   {
@@ -27658,6 +28480,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 12
     }
+   ],
+   "notes": [
+    "Random ≥ 2 g/L with symptoms is enough.",
+    "A single fasting value needs confirmation.",
+    "6.2% is prediabetes.",
+    "1.7 g/L is below the 2-hour threshold of 2 g/L."
    ]
   },
   {
@@ -27676,6 +28504,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 12
     }
+   ],
+   "notes": [
+    "2-hour value ≥ 11.1 mmol/L (2 g/L) meets the criterion.",
+    "Normal is under 7.8 mmol/L (1.40 g/L).",
+    "It is above the prediabetes range.",
+    "The OGTT is one of the diagnostic criteria."
    ]
   },
   {
@@ -27694,6 +28528,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 12
     }
+   ],
+   "notes": [
+    "50 mmol/mol is above 48 mmol/mol (6.5%).",
+    "It is above normal.",
+    "It is above the prediabetes range.",
+    "The threshold is 48 mmol/mol, not 58."
    ]
   },
   {
@@ -27717,6 +28557,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 12
     }
+   ],
+   "notes": [
+    "Above normal but below the diabetes thresholds.",
+    "Normal is fasting under 1.10 and 2-hour under 1.40 g/L.",
+    "Diabetes needs fasting ≥ 1.26 or 2-hour ≥ 2 g/L.",
+    "Hypoglycaemia is ≤ 0.70 g/L."
    ]
   },
   {
@@ -27740,6 +28586,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 23
     }
+   ],
+   "notes": [
+    "Autoimmune history, normal build, acute onset and ketosis: type 1.",
+    "Autoimmunity points to type 1, not type 2.",
+    "She is not pregnant.",
+    "Acute onset fits type 1, not type 2."
    ]
   },
   {
@@ -27758,6 +28610,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 15
     }
+   ],
+   "notes": [
+    "Symptoms appear once about 90% of beta cells are destroyed.",
+    "Insulin resistance belongs to type 2.",
+    "Beta-cell destruction is slow and silent.",
+    "The kidney keeps filtering glucose."
    ]
   },
   {
@@ -27781,6 +28639,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 23
     }
+   ],
+   "notes": [
+    "Ketoacidosis in type 2 needs an added factor such as infection.",
+    "Type 2 has no inaugural ketoacidosis.",
+    "Exercise is not the listed trigger.",
+    "Diet is not the listed trigger."
    ]
   },
   {
@@ -27803,6 +28667,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 30
     }
+   ],
+   "notes": [
+    "Children can decompensate quickly.",
+    "Pregnant women can decompensate quickly.",
+    "Pump failure stops insulin delivery abruptly.",
+    "In most adults, signs develop gradually over a few days."
    ]
   },
   {
@@ -27821,6 +28691,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 32
     }
+   ],
+   "notes": [
+    "Fast, deep breathing compensates for acidosis.",
+    "Hypoglycaemia gives sweating and tremor.",
+    "Kussmaul breathing is fast and deep.",
+    "Bronchospasm gives wheezing."
    ]
   },
   {
@@ -27848,6 +28724,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 21
     }
+   ],
+   "notes": [
+    "Cardiovascular risk factors fit type 2.",
+    "A strong family history fits type 2.",
+    "Persistent insulin secretion fits type 2.",
+    "Autoantibodies point to type 1."
    ]
   },
   {
@@ -27870,6 +28752,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 10
     }
+   ],
+   "notes": [
+    "Dehydration is looked for.",
+    "Infection is looked for.",
+    "Weight, height and BMI are recorded.",
+    "Pigmented gums point to adrenal insufficiency."
    ]
   },
   {
@@ -27893,6 +28781,12 @@ SINA.lectures["semio-endo-diabetes"] = {
      "lec": "Diabetes semiology",
      "n": 6
     }
+   ],
+   "notes": [
+    "A stroke can reveal diabetes or trigger a revealing ketoacidosis.",
+    "Diabetes is often found at a complication.",
+    "Very high glucose supports diabetes.",
+    "Strokes are a macrovascular complication, mainly in type 2."
    ]
   }
  ],
