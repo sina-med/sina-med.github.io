@@ -1412,9 +1412,14 @@
         var qs2 = p.querySelector("#qspot"); if (qs2) qs2.disabled = !spotTasks(picked).length;
       }
       boxes.forEach(function (b) { b.addEventListener("change", sync); });
-      p.querySelectorAll("[data-sc]").forEach(function (b) { b.addEventListener("click", function () { midOnly = b.dataset.sc === "mid"; store.set("sina:midOnly", midOnly); picker(); }); });
+      p.querySelectorAll("[data-sc]").forEach(function (b) { b.addEventListener("click", function () {
+        midOnly = b.dataset.sc === "mid"; store.set("sina:midOnly", midOnly);
+        /* Midterm topics only starts the quiz at once: the ticked midterm lectures, or all of them if none is ticked */
+        if (midOnly) { var mine = picked.filter(function (id) { return ML[id]; }); picked = mine.length ? mine : Object.keys(ML).filter(function (id) { return S.lectures[id] && S.lectures[id].subject === s.id; }); if (picked.length) { start(false); return; } }
+        picker();
+      }); });
       p.querySelectorAll(".gchk").forEach(function (g) { g.addEventListener("change", function () { boxes.forEach(function (b) { if (b.dataset.g === g.dataset.g) b.checked = g.checked; }); sync(); }); });
-      p.querySelectorAll(".quick button").forEach(function (b) {
+      p.querySelectorAll(".quick button[data-q]").forEach(function (b) {
         b.addEventListener("click", function () {
           var ids = b.dataset.q === "all" ? lecs.map(function (x) { return x.id; }) : b.dataset.q === "mid" ? [].concat.apply([], mid.groups.map(function (g) { return g.items; })) : [];
           boxes.forEach(function (x) { x.checked = ids.indexOf(x.value) > -1; }); sync();

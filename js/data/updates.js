@@ -3,6 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "8 November 2026", items: [
+    "Changed: Midterm topics only now starts the midterm quiz straight away (ticked midterm lectures, or all of them).",
     "Added: a short note under every answer option explaining why it is right or wrong, for all questions of the 10 Semiology midterm lectures (endocrine and digestive).",
     "Changed: Semiology midterm lectures: removed brackets in answer options that hinted at the correct answer, and the \"(choose all)\" hint in question stems.",
     "Added: Weak spots: tick which of the weak lectures go into the weak-spot quiz.",
