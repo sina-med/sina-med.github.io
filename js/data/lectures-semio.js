@@ -4689,6 +4689,12 @@ SINA.lectures["semio-gi-exam"] = {
      "lec": "Digestive physical examination",
      "n": 4
     }
+   ],
+   "notes": [
+    "The doctor stands on the patient's right.",
+    "The convention is the right side.",
+    "The head of the bed is not used for abdominal examination.",
+    "The foot of the bed is not used."
    ]
   },
   {
@@ -4712,6 +4718,12 @@ SINA.lectures["semio-gi-exam"] = {
      "lec": "Digestive physical examination",
      "n": 7
     }
+   ],
+   "notes": [
+    "Iron overload does not cause glossitis.",
+    "Atrophic glossitis suggests vitamin B12 deficiency.",
+    "Candidiasis gives white plaques.",
+    "Hepatitis A does not cause glossitis."
    ]
   },
   {
@@ -4730,6 +4742,12 @@ SINA.lectures["semio-gi-exam"] = {
      "lec": "Digestive physical examination",
      "n": 7
     }
+   ],
+   "notes": [
+    "Vitamin C excess is not a cause.",
+    "Oral cancer gives an ulcer or mass.",
+    "Angular cheilitis suggests iron deficiency.",
+    "Hypothyroidism is not the classic cause."
    ]
   },
   {
@@ -4748,6 +4766,12 @@ SINA.lectures["semio-gi-exam"] = {
      "lec": "Digestive physical examination",
      "n": 8
     }
+   ],
+   "notes": [
+    "The axillary node drains the arm and breast.",
+    "Inguinal nodes drain the leg and perineum.",
+    "Occipital nodes drain the scalp.",
+    "The left supraclavicular node signals digestive cancer metastasis."
    ]
   },
   {
@@ -4766,6 +4790,12 @@ SINA.lectures["semio-gi-exam"] = {
      "lec": "Digestive physical examination",
      "n": 9
     }
+   ],
+   "notes": [
+    "Four quadrants is a simpler scheme, not the one used here.",
+    "The abdomen is described in 9 regions.",
+    "Too few.",
+    "Too many."
    ]
   },
   {
@@ -4784,6 +4814,12 @@ SINA.lectures["semio-gi-exam"] = {
      "lec": "Digestive physical examination",
      "n": 11
     }
+   ],
+   "notes": [
+    "A liver mass is a different finding.",
+    "A vein dilatation is a collateral circulation.",
+    "A rash is a skin finding.",
+    "Eventration is a hernia through a surgical scar."
    ]
   },
   {
@@ -4802,6 +4838,12 @@ SINA.lectures["semio-gi-exam"] = {
      "lec": "Digestive physical examination",
      "n": 12
     }
+   ],
+   "notes": [
+    "Collateral veins are a sign of portal hypertension.",
+    "Heart failure gives oedema and hepatomegaly.",
+    "Appendicitis gives right iliac fossa pain.",
+    "Pancreatitis gives epigastric pain."
    ]
   },
   {
@@ -4820,6 +4862,12 @@ SINA.lectures["semio-gi-exam"] = {
      "lec": "Digestive physical examination",
      "n": 13
     }
+   ],
+   "notes": [
+    "Kidney palpation is a separate technique.",
+    "Reflexes are not tested this way.",
+    "Bent knees relax the abdominal wall.",
+    "Bending the knees does not move the liver."
    ]
   },
   {
@@ -4838,6 +4886,12 @@ SINA.lectures["semio-gi-exam"] = {
      "lec": "Digestive physical examination",
      "n": 14
     }
+   ],
+   "notes": [
+    "The liver moves down, not up.",
+    "The spleen is not relaxed by breathing.",
+    "Breathing does not fill the stomach.",
+    "Inspiration flattens the diaphragm and pushes the liver down."
    ]
   },
   {
@@ -4856,6 +4910,12 @@ SINA.lectures["semio-gi-exam"] = {
      "lec": "Digestive physical examination",
      "n": 15
     }
+   ],
+   "notes": [
+    "The normal spleen lies deep under the ribs.",
+    "A palpable spleen is usually enlarged.",
+    "Position does not make a normal spleen palpable.",
+    "It is felt on the left only when enlarged."
    ]
   },
   {
@@ -4874,6 +4934,12 @@ SINA.lectures["semio-gi-exam"] = {
      "lec": "Digestive physical examination",
      "n": 16
     }
+   ],
+   "notes": [
+    "The flanks are tympanic.",
+    "The epigastrium is tympanic.",
+    "The liver makes the right hypochondrium dull.",
+    "The umbilical area is tympanic."
    ]
   },
   {
@@ -4916,6 +4982,12 @@ SINA.lectures["semio-gi-exam"] = {
      "lec": "Digestive physical examination",
      "n": 18
     }
+   ],
+   "notes": [
+    "Prone and flat is not used.",
+    "Standing is not used.",
+    "Supine with legs up is not the standard position.",
+    "Knee-chest or lateral (Sims) position."
    ]
   },
   {
@@ -4937,6 +5009,12 @@ SINA.lectures["semio-gi-exam"] = {
      "lec": "Digestive physical examination",
      "n": 6
     }
+   ],
+   "notes": [
+    "Glossitis suggests B12 deficiency.",
+    "Angular cheilitis suggests iron deficiency.",
+    "A gum tattoo is not a deficiency sign.",
+    "Tonsil stones are not a deficiency sign."
    ]
   },
   {
@@ -6058,6 +6136,12 @@ SINA.lectures["semio-gi-jaundice"] = {
      "lec": "Jaundice",
      "n": 10
     }
+   ],
+   "notes": [
+    "Jaundice appears above about 35 µmol/L.",
+    "5 µmol/L is within normal.",
+    "Far too high; jaundice appears much earlier.",
+    "1 µmol/L is within normal."
    ]
   },
   {
@@ -6076,6 +6160,12 @@ SINA.lectures["semio-gi-jaundice"] = {
      "lec": "Jaundice",
      "n": 6
     }
+   ],
+   "notes": [
+    "Fat digestion does not make bilirubin.",
+    "Bilirubin comes from haemoglobin breakdown.",
+    "Muscle breakdown releases creatine kinase and myoglobin.",
+    "Bile salts are made from cholesterol."
    ]
   },
   {
@@ -6094,6 +6184,12 @@ SINA.lectures["semio-gi-jaundice"] = {
      "lec": "Jaundice",
      "n": 7
     }
+   ],
+   "notes": [
+    "Imaging looks for the cause.",
+    "Biopsy is a late, rare step.",
+    "Jaundice is seen on examination (yellow sclera and skin).",
+    "Serology looks for the cause."
    ]
   },
   {
@@ -6112,6 +6208,12 @@ SINA.lectures["semio-gi-jaundice"] = {
      "lec": "Jaundice",
      "n": 14
     }
+   ],
+   "notes": [
+    "Black tarry stools are melena.",
+    "Blood suggests bleeding.",
+    "Dark green stools are not typical of cholestasis.",
+    "No bile reaches the gut, so stools are pale."
    ]
   },
   {
@@ -6130,6 +6232,12 @@ SINA.lectures["semio-gi-jaundice"] = {
      "lec": "Jaundice",
      "n": 16
     }
+   ],
+   "notes": [
+    "Transaminases rise mainly in hepatitis (cytolysis).",
+    "GGT and ALP are cholestasis enzymes.",
+    "Amylase and lipase point to pancreatitis.",
+    "CK and troponin point to muscle or heart."
    ]
   },
   {
@@ -6148,6 +6256,12 @@ SINA.lectures["semio-gi-jaundice"] = {
      "lec": "Jaundice",
      "n": 16
     }
+   ],
+   "notes": [
+    "Iron is not involved.",
+    "Platelets do not lengthen the PT.",
+    "Low albumin does not explain it here.",
+    "Vitamin K is fat-soluble and needs bile to be absorbed."
    ]
   },
   {
@@ -6166,6 +6280,12 @@ SINA.lectures["semio-gi-jaundice"] = {
      "lec": "Jaundice",
      "n": 18
     }
+   ],
+   "notes": [
+    "Pain, fever and jaundice (Charcot's triad).",
+    "This suggests gastroenteritis.",
+    "This is not cholangitis.",
+    "This suggests liver failure."
    ]
   },
   {
@@ -6189,6 +6309,12 @@ SINA.lectures["semio-gi-jaundice"] = {
      "lec": "Jaundice",
      "n": 25
     }
+   ],
+   "notes": [
+    "Biopsy is not the first step.",
+    "ERCP comes later and is therapeutic.",
+    "First separate cholestatic from non-cholestatic jaundice.",
+    "Biology and ultrasound come before CT."
    ]
   },
   {
@@ -6207,6 +6333,12 @@ SINA.lectures["semio-gi-jaundice"] = {
      "lec": "Jaundice",
      "n": 22
     }
+   ],
+   "notes": [
+    "Conjugated bilirubin rises in cholestasis.",
+    "Unconjugated bilirubin rises.",
+    "Unconjugated bilirubin does not pass into urine.",
+    "Haemolysis raises unconjugated bilirubin."
    ]
   },
   {
@@ -6225,6 +6357,12 @@ SINA.lectures["semio-gi-jaundice"] = {
      "lec": "Jaundice",
      "n": 22
     }
+   ],
+   "notes": [
+    "Dilated ducts mean an extrahepatic obstruction.",
+    "Kidney stones are not the target.",
+    "Polyps are not the target.",
+    "Ascites may be seen but is not the key question."
    ]
   },
   {
@@ -6243,6 +6381,12 @@ SINA.lectures["semio-gi-jaundice"] = {
      "lec": "Jaundice",
      "n": 21
     }
+   ],
+   "notes": [
+    "Ultrasound is diagnostic.",
+    "CT is diagnostic.",
+    "ERCP can remove stones or place a stent.",
+    "MRI is diagnostic."
    ]
   },
   {
@@ -6261,6 +6405,12 @@ SINA.lectures["semio-gi-jaundice"] = {
      "lec": "Jaundice",
      "n": 14
     }
+   ],
+   "notes": [
+    "Vitiligo is unrelated.",
+    "High cholesterol in cholestasis causes xanthelasma.",
+    "Psoriasis is unrelated.",
+    "Acne is unrelated."
    ]
   },
   {
@@ -6282,6 +6432,12 @@ SINA.lectures["semio-gi-jaundice"] = {
      "lec": "Jaundice",
      "n": 14
     }
+   ],
+   "notes": [
+    "Bile salts in the skin cause itching.",
+    "Conjugated bilirubin in the urine darkens it.",
+    "Stools are pale, not black.",
+    "Bradycardia alone is not a cholestasis sign."
    ]
   },
   {
@@ -8003,6 +8159,12 @@ SINA.lectures["semio-gi-constipation"] = {
      "lec": "Constipation",
      "n": 4
     }
+   ],
+   "notes": [
+    "Fewer than 3 stools per week.",
+    "Daily stools are not needed for normal function.",
+    "Too strict a definition.",
+    "More than 3 per week is normal."
    ]
   },
   {
@@ -8021,6 +8183,12 @@ SINA.lectures["semio-gi-constipation"] = {
      "lec": "Constipation",
      "n": 4
     }
+   ],
+   "notes": [
+    "Too low a threshold.",
+    "Under 100 g of faeces per day.",
+    "500 g is far above normal.",
+    "Over 300 g is not constipation."
    ]
   },
   {
@@ -8044,6 +8212,12 @@ SINA.lectures["semio-gi-constipation"] = {
      "lec": "Constipation",
      "n": 6
     }
+   ],
+   "notes": [
+    "These are not mechanisms of primary constipation.",
+    "Tumour and stricture cause secondary constipation.",
+    "Slow colonic transit or outlet dysfunction.",
+    "Drugs and diabetes cause secondary constipation."
    ]
   },
   {
@@ -8062,6 +8236,12 @@ SINA.lectures["semio-gi-constipation"] = {
      "lec": "Constipation",
      "n": 8
     }
+   ],
+   "notes": [
+    "A tumour causes secondary constipation.",
+    "Hypothyroidism slows transit.",
+    "Opioids slow transit.",
+    "The pelvic floor fails to relax during defecation."
    ]
   },
   {
@@ -8085,6 +8265,12 @@ SINA.lectures["semio-gi-constipation"] = {
      "lec": "Constipation",
      "n": 26
     }
+   ],
+   "notes": [
+    "Insulin deficiency is not the cause listed.",
+    "Hypothyroidism slows gut motility.",
+    "GH is not listed.",
+    "Oxytocin is not listed."
    ]
   },
   {
@@ -8103,6 +8289,12 @@ SINA.lectures["semio-gi-constipation"] = {
      "lec": "Constipation",
      "n": 26
     }
+   ],
+   "notes": [
+    "Penicillin does not usually constipate.",
+    "Paracetamol does not usually constipate.",
+    "Metformin more often causes diarrhoea.",
+    "Opioids slow gut motility."
    ]
   },
   {
@@ -8121,6 +8313,12 @@ SINA.lectures["semio-gi-constipation"] = {
      "lec": "Constipation",
      "n": 15
     }
+   ],
+   "notes": [
+    "Absent sounds suggest an ileus.",
+    "Obstruction gives hyperactive sounds.",
+    "Normal bowel has sounds.",
+    "Diarrhoea gives active sounds."
    ]
   },
   {
@@ -8139,6 +8337,12 @@ SINA.lectures["semio-gi-constipation"] = {
      "lec": "Constipation",
      "n": 16
     }
+   ],
+   "notes": [
+    "Transit needs a marker study.",
+    "The DRE only reaches the rectum.",
+    "It finds impaction, anal tone, masses and pelvic floor problems.",
+    "Thyroid function is a blood test."
    ]
   },
   {
@@ -8157,6 +8361,12 @@ SINA.lectures["semio-gi-constipation"] = {
      "lec": "Constipation",
      "n": 20
     }
+   ],
+   "notes": [
+    "Post-meal bloating is common.",
+    "Occasional hard stools are not a red flag.",
+    "Travel commonly changes bowel habit.",
+    "Rectal bleeding is a red flag."
    ]
   },
   {
@@ -8175,6 +8385,12 @@ SINA.lectures["semio-gi-constipation"] = {
      "lec": "Constipation",
      "n": 24
     }
+   ],
+   "notes": [
+    "Manometry measures anal and rectal pressures.",
+    "Colonoscopy looks at the mucosa.",
+    "Thyroid tests look for a secondary cause.",
+    "A blood count looks for anaemia."
    ]
   },
   {
@@ -8193,6 +8409,12 @@ SINA.lectures["semio-gi-constipation"] = {
      "lec": "Constipation",
      "n": 26
     }
+   ],
+   "notes": [
+    "Hyponatraemia is not the listed cause.",
+    "Hypokalaemia, not hyperkalaemia, causes constipation.",
+    "Hypercalcaemia slows the gut.",
+    "Hypomagnesaemia is not the listed cause."
    ]
   },
   {
@@ -8216,6 +8438,12 @@ SINA.lectures["semio-gi-constipation"] = {
      "lec": "Constipation",
      "n": 28
     }
+   ],
+   "notes": [
+    "Colonic inertia is slow transit.",
+    "Anismus is an outlet disorder.",
+    "Spastic colon is slow transit.",
+    "Hypothyroidism is a secondary cause."
    ]
   },
   {
@@ -8237,6 +8465,12 @@ SINA.lectures["semio-gi-constipation"] = {
      "lec": "Constipation",
      "n": 26
     }
+   ],
+   "notes": [
+    "Opioids slow motility.",
+    "Iron constipates.",
+    "Laxatives treat constipation.",
+    "Antibiotics are not the listed cause."
    ]
   },
   {
@@ -19830,6 +20064,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 7
     }
+   ],
+   "notes": [
+    "Diarrhoea is not a reflux symptom.",
+    "Retrosternal burning rising to the throat is the hallmark.",
+    "Coughing up blood is a respiratory sign.",
+    "Dysphagia is an alarm sign, not the typical symptom."
    ]
   },
   {
@@ -19848,6 +20088,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 5
     }
+   ],
+   "notes": [
+    "The pylorus controls gastric emptying, not reflux.",
+    "The LES and the diaphragmatic crura form the anti-reflux barrier.",
+    "Saliva clears acid but does not prevent reflux.",
+    "The upper sphincter is not the main barrier."
    ]
   },
   {
@@ -19866,6 +20112,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 16
     }
+   ],
+   "notes": [
+    "Zenker's diverticulum is a pharyngeal pouch.",
+    "Achalasia is a failure of LES relaxation, the opposite problem.",
+    "Hiatal hernia displaces the LES from the crura.",
+    "Pyloric stenosis causes vomiting, not reflux through a weak LES."
    ]
   },
   {
@@ -19884,6 +20136,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 6
     }
+   ],
+   "notes": [
+    "Apples are not listed.",
+    "Chocolate lowers LES tone.",
+    "Rice is not listed.",
+    "Bread is not listed."
    ]
   },
   {
@@ -19902,6 +20160,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 6
     }
+   ],
+   "notes": [
+    "Paracetamol does not affect LES tone.",
+    "Amoxicillin does not affect LES tone.",
+    "Nitrates relax smooth muscle, including the LES.",
+    "Metformin is not listed."
    ]
   },
   {
@@ -19920,6 +20184,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 11
     }
+   ],
+   "notes": [
+    "Haematuria is urinary, not reflux-related.",
+    "Ascites is not linked to reflux.",
+    "Jaundice is not linked to reflux.",
+    "Acid reaching the airways causes chronic night cough."
    ]
   },
   {
@@ -19938,6 +20208,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 13
     }
+   ],
+   "notes": [
+    "Typical forms are diagnosed clinically.",
+    "Heartburn with regurgitation is enough in a typical case.",
+    "Endoscopy is for alarm signs, atypical cases or age over 50.",
+    "pH-metry is for atypical or resistant cases."
    ]
   },
   {
@@ -19956,6 +20232,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 14
     }
+   ],
+   "notes": [
+    "Age does not change this.",
+    "Non-erosive reflux disease (NERD) gives a normal endoscopy.",
+    "This applies at all ages.",
+    "A normal endoscopy does not exclude GERD."
    ]
   },
   {
@@ -19974,6 +20256,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 15
     }
+   ],
+   "notes": [
+    "pH below 4 for more than 5% of the time confirms acid reflux.",
+    "The cut-off is pH 4, not 6.",
+    "A single drop is not enough.",
+    "pH over 7 is not acid reflux."
    ]
   },
   {
@@ -19992,6 +20280,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 15
     }
+   ],
+   "notes": [
+    "Impedance detects reflux whatever its acidity.",
+    "A barium swallow shows anatomy.",
+    "Manometry measures LES pressure and motility.",
+    "Endoscopy shows lesions, not reflux episodes."
    ]
   },
   {
@@ -20010,6 +20304,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 17
     }
+   ],
+   "notes": [
+    "A stricture causes dysphagia but is not pre-cancerous.",
+    "Erosions are oesophagitis lesions.",
+    "Barrett's metaplasia carries a cancer risk.",
+    "Hoarseness is an ENT manifestation."
    ]
   },
   {
@@ -20028,6 +20328,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 12
     }
+   ],
+   "notes": [
+    "Regurgitation is a typical symptom.",
+    "Belching is not an alarm sign.",
+    "Heartburn is the typical symptom.",
+    "Dysphagia is an alarm sign needing endoscopy."
    ]
   },
   {
@@ -20049,6 +20355,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 6
     }
+   ],
+   "notes": [
+    "Obesity raises abdominal pressure.",
+    "Pregnancy raises abdominal pressure and progesterone relaxes the LES.",
+    "Anaemia is a possible consequence, not a cause.",
+    "Hypothyroidism is not listed."
    ]
   },
   {
@@ -20067,6 +20379,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 5
     }
+   ],
+   "notes": [
+    "Acid is what refluxes; it is not a barrier.",
+    "The pylorus controls gastric emptying.",
+    "The upper sphincter is not the main barrier.",
+    "The LES and the diaphragmatic crura form the anti-reflux barrier."
    ]
   },
   {
@@ -20085,6 +20403,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 16
     }
+   ],
+   "notes": [
+    "It displaces the LES above the diaphragm.",
+    "Zenker's is a pharyngeal pouch.",
+    "Achalasia is a failure of LES relaxation.",
+    "Pyloric stenosis is an outlet problem."
    ]
   },
   {
@@ -20103,6 +20427,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 6
     }
+   ],
+   "notes": [
+    "Water does not lower LES tone.",
+    "Chocolate lowers LES tone.",
+    "Lean meat is not listed.",
+    "Rice is not listed."
    ]
   },
   {
@@ -20121,6 +20451,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 6
     }
+   ],
+   "notes": [
+    "Paracetamol does not promote reflux.",
+    "Nitrates relax the LES.",
+    "Metformin is not listed.",
+    "Amoxicillin is not listed."
    ]
   },
   {
@@ -20139,6 +20475,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 7
     }
+   ],
+   "notes": [
+    "Diarrhoea is not a reflux symptom.",
+    "Dysphagia is an alarm sign.",
+    "Haematemesis is a complication (bleeding).",
+    "Heartburn is the most characteristic symptom."
    ]
   },
   {
@@ -20157,6 +20499,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 9
     }
+   ],
+   "notes": [
+    "Nasal regurgitation suggests an oropharyngeal problem.",
+    "Diarrhoea is unrelated.",
+    "Vomiting is an active expulsion.",
+    "Water brash is a sudden flow of saliva."
    ]
   },
   {
@@ -20175,6 +20523,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 11
     }
+   ],
+   "notes": [
+    "Acid reaching the airways causes chronic night cough.",
+    "Jaundice is not linked to reflux.",
+    "Haematuria is urinary.",
+    "Ascites is not linked to reflux."
    ]
   },
   {
@@ -20193,6 +20547,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 13
     }
+   ],
+   "notes": [
+    "Typical symptoms are enough.",
+    "A barium swallow is not needed for typical GERD.",
+    "Endoscopy is for alarm signs or atypical cases.",
+    "pH-metry is for atypical or resistant cases."
    ]
   },
   {
@@ -20211,6 +20571,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 12
     }
+   ],
+   "notes": [
+    "Post-meal heartburn is typical, not alarming.",
+    "Belching is not an alarm sign.",
+    "Regurgitation when lying is typical.",
+    "Dysphagia needs endoscopy."
    ]
   },
   {
@@ -20229,6 +20595,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 14
     }
+   ],
+   "notes": [
+    "Achalasia needs manometry, not a normal endoscopy, to diagnose.",
+    "A normal endoscopy does not suggest cancer.",
+    "Non-erosive reflux disease is common.",
+    "A normal endoscopy does not exclude GERD."
    ]
   },
   {
@@ -20247,6 +20619,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 15
     }
+   ],
+   "notes": [
+    "The threshold is 5% of the time.",
+    "Too high.",
+    "Too low.",
+    "Far too high."
    ]
   },
   {
@@ -20265,6 +20643,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 15
     }
+   ],
+   "notes": [
+    "pH-metry detects only acid reflux.",
+    "Manometry measures pressure and motility.",
+    "Impedance detects reflux whatever its acidity.",
+    "A barium swallow shows anatomy."
    ]
   },
   {
@@ -20283,6 +20667,12 @@ SINA.lectures["semio-gi-gerd"] = {
      "lec": "Gastro-oesophageal reflux disease",
      "n": 17
     }
+   ],
+   "notes": [
+    "A stricture is a narrowing.",
+    "An ulcer is a mucosal loss.",
+    "Glandular metaplasia that can progress to cancer.",
+    "A diverticulum is a pouch."
    ]
   },
   {
@@ -20295,7 +20685,13 @@ SINA.lectures["semio-gi-gerd"] = {
     "Typical symptoms"
    ],
    "answer": 1,
-   "why": "The arrow points to: Anti-reflux barrier. The lower oesophageal sphincter and diaphragmatic crura prevent reflux at rest."
+   "why": "The arrow points to: Anti-reflux barrier. The lower oesophageal sphincter and diaphragmatic crura prevent reflux at rest.",
+   "notes": [
+    "Another box of the diagram, not the one at the arrow.",
+    "The LES and diaphragmatic crura.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -20307,7 +20703,13 @@ SINA.lectures["semio-gi-gerd"] = {
     "pH monitoring"
    ],
    "answer": 0,
-   "why": "The arrow points to: Predisposing factors. LES hypotonia, hiatal hernia, raised abdominal pressure, slow gastric emptying, foods and drugs."
+   "why": "The arrow points to: Predisposing factors. LES hypotonia, hiatal hernia, raised abdominal pressure, slow gastric emptying, foods and drugs.",
+   "notes": [
+    "LES hypotonia, hiatal hernia, abdominal pressure, foods and drugs.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -20319,7 +20721,13 @@ SINA.lectures["semio-gi-gerd"] = {
     "Complications"
    ],
    "answer": 2,
-   "why": "The arrow points to: Typical symptoms. Pyrosis (retrosternal burning rising to the throat) and regurgitation."
+   "why": "The arrow points to: Typical symptoms. Pyrosis (retrosternal burning rising to the throat) and regurgitation.",
+   "notes": [
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Heartburn and regurgitation.",
+    "Another box of the diagram, not the one at the arrow."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -20331,7 +20739,13 @@ SINA.lectures["semio-gi-gerd"] = {
     "Complications"
    ],
    "answer": 2,
-   "why": "The arrow points to: Extra-digestive forms. ENT, respiratory and non-cardiac chest pain."
+   "why": "The arrow points to: Extra-digestive forms. ENT, respiratory and non-cardiac chest pain.",
+   "notes": [
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow.",
+    "ENT, respiratory and non-cardiac chest pain forms.",
+    "Another box of the diagram, not the one at the arrow."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -20343,7 +20757,13 @@ SINA.lectures["semio-gi-gerd"] = {
     "Predisposing factors"
    ],
    "answer": 0,
-   "why": "The arrow points to: Alarm signs. Dysphagia, odynophagia, bleeding, anaemia, weight loss, vomiting: endoscopy required."
+   "why": "The arrow points to: Alarm signs. Dysphagia, odynophagia, bleeding, anaemia, weight loss, vomiting: endoscopy required.",
+   "notes": [
+    "Dysphagia, odynophagia, bleeding, anaemia, weight loss, vomiting.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -20355,7 +20775,13 @@ SINA.lectures["semio-gi-gerd"] = {
     "Extra-digestive forms"
    ],
    "answer": 0,
-   "why": "The arrow points to: Complications. Peptic oesophagitis, bleeding, peptic stricture, Barrett's oesophagus, respiratory complications."
+   "why": "The arrow points to: Complications. Peptic oesophagitis, bleeding, peptic stricture, Barrett's oesophagus, respiratory complications.",
+   "notes": [
+    "Oesophagitis, bleeding, stricture, Barrett's, respiratory complications.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -20367,7 +20793,13 @@ SINA.lectures["semio-gi-gerd"] = {
     "Complications"
    ],
    "answer": 1,
-   "why": "The arrow points to: pH monitoring. Reference test: GERD confirmed if oesophageal pH is below 4 for more than 5% of the time."
+   "why": "The arrow points to: pH monitoring. Reference test: GERD confirmed if oesophageal pH is below 4 for more than 5% of the time.",
+   "notes": [
+    "Another box of the diagram, not the one at the arrow.",
+    "The reference test: pH below 4 for more than 5% of the time.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow."
+   ]
   },
   {
    "q": "About gastro-oesophageal reflux disease (GERD) in general:",
@@ -21335,6 +21767,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 7
     }
+   ],
+   "notes": [
+    "Coughed-up blood is haemoptysis.",
+    "Vomited blood is haematemesis.",
+    "Bright red rectal blood is haematochezia.",
+    "Black, tarry, foul-smelling stools of digested blood."
    ]
   },
   {
@@ -21353,6 +21791,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 6
     }
+   ],
+   "notes": [
+    "The rectum is far below; rectal bleeding comes out per anus.",
+    "The source can be anywhere above the angle of Treitz, not only the pylorus.",
+    "Haematemesis points to a lesion above the angle of Treitz.",
+    "The ileocaecal valve is in the lower tract."
    ]
   },
   {
@@ -21371,6 +21815,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 7
     }
+   ],
+   "notes": [
+    "Blood needs time to be digested.",
+    "It appears much sooner.",
+    "Digestion takes about 6 to 8 hours.",
+    "It appears much sooner."
    ]
   },
   {
@@ -21389,6 +21839,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 7
     }
+   ],
+   "notes": [
+    "Insulin does not colour stools.",
+    "Antibiotics do not blacken stools.",
+    "Vitamin C does not blacken stools.",
+    "Iron darkens stools (also charcoal and bismuth)."
    ]
   },
   {
@@ -21407,6 +21863,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 8
     }
+   ],
+   "notes": [
+    "Massive upper bleeding with fast transit can come out bright red.",
+    "Minor gastritis does not cause haematochezia.",
+    "Haemoptysis is coughed-up blood.",
+    "Occult bleeding is invisible."
    ]
   },
   {
@@ -21430,6 +21892,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 9
     }
+   ],
+   "notes": [
+    "Haematochezia is visible blood.",
+    "Melena is visible.",
+    "Iron deficiency anaemia or a positive faecal occult blood test.",
+    "Haematemesis is visible."
    ]
   },
   {
@@ -21448,6 +21916,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 10
     }
+   ],
+   "notes": [
+    "Haemoglobin takes time to fall after acute bleeding.",
+    "This is true at all ages.",
+    "It can be normal early in acute bleeding.",
+    "This is true whatever the presentation."
    ]
   },
   {
@@ -21466,6 +21940,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 11
     }
+   ],
+   "notes": [
+    "Venous access is essential.",
+    "Large-bore peripheral lines are preferred.",
+    "One small line is not enough.",
+    "Two large-bore lines for fluids and transfusion."
    ]
   },
   {
@@ -21484,6 +21964,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 14
     }
+   ],
+   "notes": [
+    "The first-line test, after stabilisation; it can also treat.",
+    "Colonoscopy is for lower GI bleeding.",
+    "Capsule endoscopy is for small-bowel bleeding when other tests are negative.",
+    "CT is not first-line for upper bleeding."
    ]
   },
   {
@@ -21502,6 +21988,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 16
     }
+   ],
+   "notes": [
+    "Crohn's disease is not the cause.",
+    "NSAIDs cause ulcers, not tears.",
+    "Portal hypertension causes varices.",
+    "Repeated vomiting tears the mucosa at the oesophagogastric junction."
    ]
   },
   {
@@ -21520,6 +22012,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 21
     }
+   ],
+   "notes": [
+    "Diverticular disease is commoner in the elderly.",
+    "Colorectal cancer is commoner in the elderly.",
+    "Angiodysplasia is commoner in the elderly.",
+    "Meckel's diverticulum is typical in the young."
    ]
   },
   {
@@ -21538,6 +22036,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 19
     }
+   ],
+   "notes": [
+    "Thermal coagulation is used for other lesions.",
+    "Band ligation treats varices.",
+    "Clips are used for ulcers and other lesions.",
+    "Adrenaline injection alone is not the variceal treatment."
    ]
   },
   {
@@ -21559,6 +22063,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 10
     }
+   ],
+   "notes": [
+    "Low blood pressure shows severe blood loss.",
+    "Low urine output shows poor perfusion.",
+    "Severe bleeding gives tachycardia and cold skin.",
+    "Altered consciousness is a severity sign."
    ]
   },
   {
@@ -21577,6 +22087,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 6
     }
+   ],
+   "notes": [
+    "Below the angle of Treitz is the lower GI tract.",
+    "Haematemesis means an upper GI source.",
+    "Blood from the lungs is coughed up (haemoptysis).",
+    "Rectal bleeding comes out per anus."
    ]
   },
   {
@@ -21595,6 +22111,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 6
     }
+   ],
+   "notes": [
+    "Black blood with food is haematemesis.",
+    "Nausea and retching come before haematemesis.",
+    "Frothy blood after coughing is haemoptysis.",
+    "Clots with food are haematemesis."
    ]
   },
   {
@@ -21613,6 +22135,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 7
     }
+   ],
+   "notes": [
+    "Blood needs time to be digested.",
+    "It appears much sooner.",
+    "It appears much sooner.",
+    "Digestion takes about 6 to 8 hours."
    ]
   },
   {
@@ -21631,6 +22159,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 7
     }
+   ],
+   "notes": [
+    "Iron darkens stools.",
+    "Paracetamol does not.",
+    "Antibiotics do not.",
+    "Beetroot reddens, not blackens; and it is not the only one."
    ]
   },
   {
@@ -21649,6 +22183,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 8
     }
+   ],
+   "notes": [
+    "Massive upper bleeding with fast transit can come out bright red.",
+    "Higher lesions can cause it too.",
+    "Not only colon cancer.",
+    "Not only Mallory-Weiss."
    ]
   },
   {
@@ -21667,6 +22207,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 10
     }
+   ],
+   "notes": [
+    "Hb measures haemoglobin concentration, not iron.",
+    "Haemodilution has not yet happened, so Hb is still normal.",
+    "Hb does not rise in acute bleeding.",
+    "The analyser is not the issue."
    ]
   },
   {
@@ -21685,6 +22231,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 10
     }
+   ],
+   "notes": [
+    "Signs of shock and poor perfusion.",
+    "Normal pulse and warm skin argue against severity.",
+    "Mild pallor with a normal pulse is not severe.",
+    "Bloating without pallor is not a severity sign."
    ]
   },
   {
@@ -21703,6 +22255,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 11
     }
+   ],
+   "notes": [
+    "A tube alone does not restore volume.",
+    "Resuscitation starts before endoscopy.",
+    "Large peripheral lines are preferred.",
+    "Two large-bore lines for fluids and transfusion."
    ]
   },
   {
@@ -21721,6 +22279,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 14
     }
+   ],
+   "notes": [
+    "Upper endoscopy finds the source in over 90%.",
+    "Not every source is found.",
+    "Too low.",
+    "Far too low."
    ]
   },
   {
@@ -21739,6 +22303,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 16
     }
+   ],
+   "notes": [
+    "Barrett's is metaplasia.",
+    "Boerhaave is a full-thickness rupture, not a mucosal tear.",
+    "A mucosal tear after repeated vomiting.",
+    "Zenker's is a pharyngeal pouch."
    ]
   },
   {
@@ -21762,6 +22332,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 21
     }
+   ],
+   "notes": [
+    "Meckel's diverticulum is typical in the young.",
+    "Angiodysplasia is commoner in the elderly.",
+    "Diverticular disease is commoner in the elderly.",
+    "Colon cancer is commoner in the elderly."
    ]
   },
   {
@@ -21780,6 +22356,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 19
     }
+   ],
+   "notes": [
+    "The capsule only looks; it cannot treat.",
+    "Band ligation treats varices.",
+    "Clips are used for other lesions.",
+    "Colonoscopy explores the colon."
    ]
   },
   {
@@ -21798,6 +22380,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 18
     }
+   ],
+   "notes": [
+    "PPIs reduce acid and help ulcer healing.",
+    "Anticoagulants worsen bleeding.",
+    "Aspirin causes ulcers and bleeding.",
+    "NSAIDs cause ulcers."
    ]
   },
   {
@@ -21816,6 +22404,12 @@ SINA.lectures["semio-gi-bleeding"] = {
      "lec": "Gastrointestinal bleeding",
      "n": 20
     }
+   ],
+   "notes": [
+    "Anal fissures bleed little.",
+    "Haemorrhoidal bleeding is usually benign.",
+    "Variceal and malignant bleeding carry the worst prognosis.",
+    "Erosive gastritis usually stops by itself."
    ]
   },
   {
@@ -21828,7 +22422,13 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Haematemesis"
    ],
    "answer": 3,
-   "why": "The arrow points to: Haematemesis. Vomiting red or black blood; lesion above the angle of Treitz."
+   "why": "The arrow points to: Haematemesis. Vomiting red or black blood; lesion above the angle of Treitz.",
+   "notes": [
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Vomiting red or black blood; lesion above the angle of Treitz."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -21840,7 +22440,13 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Severity"
    ],
    "answer": 2,
-   "why": "The arrow points to: Melaena. Black, tarry, smelly stools of digested blood; usually upper GI; appears 6-8 h after bleeding starts."
+   "why": "The arrow points to: Melaena. Black, tarry, smelly stools of digested blood; usually upper GI; appears 6-8 h after bleeding starts.",
+   "notes": [
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Black, tarry, foul-smelling stools of digested blood.",
+    "Another box of the diagram, not the one at the arrow."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -21852,7 +22458,13 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Occult bleeding"
    ],
    "answer": 1,
-   "why": "The arrow points to: Haematochezia. Bright red blood per anus; usually lower GI, or massive upper bleeding."
+   "why": "The arrow points to: Haematochezia. Bright red blood per anus; usually lower GI, or massive upper bleeding.",
+   "notes": [
+    "Another box of the diagram, not the one at the arrow.",
+    "Bright red blood per anus.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -21864,7 +22476,13 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Haematochezia"
    ],
    "answer": 1,
-   "why": "The arrow points to: Occult bleeding. Revealed only by anaemia or a positive faecal occult blood test."
+   "why": "The arrow points to: Occult bleeding. Revealed only by anaemia or a positive faecal occult blood test.",
+   "notes": [
+    "Another box of the diagram, not the one at the arrow.",
+    "Found only by anaemia or a faecal occult blood test.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -21876,7 +22494,13 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Endoscopy"
    ],
    "answer": 2,
-   "why": "The arrow points to: Severity. Pallor, cold extremities, tachycardia; then hypotension, oliguria, confusion, mottling."
+   "why": "The arrow points to: Severity. Pallor, cold extremities, tachycardia; then hypotension, oliguria, confusion, mottling.",
+   "notes": [
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Pallor, tachycardia, then hypotension, oliguria, confusion.",
+    "Another box of the diagram, not the one at the arrow."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -21888,7 +22512,13 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Emergency measures"
    ],
    "answer": 3,
-   "why": "The arrow points to: Emergency measures. ICU, two large-bore IV lines, bloods and cross-match, fluids, oxygen, monitoring."
+   "why": "The arrow points to: Emergency measures. ICU, two large-bore IV lines, bloods and cross-match, fluids, oxygen, monitoring.",
+   "notes": [
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow.",
+    "ICU, two large-bore lines, bloods, fluids, oxygen."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -21900,7 +22530,13 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Occult bleeding"
    ],
    "answer": 0,
-   "why": "The arrow points to: Endoscopy. Upper endoscopy finds the source in over 90%; colonoscopy for lower bleeding; treats by injection, coagulation, clips, banding."
+   "why": "The arrow points to: Endoscopy. Upper endoscopy finds the source in over 90%; colonoscopy for lower bleeding; treats by injection, coagulation, clips, banding.",
+   "notes": [
+    "Finds the source and can treat it.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow.",
+    "Another box of the diagram, not the one at the arrow."
+   ]
   },
   {
    "q": "The management of GI bleeding involves:",
