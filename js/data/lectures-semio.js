@@ -5912,6 +5912,154 @@ SINA.lectures["semio-gi-exam"] = {
      "n": 19
     }
    ]
+  },
+  {
+   "q": "A 24-year-old with Crohn's disease has small, painful, round ulcers inside the cheeks. What is this lesion?",
+   "options": [
+    "Aphthous ulcers",
+    "Oral candidiasis",
+    "Angular cheilitis",
+    "Atrophic glossitis"
+   ],
+   "answer": 0,
+   "why": "Aphthous ulcers of the oral mucosa are an oral sign seen in inflammatory bowel diseases.",
+   "notes": [
+    "Painful round mucosal ulcers, seen for example in IBD.",
+    "Candidiasis gives a white plaque on the tongue.",
+    "Cheilitis affects the corners of the mouth.",
+    "Glossitis is an inflamed, smooth tongue."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/06.jpg",
+     "lec": "Digestive physical examination",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "After a course of antibiotics, a patient has a white plaque on the tongue. What is the most likely cause?",
+   "options": [
+    "A fungal infection (oral candidiasis)",
+    "Vitamin B12 deficiency",
+    "Iron deficiency anaemia",
+    "Inflammatory bowel disease"
+   ],
+   "answer": 0,
+   "why": "Oral candidiasis is a fungal infection that leaves a white plaque on the tongue.",
+   "notes": [
+    "Candida gives a white plaque on the tongue.",
+    "B12 deficiency gives atrophic glossitis.",
+    "Iron deficiency gives angular cheilitis.",
+    "IBD gives aphthous ulcers."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/07.jpg",
+     "lec": "Digestive physical examination",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "A woman has a dull, rounded swelling above the pubis on percussion that disappears after she passes urine. What was it?",
+   "options": [
+    "A full bladder",
+    "Ascites",
+    "A liver mass",
+    "Gas in the sigmoid colon"
+   ],
+   "answer": 0,
+   "why": "The abdomen is tympanic except the right hypochondrium (liver) and the hypogastrium when the bladder is full.",
+   "notes": [
+    "A full bladder makes the hypogastrium dull; emptying it removes the dullness.",
+    "Ascites gives dullness in the flanks and does not vanish after voiding.",
+    "The liver lies in the right hypochondrium.",
+    "Gas gives a tympanic, not dull, sound."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/16.jpg",
+     "lec": "Digestive physical examination",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Epigastric pain may come from which organs projecting onto that region?",
+   "options": [
+    "Stomach",
+    "Pancreas",
+    "Duodenum",
+    "Sigmoid colon"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The epigastric region contains the stomach, part of the liver, the pancreas, the duodenum, the spleen and the adrenal glands.",
+   "notes": [
+    "The stomach lies in the epigastrium.",
+    "The pancreas projects onto the epigastrium.",
+    "The duodenum projects onto the epigastrium.",
+    "The sigmoid colon lies in the left iliac and hypogastric regions."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/09.jpg",
+     "lec": "Digestive physical examination",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "A 70-year-old has a tender mass in the left iliac region. Which organ is most likely involved?",
+   "options": [
+    "The sigmoid colon",
+    "The appendix",
+    "The gallbladder",
+    "The spleen"
+   ],
+   "answer": 0,
+   "why": "The left iliac region contains the descending and sigmoid colon.",
+   "notes": [
+    "The descending and sigmoid colon lie in the left iliac region.",
+    "The appendix is in the right iliac region.",
+    "The gallbladder is in the right hypochondrium.",
+    "The spleen is in the left hypochondrium."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/09.jpg",
+     "lec": "Digestive physical examination",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "In a man, what can the digital rectal examination also assess?",
+   "options": [
+    "The prostate",
+    "The bladder wall lining",
+    "The appendix",
+    "The sigmoid mucosa"
+   ],
+   "answer": 0,
+   "why": "The digital examination explores the anal canal, the distal rectum and, in men, the prostate.",
+   "notes": [
+    "The prostate can be felt through the anterior rectal wall.",
+    "The bladder lining is not felt on rectal exam.",
+    "The appendix is far out of reach.",
+    "The finger only reaches the distal rectum."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-exam/18.jpg",
+     "lec": "Digestive physical examination",
+     "n": 18
+    }
+   ]
   }
  ],
  "cards": [
@@ -7406,6 +7554,189 @@ SINA.lectures["semio-gi-jaundice"] = {
     "Slide 23.",
     "For cholestasis.",
     "Later step in non-haemolytic branch."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/23.jpg",
+     "lec": "Jaundice",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "A 60-year-old has painless, progressive jaundice with itching, dark urine and pale stools. Conjugated bilirubin, GGT and ALP are raised. Which test comes first to find the cause?",
+   "options": [
+    "Abdominal ultrasound looking for dilated bile ducts",
+    "Haemolysis tests (LDH, haptoglobin)",
+    "Liver biopsy",
+    "Genetic studies for Gilbert syndrome"
+   ],
+   "answer": 0,
+   "why": "This is cholestatic jaundice. The strategy then asks whether there is a biliary obstruction: abdominal ultrasound looks for dilated bile ducts.",
+   "notes": [
+    "Dilated ducts mean an extrahepatic (obstructive) cause.",
+    "Haemolysis is the question for non-cholestatic (unconjugated) jaundice.",
+    "Biopsy is not a first step.",
+    "Gilbert gives unconjugated bilirubin without cholestasis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/22.jpg",
+     "lec": "Jaundice",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Which laboratory pattern fits jaundice from haemolysis?",
+   "options": [
+    "Raised unconjugated bilirubin, high LDH and low haptoglobin",
+    "Raised conjugated bilirubin with high GGT and ALP",
+    "Raised conjugated bilirubin with dilated bile ducts",
+    "Normal bilirubin with high transaminases"
+   ],
+   "answer": 0,
+   "why": "Haemolysis gives non-cholestatic jaundice with unconjugated bilirubin; LDH and haptoglobin are among the haemolysis tests.",
+   "notes": [
+    "Red cell breakdown raises unconjugated bilirubin and LDH and uses up haptoglobin.",
+    "This is the cholestasis pattern.",
+    "This is obstructive cholestasis.",
+    "No raised bilirubin means no jaundice."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/22.jpg",
+     "lec": "Jaundice",
+     "n": 22
+    },
+    {
+     "src": "files/slides/semio-gi-jaundice/20.jpg",
+     "lec": "Jaundice",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "A jaundiced patient is drowsy and has a flapping tremor of the outstretched hands. What does this suggest?",
+   "options": [
+    "Severe liver failure with encephalopathy",
+    "Haemolysis",
+    "A simple gallstone in the bile duct",
+    "Gilbert syndrome"
+   ],
+   "answer": 0,
+   "why": "Asterixis and the Glasgow score are part of the general examination of a jaundiced patient: a flapping tremor with drowsiness points to hepatic encephalopathy.",
+   "notes": [
+    "Asterixis and altered consciousness point to hepatic encephalopathy.",
+    "Haemolysis does not cause asterixis.",
+    "Biliary obstruction alone does not cause encephalopathy.",
+    "Gilbert syndrome is benign."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/19.jpg",
+     "lec": "Jaundice",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Why are stools pale (acholic) when the bile duct is completely blocked?",
+   "options": [
+    "Bilirubin no longer reaches the gut, so no stercobilinogen colours the stool",
+    "Too much bilirubin is excreted in stool",
+    "The stool contains blood",
+    "Iron is lost in the stool"
+   ],
+   "answer": 0,
+   "why": "Bilirubin excreted into the gut becomes urobilinogen and stercobilinogen, which colours stool. With an obstruction, none reaches the gut.",
+   "notes": [
+    "No bilirubin in the gut means no stercobilinogen.",
+    "Bilirubin cannot reach the gut, so less is excreted.",
+    "Blood darkens stool; it does not make it pale.",
+    "Iron is unrelated to stool pallor here."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/11.jpg",
+     "lec": "Jaundice",
+     "n": 11
+    },
+    {
+     "src": "files/slides/semio-gi-jaundice/14.jpg",
+     "lec": "Jaundice",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Why is urine dark in cholestatic jaundice?",
+   "options": [
+    "Conjugated bilirubin is water-soluble and passes into the urine",
+    "Unconjugated bilirubin passes freely into the urine",
+    "Blood leaks into the urine",
+    "The kidneys concentrate urine more"
+   ],
+   "answer": 0,
+   "why": "Dark urine is part of the cholestasis syndrome: conjugated bilirubin backs up into the blood and, being water-soluble, is filtered into the urine.",
+   "notes": [
+    "Conjugated bilirubin is water-soluble and filtered by the kidney.",
+    "Unconjugated bilirubin is bound to albumin and does not reach urine.",
+    "There is no haematuria.",
+    "Concentration is not the cause."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/14.jpg",
+     "lec": "Jaundice",
+     "n": 14
+    },
+    {
+     "src": "files/slides/semio-gi-jaundice/22.jpg",
+     "lec": "Jaundice",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "On the jaundice strategy chart, corpuscular haemolysis (a red cell defect) is usually:",
+   "options": [
+    "Extravascular",
+    "Intravascular",
+    "Cholestatic",
+    "Caused by bile duct dilatation"
+   ],
+   "answer": 0,
+   "why": "The chart splits haemolysis into corpuscular, usually extravascular, and extracorpuscular, usually intravascular.",
+   "notes": [
+    "Corpuscular haemolysis is usually extravascular.",
+    "Extracorpuscular haemolysis is usually intravascular.",
+    "Haemolysis is non-cholestatic.",
+    "Duct dilatation belongs to cholestatic jaundice."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-jaundice/22.jpg",
+     "lec": "Jaundice",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "A 20-year-old has mild jaundice when fasting or ill. Bilirubin is unconjugated, liver tests are normal and there is no haemolysis. What is the most likely cause?",
+   "options": [
+    "Gilbert syndrome",
+    "Biliary stone",
+    "Primary sclerosing cholangitis",
+    "Autoimmune haemolytic anaemia"
+   ],
+   "answer": 0,
+   "why": "Unconjugated hyperbilirubinaemia without haemolysis points to a conjugation defect such as Gilbert syndrome (Crigler-Najjar is the rare, severe form).",
+   "notes": [
+    "Unconjugated, intermittent, normal liver tests, no haemolysis.",
+    "A stone gives cholestatic (conjugated) jaundice.",
+    "Sclerosing cholangitis is cholestatic.",
+    "There is no haemolysis here."
    ],
    "slides": [
     {
@@ -9268,6 +9599,179 @@ SINA.lectures["semio-gi-constipation"] = {
      "src": "files/slides/semio-gi-constipation/31.jpg",
      "lec": "Constipation",
      "n": 31
+    }
+   ]
+  },
+  {
+   "q": "A 32-year-old woman has normal stool frequency but strains, feels incompletely emptied and sometimes presses with her fingers to pass stool. Which type of constipation is this?",
+   "options": [
+    "Outlet dysfunction",
+    "Slow transit constipation",
+    "Constipation-predominant IBS",
+    "Secondary constipation from hypothyroidism"
+   ],
+   "answer": 0,
+   "why": "Outlet dysfunction: difficulty evacuating, often needing a digital manoeuvre, with a sense of incomplete evacuation.",
+   "notes": [
+    "Difficulty evacuating with digital manoeuvres is typical.",
+    "Slow transit gives fewer than 3 stools a week with bloating.",
+    "IBS-C centres on abdominal discomfort and bloating.",
+    "Nothing points to hypothyroidism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/28.jpg",
+     "lec": "Constipation",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "A 68-year-old has had constipation for 2 months with weight loss, anaemia and blood in the stool. What is the next step?",
+   "options": [
+    "Colonoscopy",
+    "Reassure and give fibre",
+    "Anorectal manometry first",
+    "Bristol stool chart only"
+   ],
+   "answer": 0,
+   "why": "Rectal bleeding, weight loss and anaemia are red flags: an organic cause such as colorectal cancer must be ruled out by colonoscopy.",
+   "notes": [
+    "Red flags call for colonoscopy to rule out cancer.",
+    "Red flags must not be treated symptomatically.",
+    "Functional tests come after organic causes are ruled out.",
+    "A stool chart does not rule out cancer."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/20.jpg",
+     "lec": "Constipation",
+     "n": 20
+    },
+    {
+     "src": "files/slides/semio-gi-constipation/21.jpg",
+     "lec": "Constipation",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "A patient on morphine for cancer pain becomes constipated. How is this classified?",
+   "options": [
+    "Secondary constipation caused by a medication",
+    "Primary slow-transit constipation",
+    "Outlet dysfunction",
+    "Constipation-predominant IBS"
+   ],
+   "answer": 0,
+   "why": "Opioids are listed among the medications causing secondary constipation.",
+   "notes": [
+    "A drug is an identifiable cause: secondary constipation.",
+    "Primary constipation has no identifiable cause.",
+    "Outlet dysfunction is a pelvic floor problem.",
+    "IBS-C has no organic or drug cause."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/26.jpg",
+     "lec": "Constipation",
+     "n": 26
+    }
+   ]
+  },
+  {
+   "q": "A 26-year-old woman has infrequent stools with abdominal discomfort, bloating and cramps that worsen with exam stress. Tests are normal. What fits best?",
+   "options": [
+    "Constipation-predominant irritable bowel syndrome",
+    "Colorectal cancer",
+    "Outlet dysfunction from anismus",
+    "Hypercalcaemia"
+   ],
+   "answer": 0,
+   "why": "IBS-C: abdominal discomfort, infrequent stools, bloating and cramping with no organic disease; stress can worsen it.",
+   "notes": [
+    "Discomfort, bloating, stress and normal tests fit IBS-C.",
+    "No red flags and normal tests.",
+    "Anismus causes difficult evacuation, not pain-led symptoms.",
+    "Nothing suggests hypercalcaemia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/29.jpg",
+     "lec": "Constipation",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "A constipated patient also has tiredness, weight gain and cold intolerance. Which test should be done?",
+   "options": [
+    "Thyroid function tests",
+    "Celiac panel",
+    "Defecography",
+    "Anorectal manometry"
+   ],
+   "answer": 0,
+   "why": "Thyroid function tests look for hypothyroidism, an endocrine cause of secondary constipation.",
+   "notes": [
+    "The symptoms suggest hypothyroidism.",
+    "Celiac tests are done if indicated by other clues.",
+    "Defecography looks for structural pelvic defects.",
+    "Manometry assesses outlet dysfunction."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/23.jpg",
+     "lec": "Constipation",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "In an elderly constipated patient, percussion of the left iliac fossa is dull. What does this suggest?",
+   "options": [
+    "Faecal loading",
+    "Gas in the colon",
+    "A normal finding",
+    "Ileus"
+   ],
+   "answer": 0,
+   "why": "On percussion, tympany suggests gas, and dullness suggests faecal loading.",
+   "notes": [
+    "Dullness suggests a colon filled with stool.",
+    "Gas gives tympany.",
+    "This area is normally tympanic.",
+    "Ileus is suggested by absent bowel sounds."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/15.jpg",
+     "lec": "Constipation",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "A patient with Parkinson's disease has long-standing constipation. How is it classified?",
+   "options": [
+    "Secondary constipation of neurological origin",
+    "Primary functional constipation",
+    "IBS-C",
+    "Outlet dysfunction from rectocele"
+   ],
+   "answer": 0,
+   "why": "Parkinson's disease, multiple sclerosis, spinal cord injury and stroke are neurological causes of secondary constipation.",
+   "notes": [
+    "A neurological disease is an identifiable cause.",
+    "Primary constipation has no identifiable cause.",
+    "IBS-C has no organic cause.",
+    "Rectocele is a structural outlet cause."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-constipation/26.jpg",
+     "lec": "Constipation",
+     "n": 26
     }
    ]
   }
@@ -14216,6 +14720,107 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Hashimoto's causes hypothyroidism.",
     "Riedel's is a fibrosing thyroiditis, not iodine-induced."
    ]
+  },
+  {
+   "q": "A 45-year-old woman has weight gain, cold intolerance, a hoarse voice and night-time tingling in her hands. Which diagnosis links these?",
+   "options": [
+    "Hypothyroidism",
+    "Graves' disease",
+    "Acromegaly only",
+    "Subacute thyroiditis"
+   ],
+   "answer": 0,
+   "why": "Hoarseness and carpal tunnel syndrome are among the signs of hypothyroidism shown in the lecture, with weight gain and cold sensitivity.",
+   "notes": [
+    "All four fit hypothyroidism, including carpal tunnel.",
+    "Graves' gives weight loss and heat intolerance.",
+    "Acromegaly causes carpal tunnel but not cold intolerance and weight gain.",
+    "Subacute thyroiditis starts with painful thyrotoxicosis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p42.jpg",
+     "lec": "Thyroid semiology",
+     "n": 42
+    },
+    {
+     "src": "files/slides/semio-endo-thyroid/p51.jpg",
+     "lec": "Thyroid semiology",
+     "n": 51
+    }
+   ]
+  },
+  {
+   "q": "A 35-year-old has a painful, tender, firm thyroid two weeks after a flu-like illness, with palpitations. What is the most likely diagnosis?",
+   "options": [
+    "Subacute (de Quervain) thyroiditis",
+    "Graves' disease",
+    "Toxic adenoma",
+    "Hashimoto's thyroiditis"
+   ],
+   "answer": 0,
+   "why": "Neck pain, a tender firm gland and a recent viral infection are the features of de Quervain thyroiditis, with a transient toxic phase.",
+   "notes": [
+    "Painful gland after a viral illness.",
+    "Graves' gland is painless.",
+    "Toxic adenoma is a painless nodule.",
+    "Hashimoto's is usually painless and hypothyroid."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p38.jpg",
+     "lec": "Thyroid semiology",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "q": "A woman has hot, sweaty skin, heat intolerance and weight loss despite eating more. Which mechanism explains the weight loss?",
+   "options": [
+    "Increased metabolism with lipolysis and protein catabolism",
+    "Malabsorption from diarrhoea",
+    "Reduced food intake",
+    "Loss of fluid in the urine"
+   ],
+   "answer": 0,
+   "why": "Thyroid hormones increase metabolism: lipolysis and protein catabolism explain weight loss despite polyphagia.",
+   "notes": [
+    "Hypermetabolism burns fat and muscle.",
+    "Diarrhoea is rare in hyperthyroidism.",
+    "Appetite is increased.",
+    "Urine loss is not the mechanism."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p12.jpg",
+     "lec": "Thyroid semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Which feature is common to both hypothyroidism and hyperthyroidism in the comparison table?",
+   "options": [
+    "Fatigue",
+    "Weight gain",
+    "Heat intolerance",
+    "Constipation"
+   ],
+   "answer": 0,
+   "why": "Fatigue, muscle weakness, menstrual irregularity and goitre appear in both states.",
+   "notes": [
+    "Listed under both states.",
+    "Weight gain is hypothyroid only.",
+    "Heat intolerance is hyperthyroid only.",
+    "Constipation is hypothyroid only."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-thyroid/p41.jpg",
+     "lec": "Thyroid semiology",
+     "n": 41
+    }
+   ]
   }
  ],
  "cards": [
@@ -17348,6 +17953,221 @@ SINA.lectures["semio-endo-adrenal"] = {
     "Noriodocholesterol is used for aldosterone adenomas.",
     "Thyroid scintigraphy explores the thyroid.",
     "Ultrasound is less sensitive than the CT already done."
+   ]
+  },
+  {
+   "q": "A 30-year-old woman has amenorrhoea, hirsutism and acne, as well as wide purple striae and proximal weakness. What should be ruled out?",
+   "options": [
+    "Cushing's syndrome",
+    "Simple polycystic ovaries only",
+    "Hypothyroidism",
+    "Addison's disease"
+   ],
+   "answer": 0,
+   "why": "Reproductive dysfunction (hirsutism, acne, menstrual disorders) is part of Cushing's; with purple striae and proximal weakness, cortisol excess must be tested.",
+   "notes": [
+    "Purple striae and proximal weakness point to Cushing's.",
+    "PCOS does not cause purple striae or proximal myopathy.",
+    "Hypothyroidism does not cause hirsutism and striae.",
+    "Addison's causes weight loss and pigmentation."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p24.jpg",
+     "lec": "Adrenal semiology",
+     "n": 24
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p23.jpg",
+     "lec": "Adrenal semiology",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "Why does a high midnight cortisol support Cushing's syndrome?",
+   "options": [
+    "Cortisol normally falls to its lowest at night; that circadian dip is lost",
+    "Cortisol is normally highest at midnight",
+    "Midnight cortisol measures ACTH",
+    "It shows the adrenal is enlarged"
+   ],
+   "answer": 0,
+   "why": "Initial tests look for excessive cortisol secretion and disruption of its circadian rhythm (high midnight cortisol).",
+   "notes": [
+    "Loss of the night-time dip is a sign of cortisol excess.",
+    "Cortisol peaks in the early morning, not at midnight.",
+    "It measures cortisol, not ACTH.",
+    "It is a hormone test, not imaging."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p30.jpg",
+     "lec": "Adrenal semiology",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "A patient on anticoagulants suddenly develops lumbar pain, vomiting and collapse. Which cause of primary adrenal insufficiency fits?",
+   "options": [
+    "Bilateral adrenal haemorrhage",
+    "Autoimmune Addison's disease",
+    "Adrenal tuberculosis",
+    "A pituitary tumour"
+   ],
+   "answer": 0,
+   "why": "Bilateral adrenal haemorrhage is a cause of primary adrenal insufficiency and can present acutely.",
+   "notes": [
+    "Anticoagulation plus sudden lumbar pain and collapse.",
+    "Autoimmune Addison's is slow.",
+    "Tuberculosis is slow, with calcified adrenals.",
+    "A pituitary tumour gives secondary AI."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p52.jpg",
+     "lec": "Adrenal semiology",
+     "n": 52
+    }
+   ]
+  },
+  {
+   "q": "In a synacthen test, cortisol rises to 22 µg/dL at 60 minutes. How is this read?",
+   "options": [
+    "A normal adrenal response",
+    "Adrenal insufficiency is confirmed",
+    "Cushing's syndrome is confirmed",
+    "The test is invalid"
+   ],
+   "answer": 0,
+   "why": "An insufficient rise, below 18 µg/dL, confirms adrenal insufficiency; a rise to 18 or more is normal.",
+   "notes": [
+    "22 µg/dL is above 18 µg/dL.",
+    "Confirmation needs a peak below 18 µg/dL.",
+    "Synacthen tests reserve, not excess.",
+    "The test is valid."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p49.jpg",
+     "lec": "Adrenal semiology",
+     "n": 49
+    }
+   ]
+  },
+  {
+   "q": "A sweating, tachycardic patient could have phaeochromocytoma or hyperthyroidism. Which finding favours phaeochromocytoma?",
+   "options": [
+    "Attacks of headache with very high blood pressure and pallor",
+    "Fine tremor",
+    "Weight loss",
+    "Heat intolerance"
+   ],
+   "answer": 0,
+   "why": "Both can cause sweating, palpitations, weight loss and heat intolerance; paroxysmal attacks with headache and BP surges point to phaeochromocytoma.",
+   "notes": [
+    "Paroxysmal hypertension with headache is the phaeochromocytoma pattern.",
+    "Tremor occurs in both.",
+    "Weight loss occurs in both.",
+    "Heat intolerance occurs in both."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p73.jpg",
+     "lec": "Adrenal semiology",
+     "n": 73
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p75.jpg",
+     "lec": "Adrenal semiology",
+     "n": 75
+    }
+   ]
+  },
+  {
+   "q": "Which findings favour Cushing's syndrome over simple obesity?",
+   "options": [
+    "Proximal muscle weakness",
+    "Wide purple striae",
+    "Easy bruising with thin skin",
+    "Fat spread evenly over the limbs"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Cushing's: truncal obesity with thin limbs (proximal amyotrophy), wide purple striae, thin skin and bruising.",
+   "notes": [
+    "Proximal amyotrophy is typical of cortisol excess.",
+    "Wide purple striae point to Cushing's.",
+    "Thin skin and bruising point to Cushing's.",
+    "In Cushing's the limbs are thin, not fat."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p21.jpg",
+     "lec": "Adrenal semiology",
+     "n": 21
+    },
+    {
+     "src": "files/slides/semio-endo-adrenal/p23.jpg",
+     "lec": "Adrenal semiology",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "Which laboratory findings are listed for secondary adrenal insufficiency?",
+   "options": [
+    "Hyponatraemia",
+    "Normocytic normochromic anaemia",
+    "Moderate lymphocytosis",
+    "Hyperkalaemia"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Secondary AI: no volume depletion and no hyperkalaemia, but hyponatraemia, normocytic anaemia and moderate lymphocytosis; ACTH low-normal with low cortisol.",
+   "notes": [
+    "Hyponatraemia is listed.",
+    "Normocytic anaemia is listed.",
+    "Lymphocytosis is listed.",
+    "Aldosterone is preserved, so no hyperkalaemia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p57.jpg",
+     "lec": "Adrenal semiology",
+     "n": 57
+    }
+   ]
+  },
+  {
+   "q": "A patient with undiagnosed, slowly developing adrenal insufficiency gets pneumonia and collapses. How does the lecture describe this?",
+   "options": [
+    "Latent adrenal insufficiency revealed by an intercurrent illness",
+    "A new disease unrelated to the adrenals",
+    "Septic shock only, never adrenal",
+    "Cushing's crisis"
+   ],
+   "answer": 0,
+   "why": "Acute adrenal insufficiency is the natural evolution of slow AI and can reveal latent AI during an intercurrent illness (infection, trauma, surgery).",
+   "notes": [
+    "Infection can unmask latent AI.",
+    "It is the same adrenal disease.",
+    "Adrenal crisis must be considered in shock.",
+    "Cushing's is cortisol excess."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-adrenal/p58.jpg",
+     "lec": "Adrenal semiology",
+     "n": 58
+    }
    ]
   }
  ],
@@ -20699,6 +21519,250 @@ SINA.lectures["semio-gi-gerd"] = {
      "n": 19
     }
    ]
+  },
+  {
+   "q": "A 30-year-old has burning behind the sternum after meals and bitter fluid in the mouth when lying down, with no other symptoms. What is the next step?",
+   "options": [
+    "The diagnosis is clinical: no test is needed first",
+    "Urgent upper endoscopy",
+    "24-hour pH-metry",
+    "Barium swallow"
+   ],
+   "answer": 0,
+   "why": "Typical forms (heartburn + regurgitation) without alarm signs are diagnosed clinically.",
+   "notes": [
+    "Typical symptoms without red flags are enough.",
+    "Endoscopy is for alarm signs, atypical forms, age over 50 or treatment failure.",
+    "pH-metry is for atypical cases or NERD.",
+    "A barium swallow looks for complications."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/13.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "A 58-year-old with years of reflux now has trouble swallowing solids and has lost 5 kg. What is needed?",
+   "options": [
+    "Upper GI endoscopy",
+    "Reassurance only",
+    "pH-metry first",
+    "Manometry first"
+   ],
+   "answer": 0,
+   "why": "Dysphagia and weight loss are alarm signs: any alarm sign requires endoscopy (stricture, cancer).",
+   "notes": [
+    "Alarm signs require endoscopy.",
+    "Alarm signs must be explored.",
+    "pH-metry does not show strictures or tumours.",
+    "Manometry is not first with alarm signs."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/12.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "A patient with GERD-like symptoms has a normal endoscopy. Which test can confirm acid reflux?",
+   "options": [
+    "24-hour oesophageal pH-metry",
+    "Barium swallow",
+    "Repeat endoscopy at once",
+    "Abdominal ultrasound"
+   ],
+   "answer": 0,
+   "why": "A normal endoscopy does not exclude GERD (NERD). pH-metry, the reference test, is particularly useful in NERD.",
+   "notes": [
+    "The reference test, useful in NERD.",
+    "A barium swallow looks for stricture or hernia.",
+    "Repeating endoscopy will not show NERD.",
+    "Ultrasound does not assess reflux."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/15.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "A man has chest pain after heavy meals. Cardiac tests are normal, and antacids help. What is the likely explanation?",
+   "options": [
+    "Non-cardiac chest pain from GERD (pseudo-anginal pain)",
+    "Stable angina",
+    "Pulmonary embolism",
+    "Pericarditis"
+   ],
+   "answer": 0,
+   "why": "GERD can cause non-cardiac chest pain that mimics angina; such atypical presentations may mislead the diagnosis.",
+   "notes": [
+    "Reflux can mimic angina.",
+    "Cardiac tests are normal.",
+    "Nothing suggests embolism.",
+    "Nothing suggests pericarditis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/11.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Why do pregnant women often get heartburn?",
+   "options": [
+    "Raised intra-abdominal pressure, and progesterone lowers LES tone",
+    "Pregnancy increases gastric acid tenfold",
+    "The pylorus closes completely",
+    "Pregnancy causes achalasia"
+   ],
+   "answer": 0,
+   "why": "Obesity and pregnancy increase intra-abdominal pressure, and progesterone is among the drugs and hormones that lower LES tone.",
+   "notes": [
+    "Both mechanisms are on the slides.",
+    "Acid excess is not the mechanism given.",
+    "The pylorus is not the barrier.",
+    "Achalasia is a different disease."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/06.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "Which situations typically trigger heartburn?",
+   "options": [
+    "Bending forward",
+    "Lying down",
+    "Heavy meals",
+    "Fasting in the morning"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Heartburn is often postprandial or nocturnal, triggered by bending forward, lying down or heavy meals.",
+   "notes": [
+    "Bending raises abdominal pressure.",
+    "Lying down helps reflux.",
+    "Heavy meals trigger reflux.",
+    "An empty stomach is not a typical trigger."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/07.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "What separates regurgitation from vomiting?",
+   "options": [
+    "Regurgitation is effortless, without abdominal effort",
+    "Regurgitation is always bloody",
+    "Regurgitation brings up bile from the duodenum",
+    "Regurgitation comes with retching"
+   ],
+   "answer": 0,
+   "why": "Regurgitation is the effortless reflux of acidic gastric contents into the mouth, with a hot, bitter taste.",
+   "notes": [
+    "Effortless reflux into the mouth.",
+    "It is not bloody.",
+    "It brings up acidic gastric contents.",
+    "Retching is an effort; regurgitation has none."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/08.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "A brief reflux after a meal, with no symptoms and no mucosal damage, is:",
+   "options": [
+    "Physiological reflux",
+    "Pathological reflux",
+    "GERD with complications",
+    "Barrett's oesophagus"
+   ],
+   "answer": 0,
+   "why": "Physiological reflux is transient, postprandial and asymptomatic, with no mucosal damage.",
+   "notes": [
+    "Transient, postprandial, asymptomatic, no damage.",
+    "Pathological reflux is frequent or prolonged, causing symptoms or lesions.",
+    "There are no complications.",
+    "Barrett's is metaplasia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/04.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "Which test is used to look for a peptic stricture or a hiatal hernia?",
+   "options": [
+    "Barium swallow",
+    "Impedancemetry",
+    "24-hour pH-metry",
+    "Manometry alone"
+   ],
+   "answer": 0,
+   "why": "Among the other tests, the barium swallow is used for complications such as stenosis and hernia.",
+   "notes": [
+    "Shows strictures and hernias.",
+    "Impedance detects non-acid reflux.",
+    "pH-metry measures acid exposure.",
+    "Manometry measures pressures and motility."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/15.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "A patient's chronic dry cough at night and hoarseness have not improved with ENT treatment. Which diagnosis must be considered?",
+   "options": [
+    "Extra-digestive GERD",
+    "Achalasia",
+    "Peptic ulcer",
+    "Irritable bowel syndrome"
+   ],
+   "answer": 0,
+   "why": "Always consider extra-digestive forms of GERD when facing chronic cough or dysphonia.",
+   "notes": [
+    "Reflux causes chronic cough and dysphonia.",
+    "Achalasia causes dysphagia.",
+    "Ulcer causes epigastric pain.",
+    "IBS is a bowel disorder."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-gerd/18.jpg",
+     "lec": "Gastro-oesophageal reflux disease",
+     "n": 18
+    }
+   ]
   }
  ],
  "cards": [
@@ -22160,6 +23224,243 @@ SINA.lectures["semio-gi-bleeding"] = {
      "src": "files/slides/semio-gi-bleeding/21.jpg",
      "lec": "Gastrointestinal bleeding",
      "n": 21
+    }
+   ]
+  },
+  {
+   "q": "A 50-year-old taking NSAIDs for back pain has epigastric pain, vomits blood and then passes black stools. What is the most likely source?",
+   "options": [
+    "Peptic ulcer",
+    "Haemorrhoids",
+    "Colonic diverticula",
+    "Meckel's diverticulum"
+   ],
+   "answer": 0,
+   "why": "Haematemesis and melena mean an upper GI source; NSAIDs cause peptic ulcers and drug-induced lesions.",
+   "notes": [
+    "NSAIDs, epigastric pain, upper bleeding: peptic ulcer.",
+    "Haemorrhoids give bright red rectal blood.",
+    "Diverticula bleed in the lower tract.",
+    "Meckel's affects young patients and the small bowel."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/16.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 16
+    },
+    {
+     "src": "files/slides/semio-gi-bleeding/12.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "A man with cirrhosis, ascites and spider angiomas vomits a large amount of blood. What is the most likely source?",
+   "options": [
+    "Oesophageal or gastric varices",
+    "Mallory-Weiss tear",
+    "Angiodysplasia of the colon",
+    "Anal fissure"
+   ],
+   "answer": 0,
+   "why": "Signs of liver disease or portal hypertension point to varices, which carry one of the worst prognoses.",
+   "notes": [
+    "Portal hypertension causes varices.",
+    "Mallory-Weiss follows vomiting.",
+    "Colonic angiodysplasia gives lower bleeding.",
+    "A fissure gives minor rectal bleeding."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/13.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 13
+    },
+    {
+     "src": "files/slides/semio-gi-bleeding/16.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "A patient had a long nosebleed overnight and vomits dark blood in the morning. What must be considered before an upper GI source?",
+   "options": [
+    "Swallowed epistaxis",
+    "Haemoptysis",
+    "Lower GI bleeding",
+    "Occult bleeding"
+   ],
+   "answer": 0,
+   "why": "Differential diagnoses of haematemesis: haemoptysis, swallowed epistaxis, gingival bleeding and coloured food or drugs.",
+   "notes": [
+    "Blood from the nose can be swallowed then vomited.",
+    "Haemoptysis is coughed-up frothy blood.",
+    "Lower bleeding is not vomited.",
+    "Occult bleeding is invisible."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/06.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "A patient arrives in shock with no visible bleeding. How can massive non-externalised GI bleeding be shown?",
+   "options": [
+    "Gastric aspiration or rectal examination",
+    "Waiting for melena to appear",
+    "Faecal occult blood test only",
+    "Chest X-ray"
+   ],
+   "answer": 0,
+   "why": "Massive non-externalised bleeding can present as shock without visible blood; diagnosis is made by gastric aspiration or rectal exam.",
+   "notes": [
+    "These reveal blood not yet passed.",
+    "Waiting delays care in shock.",
+    "Occult blood tests are for chronic minimal loss.",
+    "A chest X-ray does not show GI bleeding."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/09.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "A patient has melena but a normal upper endoscopy. Where else can the blood come from?",
+   "options": [
+    "The small intestine",
+    "The right colon",
+    "The rectum, as bright red blood only",
+    "The lungs"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Melena usually comes from the upper GI tract, but may also originate from the small intestine or the right colon.",
+   "notes": [
+    "Slow small-bowel bleeding is digested into melena.",
+    "Right colon bleeding can turn black.",
+    "Rectal blood comes out bright red.",
+    "Lung blood is coughed up."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/07.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "Deciding whether bleeding comes from the upper or the lower GI tract is which level of diagnosis?",
+   "options": [
+    "Topographic diagnosis",
+    "Positive diagnosis",
+    "Etiological diagnosis",
+    "Severity assessment"
+   ],
+   "answer": 0,
+   "why": "Three levels: positive (is it digestive bleeding), topographic (upper or lower), etiological (which lesion).",
+   "notes": [
+    "Upper or lower is the topographic level.",
+    "Positive diagnosis confirms the bleeding is digestive.",
+    "Etiological diagnosis finds the lesion.",
+    "Severity is assessed separately."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/05.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "An 80-year-old has painless bright red rectal bleeding. Which exam is key?",
+   "options": [
+    "Colonoscopy",
+    "Upper endoscopy only",
+    "Capsule endoscopy first",
+    "Abdominal X-ray"
+   ],
+   "answer": 0,
+   "why": "Colonoscopy is the key exam for lower GI bleeding; in the elderly, polyps or cancer, diverticular disease and angiodysplasia are causes.",
+   "notes": [
+    "The key exam for lower GI bleeding.",
+    "Bright red blood without shock points lower.",
+    "Capsule is for the small bowel if no source is found.",
+    "X-ray does not find the lesion."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/15.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 15
+    },
+    {
+     "src": "files/slides/semio-gi-bleeding/21.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "When is surgery indicated in GI bleeding?",
+   "options": [
+    "Refractory bleeding or perforation",
+    "Every peptic ulcer bleed",
+    "Before any endoscopy",
+    "Haemorrhoidal bleeding at first episode"
+   ],
+   "answer": 0,
+   "why": "Endoscopic haemostasis comes first; surgery is for refractory bleeding or perforation.",
+   "notes": [
+    "Surgery when endoscopy fails or there is perforation.",
+    "Most ulcer bleeds are treated endoscopically.",
+    "Endoscopy comes first.",
+    "Haemorrhoids do not need surgery for a first bleed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/19.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "In a patient with GI bleeding, the rectal examination is used to:",
+   "options": [
+    "Confirm melena or haematochezia",
+    "Look for haemorrhoids, fissure or a rectal mass",
+    "Assess varices",
+    "Measure haemoglobin"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The rectal exam confirms melena or haematochezia and checks for haemorrhoids, fissure or a rectal mass.",
+   "notes": [
+    "It shows the colour of the stool on the glove.",
+    "It finds local causes.",
+    "Varices are seen at endoscopy.",
+    "Haemoglobin is a blood test."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-gi-bleeding/13.jpg",
+     "lec": "Gastrointestinal bleeding",
+     "n": 13
     }
    ]
   }
@@ -24886,6 +26187,203 @@ SINA.lectures["semio-endo-pituitary"] = {
     "Imaging is urgent.",
     "Apoplexy is sudden, not slow.",
     "Early transsphenoidal decompression is done within 8 days."
+   ]
+  },
+  {
+   "q": "Which skin changes are typical of acromegaly?",
+   "options": [
+    "Thick skin with increased oiliness and sweating",
+    "Thin, fragile skin with easy bruising",
+    "Dry, coarse, cold skin",
+    "Hyperpigmentation of the gums"
+   ],
+   "answer": 0,
+   "why": "Acromegaly gives thickening of the skin with increased oiliness and sweating.",
+   "notes": [
+    "GH excess thickens the skin and increases sweating.",
+    "Thin fragile skin with bruising is Cushing's.",
+    "Dry coarse skin is hypothyroidism.",
+    "Pigmented gums are primary adrenal insufficiency."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/15.jpg",
+     "lec": "Pituitary semiology",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "During a 75 g OGTT, a patient with a high IGF-1 keeps a high GH level. What does this show?",
+   "options": [
+    "Acromegaly: GH is not suppressed by glucose",
+    "A normal response",
+    "GH deficiency",
+    "Diabetes only"
+   ],
+   "answer": 0,
+   "why": "Work-up: IGF-1 and GH during a 75 g glucose tolerance test; glucose normally inhibits GH, and lack of inhibition confirms acromegaly.",
+   "notes": [
+    "No GH suppression with a high IGF-1 confirms acromegaly.",
+    "Normally glucose suppresses GH.",
+    "GH is high, not low.",
+    "The test looks at GH, not only glucose."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/18.jpg",
+     "lec": "Pituitary semiology",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "A newly diagnosed acromegalic patient: which examination is justified by one of the associations listed in the lecture?",
+   "options": [
+    "Colonoscopy",
+    "Mammography",
+    "Bone marrow biopsy",
+    "Skull X-ray"
+   ],
+   "answer": 0,
+   "why": "Gastrointestinal features of acromegaly include colonic polyps, so the colon is explored.",
+   "notes": [
+    "Colonic polyps are associated with acromegaly.",
+    "Breast cancer is not listed.",
+    "Marrow disease is not listed.",
+    "The pituitary is imaged with MRI."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/17.jpg",
+     "lec": "Pituitary semiology",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Why can acromegaly cause diabetes?",
+   "options": [
+    "GH opposes the action of insulin",
+    "GH destroys beta cells by autoimmunity",
+    "Prolactin blocks insulin release",
+    "The pituitary tumour secretes glucagon"
+   ],
+   "answer": 0,
+   "why": "Diabetes mellitus or impaired glucose tolerance is among the metabolic abnormalities of acromegaly: GH is a counter-regulatory hormone that opposes insulin.",
+   "notes": [
+    "GH causes insulin resistance.",
+    "Acromegaly is not autoimmune.",
+    "Prolactin is not the mechanism.",
+    "Pituitary adenomas do not secrete glucagon."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/17.jpg",
+     "lec": "Pituitary semiology",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "A patient on haemodialysis for chronic kidney disease has galactorrhoea and mild hyperprolactinaemia. What is the likely cause?",
+   "options": [
+    "Chronic renal insufficiency",
+    "A macroprolactinoma",
+    "Acromegaly",
+    "Pituitary apoplexy"
+   ],
+   "answer": 0,
+   "why": "Chronic renal insufficiency and severe liver failure are listed among the causes of hyperprolactinaemia.",
+   "notes": [
+    "Kidney failure raises prolactin.",
+    "A mild rise with a known cause points to that cause first.",
+    "No acromegalic features.",
+    "Apoplexy is sudden headache and visual loss."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Why can primary hypothyroidism raise prolactin?",
+   "options": [
+    "High TRH stimulates prolactin release",
+    "Thyroid hormone excess stimulates prolactin",
+    "The thyroid secretes prolactin",
+    "Hypothyroidism destroys dopamine neurons"
+   ],
+   "answer": 0,
+   "why": "In primary hypothyroidism TRH rises, and TRH stimulates prolactin (the TRH stimulation test is also listed as a cause).",
+   "notes": [
+    "TRH rises to push the thyroid and also releases prolactin.",
+    "Thyroid hormone is low, not high.",
+    "The thyroid does not make prolactin.",
+    "Dopamine neurons are not destroyed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/11.jpg",
+     "lec": "Pituitary semiology",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "A man with known acromegaly develops headaches and loses the outer half of both visual fields. What has happened?",
+   "options": [
+    "The GH-secreting tumour has grown above the sella and compresses the optic chiasm",
+    "The tumour has spread into the cavernous sinus",
+    "Pituitary apoplexy with bleeding",
+    "Diabetic retinopathy"
+   ],
+   "answer": 0,
+   "why": "Suprasellar extension compresses the optic chiasm (optic-chiasmatic syndrome): bitemporal visual field loss.",
+   "notes": [
+    "Upward growth compresses the chiasm: bitemporal loss.",
+    "Cavernous sinus spread gives diplopia and ptosis.",
+    "Apoplexy is sudden, with severe headache and ophthalmoplegia.",
+    "Retinopathy does not give bitemporal loss."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/24.jpg",
+     "lec": "Pituitary semiology",
+     "n": 24
+    },
+    {
+     "src": "files/slides/semio-endo-pituitary/22.jpg",
+     "lec": "Pituitary semiology",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Why does bitemporal hemianopia occur when the optic chiasm is compressed?",
+   "options": [
+    "The crossing nasal retinal fibres, which carry the temporal fields, are damaged",
+    "The uncrossed temporal fibres are damaged",
+    "The optic tracts behind the chiasm are cut",
+    "The occipital cortex is compressed"
+   ],
+   "answer": 0,
+   "why": "Pressure on the chiasm hits the fibres that cross there: they come from the nasal retinas, which see the temporal fields.",
+   "notes": [
+    "Crossing nasal fibres carry the temporal fields.",
+    "Uncrossed fibres carry the nasal fields.",
+    "Optic tract damage gives a homonymous defect.",
+    "Occipital lesions give homonymous defects."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-pituitary/24.jpg",
+     "lec": "Pituitary semiology",
+     "n": 24
+    }
    ]
   }
  ],
@@ -28312,6 +29810,184 @@ SINA.lectures["semio-endo-diabetes"] = {
     "Hypoglycaemia gives sweating and tremor.",
     "Kussmaul breathing is fast and deep.",
     "Bronchospasm gives wheezing."
+   ]
+  },
+  {
+   "q": "A 62-year-old has recurrent urinary infections and a foot sore that will not heal. What should be checked first?",
+   "options": [
+    "Blood glucose",
+    "Thyroid function",
+    "Cortisol",
+    "Urinary metanephrines"
+   ],
+   "answer": 0,
+   "why": "Slow-healing cuts and sores and infections are among the symptoms that can reveal diabetes.",
+   "notes": [
+    "Hyperglycaemia slows healing and favours infections.",
+    "Thyroid tests are not first here.",
+    "Nothing suggests cortisol excess.",
+    "Nothing suggests phaeochromocytoma."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/08.jpg",
+     "lec": "Diabetes semiology",
+     "n": 8
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/10.jpg",
+     "lec": "Diabetes semiology",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "A previously dry 7-year-old starts wetting the bed, drinks a lot and is losing weight. Which bedside tests come first?",
+   "options": [
+    "Capillary glucose and a urine strip for glucose and ketones",
+    "Abdominal ultrasound",
+    "Thyroid scintigraphy",
+    "Bone age X-ray"
+   ],
+   "answer": 0,
+   "why": "New bedwetting means polyuria. With thirst and weight loss in a child, check capillary glucose and urine for glycosuria and ketones (type 1 diabetes, risk of ketoacidosis).",
+   "notes": [
+    "Confirms hyperglycaemia and looks for ketosis.",
+    "Imaging does not diagnose diabetes.",
+    "Scintigraphy explores thyroid nodules.",
+    "Bone age is for growth problems."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/10.jpg",
+     "lec": "Diabetes semiology",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "A newly diabetic patient has fruity breath, nausea and ketones in the urine, but is fully alert and breathing normally. What does this picture show?",
+   "options": [
+    "Signs of ketosis without signs of acidosis",
+    "Severe ketoacidosis",
+    "Hypoglycaemia",
+    "Hyperosmolar state"
+   ],
+   "answer": 0,
+   "why": "In mild ketoacidosis there are signs of ketosis (fruity breath, anorexia, nausea, vomiting); Kussmaul breathing and altered consciousness mark acidosis in moderate to severe forms.",
+   "notes": [
+    "Ketosis signs without Kussmaul breathing or drowsiness.",
+    "Severe forms bring Kussmaul breathing and drowsiness.",
+    "Hypoglycaemia does not give ketonuria and fruity breath.",
+    "The hyperosmolar state has no marked ketosis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/30.jpg",
+     "lec": "Diabetes semiology",
+     "n": 30
+    },
+    {
+     "src": "files/slides/semio-endo-diabetes/32.jpg",
+     "lec": "Diabetes semiology",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "A patient drinks about 5 litres a day and urinates a lot. Which simple test separates diabetes mellitus from other causes of polyuria?",
+   "options": [
+    "Blood glucose with a urine strip for glucose",
+    "Serum cortisol",
+    "Thyroid ultrasound",
+    "Chest X-ray"
+   ],
+   "answer": 0,
+   "why": "Diabetic polyuria comes from glycosuria (osmotic diuresis); a high glucose with glycosuria separates it from causes without hyperglycaemia.",
+   "notes": [
+    "Hyperglycaemia with glycosuria confirms diabetes mellitus.",
+    "Cortisol does not separate the causes.",
+    "Thyroid imaging is unrelated.",
+    "Chest X-ray is unrelated."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/09.jpg",
+     "lec": "Diabetes semiology",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "An asymptomatic person has a random plasma glucose of 2.1 g/L. Is diabetes diagnosed?",
+   "options": [
+    "Not on this alone: a random value counts with classic symptoms or a hyperglycaemic crisis",
+    "Yes, any value above 2 g/L is enough",
+    "No, random glucose is never used",
+    "Yes, if HbA1c is 5.5%"
+   ],
+   "answer": 0,
+   "why": "The random-glucose criterion (≥ 2 g/L, 200 mg/dL) applies in a patient with classic symptoms or a hyperglycaemic crisis; otherwise confirm with another criterion.",
+   "notes": [
+    "Without symptoms, confirm with another criterion.",
+    "The criterion needs classic symptoms or a crisis.",
+    "Random glucose is a criterion with symptoms.",
+    "A normal HbA1c would argue against diabetes."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/12.jpg",
+     "lec": "Diabetes semiology",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "A 45-year-old's blurred vision and tingling feet lead to two fasting glucose values of 1.40 g/L. What do the symptoms tell you?",
+   "options": [
+    "They are symptoms that can reveal diabetes",
+    "They rule out diabetes",
+    "They prove type 1 diabetes",
+    "They mean hypoglycaemia"
+   ],
+   "answer": 0,
+   "why": "Blurred vision and paresthesia are among the symptoms that can reveal diabetes; two fasting values ≥ 1.26 g/L confirm it.",
+   "notes": [
+    "Listed revealing symptoms.",
+    "Two high fasting values confirm diabetes.",
+    "The type is decided on other features.",
+    "Glucose is high, not low."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/08.jpg",
+     "lec": "Diabetes semiology",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Which statement about polyphagia in uncontrolled diabetes is correct?",
+   "options": [
+    "It compensates for the cells' 'fasting state' caused by lack of insulin",
+    "It causes the hyperglycaemia",
+    "It comes with weight gain",
+    "It is a sign of hypoglycaemia"
+   ],
+   "answer": 0,
+   "why": "Without insulin the cells are in a fasting state: lipolysis causes weight loss, and polyphagia appears as compensation.",
+   "notes": [
+    "Compensatory polyphagia.",
+    "Hyperglycaemia comes from lack of insulin, not from eating.",
+    "Weight is lost despite eating more.",
+    "This is hyperglycaemia, not hypoglycaemia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/semio-endo-diabetes/09.jpg",
+     "lec": "Diabetes semiology",
+     "n": 9
+    }
    ]
   }
  ],
