@@ -1463,7 +1463,7 @@
       var seenKey = "sina:seen:" + picked.slice().sort().join("+");
       if (store.get(seenKey, false)) pool = pool.map(shuffleQ); else store.set(seenKey, true);
       p.innerHTML = '<div class="quiz-top"><button class="btn small-btn" id="qback" type="button">' + (picked.length === 1 ? "+ Add more lectures" : "&larr; Change lectures") + '</button><span class="meta"' + (picked.length > 1 ? ' title="' + esc(picked.map(lectureTitle).join(", ")) + '"' : "") + ">" + esc(picked.length === 1 ? lectureTitle(picked[0]) : picked.length + " lectures mixed") + '</span></div><div id="quiz"></div>';
-      p.querySelector("#qback").addEventListener("click", function () { picker(); window.scrollTo(0, 0); });
+      p.querySelector("#qback").addEventListener("click", function () { lecDialog(exam); });
       (function () {
         var qt = p.querySelector(".quiz-top"), total = 0, sel = document.createElement("select");
         picked.forEach(function (id) { total += qsOf(id).length; });
@@ -1487,6 +1487,38 @@
       var set = { id: "mix:" + picked.slice().sort().join("+") + ":" + count + (midOnly && hasMid(picked) ? ":mid" : ""), mcqs: pool };
       if (exam) examIntro(p.querySelector("#quiz"), set, picker); else questionsPanel(p.querySelector("#quiz"), set);
       window.scrollTo(0, 0);
+    }
+    /* the subject's lectures in a pop-up over the quiz: tick more (or fewer) and restart with them */
+    function lecDialog(exam) {
+      var v = document.createElement("div"), h = "";
+      v.className = "rdlg"; v.setAttribute("role", "dialog"); v.setAttribute("aria-modal", "true"); v.setAttribute("aria-label", "Choose lectures");
+      s.groups.forEach(function (g, gi) {
+        var its = g.items.filter(function (it) { return S.lectures[it.id]; });
+        if (!its.length) return;
+        h += '<div class="pick-group" role="group" aria-label="' + esc(g.name) + '"><label class="pick-row pick-head"><input type="checkbox" class="gchk" data-g="' + gi + '"><span>' + esc(g.name) + '</span><span class="qn">' + its.length + " lecture" + (its.length > 1 ? "s" : "") + "</span></label>" +
+          its.map(function (it) { return '<label class="pick-row"><input type="checkbox" class="lchk" data-g="' + gi + '" value="' + it.id + '"' + (picked.indexOf(it.id) > -1 ? " checked" : "") + "><span>" + esc(it.title) + '</span><span class="qn">' + qsOf(it.id).length + "</span></label>"; }).join("") + "</div>";
+      });
+      v.innerHTML = '<div class="rdlg-box ldlg"><h2>Lectures</h2><p class="meta">Tick the lectures to practise together.</p><div class="ldlg-list">' + h + '</div>' +
+        '<div class="row ldlg-foot"><button class="btn primary" id="ld-go" type="button">Start</button><button class="btn" id="ld-x" type="button">Cancel</button><span class="meta" id="ld-n"></span></div></div>';
+      document.body.appendChild(v); document.body.classList.add("noscroll");
+      var boxes = v.querySelectorAll(".lchk"), sel = picked.slice();
+      function close() { v.remove(); document.body.classList.remove("noscroll"); }
+      function sync() {
+        sel = []; boxes.forEach(function (b) { if (b.checked) sel.push(b.value); });
+        v.querySelectorAll(".gchk").forEach(function (g) {
+          var mine = [].filter.call(boxes, function (b) { return b.dataset.g === g.dataset.g; }), on = mine.filter(function (b) { return b.checked; }).length;
+          g.checked = on === mine.length && on > 0; g.indeterminate = on > 0 && on < mine.length;
+        });
+        v.querySelector("#ld-n").textContent = sel.length ? sel.length + " lecture" + (sel.length > 1 ? "s" : "") + ", " + nQ(sel) + " questions" : "No lecture chosen";
+        v.querySelector("#ld-go").disabled = !sel.length;
+      }
+      boxes.forEach(function (b) { b.addEventListener("change", sync); });
+      v.querySelectorAll(".gchk").forEach(function (g) { g.addEventListener("change", function () { boxes.forEach(function (b) { if (b.dataset.g === g.dataset.g) b.checked = g.checked; }); sync(); }); });
+      v.querySelector("#ld-x").onclick = close;
+      v.addEventListener("click", function (e) { if (e.target === v) close(); });
+      v.querySelector("#ld-go").onclick = function () { picked = sel; close(); start(exam); };
+      sync();
+      var first = v.querySelector(".lchk:checked"); if (first) { var L = v.querySelector(".ldlg-list"); L.scrollTop = first.closest(".pick-row").offsetTop - L.offsetTop - 40; }
     }
     /* a link to one lecture (cram plan, Continue) starts that lecture's quiz right away; "Change lectures" goes back to the list */
     if (arg && arg !== "midterm" && S.lectures[arg] && picked.length === 1) start(false); else picker();

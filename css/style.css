@@ -1685,3 +1685,8 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .scope-note { font-size: .86rem; margin: 0 0 .9rem; }
 
 .qt-count { font: inherit; font-size: .85rem; padding: .35rem .5rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
+
+/* lecture pop-up over a running quiz */
+.ldlg { display: flex; flex-direction: column; padding-bottom: 0; }
+.ldlg-list { overflow: auto; margin: .4rem -.2rem 0; padding: 0 .2rem; }
+.ldlg-foot { position: sticky; bottom: 0; background: var(--surface); padding: .7rem 0 1rem; margin-top: .4rem; border-top: 1px solid var(--line); align-items: center; }
