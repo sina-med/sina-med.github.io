@@ -3,6 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "9 November 2026", items: [
+    "Added: question count menu at the top of each quiz (10 to All). With Midterm topics only, the count only uses midterm-topic questions.",
     "Added: 66 medium-level Semiology midterm questions (digestive exam, jaundice, constipation, GERD, GI bleeding, thyroid, and the midterm topics of pituitary, adrenal and diabetes), with option notes and slide highlights.",
     "Removed: 45 repeated questions in the Semiology midterm lectures (mostly GERD and GI bleeding).",
   ] },

@@ -1683,3 +1683,5 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .scope-box .chips { margin: 0 0 .5rem; }
 .scope-list { margin: 0; font-size: .86rem; color: var(--muted); line-height: 1.45; }
 .scope-note { font-size: .86rem; margin: 0 0 .9rem; }
+
+.qt-count { font: inherit; font-size: .85rem; padding: .35rem .5rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }

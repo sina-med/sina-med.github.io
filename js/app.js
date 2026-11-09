@@ -1464,6 +1464,18 @@
       if (store.get(seenKey, false)) pool = pool.map(shuffleQ); else store.set(seenKey, true);
       p.innerHTML = '<div class="quiz-top"><button class="btn small-btn" id="qback" type="button">' + (picked.length === 1 ? "+ Add more lectures" : "&larr; Change lectures") + '</button><span class="meta"' + (picked.length > 1 ? ' title="' + esc(picked.map(lectureTitle).join(", ")) + '"' : "") + ">" + esc(picked.length === 1 ? lectureTitle(picked[0]) : picked.length + " lectures mixed") + '</span></div><div id="quiz"></div>';
       p.querySelector("#qback").addEventListener("click", function () { picker(); window.scrollTo(0, 0); });
+      (function () {
+        var qt = p.querySelector(".quiz-top"), total = 0, sel = document.createElement("select");
+        picked.forEach(function (id) { total += qsOf(id).length; });
+        sel.className = "qt-count"; sel.setAttribute("aria-label", "Number of questions");
+        [10, 20, 40, 60, 100].filter(function (n) { return n < total; }).concat(["all"]).forEach(function (n) {
+          var o = document.createElement("option"); o.value = String(n); o.textContent = n === "all" ? "All " + total + " questions" : n + " questions";
+          if (String(n) === String(count) || (n === "all" && !(+count < total))) o.selected = true; sel.appendChild(o);
+        });
+        if (count !== "all" && +count < total && [10, 20, 40, 60, 100].indexOf(+count) < 0) { var o2 = document.createElement("option"); o2.value = count; o2.textContent = count + " questions"; o2.selected = true; sel.insertBefore(o2, sel.firstChild); }
+        sel.addEventListener("change", function () { count = sel.value; store.set("sina:qcount", count); start(exam); });
+        qt.insertBefore(sel, qt.querySelector(".meta"));
+      })();
       if (hasMid(picked) && Object.keys(S.midOff || {}).some(function (l) { return picked.indexOf(l) > -1; })) {
         var qt = p.querySelector(".quiz-top"), sb = document.createElement("button");
         sb.className = "btn small-btn"; sb.type = "button"; sb.id = "qscope"; sb.textContent = midOnly ? "Show the whole lecture" : "Midterm topics only";
