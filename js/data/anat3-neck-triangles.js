@@ -577,11 +577,17 @@ SINA.lectures["anat3-neck-triangles"] = {
    "options": [
     "The submental artery below the gland",
     "The mylohyoid nerve",
-    "The internal jugular vein",
+    "The accessory nerve",
     "The external carotid artery"
    ],
    "answer": 3,
-   "why": "In the posterior part lies the external carotid artery, ascending deep into the substance of the parotid gland. Beneath the gland, on the surface of mylohyoid, are the submental artery and the mylohyoid nerve and vessels."
+   "why": "In the posterior part lies the external carotid artery, ascending deep into the substance of the parotid gland. Beneath the gland, on the surface of mylohyoid, are the submental artery and the mylohyoid nerve and vessels (anterior part).",
+   "notes": [
+    "Submental artery lies in the anterior part, beneath the gland on mylohyoid.",
+    "Mylohyoid nerve and vessels lie in the anterior part, on mylohyoid.",
+    "The accessory nerve crosses the posterior (occipital) triangle, not the submandibular triangle.",
+    "Correct: the external carotid artery ascends into the parotid gland in the posterior part."
+   ]
   },
   {
    "q": "Which three forgotten triangles lie within the submandibular triangle?",

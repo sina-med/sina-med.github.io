@@ -658,7 +658,7 @@ SINA.lectures["anat3-diencephalon"] = {
    "why": "Every sensation except smell is filtered in the thalamus before reaching the cortex, so it controls what the cortex receives."
   },
   {
-   "q": "Which are the four parts of the diencephalon? (choose all)",
+   "q": "Which of these are parts of the diencephalon? (choose all)",
    "options": [
     "Epithalamus",
     "Subthalamus",
@@ -669,7 +669,13 @@ SINA.lectures["anat3-diencephalon"] = {
     0,
     1
    ],
-   "why": "Epithalamus, thalamus, subthalamus and hypothalamus."
+   "why": "The diencephalon has four parts: epithalamus, thalamus, subthalamus and hypothalamus (slide 4).",
+   "notes": [
+    "Correct: pineal gland, habenular nuclei, stria medullaris.",
+    "Correct: lies below the thalamus, lateral to the hypothalamus.",
+    "Part of the brainstem (metencephalon).",
+    "Part of the hindbrain, behind the brainstem."
+   ]
   },
   {
    "q": "Which functions belong to the thalamus? (choose all)",

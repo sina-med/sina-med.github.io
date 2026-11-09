@@ -6128,21 +6128,30 @@ SINA.lectures["parasito-nematodes"] = {
    ]
   },
   {
-   "q": "A rare surgical complication of ascariasis is:",
+   "q": "According to the lecture, which exceptional surgical complications of ascariasis are described?",
    "options": [
-    "Intestinal obstruction",
-    "Appendicitis only",
+    "Intestinal obstruction (occlusion)",
+    "Peritonitis",
     "Rectal prolapse",
-    "Liver abscess"
+    "Terminal haematuria"
    ],
-   "answer": 0,
-   "why": "Due to the worm's size and mobility.",
+   "why": "Slide 20: exceptional surgical complications related to the worm's size and mobility: occlusion and peritonitis.",
    "slides": [
     {
      "src": "files/slides/parasito-nematodes/20.jpg",
      "lec": "Intestinal nematodes: pinworm,",
      "n": 20
     }
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "notes": [
+    "Correct: a bolus of large, mobile worms can occlude the bowel.",
+    "Correct: listed on the slide alongside occlusion.",
+    "Rectal prolapse is a complication of heavy Trichuris (whipworm) infection.",
+    "Terminal haematuria is the key sign of urogenital schistosomiasis."
    ]
   },
   {

@@ -145,15 +145,21 @@ SINA.lectures["fa-renal"] = {
    "why": "Ischaemic and septic ATN."
   },
   {
-   "q": "Which drug is nephrotoxic?",
+   "q": "Which drug is listed in the lecture as nephrotoxic?",
    "options": [
-    "Aminoglycosides",
     "Paracetamol",
-    "Penicillin",
+    "Aminoglycosides",
+    "Levothyroxine",
     "Insulin"
    ],
-   "answer": 0,
-   "why": "Also amphotericin B, cyclosporine, tacrolimus, ACE inhibitors, NSAIDs, contrast."
+   "answer": 1,
+   "why": "Listed nephrotoxins: aminoglycosides, amphotericin B, ciclosporin, tacrolimus, ACE inhibitors, NSAIDs, contrast.",
+   "notes": [
+    "Not in the lecture's nephrotoxin list.",
+    "Classic nephrotoxin causing acute tubular necrosis.",
+    "Thyroid hormone replacement; not nephrotoxic.",
+    "Not nephrotoxic; the kidney degrades insulin."
+   ]
   },
   {
    "q": "What is the commonest cause of postrenal AKI?",

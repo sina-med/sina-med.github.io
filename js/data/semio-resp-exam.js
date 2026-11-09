@@ -173,15 +173,21 @@ SINA.lectures["semio-resp-exam"] = {
    "why": "Miosis, ptosis with apparent enophthalmos, and loss of sweating on the same side of the face."
   },
   {
-   "q": "What does the patient say to test tactile fremitus in English?",
+   "q": "According to the lecture, what does the patient say in English to test tactile fremitus?",
    "options": [
-    "Ninety-nine",
+    "Forty-four",
     "Toy boat",
     "Aah",
     "Thirty-three"
    ],
    "answer": 1,
-   "why": "Toy boat in English, 44 in Arabic, 33 in French, while the examiner feels the vibrations."
+   "why": "Toy boat in English, 44 in Arabic, 33 in French, while the examiner feels the vibrations.",
+   "notes": [
+    "The Arabic phrase, not the English one.",
+    "The English phrase given in the lecture.",
+    "Used to examine the throat, not fremitus.",
+    "The French phrase (trente-trois)."
+   ]
   },
   {
    "q": "When is tactile fremitus increased?",

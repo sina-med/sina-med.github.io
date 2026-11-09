@@ -132,19 +132,25 @@ SINA.lectures["semio-gi-exam"] = {
   {
    "q": "How many regions is the abdomen divided into?",
    "options": [
-    "Four",
+    "Six",
     "Nine",
     "Two",
     "Twelve"
    ],
    "answer": 1,
-   "why": "The abdomen is described in 9 quadrants (regions).",
+   "why": "The abdomen is described in 9 regions (slide 9): three rows of three, from the hypochondriac and epigastric regions down to the iliac and hypogastric regions.",
    "slides": [
     {
      "src": "files/slides/semio-gi-exam/09.jpg",
      "lec": "Digestive physical examination",
      "n": 9
     }
+   ],
+   "notes": [
+    "No standard scheme uses six regions.",
+    "The lecture divides the abdomen into 9 regions.",
+    "Too few.",
+    "Too many."
    ]
   },
   {
@@ -287,17 +293,23 @@ SINA.lectures["semio-gi-exam"] = {
    "options": [
     "Prone and flat",
     "Standing upright",
-    "Supine with legs up",
+    "Sitting on a chair",
     "Knee-chest or lateral"
    ],
    "answer": 3,
-   "why": "Chest-to-knee or lateral (Sims) position, with gloves and lubricant.",
+   "why": "Chest-to-knee or lateral (Sims) position, with gloves and lubricant (slide 18).",
    "slides": [
     {
      "src": "files/slides/semio-gi-exam/18.jpg",
      "lec": "Digestive physical examination",
      "n": 18
     }
+   ],
+   "notes": [
+    "Prone and flat is not used.",
+    "Standing is not used.",
+    "A seated patient cannot be examined rectally.",
+    "Knee-chest or lateral (Sims) position."
    ]
   },
   {

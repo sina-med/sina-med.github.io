@@ -695,7 +695,7 @@ SINA.lectures["anat3-descending-tracts"] = {
    "why": "Basal ganglia, cerebellum and brainstem nuclei including the reticular formation, red nucleus and vestibular nuclei. The pyramids and Betz cells are pyramidal."
   },
   {
-   "q": "Which neurotransmitters are excitatory in the basal ganglia? (choose all)",
+   "q": "According to the lecture, which neurotransmitters are excitatory in the basal ganglia? (choose all)",
    "options": [
     "Acetylcholine",
     "Glutamate",
@@ -706,7 +706,13 @@ SINA.lectures["anat3-descending-tracts"] = {
     0,
     1
    ],
-   "why": "Acetylcholine (cholinergic interneurons) and glutamate (subthalamic and cortical afferents) excite. GABA inhibits; the lecture describes dopamine's net effect in the striatum as inhibitory."
+   "why": "Acetylcholine (cholinergic interneurons of the striatum) and glutamate (subthalamic and cortical afferents) excite. GABA inhibits, and the lecture presents dopamine as the main inhibitory transmitter of the extrapyramidal system.",
+   "notes": [
+    "Excitatory: produced by cholinergic interneurons of the striatum (slide 52).",
+    "Excitatory: used by cortical and subthalamic projections.",
+    "Inhibitory: the main output transmitter of striatum and pallidum.",
+    "The lecture calls dopamine the main inhibitory transmitter of the extrapyramidal system (slide 51)."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",

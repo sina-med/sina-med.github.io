@@ -6621,7 +6621,7 @@ SINA.lectures["infect-prolonged-fever"] = {
    "why": "Thermometer manipulation or self-injected pyrogens."
   },
   {
-   "q": "A veterinarian with prolonged fever should be tested for:",
+   "q": "In the lecture's list of occupational exposures, a veterinarian with prolonged fever points to:",
    "options": [
     "Brucellosis",
     "Toxoplasmosis",
@@ -6629,7 +6629,13 @@ SINA.lectures["infect-prolonged-fever"] = {
     "Malaria"
    ],
    "answer": 0,
-   "why": "Also after unpasteurised dairy."
+   "why": "The lecture's occupation list pairs vet with brucellosis (Wright serology), sewer worker with leptospirosis and butcher with toxoplasmosis.",
+   "notes": [
+    "Correct: the exposure the lecture links to veterinarians (also unpasteurised dairy).",
+    "The lecture links toxoplasmosis to butchers.",
+    "The lecture links leptospirosis to sewer workers and rat-urine contact.",
+    "Malaria is linked to travel or origin in an endemic area, not to an occupation."
+   ]
   },
   {
    "q": "Fresh-water swimming points towards:",

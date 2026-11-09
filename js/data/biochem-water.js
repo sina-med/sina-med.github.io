@@ -201,13 +201,19 @@ SINA.lectures["biochem-water"] = {
   {
    "q": "What causes intracellular dehydration?",
    "options": [
-    "Diabetes insipidus",
     "Diarrhoea",
-    "Heat stroke",
-    "Heart failure"
+    "Heart failure",
+    "Diabetes insipidus",
+    "Excess ADH secretion"
    ],
-   "answer": 0,
-   "why": "Pure water loss (diabetes insipidus, intubation, head injury). Extracellular dehydration: isotonic losses (vomiting, diarrhoea, heat stroke)."
+   "answer": 2,
+   "why": "Intracellular dehydration = pure water deficit: intubation (respiratory loss), head injury (cannot satisfy thirst), diabetes insipidus (renal free-water loss) (slide 29).",
+   "notes": [
+    "Wrong: isotonic digestive loss, extracellular dehydration.",
+    "Wrong: sodium retention, extracellular hyperhydration (oedema).",
+    "Correct: ADH deficiency causes renal free-water loss.",
+    "Wrong: ADH excess retains free water, causing hyponatraemia and intracellular hyperhydration."
+   ]
   },
   {
    "q": "Which cause extracellular hyperhydration (oedema)? (choose all)",

@@ -938,7 +938,7 @@ SINA.lectures["fa-cardiac-arrest"] = {
    "why": "Mostly VF or pulseless VT; sometimes PEA or asystole."
   },
   {
-   "q": "What share of mortality is sudden cardiac death?",
+   "q": "What share of overall mortality in industrialised nations is sudden cardiac death?",
    "options": [
     "50 to 60 percent",
     "1 to 2 percent",
@@ -946,7 +946,13 @@ SINA.lectures["fa-cardiac-arrest"] = {
     "15 to 20 percent"
    ],
    "answer": 3,
-   "why": "It is also about 50 percent of cardiovascular deaths."
+   "why": "SCD is 15 to 20% of overall mortality and about 50% of cardiovascular deaths.",
+   "notes": [
+    "Wrong: close to its share of cardiovascular (not overall) deaths.",
+    "Wrong: far too low.",
+    "Wrong: far too high.",
+    "Correct: 15 to 20% of all deaths."
+   ]
   },
   {
    "q": "What is the commonest cause in the elderly?",
@@ -971,15 +977,21 @@ SINA.lectures["fa-cardiac-arrest"] = {
    "why": "Slow, irregular gasping means cardiac arrest."
   },
   {
-   "q": "How long should a pulse be checked?",
+   "q": "For a health professional, how long should a pulse check last in a suspected cardiac arrest?",
    "options": [
     "No more than 10 seconds",
     "30 seconds",
     "1 minute",
-    "It must not be checked"
+    "Until a pulse is definitely found"
    ],
    "answer": 0,
-   "why": "Presume arrest if no definite pulse."
+   "why": "Health professionals check the pulse for no more than 10 seconds; if no definite pulse, presume arrest and start CPR.",
+   "notes": [
+    "Correct per the lecture.",
+    "Wrong: too long; delays compressions.",
+    "Wrong: far too long; delays CPR.",
+    "Wrong: searching for a pulse delays CPR; if in doubt, start CPR."
+   ]
   },
   {
    "q": "What is the compression depth for an adult?",
@@ -4569,15 +4581,21 @@ SINA.lectures["fa-renal"] = {
    "why": "Ischaemic and septic ATN."
   },
   {
-   "q": "Which drug is nephrotoxic?",
+   "q": "Which drug is listed in the lecture as nephrotoxic?",
    "options": [
     "Paracetamol",
     "Aminoglycosides",
-    "Penicillin",
+    "Levothyroxine",
     "Insulin"
    ],
    "answer": 1,
-   "why": "Also amphotericin B, cyclosporine, tacrolimus, ACE inhibitors, NSAIDs, contrast."
+   "why": "Listed nephrotoxins: aminoglycosides, amphotericin B, ciclosporin, tacrolimus, ACE inhibitors, NSAIDs, contrast.",
+   "notes": [
+    "Not in the lecture's nephrotoxin list.",
+    "Classic nephrotoxin causing acute tubular necrosis.",
+    "Thyroid hormone replacement; not nephrotoxic.",
+    "Not nephrotoxic; the kidney degrades insulin."
+   ]
   },
   {
    "q": "What is the commonest cause of postrenal AKI?",
@@ -6308,15 +6326,21 @@ SINA.lectures["fa-immune"] = {
    "why": "No T or B lymphocytes."
   },
   {
-   "q": "Which prophylaxis is cited for HIV patients?",
+   "q": "Which prophylaxis does the lecture cite for HIV patients?",
    "options": [
     "Penicillin",
-    "Isoniazid",
+    "Omeprazole",
     "Cotrimoxazole",
     "Aciclovir"
    ],
    "answer": 2,
-   "why": "Part of infection prevention in secondary immunodeficiency."
+   "why": "Cotrimoxazole prophylaxis is cited as part of infection prevention in secondary immunodeficiency.",
+   "notes": [
+    "Not cited for HIV in the lecture.",
+    "An antacid, not an anti-infective prophylaxis.",
+    "Cited in the lecture for HIV prophylaxis.",
+    "Not cited in the lecture."
+   ]
   },
   {
    "q": "Atopy is:",
@@ -7132,15 +7156,21 @@ SINA.lectures["fa-digestive"] = {
    "why": "Amylase normalises in 3 to 5 days."
   },
   {
-   "q": "Amylase may be normal in pancreatitis caused by:",
+   "q": "According to the lecture, amylase may be normal in pancreatitis caused by:",
    "options": [
     "Hypertriglyceridaemia",
     "Trauma",
     "Gallstones",
-    "Alcohol"
+    "ERCP"
    ],
    "answer": 0,
-   "why": "A known limitation of amylase."
+   "why": "The lecture cites hypertriglyceridaemia as a cause of pancreatitis with normal amylase; lipase is more sensitive and specific.",
+   "notes": [
+    "Can mask the amylase rise; cited in the lecture.",
+    "Amylase usually rises.",
+    "Amylase usually rises markedly in gallstone pancreatitis.",
+    "Post-ERCP pancreatitis shows a raised amylase."
+   ]
   },
   {
    "q": "The commonest cause of drug-induced liver injury is:",

@@ -275,18 +275,25 @@ SINA.lectures["physio-renal-gfr"] = {
    "why": "The filtrate formed daily equals 50 to 60 times the body's blood volume."
   },
   {
-   "q": "What are the three layers of the filtration barrier? (choose all)",
+   "q": "Which are layers of the glomerular filtration barrier?",
    "options": [
     "Fenestrated endothelium",
     "Basement membrane",
-    "Proximal tubule wall",
+    "Podocyte filtration slits",
     "Renal capsule"
    ],
    "answers": [
     0,
-    1
+    1,
+    2
    ],
-   "why": "Fenestrated endothelium, basement membrane and the podocyte filtration slits."
+   "why": "The barrier has three layers: fenestrated endothelium, basement membrane and the filtration slits between podocyte pedicels.",
+   "notes": [
+    "70 to 90 nm pores; excludes blood cells.",
+    "Negatively charged proteoglycan gel; repels albumin, excludes molecules over 8 nm.",
+    "Slits between podocyte foot processes; the last layer before the capsular space.",
+    "The fibrous capsule around the kidney; not part of the filtration barrier."
+   ]
   },
   {
    "q": "Which forces oppose filtration? (choose all)",

@@ -982,9 +982,9 @@ SINA.lectures["semio-resp-exam"] = {
    ]
   },
   {
-   "q": "What does the patient say to test tactile fremitus in English?",
+   "q": "According to the lecture, what does the patient say in English to test tactile fremitus?",
    "options": [
-    "Ninety-nine",
+    "Forty-four",
     "Toy boat",
     "Aah",
     "Thirty-three"
@@ -997,6 +997,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 30
     }
+   ],
+   "notes": [
+    "The Arabic phrase, not the English one.",
+    "The English phrase given in the lecture.",
+    "Used to examine the throat, not fremitus.",
+    "The French phrase (trente-trois)."
    ]
   },
   {
@@ -4777,13 +4783,13 @@ SINA.lectures["semio-gi-exam"] = {
   {
    "q": "How many regions is the abdomen divided into?",
    "options": [
-    "Four",
+    "Six",
     "Nine",
     "Two",
     "Twelve"
    ],
    "answer": 1,
-   "why": "The abdomen is described in 9 quadrants (regions).",
+   "why": "The abdomen is described in 9 regions (slide 9): three rows of three, from the hypochondriac and epigastric regions down to the iliac and hypogastric regions.",
    "slides": [
     {
      "src": "files/slides/semio-gi-exam/09.jpg",
@@ -4792,8 +4798,8 @@ SINA.lectures["semio-gi-exam"] = {
     }
    ],
    "notes": [
-    "Four quadrants is a simpler scheme, not the one used here.",
-    "The abdomen is described in 9 regions.",
+    "No standard scheme uses six regions.",
+    "The lecture divides the abdomen into 9 regions.",
     "Too few.",
     "Too many."
    ]
@@ -4902,11 +4908,11 @@ SINA.lectures["semio-gi-exam"] = {
    "options": [
     "Prone and flat",
     "Standing upright",
-    "Supine with legs up",
+    "Sitting on a chair",
     "Knee-chest or lateral"
    ],
    "answer": 3,
-   "why": "Chest-to-knee or lateral (Sims) position, with gloves and lubricant.",
+   "why": "Chest-to-knee or lateral (Sims) position, with gloves and lubricant (slide 18).",
    "slides": [
     {
      "src": "files/slides/semio-gi-exam/18.jpg",
@@ -4917,7 +4923,7 @@ SINA.lectures["semio-gi-exam"] = {
    "notes": [
     "Prone and flat is not used.",
     "Standing is not used.",
-    "Supine with legs up is not the standard position.",
+    "A seated patient cannot be examined rectally.",
     "Knee-chest or lateral (Sims) position."
    ]
   },
@@ -8317,13 +8323,13 @@ SINA.lectures["semio-gi-constipation"] = {
   {
    "q": "Which hormone deficiency slows motility?",
    "options": [
-    "Insulin",
+    "Prolactin",
     "Thyroid hormone",
     "Growth hormone",
     "Oxytocin"
    ],
    "answer": 1,
-   "why": "Hypothyroidism is an endocrine cause of constipation.",
+   "why": "Hypothyroidism is an endocrine cause of constipation (slide 26).",
    "slides": [
     {
      "src": "files/slides/semio-gi-constipation/10.jpg",
@@ -8337,22 +8343,22 @@ SINA.lectures["semio-gi-constipation"] = {
     }
    ],
    "notes": [
-    "Insulin deficiency is not the cause listed.",
+    "Prolactin deficiency is not a cause of constipation.",
     "Hypothyroidism slows gut motility.",
     "GH is not listed.",
     "Oxytocin is not listed."
    ]
   },
   {
-   "q": "What do absent bowel sounds suggest?",
+   "q": "In a constipated patient, what do absent bowel sounds suggest?",
    "options": [
     "An ileus",
-    "An obstruction",
+    "Faecal loading",
     "Normal bowel",
     "Diarrhoea"
    ],
    "answer": 0,
-   "why": "Absent sounds: ileus. Hyperactive sounds: obstruction.",
+   "why": "Absent sounds: ileus. Hyperactive sounds: obstruction. Faecal loading is suggested by dullness on percussion (slide 15).",
    "slides": [
     {
      "src": "files/slides/semio-gi-constipation/15.jpg",
@@ -8362,7 +8368,7 @@ SINA.lectures["semio-gi-constipation"] = {
    ],
    "notes": [
     "Absent sounds suggest an ileus.",
-    "Obstruction gives hyperactive sounds.",
+    "Faecal loading is found as dullness on percussion, not by silence.",
     "Normal bowel has sounds.",
     "Diarrhoea gives active sounds."
    ]
@@ -12626,7 +12632,7 @@ SINA.lectures["semio-endo-thyroid"] = {
    ]
   },
   {
-   "q": "What is TSH in hyperthyroidism?",
+   "q": "What is TSH in primary hyperthyroidism (for example Graves' disease)?",
    "options": [
     "Raised",
     "Normal",
@@ -12634,7 +12640,7 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Variable"
    ],
    "answer": 2,
-   "why": "TSH is suppressed; free T4 and/or T3 are raised.",
+   "why": "In primary hyperthyroidism TSH is suppressed and free T4 and/or T3 are raised (slide 20). Only the rare TSH-secreting pituitary adenoma gives a normal or high TSH.",
    "slides": [
     {
      "src": "files/slides/semio-endo-thyroid/20.jpg",
@@ -12643,7 +12649,7 @@ SINA.lectures["semio-endo-thyroid"] = {
     }
    ],
    "notes": [
-    "TSH rises in primary hypothyroidism, not hyperthyroidism.",
+    "A raised TSH fits primary hypothyroidism or a TSH-secreting adenoma, not primary hyperthyroidism.",
     "A normal TSH argues against primary hyperthyroidism.",
     "High FT4/FT3 switch off pituitary TSH.",
     "TSH is consistently low in primary hyperthyroidism."
@@ -12851,11 +12857,11 @@ SINA.lectures["semio-endo-thyroid"] = {
    "options": [
     "Hypocholesterolaemia",
     "Hypernatraemia",
-    "Microcytic anaemia",
+    "Polycythaemia",
     "Hypercholesterolaemia"
    ],
    "answer": 3,
-   "why": "Macrocytic anaemia, dilutional hyponatraemia, hypercholesterolaemia, hyperprolactinaemia.",
+   "why": "Organ-damage tests in hypothyroidism: macrocytic anaemia, dilutional hyponatraemia, hypercholesterolaemia, hyperprolactinaemia (slide 40).",
    "slides": [
     {
      "src": "files/slides/semio-endo-thyroid/40.jpg",
@@ -12866,7 +12872,7 @@ SINA.lectures["semio-endo-thyroid"] = {
    "notes": [
     "Cholesterol rises, not falls, in hypothyroidism.",
     "Sodium falls (dilutional hyponatraemia).",
-    "The anaemia of hypothyroidism is macrocytic.",
+    "Hypothyroidism gives anaemia, not polycythaemia.",
     "Slowed lipid metabolism raises cholesterol."
    ]
   },
@@ -18976,17 +18982,23 @@ SINA.lectures["semio-gi-diarrhoea"] = {
    "options": [
     "Insulin",
     "Paracetamol",
-    "Omeprazole",
+    "Loperamide",
     "Colchicine"
    ],
    "answer": 3,
-   "why": "Also digitalis.",
+   "why": "Drugs causing secretory diarrhoea: colchicine and digitalis (slide 19).",
    "slides": [
     {
      "src": "files/slides/semio-gi-diarrhoea/19.jpg",
      "lec": "Diarrhoea",
      "n": 19
     }
+   ],
+   "notes": [
+    "Insulin does not cause secretory diarrhoea.",
+    "Paracetamol does not cause diarrhoea.",
+    "Loperamide slows transit and treats diarrhoea.",
+    "Colchicine causes secretory diarrhoea."
    ]
   },
   {
@@ -22464,7 +22476,7 @@ SINA.lectures["semio-gi-bleeding"] = {
    ]
   },
   {
-   "q": "Which feature distinguishes haemoptysis from haematemesis?",
+   "q": "Which feature points to haemoptysis rather than haematemesis?",
    "options": [
     "Black blood mixed with food",
     "Preceding nausea and retching",
@@ -22472,7 +22484,7 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Clots mixed with food debris"
    ],
    "answer": 2,
-   "why": "Haematemesis follows nausea and may contain food.",
+   "why": "Haemoptysis is frothy blood preceded by coughing; haematemesis is red or black blood, sometimes with food debris or clots, often preceded by nausea and retching (slide 06).",
    "slides": [
     {
      "src": "files/slides/semio-gi-bleeding/06.jpg",
@@ -22481,10 +22493,10 @@ SINA.lectures["semio-gi-bleeding"] = {
     }
    ],
    "notes": [
-    "Black blood with food is haematemesis.",
+    "Black blood with food points to haematemesis.",
     "Nausea and retching come before haematemesis.",
     "Frothy blood after coughing is haemoptysis.",
-    "Clots with food are haematemesis."
+    "Clots with food debris point to haematemesis."
    ]
   },
   {
@@ -25126,7 +25138,7 @@ SINA.lectures["semio-endo-pituitary"] = {
    "q": "Regarding the diagnosis of Cushing disease:",
    "options": [
     "High cortisol with inadequate dexamethasone suppression defines hypercortisolism",
-    "Hypercortisolism with non-suppressed ACTH means Cushing disease",
+    "Hypercortisolism with a non-suppressed ACTH points to an ACTH-dependent cause such as Cushing disease",
     "Pituitary MRI usually shows a macroadenoma compressing the chiasm",
     "Normal suppression after dexamethasone confirms the disease"
    ],
@@ -25134,10 +25146,10 @@ SINA.lectures["semio-endo-pituitary"] = {
     0,
     1
    ],
-   "why": "Slide: high cortisol + inadequate suppression in DXM test = hypercortisolism; hypercortisolism + inadequate ACTH = Cushing disease; MRI usually shows an ACTH-secreting microadenoma.",
+   "why": "Slide 14: high cortisol + inadequate suppression in the DXM test = hypercortisolism; with an ACTH that is not suppressed, the cause is ACTH-dependent, and in Cushing disease pituitary MRI usually shows an ACTH-secreting microadenoma. Ectopic ACTH also gives a non-suppressed ACTH (adrenal lecture).",
    "notes": [
-    "Stated on the slide.",
-    "Stated: 'inadequate ACTH' = not suppressed despite high cortisol.",
+    "Stated on slide 14.",
+    "A non-suppressed ACTH means an ACTH-dependent cause: Cushing disease or ectopic ACTH.",
     "MRI usually shows a microadenoma.",
     "Inadequate, not normal, suppression points to hypercortisolism."
    ],

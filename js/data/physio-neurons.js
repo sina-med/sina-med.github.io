@@ -573,18 +573,25 @@ SINA.lectures["physio-neurons"] = {
    "why": "Negative proteins inside, moderate K+ inside and high Na+ outside give about -70 mV. Voltage-gated Na+ channels are closed at rest."
   },
   {
-   "q": "Which stimuli can activate neurons? (choose all)",
+   "q": "Which types of stimuli does the lecture list as activating neurons? (choose all)",
    "options": [
     "Mechanical",
     "Chemical",
     "Gravitational pull",
-    "Magnetic fields"
+    "Electrical"
    ],
    "answers": [
     0,
-    1
+    1,
+    3
    ],
-   "why": "Mechanical (touch, vibration), electrical (voltage change) and chemical (taste, smell, ligands) stimuli."
+   "why": "Slide 30: neurons are excitable and are activated by mechanical (touch, vibration, movement), electrical (ion, voltage changes) and chemical (taste, smell, ligands from other cells) stimuli.",
+   "notes": [
+    "Listed: touch, vibration, movement.",
+    "Listed: taste, smell, ligands from other cells.",
+    "Not one of the lecture's stimulus types.",
+    "Listed: ion and voltage changes."
+   ]
   },
   {
    "q": "Which are properties of an action potential? (choose all)",

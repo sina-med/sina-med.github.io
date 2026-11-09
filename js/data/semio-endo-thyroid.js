@@ -95,7 +95,7 @@ SINA.lectures["semio-endo-thyroid"] = {
    ]
   },
   {
-   "q": "What is TSH in hyperthyroidism?",
+   "q": "What is TSH in primary hyperthyroidism (for example Graves' disease)?",
    "options": [
     "Raised",
     "Normal",
@@ -103,13 +103,19 @@ SINA.lectures["semio-endo-thyroid"] = {
     "Variable"
    ],
    "answer": 2,
-   "why": "TSH is suppressed; free T4 and/or T3 are raised.",
+   "why": "In primary hyperthyroidism TSH is suppressed and free T4 and/or T3 are raised (slide 20). Only the rare TSH-secreting pituitary adenoma gives a normal or high TSH.",
    "slides": [
     {
      "src": "files/slides/semio-endo-thyroid/20.jpg",
      "lec": "Thyroid semiology",
      "n": 20
     }
+   ],
+   "notes": [
+    "A raised TSH fits primary hypothyroidism or a TSH-secreting adenoma, not primary hyperthyroidism.",
+    "A normal TSH argues against primary hyperthyroidism.",
+    "High FT4/FT3 switch off pituitary TSH.",
+    "TSH is consistently low in primary hyperthyroidism."
    ]
   },
   {
@@ -293,17 +299,23 @@ SINA.lectures["semio-endo-thyroid"] = {
    "options": [
     "Hypocholesterolaemia",
     "Hypernatraemia",
-    "Microcytic anaemia",
+    "Polycythaemia",
     "Hypercholesterolaemia"
    ],
    "answer": 3,
-   "why": "Macrocytic anaemia, dilutional hyponatraemia, hypercholesterolaemia, hyperprolactinaemia.",
+   "why": "Organ-damage tests in hypothyroidism: macrocytic anaemia, dilutional hyponatraemia, hypercholesterolaemia, hyperprolactinaemia (slide 40).",
    "slides": [
     {
      "src": "files/slides/semio-endo-thyroid/40.jpg",
      "lec": "Thyroid semiology",
      "n": 40
     }
+   ],
+   "notes": [
+    "Cholesterol rises, not falls, in hypothyroidism.",
+    "Sodium falls (dilutional hyponatraemia).",
+    "Hypothyroidism gives anaemia, not polycythaemia.",
+    "Slowed lipid metabolism raises cholesterol."
    ]
   },
   {

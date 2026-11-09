@@ -606,7 +606,7 @@ SINA.lectures["anat3-eyeball-1"] = {
    "why": "The lens is a biconvex structure of great elasticity, lost with age as the lens hardens. Its three components are the capsule, the subcapsular epithelium (only on the anterior surface) and the lens fibres, filled with crystallins."
   },
   {
-   "q": "How much of the posterior segment does the vitreous body fill?",
+   "q": "According to the lecture, how much of the posterior segment does the vitreous body fill?",
    "options": [
     "About 80 percent",
     "About 20 percent",
@@ -614,7 +614,13 @@ SINA.lectures["anat3-eyeball-1"] = {
     "All of it, 100 percent"
    ],
    "answer": 0,
-   "why": "The vitreous body is a jelly-like substance filling up 80 percent of the posterior segment of the eyeball. It transmits light and holds the retina and lens in place."
+   "why": "The lecture describes the vitreous body as a jelly-like substance filling up 80 percent of the posterior segment (vitreous chamber). It transmits light and holds the retina and lens in place.",
+   "notes": [
+    "Correct: the figure given on the lecture slide.",
+    "Wrong: far too small for the vitreous body.",
+    "Wrong: not the lecture's figure.",
+    "Wrong per the lecture, which gives 80 percent."
+   ]
   },
   {
    "q": "What is the optic disc, and why is it called the blind spot?",

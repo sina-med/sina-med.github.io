@@ -743,12 +743,18 @@ SINA.lectures["pathanat-onco-intro"] = {
    "q": "N3 in TNM means:",
    "options": [
     "No nodes",
-    "Metastases",
-    "Distant nodes",
+    "Distant metastases",
+    "Extensive regional lymph node involvement",
     "A few regional nodes"
    ],
    "answer": 2,
-   "why": "N0 none, N1 few regional, N2 many regional, N3 distant nodes."
+   "why": "N describes regional lymph nodes only: N0 none, N1 few, N2 more, N3 the most extensive regional involvement. Distant spread (including distant nodes) is coded M1.",
+   "notes": [
+    "That is N0.",
+    "Distant metastases are coded by M (M1), not N.",
+    "N3 = the most extensive regional nodal involvement.",
+    "That is N1."
+   ]
   },
   {
    "q": "TNM staging is less applicable to:",

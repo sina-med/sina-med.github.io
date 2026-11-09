@@ -490,7 +490,7 @@ SINA.lectures["semio-gi-bleeding"] = {
    ]
   },
   {
-   "q": "Which feature distinguishes haemoptysis from haematemesis?",
+   "q": "Which feature points to haemoptysis rather than haematemesis?",
    "options": [
     "Black blood mixed with food",
     "Preceding nausea and retching",
@@ -498,13 +498,19 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Clots mixed with food debris"
    ],
    "answer": 2,
-   "why": "Haematemesis follows nausea and may contain food.",
+   "why": "Haemoptysis is frothy blood preceded by coughing; haematemesis is red or black blood, sometimes with food debris or clots, often preceded by nausea and retching (slide 06).",
    "slides": [
     {
      "src": "files/slides/semio-gi-bleeding/06.jpg",
      "lec": "Gastrointestinal bleeding",
      "n": 6
     }
+   ],
+   "notes": [
+    "Black blood with food points to haematemesis.",
+    "Nausea and retching come before haematemesis.",
+    "Frothy blood after coughing is haemoptysis.",
+    "Clots with food debris point to haematemesis."
    ]
   },
   {

@@ -2809,7 +2809,7 @@ SINA.lectures["pharma-vigilance"] = {
    ]
   },
   {
-   "q": "A serious unexpected ADR must be reported within:",
+   "q": "A serious unexpected ADR that is neither fatal nor life-threatening must be reported within:",
    "options": [
     "15 days",
     "1 year",
@@ -2817,13 +2817,19 @@ SINA.lectures["pharma-vigilance"] = {
     "7 days"
    ],
    "answer": 0,
-   "why": "Fatal or life-threatening unexpected ADRs: 7 calendar days.",
+   "why": "Expedited reporting: serious unexpected ADRs within 15 days; those that are fatal or life-threatening within 7 calendar days.",
    "slides": [
     {
      "src": "files/slides/pharma-vigilance/12.jpg",
      "lec": "Pharmacovigilance",
      "n": 12
     }
+   ],
+   "notes": [
+    "Correct: the expedited deadline for a serious unexpected ADR.",
+    "Far too long; serious ADRs are reported on an expedited basis.",
+    "No 24-hour deadline is used in the lecture.",
+    "That deadline applies only to fatal or life-threatening unexpected ADRs."
    ]
   },
   {

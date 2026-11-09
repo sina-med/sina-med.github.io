@@ -509,7 +509,7 @@ SINA.lectures["physio-myotatic"] = {
    "why": "Muscle spindles consist of four to eight specialised intrafusal fibres."
   },
   {
-   "q": "Which spindle endings signal static limb position?",
+   "q": "Which spindle endings signal only static limb position (length), not the velocity of movement?",
    "options": [
     "Secondary (group II) endings",
     "Primary (group Ia) endings",
@@ -517,7 +517,13 @@ SINA.lectures["physio-myotatic"] = {
     "Free nerve endings"
    ],
    "answer": 0,
-   "why": "Primary endings signal the velocity and direction of movement; secondary endings signal static position."
+   "why": "Secondary (group II) endings, mainly on nuclear chain fibres, signal length only, i.e. static position. Primary (Ia) endings signal both length and the velocity and direction of movement.",
+   "notes": [
+    "Correct: group II endings signal length only (static position).",
+    "Ia endings signal length and speed, so they are not static-only.",
+    "Golgi tendon organs signal tension, not length (group Ib).",
+    "Free nerve endings are mainly nociceptors and thermoreceptors."
+   ]
   },
   {
    "q": "How is the spindle arranged relative to the muscle?",
@@ -663,7 +669,7 @@ SINA.lectures["physio-myotatic"] = {
   {
    "q": "Which are polysynaptic reflexes? (choose all)",
    "options": [
-    "Tendon reflex",
+    "Golgi tendon organ reflex (inverse myotatic)",
     "Crossed extensor reflex",
     "Myotatic reflex",
     "Patellar reflex"
@@ -672,7 +678,13 @@ SINA.lectures["physio-myotatic"] = {
     0,
     1
    ],
-   "why": "The tendon, flexor (withdrawal) and crossed extensor reflexes are polysynaptic. The myotatic and patellar reflexes are monosynaptic."
+   "why": "The Golgi tendon organ reflex, the flexor (withdrawal) reflex and the crossed extensor reflex are polysynaptic. The myotatic (stretch) reflex, such as the patellar knee jerk, is monosynaptic.",
+   "notes": [
+    "Polysynaptic: Ib afferents act through interneurons; the muscle relaxes and the antagonist contracts.",
+    "Polysynaptic: interneurons cross the cord so the opposite leg extends to bear weight.",
+    "Monosynaptic: Ia afferent synapses directly on the alpha motor neuron.",
+    "Monosynaptic: it is a myotatic (deep tendon) reflex, centre L2 to L4."
+   ]
   },
   {
    "q": "Which part of the reflex arc is at the arrow?",

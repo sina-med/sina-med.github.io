@@ -6729,7 +6729,7 @@ SINA.lectures["anat3-eyeball-1"] = {
    ]
   },
   {
-   "q": "How much of the posterior segment does the vitreous body fill?",
+   "q": "According to the lecture, how much of the posterior segment does the vitreous body fill?",
    "options": [
     "About 80 percent",
     "About 20 percent",
@@ -6737,13 +6737,19 @@ SINA.lectures["anat3-eyeball-1"] = {
     "All of it, 100 percent"
    ],
    "answer": 0,
-   "why": "The vitreous body is a jelly-like substance filling up 80 percent of the posterior segment of the eyeball. It transmits light and holds the retina and lens in place.",
+   "why": "The lecture describes the vitreous body as a jelly-like substance filling up 80 percent of the posterior segment (vitreous chamber). It transmits light and holds the retina and lens in place.",
    "slides": [
     {
      "src": "files/slides/anat3-eyeball-1/32.jpg",
      "lec": "Anatomy of the eyeball I",
      "n": 32
     }
+   ],
+   "notes": [
+    "Correct: the figure given on the lecture slide.",
+    "Wrong: far too small for the vitreous body.",
+    "Wrong: not the lecture's figure.",
+    "Wrong per the lecture, which gives 80 percent."
    ]
   },
   {
@@ -8840,7 +8846,7 @@ SINA.lectures["anat3-eye-innervation"] = {
    ]
   },
   {
-   "q": "The first order neuron of the visual pathway is which cell?",
+   "q": "According to the lecture, the first order neuron of the visual pathway is which cell?",
    "options": [
     "The bipolar cell",
     "The ganglion cell",
@@ -8848,13 +8854,19 @@ SINA.lectures["anat3-eye-innervation"] = {
     "The cone or rod photoreceptor"
    ],
    "answer": 3,
-   "why": "First order: cone and rod photoreceptors. Second order: bipolar cells, whose axons form the optic nerve after the ganglion cells. Third order: the neuron from the lateral geniculate body to the cerebral cortex.",
+   "why": "In the lecture's scheme: first order, cone and rod photoreceptors; second order, bipolar cells leading to the ganglion cells, whose axons form the optic nerve; third order, the neuron from the lateral geniculate body to the visual cortex.",
    "slides": [
     {
      "src": "files/slides/anat3-eye-innervation/03.jpg",
      "lec": "Motor and sensory innervation of the",
      "n": 3
     }
+   ],
+   "notes": [
+    "Wrong (in the lecture's scheme): the bipolar cell is the second order neuron.",
+    "Wrong: ganglion cell axons form the optic nerve; not first order.",
+    "Wrong: the lateral geniculate neuron projects to the cortex (third order in the lecture).",
+    "Correct: the lecture names the cone and rod photoreceptors as first order."
    ]
   },
   {
@@ -17215,7 +17227,7 @@ SINA.lectures["anat3-pharynx"] = {
    "options": [
     "Ascending pharyngeal artery",
     "Ascending palatine artery",
-    "Superior thyroid artery",
+    "Superficial temporal artery",
     "Occipital artery"
    ],
    "answers": [
@@ -17229,6 +17241,12 @@ SINA.lectures["anat3-pharynx"] = {
      "lec": "Anatomy of the pharynx",
      "n": 35
     }
+   ],
+   "notes": [
+    "Correct: from the external carotid, the main supply of the pharynx.",
+    "Correct: a branch of the facial artery in the neck.",
+    "Wrong: a terminal branch of the external carotid supplying the scalp and temple.",
+    "Wrong: supplies the back of the scalp, not the pharynx."
    ]
   },
   {
@@ -19609,17 +19627,23 @@ SINA.lectures["anat3-neck-triangles"] = {
    "options": [
     "The submental artery below the gland",
     "The mylohyoid nerve",
-    "The internal jugular vein",
+    "The accessory nerve",
     "The external carotid artery"
    ],
    "answer": 3,
-   "why": "In the posterior part lies the external carotid artery, ascending deep into the substance of the parotid gland. Beneath the gland, on the surface of mylohyoid, are the submental artery and the mylohyoid nerve and vessels.",
+   "why": "In the posterior part lies the external carotid artery, ascending deep into the substance of the parotid gland. Beneath the gland, on the surface of mylohyoid, are the submental artery and the mylohyoid nerve and vessels (anterior part).",
    "slides": [
     {
      "src": "files/slides/anat3-neck-triangles/02.jpg",
      "lec": "The forgotten triangles of the neck",
      "n": 2
     }
+   ],
+   "notes": [
+    "Submental artery lies in the anterior part, beneath the gland on mylohyoid.",
+    "Mylohyoid nerve and vessels lie in the anterior part, on mylohyoid.",
+    "The accessory nerve crosses the posterior (occipital) triangle, not the submandibular triangle.",
+    "Correct: the external carotid artery ascends into the parotid gland in the posterior part."
    ]
   },
   {
@@ -27940,7 +27964,7 @@ SINA.lectures["anat3-diencephalon"] = {
    ]
   },
   {
-   "q": "Which are the four parts of the diencephalon? (choose all)",
+   "q": "Which of these are parts of the diencephalon? (choose all)",
    "options": [
     "Epithalamus",
     "Subthalamus",
@@ -27951,13 +27975,19 @@ SINA.lectures["anat3-diencephalon"] = {
     0,
     1
    ],
-   "why": "Epithalamus, thalamus, subthalamus and hypothalamus.",
+   "why": "The diencephalon has four parts: epithalamus, thalamus, subthalamus and hypothalamus (slide 4).",
    "slides": [
     {
      "src": "files/slides/anat3-diencephalon/04.jpg",
      "lec": "Anatomy of the diencephalon",
      "n": 4
     }
+   ],
+   "notes": [
+    "Correct: pineal gland, habenular nuclei, stria medullaris.",
+    "Correct: lies below the thalamus, lateral to the hypothalamus.",
+    "Part of the brainstem (metencephalon).",
+    "Part of the hindbrain, behind the brainstem."
    ]
   },
   {
@@ -29269,7 +29299,7 @@ SINA.lectures["anat3-descending-tracts"] = {
    ]
   },
   {
-   "q": "Which neurotransmitters are excitatory in the basal ganglia? (choose all)",
+   "q": "According to the lecture, which neurotransmitters are excitatory in the basal ganglia? (choose all)",
    "options": [
     "Acetylcholine",
     "Glutamate",
@@ -29280,13 +29310,19 @@ SINA.lectures["anat3-descending-tracts"] = {
     0,
     1
    ],
-   "why": "Acetylcholine (cholinergic interneurons) and glutamate (subthalamic and cortical afferents) excite. GABA inhibits; the lecture describes dopamine's net effect in the striatum as inhibitory.",
+   "why": "Acetylcholine (cholinergic interneurons of the striatum) and glutamate (subthalamic and cortical afferents) excite. GABA inhibits, and the lecture presents dopamine as the main inhibitory transmitter of the extrapyramidal system.",
    "slides": [
     {
      "src": "files/slides/anat3-descending-tracts/52.jpg",
      "lec": "Functional anatomy: the descending",
      "n": 52
     }
+   ],
+   "notes": [
+    "Excitatory: produced by cholinergic interneurons of the striatum (slide 52).",
+    "Excitatory: used by cortical and subthalamic projections.",
+    "Inhibitory: the main output transmitter of striatum and pallidum.",
+    "The lecture calls dopamine the main inhibitory transmitter of the extrapyramidal system (slide 51)."
    ]
   },
   {

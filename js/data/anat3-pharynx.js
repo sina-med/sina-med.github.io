@@ -730,14 +730,20 @@ SINA.lectures["anat3-pharynx"] = {
    "options": [
     "Ascending pharyngeal artery",
     "Ascending palatine artery",
-    "Superior thyroid artery",
+    "Superficial temporal artery",
     "Occipital artery"
    ],
    "answers": [
     0,
     1
    ],
-   "why": "The pharynx is supplied by the ascending pharyngeal artery (external carotid), the ascending palatine and tonsillar arteries (facial), the greater palatine and pharyngeal arteries (maxillary) and the lingual artery."
+   "why": "The pharynx is supplied by the ascending pharyngeal artery (external carotid), the ascending palatine and tonsillar arteries (facial), the greater palatine and pharyngeal arteries (maxillary) and the lingual artery.",
+   "notes": [
+    "Correct: from the external carotid, the main supply of the pharynx.",
+    "Correct: a branch of the facial artery in the neck.",
+    "Wrong: a terminal branch of the external carotid supplying the scalp and temple.",
+    "Wrong: supplies the back of the scalp, not the pharynx."
+   ]
   },
   {
    "q": "What happens in the second stage of deglutition? (choose all)",

@@ -210,18 +210,24 @@ SINA.lectures["biochem-iron"] = {
    "why": "TS over 45 percent with raised ferritin; HFE gene testing confirms."
   },
   {
-   "q": "Which are signs of primary haemochromatosis? (choose all)",
+   "q": "Which are signs of primary haemochromatosis?",
    "options": [
     "Melanoderma",
     "Diabetes",
     "Microcytic anaemia",
-    "Hypothyroidism"
+    "Pale skin"
    ],
    "answers": [
     0,
     1
    ],
-   "why": "Melanoderma, hepatomegaly to cirrhosis, diabetes, pituitary hypogonadism, heart disease, joint disease."
+   "why": "Slide 29: melanoderma, hepatomegaly to cirrhosis, diabetes, pituitary hypogonadism, cardiac and bone/joint signs.",
+   "notes": [
+    "Correct: iron and melanin deposits darken the skin.",
+    "Correct: pancreatic iron overload causes diabetes.",
+    "Wrong: microcytic anaemia is iron deficiency, not overload.",
+    "Wrong: the skin is darkened (melanoderma), not pale."
+   ]
   }
  ],
  "cards": [

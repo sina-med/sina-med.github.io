@@ -628,13 +628,20 @@ SINA.lectures["physio-pain"] = {
     "Transduction",
     "Transmission",
     "Adaptation",
-    "Myelination"
+    "Modulation"
    ],
    "answers": [
     0,
-    1
+    1,
+    3
    ],
-   "why": "Transduction, transmission and modulation."
+   "why": "Pain physiology has three components: transduction, transmission and modulation (slide 15).",
+   "notes": [
+    "Correct: a noxious stimulus is converted into electrical activity at the nociceptor.",
+    "Correct: the signal is conducted from the periphery to the cord, brainstem and brain.",
+    "Not a component; pain receptors adapt very little.",
+    "Correct: descending pathways and interneurons alter pain signals."
+   ]
   },
   {
    "q": "Which stimuli cause visceral pain? (choose all)",

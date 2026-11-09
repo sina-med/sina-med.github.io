@@ -359,15 +359,21 @@ SINA.lectures["pathanat-cell-death"] = {
    "why": "BCL-2 is anti-apoptotic; its overexpression prevents Bax/Bak release and cell death."
   },
   {
-   "q": "p53 acts at which cell-cycle checkpoint?",
+   "q": "According to the lecture, p53 arrests the cell cycle at which checkpoint?",
    "options": [
     "M/G1",
-    "G2/M",
+    "G0/G1",
     "G1/S",
     "S/G2"
    ],
    "answer": 2,
-   "why": "p53 arrests the cycle at G1/S to allow DNA repair, and triggers apoptosis via Bax if repair fails."
+   "why": "Slide 43: p53 regulates the cycle at the G1/S checkpoint, allowing time for DNA repair, and activates Bax if repair fails.",
+   "notes": [
+    "Not the checkpoint cited for p53.",
+    "Quiescence exit, not the p53 checkpoint in the lecture.",
+    "The checkpoint where p53 arrests the cycle per the lecture.",
+    "Not a checkpoint cited for p53."
+   ]
   },
   {
    "q": "In necrosis the cytoplasm becomes more eosinophilic because:",

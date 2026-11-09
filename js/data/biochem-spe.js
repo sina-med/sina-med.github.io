@@ -193,9 +193,9 @@ SINA.lectures["biochem-spe"] = {
    "why": "Anti-G, A, M, kappa and lambda antibodies type the immunoglobulin."
   },
   {
-   "q": "Which fractions rise in nephrotic syndrome? (choose all)",
+   "q": "Which changes are seen on the SPE in nephrotic syndrome?",
    "options": [
-    "Alpha-2 (macroglobulin)",
+    "Alpha-2 rises (alpha-2 macroglobulin)",
     "Albumin falls",
     "Gamma rises",
     "Albumin rises"
@@ -204,7 +204,13 @@ SINA.lectures["biochem-spe"] = {
     0,
     1
    ],
-   "why": "Albumin is lost in urine while alpha-2 macroglobulin rises."
+   "why": "Albumin is lost in urine through the damaged glomerulus, while alpha-2 macroglobulin rises (slides 22, 24).",
+   "notes": [
+    "Correct: alpha-2 macroglobulin increases.",
+    "Correct: urinary loss gives hypoalbuminaemia.",
+    "Wrong: a gamma rise is not the nephrotic pattern.",
+    "Wrong: albumin is lost, not increased."
+   ]
   }
  ],
  "cards": [

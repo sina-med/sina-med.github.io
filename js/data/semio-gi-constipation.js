@@ -131,13 +131,13 @@ SINA.lectures["semio-gi-constipation"] = {
   {
    "q": "Which hormone deficiency slows motility?",
    "options": [
-    "Insulin",
+    "Prolactin",
     "Thyroid hormone",
     "Growth hormone",
     "Oxytocin"
    ],
    "answer": 1,
-   "why": "Hypothyroidism is an endocrine cause of constipation.",
+   "why": "Hypothyroidism is an endocrine cause of constipation (slide 26).",
    "slides": [
     {
      "src": "files/slides/semio-gi-constipation/10.jpg",
@@ -149,6 +149,12 @@ SINA.lectures["semio-gi-constipation"] = {
      "lec": "Constipation",
      "n": 26
     }
+   ],
+   "notes": [
+    "Prolactin deficiency is not a cause of constipation.",
+    "Hypothyroidism slows gut motility.",
+    "GH is not listed.",
+    "Oxytocin is not listed."
    ]
   },
   {
@@ -170,21 +176,27 @@ SINA.lectures["semio-gi-constipation"] = {
    ]
   },
   {
-   "q": "What do absent bowel sounds suggest?",
+   "q": "In a constipated patient, what do absent bowel sounds suggest?",
    "options": [
     "An ileus",
-    "An obstruction",
+    "Faecal loading",
     "Normal bowel",
     "Diarrhoea"
    ],
    "answer": 0,
-   "why": "Absent sounds: ileus. Hyperactive sounds: obstruction.",
+   "why": "Absent sounds: ileus. Hyperactive sounds: obstruction. Faecal loading is suggested by dullness on percussion (slide 15).",
    "slides": [
     {
      "src": "files/slides/semio-gi-constipation/15.jpg",
      "lec": "Constipation",
      "n": 15
     }
+   ],
+   "notes": [
+    "Absent sounds suggest an ileus.",
+    "Faecal loading is found as dullness on percussion, not by silence.",
+    "Normal bowel has sounds.",
+    "Diarrhoea gives active sounds."
    ]
   },
   {

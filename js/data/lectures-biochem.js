@@ -208,7 +208,7 @@ SINA.lectures["biochem-preanalytical"] = {
    "options": [
     "During growth",
     "In adults more than in children",
-    "In men more than in women",
+    "After a short jog",
     "During pregnancy"
    ],
    "answers": [
@@ -216,14 +216,14 @@ SINA.lectures["biochem-preanalytical"] = {
     3
    ],
    "notes": [
-    "Bone cells are active in children.",
-    "Higher in children.",
-    "Not a variation described in the lecture.",
-    "Faster hepatic metabolism for the fetus."
+    "Bone cells are active during growth.",
+    "It is higher in children than in adults.",
+    "Exercise raises creatine kinase, not ALP, in the lecture.",
+    "Faster hepatic metabolism to support the fetus."
    ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "Write age and pregnancy on the prescription so ALP is read correctly.",
+   "why": "Slide 26: ALP is higher in children (bone cells active during growth) and rises in pregnancy (faster hepatic metabolism). Write age and pregnancy on the prescription.",
    "src": "Mock exam 2026",
    "slides": [
     {
@@ -234,26 +234,27 @@ SINA.lectures["biochem-preanalytical"] = {
    ]
   },
   {
-   "q": "The concentration of the following parameters physiologically decreases during pregnancy:",
+   "q": "According to the lecture, the concentration of the following parameters physiologically decreases during pregnancy:",
    "options": [
     "Iron",
     "Proteins",
     "Alkaline phosphatase",
-    "Glucose"
+    "Ferritin"
    ],
    "answers": [
     0,
-    1
+    1,
+    3
    ],
    "notes": [
-    "Iron and ferritin fall to meet fetal needs.",
+    "Falls to meet fetal needs.",
     "Haemodilution from the increased blood volume.",
     "ALP rises in pregnancy.",
-    "Not described as falling in the lecture."
+    "Falls with iron to meet fetal needs."
    ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 27: proteins fall by haemodilution; iron and ferritin fall to meet fetal needs. Slide 26: ALP rises.",
    "src": "Final exam 2023-2024",
    "slides": [
     {
@@ -2267,7 +2268,7 @@ SINA.lectures["biochem-preanalytical"] = {
    ]
   },
   {
-   "q": "During a stressful sampling, which hormone can rise?",
+   "q": "During a stressful sampling, hormones that can rise include:",
    "options": [
     "Albumin",
     "Ferritin",
@@ -2280,13 +2281,13 @@ SINA.lectures["biochem-preanalytical"] = {
    ],
    "notes": [
     "Not a hormone.",
-    "",
-    "",
-    ""
+    "Not a hormone; not listed.",
+    "Listed on slide 36.",
+    "Listed on slide 36."
    ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 36: prolactin, adrenaline and cortisol can be secreted during a stressful situation.",
    "x": 1,
    "slides": [
     {
@@ -3555,7 +3556,7 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    ]
   },
   {
-   "q": "Beta-2 adrenergic receptor actions are:",
+   "q": "According to the lecture, beta-2 adrenergic receptor actions are:",
    "options": [
     "Mydriasis",
     "Inhibition of renin release",
@@ -3567,14 +3568,14 @@ SINA.lectures["biochem-adrenal-medulla"] = {
     2
    ],
    "notes": [
-    "The lecture attributes it to beta-2 (textbooks: alpha-1).",
-    "The lecture says beta-2 stimulates renin.",
+    "Per slide 11; textbooks attribute mydriasis to alpha-1.",
+    "The lecture says beta-2 stimulates renin secretion.",
     "Used in asthma.",
-    "Beta-2 relaxes it."
+    "Beta-2 relaxes the uterus; alpha contracts it."
    ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "The real recall also had 'relaxation of the uterus' as correct.",
+   "why": "Slides 8 and 11: beta-2 stimulates renin secretion and liver glycogenolysis, relaxes bronchi and uterus, and (per the lecture) causes mydriasis.",
    "src": "Midterm recall (Prof. Kamal) (adapted)",
    "slides": [
     {
@@ -3688,21 +3689,21 @@ SINA.lectures["biochem-adrenal-medulla"] = {
     "Muscle glycogenolysis",
     "Lipogenesis",
     "Heat production",
-    "Hypokalaemia"
+    "Stimulation of insulin secretion"
    ],
    "answers": [
     0,
     2
    ],
    "notes": [
-    "",
-    "Lipolysis.",
-    "Thermogenesis.",
-    "They cause hyperkalaemia."
+    "Mainly muscular, so little effect on glycaemia.",
+    "They cause lipolysis.",
+    "Thermogenesis: increased metabolism and cutaneous vasoconstriction.",
+    "They inhibit insulin secretion."
    ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "On the real paper, 'A blood potassium disorder' was also correct.",
+   "why": "Slide 13: muscle glycogenolysis, inhibition of insulin secretion, lipolysis, an electrolyte effect (hyperkalaemia in the lecture) and thermogenesis.",
    "src": "Final exam 2023-2024 (adapted)",
    "slides": [
     {
@@ -5449,7 +5450,7 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    ]
   },
   {
-   "q": "On electrolytes, catecholamines cause:",
+   "q": "According to the lecture, on electrolytes, catecholamines cause:",
    "options": [
     "Hypocalcaemia",
     "Hypokalaemia",
@@ -5459,9 +5460,9 @@ SINA.lectures["biochem-adrenal-medulla"] = {
    "answers": [
     2
    ],
-   "multi": true,
+   "multi": false,
    "hint": "1 or 2 correct answers",
-   "why": "Slide 13: “3) Electrolytes: hyperkalaemia”",
+   "why": "Slide 13: \"3) Electrolytes: hyperkalaemia\". (Textbooks describe a brief rise in potassium followed by a fall, through beta-2 receptors.)",
    "x": 1,
    "slides": [
     {
@@ -5469,6 +5470,12 @@ SINA.lectures["biochem-adrenal-medulla"] = {
      "lec": "Adrenal medulla hormones",
      "n": 13
     }
+   ],
+   "notes": [
+    "Not described in the lecture.",
+    "Not the lecture answer (though textbooks describe it after the brief rise).",
+    "Slide 13: hyperkalaemia.",
+    "Not described in the lecture."
    ]
   },
   {
@@ -10143,13 +10150,13 @@ SINA.lectures["biochem-hepatic"] = {
   {
    "q": "In the intestine, conjugated bilirubin is mainly transformed into:",
    "options": [
-    "Urobilinogen eliminated in stool",
+    "Biliverdin, eliminated in stool",
     "Free bilirubin",
     "Stercobilinogen, eliminated in stool",
     "Bile acids"
    ],
    "answer": 2,
-   "why": "A small part is reabsorbed; some leaves in urine as urobilinogen.",
+   "why": "Slide 13: in the small intestine conjugated bilirubin is mainly transformed into stercobilinogen, eliminated in the stool; a small part is reabsorbed (enterohepatic cycle) or excreted by the kidney as urobilinogen.",
    "x": 1,
    "slides": [
     {
@@ -10157,6 +10164,12 @@ SINA.lectures["biochem-hepatic"] = {
      "lec": "Hepatic exploration",
      "n": 13
     }
+   ],
+   "notes": [
+    "Biliverdin is the precursor of bilirubin, made from haem.",
+    "Not the main intestinal fate.",
+    "The main route, to the faeces.",
+    "Bile acids come from cholesterol, not bilirubin."
    ]
   },
   {
@@ -11001,10 +11014,10 @@ SINA.lectures["biochem-hepatic"] = {
     "The toxic liposoluble form",
     "Made in the spleen",
     "Made in the liver by conjugation with glucuronic acid",
-    "Total minus free bilirubin"
+    "Calculated as total plus free bilirubin"
    ],
    "answer": 2,
-   "why": "Slide 35: “Conjugated or direct bilirubin: produced in the liver, after conjugation of free bilirubin with glucuronic acid”",
+   "why": "Slide 35: conjugated (direct) bilirubin is produced in the liver by conjugating free bilirubin with glucuronic acid. It is the free form that is liposoluble and toxic to the brain.",
    "x": 1,
    "slides": [
     {
@@ -11012,6 +11025,12 @@ SINA.lectures["biochem-hepatic"] = {
      "lec": "Hepatic exploration",
      "n": 35
     }
+   ],
+   "notes": [
+    "That is free (unconjugated) bilirubin.",
+    "Conjugation happens in the liver.",
+    "Glucuronic acid conjugation in the hepatocyte.",
+    "Total = free + conjugated, so this formula is wrong."
    ]
   },
   {
@@ -12606,7 +12625,7 @@ SINA.lectures["biochem-steroids"] = {
    "options": [
     "Differentiation of secondary sexual characteristics in the fetus",
     "Osteoblastic activity",
-    "Stimulation of prolactin secretion during pregnancy",
+    "Decreased uterine excitability during pregnancy",
     "Water retention by the kidney"
    ],
    "answers": [
@@ -12616,12 +12635,12 @@ SINA.lectures["biochem-steroids"] = {
    "notes": [
     "In the fetus they differentiate primary characteristics; secondary ones appear at puberty.",
     "Estradiol builds bone.",
-    "It is the abrupt fall in oestrogen after birth that stimulates prolactin.",
-    "Slight premenstrual oedema."
+    "Oestrogens increase uterine excitability; progesterone decreases it.",
+    "Slight premenstrual oedema (tense breasts)."
    ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "The recall answered B, C and D; by the lecture's wording only B and D are right.",
+   "why": "Slide 46: oestradiol drives osteoblastic activity and causes slight water retention (premenstrual oedema). In the fetus oestrogens differentiate primary (not secondary) sexual characteristics, and they increase uterine excitability, the opposite of progesterone.",
    "src": "Midterm recall (Prof. Kamal) (adapted)",
    "slides": [
     {
@@ -15543,7 +15562,7 @@ SINA.lectures["biochem-cardiac"] = {
    ]
   },
   {
-   "q": "Troponin T has:",
+   "q": "According to the lecture, troponin T has:",
    "options": [
     "No cardiac isoform",
     "Three isoforms",
@@ -15551,7 +15570,7 @@ SINA.lectures["biochem-cardiac"] = {
     "One isoform common to all muscles"
    ],
    "answer": 2,
-   "why": "Slide 7: “troponin T: two specific isoforms; one to the striated muscles and the other to the myocardium called cardiac Troponin T (cTnT). … (troponin C: a single isoform common to all striated muscles, of no interest in cardiology)”",
+   "why": "Slide 7: troponin T has two specific isoforms, one in striated muscle and one in the myocardium (cardiac troponin T, cTnT). Three tissue-specific isoforms are described for troponin I; a single common isoform for troponin C.",
    "x": 1,
    "slides": [
     {
@@ -15559,6 +15578,12 @@ SINA.lectures["biochem-cardiac"] = {
      "lec": "Cardiac exploration",
      "n": 7
     }
+   ],
+   "notes": [
+    "cTnT is the cardiac isoform.",
+    "The lecture gives three isoforms for troponin I, not T.",
+    "As stated on slide 7.",
+    "That describes troponin C."
    ]
   },
   {
@@ -19694,9 +19719,9 @@ SINA.lectures["biochem-spe"] = {
    ]
   },
   {
-   "q": "Which fractions rise in nephrotic syndrome? (choose all)",
+   "q": "Which changes are seen on the SPE in nephrotic syndrome?",
    "options": [
-    "Alpha-2 (macroglobulin)",
+    "Alpha-2 rises (alpha-2 macroglobulin)",
     "Albumin falls",
     "Gamma rises",
     "Albumin rises"
@@ -19705,13 +19730,19 @@ SINA.lectures["biochem-spe"] = {
     0,
     1
    ],
-   "why": "Albumin is lost in urine while alpha-2 macroglobulin rises.",
+   "why": "Albumin is lost in urine through the damaged glomerulus, while alpha-2 macroglobulin rises (slides 22, 24).",
    "slides": [
     {
      "src": "files/slides/biochem-spe/22.jpg",
      "lec": "Protein electrophoresis",
      "n": 22
     }
+   ],
+   "notes": [
+    "Correct: alpha-2 macroglobulin increases.",
+    "Correct: urinary loss gives hypoalbuminaemia.",
+    "Wrong: a gamma rise is not the nephrotic pattern.",
+    "Wrong: albumin is lost, not increased."
    ]
   },
   {
@@ -19880,18 +19911,24 @@ SINA.lectures["biochem-spe"] = {
    "q": "A decreased alpha-1 fraction suggests:",
    "options": [
     "Alpha-1 antitrypsin deficiency",
-    "Nephrotic syndrome",
+    "Intravascular haemolysis",
     "Acute inflammation",
     "Myeloma"
    ],
    "answer": 0,
-   "why": "Or general causes of low protein.",
+   "why": "Alpha-1 falls in congenital alpha-1 antitrypsin deficiency, or with general causes of low serum proteins (slide 23).",
    "slides": [
     {
      "src": "files/slides/biochem-spe/23.jpg",
      "lec": "Protein electrophoresis",
      "n": 23
     }
+   ],
+   "notes": [
+    "Correct: the congenital cause of a flat alpha-1 zone.",
+    "Wrong: haemolysis lowers alpha-2 (haptoglobin).",
+    "Wrong: inflammation raises alpha-1.",
+    "Wrong: myeloma gives a narrow gamma peak."
    ]
   },
   {
@@ -26067,7 +26104,7 @@ SINA.lectures["biochem-calcium"] = {
     "Increasing calcium reabsorption"
    ],
    "answer": 2,
-   "why": "Slide 18: “renal tubular reabsorption of calcium and phosphorus (decreases calciuria)”",
+   "why": "Slide 17: calcitonin decreases reabsorption of calcium and phosphorus by the kidney (hypocalcaemic, hypophosphataemic action).",
    "x": 1,
    "slides": [
     {
@@ -26075,6 +26112,12 @@ SINA.lectures["biochem-calcium"] = {
      "lec": "Calcium-phosphate balance",
      "n": 18
     }
+   ],
+   "notes": [
+    "Wrong: it decreases phosphate reabsorption.",
+    "Wrong: not a calcitonin action in the lecture.",
+    "Correct: less tubular reabsorption of both.",
+    "Wrong: it decreases calcium reabsorption."
    ]
   },
   {
@@ -26743,7 +26786,7 @@ SINA.lectures["biochem-calcium"] = {
    ]
   },
   {
-   "q": "Regarding PTH and the intestine:",
+   "q": "According to the lecture's summary of PTH effects on the three tissues, regarding PTH and the intestine:",
    "options": [
     "PTH has no intestinal action",
     "PTH lowers phosphate absorption only",
@@ -26751,7 +26794,7 @@ SINA.lectures["biochem-calcium"] = {
     "PTH activates intestinal calcium absorption"
    ],
    "answer": 3,
-   "why": "In the lecture's summary of PTH effects on the three tissues.",
+   "why": "Slide 16: PTH activates bone decalcification, intestinal absorption and renal reabsorption of calcium (in practice via calcitriol).",
    "x": 1,
    "slides": [
     {
@@ -26759,6 +26802,12 @@ SINA.lectures["biochem-calcium"] = {
      "lec": "Calcium-phosphate balance",
      "n": 16
     }
+   ],
+   "notes": [
+    "Wrong per slide 16: intestinal absorption is listed as activated.",
+    "Wrong: not stated in the lecture.",
+    "Wrong: it activates absorption.",
+    "Correct: listed on slide 16 as one of PTH's three tissue effects."
    ]
   }
  ],
@@ -27475,24 +27524,30 @@ SINA.lectures["biochem-iron"] = {
    ]
   },
   {
-   "q": "Which are signs of primary haemochromatosis? (choose all)",
+   "q": "Which are signs of primary haemochromatosis?",
    "options": [
     "Melanoderma",
     "Diabetes",
     "Microcytic anaemia",
-    "Hypothyroidism"
+    "Pale skin"
    ],
    "answers": [
     0,
     1
    ],
-   "why": "Melanoderma, hepatomegaly to cirrhosis, diabetes, pituitary hypogonadism, heart disease, joint disease.",
+   "why": "Slide 29: melanoderma, hepatomegaly to cirrhosis, diabetes, pituitary hypogonadism, cardiac and bone/joint signs.",
    "slides": [
     {
      "src": "files/slides/biochem-iron/29.jpg",
      "lec": "Iron balance",
      "n": 29
     }
+   ],
+   "notes": [
+    "Correct: iron and melanin deposits darken the skin.",
+    "Correct: pancreatic iron overload causes diabetes.",
+    "Wrong: microcytic anaemia is iron deficiency, not overload.",
+    "Wrong: the skin is darkened (melanoderma), not pale."
    ]
   },
   {
@@ -30087,16 +30142,22 @@ SINA.lectures["biochem-water"] = {
     "Diarrhoea",
     "Heart failure",
     "Diabetes insipidus",
-    "Heat stroke"
+    "Excess ADH secretion"
    ],
    "answer": 2,
-   "why": "Pure water loss (diabetes insipidus, intubation, head injury). Extracellular dehydration: isotonic losses (vomiting, diarrhoea, heat stroke).",
+   "why": "Intracellular dehydration = pure water deficit: intubation (respiratory loss), head injury (cannot satisfy thirst), diabetes insipidus (renal free-water loss) (slide 29).",
    "slides": [
     {
      "src": "files/slides/biochem-water/29.jpg",
      "lec": "Hydro-electrolytic balance",
      "n": 29
     }
+   ],
+   "notes": [
+    "Wrong: isotonic digestive loss, extracellular dehydration.",
+    "Wrong: sodium retention, extracellular hyperhydration (oedema).",
+    "Correct: ADH deficiency causes renal free-water loss.",
+    "Wrong: ADH excess retains free water, causing hyponatraemia and intracellular hyperhydration."
    ]
   },
   {
@@ -33339,11 +33400,11 @@ SINA.lectures["biochem-acid-base"] = {
    "options": [
     "40 nmol/L",
     "4 mmol/L",
-    "40 mmol/L",
+    "7.4 mmol/L",
     "100 nmol/L"
    ],
    "answer": 0,
-   "why": "Slide 4: “Moreover, Acid-base balance is assessed by the proton (H+) concentration : pH = -log[H+] Plasma [H+] = 38–42 mmol/L → pH = 7.37 to 7.43 Intracellular [H+] = 100 mmol/L → pH = 7”",
+   "why": "pH = −log[H+]: pH 7.4 corresponds to about 40 nmol/L (plasma 38–42 nmol/L for pH 7.37–7.43; slide 04 writes 'mmol/L' by typo).",
    "x": 1,
    "slides": [
     {
@@ -33351,6 +33412,12 @@ SINA.lectures["biochem-acid-base"] = {
      "lec": "Acid-base balance",
      "n": 4
     }
+   ],
+   "notes": [
+    "Correct: 10^−7.4 mol/L ≈ 40 nmol/L.",
+    "Wrong: a million times too high (that would be pH ≈ 2.4).",
+    "Wrong: confuses pH value with a concentration.",
+    "Wrong: about 100 nmol/L is pH 7, the intracellular value."
    ]
   },
   {
@@ -33791,15 +33858,15 @@ SINA.lectures["biochem-acid-base"] = {
    ]
   },
   {
-   "q": "Ammonium excretion is stimulated by:",
+   "q": "According to the lecture, ammonium excretion is stimulated by:",
    "options": [
     "Alkalosis",
     "Hyperventilation",
     "Acidosis and hyperkalaemia",
-    "Hypokalaemia"
+    "Excess plasma bicarbonate"
    ],
    "answer": 2,
-   "why": "Slide 18: “stimulated by acidosis and hyperkalemia.”",
+   "why": "Slide 18: NH4+ excretion (2/3 of acid excretion) is 'stimulated by acidosis and hyperkalemia'.",
    "x": 1,
    "slides": [
     {
@@ -33807,6 +33874,12 @@ SINA.lectures["biochem-acid-base"] = {
      "lec": "Acid-base balance",
      "n": 18
     }
+   ],
+   "notes": [
+    "Wrong: alkalosis reduces renal H+/NH4+ excretion.",
+    "Wrong: hyperventilation causes respiratory alkalosis, which does not stimulate ammoniagenesis.",
+    "Correct per slide 18.",
+    "Wrong: excess bicarbonate (alkalosis) leads the kidney to excrete HCO3-, not more NH4+."
    ]
   },
   {
@@ -35384,7 +35457,7 @@ SINA.lectures["biochem-thyroid"] = {
    ]
   },
   {
-   "q": "Thyroid hormone transport:",
+   "q": "According to the lecture, thyroid hormone transport:",
    "options": [
     "TBPA binds mainly T3",
     "TBG, made by the liver, binds T4 with very high affinity",
@@ -35396,14 +35469,14 @@ SINA.lectures["biochem-thyroid"] = {
     1
    ],
    "notes": [
-    "",
-    "",
+    "Per slide 14; many textbooks say TBPA (transthyretin) binds T4 more.",
+    "Most dominant carrier, made by the liver.",
     "Bound hormones are inactive.",
     "Albumin is non-specific."
    ],
    "multi": true,
    "hint": "1 or 2 correct answers",
-   "why": "See the notes under each option.",
+   "why": "Slide 14: TBG (liver) is the most dominant and binds T4 with very high affinity; TBPA binds mainly T3 (per the lecture); albumin is non-specific; bound hormones are inactive.",
    "slides": [
     {
      "src": "files/slides/biochem-thyroid/14.jpg",

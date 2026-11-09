@@ -1760,7 +1760,7 @@ SINA.lectures["history-pathology"] = {
    ]
   },
   {
-   "q": "DNA was discovered in 1952 by:",
+   "q": "On the lecture's 'Heredity strikes back' slide, the DNA milestone (dated 1952 on the slide) is credited to:",
    "options": [
     "Pasteur and Koch",
     "Gall and Sydenham",
@@ -1768,13 +1768,19 @@ SINA.lectures["history-pathology"] = {
     "Morgagni and Virchow"
    ],
    "answer": 2,
-   "why": "They received the Nobel Prize in 1962; heredity 'struck back' after the germ era.",
+   "why": "The slide credits Watson and Crick (Nobel 1962). Strictly, they described the double-helix structure of DNA (published 1953); DNA itself had been isolated by Miescher in 1869.",
    "slides": [
     {
      "src": "files/slides/history-pathology/31.jpg",
      "lec": "History of pathology",
      "n": 31
     }
+   ],
+   "notes": [
+    "Germ theory, 19th century.",
+    "Phrenology (Gall) and nosology (Sydenham).",
+    "Double-helix structure of DNA; Nobel Prize 1962.",
+    "Anatomical pathology (1761) and cellular pathology (1850s)."
    ]
   },
   {

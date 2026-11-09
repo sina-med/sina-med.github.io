@@ -1988,24 +1988,31 @@ SINA.lectures["physio-neurons"] = {
    ]
   },
   {
-   "q": "Which stimuli can activate neurons? (choose all)",
+   "q": "Which types of stimuli does the lecture list as activating neurons? (choose all)",
    "options": [
     "Mechanical",
     "Chemical",
     "Gravitational pull",
-    "Magnetic fields"
+    "Electrical"
    ],
    "answers": [
     0,
-    1
+    1,
+    3
    ],
-   "why": "Mechanical (touch, vibration), electrical (voltage change) and chemical (taste, smell, ligands) stimuli.",
+   "why": "Slide 30: neurons are excitable and are activated by mechanical (touch, vibration, movement), electrical (ion, voltage changes) and chemical (taste, smell, ligands from other cells) stimuli.",
    "slides": [
     {
      "src": "files/slides/physio-neurons/30.jpg",
      "lec": "Neurons and electrical communication",
      "n": 30
     }
+   ],
+   "notes": [
+    "Listed: touch, vibration, movement.",
+    "Listed: taste, smell, ligands from other cells.",
+    "Not one of the lecture's stimulus types.",
+    "Listed: ion and voltage changes."
    ]
   },
   {
@@ -2987,7 +2994,7 @@ SINA.lectures["physio-myotatic"] = {
    ]
   },
   {
-   "q": "Which spindle endings signal static limb position?",
+   "q": "Which spindle endings signal only static limb position (length), not the velocity of movement?",
    "options": [
     "Secondary (group II) endings",
     "Primary (group Ia) endings",
@@ -2995,13 +3002,19 @@ SINA.lectures["physio-myotatic"] = {
     "Free nerve endings"
    ],
    "answer": 0,
-   "why": "Primary endings signal the velocity and direction of movement; secondary endings signal static position.",
+   "why": "Secondary (group II) endings, mainly on nuclear chain fibres, signal length only, i.e. static position. Primary (Ia) endings signal both length and the velocity and direction of movement.",
    "slides": [
     {
      "src": "files/slides/physio-myotatic/29.jpg",
      "lec": "The myotatic reflexes",
      "n": 29
     }
+   ],
+   "notes": [
+    "Correct: group II endings signal length only (static position).",
+    "Ia endings signal length and speed, so they are not static-only.",
+    "Golgi tendon organs signal tension, not length (group Ib).",
+    "Free nerve endings are mainly nociceptors and thermoreceptors."
    ]
   },
   {
@@ -3237,7 +3250,7 @@ SINA.lectures["physio-myotatic"] = {
   {
    "q": "Which are polysynaptic reflexes? (choose all)",
    "options": [
-    "Tendon reflex",
+    "Golgi tendon organ reflex (inverse myotatic)",
     "Crossed extensor reflex",
     "Myotatic reflex",
     "Patellar reflex"
@@ -3246,7 +3259,7 @@ SINA.lectures["physio-myotatic"] = {
     0,
     1
    ],
-   "why": "The tendon, flexor (withdrawal) and crossed extensor reflexes are polysynaptic. The myotatic and patellar reflexes are monosynaptic.",
+   "why": "The Golgi tendon organ reflex, the flexor (withdrawal) reflex and the crossed extensor reflex are polysynaptic. The myotatic (stretch) reflex, such as the patellar knee jerk, is monosynaptic.",
    "slides": [
     {
      "src": "files/slides/physio-myotatic/34.jpg",
@@ -3258,6 +3271,12 @@ SINA.lectures["physio-myotatic"] = {
      "lec": "The myotatic reflexes",
      "n": 35
     }
+   ],
+   "notes": [
+    "Polysynaptic: Ib afferents act through interneurons; the muscle relaxes and the antagonist contracts.",
+    "Polysynaptic: interneurons cross the cord so the opposite leg extends to bear weight.",
+    "Monosynaptic: Ia afferent synapses directly on the alpha motor neuron.",
+    "Monosynaptic: it is a myotatic (deep tendon) reflex, centre L2 to L4."
    ]
   },
   {
@@ -5749,19 +5768,26 @@ SINA.lectures["physio-pain"] = {
     "Transduction",
     "Transmission",
     "Adaptation",
-    "Myelination"
+    "Modulation"
    ],
    "answers": [
     0,
-    1
+    1,
+    3
    ],
-   "why": "Transduction, transmission and modulation.",
+   "why": "Pain physiology has three components: transduction, transmission and modulation (slide 15).",
    "slides": [
     {
      "src": "files/slides/physio-pain/15.jpg",
      "lec": "Physiology of pain",
      "n": 15
     }
+   ],
+   "notes": [
+    "Correct: a noxious stimulus is converted into electrical activity at the nociceptor.",
+    "Correct: the signal is conducted from the periphery to the cord, brainstem and brain.",
+    "Not a component; pain receptors adapt very little.",
+    "Correct: descending pathways and interneurons alter pain signals."
    ]
   },
   {
@@ -10690,24 +10716,31 @@ SINA.lectures["physio-renal-gfr"] = {
    ]
   },
   {
-   "q": "What are the three layers of the filtration barrier? (choose all)",
+   "q": "Which are layers of the glomerular filtration barrier?",
    "options": [
     "Fenestrated endothelium",
     "Basement membrane",
-    "Proximal tubule wall",
+    "Podocyte filtration slits",
     "Renal capsule"
    ],
    "answers": [
     0,
-    1
+    1,
+    2
    ],
-   "why": "Fenestrated endothelium, basement membrane and the podocyte filtration slits.",
+   "why": "The barrier has three layers: fenestrated endothelium, basement membrane and the filtration slits between podocyte pedicels.",
    "slides": [
     {
      "src": "files/slides/physio-renal-gfr/08.jpg",
      "lec": "Renal physiology 3",
      "n": 8
     }
+   ],
+   "notes": [
+    "70 to 90 nm pores; excludes blood cells.",
+    "Negatively charged proteoglycan gel; repels albumin, excludes molecules over 8 nm.",
+    "Slits between podocyte foot processes; the last layer before the capsular space.",
+    "The fibrous capsule around the kidney; not part of the filtration barrier."
    ]
   },
   {
@@ -13595,21 +13628,27 @@ SINA.lectures["physio-renal-nephron"] = {
    ]
   },
   {
-   "q": "Which segment's aquaporins let water leave the filtrate?",
+   "q": "According to the lecture, which segment has aquaporins that let water pass from the filtrate into the interstitial fluid?",
    "options": [
     "Ascending limb of the loop of Henle",
     "Descending limb of the loop of Henle",
-    "Distal convoluted tubule",
-    "Proximal convoluted tubule"
+    "Glomerular capillary network",
+    "Renal pelvis and calyces"
    ],
    "answer": 1,
-   "why": "Descending limb: aquaporins let water pass into the interstitial fluid.",
+   "why": "Descending limb of the loop of Henle: aquaporins let water pass from the filtrate into the interstitial fluid.",
    "slides": [
     {
      "src": "files/slides/physio-renal-nephron/09.jpg",
      "lec": "Renal physiology 2",
      "n": 9
     }
+   ],
+   "notes": [
+    "Reabsorbs Na+ and Cl−; impermeable to water.",
+    "Aquaporins let water leave the filtrate into the interstitium.",
+    "Filters plasma into the capsule; it does not reabsorb water from the filtrate.",
+    "Collects urine; no reabsorption of filtrate water."
    ]
   },
   {

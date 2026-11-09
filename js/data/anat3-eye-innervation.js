@@ -302,7 +302,7 @@ SINA.lectures["anat3-eye-innervation"] = {
    "why": "The optic nerve is sheathed by dura, arachnoid and pia, with a subarachnoid space containing CSF. Raised intracranial pressure is therefore transmitted along the nerve."
   },
   {
-   "q": "The first order neuron of the visual pathway is which cell?",
+   "q": "According to the lecture, the first order neuron of the visual pathway is which cell?",
    "options": [
     "The bipolar cell",
     "The ganglion cell",
@@ -310,7 +310,13 @@ SINA.lectures["anat3-eye-innervation"] = {
     "The cone or rod photoreceptor"
    ],
    "answer": 3,
-   "why": "First order: cone and rod photoreceptors. Second order: bipolar cells, whose axons form the optic nerve after the ganglion cells. Third order: the neuron from the lateral geniculate body to the cerebral cortex."
+   "why": "In the lecture's scheme: first order, cone and rod photoreceptors; second order, bipolar cells leading to the ganglion cells, whose axons form the optic nerve; third order, the neuron from the lateral geniculate body to the visual cortex.",
+   "notes": [
+    "Wrong (in the lecture's scheme): the bipolar cell is the second order neuron.",
+    "Wrong: ganglion cell axons form the optic nerve; not first order.",
+    "Wrong: the lateral geniculate neuron projects to the cortex (third order in the lecture).",
+    "Correct: the lecture names the cone and rod photoreceptors as first order."
+   ]
   },
   {
    "q": "Which nerve supplies the superior oblique muscle?",
