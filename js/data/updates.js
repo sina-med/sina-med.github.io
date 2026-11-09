@@ -9,6 +9,7 @@ SINA.updates = [
   ] },
   { date: "9 November 2026", items: [
     "Fixed: 1 reported question, Semiology, Gastro-oesophageal reflux disease.",
+    "Fixed: 1 reported question, Semiology, Digestive physical examination.",
   ] },
   { date: "8 November 2026", items: [
     "Changed: Midterm topics only now starts the midterm quiz straight away (ticked midterm lectures, or all of them).",

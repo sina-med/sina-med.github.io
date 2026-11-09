@@ -468,7 +468,7 @@ SINA.lectures["semio-gi-exam"] = {
    ]
   },
   {
-   "q": "Regarding the structures examined in the oral cavity:",
+   "q": "Part of the oral cavity examination in the lecture:",
    "options": [
     "Thyroid gland",
     "Internal face of the cheeks",
