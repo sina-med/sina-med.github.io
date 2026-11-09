@@ -3,6 +3,9 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "9 November 2026", items: [
+    "Removed: 45 repeated questions in the Semiology midterm lectures (mostly GERD and GI bleeding).",
+  ] },
+  { date: "9 November 2026", items: [
     "Fixed: 1 reported question, Semiology, Gastro-oesophageal reflux disease.",
   ] },
   { date: "8 November 2026", items: [

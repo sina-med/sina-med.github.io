@@ -4871,78 +4871,6 @@ SINA.lectures["semio-gi-exam"] = {
    ]
   },
   {
-   "q": "Why ask for a deep breath when palpating the liver?",
-   "options": [
-    "It lifts the liver up",
-    "It relaxes the spleen",
-    "It fills the stomach",
-    "It pushes the liver down"
-   ],
-   "answer": 3,
-   "why": "Filling the lungs flattens the diaphragm, which lowers the liver toward the hand.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-exam/14.jpg",
-     "lec": "Digestive physical examination",
-     "n": 14
-    }
-   ],
-   "notes": [
-    "The liver moves down, not up.",
-    "The spleen is not relaxed by breathing.",
-    "Breathing does not fill the stomach.",
-    "Inspiration flattens the diaphragm and pushes the liver down."
-   ]
-  },
-  {
-   "q": "Is the normal spleen easy to palpate?",
-   "options": [
-    "No, it is hard to feel",
-    "Yes, always",
-    "Only when lying flat",
-    "Only on the left side"
-   ],
-   "answer": 0,
-   "why": "The normal spleen lies deep under the ribs; splenomegaly is easy to feel and moves with breathing.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-exam/15.jpg",
-     "lec": "Digestive physical examination",
-     "n": 15
-    }
-   ],
-   "notes": [
-    "The normal spleen lies deep under the ribs.",
-    "A palpable spleen is usually enlarged.",
-    "Position does not make a normal spleen palpable.",
-    "It is felt on the left only when enlarged."
-   ]
-  },
-  {
-   "q": "Which abdominal area is dull on percussion?",
-   "options": [
-    "The left flank",
-    "The epigastrium",
-    "Right hypochondrium",
-    "The umbilical area"
-   ],
-   "answer": 2,
-   "why": "The abdomen is tympanic except the right hypochondrium (liver) and the hypogastrium if the bladder is full.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-exam/16.jpg",
-     "lec": "Digestive physical examination",
-     "n": 16
-    }
-   ],
-   "notes": [
-    "The flanks are tympanic.",
-    "The epigastrium is tympanic.",
-    "The liver makes the right hypochondrium dull.",
-    "The umbilical area is tympanic."
-   ]
-  },
-  {
    "q": "During the abdominal examination, auscultation of the abdominal arteries may find:",
    "options": [
     "A pleural rub",
@@ -6121,78 +6049,6 @@ SINA.lectures["semio-gi-jaundice"] = {
  },
  "mcqs": [
   {
-   "q": "Above what bilirubin level is jaundice defined?",
-   "options": [
-    "About 35 µmol/L",
-    "About 5 µmol/L",
-    "About 350 µmol/L",
-    "About 1 µmol/L"
-   ],
-   "answer": 0,
-   "why": "Jaundice is excess bilirubin, typically above 35 µmol/L, with yellow sclera and/or skin.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-jaundice/10.jpg",
-     "lec": "Jaundice",
-     "n": 10
-    }
-   ],
-   "notes": [
-    "Jaundice appears above about 35 µmol/L.",
-    "5 µmol/L is within normal.",
-    "Far too high; jaundice appears much earlier.",
-    "1 µmol/L is within normal."
-   ]
-  },
-  {
-   "q": "Where does bilirubin come from?",
-   "options": [
-    "Fat digestion",
-    "Haemoglobin breakdown",
-    "Muscle protein breakdown",
-    "Bile salt synthesis"
-   ],
-   "answer": 1,
-   "why": "Bilirubin is a pigment from haemoglobin breakdown, eliminated in bile and colouring urine and stool.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-jaundice/06.jpg",
-     "lec": "Jaundice",
-     "n": 6
-    }
-   ],
-   "notes": [
-    "Fat digestion does not make bilirubin.",
-    "Bilirubin comes from haemoglobin breakdown.",
-    "Muscle breakdown releases creatine kinase and myoglobin.",
-    "Bile salts are made from cholesterol."
-   ]
-  },
-  {
-   "q": "How is jaundice diagnosed?",
-   "options": [
-    "Only by imaging",
-    "Only by biopsy",
-    "Clinically",
-    "Only by serology"
-   ],
-   "answer": 2,
-   "why": "The positive diagnosis of jaundice is clinical examination.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-jaundice/07.jpg",
-     "lec": "Jaundice",
-     "n": 7
-    }
-   ],
-   "notes": [
-    "Imaging looks for the cause.",
-    "Biopsy is a late, rare step.",
-    "Jaundice is seen on examination (yellow sclera and skin).",
-    "Serology looks for the cause."
-   ]
-  },
-  {
    "q": "Which stool colour suggests cholestasis?",
    "options": [
     "Black, tarry",
@@ -6214,30 +6070,6 @@ SINA.lectures["semio-gi-jaundice"] = {
     "Blood suggests bleeding.",
     "Dark green stools are not typical of cholestasis.",
     "No bile reaches the gut, so stools are pale."
-   ]
-  },
-  {
-   "q": "Which enzymes rise in cholestasis?",
-   "options": [
-    "ALT and AST only",
-    "GGT and ALP",
-    "Amylase and lipase",
-    "CK and troponin"
-   ],
-   "answer": 1,
-   "why": "Conjugated bilirubin, GGT, ALP, cholesterol and 5'-nucleotidase rise; prothrombin time lengthens.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-jaundice/16.jpg",
-     "lec": "Jaundice",
-     "n": 16
-    }
-   ],
-   "notes": [
-    "Transaminases rise mainly in hepatitis (cytolysis).",
-    "GGT and ALP are cholestasis enzymes.",
-    "Amylase and lipase point to pancreatitis.",
-    "CK and troponin point to muscle or heart."
    ]
   },
   {
@@ -6342,30 +6174,6 @@ SINA.lectures["semio-gi-jaundice"] = {
    ]
   },
   {
-   "q": "What does ultrasound look for in cholestatic jaundice?",
-   "options": [
-    "Dilated bile ducts",
-    "Kidney stones",
-    "Gallbladder polyps",
-    "Ascites only"
-   ],
-   "answer": 0,
-   "why": "Dilated ducts: extrahepatic obstruction (e.g. biliary stones). Not dilated: intrahepatic (e.g. chronic liver disease).",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-jaundice/22.jpg",
-     "lec": "Jaundice",
-     "n": 22
-    }
-   ],
-   "notes": [
-    "Dilated ducts mean an extrahepatic obstruction.",
-    "Kidney stones are not the target.",
-    "Polyps are not the target.",
-    "Ascites may be seen but is not the key question."
-   ]
-  },
-  {
    "q": "Which investigation is therapeutic?",
    "options": [
     "Ultrasound",
@@ -6387,30 +6195,6 @@ SINA.lectures["semio-gi-jaundice"] = {
     "CT is diagnostic.",
     "ERCP can remove stones or place a stent.",
     "MRI is diagnostic."
-   ]
-  },
-  {
-   "q": "Which skin sign may accompany cholestasis?",
-   "options": [
-    "Vitiligo",
-    "Xanthelasma",
-    "Psoriasis",
-    "Acne"
-   ],
-   "answer": 1,
-   "why": "Xanthoma and xanthelasma from hypercholesterolaemia.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-jaundice/14.jpg",
-     "lec": "Jaundice",
-     "n": 14
-    }
-   ],
-   "notes": [
-    "Vitiligo is unrelated.",
-    "High cholesterol in cholestasis causes xanthelasma.",
-    "Psoriasis is unrelated.",
-    "Acne is unrelated."
    ]
   },
   {
@@ -8144,30 +7928,6 @@ SINA.lectures["semio-gi-constipation"] = {
  },
  "mcqs": [
   {
-   "q": "How many stools per week define constipation?",
-   "options": [
-    "Fewer than 3",
-    "Fewer than 7",
-    "Fewer than 1",
-    "More than 3"
-   ],
-   "answer": 0,
-   "why": "Clinically fewer than 3 stools a week; quantitatively under 100 g/day; qualitatively hard, dehydrated stools.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-constipation/04.jpg",
-     "lec": "Constipation",
-     "n": 4
-    }
-   ],
-   "notes": [
-    "Fewer than 3 stools per week.",
-    "Daily stools are not needed for normal function.",
-    "Too strict a definition.",
-    "More than 3 per week is normal."
-   ]
-  },
-  {
    "q": "What daily stool weight suggests constipation?",
    "options": [
     "Under 10 g",
@@ -8221,30 +7981,6 @@ SINA.lectures["semio-gi-constipation"] = {
    ]
   },
   {
-   "q": "What causes outlet dysfunction?",
-   "options": [
-    "A colonic tumour",
-    "Hypothyroidism",
-    "Chronic opioid use",
-    "Tight pelvic floor"
-   ],
-   "answer": 3,
-   "why": "The pelvic floor contracts or fails to relax during defecation, obstructing expulsion and causing incomplete evacuation.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-constipation/08.jpg",
-     "lec": "Constipation",
-     "n": 8
-    }
-   ],
-   "notes": [
-    "A tumour causes secondary constipation.",
-    "Hypothyroidism slows transit.",
-    "Opioids slow transit.",
-    "The pelvic floor fails to relax during defecation."
-   ]
-  },
-  {
    "q": "Which hormone deficiency slows motility?",
    "options": [
     "Insulin",
@@ -8271,30 +8007,6 @@ SINA.lectures["semio-gi-constipation"] = {
     "Hypothyroidism slows gut motility.",
     "GH is not listed.",
     "Oxytocin is not listed."
-   ]
-  },
-  {
-   "q": "Which drug commonly causes constipation?",
-   "options": [
-    "Penicillin",
-    "Paracetamol",
-    "Metformin",
-    "Opioids"
-   ],
-   "answer": 3,
-   "why": "Opioids, antidepressants, antihistamines and iron supplements.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-constipation/26.jpg",
-     "lec": "Constipation",
-     "n": 26
-    }
-   ],
-   "notes": [
-    "Penicillin does not usually constipate.",
-    "Paracetamol does not usually constipate.",
-    "Metformin more often causes diarrhoea.",
-    "Opioids slow gut motility."
    ]
   },
   {
@@ -8343,30 +8055,6 @@ SINA.lectures["semio-gi-constipation"] = {
     "The DRE only reaches the rectum.",
     "It finds impaction, anal tone, masses and pelvic floor problems.",
     "Thyroid function is a blood test."
-   ]
-  },
-  {
-   "q": "Which is a red flag in constipation?",
-   "options": [
-    "Bloating after meals",
-    "Occasional hard stool",
-    "Travel-related change",
-    "Rectal bleeding"
-   ],
-   "answer": 3,
-   "why": "Red flags: rectal bleeding, weight loss, anaemia, severe pain, family history of colorectal cancer or IBD.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-constipation/20.jpg",
-     "lec": "Constipation",
-     "n": 20
-    }
-   ],
-   "notes": [
-    "Post-meal bloating is common.",
-    "Occasional hard stools are not a red flag.",
-    "Travel commonly changes bowel habit.",
-    "Rectal bleeding is a red flag."
    ]
   },
   {
@@ -12623,33 +12311,6 @@ SINA.lectures["semio-endo-thyroid"] = {
    ]
   },
   {
-   "q": "Per the slides, toxic multinodular goitre:",
-   "options": [
-    "Arises in older patients with a long-standing euthyroid multinodular goitre",
-    "Shows multiple functioning nodules or a patchy uptake on scintigraphy",
-    "Shows diffuse homogeneous hyperfixation on scintigraphy",
-    "Is diagnosed clinically by thyrotoxicosis, goitre and exophthalmos"
-   ],
-   "why": "Toxic multinodular goitre emerges slowly in older patients with a long-standing euthyroid multinodular goitre; scintigraphy shows multiple functioning nodules or an irregular, patchy distribution. Diffuse homogeneous hyperfixation and the triad with exophthalmos belong to Graves' disease.",
-   "slides": [
-    {
-     "src": "files/slides/semio-endo-thyroid/p36.jpg",
-     "lec": "Thyroid semiology",
-     "n": 36
-    }
-   ],
-   "answers": [
-    0,
-    1
-   ],
-   "notes": [
-    "Correct: older patients, long-standing euthyroid MNG.",
-    "Correct: multiple functioning nodules or patchy distribution.",
-    "Wrong: diffuse homogeneous hyperfixation is Graves' disease.",
-    "Wrong: that triad is Graves' disease."
-   ]
-  },
-  {
    "q": "What is TSH in primary hypothyroidism?",
    "options": [
     "Suppressed",
@@ -14954,30 +14615,6 @@ SINA.lectures["semio-endo-adrenal"] = {
     "Thyroid nodules are explored with thyroid scintigraphy.",
     "Bone metastases are explored with bone scintigraphy.",
     "Kidney function is not explored by MIBG."
-   ]
-  },
-  {
-   "q": "Which imaging assesses adrenal adenoma size and lipid?",
-   "options": [
-    "Chest X-ray",
-    "Echocardiography",
-    "Adrenal CT",
-    "Mammography"
-   ],
-   "answer": 2,
-   "why": "CT shows adenoma size, lipid structure and tumour extension.",
-   "slides": [
-    {
-     "src": "files/slides/semio-endo-adrenal/74.jpg",
-     "lec": "Adrenal semiology",
-     "n": 74
-    }
-   ],
-   "notes": [
-    "A chest X-ray cannot assess the adrenals.",
-    "Echocardiography explores the heart.",
-    "CT shows adenoma size, lipid content and extension.",
-    "Mammography explores the breast."
    ]
   },
   {
@@ -20217,36 +19854,6 @@ SINA.lectures["semio-gi-gerd"] = {
    ]
   },
   {
-   "q": "Does a normal endoscopy exclude GERD?",
-   "options": [
-    "Only after 50",
-    "No",
-    "Only in children",
-    "Yes"
-   ],
-   "answer": 1,
-   "why": "A normal endoscopy does not exclude GERD, since many patients have non-erosive reflux disease (NERD) (slide 14).",
-   "notes": [
-    "Age over 50 is an indication for endoscopy, not a condition for excluding GERD.",
-    "Non-erosive reflux disease (NERD): reflux with a normal endoscopy.",
-    "The lecture gives no age rule for this.",
-    "A normal endoscopy does not exclude GERD."
-   ],
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-gerd/14.jpg",
-     "lec": "Gastro-oesophageal reflux disease",
-     "n": 14
-    }
-   ],
-   "notes": [
-    "Age does not change this.",
-    "Non-erosive reflux disease (NERD) gives a normal endoscopy.",
-    "This applies at all ages.",
-    "A normal endoscopy does not exclude GERD."
-   ]
-  },
-  {
    "q": "What pH-metry result confirms GERD?",
    "options": [
     "pH under 4, over 5 percent",
@@ -20370,126 +19977,6 @@ SINA.lectures["semio-gi-gerd"] = {
    ]
   },
   {
-   "q": "What prevents reflux at rest?",
-   "options": [
-    "Gastric acid",
-    "The pylorus",
-    "The upper oesophageal sphincter only",
-    "The LES and the diaphragmatic crura"
-   ],
-   "answer": 3,
-   "why": "Weakness or transient relaxation allows reflux.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-gerd/05.jpg",
-     "lec": "Gastro-oesophageal reflux disease",
-     "n": 5
-    }
-   ],
-   "notes": [
-    "Acid is what refluxes; it is not a barrier.",
-    "The pylorus controls gastric emptying.",
-    "The upper sphincter is not the main barrier.",
-    "The LES and the diaphragmatic crura form the anti-reflux barrier."
-   ]
-  },
-  {
-   "q": "The most frequent anatomical cause of GERD is:",
-   "options": [
-    "Hiatal hernia",
-    "Zenker's diverticulum",
-    "Achalasia",
-    "Pyloric stenosis"
-   ],
-   "answer": 0,
-   "why": "It displaces the LES from the crura.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-gerd/16.jpg",
-     "lec": "Gastro-oesophageal reflux disease",
-     "n": 16
-    }
-   ],
-   "notes": [
-    "It displaces the LES above the diaphragm.",
-    "Zenker's is a pharyngeal pouch.",
-    "Achalasia is a failure of LES relaxation.",
-    "Pyloric stenosis is an outlet problem."
-   ]
-  },
-  {
-   "q": "Which food lowers LES tone?",
-   "options": [
-    "Water",
-    "Chocolate",
-    "Lean meat",
-    "Rice"
-   ],
-   "answer": 1,
-   "why": "Also fats, caffeine, alcohol, mint, spicy food.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-gerd/06.jpg",
-     "lec": "Gastro-oesophageal reflux disease",
-     "n": 6
-    }
-   ],
-   "notes": [
-    "Water does not lower LES tone.",
-    "Chocolate lowers LES tone.",
-    "Lean meat is not listed.",
-    "Rice is not listed."
-   ]
-  },
-  {
-   "q": "Which drug can promote reflux?",
-   "options": [
-    "Paracetamol",
-    "Nitrates",
-    "Metformin",
-    "Amoxicillin"
-   ],
-   "answer": 1,
-   "why": "Also theophylline, anticholinergics, calcium channel blockers, progesterone.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-gerd/06.jpg",
-     "lec": "Gastro-oesophageal reflux disease",
-     "n": 6
-    }
-   ],
-   "notes": [
-    "Paracetamol does not promote reflux.",
-    "Nitrates relax the LES.",
-    "Metformin is not listed.",
-    "Amoxicillin is not listed."
-   ]
-  },
-  {
-   "q": "What is the most characteristic symptom of GERD?",
-   "options": [
-    "Diarrhoea",
-    "Dysphagia",
-    "Haematemesis",
-    "Heartburn"
-   ],
-   "answer": 3,
-   "why": "A retrosternal burning rising to the throat.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-gerd/07.jpg",
-     "lec": "Gastro-oesophageal reflux disease",
-     "n": 7
-    }
-   ],
-   "notes": [
-    "Diarrhoea is not a reflux symptom.",
-    "Dysphagia is an alarm sign.",
-    "Haematemesis is a complication (bleeding).",
-    "Heartburn is the most characteristic symptom."
-   ]
-  },
-  {
    "q": "Water brash means:",
    "options": [
     "Nasal regurgitation",
@@ -20514,78 +20001,6 @@ SINA.lectures["semio-gi-gerd"] = {
    ]
   },
   {
-   "q": "Which is an extra-digestive manifestation of GERD?",
-   "options": [
-    "Chronic nocturnal cough",
-    "Jaundice",
-    "Haematuria",
-    "Ascites"
-   ],
-   "answer": 0,
-   "why": "Also hoarseness, dental erosions, non-cardiac chest pain.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-gerd/11.jpg",
-     "lec": "Gastro-oesophageal reflux disease",
-     "n": 11
-    }
-   ],
-   "notes": [
-    "Acid reaching the airways causes chronic night cough.",
-    "Jaundice is not linked to reflux.",
-    "Haematuria is urinary.",
-    "Ascites is not linked to reflux."
-   ]
-  },
-  {
-   "q": "In typical GERD (heartburn + regurgitation), the diagnosis is:",
-   "options": [
-    "Clinical",
-    "By barium swallow",
-    "Always by endoscopy",
-    "Always by pH-metry"
-   ],
-   "answer": 0,
-   "why": "Tests are reserved for specific situations.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-gerd/13.jpg",
-     "lec": "Gastro-oesophageal reflux disease",
-     "n": 13
-    }
-   ],
-   "notes": [
-    "Typical symptoms are enough.",
-    "A barium swallow is not needed for typical GERD.",
-    "Endoscopy is for alarm signs or atypical cases.",
-    "pH-metry is for atypical or resistant cases."
-   ]
-  },
-  {
-   "q": "Which is an alarm sign requiring endoscopy?",
-   "options": [
-    "Heartburn after a large meal",
-    "Belching",
-    "Regurgitation when lying down",
-    "Dysphagia"
-   ],
-   "answer": 3,
-   "why": "Also odynophagia, bleeding, anaemia, weight loss, vomiting.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-gerd/12.jpg",
-     "lec": "Gastro-oesophageal reflux disease",
-     "n": 12
-    }
-   ],
-   "notes": [
-    "Post-meal heartburn is typical, not alarming.",
-    "Belching is not an alarm sign.",
-    "Regurgitation when lying is typical.",
-    "Dysphagia needs endoscopy."
-   ]
-  },
-  {
    "q": "A normal endoscopy in a patient with typical symptoms:",
    "options": [
     "Means achalasia",
@@ -20607,78 +20022,6 @@ SINA.lectures["semio-gi-gerd"] = {
     "A normal endoscopy does not suggest cancer.",
     "Non-erosive reflux disease is common.",
     "A normal endoscopy does not exclude GERD."
-   ]
-  },
-  {
-   "q": "pH-metry confirms GERD when oesophageal pH is below 4 for more than:",
-   "options": [
-    "5% of the time",
-    "25% of the time",
-    "1% of the time",
-    "50% of the time"
-   ],
-   "answer": 0,
-   "why": "The reference test for acid reflux.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-gerd/15.jpg",
-     "lec": "Gastro-oesophageal reflux disease",
-     "n": 15
-    }
-   ],
-   "notes": [
-    "The threshold is 5% of the time.",
-    "Too high.",
-    "Too low.",
-    "Far too high."
-   ]
-  },
-  {
-   "q": "Which test detects non-acid reflux?",
-   "options": [
-    "pH-metry",
-    "Manometry",
-    "Impedance monitoring",
-    "Barium swallow"
-   ],
-   "answer": 2,
-   "why": "Manometry evaluates LES pressure and motility.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-gerd/15.jpg",
-     "lec": "Gastro-oesophageal reflux disease",
-     "n": 15
-    }
-   ],
-   "notes": [
-    "pH-metry detects only acid reflux.",
-    "Manometry measures pressure and motility.",
-    "Impedance detects reflux whatever its acidity.",
-    "A barium swallow shows anatomy."
-   ]
-  },
-  {
-   "q": "Barrett's oesophagus is:",
-   "options": [
-    "A stricture",
-    "An ulcer",
-    "Metaplasia with cancer risk",
-    "A diverticulum"
-   ],
-   "answer": 2,
-   "why": "A complication of long-standing reflux.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-gerd/17.jpg",
-     "lec": "Gastro-oesophageal reflux disease",
-     "n": 17
-    }
-   ],
-   "notes": [
-    "A stricture is a narrowing.",
-    "An ulcer is a mucosal loss.",
-    "Glandular metaplasia that can progress to cancer.",
-    "A diverticulum is a pouch."
    ]
   },
   {
@@ -21907,30 +21250,6 @@ SINA.lectures["semio-gi-bleeding"] = {
    ]
   },
   {
-   "q": "Does a normal haemoglobin rule out recent bleeding?",
-   "options": [
-    "Yes",
-    "Only in children",
-    "No",
-    "Only if melena"
-   ],
-   "answer": 2,
-   "why": "Haemoglobin takes time to fall after acute bleeding.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-bleeding/10.jpg",
-     "lec": "Gastrointestinal bleeding",
-     "n": 10
-    }
-   ],
-   "notes": [
-    "Haemoglobin takes time to fall after acute bleeding.",
-    "This is true at all ages.",
-    "It can be normal early in acute bleeding.",
-    "This is true whatever the presentation."
-   ]
-  },
-  {
    "q": "How many IV lines are placed in severe GI bleeding?",
    "options": [
     "None",
@@ -22078,30 +21397,6 @@ SINA.lectures["semio-gi-bleeding"] = {
    ]
   },
   {
-   "q": "Haematemesis indicates a lesion located:",
-   "options": [
-    "Below the angle of Treitz",
-    "Above the angle of Treitz",
-    "In the lungs",
-    "In the rectum"
-   ],
-   "answer": 1,
-   "why": "The upper GI tract.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-bleeding/06.jpg",
-     "lec": "Gastrointestinal bleeding",
-     "n": 6
-    }
-   ],
-   "notes": [
-    "Below the angle of Treitz is the lower GI tract.",
-    "Haematemesis means an upper GI source.",
-    "Blood from the lungs is coughed up (haemoptysis).",
-    "Rectal bleeding comes out per anus."
-   ]
-  },
-  {
    "q": "Which feature distinguishes haemoptysis from haematemesis?",
    "options": [
     "Black blood mixed with food",
@@ -22126,78 +21421,6 @@ SINA.lectures["semio-gi-bleeding"] = {
    ]
   },
   {
-   "q": "How long after bleeding starts does melaena appear?",
-   "options": [
-    "Immediately",
-    "3 days",
-    "1 week",
-    "6 to 8 hours"
-   ],
-   "answer": 3,
-   "why": "Time for blood to be digested.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-bleeding/07.jpg",
-     "lec": "Gastrointestinal bleeding",
-     "n": 7
-    }
-   ],
-   "notes": [
-    "Blood needs time to be digested.",
-    "It appears much sooner.",
-    "It appears much sooner.",
-    "Digestion takes about 6 to 8 hours."
-   ]
-  },
-  {
-   "q": "Which can mimic melaena?",
-   "options": [
-    "Iron supplements",
-    "Paracetamol",
-    "Antibiotics",
-    "Beetroot only"
-   ],
-   "answer": 0,
-   "why": "Also charcoal, bismuth and some foods.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-bleeding/07.jpg",
-     "lec": "Gastrointestinal bleeding",
-     "n": 7
-    }
-   ],
-   "notes": [
-    "Iron darkens stools.",
-    "Paracetamol does not.",
-    "Antibiotics do not.",
-    "Beetroot reddens, not blackens; and it is not the only one."
-   ]
-  },
-  {
-   "q": "Bright red rectal blood with shock may come from:",
-   "options": [
-    "A massive upper GI bleed with rapid transit",
-    "Only haemorrhoids, never higher lesions",
-    "Only colon cancer in the elderly",
-    "Only a Mallory-Weiss tear"
-   ],
-   "answer": 0,
-   "why": "Haematochezia usually suggests a lower source.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-bleeding/08.jpg",
-     "lec": "Gastrointestinal bleeding",
-     "n": 8
-    }
-   ],
-   "notes": [
-    "Massive upper bleeding with fast transit can come out bright red.",
-    "Higher lesions can cause it too.",
-    "Not only colon cancer.",
-    "Not only Mallory-Weiss."
-   ]
-  },
-  {
    "q": "Why can a normal haemoglobin be misleading?",
    "options": [
     "It measures iron rather than blood loss",
@@ -22219,155 +21442,6 @@ SINA.lectures["semio-gi-bleeding"] = {
     "Haemodilution has not yet happened, so Hb is still normal.",
     "Hb does not rise in acute bleeding.",
     "The analyser is not the issue."
-   ]
-  },
-  {
-   "q": "Which is a sign of severe bleeding?",
-   "options": [
-    "Hypotension, oliguria, altered consciousness",
-    "Normal pulse and warm extremities",
-    "Mild pallor with a normal pulse",
-    "Abdominal bloating without pallor"
-   ],
-   "answer": 0,
-   "why": "Also polypnoea and mottling.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-bleeding/10.jpg",
-     "lec": "Gastrointestinal bleeding",
-     "n": 10
-    }
-   ],
-   "notes": [
-    "Signs of shock and poor perfusion.",
-    "Normal pulse and warm skin argue against severity.",
-    "Mild pallor with a normal pulse is not severe.",
-    "Bloating without pallor is not a severity sign."
-   ]
-  },
-  {
-   "q": "The first emergency measure is to place:",
-   "options": [
-    "A nasogastric tube only",
-    "Nothing until endoscopy",
-    "A central line only",
-    "Two large-bore peripheral IV lines"
-   ],
-   "answer": 3,
-   "why": "For fluids and transfusion.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-bleeding/11.jpg",
-     "lec": "Gastrointestinal bleeding",
-     "n": 11
-    }
-   ],
-   "notes": [
-    "A tube alone does not restore volume.",
-    "Resuscitation starts before endoscopy.",
-    "Large peripheral lines are preferred.",
-    "Two large-bore lines for fluids and transfusion."
-   ]
-  },
-  {
-   "q": "Upper GI endoscopy identifies the source in:",
-   "options": [
-    "Over 90%",
-    "100%",
-    "About 60%",
-    "About 30%"
-   ],
-   "answer": 0,
-   "why": "It is diagnostic, prognostic and therapeutic.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-bleeding/14.jpg",
-     "lec": "Gastrointestinal bleeding",
-     "n": 14
-    }
-   ],
-   "notes": [
-    "Upper endoscopy finds the source in over 90%.",
-    "Not every source is found.",
-    "Too low.",
-    "Far too low."
-   ]
-  },
-  {
-   "q": "A tear after repeated vomiting is:",
-   "options": [
-    "Barrett's oesophagus",
-    "Boerhaave syndrome",
-    "Mallory-Weiss tear",
-    "Zenker's diverticulum"
-   ],
-   "answer": 2,
-   "why": "A mucosal rupture causing haematemesis.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-bleeding/16.jpg",
-     "lec": "Gastrointestinal bleeding",
-     "n": 16
-    }
-   ],
-   "notes": [
-    "Barrett's is metaplasia.",
-    "Boerhaave is a full-thickness rupture, not a mucosal tear.",
-    "A mucosal tear after repeated vomiting.",
-    "Zenker's is a pharyngeal pouch."
-   ]
-  },
-  {
-   "q": "Which is a lower GI bleeding cause typical in young patients?",
-   "options": [
-    "Meckel's diverticulum",
-    "Angiodysplasia",
-    "Diverticular disease",
-    "Colon cancer"
-   ],
-   "answer": 0,
-   "why": "Polyps and cancer are commoner in the elderly.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-bleeding/17.jpg",
-     "lec": "Gastrointestinal bleeding",
-     "n": 17
-    },
-    {
-     "src": "files/slides/semio-gi-bleeding/21.jpg",
-     "lec": "Gastrointestinal bleeding",
-     "n": 21
-    }
-   ],
-   "notes": [
-    "Meckel's diverticulum is typical in the young.",
-    "Angiodysplasia is commoner in the elderly.",
-    "Diverticular disease is commoner in the elderly.",
-    "Colon cancer is commoner in the elderly."
-   ]
-  },
-  {
-   "q": "Which endoscopic technique treats oesophageal varices?",
-   "options": [
-    "Capsule",
-    "Band ligation",
-    "Haemoclips only",
-    "Colonoscopy"
-   ],
-   "answer": 1,
-   "why": "Other techniques: injection, thermal coagulation, clips.",
-   "slides": [
-    {
-     "src": "files/slides/semio-gi-bleeding/19.jpg",
-     "lec": "Gastrointestinal bleeding",
-     "n": 19
-    }
-   ],
-   "notes": [
-    "The capsule only looks; it cannot treat.",
-    "Band ligation treats varices.",
-    "Clips are used for other lesions.",
-    "Colonoscopy explores the colon."
    ]
   },
   {
@@ -23717,35 +22791,6 @@ SINA.lectures["semio-endo-pituitary"] = {
    ]
   },
   {
-   "q": "A pituitary adenoma grows upwards onto the optic chiasm. Which visual field defect is typical?",
-   "options": [
-    "Central scotoma in one eye",
-    "Bitemporal loss starting in the superior fields",
-    "Binasal hemianopia",
-    "Tunnel vision in one eye"
-   ],
-   "answer": 1,
-   "why": "Bitemporal superior quadrantanopia, then bitemporal hemianopia: the crossing nasal fibres are hit from below.",
-   "slides": [
-    {
-     "src": "files/slides/semio-endo-pituitary/23.jpg",
-     "lec": "Pituitary semiology",
-     "n": 23
-    },
-    {
-     "src": "files/slides/semio-endo-pituitary/24.jpg",
-     "lec": "Pituitary semiology",
-     "n": 24
-    }
-   ],
-   "notes": [
-    "A central scotoma suggests an optic nerve lesion.",
-    "Crossing nasal fibres are hit from below: bitemporal, upper fields first.",
-    "Binasal defects are not the chiasm pattern.",
-    "Tunnel vision in one eye is not the chiasm pattern."
-   ]
-  },
-  {
    "q": "A pituitary tumour spreads sideways into the cavernous sinus. What can it cause?",
    "options": [
     "Diplopia",
@@ -24327,30 +23372,6 @@ SINA.lectures["semio-endo-pituitary"] = {
      "src": "files/slides/semio-endo-pituitary/17.jpg",
      "lec": "Pituitary semiology",
      "n": 17
-    }
-   ]
-  },
-  {
-   "q": "The work-up of acromegaly includes:",
-   "options": [
-    "IGF-1 and GH during a 75 g OGTT",
-    "1 mg overnight dexamethasone test",
-    "Short synacthen test with 250 ug tetracosactide",
-    "Urinary methoxylated catecholamine derivatives"
-   ],
-   "answer": 0,
-   "why": "Acromegaly investigations: IGF-1, GH inhibition in the 75 g glucose tolerance test, prolactin (co-secretion) and pituitary MRI.",
-   "notes": [
-    "Listed blood tests on slide 18.",
-    "Wrong: a Cushing screening test.",
-    "Wrong: an adrenal insufficiency test.",
-    "Wrong: a phaeochromocytoma test."
-   ],
-   "slides": [
-    {
-     "src": "files/slides/semio-endo-pituitary/18.jpg",
-     "lec": "Pituitary semiology",
-     "n": 18
     }
    ]
   },
@@ -25866,30 +24887,6 @@ SINA.lectures["semio-endo-pituitary"] = {
     "Apoplexy is sudden, not slow.",
     "Early transsphenoidal decompression is done within 8 days."
    ]
-  },
-  {
-   "q": "Which signs of pituitary mass effect are described as RARE?",
-   "options": [
-    "Papilloedema and optic atrophy",
-    "Bitemporal hemianopia",
-    "Bitemporal superior quadrantanopia",
-    "Headache"
-   ],
-   "answer": 0,
-   "why": "Rarely, decreased visual acuity, pupillary abnormalities, optic atrophy, papilloedema, cranial nerve palsies and nystagmus are seen. Bitemporal field defects are the classic signs.",
-   "slides": [
-    {
-     "src": "files/slides/semio-endo-pituitary/24.jpg",
-     "lec": "Pituitary semiology",
-     "n": 24
-    }
-   ],
-   "notes": [
-    "Papilloedema and optic atrophy are rare.",
-    "Bitemporal hemianopia is a classic sign.",
-    "Bitemporal superior quadrantanopia is the classic first sign.",
-    "Headache is common."
-   ]
   }
  ],
  "cards": [
@@ -26176,30 +25173,6 @@ SINA.lectures["semio-endo-diabetes"] = {
     "Vasopressin excess reduces urine output.",
     "Drinking follows polyuria; it does not cause it.",
     "Kidney failure is not the mechanism."
-   ]
-  },
-  {
-   "q": "Why do patients lose weight?",
-   "options": [
-    "Lack of insulin drives lipolysis, as if the cells were fasting",
-    "They eat less",
-    "Diarrhoea",
-    "Too much thyroid hormone"
-   ],
-   "answer": 0,
-   "why": "Insulin defect, so lipolysis; the cells are in a fasting state, which also explains the compensatory polyphagia.",
-   "slides": [
-    {
-     "src": "files/slides/semio-endo-diabetes/09.jpg",
-     "lec": "Diabetes semiology",
-     "n": 9
-    }
-   ],
-   "notes": [
-    "Without insulin, fat is broken down as if the cells were fasting.",
-    "Patients eat more (polyphagia), not less.",
-    "Diarrhoea is not the mechanism.",
-    "Thyroid hormone is not involved."
    ]
   },
   {
@@ -29339,96 +28312,6 @@ SINA.lectures["semio-endo-diabetes"] = {
     "Hypoglycaemia gives sweating and tremor.",
     "Kussmaul breathing is fast and deep.",
     "Bronchospasm gives wheezing."
-   ]
-  },
-  {
-   "q": "Which features suggest type 2 rather than type 1 diabetes?",
-   "options": [
-    "Overweight with hypertension and dyslipidaemia",
-    "A strong family history of diabetes",
-    "Insulin secretion still present",
-    "Autoantibodies at diagnosis"
-   ],
-   "answers": [
-    0,
-    1,
-    2
-   ],
-   "why": "Type 2: age over 40, progressive onset, strong family history, overweight, cardiovascular risk factors and persistent insulin secretion. Autoantibodies belong to type 1.",
-   "slides": [
-    {
-     "src": "files/slides/semio-endo-diabetes/23.jpg",
-     "lec": "Diabetes semiology",
-     "n": 23
-    },
-    {
-     "src": "files/slides/semio-endo-diabetes/21.jpg",
-     "lec": "Diabetes semiology",
-     "n": 21
-    }
-   ],
-   "notes": [
-    "Cardiovascular risk factors fit type 2.",
-    "A strong family history fits type 2.",
-    "Persistent insulin secretion fits type 2.",
-    "Autoantibodies point to type 1."
-   ]
-  },
-  {
-   "q": "Which examination findings are sought when diabetes is discovered?",
-   "options": [
-    "Signs of dehydration",
-    "Signs of infection",
-    "Weight, height and BMI",
-    "Hyperpigmentation of the gums"
-   ],
-   "answers": [
-    0,
-    1,
-    2
-   ],
-   "why": "At diagnosis: capillary blood glucose, glycosuria, signs of dehydration, weight and height with BMI, infectious signs and a search for complications. Pigmented gums point to adrenal insufficiency.",
-   "slides": [
-    {
-     "src": "files/slides/semio-endo-diabetes/10.jpg",
-     "lec": "Diabetes semiology",
-     "n": 10
-    }
-   ],
-   "notes": [
-    "Dehydration is looked for.",
-    "Infection is looked for.",
-    "Weight, height and BMI are recorded.",
-    "Pigmented gums point to adrenal insufficiency."
-   ]
-  },
-  {
-   "q": "A previously undiagnosed 60-year-old is admitted with a stroke, and his glucose is very high. Per the lecture:",
-   "options": [
-    "A stroke can reveal diabetes, or trigger a ketoacidosis that reveals it",
-    "Diabetes can never first appear at a complication",
-    "The high glucose rules out diabetes",
-    "Strokes only happen in type 1 diabetes"
-   ],
-   "answer": 0,
-   "why": "Diabetes may be discovered at an acute or chronic complication. A stroke can reveal diabetes or induce a DKA revealing diabetes.",
-   "slides": [
-    {
-     "src": "files/slides/semio-endo-diabetes/77.jpg",
-     "lec": "Diabetes semiology",
-     "n": 77
-    },
-    {
-     "src": "files/slides/semio-endo-diabetes/06.jpg",
-     "lec": "Diabetes semiology",
-     "n": 6
-    }
-   ],
-   "notes": [
-    "A stroke can reveal diabetes or trigger a revealing ketoacidosis.",
-    "Diabetes is often found at a complication.",
-    "Very high glucose supports diabetes.",
-    "Strokes are a macrovascular complication, mainly in type 2."
    ]
   }
  ],
