@@ -7,6 +7,7 @@ SINA.updates = [
     "Added: 66 medium-level Semiology midterm questions (digestive exam, jaundice, constipation, GERD, GI bleeding, thyroid, and the midterm topics of pituitary, adrenal and diabetes), with option notes and slide highlights.",
     "Removed: 45 repeated questions in the Semiology midterm lectures (mostly GERD and GI bleeding).",
     "Fixed: 55 questions across 2nd-year subjects where a wrong option could also be defended (clearer stems or replaced options).",
+    "Fixed: 1 reported question, Semiology, Jaundice.",
   ] },
   { date: "9 November 2026", items: [
     "Fixed: 1 reported question, Semiology, Gastro-oesophageal reflux disease.",

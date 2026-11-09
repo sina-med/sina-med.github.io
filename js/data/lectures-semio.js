@@ -7843,7 +7843,7 @@ SINA.lectures["semio-gi-jaundice"] = {
     "Slide 16.",
     "Hypercholesterolaemia is expected.",
     "PT is prolonged (ratio <70%).",
-    "Unconjugated pattern is non-cholestatic."
+    "Slide 16: 'conjugated or unconjugated or both' is for jaundice in general; cholestasis raises conjugated bilirubin, so an isolated unconjugated rise is not cholestatic."
    ],
    "slides": [
     {
