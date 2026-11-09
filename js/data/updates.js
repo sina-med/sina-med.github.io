@@ -2,6 +2,9 @@
    Style: short changelog lines, developer voice (Added / Fixed / Changed), no "you". */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
+  { date: "9 November 2026", items: [
+    "Fixed: 1 reported question, Semiology, Gastro-oesophageal reflux disease.",
+  ] },
   { date: "8 November 2026", items: [
     "Changed: Midterm topics only now starts the midterm quiz straight away (ticked midterm lectures, or all of them).",
     "Added: a short note under every answer option explaining why it is right or wrong, for all questions of the 10 Semiology midterm lectures (endocrine and digestive).",

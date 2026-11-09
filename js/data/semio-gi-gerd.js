@@ -353,12 +353,18 @@ SINA.lectures["semio-gi-gerd"] = {
    "q": "Does a normal endoscopy exclude GERD?",
    "options": [
     "Only after 50",
-    "No, NERD exists",
+    "No",
     "Only in children",
-    "Yes, always"
+    "Yes"
    ],
    "answer": 1,
-   "why": "Many patients have non-erosive reflux disease.",
+   "why": "A normal endoscopy does not exclude GERD, since many patients have non-erosive reflux disease (NERD) (slide 14).",
+   "notes": [
+    "Age over 50 is an indication for endoscopy, not a condition for excluding GERD.",
+    "Non-erosive reflux disease (NERD): reflux with a normal endoscopy.",
+    "The lecture gives no age rule for this.",
+    "A normal endoscopy does not exclude GERD."
+   ],
    "slides": [
     {
      "src": "files/slides/semio-gi-gerd/14.jpg",
