@@ -81,6 +81,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 3
     }
+   ],
+   "notes": [
+    "Cough clears secretions and particles to keep the airways open.",
+    "The nose warms the air.",
+    "Type II pneumocytes make surfactant.",
+    "Cough does not regulate blood pressure."
    ]
   },
   {
@@ -99,6 +105,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 5
     }
+   ],
+   "notes": [
+    "The retina is not a cough zone.",
+    "The ear canal (vagus branch) can trigger cough.",
+    "The spleen is not a cough zone.",
+    "The kidney is not a cough zone."
    ]
   },
   {
@@ -117,6 +129,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 7
     }
+   ],
+   "notes": [
+    "Under 3 weeks is acute.",
+    "3 to 8 weeks is subacute.",
+    "Over 8 weeks is chronic.",
+    "One week is acute."
    ]
   },
   {
@@ -135,6 +153,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 10
     }
+   ],
+   "notes": [
+    "Chronic bronchitis gives a morning cough.",
+    "Bronchiectasis gives a morning cough.",
+    "Pneumothorax gives sudden cough and pain.",
+    "Lying down favours reflux and asthma attacks at night."
    ]
   },
   {
@@ -153,6 +177,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 12
     }
+   ],
+   "notes": [
+    "Pleural involvement gives a painful cough.",
+    "Recurrent nerve palsy paralyses one vocal cord, giving two tones.",
+    "Asthma gives a wheezy cough.",
+    "Reflux gives a night cough."
    ]
   },
   {
@@ -171,6 +201,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 15
     }
+   ],
+   "notes": [
+    "Too short.",
+    "One episode of blood is haemoptysis.",
+    "Not the definition.",
+    "Productive cough 3 months a year for 2 consecutive years."
    ]
   },
   {
@@ -189,6 +225,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 17
     }
+   ],
+   "notes": [
+    "ACE inhibitors raise bradykinin, causing a dry cough.",
+    "Beta blockers can cause bronchospasm, not this cough.",
+    "Statins do not cause cough.",
+    "Penicillins do not cause cough."
    ]
   },
   {
@@ -207,6 +249,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 25
     }
+   ],
+   "notes": [
+    "Too low.",
+    "Over 30 mL is excessive expectoration.",
+    "Bronchorrhoea is over 100 mL/day.",
+    "Too high a threshold."
    ]
   },
   {
@@ -225,6 +273,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 25
     }
+   ],
+   "notes": [
+    "Asthma gives pearly sputum.",
+    "Oedema gives frothy pink sputum.",
+    "Allergy does not cause a foul odour.",
+    "Anaerobes produce foul-smelling sputum."
    ]
   },
   {
@@ -243,6 +297,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 26
     }
+   ],
+   "notes": [
+    "Fluid in the alveoli gives frothy, pink sputum.",
+    "Pearly sputum is asthma.",
+    "Chocolate sputum suggests an amoebic abscess.",
+    "Purulent sputum is infection."
    ]
   },
   {
@@ -261,6 +321,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 23
     }
+   ],
+   "notes": [
+    "Smoking does not dry the pleura.",
+    "The aorta is unrelated.",
+    "Smoke paralyses and destroys the cilia.",
+    "The diaphragm is unrelated."
    ]
   },
   {
@@ -279,6 +345,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 30
     }
+   ],
+   "notes": [
+    "Coughed-up blood is haemoptysis.",
+    "A vomica is a sudden, abundant expectoration of pus.",
+    "This is vomiting.",
+    "This is a dry cough."
    ]
   },
   {
@@ -297,6 +369,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 33
     }
+   ],
+   "notes": [
+    "Amoebic pus is chocolate-coloured.",
+    "A liver abscess gives pus with bile.",
+    "A lung abscess gives pus.",
+    "A ruptured hydatid cyst releases clear fluid."
    ]
   },
   {
@@ -315,6 +393,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 37
     }
+   ],
+   "notes": [
+    "Vomited blood is haematemesis.",
+    "Gum bleeding is excluded.",
+    "Blood coughed up from below the glottis.",
+    "A nosebleed is excluded."
    ]
   },
   {
@@ -333,6 +417,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 39
     }
+   ],
+   "notes": [
+    "Bright red, frothy blood with cough is haemoptysis.",
+    "Dark blood with food is haematemesis.",
+    "Blood with vomiting is haematemesis.",
+    "A digestive history favours haematemesis."
    ]
   },
   {
@@ -351,6 +441,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 40
     }
+   ],
+   "notes": [
+    "Under 50 mL is low abundance.",
+    "Over 500 mL is high abundance.",
+    "This is low to medium.",
+    "This is medium."
    ]
   },
   {
@@ -369,6 +465,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 44
     }
+   ],
+   "notes": [
+    "Too low.",
+    "Too high.",
+    "About 15% have no cause found.",
+    "Far too high."
    ]
   },
   {
@@ -387,6 +489,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 48
     }
+   ],
+   "notes": [
+    "The parietal pleura is very sensitive.",
+    "The chest wall is sensitive.",
+    "The mediastinum is sensitive.",
+    "The lung itself has few pain fibres."
    ]
   },
   {
@@ -405,6 +513,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 49
     }
+   ],
+   "notes": [
+    "Cancer pain is progressive.",
+    "Air suddenly entering the pleura gives sudden stabbing pain.",
+    "Chronic pleurisy is not sudden.",
+    "Mesothelioma pain is progressive."
    ]
   },
   {
@@ -423,6 +537,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 58
     }
+   ],
+   "notes": [
+    "Leaning forward eases pericardial pain.",
+    "Pneumothorax is not relieved this way.",
+    "Pneumonia is not relieved this way.",
+    "Dissection is not relieved by position."
    ]
   },
   {
@@ -441,6 +561,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 54
     }
+   ],
+   "notes": [
+    "Coronary pain radiates to the arm or jaw.",
+    "Pleurisy is lateral and worse on breathing.",
+    "Tearing pain to the back in a hypertensive man.",
+    "Oesophageal spasm is not typical of this."
    ]
   },
   {
@@ -459,6 +585,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 68
     }
+   ],
+   "notes": [
+    "About 16 breaths per minute is normal.",
+    "Too slow (bradypnoea).",
+    "Too fast (polypnoea).",
+    "Too fast."
    ]
   },
   {
@@ -477,6 +609,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 75
     }
+   ],
+   "notes": [
+    "Breathlessness on sitting up is platypnoea.",
+    "Rapid breathing is polypnoea.",
+    "This is apnoea.",
+    "Orthopnoea is breathlessness lying flat."
    ]
   },
   {
@@ -495,6 +633,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 75
     }
+   ],
+   "notes": [
+    "Laryngeal obstruction gives inspiratory dyspnoea.",
+    "Narrow small airways trap air on expiration.",
+    "Effusion is not linked to a phase.",
+    "Pneumothorax is not linked to a phase."
    ]
   },
   {
@@ -516,6 +660,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 13
     }
+   ],
+   "notes": [
+    "Violent coughing can break ribs.",
+    "Coughing can rupture bullae.",
+    "Not a classic complication.",
+    "Not a classic complication."
    ]
   },
   {
@@ -537,6 +687,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 14
     }
+   ],
+   "notes": [
+    "Infection is a common acute cause.",
+    "Embolism can cause acute cough.",
+    "Chronic bronchitis is chronic.",
+    "ACE inhibitor cough is chronic."
    ]
   },
   {
@@ -558,6 +714,12 @@ SINA.lectures["semio-resp-symptoms"] = {
      "lec": "Respiratory clinical symptoms",
      "n": 74
     }
+   ],
+   "notes": [
+    "NYHA grades dyspnoea.",
+    "mMRC grades dyspnoea.",
+    "Glasgow grades consciousness.",
+    "APGAR scores newborns."
    ]
   }
  ],
@@ -799,6 +961,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 3
     }
+   ],
+   "notes": [
+    "Inspection, palpation, percussion, auscultation.",
+    "Imaging is not a step of the exam.",
+    "These are not exam steps.",
+    "Wrong order, and imaging is not a step."
    ]
   },
   {
@@ -817,6 +985,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 4
     }
+   ],
+   "notes": [
+    "You need full light.",
+    "Bare chest in full light, seated or standing.",
+    "Clothes hide the signs.",
+    "Not the standard position."
    ]
   },
   {
@@ -835,6 +1009,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 7
     }
+   ],
+   "notes": [
+    "Pleurisy does not distend the chest.",
+    "Pachypleuritis retracts the chest.",
+    "Air trapping enlarges the AP diameter.",
+    "A tumour gives a local bulge."
    ]
   },
   {
@@ -853,6 +1033,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 10
     }
+   ],
+   "notes": [
+    "A lateral curve is scoliosis.",
+    "An anterior lumbar curve is lordosis.",
+    "A funnel chest is pectus excavatum.",
+    "Kyphosis is a posterior dorsal curve."
    ]
   },
   {
@@ -871,6 +1057,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 12
     }
+   ],
+   "notes": [
+    "This is the infant rate.",
+    "Adults breathe 12 to 20 times a minute.",
+    "Too slow.",
+    "Too fast."
    ]
   },
   {
@@ -889,6 +1081,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 13
     }
+   ],
+   "notes": [
+    "Not the tripod.",
+    "Not the tripod.",
+    "Not the tripod.",
+    "Leaning forward, hands on knees, to use accessory muscles."
    ]
   },
   {
@@ -907,6 +1105,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 14
     }
+   ],
+   "notes": [
+    "Nasal flaring shows extra effort to breathe.",
+    "Distress usually gives tachycardia.",
+    "Not a sign of effort.",
+    "Distress usually speeds the pulse."
    ]
   },
   {
@@ -925,6 +1129,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 22
     }
+   ],
+   "notes": [
+    "Not caused by acute anaemia.",
+    "Not caused by fractures.",
+    "Long-standing hypoxaemia causes clubbing.",
+    "Not linked to vitamin C."
    ]
   },
   {
@@ -943,6 +1153,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 23
     }
+   ],
+   "notes": [
+    "A normal angle is under 180 degrees.",
+    "Not the threshold.",
+    "A normal angle is under 180 degrees.",
+    "180 degrees or more means clubbing."
    ]
   },
   {
@@ -961,6 +1177,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 24
     }
+   ],
+   "notes": [
+    "Painful clubbing with periostitis.",
+    "Simple clubbing is painless.",
+    "Not the difference.",
+    "Spoon nails are koilonychia."
    ]
   },
   {
@@ -979,6 +1201,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 29
     }
+   ],
+   "notes": [
+    "Mydriasis is the opposite.",
+    "Not Horner's.",
+    "Miosis, ptosis and loss of sweating on one side.",
+    "Exophthalmos is not part of it."
    ]
   },
   {
@@ -1021,6 +1249,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 31
     }
+   ],
+   "notes": [
+    "Pleural fluid blocks vibrations.",
+    "Air in the pleura blocks vibrations.",
+    "Air blocks vibrations.",
+    "Solid lung transmits vibrations better."
    ]
   },
   {
@@ -1039,6 +1273,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 34
     }
+   ],
+   "notes": [
+    "The gastric bubble is resonant.",
+    "The colonic angle is resonant.",
+    "Solid organs are dull.",
+    "Healthy lung is resonant."
    ]
   },
   {
@@ -1057,6 +1297,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 35
     }
+   ],
+   "notes": [
+    "Excess air gives hyperresonance.",
+    "Fluid gives dullness.",
+    "Consolidation gives dullness.",
+    "Thick pleura gives dullness."
    ]
   },
   {
@@ -1075,6 +1321,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 38
     }
+   ],
+   "notes": [
+    "Not only expiration.",
+    "Heard in inspiration and early expiration.",
+    "Not at the end.",
+    "It is the normal sound."
    ]
   },
   {
@@ -1093,6 +1345,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 38
     }
+   ],
+   "notes": [
+    "Not the bases.",
+    "Not the axilla.",
+    "Tracheal breathing is heard over the neck.",
+    "Not the abdomen."
    ]
   },
   {
@@ -1111,6 +1369,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 40
     }
+   ],
+   "notes": [
+    "Asthma gives wheeze.",
+    "Pneumothorax abolishes sounds.",
+    "Spasm gives stridor.",
+    "Fine velcro crackles suggest fibrosis or fluid."
    ]
   },
   {
@@ -1129,6 +1393,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 41
     }
+   ],
+   "notes": [
+    "Rice krispies is crackles.",
+    "A rub sounds like walking on fresh snow.",
+    "Velcro is fibrosis crackles.",
+    "A rooster crow suggests stridor."
    ]
   },
   {
@@ -1147,6 +1417,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 41
     }
+   ],
+   "notes": [
+    "Stridor is a loud inspiratory upper airway sound.",
+    "Snoring is rhonchi.",
+    "These are crackles.",
+    "This is normal."
    ]
   },
   {
@@ -1165,6 +1441,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 42
     }
+   ],
+   "notes": [
+    "This is pneumothorax.",
+    "Not consolidation.",
+    "Dullness with bronchial breathing.",
+    "This is asthma."
    ]
   },
   {
@@ -1183,6 +1465,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 42
     }
+   ],
+   "notes": [
+    "Air: hyperresonance and no breath sounds.",
+    "This is consolidation.",
+    "This is consolidation or fluid.",
+    "Not pneumothorax."
    ]
   },
   {
@@ -1201,6 +1489,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 43
     }
+   ],
+   "notes": [
+    "Not relevant.",
+    "Not relevant.",
+    "Not the key point.",
+    "Look for other serous effusions."
    ]
   },
   {
@@ -1219,6 +1513,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 44
     }
+   ],
+   "notes": [
+    "Asthma has no nodes.",
+    "Tuberculosis often enlarges nodes.",
+    "A fracture has no nodes.",
+    "Pneumothorax has no nodes."
    ]
   },
   {
@@ -1240,6 +1540,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 39
     }
+   ],
+   "notes": [
+    "Fluid blocks the sound.",
+    "Air blocks the sound.",
+    "Asthma gives wheeze.",
+    "Bronchitis gives rhonchi."
    ]
   },
   {
@@ -1261,6 +1567,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 9
     }
+   ],
+   "notes": [
+    "Funnel chest.",
+    "Keel chest.",
+    "Not a chest deformity.",
+    "Knock knees."
    ]
   },
   {
@@ -1282,6 +1594,12 @@ SINA.lectures["semio-resp-exam"] = {
      "lec": "Respiratory clinical examination",
      "n": 42
     }
+   ],
+   "notes": [
+    "Wheeze is an added sound.",
+    "Crackles are added sounds.",
+    "Vesicular breathing is normal.",
+    "Tracheal breathing is normal."
    ]
   }
  ],
@@ -1509,6 +1827,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 2
     }
+   ],
+   "notes": [
+    "Fluid between the two pleural layers.",
+    "Air in the pleura is pneumothorax.",
+    "Pus in the alveoli is pneumonia.",
+    "Not an effusion."
    ]
   },
   {
@@ -1532,6 +1856,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 7
     }
+   ],
+   "notes": [
+    "Hyperlucency is air (pneumothorax).",
+    "Fluid rises along the wall: a meniscus.",
+    "An air bronchogram is consolidation.",
+    "A cavity with a level is an abscess."
    ]
   },
   {
@@ -1555,6 +1885,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 9
     }
+   ],
+   "notes": [
+    "Movement toward the lesion is retraction (collapse).",
+    "A large effusion pushes it.",
+    "Fluid pushes the mediastinum away.",
+    "Not upward."
    ]
   },
   {
@@ -1573,6 +1909,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 12
     }
+   ],
+   "notes": [
+    "The vessels and nerve run under each rib.",
+    "Not through the sternum.",
+    "Not the standard site.",
+    "Above the lower rib avoids the intercostal bundle."
    ]
   },
   {
@@ -1591,6 +1933,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 16
     }
+   ],
+   "notes": [
+    "Under 30 g/L is a transudate.",
+    "Over 30 g/L is an exudate.",
+    "Not the threshold.",
+    "Not the threshold."
    ]
   },
   {
@@ -1609,6 +1957,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 17
     }
+   ],
+   "notes": [
+    "The X-ray shows the effusion, not its cause.",
+    "Fremitus is a sign, not a cause.",
+    "Spirometry measures function.",
+    "Biopsy gives tissue for the cause."
    ]
   },
   {
@@ -1627,6 +1981,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 21
     }
+   ],
+   "notes": [
+    "Air in the pleural space collapses the lung.",
+    "Fluid is an effusion.",
+    "Pus in the lung is an abscess.",
+    "Not a pneumothorax."
    ]
   },
   {
@@ -1645,6 +2005,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 22
     }
+   ],
+   "notes": [
+    "Trauma is a separate type.",
+    "Surgery is iatrogenic.",
+    "No underlying lung disease is found.",
+    "Emphysema makes it secondary."
    ]
   },
   {
@@ -1663,6 +2029,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 27
     }
+   ],
+   "notes": [
+    "Dullness is fluid or solid.",
+    "Air in the pleura changes the sound.",
+    "A rub is pleurisy.",
+    "Extra air gives hyperresonance."
    ]
   },
   {
@@ -1681,6 +2053,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 28
     }
+   ],
+   "notes": [
+    "The visceral pleura line outlines the collapsed lung.",
+    "The angle is where fluid collects.",
+    "The meniscus is fluid.",
+    "An air bronchogram is consolidation."
    ]
   },
   {
@@ -1699,6 +2077,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 34
     }
+   ],
+   "notes": [
+    "A meniscus alone is fluid.",
+    "Pure lucency is pneumothorax.",
+    "Fluid below, air above, with a flat level.",
+    "An air bronchogram is consolidation."
    ]
   },
   {
@@ -1722,6 +2106,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 35
     }
+   ],
+   "notes": [
+    "Blood with air is haemopneumothorax.",
+    "Pus with air is pyopneumothorax.",
+    "Chyle is not the definition.",
+    "Clear fluid with air is hydropneumothorax."
    ]
   },
   {
@@ -1740,6 +2130,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 37
     }
+   ],
+   "notes": [
+    "Decreased fremitus is fluid or air.",
+    "Absent fremitus is fluid or air.",
+    "Crepitus is subcutaneous air.",
+    "Solid lung transmits vibration better."
    ]
   },
   {
@@ -1763,6 +2159,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 39
     }
+   ],
+   "notes": [
+    "Air in the pleura is pneumothorax.",
+    "A cavity is a lucent zone.",
+    "Air-filled bronchi seen through filled alveoli.",
+    "A blunted angle is an effusion."
    ]
   },
   {
@@ -1781,6 +2183,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 43
     }
+   ],
+   "notes": [
+    "A blocked bronchus collapses the lung behind it.",
+    "Pneumonia is not retracted.",
+    "An infarct is not retracted.",
+    "Not the classic cause."
    ]
   },
   {
@@ -1799,6 +2207,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 42
     }
+   ],
+   "notes": [
+    "Moving away is a space-occupying lesion.",
+    "Volume loss pulls structures toward it.",
+    "They move.",
+    "Not only downward."
    ]
   },
   {
@@ -1817,6 +2231,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 47
     }
+   ],
+   "notes": [
+    "Centrilobular is the blue bloater.",
+    "Chronic bronchitis is the blue bloater.",
+    "Panlobular emphysema is the pink puffer.",
+    "Asthma is not this type."
    ]
   },
   {
@@ -1835,6 +2255,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 46
     }
+   ],
+   "notes": [
+    "Dullness is fluid or consolidation.",
+    "A rub is pleurisy.",
+    "Excess air changes the sound.",
+    "Air trapping gives diffuse hyperresonance."
    ]
   },
   {
@@ -1853,6 +2279,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 51
     }
+   ],
+   "notes": [
+    "An effusion is a fluid syndrome.",
+    "A TB cavern is a cavity.",
+    "Asthma has no cavity.",
+    "Bronchitis has no cavity."
    ]
   },
   {
@@ -1871,6 +2303,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 54
     }
+   ],
+   "notes": [
+    "The X-ray is usually normal.",
+    "A meniscus is an effusion.",
+    "An air bronchogram is consolidation.",
+    "Hyperlucency is air."
    ]
   },
   {
@@ -1889,6 +2327,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 56
     }
+   ],
+   "notes": [
+    "Bronchospasm is reversible.",
+    "This is emphysema.",
+    "Permanent, irreversible bronchial dilatation.",
+    "This is pachypleuritis."
    ]
   },
   {
@@ -1907,6 +2351,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 65
     }
+   ],
+   "notes": [
+    "A clot or tumour blocks the SVC.",
+    "An effusion does not block the SVC.",
+    "Asthma does not.",
+    "A pneumothorax does not."
    ]
   },
   {
@@ -1925,6 +2375,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 67
     }
+   ],
+   "notes": [
+    "The SVC drains the upper body.",
+    "Ascites is not the SVC.",
+    "Hepatomegaly is not the SVC.",
+    "Blocked upper-body drainage swells the face and neck."
    ]
   },
   {
@@ -1943,6 +2399,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 72
     }
+   ],
+   "notes": [
+    "Not this syndrome.",
+    "An apical tumour invading the sympathetic chain causes Horner.",
+    "Not this syndrome.",
+    "Not this syndrome."
    ]
   },
   {
@@ -1964,6 +2426,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 4
     }
+   ],
+   "notes": [
+    "Fluid gives dullness.",
+    "Fluid blocks vibrations.",
+    "Hyperresonance is air.",
+    "Bronchial breathing is consolidation."
    ]
   },
   {
@@ -1985,6 +2453,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 13
     }
+   ],
+   "notes": [
+    "It confirms the fluid.",
+    "It samples the fluid for tests.",
+    "Spirometry measures volume.",
+    "It does not treat asthma."
    ]
   },
   {
@@ -2006,6 +2480,12 @@ SINA.lectures["semio-resp-syndromes"] = {
      "lec": "Thoracic syndromes",
      "n": 73
     }
+   ],
+   "notes": [
+    "Recurrent laryngeal nerve palsy gives dysphonia.",
+    "Phrenic irritation gives hiccups.",
+    "Diplopia is not a mediastinal sign.",
+    "Hearing loss is not a mediastinal sign."
    ]
   }
  ],
@@ -2222,6 +2702,12 @@ SINA.lectures["semio-cv-intro"] = {
      "lec": "Cardiovascular semiology: introduction",
      "n": 3
     }
+   ],
+   "notes": [
+    "3 to 5 minutes of rest gives stable baseline readings.",
+    "Too short to settle.",
+    "Longer than needed.",
+    "Longer than needed."
    ]
   },
   {
@@ -2240,6 +2726,12 @@ SINA.lectures["semio-cv-intro"] = {
      "lec": "Cardiovascular semiology: introduction",
      "n": 3
     }
+   ],
+   "notes": [
+    "The dominant arm can be used.",
+    "Cuff pressure on the mastectomy side risks lymphoedema.",
+    "The left arm can be used.",
+    "The non-dominant arm can be used."
    ]
   },
   {
@@ -2258,6 +2750,12 @@ SINA.lectures["semio-cv-intro"] = {
      "lec": "Cardiovascular semiology: introduction",
      "n": 4
     }
+   ],
+   "notes": [
+    "An appendectomy scar is in the right iliac fossa.",
+    "A lung biopsy does not leave a sternal scar.",
+    "Sternotomy, splitting the sternum, is used for open-heart surgery.",
+    "A rib fracture leaves no scar."
    ]
   },
   {
@@ -2281,6 +2779,12 @@ SINA.lectures["semio-cv-intro"] = {
      "lec": "Cardiovascular semiology: introduction",
      "n": 6
     }
+   ],
+   "notes": [
+    "Down syndrome is not the classic link.",
+    "Turner syndrome is not the classic link.",
+    "Cushing syndrome does not deform the sternum.",
+    "Marfan's connective tissue defect deforms the sternum."
    ]
   },
   {
@@ -2299,6 +2803,12 @@ SINA.lectures["semio-cv-intro"] = {
      "lec": "Cardiovascular semiology: introduction",
      "n": 8
     }
+   ],
+   "notes": [
+    "Anaemia gives pallor.",
+    "Xanthelasma are cholesterol deposits.",
+    "Hyperthyroidism gives eye signs, not plaques.",
+    "Liver failure gives jaundice."
    ]
   },
   {
@@ -2317,6 +2827,12 @@ SINA.lectures["semio-cv-intro"] = {
      "lec": "Cardiovascular semiology: introduction",
      "n": 9
     }
+   ],
+   "notes": [
+    "Hypertensive retinopathy gives other changes.",
+    "Diabetic retinopathy gives other changes.",
+    "Heart failure does not give Roth spots.",
+    "Roth spots are retinal haemorrhages of endocarditis."
    ]
   },
   {
@@ -2335,6 +2851,12 @@ SINA.lectures["semio-cv-intro"] = {
      "lec": "Cardiovascular semiology: introduction",
      "n": 11
     }
+   ],
+   "notes": [
+    "With less Hb, saturation must fall lower before cyanosis shows.",
+    "Normal saturation does not cause cyanosis.",
+    "Too high for an anaemic patient.",
+    "It can appear, but late."
    ]
   },
   {
@@ -2353,6 +2875,12 @@ SINA.lectures["semio-cv-intro"] = {
      "lec": "Cardiovascular semiology: introduction",
      "n": 13
     }
+   ],
+   "notes": [
+    "Janeway lesions are painless.",
+    "Splinter haemorrhages are painless.",
+    "Osler nodes are painful immune nodules.",
+    "Roth spots are in the retina and painless."
    ]
   },
   {
@@ -2371,6 +2899,12 @@ SINA.lectures["semio-cv-intro"] = {
      "lec": "Cardiovascular semiology: introduction",
      "n": 16
     }
+   ],
+   "notes": [
+    "External jugulars are less reliable.",
+    "External jugulars are less reliable.",
+    "The left side is less direct.",
+    "The right internal jugular is in direct line with the right atrium."
    ]
   },
   {
@@ -2389,6 +2923,12 @@ SINA.lectures["semio-cv-intro"] = {
      "lec": "Cardiovascular semiology: introduction",
      "n": 16
     }
+   ],
+   "notes": [
+    "The JVP reflects right heart filling pressure.",
+    "It is not a test of hydration.",
+    "Carotid pulsation is arterial.",
+    "The thyroid is examined separately."
    ]
   },
   {
@@ -2407,6 +2947,12 @@ SINA.lectures["semio-cv-intro"] = {
      "lec": "Cardiovascular semiology: introduction",
      "n": 18
     }
+   ],
+   "notes": [
+    "Flat fills the veins too much.",
+    "Upright hides the venous column.",
+    "15 to 45 degrees shows the top of the venous column.",
+    "Head down is not used."
    ]
   },
   {
@@ -2425,6 +2971,12 @@ SINA.lectures["semio-cv-intro"] = {
      "lec": "Cardiovascular semiology: introduction",
      "n": 18
     }
+   ],
+   "notes": [
+    "Too small a rise.",
+    "A sustained rise over 4 cm is positive.",
+    "Too high a threshold.",
+    "A visible vein alone is not enough."
    ]
   },
   {
@@ -2443,6 +2995,12 @@ SINA.lectures["semio-cv-intro"] = {
      "lec": "Cardiovascular semiology: introduction",
      "n": 20
     }
+   ],
+   "notes": [
+    "Facial oedema is not dependent.",
+    "The chest wall is not a dependent area.",
+    "The scalp and neck are not dependent.",
+    "Gravity pulls fluid to areas below the heart."
    ]
   },
   {
@@ -2461,6 +3019,12 @@ SINA.lectures["semio-cv-intro"] = {
      "lec": "Cardiovascular semiology: introduction",
      "n": 19
     }
+   ],
+   "notes": [
+    "Frothy sputum is left heart failure.",
+    "Orthopnoea is left heart failure.",
+    "Venous congestion distends the neck veins.",
+    "Crackles are left heart failure."
    ]
   },
   {
@@ -2482,6 +3046,12 @@ SINA.lectures["semio-cv-intro"] = {
      "lec": "Cardiovascular semiology: introduction",
      "n": 13
     }
+   ],
+   "notes": [
+    "Osler nodes are an endocarditis sign.",
+    "Janeway lesions are an endocarditis sign.",
+    "Xanthelasma suggests high cholesterol.",
+    "Pectus carinatum is a chest deformity."
    ]
   }
  ],
@@ -2629,6 +3199,12 @@ SINA.lectures["semio-cv-lhf"] = {
      "lec": "Left heart failure",
      "n": 2
     }
+   ],
+   "notes": [
+    "The heart pumps less well than it should.",
+    "A stopped heart is cardiac arrest.",
+    "Valve calcification is a possible cause, not the definition.",
+    "Fluid in the pericardium is an effusion."
    ]
   },
   {
@@ -2647,6 +3223,12 @@ SINA.lectures["semio-cv-lhf"] = {
      "lec": "Left heart failure",
      "n": 4
     }
+   ],
+   "notes": [
+    "Failure to fill is diastolic failure.",
+    "Systolic failure is weak contraction.",
+    "Irregular beating is an arrhythmia.",
+    "The aorta does not relax."
    ]
   },
   {
@@ -2665,6 +3247,12 @@ SINA.lectures["semio-cv-lhf"] = {
      "lec": "Left heart failure",
      "n": 4
     }
+   ],
+   "notes": [
+    "Stretched, thin chambers are systolic failure.",
+    "Diastolic failure has thick walls.",
+    "Stiff, thick walls cannot fill properly.",
+    "Calcification is not the description."
    ]
   },
   {
@@ -2688,6 +3276,12 @@ SINA.lectures["semio-cv-lhf"] = {
      "lec": "Left heart failure",
      "n": 9
     }
+   ],
+   "notes": [
+    "The subtraction is the other way round.",
+    "This gives nothing meaningful.",
+    "This gives nothing meaningful.",
+    "Volume at the end of filling minus volume left after ejection."
    ]
   },
   {
@@ -2706,6 +3300,12 @@ SINA.lectures["semio-cv-lhf"] = {
      "lec": "Left heart failure",
      "n": 10
     }
+   ],
+   "notes": [
+    "Too low for a resting adult.",
+    "70 beats x 70 mL is about 5 L/min.",
+    "This is exercise level.",
+    "This is about one stroke volume."
    ]
   },
   {
@@ -2724,6 +3324,12 @@ SINA.lectures["semio-cv-lhf"] = {
      "lec": "Left heart failure",
      "n": 11
     }
+   ],
+   "notes": [
+    "20% is severe systolic failure.",
+    "40% or less is systolic failure.",
+    "95% is not a normal value.",
+    "Normal is about 64 to 70%."
    ]
   },
   {
@@ -2742,6 +3348,12 @@ SINA.lectures["semio-cv-lhf"] = {
      "lec": "Left heart failure",
      "n": 13
     }
+   ],
+   "notes": [
+    "Contraction is preserved, so the EF stays normal.",
+    "A low EF is systolic failure.",
+    "Zero is impossible in a living patient.",
+    "Not a realistic value."
    ]
   },
   {
@@ -2760,6 +3372,12 @@ SINA.lectures["semio-cv-lhf"] = {
      "lec": "Left heart failure",
      "n": 14
     }
+   ],
+   "notes": [
+    "The opposite: less filling, weaker contraction.",
+    "This is not Frank-Starling.",
+    "More stretch gives a stronger contraction.",
+    "Valve closure is unrelated."
    ]
   },
   {
@@ -2778,6 +3396,12 @@ SINA.lectures["semio-cv-lhf"] = {
      "lec": "Left heart failure",
      "n": 17
     }
+   ],
+   "notes": [
+    "Hypertension does not rupture the cusps.",
+    "It does not cause effusion.",
+    "It does not cause embolism.",
+    "Pumping against high pressure thickens, then weakens, the muscle."
    ]
   },
   {
@@ -2796,6 +3420,12 @@ SINA.lectures["semio-cv-lhf"] = {
      "lec": "Left heart failure",
      "n": 19
     }
+   ],
+   "notes": [
+    "Low kidney flow activates RAAS, retaining salt and water.",
+    "The parasympathetic system does not retain fluid.",
+    "The thyroid axis does not cause this.",
+    "Insulin does not cause this."
    ]
   },
   {
@@ -2814,6 +3444,12 @@ SINA.lectures["semio-cv-lhf"] = {
      "lec": "Left heart failure",
      "n": 19
     }
+   ],
+   "notes": [
+    "Myocarditis weakens contraction (systolic).",
+    "Anaemia causes high-output failure.",
+    "The thick, stiff wall fills poorly.",
+    "Hyperthyroidism causes high-output failure."
    ]
   },
   {
@@ -2832,6 +3468,12 @@ SINA.lectures["semio-cv-lhf"] = {
      "lec": "Left heart failure",
      "n": 2
     }
+   ],
+   "notes": [
+    "Ascites is a right heart failure sign.",
+    "Blood backs up into the lungs.",
+    "Leg oedema is right-sided.",
+    "Jaundice is not the main consequence."
    ]
   },
   {
@@ -2850,6 +3492,12 @@ SINA.lectures["semio-cv-lhf"] = {
      "lec": "Left heart failure",
      "n": 21
     }
+   ],
+   "notes": [
+    "This is exertional dyspnoea.",
+    "Sitting relieves breathlessness in heart failure.",
+    "Snoring is unrelated.",
+    "Waking up breathless 1 to 2 hours after falling asleep."
    ]
   },
   {
@@ -2868,6 +3516,12 @@ SINA.lectures["semio-cv-lhf"] = {
      "lec": "Left heart failure",
      "n": 21
     }
+   ],
+   "notes": [
+    "Green pus suggests infection.",
+    "Pearly sputum suggests asthma.",
+    "Fluid and red cells leaking into the alveoli give pink froth.",
+    "Chocolate pus suggests an amoebic abscess."
    ]
   },
   {
@@ -2889,6 +3543,12 @@ SINA.lectures["semio-cv-lhf"] = {
      "lec": "Left heart failure",
      "n": 21
     }
+   ],
+   "notes": [
+    "Orthopnoea is breathlessness lying flat.",
+    "Fluid in the alveoli gives crackles.",
+    "Ascites is a right-sided sign.",
+    "Jaundice is not a lung sign."
    ]
   }
  ],
@@ -3059,6 +3719,12 @@ SINA.lectures["semio-cv-rhf"] = {
      "lec": "Right heart failure",
      "n": 6
     }
+   ],
+   "notes": [
+    "Left heart failure raises lung pressure and then strains the right heart.",
+    "Pneumonia is not the most common cause.",
+    "Anaemia is not the most common cause.",
+    "Hyperthyroidism is not the most common cause."
    ]
   },
   {
@@ -3077,6 +3743,12 @@ SINA.lectures["semio-cv-rhf"] = {
      "lec": "Right heart failure",
      "n": 4
     }
+   ],
+   "notes": [
+    "Venous return is not lowered.",
+    "Raised pulmonary pressure makes the right ventricle work harder.",
+    "The aorta is on the left side.",
+    "The coronaries are not blocked by this."
    ]
   },
   {
@@ -3095,6 +3767,12 @@ SINA.lectures["semio-cv-rhf"] = {
      "lec": "Right heart failure",
      "n": 6
     }
+   ],
+   "notes": [
+    "Right to left comes later (Eisenmenger).",
+    "Not initially.",
+    "High left pressure pushes blood to the right side.",
+    "A defect lets blood shunt."
    ]
   },
   {
@@ -3113,6 +3791,12 @@ SINA.lectures["semio-cv-rhf"] = {
      "lec": "Right heart failure",
      "n": 16
     }
+   ],
+   "notes": [
+    "Systemic pressure affects the left heart.",
+    "This is a left-sided valve.",
+    "Spasm causes angina.",
+    "Hypoxia narrows lung arteries and raises pulmonary pressure."
    ]
   },
   {
@@ -3131,6 +3815,12 @@ SINA.lectures["semio-cv-rhf"] = {
      "lec": "Right heart failure",
      "n": 16
     }
+   ],
+   "notes": [
+    "A rare congenital defect.",
+    "Cor pulmonale is right heart failure from lung disease.",
+    "Tamponade is fluid compressing the heart.",
+    "Dressler syndrome is pericarditis after a heart attack."
    ]
   },
   {
@@ -3149,6 +3839,12 @@ SINA.lectures["semio-cv-rhf"] = {
      "lec": "Right heart failure",
      "n": 12
     }
+   ],
+   "notes": [
+    "Hypoxia stimulates red cells, not anaemia.",
+    "Platelets are not the response.",
+    "White cells are not the response.",
+    "Low oxygen drives EPO and more red cells."
    ]
   },
   {
@@ -3167,6 +3863,12 @@ SINA.lectures["semio-cv-rhf"] = {
      "lec": "Right heart failure",
      "n": 13
     }
+   ],
+   "notes": [
+    "Cyanosis shows severe hypoxia.",
+    "Pink skin is normal.",
+    "Hypoxia speeds up breathing.",
+    "Severe hypoxia causes restlessness."
    ]
   },
   {
@@ -3185,6 +3887,12 @@ SINA.lectures["semio-cv-rhf"] = {
      "lec": "Right heart failure",
      "n": 16
     }
+   ],
+   "notes": [
+    "The carotid is arterial.",
+    "The thyroid is unrelated.",
+    "Venous congestion fills the jugulars.",
+    "Tracheal shift is a chest sign."
    ]
   },
   {
@@ -3203,6 +3911,12 @@ SINA.lectures["semio-cv-rhf"] = {
      "lec": "Right heart failure",
      "n": 14
     }
+   ],
+   "notes": [
+    "Hepatitis A is a virus.",
+    "Gallstones are unrelated.",
+    "Pancreatitis is unrelated.",
+    "Chronic congestion damages the liver into cardiac cirrhosis."
    ]
   },
   {
@@ -3221,6 +3935,12 @@ SINA.lectures["semio-cv-rhf"] = {
      "lec": "Right heart failure",
      "n": 15
     }
+   ],
+   "notes": [
+    "Lying down, fluid moves to the sacrum.",
+    "Ankles are where oedema collects when standing.",
+    "The face is not the main site.",
+    "The hands are not the main site."
    ]
   },
   {
@@ -3239,6 +3959,12 @@ SINA.lectures["semio-cv-rhf"] = {
      "lec": "Right heart failure",
      "n": 15
     }
+   ],
+   "notes": [
+    "2 mm is grade 1.",
+    "3 to 4 mm is grade 2.",
+    "Grade 3 is 5 to 6 mm.",
+    "8 mm is grade 4."
    ]
   },
   {
@@ -3257,6 +3983,12 @@ SINA.lectures["semio-cv-rhf"] = {
      "lec": "Right heart failure",
      "n": 14
     }
+   ],
+   "notes": [
+    "Pleural effusion is in the chest.",
+    "Ascites is fluid in the peritoneum.",
+    "Pericardial effusion surrounds the heart.",
+    "Haemarthrosis is blood in a joint."
    ]
   },
   {
@@ -3275,6 +4007,12 @@ SINA.lectures["semio-cv-rhf"] = {
      "lec": "Right heart failure",
      "n": 19
     }
+   ],
+   "notes": [
+    "Haematemesis is GI bleeding.",
+    "Bloody stools are not a congestion sign.",
+    "Steatorrhoea is malabsorption.",
+    "Gut congestion causes anorexia and discomfort."
    ]
   },
   {
@@ -3293,6 +4031,12 @@ SINA.lectures["semio-cv-rhf"] = {
      "lec": "Right heart failure",
      "n": 19
     }
+   ],
+   "notes": [
+    "Ascites is right-sided.",
+    "Jugular distension is right-sided.",
+    "Nocturnal dyspnoea comes from lung congestion (left).",
+    "Hepatomegaly is right-sided."
    ]
   },
   {
@@ -3319,6 +4063,12 @@ SINA.lectures["semio-cv-rhf"] = {
      "lec": "Right heart failure",
      "n": 9
     }
+   ],
+   "notes": [
+    "Left heart failure is the commonest cause.",
+    "COPD causes cor pulmonale.",
+    "Hyperlipidaemia is not a direct cause.",
+    "Migraine is unrelated."
    ]
   }
  ],
@@ -3476,6 +4226,12 @@ SINA.lectures["semio-cv-angina"] = {
      "lec": "Angina pectoris",
      "n": 4
     }
+   ],
+   "notes": [
+    "Angina means strangling; pectoris means of the chest.",
+    "This is not the literal meaning.",
+    "This is not the literal meaning.",
+    "Death of heart muscle is infarction."
    ]
   },
   {
@@ -3494,6 +4250,12 @@ SINA.lectures["semio-cv-angina"] = {
      "lec": "Angina pectoris",
      "n": 4
     }
+   ],
+   "notes": [
+    "Leg pain on walking is claudication.",
+    "In the elderly, angina can present as atypical epigastric pain.",
+    "Headache is not an angina equivalent.",
+    "Visual loss is not an angina equivalent."
    ]
   },
   {
@@ -3512,6 +4274,12 @@ SINA.lectures["semio-cv-angina"] = {
      "lec": "Angina pectoris",
      "n": 5
     }
+   ],
+   "notes": [
+    "Severity does not separate them.",
+    "Duration alone does not separate them.",
+    "Angina is ischaemia without muscle death.",
+    "Both can radiate to the left arm."
    ]
   },
   {
@@ -3530,6 +4298,12 @@ SINA.lectures["semio-cv-angina"] = {
      "lec": "Angina pectoris",
      "n": 7
     }
+   ],
+   "notes": [
+    "Too small to limit flow.",
+    "Too small to limit flow.",
+    "Not any narrowing causes symptoms.",
+    "Over 70% stenosis cannot meet demand on exertion."
    ]
   },
   {
@@ -3548,6 +4322,12 @@ SINA.lectures["semio-cv-angina"] = {
      "lec": "Angina pectoris",
      "n": 12
     }
+   ],
+   "notes": [
+    "Meals can trigger angina.",
+    "Rest lowers oxygen demand and relieves it.",
+    "Lying flat does not relieve it.",
+    "Exercise triggers it."
    ]
   },
   {
@@ -3566,6 +4346,12 @@ SINA.lectures["semio-cv-angina"] = {
      "lec": "Angina pectoris",
      "n": 11
     }
+   ],
+   "notes": [
+    "The epicardium is better perfused.",
+    "Full-thickness ischaemia is transmural (Prinzmetal).",
+    "The pericardium is not muscle.",
+    "The subendocardium is the most vulnerable layer."
    ]
   },
   {
@@ -3589,6 +4375,12 @@ SINA.lectures["semio-cv-angina"] = {
      "lec": "Angina pectoris",
      "n": 24
     }
+   ],
+   "notes": [
+    "Subendocardial ischaemia depresses the ST segment.",
+    "ST elevation is transmural (Prinzmetal or infarction).",
+    "Q waves mean an old infarction.",
+    "Peaked T waves suggest hyperkalaemia or early infarction."
    ]
   },
   {
@@ -3612,6 +4404,12 @@ SINA.lectures["semio-cv-angina"] = {
      "lec": "Angina pectoris",
      "n": 17
     }
+   ],
+   "notes": [
+    "Spasm causes Prinzmetal angina.",
+    "Aortic stenosis is a fixed valve cause.",
+    "A clot on a ruptured plaque narrows the artery further.",
+    "Anaemia lowers oxygen supply but is not the cause."
    ]
   },
   {
@@ -3623,7 +4421,13 @@ SINA.lectures["semio-cv-angina"] = {
     "High infarction risk"
    ],
    "answer": 3,
-   "why": "The tissue is alive but ischaemic, with a high risk of myocardial infarction."
+   "why": "The tissue is alive but ischaemic, with a high risk of myocardial infarction.",
+   "notes": [
+    "It is not always fatal.",
+    "It mainly threatens the heart, not the brain.",
+    "It does not damage valves.",
+    "It often progresses to infarction."
+   ]
   },
   {
    "q": "What causes Prinzmetal angina?",
@@ -3646,6 +4450,12 @@ SINA.lectures["semio-cv-angina"] = {
      "lec": "Angina pectoris",
      "n": 19
     }
+   ],
+   "notes": [
+    "Coronary spasm closes the artery temporarily.",
+    "A fixed plaque causes stable angina.",
+    "A valve leak is unrelated.",
+    "A clot causes unstable angina."
    ]
   },
   {
@@ -3664,6 +4474,12 @@ SINA.lectures["semio-cv-angina"] = {
      "lec": "Angina pectoris",
      "n": 19
     }
+   ],
+   "notes": [
+    "Exertion triggers stable angina.",
+    "Meals are not the trigger.",
+    "Spasm occurs at rest, often at night.",
+    "Not seasonal."
    ]
   },
   {
@@ -3682,6 +4498,12 @@ SINA.lectures["semio-cv-angina"] = {
      "lec": "Angina pectoris",
      "n": 19
     }
+   ],
+   "notes": [
+    "ST depression is stable or unstable angina.",
+    "Spasm closes the artery fully: transmural ischaemia, ST elevation.",
+    "Q waves mean necrosis.",
+    "The ECG changes during attacks."
    ]
   },
   {
@@ -3700,6 +4522,12 @@ SINA.lectures["semio-cv-angina"] = {
      "lec": "Angina pectoris",
      "n": 19
     }
+   ],
+   "notes": [
+    "These do not provoke spasm.",
+    "These do not provoke spasm.",
+    "These are used in other tests.",
+    "Ergonovine or acetylcholine provoke spasm."
    ]
   },
   {
@@ -3723,6 +4551,12 @@ SINA.lectures["semio-cv-angina"] = {
      "lec": "Angina pectoris",
      "n": 27
     }
+   ],
+   "notes": [
+    "Aspirin is swallowed, as an antiplatelet.",
+    "Warfarin is an oral anticoagulant.",
+    "Sublingual nitroglycerin dilates the vessels quickly.",
+    "Furosemide is a diuretic."
    ]
   },
   {
@@ -3741,6 +4575,12 @@ SINA.lectures["semio-cv-angina"] = {
      "lec": "Angina pectoris",
      "n": 27
     }
+   ],
+   "notes": [
+    "They restore coronary flow.",
+    "Valve replacement treats valve disease.",
+    "A pacemaker treats bradycardia.",
+    "Transplant is not the standard treatment."
    ]
   },
   {
@@ -3767,6 +4607,12 @@ SINA.lectures["semio-cv-angina"] = {
      "lec": "Angina pectoris",
      "n": 27
     }
+   ],
+   "notes": [
+    "Nitrates dilate the vessels.",
+    "Beta blockers lower oxygen demand.",
+    "Antibiotics are not used.",
+    "Laxatives are not used."
    ]
   }
  ],
@@ -3919,6 +4765,12 @@ SINA.lectures["semio-cv-arrhythmia"] = {
      "lec": "Arrhythmias",
      "n": 2
     }
+   ],
+   "notes": [
+    "AFib is the commonest significant arrhythmia.",
+    "Flutter is much less common.",
+    "VT is less common.",
+    "Heart block is less common."
    ]
   },
   {
@@ -3937,6 +4789,12 @@ SINA.lectures["semio-cv-arrhythmia"] = {
      "lec": "Arrhythmias",
      "n": 3
     }
+   ],
+   "notes": [
+    "Far too low.",
+    "Almost 59 million in 2019.",
+    "Far too high.",
+    "Far too low."
    ]
   },
   {
@@ -3955,6 +4813,12 @@ SINA.lectures["semio-cv-arrhythmia"] = {
      "lec": "Arrhythmias",
      "n": 7
     }
+   ],
+   "notes": [
+    "The AV node relays the signal.",
+    "The bundle of His conducts it.",
+    "The SA node is the natural pacemaker.",
+    "Purkinje fibres are the last step."
    ]
   },
   {
@@ -3973,6 +4837,12 @@ SINA.lectures["semio-cv-arrhythmia"] = {
      "lec": "Arrhythmias",
      "n": 9
     }
+   ],
+   "notes": [
+    "This is the QRS.",
+    "This is the T wave.",
+    "The AV delay is the PR segment.",
+    "The P wave is atrial depolarisation."
    ]
   },
   {
@@ -3991,6 +4861,12 @@ SINA.lectures["semio-cv-arrhythmia"] = {
      "lec": "Arrhythmias",
      "n": 10
     }
+   ],
+   "notes": [
+    "Too long; this is a wide QRS.",
+    "Normal QRS is 0.08 to 0.12 s.",
+    "Far too long.",
+    "Too short."
    ]
   },
   {
@@ -4009,6 +4885,12 @@ SINA.lectures["semio-cv-arrhythmia"] = {
      "lec": "Arrhythmias",
      "n": 23
     }
+   ],
+   "notes": [
+    "Sawtooth F waves are flutter.",
+    "Wide regular QRS suggests VT.",
+    "ST elevation is ischaemia.",
+    "No P waves and irregular QRS spacing."
    ]
   },
   {
@@ -4027,6 +4909,12 @@ SINA.lectures["semio-cv-arrhythmia"] = {
      "lec": "Arrhythmias",
      "n": 23
     }
+   ],
+   "notes": [
+    "Flutter is an organised circuit at 250 to 350.",
+    "This is a normal sinus rate.",
+    "This is AFib.",
+    "Too slow."
    ]
   },
   {
@@ -4045,6 +4933,12 @@ SINA.lectures["semio-cv-arrhythmia"] = {
      "lec": "Arrhythmias",
      "n": 23
     }
+   ],
+   "notes": [
+    "Irregularly irregular is AFib.",
+    "Ventricles still beat.",
+    "A fixed AV block makes the response regular.",
+    "It is usually fast."
    ]
   },
   {
@@ -4063,6 +4957,12 @@ SINA.lectures["semio-cv-arrhythmia"] = {
      "lec": "Arrhythmias",
      "n": 18
     }
+   ],
+   "notes": [
+    "Not the main site.",
+    "Not the main site.",
+    "Not the main site.",
+    "Blood stagnates in the left atrial appendage."
    ]
   },
   {
@@ -4086,6 +4986,12 @@ SINA.lectures["semio-cv-arrhythmia"] = {
      "lec": "Arrhythmias",
      "n": 23
     }
+   ],
+   "notes": [
+    "About five-fold.",
+    "It clearly raises the risk.",
+    "More than that.",
+    "Far too high."
    ]
   },
   {
@@ -4104,6 +5010,12 @@ SINA.lectures["semio-cv-arrhythmia"] = {
      "lec": "Arrhythmias",
      "n": 15
     }
+   ],
+   "notes": [
+    "Not the classic link.",
+    "Not the classic link.",
+    "Mitral disease enlarges the left atrium.",
+    "Not the main link."
    ]
   },
   {
@@ -4122,6 +5034,12 @@ SINA.lectures["semio-cv-arrhythmia"] = {
      "lec": "Arrhythmias",
      "n": 15
     }
+   ],
+   "notes": [
+    "Spasm is unrelated.",
+    "Pressure overload stretches and scars the atria.",
+    "No valve rupture.",
+    "Not pericarditis."
    ]
   },
   {
@@ -4140,6 +5058,12 @@ SINA.lectures["semio-cv-arrhythmia"] = {
      "lec": "Arrhythmias",
      "n": 25
     }
+   ],
+   "notes": [
+    "AFib is far more common.",
+    "Reversed.",
+    "Too high.",
+    "About 9 AFib cases for each flutter case."
    ]
   },
   {
@@ -4158,6 +5082,12 @@ SINA.lectures["semio-cv-arrhythmia"] = {
      "lec": "Arrhythmias",
      "n": 21
     }
+   ],
+   "notes": [
+    "Not cardiac.",
+    "Not cardiac.",
+    "Ablation destroys the abnormal pathways.",
+    "Not cardiac."
    ]
   },
   {
@@ -4179,6 +5109,12 @@ SINA.lectures["semio-cv-arrhythmia"] = {
      "lec": "Arrhythmias",
      "n": 15
     }
+   ],
+   "notes": [
+    "Hypertension enlarges the atria.",
+    "Mitral disease enlarges the left atrium.",
+    "Asthma is not a classic cause.",
+    "Migraine is unrelated."
    ]
   }
  ],
@@ -4336,6 +5272,12 @@ SINA.lectures["semio-cv-revision"] = {
      "lec": "Cardiovascular revision",
      "n": 3
     }
+   ],
+   "notes": [
+    "Flow = pressure difference / resistance.",
+    "Inverted.",
+    "Multiplying is wrong.",
+    "Adding is wrong."
    ]
   },
   {
@@ -4354,6 +5296,12 @@ SINA.lectures["semio-cv-revision"] = {
      "lec": "Cardiovascular revision",
      "n": 3
     }
+   ],
+   "notes": [
+    "Flow falls, not rises.",
+    "Higher R with the same ΔP gives less flow.",
+    "Pressure is held constant.",
+    "Flow changes."
    ]
   },
   {
@@ -4372,6 +5320,12 @@ SINA.lectures["semio-cv-revision"] = {
      "lec": "Cardiovascular revision",
      "n": 15
     }
+   ],
+   "notes": [
+    "Contracting muscle squeezes the vessels in systole.",
+    "Flow happens with every beat.",
+    "The heart relaxes in diastole and the vessels open.",
+    "Flow happens with every beat."
    ]
   },
   {
@@ -4390,6 +5344,12 @@ SINA.lectures["semio-cv-revision"] = {
      "lec": "Cardiovascular revision",
      "n": 19
     }
+   ],
+   "notes": [
+    "Endothelin constricts.",
+    "Angiotensin II constricts.",
+    "Thromboxane constricts.",
+    "NO relaxes smooth muscle."
    ]
   },
   {
@@ -4401,7 +5361,13 @@ SINA.lectures["semio-cv-revision"] = {
     "Anaemia"
    ],
    "answer": 1,
-   "why": "Impaired NO, oxidative stress, inflammation and leucocyte adhesion drive atherosclerosis, plaque rupture and atherothrombosis."
+   "why": "Impaired NO, oxidative stress, inflammation and leucocyte adhesion drive atherosclerosis, plaque rupture and atherothrombosis.",
+   "notes": [
+    "Not only valve calcification.",
+    "Less NO and more inflammation drive atherosclerosis and thrombosis.",
+    "Not pericarditis.",
+    "Not anaemia."
+   ]
   },
   {
    "q": "What is the leading cause of death worldwide?",
@@ -4419,6 +5385,12 @@ SINA.lectures["semio-cv-revision"] = {
      "lec": "Cardiovascular revision",
      "n": 28
     }
+   ],
+   "notes": [
+    "Cancer is second worldwide.",
+    "Infections are lower.",
+    "Trauma is lower.",
+    "Cardiovascular disease kills the most."
    ]
   },
   {
@@ -4437,6 +5409,12 @@ SINA.lectures["semio-cv-revision"] = {
      "lec": "Cardiovascular revision",
      "n": 28
     }
+   ],
+   "notes": [
+    "Cancer kills about twice as many in rich countries.",
+    "Second in high-income countries.",
+    "Lower.",
+    "Lower."
    ]
   },
   {
@@ -4455,6 +5433,12 @@ SINA.lectures["semio-cv-revision"] = {
      "lec": "Cardiovascular revision",
      "n": 29
     }
+   ],
+   "notes": [
+    "Too low.",
+    "Too low.",
+    "Over 70% is due to modifiable factors.",
+    "Too low."
    ]
   },
   {
@@ -4473,6 +5457,12 @@ SINA.lectures["semio-cv-revision"] = {
      "lec": "Cardiovascular revision",
      "n": 29
     }
+   ],
+   "notes": [
+    "Air pollution is environmental.",
+    "Depression is psychosocial.",
+    "Education is socioeconomic.",
+    "Hypertension is a metabolic factor."
    ]
   },
   {
@@ -4491,6 +5481,12 @@ SINA.lectures["semio-cv-revision"] = {
      "lec": "Cardiovascular revision",
      "n": 29
     }
+   ],
+   "notes": [
+    "Diet and household air pollution weigh more in poor countries.",
+    "These matter everywhere.",
+    "Not the difference.",
+    "Not the difference."
    ]
   },
   {
@@ -4509,6 +5505,12 @@ SINA.lectures["semio-cv-revision"] = {
      "lec": "Cardiovascular revision",
      "n": 27
     }
+   ],
+   "notes": [
+    "Stable gives ST depression.",
+    "Unstable gives ST depression.",
+    "Spasm causes transmural ischaemia: ST elevation.",
+    "Not the classic answer."
    ]
   },
   {
@@ -4527,6 +5529,12 @@ SINA.lectures["semio-cv-revision"] = {
      "lec": "Cardiovascular revision",
      "n": 4
     }
+   ],
+   "notes": [
+    "Systolic chambers are stretched and thin.",
+    "Diastolic chambers are stiff and thick.",
+    "Not the definition.",
+    "High-output failure is different."
    ]
   },
   {
@@ -4548,6 +5556,12 @@ SINA.lectures["semio-cv-revision"] = {
      "lec": "Cardiovascular revision",
      "n": 29
     }
+   ],
+   "notes": [
+    "Tobacco can be stopped.",
+    "Blood pressure can be treated.",
+    "Age cannot be changed.",
+    "Sex cannot be changed."
    ]
   }
  ],
@@ -7900,6 +8914,12 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
      "lec": "Hepatomegaly",
      "n": 10
     }
+   ],
+   "notes": [
+    "Hepatomegaly simply means an enlarged liver, whole or in part.",
+    "Hepatitis is one possible cause, not the definition.",
+    "A tumour is one possible cause, not the definition.",
+    "An enlarged liver is abnormal."
    ]
   },
   {
@@ -7918,6 +8938,12 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
      "lec": "Hepatomegaly",
      "n": 16
     }
+   ],
+   "notes": [
+    "Too small; a normal liver spans more than this.",
+    "The normal span on the midclavicular line is under 12 cm.",
+    "25 cm would be a very large liver.",
+    "20 cm is enlarged, and the limit is not a fixed value."
    ]
   },
   {
@@ -7936,6 +8962,12 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
      "lec": "Hepatomegaly",
      "n": 28
     }
+   ],
+   "notes": [
+    "Biopsy is invasive and not used to confirm the size.",
+    "ERCP studies the bile ducts and is invasive.",
+    "Ultrasound is simple, safe and first-line to confirm the liver size.",
+    "A chest X-ray does not assess the liver."
    ]
   },
   {
@@ -7954,6 +8986,12 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
      "lec": "Hepatomegaly",
      "n": 21
     }
+   ],
+   "notes": [
+    "The stomach lies on the left.",
+    "The pancreatic body is a left-sided differential.",
+    "The transverse colon is a left-sided differential.",
+    "A Riedel lobe is a normal tongue-like extension of the right lobe that can mimic hepatomegaly."
    ]
   },
   {
@@ -7977,6 +9015,12 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
      "lec": "Hepatomegaly",
      "n": 23
     }
+   ],
+   "notes": [
+    "The congestive liver is soft and painful.",
+    "Cirrhosis gives a hard, irregular, nodular, painless liver.",
+    "An abscess is smooth and very painful.",
+    "Acute hepatitis gives a soft, tender liver."
    ]
   },
   {
@@ -7995,6 +9039,12 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
      "lec": "Hepatomegaly",
      "n": 23
     }
+   ],
+   "notes": [
+    "The cirrhotic liver is hard and painless.",
+    "Storage diseases give a firm, painless liver.",
+    "Metastases give a hard, nodular liver.",
+    "Congestion stretches the capsule: soft, smooth and painful."
    ]
   },
   {
@@ -8013,6 +9063,12 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
      "lec": "Hepatomegaly",
      "n": 23
     }
+   ],
+   "notes": [
+    "A tumour gives a hard, irregular, nodular liver that can be painful.",
+    "Cholestasis gives a smooth, firm liver.",
+    "Storage disease gives a smooth, painless liver.",
+    "A normal liver is not palpable or is soft."
    ]
   },
   {
@@ -8031,6 +9087,12 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
      "lec": "Hepatomegaly",
      "n": 23
     }
+   ],
+   "notes": [
+    "Steatosis is painless.",
+    "Wilson's disease is not painful.",
+    "An abscess is a localised, intensely painful liver.",
+    "Haemochromatosis is painless."
    ]
   },
   {
@@ -8081,6 +9143,12 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
      "lec": "Hepatomegaly",
      "n": 27
     }
+   ],
+   "notes": [
+    "Hepatojugular reflux shows right heart congestion of the liver.",
+    "Cirrhosis is painless without reflux.",
+    "Metastases do not cause hepatojugular reflux.",
+    "An abscess causes fever and pain but no reflux."
    ]
   },
   {
@@ -8104,6 +9172,12 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
      "lec": "Hepatomegaly",
      "n": 27
     }
+   ],
+   "notes": [
+    "Heart failure gives reflux and oedema, not neurological signs.",
+    "An abscess gives fever and pain.",
+    "Copper deposits in the liver and the brain give both signs.",
+    "An adenoma has no neurological signs."
    ]
   },
   {
@@ -8122,6 +9196,12 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
      "lec": "Hepatomegaly",
      "n": 25
     }
+   ],
+   "notes": [
+    "Budd-Chiari is a congestive (vascular) cause.",
+    "Iron overload is a metabolic cause.",
+    "Hepatitis B is an infectious cause.",
+    "A metastasis is a tumoural cause."
    ]
   },
   {
@@ -8143,6 +9223,12 @@ SINA.lectures["semio-gi-hepatomegaly"] = {
      "lec": "Hepatomegaly",
      "n": 25
     }
+   ],
+   "notes": [
+    "Congestion from heart failure enlarges the liver.",
+    "Fat accumulation enlarges the liver.",
+    "Appendicitis does not enlarge the liver.",
+    "Migraine does not involve the liver."
    ]
   }
  ],
@@ -12239,6 +13325,12 @@ SINA.lectures["semio-gi-dysentery"] = {
      "lec": "Dysentery",
      "n": 4
     }
+   ],
+   "notes": [
+    "Dysentery is mucus and blood in the stools with urgency and false urges.",
+    "Watery diarrhoea without blood is not dysentery.",
+    "Constipation is the opposite.",
+    "Vomiting and fever alone do not define dysentery."
    ]
   },
   {
@@ -12257,6 +13349,12 @@ SINA.lectures["semio-gi-dysentery"] = {
      "lec": "Dysentery",
      "n": 4
     }
+   ],
+   "notes": [
+    "The stomach is not involved.",
+    "Dysentery is the rectum's reaction to inflammation, infection or a tumour.",
+    "The liver is not involved.",
+    "A kidney stone gives flank colic, not dysentery."
    ]
   },
   {
@@ -12275,6 +13373,12 @@ SINA.lectures["semio-gi-dysentery"] = {
      "lec": "Dysentery",
      "n": 7
     }
+   ],
+   "notes": [
+    "The right hypochondrium suggests the liver or gallbladder.",
+    "The epigastrium suggests the stomach.",
+    "Colonic cramps of dysentery focus on the left iliac fossa (sigmoid and rectum).",
+    "Umbilical pain suggests the small bowel."
    ]
   },
   {
@@ -12293,6 +13397,12 @@ SINA.lectures["semio-gi-dysentery"] = {
      "lec": "Dysentery",
      "n": 7
     }
+   ],
+   "notes": [
+    "Blood in the stool is rectorrhagia or haematochezia.",
+    "This is diarrhoea.",
+    "This is bloating.",
+    "Tenesmus is a painful urge to defecate with nothing to pass."
    ]
   },
   {
@@ -12311,6 +13421,12 @@ SINA.lectures["semio-gi-dysentery"] = {
      "lec": "Dysentery",
      "n": 8
     }
+   ],
+   "notes": [
+    "The stools are not faecal.",
+    "Dysenteric stools are mucus, pus and blood.",
+    "Undigested food is lientery.",
+    "Fatty stools are steatorrhoea."
    ]
   },
   {
@@ -12329,6 +13445,12 @@ SINA.lectures["semio-gi-dysentery"] = {
      "lec": "Dysentery",
      "n": 14
     }
+   ],
+   "notes": [
+    "HIV is not linked to recent antibiotics.",
+    "Thyroid tests do not look for an infection.",
+    "Colonoscopy alone does not identify the toxin.",
+    "Antibiotics favour C. difficile, so the toxin is tested."
    ]
   },
   {
@@ -12347,6 +13469,12 @@ SINA.lectures["semio-gi-dysentery"] = {
      "lec": "Dysentery",
      "n": 15
     }
+   ],
+   "notes": [
+    "Entamoeba histolytica causes amoebic dysentery.",
+    "Giardia causes watery diarrhoea without blood.",
+    "Taenia is a tapeworm, not a cause of dysentery.",
+    "Ascaris is a roundworm, not a cause of dysentery."
    ]
   },
   {
@@ -12365,6 +13493,12 @@ SINA.lectures["semio-gi-dysentery"] = {
      "lec": "Dysentery",
      "n": 15
     }
+   ],
+   "notes": [
+    "Streptococcus is not an enteric pathogen.",
+    "S. aureus gives toxin food poisoning, not dysentery.",
+    "Shigella and Salmonella are typical invasive enteric bacteria.",
+    "Mycobacteria are not found on routine stool culture."
    ]
   },
   {
@@ -12383,6 +13517,12 @@ SINA.lectures["semio-gi-dysentery"] = {
      "lec": "Dysentery",
      "n": 16
     }
+   ],
+   "notes": [
+    "A chest X-ray does not see the colon.",
+    "Echocardiography looks at the heart.",
+    "Spirometry tests the lungs.",
+    "Endoscopy shows the lesions and allows biopsies."
    ]
   },
   {
@@ -12401,6 +13541,12 @@ SINA.lectures["semio-gi-dysentery"] = {
      "lec": "Dysentery",
      "n": 17
     }
+   ],
+   "notes": [
+    "CT is for complications such as perforation or abscess.",
+    "It is not needed in every case.",
+    "It is sometimes needed.",
+    "It is not limited to children."
    ]
   },
   {
@@ -12419,6 +13565,12 @@ SINA.lectures["semio-gi-dysentery"] = {
      "lec": "Dysentery",
      "n": 18
     }
+   ],
+   "notes": [
+    "Hypothyroidism causes constipation.",
+    "Hepatitis A does not cause bloody stools.",
+    "Ulcerative colitis inflames the rectum and colon.",
+    "Asthma is a lung disease."
    ]
   },
   {
@@ -12437,6 +13589,12 @@ SINA.lectures["semio-gi-dysentery"] = {
      "lec": "Dysentery",
      "n": 10
     }
+   ],
+   "notes": [
+    "Hypotension is a sign of severity.",
+    "Severe fluid loss or septic shock lowers blood pressure.",
+    "Hypotension is never normal here.",
+    "Constipation does not cause hypotension."
    ]
   },
   {
@@ -12458,6 +13616,12 @@ SINA.lectures["semio-gi-dysentery"] = {
      "lec": "Dysentery",
      "n": 18
     }
+   ],
+   "notes": [
+    "Shigella is an invasive bacterium.",
+    "Entamoeba is a parasite that invades the colon.",
+    "Hypothyroidism is not infectious.",
+    "Gallstones are not infectious."
    ]
   }
  ],
@@ -18540,6 +19704,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 3
     }
+   ],
+   "notes": [
+    "Diarrhoea is over 300 g of stool a day.",
+    "Far above the threshold.",
+    "Normal stool weight is above this.",
+    "Normal stool weight is above this."
    ]
   },
   {
@@ -18558,6 +19728,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 4
     }
+   ],
+   "notes": [
+    "Acute diarrhoea lasts under 2 weeks.",
+    "Over 4 weeks is already chronic.",
+    "Over 4 weeks is chronic.",
+    "2 to 4 weeks is prolonged diarrhoea."
    ]
   },
   {
@@ -18576,6 +19752,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 5
     }
+   ],
+   "notes": [
+    "Large watery volumes are true diarrhoea.",
+    "Nocturnal stools suggest an organic cause, not false diarrhoea.",
+    "Bloody mucus suggests dysentery.",
+    "Frequent small hard stools under 300 g/day are false diarrhoea."
    ]
   },
   {
@@ -18594,6 +19776,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 8
     }
+   ],
+   "notes": [
+    "A toxin makes the gut actively secrete water (cholera).",
+    "Osmotic diarrhoea stops with fasting and is not choleriform.",
+    "Invasion gives dysenteric, bloody diarrhoea.",
+    "Fast transit is motor diarrhoea."
    ]
   },
   {
@@ -18612,6 +19800,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 8
     }
+   ],
+   "notes": [
+    "Rotavirus gives watery diarrhoea.",
+    "ETEC makes a toxin and gives watery diarrhoea.",
+    "Shigella invades the mucosa and gives bloody diarrhoea.",
+    "Cholera gives watery, toxin diarrhoea."
    ]
   },
   {
@@ -18630,6 +19824,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 10
     }
+   ],
+   "notes": [
+    "Iron constipates and blackens stools.",
+    "Paracetamol does not cause C. difficile.",
+    "Antibiotics disturb the flora and favour C. difficile.",
+    "Antacids are not the classic cause."
    ]
   },
   {
@@ -18648,6 +19848,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 11
     }
+   ],
+   "notes": [
+    "Tests are needed after 3 days of acute diarrhoea.",
+    "Far too late.",
+    "Too early; most episodes resolve.",
+    "One month is already chronic."
    ]
   },
   {
@@ -18666,6 +19872,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 20
     }
+   ],
+   "notes": [
+    "Exudative diarrhoea does not depend on eating.",
+    "Malabsorptive diarrhoea persists.",
+    "Secretory diarrhoea persists during fasting.",
+    "No osmotic load when fasting, so it stops."
    ]
   },
   {
@@ -18684,6 +19896,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 17
     }
+   ],
+   "notes": [
+    "Secretory stools are watery.",
+    "Fat malabsorption gives greasy, pale, foul stools.",
+    "Motor diarrhoea is post-prandial and urgent.",
+    "Osmotic stools are watery."
    ]
   },
   {
@@ -18702,6 +19920,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 18
     }
+   ],
+   "notes": [
+    "Hyperthyroidism speeds up transit.",
+    "Lactase deficiency is osmotic.",
+    "Lymphangiectasia is exudative.",
+    "Cholera is secretory."
    ]
   },
   {
@@ -18720,6 +19944,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 19
     }
+   ],
+   "notes": [
+    "TSH looks for hyperthyroidism.",
+    "Stool culture looks for bacteria.",
+    "This measures protein lost into the gut.",
+    "This screens for coeliac disease."
    ]
   },
   {
@@ -18738,6 +19968,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 16
     }
+   ],
+   "notes": [
+    "HIV serology is a different test.",
+    "Ferritin shows iron deficiency, not coeliac disease.",
+    "Culture looks for bacteria.",
+    "Anti-transglutaminase antibodies screen for coeliac disease."
    ]
   },
   {
@@ -18759,6 +19995,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 16
     }
+   ],
+   "notes": [
+    "Basic blood tests come first.",
+    "Basic blood tests come first.",
+    "Colonoscopy comes after the first-line tests.",
+    "Capsule endoscopy is a later test."
    ]
   },
   {
@@ -18777,6 +20019,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 3
     }
+   ],
+   "notes": [
+    "Far above the threshold.",
+    "Normal stool weight is above this.",
+    "Normal stool weight is above this.",
+    "Diarrhoea is over 300 g of stool a day."
    ]
   },
   {
@@ -18795,6 +20043,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 5
     }
+   ],
+   "notes": [
+    "Small hard stools under 300 g/day are not true diarrhoea.",
+    "Malabsorption gives large greasy stools.",
+    "Secretory diarrhoea gives large watery volumes.",
+    "Cholera gives large watery volumes."
    ]
   },
   {
@@ -18813,6 +20067,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 8
     }
+   ],
+   "notes": [
+    "This is osmotic diarrhoea.",
+    "This is invasive (dysenteric) diarrhoea.",
+    "Choleriform diarrhoea is toxin-driven secretion.",
+    "This is motor diarrhoea."
    ]
   },
   {
@@ -18831,6 +20091,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 8
     }
+   ],
+   "notes": [
+    "This suggests malabsorption.",
+    "This suggests choleriform diarrhoea.",
+    "Blood, mucus, fever and tenesmus mean mucosal invasion.",
+    "This suggests osmotic diarrhoea."
    ]
   },
   {
@@ -18849,6 +20115,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 10
     }
+   ],
+   "notes": [
+    "Cholera is not linked to antibiotics.",
+    "Antibiotics favour C. difficile.",
+    "Giardia is a parasite unrelated to antibiotics.",
+    "Coeliac disease is unrelated to antibiotics."
    ]
   },
   {
@@ -18867,6 +20139,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 11
     }
+   ],
+   "notes": [
+    "3 months is chronic.",
+    "3 weeks is prolonged diarrhoea.",
+    "Too early.",
+    "Tests are needed after 3 days."
    ]
   },
   {
@@ -18885,6 +20163,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 15
     }
+   ],
+   "notes": [
+    "Lumbar puncture is unrelated.",
+    "Fundoscopy is unrelated.",
+    "The rectal exam is always done (mass, impaction, blood).",
+    "Spirometry is unrelated."
    ]
   },
   {
@@ -18903,6 +20187,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 16
     }
+   ],
+   "notes": [
+    "HIV serology is another second-line test, not for coeliac disease.",
+    "Anti-transglutaminase screens for coeliac disease.",
+    "Ferritin does not diagnose coeliac disease.",
+    "TSH looks for thyroid disease."
    ]
   },
   {
@@ -18921,6 +20211,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 18
     }
+   ],
+   "notes": [
+    "A VIPoma is secretory and persists.",
+    "Cholera is secretory and persists.",
+    "Secretory diarrhoea persists during fasting.",
+    "No osmotic load when fasting, so it stops."
    ]
   },
   {
@@ -18939,6 +20235,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 17
     }
+   ],
+   "notes": [
+    "Osmotic stools are watery.",
+    "Fat malabsorption gives greasy, pale, foul stools.",
+    "Cholera is watery.",
+    "Motor diarrhoea is urgent, not greasy."
    ]
   },
   {
@@ -18957,6 +20259,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 18
     }
+   ],
+   "notes": [
+    "Malabsorption gives greasy stools.",
+    "Exudative diarrhoea loses proteins.",
+    "Secretory diarrhoea persists during fasting.",
+    "Fast transit after meals is motor diarrhoea."
    ]
   },
   {
@@ -18975,6 +20283,12 @@ SINA.lectures["semio-gi-diarrhoea"] = {
      "lec": "Diarrhoea",
      "n": 19
     }
+   ],
+   "notes": [
+    "This measures protein lost into the gut.",
+    "Breath tests look for lactose intolerance or bacterial overgrowth.",
+    "Culture looks for bacteria.",
+    "A barium enema is an imaging test, not for protein loss."
    ]
   },
   {
@@ -19011,7 +20325,13 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Acute diarrhoea"
    ],
    "answer": 0,
-   "why": "The arrow points to: Definition. Stools over 300 g/day, more than 3 per day, over 90% water."
+   "why": "The arrow points to: Definition. Stools over 300 g/day, more than 3 per day, over 90% water.",
+   "notes": [
+    "This is the box at the arrow. Definition box: over 300 g/day, over 3 stools a day, over 90% water.",
+    "Another box. Prolonged: 2 to 4 weeks.",
+    "Another box. Chronic: over 4 weeks.",
+    "Another box. Acute: under 2 weeks."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -19023,7 +20343,13 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Chronic diarrhoea"
    ],
    "answer": 1,
-   "why": "The arrow points to: Acute diarrhoea. Under 2 weeks; choleriform (secretory) or dysenteric (invasive)."
+   "why": "The arrow points to: Acute diarrhoea. Under 2 weeks; choleriform (secretory) or dysenteric (invasive).",
+   "notes": [
+    "Another box. Osmotic: stops with fasting (lactase deficiency, laxatives).",
+    "This is the box at the arrow. Acute: under 2 weeks.",
+    "Another box. Motor: fast transit, post-prandial and urgent.",
+    "Another box. Chronic: over 4 weeks."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -19035,7 +20361,13 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Chronic diarrhoea"
    ],
    "answer": 0,
-   "why": "The arrow points to: Prolonged diarrhoea. 2 to 4 weeks; post-infectious or parasitic."
+   "why": "The arrow points to: Prolonged diarrhoea. 2 to 4 weeks; post-infectious or parasitic.",
+   "notes": [
+    "This is the box at the arrow. Prolonged: 2 to 4 weeks.",
+    "Another box. Motor: fast transit, post-prandial and urgent.",
+    "Another box. Definition box: over 300 g/day, over 3 stools a day, over 90% water.",
+    "Another box. Chronic: over 4 weeks."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -19047,7 +20379,13 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Malabsorptive diarrhoea"
    ],
    "answer": 2,
-   "why": "The arrow points to: Chronic diarrhoea. Over 4 weeks; identify the mechanism."
+   "why": "The arrow points to: Chronic diarrhoea. Over 4 weeks; identify the mechanism.",
+   "notes": [
+    "Another box. Osmotic: stops with fasting (lactase deficiency, laxatives).",
+    "Another box. Prolonged: 2 to 4 weeks.",
+    "This is the box at the arrow. Chronic: over 4 weeks.",
+    "Another box. Malabsorptive: greasy, pale, foul stools."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -19059,7 +20397,13 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Motor diarrhoea"
    ],
    "answer": 1,
-   "why": "The arrow points to: Osmotic diarrhoea. Osmotically active substances (lactase deficiency, laxatives); stops with fasting."
+   "why": "The arrow points to: Osmotic diarrhoea. Osmotically active substances (lactase deficiency, laxatives); stops with fasting.",
+   "notes": [
+    "Another box. Definition box: over 300 g/day, over 3 stools a day, over 90% water.",
+    "This is the box at the arrow. Osmotic: stops with fasting (lactase deficiency, laxatives).",
+    "Another box. Malabsorptive: greasy, pale, foul stools.",
+    "Another box. Motor: fast transit, post-prandial and urgent."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -19071,7 +20415,13 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Malabsorptive diarrhoea"
    ],
    "answer": 2,
-   "why": "The arrow points to: Secretory diarrhoea. Active secretion; persists during fasting (IBD, endocrine tumours, drugs)."
+   "why": "The arrow points to: Secretory diarrhoea. Active secretion; persists during fasting (IBD, endocrine tumours, drugs).",
+   "notes": [
+    "Another box. Motor: fast transit, post-prandial and urgent.",
+    "Another box. Acute: under 2 weeks.",
+    "This is the box at the arrow. Secretory: persists during fasting.",
+    "Another box. Malabsorptive: greasy, pale, foul stools."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -19083,7 +20433,13 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Motor diarrhoea"
    ],
    "answer": 1,
-   "why": "The arrow points to: Malabsorptive diarrhoea. Abundant, greasy, pale, foul stools with deficiencies (coeliac, pancreatic insufficiency)."
+   "why": "The arrow points to: Malabsorptive diarrhoea. Abundant, greasy, pale, foul stools with deficiencies (coeliac, pancreatic insufficiency).",
+   "notes": [
+    "Another box. Acute: under 2 weeks.",
+    "This is the box at the arrow. Malabsorptive: greasy, pale, foul stools.",
+    "Another box. Prolonged: 2 to 4 weeks.",
+    "Another box. Motor: fast transit, post-prandial and urgent."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -19095,7 +20451,13 @@ SINA.lectures["semio-gi-diarrhoea"] = {
     "Secretory diarrhoea"
    ],
    "answer": 1,
-   "why": "The arrow points to: Motor diarrhoea. Accelerated transit; post-prandial, urgent, improves with fasting (hyperthyroidism, IBS)."
+   "why": "The arrow points to: Motor diarrhoea. Accelerated transit; post-prandial, urgent, improves with fasting (hyperthyroidism, IBS).",
+   "notes": [
+    "Another box. Prolonged: 2 to 4 weeks.",
+    "This is the box at the arrow. Motor: fast transit, post-prandial and urgent.",
+    "Another box. Osmotic: stops with fasting (lactase deficiency, laxatives).",
+    "Another box. Secretory: persists during fasting."
+   ]
   }
  ],
  "cards": [
@@ -19547,6 +20909,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 5
     }
+   ],
+   "notes": [
+    "A lump sensation is globus.",
+    "Odynophagia is pain when swallowing.",
+    "Total inability is aphagia.",
+    "Food sticking is dysphagia."
    ]
   },
   {
@@ -19565,6 +20933,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 3
     }
+   ],
+   "notes": [
+    "Achalasia is usually not progressive in this way.",
+    "Globus is not a real swallowing difficulty.",
+    "Progressive dysphagia in an adult is cancer until proven otherwise.",
+    "GERD gives heartburn; a stricture comes later."
    ]
   },
   {
@@ -19583,6 +20957,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 4
     }
+   ],
+   "notes": [
+    "The oral phase is the only voluntary one.",
+    "Only the first phase is voluntary.",
+    "Oesophageal peristalsis is involuntary.",
+    "The pharyngeal phase is a reflex."
    ]
   },
   {
@@ -19601,6 +20981,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 6
     }
+   ],
+   "notes": [
+    "Weight gain is not a sign.",
+    "Retrosternal sticking is oesophageal dysphagia.",
+    "A failed pharyngeal phase sends food to the airway or nose.",
+    "Heartburn suggests reflux."
    ]
   },
   {
@@ -19619,6 +21005,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 9
     }
+   ],
+   "notes": [
+    "Achalasia affects liquids from the start.",
+    "Spasm is a motor disorder.",
+    "A narrowing blocks solids first, then liquids as it worsens.",
+    "Globus is not true dysphagia."
    ]
   },
   {
@@ -19637,6 +21029,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 16
     }
+   ],
+   "notes": [
+    "Cancer gives solids-then-liquids dysphagia.",
+    "A stricture blocks solids first.",
+    "A foreign body causes sudden blockage.",
+    "A motor disorder affects liquids as much as solids."
    ]
   },
   {
@@ -19660,6 +21058,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 16
     }
+   ],
+   "notes": [
+    "Peristalsis is absent in achalasia.",
+    "Absent peristalsis and a sphincter that does not relax.",
+    "Manometry measures pressures; it does not see masses.",
+    "pH-metry measures reflux, not manometry."
    ]
   },
   {
@@ -19678,6 +21082,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 13
     }
+   ],
+   "notes": [
+    "The barium swallow is a second-line test.",
+    "Endoscopy sees the mucosa and takes biopsies.",
+    "CT is for staging, not first-line.",
+    "Manometry comes after a normal endoscopy."
    ]
   },
   {
@@ -19696,6 +21106,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 15
     }
+   ],
+   "notes": [
+    "ALS is neurological.",
+    "Achalasia is a motor disorder unrelated to reflux.",
+    "Acid reflux scars and narrows the lower oesophagus.",
+    "Zenker's is a pharyngeal pouch."
    ]
   },
   {
@@ -19719,6 +21135,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 18
     }
+   ],
+   "notes": [
+    "It is not an ulcer.",
+    "It is not a tumour.",
+    "The pharyngeal wall bulges out under pressure.",
+    "It is not a spasm."
    ]
   },
   {
@@ -19737,6 +21159,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 19
     }
+   ],
+   "notes": [
+    "Myasthenia gravis weakens the swallowing muscles.",
+    "Gallstones are not a cause.",
+    "A peptic ulcer is not a cause.",
+    "A hiatal hernia is digestive, not neurological."
    ]
   },
   {
@@ -19755,6 +21183,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 20
     }
+   ],
+   "notes": [
+    "Too small to be a red flag.",
+    "Too small to be a red flag.",
+    "Far too high a threshold.",
+    "Weight loss over 5 kg is a red flag."
    ]
   },
   {
@@ -19776,6 +21210,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 20
     }
+   ],
+   "notes": [
+    "Age over 50 raises the cancer risk.",
+    "Anaemia can reveal a bleeding tumour.",
+    "Globus is not a red flag.",
+    "Intermittent mild symptoms are reassuring."
    ]
   },
   {
@@ -19794,6 +21234,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 5
     }
+   ],
+   "notes": [
+    "Aphagia is total inability to swallow.",
+    "Dysphagia is difficulty, not pain.",
+    "Odynophagia is pain on swallowing.",
+    "Globus is a lump sensation."
    ]
   },
   {
@@ -19812,6 +21258,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 5
     }
+   ],
+   "notes": [
+    "Aphagia is total inability to swallow.",
+    "Achalasia is a motor disorder.",
+    "Odynophagia is pain on swallowing.",
+    "Globus is a lump sensation without real difficulty."
    ]
   },
   {
@@ -19830,6 +21282,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 6
     }
+   ],
+   "notes": [
+    "Oesophageal dysphagia gives retrosternal sticking.",
+    "A stricture gives retrosternal sticking of solids.",
+    "Achalasia gives retrosternal sticking.",
+    "Cough and nasal regurgitation mean a pharyngeal problem."
    ]
   },
   {
@@ -19848,6 +21306,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 7
     }
+   ],
+   "notes": [
+    "Achalasia affects liquids from the start.",
+    "Globus is not true dysphagia.",
+    "A growing narrowing blocks solids first, then liquids.",
+    "Spasm is intermittent and motor."
    ]
   },
   {
@@ -19866,6 +21330,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 9
     }
+   ],
+   "notes": [
+    "A stricture blocks solids first.",
+    "A foreign body is sudden.",
+    "Cancer blocks solids first.",
+    "Liquids as much as solids means a motor disorder."
    ]
   },
   {
@@ -19884,6 +21354,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 8
     }
+   ],
+   "notes": [
+    "A stricture develops slowly.",
+    "Cancer is progressive.",
+    "Scleroderma is progressive.",
+    "Sudden onset suggests an impacted bolus or spasm."
    ]
   },
   {
@@ -19907,6 +21383,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 22
     }
+   ],
+   "notes": [
+    "Endoscopy sees the mucosa and takes biopsies.",
+    "CT is not first-line.",
+    "The barium swallow is second-line.",
+    "Manometry comes after endoscopy."
    ]
   },
   {
@@ -19925,6 +21407,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 16
     }
+   ],
+   "notes": [
+    "Laryngoscopy looks at the larynx.",
+    "pH-metry measures reflux.",
+    "Manometry shows absent peristalsis and a non-relaxing sphincter.",
+    "Endoscopy can be nearly normal in achalasia."
    ]
   },
   {
@@ -19943,6 +21431,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 13
     }
+   ],
+   "notes": [
+    "Colonoscopy looks at the colon.",
+    "Manometry measures pressure, not pouches.",
+    "Ultrasound does not see the pharynx.",
+    "Contrast fills and outlines the pouch."
    ]
   },
   {
@@ -19961,6 +21455,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 11
     }
+   ],
+   "notes": [
+    "V to VIII are mainly face and hearing.",
+    "IX to XII control the pharynx, larynx and tongue.",
+    "These move the eyes.",
+    "These are smell, vision and eye movements."
    ]
   },
   {
@@ -19979,6 +21479,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 20
     }
+   ],
+   "notes": [
+    "Anaemia is a red flag.",
+    "Long, stable symptoms without weight loss are reassuring.",
+    "Age over 50 is a red flag.",
+    "Weight loss over 5 kg is a red flag."
    ]
   },
   {
@@ -19997,6 +21503,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 15
     }
+   ],
+   "notes": [
+    "Reflux slowly narrows the oesophagus, so solids stick first.",
+    "This is oropharyngeal dysphagia.",
+    "This is achalasia.",
+    "This is a food bolus impaction."
    ]
   },
   {
@@ -20015,6 +21527,12 @@ SINA.lectures["semio-gi-dysphagia"] = {
      "lec": "Dysphagia",
      "n": 18
     }
+   ],
+   "notes": [
+    "An aneurysm presses on the oesophagus from outside.",
+    "Candida is inside the oesophagus.",
+    "A stricture is in the wall.",
+    "Achalasia is a motor disorder."
    ]
   },
   {
@@ -20027,7 +21545,13 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Pharyngeal phase"
    ],
    "answer": 1,
-   "why": "The arrow points to: Oral phase. Voluntary transport of the bolus to the oropharynx."
+   "why": "The arrow points to: Oral phase. Voluntary transport of the bolus to the oropharynx.",
+   "notes": [
+    "Another box. Oesophageal phase: involuntary peristalsis.",
+    "This is the box at the arrow. Oral phase: voluntary.",
+    "Another box. Endoscopy: the first-line test.",
+    "Another box. Pharyngeal phase: reflex."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -20039,7 +21563,13 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Motor dysphagia"
    ],
    "answer": 2,
-   "why": "The arrow points to: Pharyngeal phase. Reflex closure of the larynx and propulsion into the oesophagus."
+   "why": "The arrow points to: Pharyngeal phase. Reflex closure of the larynx and propulsion into the oesophagus.",
+   "notes": [
+    "Another box. Oropharyngeal: hard to start the swallow, cough, nasal regurgitation.",
+    "Another box. Endoscopy: the first-line test.",
+    "This is the box at the arrow. Pharyngeal phase: reflex.",
+    "Another box. Motor: liquids as much as solids (paradoxical)."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -20051,7 +21581,13 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Pharyngeal phase"
    ],
    "answer": 0,
-   "why": "The arrow points to: Oesophageal phase. Involuntary peristalsis toward the stomach."
+   "why": "The arrow points to: Oesophageal phase. Involuntary peristalsis toward the stomach.",
+   "notes": [
+    "This is the box at the arrow. Oesophageal phase: involuntary peristalsis.",
+    "Another box. Oesophageal: food sticks behind the sternum.",
+    "Another box. Motor: liquids as much as solids (paradoxical).",
+    "Another box. Pharyngeal phase: reflex."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -20063,7 +21599,13 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Motor dysphagia"
    ],
    "answer": 1,
-   "why": "The arrow points to: Oropharyngeal dysphagia. Difficulty starting the swallow, cough, nasal regurgitation; neurological, muscular or ENT causes."
+   "why": "The arrow points to: Oropharyngeal dysphagia. Difficulty starting the swallow, cough, nasal regurgitation; neurological, muscular or ENT causes.",
+   "notes": [
+    "Another box. Pharyngeal phase: reflex.",
+    "This is the box at the arrow. Oropharyngeal: hard to start the swallow, cough, nasal regurgitation.",
+    "Another box. Oesophageal phase: involuntary peristalsis.",
+    "Another box. Motor: liquids as much as solids (paradoxical)."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -20075,7 +21617,13 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Upper GI endoscopy"
    ],
    "answer": 1,
-   "why": "The arrow points to: Oesophageal dysphagia. Food sticks behind the sternum; mechanical or motor disorders."
+   "why": "The arrow points to: Oesophageal dysphagia. Food sticks behind the sternum; mechanical or motor disorders.",
+   "notes": [
+    "Another box. Oesophageal phase: involuntary peristalsis.",
+    "This is the box at the arrow. Oesophageal: food sticks behind the sternum.",
+    "Another box. Organic: solids then liquids, progressive.",
+    "Another box. Endoscopy: the first-line test."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -20087,7 +21635,13 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Upper GI endoscopy"
    ],
    "answer": 0,
-   "why": "The arrow points to: Organic dysphagia. Obstruction (tumour, stricture): solids then liquids, constant and progressive."
+   "why": "The arrow points to: Organic dysphagia. Obstruction (tumour, stricture): solids then liquids, constant and progressive.",
+   "notes": [
+    "This is the box at the arrow. Organic: solids then liquids, progressive.",
+    "Another box. Oral phase: voluntary.",
+    "Another box. Oesophageal phase: involuntary peristalsis.",
+    "Another box. Endoscopy: the first-line test."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -20099,7 +21653,13 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Oral phase"
    ],
    "answer": 0,
-   "why": "The arrow points to: Motor dysphagia. Impaired peristalsis or LES relaxation: liquids as much as solids (paradoxical), intermittent."
+   "why": "The arrow points to: Motor dysphagia. Impaired peristalsis or LES relaxation: liquids as much as solids (paradoxical), intermittent.",
+   "notes": [
+    "This is the box at the arrow. Motor: liquids as much as solids (paradoxical).",
+    "Another box. Oropharyngeal: hard to start the swallow, cough, nasal regurgitation.",
+    "Another box. Endoscopy: the first-line test.",
+    "Another box. Oral phase: voluntary."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -20111,7 +21671,13 @@ SINA.lectures["semio-gi-dysphagia"] = {
     "Oropharyngeal dysphagia"
    ],
    "answer": 1,
-   "why": "The arrow points to: Upper GI endoscopy. First-line test: sees the mucosa and takes biopsies to exclude cancer."
+   "why": "The arrow points to: Upper GI endoscopy. First-line test: sees the mucosa and takes biopsies to exclude cancer.",
+   "notes": [
+    "Another box. Organic: solids then liquids, progressive.",
+    "This is the box at the arrow. Endoscopy: the first-line test.",
+    "Another box. Oral phase: voluntary.",
+    "Another box. Oropharyngeal: hard to start the swallow, cough, nasal regurgitation."
+   ]
   }
  ],
  "cards": [
