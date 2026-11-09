@@ -256,19 +256,22 @@ SINA.lectures["semio-gi-exam"] = {
    ]
   },
   {
-   "q": "During the abdominal examination, auscultation of the abdominal arteries may find:",
+   "q": "During auscultation of the abdomen, the examiner may hear:",
    "options": [
     "A pleural rub",
     "An aortic bruit",
-    "A heart murmur",
+    "Bowel movement sounds",
     "Stridor"
    ],
-   "answer": 1,
-   "why": "Abdominal auscultation listens for bowel sounds and over the arteries (aorta, renal, iliac, femoral); an abnormal arterial sound (bruit) suggests e.g. an aortic aneurysm.",
+   "answers": [
+    1,
+    2
+   ],
+   "why": "Slide 17: abdominal auscultation listens for bowel movement sounds and over the arteries (aorta, renal, iliac, femoral), where an abnormal sound (bruit) suggests e.g. an aortic aneurysm.",
    "notes": [
-    "Heard over the chest (pleura), not the abdominal arteries.",
+    "Heard over the chest (pleura), not the abdomen.",
     "Slide 17: abnormal arterial sound, e.g. aortic aneurysm.",
-    "Heard over the heart, not the abdominal arteries.",
+    "Slide 17: bowel movement sounds are the first thing listened for.",
     "Heard over the upper airway, not the abdomen."
    ],
    "slides": [
