@@ -2011,6 +2011,7 @@
   }
 
   function questionsPanel(p, lec, resume) {
+    var drafts = {};
     var all = lec.mcqs, qs = all, fullRun = true, i = 0, score = 0, wrong = [], done = [], marked = {}, key = "sina:best:" + lec.id, LET = "abcdefgh", streak = 0;
     if (resume) { qs = resume.qs; all = resume.full ? resume.qs : all; fullRun = !!resume.full; done = resume.done || []; i = 0; while (i < qs.length && done[i]) i++; if (i >= qs.length) i = qs.length - 1; }
     /* resume: the unfinished quiz is saved after every answer (one at a time, the most recent) */
@@ -2114,11 +2115,20 @@
       p.querySelector("#prev").onclick = function () { if (i > 0) { i--; render(); toTop(); } };
       p.querySelector("#fwd").onclick = function () {
         if (done[i]) { i++; render(); toTop(); return; }
-        /* moving on without answering: show the answer first (counts as wrong) */
+        /* moving on without answering: keep any ticked options and come back to it later */
         var picked = []; opts.forEach(function (b) { if (b.getAttribute("aria-pressed") === "true") picked.push(+b.dataset.n); });
-        finish(picked, !picked.length);
+        if (picked.length) drafts[i] = picked; else delete drafts[i];
+        if (i + 1 < qs.length) { i++; render(); toTop(); return; }
+        /* last question: point to the unanswered ones, or show the score */
+        var left = []; qs.forEach(function (x, k) { if (!done[k]) left.push(k); });
+        var other = left.filter(function (k) { return k !== i; });
+        document.getElementById("fb").innerHTML = '<div class="why"><strong>' + left.length + " question" + (left.length > 1 ? "s" : "") + " not answered yet.</strong> Unanswered questions count as 0 in the score." +
+          '<div class="row" style="margin-top:.6rem">' + (other.length ? '<button class="btn primary" id="goleft" type="button">Go to question ' + (other[0] + 1) + "</button>" : "") + '<button class="btn" id="finnow" type="button">See score anyway</button></div></div>';
+        var gl = document.getElementById("goleft"); if (gl) gl.onclick = function () { i = other[0]; render(); toTop(); };
+        document.getElementById("finnow").onclick = function () { i = qs.length; render(); toTop(); };
         document.getElementById("fb").scrollIntoView({ behavior: "smooth", block: "nearest" });
       };
+      if (!done[i] && drafts[i] && multi) opts.forEach(function (b) { if (drafts[i].indexOf(+b.dataset.n) > -1) { b.setAttribute("aria-pressed", "true"); b.classList.add("picked"); } });
       /* coming back to an answered question: show it as answered */
       if (done[i]) finish(done[i].chosen, done[i].skipped);
     }
