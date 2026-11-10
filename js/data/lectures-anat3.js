@@ -15313,6 +15313,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 15
     }
+   ],
+   "notes": [
+    "Three unpaired and three paired: nine in total.",
+    "Six counts each type once; the paired ones count twice.",
+    "Too few.",
+    "Too many."
    ]
   },
   {
@@ -15331,6 +15337,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 15
     }
+   ],
+   "notes": [
+    "These are paired.",
+    "Thyroid, cricoid and epiglottis are single.",
+    "The arytenoid is paired.",
+    "Corniculate and cuneiform are paired."
    ]
   },
   {
@@ -15349,6 +15361,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 9
     }
+   ],
+   "notes": [
+    "The hyoid is above the larynx.",
+    "Not these landmarks.",
+    "The adult larynx spans about C4 to C6.",
+    "Not these landmarks."
    ]
   },
   {
@@ -15367,6 +15385,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 8
     }
+   ],
+   "notes": [
+    "The child's larynx is higher, not lower.",
+    "It is higher in children.",
+    "It is predictably higher.",
+    "In children it sits higher, about C2 to C3."
    ]
   },
   {
@@ -15385,6 +15409,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 20
     }
+   ],
+   "notes": [
+    "The thyroid is open behind.",
+    "The cricoid is the only complete ring.",
+    "The epiglottis is a leaf.",
+    "The arytenoid is a pyramid."
    ]
   },
   {
@@ -15403,6 +15433,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 19
     }
+   ],
+   "notes": [
+    "The signet ring is the cricoid.",
+    "The open book is the thyroid.",
+    "The pyramid is the arytenoid.",
+    "The epiglottis looks like a tennis racket."
    ]
   },
   {
@@ -15421,6 +15457,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 22
     }
+   ],
+   "notes": [
+    "The vocal ligament inserts on the vocal process.",
+    "It inserts on the muscular process.",
+    "It joins the two arytenoids.",
+    "It inserts on the muscular process."
    ]
   },
   {
@@ -15439,6 +15481,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 25
     }
+   ],
+   "notes": [
+    "It tilts the cricoid but matters less.",
+    "Not a true joint.",
+    "It moves the arytenoids and so the cords.",
+    "Not a key joint."
    ]
   },
   {
@@ -15457,6 +15505,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 26
     }
+   ],
+   "notes": [
+    "That is the cricoarytenoid joint.",
+    "That is the cricoarytenoid joint.",
+    "Extrinsic muscles do this.",
+    "The cricoid tilts on the thyroid, lengthening the cords."
    ]
   },
   {
@@ -15475,6 +15529,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 37
     }
+   ],
+   "notes": [
+    "The posterior cricoarytenoid is the only abductor.",
+    "It adducts.",
+    "It adducts.",
+    "It tenses."
    ]
   },
   {
@@ -15493,6 +15553,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 37
     }
+   ],
+   "notes": [
+    "Only the posterior cricoarytenoid abducts.",
+    "That is the aryepiglottic sphincter.",
+    "It stretches the cord and raises pitch.",
+    "It tenses, not relaxes."
    ]
   },
   {
@@ -15511,6 +15577,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 37
     }
+   ],
+   "notes": [
+    "Paired.",
+    "The transverse arytenoid crosses the midline and is single.",
+    "Paired.",
+    "Paired."
    ]
   },
   {
@@ -15529,6 +15601,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 37
     }
+   ],
+   "notes": [
+    "The vocalis is inside the cord.",
+    "Internal.",
+    "Internal.",
+    "The cricothyroid is on the outside of the larynx."
    ]
   },
   {
@@ -15552,6 +15630,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 55
     }
+   ],
+   "notes": [
+    "The recurrent nerve supplies all other intrinsic muscles.",
+    "That branch is sensory.",
+    "The external branch supplies the cricothyroid.",
+    "IX does not supply it."
    ]
   },
   {
@@ -15570,6 +15654,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 55
     }
+   ],
+   "notes": [
+    "It is sensory above the vocal folds.",
+    "That is the recurrent nerve.",
+    "That is the recurrent nerve.",
+    "That is the external branch."
    ]
   },
   {
@@ -15588,6 +15678,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 45
     }
+   ],
+   "notes": [
+    "The vestibule lies above the false folds.",
+    "The ventricle lies between false and true folds.",
+    "The infraglottic cavity lies below the cords.",
+    "The piriform recess is in the pharynx."
    ]
   },
   {
@@ -15611,6 +15707,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 41
     }
+   ],
+   "notes": [
+    "That is the vestibule.",
+    "Only part of it.",
+    "The gap between the vocal cords.",
+    "Not this."
    ]
   },
   {
@@ -15629,6 +15731,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 47
     }
+   ],
+   "notes": [
+    "Lines the rest of the larynx.",
+    "Not here.",
+    "Not keratinised.",
+    "Non-keratinised stratified squamous resists friction."
    ]
   },
   {
@@ -15647,6 +15755,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 49
     }
+   ],
+   "notes": [
+    "That supplies below the cords.",
+    "The superior laryngeal artery (from the superior thyroid).",
+    "Supplies the tongue.",
+    "Not the main supply."
    ]
   },
   {
@@ -15665,6 +15779,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 51
     }
+   ],
+   "notes": [
+    "The vocal cords have almost no lymphatics.",
+    "Rich drainage.",
+    "Has drainage.",
+    "Has drainage."
    ]
   },
   {
@@ -15683,6 +15803,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 37
     }
+   ],
+   "notes": [
+    "That is bilateral palsy.",
+    "The other cord compensates.",
+    "The paralysed cord sits near the midline (paramedian).",
+    "That is the internal branch."
    ]
   },
   {
@@ -15701,6 +15827,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 37
     }
+   ],
+   "notes": [
+    "All nerves cut: cords half-open and still.",
+    "That is phonation.",
+    "That is one recurrent palsy.",
+    "That is normal breathing."
    ]
   },
   {
@@ -15719,6 +15851,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 64
     }
+   ],
+   "notes": [
+    "Not at the commissure.",
+    "Not here.",
+    "Not along the whole edge.",
+    "Junction of anterior and middle thirds, where vibration is greatest."
    ]
   },
   {
@@ -15737,6 +15875,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 58
     }
+   ],
+   "notes": [
+    "Not these.",
+    "Frequency, intensity and pitch.",
+    "Not these.",
+    "Not these."
    ]
   },
   {
@@ -15758,6 +15902,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 7
     }
+   ],
+   "notes": [
+    "The larynx produces voice.",
+    "It closes to protect the airway.",
+    "Smell is the nose.",
+    "Chewing is the jaw."
    ]
   },
   {
@@ -15779,6 +15929,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 37
     }
+   ],
+   "notes": [
+    "Lateral cricoarytenoid adducts.",
+    "Transverse arytenoid adducts.",
+    "Posterior cricoarytenoid abducts.",
+    "Cricothyroid tenses."
    ]
   },
   {
@@ -15800,6 +15956,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 37
     }
+   ],
+   "notes": [
+    "Cricothyroid tenses.",
+    "Vocalis tenses part of the cord.",
+    "Thyroarytenoid relaxes.",
+    "It abducts."
    ]
   },
   {
@@ -15821,6 +15983,12 @@ SINA.lectures["anat3-larynx"] = {
      "lec": "Anatomy of the larynx",
      "n": 38
     }
+   ],
+   "notes": [
+    "Thyrohyoid raises it.",
+    "Mylohyoid raises it via the hyoid.",
+    "Sternothyroid lowers it.",
+    "Omohyoid lowers it."
    ]
   },
   {
@@ -15833,7 +16001,13 @@ SINA.lectures["anat3-larynx"] = {
     "Cricoid cartilage (complete ring)"
    ],
    "answer": 0,
-   "why": "The arrow points to the hyoid bone. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the hyoid bone. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "This is at the arrow: the U-shaped bone above the larynx.",
+    "Not at the arrow; this is the forward bulge where the two thyroid laminae meet.",
+    "Not at the arrow; this is the large shield-shaped cartilage of the larynx (Adam's apple).",
+    "Not at the arrow; this is the complete ring below the thyroid cartilage."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -15845,7 +16019,13 @@ SINA.lectures["anat3-larynx"] = {
     "Trachea"
    ],
    "answer": 1,
-   "why": "The arrow points to the thyrohyoid membrane. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the thyrohyoid membrane. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the complete ring below the thyroid cartilage.",
+    "This is at the arrow: the sheet joining the hyoid to the thyroid cartilage.",
+    "Not at the arrow; this is the large shield-shaped cartilage of the larynx (Adam's apple).",
+    "Not at the arrow; this is the tube of C-shaped rings below the cricoid."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -15857,7 +16037,13 @@ SINA.lectures["anat3-larynx"] = {
     "Thyrohyoid membrane"
    ],
    "answer": 2,
-   "why": "The arrow points to the epiglottis. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the epiglottis. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the large shield-shaped cartilage of the larynx (Adam's apple).",
+    "Not at the arrow; this is the U-shaped bone above the larynx.",
+    "This is at the arrow: the leaf-shaped cartilage behind the tongue base.",
+    "Not at the arrow; this is the sheet joining the hyoid to the thyroid cartilage."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -15869,7 +16055,13 @@ SINA.lectures["anat3-larynx"] = {
     "Thyroid cartilage"
    ],
    "answer": 3,
-   "why": "The arrow points to the thyroid cartilage. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the thyroid cartilage. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the complete ring below the thyroid cartilage.",
+    "Not at the arrow; this is the forward bulge where the two thyroid laminae meet.",
+    "Not at the arrow; this is the leaf-shaped cartilage behind the tongue base.",
+    "This is at the arrow: the large shield-shaped cartilage of the larynx (Adam's apple)."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -15881,7 +16073,13 @@ SINA.lectures["anat3-larynx"] = {
     "Superior thyroid notch"
    ],
    "answer": 0,
-   "why": "The arrow points to the laryngeal prominence (adam’s apple). The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the laryngeal prominence (adam’s apple). The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "This is at the arrow: the forward bulge where the two thyroid laminae meet.",
+    "Not at the arrow; this is the tube of C-shaped rings below the cricoid.",
+    "Not at the arrow; this is the sheet joining the hyoid to the thyroid cartilage.",
+    "Not at the arrow; this is the V-shaped notch at the top of the thyroid cartilage."
+   ]
   }
  ],
  "cards": [
@@ -18066,6 +18264,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 2
     }
+   ],
+   "notes": [
+    "Follicular cells make T3/T4; C cells make calcitonin.",
+    "PTH comes from the parathyroids.",
+    "These come from the pancreas.",
+    "These come from the adrenal cortex."
    ]
   },
   {
@@ -18084,6 +18288,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 14
     }
+   ],
+   "notes": [
+    "Too high.",
+    "The thyroid lies at C5 to T1.",
+    "Too high; this is the larynx level.",
+    "Too low."
    ]
   },
   {
@@ -18102,6 +18312,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 8
     }
+   ],
+   "notes": [
+    "The strap muscles are superficial to it.",
+    "Not between them.",
+    "It lies just deep to the infrahyoid muscles.",
+    "It is below the hyoid."
    ]
   },
   {
@@ -18120,6 +18336,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 11
     }
+   ],
+   "notes": [
+    "These are suprahyoid muscles.",
+    "These are other neck muscles.",
+    "These are laryngeal muscles.",
+    "These are the four infrahyoid muscles."
    ]
   },
   {
@@ -18138,6 +18360,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 15
     }
+   ],
+   "notes": [
+    "The signet ring describes the cricoid.",
+    "Two lobes joined by an isthmus look like an H or a butterfly.",
+    "That describes one lobe.",
+    "Not its shape."
    ]
   },
   {
@@ -18156,6 +18384,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 15
     }
+   ],
+   "notes": [
+    "Too light.",
+    "This is a goitre size.",
+    "Far too heavy.",
+    "About 30 g in an adult."
    ]
   },
   {
@@ -18174,6 +18408,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 17
     }
+   ],
+   "notes": [
+    "Each lobe is a triangular pyramid.",
+    "Not a disc.",
+    "Not hollow.",
+    "That is the cricoid."
    ]
   },
   {
@@ -18192,6 +18432,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 17
     }
+   ],
+   "notes": [
+    "The anterolateral face is covered by the strap muscles.",
+    "The posterior face faces the carotid sheath.",
+    "The medial face lies on the larynx and trachea.",
+    "Not a named face here."
    ]
   },
   {
@@ -18210,6 +18456,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 18
     }
+   ],
+   "notes": [
+    "It is neither constant nor behind the trachea.",
+    "It is not the upper pole.",
+    "Not parathyroid tissue.",
+    "It rises from the isthmus, a remnant of the thyroglossal duct."
    ]
   },
   {
@@ -18228,6 +18480,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 20
     }
+   ],
+   "notes": [
+    "The true capsule is the gland's own condensed stroma.",
+    "The false capsule comes from pretracheal fascia.",
+    "That forms the false capsule.",
+    "The carotid sheath surrounds the vessels."
    ]
   },
   {
@@ -18246,6 +18504,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 20
     }
+   ],
+   "notes": [
+    "That is the thyrohyoid membrane.",
+    "Not this.",
+    "A thickening of the false capsule fixing the gland to the cricoid.",
+    "It is a thickening, not a fold over the trachea."
    ]
   },
   {
@@ -18264,6 +18528,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 20
     }
+   ],
+   "notes": [
+    "The parathyroids lie outside the true capsule.",
+    "The venous plexus lies deep to the true capsule, so it stays dry.",
+    "The recurrent nerve is outside.",
+    "Not the reason."
    ]
   },
   {
@@ -18282,6 +18552,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 27
     }
+   ],
+   "notes": [
+    "Too high.",
+    "Too low.",
+    "Too low.",
+    "The isthmus covers tracheal rings 2 to 4."
    ]
   },
   {
@@ -18300,6 +18576,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 28
     }
+   ],
+   "notes": [
+    "The strap muscles are not the reason.",
+    "It is not in the carotid sheath.",
+    "Its fascia and Berry's ligament tie it to the larynx and trachea.",
+    "Not the reason."
    ]
   },
   {
@@ -18318,6 +18600,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 29
     }
+   ],
+   "notes": [
+    "The pharynx and oesophagus lie behind its medial side.",
+    "The carotid sheath lies posterolaterally.",
+    "These lie further back.",
+    "Not only them."
    ]
   },
   {
@@ -18336,6 +18624,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 31
     }
+   ],
+   "notes": [
+    "That is the left nerve.",
+    "The right nerve hooks around the right subclavian artery.",
+    "Not at the skull base.",
+    "Not at the bifurcation."
    ]
   },
   {
@@ -18354,6 +18648,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 32
     }
+   ],
+   "notes": [
+    "That is the right nerve.",
+    "Not here.",
+    "The left nerve hooks under the aortic arch.",
+    "It arises much lower."
    ]
   },
   {
@@ -18372,6 +18672,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 34
     }
+   ],
+   "notes": [
+    "They are usually four.",
+    "They are tiny.",
+    "They are not lymph nodes.",
+    "Small, flat, yellowish-brown glands."
    ]
   },
   {
@@ -18390,6 +18696,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 34
     }
+   ],
+   "notes": [
+    "Not in front.",
+    "On the posterior border, near the lower pole.",
+    "They lie outside the true capsule.",
+    "Not in the carotid sheath."
    ]
   },
   {
@@ -18408,6 +18720,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 37
     }
+   ],
+   "notes": [
+    "First branch of the external carotid.",
+    "That gives the inferior thyroid artery.",
+    "Not directly.",
+    "Not usually."
    ]
   },
   {
@@ -18426,6 +18744,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 38
     }
+   ],
+   "notes": [
+    "That gives the superior artery.",
+    "Not usually.",
+    "The thyrocervical trunk (subclavian).",
+    "Not directly."
    ]
   },
   {
@@ -18444,6 +18768,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 36
     }
+   ],
+   "notes": [
+    "The superior pedicle is the only true pedicle.",
+    "Not described as the true pedicle.",
+    "A vein, not the pedicle.",
+    "Inconstant."
    ]
   },
   {
@@ -18462,6 +18792,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 39
     }
+   ],
+   "notes": [
+    "The superior and middle veins drain there.",
+    "Not the subclavian.",
+    "Not directly.",
+    "Into the left brachiocephalic vein."
    ]
   },
   {
@@ -18480,6 +18816,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 45
     }
+   ],
+   "notes": [
+    "Follicular cells make T3/T4, and calcitonin lowers calcium.",
+    "C cells secrete calcitonin, which lowers calcium.",
+    "Parathyroids make PTH.",
+    "Calcitonin lowers calcium."
    ]
   },
   {
@@ -18506,6 +18848,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 50
     }
+   ],
+   "notes": [
+    "Nerve injury causes hoarseness.",
+    "Removing them causes hypocalcaemia.",
+    "Not in the neck.",
+    "Not near the thyroid."
    ]
   },
   {
@@ -18527,6 +18875,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 39
     }
+   ],
+   "notes": [
+    "Drains into the internal jugular.",
+    "Drains into the internal jugular.",
+    "These drain the eye.",
+    "This drains the face."
    ]
   },
   {
@@ -18548,6 +18902,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 44
     }
+   ],
+   "notes": [
+    "They speed up metabolism.",
+    "They speed up fat breakdown.",
+    "That is calcitonin.",
+    "They increase diuresis."
    ]
   },
   {
@@ -18569,6 +18929,12 @@ SINA.lectures["anat3-thyroid"] = {
      "lec": "Anatomy of the thyroid gland",
      "n": 46
     }
+   ],
+   "notes": [
+    "PTH raises calcium.",
+    "PTH lowers phosphate.",
+    "That is calcitonin.",
+    "PTH stimulates bone resorption."
    ]
   },
   {
@@ -18581,7 +18947,13 @@ SINA.lectures["anat3-thyroid"] = {
     "Cricoid cartilage"
    ],
    "answer": 0,
-   "why": "The arrow points to the thyroid cartilage. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the thyroid cartilage. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "This is at the arrow: the large shield-shaped cartilage of the larynx (Adam's apple).",
+    "Not at the arrow; this is the lateral lobe on the patient's left (viewer's right).",
+    "Not at the arrow; this is the lateral lobe on the patient's right (viewer's left).",
+    "Not at the arrow; this is the complete ring below the thyroid cartilage."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -18593,7 +18965,13 @@ SINA.lectures["anat3-thyroid"] = {
     "Superior thyroid artery"
    ],
    "answer": 1,
-   "why": "The arrow points to the cricoid cartilage. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the cricoid cartilage. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is an inconstant extension rising from the isthmus.",
+    "This is at the arrow: the complete ring below the thyroid cartilage.",
+    "Not at the arrow; this is the lateral lobe on the patient's left (viewer's right).",
+    "Not at the arrow; this is the external carotid branch reaching the upper pole."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -18605,7 +18983,13 @@ SINA.lectures["anat3-thyroid"] = {
     "Right lobe (lateral lobe)"
    ],
    "answer": 2,
-   "why": "The arrow points to the trachea. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the trachea. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the large shield-shaped cartilage of the larynx (Adam's apple).",
+    "Not at the arrow; this is the thyrocervical trunk branch reaching the lower lobe.",
+    "This is at the arrow: the tube of C-shaped rings below the cricoid.",
+    "Not at the arrow; this is the lateral lobe on the patient's right (viewer's left)."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -18617,7 +19001,13 @@ SINA.lectures["anat3-thyroid"] = {
     "Right lobe (lateral lobe)"
    ],
    "answer": 3,
-   "why": "The arrow points to the right lobe (lateral lobe). The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the right lobe (lateral lobe). The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the complete ring below the thyroid cartilage.",
+    "Not at the arrow; this is the band joining the two lobes over tracheal rings 2 to 4.",
+    "Not at the arrow; this is the lateral lobe on the patient's left (viewer's right).",
+    "This is at the arrow: the lateral lobe on the patient's right (viewer's left)."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -18629,7 +19019,13 @@ SINA.lectures["anat3-thyroid"] = {
     "Thyroid cartilage"
    ],
    "answer": 0,
-   "why": "The arrow points to the left lobe (lateral lobe). The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the left lobe (lateral lobe). The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "This is at the arrow: the lateral lobe on the patient's left (viewer's right).",
+    "Not at the arrow; this is the external carotid branch reaching the upper pole.",
+    "Not at the arrow; this is the lateral lobe on the patient's right (viewer's left).",
+    "Not at the arrow; this is the large shield-shaped cartilage of the larynx (Adam's apple)."
+   ]
   }
  ],
  "cards": [
@@ -20711,6 +21107,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 4
     }
+   ],
+   "notes": [
+    "The petrous part holds the middle and inner ear.",
+    "The squamous part is the flat side wall of the skull.",
+    "The mastoid lies behind; it holds air cells, not the ear itself.",
+    "The zygomatic process forms part of the cheek arch."
    ]
   },
   {
@@ -20729,6 +21131,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 13
     }
+   ],
+   "notes": [
+    "The helix has a cartilage frame.",
+    "The lobule is just skin and fat, with no cartilage.",
+    "The anthelix has a cartilage frame.",
+    "The tragus has a cartilage frame."
    ]
   },
   {
@@ -20747,6 +21155,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 11
     }
+   ],
+   "notes": [
+    "The back of the pinna is free.",
+    "The upper part is free.",
+    "Only the front third is attached to the skull.",
+    "Most of the pinna is free."
    ]
   },
   {
@@ -20765,6 +21179,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 13
     }
+   ],
+   "notes": [
+    "The concha is a hollow, and the lobe and scapha are not counted as the constant projections.",
+    "The concha and cymba are hollows.",
+    "The lobe, scapha and concha are not projections.",
+    "Helix, anthelix, tragus and antitragus are the four constant projections."
    ]
   },
   {
@@ -20783,6 +21203,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 15
     }
+   ],
+   "notes": [
+    "That is the origin of auricularis superior and anterior.",
+    "Auricularis posterior arises from the mastoid process.",
+    "Not its origin.",
+    "The tragus is part of the ear itself."
    ]
   },
   {
@@ -20801,6 +21227,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 17
     }
+   ],
+   "notes": [
+    "Too short.",
+    "Too short.",
+    "Too long.",
+    "The canal is about 25 mm long."
    ]
   },
   {
@@ -20824,6 +21256,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 20
     }
+   ],
+   "notes": [
+    "The outer third is cartilage, the inner two thirds bone.",
+    "The inner part is bone.",
+    "Only one third is cartilage.",
+    "Most of the canal is bone."
    ]
   },
   {
@@ -20842,6 +21280,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 19
     }
+   ],
+   "notes": [
+    "The bony part has thin skin without glands.",
+    "They are only in the outer part.",
+    "Wax glands and hairs are in the cartilaginous part.",
+    "The drum has no glands."
    ]
   },
   {
@@ -20860,6 +21304,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 18
     }
+   ],
+   "notes": [
+    "This would narrow the canal in adults.",
+    "Backwards alone is not enough.",
+    "Forwards does not straighten the canal.",
+    "Up, back and out straightens the S-shaped canal in adults."
    ]
   },
   {
@@ -20878,6 +21328,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 23
     }
+   ],
+   "notes": [
+    "Superficial temporal and posterior auricular arteries supply it.",
+    "These supply the face and tongue.",
+    "Not the main supply.",
+    "The external ear is supplied by external carotid branches."
    ]
   },
   {
@@ -20896,6 +21352,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 27
     }
+   ],
+   "notes": [
+    "These are inner ear parts.",
+    "These are external ear parts.",
+    "Eustachian tube, tympanic cavity and mastoid spaces.",
+    "Windows are openings, not cavities."
    ]
   },
   {
@@ -20919,6 +21381,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 32
     }
+   ],
+   "notes": [
+    "One more.",
+    "Five walls are bone; the lateral wall is mostly membrane.",
+    "The lateral wall is mostly membrane.",
+    "More than three are bony."
    ]
   },
   {
@@ -20937,6 +21405,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 33
     }
+   ],
+   "notes": [
+    "More than half.",
+    "More than a third.",
+    "A bony rim surrounds it.",
+    "The eardrum forms about four fifths of the lateral wall."
    ]
   },
   {
@@ -20955,6 +21429,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 38
     }
+   ],
+   "notes": [
+    "The pars tensa has a fibrous layer.",
+    "The annulus is a fibrous ring.",
+    "The pars flaccida lacks the middle fibrous layer.",
+    "The umbo is on the pars tensa."
    ]
   },
   {
@@ -20973,6 +21453,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 36
     }
+   ],
+   "notes": [
+    "The outer layer continues the canal skin.",
+    "The inner layer is mucosa.",
+    "Not the outer layer.",
+    "Transitional epithelium lines the urinary tract."
    ]
   },
   {
@@ -20991,6 +21477,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 41
     }
+   ],
+   "notes": [
+    "The jugular bulb lies below the floor.",
+    "The tegmen tympani is the thin bony roof.",
+    "The promontory is on the medial wall.",
+    "The aditus opens backwards."
    ]
   },
   {
@@ -21009,6 +21501,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 41
     }
+   ],
+   "notes": [
+    "The carotid lies in front.",
+    "That is above the roof.",
+    "The jugular bulb lies under the floor.",
+    "The antrum lies behind."
    ]
   },
   {
@@ -21027,6 +21525,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 42
     }
+   ],
+   "notes": [
+    "That lies below.",
+    "The facial nerve runs on the medial and posterior walls.",
+    "The mastoid lies behind.",
+    "The internal carotid artery lies in front."
    ]
   },
   {
@@ -21045,6 +21549,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 43
     }
+   ],
+   "notes": [
+    "The tube goes to the nasopharynx.",
+    "The aditus leads back to the mastoid antrum.",
+    "The oval window opens into the inner ear.",
+    "Not this connection."
    ]
   },
   {
@@ -21063,6 +21573,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 40
     }
+   ],
+   "notes": [
+    "The facial canal bulge separates upper and lower levels.",
+    "The promontory is on the lower level.",
+    "The oval window is on the lower level.",
+    "The tegmen is the roof."
    ]
   },
   {
@@ -21081,6 +21597,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 50
     }
+   ],
+   "notes": [
+    "The malleus is the largest.",
+    "The incus is middle-sized.",
+    "The stapes is the smallest bone in the body.",
+    "Sizes differ."
    ]
   },
   {
@@ -21099,6 +21621,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 52
     }
+   ],
+   "notes": [
+    "The antrum is the largest mastoid cell.",
+    "The aditus is the passage to it.",
+    "The tegmen is the roof.",
+    "The promontory is on the medial wall."
    ]
   },
   {
@@ -21117,6 +21645,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 53
     }
+   ],
+   "notes": [
+    "The windows connect middle and inner ear.",
+    "The eardrum separates them.",
+    "Not this connection.",
+    "It links the middle ear to the nasopharynx."
    ]
   },
   {
@@ -21135,6 +21669,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 56
     }
+   ],
+   "notes": [
+    "VII gives the chorda tympani.",
+    "Jacobson's nerve is the tympanic branch of IX.",
+    "X gives Arnold's nerve to the ear canal.",
+    "V is not the source."
    ]
   },
   {
@@ -21156,6 +21696,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 54
     }
+   ],
+   "notes": [
+    "It equalises pressure on both sides of the drum.",
+    "It drains middle ear secretions.",
+    "The ossicles amplify sound.",
+    "Balance is the inner ear."
    ]
   },
   {
@@ -21182,6 +21728,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 40
     }
+   ],
+   "notes": [
+    "The promontory is on the lower level.",
+    "The oval window is on the lower level.",
+    "The lateral canal is on the upper level.",
+    "The tegmen is the roof."
    ]
   },
   {
@@ -21203,6 +21755,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 48
     }
+   ],
+   "notes": [
+    "The handle (manubrium) is part of the malleus.",
+    "The lateral process is part of the malleus.",
+    "The lenticular process belongs to the incus.",
+    "The footplate belongs to the stapes."
    ]
   },
   {
@@ -21224,6 +21782,12 @@ SINA.lectures["anat3-ear-1"] = {
      "lec": "Anatomy of the ear, part 1: external",
      "n": 23
     }
+   ],
+   "notes": [
+    "Great auricular and lesser occipital nerves (cervical plexus).",
+    "The auriculotemporal nerve is a V3 branch.",
+    "The optic nerve serves vision.",
+    "XII supplies the tongue."
    ]
   },
   {
@@ -21236,7 +21800,13 @@ SINA.lectures["anat3-ear-1"] = {
     "Oval window (fenestra vestibuli)"
    ],
    "answer": 0,
-   "why": "The arrow points to the auricle (pinna). The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the auricle (pinna). The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "This is at the arrow: the cartilage flap outside the head that collects sound.",
+    "Not at the arrow; this is air spaces in the mastoid behind the middle ear.",
+    "Not at the arrow; this is the three looped canals for balance.",
+    "Not at the arrow; this is the opening closed by the stapes footplate."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -21248,7 +21818,13 @@ SINA.lectures["anat3-ear-1"] = {
     "Malleus"
    ],
    "answer": 1,
-   "why": "The arrow points to the external auditory canal. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the external auditory canal. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is air spaces in the mastoid behind the middle ear.",
+    "This is at the arrow: the S-shaped canal from the concha to the eardrum.",
+    "Not at the arrow; this is the membrane-covered opening below the oval window.",
+    "Not at the arrow; this is the outer ossicle, its handle attached to the eardrum."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -21260,7 +21836,13 @@ SINA.lectures["anat3-ear-1"] = {
     "Tympanic cavity (middle ear)"
    ],
    "answer": 2,
-   "why": "The arrow points to the tympanic membrane (eardrum). The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the tympanic membrane (eardrum). The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the snail-shaped hearing organ of the inner ear.",
+    "Not at the arrow; this is the three looped canals for balance.",
+    "This is at the arrow: the thin membrane closing the inner end of the canal.",
+    "Not at the arrow; this is the air space behind the eardrum holding the ossicles."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -21272,7 +21854,13 @@ SINA.lectures["anat3-ear-1"] = {
     "Tympanic cavity (middle ear)"
    ],
    "answer": 3,
-   "why": "The arrow points to the tympanic cavity (middle ear). The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the tympanic cavity (middle ear). The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the opening closed by the stapes footplate.",
+    "Not at the arrow; this is the thin membrane closing the inner end of the canal.",
+    "Not at the arrow; this is the cartilage flap outside the head that collects sound.",
+    "This is at the arrow: the air space behind the eardrum holding the ossicles."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -21284,7 +21872,13 @@ SINA.lectures["anat3-ear-1"] = {
     "Stapes"
    ],
    "answer": 0,
-   "why": "The arrow points to the malleus. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the malleus. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "This is at the arrow: the outer ossicle, its handle attached to the eardrum.",
+    "Not at the arrow; this is air spaces in the mastoid behind the middle ear.",
+    "Not at the arrow; this is the snail-shaped hearing organ of the inner ear.",
+    "Not at the arrow; this is the inner ossicle, its footplate in the oval window."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -21296,7 +21890,13 @@ SINA.lectures["anat3-ear-1"] = {
     "Malleus"
    ],
    "answer": 1,
-   "why": "The arrow points to the incus. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the incus. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is air spaces in the mastoid behind the middle ear.",
+    "This is at the arrow: the middle ossicle, between malleus and stapes.",
+    "Not at the arrow; this is the air space behind the eardrum holding the ossicles.",
+    "Not at the arrow; this is the outer ossicle, its handle attached to the eardrum."
+   ]
   }
  ],
  "cards": [
@@ -22109,6 +22709,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 4
     }
+   ],
+   "notes": [
+    "The membranous labyrinth is filled with endolymph.",
+    "Perilymph surrounds it.",
+    "CSF is around the brain; perilymph only connects with it.",
+    "The inner ear holds fluid, not air."
    ]
   },
   {
@@ -22127,6 +22733,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 4
     }
+   ],
+   "notes": [
+    "Endolymph is inside the membranous labyrinth.",
+    "Perilymph fills the space between the two labyrinths.",
+    "Air is in the middle ear.",
+    "Not blood."
    ]
   },
   {
@@ -22150,6 +22762,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 8
     }
+   ],
+   "notes": [
+    "These are membranous parts.",
+    "These are the ossicles.",
+    "Cochlea, vestibule and semicircular canals.",
+    "These are membranous parts."
    ]
   },
   {
@@ -22173,6 +22791,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 19
     }
+   ],
+   "notes": [
+    "The utricle is membranous.",
+    "The saccule is membranous.",
+    "The cochlear duct is membranous.",
+    "The modiolus is the bony core of the cochlea."
    ]
   },
   {
@@ -22191,6 +22815,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 9
     }
+   ],
+   "notes": [
+    "Too short.",
+    "The bony cochlear tube is about 30 mm long.",
+    "Too long.",
+    "Far too short."
    ]
   },
   {
@@ -22209,6 +22839,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 11
     }
+   ],
+   "notes": [
+    "The stapes closes the oval window.",
+    "That is the utriculo-saccular duct.",
+    "That is the helicotrema.",
+    "The bony pillar the cochlea spirals around."
    ]
   },
   {
@@ -22227,6 +22863,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 11
     }
+   ],
+   "notes": [
+    "The basal turn bulges as the promontory.",
+    "The oval window holds the stapes.",
+    "The tegmen is the roof.",
+    "The aditus leads to the mastoid."
    ]
   },
   {
@@ -22245,6 +22887,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 11
     }
+   ],
+   "notes": [
+    "The modiolus is the core.",
+    "The helicotrema is where they join.",
+    "The bony spiral lamina (with the basilar membrane) divides the canal.",
+    "The stria vascularis makes endolymph."
    ]
   },
   {
@@ -22263,6 +22911,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 11
     }
+   ],
+   "notes": [
+    "The round window ends the scala tympani.",
+    "The oval window opens into the vestibule.",
+    "Not the base.",
+    "They join at the apex, through the helicotrema."
    ]
   },
   {
@@ -22281,6 +22935,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 14
     }
+   ],
+   "notes": [
+    "The secondary tympanic membrane closes it.",
+    "The stapes closes the oval window.",
+    "The annular ligament holds the stapes.",
+    "The tegmen is the roof."
    ]
   },
   {
@@ -22299,6 +22959,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 14
     }
+   ],
+   "notes": [
+    "Not this connection.",
+    "This is the Eustachian tube.",
+    "It links perilymph to the subarachnoid CSF.",
+    "The utriculo-saccular duct does this."
    ]
   },
   {
@@ -22317,6 +22983,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 15
     }
+   ],
+   "notes": [
+    "That closes the round window.",
+    "The stapes footplate sits in the oval window.",
+    "The tectorial membrane is in the organ of Corti.",
+    "The basilar membrane is in the cochlea."
    ]
   },
   {
@@ -22335,6 +23007,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 16
     }
+   ],
+   "notes": [
+    "Not 45.",
+    "Not 60.",
+    "They are not in one plane.",
+    "Each canal is at right angles to the others."
    ]
   },
   {
@@ -22353,6 +23031,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 18
     }
+   ],
+   "notes": [
+    "The anterior canal is vertical.",
+    "The posterior canal is vertical.",
+    "The lateral canal is horizontal.",
+    "The superior (anterior) canal is vertical."
    ]
   },
   {
@@ -22371,6 +23055,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 17
     }
+   ],
+   "notes": [
+    "The anterior and posterior canals share one end.",
+    "The dilated end is the ampulla.",
+    "That is the utriculo-saccular duct.",
+    "That is the cupula or helicotrema."
    ]
   },
   {
@@ -22389,6 +23079,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 18
     }
+   ],
+   "notes": [
+    "More than three.",
+    "Six ends, but two share the crus commune: five openings.",
+    "Two ends are shared.",
+    "One more."
    ]
   },
   {
@@ -22407,6 +23103,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 21
     }
+   ],
+   "notes": [
+    "It joins utricle and saccule.",
+    "It goes to the endolymphatic sac.",
+    "The ductus reuniens joins cochlear duct and saccule.",
+    "The crus commune joins two canals."
    ]
   },
   {
@@ -22425,6 +23127,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 22
     }
+   ],
+   "notes": [
+    "Maculae serve balance.",
+    "Cristae serve balance.",
+    "The stria makes endolymph.",
+    "The organ of Corti is the hearing receptor."
    ]
   },
   {
@@ -22443,6 +23151,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 22
     }
+   ],
+   "notes": [
+    "Kinetic balance is the cristae.",
+    "Maculae sense head position and linear acceleration.",
+    "Sound is the organ of Corti.",
+    "Not pressure."
    ]
   },
   {
@@ -22461,6 +23175,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 33
     }
+   ],
+   "notes": [
+    "Inner hair cells send most afferent fibres.",
+    "Outer hair cells mainly amplify.",
+    "Supporting cells are not receptors.",
+    "Rods are in the retina."
    ]
   },
   {
@@ -22479,6 +23199,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 33
     }
+   ],
+   "notes": [
+    "The inner hair cells are the true receptors.",
+    "The stria vascularis makes endolymph.",
+    "They amplify and sharpen tuning.",
+    "The stapes closes the oval window."
    ]
   },
   {
@@ -22497,6 +23223,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 33
     }
+   ],
+   "notes": [
+    "It splits into cochlear and vestibular parts in the internal auditory canal.",
+    "It does not enter the middle ear.",
+    "Not at the brainstem.",
+    "Not at the apex."
    ]
   },
   {
@@ -22515,6 +23247,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 34
     }
+   ],
+   "notes": [
+    "The superior nerve supplies utricle, anterior and lateral ampullae.",
+    "The cochlear nerve is for hearing.",
+    "VII is not sensory to the labyrinth.",
+    "The inferior vestibular nerve supplies the saccule."
    ]
   },
   {
@@ -22533,6 +23271,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 35
     }
+   ],
+   "notes": [
+    "It supplies the dura.",
+    "The labyrinthine artery (from AICA or basilar) supplies it.",
+    "It supplies the middle ear and mastoid.",
+    "It supplies the auricle."
    ]
   },
   {
@@ -22559,6 +23303,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 21
     }
+   ],
+   "notes": [
+    "The utricle is membranous.",
+    "The cochlear duct is membranous.",
+    "The modiolus is bone.",
+    "The vestibule is bony."
    ]
   },
   {
@@ -22580,6 +23330,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 22
     }
+   ],
+   "notes": [
+    "Maculae sense static balance.",
+    "Cristae sense rotation.",
+    "The organ of Corti is for hearing.",
+    "The stria makes endolymph."
    ]
   },
   {
@@ -22601,6 +23357,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 19
     }
+   ],
+   "notes": [
+    "The utricle is a balance organ.",
+    "The semicircular ducts serve balance.",
+    "The cochlear duct is the hearing (anterior) labyrinth.",
+    "The spiral lamina is in the cochlea."
    ]
   },
   {
@@ -22622,6 +23384,12 @@ SINA.lectures["anat3-ear-2"] = {
      "lec": "Anatomy of the ear, part 2: the inner",
      "n": 34
     }
+   ],
+   "notes": [
+    "The utricular nerve is superior.",
+    "The lateral ampullary nerve is superior.",
+    "The saccular nerve is inferior.",
+    "The cochlear nerve is separate."
    ]
   },
   {
@@ -22634,7 +23402,13 @@ SINA.lectures["anat3-ear-2"] = {
     "Oval window (stapes)"
    ],
    "answer": 0,
-   "why": "The arrow points to the vestibule. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the vestibule. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "This is at the arrow: the central chamber of the bony labyrinth, between cochlea and canals.",
+    "Not at the arrow; this is the opening closed by the secondary tympanic membrane.",
+    "Not at the arrow; this is the swelling at one end of each canal, holding the crista.",
+    "Not at the arrow; this is the opening closed by the stapes footplate."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -22646,7 +23420,13 @@ SINA.lectures["anat3-ear-2"] = {
     "Ampulla"
    ],
    "answer": 1,
-   "why": "The arrow points to the utricle. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the utricle. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the smaller, lower sac of the vestibule, joined to the cochlear duct.",
+    "This is at the arrow: the larger, upper sac of the vestibule, receiving the canals.",
+    "Not at the arrow; this is the vertical canal at the top, facing forward.",
+    "Not at the arrow; this is the swelling at one end of each canal, holding the crista."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -22658,7 +23438,13 @@ SINA.lectures["anat3-ear-2"] = {
     "Posterior semicircular canal"
    ],
    "answer": 2,
-   "why": "The arrow points to the saccule. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the saccule. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the opening closed by the stapes footplate.",
+    "Not at the arrow; this is the duct from the vestibule ending in a sac under the dura.",
+    "This is at the arrow: the smaller, lower sac of the vestibule, joined to the cochlear duct.",
+    "Not at the arrow; this is the vertical canal facing backward."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -22670,7 +23456,13 @@ SINA.lectures["anat3-ear-2"] = {
     "Anterior (superior) semicircular canal"
    ],
    "answer": 3,
-   "why": "The arrow points to the anterior (superior) semicircular canal. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the anterior (superior) semicircular canal. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the opening closed by the secondary tympanic membrane.",
+    "Not at the arrow; this is the central chamber of the bony labyrinth, between cochlea and canals.",
+    "Not at the arrow; this is the vertical canal facing backward.",
+    "This is at the arrow: the vertical canal at the top, facing forward."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -22682,7 +23474,13 @@ SINA.lectures["anat3-ear-2"] = {
     "Modiolus (central pillar)"
    ],
    "answer": 0,
-   "why": "The arrow points to the posterior semicircular canal. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the posterior semicircular canal. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "This is at the arrow: the vertical canal facing backward.",
+    "Not at the arrow; this is the vertical canal at the top, facing forward.",
+    "Not at the arrow; this is the opening closed by the secondary tympanic membrane.",
+    "Not at the arrow; this is the bony core the cochlea winds around."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -22694,7 +23492,13 @@ SINA.lectures["anat3-ear-2"] = {
     "Ampulla"
    ],
    "answer": 1,
-   "why": "The arrow points to the lateral (horizontal) semicircular canal. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the lateral (horizontal) semicircular canal. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the snail-shaped hearing organ of the inner ear.",
+    "This is at the arrow: the canal in the horizontal plane.",
+    "Not at the arrow; this is the duct from the vestibule ending in a sac under the dura.",
+    "Not at the arrow; this is the swelling at one end of each canal, holding the crista."
+   ]
   }
  ],
  "cards": [
@@ -23414,6 +24218,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 5
     }
+   ],
+   "notes": [
+    "The caudal neural tube becomes the cord.",
+    "The cranial end becomes the brain.",
+    "The crest gives ganglia, not the cord.",
+    "The notochord gives the nucleus pulposus."
    ]
   },
   {
@@ -23432,6 +24242,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 5
     }
+   ],
+   "notes": [
+    "Becomes white matter.",
+    "The mantle zone becomes grey matter.",
+    "Lines the canal (ependyma).",
+    "Gives sensory ganglia."
    ]
   },
   {
@@ -23450,6 +24266,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 6
     }
+   ],
+   "notes": [
+    "Alar plate is sensory.",
+    "Roof plate is thin.",
+    "Basal plate gives motor neurons.",
+    "Floor plate is thin."
    ]
   },
   {
@@ -23468,6 +24290,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 7
     }
+   ],
+   "notes": [
+    "Motor.",
+    "Not the source.",
+    "No.",
+    "Dorsal root ganglia come from the neural crest."
    ]
   },
   {
@@ -23486,6 +24314,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 9
     }
+   ],
+   "notes": [
+    "Too low; that is the dural sac.",
+    "The adult cord ends at L1/L2.",
+    "Too low; the newborn level.",
+    "Too high."
    ]
   },
   {
@@ -23504,6 +24338,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 8
     }
+   ],
+   "notes": [
+    "It does not shrink.",
+    "Not the reason.",
+    "A result, not the cause.",
+    "The vertebral column grows faster than the cord."
    ]
   },
   {
@@ -23522,6 +24362,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 14
     }
+   ],
+   "notes": [
+    "The lumbosacral roots below the cord end.",
+    "That is the conus medullaris.",
+    "That is the filum terminale.",
+    "That is the dural sac."
    ]
   },
   {
@@ -23540,6 +24386,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 12
     }
+   ],
+   "notes": [
+    "Fixes the cord sideways to the dura.",
+    "The cone-shaped end of the cord.",
+    "The filum terminale ends on the coccyx.",
+    "Lies on the vertebral bodies."
    ]
   },
   {
@@ -23558,6 +24410,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 11
     }
+   ],
+   "notes": [
+    "Too short.",
+    "Too long.",
+    "Too long.",
+    "About 40 to 45 cm."
    ]
   },
   {
@@ -23581,6 +24439,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 34
     }
+   ],
+   "notes": [
+    "8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 1 coccygeal.",
+    "One short.",
+    "That is the vertebra count.",
+    "Too few."
    ]
   },
   {
@@ -23599,6 +24463,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 14
     }
+   ],
+   "notes": [
+    "Thoracic.",
+    "Lumbosacral enlargement.",
+    "C4 to T1, for the brachial plexus.",
+    "Too high."
    ]
   },
   {
@@ -23617,6 +24487,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 17
     }
+   ],
+   "notes": [
+    "Shallow.",
+    "The anterior fissure is deep.",
+    "Shallow.",
+    "Shallow."
    ]
   },
   {
@@ -23635,6 +24511,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 18
     }
+   ],
+   "notes": [
+    "No.",
+    "No.",
+    "No.",
+    "A butterfly or H shape."
    ]
   },
   {
@@ -23653,6 +24535,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 19
     }
+   ],
+   "notes": [
+    "Anterior horn.",
+    "Lateral horn.",
+    "They receive sensory fibres.",
+    "CSF is in the canal."
    ]
   },
   {
@@ -23671,6 +24559,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 19
     }
+   ],
+   "notes": [
+    "Sympathetic T1 to L2 and parasympathetic S2 to S4.",
+    "Not cervical.",
+    "Not every segment.",
+    "Not this range."
    ]
   },
   {
@@ -23689,6 +24583,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 20
     }
+   ],
+   "notes": [
+    "Supplies the trunk.",
+    "The lateral group supplies the limbs.",
+    "Not motor.",
+    "Not this."
    ]
   },
   {
@@ -23712,6 +24612,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 32
     }
+   ],
+   "notes": [
+    "Touch and position sense.",
+    "Motor.",
+    "Spinothalamic: pain and temperature.",
+    "Posture, motor."
    ]
   },
   {
@@ -23730,6 +24636,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 28
     }
+   ],
+   "notes": [
+    "Fat and veins.",
+    "A potential space.",
+    "Not a meningeal space.",
+    "CSF is in the subarachnoid space."
    ]
   },
   {
@@ -23748,6 +24660,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 29
     }
+   ],
+   "notes": [
+    "That is the filum terminale.",
+    "Pia extending tooth-like to the dura on each side.",
+    "Not this.",
+    "Not this."
    ]
   },
   {
@@ -23766,6 +24684,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 30
     }
+   ],
+   "notes": [
+    "Both spinal arteries come from the vertebral artery.",
+    "Not the source.",
+    "The aorta gives radicular arteries.",
+    "Anterior circulation."
    ]
   },
   {
@@ -23784,6 +24708,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 26
     }
+   ],
+   "notes": [
+    "Back wall.",
+    "Front wall.",
+    "The pedicles form the sides.",
+    "Behind."
    ]
   },
   {
@@ -23802,6 +24732,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 26
     }
+   ],
+   "notes": [
+    "Spinal nerves exit through them.",
+    "Not only arteries.",
+    "No.",
+    "No."
    ]
   },
   {
@@ -23820,6 +24756,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 39
     }
+   ],
+   "notes": [
+    "CSF.",
+    "A potential space.",
+    "CSF in the cord.",
+    "The epidural space holds fat and veins."
    ]
   },
   {
@@ -23843,6 +24785,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 14
     }
+   ],
+   "notes": [
+    "Not the reason.",
+    "The cord ends at L1/L2, so a needle below L3 meets only roots.",
+    "CSF is made in the ventricles.",
+    "The sac ends at S2."
    ]
   },
   {
@@ -23864,6 +24812,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 31
     }
+   ],
+   "notes": [
+    "It conducts signals up and down.",
+    "It handles reflexes.",
+    "No hormones.",
+    "Choroid plexuses make CSF."
    ]
   },
   {
@@ -23890,6 +24844,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 22
     }
+   ],
+   "notes": [
+    "Ascending.",
+    "Ascending.",
+    "Descending.",
+    "Descending."
    ]
   },
   {
@@ -23911,6 +24871,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 27
     }
+   ],
+   "notes": [
+    "Yes.",
+    "Yes.",
+    "The discs are between bodies.",
+    "The pedicles are its walls."
    ]
   },
   {
@@ -23932,6 +24898,12 @@ SINA.lectures["anat3-spinal-cord"] = {
      "lec": "Anatomy of the spinal cord",
      "n": 35
     }
+   ],
+   "notes": [
+    "Signs at the lesion level.",
+    "Signs below the lesion.",
+    "Not a feature.",
+    "Not a feature."
    ]
   },
   {
@@ -23944,7 +24916,13 @@ SINA.lectures["anat3-spinal-cord"] = {
     "Dorsal root and ganglion"
    ],
    "answer": 0,
-   "why": "The arrow points to the white matter (funiculi). The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the white matter (funiculi). The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "This is at the arrow: the outer white columns of fibre tracts.",
+    "Not at the arrow; this is the central butterfly-shaped grey area.",
+    "Not at the arrow; this is the small side horn of autonomic neurons.",
+    "Not at the arrow; this is the sensory root with its swelling, entering at the back."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -23956,7 +24934,13 @@ SINA.lectures["anat3-spinal-cord"] = {
     "Ventral root"
    ],
    "answer": 1,
-   "why": "The arrow points to the grey matter (butterfly). The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the grey matter (butterfly). The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the deep groove on the front of the cord.",
+    "This is at the arrow: the central butterfly-shaped grey area.",
+    "Not at the arrow; this is the tiny canal in the middle of the grey matter.",
+    "Not at the arrow; this is the motor root leaving the front of the cord."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -23968,7 +24952,13 @@ SINA.lectures["anat3-spinal-cord"] = {
     "White matter (funiculi)"
    ],
    "answer": 2,
-   "why": "The arrow points to the posterior (dorsal) horn: sensory. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the posterior (dorsal) horn: sensory. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the deep groove on the front of the cord.",
+    "Not at the arrow; this is the broad front horn of motor neurons.",
+    "This is at the arrow: the narrow back horn receiving sensory fibres.",
+    "Not at the arrow; this is the outer white columns of fibre tracts."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -23980,7 +24970,13 @@ SINA.lectures["anat3-spinal-cord"] = {
     "Anterior (ventral) horn: motor"
    ],
    "answer": 3,
-   "why": "The arrow points to the anterior (ventral) horn: motor. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the anterior (ventral) horn: motor. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the tiny canal in the middle of the grey matter.",
+    "Not at the arrow; this is the outer white columns of fibre tracts.",
+    "Not at the arrow; this is the narrow back horn receiving sensory fibres.",
+    "This is at the arrow: the broad front horn of motor neurons."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -23992,7 +24988,13 @@ SINA.lectures["anat3-spinal-cord"] = {
     "Ventral root"
    ],
    "answer": 0,
-   "why": "The arrow points to the lateral horn (t1 to l2, s2 to s4). The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the lateral horn (t1 to l2, s2 to s4). The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "This is at the arrow: the small side horn of autonomic neurons.",
+    "Not at the arrow; this is the broad front horn of motor neurons.",
+    "Not at the arrow; this is the tiny canal in the middle of the grey matter.",
+    "Not at the arrow; this is the motor root leaving the front of the cord."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -24004,7 +25006,13 @@ SINA.lectures["anat3-spinal-cord"] = {
     "Anterior (ventral) horn: motor"
    ],
    "answer": 1,
-   "why": "The arrow points to the central canal. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the central canal. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the outer white columns of fibre tracts.",
+    "This is at the arrow: the tiny canal in the middle of the grey matter.",
+    "Not at the arrow; this is the shallow groove on the back of the cord.",
+    "Not at the arrow; this is the broad front horn of motor neurons."
+   ]
   }
  ],
  "cards": [
@@ -24819,6 +25827,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 38
     }
+   ],
+   "notes": [
+    "The thalamus is diencephalon.",
+    "Part of the brainstem.",
+    "Part of the brainstem.",
+    "Part of the brainstem."
    ]
   },
   {
@@ -24842,6 +25856,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 5
     }
+   ],
+   "notes": [
+    "Holds the frontal lobes.",
+    "The brainstem lies in the posterior fossa.",
+    "Holds the temporal lobes.",
+    "Holds the pituitary."
    ]
   },
   {
@@ -24865,6 +25885,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 22
     }
+   ],
+   "notes": [
+    "I and II do not arise from the brainstem.",
+    "Too few.",
+    "Ten: III to XII.",
+    "Too few."
    ]
   },
   {
@@ -24883,6 +25909,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 4
     }
+   ],
+   "notes": [
+    "Gives the pons and cerebellum.",
+    "Gives the medulla.",
+    "Gives the hemispheres.",
+    "The mesencephalon becomes the midbrain."
    ]
   },
   {
@@ -24901,6 +25933,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 5
     }
+   ],
+   "notes": [
+    "The opening into the spinal canal.",
+    "Three pairs of peduncles.",
+    "Not this.",
+    "These join colliculi to geniculate bodies."
    ]
   },
   {
@@ -24919,6 +25957,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 7
     }
+   ],
+   "notes": [
+    "Joins the midbrain to the cerebellum.",
+    "Joins the medulla to the cerebellum.",
+    "Part of the midbrain, not cerebellar.",
+    "The middle peduncle joins the pons."
    ]
   },
   {
@@ -24937,6 +25981,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 9
     }
+   ],
+   "notes": [
+    "The midbrain is the shortest part.",
+    "Larger.",
+    "Larger.",
+    "Only part of the midbrain."
    ]
   },
   {
@@ -24955,6 +26005,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 10
     }
+   ],
+   "notes": [
+    "Medulla.",
+    "Medulla.",
+    "Superior and inferior colliculi.",
+    "Floor of the fourth ventricle."
    ]
   },
   {
@@ -24973,6 +26029,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 10
     }
+   ],
+   "notes": [
+    "The inferior brachium is auditory.",
+    "Middle peduncle.",
+    "Not this.",
+    "Superior colliculus to the visual pathway (via the LGB)."
    ]
   },
   {
@@ -24991,6 +26053,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 15
     }
+   ],
+   "notes": [
+    "IV is the only nerve leaving the back.",
+    "Ventral pons.",
+    "Ventral.",
+    "Ventral."
    ]
   },
   {
@@ -25009,6 +26077,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 11
     }
+   ],
+   "notes": [
+    "That is VI.",
+    "That is IX to XI.",
+    "III leaves in the interpeduncular fossa.",
+    "IV leaves behind."
    ]
   },
   {
@@ -25027,6 +26101,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 13
     }
+   ],
+   "notes": [
+    "Lateral.",
+    "The basilar artery runs in it.",
+    "Lower down.",
+    "On the floor of the fourth ventricle."
    ]
   },
   {
@@ -25045,6 +26125,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 13
     }
+   ],
+   "notes": [
+    "VII and VIII.",
+    "That is V.",
+    "That is III.",
+    "VI emerges at the pontomedullary junction."
    ]
   },
   {
@@ -25063,6 +26149,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 15
     }
+   ],
+   "notes": [
+    "Makes the olive.",
+    "Midbrain.",
+    "Facial fibres loop around the abducens nucleus.",
+    "Not this."
    ]
   },
   {
@@ -25081,6 +26173,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 15
     }
+   ],
+   "notes": [
+    "VII and VIII at the cerebellopontine angle.",
+    "Midbrain.",
+    "Behind the olive.",
+    "Pons."
    ]
   },
   {
@@ -25099,6 +26197,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 16
     }
+   ],
+   "notes": [
+    "Not here.",
+    "Pyramidal decussation in the lower medulla.",
+    "Not here.",
+    "Only a few cross there."
    ]
   },
   {
@@ -25117,6 +26221,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 16
     }
+   ],
+   "notes": [
+    "Makes the pyramid.",
+    "Not this.",
+    "The inferior olivary nucleus.",
+    "Not here."
    ]
   },
   {
@@ -25135,6 +26245,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 17
     }
+   ],
+   "notes": [
+    "IX to XI.",
+    "VI to VIII.",
+    "III.",
+    "Between the pyramid and the olive."
    ]
   },
   {
@@ -25153,6 +26269,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 22
     }
+   ],
+   "notes": [
+    "Medulla.",
+    "I and II are not brainstem nerves.",
+    "Midbrain.",
+    "Pontine region."
    ]
   },
   {
@@ -25176,6 +26298,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 38
     }
+   ],
+   "notes": [
+    "The cerebral aqueduct.",
+    "Pons and medulla.",
+    "Diencephalon.",
+    "Spinal cord."
    ]
   },
   {
@@ -25194,6 +26322,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 29
     }
+   ],
+   "notes": [
+    "Roof.",
+    "Lateral walls.",
+    "The rhomboid fossa forms the floor.",
+    "Roof."
    ]
   },
   {
@@ -25212,6 +26346,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 29
     }
+   ],
+   "notes": [
+    "The lowest point of the fourth ventricle.",
+    "That is the fastigium.",
+    "That is Magendie.",
+    "Not a nucleus."
    ]
   },
   {
@@ -25230,6 +26370,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 30
     }
+   ],
+   "notes": [
+    "Anterior circulation.",
+    "Anterior circulation.",
+    "Only part.",
+    "The vertebrobasilar system."
    ]
   },
   {
@@ -25248,6 +26394,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 32
     }
+   ],
+   "notes": [
+    "Not this.",
+    "Nerve palsy on one side, body weakness on the other.",
+    "Not this.",
+    "Not this."
    ]
   },
   {
@@ -25269,6 +26421,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 13
     }
+   ],
+   "notes": [
+    "V from the side of the pons.",
+    "VI at the lower pons.",
+    "IV leaves behind.",
+    "XII from the medulla."
    ]
   },
   {
@@ -25290,6 +26448,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 23
     }
+   ],
+   "notes": [
+    "It keeps us awake.",
+    "It controls breathing.",
+    "The cochlea.",
+    "Taste buds and VII, IX, X."
    ]
   },
   {
@@ -25311,6 +26475,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 24
     }
+   ],
+   "notes": [
+    "Conscious touch and position.",
+    "Conscious pain and temperature.",
+    "Unconscious proprioception.",
+    "Descending motor."
    ]
   },
   {
@@ -25337,6 +26507,12 @@ SINA.lectures["anat3-brainstem"] = {
      "lec": "Anatomy of the brainstem",
      "n": 20
     }
+   ],
+   "notes": [
+    "IX behind the olive.",
+    "X behind the olive.",
+    "XII in front of the olive.",
+    "VI at the pontomedullary junction."
    ]
   },
   {
@@ -25349,7 +26525,13 @@ SINA.lectures["anat3-brainstem"] = {
     "Cerebral peduncles"
    ],
    "answer": 0,
-   "why": "The arrow points to the midbrain. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the midbrain. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "This is at the arrow: the top of the brainstem, below the diencephalon.",
+    "Not at the arrow; this is the oval swelling on the side of the upper medulla.",
+    "Not at the arrow; this is the ridge on the front of the medulla carrying corticospinal fibres.",
+    "Not at the arrow; this is the two thick pillars on the front of the midbrain."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -25361,7 +26543,13 @@ SINA.lectures["anat3-brainstem"] = {
     "Medulla oblongata"
    ],
    "answer": 1,
-   "why": "The arrow points to the pons. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the pons. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the nerve rootlets between pyramid and olive.",
+    "This is at the arrow: the bulging middle part of the brainstem.",
+    "Not at the arrow; this is the nerves at the angle between pons, medulla and cerebellum.",
+    "Not at the arrow; this is the lowest part of the brainstem, continuous with the cord."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -25373,7 +26561,13 @@ SINA.lectures["anat3-brainstem"] = {
     "Midbrain"
    ],
    "answer": 2,
-   "why": "The arrow points to the medulla oblongata. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the medulla oblongata. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the nerve at the pontomedullary junction near the midline.",
+    "Not at the arrow; this is the large nerve from the side of the pons.",
+    "This is at the arrow: the lowest part of the brainstem, continuous with the cord.",
+    "Not at the arrow; this is the top of the brainstem, below the diencephalon."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -25385,7 +26579,13 @@ SINA.lectures["anat3-brainstem"] = {
     "Cerebral peduncles"
    ],
    "answer": 3,
-   "why": "The arrow points to the cerebral peduncles. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the cerebral peduncles. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the oval swelling on the side of the upper medulla.",
+    "Not at the arrow; this is the nerve at the pontomedullary junction near the midline.",
+    "Not at the arrow; this is the nerves at the angle between pons, medulla and cerebellum.",
+    "This is at the arrow: the two thick pillars on the front of the midbrain."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -25397,7 +26597,13 @@ SINA.lectures["anat3-brainstem"] = {
     "CN V, trigeminal"
    ],
    "answer": 0,
-   "why": "The arrow points to the pyramid. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the pyramid. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "This is at the arrow: the ridge on the front of the medulla carrying corticospinal fibres.",
+    "Not at the arrow; this is the nerves at the angle between pons, medulla and cerebellum.",
+    "Not at the arrow; this is the bulging middle part of the brainstem.",
+    "Not at the arrow; this is the large nerve from the side of the pons."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -25409,7 +26615,13 @@ SINA.lectures["anat3-brainstem"] = {
     "CN IX, X, XI (behind the olive)"
    ],
    "answer": 1,
-   "why": "The arrow points to the olive. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the olive. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the top of the brainstem, below the diencephalon.",
+    "This is at the arrow: the oval swelling on the side of the upper medulla.",
+    "Not at the arrow; this is the nerve rootlets between pyramid and olive.",
+    "Not at the arrow; this is the nerve rootlets behind the olive."
+   ]
   }
  ],
  "cards": [
@@ -26170,6 +27382,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 12
     }
+   ],
+   "notes": [
+    "The cerebrum is the two hemispheres plus the diencephalon.",
+    "These lie below and behind it.",
+    "The cord is outside the cerebrum.",
+    "These are brainstem parts."
    ]
   },
   {
@@ -26193,6 +27411,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 15
     }
+   ],
+   "notes": [
+    "The tentorium separates cerebrum from cerebellum.",
+    "The falx cerebri lies in the longitudinal fissure.",
+    "Bichat's fissure is a transverse slit.",
+    "The corpus callosum joins them."
    ]
   },
   {
@@ -26211,6 +27435,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 10
     }
+   ],
+   "notes": [
+    "That is the falx cerebri.",
+    "Not a dural fold function.",
+    "It is a dural tent between cerebrum and cerebellum.",
+    "Lobes are separated by sulci."
    ]
   },
   {
@@ -26229,6 +27459,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 13
     }
+   ],
+   "notes": [
+    "Too light.",
+    "Too heavy.",
+    "Too light.",
+    "About 1200 to 1400 g."
    ]
   },
   {
@@ -26247,6 +27483,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 18
     }
+   ],
+   "notes": [
+    "The lateral sulcus is above the temporal lobe.",
+    "The central sulcus (Rolando).",
+    "The calcarine is in the occipital lobe.",
+    "That separates parietal and occipital lobes."
    ]
   },
   {
@@ -26270,6 +27512,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 29
     }
+   ],
+   "notes": [
+    "Not on the medial face.",
+    "Not there.",
+    "Not there.",
+    "Deep in the lateral sulcus, hidden by the opercula."
    ]
   },
   {
@@ -26288,6 +27536,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 20
     }
+   ],
+   "notes": [
+    "The calcarine fissure is on the medial face.",
+    "Not on the lateral face.",
+    "Not only inferior.",
+    "Not frontal."
    ]
   },
   {
@@ -26306,6 +27560,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 22
     }
+   ],
+   "notes": [
+    "Too small.",
+    "Too small.",
+    "The frontal lobe is about 40% of the hemisphere.",
+    "Too large."
    ]
   },
   {
@@ -26324,6 +27584,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 54
     }
+   ],
+   "notes": [
+    "The postcentral gyrus is sensory.",
+    "Auditory.",
+    "Limbic.",
+    "The precentral gyrus is primary motor."
    ]
   },
   {
@@ -26347,6 +27613,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 58
     }
+   ],
+   "notes": [
+    "Back of the superior temporal gyrus.",
+    "That is Broca's area.",
+    "That is visual.",
+    "That is motor."
    ]
   },
   {
@@ -26365,6 +27637,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 26
     }
+   ],
+   "notes": [
+    "The uncus is temporal.",
+    "The insula is hidden in the lateral sulcus.",
+    "The cuneus is O6.",
+    "The precuneus is parietal."
    ]
   },
   {
@@ -26383,6 +27661,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 28
     }
+   ],
+   "notes": [
+    "Not the uncus.",
+    "The hooked front end of the parahippocampal gyrus.",
+    "Not insular.",
+    "Not the fornix."
    ]
   },
   {
@@ -26401,6 +27685,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 31
     }
+   ],
+   "notes": [
+    "Too few.",
+    "Too many.",
+    "Too few.",
+    "About 200 million fibres."
    ]
   },
   {
@@ -26419,6 +27709,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 32
     }
+   ],
+   "notes": [
+    "The splenium is the back end.",
+    "The fornix is below it.",
+    "The genu is the front bend.",
+    "The uncus is temporal."
    ]
   },
   {
@@ -26437,6 +27733,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 34
     }
+   ],
+   "notes": [
+    "They end in the mammillary bodies.",
+    "The fornix starts at the hippocampus.",
+    "Not their end.",
+    "Not their end."
    ]
   },
   {
@@ -26455,6 +27757,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 37
     }
+   ],
+   "notes": [
+    "That is white matter.",
+    "In the cortex and the deep basal ganglia.",
+    "That is white matter.",
+    "Not only there."
    ]
   },
   {
@@ -26473,6 +27781,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 38
     }
+   ],
+   "notes": [
+    "That space is the external capsule.",
+    "That is the extreme capsule.",
+    "Between the thalamus/caudate and the lentiform nucleus.",
+    "Not above it."
    ]
   },
   {
@@ -26491,6 +27805,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 39
     }
+   ],
+   "notes": [
+    "Too thin.",
+    "Too thick.",
+    "Too thick.",
+    "About 3 to 4 mm."
    ]
   },
   {
@@ -26509,6 +27829,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 41
     }
+   ],
+   "notes": [
+    "Caudate plus putamen is the striatum.",
+    "Putamen plus globus pallidus.",
+    "Not the lentiform.",
+    "Not the lentiform."
    ]
   },
   {
@@ -26527,6 +27853,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 40
     }
+   ],
+   "notes": [
+    "Dopamine (from the substantia nigra).",
+    "Not the key one.",
+    "Not the key one.",
+    "Glycine acts in the cord."
    ]
   },
   {
@@ -26545,6 +27877,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 46
     }
+   ],
+   "notes": [
+    "Not the usual target.",
+    "Not a target.",
+    "The subthalamic nucleus is a deep brain stimulation target.",
+    "Not a target."
    ]
   },
   {
@@ -26563,6 +27901,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 49
     }
+   ],
+   "notes": [
+    "They fine-tune and control movement.",
+    "Choroid plexuses make CSF.",
+    "The thalamus relays vision.",
+    "The brainstem controls breathing."
    ]
   },
   {
@@ -26581,6 +27925,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 52
     }
+   ],
+   "notes": [
+    "Right is dominant in a minority.",
+    "Not equal.",
+    "Too low.",
+    "The left in about 92%."
    ]
   },
   {
@@ -26599,6 +27949,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 55
     }
+   ],
+   "notes": [
+    "It passes through, not crosses.",
+    "Most fibres cross in the medullary pyramids.",
+    "It descends there uncrossed.",
+    "It starts there."
    ]
   },
   {
@@ -26620,6 +27976,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 41
     }
+   ],
+   "notes": [
+    "The caudate is a basal ganglion.",
+    "The putamen is a basal ganglion.",
+    "The thalamus is diencephalon.",
+    "The hippocampus is limbic cortex."
    ]
   },
   {
@@ -26646,6 +28008,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 35
     }
+   ],
+   "notes": [
+    "Joins the two hemispheres.",
+    "Joins the two hemispheres.",
+    "A projection pathway, not a commissure.",
+    "The white matter core of the hemisphere."
    ]
   },
   {
@@ -26667,6 +28035,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 54
     }
+   ],
+   "notes": [
+    "The prefrontal cortex governs personality.",
+    "Broca is in the frontal lobe.",
+    "Vision is occipital.",
+    "Hearing is temporal."
    ]
   },
   {
@@ -26688,6 +28062,12 @@ SINA.lectures["anat3-cerebrum"] = {
      "lec": "Anatomy of the cerebrum",
      "n": 68
     }
+   ],
+   "notes": [
+    "Aphasia points to the dominant hemisphere.",
+    "Hemiplegia can come from a cerebral lesion.",
+    "Usually ear or nerve VIII, not the cerebrum.",
+    "Brainstem (IX, X)."
    ]
   },
   {
@@ -26700,7 +28080,13 @@ SINA.lectures["anat3-cerebrum"] = {
     "Postcentral gyrus (sensory strip)"
    ],
    "answer": 0,
-   "why": "The arrow points to the frontal lobe. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the frontal lobe. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "This is at the arrow: the lobe in front of the central sulcus.",
+    "Not at the arrow; this is the deep groove separating the temporal lobe from the frontal and parietal lobes.",
+    "Not at the arrow; this is the back of the superior temporal gyrus.",
+    "Not at the arrow; this is the gyrus behind the central sulcus."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -26712,7 +28098,13 @@ SINA.lectures["anat3-cerebrum"] = {
     "Occipital lobe"
    ],
    "answer": 1,
-   "why": "The arrow points to the parietal lobe. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the parietal lobe. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the gyrus in front of the central sulcus.",
+    "This is at the arrow: the lobe behind the central sulcus, above the lateral sulcus.",
+    "Not at the arrow; this is the deep groove separating the temporal lobe from the frontal and parietal lobes.",
+    "Not at the arrow; this is the lobe at the back of the hemisphere."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -26724,7 +28116,13 @@ SINA.lectures["anat3-cerebrum"] = {
     "Parietal lobe"
    ],
    "answer": 2,
-   "why": "The arrow points to the occipital lobe. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the occipital lobe. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the deep groove separating the temporal lobe from the frontal and parietal lobes.",
+    "Not at the arrow; this is the structure under the occipital lobes, behind the brainstem.",
+    "This is at the arrow: the lobe at the back of the hemisphere.",
+    "Not at the arrow; this is the lobe behind the central sulcus, above the lateral sulcus."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -26736,7 +28134,13 @@ SINA.lectures["anat3-cerebrum"] = {
     "Temporal lobe"
    ],
    "answer": 3,
-   "why": "The arrow points to the temporal lobe. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the temporal lobe. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the gyrus behind the central sulcus.",
+    "Not at the arrow; this is the deep groove separating the temporal lobe from the frontal and parietal lobes.",
+    "Not at the arrow; this is the groove between frontal and parietal lobes.",
+    "This is at the arrow: the lobe below the lateral sulcus."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -26748,7 +28152,13 @@ SINA.lectures["anat3-cerebrum"] = {
     "Frontal lobe"
    ],
    "answer": 0,
-   "why": "The arrow points to the central sulcus (rolando). The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the central sulcus (rolando). The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "This is at the arrow: the groove between frontal and parietal lobes.",
+    "Not at the arrow; this is the gyrus behind the central sulcus.",
+    "Not at the arrow; this is the back of the superior temporal gyrus.",
+    "Not at the arrow; this is the lobe in front of the central sulcus."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -26760,7 +28170,13 @@ SINA.lectures["anat3-cerebrum"] = {
     "Occipital lobe"
    ],
    "answer": 1,
-   "why": "The arrow points to the lateral sulcus (sylvius). The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the lateral sulcus (sylvius). The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the gyrus behind the central sulcus.",
+    "This is at the arrow: the deep groove separating the temporal lobe from the frontal and parietal lobes.",
+    "Not at the arrow; this is the inferior frontal gyrus, usually on the left.",
+    "Not at the arrow; this is the lobe at the back of the hemisphere."
+   ]
   }
  ],
  "cards": [
@@ -27542,6 +28958,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 34
     }
+   ],
+   "notes": [
+    "The pons belongs to the brainstem.",
+    "The thalamus is diencephalon.",
+    "The hypothalamus is diencephalon.",
+    "The epithalamus is diencephalon."
    ]
   },
   {
@@ -27560,6 +28982,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 4
     }
+   ],
+   "notes": [
+    "The fourth ventricle belongs to the hindbrain.",
+    "The diencephalon surrounds the third ventricle.",
+    "Those are in the hemispheres.",
+    "The aqueduct is in the midbrain."
    ]
   },
   {
@@ -27578,6 +29006,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 6
     }
+   ],
+   "notes": [
+    "Joins the hemispheres.",
+    "Joins the temporal lobes.",
+    "The interthalamic adhesion crosses the third ventricle.",
+    "A projection pathway."
    ]
   },
   {
@@ -27596,6 +29030,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 7
     }
+   ],
+   "notes": [
+    "The external capsule is lateral to the putamen.",
+    "It joins the two thalami.",
+    "Not this.",
+    "The Y-shaped internal medullary lamina divides it."
    ]
   },
   {
@@ -27614,6 +29054,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 12
     }
+   ],
+   "notes": [
+    "The anterior part is the anterior nucleus.",
+    "The pulvinar is the posterior thalamus.",
+    "Not hypothalamic.",
+    "Not pineal."
    ]
   },
   {
@@ -27632,6 +29078,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 9
     }
+   ],
+   "notes": [
+    "The medial body relays hearing.",
+    "Not the relay.",
+    "Limbic, not visual.",
+    "The lateral geniculate body relays vision."
    ]
   },
   {
@@ -27650,6 +29102,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 9
     }
+   ],
+   "notes": [
+    "The MGB sends hearing to the auditory cortex.",
+    "That is from the LGB.",
+    "Not its output.",
+    "Not its output."
    ]
   },
   {
@@ -27668,6 +29126,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 10
     }
+   ],
+   "notes": [
+    "The hypothalamus forms the floor.",
+    "Not this.",
+    "It forms the back wall of the interventricular foramen.",
+    "Not this."
    ]
   },
   {
@@ -27686,6 +29150,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 10
     }
+   ],
+   "notes": [
+    "Not the floor.",
+    "Not the fourth ventricle.",
+    "Not this.",
+    "It forms the side wall of the third ventricle."
    ]
   },
   {
@@ -27704,6 +29174,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 14
     }
+   ],
+   "notes": [
+    "Smell reaches the cortex without a thalamic relay.",
+    "Passes through the thalamus.",
+    "Passes through the thalamus.",
+    "Passes through the thalamus."
    ]
   },
   {
@@ -27722,6 +29198,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 15
     }
+   ],
+   "notes": [
+    "Not the main supply.",
+    "Not the main supply.",
+    "The posterior cerebral artery mainly supplies it.",
+    "Only indirectly."
    ]
   },
   {
@@ -27740,6 +29222,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 16
     }
+   ],
+   "notes": [
+    "The thalamus forms the side walls.",
+    "The hypothalamus forms the floor.",
+    "The epithalamus is at the back.",
+    "Too high."
    ]
   },
   {
@@ -27758,6 +29246,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 17
     }
+   ],
+   "notes": [
+    "Not the classic division.",
+    "These are epithalamus parts.",
+    "Not the classic division.",
+    "Supraoptic, tuberal and mammillary regions."
    ]
   },
   {
@@ -27776,6 +29270,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 18
     }
+   ],
+   "notes": [
+    "The thalamus relays vision.",
+    "Not its role.",
+    "It keeps the internal environment stable.",
+    "The pineal does this."
    ]
   },
   {
@@ -27799,6 +29299,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 18
     }
+   ],
+   "notes": [
+    "It controls the autonomic system and the pituitary.",
+    "Sensory relay.",
+    "Movement.",
+    "Movement."
    ]
   },
   {
@@ -27817,6 +29323,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 20
     }
+   ],
+   "notes": [
+    "Not thalamic.",
+    "The pineal belongs to the epithalamus.",
+    "Not hypothalamic.",
+    "Not subthalamic."
    ]
   },
   {
@@ -27835,6 +29347,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 20
     }
+   ],
+   "notes": [
+    "Oxytocin comes from the hypothalamus.",
+    "From the pituitary.",
+    "Melatonin, which sets the sleep-wake rhythm.",
+    "From the adrenal."
    ]
   },
   {
@@ -27853,6 +29371,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 23
     }
+   ],
+   "notes": [
+    "That holds the pituitary.",
+    "That is the hypothalamus.",
+    "Not there.",
+    "It sits between the superior colliculi."
    ]
   },
   {
@@ -27871,6 +29395,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 25
     }
+   ],
+   "notes": [
+    "Basal ganglia.",
+    "Melatonin and the habenula link it to mood and sleep.",
+    "Visual pathway.",
+    "Not linked."
    ]
   },
   {
@@ -27889,6 +29419,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 26
     }
+   ],
+   "notes": [
+    "The internal capsule lies lateral.",
+    "Medial.",
+    "Not the lateral boundary.",
+    "Medial."
    ]
   },
   {
@@ -27907,6 +29443,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 28
     }
+   ],
+   "notes": [
+    "Most basal ganglia outputs use GABA, but not the STN.",
+    "Nigra.",
+    "The subthalamic nucleus is excitatory, using glutamate.",
+    "No."
    ]
   },
   {
@@ -27925,6 +29467,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 28
     }
+   ],
+   "notes": [
+    "Violent flinging movements of one side.",
+    "Substantia nigra.",
+    "Cortex.",
+    "Occipital lobe."
    ]
   },
   {
@@ -27943,6 +29491,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 27
     }
+   ],
+   "notes": [
+    "Not pineal.",
+    "Not hypothalamic.",
+    "The zona incerta lies between them.",
+    "Bundles of fibres in the subthalamus."
    ]
   },
   {
@@ -27961,6 +29515,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 35
     }
+   ],
+   "notes": [
+    "Choroid plexuses make CSF.",
+    "Almost all sensation relays there before the cortex.",
+    "Not the reason.",
+    "Not motor cortex."
    ]
   },
   {
@@ -28009,6 +29569,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 14
     }
+   ],
+   "notes": [
+    "It takes part in consciousness and sleep.",
+    "It filters sensory input.",
+    "That is the pineal.",
+    "That is the choroid plexus."
    ]
   },
   {
@@ -28030,6 +29596,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 21
     }
+   ],
+   "notes": [
+    "Habenula is epithalamus.",
+    "Stria medullaris is epithalamus.",
+    "Hypothalamus.",
+    "Subthalamus."
    ]
   },
   {
@@ -28051,6 +29623,12 @@ SINA.lectures["anat3-diencephalon"] = {
      "lec": "Anatomy of the diencephalon",
      "n": 18
     }
+   ],
+   "notes": [
+    "It sets body temperature.",
+    "It controls hunger and thirst.",
+    "Thalamus.",
+    "Thalamus."
    ]
   },
   {
@@ -28063,7 +29641,13 @@ SINA.lectures["anat3-diencephalon"] = {
     "Mammillary body"
    ],
    "answer": 0,
-   "why": "The arrow points to the corpus callosum. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the corpus callosum. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "This is at the arrow: the arched band of fibres joining the hemispheres.",
+    "Not at the arrow; this is the top of the brainstem, below the diencephalon.",
+    "Not at the arrow; this is the large egg-shaped grey mass beside the third ventricle.",
+    "Not at the arrow; this is the round swelling behind the infundibulum."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -28075,7 +29659,13 @@ SINA.lectures["anat3-diencephalon"] = {
     "Subthalamus"
    ],
    "answer": 1,
-   "why": "The arrow points to the thalamus. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the thalamus. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the round swelling behind the infundibulum.",
+    "This is at the arrow: the large egg-shaped grey mass beside the third ventricle.",
+    "Not at the arrow; this is the top of the brainstem, below the diencephalon.",
+    "Not at the arrow; this is the region below the thalamus, beside the hypothalamus."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -28087,7 +29677,13 @@ SINA.lectures["anat3-diencephalon"] = {
     "Pituitary gland (via infundibulum)"
    ],
    "answer": 2,
-   "why": "The arrow points to the third ventricle. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the third ventricle. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the top of the brainstem, below the diencephalon.",
+    "Not at the arrow; this is the region below the thalamus forming the floor of the third ventricle.",
+    "This is at the arrow: the narrow midline cavity between the two thalami.",
+    "Not at the arrow; this is the gland hanging from the infundibulum in the sella."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -28099,7 +29695,13 @@ SINA.lectures["anat3-diencephalon"] = {
     "Hypothalamus"
    ],
    "answer": 3,
-   "why": "The arrow points to the hypothalamus. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the hypothalamus. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the gland hanging from the infundibulum in the sella.",
+    "Not at the arrow; this is the round swelling behind the infundibulum.",
+    "Not at the arrow; this is the narrow midline cavity between the two thalami.",
+    "This is at the arrow: the region below the thalamus forming the floor of the third ventricle."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -28111,7 +29713,13 @@ SINA.lectures["anat3-diencephalon"] = {
     "Thalamus"
    ],
    "answer": 0,
-   "why": "The arrow points to the pituitary gland (via infundibulum). The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the pituitary gland (via infundibulum). The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "This is at the arrow: the gland hanging from the infundibulum in the sella.",
+    "Not at the arrow; this is the small gland at the back of the third ventricle.",
+    "Not at the arrow; this is the round swelling behind the infundibulum.",
+    "Not at the arrow; this is the large egg-shaped grey mass beside the third ventricle."
+   ]
   },
   {
    "q": "Which structure is at the arrow?",
@@ -28123,7 +29731,13 @@ SINA.lectures["anat3-diencephalon"] = {
     "Hypothalamus"
    ],
    "answer": 1,
-   "why": "The arrow points to the mammillary body. The fully labelled diagram is on the Visual tab."
+   "why": "The arrow points to the mammillary body. The fully labelled diagram is on the Visual tab.",
+   "notes": [
+    "Not at the arrow; this is the narrow midline cavity between the two thalami.",
+    "This is at the arrow: the round swelling behind the infundibulum.",
+    "Not at the arrow; this is the gland hanging from the infundibulum in the sella.",
+    "Not at the arrow; this is the region below the thalamus forming the floor of the third ventricle."
+   ]
   }
  ],
  "cards": [
@@ -31332,6 +32946,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 11
     }
+   ],
+   "notes": [
+    "Joins third and fourth ventricles.",
+    "The interventricular foramen of Monro.",
+    "A lateral exit of the fourth ventricle.",
+    "The median exit of the fourth ventricle."
    ]
   },
   {
@@ -31350,6 +32970,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 24
     }
+   ],
+   "notes": [
+    "Those hold the lateral ventricles.",
+    "That is the fourth ventricle region.",
+    "That holds the aqueduct.",
+    "A slit between the two thalami."
    ]
   },
   {
@@ -31368,6 +32994,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 34
     }
+   ],
+   "notes": [
+    "Monro is between lateral and third ventricles.",
+    "It continues downward, not out.",
+    "It enters the fourth ventricle.",
+    "Luschka (lateral) and Magendie (median) apertures."
    ]
   },
   {
@@ -31386,6 +33018,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 28
     }
+   ],
+   "notes": [
+    "That is Monro.",
+    "That is Luschka and Magendie.",
+    "It joins the third and fourth ventricles.",
+    "Not a direct connection."
    ]
   },
   {
@@ -31404,6 +33042,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 49
     }
+   ],
+   "notes": [
+    "It produces CSF.",
+    "Not absorption.",
+    "Not absorption.",
+    "Arachnoid villi and granulations into the sinuses."
    ]
   },
   {
@@ -31422,6 +33066,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 19
     }
+   ],
+   "notes": [
+    "Shorter.",
+    "Not the largest in this lecture.",
+    "The temporal horn is described as longest and largest.",
+    "Variable and smaller."
    ]
   },
   {
@@ -31440,6 +33090,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 13
     }
+   ],
+   "notes": [
+    "The tapetum lines the temporal and occipital horns.",
+    "Forms the lateral wall.",
+    "Lines the body.",
+    "The septum pellucidum forms the medial wall."
    ]
   },
   {
@@ -31458,6 +33114,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 26
     }
+   ],
+   "notes": [
+    "Reversed.",
+    "Wrong order.",
+    "That is the back wall area.",
+    "Optic chiasm, infundibulum, tuber cinereum, mammillary bodies."
    ]
   },
   {
@@ -31476,6 +33138,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 30
     }
+   ],
+   "notes": [
+    "Part of the roof.",
+    "Roof.",
+    "The diamond-shaped rhomboid fossa.",
+    "Its lower tip."
    ]
   },
   {
@@ -31494,6 +33162,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 32
     }
+   ],
+   "notes": [
+    "Motor (basal plate) nuclei lie medial.",
+    "Sensory nuclei lie lateral.",
+    "Sensory (VIII).",
+    "Not in the roof."
    ]
   },
   {
@@ -31512,6 +33186,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 36
     }
+   ],
+   "notes": [
+    "Present.",
+    "The aqueduct has no choroid plexus.",
+    "Present.",
+    "Present."
    ]
   },
   {
@@ -31530,6 +33210,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 45
     }
+   ],
+   "notes": [
+    "Too little.",
+    "About 150 mL.",
+    "That is daily production.",
+    "Far too much."
    ]
   },
   {
@@ -31548,6 +33234,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 43
     }
+   ],
+   "notes": [
+    "The pia dips into every sulcus.",
+    "It bridges sulci.",
+    "It lines the skull.",
+    "Not a meningeal layer."
    ]
   },
   {
@@ -31566,6 +33258,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 39
     }
+   ],
+   "notes": [
+    "CSF circulates in the subarachnoid space.",
+    "Potential space.",
+    "Fat, not CSF.",
+    "Holds the venous sinuses."
    ]
   },
   {
@@ -31589,6 +33287,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 23
     }
+   ],
+   "notes": [
+    "Not this.",
+    "The tapetum lies between the horns and the optic radiations.",
+    "Not this.",
+    "Not this."
    ]
   },
   {
@@ -31612,6 +33316,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 54
     }
+   ],
+   "notes": [
+    "The fourth ventricle stays normal.",
+    "It lies below the block.",
+    "Blocked flow dilates the ventricles above it.",
+    "Those openings are below the block."
    ]
   },
   {
@@ -31630,6 +33340,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 54
     }
+   ],
+   "notes": [
+    "That is non-communicating.",
+    "Poor absorption or too much production.",
+    "Non-communicating.",
+    "Non-communicating."
    ]
   },
   {
@@ -31653,6 +33369,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 57
     }
+   ],
+   "notes": [
+    "A hole in the floor to the interpeduncular cistern bypasses the aqueduct.",
+    "Not this.",
+    "Not this.",
+    "That is a shunt."
    ]
   },
   {
@@ -31671,6 +33393,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 60
     }
+   ],
+   "notes": [
+    "Below the end of the cord.",
+    "Too high; near the cord's end.",
+    "Too high.",
+    "Too low."
    ]
   },
   {
@@ -31689,6 +33417,12 @@ SINA.lectures["anat3-ventricles"] = {
      "lec": "Ventricles and CSF",
      "n": 53
     }
+   ],
+   "notes": [
+    "Obstruction.",
+    "Poor absorption.",
+    "Papillomas overproduce CSF.",
+    "Poor absorption."
    ]
   },
   {
@@ -31701,7 +33435,13 @@ SINA.lectures["anat3-ventricles"] = {
     "Cerebral aqueduct"
    ],
    "answer": 1,
-   "why": "The arrow points to: Choroid plexus. Capillary network lined by ependymal cells; makes most of the CSF (about 500 mL a day) and forms the blood-CSF barrier."
+   "why": "The arrow points to: Choroid plexus. Capillary network lined by ependymal cells; makes most of the CSF (about 500 mL a day) and forms the blood-CSF barrier.",
+   "notes": [
+    "Not at the arrow; this is the venous sinus along the top of the falx, where CSF drains.",
+    "This is at the arrow: the vascular tufts in the ventricles that make CSF.",
+    "Not at the arrow; this is the narrow midline cavity between the two thalami.",
+    "Not at the arrow; this is the narrow channel through the midbrain from the third to the fourth ventricle."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -31713,7 +33453,13 @@ SINA.lectures["anat3-ventricles"] = {
     "Lateral ventricles"
    ],
    "answer": 3,
-   "why": "The arrow points to: Lateral ventricles. Paired C-shaped cavities in the hemispheres: frontal, temporal and occipital horns, body and atrium."
+   "why": "The arrow points to: Lateral ventricles. Paired C-shaped cavities in the hemispheres: frontal, temporal and occipital horns, body and atrium.",
+   "notes": [
+    "Not at the arrow; this is the openings from each lateral ventricle into the third ventricle.",
+    "Not at the arrow; this is the narrow channel through the midbrain from the third to the fourth ventricle.",
+    "Not at the arrow; this is the venous sinus along the top of the falx, where CSF drains.",
+    "This is at the arrow: the paired C-shaped cavities in the hemispheres."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -31725,7 +33471,13 @@ SINA.lectures["anat3-ventricles"] = {
     "Superior sagittal sinus"
    ],
    "answer": 2,
-   "why": "The arrow points to: Foramina of Monro. The interventricular foramina joining each lateral ventricle to the third ventricle."
+   "why": "The arrow points to: Foramina of Monro. The interventricular foramina joining each lateral ventricle to the third ventricle.",
+   "notes": [
+    "Not at the arrow; this is the paired C-shaped cavities in the hemispheres.",
+    "Not at the arrow; this is the cavity between the brainstem and cerebellum.",
+    "This is at the arrow: the openings from each lateral ventricle into the third ventricle.",
+    "Not at the arrow; this is the venous sinus along the top of the falx, where CSF drains."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -31737,7 +33489,13 @@ SINA.lectures["anat3-ventricles"] = {
     "Third ventricle"
    ],
    "answer": 3,
-   "why": "The arrow points to: Third ventricle. Median cleft between the two thalami, in the diencephalon."
+   "why": "The arrow points to: Third ventricle. Median cleft between the two thalami, in the diencephalon.",
+   "notes": [
+    "Not at the arrow; this is the openings from each lateral ventricle into the third ventricle.",
+    "Not at the arrow; this is the venous sinus along the top of the falx, where CSF drains.",
+    "Not at the arrow; this is the tufts pushing into the sinus that absorb CSF.",
+    "This is at the arrow: the narrow midline cavity between the two thalami."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -31749,7 +33507,13 @@ SINA.lectures["anat3-ventricles"] = {
     "Foramina of Monro"
    ],
    "answer": 0,
-   "why": "The arrow points to: Cerebral aqueduct. Narrow channel through the midbrain, no choroid plexus; a common site of obstruction."
+   "why": "The arrow points to: Cerebral aqueduct. Narrow channel through the midbrain, no choroid plexus; a common site of obstruction.",
+   "notes": [
+    "This is at the arrow: the narrow channel through the midbrain from the third to the fourth ventricle.",
+    "Not at the arrow; this is the venous sinus along the top of the falx, where CSF drains.",
+    "Not at the arrow; this is the CSF-filled space around the brain and cord.",
+    "Not at the arrow; this is the openings from each lateral ventricle into the third ventricle."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -31761,7 +33525,13 @@ SINA.lectures["anat3-ventricles"] = {
     "Foramina of Monro"
    ],
    "answer": 1,
-   "why": "The arrow points to: Fourth ventricle. Tent-shaped cavity behind the pons and medulla, in front of the cerebellum."
+   "why": "The arrow points to: Fourth ventricle. Tent-shaped cavity behind the pons and medulla, in front of the cerebellum.",
+   "notes": [
+    "Not at the arrow; this is the vascular tufts in the ventricles that make CSF.",
+    "This is at the arrow: the cavity between the brainstem and cerebellum.",
+    "Not at the arrow; this is the venous sinus along the top of the falx, where CSF drains.",
+    "Not at the arrow; this is the openings from each lateral ventricle into the third ventricle."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -31773,7 +33543,13 @@ SINA.lectures["anat3-ventricles"] = {
     "Cerebral aqueduct"
    ],
    "answer": 0,
-   "why": "The arrow points to: Magendie and Luschka. The median aperture (Magendie, to the cisterna magna) and two lateral apertures (Luschka, to the cerebellopontine cisterns)."
+   "why": "The arrow points to: Magendie and Luschka. The median aperture (Magendie, to the cisterna magna) and two lateral apertures (Luschka, to the cerebellopontine cisterns).",
+   "notes": [
+    "This is at the arrow: the outlets of the fourth ventricle into the subarachnoid space.",
+    "Not at the arrow; this is the narrow midline cavity between the two thalami.",
+    "Not at the arrow; this is the vascular tufts in the ventricles that make CSF.",
+    "Not at the arrow; this is the narrow channel through the midbrain from the third to the fourth ventricle."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -31785,7 +33561,13 @@ SINA.lectures["anat3-ventricles"] = {
     "Subarachnoid space"
    ],
    "answer": 3,
-   "why": "The arrow points to: Subarachnoid space. Between arachnoid and pia; holds most of the CSF and widens into cisterns."
+   "why": "The arrow points to: Subarachnoid space. Between arachnoid and pia; holds most of the CSF and widens into cisterns.",
+   "notes": [
+    "Not at the arrow; this is the tufts pushing into the sinus that absorb CSF.",
+    "Not at the arrow; this is the openings from each lateral ventricle into the third ventricle.",
+    "Not at the arrow; this is the paired C-shaped cavities in the hemispheres.",
+    "This is at the arrow: the CSF-filled space around the brain and cord."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -31797,7 +33579,13 @@ SINA.lectures["anat3-ventricles"] = {
     "Third ventricle"
    ],
    "answer": 0,
-   "why": "The arrow points to: Arachnoid granulations. Arachnoid projections into the dural sinuses (of Pacchioni) through which CSF returns to the blood."
+   "why": "The arrow points to: Arachnoid granulations. Arachnoid projections into the dural sinuses (of Pacchioni) through which CSF returns to the blood.",
+   "notes": [
+    "This is at the arrow: the tufts pushing into the sinus that absorb CSF.",
+    "Not at the arrow; this is the openings from each lateral ventricle into the third ventricle.",
+    "Not at the arrow; this is the narrow channel through the midbrain from the third to the fourth ventricle.",
+    "Not at the arrow; this is the narrow midline cavity between the two thalami."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -31809,7 +33597,13 @@ SINA.lectures["anat3-ventricles"] = {
     "Foramina of Monro"
    ],
    "answer": 1,
-   "why": "The arrow points to: Superior sagittal sinus. Dural venous sinus receiving CSF; the sinuses drain into the internal jugular veins."
+   "why": "The arrow points to: Superior sagittal sinus. Dural venous sinus receiving CSF; the sinuses drain into the internal jugular veins.",
+   "notes": [
+    "Not at the arrow; this is the outlets of the fourth ventricle into the subarachnoid space.",
+    "This is at the arrow: the venous sinus along the top of the falx, where CSF drains.",
+    "Not at the arrow; this is the cavity between the brainstem and cerebellum.",
+    "Not at the arrow; this is the openings from each lateral ventricle into the third ventricle."
+   ]
   }
  ],
  "cards": [

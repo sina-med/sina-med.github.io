@@ -731,5 +731,42 @@ SINA.midterms = [
   ],
   "tbc": true,
   "auto": true
+ },
+ {
+  "id": "anat3-midterm",
+  "program": "y2-anglo",
+  "subject": "anat3",
+  "subjects": [
+   "anat3"
+  ],
+  "title": "ENT/Neuroanat",
+  "date": "2026-11-17",
+  "groups": [
+   {
+    "name": "ENT",
+    "items": [
+     "anat3-ear-1",
+     "anat3-ear-2",
+     "anat3-thyroid",
+     "anat3-larynx"
+    ],
+    "tbc": false
+   },
+   {
+    "name": "Neuroanatomy",
+    "items": [
+     "anat3-cerebrum",
+     "anat3-diencephalon",
+     "anat3-brainstem",
+     "anat3-spinal-cord",
+     "anat3-ventricles"
+    ],
+    "tbc": false
+   }
+  ],
+  "notes": {},
+  "tbc": false,
+  "part": true,
+  "auto": false
  }
 ];
