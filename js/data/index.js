@@ -30,6 +30,7 @@ SINA.subjects = [
       { name: "Neuroanatomy", items: [
         { id: "anat3-spinal-cord", title: "Anatomy of the spinal cord" },
         { id: "anat3-brainstem", title: "Anatomy of the brainstem" },
+        { id: "anat3-cerebellum", title: "Anatomy of the cerebellum" },
         { id: "anat3-cerebrum", title: "Anatomy of the cerebrum" },
         { id: "anat3-diencephalon", title: "Anatomy of the diencephalon" },
         { id: "anat3-ventricles", title: "Anatomy of the ventricles and CSF" },
@@ -758,6 +759,7 @@ SINA.midterms = [
      "anat3-cerebrum",
      "anat3-diencephalon",
      "anat3-brainstem",
+     "anat3-cerebellum",
      "anat3-spinal-cord",
      "anat3-ventricles"
     ],

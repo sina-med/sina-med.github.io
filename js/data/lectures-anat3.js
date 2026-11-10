@@ -15884,7 +15884,7 @@ SINA.lectures["anat3-larynx"] = {
    ]
   },
   {
-   "q": "Which functions does the larynx perform? (choose all)",
+   "q": "Which functions does the larynx perform?",
    "options": [
     "Phonation",
     "Protection of the lower airway",
@@ -15911,7 +15911,7 @@ SINA.lectures["anat3-larynx"] = {
    ]
   },
   {
-   "q": "Which muscles adduct the vocal cords? (choose all)",
+   "q": "Which muscles adduct the vocal cords?",
    "options": [
     "Lateral cricoarytenoid",
     "Transverse arytenoid",
@@ -15938,7 +15938,7 @@ SINA.lectures["anat3-larynx"] = {
    ]
   },
   {
-   "q": "Which muscles tense the vocal cords? (choose all)",
+   "q": "Which muscles tense the vocal cords?",
    "options": [
     "Cricothyroid",
     "Vocalis",
@@ -15965,7 +15965,7 @@ SINA.lectures["anat3-larynx"] = {
    ]
   },
   {
-   "q": "Which are extrinsic muscles that elevate the larynx? (choose all)",
+   "q": "Which are extrinsic muscles that elevate the larynx?",
    "options": [
     "Thyrohyoid",
     "Mylohyoid",
@@ -18825,7 +18825,7 @@ SINA.lectures["anat3-thyroid"] = {
    ]
   },
   {
-   "q": "Which structures are at risk in thyroid surgery? (choose all)",
+   "q": "Which structures are at risk in thyroid surgery?",
    "options": [
     "Recurrent laryngeal nerves",
     "Parathyroid glands",
@@ -18857,7 +18857,7 @@ SINA.lectures["anat3-thyroid"] = {
    ]
   },
   {
-   "q": "Which veins drain the thyroid gland? (choose all)",
+   "q": "Which veins drain the thyroid gland?",
    "options": [
     "Superior thyroid vein",
     "Middle thyroid vein",
@@ -18884,7 +18884,7 @@ SINA.lectures["anat3-thyroid"] = {
    ]
   },
   {
-   "q": "Which are actions of thyroid hormones? (choose all)",
+   "q": "Which are actions of thyroid hormones?",
    "options": [
     "Acceleration of enzymatic metabolism",
     "Acceleration of lipid catabolism",
@@ -18911,7 +18911,7 @@ SINA.lectures["anat3-thyroid"] = {
    ]
   },
   {
-   "q": "Which are actions of parathyroid hormone? (choose all)",
+   "q": "Which are actions of parathyroid hormone?",
    "options": [
     "Hypercalcemic",
     "Hypophosphoremic",
@@ -21678,7 +21678,7 @@ SINA.lectures["anat3-ear-1"] = {
    ]
   },
   {
-   "q": "Which are functions of the Eustachian tube? (choose all)",
+   "q": "Which are functions of the Eustachian tube?",
    "options": [
     "Pressure equalisation",
     "Drainage",
@@ -21705,7 +21705,7 @@ SINA.lectures["anat3-ear-1"] = {
    ]
   },
   {
-   "q": "Which lie on the lower level of the medial wall? (choose all)",
+   "q": "Which lie on the lower level of the medial wall?",
    "options": [
     "The promontory",
     "The oval window",
@@ -21737,7 +21737,7 @@ SINA.lectures["anat3-ear-1"] = {
    ]
   },
   {
-   "q": "Which are parts of the malleus? (choose all)",
+   "q": "Which are parts of the malleus?",
    "options": [
     "The manubrium",
     "The lateral process",
@@ -21764,7 +21764,7 @@ SINA.lectures["anat3-ear-1"] = {
    ]
   },
   {
-   "q": "Which nerves supply the external ear? (choose all)",
+   "q": "Which nerves supply the external ear?",
    "options": [
     "Cervical plexus",
     "Trigeminal nerve",
@@ -23280,7 +23280,7 @@ SINA.lectures["anat3-ear-2"] = {
    ]
   },
   {
-   "q": "Which structures make up the membranous labyrinth? (choose all)",
+   "q": "Which structures make up the membranous labyrinth?",
    "options": [
     "The utricle",
     "The cochlear duct",
@@ -23312,7 +23312,7 @@ SINA.lectures["anat3-ear-2"] = {
    ]
   },
   {
-   "q": "Which receptors serve balance? (choose all)",
+   "q": "Which receptors serve balance?",
    "options": [
     "Maculae",
     "Cristae ampullaris",
@@ -23339,7 +23339,7 @@ SINA.lectures["anat3-ear-2"] = {
    ]
   },
   {
-   "q": "Which belong to the posterior (balance) labyrinth? (choose all)",
+   "q": "Which belong to the posterior (balance) labyrinth?",
    "options": [
     "The utricle",
     "The semicircular ducts",
@@ -23366,7 +23366,7 @@ SINA.lectures["anat3-ear-2"] = {
    ]
   },
   {
-   "q": "Which branches arise from the superior vestibular nerve? (choose all)",
+   "q": "Which branches arise from the superior vestibular nerve?",
    "options": [
     "Utricular nerve",
     "Lateral ampullary nerve",
@@ -24794,7 +24794,7 @@ SINA.lectures["anat3-spinal-cord"] = {
    ]
   },
   {
-   "q": "What are the main functions of the spinal cord? (choose all)",
+   "q": "What are the main functions of the spinal cord?",
    "options": [
     "Conduction",
     "Reflex activity",
@@ -24821,7 +24821,7 @@ SINA.lectures["anat3-spinal-cord"] = {
    ]
   },
   {
-   "q": "Which are ascending (sensory) tracts? (choose all)",
+   "q": "Which are ascending (sensory) tracts?",
    "options": [
     "Dorsal columns",
     "Spinothalamic tracts",
@@ -24853,7 +24853,7 @@ SINA.lectures["anat3-spinal-cord"] = {
    ]
   },
   {
-   "q": "What does the spinal canal contain? (choose all)",
+   "q": "What does the spinal canal contain?",
    "options": [
     "The spinal cord",
     "The meninges",
@@ -24880,7 +24880,7 @@ SINA.lectures["anat3-spinal-cord"] = {
    ]
   },
   {
-   "q": "What features mark a spinal cord compression syndrome? (choose all)",
+   "q": "What features mark a spinal cord compression syndrome?",
    "options": [
     "A lesion syndrome",
     "A sublesional syndrome",
@@ -25012,6 +25012,366 @@ SINA.lectures["anat3-spinal-cord"] = {
     "This is at the arrow: the tiny canal in the middle of the grey matter.",
     "Not at the arrow; this is the shallow groove on the back of the cord.",
     "Not at the arrow; this is the broad front horn of motor neurons."
+   ]
+  },
+  {
+   "q": "Where does the spinal cord begin?",
+   "options": [
+    "At the foramen magnum, continuing the medulla",
+    "At the level of C7",
+    "At the pons",
+    "At the atlas, below the foramen magnum by 5 cm"
+   ],
+   "answer": 0,
+   "why": "The spinal cord extends from the foramen magnum, where it continues the medulla oblongata.",
+   "notes": [
+    "It begins at the foramen magnum.",
+    "C7 is within the cervical cord.",
+    "The pons is above the medulla.",
+    "It starts right at the foramen magnum."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/12.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Which tract carries fine touch and proprioception (position sense)?",
+   "options": [
+    "Dorsal columns (medial lemniscus pathway)",
+    "Spinothalamic tract",
+    "Corticospinal tract",
+    "Vestibulospinal tract"
+   ],
+   "answer": 0,
+   "why": "The dorsal columns carry fine touch and proprioception; the spinothalamic tracts carry pain and temperature.",
+   "notes": [
+    "Dorsal columns: touch and position.",
+    "Spinothalamic: pain and temperature.",
+    "Corticospinal: voluntary movement.",
+    "Vestibulospinal: balance and posture."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/21.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "Which tract carries voluntary motor commands down the spinal cord?",
+   "options": [
+    "Corticospinal tract",
+    "Spinothalamic tract",
+    "Dorsal columns",
+    "Spinocerebellar tract"
+   ],
+   "answer": 0,
+   "why": "Descending tracts carry motor information; the corticospinal tract controls voluntary movement.",
+   "notes": [
+    "Corticospinal: voluntary movement.",
+    "Spinothalamic is sensory.",
+    "Dorsal columns are sensory.",
+    "Spinocerebellar tracts are sensory to the cerebellum."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/21.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "Which horn of the grey matter contains the motor neurons that supply skeletal muscles?",
+   "options": [
+    "Anterior (ventral) horn",
+    "Posterior (dorsal) horn",
+    "Lateral horn",
+    "None; motor neurons are in the white matter"
+   ],
+   "answer": 0,
+   "why": "Ventral horns contain motor neurons sending fibres through the ventral roots to muscles.",
+   "notes": [
+    "Ventral horn: motor.",
+    "Dorsal horn: sensory.",
+    "Lateral horn: autonomic.",
+    "Neuron bodies are in the grey matter."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/19.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "How many pairs of cervical spinal nerves are there?",
+   "options": [
+    "8",
+    "7",
+    "12",
+    "5"
+   ],
+   "answer": 0,
+   "why": "There are 8 cervical pairs although there are only 7 cervical vertebrae.",
+   "notes": [
+    "8 cervical nerve pairs.",
+    "7 is the number of cervical vertebrae.",
+    "12 is the thoracic count.",
+    "5 is the lumbar or sacral count."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/13.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "What is the spinal cord's role in a withdrawal reflex?",
+   "options": [
+    "It processes the reflex without needing the brain",
+    "It only relays the signal to the brain",
+    "It has no role; reflexes are cerebellar",
+    "It releases hormones"
+   ],
+   "answer": 0,
+   "why": "The spinal cord processes simple reflexes independently of the brain, such as withdrawal.",
+   "notes": [
+    "Simple reflexes are integrated in the cord.",
+    "The cord does more than relay.",
+    "The cerebellum coordinates, it does not run spinal reflexes.",
+    "The cord does not secrete hormones."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/31.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "q": "What is spinal cord compression considered?",
+   "options": [
+    "A neurosurgical emergency",
+    "A benign condition to watch",
+    "A purely muscular problem",
+    "A cerebellar syndrome"
+   ],
+   "answer": 0,
+   "why": "Spinal cord compression is a neurosurgical emergency, recognised by lesion, sublesional and spinal syndromes.",
+   "notes": [
+    "It needs urgent neurosurgical care.",
+    "Delay risks permanent paralysis.",
+    "It is a neurological problem.",
+    "It is a spinal, not cerebellar, syndrome."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/35.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "Which layer of the meninges is the deepest, lying directly on the spinal cord?",
+   "options": [
+    "Pia mater",
+    "Dura mater",
+    "Arachnoid mater",
+    "Periosteum"
+   ],
+   "answer": 0,
+   "why": "From outside in: dura, arachnoid, pia. The pia is the deepest.",
+   "notes": [
+    "The pia covers the cord directly.",
+    "The dura is the outermost.",
+    "The arachnoid is the middle layer.",
+    "The periosteum lines the bone."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/28.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "Which segments contain the lateral horns, the source of sympathetic outflow?",
+   "options": [
+    "T1 to L2",
+    "C1 to C8",
+    "L3 to S1",
+    "S2 to S4 only"
+   ],
+   "answer": 0,
+   "why": "Lateral horns are in T1 to L2 (sympathetic) and S2 to S4 (parasympathetic).",
+   "notes": [
+    "Thoracolumbar: sympathetic.",
+    "Not cervical.",
+    "Not this range.",
+    "S2 to S4 is parasympathetic, not sympathetic."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/19.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Each spinal segment supplies a specific skin area. What is this area called?",
+   "options": [
+    "Dermatome",
+    "Myotome",
+    "Sclerotome",
+    "Neurotome"
+   ],
+   "answer": 0,
+   "why": "Each segment corresponds to a dermatome (skin area) and a myotome (muscles).",
+   "notes": [
+    "Dermatome: skin area.",
+    "Myotome: muscles.",
+    "Sclerotome is embryonic bone tissue.",
+    "Not the term used."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/34.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 34
+    }
+   ]
+  },
+  {
+   "q": "At birth, at which vertebral level does the spinal cord end?",
+   "options": [
+    "L3",
+    "L1/L2",
+    "S1",
+    "T12"
+   ],
+   "answer": 0,
+   "why": "At 6 months of fetal life it reaches S1, at birth L3, and in adults the L1/L2 disc.",
+   "notes": [
+    "At birth it ends at L3.",
+    "This is the adult level.",
+    "This is at 6 months of fetal life.",
+    "Too high."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/09.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "What is the transverse diameter of the spinal cord?",
+   "options": [
+    "10 to 12 mm",
+    "3 to 4 mm",
+    "25 to 30 mm",
+    "40 to 45 mm"
+   ],
+   "answer": 0,
+   "why": "Transverse diameter 10 to 12 mm, anteroposterior about 8 mm, mass 25 to 30 g.",
+   "notes": [
+    "10 to 12 mm.",
+    "Too small.",
+    "Too large.",
+    "That is the length in cm."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/11.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Into what do the anterior and posterior spinal veins drain?",
+   "options": [
+    "Radicular veins, then the vertebral venous plexus",
+    "Directly into the superior vena cava",
+    "The superior sagittal sinus",
+    "The portal vein"
+   ],
+   "answer": 0,
+   "why": "Spinal veins drain into radicular veins, then the internal and external vertebral venous plexus.",
+   "notes": [
+    "Spinal → radicular → vertebral plexus.",
+    "Not directly.",
+    "That drains the brain.",
+    "That drains the gut."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/30.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "Which embryonic zone of the neural tube becomes the white matter?",
+   "options": [
+    "Marginal zone",
+    "Mantle zone",
+    "Ventricular zone",
+    "Alar plate"
+   ],
+   "answer": 0,
+   "why": "The marginal zone, outermost and containing nerve fibres, becomes white matter.",
+   "notes": [
+    "Outermost: white matter.",
+    "Becomes grey matter.",
+    "Gives neuroblasts and glioblasts, then the ependyma.",
+    "Part of the mantle; sensory neurons."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/05.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "What is the anteroposterior diameter of the spinal canal in the lumbar region?",
+   "options": [
+    "22 to 25 mm",
+    "12 to 22 mm",
+    "5 to 8 mm",
+    "40 to 45 mm"
+   ],
+   "answer": 0,
+   "why": "The canal measures 12 to 22 mm in the cervical region and 22 to 25 mm in the lumbar region.",
+   "notes": [
+    "Lumbar canal diameter.",
+    "That is the cervical range.",
+    "Too small.",
+    "Too large."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-spinal-cord/26.jpg",
+     "lec": "Anatomy of the spinal cord",
+     "n": 26
+    }
    ]
   }
  ],
@@ -26403,7 +26763,7 @@ SINA.lectures["anat3-brainstem"] = {
    ]
   },
   {
-   "q": "Which nerves emerge from the ventral surface of the pons? (choose all)",
+   "q": "Which nerves emerge from the ventral surface of the pons?",
    "options": [
     "CN V",
     "CN VI",
@@ -26430,7 +26790,7 @@ SINA.lectures["anat3-brainstem"] = {
    ]
   },
   {
-   "q": "Which functions depend on the reticular formation? (choose all)",
+   "q": "Which functions depend on the reticular formation?",
    "options": [
     "Consciousness",
     "Respiratory control",
@@ -26457,7 +26817,7 @@ SINA.lectures["anat3-brainstem"] = {
    ]
   },
   {
-   "q": "Which are ascending conscious tracts? (choose all)",
+   "q": "Which are ascending conscious tracts?",
    "options": [
     "Dorsal column-medial lemniscus",
     "Anterolateral system",
@@ -26484,7 +26844,7 @@ SINA.lectures["anat3-brainstem"] = {
    ]
   },
   {
-   "q": "Which nerves emerge behind the olive? (choose all)",
+   "q": "Which nerves emerge behind the olive?",
    "options": [
     "Glossopharyngeal (IX)",
     "Vagus (X)",
@@ -26621,6 +26981,326 @@ SINA.lectures["anat3-brainstem"] = {
     "This is at the arrow: the oval swelling on the side of the upper medulla.",
     "Not at the arrow; this is the nerve rootlets between pyramid and olive.",
     "Not at the arrow; this is the nerve rootlets behind the olive."
+   ]
+  },
+  {
+   "q": "Which are the three parts of the brainstem, from top to bottom?",
+   "options": [
+    "Midbrain, pons, medulla oblongata",
+    "Medulla, pons, midbrain",
+    "Thalamus, midbrain, pons",
+    "Pons, midbrain, medulla"
+   ],
+   "answer": 0,
+   "why": "The brainstem has three sections in descending order: midbrain, pons and medulla oblongata.",
+   "notes": [
+    "Correct order from above down.",
+    "This is bottom to top.",
+    "The thalamus is diencephalon.",
+    "The midbrain is above the pons."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/03.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 3
+    }
+   ]
+  },
+  {
+   "q": "Which vital functions depend on the brainstem?",
+   "options": [
+    "Breathing",
+    "Consciousness",
+    "Heart rate and blood pressure",
+    "Reading and writing"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The brainstem is responsible for breathing, consciousness, blood pressure, heart rate and sleep.",
+   "notes": [
+    "Respiratory centres are in the brainstem.",
+    "The reticular formation keeps us conscious.",
+    "Cardiovascular centres are in the brainstem.",
+    "Reading and writing are cortical functions."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/03.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 3
+    }
+   ]
+  },
+  {
+   "q": "Where are the respiratory and cardiovascular centres mainly located?",
+   "options": [
+    "Medulla oblongata",
+    "Midbrain",
+    "Thalamus",
+    "Cerebellum"
+   ],
+   "answer": 0,
+   "why": "The respiratory and cardiovascular centres are in the medulla, which is why medullary compression is life-threatening.",
+   "notes": [
+    "The medulla holds the vital centres.",
+    "The midbrain holds visual and auditory reflex centres.",
+    "The thalamus is a sensory relay.",
+    "The cerebellum coordinates movement."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/38.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "q": "Which cranial nerve leaves the brainstem between the two cerebral peduncles?",
+   "options": [
+    "Oculomotor nerve (III)",
+    "Trochlear nerve (IV)",
+    "Trigeminal nerve (V)",
+    "Hypoglossal nerve (XII)"
+   ],
+   "answer": 0,
+   "why": "The oculomotor nerve exits from the interpeduncular fossa, between the peduncles.",
+   "notes": [
+    "III emerges between the peduncles.",
+    "IV emerges from the back of the midbrain.",
+    "V emerges from the side of the pons.",
+    "XII emerges from the medulla."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/11.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Which cranial nerves emerge from the medulla?",
+   "options": [
+    "Glossopharyngeal (IX)",
+    "Vagus (X)",
+    "Hypoglossal (XII)",
+    "Oculomotor (III)"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Four nerves emerge from the medulla: IX, X and the cranial part of XI behind the olive, and XII between pyramid and olive.",
+   "notes": [
+    "IX emerges behind the olive.",
+    "X emerges behind the olive.",
+    "XII emerges between pyramid and olive.",
+    "III emerges from the midbrain."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/17.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "A patient has a right facial palsy with weakness of the left arm and leg. What kind of lesion is this?",
+   "options": [
+    "An alternating (crossed) syndrome from a brainstem lesion",
+    "A lesion of the left motor cortex",
+    "A spinal cord lesion",
+    "A cerebellar lesion"
+   ],
+   "answer": 0,
+   "why": "A cranial nerve palsy on one side with hemiplegia on the other side is an alternating syndrome; it locates the lesion in the brainstem.",
+   "notes": [
+    "Cranial nerve on one side, body on the other: brainstem.",
+    "A cortical lesion would not give a peripheral facial palsy on the opposite side.",
+    "The cord has no cranial nerves.",
+    "The cerebellum gives ataxia, not paralysis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/32.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "Which network, spread through the brainstem, keeps us awake and conscious?",
+   "options": [
+    "Reticular formation",
+    "Medial lemniscus",
+    "Corticospinal tract",
+    "Cerebellar peduncles"
+   ],
+   "answer": 0,
+   "why": "The reticular formation coordinates arousal, consciousness, sleep-wake cycles, and cardiovascular and respiratory control.",
+   "notes": [
+    "The reticular formation controls arousal and consciousness.",
+    "The medial lemniscus carries touch and position sense.",
+    "The corticospinal tract is motor.",
+    "The peduncles connect to the cerebellum."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/23.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "Which structure connects the brainstem to the cerebellum?",
+   "options": [
+    "Cerebellar peduncles",
+    "Corpus callosum",
+    "Internal capsule",
+    "Fornix"
+   ],
+   "answer": 0,
+   "why": "Each part of the brainstem connects to the cerebellum by a pair of cerebellar peduncles: superior, middle and inferior.",
+   "notes": [
+    "Three pairs of peduncles.",
+    "The corpus callosum joins the hemispheres.",
+    "The internal capsule connects cortex and brainstem.",
+    "The fornix is a limbic pathway."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/07.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "What proportion of pyramidal fibres decussate in the lower medulla?",
+   "options": [
+    "75% to 90%",
+    "About 10%",
+    "About 50%",
+    "100%"
+   ],
+   "answer": 0,
+   "why": "Most pyramidal fibres (75 to 90%) cross in the pyramidal decussation; the rest descend uncrossed.",
+   "notes": [
+    "Most, but not all, cross here.",
+    "Too few.",
+    "Too few.",
+    "Some fibres stay uncrossed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/16.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Which landmark marks the posterior border between the pons and the medulla on the floor of the fourth ventricle?",
+   "options": [
+    "The stria medullaris of the fourth ventricle",
+    "The facial colliculus",
+    "The obex",
+    "The median eminence"
+   ],
+   "answer": 0,
+   "why": "The stria medullaris crosses the floor transversely and marks the pons-medulla border.",
+   "notes": [
+    "It marks the pons-medulla border.",
+    "The facial colliculus is on the pontine part.",
+    "The obex is the lowest tip.",
+    "The median eminence marks the midline."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/15.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "Which embryonic vesicles form the brainstem?",
+   "options": [
+    "Mesencephalon, metencephalon and myelencephalon",
+    "Telencephalon and diencephalon",
+    "Prosencephalon only",
+    "Telencephalon, mesencephalon and myelencephalon"
+   ],
+   "answer": 0,
+   "why": "The brainstem comes from the mesencephalon (3rd), metencephalon (4th) and myelencephalon (5th vesicles).",
+   "notes": [
+    "Midbrain, pons and medulla come from these.",
+    "These form the cerebrum.",
+    "The forebrain forms the cerebrum and diencephalon.",
+    "The telencephalon forms the hemispheres."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/04.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "Which structure separates the brainstem from the diencephalon above?",
+   "options": [
+    "The transverse fissure of Bichat",
+    "The foramen magnum",
+    "The pontomedullary junction",
+    "The cerebellopontine angle"
+   ],
+   "answer": 0,
+   "why": "The brainstem connects above to the diencephalon at the transverse fissure of Bichat, and below to the cord at the foramen magnum.",
+   "notes": [
+    "Upper limit.",
+    "Lower limit.",
+    "Between pons and medulla.",
+    "Side landmark."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/05.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "Which structure is the peak of the fourth ventricle, under a cerebellar nucleus?",
+   "options": [
+    "The fastigium",
+    "The obex",
+    "The rhomboid fossa",
+    "The interpeduncular fossa"
+   ],
+   "answer": 0,
+   "why": "The peak of the fourth ventricle inside the cerebellum is the fastigium, under the fastigial nucleus.",
+   "notes": [
+    "The fastigium is the roof's peak.",
+    "The obex is the lowest tip.",
+    "The rhomboid fossa is the floor.",
+    "That is on the midbrain."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-brainstem/29.jpg",
+     "lec": "Anatomy of the brainstem",
+     "n": 29
+    }
    ]
   }
  ],
@@ -27958,7 +28638,7 @@ SINA.lectures["anat3-cerebrum"] = {
    ]
   },
   {
-   "q": "Which nuclei belong to the basal ganglia? (choose all)",
+   "q": "Which nuclei belong to the basal ganglia?",
    "options": [
     "Caudate nucleus",
     "Putamen",
@@ -27985,7 +28665,7 @@ SINA.lectures["anat3-cerebrum"] = {
    ]
   },
   {
-   "q": "Which are telencephalic commissures? (choose all)",
+   "q": "Which are telencephalic commissures?",
    "options": [
     "Corpus callosum",
     "Anterior commissure",
@@ -28017,7 +28697,7 @@ SINA.lectures["anat3-cerebrum"] = {
    ]
   },
   {
-   "q": "Which functions belong to the frontal lobe? (choose all)",
+   "q": "Which functions belong to the frontal lobe?",
    "options": [
     "Personality and behaviour",
     "Speech production (Broca)",
@@ -28044,7 +28724,7 @@ SINA.lectures["anat3-cerebrum"] = {
    ]
   },
   {
-   "q": "Which are signs locating a cerebral lesion? (choose all)",
+   "q": "Which are signs locating a cerebral lesion?",
    "options": [
     "Aphasia",
     "Hemiplegia",
@@ -28176,6 +28856,451 @@ SINA.lectures["anat3-cerebrum"] = {
     "This is at the arrow: the deep groove separating the temporal lobe from the frontal and parietal lobes.",
     "Not at the arrow; this is the inferior frontal gyrus, usually on the left.",
     "Not at the arrow; this is the lobe at the back of the hemisphere."
+   ]
+  },
+  {
+   "q": "A patient has a stroke in the left precentral gyrus. Which deficit is expected?",
+   "options": [
+    "Weakness of the right side of the body",
+    "Weakness of the left side of the body",
+    "Loss of vision in both eyes",
+    "Loss of hearing in the left ear"
+   ],
+   "answer": 0,
+   "why": "The precentral gyrus is the motor strip. Its pyramidal fibres cross in the medulla, so a left-sided lesion weakens the right side.",
+   "notes": [
+    "The motor fibres cross in the medulla, so the opposite side is weak.",
+    "The same side is spared; the fibres cross.",
+    "Vision is the occipital lobe.",
+    "Hearing is the temporal lobe, and each ear projects to both sides."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/54.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 54
+    },
+    {
+     "src": "files/slides/anat3-cerebrum/55.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 55
+    }
+   ]
+  },
+  {
+   "q": "A patient understands speech normally but cannot produce fluent speech. Which area is damaged?",
+   "options": [
+    "Broca's area in the frontal lobe",
+    "Wernicke's area in the temporal lobe",
+    "The occipital lobe",
+    "The postcentral gyrus"
+   ],
+   "answer": 0,
+   "why": "Broca's area, in the frontal lobe, controls speaking and writing. Wernicke's area handles understanding.",
+   "notes": [
+    "Broca's area produces speech.",
+    "Wernicke's damage impairs understanding.",
+    "The occipital lobe is for vision.",
+    "The postcentral gyrus is for touch and pain."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/54.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 54
+    }
+   ]
+  },
+  {
+   "q": "A patient speaks fluently but makes no sense and does not understand what is said to them. Which area is damaged?",
+   "options": [
+    "Wernicke's area",
+    "Broca's area",
+    "The precentral gyrus",
+    "The insula"
+   ],
+   "answer": 0,
+   "why": "Wernicke's area, in the posterior superior temporal lobe, is for understanding language.",
+   "notes": [
+    "Wernicke's area is for understanding language.",
+    "Broca's damage gives non-fluent speech with good understanding.",
+    "That is the motor strip.",
+    "The insula is not the language comprehension area."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/54.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 54
+    },
+    {
+     "src": "files/slides/anat3-cerebrum/58.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 58
+    }
+   ]
+  },
+  {
+   "q": "Which lobe interprets vision?",
+   "options": [
+    "Occipital lobe",
+    "Frontal lobe",
+    "Temporal lobe",
+    "Parietal lobe"
+   ],
+   "answer": 0,
+   "why": "The occipital lobe interprets vision: colour, light and movement.",
+   "notes": [
+    "The occipital lobe is the visual lobe.",
+    "The frontal lobe handles movement, speech and personality.",
+    "The temporal lobe handles hearing, memory and understanding language.",
+    "The parietal lobe handles touch and spatial perception."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/54.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 54
+    }
+   ]
+  },
+  {
+   "q": "Which lobe controls personality, judgment and planning?",
+   "options": [
+    "Frontal lobe",
+    "Occipital lobe",
+    "Temporal lobe",
+    "Insula"
+   ],
+   "answer": 0,
+   "why": "The frontal lobe controls personality, behaviour, emotions, judgment and planning.",
+   "notes": [
+    "Frontal lobe damage changes personality and judgment.",
+    "The occipital lobe is for vision.",
+    "The temporal lobe is for hearing and memory.",
+    "The insula handles taste, visceral sensation and autonomic control."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/54.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 54
+    }
+   ]
+  },
+  {
+   "q": "Where is the primary sensory area for touch, pain and temperature?",
+   "options": [
+    "The postcentral gyrus of the parietal lobe",
+    "The precentral gyrus of the frontal lobe",
+    "The superior temporal gyrus",
+    "The calcarine fissure"
+   ],
+   "answer": 0,
+   "why": "The parietal lobe holds the sensory strip, just behind the central sulcus.",
+   "notes": [
+    "The sensory strip lies behind the central sulcus.",
+    "That is the motor strip.",
+    "That is for hearing and language.",
+    "That is the visual cortex."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/54.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 54
+    }
+   ]
+  },
+  {
+   "q": "Which structure is the main bundle of fibres joining the two cerebral hemispheres?",
+   "options": [
+    "Corpus callosum",
+    "Internal capsule",
+    "Falx cerebri",
+    "Centrum semiovale"
+   ],
+   "answer": 0,
+   "why": "The corpus callosum is a white matter tract connecting the two hemispheres.",
+   "notes": [
+    "The corpus callosum links the two hemispheres.",
+    "The internal capsule carries fibres up and down, not across.",
+    "The falx is a fold of dura, not nerve fibres.",
+    "The centrum semiovale is the white matter core of each hemisphere."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/31.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "q": "Through which structure do the pyramidal (corticospinal) fibres pass after leaving the motor cortex, so that a small stroke there can paralyse a whole side?",
+   "options": [
+    "The internal capsule",
+    "The corpus callosum",
+    "The external capsule",
+    "The fornix"
+   ],
+   "answer": 0,
+   "why": "The corticospinal tracts converge in the internal capsule, then run through the cerebral peduncles to the brainstem.",
+   "notes": [
+    "The fibres are packed tightly here, so a small lesion has a big effect.",
+    "The corpus callosum joins the hemispheres.",
+    "The external capsule lies outside the lentiform nucleus.",
+    "The fornix is a limbic pathway."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/55.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 55
+    }
+   ]
+  },
+  {
+   "q": "Which neurotransmitter is lacking in Parkinson's disease, disturbing the basal ganglia?",
+   "options": [
+    "Dopamine",
+    "Acetylcholine",
+    "Glycine",
+    "Histamine"
+   ],
+   "answer": 0,
+   "why": "The basal ganglia need dopamine released at their input nuclei to work properly.",
+   "notes": [
+    "Loss of dopamine-producing neurons causes Parkinson's disease.",
+    "Acetylcholine is not the missing transmitter.",
+    "Glycine acts mainly in the spinal cord.",
+    "Histamine is not the cause."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/40.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "q": "Which dural fold separates the cerebrum from the cerebellum?",
+   "options": [
+    "Tentorium cerebelli",
+    "Falx cerebri",
+    "Falx cerebelli",
+    "Diaphragma sellae"
+   ],
+   "answer": 0,
+   "why": "A horizontal extension of the dura, the tentorium, divides the cranial cavity into a supratentorial level (cerebrum) and an infratentorial level (cerebellum and brainstem).",
+   "notes": [
+    "The tentorium forms the roof over the cerebellum.",
+    "The falx cerebri separates the two hemispheres.",
+    "The falx cerebelli separates the cerebellar hemispheres.",
+    "The diaphragma sellae covers the pituitary."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/10.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "Which lobes are separated by the lateral sulcus (Sylvius)?",
+   "options": [
+    "The temporal lobe below from the frontal and parietal lobes above",
+    "The frontal lobe from the parietal lobe",
+    "The parietal lobe from the occipital lobe",
+    "The two hemispheres"
+   ],
+   "answer": 0,
+   "why": "The lateral sulcus separates the frontal and parietal lobes from the temporal lobe.",
+   "notes": [
+    "The temporal lobe lies below the lateral sulcus.",
+    "That is the central sulcus.",
+    "That is the parieto-occipital sulcus.",
+    "That is the longitudinal fissure, with the falx."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/18.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "A patient has a seizure that starts with jerking of one hand. Where is the lesion most likely?",
+   "options": [
+    "The cerebral cortex",
+    "The spinal cord",
+    "The cerebellum",
+    "A peripheral nerve"
+   ],
+   "answer": 0,
+   "why": "Epilepsy is a sign of a cortical lesion; the type of seizure depends on where it is.",
+   "notes": [
+    "Seizures come from the cortex.",
+    "The cord does not cause seizures.",
+    "The cerebellum causes ataxia, not seizures.",
+    "Nerves do not cause seizures."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/68.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 68
+    }
+   ]
+  },
+  {
+   "q": "Which structure forms the medial boundary of the internal capsule?",
+   "options": [
+    "The thalamus and the head of the caudate nucleus",
+    "The lentiform nucleus",
+    "The claustrum",
+    "The insula"
+   ],
+   "answer": 0,
+   "why": "The internal capsule lies between the thalamus and caudate medially and the lentiform nucleus laterally.",
+   "notes": [
+    "These lie medial to the internal capsule.",
+    "The lentiform nucleus is lateral to it.",
+    "The claustrum lies beside the external capsule.",
+    "The insula is cortex, further out."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/38.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "q": "How many gyri make up the temporal lobe in this lecture's description?",
+   "options": [
+    "Five",
+    "Three",
+    "Four",
+    "Six"
+   ],
+   "answer": 0,
+   "why": "The temporal lobe has five gyri; the fifth, most medial, is the hippocampal gyrus.",
+   "notes": [
+    "Five temporal gyri.",
+    "Three are visible on the lateral face only.",
+    "One short.",
+    "Six is the occipital count."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/28.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "What does the foramen of Pacchioni (tentorial notch) let through?",
+   "options": [
+    "The junction between the diencephalon and the midbrain",
+    "The spinal cord",
+    "The optic nerves",
+    "The vertebral arteries"
+   ],
+   "answer": 0,
+   "why": "The small circumference of the tentorium bounds an opening where the diencephalon joins the midbrain.",
+   "notes": [
+    "The brainstem passes up through the tentorial notch.",
+    "The cord passes through the foramen magnum.",
+    "The optic nerves pass through the optic canals.",
+    "The vertebral arteries enter through the foramen magnum."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/15.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "Which nuclei make up the dorsal striatum?",
+   "options": [
+    "Caudate nucleus and putamen",
+    "Putamen and globus pallidus",
+    "Nucleus accumbens and olfactory tubercle",
+    "Subthalamic nucleus and substantia nigra"
+   ],
+   "answer": 0,
+   "why": "The dorsal striatum is the caudate and putamen; the ventral striatum is the nucleus accumbens and olfactory tubercle.",
+   "notes": [
+    "Caudate plus putamen.",
+    "These form the lentiform nucleus.",
+    "These form the ventral striatum.",
+    "These are other basal ganglia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/41.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "q": "Which functions are attributed to the insula?",
+   "options": [
+    "Taste and visceral sensation",
+    "Autonomic control of heart rate and blood pressure",
+    "Primary vision",
+    "Understanding written words"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "The insula handles taste, visceral sensation, autonomic regulation, interoception and parts of speech articulation and swallowing.",
+   "notes": [
+    "Taste and visceral sensation are insular.",
+    "The insula helps regulate heart rate, blood pressure and digestion.",
+    "Vision is occipital.",
+    "Language understanding is Wernicke's area."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/54.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 54
+    }
+   ]
+  },
+  {
+   "q": "Where does the posterior white commissure run?",
+   "options": [
+    "Under the epiphysis, in the posterior wall of the third ventricle",
+    "In front of the fornix",
+    "Inside the corpus callosum",
+    "In the floor of the fourth ventricle"
+   ],
+   "answer": 0,
+   "why": "The anterior commissure lies in front of the fornix; the posterior commissure passes under the pineal gland (epiphysis).",
+   "notes": [
+    "Under the pineal gland, at the back of the third ventricle.",
+    "That is the anterior commissure.",
+    "It is a separate bundle.",
+    "Not there."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebrum/35.jpg",
+     "lec": "Anatomy of the cerebrum",
+     "n": 35
+    }
    ]
   }
  ],
@@ -29524,7 +30649,7 @@ SINA.lectures["anat3-diencephalon"] = {
    ]
   },
   {
-   "q": "Which of these are parts of the diencephalon? (choose all)",
+   "q": "Which of these are parts of the diencephalon?",
    "options": [
     "Epithalamus",
     "Subthalamus",
@@ -29551,7 +30676,7 @@ SINA.lectures["anat3-diencephalon"] = {
    ]
   },
   {
-   "q": "Which functions belong to the thalamus? (choose all)",
+   "q": "Which functions belong to the thalamus?",
    "options": [
     "Consciousness and sleep",
     "Filtering sensory information",
@@ -29578,7 +30703,7 @@ SINA.lectures["anat3-diencephalon"] = {
    ]
   },
   {
-   "q": "Which structures belong to the epithalamus? (choose all)",
+   "q": "Which structures belong to the epithalamus?",
    "options": [
     "Habenular nuclei",
     "Stria medullaris",
@@ -29605,7 +30730,7 @@ SINA.lectures["anat3-diencephalon"] = {
    ]
   },
   {
-   "q": "What does the hypothalamus regulate? (choose all)",
+   "q": "What does the hypothalamus regulate?",
    "options": [
     "Body temperature",
     "Hunger and thirst",
@@ -29737,6 +30862,351 @@ SINA.lectures["anat3-diencephalon"] = {
     "This is at the arrow: the round swelling behind the infundibulum.",
     "Not at the arrow; this is the gland hanging from the infundibulum in the sella.",
     "Not at the arrow; this is the region below the thalamus forming the floor of the third ventricle."
+   ]
+  },
+  {
+   "q": "Which are the four parts of the diencephalon?",
+   "options": [
+    "Thalamus, hypothalamus, epithalamus and subthalamus",
+    "Midbrain, pons, medulla and cerebellum",
+    "Caudate, putamen, globus pallidus and claustrum",
+    "Cortex, white matter, ventricles and meninges"
+   ],
+   "answer": 0,
+   "why": "The diencephalon is divided into the epithalamus, thalamus, subthalamus and hypothalamus.",
+   "notes": [
+    "These four make up the diencephalon.",
+    "These are the brainstem and cerebellum.",
+    "These are basal ganglia and nearby grey matter.",
+    "These are general brain layers, not diencephalic parts."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/04.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "Which is the main relay station for sensory pathways on their way to the cortex (except smell)?",
+   "options": [
+    "Thalamus",
+    "Hypothalamus",
+    "Hippocampus",
+    "Amygdala"
+   ],
+   "answer": 0,
+   "why": "All sensory stimuli except smell are processed in the thalamus before reaching the cortex.",
+   "notes": [
+    "The thalamus relays all senses except smell.",
+    "The hypothalamus controls homeostasis and hormones.",
+    "The hippocampus is for memory.",
+    "The amygdala is for emotion."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/14.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Which structure links the nervous system to the endocrine system through the pituitary?",
+   "options": [
+    "Hypothalamus",
+    "Thalamus",
+    "Pineal gland",
+    "Subthalamic nucleus"
+   ],
+   "answer": 0,
+   "why": "The hypothalamus ends in the infundibulum connected to the pituitary; it is the interface between nervous and endocrine systems.",
+   "notes": [
+    "The hypothalamus controls the pituitary gland.",
+    "The thalamus is a sensory relay.",
+    "The pineal secretes melatonin but does not control the pituitary.",
+    "The subthalamic nucleus is a motor structure."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/18.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 18
+    },
+    {
+     "src": "files/slides/anat3-diencephalon/16.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "A patient with a hypothalamic tumour has abnormal body temperature, thirst and appetite. Why?",
+   "options": [
+    "The hypothalamus controls homeostasis: temperature, hunger and thirst",
+    "The thalamus filters these sensations",
+    "The pineal gland controls these functions",
+    "The cerebellum regulates them"
+   ],
+   "answer": 0,
+   "why": "The hypothalamus maintains a steady internal state: hunger, thirst, body temperature, blood pressure and heart rate.",
+   "notes": [
+    "These are hypothalamic homeostatic functions.",
+    "The thalamus relays sensation but does not regulate these.",
+    "The pineal mainly controls the sleep rhythm.",
+    "The cerebellum coordinates movement."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/18.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "Which gland of the diencephalon secretes melatonin in response to darkness?",
+   "options": [
+    "Pineal gland",
+    "Pituitary gland",
+    "Thyroid gland",
+    "Adrenal gland"
+   ],
+   "answer": 0,
+   "why": "Pinealocytes of the pineal gland secrete melatonin in response to darkness, regulating circadian rhythms.",
+   "notes": [
+    "The pineal gland secretes melatonin.",
+    "The pituitary is controlled by the hypothalamus and secretes other hormones.",
+    "The thyroid is in the neck.",
+    "The adrenals are on the kidneys."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/23.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "Which part of the thalamus relays hearing to the auditory cortex?",
+   "options": [
+    "Medial geniculate body",
+    "Lateral geniculate body",
+    "Pulvinar",
+    "Anterior nucleus"
+   ],
+   "answer": 0,
+   "why": "The medial geniculate body receives auditory input from the inferior colliculus and sends it to the temporal auditory cortex.",
+   "notes": [
+    "MGB: hearing (M for music).",
+    "The LGB relays vision.",
+    "The pulvinar is the posterior thalamus.",
+    "The anterior nucleus is limbic."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/09.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "Which part of the thalamus relays vision from the retina to the occipital cortex?",
+   "options": [
+    "Lateral geniculate body",
+    "Medial geniculate body",
+    "Mammillary body",
+    "Habenula"
+   ],
+   "answer": 0,
+   "why": "The lateral geniculate body receives the optic tract and projects to the visual cortex through the optic radiations.",
+   "notes": [
+    "LGB: light (vision).",
+    "The MGB relays hearing.",
+    "The mammillary bodies are hypothalamic.",
+    "The habenula is epithalamic."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/09.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "A patient develops violent, flinging movements of the right arm after a small stroke. Which structure is damaged?",
+   "options": [
+    "The left subthalamic nucleus",
+    "The right subthalamic nucleus",
+    "The left lateral geniculate body",
+    "The pineal gland"
+   ],
+   "answer": 0,
+   "why": "Lesions of the subthalamic nucleus cause hemiballismus on the opposite side of the body.",
+   "notes": [
+    "Hemiballismus appears on the side opposite the lesion.",
+    "A right lesion would affect the left side.",
+    "The LGB is visual.",
+    "The pineal does not cause abnormal movements."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/28.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "Which cavity does the diencephalon surround?",
+   "options": [
+    "Third ventricle",
+    "Fourth ventricle",
+    "Lateral ventricles",
+    "Central canal"
+   ],
+   "answer": 0,
+   "why": "The diencephalon lies around the third ventricle; the thalami form its lateral walls and the hypothalamus its floor.",
+   "notes": [
+    "The third ventricle lies in the middle of the diencephalon.",
+    "The fourth ventricle lies behind the pons and medulla.",
+    "The lateral ventricles are in the hemispheres.",
+    "The central canal is in the spinal cord."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/04.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "What lies medial to the pulvinar?",
+   "options": [
+    "The pineal gland and the corpora quadrigemina",
+    "The internal capsule",
+    "The lentiform nucleus",
+    "The optic chiasm"
+   ],
+   "answer": 0,
+   "why": "The pulvinar lies lateral to the pineal gland, habenula, posterior commissure, quadrigeminal bodies and splenium.",
+   "notes": [
+    "These lie medial to the pulvinar.",
+    "The internal capsule is lateral to the thalamus.",
+    "The lentiform nucleus is lateral to the internal capsule.",
+    "The chiasm is far in front."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/12.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "What forms the posterior boundary of the subthalamus?",
+   "options": [
+    "The red nucleus and substantia nigra",
+    "The internal capsule",
+    "The hypothalamus",
+    "The third ventricle"
+   ],
+   "answer": 0,
+   "why": "Subthalamus boundaries: hypothalamus medially, internal capsule laterally, red nucleus and substantia nigra posteriorly.",
+   "notes": [
+    "Posterior boundary.",
+    "Lateral boundary.",
+    "Medial boundary.",
+    "Not a boundary of the subthalamus."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/26.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 26
+    }
+   ]
+  },
+  {
+   "q": "Which are parts of the epithalamus?",
+   "options": [
+    "Pineal body",
+    "Habenular nuclei",
+    "Posterior commissure",
+    "Mammillary bodies"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The epithalamus includes the stria medullaris, posterior commissure, habenular nuclei, pineal body and paraventricular nuclei.",
+   "notes": [
+    "Part of the epithalamus.",
+    "Part of the epithalamus.",
+    "Part of the epithalamus.",
+    "The mammillary bodies are hypothalamic."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/21.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "How does the subthalamic nucleus normally act on movement?",
+   "options": [
+    "It excites the internal globus pallidus, which inhibits the thalamus and movement",
+    "It directly excites the motor cortex",
+    "It releases dopamine into the striatum",
+    "It inhibits the internal globus pallidus"
+   ],
+   "answer": 0,
+   "why": "Glutamatergic STN neurons increase activity of the GABAergic internal pallidus, which reduces thalamic activity and inhibits movement.",
+   "notes": [
+    "This is the circuit; losing it releases movement (hemiballismus).",
+    "It does not project to the cortex directly.",
+    "Dopamine comes from the substantia nigra.",
+    "It excites, not inhibits, the internal pallidus."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/28.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "What forms the posterior wall of the interventricular foramen of Monro?",
+   "options": [
+    "The anterior pole of the thalamus",
+    "The pulvinar",
+    "The pineal gland",
+    "The mammillary bodies"
+   ],
+   "answer": 0,
+   "why": "The anterior pole of the thalamus forms the posterior wall of the foramen of Monro.",
+   "notes": [
+    "The narrow front end of the thalamus.",
+    "The pulvinar is the back end.",
+    "The pineal is at the back of the third ventricle.",
+    "The mammillary bodies are on the floor."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-diencephalon/10.jpg",
+     "lec": "Anatomy of the diencephalon",
+     "n": 10
+    }
    ]
   }
  ],
@@ -33604,6 +35074,375 @@ SINA.lectures["anat3-ventricles"] = {
     "Not at the arrow; this is the cavity between the brainstem and cerebellum.",
     "Not at the arrow; this is the openings from each lateral ventricle into the third ventricle."
    ]
+  },
+  {
+   "q": "Which structure produces most of the cerebrospinal fluid?",
+   "options": [
+    "Choroid plexus",
+    "Arachnoid granulations",
+    "Pia mater",
+    "Dura mater"
+   ],
+   "answer": 0,
+   "why": "The choroid plexus is the primary source of CSF, producing about 500 mL per day.",
+   "notes": [
+    "The choroid plexus makes CSF.",
+    "Arachnoid granulations absorb CSF.",
+    "The pia covers the brain surface.",
+    "The dura is the outer protective layer."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ventricles/36.jpg",
+     "lec": "Anatomy of the ventricles and CSF",
+     "n": 36
+    }
+   ]
+  },
+  {
+   "q": "About how much CSF does the choroid plexus produce each day?",
+   "options": [
+    "About 500 mL",
+    "About 50 mL",
+    "About 150 mL",
+    "About 2 L"
+   ],
+   "answer": 0,
+   "why": "About 500 mL of CSF is produced each day, although only about 150 mL is present at any time; it is renewed several times a day.",
+   "notes": [
+    "About 500 mL per day.",
+    "Far too little.",
+    "That is the volume present at one time.",
+    "Too much."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ventricles/36.jpg",
+     "lec": "Anatomy of the ventricles and CSF",
+     "n": 36
+    }
+   ]
+  },
+  {
+   "q": "What is the correct order of CSF flow?",
+   "options": [
+    "Lateral ventricles, foramina of Monro, third ventricle, aqueduct, fourth ventricle, subarachnoid space",
+    "Third ventricle, lateral ventricles, fourth ventricle, aqueduct, subarachnoid space",
+    "Fourth ventricle, aqueduct, third ventricle, lateral ventricles",
+    "Subarachnoid space, lateral ventricles, third ventricle, fourth ventricle"
+   ],
+   "answer": 0,
+   "why": "CSF flows from the lateral ventricles through Monro to the third, through the aqueduct to the fourth, then out to the subarachnoid space.",
+   "notes": [
+    "This is the one-way flow.",
+    "The lateral ventricles come first.",
+    "This is backwards.",
+    "CSF reaches the subarachnoid space last."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ventricles/11.jpg",
+     "lec": "Anatomy of the ventricles and CSF",
+     "n": 11
+    },
+    {
+     "src": "files/slides/anat3-ventricles/28.jpg",
+     "lec": "Anatomy of the ventricles and CSF",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "Where does CSF go back into the blood?",
+   "options": [
+    "Through the arachnoid granulations into the dural venous sinuses",
+    "Through the choroid plexus into the arteries",
+    "Directly through the pia into the brain tissue",
+    "Through the central canal into the spinal veins"
+   ],
+   "answer": 0,
+   "why": "CSF passes into the venous circulation through arachnoid granulations that project into the dural sinuses, especially the superior sagittal sinus.",
+   "notes": [
+    "Arachnoid granulations drain CSF into the sinuses.",
+    "The choroid plexus produces CSF.",
+    "Not the main route.",
+    "Not the main route."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ventricles/49.jpg",
+     "lec": "Anatomy of the ventricles and CSF",
+     "n": 49
+    }
+   ]
+  },
+  {
+   "q": "Which functions does CSF perform?",
+   "options": [
+    "Protection of the brain",
+    "Nourishment",
+    "Waste removal",
+    "Hormone production"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "CSF provides nourishment, waste removal and protection to the brain.",
+   "notes": [
+    "It cushions the brain.",
+    "It carries nutrients.",
+    "It clears waste.",
+    "CSF does not produce hormones."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ventricles/45.jpg",
+     "lec": "Anatomy of the ventricles and CSF",
+     "n": 45
+    }
+   ]
+  },
+  {
+   "q": "What is hydrocephalus?",
+   "options": [
+    "Abnormal enlargement of the ventricles from disturbed CSF dynamics",
+    "Bleeding into the subarachnoid space",
+    "Infection of the meninges",
+    "A tumour of the choroid plexus only"
+   ],
+   "answer": 0,
+   "why": "Hydrocephalus is excess CSF building up within the ventricles, enlarging them.",
+   "notes": [
+    "The ventricles enlarge with excess CSF.",
+    "That is a subarachnoid haemorrhage.",
+    "That is meningitis.",
+    "A papilloma is one rare cause, not the definition."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ventricles/53.jpg",
+     "lec": "Anatomy of the ventricles and CSF",
+     "n": 53
+    }
+   ]
+  },
+  {
+   "q": "How is hydrocephalus commonly treated by diverting CSF away from the brain?",
+   "options": [
+    "A ventriculoperitoneal shunt",
+    "Removing the choroid plexus in every patient",
+    "Lumbar puncture every week",
+    "Antibiotics"
+   ],
+   "answer": 0,
+   "why": "A shunt diverts excess CSF away from the brain, for example to the peritoneal cavity.",
+   "notes": [
+    "A VP shunt drains CSF to the peritoneum.",
+    "Not a routine treatment.",
+    "Not a long-term treatment.",
+    "Antibiotics treat infection, not hydrocephalus itself."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ventricles/56.jpg",
+     "lec": "Anatomy of the ventricles and CSF",
+     "n": 56
+    }
+   ]
+  },
+  {
+   "q": "Which space contains CSF?",
+   "options": [
+    "Subarachnoid space",
+    "Epidural space",
+    "Subdural space",
+    "Inside the dura mater"
+   ],
+   "answer": 0,
+   "why": "The subarachnoid space, between the arachnoid and the pia, is filled with CSF.",
+   "notes": [
+    "Between arachnoid and pia.",
+    "Between bone and dura.",
+    "Between dura and arachnoid.",
+    "Not a CSF space."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ventricles/39.jpg",
+     "lec": "Anatomy of the ventricles and CSF",
+     "n": 39
+    }
+   ]
+  },
+  {
+   "q": "Why is a lumbar puncture done below the second lumbar vertebra in adults?",
+   "options": [
+    "The spinal cord ends around L1-L2, so the needle meets only nerve roots and CSF",
+    "CSF is only found below L2",
+    "The meninges end at L2",
+    "The bone is softer there"
+   ],
+   "answer": 0,
+   "why": "The cord ends around L1-L2 but the lumbar subarachnoid space extends below it, so puncture is done at L3-L4 or L4-L5.",
+   "notes": [
+    "This avoids injuring the cord.",
+    "CSF surrounds the whole cord.",
+    "The dural sac continues to about S2.",
+    "Not the reason."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ventricles/60.jpg",
+     "lec": "Anatomy of the ventricles and CSF",
+     "n": 60
+    }
+   ]
+  },
+  {
+   "q": "Which ventricle lies between the two thalami?",
+   "options": [
+    "Third ventricle",
+    "Fourth ventricle",
+    "Lateral ventricle",
+    "Fifth ventricle"
+   ],
+   "answer": 0,
+   "why": "The third ventricle is a median cleft between the two thalami.",
+   "notes": [
+    "Between the thalami.",
+    "Behind the pons and medulla.",
+    "In each hemisphere.",
+    "Not a ventricle of the system."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ventricles/24.jpg",
+     "lec": "Anatomy of the ventricles and CSF",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "How is the adult CSF volume of about 150 mL distributed?",
+   "options": [
+    "About 125 mL in the subarachnoid spaces and 25 mL in the ventricles",
+    "About 25 mL in the subarachnoid spaces and 125 mL in the ventricles",
+    "Equally between ventricles and subarachnoid spaces",
+    "All 150 mL inside the ventricles"
+   ],
+   "answer": 0,
+   "why": "125 mL is in the subarachnoid spaces and 25 mL in the ventricles.",
+   "notes": [
+    "Most CSF is outside the ventricles.",
+    "Reversed.",
+    "Not equal.",
+    "Most is outside the ventricles."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ventricles/45.jpg",
+     "lec": "Anatomy of the ventricles and CSF",
+     "n": 45
+    }
+   ]
+  },
+  {
+   "q": "Where does the temporal horn of the lateral ventricle end?",
+   "options": [
+    "At the amygdala",
+    "At the occipital pole",
+    "At the foramen of Monro",
+    "At the septum pellucidum"
+   ],
+   "answer": 0,
+   "why": "The temporal horn runs forward from the atrium below the thalamus and ends at the amygdala.",
+   "notes": [
+    "It ends at the amygdala.",
+    "That is the occipital horn's direction.",
+    "Monro is at the front of the body.",
+    "The septum is medial to the frontal horn."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ventricles/19.jpg",
+     "lec": "Anatomy of the ventricles and CSF",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "What forms the medial wall of the occipital horn?",
+   "options": [
+    "The bulb of the corpus callosum and the calcar avis",
+    "The tapetum",
+    "The septum pellucidum",
+    "The head of the caudate nucleus"
+   ],
+   "answer": 0,
+   "why": "The bulb of the corpus callosum and the calcar avis form its medial wall; the tapetum forms its roof and lateral wall.",
+   "notes": [
+    "Medial wall.",
+    "Roof and lateral wall.",
+    "Medial wall of the frontal horn.",
+    "Lateral wall of the frontal horn."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ventricles/22.jpg",
+     "lec": "Anatomy of the ventricles and CSF",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "What bounds the third ventricle posteriorly, from top to bottom?",
+   "options": [
+    "Habenular commissure, pineal gland, posterior commissure",
+    "Optic chiasm, infundibulum, mammillary bodies",
+    "Lamina terminalis, anterior commissure, fornix",
+    "Thalamus, hypothalamus, subthalamus"
+   ],
+   "answer": 0,
+   "why": "Posteriorly: habenular commissure, pineal gland and posterior commissure.",
+   "notes": [
+    "Posterior wall, top to bottom.",
+    "These form the floor.",
+    "These are at the front.",
+    "These are the diencephalic parts, not a wall."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ventricles/26.jpg",
+     "lec": "Anatomy of the ventricles and CSF",
+     "n": 26
+    }
+   ]
+  },
+  {
+   "q": "Besides arachnoid granulations, what else contributes to CSF clearance?",
+   "options": [
+    "Meningeal lymphatic vessels and perivascular pathways",
+    "The choroid plexus",
+    "The cerebral aqueduct",
+    "The optic nerve sheath only"
+   ],
+   "answer": 0,
+   "why": "CSF clearance is not only through arachnoid granulations; meningeal lymphatics and perivascular routes also contribute.",
+   "notes": [
+    "These also drain CSF.",
+    "The choroid plexus makes CSF.",
+    "It is a channel, not a drain.",
+    "Not the route named."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ventricles/49.jpg",
+     "lec": "Anatomy of the ventricles and CSF",
+     "n": 49
+    }
+   ]
   }
  ],
  "cards": [
@@ -33847,6 +35686,1459 @@ SINA.lectures["anat3-ventricles"] = {
   {
    "t": "clinic",
    "html": "<strong>Lumbar puncture</strong> at <strong>L3-L4 or L4-L5</strong>: the adult cord ends at about <strong>L1-L2</strong>, but the subarachnoid space continues below."
+  }
+ ]
+};
+SINA.lectures["anat3-cerebellum"] = {
+ "id": "anat3-cerebellum",
+ "subject": "anat3",
+ "group": "Neuroanatomy",
+ "title": "Anatomy of the cerebellum",
+ "sourceFile": "5. ANATOMY OF CEREBELLUM.pdf (Anatomy 3, Neuroanatomy lecture 6, Prof. F. Fliyou, 2026-2027)",
+ "sourceUrl": "",
+ "sourcePdf": "files/src/anat3-cerebellum.pdf",
+ "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
+ "summary": [
+  {
+   "id": "s0",
+   "title": "The big picture",
+   "html": "<p>The <strong>cerebellum</strong> sits in the <strong>posterior cranial fossa</strong>, under the <strong>tentorium cerebelli</strong> and behind the pons and medulla, separated from them by the <strong>fourth ventricle</strong>. Three pairs of <strong>cerebellar peduncles</strong> tie it to the brainstem.</p><p>It does not start movements. It <strong>automatically regulates</strong> them: <strong>muscle tone</strong>, <strong>balance</strong> and the <strong>coordination of voluntary movement</strong>. It compares the movement you planned with the movement you are making and corrects the difference.</p><p>Remember one clinical rule above all: each cerebellar hemisphere controls the <strong>same side</strong> of the body, so cerebellar signs are <strong>ipsilateral</strong> to the lesion.</p>"
+  },
+  {
+   "id": "s1",
+   "title": "What the lecture covers",
+   "html": "<ul><li>Where the cerebellum lies and what surrounds it.</li><li>Its external configuration: vermis, hemispheres, surfaces, fissures and lobes.</li><li>The three cerebellar peduncles and what they carry.</li><li>Its internal configuration: cortex (three layers), deep nuclei, white matter (arbor vitae) and afferent fibres.</li><li>Its blood supply.</li><li>The three functional divisions and what happens when each is damaged.</li></ul>"
+  },
+  {
+   "id": "s2",
+   "title": "Location and relations",
+   "html": "<p>Grayish-pink, in the posterior cranial fossa behind the brainstem.</p><table><tr><th>Direction</th><th>Relations</th></tr><tr><td><strong>Superior</strong></td><td>Tentorium cerebelli, with the <strong>straight sinus</strong> in its midline and the <strong>great cerebral vein of Galen</strong>; the <strong>occipital lobe</strong> above the tentorium</td></tr><tr><td><strong>Anterior</strong></td><td><strong>Brainstem</strong> and <strong>fourth ventricle</strong>; the lower end of the cerebral aqueduct and the quadrigeminal bodies</td></tr><tr><td><strong>Inferior</strong></td><td><strong>Foramen magnum</strong> and the cisterns; sigmoid sinuses</td></tr><tr><td><strong>Posterior and lateral</strong></td><td><strong>Occipital bone</strong> and its dura; occipital sinus (if present) and the confluence of sinuses</td></tr></table>"
+  },
+  {
+   "id": "s3",
+   "title": "External configuration",
+   "html": "<p><strong>Two cerebellar hemispheres</strong> joined in the midline by the <strong>vermis</strong>. The vermis controls axial muscles, posture and gait; the hemispheres coordinate limb movement. The surface is folded into thin transverse <strong>folia</strong>, giving a laminated look.</p><ul><li><strong>Superior surface</strong>: convex, under the tentorium.</li><li><strong>Inferior surface</strong>: fits the posterior fossa; the <strong>vallecula</strong>, a deep median groove, houses the brainstem.</li><li><strong>Cerebellar tonsils</strong>: rounded parts of the medial inferior hemispheres on each side of the inferior vermis, just above the foramen magnum.</li></ul><p><strong>Fissures</strong> (first, second and third order sulci):</p><ul><li><strong>Primary fissure</strong>: separates the smaller <strong>anterior lobe</strong> from the larger <strong>posterior lobe</strong>.</li><li><strong>Posterolateral fissure</strong>: separates the posterior lobe from the <strong>flocculonodular lobe</strong>.</li><li><strong>Great circumferential (horizontal) sulcus of Vicq d'Azyr</strong>: the most important landmark, separating the superior and inferior surfaces.</li></ul><p><strong>Three lobes</strong>: anterior, posterior and <strong>flocculonodular</strong>. The flocculonodular lobe is the oldest part (<strong>archicerebellum</strong>), connected with the vestibular nuclei, and serves balance and spatial orientation.</p>"
+  },
+  {
+   "id": "s4",
+   "title": "Cerebellar peduncles",
+   "html": "<table><tr><th>Peduncle</th><th>Joins the cerebellum to</th><th>Mainly carries</th></tr><tr><td><strong>Superior</strong> (brachium conjunctivum)</td><td>Midbrain</td><td><strong>Output</strong>: to the <strong>red nucleus</strong> and the <strong>thalamus</strong> (then motor cortex). Fine motor control, motor learning.</td></tr><tr><td><strong>Middle</strong> (brachium pontis)</td><td>Pons</td><td><strong>Input</strong>, the <strong>largest</strong>: pontocerebellar fibres from the <strong>contralateral pontine nuclei</strong>, bringing the motor plan from the cortex.</td></tr><tr><td><strong>Inferior</strong> (restiform body)</td><td>Medulla oblongata</td><td><strong>Input and output</strong>: spinocerebellar (proprioceptive) input; output to the vestibular nuclei and reticular formation. Balance and posture.</td></tr></table><p>Memory aid: <strong>S</strong>uperior = <strong>S</strong>ends out; <strong>M</strong>iddle = <strong>M</strong>assive input from the pons; <strong>I</strong>nferior = <strong>I</strong>n and out.</p>"
+  },
+  {
+   "id": "s5",
+   "title": "Internal configuration",
+   "html": "<p>On section, branching <strong>white matter</strong> surrounded by grey <strong>cortex</strong> makes the tree-like <strong>arbor vitae</strong> (tree of life).</p><p><strong>Grey matter</strong> lies in two places: the folded <strong>cerebellar cortex</strong> on the surface and the four <strong>deep cerebellar nuclei</strong> in the white matter.</p><table><tr><th>Cortex layer (outside in)</th><th>Contents</th></tr><tr><td><strong>Molecular</strong></td><td>Inhibitory interneurons (<strong>stellate</strong> and <strong>basket</strong> cells), dendrites and parallel fibres</td></tr><tr><td><strong>Purkinje cell</strong></td><td>A single row of large <strong>Purkinje cells</strong>: the <strong>only output</strong> of the cortex, and <strong>inhibitory</strong>, to the deep nuclei</td></tr><tr><td><strong>Granular</strong></td><td>Densely packed <strong>granule cells</strong> and inhibitory <strong>Golgi cells</strong></td></tr></table><p><strong>Deep nuclei</strong>, from lateral to medial (\"Don't Eat Greasy Food\"): <strong>Dentate</strong> (largest; planning and coordination of voluntary movement), <strong>Emboliform</strong> and <strong>Globose</strong> (together the <strong>interposed nuclei</strong>; limb movement), <strong>Fastigial</strong> (most medial; balance and posture through vestibular connections). They receive Purkinje cell input and send the cerebellum's output through the peduncles.</p><p><strong>Afferent fibres</strong>:</p><ul><li><strong>Mossy fibres</strong>: from the spinal cord, vestibular nuclei and pontine nuclei; end on <strong>granule cells</strong> in glomeruli; each excites many granule cells, which reach Purkinje cells through parallel fibres. Carry a wide range of sensory and motor signals.</li><li><strong>Climbing fibres</strong>: only from the <strong>contralateral inferior olivary nucleus</strong>; each wraps one Purkinje cell with hundreds of excitatory synapses; signal <strong>movement errors</strong> for <strong>motor learning</strong>.</li></ul>"
+  },
+  {
+   "id": "s6",
+   "title": "Blood supply",
+   "html": "<p>Three paired arteries:</p><ul><li><strong>Superior cerebellar artery (SCA)</strong>: from the <strong>basilar</strong> artery.</li><li><strong>Anterior inferior cerebellar artery (AICA)</strong>: from the <strong>basilar</strong> artery.</li><li><strong>Posterior inferior cerebellar artery (PICA)</strong>: from the <strong>vertebral</strong> artery.</li></ul><p>Veins: <strong>superior and inferior cerebellar veins</strong>, draining into the superior petrosal, transverse and straight sinuses.</p>"
+  },
+  {
+   "id": "s7",
+   "title": "Functional divisions",
+   "html": "<table><tr><th>Division</th><th>Anatomy</th><th>Input</th><th>Output</th><th>Role</th></tr><tr><td><strong>Vestibulocerebellum</strong> (archicerebellum)</td><td>Flocculonodular lobe</td><td>Vestibular apparatus and nuclei</td><td>Vestibular nuclei</td><td>Equilibrium, balance, eye movements (vestibulo-ocular reflex)</td></tr><tr><td><strong>Spinocerebellum</strong> (paleocerebellum)</td><td>Vermis and intermediate zones</td><td>Spinal cord (spinocerebellar tracts)</td><td>Fastigial and interposed nuclei</td><td>Muscle tone, posture, coordination of trunk and limb movements</td></tr><tr><td><strong>Cerebrocerebellum</strong> (neocerebellum)</td><td>Lateral hemispheres; the largest division</td><td>Cerebral cortex via pontine nuclei</td><td>Dentate nucleus → thalamus → motor cortex</td><td>Planning, initiation and timing of skilled voluntary movements; cognitive functions</td></tr></table>"
+  },
+  {
+   "id": "s8",
+   "title": "Clinical aspects",
+   "html": "<ul><li>Each hemisphere controls the <strong>same side</strong> of the body: signs are <strong>ipsilateral</strong>. A right hemisphere lesion gives right-sided limb dysmetria.</li><li><strong>Flocculonodular</strong> (vestibulocerebellum) damage: loss of equilibrium and an unsteady gait.</li><li><strong>Lateral zone</strong> damage: errors in skilled, planned voluntary movements.</li><li><strong>Midline</strong> (vermis) damage: disturbed whole-body movements, trunk and gait.</li><li><strong>Upper part</strong> damage: gait problems and leg incoordination (<strong>ataxia</strong>).</li><li><strong>Tonsillar herniation</strong>: raised pressure pushes the tonsils into the foramen magnum, compressing the <strong>medulla</strong> and threatening breathing and circulation. It is life-threatening.</li></ul>"
+  }
+ ],
+ "exam": [
+  "Cerebellum: posterior cranial fossa, under the tentorium, behind pons and medulla, separated by the fourth ventricle.",
+  "Role: automatic regulation of movement: muscle tone, balance, coordination. It does not start movement.",
+  "Two hemispheres + vermis. Vermis: axial muscles, posture, gait. Hemispheres: limb coordination.",
+  "Primary fissure: anterior / posterior lobes. Posterolateral fissure: posterior / flocculonodular lobes. Horizontal fissure (Vicq d'Azyr): superior / inferior surfaces.",
+  "Flocculonodular lobe = archicerebellum = vestibulocerebellum: balance and eye movements.",
+  "Tonsils: medial inferior hemispheres beside the inferior vermis; herniation compresses the medulla (respiratory and cardiovascular centres).",
+  "Peduncles: superior → midbrain (output to red nucleus and thalamus); middle → pons (largest, input from contralateral pontine nuclei); inferior → medulla (input and output).",
+  "Arbor vitae: branching white matter surrounded by grey cortex.",
+  "Cortex layers, outside in: molecular (stellate, basket), Purkinje (only output, inhibitory), granular (granule, Golgi).",
+  "Deep nuclei, lateral to medial: dentate, emboliform, globose, fastigial. Emboliform + globose = interposed.",
+  "Mossy fibres: spinal cord, vestibular and pontine nuclei → granule cells. Climbing fibres: contralateral inferior olive → one Purkinje cell; motor learning and errors.",
+  "Arteries: SCA and AICA from the basilar; PICA from the vertebral. Veins → superior petrosal, transverse and straight sinuses.",
+  "Spinocerebellum: vermis + intermediate zones → fastigial and interposed nuclei; tone, posture, trunk and limb coordination.",
+  "Cerebrocerebellum: lateral hemispheres → dentate → thalamus → motor cortex; planning and timing of skilled movement.",
+  "Signs are ipsilateral to the lesion."
+ ],
+ "visual": {
+  "kind": "model",
+  "intro": "",
+  "figure": {
+   "viewBox": "0 0 760 430",
+   "alt": "Functional map of the cerebellum: cortex zones, deep nuclei and targets",
+   "caption": "Each cortical zone projects to its own deep nucleus, which sends the output. Schematic drawn for this site from the lecture's functional anatomy slides.",
+   "base": "<defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"8\" refX=\"9\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L10,4 L0,8 Z\" fill=\"#8a8a8a\"/></marker></defs><text x=\"380\" y=\"24\" text-anchor=\"middle\" font-size=\"13\" fill=\"#8a8a8a\">Cortex zone</text><text x=\"380\" y=\"164\" text-anchor=\"middle\" font-size=\"13\" fill=\"#8a8a8a\">Deep nucleus</text><text x=\"380\" y=\"304\" text-anchor=\"middle\" font-size=\"13\" fill=\"#8a8a8a\">Main target</text><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"95\" y1=\"106\" x2=\"95\" y2=\"176\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"95\" y1=\"246\" x2=\"95\" y2=\"316\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"285\" y1=\"106\" x2=\"285\" y2=\"176\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"285\" y1=\"246\" x2=\"285\" y2=\"316\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"475\" y1=\"106\" x2=\"475\" y2=\"176\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"475\" y1=\"246\" x2=\"475\" y2=\"316\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"665\" y1=\"106\" x2=\"665\" y2=\"176\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"665\" y1=\"246\" x2=\"665\" y2=\"316\"/><text x=\"380\" y=\"420\" text-anchor=\"middle\" font-size=\"12\" fill=\"#8a8a8a\">Superior peduncle carries dentate and interposed output; inferior peduncle carries fastigial and vestibular output.</text>",
+   "parts": {
+    "lat": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"15\" y=\"40\" width=\"160\" height=\"66\" rx=\"10\"/>",
+     "label": [
+      "Lateral hemisphere",
+      "(cerebrocerebellum)"
+     ],
+     "lx": 95,
+     "ly": 70
+    },
+    "dent": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"15\" y=\"180\" width=\"160\" height=\"66\" rx=\"10\"/>",
+     "label": [
+      "Dentate nucleus",
+      "(largest, lateral)"
+     ],
+     "lx": 95,
+     "ly": 210
+    },
+    "thal": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"15\" y=\"320\" width=\"160\" height=\"66\" rx=\"10\"/>",
+     "label": [
+      "Thalamus →",
+      "motor cortex"
+     ],
+     "lx": 95,
+     "ly": 350
+    },
+    "int": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"205\" y=\"40\" width=\"160\" height=\"66\" rx=\"10\"/>",
+     "label": [
+      "Intermediate zone",
+      "(spinocerebellum)"
+     ],
+     "lx": 285,
+     "ly": 70
+    },
+    "interp": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"205\" y=\"180\" width=\"160\" height=\"66\" rx=\"10\"/>",
+     "label": [
+      "Interposed nuclei",
+      "(globose + emboliform)"
+     ],
+     "lx": 285,
+     "ly": 210
+    },
+    "red": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"205\" y=\"320\" width=\"160\" height=\"66\" rx=\"10\"/>",
+     "label": [
+      "Red nucleus",
+      "(limb movement)"
+     ],
+     "lx": 285,
+     "ly": 350
+    },
+    "verm": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2e2a8\" x=\"395\" y=\"40\" width=\"160\" height=\"66\" rx=\"10\"/>",
+     "label": [
+      "Vermis",
+      "(spinocerebellum)"
+     ],
+     "lx": 475,
+     "ly": 70
+    },
+    "fast": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2e2a8\" x=\"395\" y=\"180\" width=\"160\" height=\"66\" rx=\"10\"/>",
+     "label": [
+      "Fastigial nucleus",
+      "(most medial)"
+     ],
+     "lx": 475,
+     "ly": 210
+    },
+    "vret": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"395\" y=\"320\" width=\"160\" height=\"66\" rx=\"10\"/>",
+     "label": [
+      "Vestibular nuclei and",
+      "reticular formation"
+     ],
+     "lx": 475,
+     "ly": 350
+    },
+    "floc": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f7d9b8\" x=\"585\" y=\"40\" width=\"160\" height=\"66\" rx=\"10\"/>",
+     "label": [
+      "Flocculonodular lobe",
+      "(vestibulocerebellum)"
+     ],
+     "lx": 665,
+     "ly": 70
+    },
+    "vest": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f7d9b8\" x=\"585\" y=\"180\" width=\"160\" height=\"66\" rx=\"10\"/>",
+     "label": [
+      "Vestibular nuclei",
+      "(direct output)"
+     ],
+     "lx": 665,
+     "ly": 210
+    },
+    "eye": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"585\" y=\"320\" width=\"160\" height=\"66\" rx=\"10\"/>",
+     "label": [
+      "Balance and",
+      "eye movements"
+     ],
+     "lx": 665,
+     "ly": 350
+    }
+   },
+   "arrows": {
+    "lat": [
+     {
+      "t": [
+       15,
+       48
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "dent": [
+     {
+      "t": [
+       15,
+       188
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "thal": [
+     {
+      "t": [
+       15,
+       328
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "int": [
+     {
+      "t": [
+       205,
+       48
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "interp": [
+     {
+      "t": [
+       205,
+       188
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "red": [
+     {
+      "t": [
+       205,
+       328
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "verm": [
+     {
+      "t": [
+       395,
+       48
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "fast": [
+     {
+      "t": [
+       395,
+       188
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "vret": [
+     {
+      "t": [
+       395,
+       328
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "floc": [
+     {
+      "t": [
+       585,
+       48
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "vest": [
+     {
+      "t": [
+       585,
+       188
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "eye": [
+     {
+      "t": [
+       585,
+       328
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ]
+   }
+  }
+ },
+ "mcqs": [
+  {
+   "q": "Where is the cerebellum located?",
+   "options": [
+    "Posterior cranial fossa",
+    "Anterior cranial fossa",
+    "Middle cranial fossa",
+    "Within the lateral ventricles"
+   ],
+   "answer": 0,
+   "why": "The cerebellum lies in the posterior cranial fossa, under the tentorium, behind the pons and medulla.",
+   "notes": [
+    "It lies in the posterior fossa behind the brainstem.",
+    "That holds the frontal lobes.",
+    "That holds the temporal lobes.",
+    "The ventricles hold CSF, not brain parts."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/05.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "Which structure connects the two cerebellar hemispheres?",
+   "options": [
+    "Vermis",
+    "Corpus callosum",
+    "Dentate nucleus",
+    "Middle cerebellar peduncle"
+   ],
+   "answer": 0,
+   "why": "The two hemispheres are united by a median portion, the vermis.",
+   "notes": [
+    "The vermis is the median part joining the hemispheres.",
+    "The corpus callosum joins the cerebral hemispheres.",
+    "The dentate is a deep nucleus inside each hemisphere.",
+    "The middle peduncle joins the cerebellum to the pons."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/07.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "What separates the cerebellum from the pons and medulla in front of it?",
+   "options": [
+    "The fourth ventricle",
+    "The third ventricle",
+    "The tentorium cerebelli",
+    "The falx cerebri"
+   ],
+   "answer": 0,
+   "why": "The cerebellum is separated from the pons and medulla by the cavity of the fourth ventricle.",
+   "notes": [
+    "The fourth ventricle lies between them.",
+    "The third ventricle is in the diencephalon.",
+    "The tentorium lies above the cerebellum.",
+    "The falx lies between the cerebral hemispheres."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/05.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "Which dural fold lies directly above the cerebellum?",
+   "options": [
+    "Tentorium cerebelli",
+    "Falx cerebri",
+    "Diaphragma sellae",
+    "Falx cerebelli"
+   ],
+   "answer": 0,
+   "why": "The cerebellum lies inferior to the tentorium cerebelli; its superior surface is related to it.",
+   "notes": [
+    "The tentorium roofs over the cerebellum.",
+    "The falx cerebri is between the cerebral hemispheres.",
+    "The diaphragma sellae covers the pituitary.",
+    "The falx cerebelli lies between the cerebellar hemispheres, not above."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/05.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "What is the main role of the cerebellum?",
+   "options": [
+    "Automatic regulation of movement: tone, balance and coordination",
+    "Starting voluntary movements",
+    "Relaying all sensations to the cortex",
+    "Producing cerebrospinal fluid"
+   ],
+   "answer": 0,
+   "why": "The cerebellum regulates motor activity automatically: muscle tone, balance and coordination of voluntary movements.",
+   "notes": [
+    "It corrects and coordinates movement.",
+    "The motor cortex starts voluntary movements.",
+    "The thalamus relays sensation.",
+    "The choroid plexus makes CSF."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/05.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "What does the vermis mainly control?",
+   "options": [
+    "Axial muscles, posture and gait",
+    "Fine finger movements",
+    "Vision",
+    "Speech comprehension"
+   ],
+   "answer": 0,
+   "why": "The vermis controls axial muscles, posture and gait; the hemispheres coordinate limb movements.",
+   "notes": [
+    "The midline controls the trunk and gait.",
+    "Fine limb movement depends on the hemispheres.",
+    "Vision is the occipital lobe.",
+    "Comprehension is Wernicke's area."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/09.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "How many cerebellar peduncles connect each side of the cerebellum to the brainstem?",
+   "options": [
+    "Three: superior, middle and inferior",
+    "One",
+    "Two: anterior and posterior",
+    "Four"
+   ],
+   "answer": 0,
+   "why": "Three pairs of peduncles: superior to the midbrain, middle to the pons, inferior to the medulla.",
+   "notes": [
+    "Superior, middle and inferior.",
+    "There are three on each side.",
+    "They are named superior, middle and inferior.",
+    "There are three."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/16.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Which cerebellar peduncle connects the cerebellum to the pons?",
+   "options": [
+    "Middle cerebellar peduncle",
+    "Superior cerebellar peduncle",
+    "Inferior cerebellar peduncle",
+    "Cerebral peduncle"
+   ],
+   "answer": 0,
+   "why": "The superior peduncle joins the midbrain, the middle joins the pons, the inferior joins the medulla.",
+   "notes": [
+    "Middle peduncle: pons.",
+    "Superior peduncle: midbrain.",
+    "Inferior peduncle: medulla.",
+    "The cerebral peduncles belong to the midbrain."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/16.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Which cerebellar peduncle is the largest?",
+   "options": [
+    "Middle",
+    "Superior",
+    "Inferior",
+    "All are equal"
+   ],
+   "answer": 0,
+   "why": "The middle cerebellar peduncle (brachium pontis) is the largest input pathway to the cerebellum.",
+   "notes": [
+    "It is the largest input pathway.",
+    "The superior peduncle is mainly output.",
+    "The inferior peduncle carries both input and output.",
+    "They differ in size."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/38.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "q": "Which fissure separates the anterior and posterior lobes?",
+   "options": [
+    "Primary fissure",
+    "Posterolateral fissure",
+    "Longitudinal fissure",
+    "Central sulcus"
+   ],
+   "answer": 0,
+   "why": "The primary fissure divides the smaller anterior lobe from the larger posterior lobe.",
+   "notes": [
+    "The primary fissure.",
+    "This separates the posterior and flocculonodular lobes.",
+    "This separates the cerebral hemispheres.",
+    "This is in the cerebrum."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/14.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Which are the three anatomical lobes of the cerebellum?",
+   "options": [
+    "Anterior, posterior and flocculonodular",
+    "Frontal, parietal and occipital",
+    "Superior, middle and inferior",
+    "Medial, intermediate and lateral"
+   ],
+   "answer": 0,
+   "why": "Two fissures (primary and posterolateral) divide the cerebellum into anterior, posterior and flocculonodular lobes.",
+   "notes": [
+    "The three cerebellar lobes.",
+    "These are cerebral lobes.",
+    "These are the peduncles.",
+    "These are longitudinal zones, not lobes."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/15.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "What is the tree-like pattern seen when the cerebellum is cut?",
+   "options": [
+    "Arbor vitae: branching white matter surrounded by grey cortex",
+    "The vallecula",
+    "The vermis",
+    "The tentorial notch"
+   ],
+   "answer": 0,
+   "why": "On section, branching white matter surrounded by grey cortex forms the arbor vitae, the tree of life.",
+   "notes": [
+    "The arbor vitae.",
+    "The vallecula is the groove on the inferior surface.",
+    "The vermis is the median part.",
+    "That is an opening in the tentorium."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/17.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Which cells are the only output neurons of the cerebellar cortex?",
+   "options": [
+    "Purkinje cells",
+    "Granule cells",
+    "Pyramidal cells",
+    "Astrocytes"
+   ],
+   "answer": 0,
+   "why": "Purkinje cells are the only output neurons of the cerebellar cortex, sending inhibitory signals to the deep nuclei.",
+   "notes": [
+    "Purkinje cells carry the cortex's output.",
+    "Granule cells are interneurons of the granular layer.",
+    "Pyramidal cells are in the cerebral cortex.",
+    "Astrocytes are glial cells."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/21.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "Which is the largest deep cerebellar nucleus?",
+   "options": [
+    "Dentate nucleus",
+    "Fastigial nucleus",
+    "Globose nucleus",
+    "Emboliform nucleus"
+   ],
+   "answer": 0,
+   "why": "The dentate nucleus is the largest and most lateral; it is linked to planning and coordination of voluntary movement.",
+   "notes": [
+    "The dentate is the largest.",
+    "The fastigial is small and medial.",
+    "The globose is small.",
+    "The emboliform is small."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/22.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Which deep nucleus is located most laterally?",
+   "options": [
+    "Dentate",
+    "Fastigial",
+    "Globose",
+    "Emboliform"
+   ],
+   "answer": 0,
+   "why": "From lateral to medial: dentate, emboliform, globose, fastigial.",
+   "notes": [
+    "The dentate is the most lateral.",
+    "The fastigial is the most medial.",
+    "The globose lies medial to the emboliform.",
+    "The emboliform lies medial to the dentate."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/22.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Which arteries supply the cerebellum?",
+   "options": [
+    "Superior cerebellar artery",
+    "Anterior inferior cerebellar artery",
+    "Posterior inferior cerebellar artery",
+    "Middle cerebral artery"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The cerebellum receives three paired arteries: SCA, AICA and PICA.",
+   "notes": [
+    "SCA, from the basilar artery.",
+    "AICA, from the basilar artery.",
+    "PICA, from the vertebral artery.",
+    "The MCA supplies the lateral cerebral hemisphere."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/28.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "Which functional division is most associated with balance and eye movements?",
+   "options": [
+    "Vestibulocerebellum",
+    "Spinocerebellum",
+    "Cerebrocerebellum",
+    "Dentate system only"
+   ],
+   "answer": 0,
+   "why": "The vestibulocerebellum (flocculonodular lobe) controls equilibrium, balance and coordinated eye movements.",
+   "notes": [
+    "Balance and eye movements.",
+    "Tone, posture, trunk and limb coordination.",
+    "Planning and timing of skilled movements.",
+    "The dentate belongs to the cerebrocerebellum."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/30.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "Which functional division plans and times skilled voluntary movements?",
+   "options": [
+    "Cerebrocerebellum (lateral hemispheres)",
+    "Vestibulocerebellum",
+    "Spinocerebellum",
+    "Flocculonodular lobe"
+   ],
+   "answer": 0,
+   "why": "The cerebrocerebellum, the largest division, takes cortical input via the pontine nuclei and plans, starts and times skilled movements.",
+   "notes": [
+    "The lateral hemispheres plan skilled movements.",
+    "That serves balance and eye movements.",
+    "That regulates tone and posture.",
+    "That is the vestibulocerebellum."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/30.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "A lesion of the right cerebellar hemisphere most typically causes which finding?",
+   "options": [
+    "Right-sided limb dysmetria",
+    "Left-sided limb dysmetria",
+    "Complete bilateral paralysis",
+    "Isolated loss of pain sensation"
+   ],
+   "answer": 0,
+   "why": "Each cerebellar hemisphere controls the same side of the body, so signs are ipsilateral.",
+   "notes": [
+    "Cerebellar signs are on the same side.",
+    "That would be the left hemisphere.",
+    "The cerebellum causes incoordination, not paralysis.",
+    "Pain is carried by the spinothalamic tract."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/40.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "q": "A patient walks with an unsteady, staggering gait and keeps losing balance, but limb coordination is normal when lying down. Which part is most likely damaged?",
+   "options": [
+    "Flocculonodular lobe (vestibulocerebellum)",
+    "Lateral hemisphere",
+    "Dentate nucleus",
+    "Middle cerebellar peduncle"
+   ],
+   "answer": 0,
+   "why": "Damage to the flocculonodular lobe causes loss of equilibrium with an altered walking gait.",
+   "notes": [
+    "Loss of equilibrium points to the vestibulocerebellum.",
+    "Lateral damage disturbs skilled limb movements.",
+    "The dentate serves the lateral hemisphere.",
+    "Peduncle lesions are not the classic cause here."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/40.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "q": "Why is herniation of the cerebellar tonsils life-threatening?",
+   "options": [
+    "It compresses the medulla, threatening breathing and circulation",
+    "It blocks the optic nerves",
+    "It tears the middle meningeal artery",
+    "It compresses the spinal cord at L1"
+   ],
+   "answer": 0,
+   "why": "Tonsillar herniation compresses the medulla oblongata, threatening vital respiratory and cardiovascular functions.",
+   "notes": [
+    "The medulla holds the respiratory and cardiovascular centres.",
+    "The optic nerves are far in front.",
+    "That causes an epidural haematoma.",
+    "Not at that level."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/13.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "What are the cerebellar tonsils?",
+   "options": [
+    "Rounded parts of the medial inferior hemispheres beside the inferior vermis",
+    "Lymphoid tissue in the pharynx",
+    "Deep cerebellar nuclei",
+    "Swellings on the superior surface"
+   ],
+   "answer": 0,
+   "why": "The tonsils are rounded portions of the medial inferior cerebellar hemispheres, on either side of the inferior vermis.",
+   "notes": [
+    "They sit just above the foramen magnum.",
+    "Those are the palatine tonsils.",
+    "The deep nuclei are inside the white matter.",
+    "They are on the inferior surface."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/12.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "What does the great circumferential (horizontal) sulcus of Vicq d'Azyr separate?",
+   "options": [
+    "The superior surface from the inferior surface",
+    "The anterior lobe from the posterior lobe",
+    "The posterior lobe from the flocculonodular lobe",
+    "The vermis from the hemispheres"
+   ],
+   "answer": 0,
+   "why": "The horizontal fissure separates the superior and inferior surfaces.",
+   "notes": [
+    "Superior from inferior surface.",
+    "That is the primary fissure.",
+    "That is the posterolateral fissure.",
+    "Not a fissure function."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/14.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "What is the vallecula of the cerebellum?",
+   "options": [
+    "A deep median groove on the inferior surface that houses the brainstem",
+    "The peak of the fourth ventricle",
+    "The space between the two tonsils and the foramen magnum",
+    "A fissure on the superior surface"
+   ],
+   "answer": 0,
+   "why": "The inferior surface is separated by the vallecula, a deep median groove that houses the brainstem.",
+   "notes": [
+    "A median groove holding the brainstem.",
+    "That is the fastigium.",
+    "Not this.",
+    "It is on the inferior surface."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/12.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "Which cells are found in the molecular layer of the cerebellar cortex?",
+   "options": [
+    "Stellate and basket cells",
+    "Purkinje cells",
+    "Granule and Golgi cells",
+    "Pyramidal cells"
+   ],
+   "answer": 0,
+   "why": "The molecular layer contains inhibitory stellate and basket cells and many dendrites.",
+   "notes": [
+    "Molecular layer interneurons.",
+    "They form their own middle layer.",
+    "These are in the granular layer.",
+    "Not in the cerebellum."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/21.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "Where do climbing fibres come from?",
+   "options": [
+    "Only from the contralateral inferior olivary nucleus",
+    "From the pontine nuclei",
+    "From the spinal cord",
+    "From the vestibular nuclei"
+   ],
+   "answer": 0,
+   "why": "Climbing fibres arise exclusively from the contralateral inferior olive; each makes hundreds of excitatory synapses on one Purkinje cell.",
+   "notes": [
+    "Only the opposite inferior olive.",
+    "That is a mossy fibre source.",
+    "That is a mossy fibre source.",
+    "That is a mossy fibre source."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/25.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 25
+    }
+   ]
+  },
+  {
+   "q": "Where do mossy fibres end?",
+   "options": [
+    "On granule cells in the granular layer, in glomeruli",
+    "Directly on Purkinje cell dendrites",
+    "In the deep nuclei only",
+    "In the molecular layer on basket cells"
+   ],
+   "answer": 0,
+   "why": "Mossy fibres synapse with granule cells in glomeruli; granule cells then reach Purkinje cells through parallel fibres.",
+   "notes": [
+    "Granule cells in glomeruli.",
+    "That is what climbing fibres do.",
+    "Not their main ending.",
+    "Not their ending."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/25.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 25
+    }
+   ]
+  },
+  {
+   "q": "What is the main role of climbing fibres?",
+   "options": [
+    "Signalling movement errors for motor learning",
+    "Carrying the cortex's output to the thalamus",
+    "Producing CSF",
+    "Carrying pain to the cortex"
+   ],
+   "answer": 0,
+   "why": "Climbing fibres are critical for motor learning, signalling errors in movement execution so the cerebellum can refine commands.",
+   "notes": [
+    "Error signals for motor learning.",
+    "That is the dentate output.",
+    "The choroid plexus makes CSF.",
+    "That is the spinothalamic tract."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/25.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 25
+    }
+   ]
+  },
+  {
+   "q": "Which nuclei form the interposed nuclei?",
+   "options": [
+    "Globose and emboliform",
+    "Dentate and fastigial",
+    "Fastigial and globose",
+    "Dentate and emboliform"
+   ],
+   "answer": 0,
+   "why": "The interposed nuclei consist of the globose and emboliform nuclei.",
+   "notes": [
+    "Globose + emboliform.",
+    "These are the lateral and medial nuclei.",
+    "The fastigial is separate.",
+    "The dentate is separate."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/19.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Where does the superior cerebellar peduncle send the cerebellum's output?",
+   "options": [
+    "To the red nucleus and the thalamus",
+    "To the vestibular nuclei only",
+    "To the pontine nuclei",
+    "To the inferior olive"
+   ],
+   "answer": 0,
+   "why": "The superior peduncle is mainly an output pathway to the red nucleus and the thalamus, which projects to the motor cortex.",
+   "notes": [
+    "Red nucleus and thalamus.",
+    "That is the inferior peduncle's output.",
+    "Pontine nuclei send input through the middle peduncle.",
+    "The olive sends climbing fibres in."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/37.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 37
+    }
+   ]
+  },
+  {
+   "q": "Which fibres does the middle cerebellar peduncle carry?",
+   "options": [
+    "Pontocerebellar fibres from the contralateral pontine nuclei",
+    "Spinocerebellar fibres",
+    "Output to the red nucleus",
+    "Climbing fibres from the olive"
+   ],
+   "answer": 0,
+   "why": "The middle peduncle carries pontocerebellar fibres from the opposite pontine nuclei, bringing motor plans from the cortex.",
+   "notes": [
+    "From the opposite pontine nuclei.",
+    "These run in the inferior peduncle.",
+    "That is the superior peduncle.",
+    "These enter through the inferior peduncle."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/38.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "q": "Which artery gives the posterior inferior cerebellar artery (PICA)?",
+   "options": [
+    "Vertebral artery",
+    "Basilar artery",
+    "Internal carotid artery",
+    "Posterior cerebral artery"
+   ],
+   "answer": 0,
+   "why": "SCA and AICA come from the basilar artery; PICA comes from the vertebral artery.",
+   "notes": [
+    "PICA is a vertebral branch.",
+    "The basilar gives SCA and AICA.",
+    "Anterior circulation.",
+    "The PCA is a basilar end branch."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/28.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "Into which sinuses do the cerebellar veins drain?",
+   "options": [
+    "Superior petrosal, transverse and straight sinuses",
+    "Cavernous sinus only",
+    "Superior sagittal sinus only",
+    "Internal jugular vein directly"
+   ],
+   "answer": 0,
+   "why": "The superior and inferior cerebellar veins drain into the superior petrosal, transverse and straight sinuses.",
+   "notes": [
+    "These three sinuses.",
+    "Not the cavernous sinus.",
+    "Not the superior sagittal sinus.",
+    "They drain via the sinuses first."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/28.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "Which structures lie superior to the cerebellum?",
+   "options": [
+    "The straight sinus and the great cerebral vein of Galen",
+    "The occipital lobe",
+    "The foramen magnum",
+    "The fourth ventricle"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "why": "Above the cerebellum: the great cerebral vein, the straight sinus in the tentorium, and the occipital lobe.",
+   "notes": [
+    "Superior relations.",
+    "The occipital lobe lies above the tentorium.",
+    "The foramen magnum is below.",
+    "The fourth ventricle is in front."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/26.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 26
+    }
+   ]
+  },
+  {
+   "q": "Which parts form the spinocerebellum?",
+   "options": [
+    "The vermis and the intermediate zones",
+    "The lateral hemispheres",
+    "The flocculonodular lobe",
+    "The dentate nuclei"
+   ],
+   "answer": 0,
+   "why": "The spinocerebellum includes the vermis and the intermediate zones, with the fastigial and interposed nuclei as outputs.",
+   "notes": [
+    "Vermis + intermediate zones.",
+    "That is the cerebrocerebellum.",
+    "That is the vestibulocerebellum.",
+    "That is the cerebrocerebellum's output."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-cerebellum/30.jpg",
+     "lec": "Anatomy of the cerebellum",
+     "n": 30
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "x0",
+   "type": "text",
+   "front": "Where is the cerebellum?",
+   "back": "Posterior cranial fossa: under the tentorium cerebelli, behind the pons and medulla, separated from them by the fourth ventricle."
+  },
+  {
+   "id": "x1",
+   "type": "text",
+   "front": "What are the three roles of the cerebellum in movement?",
+   "back": "Control of muscle tone, maintenance of balance and coordination of voluntary movements (automatic regulation)."
+  },
+  {
+   "id": "x2",
+   "type": "text",
+   "front": "What joins the two cerebellar hemispheres?",
+   "back": "The vermis, a median portion."
+  },
+  {
+   "id": "x3",
+   "type": "text",
+   "front": "Which fissure separates the anterior and posterior lobes?",
+   "back": "The primary fissure."
+  },
+  {
+   "id": "x4",
+   "type": "text",
+   "front": "Which fissure separates the posterior and flocculonodular lobes?",
+   "back": "The posterolateral fissure."
+  },
+  {
+   "id": "x5",
+   "type": "text",
+   "front": "What does the horizontal fissure (great circumferential sulcus of Vicq d'Azyr) separate?",
+   "back": "The superior surface from the inferior surface."
+  },
+  {
+   "id": "x6",
+   "type": "text",
+   "front": "What are the cerebellar tonsils, and why do they matter?",
+   "back": "Rounded parts of the medial inferior hemispheres beside the inferior vermis. Herniation through the foramen magnum compresses the medulla and threatens breathing and circulation."
+  },
+  {
+   "id": "x7",
+   "type": "text",
+   "front": "Name the three cerebellar peduncles and what each joins.",
+   "back": "Superior → midbrain; middle → pons; inferior → medulla oblongata."
+  },
+  {
+   "id": "x8",
+   "type": "text",
+   "front": "Which peduncle is the largest, and what does it carry?",
+   "back": "The middle peduncle (brachium pontis): pontocerebellar input from the contralateral pontine nuclei."
+  },
+  {
+   "id": "x9",
+   "type": "text",
+   "front": "Which peduncle is mainly the output pathway, and where does it go?",
+   "back": "The superior peduncle (brachium conjunctivum): to the red nucleus and thalamus (then motor cortex)."
+  },
+  {
+   "id": "x10",
+   "type": "text",
+   "front": "List the three layers of the cerebellar cortex, outside in, with their main cells.",
+   "back": "Molecular (stellate and basket cells); Purkinje cell layer (Purkinje cells); granular (granule and Golgi cells)."
+  },
+  {
+   "id": "x11",
+   "type": "text",
+   "front": "What is special about Purkinje cells?",
+   "back": "They are the only output neurons of the cerebellar cortex, and they are inhibitory, projecting to the deep nuclei."
+  },
+  {
+   "id": "x12",
+   "type": "text",
+   "front": "Name the four deep cerebellar nuclei from lateral to medial.",
+   "back": "Dentate, emboliform, globose, fastigial (Don't Eat Greasy Food). Emboliform + globose = interposed nuclei."
+  },
+  {
+   "id": "x13",
+   "type": "text",
+   "front": "Where do climbing fibres come from, and what do they do?",
+   "back": "Only from the contralateral inferior olivary nucleus; each powerfully excites one Purkinje cell and signals movement errors for motor learning."
+  },
+  {
+   "id": "x14",
+   "type": "text",
+   "front": "Where do mossy fibres come from, and where do they end?",
+   "back": "Spinal cord, vestibular nuclei and pontine nuclei; they end on granule cells in the granular layer (glomeruli)."
+  },
+  {
+   "id": "x15",
+   "type": "text",
+   "front": "Which arteries supply the cerebellum, and where do they come from?",
+   "back": "SCA and AICA from the basilar artery; PICA from the vertebral artery."
+  },
+  {
+   "id": "x16",
+   "type": "text",
+   "front": "Name the three functional divisions and their roles.",
+   "back": "Vestibulocerebellum: balance and eye movements. Spinocerebellum: tone, posture, trunk and limb coordination. Cerebrocerebellum: planning and timing of skilled movements."
+  },
+  {
+   "id": "x17",
+   "type": "text",
+   "front": "A patient has a right cerebellar hemisphere lesion. Which side shows the signs?",
+   "back": "The right side: cerebellar signs are ipsilateral."
+  },
+  {
+   "id": "x18",
+   "type": "text",
+   "front": "What does damage to the flocculonodular lobe cause?",
+   "back": "Loss of equilibrium with an altered, unsteady gait."
+  },
+  {
+   "id": "img-lat",
+   "type": "image",
+   "target": "lat",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Lateral hemisphere: the cerebrocerebellum, the largest division. Input from the cortex via the pontine nuclei; plans and times skilled movements."
+  },
+  {
+   "id": "img-int",
+   "type": "image",
+   "target": "int",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Intermediate zone: part of the spinocerebellum. Coordinates limb movements using spinal input."
+  },
+  {
+   "id": "img-verm",
+   "type": "image",
+   "target": "verm",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Vermis: part of the spinocerebellum. Axial muscles, posture and gait."
+  },
+  {
+   "id": "img-floc",
+   "type": "image",
+   "target": "floc",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Flocculonodular lobe: the vestibulocerebellum (archicerebellum). Balance and eye movements."
+  },
+  {
+   "id": "img-dent",
+   "type": "image",
+   "target": "dent",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Dentate nucleus: the largest and most lateral deep nucleus; output of the cerebrocerebellum to the thalamus and motor cortex."
+  },
+  {
+   "id": "img-interp",
+   "type": "image",
+   "target": "interp",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Interposed nuclei (globose + emboliform): output of the intermediate zone; limb movements, via the red nucleus."
+  },
+  {
+   "id": "img-fast",
+   "type": "image",
+   "target": "fast",
+   "front": "What is at the arrow, and why does it matter?",
+   "back": "Fastigial nucleus: the most medial deep nucleus; output of the vermis to the vestibular nuclei and reticular formation; balance and posture."
+  }
+ ],
+ "deeper": [
+  {
+   "title": "Why cerebellar signs are on the same side",
+   "html": "<p>The output of a cerebellar hemisphere leaves through the superior peduncle and <strong>crosses</strong> to the opposite red nucleus and thalamus, which drive the opposite motor cortex. The corticospinal tract then <strong>crosses back</strong> in the medulla. Two crossings cancel out, so each hemisphere ends up controlling the limbs on its own side. That is why a right cerebellar lesion makes the right arm clumsy, while a right motor cortex lesion weakens the left side.</p><p class='src'>Source: the lecture's clinical significance slide; StatPearls, Neuroanatomy, Cerebellum.</p>"
+  },
+  {
+   "title": "What cerebellar signs look like at the bedside",
+   "html": "<p>A cerebellar patient is not weak: the problem is coordination. Look for <strong>dysmetria</strong> (overshooting the target in the finger-to-nose test), <strong>intention tremor</strong> (tremor that grows as the finger approaches the target), <strong>dysdiadochokinesia</strong> (clumsy rapid alternating movements), a <strong>wide-based, unsteady gait</strong> and <strong>nystagmus</strong>. Midline (vermis) lesions mainly disturb the trunk and gait; hemisphere lesions mainly disturb the limbs on the same side.</p><p class='src'>Sources: StatPearls, Neuroanatomy, Cerebellum; TeachMeAnatomy, The Cerebellum.</p>"
+  }
+ ],
+ "resources": [
+  {
+   "title": "The cerebellum (TeachMeAnatomy)",
+   "url": "https://teachmeanatomy.info/neuroanatomy/structures/cerebellum/",
+   "kind": "Website",
+   "why": "Lobes, peduncles, deep nuclei, blood supply and clinical signs, with diagrams.",
+   "note": ""
+  },
+  {
+   "title": "Cerebellum gross anatomy (Kenhub)",
+   "url": "https://www.kenhub.com/en/library/anatomy/cerebellum-gross-anatomy",
+   "kind": "Website",
+   "why": "Labelled pictures of the surfaces, fissures and lobes.",
+   "note": ""
+  },
+  {
+   "title": "Neuroanatomy, Cerebellum (StatPearls)",
+   "url": "https://www.statpearls.com/ArticleLibrary/viewarticle/19172",
+   "kind": "Website",
+   "why": "Functional divisions, connections and clinical significance in more depth.",
+   "note": ""
+  }
+ ],
+ "checks": [],
+ "sources": [
+  {
+   "name": "The cerebellum (TeachMeAnatomy)",
+   "url": "https://teachmeanatomy.info/neuroanatomy/structures/cerebellum/"
+  },
+  {
+   "name": "Cerebellum gross anatomy (Kenhub)",
+   "url": "https://www.kenhub.com/en/library/anatomy/cerebellum-gross-anatomy"
+  },
+  {
+   "name": "Neuroanatomy, Cerebellum (StatPearls)",
+   "url": "https://www.statpearls.com/ArticleLibrary/viewarticle/19172"
+  },
+  {
+   "name": "Cerebellum (Radiopaedia)",
+   "url": "https://radiopaedia.org/articles/cerebellum"
+  }
+ ],
+ "verified": "10 Nov 2026",
+ "highYield": [
+  {
+   "t": "note",
+   "html": "<strong>Location</strong>: posterior cranial fossa, <strong>under the tentorium</strong>, behind the pons and medulla, separated by the <strong>fourth ventricle</strong>."
+  },
+  {
+   "t": "note",
+   "html": "<strong>Fissures</strong>: <strong>primary</strong> (anterior / posterior lobes), <strong>posterolateral</strong> (posterior / flocculonodular lobes), <strong>horizontal</strong> of Vicq d'Azyr (superior / inferior surfaces)."
+  },
+  {
+   "t": "mnemo",
+   "html": "Deep nuclei lateral to medial: <strong>D</strong>on't <strong>E</strong>at <strong>G</strong>reasy <strong>F</strong>ood: Dentate, Emboliform, Globose, Fastigial."
+  },
+  {
+   "t": "note",
+   "html": "<strong>Purkinje cells</strong> are the <strong>only output</strong> of the cortex and are <strong>inhibitory</strong>. Climbing fibres: <strong>contralateral inferior olive</strong> only. Mossy fibres: spinal cord, vestibular and pontine nuclei, ending on granule cells."
+  },
+  {
+   "t": "mnemo",
+   "html": "Peduncles: <strong>S</strong>uperior <strong>S</strong>ends out (midbrain: red nucleus, thalamus); <strong>M</strong>iddle is <strong>M</strong>assive input (pons); <strong>I</strong>nferior is <strong>I</strong>n and out (medulla)."
+  },
+  {
+   "t": "note",
+   "html": "<strong>Arteries</strong>: SCA and AICA from the <strong>basilar</strong>; PICA from the <strong>vertebral</strong>."
+  },
+  {
+   "t": "clinic",
+   "html": "Cerebellar signs are <strong>ipsilateral</strong>. Flocculonodular lesion: loss of equilibrium; lateral lesion: errors in skilled movements; midline lesion: trunk and gait."
+  },
+  {
+   "t": "clinic",
+   "html": "<strong>Tonsillar herniation</strong> through the foramen magnum compresses the <strong>medulla</strong>: a threat to breathing and circulation."
   }
  ]
 };

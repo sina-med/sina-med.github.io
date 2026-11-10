@@ -2,6 +2,12 @@
    Style: short changelog lines, developer voice (Added / Fixed / Changed), no "you". */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
+  { date: "10 November 2026", items: [
+    "Added: Anatomy of the cerebellum (Anatomy 3, Neuroanatomy), with summary, flashcards, visual, high-yield notes and 35 questions.",
+    "Added: ENT/Neuroanat midterm (17 November) on the Upcoming midterm page.",
+    "Added: Midterm topics only for Anatomy 3 neuroanatomy: broad core questions for the midterm; Whole lecture adds the detailed ones. 72 new neuroanatomy questions.",
+    "Added: right/wrong notes for every option in the ENT/Neuroanat midterm lectures and in all Semiology lectures."
+  ] },
   { date: "9 November 2026", items: [
     "Added: question count menu at the top of each quiz (10 to All). With Midterm topics only, the count only uses midterm-topic questions.",
     "Added: 66 medium-level Semiology midterm questions (digestive exam, jaundice, constipation, GERD, GI bleeding, thyroid, and the midterm topics of pituitary, adrenal and diabetes), with option notes and slide highlights.",
