@@ -28,6 +28,7 @@ SINA.subjects = [
         { id: "anat3-neck-triangles", title: "The forgotten triangles of the neck" }
       ]},
       { name: "Neuroanatomy", items: [
+        { id: "anat3-neuro-intro", title: "Introduction and embryological development of the CNS" },
         { id: "anat3-spinal-cord", title: "Anatomy of the spinal cord" },
         { id: "anat3-brainstem", title: "Anatomy of the brainstem" },
         { id: "anat3-cerebellum", title: "Anatomy of the cerebellum" },
@@ -756,6 +757,7 @@ SINA.midterms = [
    {
     "name": "Neuroanatomy",
     "items": [
+     "anat3-neuro-intro",
      "anat3-cerebrum",
      "anat3-diencephalon",
      "anat3-brainstem",

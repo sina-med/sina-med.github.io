@@ -3,6 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "11 November 2026", items: [
+    "Added: Introduction and embryological development of the CNS (Anatomy 3, Neuroanatomy), with summary, flashcards, visual, high-yield notes and 29 questions; on the ENT/Neuroanat midterm.",
     "Added: 46 Public Health questions (1st year), with slide highlights.",
     "Added: right/wrong notes for every option in all Public Health lectures."
   ] },

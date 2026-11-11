@@ -35695,7 +35695,7 @@ SINA.lectures["anat3-cerebellum"] = {
  "group": "Neuroanatomy",
  "title": "Anatomy of the cerebellum",
  "sourceFile": "5. ANATOMY OF CEREBELLUM.pdf (Anatomy 3, Neuroanatomy lecture 6, Prof. F. Fliyou, 2026-2027)",
- "sourceUrl": "",
+ "sourceUrl": "https://drive.google.com/file/d/1ED_35sGslr3pv60na99ghAEVIwMPbWFR/view",
  "sourcePdf": "files/src/anat3-cerebellum.pdf",
  "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
  "summary": [
@@ -37139,6 +37139,1328 @@ SINA.lectures["anat3-cerebellum"] = {
   {
    "t": "clinic",
    "html": "<strong>Tonsillar herniation</strong> through the foramen magnum compresses the <strong>medulla</strong>: a threat to breathing and circulation."
+  }
+ ]
+};
+SINA.lectures["anat3-neuro-intro"] = {
+ "id": "anat3-neuro-intro",
+ "subject": "anat3",
+ "group": "Neuroanatomy",
+ "title": "Introduction and embryological development of the CNS",
+ "sourceFile": "Introduction and embryological development of the central nervous system.pdf (Anatomy 3, Neuroanatomy lecture 1, Prof. F. Fliyou)",
+ "sourceUrl": "https://drive.google.com/file/d/1sCARqfOFx4ceEW0D2phim_Dlz0S_lpa6/view",
+ "sourcePdf": "",
+ "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
+ "summary": [
+  {
+   "id": "s0",
+   "title": "The big picture",
+   "html": "<p>The nervous system is the most complex organ system of the body. It is studied in two parts: the <strong>central nervous system (CNS)</strong>, the command centre, and the <strong>peripheral nervous system (PNS)</strong>, the communication network linking the CNS to muscles, glands and sensory organs.</p><p>This framework is what lets a doctor <strong>localise a lesion</strong> from the symptoms and plan a <strong>neurosurgical approach</strong>.</p><p>The whole nervous system comes from <strong>ectoderm</strong>: neural plate, then neural groove, then <strong>neural tube</strong>. The tube's cranial end swells into <strong>3 primary</strong> then <strong>5 secondary vesicles</strong>, which become the parts of the adult brain, and its lumen becomes the <strong>ventricular system</strong>.</p>"
+  },
+  {
+   "id": "s1",
+   "title": "What the lecture covers",
+   "html": "<ul><li>The general organisation of the nervous system: CNS and PNS, somatic and autonomic.</li><li>The cellular basis of nervous tissue: neurons, glial cells, grey and white matter.</li><li>The embryology of the nervous system: neural tube, primary and secondary vesicles, flexures, neural tube defects.</li></ul><p>Learning objectives: understand CNS and PNS organisation, relate structure to function, and explain clinical localisation and neurosurgical approaches.</p>"
+  },
+  {
+   "id": "s2",
+   "title": "Functions of the nervous system",
+   "html": "<p>Three steps: <strong>sensory input</strong> (receptors detect a stimulus), <strong>integration</strong> (the brain and spinal cord process and interpret it) and <strong>motor output</strong> (effector muscles and glands respond).</p>"
+  },
+  {
+   "id": "s3",
+   "title": "Central nervous system",
+   "html": "<ul><li>Two major components: the <strong>brain</strong> (cerebrum, brainstem, cerebellum) and the <strong>spinal cord</strong>.</li><li>Protected by bone (<strong>skull</strong> and <strong>vertebral column</strong>), reinforced by the <strong>meninges</strong> and cushioned by <strong>CSF</strong>, because it controls vital functions.</li></ul><table><tr><th>Part</th><th>In one line</th></tr><tr><td><strong>Cerebrum</strong></td><td>Thinks, feels and remembers</td></tr><tr><td><strong>Brainstem</strong></td><td>Keeps us alive (vital functions)</td></tr><tr><td><strong>Cerebellum</strong></td><td>Makes movement smooth and coordinated</td></tr><tr><td><strong>Spinal cord</strong></td><td>Connects brain and body, and reacts (reflexes)</td></tr></table>"
+  },
+  {
+   "id": "s4",
+   "title": "Peripheral nervous system",
+   "html": "<p>All neural elements outside the CNS, connecting it to organs, limbs and skin.</p><ul><li><strong>12 pairs of cranial nerves</strong>, arising from the brain.</li><li><strong>31 pairs of spinal nerves</strong>, arising from the spinal cord.</li><li><strong>Peripheral ganglia</strong>: collections of nerve cell bodies outside the CNS: <strong>sensory</strong> (dorsal root ganglia) and <strong>autonomic</strong> (sympathetic and parasympathetic).</li></ul><p>Functional divisions: the <strong>somatic</strong> system controls voluntary actions; the <strong>autonomic</strong> system responds automatically, with a <strong>sympathetic</strong> (fight or flight) and a <strong>parasympathetic</strong> (rest and digest) division.</p>"
+  },
+  {
+   "id": "s5",
+   "title": "Neurons and glial cells",
+   "html": "<p>The <strong>neuron</strong> is the basic structural and functional unit, specialised for communication: <strong>cell body (soma)</strong> with the nucleus, <strong>dendrites</strong> that receive signals, an <strong>axon</strong> that carries impulses away from the soma, and <strong>axon terminals</strong> that release neurotransmitters.</p><p><strong>Glial cells</strong> are more numerous than neurons; they do not transmit impulses but are essential.</p><table><tr><th>Glial cell</th><th>Where</th><th>Role</th></tr><tr><td><strong>Astrocytes</strong></td><td>CNS</td><td>Structural support, ion balance, part of the blood-brain barrier</td></tr><tr><td><strong>Oligodendrocytes</strong></td><td>CNS</td><td>Myelin around CNS axons</td></tr><tr><td><strong>Microglia</strong></td><td>CNS</td><td>Immune cells, remove debris (phagocytosis)</td></tr><tr><td><strong>Ependymal cells</strong></td><td>CNS</td><td>Line the ventricles, produce and circulate CSF</td></tr><tr><td><strong>Schwann cells</strong></td><td>PNS</td><td>Myelin around PNS axons, help axon regeneration</td></tr><tr><td><strong>Satellite cells</strong></td><td>PNS</td><td>Support neuron cell bodies in ganglia</td></tr></table>"
+  },
+  {
+   "id": "s6",
+   "title": "Grey and white matter",
+   "html": "<table><tr><th></th><th>Grey matter</th><th>White matter</th></tr><tr><td>Made of</td><td>Neuron cell bodies, dendrites, synapses, some glia</td><td>Myelinated axons</td></tr><tr><td>Role</td><td>Integration and processing of information</td><td>Fast transmission and long-range connections</td></tr><tr><td>Examples</td><td>Cerebral cortex, basal ganglia, thalamus, the spinal cord's butterfly-shaped centre</td><td>Corpus callosum, internal capsule, the spinal cord's outer layer</td></tr></table><p>Note the inversion: in the brain grey matter is outside (cortex), in the spinal cord it is inside.</p><p>Example of a pathway: the <strong>pyramidal (corticospinal) tract</strong> runs from the primary motor cortex through the internal capsule to the medullary pyramid, where it crosses, so the left motor cortex controls the right side of the body.</p>"
+  },
+  {
+   "id": "s7",
+   "title": "Embryology: neural tube and vesicles",
+   "html": "<ul><li>The nervous system starts to form in the <strong>3rd week</strong>, one of the earliest systems to begin and the last to finish (after birth). It derives from <strong>ectoderm</strong>, except its blood vessels and some neurological elements.</li><li><strong>Neurulation</strong> (weeks 3-4): ectoderm → <strong>neural plate</strong> → <strong>neural groove</strong> → closure of the <strong>neural tube</strong> (days 18 to 28). Neuropores close: <strong>anterior ~day 25</strong>, <strong>posterior ~day 27</strong>.</li><li><strong>3 primary vesicles</strong> (week 4): prosencephalon (forebrain), mesencephalon (midbrain), rhombencephalon (hindbrain).</li><li><strong>5 secondary vesicles</strong> (week 5): see the table.</li></ul><table><tr><th>Primary</th><th>Secondary</th><th>Adult</th><th>Cavity</th></tr><tr><td rowspan='2'>Prosencephalon</td><td>Telencephalon</td><td>Cerebral hemispheres</td><td>Lateral ventricles</td></tr><tr><td>Diencephalon</td><td>Thalamus, hypothalamus, epithalamus</td><td>Third ventricle</td></tr><tr><td>Mesencephalon</td><td>Mesencephalon</td><td>Midbrain</td><td>Cerebral aqueduct</td></tr><tr><td rowspan='2'>Rhombencephalon</td><td>Metencephalon</td><td>Pons and cerebellum</td><td rowspan='2'>Fourth ventricle</td></tr><tr><td>Myelencephalon</td><td>Medulla oblongata</td></tr></table><p>The lumen of the neural tube becomes the <strong>ventricular system</strong>; the caudal tube becomes the spinal cord.</p>"
+  },
+  {
+   "id": "s8",
+   "title": "Flexures",
+   "html": "<table><tr><th>Flexure</th><th>Where</th><th>When</th><th>Key point</th></tr><tr><td><strong>Cephalic</strong></td><td>Midbrain (mesencephalon); the most prominent</td><td>Weeks 3-4</td><td>Bends the forebrain forward on the brainstem: why the brain is not in line with the spinal cord</td></tr><tr><td><strong>Cervical</strong></td><td>Between hindbrain and spinal cord</td><td>Week 4</td><td>Temporary; marks the brain-cord boundary</td></tr><tr><td><strong>Pontine</strong></td><td>Between metencephalon and myelencephalon</td><td>Week 5</td><td>Thins the roof of the fourth ventricle, makes space for the cerebellum, separates metencephalon and myelencephalon</td></tr></table>"
+  },
+  {
+   "id": "s9",
+   "title": "Neural tube defects",
+   "html": "<p>Failure of proper neural tube closure causes <strong>neural tube defects</strong>:</p><ul><li><strong>Spina bifida</strong>: failure of closure of the <strong>caudal</strong> neural tube; the nervous tissue may be open, covered only by meninges. Risks include limb paralysis and severe infection.</li><li><strong>Anencephaly</strong>: failure of closure of the <strong>cranial</strong> end; the forebrain does not develop and survival is not possible.</li></ul>"
+  }
+ ],
+ "exam": [
+  "CNS = brain (cerebrum, brainstem, cerebellum) + spinal cord; protected by skull, vertebral column, meninges and CSF.",
+  "PNS = 12 pairs of cranial nerves, 31 pairs of spinal nerves, and peripheral ganglia (sensory and autonomic).",
+  "Somatic system: voluntary actions. Autonomic: automatic responses; sympathetic (fight or flight) and parasympathetic (rest and digest).",
+  "Neuron: soma, dendrites (receive), axon (sends away), terminals (release neurotransmitters).",
+  "Myelin: oligodendrocytes in the CNS, Schwann cells in the PNS.",
+  "Astrocytes: support and blood-brain barrier. Microglia: immune cells. Ependymal cells: line ventricles, CSF.",
+  "Grey matter = cell bodies (cortex, basal ganglia, thalamus, cord centre). White matter = myelinated axons (corpus callosum, internal capsule, cord periphery).",
+  "Nervous system derives from ectoderm: neural plate → groove → tube (days 18-28).",
+  "Neuropores: anterior closes ~day 25, posterior ~day 27.",
+  "3 primary vesicles (week 4): prosencephalon, mesencephalon, rhombencephalon.",
+  "5 secondary vesicles (week 5): telencephalon, diencephalon, mesencephalon, metencephalon, myelencephalon.",
+  "Metencephalon → pons + cerebellum; myelencephalon → medulla; diencephalon → thalamus, hypothalamus, epithalamus.",
+  "Lumen of the neural tube → ventricular system: lateral (telencephalon), third (diencephalon), aqueduct (midbrain), fourth (rhombencephalon).",
+  "Flexures: cephalic (midbrain, most prominent), cervical (brain-cord, temporary), pontine (thins the 4th ventricle roof).",
+  "Neural tube defects: spina bifida (caudal), anencephaly (cranial, not survivable)."
+ ],
+ "visual": {
+  "kind": "model",
+  "intro": "",
+  "figure": {
+   "viewBox": "0 0 760 450",
+   "alt": "Brain vesicles: 3 primary, 5 secondary, and the adult structures they form",
+   "caption": "From 3 primary to 5 secondary vesicles to the adult brain. Schematic drawn for this site from the lecture's embryology slides.",
+   "base": "<defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"8\" refX=\"9\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L10,4 L0,8 Z\" fill=\"#8a8a8a\"/></marker></defs><text x=\"100\" y=\"20\" text-anchor=\"middle\" font-size=\"13\" fill=\"#8a8a8a\">Primary vesicles (week 4)</text><text x=\"380\" y=\"20\" text-anchor=\"middle\" font-size=\"13\" fill=\"#8a8a8a\">Secondary vesicles (week 5)</text><text x=\"650\" y=\"20\" text-anchor=\"middle\" font-size=\"13\" fill=\"#8a8a8a\">Adult structure</text><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"185\" y1=\"64\" x2=\"286\" y2=\"64\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"470\" y1=\"64\" x2=\"556\" y2=\"64\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"185\" y1=\"144\" x2=\"286\" y2=\"144\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"470\" y1=\"144\" x2=\"556\" y2=\"144\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"185\" y1=\"224\" x2=\"286\" y2=\"224\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"470\" y1=\"224\" x2=\"556\" y2=\"224\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"185\" y1=\"304\" x2=\"286\" y2=\"304\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"470\" y1=\"304\" x2=\"556\" y2=\"304\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"185\" y1=\"384\" x2=\"286\" y2=\"384\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"470\" y1=\"384\" x2=\"556\" y2=\"384\"/><text x=\"380\" y=\"440\" text-anchor=\"middle\" font-size=\"12\" fill=\"#8a8a8a\">The lumen of the neural tube becomes the ventricular system; the caudal neural tube becomes the spinal cord.</text>",
+   "parts": {
+    "pros": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"15\" y=\"32\" width=\"170\" height=\"144\" rx=\"10\"/>",
+     "label": [
+      "Prosencephalon",
+      "(forebrain)"
+     ],
+     "lx": 100,
+     "ly": 100
+    },
+    "mes1": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"15\" y=\"192\" width=\"170\" height=\"64\" rx=\"10\"/>",
+     "label": [
+      "Mesencephalon",
+      "(midbrain)"
+     ],
+     "lx": 100,
+     "ly": 220
+    },
+    "rhomb": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f7d9b8\" x=\"15\" y=\"272\" width=\"170\" height=\"144\" rx=\"10\"/>",
+     "label": [
+      "Rhombencephalon",
+      "(hindbrain)"
+     ],
+     "lx": 100,
+     "ly": 340
+    },
+    "tel": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"290\" y=\"32\" width=\"180\" height=\"64\" rx=\"10\"/>",
+     "label": [
+      "Telencephalon"
+     ],
+     "lx": 380,
+     "ly": 60
+    },
+    "hem": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"560\" y=\"32\" width=\"185\" height=\"64\" rx=\"10\"/>",
+     "label": [
+      "Cerebral hemispheres",
+      "(lateral ventricles)"
+     ],
+     "lx": 652,
+     "ly": 60
+    },
+    "di": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"290\" y=\"112\" width=\"180\" height=\"64\" rx=\"10\"/>",
+     "label": [
+      "Diencephalon"
+     ],
+     "lx": 380,
+     "ly": 140
+    },
+    "thal": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"560\" y=\"112\" width=\"185\" height=\"64\" rx=\"10\"/>",
+     "label": [
+      "Thalamus, hypothalamus,",
+      "epithalamus (3rd ventricle)"
+     ],
+     "lx": 652,
+     "ly": 140
+    },
+    "mes2": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"290\" y=\"192\" width=\"180\" height=\"64\" rx=\"10\"/>",
+     "label": [
+      "Mesencephalon"
+     ],
+     "lx": 380,
+     "ly": 220
+    },
+    "mid": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"560\" y=\"192\" width=\"185\" height=\"64\" rx=\"10\"/>",
+     "label": [
+      "Midbrain",
+      "(cerebral aqueduct)"
+     ],
+     "lx": 652,
+     "ly": 220
+    },
+    "met": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f7d9b8\" x=\"290\" y=\"272\" width=\"180\" height=\"64\" rx=\"10\"/>",
+     "label": [
+      "Metencephalon"
+     ],
+     "lx": 380,
+     "ly": 300
+    },
+    "pons": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"560\" y=\"272\" width=\"185\" height=\"64\" rx=\"10\"/>",
+     "label": [
+      "Pons + cerebellum",
+      "(4th ventricle)"
+     ],
+     "lx": 652,
+     "ly": 300
+    },
+    "myel": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f7d9b8\" x=\"290\" y=\"352\" width=\"180\" height=\"64\" rx=\"10\"/>",
+     "label": [
+      "Myelencephalon"
+     ],
+     "lx": 380,
+     "ly": 380
+    },
+    "med": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"560\" y=\"352\" width=\"185\" height=\"64\" rx=\"10\"/>",
+     "label": [
+      "Medulla oblongata",
+      "(4th ventricle)"
+     ],
+     "lx": 652,
+     "ly": 380
+    }
+   },
+   "arrows": {
+    "pros": [
+     {
+      "t": [
+       15,
+       40
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "mes1": [
+     {
+      "t": [
+       15,
+       200
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "rhomb": [
+     {
+      "t": [
+       15,
+       280
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "tel": [
+     {
+      "t": [
+       290,
+       40
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "hem": [
+     {
+      "t": [
+       560,
+       40
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "di": [
+     {
+      "t": [
+       290,
+       120
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "thal": [
+     {
+      "t": [
+       560,
+       120
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "mes2": [
+     {
+      "t": [
+       290,
+       200
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "mid": [
+     {
+      "t": [
+       560,
+       200
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "met": [
+     {
+      "t": [
+       290,
+       280
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "pons": [
+     {
+      "t": [
+       560,
+       280
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "myel": [
+     {
+      "t": [
+       290,
+       360
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "med": [
+     {
+      "t": [
+       560,
+       360
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ]
+   }
+  }
+ },
+ "mcqs": [
+  {
+   "q": "What are the two components of the central nervous system?",
+   "options": [
+    "Brain and spinal cord",
+    "Brain and cranial nerves",
+    "Spinal cord and spinal nerves",
+    "Cranial nerves and ganglia"
+   ],
+   "answer": 0,
+   "why": "The CNS consists of two major components: the brain and the spinal cord.",
+   "notes": [
+    "The CNS is the brain and spinal cord.",
+    "Cranial nerves belong to the PNS.",
+    "Spinal nerves belong to the PNS.",
+    "Nerves and ganglia are the PNS."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/14.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Which structures belong to the peripheral nervous system?",
+   "options": [
+    "Cranial nerves",
+    "Spinal nerves",
+    "Dorsal root ganglia",
+    "Spinal cord"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The PNS is all neural elements outside the CNS: cranial nerves, spinal nerves and peripheral ganglia.",
+   "notes": [
+    "12 pairs, part of the PNS.",
+    "31 pairs, part of the PNS.",
+    "Sensory ganglia are PNS.",
+    "The spinal cord is CNS."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/17.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "How many pairs of spinal nerves are there?",
+   "options": [
+    "31",
+    "12",
+    "33",
+    "8"
+   ],
+   "answer": 0,
+   "why": "There are 12 pairs of cranial nerves and 31 pairs of spinal nerves.",
+   "notes": [
+    "31 pairs of spinal nerves.",
+    "12 is the number of cranial nerve pairs.",
+    "33 is the number of vertebrae.",
+    "8 is the number of cervical nerve pairs."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/17.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "What protects the central nervous system?",
+   "options": [
+    "Skull and vertebral column",
+    "Meninges",
+    "Cerebrospinal fluid",
+    "Peripheral ganglia"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The CNS is encased in bone (skull and spine), reinforced by the meninges and cushioned by CSF.",
+   "notes": [
+    "Bony protection.",
+    "The meninges reinforce it.",
+    "CSF cushions it.",
+    "Ganglia are PNS structures, not protection."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/15.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "Which part of the brain keeps us alive by controlling vital functions?",
+   "options": [
+    "Brainstem",
+    "Cerebrum",
+    "Cerebellum",
+    "Spinal cord"
+   ],
+   "answer": 0,
+   "why": "The cerebrum thinks, feels and remembers; the brainstem keeps us alive; the cerebellum makes movement smooth; the spinal cord connects and reacts.",
+   "notes": [
+    "The brainstem controls vital functions.",
+    "The cerebrum thinks and remembers.",
+    "The cerebellum coordinates movement.",
+    "The cord connects and reacts."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/16.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Which part of the nervous system controls involuntary functions such as heart rate and digestion?",
+   "options": [
+    "Autonomic nervous system",
+    "Somatic nervous system",
+    "Cerebellum",
+    "Dorsal root ganglia"
+   ],
+   "answer": 0,
+   "why": "The autonomic system responds automatically to internal and external changes; the somatic system controls voluntary actions.",
+   "notes": [
+    "Autonomic: automatic, involuntary control.",
+    "Somatic: voluntary actions.",
+    "The cerebellum coordinates movement.",
+    "These are sensory ganglia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/13.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "Which division of the autonomic system prepares the body for 'fight or flight'?",
+   "options": [
+    "Sympathetic",
+    "Parasympathetic",
+    "Somatic",
+    "Enteric"
+   ],
+   "answer": 0,
+   "why": "Sympathetic: fight or flight. Parasympathetic: rest and digest.",
+   "notes": [
+    "Sympathetic: fight or flight.",
+    "Parasympathetic: rest and digest.",
+    "Somatic is voluntary, not autonomic.",
+    "Not the division named in the lecture."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/13.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "Which part of the neuron carries impulses away from the cell body?",
+   "options": [
+    "Axon",
+    "Dendrite",
+    "Soma",
+    "Nucleus"
+   ],
+   "answer": 0,
+   "why": "Dendrites receive incoming signals; the axon transmits electrical impulses away from the soma.",
+   "notes": [
+    "The axon carries impulses away.",
+    "Dendrites receive signals.",
+    "The soma holds the nucleus.",
+    "The nucleus is inside the soma."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/18.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "Which cells make myelin in the central nervous system?",
+   "options": [
+    "Oligodendrocytes",
+    "Schwann cells",
+    "Microglia",
+    "Ependymal cells"
+   ],
+   "answer": 0,
+   "why": "Oligodendrocytes myelinate CNS axons; Schwann cells myelinate PNS axons.",
+   "notes": [
+    "CNS myelin.",
+    "Schwann cells make PNS myelin.",
+    "Microglia are immune cells.",
+    "Ependymal cells line the ventricles."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/19.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Which glial cells act as the immune cells of the CNS?",
+   "options": [
+    "Microglia",
+    "Astrocytes",
+    "Oligodendrocytes",
+    "Satellite cells"
+   ],
+   "answer": 0,
+   "why": "Microglia act as immune cells and remove debris by phagocytosis.",
+   "notes": [
+    "Immune cells of the CNS.",
+    "Astrocytes support and form part of the blood-brain barrier.",
+    "They make CNS myelin.",
+    "They support neurons in PNS ganglia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/19.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Which glial cells line the ventricles and help produce CSF?",
+   "options": [
+    "Ependymal cells",
+    "Astrocytes",
+    "Schwann cells",
+    "Microglia"
+   ],
+   "answer": 0,
+   "why": "Ependymal cells line the ventricles and produce and circulate CSF.",
+   "notes": [
+    "They line the ventricles.",
+    "Astrocytes form part of the blood-brain barrier.",
+    "Schwann cells are in the PNS.",
+    "Microglia are immune cells."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/19.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "What is white matter mainly made of?",
+   "options": [
+    "Myelinated axons",
+    "Neuron cell bodies",
+    "Dendrites and synapses",
+    "Ependymal cells"
+   ],
+   "answer": 0,
+   "why": "White matter is myelinated axons; grey matter is cell bodies, dendrites and synapses.",
+   "notes": [
+    "Myelin gives the white colour.",
+    "Cell bodies form grey matter.",
+    "These are grey matter.",
+    "They line the ventricles."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/21.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "Which is an example of grey matter?",
+   "options": [
+    "Cerebral cortex",
+    "Corpus callosum",
+    "Internal capsule",
+    "Outer layer of the spinal cord"
+   ],
+   "answer": 0,
+   "why": "Grey matter examples: cerebral cortex, basal ganglia, thalamus, the cord's butterfly-shaped centre.",
+   "notes": [
+    "The cortex is grey matter.",
+    "White matter.",
+    "White matter.",
+    "White matter."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/21.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "From which germ layer does the nervous system derive?",
+   "options": [
+    "Ectoderm",
+    "Mesoderm",
+    "Endoderm",
+    "Neural crest only"
+   ],
+   "answer": 0,
+   "why": "The whole nervous system derives from ectoderm, except its blood vessels and some neurological elements.",
+   "notes": [
+    "Ectoderm.",
+    "Mesoderm gives its blood vessels.",
+    "Endoderm gives the gut lining.",
+    "The neural crest itself comes from ectoderm."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/24.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "q": "What is the correct sequence of neural tube formation?",
+   "options": [
+    "Neural plate, neural groove, neural tube",
+    "Neural tube, neural groove, neural plate",
+    "Neural groove, neural plate, neural tube",
+    "Neural plate, neural tube, neural groove"
+   ],
+   "answer": 0,
+   "why": "Neurulation: ectoderm → neural plate → neural groove → closure of the neural tube.",
+   "notes": [
+    "Plate, groove, then tube.",
+    "Reversed.",
+    "The plate comes first.",
+    "The groove comes before the tube."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/23.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "Which are the three primary brain vesicles?",
+   "options": [
+    "Prosencephalon, mesencephalon, rhombencephalon",
+    "Telencephalon, diencephalon, mesencephalon",
+    "Metencephalon, myelencephalon, mesencephalon",
+    "Cerebrum, brainstem, cerebellum"
+   ],
+   "answer": 0,
+   "why": "The three primary vesicles (week 4) are the forebrain, midbrain and hindbrain.",
+   "notes": [
+    "Forebrain, midbrain, hindbrain.",
+    "These are secondary vesicles.",
+    "These are secondary vesicles.",
+    "These are adult parts."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/23.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "Which secondary vesicle becomes the pons and cerebellum?",
+   "options": [
+    "Metencephalon",
+    "Myelencephalon",
+    "Diencephalon",
+    "Telencephalon"
+   ],
+   "answer": 0,
+   "why": "The rhombencephalon divides into the metencephalon (pons, cerebellum) and myelencephalon (medulla).",
+   "notes": [
+    "Pons and cerebellum.",
+    "It becomes the medulla.",
+    "It becomes the thalamus and hypothalamus.",
+    "It becomes the cerebral hemispheres."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/23.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "What does the lumen of the neural tube become?",
+   "options": [
+    "The ventricular system",
+    "The subarachnoid space",
+    "The choroid plexus",
+    "The dural sinuses"
+   ],
+   "answer": 0,
+   "why": "The cavity of the neural tube becomes the ventricles and the central canal: the future ventricular system.",
+   "notes": [
+    "The ventricles come from the tube's lumen.",
+    "That space is outside the brain.",
+    "The choroid plexus lies inside the ventricles.",
+    "The sinuses are venous channels in the dura."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/26.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 26
+    }
+   ]
+  },
+  {
+   "q": "A newborn has an open defect over the lower back with exposed nervous tissue and leg weakness. What is the most likely diagnosis?",
+   "options": [
+    "Spina bifida",
+    "Anencephaly",
+    "Hydrocephalus only",
+    "Cerebral palsy"
+   ],
+   "answer": 0,
+   "why": "Spina bifida results from failure of closure of the caudal neural tube.",
+   "notes": [
+    "Caudal neural tube closure failure.",
+    "Anencephaly is cranial and not survivable.",
+    "Hydrocephalus is ventricular enlargement.",
+    "Not a neural tube defect."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/23.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "When does the anterior neuropore close?",
+   "options": [
+    "Around day 25",
+    "Around day 27",
+    "Around day 18",
+    "Around day 40"
+   ],
+   "answer": 0,
+   "why": "The anterior neuropore closes around day 25 and the posterior around day 27.",
+   "notes": [
+    "Anterior: day 25.",
+    "That is the posterior neuropore.",
+    "That is when neurulation begins.",
+    "Too late."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/23.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "When do the five secondary vesicles appear?",
+   "options": [
+    "Week 5",
+    "Week 3",
+    "Week 4",
+    "Week 8"
+   ],
+   "answer": 0,
+   "why": "Primary vesicles appear in week 4 and the five secondary vesicles in week 5.",
+   "notes": [
+    "Week 5.",
+    "Neurulation begins in week 3.",
+    "Primary vesicles appear in week 4.",
+    "Too late."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/23.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "Which flexure is the most prominent, located at the level of the midbrain?",
+   "options": [
+    "Cephalic flexure",
+    "Cervical flexure",
+    "Pontine flexure",
+    "Lumbar flexure"
+   ],
+   "answer": 0,
+   "why": "The cephalic flexure, at the midbrain, gives the brain its forward bend on the brainstem.",
+   "notes": [
+    "The cephalic flexure.",
+    "Between hindbrain and spinal cord.",
+    "Between metencephalon and myelencephalon.",
+    "Not an embryonic brain flexure."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/28.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "Which flexure is temporary and disappears later in development?",
+   "options": [
+    "Cervical flexure",
+    "Cephalic flexure",
+    "Pontine flexure",
+    "None; all persist"
+   ],
+   "answer": 0,
+   "why": "The cervical flexure, between hindbrain and spinal cord, is temporary.",
+   "notes": [
+    "Temporary.",
+    "It persists as the forward bend of the brain.",
+    "It shapes the hindbrain.",
+    "The cervical flexure disappears."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/28.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "What is a role of the pontine flexure?",
+   "options": [
+    "It thins the roof of the fourth ventricle",
+    "It closes the neural tube",
+    "It forms the lateral ventricles",
+    "It separates telencephalon from diencephalon"
+   ],
+   "answer": 0,
+   "why": "The pontine flexure thins the roof of the fourth ventricle, makes space for the cerebellum and separates metencephalon from myelencephalon.",
+   "notes": [
+    "It thins the fourth ventricle roof.",
+    "Closure happens earlier.",
+    "They come from the telencephalon.",
+    "Not this flexure's role."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/28.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "Which glial cells support neuron cell bodies in peripheral ganglia?",
+   "options": [
+    "Satellite cells",
+    "Astrocytes",
+    "Microglia",
+    "Ependymal cells"
+   ],
+   "answer": 0,
+   "why": "Satellite cells support neuronal cell bodies in ganglia and regulate their microenvironment.",
+   "notes": [
+    "PNS ganglia.",
+    "CNS.",
+    "CNS.",
+    "CNS."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/19.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Which glial cells form part of the blood-brain barrier?",
+   "options": [
+    "Astrocytes",
+    "Microglia",
+    "Schwann cells",
+    "Satellite cells"
+   ],
+   "answer": 0,
+   "why": "Astrocytes give structural support, regulate ion balance and form part of the blood-brain barrier.",
+   "notes": [
+    "Astrocytes.",
+    "Immune cells.",
+    "PNS myelin.",
+    "PNS ganglia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/19.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "What does the diencephalon give rise to?",
+   "options": [
+    "Thalamus, hypothalamus and epithalamus",
+    "Cerebral hemispheres",
+    "Pons and cerebellum",
+    "Medulla oblongata"
+   ],
+   "answer": 0,
+   "why": "The diencephalon becomes the thalamus, hypothalamus and epithalamus, around the third ventricle.",
+   "notes": [
+    "Diencephalic derivatives.",
+    "From the telencephalon.",
+    "From the metencephalon.",
+    "From the myelencephalon."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/21.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "Over which days does the neural tube close?",
+   "options": [
+    "Days 18 to 28",
+    "Days 5 to 10",
+    "Days 40 to 50",
+    "Days 60 to 90"
+   ],
+   "answer": 0,
+   "why": "Neurulation: closure of the neural tube between days 18 and 28.",
+   "notes": [
+    "Days 18 to 28.",
+    "Too early.",
+    "Too late.",
+    "Too late."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/23.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "Where does the pyramidal (corticospinal) tract cross to the other side?",
+   "options": [
+    "In the medullary pyramids",
+    "In the internal capsule",
+    "In the primary motor cortex",
+    "In the spinal cord's anterior horn"
+   ],
+   "answer": 0,
+   "why": "The corticospinal tract descends from the motor cortex through the internal capsule to the medullary pyramid, where it crosses: the left cortex controls the right body.",
+   "notes": [
+    "It crosses at the pyramids.",
+    "It passes through without crossing.",
+    "It starts there.",
+    "It ends near there."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-neuro-intro/22.jpg",
+     "lec": "Introduction and embryological development of the CNS",
+     "n": 22
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "x0",
+   "type": "text",
+   "front": "What are the two components of the CNS?",
+   "back": "The brain and the spinal cord."
+  },
+  {
+   "id": "x1",
+   "type": "text",
+   "front": "What protects the CNS?",
+   "back": "The skull and vertebral column, reinforced by the meninges and cushioned by CSF."
+  },
+  {
+   "id": "x2",
+   "type": "text",
+   "front": "How many pairs of cranial and spinal nerves are there?",
+   "back": "12 pairs of cranial nerves and 31 pairs of spinal nerves."
+  },
+  {
+   "id": "x3",
+   "type": "text",
+   "front": "What are the three steps of nervous system function?",
+   "back": "Sensory input, integration (brain and spinal cord), motor output."
+  },
+  {
+   "id": "x4",
+   "type": "text",
+   "front": "What is the difference between the somatic and autonomic systems?",
+   "back": "Somatic: voluntary actions. Autonomic: automatic responses to internal and external changes (sympathetic and parasympathetic)."
+  },
+  {
+   "id": "x5",
+   "type": "text",
+   "front": "Which cells make myelin in the CNS and in the PNS?",
+   "back": "Oligodendrocytes in the CNS; Schwann cells in the PNS."
+  },
+  {
+   "id": "x6",
+   "type": "text",
+   "front": "Which glial cells act as the brain's immune cells?",
+   "back": "Microglia (phagocytosis of debris)."
+  },
+  {
+   "id": "x7",
+   "type": "text",
+   "front": "Which glial cells line the ventricles and produce CSF?",
+   "back": "Ependymal cells."
+  },
+  {
+   "id": "x8",
+   "type": "text",
+   "front": "What is grey matter made of? Give two examples.",
+   "back": "Neuron cell bodies, dendrites and synapses. Cerebral cortex, basal ganglia, thalamus, the cord's butterfly-shaped centre."
+  },
+  {
+   "id": "x9",
+   "type": "text",
+   "front": "What is white matter made of? Give two examples.",
+   "back": "Myelinated axons. Corpus callosum, internal capsule, the cord's outer layer."
+  },
+  {
+   "id": "x10",
+   "type": "text",
+   "front": "From which germ layer does the nervous system derive?",
+   "back": "Ectoderm (except its blood vessels and some neurological elements)."
+  },
+  {
+   "id": "x11",
+   "type": "text",
+   "front": "What is the sequence of neurulation?",
+   "back": "Neural plate → neural groove → neural tube (closure days 18 to 28)."
+  },
+  {
+   "id": "x12",
+   "type": "text",
+   "front": "When do the neuropores close?",
+   "back": "Anterior ~day 25, posterior ~day 27."
+  },
+  {
+   "id": "x13",
+   "type": "text",
+   "front": "Name the 3 primary and 5 secondary brain vesicles.",
+   "back": "Primary: prosencephalon, mesencephalon, rhombencephalon. Secondary: telencephalon, diencephalon, mesencephalon, metencephalon, myelencephalon."
+  },
+  {
+   "id": "x14",
+   "type": "text",
+   "front": "What does the lumen of the neural tube become?",
+   "back": "The ventricular system (lateral, third and fourth ventricles, cerebral aqueduct) and the central canal."
+  },
+  {
+   "id": "x15",
+   "type": "text",
+   "front": "Which flexure is the most prominent, and where is it?",
+   "back": "The cephalic flexure, at the level of the midbrain."
+  },
+  {
+   "id": "x16",
+   "type": "text",
+   "front": "What does the pontine flexure do?",
+   "back": "Thins the roof of the fourth ventricle, makes space for the cerebellum and separates metencephalon from myelencephalon."
+  },
+  {
+   "id": "x17",
+   "type": "text",
+   "front": "Spina bifida vs anencephaly?",
+   "back": "Spina bifida: failure of caudal neural tube closure. Anencephaly: failure of cranial closure; not survivable."
+  },
+  {
+   "id": "img-pros",
+   "type": "image",
+   "target": "pros",
+   "front": "What is at the arrow, and what does it become?",
+   "back": "Prosencephalon (forebrain): divides into the telencephalon and diencephalon."
+  },
+  {
+   "id": "img-rhomb",
+   "type": "image",
+   "target": "rhomb",
+   "front": "What is at the arrow, and what does it become?",
+   "back": "Rhombencephalon (hindbrain): divides into the metencephalon and myelencephalon."
+  },
+  {
+   "id": "img-tel",
+   "type": "image",
+   "target": "tel",
+   "front": "What is at the arrow, and what does it become?",
+   "back": "Telencephalon: becomes the cerebral hemispheres; its cavities are the lateral ventricles."
+  },
+  {
+   "id": "img-di",
+   "type": "image",
+   "target": "di",
+   "front": "What is at the arrow, and what does it become?",
+   "back": "Diencephalon: becomes the thalamus, hypothalamus and epithalamus; its cavity is the third ventricle."
+  },
+  {
+   "id": "img-met",
+   "type": "image",
+   "target": "met",
+   "front": "What is at the arrow, and what does it become?",
+   "back": "Metencephalon: becomes the pons and cerebellum."
+  },
+  {
+   "id": "img-myel",
+   "type": "image",
+   "target": "myel",
+   "front": "What is at the arrow, and what does it become?",
+   "back": "Myelencephalon: becomes the medulla oblongata."
+  },
+  {
+   "id": "img-mid",
+   "type": "image",
+   "target": "mid",
+   "front": "What is at the arrow, and what does it become?",
+   "back": "Midbrain, from the mesencephalon; its cavity is the cerebral aqueduct."
+  }
+ ],
+ "deeper": [
+  {
+   "title": "Why folic acid matters before pregnancy",
+   "html": "<p>The neural tube closes by about day 28, often before a woman knows she is pregnant. Folic acid taken before conception and in early pregnancy markedly lowers the risk of neural tube defects, which is why it is recommended for anyone who may become pregnant, and why some countries fortify flour with it.</p><p class='src'>Sources: WHO, Periconceptional folic acid supplementation to prevent neural tube defects; CDC, Folic acid.</p>"
+  },
+  {
+   "title": "From vesicles to ventricles: one picture to remember",
+   "html": "<p>Think of the neural tube as a hose whose walls thicken into brain and whose inside stays open as the ventricles. Wherever a vesicle grows a lot, its cavity grows too: the huge telencephalon gives the large lateral ventricles, the thin diencephalon a slit-like third ventricle, the narrow midbrain only an aqueduct, and the rhombencephalon the fourth ventricle. This is why a block in the aqueduct swells the ventricles above it.</p><p class='src'>Source: the lecture's secondary vesicle slides.</p>"
+  }
+ ],
+ "resources": [
+  {
+   "title": "Development of the nervous system (TeachMeAnatomy)",
+   "url": "https://teachmeanatomy.info/the-basics/embryology/central-nervous-system/",
+   "kind": "Website",
+   "why": "Neurulation, vesicles and neural tube defects with diagrams.",
+   "note": ""
+  },
+  {
+   "title": "Neuroanatomy basics (Kenhub)",
+   "url": "https://www.kenhub.com/en/library/anatomy/the-nervous-system",
+   "kind": "Website",
+   "why": "CNS and PNS organisation, neurons and glia.",
+   "note": ""
+  },
+  {
+   "title": "Neural development (Duke Embryology)",
+   "url": "https://embryology.oit.duke.edu/neuro/neuro.html",
+   "kind": "Website",
+   "why": "Animated neurulation, vesicles and flexures.",
+   "note": ""
+  }
+ ],
+ "checks": [],
+ "sources": [
+  {
+   "name": "Development of the nervous system (TeachMeAnatomy)",
+   "url": "https://teachmeanatomy.info/the-basics/embryology/central-nervous-system/"
+  },
+  {
+   "name": "Neuroanatomy basics (Kenhub)",
+   "url": "https://www.kenhub.com/en/library/anatomy/the-nervous-system"
+  },
+  {
+   "name": "Neural development (Duke Embryology)",
+   "url": "https://embryology.oit.duke.edu/neuro/neuro.html"
+  }
+ ],
+ "verified": "11 Nov 2026",
+ "highYield": [
+  {
+   "t": "note",
+   "html": "<strong>CNS</strong> = brain + spinal cord. <strong>PNS</strong> = <strong>12</strong> cranial nerves, <strong>31</strong> spinal nerves, ganglia."
+  },
+  {
+   "t": "note",
+   "html": "Myelin: <strong>oligodendrocytes</strong> (CNS), <strong>Schwann cells</strong> (PNS). Microglia: immune. Ependymal cells: CSF. Astrocytes: blood-brain barrier."
+  },
+  {
+   "t": "note",
+   "html": "Grey matter outside in the brain (cortex), inside in the cord (butterfly). White matter = myelinated axons."
+  },
+  {
+   "t": "note",
+   "html": "Ectoderm → neural plate → groove → <strong>tube</strong> (days 18-28). Anterior neuropore closes ~<strong>day 25</strong>, posterior ~<strong>day 27</strong>."
+  },
+  {
+   "t": "mnemo",
+   "html": "3 → 5: <strong>Pros</strong> → Tel + Di; <strong>Mes</strong> stays Mes; <strong>Rhomb</strong> → Met (pons, cerebellum) + Myel (medulla)."
+  },
+  {
+   "t": "note",
+   "html": "Neural tube lumen → <strong>ventricular system</strong>: lateral (tel), third (di), aqueduct (mes), fourth (rhomb)."
+  },
+  {
+   "t": "note",
+   "html": "Flexures: <strong>cephalic</strong> (midbrain, most prominent), <strong>cervical</strong> (temporary), <strong>pontine</strong> (thin 4th ventricle roof, room for the cerebellum)."
+  },
+  {
+   "t": "clinic",
+   "html": "<strong>Spina bifida</strong>: caudal closure failure. <strong>Anencephaly</strong>: cranial closure failure, not survivable."
   }
  ]
 };
