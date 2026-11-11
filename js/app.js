@@ -3558,7 +3558,7 @@
       if (!sbs.length) return;
       /* a lecture cell can carry the part that is on the exam: "Pituitary semiology: acromegaly, prolactinoma" */
       var want = [], wnote = {}, notes = {}, groups = [];
-      r.slice(4).forEach(function (c) { c = String(c || "").trim(); if (!c) return; var k = c.indexOf(":"), t = norm(k > 0 ? c.slice(0, k) : c); want.push(t); if (k > 0 && c.slice(k + 1).trim()) wnote[t] = c.slice(k + 1).trim(); });
+      r.slice(4).forEach(function (c) { c = String(c || "").trim(); if (!c) return; var k = c.indexOf(":"), t = norm(k > 0 ? c.slice(0, k) : c); want.push(t, norm(c)); /* full title too, for titles that contain a colon */ if (k > 0 && c.slice(k + 1).trim()) wnote[t] = c.slice(k + 1).trim(); });
       sbs.forEach(function (sb) { sb.groups.forEach(function (g) {
         var whole = !want.length || want.indexOf(norm(g.name)) > -1;
         var items = g.items.filter(function (it) { return whole || want.indexOf(norm(it.title)) > -1; }).map(function (it) { if (wnote[norm(it.title)]) notes[it.id] = wnote[norm(it.title)]; return it.id; });

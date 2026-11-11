@@ -770,5 +770,39 @@ SINA.midterms = [
   "tbc": false,
   "part": true,
   "auto": false
+ },
+ {
+  "id": "pubhealth1-midterm",
+  "program": "y1-anglo",
+  "subject": "pubhealth1",
+  "subjects": [
+   "pubhealth1"
+  ],
+  "title": "Public Health midterm",
+  "date": "2026-11-17",
+  "groups": [
+   {
+    "name": "Public health",
+    "items": [
+     "pubhealth1-intro",
+     "pubhealth1-determinants",
+     "pubhealth1-approaches"
+    ],
+    "tbc": false
+   },
+   {
+    "name": "Epidemiology and biostatistics",
+    "items": [
+     "pubhealth1-indicators",
+     "pubhealth1-epidemiology",
+     "pubhealth1-biostat"
+    ],
+    "tbc": false
+   }
+  ],
+  "notes": {},
+  "tbc": false,
+  "part": false,
+  "auto": false
  }
 ];
