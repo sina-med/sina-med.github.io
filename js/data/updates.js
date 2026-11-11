@@ -2,6 +2,10 @@
    Style: short changelog lines, developer voice (Added / Fixed / Changed), no "you". */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
+  { date: "11 November 2026", items: [
+    "Added: 46 Public Health questions (1st year), with slide highlights.",
+    "Added: right/wrong notes for every option in all Public Health lectures."
+  ] },
   { date: "10 November 2026", items: [
     "Added: Anatomy of the cerebellum (Anatomy 3, Neuroanatomy), with summary, flashcards, visual, high-yield notes and 35 questions.",
     "Added: ENT/Neuroanat midterm (17 November) on the Upcoming midterm page.",

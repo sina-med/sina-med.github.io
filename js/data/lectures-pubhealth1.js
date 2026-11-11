@@ -205,6 +205,12 @@ SINA.lectures["pubhealth1-intro"] = {
      "lec": "Introduction to public health",
      "n": 10
     }
+   ],
+   "notes": [
+    "1978 is the Alma-Ata declaration on primary health care.",
+    "1848 is the UK Public Health Act.",
+    "Too late.",
+    "The WHO Constitution of 1948 defines health."
    ]
   },
   {
@@ -228,6 +234,12 @@ SINA.lectures["pubhealth1-intro"] = {
      "lec": "Introduction to public health",
      "n": 13
     }
+   ],
+   "notes": [
+    "Access to care is not the definition.",
+    "WHO says health is not merely the absence of disease.",
+    "A state of complete physical, mental and social well-being.",
+    "Fitness is only part of physical health."
    ]
   },
   {
@@ -246,6 +258,12 @@ SINA.lectures["pubhealth1-intro"] = {
      "lec": "Introduction to public health",
      "n": 12
     }
+   ],
+   "notes": [
+    "C.E.A. Winslow gave this definition.",
+    "Hippocrates linked health to the environment.",
+    "Pasteur founded microbiology.",
+    "Chadwick reported on workers' living conditions."
    ]
   },
   {
@@ -264,6 +282,12 @@ SINA.lectures["pubhealth1-intro"] = {
      "lec": "Introduction to public health",
      "n": 16
     }
+   ],
+   "notes": [
+    "Hospitals are the clinical setting.",
+    "That is the clinical approach.",
+    "Public health targets everyone, even people who do not consult.",
+    "Children are only one group."
    ]
   },
   {
@@ -282,6 +306,12 @@ SINA.lectures["pubhealth1-intro"] = {
      "lec": "Introduction to public health",
      "n": 16
     }
+   ],
+   "notes": [
+    "The clinical approach acts when the patient consults services.",
+    "Public health needs population participation.",
+    "Public health takes costs into account.",
+    "Public health acts throughout life."
    ]
   },
   {
@@ -300,6 +330,12 @@ SINA.lectures["pubhealth1-intro"] = {
      "lec": "Introduction to public health",
      "n": 21
     }
+   ],
+   "notes": [
+    "Rehabilitation comes after disease.",
+    "Screening looks for risk early: prevention.",
+    "Treatment cares for diagnosed disease.",
+    "Palliation is end-of-life care."
    ]
   },
   {
@@ -318,6 +354,12 @@ SINA.lectures["pubhealth1-intro"] = {
      "lec": "Introduction to public health",
      "n": 22
     }
+   ],
+   "notes": [
+    "Quarantine isolates exposed people.",
+    "Screening looks for early disease.",
+    "Supportive environments for healthy choices are promotion.",
+    "Curative care treats disease."
    ]
   },
   {
@@ -336,6 +378,12 @@ SINA.lectures["pubhealth1-intro"] = {
      "lec": "Introduction to public health",
      "n": 25
     }
+   ],
+   "notes": [
+    "Pasteur and Koch built germ theory.",
+    "Not attributed to Hippocrates.",
+    "The Chadwick report was in 1842.",
+    "Hippocrates wrote Airs, Waters and Places."
    ]
   },
   {
@@ -354,6 +402,12 @@ SINA.lectures["pubhealth1-intro"] = {
      "lec": "Introduction to public health",
      "n": 26
     }
+   ],
+   "notes": [
+    "Too late.",
+    "The UK Public Health Act was passed in 1848.",
+    "Too early.",
+    "1948 is the WHO Constitution."
    ]
   },
   {
@@ -372,6 +426,12 @@ SINA.lectures["pubhealth1-intro"] = {
      "lec": "Introduction to public health",
      "n": 28
     }
+   ],
+   "notes": [
+    "Snow traced cholera to contaminated water.",
+    "Insulin was discovered by Banting and Best.",
+    "The 1842 report is Chadwick's.",
+    "The rabies vaccine is Pasteur's (1885)."
    ]
   },
   {
@@ -390,6 +450,12 @@ SINA.lectures["pubhealth1-intro"] = {
      "lec": "Introduction to public health",
      "n": 29
     }
+   ],
+   "notes": [
+    "Pasteur and Koch's germ theory founded it.",
+    "Insulin is unrelated.",
+    "Sanitation laws belong to the earlier environmental era.",
+    "Genetics came later."
    ]
   },
   {
@@ -408,6 +474,12 @@ SINA.lectures["pubhealth1-intro"] = {
      "lec": "Introduction to public health",
      "n": 34
     }
+   ],
+   "notes": [
+    "Too high.",
+    "Too low.",
+    "Far too low.",
+    "NCDs cause about 70% of global deaths."
    ]
   },
   {
@@ -431,6 +503,12 @@ SINA.lectures["pubhealth1-intro"] = {
      "lec": "Introduction to public health",
      "n": 32
     }
+   ],
+   "notes": [
+    "Rare problems are not public health priorities.",
+    "It affects the poor and vulnerable more.",
+    "Media attention makes something a public problem.",
+    "It falls unequally on vulnerable groups."
    ]
   },
   {
@@ -449,6 +527,12 @@ SINA.lectures["pubhealth1-intro"] = {
      "lec": "Introduction to public health",
      "n": 9
     }
+   ],
+   "notes": [
+    "Social services address his living conditions: social health.",
+    "Surgery treats the hand.",
+    "The wound care is physical health.",
+    "Vaccination is not social care."
    ]
   },
   {
@@ -467,6 +551,12 @@ SINA.lectures["pubhealth1-intro"] = {
      "lec": "Introduction to public health",
      "n": 28
     }
+   ],
+   "notes": [
+    "Not surgical.",
+    "Virchow linked the typhus epidemic to social and economic causes.",
+    "That is Pasteur and Koch.",
+    "Not vaccines."
    ]
   },
   {
@@ -479,7 +569,13 @@ SINA.lectures["pubhealth1-intro"] = {
     "Clinical medicine"
    ],
    "answer": 3,
-   "why": "The arrow points to: Clinical medicine. Targets sick people when they consult; care at the moment of contact; the doctor holds the power; costs rarely considered."
+   "why": "The arrow points to: Clinical medicine. Targets sick people when they consult; care at the moment of contact; the doctor holds the power; costs rarely considered.",
+   "notes": [
+    "Not at the arrow; this is WHO 1948: complete physical, mental and social well-being.",
+    "Not at the arrow; this is acting before disease develops, by reducing risk factors.",
+    "Not at the arrow; this is the population approach: the whole population, throughout life.",
+    "This is at the arrow: the clinical approach: caring for the sick person who consults."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -491,7 +587,13 @@ SINA.lectures["pubhealth1-intro"] = {
     "Health promotion"
    ],
    "answer": 2,
-   "why": "The arrow points to: Public health. Targets the whole population, even non-consulters, throughout life; considers costs; needs population participation."
+   "why": "The arrow points to: Public health. Targets the whole population, even non-consulters, throughout life; considers costs; needs population participation.",
+   "notes": [
+    "Not at the arrow; this is the clinical approach: caring for the sick person who consults.",
+    "Not at the arrow; this is acting before disease develops, by reducing risk factors.",
+    "This is at the arrow: the population approach: the whole population, throughout life.",
+    "Not at the arrow; this is building healthy environments and empowering people."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -503,7 +605,13 @@ SINA.lectures["pubhealth1-intro"] = {
     "Public health"
    ],
    "answer": 1,
-   "why": "The arrow points to: Definition of health. WHO Constitution (1948): complete physical, mental and social well-being, not merely the absence of disease or infirmity."
+   "why": "The arrow points to: Definition of health. WHO Constitution (1948): complete physical, mental and social well-being, not merely the absence of disease or infirmity.",
+   "notes": [
+    "Not at the arrow; this is acting before disease develops, by reducing risk factors.",
+    "This is at the arrow: WHO 1948: complete physical, mental and social well-being.",
+    "Not at the arrow; this is building healthy environments and empowering people.",
+    "Not at the arrow; this is the population approach: the whole population, throughout life."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -515,7 +623,13 @@ SINA.lectures["pubhealth1-intro"] = {
     "Health promotion"
    ],
    "answer": 1,
-   "why": "The arrow points to: Prevention. Acts before disease develops by reducing risk factors and detecting early signs (e.g. blood pressure screening)."
+   "why": "The arrow points to: Prevention. Acts before disease develops by reducing risk factors and detecting early signs (e.g. blood pressure screening).",
+   "notes": [
+    "Not at the arrow; this is the population approach: the whole population, throughout life.",
+    "This is at the arrow: acting before disease develops, by reducing risk factors.",
+    "Not at the arrow; this is WHO 1948: complete physical, mental and social well-being.",
+    "Not at the arrow; this is building healthy environments and empowering people."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -527,7 +641,13 @@ SINA.lectures["pubhealth1-intro"] = {
     "Organised efforts"
    ],
    "answer": 0,
-   "why": "The arrow points to: Health promotion. Empowers people to adopt healthier behaviours and builds supportive environments (parks, school meals, campaigns)."
+   "why": "The arrow points to: Health promotion. Empowers people to adopt healthier behaviours and builds supportive environments (parks, school meals, campaigns).",
+   "notes": [
+    "This is at the arrow: building healthy environments and empowering people.",
+    "Not at the arrow; this is WHO 1948: complete physical, mental and social well-being.",
+    "Not at the arrow; this is acting before disease develops, by reducing risk factors.",
+    "Not at the arrow; this is policy, sectors and community working together."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -539,7 +659,218 @@ SINA.lectures["pubhealth1-intro"] = {
     "Clinical medicine"
    ],
    "answer": 2,
-   "why": "The arrow points to: Organised efforts. Collaboration across institutions, communities and policies (e.g. COVID-19: ICU capacity, masks, vaccination)."
+   "why": "The arrow points to: Organised efforts. Collaboration across institutions, communities and policies (e.g. COVID-19: ICU capacity, masks, vaccination).",
+   "notes": [
+    "Not at the arrow; this is WHO 1948: complete physical, mental and social well-being.",
+    "Not at the arrow; this is acting before disease develops, by reducing risk factors.",
+    "This is at the arrow: policy, sectors and community working together.",
+    "Not at the arrow; this is the clinical approach: caring for the sick person who consults."
+   ]
+  },
+  {
+   "q": "A boy arrives in the emergency room with a hand injury; he is anxious and has no safe home. Which approach covers all his needs?",
+   "options": [
+    "A holistic approach: physical, mental and social care with a multidisciplinary team",
+    "Stitching the wound only",
+    "Referring him to a psychologist only",
+    "Sending him home with antibiotics"
+   ],
+   "answer": 0,
+   "why": "The physician treats the wound, supports his mental health, assesses his social situation and coordinates with a team, matching the WHO definition of health.",
+   "notes": [
+    "It covers physical, mental and social health.",
+    "This treats only physical health.",
+    "This treats only mental health.",
+    "This ignores his mental and social needs."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/09.jpg",
+     "lec": "Introduction to public health",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "Which statement matches the WHO definition of health?",
+   "options": [
+    "Health is more than the absence of disease or infirmity",
+    "A person without disease is always healthy",
+    "Health only concerns the body",
+    "Health is defined by access to hospitals"
+   ],
+   "answer": 0,
+   "why": "Health is a state of complete physical, social and mental well-being, and not merely the absence of disease or infirmity.",
+   "notes": [
+    "The definition goes beyond the absence of disease.",
+    "Absence of disease is not enough.",
+    "It includes mental and social well-being.",
+    "Access to care is not part of the definition."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/10.jpg",
+     "lec": "Introduction to public health",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "Which characteristics belong to the public health approach rather than the clinical approach?",
+   "options": [
+    "It takes costs into account",
+    "It reaches people even if they do not consult",
+    "It acts throughout life, in daily life",
+    "The doctor alone holds the power of decision"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Public health targets the whole population, even people who do not consult, throughout life; it considers costs and needs population participation.",
+   "notes": [
+    "Public health manages resources and costs.",
+    "It acts even if people don't consult.",
+    "It acts throughout life.",
+    "In the clinical approach the doctor holds the power; public health needs participation."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/16.jpg",
+     "lec": "Introduction to public health",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "What is the difference between prevention and health promotion in the lecture's cardiovascular examples?",
+   "options": [
+    "Prevention targets risk factors and early signs; promotion builds supportive environments and empowers people",
+    "They are the same thing",
+    "Promotion only treats disease",
+    "Prevention only builds parks"
+   ],
+   "answer": 0,
+   "why": "Blood pressure screening prevents disease by reducing risk and detecting early signs; parks and healthy school meals promote health for the whole population.",
+   "notes": [
+    "This is the difference.",
+    "They differ in aim and method.",
+    "Promotion does not treat disease.",
+    "Parks are promotion, not prevention."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/21.jpg",
+     "lec": "Introduction to public health",
+     "n": 21
+    },
+    {
+     "src": "files/slides/pubhealth1-intro/22.jpg",
+     "lec": "Introduction to public health",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Which report described the living conditions of workers and their effect on health in 1842?",
+   "options": [
+    "The Chadwick Report",
+    "The Virchow Report",
+    "The Ottawa Charter",
+    "John Snow's report"
+   ],
+   "answer": 0,
+   "why": "The environmental approach (1840-1870) includes the Chadwick Report (1842) on workers' living conditions.",
+   "notes": [
+    "Chadwick reported on workers' living conditions.",
+    "Virchow studied the social causes of a typhus epidemic.",
+    "The Ottawa Charter is from 1986.",
+    "Snow studied cholera transmission."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/28.jpg",
+     "lec": "Introduction to public health",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "Which event marks the bacteriological era of public health?",
+   "options": [
+    "Pasteur's rabies vaccine in 1885",
+    "The WHO Constitution in 1948",
+    "The Public Health Act of 1848",
+    "The Ottawa Charter in 1986"
+   ],
+   "answer": 0,
+   "why": "Bacteriology founded a new scientific public health (1880-1930), with Pasteur's rabies vaccine in 1885 and Koch's work on tuberculosis and cholera.",
+   "notes": [
+    "The rabies vaccine belongs to the bacteriological era.",
+    "That is the modern WHO era.",
+    "That is the sanitation era.",
+    "That is health promotion."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/29.jpg",
+     "lec": "Introduction to public health",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "q": "Why was HIV/AIDS in the 1980s-1990s a public health problem according to the lecture's criteria?",
+   "options": [
+    "It was perceived by society as alarming and needing a collective response",
+    "It was rare",
+    "It affected only rich people",
+    "It had no media attention"
+   ],
+   "answer": 0,
+   "why": "Social perception and media attention are criteria: a problem seen as alarming that requires a collective response.",
+   "notes": [
+    "Social perception is a criterion.",
+    "Rarity is not a criterion.",
+    "It hit vulnerable groups hardest.",
+    "It had strong media attention."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/31.jpg",
+     "lec": "Introduction to public health",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "q": "Which factors drive non-communicable diseases according to the lecture?",
+   "options": [
+    "Unhealthy diets",
+    "Physical inactivity",
+    "Tobacco and alcohol use",
+    "Contaminated water only"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "NCDs account for 70% of global deaths and are driven by unhealthy diets, physical inactivity, tobacco use and alcohol.",
+   "notes": [
+    "A main driver.",
+    "A main driver.",
+    "Main drivers.",
+    "Contaminated water drives infectious diseases."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-intro/34.jpg",
+     "lec": "Introduction to public health",
+     "n": 34
+    }
+   ]
   }
  ],
  "cards": [
@@ -878,6 +1209,12 @@ SINA.lectures["pubhealth1-determinants"] = {
      "lec": "Determinants of health",
      "n": 4
     }
+   ],
+   "notes": [
+    "Behaviours are only one question.",
+    "Not the three questions.",
+    "Who they are, what they do, and in which conditions.",
+    "Genes are only part of who they are."
    ]
   },
   {
@@ -896,6 +1233,12 @@ SINA.lectures["pubhealth1-determinants"] = {
      "lec": "Determinants of health",
      "n": 7
     }
+   ],
+   "notes": [
+    "Stress can be reduced.",
+    "Family history cannot be changed.",
+    "Weight can be changed.",
+    "Smoking can be stopped."
    ]
   },
   {
@@ -914,6 +1257,12 @@ SINA.lectures["pubhealth1-determinants"] = {
      "lec": "Determinants of health",
      "n": 7
     }
+   ],
+   "notes": [
+    "Father before 55 (mother before 65).",
+    "65 is the threshold for the mother.",
+    "Not the threshold.",
+    "Not the threshold."
    ]
   },
   {
@@ -932,6 +1281,12 @@ SINA.lectures["pubhealth1-determinants"] = {
      "lec": "Determinants of health",
      "n": 8
     }
+   ],
+   "notes": [
+    "Far more than recommended.",
+    "At least 150 minutes a week of moderate-to-vigorous activity.",
+    "Activity is protective.",
+    "Too little."
    ]
   },
   {
@@ -950,6 +1305,12 @@ SINA.lectures["pubhealth1-determinants"] = {
      "lec": "Determinants of health",
      "n": 9
     }
+   ],
+   "notes": [
+    "Too high.",
+    "Too low.",
+    "This is the threshold for most people.",
+    "Above 130/80 in people with diabetes."
    ]
   },
   {
@@ -968,6 +1329,12 @@ SINA.lectures["pubhealth1-determinants"] = {
      "lec": "Determinants of health",
      "n": 12
     }
+   ],
+   "notes": [
+    "Isolation is a risk factor.",
+    "Smoking is a risk factor.",
+    "Coping skills shield against poor health.",
+    "Conflict is a risk factor."
    ]
   },
   {
@@ -986,6 +1353,12 @@ SINA.lectures["pubhealth1-determinants"] = {
      "lec": "Determinants of health",
      "n": 12
     }
+   ],
+   "notes": [
+    "They raise the risk of mood disorders and harmful behaviours.",
+    "Not services.",
+    "Not biological.",
+    "They are the opposite of protective."
    ]
   },
   {
@@ -1004,6 +1377,12 @@ SINA.lectures["pubhealth1-determinants"] = {
      "lec": "Determinants of health",
      "n": 22
     }
+   ],
+   "notes": [
+    "They include biology.",
+    "They include behaviour.",
+    "Focusing on lifestyle makes individuals responsible for their health.",
+    "Not the criticism."
    ]
   },
   {
@@ -1022,6 +1401,12 @@ SINA.lectures["pubhealth1-determinants"] = {
      "lec": "Determinants of health",
      "n": 37
     }
+   ],
+   "notes": [
+    "Winslow defined public health.",
+    "Dever built a determinants model.",
+    "Chadwick reported on workers.",
+    "Michael Marmot wrote The Health Gap."
    ]
   },
   {
@@ -1040,6 +1425,12 @@ SINA.lectures["pubhealth1-determinants"] = {
      "lec": "Determinants of health",
      "n": 32
     }
+   ],
+   "notes": [
+    "Biological, not social.",
+    "Education is a social determinant.",
+    "Biological.",
+    "Biological."
    ]
   },
   {
@@ -1058,6 +1449,12 @@ SINA.lectures["pubhealth1-determinants"] = {
      "lec": "Determinants of health",
      "n": 33
     }
+   ],
+   "notes": [
+    "These describe the neighbourhood and built environment.",
+    "Not health services.",
+    "Not genetics.",
+    "Not biology."
    ]
   },
   {
@@ -1076,6 +1473,12 @@ SINA.lectures["pubhealth1-determinants"] = {
      "lec": "Determinants of health",
      "n": 19
     }
+   ],
+   "notes": [
+    "Genes cannot be changed.",
+    "These cannot be acted on.",
+    "Not a category.",
+    "Modifiable determinants are what interventions can change."
    ]
   },
   {
@@ -1088,7 +1491,13 @@ SINA.lectures["pubhealth1-determinants"] = {
     "Social and community support"
    ],
    "answer": 1,
-   "why": "The arrow points to: Non-modifiable. Who they are: age, sex, family history, ethnic origin."
+   "why": "The arrow points to: Non-modifiable. Who they are: age, sex, family history, ethnic origin.",
+   "notes": [
+    "Not at the arrow; this is what they do: smoking, diet, physical activity, alcohol.",
+    "This is at the arrow: who they are: age, sex, genes, ethnicity.",
+    "Not at the arrow; this is education, housing, work, food.",
+    "Not at the arrow; this is the support people get from family and community."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1100,7 +1509,13 @@ SINA.lectures["pubhealth1-determinants"] = {
     "Behaviours"
    ],
    "answer": 3,
-   "why": "The arrow points to: Behaviours. What they do: smoking, physical inactivity, diet, alcohol, stress: modifiable."
+   "why": "The arrow points to: Behaviours. What they do: smoking, physical inactivity, diet, alcohol, stress: modifiable.",
+   "notes": [
+    "Not at the arrow; this is who they are: age, sex, genes, ethnicity.",
+    "Not at the arrow; this is education, housing, work, food.",
+    "Not at the arrow; this is the wider environment, economy, culture and policy.",
+    "This is at the arrow: what they do: smoking, diet, physical activity, alcohol."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1112,7 +1527,13 @@ SINA.lectures["pubhealth1-determinants"] = {
     "Living and working conditions"
    ],
    "answer": 0,
-   "why": "The arrow points to: Social and community support. Relationships with family, friends, co-workers and community strongly affect health."
+   "why": "The arrow points to: Social and community support. Relationships with family, friends, co-workers and community strongly affect health.",
+   "notes": [
+    "This is at the arrow: the support people get from family and community.",
+    "Not at the arrow; this is what they do: smoking, diet, physical activity, alcohol.",
+    "Not at the arrow; this is the wider environment, economy, culture and policy.",
+    "Not at the arrow; this is education, housing, work, food."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1124,7 +1545,13 @@ SINA.lectures["pubhealth1-determinants"] = {
     "Behaviours"
    ],
    "answer": 1,
-   "why": "The arrow points to: Living and working conditions. Education, childhood experiences, housing, transport, healthy food, safety."
+   "why": "The arrow points to: Living and working conditions. Education, childhood experiences, housing, transport, healthy food, safety.",
+   "notes": [
+    "Not at the arrow; this is the support people get from family and community.",
+    "This is at the arrow: education, housing, work, food.",
+    "Not at the arrow; this is the wider environment, economy, culture and policy.",
+    "Not at the arrow; this is what they do: smoking, diet, physical activity, alcohol."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1136,7 +1563,13 @@ SINA.lectures["pubhealth1-determinants"] = {
     "Living and working conditions"
    ],
    "answer": 0,
-   "why": "The arrow points to: Structural determinants. Environment (air, water, climate), economic, cultural and political context."
+   "why": "The arrow points to: Structural determinants. Environment (air, water, climate), economic, cultural and political context.",
+   "notes": [
+    "This is at the arrow: the wider environment, economy, culture and policy.",
+    "Not at the arrow; this is the health of individuals and communities, at the centre.",
+    "Not at the arrow; this is the support people get from family and community.",
+    "Not at the arrow; this is education, housing, work, food."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1148,7 +1581,194 @@ SINA.lectures["pubhealth1-determinants"] = {
     "Non-modifiable"
    ],
    "answer": 2,
-   "why": "The arrow points to: Health outcome. Determinants interact across individual, social and environmental levels."
+   "why": "The arrow points to: Health outcome. Determinants interact across individual, social and environmental levels.",
+   "notes": [
+    "Not at the arrow; this is education, housing, work, food.",
+    "Not at the arrow; this is the support people get from family and community.",
+    "This is at the arrow: the health of individuals and communities, at the centre.",
+    "Not at the arrow; this is who they are: age, sex, genes, ethnicity."
+   ]
+  },
+  {
+   "q": "A 50-year-old smoker with obesity and high blood pressure asks which of his risk factors he can change. Which are modifiable?",
+   "options": [
+    "Smoking",
+    "Obesity",
+    "High blood pressure",
+    "His age"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Smoking, overweight, high blood pressure, poor diet and inactivity are modifiable; age, sex, family history and ethnicity are not.",
+   "notes": [
+    "Smoking can be stopped.",
+    "Weight can be reduced.",
+    "Blood pressure can be treated.",
+    "Age cannot be changed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/08.jpg",
+     "lec": "Determinants of health",
+     "n": 8
+    },
+    {
+     "src": "files/slides/pubhealth1-determinants/09.jpg",
+     "lec": "Determinants of health",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "Which are non-modifiable risk factors for heart disease?",
+   "options": [
+    "Age",
+    "Sex",
+    "Ethnic origin",
+    "Physical inactivity"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Age, gender, family history and ethnic origin are non-modifiable.",
+   "notes": [
+    "Risk rises with age.",
+    "Men are at greater risk, and younger.",
+    "African or South Asian origin can predispose.",
+    "Inactivity can be changed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/07.jpg",
+     "lec": "Determinants of health",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "A woman's mother had a heart attack at 60. Is this a risk factor for her?",
+   "options": [
+    "Yes: a mother's heart attack before 65 increases her risk",
+    "No: only the father's history counts",
+    "No: the threshold for mothers is 55",
+    "Only if she smokes"
+   ],
+   "answer": 0,
+   "why": "Risk increases if the father had a heart attack before 55 or the mother before 65.",
+   "notes": [
+    "Mother before 65 counts.",
+    "Both parents count.",
+    "55 is the threshold for the father.",
+    "Family history counts by itself."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/07.jpg",
+     "lec": "Determinants of health",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "q": "What are protective factors?",
+   "options": [
+    "Attributes such as skills, strengths or resources that shield people from poor health",
+    "Factors that cause disease",
+    "Genes that cannot change",
+    "Health services only"
+   ],
+   "answer": 0,
+   "why": "Protective factors shield individuals from developing or worsening undesirable conditions and improve their ability to cope.",
+   "notes": [
+    "Skills, strengths and resources that protect.",
+    "Those are risk factors.",
+    "Not the definition.",
+    "Not only services."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/12.jpg",
+     "lec": "Determinants of health",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "What is the main criticism of lifestyle-focused models of health determinants?",
+   "options": [
+    "They make individuals responsible for behaviours shaped by their social conditions",
+    "They ignore smoking",
+    "They focus too much on genes",
+    "They have no link with health"
+   ],
+   "answer": 0,
+   "why": "Focusing on behaviours (tobacco, diet, obesity) made individuals responsible for their health, which raises a question of fairness.",
+   "notes": [
+    "Responsibilising individuals is the criticism.",
+    "They focus on smoking.",
+    "They focus on behaviour, not genes.",
+    "They are linked with health."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/22.jpg",
+     "lec": "Determinants of health",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Why are children from low-income families more likely to have health problems?",
+   "options": [
+    "Poverty, discrimination and stress shape their health and brain development",
+    "Their genes are always different",
+    "They receive too much health care",
+    "Income has no effect on health"
+   ],
+   "answer": 0,
+   "why": "Low income, disability and discrimination raise the risk of heart disease, diabetes and depression; the stress of poverty can affect brain development.",
+   "notes": [
+    "Social conditions drive health.",
+    "It is not about genes.",
+    "Not the reason.",
+    "Income is a key determinant."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/32.jpg",
+     "lec": "Determinants of health",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "Which determinants should public health interventions mainly target to prevent disease and promote health?",
+   "options": [
+    "Modifiable determinants",
+    "Non-modifiable determinants",
+    "Only genetic factors",
+    "Only age and sex"
+   ],
+   "answer": 0,
+   "why": "Determinants of health, in particular modifiable ones, guide public health interventions.",
+   "notes": [
+    "They can be changed.",
+    "They cannot be changed.",
+    "Genes cannot be changed.",
+    "These cannot be changed."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-determinants/19.jpg",
+     "lec": "Determinants of health",
+     "n": 19
+    }
+   ]
   }
  ],
  "cards": [
@@ -1559,6 +2179,12 @@ SINA.lectures["pubhealth1-approaches"] = {
      "lec": "Public health approaches: prevention",
      "n": 11
     }
+   ],
+   "notes": [
+    "It prevents new cases, so it lowers incidence.",
+    "Palliation comforts, it does not prevent.",
+    "Secondary prevention detects disease early.",
+    "Tertiary prevention limits disability."
    ]
   },
   {
@@ -1582,6 +2208,12 @@ SINA.lectures["pubhealth1-approaches"] = {
      "lec": "Public health approaches: prevention",
      "n": 10
     }
+   ],
+   "notes": [
+    "Vaccines prevent disease before exposure.",
+    "Not this pillar.",
+    "Secondary prevention is screening.",
+    "Tertiary prevention is after disease."
    ]
   },
   {
@@ -1600,6 +2232,12 @@ SINA.lectures["pubhealth1-approaches"] = {
      "lec": "Public health approaches: prevention",
      "n": 10
     }
+   ],
+   "notes": [
+    "Primary prevention acts before disease.",
+    "Screening detects disease early.",
+    "Tertiary prevention is after diagnosis.",
+    "Promotion builds healthy environments."
    ]
   },
   {
@@ -1618,6 +2256,12 @@ SINA.lectures["pubhealth1-approaches"] = {
      "lec": "Public health approaches: prevention",
      "n": 14
     }
+   ],
+   "notes": [
+    "They reduce disability after disease.",
+    "Secondary is early detection.",
+    "Screening is secondary.",
+    "Primary is before disease."
    ]
   },
   {
@@ -1636,6 +2280,12 @@ SINA.lectures["pubhealth1-approaches"] = {
      "lec": "Public health approaches: prevention",
      "n": 11
     }
+   ],
+   "notes": [
+    "Tertiary acts late and costs more.",
+    "Not equal.",
+    "Secondary still needs treatment.",
+    "Avoiding disease is the most cost-effective."
    ]
   },
   {
@@ -1654,6 +2304,12 @@ SINA.lectures["pubhealth1-approaches"] = {
      "lec": "Public health approaches: prevention",
      "n": 13
     }
+   ],
+   "notes": [
+    "Screening needs a possible early diagnosis.",
+    "Treatment must exist and have a real benefit.",
+    "The disease must be frequent enough.",
+    "The disease must carry a real cost to the community."
    ]
   },
   {
@@ -1672,6 +2328,12 @@ SINA.lectures["pubhealth1-approaches"] = {
      "lec": "Public health approaches: prevention",
      "n": 16
     }
+   ],
+   "notes": [
+    "1948 is the WHO Constitution.",
+    "The Ottawa Charter, 1986.",
+    "1978 is primary health care.",
+    "1992 is the Earth Summit."
    ]
   },
   {
@@ -1690,6 +2352,12 @@ SINA.lectures["pubhealth1-approaches"] = {
      "lec": "Public health approaches: prevention",
      "n": 16
     }
+   ],
+   "notes": [
+    "That is primary prevention.",
+    "That is secondary prevention.",
+    "That is care.",
+    "Enabling people to increase control over their health and its determinants."
    ]
   },
   {
@@ -1708,6 +2376,12 @@ SINA.lectures["pubhealth1-approaches"] = {
      "lec": "Public health approaches: prevention",
      "n": 18
     }
+   ],
+   "notes": [
+    "Not a prerequisite.",
+    "Peace is listed first among the prerequisites.",
+    "Not a prerequisite.",
+    "Not a prerequisite."
    ]
   },
   {
@@ -1731,6 +2405,12 @@ SINA.lectures["pubhealth1-approaches"] = {
      "lec": "Public health approaches: prevention",
      "n": 28
     }
+   ],
+   "notes": [
+    "One of the five pillars.",
+    "One of the five pillars.",
+    "Not a pillar.",
+    "One of the five pillars."
    ]
   },
   {
@@ -1754,6 +2434,12 @@ SINA.lectures["pubhealth1-approaches"] = {
      "lec": "Public health approaches: prevention",
      "n": 23
     }
+   ],
+   "notes": [
+    "Not care.",
+    "Not vaccination.",
+    "Not screening.",
+    "It anticipates the health effects of policies outside the health sector."
    ]
   },
   {
@@ -1772,6 +2458,12 @@ SINA.lectures["pubhealth1-approaches"] = {
      "lec": "Public health approaches: prevention",
      "n": 31
     }
+   ],
+   "notes": [
+    "Not this pillar.",
+    "Not this pillar.",
+    "Not this pillar.",
+    "Health literacy builds personal skills."
    ]
   },
   {
@@ -1790,6 +2482,12 @@ SINA.lectures["pubhealth1-approaches"] = {
      "lec": "Public health approaches: prevention",
      "n": 34
     }
+   ],
+   "notes": [
+    "The population is a partner (subject).",
+    "Not irrelevant.",
+    "That is how prevention sees it.",
+    "Not only patients."
    ]
   },
   {
@@ -1808,6 +2506,12 @@ SINA.lectures["pubhealth1-approaches"] = {
      "lec": "Public health approaches: prevention",
      "n": 34
     }
+   ],
+   "notes": [
+    "Not this model.",
+    "Prevention follows a biomedical and epidemiological model.",
+    "That is health promotion.",
+    "Not this model."
    ]
   },
   {
@@ -1820,7 +2524,13 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Consequences"
    ],
    "answer": 2,
-   "why": "The arrow points to: Before disease. The person is exposed to risk factors but not yet ill."
+   "why": "The arrow points to: Before disease. The person is exposed to risk factors but not yet ill.",
+   "notes": [
+    "Not at the arrow; this is disease present but without symptoms.",
+    "Not at the arrow; this is disease with symptoms, diagnosed.",
+    "This is at the arrow: the healthy person exposed to risk.",
+    "Not at the arrow; this is disability, recurrence or death."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1832,7 +2542,13 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Consequences"
    ],
    "answer": 0,
-   "why": "The arrow points to: Subclinical phase. Disease present but without clinical signs: the window for screening."
+   "why": "The arrow points to: Subclinical phase. Disease present but without clinical signs: the window for screening.",
+   "notes": [
+    "This is at the arrow: disease present but without symptoms.",
+    "Not at the arrow; this is the healthy person exposed to risk.",
+    "Not at the arrow; this is vaccines, education, stopping smoking, before disease.",
+    "Not at the arrow; this is disability, recurrence or death."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1844,7 +2560,13 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Consequences"
    ],
    "answer": 2,
-   "why": "The arrow points to: Clinical disease. Signs and symptoms have appeared."
+   "why": "The arrow points to: Clinical disease. Signs and symptoms have appeared.",
+   "notes": [
+    "Not at the arrow; this is disease present but without symptoms.",
+    "Not at the arrow; this is rehabilitation, palliation, surveillance after diagnosis.",
+    "This is at the arrow: disease with symptoms, diagnosed.",
+    "Not at the arrow; this is disability, recurrence or death."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1856,7 +2578,13 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Secondary prevention"
    ],
    "answer": 2,
-   "why": "The arrow points to: Consequences. Chronic disability, complications, recurrence."
+   "why": "The arrow points to: Consequences. Chronic disability, complications, recurrence.",
+   "notes": [
+    "Not at the arrow; this is disease with symptoms, diagnosed.",
+    "Not at the arrow; this is vaccines, education, stopping smoking, before disease.",
+    "This is at the arrow: disability, recurrence or death.",
+    "Not at the arrow; this is screening and early care, in the subclinical phase."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1868,7 +2596,13 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Consequences"
    ],
    "answer": 0,
-   "why": "The arrow points to: Primary prevention. Reduces incidence (new cases): immunisation, health education, smoking cessation; the most cost-effective."
+   "why": "The arrow points to: Primary prevention. Reduces incidence (new cases): immunisation, health education, smoking cessation; the most cost-effective.",
+   "notes": [
+    "This is at the arrow: vaccines, education, stopping smoking, before disease.",
+    "Not at the arrow; this is the healthy person exposed to risk.",
+    "Not at the arrow; this is disease with symptoms, diagnosed.",
+    "Not at the arrow; this is disability, recurrence or death."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1880,7 +2614,13 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Primary prevention"
    ],
    "answer": 2,
-   "why": "The arrow points to: Secondary prevention. Early detection and intervention before clinical signs: cancer screening, TB skin tests, contact tracing."
+   "why": "The arrow points to: Secondary prevention. Early detection and intervention before clinical signs: cancer screening, TB skin tests, contact tracing.",
+   "notes": [
+    "Not at the arrow; this is the healthy person exposed to risk.",
+    "Not at the arrow; this is disease present but without symptoms.",
+    "This is at the arrow: screening and early care, in the subclinical phase.",
+    "Not at the arrow; this is vaccines, education, stopping smoking, before disease."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1892,7 +2632,209 @@ SINA.lectures["pubhealth1-approaches"] = {
     "Subclinical phase"
    ],
    "answer": 0,
-   "why": "The arrow points to: Tertiary prevention. Reduces chronic disability and recurrence: physiotherapy, rehabilitation, reintegration, palliative care, follow-up."
+   "why": "The arrow points to: Tertiary prevention. Reduces chronic disability and recurrence: physiotherapy, rehabilitation, reintegration, palliative care, follow-up.",
+   "notes": [
+    "This is at the arrow: rehabilitation, palliation, surveillance after diagnosis.",
+    "Not at the arrow; this is screening and early care, in the subclinical phase.",
+    "Not at the arrow; this is disability, recurrence or death.",
+    "Not at the arrow; this is disease present but without symptoms."
+   ]
+  },
+  {
+   "q": "A 55-year-old has a mammogram although she feels well. Which level of prevention is this?",
+   "options": [
+    "Secondary prevention",
+    "Primary prevention",
+    "Tertiary prevention",
+    "Health promotion"
+   ],
+   "answer": 0,
+   "why": "Screening detects disease early, ideally before clinical signs: secondary prevention.",
+   "notes": [
+    "Early detection is secondary prevention.",
+    "Primary acts before the disease exists.",
+    "Tertiary acts after diagnosis.",
+    "Promotion builds healthy environments."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/10.jpg",
+     "lec": "Public health approaches: prevention and health promotion",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "A former cancer patient has regular check-ups to detect recurrence. Which level of prevention is this?",
+   "options": [
+    "Tertiary prevention",
+    "Primary prevention",
+    "Secondary prevention",
+    "Health promotion"
+   ],
+   "answer": 0,
+   "why": "Tertiary prevention includes the fight against recurrence: surveillance of former cancer patients.",
+   "notes": [
+    "Surveillance against recurrence is tertiary.",
+    "Primary acts before disease.",
+    "Secondary detects first disease early.",
+    "Not promotion."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/14.jpg",
+     "lec": "Public health approaches: prevention and health promotion",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "What does tertiary prevention aim to reduce?",
+   "options": [
+    "The prevalence of chronic disabilities and recurrences",
+    "The incidence of new cases",
+    "The number of people exposed to risk",
+    "The cost of vaccines"
+   ],
+   "answer": 0,
+   "why": "Tertiary prevention reduces the prevalence of chronic disabilities or recurrences, and so functional disabilities.",
+   "notes": [
+    "Disability and recurrences.",
+    "That is primary prevention.",
+    "That is primary prevention.",
+    "Not its aim."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/14.jpg",
+     "lec": "Public health approaches: prevention and health promotion",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Which are among the prerequisites for health in the Ottawa Charter?",
+   "options": [
+    "Shelter",
+    "Education",
+    "Food and income",
+    "Specialist doctors"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Prerequisites: peace, shelter, education, food, income, a stable ecosystem, sustainable resources, social justice and equity.",
+   "notes": [
+    "A prerequisite.",
+    "A prerequisite.",
+    "Prerequisites.",
+    "Not listed as a prerequisite."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/18.jpg",
+     "lec": "Public health approaches: prevention and health promotion",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "Helping community members identify and address their shared concerns belongs to which Ottawa pillar?",
+   "options": [
+    "Strengthen community action",
+    "Reorient health services",
+    "Build healthy public policy",
+    "Develop personal skills"
+   ],
+   "answer": 0,
+   "why": "Community development and mobilisation work with members to address shared concerns and build empowerment.",
+   "notes": [
+    "Community mobilisation.",
+    "Not this pillar.",
+    "Not this pillar.",
+    "Not this pillar."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/28.jpg",
+     "lec": "Public health approaches: prevention and health promotion",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "What is advocacy in building healthy public policy?",
+   "options": [
+    "Actions to influence a political decision in favour of a cause",
+    "Treating patients in clinics",
+    "Measuring incidence",
+    "Screening the population"
+   ],
+   "answer": 0,
+   "why": "Advocacy is all the actions implemented to influence a political decision in favour of a cause, an ideology or an orientation.",
+   "notes": [
+    "Influencing political decisions.",
+    "Not care.",
+    "Not measurement.",
+    "Not screening."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/23.jpg",
+     "lec": "Public health approaches: prevention and health promotion",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "Why are social inequalities in health addressed through intersectoral action?",
+   "options": [
+    "They mostly come from social determinants outside the care and prevention system",
+    "Hospitals cause them",
+    "They are genetic",
+    "They cannot be changed"
+   ],
+   "answer": 0,
+   "why": "Social inequalities in health are essentially the result of social determinants outside the care and prevention system, so other sectors must act.",
+   "notes": [
+    "Their causes lie outside the health sector.",
+    "Not the main cause.",
+    "Not genetic.",
+    "They can be reduced."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/23.jpg",
+     "lec": "Public health approaches: prevention and health promotion",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "How does health promotion differ from disease prevention?",
+   "options": [
+    "Promotion uses a bio-psycho-social model and a horizontal approach by living environments",
+    "Promotion is vertical, by programmes",
+    "Promotion treats the population as an object",
+    "Promotion focuses only on individual responsibility"
+   ],
+   "answer": 0,
+   "why": "Prevention: biomedical model, vertical programmes, population as object, risk factors. Promotion: bio-psycho-social model, horizontal approach, population as subject, determinants.",
+   "notes": [
+    "This describes promotion.",
+    "That is prevention.",
+    "That is prevention.",
+    "That is prevention."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-approaches/34.jpg",
+     "lec": "Public health approaches: prevention and health promotion",
+     "n": 34
+    }
+   ]
   }
  ],
  "cards": [
@@ -2280,6 +3222,12 @@ SINA.lectures["pubhealth1-indicators"] = {
      "lec": "Health indicators and measures of",
      "n": 5
     }
+   ],
+   "notes": [
+    "A treatment is not a measure.",
+    "A diagnosis is about one patient.",
+    "An indicator is measurable, not an opinion.",
+    "A quantitative measure of a health dimension."
    ]
   },
   {
@@ -2298,6 +3246,12 @@ SINA.lectures["pubhealth1-indicators"] = {
      "lec": "Health indicators and measures of",
      "n": 4
     }
+   ],
+   "notes": [
+    "Beds measure the health system's resources.",
+    "Health status is mortality and morbidity.",
+    "Coverage is the use of services.",
+    "Risk factors are exposures."
    ]
   },
   {
@@ -2321,6 +3275,12 @@ SINA.lectures["pubhealth1-indicators"] = {
      "lec": "Health indicators and measures of",
      "n": 10
     }
+   ],
+   "notes": [
+    "A ratio compares two separate quantities.",
+    "It is a count divided by the population.",
+    "A rate has time in its denominator.",
+    "Cases divided by the population at the same time."
    ]
   },
   {
@@ -2339,6 +3299,12 @@ SINA.lectures["pubhealth1-indicators"] = {
      "lec": "Health indicators and measures of",
      "n": 13
     }
+   ],
+   "notes": [
+    "Cured cases leave the prevalence.",
+    "New cases in people at risk over a period.",
+    "Deaths are mortality.",
+    "All existing cases is prevalence."
    ]
   },
   {
@@ -2362,6 +3328,12 @@ SINA.lectures["pubhealth1-indicators"] = {
      "lec": "Health indicators and measures of",
      "n": 25
     }
+   ],
+   "notes": [
+    "Too low.",
+    "9 / (3,000 × 2) = 1.5 per 1,000 person-years.",
+    "Ignores the 2 years of follow-up.",
+    "The calculation does not give this."
    ]
   },
   {
@@ -2380,6 +3352,12 @@ SINA.lectures["pubhealth1-indicators"] = {
      "lec": "Health indicators and measures of",
      "n": 17
     }
+   ],
+   "notes": [
+    "Incidence counts only new cases in a period.",
+    "Case fatality is deaths among cases.",
+    "Anyone who has ever had it: lifetime prevalence.",
+    "Point prevalence is at one moment."
    ]
   },
   {
@@ -2398,6 +3376,12 @@ SINA.lectures["pubhealth1-indicators"] = {
      "lec": "Health indicators and measures of",
      "n": 16
     }
+   ],
+   "notes": [
+    "Not new cases over a period.",
+    "80 / 1,000 at one moment = 8% point prevalence.",
+    "It is at one point, and 8% not 80%.",
+    "Not deaths."
    ]
   },
   {
@@ -2421,6 +3405,12 @@ SINA.lectures["pubhealth1-indicators"] = {
      "lec": "Health indicators and measures of",
      "n": 20
     }
+   ],
+   "notes": [
+    "People who already have the disease are not at risk of becoming new cases.",
+    "Children can be at risk.",
+    "Healthy people are the population at risk.",
+    "Men can be at risk."
    ]
   },
   {
@@ -2439,6 +3429,12 @@ SINA.lectures["pubhealth1-indicators"] = {
      "lec": "Health indicators and measures of",
      "n": 23
     }
+   ],
+   "notes": [
+    "Prevalent cases are not at risk.",
+    "Total disease-free time each person was followed.",
+    "Deaths are a numerator elsewhere.",
+    "That gives a cumulative incidence, not a rate."
    ]
   },
   {
@@ -2457,6 +3453,12 @@ SINA.lectures["pubhealth1-indicators"] = {
      "lec": "Health indicators and measures of",
      "n": 25
     }
+   ],
+   "notes": [
+    "274 / 908,447 × 100,000 ≈ 30.2.",
+    "Wrong scale.",
+    "The calculation does not give this.",
+    "This ignores the denominator."
    ]
   },
   {
@@ -2475,6 +3477,12 @@ SINA.lectures["pubhealth1-indicators"] = {
      "lec": "Health indicators and measures of",
      "n": 28
     }
+   ],
+   "notes": [
+    "Not zero.",
+    "Prevalence depends on duration.",
+    "It rises, not falls.",
+    "P ≈ I × duration: longer disease, more cases present."
    ]
   },
   {
@@ -2493,6 +3501,12 @@ SINA.lectures["pubhealth1-indicators"] = {
      "lec": "Health indicators and measures of",
      "n": 34
     }
+   ],
+   "notes": [
+    "Deaths among cases measure how severe a disease is.",
+    "That counts new cases.",
+    "That is incidence or prevalence.",
+    "That is crude mortality."
    ]
   },
   {
@@ -2516,6 +3530,12 @@ SINA.lectures["pubhealth1-indicators"] = {
      "lec": "Health indicators and measures of",
      "n": 32
     }
+   ],
+   "notes": [
+    "That is cause-specific mortality.",
+    "Deaths over the mid-period population.",
+    "That is an incidence rate.",
+    "That is case fatality."
    ]
   },
   {
@@ -2534,6 +3554,12 @@ SINA.lectures["pubhealth1-indicators"] = {
      "lec": "Health indicators and measures of",
      "n": 7
     }
+   ],
+   "notes": [
+    "Not a threshold.",
+    "Not a simple count.",
+    "Not a simple ratio.",
+    "DALY combines years lost to death and to disability."
    ]
   },
   {
@@ -2546,7 +3572,13 @@ SINA.lectures["pubhealth1-indicators"] = {
     "Recovery"
    ],
    "answer": 0,
-   "why": "The arrow points to: Incidence. Rate of new cases arising in a population at risk over a given period."
+   "why": "The arrow points to: Incidence. Rate of new cases arising in a population at risk over a given period.",
+   "notes": [
+    "This is at the arrow: new cases per period, flowing in.",
+    "Not at the arrow; this is an outflow that lowers prevalence.",
+    "Not at the arrow; this is existing cases at a time, the water level.",
+    "Not at the arrow; this is cure, an outflow that lowers prevalence."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2558,7 +3590,13 @@ SINA.lectures["pubhealth1-indicators"] = {
     "Relationship"
    ],
    "answer": 2,
-   "why": "The arrow points to: Prevalence. Frequency of existing (old and new) cases in a population at a point or over a period."
+   "why": "The arrow points to: Prevalence. Frequency of existing (old and new) cases in a population at a point or over a period.",
+   "notes": [
+    "Not at the arrow; this is new cases per period, flowing in.",
+    "Not at the arrow; this is an outflow that lowers prevalence.",
+    "This is at the arrow: existing cases at a time, the water level.",
+    "Not at the arrow; this is P ≈ I × duration in a stable situation."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2570,7 +3608,13 @@ SINA.lectures["pubhealth1-indicators"] = {
     "Prevalence"
    ],
    "answer": 2,
-   "why": "The arrow points to: Recovery. Cured patients leave the prevalence pool."
+   "why": "The arrow points to: Recovery. Cured patients leave the prevalence pool.",
+   "notes": [
+    "Not at the arrow; this is new cases per period, flowing in.",
+    "Not at the arrow; this is P ≈ I × duration in a stable situation.",
+    "This is at the arrow: cure, an outflow that lowers prevalence.",
+    "Not at the arrow; this is existing cases at a time, the water level."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2582,7 +3626,13 @@ SINA.lectures["pubhealth1-indicators"] = {
     "Death"
    ],
    "answer": 3,
-   "why": "The arrow points to: Death. Deaths also lower prevalence."
+   "why": "The arrow points to: Death. Deaths also lower prevalence.",
+   "notes": [
+    "Not at the arrow; this is new cases per period, flowing in.",
+    "Not at the arrow; this is cure, an outflow that lowers prevalence.",
+    "Not at the arrow; this is existing cases at a time, the water level.",
+    "This is at the arrow: an outflow that lowers prevalence."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -2594,7 +3644,209 @@ SINA.lectures["pubhealth1-indicators"] = {
     "Death"
    ],
    "answer": 2,
-   "why": "The arrow points to: Relationship. Longer disease duration leads to higher prevalence for the same incidence."
+   "why": "The arrow points to: Relationship. Longer disease duration leads to higher prevalence for the same incidence.",
+   "notes": [
+    "Not at the arrow; this is cure, an outflow that lowers prevalence.",
+    "Not at the arrow; this is existing cases at a time, the water level.",
+    "This is at the arrow: P ≈ I × duration in a stable situation.",
+    "Not at the arrow; this is an outflow that lowers prevalence."
+   ]
+  },
+  {
+   "q": "Which are uses of health indicators?",
+   "options": [
+    "Monitoring the health status of populations",
+    "Planning and allocating resources",
+    "Evaluating policies and programmes",
+    "Diagnosing an individual patient"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Indicators monitor health, guide planning and resource allocation, evaluate programmes and allow comparison across time and place.",
+   "notes": [
+    "A main use.",
+    "A main use.",
+    "A main use.",
+    "Indicators describe populations, not one patient."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/05.jpg",
+     "lec": "Health indicators and measures of disease frequency",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "Life expectancy at birth belongs to which indicator domain?",
+   "options": [
+    "Health status",
+    "Risk factors",
+    "Service coverage",
+    "Health systems"
+   ],
+   "answer": 0,
+   "why": "Health status examples: life expectancy at birth and malaria mortality rate.",
+   "notes": [
+    "It describes how healthy the population is.",
+    "Risk factors are like stunting and sanitation.",
+    "Coverage is like antenatal care.",
+    "Systems are like bed density and spending."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/04.jpg",
+     "lec": "Health indicators and measures of disease frequency",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "In a study of smoking and lung cancer, which is the exposure?",
+   "options": [
+    "Smoking",
+    "Lung cancer",
+    "Death",
+    "The population"
+   ],
+   "answer": 0,
+   "why": "The exposure is the risk factor (independent variable); the disease is the outcome (dependent variable).",
+   "notes": [
+    "Smoking is the exposure.",
+    "Lung cancer is the outcome.",
+    "Death can be an outcome.",
+    "Not the exposure."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/08.jpg",
+     "lec": "Health indicators and measures of disease frequency",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "50 breast cancers develop in one year among 10,000 women over 40. What is the incidence?",
+   "options": [
+    "5 per 1,000 women per year",
+    "50 per 1,000 women per year",
+    "0.5 per 1,000 women per year",
+    "5 per 100 women per year"
+   ],
+   "answer": 0,
+   "why": "50 / 10,000 = 5 per 1,000 women over 40 in that year.",
+   "notes": [
+    "50 / 10,000 = 5 per 1,000.",
+    "Ten times too high.",
+    "Ten times too low.",
+    "Twenty times too high."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/22.jpg",
+     "lec": "Health indicators and measures of disease frequency",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "A new treatment keeps patients with a chronic disease alive longer without curing them. If incidence stays the same, what happens to prevalence?",
+   "options": [
+    "It rises",
+    "It falls",
+    "It stays the same",
+    "It becomes equal to incidence"
+   ],
+   "answer": 0,
+   "why": "Prevalence ≈ incidence × duration: a longer disease duration raises prevalence.",
+   "notes": [
+    "Longer survival, more existing cases.",
+    "It would fall with cure or death.",
+    "Duration changes it.",
+    "Not equal."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/28.jpg",
+     "lec": "Health indicators and measures of disease frequency",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "A disease kills 20 of 200 diagnosed patients within a year. What is this measure, and its value?",
+   "options": [
+    "Case fatality of 10%",
+    "Crude mortality of 10%",
+    "Incidence of 10%",
+    "Prevalence of 10%"
+   ],
+   "answer": 0,
+   "why": "Case fatality is the proportion of cases who die within a specified time: 20 / 200 = 10%. It measures severity.",
+   "notes": [
+    "Deaths among cases.",
+    "Crude mortality uses the whole population.",
+    "Incidence counts new cases.",
+    "Prevalence counts existing cases."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/34.jpg",
+     "lec": "Health indicators and measures of disease frequency",
+     "n": 34
+    }
+   ]
+  },
+  {
+   "q": "What is the denominator of a cause-specific mortality rate?",
+   "options": [
+    "The population at the midpoint of the period",
+    "The number of cases of that disease",
+    "All deaths",
+    "Person-time at risk"
+   ],
+   "answer": 0,
+   "why": "The numerator is deaths from the cause; the denominator stays the population size at the midpoint of the period.",
+   "notes": [
+    "Mid-period population.",
+    "That is case fatality.",
+    "That gives a proportion of deaths.",
+    "That is an incidence rate."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/32.jpg",
+     "lec": "Health indicators and measures of disease frequency",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "Which is a ratio rather than a proportion?",
+   "options": [
+    "Male-to-female ratio",
+    "Prevalence",
+    "Percentage of vaccinated children",
+    "Percentage of facilities with a trained provider"
+   ],
+   "answer": 0,
+   "why": "A ratio divides one quantity by another separate one, e.g. male to female or waist to hip.",
+   "notes": [
+    "Two separate quantities.",
+    "A proportion.",
+    "A proportion.",
+    "A proportion."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-indicators/10.jpg",
+     "lec": "Health indicators and measures of disease frequency",
+     "n": 10
+    }
+   ]
   }
  ],
  "cards": [
@@ -2983,6 +4235,12 @@ SINA.lectures["pubhealth1-epidemiology"] = {
      "lec": "Introduction to epidemiology",
      "n": 19
     }
+   ],
+   "notes": [
+    "Upon is 'epi'.",
+    "Not this root.",
+    "Science is 'logos'.",
+    "'Demos' means people."
    ]
   },
   {
@@ -3006,6 +4264,12 @@ SINA.lectures["pubhealth1-epidemiology"] = {
      "lec": "Introduction to epidemiology",
      "n": 22
     }
+   ],
+   "notes": [
+    "That is microbiology.",
+    "Epidemiology is not only epidemics.",
+    "Distribution and determinants of health in populations, applied to control.",
+    "That is clinical medicine."
    ]
   },
   {
@@ -3029,6 +4293,12 @@ SINA.lectures["pubhealth1-epidemiology"] = {
      "lec": "Introduction to epidemiology",
      "n": 24
     }
+   ],
+   "notes": [
+    "Not drugs.",
+    "Not treatment.",
+    "Causes are the determinants.",
+    "Who, where and when: person, place and time."
    ]
   },
   {
@@ -3047,6 +4317,12 @@ SINA.lectures["pubhealth1-epidemiology"] = {
      "lec": "Introduction to epidemiology",
      "n": 25
     }
+   ],
+   "notes": [
+    "Clinicians study individuals.",
+    "Not only animals.",
+    "Populations are the unit of study.",
+    "Not only microbes."
    ]
   },
   {
@@ -3065,6 +4341,12 @@ SINA.lectures["pubhealth1-epidemiology"] = {
      "lec": "Introduction to epidemiology",
      "n": 8
     }
+   ],
+   "notes": [
+    "Ibn al-Khatib described contagion during the Black Death.",
+    "Hippocrates is earlier, on environment.",
+    "Graunt made mortality tables (1662).",
+    "Farr founded vital statistics."
    ]
   },
   {
@@ -3088,6 +4370,12 @@ SINA.lectures["pubhealth1-epidemiology"] = {
      "lec": "Introduction to epidemiology",
      "n": 10
     }
+   ],
+   "notes": [
+    "That is John Snow.",
+    "Lind compared treatments for scurvy on a ship.",
+    "That is Graunt.",
+    "That is Doll and Hill."
    ]
   },
   {
@@ -3106,6 +4394,12 @@ SINA.lectures["pubhealth1-epidemiology"] = {
      "lec": "Introduction to epidemiology",
      "n": 11
     }
+   ],
+   "notes": [
+    "That is Jenner.",
+    "Graunt analysed the London bills of mortality.",
+    "That is Doll and Hill.",
+    "That is Leeuwenhoek and Pasteur."
    ]
   },
   {
@@ -3124,6 +4418,12 @@ SINA.lectures["pubhealth1-epidemiology"] = {
      "lec": "Introduction to epidemiology",
      "n": 13
     }
+   ],
+   "notes": [
+    "Snow mapped cholera.",
+    "Doll studied smoking.",
+    "Lind did the scurvy trial.",
+    "William Farr built vital statistics and surveillance."
    ]
   },
   {
@@ -3142,6 +4442,12 @@ SINA.lectures["pubhealth1-epidemiology"] = {
      "lec": "Introduction to epidemiology",
      "n": 20
     }
+   ],
+   "notes": [
+    "More cases than expected.",
+    "Constantly present at a usual level.",
+    "Occasional, isolated cases.",
+    "Worldwide spread."
    ]
   },
   {
@@ -3160,6 +4466,12 @@ SINA.lectures["pubhealth1-epidemiology"] = {
      "lec": "Introduction to epidemiology",
      "n": 20
     }
+   ],
+   "notes": [
+    "An epidemic across countries and continents.",
+    "A local group of cases.",
+    "Constantly present.",
+    "A localised epidemic."
    ]
   },
   {
@@ -3178,6 +4490,12 @@ SINA.lectures["pubhealth1-epidemiology"] = {
      "lec": "Introduction to epidemiology",
      "n": 31
     }
+   ],
+   "notes": [
+    "It describes person, place and time, raising hypotheses.",
+    "Analytical and experimental studies test causes.",
+    "That is an experimental trial.",
+    "Analytical studies test hypotheses."
    ]
   },
   {
@@ -3196,6 +4514,12 @@ SINA.lectures["pubhealth1-epidemiology"] = {
      "lec": "Introduction to epidemiology",
      "n": 34
     }
+   ],
+   "notes": [
+    "No intervention is assigned.",
+    "Reviews pool studies.",
+    "They test hypotheses.",
+    "They compare groups to test hypotheses without intervening."
    ]
   },
   {
@@ -3214,6 +4538,12 @@ SINA.lectures["pubhealth1-epidemiology"] = {
      "lec": "Introduction to epidemiology",
      "n": 35
     }
+   ],
+   "notes": [
+    "A cohort follows exposed and unexposed people.",
+    "A single patient description.",
+    "Starts from disease status.",
+    "Random assignment defines an RCT."
    ]
   },
   {
@@ -3232,6 +4562,12 @@ SINA.lectures["pubhealth1-epidemiology"] = {
      "lec": "Introduction to epidemiology",
      "n": 36
     }
+   ],
+   "notes": [
+    "They pool all studies on a question.",
+    "The base of the pyramid.",
+    "Below RCTs.",
+    "The base of the pyramid."
    ]
   },
   {
@@ -3244,7 +4580,13 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "Analytical epidemiology"
    ],
    "answer": 1,
-   "why": "The arrow points to: Observational studies. The investigator observes without assigning exposures."
+   "why": "The arrow points to: Observational studies. The investigator observes without assigning exposures.",
+   "notes": [
+    "Not at the arrow; this is the investigator assigns the intervention.",
+    "This is at the arrow: the investigator only observes, without intervening.",
+    "Not at the arrow; this is who, what, where, when, to generate hypotheses.",
+    "Not at the arrow; this is case-control and cohort studies that test hypotheses."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3256,7 +4598,13 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "Analytical epidemiology"
    ],
    "answer": 2,
-   "why": "The arrow points to: Experimental studies. The investigator assigns the intervention."
+   "why": "The arrow points to: Experimental studies. The investigator assigns the intervention.",
+   "notes": [
+    "Not at the arrow; this is the investigator only observes, without intervening.",
+    "Not at the arrow; this is RCTs, field and community trials.",
+    "This is at the arrow: the investigator assigns the intervention.",
+    "Not at the arrow; this is case-control and cohort studies that test hypotheses."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3268,7 +4616,13 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "Experimental studies"
    ],
    "answer": 2,
-   "why": "The arrow points to: Descriptive epidemiology. Describes the who, what, where and when; identifies patterns; generates hypotheses (e.g. measles cases by age, vaccination status, place)."
+   "why": "The arrow points to: Descriptive epidemiology. Describes the who, what, where and when; identifies patterns; generates hypotheses (e.g. measles cases by age, vaccination status, place).",
+   "notes": [
+    "Not at the arrow; this is case-control and cohort studies that test hypotheses.",
+    "Not at the arrow; this is RCTs, field and community trials.",
+    "This is at the arrow: who, what, where, when, to generate hypotheses.",
+    "Not at the arrow; this is the investigator assigns the intervention."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3280,7 +4634,13 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "Experimental studies"
    ],
    "answer": 1,
-   "why": "The arrow points to: Analytical epidemiology. The 'how': cohort and case-control studies identify risk factors and test hypotheses (e.g. air pollution cohort)."
+   "why": "The arrow points to: Analytical epidemiology. The 'how': cohort and case-control studies identify risk factors and test hypotheses (e.g. air pollution cohort).",
+   "notes": [
+    "Not at the arrow; this is who, what, where, when, to generate hypotheses.",
+    "This is at the arrow: case-control and cohort studies that test hypotheses.",
+    "Not at the arrow; this is RCTs, field and community trials.",
+    "Not at the arrow; this is the investigator assigns the intervention."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3292,7 +4652,13 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "Descriptive epidemiology"
    ],
    "answer": 0,
-   "why": "The arrow points to: Randomised controlled trials. Random assignment to treatment or placebo; robust evidence for new drugs and interventions."
+   "why": "The arrow points to: Randomised controlled trials. Random assignment to treatment or placebo; robust evidence for new drugs and interventions.",
+   "notes": [
+    "This is at the arrow: RCTs, field and community trials.",
+    "Not at the arrow; this is systematic reviews at the top, expert opinion at the base.",
+    "Not at the arrow; this is case-control and cohort studies that test hypotheses.",
+    "Not at the arrow; this is who, what, where, when, to generate hypotheses."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3304,7 +4670,185 @@ SINA.lectures["pubhealth1-epidemiology"] = {
     "Observational studies"
    ],
    "answer": 2,
-   "why": "The arrow points to: Evidence pyramid. Systematic reviews, then RCTs, cohorts, case-control, case series, case reports, opinions and in vitro research."
+   "why": "The arrow points to: Evidence pyramid. Systematic reviews, then RCTs, cohorts, case-control, case series, case reports, opinions and in vitro research.",
+   "notes": [
+    "Not at the arrow; this is case-control and cohort studies that test hypotheses.",
+    "Not at the arrow; this is who, what, where, when, to generate hypotheses.",
+    "This is at the arrow: systematic reviews at the top, expert opinion at the base.",
+    "Not at the arrow; this is the investigator only observes, without intervening."
+   ]
+  },
+  {
+   "q": "Influenza cases in a city rise far above the usual level for that season. This is:",
+   "options": [
+    "An epidemic",
+    "Endemic",
+    "A pandemic",
+    "Sporadic"
+   ],
+   "answer": 0,
+   "why": "An epidemic is an occurrence of a disease in excess of the usual level of expectancy in a population or area.",
+   "notes": [
+    "Above the usual level.",
+    "Endemic means constantly present at the usual level.",
+    "A pandemic spreads across countries or worldwide.",
+    "Sporadic means occasional cases."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/20.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "In the definition of epidemiology, what do 'determinants' include?",
+   "options": [
+    "Biological, social, economic and behavioural factors that influence health",
+    "Only microbes",
+    "Only genes",
+    "Only hospital resources"
+   ],
+   "answer": 0,
+   "why": "Determinants include biological, chemical, physical, social, cultural, economic, genetic and behavioural factors.",
+   "notes": [
+    "Many kinds of factors.",
+    "Not only microbes.",
+    "Not only genes.",
+    "Not only resources."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/22.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "John Snow's work on the 1849-1854 London cholera outbreak led to:",
+   "options": [
+    "Fundamental changes in London's water and waste systems",
+    "The first vaccine",
+    "The first mortality tables",
+    "The discovery of vitamin C"
+   ],
+   "answer": 0,
+   "why": "Snow's study of cholera in Soho inspired changes in the water and waste systems of London.",
+   "notes": [
+    "Water and sanitation changes.",
+    "Not a vaccine.",
+    "That is Graunt.",
+    "Not related."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/14.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "A study follows people living near factories and people living far away for years, comparing respiratory disease. What design is this?",
+   "options": [
+    "Cohort study",
+    "Case-control study",
+    "Randomised controlled trial",
+    "Case report"
+   ],
+   "answer": 0,
+   "why": "A cohort follows exposed and unexposed groups over time and compares the incidence of disease.",
+   "notes": [
+    "Exposed vs unexposed followed over time.",
+    "Case-control starts from disease.",
+    "No intervention is assigned.",
+    "Not one patient."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/34.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 34
+    }
+   ]
+  },
+  {
+   "q": "Which study design gives the strongest evidence among single studies for a new drug?",
+   "options": [
+    "Randomised controlled trial",
+    "Case-control study",
+    "Case series",
+    "Expert opinion"
+   ],
+   "answer": 0,
+   "why": "RCTs sit just below systematic reviews and meta-analyses in the evidence pyramid.",
+   "notes": [
+    "RCTs are the strongest single studies.",
+    "Lower in the pyramid.",
+    "Near the base.",
+    "At the base."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/35.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "q": "What does analytical epidemiology mainly deal with?",
+   "options": [
+    "The 'how' and 'why': testing hypotheses about risk factors and causes",
+    "Only counting cases by place",
+    "Only treating patients",
+    "Only describing the history of epidemics"
+   ],
+   "answer": 0,
+   "why": "Analytical methods such as cohort and case-control studies identify risk factors and causal relationships.",
+   "notes": [
+    "Testing hypotheses about causes.",
+    "That is descriptive.",
+    "Not clinical care.",
+    "Not history."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/34.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 34
+    }
+   ]
+  },
+  {
+   "q": "What do 'health-related states or events' include in the definition of epidemiology?",
+   "options": [
+    "Diseases and causes of death",
+    "Behaviours such as tobacco use",
+    "Use of health services",
+    "Only infectious diseases"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "They include diseases, causes of death, behaviours such as tobacco use, positive health states, reactions to prevention and use of health services.",
+   "notes": [
+    "Included.",
+    "Included.",
+    "Included.",
+    "Not only infections."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-epidemiology/24.jpg",
+     "lec": "Introduction to epidemiology",
+     "n": 24
+    }
+   ]
   }
  ],
  "cards": [
@@ -3726,6 +5270,12 @@ SINA.lectures["pubhealth1-biostat"] = {
      "lec": "Introduction to biostatistics",
      "n": 34
     }
+   ],
+   "notes": [
+    "Categories with no order.",
+    "Blood groups have no order.",
+    "Not a number.",
+    "Not a count."
    ]
   },
   {
@@ -3744,6 +5294,12 @@ SINA.lectures["pubhealth1-biostat"] = {
      "lec": "Introduction to biostatistics",
      "n": 3
     }
+   ],
+   "notes": [
+    "Not a count.",
+    "Ordered categories.",
+    "Not a measured number.",
+    "These categories have an order."
    ]
   },
   {
@@ -3762,6 +5318,12 @@ SINA.lectures["pubhealth1-biostat"] = {
      "lec": "Introduction to biostatistics",
      "n": 3
     }
+   ],
+   "notes": [
+    "Children are counted, not measured.",
+    "Whole numbers from counting.",
+    "It is a number.",
+    "It is a number."
    ]
   },
   {
@@ -3780,6 +5342,12 @@ SINA.lectures["pubhealth1-biostat"] = {
      "lec": "Introduction to biostatistics",
      "n": 3
     }
+   ],
+   "notes": [
+    "It is a number.",
+    "It is a number.",
+    "Measured on a continuous scale.",
+    "It is measured, not counted."
    ]
   },
   {
@@ -3798,6 +5366,12 @@ SINA.lectures["pubhealth1-biostat"] = {
      "lec": "Introduction to biostatistics",
      "n": 4
     }
+   ],
+   "notes": [
+    "An RCT assigns treatment.",
+    "Cross-sectional is one snapshot.",
+    "Cases with the disease vs controls without it.",
+    "A cohort starts from exposure."
    ]
   },
   {
@@ -3816,6 +5390,12 @@ SINA.lectures["pubhealth1-biostat"] = {
      "lec": "Introduction to biostatistics",
      "n": 3
     }
+   ],
+   "notes": [
+    "That is case-control.",
+    "That is a cohort.",
+    "That is an RCT.",
+    "A snapshot at one point in time."
    ]
   },
   {
@@ -3839,6 +5419,12 @@ SINA.lectures["pubhealth1-biostat"] = {
      "lec": "Introduction to biostatistics",
      "n": 9
     }
+   ],
+   "notes": [
+    "The curve is symmetric.",
+    "A normal curve is not skewed.",
+    "They are equal.",
+    "Not true."
    ]
   },
   {
@@ -3862,6 +5448,12 @@ SINA.lectures["pubhealth1-biostat"] = {
      "lec": "Introduction to biostatistics",
      "n": 16
     }
+   ],
+   "notes": [
+    "Shapiro-Wilk tests normality.",
+    "Chi-square tests categorical association.",
+    "Pearson measures correlation.",
+    "The t-test compares means."
    ]
   },
   {
@@ -3880,6 +5472,12 @@ SINA.lectures["pubhealth1-biostat"] = {
      "lec": "Introduction to biostatistics",
      "n": 10
     }
+   ],
+   "notes": [
+    "p tells us.",
+    "p < 0.05 rejects normality.",
+    "Not related.",
+    "p < 0.05: not normally distributed."
    ]
   },
   {
@@ -3903,6 +5501,12 @@ SINA.lectures["pubhealth1-biostat"] = {
      "lec": "Introduction to biostatistics",
      "n": 18
     }
+   ],
+   "notes": [
+    "A table does not show the shape.",
+    "For categories.",
+    "For categories.",
+    "A histogram shows a continuous distribution."
    ]
   },
   {
@@ -3921,6 +5525,12 @@ SINA.lectures["pubhealth1-biostat"] = {
      "lec": "Introduction to biostatistics",
      "n": 5
     }
+   ],
+   "notes": [
+    "Pearson is for two quantitative variables.",
+    "Chi-square tests two categorical variables.",
+    "Compares two groups on a non-normal variable.",
+    "Compares means."
    ]
   },
   {
@@ -3939,6 +5549,12 @@ SINA.lectures["pubhealth1-biostat"] = {
      "lec": "Introduction to biostatistics",
      "n": 5
     }
+   ],
+   "notes": [
+    "Spearman is a correlation.",
+    "Two group means with normal data: Student's t-test.",
+    "Fisher is for small categorical tables.",
+    "Chi-square is for categories."
    ]
   },
   {
@@ -3957,6 +5573,12 @@ SINA.lectures["pubhealth1-biostat"] = {
      "lec": "Introduction to biostatistics",
      "n": 5
     }
+   ],
+   "notes": [
+    "For categories.",
+    "Compares means.",
+    "Needs normal data.",
+    "Spearman is the non-parametric correlation."
    ]
   },
   {
@@ -3975,6 +5597,12 @@ SINA.lectures["pubhealth1-biostat"] = {
      "lec": "Introduction to biostatistics",
      "n": 9
     }
+   ],
+   "notes": [
+    "Range is maximum minus minimum.",
+    "Not range.",
+    "Not range.",
+    "Not range."
    ]
   },
   {
@@ -3998,6 +5626,12 @@ SINA.lectures["pubhealth1-biostat"] = {
      "lec": "Introduction to biostatistics",
      "n": 39
     }
+   ],
+   "notes": [
+    "Outliers are checked, not always deleted.",
+    "Data are not invented.",
+    "The hypothesis is set before analysis.",
+    "Missing values are checked and handled."
    ]
   },
   {
@@ -4010,7 +5644,13 @@ SINA.lectures["pubhealth1-biostat"] = {
     "One categorical, one numeric"
    ],
    "answer": 1,
-   "why": "The arrow points to: Start here. Identify variable types, study design and distribution (Shapiro-Wilk)."
+   "why": "The arrow points to: Start here. Identify variable types, study design and distribution (Shapiro-Wilk).",
+   "notes": [
+    "Not at the arrow; this is two qualitative variables.",
+    "This is at the arrow: the first question: what are the two variables?.",
+    "Not at the arrow; this is two quantitative variables.",
+    "Not at the arrow; this is a qualitative and a quantitative variable."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4022,7 +5662,13 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Chi-square test"
    ],
    "answer": 1,
-   "why": "The arrow points to: Two categorical variables. E.g. smoking (yes/no) and disease (yes/no)."
+   "why": "The arrow points to: Two categorical variables. E.g. smoking (yes/no) and disease (yes/no).",
+   "notes": [
+    "Not at the arrow; this is the first question: what are the two variables?.",
+    "This is at the arrow: two qualitative variables.",
+    "Not at the arrow; this is two quantitative variables.",
+    "Not at the arrow; this is the test for two qualitative variables (Fisher if small)."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4034,7 +5680,13 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Two numeric variables"
    ],
    "answer": 2,
-   "why": "The arrow points to: One categorical, one numeric. E.g. comparing mean blood pressure between two groups."
+   "why": "The arrow points to: One categorical, one numeric. E.g. comparing mean blood pressure between two groups.",
+   "notes": [
+    "Not at the arrow; this is two qualitative variables.",
+    "Not at the arrow; this is Pearson if normal, Spearman if not.",
+    "This is at the arrow: a qualitative and a quantitative variable.",
+    "Not at the arrow; this is two quantitative variables."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4046,7 +5698,13 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Two numeric variables"
    ],
    "answer": 3,
-   "why": "The arrow points to: Two numeric variables. E.g. age and blood pressure."
+   "why": "The arrow points to: Two numeric variables. E.g. age and blood pressure.",
+   "notes": [
+    "Not at the arrow; this is t-test if normal, Mann-Whitney if not.",
+    "Not at the arrow; this is the test for two qualitative variables (Fisher if small).",
+    "Not at the arrow; this is a qualitative and a quantitative variable.",
+    "This is at the arrow: two quantitative variables."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4058,7 +5716,13 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Start here"
    ],
    "answer": 0,
-   "why": "The arrow points to: Chi-square test. Association between two qualitative variables; Fisher's exact test for small samples."
+   "why": "The arrow points to: Chi-square test. Association between two qualitative variables; Fisher's exact test for small samples.",
+   "notes": [
+    "This is at the arrow: the test for two qualitative variables (Fisher if small).",
+    "Not at the arrow; this is two quantitative variables.",
+    "Not at the arrow; this is a qualitative and a quantitative variable.",
+    "Not at the arrow; this is the first question: what are the two variables?."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4070,7 +5734,13 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Two categorical variables"
    ],
    "answer": 2,
-   "why": "The arrow points to: Comparing means. Student's t-test if normal; Mann-Whitney if not."
+   "why": "The arrow points to: Comparing means. Student's t-test if normal; Mann-Whitney if not.",
+   "notes": [
+    "Not at the arrow; this is the first question: what are the two variables?.",
+    "Not at the arrow; this is the test for two qualitative variables (Fisher if small).",
+    "This is at the arrow: t-test if normal, Mann-Whitney if not.",
+    "Not at the arrow; this is two qualitative variables."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4082,7 +5752,214 @@ SINA.lectures["pubhealth1-biostat"] = {
     "Two categorical variables"
    ],
    "answer": 0,
-   "why": "The arrow points to: Correlation. Pearson if normal; Spearman if not."
+   "why": "The arrow points to: Correlation. Pearson if normal; Spearman if not.",
+   "notes": [
+    "This is at the arrow: Pearson if normal, Spearman if not.",
+    "Not at the arrow; this is two quantitative variables.",
+    "Not at the arrow; this is t-test if normal, Mann-Whitney if not.",
+    "Not at the arrow; this is two qualitative variables."
+   ]
+  },
+  {
+   "q": "Which variables are qualitative?",
+   "options": [
+    "Sex",
+    "Disease stage",
+    "Blood group",
+    "Weight"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Sex and blood group are qualitative nominal; disease stage is qualitative ordinal; weight is quantitative continuous.",
+   "notes": [
+    "Nominal.",
+    "Ordinal.",
+    "Nominal.",
+    "Weight is quantitative continuous."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/03.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 3
+    }
+   ]
+  },
+  {
+   "q": "A study measures BMI once in 500 students in March. What design is this?",
+   "options": [
+    "Cross-sectional study",
+    "Cohort study",
+    "Case-control study",
+    "Randomised controlled trial"
+   ],
+   "answer": 0,
+   "why": "Data collected at one point in time give a snapshot: a cross-sectional study.",
+   "notes": [
+    "A one-time snapshot.",
+    "A cohort follows people over time.",
+    "Case-control starts from disease.",
+    "No intervention is assigned."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/03.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 3
+    }
+   ]
+  },
+  {
+   "q": "Shapiro-Wilk gives W = 0.97 and p = 0.12. What do you conclude?",
+   "options": [
+    "The data are normally distributed",
+    "The data are not normal",
+    "The test cannot be read",
+    "The variable is qualitative"
+   ],
+   "answer": 0,
+   "why": "p > 0.05: accept H0, the data follow a normal distribution.",
+   "notes": [
+    "p > 0.05 means normal.",
+    "That needs p ≤ 0.05.",
+    "It can be read.",
+    "Shapiro-Wilk is for quantitative data."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/10.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "How should a non-normally distributed quantitative variable be described?",
+   "options": [
+    "Median and interquartile range",
+    "Mean and standard deviation",
+    "Frequencies and percentages",
+    "Mode only"
+   ],
+   "answer": 0,
+   "why": "Normal: mean and SD. Not normal: median and IQR, with a boxplot.",
+   "notes": [
+    "Median and IQR for skewed data.",
+    "These suit normal data.",
+    "These suit qualitative variables.",
+    "Not enough on its own."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/04.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 4
+    },
+    {
+     "src": "files/slides/pubhealth1-biostat/16.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Which graph is best for a qualitative variable such as smoking status?",
+   "options": [
+    "Bar chart",
+    "Histogram",
+    "Boxplot",
+    "Scatter plot"
+   ],
+   "answer": 0,
+   "why": "Bar chart for qualitative data (bars separated because categories are distinct); histogram for quantitative data.",
+   "notes": [
+    "Bar chart for categories.",
+    "For quantitative data.",
+    "For quantitative data.",
+    "For two quantitative variables."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/18.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "Comparing a non-normal quantitative variable between two groups uses which test?",
+   "options": [
+    "Mann-Whitney test",
+    "Student's t-test",
+    "Chi-square test",
+    "Pearson correlation"
+   ],
+   "answer": 0,
+   "why": "One qualitative + one quantitative variable: t-test if normal, Mann-Whitney if not.",
+   "notes": [
+    "Non-parametric comparison of two groups.",
+    "Needs normal data.",
+    "For two qualitative variables.",
+    "For two quantitative variables."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/05.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "Which test is used for two qualitative variables with a small sample?",
+   "options": [
+    "Fisher's exact test",
+    "Student's t-test",
+    "Spearman correlation",
+    "Shapiro-Wilk"
+   ],
+   "answer": 0,
+   "why": "Two qualitative variables: chi-square, or Fisher's exact test when the sample is small.",
+   "notes": [
+    "Fisher for small samples.",
+    "Compares means.",
+    "Correlation for quantitative data.",
+    "Tests normality."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/05.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "q": "In a normal distribution, where is the mode?",
+   "options": [
+    "At the peak of the curve, equal to the mean and median",
+    "At the far left of the curve",
+    "Always zero",
+    "At the far right of the curve"
+   ],
+   "answer": 0,
+   "why": "The mode is the most frequent value and appears at the peak of the Gaussian curve; mean = median = mode.",
+   "notes": [
+    "At the peak.",
+    "Not in a symmetric curve.",
+    "Not true.",
+    "Not in a symmetric curve."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/pubhealth1-biostat/08.jpg",
+     "lec": "Introduction to biostatistics",
+     "n": 8
+    }
+   ]
   }
  ],
  "cards": [
