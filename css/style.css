@@ -1690,3 +1690,13 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .ldlg { display: flex; flex-direction: column; padding-bottom: 0; }
 .ldlg-list { overflow: auto; margin: .4rem -.2rem 0; padding: 0 .2rem; }
 .ldlg-foot { position: sticky; bottom: 0; background: var(--surface); padding: .7rem 0 1rem; margin-top: .4rem; border-top: 1px solid var(--line); align-items: center; }
+
+/* 3D anatomy questions */
+.m3d { position: relative; height: min(58vh, 380px); margin: .6rem 0 .2rem; border: 1px solid var(--line); border-radius: 14px; background: radial-gradient(circle at 50% 40%, var(--surface), var(--bg)); overflow: hidden; touch-action: none; }
+.m3d canvas { display: block; width: 100% !important; height: 100% !important; cursor: grab; }
+.m3d-load { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-size: .9rem; padding: 1rem; text-align: center; }
+.m3d-hint { position: absolute; left: .6rem; bottom: .5rem; font-size: .72rem; color: var(--muted); pointer-events: none; }
+.m3d-reset { position: absolute; right: .5rem; top: .5rem; font: inherit; font-size: .75rem; padding: .25rem .6rem; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+.m3d-tag { position: absolute; left: 50%; top: .6rem; transform: translateX(-50%); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: .25rem .7rem; font-size: .85rem; }
+.m3d-credit { font-size: .7rem; color: var(--muted); margin: 0 0 .6rem; }
+.m3d-credit a { color: inherit; }

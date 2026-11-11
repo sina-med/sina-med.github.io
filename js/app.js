@@ -1902,7 +1902,12 @@
       else if (v.figure && photoFor(lec.id)) h2 += hd("Labelled picture") + photoLabelled(lec.id, v.figure);
       if (v.figure && lec.flow) h2 += hd("Pathway") + "<p>" + esc(v.figure.caption || lec.flow.title || "") + "</p>" + metroHTML(lec.flow);
       else if (v.figure && !plate) h2 += hd(photoFor(lec.id) ? "Schematic" : "Labelled schematic") + "<p>" + esc(v.figure.caption || "Schematic drawn for this site, not to scale.") + '</p><div class="diagram-box">' + figureSVG(v.figure, { uid: "vis" }) + "</div>";
+      var mx = M3D_FOR[lec.id];
+      if (mx && S.m3d) h2 = "<h2" + (h2 ? "" : " style='margin-top:0'") + ">Interactive 3D model</h2><p>Turn the model and tap any structure to see its name.</p>" +
+        (mx.length > 1 ? '<div class="model-switch" role="group" aria-label="Choose a model">' + mx.map(function (m, n) { return '<button type="button" data-x3="' + m + '" aria-pressed="' + (n === 0) + '">' + esc(M3D_TITLE[m]) + "</button>"; }).join("") + "</div>" : "") +
+        '<div class="m3d m3d-x"><button class="btn primary m3d-go" type="button">Load the 3D model</button></div><p class="m3d-credit">3D model: <a href="https://github.com/Z-Anatomy/Models-of-human-anatomy" target="_blank" rel="noopener">Z-Anatomy</a> (from BodyParts3D), CC BY-SA 4.0</p>' + h2;
       p.innerHTML = h2 || "<p>No visual for this lecture yet.</p>";
+      if (mx && S.m3d) wireExplorer(p, mx);
       wireMedia(p); wireGallery(p); wireMindmap2(p, v.mindmap); wirePlate(p); if (lec.flow) wireMetro(p, lec.flow);
       return;
     }
@@ -2099,13 +2104,13 @@
       }
       var q = qs[i], multi = true;
       var qfig = q._fig || (lec.visual && lec.visual.figure);
-      var qph = q.flow ? flowHTML(q, !!done[i]) : q.occ ? occHTML(q, !!done[i]) : q.target ? photoQ(q._lid || lec.id, q.target) : "";
+      var qph = q.m3d ? m3dHTML(q) : q.flow ? flowHTML(q, !!done[i]) : q.occ ? occHTML(q, !!done[i]) : q.target ? photoQ(q._lid || lec.id, q.target) : "";
       var pic = qph ? qph : (q.target && qfig)
         ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "q" + i }) + "</div>"
         : "";
       p.innerHTML = qbarHTML(i, qs.length, marked, i + 1 < qs.length ? "Next" : "Finish", false, false) + '<p class="qhead">' + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + (q._off ? '<span class="qoff">Not on the midterm</span>' : "") + flameHTML(streak, false) + '</p>' + ecgProgress(done.filter(Boolean).length / qs.length) + '<p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
         q.options.map(function (o, n) { return '<button class="opt" data-n="' + n + '" aria-pressed="false"><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span></button>"; }).join("") + (multi ? '<button class="btn primary" id="chk" type="button">Check my answer</button>' : "") + '<div id="fb"></div>';
-      centerTarget(p);
+      centerTarget(p); m3dMount(p, q);
       var opts = p.querySelectorAll(".opt");
       function finish(chosen, skipped) {
         var ans = q.answers || [q.answer];
@@ -2904,14 +2909,14 @@
     function fmt(s) { s = Math.max(0, Math.round(s)); var m = Math.floor(s / 60); return m + ":" + ("0" + (s % 60)).slice(-2); }
     function multi() { return true; }
     function render() {
-      var q = qs[i], qfig = q._fig, qph = q.flow ? flowHTML(q, false) : q.occ ? occHTML(q, false) : q.target ? photoQ(q._lid || set.id, q.target) : "";
+      var q = qs[i], qfig = q._fig, qph = q.m3d ? m3dHTML(q) : q.flow ? flowHTML(q, false) : q.occ ? occHTML(q, false) : q.target ? photoQ(q._lid || set.id, q.target) : "";
       var pic = qph || (q.target && qfig ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "x" + i }) + "</div>" : "");
       p.innerHTML = '<div class="exam-bar"><span class="exam-time" id="xt">' + fmt((end - Date.now()) / 1000) + '</span><span class="meta"></span><button class="btn small primary" id="xsub">Submit</button></div>' +
         '<div class="exam-grid">' + qs.map(function (_, k) { return '<button class="xg' + (k === i ? " cur" : "") + (sel[k].length ? " done" : "") + '" data-k="' + k + '">' + (k + 1) + "</button>"; }).join("") + "</div>" +
         (q._off ? '<p class="qhead"><span class="qoff">Not on the midterm</span></p>' : "") + '<p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
         q.options.map(function (o, k) { var on = sel[i].indexOf(k) > -1; return '<button class="opt' + (on ? " picked" : "") + '" data-n="' + k + '" aria-pressed="' + on + '"><span class="letter">' + LET[k].toUpperCase() + "</span><span>" + esc(o) + "</span></button>"; }).join("") +
         '<div class="qnav"><button class="btn" id="xp"' + (i ? "" : " disabled") + '>&larr; Previous</button><button class="btn" id="xn">' + (i + 1 < n ? "Next &rarr;" : "Review and submit") + "</button></div>";
-      centerTarget(p);
+      centerTarget(p); m3dMount(p, q);
       p.querySelectorAll(".opt").forEach(function (b) { b.onclick = function () {
         var k = +b.dataset.n, s = sel[i];
         if (multi(qs[i])) { var at = s.indexOf(k); if (at > -1) s.splice(at, 1); else s.push(k); } else sel[i] = s[0] === k ? [] : [k];
@@ -3137,6 +3142,35 @@
       '<span class="qe-dot" style="left:' + (frac * 100).toFixed(2) + '%"></span></div>';
   }
   /* ---------- covered-label picture (model A) ---------- */
+  /* 3D explorer on the Visual tab: which models go with which lecture */
+  var M3D_FOR = { "anat3-cerebrum": ["cerebrum", "deep"], "anat3-diencephalon": ["deep", "brainstem"], "anat3-brainstem": ["brainstem"], "anat3-cerebellum": ["brainstem"],
+    "anat3-ventricles": ["deep"], "anat3-spinal-cord": ["cord"], "anat3-ear-1": ["ear"], "anat3-ear-2": ["ear"], "anat3-larynx": ["larynx"], "anat3-thyroid": ["larynx"] };
+  var M3D_TITLE = { cerebrum: "Cerebral hemisphere", deep: "Deep structures and ventricles", brainstem: "Brainstem, cerebellum and cranial nerves", cord: "Spinal cord section", ear: "Middle and inner ear", larynx: "Larynx and thyroid" };
+  function wireExplorer(p, list) {
+    var box = p.querySelector(".m3d-x"), cur = list[0], view = null;
+    function go() {
+      if (view) { view.destroy(); view = null; }
+      box.innerHTML = "";
+      var names = (S.m3d[cur] || {}).names || {};
+      import(new URL("js/m3d.js", document.baseURI).href).then(function (M) {
+        return M.mount(box, { model: cur, view: cur === "cerebrum" ? [1, 0.15, 0.25] : cur === "cord" ? [0, 1, 0.45] : cur === "ear" ? [1, 0.2, 0.5] : [0.4, 0.2, 1],
+          pick: function (k, show) { if (view) view.setHighlight([k]); show(names[k] || ""); } });
+      }).then(function (v) { view = v; }).catch(function () { box.innerHTML = '<div class="m3d-load">3D view not supported on this browser.</div>'; });
+    }
+    box.querySelector(".m3d-go").onclick = go;
+    p.querySelectorAll("[data-x3]").forEach(function (b) { b.onclick = function () { cur = b.dataset.x3; p.querySelectorAll("[data-x3]").forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); }); go(); }; });
+  }
+  /* 3D questions: the model loads on demand (js/m3d.js, three.js) */
+  function m3dHTML(q) {
+    return '<div class="m3d" role="img" aria-label="3D model with one structure highlighted in orange. Drag to turn it."></div><p class="m3d-credit">3D model: <a href="https://github.com/Z-Anatomy/Models-of-human-anatomy" target="_blank" rel="noopener">Z-Anatomy</a> (from BodyParts3D), CC BY-SA 4.0</p>';
+  }
+  function m3dMount(p, q) {
+    var el = p.querySelector(".m3d"); if (!el || !q.m3d) return;
+    import(new URL("js/m3d.js", document.baseURI).href).then(function (M) {
+      if (!el.isConnected) return;
+      M.mount(el, { model: q.m3d.m, highlight: q.m3d.hl, view: q.m3d.view, ghost: q.m3d.ghost, hide: q.m3d.hide, focus: q.m3d.focus });
+    }).catch(function () { el.innerHTML = '<div class="m3d-load">3D view not supported on this browser.</div>'; });
+  }
   function occHTML(q, shown) {
     var f = S.occl && S.occl[q.occ.f]; if (!f) return "";
     return '<figure class="occ"><div class="occ-scroll"><div class="occ-wrap" style="aspect-ratio:' + f.w + "/" + f.h + '"><img src="' + esc(f.src) + '" alt="Anatomy picture with its labels covered" width="' + f.w + '" height="' + f.h + '" loading="lazy">' +

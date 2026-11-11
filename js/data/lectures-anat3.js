@@ -16080,6 +16080,184 @@ SINA.lectures["anat3-larynx"] = {
     "Not at the arrow; this is the sheet joining the hyoid to the thyroid cartilage.",
     "Not at the arrow; this is the V-shaped notch at the top of the thyroid cartilage."
    ]
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Cricoid cartilage",
+    "Arytenoid cartilages",
+    "Thyroid cartilage",
+    "Thyroid gland"
+   ],
+   "answer": 2,
+   "why": "Thyroid cartilage: the large shield-shaped cartilage with the laryngeal prominence.",
+   "notes": [
+    "Cricoid cartilage is the only complete cartilage ring, below the thyroid cartilage.",
+    "Arytenoid cartilages is the paired pyramids on the back of the cricoid where the vocal ligaments attach.",
+    "The large shield-shaped cartilage with the laryngeal prominence.",
+    "Thyroid gland is the butterfly-shaped gland on the front of the trachea, two lobes joined by an isthmus."
+   ],
+   "m3d": {
+    "m": "larynx",
+    "hl": [
+     "thyroid_c"
+    ],
+    "view": [
+     0,
+     0.05,
+     1
+    ],
+    "ghost": [
+     "thyroid_g"
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Arytenoid cartilages",
+    "Cricoid cartilage",
+    "Thyroid gland",
+    "Thyroid cartilage"
+   ],
+   "answer": 1,
+   "why": "Cricoid cartilage: the only complete cartilage ring, below the thyroid cartilage.",
+   "notes": [
+    "Arytenoid cartilages is the paired pyramids on the back of the cricoid where the vocal ligaments attach.",
+    "The only complete cartilage ring, below the thyroid cartilage.",
+    "Thyroid gland is the butterfly-shaped gland on the front of the trachea, two lobes joined by an isthmus.",
+    "Thyroid cartilage is the large shield-shaped cartilage with the laryngeal prominence."
+   ],
+   "m3d": {
+    "m": "larynx",
+    "hl": [
+     "cricoid"
+    ],
+    "view": [
+     0.5,
+     0,
+     1
+    ],
+    "ghost": [
+     "thyroid_g"
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Epiglottis",
+    "Arytenoid cartilages",
+    "Hyoid bone",
+    "Cricoid cartilage"
+   ],
+   "answer": 1,
+   "why": "Arytenoid cartilages: the paired pyramids on the back of the cricoid where the vocal ligaments attach.",
+   "notes": [
+    "Epiglottis is the leaf-shaped cartilage behind the tongue base.",
+    "The paired pyramids on the back of the cricoid where the vocal ligaments attach.",
+    "Hyoid bone is the U-shaped bone above the larynx.",
+    "Cricoid cartilage is the only complete cartilage ring, below the thyroid cartilage."
+   ],
+   "m3d": {
+    "m": "larynx",
+    "hl": [
+     "aryt"
+    ],
+    "view": [
+     0,
+     0.3,
+     -1
+    ],
+    "focus": true
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Arytenoid cartilages",
+    "Trachea",
+    "Thyroid cartilage",
+    "Epiglottis"
+   ],
+   "answer": 3,
+   "why": "Epiglottis: the leaf-shaped cartilage behind the tongue base.",
+   "notes": [
+    "Arytenoid cartilages is the paired pyramids on the back of the cricoid where the vocal ligaments attach.",
+    "Trachea is the tube of C-shaped cartilage rings below the cricoid.",
+    "Thyroid cartilage is the large shield-shaped cartilage with the laryngeal prominence.",
+    "The leaf-shaped cartilage behind the tongue base."
+   ],
+   "m3d": {
+    "m": "larynx",
+    "hl": [
+     "epig"
+    ],
+    "view": [
+     0,
+     0.3,
+     -1
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Epiglottis",
+    "Trachea",
+    "Arytenoid cartilages",
+    "Hyoid bone"
+   ],
+   "answer": 3,
+   "why": "Hyoid bone: the U-shaped bone above the larynx.",
+   "notes": [
+    "Epiglottis is the leaf-shaped cartilage behind the tongue base.",
+    "Trachea is the tube of C-shaped cartilage rings below the cricoid.",
+    "Arytenoid cartilages is the paired pyramids on the back of the cricoid where the vocal ligaments attach.",
+    "The U-shaped bone above the larynx."
+   ],
+   "m3d": {
+    "m": "larynx",
+    "hl": [
+     "hyoid"
+    ],
+    "view": [
+     0,
+     0.05,
+     1
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Thyroid cartilage",
+    "Cricoid cartilage",
+    "Trachea",
+    "Hyoid bone"
+   ],
+   "answer": 2,
+   "why": "Trachea: the tube of C-shaped cartilage rings below the cricoid.",
+   "notes": [
+    "Thyroid cartilage is the large shield-shaped cartilage with the laryngeal prominence.",
+    "Cricoid cartilage is the only complete cartilage ring, below the thyroid cartilage.",
+    "The tube of C-shaped cartilage rings below the cricoid.",
+    "Hyoid bone is the U-shaped bone above the larynx."
+   ],
+   "m3d": {
+    "m": "larynx",
+    "hl": [
+     "trachea"
+    ],
+    "view": [
+     0,
+     0.05,
+     1
+    ],
+    "ghost": [
+     "thyroid_g"
+    ]
+   }
   }
  ],
  "cards": [
@@ -19026,6 +19204,34 @@ SINA.lectures["anat3-thyroid"] = {
     "Not at the arrow; this is the lateral lobe on the patient's right (viewer's left).",
     "Not at the arrow; this is the large shield-shaped cartilage of the larynx (Adam's apple)."
    ]
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Cricoid cartilage",
+    "Hyoid bone",
+    "Thyroid gland",
+    "Trachea"
+   ],
+   "answer": 2,
+   "why": "Thyroid gland: the butterfly-shaped gland on the front of the trachea, two lobes joined by an isthmus.",
+   "notes": [
+    "Cricoid cartilage is the only complete cartilage ring, below the thyroid cartilage.",
+    "Hyoid bone is the U-shaped bone above the larynx.",
+    "The butterfly-shaped gland on the front of the trachea, two lobes joined by an isthmus.",
+    "Trachea is the tube of C-shaped cartilage rings below the cricoid."
+   ],
+   "m3d": {
+    "m": "larynx",
+    "hl": [
+     "thyroid_g"
+    ],
+    "view": [
+     0,
+     0.05,
+     1
+    ]
+   }
   }
  ],
  "cards": [
@@ -21897,6 +22103,163 @@ SINA.lectures["anat3-ear-1"] = {
     "Not at the arrow; this is the air space behind the eardrum holding the ossicles.",
     "Not at the arrow; this is the outer ossicle, its handle attached to the eardrum."
    ]
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Malleus",
+    "Stapes",
+    "Cochlea",
+    "Tympanic membrane"
+   ],
+   "answer": 3,
+   "why": "Tympanic membrane: the eardrum, closing the inner end of the external auditory canal.",
+   "notes": [
+    "Malleus is the outer ossicle, its handle attached to the eardrum.",
+    "Stapes is the smallest ossicle, its footplate in the oval window.",
+    "Cochlea is the snail-shaped hearing organ of the inner ear.",
+    "The eardrum, closing the inner end of the external auditory canal."
+   ],
+   "m3d": {
+    "m": "ear",
+    "hl": [
+     "tm"
+    ],
+    "view": [
+     1,
+     0.2,
+     0.4
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Cochlea",
+    "Malleus",
+    "Stapes",
+    "Facial nerve (VII)"
+   ],
+   "answer": 1,
+   "why": "Malleus: the outer ossicle, its handle attached to the eardrum.",
+   "notes": [
+    "Cochlea is the snail-shaped hearing organ of the inner ear.",
+    "The outer ossicle, its handle attached to the eardrum.",
+    "Stapes is the smallest ossicle, its footplate in the oval window.",
+    "Facial nerve (VII) is the nerve running through the temporal bone in its own canal, close to the middle ear."
+   ],
+   "m3d": {
+    "m": "ear",
+    "hl": [
+     "mall"
+    ],
+    "view": [
+     1,
+     0.2,
+     0.4
+    ],
+    "ghost": [
+     "tm"
+    ],
+    "focus": true
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Vestibule and semicircular canals",
+    "Facial nerve (VII)",
+    "Incus",
+    "Cochlea"
+   ],
+   "answer": 2,
+   "why": "Incus: the middle ossicle, between malleus and stapes.",
+   "notes": [
+    "Vestibule and semicircular canals is the balance part of the bony labyrinth: the central vestibule and the three looped canals.",
+    "Facial nerve (VII) is the nerve running through the temporal bone in its own canal, close to the middle ear.",
+    "The middle ossicle, between malleus and stapes.",
+    "Cochlea is the snail-shaped hearing organ of the inner ear."
+   ],
+   "m3d": {
+    "m": "ear",
+    "hl": [
+     "incus"
+    ],
+    "view": [
+     1,
+     0.4,
+     0
+    ],
+    "ghost": [
+     "tm"
+    ],
+    "focus": true
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Stapes",
+    "Tympanic membrane",
+    "Malleus",
+    "Incus"
+   ],
+   "answer": 0,
+   "why": "Stapes: the smallest ossicle, its footplate in the oval window.",
+   "notes": [
+    "The smallest ossicle, its footplate in the oval window.",
+    "Tympanic membrane is the eardrum, closing the inner end of the external auditory canal.",
+    "Malleus is the outer ossicle, its handle attached to the eardrum.",
+    "Incus is the middle ossicle, between malleus and stapes."
+   ],
+   "m3d": {
+    "m": "ear",
+    "hl": [
+     "stapes"
+    ],
+    "view": [
+     1,
+     0.4,
+     0.2
+    ],
+    "ghost": [
+     "tm",
+     "mall",
+     "incus"
+    ],
+    "focus": true
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Cochlea",
+    "Vestibule and semicircular canals",
+    "Incus",
+    "Facial nerve (VII)"
+   ],
+   "answer": 3,
+   "why": "Facial nerve (VII): the nerve running through the temporal bone in its own canal, close to the middle ear.",
+   "notes": [
+    "Cochlea is the snail-shaped hearing organ of the inner ear.",
+    "Vestibule and semicircular canals is the balance part of the bony labyrinth: the central vestibule and the three looped canals.",
+    "Incus is the middle ossicle, between malleus and stapes.",
+    "The nerve running through the temporal bone in its own canal, close to the middle ear."
+   ],
+   "m3d": {
+    "m": "ear",
+    "hl": [
+     "n7"
+    ],
+    "view": [
+     1,
+     0.2,
+     0.6
+    ],
+    "ghost": [
+     "tm"
+    ]
+   }
   }
  ],
  "cards": [
@@ -23499,6 +23862,68 @@ SINA.lectures["anat3-ear-2"] = {
     "Not at the arrow; this is the duct from the vestibule ending in a sac under the dura.",
     "Not at the arrow; this is the swelling at one end of each canal, holding the crista."
    ]
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Facial nerve (VII)",
+    "Incus",
+    "Vestibule and semicircular canals",
+    "Cochlea"
+   ],
+   "answer": 3,
+   "why": "Cochlea: the snail-shaped hearing organ of the inner ear.",
+   "notes": [
+    "Facial nerve (VII) is the nerve running through the temporal bone in its own canal, close to the middle ear.",
+    "Incus is the middle ossicle, between malleus and stapes.",
+    "Vestibule and semicircular canals is the balance part of the bony labyrinth: the central vestibule and the three looped canals.",
+    "The snail-shaped hearing organ of the inner ear."
+   ],
+   "m3d": {
+    "m": "ear",
+    "hl": [
+     "cochlea"
+    ],
+    "view": [
+     1,
+     0.2,
+     0.6
+    ],
+    "ghost": [
+     "tm"
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Vestibule and semicircular canals",
+    "Incus",
+    "Stapes",
+    "Malleus"
+   ],
+   "answer": 0,
+   "why": "Vestibule and semicircular canals: the balance part of the bony labyrinth: the central vestibule and the three looped canals.",
+   "notes": [
+    "The balance part of the bony labyrinth: the central vestibule and the three looped canals.",
+    "Incus is the middle ossicle, between malleus and stapes.",
+    "Stapes is the smallest ossicle, its footplate in the oval window.",
+    "Malleus is the outer ossicle, its handle attached to the eardrum."
+   ],
+   "m3d": {
+    "m": "ear",
+    "hl": [
+     "vest"
+    ],
+    "view": [
+     1,
+     0.2,
+     0.6
+    ],
+    "ghost": [
+     "tm"
+    ]
+   }
   }
  ],
  "cards": [
@@ -25373,6 +25798,254 @@ SINA.lectures["anat3-spinal-cord"] = {
      "n": 26
     }
    ]
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Anterior (ventral) horn",
+    "Posterior (dorsal) horn",
+    "Gracile fasciculus",
+    "Posterior spinocerebellar tract"
+   ],
+   "answer": 0,
+   "why": "Anterior (ventral) horn: grey matter with the motor neurons.",
+   "notes": [
+    "Grey matter with the motor neurons.",
+    "Posterior (dorsal) horn is grey matter receiving sensory fibres.",
+    "Gracile fasciculus is the medial part of the dorsal column: fine touch and position sense from the lower body.",
+    "Posterior spinocerebellar tract is unconscious proprioception to the cerebellum, at the edge of the lateral funiculus."
+   ],
+   "m3d": {
+    "m": "cord",
+    "hl": [
+     "ah"
+    ],
+    "view": [
+     0,
+     1,
+     0.45
+    ],
+    "ghost": [
+     "wm"
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Cuneate fasciculus",
+    "Anterior (ventral) horn",
+    "Lateral spinothalamic tract",
+    "Posterior (dorsal) horn"
+   ],
+   "answer": 3,
+   "why": "Posterior (dorsal) horn: grey matter receiving sensory fibres.",
+   "notes": [
+    "Cuneate fasciculus is the lateral part of the dorsal column: fine touch and position sense from the upper body.",
+    "Anterior (ventral) horn is grey matter with the motor neurons.",
+    "Lateral spinothalamic tract is pain and temperature, in the lateral funiculus.",
+    "Grey matter receiving sensory fibres."
+   ],
+   "m3d": {
+    "m": "cord",
+    "hl": [
+     "ph"
+    ],
+    "view": [
+     0,
+     1,
+     0.45
+    ],
+    "ghost": [
+     "wm"
+    ]
+   }
+  },
+  {
+   "q": "Which tract is highlighted in orange?",
+   "options": [
+    "Cuneate fasciculus",
+    "Lateral spinothalamic tract",
+    "Lateral corticospinal tract",
+    "Posterior spinocerebellar tract"
+   ],
+   "answer": 2,
+   "why": "Lateral corticospinal tract: the main crossed motor tract, in the lateral funiculus.",
+   "notes": [
+    "Cuneate fasciculus is the lateral part of the dorsal column: fine touch and position sense from the upper body.",
+    "Lateral spinothalamic tract is pain and temperature, in the lateral funiculus.",
+    "The main crossed motor tract, in the lateral funiculus.",
+    "Posterior spinocerebellar tract is unconscious proprioception to the cerebellum, at the edge of the lateral funiculus."
+   ],
+   "m3d": {
+    "m": "cord",
+    "hl": [
+     "lcst"
+    ],
+    "view": [
+     0,
+     1,
+     0.45
+    ],
+    "ghost": [
+     "wm"
+    ]
+   }
+  },
+  {
+   "q": "Which tract is highlighted in orange?",
+   "options": [
+    "Posterior spinocerebellar tract",
+    "Gracile fasciculus",
+    "Cuneate fasciculus",
+    "Anterior corticospinal tract"
+   ],
+   "answer": 3,
+   "why": "Anterior corticospinal tract: the uncrossed motor fibres beside the anterior median fissure.",
+   "notes": [
+    "Posterior spinocerebellar tract is unconscious proprioception to the cerebellum, at the edge of the lateral funiculus.",
+    "Gracile fasciculus is the medial part of the dorsal column: fine touch and position sense from the lower body.",
+    "Cuneate fasciculus is the lateral part of the dorsal column: fine touch and position sense from the upper body.",
+    "The uncrossed motor fibres beside the anterior median fissure."
+   ],
+   "m3d": {
+    "m": "cord",
+    "hl": [
+     "acst"
+    ],
+    "view": [
+     0,
+     1,
+     0.45
+    ],
+    "ghost": [
+     "wm"
+    ]
+   }
+  },
+  {
+   "q": "Which tract is highlighted in orange?",
+   "options": [
+    "Gracile fasciculus",
+    "Lateral spinothalamic tract",
+    "Posterior spinocerebellar tract",
+    "Cuneate fasciculus"
+   ],
+   "answer": 1,
+   "why": "Lateral spinothalamic tract: pain and temperature, in the lateral funiculus.",
+   "notes": [
+    "Gracile fasciculus is the medial part of the dorsal column: fine touch and position sense from the lower body.",
+    "Pain and temperature, in the lateral funiculus.",
+    "Posterior spinocerebellar tract is unconscious proprioception to the cerebellum, at the edge of the lateral funiculus.",
+    "Cuneate fasciculus is the lateral part of the dorsal column: fine touch and position sense from the upper body."
+   ],
+   "m3d": {
+    "m": "cord",
+    "hl": [
+     "lst"
+    ],
+    "view": [
+     0,
+     1,
+     0.45
+    ],
+    "ghost": [
+     "wm"
+    ]
+   }
+  },
+  {
+   "q": "Which tract is highlighted in orange?",
+   "options": [
+    "Posterior spinocerebellar tract",
+    "Gracile fasciculus",
+    "Lateral corticospinal tract",
+    "Lateral spinothalamic tract"
+   ],
+   "answer": 1,
+   "why": "Gracile fasciculus: the medial part of the dorsal column: fine touch and position sense from the lower body.",
+   "notes": [
+    "Posterior spinocerebellar tract is unconscious proprioception to the cerebellum, at the edge of the lateral funiculus.",
+    "The medial part of the dorsal column: fine touch and position sense from the lower body.",
+    "Lateral corticospinal tract is the main crossed motor tract, in the lateral funiculus.",
+    "Lateral spinothalamic tract is pain and temperature, in the lateral funiculus."
+   ],
+   "m3d": {
+    "m": "cord",
+    "hl": [
+     "grac"
+    ],
+    "view": [
+     0,
+     1,
+     0.45
+    ],
+    "ghost": [
+     "wm"
+    ]
+   }
+  },
+  {
+   "q": "Which tract is highlighted in orange?",
+   "options": [
+    "Lateral spinothalamic tract",
+    "Lateral corticospinal tract",
+    "Gracile fasciculus",
+    "Cuneate fasciculus"
+   ],
+   "answer": 3,
+   "why": "Cuneate fasciculus: the lateral part of the dorsal column: fine touch and position sense from the upper body.",
+   "notes": [
+    "Lateral spinothalamic tract is pain and temperature, in the lateral funiculus.",
+    "Lateral corticospinal tract is the main crossed motor tract, in the lateral funiculus.",
+    "Gracile fasciculus is the medial part of the dorsal column: fine touch and position sense from the lower body.",
+    "The lateral part of the dorsal column: fine touch and position sense from the upper body."
+   ],
+   "m3d": {
+    "m": "cord",
+    "hl": [
+     "cun"
+    ],
+    "view": [
+     0,
+     1,
+     0.45
+    ],
+    "ghost": [
+     "wm"
+    ]
+   }
+  },
+  {
+   "q": "Which tract is highlighted in orange?",
+   "options": [
+    "Posterior spinocerebellar tract",
+    "Cuneate fasciculus",
+    "Lateral spinothalamic tract",
+    "Gracile fasciculus"
+   ],
+   "answer": 0,
+   "why": "Posterior spinocerebellar tract: unconscious proprioception to the cerebellum, at the edge of the lateral funiculus.",
+   "notes": [
+    "Unconscious proprioception to the cerebellum, at the edge of the lateral funiculus.",
+    "Cuneate fasciculus is the lateral part of the dorsal column: fine touch and position sense from the upper body.",
+    "Lateral spinothalamic tract is pain and temperature, in the lateral funiculus.",
+    "Gracile fasciculus is the medial part of the dorsal column: fine touch and position sense from the lower body."
+   ],
+   "m3d": {
+    "m": "cord",
+    "hl": [
+     "pscb"
+    ],
+    "view": [
+     0,
+     1,
+     0.45
+    ],
+    "ghost": [
+     "wm"
+    ]
+   }
   }
  ],
  "cards": [
@@ -27302,6 +27975,393 @@ SINA.lectures["anat3-brainstem"] = {
      "n": 29
     }
    ]
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Superior colliculus",
+    "Medulla oblongata",
+    "Cerebral peduncle (crus cerebri)",
+    "Midbrain"
+   ],
+   "answer": 3,
+   "why": "Midbrain: the top part of the brainstem, between diencephalon and pons.",
+   "notes": [
+    "Superior colliculus is the upper pair of bumps on the back of the midbrain: visual reflexes.",
+    "Medulla oblongata is the lowest part of the brainstem, continuous with the spinal cord.",
+    "Cerebral peduncle (crus cerebri) is the thick pillar on the front of the midbrain carrying descending fibres.",
+    "The top part of the brainstem, between diencephalon and pons."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "midbrain"
+    ],
+    "view": [
+     0.9,
+     0.25,
+     -0.7
+    ],
+    "ghost": [
+     "vermis",
+     "cb_ant",
+     "cb_post",
+     "tonsil",
+     "flocc"
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Medulla oblongata",
+    "Pons",
+    "Superior colliculus",
+    "Cerebral peduncle (crus cerebri)"
+   ],
+   "answer": 1,
+   "why": "Pons: the bulging middle part of the brainstem.",
+   "notes": [
+    "Medulla oblongata is the lowest part of the brainstem, continuous with the spinal cord.",
+    "The bulging middle part of the brainstem.",
+    "Superior colliculus is the upper pair of bumps on the back of the midbrain: visual reflexes.",
+    "Cerebral peduncle (crus cerebri) is the thick pillar on the front of the midbrain carrying descending fibres."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "pons"
+    ],
+    "view": [
+     0,
+     0.05,
+     1
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Cerebral peduncle (crus cerebri)",
+    "Midbrain",
+    "Pons",
+    "Medulla oblongata"
+   ],
+   "answer": 3,
+   "why": "Medulla oblongata: the lowest part of the brainstem, continuous with the spinal cord.",
+   "notes": [
+    "Cerebral peduncle (crus cerebri) is the thick pillar on the front of the midbrain carrying descending fibres.",
+    "Midbrain is the top part of the brainstem, between diencephalon and pons.",
+    "Pons is the bulging middle part of the brainstem.",
+    "The lowest part of the brainstem, continuous with the spinal cord."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "medulla"
+    ],
+    "view": [
+     0,
+     0.05,
+     1
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Medulla oblongata",
+    "Cerebral peduncle (crus cerebri)",
+    "Superior colliculus",
+    "Inferior colliculus"
+   ],
+   "answer": 1,
+   "why": "Cerebral peduncle (crus cerebri): the thick pillar on the front of the midbrain carrying descending fibres.",
+   "notes": [
+    "Medulla oblongata is the lowest part of the brainstem, continuous with the spinal cord.",
+    "The thick pillar on the front of the midbrain carrying descending fibres.",
+    "Superior colliculus is the upper pair of bumps on the back of the midbrain: visual reflexes.",
+    "Inferior colliculus is the lower pair of bumps on the back of the midbrain: auditory pathway."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "peduncle"
+    ],
+    "view": [
+     0,
+     0.05,
+     1
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Midbrain",
+    "Pons",
+    "Superior colliculus",
+    "Cerebral peduncle (crus cerebri)"
+   ],
+   "answer": 2,
+   "why": "Superior colliculus: the upper pair of bumps on the back of the midbrain: visual reflexes.",
+   "notes": [
+    "Midbrain is the top part of the brainstem, between diencephalon and pons.",
+    "Pons is the bulging middle part of the brainstem.",
+    "The upper pair of bumps on the back of the midbrain: visual reflexes.",
+    "Cerebral peduncle (crus cerebri) is the thick pillar on the front of the midbrain carrying descending fibres."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "sup_coll"
+    ],
+    "view": [
+     0,
+     0.3,
+     -1
+    ],
+    "ghost": [
+     "vermis",
+     "cb_ant",
+     "cb_post",
+     "tonsil",
+     "flocc"
+    ],
+    "focus": true
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Inferior colliculus",
+    "Midbrain",
+    "Cerebral peduncle (crus cerebri)",
+    "Superior colliculus"
+   ],
+   "answer": 0,
+   "why": "Inferior colliculus: the lower pair of bumps on the back of the midbrain: auditory pathway.",
+   "notes": [
+    "The lower pair of bumps on the back of the midbrain: auditory pathway.",
+    "Midbrain is the top part of the brainstem, between diencephalon and pons.",
+    "Cerebral peduncle (crus cerebri) is the thick pillar on the front of the midbrain carrying descending fibres.",
+    "Superior colliculus is the upper pair of bumps on the back of the midbrain: visual reflexes."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "inf_coll"
+    ],
+    "view": [
+     0,
+     0.3,
+     -1
+    ],
+    "ghost": [
+     "vermis",
+     "cb_ant",
+     "cb_post",
+     "tonsil",
+     "flocc"
+    ],
+    "focus": true
+   }
+  },
+  {
+   "q": "Which cranial nerve is highlighted in orange?",
+   "options": [
+    "Oculomotor nerve (III)",
+    "Optic nerve (II)",
+    "Trigeminal nerve (V)",
+    "Facial nerve (VII)"
+   ],
+   "answer": 0,
+   "why": "Oculomotor nerve (III): leaves the midbrain between the cerebral peduncles.",
+   "notes": [
+    "Leaves the midbrain between the cerebral peduncles.",
+    "Optic nerve (II) is runs from the eye to the optic chiasm.",
+    "Trigeminal nerve (V) is the large nerve leaving the side of the pons.",
+    "Facial nerve (VII) is leaves at the cerebellopontine angle, with VIII."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "n3"
+    ],
+    "view": [
+     0,
+     0.05,
+     1
+    ]
+   }
+  },
+  {
+   "q": "Which cranial nerve is highlighted in orange?",
+   "options": [
+    "Glossopharyngeal nerve (IX)",
+    "Vagus nerve (X)",
+    "Hypoglossal nerve (XII)",
+    "Trigeminal nerve (V)"
+   ],
+   "answer": 3,
+   "why": "Trigeminal nerve (V): the large nerve leaving the side of the pons.",
+   "notes": [
+    "Glossopharyngeal nerve (IX) is leaves the medulla behind the olive, above the vagus.",
+    "Vagus nerve (X) is leaves the medulla behind the olive, below IX.",
+    "Hypoglossal nerve (XII) is leaves the medulla between the pyramid and the olive.",
+    "The large nerve leaving the side of the pons."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "n5"
+    ],
+    "view": [
+     0,
+     0.05,
+     1
+    ]
+   }
+  },
+  {
+   "q": "Which cranial nerve is highlighted in orange?",
+   "options": [
+    "Hypoglossal nerve (XII)",
+    "Abducens nerve (VI)",
+    "Facial nerve (VII)",
+    "Optic nerve (II)"
+   ],
+   "answer": 1,
+   "why": "Abducens nerve (VI): leaves at the pontomedullary junction, near the midline.",
+   "notes": [
+    "Hypoglossal nerve (XII) is leaves the medulla between the pyramid and the olive.",
+    "Leaves at the pontomedullary junction, near the midline.",
+    "Facial nerve (VII) is leaves at the cerebellopontine angle, with VIII.",
+    "Optic nerve (II) is runs from the eye to the optic chiasm."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "n6"
+    ],
+    "view": [
+     0,
+     0.05,
+     1
+    ]
+   }
+  },
+  {
+   "q": "Which cranial nerve is highlighted in orange?",
+   "options": [
+    "Facial nerve (VII)",
+    "Glossopharyngeal nerve (IX)",
+    "Oculomotor nerve (III)",
+    "Optic nerve (II)"
+   ],
+   "answer": 0,
+   "why": "Facial nerve (VII): leaves at the cerebellopontine angle, with VIII.",
+   "notes": [
+    "Leaves at the cerebellopontine angle, with VIII.",
+    "Glossopharyngeal nerve (IX) is leaves the medulla behind the olive, above the vagus.",
+    "Oculomotor nerve (III) is leaves the midbrain between the cerebral peduncles.",
+    "Optic nerve (II) is runs from the eye to the optic chiasm."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "n7"
+    ],
+    "view": [
+     0,
+     0.05,
+     1
+    ]
+   }
+  },
+  {
+   "q": "Which cranial nerve is highlighted in orange?",
+   "options": [
+    "Optic nerve (II)",
+    "Oculomotor nerve (III)",
+    "Glossopharyngeal nerve (IX)",
+    "Vagus nerve (X)"
+   ],
+   "answer": 2,
+   "why": "Glossopharyngeal nerve (IX): leaves the medulla behind the olive, above the vagus.",
+   "notes": [
+    "Optic nerve (II) is runs from the eye to the optic chiasm.",
+    "Oculomotor nerve (III) is leaves the midbrain between the cerebral peduncles.",
+    "Leaves the medulla behind the olive, above the vagus.",
+    "Vagus nerve (X) is leaves the medulla behind the olive, below IX."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "n9"
+    ],
+    "view": [
+     0,
+     0.05,
+     1
+    ]
+   }
+  },
+  {
+   "q": "Which cranial nerve is highlighted in orange?",
+   "options": [
+    "Facial nerve (VII)",
+    "Abducens nerve (VI)",
+    "Hypoglossal nerve (XII)",
+    "Vagus nerve (X)"
+   ],
+   "answer": 3,
+   "why": "Vagus nerve (X): leaves the medulla behind the olive, below IX.",
+   "notes": [
+    "Facial nerve (VII) is leaves at the cerebellopontine angle, with VIII.",
+    "Abducens nerve (VI) is leaves at the pontomedullary junction, near the midline.",
+    "Hypoglossal nerve (XII) is leaves the medulla between the pyramid and the olive.",
+    "Leaves the medulla behind the olive, below IX."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "n10"
+    ],
+    "view": [
+     0,
+     0.05,
+     1
+    ]
+   }
+  },
+  {
+   "q": "Which cranial nerve is highlighted in orange?",
+   "options": [
+    "Hypoglossal nerve (XII)",
+    "Abducens nerve (VI)",
+    "Vagus nerve (X)",
+    "Oculomotor nerve (III)"
+   ],
+   "answer": 0,
+   "why": "Hypoglossal nerve (XII): leaves the medulla between the pyramid and the olive.",
+   "notes": [
+    "Leaves the medulla between the pyramid and the olive.",
+    "Abducens nerve (VI) is leaves at the pontomedullary junction, near the midline.",
+    "Vagus nerve (X) is leaves the medulla behind the olive, below IX.",
+    "Oculomotor nerve (III) is leaves the midbrain between the cerebral peduncles."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "n12"
+    ],
+    "view": [
+     0,
+     0.05,
+     1
+    ]
+   }
   }
  ],
  "cards": [
@@ -29302,6 +30362,1352 @@ SINA.lectures["anat3-cerebrum"] = {
      "n": 35
     }
    ]
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Superior frontal gyrus",
+    "Superior temporal gyrus",
+    "Paracentral lobule",
+    "Middle temporal gyrus"
+   ],
+   "answer": 0,
+   "why": "Superior frontal gyrus: the top gyrus of the frontal lobe, running front to back beside the longitudinal fissure.",
+   "notes": [
+    "The top gyrus of the frontal lobe, running front to back beside the longitudinal fissure.",
+    "Superior temporal gyrus is the top gyrus of the temporal lobe, under the lateral sulcus; its back part holds Wernicke's area.",
+    "Paracentral lobule is the medial continuation of the precentral and postcentral gyri (leg area).",
+    "Middle temporal gyrus is the middle gyrus of the lateral temporal lobe."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "sfg"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Paracentral lobule",
+    "Insula",
+    "Superior temporal gyrus",
+    "Middle frontal gyrus"
+   ],
+   "answer": 3,
+   "why": "Middle frontal gyrus: the middle horizontal gyrus of the lateral frontal lobe.",
+   "notes": [
+    "Paracentral lobule is the medial continuation of the precentral and postcentral gyri (leg area).",
+    "Insula is the cortex hidden deep in the lateral sulcus, covered by the opercula.",
+    "Superior temporal gyrus is the top gyrus of the temporal lobe, under the lateral sulcus; its back part holds Wernicke's area.",
+    "The middle horizontal gyrus of the lateral frontal lobe."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "mfg"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Middle frontal gyrus",
+    "Postcentral gyrus",
+    "Superior temporal gyrus",
+    "Opercular part of the inferior frontal gyrus"
+   ],
+   "answer": 3,
+   "why": "Opercular part of the inferior frontal gyrus: the back part of the inferior frontal gyrus; with the triangular part it forms Broca's area (dominant side).",
+   "notes": [
+    "Middle frontal gyrus is the middle horizontal gyrus of the lateral frontal lobe.",
+    "Postcentral gyrus is the gyrus just behind the central sulcus: the primary somatosensory cortex.",
+    "Superior temporal gyrus is the top gyrus of the temporal lobe, under the lateral sulcus; its back part holds Wernicke's area.",
+    "The back part of the inferior frontal gyrus; with the triangular part it forms Broca's area (dominant side)."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "ifg_op"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Paracentral lobule",
+    "Insula",
+    "Triangular part of the inferior frontal gyrus",
+    "Opercular part of the inferior frontal gyrus"
+   ],
+   "answer": 2,
+   "why": "Triangular part of the inferior frontal gyrus: the middle, triangle-shaped part of the inferior frontal gyrus, part of Broca's area.",
+   "notes": [
+    "Paracentral lobule is the medial continuation of the precentral and postcentral gyri (leg area).",
+    "Insula is the cortex hidden deep in the lateral sulcus, covered by the opercula.",
+    "The middle, triangle-shaped part of the inferior frontal gyrus, part of Broca's area.",
+    "Opercular part of the inferior frontal gyrus is the back part of the inferior frontal gyrus; with the triangular part it forms Broca's area (dominant side)."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "ifg_tri"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Inferior temporal gyrus",
+    "Precentral gyrus",
+    "Parahippocampal gyrus",
+    "Precuneus"
+   ],
+   "answer": 1,
+   "why": "Precentral gyrus: the gyrus just in front of the central sulcus: the primary motor cortex.",
+   "notes": [
+    "Inferior temporal gyrus is the lowest gyrus of the lateral temporal lobe.",
+    "The gyrus just in front of the central sulcus: the primary motor cortex.",
+    "Parahippocampal gyrus is the medial temporal gyrus on the inferior surface, ending in front in the uncus.",
+    "Precuneus is the medial parietal area in front of the parieto-occipital sulcus."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "precg"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Transverse temporal gyri (Heschl)",
+    "Postcentral gyrus",
+    "Inferior temporal gyrus",
+    "Fusiform (lateral occipitotemporal) gyrus"
+   ],
+   "answer": 1,
+   "why": "Postcentral gyrus: the gyrus just behind the central sulcus: the primary somatosensory cortex.",
+   "notes": [
+    "Transverse temporal gyri (Heschl) is the gyri on the upper surface of the temporal lobe, inside the lateral sulcus: the primary auditory cortex.",
+    "The gyrus just behind the central sulcus: the primary somatosensory cortex.",
+    "Inferior temporal gyrus is the lowest gyrus of the lateral temporal lobe.",
+    "Fusiform (lateral occipitotemporal) gyrus is the gyrus on the inferior surface between the inferior temporal and parahippocampal gyri."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "postcg"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Cuneus",
+    "Precuneus",
+    "Superior parietal lobule",
+    "Triangular part of the inferior frontal gyrus"
+   ],
+   "answer": 2,
+   "why": "Superior parietal lobule: the parietal area above the intraparietal sulcus.",
+   "notes": [
+    "Cuneus is the wedge of medial occipital cortex between the calcarine and parieto-occipital sulci.",
+    "Precuneus is the medial parietal area in front of the parieto-occipital sulcus.",
+    "The parietal area above the intraparietal sulcus.",
+    "Triangular part of the inferior frontal gyrus is the middle, triangle-shaped part of the inferior frontal gyrus, part of Broca's area."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "spl"
+    ],
+    "view": [
+     0.6,
+     0.8,
+     -0.3
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Postcentral gyrus",
+    "Lingual gyrus",
+    "Supramarginal gyrus",
+    "Cingulate gyrus"
+   ],
+   "answer": 2,
+   "why": "Supramarginal gyrus: the parietal gyrus arching around the end of the lateral sulcus.",
+   "notes": [
+    "Postcentral gyrus is the gyrus just behind the central sulcus: the primary somatosensory cortex.",
+    "Lingual gyrus is the medial occipital gyrus below the calcarine sulcus.",
+    "The parietal gyrus arching around the end of the lateral sulcus.",
+    "Cingulate gyrus is the gyrus arching around the corpus callosum on the medial surface (limbic lobe)."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "smg"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Temporal pole",
+    "Angular gyrus",
+    "Superior temporal gyrus",
+    "Cingulate gyrus"
+   ],
+   "answer": 1,
+   "why": "Angular gyrus: the parietal gyrus arching around the end of the superior temporal sulcus.",
+   "notes": [
+    "Temporal pole is the front tip of the temporal lobe.",
+    "The parietal gyrus arching around the end of the superior temporal sulcus.",
+    "Superior temporal gyrus is the top gyrus of the temporal lobe, under the lateral sulcus; its back part holds Wernicke's area.",
+    "Cingulate gyrus is the gyrus arching around the corpus callosum on the medial surface (limbic lobe)."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "ag"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Insula",
+    "Supramarginal gyrus",
+    "Temporal pole",
+    "Superior temporal gyrus"
+   ],
+   "answer": 3,
+   "why": "Superior temporal gyrus: the top gyrus of the temporal lobe, under the lateral sulcus; its back part holds Wernicke's area.",
+   "notes": [
+    "Insula is the cortex hidden deep in the lateral sulcus, covered by the opercula.",
+    "Supramarginal gyrus is the parietal gyrus arching around the end of the lateral sulcus.",
+    "Temporal pole is the front tip of the temporal lobe.",
+    "The top gyrus of the temporal lobe, under the lateral sulcus; its back part holds Wernicke's area."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "stg"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Middle temporal gyrus",
+    "Cuneus",
+    "Insula",
+    "Gyrus rectus (straight gyrus)"
+   ],
+   "answer": 0,
+   "why": "Middle temporal gyrus: the middle gyrus of the lateral temporal lobe.",
+   "notes": [
+    "The middle gyrus of the lateral temporal lobe.",
+    "Cuneus is the wedge of medial occipital cortex between the calcarine and parieto-occipital sulci.",
+    "Insula is the cortex hidden deep in the lateral sulcus, covered by the opercula.",
+    "Gyrus rectus (straight gyrus) is the straight gyrus on the orbital surface, beside the midline."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "mtg"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Inferior temporal gyrus",
+    "Superior temporal gyrus",
+    "Temporal pole",
+    "Insula"
+   ],
+   "answer": 0,
+   "why": "Inferior temporal gyrus: the lowest gyrus of the lateral temporal lobe.",
+   "notes": [
+    "The lowest gyrus of the lateral temporal lobe.",
+    "Superior temporal gyrus is the top gyrus of the temporal lobe, under the lateral sulcus; its back part holds Wernicke's area.",
+    "Temporal pole is the front tip of the temporal lobe.",
+    "Insula is the cortex hidden deep in the lateral sulcus, covered by the opercula."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "itg"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Paracentral lobule",
+    "Triangular part of the inferior frontal gyrus",
+    "Temporal pole",
+    "Lingual gyrus"
+   ],
+   "answer": 2,
+   "why": "Temporal pole: the front tip of the temporal lobe.",
+   "notes": [
+    "Paracentral lobule is the medial continuation of the precentral and postcentral gyri (leg area).",
+    "Triangular part of the inferior frontal gyrus is the middle, triangle-shaped part of the inferior frontal gyrus, part of Broca's area.",
+    "The front tip of the temporal lobe.",
+    "Lingual gyrus is the medial occipital gyrus below the calcarine sulcus."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "tpole"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Lateral occipital gyri",
+    "Triangular part of the inferior frontal gyrus",
+    "Cuneus",
+    "Insula"
+   ],
+   "answer": 0,
+   "why": "Lateral occipital gyri: the gyri on the lateral surface of the occipital lobe, at the back of the hemisphere.",
+   "notes": [
+    "The gyri on the lateral surface of the occipital lobe, at the back of the hemisphere.",
+    "Triangular part of the inferior frontal gyrus is the middle, triangle-shaped part of the inferior frontal gyrus, part of Broca's area.",
+    "Cuneus is the wedge of medial occipital cortex between the calcarine and parieto-occipital sulci.",
+    "Insula is the cortex hidden deep in the lateral sulcus, covered by the opercula."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "oc_lat"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Inferior temporal gyrus",
+    "Angular gyrus",
+    "Insula",
+    "Superior parietal lobule"
+   ],
+   "answer": 2,
+   "why": "Insula: the cortex hidden deep in the lateral sulcus, covered by the opercula.",
+   "notes": [
+    "Inferior temporal gyrus is the lowest gyrus of the lateral temporal lobe.",
+    "Angular gyrus is the parietal gyrus arching around the end of the superior temporal sulcus.",
+    "The cortex hidden deep in the lateral sulcus, covered by the opercula.",
+    "Superior parietal lobule is the parietal area above the intraparietal sulcus."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "insula"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ],
+    "ghost": [
+     "ifg_op",
+     "ifg_tri",
+     "ifg_orb",
+     "precg",
+     "postcg",
+     "smg",
+     "stg",
+     "lat",
+     "mfg",
+     "ag",
+     "mtg",
+     "tpole",
+     "fr_sulci",
+     "pa_sulci",
+     "te_sulci",
+     "cs",
+     "sfg",
+     "spl",
+     "itg",
+     "oc_lat",
+     "orb"
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Parahippocampal gyrus",
+    "Opercular part of the inferior frontal gyrus",
+    "Postcentral gyrus",
+    "Transverse temporal gyri (Heschl)"
+   ],
+   "answer": 3,
+   "why": "Transverse temporal gyri (Heschl): the gyri on the upper surface of the temporal lobe, inside the lateral sulcus: the primary auditory cortex.",
+   "notes": [
+    "Parahippocampal gyrus is the medial temporal gyrus on the inferior surface, ending in front in the uncus.",
+    "Opercular part of the inferior frontal gyrus is the back part of the inferior frontal gyrus; with the triangular part it forms Broca's area (dominant side).",
+    "Postcentral gyrus is the gyrus just behind the central sulcus: the primary somatosensory cortex.",
+    "The gyri on the upper surface of the temporal lobe, inside the lateral sulcus: the primary auditory cortex."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "heschl"
+    ],
+    "view": [
+     0.6,
+     0.8,
+     0.2
+    ],
+    "ghost": [
+     "ifg_op",
+     "ifg_tri",
+     "ifg_orb",
+     "precg",
+     "postcg",
+     "smg",
+     "stg",
+     "lat",
+     "mfg",
+     "ag",
+     "mtg",
+     "tpole",
+     "fr_sulci",
+     "pa_sulci",
+     "te_sulci",
+     "cs",
+     "sfg",
+     "spl",
+     "itg",
+     "oc_lat",
+     "orb"
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Parahippocampal gyrus",
+    "Transverse temporal gyri (Heschl)",
+    "Cingulate gyrus",
+    "Precentral gyrus"
+   ],
+   "answer": 2,
+   "why": "Cingulate gyrus: the gyrus arching around the corpus callosum on the medial surface (limbic lobe).",
+   "notes": [
+    "Parahippocampal gyrus is the medial temporal gyrus on the inferior surface, ending in front in the uncus.",
+    "Transverse temporal gyri (Heschl) is the gyri on the upper surface of the temporal lobe, inside the lateral sulcus: the primary auditory cortex.",
+    "The gyrus arching around the corpus callosum on the medial surface (limbic lobe).",
+    "Precentral gyrus is the gyrus just in front of the central sulcus: the primary motor cortex."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "cing"
+    ],
+    "view": [
+     -1,
+     0.1,
+     0.05
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Postcentral gyrus",
+    "Paracentral lobule",
+    "Temporal pole",
+    "Corpus callosum"
+   ],
+   "answer": 3,
+   "why": "Corpus callosum: the large arched band of white matter joining the two hemispheres.",
+   "notes": [
+    "Postcentral gyrus is the gyrus just behind the central sulcus: the primary somatosensory cortex.",
+    "Paracentral lobule is the medial continuation of the precentral and postcentral gyri (leg area).",
+    "Temporal pole is the front tip of the temporal lobe.",
+    "The large arched band of white matter joining the two hemispheres."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "cc"
+    ],
+    "view": [
+     -1,
+     0.1,
+     0.05
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Triangular part of the inferior frontal gyrus",
+    "Lingual gyrus",
+    "Temporal pole",
+    "Precuneus"
+   ],
+   "answer": 3,
+   "why": "Precuneus: the medial parietal area in front of the parieto-occipital sulcus.",
+   "notes": [
+    "Triangular part of the inferior frontal gyrus is the middle, triangle-shaped part of the inferior frontal gyrus, part of Broca's area.",
+    "Lingual gyrus is the medial occipital gyrus below the calcarine sulcus.",
+    "Temporal pole is the front tip of the temporal lobe.",
+    "The medial parietal area in front of the parieto-occipital sulcus."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "precun"
+    ],
+    "view": [
+     -1,
+     0.1,
+     0.05
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Supramarginal gyrus",
+    "Angular gyrus",
+    "Cuneus",
+    "Opercular part of the inferior frontal gyrus"
+   ],
+   "answer": 2,
+   "why": "Cuneus: the wedge of medial occipital cortex between the calcarine and parieto-occipital sulci.",
+   "notes": [
+    "Supramarginal gyrus is the parietal gyrus arching around the end of the lateral sulcus.",
+    "Angular gyrus is the parietal gyrus arching around the end of the superior temporal sulcus.",
+    "The wedge of medial occipital cortex between the calcarine and parieto-occipital sulci.",
+    "Opercular part of the inferior frontal gyrus is the back part of the inferior frontal gyrus; with the triangular part it forms Broca's area (dominant side)."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "cuneus"
+    ],
+    "view": [
+     -1,
+     0.1,
+     0.05
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Lingual gyrus",
+    "Postcentral gyrus",
+    "Precentral gyrus",
+    "Triangular part of the inferior frontal gyrus"
+   ],
+   "answer": 0,
+   "why": "Lingual gyrus: the medial occipital gyrus below the calcarine sulcus.",
+   "notes": [
+    "The medial occipital gyrus below the calcarine sulcus.",
+    "Postcentral gyrus is the gyrus just behind the central sulcus: the primary somatosensory cortex.",
+    "Precentral gyrus is the gyrus just in front of the central sulcus: the primary motor cortex.",
+    "Triangular part of the inferior frontal gyrus is the middle, triangle-shaped part of the inferior frontal gyrus, part of Broca's area."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "lingual"
+    ],
+    "view": [
+     -1,
+     0.1,
+     0.05
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Supramarginal gyrus",
+    "Paracentral lobule",
+    "Transverse temporal gyri (Heschl)",
+    "Triangular part of the inferior frontal gyrus"
+   ],
+   "answer": 1,
+   "why": "Paracentral lobule: the medial continuation of the precentral and postcentral gyri (leg area).",
+   "notes": [
+    "Supramarginal gyrus is the parietal gyrus arching around the end of the lateral sulcus.",
+    "The medial continuation of the precentral and postcentral gyri (leg area).",
+    "Transverse temporal gyri (Heschl) is the gyri on the upper surface of the temporal lobe, inside the lateral sulcus: the primary auditory cortex.",
+    "Triangular part of the inferior frontal gyrus is the middle, triangle-shaped part of the inferior frontal gyrus, part of Broca's area."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "paracentral"
+    ],
+    "view": [
+     -1,
+     0.1,
+     0.05
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Cuneus",
+    "Cingulate gyrus",
+    "Insula",
+    "Parahippocampal gyrus"
+   ],
+   "answer": 3,
+   "why": "Parahippocampal gyrus: the medial temporal gyrus on the inferior surface, ending in front in the uncus.",
+   "notes": [
+    "Cuneus is the wedge of medial occipital cortex between the calcarine and parieto-occipital sulci.",
+    "Cingulate gyrus is the gyrus arching around the corpus callosum on the medial surface (limbic lobe).",
+    "Insula is the cortex hidden deep in the lateral sulcus, covered by the opercula.",
+    "The medial temporal gyrus on the inferior surface, ending in front in the uncus."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "parahipp"
+    ],
+    "view": [
+     0,
+     -1,
+     0.2
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Fusiform (lateral occipitotemporal) gyrus",
+    "Paracentral lobule",
+    "Temporal pole",
+    "Triangular part of the inferior frontal gyrus"
+   ],
+   "answer": 0,
+   "why": "Fusiform (lateral occipitotemporal) gyrus: the gyrus on the inferior surface between the inferior temporal and parahippocampal gyri.",
+   "notes": [
+    "The gyrus on the inferior surface between the inferior temporal and parahippocampal gyri.",
+    "Paracentral lobule is the medial continuation of the precentral and postcentral gyri (leg area).",
+    "Temporal pole is the front tip of the temporal lobe.",
+    "Triangular part of the inferior frontal gyrus is the middle, triangle-shaped part of the inferior frontal gyrus, part of Broca's area."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "fusiform"
+    ],
+    "view": [
+     0,
+     -1,
+     0.2
+    ]
+   }
+  },
+  {
+   "q": "Which gyrus or area is highlighted in orange?",
+   "options": [
+    "Gyrus rectus (straight gyrus)",
+    "Middle frontal gyrus",
+    "Fusiform (lateral occipitotemporal) gyrus",
+    "Cuneus"
+   ],
+   "answer": 0,
+   "why": "Gyrus rectus (straight gyrus): the straight gyrus on the orbital surface, beside the midline.",
+   "notes": [
+    "The straight gyrus on the orbital surface, beside the midline.",
+    "Middle frontal gyrus is the middle horizontal gyrus of the lateral frontal lobe.",
+    "Fusiform (lateral occipitotemporal) gyrus is the gyrus on the inferior surface between the inferior temporal and parahippocampal gyri.",
+    "Cuneus is the wedge of medial occipital cortex between the calcarine and parieto-occipital sulci."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "rectus"
+    ],
+    "view": [
+     0,
+     -1,
+     0.2
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Caudate nucleus",
+    "Amygdala",
+    "Putamen",
+    "Globus pallidus"
+   ],
+   "answer": 0,
+   "why": "Caudate nucleus: the C-shaped nucleus curving along the lateral ventricle.",
+   "notes": [
+    "The C-shaped nucleus curving along the lateral ventricle.",
+    "Amygdala is the almond-shaped nucleus in front of the hippocampus, at the tip of the temporal horn: emotion.",
+    "Putamen is the outer part of the lentiform nucleus.",
+    "Globus pallidus is the inner part of the lentiform nucleus, medial to the putamen."
+   ],
+   "m3d": {
+    "m": "deep",
+    "hl": [
+     "caud"
+    ],
+    "view": [
+     1,
+     0.3,
+     0.6
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Amygdala",
+    "Putamen",
+    "Globus pallidus",
+    "Fornix"
+   ],
+   "answer": 1,
+   "why": "Putamen: the outer part of the lentiform nucleus.",
+   "notes": [
+    "Amygdala is the almond-shaped nucleus in front of the hippocampus, at the tip of the temporal horn: emotion.",
+    "The outer part of the lentiform nucleus.",
+    "Globus pallidus is the inner part of the lentiform nucleus, medial to the putamen.",
+    "Fornix is the arched fibre tract from the hippocampus to the mammillary bodies."
+   ],
+   "m3d": {
+    "m": "deep",
+    "hl": [
+     "put"
+    ],
+    "view": [
+     1,
+     0.3,
+     0.6
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Caudate nucleus",
+    "Amygdala",
+    "Globus pallidus",
+    "Putamen"
+   ],
+   "answer": 2,
+   "why": "Globus pallidus: the inner part of the lentiform nucleus, medial to the putamen.",
+   "notes": [
+    "Caudate nucleus is the C-shaped nucleus curving along the lateral ventricle.",
+    "Amygdala is the almond-shaped nucleus in front of the hippocampus, at the tip of the temporal horn: emotion.",
+    "The inner part of the lentiform nucleus, medial to the putamen.",
+    "Putamen is the outer part of the lentiform nucleus."
+   ],
+   "m3d": {
+    "m": "deep",
+    "hl": [
+     "gp"
+    ],
+    "view": [
+     1,
+     0.3,
+     0.6
+    ],
+    "ghost": [
+     "put"
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Globus pallidus",
+    "Amygdala",
+    "Fornix",
+    "Hippocampus"
+   ],
+   "answer": 3,
+   "why": "Hippocampus: the curved structure in the floor of the temporal horn: memory.",
+   "notes": [
+    "Globus pallidus is the inner part of the lentiform nucleus, medial to the putamen.",
+    "Amygdala is the almond-shaped nucleus in front of the hippocampus, at the tip of the temporal horn: emotion.",
+    "Fornix is the arched fibre tract from the hippocampus to the mammillary bodies.",
+    "The curved structure in the floor of the temporal horn: memory."
+   ],
+   "m3d": {
+    "m": "deep",
+    "hl": [
+     "hipp"
+    ],
+    "view": [
+     1,
+     -0.2,
+     0.3
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Hippocampus",
+    "Amygdala",
+    "Globus pallidus",
+    "Putamen"
+   ],
+   "answer": 1,
+   "why": "Amygdala: the almond-shaped nucleus in front of the hippocampus, at the tip of the temporal horn: emotion.",
+   "notes": [
+    "Hippocampus is the curved structure in the floor of the temporal horn: memory.",
+    "The almond-shaped nucleus in front of the hippocampus, at the tip of the temporal horn: emotion.",
+    "Globus pallidus is the inner part of the lentiform nucleus, medial to the putamen.",
+    "Putamen is the outer part of the lentiform nucleus."
+   ],
+   "m3d": {
+    "m": "deep",
+    "hl": [
+     "amyg"
+    ],
+    "view": [
+     1,
+     -0.2,
+     0.3
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Globus pallidus",
+    "Hippocampus",
+    "Fornix",
+    "Putamen"
+   ],
+   "answer": 2,
+   "why": "Fornix: the arched fibre tract from the hippocampus to the mammillary bodies.",
+   "notes": [
+    "Globus pallidus is the inner part of the lentiform nucleus, medial to the putamen.",
+    "Hippocampus is the curved structure in the floor of the temporal horn: memory.",
+    "The arched fibre tract from the hippocampus to the mammillary bodies.",
+    "Putamen is the outer part of the lentiform nucleus."
+   ],
+   "m3d": {
+    "m": "deep",
+    "hl": [
+     "fornix"
+    ],
+    "view": [
+     1,
+     0.3,
+     0.2
+    ],
+    "ghost": [
+     "caud",
+     "put",
+     "gp",
+     "latv"
+    ]
+   }
+  },
+  {
+   "q": "Which lobe is highlighted in orange?",
+   "options": [
+    "Parietal lobe",
+    "Temporal lobe",
+    "Frontal lobe",
+    "Occipital lobe"
+   ],
+   "answer": 2,
+   "why": "Frontal lobe: in front of the central sulcus and above the lateral sulcus.",
+   "notes": [
+    "The parietal lobe lies behind the central sulcus, above the lateral sulcus, in front of the parieto-occipital sulcus.",
+    "The temporal lobe lies below the lateral sulcus.",
+    "The frontal lobe lies in front of the central sulcus and above the lateral sulcus.",
+    "The occipital lobe lies at the back, behind the parieto-occipital sulcus."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "sfg",
+     "mfg",
+     "ifg_op",
+     "ifg_tri",
+     "ifg_orb",
+     "precg",
+     "orb",
+     "rectus",
+     "fr_sulci"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which lobe is highlighted in orange?",
+   "options": [
+    "Temporal lobe",
+    "Parietal lobe",
+    "Occipital lobe",
+    "Frontal lobe"
+   ],
+   "answer": 1,
+   "why": "Parietal lobe: behind the central sulcus, above the lateral sulcus, in front of the parieto-occipital sulcus.",
+   "notes": [
+    "The temporal lobe lies below the lateral sulcus.",
+    "The parietal lobe lies behind the central sulcus, above the lateral sulcus, in front of the parieto-occipital sulcus.",
+    "The occipital lobe lies at the back, behind the parieto-occipital sulcus.",
+    "The frontal lobe lies in front of the central sulcus and above the lateral sulcus."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "postcg",
+     "spl",
+     "smg",
+     "ag",
+     "precun",
+     "paracentral",
+     "pa_sulci"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which lobe is highlighted in orange?",
+   "options": [
+    "Parietal lobe",
+    "Occipital lobe",
+    "Frontal lobe",
+    "Temporal lobe"
+   ],
+   "answer": 3,
+   "why": "Temporal lobe: below the lateral sulcus.",
+   "notes": [
+    "The parietal lobe lies behind the central sulcus, above the lateral sulcus, in front of the parieto-occipital sulcus.",
+    "The occipital lobe lies at the back, behind the parieto-occipital sulcus.",
+    "The frontal lobe lies in front of the central sulcus and above the lateral sulcus.",
+    "The temporal lobe lies below the lateral sulcus."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "stg",
+     "mtg",
+     "itg",
+     "tpole",
+     "heschl",
+     "fusiform",
+     "parahipp",
+     "te_sulci"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which lobe is highlighted in orange?",
+   "options": [
+    "Parietal lobe",
+    "Frontal lobe",
+    "Temporal lobe",
+    "Occipital lobe"
+   ],
+   "answer": 3,
+   "why": "Occipital lobe: at the back, behind the parieto-occipital sulcus.",
+   "notes": [
+    "The parietal lobe lies behind the central sulcus, above the lateral sulcus, in front of the parieto-occipital sulcus.",
+    "The frontal lobe lies in front of the central sulcus and above the lateral sulcus.",
+    "The temporal lobe lies below the lateral sulcus.",
+    "The occipital lobe lies at the back, behind the parieto-occipital sulcus."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "cuneus",
+     "lingual",
+     "oc_lat",
+     "calc",
+     "oc_sulci"
+    ],
+    "view": [
+     -1,
+     0.1,
+     0.05
+    ]
+   }
+  },
+  {
+   "q": "Which functional area is highlighted in orange?",
+   "options": [
+    "Primary somatosensory cortex",
+    "Primary motor cortex",
+    "Primary visual cortex",
+    "Primary auditory cortex"
+   ],
+   "answer": 1,
+   "why": "The precentral gyrus, in front of the central sulcus, is the primary motor cortex (motor strip).",
+   "notes": [
+    "Primary somatosensory cortex lies in the postcentral gyrus.",
+    "Primary motor cortex lies in the precentral gyrus.",
+    "Primary visual cortex lies in the banks of the calcarine sulcus.",
+    "Primary auditory cortex lies in the transverse temporal gyri (Heschl)."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "precg"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which functional area is highlighted in orange?",
+   "options": [
+    "Primary motor cortex",
+    "Primary auditory cortex",
+    "Primary somatosensory cortex",
+    "Broca's area (speech production)"
+   ],
+   "answer": 2,
+   "why": "The postcentral gyrus, behind the central sulcus, is the primary sensory cortex for touch, pain and temperature.",
+   "notes": [
+    "Primary motor cortex lies in the precentral gyrus.",
+    "Primary auditory cortex lies in the transverse temporal gyri (Heschl).",
+    "Primary somatosensory cortex lies in the postcentral gyrus.",
+    "Broca's area (speech production) lies in the opercular and triangular parts of the inferior frontal gyrus."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "postcg"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which functional area is highlighted in orange?",
+   "options": [
+    "Primary auditory cortex",
+    "Primary motor cortex",
+    "Primary visual cortex",
+    "Broca's area (speech production)"
+   ],
+   "answer": 2,
+   "why": "The banks of the calcarine sulcus, between cuneus and lingual gyrus, hold the primary visual cortex.",
+   "notes": [
+    "Primary auditory cortex lies in the transverse temporal gyri (Heschl).",
+    "Primary motor cortex lies in the precentral gyrus.",
+    "Primary visual cortex lies in the banks of the calcarine sulcus.",
+    "Broca's area (speech production) lies in the opercular and triangular parts of the inferior frontal gyrus."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "cuneus",
+     "lingual",
+     "calc"
+    ],
+    "view": [
+     -1,
+     0.1,
+     0.05
+    ]
+   }
+  },
+  {
+   "q": "Which functional area is highlighted in orange?",
+   "options": [
+    "Primary motor cortex",
+    "Primary auditory cortex",
+    "Broca's area (speech production)",
+    "Primary somatosensory cortex"
+   ],
+   "answer": 1,
+   "why": "The transverse temporal gyri (Heschl) are the primary auditory cortex.",
+   "notes": [
+    "Primary motor cortex lies in the precentral gyrus.",
+    "Primary auditory cortex lies in the transverse temporal gyri (Heschl).",
+    "Broca's area (speech production) lies in the opercular and triangular parts of the inferior frontal gyrus.",
+    "Primary somatosensory cortex lies in the postcentral gyrus."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "heschl"
+    ],
+    "view": [
+     0.6,
+     0.8,
+     0.2
+    ],
+    "ghost": [
+     "ifg_op",
+     "ifg_tri",
+     "ifg_orb",
+     "precg",
+     "postcg",
+     "smg",
+     "stg",
+     "lat",
+     "mfg",
+     "ag",
+     "mtg",
+     "tpole",
+     "fr_sulci",
+     "pa_sulci",
+     "te_sulci",
+     "cs",
+     "sfg",
+     "spl",
+     "itg",
+     "oc_lat",
+     "orb"
+    ]
+   }
+  },
+  {
+   "q": "Which functional area is highlighted in orange?",
+   "options": [
+    "Broca's area (speech production)",
+    "Primary motor cortex",
+    "Primary somatosensory cortex",
+    "Primary visual cortex"
+   ],
+   "answer": 0,
+   "why": "The opercular and triangular parts of the inferior frontal gyrus form Broca's area on the dominant side.",
+   "notes": [
+    "Broca's area (speech production) lies in the opercular and triangular parts of the inferior frontal gyrus.",
+    "Primary motor cortex lies in the precentral gyrus.",
+    "Primary somatosensory cortex lies in the postcentral gyrus.",
+    "Primary visual cortex lies in the banks of the calcarine sulcus."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "ifg_op",
+     "ifg_tri"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which sulcus lies between the highlighted gyri?",
+   "options": [
+    "Central sulcus (Rolando)",
+    "Parieto-occipital sulcus",
+    "Cingulate sulcus",
+    "Lateral sulcus (Sylvius)"
+   ],
+   "answer": 0,
+   "why": "The central sulcus separates the precentral gyrus (motor) in front from the postcentral gyrus (sensory) behind.",
+   "notes": [
+    "The central sulcus separates the precentral gyrus (motor) in front from the postcentral gyrus (sensory) behind.",
+    "The parieto-occipital sulcus separates the parietal and occipital lobes on the medial surface.",
+    "The cingulate sulcus runs above the cingulate gyrus on the medial surface.",
+    "The lateral sulcus (Sylvius) separates the temporal lobe from the frontal and parietal lobes."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "precg",
+     "postcg"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
+  },
+  {
+   "q": "Which sulcus lies between the highlighted gyri?",
+   "options": [
+    "Calcarine sulcus",
+    "Central sulcus (Rolando)",
+    "Lateral sulcus (Sylvius)",
+    "Parieto-occipital sulcus"
+   ],
+   "answer": 0,
+   "why": "The calcarine sulcus runs between the cuneus above and the lingual gyrus below; its banks are the primary visual cortex.",
+   "notes": [
+    "The calcarine sulcus runs between the cuneus above and the lingual gyrus below; its banks are the primary visual cortex.",
+    "The central sulcus (Rolando) separates the frontal and parietal lobes on the lateral surface.",
+    "The lateral sulcus (Sylvius) separates the temporal lobe from the frontal and parietal lobes.",
+    "The parieto-occipital sulcus separates the parietal and occipital lobes on the medial surface."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "cuneus",
+     "lingual"
+    ],
+    "view": [
+     -1,
+     0.1,
+     0.05
+    ]
+   }
+  },
+  {
+   "q": "Which sulcus lies between the highlighted gyri?",
+   "options": [
+    "Intraparietal sulcus",
+    "Calcarine sulcus",
+    "Cingulate sulcus",
+    "Parieto-occipital sulcus"
+   ],
+   "answer": 3,
+   "why": "The parieto-occipital sulcus separates the precuneus (parietal) from the cuneus (occipital).",
+   "notes": [
+    "The intraparietal sulcus divides the superior from the inferior parietal lobule.",
+    "The calcarine sulcus runs on the medial occipital lobe between cuneus and lingual gyrus.",
+    "The cingulate sulcus runs above the cingulate gyrus on the medial surface.",
+    "The parieto-occipital sulcus separates the precuneus (parietal) from the cuneus (occipital)."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "precun",
+     "cuneus"
+    ],
+    "view": [
+     -1,
+     0.1,
+     0.05
+    ]
+   }
+  },
+  {
+   "q": "Which sulcus lies between the highlighted gyri?",
+   "options": [
+    "Lateral sulcus (Sylvius)",
+    "Parieto-occipital sulcus",
+    "Intraparietal sulcus",
+    "Calcarine sulcus"
+   ],
+   "answer": 0,
+   "why": "The lateral sulcus separates the superior temporal gyrus below from the frontal and parietal gyri above.",
+   "notes": [
+    "The lateral sulcus separates the superior temporal gyrus below from the frontal and parietal gyri above.",
+    "The parieto-occipital sulcus separates the parietal and occipital lobes on the medial surface.",
+    "The intraparietal sulcus divides the superior from the inferior parietal lobule.",
+    "The calcarine sulcus runs on the medial occipital lobe between cuneus and lingual gyrus."
+   ],
+   "m3d": {
+    "m": "cerebrum",
+    "hl": [
+     "stg",
+     "ifg_op",
+     "ifg_tri",
+     "postcg",
+     "precg",
+     "smg"
+    ],
+    "view": [
+     1,
+     0.15,
+     0.25
+    ]
+   }
   }
  ],
  "cards": [
@@ -31208,6 +33614,268 @@ SINA.lectures["anat3-diencephalon"] = {
      "n": 10
     }
    ]
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Thalamus",
+    "Optic chiasm",
+    "Mammillary bodies",
+    "Pineal gland"
+   ],
+   "answer": 0,
+   "why": "Thalamus: the large paired grey mass of the diencephalon, the sensory relay.",
+   "notes": [
+    "The large paired grey mass of the diencephalon, the sensory relay.",
+    "Optic chiasm is where the optic nerves meet and partly cross, in front of the hypothalamus.",
+    "Mammillary bodies is the pair of round swellings behind the infundibulum (hypothalamus).",
+    "Pineal gland is the small midline gland above the superior colliculi; secretes melatonin."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "thal"
+    ],
+    "view": [
+     0,
+     0.3,
+     -1
+    ],
+    "ghost": [
+     "vermis",
+     "cb_ant",
+     "cb_post",
+     "tonsil",
+     "flocc"
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Lateral geniculate body",
+    "Pineal gland",
+    "Thalamus",
+    "Optic chiasm"
+   ],
+   "answer": 1,
+   "why": "Pineal gland: the small midline gland above the superior colliculi; secretes melatonin.",
+   "notes": [
+    "Lateral geniculate body is the thalamic relay for vision.",
+    "The small midline gland above the superior colliculi; secretes melatonin.",
+    "Thalamus is the large paired grey mass of the diencephalon, the sensory relay.",
+    "Optic chiasm is where the optic nerves meet and partly cross, in front of the hypothalamus."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "pineal"
+    ],
+    "view": [
+     0,
+     0.3,
+     -1
+    ],
+    "ghost": [
+     "vermis",
+     "cb_ant",
+     "cb_post",
+     "tonsil",
+     "flocc"
+    ],
+    "focus": true
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Pineal gland",
+    "Thalamus",
+    "Lateral geniculate body",
+    "Mammillary bodies"
+   ],
+   "answer": 2,
+   "why": "Lateral geniculate body: the thalamic relay for vision.",
+   "notes": [
+    "Pineal gland is the small midline gland above the superior colliculi; secretes melatonin.",
+    "Thalamus is the large paired grey mass of the diencephalon, the sensory relay.",
+    "The thalamic relay for vision.",
+    "Mammillary bodies is the pair of round swellings behind the infundibulum (hypothalamus)."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "lgb"
+    ],
+    "view": [
+     0.8,
+     0.3,
+     -0.6
+    ],
+    "ghost": [
+     "vermis",
+     "cb_ant",
+     "cb_post",
+     "tonsil",
+     "flocc"
+    ],
+    "focus": true
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Pineal gland",
+    "Optic chiasm",
+    "Thalamus",
+    "Mammillary bodies"
+   ],
+   "answer": 3,
+   "why": "Mammillary bodies: the pair of round swellings behind the infundibulum (hypothalamus).",
+   "notes": [
+    "Pineal gland is the small midline gland above the superior colliculi; secretes melatonin.",
+    "Optic chiasm is where the optic nerves meet and partly cross, in front of the hypothalamus.",
+    "Thalamus is the large paired grey mass of the diencephalon, the sensory relay.",
+    "The pair of round swellings behind the infundibulum (hypothalamus)."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "mamm"
+    ],
+    "view": [
+     0,
+     -0.6,
+     1
+    ],
+    "focus": true
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Optic chiasm",
+    "Mammillary bodies",
+    "Lateral geniculate body",
+    "Pineal gland"
+   ],
+   "answer": 0,
+   "why": "Optic chiasm: where the optic nerves meet and partly cross, in front of the hypothalamus.",
+   "notes": [
+    "Where the optic nerves meet and partly cross, in front of the hypothalamus.",
+    "Mammillary bodies is the pair of round swellings behind the infundibulum (hypothalamus).",
+    "Lateral geniculate body is the thalamic relay for vision.",
+    "Pineal gland is the small midline gland above the superior colliculi; secretes melatonin."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "chiasm"
+    ],
+    "view": [
+     0,
+     -0.6,
+     1
+    ],
+    "focus": true
+   }
+  },
+  {
+   "q": "Which cranial nerve is highlighted in orange?",
+   "options": [
+    "Abducens nerve (VI)",
+    "Glossopharyngeal nerve (IX)",
+    "Optic nerve (II)",
+    "Vagus nerve (X)"
+   ],
+   "answer": 2,
+   "why": "Optic nerve (II): runs from the eye to the optic chiasm.",
+   "notes": [
+    "Abducens nerve (VI) is leaves at the pontomedullary junction, near the midline.",
+    "Glossopharyngeal nerve (IX) is leaves the medulla behind the olive, above the vagus.",
+    "Runs from the eye to the optic chiasm.",
+    "Vagus nerve (X) is leaves the medulla behind the olive, below IX."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "n2"
+    ],
+    "view": [
+     0,
+     -0.6,
+     1
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Thalamus",
+    "Hypothalamus",
+    "Caudate nucleus",
+    "Cerebral aqueduct"
+   ],
+   "answer": 0,
+   "why": "Thalamus: the large paired grey mass on either side of the third ventricle.",
+   "notes": [
+    "The large paired grey mass on either side of the third ventricle.",
+    "Hypothalamus is the region below the thalamus, forming the floor of the third ventricle.",
+    "Caudate nucleus is the C-shaped nucleus curving along the lateral ventricle.",
+    "Cerebral aqueduct is the narrow channel through the midbrain from the third to the fourth ventricle."
+   ],
+   "m3d": {
+    "m": "deep",
+    "hl": [
+     "thal"
+    ],
+    "view": [
+     1,
+     0.3,
+     0.4
+    ],
+    "ghost": [
+     "caud",
+     "put",
+     "gp",
+     "latv"
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Hypothalamus",
+    "Thalamus",
+    "Putamen",
+    "Caudate nucleus"
+   ],
+   "answer": 0,
+   "why": "Hypothalamus: the region below the thalamus, forming the floor of the third ventricle.",
+   "notes": [
+    "The region below the thalamus, forming the floor of the third ventricle.",
+    "Thalamus is the large paired grey mass on either side of the third ventricle.",
+    "Putamen is the outer part of the lentiform nucleus.",
+    "Caudate nucleus is the C-shaped nucleus curving along the lateral ventricle."
+   ],
+   "m3d": {
+    "m": "deep",
+    "hl": [
+     "hypo"
+    ],
+    "view": [
+     1,
+     -0.1,
+     0.4
+    ],
+    "ghost": [
+     "caud",
+     "put",
+     "gp",
+     "latv"
+    ],
+    "focus": true
+   }
   }
  ],
  "cards": [
@@ -35443,6 +38111,230 @@ SINA.lectures["anat3-ventricles"] = {
      "n": 49
     }
    ]
+  },
+  {
+   "q": "Which part of the ventricular system is highlighted in orange?",
+   "options": [
+    "Lateral ventricle",
+    "Choroid plexus",
+    "Cerebral aqueduct",
+    "Fourth ventricle"
+   ],
+   "answer": 0,
+   "why": "Lateral ventricle: the C-shaped ventricle in each hemisphere.",
+   "notes": [
+    "The C-shaped ventricle in each hemisphere.",
+    "Choroid plexus is the vascular tufts in the ventricles that produce CSF.",
+    "Cerebral aqueduct is the narrow channel through the midbrain from the third to the fourth ventricle.",
+    "Fourth ventricle is the ventricle between the brainstem and cerebellum."
+   ],
+   "m3d": {
+    "m": "deep",
+    "hl": [
+     "latv"
+    ],
+    "view": [
+     0.7,
+     0.3,
+     1
+    ],
+    "ghost": [
+     "caud",
+     "put",
+     "gp",
+     "thal",
+     "hypo",
+     "hipp",
+     "amyg",
+     "fornix",
+     "cc",
+     "septum",
+     "ac",
+     "red",
+     "mamm",
+     "pineal",
+     "chp"
+    ]
+   }
+  },
+  {
+   "q": "Which part of the ventricular system is highlighted in orange?",
+   "options": [
+    "Third ventricle",
+    "Cerebral aqueduct",
+    "Choroid plexus",
+    "Fourth ventricle"
+   ],
+   "answer": 0,
+   "why": "Third ventricle: the narrow midline ventricle between the two thalami.",
+   "notes": [
+    "The narrow midline ventricle between the two thalami.",
+    "Cerebral aqueduct is the narrow channel through the midbrain from the third to the fourth ventricle.",
+    "Choroid plexus is the vascular tufts in the ventricles that produce CSF.",
+    "Fourth ventricle is the ventricle between the brainstem and cerebellum."
+   ],
+   "m3d": {
+    "m": "deep",
+    "hl": [
+     "v3"
+    ],
+    "view": [
+     0.7,
+     0.3,
+     1
+    ],
+    "ghost": [
+     "caud",
+     "put",
+     "gp",
+     "thal",
+     "hypo",
+     "hipp",
+     "amyg",
+     "fornix",
+     "cc",
+     "septum",
+     "ac",
+     "red",
+     "mamm",
+     "pineal",
+     "chp"
+    ]
+   }
+  },
+  {
+   "q": "Which part of the ventricular system is highlighted in orange?",
+   "options": [
+    "Choroid plexus",
+    "Cerebral aqueduct",
+    "Fourth ventricle",
+    "Lateral ventricle"
+   ],
+   "answer": 2,
+   "why": "Fourth ventricle: the ventricle between the brainstem and cerebellum.",
+   "notes": [
+    "Choroid plexus is the vascular tufts in the ventricles that produce CSF.",
+    "Cerebral aqueduct is the narrow channel through the midbrain from the third to the fourth ventricle.",
+    "The ventricle between the brainstem and cerebellum.",
+    "Lateral ventricle is the C-shaped ventricle in each hemisphere."
+   ],
+   "m3d": {
+    "m": "deep",
+    "hl": [
+     "v4"
+    ],
+    "view": [
+     0.7,
+     0.3,
+     1
+    ],
+    "ghost": [
+     "caud",
+     "put",
+     "gp",
+     "thal",
+     "hypo",
+     "hipp",
+     "amyg",
+     "fornix",
+     "cc",
+     "septum",
+     "ac",
+     "red",
+     "mamm",
+     "pineal",
+     "chp"
+    ]
+   }
+  },
+  {
+   "q": "Which part of the ventricular system is highlighted in orange?",
+   "options": [
+    "Cerebral aqueduct",
+    "Fourth ventricle",
+    "Choroid plexus",
+    "Third ventricle"
+   ],
+   "answer": 0,
+   "why": "Cerebral aqueduct: the narrow channel through the midbrain from the third to the fourth ventricle.",
+   "notes": [
+    "The narrow channel through the midbrain from the third to the fourth ventricle.",
+    "Fourth ventricle is the ventricle between the brainstem and cerebellum.",
+    "Choroid plexus is the vascular tufts in the ventricles that produce CSF.",
+    "Third ventricle is the narrow midline ventricle between the two thalami."
+   ],
+   "m3d": {
+    "m": "deep",
+    "hl": [
+     "aq"
+    ],
+    "view": [
+     1,
+     0.2,
+     0.2
+    ],
+    "ghost": [
+     "caud",
+     "put",
+     "gp",
+     "thal",
+     "hypo",
+     "hipp",
+     "amyg",
+     "fornix",
+     "cc",
+     "septum",
+     "ac",
+     "red",
+     "mamm",
+     "pineal",
+     "chp"
+    ]
+   }
+  },
+  {
+   "q": "Which part of the ventricular system is highlighted in orange?",
+   "options": [
+    "Choroid plexus",
+    "Lateral ventricle",
+    "Third ventricle",
+    "Fourth ventricle"
+   ],
+   "answer": 0,
+   "why": "Choroid plexus: the vascular tufts in the ventricles that produce CSF.",
+   "notes": [
+    "The vascular tufts in the ventricles that produce CSF.",
+    "Lateral ventricle is the C-shaped ventricle in each hemisphere.",
+    "Third ventricle is the narrow midline ventricle between the two thalami.",
+    "Fourth ventricle is the ventricle between the brainstem and cerebellum."
+   ],
+   "m3d": {
+    "m": "deep",
+    "hl": [
+     "chp"
+    ],
+    "view": [
+     0.7,
+     0.3,
+     1
+    ],
+    "ghost": [
+     "caud",
+     "put",
+     "gp",
+     "thal",
+     "hypo",
+     "hipp",
+     "amyg",
+     "fornix",
+     "cc",
+     "septum",
+     "ac",
+     "red",
+     "mamm",
+     "pineal"
+    ]
+   }
   }
  ],
  "cards": [
@@ -36887,6 +39779,182 @@ SINA.lectures["anat3-cerebellum"] = {
      "n": 30
     }
    ]
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Superior cerebellar peduncle",
+    "Cerebellar tonsil",
+    "Anterior lobe of the cerebellum",
+    "Posterior lobe of the cerebellar hemisphere"
+   ],
+   "answer": 0,
+   "why": "Superior cerebellar peduncle: the bundle joining the cerebellum to the midbrain; the main cerebellar output.",
+   "notes": [
+    "The bundle joining the cerebellum to the midbrain; the main cerebellar output.",
+    "Cerebellar tonsil is the rounded part of the inferior hemisphere beside the vermis, above the foramen magnum.",
+    "Anterior lobe of the cerebellum is the smaller part of the cerebellar hemisphere in front of the primary fissure.",
+    "Posterior lobe of the cerebellar hemisphere is the large part of the cerebellar hemisphere behind the primary fissure."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "scp"
+    ],
+    "view": [
+     0,
+     0.3,
+     -1
+    ],
+    "ghost": [
+     "vermis",
+     "cb_ant",
+     "cb_post",
+     "tonsil",
+     "flocc"
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Superior cerebellar peduncle",
+    "Vermis",
+    "Cerebellar tonsil",
+    "Flocculus"
+   ],
+   "answer": 1,
+   "why": "Vermis: the midline part of the cerebellum joining the two hemispheres.",
+   "notes": [
+    "Superior cerebellar peduncle is the bundle joining the cerebellum to the midbrain; the main cerebellar output.",
+    "The midline part of the cerebellum joining the two hemispheres.",
+    "Cerebellar tonsil is the rounded part of the inferior hemisphere beside the vermis, above the foramen magnum.",
+    "Flocculus is the small lobule beside the middle cerebellar peduncle, part of the flocculonodular lobe."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "vermis"
+    ],
+    "view": [
+     0,
+     0.3,
+     -1
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Flocculus",
+    "Vermis",
+    "Superior cerebellar peduncle",
+    "Posterior lobe of the cerebellar hemisphere"
+   ],
+   "answer": 3,
+   "why": "Posterior lobe of the cerebellar hemisphere: the large part of the cerebellar hemisphere behind the primary fissure.",
+   "notes": [
+    "Flocculus is the small lobule beside the middle cerebellar peduncle, part of the flocculonodular lobe.",
+    "Vermis is the midline part of the cerebellum joining the two hemispheres.",
+    "Superior cerebellar peduncle is the bundle joining the cerebellum to the midbrain; the main cerebellar output.",
+    "The large part of the cerebellar hemisphere behind the primary fissure."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "cb_post"
+    ],
+    "view": [
+     0,
+     0.3,
+     -1
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Anterior lobe of the cerebellum",
+    "Posterior lobe of the cerebellar hemisphere",
+    "Cerebellar tonsil",
+    "Vermis"
+   ],
+   "answer": 0,
+   "why": "Anterior lobe of the cerebellum: the smaller part of the cerebellar hemisphere in front of the primary fissure.",
+   "notes": [
+    "The smaller part of the cerebellar hemisphere in front of the primary fissure.",
+    "Posterior lobe of the cerebellar hemisphere is the large part of the cerebellar hemisphere behind the primary fissure.",
+    "Cerebellar tonsil is the rounded part of the inferior hemisphere beside the vermis, above the foramen magnum.",
+    "Vermis is the midline part of the cerebellum joining the two hemispheres."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "cb_ant"
+    ],
+    "view": [
+     0,
+     1,
+     -0.4
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Flocculus",
+    "Posterior lobe of the cerebellar hemisphere",
+    "Vermis",
+    "Cerebellar tonsil"
+   ],
+   "answer": 3,
+   "why": "Cerebellar tonsil: the rounded part of the inferior hemisphere beside the vermis, above the foramen magnum.",
+   "notes": [
+    "Flocculus is the small lobule beside the middle cerebellar peduncle, part of the flocculonodular lobe.",
+    "Posterior lobe of the cerebellar hemisphere is the large part of the cerebellar hemisphere behind the primary fissure.",
+    "Vermis is the midline part of the cerebellum joining the two hemispheres.",
+    "The rounded part of the inferior hemisphere beside the vermis, above the foramen magnum."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "tonsil"
+    ],
+    "view": [
+     0,
+     -0.7,
+     -1
+    ]
+   }
+  },
+  {
+   "q": "Which structure is highlighted in orange?",
+   "options": [
+    "Flocculus",
+    "Vermis",
+    "Superior cerebellar peduncle",
+    "Anterior lobe of the cerebellum"
+   ],
+   "answer": 0,
+   "why": "Flocculus: the small lobule beside the middle cerebellar peduncle, part of the flocculonodular lobe.",
+   "notes": [
+    "The small lobule beside the middle cerebellar peduncle, part of the flocculonodular lobe.",
+    "Vermis is the midline part of the cerebellum joining the two hemispheres.",
+    "Superior cerebellar peduncle is the bundle joining the cerebellum to the midbrain; the main cerebellar output.",
+    "Anterior lobe of the cerebellum is the smaller part of the cerebellar hemisphere in front of the primary fissure."
+   ],
+   "m3d": {
+    "m": "brainstem",
+    "hl": [
+     "flocc"
+    ],
+    "view": [
+     0.5,
+     -0.2,
+     1
+    ],
+    "focus": true
+   }
   }
  ],
  "cards": [
