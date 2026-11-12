@@ -1714,3 +1714,4 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .acct-more { margin-top: 1.6rem; }
 .acct-more summary { cursor: pointer; color: var(--muted); }
 .acct-more .fld { margin: .6rem 0; }
+.note.announce.friendly { border-left-color: var(--accent); background: var(--accent-soft); }
