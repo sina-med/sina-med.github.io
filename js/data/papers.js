@@ -811,12 +811,12 @@ SINA.papers = [
     ]
    },
    {
-    "q": "Regarding the muscles of the auricle:",
+    "q": "The dimensions of the tympanic cavity:",
     "options": [
-     "Auricularis posterior arises from the mastoid process",
-     "Auricularis anterior arises from the mastoid process",
-     "They are divided into extrinsic and intrinsic groups",
-     "They are rudimentary in humans"
+     "Width 3 to 6 mm",
+     "Length about 50 mm",
+     "Height 15 to 7 mm",
+     "Length about 15 mm"
     ],
     "answers": [
      0,
@@ -825,18 +825,18 @@ SINA.papers = [
     ],
     "multi": true,
     "hint": "1 or more correct answers",
-    "why": "Anterior and superior arise from the epicranial aponeurosis; posterior from the mastoid.",
+    "why": "A narrow cleft: about 15 mm long, 15 to 7 mm high, 3 to 6 mm wide.",
     "notes": [
-     "It inserts into the eminentia conchae.",
-     "It arises from the epicranial aponeurosis.",
+     "",
+     "About 15 mm.",
      "",
      ""
     ],
     "slides": [
      {
-      "src": "files/slides/anat3-ear-1/15.jpg",
+      "src": "files/slides/anat3-ear-1/30.jpg",
       "lec": "Anatomy of the ear, part 1: external and middle ear",
-      "n": 15
+      "n": 30
      }
     ]
    },
@@ -1992,12 +1992,12 @@ SINA.papers = [
     ]
    },
    {
-    "q": "The arytenoid cartilage:",
+    "q": "The intrinsic muscles of the larynx:",
     "options": [
-     "Its anterior angle forms the vocal process",
-     "The muscular process receives the posterior and lateral crico-arytenoids",
-     "The vocal ligament inserts on the vocal process",
-     "Its posterior side receives the cricothyroid"
+     "All are paired except the transverse arytenoid",
+     "The cricothyroid is the only one on the outer aspect of the larynx",
+     "All adduct the vocal cords except the posterior crico-arytenoids",
+     "All are supplied by the recurrent laryngeal nerve"
     ],
     "answers": [
      0,
@@ -2006,18 +2006,18 @@ SINA.papers = [
     ],
     "multi": true,
     "hint": "1 or more correct answers",
-    "why": "The posterior side receives the transverse arytenoid.",
+    "why": "The cricothyroid is supplied by the external laryngeal nerve.",
     "notes": [
      "",
      "",
      "",
-     "Transverse arytenoid."
+     "Not the cricothyroid."
     ],
     "slides": [
      {
-      "src": "files/slides/anat3-larynx/22.jpg",
+      "src": "files/slides/anat3-larynx/37.jpg",
       "lec": "Anatomy of the larynx",
-      "n": 22
+      "n": 37
      }
     ]
    },
