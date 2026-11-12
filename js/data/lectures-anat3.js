@@ -16258,6 +16258,342 @@ SINA.lectures["anat3-larynx"] = {
      "thyroid_g"
     ]
    }
+  },
+  {
+   "q": "What lies directly behind the larynx?",
+   "options": [
+    "Hypopharynx",
+    "Thyroid gland",
+    "Trachea",
+    "Hyoid bone"
+   ],
+   "answer": 0,
+   "why": "Relations: hyoid and tongue base above, trachea below, hypopharynx behind, thyroid in front.",
+   "notes": [
+    "The hypopharynx is behind.",
+    "The thyroid is in front.",
+    "The trachea is below.",
+    "The hyoid is above."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/08.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Why do newborns breathe only through the nose for the first months?",
+   "options": [
+    "The high larynx is in contact with the soft palate",
+    "The epiglottis is not yet formed",
+    "The vocal cords are closed at birth",
+    "The nasal cavity is larger than the mouth"
+   ],
+   "answer": 0,
+   "why": "The newborn larynx is high and touches the soft palate (veil), so breathing is exclusively nasal until about 4 months.",
+   "notes": [
+    "The larynx touches the veil, so breathing is nasal.",
+    "The epiglottis is present at birth.",
+    "The cords are not closed at birth.",
+    "Nasal size is not the reason."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/08.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "At which vertebral level is the cricoid cartilage?",
+   "options": [
+    "C6",
+    "C4",
+    "C2",
+    "T1"
+   ],
+   "answer": 0,
+   "why": "The cricoid lies at C6 and is the foundation stone of the larynx.",
+   "notes": [
+    "C6.",
+    "C4 is the upper border of the thyroid cartilage.",
+    "C2 to C3 is the level of the child's larynx.",
+    "T1 is below the larynx."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/20.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "Which muscles insert on the muscular process of the arytenoid?",
+   "options": [
+    "Posterior and lateral crico-arytenoids",
+    "Cricothyroid",
+    "Vocalis",
+    "Transverse arytenoid"
+   ],
+   "answer": 0,
+   "why": "The muscular process receives the posterior and lateral crico-arytenoids; the vocal process receives the vocal ligament.",
+   "notes": [
+    "Both crico-arytenoids insert there.",
+    "The cricothyroid inserts on the thyroid cartilage.",
+    "The vocalis and vocal ligament reach the vocal process.",
+    "The transverse arytenoid inserts on the posterior side."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/22.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "What does gliding of one arytenoid towards the other do?",
+   "options": [
+    "Closes the posterior part of the glottis",
+    "Tenses the vocal cords",
+    "Tilts the cricoid",
+    "Raises the larynx"
+   ],
+   "answer": 0,
+   "why": "Rotation abducts or adducts the cords; gliding closes or opens the posterior glottis.",
+   "notes": [
+    "Gliding closes or opens the posterior glottis.",
+    "Tension comes from cricothyroid tilting.",
+    "Tilting is at the cricothyroid joint.",
+    "Elevation is done by extrinsic muscles."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/25.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 25
+    }
+   ]
+  },
+  {
+   "q": "What happens if the posterior crico-arytenoids are paralysed on both sides?",
+   "options": [
+    "The cords stay adducted and the person may suffocate",
+    "The voice becomes louder",
+    "The cords stay fully abducted",
+    "Nothing, other muscles take over abduction"
+   ],
+   "answer": 0,
+   "why": "They are the only abductors, the 'safety muscles' of the larynx. If paralysed, the adductors win and the airway closes.",
+   "notes": [
+    "The adductors win and the airway closes.",
+    "Phonation is not improved.",
+    "Abduction is lost, not gained.",
+    "No other muscle abducts the cords."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/37.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 37
+    }
+   ]
+  },
+  {
+   "q": "Which muscle relaxes (shortens) the vocal cords?",
+   "options": [
+    "Thyro-arytenoid",
+    "Cricothyroid",
+    "Posterior crico-arytenoid",
+    "Lateral crico-arytenoid"
+   ],
+   "answer": 0,
+   "why": "The thyro-arytenoid relaxes the cords; the cricothyroid and vocalis tense them.",
+   "notes": [
+    "The thyro-arytenoid relaxes the cords.",
+    "The cricothyroid tenses them.",
+    "This muscle abducts.",
+    "This muscle adducts."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/37.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 37
+    }
+   ]
+  },
+  {
+   "q": "Which muscles lower the larynx?",
+   "options": [
+    "Sternothyroid, sternohyoid and omohyoid",
+    "Thyrohyoid, mylohyoid and digastric",
+    "Cricothyroid and vocalis",
+    "Posterior crico-arytenoids"
+   ],
+   "answer": 0,
+   "why": "Infrahyoid muscles lower the larynx; thyrohyoid, mylohyoid and digastric raise it.",
+   "notes": [
+    "These lower the larynx.",
+    "These raise it.",
+    "These are intrinsic muscles.",
+    "This is an intrinsic abductor."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/38.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "q": "Which statement about the glottis (rima glottidis) is correct?",
+   "options": [
+    "It is triangular and narrower than the vestibular cleft",
+    "It is wider than the vestibular cleft",
+    "It lies above the vestibular folds",
+    "It is wider in children than adults"
+   ],
+   "answer": 0,
+   "why": "The glottis is triangular and the narrowest part; in children it is so narrow that oedema quickly causes respiratory distress.",
+   "notes": [
+    "It is triangular and narrower.",
+    "It is narrower, not wider.",
+    "It lies between the vocal cords, below the vestibular folds.",
+    "It is narrow in children, hence the risk of obstruction."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/40.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "q": "Which epithelium lines most of the larynx?",
+   "options": [
+    "Respiratory (ciliated columnar) epithelium",
+    "Non-keratinised stratified squamous everywhere",
+    "Keratinised squamous",
+    "Transitional epithelium"
+   ],
+   "answer": 0,
+   "why": "Respiratory epithelium lines the larynx except the vocal cords and upper half of the epiglottis, which are squamous.",
+   "notes": [
+    "Respiratory type everywhere except cords and upper epiglottis.",
+    "Squamous only on the cords and upper epiglottis.",
+    "The larynx is not keratinised.",
+    "Transitional epithelium is in the urinary tract."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/47.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 47
+    }
+   ]
+  },
+  {
+   "q": "The posteroinferior laryngeal artery is a branch of:",
+   "options": [
+    "The inferior thyroid artery",
+    "The superior thyroid artery",
+    "The lingual artery",
+    "The external carotid directly"
+   ],
+   "answer": 0,
+   "why": "The superior and anteroinferior laryngeal arteries come from the superior thyroid; the posteroinferior from the inferior thyroid.",
+   "notes": [
+    "It comes from the inferior thyroid artery.",
+    "That gives the superior and anteroinferior laryngeal arteries.",
+    "The lingual supplies the tongue.",
+    "It is not a direct carotid branch."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/49.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 49
+    }
+   ]
+  },
+  {
+   "q": "Where does the supraglottic larynx drain its lymph?",
+   "options": [
+    "Internal jugular chain",
+    "Pretracheal nodes only",
+    "Submental nodes",
+    "It has no lymphatics"
+   ],
+   "answer": 0,
+   "why": "The supraglottic region is very rich in lymphatics and drains to the internal jugular chain; the infraglottic region also drains to pre- and paratracheal nodes.",
+   "notes": [
+    "Internal jugular chain.",
+    "Pretracheal nodes receive the infraglottic region.",
+    "Submental nodes drain the chin and lip.",
+    "Only the vocal cords lack lymphatics."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/51.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 51
+    }
+   ]
+  },
+  {
+   "q": "Which mucosa does the recurrent laryngeal nerve supply with sensation?",
+   "options": [
+    "Below the vocal folds",
+    "Above the vocal folds",
+    "The epiglottis",
+    "The whole larynx"
+   ],
+   "answer": 0,
+   "why": "Internal branch of the superior laryngeal: sensation above the folds. Recurrent laryngeal: below the folds.",
+   "notes": [
+    "Below the folds.",
+    "That is the internal branch of the superior laryngeal.",
+    "The epiglottis is above the folds.",
+    "The supply is split at the vocal folds."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/55.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 55
+    }
+   ]
+  },
+  {
+   "q": "What does the intensity (loudness) of the voice depend on?",
+   "options": [
+    "The force of expiration (subglottic pressure)",
+    "The shape of the supralaryngeal cavities",
+    "The vibration speed of the folds",
+    "The length of the epiglottis"
+   ],
+   "answer": 0,
+   "why": "Intensity (dB) depends on subglottic pressure; frequency (Hz) on vibration speed; pitch mostly on the supralaryngeal cavities.",
+   "notes": [
+    "Subglottic pressure sets intensity.",
+    "That mainly shapes pitch.",
+    "That sets frequency.",
+    "The epiglottis has no role."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-larynx/58.jpg",
+     "lec": "Anatomy of the larynx",
+     "n": 58
+    }
+   ]
   }
  ],
  "cards": [
@@ -19232,6 +19568,270 @@ SINA.lectures["anat3-thyroid"] = {
      1
     ]
    }
+  },
+  {
+   "q": "What is the height of each lateral lobe of the thyroid?",
+   "options": [
+    "About 6 cm",
+    "About 1.5 cm",
+    "About 15 cm",
+    "About 30 mm"
+   ],
+   "answer": 0,
+   "why": "Lateral lobes are about 6 cm high; the gland is 6 cm wide; the isthmus 1 cm wide by 1.5 cm high.",
+   "notes": [
+    "About 6 cm.",
+    "1.5 cm is the height of the isthmus.",
+    "Far too large.",
+    "30 is the weight in grams."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/15.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "Where does the upper pole of the lateral lobe rest?",
+   "options": [
+    "Against the thyroid cartilage",
+    "Against the hyoid bone",
+    "Against the sternum",
+    "Against the cricoid only"
+   ],
+   "answer": 0,
+   "why": "The apex rests on the posterior and lower thyroid cartilage; the base lies 1 to 2 cm above the sternum.",
+   "notes": [
+    "It rests against the thyroid cartilage.",
+    "The hyoid is higher.",
+    "The lower pole is near the sternum.",
+    "The medial face touches the cricoid."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/17.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "What is the false capsule of the thyroid derived from?",
+   "options": [
+    "The pretracheal fascia",
+    "The investing layer of deep fascia",
+    "The carotid sheath",
+    "The gland's own stroma"
+   ],
+   "answer": 0,
+   "why": "The false capsule comes from the splitting of the pretracheal fascia; the true capsule from the gland's stroma.",
+   "notes": [
+    "It comes from the pretracheal fascia.",
+    "The investing layer is more superficial.",
+    "The carotid sheath surrounds the vessels.",
+    "That forms the true capsule."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/20.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "The suspensory ligament of Berry connects the lobe to:",
+   "options": [
+    "The cricoid cartilage",
+    "The hyoid bone",
+    "The sternum",
+    "The thyroid cartilage"
+   ],
+   "answer": 0,
+   "why": "The false capsule thickens on the medial lobe to form the suspensory ligament of Berry, joining it to the cricoid.",
+   "notes": [
+    "It joins the lobe to the cricoid.",
+    "The capsule attaches to the hyoid in the midline, not via Berry.",
+    "No ligament joins it to the sternum.",
+    "The capsule attaches to the oblique lines, not via Berry."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/20.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "Which tracheal rings does the lateral lobe's medial surface cover?",
+   "options": [
+    "The first five or six",
+    "Only the first",
+    "The 6th to 10th",
+    "None: it covers only the larynx"
+   ],
+   "answer": 0,
+   "why": "The medial face covers the lower thyroid cartilage, the cricoid and the first five or six tracheal rings.",
+   "notes": [
+    "The first five or six rings.",
+    "It covers more.",
+    "Too low.",
+    "It covers the trachea too."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/28.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "q": "How does the left recurrent laryngeal nerve relate to the inferior thyroid artery?",
+   "options": [
+    "It passes behind its branches",
+    "It passes in front of its branches",
+    "It runs inside the artery's sheath",
+    "It does not meet the artery"
+   ],
+   "answer": 0,
+   "why": "Right nerve: in front of the branches of the inferior thyroid artery. Left nerve: behind them.",
+   "notes": [
+    "The left nerve passes behind.",
+    "That is the right nerve.",
+    "There is no shared sheath.",
+    "Both nerves cross the artery."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/32.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "q": "Where does the superior parathyroid lie?",
+   "options": [
+    "On the posteromedial border of the lateral lobe",
+    "On the anterior surface of the isthmus",
+    "Inside the thymus",
+    "On the lateral surface of the lobe"
+   ],
+   "answer": 0,
+   "why": "Both parathyroids are on the posteromedial border; the inferior one lies below the end of the inferior thyroid artery.",
+   "notes": [
+    "On the posteromedial border.",
+    "Not on the isthmus.",
+    "Only ectopic glands are in the thymus.",
+    "Not the lateral surface."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/34.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 34
+    }
+   ]
+  },
+  {
+   "q": "Into how many branches does the superior thyroid artery divide?",
+   "options": [
+    "Three",
+    "Two",
+    "Four",
+    "It does not branch"
+   ],
+   "answer": 0,
+   "why": "It ends at the upper pole with a lateral, a medial and a posterior branch. The inferior thyroid artery also gives three.",
+   "notes": [
+    "Three branches.",
+    "It gives three.",
+    "It gives three.",
+    "It branches at the upper pole."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/37.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 37
+    }
+   ]
+  },
+  {
+   "q": "Through which trunk does the superior thyroid vein often reach the internal jugular?",
+   "options": [
+    "The thyro-linguo-facial (Farabeuf) trunk",
+    "The thyrocervical trunk",
+    "The brachiocephalic trunk",
+    "The costocervical trunk"
+   ],
+   "answer": 0,
+   "why": "The superior thyroid vein drains into the internal jugular, most often via the thyro-linguo-facial trunk of Farabeuf.",
+   "notes": [
+    "Via Farabeuf's trunk.",
+    "The thyrocervical trunk is arterial.",
+    "The brachiocephalic trunk is arterial.",
+    "The costocervical trunk is arterial."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/39.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 39
+    }
+   ]
+  },
+  {
+   "q": "Where do the middle thyroid veins drain?",
+   "options": [
+    "Directly into the internal jugular vein",
+    "Into the brachiocephalic vein",
+    "Into the external jugular vein",
+    "Into the subclavian vein"
+   ],
+   "answer": 0,
+   "why": "Middle thyroid veins go straight to the internal jugular; inferior veins descend to the left brachiocephalic.",
+   "notes": [
+    "Directly into the internal jugular.",
+    "That receives the inferior thyroid veins.",
+    "Not the external jugular.",
+    "Not the subclavian."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/39.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 39
+    }
+   ]
+  },
+  {
+   "q": "Which is an action of calcitonin?",
+   "options": [
+    "It lowers blood calcium by inhibiting bone demineralisation",
+    "It raises blood calcium",
+    "It increases phosphate reabsorption",
+    "It is secreted by follicular cells"
+   ],
+   "answer": 0,
+   "why": "Calcitonin, from C cells, is hypocalcaemic: it stops calcium leaving bone.",
+   "notes": [
+    "It is hypocalcaemic.",
+    "PTH raises calcium.",
+    "PTH decreases phosphate reabsorption; this is not calcitonin's action.",
+    "C cells secrete it, not follicular cells."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-thyroid/45.jpg",
+     "lec": "Anatomy of the thyroid gland",
+     "n": 45
+    }
+   ]
   }
  ],
  "cards": [
@@ -22260,6 +22860,318 @@ SINA.lectures["anat3-ear-1"] = {
      "tm"
     ]
    }
+  },
+  {
+   "q": "Where is the external ear situated?",
+   "options": [
+    "Behind the temporomandibular joint, in front of the mastoid",
+    "In front of the temporomandibular joint",
+    "Behind the mastoid process",
+    "Above the temporal region"
+   ],
+   "answer": 0,
+   "why": "The external ear lies behind the TMJ and parotid region, in front of the mastoid and below the temporal region.",
+   "notes": [
+    "Behind the TMJ and parotid, in front of the mastoid.",
+    "The TMJ lies in front of the ear, not behind it.",
+    "The mastoid lies behind the ear.",
+    "The ear lies below the temporal region."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/11.jpg",
+     "lec": "Anatomy of the ear, part 1: external and middle ear",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Where do auricularis anterior and superior arise?",
+   "options": [
+    "Epicranial aponeurosis",
+    "Mastoid process",
+    "Zygomatic arch",
+    "Tragus"
+   ],
+   "answer": 0,
+   "why": "Auricularis anterior and superior arise from the epicranial aponeurosis; auricularis posterior from the mastoid.",
+   "notes": [
+    "Both arise from the epicranial aponeurosis.",
+    "Only auricularis posterior arises from the mastoid.",
+    "No auricular muscle arises from the zygomatic arch.",
+    "The tragus is part of the auricle itself."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/15.jpg",
+     "lec": "Anatomy of the ear, part 1: external and middle ear",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "What is the average width of the external auditory canal?",
+   "options": [
+    "8 mm",
+    "25 mm",
+    "15 mm",
+    "2 mm"
+   ],
+   "answer": 0,
+   "why": "The canal is about 25 mm long and 8 mm wide, with an S-shaped course.",
+   "notes": [
+    "The average width is 8 mm.",
+    "25 mm is its length.",
+    "15 mm is the length of the tympanic cavity.",
+    "2 mm is the diameter of the Eustachian tube."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/17.jpg",
+     "lec": "Anatomy of the ear, part 1: external and middle ear",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Where is the narrowing (isthmus) of the external auditory canal?",
+   "options": [
+    "In the bony part",
+    "At the opening of the concha",
+    "In the cartilaginous part",
+    "At the tympanic membrane itself"
+   ],
+   "answer": 0,
+   "why": "The bony meatus has a narrowing, the isthmus, near the junction of its outer 2/3 and inner 1/3.",
+   "notes": [
+    "The isthmus is a narrowing of the bony meatus.",
+    "The concha opening is wide.",
+    "The cartilaginous part is the outer, wider third.",
+    "The isthmus lies before the drum, not at it."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/20.jpg",
+     "lec": "Anatomy of the ear, part 1: external and middle ear",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "What is the skin of the bony part of the external canal like?",
+   "options": [
+    "Thin, with no hair or ceruminous glands",
+    "Thick, with hair and ceruminous glands",
+    "Thick, with sebaceous glands only",
+    "Lined by respiratory mucosa"
+   ],
+   "answer": 0,
+   "why": "The skin of the bony part is thin and continues as the outer layer of the eardrum; it has no hair or wax glands.",
+   "notes": [
+    "Thin skin, no hair, no ceruminous glands.",
+    "That describes the cartilaginous (outer) part.",
+    "Glands are found only in the cartilaginous part.",
+    "The canal is lined by skin, not mucosa."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/20.jpg",
+     "lec": "Anatomy of the ear, part 1: external and middle ear",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "Which layer of the tympanic membrane encloses the handle of the malleus?",
+   "options": [
+    "Middle fibrous layer",
+    "Outer cuticular layer",
+    "Inner mucosal layer",
+    "None: the handle lies outside the membrane"
+   ],
+   "answer": 0,
+   "why": "The middle fibrous layer, with outer radiating and inner circular fibres, encloses the handle of the malleus.",
+   "notes": [
+    "The fibrous layer holds the handle of the malleus.",
+    "The cuticular layer is skin continuous with the canal.",
+    "The mucosal layer lines the middle ear side.",
+    "The handle is embedded in the membrane."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/36.jpg",
+     "lec": "Anatomy of the ear, part 1: external and middle ear",
+     "n": 36
+    }
+   ]
+  },
+  {
+   "q": "What does the tympanic cavity contain?",
+   "options": [
+    "The ossicular chain",
+    "Perilymph",
+    "Endolymph",
+    "The organ of Corti"
+   ],
+   "answer": 0,
+   "why": "The tympanic cavity is an air cavity whose content is the ossicular chain.",
+   "notes": [
+    "The ossicles lie in the tympanic cavity.",
+    "Perilymph is in the inner ear.",
+    "Endolymph fills the membranous labyrinth.",
+    "The organ of Corti is in the cochlear duct."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/30.jpg",
+     "lec": "Anatomy of the ear, part 1: external and middle ear",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "q": "What lies on the upper level of the medial wall of the tympanic cavity?",
+   "options": [
+    "Prominence of the lateral semicircular canal",
+    "Promontory",
+    "Round window",
+    "Oval window"
+   ],
+   "answer": 0,
+   "why": "Above the facial canal prominence is the prominence of the lateral semicircular canal; below are the promontory and the two windows.",
+   "notes": [
+    "It is on the upper level.",
+    "The promontory is on the lower level.",
+    "The round window is on the lower level.",
+    "The oval window is on the lower level."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/40.jpg",
+     "lec": "Anatomy of the ear, part 1: external and middle ear",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "q": "Which two canals open in the upper part of the anterior wall of the tympanic cavity?",
+   "options": [
+    "Canal for tensor tympani above, auditory tube below",
+    "Auditory tube above, tensor tympani below",
+    "Aditus ad antrum and facial canal",
+    "Round and oval windows"
+   ],
+   "answer": 0,
+   "why": "The upper anterior wall has the canal for tensor tympani above and the auditory tube below; the lower part covers the internal carotid.",
+   "notes": [
+    "Tensor tympani above, auditory tube below.",
+    "The order is reversed.",
+    "The aditus and vertical facial canal are on the posterior wall.",
+    "The windows are on the medial wall."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/42.jpg",
+     "lec": "Anatomy of the ear, part 1: external and middle ear",
+     "n": 42
+    }
+   ]
+  },
+  {
+   "q": "In which wall of the tympanic cavity does the vertical part of the facial canal run?",
+   "options": [
+    "Posterior wall",
+    "Anterior wall",
+    "Roof",
+    "Lateral wall"
+   ],
+   "answer": 0,
+   "why": "The vertical part of the facial canal descends in the posterior wall, behind the pyramid, to the stylomastoid foramen.",
+   "notes": [
+    "It runs in the posterior wall.",
+    "The anterior wall relates to the internal carotid.",
+    "The roof is the tegmen tympani.",
+    "The lateral wall is mostly the eardrum."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/43.jpg",
+     "lec": "Anatomy of the ear, part 1: external and middle ear",
+     "n": 43
+    }
+   ]
+  },
+  {
+   "q": "In which direction does the Eustachian tube run from the tympanic cavity?",
+   "options": [
+    "Downwards, forwards and medially",
+    "Upwards, backwards and laterally",
+    "Straight medially",
+    "Downwards and backwards"
+   ],
+   "answer": 0,
+   "why": "From the tympanic cavity the tube runs downwards, forwards and medially to the nasopharynx.",
+   "notes": [
+    "Down, forward and medial to the nasopharynx.",
+    "That is the opposite direction.",
+    "It also descends and runs forward.",
+    "The nasopharynx lies in front, not behind."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/53.jpg",
+     "lec": "Anatomy of the ear, part 1: external and middle ear",
+     "n": 53
+    }
+   ]
+  },
+  {
+   "q": "How long is the Eustachian tube?",
+   "options": [
+    "31 to 38 mm",
+    "15 mm",
+    "25 mm",
+    "8 mm"
+   ],
+   "answer": 0,
+   "why": "The tube is 31 to 38 mm long and about 2 mm in diameter.",
+   "notes": [
+    "31 to 38 mm.",
+    "15 mm is the length of the tympanic cavity.",
+    "25 mm is the external canal.",
+    "8 mm is the cartilaginous part of the external canal."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/54.jpg",
+     "lec": "Anatomy of the ear, part 1: external and middle ear",
+     "n": 54
+    }
+   ]
+  },
+  {
+   "q": "Where does the tympanic plexus lie?",
+   "options": [
+    "On the promontory of the medial wall",
+    "On the tympanic membrane",
+    "In the mastoid antrum",
+    "In the internal acoustic meatus"
+   ],
+   "answer": 0,
+   "why": "The tympanic plexus is a network of nerves on the promontory, formed by Jacobson's nerve (IX), carotid sympathetic fibres and a branch from the geniculate ganglion.",
+   "notes": [
+    "It lies on the promontory.",
+    "The drum is supplied, but the plexus is on the medial wall.",
+    "The antrum lies behind the cavity.",
+    "The meatus carries VII and VIII."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-1/56.jpg",
+     "lec": "Anatomy of the ear, part 1: external and middle ear",
+     "n": 56
+    }
+   ]
   }
  ],
  "cards": [
@@ -23924,6 +24836,246 @@ SINA.lectures["anat3-ear-2"] = {
      "tm"
     ]
    }
+  },
+  {
+   "q": "From what does the bony labyrinth develop?",
+   "options": [
+    "The otic capsule",
+    "The first pharyngeal pouch",
+    "The first pharyngeal cleft",
+    "Neural crest only"
+   ],
+   "answer": 0,
+   "why": "The bony labyrinth derives from the otic capsule.",
+   "notes": [
+    "It derives from the otic capsule.",
+    "The first pouch forms the middle ear and tube.",
+    "The first cleft forms the external canal.",
+    "The otic capsule is mesenchymal, not neural crest only."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/08.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner ear",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Where is the bony cochlea in relation to the vestibule?",
+   "options": [
+    "In front of it",
+    "Behind it",
+    "Above it",
+    "Lateral to it"
+   ],
+   "answer": 0,
+   "why": "The cochlea lies in front of the vestibule; the semicircular canals lie behind it.",
+   "notes": [
+    "The cochlea is in front.",
+    "The semicircular canals are behind.",
+    "It lies in front, not above.",
+    "The middle ear is lateral."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/09.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner ear",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "Where does the base of the modiolus lie?",
+   "options": [
+    "At the fundus of the internal acoustic meatus",
+    "At the promontory",
+    "At the round window",
+    "At the helicotrema"
+   ],
+   "answer": 0,
+   "why": "The base of the modiolus lies at the fundus of the internal acoustic meatus, where it is perforated by cochlear nerve fibres; its apex points towards the middle ear.",
+   "notes": [
+    "At the fundus of the internal acoustic meatus.",
+    "The promontory is the basal turn of the cochlear canal.",
+    "The round window is on the scala tympani.",
+    "The helicotrema is at the apex."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/11.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner ear",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "At the basal turn of the cochlea, the scala vestibuli communicates with:",
+   "options": [
+    "The vestibule",
+    "The scala tympani",
+    "The cochlear duct",
+    "The subarachnoid space"
+   ],
+   "answer": 0,
+   "why": "At the basal turn the scala vestibuli opens into the vestibule; it meets the scala tympani only at the apex (helicotrema).",
+   "notes": [
+    "It opens into the vestibule.",
+    "That happens at the apex, through the helicotrema.",
+    "The cochlear duct is separate (endolymph).",
+    "The scala tympani reaches CSF via the cochlear aqueduct."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/14.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner ear",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "What is the ampulla of a semicircular canal?",
+   "options": [
+    "The dilated end of the canal",
+    "The opening shared by two canals",
+    "The narrow middle of the canal",
+    "The sac at the end of the endolymphatic duct"
+   ],
+   "answer": 0,
+   "why": "Each canal is about two thirds of a circle and is dilated at one end to form the ampulla.",
+   "notes": [
+    "The ampulla is the dilated end.",
+    "That is the crus commune.",
+    "The ampulla is a dilatation.",
+    "That is the endolymphatic sac."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/16.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner ear",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Which semicircular canal opens into the vestibule by both of its own ends?",
+   "options": [
+    "Lateral",
+    "Anterior",
+    "Posterior",
+    "None of them"
+   ],
+   "answer": 0,
+   "why": "Both ends of the lateral canal open directly into the vestibule; the anterior and posterior canals share the crus commune.",
+   "notes": [
+    "Both ends of the lateral canal open directly.",
+    "Its non-ampullated end joins the crus commune.",
+    "Its non-ampullated end joins the crus commune.",
+    "The lateral canal does."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/18.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner ear",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "What connects the saccule and the utricle?",
+   "options": [
+    "The Y-shaped utriculo-saccular duct",
+    "The ductus reuniens",
+    "The helicotrema",
+    "The crus commune"
+   ],
+   "answer": 0,
+   "why": "The Y-shaped utriculo-saccular duct joins them and continues as the endolymphatic duct and sac.",
+   "notes": [
+    "The utriculo-saccular duct.",
+    "The ductus reuniens joins the cochlear duct to the saccule.",
+    "The helicotrema joins the two scalae.",
+    "The crus commune joins two bony canals."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/21.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner ear",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "Which receptors detect kinetic (movement) balance?",
+   "options": [
+    "Cristae ampullares",
+    "Maculae",
+    "Organ of Corti",
+    "Outer hair cells"
+   ],
+   "answer": 0,
+   "why": "Cristae in the semicircular ducts serve kinetic balance; maculae in the utricle and saccule serve static balance.",
+   "notes": [
+    "Cristae: kinetic balance.",
+    "Maculae: static balance.",
+    "The organ of Corti serves hearing.",
+    "Outer hair cells tune the cochlea."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/22.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner ear",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "q": "Which nerve supplies the ampullary crest of the posterior semicircular canal?",
+   "options": [
+    "Posterior ampullary nerve",
+    "Superior vestibular nerve",
+    "Cochlear nerve",
+    "Utricular nerve"
+   ],
+   "answer": 0,
+   "why": "The vestibular nerve gives three branches: superior vestibular, inferior vestibular (saccular) and the posterior ampullary nerve.",
+   "notes": [
+    "The posterior ampullary nerve.",
+    "It supplies the utricle, superior and lateral crests.",
+    "The cochlear nerve is for hearing.",
+    "The utricular nerve goes to the utricular macula."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/34.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner ear",
+     "n": 34
+    }
+   ]
+  },
+  {
+   "q": "In the internal auditory canal, the cochlear nerve is which branch of VIII?",
+   "options": [
+    "The anterior branch",
+    "The posterior branch",
+    "The superior branch",
+    "It is not a branch: it joins VIII in the brainstem"
+   ],
+   "answer": 0,
+   "why": "VIII divides in the internal auditory canal into an anterior cochlear nerve and a posterior vestibular nerve.",
+   "notes": [
+    "The cochlear nerve is anterior.",
+    "The vestibular nerve is posterior.",
+    "The superior vestibular nerve is a branch of the vestibular nerve.",
+    "VIII divides in the internal auditory canal."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat3-ear-2/33.jpg",
+     "lec": "Anatomy of the ear, part 2: the inner ear",
+     "n": 33
+    }
+   ]
   }
  ],
  "cards": [

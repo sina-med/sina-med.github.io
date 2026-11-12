@@ -5,7 +5,13 @@ SINA.updates = [
   { date: "12 November 2026", items: [
     "Added: accounts (Settings → Account and sync): log in on your phone and computer to keep the same progress on both.",
     "Added: Include 3D model questions on/off switch on the Anatomy 3 question picker.",
-    "Fixed: picture questions repeating in ear lecture quizzes."
+    "Fixed: picture questions repeating in ear lecture quizzes.",
+    "Added: Fliyou neuroanatomy practice tests 1 to 3 as playable quizzes (114 questions with explanations); Hajij ENT midterm Q&A playable too (10 questions).",
+    "Added: 48 ENT questions (ear parts 1 and 2, larynx, thyroid), with slide highlights.",
+    "Changed: Anatomy 3 past papers grouped into Neuroanatomy, ENT and Normal anatomy.",
+    "Changed: tapping a brain lobe on picture questions counts anywhere inside the lobe.",
+    "Fixed: missing green slide highlights on about 3,000 questions.",
+    "Added: change password on the account page."
   ] },
   { date: "11 November 2026", items: [
     "Added: 3D questions for Anatomy 3 (98 questions): a rotatable 3D model with one structure highlighted. Brain lobes and gyri, functional areas, deep nuclei and ventricles, brainstem and cranial nerves, cerebellum, spinal cord tracts, ear and larynx.",

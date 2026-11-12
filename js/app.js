@@ -1595,9 +1595,16 @@
     if (S.apps && S.apps.length) extra += '<details class="lec-acc"><summary><span>Apps and practice sites</span><span class="qn">' + S.apps.length + '</span></summary><div class="acc-body"><ul class="rgrid">' + S.apps.map(function (r) { return resCard(r); }).join("") + "</ul></div></details>";
     if (extra) { p.insertAdjacentHTML("beforeend", '<h2 class="group-title">For the whole class</h2>' + extra); wireThumbs(p); }
   }
+  /* papers of one subject split by part (Anatomy 3: neuroanatomy, ENT, normal anatomy, mixed) */
+  var PART_ORDER = ["Neuroanatomy", "ENT (ear, larynx, thyroid)", "Normal anatomy (face, mouth, nose, eye)", "Whole course (mixed)"];
+  function paperParts(list) {
+    if (!list.some(function (x) { return x.part; })) return null;
+    var g = {}; list.forEach(function (x) { (g[x.part || "Other"] = g[x.part || "Other"] || []).push(x); });
+    return Object.keys(g).sort(function (a, b) { var i = PART_ORDER.indexOf(a), j = PART_ORDER.indexOf(b); return (i < 0 ? 99 : i) - (j < 0 ? 99 : j); }).map(function (k) { return [k, g[k]]; });
+  }
   function subPapersPanel(p, s) {
-    var list = (S.papers || []).filter(function (x) { return x.subject === s.id; });
-    p.innerHTML = '<ul class="lec-list">' + list.map(paperRow).join("") + "</ul>";
+    var list = (S.papers || []).filter(function (x) { return x.subject === s.id; }), parts = paperParts(list);
+    p.innerHTML = parts ? parts.map(function (g) { return '<h2 class="group-title">' + esc(g[0]) + '</h2><ul class="lec-list">' + g[1].map(paperRow).join("") + "</ul>"; }).join("") : '<ul class="lec-list">' + list.map(paperRow).join("") + "</ul>";
   }
 
   function psaHTML() {
@@ -2325,7 +2332,9 @@
     wireTabs(app);
     var p = document.getElementById("panel");
     if (sec === "papers") {
-      var quiz = papers.filter(function (x) { return x.questions && x.questions.length; }), pdf = papers.filter(function (x) { return !(x.questions && x.questions.length); });
+      var quiz = papers.filter(function (x) { return x.questions && x.questions.length; }), pdf = papers.filter(function (x) { return !(x.questions && x.questions.length); }), parts = paperParts(papers);
+      var qrow = function (x) { return '<li class="paper-row"><a href="#/paper/' + esc(x.id) + '"><span>' + esc(x.title) + (x.year ? " (" + esc(x.year) + ")" : "") + '</span></a><span class="paper-btns"><a class="btn small primary" href="#/paper/' + esc(x.id) + '">Start quiz (' + x.questions.length + ")</a></span></li>"; };
+      if (parts) { p.innerHTML = parts.map(function (g) { return '<h2 class="group-title">' + esc(g[0]) + '</h2><ul class="lec-list">' + g[1].map(function (x) { return x.questions && x.questions.length ? qrow(x) : paperRow(x); }).join("") + "</ul>"; }).join(""); return; }
       p.innerHTML = (quiz.length ? '<h2 class="group-title">Past papers as quizzes</h2><ul class="lec-list">' + quiz.map(function (x) {
           return '<li class="paper-row"><a href="#/paper/' + esc(x.id) + '"><span>' + esc(x.title) + (x.year ? " (" + esc(x.year) + ")" : "") + '</span></a><span class="paper-btns"><a class="btn small primary" href="#/paper/' + esc(x.id) + '">Start quiz (' + x.questions.length + ")</a></span></li>";
         }).join("") + "</ul>" : "") +
@@ -3206,6 +3215,37 @@
     });
     return shuffle(out);
   }
+  /* a tap on a whole area (a lobe, the cerebellum…) counts anywhere inside that area's tint, not only next to the label line */
+  function isArea(name) { return /\b(lobe|lobes|cerebellum|brainstem|hemisphere|region|cortex)\b/i.test(name); }
+  var pixCache = {};
+  function pixels(img) {
+    var k = img.src; if (pixCache[k]) return pixCache[k];
+    var W = Math.min(480, img.naturalWidth), H = Math.round(W * img.naturalHeight / img.naturalWidth);
+    var c = document.createElement("canvas"); c.width = W; c.height = H;
+    var g = c.getContext("2d", { willReadFrequently: true }); g.drawImage(img, 0, 0, W, H);
+    return (pixCache[k] = { W: W, H: H, d: g.getImageData(0, 0, W, H).data });
+  }
+  function tint(P, pt, r0, r1) {   /* median colour near a point, ignoring dark outlines and leader lines */
+    var cx = pt[0] / 100 * (P.W - 1), cy = pt[1] / 100 * (P.H - 1), R = [], G = [], B = [];
+    for (var y = Math.floor(cy - r1); y <= cy + r1; y++) for (var x = Math.floor(cx - r1); x <= cx + r1; x++) {
+      var dd = Math.hypot(x - cx, y - cy); if (dd < r0 || dd > r1 || x < 0 || y < 0 || x >= P.W || y >= P.H) continue;
+      var o = (y * P.W + x) * 4; if (P.d[o] + P.d[o + 1] + P.d[o + 2] < 330) continue;
+      R.push(P.d[o]); G.push(P.d[o + 1]); B.push(P.d[o + 2]);
+    }
+    if (R.length < 6) return null;
+    var med = function (a) { a.sort(function (u, v) { return u - v; }); return a[a.length >> 1]; };
+    return [med(R), med(G), med(B)];
+  }
+  function cdist(a, b) { return Math.hypot(a[0] - b[0], a[1] - b[1], a[2] - b[2]); }
+  function inArea(img, t, others, tap) {
+    try {
+      if (!isArea(t.name) || !img || !img.complete || !img.naturalWidth) return false;
+      var P = pixels(img), me = tint(P, t.pt, 3, 10), at = tint(P, tap, 0, 5);
+      if (!me || !at || me[0] + me[1] + me[2] > 735) return false;            /* white background is not an area */
+      var dm = cdist(at, me); if (dm > 24) return false;
+      return others.every(function (o) { var c = tint(P, o.pt, 3, 10); return !c || cdist(at, c) > dm; });
+    } catch (e) { return false; }
+  }
   function spotterPanel(p, lids, back) {
     var tasks = spotTasks(lids).slice(0, 20), i = 0, score = 0;
     if (!tasks.length) { p.innerHTML = '<p class="src">No spotter pictures for these lectures yet.</p>'; return; }
@@ -3227,7 +3267,7 @@
       function finishSpot(x, y) {
         if (done) return; done = true;
         var ok = false;
-        if (x != null) { var dx = (x - t.pt[0]) * f.w / 100, dy = (y - t.pt[1]) * f.h / 100; ok = Math.sqrt(dx * dx + dy * dy) < Math.max(f.w, f.h) * 0.045; mark("spot-hit " + (ok ? "ok" : "bad"), x, y); }
+        if (x != null) { var dx = (x - t.pt[0]) * f.w / 100, dy = (y - t.pt[1]) * f.h / 100; ok = Math.sqrt(dx * dx + dy * dy) < Math.max(f.w, f.h) * 0.07 || inArea(p.querySelector(".occ-wrap img"), t, spotTasks(lids).filter(function (o) { return o.f === t.f && o.k !== t.k && isArea(o.name); }), [x, y]); mark("spot-hit " + (ok ? "ok" : "bad"), x, y); }
         if (!ok) mark("spot-ring", t.pt[0], t.pt[1]);
         if (ok) score++;
         p.querySelector("#fb").innerHTML = '<div class="why"><strong>' + (ok ? "Correct." : x == null ? "Skipped." : "Not quite.") + "</strong> " + (ok ? "" : "The dashed circle shows the " + esc(t.name.charAt(0).toLowerCase() + t.name.slice(1)) + ".") + "</div>";
@@ -3397,6 +3437,9 @@
       h += '<p class="lede-s">Logged in as <strong>' + esc(a.user) + '</strong>. Your progress syncs on its own: when you open Sina and a few seconds after you answer.</p>' +
         '<p class="meta" id="acct-status">' + (a.syncedAt ? "Last synced " + new Date(a.syncedAt).toLocaleString() : "Not synced yet.") + '</p>' +
         '<div class="row"><button class="btn primary" id="acct-sync" type="button">Sync now</button><button class="btn" id="acct-out" type="button">Log out on this device</button></div>' +
+        '<details class="acct-more" id="acct-pw"' + (a.reset ? " open" : "") + '><summary>Change password</summary>' + (a.reset ? '<p class="meta">Your password was reset. Choose a new one now.</p>' : "") +
+        '<label class="fld">Current password<input type="password" id="acct-old" autocomplete="current-password"></label><label class="fld">New password<input type="password" id="acct-new" autocomplete="new-password" minlength="6"></label>' +
+        '<label class="fld">Repeat new password<input type="password" id="acct-new2" autocomplete="new-password"></label><button class="btn" id="acct-chg" type="button">Change password</button><p class="meta" id="acct-cmsg" aria-live="polite"></p></details>' +
         '<details class="acct-more"><summary>Delete my account</summary><p class="meta">This deletes your account and the copy of your progress saved online. Progress on this device stays.</p>' +
         '<label class="fld">Password<input type="password" id="acct-dpass" autocomplete="current-password"></label><button class="btn danger" id="acct-del" type="button">Delete account</button><p class="meta" id="acct-dmsg" aria-live="polite"></p></details>';
       setView(h + "</div>", "Account");
@@ -3404,6 +3447,17 @@
       document.getElementById("acct-sync").onclick = function () {
         st.textContent = "Syncing…";
         SinaSync.run(true).then(function (r) { st.textContent = r.ok ? "Synced " + new Date().toLocaleString() + (r.changed ? " · " + r.changed + " item" + (r.changed > 1 ? "s" : "") + " updated from your other devices" : "") : "Could not sync. " + (ACCT_ERR[r.error] || "Check your connection."); });
+      };
+      document.getElementById("acct-chg").onclick = function () {
+        var m = document.getElementById("acct-cmsg"), np = document.getElementById("acct-new").value;
+        if (np.length < 6) { m.textContent = ACCT_ERR.pass; return; }
+        if (np !== document.getElementById("acct-new2").value) { m.textContent = "The two new passwords are different."; return; }
+        m.textContent = "Changing…";
+        SinaSync.call("passwd", { user: a.user, pass: document.getElementById("acct-old").value, newpass: np }).then(function (r) {
+          if (!r.ok) { m.textContent = ACCT_ERR[r.error] || "Could not change it."; return; }
+          var a2 = SinaSync.acc(); if (a2) { delete a2.reset; store.set("sina:acct", a2); }
+          m.textContent = "Password changed."; ["acct-old", "acct-new", "acct-new2"].forEach(function (id) { document.getElementById(id).value = ""; });
+        }, function () { m.textContent = "Could not reach Sina. Check your connection."; });
       };
       document.getElementById("acct-out").onclick = function () { store.del("sina:acct"); acctLabel(); accountView(); };
       document.getElementById("acct-del").onclick = function () {
@@ -3415,13 +3469,13 @@
       };
       return;
     }
-    h += '<p class="lede-s">Create an account to keep your progress on all your devices: answered questions, mistakes, flashcard reviews, streaks and where you stopped.</p>' +
+    h += '<p class="lede-s">Create an account to keep your progress on all your devices.</p>' +
       '<div class="tabs acct-tabs" role="tablist"><button role="tab" type="button" data-m="login" aria-selected="true">Log in</button><button role="tab" type="button" data-m="signup" aria-selected="false">Create account</button></div>' +
       '<form id="acct-form" class="acct-form"><label class="fld">Username<input id="acct-user" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="24" required></label>' +
       '<label class="fld">Password<input id="acct-pass" type="password" autocomplete="current-password" minlength="6" required></label>' +
       '<label class="fld" id="acct-p2w" hidden>Repeat password<input id="acct-pass2" type="password" autocomplete="new-password"></label>' +
       '<button class="btn primary" type="submit" id="acct-go">Log in</button><p class="meta" id="acct-msg" aria-live="polite"></p></form>' +
-      '<p class="meta">No email needed. Pick a username others won\'t guess if you want privacy; it is never shown on the site. Your password is stored scrambled (hashed), and your progress is saved in Sina\'s private storage. There is no password reset, so keep your password somewhere safe.</p>' +
+      '<p class="meta">No email needed. Pick a username others won\'t guess if you want privacy.</p><p class="meta">Forgot your password? Ask the person who runs Sina to reset it.</p>' +
       '<p class="meta">If this device already has progress, it is combined with your account\'s progress when you log in.</p>';
     setView(h + "</div>", "Account");
     var mode = "login", form = document.getElementById("acct-form"), msg = document.getElementById("acct-msg");
@@ -3441,7 +3495,7 @@
       var go = document.getElementById("acct-go"); go.disabled = true; msg.textContent = mode === "signup" ? "Creating your account…" : "Logging in…";
       SinaSync.call(mode, { user: user, pass: pass }).then(function (r) {
         if (!r.ok) { go.disabled = false; msg.textContent = ACCT_ERR[r.error] || "Something went wrong. Try again."; return; }
-        store.set("sina:acct", { user: r.user, token: r.token, syncedAt: 0 }); acctLabel();
+        store.set("sina:acct", { user: r.user, token: r.token, syncedAt: 0, reset: r.reset ? 1 : undefined }); acctLabel();
         msg.textContent = "Syncing your progress…";
         SinaSync.run(false).then(function () { accountView(); });
       }, function () { go.disabled = false; msg.textContent = "Could not reach Sina. Check your connection."; });
