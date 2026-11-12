@@ -3197,7 +3197,21 @@
       M.mount(el, { model: q.m3d.m, highlight: q.m3d.hl, view: q.m3d.view, ghost: q.m3d.ghost, hide: q.m3d.hide, focus: q.m3d.focus });
     }).catch(function () { el.innerHTML = '<div class="m3d-load">3D view not supported on this browser.</div>'; });
   }
+  /* questions saved before a picture was split (in a paused quiz or the mistakes list) still point at the old picture: find the tile by its name */
+  function occFix(q) {
+    var t = q.options[q.answers ? q.answers[0] : q.answer] || "", base = t.replace(/\s*\((posterior|lateral) view[^)]*\)\s*$/, "");
+    var ok = function (f, i) { return f && f.labels[i] && (f.labels[i][4] === t || f.labels[i][4] === base); };
+    if (ok(S.occl[q.occ.f], q.occ.i)) return;
+    var keys = Object.keys(S.occl || {}).filter(function (k) { return k === q.occ.f || k.indexOf(q.occ.f + "-") === 0; });
+    for (var n = 0; n < keys.length; n++) {
+      var L = S.occl[keys[n]].labels, j = -1;
+      for (var m = 0; m < L.length; m++) if (L[m][4] === t) { j = m; break; }
+      if (j < 0 && base !== t && keys[n] !== q.occ.f) for (m = 0; m < L.length; m++) if (L[m][4] === base) { j = m; break; }
+      if (j > -1) { q.occ = { f: keys[n], i: j }; return; }
+    }
+  }
   function occHTML(q, shown) {
+    occFix(q);
     var f = S.occl && S.occl[q.occ.f]; if (!f) return "";
     return '<figure class="occ"><div class="occ-scroll"><div class="occ-wrap" style="aspect-ratio:' + f.w + "/" + f.h + '"><img src="' + esc(f.src) + '" alt="Anatomy picture with its labels covered" width="' + f.w + '" height="' + f.h + '" loading="lazy">' +
       f.labels.map(function (b, i) { var me = i === q.occ.i; return '<span class="otile' + (me ? " q" : "") + (me && shown ? " show" : "") + '" style="left:' + b[0] + "%;top:" + b[1] + "%;width:" + b[2] + "%;height:" + b[3] + '%">' + (me ? (shown ? "" : "?") : "") + "</span>"; }).join("") +
