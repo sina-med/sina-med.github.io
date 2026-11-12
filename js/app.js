@@ -63,7 +63,7 @@
       for (k = opts.length - 1; k > 0; k--) { j = Math.floor(rnd() * (k + 1)); tmp = opts[k]; opts[k] = opts[j]; opts[j] = tmp; }
       if (opts.length < 2) return;
       var q = { q: "Which structure is under the yellow tile?", options: opts, answer: opts.indexOf(t), occ: { f: fk, i: i }, why: "The yellow tile hides the printed label: " + t + "." };
-      f.lecs.forEach(function (lid) { var L = S.lectures[lid]; if (L && L.mcqs) L.mcqs.push(q); });
+      ((f.lecMap && f.lecMap[t]) ? [f.lecMap[t]] : f.lecs).forEach(function (lid) { var L = S.lectures[lid]; if (L && L.mcqs) L.mcqs.push(q); });
     });
   });
 
@@ -71,8 +71,18 @@
   function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
   var store = {
     get: function (k, d) { try { var v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
-    set: function (k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+    set: function (k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} syncTouch(k); },
+    del: function (k) { try { localStorage.removeItem(k); } catch (e) {} syncTouch(k); }
   };
+  /* ---------- account sync: which saved keys travel between devices ---------- */
+  var SYNC_SKIP = /^sina:(akkey|dev|remind|lb|lbPending|midsheet|acct|mt|welcomed|psaDismissed|ann\w*|lang|sumLang)$/;
+  function syncable(k) { return /^sina:/.test(k) && !SYNC_SKIP.test(k.split(":").slice(0, 2).join(":")) && !SYNC_SKIP.test(k); }
+  var syncTimer = 0;
+  function syncTouch(k) {
+    if (!syncable(k)) return;
+    try { var mt = JSON.parse(localStorage.getItem("sina:mt") || "{}"); mt[k] = Date.now(); localStorage.setItem("sina:mt", JSON.stringify(mt)); } catch (e) {}
+    if (window.SinaSync && SinaSync.on()) { clearTimeout(syncTimer); syncTimer = setTimeout(function () { SinaSync.run(); }, 15000); }
+  }
   function subjectById(id) { return S.subjects.filter(function (s) { return s.id === id; })[0]; }
   var T = S.t || function (k) { return k; };
   /* ---------- year / program ---------- */
@@ -1029,7 +1039,7 @@
       setView(h, "AnKing"); animateRings(); heatWire(app);
       akToolsWire(akHome); akMixWire();
       app.querySelectorAll("[data-s]").forEach(function (a) { a.onclick = function (e) { e.preventDefault(); akChapter(m.subjects[+a.dataset.s]); }; });
-      document.getElementById("akout").onclick = function () { localStorage.removeItem("sina:akkey"); AK.key = null; ankingView(); };
+      document.getElementById("akout").onclick = function () { store.del("sina:akkey"); AK.key = null; ankingView(); };
     });
   }
   /* one First Aid chapter: its sections (Pathology, Physiology...) and their topics */
@@ -1375,13 +1385,17 @@
     picked = picked.filter(function (id) { return S.lectures[id] && S.lectures[id].subject === s.id; });
     var count = store.get("sina:qcount", "20"), ML = midLecs(s), midOnly = store.get("sina:midOnly", true);
     function hasMid(ids) { return ids.some(function (id) { return ML[id]; }); }
-    function qsOf(id) { return (S.lectures[id].mcqs || []).filter(function (q) { return !(midOnly && ML[id] && qOffMid(id, q)); }); }
-    function nQ(ids) { return ids.reduce(function (a, id) { return a + qsOf(id).length; }, 0); }
-    function freshQ(ids) { var a = store.get("sina:asked", {}), n = 0; ids.forEach(function (id) { qsOf(id).forEach(function (q) { if (!a[qKey(q)]) n++; }); }); return n; }
+    var with3d = store.get("sina:m3dq", true), has3d = s.groups.some(function (g) { return g.items.some(function (it) { return S.lectures[it.id] && (S.lectures[it.id].mcqs || []).some(function (q) { return q.m3d; }); }); });
+    function qsOf(id) { return (S.lectures[id].mcqs || []).filter(function (q) { return !(midOnly && ML[id] && qOffMid(id, q)) && !(q.m3d && !with3d); }); }
+    /* a question shared by two lectures (e.g. one labelled picture for both ear lectures) counts once */
+    function uniq(ids) { var seen = new Set(), out = []; ids.forEach(function (id) { qsOf(id).forEach(function (q) { if (!seen.has(q)) { seen.add(q); out.push(q); } }); }); return out; }
+    function nQ(ids) { return uniq(ids).length; }
+    function freshQ(ids) { var a = store.get("sina:asked", {}), n = 0; uniq(ids).forEach(function (q) { if (!a[qKey(q)]) n++; }); return n; }
     function picker() {
       var h = resumeBanner(function (r) { return /^mix:/.test(r.id) && r.id.slice(4).split(":")[0].split("+").every(function (x) { return S.lectures[x] && S.lectures[x].subject === s.id; }); }) + '<p class="lede-s">Choose one or more lectures, then start. Questions from all the chosen lectures are mixed into one quiz.</p>' + (mid ? '<div class="scope-box"><p class="scope-h">Which questions?</p><div class="chips quick scope-chips" role="group" aria-label="Which questions"><button type="button" data-sc="mid" aria-pressed="' + midOnly + '"' + (midOnly ? ' class="on"' : "") + '>Midterm topics only</button><button type="button" data-sc="all" aria-pressed="' + !midOnly + '"' + (!midOnly ? ' class="on"' : "") + '>Whole lecture</button></div>' +
           '<p class="scope-list">' + esc(mid.title) + ": " + (S.midNote && S.midNote[s.id] ? S.midNote[s.id] + "</p></div>" : [].concat.apply([], mid.groups.map(function (g) { return g.items; })).filter(function (id) { return S.midOff && S.midOff[id] || /semio-endo-thyroid/.test(id); }).map(function (id) { return "<strong>" + esc(lectureTitle(id) || S.lectures[id].title) + "</strong>: " + esc((mid.notes || {})[id] || "whole lecture"); }).join(" · ") + (mid.groups.length ? " · other lectures: whole lecture" : "") + "</p></div>") : "") +
         '<p class="meta scope-note">Questions on Sina cover each <strong>whole lecture</strong>, not only the parts announced for the midterm, so you are ready if the scope changes or something unexpected comes up.</p>' +
+        (has3d ? '<label class="m3d-opt"><input type="checkbox" id="m3dq"' + (with3d ? " checked" : "") + '> Include 3D model questions</label>' : "") +
         '<div class="chips quick" role="group" aria-label="Quick choices"><button type="button" data-q="all">All lectures</button>' + (mid ? '<button type="button" data-q="mid">Midterm lectures</button>' : "") + '<button type="button" data-q="none">Clear</button></div>';
       s.groups.forEach(function (g, gi) {
         var its = g.items.filter(function (it) { return S.lectures[it.id]; });
@@ -1412,6 +1426,7 @@
         var qs2 = p.querySelector("#qspot"); if (qs2) qs2.disabled = !spotTasks(picked).length;
       }
       boxes.forEach(function (b) { b.addEventListener("change", sync); });
+      var m3c = p.querySelector("#m3dq"); if (m3c) m3c.addEventListener("change", function () { with3d = m3c.checked; store.set("sina:m3dq", with3d); sync(); });
       p.querySelectorAll("[data-sc]").forEach(function (b) { b.addEventListener("click", function () {
         midOnly = b.dataset.sc === "mid"; store.set("sina:midOnly", midOnly);
         /* Midterm topics only starts the quiz at once: the ticked midterm lectures, or all of them if none is ticked */
@@ -1447,11 +1462,13 @@
     }
     function start(exam) {
       store.set(key, picked);
-      var pool = [];
+      var pool = [], seenQ = new Set();
       picked.forEach(function (id) {
         var L = S.lectures[id], fig = L.visual && L.visual.figure;
         (L.mcqs || []).forEach(function (q) {
           if (q.target && !fig) return;
+          if (seenQ.has(q)) return; seenQ.add(q);
+          if (q.m3d && !with3d) return;
           var off = ML[id] && qOffMid(id, q);
           if (off && midOnly) return;
           var c = {}; for (var k in q) c[k] = q[k];
@@ -2057,7 +2074,7 @@
       var lite = qs.map(function (q) { var c = {}; for (var k in q) if (k !== "_fig") c[k] = q[k]; return c; });
       store.set("sina:resume", { id: lec.id, title: lec._title || resumeTitle(lec.id), back: location.hash, qs: lite, i: i, done: done, full: fullRun, t: Date.now() });
     }
-    function clearResume() { var r = store.get("sina:resume", null); if (r && r.id === lec.id) localStorage.removeItem("sina:resume"); }
+    function clearResume() { var r = store.get("sina:resume", null); if (r && r.id === lec.id) store.del("sina:resume"); }
     function keyText(q) {
       var ans = q.answers || [q.answer];
       return ans.map(function (n) { return LET[n] + ". " + q.options[n]; }).join(" and ");
@@ -3292,6 +3309,145 @@
   }
 
 
+  /* ---------- accounts: synced progress across devices (Apps Script + one private Drive file per user) ---------- */
+  var SinaSync = window.SinaSync = (function () {
+    function acc() { return store.get("sina:acct", null); }
+    function on() { return !!(S.api && acc() && acc().token); }
+    function call(op, body) {
+      return fetch(S.api, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(Object.assign({ type: "acct", op: op }, body || {})) })
+        .then(function (r) { return r.json(); });
+    }
+    function snapshot() {
+      var v = {}, mt = store.get("sina:mt", {});
+      for (var i = 0; i < localStorage.length; i++) { var k = localStorage.key(i); if (syncable(k)) v[k] = localStorage.getItem(k); }
+      Object.keys(mt).forEach(function (k) { if (!(k in v) && syncable(k)) v[k] = null; });   /* deleted keys travel as null */
+      return { v: v, mt: mt, at: Date.now() };
+    }
+    function isObj(x) { return x && typeof x === "object" && !Array.isArray(x); }
+    /* both devices changed the same key since the last sync: combine instead of picking one */
+    function union(a, b, bNewer) {
+      if (isObj(a) && isObj(b)) { var o = {}; Object.keys(a).forEach(function (k) { o[k] = a[k]; }); Object.keys(b).forEach(function (k) { o[k] = k in a ? union(a[k], b[k], bNewer) : b[k]; }); return o; }
+      if (Array.isArray(a) && Array.isArray(b)) {
+        if (a.length === b.length && a.concat(b).every(function (x) { return typeof x === "number"; })) return a.map(function (x, i) { return Math.max(x, b[i]); });
+        var seen = {}, out = []; a.concat(b).forEach(function (x) { var k = JSON.stringify(x); if (!seen[k]) { seen[k] = 1; out.push(x); } });
+        return out.every(function (x) { return typeof x === "string"; }) ? out.sort() : out;
+      }
+      if (typeof a === "number" && typeof b === "number") return Math.max(a, b);
+      return bNewer ? b : a;
+    }
+    var LWW = /^sina:(mistakes|resume|program|theme|qcount|midOnly|m3dq|nick|akmode|akmix|akcount|mmView|cramOpen|last|pos|weakMid|yearAsked)$/;
+    function merge(remote) {
+      var a = acc(), since = (a && a.syncedAt) || 0, mt = store.get("sina:mt", {}), changed = 0;
+      Object.keys(remote.v || {}).forEach(function (k) {
+        if (!syncable(k)) return;
+        var rt = (remote.mt || {})[k] || 0, lt = mt[k] || 0, lv = localStorage.getItem(k), rv = remote.v[k];
+        if (rv === lv) return;
+        var take;
+        if (lv === null && !(k in mt)) take = rv;                 /* this device never had it */
+        else if (rt <= since && lt > since) return;              /* only this device changed it */
+        else if (lt <= since) take = rv;                         /* only the other device changed it */
+        else if (LWW.test(k.split(":").slice(0, 2).join(":")) || rv === null || lv === null) take = rt > lt ? rv : lv;
+        else { try { take = JSON.stringify(union(JSON.parse(lv), JSON.parse(rv), rt > lt)); } catch (e) { take = rt > lt ? rv : lv; } }
+        if (take === lv) return;
+        try { if (take === null) localStorage.removeItem(k); else localStorage.setItem(k, take); } catch (e) {}
+        mt[k] = Math.max(rt, lt); changed++;
+      });
+      try { localStorage.setItem("sina:mt", JSON.stringify(mt)); } catch (e) {}
+      return changed;
+    }
+    var busy = null;
+    function run(first) {
+      if (!on()) return Promise.resolve({ ok: false });
+      if (busy) return busy;
+      var a = acc();
+      if (!a.syncedAt) {   /* first sync on this device: everything already here counts as new, so it is combined with the account */
+        var mt0 = store.get("sina:mt", {}), now0 = Date.now();
+        for (var i = 0; i < localStorage.length; i++) { var k0 = localStorage.key(i); if (syncable(k0) && !mt0[k0]) mt0[k0] = now0; }
+        try { localStorage.setItem("sina:mt", JSON.stringify(mt0)); } catch (e) {}
+      }
+      busy = call("pull", { user: a.user, token: a.token }).then(function (r) {
+        if (!r.ok) { if (r.error === "token" || r.error === "nouser") { store.del("sina:acct"); acctLabel(); } throw new Error(r.error || "pull"); }
+        var remote = {}; try { remote = JSON.parse(r.data || "{}"); } catch (e) {}
+        var changed = merge(remote);
+        return call("push", { user: a.user, token: a.token, data: JSON.stringify(snapshot()) }).then(function (p) {
+          if (!p.ok) throw new Error(p.error || "push");
+          var a2 = acc(); if (a2) { a2.syncedAt = Date.now(); a2.ver = p.ver; store.set("sina:acct", a2); }
+          if (changed && first) route();
+          return { ok: true, changed: changed };
+        });
+      }).then(function (x) { busy = null; return x; }, function (e) { busy = null; return { ok: false, error: String(e && e.message || e) }; });
+      return busy;
+    }
+    return { on: on, run: run, call: call, acc: acc };
+  })();
+  function acctLabel() { var l = document.getElementById("acct-label"), a = SinaSync.acc(); if (l) l.textContent = a ? "Account: " + a.user : "Account and sync"; }
+  acctLabel();
+  if (SinaSync.on()) setTimeout(function () { SinaSync.run(true); }, 1500);
+  document.addEventListener("visibilitychange", function () {
+    var a = SinaSync.acc();
+    if (document.visibilityState === "visible" && SinaSync.on() && Date.now() - ((a && a.syncedAt) || 0) > 60000) SinaSync.run(true);
+  });
+  var ACCT_ERR = { name: "Usernames are 3 to 24 characters: letters, numbers, dots, dashes or underscores.", taken: "That username is taken. Try another.", pass: "Passwords need at least 6 characters.",
+    nouser: "No account with that username.", wrong: "Wrong password.", locked: "Too many wrong tries. Wait 15 minutes and try again.", big: "Your progress is too large to sync.", token: "Your session ended. Log in again." };
+  function accountView() {
+    var a = SinaSync.acc();
+    var h = '<div class="wrap narrow"><p class="crumbs"><a href="#/">Home</a> / Account</p><h1>Account and sync</h1>';
+    if (!S.api) { setView(h + "<p>Accounts are not available yet.</p></div>", "Account"); return; }
+    if (a) {
+      h += '<p class="lede-s">Logged in as <strong>' + esc(a.user) + '</strong>. Your progress syncs on its own: when you open Sina and a few seconds after you answer.</p>' +
+        '<p class="meta" id="acct-status">' + (a.syncedAt ? "Last synced " + new Date(a.syncedAt).toLocaleString() : "Not synced yet.") + '</p>' +
+        '<div class="row"><button class="btn primary" id="acct-sync" type="button">Sync now</button><button class="btn" id="acct-out" type="button">Log out on this device</button></div>' +
+        '<details class="acct-more"><summary>Delete my account</summary><p class="meta">This deletes your account and the copy of your progress saved online. Progress on this device stays.</p>' +
+        '<label class="fld">Password<input type="password" id="acct-dpass" autocomplete="current-password"></label><button class="btn danger" id="acct-del" type="button">Delete account</button><p class="meta" id="acct-dmsg" aria-live="polite"></p></details>';
+      setView(h + "</div>", "Account");
+      var st = document.getElementById("acct-status");
+      document.getElementById("acct-sync").onclick = function () {
+        st.textContent = "Syncing…";
+        SinaSync.run(true).then(function (r) { st.textContent = r.ok ? "Synced " + new Date().toLocaleString() + (r.changed ? " · " + r.changed + " item" + (r.changed > 1 ? "s" : "") + " updated from your other devices" : "") : "Could not sync. " + (ACCT_ERR[r.error] || "Check your connection."); });
+      };
+      document.getElementById("acct-out").onclick = function () { store.del("sina:acct"); acctLabel(); accountView(); };
+      document.getElementById("acct-del").onclick = function () {
+        var m = document.getElementById("acct-dmsg"); m.textContent = "Deleting…";
+        SinaSync.call("delete", { user: a.user, pass: document.getElementById("acct-dpass").value }).then(function (r) {
+          if (!r.ok) { m.textContent = ACCT_ERR[r.error] || "Could not delete."; return; }
+          store.del("sina:acct"); acctLabel(); accountView();
+        }, function () { m.textContent = "Could not reach Sina. Check your connection."; });
+      };
+      return;
+    }
+    h += '<p class="lede-s">Create an account to keep your progress on all your devices: answered questions, mistakes, flashcard reviews, streaks and where you stopped.</p>' +
+      '<div class="tabs acct-tabs" role="tablist"><button role="tab" type="button" data-m="login" aria-selected="true">Log in</button><button role="tab" type="button" data-m="signup" aria-selected="false">Create account</button></div>' +
+      '<form id="acct-form" class="acct-form"><label class="fld">Username<input id="acct-user" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="24" required></label>' +
+      '<label class="fld">Password<input id="acct-pass" type="password" autocomplete="current-password" minlength="6" required></label>' +
+      '<label class="fld" id="acct-p2w" hidden>Repeat password<input id="acct-pass2" type="password" autocomplete="new-password"></label>' +
+      '<button class="btn primary" type="submit" id="acct-go">Log in</button><p class="meta" id="acct-msg" aria-live="polite"></p></form>' +
+      '<p class="meta">No email needed. Pick a username others won\'t guess if you want privacy; it is never shown on the site. Your password is stored scrambled (hashed), and your progress is saved in Sina\'s private storage. There is no password reset, so keep your password somewhere safe.</p>' +
+      '<p class="meta">If this device already has progress, it is combined with your account\'s progress when you log in.</p>';
+    setView(h + "</div>", "Account");
+    var mode = "login", form = document.getElementById("acct-form"), msg = document.getElementById("acct-msg");
+    document.querySelectorAll(".acct-tabs [data-m]").forEach(function (b) {
+      b.onclick = function () {
+        mode = b.dataset.m; document.querySelectorAll(".acct-tabs [data-m]").forEach(function (x) { x.setAttribute("aria-selected", String(x === b)); });
+        document.getElementById("acct-p2w").hidden = mode !== "signup"; document.getElementById("acct-go").textContent = mode === "signup" ? "Create account" : "Log in";
+        document.getElementById("acct-pass").setAttribute("autocomplete", mode === "signup" ? "new-password" : "current-password"); msg.textContent = "";
+      };
+    });
+    form.onsubmit = function (e) {
+      e.preventDefault();
+      var user = document.getElementById("acct-user").value.trim().toLowerCase(), pass = document.getElementById("acct-pass").value;
+      if (!/^[a-z0-9._-]{3,24}$/.test(user)) { msg.textContent = ACCT_ERR.name; return; }
+      if (pass.length < 6) { msg.textContent = ACCT_ERR.pass; return; }
+      if (mode === "signup" && pass !== document.getElementById("acct-pass2").value) { msg.textContent = "The two passwords are different."; return; }
+      var go = document.getElementById("acct-go"); go.disabled = true; msg.textContent = mode === "signup" ? "Creating your account…" : "Logging in…";
+      SinaSync.call(mode, { user: user, pass: pass }).then(function (r) {
+        if (!r.ok) { go.disabled = false; msg.textContent = ACCT_ERR[r.error] || "Something went wrong. Try again."; return; }
+        store.set("sina:acct", { user: r.user, token: r.token, syncedAt: 0 }); acctLabel();
+        msg.textContent = "Syncing your progress…";
+        SinaSync.run(false).then(function () { accountView(); });
+      }, function () { go.disabled = false; msg.textContent = "Could not reach Sina. Check your connection."; });
+    };
+  }
+
   /* ---------- leaderboard (best exam-mode score per nickname and past paper) ---------- */
   function lbDevice() { var d = store.get("sina:dev", ""); if (!d) { d = Math.random().toString(36).slice(2, 12); store.set("sina:dev", d); } return d; }
   function lbPostHTML() {
@@ -3339,7 +3495,7 @@
       if (pend && Date.now() - pend.t < 5 * 6e4) {
         var lst = papers[pend.paper] = papers[pend.paper] || [], mine = lst.filter(function (r) { return String(r.nick).toLowerCase() === pend.nick.toLowerCase(); })[0];
         if (!mine || mine.score / mine.total < pend.score / pend.total) { if (mine) lst.splice(lst.indexOf(mine), 1); lst.push({ nick: pend.nick, paper: pend.paper, score: pend.score, total: pend.total, secs: pend.secs }); lst.sort(function (a, b) { return b.score / b.total - a.score / a.total || a.secs - b.secs; }); }
-        else if (mine && Math.abs(mine.score - pend.score) < 0.01) localStorage.removeItem("sina:lbPending");
+        else if (mine && Math.abs(mine.score - pend.score) < 0.01) store.del("sina:lbPending");
       }
       var ids = Object.keys(papers).filter(function (id) { return (S.papers || []).some(function (x) { return x.id === id; }); });
       var me = (store.get("sina:nick", "") || "").toLowerCase(), title = function (id) { var x = (S.papers || []).filter(function (y) { return y.id === id; })[0]; return x ? x.title : id; };
@@ -3542,6 +3698,7 @@
     if (parts[0] === "year" && progValid(parts[1])) { setProgram(parts[1], true); location.replace("#/"); return; }
     if (parts[0] === "midterm") return midtermView();
     if (parts[0] === "progress") return progressView();
+    if (parts[0] === "account") return accountView();
     if (parts[0] === "mistakes") return mistakesView();
     if (parts[0] === "weak") return weakView(parts[1]);
     if (parts[0] === "review") return reviewView();

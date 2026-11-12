@@ -2,6 +2,11 @@
    Style: short changelog lines, developer voice (Added / Fixed / Changed), no "you". */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
+  { date: "12 November 2026", items: [
+    "Added: accounts (Settings → Account and sync): log in on your phone and computer to keep the same progress on both.",
+    "Added: Include 3D model questions on/off switch on the Anatomy 3 question picker.",
+    "Fixed: picture questions repeating in ear lecture quizzes."
+  ] },
   { date: "11 November 2026", items: [
     "Added: 3D questions for Anatomy 3 (98 questions): a rotatable 3D model with one structure highlighted. Brain lobes and gyri, functional areas, deep nuclei and ventricles, brainstem and cranial nerves, cerebellum, spinal cord tracts, ear and larynx.",
     "Added: interactive 3D models on the Visual tab of the ENT and neuroanatomy lectures: tap a structure to see its name.",
