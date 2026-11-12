@@ -3,6 +3,8 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "12 November 2026", items: [
+    "Added: Sina mock exams for Anatomy 3: 4 ENT mocks in Prof. Hajij's style and 5 neuroanatomy mocks in Prof. Fliyou's style, 25 questions each, playable with notes and slide highlights, plus PDFs.",
+    "Changed: Anatomy 3 past paper group \"Normal anatomy\" renamed to \"Anatomy\".",
     "Added: accounts (Settings → Account and sync): log in on your phone and computer to keep the same progress on both.",
     "Added: Include 3D model questions on/off switch on the Anatomy 3 question picker.",
     "Fixed: picture questions repeating in ear lecture quizzes.",

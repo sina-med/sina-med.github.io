@@ -1,6 +1,6193 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.papers = [
  {
+  "id": "anat3-sina-ent-mock-1",
+  "subject": "anat3",
+  "title": "Sina mock: ENT 1",
+  "year": "Practice",
+  "note": "25 new questions on ear parts 1 and 2, larynx and thyroid, in Prof. Hajij's style: check every true statement.",
+  "links": [
+   {
+    "label": "Download the paper (PDF)",
+    "url": "files/anat3/Anatomy3-Sina-ENT-Mock-1.pdf"
+   }
+  ],
+  "part": "ENT (ear, larynx, thyroid)",
+  "questions": [
+   {
+    "q": "Check the correct statement(s) about the ear:",
+    "options": [
+     "It lies mostly within the petrous part of the temporal bone",
+     "It is the organ of hearing and of balance",
+     "It is divided into two parts: external and internal",
+     "The middle ear is filled with fluid"
+    ],
+    "answers": [
+     0,
+     1
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The ear serves hearing and balance, lies mostly in the petrous temporal bone and has three parts.",
+    "notes": [
+     "Mostly in the petrous part.",
+     "Hearing and equilibrium.",
+     "Three parts (external, middle, inner).",
+     "The middle ear is an air cavity."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/04.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 4
+     }
+    ]
+   },
+   {
+    "q": "The concha of the auricle is limited by:",
+    "options": [
+     "The helix below",
+     "The antitragus below",
+     "The tragus in front",
+     "The anthelix behind and above"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Anthelix behind and above, root of the helix and tragus in front, antitragus below.",
+    "notes": [
+     "The root of the helix is in front, not below.",
+     "",
+     ", with the root of the helix.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/13.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 13
+     }
+    ]
+   },
+   {
+    "q": "The bony part of the external auditory canal:",
+    "options": [
+     "Presents a narrowing called the isthmus",
+     "Contains ceruminous glands",
+     "Is lined by thin skin continuous with the outer layer of the eardrum",
+     "Forms the inner two thirds (16 mm)"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Inner 2/3, thin skin without hair or glands, with the isthmus.",
+    "notes": [
+     "",
+     "No hair and no ceruminous glands.",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/20.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 20
+     }
+    ]
+   },
+   {
+    "q": "The tympanic cavity:",
+    "options": [
+     "Has five bony walls",
+     "Has a membranous lateral wall formed partly by the tympanic membrane",
+     "Is a six-sided box",
+     "Is about 30 mm long"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Six walls, five bony; length about 15 mm; it contains the ossicular chain.",
+    "notes": [
+     "",
+     "The drum forms 4/5 of it.",
+     "",
+     "About 15 mm."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/30.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 30
+     }
+    ]
+   },
+   {
+    "q": "The medial (labyrinthine) wall of the tympanic cavity:",
+    "options": [
+     "Separates the tympanic cavity from the internal ear",
+     "Carries the promontory on its upper level",
+     "Carries the oval and round windows on its lower level",
+     "Is divided into two levels by the prominence of the facial canal"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Upper level: lateral semicircular canal prominence. Lower level: promontory, oval and round windows.",
+    "notes": [
+     "",
+     "The promontory is on the lower level.",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/40.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 40
+     }
+    ]
+   },
+   {
+    "q": "Which are parts of the malleus?",
+    "options": [
+     "Neck",
+     "Footplate",
+     "Manubrium",
+     "Head"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Malleus: head, neck, manubrium (handle), lateral and anterior processes. The footplate belongs to the stapes.",
+    "notes": [
+     "",
+     "Stapes.",
+     "Embedded in the drum.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/48.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 48
+     }
+    ]
+   },
+   {
+    "q": "The functions of the Eustachian tube include:",
+    "options": [
+     "Conducting sound to the cochlea",
+     "Protection",
+     "Drainage",
+     "Equalising air pressure on both sides of the eardrum"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Pressure equilibrium, protection and drainage. Sound travels through the ossicles.",
+    "notes": [
+     "That is the ossicular chain.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/54.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 54
+     }
+    ]
+   },
+   {
+    "q": "The bony labyrinth:",
+    "options": [
+     "Is lined by periosteum",
+     "Derives from the otic capsule",
+     "Contains endolymph directly",
+     "Contains perilymph"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Endolymph is only inside the membranous labyrinth.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/06.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 6
+     },
+     {
+      "src": "files/slides/anat3-ear-2/08.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 8
+     }
+    ]
+   },
+   {
+    "q": "Regarding the spiral lamina and the scalae:",
+    "options": [
+     "The two scalae communicate at the apex through the helicotrema",
+     "The two scalae communicate at the basal turn",
+     "It partly divides the canal into scala vestibuli above and scala tympani below",
+     "The spiral lamina projects from the modiolus into the cochlear canal"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The scalae meet only at the apex (helicotrema).",
+    "notes": [
+     "",
+     "At the apex.",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/11.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 11
+     }
+    ]
+   },
+   {
+    "q": "Check the correct statement(s) about the vestibule:",
+    "options": [
+     "It is the central ovoid cavity of the bony labyrinth",
+     "It lies between the cochlea in front and the semicircular canals behind",
+     "It lies lateral to the middle ear cavity",
+     "It lies medial to the middle ear cavity"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Its lateral wall opens into the middle ear by the oval window.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/15.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 15
+     }
+    ]
+   },
+   {
+    "q": "By how many openings do the three semicircular canals open into the vestibule?",
+    "options": [
+     "Six",
+     "Three",
+     "Five",
+     "Four"
+    ],
+    "answers": [
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Three canals, six ends, but the crus commune makes one shared opening: five.",
+    "notes": [
+     "Two ends share the crus commune.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/18.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 18
+     }
+    ]
+   },
+   {
+    "q": "The vestibulocochlear nerve (VIII):",
+    "options": [
+     "Gives an anterior branch, the cochlear nerve",
+     "Divides in the cerebellopontine angle",
+     "Gives a posterior branch, the vestibular nerve",
+     "Divides in the internal auditory canal"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "It divides inside the internal auditory canal.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/33.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 33
+     }
+    ]
+   },
+   {
+    "q": "The inner ear has two main functions:",
+    "options": [
+     "Balance",
+     "Hearing",
+     "Amplifying sound through the ossicles",
+     "Equalising air pressure"
+    ],
+    "answers": [
+     0,
+     1
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Ossicles and the Eustachian tube belong to the middle ear.",
+    "notes": [
+     "",
+     "",
+     "Middle ear ossicles.",
+     "Eustachian tube."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/06.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 6
+     }
+    ]
+   },
+   {
+    "q": "The relations of the larynx:",
+    "options": [
+     "Below: trachea",
+     "Behind: hypopharynx",
+     "In front: oesophagus",
+     "Above: hyoid bone and base of the tongue"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "In front lies the thyroid gland.",
+    "notes": [
+     "",
+     "",
+     "The thyroid is in front.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/08.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 8
+     }
+    ]
+   },
+   {
+    "q": "The epiglottic cartilage:",
+    "options": [
+     "Is shaped like a tennis racket",
+     "Its laryngeal side is lined with respiratory mucosa",
+     "Its lingual side faces the laryngeal vestibule",
+     "Its foot inserts into the angle of the thyroid cartilage by the thyroepiglottic ligament"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The lingual side faces the tongue base and hyoid; the laryngeal side faces the vestibule.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/19.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 19
+     }
+    ]
+   },
+   {
+    "q": "Movements at the crico-arytenoid joint:",
+    "options": [
+     "Tilting of the cricoid tenses the vocal cords",
+     "Rotation around a vertical axis abducts or adducts the vocal cords",
+     "Gliding closes or opens the posterior glottis",
+     "Elevation of the whole larynx"
+    ],
+    "answers": [
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Tilting happens at the cricothyroid joint; elevation is done by extrinsic muscles.",
+    "notes": [
+     "Cricothyroid joint.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/25.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 25
+     }
+    ]
+   },
+   {
+    "q": "Regarding the tension of the vocal cords:",
+    "options": [
+     "The thyro-arytenoid relaxes them",
+     "The vocalis tenses them",
+     "The cricothyroid tenses them",
+     "The posterior crico-arytenoid tenses them"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The posterior crico-arytenoid abducts.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/37.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 37
+     }
+    ]
+   },
+   {
+    "q": "The vocal cords:",
+    "options": [
+     "Are two pearly white cords",
+     "Stretch from the angle of the thyroid cartilage to the arytenoids",
+     "Unite behind at the thyroid angle",
+     "Unite in front to form the anterior commissure, attached to the thyroid cartilage"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Behind, they are separated by the inter-arytenoid region (posterior commissure).",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/40.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 40
+     }
+    ]
+   },
+   {
+    "q": "The arteries of the larynx:",
+    "options": [
+     "The posteroinferior laryngeal artery comes from the inferior thyroid artery",
+     "The superior laryngeal artery comes from the inferior thyroid artery",
+     "The anteroinferior laryngeal artery comes from the superior thyroid artery",
+     "The superior laryngeal artery comes from the superior thyroid artery"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Superior and anteroinferior from the superior thyroid; posteroinferior from the inferior thyroid.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/49.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 49
+     }
+    ]
+   },
+   {
+    "q": "Vocal nodules:",
+    "options": [
+     "Are bilateral",
+     "Form at the junction of the anterior third and posterior two thirds of the cords",
+     "Form at the posterior commissure",
+     "Are linked to voice overuse (teachers, singers)"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "That point has the maximum contact during vibration.",
+    "notes": [
+     "Symmetrical.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/64.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 64
+     }
+    ]
+   },
+   {
+    "q": "The infrahyoid (strap) muscles include:",
+    "options": [
+     "Sternohyoid",
+     "Omohyoid",
+     "Mylohyoid",
+     "Thyrohyoid"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Four pairs: thyrohyoid, sternohyoid, omohyoid, sternothyroid. Mylohyoid is suprahyoid.",
+    "notes": [
+     "",
+     "",
+     "Suprahyoid.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/11.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 11
+     }
+    ]
+   },
+   {
+    "q": "Each lateral lobe:",
+    "options": [
+     "Is shaped like a triangular pyramid",
+     "Has an upper pole resting against the thyroid cartilage",
+     "Has its base at the upper pole",
+     "Has a lower pole 1 to 2 cm above the sternum"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Apex = upper pole; base = lower pole.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/17.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 17
+     }
+    ]
+   },
+   {
+    "q": "The false capsule attaches the thyroid to:",
+    "options": [
+     "The body of the hyoid",
+     "The oblique lines of the thyroid cartilage",
+     "The cricoid, through the suspensory ligament of Berry",
+     "The sternum"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "These attachments make the gland follow the larynx.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/20.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 20
+     }
+    ]
+   },
+   {
+    "q": "The left recurrent laryngeal nerve:",
+    "options": [
+     "Has a mediastinal course between the arch and the trachea",
+     "Arises from the vagus below the aortic arch",
+     "Runs along the oesotracheal angle",
+     "Passes in front of the branches of the inferior thyroid artery"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The left nerve passes behind the branches.",
+    "notes": [
+     "",
+     "",
+     "",
+     "Behind."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/32.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 32
+     }
+    ]
+   },
+   {
+    "q": "The inferior thyroid artery:",
+    "options": [
+     "Its posterior branch anastomoses with the superior thyroid artery",
+     "Comes from the thyrocervical trunk of the subclavian artery",
+     "Divides into three branches",
+     "Comes from the external carotid"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Posterior, inferior and middle branches.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/38.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 38
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "anat3-sina-ent-mock-2",
+  "subject": "anat3",
+  "title": "Sina mock: ENT 2",
+  "year": "Practice",
+  "note": "25 new questions on ear parts 1 and 2, larynx and thyroid, in Prof. Hajij's style: check every true statement.",
+  "links": [
+   {
+    "label": "Download the paper (PDF)",
+    "url": "files/anat3/Anatomy3-Sina-ENT-Mock-2.pdf"
+   }
+  ],
+  "part": "ENT (ear, larynx, thyroid)",
+  "questions": [
+   {
+    "q": "The external ear is situated:",
+    "options": [
+     "Below the temporal region",
+     "In front of the parotid region",
+     "In front of the mastoid",
+     "Behind the temporomandibular joint"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Behind the TMJ and the parotid region, in front of the mastoid, below the temporal region.",
+    "notes": [
+     "",
+     "It lies behind the parotid region.",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/11.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 11
+     }
+    ]
+   },
+   {
+    "q": "Regarding the muscles of the auricle:",
+    "options": [
+     "Auricularis posterior arises from the mastoid process",
+     "Auricularis anterior arises from the mastoid process",
+     "They are divided into extrinsic and intrinsic groups",
+     "They are rudimentary in humans"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Anterior and superior arise from the epicranial aponeurosis; posterior from the mastoid.",
+    "notes": [
+     "It inserts into the eminentia conchae.",
+     "It arises from the epicranial aponeurosis.",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/15.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 15
+     }
+    ]
+   },
+   {
+    "q": "The external ear is supplied by:",
+    "options": [
+     "The posterior auricular artery",
+     "The superficial temporal artery",
+     "Branches of the internal carotid artery",
+     "Branches of the external carotid artery"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Superficial temporal and posterior auricular arteries, both from the external carotid.",
+    "notes": [
+     "",
+     "",
+     "",
+     "Both arteries come from it."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/23.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 23
+     }
+    ]
+   },
+   {
+    "q": "The lateral wall of the tympanic cavity:",
+    "options": [
+     "Separates it from the external acoustic canal",
+     "Is entirely bony",
+     "Is formed in 4/5 by the tympanic membrane",
+     "Carries the promontory"
+    ],
+    "answers": [
+     0,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Mostly membranous. The promontory is on the medial wall.",
+    "notes": [
+     "",
+     "4/5 is membrane.",
+     "",
+     "The promontory is medial."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/27.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 27
+     },
+     {
+      "src": "files/slides/anat3-ear-1/33.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 33
+     }
+    ]
+   },
+   {
+    "q": "Regarding the roof and floor of the tympanic cavity:",
+    "options": [
+     "The roof is the tegmen tympani, a thin plate of bone",
+     "The roof separates it from the middle cranial fossa",
+     "The floor separates it from the jugular bulb",
+     "The floor separates it from the internal carotid artery"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "A deficient floor lets the jugular bulb bulge into the ear. The carotid relates to the anterior wall.",
+    "notes": [
+     "",
+     "",
+     "",
+     "That is the lower anterior wall."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/41.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 41
+     }
+    ]
+   },
+   {
+    "q": "Regarding the stapes:",
+    "options": [
+     "It weighs about 2 mg",
+     "It has a footplate",
+     "It is the smallest ossicle",
+     "It articulates with the malleus"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Head, anterior and posterior crura, footplate. It articulates with the incus.",
+    "notes": [
+     "The lightest.",
+     "",
+     "",
+     "Incudostapedial joint."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/50.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 50
+     }
+    ]
+   },
+   {
+    "q": "The tympanic plexus is formed by:",
+    "options": [
+     "The chorda tympani",
+     "A branch from the geniculate ganglion",
+     "The tympanic branch of the glossopharyngeal nerve (Jacobson's nerve)",
+     "Sympathetic fibres from around the internal carotid artery"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "It lies on the promontory. The chorda tympani only crosses the cavity.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/56.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 56
+     }
+    ]
+   },
+   {
+    "q": "The membranous labyrinth includes:",
+    "options": [
+     "The vestibule",
+     "The utricle and saccule",
+     "The semicircular ducts",
+     "The cochlear duct"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The vestibule is the bony cavity that houses the utricle and saccule.",
+    "notes": [
+     "Bony.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/07.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 7
+     }
+    ]
+   },
+   {
+    "q": "Near the basal turn of the cochlea:",
+    "options": [
+     "The basal turn bulges into the tympanic cavity as the promontory",
+     "The scala vestibuli communicates with the vestibule",
+     "The oval window opens on the scala tympani",
+     "The scala tympani presents the round window"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The oval window is on the vestibule, closed by the stapes.",
+    "notes": [
+     "",
+     "",
+     "The oval window belongs to the vestibule.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/11.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 11
+     },
+     {
+      "src": "files/slides/anat3-ear-2/14.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 14
+     }
+    ]
+   },
+   {
+    "q": "The oval window (fenestra vestibuli):",
+    "options": [
+     "Is closed by the secondary tympanic membrane",
+     "Is closed by the footplate of the stapes and the annular ligament",
+     "Is on the lateral wall of the vestibule",
+     "Connects the vestibule with the middle ear"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The secondary tympanic membrane closes the round window.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/15.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 15
+     }
+    ]
+   },
+   {
+    "q": "The membranous labyrinth:",
+    "options": [
+     "Is a tube of epithelial origin",
+     "Has the saccule in its anterior (hearing) part",
+     "Has an anterior part for hearing, the cochlear duct",
+     "Has a posterior part for balance: utricle, saccule, semicircular ducts"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The saccule belongs to the posterior (balance) labyrinth.",
+    "notes": [
+     "",
+     "",
+     "",
+     ", with the endolymphatic system."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/19.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 19
+     }
+    ]
+   },
+   {
+    "q": "Regarding the hair cells of the cochlea:",
+    "options": [
+     "Fibres of inner hair cells make up 90 to 95% of the cochlear nerve",
+     "Outer hair cells are contractile and sharpen frequency selectivity",
+     "Inner hair cells perform mechano-electrical transduction",
+     "Outer hair cells are the main true sensory receptors"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Outer hair cells are not true sensory receptors.",
+    "notes": [
+     "About 45,000 afferent fibres.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/33.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 33
+     }
+    ]
+   },
+   {
+    "q": "The cochlear nerve:",
+    "options": [
+     "Carries static balance from the maculae",
+     "Carries hearing",
+     "Runs through the internal auditory canal to the cochlear fossa",
+     "Its fibres reach the spiral ganglion of Corti"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Balance travels in the vestibular nerve.",
+    "notes": [
+     "Vestibular nerve.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/33.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 33
+     }
+    ]
+   },
+   {
+    "q": "Regarding the position of the larynx:",
+    "options": [
+     "It is lower in children than in adults",
+     "It is higher in children (C2 to C3) than in adults",
+     "It lies in the middle part of the visceral sheath of the neck",
+     "In newborns it touches the soft palate, so breathing is nasal until about 4 months"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The larynx descends with age.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/08.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 8
+     }
+    ]
+   },
+   {
+    "q": "The cricoid cartilage:",
+    "options": [
+     "Lies at C6 and completely encircles the lumen",
+     "Has a narrow anterior arch and a broad posterior lamina",
+     "Is an incomplete ring open behind",
+     "Is signet-ring shaped"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The foundation stone of the larynx, the only complete ring.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/20.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 20
+     }
+    ]
+   },
+   {
+    "q": "The cricothyroid joint:",
+    "options": [
+     "Joins the arytenoid to the cricoid",
+     "Allows tilting of the cricoid that tenses the vocal cords",
+     "Is a flat synovial joint",
+     "Joins the lower cornu of the thyroid cartilage to the side of the cricoid"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The arch tilts up and the lamina down, stretching the cords.",
+    "notes": [
+     "Crico-arytenoid joint.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/26.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 26
+     }
+    ]
+   },
+   {
+    "q": "The cricothyroid muscle:",
+    "options": [
+     "Is supplied by the recurrent laryngeal nerve",
+     "Is the only muscle on the outer aspect of the larynx",
+     "Is called the tuning fork of the larynx",
+     "Is supplied by the external branch of the superior laryngeal nerve"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "It is the exception to recurrent supply.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/37.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 37
+     },
+     {
+      "src": "files/slides/anat3-larynx/55.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 55
+     }
+    ]
+   },
+   {
+    "q": "The glottis (rima glottidis):",
+    "options": [
+     "Is triangular",
+     "Is wider in children, so oedema is rarely serious",
+     "Is narrower than the vestibular cleft",
+     "Is bounded by the two vocal cords"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "In children it is narrow: oedema quickly causes respiratory distress.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/41.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 41
+     },
+     {
+      "src": "files/slides/anat3-larynx/40.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 40
+     }
+    ]
+   },
+   {
+    "q": "The lymphatics of the larynx:",
+    "options": [
+     "The supraglottic region drains to submental nodes",
+     "The infraglottic region drains to pretracheal and paratracheal nodes",
+     "Are very rich in the supraglottic zone",
+     "Are absent in the vocal cords"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Supraglottic: internal jugular chain.",
+    "notes": [
+     "Internal jugular chain.",
+     ", and to the jugular chain.",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/51.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 51
+     }
+    ]
+   },
+   {
+    "q": "Check the correct statement(s) about the thyroid gland:",
+    "options": [
+     "It secretes parathyroid hormone",
+     "It secretes thyroid hormones and calcitonin",
+     "It is a unique, median endocrine gland of the neck",
+     "Its relations with the recurrent nerves and parathyroids are the major risks of thyroidectomy"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "PTH comes from the parathyroid glands.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/02.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 2
+     }
+    ]
+   },
+   {
+    "q": "The infrahyoid muscles:",
+    "options": [
+     "Are supplied by the anterior rami of the upper three cervical nerves",
+     "Are enclosed in a fascial sheath",
+     "Fix or depress the hyoid during swallowing and speech",
+     "Elevate the hyoid"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "They fix or lower the hyoid.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/11.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 11
+     }
+    ]
+   },
+   {
+    "q": "The faces of the lateral lobe:",
+    "options": [
+     "Posterior face: in contact with the sternum",
+     "Medial face: applied to the trachea and lower larynx",
+     "Anterolateral face: convex and superficial",
+     "Posterior face: moulded on the vasculo-nervous bundle of the neck"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The carotid sheath lies behind.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/17.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 17
+     }
+    ]
+   },
+   {
+    "q": "The posterior surface of the isthmus:",
+    "options": [
+     "Is attached to the trachea by the median ligament of Berry",
+     "Covers the 2nd, 3rd and 4th tracheal rings",
+     "Lies behind the trachea",
+     "Covers only the cricoid"
+    ],
+    "answers": [
+     0,
+     1
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The isthmus lies in front of the trachea.",
+    "notes": [
+     "Thyro-tracheal ligament.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/27.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 27
+     }
+    ]
+   },
+   {
+    "q": "The parathyroid glands:",
+    "options": [
+     "Are small orange-yellow glands in the fat of the thyroid space",
+     "Lie on the front of the isthmus",
+     "The inferior one lies below the end of the inferior thyroid artery",
+     "The inferior one lies on the posteromedial border of the lateral lobe"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Both lie on the posteromedial border; the inferior one outside the recurrent nerve.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/34.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 34
+     },
+     {
+      "src": "files/slides/anat3-thyroid/28.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 28
+     }
+    ]
+   },
+   {
+    "q": "The thyroid veins:",
+    "options": [
+     "The inferior veins descend to the left brachiocephalic vein",
+     "The superior vein joins the internal jugular, often via Farabeuf's thyro-linguo-facial trunk",
+     "The middle veins join the internal jugular directly",
+     "The inferior veins join the internal jugular"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Three groups of veins.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/39.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 39
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "anat3-sina-ent-mock-3",
+  "subject": "anat3",
+  "title": "Sina mock: ENT 3",
+  "year": "Practice",
+  "note": "25 new questions on ear parts 1 and 2, larynx and thyroid, in Prof. Hajij's style: check every true statement.",
+  "links": [
+   {
+    "label": "Download the paper (PDF)",
+    "url": "files/anat3/Anatomy3-Sina-ENT-Mock-3.pdf"
+   }
+  ],
+  "part": "ENT (ear, larynx, thyroid)",
+  "questions": [
+   {
+    "q": "Regarding the pinna (auricle):",
+    "options": [
+     "It is joined to the skull by its anterior third",
+     "The concha is a projection of the lateral surface",
+     "The ear lobe has a cartilage framework",
+     "Its posterior two thirds form the mobile part"
+    ],
+    "answers": [
+     0,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Anterior 1/3 fixed, posterior 2/3 mobile. The lobe is a skin fold without cartilage; the concha is a depression.",
+    "notes": [
+     "",
+     "The concha is a depression.",
+     "The lobe is a simple skin fold without cartilage.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/11.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 11
+     },
+     {
+      "src": "files/slides/anat3-ear-1/13.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 13
+     }
+    ]
+   },
+   {
+    "q": "Check the correct statement(s) about the external auditory canal:",
+    "options": [
+     "Its cartilaginous part forms two thirds",
+     "It has an elongated S-shaped course",
+     "It is closed internally by the tympanic membrane",
+     "It is about 25 mm long"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "25 mm long, 8 mm wide, S-shaped; cartilaginous 1/3, bony 2/3.",
+    "notes": [
+     "The cartilaginous part is the outer third.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/17.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 17
+     }
+    ]
+   },
+   {
+    "q": "The sensory innervation of the external ear comes from:",
+    "options": [
+     "The trigeminal nerve",
+     "The superficial cervical plexus",
+     "The hypoglossal nerve",
+     "The VII bis (intermediate nerve)"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Cervical plexus, VII bis and V share the external ear.",
+    "notes": [
+     "",
+     "",
+     "XII is motor to the tongue.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/23.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 23
+     }
+    ]
+   },
+   {
+    "q": "The layers of the tympanic membrane:",
+    "options": [
+     "The middle layer is muscular",
+     "The inner layer is mucosa continuous with the middle ear lining",
+     "The outer layer is stratified squamous, continuous with the canal skin",
+     "The middle layer is fibrous and encloses the handle of the malleus"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Cuticular, fibrous (radiating and circular fibres) and mucosal layers.",
+    "notes": [
+     "It is fibrous.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/36.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 36
+     }
+    ]
+   },
+   {
+    "q": "The anterior wall of the tympanic cavity:",
+    "options": [
+     "Has the canal for tensor tympani in its upper part",
+     "Has the aditus ad antrum",
+     "Has the opening of the auditory tube",
+     "In its lower part separates the cavity from the internal carotid artery"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Above: tensor tympani canal; below it: the auditory tube. The aditus is posterior.",
+    "notes": [
+     "",
+     "The aditus is on the posterior wall.",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/42.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 42
+     }
+    ]
+   },
+   {
+    "q": "The mastoid cells:",
+    "options": [
+     "Are a component of the middle ear",
+     "Are dug into the parietal bone",
+     "The antrum is the most developed cell",
+     "Communicate with each other and with the tympanic cavity"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Air cells in the mastoid part of the temporal bone.",
+    "notes": [
+     "",
+     "In the mastoid (temporal) bone.",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/52.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 52
+     }
+    ]
+   },
+   {
+    "q": "Check the correct statement(s) about the inner ear:",
+    "options": [
+     "Perilymph fills the space between the bony and membranous labyrinths",
+     "The membranous labyrinth is filled with endolymph",
+     "It contains air",
+     "The membranous labyrinth lies within the bony labyrinth"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Two fluids: endolymph inside, perilymph around. The air is in the middle ear.",
+    "notes": [
+     "",
+     "",
+     "",
+     "In the petrous temporal bone."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/04.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 4
+     }
+    ]
+   },
+   {
+    "q": "Regarding the bony cochlea:",
+    "options": [
+     "It lies in front of the vestibule",
+     "It is a bony tube about 30 mm long",
+     "It looks like a snail shell",
+     "It is about 1 cm in diameter"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "30 mm long, 1 to 2 mm in diameter, two and a half turns.",
+    "notes": [
+     "",
+     "",
+     "",
+     "1 to 2 mm."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/09.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 9
+     }
+    ]
+   },
+   {
+    "q": "The round window (fenestra cochleae):",
+    "options": [
+     "Opens into the tympanic cavity below and behind the promontory",
+     "Belongs to the scala vestibuli",
+     "Is closed by the secondary tympanic membrane",
+     "Is closed by the footplate of the stapes"
+    ],
+    "answers": [
+     0,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "It belongs to the scala tympani.",
+    "notes": [
+     "",
+     "Scala tympani.",
+     "",
+     "That is the oval window."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/14.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 14
+     }
+    ]
+   },
+   {
+    "q": "The bony semicircular canals:",
+    "options": [
+     "Each has two ampullae",
+     "Lie in three planes at 90° to each other",
+     "Are three in number",
+     "Are each about two thirds of a circle"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Each canal is dilated at one end only: the ampulla.",
+    "notes": [
+     "One ampulla per canal.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/16.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 16
+     }
+    ]
+   },
+   {
+    "q": "The connections of the membranous labyrinth:",
+    "options": [
+     "The cochlear duct joins the saccule by the ductus reuniens",
+     "Saccule and utricle are joined by the Y-shaped utriculo-saccular duct",
+     "The utricle receives the semicircular ducts by three openings",
+     "This duct continues as the endolymphatic duct and sac"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The utricle receives the semicircular ducts by five openings.",
+    "notes": [
+     "",
+     "",
+     "Five.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/21.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 21
+     }
+    ]
+   },
+   {
+    "q": "The superior vestibular nerve gives:",
+    "options": [
+     "The saccular nerve",
+     "The utricular nerve",
+     "The superior ampullary nerve",
+     "The lateral ampullary nerve"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The saccular nerve comes from the inferior vestibular nerve.",
+    "notes": [
+     "Inferior vestibular nerve.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/34.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 34
+     }
+    ]
+   },
+   {
+    "q": "The functions of the larynx include:",
+    "options": [
+     "Phonation",
+     "Respiration",
+     "Protection of the airway",
+     "Digestion"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Phonation, respiration, protection and deglutition.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/07.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 7
+     }
+    ]
+   },
+   {
+    "q": "In the adult, the larynx extends:",
+    "options": [
+     "From C1",
+     "Down to the lower edge of the cricoid at C6",
+     "Down to T2",
+     "From the upper border of the thyroid cartilage at C4"
+    ],
+    "answers": [
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "C4 to C6.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/09.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 9
+     }
+    ]
+   },
+   {
+    "q": "The arytenoid cartilage:",
+    "options": [
+     "Its anterior angle forms the vocal process",
+     "The muscular process receives the posterior and lateral crico-arytenoids",
+     "The vocal ligament inserts on the vocal process",
+     "Its posterior side receives the cricothyroid"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The posterior side receives the transverse arytenoid.",
+    "notes": [
+     "",
+     "",
+     "",
+     "Transverse arytenoid."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/22.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 22
+     }
+    ]
+   },
+   {
+    "q": "The posterior crico-arytenoid muscles:",
+    "options": [
+     "If paralysed on both sides, the person may die from lack of air",
+     "Are the only abductors of the vocal cords",
+     "Are called the safety muscles of the larynx",
+     "Are supplied by the external laryngeal nerve"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "They are supplied by the recurrent laryngeal nerve.",
+    "notes": [
+     "The adductors take over.",
+     "",
+     "",
+     "Recurrent laryngeal nerve."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/37.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 37
+     }
+    ]
+   },
+   {
+    "q": "Damage to one recurrent laryngeal nerve:",
+    "options": [
+     "Leaves the cord on the affected side in a paramedian position",
+     "Leaves the cords in the cadaveric position",
+     "Often happens during thyroidectomy",
+     "Usually affects the voice little because the other cord compensates"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The cadaveric position follows bilateral recurrent and external laryngeal palsy.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/37.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 37
+     }
+    ]
+   },
+   {
+    "q": "Spaces of the larynx:",
+    "options": [
+     "The aryepiglottic fold runs from the epiglottis to the cricoid",
+     "The vestibule lies above the vestibular folds",
+     "The infraglottic cavity lies below the vocal folds",
+     "The ventricle lies between the vestibular and vocal folds"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The aryepiglottic fold runs from the epiglottis to the arytenoid.",
+    "notes": [
+     "To the arytenoid.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/45.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 45
+     }
+    ]
+   },
+   {
+    "q": "The nerves of the larynx:",
+    "options": [
+     "The recurrent laryngeal nerve supplies the cricothyroid",
+     "The recurrent laryngeal nerve carries sensation from below the vocal folds",
+     "The internal branch of the superior laryngeal nerve pierces the thyrohyoid membrane",
+     "It carries sensation from the mucosa above the vocal folds"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "All laryngeal nerves come from the vagus.",
+    "notes": [
+     "External laryngeal nerve.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/55.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 55
+     }
+    ]
+   },
+   {
+    "q": "The thyroid gland is situated:",
+    "options": [
+     "Just behind the infrahyoid muscles",
+     "In the infrahyoid region",
+     "In front of the upper trachea and lower larynx",
+     "In front of the infrahyoid muscles"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The strap muscles cover it.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/08.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 8
+     }
+    ]
+   },
+   {
+    "q": "The morphology of the thyroid:",
+    "options": [
+     "Two vertical lateral lobes",
+     "Joined by a horizontal isthmus",
+     "H- or butterfly-shaped in front view",
+     "The isthmus is vertical"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The isthmus is transverse.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/15.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 15
+     }
+    ]
+   },
+   {
+    "q": "The isthmus:",
+    "options": [
+     "Has two faces and two concave edges",
+     "Is higher than it is wide",
+     "Always has a pyramidal lobe",
+     "May give off a pyramidal lobe from its upper edge, left of the midline"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The pyramidal lobe is inconstant.",
+    "notes": [
+     "",
+     "",
+     "Inconstant.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/18.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 18
+     }
+    ]
+   },
+   {
+    "q": "The medial side of the lateral lobe is related:",
+    "options": [
+     "Behind, directly to the vertebral bodies",
+     "Behind, to the pharynx then the oesophagus",
+     "In front, to the thyroid cartilage, cricoid and first tracheal rings",
+     "In front, to the sternum"
+    ],
+    "answers": [
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "It covers the larynx and first five or six rings, then the pharynx and oesophagus behind.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/28.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 28
+     },
+     {
+      "src": "files/slides/anat3-thyroid/29.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 29
+     }
+    ]
+   },
+   {
+    "q": "Check the correct statement(s) about the vessels of the thyroid:",
+    "options": [
+     "It is made of the superior thyroid artery and veins",
+     "The superior thyroid pedicle is the only true pedicle of each lobe",
+     "The inferior thyroid veins run alongside the inferior thyroid artery",
+     "It reaches the upper pole"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The inferior thyroid veins are not satellites of the artery.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/36.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 36
+     }
+    ]
+   },
+   {
+    "q": "The actions of thyroid hormones include:",
+    "options": [
+     "Acceleration of carbohydrate metabolism",
+     "A hypocalcaemic action",
+     "Acceleration of lipid catabolism",
+     "Increased oxygen consumption and heat production"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "They are hypercalcaemic (bone resorption).",
+    "notes": [
+     "",
+     "Hypercalcaemic.",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/44.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 44
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "anat3-sina-ent-mock-4",
+  "subject": "anat3",
+  "title": "Sina mock: ENT 4",
+  "year": "Practice",
+  "note": "25 new questions on ear parts 1 and 2, larynx and thyroid, in Prof. Hajij's style: check every true statement.",
+  "links": [
+   {
+    "label": "Download the paper (PDF)",
+    "url": "files/anat3/Anatomy3-Sina-ENT-Mock-4.pdf"
+   }
+  ],
+  "part": "ENT (ear, larynx, thyroid)",
+  "questions": [
+   {
+    "q": "On the lateral surface of the auricle:",
+    "options": [
+     "The antitragus forms the ear lobe",
+     "The scapha separates the helix from the anthelix",
+     "The helix lies in front of the tragus",
+     "The anthelix is a bifid projection concentric to the helix"
+    ],
+    "answers": [
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The anthelix is bifid and concentric to the helix, separated from it by the scaphoid fossa (scapha).",
+    "notes": [
+     "The lobe is a skin fold below the antitragus.",
+     "The scaphoid fossa of the helix.",
+     "The helix is at the periphery of the upper 2/3.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/13.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 13
+     }
+    ]
+   },
+   {
+    "q": "The cartilaginous part of the external auditory canal:",
+    "options": [
+     "Its cartilage continues that of the auricle",
+     "Contains ceruminous glands",
+     "Is lined by thin skin without hair",
+     "Forms the outer third (8 mm)"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Outer third, continuous with the auricular cartilage, thick skin with hair and wax glands.",
+    "notes": [
+     "",
+     "They secrete ear wax.",
+     "The skin is thick and hairy.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/19.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 19
+     }
+    ]
+   },
+   {
+    "q": "Check the correct statement(s) about the middle ear:",
+    "options": [
+     "It is an air cavity in the thickness of the temporal bone",
+     "It communicates forward with the oropharynx",
+     "It is continued behind by the mastoid cells",
+     "Its central part is the tympanic cavity"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Three cavities: Eustachian tube, tympanic cavity, mastoid cells. The tube leads to the nasopharynx.",
+    "notes": [
+     "",
+     "Forward it reaches the nasopharynx.",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/27.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 27
+     }
+    ]
+   },
+   {
+    "q": "The pars flaccida of the eardrum:",
+    "options": [
+     "Lies above the lateral process of the malleus",
+     "Is also called Shrapnell's membrane",
+     "Is the thickest and most tense part",
+     "Lacks the fibrous layer, replaced by loose areolar tissue"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "A small, thin, lax triangle between the malleal folds.",
+    "notes": [
+     "",
+     "",
+     "It is thin and lax.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/38.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 38
+     }
+    ]
+   },
+   {
+    "q": "The posterior wall of the tympanic cavity:",
+    "options": [
+     "Has the retrotympanum in its lower part",
+     "Contains the vertical part of the facial canal",
+     "Has the aditus ad antrum, connecting it with the mastoid",
+     "Separates the cavity from the middle cranial fossa"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The facial canal descends behind the pyramid to the stylomastoid foramen.",
+    "notes": [
+     "",
+     "",
+     "",
+     "That is the roof."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/43.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 43
+     }
+    ]
+   },
+   {
+    "q": "Check the correct statement(s) about the Eustachian tube:",
+    "options": [
+     "Its bony part is superior and posterior",
+     "It is osseocartilaginous",
+     "It connects the tympanic cavity with the nasopharynx",
+     "Its cartilaginous part is posterior, near the tympanic cavity"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Bony part near the tympanic cavity, cartilaginous part in front towards the nasopharynx.",
+    "notes": [
+     "",
+     "",
+     "",
+     "The cartilaginous part is anterior."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-1/53.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 53
+     },
+     {
+      "src": "files/slides/anat3-ear-1/54.jpg",
+      "lec": "Anatomy of the ear, part 1: external and middle ear",
+      "n": 54
+     }
+    ]
+   },
+   {
+    "q": "The bony labyrinth includes:",
+    "options": [
+     "The utricle",
+     "The cochlea",
+     "The vestibule",
+     "The semicircular canals"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The utricle is part of the membranous labyrinth, inside the bony vestibule.",
+    "notes": [
+     "Membranous.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/06.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 6
+     }
+    ]
+   },
+   {
+    "q": "The modiolus:",
+    "options": [
+     "Is the central bony pillar of the cochlea",
+     "Has its base at the fundus of the internal acoustic meatus",
+     "Is shaped like an elongated cone",
+     "Has its apex pointing towards the internal acoustic meatus"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Base at the internal acoustic meatus, apex towards the middle ear.",
+    "notes": [
+     "",
+     "Perforated by cochlear nerve fibres.",
+     "",
+     "The apex points towards the middle ear."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/09.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 9
+     },
+     {
+      "src": "files/slides/anat3-ear-2/11.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 11
+     }
+    ]
+   },
+   {
+    "q": "The aqueduct of the cochlea:",
+    "options": [
+     "Connects the perilymph with the cerebrospinal fluid",
+     "Is a narrow canal starting near the basal turn",
+     "Contains endolymph",
+     "Opens into the middle ear"
+    ],
+    "answers": [
+     0,
+     1
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Perilymph communicates with the CSF through it.",
+    "notes": [
+     "",
+     "",
+     "Perilymph.",
+     "It reaches the subarachnoid space."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/14.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 14
+     }
+    ]
+   },
+   {
+    "q": "Regarding the planes and ends of the semicircular canals:",
+    "options": [
+     "The anterior canal lies in a vertical plane",
+     "The posterior canal lies in a horizontal plane",
+     "The lateral canal lies in a horizontal plane",
+     "The anterior and posterior canals join to form the crus commune"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Anterior and posterior: vertical. Lateral: horizontal.",
+    "notes": [
+     "",
+     "Vertical.",
+     "",
+     "By their non-ampullated ends."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/17.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 17
+     },
+     {
+      "src": "files/slides/anat3-ear-2/18.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 18
+     }
+    ]
+   },
+   {
+    "q": "Check the correct statement(s) about the sensory receptors of the inner ear:",
+    "options": [
+     "The spiral organ of Corti serves hearing",
+     "The cristae of the semicircular ducts serve kinetic balance",
+     "Messages from the maculae travel in the cochlear nerve",
+     "The maculae of the utricle and saccule serve static balance"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Maculae and cristae: vestibular nerve. Organ of Corti: cochlear nerve.",
+    "notes": [
+     "",
+     "",
+     "Vestibular nerve.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/22.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 22
+     }
+    ]
+   },
+   {
+    "q": "The labyrinthine artery may arise from:",
+    "options": [
+     "The external carotid artery",
+     "The posterior auricular artery",
+     "The basilar trunk directly",
+     "The anterior inferior cerebellar artery"
+    ],
+    "answers": [
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "It comes from AICA (or the 'middle cerebellar' artery) or straight from the basilar trunk.",
+    "notes": [
+     "",
+     "That supplies the external ear.",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ear-2/35.jpg",
+      "lec": "Anatomy of the ear, part 2: the inner ear",
+      "n": 35
+     }
+    ]
+   },
+   {
+    "q": "Check the correct statement(s) about the larynx as a sphincter:",
+    "options": [
+     "If incompetent, food and fluid may be aspirated into the trachea",
+     "It stays open during swallowing",
+     "It guards the inlet of the lower airway",
+     "Its upward and downward movements help swallowing"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "It closes during swallowing to protect the airway.",
+    "notes": [
+     "",
+     "It closes.",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/07.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 7
+     }
+    ]
+   },
+   {
+    "q": "Check the correct statement(s) about the laryngeal cartilages:",
+    "options": [
+     "The unpaired ones are the thyroid, cricoid and epiglottis",
+     "The hyoid is one of them",
+     "The paired ones are the arytenoid, corniculate and cuneiform",
+     "There are nine"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The hyoid is a bone above the larynx.",
+    "notes": [
+     "Large.",
+     "",
+     "Small.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/15.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 15
+     }
+    ]
+   },
+   {
+    "q": "The crico-arytenoid joints:",
+    "options": [
+     "Are functionally the most important joints of the larynx",
+     "Are flat fibrous joints",
+     "Are elliptical synovial joints",
+     "Are reinforced by the posterior crico-arytenoid ligament"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "They carry rotation and gliding of the arytenoids.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/25.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 25
+     }
+    ]
+   },
+   {
+    "q": "Which muscles adduct the vocal cords?",
+    "options": [
+     "Transverse arytenoid",
+     "Sternothyroid",
+     "Lateral crico-arytenoid",
+     "Posterior crico-arytenoid"
+    ],
+    "answers": [
+     0,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "All intrinsic muscles adduct except the posterior crico-arytenoids.",
+    "notes": [
+     "",
+     "An extrinsic muscle.",
+     "",
+     "The only abductor."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/37.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 37
+     }
+    ]
+   },
+   {
+    "q": "The extrinsic muscles of the larynx:",
+    "options": [
+     "Thyrohyoid, mylohyoid and digastric elevate the larynx",
+     "The cricothyroid is one of them",
+     "Ensure laryngeal mobility, especially in swallowing",
+     "Sternothyroid, sternohyoid and omohyoid lower it"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The cricothyroid is intrinsic.",
+    "notes": [
+     "",
+     "Intrinsic.",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/38.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 38
+     }
+    ]
+   },
+   {
+    "q": "The laryngeal epithelium:",
+    "options": [
+     "Is keratinised on the vocal cords",
+     "Is non-keratinised stratified squamous on the vocal cords",
+     "Is squamous on the upper half of the epiglottis",
+     "Is respiratory type over most of the larynx"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "No keratin in the larynx.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/47.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 47
+     }
+    ]
+   },
+   {
+    "q": "The voice:",
+    "options": [
+     "Pitch depends mostly on the shape of the supralaryngeal cavities",
+     "Intensity (dB) depends on subglottic pressure",
+     "Frequency (Hz) depends on the vibration speed of the vocal folds",
+     "Intensity depends mainly on the supralaryngeal cavities"
+    ],
+    "answers": [
+     0,
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Three parameters: frequency, intensity, pitch.",
+    "notes": [
+     "",
+     "",
+     "",
+     "On expiratory force."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-larynx/58.jpg",
+      "lec": "Anatomy of the larynx",
+      "n": 58
+     }
+    ]
+   },
+   {
+    "q": "At which vertebral levels does the thyroid lie?",
+    "options": [
+     "C5 to T1",
+     "C1 to C3",
+     "T2 to T4",
+     "C3 to C4"
+    ],
+    "answers": [
+     0
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Opposite C5, C6, C7 and T1, clasping the upper trachea.",
+    "notes": [
+     "",
+     "",
+     "",
+     "That is around the hyoid."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/14.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 14
+     }
+    ]
+   },
+   {
+    "q": "The dimensions of the thyroid:",
+    "options": [
+     "Weight about 300 g",
+     "Lateral lobes about 6 cm high",
+     "Isthmus about 1 cm wide and 1.5 cm high",
+     "About 6 cm wide between the lobes"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "About 30 g, larger in women.",
+    "notes": [
+     "About 30 g.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/15.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 15
+     }
+    ]
+   },
+   {
+    "q": "The capsules of the thyroid:",
+    "options": [
+     "The true capsule is a condensation of the gland's fibrous stroma",
+     "The false capsule comes from the pretracheal fascia",
+     "The gland is removed without its true capsule",
+     "The dense venous plexus lies deep to the true capsule"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "To avoid bleeding, it is removed with the true capsule.",
+    "notes": [
+     "",
+     "",
+     "Removed with it.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/20.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 20
+     }
+    ]
+   },
+   {
+    "q": "The right recurrent laryngeal nerve:",
+    "options": [
+     "Arises below the aortic arch",
+     "Arises from the vagus at the level of the right subclavian artery",
+     "Passes under the inferior constrictor of the pharynx",
+     "Passes in front of the branches of the inferior thyroid artery"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The left nerve arises below the aortic arch.",
+    "notes": [
+     "Left nerve.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/31.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 31
+     }
+    ]
+   },
+   {
+    "q": "The superior thyroid artery:",
+    "options": [
+     "Comes from the thyrocervical trunk",
+     "Ends at the top of the lateral lobe",
+     "Divides into three branches",
+     "Is the first branch of the external carotid artery"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Lateral, medial and posterior branches.",
+    "notes": [
+     "That gives the inferior thyroid artery.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/37.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 37
+     }
+    ]
+   },
+   {
+    "q": "Calcitonin and parathyroid hormone:",
+    "options": [
+     "Calcitonin is secreted by follicular cells",
+     "Calcitonin is secreted by C cells",
+     "PTH is hypercalcaemic and hypophosphataemic",
+     "Calcitonin is hypocalcaemic"
+    ],
+    "answers": [
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Follicular cells secrete thyroid hormones.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-thyroid/45.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 45
+     },
+     {
+      "src": "files/slides/anat3-thyroid/46.jpg",
+      "lec": "Anatomy of the thyroid gland",
+      "n": 46
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "anat3-sina-neuro-mock-1",
+  "subject": "anat3",
+  "title": "Sina mock: Neuroanatomy 1",
+  "year": "Practice",
+  "note": "25 new questions on the seven midterm lectures, in Prof. Fliyou's style: short, broad, one answer.",
+  "links": [
+   {
+    "label": "Download the paper (PDF)",
+    "url": "files/anat3/Anatomy3-Sina-Neuroanatomy-Mock-1.pdf"
+   }
+  ],
+  "part": "Neuroanatomy",
+  "questions": [
+   {
+    "q": "The central nervous system consists of:",
+    "options": [
+     "The spinal cord and its ganglia",
+     "The brain and the spinal cord",
+     "The brain, spinal cord and cranial nerves",
+     "The brain only"
+    ],
+    "answer": 1,
+    "why": "CNS = brain + spinal cord; nerves and ganglia are peripheral.",
+    "notes": [
+     "Ganglia are peripheral.",
+     "",
+     "Cranial nerves are peripheral.",
+     "The spinal cord is also central."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-neuro-intro/14.jpg",
+      "lec": "Introduction and embryological development of the CNS",
+      "n": 14
+     }
+    ]
+   },
+   {
+    "q": "Which division controls voluntary actions?",
+    "options": [
+     "Somatic nervous system",
+     "Autonomic nervous system",
+     "Parasympathetic system",
+     "Sympathetic system"
+    ],
+    "answer": 0,
+    "why": "Autonomic responses are automatic; somatic actions are voluntary.",
+    "notes": [
+     "",
+     "Automatic responses.",
+     "Part of the autonomic system.",
+     "Part of the autonomic system."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-neuro-intro/13.jpg",
+      "lec": "Introduction and embryological development of the CNS",
+      "n": 13
+     }
+    ]
+   },
+   {
+    "q": "Which cells line the ventricles and help produce CSF?",
+    "options": [
+     "Astrocytes",
+     "Oligodendrocytes",
+     "Ependymal cells",
+     "Satellite cells"
+    ],
+    "answer": 2,
+    "why": "Ependymal cells line the ventricles and help produce and move CSF.",
+    "notes": [
+     "Support cells.",
+     "CNS myelin.",
+     "",
+     "Peripheral ganglia."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-neuro-intro/19.jpg",
+      "lec": "Introduction and embryological development of the CNS",
+      "n": 19
+     }
+    ]
+   },
+   {
+    "q": "What separates the two cerebral hemispheres?",
+    "options": [
+     "Tentorium cerebelli",
+     "Falx cerebri",
+     "Falx cerebelli",
+     "Diaphragma sellae"
+    ],
+    "answer": 1,
+    "why": "A vertical crescent of dura in the longitudinal fissure.",
+    "notes": [
+     "Separates cerebrum from cerebellum.",
+     "",
+     "Between the cerebellar hemispheres.",
+     "Covers the pituitary."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/15.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 15
+     }
+    ]
+   },
+   {
+    "q": "Where is the insula?",
+    "options": [
+     "Deep in the lateral sulcus",
+     "In the floor of the third ventricle",
+     "Under the corpus callosum",
+     "On the medial surface of the occipital lobe"
+    ],
+    "answer": 0,
+    "why": "Folded at the bottom of the Sylvian fissure, with 3 anterior and 2 posterior gyri.",
+    "notes": [
+     "",
+     "That is the hypothalamus.",
+     "That is the fornix.",
+     "That is the cuneus."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/19.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 19
+     }
+    ]
+   },
+   {
+    "q": "What is the main role of the corpus callosum?",
+    "options": [
+     "Relaying sensation to the cortex",
+     "Connecting the two hemispheres",
+     "Controlling posture",
+     "Producing CSF"
+    ],
+    "answer": 1,
+    "why": "About 200 million fibres join the lobes of both hemispheres.",
+    "notes": [
+     "Thalamus.",
+     "",
+     "Cerebellum and brainstem.",
+     "Choroid plexus."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/31.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 31
+     }
+    ]
+   },
+   {
+    "q": "The lentiform nucleus is made of:",
+    "options": [
+     "Subthalamic nucleus and substantia nigra",
+     "Caudate and globus pallidus",
+     "Caudate and putamen",
+     "Putamen and globus pallidus"
+    ],
+    "answer": 3,
+    "why": "Caudate + putamen = dorsal striatum.",
+    "notes": [
+     "",
+     "",
+     "Dorsal striatum.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/41.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 41
+     }
+    ]
+   },
+   {
+    "q": "Where is Wernicke's area?",
+    "options": [
+     "Occipital pole",
+     "Inferior frontal gyrus",
+     "Posterior superior temporal lobe",
+     "Postcentral gyrus"
+    ],
+    "answer": 2,
+    "why": "It is linked to Broca's area by a neural pathway.",
+    "notes": [
+     "Visual cortex.",
+     "Broca's area.",
+     "",
+     "Somatosensory cortex."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/58.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 58
+     }
+    ]
+   },
+   {
+    "q": "The diencephalon lies around which cavity?",
+    "options": [
+     "Fourth ventricle",
+     "Third ventricle",
+     "Cerebral aqueduct",
+     "Lateral ventricles"
+    ],
+    "answer": 1,
+    "why": "Above the brainstem, below the corpus callosum.",
+    "notes": [
+     "Brainstem and cerebellum.",
+     "",
+     "Midbrain.",
+     "Hemispheres."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/04.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 4
+     }
+    ]
+   },
+   {
+    "q": "What forms the posterior wall of the foramen of Monro?",
+    "options": [
+     "The caudate head",
+     "The anterior pole of the thalamus",
+     "The fornix",
+     "The pulvinar"
+    ],
+    "answer": 1,
+    "why": "The fornix forms its anterior wall.",
+    "notes": [
+     "Lateral wall of the frontal horn.",
+     "",
+     "Anterior wall.",
+     "Posterior end of the thalamus."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/10.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 10
+     }
+    ]
+   },
+   {
+    "q": "The hypothalamus forms:",
+    "options": [
+     "The lateral wall of the lateral ventricle",
+     "The floor of the third ventricle",
+     "The roof of the third ventricle",
+     "The floor of the fourth ventricle"
+    ],
+    "answer": 1,
+    "why": "It ends below in the infundibulum, linked to the pituitary.",
+    "notes": [
+     "",
+     "",
+     "Fornix and choroid.",
+     "Pons and medulla."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/16.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 16
+     }
+    ]
+   },
+   {
+    "q": "When does the pineal gland secrete melatonin?",
+    "options": [
+     "In response to darkness",
+     "During exercise",
+     "After meals",
+     "In response to light"
+    ],
+    "answer": 0,
+    "why": "Pinealocytes secrete melatonin in the dark: circadian rhythm.",
+    "notes": [
+     "",
+     "",
+     "",
+     "Light suppresses it."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/23.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 23
+     }
+    ]
+   },
+   {
+    "q": "What are the parts of the brainstem from above downwards?",
+    "options": [
+     "Medulla, pons, midbrain",
+     "Pons, midbrain, medulla",
+     "Thalamus, midbrain, pons",
+     "Midbrain, pons, medulla"
+    ],
+    "answer": 3,
+    "why": "The thalamus is diencephalon.",
+    "notes": [
+     "Reversed.",
+     "Wrong order.",
+     "The thalamus is not brainstem.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/03.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 3
+     }
+    ]
+   },
+   {
+    "q": "Where is the tectum?",
+    "options": [
+     "In front of the cerebral aqueduct",
+     "Behind the cerebral aqueduct",
+     "In the pons",
+     "In the floor of the fourth ventricle"
+    ],
+    "answer": 1,
+    "why": "Peduncles are in front; the colliculi form the tectum.",
+    "notes": [
+     "That is the peduncles/tegmentum.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/09.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 9
+     }
+    ]
+   },
+   {
+    "q": "Where does the abducens nerve (VI) emerge?",
+    "options": [
+     "Cerebellopontine angle",
+     "Pontomedullary junction, close to the midline",
+     "Dorsal midbrain",
+     "Lateral mid pons"
+    ],
+    "answer": 1,
+    "why": "V: lateral pons. VII and VIII: cerebellopontine angle.",
+    "notes": [
+     "VII and VIII.",
+     "",
+     "IV.",
+     "Trigeminal."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/13.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 13
+     }
+    ]
+   },
+   {
+    "q": "Which nerves emerge behind (dorsolateral to) the olive?",
+    "options": [
+     "XII",
+     "IX, X and XI",
+     "VI and VII",
+     "III and IV"
+    ],
+    "answer": 1,
+    "why": "XII between pyramid and olive; IX, X, XI behind the olive.",
+    "notes": [
+     "Between pyramid and olive.",
+     "",
+     "Pontomedullary junction.",
+     "Midbrain."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/17.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 17
+     }
+    ]
+   },
+   {
+    "q": "What separates the cerebellum from the pons and medulla?",
+    "options": [
+     "Tentorium cerebelli",
+     "Third ventricle",
+     "Cerebral aqueduct",
+     "Fourth ventricle"
+    ],
+    "answer": 3,
+    "why": "The cerebellum lies behind them, across the fourth ventricle.",
+    "notes": [
+     "Above the cerebellum.",
+     "Diencephalon.",
+     "Midbrain.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebellum/05.jpg",
+      "lec": "Anatomy of the cerebellum",
+      "n": 5
+     }
+    ]
+   },
+   {
+    "q": "Which part of the cerebellum is the oldest?",
+    "options": [
+     "Anterior lobe",
+     "Lateral hemispheres",
+     "Flocculonodular lobe",
+     "Posterior lobe"
+    ],
+    "answer": 2,
+    "why": "Archicerebellum: balance and spatial orientation, linked with the vestibular nuclei.",
+    "notes": [
+     "Paleocerebellum.",
+     "Neocerebellum.",
+     "",
+     "Neocerebellum."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebellum/15.jpg",
+      "lec": "Anatomy of the cerebellum",
+      "n": 15
+     }
+    ]
+   },
+   {
+    "q": "Where do climbing fibres come from?",
+    "options": [
+     "Spinal cord",
+     "Pontine nuclei",
+     "Vestibular nuclei",
+     "Contralateral inferior olivary nucleus"
+    ],
+    "answer": 3,
+    "why": "Mossy fibres come from many sources; climbing fibres only from the olive.",
+    "notes": [
+     "Mossy fibres.",
+     "Mossy fibres.",
+     "Mossy fibres.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebellum/25.jpg",
+      "lec": "Anatomy of the cerebellum",
+      "n": 25
+     }
+    ]
+   },
+   {
+    "q": "Where does the spinal cord end in adults?",
+    "options": [
+     "S1",
+     "L3–L4",
+     "T10",
+     "L1–L2"
+    ],
+    "answer": 3,
+    "why": "At birth L3; at 6 months of fetal life S1.",
+    "notes": [
+     "At 6 months of fetal life.",
+     "Lumbar puncture level.",
+     "Too high.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-spinal-cord/09.jpg",
+      "lec": "Anatomy of the spinal cord",
+      "n": 9
+     }
+    ]
+   },
+   {
+    "q": "What do the dorsal (sensory) roots come from?",
+    "options": [
+     "The marginal zone",
+     "Mesoderm",
+     "Neural crest cells",
+     "The basal plate"
+    ],
+    "answer": 2,
+    "why": "Ventral roots come from basal plate motor neurons.",
+    "notes": [
+     "",
+     "",
+     "",
+     "Ventral roots."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-spinal-cord/07.jpg",
+      "lec": "Anatomy of the spinal cord",
+      "n": 7
+     }
+    ]
+   },
+   {
+    "q": "Where are the lateral horns found?",
+    "options": [
+     "T1–L2 and S2–S4",
+     "Only in the coccygeal cord",
+     "Only in the cervical cord",
+     "Throughout the cord"
+    ],
+    "answer": 0,
+    "why": "T1–L2: sympathetic. S2–S4: parasympathetic.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-spinal-cord/19.jpg",
+      "lec": "Anatomy of the spinal cord",
+      "n": 19
+     }
+    ]
+   },
+   {
+    "q": "How do the lateral ventricles communicate with the third ventricle?",
+    "options": [
+     "Foramen of Luschka",
+     "Foramen of Magendie",
+     "Cerebral aqueduct",
+     "Interventricular foramen of Monro"
+    ],
+    "answer": 3,
+    "why": "One foramen on each side.",
+    "notes": [
+     "Fourth to the cerebellopontine cistern.",
+     "Fourth to cisterna magna.",
+     "Third to fourth.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ventricles/11.jpg",
+      "lec": "Anatomy of the ventricles and CSF",
+      "n": 11
+     }
+    ]
+   },
+   {
+    "q": "Which is NOT in the floor of the third ventricle?",
+    "options": [
+     "Mammillary bodies",
+     "Optic chiasm",
+     "Pineal gland",
+     "Tuber cinereum"
+    ],
+    "answer": 2,
+    "why": "The pineal is in the posterior wall.",
+    "notes": [
+     "Floor.",
+     "Floor.",
+     "",
+     "Floor."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ventricles/26.jpg",
+      "lec": "Anatomy of the ventricles and CSF",
+      "n": 26
+     }
+    ]
+   },
+   {
+    "q": "What is the total volume of CSF in the adult?",
+    "options": [
+     "About 150 mL",
+     "About 500 mL",
+     "About 1 L",
+     "About 25 mL"
+    ],
+    "answer": 0,
+    "why": "125 mL in the subarachnoid spaces, 25 mL in the ventricles.",
+    "notes": [
+     "",
+     "Daily production.",
+     "",
+     "Ventricles only."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ventricles/45.jpg",
+      "lec": "Anatomy of the ventricles and CSF",
+      "n": 45
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "anat3-sina-neuro-mock-2",
+  "subject": "anat3",
+  "title": "Sina mock: Neuroanatomy 2",
+  "year": "Practice",
+  "note": "25 new questions on the seven midterm lectures, in Prof. Fliyou's style: short, broad, one answer.",
+  "links": [
+   {
+    "label": "Download the paper (PDF)",
+    "url": "files/anat3/Anatomy3-Sina-Neuroanatomy-Mock-2.pdf"
+   }
+  ],
+  "part": "Neuroanatomy",
+  "questions": [
+   {
+    "q": "What protects the central nervous system?",
+    "options": [
+     "The peripheral nerves",
+     "Bone, meninges and cerebrospinal fluid",
+     "Skin and fat only",
+     "Muscles only"
+    ],
+    "answer": 1,
+    "why": "Skull and spine, reinforced by the meninges and cushioned by CSF.",
+    "notes": [
+     "Nerves do not protect it.",
+     "",
+     "T the main protection.",
+     "Muscles are not the protection described."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-neuro-intro/15.jpg",
+      "lec": "Introduction and embryological development of the CNS",
+      "n": 15
+     }
+    ]
+   },
+   {
+    "q": "Which part of the neuron carries impulses away from the cell body?",
+    "options": [
+     "Nucleus",
+     "Dendrite",
+     "Soma",
+     "Axon"
+    ],
+    "answer": 3,
+    "why": "Dendrites receive; the axon transmits away from the soma.",
+    "notes": [
+     "The nucleus is inside the soma.",
+     "Dendrites receive signals.",
+     "The soma holds the nucleus.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-neuro-intro/18.jpg",
+      "lec": "Introduction and embryological development of the CNS",
+      "n": 18
+     }
+    ]
+   },
+   {
+    "q": "Which is an example of white matter?",
+    "options": [
+     "Cerebral cortex",
+     "Thalamus",
+     "Basal ganglia",
+     "Corpus callosum"
+    ],
+    "answer": 3,
+    "why": "White matter = myelinated axons: corpus callosum, internal capsule.",
+    "notes": [
+     "Grey matter.",
+     "Grey matter.",
+     "Grey matter.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-neuro-intro/21.jpg",
+      "lec": "Introduction and embryological development of the CNS",
+      "n": 21
+     }
+    ]
+   },
+   {
+    "q": "What lies in the infratentorial compartment?",
+    "options": [
+     "Pituitary gland",
+     "Cerebellum and brainstem",
+     "Diencephalon",
+     "Cerebral hemispheres"
+    ],
+    "answer": 1,
+    "why": "Supratentorial: cerebrum. Infratentorial: cerebellum and brainstem.",
+    "notes": [
+     "In the sella, above.",
+     "",
+     "Supratentorial.",
+     "Supratentorial."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/10.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 10
+     }
+    ]
+   },
+   {
+    "q": "Where is the calcarine fissure?",
+    "options": [
+     "On the medial surface of the occipital lobe",
+     "On the inferior surface of the cerebellum",
+     "On the lateral surface of the frontal lobe",
+     "Between the temporal and parietal lobes"
+    ],
+    "answer": 0,
+    "why": "From the occipital pole to the parieto-occipital sulcus: the visual area.",
+    "notes": [
+     "",
+     "",
+     "",
+     "That is the lateral sulcus."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/20.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 20
+     }
+    ]
+   },
+   {
+    "q": "The anterior columns of the fornix end in:",
+    "options": [
+     "The amygdala",
+     "The hippocampus",
+     "The thalamus",
+     "The mammillary bodies"
+    ],
+    "answer": 3,
+    "why": "Posterior columns: hippocampus. Anterior columns: mammillary bodies.",
+    "notes": [
+     "",
+     "That is where the posterior columns end.",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/34.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 34
+     }
+    ]
+   },
+   {
+    "q": "What does the basal ganglia need at their input nuclei to work properly?",
+    "options": [
+     "Dopamine",
+     "Glycine",
+     "Histamine",
+     "Acetylcholine"
+    ],
+    "answer": 0,
+    "why": "Loss of dopamine is the basis of Parkinson's disease.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/40.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 40
+     }
+    ]
+   },
+   {
+    "q": "Where do most corticospinal fibres cross?",
+    "options": [
+     "In the midbrain",
+     "In the cerebral cortex",
+     "In the internal capsule",
+     "In the medulla"
+    ],
+    "answer": 3,
+    "why": "Motor cortex → internal capsule → cerebral peduncles → decussation in the medulla.",
+    "notes": [
+     "",
+     "",
+     "They pass through it, uncrossed.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/55.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 55
+     }
+    ]
+   },
+   {
+    "q": "Which is NOT a part of the diencephalon?",
+    "options": [
+     "Epithalamus",
+     "Hypothalamus",
+     "Subthalamus",
+     "Tectum"
+    ],
+    "answer": 3,
+    "why": "Four parts: epithalamus, thalamus, subthalamus, hypothalamus. The tectum is midbrain.",
+    "notes": [
+     "Part of it.",
+     "Part of it.",
+     "Part of it.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/04.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 4
+     }
+    ]
+   },
+   {
+    "q": "The medial surface of the thalamus forms:",
+    "options": [
+     "The floor of the lateral ventricle only",
+     "The roof of the fourth ventricle",
+     "The floor of the third ventricle",
+     "The lateral wall of the third ventricle"
+    ],
+    "answer": 3,
+    "why": "The two thalami face each other across the third ventricle.",
+    "notes": [
+     "",
+     "",
+     "That is the hypothalamus.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/10.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 10
+     }
+    ]
+   },
+   {
+    "q": "The hypothalamus is divided into:",
+    "options": [
+     "Anterior, medial and lateral thalamus",
+     "Supraoptic, tuberal and mammillary regions",
+     "Head, body and tail",
+     "Molecular, Purkinje and granular layers"
+    ],
+    "answer": 1,
+    "why": "Three regions from front to back.",
+    "notes": [
+     "Parts of the thalamus.",
+     "",
+     "Caudate nucleus.",
+     "Cerebellar cortex."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/17.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 17
+     }
+    ]
+   },
+   {
+    "q": "Low melatonin levels typically lead to:",
+    "options": [
+     "Diabetes insipidus",
+     "Hemiplegia",
+     "Mood disorders",
+     "Deafness"
+    ],
+    "answer": 2,
+    "why": "Epithalamic dysfunction is linked to depression, schizophrenia and sleep disorders.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/25.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 25
+     }
+    ]
+   },
+   {
+    "q": "Which cranial nerves do NOT arise from the brainstem?",
+    "options": [
+     "Vagus and accessory",
+     "Facial and vestibulocochlear",
+     "Trochlear and abducens",
+     "Olfactory and optic"
+    ],
+    "answer": 3,
+    "why": "Ten of twelve arise from the brainstem.",
+    "notes": [
+     "Brainstem.",
+     "Brainstem.",
+     "Brainstem.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/22.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 22
+     }
+    ]
+   },
+   {
+    "q": "The inferior brachium carries auditory fibres to:",
+    "options": [
+     "The lateral geniculate body",
+     "The medial geniculate body",
+     "The cerebellum",
+     "The superior colliculus"
+    ],
+    "answer": 1,
+    "why": "Superior brachium: vision. Inferior brachium: hearing.",
+    "notes": [
+     "Vision.",
+     "",
+     "",
+     "Vision."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/10.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 10
+     }
+    ]
+   },
+   {
+    "q": "What forms the facial colliculus?",
+    "options": [
+     "The superior colliculus",
+     "The trochlear nucleus",
+     "The olive",
+     "Facial nerve fibres looping around the abducens nucleus"
+    ],
+    "answer": 3,
+    "why": "A bulge in the floor of the fourth ventricle.",
+    "notes": [
+     "Midbrain tectum.",
+     "",
+     "Medulla.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/15.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 15
+     }
+    ]
+   },
+   {
+    "q": "What is a function of the reticular formation?",
+    "options": [
+     "Hormone secretion",
+     "Fine touch",
+     "Arousal and consciousness",
+     "Vision"
+    ],
+    "answer": 2,
+    "why": "Also sleep-wake cycles, cardiovascular and respiratory control, pain modulation.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/23.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 23
+     }
+    ]
+   },
+   {
+    "q": "What is the main role of the cerebellum?",
+    "options": [
+     "Producing CSF",
+     "Automatic regulation of tone, balance and coordination",
+     "Relaying sensation",
+     "Starting voluntary movement"
+    ],
+    "answer": 1,
+    "why": "It adjusts movement automatically.",
+    "notes": [
+     "Choroid plexus.",
+     "",
+     "Thalamus.",
+     "Motor cortex."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebellum/05.jpg",
+      "lec": "Anatomy of the cerebellum",
+      "n": 5
+     }
+    ]
+   },
+   {
+    "q": "What is the arbor vitae?",
+    "options": [
+     "The cerebellar cortex",
+     "A vein",
+     "A deep nucleus",
+     "Branching white matter of the cerebellum"
+    ],
+    "answer": 3,
+    "why": "A tree-like pattern on section.",
+    "notes": [
+     "Grey matter.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebellum/17.jpg",
+      "lec": "Anatomy of the cerebellum",
+      "n": 17
+     }
+    ]
+   },
+   {
+    "q": "PICA is a branch of:",
+    "options": [
+     "The internal carotid artery",
+     "The vertebral artery",
+     "The basilar artery",
+     "The posterior cerebral artery"
+    ],
+    "answer": 1,
+    "why": "SCA and AICA come from the basilar artery.",
+    "notes": [
+     "",
+     "",
+     "SCA and AICA.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebellum/28.jpg",
+      "lec": "Anatomy of the cerebellum",
+      "n": 28
+     }
+    ]
+   },
+   {
+    "q": "Where does the spinal cord end at birth?",
+    "options": [
+     "S1",
+     "L1",
+     "L3",
+     "Co1"
+    ],
+    "answer": 2,
+    "why": "It rises to L1–L2 by adulthood.",
+    "notes": [
+     "Fetal (6 months).",
+     "Adult level.",
+     "",
+     "That is the filum."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-spinal-cord/09.jpg",
+      "lec": "Anatomy of the spinal cord",
+      "n": 9
+     }
+    ]
+   },
+   {
+    "q": "How long is the adult spinal cord?",
+    "options": [
+     "60 to 70 cm",
+     "40 to 45 cm",
+     "25 to 30 cm",
+     "10 to 12 cm"
+    ],
+    "answer": 1,
+    "why": "Weighs 25 to 30 g; transverse diameter 10 to 12 mm.",
+    "notes": [
+     "",
+     "",
+     "",
+     "That is the diameter in mm."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-spinal-cord/11.jpg",
+      "lec": "Anatomy of the spinal cord",
+      "n": 11
+     }
+    ]
+   },
+   {
+    "q": "What do the anterior horns contain?",
+    "options": [
+     "Sympathetic neurons",
+     "Motor neurons",
+     "Sensory neurons of the dorsal roots",
+     "Ependymal cells only"
+    ],
+    "answer": 1,
+    "why": "Their axons leave by the ventral roots.",
+    "notes": [
+     "Lateral horn.",
+     "",
+     "Posterior horn receives sensory input.",
+     "Line the central canal."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-spinal-cord/19.jpg",
+      "lec": "Anatomy of the spinal cord",
+      "n": 19
+     }
+    ]
+   },
+   {
+    "q": "Which horn of the lateral ventricle is the longest and largest?",
+    "options": [
+     "None, all are equal",
+     "Temporal",
+     "Occipital",
+     "Frontal"
+    ],
+    "answer": 1,
+    "why": "It ends at the amygdala.",
+    "notes": [
+     "",
+     "",
+     "Varies in size.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ventricles/19.jpg",
+      "lec": "Anatomy of the ventricles and CSF",
+      "n": 19
+     }
+    ]
+   },
+   {
+    "q": "Where does non-communicating hydrocephalus most commonly arise?",
+    "options": [
+     "Cerebral aqueduct",
+     "Arachnoid granulations",
+     "Choroid plexus",
+     "Lumbar cistern"
+    ],
+    "answer": 0,
+    "why": "The narrow aqueduct is easily blocked.",
+    "notes": [
+     "",
+     "Communicating type.",
+     "Overproduction is rare.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ventricles/28.jpg",
+      "lec": "Anatomy of the ventricles and CSF",
+      "n": 28
+     }
+    ]
+   },
+   {
+    "q": "Where is CSF mainly absorbed?",
+    "options": [
+     "Central canal",
+     "Ependyma of the aqueduct",
+     "Arachnoid granulations into the superior sagittal sinus",
+     "Choroid plexus"
+    ],
+    "answer": 2,
+    "why": "Meningeal lymphatics also help.",
+    "notes": [
+     "",
+     "",
+     "",
+     "Produces it."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ventricles/49.jpg",
+      "lec": "Anatomy of the ventricles and CSF",
+      "n": 49
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "anat3-sina-neuro-mock-3",
+  "subject": "anat3",
+  "title": "Sina mock: Neuroanatomy 3",
+  "year": "Practice",
+  "note": "25 new questions on the seven midterm lectures, in Prof. Fliyou's style: short, broad, one answer.",
+  "links": [
+   {
+    "label": "Download the paper (PDF)",
+    "url": "files/anat3/Anatomy3-Sina-Neuroanatomy-Mock-3.pdf"
+   }
+  ],
+  "part": "Neuroanatomy",
+  "questions": [
+   {
+    "q": "How many pairs of spinal nerves are there?",
+    "options": [
+     "8",
+     "33",
+     "31",
+     "12"
+    ],
+    "answer": 2,
+    "why": "31 pairs of spinal nerves and 12 pairs of cranial nerves.",
+    "notes": [
+     "8 is the number of cervical nerve pairs.",
+     "33 is the number of vertebrae.",
+     "",
+     "12 is the number of cranial nerve pairs."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-neuro-intro/17.jpg",
+      "lec": "Introduction and embryological development of the CNS",
+      "n": 17
+     }
+    ]
+   },
+   {
+    "q": "Which cells produce myelin in the CNS?",
+    "options": [
+     "Oligodendrocytes",
+     "Astrocytes",
+     "Microglia",
+     "Schwann cells"
+    ],
+    "answer": 0,
+    "why": "Oligodendrocytes in the CNS; Schwann cells in the PNS.",
+    "notes": [
+     "",
+     "Support and blood-brain barrier.",
+     "Immune cells.",
+     "PNS myelin."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-neuro-intro/19.jpg",
+      "lec": "Introduction and embryological development of the CNS",
+      "n": 19
+     }
+    ]
+   },
+   {
+    "q": "From which germ layer is the nervous system derived?",
+    "options": [
+     "Endoderm",
+     "Ectoderm",
+     "Neural crest only",
+     "Mesoderm"
+    ],
+    "answer": 1,
+    "why": "All of it comes from ectoderm, except its blood vessels and a few elements.",
+    "notes": [
+     "Gut lining.",
+     "",
+     "Neural crest is itself ectodermal and forms only part.",
+     "Gives its vessels."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-neuro-intro/24.jpg",
+      "lec": "Introduction and embryological development of the CNS",
+      "n": 24
+     }
+    ]
+   },
+   {
+    "q": "What is the foramen of Pacchioni?",
+    "options": [
+     "The opening bounded by the free border of the tentorium",
+     "The median aperture of the fourth ventricle",
+     "The opening between lateral and third ventricles",
+     "The opening of the aqueduct"
+    ],
+    "answer": 0,
+    "why": "The diencephalon-midbrain junction passes through it.",
+    "notes": [
+     "",
+     "That is Magendie.",
+     "That is the foramen of Monro.",
+     "T a named foramen here."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/15.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 15
+     }
+    ]
+   },
+   {
+    "q": "Which lobe is the largest, about 40% of the hemisphere?",
+    "options": [
+     "Temporal",
+     "Parietal",
+     "Occipital",
+     "Frontal"
+    ],
+    "answer": 3,
+    "why": "The frontal lobe lies in front of the central sulcus.",
+    "notes": [
+     "Smaller.",
+     "Smaller.",
+     "The smallest.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/22.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 22
+     }
+    ]
+   },
+   {
+    "q": "Which commissure passes under the pineal gland, in the posterior wall of the third ventricle?",
+    "options": [
+     "Habenular commissure",
+     "Posterior white commissure",
+     "Corpus callosum",
+     "Anterior white commissure"
+    ],
+    "answer": 1,
+    "why": "The anterior commissure lies in front of the fornix.",
+    "notes": [
+     "Above the pineal stalk.",
+     "",
+     "Above the ventricles.",
+     "In front of the fornix."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/35.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 35
+     }
+    ]
+   },
+   {
+    "q": "Through which structure do the basal ganglia send their output back to the cortex?",
+    "options": [
+     "Cerebellum",
+     "Thalamus",
+     "Hippocampus",
+     "Spinal cord"
+    ],
+    "answer": 1,
+    "why": "Cortex → basal ganglia → thalamus → cortex.",
+    "notes": [
+     "Separate loop.",
+     "",
+     "Memory, not this loop.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/49.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 49
+     }
+    ]
+   },
+   {
+    "q": "Epilepsy as a sign of a hemispheric lesion points to:",
+    "options": [
+     "A cortical lesion",
+     "A peripheral nerve lesion",
+     "A cerebellar lesion",
+     "A spinal cord lesion"
+    ],
+    "answer": 0,
+    "why": "Seizure type depends on where the cortex is involved.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/68.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 68
+     }
+    ]
+   },
+   {
+    "q": "What connects the two thalami?",
+    "options": [
+     "Corpus callosum",
+     "Interthalamic adhesion",
+     "Fornix",
+     "Posterior commissure"
+    ],
+    "answer": 1,
+    "why": "It crosses the third ventricle.",
+    "notes": [
+     "Joins the hemispheres.",
+     "",
+     "Limbic pathway.",
+     "Behind, below the pineal."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/06.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 6
+     }
+    ]
+   },
+   {
+    "q": "What is the most posterior part of the thalamus?",
+    "options": [
+     "Habenula",
+     "Mammillary body",
+     "Pulvinar",
+     "Interthalamic adhesion"
+    ],
+    "answer": 2,
+    "why": "The pulvinar lies lateral to the pineal and colliculi.",
+    "notes": [
+     "Epithalamus.",
+     "Hypothalamus.",
+     "",
+     "Medial."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/12.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 12
+     }
+    ]
+   },
+   {
+    "q": "The hypothalamus is the interface between:",
+    "options": [
+     "The nervous and endocrine systems",
+     "The two hemispheres",
+     "The cerebrum and cerebellum",
+     "The spinal cord and the muscles"
+    ],
+    "answer": 0,
+    "why": "It controls autonomic functions and the pituitary.",
+    "notes": [
+     "",
+     "Corpus callosum.",
+     "Peduncles.",
+     "Motor neurons."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/18.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 18
+     }
+    ]
+   },
+   {
+    "q": "What is the lateral boundary of the subthalamus?",
+    "options": [
+     "Hypothalamus",
+     "Third ventricle",
+     "Internal capsule",
+     "Red nucleus"
+    ],
+    "answer": 2,
+    "why": "Medial: hypothalamus. Posterior: red nucleus and substantia nigra.",
+    "notes": [
+     "Medial boundary.",
+     "",
+     "",
+     "Posterior boundary."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/26.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 26
+     }
+    ]
+   },
+   {
+    "q": "On which bone does the brainstem lie?",
+    "options": [
+     "Basilar part of the occipital bone (clivus)",
+     "Squamous occipital bone",
+     "Body of the sphenoid only",
+     "Petrous temporal bone"
+    ],
+    "answer": 0,
+    "why": "Posterior fossa, under the tentorium.",
+    "notes": [
+     "",
+     "Behind the cerebellum.",
+     "Holds the pituitary.",
+     "Holds the ear."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/05.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 5
+     }
+    ]
+   },
+   {
+    "q": "Which cranial nerve emerges from the dorsal surface of the brainstem?",
+    "options": [
+     "Abducens (VI)",
+     "Oculomotor (III)",
+     "Trochlear (IV)",
+     "Trigeminal (V)"
+    ],
+    "answer": 2,
+    "why": "IV emerges below the inferior colliculi and supplies the superior oblique.",
+    "notes": [
+     "Pontomedullary junction.",
+     "Between the peduncles.",
+     "",
+     "Side of the pons."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/22.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 22
+     }
+    ]
+   },
+   {
+    "q": "What marks the border between pons and medulla on the floor of the fourth ventricle?",
+    "options": [
+     "Medial eminence",
+     "Facial colliculus",
+     "Stria medullaris",
+     "Obex"
+    ],
+    "answer": 2,
+    "why": "Transverse fibres crossing to the midline.",
+    "notes": [
+     "Marks the midline.",
+     "In the pontine floor.",
+     "",
+     "Lowest tip of the ventricle."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/15.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 15
+     }
+    ]
+   },
+   {
+    "q": "Which ascending pathway is unconscious?",
+    "options": [
+     "Lateral spinothalamic tract",
+     "Dorsal column-medial lemniscus",
+     "Spinocerebellar tracts",
+     "Anterolateral system"
+    ],
+    "answer": 2,
+    "why": "They carry unconscious proprioception to the cerebellum.",
+    "notes": [
+     "Conscious.",
+     "Conscious.",
+     "",
+     "Conscious."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/24.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 24
+     }
+    ]
+   },
+   {
+    "q": "Why is tonsillar herniation life-threatening?",
+    "options": [
+     "It compresses the medulla",
+     "It tears the falx",
+     "It blocks the optic chiasm",
+     "It compresses the cauda equina"
+    ],
+    "answer": 0,
+    "why": "The medulla holds the respiratory and cardiovascular centres.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebellum/13.jpg",
+      "lec": "Anatomy of the cerebellum",
+      "n": 13
+     }
+    ]
+   },
+   {
+    "q": "Which is the largest deep cerebellar nucleus?",
+    "options": [
+     "Fastigial",
+     "Emboliform",
+     "Dentate",
+     "Globose"
+    ],
+    "answer": 2,
+    "why": "Dentate: planning and coordination of voluntary movement.",
+    "notes": [
+     "Medial, balance.",
+     "Interposed.",
+     "",
+     "Interposed."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebellum/22.jpg",
+      "lec": "Anatomy of the cerebellum",
+      "n": 22
+     }
+    ]
+   },
+   {
+    "q": "The cerebrocerebellum sends its output through:",
+    "options": [
+     "The fastigial nucleus",
+     "The vestibular nuclei",
+     "The dentate nucleus",
+     "The inferior olive"
+    ],
+    "answer": 2,
+    "why": "Dentate → thalamus → motor cortex.",
+    "notes": [
+     "Spinocerebellum.",
+     "Vestibulocerebellum.",
+     "",
+     "Input, not output."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebellum/30.jpg",
+      "lec": "Anatomy of the cerebellum",
+      "n": 30
+     }
+    ]
+   },
+   {
+    "q": "Why does the adult spinal cord end above the end of the vertebral canal?",
+    "options": [
+     "The cord shrinks with age",
+     "The vertebral column keeps growing after the cord stops",
+     "The cauda equina pulls it up",
+     "The cord is cut at birth"
+    ],
+    "answer": 1,
+    "why": "Cord growth ends at about 4 years, the column at 14 to 18.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-spinal-cord/08.jpg",
+      "lec": "Anatomy of the spinal cord",
+      "n": 8
+     }
+    ]
+   },
+   {
+    "q": "What anchors the spinal cord to the coccyx?",
+    "options": [
+     "Cauda equina",
+     "Filum terminale",
+     "Denticulate ligament",
+     "Conus medullaris"
+    ],
+    "answer": 1,
+    "why": "From the tip of the conus to Co1.",
+    "notes": [
+     "Nerve roots.",
+     "",
+     "Lateral anchors to the dura.",
+     "The tapered end of the cord."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-spinal-cord/12.jpg",
+      "lec": "Anatomy of the spinal cord",
+      "n": 12
+     }
+    ]
+   },
+   {
+    "q": "What is the denticulate ligament?",
+    "options": [
+     "The end of the cord",
+     "Lateral extensions of the pia attaching to the dura",
+     "A ligament of the vertebral bodies",
+     "A fold of dura"
+    ],
+    "answer": 1,
+    "why": "It anchors the cord laterally between the roots.",
+    "notes": [
+     "Conus.",
+     "",
+     "Longitudinal ligaments.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-spinal-cord/29.jpg",
+      "lec": "Anatomy of the spinal cord",
+      "n": 29
+     }
+    ]
+   },
+   {
+    "q": "What forms the medial wall of the frontal horn?",
+    "options": [
+     "Head of the caudate",
+     "Thalamus",
+     "Septum pellucidum",
+     "Hippocampus"
+    ],
+    "answer": 2,
+    "why": "The caudate head is lateral.",
+    "notes": [
+     "Lateral wall.",
+     "",
+     "",
+     "Floor of the temporal horn."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ventricles/13.jpg",
+      "lec": "Anatomy of the ventricles and CSF",
+      "n": 13
+     }
+    ]
+   },
+   {
+    "q": "The median aperture of Magendie opens into:",
+    "options": [
+     "Cerebellopontine cistern",
+     "Central canal",
+     "Third ventricle",
+     "Cisterna magna"
+    ],
+    "answer": 3,
+    "why": "The lateral apertures of Luschka open into the cerebellopontine cistern.",
+    "notes": [
+     "Luschka.",
+     "Via the obex.",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ventricles/34.jpg",
+      "lec": "Anatomy of the ventricles and CSF",
+      "n": 34
+     }
+    ]
+   },
+   {
+    "q": "Communicating hydrocephalus is due to:",
+    "options": [
+     "A blocked foramen of Monro",
+     "Poor CSF absorption or excess production",
+     "A blocked aqueduct",
+     "A blocked fourth ventricle outlet"
+    ],
+    "answer": 1,
+    "why": "Blocked passages cause non-communicating hydrocephalus.",
+    "notes": [
+     "N-communicating.",
+     "",
+     "N-communicating.",
+     "N-communicating."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ventricles/54.jpg",
+      "lec": "Anatomy of the ventricles and CSF",
+      "n": 54
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "anat3-sina-neuro-mock-4",
+  "subject": "anat3",
+  "title": "Sina mock: Neuroanatomy 4",
+  "year": "Practice",
+  "note": "25 new questions on the seven midterm lectures, in Prof. Fliyou's style: short, broad, one answer.",
+  "links": [
+   {
+    "label": "Download the paper (PDF)",
+    "url": "files/anat3/Anatomy3-Sina-Neuroanatomy-Mock-4.pdf"
+   }
+  ],
+  "part": "Neuroanatomy",
+  "questions": [
+   {
+    "q": "Which is NOT part of the peripheral nervous system?",
+    "options": [
+     "Spinal cord",
+     "Dorsal root ganglia",
+     "Cranial nerves",
+     "Spinal nerves"
+    ],
+    "answer": 0,
+    "why": "The PNS is everything neural outside the CNS.",
+    "notes": [
+     "The spinal cord is central.",
+     "Peripheral.",
+     "Peripheral.",
+     "Peripheral."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-neuro-intro/17.jpg",
+      "lec": "Introduction and embryological development of the CNS",
+      "n": 17
+     }
+    ]
+   },
+   {
+    "q": "Which glial cells act as the immune cells of the CNS?",
+    "options": [
+     "Astrocytes",
+     "Microglia",
+     "Ependymal cells",
+     "Satellite cells"
+    ],
+    "answer": 1,
+    "why": "Microglia remove debris by phagocytosis.",
+    "notes": [
+     "Support, ion balance, blood-brain barrier.",
+     "",
+     "Line the ventricles.",
+     "Support neurons in peripheral ganglia."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-neuro-intro/19.jpg",
+      "lec": "Introduction and embryological development of the CNS",
+      "n": 19
+     }
+    ]
+   },
+   {
+    "q": "What does the rhombencephalon give?",
+    "options": [
+     "Metencephalon and myelencephalon",
+     "Mesencephalon only",
+     "The spinal cord only",
+     "Telencephalon and diencephalon"
+    ],
+    "answer": 0,
+    "why": "Metencephalon (pons, cerebellum) and myelencephalon (medulla).",
+    "notes": [
+     "",
+     "The mesencephalon stays as the midbrain.",
+     "The cord comes from the caudal neural tube.",
+     "From the prosencephalon."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-neuro-intro/23.jpg",
+      "lec": "Introduction and embryological development of the CNS",
+      "n": 23
+     }
+    ]
+   },
+   {
+    "q": "How much does a cerebral hemisphere pair weigh in the adult?",
+    "options": [
+     "2500 to 3000 g",
+     "25 to 30 g",
+     "1200 to 1400 g",
+     "300 to 400 g"
+    ],
+    "answer": 2,
+    "why": "About 1200 to 1400 g.",
+    "notes": [
+     "Too heavy.",
+     "That is the spinal cord.",
+     "",
+     "Too light."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/13.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 13
+     }
+    ]
+   },
+   {
+    "q": "What is the cuneus?",
+    "options": [
+     "The hook of the parahippocampal gyrus",
+     "The posterior end of the thalamus",
+     "Part of the insula",
+     "The 6th occipital gyrus, on the medial surface"
+    ],
+    "answer": 3,
+    "why": "It lies above the calcarine fissure.",
+    "notes": [
+     "That is the uncus.",
+     "That is the pulvinar.",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/26.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 26
+     }
+    ]
+   },
+   {
+    "q": "Where is the internal capsule?",
+    "options": [
+     "Between the thalamus and caudate medially and the lentiform nucleus laterally",
+     "Above the corpus callosum",
+     "Outside the claustrum",
+     "Between the lentiform nucleus and the claustrum"
+    ],
+    "answer": 0,
+    "why": "External capsule: lentiform to claustrum. Extreme capsule: outside the claustrum.",
+    "notes": [
+     "",
+     "Centrum semiovale.",
+     "Extreme capsule.",
+     "External capsule."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/38.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 38
+     }
+    ]
+   },
+   {
+    "q": "In most people the left hemisphere is dominant for:",
+    "options": [
+     "Spatial ability",
+     "Musical skills",
+     "Artistic creativity",
+     "Language"
+    ],
+    "answer": 3,
+    "why": "Left: speech, comprehension, arithmetic, writing (about 92%). Right: spatial, artistic, musical.",
+    "notes": [
+     "Right hemisphere.",
+     "Right hemisphere.",
+     "Right hemisphere.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/52.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 52
+     }
+    ]
+   },
+   {
+    "q": "What is the main function of the occipital lobe?",
+    "options": [
+     "Touch and pain",
+     "Planning movement",
+     "Interpreting vision",
+     "Hearing"
+    ],
+    "answer": 2,
+    "why": "Colour, light and movement.",
+    "notes": [
+     "Parietal.",
+     "Frontal.",
+     "",
+     "Temporal."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/54.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 54
+     }
+    ]
+   },
+   {
+    "q": "What is the role of the lateral geniculate body?",
+    "options": [
+     "Controlling hunger",
+     "Relaying hearing to the temporal cortex",
+     "Relaying vision to the occipital cortex",
+     "Secreting melatonin"
+    ],
+    "answer": 2,
+    "why": "Retina → optic tract → LGB → optic radiations → visual cortex.",
+    "notes": [
+     "Hypothalamus.",
+     "Medial geniculate body.",
+     "",
+     "Pineal gland."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/09.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 9
+     }
+    ]
+   },
+   {
+    "q": "Which sensation reaches the cortex without thalamic filtering?",
+    "options": [
+     "Hearing",
+     "Vision",
+     "Smell",
+     "Touch"
+    ],
+    "answer": 2,
+    "why": "All other sensations are processed in the thalamus.",
+    "notes": [
+     "Filtered.",
+     "Filtered.",
+     "",
+     "Filtered."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/14.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 14
+     }
+    ]
+   },
+   {
+    "q": "Damage to the hypothalamus can cause:",
+    "options": [
+     "Ipsilateral ataxia",
+     "Loss of fine touch",
+     "Hemiballismus",
+     "Hyperthermia or hypothermia"
+    ],
+    "answer": 3,
+    "why": "Also weight changes, fatigue, aggression, sex drive changes.",
+    "notes": [
+     "Cerebellum.",
+     "Dorsal columns.",
+     "Subthalamic nucleus.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/18.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 18
+     }
+    ]
+   },
+   {
+    "q": "A lesion of the subthalamic nucleus causes:",
+    "options": [
+     "Parkinsonian rigidity",
+     "Hemiballismus",
+     "Bitemporal hemianopia",
+     "Diabetes insipidus"
+    ],
+    "answer": 1,
+    "why": "Loss of its excitation of the GPi releases movement.",
+    "notes": [
+     "Substantia nigra.",
+     "",
+     "Optic chiasm.",
+     "Hypothalamus."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/28.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 28
+     }
+    ]
+   },
+   {
+    "q": "How is the brainstem joined to the diencephalon?",
+    "options": [
+     "By the transverse fissure of Bichat",
+     "By the cerebellar peduncles",
+     "By the interthalamic adhesion",
+     "By the foramen magnum"
+    ],
+    "answer": 0,
+    "why": "Above: Bichat. Behind: cerebellum by peduncles. Below: cord at the foramen magnum.",
+    "notes": [
+     "",
+     "Cerebellum.",
+     "Joins the thalami.",
+     "Spinal cord."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/05.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 5
+     }
+    ]
+   },
+   {
+    "q": "Where does the oculomotor nerve (III) exit?",
+    "options": [
+     "Between the cerebral peduncles",
+     "Between the pyramid and olive",
+     "At the cerebellopontine angle",
+     "Behind the inferior colliculus"
+    ],
+    "answer": 0,
+    "why": "The interpeduncular fossa.",
+    "notes": [
+     "",
+     "XII.",
+     "VII and VIII.",
+     "IV."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/11.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 11
+     }
+    ]
+   },
+   {
+    "q": "What produces the olive?",
+    "options": [
+     "Inferior olivary nucleus",
+     "Corticospinal tract",
+     "Nucleus gracilis",
+     "Hypoglossal nucleus"
+    ],
+    "answer": 0,
+    "why": "The pyramid is produced by the corticospinal tract.",
+    "notes": [
+     "",
+     "Forms the pyramid.",
+     "Forms the gracile tubercle.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/16.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 16
+     }
+    ]
+   },
+   {
+    "q": "Which artery supplies the brainstem?",
+    "options": [
+     "External carotid artery",
+     "Basilar artery and its branches",
+     "Anterior cerebral artery",
+     "Internal carotid artery"
+    ],
+    "answer": 1,
+    "why": "PCA, SCA, posterior choroidal and interpeduncular branches.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/30.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 30
+     }
+    ]
+   },
+   {
+    "q": "What divides the anterior lobe from the posterior lobe of the cerebellum?",
+    "options": [
+     "Posterolateral fissure",
+     "Horizontal fissure",
+     "Primary fissure",
+     "Vallecula"
+    ],
+    "answer": 2,
+    "why": "The posterolateral fissure separates the flocculonodular lobe.",
+    "notes": [
+     "Flocculonodular lobe.",
+     "Superior from inferior surface.",
+     "",
+     "Houses the brainstem."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebellum/14.jpg",
+      "lec": "Anatomy of the cerebellum",
+      "n": 14
+     }
+    ]
+   },
+   {
+    "q": "The interposed nuclei are:",
+    "options": [
+     "Globose and emboliform",
+     "Red nucleus and olive",
+     "Dentate and fastigial",
+     "Caudate and putamen"
+    ],
+    "answer": 0,
+    "why": "They sit between the dentate and fastigial.",
+    "notes": [
+     "",
+     "Brainstem.",
+     "",
+     "Basal ganglia."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebellum/19.jpg",
+      "lec": "Anatomy of the cerebellum",
+      "n": 19
+     }
+    ]
+   },
+   {
+    "q": "Which peduncle is the largest input pathway to the cerebellum?",
+    "options": [
+     "Superior",
+     "None: all are output",
+     "Inferior",
+     "Middle"
+    ],
+    "answer": 3,
+    "why": "It carries fibres from the contralateral pontine nuclei.",
+    "notes": [
+     "Mainly output.",
+     "",
+     "Mixed.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebellum/38.jpg",
+      "lec": "Anatomy of the cerebellum",
+      "n": 38
+     }
+    ]
+   },
+   {
+    "q": "Which embryonic layer becomes the grey matter of the cord?",
+    "options": [
+     "Marginal zone",
+     "Neural crest",
+     "Mantle zone",
+     "Ventricular zone"
+    ],
+    "answer": 2,
+    "why": "Marginal zone becomes white matter.",
+    "notes": [
+     "White matter.",
+     "Dorsal root ganglia.",
+     "",
+     "Gives neuroblasts and glioblasts."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-spinal-cord/05.jpg",
+      "lec": "Anatomy of the spinal cord",
+      "n": 5
+     }
+    ]
+   },
+   {
+    "q": "How many pairs of cervical spinal nerves are there?",
+    "options": [
+     "7",
+     "8",
+     "12",
+     "5"
+    ],
+    "answer": 1,
+    "why": "8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 1 coccygeal.",
+    "notes": [
+     "Number of cervical vertebrae.",
+     "",
+     "Thoracic.",
+     "Lumbar or sacral."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-spinal-cord/13.jpg",
+      "lec": "Anatomy of the spinal cord",
+      "n": 13
+     }
+    ]
+   },
+   {
+    "q": "Which arteries give the radicular branches to the spinal nerve roots?",
+    "options": [
+     "Segmental arteries (cervical, posterior intercostal)",
+     "The external carotid",
+     "The basilar artery",
+     "The anterior cerebral artery"
+    ],
+    "answer": 0,
+    "why": "31 pairs of radicular branches; the vertebral artery gives the spinal arteries.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-spinal-cord/30.jpg",
+      "lec": "Anatomy of the spinal cord",
+      "n": 30
+     }
+    ]
+   },
+   {
+    "q": "What forms the floor of the temporal horn?",
+    "options": [
+     "Corpus callosum",
+     "Hippocampus and collateral eminence",
+     "Septum pellucidum",
+     "Caudate head"
+    ],
+    "answer": 1,
+    "why": "The roof is thalamus, caudate tail and tapetum.",
+    "notes": [
+     "",
+     "",
+     "Frontal horn.",
+     "Frontal horn."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ventricles/19.jpg",
+      "lec": "Anatomy of the ventricles and CSF",
+      "n": 19
+     }
+    ]
+   },
+   {
+    "q": "How much CSF does the choroid plexus produce per day?",
+    "options": [
+     "About 50 mL",
+     "About 500 mL",
+     "About 150 mL",
+     "About 2 L"
+    ],
+    "answer": 1,
+    "why": "150 mL is the total volume at any time.",
+    "notes": [
+     "",
+     "",
+     "Total volume.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ventricles/36.jpg",
+      "lec": "Anatomy of the ventricles and CSF",
+      "n": 36
+     }
+    ]
+   },
+   {
+    "q": "At which level is lumbar puncture done in adults?",
+    "options": [
+     "L3–L4 or L4–L5",
+     "T12–L1",
+     "L1–L2",
+     "C1–C2"
+    ],
+    "answer": 0,
+    "why": "Below the end of the cord (L1–L2), in the lumbar cistern.",
+    "notes": [
+     "",
+     "Cord.",
+     "End of the cord.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ventricles/60.jpg",
+      "lec": "Anatomy of the ventricles and CSF",
+      "n": 60
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "anat3-sina-neuro-mock-5",
+  "subject": "anat3",
+  "title": "Sina mock: Neuroanatomy 5",
+  "year": "Practice",
+  "note": "25 new questions on the seven midterm lectures, in Prof. Fliyou's style: short, broad, one answer.",
+  "links": [
+   {
+    "label": "Download the paper (PDF)",
+    "url": "files/anat3/Anatomy3-Sina-Neuroanatomy-Mock-5.pdf"
+   }
+  ],
+  "part": "Neuroanatomy",
+  "questions": [
+   {
+    "q": "What do the dorsal root ganglia contain?",
+    "options": [
+     "Cell bodies of sensory neurons",
+     "Preganglionic parasympathetic neurons",
+     "Oligodendrocytes",
+     "Motor neurons"
+    ],
+    "answer": 0,
+    "why": "Sensory ganglia carry information to the CNS.",
+    "notes": [
+     "",
+     "Those are in the brainstem and sacral cord.",
+     "These are CNS glia.",
+     "Motor neurons are in the anterior horn."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-neuro-intro/17.jpg",
+      "lec": "Introduction and embryological development of the CNS",
+      "n": 17
+     }
+    ]
+   },
+   {
+    "q": "Which glial cells form part of the blood-brain barrier?",
+    "options": [
+     "Astrocytes",
+     "Schwann cells",
+     "Microglia",
+     "Ependymal cells"
+    ],
+    "answer": 0,
+    "why": "Astrocytes give structural support, regulate ions and form part of the barrier.",
+    "notes": [
+     "",
+     "PNS myelin.",
+     "Immune cells.",
+     "Line the ventricles."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-neuro-intro/19.jpg",
+      "lec": "Introduction and embryological development of the CNS",
+      "n": 19
+     }
+    ]
+   },
+   {
+    "q": "Which flexure helps to thin the roof of the fourth ventricle?",
+    "options": [
+     "Pontine flexure",
+     "Cervical flexure",
+     "Mesencephalic flexure",
+     "Cephalic flexure"
+    ],
+    "answer": 0,
+    "why": "The pontine flexure (5th week) separates metencephalon from myelencephalon.",
+    "notes": [
+     "",
+     "Between hindbrain and cord; disappears later.",
+     "Another name for the cephalic flexure.",
+     "At the midbrain; aligns forebrain with brainstem."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-neuro-intro/28.jpg",
+      "lec": "Introduction and embryological development of the CNS",
+      "n": 28
+     }
+    ]
+   },
+   {
+    "q": "Which sulcus separates the frontal lobe from the parietal lobe?",
+    "options": [
+     "Central sulcus (Rolando)",
+     "Lateral sulcus (Sylvius)",
+     "Parieto-occipital sulcus",
+     "Calcarine fissure"
+    ],
+    "answer": 0,
+    "why": "Rolando's sulcus.",
+    "notes": [
+     "",
+     "Separates temporal from frontal and parietal.",
+     "Separates parietal and occipital.",
+     "On the medial occipital lobe."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/18.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 18
+     }
+    ]
+   },
+   {
+    "q": "What is the uncus?",
+    "options": [
+     "The hooked anterior end of the parahippocampal gyrus",
+     "A deep cerebellar nucleus",
+     "The posterior end of the fornix",
+     "A part of the corpus callosum"
+    ],
+    "answer": 0,
+    "why": "The 5th temporal gyrus curves into a hook: the uncus.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/28.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 28
+     }
+    ]
+   },
+   {
+    "q": "What is the centrum semiovale?",
+    "options": [
+     "A deep nucleus",
+     "A part of the third ventricle",
+     "White matter above the lateral ventricles and corpus callosum",
+     "Grey matter of the cortex"
+    ],
+    "answer": 2,
+    "why": "A paired mass of white matter under the cortex.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/38.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 38
+     }
+    ]
+   },
+   {
+    "q": "A lesion of Broca's area mainly affects:",
+    "options": [
+     "Hearing",
+     "Understanding language",
+     "Vision",
+     "Speech production"
+    ],
+    "answer": 3,
+    "why": "Broca (frontal): speaking and writing. Wernicke (temporal): understanding.",
+    "notes": [
+     "Temporal.",
+     "Wernicke's area.",
+     "Occipital.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/54.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 54
+     }
+    ]
+   },
+   {
+    "q": "Which lobe holds the sensory strip for touch, pain and temperature?",
+    "options": [
+     "Parietal",
+     "Frontal",
+     "Temporal",
+     "Occipital"
+    ],
+    "answer": 0,
+    "why": "The postcentral gyrus, behind the central sulcus.",
+    "notes": [
+     "",
+     "Motor strip.",
+     "Hearing and memory.",
+     "Vision."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebrum/54.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 54
+     }
+    ]
+   },
+   {
+    "q": "The medial geniculate body receives auditory information from:",
+    "options": [
+     "The inferior colliculus",
+     "The superior colliculus",
+     "The retina",
+     "The cerebellum"
+    ],
+    "answer": 0,
+    "why": "It sends it to the primary auditory cortex.",
+    "notes": [
+     "",
+     "Vision.",
+     "Lateral geniculate.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/09.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 9
+     }
+    ]
+   },
+   {
+    "q": "Which artery mainly supplies the thalamus?",
+    "options": [
+     "PICA",
+     "Middle cerebral artery",
+     "Anterior cerebral artery",
+     "Posterior cerebral artery"
+    ],
+    "answer": 3,
+    "why": "Four territories: anterior, inferolateral, paramedian, posterior.",
+    "notes": [
+     "Cerebellum and medulla.",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/15.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 15
+     }
+    ]
+   },
+   {
+    "q": "The pineal gland belongs to:",
+    "options": [
+     "The thalamus",
+     "The epithalamus",
+     "The hypothalamus",
+     "The subthalamus"
+    ],
+    "answer": 1,
+    "why": "Epithalamus: habenula, stria medullaris, pineal gland.",
+    "notes": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/20.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 20
+     }
+    ]
+   },
+   {
+    "q": "The subthalamic nucleus is a target of:",
+    "options": [
+     "Transsphenoidal surgery",
+     "Deep brain stimulation in Parkinson's disease",
+     "Lumbar puncture",
+     "Ventriculoperitoneal shunting"
+    ],
+    "answer": 1,
+    "why": "Its neurons are glutamatergic, projecting to the internal globus pallidus.",
+    "notes": [
+     "Pituitary.",
+     "",
+     "Spinal subarachnoid space.",
+     "Hydrocephalus."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-diencephalon/28.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 28
+     }
+    ]
+   },
+   {
+    "q": "Which is the smallest part of the brainstem?",
+    "options": [
+     "They are equal",
+     "Midbrain",
+     "Pons",
+     "Medulla oblongata"
+    ],
+    "answer": 1,
+    "why": "About 2 cm, passing through the foramen of Pacchioni.",
+    "notes": [
+     "",
+     "",
+     "About 2.5 cm.",
+     "Longer."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/09.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 9
+     }
+    ]
+   },
+   {
+    "q": "What lies in the basilar groove of the pons?",
+    "options": [
+     "Basilar artery",
+     "Vertebral artery",
+     "Pyramid",
+     "Abducens nerve"
+    ],
+    "answer": 0,
+    "why": "It marks the midline of the ventral pons.",
+    "notes": [
+     "",
+     "Lower, on the medulla.",
+     "On the medulla.",
+     "Emerges lower."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/13.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 13
+     }
+    ]
+   },
+   {
+    "q": "Where do the pyramids decussate?",
+    "options": [
+     "Upper pons",
+     "Lower medulla",
+     "Upper cervical cord",
+     "Midbrain"
+    ],
+    "answer": 1,
+    "why": "75 to 90% of corticospinal fibres cross there.",
+    "notes": [
+     "",
+     "",
+     "Just above it.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/16.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 16
+     }
+    ]
+   },
+   {
+    "q": "An alternating syndrome is:",
+    "options": [
+     "Loss of balance on one side",
+     "A cranial nerve palsy on one side with hemiplegia on the other",
+     "Loss of vision in both temporal fields",
+     "Weakness of both legs"
+    ],
+    "answer": 1,
+    "why": "It locates the level of a brainstem lesion.",
+    "notes": [
+     "Cerebellar.",
+     "",
+     "Chiasm.",
+     "Spinal."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/32.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 32
+     }
+    ]
+   },
+   {
+    "q": "The great circumferential sulcus of Vicq d'Azyr is:",
+    "options": [
+     "The primary fissure",
+     "The posterolateral fissure",
+     "The calcarine fissure",
+     "The horizontal fissure"
+    ],
+    "answer": 3,
+    "why": "It separates the superior and inferior surfaces.",
+    "notes": [
+     "",
+     "",
+     "Cerebrum.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebellum/14.jpg",
+      "lec": "Anatomy of the cerebellum",
+      "n": 14
+     }
+    ]
+   },
+   {
+    "q": "Which cells are the only output of the cerebellar cortex?",
+    "options": [
+     "Purkinje cells",
+     "Basket cells",
+     "Golgi cells",
+     "Granule cells"
+    ],
+    "answer": 0,
+    "why": "They send inhibitory signals to the deep nuclei.",
+    "notes": [
+     "",
+     "Interneurons.",
+     "Interneurons.",
+     "Excite Purkinje cells."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebellum/21.jpg",
+      "lec": "Anatomy of the cerebellum",
+      "n": 21
+     }
+    ]
+   },
+   {
+    "q": "A lesion of one cerebellar hemisphere causes symptoms:",
+    "options": [
+     "In both legs equally",
+     "In the face only",
+     "On the opposite side",
+     "On the same side"
+    ],
+    "answer": 3,
+    "why": "Each hemisphere controls the same side of the body.",
+    "notes": [
+     "",
+     "",
+     "That is a cerebral lesion.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-cerebellum/40.jpg",
+      "lec": "Anatomy of the cerebellum",
+      "n": 40
+     }
+    ]
+   },
+   {
+    "q": "The basal plate develops into:",
+    "options": [
+     "Sensory neurons",
+     "Meninges",
+     "Motor neurons",
+     "Dorsal root ganglia"
+    ],
+    "answer": 2,
+    "why": "Alar plate: sensory. Basal plate: motor.",
+    "notes": [
+     "Alar plate.",
+     "",
+     "",
+     "Neural crest."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-spinal-cord/06.jpg",
+      "lec": "Anatomy of the spinal cord",
+      "n": 6
+     }
+    ]
+   },
+   {
+    "q": "The cervical enlargement supplies:",
+    "options": [
+     "The thoracic wall",
+     "The lower limbs",
+     "The upper limbs",
+     "The pelvic organs"
+    ],
+    "answer": 2,
+    "why": "Cervical enlargement C4–T1; lumbar enlargement for the lower limbs.",
+    "notes": [
+     "Thoracic segments.",
+     "Lumbar enlargement.",
+     "",
+     "Sacral segments."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-spinal-cord/14.jpg",
+      "lec": "Anatomy of the spinal cord",
+      "n": 14
+     }
+    ]
+   },
+   {
+    "q": "Which spinal cord function works without the brain?",
+    "options": [
+     "Planning movement",
+     "Reflex activity",
+     "Language",
+     "Conscious perception"
+    ],
+    "answer": 1,
+    "why": "Example: the withdrawal reflex.",
+    "notes": [
+     "Cortex and cerebellum.",
+     "",
+     "Cortex.",
+     "Cortex."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-spinal-cord/31.jpg",
+      "lec": "Anatomy of the spinal cord",
+      "n": 31
+     }
+    ]
+   },
+   {
+    "q": "The third ventricle communicates with the fourth through:",
+    "options": [
+     "The foramen of Monro",
+     "The foramen of Luschka",
+     "The central canal",
+     "The cerebral aqueduct"
+    ],
+    "answer": 3,
+    "why": "The aqueduct runs through the midbrain.",
+    "notes": [
+     "Lateral to third.",
+     "Fourth to cistern.",
+     "Below the fourth.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ventricles/24.jpg",
+      "lec": "Anatomy of the ventricles and CSF",
+      "n": 24
+     }
+    ]
+   },
+   {
+    "q": "Where is there no choroid plexus?",
+    "options": [
+     "Body of the lateral ventricle",
+     "Third ventricle",
+     "Fourth ventricle",
+     "Cerebral aqueduct"
+    ],
+    "answer": 3,
+    "why": "Also absent from the frontal and occipital horns.",
+    "notes": [
+     "Present.",
+     "Present.",
+     "Present.",
+     ""
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ventricles/36.jpg",
+      "lec": "Anatomy of the ventricles and CSF",
+      "n": 36
+     }
+    ]
+   },
+   {
+    "q": "Which meningeal layer follows the gyri and sulci?",
+    "options": [
+     "None",
+     "Pia mater",
+     "Dura mater",
+     "Arachnoid mater"
+    ],
+    "answer": 1,
+    "why": "Thin and tightly adherent to the brain.",
+    "notes": [
+     "",
+     "",
+     "Outer layer.",
+     "Bridges over the sulci."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-ventricles/43.jpg",
+      "lec": "Anatomy of the ventricles and CSF",
+      "n": 43
+     }
+    ]
+   }
+  ]
+ },
+ {
   "id": "anat3-sina-mock-1",
   "subject": "anat3",
   "title": "Sina mock midterm 1 (in the style of the real paper)",
@@ -432,7 +6619,7 @@ SINA.papers = [
     ]
    }
   ],
-  "part": "Normal anatomy (face, mouth, nose, eye)"
+  "part": "Anatomy (face, mouth, nose, eye)"
  },
  {
   "id": "anat3-sina-mock-2",
@@ -859,7 +7046,7 @@ SINA.papers = [
     ]
    }
   ],
-  "part": "Normal anatomy (face, mouth, nose, eye)"
+  "part": "Anatomy (face, mouth, nose, eye)"
  },
  {
   "id": "anat3-sina-mock-3",
@@ -1293,7 +7480,7 @@ SINA.papers = [
     ]
    }
   ],
-  "part": "Normal anatomy (face, mouth, nose, eye)"
+  "part": "Anatomy (face, mouth, nose, eye)"
  },
  {
   "id": "anat3-mcq-p1-s1",
@@ -1885,7 +8072,7 @@ SINA.papers = [
     "answer": 3
    }
   ],
-  "part": "Normal anatomy (face, mouth, nose, eye)"
+  "part": "Anatomy (face, mouth, nose, eye)"
  },
  {
   "id": "anat3-mcq-p1-s2",
@@ -2327,7 +8514,7 @@ SINA.papers = [
     "why": "The facial nerve is also close to the joint."
    }
   ],
-  "part": "Normal anatomy (face, mouth, nose, eye)"
+  "part": "Anatomy (face, mouth, nose, eye)"
  },
  {
   "id": "anat3-mcq-p1-s3",
@@ -2742,7 +8929,7 @@ SINA.papers = [
     "why": "Classic ordering of the parotid contents."
    }
   ],
-  "part": "Normal anatomy (face, mouth, nose, eye)"
+  "part": "Anatomy (face, mouth, nose, eye)"
  },
  {
   "id": "anat3-mcq-p2-s1",
@@ -3188,7 +9375,7 @@ SINA.papers = [
     "why": "The sublingual gland is mixed, mainly mucous."
    }
   ],
-  "part": "Normal anatomy (face, mouth, nose, eye)"
+  "part": "Anatomy (face, mouth, nose, eye)"
  },
  {
   "id": "anat3-mcq-p2-s2",
@@ -3479,7 +9666,7 @@ SINA.papers = [
     "why": "From the 2026 mock exam."
    }
   ],
-  "part": "Normal anatomy (face, mouth, nose, eye)"
+  "part": "Anatomy (face, mouth, nose, eye)"
  },
  {
   "id": "anat3-mcq-p2-s3",
@@ -3759,7 +9946,7 @@ SINA.papers = [
     "answer": 3
    }
   ],
-  "part": "Normal anatomy (face, mouth, nose, eye)"
+  "part": "Anatomy (face, mouth, nose, eye)"
  },
  {
   "id": "anat3-mcq-p2-s4",
@@ -4035,7 +10222,7 @@ SINA.papers = [
     "why": "Loss of the sympathetic superior tarsal muscle and dilator pupillae."
    }
   ],
-  "part": "Normal anatomy (face, mouth, nose, eye)"
+  "part": "Anatomy (face, mouth, nose, eye)"
  },
  {
   "id": "anat3-mcq-p3-s1",
@@ -4448,7 +10635,7 @@ SINA.papers = [
     "answer": 2
    }
   ],
-  "part": "Normal anatomy (face, mouth, nose, eye)"
+  "part": "Anatomy (face, mouth, nose, eye)"
  },
  {
   "id": "anat3-mcq-p3-s2",
@@ -4735,7 +10922,7 @@ SINA.papers = [
     "why": "From the 2026 mock: the pretectal nuclei project to ipsilateral and contralateral Edinger-Westphal nuclei."
    }
   ],
-  "part": "Normal anatomy (face, mouth, nose, eye)"
+  "part": "Anatomy (face, mouth, nose, eye)"
  },
  {
   "id": "anat3-mcq-p3-s3",
@@ -5031,7 +11218,7 @@ SINA.papers = [
     "answer": 0
    }
   ],
-  "part": "Normal anatomy (face, mouth, nose, eye)"
+  "part": "Anatomy (face, mouth, nose, eye)"
  },
  {
   "id": "anat3-mcq-p3-s4",
@@ -5350,7 +11537,7 @@ SINA.papers = [
     "why": "Its nucleus is in the midbrain and it enters the orbit through the superior orbital fissure."
    }
   ],
-  "part": "Normal anatomy (face, mouth, nose, eye)"
+  "part": "Anatomy (face, mouth, nose, eye)"
  },
  {
   "id": "anat3-mcq-p3-s5",
@@ -5577,7 +11764,7 @@ SINA.papers = [
     "answer": 3
    }
   ],
-  "part": "Normal anatomy (face, mouth, nose, eye)"
+  "part": "Anatomy (face, mouth, nose, eye)"
  },
  {
   "id": "anat3-orbital-quiz",
@@ -5725,7 +11912,7 @@ SINA.papers = [
     "why": "The canal is formed by grooves in the maxilla and lacrimal bone; the duct opens into the inferior meatus."
    }
   ],
-  "part": "Normal anatomy (face, mouth, nose, eye)"
+  "part": "Anatomy (face, mouth, nose, eye)"
  },
  {
   "id": "anat3-mock-test",
@@ -8553,7 +14740,7 @@ SINA.papers = [
     "why": "The sphenoid septum is often off the midline ('always' is the trap). The nasolacrimal duct opens in the inferior meatus."
    }
   ],
-  "part": "Normal anatomy (face, mouth, nose, eye)"
+  "part": "Anatomy (face, mouth, nose, eye)"
  },
  {
   "id": "anat3-hajij-midterm",

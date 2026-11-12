@@ -1596,7 +1596,7 @@
     if (extra) { p.insertAdjacentHTML("beforeend", '<h2 class="group-title">For the whole class</h2>' + extra); wireThumbs(p); }
   }
   /* papers of one subject split by part (Anatomy 3: neuroanatomy, ENT, normal anatomy, mixed) */
-  var PART_ORDER = ["Neuroanatomy", "ENT (ear, larynx, thyroid)", "Normal anatomy (face, mouth, nose, eye)", "Whole course (mixed)"];
+  var PART_ORDER = ["Neuroanatomy", "ENT (ear, larynx, thyroid)", "Anatomy (face, mouth, nose, eye)", "Whole course (mixed)"];
   function paperParts(list) {
     if (!list.some(function (x) { return x.part; })) return null;
     var g = {}; list.forEach(function (x) { (g[x.part || "Other"] = g[x.part || "Other"] || []).push(x); });
