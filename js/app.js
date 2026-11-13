@@ -1478,7 +1478,7 @@
       });
       pool = pickFresh(pool, count === "all" ? pool.length : Math.max(1, +count || 20));
       var seenKey = "sina:seen:" + picked.slice().sort().join("+");
-      if (store.get(seenKey, false)) pool = pool.map(shuffleQ); else store.set(seenKey, true);
+      pool = pool.map(shuffleQ); store.set(seenKey, true);   /* always mix the option order, so the right answer is not always in the same place */
       p.innerHTML = '<div class="quiz-top"><button class="btn small-btn" id="qback" type="button">' + (picked.length === 1 ? "+ Add more lectures" : "&larr; Change lectures") + '</button><span class="meta"' + (picked.length > 1 ? ' title="' + esc(picked.map(lectureTitle).join(", ")) + '"' : "") + ">" + esc(picked.length === 1 ? lectureTitle(picked[0]) : picked.length + " lectures mixed") + '</span></div><div id="quiz"></div>';
       p.querySelector("#qback").addEventListener("click", function () { lecDialog(exam); });
       (function () {
