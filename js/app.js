@@ -2020,9 +2020,10 @@
     q.slides.forEach(function (s) { var g = groups.filter(function (x) { return x.lec === s.lec; })[0]; if (g) g.n.push(s.n); else groups.push({ lec: s.lec, n: [s.n] }); });
     var unit = q.slides[0].unit || "slide";
     var lbl = groups.map(function (g) { return g.lec + ", " + unit + (g.n.length > 1 ? "s " : " ") + g.n.join(" and "); }).join("; ");
-    return '<details class="slide-ref"><summary>See the ' + unit + (q.slides.length > 1 ? "s" : "") + " that explain" + (q.slides.length > 1 ? "" : "s") + " this <span>(" + esc(lbl) + ")</span></summary>" +
+    return '<details class="slide-ref"><summary>See the ' + unit + (q.slides.length > 1 ? "s" : "") + " that explain" + (q.slides.length > 1 ? "" : "s") + " this <span>(" + esc(lbl) + ")</span>" + (q.slides.some(function (s) { return S.slideErr && S.slideErr[s.src]; }) ? ' <em class="slide-err-tag">slide has an error</em>' : "") + "</summary>" +
       q.slides.map(function (s) {
-        return '<figure><a class="slide-open" href="' + esc(s.src) + '" data-cap="' + esc(s.lec + ", " + unit + " " + s.n) + '" title="Open full size">' + slideImg(s, unit, q) + '</a><figcaption>' + esc(s.lec) + ", " + unit + " " + s.n + "." + (slideHL(q, s).length ? " The part in green answers the question." : "") + " Tap to open full size.</figcaption></figure>";
+        var err = S.slideErr && S.slideErr[s.src];
+        return (err ? '<p class="slide-err"><strong>Error on this slide:</strong> ' + esc(err) + "</p>" : "") + '<figure><a class="slide-open" href="' + esc(s.src) + '" data-cap="' + esc(s.lec + ", " + unit + " " + s.n) + '" title="Open full size">' + slideImg(s, unit, q) + '</a><figcaption>' + esc(s.lec) + ", " + unit + " " + s.n + "." + (slideHL(q, s).length ? " The part in green answers the question." : "") + " Tap to open full size.</figcaption></figure>";
       }).join("") + "</details>";
   }
 
