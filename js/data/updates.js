@@ -2,6 +2,9 @@
    Style: short changelog lines, developer voice (Added / Fixed / Changed), no "you". */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
+  { date: "13 November 2026", items: [
+    "Fixed: 1 reported question, Anatomy 3, Anatomy of the spinal cord."
+  ] },
   { date: "12 November 2026", items: [
     "Changed: questions on where ENT muscles arise or insert are left out of Midterm topics only and the ENT mocks (not on the midterm).",
     "Added: Sina mock exams for Anatomy 3: 4 ENT mocks in Prof. Hajij's style and 5 neuroanatomy mocks in Prof. Fliyou's style, 25 questions each, playable with notes and slide highlights, plus PDFs.",

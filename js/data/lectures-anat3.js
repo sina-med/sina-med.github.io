@@ -26302,7 +26302,7 @@ SINA.lectures["anat3-spinal-cord"] = {
     "CSF"
    ],
    "answer": 0,
-   "why": "The pedicles delimit the intervertebral foramina, through which the spinal nerves leave the canal.",
+   "why": "Slide 26: the spinal canal is bounded laterally by the pedicles, which delimit the intervertebral foramina, through which the spinal nerves pass. One spinal nerve leaves at each level (31 pairs).",
    "slides": [
     {
      "src": "files/slides/anat3-spinal-cord/26.jpg",
@@ -26311,10 +26311,10 @@ SINA.lectures["anat3-spinal-cord"] = {
     }
    ],
    "notes": [
-    "Spinal nerves exit through them.",
-    "Not only arteries.",
-    "No.",
-    "No."
+    "Correct: the spinal nerves pass through the intervertebral foramina (slide 26).",
+    "Not what the lecture names: the foramina are described as the passage of the spinal nerves.",
+    "No: ligaments (longitudinal, flavum) line and join the vertebrae; they do not pass through the foramina.",
+    "No: CSF stays in the subarachnoid space inside the canal; it does not leave through the foramina."
    ]
   },
   {

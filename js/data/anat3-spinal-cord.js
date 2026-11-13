@@ -620,7 +620,7 @@ SINA.lectures["anat3-spinal-cord"] = {
     "CSF"
    ],
    "answer": 0,
-   "why": "The pedicles delimit the intervertebral foramina, through which the spinal nerves leave the canal."
+   "why": "Slide 26: the spinal canal is bounded laterally by the pedicles, which delimit the intervertebral foramina, through which the spinal nerves pass. One spinal nerve leaves at each level (31 pairs)."
   },
   {
    "q": "Which space holds fat and the venous plexus?",
