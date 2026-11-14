@@ -3112,7 +3112,7 @@ SINA.papers = [
   "subject": "anat3",
   "title": "Sina mock: Neuroanatomy 1",
   "year": "Practice",
-  "note": "25 new questions on the seven midterm lectures, in Prof. Fliyou's style: short, broad, one answer.",
+  "note": "25 new questions on the six midterm lectures, in Prof. Fliyou's style: short, broad, one answer.",
   "links": [
    {
     "label": "Download the paper (PDF)",
@@ -3650,74 +3650,74 @@ SINA.papers = [
     ]
    },
    {
-    "q": "How do the lateral ventricles communicate with the third ventricle?",
+    "q": "Which cells produce myelin in the peripheral nervous system?",
     "options": [
-     "Foramen of Luschka",
-     "Foramen of Magendie",
-     "Cerebral aqueduct",
-     "Interventricular foramen of Monro"
+     "Microglia",
+     "Astrocytes",
+     "Oligodendrocytes",
+     "Schwann cells"
     ],
     "answer": 3,
-    "why": "One foramen on each side.",
+    "why": "Schwann cells also help axons regrow after injury.",
     "notes": [
-     "Fourth to the cerebellopontine cistern.",
-     "Fourth to cisterna magna.",
-     "Third to fourth.",
+     "Immune cells.",
+     "Support and blood-brain barrier.",
+     "CNS myelin.",
      ""
     ],
     "slides": [
      {
-      "src": "files/slides/anat3-ventricles/11.jpg",
-      "lec": "Anatomy of the ventricles and CSF",
-      "n": 11
+      "src": "files/slides/anat3-neuro-intro/19.jpg",
+      "lec": "Introduction and embryological development of the CNS",
+      "n": 19
      }
     ]
    },
    {
-    "q": "Which is NOT in the floor of the third ventricle?",
+    "q": "The epithalamus lies in relation to:",
     "options": [
-     "Mammillary bodies",
-     "Optic chiasm",
-     "Pineal gland",
-     "Tuber cinereum"
+     "The frontal horn of the lateral ventricle",
+     "The floor of the third ventricle",
+     "The posterior roof of the third ventricle",
+     "The floor of the fourth ventricle"
     ],
     "answer": 2,
-    "why": "The pineal is in the posterior wall.",
+    "why": "It includes the stria medullaris, posterior commissure, habenular nuclei and pineal body.",
     "notes": [
-     "Floor.",
-     "Floor.",
      "",
-     "Floor."
+     "Hypothalamus.",
+     "",
+     "Pons and medulla."
     ],
     "slides": [
      {
-      "src": "files/slides/anat3-ventricles/26.jpg",
-      "lec": "Anatomy of the ventricles and CSF",
-      "n": 26
+      "src": "files/slides/anat3-diencephalon/21.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 21
      }
     ]
    },
    {
-    "q": "What is the total volume of CSF in the adult?",
+    "q": "Which nerve emerges between the pyramid and the olive?",
     "options": [
-     "About 150 mL",
-     "About 500 mL",
-     "About 1 L",
-     "About 25 mL"
+     "Hypoglossal (XII)",
+     "Glossopharyngeal (IX)",
+     "Abducens (VI)",
+     "Vagus (X)"
     ],
     "answer": 0,
-    "why": "125 mL in the subarachnoid spaces, 25 mL in the ventricles.",
+    "why": "IX, X, XI emerge behind the olive; VI at the pontomedullary junction.",
     "notes": [
      "",
-     "Daily production.",
-     "",
-     "Ventricles only."
+     "Behind the olive.",
+     "Pontomedullary junction.",
+     "Behind the olive."
     ],
     "slides": [
      {
-      "src": "files/slides/anat3-ventricles/45.jpg",
-      "lec": "Anatomy of the ventricles and CSF",
-      "n": 45
+      "src": "files/slides/anat3-brainstem/17.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 17
      }
     ]
    }
@@ -3728,7 +3728,7 @@ SINA.papers = [
   "subject": "anat3",
   "title": "Sina mock: Neuroanatomy 2",
   "year": "Practice",
-  "note": "25 new questions on the seven midterm lectures, in Prof. Fliyou's style: short, broad, one answer.",
+  "note": "25 new questions on the six midterm lectures, in Prof. Fliyou's style: short, broad, one answer.",
   "links": [
    {
     "label": "Download the paper (PDF)",
@@ -4266,74 +4266,74 @@ SINA.papers = [
     ]
    },
    {
-    "q": "Which horn of the lateral ventricle is the longest and largest?",
+    "q": "What is the role of satellite cells?",
     "options": [
-     "None, all are equal",
-     "Temporal",
-     "Occipital",
-     "Frontal"
+     "Removing debris by phagocytosis",
+     "Supporting neuron cell bodies in ganglia",
+     "Lining the ventricles",
+     "Producing CNS myelin"
     ],
     "answer": 1,
-    "why": "It ends at the amygdala.",
+    "why": "They are PNS glia that regulate the microenvironment of ganglion neurons.",
     "notes": [
+     "Microglia.",
      "",
-     "",
-     "Varies in size.",
-     ""
+     "Ependymal cells.",
+     "Oligodendrocytes."
     ],
     "slides": [
      {
-      "src": "files/slides/anat3-ventricles/19.jpg",
-      "lec": "Anatomy of the ventricles and CSF",
+      "src": "files/slides/anat3-neuro-intro/19.jpg",
+      "lec": "Introduction and embryological development of the CNS",
       "n": 19
      }
     ]
    },
    {
-    "q": "Where does non-communicating hydrocephalus most commonly arise?",
+    "q": "Which structure belongs to the epithalamus?",
     "options": [
-     "Cerebral aqueduct",
-     "Arachnoid granulations",
-     "Choroid plexus",
-     "Lumbar cistern"
+     "Posterior commissure",
+     "Mammillary bodies",
+     "Infundibulum",
+     "Optic chiasm"
     ],
     "answer": 0,
-    "why": "The narrow aqueduct is easily blocked.",
+    "why": "With the stria medullaris, habenular nuclei and pineal body.",
     "notes": [
      "",
-     "Communicating type.",
-     "Overproduction is rare.",
-     ""
+     "Hypothalamus.",
+     "Hypothalamus.",
+     "Floor of the third ventricle."
     ],
     "slides": [
      {
-      "src": "files/slides/anat3-ventricles/28.jpg",
-      "lec": "Anatomy of the ventricles and CSF",
-      "n": 28
+      "src": "files/slides/anat3-diencephalon/21.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 21
      }
     ]
    },
    {
-    "q": "Where is CSF mainly absorbed?",
+    "q": "The superior cerebellar peduncle is mainly:",
     "options": [
-     "Central canal",
-     "Ependyma of the aqueduct",
-     "Arachnoid granulations into the superior sagittal sinus",
-     "Choroid plexus"
+     "An input from the spinal cord only",
+     "A connection to the occipital lobe",
+     "An output pathway to the red nucleus and thalamus",
+     "The main input from the pons"
     ],
     "answer": 2,
-    "why": "Meningeal lymphatics also help.",
+    "why": "Middle: largest input (pons). Inferior: spinal and vestibular input and output.",
     "notes": [
+     "Inferior peduncle.",
      "",
      "",
-     "",
-     "Produces it."
+     "Middle peduncle."
     ],
     "slides": [
      {
-      "src": "files/slides/anat3-ventricles/49.jpg",
-      "lec": "Anatomy of the ventricles and CSF",
-      "n": 49
+      "src": "files/slides/anat3-cerebellum/37.jpg",
+      "lec": "Anatomy of the cerebellum",
+      "n": 37
      }
     ]
    }
@@ -4344,7 +4344,7 @@ SINA.papers = [
   "subject": "anat3",
   "title": "Sina mock: Neuroanatomy 3",
   "year": "Practice",
-  "note": "25 new questions on the seven midterm lectures, in Prof. Fliyou's style: short, broad, one answer.",
+  "note": "25 new questions on the six midterm lectures, in Prof. Fliyou's style: short, broad, one answer.",
   "links": [
    {
     "label": "Download the paper (PDF)",
@@ -4882,74 +4882,74 @@ SINA.papers = [
     ]
    },
    {
-    "q": "What forms the medial wall of the frontal horn?",
+    "q": "Which basal ganglion lies in the midbrain?",
     "options": [
-     "Head of the caudate",
-     "Thalamus",
-     "Septum pellucidum",
-     "Hippocampus"
+     "Subthalamic nucleus",
+     "Putamen",
+     "Substantia nigra",
+     "Caudate nucleus"
     ],
     "answer": 2,
-    "why": "The caudate head is lateral.",
+    "why": "Five pairs: caudate, putamen, globus pallidus, subthalamic nucleus (diencephalon), substantia nigra (midbrain).",
     "notes": [
-     "Lateral wall.",
+     "Diencephalon.",
+     "Cerebrum.",
      "",
-     "",
-     "Floor of the temporal horn."
+     "Cerebrum."
     ],
     "slides": [
      {
-      "src": "files/slides/anat3-ventricles/13.jpg",
-      "lec": "Anatomy of the ventricles and CSF",
-      "n": 13
+      "src": "files/slides/anat3-cerebrum/41.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 41
      }
     ]
    },
    {
-    "q": "The median aperture of Magendie opens into:",
+    "q": "What joins the hypothalamus to the pituitary?",
     "options": [
-     "Cerebellopontine cistern",
-     "Central canal",
-     "Third ventricle",
-     "Cisterna magna"
+     "The cerebral aqueduct",
+     "The habenula",
+     "The fornix",
+     "The infundibulum"
     ],
     "answer": 3,
-    "why": "The lateral apertures of Luschka open into the cerebellopontine cistern.",
+    "why": "A tubular stalk from the floor of the third ventricle.",
     "notes": [
-     "Luschka.",
-     "Via the obex.",
-     "",
+     "Midbrain canal.",
+     "Epithalamus.",
+     "Limbic pathway.",
      ""
     ],
     "slides": [
      {
-      "src": "files/slides/anat3-ventricles/34.jpg",
-      "lec": "Anatomy of the ventricles and CSF",
-      "n": 34
+      "src": "files/slides/anat3-diencephalon/16.jpg",
+      "lec": "Anatomy of the diencephalon",
+      "n": 16
      }
     ]
    },
    {
-    "q": "Communicating hydrocephalus is due to:",
+    "q": "Which deep nucleus is linked to balance and posture through vestibular connections?",
     "options": [
-     "A blocked foramen of Monro",
-     "Poor CSF absorption or excess production",
-     "A blocked aqueduct",
-     "A blocked fourth ventricle outlet"
+     "Emboliform",
+     "Fastigial",
+     "Dentate",
+     "Globose"
     ],
     "answer": 1,
-    "why": "Blocked passages cause non-communicating hydrocephalus.",
+    "why": "It lies most medially.",
     "notes": [
-     "N-communicating.",
+     "Limb movement.",
      "",
-     "N-communicating.",
-     "N-communicating."
+     "Planning of voluntary movement.",
+     "Limb movement."
     ],
     "slides": [
      {
-      "src": "files/slides/anat3-ventricles/54.jpg",
-      "lec": "Anatomy of the ventricles and CSF",
-      "n": 54
+      "src": "files/slides/anat3-cerebellum/22.jpg",
+      "lec": "Anatomy of the cerebellum",
+      "n": 22
      }
     ]
    }
@@ -4960,7 +4960,7 @@ SINA.papers = [
   "subject": "anat3",
   "title": "Sina mock: Neuroanatomy 4",
   "year": "Practice",
-  "note": "25 new questions on the seven midterm lectures, in Prof. Fliyou's style: short, broad, one answer.",
+  "note": "25 new questions on the six midterm lectures, in Prof. Fliyou's style: short, broad, one answer.",
   "links": [
    {
     "label": "Download the paper (PDF)",
@@ -5498,74 +5498,74 @@ SINA.papers = [
     ]
    },
    {
-    "q": "What forms the floor of the temporal horn?",
+    "q": "The ventral striatum (nucleus accumbens) is considered part of:",
     "options": [
-     "Corpus callosum",
-     "Hippocampus and collateral eminence",
-     "Septum pellucidum",
-     "Caudate head"
+     "The pyramidal system",
+     "The limbic system",
+     "The cerebellum",
+     "The visual system"
     ],
     "answer": 1,
-    "why": "The roof is thalamus, caudate tail and tapetum.",
+    "why": "Dorsal striatum: caudate + putamen. Ventral striatum: nucleus accumbens + olfactory tubercle.",
     "notes": [
      "",
      "",
-     "Frontal horn.",
-     "Frontal horn."
-    ],
-    "slides": [
-     {
-      "src": "files/slides/anat3-ventricles/19.jpg",
-      "lec": "Anatomy of the ventricles and CSF",
-      "n": 19
-     }
-    ]
-   },
-   {
-    "q": "How much CSF does the choroid plexus produce per day?",
-    "options": [
-     "About 50 mL",
-     "About 500 mL",
-     "About 150 mL",
-     "About 2 L"
-    ],
-    "answer": 1,
-    "why": "150 mL is the total volume at any time.",
-    "notes": [
      "",
-     "",
-     "Total volume.",
      ""
     ],
     "slides": [
      {
-      "src": "files/slides/anat3-ventricles/36.jpg",
-      "lec": "Anatomy of the ventricles and CSF",
-      "n": 36
+      "src": "files/slides/anat3-cerebrum/41.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 41
      }
     ]
    },
    {
-    "q": "At which level is lumbar puncture done in adults?",
+    "q": "Through which part of the brainstem does the cerebral aqueduct pass?",
     "options": [
-     "L3–L4 or L4–L5",
-     "T12–L1",
-     "L1–L2",
-     "C1–C2"
+     "Pons",
+     "Midbrain",
+     "Medulla",
+     "Diencephalon"
+    ],
+    "answer": 1,
+    "why": "It joins the third and fourth ventricles through the midbrain.",
+    "notes": [
+     "Pons lies in front of the fourth ventricle.",
+     "",
+     "",
+     "T brainstem."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/anat3-brainstem/38.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 38
+     }
+    ]
+   },
+   {
+    "q": "What is the cauda equina?",
+    "options": [
+     "Lumbar, sacral and coccygeal roots below the conus medullaris",
+     "The tapered end of the cord",
+     "A fibrous thread anchoring the cord",
+     "The lumbar enlargement"
     ],
     "answer": 0,
-    "why": "Below the end of the cord (L1–L2), in the lumbar cistern.",
+    "why": "It lies in the lumbar cistern and looks like a horse's tail.",
     "notes": [
      "",
-     "Cord.",
-     "End of the cord.",
-     ""
+     "Conus medullaris.",
+     "Filum terminale.",
+     "L1–S3 segments."
     ],
     "slides": [
      {
-      "src": "files/slides/anat3-ventricles/60.jpg",
-      "lec": "Anatomy of the ventricles and CSF",
-      "n": 60
+      "src": "files/slides/anat3-spinal-cord/14.jpg",
+      "lec": "Anatomy of the spinal cord",
+      "n": 14
      }
     ]
    }
@@ -5576,7 +5576,7 @@ SINA.papers = [
   "subject": "anat3",
   "title": "Sina mock: Neuroanatomy 5",
   "year": "Practice",
-  "note": "25 new questions on the seven midterm lectures, in Prof. Fliyou's style: short, broad, one answer.",
+  "note": "25 new questions on the six midterm lectures, in Prof. Fliyou's style: short, broad, one answer.",
   "links": [
    {
     "label": "Download the paper (PDF)",
@@ -6114,74 +6114,74 @@ SINA.papers = [
     ]
    },
    {
-    "q": "The third ventricle communicates with the fourth through:",
+    "q": "Where is the extreme capsule?",
     "options": [
-     "The foramen of Monro",
-     "The foramen of Luschka",
-     "The central canal",
-     "The cerebral aqueduct"
+     "Between the thalamus and lentiform nucleus",
+     "Above the corpus callosum",
+     "Between the lentiform nucleus and claustrum",
+     "Outside the claustrum"
     ],
     "answer": 3,
-    "why": "The aqueduct runs through the midbrain.",
+    "why": "Internal, external, then extreme capsule from inside out.",
     "notes": [
-     "Lateral to third.",
-     "Fourth to cistern.",
-     "Below the fourth.",
+     "Internal capsule.",
+     "Centrum semiovale.",
+     "External capsule.",
      ""
     ],
     "slides": [
      {
-      "src": "files/slides/anat3-ventricles/24.jpg",
-      "lec": "Anatomy of the ventricles and CSF",
-      "n": 24
+      "src": "files/slides/anat3-cerebrum/38.jpg",
+      "lec": "Anatomy of the cerebrum",
+      "n": 38
      }
     ]
    },
    {
-    "q": "Where is there no choroid plexus?",
+    "q": "Where are the respiratory and cardiovascular centres?",
     "options": [
-     "Body of the lateral ventricle",
-     "Third ventricle",
-     "Fourth ventricle",
-     "Cerebral aqueduct"
+     "Thalamus",
+     "Midbrain",
+     "Pons",
+     "Medulla oblongata"
     ],
     "answer": 3,
-    "why": "Also absent from the frontal and occipital horns.",
+    "why": "This is why compression of the medulla (tonsillar herniation) is fatal.",
     "notes": [
-     "Present.",
-     "Present.",
-     "Present.",
+     "",
+     "",
+     "",
      ""
     ],
     "slides": [
      {
-      "src": "files/slides/anat3-ventricles/36.jpg",
-      "lec": "Anatomy of the ventricles and CSF",
-      "n": 36
+      "src": "files/slides/anat3-brainstem/38.jpg",
+      "lec": "Anatomy of the brainstem",
+      "n": 38
      }
     ]
    },
    {
-    "q": "Which meningeal layer follows the gyri and sulci?",
+    "q": "Which groove of the spinal cord surface is deep?",
     "options": [
-     "None",
-     "Pia mater",
-     "Dura mater",
-     "Arachnoid mater"
+     "Anterolateral sulcus",
+     "Anterior median fissure",
+     "Posterolateral sulcus",
+     "Posterior median sulcus"
     ],
     "answer": 1,
-    "why": "Thin and tightly adherent to the brain.",
+    "why": "The posterior median sulcus is shallow.",
     "notes": [
+     "Where ventral rootlets leave.",
      "",
-     "",
-     "Outer layer.",
-     "Bridges over the sulci."
+     "Where dorsal rootlets enter.",
+     "Shallow."
     ],
     "slides": [
      {
-      "src": "files/slides/anat3-ventricles/43.jpg",
-      "lec": "Anatomy of the ventricles and CSF",
-      "n": 43
+      "src": "files/slides/anat3-spinal-cord/17.jpg",
+      "lec": "Anatomy of the spinal cord",
+      "n": 17
      }
     ]
    }
