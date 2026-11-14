@@ -5,7 +5,7 @@ SINA.lectures["anat3-brainstem"] = {
  "group": "Neuroanatomy",
  "title": "Anatomy of the brainstem",
  "sourceFile": "anatomy of brainstem.pdf (Anatomy 3, Neuroanatomy lecture 5, Prof. F. Fliyou, 2025-2026)",
- "sourceUrl": "https://drive.google.com/file/d/1heuiVNneCX6B7p2FBskhI1Ym8P_3C1Kh/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1Hk0QVEgv655dHp7cAvmQDrMgke3fpfRH/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> This page follows Prof. Fliyou's lecture: the situation and embryology of the brainstem, its connections, the external configuration of the midbrain, pons and medulla, the emergence of the cranial nerves, the internal configuration with the reticular formation, tracts and fourth ventricle, the blood supply, functions and clinical aspects. Every fact was cross-checked against at least two references, listed at the bottom. If your professor says something different, trust your professor.",
  "summary": [
   {

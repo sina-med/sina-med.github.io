@@ -25387,8 +25387,8 @@ SINA.lectures["anat3-spinal-cord"] = {
  "subject": "anat3",
  "group": "Neuroanatomy",
  "title": "Anatomy of the spinal cord",
- "sourceFile": "ANATOMY OF SPINAL CORD.pdf (Anatomy 3, Neuroanatomy lecture 7, Prof. F. Fliyou, 2025-2026)",
- "sourceUrl": "https://drive.google.com/file/d/1-9CiI9yeZM-JOYYPueyP6AYo87Z-oicY/view?usp=drivesdk",
+ "sourceFile": "6.ANATOMY OF SPINAL CORD.pdf (Anatomy 3, Neuroanatomy lecture 7, Prof. F. Fliyou, 2025-2026)",
+ "sourceUrl": "https://drive.google.com/file/d/1IlPNZCLN2fDnVqAeQEslXcGMk6-0LotJ/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> This page follows Prof. Fliyou's lecture: embryology, the external and internal configuration of the cord, the spinal nerves, the canal and meninges, the blood supply, functional anatomy and clinical aspects. Every fact was cross-checked against at least two references, listed at the bottom. If your professor says something different, trust your professor.",
  "summary": [
   {
@@ -27491,8 +27491,8 @@ SINA.lectures["anat3-brainstem"] = {
  "subject": "anat3",
  "group": "Neuroanatomy",
  "title": "Anatomy of the brainstem",
- "sourceFile": "anatomy of brainstem.pdf (Anatomy 3, Neuroanatomy lecture 5, Prof. F. Fliyou, 2025-2026)",
- "sourceUrl": "https://drive.google.com/file/d/1heuiVNneCX6B7p2FBskhI1Ym8P_3C1Kh/view?usp=drivesdk",
+ "sourceFile": "4.anatomy of brainstem.pdf (Anatomy 3, Neuroanatomy lecture 5, Prof. F. Fliyou, 2025-2026)",
+ "sourceUrl": "https://drive.google.com/file/d/1Hk0QVEgv655dHp7cAvmQDrMgke3fpfRH/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> This page follows Prof. Fliyou's lecture: the situation and embryology of the brainstem, its connections, the external configuration of the midbrain, pons and medulla, the emergence of the cranial nerves, the internal configuration with the reticular formation, tracts and fourth ventricle, the blood supply, functions and clinical aspects. Every fact was cross-checked against at least two references, listed at the bottom. If your professor says something different, trust your professor.",
  "summary": [
   {
@@ -39739,7 +39739,7 @@ SINA.lectures["anat3-cerebellum"] = {
  "group": "Neuroanatomy",
  "title": "Anatomy of the cerebellum",
  "sourceFile": "5. ANATOMY OF CEREBELLUM.pdf (Anatomy 3, Neuroanatomy lecture 6, Prof. F. Fliyou, 2026-2027)",
- "sourceUrl": "https://drive.google.com/file/d/1ED_35sGslr3pv60na99ghAEVIwMPbWFR/view",
+ "sourceUrl": "https://drive.google.com/file/d/1gk7vZrhp2C6BCZBbxldHReztt-pARScV/view",
  "sourcePdf": "files/src/anat3-cerebellum.pdf",
  "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
  "summary": [

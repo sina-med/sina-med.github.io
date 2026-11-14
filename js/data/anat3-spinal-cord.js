@@ -5,7 +5,7 @@ SINA.lectures["anat3-spinal-cord"] = {
  "group": "Neuroanatomy",
  "title": "Anatomy of the spinal cord",
  "sourceFile": "ANATOMY OF SPINAL CORD.pdf (Anatomy 3, Neuroanatomy lecture 7, Prof. F. Fliyou, 2025-2026)",
- "sourceUrl": "https://drive.google.com/file/d/1-9CiI9yeZM-JOYYPueyP6AYo87Z-oicY/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1IlPNZCLN2fDnVqAeQEslXcGMk6-0LotJ/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> This page follows Prof. Fliyou's lecture: embryology, the external and internal configuration of the cord, the spinal nerves, the canal and meninges, the blood supply, functional anatomy and clinical aspects. Every fact was cross-checked against at least two references, listed at the bottom. If your professor says something different, trust your professor.",
  "summary": [
   {
