@@ -2931,8 +2931,9 @@
 
   /* a picture that belongs to the question itself (graph, table, screenshot from a paper) */
   function qimgHTML(q) {
-    return [].concat(q.img).map(function (src) { return '<figure class="qimg"><a href="' + esc(src) + '" target="_blank" rel="noopener"><img src="' + esc(src) + '" alt="Picture for this question" loading="lazy"></a></figure>'; }).join("");
+    return [].concat(q.img).map(function (src) { return '<figure class="qimg"><img src="' + esc(src) + '" alt="Picture for this question" loading="lazy"><figcaption>Tap the picture to enlarge it.</figcaption></figure>'; }).join("");
   }
+  document.addEventListener("click", function (e) { var im = e.target.closest && e.target.closest(".qimg img"); if (im) { e.preventDefault(); akZoom(im.src, im.alt); } });
 
   /* ---------- exam mode: timer, no feedback until the end ---------- */
   function examPanel(p, set, back) {
