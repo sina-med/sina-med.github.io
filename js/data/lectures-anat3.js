@@ -28572,7 +28572,7 @@ SINA.lectures["anat3-brainstem"] = {
     "Weakness alternating with spasm"
    ],
    "answer": 1,
-   "why": "A peripheral cranial nerve lesion on one side with hemiplegia on the other locates the lesion to a level in the brainstem.",
+   "why": "Slide 32: an alternating syndrome is a peripheral cranial nerve palsy on one side with a hemiplegia on the other; it locates the level of the lesion in the brainstem.",
    "slides": [
     {
      "src": "files/slides/anat3-brainstem/32.jpg",
@@ -28581,10 +28581,10 @@ SINA.lectures["anat3-brainstem"] = {
     }
    ],
    "notes": [
-    "Not this.",
-    "Nerve palsy on one side, body weakness on the other.",
-    "Not this.",
-    "Not this."
+    "No: 'alternating' means the two sides are hit at the same time (cranial nerve on one side, limbs on the other), not paralysis moving from side to side.",
+    "Yes: cranial nerve palsy on one side, hemiplegia on the other.",
+    "No: that points to the vestibulocochlear nerve (CN VIII) or inner ear, not a crossed syndrome.",
+    "No: the definition is about a cranial nerve palsy plus opposite hemiplegia, not weakness and spasm taking turns."
    ]
   },
   {
@@ -28939,7 +28939,7 @@ SINA.lectures["anat3-brainstem"] = {
   {
    "q": "A patient has a right facial palsy with weakness of the left arm and leg. What kind of lesion is this?",
    "options": [
-    "An alternating (crossed) syndrome from a brainstem lesion",
+    "A brainstem lesion",
     "A lesion of the left motor cortex",
     "A spinal cord lesion",
     "A cerebellar lesion"
@@ -28947,7 +28947,7 @@ SINA.lectures["anat3-brainstem"] = {
    "answer": 0,
    "why": "A cranial nerve palsy on one side with hemiplegia on the other side is an alternating syndrome; it locates the lesion in the brainstem.",
    "notes": [
-    "Cranial nerve on one side, body on the other: brainstem.",
+    "Yes: cranial nerve on one side, limbs on the other is an alternating (crossed) syndrome, which places the lesion in the brainstem.",
     "A cortical lesion would not give a peripheral facial palsy on the opposite side.",
     "The cord has no cranial nerves.",
     "The cerebellum gives ataxia, not paralysis."

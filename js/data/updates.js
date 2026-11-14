@@ -3,7 +3,8 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "14 November 2026", items: [
-    "Fixed: 4 reported questions, Anatomy 3, Anatomy of the cerebellum."
+    "Fixed: 4 reported questions, Anatomy 3, Anatomy of the cerebellum.",
+    "Fixed: 2 reported questions, Anatomy 3, Anatomy of the brainstem."
   ] },
   { date: "13 November 2026", items: [
     "Fixed: 1 reported question, Anatomy 3, Anatomy of the spinal cord."
