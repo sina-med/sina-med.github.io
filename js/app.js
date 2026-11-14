@@ -2129,7 +2129,7 @@
       }
       var q = qs[i], multi = true;
       var qfig = q._fig || (lec.visual && lec.visual.figure);
-      var qph = q.m3d ? m3dHTML(q) : q.flow ? flowHTML(q, !!done[i]) : q.occ ? occHTML(q, !!done[i]) : q.target ? photoQ(q._lid || lec.id, q.target) : "";
+      var qph = q.img ? qimgHTML(q) : q.m3d ? m3dHTML(q) : q.flow ? flowHTML(q, !!done[i]) : q.occ ? occHTML(q, !!done[i]) : q.target ? photoQ(q._lid || lec.id, q.target) : "";
       var pic = qph ? qph : (q.target && qfig)
         ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "q" + i }) + "</div>"
         : "";
@@ -2929,6 +2929,11 @@
     if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(done, done); else done();
   }
 
+  /* a picture that belongs to the question itself (graph, table, screenshot from a paper) */
+  function qimgHTML(q) {
+    return [].concat(q.img).map(function (src) { return '<figure class="qimg"><a href="' + esc(src) + '" target="_blank" rel="noopener"><img src="' + esc(src) + '" alt="Picture for this question" loading="lazy"></a></figure>'; }).join("");
+  }
+
   /* ---------- exam mode: timer, no feedback until the end ---------- */
   function examPanel(p, set, back) {
     var qs = set.mcqs, n = qs.length, sel = qs.map(function () { return []; }), i = 0, LET = "abcdefgh";
@@ -2936,7 +2941,7 @@
     function fmt(s) { s = Math.max(0, Math.round(s)); var m = Math.floor(s / 60); return m + ":" + ("0" + (s % 60)).slice(-2); }
     function multi() { return true; }
     function render() {
-      var q = qs[i], qfig = q._fig, qph = q.m3d ? m3dHTML(q) : q.flow ? flowHTML(q, false) : q.occ ? occHTML(q, false) : q.target ? photoQ(q._lid || set.id, q.target) : "";
+      var q = qs[i], qfig = q._fig, qph = q.img ? qimgHTML(q) : q.m3d ? m3dHTML(q) : q.flow ? flowHTML(q, false) : q.occ ? occHTML(q, false) : q.target ? photoQ(q._lid || set.id, q.target) : "";
       var pic = qph || (q.target && qfig ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "x" + i }) + "</div>" : "");
       p.innerHTML = '<div class="exam-bar"><span class="exam-time" id="xt">' + fmt((end - Date.now()) / 1000) + '</span><span class="meta"></span><button class="btn small primary" id="xsub">Submit</button></div>' +
         '<div class="exam-grid">' + qs.map(function (_, k) { return '<button class="xg' + (k === i ? " cur" : "") + (sel[k].length ? " done" : "") + '" data-k="' + k + '">' + (k + 1) + "</button>"; }).join("") + "</div>" +

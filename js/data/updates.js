@@ -3,6 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "14 November 2026", items: [
+    "Added: 1st year Public health and biostatistics mock in Past papers, playable with explanations.",
     "Fixed: 4 reported questions, Anatomy 3, Anatomy of the cerebellum.",
     "Fixed: 2 reported questions, Anatomy 3, Anatomy of the brainstem."
   ] },

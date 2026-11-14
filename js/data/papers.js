@@ -18622,6 +18622,537 @@ SINA.papers = SINA.papers.concat([
   ]
  },
  {
+  "id": "y1-pubhealth-mock-biostat",
+  "subject": "pubhealth1",
+  "title": "Public health and biostatistics mock",
+  "year": "Mock",
+  "note": "24 questions, playable here with explanations. Question 19 is missing from the screenshots. Where the answer key that came with the mock was wrong, the explanation says so.",
+  "links": [
+   {
+    "label": "Open the mock (PDF)",
+    "url": "https://drive.google.com/file/d/1jX0XlP5Up41Dd3myawN4kvsy_w_5-N7B/view?usp=drivesdk"
+   }
+  ],
+  "questions": [
+   {
+    "q": "In Morocco, which governance structure does not belong to the private sector in Morocco?",
+    "options": [
+     "Non profit healthcare networks",
+     "Health maintenance organisation",
+     "Multidisciplinary clinics between 30 and 99 beds",
+     "Monodisciplinary clinics under 30 beds"
+    ],
+    "answers": [
+     1
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Health maintenance organisations are an American insurance model, not part of the Moroccan system. The answer key that came with this mock says A, but non-profit networks (mutuals, CNSS polyclinics, NGOs) make up the private non-profit sector.",
+    "notes": [
+     "Part of the private non-profit sector.",
+     "An American managed-care model, not found in Morocco.",
+     "Private clinics are part of the private for-profit sector.",
+     "Private clinics are part of the private for-profit sector."
+    ]
+   },
+   {
+    "q": "A health system is best described as:",
+    "options": [
+     "A dynamic and complex system",
+     "Static and linear",
+     "Centrally controlled only",
+     "Limited to public institutions"
+    ],
+    "answers": [
+     0
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Many actors and levels interact and change over time.",
+    "notes": [
+     "",
+     "It constantly adapts.",
+     "It also has private and community actors.",
+     "It includes private and community actors."
+    ]
+   },
+   {
+    "q": "A health system is defined as:",
+    "options": [
+     "A collection of doctors, nurses, and medicines",
+     "All activities whose main purpose is to promote, restore, or maintain health",
+     "A network of hospitals and clinics providing medical care only",
+     "The Ministry of Health and public health institutions"
+    ],
+    "answers": [
+     1
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "This is the WHO definition.",
+    "notes": [
+     "Those are only resources.",
+     "",
+     "It is more than curative care.",
+     "It is more than the ministry."
+    ]
+   },
+   {
+    "q": "What is the difference between public health and traditional clinical medicine?",
+    "options": [
+     "Clinical medicine treats diseases, while public health aims to prevent and control diseases at the population level.",
+     "Clinical medicine does not rely on scientific evidence, unlike public health.",
+     "Public health focuses on individuals, while clinical medicine focuses on populations.",
+     "Public health uses only biomedical approaches, while clinical medicine is multidisciplinary."
+    ],
+    "answers": [
+     0
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Clinical medicine: the individual patient. Public health: the population.",
+    "notes": [
+     "",
+     "Both are evidence-based.",
+     "It is the other way round.",
+     "Public health is the multidisciplinary one."
+    ]
+   },
+   {
+    "q": "Among the following determinants, which are biological:",
+    "options": [
+     "Physical activity",
+     "Genetics",
+     "Smoking",
+     "Age"
+    ],
+    "answers": [
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Genetics, age and sex are biological, non-modifiable determinants.",
+    "notes": [
+     "Behavioural.",
+     "",
+     "Behavioural.",
+     ""
+    ]
+   },
+   {
+    "q": "In Policy Development, physicians can:",
+    "options": [
+     "Provide scientific evidence for decision-making",
+     "Work independently without coordination",
+     "Ignore social determinants of health",
+     "Advocate for health laws and vaccination policies"
+    ],
+    "answers": [
+     0,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Physicians bring evidence and advocacy to policy.",
+    "notes": [
+     "",
+     "Policy needs coordination.",
+     "Social determinants are central.",
+     ""
+    ]
+   },
+   {
+    "q": "In a Hospital, interprofessional collaboration is hindered by:",
+    "options": [
+     "Limited decision spaces of nurses",
+     "Professional hierarchies and negotiated orders",
+     "Poor management of hospital logistics",
+     "Medical training and qualifications"
+    ],
+    "answers": [
+     1
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Rigid hierarchies and negotiated roles between professions block collaboration.",
+    "notes": [
+     "A consequence of hierarchy, not the root obstacle given here.",
+     "",
+     "A management issue, not a collaboration barrier.",
+     "Training supports collaboration."
+    ]
+   },
+   {
+    "q": "The structural determinants of social inequalities in health refer to:",
+    "options": [
+     "Biological factors",
+     "Behaviors",
+     "Macroeconomic policies",
+     "Governance"
+    ],
+    "answers": [
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Structural determinants are the socioeconomic and political context: governance, macroeconomic, social and public policies.",
+    "notes": [
+     "Individual factors.",
+     "Intermediary determinants.",
+     "",
+     ""
+    ]
+   },
+   {
+    "q": "Equity in health systems means:",
+    "options": [
+     "Same services for all",
+     "Priority to insured people",
+     "Fair access according to need",
+     "Urban preference"
+    ],
+    "answers": [
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Equity is about need, equality is the same for all.",
+    "notes": [
+     "That is equality.",
+     "That is inequity.",
+     "",
+     "That is inequity."
+    ]
+   },
+   {
+    "q": "Among the following determinants, which are modifiable to combat cardiovascular diseases?",
+    "options": [
+     "Genetics",
+     "Physical activity",
+     "Age",
+     "Smoking"
+    ],
+    "answers": [
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Behaviours can be changed; genetics and age cannot.",
+    "notes": [
+     "Not modifiable.",
+     "",
+     "Not modifiable.",
+     ""
+    ]
+   },
+   {
+    "q": "A health center recently detected an unusual increase in diarrhea cases in an urban area. An investigation is launched to identify possible causes and control the epidemic. Which essential public health function is this?",
+    "options": [
+     "Epidemiological surveillance",
+     "Training and capacity building for professionals",
+     "Quality assurance of health services",
+     "Health promotion"
+    ],
+    "answers": [
+     0
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Detecting and investigating outbreaks is surveillance.",
+    "notes": [
+     "",
+     "No.",
+     "No.",
+     "Promotion empowers people to improve their health."
+    ]
+   },
+   {
+    "q": "What is the main goal of primary prevention?",
+    "options": [
+     "Prevent the development of diseases.",
+     "Detect and treat diseases.",
+     "Facilitate post-disease rehabilitation.",
+     "Reduce complications related to an existing disease."
+    ],
+    "answers": [
+     0
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Primary: before disease. Secondary: early detection. Tertiary: limit complications.",
+    "notes": [
+     "",
+     "Secondary prevention.",
+     "Tertiary prevention.",
+     "Tertiary prevention."
+    ]
+   },
+   {
+    "q": "What is the first step in a public health approach?",
+    "options": [
+     "Identifying the causes of the health problem",
+     "Evaluating the results of the implemented solutions",
+     "Identifying the health problem",
+     "Implementing solutions to address the problem"
+    ],
+    "answers": [
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Define the problem, find causes, act, then evaluate.",
+    "notes": [
+     "Second step.",
+     "Last step.",
+     "",
+     "Third step."
+    ]
+   },
+   {
+    "q": "Which is not a WHO health system building block?",
+    "options": [
+     "Health workforce",
+     "Leadership and governance",
+     "Health information systems",
+     "Healthcare accreditation"
+    ],
+    "answers": [
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "The six blocks: service delivery, workforce, information, medicines, financing, leadership/governance.",
+    "notes": [
+     "A building block.",
+     "A building block.",
+     "A building block.",
+     ""
+    ]
+   },
+   {
+    "q": "Which is true about the comparison of health systems between Morocco and Burkina Faso in terms of conditions leading to deaths?",
+    "options": [
+     "Malaria, HIV and meningitis are real public health problems in Burkina Faso",
+     "High burden of communicable diseases in Morocco",
+     "Cancer is to be neglected as it does not lead to high death rate in Morocco",
+     "High burden of non communicable diseases in Burkina Faso"
+    ],
+    "answers": [
+     0
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Burkina Faso's deaths are dominated by infections (red); Morocco's by non-communicable diseases (blue).",
+    "notes": [
+     "",
+     "Morocco's burden is mostly non-communicable.",
+     "Cancers are a large share of deaths in Morocco.",
+     "Communicable diseases dominate there."
+    ],
+    "img": "files/papers1/ph-mock-q15.jpg"
+   },
+   {
+    "q": "A major health system performance challenge in Morocco is:",
+    "options": [
+     "Excess funding above 10% of GDP",
+     "Urban-rural inequities",
+     "Over-regulation",
+     "Low service demand"
+    ],
+    "answers": [
+     1
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Access differs greatly between cities and rural areas.",
+    "notes": [
+     "Health spending is far lower.",
+     "",
+     "No.",
+     "Demand is high."
+    ]
+   },
+   {
+    "q": "Among the following determinants, which are behavioral determinants of health?",
+    "options": [
+     "Diet",
+     "Genetic factors",
+     "Age",
+     "Income level"
+    ],
+    "answers": [
+     0
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Behavioural determinants are lifestyle choices: diet, smoking, alcohol, physical activity.",
+    "notes": [
+     "",
+     "Biological.",
+     "Biological.",
+     "Socioeconomic."
+    ]
+   },
+   {
+    "q": "Among the following interventions, which correspond to tertiary prevention?",
+    "options": [
+     "Screening",
+     "Physical rehabilitation following a road traffic accident",
+     "Vaccination",
+     "Palliative care"
+    ],
+    "answers": [
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Tertiary prevention limits disability and complications of existing disease.",
+    "notes": [
+     "Secondary.",
+     "",
+     "Primary.",
+     ""
+    ]
+   },
+   {
+    "q": "A histogram is used to represent:",
+    "options": [
+     "A crosstab",
+     "A continuous quantitative variable",
+     "A qualitative variable",
+     "An ordinal qualitative variable"
+    ],
+    "answers": [
+     1
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Histograms show the distribution of quantitative data; bar charts are for qualitative data. The answer key that came with this mock says A, which is a slip.",
+    "notes": [
+     "A table of two qualitative variables.",
+     "",
+     "Bar chart.",
+     "Bar chart."
+    ]
+   },
+   {
+    "q": "The Pearson correlation coefficient measures:",
+    "options": [
+     "Linear relation between two continuous variables",
+     "Intensity and meaning of linear relationship",
+     "Difference between two average values",
+     "Association between two nominal variables"
+    ],
+    "answers": [
+     0,
+     1
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "r measures the strength and direction of a linear relationship between two quantitative variables. The answer key that came with this mock says B and C, but comparing means is a t-test.",
+    "notes": [
+     "",
+     "Strength and direction.",
+     "That is a t-test.",
+     "That is a chi-square test."
+    ]
+   },
+   {
+    "q": "The independent sample t-test is valid when:",
+    "options": [
+     "There are less than 10 observations per group",
+     "The two groups are independent",
+     "The variable under study follows a normal distribution",
+     "The data is qualitative"
+    ],
+    "answers": [
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Independent groups, quantitative normal data.",
+    "notes": [
+     "Small samples need a non-parametric test.",
+     "",
+     "",
+     "It compares means of quantitative data."
+    ]
+   },
+   {
+    "q": "If the p-value is less than 0.05, we:",
+    "options": [
+     "Accepts H0",
+     "Concludes a significant difference or association",
+     "Rejects H0",
+     "Refuses to conclude because it is not known if the test performed is significant or not"
+    ],
+    "answers": [
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "p < 0.05: reject H0, the result is significant.",
+    "notes": [
+     "Rejects it.",
+     "",
+     "",
+     "The p-value is the conclusion."
+    ]
+   },
+   {
+    "q": "From this graph, we can conclude that:",
+    "options": [
+     "Interquartile range is zero, showing no dispersion",
+     "No strong visible asymmetry between quartiles exists",
+     "Extreme values are not shown on this graph",
+     "BMI distribution is concentrated around median"
+    ],
+    "answers": [
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Q2 − Q1 = 2.40 and Q3 − Q2 = 2.12, so the spread is nearly symmetric, and the tallest bars sit around the median. A histogram shows all values, extremes included. The answer key that came with this mock says C.",
+    "notes": [
+     "IQR = 4.52.",
+     "",
+     "A histogram includes every value.",
+     ""
+    ],
+    "img": "files/papers1/ph-mock-q24.jpg"
+   },
+   {
+    "q": "The Student's test applies when:",
+    "options": [
+     "There are more than two groups",
+     "The grouping variable is qualitative",
+     "We compare two averages",
+     "The data is non-normal"
+    ],
+    "answers": [
+     1,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Two groups defined by a qualitative variable, comparing means of normal data.",
+    "notes": [
+     "More than two groups: ANOVA.",
+     "",
+     "",
+     "Non-normal: Mann-Whitney."
+    ]
+   }
+  ]
+ },
+ {
   "id": "y1-pubhealth-exam",
   "subject": "pubhealth1",
   "title": "Public health exam",
