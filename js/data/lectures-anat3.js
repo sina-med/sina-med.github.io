@@ -40352,7 +40352,7 @@ SINA.lectures["anat3-cerebellum"] = {
   {
    "q": "What is the tree-like pattern seen when the cerebellum is cut?",
    "options": [
-    "Arbor vitae: branching white matter surrounded by grey cortex",
+    "The arbor vitae",
     "The vallecula",
     "The vermis",
     "The tentorial notch"
@@ -40360,7 +40360,7 @@ SINA.lectures["anat3-cerebellum"] = {
    "answer": 0,
    "why": "On section, branching white matter surrounded by grey cortex forms the arbor vitae, the tree of life.",
    "notes": [
-    "The arbor vitae.",
+    "Arbor vitae: branching white matter surrounded by grey cortex (slide 17).",
     "The vallecula is the groove on the inferior surface.",
     "The vermis is the median part.",
     "That is an opening in the tentorium."
@@ -40500,7 +40500,7 @@ SINA.lectures["anat3-cerebellum"] = {
   {
    "q": "Which functional division plans and times skilled voluntary movements?",
    "options": [
-    "Cerebrocerebellum (lateral hemispheres)",
+    "Cerebrocerebellum",
     "Vestibulocerebellum",
     "Spinocerebellum",
     "Flocculonodular lobe"
@@ -40508,7 +40508,7 @@ SINA.lectures["anat3-cerebellum"] = {
    "answer": 0,
    "why": "The cerebrocerebellum, the largest division, takes cortical input via the pontine nuclei and plans, starts and times skilled movements.",
    "notes": [
-    "The lateral hemispheres plan skilled movements.",
+    "The cerebrocerebellum (lateral hemispheres) plans and times skilled movements.",
     "That serves balance and eye movements.",
     "That regulates tone and posture.",
     "That is the vestibulocerebellum."
@@ -40572,7 +40572,7 @@ SINA.lectures["anat3-cerebellum"] = {
   {
    "q": "Why is herniation of the cerebellar tonsils life-threatening?",
    "options": [
-    "It compresses the medulla, threatening breathing and circulation",
+    "It compresses the medulla oblongata",
     "It blocks the optic nerves",
     "It tears the middle meningeal artery",
     "It compresses the spinal cord at L1"
@@ -40580,7 +40580,7 @@ SINA.lectures["anat3-cerebellum"] = {
    "answer": 0,
    "why": "Tonsillar herniation compresses the medulla oblongata, threatening vital respiratory and cardiovascular functions.",
    "notes": [
-    "The medulla holds the respiratory and cardiovascular centres.",
+    "Compressing the medulla threatens vital respiratory and cardiovascular functions (slide 13).",
     "The optic nerves are far in front.",
     "That causes an epidural haematoma.",
     "Not at that level."
@@ -40692,7 +40692,7 @@ SINA.lectures["anat3-cerebellum"] = {
   {
    "q": "Where do climbing fibres come from?",
    "options": [
-    "Only from the contralateral inferior olivary nucleus",
+    "From the contralateral inferior olivary nucleus",
     "From the pontine nuclei",
     "From the spinal cord",
     "From the vestibular nuclei"
