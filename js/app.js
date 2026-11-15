@@ -1343,7 +1343,7 @@
       if (gsel > -1 && gi !== gsel) return;
       h += '<h2 class="group-title">' + esc(g.name) + '</h2><ul class="lec-list">' + g.items.map(function (it) {
         return S.lectures[it.id]
-          ? '<li' + (revisedOn(it.id) ? ' class="done"' : "") + '><a href="#/lecture/' + it.id + '"><span class="lec-tick" aria-label="' + (revisedOn(it.id) ? "Revised" : "Not revised") + '"></span><span>' + esc(it.title) + "</span>" + (onMidterm(it.id) ? '<span class="pill mid">Midterm</span>' : "") + "</a></li>"
+          ? '<li' + (revisedOn(it.id) ? ' class="done"' : "") + '><a href="#/lecture/' + it.id + '"><span class="lec-tick" role="checkbox" tabindex="0" data-tick="' + it.id + '" aria-checked="' + revisedOn(it.id) + '" aria-label="Revised" title="Tap to mark as revised"></span><span>' + esc(it.title) + "</span>" + (onMidterm(it.id) ? '<span class="pill mid">Midterm</span>' : "") + "</a></li>"
           : '<li><span class="soon"><span>' + esc(it.title) + '</span><span class="pill muted">Coming</span></span></li>';
       }).join("") + "</ul>";
     });
@@ -3050,6 +3050,17 @@
   function fmtPts(x) { var r = Math.round(x * 100) / 100; return String(r); }
 
   /* ---------- "Mark as revised" ---------- */
+  /* tick a lecture as revised straight from the lecture list, without opening it */
+  function tickLec(e) {
+    var t = e.target.closest && e.target.closest(".lec-tick[data-tick]"); if (!t) return;
+    if (e.type === "keydown" && e.key !== " " && e.key !== "Enter") return;
+    e.preventDefault(); e.stopPropagation();
+    var id = t.getAttribute("data-tick"), m = store.get("sina:revised", {}), on = !m[id];
+    if (on) m[id] = today(); else delete m[id];
+    store.set("sina:revised", m);
+    t.setAttribute("aria-checked", String(on)); var li = t.closest("li"); if (li) li.classList.toggle("done", on);
+  }
+  document.addEventListener("click", tickLec, true); document.addEventListener("keydown", tickLec, true);
   function revisedOn(id) { return !!store.get("sina:revised", {})[id]; }
   function revisedHTML(id, big) {
     var on = revisedOn(id);
