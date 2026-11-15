@@ -2943,7 +2943,7 @@
   function casesOf(ids) { return (S.cases || []).filter(function (c) { return c.lecs.some(function (l) { return ids.indexOf(l) > -1; }); }); }
   function caseHTML(q) {
     var c = q.case; if (!c) return "";
-    return '<div class="case-box"><p class="case-h">' + esc(c.title) + '<span class="qn">Question ' + c.n + " of " + c.of + '</span></p><p class="case-stem">' + esc(c.stem) + "</p>" +
+    return '<div class="case-box"><p class="case-h"><span>' + esc(c.title) + "</span><span>" + c.n + " of " + c.of + '</span></p><p class="case-stem">' + esc(c.stem) + "</p>" +
       '<figure class="qimg case-img"><img src="' + esc(c.img || "files/cases/" + c.id + ".jpg") + '" alt="Picture for this case" loading="lazy" onerror="this.parentNode.remove()"><figcaption>Tap the picture to enlarge it.</figcaption></figure></div>';
   }
   function qimgHTML(q) {
