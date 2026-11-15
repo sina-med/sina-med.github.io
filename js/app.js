@@ -2448,10 +2448,12 @@
       redo: '<path d="M4 12a8 8 0 1 0 2.4-5.7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M4 3v5h5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>',
       prog: '<circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2.2" opacity=".3"/><path d="M12 3.5a8.5 8.5 0 0 1 8.5 8.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M7 12.5h2.5l1.5-3 2 6 1.5-3H17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>',
       weak: '<circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="1.4" fill="currentColor"/>',
+      rd: '<path d="M6 3v6a5 5 0 0 0 10 0V3" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/><path d="M11 14v2a4 4 0 0 0 8 0v-3" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/><circle cx="19" cy="11" r="2" fill="none" stroke="currentColor" stroke-width="2.1"/>',
       lb: '<path d="M7 4h10v4a5 5 0 0 1-10 0z" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linejoin="round"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4M12 13v4M8 20h8" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>'
     };
     var t = function (href, k, title, sub, cls) { return '<a class="qtile' + (cls ? " " + cls : "") + '" href="' + href + '"><span class="qt-ico"><svg viewBox="0 0 24 24" aria-hidden="true">' + ico[k] + '</svg></span><span class="qt-t">' + title + '</span><span class="qt-s">' + sub + "</span></a>"; };
     var h = '<nav class="quick" aria-label="Quick access">';
+    if (rdOn()) { var rdS = rdAll()[rdDay()]; h += t("#/rounds", "rd", "Rounds #" + rdDay(), rdS && rdS.done ? "Done today · " + fmtPts(rdS.score) + " / 5" : "Today's patient", rdS && rdS.done ? "" : "qt-hot"); }
     var rs = resumeInfo();
     if (rs) h += t("#/resume", "go", "Resume quiz", esc(rs.title) + " · " + rs.n + "/" + rs.qs.length, "qt-go");
     else if (last && last.h) h += t(last.h, "go", "Continue", esc(last.t), "qt-go");
@@ -3626,6 +3628,112 @@
     load(false);
   }
 
+  /* ---------- Rounds: one patient a day, worked up step by step ---------- */
+  function rdDay() {   /* today's case number, counted from the start date in local time */
+    var s = S.rounds.start.split("-"), d = new Date();
+    return Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - Date.UTC(+s[0], s[1] - 1, +s[2])) / 864e5) + 1;
+  }
+  function rdOn() { return !!(S.rounds && S.rounds.cases.length && inProgram("semio-cv-intro") && rdDay() >= 1); }
+  function rdCase(n) { var c = S.rounds.cases; return c[(n - 1) % c.length]; }
+  function rdAll() { return store.get("sina:rounds", {}); }
+  function rdPts(t) { return t === 0 ? 1 : t === 1 ? 0.5 : 0; }
+  function rdStreak() {
+    var a = rdAll(), n = rdDay(), k = a[n] && a[n].done && a[n].live ? n : n - 1, s = 0;
+    while (k >= 1 && a[k] && a[k].done && a[k].live) { s++; k--; }
+    return s;
+  }
+  function rdSquares(st, html) {
+    return st.tries.map(function (t) { var c = t === 0 ? "g" : t === 1 ? "y" : "r"; return html ? '<i class="rd-sq ' + c + '"></i>' : { g: "🟩", y: "🟨", r: "🟥" }[c]; }).join("");
+  }
+  function roundsView(arg) {
+    if (!rdOn()) return notFound();
+    if (arg === "archive") return roundsArchive();
+    var today = rdDay(), n = arg ? Math.floor(+arg) : today;
+    if (!(n >= 1 && n <= today)) { location.replace("#/rounds"); return; }
+    var c = rdCase(n), all = rdAll(), st = all[n] || { step: 0, tries: [], wrong: [], live: n === today, t0: Date.now() };
+    function save() { var a = rdAll(); a[n] = st; store.set("sina:rounds", a); }
+    var order = c.steps.map(function (s, i) {   /* the same option order every time this case is opened */
+      var rnd = seeded("rounds|" + n + "|" + i), idx = s.options.map(function (o, j) { return j; });
+      for (var j = idx.length - 1; j > 0; j--) { var r = Math.floor(rnd() * (j + 1)), t = idx[j]; idx[j] = idx[r]; idx[r] = t; }
+      return idx;
+    });
+    var score = function () { return st.tries.reduce(function (a, t) { return a + rdPts(t); }, 0); };
+    var streak = rdStreak();
+    setView('<div class="wrap rounds"><p class="crumbs"><a href="#/">Home</a> / Rounds</p><h1>Rounds #' + n + '</h1><p class="meta">' +
+      (n === today ? "Today's patient" : "Past patient, not counted in the streak or leaderboard") + (streak ? " · " + streak + " day streak" : "") + ' · <a href="#/rounds/archive">Past patients</a></p><div id="rd"></div></div>', "Rounds");
+    var box = document.getElementById("rd");
+    function stepHTML(i) {
+      var s = c.steps[i], done = i < st.step, wrong = st.wrong[i] || [];
+      var h = '<section class="rd-step"><p class="rd-at">Step ' + (i + 1) + " of " + c.steps.length + " · " + esc(s.at) + "</p><p>" + esc(s.text) + "</p>" +
+        '<figure class="qimg"><img src="files/rounds/' + ((n - 1) % S.rounds.cases.length + 1) + "-" + (i + 1) + '.jpg" alt="' + esc(s.at) + '" loading="lazy" onerror="this.parentNode.remove()"><figcaption>Tap the picture to enlarge it.</figcaption></figure>' +
+        '<p class="qtext">' + esc(s.q) + "</p>";
+      h += order[i].map(function (j, k) {
+        var cls = done && j === 0 ? " correct" : wrong.indexOf(j) > -1 ? " wrong" : "";
+        return '<button class="opt' + cls + '" data-j="' + j + '"' + (done || wrong.indexOf(j) > -1 ? " disabled" : "") + '><span class="letter">' + "ABCD".charAt(k) + "</span><span>" + esc(s.options[j]) + "</span></button>";
+      }).join("");
+      if (done) h += '<p class="rd-why">' + esc(s.why) + (s.lec && s.lec.length ? ' <span class="rd-src">' + s.lec.filter(function (l) { return S.lectures[l]; }).map(function (l) { return '<a href="#/lecture/' + l + '">' + esc(lectureTitle(l) || S.lectures[l].title) + "</a>"; }).join(" · ") + "</span>" : "") + "</p>";
+      return h + "</section>";
+    }
+    function draw() {
+      var h = "";
+      for (var i = 0; i <= Math.min(st.step, c.steps.length - 1); i++) h += stepHTML(i);
+      if (st.done) h += endHTML();
+      box.innerHTML = h;
+      box.querySelectorAll(".opt:not([disabled])").forEach(function (b) { b.addEventListener("click", function () { pick(+b.dataset.j); }); });
+      wireEnd();
+    }
+    function pick(j) {
+      var i = st.step;
+      if (j !== 0) { (st.wrong[i] = st.wrong[i] || []).push(j); save(); draw(); return; }
+      st.tries[i] = (st.wrong[i] || []).length; st.step++;
+      if (st.step === c.steps.length) { st.done = true; st.score = score(); st.secs = Math.round((Date.now() - st.t0) / 1000); }
+      save(); draw();
+      var secs = box.querySelectorAll(".rd-step"), last = st.done ? box.querySelector(".rd-end") : secs[secs.length - 1];
+      if (last) last.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (st.done && st.live && !st.posted && store.get("sina:nick", "")) post(store.get("sina:nick", ""));
+    }
+    function endHTML() {
+      var mid = new Date(); mid.setHours(24, 0, 0, 0); var left = mid - Date.now();
+      return '<section class="rd-end"><p class="rd-at">Diagnosis</p><h2>' + esc(c.dx) + '</h2><p class="rd-score">' + fmtPts(st.score) + " / " + c.steps.length + ' <span class="rd-sqs">' + rdSquares(st, true) + "</span></p>" +
+        '<div class="row"><button class="btn primary" id="rd-share" type="button">Share my result</button></div><p class="src" id="rd-msg"></p>' +
+        (st.live && S.api ? (st.posted ? "" : '<div class="row rd-nick"><input id="rd-nick" maxlength="20" placeholder="Nickname for the leaderboard" value="' + esc(store.get("sina:nick", "")) + '"><button class="btn" id="rd-post" type="button">Post my score</button></div>') + '<div id="rd-lb"></div>' : "") +
+        (n === today ? '<p class="meta">Next patient in ' + Math.floor(left / 36e5) + " h " + Math.floor(left % 36e5 / 6e4) + " min.</p>" : "") + "</section>";
+    }
+    function post(nick) {
+      nick = nick.replace(/[^\p{L}\p{N} ._-]/gu, "").trim().slice(0, 20); if (!nick || !S.api) return;
+      store.set("sina:nick", nick);
+      fetch(S.api, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ type: "score", nick: nick, device: lbDevice(), paper: "rounds-" + n, score: st.score, total: c.steps.length, secs: Math.max(st.secs, c.steps.length * 3) }) })
+        .then(function () { st.posted = nick; save(); sessionStorage.removeItem("sina:lb"); draw(); });
+    }
+    function wireEnd() {
+      if (!st.done) return;
+      var sh = box.querySelector("#rd-share"), msg = box.querySelector("#rd-msg");
+      sh.onclick = function () {
+        var t = "Sina Rounds #" + n + " " + fmtPts(st.score) + "/" + c.steps.length + "\n" + rdSquares(st, false) + "\n" + location.origin + location.pathname + "#/rounds";
+        if (navigator.share) navigator.share({ text: t }).catch(function () {});
+        else navigator.clipboard.writeText(t).then(function () { msg.textContent = "Copied. Paste it in the group chat."; }, function () { msg.textContent = t; });
+      };
+      var pb = box.querySelector("#rd-post"); if (pb) pb.onclick = function () { pb.disabled = true; post(box.querySelector("#rd-nick").value); };
+      var lb = box.querySelector("#rd-lb"); if (lb) lbFetch(function (d) {
+        if (!d || !d.ok || !document.body.contains(lb)) return;
+        var tot = {}, me = (store.get("sina:nick", "") || "").toLowerCase();
+        Object.keys(d.papers || {}).forEach(function (p) { if (!/^rounds-\d+$/.test(p)) return; d.papers[p].forEach(function (r) { var k = String(r.nick).toLowerCase(), o = tot[k] = tot[k] || { nick: r.nick, s: 0, n: 0 }; o.s += +r.score; o.n++; }); });
+        if (st.posted && !tot[me]) tot[me] = { nick: st.posted, s: st.score, n: 1 };
+        var list = Object.keys(tot).map(function (k) { return tot[k]; }).sort(function (a, b) { return b.s - a.s; }).slice(0, 10);
+        if (list.length) lb.innerHTML = '<p class="rd-at">This week</p><ol class="rd-lb">' + list.map(function (r) { return '<li' + (String(r.nick).toLowerCase() === me ? ' class="me"' : "") + "><span>" + esc(r.nick) + "</span><span>" + fmtPts(r.s) + " pts · " + r.n + " day" + (r.n > 1 ? "s" : "") + "</span></li>"; }).join("") + "</ol>";
+      });
+    }
+    draw();
+  }
+  function roundsArchive() {
+    var today = rdDay(), a = rdAll(), h = "";
+    for (var n = today; n >= 1; n--) {
+      var st = a[n];
+      h += '<li><a href="#/rounds/' + n + '"><span>Rounds #' + n + (n === today ? " · today" : "") + "</span><span>" + (st && st.done ? fmtPts(st.score) + " / " + rdCase(n).steps.length : st ? "Started" : "Not played") + "</span></a></li>";
+    }
+    setView('<div class="wrap rounds"><p class="crumbs"><a href="#/">Home</a> / <a href="#/rounds">Rounds</a> / Past patients</p><h1>Past patients</h1><ol class="rd-arch">' + h + "</ol></div>", "Past patients");
+  }
+
   /* ---------- home: caduceus (two snakes winding around a winged rod) ---------- */
   function caduceusHTML() {
     var f = function (side) {
@@ -3806,6 +3914,7 @@
     if (parts[0] === "review") return reviewView();
     if (parts[0] === "reminders") return remindersView();
     if (parts[0] === "leaderboard") return leaderboardView(parts[1]);
+    if (parts[0] === "rounds") return roundsView(parts[1]);
     if (parts[0] === "resume") return resumeView();
     if (parts[0] === "install") return installView();
     if (parts[0] === "find") return findView(parts[1], parts[2], decodeURIComponent(parts[3] || ""));
