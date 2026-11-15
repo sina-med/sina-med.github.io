@@ -3,7 +3,6 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "15 November 2026", items: [
-    "Added: tick a lecture as revised straight from the lecture list.",
     "Fixed: 2 reported questions, Anatomy 3, Anatomy of the cerebrum.",
     "Changed: answer options evened out in 36 Anatomy 3 neuroanatomy questions and 20 Sina neuro mock questions, so the correct answer no longer stands out by length or brackets."
   ] },
