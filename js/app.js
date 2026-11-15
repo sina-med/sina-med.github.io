@@ -2453,7 +2453,7 @@
     };
     var t = function (href, k, title, sub, cls) { return '<a class="qtile' + (cls ? " " + cls : "") + '" href="' + href + '"><span class="qt-ico"><svg viewBox="0 0 24 24" aria-hidden="true">' + ico[k] + '</svg></span><span class="qt-t">' + title + '</span><span class="qt-s">' + sub + "</span></a>"; };
     var h = '<nav class="quick" aria-label="Quick access">';
-    if (rdOn()) { var rdS = rdAll()[rdDay()]; h += t("#/rounds", "rd", "Rounds #" + rdDay(), rdS && rdS.done ? "Done today · " + fmtPts(rdS.score) + " / 5" : "Today's patient", rdS && rdS.done ? "" : "qt-hot"); }
+    if (rdOn()) { var rdS = rdAll()[rdDay()], rdNew = !!rdCase(rdDay()); h += t("#/rounds", "rd", rdNew ? "Rounds #" + rdDay() : "Rounds", !rdNew ? "Replay past patients" : rdS && rdS.done ? "Done today · " + fmtPts(rdS.score) + " / 5" : "Today's patient", rdNew && !(rdS && rdS.done) ? "qt-hot" : ""); }
     var rs = resumeInfo();
     if (rs) h += t("#/resume", "go", "Resume quiz", esc(rs.title) + " · " + rs.n + "/" + rs.qs.length, "qt-go");
     else if (last && last.h) h += t(last.h, "go", "Continue", esc(last.t), "qt-go");
@@ -3634,7 +3634,7 @@
     return Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - Date.UTC(+s[0], s[1] - 1, +s[2])) / 864e5) + 1;
   }
   function rdOn() { return !!(S.rounds && S.rounds.cases.length && inProgram("semio-cv-intro") && rdDay() >= 1); }
-  function rdCase(n) { var c = S.rounds.cases; return c[(n - 1) % c.length]; }
+  function rdCase(n) { return S.rounds.cases[n - 1] || null; }
   function rdAll() { return store.get("sina:rounds", {}); }
   function rdPts(t) { return t === 0 ? 1 : t === 1 ? 0.5 : 0; }
   function rdStreak() {
@@ -3650,6 +3650,9 @@
     if (arg === "archive") return roundsArchive();
     var today = rdDay(), n = arg ? Math.floor(+arg) : today;
     if (!(n >= 1 && n <= today)) { location.replace("#/rounds"); return; }
+    if (!rdCase(n)) {   /* no new patient written for today yet: send them to the past ones */
+      setView('<div class="wrap rounds"><p class="crumbs"><a href="#/">Home</a> / Rounds</p><h1>Rounds</h1><p>The next patient is on the way. Meanwhile, replay a past patient.</p><p><a class="btn" href="#/rounds/archive">Past patients</a></p></div>', "Rounds"); return;
+    }
     var c = rdCase(n), all = rdAll(), st = all[n] || { step: 0, tries: [], wrong: [], live: n === today, t0: Date.now() };
     function save() { var a = rdAll(); a[n] = st; store.set("sina:rounds", a); }
     var order = c.steps.map(function (s, i) {   /* the same option order every time this case is opened */
@@ -3665,13 +3668,13 @@
     function stepHTML(i) {
       var s = c.steps[i], done = i < st.step, wrong = st.wrong[i] || [];
       var h = '<section class="rd-step"><p class="rd-at">Step ' + (i + 1) + " of " + c.steps.length + " · " + esc(s.at) + "</p><p>" + esc(s.text) + "</p>" +
-        '<figure class="qimg"><img src="files/rounds/' + ((n - 1) % S.rounds.cases.length + 1) + "-" + (i + 1) + '.jpg" alt="' + esc(s.at) + '" loading="lazy" onerror="this.parentNode.remove()"><figcaption>Tap the picture to enlarge it.</figcaption></figure>' +
+        '<figure class="qimg"><img src="files/rounds/' + n + "-" + (i + 1) + '.jpg" alt="' + esc(s.at) + '" loading="lazy" onerror="this.parentNode.remove()"><figcaption>Tap the picture to enlarge it.</figcaption></figure>' +
         '<p class="qtext">' + esc(s.q) + "</p>";
       h += order[i].map(function (j, k) {
         var cls = done && j === 0 ? " correct" : wrong.indexOf(j) > -1 ? " wrong" : "";
-        return '<button class="opt' + cls + '" data-j="' + j + '"' + (done || wrong.indexOf(j) > -1 ? " disabled" : "") + '><span class="letter">' + "ABCD".charAt(k) + "</span><span>" + esc(s.options[j]) + "</span></button>";
+        return '<button class="opt' + cls + '" data-j="' + j + '"' + (done || wrong.indexOf(j) > -1 ? " disabled" : "") + '><span class="letter">' + "ABCD".charAt(k) + "</span><span>" + esc(s.options[j]) + (s.notes && s.notes[j] && (done || wrong.indexOf(j) > -1) ? '<span class="onote">' + esc(s.notes[j]) + "</span>" : "") + "</span></button>";
       }).join("");
-      if (done) h += '<p class="rd-why">' + esc(s.why) + (s.lec && s.lec.length ? ' <span class="rd-src">' + s.lec.filter(function (l) { return S.lectures[l]; }).map(function (l) { return '<a href="#/lecture/' + l + '">' + esc(lectureTitle(l) || S.lectures[l].title) + "</a>"; }).join(" · ") + "</span>" : "") + "</p>";
+      if (done) h += '<p class="rd-why">' + esc(s.why) + (s.src && s.src.length ? ' <span class="rd-src">' + s.src.map(function (r) { return r.lec; }).filter(function (l, x, a) { return S.lectures[l] && a.indexOf(l) === x; }).map(function (l) { return '<a href="#/lecture/' + l + '">' + esc(lectureTitle(l) || S.lectures[l].title) + "</a>"; }).join(" · ") + "</span>" : "") + "</p>";
       return h + "</section>";
     }
     function draw() {
@@ -3727,7 +3730,7 @@
   }
   function roundsArchive() {
     var today = rdDay(), a = rdAll(), h = "";
-    for (var n = today; n >= 1; n--) {
+    for (var n = Math.min(today, S.rounds.cases.length); n >= 1; n--) {
       var st = a[n];
       h += '<li><a href="#/rounds/' + n + '"><span>Rounds #' + n + (n === today ? " · today" : "") + "</span><span>" + (st && st.done ? fmtPts(st.score) + " / " + rdCase(n).steps.length : st ? "Started" : "Not played") + "</span></a></li>";
     }
