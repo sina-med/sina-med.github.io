@@ -26618,7 +26618,7 @@ SINA.lectures["anat3-spinal-cord"] = {
   {
    "q": "Which tract carries fine touch and proprioception (position sense)?",
    "options": [
-    "Dorsal columns (medial lemniscus pathway)",
+    "Dorsal columns",
     "Spinothalamic tract",
     "Corticospinal tract",
     "Vestibulospinal tract"
@@ -26626,7 +26626,7 @@ SINA.lectures["anat3-spinal-cord"] = {
    "answer": 0,
    "why": "The dorsal columns carry fine touch and proprioception; the spinothalamic tracts carry pain and temperature.",
    "notes": [
-    "Dorsal columns: touch and position.",
+    "Dorsal columns (medial lemniscus pathway): touch and position.",
     "Spinothalamic: pain and temperature.",
     "Corticospinal: voluntary movement.",
     "Vestibulospinal: balance and posture."
@@ -26882,10 +26882,10 @@ SINA.lectures["anat3-spinal-cord"] = {
   {
    "q": "Into what do the anterior and posterior spinal veins drain?",
    "options": [
-    "Radicular veins, then the vertebral venous plexus",
+    "Radicular veins, then the vertebral plexus",
     "Directly into the superior vena cava",
     "The superior sagittal sinus",
-    "The portal vein"
+    "The portal vein, then the liver"
    ],
    "answer": 0,
    "why": "Spinal veins drain into radicular veins, then the internal and external vertebral venous plexus.",
@@ -29035,7 +29035,7 @@ SINA.lectures["anat3-brainstem"] = {
   {
    "q": "Which landmark marks the posterior border between the pons and the medulla on the floor of the fourth ventricle?",
    "options": [
-    "The stria medullaris of the fourth ventricle",
+    "The stria medullaris",
     "The facial colliculus",
     "The obex",
     "The median eminence"
@@ -29043,7 +29043,7 @@ SINA.lectures["anat3-brainstem"] = {
    "answer": 0,
    "why": "The stria medullaris crosses the floor transversely and marks the pons-medulla border.",
    "notes": [
-    "It marks the pons-medulla border.",
+    "The stria medullaris of the fourth ventricle marks the pons-medulla border.",
     "The facial colliculus is on the pontine part.",
     "The obex is the lowest tip.",
     "The median eminence marks the midline."
@@ -29223,7 +29223,7 @@ SINA.lectures["anat3-brainstem"] = {
    "q": "Which structure is highlighted in orange?",
    "options": [
     "Medulla oblongata",
-    "Cerebral peduncle (crus cerebri)",
+    "Cerebral peduncle",
     "Superior colliculus",
     "Inferior colliculus"
    ],
@@ -29231,7 +29231,7 @@ SINA.lectures["anat3-brainstem"] = {
    "why": "Cerebral peduncle (crus cerebri): the thick pillar on the front of the midbrain carrying descending fibres.",
    "notes": [
     "Medulla oblongata is the lowest part of the brainstem, continuous with the spinal cord.",
-    "The thick pillar on the front of the midbrain carrying descending fibres.",
+    "Cerebral peduncle (crus cerebri): the thick pillar on the front of the midbrain carrying descending fibres.",
     "Superior colliculus is the upper pair of bumps on the back of the midbrain: visual reflexes.",
     "Inferior colliculus is the lower pair of bumps on the back of the midbrain: auditory pathway."
    ],
@@ -30912,9 +30912,9 @@ SINA.lectures["anat3-cerebrum"] = {
    "q": "Which functions belong to the frontal lobe?",
    "options": [
     "Personality and behaviour",
-    "Speech production (Broca)",
-    "Vision",
-    "Hearing"
+    "Speech production",
+    "Processing of vision",
+    "Processing of hearing"
    ],
    "answers": [
     0,
@@ -30930,7 +30930,7 @@ SINA.lectures["anat3-cerebrum"] = {
    ],
    "notes": [
     "The prefrontal cortex governs personality.",
-    "Broca is in the frontal lobe.",
+    "Broca's area, for speech production, is in the frontal lobe.",
     "Vision is occipital.",
     "Hearing is temporal."
    ]
@@ -31371,18 +31371,18 @@ SINA.lectures["anat3-cerebrum"] = {
   {
    "q": "Which structure forms the medial boundary of the internal capsule?",
    "options": [
-    "The thalamus and the head of the caudate nucleus",
-    "The lentiform nucleus",
-    "The claustrum",
-    "The insula"
+    "The thalamus and the caudate head",
+    "The putamen and the globus pallidus",
+    "The claustrum and the external capsule",
+    "The insula and the extreme capsule"
    ],
    "answer": 0,
    "why": "The internal capsule lies between the thalamus and caudate medially and the lentiform nucleus laterally.",
    "notes": [
-    "These lie medial to the internal capsule.",
-    "The lentiform nucleus is lateral to it.",
-    "The claustrum lies beside the external capsule.",
-    "The insula is cortex, further out."
+    "The thalamus and the head of the caudate nucleus lie medial to the internal capsule.",
+    "The putamen and globus pallidus (lentiform nucleus) are lateral to it.",
+    "The claustrum and external capsule lie further out, lateral to the lentiform nucleus.",
+    "The insula and extreme capsule are further out still."
    ],
    "slides": [
     {
@@ -31419,18 +31419,18 @@ SINA.lectures["anat3-cerebrum"] = {
   {
    "q": "What does the foramen of Pacchioni (tentorial notch) let through?",
    "options": [
-    "The junction between the diencephalon and the midbrain",
-    "The spinal cord",
-    "The optic nerves",
-    "The vertebral arteries"
+    "The diencephalon-midbrain junction",
+    "The medulla oblongata and the spinal cord",
+    "The optic nerves and the ophthalmic arteries",
+    "The vertebral arteries and the accessory nerves"
    ],
    "answer": 0,
    "why": "The small circumference of the tentorium bounds an opening where the diencephalon joins the midbrain.",
    "notes": [
-    "The brainstem passes up through the tentorial notch.",
-    "The cord passes through the foramen magnum.",
-    "The optic nerves pass through the optic canals.",
-    "The vertebral arteries enter through the foramen magnum."
+    "The junction between the diencephalon and the midbrain passes up through the tentorial notch.",
+    "The medulla becomes the cord at the foramen magnum.",
+    "These pass through the optic canals.",
+    "These pass through the foramen magnum."
    ],
    "slides": [
     {
@@ -31576,7 +31576,7 @@ SINA.lectures["anat3-cerebrum"] = {
    "options": [
     "Middle frontal gyrus",
     "Postcentral gyrus",
-    "Superior temporal gyrus",
+    "Triangular part of the inferior frontal gyrus",
     "Opercular part of the inferior frontal gyrus"
    ],
    "answer": 3,
@@ -31584,7 +31584,7 @@ SINA.lectures["anat3-cerebrum"] = {
    "notes": [
     "Middle frontal gyrus is the middle horizontal gyrus of the lateral frontal lobe.",
     "Postcentral gyrus is the gyrus just behind the central sulcus: the primary somatosensory cortex.",
-    "Superior temporal gyrus is the top gyrus of the temporal lobe, under the lateral sulcus; its back part holds Wernicke's area.",
+    "Triangular part of the inferior frontal gyrus is the middle, triangle-shaped part of the inferior frontal gyrus, in front of the opercular part.",
     "The back part of the inferior frontal gyrus; with the triangular part it forms Broca's area (dominant side)."
    ],
    "m3d": {
@@ -31964,7 +31964,7 @@ SINA.lectures["anat3-cerebrum"] = {
     "Parahippocampal gyrus",
     "Opercular part of the inferior frontal gyrus",
     "Postcentral gyrus",
-    "Transverse temporal gyri (Heschl)"
+    "Transverse temporal gyri"
    ],
    "answer": 3,
    "why": "Transverse temporal gyri (Heschl): the gyri on the upper surface of the temporal lobe, inside the lateral sulcus: the primary auditory cortex.",
@@ -31972,7 +31972,7 @@ SINA.lectures["anat3-cerebrum"] = {
     "Parahippocampal gyrus is the medial temporal gyrus on the inferior surface, ending in front in the uncus.",
     "Opercular part of the inferior frontal gyrus is the back part of the inferior frontal gyrus; with the triangular part it forms Broca's area (dominant side).",
     "Postcentral gyrus is the gyrus just behind the central sulcus: the primary somatosensory cortex.",
-    "The gyri on the upper surface of the temporal lobe, inside the lateral sulcus: the primary auditory cortex."
+    "Transverse temporal gyri (Heschl): the gyri on the upper surface of the temporal lobe, inside the lateral sulcus: the primary auditory cortex."
    ],
    "m3d": {
     "m": "cerebrum",
@@ -32208,7 +32208,7 @@ SINA.lectures["anat3-cerebrum"] = {
   {
    "q": "Which gyrus or area is highlighted in orange?",
    "options": [
-    "Fusiform (lateral occipitotemporal) gyrus",
+    "Fusiform gyrus",
     "Paracentral lobule",
     "Temporal pole",
     "Triangular part of the inferior frontal gyrus"
@@ -32216,7 +32216,7 @@ SINA.lectures["anat3-cerebrum"] = {
    "answer": 0,
    "why": "Fusiform (lateral occipitotemporal) gyrus: the gyrus on the inferior surface between the inferior temporal and parahippocampal gyri.",
    "notes": [
-    "The gyrus on the inferior surface between the inferior temporal and parahippocampal gyri.",
+    "Fusiform (lateral occipitotemporal) gyrus: on the inferior surface between the inferior temporal and parahippocampal gyri.",
     "Paracentral lobule is the medial continuation of the precentral and postcentral gyri (leg area).",
     "Temporal pole is the front tip of the temporal lobe.",
     "Triangular part of the inferior frontal gyrus is the middle, triangle-shaped part of the inferior frontal gyrus, part of Broca's area."
@@ -32715,7 +32715,7 @@ SINA.lectures["anat3-cerebrum"] = {
   {
    "q": "Which functional area is highlighted in orange?",
    "options": [
-    "Broca's area (speech production)",
+    "Broca's area",
     "Primary motor cortex",
     "Primary somatosensory cortex",
     "Primary visual cortex"
@@ -32831,7 +32831,7 @@ SINA.lectures["anat3-cerebrum"] = {
   {
    "q": "Which sulcus lies between the highlighted gyri?",
    "options": [
-    "Lateral sulcus (Sylvius)",
+    "Lateral sulcus",
     "Parieto-occipital sulcus",
     "Intraparietal sulcus",
     "Calcarine sulcus"
@@ -32839,7 +32839,7 @@ SINA.lectures["anat3-cerebrum"] = {
    "answer": 0,
    "why": "The lateral sulcus separates the superior temporal gyrus below from the frontal and parietal gyri above.",
    "notes": [
-    "The lateral sulcus separates the superior temporal gyrus below from the frontal and parietal gyri above.",
+    "The lateral sulcus (Sylvius) separates the superior temporal gyrus below from the frontal and parietal gyri above.",
     "The parieto-occipital sulcus separates the parietal and occipital lobes on the medial surface.",
     "The intraparietal sulcus divides the superior from the inferior parietal lobule.",
     "The calcarine sulcus runs on the medial occipital lobe between cuneus and lingual gyrus."
@@ -34390,8 +34390,8 @@ SINA.lectures["anat3-diencephalon"] = {
    "q": "Which structure is at the arrow?",
    "target": "pituitary",
    "options": [
-    "Pituitary gland (via infundibulum)",
-    "Pineal gland (epithalamus)",
+    "Pituitary gland",
+    "Pineal gland",
     "Mammillary body",
     "Thalamus"
    ],
@@ -34502,15 +34502,15 @@ SINA.lectures["anat3-diencephalon"] = {
   {
    "q": "A patient with a hypothalamic tumour has abnormal body temperature, thirst and appetite. Why?",
    "options": [
-    "The hypothalamus controls homeostasis: temperature, hunger and thirst",
+    "The hypothalamus regulates these functions",
     "The thalamus filters these sensations",
     "The pineal gland controls these functions",
-    "The cerebellum regulates them"
+    "The cerebellum regulates these functions"
    ],
    "answer": 0,
    "why": "The hypothalamus maintains a steady internal state: hunger, thirst, body temperature, blood pressure and heart rate.",
    "notes": [
-    "These are hypothalamic homeostatic functions.",
+    "The hypothalamus controls homeostasis: temperature, hunger and thirst.",
     "The thalamus relays sensation but does not regulate these.",
     "The pineal mainly controls the sleep rhythm.",
     "The cerebellum coordinates movement."
@@ -34647,17 +34647,17 @@ SINA.lectures["anat3-diencephalon"] = {
    "q": "What lies medial to the pulvinar?",
    "options": [
     "The pineal gland and the corpora quadrigemina",
-    "The internal capsule",
-    "The lentiform nucleus",
-    "The optic chiasm"
+    "The internal capsule and the lentiform nucleus",
+    "The optic chiasm and the infundibulum",
+    "The insula and the claustrum"
    ],
    "answer": 0,
    "why": "The pulvinar lies lateral to the pineal gland, habenula, posterior commissure, quadrigeminal bodies and splenium.",
    "notes": [
     "These lie medial to the pulvinar.",
-    "The internal capsule is lateral to the thalamus.",
-    "The lentiform nucleus is lateral to the internal capsule.",
-    "The chiasm is far in front."
+    "These are lateral to the thalamus.",
+    "These are far in front, below the third ventricle.",
+    "These are far lateral, beyond the lentiform nucleus."
    ],
    "slides": [
     {
@@ -34671,16 +34671,16 @@ SINA.lectures["anat3-diencephalon"] = {
    "q": "What forms the posterior boundary of the subthalamus?",
    "options": [
     "The red nucleus and substantia nigra",
-    "The internal capsule",
-    "The hypothalamus",
-    "The third ventricle"
+    "The posterior limb of the internal capsule",
+    "The hypothalamus and the mammillary bodies",
+    "The cavity of the third ventricle"
    ],
    "answer": 0,
    "why": "Subthalamus boundaries: hypothalamus medially, internal capsule laterally, red nucleus and substantia nigra posteriorly.",
    "notes": [
     "Posterior boundary.",
-    "Lateral boundary.",
-    "Medial boundary.",
+    "The internal capsule is the lateral boundary.",
+    "The hypothalamus is the medial boundary.",
     "Not a boundary of the subthalamus."
    ],
    "slides": [
@@ -34722,7 +34722,7 @@ SINA.lectures["anat3-diencephalon"] = {
   {
    "q": "How does the subthalamic nucleus normally act on movement?",
    "options": [
-    "It excites the internal globus pallidus, which inhibits the thalamus and movement",
+    "It excites the internal globus pallidus",
     "It directly excites the motor cortex",
     "It releases dopamine into the striatum",
     "It inhibits the internal globus pallidus"
@@ -34730,7 +34730,7 @@ SINA.lectures["anat3-diencephalon"] = {
    "answer": 0,
    "why": "Glutamatergic STN neurons increase activity of the GABAergic internal pallidus, which reduces thalamic activity and inhibits movement.",
    "notes": [
-    "This is the circuit; losing it releases movement (hemiballismus).",
+    "The excited internal pallidus inhibits the thalamus and movement; losing this releases movement (hemiballismus).",
     "It does not project to the cortex directly.",
     "Dopamine comes from the substantia nigra.",
     "It excites, not inhibits, the internal pallidus."
@@ -34747,17 +34747,17 @@ SINA.lectures["anat3-diencephalon"] = {
    "q": "What forms the posterior wall of the interventricular foramen of Monro?",
    "options": [
     "The anterior pole of the thalamus",
-    "The pulvinar",
-    "The pineal gland",
-    "The mammillary bodies"
+    "The pulvinar of the thalamus",
+    "The column of the fornix",
+    "The head of the caudate nucleus"
    ],
    "answer": 0,
    "why": "The anterior pole of the thalamus forms the posterior wall of the foramen of Monro.",
    "notes": [
     "The narrow front end of the thalamus.",
-    "The pulvinar is the back end.",
-    "The pineal is at the back of the third ventricle.",
-    "The mammillary bodies are on the floor."
+    "The pulvinar is the back end of the thalamus.",
+    "The fornix forms the anterior wall.",
+    "The caudate head forms the lateral wall of the frontal horn."
    ],
    "slides": [
     {
@@ -35892,7 +35892,7 @@ SINA.lectures["anat3-descending-tracts"] = {
    "options": [
     "The distal limb muscles",
     "The face",
-    "The axial (trunk) muscles",
+    "The axial muscles",
     "The extraocular muscles"
    ],
    "answer": 2,
@@ -37466,10 +37466,10 @@ SINA.lectures["anat3-pns"] = {
   {
    "q": "Which plexuses make up the enteric nervous system? (choose all)",
    "options": [
-    "Myenteric (Auerbach's)",
-    "Submucosal (Meissner's)",
-    "Brachial",
-    "Cervical"
+    "Myenteric plexus",
+    "Submucosal plexus",
+    "Brachial plexus",
+    "Cervical plexus"
    ],
    "answers": [
     0,
@@ -39027,9 +39027,9 @@ SINA.lectures["anat3-ventricles"] = {
   {
    "q": "What is hydrocephalus?",
    "options": [
-    "Abnormal enlargement of the ventricles from disturbed CSF dynamics",
+    "Enlarged ventricles from disturbed CSF dynamics",
     "Bleeding into the subarachnoid space",
-    "Infection of the meninges",
+    "Infection and inflammation of the meninges",
     "A tumour of the choroid plexus only"
    ],
    "answer": 0,
@@ -39099,15 +39099,15 @@ SINA.lectures["anat3-ventricles"] = {
   {
    "q": "Why is a lumbar puncture done below the second lumbar vertebra in adults?",
    "options": [
-    "The spinal cord ends around L1-L2, so the needle meets only nerve roots and CSF",
+    "The spinal cord ends around L1-L2",
     "CSF is only found below L2",
-    "The meninges end at L2",
-    "The bone is softer there"
+    "The dura and arachnoid end at L2",
+    "The vertebral laminae are softer there"
    ],
    "answer": 0,
    "why": "The cord ends around L1-L2 but the lumbar subarachnoid space extends below it, so puncture is done at L3-L4 or L4-L5.",
    "notes": [
-    "This avoids injuring the cord.",
+    "Below L2 the needle meets only nerve roots and CSF, so the cord is not injured.",
     "CSF surrounds the whole cord.",
     "The dural sac continues to about S2.",
     "Not the reason."
@@ -39195,18 +39195,18 @@ SINA.lectures["anat3-ventricles"] = {
   {
    "q": "What forms the medial wall of the occipital horn?",
    "options": [
-    "The bulb of the corpus callosum and the calcar avis",
-    "The tapetum",
-    "The septum pellucidum",
-    "The head of the caudate nucleus"
+    "The bulb of the corpus callosum and calcar avis",
+    "The tapetum of the corpus callosum",
+    "The septum pellucidum and the fornix",
+    "The head and body of the caudate nucleus"
    ],
    "answer": 0,
    "why": "The bulb of the corpus callosum and the calcar avis form its medial wall; the tapetum forms its roof and lateral wall.",
    "notes": [
     "Medial wall.",
     "Roof and lateral wall.",
-    "Medial wall of the frontal horn.",
-    "Lateral wall of the frontal horn."
+    "The septum pellucidum forms the medial wall of the frontal horn.",
+    "The caudate forms the lateral wall of the frontal horn and body."
    ],
    "slides": [
     {
@@ -39243,9 +39243,9 @@ SINA.lectures["anat3-ventricles"] = {
   {
    "q": "Besides arachnoid granulations, what else contributes to CSF clearance?",
    "options": [
-    "Meningeal lymphatic vessels and perivascular pathways",
-    "The choroid plexus",
-    "The cerebral aqueduct",
+    "Meningeal lymphatics and perivascular routes",
+    "The choroid plexus of the lateral ventricles",
+    "The cerebral aqueduct of Sylvius",
     "The optic nerve sheath only"
    ],
    "answer": 0,
@@ -40184,7 +40184,7 @@ SINA.lectures["anat3-cerebellum"] = {
   {
    "q": "What is the main role of the cerebellum?",
    "options": [
-    "Automatic regulation of movement: tone, balance and coordination",
+    "Automatic regulation of movement",
     "Starting voluntary movements",
     "Relaying all sensations to the cortex",
     "Producing cerebrospinal fluid"
@@ -40192,7 +40192,7 @@ SINA.lectures["anat3-cerebellum"] = {
    "answer": 0,
    "why": "The cerebellum regulates motor activity automatically: muscle tone, balance and coordination of voluntary movements.",
    "notes": [
-    "It corrects and coordinates movement.",
+    "It regulates tone, balance and coordination automatically.",
     "The motor cortex starts voluntary movements.",
     "The thalamus relays sensation.",
     "The choroid plexus makes CSF."
@@ -40208,7 +40208,7 @@ SINA.lectures["anat3-cerebellum"] = {
   {
    "q": "What does the vermis mainly control?",
    "options": [
-    "Axial muscles, posture and gait",
+    "Trunk posture and gait",
     "Fine finger movements",
     "Vision",
     "Speech comprehension"
@@ -40216,7 +40216,7 @@ SINA.lectures["anat3-cerebellum"] = {
    "answer": 0,
    "why": "The vermis controls axial muscles, posture and gait; the hemispheres coordinate limb movements.",
    "notes": [
-    "The midline controls the trunk and gait.",
+    "The midline controls the axial muscles, posture and gait.",
     "Fine limb movement depends on the hemispheres.",
     "Vision is the occipital lobe.",
     "Comprehension is Wernicke's area."
@@ -40232,9 +40232,9 @@ SINA.lectures["anat3-cerebellum"] = {
   {
    "q": "How many cerebellar peduncles connect each side of the cerebellum to the brainstem?",
    "options": [
-    "Three: superior, middle and inferior",
+    "Three",
     "One",
-    "Two: anterior and posterior",
+    "Two",
     "Four"
    ],
    "answer": 0,
@@ -40548,7 +40548,7 @@ SINA.lectures["anat3-cerebellum"] = {
   {
    "q": "A patient walks with an unsteady, staggering gait and keeps losing balance, but limb coordination is normal when lying down. Which part is most likely damaged?",
    "options": [
-    "Flocculonodular lobe (vestibulocerebellum)",
+    "Flocculonodular lobe",
     "Lateral hemisphere",
     "Dentate nucleus",
     "Middle cerebellar peduncle"
@@ -40556,7 +40556,7 @@ SINA.lectures["anat3-cerebellum"] = {
    "answer": 0,
    "why": "Damage to the flocculonodular lobe causes loss of equilibrium with an altered walking gait.",
    "notes": [
-    "Loss of equilibrium points to the vestibulocerebellum.",
+    "Loss of equilibrium points to the flocculonodular lobe (vestibulocerebellum).",
     "Lateral damage disturbs skilled limb movements.",
     "The dentate serves the lateral hemisphere.",
     "Peduncle lesions are not the classic cause here."
@@ -40596,15 +40596,15 @@ SINA.lectures["anat3-cerebellum"] = {
   {
    "q": "What are the cerebellar tonsils?",
    "options": [
-    "Rounded parts of the medial inferior hemispheres beside the inferior vermis",
+    "Rounded parts of the inferior hemispheres",
     "Lymphoid tissue in the pharynx",
-    "Deep cerebellar nuclei",
-    "Swellings on the superior surface"
+    "Deep nuclei inside the cerebellar white matter",
+    "Swellings on the superior cerebellar surface"
    ],
    "answer": 0,
    "why": "The tonsils are rounded portions of the medial inferior cerebellar hemispheres, on either side of the inferior vermis.",
    "notes": [
-    "They sit just above the foramen magnum.",
+    "Rounded parts of the medial inferior hemispheres beside the inferior vermis, just above the foramen magnum.",
     "Those are the palatine tonsils.",
     "The deep nuclei are inside the white matter.",
     "They are on the inferior surface."
@@ -40693,9 +40693,9 @@ SINA.lectures["anat3-cerebellum"] = {
    "q": "Where do climbing fibres come from?",
    "options": [
     "From the contralateral inferior olivary nucleus",
-    "From the pontine nuclei",
-    "From the spinal cord",
-    "From the vestibular nuclei"
+    "From the contralateral pontine nuclei",
+    "From the spinal cord via spinocerebellar tracts",
+    "From the ipsilateral vestibular nuclei"
    ],
    "answer": 0,
    "why": "Climbing fibres arise exclusively from the contralateral inferior olive; each makes hundreds of excitatory synapses on one Purkinje cell.",
@@ -40716,7 +40716,7 @@ SINA.lectures["anat3-cerebellum"] = {
   {
    "q": "Where do mossy fibres end?",
    "options": [
-    "On granule cells in the granular layer, in glomeruli",
+    "On granule cells in glomeruli",
     "Directly on Purkinje cell dendrites",
     "In the deep nuclei only",
     "In the molecular layer on basket cells"
@@ -40812,7 +40812,7 @@ SINA.lectures["anat3-cerebellum"] = {
   {
    "q": "Which fibres does the middle cerebellar peduncle carry?",
    "options": [
-    "Pontocerebellar fibres from the contralateral pontine nuclei",
+    "Pontocerebellar fibres",
     "Spinocerebellar fibres",
     "Output to the red nucleus",
     "Climbing fibres from the olive"
@@ -40861,16 +40861,16 @@ SINA.lectures["anat3-cerebellum"] = {
    "q": "Into which sinuses do the cerebellar veins drain?",
    "options": [
     "Superior petrosal, transverse and straight sinuses",
-    "Cavernous sinus only",
-    "Superior sagittal sinus only",
-    "Internal jugular vein directly"
+    "Cavernous, sphenoparietal and intercavernous sinuses",
+    "Superior and inferior sagittal sinuses",
+    "Directly into the internal jugular vein"
    ],
    "answer": 0,
    "why": "The superior and inferior cerebellar veins drain into the superior petrosal, transverse and straight sinuses.",
    "notes": [
     "These three sinuses.",
-    "Not the cavernous sinus.",
-    "Not the superior sagittal sinus.",
+    "Not the cavernous, sphenoparietal or intercavernous sinuses.",
+    "Not the sagittal sinuses.",
     "They drain via the sinuses first."
    ],
    "slides": [
@@ -40912,8 +40912,8 @@ SINA.lectures["anat3-cerebellum"] = {
    "q": "Which parts form the spinocerebellum?",
    "options": [
     "The vermis and the intermediate zones",
-    "The lateral hemispheres",
-    "The flocculonodular lobe",
+    "The lateral hemispheres and dentate nuclei",
+    "The flocculus and the nodule",
     "The dentate nuclei"
    ],
    "answer": 0,
@@ -40998,7 +40998,7 @@ SINA.lectures["anat3-cerebellum"] = {
   {
    "q": "Which structure is highlighted in orange?",
    "options": [
-    "Flocculus",
+    "Anterior lobe of the cerebellar hemisphere",
     "Vermis",
     "Superior cerebellar peduncle",
     "Posterior lobe of the cerebellar hemisphere"
@@ -41006,7 +41006,7 @@ SINA.lectures["anat3-cerebellum"] = {
    "answer": 3,
    "why": "Posterior lobe of the cerebellar hemisphere: the large part of the cerebellar hemisphere behind the primary fissure.",
    "notes": [
-    "Flocculus is the small lobule beside the middle cerebellar peduncle, part of the flocculonodular lobe.",
+    "Anterior lobe of the cerebellar hemisphere is the smaller part in front of the primary fissure.",
     "Vermis is the midline part of the cerebellum joining the two hemispheres.",
     "Superior cerebellar peduncle is the bundle joining the cerebellum to the midbrain; the main cerebellar output.",
     "The large part of the cerebellar hemisphere behind the primary fissure."
@@ -42372,9 +42372,9 @@ SINA.lectures["anat3-neuro-intro"] = {
    "q": "What does the diencephalon give rise to?",
    "options": [
     "Thalamus, hypothalamus and epithalamus",
-    "Cerebral hemispheres",
-    "Pons and cerebellum",
-    "Medulla oblongata"
+    "Cerebral hemispheres and basal ganglia",
+    "Pons, cerebellum and fourth ventricle",
+    "Midbrain and cerebral aqueduct"
    ],
    "answer": 0,
    "why": "The diencephalon becomes the thalamus, hypothalamus and epithalamus, around the third ventricle.",
@@ -42382,7 +42382,7 @@ SINA.lectures["anat3-neuro-intro"] = {
     "Diencephalic derivatives.",
     "From the telencephalon.",
     "From the metencephalon.",
-    "From the myelencephalon."
+    "From the mesencephalon."
    ],
    "slides": [
     {

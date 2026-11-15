@@ -3292,10 +3292,10 @@ SINA.papers = [
    {
     "q": "Where is Wernicke's area?",
     "options": [
-     "Occipital pole",
-     "Inferior frontal gyrus",
+     "Medial occipital lobe",
+     "Posterior inferior frontal gyrus",
      "Posterior superior temporal lobe",
-     "Postcentral gyrus"
+     "Postcentral gyrus of the parietal lobe"
     ],
     "answer": 2,
     "why": "It is linked to Broca's area by a neural pathway.",
@@ -3340,10 +3340,10 @@ SINA.papers = [
    {
     "q": "What forms the posterior wall of the foramen of Monro?",
     "options": [
-     "The caudate head",
+     "The head of the caudate nucleus",
      "The anterior pole of the thalamus",
-     "The fornix",
-     "The pulvinar"
+     "The column of the fornix",
+     "The pulvinar of the thalamus"
     ],
     "answer": 1,
     "why": "The fornix forms its anterior wall.",
@@ -3461,7 +3461,7 @@ SINA.papers = [
     "q": "Where does the abducens nerve (VI) emerge?",
     "options": [
      "Cerebellopontine angle",
-     "Pontomedullary junction, close to the midline",
+     "Pontomedullary junction",
      "Dorsal midbrain",
      "Lateral mid pons"
     ],
@@ -3469,7 +3469,7 @@ SINA.papers = [
     "why": "V: lateral pons. VII and VIII: cerebellopontine angle.",
     "notes": [
      "VII and VIII.",
-     "",
+     "At the pontomedullary junction, close to the midline.",
      "IV.",
      "Trigeminal."
     ],
@@ -3556,9 +3556,9 @@ SINA.papers = [
    {
     "q": "Where do climbing fibres come from?",
     "options": [
-     "Spinal cord",
-     "Pontine nuclei",
-     "Vestibular nuclei",
+     "Spinal cord via spinocerebellar tracts",
+     "Contralateral pontine nuclei",
+     "Ipsilateral vestibular nuclei",
      "Contralateral inferior olivary nucleus"
     ],
     "answer": 3,
@@ -3740,17 +3740,17 @@ SINA.papers = [
    {
     "q": "What protects the central nervous system?",
     "options": [
-     "The peripheral nerves",
+     "The peripheral nerves and ganglia",
      "Bone, meninges and cerebrospinal fluid",
      "Skin and fat only",
-     "Muscles only"
+     "Muscles and fascia only"
     ],
     "answer": 1,
     "why": "Skull and spine, reinforced by the meninges and cushioned by CSF.",
     "notes": [
      "Nerves do not protect it.",
      "",
-     "T the main protection.",
+     "Not the main protection.",
      "Muscles are not the protection described."
     ],
     "slides": [
@@ -4076,17 +4076,17 @@ SINA.papers = [
    {
     "q": "What forms the facial colliculus?",
     "options": [
-     "The superior colliculus",
-     "The trochlear nucleus",
-     "The olive",
-     "Facial nerve fibres looping around the abducens nucleus"
+     "The superior colliculus of the midbrain",
+     "The trochlear nerve crossing the midline",
+     "The hypoglossal nucleus in the medulla",
+     "Facial fibres looping around the abducens nucleus"
     ],
     "answer": 3,
     "why": "A bulge in the floor of the fourth ventricle.",
     "notes": [
      "Midbrain tectum.",
-     "",
-     "Medulla.",
+     "The trochlear nerve emerges from the back of the midbrain.",
+     "That forms the hypoglossal trigone in the medulla.",
      ""
     ],
     "slides": [
@@ -4101,9 +4101,9 @@ SINA.papers = [
     "q": "What is a function of the reticular formation?",
     "options": [
      "Hormone secretion",
-     "Fine touch",
+     "Fine touch discrimination",
      "Arousal and consciousness",
-     "Vision"
+     "Visual processing"
     ],
     "answer": 2,
     "why": "Also sleep-wake cycles, cardiovascular and respiratory control, pain modulation.",
@@ -4124,16 +4124,16 @@ SINA.papers = [
    {
     "q": "What is the main role of the cerebellum?",
     "options": [
-     "Producing CSF",
-     "Automatic regulation of tone, balance and coordination",
-     "Relaying sensation",
+     "Producing cerebrospinal fluid",
+     "Automatic regulation of movement",
+     "Relaying sensation to the cortex",
      "Starting voluntary movement"
     ],
     "answer": 1,
     "why": "It adjusts movement automatically.",
     "notes": [
      "Choroid plexus.",
-     "",
+     "Tone, balance and coordination.",
      "Thalamus.",
      "Motor cortex."
     ],
@@ -4148,10 +4148,10 @@ SINA.papers = [
    {
     "q": "What is the arbor vitae?",
     "options": [
-     "The cerebellar cortex",
-     "A vein",
-     "A deep nucleus",
-     "Branching white matter of the cerebellum"
+     "The grey cortex of the cerebellum",
+     "A large vein of the cerebellum",
+     "A deep nucleus of the cerebellum",
+     "Branching cerebellar white matter"
     ],
     "answer": 3,
     "why": "A tree-like pattern on section.",
@@ -4316,9 +4316,9 @@ SINA.papers = [
    {
     "q": "The superior cerebellar peduncle is mainly:",
     "options": [
-     "An input from the spinal cord only",
+     "An input from the spinal cord",
      "A connection to the occipital lobe",
-     "An output pathway to the red nucleus and thalamus",
+     "The main output pathway",
      "The main input from the pons"
     ],
     "answer": 2,
@@ -4326,7 +4326,7 @@ SINA.papers = [
     "notes": [
      "Inferior peduncle.",
      "",
-     "",
+     "To the red nucleus and thalamus.",
      "Middle peduncle."
     ],
     "slides": [
@@ -4644,7 +4644,7 @@ SINA.papers = [
    {
     "q": "On which bone does the brainstem lie?",
     "options": [
-     "Basilar part of the occipital bone (clivus)",
+     "Basilar part of the occipital bone",
      "Squamous occipital bone",
      "Body of the sphenoid only",
      "Petrous temporal bone"
@@ -4652,7 +4652,7 @@ SINA.papers = [
     "answer": 0,
     "why": "Posterior fossa, under the tentorium.",
     "notes": [
-     "",
+     "The clivus.",
      "Behind the cerebellum.",
      "Holds the pituitary.",
      "Holds the ear."
@@ -4812,10 +4812,10 @@ SINA.papers = [
    {
     "q": "Why does the adult spinal cord end above the end of the vertebral canal?",
     "options": [
-     "The cord shrinks with age",
-     "The vertebral column keeps growing after the cord stops",
-     "The cauda equina pulls it up",
-     "The cord is cut at birth"
+     "The cord shrinks and retracts with age",
+     "The column grows longer than the cord",
+     "The cauda equina pulls it upwards",
+     "The cord's lower end degenerates at birth"
     ],
     "answer": 1,
     "why": "Cord growth ends at about 4 years, the column at 14 to 18.",
@@ -4860,10 +4860,10 @@ SINA.papers = [
    {
     "q": "What is the denticulate ligament?",
     "options": [
-     "The end of the cord",
-     "Lateral extensions of the pia attaching to the dura",
+     "The tapered lower end of the cord",
+     "Lateral pial extensions to the dura",
      "A ligament of the vertebral bodies",
-     "A fold of dura"
+     "A fold of dura between the roots"
     ],
     "answer": 1,
     "why": "It anchors the cord laterally between the roots.",
@@ -5092,7 +5092,7 @@ SINA.papers = [
    {
     "q": "Where is the internal capsule?",
     "options": [
-     "Between the thalamus and caudate medially and the lentiform nucleus laterally",
+     "Between the thalamus and the lentiform nucleus",
      "Above the corpus callosum",
      "Outside the claustrum",
      "Between the lentiform nucleus and the claustrum"
@@ -5100,7 +5100,7 @@ SINA.papers = [
     "answer": 0,
     "why": "External capsule: lentiform to claustrum. Extreme capsule: outside the claustrum.",
     "notes": [
-     "",
+     "Thalamus and caudate medially, lentiform nucleus laterally.",
      "Centrum semiovale.",
      "Extreme capsule.",
      "External capsule."
@@ -5476,7 +5476,7 @@ SINA.papers = [
    {
     "q": "Which arteries give the radicular branches to the spinal nerve roots?",
     "options": [
-     "Segmental arteries (cervical, posterior intercostal)",
+     "Segmental arteries",
      "The external carotid",
      "The basilar artery",
      "The anterior cerebral artery"
@@ -5484,7 +5484,7 @@ SINA.papers = [
     "answer": 0,
     "why": "31 pairs of radicular branches; the vertebral artery gives the spinal arteries.",
     "notes": [
-     "",
+     "Cervical and posterior intercostal segmental arteries.",
      "",
      "",
      ""
@@ -5548,15 +5548,15 @@ SINA.papers = [
    {
     "q": "What is the cauda equina?",
     "options": [
-     "Lumbar, sacral and coccygeal roots below the conus medullaris",
+     "Nerve roots below the conus medullaris",
      "The tapered end of the cord",
      "A fibrous thread anchoring the cord",
-     "The lumbar enlargement"
+     "The lumbar enlargement of the cord"
     ],
     "answer": 0,
     "why": "It lies in the lumbar cistern and looks like a horse's tail.",
     "notes": [
-     "",
+     "Lumbar, sacral and coccygeal roots.",
      "Conus medullaris.",
      "Filum terminale.",
      "L1–S3 segments."
@@ -5684,10 +5684,10 @@ SINA.papers = [
    {
     "q": "What is the uncus?",
     "options": [
-     "The hooked anterior end of the parahippocampal gyrus",
-     "A deep cerebellar nucleus",
-     "The posterior end of the fornix",
-     "A part of the corpus callosum"
+     "The hooked front end of the parahippocampal gyrus",
+     "A deep nucleus of the cerebellum",
+     "The posterior end of the hippocampal fornix",
+     "The thickened back end of the corpus callosum"
     ],
     "answer": 0,
     "why": "The 5th temporal gyrus curves into a hook: the uncus.",
@@ -5695,7 +5695,7 @@ SINA.papers = [
      "",
      "",
      "",
-     ""
+     "That is the splenium."
     ],
     "slides": [
      {
@@ -5708,17 +5708,17 @@ SINA.papers = [
    {
     "q": "What is the centrum semiovale?",
     "options": [
-     "A deep nucleus",
+     "A deep grey nucleus of the cerebrum",
      "A part of the third ventricle",
-     "White matter above the lateral ventricles and corpus callosum",
-     "Grey matter of the cortex"
+     "White matter above the corpus callosum",
+     "The grey matter of the cerebral cortex"
     ],
     "answer": 2,
     "why": "A paired mass of white matter under the cortex.",
     "notes": [
      "",
      "",
-     "",
+     "Above the lateral ventricles and corpus callosum.",
      ""
     ],
     "slides": [
@@ -5853,7 +5853,7 @@ SINA.papers = [
     "q": "The subthalamic nucleus is a target of:",
     "options": [
      "Transsphenoidal surgery",
-     "Deep brain stimulation in Parkinson's disease",
+     "Deep brain stimulation",
      "Lumbar puncture",
      "Ventriculoperitoneal shunting"
     ],
@@ -5861,7 +5861,7 @@ SINA.papers = [
     "why": "Its neurons are glutamatergic, projecting to the internal globus pallidus.",
     "notes": [
      "Pituitary.",
-     "",
+     "In Parkinson's disease.",
      "Spinal subarachnoid space.",
      "Hydrocephalus."
     ],
@@ -5948,10 +5948,10 @@ SINA.papers = [
    {
     "q": "An alternating syndrome is:",
     "options": [
-     "Loss of balance on one side",
-     "A cranial nerve palsy on one side with hemiplegia on the other",
+     "Loss of balance and coordination on one side",
+     "A cranial nerve palsy with opposite hemiplegia",
      "Loss of vision in both temporal fields",
-     "Weakness of both legs"
+     "Weakness of both legs with sensory loss"
     ],
     "answer": 1,
     "why": "It locates the level of a brainstem lesion.",
