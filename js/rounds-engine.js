@@ -158,7 +158,8 @@
         if (s.type === "order") s.items.forEach(function (it, k) { var on = (d.picked || []).indexOf(k) > -1; if (!on && it.v === "key") miss.push("Not ordered: " + it.name + " (" + it.why + ")"); if (on && it.v === "low") miss.push("Low yield: " + it.name + ". " + it.why); }); });
       if (miss.length) h += "<h3>What you missed</h3><ul>" + miss.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>";
       var beyond = [], lecs = {}, lorder = [];
-      st.path.forEach(function (p) { var s = stepAt(p); if (s.beyond) beyond.push(s.beyond); (s.src || []).forEach(function (x) { if (!lecs[x.lec]) { lecs[x.lec] = 1; lorder.push(x.lec); } }); });
+      st.path.forEach(function (p) { var s = stepAt(p); (s.src || []).forEach(function (x) { if (!lecs[x.lec]) { lecs[x.lec] = 1; lorder.push(x.lec); } }); });
+      c.steps.concat.apply(c.steps, Object.keys(c.branches || {}).map(function (b) { return c.branches[b]; })).forEach(function (s) { if (s.beyond && beyond.indexOf(s.beyond) < 0) beyond.push(s.beyond); });   /* every beyond-the-course point in the case, even on a path not taken */
       if (lorder.length) h += "<h3>Lectures behind this case</h3><ul>" + lorder.map(function (l) { var x = o.lec(l); return x ? "<li>" + (x.href ? '<a href="' + esc(x.href) + '"' + (x.ext ? ' target="_blank" rel="noopener"' : "") + ">" + esc(x.title) + "</a>" : esc(x.title)) + "</li>" : ""; }).join("") + "</ul>";
       if (beyond.length) h += '<h3>Beyond the course</h3><p class="rv-meta">Not taught on Sina yet; checked against standard references.</p><ul>' + beyond.map(function (x) { return '<li><span class="rv-tag">Beyond the course</span> ' + esc(x) + "</li>"; }).join("") + "</ul>";
       if (db.takeaways) h += "<h3>Exam takeaways</h3><ul>" + db.takeaways.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>";
