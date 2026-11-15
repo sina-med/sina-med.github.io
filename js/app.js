@@ -1278,7 +1278,6 @@
     var ms = progMidterms();
     var html = '<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / Upcoming midterm lectures</p><h1>Upcoming midterm lectures</h1>';
     if (!ms.length) html += "<p>No midterm is listed for this year yet.</p>";
-    else html += '<div class="note">Questions on Sina cover each <strong>whole lecture</strong>, not only the parts announced for the midterm, so you are ready if the scope changes or something unexpected comes up.</div>';
     ms.forEach(function (m) {
       var sb = subjectById(m.subject), n = 0;
       m.groups.forEach(function (g) { n += g.items.length; });
@@ -1286,7 +1285,7 @@
       m.groups.forEach(function (g) {
         var tb = m.tbc || (m.part && g.tbc), nt = m.notes || {};
         html += '<h3 class="mid-group">' + esc(g.name) + '</h3>' + (m.part && g.tbc ? '<p class="meta">Exact lectures not announced yet: for now, the whole chapter.</p>' : "") + '<ul class="lec-list">' + g.items.map(function (id) {
-          var note = nt[id] ? '<span class="mid-note">Only: ' + esc(nt[id]) + "</span>" : !tb && m.part ? '<span class="mid-note">Whole lecture</span>' : "";
+          var note = nt[id] ? '<span class="mid-note">Only: ' + esc(nt[id]) + "</span>" : "";
           return S.lectures[id]
             ? '<li><a href="#/lecture/' + id + '"><span>' + esc(lectureTitle(id)) + note + '</span><span class="pill mid">' + (tb ? "Midterm scope" : "On the midterm") + "</span></a></li>"
             : '<li><span class="soon"><span>' + esc(lectureTitle(id)) + note + '</span><span class="pill muted">Coming</span></span></li>';
@@ -1362,7 +1361,7 @@
   /* midterm scope of lecture questions: SINA.midOff lists the questions of partly-examined lectures that are not on the midterm */
   function midLecs(s) { var m = subjectMid(s), o = {}; if (m) m.groups.forEach(function (g) { g.items.forEach(function (id) { o[id] = 1; }); }); return o; }
   var MOFF = null;
-  function qOffMid(lid, q) { if (!MOFF) { MOFF = {}; Object.keys(S.midOff || {}).forEach(function (l) { MOFF[l] = {}; S.midOff[l].forEach(function (k) { MOFF[l][k] = 1; }); }); } return !!(MOFF[lid] && MOFF[lid][qKey(q)]); }
+  function qOffMid(lid, q) { return false;  if (!MOFF) { MOFF = {}; Object.keys(S.midOff || {}).forEach(function (l) { MOFF[l] = {}; S.midOff[l].forEach(function (k) { MOFF[l][k] = 1; }); }); } return !!(MOFF[lid] && MOFF[lid][qKey(q)]); }
   function newCount(ids) { var a = store.get("sina:asked", {}), n = 0; ids.forEach(function (id) { (S.lectures[id].mcqs || []).forEach(function (q) { if (!a[qKey(q)]) n++; }); }); return n; }
   function pickFresh(pool, want) {
     /* not-asked first, oldest-asked next, and each chosen lecture gets its fair share of the quiz */
@@ -1383,7 +1382,7 @@
     var picked = arg === "midterm" && mid ? [].concat.apply([], mid.groups.map(function (g) { return g.items; }))
       : (arg && S.lectures[arg] ? [arg] : store.get(key, []));
     picked = picked.filter(function (id) { return S.lectures[id] && S.lectures[id].subject === s.id; });
-    var count = store.get("sina:qcount", "20"), ML = midLecs(s), midOnly = store.get("sina:midOnly", true);
+    var count = store.get("sina:qcount", "20"), ML = midLecs(s), midOnly = false;
     function hasMid(ids) { return ids.some(function (id) { return ML[id]; }); }
     var with3d = store.get("sina:m3dq", true), has3d = s.groups.some(function (g) { return g.items.some(function (it) { return S.lectures[it.id] && (S.lectures[it.id].mcqs || []).some(function (q) { return q.m3d; }); }); });
     function qsOf(id) { return (S.lectures[id].mcqs || []).filter(function (q) { return !(midOnly && ML[id] && qOffMid(id, q)) && !(q.m3d && !with3d); }); }
@@ -1392,10 +1391,8 @@
     function nQ(ids) { return uniq(ids).length; }
     function freshQ(ids) { var a = store.get("sina:asked", {}), n = 0; uniq(ids).forEach(function (q) { if (!a[qKey(q)]) n++; }); return n; }
     function picker() {
-      var h = resumeBanner(function (r) { return /^mix:/.test(r.id) && r.id.slice(4).split(":")[0].split("+").every(function (x) { return S.lectures[x] && S.lectures[x].subject === s.id; }); }) + '<p class="lede-s">Choose one or more lectures, then start. Questions from all the chosen lectures are mixed into one quiz.</p>' + (mid ? '<div class="scope-box"><p class="scope-h">Which questions?</p><div class="chips quick scope-chips" role="group" aria-label="Which questions"><button type="button" data-sc="mid" aria-pressed="' + midOnly + '"' + (midOnly ? ' class="on"' : "") + '>Midterm topics only</button><button type="button" data-sc="all" aria-pressed="' + !midOnly + '"' + (!midOnly ? ' class="on"' : "") + '>Whole lecture</button></div>' +
+      var h = resumeBanner(function (r) { return /^mix:/.test(r.id) && r.id.slice(4).split(":")[0].split("+").every(function (x) { return S.lectures[x] && S.lectures[x].subject === s.id; }); }) + (false ? '<div class="scope-box"><p class="scope-h">Which questions?</p><div class="chips quick scope-chips" role="group" aria-label="Which questions"><button type="button" data-sc="mid" aria-pressed="' + midOnly + '"' + (midOnly ? ' class="on"' : "") + '>Midterm topics only</button><button type="button" data-sc="all" aria-pressed="' + !midOnly + '"' + (!midOnly ? ' class="on"' : "") + '>Whole lecture</button></div>' +
           '<p class="scope-list">' + esc(mid.title) + ": " + (S.midNote && S.midNote[s.id] ? S.midNote[s.id] + "</p></div>" : [].concat.apply([], mid.groups.map(function (g) { return g.items; })).filter(function (id) { return S.midOff && S.midOff[id] || /semio-endo-thyroid/.test(id); }).map(function (id) { return "<strong>" + esc(lectureTitle(id) || S.lectures[id].title) + "</strong>: " + esc((mid.notes || {})[id] || "whole lecture"); }).join(" · ") + (mid.groups.length ? " · other lectures: whole lecture" : "") + "</p></div>") : "") +
-        '<p class="meta scope-note">Questions on Sina cover each <strong>whole lecture</strong>, not only the parts announced for the midterm, so you are ready if the scope changes or something unexpected comes up.</p>' +
-        (has3d ? '<label class="m3d-opt"><input type="checkbox" id="m3dq"' + (with3d ? " checked" : "") + '> Include 3D model questions</label>' : "") +
         '<div class="chips quick" role="group" aria-label="Quick choices"><button type="button" data-q="all">All lectures</button>' + (mid ? '<button type="button" data-q="mid">Midterm lectures</button>' : "") + '<button type="button" data-q="none">Clear</button></div>';
       s.groups.forEach(function (g, gi) {
         var its = g.items.filter(function (it) { return S.lectures[it.id]; });
@@ -1405,7 +1402,7 @@
         }).join("") + "</div>";
       });
       h += '<div class="start-bar"><label class="pick"><span>Questions</span><select id="qcount"></select></label><input id="qcustom" class="qcustom" type="number" inputmode="numeric" min="1" step="1" aria-label="Number of questions" hidden>' +
-        '<button class="btn primary" id="qstart" type="button">Start</button><button class="btn" id="qexam" type="button">Exam mode</button>' + (spotTasks(lecs.map(function (l) { return l.id || l; })).length ? '<button class="btn" id="qspot" type="button">Spotter: tap the structure</button>' : "") + '<span class="qsel" id="qsel"></span></div>';
+        '<button class="btn primary" id="qstart" type="button">Start</button><button class="btn" id="qexam" type="button">Exam mode</button>' + (spotTasks(lecs.map(function (l) { return l.id || l; })).length ? '<button class="btn" id="qspot" type="button">Spotter: tap the structure</button>' : "") + (casesOf(lecs.map(function (l) { return l.id || l; })).length ? '<button class="btn" id="qcase" type="button">Clinical cases</button>' : "") + '<span class="qsel" id="qsel" hidden></span></div>';
       p.innerHTML = h;
       var boxes = p.querySelectorAll(".lchk");
       function sync() {
@@ -1424,6 +1421,7 @@
         cu.max = n; cu.hidden = shown !== "custom"; if (isCustom) cu.value = count; else if (shown !== "custom") cu.value = "";
         p.querySelector("#qstart").disabled = !picked.length; p.querySelector("#qexam").disabled = !picked.length;
         var qs2 = p.querySelector("#qspot"); if (qs2) qs2.disabled = !spotTasks(picked).length;
+        var qc2 = p.querySelector("#qcase"); if (qc2) qc2.disabled = !casesOf(picked).length;
       }
       boxes.forEach(function (b) { b.addEventListener("change", sync); });
       var m3c = p.querySelector("#m3dq"); if (m3c) m3c.addEventListener("change", function () { with3d = m3c.checked; store.set("sina:m3dq", with3d); sync(); });
@@ -1458,7 +1456,19 @@
         p.querySelector("#qback").addEventListener("click", picker);
         spotterPanel(p.querySelector("#quiz"), picked, picker); window.scrollTo(0, 0);
       });
+      var qcs = p.querySelector("#qcase"); if (qcs) qcs.addEventListener("click", startCases);
       sync();
+    }
+    /* clinical cases: each patient's questions stay together, the patients come in a random order */
+    function startCases() {
+      store.set(key, picked);
+      var pool = [];
+      shuffle(casesOf(picked)).forEach(function (c) {
+        c.qs.forEach(function (q, j) { var d = shuffleQ(q); d.case = { id: c.id, title: c.title, stem: c.stem, img: c.img, n: j + 1, of: c.qs.length }; d._from = lectureTitle(c.lecs[0]); pool.push(d); });
+      });
+      p.innerHTML = '<div class="quiz-top"><button class="btn small-btn" id="qback" type="button">&larr; Change lectures</button><span class="meta">Clinical cases</span></div><div id="quiz"></div>';
+      p.querySelector("#qback").addEventListener("click", picker);
+      questionsPanel(p.querySelector("#quiz"), { id: "cases:" + picked.slice().sort().join("+"), mcqs: pool }); window.scrollTo(0, 0);
     }
     function start(exam) {
       store.set(key, picked);
@@ -1479,7 +1489,7 @@
       pool = pickFresh(pool, count === "all" ? pool.length : Math.max(1, +count || 20));
       var seenKey = "sina:seen:" + picked.slice().sort().join("+");
       pool = pool.map(shuffleQ); store.set(seenKey, true);   /* always mix the option order, so the right answer is not always in the same place */
-      p.innerHTML = '<div class="quiz-top"><button class="btn small-btn" id="qback" type="button">' + (picked.length === 1 ? "+ Add more lectures" : "&larr; Change lectures") + '</button><span class="meta"' + (picked.length > 1 ? ' title="' + esc(picked.map(lectureTitle).join(", ")) + '"' : "") + ">" + esc(picked.length === 1 ? lectureTitle(picked[0]) : picked.length + " lectures mixed") + '</span></div><div id="quiz"></div>';
+      p.innerHTML = '<div class="quiz-top"><button class="btn small-btn" id="qback" type="button">' + (picked.length === 1 ? "+ Add more lectures" : "&larr; Change lectures") + '</button><span class="meta"' + (picked.length > 1 ? ' title="' + esc(picked.map(lectureTitle).join(", ")) + '"' : "") + ">" + (picked.length === 1 ? esc(lectureTitle(picked[0])) : "") + '</span></div><div id="quiz"></div>';
       p.querySelector("#qback").addEventListener("click", function () { lecDialog(exam); });
       (function () {
         var qt = p.querySelector(".quiz-top"), total = 0, sel = document.createElement("select");
@@ -1493,15 +1503,15 @@
         sel.addEventListener("change", function () { count = sel.value; store.set("sina:qcount", count); start(exam); });
         qt.insertBefore(sel, qt.querySelector(".meta"));
       })();
-      if (hasMid(picked) && Object.keys(S.midOff || {}).some(function (l) { return picked.indexOf(l) > -1; })) {
-        var qt = p.querySelector(".quiz-top"), sb = document.createElement("button");
-        sb.className = "btn small-btn"; sb.type = "button"; sb.id = "qscope"; sb.textContent = midOnly ? "Show the whole lecture" : "Midterm topics only";
-        sb.title = midOnly ? "Now showing midterm topics only" : "Now showing the whole lecture";
-        sb.addEventListener("click", function () { midOnly = !midOnly; store.set("sina:midOnly", midOnly); start(exam); });
-        qt.insertBefore(sb, qt.querySelector(".meta"));
-        qt.querySelector(".meta").textContent += midOnly ? " · midterm topics" : " · whole lecture";
+      /* 3D model questions on or off, from inside the quiz */
+      if (picked.some(function (id) { return (S.lectures[id].mcqs || []).some(function (q) { return q.m3d; }); })) {
+        var qt3 = p.querySelector(".quiz-top"), tb = document.createElement("button");
+        tb.className = "btn small-btn m3d-tgl" + (with3d ? " on" : ""); tb.type = "button"; tb.setAttribute("aria-pressed", String(with3d));
+        tb.textContent = "3D questions: " + (with3d ? "on" : "off");
+        tb.addEventListener("click", function () { with3d = !with3d; store.set("sina:m3dq", with3d); start(exam); });
+        qt3.insertBefore(tb, qt3.querySelector(".meta"));
       }
-      var set = { id: "mix:" + picked.slice().sort().join("+") + ":" + count + (midOnly && hasMid(picked) ? ":mid" : ""), mcqs: pool };
+      var set = { id: "mix:" + picked.slice().sort().join("+") + ":" + count + (with3d ? "" : ":no3d"), mcqs: pool };
       if (exam) examIntro(p.querySelector("#quiz"), set, picker); else questionsPanel(p.querySelector("#quiz"), set);
       window.scrollTo(0, 0);
     }
@@ -2133,7 +2143,7 @@
       var pic = qph ? qph : (q.target && qfig)
         ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "q" + i }) + "</div>"
         : "";
-      p.innerHTML = qbarHTML(i, qs.length, marked, i + 1 < qs.length ? "Next" : "Finish", false, false) + '<p class="qhead">' + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + (q._off ? '<span class="qoff">Not on the midterm</span>' : "") + flameHTML(streak, false) + '</p>' + ecgProgress(done.filter(Boolean).length / qs.length) + '<p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
+      p.innerHTML = qbarHTML(i, qs.length, marked, i + 1 < qs.length ? "Next" : "Finish", false, false) + '<p class="qhead">' + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + (q._off ? '<span class="qoff">Not on the midterm</span>' : "") + flameHTML(streak, false) + '</p>' + ecgProgress(done.filter(Boolean).length / qs.length) + caseHTML(q) + '<p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
         q.options.map(function (o, n) { return '<button class="opt" data-n="' + n + '" aria-pressed="false"><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span></button>"; }).join("") + (multi ? '<button class="btn primary" id="chk" type="button">Check my answer</button>' : "") + '<div id="fb"></div>';
       centerTarget(p); m3dMount(p, q);
       var opts = p.querySelectorAll(".opt");
@@ -2325,7 +2335,7 @@
     var c = practiceCount(s), papers = (S.papers || []).filter(function (x) { return x.subject === s.id; });
     var secs = [["lectures", "By lecture"]]; if (papers.length) secs.push(["papers", "Past papers"]);
     if (!secs.some(function (x) { return x[0] === sec; })) sec = "lectures";
-    var html = '<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / <a href="#/practice">Practice questions</a> / ' + esc(s.name) + "</p><h1>" + esc(s.name) + '</h1><p class="meta">' + c.lec + " lecture questions" + (c.papers ? " and " + c.papers + " past paper" + (c.papers > 1 ? "s" : "") + " as quizzes" : "") + '. <a href="#/subject/' + s.id + '">Open the ' + esc(s.name) + " page</a></p>" +
+    var html = '<div class="wrap"><p class="crumbs"><a href="#/">Home</a> / <a href="#/practice">Practice questions</a> / ' + esc(s.name) + "</p><h1>" + esc(s.name) + '</h1><p class="meta"><a href="#/subject/' + s.id + '">Open the ' + esc(s.name) + " page</a></p>" +
       '<nav class="tabs sticky" aria-label="Practice sections">' + secs.map(function (t) {
         return '<a class="tab" href="#/practice/' + s.id + "/" + t[0] + '" aria-selected="' + (t[0] === sec) + '"' + (t[0] === sec ? ' aria-current="page"' : "") + ">" + t[1] + "</a>";
       }).join("") + '</nav><div id="panel"></div></div>';
@@ -2930,6 +2940,12 @@
   }
 
   /* a picture that belongs to the question itself (graph, table, screenshot from a paper) */
+  function casesOf(ids) { return (S.cases || []).filter(function (c) { return c.lecs.some(function (l) { return ids.indexOf(l) > -1; }); }); }
+  function caseHTML(q) {
+    var c = q.case; if (!c) return "";
+    return '<div class="case-box"><p class="case-h">' + esc(c.title) + '<span class="qn">Question ' + c.n + " of " + c.of + '</span></p><p class="case-stem">' + esc(c.stem) + "</p>" +
+      '<figure class="qimg case-img"><img src="' + esc(c.img || "files/cases/" + c.id + ".jpg") + '" alt="Picture for this case" loading="lazy" onerror="this.parentNode.remove()"><figcaption>Tap the picture to enlarge it.</figcaption></figure></div>';
+  }
   function qimgHTML(q) {
     return [].concat(q.img).map(function (src) { return '<figure class="qimg"><img src="' + esc(src) + '" alt="Picture for this question" loading="lazy"><figcaption>Tap the picture to enlarge it.</figcaption></figure>'; }).join("");
   }
