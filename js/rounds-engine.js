@@ -99,7 +99,7 @@
 
     /* ---- steps ---- */
     function stepHTML(p, live) {
-      var s = stepAt(p), d = D(s.id), h = '<section class="rv-step" data-sid="' + esc(s.id) + '"><p class="rv-at">' + esc(s.at) + (p[0] ? ' <span class="rv-branch">Your earlier decision</span>' : "") + "</p>";
+      var s = stepAt(p), d = D(s.id), h = '<section class="rv-step" data-sid="' + esc(s.id) + '"><p class="rv-at">' + esc(s.at) + (p[0] ? ' <span class="rv-branch">Result of your decision</span>' : "") + "</p>";
       if (s.text) h += '<p class="rv-text">' + esc(s.text) + "</p>";
       if (s.type === "event") {
         if (s.ifOrdered) { var od = ordered(), k = Object.keys(s.ifOrdered).filter(function (x) { return x !== "none"; })[0]; h += '<p class="rv-text">' + esc(od[k] ? s.ifOrdered[k] : s.ifOrdered.none) + "</p>"; }

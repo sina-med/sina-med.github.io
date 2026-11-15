@@ -1747,7 +1747,7 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .rv-v.bad b { color: inherit; }
 .rv-clock { margin-left: auto; }
 .rv-ddx { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 6px; font-size: 0.82rem; }
-.rv-ddx b { color: var(--muted); }
+.rv-ddx b { color: var(--muted); white-space: nowrap; }
 .rv-chip { padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--ink); }
 .rv-level { display: inline-block; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent); margin: 0 0 6px; }
 .rv-step { padding: 2px 0 var(--rv-gap); border-bottom: 1px solid var(--line); margin-bottom: var(--rv-gap); }
