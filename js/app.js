@@ -3634,7 +3634,8 @@
     return Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - Date.UTC(+s[0], s[1] - 1, +s[2])) / 864e5) + 1;
   }
   function rdOn() { return !!(S.rounds && S.rounds.cases.length && inProgram("semio-cv-intro") && rdDay() >= 1); }
-  function rdCase(n) { return S.rounds.cases[n - 1] || null; }
+  function rdCase(n) { var adv = (S.roundsAdv || []).filter(function (c) { return c.slot === n; })[0]; return adv || S.rounds.cases[n - 1] || null; }
+  function rdTotal(c) { return c.v === 2 ? 5 : c.steps.length; }
   function rdAll() { return store.get("sina:rounds", {}); }
   function rdPts(t) { return t === 0 ? 1 : t === 1 ? 0.5 : 0; }
   function rdStreak() {
@@ -3643,6 +3644,9 @@
     return s;
   }
   function rdSquares(st, html) {
+    return (st.sq || st.tries.map(function (t) { return t === 0 ? "g" : t === 1 ? "y" : "r"; })).map(function (c) { return html ? '<i class="rd-sq ' + c + '"></i>' : { g: "🟩", y: "🟨", r: "🟥" }[c]; }).join("");
+  }
+  function rdSquaresOld(st, html) {
     return st.tries.map(function (t) { var c = t === 0 ? "g" : t === 1 ? "y" : "r"; return html ? '<i class="rd-sq ' + c + '"></i>' : { g: "🟩", y: "🟨", r: "🟥" }[c]; }).join("");
   }
   function roundsView(arg) {
@@ -3653,6 +3657,7 @@
     if (!rdCase(n)) {   /* no new patient written for today yet: send them to the past ones */
       setView('<div class="wrap rounds"><p class="crumbs"><a href="#/">Home</a> / Rounds</p><h1>Rounds</h1><p>The next patient is on the way. Meanwhile, replay a past patient.</p><p><a class="btn" href="#/rounds/archive">Past patients</a></p></div>', "Rounds"); return;
     }
+    if (rdCase(n).v === 2 && window.SinaRounds) return roundsV2(n, rdCase(n), today);
     var c = rdCase(n), all = rdAll(), st = all[n] || { step: 0, tries: [], wrong: [], live: n === today, t0: Date.now() };
     function save() { var a = rdAll(); a[n] = st; store.set("sina:rounds", a); }
     var order = c.steps.map(function (s, i) {   /* the same option order every time this case is opened */
@@ -3728,11 +3733,60 @@
     }
     draw();
   }
+  /* Advanced cases (format 2): the case itself runs in js/rounds-engine.js; Sina keeps the daily, streak, sharing and leaderboard */
+  function roundsV2(n, c, today) {
+    var all = rdAll(), st = all[n] || { live: n === today, t0: Date.now() };
+    function save() { var a = rdAll(); a[n] = st; store.set("sina:rounds", a); }
+    var streak = rdStreak();
+    setView('<div class="wrap rounds"><p class="crumbs"><a href="#/">Home</a> / Rounds</p><h1>Rounds #' + n + '</h1><p class="meta">' +
+      (n === today ? "Today's patient" : "Past patient, not counted in the streak or leaderboard") + (streak ? " · " + streak + " day streak" : "") + ' · <a href="#/rounds/archive">Past patients</a></p><div id="rd" class="rv"></div></div>', "Rounds");
+    var box = document.getElementById("rd"), hd = document.querySelector(".site-header");
+    if (hd) box.style.setProperty("--rv-top", Math.round(hd.getBoundingClientRect().height) + "px");   /* vitals bar sits right under the sticky header */
+    function post(nick, then) {
+      nick = nick.replace(/[^\p{L}\p{N} ._-]/gu, "").trim().slice(0, 20); if (!nick || !S.api) return;
+      store.set("sina:nick", nick);
+      fetch(S.api, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ type: "score", nick: nick, device: lbDevice(), paper: "rounds-" + n, score: st.score, total: 5, secs: Math.max(st.secs || 0, 15) }) })
+        .then(function () { st.posted = nick; save(); sessionStorage.removeItem("sina:lb"); if (then) then(); });
+    }
+    function extras(x) {
+      if (!x) return;
+      var mid = new Date(); mid.setHours(24, 0, 0, 0); var left = mid - Date.now();
+      x.innerHTML = '<div class="row"><button class="btn primary" id="rd-share" type="button">Share my result</button></div><p class="src" id="rd-msg"></p>' +
+        (st.live && S.api ? (st.posted ? "" : '<div class="row rd-nick"><input id="rd-nick" maxlength="20" placeholder="Nickname for the leaderboard" value="' + esc(store.get("sina:nick", "")) + '"><button class="btn" id="rd-post" type="button">Post my score</button></div>') + '<div id="rd-lb"></div>' : "") +
+        (n === today ? '<p class="meta">Next patient in ' + Math.floor(left / 36e5) + " h " + Math.floor(left % 36e5 / 6e4) + " min.</p>" : "");
+      var msg = x.querySelector("#rd-msg");
+      x.querySelector("#rd-share").onclick = function () {
+        var t = "Sina Rounds #" + n + " " + fmtPts(st.score) + "/5\n" + rdSquares(st, false) + "\n" + location.origin + location.pathname + "#/rounds";
+        if (navigator.share) navigator.share({ text: t }).catch(function () {});
+        else navigator.clipboard.writeText(t).then(function () { msg.textContent = "Copied. Paste it in the group chat."; }, function () { msg.textContent = t; });
+      };
+      var pb = x.querySelector("#rd-post"); if (pb) pb.onclick = function () { pb.disabled = true; post(x.querySelector("#rd-nick").value, function () { extras(x); }); };
+      var lb = x.querySelector("#rd-lb"); if (lb) lbFetch(function (d) {
+        if (!d || !d.ok || !document.body.contains(lb)) return;
+        var tot = {}, me = (store.get("sina:nick", "") || "").toLowerCase();
+        Object.keys(d.papers || {}).forEach(function (p) { if (!/^rounds-\d+$/.test(p)) return; d.papers[p].forEach(function (r) { var k = String(r.nick).toLowerCase(), o = tot[k] = tot[k] || { nick: r.nick, s: 0, n: 0 }; o.s += +r.score; o.n++; }); });
+        if (st.posted && !tot[me]) tot[me] = { nick: st.posted, s: st.score, n: 1 };
+        var list = Object.keys(tot).map(function (k) { return tot[k]; }).sort(function (a, b) { return b.s - a.s; }).slice(0, 10);
+        if (list.length) lb.innerHTML = '<p class="rd-at">This week</p><ol class="rd-lb">' + list.map(function (r) { return '<li' + (String(r.nick).toLowerCase() === me ? ' class="me"' : "") + "><span>" + esc(r.nick) + "</span><span>" + fmtPts(r.s) + " pts · " + r.n + " day" + (r.n > 1 ? "s" : "") + "</span></li>"; }).join("") + "</ol>";
+      });
+    }
+    window.SinaRounds.play(box, c, {
+      seed: "rounds|" + n,
+      load: function () { return st.eng || null; },
+      save: function (e) { st.eng = e; save(); },
+      lec: function (id) { return S.lectures[id] ? { title: lectureTitle(id) || S.lectures[id].title, href: "#/lecture/" + id } : null; },
+      done: function (r) {
+        st.done = true; st.score = r.score; st.sq = r.squares; st.secs = Math.round((Date.now() - st.t0) / 1000); save();
+        if (st.live && !st.posted && store.get("sina:nick", "")) post(store.get("sina:nick", ""));
+      },
+      end: function (x) { extras(x); }
+    });
+  }
   function roundsArchive() {
     var today = rdDay(), a = rdAll(), h = "";
     for (var n = Math.min(today, S.rounds.cases.length); n >= 1; n--) {
       var st = a[n];
-      h += '<li><a href="#/rounds/' + n + '"><span>Rounds #' + n + (n === today ? " · today" : "") + "</span><span>" + (st && st.done ? fmtPts(st.score) + " / " + rdCase(n).steps.length : st ? "Started" : "Not played") + "</span></a></li>";
+      h += '<li><a href="#/rounds/' + n + '"><span>Rounds #' + n + (n === today ? " · today" : "") + "</span><span>" + (st && st.done ? fmtPts(st.score) + " / " + rdTotal(rdCase(n)) : st ? "Started" : "Not played") + "</span></a></li>";
     }
     setView('<div class="wrap rounds"><p class="crumbs"><a href="#/">Home</a> / <a href="#/rounds">Rounds</a> / Past patients</p><h1>Past patients</h1><ol class="rd-arch">' + h + "</ol></div>", "Past patients");
   }
