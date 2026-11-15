@@ -2453,7 +2453,7 @@
     };
     var t = function (href, k, title, sub, cls) { return '<a class="qtile' + (cls ? " " + cls : "") + '" href="' + href + '"><span class="qt-ico"><svg viewBox="0 0 24 24" aria-hidden="true">' + ico[k] + '</svg></span><span class="qt-t">' + title + '</span><span class="qt-s">' + sub + "</span></a>"; };
     var h = '<nav class="quick" aria-label="Quick access">';
-    if (rdOn()) { var rdS = rdAll()[rdDay()], rdNew = !!rdCase(rdDay()); h += t("#/rounds", "rd", rdNew ? "Rounds #" + rdDay() : "Rounds", !rdNew ? "Replay past patients" : rdS && rdS.done ? "Done today · " + fmtPts(rdS.score) + " / 5" : "Today's patient", rdNew && !(rdS && rdS.done) ? "qt-hot" : ""); }
+    if (rdOn()) { var rdS = rdAll()[rdDay()], rdNew = !!rdCase(rdDay()); h += t("#/rounds", "rd", rdNew ? "Wardle #" + rdDay() : "Wardle", !rdNew ? "Replay past patients" : rdS && rdS.done ? "Done today · " + fmtPts(rdS.score) + " / 5" : "Today's patient", rdNew && !(rdS && rdS.done) ? "qt-hot" : ""); }
     var rs = resumeInfo();
     if (rs) h += t("#/resume", "go", "Resume quiz", esc(rs.title) + " · " + rs.n + "/" + rs.qs.length, "qt-go");
     else if (last && last.h) h += t(last.h, "go", "Continue", esc(last.t), "qt-go");
@@ -3635,7 +3635,7 @@
   }
   function rdOn() { return !!(S.rounds && S.rounds.cases.length && inProgram("semio-cv-intro") && rdDay() >= 1); }
   function rdCase(n) { var adv = (S.roundsAdv || []).filter(function (c) { return c.slot === n; })[0]; return adv || S.rounds.cases[n - 1] || null; }
-  function rdTotal(c) { return c.v === 2 ? 5 : c.steps.length; }
+  function rdTotal(c) { return c.v >= 2 ? 5 : c.steps.length; }
   function rdAll() { return store.get("sina:rounds", {}); }
   function rdPts(t) { return t === 0 ? 1 : t === 1 ? 0.5 : 0; }
   function rdStreak() {
@@ -3655,9 +3655,9 @@
     var today = rdDay(), n = arg ? Math.floor(+arg) : today;
     if (!(n >= 1 && n <= today)) { location.replace("#/rounds"); return; }
     if (!rdCase(n)) {   /* no new patient written for today yet: send them to the past ones */
-      setView('<div class="wrap rounds"><p class="crumbs"><a href="#/">Home</a> / Rounds</p><h1>Rounds</h1><p>The next patient is on the way. Meanwhile, replay a past patient.</p><p><a class="btn" href="#/rounds/archive">Past patients</a></p></div>', "Rounds"); return;
+      setView('<div class="wrap rounds"><p class="crumbs"><a href="#/">Home</a> / Wardle</p><h1>Wardle</h1><p>The next patient is on the way. Meanwhile, replay a past patient.</p><p><a class="btn" href="#/rounds/archive">Past patients</a></p></div>', "Wardle"); return;
     }
-    if (rdCase(n).v === 2 && window.SinaRounds) return roundsV2(n, rdCase(n), today);
+    if (rdCase(n).v >= 2 && window.SinaRounds) return roundsV2(n, rdCase(n), today);
     var c = rdCase(n), all = rdAll(), st = all[n] || { step: 0, tries: [], wrong: [], live: n === today, t0: Date.now() };
     function save() { var a = rdAll(); a[n] = st; store.set("sina:rounds", a); }
     var order = c.steps.map(function (s, i) {   /* the same option order every time this case is opened */
@@ -3667,8 +3667,8 @@
     });
     var score = function () { return st.tries.reduce(function (a, t) { return a + rdPts(t); }, 0); };
     var streak = rdStreak();
-    setView('<div class="wrap rounds"><p class="crumbs"><a href="#/">Home</a> / Rounds</p><h1>Rounds #' + n + '</h1><p class="meta">' +
-      (n === today ? "Today's patient" : "Past patient, not counted in the streak or leaderboard") + (streak ? " · " + streak + " day streak" : "") + ' · <a href="#/rounds/archive">Past patients</a></p><div id="rd"></div></div>', "Rounds");
+    setView('<div class="wrap rounds"><p class="crumbs"><a href="#/">Home</a> / Wardle</p><h1>Wardle #' + n + '</h1><p class="meta">' +
+      (n === today ? "Today's patient" : "Past patient, not counted in the streak or leaderboard") + (streak ? " · " + streak + " day streak" : "") + ' · <a href="#/rounds/archive">Past patients</a></p><div id="rd"></div></div>', "Wardle");
     var box = document.getElementById("rd");
     function stepHTML(i) {
       var s = c.steps[i], done = i < st.step, wrong = st.wrong[i] || [];
@@ -3717,7 +3717,7 @@
       if (!st.done) return;
       var sh = box.querySelector("#rd-share"), msg = box.querySelector("#rd-msg");
       sh.onclick = function () {
-        var t = "Sina Rounds #" + n + " " + fmtPts(st.score) + "/" + c.steps.length + "\n" + rdSquares(st, false) + "\n" + location.origin + location.pathname + "#/rounds";
+        var t = "Wardle #" + n + " " + fmtPts(st.score) + "/" + c.steps.length + "\n" + rdSquares(st, false) + "\n" + location.origin + location.pathname + "#/rounds";
         if (navigator.share) navigator.share({ text: t }).catch(function () {});
         else navigator.clipboard.writeText(t).then(function () { msg.textContent = "Copied. Paste it in the group chat."; }, function () { msg.textContent = t; });
       };
@@ -3738,8 +3738,7 @@
     var all = rdAll(), st = all[n] || { live: n === today, t0: Date.now() };
     function save() { var a = rdAll(); a[n] = st; store.set("sina:rounds", a); }
     var streak = rdStreak();
-    setView('<div class="wrap rounds"><p class="crumbs"><a href="#/">Home</a> / Rounds</p><h1>Rounds #' + n + '</h1><p class="meta">' +
-      (n === today ? "Today's patient" : "Past patient, not counted in the streak or leaderboard") + (streak ? " · " + streak + " day streak" : "") + ' · <a href="#/rounds/archive">Past patients</a></p><div id="rd" class="rv"></div></div>', "Rounds");
+    setView('<div class="wrap rounds"><p class="crumbs"><a href="#/">Home</a> / Wardle · ' + (n === today ? "today's patient" : "past patient, not counted") + (streak ? " · " + streak + "-day streak" : "") + ' · <a href="#/rounds/archive">Past patients</a></p><div id="rd" class="rv"></div></div>', "Wardle");
     var box = document.getElementById("rd"), hd = document.querySelector(".site-header");
     if (hd) box.style.setProperty("--rv-top", Math.round(hd.getBoundingClientRect().height) + "px");   /* vitals bar sits right under the sticky header */
     function post(nick, then) {
@@ -3756,7 +3755,7 @@
         (n === today ? '<p class="meta">Next patient in ' + Math.floor(left / 36e5) + " h " + Math.floor(left % 36e5 / 6e4) + " min.</p>" : "");
       var msg = x.querySelector("#rd-msg");
       x.querySelector("#rd-share").onclick = function () {
-        var t = "Sina Rounds #" + n + " " + fmtPts(st.score) + "/5\n" + rdSquares(st, false) + "\n" + location.origin + location.pathname + "#/rounds";
+        var t = "Wardle #" + n + " " + fmtPts(st.score) + "/5\n" + rdSquares(st, false) + "\n" + location.origin + location.pathname + "#/rounds";
         if (navigator.share) navigator.share({ text: t }).catch(function () {});
         else navigator.clipboard.writeText(t).then(function () { msg.textContent = "Copied. Paste it in the group chat."; }, function () { msg.textContent = t; });
       };
@@ -3771,6 +3770,7 @@
       });
     }
     window.SinaRounds.play(box, c, {
+      title: "Wardle #" + n,
       seed: "rounds|" + n,
       load: function () { return st.eng || null; },
       save: function (e) { st.eng = e; save(); },
@@ -3786,9 +3786,9 @@
     var today = rdDay(), a = rdAll(), h = "";
     for (var n = Math.min(today, S.rounds.cases.length); n >= 1; n--) {
       var st = a[n];
-      h += '<li><a href="#/rounds/' + n + '"><span>Rounds #' + n + (n === today ? " · today" : "") + "</span><span>" + (st && st.done ? fmtPts(st.score) + " / " + rdTotal(rdCase(n)) : st ? "Started" : "Not played") + "</span></a></li>";
+      h += '<li><a href="#/rounds/' + n + '"><span>Wardle #' + n + (n === today ? " · today" : "") + "</span><span>" + (st && st.done ? fmtPts(st.score) + " / " + rdTotal(rdCase(n)) : st ? "Started" : "Not played") + "</span></a></li>";
     }
-    setView('<div class="wrap rounds"><p class="crumbs"><a href="#/">Home</a> / <a href="#/rounds">Rounds</a> / Past patients</p><h1>Past patients</h1><ol class="rd-arch">' + h + "</ol></div>", "Past patients");
+    setView('<div class="wrap rounds"><p class="crumbs"><a href="#/">Home</a> / <a href="#/rounds">Wardle</a> / Past patients</p><h1>Past patients</h1><ol class="rd-arch">' + h + "</ol></div>", "Past patients");
   }
 
   /* ---------- home: caduceus (two snakes winding around a winged rod) ---------- */
@@ -3971,7 +3971,7 @@
     if (parts[0] === "review") return reviewView();
     if (parts[0] === "reminders") return remindersView();
     if (parts[0] === "leaderboard") return leaderboardView(parts[1]);
-    if (parts[0] === "rounds") return roundsView(parts[1]);
+    if (parts[0] === "rounds" || parts[0] === "wardle") return roundsView(parts[1]);
     if (parts[0] === "resume") return resumeView();
     if (parts[0] === "install") return installView();
     if (parts[0] === "find") return findView(parts[1], parts[2], decodeURIComponent(parts[3] || ""));
