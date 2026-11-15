@@ -31323,15 +31323,15 @@ SINA.lectures["anat3-cerebrum"] = {
   {
    "q": "Which lobes are separated by the lateral sulcus (Sylvius)?",
    "options": [
-    "The temporal lobe below from the frontal and parietal lobes above",
-    "The frontal lobe from the parietal lobe",
-    "The parietal lobe from the occipital lobe",
-    "The two hemispheres"
+    "Temporal from frontal and parietal",
+    "Frontal from parietal",
+    "Parietal from occipital",
+    "Left from right hemisphere"
    ],
    "answer": 0,
    "why": "The lateral sulcus separates the frontal and parietal lobes from the temporal lobe.",
    "notes": [
-    "The temporal lobe lies below the lateral sulcus.",
+    "Slide 18: it separates the frontal and parietal lobes (above) from the temporal lobe (below).",
     "That is the central sulcus.",
     "That is the parieto-occipital sulcus.",
     "That is the longitudinal fissure, with the falx."
@@ -31494,7 +31494,7 @@ SINA.lectures["anat3-cerebrum"] = {
   {
    "q": "Where does the posterior white commissure run?",
    "options": [
-    "Under the epiphysis, in the posterior wall of the third ventricle",
+    "Under the epiphysis",
     "In front of the fornix",
     "Inside the corpus callosum",
     "In the floor of the fourth ventricle"
@@ -31502,10 +31502,10 @@ SINA.lectures["anat3-cerebrum"] = {
    "answer": 0,
    "why": "The anterior commissure lies in front of the fornix; the posterior commissure passes under the pineal gland (epiphysis).",
    "notes": [
-    "Under the pineal gland, at the back of the third ventricle.",
-    "That is the anterior commissure.",
-    "It is a separate bundle.",
-    "Not there."
+    "Slide 35: it passes under the epiphysis (pineal gland), in the posterior wall of the third ventricle.",
+    "That is the anterior white commissure (in front of the fornix and the genu of the corpus callosum).",
+    "The corpus callosum is a separate commissure.",
+    "The fourth ventricle is lower, in the hindbrain; this commissure is at the back of the third ventricle."
    ],
    "slides": [
     {
