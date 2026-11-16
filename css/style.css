@@ -1850,3 +1850,12 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .wl-how { margin: 6px 0 0; padding: 14px 16px 14px 34px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); display: flex; flex-direction: column; gap: 6px; font-size: 0.95rem; }
 .wl-slip table { table-layout: fixed; } .wl-slip td, .wl-slip th { overflow-wrap: anywhere; } .wl-slip th:first-child, .wl-slip td:first-child { width: 42%; }
 @media (max-width: 480px) { .wl-st-b { padding-left: 0; } }
+.wl-hbtn[hidden] { display: none; }
+.wl-hbtn span { font-weight: 700; }
+@media (max-width: 440px) { .wl-hbtn { font-size: .76rem; } }
+.pc-short { display: none; }
+@media (max-width: 440px) { .pc-long { display: none; } .pc-short { display: inline; } .wl-hbtn { padding: 0 .55rem; } }
+@media (max-width: 370px) { .bar .left { gap: 0.25rem; } .hdr-actions { gap: 0.2rem; } .wordmark { font-size: 1.15rem; } }
+@media (max-width: 440px) { .wl-hbtn { padding: 0 .45rem; font-size: .72rem; } .news-btn:not(.wl-hbtn) { padding: 0 .45rem; font-size: .72rem; } .prog-btn { padding: 0.3rem 0.45rem; font-size: .74rem; } .bar .left { gap: 0.3rem; } }
+@media (max-width: 370px) { .bar { padding-left: 0.5rem; padding-right: 0.5rem; } .menu-btn { width: 36px; height: 36px; } }
+@media (max-width: 370px) { .search-toggle, .gear-btn { width: 1.95rem !important; height: 1.95rem !important; } .hdr-actions { gap: 0.15rem; } .bar .left { gap: 0.22rem; } .prog-btn { padding: 0.3rem 0.4rem; } }

@@ -87,7 +87,7 @@
         return '<li class="' + cls + '"><i></i><span>' + esc(s.label) + "</span></li>";
       }).join("") + "</ol>";
     }
-    function head() { return '<div class="wl-top"><h1 class="wl-name">' + esc(o.title || "Wardle") + '</h1><span class="wl-pts">' + fmt(total()) + " pts</span></div>" + steps(); }
+    function head() { return '<div class="wl-top"><h1 class="wl-name">' + esc(o.title || "Curdle") + '</h1><span class="wl-pts">' + fmt(total()) + " pts</span></div>" + steps(); }
     function patient() {
       return '<section class="wl-pt" aria-label="Patient"><div class="wl-pt-h"><b>' + esc(C.who) + '</b><span class="wl-tag">' + esc(C.tag) + '</span></div><div class="wl-vit">' +
         C.vit.map(function (v) { return "<div><small>" + esc(v[0]) + "</small><b>" + esc(v[1]) + "</b></div>"; }).join("") + '</div><p class="wl-line">' + esc(C.line) + "</p></section>";
@@ -116,7 +116,7 @@
       return h + "</section>";
     }
     function menuHTML() {
-      var h = '<div class="wl-menu"><p class="wl-lab">' + esc(o.kicker || "Today's patient") + '</p><h1 class="wl-name">' + esc(o.title || "Wardle") + "</h1>" +
+      var h = '<div class="wl-menu"><p class="wl-lab">' + esc(o.kicker || "Today's patient") + '</p><h1 class="wl-name">' + esc(o.title || "Curdle") + "</h1>" +
         '<p class="wl-intro">A patient arrives. Work out what is going on, one stage at a time: the diagnosis, the exam, the results, the treatment, what happens next.</p>' +
         '<div class="wl-menu-b"><button type="button" class="wl-btn primary" data-a="start">Play</button><button type="button" class="wl-btn" data-a="how" aria-expanded="' + ui.how + '">How to play</button></div>';
       if (ui.how) h += '<ol class="wl-how"><li>Each stage asks one question. Type your answer and pick it from the list.</li><li>A wrong guess shows how close it was: green matches, yellow is close, grey is wrong. It also reveals a new clue.</li><li>Points per stage: 1, 0.75, 0.5, 0.25, then 0 after five wrong guesses.</li><li>Answers stay hidden until the end. The debrief explains every one, with the lecture it comes from.</li><li>One new patient a day. Your score counts on the day only.</li></ol>';
@@ -132,7 +132,7 @@
     }
     function debriefHTML() {
       var all = C.stages.every(function (x, i) { return ui.open[i]; });
-      var h = '<div class="wl-top"><h1 class="wl-name">' + esc(o.title || "Wardle") + ' · Debrief</h1><span class="wl-pts">' + fmt(total()) + "/" + N + "</span></div>";
+      var h = '<div class="wl-top"><h1 class="wl-name">' + esc(o.title || "Curdle") + ' · Debrief</h1><span class="wl-pts">' + fmt(total()) + "/" + N + "</span></div>";
       h += '<div class="wl-reveal"><p class="wl-lab">' + esc(C.outcome) + "</p><h2>" + esc(C.dx) + "</h2></div>";
       h += '<div class="wl-bar"><span>Tap a stage to see why.</span><button type="button" data-a="all">' + (all ? "Collapse all" : "Expand all") + "</button></div>";
       C.stages.forEach(function (s, i) {
