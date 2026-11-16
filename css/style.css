@@ -1864,3 +1864,12 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .wl-lm a { color: var(--accent); font-weight: 700; text-decoration: none; } .wl-lm a:hover { text-decoration: underline; }
 .wl-cr .cn em.by { color: var(--muted); }
 .wl-go { list-style: none; margin: 0; padding: 0; } .wl-go li { display: flex; flex-direction: column; padding: 8px 0; border-bottom: 1px solid var(--line); } .wl-go a { font-weight: 700; color: var(--accent); } .wl-go span { font-size: 0.86rem; color: var(--muted); }
+/* home: one-time Clinidle banner */
+.cl-ban { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .8rem 1.2rem; max-width: 46rem; margin: 0 0 1rem; padding: .9rem 1rem; border: 1px solid var(--line-strong); border-radius: 14px; background: var(--surface); }
+.cl-txt { flex: 1 1 18rem; min-width: 0; }
+.cl-txt p { margin: 0; font-size: .92rem; color: var(--muted); line-height: 1.45; }
+.cl-txt .cl-k { font-family: var(--serif); font-weight: 700; font-size: 1.15rem; color: var(--ink); margin-bottom: .2rem; }
+.cl-k span { display: inline-block; font: 800 .66rem var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--accent-ink, #fff); background: var(--accent); border-radius: 999px; padding: .2rem .5rem; vertical-align: .2em; margin-right: .35rem; }
+.cl-act { display: flex; gap: .5rem; align-items: center; }
+.cl-go { display: inline-flex; align-items: center; min-height: 44px; padding: 0 1rem; border-radius: 10px; background: var(--accent); color: var(--accent-ink, #fff); font-weight: 700; text-decoration: none; }
+.cl-x { min-height: 44px; padding: 0 .8rem; border: 0; background: none; color: var(--muted); font: inherit; font-weight: 600; cursor: pointer; }

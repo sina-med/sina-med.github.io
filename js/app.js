@@ -2437,6 +2437,7 @@
   }
 
   /* ---------- what's new ---------- */
+  document.addEventListener("click", function (e) { var x = e.target.closest && e.target.closest(".cl-x, .cl-go"); if (!x) return; store.set("sina:clIntro", true); if (x.classList.contains("cl-x")) { var b = x.closest(".cl-ban"); if (b) b.remove(); } });
   function updateNewsDot() {
     var d = document.querySelector("#news-btn .ndot"); if (d) d.hidden = !newBadge();
     var w = document.getElementById("wl-btn"); if (!w) return;   /* Wardle button: shown when this year has a series; dot until today's case is done */
@@ -2456,7 +2457,12 @@
       lb: '<path d="M7 4h10v4a5 5 0 0 1-10 0z" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linejoin="round"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4M12 13v4M8 20h8" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>'
     };
     var t = function (href, k, title, sub, cls) { return '<a class="qtile' + (cls ? " " + cls : "") + '" href="' + href + '"><span class="qt-ico"><svg viewBox="0 0 24 24" aria-hidden="true">' + ico[k] + '</svg></span><span class="qt-t">' + title + '</span><span class="qt-s">' + sub + "</span></a>"; };
-    var h = '<nav class="quick" aria-label="Quick access">';
+    var h = "";
+    /* one-time banner announcing Clinidle; gone once dismissed or once a case has been played */
+    if (wlOn() && !store.get("sina:clIntro", false) && !Object.keys(wlAll()).length)
+      h += '<div class="cl-ban" role="region" aria-label="New: Clinidle"><div class="cl-txt"><p class="cl-k"><span>New</span> Clinidle</p><p>One patient a day. Guess what is going on, stage by stage: each wrong guess shows how close you were and reveals a clue. The debrief explains every answer.</p></div>' +
+        '<div class="cl-act"><a class="cl-go" href="#/clinidle">Play today\'s patient</a><button type="button" class="cl-x" aria-label="Dismiss">Not now</button></div></div>';
+    h += '<nav class="quick" aria-label="Quick access">';
     if (wlOn()) { var wd = wlDay(), wS = wlAll()[wd], wNew = !!wlCase(wd); h += t("#/clinidle", "wl", wNew ? "Clinidle #" + wd : "Clinidle", !wNew ? "Replay past patients" : wS && wS.done ? "Done today · " + fmtPts(wS.score) + " / 5" : "Today's patient", wNew && !(wS && wS.done) ? "qt-hot" : ""); }
     var rs = resumeInfo();
     if (rs) h += t("#/resume", "go", "Resume quiz", esc(rs.title) + " · " + rs.n + "/" + rs.qs.length, "qt-go");

@@ -5,9 +5,9 @@
    contenders [option, why right or wrong] for the debrief, src [lecture id, title, year], enrich = beyond the course. */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.wardle = {
- slips: {"trop":["CARDIAC MARKERS","Serum",[["Troponin I (conventional)","0.02","0–0.04 ng/mL"]],"Collected 13:32 · pain onset about 12:00"],"gas":["BLOOD GAS · ARTERIAL","Room air",[["pH","7.47","7.37–7.43",1],["PaCO₂","31 mmHg","37–43",1],["HCO₃⁻","23 mmol/L","22–26"],["PaO₂","57 mmHg","75–100",1]],"Collected 09:52"],"gram":["SPUTUM · GRAM STAIN","Expectorated",["Many neutrophils.","Gram-positive, lancet-shaped diplococci."],"Culture to follow in 24–48 h"],"thy":["THYROID FUNCTION","Serum",[["TSH","< 0.01 mU/L","0.4–4.0"],["Free T4","38 pmol/L","10–22"]],"Collected 10:15"],"csf":["CEREBROSPINAL FLUID","Lumbar puncture",[["Appearance","Turbid","Clear"],["White cells","2,400 /mm³","< 3"],["Neutrophils","92 %","—"],["Protein","2.1 g/L","< 0.4"],["CSF / blood glucose","0.2","0.5"]],"Gram stain and culture to follow"],"lft":["LIVER TESTS","Serum",[["Total bilirubin","142 µmol/L","< 17"],["Conjugated bilirubin","118 µmol/L","< 5"],["ALP","610 U/L","40–130"],["GGT","540 U/L","< 40"],["ALT","88 U/L","< 40"]],"Collected 09:20"],"dka":["BLOOD GAS · ARTERIAL","Room air",[["pH","7.12","7.37–7.43"],["PaCO₂","22 mmHg","37–43"],["HCO₃⁻","8 mmol/L","22–26"],["PaO₂","104 mmHg","75–100"]],"Collected 03:40"],"bleed":["HAEMATOLOGY","EDTA blood",[["Haemoglobin","12.8 g/dL","13–17"],["Platelets","260,000 /mm³","150,000–400,000"]],"Collected 08:05 · first vomit of blood about 06:30"],"kary":["CYTOGENETICS","Blood lymphocytes",["Karyotype: 46,XY,der(14;21)(q10;q10),+21","Three copies of chromosome 21 material: two free 21s and one fused to a 14."],"G-banding, 550 bands"]},
- inCourse: {"y1":{"Acute coronary syndrome":"histo1-muscle","Stable angina":"term1-cardio","Acute pericarditis":"physio1-ecg","Infective endocarditis":"bacterio1-haemophilus","Aortic stenosis":"physio1-cardiac-cycle","Mitral valve disease":"anat1-heart","Hypertrophic cardiomyopathy":"term1-cardio","Complete heart block":"physio1-heart","Atrial fibrillation":"physio1-heart","Peripheral artery disease":"anat1-hand-muscles","Stroke":"physio1-cardiac-cycle","Pulmonary embolism":"hemato1-haemostasis","Pneumothorax":"anat1-thorax-osteology","Pneumonia":"bacterio1-chlamydia","Acute bronchitis":"physio1-lung-volumes","Empyema":"term1-resp","Pulmonary tuberculosis":"bacterio1-mycobacteria","Lung cancer":"pubhealth1-indicators","Atelectasis":"physio1-pulmonary-vascular","Asthma":"physio1-pulmonary-vascular","Chronic bronchitis":"physio1-lung-volumes","Emphysema":"physio1-lung-volumes","Bronchiectasis":"term1-resp","Acute pancreatitis":"physio1-pancreas","Chronic pancreatitis":"physio1-pancreas","Biliary colic":"anat2-biliary","Viral hepatitis":"viro1-hepatitis","Cirrhosis":"hemato1-splenomegaly","Hepatocellular carcinoma":"viro1-hepatitis","Haemochromatosis":"genetics1-heredity","Iron-deficiency anaemia":"hemato1-anaemias","Gastro-oesophageal reflux":"anat2-stomach-oesophagus","Achalasia":"anat2-stomach-oesophagus","Oesophageal varices":"anat2-stomach-oesophagus","Peptic ulcer":"anat2-stomach-oesophagus","Gastritis":"term1-gi","Gastroparesis":"physio1-gastric-motility","Gastroenteritis":"viro1-gastroenteritis","Cholera":"pubhealth1-epidemiology","Shigellosis":"bacterio1-enterobacteria-1","Clostridioides difficile colitis":"physio1-microbiota","Appendicitis":"anat2-colon","Intestinal obstruction":"physio1-small-intestine-motility","Inflammatory bowel disease":"anat2-small-intestine","Coeliac disease":"physio1-absorption","Slow-transit constipation":"physio1-colon-motility","Outlet dysfunction":"physio1-anorectal","Ischaemic colitis":"anat2-colon","Anal fissure":"anat2-liver","Graves' disease":"physio1-thyroid","Thyroiditis":"physio1-thyroid","Hashimoto's thyroiditis":"physio1-thyroid","Diabetes insipidus":"physio1-hypothalamus-pituitary","Type 2 diabetes":"physio1-microbiota","Diabetic ketoacidosis":"biochem1-lipid-metabolism","Hypoglycaemia":"physio1-hypothalamus-pituitary","Meningitis":"bacterio1-pneumoniae","Cardiac tamponade":"anat1-heart","Rheumatic fever":"bacterio1-pyogenes","Abdominal aortic aneurysm":"anat2-vessels","Deep vein thrombosis":"anat2-vessels","Pulmonary hypertension":"physio1-pulmonary-vascular","Influenza":"viro1-orthomyxo-paramyxo","COVID-19":"pubhealth1-intro","Legionnaires' disease":"bacterio1-host","Whooping cough":"bacterio1-bordetella","Epiglottitis":"bacterio1-haemophilus","Sepsis":"bacterio1-pneumoniae","Septic shock":"bacterio1-host","Malaria":"hemato1-splenomegaly","Typhoid fever":"bacterio1-enterobacteria-2","HIV infection":"viro1-retroviruses","Infectious mononucleosis":"viro1-herpesviruses","Tetanus":"bacterio1-host","Encephalitis":"viro1-herpesviruses","Guillain-Barré syndrome":"bacterio1-pyogenes","Parkinson's disease":"physio1-gastric-motility","Pyelonephritis":"bacterio1-mycoplasma","Ectopic pregnancy":"embryo1-implantation","Pelvic inflammatory disease":"bacterio1-mycoplasma","Pernicious anaemia":"hemato1-b9-b12","Hereditary spherocytosis":"hemato1-rbc","Chronic lymphocytic leukaemia":"hemato1-wbc-2","Immune thrombocytopenia":"hemato1-platelets","Disseminated intravascular coagulation":"hemato1-platelets","SIADH":"physio1-hypothalamus-pituitary","Zollinger-Ellison syndrome":"physio1-gastric-secretion","Hirschsprung disease":"physio1-colon-motility","Septic arthritis":"bacterio1-haemophilus","Sickle cell disease":"genetics1-mutation","Beta-thalassaemia":"genetics1-mutation","Cystic fibrosis":"genetics1-heredity","Haemophilia A":"hemato1-coagulation","Haemophilia B":"genetics1-heredity","Duchenne muscular dystrophy":"genetics1-mutation","Marfan syndrome":"genetics1-heredity","Achondroplasia":"genetics1-heredity","Neurofibromatosis type 1":"genetics1-heredity","Osteogenesis imperfecta":"genetics1-heredity","Spinal muscular atrophy":"anat2-vessels","Fragile X syndrome":"genetics1-heredity","G6PD deficiency":"biochem1-carb-metabolism","Down syndrome":"genetics1-chromosomal","Turner syndrome":"genetics1-chromosomal","Klinefelter syndrome":"genetics1-chromosomal","Adult polycystic kidney disease":"genetics1-heredity"},"y2":{"Acute coronary syndrome":"biochem-cardiac","Stable angina":"semio-cv-angina","Prinzmetal angina":"semio-cv-angina","Acute pericarditis":"biochem-cardiac","Dressler syndrome":"semio-cv-rhf","Myocarditis":"biochem-cardiac","Infective endocarditis":"semio-cv-intro","Acute left heart failure":"semio-cv-lhf","Diastolic heart failure":"semio-cv-lhf","Right heart failure":"semio-cv-rhf","Cor pulmonale":"semio-cv-rhf","Aortic stenosis":"semio-cv-lhf","Mitral valve disease":"semio-cv-arrhythmia","Hypertrophic cardiomyopathy":"semio-cv-lhf","Septal defect":"semio-cv-rhf","Complete heart block":"physio1-heart","Atrial fibrillation":"semio-cv-arrhythmia","Atrial flutter":"semio-cv-arrhythmia","Aortic dissection":"semio-resp-symptoms","Mesenteric ischaemia":"fa-digestive","Peripheral artery disease":"semio-endo-diabetes","Superior vena cava syndrome":"semio-resp-syndromes","Stroke":"semio-cv-arrhythmia","Pulmonary embolism":"fa-cardiovascular","Pneumothorax":"semio-resp-syndromes","Hydropneumothorax":"semio-resp-syndromes","Pneumonia":"semio-resp-syndromes","Aspiration pneumonia":"semio-gi-vomiting","Acute bronchitis":"semio-resp-syndromes","Pleurisy":"semio-resp-exam","Empyema":"pathanat-inflammation-acute","Lung abscess":"semio-resp-symptoms","Pulmonary tuberculosis":"bacterio1-mycobacteria","Hydatid cyst of the lung":"parasito-hydatidosis","Lung cancer":"pathanat-onco-intro","Pancoast tumour":"semio-resp-syndromes","Atelectasis":"semio-resp-exam","Asthma":"pharma-asthma","Chronic bronchitis":"semio-resp-symptoms","Emphysema":"semio-resp-syndromes","Bronchiectasis":"semio-resp-symptoms","Pulmonary fibrosis":"toxico-intro","Sarcoidosis":"semio-resp-symptoms","Acute pancreatitis":"fa-digestive","Chronic pancreatitis":"semio-gi-diarrhoea","Pancreatic head cancer":"fa-digestive","Biliary colic":"semio-gi-vomiting","Acute cholecystitis":"semio-gi-vomiting","Common bile duct stone":"fa-digestive","Acute cholangitis":"semio-gi-jaundice","Viral hepatitis":"viro1-hepatitis","Cirrhosis":"semio-gi-hepatomegaly","Liver abscess":"parasito-amoebiasis","Hepatocellular carcinoma":"pathanat-carcinogenesis","Liver metastases":"biochem-hepatic","Wilson's disease":"semio-gi-hepatomegaly","Haemochromatosis":"biochem-iron","Haemolytic anaemia":"semio-gi-jaundice","Iron-deficiency anaemia":"biochem-iron","Gastro-oesophageal reflux":"semio-gi-gerd","Peptic oesophagitis":"semio-gi-gerd","Barrett's oesophagus":"semio-gi-gerd","Peptic stricture":"semio-gi-dysphagia","Oesophageal cancer":"semio-gi-dysphagia","Achalasia":"semio-gi-dysphagia","Oesophageal rupture":"semio-gi-vomiting","Mallory-Weiss tear":"semio-gi-bleeding","Oesophageal varices":"semio-gi-bleeding","Peptic ulcer":"semio-gi-bleeding","Gastritis":"semio-gi-bleeding","Gastroparesis":"semio-gi-vomiting","Pyloric stenosis":"semio-gi-vomiting","Gastric cancer":"semio-gi-vomiting","Gastroenteritis":"viro1-gastroenteritis","Cholera":"infect-cholera","Shigellosis":"semio-gi-dysentery","Amoebic dysentery":"parasito-amoebiasis","Clostridioides difficile colitis":"semio-gi-diarrhoea","Appendicitis":"semio-gi-vomiting","Peritonitis":"parasito-nematodes","Intestinal obstruction":"semio-gi-vomiting","Inflammatory bowel disease":"semio-gi-exam","Coeliac disease":"semio-gi-diarrhoea","Irritable bowel syndrome":"semio-gi-constipation","Slow-transit constipation":"semio-gi-constipation","Outlet dysfunction":"semio-gi-constipation","Ischaemic colitis":"semio-gi-dysentery","Diverticular disease":"semio-gi-bleeding","Colorectal cancer":"semio-gi-constipation","Haemorrhoids":"semio-gi-bleeding","Anal fissure":"anat3-orbit","Graves' disease":"semio-endo-thyroid","Toxic adenoma":"semio-endo-thyroid","Toxic multinodular goitre":"semio-endo-thyroid","Thyroiditis":"semio-endo-thyroid","Hashimoto's thyroiditis":"semio-endo-thyroid","Myxoedema coma":"semio-endo-thyroid","Thyroid cancer":"semio-endo-thyroid","Cushing's syndrome":"semio-endo-adrenal","Addison's disease":"semio-endo-adrenal","Adrenal crisis":"fa-endocrine","Phaeochromocytoma":"semio-endo-adrenal","Prolactinoma":"semio-endo-pituitary","Acromegaly":"semio-endo-pituitary","Pituitary apoplexy":"semio-endo-pituitary","Hypopituitarism":"semio-endo-pituitary","Diabetes insipidus":"biochem-water","Type 1 diabetes":"semio-endo-diabetes","Type 2 diabetes":"semio-endo-diabetes","Diabetic ketoacidosis":"semio-endo-diabetes","Hyperosmolar state":"semio-endo-diabetes","Hypoglycaemia":"semio-endo-diabetes","Lactic acidosis":"fa-cardiovascular","Meningitis":"infect-meningitis","Raised intracranial pressure":"semio-gi-vomiting","Rib fracture":"semio-resp-symptoms","Viral meningitis":"infect-meningitis","Tuberculous meningitis":"infect-meningitis","Subarachnoid haemorrhage":"anat3-ventricles","Migraine":"semio-gi-vomiting","Cerebral oedema":"fa-neural","Thyroid storm":"fa-endocrine","Hypokalaemia":"semio-gi-vomiting","Cardiac tamponade":"fa-cardiovascular","Rheumatic fever":"bacterio1-pyogenes","Ventricular tachycardia":"fa-cardiac-arrest","Abdominal aortic aneurysm":"anat2-vessels","Deep vein thrombosis":"pathanat-vascular","Giant cell arteritis":"infect-prolonged-fever","Pulmonary hypertension":"semio-cv-rhf","ARDS":"pathanat-vascular","Influenza":"viro1-orthomyxo-paramyxo","COVID-19":"history-epidemics","Legionnaires' disease":"infect-atb-principles","Pneumocystis pneumonia":"parasito-pneumocystosis","Whooping cough":"bacterio1-bordetella","Epiglottitis":"bacterio1-haemophilus","Mesothelioma":"pathanat-onco-intro","Small cell lung cancer":"semio-endo-adrenal","Anaphylaxis":"fa-cardiovascular","Sepsis":"fa-cardiovascular","Septic shock":"fa-cardiovascular","Malaria":"parasito-malaria","Typhoid fever":"bacterio1-enterobacteria-2","Brucellosis":"infect-prolonged-fever","Visceral leishmaniasis":"parasito-leishmaniasis","HIV infection":"infect-hiv-manifestations","Infectious mononucleosis":"viro1-herpesviruses","Tetanus":"physio-muscle-2","Carbon monoxide poisoning":"toxico-systemic","Paracetamol overdose":"toxico-kinetics","Encephalitis":"viro1-herpesviruses","Guillain-Barré syndrome":"bacterio1-pyogenes","Myasthenia gravis":"semio-gi-dysphagia","Multiple sclerosis":"semio-gi-constipation","Epileptic seizure":"anat3-cerebrum","Extradural haematoma":"fa-neural","Parkinson's disease":"semio-gi-constipation","Bell's palsy":"anat3-pns","Hepatic encephalopathy":"semio-gi-jaundice","Primary sclerosing cholangitis":"semio-gi-jaundice","Gilbert syndrome":"semio-gi-jaundice","Acute kidney injury":"fa-renal","Chronic kidney disease":"biochem-renal","Pyelonephritis":"semio-gi-vomiting","Nephrotic syndrome":"biochem-spe","Ectopic pregnancy":"embryo1-implantation","Pelvic inflammatory disease":"bacterio1-mycoplasma","Pernicious anaemia":"semio-gi-exam","Hereditary spherocytosis":"hemato1-rbc","Chronic lymphocytic leukaemia":"hemato1-wbc-2","Hodgkin lymphoma":"infect-hiv-manifestations","Multiple myeloma":"biochem-spe","Immune thrombocytopenia":"hemato1-platelets","Disseminated intravascular coagulation":"toxico-systemic","Primary hyperparathyroidism":"biochem-renal","Conn's syndrome":"semio-endo-adrenal","Congenital adrenal hyperplasia":"biochem-steroids","SIADH":"physio1-hypothalamus-pituitary","Zollinger-Ellison syndrome":"physio1-gastric-secretion","Hirschsprung disease":"physio1-colon-motility","Systemic lupus erythematosus":"fa-immune","Rheumatoid arthritis":"anat3-eyeball-1","Gout":"physio-taste-smell","Septic arthritis":"bacterio1-haemophilus","Sickle cell disease":"genetics1-mutation","Beta-thalassaemia":"genetics1-mutation","Cystic fibrosis":"parasito-aspergillosis","Haemophilia A":"hemato1-coagulation","Haemophilia B":"genetics1-heredity","Duchenne muscular dystrophy":"physio-muscle-2","Becker muscular dystrophy":"physio-muscle-2","Marfan syndrome":"semio-cv-intro","Achondroplasia":"genetics1-heredity","Neurofibromatosis type 1":"genetics1-heredity","Osteogenesis imperfecta":"genetics1-heredity","Spinal muscular atrophy":"anat2-vessels","Fragile X syndrome":"genetics1-heredity","Wilson disease":"semio-gi-hepatomegaly","G6PD deficiency":"toxico-systemic","Down syndrome":"genetics1-chromosomal","Turner syndrome":"genetics1-chromosomal","Klinefelter syndrome":"genetics1-chromosomal","Adult polycystic kidney disease":"genetics1-heredity","Cardiogenic shock":"fa-cardiovascular","Hypovolaemic shock":"fa-cardiovascular","Haemorrhagic shock":"fa-cardiovascular","Obstructive shock":"fa-cardiovascular","Distributive shock":"fa-cardiovascular","Spinal shock":"fa-cardiovascular","Tension pneumothorax":"fa-cardiovascular"}},
- added: ["Cardiac tamponade","Constrictive pericarditis","Takotsubo cardiomyopathy","Dilated cardiomyopathy","Rheumatic fever","Wolff-Parkinson-White syndrome","Long QT syndrome","Ventricular tachycardia","Abdominal aortic aneurysm","Deep vein thrombosis","Giant cell arteritis","Pulmonary hypertension","ARDS","Influenza","COVID-19","Legionnaires' disease","Pneumocystis pneumonia","Whooping cough","Epiglottitis","Mesothelioma","Small cell lung cancer","Granulomatosis with polyangiitis","Anaphylaxis","Sepsis","Septic shock","Malaria","Typhoid fever","Brucellosis","Visceral leishmaniasis","HIV infection","Infectious mononucleosis","Tetanus","Botulism","Carbon monoxide poisoning","Organophosphate poisoning","Paracetamol overdose","Alcohol withdrawal","Encephalitis","Guillain-Barré syndrome","Myasthenia gravis","Multiple sclerosis","Epileptic seizure","Transient ischaemic attack","Subdural haematoma","Extradural haematoma","Parkinson's disease","Bell's palsy","Hepatic encephalopathy","Primary biliary cholangitis","Primary sclerosing cholangitis","Autoimmune hepatitis","Cholangiocarcinoma","Gilbert syndrome","Acute kidney injury","Chronic kidney disease","Pyelonephritis","Renal colic","Nephrotic syndrome","Ectopic pregnancy","Ovarian torsion","Testicular torsion","Pelvic inflammatory disease","Pre-eclampsia","Pernicious anaemia","Hereditary spherocytosis","Acute myeloid leukaemia","Chronic lymphocytic leukaemia","Hodgkin lymphoma","Multiple myeloma","Immune thrombocytopenia","Disseminated intravascular coagulation","Primary hyperparathyroidism","Hypoparathyroidism","Conn's syndrome","Congenital adrenal hyperplasia","SIADH","Insulinoma","Carcinoid syndrome","Zollinger-Ellison syndrome","Sigmoid volvulus","Strangulated hernia","Hirschsprung disease","Eosinophilic oesophagitis","Systemic lupus erythematosus","Rheumatoid arthritis","Gout","Septic arthritis","Huntington disease","Myotonic dystrophy","Friedreich ataxia","Phenylketonuria","Familial hypercholesterolaemia","Adult polycystic kidney disease","Ehlers-Danlos syndrome","Rett syndrome","Leber hereditary optic neuropathy","DiGeorge syndrome","Cri-du-chat syndrome","Prader-Willi syndrome","Angelman syndrome","Cardiogenic shock","Hypovolaemic shock","Haemorrhagic shock","Obstructive shock","Distributive shock","Spinal shock","Tension pneumothorax"],
+ slips: {"trop":["CARDIAC MARKERS","Serum",[["Troponin I (conventional)","0.02","0–0.04 ng/mL"]],"Collected 13:32 · pain onset about 12:00"],"gas":["BLOOD GAS · ARTERIAL","Room air",[["pH","7.47","7.37–7.43",1],["PaCO₂","31 mmHg","37–43",1],["HCO₃⁻","23 mmol/L","22–26"],["PaO₂","57 mmHg","75–100",1]],"Collected 09:52"],"gram":["SPUTUM · GRAM STAIN","Expectorated",["Many neutrophils.","Gram-positive, lancet-shaped diplococci."],"Culture to follow in 24–48 h"],"thy":["THYROID FUNCTION","Serum",[["TSH","< 0.01 mU/L","0.4–4.0"],["Free T4","38 pmol/L","10–22"]],"Collected 10:15"],"csf":["CEREBROSPINAL FLUID","Lumbar puncture",[["Appearance","Turbid","Clear"],["White cells","2,400 /mm³","< 3"],["Neutrophils","92 %","—"],["Protein","2.1 g/L","< 0.4"],["CSF / blood glucose","0.2","0.5"]],"Gram stain and culture to follow"],"lft":["LIVER TESTS","Serum",[["Total bilirubin","142 µmol/L","< 17"],["Conjugated bilirubin","118 µmol/L","< 5"],["ALP","610 U/L","40–130"],["GGT","540 U/L","< 40"],["ALT","88 U/L","< 40"]],"Collected 09:20"],"dka":["BLOOD GAS · ARTERIAL","Room air",[["pH","7.12","7.37–7.43"],["PaCO₂","22 mmHg","37–43"],["HCO₃⁻","8 mmol/L","22–26"],["PaO₂","104 mmHg","75–100"]],"Collected 03:40"],"bleed":["HAEMATOLOGY","EDTA blood",[["Haemoglobin","12.8 g/dL","13–17"],["Platelets","260,000 /mm³","150,000–400,000"]],"Collected 08:05 · first vomit of blood about 06:30"],"kary":["CYTOGENETICS","Blood lymphocytes",["Karyotype: 46,XY,der(14;21)(q10;q10),+21","Three copies of chromosome 21 material: two free 21s and one fused to a 14."],"G-banding, 550 bands"],"alk":["BLOOD GAS · ARTERIAL","Room air",[["pH","7.50","7.38–7.42"],["PaCO₂","48 mmHg","37–43"],["HCO₃⁻","36 mmol/L","24–28"]],"Collected 11:10"]},
+ inCourse: {"y1":{"Acute coronary syndrome":"histo1-muscle","Stable angina":"term1-cardio","Acute pericarditis":"physio1-ecg","Infective endocarditis":"bacterio1-haemophilus","Aortic stenosis":"physio1-cardiac-cycle","Mitral valve disease":"anat1-heart","Hypertrophic cardiomyopathy":"term1-cardio","Complete heart block":"physio1-heart","Atrial fibrillation":"physio1-heart","Peripheral artery disease":"anat1-hand-muscles","Stroke":"physio1-cardiac-cycle","Pulmonary embolism":"hemato1-haemostasis","Pneumothorax":"anat1-thorax-osteology","Pneumonia":"bacterio1-chlamydia","Acute bronchitis":"physio1-lung-volumes","Empyema":"term1-resp","Pulmonary tuberculosis":"bacterio1-mycobacteria","Lung cancer":"pubhealth1-indicators","Atelectasis":"physio1-pulmonary-vascular","Asthma":"physio1-pulmonary-vascular","Chronic bronchitis":"physio1-lung-volumes","Emphysema":"physio1-lung-volumes","Bronchiectasis":"term1-resp","Acute pancreatitis":"physio1-pancreas","Chronic pancreatitis":"physio1-pancreas","Biliary colic":"anat2-biliary","Viral hepatitis":"viro1-hepatitis","Cirrhosis":"hemato1-splenomegaly","Hepatocellular carcinoma":"viro1-hepatitis","Haemochromatosis":"genetics1-heredity","Iron-deficiency anaemia":"hemato1-anaemias","Gastro-oesophageal reflux":"anat2-stomach-oesophagus","Achalasia":"anat2-stomach-oesophagus","Oesophageal varices":"anat2-stomach-oesophagus","Peptic ulcer":"anat2-stomach-oesophagus","Gastritis":"term1-gi","Gastroparesis":"physio1-gastric-motility","Gastroenteritis":"viro1-gastroenteritis","Cholera":"pubhealth1-epidemiology","Shigellosis":"bacterio1-enterobacteria-1","Clostridioides difficile colitis":"physio1-microbiota","Appendicitis":"anat2-colon","Intestinal obstruction":"physio1-small-intestine-motility","Inflammatory bowel disease":"anat2-small-intestine","Coeliac disease":"physio1-absorption","Slow-transit constipation":"physio1-colon-motility","Outlet dysfunction":"physio1-anorectal","Ischaemic colitis":"anat2-colon","Anal fissure":"anat2-liver","Graves' disease":"physio1-thyroid","Thyroiditis":"physio1-thyroid","Hashimoto's thyroiditis":"physio1-thyroid","Diabetes insipidus":"physio1-hypothalamus-pituitary","Type 2 diabetes":"physio1-microbiota","Diabetic ketoacidosis":"biochem1-lipid-metabolism","Hypoglycaemia":"physio1-hypothalamus-pituitary","Meningitis":"bacterio1-pneumoniae","Cardiac tamponade":"anat1-heart","Rheumatic fever":"bacterio1-pyogenes","Abdominal aortic aneurysm":"anat2-vessels","Deep vein thrombosis":"anat2-vessels","Pulmonary hypertension":"physio1-pulmonary-vascular","Influenza":"viro1-orthomyxo-paramyxo","COVID-19":"pubhealth1-intro","Legionnaires' disease":"bacterio1-host","Whooping cough":"bacterio1-bordetella","Epiglottitis":"bacterio1-haemophilus","Sepsis":"bacterio1-pneumoniae","Septic shock":"bacterio1-host","Malaria":"hemato1-splenomegaly","Typhoid fever":"bacterio1-enterobacteria-2","HIV infection":"viro1-retroviruses","Infectious mononucleosis":"viro1-herpesviruses","Tetanus":"bacterio1-host","Encephalitis":"viro1-herpesviruses","Guillain-Barré syndrome":"bacterio1-pyogenes","Parkinson's disease":"physio1-gastric-motility","Pyelonephritis":"bacterio1-mycoplasma","Ectopic pregnancy":"embryo1-implantation","Pelvic inflammatory disease":"bacterio1-mycoplasma","Pernicious anaemia":"hemato1-b9-b12","Hereditary spherocytosis":"hemato1-rbc","Chronic lymphocytic leukaemia":"hemato1-wbc-2","Immune thrombocytopenia":"hemato1-platelets","Disseminated intravascular coagulation":"hemato1-platelets","SIADH":"physio1-hypothalamus-pituitary","Zollinger-Ellison syndrome":"physio1-gastric-secretion","Hirschsprung disease":"physio1-colon-motility","Septic arthritis":"bacterio1-haemophilus","Sickle cell disease":"genetics1-mutation","Beta-thalassaemia":"genetics1-mutation","Cystic fibrosis":"genetics1-heredity","Haemophilia A":"hemato1-coagulation","Haemophilia B":"genetics1-heredity","Duchenne muscular dystrophy":"genetics1-mutation","Marfan syndrome":"genetics1-heredity","Achondroplasia":"genetics1-heredity","Neurofibromatosis type 1":"genetics1-heredity","Osteogenesis imperfecta":"genetics1-heredity","Spinal muscular atrophy":"anat2-vessels","Fragile X syndrome":"genetics1-heredity","G6PD deficiency":"biochem1-carb-metabolism","Down syndrome":"genetics1-chromosomal","Turner syndrome":"genetics1-chromosomal","Klinefelter syndrome":"genetics1-chromosomal","Adult polycystic kidney disease":"genetics1-heredity"},"y2":{"Acute coronary syndrome":"biochem-cardiac","Stable angina":"semio-cv-angina","Prinzmetal angina":"semio-cv-angina","Acute pericarditis":"biochem-cardiac","Dressler syndrome":"semio-cv-rhf","Myocarditis":"biochem-cardiac","Infective endocarditis":"semio-cv-intro","Acute left heart failure":"semio-cv-lhf","Diastolic heart failure":"semio-cv-lhf","Right heart failure":"semio-cv-rhf","Cor pulmonale":"semio-cv-rhf","Aortic stenosis":"semio-cv-lhf","Mitral valve disease":"semio-cv-arrhythmia","Hypertrophic cardiomyopathy":"semio-cv-lhf","Septal defect":"semio-cv-rhf","Complete heart block":"physio1-heart","Atrial fibrillation":"semio-cv-arrhythmia","Atrial flutter":"semio-cv-arrhythmia","Aortic dissection":"semio-resp-symptoms","Mesenteric ischaemia":"fa-digestive","Peripheral artery disease":"semio-endo-diabetes","Superior vena cava syndrome":"semio-resp-syndromes","Stroke":"semio-cv-arrhythmia","Pulmonary embolism":"fa-cardiovascular","Pneumothorax":"semio-resp-syndromes","Hydropneumothorax":"semio-resp-syndromes","Pneumonia":"semio-resp-syndromes","Aspiration pneumonia":"semio-gi-vomiting","Acute bronchitis":"semio-resp-syndromes","Pleurisy":"semio-resp-exam","Empyema":"pathanat-inflammation-acute","Lung abscess":"semio-resp-symptoms","Pulmonary tuberculosis":"bacterio1-mycobacteria","Hydatid cyst of the lung":"parasito-hydatidosis","Lung cancer":"pathanat-onco-intro","Pancoast tumour":"semio-resp-syndromes","Atelectasis":"semio-resp-exam","Asthma":"pharma-asthma","Chronic bronchitis":"semio-resp-symptoms","Emphysema":"semio-resp-syndromes","Bronchiectasis":"semio-resp-symptoms","Pulmonary fibrosis":"toxico-intro","Sarcoidosis":"semio-resp-symptoms","Acute pancreatitis":"fa-digestive","Chronic pancreatitis":"semio-gi-diarrhoea","Pancreatic head cancer":"fa-digestive","Biliary colic":"semio-gi-vomiting","Acute cholecystitis":"semio-gi-vomiting","Common bile duct stone":"fa-digestive","Acute cholangitis":"semio-gi-jaundice","Viral hepatitis":"viro1-hepatitis","Cirrhosis":"semio-gi-hepatomegaly","Liver abscess":"parasito-amoebiasis","Hepatocellular carcinoma":"pathanat-carcinogenesis","Liver metastases":"biochem-hepatic","Wilson's disease":"semio-gi-hepatomegaly","Haemochromatosis":"biochem-iron","Haemolytic anaemia":"semio-gi-jaundice","Iron-deficiency anaemia":"biochem-iron","Gastro-oesophageal reflux":"semio-gi-gerd","Peptic oesophagitis":"semio-gi-gerd","Barrett's oesophagus":"semio-gi-gerd","Peptic stricture":"semio-gi-dysphagia","Oesophageal cancer":"semio-gi-dysphagia","Achalasia":"semio-gi-dysphagia","Oesophageal rupture":"semio-gi-vomiting","Mallory-Weiss tear":"semio-gi-bleeding","Oesophageal varices":"semio-gi-bleeding","Peptic ulcer":"semio-gi-bleeding","Gastritis":"semio-gi-bleeding","Gastroparesis":"semio-gi-vomiting","Pyloric stenosis":"semio-gi-vomiting","Gastric cancer":"semio-gi-vomiting","Gastroenteritis":"viro1-gastroenteritis","Cholera":"infect-cholera","Shigellosis":"semio-gi-dysentery","Amoebic dysentery":"parasito-amoebiasis","Clostridioides difficile colitis":"semio-gi-diarrhoea","Appendicitis":"semio-gi-vomiting","Peritonitis":"parasito-nematodes","Intestinal obstruction":"semio-gi-vomiting","Inflammatory bowel disease":"semio-gi-exam","Coeliac disease":"semio-gi-diarrhoea","Irritable bowel syndrome":"semio-gi-constipation","Slow-transit constipation":"semio-gi-constipation","Outlet dysfunction":"semio-gi-constipation","Ischaemic colitis":"semio-gi-dysentery","Diverticular disease":"semio-gi-bleeding","Colorectal cancer":"semio-gi-constipation","Haemorrhoids":"semio-gi-bleeding","Anal fissure":"anat3-orbit","Graves' disease":"semio-endo-thyroid","Toxic adenoma":"semio-endo-thyroid","Toxic multinodular goitre":"semio-endo-thyroid","Thyroiditis":"semio-endo-thyroid","Hashimoto's thyroiditis":"semio-endo-thyroid","Myxoedema coma":"semio-endo-thyroid","Thyroid cancer":"semio-endo-thyroid","Cushing's syndrome":"semio-endo-adrenal","Addison's disease":"semio-endo-adrenal","Adrenal crisis":"fa-endocrine","Phaeochromocytoma":"semio-endo-adrenal","Prolactinoma":"semio-endo-pituitary","Acromegaly":"semio-endo-pituitary","Pituitary apoplexy":"semio-endo-pituitary","Hypopituitarism":"semio-endo-pituitary","Diabetes insipidus":"biochem-water","Type 1 diabetes":"semio-endo-diabetes","Type 2 diabetes":"semio-endo-diabetes","Diabetic ketoacidosis":"semio-endo-diabetes","Hyperosmolar state":"semio-endo-diabetes","Hypoglycaemia":"semio-endo-diabetes","Lactic acidosis":"fa-cardiovascular","Meningitis":"infect-meningitis","Raised intracranial pressure":"semio-gi-vomiting","Rib fracture":"semio-resp-symptoms","Viral meningitis":"infect-meningitis","Tuberculous meningitis":"infect-meningitis","Subarachnoid haemorrhage":"anat3-ventricles","Migraine":"semio-gi-vomiting","Cerebral oedema":"fa-neural","Thyroid storm":"fa-endocrine","Hypokalaemia":"semio-gi-vomiting","Cardiac tamponade":"fa-cardiovascular","Rheumatic fever":"bacterio1-pyogenes","Ventricular tachycardia":"fa-cardiac-arrest","Abdominal aortic aneurysm":"anat2-vessels","Deep vein thrombosis":"pathanat-vascular","Giant cell arteritis":"infect-prolonged-fever","Pulmonary hypertension":"semio-cv-rhf","ARDS":"pathanat-vascular","Influenza":"viro1-orthomyxo-paramyxo","COVID-19":"history-epidemics","Legionnaires' disease":"infect-atb-principles","Pneumocystis pneumonia":"parasito-pneumocystosis","Whooping cough":"bacterio1-bordetella","Epiglottitis":"bacterio1-haemophilus","Mesothelioma":"pathanat-onco-intro","Small cell lung cancer":"semio-endo-adrenal","Anaphylaxis":"fa-cardiovascular","Sepsis":"fa-cardiovascular","Septic shock":"fa-cardiovascular","Malaria":"parasito-malaria","Typhoid fever":"bacterio1-enterobacteria-2","Brucellosis":"infect-prolonged-fever","Visceral leishmaniasis":"parasito-leishmaniasis","HIV infection":"infect-hiv-manifestations","Infectious mononucleosis":"viro1-herpesviruses","Tetanus":"physio-muscle-2","Carbon monoxide poisoning":"toxico-systemic","Paracetamol overdose":"toxico-kinetics","Encephalitis":"viro1-herpesviruses","Guillain-Barré syndrome":"bacterio1-pyogenes","Myasthenia gravis":"semio-gi-dysphagia","Multiple sclerosis":"semio-gi-constipation","Epileptic seizure":"anat3-cerebrum","Extradural haematoma":"fa-neural","Parkinson's disease":"semio-gi-constipation","Bell's palsy":"anat3-pns","Hepatic encephalopathy":"semio-gi-jaundice","Primary sclerosing cholangitis":"semio-gi-jaundice","Gilbert syndrome":"semio-gi-jaundice","Acute kidney injury":"fa-renal","Chronic kidney disease":"biochem-renal","Pyelonephritis":"semio-gi-vomiting","Nephrotic syndrome":"biochem-spe","Ectopic pregnancy":"embryo1-implantation","Pelvic inflammatory disease":"bacterio1-mycoplasma","Pernicious anaemia":"semio-gi-exam","Hereditary spherocytosis":"hemato1-rbc","Chronic lymphocytic leukaemia":"hemato1-wbc-2","Hodgkin lymphoma":"infect-hiv-manifestations","Multiple myeloma":"biochem-spe","Immune thrombocytopenia":"hemato1-platelets","Disseminated intravascular coagulation":"toxico-systemic","Primary hyperparathyroidism":"biochem-renal","Conn's syndrome":"semio-endo-adrenal","Congenital adrenal hyperplasia":"biochem-steroids","SIADH":"physio1-hypothalamus-pituitary","Zollinger-Ellison syndrome":"physio1-gastric-secretion","Hirschsprung disease":"physio1-colon-motility","Systemic lupus erythematosus":"fa-immune","Rheumatoid arthritis":"anat3-eyeball-1","Gout":"physio-taste-smell","Septic arthritis":"bacterio1-haemophilus","Sickle cell disease":"genetics1-mutation","Beta-thalassaemia":"genetics1-mutation","Cystic fibrosis":"parasito-aspergillosis","Haemophilia A":"hemato1-coagulation","Haemophilia B":"genetics1-heredity","Duchenne muscular dystrophy":"physio-muscle-2","Becker muscular dystrophy":"physio-muscle-2","Marfan syndrome":"semio-cv-intro","Achondroplasia":"genetics1-heredity","Neurofibromatosis type 1":"genetics1-heredity","Osteogenesis imperfecta":"genetics1-heredity","Spinal muscular atrophy":"anat2-vessels","Fragile X syndrome":"genetics1-heredity","Wilson disease":"semio-gi-hepatomegaly","G6PD deficiency":"toxico-systemic","Down syndrome":"genetics1-chromosomal","Turner syndrome":"genetics1-chromosomal","Klinefelter syndrome":"genetics1-chromosomal","Adult polycystic kidney disease":"genetics1-heredity","Cardiogenic shock":"fa-cardiovascular","Hypovolaemic shock":"fa-cardiovascular","Haemorrhagic shock":"fa-cardiovascular","Obstructive shock":"fa-cardiovascular","Distributive shock":"fa-cardiovascular","Spinal shock":"fa-cardiovascular","Tension pneumothorax":"fa-cardiovascular","Secondary adrenal insufficiency":"semio-endo-pituitary","Methaemoglobinaemia":"toxico-systemic","Severe malaria":"parasito-malaria","Mediterranean spotted fever":"infect-rickettsiosis","Hyperkalaemia":"semio-endo-adrenal","Food poisoning":"infect-tiac"}},
+ added: ["Cardiac tamponade","Constrictive pericarditis","Takotsubo cardiomyopathy","Dilated cardiomyopathy","Rheumatic fever","Wolff-Parkinson-White syndrome","Long QT syndrome","Ventricular tachycardia","Abdominal aortic aneurysm","Deep vein thrombosis","Giant cell arteritis","Pulmonary hypertension","ARDS","Influenza","COVID-19","Legionnaires' disease","Pneumocystis pneumonia","Whooping cough","Epiglottitis","Mesothelioma","Small cell lung cancer","Granulomatosis with polyangiitis","Anaphylaxis","Sepsis","Septic shock","Malaria","Typhoid fever","Brucellosis","Visceral leishmaniasis","HIV infection","Infectious mononucleosis","Tetanus","Botulism","Carbon monoxide poisoning","Organophosphate poisoning","Paracetamol overdose","Alcohol withdrawal","Encephalitis","Guillain-Barré syndrome","Myasthenia gravis","Multiple sclerosis","Epileptic seizure","Transient ischaemic attack","Subdural haematoma","Extradural haematoma","Parkinson's disease","Bell's palsy","Hepatic encephalopathy","Primary biliary cholangitis","Primary sclerosing cholangitis","Autoimmune hepatitis","Cholangiocarcinoma","Gilbert syndrome","Acute kidney injury","Chronic kidney disease","Pyelonephritis","Renal colic","Nephrotic syndrome","Ectopic pregnancy","Ovarian torsion","Testicular torsion","Pelvic inflammatory disease","Pre-eclampsia","Pernicious anaemia","Hereditary spherocytosis","Acute myeloid leukaemia","Chronic lymphocytic leukaemia","Hodgkin lymphoma","Multiple myeloma","Immune thrombocytopenia","Disseminated intravascular coagulation","Primary hyperparathyroidism","Hypoparathyroidism","Conn's syndrome","Congenital adrenal hyperplasia","SIADH","Insulinoma","Carcinoid syndrome","Zollinger-Ellison syndrome","Sigmoid volvulus","Strangulated hernia","Hirschsprung disease","Eosinophilic oesophagitis","Systemic lupus erythematosus","Rheumatoid arthritis","Gout","Septic arthritis","Huntington disease","Myotonic dystrophy","Friedreich ataxia","Phenylketonuria","Familial hypercholesterolaemia","Adult polycystic kidney disease","Ehlers-Danlos syndrome","Rett syndrome","Leber hereditary optic neuropathy","DiGeorge syndrome","Cri-du-chat syndrome","Prader-Willi syndrome","Angelman syndrome","Cardiogenic shock","Hypovolaemic shock","Haemorrhagic shock","Obstructive shock","Distributive shock","Spinal shock","Tension pneumothorax","Secondary adrenal insufficiency","Methaemoglobinaemia","Severe malaria","Mediterranean spotted fever","Hydatid cyst of the liver","Hyperkalaemia","Cerebral toxoplasmosis","Food poisoning"],
  lists: {
   dx: [
    ["Acute coronary syndrome",["ACS","myocardial infarction","MI","heart attack","STEMI","NSTEMI","unstable angina","infarction"],"Cardiac"],
@@ -238,7 +238,15 @@ SINA.wardle = {
    ["Obstructive shock",[],"Vascular"],
    ["Distributive shock",["vasoplegic shock"],"Whole body"],
    ["Spinal shock",["neurogenic shock"],"Neurological"],
-   ["Tension pneumothorax",[],"Respiratory"]
+   ["Tension pneumothorax",[],"Respiratory"],
+   ["Secondary adrenal insufficiency",["corticotropic insufficiency","ACTH deficiency","steroid withdrawal"],"Endocrine"],
+   ["Methaemoglobinaemia",["methemoglobinemia","MetHb"],"Blood"],
+   ["Severe malaria",["cerebral malaria","complicated malaria"],"Blood"],
+   ["Mediterranean spotted fever",["boutonneuse fever","rickettsiosis","Rickettsia conorii infection"],"Whole body"],
+   ["Hydatid cyst of the liver",["liver hydatid cyst","hepatic hydatidosis","echinococcosis of the liver"],"Hepatobiliary"],
+   ["Hyperkalaemia",["high potassium","hyperkalemia"],"Electrolytes"],
+   ["Cerebral toxoplasmosis",["toxoplasmosis"],"Neurological"],
+   ["Food poisoning",["foodborne toxi-infection","TIAC"],"Digestive"]
   ],
   wall: [
    ["Inferior",["inferior wall","diaphragmatic"],"ECG territory"],
@@ -304,7 +312,8 @@ SINA.wardle = {
    ["Metabolic alkalosis",[],"Acid-base"],
    ["Mixed alkalosis",["respiratory and metabolic alkalosis"],"Acid-base"],
    ["Mixed acidosis",["respiratory and metabolic acidosis"],"Acid-base"],
-   ["Normal blood gas",["normal gas","no disorder"],"Acid-base"]
+   ["Normal blood gas",["normal gas","no disorder"],"Acid-base"],
+   ["Metabolic alkalosis with respiratory compensation",["compensated metabolic alkalosis"],"Acid-base"]
   ],
   abx: [
    ["IV ceftriaxone",["ceftriaxone","third-generation cephalosporin","C3G","Rocephin"],"Cephalosporin"],
@@ -329,7 +338,17 @@ SINA.wardle = {
    ["Oral ornidazole",["ornidazole"],"Nitroimidazole"],
    ["Oral tinidazole",["tinidazole"],"Nitroimidazole"],
    ["Oral secnidazole",["secnidazole"],"Nitroimidazole"],
-   ["Oral paromomycin",["paromomycin"],"Aminoglycoside"]
+   ["Oral paromomycin",["paromomycin"],"Aminoglycoside"],
+   ["IV artesunate",["artesunate"],"Antimalarial"],
+   ["Artemether-lumefantrine",["coartem","ACT","artemether"],"Antimalarial"],
+   ["Chloroquine",["nivaquine"],"Antimalarial"],
+   ["Primaquine",[],"Antimalarial"],
+   ["IV quinine",["quinine"],"Antimalarial"],
+   ["Cotrimoxazole",["co-trimoxazole","trimethoprim-sulfamethoxazole","bactrim","TMP-SMX"],"Sulfonamide"],
+   ["Oral josamycin",["josamycin"],"Macrolide"],
+   ["Albendazole",[],"Antiparasitic"],
+   ["Praziquantel",[],"Antiparasitic"],
+   ["Fluconazole",[],"Antifungal"]
   ],
   test: [
    ["Upper GI endoscopy",["EGD","gastroscopy","OGD","fibroscopy","endoscopy"],"Endoscopy"],
@@ -368,7 +387,18 @@ SINA.wardle = {
    ["HbA1c",["glycated haemoglobin","A1c"],"Blood"],
    ["Arterial blood gas",["ABG","blood gas"],"Blood"],
    ["Blood count",["CBC","FBC","haemoglobin","Hb"],"Blood"],
-   ["Electrolytes",["ionogram","potassium","sodium"],"Blood"]
+   ["Electrolytes",["ionogram","potassium","sodium"],"Blood"],
+   ["Thick blood film",["thick drop","thin smear","blood smear","malaria smear"],"Blood"],
+   ["Malaria rapid test",["RDT","rapid diagnostic test"],"Bedside"],
+   ["CO-oximetry",["co-oximeter","carboxyhaemoglobin","COHb"],"Blood"],
+   ["Pulse oximetry",["SpO2","pulse oximeter"],"Bedside"],
+   ["Cortisol and ACTH",["cortisol","ACTH","plasma cortisol"],"Blood"],
+   ["HIV test",["ELISA","HIV serology","rapid HIV test"],"Blood"],
+   ["CD4 count",["CD4","lymphocyte subsets"],"Blood"],
+   ["Bronchoalveolar lavage",["BAL","bronchoscopy"],"Endoscopy"],
+   ["Hydatid serology",["echinococcus serology","Western blot"],"Blood"],
+   ["Chest CT",["thoracic CT","CT chest"],"Imaging"],
+   ["Rickettsia serology",["immunofluorescence","rickettsial serology"],"Blood"]
   ],
   rhythm: [
    ["Atrial fibrillation",["AF","AFib"],"Rhythm"],
@@ -462,7 +492,8 @@ SINA.wardle = {
    ["Haemophilus influenzae type b",["Hib","H. influenzae"],"Bacterium"],
    ["Group B streptococcus",["GBS","Streptococcus agalactiae"],"Bacterium"],
    ["Escherichia coli",["E. coli"],"Bacterium"],
-   ["Staphylococcus aureus",["S. aureus","staph"],"Bacterium"]
+   ["Staphylococcus aureus",["S. aureus","staph"],"Bacterium"],
+   ["Rickettsia conorii",["rickettsia","R. conorii"],"Bacterium"]
   ],
   bone: [
    ["Clavicle",["collarbone"],"Shoulder girdle"],
@@ -541,7 +572,8 @@ SINA.wardle = {
    ["Adductor pollicis",[],"Muscle"],
    ["Dorsal interossei",["interossei"],"Muscle"],
    ["Palmar interossei",[],"Muscle"],
-   ["Abductor digiti minimi",[],"Muscle"]
+   ["Abductor digiti minimi",[],"Muscle"],
+   ["Coracobrachialis",[],"Muscle"]
   ],
   space: [
    ["Radial groove",["spiral groove"],"Passage"],
@@ -572,7 +604,8 @@ SINA.wardle = {
    ["Thoracoacromial artery",[],"Artery"],
    ["Superior ulnar collateral artery",[],"Artery"],
    ["Superficial palmar arch",[],"Artery"],
-   ["Deep palmar arch",[],"Artery"]
+   ["Deep palmar arch",[],"Artery"],
+   ["Lateral thoracic artery",["inferior thoracic artery"],"Artery"]
   ],
   gdx: [
    ["Sickle cell disease",["sickle cell anaemia","HbSS","drepanocytosis"],"Monogenic"],
@@ -612,7 +645,8 @@ SINA.wardle = {
    ["DiGeorge syndrome",["22q11.2 deletion","velocardiofacial syndrome"],"Chromosomal"],
    ["Cri-du-chat syndrome",["5p deletion","cri du chat"],"Chromosomal"],
    ["Prader-Willi syndrome",["Prader Willi"],"Chromosomal"],
-   ["Angelman syndrome",[],"Chromosomal"]
+   ["Angelman syndrome",[],"Chromosomal"],
+   ["Immune thrombocytopenia",["ITP"],"Not genetic"]
   ],
   mut: [
    ["Missense mutation",["missense"],"Mutation"],
@@ -623,7 +657,8 @@ SINA.wardle = {
    ["Readthrough mutation",["readthrough","stop-loss"],"Mutation"],
    ["Regulatory mutation",["promoter mutation"],"Mutation"],
    ["Exon deletion",["deletion"],"Mutation"],
-   ["Exon duplication",["duplication"],"Mutation"]
+   ["Exon duplication",["duplication"],"Mutation"],
+   ["Dominant-negative mutation",["dominant negative","antimorphic"],"Mutation"]
   ],
   inh: [
    ["Autosomal dominant",["AD","dominant"],"Inheritance"],
@@ -640,7 +675,8 @@ SINA.wardle = {
    ["50%",["half","1 in 2"],"Risk"],
    ["25%",["quarter","1 in 4"],"Risk"],
    ["12.5%",["1 in 8"],"Risk"],
-   ["0%",["none","zero","no risk"],"Risk"]
+   ["0%",["none","zero","no risk"],"Risk"],
+   ["Low, not zero",["low","very low","small risk"],"Risk"]
   ],
   gtest: [
    ["Karyotype",["karyotyping","chromosome analysis"],"Cytogenetics"],
@@ -660,7 +696,104 @@ SINA.wardle = {
    ["Ring chromosome",["ring"],"Structural"],
    ["Isochromosome",[],"Structural"],
    ["Inversion",["pericentric inversion","paracentric inversion"],"Structural"],
-   ["Duplication",["partial trisomy"],"Structural"]
+   ["Duplication",["partial trisomy"],"Structural"],
+   ["Mosaicism",["mosaic","46,XY/47,XXY"],"Numerical"]
+  ],
+  shock: [
+   ["Cardiogenic shock",["pump failure"],"Shock"],
+   ["Hypovolaemic shock",["hypovolemic shock"],"Shock"],
+   ["Haemorrhagic shock",["hemorrhagic shock"],"Shock"],
+   ["Septic shock",[],"Shock"],
+   ["Anaphylactic shock",["allergic shock"],"Shock"],
+   ["Spinal shock",["neurogenic shock"],"Shock"],
+   ["Obstructive shock",[],"Shock"],
+   ["Distributive shock",["vasoplegic shock"],"Shock"]
+  ],
+  edrug: [
+   ["IM adrenaline",["intramuscular adrenaline","epinephrine IM","adrenaline auto-injector","EpiPen"],"Catecholamine"],
+   ["IV adrenaline",["epinephrine IV"],"Catecholamine"],
+   ["Noradrenaline",["norepinephrine"],"Catecholamine"],
+   ["Dobutamine",[],"Catecholamine"],
+   ["H1 antihistamine",["antihistamine","cetirizine","dexchlorpheniramine"],"Antihistamine"],
+   ["IV hydrocortisone",["hydrocortisone","corticosteroid","steroids"],"Corticosteroid"],
+   ["Inhaled salbutamol",["salbutamol","ventolin"],"Bronchodilator"],
+   ["Saline bolus",["IV fluids","fluid filling","normal saline"],"Fluid"],
+   ["100% oxygen",["high-flow oxygen","normobaric oxygen","oxygen"],"Gas"],
+   ["Hyperbaric oxygen",["hyperbaric chamber","HBO"],"Gas"],
+   ["Methylene blue",[],"Antidote"],
+   ["Beta-blocker",["propranolol"],"Beta-blocker"],
+   ["IV insulin",["insulin"],"Hormone"]
+  ],
+  plasmo: [
+   ["Plasmodium falciparum",["falciparum","P. falciparum"],"Plasmodium"],
+   ["Plasmodium vivax",["vivax","P. vivax"],"Plasmodium"],
+   ["Plasmodium ovale",["ovale","P. ovale"],"Plasmodium"],
+   ["Plasmodium malariae",["malariae","P. malariae"],"Plasmodium"],
+   ["Plasmodium knowlesi",["knowlesi","P. knowlesi"],"Plasmodium"]
+  ],
+  ce: [
+   ["CE1",["simple cyst","unilocular"],"WHO-IWGE stage"],
+   ["CE2",["multivesicular","honeycomb","rosette"],"WHO-IWGE stage"],
+   ["CE3a",["detached membranes","water-lily"],"WHO-IWGE stage"],
+   ["CE3b",["daughter cysts in a solid matrix"],"WHO-IWGE stage"],
+   ["CE4",["ball of wool"],"WHO-IWGE stage"],
+   ["CE5",["calcified"],"WHO-IWGE stage"]
+  ],
+  htx: [
+   ["Surgery with albendazole",["surgery","pericystectomy","dome resection"],"Hydatid treatment"],
+   ["PAIR",["puncture aspiration injection reaspiration"],"Hydatid treatment"],
+   ["Percutaneous drainage",["drainage"],"Hydatid treatment"],
+   ["Albendazole alone",["albendazole"],"Hydatid treatment"],
+   ["Watch and wait",["surveillance","monitoring"],"Hydatid treatment"]
+  ],
+  host: [
+   ["Dog",["dogs"],"Animal"],
+   ["Sheep",["sheep","herbivore"],"Animal"],
+   ["Cattle",["cow","cows"],"Animal"],
+   ["Human",["man","people"],"Animal"],
+   ["Brown dog tick",["tick","Rhipicephalus sanguineus"],"Arthropod"],
+   ["Anopheles mosquito",["mosquito","Anopheles"],"Arthropod"],
+   ["Sandfly",["phlebotomus"],"Arthropod"],
+   ["Freshwater snail",["snail","bulinus"],"Mollusc"]
+  ],
+  zone: [
+   ["Zona glomerulosa",["glomerulosa"],"Adrenal layer"],
+   ["Zona fasciculata",["fasciculata"],"Adrenal layer"],
+   ["Zona reticularis",["reticularis"],"Adrenal layer"],
+   ["Adrenal medulla",["medulla"],"Adrenal layer"]
+  ],
+  buffer: [
+   ["Bicarbonate",["H2CO3/HCO3-","carbonic acid","HCO3"],"Buffer"],
+   ["Phosphate",["HPO4/H2PO4"],"Buffer"],
+   ["Plasma proteins",["proteins","albumin"],"Buffer"],
+   ["Haemoglobin",["hemoglobin","Hb"],"Buffer"],
+   ["Ammonia",["ammonium","NH3"],"Buffer"]
+  ],
+  organ: [
+   ["Lungs",["lung","ventilation","breathing"],"Organ"],
+   ["Kidneys",["kidney","renal"],"Organ"],
+   ["Blood buffers",["buffers"],"Organ"],
+   ["Liver",[],"Organ"],
+   ["Bone",[],"Organ"]
+  ],
+  gconcept: [
+   ["De novo mutation",["de novo","new mutation","neomutation"],"Concept"],
+   ["Germline mosaicism",["gonadal mosaicism"],"Concept"],
+   ["Incomplete penetrance",["penetrance"],"Concept"],
+   ["Variable expressivity",["expressivity"],"Concept"],
+   ["Pleiotropy",["pleiotropic"],"Concept"],
+   ["Genomic imprinting",["imprinting"],"Concept"],
+   ["Co-dominance",["codominance"],"Concept"],
+   ["Incomplete dominance",["semi-dominance"],"Concept"],
+   ["Consanguinity",["related parents"],"Concept"]
+  ],
+  axwall: [
+   ["Anterior wall of the axilla",["anterior wall"],"Axilla"],
+   ["Posterior wall of the axilla",["posterior wall"],"Axilla"],
+   ["Medial wall of the axilla",["medial wall"],"Axilla"],
+   ["Lateral wall of the axilla",["lateral wall"],"Axilla"],
+   ["Apex of the axilla",["apex","cervico-axillary canal"],"Axilla"],
+   ["Base of the axilla",["floor","base"],"Axilla"]
   ]
  },
  attr: {
@@ -893,7 +1026,15 @@ SINA.wardle = {
    "Obstructive shock": ["Vascular","Obstructive","Acute"],
    "Distributive shock": ["Whole body","Haemodynamic","Acute"],
    "Spinal shock": ["Neurological","Haemodynamic","Acute"],
-   "Tension pneumothorax": ["Respiratory","Mechanical","Acute"]
+   "Tension pneumothorax": ["Respiratory","Mechanical","Acute"],
+   "Secondary adrenal insufficiency": ["Endocrine","Hormone deficit","Chronic"],
+   "Methaemoglobinaemia": ["Blood","Toxic","Acute"],
+   "Severe malaria": ["Blood","Infective","Acute"],
+   "Mediterranean spotted fever": ["Whole body","Infective","Acute"],
+   "Hydatid cyst of the liver": ["Hepatobiliary","Infective","Chronic"],
+   "Hyperkalaemia": ["Electrolytes","Metabolic","Acute"],
+   "Cerebral toxoplasmosis": ["Neurological","Infective","Subacute"],
+   "Food poisoning": ["Digestive","Toxic","Acute"]
   } },
   wall: { cols: ["Leads","ST change","View"], near: [], v: {
    "Inferior": [["II","III","aVF"],"Elevation","Limb"],
@@ -959,9 +1100,10 @@ SINA.wardle = {
    "Metabolic alkalosis": ["High","Normal","High"],
    "Mixed alkalosis": ["High","Low","High"],
    "Mixed acidosis": ["Low","High","Low"],
-   "Normal blood gas": ["Normal","Normal","Normal"]
+   "Normal blood gas": ["Normal","Normal","Normal"],
+   "Metabolic alkalosis with respiratory compensation": ["High","High","High"]
   } },
-  abx: { cols: ["Route","Family","Drugs"], near: [["Penicillin","Cephalosporin"],["Nitroimidazole","Aminoglycoside"]], v: {
+  abx: { cols: ["Route","Family","Drugs"], near: [["Penicillin","Cephalosporin"],["Nitroimidazole","Aminoglycoside"],["IV or oral","IV"],["IV or oral","Oral"],["Antimalarial","Antiparasitic"]], v: {
    "IV ceftriaxone": ["IV","Cephalosporin","One"],
    "IV cefotaxime": ["IV","Cephalosporin","One"],
    "IV ceftriaxone + azithromycin": ["IV","Cephalosporin","Two"],
@@ -984,9 +1126,19 @@ SINA.wardle = {
    "Oral ornidazole": ["Oral","Nitroimidazole","One"],
    "Oral tinidazole": ["Oral","Nitroimidazole","One"],
    "Oral secnidazole": ["Oral","Nitroimidazole","One"],
-   "Oral paromomycin": ["Oral","Aminoglycoside","One"]
+   "Oral paromomycin": ["Oral","Aminoglycoside","One"],
+   "IV artesunate": ["IV","Antimalarial","One"],
+   "Artemether-lumefantrine": ["Oral","Antimalarial","Two"],
+   "Chloroquine": ["Oral","Antimalarial","One"],
+   "Primaquine": ["Oral","Antimalarial","One"],
+   "IV quinine": ["IV","Antimalarial","One"],
+   "Cotrimoxazole": ["IV or oral","Sulfonamide","Two"],
+   "Oral josamycin": ["Oral","Macrolide","One"],
+   "Albendazole": ["Oral","Antiparasitic","One"],
+   "Praziquantel": ["Oral","Antiparasitic","One"],
+   "Fluconazole": ["Oral","Antifungal","One"]
   } },
-  test: { cols: ["Kind","Invasive","Looks at"], near: [["Endoscopy","Sample"],["Minimal","Yes"],["Minimal","No"],["Gut","Abdomen"],["Gut","Bile ducts"],["Liver","Bile ducts"],["Liver","Abdomen"],["Brain","Eye"],["Hormones","Thyroid"],["Metabolism","Hormones"],["Blood","Bedside"]], v: {
+  test: { cols: ["Kind","Invasive","Looks at"], near: [["Endoscopy","Sample"],["Minimal","Yes"],["Minimal","No"],["Gut","Abdomen"],["Gut","Bile ducts"],["Liver","Bile ducts"],["Liver","Abdomen"],["Brain","Eye"],["Hormones","Thyroid"],["Metabolism","Hormones"],["Blood","Bedside"],["Blood","Infection"],["Immunity","Infection"]], v: {
    "Upper GI endoscopy": ["Endoscopy","Yes","Gut"],
    "Colonoscopy": ["Endoscopy","Yes","Gut"],
    "ERCP": ["Endoscopy","Yes","Bile ducts"],
@@ -1023,7 +1175,18 @@ SINA.wardle = {
    "HbA1c": ["Blood","No","Metabolism"],
    "Arterial blood gas": ["Blood","Minimal","Metabolism"],
    "Blood count": ["Blood","No","Blood"],
-   "Electrolytes": ["Blood","No","Metabolism"]
+   "Electrolytes": ["Blood","No","Metabolism"],
+   "Thick blood film": ["Blood","Minimal","Infection"],
+   "Malaria rapid test": ["Bedside","Minimal","Infection"],
+   "CO-oximetry": ["Blood","Minimal","Blood"],
+   "Pulse oximetry": ["Bedside","No","Blood"],
+   "Cortisol and ACTH": ["Blood","No","Hormones"],
+   "HIV test": ["Blood","No","Infection"],
+   "CD4 count": ["Blood","No","Immunity"],
+   "Bronchoalveolar lavage": ["Endoscopy","Yes","Chest"],
+   "Hydatid serology": ["Blood","No","Infection"],
+   "Chest CT": ["Imaging","No","Chest"],
+   "Rickettsia serology": ["Blood","No","Infection"]
   } },
   rhythm: { cols: ["Rhythm","P waves","Rate"], near: [["Irregular","Chaotic"],["Absent","Not seen"],["Absent","Sawtooth"],["Fast","Chaotic"]], v: {
    "Atrial fibrillation": ["Irregular","Absent","Fast"],
@@ -1117,7 +1280,8 @@ SINA.wardle = {
    "Haemophilus influenzae type b": ["Negative","Coccobacillus","Droplets"],
    "Group B streptococcus": ["Positive","Cocci in chains","Mother to newborn"],
    "Escherichia coli": ["Negative","Bacillus","Mother to newborn"],
-   "Staphylococcus aureus": ["Positive","Cocci in clusters","Skin"]
+   "Staphylococcus aureus": ["Positive","Cocci in clusters","Skin"],
+   "Rickettsia conorii": ["Negative","Coccobacillus","Tick bite"]
   } },
   bone: { cols: ["Bone","Part","Region"], near: [["Radius","Ulna"],["Shoulder","Arm"],["Arm","Elbow"],["Elbow","Forearm"],["Forearm","Wrist"],["Proximal end","Process"],["Shaft","Proximal end"],["Shaft","Distal end"]], v: {
    "Clavicle": ["Clavicle","Shaft","Shoulder"],
@@ -1196,7 +1360,8 @@ SINA.wardle = {
    "Adductor pollicis": ["Ulnar","Hand","Thumb adduction"],
    "Dorsal interossei": ["Ulnar","Hand","Finger abduction"],
    "Palmar interossei": ["Ulnar","Hand","Finger adduction"],
-   "Abductor digiti minimi": ["Ulnar","Hand","Little finger abduction"]
+   "Abductor digiti minimi": ["Ulnar","Hand","Little finger abduction"],
+   "Coracobrachialis": ["Musculocutaneous","Arm","Shoulder flexion"]
   } },
   space: { cols: ["Region","Nerve inside","Artery inside"], near: [["Shoulder","Arm"],["Arm","Elbow"],["Wrist","Hand"],["Elbow","Forearm"]], v: {
    "Radial groove": ["Arm","Radial","Yes"],
@@ -1227,7 +1392,8 @@ SINA.wardle = {
    "Thoracoacromial artery": ["Axilla","Axillary","Anterior"],
    "Superior ulnar collateral artery": ["Arm","Brachial","Medial"],
    "Superficial palmar arch": ["Hand","Ulnar + radial branch","Anterior"],
-   "Deep palmar arch": ["Hand","Radial + ulnar branch","Anterior"]
+   "Deep palmar arch": ["Hand","Radial + ulnar branch","Anterior"],
+   "Lateral thoracic artery": ["Axilla","Axillary","Medial"]
   } },
   gdx: { cols: ["Inheritance","Change","Mainly affects"], near: [["Autosomal recessive","X-linked recessive"],["Autosomal dominant","X-linked dominant"],["Blood","Liver"],["Muscle","Brain"],["Skeleton","Connective tissue"],["Repeat expansion","Varies"],["Microdeletion","Deletion"],["Imprinting","Microdeletion"],["Eyes","Brain"],["Kidneys","Metabolism"]], v: {
    "Sickle cell disease": ["Autosomal recessive","Missense","Blood"],
@@ -1267,7 +1433,8 @@ SINA.wardle = {
    "DiGeorge syndrome": ["Chromosomal","Microdeletion","Development"],
    "Cri-du-chat syndrome": ["Chromosomal","Deletion","Development"],
    "Prader-Willi syndrome": ["Chromosomal","Imprinting","Development"],
-   "Angelman syndrome": ["Chromosomal","Imprinting","Development"]
+   "Angelman syndrome": ["Chromosomal","Imprinting","Development"],
+   "Immune thrombocytopenia": ["Not inherited","None","Blood"]
   } },
   mut: { cols: ["Changes","Size","Protein"], near: [["Truncated","Garbled"],["Altered","Less made"],["Single base","Small"]], v: {
    "Missense mutation": ["One amino acid","Single base","Altered"],
@@ -1278,7 +1445,8 @@ SINA.wardle = {
    "Readthrough mutation": ["Stop codon","Single base","Extended"],
    "Regulatory mutation": ["Expression level","Small","Less made"],
    "Exon deletion": ["Whole exons","Large","Missing exon"],
-   "Exon duplication": ["Whole exons","Large","Extra exon"]
+   "Exon duplication": ["Whole exons","Large","Extra exon"],
+   "Dominant-negative mutation": ["Protein function","Varies","Interferes with the normal one"]
   } },
   inh: { cols: ["Chromosome","Heterozygote affected","Typical pattern"], near: [["Autosome","X"],["Vertical","Father to all daughters"]], v: {
    "Autosomal dominant": ["Autosome","Yes","Vertical"],
@@ -1295,7 +1463,8 @@ SINA.wardle = {
    "50%": ["Yes","Yes","Yes"],
    "25%": ["No","Yes","Yes"],
    "12.5%": ["No","No","Yes"],
-   "0%": ["No","No","No"]
+   "0%": ["No","No","No"],
+   "Low, not zero": ["No","No","Yes"]
   } },
   gtest: { cols: ["Resolution","Scope","Sees balanced rearrangements"], near: [["Targeted","Exome or panel"],["Partly","Yes"],["Partly","No"]], v: {
    "Karyotype": ["5–10 Mb","Whole genome","Yes"],
@@ -1304,7 +1473,7 @@ SINA.wardle = {
    "MLPA": ["Exon","Targeted","No"],
    "NGS": ["Single base","Exome or panel","No"]
   } },
-  chrom: { cols: ["Type","Chromosomes involved","Net gain or loss"], near: [["One","Two"],["Gain","Gain and loss"],["Loss","Gain and loss"]], v: {
+  chrom: { cols: ["Type","Chromosomes involved","Net gain or loss"], near: [["One","Two"],["Gain","Gain and loss"],["Loss","Gain and loss"],["Gain","Gain in some cells"]], v: {
    "Free trisomy": ["Numerical","One","Gain"],
    "Monosomy": ["Numerical","One","Loss"],
    "Triploidy": ["Numerical","All","Gain"],
@@ -1315,7 +1484,104 @@ SINA.wardle = {
    "Ring chromosome": ["Structural","One","Loss"],
    "Isochromosome": ["Structural","One","Gain and loss"],
    "Inversion": ["Structural","One","None"],
-   "Duplication": ["Structural","One","Gain"]
+   "Duplication": ["Structural","One","Gain"],
+   "Mosaicism": ["Numerical","One","Gain in some cells"]
+  } },
+  shock: { cols: ["Family","Neck veins","Trigger"], near: [["Hypovolaemic","Distributive"],["Volume loss","Bleeding"],["Infection","Allergen"],["Vasodilation","Allergen"],["Vasodilation","Infection"],["Vasodilation","Spinal cord injury"]], v: {
+   "Cardiogenic shock": ["Cardiogenic","Distended","Pump failure"],
+   "Hypovolaemic shock": ["Hypovolaemic","Flat","Volume loss"],
+   "Haemorrhagic shock": ["Hypovolaemic","Flat","Bleeding"],
+   "Septic shock": ["Distributive","Flat","Infection"],
+   "Anaphylactic shock": ["Distributive","Flat","Allergen"],
+   "Spinal shock": ["Distributive","Flat","Spinal cord injury"],
+   "Obstructive shock": ["Obstructive","Distended","Blocked flow"],
+   "Distributive shock": ["Distributive","Flat","Vasodilation"]
+  } },
+  edrug: { cols: ["Class","Route","Raises blood pressure"], near: [["IM","IV"],["Indirectly","Yes"],["Catecholamine","Hormone"]], v: {
+   "IM adrenaline": ["Catecholamine","IM","Yes"],
+   "IV adrenaline": ["Catecholamine","IV","Yes"],
+   "Noradrenaline": ["Catecholamine","IV","Yes"],
+   "Dobutamine": ["Catecholamine","IV","Yes"],
+   "H1 antihistamine": ["Antihistamine","Oral or IV","No"],
+   "IV hydrocortisone": ["Corticosteroid","IV","Indirectly"],
+   "Inhaled salbutamol": ["Bronchodilator","Inhaled","No"],
+   "Saline bolus": ["Fluid","IV","Yes"],
+   "100% oxygen": ["Gas","Mask","No"],
+   "Hyperbaric oxygen": ["Gas","Chamber","No"],
+   "Methylene blue": ["Antidote","IV","No"],
+   "Beta-blocker": ["Beta-blocker","Oral or IV","No"],
+   "IV insulin": ["Hormone","IV","No"]
+  } },
+  plasmo: { cols: ["Fever every","Late relapses","Severe forms"], near: [["Hypnozoites","Recrudescence"],["Possible","Yes"]], v: {
+   "Plasmodium falciparum": ["48 h","No","Yes"],
+   "Plasmodium vivax": ["48 h","Hypnozoites","Rare"],
+   "Plasmodium ovale": ["48 h","Hypnozoites","Rare"],
+   "Plasmodium malariae": ["72 h","Recrudescence","Rare"],
+   "Plasmodium knowlesi": ["24 h","No","Possible"]
+  } },
+  ce: { cols: ["Activity","Looks like","Usual treatment"], near: [["Active","Transitional"],["Transitional","Inactive"],["PAIR or drainage","Surgery"]], v: {
+   "CE1": ["Active","Unilocular","PAIR or drainage"],
+   "CE2": ["Active","Honeycomb","Surgery"],
+   "CE3a": ["Transitional","Detached membranes","PAIR or drainage"],
+   "CE3b": ["Transitional","Daughter cysts","Surgery"],
+   "CE4": ["Inactive","Ball of wool","Watch and wait"],
+   "CE5": ["Inactive","Calcified","Watch and wait"]
+  } },
+  htx: { cols: ["Invasive","With albendazole","For"], near: [["Minimal","Yes"],["Minimal","No"]], v: {
+   "Surgery with albendazole": ["Yes","Yes","CE2, CE3b, complicated"],
+   "PAIR": ["Minimal","Yes","CE1, CE3a up to 10 cm"],
+   "Percutaneous drainage": ["Minimal","Yes","Over 10 cm"],
+   "Albendazole alone": ["No","Yes","Small cysts"],
+   "Watch and wait": ["No","No","CE4, CE5"]
+  } },
+  host: { cols: ["Kind","Bites or stings","Lives near people"], near: [["Carnivore","Herbivore"],["Arachnid","Insect"]], v: {
+   "Dog": ["Carnivore","No","Yes"],
+   "Sheep": ["Herbivore","No","Partly"],
+   "Cattle": ["Herbivore","No","Partly"],
+   "Human": ["Human","No","Yes"],
+   "Brown dog tick": ["Arachnid","Yes","Yes"],
+   "Anopheles mosquito": ["Insect","Yes","Partly"],
+   "Sandfly": ["Insect","Yes","Partly"],
+   "Freshwater snail": ["Mollusc","No","No"]
+  } },
+  zone: { cols: ["Makes","Position","Mainly driven by"], near: [["Outer cortex","Middle cortex"],["Middle cortex","Inner cortex"],["Cortisol","Androgens"]], v: {
+   "Zona glomerulosa": ["Aldosterone","Outer cortex","Renin-angiotensin"],
+   "Zona fasciculata": ["Cortisol","Middle cortex","ACTH"],
+   "Zona reticularis": ["Androgens","Inner cortex","ACTH"],
+   "Adrenal medulla": ["Catecholamines","Centre","Sympathetic nerves"]
+  } },
+  buffer: { cols: ["System","pKa","Main site"], near: [["Plasma","Red cells"],["Cells and urine","Urine"]], v: {
+   "Bicarbonate": ["Open","6.1","Plasma"],
+   "Phosphate": ["Closed","6.8","Cells and urine"],
+   "Plasma proteins": ["Closed","Varies","Plasma"],
+   "Haemoglobin": ["Closed","Varies","Red cells"],
+   "Ammonia": ["Closed","9.2","Urine"]
+  } },
+  organ: { cols: ["Acts on","Speed","Role in acid-base"], near: [["Minutes","Seconds"],["Minutes","Hours to days"]], v: {
+   "Lungs": ["PCO₂","Minutes","Yes"],
+   "Kidneys": ["H⁺ and HCO₃⁻","Hours to days","Yes"],
+   "Blood buffers": ["H⁺ directly","Seconds","Yes"],
+   "Liver": ["Metabolism","—","Minor"],
+   "Bone": ["Mineral salts","Days or more","Minor"]
+  } },
+  gconcept: { cols: ["About","Pedigree clue","Course example"], near: [["Origin","Transmission"],["Expression","Phenotype"]], v: {
+   "De novo mutation": ["Origin","Isolated case, healthy parents","Achondroplasia"],
+   "Germline mosaicism": ["Origin","Several affected sibs, healthy parents","Achondroplasia"],
+   "Incomplete penetrance": ["Expression","Skipped generation","Retinoblastoma"],
+   "Variable expressivity": ["Expression","Different severity","Neurofibromatosis 1"],
+   "Pleiotropy": ["Phenotype","Several organs","Marfan"],
+   "Genomic imprinting": ["Expression","Parent of origin matters","—"],
+   "Co-dominance": ["Phenotype","Both alleles show","ABO blood groups"],
+   "Incomplete dominance": ["Phenotype","Intermediate trait","—"],
+   "Consanguinity": ["Transmission","Related parents","Autosomal recessive"]
+  } },
+  axwall: { cols: ["Main muscles","Side","Bone"], near: [["Anterior","Medial"],["Posterior","Medial"],["Anterior","Lateral"],["Posterior","Lateral"]], v: {
+   "Anterior wall of the axilla": ["Pectorals","Anterior","Clavicle"],
+   "Posterior wall of the axilla": ["Subscapularis, teres major","Posterior","Scapula"],
+   "Medial wall of the axilla": ["Serratus anterior","Medial","Ribs"],
+   "Lateral wall of the axilla": ["Coracobrachialis, biceps","Lateral","Humerus"],
+   "Apex of the axilla": ["None","Upper","Clavicle and 1st rib"],
+   "Base of the axilla": ["None","Lower","None"]
   } }
  },
  tracks: {
@@ -2125,6 +2391,559 @@ SINA.wardle = {
       src: [["semio-endo-diabetes","Diabetes semiology",2],["fa-endocrine","Endocrine function: endocrine crises",2]]
      }
     ]
+   },
+   {
+    title: "Stung at a picnic",
+    who: "Man, 31",
+    tag: "Emergency",
+    vit: [["HR","134"],["BP","72/40"],["RR","28"],["SpO₂","91%"],["T","36.9"]],
+    line: "Stung by a wasp on the neck ten minutes ago. A friend drove him in; he is getting worse in the car.",
+    dx: "Anaphylactic shock after a wasp sting",
+    outcome: "Two doses of IM adrenaline, fluids. Home the next day with an adrenaline auto-injector.",
+    takeaways: ["Anaphylaxis: skin + airway + gut + circulation within minutes.","It's a distributive shock: vasodilation and leak.","IM adrenaline in the thigh, without delay.","Then oxygen, legs raised, fluids; antihistamine and steroid later."],
+    n: 11,
+    stages: [
+     {
+      id: "p",
+      label: "Presentation",
+      list: "dx",
+      q: "What is happening?",
+      ev: "He is pale and anxious and keeps scratching.",
+      hints: ["Raised, itchy wheals cover his trunk.","His lips and eyelids are swelling.","He wheezes and his voice is hoarse.","He has vomited once and feels faint.","Minutes after re-exposure to something he is sensitised to."],
+      answer: "Anaphylaxis",
+      key: 4,
+      why: "Skin, respiratory, GI and cardiovascular signs within minutes of a sting: anaphylaxis, an IgE-mediated type I reaction.",
+      contenders: [["Anaphylaxis","Skin, airway, gut and circulation, within minutes."],["Asthma","Wheeze, but no hives, swelling or shock."],["Panic attack","Fast breathing, but no wheals or low pressure."],["Septic shock","Low pressure, but no infection and no hives."]],
+      src: [["fa-immune","Immune function",2]]
+     },
+     {
+      id: "s",
+      label: "Shock",
+      list: "shock",
+      q: "What type of shock is this?",
+      ev: "His pressure is 72/40. His hands are warm and flushed.",
+      hints: ["His neck veins are flat.","His heart is not the problem: no chest pain, normal heart sounds.","He hasn't bled or lost fluid.","Mast cell mediators dilate vessels and make them leak.","One of the four families: the vessels lose their tone."],
+      answer: ["Anaphylactic shock","Distributive shock"],
+      show: "Anaphylactic (distributive) shock",
+      key: 3,
+      why: "Vasodilation and capillary leak from histamine and leukotrienes cause relative hypovolaemia: distributive shock, of the anaphylactic kind.",
+      contenders: [["Anaphylactic shock","Distributive: vasodilation and leak."],["Distributive shock","The family; counted too."],["Hypovolaemic shock","He hasn't lost blood or fluid."],["Cardiogenic shock","Neck veins would be distended."]],
+      src: [["fa-cardiovascular","Cardiovascular function: shock",2],["fa-immune","Immune function",2]]
+     },
+     {
+      id: "d",
+      label: "First drug",
+      list: "edrug",
+      q: "What do you give first?",
+      ev: "You call for help and lay him down.",
+      hints: ["It must work within minutes.","It reverses vasodilation, swelling and bronchospasm at once.","Given without delay, before anything else.","Into a large muscle, not a vein.","The outer thigh."],
+      answer: "IM adrenaline",
+      key: 2,
+      why: "Intramuscular adrenaline in the thigh, without delay. Oxygen, fluids, antihistamines and corticosteroids come after it.",
+      contenders: [["IM adrenaline","First, without delay, in the thigh."],["H1 antihistamine","Helps the itch, not the shock."],["IV hydrocortisone","Acts over hours; it comes later."],["IV adrenaline","Not the first-line route."]],
+      src: [["fa-immune","Immune function",2]]
+     },
+     {
+      id: "pos",
+      label: "Position",
+      list: "edrug",
+      q: "His pressure is still low. What do you add?",
+      ev: "Supine with legs raised, on oxygen.",
+      hints: ["The vessels are leaking plasma.","His intravascular volume is low.","You need to fill the circulation.","Through a large IV line.","A crystalloid bolus."],
+      answer: "Saline bolus",
+      key: 0,
+      why: "Capillary leak drains volume: give fluids alongside adrenaline, oxygen and leg raising.",
+      contenders: [["Saline bolus","Refills a leaking circulation."],["Dobutamine","An inotrope; his heart isn't failing."],["Beta-blocker","Would blunt the response to adrenaline."],["Hyperbaric oxygen","For CO poisoning."]],
+      src: [["fa-immune","Immune function",2],["fa-cardiovascular","Cardiovascular function: shock",2]]
+     },
+     {
+      id: "k",
+      label: "Discharge",
+      list: "edrug",
+      q: "What must he carry from now on?",
+      ev: "Next morning he is well and going home.",
+      hints: ["Another sting could do the same, faster.","He needs to treat himself in the first minutes.","The drug that saved him yesterday.","A pen he presses into his thigh.","Through clothing if needed."],
+      answer: "IM adrenaline",
+      show: "An adrenaline auto-injector",
+      key: 3,
+      why: "After anaphylaxis, the patient carries IM adrenaline (an auto-injector) and is referred to an allergist.",
+      contenders: [["IM adrenaline","An auto-injector, used at once."],["H1 antihistamine","Too slow and too weak for anaphylaxis."],["IV hydrocortisone","Can't be self-injected; acts over hours."],["Inhaled salbutamol","Doesn't treat the shock."]],
+      src: [["fa-immune","Immune function",2]],
+      enrich: "Referral to an allergist; venom immunotherapy can prevent future reactions."
+     }
+    ]
+   },
+   {
+    title: "Fever after a trip",
+    who: "Woman, 27",
+    tag: "Emergency",
+    vit: [["HR","122"],["BP","104/62"],["RR","24"],["SpO₂","95%"],["T","39.8"]],
+    line: "Back from two weeks in Côte d'Ivoire nine days ago. Fever with chills and sweats for three days. Took no prophylaxis.",
+    dx: "Severe Plasmodium falciparum malaria",
+    outcome: "IV artesunate in intensive care; parasitaemia cleared by day 3.",
+    takeaways: ["Fever after an endemic area = malaria until proven otherwise.","Thin smear + thick drop within 2 hours.","Falciparum: Maurer's clefts, severe forms.","Severe malaria: IV artesunate."],
+    n: 12,
+    stages: [
+     {
+      id: "p",
+      label: "Presentation",
+      list: "dx",
+      q: "What must you assume?",
+      ev: "Her daughter says she has been shivering then drenched in sweat.",
+      hints: ["She returned from a tropical country nine days ago.","Fever comes in bouts with chills and sweats.","She has a headache and aching muscles.","Her platelets are low and she is mildly anaemic.","Any fever after return from an endemic area is this until proven otherwise."],
+      answer: ["Malaria","Severe malaria"],
+      show: "Malaria",
+      key: 4,
+      why: "Fever with chills and sweats after a stay in an endemic area, with anaemia and thrombocytopenia: malaria until proven otherwise.",
+      contenders: [["Malaria","Any fever after return from an endemic area."],["Typhoid fever","Possible, but malaria comes first."],["Influenza","No travel link; doesn't drop platelets."],["Viral hepatitis","Jaundice, not bouts of fever."]],
+      src: [["parasito-malaria","Malaria",2]]
+     },
+     {
+      id: "t",
+      label: "Test",
+      list: "test",
+      q: "Which test gives the answer?",
+      ev: "It's a biological emergency: results within 2 hours.",
+      hints: ["The parasite lives in red cells.","You need EDTA blood on a slide.","One preparation shows species and stage, the other is more sensitive.","Rapid tests are never used alone.","The WHO reference is the thicker of the two."],
+      answer: "Thick blood film",
+      key: 2,
+      why: "Thin smear (species, stage, parasitaemia) and thick drop (more sensitive, the WHO reference), within 2 hours.",
+      contenders: [["Thick blood film","Thin smear + thick drop."],["Malaria rapid test","Fast, but never used alone."],["Blood cultures","For bacteria, not Plasmodium."],["Abdominal ultrasound","Can show a big spleen, not the parasite."]],
+      src: [["parasito-malaria","Malaria",2]]
+     },
+     {
+      id: "sp",
+      label: "Species",
+      list: "plasmo",
+      q: "Which species is it?",
+      ev: "The smear is back.",
+      hints: ["West Africa, where 99% of cases are this species.","Many red cells hold delicate rings.","Maurer's clefts are seen.","Parasitaemia is 6%.","The species behind cerebral malaria."],
+      answer: "Plasmodium falciparum",
+      key: 2,
+      why: "Maurer's clefts, high parasitaemia and West Africa: P. falciparum, the species of severe and cerebral malaria.",
+      contenders: [["Plasmodium falciparum","Maurer's clefts, severe forms."],["Plasmodium vivax","Schüffner dots; relapses from hypnozoites."],["Plasmodium malariae","72-hour fever."],["Plasmodium knowlesi","South-East Asia."]],
+      src: [["parasito-malaria","Malaria",2]]
+     },
+     {
+      id: "sv",
+      label: "Severity",
+      list: "dx",
+      q: "Six hours later she is hard to rouse. What is this?",
+      ev: "Glasgow score 9. Glucose 0.5 g/L. Hb 6.8 g/dL.",
+      hints: ["Coma with a Glasgow score of 9 or less.","Hypoglycaemia.","Haemoglobin under 7 g/dL.","Parasitaemia 4% or more.","Infected red cells stick in brain capillaries."],
+      answer: "Severe malaria",
+      key: 0,
+      why: "Coma, hypoglycaemia, Hb under 7 and parasitaemia of 4% or more are WHO criteria: severe falciparum malaria, an emergency.",
+      contenders: [["Severe malaria","WHO criteria: coma, Hb under 7, hypoglycaemia."],["Meningitis","Possible, but malaria explains everything."],["Hypoglycaemia","Present, but part of severe malaria."],["Stroke","No focal deficit."]],
+      src: [["parasito-malaria","Malaria",2]]
+     },
+     {
+      id: "d",
+      label: "Drug",
+      list: "abx",
+      q: "Which drug do you start?",
+      ev: "She is moved to intensive care.",
+      hints: ["She can't swallow.","It must work fast in severe malaria.","An artemisinin derivative.","Given intravenously.","IV quinine is the alternative."],
+      answer: "IV artesunate",
+      key: 2,
+      why: "Severe or cerebral malaria: IV artesunate (or IV quinine) in intensive care, monitoring parasitaemia.",
+      contenders: [["IV artesunate","First line for severe malaria."],["IV quinine","The alternative."],["Artemether-lumefantrine","Oral, for uncomplicated falciparum."],["Chloroquine","For vivax, ovale and malariae."]],
+      src: [["parasito-malaria","Malaria",2]]
+     }
+    ]
+   },
+   {
+    title: "A family with headaches",
+    who: "Woman, 33",
+    tag: "Emergency",
+    vit: [["HR","112"],["BP","118/72"],["RR","22"],["SpO₂","98%"],["T","36.8"]],
+    line: "She, her husband and their son woke with headaches and vomiting. A charcoal brazier heated the bedroom overnight. She is 24 weeks pregnant.",
+    dx: "Carbon monoxide poisoning in pregnancy",
+    outcome: "Hyperbaric oxygen. Baby born at term, healthy.",
+    takeaways: ["Several people + combustion + headache = CO.","Pulse oximetry is falsely normal: use co-oximetry.","100% O₂ at once; hyperbaric if over 25% (over 15% pregnant).","Chocolate blood, cyanosis despite O₂: methaemoglobin."],
+    n: 13,
+    stages: [
+     {
+      id: "p",
+      label: "Presentation",
+      list: "dx",
+      q: "What is your diagnosis?",
+      ev: "The whole family is affected.",
+      hints: ["A charcoal brazier burned all night in a closed room.","Everyone in the room has a headache.","She is confused and her chest hurts.","The gas has no smell or colour.","It binds haemoglobin 200 to 250 times more than oxygen."],
+      answer: "Carbon monoxide poisoning",
+      key: 0,
+      why: "Several people sharing a room with a combustion source, all with headaches and vomiting: carbon monoxide poisoning.",
+      contenders: [["Carbon monoxide poisoning","Brazier, closed room, the whole family."],["Food poisoning","Shared too, but no confusion or chest pain."],["Migraine","Not a whole family at once."],["Meningitis","No fever, and not all together."]],
+      src: [["toxico-systemic","Systemic toxicology",2]]
+     },
+     {
+      id: "t",
+      label: "Test",
+      list: "test",
+      q: "Which test confirms it?",
+      ev: "Her pulse oximeter reads 98%.",
+      hints: ["The pulse oximeter is falsely normal.","It can't tell COHb from oxyhaemoglobin.","You need a blood sample.","The device reads several haemoglobin species.","The gold standard."],
+      answer: "CO-oximetry",
+      key: 0,
+      why: "Pulse oximetry is falsely normal in CO poisoning; co-oximetry measures carboxyhaemoglobin.",
+      contenders: [["CO-oximetry","The gold standard."],["Pulse oximetry","Falsely normal."],["Arterial blood gas","PaO₂ can be normal."],["Chest X-ray","Shows nothing specific."]],
+      src: [["toxico-systemic","Systemic toxicology",2]]
+     },
+     {
+      id: "o",
+      label: "First",
+      list: "edrug",
+      q: "What do you give at once?",
+      ev: "Her COHb is 18%.",
+      hints: ["First, remove her from the source.","In room air, COHb halves in 4 to 6 hours.","With this, it halves in 60 to 90 minutes.","Through a tight mask with a reservoir.","No antidote: just a gas."],
+      answer: "100% oxygen",
+      key: 2,
+      why: "Remove from the source and give 100% oxygen at once: COHb half-life falls from 4-6 h to 60-90 min.",
+      contenders: [["100% oxygen","Halves COHb in 60 to 90 minutes."],["Methylene blue","For methaemoglobin, not CO."],["Saline bolus","Doesn't remove CO."],["IV hydrocortisone","No role."]],
+      src: [["toxico-systemic","Systemic toxicology",2]]
+     },
+     {
+      id: "h",
+      label: "Escalate",
+      list: "edrug",
+      q: "Does she need more? What?",
+      ev: "She is 24 weeks pregnant.",
+      hints: ["Fetal haemoglobin binds CO even more.","The threshold is lower in pregnancy.","Over 15% here, over 25% otherwise.","Neurological signs or cardiac ischaemia also count.","A pressurised chamber."],
+      answer: "Hyperbaric oxygen",
+      key: 2,
+      why: "Hyperbaric oxygen if COHb is over 25% (over 15% in pregnancy), or with neurological signs or cardiac ischaemia. She has all three reasons.",
+      contenders: [["Hyperbaric oxygen","COHb over 15% in pregnancy."],["100% oxygen","Already on it; not enough here."],["Methylene blue","Wrong haemoglobin."],["Beta-blocker","No role."]],
+      src: [["toxico-systemic","Systemic toxicology",2]]
+     },
+     {
+      id: "m",
+      label: "Next bed",
+      list: "dx",
+      q: "In the next bed, a baby is blue despite oxygen. What is this?",
+      ev: "A 4-month-old; the family's bottle water comes from a farm well.",
+      hints: ["Cyanosis not corrected by oxygen.","A blood sample looks chocolate brown.","Pulse oximetry reads about 85% with a normal PaO₂.","Nitrates in well water oxidise haemoglobin iron to Fe³⁺.","Infants under 6 months are more susceptible."],
+      answer: "Methaemoglobinaemia",
+      key: 1,
+      why: "Cyanosis unresponsive to oxygen, chocolate-brown blood and nitrate-rich well water: methaemoglobinaemia. Treat with methylene blue (not in G6PD deficiency).",
+      contenders: [["Methaemoglobinaemia","Chocolate blood, cyanosis despite O₂."],["Carbon monoxide poisoning","COHb isn't blue; oximetry falsely normal."],["Septal defect","Cyanotic heart disease wouldn't make brown blood."],["Pneumonia","Cyanosis would improve with oxygen."]],
+      src: [["toxico-systemic","Systemic toxicology",2]]
+     }
+    ]
+   },
+   {
+    title: "Weak after stopping her pills",
+    who: "Woman, 58",
+    tag: "Emergency",
+    vit: [["HR","96"],["BP","78/44"],["RR","20"],["SpO₂","97%"],["T","37.6"]],
+    line: "Took prednisone 20 mg a day for three months for asthma; stopped it abruptly a week ago. Vomiting, abdominal pain, very weak.",
+    dx: "Adrenal crisis from secondary adrenal insufficiency after stopping steroids",
+    outcome: "Hydrocortisone and saline; pressure normal within hours. Steroids tapered slowly.",
+    takeaways: ["Adrenal crisis: refractory hypotension, mimics septic shock.","Na↓ K↑ glucose↓.","Send cortisol + ACTH, then IV hydrocortisone.","Commonest cause: stopping long-term steroids."],
+    n: 14,
+    stages: [
+     {
+      id: "p",
+      label: "Presentation",
+      list: "dx",
+      q: "What is causing her collapse?",
+      ev: "Two litres of saline haven't raised her pressure.",
+      hints: ["The low pressure doesn't respond to fluids.","Her heart rate is only 96.","Sodium 126, potassium 5.6, glucose 0.55 g/L.","No source of infection found.","Think of it in anyone on over 7.5 mg prednisone for over 3 weeks."],
+      answer: "Adrenal crisis",
+      key: 4,
+      why: "Refractory hypotension mimicking septic shock, low sodium, high potassium, low glucose, after stopping long-term steroids: adrenal crisis.",
+      contenders: [["Adrenal crisis","Refractory hypotension after steroid withdrawal."],["Septic shock","The great mimic; no source found."],["Diabetic ketoacidosis","High glucose, not low."],["Gastroenteritis","Vomiting, but fluids would fix the pressure."]],
+      src: [["fa-endocrine","Endocrine function: endocrine crises",2]]
+     },
+     {
+      id: "t",
+      label: "Sample",
+      list: "test",
+      q: "What do you send before treating?",
+      ev: "Treatment must not wait.",
+      hints: ["One blood sample, drawn now.","It must be taken before the drug is given.","It measures the hormone that is missing.","And the pituitary hormone that drives it.","Then treat at once."],
+      answer: "Cortisol and ACTH",
+      key: 3,
+      why: "Send cortisol and ACTH, then give hydrocortisone without waiting for results.",
+      contenders: [["Cortisol and ACTH","Before treatment, without delaying it."],["Blood cultures","Useful to rule out sepsis, but not the key test."],["Electrolytes","Already done."],["Abdominal CT","Doesn't change management now."]],
+      src: [["fa-endocrine","Endocrine function: endocrine crises",2]]
+     },
+     {
+      id: "d",
+      label: "Drug",
+      list: "edrug",
+      q: "What do you give?",
+      ev: "Blood sent.",
+      hints: ["Replace what is missing.","It is a glucocorticoid.","Given intravenously.","Vasopressors may be needed too.","The same molecule as natural cortisol."],
+      answer: "IV hydrocortisone",
+      key: 1,
+      why: "Saline, rule out sepsis, then IV hydrocortisone: it replaces cortisol and restores vascular tone.",
+      contenders: [["IV hydrocortisone","Replaces cortisol."],["Noradrenaline","May help, but doesn't treat the cause."],["IV insulin","Her glucose is low."],["H1 antihistamine","No allergy."]],
+      src: [["fa-endocrine","Endocrine function: endocrine crises",2]]
+     },
+     {
+      id: "c",
+      label: "Cause",
+      list: "dx",
+      q: "Why did her adrenals fail?",
+      ev: "Once stable, you explain what happened.",
+      hints: ["Three months of prednisone suppressed her own axis.","Her pituitary stopped making ACTH.","Her adrenal glands themselves are intact.","Stopping abruptly left her with no cortisol.","The commonest cause of this insufficiency."],
+      answer: "Secondary adrenal insufficiency",
+      key: 1,
+      why: "Long-term glucocorticoids suppress ACTH: secondary (low-ACTH) adrenal insufficiency, the commonest type, unmasked by abrupt withdrawal.",
+      contenders: [["Secondary adrenal insufficiency","Low ACTH after long steroid use."],["Addison's disease","Primary: the gland itself is destroyed."],["Hypopituitarism","A broad failure; here only ACTH is suppressed."],["Cushing's syndrome","Cortisol excess, the opposite."]],
+      src: [["fa-endocrine","Endocrine function: endocrine crises",2]]
+     },
+     {
+      id: "z",
+      label: "Layer",
+      list: "zone",
+      q: "In Addison's disease aldosterone fails too. Which layer makes it?",
+      ev: "Her neighbour has Addison's disease, with the gland destroyed.",
+      hints: ["The adrenal cortex has three layers.","It is the outermost one.","It is driven mainly by renin-angiotensin, not ACTH.","That is why secondary insufficiency spares it.","Its name means 'little balls'."],
+      answer: "Zona glomerulosa",
+      key: 3,
+      why: "Zona glomerulosa (outer) makes aldosterone, fasciculata cortisol, reticularis androgens. Primary failure loses both cortisol and aldosterone.",
+      contenders: [["Zona glomerulosa","Aldosterone, outermost."],["Zona fasciculata","Cortisol."],["Zona reticularis","Androgens."],["Adrenal medulla","Catecholamines."]],
+      src: [["fa-endocrine","Endocrine function: endocrine crises",2]],
+      enrich: "Aldosterone depends mainly on renin-angiotensin, so it is spared in secondary insufficiency."
+     }
+    ]
+   },
+   {
+    title: "A lump under the ribs",
+    who: "Man, 42",
+    tag: "Clinic",
+    vit: [["HR","78"],["BP","128/80"],["RR","16"],["SpO₂","98%"],["T","37.1"]],
+    line: "Shepherd near Meknès. Dull ache under the right ribs for a year. His three dogs eat offal after the Eid sacrifice.",
+    dx: "Multivesicular (CE2) hydatid cyst of the liver",
+    outcome: "Surgery with perioperative albendazole. Serology negative at 18 months.",
+    takeaways: ["Dogs + sheep + offal: think hydatid cyst.","Ultrasound stages it (WHO-IWGE).","CE2/CE3b → surgery; CE1/CE3a ≤ 10 cm → PAIR.","Dog = definitive host; deworm with praziquantel."],
+    n: 15,
+    stages: [
+     {
+      id: "p",
+      label: "Presentation",
+      list: "dx",
+      q: "What is your leading diagnosis?",
+      ev: "A smooth, painless mass under the right costal margin.",
+      hints: ["Painless enlargement of the liver.","He has always lived with dogs and sheep.","Dogs are fed offal after slaughter.","Eosinophils 9%.","A larva of a small dog tapeworm."],
+      answer: "Hydatid cyst of the liver",
+      key: 1,
+      why: "A rural shepherd with dogs fed offal, painless hepatomegaly and mild eosinophilia: a hydatid cyst of the liver, the commonest site.",
+      contenders: [["Hydatid cyst of the liver","Dogs, sheep, painless liver mass."],["Liver abscess","Fever and an intensely painful liver."],["Hepatocellular carcinoma","Hard, nodular, painful."],["Cirrhosis","Hard, nodular; signs of portal hypertension."]],
+      src: [["parasito-hydatidosis","Hydatidosis (hydatid cyst)",2],["semio-gi-hepatomegaly","Hepatomegaly",2]]
+     },
+     {
+      id: "t",
+      label: "Test",
+      list: "test",
+      q: "Which test is the key one?",
+      ev: "You want to see the cyst and stage it.",
+      hints: ["It guides treatment.","The WHO-IWGE classification is built on it.","Quick, cheap, no radiation.","Serology can be negative.","Probe on the abdomen."],
+      answer: "Abdominal ultrasound",
+      key: 1,
+      why: "Ultrasound is the key test: it shows the cyst and stages it (WHO-IWGE), which decides treatment.",
+      contenders: [["Abdominal ultrasound","Shows and stages the cyst."],["Hydatid serology","Supports it, but can be negative."],["Abdominal CT","For number and size, second line."],["Liver tests","Non-specific."]],
+      src: [["parasito-hydatidosis","Hydatidosis (hydatid cyst)",2]]
+     },
+     {
+      id: "s",
+      label: "Stage",
+      list: "ce",
+      q: "Which WHO-IWGE stage?",
+      ev: "Ultrasound report.",
+      hints: ["A 9 cm cyst in the right lobe.","It is full of smaller cysts.","They fill it like a honeycomb.","Some call it a rosette.","An active stage."],
+      answer: "CE2",
+      key: 2,
+      why: "Multivesicular, honeycomb or rosette pattern: CE2, an active cyst.",
+      contenders: [["CE2","Multivesicular honeycomb."],["CE1","Simple, unilocular."],["CE3a","Detached membranes."],["CE4","Degenerative ball of wool."]],
+      src: [["parasito-hydatidosis","Hydatidosis (hydatid cyst)",2]]
+     },
+     {
+      id: "x",
+      label: "Treatment",
+      list: "htx",
+      q: "How do you treat this stage?",
+      ev: "He is fit and not pregnant.",
+      hints: ["The cyst is full of daughter cysts.","Aspiration can't empty it.","The germinal membrane has to come out.","Albendazole is given around it.","Cures about 90%."],
+      answer: "Surgery with albendazole",
+      key: 1,
+      why: "CE2 and CE3b go to surgery (sterilise, remove the germinal membrane) with perioperative albendazole. PAIR is for CE1 and CE3a up to 10 cm.",
+      contenders: [["Surgery with albendazole","For CE2 and CE3b."],["PAIR","For CE1 and CE3a up to 10 cm."],["Watch and wait","For inactive CE4 and CE5."],["Albendazole alone","Small cysts only."]],
+      src: [["parasito-hydatidosis","Hydatidosis (hydatid cyst)",2]]
+     },
+     {
+      id: "h",
+      label: "Source",
+      list: "host",
+      q: "Which animal carries the adult worm and must be dewormed?",
+      ev: "His brother asks how to protect the family.",
+      hints: ["The adult worm lives in its intestine.","It sheds eggs in its faeces.","It gets infected by eating raw offal.","Deworm it with praziquantel.","About one in two in rural Morocco is infected."],
+      answer: "Dog",
+      key: 2,
+      why: "The dog is the definitive host and main reservoir; sheep are intermediate hosts and humans an accidental dead end. Deworm dogs, incinerate offal.",
+      contenders: [["Dog","Definitive host: the adult worm."],["Sheep","Intermediate host: carries cysts."],["Human","Accidental dead end."],["Freshwater snail","Bilharzia, not hydatidosis."]],
+      src: [["parasito-hydatidosis","Hydatidosis (hydatid cyst)",2]]
+     }
+    ]
+   },
+   {
+    title: "Breathless for three weeks",
+    who: "Man, 36",
+    tag: "Ward",
+    vit: [["HR","108"],["BP","116/72"],["RR","30"],["SpO₂","86%"],["T","38.4"]],
+    line: "Dry cough and breathlessness slowly worsening for three weeks. Lost 8 kg this year. Amoxicillin from his GP didn't help.",
+    dx: "Pneumocystis pneumonia revealing HIV infection (CD4 64/mm³)",
+    outcome: "Cotrimoxazole and corticosteroids, then antiretrovirals. Back at work in three months.",
+    takeaways: ["Pneumocystis: hypoxaemia, normal chest, no antibiotic response.","Opportunistic infection → offer an HIV test.","Proof: BAL with Grocott or PCR; it can't be cultured.","Cotrimoxazole 21 days, + steroids if PaO₂ is low."],
+    n: 16,
+    stages: [
+     {
+      id: "p",
+      label: "Presentation",
+      list: "dx",
+      q: "What lung infection is this?",
+      ev: "His chest sounds almost normal.",
+      hints: ["Dry cough and fever, insidious over weeks.","Very hypoxaemic, yet auscultation is normal.","No response to standard antibiotics.","His mouth is coated with white plaques.","X-ray: bilateral ground-glass in both lungs."],
+      answer: "Pneumocystis pneumonia",
+      key: 1,
+      why: "An insidious dry cough with hypoxaemia, normal auscultation, bilateral alveolar-interstitial shadowing and no response to antibiotics in someone with oral thrush: Pneumocystis pneumonia.",
+      contenders: [["Pneumocystis pneumonia","Hypoxaemia, normal chest, no antibiotic response."],["Pneumonia","Bacterial: crackles, purulent sputum, responds to antibiotics."],["Pulmonary tuberculosis","Possible in HIV; cavities, haemoptysis."],["Acute left heart failure","Crackles, orthopnoea."]],
+      src: [["parasito-pneumocystosis","Pneumocystosis",2]]
+     },
+     {
+      id: "h",
+      label: "Cause",
+      list: "test",
+      q: "What test do you offer for the underlying cause?",
+      ev: "Thrush, weight loss and an opportunistic pneumonia.",
+      hints: ["Pneumocystis appears when CD4 cells fall below 200.","His oral candidiasis is a clue.","Fourth-generation ELISA: antibodies plus p24 antigen.","Offered with consent and counselling, never imposed.","The 5 Cs."],
+      answer: "HIV test",
+      key: 2,
+      why: "An opportunistic infection must prompt HIV screening: 4th-generation ELISA or rapid test, with consent and counselling, confirmed by viral load.",
+      contenders: [["HIV test","Screen: 4th-generation ELISA."],["CD4 count","Comes after the diagnosis."],["Blood cultures","Doesn't find the cause."],["Chest CT","Shows the lungs, not the cause."]],
+      src: [["infect-hiv","HIV/AIDS infection",2],["parasito-pneumocystosis","Pneumocystosis",2]]
+     },
+     {
+      id: "c",
+      label: "Confirm",
+      list: "test",
+      q: "How do you prove Pneumocystis?",
+      ev: "HIV is positive. CD4 64/mm³.",
+      hints: ["The fungus can't be cultured.","It must be seen directly.","Samples come from deep in the lungs.","Stained with Grocott silver or MGG, or PCR.","A fibre-optic scope washes the alveoli."],
+      answer: "Bronchoalveolar lavage",
+      key: 0,
+      why: "Pneumocystis can't be cultured: it is seen in bronchoalveolar lavage (Grocott, MGG) or detected by PCR.",
+      contenders: [["Bronchoalveolar lavage","Direct exam of alveolar fluid."],["Blood cultures","It doesn't grow in culture."],["Chest CT","Ground-glass supports it; doesn't prove it."],["Arterial blood gas","Shows hypoxaemia only."]],
+      src: [["parasito-pneumocystosis","Pneumocystosis",2]]
+     },
+     {
+      id: "d",
+      label: "Drug",
+      list: "abx",
+      q: "Which drug treats it?",
+      ev: "BAL: Pneumocystis jirovecii cysts on Grocott staining.",
+      hints: ["First line, for 21 days.","Two drugs in one.","A sulfonamide with trimethoprim.","IV or oral.","The same drug, in low dose, prevents it."],
+      answer: "Cotrimoxazole",
+      key: 2,
+      why: "Cotrimoxazole (sulfamethoxazole + trimethoprim) for 21 days; the same drug once daily as prophylaxis afterwards.",
+      contenders: [["Cotrimoxazole","First line for 21 days."],["Fluconazole","For candidiasis, not Pneumocystis."],["IV ceftriaxone","Doesn't cover Pneumocystis."],["Oral azithromycin","Not active here."]],
+      src: [["parasito-pneumocystosis","Pneumocystosis",2]]
+     },
+     {
+      id: "s",
+      label: "Add",
+      list: "edrug",
+      q: "His PaO₂ is 58 mmHg. What do you add?",
+      ev: "On oxygen, still hypoxaemic.",
+      hints: ["He is severely hypoxaemic.","Below the PaO₂ threshold in the lecture.","It reduces mortality and the need for ventilation.","It damps the inflammation when the fungus dies.","A steroid."],
+      answer: "IV hydrocortisone",
+      show: "Corticosteroids",
+      key: 2,
+      why: "Corticosteroids are added when PaO₂ is low: they reduce mortality and the need for ventilation.",
+      contenders: [["IV hydrocortisone","A corticosteroid: counted."],["Inhaled salbutamol","No bronchospasm."],["Saline bolus","Not hypotensive."],["Hyperbaric oxygen","For CO poisoning."]],
+      src: [["parasito-pneumocystosis","Pneumocystosis",2]],
+      enrich: "Prednisone is the usual steroid here; any corticosteroid counts in this game."
+     }
+    ]
+   },
+   {
+    title: "A black spot behind the knee",
+    who: "Man, 64",
+    tag: "Clinic",
+    vit: [["HR","102"],["BP","122/76"],["RR","18"],["SpO₂","97%"],["T","39.4"]],
+    line: "Fever and headache since yesterday, in August. Keeps two dogs in the yard. Diabetic.",
+    dx: "Mediterranean spotted fever (Rickettsia conorii)",
+    outcome: "Doxycycline for 7 days; afebrile in 48 hours.",
+    takeaways: ["Fever + rash + black eschar, summer, dogs: spotted fever.","Rickettsia conorii, via the brown dog tick.","Doxycycline 5 to 7 days.","Josamycin in pregnancy and children."],
+    n: 17,
+    stages: [
+     {
+      id: "p",
+      label: "Presentation",
+      list: "dx",
+      q: "What is your diagnosis?",
+      ev: "A rash appeared this morning.",
+      hints: ["Fever of 39.4 °C that started abruptly.","A maculopapular rash starting on the trunk.","A painless black crust behind his right knee.","It is August in Morocco and he lives with dogs.","Fever + rash + black eschar."],
+      answer: "Mediterranean spotted fever",
+      key: 2,
+      why: "Fever, rash and an inoculation eschar (tache noire) in summer, with dogs around: Mediterranean spotted fever. A clinical diagnosis.",
+      contenders: [["Mediterranean spotted fever","Fever + rash + black eschar."],["Meningitis","Purpura, stiff neck; no eschar."],["Infectious mononucleosis","Sore throat, nodes; no eschar."],["Typhoid fever","No eschar; slower onset."]],
+      src: [["infect-rickettsiosis","Rickettsioses: Mediterranean spotted fever",2]]
+     },
+     {
+      id: "g",
+      label: "Germ",
+      list: "germ",
+      q: "Which germ causes it?",
+      ev: "You explain the disease to him.",
+      hints: ["A small bacterium that lives inside cells.","Gram-negative.","Transmitted by a bite.","Named after Ricketts.","Species conorii."],
+      answer: "Rickettsia conorii",
+      key: 4,
+      why: "Rickettsia conorii, an intracellular Gram-negative bacterium, transmitted by the brown dog tick.",
+      contenders: [["Rickettsia conorii","The cause of boutonneuse fever."],["Neisseria meningitidis","Purpura, meningitis."],["Streptococcus pneumoniae","Pneumonia, meningitis."],["Staphylococcus aureus","Skin abscesses; no eschar triad."]],
+      src: [["infect-rickettsiosis","Rickettsioses: Mediterranean spotted fever",2]]
+     },
+     {
+      id: "v",
+      label: "Vector",
+      list: "host",
+      q: "What transmitted it?",
+      ev: "He didn't notice any bite.",
+      hints: ["The bite is painless: anaesthetic saliva.","It must feed at least 20 hours to transmit.","It is both vector and reservoir.","It lives on dogs.","Rhipicephalus sanguineus."],
+      answer: "Brown dog tick",
+      key: 2,
+      why: "The brown dog tick (Rhipicephalus sanguineus) is vector and reservoir; its painless bite needs about 20 hours to transmit.",
+      contenders: [["Brown dog tick","Vector and reservoir."],["Dog","Carries the tick, but isn't the vector."],["Anopheles mosquito","Malaria."],["Sandfly","Leishmaniasis."]],
+      src: [["infect-rickettsiosis","Rickettsioses: Mediterranean spotted fever",2]]
+     },
+     {
+      id: "d",
+      label: "Drug",
+      list: "abx",
+      q: "Which drug do you give?",
+      ev: "No test is needed before treating.",
+      hints: ["Diagnosis is clinical first.","An oral antibiotic.","200 mg a day.","For 5 to 7 days, or until 2 days after the fever goes.","A tetracycline."],
+      answer: "Oral doxycycline",
+      key: 4,
+      why: "Doxycycline 200 mg a day for 5 to 7 days, or until 2 days after the fever resolves.",
+      contenders: [["Oral doxycycline","First line."],["Oral amoxicillin","Doesn't reach intracellular rickettsiae."],["Oral josamycin","For children and pregnant women."],["Oral metronidazole","For anaerobes and amoebae."]],
+      src: [["infect-rickettsiosis","Rickettsioses: Mediterranean spotted fever",2]]
+     },
+     {
+      id: "w",
+      label: "His wife",
+      list: "abx",
+      q: "His wife, 6 months pregnant, has the same triad. What does she get?",
+      ev: "She was bitten at the same time.",
+      hints: ["Doxycycline is avoided in pregnancy.","The alternative is a macrolide.","Also used in newborns and children.","3 g a day for 5 days in pregnancy.","Its name starts with J."],
+      answer: "Oral josamycin",
+      key: 0,
+      why: "Josamycin replaces doxycycline in newborns, children and pregnant women (3 g a day for 5 days in pregnancy).",
+      contenders: [["Oral josamycin","For pregnancy and children."],["Oral doxycycline","Avoided in pregnancy."],["Oral ciprofloxacin","Not the course's choice."],["Oral amoxicillin","Inactive on rickettsiae."]],
+      src: [["infect-rickettsiosis","Rickettsioses: Mediterranean spotted fever",2]]
+     }
+    ]
    }
   ] },
   y1: { start: "2026-11-16", key: "sina:wardle-y1", paper: "wardle1-", cases: [
@@ -2673,6 +3492,556 @@ SINA.wardle = {
       why: "The ulnar nerve and artery enter the hand through Guyon's canal, lateral to the pisiform, outside the carpal tunnel.",
       contenders: [["Guyon's canal","Ulnar nerve and artery."],["Carpal tunnel","Median nerve and flexor tendons."],["Anatomical snuffbox","Radial artery."],["Pulse groove","Radial artery, lateral."]],
       src: [["anat1-hand-vessels-nerves","Vascularisation and innervation of the hand",1]]
+     }
+    ]
+   },
+   {
+    title: "Tall, with long fingers",
+    who: "Man, 19",
+    tag: "Clinic",
+    vit: [["HR","74"],["BP","128/70"],["RR","14"],["SpO₂","99%"],["T","36.7"]],
+    line: "Referred by his eye doctor. Very tall, thin, with long arms and fingers. His father died suddenly at 42.",
+    dx: "Marfan syndrome (FBN1), autosomal dominant",
+    outcome: "Yearly echocardiography of the aortic root; beta-blocker started.",
+    takeaways: ["Marfan: skeleton, ectopia lentis, aortic root.","Autosomal dominant: 50% per child.","FBN1 acts dominant-negative.","One gene, many organs = pleiotropy."],
+    n: 8,
+    stages: [
+     {
+      id: "d",
+      label: "Disease",
+      list: "gdx",
+      q: "Which disease do you suspect?",
+      ev: "You examine him.",
+      hints: ["His arm span is greater than his height.","Both lenses are displaced.","Echo: the aortic root is dilated.","His chest wall is deformed.","The gene is FBN1, fibrillin."],
+      answer: "Marfan syndrome",
+      key: 1,
+      why: "Skeletal signs, ectopia lentis and aortic root dilation: Marfan syndrome (FBN1).",
+      contenders: [["Marfan syndrome","Skeleton, lens, aortic root."],["Ehlers-Danlos syndrome","Hypermobile joints and fragile skin; no lens dislocation."],["Klinefelter syndrome","Tall too, but small testes, no lens or aorta."],["Achondroplasia","Short stature, the opposite."]],
+      src: [["genetics1-heredity","Hereditary disease transmission",1],["genetics1-mutation","Gene mutation",1]]
+     },
+     {
+      id: "i",
+      label: "Inheritance",
+      list: "inh",
+      q: "How is it inherited?",
+      ev: "His father was very tall and died of an aortic dissection.",
+      hints: ["His father was affected.","His sister is affected too; his brother isn't.","Both sexes, every generation.","One mutant copy is enough.","Vertical transmission."],
+      answer: "Autosomal dominant",
+      key: 4,
+      why: "An affected parent, both sexes, every generation, one copy enough: autosomal dominant.",
+      contenders: [["Autosomal dominant","Vertical, both sexes."],["Autosomal recessive","Healthy carrier parents."],["X-linked dominant","An affected father would pass it to all daughters, no sons."],["Mitochondrial","Only from the mother."]],
+      src: [["genetics1-heredity","Hereditary disease transmission",1]]
+     },
+     {
+      id: "m",
+      label: "Mutation",
+      list: "mut",
+      q: "What kind of mutation is it, by its effect?",
+      ev: "Fibrillin forms long chains.",
+      hints: ["His one normal copy still makes normal fibrillin.","The abnormal protein joins the chains.","It spoils the normal protein's work.","One bad unit ruins the whole assembly.","The course's example is Marfan."],
+      answer: "Dominant-negative mutation",
+      key: 2,
+      why: "The mutant fibrillin incorporates into microfibrils and disrupts the normal protein: a dominant-negative effect.",
+      contenders: [["Dominant-negative mutation","The mutant protein spoils the normal one."],["Nonsense mutation","Would usually just make less protein."],["Silent mutation","No change in the protein."],["Regulatory mutation","Changes the amount, not interference."]],
+      src: [["genetics1-mutation","Gene mutation",1]]
+     },
+     {
+      id: "r",
+      label: "Risk",
+      list: "risk",
+      q: "What is the risk for each of his children?",
+      ev: "He asks about having children.",
+      hints: ["He is heterozygous (Aa).","His future partner is unaffected (aa).","Each child gets one of his two alleles.","Boys and girls alike.","Every pregnancy, the same."],
+      answer: "50%",
+      key: 0,
+      why: "Aa × aa: 50% risk for each child, whatever the sex.",
+      contenders: [["50%","One of his two alleles."],["25%","That's for two carrier parents (recessive)."],["100%","Only if he were homozygous."],["0%","One copy is enough to be affected."]],
+      src: [["genetics1-heredity","Hereditary disease transmission",1]]
+     },
+     {
+      id: "p",
+      label: "Concept",
+      list: "gconcept",
+      q: "One gene, but eyes, aorta and skeleton are all affected. What is this called?",
+      ev: "A student asks why one gene does so much.",
+      hints: ["One gene.","Several unrelated-looking traits.","Fibrillin is in many tissues.","Not about severity, but about how many systems.","The course's other example: cleidocranial dysostosis."],
+      answer: "Pleiotropy",
+      key: 2,
+      why: "One gene affecting several organ systems is pleiotropy. Different severity between relatives is variable expressivity.",
+      contenders: [["Pleiotropy","One gene, several traits."],["Variable expressivity","Different severity, not different organs."],["Incomplete penetrance","Some carriers show nothing."],["Co-dominance","Both alleles expressed, like ABO."]],
+      src: [["genetics1-heredity","Hereditary disease transmission",1]]
+     }
+    ]
+   },
+   {
+    title: "A shoulder blade that sticks out",
+    who: "Woman, 49",
+    tag: "Clinic",
+    vit: [["HR","76"],["BP","124/78"],["RR","14"],["SpO₂","99%"],["T","36.6"]],
+    line: "Mastectomy with removal of axillary lymph nodes six weeks ago. Now her right shoulder blade sticks out when she pushes.",
+    dx: "Long thoracic nerve injury during axillary surgery (winged scapula)",
+    outcome: "Physiotherapy; partial recovery at six months.",
+    takeaways: ["Winged scapula = serratus anterior = long thoracic nerve.","It runs on the medial wall of the axilla.","Serratus anterior protracts the scapula.","Anterior wall: pectoralis major (superficial)."],
+    n: 9,
+    stages: [
+     {
+      id: "m",
+      label: "Muscle",
+      list: "muscle",
+      q: "Which muscle is paralysed?",
+      ev: "You ask her to push against a wall.",
+      hints: ["The medial border of her scapula lifts off the chest wall.","The muscle holds the scapula against the ribs.","It runs from the medial border of the scapula to the first 8 ribs.","It forms the medial wall of the axilla.","It protracts the scapula."],
+      answer: "Serratus anterior",
+      key: 0,
+      why: "A winged scapula when pushing: serratus anterior, which holds the scapula on the chest wall and protracts it.",
+      contenders: [["Serratus anterior","Holds the scapula on the ribs."],["Trapezius","Would drop the shoulder; accessory nerve."],["Pectoralis major","Anterior wall; adducts the arm."],["Latissimus dorsi","Adducts and extends the arm."]],
+      src: [["anat1-shoulder","The shoulder: pectoral region and axilla",1],["anat1-scapular","The scapular region and deltoid",1]]
+     },
+     {
+      id: "n",
+      label: "Nerve",
+      list: "nerve",
+      q: "Which nerve was injured?",
+      ev: "The surgeon cleared the axilla.",
+      hints: ["It runs down the medial wall of the axilla.","On the surface of serratus anterior.","It supplies only that muscle.","Easily cut during node clearance.","Also called the nerve of Bell."],
+      answer: "Long thoracic nerve",
+      key: 1,
+      why: "The long thoracic nerve runs on serratus anterior along the medial wall of the axilla: vulnerable in axillary clearance.",
+      contenders: [["Long thoracic nerve","Supplies serratus anterior."],["Thoracodorsal nerve","Latissimus dorsi."],["Spinal accessory nerve","Trapezius."],["Axillary nerve","Deltoid and teres minor."]],
+      src: [["anat1-shoulder","The shoulder: pectoral region and axilla",1]]
+     },
+     {
+      id: "w",
+      label: "Wall",
+      list: "axwall",
+      q: "Which wall of the axilla does it run on?",
+      ev: "You sketch the axilla as a pyramid.",
+      hints: ["The wall that lies against the ribs.","Formed by serratus anterior.","Opposite the arm.","Not the pectorals.","Not subscapularis."],
+      answer: "Medial wall of the axilla",
+      key: 1,
+      why: "Medial wall: serratus anterior on the ribs. Anterior: pectorals. Posterior: subscapularis and teres major. Lateral: coracobrachialis and biceps.",
+      contenders: [["Medial wall of the axilla","Serratus anterior on the ribs."],["Anterior wall of the axilla","Pectoralis major and minor."],["Posterior wall of the axilla","Subscapularis, teres major."],["Lateral wall of the axilla","Coracobrachialis, short head of biceps."]],
+      src: [["anat1-shoulder","The shoulder: pectoral region and axilla",1]]
+     },
+     {
+      id: "mv",
+      label: "Movement",
+      list: "move",
+      q: "Which movement is weak?",
+      ev: "She struggles to reach forward and push a door.",
+      hints: ["The scapula moves forward around the chest wall.","Needed for punching and pushing.","It is a scapular movement.","Serratus anterior's main action.","The opposite of retraction."],
+      answer: "Scapular protraction",
+      key: 2,
+      why: "Serratus anterior protracts the scapula: pushing and reaching forward are weak.",
+      contenders: [["Scapular protraction","Serratus anterior."],["Shoulder abduction","Deltoid and supraspinatus."],["Elbow extension","Triceps."],["Shoulder medial rotation","Subscapularis and others."]],
+      src: [["anat1-shoulder","The shoulder: pectoral region and axilla",1]]
+     },
+     {
+      id: "a",
+      label: "Nodes",
+      list: "muscle",
+      q: "Which muscle lies in front of the axillary nodes and forms the anterior wall?",
+      ev: "The surgeon describes the operation.",
+      hints: ["The superficial muscle of the anterior wall.","From the clavicle, sternum and first six costal cartilages.","Inserts on the lateral lip of the bicipital groove.","Adducts and medially rotates the arm.","Supplied by the pectoral nerves."],
+      answer: "Pectoralis major",
+      key: 2,
+      why: "Pectoralis major is the superficial anterior wall; pectoralis minor and subclavius lie deeper.",
+      contenders: [["Pectoralis major","Superficial anterior wall."],["Serratus anterior","Medial wall."],["Latissimus dorsi","Back of the axilla, not front."],["Deltoid","The shoulder, outside the axilla."]],
+      src: [["anat1-shoulder","The shoulder: pectoral region and axilla",1]]
+     }
+    ]
+   },
+   {
+    title: "A swollen knee after a small fall",
+    who: "Boy, 6",
+    tag: "Emergency",
+    vit: [["HR","108"],["BP","98/60"],["RR","22"],["SpO₂","99%"],["T","37.0"]],
+    line: "Knee swollen, hot and painful after a minor fall. Bled for days after a tooth was pulled last year. His mother's brother has the same problem.",
+    dx: "Haemophilia A (factor VIII deficiency), X-linked recessive",
+    outcome: "Factor VIII replacement; followed in a haemophilia centre.",
+    takeaways: ["Haemophilia A = factor VIII; B = factor IX.","X-linked recessive: males, via carrier mothers.","Affected father: all daughters carriers, no sons affected.","No father-to-son transmission."],
+    n: 10,
+    stages: [
+     {
+      id: "d",
+      label: "Disease",
+      list: "gdx",
+      q: "Which disease is it most likely?",
+      ev: "Platelets normal; aPTT prolonged.",
+      hints: ["Bleeding into a joint after minor trauma.","Prolonged bleeding after a dental extraction.","Only males affected, through his mother's side.","The commoner of two related diseases (80-85%).","Factor VIII is low."],
+      answer: "Haemophilia A",
+      key: 4,
+      why: "Haemarthrosis, prolonged bleeding, a maternal uncle affected and low factor VIII: haemophilia A.",
+      contenders: [["Haemophilia A","Factor VIII, 80-85% of cases."],["Haemophilia B","Factor IX; same pattern, rarer."],["Immune thrombocytopenia","Low platelets; skin and mucosal bleeding."],["Duchenne muscular dystrophy","X-linked too, but no bleeding."]],
+      src: [["genetics1-heredity","Hereditary disease transmission",1]]
+     },
+     {
+      id: "i",
+      label: "Inheritance",
+      list: "inh",
+      q: "How is it inherited?",
+      ev: "You draw the tree: his mother and grandmother are healthy.",
+      hints: ["Affected males only.","Passed through healthy women.","No father-to-son transmission.","Males have one X.","It can skip generations."],
+      answer: "X-linked recessive",
+      key: 2,
+      why: "Affected males, healthy carrier females, no father-to-son transmission: X-linked recessive.",
+      contenders: [["X-linked recessive","Males via carrier mothers."],["Autosomal recessive","Both sexes equally."],["X-linked dominant","Carrier women would be affected."],["Y-linked","Father to all sons."]],
+      src: [["genetics1-heredity","Hereditary disease transmission",1]]
+     },
+     {
+      id: "r1",
+      label: "Daughter",
+      list: "risk",
+      q: "When he grows up, what is the chance his daughter is a carrier?",
+      ev: "He marries an unaffected, non-carrier woman.",
+      hints: ["He has one X, carrying the mutation.","A daughter always receives her father's X.","She also gets a normal X from her mother.","So she carries one mutant copy.","Every daughter."],
+      answer: "100%",
+      key: 1,
+      why: "Affected father: all daughters are carriers (they get his only X), no sons are affected.",
+      contenders: [["100%","Every daughter gets his X."],["50%","That's for a carrier mother's children."],["25%","Autosomal recessive couple."],["0%","Daughters must receive his X."]],
+      src: [["genetics1-heredity","Hereditary disease transmission",1]]
+     },
+     {
+      id: "r2",
+      label: "Son",
+      list: "risk",
+      q: "And the chance his son is affected?",
+      ev: "Same couple.",
+      hints: ["A son gets his father's Y.","His X comes from his mother.","His mother is not a carrier.","No father-to-son transmission.","None of his sons."],
+      answer: "0%",
+      key: 3,
+      why: "Sons receive the Y from their father and a normal X from a non-carrier mother: none affected.",
+      contenders: [["0%","Sons get the Y."],["50%","Only with a carrier mother."],["100%","That's the daughters' carrier risk."],["25%","Recessive couple."]],
+      src: [["genetics1-heredity","Hereditary disease transmission",1]]
+     },
+     {
+      id: "c",
+      label: "Cousin",
+      list: "gdx",
+      q: "His cousin bleeds the same way, but factor VIII is normal and factor IX is low. Which disease?",
+      ev: "Another boy in the family.",
+      hints: ["Same bleeding pattern.","Same X-linked transmission.","A different clotting factor.","Factor IX.","Also called Christmas disease."],
+      answer: "Haemophilia B",
+      key: 3,
+      why: "Factor IX deficiency, X-linked recessive: haemophilia B (Christmas disease).",
+      contenders: [["Haemophilia B","Factor IX: Christmas disease."],["Haemophilia A","Factor VIII."],["Immune thrombocytopenia","Platelets, not a factor."],["G6PD deficiency","Haemolysis, not bleeding."]],
+      src: [["genetics1-heredity","Hereditary disease transmission",1]]
+     }
+    ]
+   },
+   {
+    title: "Vomiting for three days",
+    who: "Woman, 34",
+    tag: "Emergency",
+    vit: [["HR","104"],["BP","106/68"],["RR","10"],["SpO₂","96%"],["T","37.2"]],
+    line: "Vomiting stomach contents many times a day for three days. Weak and cramping. Breathing slowly.",
+    dx: "Metabolic alkalosis from loss of gastric acid, with respiratory compensation and hypokalaemia",
+    outcome: "IV saline with potassium; gas normal in 48 hours.",
+    takeaways: ["pH = 6.1 + log [HCO₃⁻] / (0.03 × PCO₂).","Vomiting → metabolic alkalosis (HCO₃⁻ ↑).","Lungs compensate in minutes, kidneys correct in days.","Acidosis raises K⁺; alkalosis lowers it."],
+    n: 11,
+    stages: [
+     {
+      id: "g",
+      label: "Blood gas",
+      list: "gas",
+      q: "How do you read this gas?",
+      slip: "alk",
+      ev: "Arterial gas, room air.",
+      hints: ["pH 7.50 is high.","Bicarbonate 36 mmol/L is high.","PaCO₂ 48 mmHg is high too.","A high bicarbonate with a high pH: the primary problem is metabolic.","The high PaCO₂ is the body's response."],
+      answer: "Metabolic alkalosis with respiratory compensation",
+      key: 3,
+      why: "High pH with high HCO₃⁻ is a metabolic alkalosis; the raised PCO₂ is respiratory compensation (hypoventilation).",
+      contenders: [["Metabolic alkalosis with respiratory compensation","pH, HCO₃⁻ and PCO₂ all high."],["Metabolic alkalosis","Uncompensated: PCO₂ would be normal."],["Compensated respiratory acidosis","pH would be near normal or low."],["Mixed alkalosis","PCO₂ would be low."]],
+      src: [["physics1-acid-base","Acid-base balance",1]]
+     },
+     {
+      id: "b",
+      label: "Buffer",
+      list: "buffer",
+      q: "Which buffer pair does the pH equation use?",
+      ev: "You check the result with Henderson-Hasselbalch.",
+      hints: ["pH = 6.1 + log(base / acid).","pKa 6.1 at 37 °C.","The acid side is set by PCO₂ × 0.03.","An open system: the lungs control one side.","Normally 24 mmol/L of the base."],
+      answer: "Bicarbonate",
+      key: 1,
+      why: "H₂CO₃/HCO₃⁻, pKa 6.1, an open system: pH = 6.1 + log [HCO₃⁻] / (0.03 × PCO₂).",
+      contenders: [["Bicarbonate","pKa 6.1, open system."],["Phosphate","pKa 6.82, closed, intracellular and urine."],["Haemoglobin","The main red-cell buffer."],["Plasma proteins","Closed system."]],
+      src: [["physics1-acid-base","Acid-base balance",1]]
+     },
+     {
+      id: "o1",
+      label: "Response",
+      list: "organ",
+      q: "Which organ raised her PaCO₂?",
+      ev: "Her breathing rate is 10 a minute.",
+      hints: ["It acts within minutes.","It controls the acid side of the ratio.","She is breathing slowly and shallowly.","Retaining CO₂ lowers the pH back toward normal.","Compensation acts on the other term of the ratio."],
+      answer: "Lungs",
+      key: 4,
+      why: "The lungs compensate within minutes: hypoventilation raises PCO₂ and brings the pH back toward normal.",
+      contenders: [["Lungs","Minutes: change PCO₂."],["Kidneys","Hours to days: change HCO₃⁻."],["Blood buffers","Seconds, but they don't change PCO₂."],["Liver","Not a main player here."]],
+      src: [["physics1-acid-base","Acid-base balance",1]]
+     },
+     {
+      id: "o2",
+      label: "Correction",
+      list: "organ",
+      q: "Which organ will excrete the extra bicarbonate over the next days?",
+      ev: "Once she can drink and keep fluids down.",
+      hints: ["It acts over hours to days.","It adjusts H⁺ excretion.","And bicarbonate reabsorption.","It produces urine.","Two of them."],
+      answer: "Kidneys",
+      key: 1,
+      why: "The kidneys correct metabolic disorders over hours to days by adjusting H⁺ excretion and HCO₃⁻.",
+      contenders: [["Kidneys","Hours to days: H⁺ and HCO₃⁻."],["Lungs","Change PCO₂, not bicarbonate."],["Blood buffers","Immediate, limited."],["Bone","Slow, minor."]],
+      src: [["physics1-acid-base","Acid-base balance",1]]
+     },
+     {
+      id: "k",
+      label: "Potassium",
+      list: "dx",
+      q: "Her potassium is 2.9 mmol/L. What is this?",
+      ev: "She has muscle cramps.",
+      hints: ["In acidosis, H⁺ enters cells in exchange for K⁺ leaving.","In alkalosis, the exchange runs the other way.","K⁺ moves into cells.","Her serum level falls.","Under 3.5 mmol/L."],
+      answer: "Hypokalaemia",
+      key: 1,
+      why: "Cells exchange H⁺ for K⁺: acidosis raises serum K⁺, alkalosis lowers it. Her K⁺ is 2.9: hypokalaemia.",
+      contenders: [["Hypokalaemia","Alkalosis drives K⁺ into cells."],["Hyperkalaemia","That's the acidosis picture."],["Hypoglycaemia","Glucose, not potassium."],["Diabetic ketoacidosis","An acidosis."]],
+      src: [["physics1-acid-base","Acid-base balance",1]],
+      enrich: "Vomiting also loses potassium, and the kidneys waste it, which adds to the fall."
+     }
+    ]
+   },
+   {
+    title: "Can't bend his elbow",
+    who: "Man, 26",
+    tag: "Emergency",
+    vit: [["HR","92"],["BP","130/80"],["RR","16"],["SpO₂","99%"],["T","36.8"]],
+    line: "Stab wound high on the front of his right arm, near the armpit. Bleeding controlled by the paramedics.",
+    dx: "Musculocutaneous nerve injury",
+    outcome: "Nerve repaired; elbow flexion returned over a year.",
+    takeaways: ["Musculocutaneous: lateral cord, pierces coracobrachialis.","Supplies biceps, brachialis, coracobrachialis.","Brachioradialis (radial) still flexes the elbow.","Lateral cord: musculocutaneous + lateral root of median."],
+    n: 12,
+    stages: [
+     {
+      id: "n",
+      label: "Nerve",
+      list: "nerve",
+      q: "Which nerve is cut?",
+      ev: "He holds his forearm limp.",
+      hints: ["His elbow flexion is very weak.","Supination is weak too.","The wound is where the nerve pierces a muscle near the coracoid.","It comes from the lateral cord.","The course calls it the nerve of elbow flexion."],
+      answer: "Musculocutaneous nerve",
+      key: 4,
+      why: "Weak elbow flexion and supination after an injury below the coracoid: the musculocutaneous nerve, which supplies the anterior arm flexors.",
+      contenders: [["Musculocutaneous nerve","Anterior arm: biceps, brachialis."],["Median nerve","Forearm flexors and thenar muscles."],["Radial nerve","Extensors."],["Axillary nerve","Deltoid."]],
+      src: [["anat1-arm","The arm: compartments and brachial canal",1],["anat1-shoulder","The shoulder: pectoral region and axilla",1]]
+     },
+     {
+      id: "p",
+      label: "Pierced",
+      list: "muscle",
+      q: "Which muscle does the nerve pierce?",
+      ev: "The surgeon explores the wound.",
+      hints: ["It runs from the coracoid to the medial humerus.","It forms the lateral wall of the axilla with the short head of biceps.","It flexes the arm.","Its name joins the coracoid and the arm.","The nerve passes through it."],
+      answer: "Coracobrachialis",
+      key: 4,
+      why: "The musculocutaneous nerve pierces coracobrachialis, then runs between biceps and brachialis.",
+      contenders: [["Coracobrachialis","Pierced by the nerve."],["Biceps brachii","Supplied by it, not pierced."],["Brachialis","Supplied by it, deep."],["Pectoralis major","Anterior wall of the axilla."]],
+      src: [["anat1-shoulder","The shoulder: pectoral region and axilla",1],["anat1-arm","The arm: compartments and brachial canal",1]]
+     },
+     {
+      id: "m",
+      label: "Movement",
+      list: "move",
+      q: "Which movement is mainly lost?",
+      ev: "You test each movement.",
+      hints: ["Biceps and brachialis are paralysed.","Brachialis is a pure flexor of one joint.","Biceps also supinates.","He can't lift a glass to his mouth.","At the elbow."],
+      answer: "Elbow flexion",
+      key: 0,
+      why: "Biceps and brachialis, both musculocutaneous, are the main elbow flexors.",
+      contenders: [["Elbow flexion","Biceps and brachialis."],["Supination","Weak, but supinator still works."],["Shoulder abduction","Deltoid: axillary nerve."],["Wrist flexion","Forearm flexors: median and ulnar."]],
+      src: [["anat1-arm","The arm: compartments and brachial canal",1]]
+     },
+     {
+      id: "s",
+      label: "Spared",
+      list: "muscle",
+      q: "He can still bend his elbow a little, thumb up. Which muscle does that?",
+      ev: "With his forearm mid-way between pronation and supination.",
+      hints: ["It lies in the lateral compartment of the forearm.","From the lateral supracondylar ridge to the radial styloid.","Supplied by the radial nerve.","It flexes the elbow.","The radial pulse is felt beside its tendon."],
+      answer: "Brachioradialis",
+      key: 2,
+      why: "Brachioradialis, supplied by the radial nerve, still flexes the elbow when the musculocutaneous nerve is cut.",
+      contenders: [["Brachioradialis","Radial nerve, flexes the elbow."],["Triceps brachii","Extends the elbow."],["Pronator teres","Pronates; weak flexor at most."],["Extensor carpi radialis longus","Extends the wrist."]],
+      src: [["anat1-forearm","Topographic anatomy of the forearm",1]]
+     },
+     {
+      id: "c",
+      label: "Cord",
+      list: "nerve",
+      q: "The lateral cord also gives a root to which other nerve?",
+      ev: "You picture the plexus around the axillary artery.",
+      hints: ["It has a lateral and a medial root.","The two roots form an M with the musculocutaneous and ulnar nerves.","It runs down the arm with the brachial artery.","It supplies the forearm flexors.","And the thenar muscles."],
+      answer: "Median nerve",
+      key: 0,
+      why: "Lateral cord → musculocutaneous nerve and the lateral root of the median nerve; medial cord → medial root of the median and the ulnar nerve.",
+      contenders: [["Median nerve","Lateral and medial roots."],["Ulnar nerve","Medial cord only."],["Radial nerve","Posterior cord."],["Axillary nerve","Posterior cord."]],
+      src: [["anat1-shoulder","The shoulder: pectoral region and axilla",1]],
+      enrich: "The 'M' formed by these nerves is a classic landmark in dissection."
+     }
+    ]
+   },
+   {
+    title: "Tall and can't have children",
+    who: "Man, 29",
+    tag: "Clinic",
+    vit: [["HR","70"],["BP","122/76"],["RR","14"],["SpO₂","99%"],["T","36.6"]],
+    line: "He and his wife have tried for a child for three years. He is 1.92 m. Normal school results.",
+    dx: "Klinefelter syndrome (47,XXY)",
+    outcome: "Testosterone replacement; referred for assisted reproduction counselling.",
+    takeaways: ["Klinefelter 47,XXY: tall, small testes, infertile, ~1:500.","Turner 45,X: short, primary amenorrhoea, ~1:2,000.","Karyotype counts the set.","Two cell lines = mosaicism."],
+    n: 13,
+    stages: [
+     {
+      id: "d",
+      label: "Disease",
+      list: "gdx",
+      q: "Which syndrome do you suspect?",
+      ev: "Semen analysis: no sperm.",
+      hints: ["He is tall.","His testes are small.","He is infertile.","Normal intelligence.","About 1 in 500 males."],
+      answer: "Klinefelter syndrome",
+      key: 1,
+      why: "A tall man with small testes, infertility and normal cognition: Klinefelter syndrome (47,XXY), about 1 in 500 males.",
+      contenders: [["Klinefelter syndrome","Tall, small testes, infertile."],["Marfan syndrome","Tall, but fertile; lens and aorta."],["Turner syndrome","Girls: short stature."],["Fragile X syndrome","Intellectual disability."]],
+      src: [["genetics1-chromosomal","Chromosomal anomalies: detection and characterisation",1]]
+     },
+     {
+      id: "t",
+      label: "Test",
+      list: "gtest",
+      q: "Which test confirms it?",
+      ev: "You want to count his chromosomes.",
+      hints: ["It needs dividing cells, usually from blood.","It shows the whole set.","Sex chromosomes are easy to count.","Resolution 5 to 10 Mb is enough.","A picture of all chromosomes, paired and ordered."],
+      answer: "Karyotype",
+      key: 4,
+      why: "The karyotype counts the whole set: 47,XXY.",
+      contenders: [["Karyotype","Counts the whole set."],["MLPA","Exon-level, targeted."],["NGS","Sequence, not number."],["FISH","Can count X, but targeted."]],
+      src: [["genetics1-chromosomal","Chromosomal anomalies: detection and characterisation",1]]
+     },
+     {
+      id: "a",
+      label: "Anomaly",
+      list: "chrom",
+      q: "Karyotype: 47,XXY in all cells. What type of anomaly?",
+      ev: "Result back.",
+      hints: ["47 chromosomes.","One whole extra chromosome.","Numerical, not structural.","Present in every cell analysed.","From nondisjunction in meiosis."],
+      answer: "Free trisomy",
+      key: 1,
+      why: "A whole extra chromosome in every cell is a numerical anomaly (aneuploidy): here, an extra X.",
+      contenders: [["Free trisomy","A whole extra chromosome, every cell."],["Mosaicism","Only some cells."],["Triploidy","A whole extra set: 69."],["Isochromosome","A structural anomaly."]],
+      src: [["genetics1-chromosomal","Chromosomal anomalies: detection and characterisation",1]]
+     },
+     {
+      id: "m",
+      label: "Brother",
+      list: "chrom",
+      q: "His brother's karyotype is 46,XY/47,XXY. What is this?",
+      ev: "His brother has milder signs.",
+      hints: ["Two cell lines.","Some cells are normal.","Some carry the extra X.","From nondisjunction after fertilisation.","Especially common with sex chromosomes."],
+      answer: "Mosaicism",
+      key: 0,
+      why: "Two cell lines from post-zygotic nondisjunction: mosaicism, especially common with sex chromosomes; often milder.",
+      contenders: [["Mosaicism","Two cell lines."],["Free trisomy","Every cell would be 47,XXY."],["Balanced reciprocal translocation","A structural exchange."],["Duplication","Part of a chromosome."]],
+      src: [["genetics1-chromosomal","Chromosomal anomalies: detection and characterisation",1]]
+     },
+     {
+      id: "s",
+      label: "Cousin",
+      list: "gdx",
+      q: "His cousin is short, has primary amenorrhoea and a 45,X karyotype. Which syndrome?",
+      ev: "Another family member.",
+      hints: ["She has one X, no second sex chromosome.","Short stature.","Gonadal dysgenesis.","Primary amenorrhoea.","About 1 in 2,000 females."],
+      answer: "Turner syndrome",
+      key: 0,
+      why: "45,X: Turner syndrome, with short stature, gonadal dysgenesis, primary amenorrhoea and cardiovascular anomalies.",
+      contenders: [["Turner syndrome","45,X."],["Klinefelter syndrome","47,XXY, males."],["Down syndrome","Trisomy 21."],["Edwards syndrome","Trisomy 18."]],
+      src: [["genetics1-chromosomal","Chromosomal anomalies: detection and characterisation",1]]
+     }
+    ]
+   },
+   {
+    title: "Short limbs, average parents",
+    who: "Baby girl, 1 month",
+    tag: "Clinic",
+    vit: [["HR","140"],["BP","72/44"],["RR","40"],["SpO₂","99%"],["T","36.9"]],
+    line: "Short arms and legs with a normal-length trunk and a large head. Both parents are of average height. Father is 45.",
+    dx: "Achondroplasia from a de novo FGFR3 mutation",
+    outcome: "Followed for growth and spinal complications; parents counselled.",
+    takeaways: ["Achondroplasia: FGFR3, autosomal dominant.","Often de novo, paternal age effect.","After a de novo case: risk low, not zero (germline mosaicism).","Affected parent: 50% per child."],
+    n: 14,
+    stages: [
+     {
+      id: "d",
+      label: "Disease",
+      list: "gdx",
+      q: "Which disease is it?",
+      ev: "X-rays show short long bones.",
+      hints: ["Short limbs, normal trunk.","A large head.","The gene is FGFR3.","The commonest skeletal dysplasia.","Autosomal dominant."],
+      answer: "Achondroplasia",
+      key: 2,
+      why: "Short limbs with a normal trunk and a large head, FGFR3: achondroplasia.",
+      contenders: [["Achondroplasia","FGFR3, short limbs."],["Osteogenesis imperfecta","Fragile bones, fractures."],["Turner syndrome","Short stature, but girls with 45,X and normal proportions."],["Marfan syndrome","Tall and thin."]],
+      src: [["genetics1-heredity","Hereditary disease transmission",1]],
+      enrich: "The face and limb proportions are typical; the course names the gene and the transmission."
+     },
+     {
+      id: "i",
+      label: "Inheritance",
+      list: "inh",
+      q: "How is it inherited?",
+      ev: "A dominant disease.",
+      hints: ["One mutant copy is enough.","Both sexes.","An affected person passes it to half their children.","Vertical transmission when inherited.","The course lists it with Marfan and NF1."],
+      answer: "Autosomal dominant",
+      key: 0,
+      why: "Achondroplasia is autosomal dominant.",
+      contenders: [["Autosomal dominant","One copy is enough."],["Autosomal recessive","Would need two copies."],["X-linked dominant","Not on the X."],["Multifactorial","It's a single gene."]],
+      src: [["genetics1-heredity","Hereditary disease transmission",1]]
+     },
+     {
+      id: "n",
+      label: "Origin",
+      list: "gconcept",
+      q: "Both parents are unaffected. How did she get it?",
+      ev: "Neither parent carries the variant on testing.",
+      hints: ["A dominant disease in a child of healthy parents.","Nobody else in the family.","The mutation arose in a gamete.","Often paternal, with an age effect.","Her father is 45."],
+      answer: "De novo mutation",
+      key: 3,
+      why: "A new mutation in a parent's gamete, often paternal with an age effect: de novo. Most achondroplasia arises this way.",
+      contenders: [["De novo mutation","New in a gamete, often paternal."],["Incomplete penetrance","A carrier parent would test positive."],["Germline mosaicism","Possible, but here it's an isolated case."],["Consanguinity","Matters for recessive disease."]],
+      src: [["genetics1-heredity","Hereditary disease transmission",1]]
+     },
+     {
+      id: "r",
+      label: "Sibling",
+      list: "risk",
+      q: "What is the risk for her parents' next child?",
+      ev: "They want another child.",
+      hints: ["Neither parent carries it in their blood.","But a parent's gonads could hold mutant cells.","That is germline mosaicism.","So a negative parental test doesn't mean zero.","Much lower than 50%."],
+      answer: "Low, not zero",
+      key: 3,
+      why: "After a de novo case the recurrence risk is low but not zero, because of possible germline mosaicism.",
+      contenders: [["Low, not zero","Germline mosaicism."],["0%","Negative parental testing ≠ zero risk."],["50%","Only if a parent were affected."],["25%","A recessive risk."]],
+      src: [["genetics1-heredity","Hereditary disease transmission",1]]
+     },
+     {
+      id: "k",
+      label: "Her child",
+      list: "risk",
+      q: "When she grows up, what is the risk for each of her children?",
+      ev: "With an unaffected partner.",
+      hints: ["She is heterozygous.","Her partner is not affected.","Each child gets one of her two alleles.","Dominant: one copy is enough.","Same for each pregnancy."],
+      answer: "50%",
+      key: 2,
+      why: "Aa × aa: 50% for each child.",
+      contenders: [["50%","One of her two alleles."],["Low, not zero","That was her parents' risk."],["25%","Recessive couple."],["100%","Only if homozygous."]],
+      src: [["genetics1-heredity","Hereditary disease transmission",1]]
      }
     ]
    }
