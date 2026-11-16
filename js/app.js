@@ -3622,6 +3622,8 @@
       title: "Clinidle #" + n, kicker: n === today ? "Today's patient" : "Past patient", lists: S.wardle.lists, attr: S.wardle.attr, slips: S.wardle.slips,
       load: function () { return st.eng || null; },
       save: function (e) { st.eng = e; save(); },
+      beyond: function (list, name) { var W = S.wardle, y = String(PROG || "").split("-")[0]; return (list === "dx" || list === "gdx") && (W.added || []).indexOf(name) > -1 && !((W.inCourse || {})[y] || {})[name]; },
+      inLecture: function (list, name) { var y = String(PROG || "").split("-")[0], id = ((S.wardle.inCourse || {})[y] || {})[name]; return id && S.lectures[id] ? { title: lectureTitle(id) || S.lectures[id].title, href: "#/lecture/" + id } : null; },
       lec: function (id) { return S.lectures[id] ? { title: lectureTitle(id) || S.lectures[id].title, href: "#/lecture/" + id } : null; },
       done: function (r) {
         st.done = true; st.score = r.score; st.sq = r.squares; st.secs = Math.round((Date.now() - st.t0) / 1000); save();

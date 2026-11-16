@@ -81,6 +81,17 @@
       return list.map(function (x) { var l = o.lec && o.lec(x[0]); return l ? '<a href="' + l.href + '">' + esc(l.title) + "</a> · Year " + x[2] : esc(x[1]) + " · Year " + x[2]; }).join("<br>");
     }
 
+    /* "learn more": a video search on one channel and a free reference, per option (never a guessed URL to a specific page) */
+    var ANAT = { bone: 1, nerve: 1, move: 1, muscle: 1, space: 1, uartery: 1 }, NOLINK = { risk: 1, act: 1 };
+    function q(x) { return encodeURIComponent(x); }
+    function learnHTML(list, name) {
+      if (NOLINK[list]) return "";
+      var w = ANAT[list] ? ["Kenhub", "https://www.youtube.com/results?search_query=" + q("Kenhub " + name)] : ["Osmosis", "https://www.youtube.com/results?search_query=" + q("Osmosis " + name)],
+        r = ANAT[list] ? ["TeachMeAnatomy", "https://teachmeanatomy.info/?s=" + q(name)] : ["StatPearls", "https://www.ncbi.nlm.nih.gov/books/?term=" + q(name + " StatPearls")];
+      var L = o.inLecture && o.inLecture(list, name);
+      return '<span class="wl-lm">' + (L ? '<a href="' + L.href + '">In Sina: ' + esc(L.title) + "</a>" : "") + '<a href="' + w[1] + '" target="_blank" rel="noopener">▶ ' + w[0] + '</a><a href="' + r[1] + '" target="_blank" rel="noopener">' + r[0] + "</a></span>";
+    }
+    function beyond(list, name) { return !!(o.beyond && o.beyond(list, name)); }
     function steps() {
       return '<ol class="wl-steps" aria-label="Stage ' + Math.min(S.stage + 1, N) + " of " + N + '">' + C.stages.map(function (s, i) {
         var cls = tone(i) || (i === S.stage && S.view === "play" ? "cur" : "");
@@ -95,7 +106,7 @@
     function listHTML() {
       var s = C.stages[S.stage], tries = S.tries[S.stage], list = matches(s.list, ui.q);
       if (!ui.q || ui.pick) return "";
-      return list.length ? list.map(function (m, k) { var used = tries.indexOf(m.e[0]) > -1; return '<li role="option" id="wl-o' + k + '" data-v="' + esc(m.e[0]) + '" aria-selected="' + (k === ui.active) + '"' + (used ? ' class="used" aria-disabled="true"' : "") + ">" + esc(m.e[0]) + "<small>" + esc(m.via ? "“" + m.via + "”" : m.e[2]) + "</small></li>"; }).join("") : '<li class="none">Not in the list. Try another term.</li>';
+      return list.length ? list.map(function (m, k) { var used = tries.indexOf(m.e[0]) > -1; return '<li role="option" id="wl-o' + k + '" data-v="' + esc(m.e[0]) + '" aria-selected="' + (k === ui.active) + '"' + (used ? ' class="used" aria-disabled="true"' : "") + ">" + esc(m.e[0]) + "<small>" + esc(m.via ? "“" + m.via + "”" : beyond(s.list, m.e[0]) ? "Beyond the course" : m.e[2]) + "</small></li>"; }).join("") : '<li class="none">Not in the list. Try another term.</li>';
     }
     function playHTML() {
       var i = S.stage, s = C.stages[i], tries = S.tries[i], solved = S.solved[i] !== null && S.solved[i] !== -1, out = !solved && tries.length >= s.hints.length;
@@ -144,9 +155,9 @@
           if (s.slip) h += slipHTML(s.slip);
           h += '<p class="wl-why">' + esc(s.why) + '</p><div class="wl-cmp">' + s.contenders.map(function (c) {
             var ok = ans(s).indexOf(c[0]) > -1, yours = tr.indexOf(c[0]) > -1;
-            return '<div class="wl-cr ' + (ok ? "ok" : "no") + '"><span class="mk" aria-label="' + (ok ? "right" : "wrong") + '">' + (ok ? "✓" : "✗") + '</span><span class="cn">' + esc(c[0]) + (yours ? " <em>your guess</em>" : "") + '</span><span class="cw">' + esc(c[1]) + "</span></div>";
+            return '<div class="wl-cr ' + (ok ? "ok" : "no") + '"><span class="mk" aria-label="' + (ok ? "right" : "wrong") + '">' + (ok ? "✓" : "✗") + '</span><span class="cn">' + esc(c[0]) + (yours ? " <em>your guess</em>" : "") + (beyond(s.list, c[0]) ? ' <em class="by">beyond the course</em>' : "") + '</span><span class="cw">' + esc(c[1]) + learnHTML(s.list, c[0]) + "</span></div>";
           }).join("") + tr.filter(function (t) { return !s.contenders.some(function (c) { return c[0] === t; }); }).map(function (t) {
-            return '<div class="wl-cr no"><span class="mk" aria-label="wrong">✗</span><span class="cn">' + esc(t) + ' <em>your guess</em></span><span class="cw">' + esc(closeWords(s.list, t, ans(s)[0])) + "</span></div>";
+            return '<div class="wl-cr no"><span class="mk" aria-label="wrong">✗</span><span class="cn">' + esc(t) + ' <em>your guess</em>' + (beyond(s.list, t) ? ' <em class="by">beyond the course</em>' : "") + '</span><span class="cw">' + esc(closeWords(s.list, t, ans(s)[0])) + learnHTML(s.list, t) + "</span></div>";
           }).join("") + "</div>";
           h += '<p class="wl-kc"><b>Key clue</b> ' + esc(s.hints[s.key]) + "</p>";
           h += '<details class="wl-clues"><summary>All ' + s.hints.length + " clues · you saw " + Math.min(tr.length + 1, s.hints.length) + "</summary><ol>" + s.hints.map(function (x, k) { return "<li" + (k <= tr.length ? "" : ' class="unseen"') + ">" + esc(x) + "</li>"; }).join("") + "</ol></details>";
@@ -160,6 +171,10 @@
       C.stages.forEach(function (s) { s.src.forEach(function (x) { if (!seen[x[0]]) { seen[x[0]] = 1; srcs.push(x); } }); });
       srcs.sort(function (a, b) { return a[2] - b[2]; });
       h += '<div class="wl-sec"><h2>Where it\'s taught</h2><p class="wl-src">' + srcHTML(srcs) + "</p></div>";
+      h += '<div class="wl-sec"><h2>Go further</h2><p class="wl-src" style="margin:0 0 8px">Free resources for anything above, including topics your course hasn\'t covered yet.</p><ul class="wl-go">' +
+        [["Osmosis", "https://www.youtube.com/@osmosis", "Short animated videos, one per disease."], ["Ninja Nerd", "https://www.youtube.com/@NinjaNerdOfficial", "Long whiteboard lectures, physiology to treatment."], ["Kenhub", "https://www.youtube.com/@kenhub", "Anatomy videos."],
+         ["StatPearls", "https://www.ncbi.nlm.nih.gov/books/NBK430685/", "Free, peer-reviewed reference articles."], ["MSD Manual Professional", "https://www.msdmanuals.com/professional", "Concise clinical reference."], ["TeachMeAnatomy", "https://teachmeanatomy.info/", "Illustrated anatomy, with clinical notes."], ["Radiopaedia", "https://radiopaedia.org/", "Imaging cases for every condition."]]
+          .map(function (x) { return '<li><a href="' + x[1] + '" target="_blank" rel="noopener">' + x[0] + "</a><span>" + x[2] + "</span></li>"; }).join("") + "</ul></div>";
       return h + '<p class="wl-back"><button type="button" data-a="back">Back to the result</button></p>';
     }
 

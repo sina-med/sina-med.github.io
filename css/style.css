@@ -1860,3 +1860,7 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (max-width: 370px) { .bar { padding-left: 0.5rem; padding-right: 0.5rem; } .menu-btn { width: 36px; height: 36px; } }
 @media (max-width: 370px) { .search-toggle, .gear-btn { width: 1.95rem !important; height: 1.95rem !important; } .hdr-actions { gap: 0.15rem; } .bar .left { gap: 0.22rem; } .prog-btn { padding: 0.3rem 0.4rem; } }
 @media (max-width: 370px) { .wl-hbtn { padding: 0 .35rem; } }
+.wl-lm { display: flex; flex-wrap: wrap; gap: 4px 12px; margin-top: 4px; font-size: 0.8rem; }
+.wl-lm a { color: var(--accent); font-weight: 700; text-decoration: none; } .wl-lm a:hover { text-decoration: underline; }
+.wl-cr .cn em.by { color: var(--muted); }
+.wl-go { list-style: none; margin: 0; padding: 0; } .wl-go li { display: flex; flex-direction: column; padding: 8px 0; border-bottom: 1px solid var(--line); } .wl-go a { font-weight: 700; color: var(--accent); } .wl-go span { font-size: 0.86rem; color: var(--muted); }
