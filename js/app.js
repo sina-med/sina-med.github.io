@@ -2446,10 +2446,12 @@
       redo: '<path d="M4 12a8 8 0 1 0 2.4-5.7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M4 3v5h5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>',
       prog: '<circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2.2" opacity=".3"/><path d="M12 3.5a8.5 8.5 0 0 1 8.5 8.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M7 12.5h2.5l1.5-3 2 6 1.5-3H17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>',
       weak: '<circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="1.4" fill="currentColor"/>',
+      wl: '<path d="M6 3v6a5 5 0 0 0 10 0V3" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/><path d="M11 14v2a4 4 0 0 0 8 0v-3" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/><circle cx="19" cy="11" r="2" fill="none" stroke="currentColor" stroke-width="2.1"/>',
       lb: '<path d="M7 4h10v4a5 5 0 0 1-10 0z" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linejoin="round"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4M12 13v4M8 20h8" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>'
     };
     var t = function (href, k, title, sub, cls) { return '<a class="qtile' + (cls ? " " + cls : "") + '" href="' + href + '"><span class="qt-ico"><svg viewBox="0 0 24 24" aria-hidden="true">' + ico[k] + '</svg></span><span class="qt-t">' + title + '</span><span class="qt-s">' + sub + "</span></a>"; };
     var h = '<nav class="quick" aria-label="Quick access">';
+    if (wlOn()) { var wd = wlDay(), wS = wlAll()[wd], wNew = !!wlCase(wd); h += t("#/wardle", "wl", wNew ? "Wardle #" + wd : "Wardle", !wNew ? "Replay past patients" : wS && wS.done ? "Done today · " + fmtPts(wS.score) + " / 5" : "Today's patient", wNew && !(wS && wS.done) ? "qt-hot" : ""); }
     var rs = resumeInfo();
     if (rs) h += t("#/resume", "go", "Resume quiz", esc(rs.title) + " · " + rs.n + "/" + rs.qs.length, "qt-go");
     else if (last && last.h) h += t(last.h, "go", "Continue", esc(last.t), "qt-go");
@@ -3554,6 +3556,82 @@
     };
   }
 
+  /* ---------- Wardle: one patient a day (js/wardle.js plays the case; Sina keeps the daily, streak, sharing and leaderboard) ---------- */
+  function wlDay() {   /* today's case number, counted from the start date in local time */
+    var s = S.wardle.start.split("-"), d = new Date();
+    return Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - Date.UTC(+s[0], s[1] - 1, +s[2])) / 864e5) + 1;
+  }
+  function wlOn() { return !!(S.wardle && S.wardle.cases.length && window.SinaWardle && inProgram("semio-cv-intro") && wlDay() >= 1); }
+  function wlCase(n) { return S.wardle.cases[n - 1] || null; }
+  function wlAll() { return store.get("sina:wardle", {}); }
+  function wlStreak() {
+    var a = wlAll(), n = wlDay(), k = a[n] && a[n].done && a[n].live ? n : n - 1, s = 0;
+    while (k >= 1 && a[k] && a[k].done && a[k].live) { s++; k--; }
+    return s;
+  }
+  function wlSquares(st) { return (st.sq || []).map(function (c) { return { g: "🟩", y: "🟨", r: "🟥", k: "⬛" }[c]; }).join(""); }
+  function wardleView(arg) {
+    if (!wlOn()) return notFound();
+    var today = wlDay();
+    if (arg === "archive") return wardleArchive();
+    var n = arg ? parseInt(arg, 10) : today;
+    if (!(n >= 1 && n <= today)) { location.replace("#/wardle"); return; }
+    if (!wlCase(n)) {
+      setView('<div class="wrap narrow"><p class="crumbs"><a href="#/">Home</a> / Wardle</p><h1>Wardle</h1><p>The next patient is on the way. Meanwhile, replay a past patient.</p><p><a class="btn" href="#/wardle/archive">Past patients</a></p></div>', "Wardle");
+      return;
+    }
+    var c = wlCase(n), all = wlAll(), st = all[n] || { live: n === today, t0: Date.now() }, streak = wlStreak();
+    function save() { var a = wlAll(); a[n] = st; store.set("sina:wardle", a); }
+    setView('<div class="wrap narrow wl-host"><p class="crumbs"><a href="#/">Home</a> / Wardle · ' + (n === today ? "today's patient" : "past patient, not counted") + (streak ? " · " + streak + "-day streak" : "") + ' · <a href="#/wardle/archive">Past patients</a></p><div id="wl-box"></div></div>', "Wardle");
+    function post(nick, then) {
+      nick = nick.replace(/[^\p{L}\p{N} ._-]/gu, "").trim().slice(0, 20); if (!nick || !S.api) return;
+      store.set("sina:nick", nick);
+      fetch(S.api, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ type: "score", nick: nick, device: lbDevice(), paper: "wardle-" + n, score: st.score, total: 5, secs: Math.max(st.secs || 0, 15) }) })
+        .then(function () { st.posted = nick; save(); sessionStorage.removeItem("sina:lb"); if (then) then(); });
+    }
+    function extras(x) {
+      if (!x) return;
+      var mid = new Date(); mid.setHours(24, 0, 0, 0); var left = mid - Date.now();
+      x.innerHTML = '<button class="wl-btn" id="wl-share" type="button">Share my result</button><p class="src" id="wl-msg"></p>' +
+        (st.live && S.api ? (st.posted ? "" : '<div class="rd-nick"><input id="wl-nick" maxlength="20" placeholder="Nickname for the leaderboard" value="' + esc(store.get("sina:nick", "")) + '"><button class="wl-btn" style="width:auto;padding:0 16px" id="wl-post" type="button">Post</button></div>') + '<div id="wl-lb"></div>' : "") +
+        (n === today ? '<p class="meta">Next patient in ' + Math.floor(left / 36e5) + " h " + Math.floor(left % 36e5 / 6e4) + " min.</p>" : "");
+      var msg = x.querySelector("#wl-msg");
+      x.querySelector("#wl-share").onclick = function () {
+        var t = "Wardle #" + n + " " + fmtPts(st.score) + "/5\n" + wlSquares(st) + "\n" + location.origin + location.pathname + "#/wardle";
+        if (navigator.share) navigator.share({ text: t }).catch(function () {});
+        else navigator.clipboard.writeText(t).then(function () { msg.textContent = "Copied. Paste it in the group chat."; }, function () { msg.textContent = t; });
+      };
+      var pb = x.querySelector("#wl-post"); if (pb) pb.onclick = function () { pb.disabled = true; post(x.querySelector("#wl-nick").value, function () { extras(x); }); };
+      var lb = x.querySelector("#wl-lb"); if (lb) lbFetch(function (d) {
+        if (!d || !d.ok || !document.body.contains(lb)) return;
+        var tot = {}, me = (store.get("sina:nick", "") || "").toLowerCase();
+        Object.keys(d.papers || {}).forEach(function (p) { var m = /^wardle-(\d+)$/.exec(p); if (!m || +m[1] <= today - 7) return; d.papers[p].forEach(function (r) { var k = String(r.nick).toLowerCase(), o = tot[k] = tot[k] || { nick: r.nick, s: 0, n: 0 }; o.s += +r.score; o.n++; }); });
+        if (st.posted && !tot[me]) tot[me] = { nick: st.posted, s: st.score, n: 1 };
+        var list = Object.keys(tot).map(function (k) { return tot[k]; }).sort(function (a, b) { return b.s - a.s; }).slice(0, 10);
+        if (list.length) lb.innerHTML = '<p class="wl-lab" style="margin-top:12px">Last 7 days</p><ol class="rd-lb">' + list.map(function (r) { return '<li' + (String(r.nick).toLowerCase() === me ? ' class="me"' : "") + "><span>" + esc(r.nick) + "</span><span>" + fmtPts(r.s) + " pts · " + r.n + " day" + (r.n > 1 ? "s" : "") + "</span></li>"; }).join("") + "</ol>";
+      });
+    }
+    window.SinaWardle.play(document.getElementById("wl-box"), c, {
+      title: "Wardle #" + n, lists: S.wardle.lists, attr: S.wardle.attr, slips: S.wardle.slips,
+      load: function () { return st.eng || null; },
+      save: function (e) { st.eng = e; save(); },
+      lec: function (id) { return S.lectures[id] ? { title: lectureTitle(id) || S.lectures[id].title, href: "#/lecture/" + id } : null; },
+      done: function (r) {
+        st.done = true; st.score = r.score; st.sq = r.squares; st.secs = Math.round((Date.now() - st.t0) / 1000); save();
+        if (st.live && !st.posted && store.get("sina:nick", "")) post(store.get("sina:nick", ""));
+      },
+      end: extras
+    });
+  }
+  function wardleArchive() {
+    var today = wlDay(), a = wlAll(), h = "";
+    for (var n = Math.min(today, S.wardle.cases.length); n >= 1; n--) {
+      var st = a[n];
+      h += '<li><a href="#/wardle/' + n + '"><span>Wardle #' + n + (n === today ? " · today" : "") + "</span><span>" + (st && st.done ? fmtPts(st.score) + " / 5" : st ? "Started" : "Not played") + "</span></a></li>";
+    }
+    setView('<div class="wrap narrow"><p class="crumbs"><a href="#/">Home</a> / <a href="#/wardle">Wardle</a> / Past patients</p><h1>Past patients</h1><ol class="wl-arch">' + h + "</ol></div>", "Past patients");
+  }
+
   /* ---------- leaderboard (best exam-mode score per nickname and past paper) ---------- */
   function lbDevice() { var d = store.get("sina:dev", ""); if (!d) { d = Math.random().toString(36).slice(2, 12); store.set("sina:dev", d); } return d; }
   function lbPostHTML() {
@@ -3810,6 +3888,7 @@
     if (parts[0] === "review") return reviewView();
     if (parts[0] === "reminders") return remindersView();
     if (parts[0] === "leaderboard") return leaderboardView(parts[1]);
+    if (parts[0] === "wardle" || parts[0] === "rounds") return wardleView(parts[1]);
     if (parts[0] === "resume") return resumeView();
     if (parts[0] === "install") return installView();
     if (parts[0] === "find") return findView(parts[1], parts[2], decodeURIComponent(parts[3] || ""));
