@@ -372,7 +372,7 @@
     var h = '<div class="dhead"><span class="wordmark">Sina<span>.</span></span><button class="btn dclose" type="button">' + esc(T("nav.close")) + '</button></div>' +
       '<p class="dprog">' + esc(progName()) + '</p>' +
       '<a class="dlink" href="#/">' + esc(T("nav.home")) + '</a>' +
-      (wlOn() ? '<a class="dlink" href="#/curdle"><span>Curdle</span><span class="pn">' + (wlCase(wlDay()) ? "Today's patient" : "Past patients") + "</span></a>" : "");
+      (wlOn() ? '<a class="dlink" href="#/clinidle"><span>Clinidle</span><span class="pn">' + (wlCase(wlDay()) ? "Today's patient" : "Past patients") + "</span></a>" : "");
 
     /* Category 0: Upcoming midterm lectures */
     if (progMidterms().length) {
@@ -2457,7 +2457,7 @@
     };
     var t = function (href, k, title, sub, cls) { return '<a class="qtile' + (cls ? " " + cls : "") + '" href="' + href + '"><span class="qt-ico"><svg viewBox="0 0 24 24" aria-hidden="true">' + ico[k] + '</svg></span><span class="qt-t">' + title + '</span><span class="qt-s">' + sub + "</span></a>"; };
     var h = '<nav class="quick" aria-label="Quick access">';
-    if (wlOn()) { var wd = wlDay(), wS = wlAll()[wd], wNew = !!wlCase(wd); h += t("#/curdle", "wl", wNew ? "Curdle #" + wd : "Curdle", !wNew ? "Replay past patients" : wS && wS.done ? "Done today · " + fmtPts(wS.score) + " / 5" : "Today's patient", wNew && !(wS && wS.done) ? "qt-hot" : ""); }
+    if (wlOn()) { var wd = wlDay(), wS = wlAll()[wd], wNew = !!wlCase(wd); h += t("#/clinidle", "wl", wNew ? "Clinidle #" + wd : "Clinidle", !wNew ? "Replay past patients" : wS && wS.done ? "Done today · " + fmtPts(wS.score) + " / 5" : "Today's patient", wNew && !(wS && wS.done) ? "qt-hot" : ""); }
     var rs = resumeInfo();
     if (rs) h += t("#/resume", "go", "Resume quiz", esc(rs.title) + " · " + rs.n + "/" + rs.qs.length, "qt-go");
     else if (last && last.h) h += t(last.h, "go", "Continue", esc(last.t), "qt-go");
@@ -3582,14 +3582,14 @@
     var today = wlDay();
     if (arg === "archive") return wardleArchive();
     var n = arg ? parseInt(arg, 10) : today;
-    if (!(n >= 1 && n <= today)) { location.replace("#/curdle"); return; }
+    if (!(n >= 1 && n <= today)) { location.replace("#/clinidle"); return; }
     if (!wlCase(n)) {
-      setView('<div class="wrap narrow"><p class="crumbs"><a href="#/">Home</a> / Curdle</p><h1>Curdle</h1><p>The next patient is on the way. Meanwhile, replay a past patient.</p><p><a class="btn" href="#/curdle/archive">Past patients</a></p></div>', "Curdle");
+      setView('<div class="wrap narrow"><p class="crumbs"><a href="#/">Home</a> / Clinidle</p><h1>Clinidle</h1><p>The next patient is on the way. Meanwhile, replay a past patient.</p><p><a class="btn" href="#/clinidle/archive">Past patients</a></p></div>', "Clinidle");
       return;
     }
     var c = wlCase(n), all = wlAll(), st = all[n] || { live: n === today, t0: Date.now() }, streak = wlStreak();
     function save() { var a = wlAll(); a[n] = st; store.set(wlTrack().key, a); }
-    setView('<div class="wrap narrow wl-host"><p class="crumbs"><a href="#/">Home</a> / Curdle · ' + (n === today ? "today's patient" : "past patient, not counted") + (streak ? " · " + streak + "-day streak" : "") + ' · <a href="#/curdle/archive">Past patients</a></p><div id="wl-box"></div></div>', "Curdle");
+    setView('<div class="wrap narrow wl-host"><p class="crumbs"><a href="#/">Home</a> / Clinidle · ' + (n === today ? "today's patient" : "past patient, not counted") + (streak ? " · " + streak + "-day streak" : "") + ' · <a href="#/clinidle/archive">Past patients</a></p><div id="wl-box"></div></div>', "Clinidle");
     function post(nick, then) {
       nick = nick.replace(/[^\p{L}\p{N} ._-]/gu, "").trim().slice(0, 20); if (!nick || !S.api) return;
       store.set("sina:nick", nick);
@@ -3604,7 +3604,7 @@
         (n === today ? '<p class="meta">Next patient in ' + Math.floor(left / 36e5) + " h " + Math.floor(left % 36e5 / 6e4) + " min.</p>" : "");
       var msg = x.querySelector("#wl-msg");
       x.querySelector("#wl-share").onclick = function () {
-        var t = "Curdle " + (wlTrack().paper === "wardle1-" ? "1st year " : "") + "#" + n + " " + fmtPts(st.score) + "/5\n" + wlSquares(st) + "\n" + location.origin + location.pathname + "#/curdle";
+        var t = "Clinidle " + (wlTrack().paper === "wardle1-" ? "1st year " : "") + "#" + n + " " + fmtPts(st.score) + "/5\n" + wlSquares(st) + "\n" + location.origin + location.pathname + "#/clinidle";
         if (navigator.share) navigator.share({ text: t }).catch(function () {});
         else navigator.clipboard.writeText(t).then(function () { msg.textContent = "Copied. Paste it in the group chat."; }, function () { msg.textContent = t; });
       };
@@ -3619,7 +3619,7 @@
       });
     }
     window.SinaWardle.play(document.getElementById("wl-box"), c, {
-      title: "Curdle #" + n, kicker: n === today ? "Today's patient" : "Past patient", lists: S.wardle.lists, attr: S.wardle.attr, slips: S.wardle.slips,
+      title: "Clinidle #" + n, kicker: n === today ? "Today's patient" : "Past patient", lists: S.wardle.lists, attr: S.wardle.attr, slips: S.wardle.slips,
       load: function () { return st.eng || null; },
       save: function (e) { st.eng = e; save(); },
       lec: function (id) { return S.lectures[id] ? { title: lectureTitle(id) || S.lectures[id].title, href: "#/lecture/" + id } : null; },
@@ -3634,9 +3634,9 @@
     var today = wlDay(), a = wlAll(), h = "";
     for (var n = Math.min(today, wlTrack().cases.length); n >= 1; n--) {
       var st = a[n];
-      h += '<li><a href="#/curdle/' + n + '"><span>Curdle #' + n + (n === today ? " · today" : "") + "</span><span>" + (st && st.done ? fmtPts(st.score) + " / 5" : st ? "Started" : "Not played") + "</span></a></li>";
+      h += '<li><a href="#/clinidle/' + n + '"><span>Clinidle #' + n + (n === today ? " · today" : "") + "</span><span>" + (st && st.done ? fmtPts(st.score) + " / 5" : st ? "Started" : "Not played") + "</span></a></li>";
     }
-    setView('<div class="wrap narrow"><p class="crumbs"><a href="#/">Home</a> / <a href="#/curdle">Curdle</a> / Past patients</p><h1>Past patients</h1><ol class="wl-arch">' + h + "</ol></div>", "Past patients");
+    setView('<div class="wrap narrow"><p class="crumbs"><a href="#/">Home</a> / <a href="#/clinidle">Clinidle</a> / Past patients</p><h1>Past patients</h1><ol class="wl-arch">' + h + "</ol></div>", "Past patients");
   }
 
   /* ---------- leaderboard (best exam-mode score per nickname and past paper) ---------- */
@@ -3895,7 +3895,7 @@
     if (parts[0] === "review") return reviewView();
     if (parts[0] === "reminders") return remindersView();
     if (parts[0] === "leaderboard") return leaderboardView(parts[1]);
-    if (parts[0] === "curdle" || parts[0] === "cura" || parts[0] === "wardle" || parts[0] === "rounds") return wardleView(parts[1]);
+    if (parts[0] === "clinidle" || parts[0] === "curdle" || parts[0] === "cura" || parts[0] === "wardle" || parts[0] === "rounds") return wardleView(parts[1]);
     if (parts[0] === "resume") return resumeView();
     if (parts[0] === "install") return installView();
     if (parts[0] === "find") return findView(parts[1], parts[2], decodeURIComponent(parts[3] || ""));

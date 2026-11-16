@@ -1859,3 +1859,4 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (max-width: 440px) { .wl-hbtn { padding: 0 .45rem; font-size: .72rem; } .news-btn:not(.wl-hbtn) { padding: 0 .45rem; font-size: .72rem; } .prog-btn { padding: 0.3rem 0.45rem; font-size: .74rem; } .bar .left { gap: 0.3rem; } }
 @media (max-width: 370px) { .bar { padding-left: 0.5rem; padding-right: 0.5rem; } .menu-btn { width: 36px; height: 36px; } }
 @media (max-width: 370px) { .search-toggle, .gear-btn { width: 1.95rem !important; height: 1.95rem !important; } .hdr-actions { gap: 0.15rem; } .bar .left { gap: 0.22rem; } .prog-btn { padding: 0.3rem 0.4rem; } }
+@media (max-width: 370px) { .wl-hbtn { padding: 0 .35rem; } }
