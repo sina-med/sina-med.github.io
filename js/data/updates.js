@@ -2,6 +2,10 @@
    Style: short changelog lines, developer voice (Added / Fixed / Changed), no "you". */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
+  { date: "16 November 2026", items: [
+    "Changed: the answer box under each question is removed; explanations now sit under each option.",
+    "Changed: 10 repeated questions removed from Anatomy 3 neuroanatomy."
+  ] },
   { date: "15 November 2026", items: [
     "Added: clinical cases for Anatomy 3 (ENT and neuroanatomy); 3D questions can be turned on or off inside a quiz.",
     "Fixed: 2 reported questions, Anatomy 3, Anatomy of the cerebrum.",

@@ -26198,30 +26198,6 @@ SINA.lectures["anat3-spinal-cord"] = {
    ]
   },
   {
-   "q": "Which meningeal space contains CSF?",
-   "options": [
-    "The epidural space",
-    "The subdural space",
-    "The interpedicular space",
-    "The subarachnoid space"
-   ],
-   "answer": 3,
-   "why": "The meninges are dura, arachnoid and pia from outside in. The subarachnoid space, between arachnoid and pia, holds CSF.",
-   "slides": [
-    {
-     "src": "files/slides/anat3-spinal-cord/28.jpg",
-     "lec": "Anatomy of the spinal cord",
-     "n": 28
-    }
-   ],
-   "notes": [
-    "Fat and veins.",
-    "A potential space.",
-    "Not a meningeal space.",
-    "CSF is in the subarachnoid space."
-   ]
-  },
-  {
    "q": "What is the denticulate ligament?",
    "options": [
     "The fibrous anchor to the coccyx",
@@ -28127,30 +28103,6 @@ SINA.lectures["anat3-brainstem"] = {
    ]
   },
   {
-   "q": "Which cerebellar peduncle connects the pons to the cerebellum?",
-   "options": [
-    "The superior peduncle",
-    "The inferior peduncle",
-    "The cerebral peduncle",
-    "The middle peduncle"
-   ],
-   "answer": 3,
-   "why": "Superior: midbrain. Middle: pons. Inferior: medulla oblongata.",
-   "slides": [
-    {
-     "src": "files/slides/anat3-brainstem/07.jpg",
-     "lec": "Anatomy of the brainstem",
-     "n": 7
-    }
-   ],
-   "notes": [
-    "Joins the midbrain to the cerebellum.",
-    "Joins the medulla to the cerebellum.",
-    "Part of the midbrain, not cerebellar.",
-    "The middle peduncle joins the pons."
-   ]
-  },
-  {
    "q": "Which is the smallest part of the brainstem?",
    "options": [
     "The midbrain",
@@ -28489,30 +28441,6 @@ SINA.lectures["anat3-brainstem"] = {
     "Pons and medulla.",
     "Diencephalon.",
     "Spinal cord."
-   ]
-  },
-  {
-   "q": "What forms the floor of the fourth ventricle?",
-   "options": [
-    "The superior medullary velum",
-    "The cerebellar peduncles",
-    "The rhomboid fossa",
-    "The tela choroidea"
-   ],
-   "answer": 2,
-   "why": "The floor is the rhomboid fossa, a diamond-shaped depression on the back of the pons and upper medulla. The roof is the superior and inferior medullary vela.",
-   "slides": [
-    {
-     "src": "files/slides/anat3-brainstem/29.jpg",
-     "lec": "Anatomy of the brainstem",
-     "n": 29
-    }
-   ],
-   "notes": [
-    "Roof.",
-    "Lateral walls.",
-    "The rhomboid fossa forms the floor.",
-    "Roof."
    ]
   },
   {
@@ -28981,30 +28909,6 @@ SINA.lectures["anat3-brainstem"] = {
      "src": "files/slides/anat3-brainstem/23.jpg",
      "lec": "Anatomy of the brainstem",
      "n": 23
-    }
-   ]
-  },
-  {
-   "q": "Which structure connects the brainstem to the cerebellum?",
-   "options": [
-    "Cerebellar peduncles",
-    "Corpus callosum",
-    "Internal capsule",
-    "Fornix"
-   ],
-   "answer": 0,
-   "why": "Each part of the brainstem connects to the cerebellum by a pair of cerebellar peduncles: superior, middle and inferior.",
-   "notes": [
-    "Three pairs of peduncles.",
-    "The corpus callosum joins the hemispheres.",
-    "The internal capsule connects cortex and brainstem.",
-    "The fornix is a limbic pathway."
-   ],
-   "slides": [
-    {
-     "src": "files/slides/anat3-brainstem/07.jpg",
-     "lec": "Anatomy of the brainstem",
-     "n": 7
     }
    ]
   },
@@ -34620,30 +34524,6 @@ SINA.lectures["anat3-diencephalon"] = {
    ]
   },
   {
-   "q": "Which cavity does the diencephalon surround?",
-   "options": [
-    "Third ventricle",
-    "Fourth ventricle",
-    "Lateral ventricles",
-    "Central canal"
-   ],
-   "answer": 0,
-   "why": "The diencephalon lies around the third ventricle; the thalami form its lateral walls and the hypothalamus its floor.",
-   "notes": [
-    "The third ventricle lies in the middle of the diencephalon.",
-    "The fourth ventricle lies behind the pons and medulla.",
-    "The lateral ventricles are in the hemispheres.",
-    "The central canal is in the spinal cord."
-   ],
-   "slides": [
-    {
-     "src": "files/slides/anat3-diencephalon/04.jpg",
-     "lec": "Anatomy of the diencephalon",
-     "n": 4
-    }
-   ]
-  },
-  {
    "q": "What lies medial to the pulvinar?",
    "options": [
     "The pineal gland and the corpora quadrigemina",
@@ -37221,24 +37101,6 @@ SINA.lectures["anat3-pns"] = {
    ]
   },
   {
-   "q": "How many pairs of spinal nerves are there?",
-   "options": [
-    "31",
-    "12",
-    "24",
-    "33"
-   ],
-   "answer": 0,
-   "why": "8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 1 coccygeal, each leaving through the intervertebral foramen at its level.",
-   "slides": [
-    {
-     "src": "files/slides/anat3-pns/24.jpg",
-     "lec": "Anatomy of the peripheral nervous system",
-     "n": 24
-    }
-   ]
-  },
-  {
    "q": "Which plexus gives the phrenic nerve?",
    "options": [
     "The brachial plexus",
@@ -39073,30 +38935,6 @@ SINA.lectures["anat3-ventricles"] = {
    ]
   },
   {
-   "q": "Which space contains CSF?",
-   "options": [
-    "Subarachnoid space",
-    "Epidural space",
-    "Subdural space",
-    "Inside the dura mater"
-   ],
-   "answer": 0,
-   "why": "The subarachnoid space, between the arachnoid and the pia, is filled with CSF.",
-   "notes": [
-    "Between arachnoid and pia.",
-    "Between bone and dura.",
-    "Between dura and arachnoid.",
-    "Not a CSF space."
-   ],
-   "slides": [
-    {
-     "src": "files/slides/anat3-ventricles/39.jpg",
-     "lec": "Anatomy of the ventricles and CSF",
-     "n": 39
-    }
-   ]
-  },
-  {
    "q": "Why is a lumbar puncture done below the second lumbar vertebra in adults?",
    "options": [
     "The spinal cord ends around L1-L2",
@@ -39117,30 +38955,6 @@ SINA.lectures["anat3-ventricles"] = {
      "src": "files/slides/anat3-ventricles/60.jpg",
      "lec": "Anatomy of the ventricles and CSF",
      "n": 60
-    }
-   ]
-  },
-  {
-   "q": "Which ventricle lies between the two thalami?",
-   "options": [
-    "Third ventricle",
-    "Fourth ventricle",
-    "Lateral ventricle",
-    "Fifth ventricle"
-   ],
-   "answer": 0,
-   "why": "The third ventricle is a median cleft between the two thalami.",
-   "notes": [
-    "Between the thalami.",
-    "Behind the pons and medulla.",
-    "In each hemisphere.",
-    "Not a ventricle of the system."
-   ],
-   "slides": [
-    {
-     "src": "files/slides/anat3-ventricles/24.jpg",
-     "lec": "Anatomy of the ventricles and CSF",
-     "n": 24
     }
    ]
   },
@@ -40148,30 +39962,6 @@ SINA.lectures["anat3-cerebellum"] = {
     "The third ventricle is in the diencephalon.",
     "The tentorium lies above the cerebellum.",
     "The falx lies between the cerebral hemispheres."
-   ],
-   "slides": [
-    {
-     "src": "files/slides/anat3-cerebellum/05.jpg",
-     "lec": "Anatomy of the cerebellum",
-     "n": 5
-    }
-   ]
-  },
-  {
-   "q": "Which dural fold lies directly above the cerebellum?",
-   "options": [
-    "Tentorium cerebelli",
-    "Falx cerebri",
-    "Diaphragma sellae",
-    "Falx cerebelli"
-   ],
-   "answer": 0,
-   "why": "The cerebellum lies inferior to the tentorium cerebelli; its superior surface is related to it.",
-   "notes": [
-    "The tentorium roofs over the cerebellum.",
-    "The falx cerebri is between the cerebral hemispheres.",
-    "The diaphragma sellae covers the pituitary.",
-    "The falx cerebelli lies between the cerebellar hemispheres, not above."
    ],
    "slides": [
     {
@@ -41779,30 +41569,6 @@ SINA.lectures["anat3-neuro-intro"] = {
     "31 pairs, part of the PNS.",
     "Sensory ganglia are PNS.",
     "The spinal cord is CNS."
-   ],
-   "slides": [
-    {
-     "src": "files/slides/anat3-neuro-intro/17.jpg",
-     "lec": "Introduction and embryological development of the CNS",
-     "n": 17
-    }
-   ]
-  },
-  {
-   "q": "How many pairs of spinal nerves are there?",
-   "options": [
-    "31",
-    "12",
-    "33",
-    "8"
-   ],
-   "answer": 0,
-   "why": "There are 12 pairs of cranial nerves and 31 pairs of spinal nerves.",
-   "notes": [
-    "31 pairs of spinal nerves.",
-    "12 is the number of cranial nerve pairs.",
-    "33 is the number of vertebrae.",
-    "8 is the number of cervical nerve pairs."
    ],
    "slides": [
     {

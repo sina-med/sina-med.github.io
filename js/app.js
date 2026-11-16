@@ -2098,9 +2098,7 @@
       return ans.map(function (n) { return LET[n] + ". " + q.options[n]; }).join(" and ");
     }
     function feedback(q, ok, skipped, pts) {
-      var head = skipped ? "Skipped." : ok ? "Correct." : pts > 0 ? "Partly right: " + fmtPts(pts) + " of 1 point." : "Not quite: 0 points.";
-      var body = q.why ? " " + esc(q.why) : "";
-      return '<div class="why"><strong>' + head + "</strong> Correct answer: " + esc(keyText(q)) + "." + body + "</div>" + slidesHTML(q) + '<p class="rep-line"><button type="button" class="linkbtn" id="rep">Report a mistake in this question</button></p>';
+      return slidesHTML(q) + '<p class="rep-line"><button type="button" class="linkbtn" id="rep">Report a mistake in this question</button></p>';
     }
     function render() {
       if (i >= qs.length) {
@@ -2129,8 +2127,8 @@
               return '<div class="rev-item"><p class="qhead">Question ' + w.n + '</p><p class="qtext">' + esc(figQText(q, q._fig || (lec.visual && lec.visual.figure))) + "</p>" + (q.flow ? flowHTML(q, true) : q.occ ? occHTML(q, true) : "") +
                 q.options.map(function (o, n) {
                   var om = optMark(ans, w.chosen || [], n), cls = om.cls, tag = om.tag;
-                  return '<div class="opt static' + cls + '"><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span>" + tag + "</div>";
-                }).join("") + (q.why ? '<div class="why">' + esc(q.why) + "</div>" : "") + slidesHTML(q) + "</div>";
+                  return '<div class="opt static' + cls + '"><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span>" + tag + (optNote(q, n) ? '<span class="onote">' + esc(optNote(q, n)) + "</span>" : "") + "</div>";
+                }).join("") + slidesHTML(q) + "</div>";
             }).join("");
             box.scrollIntoView({ behavior: "smooth", block: "start" });
           };
@@ -2160,7 +2158,7 @@
         opts.forEach(function (x) {
           var n = +x.dataset.n; x.disabled = true; x.classList.remove("picked");
           if (ans.indexOf(n) > -1) x.classList.add("correct"); else if (chosen.indexOf(n) > -1) x.classList.add("wrong");
-          if (q.notes && q.notes[n]) x.insertAdjacentHTML("beforeend", '<span class="onote">' + (/^(correct|wrong)\b/i.test(q.notes[n]) ? "" : ans.indexOf(n) > -1 ? "Correct. " : "Wrong. ") + esc(q.notes[n]) + "</span>");
+          var on = optNote(q, n); if (on) x.insertAdjacentHTML("beforeend", '<span class="onote">' + (/^(correct|wrong)\b/i.test(on) ? "" : ans.indexOf(n) > -1 ? "Correct. " : "Wrong. ") + esc(on) + "</span>");
         });
         var c = p.querySelector("#chk"); if (c) c.remove();
         if (fresh && !skipped) answerFx(opts, ans, chosen, ok);
@@ -2993,8 +2991,8 @@
           var ans = q.answers || [q.answer], s = sel[k];
           return '<div class="rev-item"><p class="qhead">Question ' + (k + 1) + (s.length ? "" : " · not answered") + '</p><p class="qtext">' + esc(figQText(q, q._fig)) + "</p>" + (q.flow ? flowHTML(q, true) : q.occ ? occHTML(q, true) : "") +
             q.options.map(function (o, m) { var om = optMark(ans, s, m), cls = om.cls, tag = om.tag;
-              return '<div class="opt static' + cls + '"><span class="letter">' + LET[m].toUpperCase() + "</span><span>" + esc(o) + "</span>" + tag + (q.notes && q.notes[m] ? '<span class="onote">' + esc(q.notes[m]) + "</span>" : "") + "</div>"; }).join("") +
-            (q.why ? '<div class="why">' + esc(q.why) + "</div>" : "") + slidesHTML(q) + "</div>";
+              return '<div class="opt static' + cls + '"><span class="letter">' + LET[m].toUpperCase() + "</span><span>" + esc(o) + "</span>" + tag + (optNote(q, m) ? '<span class="onote">' + esc(optNote(q, m)) + "</span>" : "") + "</div>"; }).join("") +
+            slidesHTML(q) + "</div>";
         }).join("") || '<p class="src">No wrong answers. Well done.</p>';
       }
       p.querySelector("#xr-wrong").onclick = function () { review(true); };
@@ -3058,6 +3056,12 @@
     return w ? 0 : r / ans.length;
   }
   /* option state in reviews: correct answers, and the student's wrong picks */
+  /* per-option note; questions without notes show their explanation under the (first) correct option */
+  function optNote(q, n) {
+    if (q.notes && q.notes.some(function (x) { return x; })) return q.notes[n] || "";
+    var ans = q.answers || [q.answer];
+    return q.why && n === ans[0] ? q.why : "";
+  }
   function optMark(ans, chosen, n) {
     var a = ans.indexOf(n) > -1, c = chosen.indexOf(n) > -1;
     return { cls: a ? " correct" : c ? " wrong" : "",
