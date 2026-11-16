@@ -794,6 +794,13 @@ SINA.wardle = {
    ["Lateral wall of the axilla",["lateral wall"],"Axilla"],
    ["Apex of the axilla",["apex","cervico-axillary canal"],"Axilla"],
    ["Base of the axilla",["floor","base"],"Axilla"]
+  ],
+  ig: [
+   ["IgE",["immunoglobulin E"],"Antibody class"],
+   ["IgG",["immunoglobulin G"],"Antibody class"],
+   ["IgM",["immunoglobulin M"],"Antibody class"],
+   ["IgA",["immunoglobulin A","secretory IgA"],"Antibody class"],
+   ["IgD",["immunoglobulin D"],"Antibody class"]
   ]
  },
  attr: {
@@ -1582,6 +1589,13 @@ SINA.wardle = {
    "Lateral wall of the axilla": ["Coracobrachialis, biceps","Lateral","Humerus"],
    "Apex of the axilla": ["None","Upper","Clavicle and 1st rib"],
    "Base of the axilla": ["None","Lower","None"]
+  } },
+  ig: { cols: ["Secreted as","Crosses the placenta","Main job"], near: [["Monomer","Dimer"]], v: {
+   "IgE": ["Monomer","No","Allergy and parasites"],
+   "IgG": ["Monomer","Yes","Opsonisation, ADCC"],
+   "IgM": ["Pentamer","No","First response"],
+   "IgA": ["Dimer","No","Mucosal immunity"],
+   "IgD": ["Monomer","No","B-cell receptor"]
   } }
  },
  tracks: {
@@ -2400,7 +2414,7 @@ SINA.wardle = {
     line: "Stung by a wasp on the neck ten minutes ago. A friend drove him in; he is getting worse in the car.",
     dx: "Anaphylactic shock after a wasp sting",
     outcome: "Two doses of IM adrenaline, fluids. Home the next day with an adrenaline auto-injector.",
-    takeaways: ["Anaphylaxis: skin + airway + gut + circulation within minutes.","It's a distributive shock: vasodilation and leak.","IM adrenaline in the thigh, without delay.","Then oxygen, legs raised, fluids; antihistamine and steroid later."],
+    takeaways: ["Anaphylaxis: skin + airway + gut + circulation within minutes.","It's a distributive shock: vasodilation and leak.","IM adrenaline in the thigh, without delay; then legs raised, O₂, fluids.","Type I: venom-specific IgE on mast cells."],
     n: 11,
     stages: [
      {
@@ -2445,7 +2459,7 @@ SINA.wardle = {
      },
      {
       id: "pos",
-      label: "Position",
+      label: "Fluids",
       list: "edrug",
       q: "His pressure is still low. What do you add?",
       ev: "Supine with legs raised, on oxygen.",
@@ -2457,19 +2471,18 @@ SINA.wardle = {
       src: [["fa-immune","Immune function",2],["fa-cardiovascular","Cardiovascular function: shock",2]]
      },
      {
-      id: "k",
-      label: "Discharge",
-      list: "edrug",
-      q: "What must he carry from now on?",
-      ev: "Next morning he is well and going home.",
-      hints: ["Another sting could do the same, faster.","He needs to treat himself in the first minutes.","The drug that saved him yesterday.","A pen he presses into his thigh.","Through clothing if needed."],
-      answer: "IM adrenaline",
-      show: "An adrenaline auto-injector",
+      id: "ig",
+      label: "Antibody",
+      list: "ig",
+      q: "Which antibody class, made after his first sting, caused this reaction?",
+      ev: "Next morning he asks why a sting could do this to him.",
+      hints: ["He was stung once before, last summer, with only a local reaction.","That first sting sensitised him.","The antibody is found only in trace amounts in serum.","Its Fc end sits on mast cells and basophils; venom cross-links it.","It also defends against parasites."],
+      answer: "IgE",
       key: 3,
-      why: "After anaphylaxis, the patient carries IM adrenaline (an auto-injector) and is referred to an allergist.",
-      contenders: [["IM adrenaline","An auto-injector, used at once."],["H1 antihistamine","Too slow and too weak for anaphylaxis."],["IV hydrocortisone","Can't be self-injected; acts over hours."],["Inhaled salbutamol","Doesn't treat the shock."]],
-      src: [["fa-immune","Immune function",2]],
-      enrich: "Referral to an allergist; venom immunotherapy can prevent future reactions."
+      why: "Sensitisation made venom-specific IgE, which binds mast cells and basophils. On re-exposure the venom cross-links it and the cells degranulate within minutes: type I hypersensitivity.",
+      contenders: [["IgE","Binds mast cells and basophils: allergy."],["IgG","The main serum antibody; opsonises, crosses the placenta."],["IgM","First antibody of a primary response."],["IgA","Mucosal immunity, in secretions."]],
+      src: [["fa-immune","Immune function",2],["immuno1-immunoglobulins","Immunoglobulins and antibody functions",1]],
+      enrich: "He should carry an adrenaline auto-injector and see an allergist; venom immunotherapy can prevent future reactions."
      }
     ]
    },

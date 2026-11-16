@@ -2460,7 +2460,7 @@
     var h = "";
     /* one-time banner announcing Clinidle; gone once dismissed or once a case has been played */
     if (wlOn() && !store.get("sina:clIntro", false) && !Object.keys(wlAll()).length)
-      h += '<div class="cl-ban" role="region" aria-label="New: Clinidle"><div class="cl-txt"><p class="cl-k"><span>New</span> Clinidle</p><p>A new patient every day. Guess the diagnosis step by step; every wrong guess gives you a clue.</p></div>' +
+      h += '<div class="cl-ban" role="region" aria-label="New: Clinidle"><div class="cl-txt"><p class="cl-k"><span>New</span> Clinidle</p><p>Test your medical knowledge, one case at a time.</p></div>' +
         '<div class="cl-act"><a class="cl-go" href="#/clinidle">Play today\'s patient</a><button type="button" class="cl-x" aria-label="Dismiss">Not now</button></div></div>';
     h += '<nav class="quick" aria-label="Quick access">';
     if (wlOn()) { var wd = wlDay(), wS = wlAll()[wd], wNew = !!wlCase(wd); h += t("#/clinidle", "wl", wNew ? "Clinidle #" + wd : "Clinidle", !wNew ? "Replay past patients" : wS && wS.done ? "Done today · " + fmtPts(wS.score) + " / 5" : "Today's patient", wNew && !(wS && wS.done) ? "qt-hot" : ""); }
