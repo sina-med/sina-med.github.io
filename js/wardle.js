@@ -5,7 +5,7 @@
    done({score, squares}), end(element) to add sharing and the leaderboard under the result. */
 (function () {
   var PTS = [1, 0.75, 0.5, 0.25, 0];
-  var HOLD = { dx: "Type a diagnosis", wall: "Type a wall of the heart", artery: "Type an artery", tx: "Type a test or treatment", syn: "Type a thoracic syndrome", gas: "Type an acid-base disorder", abx: "Type an antibiotic" };
+  var HOLD = { dx: "Type a diagnosis", wall: "Type a wall of the heart", artery: "Type an artery", tx: "Type a test or treatment", syn: "Type a thoracic syndrome", gas: "Type an acid-base disorder", abx: "Type a drug", test: "Type a test", rhythm: "Type a rhythm", thy: "Type a thyroid pattern", field: "Type a visual field defect", jaund: "Type a type of jaundice", bleed: "Type a bleeding site", act: "Type an action", gdrug: "Type a drug", dys: "Type a type of dysphagia", dmech: "Type a mechanism", csf: "Type a CSF pattern", germ: "Type a germ", bone: "Type a bone or part of one", nerve: "Type a nerve", move: "Type a movement", muscle: "Type a muscle", space: "Type a space, groove or canal", uartery: "Type an artery", gdx: "Type a disease", mut: "Type a mutation type", inh: "Type a mode of inheritance", risk: "Type a risk", gtest: "Type a test", chrom: "Type a chromosomal anomaly" };
 
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
   function norm(s) { return String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, " ").trim(); }
@@ -27,9 +27,9 @@
 
   function play(box, C, o) {
     var L = o.lists, A = o.attr, N = C.stages.length;
-    function fresh() { return { stage: 0, tries: C.stages.map(function () { return []; }), solved: C.stages.map(function () { return null; }), view: "play" }; }
+    function fresh() { return { stage: 0, tries: C.stages.map(function () { return []; }), solved: C.stages.map(function () { return null; }), view: "menu" }; }
     var S = o.load && o.load(); if (!S || !S.tries || S.tries.length !== N) S = fresh();
-    var ui = { q: "", pick: null, active: 0, open: {}, msg: "", fresh: false, enter: true };
+    var ui = { q: "", pick: null, active: 0, open: {}, msg: "", fresh: false, enter: true, how: false };
     function save() { if (o.save) o.save(S); }
 
     function pts(i) { var s = S.solved[i]; return s === null || s === -1 ? 0 : PTS[s]; }
@@ -105,8 +105,7 @@
       if (s.slip) h += slipHTML(s.slip);
       h += '<h2 class="wl-q">' + esc(s.q) + '</h2><p class="wl-lab">Clues</p><ol class="wl-hints">' + s.hints.slice(0, shown).map(function (t, k) { return "<li" + (ui.fresh && k === shown - 1 && k ? ' class="new"' : "") + "><b>" + (k + 1) + "</b><span>" + esc(t) + "</span></li>"; }).join("") + "</ol>";
       if (tries.length) h += '<div class="wl-tries" aria-label="Wrong guesses and how close they were"><div class="wl-tr wl-tr-h"><span>Your guesses</span>' + A[s.list].cols.map(function (c) { return "<span>" + esc(c) + "</span>"; }).join("") + "</div>" +
-        tries.map(function (t) { return '<div class="wl-tr"><span>' + esc(t) + "</span>" + compare(s.list, t, ans(s)[0]).map(function (x) { return '<span class="wl-tg ' + x.c + '">' + esc(x.t) + "</span>"; }).join("") + "</div>"; }).join("") +
-        '<p class="wl-key"><span><i class="y"></i>matches</span><span><i class="p"></i>close</span><span><i class="n"></i>no</span></p></div>';
+        tries.map(function (t) { return '<div class="wl-tr"><span>' + esc(t) + "</span>" + compare(s.list, t, ans(s)[0]).map(function (x) { return '<span class="wl-tg ' + x.c + '">' + esc(x.t) + "</span>"; }).join("") + "</div>"; }).join("") + "</div>";
       if (solved) {
         h += '<div class="wl-fb" role="status"><b>Correct · +' + fmt(pts(i)) + " pt" + (pts(i) === 1 ? "" : "s") + "</b><span>" + esc(S.tries[i].length ? "Found after " + S.tries[i].length + " wrong guess" + (S.tries[i].length > 1 ? "es" : "") + "." : "First try.") + "</span></div>" +
           '<button type="button" class="wl-btn primary" data-a="next">' + (i === N - 1 ? "See the result" : "Next: " + esc(C.stages[i + 1].label)) + "</button>";
@@ -115,6 +114,13 @@
           '<ul class="wl-list" id="wl-lb" role="listbox" hidden></ul></div><p class="wl-note" role="status">' + esc(ui.msg) + '</p><p class="wl-meta">This guess: ' + fmt(PTS[Math.min(tries.length, 4)]) + " pt" + (tries.length ? "s" : "") + "</p>";
       } else h += '<p class="wl-note">No more clues. The answer stays hidden until the debrief.</p><button type="button" class="wl-btn" data-a="skip">Move on</button>';
       return h + "</section>";
+    }
+    function menuHTML() {
+      var h = '<div class="wl-menu"><p class="wl-lab">' + esc(o.kicker || "Today's patient") + '</p><h1 class="wl-name">' + esc(o.title || "Wardle") + "</h1>" +
+        '<p class="wl-intro">A patient arrives. Work out what is going on, one stage at a time: the diagnosis, the exam, the results, the treatment, what happens next.</p>' +
+        '<div class="wl-menu-b"><button type="button" class="wl-btn primary" data-a="start">Play</button><button type="button" class="wl-btn" data-a="how" aria-expanded="' + ui.how + '">How to play</button></div>';
+      if (ui.how) h += '<ol class="wl-how"><li>Each stage asks one question. Type your answer and pick it from the list.</li><li>A wrong guess shows how close it was: green matches, yellow is close, grey is wrong. It also reveals a new clue.</li><li>Points per stage: 1, 0.75, 0.5, 0.25, then 0 after five wrong guesses.</li><li>Answers stay hidden until the end. The debrief explains every one, with the lecture it comes from.</li><li>One new patient a day. Your score counts on the day only.</li></ol>';
+      return h + "</div>";
     }
     function endHTML() {
       var t = total();
@@ -158,7 +164,7 @@
     }
 
     function render(focus) {
-      box.innerHTML = '<div class="wl">' + (S.view === "play" ? playHTML() : S.view === "end" ? endHTML() : debriefHTML()) + "</div>";
+      box.innerHTML = '<div class="wl">' + (S.view === "menu" ? menuHTML() : S.view === "play" ? playHTML() : S.view === "end" ? endHTML() : debriefHTML()) + "</div>";
       ui.fresh = false; ui.enter = false;
       if (S.view === "end" && o.end) o.end(box.querySelector("#wl-extra"));
       var g = box.querySelector("#wl-g");
@@ -203,7 +209,9 @@
       if (li) { if (!li.classList.contains("used")) choose(li.getAttribute("data-v")); return; }
       var t = e.target.closest("button"); if (!t || !box.contains(t)) return;
       var a = t.getAttribute("data-a");
-      if (a === "next") next();
+      if (a === "start") { S.view = "play"; ui.enter = true; save(); render(); top(); }
+      else if (a === "how") { ui.how = !ui.how; render(); }
+      else if (a === "next") next();
       else if (a === "skip") { S.solved[S.stage] = -1; next(); }
       else if (a === "debrief") { S.view = "debrief"; save(); render(); top(); }
       else if (a === "back") { S.view = "end"; save(); render(); top(); }

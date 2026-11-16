@@ -3557,13 +3557,14 @@
   }
 
   /* ---------- Wardle: one patient a day (js/wardle.js plays the case; Sina keeps the daily, streak, sharing and leaderboard) ---------- */
-  function wlDay() {   /* today's case number, counted from the start date in local time */
-    var s = S.wardle.start.split("-"), d = new Date();
+  function wlTrack() { var y = String(PROG || "").split("-")[0]; return S.wardle && S.wardle.tracks[y] || null; }   /* one daily series per year */
+  function wlDay() {   /* today's case number, counted from the track's start date in local time */
+    var s = wlTrack().start.split("-"), d = new Date();
     return Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - Date.UTC(+s[0], s[1] - 1, +s[2])) / 864e5) + 1;
   }
-  function wlOn() { return !!(S.wardle && S.wardle.cases.length && window.SinaWardle && inProgram("semio-cv-intro") && wlDay() >= 1); }
-  function wlCase(n) { return S.wardle.cases[n - 1] || null; }
-  function wlAll() { return store.get("sina:wardle", {}); }
+  function wlOn() { return !!(window.SinaWardle && wlTrack() && wlTrack().cases.length && wlDay() >= 1); }
+  function wlCase(n) { return wlTrack().cases[n - 1] || null; }
+  function wlAll() { return store.get(wlTrack().key, {}); }
   function wlStreak() {
     var a = wlAll(), n = wlDay(), k = a[n] && a[n].done && a[n].live ? n : n - 1, s = 0;
     while (k >= 1 && a[k] && a[k].done && a[k].live) { s++; k--; }
@@ -3581,12 +3582,12 @@
       return;
     }
     var c = wlCase(n), all = wlAll(), st = all[n] || { live: n === today, t0: Date.now() }, streak = wlStreak();
-    function save() { var a = wlAll(); a[n] = st; store.set("sina:wardle", a); }
+    function save() { var a = wlAll(); a[n] = st; store.set(wlTrack().key, a); }
     setView('<div class="wrap narrow wl-host"><p class="crumbs"><a href="#/">Home</a> / Wardle · ' + (n === today ? "today's patient" : "past patient, not counted") + (streak ? " · " + streak + "-day streak" : "") + ' · <a href="#/wardle/archive">Past patients</a></p><div id="wl-box"></div></div>', "Wardle");
     function post(nick, then) {
       nick = nick.replace(/[^\p{L}\p{N} ._-]/gu, "").trim().slice(0, 20); if (!nick || !S.api) return;
       store.set("sina:nick", nick);
-      fetch(S.api, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ type: "score", nick: nick, device: lbDevice(), paper: "wardle-" + n, score: st.score, total: 5, secs: Math.max(st.secs || 0, 15) }) })
+      fetch(S.api, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ type: "score", nick: nick, device: lbDevice(), paper: wlTrack().paper + n, score: st.score, total: 5, secs: Math.max(st.secs || 0, 15) }) })
         .then(function () { st.posted = nick; save(); sessionStorage.removeItem("sina:lb"); if (then) then(); });
     }
     function extras(x) {
@@ -3597,7 +3598,7 @@
         (n === today ? '<p class="meta">Next patient in ' + Math.floor(left / 36e5) + " h " + Math.floor(left % 36e5 / 6e4) + " min.</p>" : "");
       var msg = x.querySelector("#wl-msg");
       x.querySelector("#wl-share").onclick = function () {
-        var t = "Wardle #" + n + " " + fmtPts(st.score) + "/5\n" + wlSquares(st) + "\n" + location.origin + location.pathname + "#/wardle";
+        var t = "Wardle " + (wlTrack().paper === "wardle1-" ? "1st year " : "") + "#" + n + " " + fmtPts(st.score) + "/5\n" + wlSquares(st) + "\n" + location.origin + location.pathname + "#/wardle";
         if (navigator.share) navigator.share({ text: t }).catch(function () {});
         else navigator.clipboard.writeText(t).then(function () { msg.textContent = "Copied. Paste it in the group chat."; }, function () { msg.textContent = t; });
       };
@@ -3605,14 +3606,14 @@
       var lb = x.querySelector("#wl-lb"); if (lb) lbFetch(function (d) {
         if (!d || !d.ok || !document.body.contains(lb)) return;
         var tot = {}, me = (store.get("sina:nick", "") || "").toLowerCase();
-        Object.keys(d.papers || {}).forEach(function (p) { var m = /^wardle-(\d+)$/.exec(p); if (!m || +m[1] <= today - 7) return; d.papers[p].forEach(function (r) { var k = String(r.nick).toLowerCase(), o = tot[k] = tot[k] || { nick: r.nick, s: 0, n: 0 }; o.s += +r.score; o.n++; }); });
+        Object.keys(d.papers || {}).forEach(function (p) { var m = p.indexOf(wlTrack().paper) === 0 && /^\d+$/.test(p.slice(wlTrack().paper.length)) ? [p, p.slice(wlTrack().paper.length)] : null; if (!m || +m[1] <= today - 7) return; d.papers[p].forEach(function (r) { var k = String(r.nick).toLowerCase(), o = tot[k] = tot[k] || { nick: r.nick, s: 0, n: 0 }; o.s += +r.score; o.n++; }); });
         if (st.posted && !tot[me]) tot[me] = { nick: st.posted, s: st.score, n: 1 };
         var list = Object.keys(tot).map(function (k) { return tot[k]; }).sort(function (a, b) { return b.s - a.s; }).slice(0, 10);
         if (list.length) lb.innerHTML = '<p class="wl-lab" style="margin-top:12px">Last 7 days</p><ol class="rd-lb">' + list.map(function (r) { return '<li' + (String(r.nick).toLowerCase() === me ? ' class="me"' : "") + "><span>" + esc(r.nick) + "</span><span>" + fmtPts(r.s) + " pts · " + r.n + " day" + (r.n > 1 ? "s" : "") + "</span></li>"; }).join("") + "</ol>";
       });
     }
     window.SinaWardle.play(document.getElementById("wl-box"), c, {
-      title: "Wardle #" + n, lists: S.wardle.lists, attr: S.wardle.attr, slips: S.wardle.slips,
+      title: "Wardle #" + n, kicker: n === today ? "Today's patient" : "Past patient", lists: S.wardle.lists, attr: S.wardle.attr, slips: S.wardle.slips,
       load: function () { return st.eng || null; },
       save: function (e) { st.eng = e; save(); },
       lec: function (id) { return S.lectures[id] ? { title: lectureTitle(id) || S.lectures[id].title, href: "#/lecture/" + id } : null; },
@@ -3625,7 +3626,7 @@
   }
   function wardleArchive() {
     var today = wlDay(), a = wlAll(), h = "";
-    for (var n = Math.min(today, S.wardle.cases.length); n >= 1; n--) {
+    for (var n = Math.min(today, wlTrack().cases.length); n >= 1; n--) {
       var st = a[n];
       h += '<li><a href="#/wardle/' + n + '"><span>Wardle #' + n + (n === today ? " · today" : "") + "</span><span>" + (st && st.done ? fmtPts(st.score) + " / 5" : st ? "Started" : "Not played") + "</span></a></li>";
     }
