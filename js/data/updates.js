@@ -3,7 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "16 November 2026", items: [
-    "Added: Clinidle, a daily clinical case for the 2nd year: guess the diagnosis stage by stage, with clues, a debrief and a weekly leaderboard.",
+    "Added: Clinidle, a daily clinical case for the 1st and 2nd year: guess the diagnosis stage by stage, with clues, a debrief and a weekly leaderboard.",
     "Changed: the answer box under each question is removed; explanations now sit under each option.",
     "Changed: 10 repeated questions removed from Anatomy 3 neuroanatomy."
   ] },

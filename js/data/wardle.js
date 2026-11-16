@@ -1911,7 +1911,7 @@ SINA.wardle = {
     ]
    }
   ] },
-  y1: { start: "2026-11-17", key: "sina:wardle-y1", paper: "wardle1-", cases: [
+  y1: { start: "2026-11-16", key: "sina:wardle-y1", paper: "wardle1-", cases: [
    {
     title: "Fell off his scooter",
     who: "Man, 24",
