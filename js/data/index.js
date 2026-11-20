@@ -150,6 +150,7 @@ SINA.subjects = [
       { name: "Vital functions", items: [
         { id: "fa-neural", title: "Neural function: intracranial pressure" },
         { id: "fa-cardiovascular", title: "Cardiovascular function: shock" },
+        { id: "fa-respiratory", title: "Respiratory function: hypoxaemia and hypercapnia" },
         { id: "fa-renal", title: "Renal function: acute kidney injury" },
         { id: "fa-endocrine", title: "Endocrine function: endocrine crises" },
         { id: "fa-immune", title: "Immune function" },
@@ -814,7 +815,7 @@ SINA.midterms = [
   "subjects": ["firstaid"],
   "title": "Vital Functions",
   "date": "2026-11-24",
-  "groups": [{ "name": "Vital functions", "items": ["fa-cardiovascular", "fa-neural"], "tbc": false }],
+  "groups": [{ "name": "Vital functions", "items": ["fa-cardiovascular", "fa-neural", "fa-respiratory"], "tbc": false }],
   "notes": {},
   "tbc": false,
   "part": false,

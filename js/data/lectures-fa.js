@@ -4242,6 +4242,824 @@ SINA.lectures["fa-cardiovascular"] = {
  "verified": "22 Sep 2026"
 };
 window.SINA = window.SINA || {subjects:[], lectures:{}};
+SINA.lectures["fa-respiratory"] = {
+ "id": "fa-respiratory",
+ "subject": "firstaid",
+ "group": "Vital functions",
+ "title": "Respiratory function: hypoxaemia and hypercapnia",
+ "sourceFile": "Respiratory_Function_clinical.pdf (First Aid and Vital Functions, Pr Amal Haoudar)",
+ "sourceUrl": "https://drive.google.com/file/d/1kosAT8Jz_-CxsFklStln1yCX7v0nrWhe/view?usp=drivesdk",
+ "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
+ "summary": [
+  {
+   "id": "s0",
+   "title": "The big picture",
+   "html": "<p>Every minute the lungs take up about <strong>250 mL of O₂</strong> and remove about <strong>200 mL of CO₂</strong>, keeping <strong>PaO₂ ≈ 95 mmHg</strong> and <strong>PaCO₂ ≈ 40 mmHg</strong>. Four components can fail, each with its own disease: <strong>control and pump</strong> (brainstem, nerves, muscles, chest wall → hypoventilation, ↑ PaCO₂: opioids, Guillain–Barré, flail chest), <strong>airways</strong> (obstruction: asthma, COPD, foreign body), <strong>alveoli and capillaries</strong> (gas-exchange failure, ↓ PaO₂: pneumonia, pulmonary oedema, fibrosis, embolism) and <strong>blood</strong> (tissue hypoxia with normal lungs: anaemia, CO poisoning, shock). Localise the failing level first.</p>"
+  },
+  {
+   "id": "s1",
+   "title": "Mechanics of breathing",
+   "html": "<p>Inspiration: the diaphragm contracts, pleural pressure falls (≈ −5 → −8 cmH₂O), alveolar pressure turns slightly negative and air flows in. Expiration is passive (lung recoil). Air always flows from high to low pressure.</p><p><strong>Compliance = ΔV / ΔP</strong>: how easily the lung stretches (normal ≈ 200 mL/cmH₂O). High in emphysema (fills easily, empties badly: air trapping, ↑ FRC); low in fibrosis, ARDS and pulmonary oedema (stiff lung: fast, shallow breathing, ↓ TLC). Chest-wall stiffness (obesity, kyphoscoliosis, chest burns) lowers FRC and TLC. <strong>Surfactant</strong> (type II cells) lowers surface tension, raises compliance and keeps small alveoli open; its absence causes neonatal RDS.</p><p><strong>Resistance ∝ 1/r⁴</strong>: halving the radius multiplies resistance by 16. Vagus (M3) → bronchoconstriction and mucus, blocked by ipratropium; β2 (mainly circulating adrenaline) → bronchodilation, mimicked by salbutamol. Resistance falls as lung volume rises (radial traction), so asthma and COPD patients breathe at high volume: hyperinflation.</p>"
+  },
+  {
+   "id": "s2",
+   "title": "Ventilation, diffusion, V/Q, transport, control",
+   "html": "<p><strong>VE = VT × RR</strong>; <strong>VA = (VT − VD) × RR</strong>, with VD ≈ 150 mL (15 × 500 = 7.5 L/min; 15 × 350 = 5.25 L/min). Fast shallow breathing wastes ventilation: 30 × (250 − 150) = only 3 L/min. Inspired PO₂ = 0.21 × (760 − 47) ≈ 150 mmHg. <strong>PaCO₂ mirrors alveolar ventilation</strong>.</p><p><strong>Fick's law</strong>: transfer rises with area, pressure difference and the diffusion constant, falls with thickness. CO₂ diffuses ≈ 20× faster than O₂, so a diffusion problem gives hypoxaemia first (worse on exercise), with normal or low PaCO₂.</p><p>Standing, V/Q is ≈ 3 at the apex and ≈ 0.6 at the base. <strong>Shunt (V/Q = 0)</strong>: pneumonia, atelectasis, ARDS, hypoxaemia that responds poorly to O₂. <strong>Low V/Q</strong>: asthma, COPD, improves with O₂. <strong>Dead space (V/Q = ∞)</strong>: pulmonary embolism, shock. Hypoxic vasoconstriction redirects blood to ventilated alveoli. V/Q mismatch is the commonest cause of hypoxaemia.</p><p>O₂: ≈ 98% bound to Hb, dissolved only 3 mL/L at 100 mmHg. Right shift (release): ↑ temperature, ↑ PCO₂, ↑ 2,3-DPG, ↓ pH. CO₂: ≈ 70% bicarbonate (carbonic anhydrase), 20% carbamino, 10% dissolved. Breathing is driven mainly by CO₂: opioids depress the centre (naloxone); metabolic acidosis gives Kussmaul breathing; Cheyne–Stokes in heart failure or stroke.</p>"
+  },
+  {
+   "id": "s3",
+   "title": "Assessment",
+   "html": "<p>Upper airway: stridor (upper) vs wheeze (lower); red flags are drooling, stridor at rest and rapidly worsening obstruction. Lungs: tachypnoea over 20/min, Kussmaul, Cheyne–Stokes, accessory muscles, retractions, pursed lips, percussion, crackles, wheeze, rub.</p><p>Volumes: VT ≈ 500 mL, IRV, ERV, <strong>RV (not measurable by spirometry)</strong>. Capacities: <strong>TLC ≈ 6 L</strong>, <strong>VC = IRV + VT + ERV ≈ 4.5–5 L</strong>, <strong>FRC = ERV + RV</strong>, IC = VT + IRV. RV, FRC and TLC need plethysmography or gas dilution.</p><p><strong>SpO₂ → oxygenation</strong> (normal ≥ 95%; inaccurate with poor perfusion, movement, CO, dark skin; says nothing about CO₂). <strong>ETCO₂ → ventilation</strong> (35–45 mmHg, 2–5 below PaCO₂; the gap widens with dead space). ABG from the radial or femoral artery. Imaging: X-ray, CT, lung ultrasound (B-lines in pulmonary oedema).</p>"
+  },
+  {
+   "id": "s4",
+   "title": "Disorders and management",
+   "html": "<p><strong>Hypoxaemia</strong>: SaO₂ &lt; 90% ≈ PaO₂ 60 mmHg. <strong>PAO₂ = FiO₂ × (760 − 47) − PaCO₂ / 0.8</strong> (room air ≈ 100). <strong>A–a gradient = PAO₂ − PaO₂</strong>, normal &lt; 10–15: normal → hypoventilation or low inspired O₂; high → V/Q mismatch, shunt or diffusion. <strong>Hypercapnia</strong>: PaCO₂ &gt; 45 from ↓ minute ventilation, ↑ dead space or ↑ CO₂ production; acute → respiratory acidosis.</p><p><strong>Obstructive</strong>: ↓ FEV₁/FVC; reversibility ≥ 12% and ≥ 200 mL suggests asthma; ↑ RV and FRC; a normal or rising PaCO₂ in an attack means fatigue. <strong>Restrictive</strong>: ↓ TLC with normal or ↑ FEV₁/FVC; parenchymal (fibrosis, ARDS, oedema: ↑ A–a) or extraparenchymal (pleura, chest wall, neuromuscular: hypoventilation, A–a normal at first).</p><p>First hour: <strong>ABC</strong>, continuous monitoring, O₂ to <strong>SpO₂ 92–96%</strong> (<strong>88–92%</strong> if risk of CO₂ retention), treat the mechanism, escalate early (NIV, intubation). The three patients with SpO₂ 85%: opioids (A–a ≈ 4, hypoventilation: airway, bag-mask, naloxone), asthma (A–a ≈ 58, low V/Q: O₂, salbutamol + ipratropium, steroids), pneumonia (A–a ≈ 56, shunt, little rise with O₂: high-flow O₂, antibiotics, consider CPAP). <strong>Oxygen treats the number, not the cause.</strong></p>"
+  }
+ ],
+ "exam": [
+  "Four components: control and pump, airways, alveoli–capillaries, blood.",
+  "Compliance = ΔV/ΔP; ↑ in emphysema, ↓ in fibrosis, ARDS, oedema.",
+  "Resistance ∝ 1/r⁴: half the radius = 16× the resistance.",
+  "VA = (VT − VD) × RR; VD ≈ 150 mL.",
+  "PiO₂ = 0.21 × (760 − 47) ≈ 150 mmHg.",
+  "PAO₂ = FiO₂ × 713 − PaCO₂/0.8; A–a normal < 10–15.",
+  "A–a normal: hypoventilation; high: V/Q, shunt, diffusion.",
+  "Obstructive: ↓ FEV₁/FVC; restrictive: ↓ TLC.",
+  "SpO₂ = oxygenation; ETCO₂/PaCO₂ = ventilation.",
+  "O₂ target 92–96%; 88–92% if CO₂ retention risk.",
+  "Shunt responds poorly to O₂; low V/Q improves with it."
+ ],
+ "visual": {
+  "kind": "model",
+  "intro": "",
+  "figure": {
+   "viewBox": "0 0 760 420",
+   "alt": "The four components of respiratory function",
+   "caption": "The four components that can fail, and the A–a gradient that tells them apart. Schematic drawn for this site.",
+   "base": "<defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"8\" refX=\"9\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L10,4 L0,8 Z\" fill=\"#8a8a8a\"/></marker></defs><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"380\" y1=\"90\" x2=\"120\" y2=\"160\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"380\" y1=\"90\" x2=\"300\" y2=\"160\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"380\" y1=\"90\" x2=\"480\" y2=\"160\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"380\" y1=\"90\" x2=\"660\" y2=\"160\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"120\" y1=\"220\" x2=\"330\" y2=\"290\"/><line stroke=\"#8a8a8a\" stroke-width=\"2\" marker-end=\"url(#ah)\" x1=\"480\" y1=\"220\" x2=\"430\" y2=\"290\"/>",
+   "parts": {
+    "goal": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2d7cf\" x=\"250\" y=\"30\" width=\"260\" height=\"60\" rx=\"10\"/>",
+     "label": [
+      "Every minute: take up ≈ 250 mL O₂,",
+      "remove ≈ 200 mL CO₂"
+     ],
+     "lx": 380,
+     "ly": 58
+    },
+    "pump": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#cfe3f2\" x=\"40\" y=\"160\" width=\"160\" height=\"60\" rx=\"10\"/>",
+     "label": [
+      "Control and pump:",
+      "hypoventilation"
+     ],
+     "lx": 120,
+     "ly": 188
+    },
+    "airways": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#d7edd2\" x=\"220\" y=\"160\" width=\"160\" height=\"60\" rx=\"10\"/>",
+     "label": [
+      "Airways:",
+      "obstruction"
+     ],
+     "lx": 300,
+     "ly": 188
+    },
+    "alveoli": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f2e2a8\" x=\"400\" y=\"160\" width=\"160\" height=\"60\" rx=\"10\"/>",
+     "label": [
+      "Alveoli–capillaries:",
+      "gas-exchange failure"
+     ],
+     "lx": 480,
+     "ly": 188
+    },
+    "blood": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#e3d5f0\" x=\"580\" y=\"160\" width=\"160\" height=\"60\" rx=\"10\"/>",
+     "label": [
+      "Blood:",
+      "O₂ transport fails"
+     ],
+     "lx": 660,
+     "ly": 188
+    },
+    "aa": {
+     "shape": "<rect class=\"sh\" stroke=\"#8a8a8a\" fill=\"#f7d9b8\" x=\"250\" y=\"290\" width=\"260\" height=\"60\" rx=\"10\"/>",
+     "label": [
+      "A–a gradient: normal = hypoventilation;",
+      "high = V/Q, shunt, diffusion"
+     ],
+     "lx": 380,
+     "ly": 318
+    }
+   },
+   "arrows": {
+    "goal": [
+     {
+      "t": [
+       250,
+       38
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "pump": [
+     {
+      "t": [
+       40,
+       168
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "airways": [
+     {
+      "t": [
+       220,
+       168
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "alveoli": [
+     {
+      "t": [
+       400,
+       168
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "blood": [
+     {
+      "t": [
+       580,
+       168
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ],
+    "aa": [
+     {
+      "t": [
+       250,
+       298
+      ],
+      "d": [
+       -70,
+       -60
+      ],
+      "gap": 6
+     }
+    ]
+   }
+  }
+ },
+ "mcqs": [
+  {
+   "q": "How much O₂ do the lungs take up each minute at rest?",
+   "options": [
+    "About 5 L",
+    "About 50 mL",
+    "About 250 mL",
+    "About 1 L"
+   ],
+   "answer": 2,
+   "why": "And they remove about 200 mL of CO₂, keeping PaO₂ ≈ 95 and PaCO₂ ≈ 40 mmHg."
+  },
+  {
+   "q": "A failure of the control and pump component mainly causes:",
+   "options": [
+    "Airway obstruction",
+    "Tissue hypoxia with normal lungs",
+    "Isolated diffusion failure",
+    "Hypoventilation with ↑ PaCO₂"
+   ],
+   "answer": 3,
+   "why": "Brainstem, nerves, muscles or chest wall: opioid overdose, Guillain–Barré, flail chest."
+  },
+  {
+   "q": "Which is an example of tissue hypoxia with normal lungs?",
+   "options": [
+    "Pneumonia",
+    "CO poisoning",
+    "Pulmonary fibrosis",
+    "Asthma"
+   ],
+   "answer": 1,
+   "why": "The blood component: anaemia, CO poisoning, shock."
+  },
+  {
+   "q": "During a quiet inspiration, pleural pressure goes from about:",
+   "options": [
+    "−40 to −60 cmH₂O",
+    "0 to +2 cmH₂O",
+    "−5 to −8 cmH₂O",
+    "+5 to +8 cmH₂O"
+   ],
+   "answer": 2,
+   "why": "The diaphragm contracts, pleural pressure falls, alveolar pressure turns slightly negative and air flows in."
+  },
+  {
+   "q": "Quiet expiration is:",
+   "options": [
+    "Driven by the abdominal muscles",
+    "Passive, driven by lung recoil",
+    "Active, driven by the diaphragm",
+    "Driven by surfactant"
+   ],
+   "answer": 1,
+   "why": "Recoil makes alveolar pressure positive and air flows out."
+  },
+  {
+   "q": "Compliance is defined as:",
+   "options": [
+    "Flow / pressure",
+    "Pressure × radius⁴",
+    "ΔV / ΔP",
+    "ΔP / ΔV"
+   ],
+   "answer": 2,
+   "why": "How easily the lung stretches; normal ≈ 200 mL/cmH₂O."
+  },
+  {
+   "q": "Which condition increases lung compliance?",
+   "options": [
+    "Pulmonary fibrosis",
+    "Pulmonary oedema",
+    "ARDS",
+    "Emphysema"
+   ],
+   "answer": 3,
+   "why": "Loss of elastic recoil: the lung fills easily but doesn't empty, with air trapping and ↑ FRC."
+  },
+  {
+   "q": "Which cells make surfactant?",
+   "options": [
+    "Ciliated cells",
+    "Type II alveolar cells",
+    "Alveolar macrophages",
+    "Type I alveolar cells"
+   ],
+   "answer": 1,
+   "why": "Surfactant lowers surface tension, raises compliance and keeps small alveoli open."
+  },
+  {
+   "q": "Lack of surfactant in a premature baby causes:",
+   "options": [
+    "Emphysema",
+    "Pneumothorax",
+    "Neonatal respiratory distress syndrome",
+    "Asthma"
+   ],
+   "answer": 2,
+   "why": "Alveoli collapse at end-expiration: atelectasis and hypoxaemia; treated with surfactant."
+  },
+  {
+   "q": "If the airway radius is halved, resistance is multiplied by:",
+   "options": [
+    "2",
+    "8",
+    "4",
+    "16"
+   ],
+   "answer": 3,
+   "why": "Resistance ∝ 1/r⁴, which is why asthma can turn severe fast."
+  },
+  {
+   "q": "Which drug widens the airways by blocking vagal M3 receptors?",
+   "options": [
+    "Adrenaline",
+    "Ipratropium",
+    "Salbutamol",
+    "Naloxone"
+   ],
+   "answer": 1,
+   "why": "Parasympathetic tone constricts the airways; anticholinergics block it."
+  },
+  {
+   "q": "Why do asthma and COPD patients breathe at high lung volume?",
+   "options": [
+    "It increases surfactant",
+    "It lowers compliance",
+    "It raises dead space",
+    "Radial traction keeps the airways open"
+   ],
+   "answer": 3,
+   "why": "Resistance falls as lung volume rises; the result is hyperinflation."
+  },
+  {
+   "q": "With RR 15 and VT 500 mL, alveolar ventilation is:",
+   "options": [
+    "2.25 L/min",
+    "3 L/min",
+    "5.25 L/min",
+    "7.5 L/min"
+   ],
+   "answer": 2,
+   "why": "VA = (500 − 150) × 15 = 5.25 L/min; VE would be 7.5 L/min."
+  },
+  {
+   "q": "Inspired PO₂ in the airways at sea level is about:",
+   "options": [
+    "160 mmHg",
+    "760 mmHg",
+    "150 mmHg",
+    "100 mmHg"
+   ],
+   "answer": 2,
+   "why": "0.21 × (760 − 47): water vapour pressure at 37 °C is subtracted first."
+  },
+  {
+   "q": "A high PaCO₂ means:",
+   "options": [
+    "Diffusion is impaired",
+    "Too much oxygen is given",
+    "Haemoglobin is low",
+    "Alveolar ventilation is too low"
+   ],
+   "answer": 3,
+   "why": "PaCO₂ is the mirror of alveolar ventilation."
+  },
+  {
+   "q": "Why does a diffusion problem cause hypoxaemia but a normal or low PaCO₂?",
+   "options": [
+    "CO₂ diffuses about 20× faster than O₂",
+    "CO₂ is more abundant",
+    "CO₂ is carried by haemoglobin",
+    "Diffusion only affects O₂ at rest"
+   ],
+   "answer": 0,
+   "why": "D depends on solubility ÷ √(molecular weight)."
+  },
+  {
+   "q": "In interstitial fibrosis, hypoxaemia is typically worse:",
+   "options": [
+    "On exercise",
+    "After meals",
+    "At rest only",
+    "Lying flat only"
+   ],
+   "answer": 0,
+   "why": "Blood spends less time in the capillary, so the thick membrane limits transfer more."
+  },
+  {
+   "q": "Standing, the V/Q ratio at the apex is about:",
+   "options": [
+    "0",
+    "3",
+    "0.6",
+    "1"
+   ],
+   "answer": 1,
+   "why": "Blood flow rises from apex to base more than ventilation: ≈ 3 at the apex, ≈ 0.6 at the base."
+  },
+  {
+   "q": "Which hypoxaemia responds poorly to oxygen?",
+   "options": [
+    "High altitude",
+    "Shunt (V/Q = 0)",
+    "Hypoventilation",
+    "Low V/Q"
+   ],
+   "answer": 1,
+   "why": "Blood passes alveoli with no air: pneumonia, atelectasis, ARDS."
+  },
+  {
+   "q": "Pulmonary embolism is the classic example of:",
+   "options": [
+    "Diffusion block",
+    "Shunt",
+    "Low V/Q",
+    "Dead space (V/Q = ∞)"
+   ],
+   "answer": 3,
+   "why": "Air with no blood: wasted ventilation and a wider PaCO₂–ETCO₂ gap."
+  },
+  {
+   "q": "The commonest cause of hypoxaemia in clinical practice is:",
+   "options": [
+    "V/Q mismatch",
+    "Diffusion block",
+    "Hypoventilation",
+    "High altitude"
+   ],
+   "answer": 0,
+   "why": "Stated in the lecture's V/Q clinical link."
+  },
+  {
+   "q": "Which shifts the O₂–Hb curve to the right?",
+   "options": [
+    "Alkalosis",
+    "Fever",
+    "Carbon monoxide",
+    "Cold"
+   ],
+   "answer": 1,
+   "why": "Right shift with ↑ temperature, ↑ PCO₂, ↑ 2,3-DPG, ↓ pH: O₂ is released more easily."
+  },
+  {
+   "q": "Most CO₂ is carried in blood as:",
+   "options": [
+    "Carboxyhaemoglobin",
+    "Dissolved CO₂",
+    "Carbamino compounds",
+    "Bicarbonate"
+   ],
+   "answer": 3,
+   "why": "≈ 70% bicarbonate, 20% carbamino, 10% dissolved."
+  },
+  {
+   "q": "Deep, fast breathing in diabetic ketoacidosis is called:",
+   "options": [
+    "Biot breathing",
+    "Kussmaul breathing",
+    "Paradoxical breathing",
+    "Cheyne–Stokes breathing"
+   ],
+   "answer": 1,
+   "why": "Chemoreceptors stimulated by metabolic acidosis lower PaCO₂."
+  },
+  {
+   "q": "Which lung volume cannot be measured by simple spirometry?",
+   "options": [
+    "Expiratory reserve volume",
+    "Residual volume",
+    "Tidal volume",
+    "Inspiratory reserve volume"
+   ],
+   "answer": 1,
+   "why": "RV, FRC and TLC need body plethysmography or gas dilution."
+  },
+  {
+   "q": "FRC equals:",
+   "options": [
+    "VT + ERV",
+    "VT + IRV",
+    "IRV + VT + ERV",
+    "ERV + RV"
+   ],
+   "answer": 3,
+   "why": "Air left after a normal expiration."
+  },
+  {
+   "q": "Pulse oximetry tells you:",
+   "options": [
+    "Oxygenation only, not CO₂",
+    "Ventilation",
+    "Both O₂ and CO₂",
+    "PaCO₂"
+   ],
+   "answer": 0,
+   "why": "A patient on O₂ can have a normal SpO₂ and a rising PaCO₂."
+  },
+  {
+   "q": "Normal ETCO₂ is:",
+   "options": [
+    "35–45 mmHg",
+    "10–15 mmHg",
+    "60–80 mmHg",
+    "95–100 mmHg"
+   ],
+   "answer": 0,
+   "why": "About 2–5 mmHg below PaCO₂; the gap widens with dead space."
+  },
+  {
+   "q": "On room air with PaCO₂ 40 mmHg, PAO₂ is about:",
+   "options": [
+    "60 mmHg",
+    "150 mmHg",
+    "40 mmHg",
+    "100 mmHg"
+   ],
+   "answer": 3,
+   "why": "150 − 40/0.8 = 150 − 50 = 100 mmHg."
+  },
+  {
+   "q": "A normal A–a gradient with hypoxaemia points to:",
+   "options": [
+    "Shunt",
+    "Hypoventilation",
+    "V/Q mismatch",
+    "Diffusion block"
+   ],
+   "answer": 1,
+   "why": "Or low inspired O₂ (altitude). A high gradient means V/Q mismatch, shunt or diffusion."
+  },
+  {
+   "q": "Hypercapnia is defined as PaCO₂ above:",
+   "options": [
+    "80 mmHg",
+    "35 mmHg",
+    "60 mmHg",
+    "45 mmHg"
+   ],
+   "answer": 3,
+   "why": "Acute hypercapnia causes respiratory acidosis."
+  },
+  {
+   "q": "The spirometric hallmark of an obstructive disorder is:",
+   "options": [
+    "↓ FEV₁/FVC",
+    "↑ TLC with normal FEV₁/FVC",
+    "↓ TLC",
+    "↓ RV"
+   ],
+   "answer": 0,
+   "why": "Reversibility of ≥ 12% and ≥ 200 mL suggests asthma."
+  },
+  {
+   "q": "The main finding of a restrictive disorder is:",
+   "options": [
+    "↑ FRC",
+    "↓ FEV₁/FVC",
+    "↓ TLC",
+    "↑ RV"
+   ],
+   "answer": 2,
+   "why": "With ↓ FVC and a normal or high FEV₁/FVC."
+  },
+  {
+   "q": "In an asthma attack, a normal or rising PaCO₂ means:",
+   "options": [
+    "Recovery",
+    "Overtreatment with oxygen",
+    "Fatigue: a danger sign",
+    "A shunt"
+   ],
+   "answer": 2,
+   "why": "Early on, PaCO₂ is low; a normal or rising value means the patient is tiring."
+  },
+  {
+   "q": "Target SpO₂ in a patient at risk of CO₂ retention (COPD) is:",
+   "options": [
+    "92–96%",
+    "98–100%",
+    "88–92%",
+    "80–85%"
+   ],
+   "answer": 2,
+   "why": "Too much O₂ worsens V/Q and raises PaCO₂; most patients aim for 92–96%."
+  },
+  {
+   "q": "Patient 1 (opioids, RR 6, PaCO₂ 75, PaO₂ 52) needs first:",
+   "options": [
+    "High-flow O₂ alone",
+    "Antibiotics",
+    "Airway, bag-mask ventilation and naloxone",
+    "Salbutamol"
+   ],
+   "answer": 2,
+   "why": "A–a ≈ 4: pure hypoventilation from a depressed respiratory centre."
+  },
+  {
+   "q": "Patient 3 (pneumonia, A–a ≈ 56, little rise with O₂) has:",
+   "options": [
+    "A shunt",
+    "Dead space",
+    "Hypoventilation",
+    "Low inspired O₂"
+   ],
+   "answer": 0,
+   "why": "Alveoli filled with pus: high-flow O₂, antibiotics, consider CPAP."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "pump",
+   "options": [
+    "Blood: O₂ transport fails",
+    "Airways: obstruction",
+    "Alveoli–capillaries: gas-exchange failure",
+    "Control and pump: hypoventilation"
+   ],
+   "answer": 3,
+   "why": "The arrow points to: control and pump. Brainstem, nerves, muscles, chest wall; ↑ PaCO₂."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "airways",
+   "options": [
+    "Airways: obstruction",
+    "Control and pump: hypoventilation",
+    "Blood: O₂ transport fails",
+    "A–a gradient"
+   ],
+   "answer": 0,
+   "why": "The arrow points to: airways. Asthma, COPD, foreign body."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "alveoli",
+   "options": [
+    "Alveoli–capillaries: gas-exchange failure",
+    "Control and pump: hypoventilation",
+    "Blood: O₂ transport fails",
+    "Airways: obstruction"
+   ],
+   "answer": 0,
+   "why": "The arrow points to: alveoli and capillaries. Pneumonia, pulmonary oedema, fibrosis, embolism."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "blood",
+   "options": [
+    "Blood: O₂ transport fails",
+    "Airways: obstruction",
+    "Alveoli–capillaries: gas-exchange failure",
+    "A–a gradient"
+   ],
+   "answer": 0,
+   "why": "The arrow points to: blood. Anaemia, CO poisoning, shock."
+  },
+  {
+   "q": "Which element is at the arrow?",
+   "target": "aa",
+   "options": [
+    "Blood: O₂ transport fails",
+    "Airways: obstruction",
+    "A–a gradient",
+    "Control and pump: hypoventilation"
+   ],
+   "answer": 2,
+   "why": "The arrow points to: the A–a gradient. Normal → hypoventilation; high → V/Q mismatch, shunt or diffusion."
+  }
+ ],
+ "cards": [
+  {
+   "id": "c0",
+   "type": "text",
+   "front": "Name the four components of respiratory function and what happens when each fails.",
+   "back": "Control and pump → hypoventilation, ↑ PaCO₂ (opioids, Guillain–Barré, flail chest). Airways → obstruction (asthma, COPD, foreign body). Alveoli–capillaries → gas-exchange failure, ↓ PaO₂ (pneumonia, oedema, fibrosis, embolism). Blood → tissue hypoxia with normal lungs (anaemia, CO, shock)."
+  },
+  {
+   "id": "c1",
+   "type": "text",
+   "front": "Describe one quiet breath.",
+   "back": "Diaphragm contracts, pleural pressure −5 → −8 cmH₂O, alveolar pressure slightly negative, air flows in. End-inspiration: flow zero, alveolar = atmospheric. Expiration passive: recoil makes alveolar pressure positive."
+  },
+  {
+   "id": "c2",
+   "type": "text",
+   "front": "What is compliance, and what raises or lowers it?",
+   "back": "ΔV/ΔP, normal ≈ 200 mL/cmH₂O. ↑ in emphysema (air trapping, ↑ FRC). ↓ in fibrosis, ARDS, pulmonary oedema (fast shallow breathing, ↓ TLC). Chest-wall stiffness (obesity, kyphoscoliosis, burns) lowers FRC and TLC."
+  },
+  {
+   "id": "c3",
+   "type": "text",
+   "front": "What does surfactant do?",
+   "back": "Made by type II alveolar cells; lowers surface tension, raises compliance, lowers work of breathing and keeps small alveoli open. Absent → neonatal RDS."
+  },
+  {
+   "id": "c4",
+   "type": "text",
+   "front": "How does airway radius affect resistance?",
+   "back": "Resistance ∝ 1/r⁴: halving the radius multiplies resistance by 16. Bronchospasm, mucus and oedema narrow the airway in asthma."
+  },
+  {
+   "id": "c5",
+   "type": "text",
+   "front": "Autonomic control of the airways?",
+   "back": "Vagus (M3) → bronchoconstriction + mucus, blocked by ipratropium. β2 (mainly circulating adrenaline) → bronchodilation, mimicked by salbutamol."
+  },
+  {
+   "id": "c6",
+   "type": "text",
+   "front": "VE vs VA, with numbers.",
+   "back": "VE = VT × RR = 500 × 15 = 7.5 L/min. VA = (VT − VD) × RR = 350 × 15 = 5.25 L/min. Fast shallow breathing (30 × 250) gives VA of only 3 L/min."
+  },
+  {
+   "id": "c7",
+   "type": "text",
+   "front": "Calculate inspired PO₂.",
+   "back": "0.21 × (760 − 47) ≈ 150 mmHg. Dry air PO₂ = 0.21 × 760 ≈ 160; water vapour at 37 °C (47 mmHg) is subtracted."
+  },
+  {
+   "id": "c8",
+   "type": "text",
+   "front": "State Fick's law for diffusion.",
+   "back": "Transfer ↑ with area, pressure difference and diffusion constant; ↓ with thickness. CO₂ diffuses ≈ 20× faster than O₂, so diffusion problems cause hypoxaemia first."
+  },
+  {
+   "id": "c9",
+   "type": "text",
+   "front": "Shunt, low V/Q and dead space: examples and O₂ response.",
+   "back": "Shunt (V/Q = 0): pneumonia, atelectasis, ARDS; responds poorly to O₂. Low V/Q: asthma, COPD; improves with O₂. Dead space (V/Q = ∞): pulmonary embolism, shock; wide PaCO₂–ETCO₂ gap."
+  },
+  {
+   "id": "c10",
+   "type": "text",
+   "front": "How are O₂ and CO₂ carried?",
+   "back": "O₂: ≈ 98% on Hb, dissolved only 3 mL/L at 100 mmHg. CO₂: ≈ 70% bicarbonate, 20% carbamino, 10% dissolved."
+  },
+  {
+   "id": "c11",
+   "type": "text",
+   "front": "What shifts the O₂–Hb curve?",
+   "back": "Right (releases O₂): ↑ temperature, ↑ PCO₂, ↑ 2,3-DPG, ↓ pH (fever, acidosis, exercise). Left (holds O₂): alkalosis, cold, CO."
+  },
+  {
+   "id": "c12",
+   "type": "text",
+   "front": "Lung volumes and capacities.",
+   "back": "VT ≈ 500 mL, IRV, ERV, RV. TLC ≈ 6 L; VC = IRV + VT + ERV ≈ 4.5–5 L; FRC = ERV + RV; IC = VT + IRV. RV, FRC, TLC need plethysmography or gas dilution."
+  },
+  {
+   "id": "c13",
+   "type": "text",
+   "front": "SpO₂ vs ETCO₂.",
+   "back": "SpO₂ → oxygenation (normal ≥ 95%; wrong with poor perfusion, movement, CO, dark skin; nothing on CO₂). ETCO₂ → ventilation (35–45 mmHg, 2–5 below PaCO₂)."
+  },
+  {
+   "id": "c14",
+   "type": "text",
+   "front": "Alveolar gas equation and A–a gradient.",
+   "back": "PAO₂ = FiO₂ × (760 − 47) − PaCO₂/0.8 (room air ≈ 100). A–a = PAO₂ − PaO₂, normal < 10–15. Normal → hypoventilation or altitude; high → V/Q, shunt, diffusion."
+  },
+  {
+   "id": "c15",
+   "type": "text",
+   "front": "Three mechanisms of hypercapnia.",
+   "back": "↓ minute ventilation (weak drive: opioids; weak pump: neuromuscular, chest wall, fatigue), ↑ dead space (COPD, embolism), ↑ CO₂ production (fever, sepsis, overfeeding) if ventilation can't rise."
+  },
+  {
+   "id": "c16",
+   "type": "text",
+   "front": "Obstructive vs restrictive.",
+   "back": "Obstructive: ↓ FEV₁/FVC, ↑ RV and FRC, reversibility ≥ 12% and ≥ 200 mL suggests asthma. Restrictive: ↓ TLC, normal or ↑ FEV₁/FVC; parenchymal (↑ A–a) or extraparenchymal (A–a normal at first)."
+  },
+  {
+   "id": "c17",
+   "type": "text",
+   "front": "First-hour priorities in acute respiratory failure.",
+   "back": "ABC; continuous SpO₂, RR, HR, BP, ETCO₂; O₂ to 92–96% (88–92% if CO₂ retention risk); treat the mechanism; escalate early to NIV or intubation."
+  },
+  {
+   "id": "c18",
+   "type": "text",
+   "front": "Three patients with SpO₂ 85%: what differs?",
+   "back": "Opioids: A–a ≈ 4, hypoventilation → airway, bag-mask, naloxone. Asthma: A–a ≈ 58, low V/Q → O₂, salbutamol + ipratropium, steroids. Pneumonia: A–a ≈ 56, shunt → high-flow O₂, antibiotics, CPAP. Oxygen treats the number, not the cause."
+  }
+ ],
+ "deeper": [
+  {
+   "title": "Why the same SpO₂ can need three treatments",
+   "html": "<p>SpO₂ only reports how saturated haemoglobin is. It cannot say whether the lungs move too little air, whether air and blood are mismatched, or whether alveoli are full of pus. The PaCO₂ and the A–a gradient separate these: a high PaCO₂ with a normal gradient is hypoventilation, a high gradient that improves with O₂ is low V/Q, and a high gradient that barely moves with O₂ is shunt.</p><p class='src'>Source: the lecture's opening puzzle and its solution slide.</p>"
+  },
+  {
+   "title": "Why too much oxygen can raise PaCO₂ in COPD",
+   "html": "<p>Hypoxic vasoconstriction keeps blood away from poorly ventilated alveoli. High-flow oxygen releases that constriction and sends blood back to them, worsening V/Q matching; oxygen also lowers Hb's affinity for CO₂ (Haldane effect) and can blunt the drive to breathe. The lecture's target of 88–92% avoids this.</p><p class='src'>Source: the lecture's control of breathing and V/Q clinical links.</p>"
+  }
+ ],
+ "resources": [
+  {
+   "title": "Asthma (NHS)",
+   "url": "https://www.nhs.uk/conditions/asthma/",
+   "kind": "Article",
+   "why": "Symptoms, triggers and what to do in an attack.",
+   "note": ""
+  },
+  {
+   "title": "Spirometry (NHS)",
+   "url": "https://www.nhs.uk/conditions/spirometry/",
+   "kind": "Article",
+   "why": "What the test measures and how it is done.",
+   "note": ""
+  }
+ ],
+ "checks": [],
+ "sources": [
+  {
+   "name": "Asthma (NHS)",
+   "url": "https://www.nhs.uk/conditions/asthma/"
+  },
+  {
+   "name": "Spirometry (NHS)",
+   "url": "https://www.nhs.uk/conditions/spirometry/"
+  }
+ ],
+ "verified": "20 Nov 2026"
+};
 SINA.lectures["fa-renal"] = {
  "id": "fa-renal",
  "subject": "firstaid",
