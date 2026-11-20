@@ -806,5 +806,33 @@ SINA.midterms = [
   "tbc": false,
   "part": false,
   "auto": false
+ },
+ {
+  "id": "firstaid-midterm",
+  "program": "y2-anglo",
+  "subject": "firstaid",
+  "subjects": ["firstaid"],
+  "title": "Vital Functions",
+  "date": "2026-11-24",
+  "groups": [{ "name": "Vital functions", "items": ["fa-cardiovascular", "fa-neural"], "tbc": false }],
+  "notes": {},
+  "tbc": false,
+  "part": false,
+  "auto": false
+ },
+ {
+  "id": "biochem1-midterm",
+  "program": "y1-anglo",
+  "subject": "biochem1",
+  "subjects": ["biochem1"],
+  "title": "Biochemistry midterm",
+  "date": "",
+  "groups": [
+   { "name": "Structural biochemistry", "items": ["biochem1-amino-acids", "biochem1-proteins", "biochem1-enzymes", "biochem1-carbohydrates", "biochem1-lipids", "biochem1-nucleotides"], "tbc": true },
+   { "name": "Metabolic biochemistry", "items": ["biochem1-carb-metabolism", "biochem1-lipid-metabolism", "biochem1-aa-metabolism"], "tbc": true }
+  ],
+  "notes": {},
+  "tbc": true,
+  "auto": true
  }
 ];
