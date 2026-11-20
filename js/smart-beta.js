@@ -1,7 +1,10 @@
 /* Sina Smart MCQ beta (off by default).
-   - Turn on for this device: open #/smart/enable/ventricles-beta   Turn off: #/smart/disable
-   - Local only: answers are kept on this device in "sinabeta:" keys, which the account sync never reads
-     (it only syncs keys starting with "sina:"). Nothing here is sent anywhere.
+   - Turn on for this device: open #/smart/enable/sina-smart-beta (or tap the banner during the public week). Turn off: #/smart/disable
+   - Public week: between BETA.from and BETA.until a banner on the home page invites everyone (opt-in). After BETA.until the
+     beta closes itself on every device: nothing is recorded or shown any more; normal Sina is unaffected.
+   - Answers are kept on this device in "sinabeta:" keys, which the account sync never reads (it only syncs keys starting
+     with "sina:"). ONLY if the student agrees, an anonymous copy (question code, options chosen, right/wrong, sure/unsure,
+     day number; no name, account, email or date) is sent to the separate collector at BETA.collect.
    - Each logged-in account (and "not logged in") has its own history; switching account switches history.
    - Uses only published questions plus questions approved by a human reviewer (js/data/smart/<lecture>.js).
    - Answers given in Smart practice do NOT change the existing per-lecture stats, mistakes or review queue. */
@@ -34,7 +37,16 @@
   var writer = Date.now().toString(36) + Math.random().toString(36).slice(2, 8); /* new writer per page load */
   var seq = 0, unsaved = [], lastWriteError = null, dataState = {}, waiting = {};
 
-  function on() { try { return localStorage.getItem(FLAG) === "1"; } catch (e) { return false; } }
+  /* ---------- public beta week (edit these three values only) ----------
+     from/until: ISO dates with time zone. collect: the collector web-app URL (empty = nothing is ever sent). */
+  var BETA = { from: "2026-11-21T00:00:00Z", until: "2026-11-28T23:59:59Z", collect: "https://script.google.com/macros/s/AKfycbw0doYk8YLCITfSVKlMJz5bHaHiRkxQCkJvK8ysFUNPcWa72EcZQDmo30vY4Z40ypzIxw/exec" };
+  var SEND_GRACE = 3 * 86400000;
+  function UNTILms() { return Date.parse(BETA.until); }
+  function closed(now) { return (now || Date.now()) > UNTILms(); }
+  function publicWeek(now) { now = now || Date.now(); return now >= Date.parse(BETA.from) && now <= UNTILms(); }
+  function on() { if (closed()) return false; try { return localStorage.getItem(FLAG) === "1"; } catch (e) { return false; } }
+  var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  function endDateText() { var d = new Date(UNTILms()); return isNaN(d) ? BETA.until.slice(0, 10) : d.getUTCDate() + " " + MONTHS[d.getUTCMonth()]; }
   function H() { return window.SinaBeta; }
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
   function djb2(s) { var h = 5381; for (var i = 0; i < s.length; i++) h = ((h * 33) ^ s.charCodeAt(i)) >>> 0; return h.toString(36); }
@@ -297,15 +309,94 @@
       seq++;
       /* [10] confidence: 1 sure, 0 unsure, null not given (Smart practice only) */
       lastAnswered.orig = orig;
-      record([writer + "." + seq, t, k, lid, p.los, d.chosen || [], d.ok ? 1 : 0, /^mix:.*:smart$/.test(d.lec) ? "smart" : "quiz", p.source, orig, conf]);
+      var prior = readAll().filter(function (r) { return r[2] === k && r[3] === lid; }), mode = /^mix:.*:smart$/.test(d.lec) ? "smart" : "quiz";
+      record([writer + "." + seq, t, k, lid, p.los, d.chosen || [], d.ok ? 1 : 0, mode, p.source, orig, conf]);
+      queueAnon({ k: k, l: lid, c: orig, ok: d.ok ? 1 : 0, s: conf === 1 ? 1 : conf === 0 ? 0 : null, m: mode, src: p.source, mv: p.mv,
+        n: prior.length, g: prior.length ? Math.floor((t - prior[prior.length - 1][1]) / 86400) : null, rs: mode === "smart" ? (q._why || null) : null }, t);
       conf = null;
       setTimeout(function () { explainPanel(); quickFlags(); }, 0);   /* the quiz fills #fb right after this event; add ours afterwards */
     });
   });
 
+  /* ---------- anonymous sharing (opt-in, public beta week only) ----------
+     Sent: a random id made on this device for this account (not linked to the account), question code, lecture, ORIGINAL
+     option indices chosen, right/wrong, sure/unsure, mode, question source, mapping level, number of earlier answers to the
+     same question, whole days since the last one, why Smart practice picked it, and a day number counted from this id's first
+     shared answer. Never sent: name, account, email, dates or times, notes, reports, legacy progress. */
+  function consentKey() { return "sinabeta:smart:consent:" + owner(); }
+  function outKey() { return "sinabeta:smart:out:" + owner(); }
+  function consent() { try { return localStorage.getItem(consentKey()); } catch (e) { return null; } }   /* "1", "0" or null (not asked yet) */
+  function setConsent(v) { try { localStorage.setItem(consentKey(), v); if (v !== "1") localStorage.removeItem(outKey()); } catch (e) {} }
+  function rnd(n) { var s = ""; while (s.length < n) s += Math.random().toString(36).slice(2); return s.slice(0, n); }
+  function anonId() {
+    var k = "sinabeta:smart:anon:" + owner(), v;
+    try { v = JSON.parse(localStorage.getItem(k) || "null"); } catch (e) { v = null; }
+    if (!v || !/^[a-z0-9]{12}$/.test(v.id)) { v = { id: rnd(12), d0: null }; try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+    return { v: v, save: function () { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} } };
+  }
+  function readOut() { try { return JSON.parse(localStorage.getItem(outKey()) || "[]") || []; } catch (e) { return []; } }
+  function writeOut(list) { try { if (list.length) localStorage.setItem(outKey(), JSON.stringify(list.slice(-2000))); else localStorage.removeItem(outKey()); } catch (e) {} }
+  function queueAnon(item, t) {
+    if (!BETA.collect || consent() !== "1" || closed()) return;
+    var a = anonId(), day = Math.floor(t / 86400);
+    if (a.v.d0 == null) { a.v.d0 = day; a.save(); }
+    item.i = rnd(10); item.dy = day - a.v.d0;
+    var list = readOut(); list.push(item); writeOut(list);
+    if (list.length >= 20) sendAnon(false);
+  }
+  var sending = false;
+  function sendAnon(beacon) {
+    if (!BETA.collect || consent() !== "1" || sending || Date.now() > UNTILms() + SEND_GRACE) return;
+    var list = readOut(); if (!list.length) return;
+    var batch = list.slice(0, 100), ids = {}; batch.forEach(function (x) { ids[x.i] = 1; });
+    var body = JSON.stringify({ v: 1, d: anonId().v.id, items: batch });
+    function sent() { writeOut(readOut().filter(function (x) { return !ids[x.i]; })); }
+    if (beacon && navigator.sendBeacon) { try { if (navigator.sendBeacon(BETA.collect, new Blob([body], { type: "text/plain" }))) sent(); } catch (e) {} return; }
+    if (!window.fetch) return;
+    sending = true;
+    fetch(BETA.collect, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: body })
+      .then(function () { sending = false; sent(); if (readOut().length) setTimeout(function () { sendAnon(false); }, 1500); }, function () { sending = false; });
+  }
+  document.addEventListener("visibilitychange", function () { if (document.visibilityState === "hidden") sendAnon(true); });
+  setTimeout(function () { sendAnon(false); }, 4000);   /* anything left from last time (also during the 3 days after the beta closes) */
+  function consentBox() {
+    if (!BETA.collect || !publicWeek()) return "";
+    var c = consent();
+    if (c === null) return '<div class="smb-consent" id="smb-consent"><strong>Help us improve Smart practice?</strong>' +
+      '<p class="meta">You can send your Smart practice answers anonymously: which question, which option you chose, whether it was right, whether you were sure, and a day number. ' +
+      "We never see your name, account, email or your normal Sina progress.</p>" +
+      '<p class="meta">We use the answers to find questions that are confusing or too hard. They never change an answer automatically.</p>' +
+      '<p class="row"><button class="btn primary" type="button" data-cs="1">Yes, send anonymously</button><button class="btn" type="button" data-cs="0">No thanks</button></p></div>';
+    return '<p class="meta">Anonymous sharing is <strong>' + (c === "1" ? "on" : "off") + '</strong>. <button class="linkbtn" type="button" data-cs="' + (c === "1" ? "0" : "1") + '">Turn it ' + (c === "1" ? "off" : "on") + "</button></p>";
+  }
+  function wireConsent(redraw) {
+    document.querySelectorAll("[data-cs]").forEach(function (b) { b.onclick = function () { setConsent(b.dataset.cs); redraw(); }; });
+  }
+
+  /* ---------- public banner (home page, during the public week, until the student joins or dismisses it) ---------- */
+  var BANNER_OFF = "sinabeta:smart:bannerOff";
+  function showPublicBanner() {
+    if (!publicWeek() || on()) return;
+    var h = location.hash.replace(/^#\/?/, "");
+    if (h !== "") return;
+    var app = document.getElementById("app");
+    if (!app || !app.firstChild || document.getElementById("smb-pub")) return;
+    try { if (localStorage.getItem(BANNER_OFF) === "1") return; } catch (e) { return; }
+    css();
+    var b = document.createElement("div"); b.id = "smb-pub"; b.className = "smb-pub"; b.setAttribute("role", "region"); b.setAttribute("aria-label", "Smart practice beta");
+    b.innerHTML = "<p><strong>New: Smart practice (beta), open to everyone until " + esc(endDateText()) + ".</strong></p>" +
+      "<p>Smart practice chooses questions for you. Questions you get wrong come back the next day, then again a few days later, so they stay in your memory.</p>" +
+      "<p>We are testing it for one week. The goal is to see whether it helps you remember more, and to find questions that are unclear or too hard so we can fix them.</p>" +
+      '<p class="meta">It does not change your normal progress. It is optional and you can turn it off at any time.</p>' +
+      '<p class="row"><a class="btn primary" href="#/smart/enable/sina-smart-beta">Try it</a><button class="btn" type="button" id="smb-pub-x">No thanks</button></p>';
+    app.insertBefore(b, app.firstChild);
+    b.querySelector("#smb-pub-x").onclick = function () { try { localStorage.setItem(BANNER_OFF, "1"); } catch (e) {} b.remove(); };
+  }
+
   /* ---------- confidence (optional, Smart practice only): "Sure" / "Not sure" before checking ---------- */
   var conf = null;
   new MutationObserver(function () {
+    showPublicBanner();
     if (!on()) return;
     var chk = document.querySelector("#smbq #chk");
     if (!chk || document.getElementById("smb-conf")) return;
@@ -415,12 +506,12 @@
     var w = document.createElement("div"); w.className = "smb-flags";
     w.innerHTML = '<span class="meta">Something wrong with this question?</span>' + REASONS.slice(0, 5).map(function (r) {
       return '<button type="button" class="smb-flag" data-r="' + r[0] + '">' + esc(r[1]) + "</button>";
-    }).join("") + '<button type="button" class="smb-flag" data-more="1">More…</button>';
+    }).join("") + '<button type="button" class="smb-flag" data-more="1">Moreâ€¦</button>';
     fb.appendChild(w);
     w.querySelectorAll("button").forEach(function (b) {
       b.onclick = function () {
         if (b.dataset.more) return reportDialog(a);
-        b.disabled = true; sendReport(a, b.dataset.r, null, function () { b.textContent = "✓ " + b.textContent; });
+        b.disabled = true; sendReport(a, b.dataset.r, null, function () { b.textContent = "âœ“ " + b.textContent; });
       };
     });
   }
@@ -469,6 +560,7 @@
     var box = document.createElement("div"); box.className = "smb-sum";
     box.innerHTML = summaryHTML(lid, miss, answered, los, wrongUnverified);
     d.panel.appendChild(box);
+    sendAnon(false);
   });
   function summaryHTML(lid, miss, answered, los, wrongUnverified) {
     var ids = Object.keys(miss).sort(function (a, b) { return miss[b] - miss[a] || ((los[a].importance === "core" ? 0 : 1) - (los[b].importance === "core" ? 0 : 1)); });
@@ -506,11 +598,14 @@
       ".smb-tabs button{font:inherit;font-size:.85rem;padding:.25rem .7rem;border-radius:99px;border:1px solid rgba(127,127,127,.5);background:none;color:inherit;cursor:pointer}" +
       ".smb-tabs button[aria-selected=true]{border-color:currentColor;font-weight:700}.smb-sugg{font-size:.7rem;opacity:.75;font-weight:400}.smb-tabp{margin-top:.5rem}" +
       ".smb-tabp ul{margin:.3rem 0 .3rem 1.1rem;padding:0}.smb-cmp{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}.smb-cmp h4{margin:.2rem 0;font-size:.9rem}" +
-      "@media (max-width:520px){.smb-cmp{grid-template-columns:1fr}}.smb-due{font-size:.8rem;opacity:.75;display:block}.smb-duebox{padding:.5rem .7rem;border-left:3px solid currentColor;margin:.6rem 0}" +
+      "@media (max-width:520px){.smb-cmp{grid-template-columns:1fr}}.smb-due{font-size:.8rem;opacity:.75;display:block}.smb-duebox{padding:.5rem .7rem;border:1px solid rgba(127,127,127,.4);border-radius:10px;margin:.6rem 0}" +
       ".smb-flags,.smb-conf{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;margin:.6rem 0}" +
       ".smb-flag,.smb-conf button{font:inherit;font-size:.8rem;padding:.2rem .6rem;border-radius:99px;border:1px solid rgba(127,127,127,.5);background:none;color:inherit;cursor:pointer}" +
       ".smb-conf button[aria-pressed=true]{border-color:currentColor;font-weight:700}.smb-flag:disabled{opacity:.6;cursor:default}" +
-      "@media (max-width:520px){.smb-lo{flex-direction:column;gap:.1rem}.smb-st{white-space:normal}}";
+      "@media (max-width:520px){.smb-lo{flex-direction:column;gap:.1rem}.smb-st{white-space:normal}}" +
+      ".smb-pub,.smb-consent{box-sizing:border-box;border:1px solid rgba(127,127,127,.4);border-radius:10px;padding:.7rem .9rem;margin:.8rem 0;overflow-wrap:anywhere}" +
+      ".smb-pub{margin:.8rem max(16px,calc((100% - 60rem) / 2))}.smb-pub p,.smb-consent p{margin:.35rem 0}" +
+      ".smb-pub .row,.smb-consent .row{margin:.5rem 0 0}.linkbtn{background:none;border:0;padding:0;font:inherit;color:inherit;text-decoration:underline;cursor:pointer}";
     document.head.appendChild(s);
   }
   function whenReady(fn) { if (H()) return fn(); setTimeout(function () { whenReady(fn); }, 20); }
@@ -527,7 +622,8 @@
     var by = {}, order = [];
     (INDEX || []).forEach(function (x) { if (!by[x.subject]) { by[x.subject] = []; order.push(x.subject); } by[x.subject].push(x); });
     var subjName = function (id) { var s = (window.SINA && SINA.subjects || []).filter(function (z) { return z.id === id; })[0]; return s ? s.name : id; };
-    var h = head("Smart practice") + '<p class="lede-s">Lectures with Smart Practice data. Every other lecture keeps its ordinary quiz.</p>' +
+    var h = head("Smart practice") + '<p class="lede-s">Pick a lecture. Questions you get wrong come back the next day, then at growing intervals.' +
+      (publicWeek() ? " The beta is open to everyone until " + esc(endDateText()) + "." : "") + "</p>" + consentBox() +
       (order.length ? order.sort().map(function (sid) {
         return "<h2>" + esc(subjName(sid)) + '</h2><ul class="lec-list">' + by[sid].map(function (x) {
           return '<li><a href="#/smart/' + esc(x.id) + '"><span>' + esc(x.title) + '</span><span class="qn">' + (x.verified ? x.verified + " tutor-checked topic links" : "question-by-question review") + "</span></a></li>";
@@ -535,13 +631,14 @@
       }).join("") : '<p class="empty-note">No lecture has Smart Practice data yet.</p>') +
       '<p class="row"><a class="btn" href="#/smart/disable">Turn the beta off on this device</a></p></div>';
     H().setView(h, "Smart practice (beta)");
+    wireConsent(home);
   }
   function overview(lid) {
     var d = D(lid), S = stats(lid), los = loMap(lid), P = pool(lid);
     var h = head("Smart practice: " + d.title);
     h += '<p class="lede-s">Picks questions for you from <a href="#/lecture/' + lid + '">' + esc(d.title) + "</a>" + (d.items.length ? " (plus " + d.items.length + " new reviewed question" + (d.items.length > 1 ? "s" : "") + ")" : "") +
       ": questions you got wrong come back the next day, then after 3, 7, 16 and 35 days once you get them right; new questions fill the rest.</p>";
-    h += '<p class="row"><a class="btn primary" href="#/smart/practice/' + lid + '">Start Smart practice (' + Math.min(SESSION_N, P.length) + ' questions)</a></p>' + storageLine();
+    h += '<p class="row"><a class="btn primary" href="#/smart/practice/' + lid + '">Start Smart practice (' + Math.min(SESSION_N, P.length) + ' questions)</a></p>' + storageLine() + consentBox();
     var nExp = (d.experimental || []).length, nRep = Object.keys(myReports()).length;
     h += '<div class="smb-exp"><label><input type="checkbox" id="smb-exp"' + (expOn() ? " checked" : "") + "> Include experimental questions" + (nExp ? " (" + nExp + ")" : " (none available yet)") + "</label>" +
       '<p class="meta">Experimental questions were written by AI from the lecture slides and passed automated checks, but <strong>no doctor or tutor has reviewed them yet</strong>. They are labelled in the quiz and never count towards any topic below. Please report anything that looks wrong.</p></div>' +
@@ -549,11 +646,11 @@
     /* question-level progress (no claims about topics) */
     var nowS = Math.round(Date.now() / 1000), qAns = 0, qDue = 0, qWrong = 0;
     P.forEach(function (p) { var it = S.items[p.key]; if (!it) return; qAns++; if (it.sched.due && it.sched.due <= nowS) qDue++; if (it.lastOk === false) qWrong++; });
-    h += '<h2>Your questions</h2><p>' + qAns + " of " + P.length + " questions answered · " + qWrong + " wrong last time · " + qDue + " due for another look now.</p>" +
+    h += '<h2>Your questions</h2><p>' + qAns + " of " + P.length + " questions answered Â· " + qWrong + " wrong last time Â· " + qDue + " due for another look now.</p>" +
       (qDue ? '<p class="smb-duebox"><strong>' + qDue + " question" + (qDue > 1 ? "s" : "") + " due today.</strong> Smart practice puts them first.</p>" : "");
     /* mapping transparency */
     var mc = d.mapCounts || {};
-    h += '<h2>Topics</h2><p class="meta">Which part of the lecture each question tests: ' + (mc.verified || 0) + " checked by a tutor · " + (mc.auto || 0) + " matched automatically · " + ((mc.ambiguous || 0) + (mc.missing || 0)) + " not matched. " +
+    h += '<h2>Topics</h2><p class="meta">Which part of the lecture each question tests: ' + (mc.verified || 0) + " checked by a tutor Â· " + (mc.auto || 0) + " matched automatically Â· " + ((mc.ambiguous || 0) + (mc.missing || 0)) + " not matched. " +
       "Only tutor-checked links are used to suggest what to revise, to schedule topics or to show topic explanations; automatic matches are never used for that, because they can be wrong.</p>";
     var vlo = {};
     P.forEach(function (p) { if (p.mv === "v") p.los.forEach(function (lo) { vlo[lo] = (vlo[lo] || 0) + 1; }); });
@@ -582,6 +679,7 @@
       '<p class="row"><button class="btn" id="smb-anon" type="button">Download anonymous answers</button></p>' +
       '<p class="row"><button class="btn" id="smb-reset" type="button">Reset beta history for ' + esc(ownerLabel()) + '</button><a class="btn" href="#/smart/disable">Turn the beta off on this device</a></p></div>';
     H().setView(h, "Smart practice (beta)");
+    wireConsent(function () { overview(lid); });
     document.getElementById("smb-exp").onchange = function () {
       try { if (this.checked) localStorage.setItem(EXP, "1"); else localStorage.removeItem(EXP); } catch (e) {}
       overview(lid);
@@ -611,6 +709,17 @@
         return Object.keys(rs).map(function (r) { return { k: k, reason: r }; });
       })) };
   }
+  /* short code for why a question was picked (shared anonymously, used to check whether the review schedule works) */
+  var REASON_CATS = [["Due for review", "topic-due"], ["You missed this objective", "topic-missed"], ["Not tested yet", "topic-new"], ["Only a few", "topic-few"],
+    ["Going well", "topic-advance"], ["Keeping it fresh", "topic-old"], ["You got this question wrong", "q-wrong"], ["Due for another look", "q-due"],
+    ["New question", "q-new"], ["Not seen for a while", "q-old"], ["Similar to another", "q-similar"]];
+  function reasonCat(r) { for (var i = 0; i < REASON_CATS.length; i++) if (String(r).indexOf(REASON_CATS[i][0]) === 0) return REASON_CATS[i][1]; return "other"; }
+  function ended() {
+    css();
+    H().setView('<div class="wrap"><p class="crumbs"><a href="#/">Home</a></p><h1>Smart practice beta has ended</h1>' +
+      "<p>Thank you for testing it. Your answers are helping us improve the questions.</p>" +
+      '<p class="meta">Your normal Sina progress, mistakes and review queue were never changed by the beta.</p><p class="row"><a class="btn primary" href="#/">Back to Sina</a></p></div>', "Smart practice (beta)");
+  }
   function practice(lid) {
     var d = D(lid), L = SINA.lectures[lid], picks = choose(lid, SESSION_N), los = loMap(lid);
     var h = head("Smart practice: " + d.title);
@@ -622,11 +731,12 @@
     H().setView(h, "Smart practice (beta)");
     var qs = picks.map(function (x) {
       var c = H().shuffleQ(x.p.q), o = {}; for (var k in c) o[k] = c[k];
-      o._k = x.p.key; o._smartLec = lid; o._fig = L.visual && L.visual.figure; o._from = los[x.lo] ? los[x.lo].topic : d.title; return o;
+      o._k = x.p.key; o._smartLec = lid; o._fig = L.visual && L.visual.figure; o._from = los[x.lo] ? los[x.lo].topic : d.title; o._why = reasonCat(x.reason); return o;
     });
     H().questionsPanel(document.getElementById("smbq"), { id: "mix:" + lid + ":smart", _title: "Smart practice", mcqs: qs });
   }
   function route(parts) {
+    if (closed()) { whenReady(ended); return true; }   /* after the beta week: a thank-you page for every #/smart link */
     if (parts[0] === "enable") {
       if (CODES.indexOf(parts[1]) < 0) return false;
       try { localStorage.setItem(FLAG, "1"); } catch (e) {}
@@ -656,6 +766,6 @@
     });
     return true;
   }
-  window.SinaSmart = { route: route, enabled: on, _debug: { stats: stats, choose: choose, recommend: recommend, wantAngle: wantAngle, isDue: isDue, metaOf: metaOf, status: status, contextFor: contextFor, readAll: readAll, owner: owner, pool: pool, anonExport: anonExport, index: function () { return INDEX; } } };
+  window.SinaSmart = { route: route, enabled: on, _debug: { beta: BETA, closed: closed, publicWeek: publicWeek, sendAnon: sendAnon, readOut: readOut, consent: consent, setConsent: setConsent, reasonCat: reasonCat, stats: stats, choose: choose, recommend: recommend, wantAngle: wantAngle, isDue: isDue, metaOf: metaOf, status: status, contextFor: contextFor, readAll: readAll, owner: owner, pool: pool, anonExport: anonExport, index: function () { return INDEX; } } };
   if (on()) { css(); loadIndex(function () {}); }
 })();
