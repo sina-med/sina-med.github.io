@@ -19837,3 +19837,177 @@ SINA.papers = SINA.papers.concat([
   "program": "y1-anglo"
  }
 ]);
+SINA.papers = SINA.papers.concat([
+ {
+  "id": "fa-vital-midterm",
+  "subject": "firstaid",
+  "title": "Vital Functions midterm",
+  "year": "Year 2",
+  "links": [
+   {
+    "label": "Open the paper (PDF)",
+    "url": "https://drive.google.com/file/d/1yJcYNYzSVvKupLKcG7ZC0nKZnXUv0fpt/view?usp=drivesdk"
+   }
+  ]
+ },
+ {
+  "id": "fa-vital-mock-2",
+  "subject": "firstaid",
+  "title": "Vital Functions mock 2",
+  "year": "Year 2",
+  "links": [
+   {
+    "label": "Open the paper (PDF)",
+    "url": "https://drive.google.com/file/d/1kv1TlemW3cD5YvWjaAFhPDVzfMGfQS00/view?usp=drivesdk"
+   }
+  ]
+ },
+ {
+  "id": "fa-vital-mock-correction",
+  "subject": "firstaid",
+  "title": "Vital Functions and First Aid mock exam, correction",
+  "year": "Year 2",
+  "links": [
+   {
+    "label": "Open the correction (PDF)",
+    "url": "https://drive.google.com/file/d/1qY9PKdiM9SlEb9967lq1F50BCA_7mp4b/view?usp=drivesdk"
+   }
+  ]
+ },
+ {
+  "id": "fa-medex-midterm",
+  "subject": "firstaid",
+  "title": "First aid and experimental medicine midterm",
+  "year": "2023",
+  "links": [
+   {
+    "label": "Open the paper (PDF)",
+    "url": "https://drive.google.com/file/d/1j834PfTWr8OWDelasMaBFAoeuhYeCpg9/view?usp=drivesdk"
+   }
+  ]
+ },
+ {
+  "id": "fa-medex-retake",
+  "subject": "firstaid",
+  "title": "First aid and experimental medicine retake",
+  "year": "Year 2",
+  "links": [
+   {
+    "label": "Open the paper (PDF)",
+    "url": "https://drive.google.com/file/d/1S_rRQyfKlR0xT2pSBN3iJwCb57bsxu-p/view?usp=drivesdk"
+   }
+  ]
+ },
+ {
+  "id": "fa-midterms-2526",
+  "subject": "firstaid",
+  "title": "S3 midterms 2025-2026, all subjects",
+  "year": "2025-2026",
+  "links": [
+   {
+    "label": "Open the paper (PDF)",
+    "url": "https://drive.google.com/file/d/1QbcRiA-O5hbMA78aA-gbzsd4arI496nN/view?usp=drivesdk"
+   }
+  ]
+ },
+ {
+  "id": "pathanat-midterm",
+  "subject": "pathanat",
+  "title": "Pathological anatomy midterm",
+  "year": "Year 2",
+  "links": [
+   {
+    "label": "Open the paper (PDF)",
+    "url": "https://drive.google.com/file/d/1K4KqlO4TpdPYvWCqzCDVTjDai6-fMJOQ/view?usp=drivesdk"
+   }
+  ]
+ },
+ {
+  "id": "pathanat-midterm-2023",
+  "subject": "pathanat",
+  "title": "Anatomic pathology midterm",
+  "year": "2023",
+  "links": [
+   {
+    "label": "Open the paper (PDF)",
+    "url": "https://drive.google.com/file/d/1vPVEGbNy4qqGG_Qzf_2NF87ua-oupjHi/view?usp=drivesdk"
+   }
+  ]
+ },
+ {
+  "id": "pathanat-midterm-2026",
+  "subject": "pathanat",
+  "title": "Anatomic pathology midterm",
+  "year": "2026",
+  "links": [
+   {
+    "label": "Open the paper (PDF)",
+    "url": "https://drive.google.com/file/d/1dV0VKYlglchrzq0qqC6rSHC2PC3HePiF/view?usp=drivesdk"
+   }
+  ]
+ },
+ {
+  "id": "pathanat-mock-exam",
+  "subject": "pathanat",
+  "title": "Pathological anatomy mock exam",
+  "year": "Year 2",
+  "links": [
+   {
+    "label": "Open the paper (PDF)",
+    "url": "https://drive.google.com/file/d/1I5hI1JkEdIE8q1qdtFUg9GCoJgSI89OT/view?usp=drivesdk"
+   }
+  ]
+ },
+ {
+  "id": "pathanat-mock-test",
+  "subject": "pathanat",
+  "title": "Pathological anatomy mock test and correction",
+  "year": "Year 2",
+  "links": [
+   {
+    "label": "Open the paper (Word)",
+    "url": "https://drive.google.com/file/d/1ZbkhyFpujn8nlPoUo7ZSqTV8d8xU8tUo/view?usp=drivesdk"
+   },
+   {
+    "label": "Open the correction (PDF)",
+    "url": "https://drive.google.com/file/d/13RIgVvpYuLSUwNpCmXNT6BisU1PzhQIT/view?usp=drivesdk"
+   }
+  ]
+ },
+ {
+  "id": "pathanat-quiz-vascular",
+  "subject": "pathanat",
+  "title": "Vascular pathology quiz (lecture 12)",
+  "year": "Year 2",
+  "links": [
+   {
+    "label": "Open the quiz (PDF)",
+    "url": "https://drive.google.com/file/d/1--sGgNow_Fccwh8EChPW70CA1Rb7FLim/view?usp=drivesdk"
+   }
+  ]
+ },
+ {
+  "id": "pathanat-quiz-lec1-2",
+  "subject": "pathanat",
+  "title": "Quiz, lectures 1 and 2",
+  "year": "Year 2",
+  "links": [
+   {
+    "label": "Open the quiz (Word)",
+    "url": "https://drive.google.com/file/d/1qV1GZhGVEP8ZrD-f3aazN-zsmWjGrv5g/view?usp=drivesdk"
+   }
+  ]
+ },
+ {
+  "id": "pathanat-lec14-questions",
+  "subject": "pathanat",
+  "title": "Questions, lecture 14",
+  "year": "Year 2",
+  "links": [
+   {
+    "label": "Open the questions (PDF)",
+    "url": "https://drive.google.com/file/d/1VMy0iogl0ZAjomd1DCUT2eoKUmukw-l1/view?usp=drivesdk"
+   }
+  ]
+ }
+]);
