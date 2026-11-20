@@ -2088,12 +2088,13 @@
     var all = lec.mcqs, qs = all, fullRun = true, i = 0, score = 0, wrong = [], done = [], marked = {}, key = "sina:best:" + lec.id, LET = "abcdefgh", streak = 0;
     if (resume) { qs = resume.qs; all = resume.full ? resume.qs : all; fullRun = !!resume.full; done = resume.done || []; i = 0; while (i < qs.length && done[i]) i++; if (i >= qs.length) i = qs.length - 1; }
     /* resume: the unfinished quiz is saved after every answer (one at a time, the most recent) */
+    var smartBeta = /:smart$/.test(lec.id); /* Smart MCQ beta sessions never touch the student's saved quiz (sina:resume is synced) */
     function saveResume() {
-      if (!done.some(Boolean) || i >= qs.length) return;
+      if (smartBeta || !done.some(Boolean) || i >= qs.length) return;
       var lite = qs.map(function (q) { var c = {}; for (var k in q) if (k !== "_fig") c[k] = q[k]; return c; });
       store.set("sina:resume", { id: lec.id, title: lec._title || resumeTitle(lec.id), back: location.hash, qs: lite, i: i, done: done, full: fullRun, t: Date.now() });
     }
-    function clearResume() { var r = store.get("sina:resume", null); if (r && r.id === lec.id) store.del("sina:resume"); }
+    function clearResume() { if (smartBeta) return; var r = store.get("sina:resume", null); if (r && r.id === lec.id) store.del("sina:resume"); }
     function keyText(q) {
       var ans = q.answers || [q.answer];
       return ans.map(function (n) { return LET[n] + ". " + q.options[n]; }).join(" and ");
@@ -2108,13 +2109,15 @@
         qs.forEach(function (q, n) { var d = done[n] || { chosen: [], ok: false, pts: 0 }; score += d.ok ? 1 : (d.pts || 0); if (!d.ok) wrong.push({ q: q, n: n + 1, chosen: d.chosen }); });
         score = Math.round(score * 100) / 100;
         var full = fullRun, best = store.get(key, 0);
-        if (full && score > best) { best = score; store.set(key, best); }
+        if (full && score > best && !/:smart$/.test(lec.id)) { best = score; store.set(key, best); } /* no best-score key for Smart MCQ beta sessions */
         var missed = wrong.slice();
         p.innerHTML = scoreRevealHTML(score, qs.length) +
           (full ? "<p>Best score on this device: " + fmtPts(best) + " / " + all.length + ".</p>" : "<p>Retry of the questions you missed.</p>") +
           '<div class="row">' + (markedList(marked).length ? '<button class="btn primary" id="gomk">Go back to marked questions (' + markedList(marked).length + ')</button>' : "") + (missed.length ? '<button class="btn primary" id="rev">Show only my wrong answers (' + missed.length + ')</button><button class="btn" id="retry">Retry only these</button>' : '<p class="src">No wrong answers. Well done.</p>') +
           '<button class="btn" id="again">' + (full ? "Try again" : "Back to the full quiz") + '</button></div>' + weakHTML(missed.map(function (w) { return { q: w.q, lid: lec.id }; })) + '<div id="review"></div>';
         scoreReveal(p, score, qs.length); streak = 0;
+        /* Smart MCQ beta hook: lets the beta add its revision summary under the score */
+        try { document.dispatchEvent(new CustomEvent("sina:quizend", { detail: { lec: lec.id, qs: qs, done: done, panel: p } })); } catch (e) {}
         var gm = p.querySelector("#gomk"); if (gm) gm.onclick = function () { i = markedList(marked)[0]; render(); window.scrollTo(0, p.getBoundingClientRect().top + window.scrollY - 120); };
         p.querySelector("#again").onclick = function () { qs = all.map(shuffleQ); fullRun = true; i = 0; score = 0; wrong = []; done = []; marked = {}; render(); };
         if (missed.length) {
@@ -2152,6 +2155,8 @@
         var fresh = !done[i];
         if (fresh) {
           done[i] = { chosen: chosen, ok: ok, pts: pts, skipped: !!skipped }; trackAnswer(q, lec.id, ok);
+          /* Smart MCQ beta hook (js/smart-beta.js listens only when the beta is switched on) */
+          try { document.dispatchEvent(new CustomEvent("sina:answer", { detail: { q: q, lec: lec.id, chosen: chosen.slice(), ok: ok, skipped: !!skipped } })); } catch (e) {}
           var was = streak; streak = ok ? streak + 1 : 0;
           var fl = p.querySelector(".streak"); if (fl) fl.outerHTML = flameHTML(streak, streak === 5 || (was >= 5 && !ok), was);
           else if (streak >= 5) p.querySelector(".qhead").insertAdjacentHTML("beforeend", flameHTML(streak, streak === 5));
@@ -2624,6 +2629,7 @@
   }
   function today() { var d = new Date(); return d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2); }
   function trackAnswer(q, src, ok) {
+    if (/^mix:[^:+]+:smart$/.test(src)) return; /* Smart MCQ beta sessions keep their own local history: never touch synced progress */
     var k = q._k || qKey(q), lid = q._lid || src;
     var asked = store.get("sina:asked", {}); asked[k] = dayNo(); store.set("sina:asked", asked);
     if (!lid || /^mix:|^mistakes/.test(lid)) return;
@@ -3912,6 +3918,7 @@
     if (parts[0] === "paper") return paperView(parts[1]);
     if (parts[0] === "subject") return subjectView(parts[1], parts[2], parts[3]);
     if (parts[0] === "lecture") return lectureView(parts[1], parts[2], parts[3]);
+    if (parts[0] === "smart" && window.SinaSmart && window.SinaSmart.route(parts.slice(1))) return; /* Smart MCQ beta (off by default) */
     notFound();
   }
 
@@ -4018,4 +4025,6 @@
       });
     });
   }
+  /* Smart MCQ beta: read-only access to the question renderer and helpers (used by js/smart-beta.js only) */
+  window.SinaBeta = { qKey: qKey, questionsPanel: questionsPanel, setView: setView, esc: esc, shuffle: shuffle, shuffleQ: shuffleQ, toast: toast, lectureTitle: lectureTitle };
 })();
