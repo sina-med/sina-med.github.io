@@ -359,90 +359,64 @@
     });
   }
 
-  /* ---------- left menu: subjects slide open to chapters, chapters slide open to lectures ---------- */
+  /* ---------- site menu: a centered overlay over the blurred page, nested Ouroboros rings behind ---------- */
   var drawer = document.getElementById("drawer"), backdrop = document.getElementById("backdrop"), menuBtn = document.getElementById("menu-btn");
-  var accN = 0;
-  function accHTML(label, meta, inner, cls) {
-    var id = "acc" + (++accN);
-    return '<div class="acc ' + cls + '"><button class="accbtn" type="button" aria-expanded="false" aria-controls="' + id + '"><span class="lbl">' + esc(label) + "</span>" + (meta ? '<span class="pn">' + esc(meta) + "</span>" : "") + '<span class="chev" aria-hidden="true">\u203a</span></button>' +
-      '<div class="accpanel" id="' + id + '"><div class="accinner">' + inner + "</div></div></div>";
+  var ouroSVG = "";
+  function ouroMarkup() {
+    if (ouroSVG) return ouroSVG;
+    var C = 450, R0 = 330, out = "";
+    [[1, 24, -90, 0.34, 1], [0.66, 16, -10, 0.44, 2], [0.38, 10, 70, 0.54, 3]].forEach(function (cfg, ri) {
+      var r = R0 * cfg[0], hw = cfg[1], st = cfg[2] * Math.PI / 180, ga = cfg[3], sp = Math.PI * 2 - ga, n = 260, o = [], inn = [], ticks = "";
+      function wid(t) { return hw * (0.3 + 0.7 * Math.min(1, t * 3)); }
+      for (var i = 0; i <= n; i++) { var t = i / n, a = st + t * sp, w = wid(t); o.push([C + Math.cos(a) * (r + w), C + Math.sin(a) * (r + w)]); inn.push([C + Math.cos(a) * (r - w), C + Math.sin(a) * (r - w)]); }
+      var d = "M" + o.map(function (p) { return p[0].toFixed(1) + " " + p[1].toFixed(1); }).join("L") + "L" + inn.reverse().map(function (p) { return p[0].toFixed(1) + " " + p[1].toFixed(1); }).join("L") + "Z";
+      for (var f = 4; f < n; f += 3) {
+        var tf = f / n, af = st + tf * sp, wf = wid(tf), ex = 5 + (f % 2) * 4;
+        [1, -1].forEach(function (sd) {
+          ticks += "M" + (C + Math.cos(af) * (r + sd * wf)).toFixed(1) + " " + (C + Math.sin(af) * (r + sd * wf)).toFixed(1) + "L" + (C + Math.cos(af + 0.015) * (r + sd * (wf + ex))).toFixed(1) + " " + (C + Math.sin(af + 0.015) * (r + sd * (wf + ex))).toFixed(1);
+        });
+      }
+      var ah = st + sp, hs = 0.45 + cfg[0] * 0.7, col = ri % 2 ? "var(--alert)" : "var(--accent)", col2 = ri % 2 ? "var(--accent)" : "var(--alert)";
+      var head = '<g transform="translate(' + (C + Math.cos(ah) * r).toFixed(1) + " " + (C + Math.sin(ah) * r).toFixed(1) + ") rotate(" + ((ah + Math.PI / 2) * 180 / Math.PI).toFixed(1) + ") scale(" + hs.toFixed(2) + ')">' +
+        '<path d="M-26 -18L30 -24L66 -4L30 22L-26 18Z" fill="' + col + '" stroke="var(--bg)" stroke-width="3"/>' +
+        '<path d="M8 -6L34 -8L48 0L30 10L8 6Z" fill="var(--bg)" opacity=".8"/><path d="M18 -2L34 -3L40 1L28 5Z" fill="' + col2 + '"/></g>';
+      out += '<g class="ouro-r r' + ri + '" style="transform-origin:450px 450px"><path d="' + d + '" fill="' + col + '"/><path d="' + ticks + '" stroke="' + col + '" stroke-width="1.6" fill="none"/>' + head + "</g>";
+    });
+    ouroSVG = '<svg viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg" focusable="false">' + out + "</svg>";
+    return ouroSVG;
+  }
+  function mrow(href, label, tag, i, extra) {
+    var n = (i + 1 < 10 ? "0" : "") + (i + 1);
+    return '<a class="mrow" style="--i:' + i + '" href="' + href + '"' + (extra || "") + '><span class="mn">' + n + '</span><span class="ml">' + esc(label) + "</span>" + (tag ? '<span class="mtag">' + esc(tag) + "</span>" : "") + "</a>";
   }
   function renderDrawer() {
-    accN = 0;
-    var h = '<div class="dhead"><span class="wordmark">Sina<span>.</span></span><button class="btn dclose" type="button">' + esc(T("nav.close")) + '</button></div>' +
-      '<p class="dprog">' + esc(progName()) + '</p>' +
-      '<a class="dlink" href="#/">' + esc(T("nav.home")) + '</a>' +
-      (wlOn() ? '<a class="dlink" href="#/clinidle"><span>Clinidle</span><span class="pn">' + (wlCase(wlDay()) ? "Today's patient" : "Past patients") + "</span></a>" : "");
-
-    /* Category 0: Upcoming midterm lectures */
-    if (progMidterms().length) {
-      var midHTML = '<a class="dlink sub" href="#/midterm">All upcoming midterm lectures</a>' + progMidterms().map(function (m) {
-        return '<p class="dsem">' + esc(m.title) + "</p>" + m.groups.map(function (g) {
-          return accHTML(g.name, g.items.length + " lectures", '<ul class="dlist">' + g.items.map(function (id) {
-            return S.lectures[id] ? '<li><a href="#/lecture/' + id + '">' + esc(lectureTitle(id)) + '<span class="dtag">Midterm</span></a></li>' : '<li><span class="dsoon-item"><span>' + esc(lectureTitle(id)) + "</span><em>Coming</em></span></li>";
-          }).join("") + "</ul>", "chapter");
-        }).join("");
-      }).join("");
-      h += accHTML("Upcoming midterm lectures", "", midHTML, "cat");
-    }
-
-    /* Category 1: Browse subjects (semesters, subjects, chapters, lectures) */
-    var subjectsHTML = "";
+    var items = [], i = 0, h = "";
+    h += mrow("#/", T("nav.home"), "", i++);
+    var subjBtn = '<button class="mrow" style="--i:' + (i) + '" type="button" data-go="mv-subj" aria-haspopup="true"><span class="mn">' + ((i + 1 < 10 ? "0" : "") + (i + 1)) + '</span><span class="ml">Subjects</span></button>'; i++;
+    h += subjBtn;
+    if (progMidterms().length) h += mrow("#/midterm", "Upcoming midterms", "", i++);
+    var practiceSubs = progSubjects().filter(function (sb) { return practiceCount(sb).lec || practiceCount(sb).papers; });
+    if (practiceSubs.length) h += mrow("#/practice", "Practice questions", "", i++);
+    h += mrow("#/papers", T("nav.papers"), "", i++);
+    if (wlOn()) h += mrow("#/clinidle", "Clinidle", wlCase(wlDay()) ? "Today" : "", i++);
+    h += mrow("#/apps", T("nav.apps"), "", i++);
+    if (S.usmle) h += mrow("#/usmle", "USMLE prep", "", i++);
+    h += mrow("#/updates", T("nav.updates"), newBadge() ? "New" : "", i++);
+    var subj = '<button class="mback" type="button" data-go="mv-main">← Back</button>', j = 0;
     progSemesters().forEach(function (sem) {
-      subjectsHTML += '<p class="dsem">' + esc(T("home.semester", { n: sem.replace(/^S/, "") })) + "</p>";
-      progSubjects().filter(function (x) { return x.semester === sem; }).forEach(function (sub) {
-        if (!sub.groups) { subjectsHTML += '<div class="dsoon"><span>' + esc(sub.name) + "</span><em>" + (sub.status === "next" ? "Up next" : "Planned") + "</em></div>"; return; }
-        var chapters = sub.groups.map(function (g) {
-          var n = g.items.filter(function (it) { return S.lectures[it.id]; }).length;
-          var lectures = '<ul class="dlist">' + g.items.map(function (it) {
-            if (!S.lectures[it.id]) return '<li><span class="dsoon-item"><span>' + esc(it.title) + "</span><em>Coming</em></span></li>";
-            return '<li><a href="#/lecture/' + it.id + '">' + esc(it.title) + (onMidterm(it.id) ? '<span class="dtag">Midterm</span>' : "") + "</a></li>";
-          }).join("") + "</ul>";
-          return accHTML(g.name, n + " of " + g.items.length + " ready", lectures, "chapter");
-        }).join("") + '<a class="dlink sub" href="#/subject/' + sub.id + '">Open the ' + esc(sub.name) + " page</a>";
-        subjectsHTML += accHTML(sub.name, "", chapters, "subject");
+      subj += '<p class="msem">' + esc(T("home.semester", { n: sem.replace(/^S/, "") })) + "</p>";
+      progSubjects().filter(function (x) { return x.semester === sem; }).forEach(function (sb) {
+        if (!sb.groups) subj += '<span class="mrow sm soon" aria-disabled="true"><span class="ml">' + esc(sb.name) + '</span><span class="mtag">' + (sb.status === "next" ? "Up next" : "Planned") + "</span></span>";
+        else subj += '<a class="mrow sm" href="#/subject/' + sb.id + '"><span class="ml">' + esc(sb.name) + "</span></a>";
       });
     });
-    h += accHTML("Browse subjects", "", subjectsHTML, "cat");
-
-    /* Category 2: Past papers, by subject */
-    var withPapers = progSubjects().filter(function (sb) { return (S.papers || []).some(function (x) { return x.subject === sb.id; }); });
-    var hasOther = (S.papers || []).some(function (x) { return x.program === PROG && !subjectById(x.subject); });
-    var papersHTML = '<a class="dlink sub" href="#/papers">All past papers</a>' + withPapers.map(function (sb) {
-      var n = (S.papers || []).filter(function (x) { return x.subject === sb.id; }).length;
-      return '<a class="dlink sub" href="#/papers/' + sb.id + '"><span>' + esc(sb.name) + '</span><span class="pn">' + n + "</span></a>";
-    }).join("") + (hasOther ? '<a class="dlink sub" href="#/papers">Other modules</a>' : "");
-    var practiceSubs = progSubjects().filter(function (sb) { return practiceCount(sb).lec || practiceCount(sb).papers; });
-    if (practiceSubs.length) h += accHTML("Practice questions", "", '<a class="dlink sub" href="#/practice">Choose a subject</a>' + practiceSubs.map(function (sb) {
-      var c = practiceCount(sb);
-      return '<a class="dlink sub" href="#/practice/' + sb.id + '"><span>' + esc(sb.name) + '</span><span class="pn">' + c.lec + "</span></a>";
-    }).join(""), "cat");
-    h += accHTML("Past papers", "", papersHTML, "cat");
-
-    /* Category 3: Useful apps */
-    var appsList = '<a class="dlink sub" href="#/apps">All useful apps</a>' + (S.apps || []).map(function (r) {
-      return '<a class="dlink sub" href="' + esc(r.url) + '" target="_blank" rel="noopener"><span>' + esc(r.title) + '</span><span class="pn">' + esc(r.kind || "") + "</span></a>";
-    }).join("");
-    h += accHTML("Useful apps", "", appsList, "cat");
-    if (S.usmle) h += '<a class="dlink" href="#/usmle"><span>USMLE prep</span><span class="pn">Step 1</span></a>';
-
-    h += '<a class="dlink" href="#/updates"><span>' + esc(T("nav.updates")) + '</span>' + (newBadge() ? '<span class="badge">new</span>' : "") + "</a>";
-    drawer.innerHTML = h;
+    drawer.innerHTML = '<div class="ouro" aria-hidden="true">' + ouroMarkup() + '</div><div class="mstack"><div class="mview cur" id="mv-main">' + h + '</div><div class="mview" id="mv-subj">' + subj + '</div></div><p class="mhint" aria-hidden="true">Esc to close</p>';
     drawer.scrollTop = 0;
-    drawer.querySelector(".dclose").addEventListener("click", function () {
-      closeDrawer();
-    });
-    drawer.querySelectorAll("a").forEach(function (a) { a.addEventListener("click", closeDrawer); });
-    var dc = drawer.querySelector(".dclose");
-    if (dc) dc.textContent = "Close";
-    drawer.querySelectorAll(".accbtn").forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        var acc = btn.parentNode, open = !acc.classList.contains("open");
-        if (open) Array.prototype.forEach.call(acc.parentNode.children, function (sib) {
-          if (sib !== acc && sib.classList && sib.classList.contains("acc")) { sib.classList.remove("open"); sib.querySelector(".accbtn").setAttribute("aria-expanded", "false"); }
-        });
-        acc.classList.toggle("open", open);
-        btn.setAttribute("aria-expanded", String(open));
+    drawer.querySelectorAll("a.mrow").forEach(function (a) { a.addEventListener("click", closeDrawer); });
+    drawer.querySelectorAll("[data-go]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        drawer.querySelectorAll(".mview").forEach(function (v) { v.classList.toggle("cur", v.id === b.getAttribute("data-go")); });
+        var f = drawer.querySelector(".mview.cur .mrow:not(.soon), .mview.cur .mback"); if (f) f.focus({ preventScroll: true });
       });
     });
   }
@@ -450,31 +424,35 @@
   function showDrawer(on, withBackdrop) {
     drawer.classList.toggle("is-open", on);
     drawer.setAttribute("aria-hidden", String(!on));
-    backdrop.classList.toggle("is-open", !!(on && withBackdrop));
+    document.body.classList.toggle("menu-open", on);
   }
   function openDrawer() {
     renderDrawer();
     showDrawer(true, true);
     document.body.classList.add("noscroll");
     menuBtn.setAttribute("aria-expanded", "true");
-    var dc = drawer.querySelector(".dclose"); if (dc) dc.focus({ preventScroll: true });
+    menuBtn.setAttribute("aria-label", "Close menu");
+    var f = drawer.querySelector(".mrow"); if (f) setTimeout(function () { f.focus({ preventScroll: true }); }, 60);
   }
   function closeDrawer() {
-    if (document.body.classList.contains("pinned")) return;
     if (!isOpen()) return;
     showDrawer(false, false);
     document.body.classList.remove("noscroll");
     menuBtn.setAttribute("aria-expanded", "false");
-    menuBtn.focus({ preventScroll: true });
+    menuBtn.setAttribute("aria-label", "Open menu");
   }
-  /* the menu is always an overlay: it never moves or resizes the page */
-  function applyLayout() {
-    if (document.body.classList.contains("pinned")) { document.body.classList.remove("pinned"); showDrawer(false, false); menuBtn.setAttribute("aria-expanded", "false"); }
-  }
-  menuBtn.addEventListener("click", function () { isOpen() ? closeDrawer() : openDrawer(); });
-  backdrop.addEventListener("click", closeDrawer);
-  document.addEventListener("keydown", function (e) { if (e.key === "Escape") { closeDrawer(); hideSearch(); } });
-  drawer.querySelector && 0;
+  /* kept for the code that still calls it: the menu is always an overlay */
+  function applyLayout() { document.body.classList.remove("pinned"); }
+  menuBtn.addEventListener("click", function () { if (isOpen()) { closeDrawer(); menuBtn.focus({ preventScroll: true }); } else openDrawer(); });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") { if (isOpen()) { closeDrawer(); menuBtn.focus({ preventScroll: true }); } hideSearch(); }
+    if (e.key === "Tab" && isOpen()) {
+      var els = [menuBtn].concat([].slice.call(drawer.querySelectorAll(".mview.cur .mrow:not(.soon), .mview.cur .mback")));
+      var k = els.indexOf(document.activeElement);
+      if (e.shiftKey && k <= 0) { e.preventDefault(); els[els.length - 1].focus(); }
+      else if (!e.shiftKey && k === els.length - 1) { e.preventDefault(); els[0].focus(); }
+    }
+  });
 
   /* ---------- search ---------- */
   function searchIndex() {
