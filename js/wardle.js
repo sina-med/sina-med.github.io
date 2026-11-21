@@ -77,6 +77,30 @@
           '<table><tr><th>Test</th><th class="r">Result</th><th class="r">Reference</th></tr>' + x[2].map(function (r) { return "<tr><td>" + esc(r[0]) + '</td><td class="r"><b>' + esc(r[1]) + '</b></td><td class="r">' + esc(r[2]) + "</td></tr>"; }).join("") + "</table>") +
         '<p class="wl-slip-f">' + esc(x[3]) + "</p></div>";
     }
+    function slideHTML(s, upto, credits) {
+      var im = s.slide.images, n = Math.min(im.length, upto);
+      var h = '<p class="wl-cap">Stain: ' + esc(s.slide.stain) + ". Drag to move, scroll or use the buttons to zoom.</p>";
+      for (var k = 0; k < n; k++) h += '<figure class="pl-fig"><div class="pl-field" tabindex="0" aria-label="Microscope slide ' + (k + 1) + '"><img src="' + esc(im[k].src) + '" alt="Photomicrograph" draggable="false"></div>' +
+        '<div class="pl-zoom"><button type="button" data-z="-1" aria-label="Zoom out">−</button><button type="button" data-z="0">Reset</button><button type="button" data-z="1" aria-label="Zoom in">+</button></div>' + '<figcaption class="wl-cap">' + esc(im[k].mag) + "</figcaption></figure>";
+      if (credits) h += '<ul class="pl-cred">' + im.map(function (m) { return "<li>" + esc(m.mag) + ": " + esc(m.by) + ', <a href="' + esc(m.page) + '" target="_blank" rel="noopener">' + esc(m.lic) + " on Wikimedia Commons</a></li>"; }).join("") + "</ul>";
+      return h;
+    }
+    function bindField(root) {
+      root.querySelectorAll(".pl-fig").forEach(function (fig) {
+        var f = fig.querySelector(".pl-field"), img = f.querySelector("img"), s = 1, x = 0, y = 0, d = null;
+        function lim() { var w = f.clientWidth, h = f.clientHeight, mx = Math.max(0, (img.offsetWidth * s - w) / 2), my = Math.max(0, (img.offsetHeight * s - h) / 2); x = Math.max(-mx, Math.min(mx, x)); y = Math.max(-my, Math.min(my, y)); }
+        function ap() { lim(); img.style.transform = "translate(" + x + "px," + y + "px) scale(" + s + ")"; }
+        function zoom(k) { s = k === 0 ? 1 : Math.max(1, Math.min(5, s * (k > 0 ? 1.35 : 1 / 1.35))); if (s === 1) { x = 0; y = 0; } ap(); }
+        f.addEventListener("pointerdown", function (e) { d = { px: e.clientX, py: e.clientY, x: x, y: y }; f.setPointerCapture(e.pointerId); f.classList.add("drag"); });
+        f.addEventListener("pointermove", function (e) { if (d) { x = d.x + e.clientX - d.px; y = d.y + e.clientY - d.py; ap(); } });
+        function up() { d = null; f.classList.remove("drag"); }
+        f.addEventListener("pointerup", up); f.addEventListener("pointercancel", up);
+        f.addEventListener("wheel", function (e) { e.preventDefault(); zoom(e.deltaY < 0 ? 1 : -1); }, { passive: false });
+        f.addEventListener("keydown", function (e) { var st = 24; if (e.key === "+" || e.key === "=") zoom(1); else if (e.key === "-") zoom(-1); else if (e.key === "ArrowLeft") x += st; else if (e.key === "ArrowRight") x -= st; else if (e.key === "ArrowUp") y += st; else if (e.key === "ArrowDown") y -= st; else return; e.preventDefault(); ap(); });
+        fig.querySelectorAll("[data-z]").forEach(function (b) { b.onclick = function () { zoom(+b.dataset.z); }; });
+      });
+    }
+
     function srcHTML(list) {
       return list.map(function (x) { var l = o.lec && o.lec(x[0]); return l ? '<a href="' + l.href + '">' + esc(l.title) + "</a> · Year " + x[2] : esc(x[1]) + " · Year " + x[2]; }).join("<br>");
     }
@@ -114,6 +138,7 @@
       var h = head() + patient() + '<section class="wl-stage' + (ui.enter ? " wl-enter" : "") + '"><p class="wl-lab">Stage ' + (i + 1) + " of " + N + " · " + esc(s.label) + '</p><p class="wl-ev">' + esc(s.ev) + "</p>";
       if (s.ecg) h += ecgHTML(false);
       if (s.slip) h += slipHTML(s.slip);
+      if (s.slide) h += slideHTML(s, 1 + Math.floor(tries.length / 2), false);
       h += '<h2 class="wl-q">' + esc(s.q) + '</h2><p class="wl-lab">Clues</p><ol class="wl-hints">' + s.hints.slice(0, shown).map(function (t, k) { return "<li" + (ui.fresh && k === shown - 1 && k ? ' class="new"' : "") + "><b>" + (k + 1) + "</b><span>" + esc(t) + "</span></li>"; }).join("") + "</ol>";
       if (tries.length) h += '<div class="wl-tries" aria-label="Wrong guesses and how close they were"><div class="wl-tr wl-tr-h"><span>Your guesses</span>' + A[s.list].cols.map(function (c) { return "<span>" + esc(c) + "</span>"; }).join("") + "</div>" +
         tries.map(function (t) { return '<div class="wl-tr"><span>' + esc(t) + "</span>" + compare(s.list, t, ans(s)[0]).map(function (x) { return '<span class="wl-tg ' + x.c + '">' + esc(x.t) + "</span>"; }).join("") + "</div>"; }).join("") + "</div>";
@@ -153,6 +178,7 @@
           h += '<div class="wl-st-b">';
           if (s.ecg) h += ecgHTML(true);
           if (s.slip) h += slipHTML(s.slip);
+          if (s.slide) h += slideHTML(s, 99, true);
           h += '<p class="wl-why">' + esc(s.why) + '</p><div class="wl-cmp">' + s.contenders.map(function (c) {
             var ok = ans(s).indexOf(c[0]) > -1, yours = tr.indexOf(c[0]) > -1;
             return '<div class="wl-cr ' + (ok ? "ok" : "no") + '"><span class="mk" aria-label="' + (ok ? "right" : "wrong") + '">' + (ok ? "✓" : "✗") + '</span><span class="cn">' + esc(c[0]) + (yours ? " <em>your guess</em>" : "") + (beyond(s.list, c[0]) ? ' <em class="by">beyond the course</em>' : "") + '</span><span class="cw">' + esc(c[1]) + learnHTML(s.list, c[0]) + "</span></div>";
@@ -181,6 +207,7 @@
     function render(focus) {
       box.innerHTML = '<div class="wl">' + (S.view === "menu" ? menuHTML() : S.view === "play" ? playHTML() : S.view === "end" ? endHTML() : debriefHTML()) + "</div>";
       ui.fresh = false; ui.enter = false;
+      bindField(box);
       if (S.view === "end" && o.end) o.end(box.querySelector("#wl-extra"));
       var g = box.querySelector("#wl-g");
       if (g) { drawList(); if (focus) { g.focus({ preventScroll: true }); var v = g.value; g.setSelectionRange(v.length, v.length); } }

@@ -411,7 +411,6 @@
     if (practiceSubs.length) h += mrow("#/practice", "Practice questions", "", i++);
     h += mrow("#/papers", T("nav.papers"), "", i++);
     if (wlOn()) h += mrow("#/clinidle", "Clinidle", wlCase(wlDay()) ? "Today" : "", i++);
-    if (plOn()) h += mrow("#/clinidle/slide", "Pathology slide", plDone(plDay()) ? "Done" : "Today", i++);
     h += mrow("#/apps", T("nav.apps"), "", i++);
     if (S.usmle) h += mrow("#/usmle", "USMLE prep", "", i++);
     h += mrow("#/updates", T("nav.updates"), newBadge() ? "New" : "", i++);
@@ -2459,7 +2458,7 @@
       h += '<div class="cl-ban" role="region" aria-label="New: Clinidle"><div class="cl-txt"><p class="cl-k"><span>New</span> Clinidle</p><p>Test your medical knowledge, one case at a time.</p></div>' +
         '<div class="cl-act"><a class="cl-go" href="#/clinidle">Play today\'s patient</a><button type="button" class="cl-x" aria-label="Dismiss">Not now</button></div></div>';
     h += '<nav class="quick" aria-label="Quick access">';
-    if (wlOn()) { var wd = wlDay(), wS = wlAll()[wd], wNew = !!wlCase(wd); h += t("#/clinidle", "wl", wNew ? "Clinidle #" + wd : "Clinidle", !wNew ? "Replay past patients" : wS && wS.done ? "Done today · " + fmtPts(wS.score) + " / 5" : "Today's patient", wNew && !(wS && wS.done) ? "qt-hot" : ""); }
+    if (wlOn()) { var wd = wlDay(), wS = wlAll()[wd], wNew = !!wlCase(wd); h += t("#/clinidle", "wl", wNew ? "Clinidle #" + wd : "Clinidle", !wNew ? "Replay past patients" : wS && wS.done ? "Done today · " + fmtPts(wS.score) + " / " + wlCase(wd).stages.length : "Today's patient", wNew && !(wS && wS.done) ? "qt-hot" : ""); }
     var rs = resumeInfo();
     if (rs) h += t("#/resume", "go", "Resume quiz", esc(rs.title) + " · " + rs.n + "/" + rs.qs.length, "qt-go");
     else if (last && last.h) h += t(last.h, "go", "Continue", esc(last.t), "qt-go");
@@ -3565,36 +3564,6 @@
     };
   }
 
-  /* ---------- Pathology slide: one real photomicrograph a day (js/pathle.js plays it) ---------- */
-  function plOn() { return !!(window.SinaPathle && S.pathle && S.pathle.cases.length); }
-  function plDay() { var s = S.pathle.start.split("-"), d = new Date(); return Math.max(1, Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - Date.UTC(+s[0], s[1] - 1, +s[2])) / 864e5) + 1); }
-  function plAll() { return store.get(S.pathle.key, {}); }
-  function plDone(n) { var a = plAll()[n]; return !!(a && a.done); }
-  function plStreak() { var a = plAll(), n = plDay(), k = a[n] && a[n].done && a[n].live ? n : n - 1, c = 0; while (k >= 1 && a[k] && a[k].done && a[k].live && a[k].solved) { c++; k--; } return c; }
-  function pathleView(arg) {
-    if (!plOn()) return notFound();
-    var P = S.pathle, today = plDay(), n = arg ? parseInt(arg, 10) : today;
-    if (!(n >= 1 && n <= today)) { location.replace("#/clinidle/slide"); return; }
-    var c = P.cases[(n - 1) % P.cases.length], all = plAll(), st = all[n] || { live: n === today }, streak = plStreak();
-    function save() { var a = plAll(); a[n] = st; store.set(P.key, a); }
-    setView('<div class="wrap narrow wl-host"><p class="crumbs"><a href="#/">Home</a> / <a href="#/clinidle">Clinidle</a> / Pathology slide · ' + (n === today ? "today" : "past slide, not counted") + (streak ? " · " + streak + "-day streak" : "") + (today > 1 && n === today ? ' · <a href="#/clinidle/slide/' + (today - 1) + '">Yesterday</a>' : "") + '</p><div id="wl-box"></div></div>', "Pathology slide");
-    window.SinaPathle.play(document.getElementById("wl-box"), c, {
-      title: "Pathology slide #" + n, list: P.list,
-      load: function () { return st.eng || null; },
-      save: function (e) { st.eng = e; save(); },
-      done: function (r) { st.done = true; st.score = r.score; st.solved = r.solved; save(); },
-      end: function (x) {
-        if (!x) return;
-        x.innerHTML = '<button class="wl-btn" id="pl-share" type="button">Share my result</button><p class="src" id="pl-msg"></p>' + (n === today ? '<p class="meta">Next slide at midnight.</p>' : "");
-        x.querySelector("#pl-share").onclick = function () {
-          var t = "Clinidle slide #" + n + " " + (st.solved ? fmtPts(st.score) + "/1" : "X/1") + "\n" + (st.eng ? st.eng.tries.map(function (g, k) { return k === st.eng.tries.length - 1 && st.solved ? "🟩" : "🟥"; }).join("") : "") + "\n" + location.origin + location.pathname + "#/clinidle/slide";
-          var m = x.querySelector("#pl-msg");
-          if (navigator.share) navigator.share({ text: t }).catch(function () {}); else navigator.clipboard.writeText(t).then(function () { m.textContent = "Copied. Paste it in the group chat."; }, function () { m.textContent = t; });
-        };
-      }
-    });
-  }
-
   /* ---------- Wardle: one patient a day (js/wardle.js plays the case; Sina keeps the daily, streak, sharing and leaderboard) ---------- */
   function wlTrack() { var y = String(PROG || "").split("-")[0]; return S.wardle && S.wardle.tracks[y] || null; }   /* one daily series per year */
   function wlDay() {   /* today's case number, counted from the track's start date in local time */
@@ -3626,7 +3595,7 @@
     function post(nick, then) {
       nick = nick.replace(/[^\p{L}\p{N} ._-]/gu, "").trim().slice(0, 20); if (!nick || !S.api) return;
       store.set("sina:nick", nick);
-      fetch(S.api, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ type: "score", nick: nick, device: lbDevice(), paper: wlTrack().paper + n, score: st.score, total: 5, secs: Math.max(st.secs || 0, 15) }) })
+      fetch(S.api, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ type: "score", nick: nick, device: lbDevice(), paper: wlTrack().paper + n, score: st.score, total: c.stages.length, secs: Math.max(st.secs || 0, 15) }) })
         .then(function () { st.posted = nick; save(); sessionStorage.removeItem("sina:lb"); if (then) then(); });
     }
     function extras(x) {
@@ -3637,7 +3606,7 @@
         (n === today ? '<p class="meta">Next patient in ' + Math.floor(left / 36e5) + " h " + Math.floor(left % 36e5 / 6e4) + " min.</p>" : "");
       var msg = x.querySelector("#wl-msg");
       x.querySelector("#wl-share").onclick = function () {
-        var t = "Clinidle " + (wlTrack().paper === "wardle1-" ? "1st year " : "") + "#" + n + " " + fmtPts(st.score) + "/5\n" + wlSquares(st) + "\n" + location.origin + location.pathname + "#/clinidle";
+        var t = "Clinidle " + (wlTrack().paper === "wardle1-" ? "1st year " : "") + "#" + n + " " + fmtPts(st.score) + "/" + c.stages.length + "\n" + wlSquares(st) + "\n" + location.origin + location.pathname + "#/clinidle";
         if (navigator.share) navigator.share({ text: t }).catch(function () {});
         else navigator.clipboard.writeText(t).then(function () { msg.textContent = "Copied. Paste it in the group chat."; }, function () { msg.textContent = t; });
       };
@@ -3669,7 +3638,7 @@
     var today = wlDay(), a = wlAll(), h = "";
     for (var n = Math.min(today, wlTrack().cases.length); n >= 1; n--) {
       var st = a[n];
-      h += '<li><a href="#/clinidle/' + n + '"><span>Clinidle #' + n + (n === today ? " · today" : "") + "</span><span>" + (st && st.done ? fmtPts(st.score) + " / 5" : st ? "Started" : "Not played") + "</span></a></li>";
+      h += '<li><a href="#/clinidle/' + n + '"><span>Clinidle #' + n + (n === today ? " · today" : "") + "</span><span>" + (st && st.done ? fmtPts(st.score) + " / " + (wlCase(n) ? wlCase(n).stages.length : 5) : st ? "Started" : "Not played") + "</span></a></li>";
     }
     setView('<div class="wrap narrow"><p class="crumbs"><a href="#/">Home</a> / <a href="#/clinidle">Clinidle</a> / Past patients</p><h1>Past patients</h1><ol class="wl-arch">' + h + "</ol></div>", "Past patients");
   }
@@ -3930,7 +3899,6 @@
     if (parts[0] === "review") return reviewView();
     if (parts[0] === "reminders") return remindersView();
     if (parts[0] === "leaderboard") return leaderboardView(parts[1]);
-    if (parts[0] === "clinidle" && parts[1] === "slide") return pathleView(parts[2]);
     if (parts[0] === "clinidle" || parts[0] === "curdle" || parts[0] === "cura" || parts[0] === "wardle" || parts[0] === "rounds") return wardleView(parts[1]);
     if (parts[0] === "resume") return resumeView();
     if (parts[0] === "install") return installView();

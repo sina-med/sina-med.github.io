@@ -304,6 +304,7 @@
       var k = q._k || H().qKey(q), p = keyIndex(lid)[k];
       if (!p) return;
       lastAnswered = { q: q, p: p, lid: lid, ok: !!d.ok, chosen: (d.chosen || []).slice(), conf: conf };
+      adapt(q, !!d.ok);
       /* options are shuffled for display: store the ORIGINAL option indices so answers can be compared across students */
       var orig = (d.chosen || []).map(function (i) { return p.q.options.indexOf(q.options[i]); });
       seq++;
@@ -363,9 +364,7 @@
     if (!BETA.collect || !publicWeek()) return "";
     var c = consent();
     if (c === null) return '<div class="smb-consent" id="smb-consent"><strong>Help us improve Smart practice?</strong>' +
-      '<p class="meta">You can send your Smart practice answers anonymously: which question, which option you chose, whether it was right, whether you were sure, and a day number. ' +
-      "We never see your name, account, email or your normal Sina progress.</p>" +
-      '<p class="meta">We use the answers to find questions that are confusing or too hard. They never change an answer automatically.</p>' +
+      '<p class="meta">Send your answers anonymously: question, option, right or wrong, and a day number. Never your name or account.</p>' +
       '<p class="row"><button class="btn primary" type="button" data-cs="1">Yes, send anonymously</button><button class="btn" type="button" data-cs="0">No thanks</button></p></div>';
     return '<p class="meta">Anonymous sharing is <strong>' + (c === "1" ? "on" : "off") + '</strong>. <button class="linkbtn" type="button" data-cs="' + (c === "1" ? "0" : "1") + '">Turn it ' + (c === "1" ? "off" : "on") + "</button></p>";
   }
@@ -531,7 +530,7 @@
       '<label class="rdlg-l" for="smb-slide">Slide or page (optional)</label><input id="smb-slide" maxlength="20" placeholder="e.g. 26">' +
       '<label class="rdlg-l" for="smb-sugg">Suggested correction (optional)</label><input id="smb-sugg" maxlength="300" placeholder="e.g. The answer should be B">' +
       '<label class="rdlg-l" for="smb-note">Details (optional; please do not include your name)</label><textarea id="smb-note" rows="2"></textarea>' +
-      '<p class="meta">A person checks every report. The question is hidden from your Smart practice meanwhile. Reports never change an answer automatically.</p>' +
+      '<p class="meta">A person checks every report. The question is hidden from your practice meanwhile.</p>' +
       '<div class="row"><button class="btn primary" id="smb-send" type="button" disabled>Send report</button><button class="btn" id="smb-x" type="button">Cancel</button></div></div>';
     document.body.appendChild(v); document.body.classList.add("noscroll");
     function close() { v.remove(); document.body.classList.remove("noscroll"); }
@@ -619,16 +618,23 @@
       (n >= WARN ? " <strong>History is " + Math.round(100 * n / CAP) + "% full.</strong>" : "") + "</p>";
   }
   function home() {
-    var by = {}, order = [];
-    (INDEX || []).forEach(function (x) { if (!by[x.subject]) { by[x.subject] = []; order.push(x.subject); } by[x.subject].push(x); });
-    var subjName = function (id) { var s = (window.SINA && SINA.subjects || []).filter(function (z) { return z.id === id; })[0]; return s ? s.name : id; };
-    var h = head("Smart practice") + '<p class="lede-s">Pick a lecture. Questions you get wrong come back the next day, then at growing intervals.' +
-      (publicWeek() ? " The beta is open to everyone until " + esc(endDateText()) + "." : "") + "</p>" + consentBox() +
-      (order.length ? order.sort().map(function (sid) {
-        return "<h2>" + esc(subjName(sid)) + '</h2><ul class="lec-list">' + by[sid].map(function (x) {
-          return '<li><a href="#/smart/' + esc(x.id) + '"><span>' + esc(x.title) + '</span><span class="qn">' + (x.verified ? x.verified + " tutor-checked topic links" : "question-by-question review") + "</span></a></li>";
+    var by = {}, subs = (window.SINA && SINA.subjects || []);
+    (INDEX || []).forEach(function (x) { (by[x.subject] = by[x.subject] || []).push(x); });
+    var progs = (window.SINA && SINA.programs || []).map(function (p) { return p.id; });
+    var yr = function (id) { var m = /^y(\d)/.exec(id); return m ? ["", "1st", "2nd", "3rd"][+m[1]] + " year" : id; };
+    var body = "";
+    progs.forEach(function (pid) {
+      var ss = subs.filter(function (z) { return (z.program || SINA.DEFAULT_PROGRAM) === pid && by[z.id]; });
+      if (!ss.length) return;
+      body += '<h2 class="smb-year">' + esc(yr(pid)) + "</h2>" + ss.map(function (z) {
+        return "<h3>" + esc(z.name) + '</h3><ul class="lec-list">' + by[z.id].map(function (x) {
+          return '<li><a href="#/smart/' + esc(x.id) + '"><span>' + esc(x.title) + "</span>" + (x.verified ? '<span class="qn">' + x.verified + " checked topics</span>" : "") + "</a></li>";
         }).join("") + "</ul>";
-      }).join("") : '<p class="empty-note">No lecture has Smart Practice data yet.</p>') +
+      }).join("");
+    });
+    var h = head("Smart practice") + '<p class="lede-s">Pick a lecture. Wrong answers come back the next day, then later.' +
+      (publicWeek() ? " Open to everyone until " + esc(endDateText()) + "." : "") + "</p>" + consentBox() +
+      (body || '<p class="empty-note">No lecture has Smart Practice data yet.</p>') +
       '<p class="row"><a class="btn" href="#/smart/disable">Turn the beta off on this device</a></p></div>';
     H().setView(h, "Smart practice (beta)");
     wireConsent(home);
@@ -637,30 +643,29 @@
     var d = D(lid), S = stats(lid), los = loMap(lid), P = pool(lid);
     var h = head("Smart practice: " + d.title);
     h += '<p class="lede-s">Picks questions for you from <a href="#/lecture/' + lid + '">' + esc(d.title) + "</a>" + (d.items.length ? " (plus " + d.items.length + " new reviewed question" + (d.items.length > 1 ? "s" : "") + ")" : "") +
-      ": questions you got wrong come back the next day, then after 3, 7, 16 and 35 days once you get them right; new questions fill the rest.</p>";
+      ". Misses return next day, then after 3, 7, 16 and 35 days.</p>";
     h += '<p class="row"><a class="btn primary" href="#/smart/practice/' + lid + '">Start Smart practice (' + Math.min(SESSION_N, P.length) + ' questions)</a></p>' + storageLine() + consentBox();
     var nExp = (d.experimental || []).length, nRep = Object.keys(myReports()).length;
     h += '<div class="smb-exp"><label><input type="checkbox" id="smb-exp"' + (expOn() ? " checked" : "") + "> Include experimental questions" + (nExp ? " (" + nExp + ")" : " (none available yet)") + "</label>" +
-      '<p class="meta">Experimental questions were written by AI from the lecture slides and passed automated checks, but <strong>no doctor or tutor has reviewed them yet</strong>. They are labelled in the quiz and never count towards any topic below. Please report anything that looks wrong.</p></div>' +
+      '<p class="meta">AI-written from the slides. <strong>Not reviewed by a tutor yet.</strong> Labelled in the quiz. Report anything wrong.</p></div>' +
       (nRep ? '<p class="meta">You reported ' + nRep + " question" + (nRep > 1 ? "s" : "") + "; " + (nRep > 1 ? "they are" : "it is") + " hidden from your Smart practice until reviewed.</p>" : "");
     /* question-level progress (no claims about topics) */
     var nowS = Math.round(Date.now() / 1000), qAns = 0, qDue = 0, qWrong = 0;
     P.forEach(function (p) { var it = S.items[p.key]; if (!it) return; qAns++; if (it.sched.due && it.sched.due <= nowS) qDue++; if (it.lastOk === false) qWrong++; });
-    h += '<h2>Your questions</h2><p>' + qAns + " of " + P.length + " questions answered Â· " + qWrong + " wrong last time Â· " + qDue + " due for another look now.</p>" +
+    h += '<h2>Your questions</h2><p>' + qAns + " of " + P.length + " answered · " + qWrong + " wrong last time · " + qDue + " due.</p>" +
       (qDue ? '<p class="smb-duebox"><strong>' + qDue + " question" + (qDue > 1 ? "s" : "") + " due today.</strong> Smart practice puts them first.</p>" : "");
     /* mapping transparency */
     var mc = d.mapCounts || {};
-    h += '<h2>Topics</h2><p class="meta">Which part of the lecture each question tests: ' + (mc.verified || 0) + " checked by a tutor Â· " + (mc.auto || 0) + " matched automatically Â· " + ((mc.ambiguous || 0) + (mc.missing || 0)) + " not matched. " +
-      "Only tutor-checked links are used to suggest what to revise, to schedule topics or to show topic explanations; automatic matches are never used for that, because they can be wrong.</p>";
+    h += '<h2>Topics</h2><p class="meta">' + (mc.verified || 0) + " tutor-checked · " + (mc.auto || 0) + " auto-matched · " + ((mc.ambiguous || 0) + (mc.missing || 0)) + " unmatched. Only tutor-checked topics drive revision advice.</p>";
     var vlo = {};
     P.forEach(function (p) { if (p.mv === "v") p.los.forEach(function (lo) { vlo[lo] = (vlo[lo] || 0) + 1; }); });
     var groups = {}, order = [];
     d.los.forEach(function (lo) { if (!vlo[lo.id]) return; if (!groups[lo.topic]) { groups[lo.topic] = []; order.push(lo.topic); } groups[lo.topic].push(lo); });
     var nDue = 0;
     Object.keys(vlo).forEach(function (id) { if (isDue(S.lo[id], nowS)) nDue++; });
-    if (!order.length) h += "<p>No question in this lecture has a tutor-checked topic yet, so Smart practice works question by question and does not tell you which topics you have mastered or need to revise.</p>";
+    if (!order.length) h += "<p class=\"meta\">No tutor-checked topics yet. Smart practice works question by question.</p>";
     else h += (nDue ? '<p class="smb-duebox"><strong>' + nDue + " tutor-checked topic" + (nDue > 1 ? "s" : "") + " due for review today.</strong></p>" : "") +
-      '<p class="meta">Tutor-checked topics only. Only new questions count (a repeat within 3 weeks does not); a topic without answers is never treated as weak.</p>';
+      '<p class="meta">Only new questions count as evidence.</p>';
     function dueText(s) {
       if (!s || !s.sched || !s.sched.due) return "";
       var days = Math.ceil((s.sched.due - nowS) / 86400);
@@ -673,9 +678,8 @@
         return '<div class="smb-lo"><span>' + esc(lo.text) + ' <span class="smb-why">(' + qn + " question" + (qn === 1 ? "" : "s") + ')</span></span><span class="smb-st ' + s.code + '">' + esc(s.label) + (dt ? '<span class="smb-due">' + dt + "</span>" : "") + "</span></div>";
       }).join("");
     });
-    h += '<h2>About this beta</h2><p class="meta">Topic links are switched on question by question as tutors check them. New AI-drafted questions appear only in the experimental option above, or after human medical review. ' +
-      'Answers in Smart practice do not change your normal progress, mistakes or review queue.</p>' +
-      '<h2>Help improve the questions (optional)</h2><p class="meta">Download an anonymous copy of your Smart practice answers and send it to the Sina team. It contains only question codes, the options you chose, whether they were right, and day numbers counted from your first answer: no name, account, device or dates. Pooled answers show which questions are confusing or too hard; they are never used to change an answer key.</p>' +
+    h += '<h2>About this beta</h2><p class="meta">Smart practice answers never change your normal progress, mistakes or review queue.</p>' +
+      '<h2>Help improve the questions</h2><p class="meta">Optional: download your answers as anonymous question codes and send them to the Sina team. No name, account or dates.</p>' +
       '<p class="row"><button class="btn" id="smb-anon" type="button">Download anonymous answers</button></p>' +
       '<p class="row"><button class="btn" id="smb-reset" type="button">Reset beta history for ' + esc(ownerLabel()) + '</button><a class="btn" href="#/smart/disable">Turn the beta off on this device</a></p></div>';
     H().setView(h, "Smart practice (beta)");
@@ -720,6 +724,18 @@
       "<p>Thank you for testing it. Your answers are helping us improve the questions.</p>" +
       '<p class="meta">Your normal Sina progress, mistakes and review queue were never changed by the beta.</p><p class="row"><a class="btn primary" href="#/">Back to Sina</a></p></div>', "Smart practice (beta)");
   }
+  /* live difficulty: three right in a row brings harder angles (application, then relationship) forward;
+     two wrong in a row brings the easiest (recall) forward. Only the questions not yet answered are reordered. */
+  var live = null, ANG = { recall: 0, relationship: 1, application: 2 };
+  function adapt(q, ok) {
+    if (!live || live.qs.indexOf(q) < 0) return;
+    live.run.push(ok);
+    var r = live.run, n = r.length, idx = live.qs.indexOf(q), rest = live.qs.slice(idx + 1), dir = 0;
+    if (n >= 3 && r[n - 1] && r[n - 2] && r[n - 3]) dir = 1; else if (n >= 2 && !r[n - 1] && !r[n - 2]) dir = -1;
+    if (!dir || rest.length < 2) return;
+    rest = rest.map(function (x, k) { return { x: x, k: k }; }).sort(function (a, b) { return dir * ((ANG[b.x._angle] || 0) - (ANG[a.x._angle] || 0)) || a.k - b.k; }).map(function (z) { return z.x; });
+    Array.prototype.splice.apply(live.qs, [idx + 1, rest.length].concat(rest));
+  }
   function practice(lid) {
     var d = D(lid), L = SINA.lectures[lid], picks = choose(lid, SESSION_N), los = loMap(lid);
     var h = head("Smart practice: " + d.title);
@@ -731,8 +747,9 @@
     H().setView(h, "Smart practice (beta)");
     var qs = picks.map(function (x) {
       var c = H().shuffleQ(x.p.q), o = {}; for (var k in c) o[k] = c[k];
-      o._k = x.p.key; o._smartLec = lid; o._fig = L.visual && L.visual.figure; o._from = los[x.lo] ? los[x.lo].topic : d.title; o._why = reasonCat(x.reason); return o;
+      o._k = x.p.key; o._smartLec = lid; o._fig = L.visual && L.visual.figure; o._from = los[x.lo] ? los[x.lo].topic : d.title; o._why = reasonCat(x.reason); o._angle = metaOf(lid, x.p).a; return o;
     });
+    live = { qs: qs, run: [] };
     H().questionsPanel(document.getElementById("smbq"), { id: "mix:" + lid + ":smart", _title: "Smart practice", mcqs: qs });
   }
   function route(parts) {
