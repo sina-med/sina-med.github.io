@@ -47,7 +47,10 @@
       var opts = pool.slice(0, 3).concat([nm]);
       for (k = opts.length - 1; k > 0; k--) { j = Math.floor(rnd() * (k + 1)); t = opts[k]; opts[k] = opts[j]; opts[j] = t; }
       if (opts.length < 3) return;
-      L.mcqs.push({ q: topic + ": which step is this? \u201c" + d.replace(/\.$/, "") + ".\u201d", options: opts, answer: opts.indexOf(nm), why: "This describes " + nm + "." });
+      /* each of these has a hand-written, specific stem in js/data/stepq.js ("" = dropped); the old generic stem is only a fallback */
+      var sk = lid + "|" + u, own = S.stepQ && S.stepQ[sk];
+      if (own === "") return;
+      L.mcqs.push({ q: own || (topic + ": which step is this? \u201c" + d.replace(/\.$/, "") + ".\u201d"), options: opts, answer: opts.indexOf(nm), why: own ? "\u201c" + d.replace(/\.$/, "") + ".\u201d This describes " + nm + "." : "This describes " + nm + ".", _sk: sk });
     });
   });
   /* Covered-label questions (model A): real labelled atlas plates, labels hidden under tiles, one tile asked. */

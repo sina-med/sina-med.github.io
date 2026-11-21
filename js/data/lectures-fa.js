@@ -3001,50 +3001,6 @@ SINA.lectures["fa-neural"] = {
    "why": "The take-home message defines raised ICP as 20 mmHg or more."
   },
   {
-   "q": "What does the Monro-Kellie doctrine state?",
-   "options": [
-    "The skull volume is fixed",
-    "The skull can expand",
-    "ICP never changes",
-    "Only CSF matters"
-   ],
-   "answer": 0,
-   "why": "Raising any component raises ICP; lowering one lowers it; all treatments use this."
-  },
-  {
-   "q": "How is cerebral perfusion pressure calculated?",
-   "options": [
-    "MAP plus ICP",
-    "ICP minus MAP",
-    "MAP times ICP",
-    "MAP minus ICP"
-   ],
-   "answer": 3,
-   "why": "CPP = MAP − ICP."
-  },
-  {
-   "q": "Over what CPP range is cerebral blood flow autoregulated?",
-   "options": [
-    "0 to 60 mmHg",
-    "60 to 160 mmHg",
-    "10 to 40 mmHg",
-    "200 to 300 mmHg"
-   ],
-   "answer": 1,
-   "why": "Below 60 ischaemia; above 160 hypertensive encephalopathy."
-  },
-  {
-   "q": "What share of blood volume does the brain use?",
-   "options": [
-    "About 80 percent",
-    "About 20 percent",
-    "About 2 percent",
-    "About 50 percent"
-   ],
-   "answer": 1,
-   "why": "The brain is 2 to 3 percent of body mass."
-  },
-  {
    "q": "What is a major cause of raised ICP?",
    "options": [
     "Anaemia",
@@ -3056,50 +3012,6 @@ SINA.lectures["fa-neural"] = {
    "why": "Blood-brain barrier dysfunction underlies specific forms of oedema."
   },
   {
-   "q": "Which oedema responds to steroids?",
-   "options": [
-    "Cytotoxic oedema",
-    "Interstitial only",
-    "Vasogenic (tumour) oedema",
-    "Osmotic oedema"
-   ],
-   "answer": 2,
-   "why": "Steroids stabilise membranes and cut CSF production."
-  },
-  {
-   "q": "What does hypothermia do to ICP?",
-   "options": [
-    "Doubles it",
-    "No effect",
-    "Raises it",
-    "Lowers it"
-   ],
-   "answer": 3,
-   "why": "Lower temperature decreases cerebral blood flow, ICP and metabolism."
-  },
-  {
-   "q": "When does trephination improve outcome?",
-   "options": [
-    "Worsening epidural bleed",
-    "Stable hydrocephalus",
-    "Simple concussion",
-    "Chronic migraine"
-   ],
-   "answer": 0,
-   "why": "With falling consciousness, anisocoria or hemiparesis."
-  },
-  {
-   "q": "What is the definitive treatment of a space-occupying lesion?",
-   "options": [
-    "Craniotomy",
-    "Steroids alone",
-    "Bed rest",
-    "Hypothermia"
-   ],
-   "answer": 0,
-   "why": "Operative drainage of blood and CSF."
-  },
-  {
    "q": "Which transiently raise ICP? (choose all)",
    "options": [
     "Coughing",
@@ -3107,33 +3019,8 @@ SINA.lectures["fa-neural"] = {
     "Sleep",
     "Calm rest"
    ],
-   "answers": [
-    0,
-    1
-   ],
+   "answers": [0, 1],
    "why": "Movement, position, pain, fever, coughing and straining."
-  },
-  {
-   "q": "What is the normal ICP in healthy adults?",
-   "options": [
-    "0 to 2 mmHg",
-    "25 to 40 mmHg",
-    "5 to 15 mmHg",
-    "60 to 80 mmHg"
-   ],
-   "answer": 2,
-   "why": "Raised ICP is 20 mmHg or more."
-  },
-  {
-   "q": "Which does NOT transiently raise ICP?",
-   "options": [
-    "Pain",
-    "Sleep in a quiet room",
-    "Coughing",
-    "Fever"
-   ],
-   "answer": 1,
-   "why": "Movement, position, pain, fever, coughing and straining raise ICP transiently."
   },
   {
    "q": "The Monro-Kellie doctrine states that:",
@@ -3167,39 +3054,6 @@ SINA.lectures["fa-neural"] = {
    ],
    "answer": 2,
    "why": "Outside that range CBF follows CPP linearly."
-  },
-  {
-   "q": "What share of circulating blood does the brain receive?",
-   "options": [
-    "20%",
-    "50%",
-    "2%",
-    "5%"
-   ],
-   "answer": 0,
-   "why": "Despite being 2 to 3% of body mass."
-  },
-  {
-   "q": "Steroids are useful mainly for which oedema?",
-   "options": [
-    "Cytotoxic, from swollen cells",
-    "Vasogenic, as around tumours",
-    "Interstitial, from hydrocephalus",
-    "Osmotic, from low plasma sodium"
-   ],
-   "answer": 1,
-   "why": "They stabilise membranes and reduce CSF production."
-  },
-  {
-   "q": "Skull trephination improves outcome in:",
-   "options": [
-    "Acute epidural haematoma with deterioration",
-    "Ischaemic stroke without mass effect",
-    "Migraine with aura and headache",
-    "Bacterial meningitis with fever"
-   ],
-   "answer": 0,
-   "why": "Signs: falling consciousness, anisocoria, hemiparesis."
   },
   {
    "q": "The CT sign of hydrocephalus in the lecture is:",
@@ -3378,32 +3232,10 @@ SINA.lectures["fa-neural"] = {
     "Steroid course",
     "Glucose control",
     "Hypothermia",
-    "Skull trephination (burr hole)"
+    "Skull trephination"
    ],
    "answer": 3,
-   "why": "Trephination relieves the haematoma and can save a deteriorating patient."
-  },
-  {
-   "q": "Which type of cerebral oedema occurs in hydrocephalus?",
-   "options": [
-    "Interstitial",
-    "Vasogenic",
-    "Cytotoxic",
-    "Osmotic"
-   ],
-   "answer": 0,
-   "why": "Interstitial oedema accompanies hydrocephalus."
-  },
-  {
-   "q": "Which type of oedema results from blood-brain barrier breakdown, for example around a tumour?",
-   "options": [
-    "Cytotoxic",
-    "Vasogenic",
-    "Interstitial",
-    "Osmotic"
-   ],
-   "answer": 1,
-   "why": "Vasogenic oedema is caused by BBB dysfunction."
+   "why": "Skull trephination (a burr hole) relieves the haematoma and can save a deteriorating patient (slide 41)."
   },
   {
    "q": "Why does glucose control matter in a patient with raised ICP?",
@@ -3428,17 +3260,6 @@ SINA.lectures["fa-neural"] = {
    "why": "CBF also depends on PaO₂ and PaCO₂."
   },
   {
-   "q": "A patient's CPP stays above 160 mmHg. What is the expected consequence?",
-   "options": [
-    "Hypertensive encephalopathy",
-    "Cerebral ischaemia",
-    "Normal flow",
-    "Reduced CSF volume"
-   ],
-   "answer": 0,
-   "why": "Above 160, autoregulation fails and hypertensive encephalopathy follows; below 60 is ischaemia."
-  },
-  {
    "q": "Which feature of the ICP waveform comes from breathing?",
    "options": [
     "Small, fast pulsations",
@@ -3448,39 +3269,6 @@ SINA.lectures["fa-neural"] = {
    ],
    "answer": 1,
    "why": "Small rapid pulsations are cardiac; the larger slower waves are respiratory."
-  },
-  {
-   "q": "Which surgical option is used for hydrocephalus?",
-   "options": [
-    "Craniotomy only",
-    "Burr hole only",
-    "Shunt",
-    "Steroids"
-   ],
-   "answer": 2,
-   "why": "Shunts treat hydrocephalus; craniotomy or ventriculostomy with drainage treat space-occupying lesions."
-  },
-  {
-   "q": "Which statements about ICP are correct? (choose all)",
-   "options": [
-    "Normal adult ICP is 20 to 30 mmHg",
-    "Raised ICP is 20 mmHg or more",
-    "Coughing and straining raise ICP transiently",
-    "Normal adult ICP is 5 to 15 mmHg"
-   ],
-   "answers": [1, 2, 3],
-   "why": "ICP is 5 to 15 mmHg at rest; 20 mmHg or more is raised."
-  },
-  {
-   "q": "Which statement about the Monro-Kellie doctrine is correct?",
-   "options": [
-    "The skull expands to absorb extra volume safely",
-    "A fall in CSF volume always raises the ICP level",
-    "The cranium is fixed, so extra volume raises ICP",
-    "Brain volume alone determines the ICP level"
-   ],
-   "answer": 2,
-   "why": "A rigid skull cannot expand, so every treatment reduces brain, blood or CSF volume."
   },
   {
    "q": "Which statements about CPP are correct? (choose all)",
@@ -3527,39 +3315,6 @@ SINA.lectures["fa-neural"] = {
    "why": "Hypothermia lowers CBF, ICP and metabolism."
   },
   {
-   "q": "Which treatments match their target? (choose all)",
-   "options": [
-    "Steroids for vasogenic oedema",
-    "Glucose control to avoid cellular oedema",
-    "Hypothermia raises ICP and metabolism",
-    "Steroids for acute epidural haematoma"
-   ],
-   "answers": [0, 1],
-   "why": "An epidural haematoma needs surgery, not steroids."
-  },
-  {
-   "q": "Skull trephination is indicated in which situation?",
-   "options": [
-    "Asymptomatic hydrocephalus found on a routine scan",
-    "Acute epidural haematoma with falling consciousness",
-    "Cytotoxic oedema with a normal intracranial pressure",
-    "Routine monitoring of a patient with normal ICP values"
-   ],
-   "answer": 1,
-   "why": "A burr hole can save a patient with an acute epidural haematoma and deteriorating signs."
-  },
-  {
-   "q": "Which statements about the ICP waveform and pressure-volume curve are correct? (choose all)",
-   "options": [
-    "Small fast pulsations are cardiac",
-    "The curve is steep first, then flat",
-    "Both cardiac pulsations and respiratory waves are needed to describe ICP",
-    "Larger slower waves are respiratory"
-   ],
-   "answers": [0, 2, 3],
-   "why": "The pressure-volume curve is flat at first (compensation) and then steep."
-  },
-  {
    "q": "Which surgical options match their indication? (choose all)",
    "options": [
     "Shunt for acute epidural haematoma",
@@ -3580,6 +3335,28 @@ SINA.lectures["fa-neural"] = {
    ],
    "answers": [0, 2],
    "why": "Steroids reduce CSF production and restore membrane permeability."
+  },
+  {
+   "q": "A sedated patient's PaCO₂ rises. What happens to the intracranial volumes?",
+   "options": [
+    "CSF volume falls, so ICP falls",
+    "Cerebral blood volume rises by vasodilation, so ICP rises",
+    "Brain tissue volume falls by dehydration",
+    "Nothing changes, because CO₂ does not affect the brain"
+   ],
+   "answer": 1,
+   "why": "High PaCO₂ dilates cerebral vessels. Cerebral blood volume rises and, in a fixed skull (Monro-Kellie), ICP rises unless another volume falls."
+  },
+  {
+   "q": "A patient's ICP rises to 25 mmHg during a bout of coughing, then returns to 10 mmHg. How should this be read?",
+   "options": [
+    "Sustained raised ICP needing treatment",
+    "A normal, transient rise from coughing",
+    "Proof of hydrocephalus",
+    "Cerebral ischaemia from low CPP"
+   ],
+   "answer": 1,
+   "why": "Coughing, straining and pain raise ICP transiently. Raised ICP means a sustained value of 20 mmHg or more; 10 mmHg is within the normal 5 to 15 mmHg."
   }
  ],
  "cards": [
@@ -9208,4 +8985,4 @@ SINA.lectures["fa-digestive"] = {
  "verified": "22 Sep 2026"
 };
 /* lecture slides for each question (page of the lecture PDF; the green box is in highlights.js) */
-(function (m) { Object.keys(m).forEach(function (id) { var L = SINA.lectures[id]; if (!L) return; Object.keys(m[id]).forEach(function (i) { var q = L.mcqs[i], n = m[id][i]; if (q && !q.slides) q.slides = [{ src: "files/slides/" + id + "/" + (n < 10 ? "0" : "") + n + ".jpg", lec: L.title, n: n }]; }); }); })({"fa-protection":{"0":3,"1":7,"2":13,"3":14,"4":16,"5":21,"6":12,"7":27,"8":35,"9":39,"10":37,"11":44,"12":44,"13":10,"14":12,"15":14,"16":21,"17":24,"18":26,"19":35,"20":37,"21":41,"22":44,"23":46,"24":15,"25":9},"fa-cardiac-arrest":{"0":2,"1":5,"2":6,"3":11,"4":12,"5":14,"6":14,"7":22,"8":24,"9":27,"11":13,"12":14,"13":5,"14":6,"15":11,"16":13,"17":14,"18":14,"19":22,"20":24,"21":27,"22":25,"24":6},"fa-bleeding":{"0":4,"1":12,"2":8,"3":11,"4":11,"5":12,"6":10,"7":16,"8":16,"9":4,"10":11,"11":5,"12":10,"13":11,"14":11,"15":12,"16":12,"17":10,"18":16,"19":16},"fa-trauma-burns":{"0":4,"1":5,"2":5,"3":6,"4":6,"5":15,"7":20,"8":24,"9":25,"10":26,"11":27,"12":25,"13":5,"14":5,"15":6,"16":15,"17":20,"18":22,"19":24,"20":25,"21":25,"22":26,"23":26,"24":27},"fa-neural":{"0":11,"1":45,"2":14,"3":17,"4":19,"5":17,"6":20,"7":40,"8":40,"9":41,"10":42,"11":13,"12":11,"13":13,"14":14,"15":17,"16":19,"17":17,"18":40,"19":41,"20":33,"21":22,"22":40,"29":45,"30":19,"31":19,"32":14,"33":23,"34":40,"35":41,"36":30,"37":28,"38":40,"40":19,"41":22,"43":11,"44":14,"45":19,"46":17,"47":44,"49":40,"50":41,"51":22,"52":42,"53":40},"fa-cardiovascular":{"0":2,"1":2,"2":9,"3":10,"4":12,"5":13,"6":14,"7":20,"8":28,"9":29,"10":32,"11":34,"12":37,"13":20,"14":9,"15":10,"16":12,"17":13,"18":14,"19":20,"20":34,"21":32,"22":28,"24":37,"32":30,"33":28,"34":33,"35":34,"37":12,"39":13,"40":15,"41":9,"42":36,"43":20,"44":29,"45":32,"46":2,"47":12,"48":28,"49":29,"50":32,"51":34,"52":20,"53":20,"54":12,"55":22},"fa-respiratory":{"0":3,"1":3,"2":3,"3":12,"4":12,"6":19,"7":18,"8":18,"9":24,"10":22,"11":23,"12":25,"13":28,"14":59,"15":32,"16":34,"17":35,"18":38,"19":38,"20":38,"21":39,"22":41,"23":44,"24":50,"25":50,"26":52,"27":52,"28":56,"29":56,"30":59,"31":60,"32":62,"33":60,"34":67,"35":66,"36":66,"43":3,"44":24,"45":25,"46":25,"47":19,"48":14,"49":56,"50":56,"52":38,"53":41,"54":44,"55":52,"56":52,"57":60,"58":62,"59":3,"60":13,"61":19,"62":24,"63":25,"64":38,"65":32,"66":39,"67":41,"68":52,"69":56,"70":67,"71":67},"fa-renal":{"0":5,"2":14,"3":15,"4":17,"5":24,"6":31,"7":32,"8":34,"9":34,"10":40,"11":51,"12":53,"13":56,"14":54,"15":5,"16":5,"18":14,"19":17,"20":31,"21":34,"22":34,"23":38,"24":51,"25":53,"26":48},"fa-endocrine":{"0":6,"1":11,"2":18,"3":19,"4":22,"5":22,"6":18,"7":25,"8":27,"9":30,"10":32,"11":31,"12":35,"14":42,"15":40,"16":11,"17":18,"18":22,"20":21,"21":21,"22":27,"23":31,"24":31,"25":32,"27":42,"28":40},"fa-immune":{"0":44,"1":10,"2":14,"3":24,"4":38,"5":30,"6":30,"7":31,"8":33,"9":34,"10":35,"11":37,"12":38,"13":42,"14":43,"15":31,"16":10,"17":14,"18":24,"19":30,"20":30,"21":32,"22":33,"23":35,"24":37,"25":39,"26":42,"27":43,"28":41},"fa-digestive":{"0":12,"1":12,"2":15,"3":19,"4":21,"5":20,"6":22,"7":22,"8":26,"9":29,"10":48,"11":35,"12":39,"13":41,"14":47,"15":20,"16":12,"17":21,"18":20,"19":22,"20":22,"21":29,"22":48,"23":35,"24":40,"25":36,"26":41,"27":26}});
+(function (m) { Object.keys(m).forEach(function (id) { var L = SINA.lectures[id]; if (!L) return; Object.keys(m[id]).forEach(function (i) { var q = L.mcqs[i], n = m[id][i]; if (q && !q.slides) q.slides = [{ src: "files/slides/" + id + "/" + (n < 10 ? "0" : "") + n + ".jpg", lec: L.title, n: n }]; }); }); })({"fa-protection":{"0":3,"1":7,"2":13,"3":14,"4":16,"5":21,"6":12,"7":27,"8":35,"9":39,"10":37,"11":44,"12":44,"13":10,"14":12,"15":14,"16":21,"17":24,"18":26,"19":35,"20":37,"21":41,"22":44,"23":46,"24":15,"25":9},"fa-cardiac-arrest":{"0":2,"1":5,"2":6,"3":11,"4":12,"5":14,"6":14,"7":22,"8":24,"9":27,"11":13,"12":14,"13":5,"14":6,"15":11,"16":13,"17":14,"18":14,"19":22,"20":24,"21":27,"22":25,"24":6},"fa-bleeding":{"0":4,"1":12,"2":8,"3":11,"4":11,"5":12,"6":10,"7":16,"8":16,"9":4,"10":11,"11":5,"12":10,"13":11,"14":11,"15":12,"16":12,"17":10,"18":16,"19":16},"fa-trauma-burns":{"0":4,"1":5,"2":5,"3":6,"4":6,"5":15,"7":20,"8":24,"9":25,"10":26,"11":27,"12":25,"13":5,"14":5,"15":6,"16":15,"17":20,"18":22,"19":24,"20":25,"21":25,"22":26,"23":26,"24":27},"fa-neural":{"0":11,"1":45,"2":20,"3":13,"4":14,"5":17,"6":19,"7":33,"8":22,"9":40,"16":45,"17":19,"18":19,"19":14,"20":23,"21":40,"22":41,"23":40,"25":22,"26":19,"27":17,"28":44,"30":42,"31":40},"fa-cardiovascular":{"0":2,"1":2,"2":9,"3":10,"4":12,"5":13,"6":14,"7":20,"8":28,"9":29,"10":32,"11":34,"12":37,"13":20,"14":9,"15":10,"16":12,"17":13,"18":14,"19":20,"20":34,"21":32,"22":28,"24":37,"32":30,"33":28,"34":33,"35":34,"37":12,"39":13,"40":15,"41":9,"42":36,"43":20,"44":29,"45":32,"46":2,"47":12,"48":28,"49":29,"50":32,"51":34,"52":20,"53":20,"54":12,"55":22},"fa-respiratory":{"0":3,"1":3,"2":3,"3":12,"4":12,"6":19,"7":18,"8":18,"9":24,"10":22,"11":23,"12":25,"13":28,"14":59,"15":32,"16":34,"17":35,"18":38,"19":38,"20":38,"21":39,"22":41,"23":44,"24":50,"25":50,"26":52,"27":52,"28":56,"29":56,"30":59,"31":60,"32":62,"33":60,"34":67,"35":66,"36":66,"43":3,"44":24,"45":25,"46":25,"47":19,"48":14,"49":56,"50":56,"52":38,"53":41,"54":44,"55":52,"56":52,"57":60,"58":62,"59":3,"60":13,"61":19,"62":24,"63":25,"64":38,"65":32,"66":39,"67":41,"68":52,"69":56,"70":67,"71":67},"fa-renal":{"0":5,"2":14,"3":15,"4":17,"5":24,"6":31,"7":32,"8":34,"9":34,"10":40,"11":51,"12":53,"13":56,"14":54,"15":5,"16":5,"18":14,"19":17,"20":31,"21":34,"22":34,"23":38,"24":51,"25":53,"26":48},"fa-endocrine":{"0":6,"1":11,"2":18,"3":19,"4":22,"5":22,"6":18,"7":25,"8":27,"9":30,"10":32,"11":31,"12":35,"14":42,"15":40,"16":11,"17":18,"18":22,"20":21,"21":21,"22":27,"23":31,"24":31,"25":32,"27":42,"28":40},"fa-immune":{"0":44,"1":10,"2":14,"3":24,"4":38,"5":30,"6":30,"7":31,"8":33,"9":34,"10":35,"11":37,"12":38,"13":42,"14":43,"15":31,"16":10,"17":14,"18":24,"19":30,"20":30,"21":32,"22":33,"23":35,"24":37,"25":39,"26":42,"27":43,"28":41},"fa-digestive":{"0":12,"1":12,"2":15,"3":19,"4":21,"5":20,"6":22,"7":22,"8":26,"9":29,"10":48,"11":35,"12":39,"13":41,"14":47,"15":20,"16":12,"17":21,"18":20,"19":22,"20":22,"21":29,"22":48,"23":35,"24":40,"25":36,"26":41,"27":26}});
