@@ -158,8 +158,9 @@
       var n = S.subjects.filter(function (x) { return (x.program || S.DEFAULT_PROGRAM) === p.id && x.groups; }).length;
       return '<button type="button" role="menuitemradio" data-prog="' + p.id + '" aria-checked="' + (p.id === PROG) + '"><span class="pm-name">' + esc(progName(p.id)) + '</span>' +
         (n ? "" : '<span class="pm-soon">' + esc(T("settings.soon")) + "</span>") + '<span class="sm-tick" aria-hidden="true">&#10003;</span></button>';
-    }).join("") + (S.usmle ? '<a class="pm-usmle" role="menuitem" href="#/usmle"><span class="pm-name">USMLE prep</span><span class="pm-soon">Step 1</span></a>' : "");
-    var pu = progMenu.querySelector(".pm-usmle"); if (pu) pu.addEventListener("click", function () { openProg(false); });
+    }).join("") + (S.usmle ? '<a class="pm-usmle" role="menuitem" href="#/usmle"><span class="pm-name">USMLE prep</span><span class="pm-soon">Step 1</span></a>' : "") +
+      (smartOpen() ? '<a class="pm-usmle pm-smart" role="menuitem" href="#/smart/enable/sina-smart-beta"><span class="pm-name">Smart practice</span><span class="pm-soon">Beta</span></a>' : "");
+    progMenu.querySelectorAll(".pm-usmle").forEach(function (pu) { pu.addEventListener("click", function () { openProg(false); }); });
     progMenu.querySelectorAll("[data-prog]").forEach(function (b) {
       b.addEventListener("click", function () { setProgram(b.dataset.prog); openProg(false); progBtn.focus(); });
     });
@@ -397,6 +398,7 @@
     ouroSVG = '<svg viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg" focusable="false">' + out + "</svg>";
     return ouroSVG;
   }
+  function smartOpen() { return !!(window.SinaSmart && SinaSmart.available && SinaSmart.available()); } /* Smart practice beta: the entry points show only while the beta is open */
   function mrow(href, label, tag, i, extra) {
     var n = (i + 1 < 10 ? "0" : "") + (i + 1);
     return '<a class="mrow" style="--i:' + i + '" href="' + href + '"' + (extra || "") + '><span class="mn">' + n + '</span><span class="ml">' + esc(label) + "</span>" + (tag ? '<span class="mtag">' + esc(tag) + "</span>" : "") + "</a>";
@@ -413,6 +415,7 @@
     if (wlOn()) h += mrow("#/clinidle", "Clinidle", wlCase(wlDay()) ? "Today" : "", i++);
     h += mrow("#/apps", T("nav.apps"), "", i++);
     if (S.usmle) h += mrow("#/usmle", "USMLE prep", "", i++);
+    if (smartOpen()) h += mrow("#/smart/enable/sina-smart-beta", "Smart practice", "Beta", i++);
     h += mrow("#/updates", T("nav.updates"), newBadge() ? "New" : "", i++);
     var subj = '<button class="mback" type="button" data-go="mv-main">← Back</button>', j = 0;
     progSemesters().forEach(function (sem) {

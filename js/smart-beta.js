@@ -783,6 +783,6 @@
     });
     return true;
   }
-  window.SinaSmart = { route: route, enabled: on, _debug: { beta: BETA, closed: closed, publicWeek: publicWeek, sendAnon: sendAnon, readOut: readOut, consent: consent, setConsent: setConsent, reasonCat: reasonCat, stats: stats, choose: choose, recommend: recommend, wantAngle: wantAngle, isDue: isDue, metaOf: metaOf, status: status, contextFor: contextFor, readAll: readAll, owner: owner, pool: pool, anonExport: anonExport, index: function () { return INDEX; } } };
+  window.SinaSmart = { route: route, enabled: on, available: function () { return publicWeek() || on(); }, endText: endDateText, _debug: { beta: BETA, closed: closed, publicWeek: publicWeek, sendAnon: sendAnon, readOut: readOut, consent: consent, setConsent: setConsent, reasonCat: reasonCat, stats: stats, choose: choose, recommend: recommend, wantAngle: wantAngle, isDue: isDue, metaOf: metaOf, status: status, contextFor: contextFor, readAll: readAll, owner: owner, pool: pool, anonExport: anonExport, index: function () { return INDEX; } } };
   if (on()) { css(); loadIndex(function () {}); }
 })();
