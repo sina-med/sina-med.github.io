@@ -778,7 +778,7 @@
   function qbarWire(root, o) {
     var mb = root.querySelector("#qmark"), gb = root.querySelector("#qgrid"), gp = root.querySelector("#qgridp");
     function cnt() { var m = 0; for (var k in o.marked) if (o.marked[k]) m++; return m; }
-    function lab() { var m = cnt(); gb.innerHTML = "<span>" + (o.i + 1) + " / " + o.n + "</span>" + (m ? '<span class="qb-mn">' + CHK + m + "</span>" : "") + '<svg class="qb-chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>'; gb.setAttribute("aria-label", "Question " + (o.i + 1) + " of " + o.n + (m ? ", " + m + " marked" : "") + ". Show all questions"); }
+    function lab() { var m = cnt(); gb.innerHTML = '<span class="qb-big"><b>' + (o.i + 1) + "</b><small>/ " + o.n + "</small></span>" + (m ? '<span class="qb-mn">' + CHK + m + "</span>" : "") + '<svg class="qb-chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>'; gb.setAttribute("aria-label", "Question " + (o.i + 1) + " of " + o.n + (m ? ", " + m + " marked" : "") + ". Show all questions"); }
     function fill() {
       var h = '<p class="qg-h">Tap a number to go to that question.' + (cnt() ? " Ticked ones are marked." : "") + '</p><div class="qg-list">';
       for (var k = 0; k < o.n; k++) h += '<button type="button" class="qg ' + o.state(k) + (o.marked[k] ? " mk" : "") + (k === o.i ? " cur" : "") + '" data-k="' + k + '">' + (k + 1) + "</button>";
