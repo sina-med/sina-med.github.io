@@ -1941,3 +1941,15 @@ body.no-anim #drawer.drawer { transition: none !important; }
 .wl-hints .pl-field { width: min(100%, 20rem); }
 .pl-cred { margin: 6px 0 0; padding-left: 18px; font-size: 0.85rem; color: var(--muted); }
 .pl-cred a { color: inherit; text-decoration: underline; }
+
+/* floating header and theme dot (Nov 2026) */
+.site-header { top: 8px; margin: 8px max(8px, env(safe-area-inset-left)) 0; border: 1px solid var(--line); border-radius: 20px; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(14px); box-shadow: 0 6px 24px rgba(0,0,0,0.07); transition: transform 0.45s cubic-bezier(.65,0,.2,1); }
+.site-header.hdr-hide { transform: translateY(calc(-100% - 16px)); }
+.theme-dot { width: 44px; height: 44px; display: grid; place-items: center; border: 0; background: none; cursor: pointer; border-radius: 50%; }
+.theme-dot i { width: 20px; height: 20px; border-radius: 50%; border: 1.5px solid var(--ink); background: linear-gradient(90deg, var(--bg) 50%, var(--accent) 50%); transition: transform 0.4s cubic-bezier(.65,0,.2,1); }
+.theme-dot:hover i { transform: rotate(180deg); }
+.theme-dot:focus-visible { outline: 3px solid var(--accent); outline-offset: 1px; }
+::view-transition-old(root), ::view-transition-new(root) { animation: none; mix-blend-mode: normal; }
+::view-transition-old(root) { z-index: 1; } ::view-transition-new(root) { z-index: 2; }
+@media (prefers-reduced-motion: reduce) { .site-header, .theme-dot i { transition: none; } }
+#search-input { text-overflow: ellipsis; }

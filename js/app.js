@@ -115,6 +115,18 @@
     var m = document.querySelector('meta[name="theme-color"]');
     if (m) m.setAttribute("content", t === "dark" ? "#1b1d20" : "#ffffff");
   }
+  var dotBtn = document.getElementById("theme-dot");
+  if (dotBtn) dotBtn.addEventListener("click", function (e) {
+    var next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    function go() { applyTheme(next); store.set("sina:theme", next); }
+    var r = dotBtn.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + r.height / 2, rad = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y));
+    if (!document.startViewTransition || matchMedia("(prefers-reduced-motion: reduce)").matches) return go();
+    var vt = document.startViewTransition(go);
+    vt.ready.then(function () { document.documentElement.animate({ clipPath: ["circle(0px at " + x + "px " + y + "px)", "circle(" + rad + "px at " + x + "px " + y + "px)"] }, { duration: 650, easing: "cubic-bezier(.65,0,.2,1)", pseudoElement: "::view-transition-new(root)" }); });
+  });
+  /* floating header: tucks away while scrolling down, returns on scroll up */
+  (function () { var hd = document.querySelector(".site-header"), last = scrollY, tick = false;
+    addEventListener("scroll", function () { if (tick) return; tick = true; requestAnimationFrame(function () { var y = scrollY, dn = y > last + 6, up = y < last - 6; if (y < 80 || up || document.body.classList.contains("menu-open")) hd.classList.remove("hdr-hide"); else if (dn && !hd.contains(document.activeElement)) hd.classList.add("hdr-hide"); if (dn || up) last = y; tick = false; }); }, { passive: true }); })();
   var theme = store.get("sina:theme", null) || (window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
   if (theme !== "dark") theme = "light";
   applyTheme(theme);
