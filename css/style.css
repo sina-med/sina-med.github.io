@@ -1971,3 +1971,6 @@ body.no-anim #drawer.drawer { transition: none !important; }
   .qb-mark { padding-left: .9rem; padding-right: .9rem; }
 }
 body { padding-bottom: env(safe-area-inset-bottom); }
+
+@media (max-width: 640px) { #suggest-btn { display: none; } .theme-dot { width: 40px; } }
+@media (max-width: 520px) { #wl-btn { display: none; } }
