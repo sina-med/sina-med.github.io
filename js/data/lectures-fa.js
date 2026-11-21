@@ -3459,6 +3459,127 @@ SINA.lectures["fa-neural"] = {
    ],
    "answer": 2,
    "why": "Shunts treat hydrocephalus; craniotomy or ventriculostomy with drainage treat space-occupying lesions."
+  },
+  {
+   "q": "Which statements about ICP are correct? (choose all)",
+   "options": [
+    "Normal adult ICP is 20 to 30 mmHg",
+    "Raised ICP is 20 mmHg or more",
+    "Coughing and straining raise ICP transiently",
+    "Normal adult ICP is 5 to 15 mmHg"
+   ],
+   "answers": [1, 2, 3],
+   "why": "ICP is 5 to 15 mmHg at rest; 20 mmHg or more is raised."
+  },
+  {
+   "q": "Which statement about the Monro-Kellie doctrine is correct?",
+   "options": [
+    "The skull expands to absorb extra volume safely",
+    "A fall in CSF volume always raises the ICP level",
+    "The cranium is fixed, so extra volume raises ICP",
+    "Brain volume alone determines the ICP level"
+   ],
+   "answer": 2,
+   "why": "A rigid skull cannot expand, so every treatment reduces brain, blood or CSF volume."
+  },
+  {
+   "q": "Which statements about CPP are correct? (choose all)",
+   "options": [
+    "Autoregulation holds CBF steady for CPP 60 to 160 mmHg",
+    "CPP above 160 mmHg causes ischaemia",
+    "CPP below 60 mmHg causes hypertensive encephalopathy",
+    "CPP = MAP − ICP"
+   ],
+   "answers": [0, 3],
+   "why": "Below 60 is ischaemia; above 160 is hypertensive encephalopathy."
+  },
+  {
+   "q": "Which statement about cerebral blood flow is correct?",
+   "options": [
+    "The brain is 2 to 3% of mass but gets 20% of blood",
+    "The brain gets only about 2% of circulating blood",
+    "CBF does not depend on PaCO₂ or PaO₂ at all",
+    "The blood-brain barrier lets all substances through"
+   ],
+   "answer": 0,
+   "why": "CBF also depends on PaO₂ and PaCO₂, and the BBB is selective."
+  },
+  {
+   "q": "Which pairs of oedema type and cause are correct? (choose all)",
+   "options": [
+    "Interstitial: hydrocephalus",
+    "Vasogenic: BBB breakdown, e.g. tumours",
+    "Cytotoxic: cell swelling",
+    "Cytotoxic: BBB breakdown"
+   ],
+   "answers": [0, 1, 2],
+   "why": "Cytotoxic oedema is cell swelling; vasogenic oedema is BBB breakdown."
+  },
+  {
+   "q": "Which are causes of raised ICP? (choose all)",
+   "options": [
+    "Hydrocephalus",
+    "Hypothermia",
+    "Skull trephination",
+    "Masses and haematomas"
+   ],
+   "answers": [0, 3],
+   "why": "Hypothermia lowers CBF, ICP and metabolism."
+  },
+  {
+   "q": "Which treatments match their target? (choose all)",
+   "options": [
+    "Steroids for vasogenic oedema",
+    "Glucose control to avoid cellular oedema",
+    "Hypothermia raises ICP and metabolism",
+    "Steroids for acute epidural haematoma"
+   ],
+   "answers": [0, 1],
+   "why": "An epidural haematoma needs surgery, not steroids."
+  },
+  {
+   "q": "Skull trephination is indicated in which situation?",
+   "options": [
+    "Asymptomatic hydrocephalus found on a routine scan",
+    "Acute epidural haematoma with falling consciousness",
+    "Cytotoxic oedema with a normal intracranial pressure",
+    "Routine monitoring of a patient with normal ICP values"
+   ],
+   "answer": 1,
+   "why": "A burr hole can save a patient with an acute epidural haematoma and deteriorating signs."
+  },
+  {
+   "q": "Which statements about the ICP waveform and pressure-volume curve are correct? (choose all)",
+   "options": [
+    "Small fast pulsations are cardiac",
+    "The curve is steep first, then flat",
+    "Both cardiac pulsations and respiratory waves are needed to describe ICP",
+    "Larger slower waves are respiratory"
+   ],
+   "answers": [0, 2, 3],
+   "why": "The pressure-volume curve is flat at first (compensation) and then steep."
+  },
+  {
+   "q": "Which surgical options match their indication? (choose all)",
+   "options": [
+    "Shunt for acute epidural haematoma",
+    "Ventriculostomy with drainage",
+    "Craniotomy for space-occupying lesions",
+    "Shunt for hydrocephalus"
+   ],
+   "answers": [1, 2, 3],
+   "why": "Shunts treat hydrocephalus, not haematoma."
+  },
+  {
+   "q": "Which are actions of steroids in vasogenic oedema? (choose all)",
+   "options": [
+    "They reduce CSF production",
+    "They raise brain volume",
+    "They restore membrane permeability",
+    "They increase blood-brain barrier leak"
+   ],
+   "answers": [0, 2],
+   "why": "Steroids reduce CSF production and restore membrane permeability."
   }
  ],
  "cards": [
@@ -4374,6 +4495,116 @@ SINA.lectures["fa-cardiovascular"] = {
    ],
    "answer": 1,
    "why": "Spinal shock is a distributive cause: loss of vascular tone."
+  },
+  {
+   "q": "Which are correct about shock? (choose all)",
+   "options": [
+    "It has four families: cardiogenic, hypovolaemic, distributive, obstructive",
+    "It is widespread failure of the circulation to oxygenate tissues",
+    "It leaves mitochondrial energy transfer unchanged",
+    "It is defined only by a low haemoglobin"
+   ],
+   "answers": [0, 1],
+   "why": "Shock is circulatory failure with cellular energy disturbance; the four families cover pump, volume, vessels and obstruction."
+  },
+  {
+   "q": "Which formulas are correct? (choose all)",
+   "options": [
+    "CO = SV × HR",
+    "MAP = CO × SVR",
+    "VO₂ = CO × (CaO₂ + CvO₂)",
+    "CaO₂ = 1.34 × Hb × SaO₂"
+   ],
+   "answers": [0, 1, 3],
+   "why": "The Fick equation uses the arteriovenous difference: VO₂ = CO × (CaO₂ − CvO₂)."
+  },
+  {
+   "q": "Which are causes of cardiogenic shock? (choose all)",
+   "options": [
+    "Tension pneumothorax",
+    "Pulmonary embolism",
+    "Acute mitral regurgitation",
+    "Myocardial infarction"
+   ],
+   "answers": [2, 3],
+   "why": "Tension pneumothorax is obstructive. Cardiogenic causes: poor contractility, rhythm disorders, mechanical lesions."
+  },
+  {
+   "q": "Which are causes of hypovolaemic shock? (choose all)",
+   "options": [
+    "Cardiac tamponade",
+    "Haemorrhage",
+    "Anaphylaxis",
+    "Extensive burns"
+   ],
+   "answers": [1, 3],
+   "why": "Anaphylaxis is distributive. Hypovolaemia comes from blood, burn or fluid losses."
+  },
+  {
+   "q": "Which belong to distributive shock? (choose all)",
+   "options": [
+    "Cardiac tamponade",
+    "Septic shock",
+    "Anaphylactic shock",
+    "Pulmonary embolism"
+   ],
+   "answers": [1, 2],
+   "why": "Pulmonary embolism is obstructive. Distributive shock follows vasodilation and capillary leak."
+  },
+  {
+   "q": "Which are obstructive causes of shock? (choose all)",
+   "options": [
+    "Myocarditis",
+    "Septic shock",
+    "Pulmonary embolism",
+    "Cardiac tamponade"
+   ],
+   "answers": [2, 3],
+   "why": "Septic shock is distributive and myocarditis is cardiogenic. Tamponade and PE block flow."
+  },
+  {
+   "q": "Which are signs of peripheral hypoperfusion? (choose all)",
+   "options": [
+    "Cold, pale or cyanotic extremities",
+    "Warm flushed skin",
+    "Capillary refill over 3 seconds",
+    "Warm, bounding extremities"
+   ],
+   "answers": [0, 2],
+   "why": "Hypoperfusion gives cold, mottled skin with slow capillary refill."
+  },
+  {
+   "q": "Which are signs of reduced regional blood flow? (choose all)",
+   "options": [
+    "Polyuria",
+    "Altered consciousness",
+    "Oliguria",
+    "Tachycardia"
+   ],
+   "answers": [1, 2, 3],
+   "why": "Brain and kidney hypoperfusion give confusion and oliguria; tachycardia is compensatory."
+  },
+  {
+   "q": "Which statement about oxygen delivery is correct?",
+   "options": [
+    "Anaerobic metabolism makes lactate fall in shock",
+    "Haemorrhage lowers TaO₂ by cutting both CO and Hb",
+    "Lactate accumulation causes metabolic alkalosis",
+    "TaO₂ depends on haemoglobin alone, not on flow"
+   ],
+   "answer": 1,
+   "why": "Haemorrhage lowers cardiac output and oxygen-carrying haemoglobin; hypoperfusion raises lactate and causes metabolic acidosis."
+  },
+  {
+   "q": "Which belong to haemodynamic assessment of shock? (choose all)",
+   "options": [
+    "Pulmonary artery (Swan-Ganz) catheter",
+    "Bone density scan",
+    "Spirometry",
+    "Arterial pressure monitoring"
+   ],
+   "answers": [0, 3],
+   "why": "Spirometry assesses lung volumes, not circulation."
   }
  ],
  "cards": [
@@ -5398,6 +5629,149 @@ SINA.lectures["fa-respiratory"] = {
    ],
    "answer": 0,
    "why": "Parenchymal causes impair gas exchange; extraparenchymal ones cause hypoventilation with a normal A–a at first."
+  },
+  {
+   "q": "Which pairs of failing component and consequence are correct? (choose all)",
+   "options": [
+    "Pneumonia: control and pump failure",
+    "Alveoli and capillary failure: low PaO₂",
+    "Blood failure: tissue hypoxia with normal lungs",
+    "Control and pump failure: hypoventilation with high PaCO₂"
+   ],
+   "answers": [1, 2, 3],
+   "why": "Pneumonia is a gas-exchange (alveolar) failure."
+  },
+  {
+   "q": "Which statements about breathing mechanics are correct? (choose all)",
+   "options": [
+    "Air flows from low to high pressure",
+    "Expiration is an active diaphragm contraction",
+    "During inspiration the diaphragm contracts and pleural pressure falls",
+    "Compliance = ΔV / ΔP"
+   ],
+   "answers": [2, 3],
+   "why": "Air always flows from high to low pressure."
+  },
+  {
+   "q": "Which statement about lung compliance is correct?",
+   "options": [
+    "It is high in pulmonary fibrosis and in ARDS cases",
+    "It is high in pulmonary oedema with stiff lungs",
+    "It is low in emphysema, which stiffens the lung",
+    "It is high in emphysema: easy to fill, hard to empty"
+   ],
+   "answer": 3,
+   "why": "Fibrosis, ARDS and oedema give a stiff lung with low compliance; emphysema gives high compliance with air trapping."
+  },
+  {
+   "q": "Which statements about airway resistance are correct? (choose all)",
+   "options": [
+    "Halving the radius multiplies resistance by 16",
+    "Vagal M3 stimulation causes bronchodilation",
+    "Resistance is proportional to 1/r⁴",
+    "Salbutamol blocks vagal M3 receptors"
+   ],
+   "answers": [0, 2],
+   "why": "Ipratropium blocks M3; salbutamol is a β2 agonist."
+  },
+  {
+   "q": "Which statements about ventilation are correct? (choose all)",
+   "options": [
+    "Fast shallow breathing increases alveolar ventilation",
+    "Anatomical dead space is about 150 mL",
+    "VE = VT × RR",
+    "VA = (VT − VD) × RR"
+   ],
+   "answers": [1, 2, 3],
+   "why": "Fast shallow breathing wastes ventilation on dead space."
+  },
+  {
+   "q": "Which statements about V/Q mismatch are correct? (choose all)",
+   "options": [
+    "Low V/Q does not improve with oxygen",
+    "Dead space occurs in pneumonia",
+    "Shunt (V/Q = 0) occurs in pneumonia and atelectasis",
+    "Hypoxic vasoconstriction redirects blood to ventilated alveoli"
+   ],
+   "answers": [2, 3],
+   "why": "Dead space (V/Q = ∞) is typical of pulmonary embolism."
+  },
+  {
+   "q": "Which statements about gas diffusion are correct? (choose all)",
+   "options": [
+    "Transfer rises with the pressure difference and diffusion constant",
+    "CO₂ diffuses about 20 times faster than O₂",
+    "A diffusion problem gives hypoxaemia with normal or low PaCO₂",
+    "Transfer falls as the diffusing area increases"
+   ],
+   "answers": [0, 1, 2],
+   "why": "Transfer rises with area, pressure difference and diffusion constant, and falls with thickness."
+  },
+  {
+   "q": "Which shift the O₂–Hb curve to the right? (choose all)",
+   "options": [
+    "Higher pH",
+    "Lower temperature",
+    "Higher temperature",
+    "Higher PCO₂"
+   ],
+   "answers": [2, 3],
+   "why": "A fall in pH (acidosis) shifts the curve right."
+  },
+  {
+   "q": "Which statements about CO₂ transport are correct? (choose all)",
+   "options": [
+    "About 20% is carried as carbamino compounds",
+    "Most is carried dissolved in plasma",
+    "About 70% is carried as bicarbonate",
+    "About 10% is dissolved"
+   ],
+   "answers": [0, 2, 3],
+   "why": "Carbonic anhydrase makes bicarbonate in red cells."
+  },
+  {
+   "q": "Which statements about SpO₂ and ETCO₂ are correct? (choose all)",
+   "options": [
+    "SpO₂ can be inaccurate with CO poisoning, poor perfusion or movement",
+    "ETCO₂ reflects ventilation and is normally 35 to 45 mmHg",
+    "SpO₂ reflects oxygenation, not CO₂",
+    "ETCO₂ is normally higher than PaCO₂"
+   ],
+   "answers": [0, 1, 2],
+   "why": "ETCO₂ is 2 to 5 mmHg below PaCO₂."
+  },
+  {
+   "q": "Which statements about hypoxaemia are correct? (choose all)",
+   "options": [
+    "A high A–a gradient points to hypoventilation",
+    "Hypoxaemia with a normal A–a gradient suggests hypoventilation or low inspired O₂",
+    "A normal A–a gradient is below 10 to 15 mmHg",
+    "SaO₂ below 90% corresponds to PaO₂ of about 60 mmHg"
+   ],
+   "answers": [1, 2, 3],
+   "why": "A high gradient means V/Q mismatch, shunt or diffusion."
+  },
+  {
+   "q": "Which statements about spirometry patterns are correct? (choose all)",
+   "options": [
+    "Restrictive disorders lower TLC",
+    "Restrictive disorders raise RV and FRC",
+    "Reversibility of 5% suggests asthma",
+    "Obstructive disorders lower FEV₁/FVC"
+   ],
+   "answers": [0, 3],
+   "why": "Raised RV and FRC (air trapping) belong to obstructive disease."
+  },
+  {
+   "q": "Which are correct first-hour measures in respiratory failure? (choose all)",
+   "options": [
+    "Target 88 to 92% if at risk of CO₂ retention",
+    "ABC with continuous monitoring",
+    "Oxygen treats the cause as well as the number",
+    "Oxygen to SpO₂ 99 to 100%"
+   ],
+   "answers": [0, 1],
+   "why": "Oxygen treats the number, not the cause: treat the mechanism."
   }
  ],
  "cards": [

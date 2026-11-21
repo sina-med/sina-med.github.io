@@ -446,6 +446,30 @@ SINA.lectures["biochem1-amino-acids"] = {
    ],
    "answer": 2,
    "why": "The arrow points to: Hydrogen. Fourth substituent."
+  },
+  {
+   "q": "About amino acids: (choose all)",
+   "options": [
+    "At pH 7.3 to 7.4 they exist only as cations",
+    "Natural amino acids are mostly of the D form",
+    "22 are proteinogenic",
+    "Glycine has no asymmetric carbon",
+    "Nine are essential, including lysine and tryptophan"
+   ],
+   "answers": [2, 3, 4],
+   "why": "Natural amino acids are L; at physiological pH they are zwitterions."
+  },
+  {
+   "q": "Regarding the classification of amino acids: (choose all)",
+   "options": [
+    "Asp and Glu are basic",
+    "Lys, Arg and His are acidic",
+    "Cys and Met are aromatic",
+    "Phe, Tyr and Trp are aromatic and absorb UV light",
+    "Ser and Thr carry an alcohol group"
+   ],
+   "answers": [3, 4],
+   "why": "Lys, Arg and His are basic; Asp and Glu are acidic; Cys and Met contain sulphur."
   }
  ],
  "cards": [
@@ -1015,6 +1039,30 @@ SINA.lectures["biochem1-proteins"] = {
    ],
    "answer": 3,
    "why": "The arrow points to: Denaturation. Heat (> 41 °C), extreme pH, solvents, salts, heavy metals, detergents or agitation unfold the protein; the primary structure remains."
+  },
+  {
+   "q": "The peptide bond: (choose all)",
+   "options": [
+    "Is broken during denaturation",
+    "Links the COOH of one amino acid to the NH₂ of the next",
+    "Forms between two carboxyl groups",
+    "Is planar and does not rotate",
+    "Is a weak bond broken by mild heating"
+   ],
+   "answers": [1, 3],
+   "why": "It has partial double-bond character, so it is strong and planar; denaturation keeps the primary structure."
+  },
+  {
+   "q": "About protein denaturation: (choose all)",
+   "options": [
+    "It breaks the peptide bonds",
+    "It preserves the primary structure",
+    "It destroys the secondary, tertiary and quaternary structures",
+    "It cannot be caused by heavy metal ions",
+    "It causes loss of biological activity"
+   ],
+   "answers": [1, 2, 4],
+   "why": "Heat above ~41 °C, extreme pH, ethanol, detergents and heavy metals denature proteins without breaking peptide bonds."
   }
  ],
  "cards": [
@@ -1652,6 +1700,30 @@ SINA.lectures["biochem1-enzymes"] = {
    ],
    "answer": 2,
    "why": "The arrow points to: Ligases. Join two molecules using ATP energy."
+  },
+  {
+   "q": "About enzymes: (choose all)",
+   "options": [
+    "They are all proteins",
+    "They lower the activation energy",
+    "They are recovered unchanged",
+    "They act at low doses",
+    "They shift the equilibrium of the reaction"
+   ],
+   "answers": [1, 2, 3],
+   "why": "Enzymes change neither the yield nor the equilibrium; ribozymes are catalytic RNA."
+  },
+  {
+   "q": "About enzyme inhibition: (choose all)",
+   "options": [
+    "A competitive inhibitor competes with the substrate for the active site",
+    "An uncompetitive inhibitor binds only the enzyme-substrate complex",
+    "Non-competitive inhibition is overcome by adding more substrate",
+    "A non-competitive inhibitor binds the active site",
+    "All the above statements are wrong"
+   ],
+   "answers": [0, 1],
+   "why": "Only competitive inhibition is overcome by more substrate; non-competitive inhibitors bind elsewhere."
   }
  ],
  "cards": [
@@ -2301,6 +2373,30 @@ SINA.lectures["biochem1-carbohydrates"] = {
    ],
    "answer": 2,
    "why": "The arrow points to: Heteropolysaccharides. Glycosaminoglycans with two or more monomer types, bound to proteins as proteoglycans."
+  },
+  {
+   "q": "About D-glucose and D-galactose: (choose all)",
+   "options": [
+    "They are epimers at C4",
+    "They are both ketoses",
+    "They are both aldoses",
+    "They differ only at C2",
+    "They are enantiomers"
+   ],
+   "answers": [0, 2],
+   "why": "Glucose and galactose differ at C4; glucose and mannose differ at C2."
+  },
+  {
+   "q": "About disaccharides: (choose all)",
+   "options": [
+    "Lactose is galactose + glucose joined by a β1-4 bond",
+    "Sucrose gives a positive Fehling test",
+    "Lactase deficiency causes lactose intolerance",
+    "Sucrose is glucose + fructose and is non-reducing",
+    "Maltose is glucose + galactose"
+   ],
+   "answers": [0, 2, 3],
+   "why": "Maltose is glucose + glucose (α1-4); sucrose has no free anomeric OH."
   }
  ],
  "cards": [
@@ -2971,6 +3067,30 @@ SINA.lectures["biochem1-lipids"] = {
    ],
    "answer": 0,
    "why": "The arrow points to: Lipoproteins. Hydrophobic core with amphiphilic surface; five classes by density; high LDL → atherosclerosis."
+  },
+  {
+   "q": "Which statement about lipoproteins is correct?",
+   "options": [
+    "LDL is the good cholesterol that protects arteries",
+    "HDL is the class that promotes atherosclerosis",
+    "The five classes are separated by colour and charge",
+    "The core is hydrophobic and the surface is amphiphilic",
+    "Their surface is strictly hydrophobic and lipid-only"
+   ],
+   "answer": 3,
+   "why": "LDL is 'bad cholesterol' and HDL is 'good'; the classes are separated by density, size and composition."
+  },
+  {
+   "q": "About fatty acids: (choose all)",
+   "options": [
+    "They usually have an odd number of carbons",
+    "Palmitic acid is C16:0",
+    "They are oxidised for energy by β-oxidation",
+    "Trans double bonds are natural and beneficial",
+    "Linoleic acid is C18:2 (ω6)"
+   ],
+   "answers": [1, 2, 4],
+   "why": "Cis bonds are the natural ones; trans fats from hydrogenated oils raise cardiovascular risk."
   }
  ],
  "cards": [
@@ -3540,6 +3660,30 @@ SINA.lectures["biochem1-nucleotides"] = {
    ],
    "answer": 2,
    "why": "The arrow points to: Molecular biology. PCR amplifies DNA; next-generation sequencing reads it."
+  },
+  {
+   "q": "DNA compared with RNA: (choose all)",
+   "options": [
+    "DNA is less stable than RNA",
+    "DNA contains ribose",
+    "RNA contains uracil and DNA contains thymine",
+    "DNA is found in the nucleus and mitochondria",
+    "RNA is usually single-stranded"
+   ],
+   "answers": [2, 3, 4],
+   "why": "DNA has deoxyribose and is more stable than RNA."
+  },
+  {
+   "q": "About DNA: (choose all)",
+   "options": [
+    "The strands are joined by phosphodiester bonds between the bases",
+    "The two strands are antiparallel",
+    "Adenine pairs with guanine",
+    "DNA absorbs UV light maximally at 260 nm",
+    "Tm is higher when the GC content is high"
+   ],
+   "answers": [1, 3, 4],
+   "why": "A pairs with T and G with C by hydrogen bonds; phosphodiester bonds join nucleotides within a strand."
   }
  ],
  "cards": [
@@ -4258,6 +4402,30 @@ SINA.lectures["biochem1-carb-metabolism"] = {
    ],
    "answer": 0,
    "why": "The arrow points to: Gluconeogenesis. Glucose from lactate, pyruvate, glycerol and glucogenic amino acids; bypasses 3 irreversible steps."
+  },
+  {
+   "q": "About glycolysis: (choose all)",
+   "options": [
+    "Phosphoglycerate kinase is one of its irreversible regulated steps",
+    "It takes place in the mitochondria",
+    "Its net yield is 2 ATP and 2 NADH per glucose",
+    "Its net yield is 38 ATP",
+    "It takes place in the cytoplasm"
+   ],
+   "answers": [2, 4],
+   "why": "The irreversible regulated steps are hexokinase/glucokinase, PFK-1 and pyruvate kinase."
+  },
+  {
+   "q": "About gluconeogenesis: (choose all)",
+   "options": [
+    "Its substrates include lactate, glycerol and glucogenic amino acids",
+    "It is the simple reverse of glycolysis",
+    "It takes place in the liver and kidney",
+    "All amino acids are glucogenic",
+    "It consumes no ATP"
+   ],
+   "answers": [0, 2],
+   "why": "It bypasses the three irreversible glycolytic steps, consumes ATP, and leucine and lysine are not glucogenic."
   }
  ],
  "cards": [
@@ -4921,6 +5089,30 @@ SINA.lectures["biochem1-lipid-metabolism"] = {
    ],
    "answer": 2,
    "why": "The arrow points to: Palmitate yield. n = 8: 7 turns, 8 acetyl-CoA (80 ATP) + 7 NADH (17.5) + 7 FADH₂ (10.5) − 2 = 106 ATP."
+  },
+  {
+   "q": "About β-oxidation of fatty acids: (choose all)",
+   "options": [
+    "Thiolysis releases malonyl-CoA",
+    "Carnitine carries it into the mitochondria",
+    "It takes place in the cytoplasm",
+    "The fatty acid is first activated to acyl-CoA at a cost of 2 ATP",
+    "It needs malonyl-CoA"
+   ],
+   "answers": [1, 3],
+   "why": "Thiolysis releases acetyl-CoA; malonyl-CoA belongs to fatty acid synthesis."
+  },
+  {
+   "q": "About ketone bodies: (choose all)",
+   "options": [
+    "They are excreted in urine and acetone is exhaled",
+    "They are made in liver mitochondria from acetyl-CoA",
+    "They form mainly after a carbohydrate-rich meal",
+    "Red cells use them as their main fuel",
+    "They include acetoacetate, β-hydroxybutyrate and acetone"
+   ],
+   "answers": [0, 1, 4],
+   "why": "They form in fasting, low-carbohydrate diets and uncontrolled diabetes; red cells depend strictly on glucose."
   }
  ],
  "cards": [
@@ -5534,6 +5726,30 @@ SINA.lectures["biochem1-aa-metabolism"] = {
    ],
    "answer": 0,
    "why": "The arrow points to: Derivatives. Decarboxylation gives biogenic amines: histamine, GABA, serotonin, dopamine, taurine."
+  },
+  {
+   "q": "About transamination: (choose all)",
+   "options": [
+    "ALT forms oxaloacetate and glutamate",
+    "It releases free ammonia",
+    "It requires pyridoxal phosphate",
+    "AST uses alanine as its amino acid",
+    "An amino group moves to an α-keto acid"
+   ],
+   "answers": [2, 4],
+   "why": "ALT forms pyruvate and glutamate; AST uses aspartate; oxidative deamination releases ammonia."
+  },
+  {
+   "q": "About the urea cycle and carbon skeletons: (choose all)",
+   "options": [
+    "Urea is made in muscle",
+    "Ammonia is toxic, especially to the brain",
+    "All amino acids are glucogenic",
+    "Urea is made in the liver and excreted by the kidneys",
+    "Leucine and lysine are glucogenic"
+   ],
+   "answers": [1, 3],
+   "why": "Leucine and lysine are purely ketogenic."
   }
  ],
  "cards": [
