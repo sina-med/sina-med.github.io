@@ -483,11 +483,14 @@
       body.contrast = '<p class="meta">A tutor confirmed that the option you chose belongs to another objective of this lecture. Compare the two:</p><div class="smb-cmp">' +
         [ctx.lo, ctx.cLo].map(function (o) { return "<div><h4>" + esc(los[o] ? los[o].text : o) + "</h4><ul>" + d.expl[o].u.slice(0, 3).map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ul></div>"; }).join("") + "</div>";
     }
+    var first = ctx.rec || "quick";   /* the explanation is always shown; the other layers are one tap away */
     var w = document.createElement("div"); w.className = "smb-ex";
     w.innerHTML = '<div class="smb-tabs" role="tablist">' + tabs.map(function (t) {
-      return '<button type="button" role="tab" data-t="' + t + '" aria-selected="' + (t === ctx.rec) + '">' + LAYER[t] + (t === ctx.rec ? ' <span class="smb-sugg">suggested</span>' : "") + "</button>";
-    }).join("") + '</div><div class="smb-tabp" role="tabpanel"' + (ctx.rec ? "" : " hidden") + ">" + (ctx.rec ? body[ctx.rec] : "") + "</div>" + note;
+      return '<button type="button" role="tab" data-t="' + t + '" aria-selected="' + (t === first) + '">' + LAYER[t] + (t === ctx.rec ? ' <span class="smb-sugg">suggested</span>' : "") + "</button>";
+    }).join("") + '</div><div class="smb-tabp" role="tabpanel">' + body[first] + "</div>" + note;
     fb.appendChild(w);
+    /* show the lecture slide (with the answering part in green) right away, not behind a click */
+    var sr = fb.querySelector("details.slide-ref"); if (sr) sr.open = true;
     w.querySelectorAll("[data-t]").forEach(function (b) {
       b.onclick = function () {
         var open = b.getAttribute("aria-selected") === "true", pnl = w.querySelector(".smb-tabp");
@@ -503,14 +506,17 @@
     var a = lastAnswered, fb = document.getElementById("fb");
     if (!a || !fb || fb.querySelector(".smb-flags")) return;
     var w = document.createElement("div"); w.className = "smb-flags";
-    w.innerHTML = '<span class="meta">Something wrong with this question?</span>' + REASONS.slice(0, 5).map(function (r) {
+    w.innerHTML = '<button type="button" class="smb-ftog" aria-expanded="false">Something wrong with this question? <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>' +
+      '<span class="smb-fopts" hidden>' + REASONS.slice(0, 5).map(function (r) {
       return '<button type="button" class="smb-flag" data-r="' + r[0] + '">' + esc(r[1]) + "</button>";
-    }).join("") + '<button type="button" class="smb-flag" data-more="1">Moreâ€¦</button>';
+    }).join("") + '<button type="button" class="smb-flag" data-more="1">Other problem…</button></span>';
     fb.appendChild(w);
-    w.querySelectorAll("button").forEach(function (b) {
+    var tog = w.querySelector(".smb-ftog"), opts = w.querySelector(".smb-fopts");
+    tog.onclick = function () { var o = tog.getAttribute("aria-expanded") !== "true"; tog.setAttribute("aria-expanded", String(o)); opts.hidden = !o; };
+    opts.querySelectorAll("button").forEach(function (b) {
       b.onclick = function () {
         if (b.dataset.more) return reportDialog(a);
-        b.disabled = true; sendReport(a, b.dataset.r, null, function () { b.textContent = "âœ“ " + b.textContent; });
+        b.disabled = true; sendReport(a, b.dataset.r, null, function () { b.textContent = "✓ " + b.textContent; });
       };
     });
   }
@@ -559,6 +565,9 @@
     var box = document.createElement("div"); box.className = "smb-sum";
     box.innerHTML = summaryHTML(lid, miss, answered, los, wrongUnverified);
     d.panel.appendChild(box);
+    /* the link points at the page we are already on, so the browser would do nothing: start a new session directly */
+    var nx = box.querySelector(".smb-next");
+    if (nx) nx.onclick = function (ev) { if (location.hash !== nx.getAttribute("href")) return; ev.preventDefault(); practice(lid); window.scrollTo(0, 0); };
     sendAnon(false);
   });
   function summaryHTML(lid, miss, answered, los, wrongUnverified) {
@@ -575,7 +584,7 @@
     if (wrongUnverified) h += "<p>" + wrongUnverified + " question" + (wrongUnverified > 1 ? "s" : "") + " you got wrong will come back tomorrow, then at growing intervals once you get " + (wrongUnverified > 1 ? "them" : "it") + " right.</p>" +
       '<p class="meta">Smart practice does not yet name topics for ' + (wrongUnverified > 1 ? "these questions" : "this question") + ": no tutor has confirmed which part of the lecture " + (wrongUnverified > 1 ? "they test" : "it tests") + '. Their own explanations are shown above. <a href="#/lecture/' + esc(lid) + '">Open the lecture</a></p>';
     if (!ids.length && !wrongUnverified) h += "<p>No wrong answers in this session. These questions come back later at growing intervals.</p>";
-    h += '<p class="row"><a class="btn primary" href="#/smart/practice/' + esc(lid) + '">Next Smart practice</a><a class="btn" href="#/smart/' + esc(lid) + '">Lecture overview</a></p>';
+    h += '<p class="row"><a class="btn primary smb-next" href="#/smart/practice/' + esc(lid) + '">Next Smart practice</a><a class="btn" href="#/smart/' + esc(lid) + '">Lecture overview</a></p>';
     h += '<p class="meta smb-local">Saved on this device only, for ' + esc(ownerLabel()) + ". Not synced.</p>";   /* objectives a tutor has not linked are never called weak or untested here */
     return h;
   }
@@ -598,7 +607,8 @@
       ".smb-tabs button[aria-selected=true]{border-color:currentColor;font-weight:700}.smb-sugg{font-size:.7rem;opacity:.75;font-weight:400}.smb-tabp{margin-top:.5rem}" +
       ".smb-tabp ul{margin:.3rem 0 .3rem 1.1rem;padding:0}.smb-cmp{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}.smb-cmp h4{margin:.2rem 0;font-size:.9rem}" +
       "@media (max-width:520px){.smb-cmp{grid-template-columns:1fr}}.smb-due{font-size:.8rem;opacity:.75;display:block}.smb-duebox{padding:.5rem .7rem;border:1px solid rgba(127,127,127,.4);border-radius:10px;margin:.6rem 0}" +
-      ".smb-flags,.smb-conf{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;margin:.6rem 0}" +
+      ".smb-flags,.smb-conf{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;margin:.6rem 0}.smb-fopts{display:flex;flex-wrap:wrap;gap:.35rem;width:100%}.smb-fopts[hidden]{display:none}" +
+      ".smb-ftog{font:inherit;font-size:.85rem;background:none;border:0;padding:.2rem 0;color:var(--muted,inherit);cursor:pointer;display:inline-flex;align-items:center;gap:.3rem}.smb-ftog svg{transition:transform .2s}.smb-ftog[aria-expanded=true] svg{transform:rotate(180deg)}" +
       ".smb-flag,.smb-conf button{font:inherit;font-size:.8rem;padding:.2rem .6rem;border-radius:99px;border:1px solid rgba(127,127,127,.5);background:none;color:inherit;cursor:pointer}" +
       ".smb-conf button[aria-pressed=true]{border-color:currentColor;font-weight:700}.smb-flag:disabled{opacity:.6;cursor:default}" +
       "@media (max-width:520px){.smb-lo{flex-direction:column;gap:.1rem}.smb-st{white-space:normal}}" +
@@ -653,8 +663,8 @@
       ". Misses return next day, then after 3, 7, 16 and 35 days.</p>";
     h += '<p class="row"><a class="btn primary" href="#/smart/practice/' + lid + '">Start Smart practice (' + Math.min(SESSION_N, P.length) + ' questions)</a></p>' + storageLine() + consentBox();
     var nExp = (d.experimental || []).length, nRep = Object.keys(myReports()).length;
-    h += '<div class="smb-exp"><label><input type="checkbox" id="smb-exp"' + (expOn() ? " checked" : "") + "> Include experimental questions" + (nExp ? " (" + nExp + ")" : " (none available yet)") + "</label>" +
-      '<p class="meta">AI-written from the slides. <strong>Not reviewed by a tutor yet.</strong> Labelled in the quiz. Report anything wrong.</p></div>' +
+    h += (nExp ? '<div class="smb-exp"><label><input type="checkbox" id="smb-exp"' + (expOn() ? " checked" : "") + "> Include experimental questions (" + nExp + ")</label>" +
+      '<p class="meta">AI-written from the slides. <strong>Not reviewed by a tutor yet.</strong> Labelled in the quiz. Report anything wrong.</p></div>' : "") +
       (nRep ? '<p class="meta">You reported ' + nRep + " question" + (nRep > 1 ? "s" : "") + "; " + (nRep > 1 ? "they are" : "it is") + " hidden from your Smart practice until reviewed.</p>" : "");
     /* question-level progress (no claims about topics) */
     var nowS = Math.round(Date.now() / 1000), qAns = 0, qDue = 0, qWrong = 0;
@@ -691,7 +701,8 @@
       '<p class="row"><button class="btn" id="smb-reset" type="button">Reset beta history for ' + esc(ownerLabel()) + '</button><a class="btn" href="#/smart/disable">Turn the beta off on this device</a></p></div>';
     H().setView(h, "Smart practice (beta)");
     wireConsent(function () { overview(lid); });
-    document.getElementById("smb-exp").onchange = function () {
+    var expBox = document.getElementById("smb-exp");
+    if (expBox) expBox.onchange = function () {
       try { if (this.checked) localStorage.setItem(EXP, "1"); else localStorage.removeItem(EXP); } catch (e) {}
       overview(lid);
     };

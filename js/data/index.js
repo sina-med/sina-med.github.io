@@ -138,7 +138,7 @@ SINA.subjects = [
         { id: "biochem-acid-base", title: "Acid-base balance" }
       ]}
     ] },
-  { id: "firstaid", name: "First Aid", semester: "S3", status: "live",
+  { id: "firstaid", name: "Vital Functions & First Aid", aliases: ["First Aid", "First Aid and Vital Functions", "Vital Functions and First Aid"], semester: "S3", status: "live",
     blurb: "Emergency care and vital functions.",
     groups: [
       { name: "Emergency care", items: [

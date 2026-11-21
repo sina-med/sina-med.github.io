@@ -2545,6 +2545,9 @@
   var hdrEl = document.querySelector(".site-header");
   function setHdr() { if (hdrEl) document.documentElement.style.setProperty("--hdr", hdrEl.offsetHeight + "px"); }
   setHdr(); window.addEventListener("resize", setHdr);
+  /* the header can change height without a resize (fonts loading, buttons added, the year label changing): keep the tabs right under it */
+  if (hdrEl && window.ResizeObserver) new ResizeObserver(setHdr).observe(hdrEl);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(setHdr);
 
   /* ---------- back to top (long pages) ---------- */
   var toTop = document.createElement("button");
@@ -3944,7 +3947,7 @@
     rows.slice(1).forEach(function (r) {
       var prog = progOf[norm(r[0])]; if (!prog) return;
       var sbs = String(r[1] || "").split(/[\/+&,]| and /i).map(norm).filter(Boolean).map(function (nm) {
-        return S.subjects.filter(function (x) { return x.program === prog && x.groups && norm(x.name) === nm; })[0];
+        return S.subjects.filter(function (x) { return x.program === prog && x.groups && (norm(x.name) === nm || (x.aliases || []).some(function (a) { return norm(a) === nm; })); })[0];
       }).filter(Boolean);
       if (!sbs.length) return;
       /* a lecture cell can carry the part that is on the exam: "Pituitary semiology: acromegaly, prolactinoma" */
