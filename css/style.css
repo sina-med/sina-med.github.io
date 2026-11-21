@@ -1991,3 +1991,15 @@ div.smb-exp { border-radius: 16px; }
 #suggest-btn .plbl { display: inline-block; max-width: 0; overflow: hidden; opacity: 0; transition: max-width var(--t-base) ease, opacity var(--t-fast) ease, margin var(--t-base) ease; }
 #suggest-btn:hover .plbl, #suggest-btn:focus-visible .plbl { max-width: 7rem; opacity: 1; margin: 0 0.5rem 0 0.4rem; }
 .prog-menu .pm-smart { margin-top: 0; border-top: 0; border-radius: 8px; }
+
+/* Smart beta: foldable subjects */
+.smb-subj { border-top: 1px solid var(--line); }
+.smb-subj:last-of-type { border-bottom: 1px solid var(--line); }
+.smb-subj > summary { display: flex; align-items: center; gap: 0.7rem; list-style: none; cursor: pointer; padding: 0.8rem 0.2rem; font-weight: 700; font-size: 1.02rem; }
+.smb-subj > summary::-webkit-details-marker { display: none; }
+.smb-subj > summary::before { content: ""; width: 0.5rem; height: 0.5rem; border-right: 2px solid var(--accent); border-bottom: 2px solid var(--accent); transform: rotate(-45deg); transition: transform var(--t-base) ease; flex: none; margin: 0 0.2rem 0 0.1rem; }
+.smb-subj[open] > summary::before { transform: rotate(45deg); }
+.smb-subj > summary:hover { background: var(--surface-2); }
+.smb-subj > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.smb-subj .smb-cnt { margin-left: auto; font: 500 0.78rem var(--mono, "IBM Plex Mono", monospace); color: var(--muted); }
+.smb-subj .lec-list { border-top: 0; margin: 0 0 0.5rem 1.4rem; }

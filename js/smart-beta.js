@@ -617,6 +617,7 @@
       (u ? '. <strong>' + u + " answer" + (u > 1 ? "s" : "") + " could not be saved (storage " + esc(lastWriteError || "error") + ") and will be lost when you close Sina.</strong>" : "") +
       (n >= WARN ? " <strong>History is " + Math.round(100 * n / CAP) + "% full.</strong>" : "") + "</p>";
   }
+  function openSubj() { try { return JSON.parse(sessionStorage.getItem("sinabeta:smart:open") || "[]"); } catch (e) { return []; } }
   function home() {
     var by = {}, subs = (window.SINA && SINA.subjects || []);
     (INDEX || []).forEach(function (x) { (by[x.subject] = by[x.subject] || []).push(x); });
@@ -627,9 +628,9 @@
       var ss = subs.filter(function (z) { return (z.program || SINA.DEFAULT_PROGRAM) === pid && by[z.id]; });
       if (!ss.length) return;
       body += '<h2 class="smb-year">' + esc(yr(pid)) + "</h2>" + ss.map(function (z) {
-        return "<h3>" + esc(z.name) + '</h3><ul class="lec-list">' + by[z.id].map(function (x) {
+        return '<details class="smb-subj" data-sid="' + esc(z.id) + '"' + (openSubj().indexOf(z.id) >= 0 ? " open" : "") + '><summary><span class="smb-sn">' + esc(z.name) + '</span><span class="smb-cnt">' + by[z.id].length + ' lectures</span></summary><ul class="lec-list">' + by[z.id].map(function (x) {
           return '<li><a href="#/smart/' + esc(x.id) + '"><span>' + esc(x.title) + "</span>" + (x.verified ? '<span class="qn">' + x.verified + " checked topics</span>" : "") + "</a></li>";
-        }).join("") + "</ul>";
+        }).join("") + "</ul></details>";
       }).join("");
     });
     var h = head("Smart practice") + '<p class="lede-s">Pick a lecture. Wrong answers come back the next day, then later.' +
@@ -637,6 +638,12 @@
       (body || '<p class="empty-note">No lecture has Smart Practice data yet.</p>') +
       '<p class="row"><a class="btn" href="#/smart/disable">Turn the beta off on this device</a></p></div>';
     H().setView(h, "Smart practice (beta)");
+    document.querySelectorAll("details.smb-subj").forEach(function (d) {
+      d.addEventListener("toggle", function () {
+        var o = openSubj().filter(function (x) { return x !== d.dataset.sid; }); if (d.open) o.push(d.dataset.sid);
+        try { sessionStorage.setItem("sinabeta:smart:open", JSON.stringify(o)); } catch (e) {}
+      });
+    });
     wireConsent(home);
   }
   function overview(lid) {

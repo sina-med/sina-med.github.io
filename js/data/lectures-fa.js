@@ -3305,6 +3305,160 @@ SINA.lectures["fa-neural"] = {
    ],
    "answer": 2,
    "why": "The arrow points to: Vicious circle. Low CPP causes ischaemia, which causes more swelling and higher ICP."
+  },
+  {
+   "q": "Why does raised ICP tend to become a vicious circle?",
+   "options": [
+    "Less CSF is produced, so ICP keeps rising",
+    "More blood enters the skull, so CPP rises",
+    "Lower CPP causes ischaemia and swelling, which raises ICP further",
+    "The skull expands and lowers CPP"
+   ],
+   "answer": 2,
+   "why": "ICP up → CPP down → ischaemia → more oedema → ICP up again."
+  },
+  {
+   "q": "A patient has MAP 85 mmHg and ICP 20 mmHg. What is the cerebral perfusion pressure, and is it within the autoregulated range?",
+   "options": [
+    "105 mmHg, above the range",
+    "65 mmHg, within the range",
+    "65 mmHg, below the range",
+    "4 mmHg, below the range"
+   ],
+   "answer": 1,
+   "why": "CPP = MAP − ICP = 65 mmHg, inside the 60 to 160 range."
+  },
+  {
+   "q": "A patient has MAP 65 mmHg and ICP 25 mmHg. What is the main danger?",
+   "options": [
+    "Hypertensive encephalopathy",
+    "Normal autoregulation",
+    "Excess CSF production",
+    "Cerebral ischaemia, because CPP is 40 mmHg"
+   ],
+   "answer": 3,
+   "why": "CPP below 60 mmHg is ischaemic: 65 − 25 = 40."
+  },
+  {
+   "q": "An expanding haematoma adds volume to the skull. According to Monro-Kellie, what must happen to avoid a rise in ICP?",
+   "options": [
+    "Brain, blood or CSF volume must decrease",
+    "The skull must grow",
+    "Brain volume must increase",
+    "CPP must rise"
+   ],
+   "answer": 0,
+   "why": "The cranium has a fixed volume; the only way to hold ICP is to reduce another component."
+  },
+  {
+   "q": "On the pressure-volume curve, a small added volume in the flat early part causes:",
+   "options": [
+    "A large steep rise in ICP",
+    "Almost no change in ICP, because of compensation",
+    "A fall in ICP",
+    "Immediate herniation"
+   ],
+   "answer": 1,
+   "why": "The early flat part is compensation; later the curve becomes steep and small volumes cause big rises."
+  },
+  {
+   "q": "A patient with a brain tumour has surrounding oedema and raised ICP. Which treatment targets this oedema?",
+   "options": [
+    "Hypothermia alone",
+    "Burr hole",
+    "Steroids",
+    "Shunt placement"
+   ],
+   "answer": 2,
+   "why": "Steroids help vasogenic oedema: they reduce CSF production and restore membrane permeability."
+  },
+  {
+   "q": "After a head injury, a patient has falling consciousness, anisocoria and hemiparesis from an acute epidural haematoma. Which procedure can save the patient?",
+   "options": [
+    "Steroid course",
+    "Glucose control",
+    "Hypothermia",
+    "Skull trephination (burr hole)"
+   ],
+   "answer": 3,
+   "why": "Trephination relieves the haematoma and can save a deteriorating patient."
+  },
+  {
+   "q": "Which type of cerebral oedema occurs in hydrocephalus?",
+   "options": [
+    "Interstitial",
+    "Vasogenic",
+    "Cytotoxic",
+    "Osmotic"
+   ],
+   "answer": 0,
+   "why": "Interstitial oedema accompanies hydrocephalus."
+  },
+  {
+   "q": "Which type of oedema results from blood-brain barrier breakdown, for example around a tumour?",
+   "options": [
+    "Cytotoxic",
+    "Vasogenic",
+    "Interstitial",
+    "Osmotic"
+   ],
+   "answer": 1,
+   "why": "Vasogenic oedema is caused by BBB dysfunction."
+  },
+  {
+   "q": "Why does glucose control matter in a patient with raised ICP?",
+   "options": [
+    "High glucose lowers CPP directly",
+    "It lowers PaCO₂",
+    "It avoids cellular oedema",
+    "It reduces the blood-brain barrier"
+   ],
+   "answer": 2,
+   "why": "Controlling glucose avoids cellular oedema, which would add to ICP."
+  },
+  {
+   "q": "Besides CPP, which two gases influence cerebral blood flow?",
+   "options": [
+    "Nitrogen and argon",
+    "PaCO₂ only",
+    "Carbon monoxide and helium",
+    "PaO₂ and PaCO₂"
+   ],
+   "answer": 3,
+   "why": "CBF also depends on PaO₂ and PaCO₂."
+  },
+  {
+   "q": "A patient's CPP stays above 160 mmHg. What is the expected consequence?",
+   "options": [
+    "Hypertensive encephalopathy",
+    "Cerebral ischaemia",
+    "Normal flow",
+    "Reduced CSF volume"
+   ],
+   "answer": 0,
+   "why": "Above 160, autoregulation fails and hypertensive encephalopathy follows; below 60 is ischaemia."
+  },
+  {
+   "q": "Which feature of the ICP waveform comes from breathing?",
+   "options": [
+    "Small, fast pulsations",
+    "Larger, slower waves",
+    "The baseline pressure only",
+    "A steady flat line"
+   ],
+   "answer": 1,
+   "why": "Small rapid pulsations are cardiac; the larger slower waves are respiratory."
+  },
+  {
+   "q": "Which surgical option is used for hydrocephalus?",
+   "options": [
+    "Craniotomy only",
+    "Burr hole only",
+    "Shunt",
+    "Steroids"
+   ],
+   "answer": 2,
+   "why": "Shunts treat hydrocephalus; craniotomy or ventriculostomy with drainage treat space-occupying lesions."
   }
  ],
  "cards": [
@@ -4066,6 +4220,160 @@ SINA.lectures["fa-cardiovascular"] = {
    ],
    "answer": 3,
    "why": "The arrow points to: Clinical signs. Mottling, cold extremities, capillary refill over 3 s, altered consciousness, oliguria, tachypnoea, tachycardia, high lactate."
+  },
+  {
+   "q": "Why does a major haemorrhage lower oxygen delivery in two ways?",
+   "options": [
+    "It lowers cardiac output and also removes haemoglobin",
+    "It raises SVR and also lowers PaCO₂",
+    "It raises lactate and also raises Hb",
+    "It lowers MAP and also raises SaO₂"
+   ],
+   "answer": 0,
+   "why": "Volume loss cuts cardiac output, and anaemia lowers CaO₂, so TaO₂ (CaO₂ × CO) falls on both sides."
+  },
+  {
+   "q": "Day 3 after a myocardial infarction, a patient suddenly has low blood pressure, cold mottled extremities and a new murmur from septal rupture. Which shock family is this?",
+   "options": [
+    "Distributive",
+    "Cardiogenic",
+    "Obstructive",
+    "Hypovolaemic"
+   ],
+   "answer": 1,
+   "why": "Septal rupture is a mechanical cause of cardiogenic shock: the pump fails despite adequate volume."
+  },
+  {
+   "q": "Why is septic shock classed as distributive?",
+   "options": [
+    "The heart muscle contracts weakly",
+    "Blood flow is mechanically blocked",
+    "Vasodilation and capillary leak create relative hypovolaemia",
+    "Blood is lost from the body"
+   ],
+   "answer": 2,
+   "why": "Vessels dilate and leak, so the circulating volume is too small for the enlarged vascular space, and oxygen extraction is poor."
+  },
+  {
+   "q": "What do cardiac tamponade, pulmonary embolism and tension pneumothorax have in common?",
+   "options": [
+    "They all reduce contractility directly",
+    "They all cause volume loss",
+    "They all dilate the vessels",
+    "They mechanically obstruct blood flow"
+   ],
+   "answer": 3,
+   "why": "Obstructive shock: flow is blocked outside the pump itself."
+  },
+  {
+   "q": "A patient has a stroke volume of 60 mL and a heart rate of 90 beats/min. What is the cardiac output?",
+   "options": [
+    "5.4 L/min",
+    "0.67 L/min",
+    "150 L/min",
+    "54 L/min"
+   ],
+   "answer": 0,
+   "why": "CO = SV × HR = 60 × 90 = 5,400 mL/min = 5.4 L/min."
+  },
+  {
+   "q": "A patient has Hb 12 g/dL and SaO₂ 100%. What is the arterial oxygen content (CaO₂)?",
+   "options": [
+    "12.0 mL O₂/dL",
+    "16.1 mL O₂/dL",
+    "1.34 mL O₂/dL",
+    "0.9 mL O₂/dL"
+   ],
+   "answer": 1,
+   "why": "CaO₂ = 1.34 × Hb × SaO₂ = 1.34 × 12 × 1 ≈ 16.1 mL O₂/dL."
+  },
+  {
+   "q": "In a bleeding patient whose Hb halves while cardiac output and SaO₂ stay the same, oxygen delivery (TaO₂) will:",
+   "options": [
+    "Double",
+    "Stay the same",
+    "Roughly halve",
+    "Fall to zero"
+   ],
+   "answer": 2,
+   "why": "TaO₂ = CaO₂ × CO, and CaO₂ is proportional to Hb, so halving Hb roughly halves delivery."
+  },
+  {
+   "q": "When cardiac output falls in shock and tissues keep consuming oxygen, what happens to venous oxygen content (CvO₂) according to the Fick equation?",
+   "options": [
+    "It rises",
+    "It is unchanged",
+    "It becomes equal to CaO₂",
+    "It falls, because tissues extract more of each unit of blood"
+   ],
+   "answer": 3,
+   "why": "VO₂ = CO × (CaO₂ − CvO₂): with lower CO the difference must widen, so CvO₂ drops."
+  },
+  {
+   "q": "As blood pressure falls, the baroreflex responds with:",
+   "options": [
+    "More sympathetic and less parasympathetic activity",
+    "Less sympathetic and more parasympathetic activity",
+    "Less activity in both systems",
+    "More activity in both systems"
+   ],
+   "answer": 0,
+   "why": "Sympathetic drive rises and vagal tone falls, raising heart rate and vascular tone."
+  },
+  {
+   "q": "Widespread arteriolar vasodilation lowers MAP mainly by reducing which term in MAP = CO × SVR?",
+   "options": [
+    "CO",
+    "SVR",
+    "Stroke volume only",
+    "Heart rate only"
+   ],
+   "answer": 1,
+   "why": "Arteries are the resistive vessels: dilating them lowers systemic vascular resistance."
+  },
+  {
+   "q": "Which approach matches the lecture's management of shock?",
+   "options": [
+    "Treat the cause only and withhold oxygen",
+    "Give catecholamines and ignore the cause",
+    "Restore oxygen delivery (oxygen, fluids, catecholamines) and treat the cause",
+    "Wait for invasive monitoring before any treatment"
+   ],
+   "answer": 2,
+   "why": "Symptomatic treatment restores oxygen delivery while etiological treatment removes the cause."
+  },
+  {
+   "q": "Oliguria in a patient in shock reflects:",
+   "options": [
+    "A cardiac rhythm disorder",
+    "Capillary refill above 3 s",
+    "A raised stroke volume",
+    "Reduced blood flow to the kidneys"
+   ],
+   "answer": 3,
+   "why": "Oliguria is one of the signs of reduced regional flow, along with altered consciousness."
+  },
+  {
+   "q": "After 3 days of vomiting and diarrhoea, a patient has tachycardia, cold peripheries and low blood pressure. Which determinant of stroke volume has fallen most?",
+   "options": [
+    "Preload",
+    "Contractility",
+    "Afterload",
+    "Heart rate"
+   ],
+   "answer": 0,
+   "why": "Gastrointestinal losses cause hypovolaemic shock: less venous return means less preload."
+  },
+  {
+   "q": "A patient with a cervical spinal cord injury becomes hypotensive. Which shock family fits best?",
+   "options": [
+    "Cardiogenic",
+    "Distributive",
+    "Obstructive",
+    "Hypovolaemic"
+   ],
+   "answer": 1,
+   "why": "Spinal shock is a distributive cause: loss of vascular tone."
   }
  ],
  "cards": [
@@ -4903,6 +5211,193 @@ SINA.lectures["fa-respiratory"] = {
    ],
    "answer": 2,
    "why": "The arrow points to: the A–a gradient. Normal → hypoventilation; high → V/Q mismatch, shunt or diffusion."
+  },
+  {
+   "q": "A patient with Guillain–Barré syndrome becomes hypoxaemic. Which blood gas pattern fits the failing component?",
+   "options": [
+    "High PaCO₂ with a normal A–a gradient at first",
+    "Low PaCO₂ with a high A–a gradient",
+    "Normal PaCO₂ and a high A–a gradient",
+    "Low PaCO₂ with a normal A–a gradient"
+   ],
+   "answer": 0,
+   "why": "Neuromuscular failure is a control and pump problem: hypoventilation raises PaCO₂ while the lungs themselves work."
+  },
+  {
+   "q": "A patient with carbon monoxide poisoning has tissue hypoxia but normal lungs. Which component has failed?",
+   "options": [
+    "Control and pump",
+    "Airways",
+    "Alveoli and capillaries",
+    "Blood"
+   ],
+   "answer": 3,
+   "why": "CO binds haemoglobin, so oxygen transport in the blood fails while the lungs work normally."
+  },
+  {
+   "q": "Why does a small narrowing of the airway reduce airflow so strongly?",
+   "options": [
+    "Resistance rises with the fourth power of 1/radius",
+    "Compliance rises",
+    "Surfactant falls",
+    "Pleural pressure becomes positive"
+   ],
+   "answer": 0,
+   "why": "Resistance ∝ 1/r⁴, so small radius changes have large effects."
+  },
+  {
+   "q": "A patient has VT 400 mL, RR 20/min and dead space 150 mL. What is the alveolar ventilation?",
+   "options": [
+    "8 L/min",
+    "5 L/min",
+    "3 L/min",
+    "11 L/min"
+   ],
+   "answer": 1,
+   "why": "VA = (VT − VD) × RR = 250 × 20 = 5,000 mL/min."
+  },
+  {
+   "q": "Why does fast shallow breathing waste ventilation?",
+   "options": [
+    "It lowers the diffusion constant",
+    "It raises compliance",
+    "A larger share of each breath fills dead space",
+    "It closes the alveoli"
+   ],
+   "answer": 2,
+   "why": "Dead space is fixed (≈ 150 mL), so small breaths leave little fresh air reaching the alveoli."
+  },
+  {
+   "q": "Which finding fits emphysema?",
+   "options": [
+    "Stiff lung with low compliance",
+    "Surfactant lack",
+    "Fast, shallow breathing",
+    "High compliance with air trapping and raised FRC"
+   ],
+   "answer": 3,
+   "why": "The lung fills easily but empties badly."
+  },
+  {
+   "q": "A patient with pulmonary fibrosis breathes fast and shallow. What explains this?",
+   "options": [
+    "The lung is stiff, with low compliance",
+    "Compliance is high",
+    "Resistance is falling",
+    "Dead space is zero"
+   ],
+   "answer": 0,
+   "why": "Stiff lungs make deep breaths costly, so patients take rapid shallow ones."
+  },
+  {
+   "q": "An opioid-overdosed patient has PaCO₂ 80 mmHg on room air. What is the alveolar oxygen pressure (PAO₂)?",
+   "options": [
+    "About 100 mmHg",
+    "About 50 mmHg",
+    "About 150 mmHg",
+    "About 80 mmHg"
+   ],
+   "answer": 1,
+   "why": "PAO₂ = 0.21 × 713 − PaCO₂/0.8 ≈ 150 − 100 = 50 mmHg."
+  },
+  {
+   "q": "A climber at altitude is hypoxaemic with a normal A–a gradient. Which cause fits best?",
+   "options": [
+    "Shunt",
+    "V/Q mismatch",
+    "Low inspired oxygen",
+    "Diffusion defect"
+   ],
+   "answer": 2,
+   "why": "A normal gradient points to hypoventilation or low inspired O₂."
+  },
+  {
+   "q": "Why does hypoxaemia from low V/Q (asthma) improve with oxygen, while a shunt does not?",
+   "options": [
+    "Low V/Q units still receive some ventilation",
+    "A shunt unit receives a lot of ventilation",
+    "Oxygen lowers PaCO₂",
+    "Shunt units are well perfused only"
+   ],
+   "answer": 0,
+   "why": "Low V/Q regions are still ventilated, while a shunt has no ventilation at all."
+  },
+  {
+   "q": "What does hypoxic pulmonary vasoconstriction do?",
+   "options": [
+    "Sends blood to unventilated alveoli",
+    "Redirects blood to better ventilated alveoli",
+    "Raises dead space",
+    "Lowers PaCO₂ by itself"
+   ],
+   "answer": 1,
+   "why": "It matches perfusion to ventilation by diverting blood away from poorly ventilated areas."
+  },
+  {
+   "q": "Which enzyme speeds the conversion of CO₂ to bicarbonate in red cells?",
+   "options": [
+    "Surfactant",
+    "Cytochrome oxidase",
+    "Carbonic anhydrase",
+    "Naloxone"
+   ],
+   "answer": 2,
+   "why": "About 70% of CO₂ is carried as bicarbonate, formed with carbonic anhydrase."
+  },
+  {
+   "q": "Why do opioids cause hypercapnia?",
+   "options": [
+    "They block vagal M3 receptors",
+    "They raise dead space",
+    "They stiffen the lung",
+    "They depress the respiratory centre, which is driven mainly by CO₂"
+   ],
+   "answer": 3,
+   "why": "Breathing is driven mainly by CO₂; opioids depress that drive, and naloxone reverses it."
+  },
+  {
+   "q": "A drowsy COPD patient has SpO₂ 94%. What does SpO₂ NOT tell you here?",
+   "options": [
+    "Whether PaCO₂ is high",
+    "Oxygen saturation",
+    "Pulse rate",
+    "Oxygenation"
+   ],
+   "answer": 0,
+   "why": "SpO₂ reflects oxygenation and says nothing about CO₂; an ABG is needed."
+  },
+  {
+   "q": "A growing gap between PaCO₂ and ETCO₂ suggests:",
+   "options": [
+    "Better perfusion",
+    "Lower cardiac output only",
+    "Increased dead space",
+    "Normal ventilation"
+   ],
+   "answer": 2,
+   "why": "ETCO₂ is normally 2 to 5 mmHg below PaCO₂; the gap widens with dead space."
+  },
+  {
+   "q": "After a bronchodilator, a patient's FEV₁ rises by 15% and 300 mL. This is most consistent with:",
+   "options": [
+    "Pulmonary fibrosis",
+    "Fixed airway obstruction",
+    "A normal lung",
+    "Asthma"
+   ],
+   "answer": 3,
+   "why": "Reversibility of at least 12% and 200 mL suggests asthma."
+  },
+  {
+   "q": "Which type of restrictive disorder raises the A–a gradient?",
+   "options": [
+    "Parenchymal (fibrosis, ARDS, oedema)",
+    "Neuromuscular",
+    "Chest wall deformity",
+    "Pleural disease only"
+   ],
+   "answer": 0,
+   "why": "Parenchymal causes impair gas exchange; extraparenchymal ones cause hypoventilation with a normal A–a at first."
   }
  ],
  "cards": [
