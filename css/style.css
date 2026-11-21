@@ -1947,6 +1947,9 @@ body.no-anim #drawer.drawer { transition: none !important; }
 /* floating header and theme dot (Nov 2026) */
 .site-header { top: 8px; margin: 8px max(8px, env(safe-area-inset-left)) 0; border: 1px solid var(--line); border-radius: 20px; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(14px); box-shadow: 0 6px 24px rgba(0,0,0,0.07); transition: transform 0.45s cubic-bezier(.65,0,.2,1); }
 .site-header.hdr-hide { transform: translateY(calc(-100% - 16px)); }
+/* when the header tucks away, sticky bars (lecture tabs, question bar, exam bar) slide up to the top instead of leaving a see-through gap */
+.tabs.sticky, .qbar.sticky, .exam-bar { transition: top 0.45s cubic-bezier(.65,0,.2,1); }
+.hdr-off .tabs.sticky, .hdr-off .qbar.sticky, .hdr-off .exam-bar { top: 0; }
 .theme-dot { width: 44px; height: 44px; display: grid; place-items: center; border: 0; background: none; cursor: pointer; border-radius: 50%; }
 .theme-dot i { width: 20px; height: 20px; border-radius: 50%; border: 1.5px solid var(--ink); background: linear-gradient(90deg, var(--bg) 50%, var(--accent) 50%); transition: transform 0.4s cubic-bezier(.65,0,.2,1); }
 .theme-dot:hover i { transform: rotate(180deg); }

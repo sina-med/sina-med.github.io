@@ -126,7 +126,7 @@
   });
   /* floating header: tucks away while scrolling down, returns on scroll up */
   (function () { var hd = document.querySelector(".site-header"), last = scrollY, tick = false;
-    addEventListener("scroll", function () { if (tick) return; tick = true; requestAnimationFrame(function () { var y = scrollY, dn = y > last + 6, up = y < last - 6; if (y < 80 || up || document.body.classList.contains("menu-open")) hd.classList.remove("hdr-hide"); else if (dn && !hd.contains(document.activeElement)) hd.classList.add("hdr-hide"); if (dn || up) last = y; tick = false; }); }, { passive: true }); })();
+    addEventListener("scroll", function () { if (tick) return; tick = true; requestAnimationFrame(function () { var y = scrollY, dn = y > last + 6, up = y < last - 6; if (y < 80 || up || document.body.classList.contains("menu-open")) hd.classList.remove("hdr-hide"); else if (dn && !hd.contains(document.activeElement)) hd.classList.add("hdr-hide"); document.documentElement.classList.toggle("hdr-off", hd.classList.contains("hdr-hide")); if (dn || up) last = y; tick = false; }); }, { passive: true }); })();
   var theme = store.get("sina:theme", null) || (window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
   if (theme !== "dark") theme = "light";
   applyTheme(theme);
@@ -2543,7 +2543,7 @@
 
   /* sticky tabs sit right under the header, whatever its height */
   var hdrEl = document.querySelector(".site-header");
-  function setHdr() { if (hdrEl) document.documentElement.style.setProperty("--hdr", hdrEl.offsetHeight + "px"); }
+  function setHdr() { if (hdrEl) document.documentElement.style.setProperty("--hdr", (hdrEl.offsetHeight + (parseFloat(getComputedStyle(hdrEl).top) || 0)) + "px"); }
   setHdr(); window.addEventListener("resize", setHdr);
   /* the header can change height without a resize (fonts loading, buttons added, the year label changing): keep the tabs right under it */
   if (hdrEl && window.ResizeObserver) new ResizeObserver(setHdr).observe(hdrEl);
