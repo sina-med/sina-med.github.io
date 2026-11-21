@@ -3781,116 +3781,6 @@ SINA.lectures["fa-cardiovascular"] = {
    "why": "The four broad categories."
   },
   {
-   "q": "What is the formula for mean arterial pressure?",
-   "options": [
-    "SV − HR",
-    "CO + SVR",
-    "CO x SVR",
-    "HR / SV"
-   ],
-   "answer": 2,
-   "why": "MAP = CO x SVR = SV x HR x SVR."
-  },
-  {
-   "q": "What determines stroke volume?",
-   "options": [
-    "Preload, inotropy, afterload",
-    "Respiratory rate only",
-    "Heart rate only",
-    "Haemoglobin level only"
-   ],
-   "answer": 0,
-   "why": "The three determinants of SV."
-  },
-  {
-   "q": "How is arterial oxygen content calculated?",
-   "options": [
-    "CO x HR",
-    "Hb / SaO2",
-    "1.34 x Hb x SaO2",
-    "PaCO2 x 0.03"
-   ],
-   "answer": 2,
-   "why": "CaO2 = 1.34 x [Hb] x SaO2; TaO2 = CaO2 x CO."
-  },
-  {
-   "q": "What does the Fick equation give?",
-   "options": [
-    "MAP = CO x SVR",
-    "VO2 = CO x a-vO2 difference",
-    "pH = pKa + log",
-    "CPP = MAP − ICP"
-   ],
-   "answer": 1,
-   "why": "Oxygen consumption from cardiac output and the arteriovenous oxygen difference."
-  },
-  {
-   "q": "What accumulates with cellular hypoxia in shock?",
-   "options": [
-    "Bicarbonate",
-    "Lactic acid",
-    "Urea",
-    "Glucose"
-   ],
-   "answer": 1,
-   "why": "Anaerobic metabolism leads to lactic acidosis."
-  },
-  {
-   "q": "What capillary refill time suggests hypoperfusion?",
-   "options": [
-    "Under 1 second",
-    "Exactly 2 seconds",
-    "Over 3 seconds",
-    "Over 30 seconds"
-   ],
-   "answer": 2,
-   "why": "With mottling, cold pale or cyanotic extremities."
-  },
-  {
-   "q": "Which is a cause of cardiogenic shock?",
-   "options": [
-    "Tension pneumothorax",
-    "Anaphylaxis",
-    "Myocardial infarction",
-    "Severe diarrhoea"
-   ],
-   "answer": 2,
-   "why": "Also myocarditis, drug toxicity, severe AV block, acute valve insufficiency, septal rupture."
-  },
-  {
-   "q": "Which is a cause of hypovolaemic shock?",
-   "options": [
-    "Extensive burns",
-    "Myocarditis",
-    "Pulmonary embolism",
-    "Sepsis"
-   ],
-   "answer": 0,
-   "why": "Haemorrhage, GI losses, burns, dehydration."
-  },
-  {
-   "q": "Which shock is distributive?",
-   "options": [
-    "Myocardial infarction",
-    "Haemorrhagic shock",
-    "Cardiac tamponade",
-    "Anaphylactic shock"
-   ],
-   "answer": 3,
-   "why": "Septic, anaphylactic, inflammatory (pancreatitis, burns), spinal."
-  },
-  {
-   "q": "Which is a cause of obstructive shock?",
-   "options": [
-    "Myocarditis",
-    "Cardiac tamponade",
-    "Vomiting",
-    "Sepsis"
-   ],
-   "answer": 1,
-   "why": "Tamponade, pulmonary embolism, tension pneumothorax."
-  },
-  {
    "q": "Which catecholamine is a positive inotrope?",
    "options": [
     "Atropine",
@@ -3902,31 +3792,6 @@ SINA.lectures["fa-cardiovascular"] = {
    "why": "Adrenaline, noradrenaline and dobutamine: inotropic effect and vasoconstriction."
   },
   {
-   "q": "Which signs show reduced regional blood flow in shock? (choose all)",
-   "options": [
-    "Oliguria",
-    "Confusion",
-    "Bradypnoea",
-    "Warm pink skin"
-   ],
-   "answers": [
-    0,
-    1
-   ],
-   "why": "Altered consciousness, oliguria, tachypnoea, tachycardia."
-  },
-  {
-   "q": "Which equation gives mean arterial pressure?",
-   "options": [
-    "MAP = SV × SVR",
-    "MAP = CO × SVR",
-    "MAP = CO + SVR",
-    "MAP = HR / SVR"
-   ],
-   "answer": 1,
-   "why": "And CO = SV × HR."
-  },
-  {
    "q": "Which is NOT a determinant of stroke volume?",
    "options": [
     "Haematocrit",
@@ -3936,17 +3801,6 @@ SINA.lectures["fa-cardiovascular"] = {
    ],
    "answer": 0,
    "why": "SV depends on preload, inotropy and afterload."
-  },
-  {
-   "q": "Arterial oxygen content is calculated as:",
-   "options": [
-    "1.34 × PaO2",
-    "CO × SaO2",
-    "1.34 × Hb × SaO2",
-    "Hb × PaO2"
-   ],
-   "answer": 2,
-   "why": "Dissolved oxygen is negligible in this formula."
   },
   {
    "q": "The Fick equation states that VO2 equals:",
@@ -3971,17 +3825,6 @@ SINA.lectures["fa-cardiovascular"] = {
    "why": "Leading to metabolic acidosis."
   },
   {
-   "q": "A capillary refill time over how long signals hypoperfusion?",
-   "options": [
-    "3 seconds",
-    "30 seconds",
-    "10 seconds",
-    "1 second"
-   ],
-   "answer": 0,
-   "why": "With mottling and cold extremities."
-  },
-  {
    "q": "Tension pneumothorax causes which type of shock?",
    "options": [
     "Cardiogenic",
@@ -3991,17 +3834,6 @@ SINA.lectures["fa-cardiovascular"] = {
    ],
    "answer": 3,
    "why": "As do tamponade and pulmonary embolism."
-  },
-  {
-   "q": "Anaphylactic shock belongs to which family?",
-   "options": [
-    "Hypovolaemic",
-    "Cardiogenic",
-    "Distributive",
-    "Obstructive"
-   ],
-   "answer": 2,
-   "why": "With septic, inflammatory and spinal shock."
   },
   {
    "q": "Acute mitral regurgitation causes shock that is:",
@@ -4024,28 +3856,6 @@ SINA.lectures["fa-cardiovascular"] = {
    ],
    "answer": 0,
    "why": "Burns appear in both lists in the lecture."
-  },
-  {
-   "q": "Which catecholamine is listed for its positive inotropic effect?",
-   "options": [
-    "Dobutamine",
-    "Amiodarone",
-    "Atropine",
-    "Furosemide"
-   ],
-   "answer": 0,
-   "why": "With adrenaline and noradrenaline."
-  },
-  {
-   "q": "Which is NOT a sign of reduced regional blood flow in shock?",
-   "options": [
-    "Oliguria",
-    "Tachycardia",
-    "Bradypnoea",
-    "Confusion"
-   ],
-   "answer": 2,
-   "why": "Patients are tachypnoeic."
   },
   {
    "q": "Which element is at the arrow?",
@@ -4281,7 +4091,10 @@ SINA.lectures["fa-cardiovascular"] = {
     "It leaves mitochondrial energy transfer unchanged",
     "It is defined only by a low haemoglobin"
    ],
-   "answers": [0, 1],
+   "answers": [
+    0,
+    1
+   ],
    "why": "Shock is circulatory failure with cellular energy disturbance; the four families cover pump, volume, vessels and obstruction."
   },
   {
@@ -4292,7 +4105,11 @@ SINA.lectures["fa-cardiovascular"] = {
     "VO₂ = CO × (CaO₂ + CvO₂)",
     "CaO₂ = 1.34 × Hb × SaO₂"
    ],
-   "answers": [0, 1, 3],
+   "answers": [
+    0,
+    1,
+    3
+   ],
    "why": "The Fick equation uses the arteriovenous difference: VO₂ = CO × (CaO₂ − CvO₂)."
   },
   {
@@ -4303,7 +4120,10 @@ SINA.lectures["fa-cardiovascular"] = {
     "Acute mitral regurgitation",
     "Myocardial infarction"
    ],
-   "answers": [2, 3],
+   "answers": [
+    2,
+    3
+   ],
    "why": "Tension pneumothorax is obstructive. Cardiogenic causes: poor contractility, rhythm disorders, mechanical lesions."
   },
   {
@@ -4314,7 +4134,10 @@ SINA.lectures["fa-cardiovascular"] = {
     "Anaphylaxis",
     "Extensive burns"
    ],
-   "answers": [1, 3],
+   "answers": [
+    1,
+    3
+   ],
    "why": "Anaphylaxis is distributive. Hypovolaemia comes from blood, burn or fluid losses."
   },
   {
@@ -4325,7 +4148,10 @@ SINA.lectures["fa-cardiovascular"] = {
     "Anaphylactic shock",
     "Pulmonary embolism"
    ],
-   "answers": [1, 2],
+   "answers": [
+    1,
+    2
+   ],
    "why": "Pulmonary embolism is obstructive. Distributive shock follows vasodilation and capillary leak."
   },
   {
@@ -4336,7 +4162,10 @@ SINA.lectures["fa-cardiovascular"] = {
     "Pulmonary embolism",
     "Cardiac tamponade"
    ],
-   "answers": [2, 3],
+   "answers": [
+    2,
+    3
+   ],
    "why": "Septic shock is distributive and myocarditis is cardiogenic. Tamponade and PE block flow."
   },
   {
@@ -4347,7 +4176,10 @@ SINA.lectures["fa-cardiovascular"] = {
     "Capillary refill over 3 seconds",
     "Warm, bounding extremities"
    ],
-   "answers": [0, 2],
+   "answers": [
+    0,
+    2
+   ],
    "why": "Hypoperfusion gives cold, mottled skin with slow capillary refill."
   },
   {
@@ -4358,19 +4190,12 @@ SINA.lectures["fa-cardiovascular"] = {
     "Oliguria",
     "Tachycardia"
    ],
-   "answers": [1, 2, 3],
-   "why": "Brain and kidney hypoperfusion give confusion and oliguria; tachycardia is compensatory."
-  },
-  {
-   "q": "Which statement about oxygen delivery is correct?",
-   "options": [
-    "Anaerobic metabolism makes lactate fall in shock",
-    "Haemorrhage lowers TaO₂ by cutting both CO and Hb",
-    "Lactate accumulation causes metabolic alkalosis",
-    "TaO₂ depends on haemoglobin alone, not on flow"
+   "answers": [
+    1,
+    2,
+    3
    ],
-   "answer": 1,
-   "why": "Haemorrhage lowers cardiac output and oxygen-carrying haemoglobin; hypoperfusion raises lactate and causes metabolic acidosis."
+   "why": "Brain and kidney hypoperfusion give confusion and oliguria; tachycardia is compensatory."
   },
   {
    "q": "Which belong to haemodynamic assessment of shock? (choose all)",
@@ -4380,7 +4205,10 @@ SINA.lectures["fa-cardiovascular"] = {
     "Spirometry",
     "Arterial pressure monitoring"
    ],
-   "answers": [0, 3],
+   "answers": [
+    0,
+    3
+   ],
    "why": "Spirometry assesses lung volumes, not circulation."
   }
  ],
@@ -4776,17 +4604,6 @@ SINA.lectures["fa-respiratory"] = {
    "why": "Brainstem, nerves, muscles or chest wall: opioid overdose, Guillain–Barré, flail chest."
   },
   {
-   "q": "Which is an example of tissue hypoxia with normal lungs?",
-   "options": [
-    "Pneumonia",
-    "CO poisoning",
-    "Pulmonary fibrosis",
-    "Asthma"
-   ],
-   "answer": 1,
-   "why": "The blood component: anaemia, CO poisoning, shock."
-  },
-  {
    "q": "During a quiet inspiration, pleural pressure goes from about:",
    "options": [
     "−40 to −60 cmH₂O",
@@ -4996,17 +4813,6 @@ SINA.lectures["fa-respiratory"] = {
    "why": "Right shift with ↑ temperature, ↑ PCO₂, ↑ 2,3-DPG, ↓ pH: O₂ is released more easily."
   },
   {
-   "q": "Most CO₂ is carried in blood as:",
-   "options": [
-    "Carboxyhaemoglobin",
-    "Dissolved CO₂",
-    "Carbamino compounds",
-    "Bicarbonate"
-   ],
-   "answer": 3,
-   "why": "≈ 70% bicarbonate, 20% carbamino, 10% dissolved."
-  },
-  {
    "q": "Deep, fast breathing in diabetic ketoacidosis is called:",
    "options": [
     "Biot breathing",
@@ -5038,17 +4844,6 @@ SINA.lectures["fa-respiratory"] = {
    ],
    "answer": 3,
    "why": "Air left after a normal expiration."
-  },
-  {
-   "q": "Pulse oximetry tells you:",
-   "options": [
-    "Oxygenation only, not CO₂",
-    "Ventilation",
-    "Both O₂ and CO₂",
-    "PaCO₂"
-   ],
-   "answer": 0,
-   "why": "A patient on O₂ can have a normal SpO₂ and a rising PaCO₂."
   },
   {
    "q": "Normal ETCO₂ is:",
@@ -5408,94 +5203,6 @@ SINA.lectures["fa-respiratory"] = {
    "why": "Parenchymal causes impair gas exchange; extraparenchymal ones cause hypoventilation with a normal A–a at first."
   },
   {
-   "q": "Which pairs of failing component and consequence are correct? (choose all)",
-   "options": [
-    "Pneumonia: control and pump failure",
-    "Alveoli and capillary failure: low PaO₂",
-    "Blood failure: tissue hypoxia with normal lungs",
-    "Control and pump failure: hypoventilation with high PaCO₂"
-   ],
-   "answers": [1, 2, 3],
-   "why": "Pneumonia is a gas-exchange (alveolar) failure."
-  },
-  {
-   "q": "Which statements about breathing mechanics are correct? (choose all)",
-   "options": [
-    "Air flows from low to high pressure",
-    "Expiration is an active diaphragm contraction",
-    "During inspiration the diaphragm contracts and pleural pressure falls",
-    "Compliance = ΔV / ΔP"
-   ],
-   "answers": [2, 3],
-   "why": "Air always flows from high to low pressure."
-  },
-  {
-   "q": "Which statement about lung compliance is correct?",
-   "options": [
-    "It is high in pulmonary fibrosis and in ARDS cases",
-    "It is high in pulmonary oedema with stiff lungs",
-    "It is low in emphysema, which stiffens the lung",
-    "It is high in emphysema: easy to fill, hard to empty"
-   ],
-   "answer": 3,
-   "why": "Fibrosis, ARDS and oedema give a stiff lung with low compliance; emphysema gives high compliance with air trapping."
-  },
-  {
-   "q": "Which statements about airway resistance are correct? (choose all)",
-   "options": [
-    "Halving the radius multiplies resistance by 16",
-    "Vagal M3 stimulation causes bronchodilation",
-    "Resistance is proportional to 1/r⁴",
-    "Salbutamol blocks vagal M3 receptors"
-   ],
-   "answers": [0, 2],
-   "why": "Ipratropium blocks M3; salbutamol is a β2 agonist."
-  },
-  {
-   "q": "Which statements about ventilation are correct? (choose all)",
-   "options": [
-    "Fast shallow breathing increases alveolar ventilation",
-    "Anatomical dead space is about 150 mL",
-    "VE = VT × RR",
-    "VA = (VT − VD) × RR"
-   ],
-   "answers": [1, 2, 3],
-   "why": "Fast shallow breathing wastes ventilation on dead space."
-  },
-  {
-   "q": "Which statements about V/Q mismatch are correct? (choose all)",
-   "options": [
-    "Low V/Q does not improve with oxygen",
-    "Dead space occurs in pneumonia",
-    "Shunt (V/Q = 0) occurs in pneumonia and atelectasis",
-    "Hypoxic vasoconstriction redirects blood to ventilated alveoli"
-   ],
-   "answers": [2, 3],
-   "why": "Dead space (V/Q = ∞) is typical of pulmonary embolism."
-  },
-  {
-   "q": "Which statements about gas diffusion are correct? (choose all)",
-   "options": [
-    "Transfer rises with the pressure difference and diffusion constant",
-    "CO₂ diffuses about 20 times faster than O₂",
-    "A diffusion problem gives hypoxaemia with normal or low PaCO₂",
-    "Transfer falls as the diffusing area increases"
-   ],
-   "answers": [0, 1, 2],
-   "why": "Transfer rises with area, pressure difference and diffusion constant, and falls with thickness."
-  },
-  {
-   "q": "Which shift the O₂–Hb curve to the right? (choose all)",
-   "options": [
-    "Higher pH",
-    "Lower temperature",
-    "Higher temperature",
-    "Higher PCO₂"
-   ],
-   "answers": [2, 3],
-   "why": "A fall in pH (acidosis) shifts the curve right."
-  },
-  {
    "q": "Which statements about CO₂ transport are correct? (choose all)",
    "options": [
     "About 20% is carried as carbamino compounds",
@@ -5503,7 +5210,11 @@ SINA.lectures["fa-respiratory"] = {
     "About 70% is carried as bicarbonate",
     "About 10% is dissolved"
    ],
-   "answers": [0, 2, 3],
+   "answers": [
+    0,
+    2,
+    3
+   ],
    "why": "Carbonic anhydrase makes bicarbonate in red cells."
   },
   {
@@ -5514,41 +5225,166 @@ SINA.lectures["fa-respiratory"] = {
     "SpO₂ reflects oxygenation, not CO₂",
     "ETCO₂ is normally higher than PaCO₂"
    ],
-   "answers": [0, 1, 2],
+   "answers": [
+    0,
+    1,
+    2
+   ],
    "why": "ETCO₂ is 2 to 5 mmHg below PaCO₂."
   },
   {
-   "q": "Which statements about hypoxaemia are correct? (choose all)",
+   "q": "A patient's alveolar ventilation falls while CO₂ production stays the same. What happens to PaCO₂?",
    "options": [
-    "A high A–a gradient points to hypoventilation",
-    "Hypoxaemia with a normal A–a gradient suggests hypoventilation or low inspired O₂",
-    "A normal A–a gradient is below 10 to 15 mmHg",
-    "SaO₂ below 90% corresponds to PaO₂ of about 60 mmHg"
+    "It rises",
+    "It falls",
+    "It stays the same",
+    "It rises only if PaO₂ is normal"
    ],
-   "answers": [1, 2, 3],
-   "why": "A high gradient means V/Q mismatch, shunt or diffusion."
+   "answer": 0,
+   "why": "PaCO₂ is the mirror of alveolar ventilation: when ventilation is too low for the CO₂ produced, PaCO₂ rises (hypercapnia slide)."
   },
   {
-   "q": "Which statements about spirometry patterns are correct? (choose all)",
+   "q": "Breathing room air, a patient's PaCO₂ rises from 40 to 80 mmHg. What happens to the alveolar PO₂ (PAO₂)?",
    "options": [
-    "Restrictive disorders lower TLC",
-    "Restrictive disorders raise RV and FRC",
-    "Reversibility of 5% suggests asthma",
-    "Obstructive disorders lower FEV₁/FVC"
+    "It rises",
+    "It falls, so hypoxaemia appears with a normal A–a gradient",
+    "It stays at 100 mmHg",
+    "It falls, with a high A–a gradient"
    ],
-   "answers": [0, 3],
-   "why": "Raised RV and FRC (air trapping) belong to obstructive disease."
+   "answer": 1,
+   "why": "PAO₂ ≈ PiO₂ − PaCO₂/0.8: more CO₂ in the alveoli leaves less room for O₂. Hypoventilation gives hypercapnia plus hypoxaemia with a normal A–a gradient."
   },
   {
-   "q": "Which are correct first-hour measures in respiratory failure? (choose all)",
+   "q": "A patient with acute hypoventilation has a rising PaCO₂. What happens to blood pH?",
    "options": [
-    "Target 88 to 92% if at risk of CO₂ retention",
-    "ABC with continuous monitoring",
-    "Oxygen treats the cause as well as the number",
-    "Oxygen to SpO₂ 99 to 100%"
+    "It rises: respiratory alkalosis",
+    "It falls: respiratory acidosis",
+    "It stays normal at once",
+    "It falls: metabolic acidosis"
    ],
-   "answers": [0, 1],
-   "why": "Oxygen treats the number, not the cause: treat the mechanism."
+   "answer": 1,
+   "why": "Acute hypercapnia causes respiratory acidosis (↓ pH) (hypercapnia slide)."
+  },
+  {
+   "q": "During a panic attack, ventilation rises and PaCO₂ falls. What follows?",
+   "options": [
+    "Respiratory acidosis",
+    "Respiratory alkalosis, with tingling and dizziness",
+    "Metabolic acidosis",
+    "Hypoxaemia with a high A–a gradient"
+   ],
+   "answer": 1,
+   "why": "Hyperventilation lowers PaCO₂ and causes respiratory alkalosis, with tingling and dizziness."
+  },
+  {
+   "q": "Dead space rises after a pulmonary embolism while minute ventilation stays the same. What happens?",
+   "options": [
+    "PaCO₂ tends to rise and the PaCO₂–ETCO₂ gap widens",
+    "PaCO₂ falls and ETCO₂ rises",
+    "Nothing, because ventilation is unchanged",
+    "SpO₂ rises"
+   ],
+   "answer": 0,
+   "why": "Ventilated but poorly perfused lung is wasted ventilation: PaCO₂ rises when dead space increases, and the PaCO₂–ETCO₂ gap widens with dead space (hypercapnia and monitoring slides)."
+  },
+  {
+   "q": "A septic patient with fever produces more CO₂ but has weak respiratory muscles. What happens to PaCO₂?",
+   "options": [
+    "It falls",
+    "It stays normal whatever happens",
+    "It rises, because ventilation cannot increase",
+    "It rises only if the A–a gradient is high"
+   ],
+   "answer": 2,
+   "why": "Increased CO₂ production (fever, sepsis, overfeeding) raises PaCO₂ only when ventilation cannot increase to match it (hypercapnia slide)."
+  },
+  {
+   "q": "A patient with COPD and chronic CO₂ retention is given high-flow oxygen to an SpO₂ of 99%. What can happen?",
+   "options": [
+    "PaCO₂ falls",
+    "PaCO₂ rises",
+    "Nothing changes",
+    "The A–a gradient becomes zero"
+   ],
+   "answer": 1,
+   "why": "Too much O₂ makes PaCO₂ rise in chronic CO₂ retention (worse V/Q, Haldane effect, less drive), so the target SpO₂ is 88–92%."
+  },
+  {
+   "q": "Exercising muscle becomes warmer, more acidic and richer in CO₂. What happens to haemoglobin's hold on oxygen?",
+   "options": [
+    "It holds O₂ more tightly (left shift)",
+    "It releases O₂ more easily (right shift)",
+    "Nothing changes",
+    "It stops carrying O₂"
+   ],
+   "answer": 1,
+   "why": "↑ temperature, ↑ PCO₂, ↑ 2,3-DPG and ↓ pH shift the O₂–Hb curve to the right: O₂ is released more easily to tissues."
+  },
+  {
+   "q": "Haemoglobin falls to 7 g/dL in a patient with normal lungs. What happens?",
+   "options": [
+    "SpO₂ falls to about 50%",
+    "PaO₂ falls",
+    "SpO₂ stays about 99%, but O₂ content is roughly halved",
+    "O₂ content rises to compensate"
+   ],
+   "answer": 2,
+   "why": "In anaemia, PaO₂ and SaO₂ are normal but O₂ content is low: Hb 7 g/dL gives about half the O₂ content with SpO₂ still 99%."
+  },
+  {
+   "q": "A patient's cardiac output falls in shock, with normal lungs and haemoglobin. What happens to oxygen?",
+   "options": [
+    "PaO₂ falls first",
+    "O₂ content falls",
+    "O₂ content is normal, but delivery to the tissues falls",
+    "SpO₂ falls to below 90%"
+   ],
+   "answer": 2,
+   "why": "With low cardiac output, O₂ content is normal but delivery to the tissues falls: hypoxaemia and tissue hypoxia are not the same."
+  },
+  {
+   "q": "A patient breathes at a higher lung volume. What happens to airway resistance?",
+   "options": [
+    "It rises, because the lung is stiffer",
+    "It falls, because radial traction pulls the airways open",
+    "It does not change",
+    "It rises, because surfactant falls"
+   ],
+   "answer": 1,
+   "why": "Airway resistance falls as lung volume increases: the expanded lung pulls the airways open (radial traction). This is why asthma and COPD patients hyperinflate."
+  },
+  {
+   "q": "A patient's alveolar membrane thickens (interstitial fibrosis). What happens first?",
+   "options": [
+    "PaCO₂ rises at rest",
+    "PaO₂ falls, mainly on exercise, with a normal or low PaCO₂",
+    "SpO₂ rises",
+    "Lung compliance rises"
+   ],
+   "answer": 1,
+   "why": "A thicker membrane slows O₂ transfer; PaO₂ falls mainly on exercise. CO₂ diffuses about 20 times faster, so PaCO₂ stays normal or low."
+  },
+  {
+   "q": "Lung surfactant is lacking. What happens to compliance and the alveoli?",
+   "options": [
+    "Compliance rises and alveoli over-inflate",
+    "Compliance falls and small alveoli collapse at end-expiration",
+    "Compliance is unchanged",
+    "Airway resistance falls"
+   ],
+   "answer": 1,
+   "why": "Surfactant raises compliance and keeps small alveoli open. Without it, compliance falls and alveoli collapse (atelectasis), as in neonatal respiratory distress syndrome."
+  },
+  {
+   "q": "Chest wall compliance falls, for example after deep circumferential chest burns. What happens to lung volumes?",
+   "options": [
+    "FRC and TLC rise",
+    "FRC and TLC fall",
+    "Only RV rises",
+    "Lung volumes do not change"
+   ],
+   "answer": 1,
+   "why": "A stiff chest wall lowers FRC and TLC (compliance slide: ↓ chest wall compliance → ↓ FRC, ↓ TLC, e.g. burns)."
   }
  ],
  "cards": [
@@ -8985,4 +8821,4 @@ SINA.lectures["fa-digestive"] = {
  "verified": "22 Sep 2026"
 };
 /* lecture slides for each question (page of the lecture PDF; the green box is in highlights.js) */
-(function (m) { Object.keys(m).forEach(function (id) { var L = SINA.lectures[id]; if (!L) return; Object.keys(m[id]).forEach(function (i) { var q = L.mcqs[i], n = m[id][i]; if (q && !q.slides) q.slides = [{ src: "files/slides/" + id + "/" + (n < 10 ? "0" : "") + n + ".jpg", lec: L.title, n: n }]; }); }); })({"fa-protection":{"0":3,"1":7,"2":13,"3":14,"4":16,"5":21,"6":12,"7":27,"8":35,"9":39,"10":37,"11":44,"12":44,"13":10,"14":12,"15":14,"16":21,"17":24,"18":26,"19":35,"20":37,"21":41,"22":44,"23":46,"24":15,"25":9},"fa-cardiac-arrest":{"0":2,"1":5,"2":6,"3":11,"4":12,"5":14,"6":14,"7":22,"8":24,"9":27,"11":13,"12":14,"13":5,"14":6,"15":11,"16":13,"17":14,"18":14,"19":22,"20":24,"21":27,"22":25,"24":6},"fa-bleeding":{"0":4,"1":12,"2":8,"3":11,"4":11,"5":12,"6":10,"7":16,"8":16,"9":4,"10":11,"11":5,"12":10,"13":11,"14":11,"15":12,"16":12,"17":10,"18":16,"19":16},"fa-trauma-burns":{"0":4,"1":5,"2":5,"3":6,"4":6,"5":15,"7":20,"8":24,"9":25,"10":26,"11":27,"12":25,"13":5,"14":5,"15":6,"16":15,"17":20,"18":22,"19":24,"20":25,"21":25,"22":26,"23":26,"24":27},"fa-neural":{"0":11,"1":45,"2":20,"3":13,"4":14,"5":17,"6":19,"7":33,"8":22,"9":40,"16":45,"17":19,"18":19,"19":14,"20":23,"21":40,"22":41,"23":40,"25":22,"26":19,"27":17,"28":44,"30":42,"31":40},"fa-cardiovascular":{"0":2,"1":2,"2":9,"3":10,"4":12,"5":13,"6":14,"7":20,"8":28,"9":29,"10":32,"11":34,"12":37,"13":20,"14":9,"15":10,"16":12,"17":13,"18":14,"19":20,"20":34,"21":32,"22":28,"24":37,"32":30,"33":28,"34":33,"35":34,"37":12,"39":13,"40":15,"41":9,"42":36,"43":20,"44":29,"45":32,"46":2,"47":12,"48":28,"49":29,"50":32,"51":34,"52":20,"53":20,"54":12,"55":22},"fa-respiratory":{"0":3,"1":3,"2":3,"3":12,"4":12,"6":19,"7":18,"8":18,"9":24,"10":22,"11":23,"12":25,"13":28,"14":59,"15":32,"16":34,"17":35,"18":38,"19":38,"20":38,"21":39,"22":41,"23":44,"24":50,"25":50,"26":52,"27":52,"28":56,"29":56,"30":59,"31":60,"32":62,"33":60,"34":67,"35":66,"36":66,"43":3,"44":24,"45":25,"46":25,"47":19,"48":14,"49":56,"50":56,"52":38,"53":41,"54":44,"55":52,"56":52,"57":60,"58":62,"59":3,"60":13,"61":19,"62":24,"63":25,"64":38,"65":32,"66":39,"67":41,"68":52,"69":56,"70":67,"71":67},"fa-renal":{"0":5,"2":14,"3":15,"4":17,"5":24,"6":31,"7":32,"8":34,"9":34,"10":40,"11":51,"12":53,"13":56,"14":54,"15":5,"16":5,"18":14,"19":17,"20":31,"21":34,"22":34,"23":38,"24":51,"25":53,"26":48},"fa-endocrine":{"0":6,"1":11,"2":18,"3":19,"4":22,"5":22,"6":18,"7":25,"8":27,"9":30,"10":32,"11":31,"12":35,"14":42,"15":40,"16":11,"17":18,"18":22,"20":21,"21":21,"22":27,"23":31,"24":31,"25":32,"27":42,"28":40},"fa-immune":{"0":44,"1":10,"2":14,"3":24,"4":38,"5":30,"6":30,"7":31,"8":33,"9":34,"10":35,"11":37,"12":38,"13":42,"14":43,"15":31,"16":10,"17":14,"18":24,"19":30,"20":30,"21":32,"22":33,"23":35,"24":37,"25":39,"26":42,"27":43,"28":41},"fa-digestive":{"0":12,"1":12,"2":15,"3":19,"4":21,"5":20,"6":22,"7":22,"8":26,"9":29,"10":48,"11":35,"12":39,"13":41,"14":47,"15":20,"16":12,"17":21,"18":20,"19":22,"20":22,"21":29,"22":48,"23":35,"24":40,"25":36,"26":41,"27":26}});
+(function (m) { Object.keys(m).forEach(function (id) { var L = SINA.lectures[id]; if (!L) return; Object.keys(m[id]).forEach(function (i) { var q = L.mcqs[i], n = m[id][i]; if (q && !q.slides) q.slides = [{ src: "files/slides/" + id + "/" + (n < 10 ? "0" : "") + n + ".jpg", lec: L.title, n: n }]; }); }); })({"fa-protection":{"0":3,"1":7,"2":13,"3":14,"4":16,"5":21,"6":12,"7":27,"8":35,"9":39,"10":37,"11":44,"12":44,"13":10,"14":12,"15":14,"16":21,"17":24,"18":26,"19":35,"20":37,"21":41,"22":44,"23":46,"24":15,"25":9},"fa-cardiac-arrest":{"0":2,"1":5,"2":6,"3":11,"4":12,"5":14,"6":14,"7":22,"8":24,"9":27,"11":13,"12":14,"13":5,"14":6,"15":11,"16":13,"17":14,"18":14,"19":22,"20":24,"21":27,"22":25,"24":6},"fa-bleeding":{"0":4,"1":12,"2":8,"3":11,"4":11,"5":12,"6":10,"7":16,"8":16,"9":4,"10":11,"11":5,"12":10,"13":11,"14":11,"15":12,"16":12,"17":10,"18":16,"19":16},"fa-trauma-burns":{"0":4,"1":5,"2":5,"3":6,"4":6,"5":15,"7":20,"8":24,"9":25,"10":26,"11":27,"12":25,"13":5,"14":5,"15":6,"16":15,"17":20,"18":22,"19":24,"20":25,"21":25,"22":26,"23":26,"24":27},"fa-neural":{"0":11,"1":45,"2":20,"3":13,"4":14,"5":17,"6":19,"7":33,"8":22,"9":40,"16":45,"17":19,"18":19,"19":14,"20":23,"21":40,"22":41,"23":40,"25":22,"26":19,"27":17,"28":44,"30":42,"31":40,"33":13},"fa-cardiovascular":{"0":2,"1":2,"2":37,"3":10,"4":13,"5":14,"6":34,"7":28,"15":30,"16":28,"17":33,"18":34,"20":12,"22":13,"23":15,"24":9,"25":36,"26":20,"27":29,"28":32,"29":2,"30":12,"31":28,"32":29,"33":32,"34":34,"35":20,"36":20,"37":22},"fa-respiratory":{"0":3,"1":3,"2":12,"3":12,"5":19,"6":18,"7":18,"8":24,"9":22,"10":23,"11":25,"12":28,"13":59,"14":32,"15":34,"16":35,"17":38,"18":38,"19":38,"20":39,"21":44,"22":50,"23":50,"24":52,"25":56,"26":56,"27":59,"28":60,"29":62,"30":60,"31":67,"32":66,"33":66,"40":3,"41":24,"42":25,"43":25,"44":19,"45":14,"46":56,"47":56,"49":38,"50":41,"51":44,"52":52,"53":52,"54":60,"55":62,"56":41,"57":52,"58":59,"59":56,"60":59,"61":30,"62":38,"63":59,"64":44,"65":39,"66":42,"67":42,"68":23,"69":34,"70":18,"71":19},"fa-renal":{"0":5,"2":14,"3":15,"4":17,"5":24,"6":31,"7":32,"8":34,"9":34,"10":40,"11":51,"12":53,"13":56,"14":54,"15":5,"16":5,"18":14,"19":17,"20":31,"21":34,"22":34,"23":38,"24":51,"25":53,"26":48},"fa-endocrine":{"0":6,"1":11,"2":18,"3":19,"4":22,"5":22,"6":18,"7":25,"8":27,"9":30,"10":32,"11":31,"12":35,"14":42,"15":40,"16":11,"17":18,"18":22,"20":21,"21":21,"22":27,"23":31,"24":31,"25":32,"27":42,"28":40},"fa-immune":{"0":44,"1":10,"2":14,"3":24,"4":38,"5":30,"6":30,"7":31,"8":33,"9":34,"10":35,"11":37,"12":38,"13":42,"14":43,"15":31,"16":10,"17":14,"18":24,"19":30,"20":30,"21":32,"22":33,"23":35,"24":37,"25":39,"26":42,"27":43,"28":41},"fa-digestive":{"0":12,"1":12,"2":15,"3":19,"4":21,"5":20,"6":22,"7":22,"8":26,"9":29,"10":48,"11":35,"12":39,"13":41,"14":47,"15":20,"16":12,"17":21,"18":20,"19":22,"20":22,"21":29,"22":48,"23":35,"24":40,"25":36,"26":41,"27":26}});
