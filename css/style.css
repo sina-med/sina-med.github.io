@@ -1956,14 +1956,6 @@ body.no-anim #drawer.drawer { transition: none !important; }
 @media (prefers-reduced-motion: reduce) { .site-header, .theme-dot i { transition: none; } }
 #search-input { text-overflow: ellipsis; }
 
-/* big question counter (Nov 2026) */
-.qb-big { display: inline-flex; align-items: baseline; gap: .35rem; line-height: 1; }
-.qb-big b { font: 600 2.1rem/1 var(--serif, "Fraunces", Georgia, serif); color: var(--ink); letter-spacing: -.02em; animation: qbRise .35s cubic-bezier(.2,.7,.2,1); }
-.qb-big small { font-size: .9rem; color: var(--muted); font-weight: 600; }
-.qb-pos { min-height: 2.8rem; }
-@keyframes qbRise { from { opacity: 0; transform: translateY(.35em); } to { opacity: 1; transform: none; } }
-@media (prefers-reduced-motion: reduce) { .qb-big b { animation: none; } }
-
 /* 44px tap targets and safe areas (Nov 2026) */
 @media (pointer: coarse) {
   .btn, .qbar .btn, .qb-mark, .qb-pos, .prog-btn, .news-btn, .search-toggle, .gear-btn, .menu-btn, .pill-btn { min-height: 44px; }
