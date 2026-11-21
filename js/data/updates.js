@@ -9,7 +9,7 @@ SINA.updates = [
     "Added: 14 past papers for First Aid and Pathological Anatomy.",
     "Fixed: 1 reported question, Anatomy 1, Muscular compartments of the hand.",
     "Added: more physiology questions on respiratory, neural and cardiovascular vital functions, with the lecture slide for each question.",
-    "Fixed: 2 reported questions, Vital Functions & First Aid, Neural function."
+    "Fixed: 3 reported questions, Vital Functions & First Aid, Neural function."
   ] },
   { date: "16 November 2026", items: [
     "Added: Clinidle, a daily clinical case for the 1st and 2nd year: guess the diagnosis stage by stage, with clues, a debrief and a weekly leaderboard.",

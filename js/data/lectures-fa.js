@@ -2992,9 +2992,9 @@ SINA.lectures["fa-neural"] = {
   {
    "q": "From what ICP is it considered raised?",
    "options": [
-    "10 mmHg",
-    "5 mmHg",
-    "100 mmHg",
+    "10 mmHg or more",
+    "15 mmHg or more",
+    "40 mmHg or more",
     "20 mmHg or more"
    ],
    "answer": 3,
