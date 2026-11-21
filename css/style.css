@@ -1928,3 +1928,16 @@ nav.quick { max-width: none; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .site-header { z-index: 60; }
 @media (prefers-reduced-motion: reduce) { #drawer.drawer, .drawer .ouro, .drawer .mrow .ml, .menu-btn span { transition: none !important; } .drawer .ouro-r { animation: none !important; } .drawer .mrow .ml { transform: none; opacity: 1; } }
 body.no-anim #drawer.drawer { transition: none !important; }
+
+/* pathology slide game (Nov 2026) */
+.pl-fig { margin: 12px 0; }
+.pl-field { position: relative; width: min(100%, 26rem); aspect-ratio: 1; margin: 0 auto; border-radius: 50%; overflow: hidden; background: #111; border: 3px solid var(--line-strong); box-shadow: inset 0 0 0 6px rgba(0,0,0,0.35); cursor: grab; touch-action: none; display: flex; align-items: center; justify-content: center; }
+.pl-field.drag { cursor: grabbing; }
+.pl-field:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.pl-field img { width: 100%; height: 100%; object-fit: cover; user-select: none; -webkit-user-drag: none; transform-origin: 50% 50%; will-change: transform; }
+.pl-zoom { display: flex; justify-content: center; gap: 8px; margin-top: 10px; }
+.pl-zoom button { min-width: 44px; min-height: 44px; padding: 0 14px; border: 1px solid var(--line-strong); border-radius: 10px; background: var(--surface); color: var(--ink); font: 700 1rem var(--sans); cursor: pointer; }
+.pl-zoom button:hover { border-color: var(--accent); }
+.wl-hints .pl-field { width: min(100%, 20rem); }
+.pl-cred { margin: 6px 0 0; padding-left: 18px; font-size: 0.85rem; color: var(--muted); }
+.pl-cred a { color: inherit; text-decoration: underline; }
