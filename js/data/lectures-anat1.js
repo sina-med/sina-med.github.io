@@ -3804,7 +3804,7 @@ SINA.lectures["anat1-hand-muscles"] = {
     "Median nerve"
    ],
    "answer": 2,
-   "why": "A deep thenar muscle.",
+   "why": "Although it is the deepest thenar muscle, the adductor pollicis is supplied by the ulnar nerve (deep branch), like the deep head of flexor pollicis brevis. The other thenar muscles (APB, OP, superficial FPB) are supplied by the thenar branch of the median nerve.",
    "slides": [
     {
      "src": "files/slides/anat1-hand-muscles/02.jpg",
