@@ -3277,6 +3277,18 @@ SINA.lectures["fa-neural"] = {
     "CPP of 40 mmHg is below 60, so autoregulation has failed.",
     "Nothing here points to excess CSF production.",
     "CPP below 60 mmHg is ischaemic: 65 − 25 = 40."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-neural-26/20.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 20
+    },
+    {
+     "src": "files/slides/fa-neural-26/19.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 19
+    }
    ]
   },
   {
@@ -4092,6 +4104,18 @@ SINA.lectures["fa-neural"] = {
     "The Cushing response raises MAP to keep CPP = MAP − ICP adequate. The priority is lowering ICP and treating the cause, not the BP.",
     "Bradycardia here comes from the Cushing response.",
     "BP lowering doesn't change CSF production."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-neural-26/37.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 37
+    },
+    {
+     "src": "files/slides/fa-neural-26/19.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 19
+    }
    ]
   },
   {
@@ -4109,6 +4133,18 @@ SINA.lectures["fa-neural"] = {
     "MAP ≈ 40 + 40/3 ≈ 53 mmHg; CPP ≈ 53 − 25 ≈ 28 mmHg, far below 60 — haemorrhagic shock adds ischaemia to the brain injury.",
     "Nothing suggests hydrocephalus.",
     "The Cushing response raises BP; here BP has fallen."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-neural-26/21.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 21
+    },
+    {
+     "src": "files/slides/fa-neural-26/20.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 20
+    }
    ]
   },
   {
@@ -4967,6 +5003,11 @@ SINA.lectures["fa-cardiovascular"] = {
    ],
    "slides": [
     {
+     "src": "files/slides/fa-cardiovascular-26/09.jpg",
+     "lec": "Cardiovascular function: shock",
+     "n": 9
+    },
+    {
      "src": "files/slides/fa-cardiovascular-26/15.jpg",
      "lec": "Cardiovascular function: shock",
      "n": 15
@@ -5532,6 +5573,18 @@ SINA.lectures["fa-cardiovascular"] = {
     "Massive pulmonary embolism overloads the right ventricle (raised afterload) and blocks the circuit: obstructive shock with high CVP; treatment includes thrombolysis.",
     "Hypovolaemia gives flat neck veins.",
     "Anaphylaxis gives warm flushed skin, wheeze, and a low CVP."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-cardiovascular-26/38.jpg",
+     "lec": "Cardiovascular function: shock",
+     "n": 38
+    },
+    {
+     "src": "files/slides/fa-cardiovascular-26/09.jpg",
+     "lec": "Cardiovascular function: shock",
+     "n": 9
+    }
    ]
   },
   {

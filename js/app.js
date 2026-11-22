@@ -50,7 +50,13 @@
       /* each of these has a hand-written, specific stem in js/data/stepq.js ("" = dropped); the old generic stem is only a fallback */
       var sk = lid + "|" + u, own = S.stepQ && S.stepQ[sk];
       if (own === "") return;
-      L.mcqs.push({ q: own || (topic + ": which step is this? \u201c" + d.replace(/\.$/, "") + ".\u201d"), options: opts, answer: opts.indexOf(nm), why: own ? "\u201c" + d.replace(/\.$/, "") + ".\u201d This describes " + nm + "." : "This describes " + nm + ".", _sk: sk });
+      var mq = { q: own || (topic + ": which step is this? \u201c" + d.replace(/\.$/, "") + ".\u201d"), options: opts, answer: opts.indexOf(nm), why: own ? "\u201c" + d.replace(/\.$/, "") + ".\u201d This describes " + nm + "." : "This describes " + nm + ".", _sk: sk };
+      /* every option explained: a wrong option is another part of the same diagram, so say what that part is */
+      var byName = {}; order.forEach(function (x) { byName[info[x].name] = info[x].desc; });
+      mq.notes = opts.map(function (o) { return o === nm ? mq.why : (byName[o] ? o + ": " + byName[o].replace(/\.?$/, ".") : ""); });
+      var ssl = S.stepSlides && S.stepSlides[sk];
+      if (ssl) mq.slides = ssl.slice(1).map(function (n) { return { src: "files/slides/" + ssl[0] + "/" + (n < 10 ? "0" : "") + n + ".jpg", lec: L.title, n: n }; });
+      L.mcqs.push(mq);
     });
   });
   /* Covered-label questions (model A): real labelled atlas plates, labels hidden under tiles, one tile asked. */
