@@ -2,10 +2,6 @@
    Style: short changelog lines, developer voice (Added / Fixed / Changed), no "you". */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
-  { date: "22 November 2026", items: [
-    "Changed: Neural function and Cardiovascular function now download the 2026-2027 lectures, with questions and slides updated to match.",
-    "Added: 54 more questions on neural, cardiovascular and respiratory vital functions, including shock-type cases and blood gas calculations."
-  ] },
   { date: "21 November 2026", items: [
     "Added: Smart practice (beta), open to everyone until 28 November. Pick it from the menu or the year selector.",
     "Changed: Clinidle cases now include a pathology slide stage; the first appears on 3 December.",
