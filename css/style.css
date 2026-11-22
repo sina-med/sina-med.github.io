@@ -637,6 +637,14 @@ body.noscroll { overflow: hidden; }
 .slide-ref figure { margin: 0; padding: 0 0.9rem 0.9rem; }
 .slide-ref img { display: block; width: 100%; height: auto; border-radius: 6px; border: 1px solid var(--line); background: #fff; }
 .slide-ref figcaption { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; }
+.sl-car { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; overscroll-behavior-x: contain; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+.sl-car::-webkit-scrollbar { display: none; }
+.sl-car:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+.sl-item { flex: 0 0 100%; min-width: 0; scroll-snap-align: start; scroll-snap-stop: always; }
+.sl-nav { display: flex; align-items: center; justify-content: center; gap: 0.9rem; padding: 0 0.9rem 0.9rem; }
+.sl-nav button { min-width: 44px; min-height: 40px; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--bg); color: var(--ink); font: 700 1.05rem var(--sans, inherit); cursor: pointer; }
+.sl-nav button:disabled { opacity: 0.35; cursor: default; }
+.sl-pos { font-size: 0.9rem; color: var(--muted); font-variant-numeric: tabular-nums; min-width: 3.5em; text-align: center; }
 /* lecture page: one download button */
 .srcline { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.8rem; margin: 0.3rem 0 1rem; }
 .dlbtn { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.45rem 0.9rem; border-radius: 8px; background: var(--accent); color: var(--accent-ink); font-weight: 700; font-size: 0.92rem; text-decoration: none; }

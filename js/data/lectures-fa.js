@@ -3048,8 +3048,8 @@ SINA.lectures["fa-neural"] = {
    ],
    "why": "Movement, position, pain, fever, coughing and straining.",
    "notes": [
-    "Movement, position, pain, fever, coughing and straining.",
-    "Fever raises metabolism and cerebral blood flow, so ICP rises transiently.",
+    "Coughing raises intrathoracic pressure, which briefly raises ICP.",
+    "Fever raises metabolism and cerebral blood flow, so ICP rises for a while.",
     "Sleep is not one of the triggers listed; rises come with movement, pain, fever, coughing and straining.",
     "Calm rest keeps ICP at baseline."
    ]
@@ -3412,10 +3412,22 @@ SINA.lectures["fa-neural"] = {
    ],
    "why": "Below 60 is ischaemia; above 160 is hypertensive encephalopathy.",
    "notes": [
-    "Below 60 is ischaemia; above 160 is hypertensive encephalopathy.",
+    "Outside 60 to 160 mmHg, blood flow follows CPP instead of staying constant.",
     "Above 160 mmHg the risk is hypertensive encephalopathy, not ischaemia.",
     "Below 60 mmHg the risk is ischaemia; encephalopathy is the high end.",
-    "CPP = MAP − ICP."
+    "ICP opposes the arterial pressure that perfuses the brain."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-neural-26/20.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 20
+    },
+    {
+     "src": "files/slides/fa-neural-26/19.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 19
+    }
    ]
   },
   {
@@ -3450,10 +3462,22 @@ SINA.lectures["fa-neural"] = {
    ],
    "why": "Cytotoxic oedema is cell swelling; vasogenic oedema is BBB breakdown.",
    "notes": [
-    "Cytotoxic oedema is cell swelling; vasogenic oedema is BBB breakdown.",
-    "Vasogenic oedema: a leaky BBB, typical around tumours.",
-    "Cytotoxic oedema: cells swell after energy failure.",
+    "Hydrocephalus pushes CSF into the periventricular tissue.",
+    "A leaky BBB lets plasma into the brain, typically around tumours.",
+    "Energy failure stops the Na⁺/K⁺ pump, so cells take up water and swell.",
     "BBB breakdown is vasogenic, not cytotoxic."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-neural-26/29.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 29
+    },
+    {
+     "src": "files/slides/fa-neural-26/30.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 30
+    }
    ]
   },
   {
@@ -3472,9 +3496,21 @@ SINA.lectures["fa-neural"] = {
    "why": "Shunts treat hydrocephalus, not haematoma.",
    "notes": [
     "An acute epidural haematoma needs a burr hole or craniotomy, not a shunt.",
-    "Shunts treat hydrocephalus, not haematoma.",
-    "",
-    ""
+    "Drains CSF from the ventricles and can also measure ICP.",
+    "Removes a mass such as a tumour or haematoma.",
+    "A shunt diverts CSF away in hydrocephalus."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-neural-26/46.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 46
+    },
+    {
+     "src": "files/slides/fa-neural-26/47.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 47
+    }
    ]
   },
   {
@@ -3491,9 +3527,9 @@ SINA.lectures["fa-neural"] = {
    ],
    "why": "Steroids reduce CSF production and restore membrane permeability.",
    "notes": [
-    "Steroids reduce CSF production and restore membrane permeability.",
+    "Less CSF means less intracranial volume.",
     "Steroids reduce oedema, so brain volume falls rather than rises.",
-    "",
+    "Steroids tighten the leaky barrier that causes vasogenic oedema.",
     "Steroids restore membrane permeability; they don't increase the leak."
    ]
   },
@@ -3655,9 +3691,9 @@ SINA.lectures["fa-neural"] = {
    ],
    "why": "The BBB modulates the entry of substrates such as glucose, controls ion movements (Na⁺/K⁺ ATPase) and prevents toxins and peripheral neurotransmitters from reaching the CNS.",
    "notes": [
-    "The BBB modulates the entry of substrates such as glucose, controls ion movements (Na⁺/K⁺ ATPase) and prevents toxins and peripheral neurotransmitters from reaching the CNS.",
-    "",
-    "",
+    "The BBB controls how glucose enters the brain.",
+    "Na⁺/K⁺ ATPase moves these ions to keep the brain's fluid stable.",
+    "The barrier keeps these out of the CNS.",
     "CSF is made by the choroid plexus, not the BBB."
    ]
   },
@@ -3727,10 +3763,22 @@ SINA.lectures["fa-neural"] = {
    ],
    "why": "Intense headache, visual symptoms, drowsiness and projectile vomiting; papilloedema and CN VI palsy on examination; in infants a BULGING fontanelle.",
    "notes": [
-    "Intense headache, visual symptoms, drowsiness and projectile vomiting; papilloedema and CN VI palsy on examination; in infants a BULGING fontanelle.",
-    "",
-    "",
+    "Vomiting without nausea is a classic symptom of raised ICP.",
+    "Raised ICP is passed along the optic nerve sheath and swells the disc.",
+    "CN VI has a long course and is stretched easily by raised ICP.",
     "Infants with raised ICP have a bulging fontanelle; a sunken one suggests dehydration."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-neural-26/36.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 36
+    },
+    {
+     "src": "files/slides/fa-neural-26/37.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 37
+    }
    ]
   },
   {
@@ -3952,9 +4000,9 @@ SINA.lectures["fa-neural"] = {
    ],
    "why": "Choroid plexus papilloma increases CSF production; the other three block its absorption.",
    "notes": [
-    "Choroid plexus papilloma increases CSF production; the other three block its absorption.",
-    "",
-    "",
+    "CSF is made normally but not absorbed into the venous sinuses.",
+    "Scarred granulations can't absorb CSF.",
+    "Blood clogs the arachnoid granulations.",
     "A papilloma raises CSF production, not absorption."
    ]
   },
@@ -3973,9 +4021,9 @@ SINA.lectures["fa-neural"] = {
    ],
    "why": "Etiologies include TBI, haemorrhage, mass lesions (tumour, haematoma), CNS infections (encephalitis, abscess), ischaemic stroke and vasculitis.",
    "notes": [
-    "Etiologies include TBI, haemorrhage, mass lesions (tumour, haematoma), CNS infections (encephalitis, abscess), ischaemic stroke and vasculitis.",
-    "",
-    "",
+    "A mass lesion that adds volume inside the skull.",
+    "An infection that causes brain swelling.",
+    "A haematoma adds volume inside the fixed skull.",
     "Septic shock is not a cause of raised ICP listed in the lecture."
    ]
   },
@@ -3994,10 +4042,22 @@ SINA.lectures["fa-neural"] = {
    ],
    "why": "Altered mental status, seizures, focal signs and the Cushing triad (with irregular respiration) are signs of raised ICP.",
    "notes": [
-    "Altered mental status, seizures, focal signs and the Cushing triad (with irregular respiration) are signs of raised ICP.",
-    "",
-    "",
+    "Low perfusion or brain compression lowers consciousness.",
+    "Raised ICP can irritate the cortex and trigger seizures.",
+    "Part of the Cushing triad: brainstem compression.",
     "Lower limb oedema is peripheral, not a sign of raised ICP."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-neural-26/38.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 38
+    },
+    {
+     "src": "files/slides/fa-neural-26/37.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 37
+    }
    ]
   },
   {
@@ -4900,10 +4960,22 @@ SINA.lectures["fa-cardiovascular"] = {
    ],
    "why": "The Fick equation uses the arteriovenous difference: VO₂ = CO × (CaO₂ − CvO₂).",
    "notes": [
-    "The Fick equation uses the arteriovenous difference: VO₂ = CO × (CaO₂ − CvO₂).",
-    "",
+    "Cardiac output = volume per beat × beats per minute.",
+    "Pressure = flow × resistance (Ohm's law for the circulation).",
     "Wrong: the Fick equation uses the difference (CaO₂ − CvO₂), not the sum.",
-    ""
+    "Each gram of saturated Hb carries 1.34 mL of O₂."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-cardiovascular-26/15.jpg",
+     "lec": "Cardiovascular function: shock",
+     "n": 15
+    },
+    {
+     "src": "files/slides/fa-cardiovascular-26/19.jpg",
+     "lec": "Cardiovascular function: shock",
+     "n": 19
+    }
    ]
   },
   {
@@ -4922,8 +4994,8 @@ SINA.lectures["fa-cardiovascular"] = {
    "notes": [
     "Tension pneumothorax is obstructive.",
     "Pulmonary embolism is obstructive.",
-    "A mechanical lesion of the heart (cardiogenic).",
-    ""
+    "A valve lesion: the pump can't move blood forward.",
+    "Dead muscle can't contract: the commonest cause of pump failure."
    ]
   },
   {
@@ -4941,9 +5013,9 @@ SINA.lectures["fa-cardiovascular"] = {
    "why": "Anaphylaxis is distributive. Hypovolaemia comes from blood, burn or fluid losses.",
    "notes": [
     "Tamponade is obstructive.",
-    "Anaphylaxis is distributive. Hypovolaemia comes from blood, burn or fluid losses.",
+    "Blood loss empties the circulation.",
     "Anaphylaxis is distributive.",
-    "Burns lose plasma: hypovolaemic (plus inflammatory distributive)."
+    "Plasma leaks out through burnt skin."
    ]
   },
   {
@@ -4961,8 +5033,8 @@ SINA.lectures["fa-cardiovascular"] = {
    "why": "Pulmonary embolism is obstructive. Distributive shock follows vasodilation and capillary leak.",
    "notes": [
     "Tamponade is obstructive.",
-    "Pulmonary embolism is obstructive. Distributive shock follows vasodilation and capillary leak.",
-    "",
+    "Mediators dilate vessels and make capillaries leak.",
+    "Histamine dilates vessels and makes capillaries leak.",
     "Pulmonary embolism is obstructive."
    ]
   },
@@ -4982,8 +5054,8 @@ SINA.lectures["fa-cardiovascular"] = {
    "notes": [
     "Myocarditis weakens the pump: cardiogenic.",
     "Septic shock is distributive.",
-    "Septic shock is distributive and myocarditis is cardiogenic. Tamponade and PE block flow.",
-    ""
+    "The clot blocks the pulmonary circulation and overloads the right ventricle.",
+    "Fluid around the heart stops it filling."
    ]
   },
   {
@@ -5000,9 +5072,9 @@ SINA.lectures["fa-cardiovascular"] = {
    ],
    "why": "Hypoperfusion gives cold, mottled skin with slow capillary refill.",
    "notes": [
-    "Hypoperfusion gives cold, mottled skin with slow capillary refill.",
+    "Vasoconstriction shuts down flow to the skin.",
     "Warm flushed skin fits early distributive shock (vasodilation), not hypoperfusion.",
-    "",
+    "Slow refill means the skin is poorly perfused.",
     "Warm, bounding extremities mean vasodilation, not poor perfusion."
    ]
   },
@@ -5022,9 +5094,9 @@ SINA.lectures["fa-cardiovascular"] = {
    "why": "Brain and kidney hypoperfusion give confusion and oliguria; tachycardia is compensatory.",
    "notes": [
     "Kidney hypoperfusion gives oliguria, not polyuria.",
-    "Poor brain perfusion causes confusion or drowsiness.",
+    "Poor brain perfusion gives confusion or drowsiness.",
     "Poor kidney perfusion lowers urine output.",
-    "A compensatory sympathetic response."
+    "A compensatory sympathetic response to low output."
    ]
   },
   {
@@ -5041,10 +5113,10 @@ SINA.lectures["fa-cardiovascular"] = {
    ],
    "why": "Spirometry assesses lung volumes, not circulation.",
    "notes": [
-    "Spirometry assesses lung volumes, not circulation.",
+    "Measures pulmonary pressures and cardiac output.",
     "Bone density says nothing about circulation.",
     "Spirometry measures lung volumes, not circulation.",
-    ""
+    "An arterial line gives beat-to-beat blood pressure."
    ]
   },
   {
@@ -5232,9 +5304,9 @@ SINA.lectures["fa-cardiovascular"] = {
    "why": "Preload tells you whether the tank is empty (low CVP: hypovolaemic) or blood is backing up (high CVP: cardiogenic and obstructive).",
    "notes": [
     "Hypovolaemic shock has a LOW CVP (empty tank).",
-    "Preload tells you whether the tank is empty (low CVP: hypovolaemic) or blood is backing up (high CVP: cardiogenic and obstructive).",
+    "The failing pump backs blood up into the veins.",
     "Distributive shock has warm skin early and a low or normal CVP.",
-    ""
+    "Blood can't get past the obstacle, so it backs up into the veins."
    ]
   },
   {
@@ -5354,9 +5426,9 @@ SINA.lectures["fa-cardiovascular"] = {
    ],
    "why": "The three windows (skin, kidney, brain) plus vital signs: oliguria < 0.5 mL/kg/h, hypotension with MAP < 65 mmHg (often late) and lactate > 2 mmol/L; capillary refill is prolonged beyond 3 s.",
    "notes": [
-    "The three windows (skin, kidney, brain) plus vital signs: oliguria < 0.5 mL/kg/h, hypotension with MAP < 65 mmHg (often late) and lactate > 2 mmol/L; capillary refill is prolonged beyond 3 s.",
-    "",
-    "",
+    "Oliguria: the kidney window.",
+    "Hypotension, often a late sign.",
+    "Lactate shows cells are short of oxygen.",
     "A short refill is normal; shock prolongs it beyond 3 seconds."
    ]
   },
@@ -5495,8 +5567,8 @@ SINA.lectures["fa-cardiovascular"] = {
    "notes": [
     "Heart rate is a cardiac factor.",
     "Contractility is a cardiac factor.",
-    "The lecture's diagram groups heart rate and contractility as cardiac factors, and preload and afterload as coupling factors.",
-    ""
+    "Preload links venous return to the heart.",
+    "Afterload links the arteries to the heart."
    ]
   },
   {
@@ -5645,9 +5717,9 @@ SINA.lectures["fa-cardiovascular"] = {
    ],
    "why": "Baroreflex activation (seconds), then adrenaline, renin-angiotensin-aldosterone and ADH (minutes to hours) constrict vessels and retain salt and water — urine output falls, it does not rise.",
    "notes": [
-    "Baroreflex activation (seconds), then adrenaline, renin-angiotensin-aldosterone and ADH (minutes to hours) constrict vessels and retain salt and water — urine output falls, it does not rise.",
-    "",
-    "",
+    "Low pressure is sensed first, within seconds.",
+    "Raises SVR to hold blood pressure.",
+    "The RAAS retains salt and water and constricts vessels.",
     "Urine output falls (oliguria), it does not rise."
    ]
   },
@@ -5666,9 +5738,9 @@ SINA.lectures["fa-cardiovascular"] = {
    ],
    "why": "Hypoperfusion reduces O₂ delivery, cells switch to anaerobic glycolysis and lactic acid accumulates, causing metabolic acidosis.",
    "notes": [
-    "Hypoperfusion reduces O₂ delivery, cells switch to anaerobic glycolysis and lactic acid accumulates, causing metabolic acidosis.",
-    "",
-    "",
+    "Hypoperfusion is the starting point.",
+    "Without O₂, glycolysis ends in lactate.",
+    "Lactate build-up lowers the blood pH.",
     "Ketoacidosis is from diabetes (insulin lack), not shock."
    ]
   },
@@ -6908,10 +6980,10 @@ SINA.lectures["fa-respiratory"] = {
    ],
    "why": "Carbonic anhydrase makes bicarbonate in red cells.",
    "notes": [
-    "Carbonic anhydrase makes bicarbonate in red cells.",
+    "CO₂ binds the amino groups of haemoglobin.",
     "Only about 10% is dissolved.",
-    "",
-    ""
+    "Formed in red cells by carbonic anhydrase.",
+    "The smallest share, but it sets PaCO₂."
    ]
   },
   {
@@ -6929,9 +7001,9 @@ SINA.lectures["fa-respiratory"] = {
    ],
    "why": "ETCO₂ is 2 to 5 mmHg below PaCO₂.",
    "notes": [
-    "ETCO₂ is 2 to 5 mmHg below PaCO₂.",
-    "",
-    "",
+    "The probe reads light absorption, which these conditions disturb.",
+    "Exhaled CO₂ follows ventilation.",
+    "A normal SpO₂ can hide a rising PaCO₂.",
     "ETCO₂ is normally 2 to 5 mmHg lower than PaCO₂."
    ]
   },

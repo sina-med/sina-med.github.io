@@ -2021,6 +2021,26 @@
   window.addEventListener("popstate", function () { if (svOpen) closeViewer(true); });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape" && svOpen) closeViewer(false); });
 
+  /* several slides behind one answer: a swipeable row with arrows and a counter, instead of a long stack */
+  (function () {
+    function upd(car) {
+      var nav = car.nextElementSibling; if (!nav || !nav.classList.contains("sl-nav")) return;
+      var n = car.children.length, i = Math.round(car.scrollLeft / Math.max(1, car.clientWidth));
+      i = Math.max(0, Math.min(n - 1, i));
+      nav.querySelector(".sl-pos").textContent = (i + 1) + " / " + n;
+      nav.querySelector(".sl-prev").disabled = i === 0; nav.querySelector(".sl-next").disabled = i === n - 1;
+    }
+    document.addEventListener("click", function (e) {
+      var b = e.target.closest && e.target.closest(".sl-prev, .sl-next"); if (!b) return;
+      var car = b.parentNode.previousElementSibling; if (!car || !car.classList.contains("sl-car")) return;
+      car.scrollBy({ left: (b.classList.contains("sl-next") ? 1 : -1) * car.clientWidth, behavior: "smooth" });
+    });
+    document.addEventListener("scroll", function (e) { var t = e.target; if (t && t.classList && t.classList.contains("sl-car")) upd(t); }, true);
+    document.addEventListener("keydown", function (e) {
+      var t = e.target; if (!t.classList || !t.classList.contains("sl-car") || (e.key !== "ArrowLeft" && e.key !== "ArrowRight")) return;
+      e.preventDefault(); t.scrollBy({ left: (e.key === "ArrowRight" ? 1 : -1) * t.clientWidth, behavior: "smooth" });
+    });
+  })();
   function slidesHTML(q) {
     if (!q.slides || !q.slides.length) return "";
     var groups = [];
@@ -2028,10 +2048,11 @@
     var unit = q.slides[0].unit || "slide";
     var lbl = groups.map(function (g) { return g.lec + ", " + unit + (g.n.length > 1 ? "s " : " ") + g.n.join(" and "); }).join("; ");
     return '<details class="slide-ref"><summary>See the ' + unit + (q.slides.length > 1 ? "s" : "") + " that explain" + (q.slides.length > 1 ? "" : "s") + " this <span>(" + esc(lbl) + ")</span>" + (q.slides.some(function (s) { return S.slideErr && S.slideErr[s.src]; }) ? ' <em class="slide-err-tag">slide has an error</em>' : "") + "</summary>" +
+      (q.slides.length > 1 ? '<div class="sl-car" tabindex="0" aria-label="Slides: swipe or use the arrows to see each one">' : "") +
       q.slides.map(function (s) {
         var err = S.slideErr && S.slideErr[s.src];
-        return (err ? '<p class="slide-err"><strong>Error on this slide:</strong> ' + esc(err) + "</p>" : "") + '<figure><a class="slide-open" href="' + esc(s.src) + '" data-cap="' + esc(s.lec + ", " + unit + " " + s.n) + '" title="Open full size">' + slideImg(s, unit, q) + '</a><figcaption>' + esc(s.lec) + ", " + unit + " " + s.n + "." + (slideHL(q, s).length ? " The part in green answers the question." : "") + " Tap to open full size.</figcaption></figure>";
-      }).join("") + "</details>";
+        return (q.slides.length > 1 ? '<div class="sl-item">' : "") + (err ? '<p class="slide-err"><strong>Error on this slide:</strong> ' + esc(err) + "</p>" : "") + '<figure><a class="slide-open" href="' + esc(s.src) + '" data-cap="' + esc(s.lec + ", " + unit + " " + s.n) + '" title="Open full size">' + slideImg(s, unit, q) + '</a><figcaption>' + esc(s.lec) + ", " + unit + " " + s.n + "." + (slideHL(q, s).length ? " The part in green answers the question." : "") + " Tap to open full size.</figcaption></figure>" + (q.slides.length > 1 ? "</div>" : "");
+      }).join("") + (q.slides.length > 1 ? '</div><div class="sl-nav"><button type="button" class="sl-prev" aria-label="Previous slide" disabled>&larr;</button><span class="sl-pos" aria-live="polite">1 / ' + q.slides.length + '</span><button type="button" class="sl-next" aria-label="Next slide">&rarr;</button></div>' : "") + "</details>";
   }
 
   /* ---------- weak spots: after a quiz, point to the part of the lecture (and the slides) behind each missed question ---------- */
