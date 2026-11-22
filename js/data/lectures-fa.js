@@ -3319,20 +3319,6 @@ SINA.lectures["fa-neural"] = {
    "why": "Cytotoxic oedema is cell swelling; vasogenic oedema is BBB breakdown."
   },
   {
-   "q": "Which are causes of raised ICP? (choose all)",
-   "options": [
-    "Hydrocephalus",
-    "Hypothermia",
-    "Skull trephination",
-    "Masses and haematomas"
-   ],
-   "answers": [
-    0,
-    3
-   ],
-   "why": "Hypothermia lowers CBF, ICP and metabolism."
-  },
-  {
    "q": "Which surgical options match their indication? (choose all)",
    "options": [
     "Shunt for acute epidural haematoma",
@@ -3688,17 +3674,6 @@ SINA.lectures["fa-neural"] = {
     2
    ],
    "why": "Altered mental status, seizures, focal signs and the Cushing triad (with irregular respiration) are signs of raised ICP."
-  },
-  {
-   "q": "What is the definitive treatment of raised ICP caused by a space-occupying lesion?",
-   "options": [
-    "Mannitol",
-    "Surgery: craniotomy or ventriculostomy",
-    "Steroids for every patient",
-    "Prolonged hyperventilation"
-   ],
-   "answer": 1,
-   "why": "Operative management (craniotomy or ventriculostomy with drainage of blood and CSF) is the definitive treatment for a space-occupying lesion."
   },
   {
    "q": "Match each ICP treatment to the volume it reduces. Which pairing is WRONG?",
@@ -4210,39 +4185,6 @@ SINA.lectures["fa-cardiovascular"] = {
    "why": "Used to measure cardiac output."
   },
   {
-   "q": "Why does lactate rise in shock?",
-   "options": [
-    "Cellular hypoxia shifts metabolism to anaerobic pathways",
-    "The liver overproduces lactate in shock",
-    "Oxygen delivery to the tissues is too high",
-    "Renal failure alone blocks lactate excretion"
-   ],
-   "answer": 0,
-   "why": "Leading to metabolic acidosis."
-  },
-  {
-   "q": "Tension pneumothorax causes which type of shock?",
-   "options": [
-    "Cardiogenic",
-    "Hypovolaemic",
-    "Distributive",
-    "Obstructive"
-   ],
-   "answer": 3,
-   "why": "As do tamponade and pulmonary embolism."
-  },
-  {
-   "q": "Acute mitral regurgitation causes shock that is:",
-   "options": [
-    "Obstructive",
-    "Cardiogenic (mechanical)",
-    "Distributive",
-    "Hypovolaemic"
-   ],
-   "answer": 1,
-   "why": "Mechanical causes also include septal rupture and intracavitary thrombus."
-  },
-  {
    "q": "Extensive burns cause which shock types?",
    "options": [
     "Hypovolaemic and inflammatory distributive",
@@ -4467,31 +4409,6 @@ SINA.lectures["fa-cardiovascular"] = {
    ],
    "answer": 0,
    "why": "Gastrointestinal losses cause hypovolaemic shock: less venous return means less preload."
-  },
-  {
-   "q": "A patient with a cervical spinal cord injury becomes hypotensive. Which shock family fits best?",
-   "options": [
-    "Cardiogenic",
-    "Distributive",
-    "Obstructive",
-    "Hypovolaemic"
-   ],
-   "answer": 1,
-   "why": "Spinal shock is a distributive cause: loss of vascular tone."
-  },
-  {
-   "q": "Which are correct about shock? (choose all)",
-   "options": [
-    "It has four families: cardiogenic, hypovolaemic, distributive, obstructive",
-    "It is widespread failure of the circulation to oxygenate tissues",
-    "It leaves mitochondrial energy transfer unchanged",
-    "It is defined only by a low haemoglobin"
-   ],
-   "answers": [
-    0,
-    1
-   ],
-   "why": "Shock is circulatory failure with cellular energy disturbance; the four families cover pump, volume, vessels and obstruction."
   },
   {
    "q": "Which formulas are correct? (choose all)",
@@ -4924,17 +4841,6 @@ SINA.lectures["fa-cardiovascular"] = {
    ],
    "answer": 1,
    "why": "Rearranged Ohm's law: CO = (MAP − RAP) / SVR, so SVR = (85 − 5) / 4 = 20."
-  },
-  {
-   "q": "Hb 15 g/dL and SaO₂ 100%. Ignoring dissolved O₂, what is the arterial O₂ content?",
-   "options": [
-    "About 2 mL/dL",
-    "About 15 mL/dL",
-    "About 20 mL/dL",
-    "About 134 mL/dL"
-   ],
-   "answer": 2,
-   "why": "CaO₂ = 1.34 × Hb × SaO₂ = 1.34 × 15 × 1 ≈ 20 mL O₂/dL (200 mL/L)."
   },
   {
    "q": "Which vessels hold most of the blood volume and act as capacitance vessels?",
@@ -5425,17 +5331,6 @@ SINA.lectures["fa-respiratory"] = {
  },
  "mcqs": [
   {
-   "q": "How much O₂ do the lungs take up each minute at rest?",
-   "options": [
-    "About 5 L",
-    "About 50 mL",
-    "About 250 mL",
-    "About 1 L"
-   ],
-   "answer": 2,
-   "why": "And they remove about 200 mL of CO₂, keeping PaO₂ ≈ 95 and PaCO₂ ≈ 40 mmHg."
-  },
-  {
    "q": "A failure of the control and pump component mainly causes:",
    "options": [
     "Airway obstruction",
@@ -5546,17 +5441,6 @@ SINA.lectures["fa-respiratory"] = {
    "why": "Resistance falls as lung volume rises; the result is hyperinflation."
   },
   {
-   "q": "With RR 15 and VT 500 mL, alveolar ventilation is:",
-   "options": [
-    "2.25 L/min",
-    "3 L/min",
-    "5.25 L/min",
-    "7.5 L/min"
-   ],
-   "answer": 2,
-   "why": "VA = (500 − 150) × 15 = 5.25 L/min; VE would be 7.5 L/min."
-  },
-  {
    "q": "Inspired PO₂ in the airways at sea level is about:",
    "options": [
     "160 mmHg",
@@ -5590,17 +5474,6 @@ SINA.lectures["fa-respiratory"] = {
    "why": "D depends on solubility ÷ √(molecular weight)."
   },
   {
-   "q": "In interstitial fibrosis, hypoxaemia is typically worse:",
-   "options": [
-    "On exercise",
-    "After meals",
-    "At rest only",
-    "Lying flat only"
-   ],
-   "answer": 0,
-   "why": "Blood spends less time in the capillary, so the thick membrane limits transfer more."
-  },
-  {
    "q": "Standing, the V/Q ratio at the apex is about:",
    "options": [
     "0",
@@ -5610,17 +5483,6 @@ SINA.lectures["fa-respiratory"] = {
    ],
    "answer": 1,
    "why": "Blood flow rises from apex to base more than ventilation: ≈ 3 at the apex, ≈ 0.6 at the base."
-  },
-  {
-   "q": "Which hypoxaemia responds poorly to oxygen?",
-   "options": [
-    "High altitude",
-    "Shunt (V/Q = 0)",
-    "Hypoventilation",
-    "Low V/Q"
-   ],
-   "answer": 1,
-   "why": "Blood passes alveoli with no air: pneumonia, atelectasis, ARDS."
   },
   {
    "q": "Pulmonary embolism is the classic example of:",
@@ -5687,28 +5549,6 @@ SINA.lectures["fa-respiratory"] = {
    ],
    "answer": 3,
    "why": "Air left after a normal expiration."
-  },
-  {
-   "q": "Normal ETCO₂ is:",
-   "options": [
-    "35–45 mmHg",
-    "10–15 mmHg",
-    "60–80 mmHg",
-    "95–100 mmHg"
-   ],
-   "answer": 0,
-   "why": "About 2–5 mmHg below PaCO₂; the gap widens with dead space."
-  },
-  {
-   "q": "On room air with PaCO₂ 40 mmHg, PAO₂ is about:",
-   "options": [
-    "60 mmHg",
-    "150 mmHg",
-    "40 mmHg",
-    "100 mmHg"
-   ],
-   "answer": 3,
-   "why": "150 − 40/0.8 = 150 − 50 = 100 mmHg."
   },
   {
    "q": "A normal A–a gradient with hypoxaemia points to:",
@@ -5881,17 +5721,6 @@ SINA.lectures["fa-respiratory"] = {
    "why": "CO binds haemoglobin, so oxygen transport in the blood fails while the lungs work normally."
   },
   {
-   "q": "Why does a small narrowing of the airway reduce airflow so strongly?",
-   "options": [
-    "Resistance rises with the fourth power of 1/radius",
-    "Compliance rises",
-    "Surfactant falls",
-    "Pleural pressure becomes positive"
-   ],
-   "answer": 0,
-   "why": "Resistance ∝ 1/r⁴, so small radius changes have large effects."
-  },
-  {
    "q": "A patient has VT 400 mL, RR 20/min and dead space 150 mL. What is the alveolar ventilation?",
    "options": [
     "8 L/min",
@@ -6002,28 +5831,6 @@ SINA.lectures["fa-respiratory"] = {
    "why": "Breathing is driven mainly by CO₂; opioids depress that drive, and naloxone reverses it."
   },
   {
-   "q": "A drowsy COPD patient has SpO₂ 94%. What does SpO₂ NOT tell you here?",
-   "options": [
-    "Whether PaCO₂ is high",
-    "Oxygen saturation",
-    "Pulse rate",
-    "Oxygenation"
-   ],
-   "answer": 0,
-   "why": "SpO₂ reflects oxygenation and says nothing about CO₂; an ABG is needed."
-  },
-  {
-   "q": "A growing gap between PaCO₂ and ETCO₂ suggests:",
-   "options": [
-    "Better perfusion",
-    "Lower cardiac output only",
-    "Increased dead space",
-    "Normal ventilation"
-   ],
-   "answer": 2,
-   "why": "ETCO₂ is normally 2 to 5 mmHg below PaCO₂; the gap widens with dead space."
-  },
-  {
    "q": "After a bronchodilator, a patient's FEV₁ rises by 15% and 300 mL. This is most consistent with:",
    "options": [
     "Pulmonary fibrosis",
@@ -6085,17 +5892,6 @@ SINA.lectures["fa-respiratory"] = {
    ],
    "answer": 0,
    "why": "PaCO₂ is the mirror of alveolar ventilation: when ventilation is too low for the CO₂ produced, PaCO₂ rises (hypercapnia slide)."
-  },
-  {
-   "q": "Breathing room air, a patient's PaCO₂ rises from 40 to 80 mmHg. What happens to the alveolar PO₂ (PAO₂)?",
-   "options": [
-    "It rises",
-    "It falls, so hypoxaemia appears with a normal A–a gradient",
-    "It stays at 100 mmHg",
-    "It falls, with a high A–a gradient"
-   ],
-   "answer": 1,
-   "why": "PAO₂ ≈ PiO₂ − PaCO₂/0.8: more CO₂ in the alveoli leaves less room for O₂. Hypoventilation gives hypercapnia plus hypoxaemia with a normal A–a gradient."
   },
   {
    "q": "A patient with acute hypoventilation has a rising PaCO₂. What happens to blood pH?",
@@ -6184,17 +5980,6 @@ SINA.lectures["fa-respiratory"] = {
    ],
    "answer": 2,
    "why": "With low cardiac output, O₂ content is normal but delivery to the tissues falls: hypoxaemia and tissue hypoxia are not the same."
-  },
-  {
-   "q": "A patient breathes at a higher lung volume. What happens to airway resistance?",
-   "options": [
-    "It rises, because the lung is stiffer",
-    "It falls, because radial traction pulls the airways open",
-    "It does not change",
-    "It rises, because surfactant falls"
-   ],
-   "answer": 1,
-   "why": "Airway resistance falls as lung volume increases: the expanded lung pulls the airways open (radial traction). This is why asthma and COPD patients hyperinflate."
   },
   {
    "q": "A patient's alveolar membrane thickens (interstitial fibrosis). What happens first?",
@@ -9906,4 +9691,4 @@ SINA.lectures["fa-digestive"] = {
  "verified": "22 Sep 2026"
 };
 /* lecture slides for each question (page of the lecture PDF; the green box is in highlights.js) */
-(function (m) { var DIR26 = { "fa-neural": "fa-neural-26", "fa-cardiovascular": "fa-cardiovascular-26" }; Object.keys(m).forEach(function (id) { var L = SINA.lectures[id]; if (!L) return; Object.keys(m[id]).forEach(function (i) { var q = L.mcqs[i], n = m[id][i]; if (q && !q.slides) q.slides = [{ src: "files/slides/" + (DIR26[id] || id) + "/" + (n < 10 ? "0" : "") + n + ".jpg", lec: L.title, n: n }]; }); }); })({"fa-protection":{"0":3,"1":7,"2":13,"3":14,"4":16,"5":21,"6":12,"7":27,"8":35,"9":39,"10":37,"11":44,"12":44,"13":10,"14":12,"15":14,"16":21,"17":24,"18":26,"19":35,"20":37,"21":41,"22":44,"23":46,"24":15,"25":9},"fa-cardiac-arrest":{"0":2,"1":5,"2":6,"3":11,"4":12,"5":14,"6":14,"7":22,"8":24,"9":27,"11":13,"12":14,"13":5,"14":6,"15":11,"16":13,"17":14,"18":14,"19":22,"20":24,"21":27,"22":25,"24":6},"fa-bleeding":{"0":4,"1":12,"2":8,"3":11,"4":11,"5":12,"6":10,"7":16,"8":16,"9":4,"10":11,"11":5,"12":10,"13":11,"14":11,"15":12,"16":12,"17":10,"18":16,"19":16},"fa-trauma-burns":{"0":4,"1":5,"2":5,"3":6,"4":6,"5":15,"7":20,"8":24,"9":25,"10":26,"11":27,"12":25,"13":5,"14":5,"15":6,"16":15,"17":20,"18":22,"19":24,"20":25,"21":25,"22":26,"23":26,"24":27},"fa-neural":{"0":7,"1":49,"2":15,"3":16,"4":17,"5":19,"6":20,"7":35,"8":23,"9":43,"16":49,"17":20,"18":20,"19":17,"20":24,"21":43,"22":44,"23":43,"24":41,"25":23,"26":20,"27":19,"28":29,"29":34,"30":46,"31":43,"33":16,"34":21,"35":21,"36":21,"37":13,"38":13,"39":8,"40":14,"41":22,"42":3,"43":37,"44":37,"45":39,"46":40,"47":40,"48":42,"49":33,"50":19,"51":24,"52":24,"53":28,"54":27,"55":37,"56":30,"57":35,"58":34,"59":38,"60":46,"61":42,"62":37,"63":20},"fa-cardiovascular":{"0":3,"1":3,"2":40,"3":9,"4":19,"5":20,"6":38,"7":34,"8":36,"15":33,"16":34,"17":36,"18":31,"19":9,"20":19,"21":19,"22":19,"23":21,"24":15,"25":40,"26":22,"27":9,"28":36,"29":3,"30":15,"31":34,"32":33,"33":36,"34":38,"35":22,"36":22,"37":24,"38":7,"39":19,"40":19,"41":20,"42":17,"43":11,"44":13,"45":33,"46":15,"47":32,"48":32,"49":39,"50":39,"51":39,"52":41,"53":40,"54":23,"55":22,"56":21,"57":41,"58":36,"59":41,"60":32,"61":9,"62":39,"63":10,"64":9,"65":15,"66":19,"67":8,"68":21,"69":36,"70":19,"72":21,"73":20,"74":24,"75":24,"76":40},"fa-respiratory":{"0":3,"1":3,"2":12,"3":12,"5":19,"6":18,"7":18,"8":24,"9":22,"10":23,"11":25,"12":28,"13":59,"14":32,"15":34,"16":35,"17":38,"18":38,"19":38,"20":39,"21":44,"22":50,"23":50,"24":52,"25":56,"26":56,"27":59,"28":60,"29":62,"30":60,"31":67,"32":66,"33":66,"40":3,"41":24,"42":25,"43":25,"44":19,"45":14,"46":56,"47":56,"49":38,"50":41,"51":44,"52":52,"53":52,"54":60,"55":62,"56":41,"57":52,"58":59,"59":56,"60":59,"61":30,"62":38,"63":59,"64":44,"65":39,"66":42,"67":42,"68":23,"69":34,"70":18,"71":19,"72":3,"73":11,"74":14,"75":19,"76":19,"77":22,"78":22,"79":27,"80":56,"81":66,"82":66,"83":56,"84":39,"85":42,"86":50,"87":48,"88":48,"89":62,"90":55,"91":67},"fa-renal":{"0":5,"2":14,"3":15,"4":17,"5":24,"6":31,"7":32,"8":34,"9":34,"10":40,"11":51,"12":53,"13":56,"14":54,"15":5,"16":5,"18":14,"19":17,"20":31,"21":34,"22":34,"23":38,"24":51,"25":53,"26":48},"fa-endocrine":{"0":6,"1":11,"2":18,"3":19,"4":22,"5":22,"6":18,"7":25,"8":27,"9":30,"10":32,"11":31,"12":35,"14":42,"15":40,"16":11,"17":18,"18":22,"20":21,"21":21,"22":27,"23":31,"24":31,"25":32,"27":42,"28":40},"fa-immune":{"0":44,"1":10,"2":14,"3":24,"4":38,"5":30,"6":30,"7":31,"8":33,"9":34,"10":35,"11":37,"12":38,"13":42,"14":43,"15":31,"16":10,"17":14,"18":24,"19":30,"20":30,"21":32,"22":33,"23":35,"24":37,"25":39,"26":42,"27":43,"28":41},"fa-digestive":{"0":12,"1":12,"2":15,"3":19,"4":21,"5":20,"6":22,"7":22,"8":26,"9":29,"10":48,"11":35,"12":39,"13":41,"14":47,"15":20,"16":12,"17":21,"18":20,"19":22,"20":22,"21":29,"22":48,"23":35,"24":40,"25":36,"26":41,"27":26}});
+(function (m) { var DIR26 = { "fa-neural": "fa-neural-26", "fa-cardiovascular": "fa-cardiovascular-26" }; Object.keys(m).forEach(function (id) { var L = SINA.lectures[id]; if (!L) return; Object.keys(m[id]).forEach(function (i) { var q = L.mcqs[i], n = m[id][i]; if (q && !q.slides) q.slides = [{ src: "files/slides/" + (DIR26[id] || id) + "/" + (n < 10 ? "0" : "") + n + ".jpg", lec: L.title, n: n }]; }); }); })({"fa-protection":{"0":3,"1":7,"2":13,"3":14,"4":16,"5":21,"6":12,"7":27,"8":35,"9":39,"10":37,"11":44,"12":44,"13":10,"14":12,"15":14,"16":21,"17":24,"18":26,"19":35,"20":37,"21":41,"22":44,"23":46,"24":15,"25":9},"fa-cardiac-arrest":{"0":2,"1":5,"2":6,"3":11,"4":12,"5":14,"6":14,"7":22,"8":24,"9":27,"11":13,"12":14,"13":5,"14":6,"15":11,"16":13,"17":14,"18":14,"19":22,"20":24,"21":27,"22":25,"24":6},"fa-bleeding":{"0":4,"1":12,"2":8,"3":11,"4":11,"5":12,"6":10,"7":16,"8":16,"9":4,"10":11,"11":5,"12":10,"13":11,"14":11,"15":12,"16":12,"17":10,"18":16,"19":16},"fa-trauma-burns":{"0":4,"1":5,"2":5,"3":6,"4":6,"5":15,"7":20,"8":24,"9":25,"10":26,"11":27,"12":25,"13":5,"14":5,"15":6,"16":15,"17":20,"18":22,"19":24,"20":25,"21":25,"22":26,"23":26,"24":27},"fa-neural":{"0":7,"1":49,"2":15,"3":16,"4":17,"5":19,"6":20,"7":35,"8":23,"9":43,"16":49,"17":20,"18":20,"19":17,"20":24,"21":43,"22":44,"23":43,"24":41,"25":23,"26":20,"27":19,"28":29,"29":46,"30":43,"32":16,"33":21,"34":21,"35":21,"36":13,"37":13,"38":8,"39":14,"40":22,"41":3,"42":37,"43":37,"44":39,"45":40,"46":40,"47":42,"48":33,"49":19,"50":24,"51":24,"52":28,"53":27,"54":37,"55":30,"56":35,"57":34,"58":38,"59":42,"60":37,"61":20},"fa-cardiovascular":{"0":3,"1":3,"2":40,"3":9,"4":19,"5":36,"12":33,"13":34,"14":36,"15":31,"16":9,"17":19,"18":19,"19":19,"20":21,"21":15,"22":40,"23":22,"24":9,"25":15,"26":34,"27":33,"28":36,"29":38,"30":22,"31":22,"32":24,"33":7,"34":19,"35":19,"36":20,"37":17,"38":11,"39":13,"40":33,"41":15,"42":32,"43":32,"44":39,"45":39,"46":39,"47":41,"48":40,"49":23,"50":22,"51":21,"52":41,"53":36,"54":41,"55":32,"56":9,"57":39,"58":10,"59":9,"60":15,"61":8,"62":21,"63":36,"64":19,"66":21,"67":20,"68":24,"69":24,"70":40},"fa-respiratory":{"0":3,"1":12,"2":12,"4":19,"5":18,"6":18,"7":24,"8":22,"9":23,"10":28,"11":59,"12":32,"13":35,"14":38,"15":38,"16":39,"17":44,"18":50,"19":50,"20":56,"21":59,"22":60,"23":62,"24":60,"25":67,"26":66,"27":66,"34":3,"35":25,"36":25,"37":19,"38":14,"39":56,"40":56,"42":38,"43":41,"44":44,"45":60,"46":62,"47":41,"48":52,"49":59,"50":59,"51":30,"52":38,"53":59,"54":44,"55":39,"56":42,"57":42,"58":34,"59":18,"60":19,"61":3,"62":11,"63":14,"64":19,"65":19,"66":22,"67":22,"68":27,"69":56,"70":66,"71":66,"72":56,"73":39,"74":42,"75":50,"76":48,"77":48,"78":62,"79":55,"80":67},"fa-renal":{"0":5,"2":14,"3":15,"4":17,"5":24,"6":31,"7":32,"8":34,"9":34,"10":40,"11":51,"12":53,"13":56,"14":54,"15":5,"16":5,"18":14,"19":17,"20":31,"21":34,"22":34,"23":38,"24":51,"25":53,"26":48},"fa-endocrine":{"0":6,"1":11,"2":18,"3":19,"4":22,"5":22,"6":18,"7":25,"8":27,"9":30,"10":32,"11":31,"12":35,"14":42,"15":40,"16":11,"17":18,"18":22,"20":21,"21":21,"22":27,"23":31,"24":31,"25":32,"27":42,"28":40},"fa-immune":{"0":44,"1":10,"2":14,"3":24,"4":38,"5":30,"6":30,"7":31,"8":33,"9":34,"10":35,"11":37,"12":38,"13":42,"14":43,"15":31,"16":10,"17":14,"18":24,"19":30,"20":30,"21":32,"22":33,"23":35,"24":37,"25":39,"26":42,"27":43,"28":41},"fa-digestive":{"0":12,"1":12,"2":15,"3":19,"4":21,"5":20,"6":22,"7":22,"8":26,"9":29,"10":48,"11":35,"12":39,"13":41,"14":47,"15":20,"16":12,"17":21,"18":20,"19":22,"20":22,"21":29,"22":48,"23":35,"24":40,"25":36,"26":41,"27":26}});
