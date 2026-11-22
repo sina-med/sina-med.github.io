@@ -3566,6 +3566,183 @@ SINA.lectures["fa-neural"] = {
    ],
    "answer": 3,
    "why": "Osmotic oedema: relatively hypo-osmotic plasma makes free water move into the hyperosmotic brain."
+  },
+  {
+   "q": "In what unit is cerebral blood flow expressed?",
+   "options": [
+    "mL/100 g/min",
+    "L/min/m²",
+    "mmHg",
+    "mL/kg/h"
+   ],
+   "answer": 0,
+   "why": "CBF is the volume of blood flowing per unit mass of brain per unit time: mL · 100 g⁻¹ · min⁻¹."
+  },
+  {
+   "q": "Which intracranial components can change their volume most to buffer a rise in pressure?",
+   "options": [
+    "Neurons and glia",
+    "CSF and venous blood",
+    "Arterial blood and ECF",
+    "The skull and dura"
+   ],
+   "answer": 1,
+   "why": "CSF and venous blood have the greatest ability to change their volume; once they are used up, ICP rises almost exponentially."
+  },
+  {
+   "q": "Two patients both have an ICP of 14 mmHg. X is on the flat part of the pressure–volume curve, Y is at the 'knee'. A little more bleeding occurs in both. What happens?",
+   "options": [
+    "Both ICPs rise equally",
+    "Y's ICP rises much more than X's",
+    "X's ICP rises much more",
+    "Neither changes"
+   ],
+   "answer": 1,
+   "why": "At the knee, compensation (CSF and venous blood) is exhausted, so a small added volume causes a steep rise in ICP. The same ICP can hide very different reserves."
+  },
+  {
+   "q": "What are the two main consequences of raised ICP in the lecture?",
+   "options": [
+    "Hydrocephalus and meningitis",
+    "Cerebral ischaemia and brain herniation",
+    "Hypertension and tachycardia",
+    "Fever and hyperglycaemia"
+   ],
+   "answer": 1,
+   "why": "Raised ICP lowers CPP (ischaemia) and pushes brain tissue across compartments (herniation)."
+  },
+  {
+   "q": "Herniation of the cingulate gyrus under the falx cerebri is called:",
+   "options": [
+    "Uncal herniation",
+    "Subfalcine herniation",
+    "Tonsillar herniation",
+    "Transcalvarial herniation"
+   ],
+   "answer": 1,
+   "why": "Subfalcine (cingulate) herniation passes under the falx; uncal herniation compresses CN III and the brainstem; tonsillar herniation compresses the medulla."
+  },
+  {
+   "q": "A head-injured patient develops a dilated right pupil, then bradycardia and irregular breathing. What does this sequence suggest?",
+   "options": [
+    "Interstitial oedema from hydrocephalus",
+    "Uncal herniation compressing CN III, then the brainstem",
+    "Osmotic oedema",
+    "Normal transient ICP rise"
+   ],
+   "answer": 1,
+   "why": "A unilateral dilated pupil (CN III) followed by the Cushing pattern means herniation is compressing the brainstem — an emergency."
+  },
+  {
+   "q": "Which causes cytotoxic rather than vasogenic oedema?",
+   "options": [
+    "Brain tumour",
+    "Brain abscess",
+    "Ischaemic stroke",
+    "Inflammation"
+   ],
+   "answer": 2,
+   "why": "Cytotoxic oedema follows energy failure (ischaemia, trauma, intracerebral haemorrhage); vasogenic oedema follows a leaky BBB (tumours, injury, infection, inflammation)."
+  },
+  {
+   "q": "Which raise ICP by DECREASING CSF absorption? (choose all)",
+   "options": [
+    "Communicating hydrocephalus",
+    "Arachnoid granulation adhesions after meningitis",
+    "Subarachnoid haemorrhage",
+    "Choroid plexus papilloma"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Choroid plexus papilloma increases CSF production; the other three block its absorption."
+  },
+  {
+   "q": "Which are causes of raised ICP listed in the lecture? (choose all)",
+   "options": [
+    "Brain abscess",
+    "Encephalitis",
+    "Epidural or subdural haematoma",
+    "Septic shock"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Etiologies include TBI, haemorrhage, mass lesions (tumour, haematoma), CNS infections (encephalitis, abscess), ischaemic stroke and vasculitis."
+  },
+  {
+   "q": "Which are abnormal signs of raised ICP? (choose all)",
+   "options": [
+    "Seizures",
+    "Altered mental status",
+    "Irregular respiration",
+    "Lower limb oedema"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Altered mental status, seizures, focal signs and the Cushing triad (with irregular respiration) are signs of raised ICP."
+  },
+  {
+   "q": "What is the definitive treatment of raised ICP caused by a space-occupying lesion?",
+   "options": [
+    "Mannitol",
+    "Surgery: craniotomy or ventriculostomy",
+    "Steroids for every patient",
+    "Prolonged hyperventilation"
+   ],
+   "answer": 1,
+   "why": "Operative management (craniotomy or ventriculostomy with drainage of blood and CSF) is the definitive treatment for a space-occupying lesion."
+  },
+  {
+   "q": "Match each ICP treatment to the volume it reduces. Which pairing is WRONG?",
+   "options": [
+    "Mannitol → brain tissue",
+    "Ventriculostomy → CSF",
+    "Head elevation > 30° → venous blood",
+    "Acetazolamide → blood"
+   ],
+   "answer": 3,
+   "why": "Acetazolamide reduces CSF production, so it acts on the CSF compartment, not blood."
+  },
+  {
+   "q": "A patient with a large haematoma has BP 190/100, HR 44 and irregular breathing. Why is lowering the BP aggressively dangerous?",
+   "options": [
+    "It raises ICP directly",
+    "The high BP keeps CPP up against the raised ICP; dropping it lowers CPP and causes ischaemia",
+    "Bradycardia always needs a pacemaker",
+    "It increases CSF production"
+   ],
+   "answer": 1,
+   "why": "The Cushing response raises MAP to keep CPP = MAP − ICP adequate. The priority is lowering ICP and treating the cause, not the BP."
+  },
+  {
+   "q": "A head-injured patient (ICP 25 mmHg) bleeds and his BP falls to 80/40. What is the main threat to his brain?",
+   "options": [
+    "Hypertensive encephalopathy",
+    "CPP of about 28 mmHg, causing ischaemia",
+    "Hydrocephalus",
+    "A Cushing triad with high CPP"
+   ],
+   "answer": 1,
+   "why": "MAP ≈ 40 + 40/3 ≈ 53 mmHg; CPP ≈ 53 − 25 ≈ 28 mmHg, far below 60 — haemorrhagic shock adds ischaemia to the brain injury."
+  },
+  {
+   "q": "How does short-term hyperventilation lower ICP?",
+   "options": [
+    "It raises CSF absorption",
+    "Low PaCO₂ constricts cerebral vessels, lowering cerebral blood volume",
+    "It increases cerebral blood flow",
+    "It dehydrates the brain"
+   ],
+   "answer": 1,
+   "why": "PaCO₂ is a strong cerebral vasodilator: lowering it constricts vessels, reducing blood volume and ICP (at the cost of less flow, so only short-term). Note: slide 40 says hyperventilation \"increases cerebral blood flow\"; physiologically it decreases it, which is why ICP falls."
   }
  ],
  "cards": [
@@ -4645,6 +4822,237 @@ SINA.lectures["fa-cardiovascular"] = {
    ],
    "answer": 1,
    "why": "The baroreflex and hormones divert flow away from skin, gut and kidneys to protect the brain and heart: the bleeding patient is fast, pale, cold and thirsty."
+  },
+  {
+   "q": "A 30-year-old stung by a wasp has BP 75/40, warm flushed skin, wheeze and a fast pulse. Which type of shock is this?",
+   "options": [
+    "Hypovolaemic",
+    "Cardiogenic",
+    "Distributive (anaphylactic)",
+    "Obstructive"
+   ],
+   "answer": 2,
+   "why": "Anaphylaxis is distributive shock: vasodilation and leaky capillaries lower SVR, the skin is warm early. Treat with adrenaline, fluids and remove the allergen."
+  },
+  {
+   "q": "After a C5 spinal cord injury, a patient has BP 80/45, warm skin and a slow pulse. Which type of shock is this?",
+   "options": [
+    "Hypovolaemic",
+    "Neurogenic (distributive)",
+    "Cardiogenic",
+    "Obstructive"
+   ],
+   "answer": 1,
+   "why": "Neurogenic (spinal) shock is distributive: loss of sympathetic tone dilates the vessels and lowers SVR."
+  },
+  {
+   "q": "A ventilated trauma patient suddenly has BP 70/40, distended neck veins, absent breath sounds on one side and a deviated trachea. Which shock, and what stops it?",
+   "options": [
+    "Hypovolaemic: blood transfusion",
+    "Obstructive (tension pneumothorax): needle decompression or chest drain",
+    "Cardiogenic: dobutamine",
+    "Distributive: noradrenaline"
+   ],
+   "answer": 1,
+   "why": "Tension pneumothorax raises intrathoracic pressure and compresses the veins and heart: obstructive shock with high CVP. Removing the obstacle (needle decompression, chest drain) treats it."
+  },
+  {
+   "q": "A patient with 3 days of severe vomiting and diarrhoea has HR 125, BP 85/50, cold skin and flat neck veins. Which pattern fits?",
+   "options": [
+    "CO ↓, CVP ↓, SVR ↑: hypovolaemic",
+    "CO ↑, CVP ↓, SVR ↓: distributive",
+    "CO ↓, CVP ↑, SVR ↑: cardiogenic",
+    "CO ↓, CVP ↑, SVR ↓: obstructive"
+   ],
+   "answer": 0,
+   "why": "GI losses empty the tank: low preload (flat neck veins), low CO and a compensatory rise in SVR with cold skin — hypovolaemic shock."
+  },
+  {
+   "q": "A patient with a recent long flight has sudden dyspnoea, BP 75/45, distended neck veins and clear lungs. Which shock is most likely?",
+   "options": [
+    "Septic",
+    "Obstructive (massive pulmonary embolism)",
+    "Hypovolaemic",
+    "Anaphylactic"
+   ],
+   "answer": 1,
+   "why": "Massive pulmonary embolism overloads the right ventricle (raised afterload) and blocks the circuit: obstructive shock with high CVP; treatment includes thrombolysis."
+  },
+  {
+   "q": "What best distinguishes tamponade (obstructive) from cardiogenic shock after an MI, when both have hypotension and distended neck veins?",
+   "options": [
+    "The heart rate",
+    "Muffled heart sounds with clear lungs in tamponade, crackles in cardiogenic shock",
+    "Cold skin",
+    "A high SVR"
+   ],
+   "answer": 1,
+   "why": "Both have high CVP and high SVR, but a failing left ventricle backs up into the lungs (crackles), while tamponade squeezes the heart with clear lungs and muffled heart sounds."
+  },
+  {
+   "q": "Which are the 'coupling factors' among the four determinants of cardiac output (those linking the heart to the vessels)? (choose all)",
+   "options": [
+    "Heart rate",
+    "Myocardial contractility",
+    "Preload",
+    "Afterload"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "why": "The lecture's diagram groups heart rate and contractility as cardiac factors, and preload and afterload as coupling factors."
+  },
+  {
+   "q": "Which pairing of a failing determinant with the lecture's example is correct?",
+   "options": [
+    "Contractility — haemorrhage",
+    "Afterload — massive pulmonary embolism",
+    "Preload — myocardial infarction",
+    "Heart rate — septic shock"
+   ],
+   "answer": 1,
+   "why": "Heart rate: complete heart block; preload: haemorrhage; contractility: myocardial infarction; afterload: massive pulmonary embolism overloading the right ventricle."
+  },
+  {
+   "q": "MAP 85 mmHg, right atrial pressure 5 mmHg and CO 4 L/min. What is the SVR (in mmHg·min/L)?",
+   "options": [
+    "10",
+    "20",
+    "21",
+    "80"
+   ],
+   "answer": 1,
+   "why": "Rearranged Ohm's law: CO = (MAP − RAP) / SVR, so SVR = (85 − 5) / 4 = 20."
+  },
+  {
+   "q": "Hb 15 g/dL and SaO₂ 100%. Ignoring dissolved O₂, what is the arterial O₂ content?",
+   "options": [
+    "About 2 mL/dL",
+    "About 15 mL/dL",
+    "About 20 mL/dL",
+    "About 134 mL/dL"
+   ],
+   "answer": 2,
+   "why": "CaO₂ = 1.34 × Hb × SaO₂ = 1.34 × 15 × 1 ≈ 20 mL O₂/dL (200 mL/L)."
+  },
+  {
+   "q": "Which vessels hold most of the blood volume and act as capacitance vessels?",
+   "options": [
+    "Arteries",
+    "Arterioles",
+    "Capillaries",
+    "Veins"
+   ],
+   "answer": 3,
+   "why": "Veins are capacitance vessels holding most of the blood volume; arterioles set the resistance; exchange happens in the capillaries."
+  },
+  {
+   "q": "Why does venoconstriction help in early haemorrhage?",
+   "options": [
+    "It lowers SVR",
+    "It raises the mean systemic filling pressure and so venous return",
+    "It increases O₂ extraction",
+    "It slows the heart"
+   ],
+   "answer": 1,
+   "why": "Venoconstriction pushes blood from the capacitance veins toward the heart: Psf rises, venous return and preload improve."
+  },
+  {
+   "q": "The most common cause of distributive shock is:",
+   "options": [
+    "Anaphylaxis",
+    "Sepsis",
+    "Spinal cord injury",
+    "Pancreatitis"
+   ],
+   "answer": 1,
+   "why": "Septic shock is the most common distributive shock; anaphylactic, neurogenic and severe inflammatory shocks are the others."
+  },
+  {
+   "q": "A septic patient has MAP 58 mmHg, CO 8 L/min, SvO₂ 82% and lactate 5 mmol/L. What does this mean?",
+   "options": [
+    "He is cured: SvO₂ is high",
+    "Flow is high but cells cannot use the O₂, so lactate rises",
+    "He has cardiogenic shock",
+    "He needs only blood transfusion"
+   ],
+   "answer": 1,
+   "why": "In septic shock, flow is badly distributed and extraction fails: SvO₂ can be high while cells are still hypoxic, so lactate rises."
+  },
+  {
+   "q": "A septic patient breathes at 30/min with a PaCO₂ of 28 mmHg. What is the best explanation?",
+   "options": [
+    "Opioid overdose",
+    "Respiratory compensation for lactic (metabolic) acidosis",
+    "Chronic CO₂ retention",
+    "Hypoventilation"
+   ],
+   "answer": 1,
+   "why": "Lactate accumulation causes metabolic acidosis; chemoreceptors drive faster, deeper breathing that lowers PaCO₂."
+  },
+  {
+   "q": "Which belong to the physiological compensation of haemorrhagic shock? (choose all)",
+   "options": [
+    "Baroreceptor stimulation",
+    "Peripheral vasoconstriction",
+    "Renin release",
+    "Polyuria"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Baroreflex activation (seconds), then adrenaline, renin-angiotensin-aldosterone and ADH (minutes to hours) constrict vessels and retain salt and water — urine output falls, it does not rise."
+  },
+  {
+   "q": "Why does metabolic acidosis develop in shock? (choose all)",
+   "options": [
+    "Less O₂ is delivered to the cells",
+    "Metabolism shifts to anaerobic pathways",
+    "Lactic acid accumulates",
+    "Ketoacids accumulate from insulin lack"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Hypoperfusion reduces O₂ delivery, cells switch to anaerobic glycolysis and lactic acid accumulates, causing metabolic acidosis."
+  },
+  {
+   "q": "Which tool assesses FLOW rather than pressure or oxygen?",
+   "options": [
+    "Arterial line",
+    "Echocardiography",
+    "Pulse oximetry",
+    "Arterial lactate"
+   ],
+   "answer": 1,
+   "why": "Pressure: BP cuff, arterial line, CVP. Flow: echocardiography, Fick or thermodilution. Oxygen: blood gas, lactate, SvO₂, pulse oximetry."
+  },
+  {
+   "q": "Central venous pressure is used as an estimate of:",
+   "options": [
+    "Left ventricular contractility",
+    "Preload of the right heart",
+    "Systemic vascular resistance",
+    "Cardiac output"
+   ],
+   "answer": 1,
+   "why": "CVP estimates the filling (preload) of the right heart."
+  },
+  {
+   "q": "In the 'V-I-P' support of the circulation, what does each letter stand for?",
+   "options": [
+    "Volume, Inotrope, Pressure",
+    "Ventilate, Infuse, Pump",
+    "Vasodilate, Intubate, Perfuse",
+    "Ventilate, Intubate, Pericardiocentesis"
+   ],
+   "answer": 1,
+   "why": "Ventilate (O₂ ± ventilation → ↑ CaO₂), Infuse (fluids/blood → ↑ preload), Pump (vasoactive drugs)."
   }
  ],
  "cards": [
@@ -5820,6 +6228,248 @@ SINA.lectures["fa-respiratory"] = {
    ],
    "answer": 1,
    "why": "A stiff chest wall lowers FRC and TLC (compliance slide: ↓ chest wall compliance → ↓ FRC, ↓ TLC, e.g. burns)."
+  },
+  {
+   "q": "Each minute at rest, the lungs must take up about ___ of O₂ and remove about ___ of CO₂.",
+   "options": [
+    "250 mL; 200 mL",
+    "500 mL; 500 mL",
+    "1000 mL; 800 mL",
+    "200 mL; 250 mL"
+   ],
+   "answer": 0,
+   "why": "The goal: about 250 mL of O₂ taken up and 200 mL of CO₂ removed every minute."
+  },
+  {
+   "q": "A C3–C5 spinal cord injury causes respiratory failure mainly by affecting:",
+   "options": [
+    "The upper airway",
+    "The respiratory pump (diaphragm)",
+    "The alveoli and capillaries",
+    "Haemoglobin"
+   ],
+   "answer": 1,
+   "why": "The phrenic nerve (C3–C5) drives the diaphragm: injury causes pump failure with hypoventilation and a high PaCO₂."
+  },
+  {
+   "q": "During inspiration, alveolar pressure is −1 cmH₂O and pleural pressure −8 cmH₂O. What is the transpulmonary pressure?",
+   "options": [
+    "+1 cmH₂O",
+    "−9 cmH₂O",
+    "+7 cmH₂O",
+    "−7 cmH₂O"
+   ],
+   "answer": 2,
+   "why": "Transpulmonary pressure = alveolar − pleural pressure = −1 − (−8) = +7 cmH₂O, which keeps the lung inflated."
+  },
+  {
+   "q": "At FRC, with the respiratory muscles relaxed, what is true?",
+   "options": [
+    "Inward lung recoil balances outward chest wall recoil",
+    "Alveolar pressure is −8 cmH₂O",
+    "Both lung and chest wall pull inward",
+    "Pleural pressure is positive"
+   ],
+   "answer": 0,
+   "why": "FRC is the balance between the lung's inward elastic recoil and the chest wall's outward recoil — 'two springs'."
+  },
+  {
+   "q": "An obese patient with normal lungs has a reduced FRC and TLC. Why?",
+   "options": [
+    "Lack of surfactant",
+    "Reduced chest wall compliance (a tight box)",
+    "Emphysema",
+    "Airway obstruction"
+   ],
+   "answer": 1,
+   "why": "Obesity and chest wall disease stiffen the box around normal lungs: ↓ chest wall compliance → ↓ FRC, ↓ TLC."
+  },
+  {
+   "q": "Parasympathetic (vagal) stimulation of the airways causes:",
+   "options": [
+    "Bronchodilation via β2 receptors",
+    "Bronchoconstriction and more mucus via M3 receptors",
+    "Bronchodilation via M3 receptors",
+    "No effect"
+   ],
+   "answer": 1,
+   "why": "The vagus is the main nerve control of airway muscle: M3 stimulation gives bronchoconstriction and mucus. Salbutamol (β2 agonist) dilates; ipratropium blocks M3."
+  },
+  {
+   "q": "Which drug is a β2-agonist that dilates the airways?",
+   "options": [
+    "Ipratropium",
+    "Salbutamol",
+    "Naloxone",
+    "Acetazolamide"
+   ],
+   "answer": 1,
+   "why": "Salbutamol mimics the sympathetic β2 effect (bronchodilation); ipratropium works by blocking vagal M3 receptors."
+  },
+  {
+   "q": "What does Dalton's law state?",
+   "options": [
+    "Resistance ∝ 1/r⁴",
+    "Each gas has its own partial pressure: fraction × total pressure",
+    "Gas transfer ∝ surface area",
+    "Volume ∝ 1/pressure"
+   ],
+   "answer": 1,
+   "why": "Dalton's law: each gas exerts a partial pressure equal to its fraction times the total pressure (e.g. 0.21 × 760 ≈ 160 mmHg in dry air)."
+  },
+  {
+   "q": "On room air with PaCO₂ 40 mmHg and PaO₂ 60 mmHg, what is the A–a gradient?",
+   "options": [
+    "About 0 mmHg (normal)",
+    "About 10 mmHg (normal)",
+    "About 40 mmHg (increased)",
+    "About 90 mmHg (increased)"
+   ],
+   "answer": 2,
+   "why": "PAO₂ ≈ 150 − 40/0.8 = 100 mmHg; A–a = 100 − 60 = 40 mmHg, increased (normal < 10–15): V/Q mismatch, shunt or diffusion."
+  },
+  {
+   "q": "Patient 1 (opioids) on room air: PaCO₂ 75, PaO₂ 52 mmHg. What are the A–a gradient and the mechanism?",
+   "options": [
+    "About 4 mmHg: hypoventilation",
+    "About 48 mmHg: V/Q mismatch",
+    "About 56 mmHg: shunt",
+    "About 98 mmHg: diffusion"
+   ],
+   "answer": 0,
+   "why": "PAO₂ ≈ 150 − 75/0.8 ≈ 56 mmHg; A–a ≈ 56 − 52 ≈ 4 mmHg: a normal gradient, so the hypoxaemia is due to hypoventilation."
+  },
+  {
+   "q": "Patient 2 (asthma) on room air: PaCO₂ 32, PaO₂ 52 mmHg. What is the A–a gradient?",
+   "options": [
+    "About 4 mmHg",
+    "About 20 mmHg",
+    "About 58 mmHg",
+    "About 98 mmHg"
+   ],
+   "answer": 2,
+   "why": "PAO₂ ≈ 150 − 32/0.8 = 110 mmHg; A–a ≈ 110 − 52 = 58 mmHg: increased, from low V/Q."
+  },
+  {
+   "q": "An SaO₂ below 90% corresponds to a PaO₂ of about:",
+   "options": [
+    "100 mmHg",
+    "80 mmHg",
+    "60 mmHg",
+    "27 mmHg"
+   ],
+   "answer": 2,
+   "why": "SaO₂ < 90% ≈ PaO₂ 60 mmHg, the usual threshold for respiratory failure."
+  },
+  {
+   "q": "About what proportion of arterial O₂ content is bound to haemoglobin?",
+   "options": [
+    "About 50%",
+    "About 70%",
+    "About 98%",
+    "100%"
+   ],
+   "answer": 2,
+   "why": "About 98% of O₂ content is bound to haemoglobin; the dissolved part is very small (3 mL/L at PaO₂ 100 mmHg)."
+  },
+  {
+   "q": "In carbon monoxide poisoning (gas water heater, brazier), what is true?",
+   "options": [
+    "SpO₂ is falsely low; give fluids",
+    "SpO₂ is falsely normal; give 100% O₂",
+    "PaO₂ is always very low",
+    "CO binds Hb less than O₂"
+   ],
+   "answer": 1,
+   "why": "CO binds Hb about 240 times more than O₂: SpO₂ reads falsely normal while O₂ content falls. Treatment is 100% O₂."
+  },
+  {
+   "q": "IRV 3.0 L, VT 0.5 L, ERV 1.2 L, RV 1.3 L. What are the vital capacity and the total lung capacity?",
+   "options": [
+    "VC 4.7 L; TLC 6.0 L",
+    "VC 3.5 L; TLC 6.0 L",
+    "VC 4.7 L; TLC 4.7 L",
+    "VC 2.5 L; TLC 6.0 L"
+   ],
+   "answer": 0,
+   "why": "VC = IRV + VT + ERV = 4.7 L; TLC = VC + RV = 6.0 L."
+  },
+  {
+   "q": "Breathing that grows and fades with pauses, seen in heart failure or stroke, is called:",
+   "options": [
+    "Kussmaul breathing",
+    "Cheyne–Stokes breathing",
+    "Biot breathing",
+    "Paradoxical breathing"
+   ],
+   "answer": 1,
+   "why": "Cheyne–Stokes breathing comes from a delayed feedback loop (heart failure, stroke); Kussmaul breathing is the deep, fast response to metabolic acidosis."
+  },
+  {
+   "q": "Tachypnoea is defined in the lecture as a respiratory rate above:",
+   "options": [
+    "12/min",
+    "20/min",
+    "30/min",
+    "40/min"
+   ],
+   "answer": 1,
+   "why": "Tachypnoea: RR > 20/min."
+  },
+  {
+   "q": "Which restrictive disorder typically gives hypercapnia with a NORMAL A–a gradient at first?",
+   "options": [
+    "Pulmonary fibrosis",
+    "ARDS",
+    "Neuromuscular disease",
+    "Pulmonary oedema"
+   ],
+   "answer": 2,
+   "why": "Neuromuscular and chest wall disease cause pump failure (hypoventilation, normal A–a at first); parenchymal disease raises the A–a gradient."
+  },
+  {
+   "q": "On lung ultrasound, B-lines typically suggest:",
+   "options": [
+    "Pneumothorax",
+    "Pulmonary oedema",
+    "Normal lung",
+    "Asthma"
+   ],
+   "answer": 1,
+   "why": "B-lines are seen in pulmonary oedema."
+  },
+  {
+   "q": "What is the target SpO₂ for most acutely ill patients in the lecture?",
+   "options": [
+    "80–85%",
+    "88–92%",
+    "92–96%",
+    "100%"
+   ],
+   "answer": 2,
+   "why": "Most patients: 92–96%; patients at risk of CO₂ retention (COPD): 88–92%."
+  },
+  {
+   "q": "A COPD patient on high-flow O₂ has SpO₂ 98% but becomes drowsy. What is the most useful next test?",
+   "options": [
+    "Repeat pulse oximetry",
+    "Arterial blood gas",
+    "Spirometry",
+    "Chest X-ray alone"
+   ],
+   "answer": 1,
+   "why": "SpO₂ says nothing about CO₂: drowsiness on high-flow O₂ suggests rising PaCO₂, which only a blood gas shows."
+  },
+  {
+   "q": "An opioid-overdosed patient (RR 6/min) also has a brain contusion. Why is his hypoventilation especially dangerous?",
+   "options": [
+    "High PaCO₂ dilates cerebral vessels and raises ICP",
+    "It causes respiratory alkalosis",
+    "It lowers CSF production",
+    "It raises SpO₂"
+   ],
+   "answer": 0,
+   "why": "Hypoventilation raises PaCO₂, which dilates cerebral vessels, increasing blood volume and ICP — on top of the hypoxaemia (links the respiratory and neural lectures)."
   }
  ],
  "cards": [
@@ -9256,4 +9906,4 @@ SINA.lectures["fa-digestive"] = {
  "verified": "22 Sep 2026"
 };
 /* lecture slides for each question (page of the lecture PDF; the green box is in highlights.js) */
-(function (m) { var DIR26 = { "fa-neural": "fa-neural-26", "fa-cardiovascular": "fa-cardiovascular-26" }; Object.keys(m).forEach(function (id) { var L = SINA.lectures[id]; if (!L) return; Object.keys(m[id]).forEach(function (i) { var q = L.mcqs[i], n = m[id][i]; if (q && !q.slides) q.slides = [{ src: "files/slides/" + (DIR26[id] || id) + "/" + (n < 10 ? "0" : "") + n + ".jpg", lec: L.title, n: n }]; }); }); })({"fa-protection":{"0":3,"1":7,"2":13,"3":14,"4":16,"5":21,"6":12,"7":27,"8":35,"9":39,"10":37,"11":44,"12":44,"13":10,"14":12,"15":14,"16":21,"17":24,"18":26,"19":35,"20":37,"21":41,"22":44,"23":46,"24":15,"25":9},"fa-cardiac-arrest":{"0":2,"1":5,"2":6,"3":11,"4":12,"5":14,"6":14,"7":22,"8":24,"9":27,"11":13,"12":14,"13":5,"14":6,"15":11,"16":13,"17":14,"18":14,"19":22,"20":24,"21":27,"22":25,"24":6},"fa-bleeding":{"0":4,"1":12,"2":8,"3":11,"4":11,"5":12,"6":10,"7":16,"8":16,"9":4,"10":11,"11":5,"12":10,"13":11,"14":11,"15":12,"16":12,"17":10,"18":16,"19":16},"fa-trauma-burns":{"0":4,"1":5,"2":5,"3":6,"4":6,"5":15,"7":20,"8":24,"9":25,"10":26,"11":27,"12":25,"13":5,"14":5,"15":6,"16":15,"17":20,"18":22,"19":24,"20":25,"21":25,"22":26,"23":26,"24":27},"fa-neural":{"0":7,"1":49,"2":15,"3":16,"4":17,"5":19,"6":20,"7":35,"8":23,"9":43,"16":49,"17":20,"18":20,"19":17,"20":24,"21":43,"22":44,"23":43,"24":41,"25":23,"26":20,"27":19,"28":29,"29":34,"30":46,"31":43,"33":16,"34":21,"35":21,"36":21,"37":13,"38":13,"39":8,"40":14,"41":22,"42":3,"43":37,"44":37,"45":39,"46":40,"47":40,"48":42,"49":33},"fa-cardiovascular":{"0":3,"1":3,"2":40,"3":9,"4":19,"5":20,"6":38,"7":34,"8":36,"15":33,"16":34,"17":36,"18":31,"19":9,"20":19,"21":19,"22":19,"23":21,"24":15,"25":40,"26":22,"27":9,"28":36,"29":3,"30":15,"31":34,"32":33,"33":36,"34":38,"35":22,"36":22,"37":24,"38":7,"39":19,"40":19,"41":20,"42":17,"43":11,"44":13,"45":33,"46":15,"47":32,"48":32,"49":39,"50":39,"51":39,"52":41,"53":40,"54":23,"55":22,"56":21},"fa-respiratory":{"0":3,"1":3,"2":12,"3":12,"5":19,"6":18,"7":18,"8":24,"9":22,"10":23,"11":25,"12":28,"13":59,"14":32,"15":34,"16":35,"17":38,"18":38,"19":38,"20":39,"21":44,"22":50,"23":50,"24":52,"25":56,"26":56,"27":59,"28":60,"29":62,"30":60,"31":67,"32":66,"33":66,"40":3,"41":24,"42":25,"43":25,"44":19,"45":14,"46":56,"47":56,"49":38,"50":41,"51":44,"52":52,"53":52,"54":60,"55":62,"56":41,"57":52,"58":59,"59":56,"60":59,"61":30,"62":38,"63":59,"64":44,"65":39,"66":42,"67":42,"68":23,"69":34,"70":18,"71":19},"fa-renal":{"0":5,"2":14,"3":15,"4":17,"5":24,"6":31,"7":32,"8":34,"9":34,"10":40,"11":51,"12":53,"13":56,"14":54,"15":5,"16":5,"18":14,"19":17,"20":31,"21":34,"22":34,"23":38,"24":51,"25":53,"26":48},"fa-endocrine":{"0":6,"1":11,"2":18,"3":19,"4":22,"5":22,"6":18,"7":25,"8":27,"9":30,"10":32,"11":31,"12":35,"14":42,"15":40,"16":11,"17":18,"18":22,"20":21,"21":21,"22":27,"23":31,"24":31,"25":32,"27":42,"28":40},"fa-immune":{"0":44,"1":10,"2":14,"3":24,"4":38,"5":30,"6":30,"7":31,"8":33,"9":34,"10":35,"11":37,"12":38,"13":42,"14":43,"15":31,"16":10,"17":14,"18":24,"19":30,"20":30,"21":32,"22":33,"23":35,"24":37,"25":39,"26":42,"27":43,"28":41},"fa-digestive":{"0":12,"1":12,"2":15,"3":19,"4":21,"5":20,"6":22,"7":22,"8":26,"9":29,"10":48,"11":35,"12":39,"13":41,"14":47,"15":20,"16":12,"17":21,"18":20,"19":22,"20":22,"21":29,"22":48,"23":35,"24":40,"25":36,"26":41,"27":26}});
+(function (m) { var DIR26 = { "fa-neural": "fa-neural-26", "fa-cardiovascular": "fa-cardiovascular-26" }; Object.keys(m).forEach(function (id) { var L = SINA.lectures[id]; if (!L) return; Object.keys(m[id]).forEach(function (i) { var q = L.mcqs[i], n = m[id][i]; if (q && !q.slides) q.slides = [{ src: "files/slides/" + (DIR26[id] || id) + "/" + (n < 10 ? "0" : "") + n + ".jpg", lec: L.title, n: n }]; }); }); })({"fa-protection":{"0":3,"1":7,"2":13,"3":14,"4":16,"5":21,"6":12,"7":27,"8":35,"9":39,"10":37,"11":44,"12":44,"13":10,"14":12,"15":14,"16":21,"17":24,"18":26,"19":35,"20":37,"21":41,"22":44,"23":46,"24":15,"25":9},"fa-cardiac-arrest":{"0":2,"1":5,"2":6,"3":11,"4":12,"5":14,"6":14,"7":22,"8":24,"9":27,"11":13,"12":14,"13":5,"14":6,"15":11,"16":13,"17":14,"18":14,"19":22,"20":24,"21":27,"22":25,"24":6},"fa-bleeding":{"0":4,"1":12,"2":8,"3":11,"4":11,"5":12,"6":10,"7":16,"8":16,"9":4,"10":11,"11":5,"12":10,"13":11,"14":11,"15":12,"16":12,"17":10,"18":16,"19":16},"fa-trauma-burns":{"0":4,"1":5,"2":5,"3":6,"4":6,"5":15,"7":20,"8":24,"9":25,"10":26,"11":27,"12":25,"13":5,"14":5,"15":6,"16":15,"17":20,"18":22,"19":24,"20":25,"21":25,"22":26,"23":26,"24":27},"fa-neural":{"0":7,"1":49,"2":15,"3":16,"4":17,"5":19,"6":20,"7":35,"8":23,"9":43,"16":49,"17":20,"18":20,"19":17,"20":24,"21":43,"22":44,"23":43,"24":41,"25":23,"26":20,"27":19,"28":29,"29":34,"30":46,"31":43,"33":16,"34":21,"35":21,"36":21,"37":13,"38":13,"39":8,"40":14,"41":22,"42":3,"43":37,"44":37,"45":39,"46":40,"47":40,"48":42,"49":33,"50":19,"51":24,"52":24,"53":28,"54":27,"55":37,"56":30,"57":35,"58":34,"59":38,"60":46,"61":42,"62":37,"63":20},"fa-cardiovascular":{"0":3,"1":3,"2":40,"3":9,"4":19,"5":20,"6":38,"7":34,"8":36,"15":33,"16":34,"17":36,"18":31,"19":9,"20":19,"21":19,"22":19,"23":21,"24":15,"25":40,"26":22,"27":9,"28":36,"29":3,"30":15,"31":34,"32":33,"33":36,"34":38,"35":22,"36":22,"37":24,"38":7,"39":19,"40":19,"41":20,"42":17,"43":11,"44":13,"45":33,"46":15,"47":32,"48":32,"49":39,"50":39,"51":39,"52":41,"53":40,"54":23,"55":22,"56":21,"57":41,"58":36,"59":41,"60":32,"61":9,"62":39,"63":10,"64":9,"65":15,"66":19,"67":8,"68":21,"69":36,"70":19,"72":21,"73":20,"74":24,"75":24,"76":40},"fa-respiratory":{"0":3,"1":3,"2":12,"3":12,"5":19,"6":18,"7":18,"8":24,"9":22,"10":23,"11":25,"12":28,"13":59,"14":32,"15":34,"16":35,"17":38,"18":38,"19":38,"20":39,"21":44,"22":50,"23":50,"24":52,"25":56,"26":56,"27":59,"28":60,"29":62,"30":60,"31":67,"32":66,"33":66,"40":3,"41":24,"42":25,"43":25,"44":19,"45":14,"46":56,"47":56,"49":38,"50":41,"51":44,"52":52,"53":52,"54":60,"55":62,"56":41,"57":52,"58":59,"59":56,"60":59,"61":30,"62":38,"63":59,"64":44,"65":39,"66":42,"67":42,"68":23,"69":34,"70":18,"71":19,"72":3,"73":11,"74":14,"75":19,"76":19,"77":22,"78":22,"79":27,"80":56,"81":66,"82":66,"83":56,"84":39,"85":42,"86":50,"87":48,"88":48,"89":62,"90":55,"91":67},"fa-renal":{"0":5,"2":14,"3":15,"4":17,"5":24,"6":31,"7":32,"8":34,"9":34,"10":40,"11":51,"12":53,"13":56,"14":54,"15":5,"16":5,"18":14,"19":17,"20":31,"21":34,"22":34,"23":38,"24":51,"25":53,"26":48},"fa-endocrine":{"0":6,"1":11,"2":18,"3":19,"4":22,"5":22,"6":18,"7":25,"8":27,"9":30,"10":32,"11":31,"12":35,"14":42,"15":40,"16":11,"17":18,"18":22,"20":21,"21":21,"22":27,"23":31,"24":31,"25":32,"27":42,"28":40},"fa-immune":{"0":44,"1":10,"2":14,"3":24,"4":38,"5":30,"6":30,"7":31,"8":33,"9":34,"10":35,"11":37,"12":38,"13":42,"14":43,"15":31,"16":10,"17":14,"18":24,"19":30,"20":30,"21":32,"22":33,"23":35,"24":37,"25":39,"26":42,"27":43,"28":41},"fa-digestive":{"0":12,"1":12,"2":15,"3":19,"4":21,"5":20,"6":22,"7":22,"8":26,"9":29,"10":48,"11":35,"12":39,"13":41,"14":47,"15":20,"16":12,"17":21,"18":20,"19":22,"20":22,"21":29,"22":48,"23":35,"24":40,"25":36,"26":41,"27":26}});
