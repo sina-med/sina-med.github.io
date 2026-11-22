@@ -3512,6 +3512,13 @@ SINA.lectures["fa-neural"] = {
     "High PaCO₂ dilates cerebral vessels. Cerebral blood volume rises and, in a fixed skull (Monro-Kellie), ICP rises unless another volume falls.",
     "CO₂ acts on vessels, not by dehydrating brain tissue.",
     "CO₂ is a strong cerebral vasodilator."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-neural-26/41.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 41
+    }
    ]
   },
   {
@@ -4059,6 +4066,18 @@ SINA.lectures["fa-neural"] = {
     "PaCO₂ is a strong cerebral vasodilator: lowering it constricts vessels, reducing blood volume and ICP (at the cost of less flow, so only short-term). Note: slide 40 says hyperventilation \"increases cerebral blood flow\"; physiologically it decreases it, which is why ICP falls.",
     "It decreases CBF; that is why ICP falls.",
     "It acts on vessels, not by dehydration."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-neural-26/40.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 40
+    },
+    {
+     "src": "files/slides/fa-neural-26/41.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 41
+    }
    ]
   }
  ],
@@ -5597,6 +5616,18 @@ SINA.lectures["fa-cardiovascular"] = {
     "Lactate accumulation causes metabolic acidosis; chemoreceptors drive faster, deeper breathing that lowers PaCO₂.",
     "Retention would raise PaCO₂, not lower it.",
     "Fast breathing with low PaCO₂ is hyperventilation."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-cardiovascular-26/22.jpg",
+     "lec": "Cardiovascular function: shock",
+     "n": 22
+    },
+    {
+     "src": "files/slides/fa-respiratory/44.jpg",
+     "lec": "Respiratory function: hypoxaemia and hypercapnia",
+     "n": 44
+    }
    ]
   },
   {
@@ -6128,6 +6159,13 @@ SINA.lectures["fa-respiratory"] = {
     "That isn't a respiratory formula; resistance ∝ 1/r⁴.",
     "How easily the lung stretches; normal ≈ 200 mL/cmH₂O.",
     "ΔP / ΔV is elastance, the inverse of compliance."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-respiratory/14.jpg",
+     "lec": "Respiratory function: hypoxaemia and hypercapnia",
+     "n": 14
+    }
    ]
   },
   {
@@ -6613,6 +6651,18 @@ SINA.lectures["fa-respiratory"] = {
     "A low PaCO₂ with a high gradient is a lung problem such as V/Q mismatch.",
     "A high gradient points to the lungs, not the pump.",
     "A low PaCO₂ means ventilation is increased, not failing."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-respiratory/62.jpg",
+     "lec": "Respiratory function: hypoxaemia and hypercapnia",
+     "n": 62
+    },
+    {
+     "src": "files/slides/fa-respiratory/11.jpg",
+     "lec": "Respiratory function: hypoxaemia and hypercapnia",
+     "n": 11
+    }
    ]
   },
   {
@@ -6749,6 +6799,13 @@ SINA.lectures["fa-respiratory"] = {
     "A shunt unit receives no ventilation at all.",
     "Oxygen does not lower PaCO₂.",
     "Shunt units are perfused but not ventilated; that's why O₂ can't reach the blood."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-respiratory/38.jpg",
+     "lec": "Respiratory function: hypoxaemia and hypercapnia",
+     "n": 38
+    }
    ]
   },
   {
@@ -7437,6 +7494,18 @@ SINA.lectures["fa-respiratory"] = {
     "SpO₂ says nothing about CO₂: drowsiness on high-flow O₂ suggests rising PaCO₂, which only a blood gas shows.",
     "Spirometry doesn't help in an acute drowsy patient.",
     "An X-ray doesn't measure PaCO₂."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-respiratory/52.jpg",
+     "lec": "Respiratory function: hypoxaemia and hypercapnia",
+     "n": 52
+    },
+    {
+     "src": "files/slides/fa-respiratory/64.jpg",
+     "lec": "Respiratory function: hypoxaemia and hypercapnia",
+     "n": 64
+    }
    ]
   },
   {
@@ -7454,6 +7523,18 @@ SINA.lectures["fa-respiratory"] = {
     "Hypoventilation causes acidosis, not alkalosis.",
     "CO₂ doesn't lower CSF production.",
     "Hypoventilation lowers SpO₂."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-respiratory/44.jpg",
+     "lec": "Respiratory function: hypoxaemia and hypercapnia",
+     "n": 44
+    },
+    {
+     "src": "files/slides/fa-neural-26/41.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 41
+    }
    ]
   }
  ],
