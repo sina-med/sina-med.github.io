@@ -511,6 +511,8 @@
       return '<button type="button" class="smb-flag" data-r="' + r[0] + '">' + esc(r[1]) + "</button>";
     }).join("") + '<button type="button" class="smb-flag" data-more="1">Other problem…</button></span>';
     fb.appendChild(w);
+    /* this replaces the plain "Report a mistake" link, so don't show both */
+    var rl = fb.querySelector(".rep-line"); if (rl) rl.hidden = true;
     var tog = w.querySelector(".smb-ftog"), opts = w.querySelector(".smb-fopts");
     tog.onclick = function () { var o = tog.getAttribute("aria-expanded") !== "true"; tog.setAttribute("aria-expanded", String(o)); opts.hidden = !o; };
     opts.querySelectorAll("button").forEach(function (b) {

@@ -2992,7 +2992,13 @@ SINA.lectures["fa-neural"] = {
     "5 to 15 mmHg"
    ],
    "answer": 3,
-   "why": "Transient rises occur with movement, pain, fever, coughing and straining."
+   "why": "Transient rises occur with movement, pain, fever, coughing and straining.",
+   "notes": [
+    "20 mmHg or more is already raised ICP, so 20 to 30 is abnormal.",
+    "40 to 50 mmHg is severely raised ICP, far above normal.",
+    "Too low: normal adult ICP sits at 5 to 15 mmHg.",
+    "Transient rises occur with movement, pain, fever, coughing and straining."
+   ]
   },
   {
    "q": "From what ICP is it considered raised?",
@@ -3003,7 +3009,13 @@ SINA.lectures["fa-neural"] = {
     "20 mmHg or more"
    ],
    "answer": 3,
-   "why": "The take-home message defines raised ICP as 20 mmHg or more."
+   "why": "The take-home message defines raised ICP as 20 mmHg or more.",
+   "notes": [
+    "10 mmHg is within the normal 5 to 15 mmHg range.",
+    "15 mmHg is the top of the normal range, not the raised threshold.",
+    "40 mmHg is severely raised; the threshold is lower, at 20 mmHg.",
+    "The take-home message defines raised ICP as 20 mmHg or more."
+   ]
   },
   {
    "q": "What is a major cause of raised ICP?",
@@ -3014,7 +3026,13 @@ SINA.lectures["fa-neural"] = {
     "Low blood pressure"
    ],
    "answer": 2,
-   "why": "Blood-brain barrier dysfunction underlies specific forms of oedema."
+   "why": "Blood-brain barrier dysfunction underlies specific forms of oedema.",
+   "notes": [
+    "Anaemia does not add volume inside the skull.",
+    "Hypothermia lowers ICP: it reduces cerebral blood flow and metabolism.",
+    "Blood-brain barrier dysfunction underlies specific forms of oedema.",
+    "Low blood pressure lowers CPP (ischaemia risk) but does not itself raise ICP."
+   ]
   },
   {
    "q": "Which transiently raise ICP? (choose all)",
@@ -3028,7 +3046,13 @@ SINA.lectures["fa-neural"] = {
     0,
     1
    ],
-   "why": "Movement, position, pain, fever, coughing and straining."
+   "why": "Movement, position, pain, fever, coughing and straining.",
+   "notes": [
+    "Movement, position, pain, fever, coughing and straining.",
+    "Fever raises metabolism and cerebral blood flow, so ICP rises transiently.",
+    "Sleep is not one of the triggers listed; rises come with movement, pain, fever, coughing and straining.",
+    "Calm rest keeps ICP at baseline."
+   ]
   },
   {
    "q": "The Monro-Kellie doctrine states that:",
@@ -3039,7 +3063,13 @@ SINA.lectures["fa-neural"] = {
     "ICP has no effect on cerebral perfusion"
    ],
    "answer": 0,
-   "why": "Lowering ICP requires reducing one component."
+   "why": "Lowering ICP requires reducing one component.",
+   "notes": [
+    "Lowering ICP requires reducing one component.",
+    "The adult skull is rigid and cannot expand; that is the whole point of the doctrine.",
+    "CSF is made all through life, about 500 mL a day.",
+    "Raised ICP lowers CPP (CPP = MAP − ICP)."
+   ]
   },
   {
    "q": "Cerebral perfusion pressure equals:",
@@ -3050,7 +3080,13 @@ SINA.lectures["fa-neural"] = {
     "MAP - ICP"
    ],
    "answer": 3,
-   "why": "A rise in ICP lowers CPP."
+   "why": "A rise in ICP lowers CPP.",
+   "notes": [
+    "That is the pulse pressure, not a perfusion pressure.",
+    "ICP opposes perfusion, so it is subtracted, not added.",
+    "Reversed: this would give a negative value in a normal patient.",
+    "A rise in ICP lowers CPP."
+   ]
   },
   {
    "q": "Autoregulation keeps cerebral blood flow constant for CPP between:",
@@ -3061,7 +3097,13 @@ SINA.lectures["fa-neural"] = {
     "20 and 40 mmHg"
    ],
    "answer": 2,
-   "why": "Outside that range CBF follows CPP linearly."
+   "why": "Outside that range CBF follows CPP linearly.",
+   "notes": [
+    "The upper limit is 160 mmHg; above it, hypertensive encephalopathy.",
+    "Below 60 mmHg autoregulation fails and the brain becomes ischaemic.",
+    "Outside that range CBF follows CPP linearly.",
+    "20 to 40 mmHg is far below the autoregulated range: ischaemia."
+   ]
   },
   {
    "q": "The CT sign of hydrocephalus in the lecture is:",
@@ -3072,7 +3114,13 @@ SINA.lectures["fa-neural"] = {
     "Ventricular enlargement with effaced peripheral sulci"
    ],
    "answer": 3,
-   "why": "Managed with CSF shunts."
+   "why": "Managed with CSF shunts.",
+   "notes": [
+    "Midline shift points to a mass lesion such as a haematoma, not hydrocephalus.",
+    "A fracture is a bone finding, not a sign of excess CSF.",
+    "Air in the ventricles (pneumocephalus) follows trauma or surgery, not hydrocephalus.",
+    "Managed with CSF shunts."
+   ]
   },
   {
    "q": "What do the small rapid pulsations of the ICP waveform reflect?",
@@ -3083,7 +3131,13 @@ SINA.lectures["fa-neural"] = {
     "Posture"
    ],
    "answer": 2,
-   "why": "Respiration causes larger, slower fluctuations."
+   "why": "Respiration causes larger, slower fluctuations.",
+   "notes": [
+    "Coughing gives a transient rise in baseline ICP, not regular small pulsations.",
+    "Respiration gives larger, slower waves.",
+    "Respiration causes larger, slower fluctuations.",
+    "Posture shifts the baseline; it does not cause rapid pulsations."
+   ]
   },
   {
    "q": "Hypothermia lowers ICP by:",
@@ -3094,7 +3148,13 @@ SINA.lectures["fa-neural"] = {
     "Increasing mean arterial pressure"
    ],
    "answer": 1,
-   "why": "Lower temperatures reduce CBF, ICP and metabolism."
+   "why": "Lower temperatures reduce CBF, ICP and metabolism.",
+   "notes": [
+    "Opposite: hypothermia decreases CBF and metabolism.",
+    "Lower temperatures reduce CBF, ICP and metabolism.",
+    "Cooling does not increase CSF production.",
+    "Hypothermia does not lower ICP by raising MAP."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -3177,7 +3237,13 @@ SINA.lectures["fa-neural"] = {
     "The skull expands and lowers CPP"
    ],
    "answer": 2,
-   "why": "ICP up → CPP down → ischaemia → more oedema → ICP up again."
+   "why": "ICP up → CPP down → ischaemia → more oedema → ICP up again.",
+   "notes": [
+    "CSF production does not fall in raised ICP; the loop runs through perfusion.",
+    "Raised ICP lowers CPP, it does not raise it.",
+    "ICP up → CPP down → ischaemia → more oedema → ICP up again.",
+    "The adult skull cannot expand."
+   ]
   },
   {
    "q": "A patient has MAP 85 mmHg and ICP 20 mmHg. What is the cerebral perfusion pressure, and is it within the autoregulated range?",
@@ -3188,7 +3254,13 @@ SINA.lectures["fa-neural"] = {
     "4 mmHg, below the range"
    ],
    "answer": 1,
-   "why": "CPP = MAP − ICP = 65 mmHg, inside the 60 to 160 range."
+   "why": "CPP = MAP − ICP = 65 mmHg, inside the 60 to 160 range.",
+   "notes": [
+    "That is MAP + ICP; ICP must be subtracted.",
+    "CPP = MAP − ICP = 65 mmHg, inside the 60 to 160 range.",
+    "65 mmHg is above the 60 mmHg lower limit, so it is within range.",
+    "Wrong arithmetic: 85 − 20 = 65, not 4."
+   ]
   },
   {
    "q": "A patient has MAP 65 mmHg and ICP 25 mmHg. What is the main danger?",
@@ -3199,7 +3271,13 @@ SINA.lectures["fa-neural"] = {
     "Cerebral ischaemia, because CPP is 40 mmHg"
    ],
    "answer": 3,
-   "why": "CPP below 60 mmHg is ischaemic: 65 − 25 = 40."
+   "why": "CPP below 60 mmHg is ischaemic: 65 − 25 = 40.",
+   "notes": [
+    "Encephalopathy comes with CPP above 160 mmHg, not a low CPP.",
+    "CPP of 40 mmHg is below 60, so autoregulation has failed.",
+    "Nothing here points to excess CSF production.",
+    "CPP below 60 mmHg is ischaemic: 65 − 25 = 40."
+   ]
   },
   {
    "q": "An expanding haematoma adds volume to the skull. According to Monro-Kellie, what must happen to avoid a rise in ICP?",
@@ -3210,7 +3288,13 @@ SINA.lectures["fa-neural"] = {
     "CPP must rise"
    ],
    "answer": 0,
-   "why": "The cranium has a fixed volume; the only way to hold ICP is to reduce another component."
+   "why": "The cranium has a fixed volume; the only way to hold ICP is to reduce another component.",
+   "notes": [
+    "The cranium has a fixed volume; the only way to hold ICP is to reduce another component.",
+    "The adult skull is a fixed box and cannot grow.",
+    "More brain volume would add to the rise in ICP.",
+    "CPP is a result of MAP and ICP, not a volume that can be reduced."
+   ]
   },
   {
    "q": "On the pressure-volume curve, a small added volume in the flat early part causes:",
@@ -3221,7 +3305,13 @@ SINA.lectures["fa-neural"] = {
     "Immediate herniation"
    ],
    "answer": 1,
-   "why": "The early flat part is compensation; later the curve becomes steep and small volumes cause big rises."
+   "why": "The early flat part is compensation; later the curve becomes steep and small volumes cause big rises.",
+   "notes": [
+    "That happens on the steep later part of the curve, once compensation is used up.",
+    "The early flat part is compensation; later the curve becomes steep and small volumes cause big rises.",
+    "Adding volume never lowers ICP.",
+    "Herniation comes late, after compensation fails and ICP rises steeply."
+   ]
   },
   {
    "q": "A patient with a brain tumour has surrounding oedema and raised ICP. Which treatment targets this oedema?",
@@ -3232,7 +3322,13 @@ SINA.lectures["fa-neural"] = {
     "Shunt placement"
    ],
    "answer": 2,
-   "why": "Steroids help vasogenic oedema: they reduce CSF production and restore membrane permeability."
+   "why": "Steroids help vasogenic oedema: they reduce CSF production and restore membrane permeability.",
+   "notes": [
+    "Hypothermia lowers metabolism and CBF; it is not the treatment for tumour oedema.",
+    "A burr hole drains an acute haematoma, not oedema.",
+    "Steroids help vasogenic oedema: they reduce CSF production and restore membrane permeability.",
+    "A shunt drains CSF in hydrocephalus; it does not treat vasogenic oedema."
+   ]
   },
   {
    "q": "After a head injury, a patient has falling consciousness, anisocoria and hemiparesis from an acute epidural haematoma. Which procedure can save the patient?",
@@ -3243,7 +3339,13 @@ SINA.lectures["fa-neural"] = {
     "Skull trephination"
    ],
    "answer": 3,
-   "why": "Skull trephination (a burr hole) relieves the haematoma and can save a deteriorating patient (slide 41)."
+   "why": "Skull trephination (a burr hole) relieves the haematoma and can save a deteriorating patient (slide 41).",
+   "notes": [
+    "Steroids treat vasogenic oedema, not an expanding haematoma.",
+    "Glucose control prevents cellular oedema; too slow and indirect here.",
+    "Hypothermia lowers metabolism but does not remove the clot.",
+    "Skull trephination (a burr hole) relieves the haematoma and can save a deteriorating patient (slide 41)."
+   ]
   },
   {
    "q": "Why does glucose control matter in a patient with raised ICP?",
@@ -3254,7 +3356,13 @@ SINA.lectures["fa-neural"] = {
     "It reduces the blood-brain barrier"
    ],
    "answer": 2,
-   "why": "Controlling glucose avoids cellular oedema, which would add to ICP."
+   "why": "Controlling glucose avoids cellular oedema, which would add to ICP.",
+   "notes": [
+    "Glucose does not act directly on CPP.",
+    "Glucose has no effect on PaCO₂.",
+    "Controlling glucose avoids cellular oedema, which would add to ICP.",
+    "Glucose control does not 'reduce' the blood-brain barrier."
+   ]
   },
   {
    "q": "Besides CPP, which two gases influence cerebral blood flow?",
@@ -3265,7 +3373,13 @@ SINA.lectures["fa-neural"] = {
     "PaO₂ and PaCO₂"
    ],
    "answer": 3,
-   "why": "CBF also depends on PaO₂ and PaCO₂."
+   "why": "CBF also depends on PaO₂ and PaCO₂.",
+   "notes": [
+    "Nitrogen and argon are inert and do not regulate CBF.",
+    "PaO₂ matters too, not only PaCO₂.",
+    "These are not physiological regulators of CBF.",
+    "CBF also depends on PaO₂ and PaCO₂."
+   ]
   },
   {
    "q": "Which feature of the ICP waveform comes from breathing?",
@@ -3276,7 +3390,13 @@ SINA.lectures["fa-neural"] = {
     "A steady flat line"
    ],
    "answer": 1,
-   "why": "Small rapid pulsations are cardiac; the larger slower waves are respiratory."
+   "why": "Small rapid pulsations are cardiac; the larger slower waves are respiratory.",
+   "notes": [
+    "Small, fast pulsations come from the heartbeat.",
+    "Small rapid pulsations are cardiac; the larger slower waves are respiratory.",
+    "Breathing makes the waveform oscillate; it is not only the baseline.",
+    "A flat line is not physiological; the trace always pulsates."
+   ]
   },
   {
    "q": "Which statements about CPP are correct? (choose all)",
@@ -3290,7 +3410,13 @@ SINA.lectures["fa-neural"] = {
     0,
     3
    ],
-   "why": "Below 60 is ischaemia; above 160 is hypertensive encephalopathy."
+   "why": "Below 60 is ischaemia; above 160 is hypertensive encephalopathy.",
+   "notes": [
+    "Below 60 is ischaemia; above 160 is hypertensive encephalopathy.",
+    "Above 160 mmHg the risk is hypertensive encephalopathy, not ischaemia.",
+    "Below 60 mmHg the risk is ischaemia; encephalopathy is the high end.",
+    "CPP = MAP − ICP."
+   ]
   },
   {
    "q": "Which statement about cerebral blood flow is correct?",
@@ -3301,7 +3427,13 @@ SINA.lectures["fa-neural"] = {
     "The blood-brain barrier lets all substances through"
    ],
    "answer": 0,
-   "why": "CBF also depends on PaO₂ and PaCO₂, and the BBB is selective."
+   "why": "CBF also depends on PaO₂ and PaCO₂, and the BBB is selective.",
+   "notes": [
+    "CBF also depends on PaO₂ and PaCO₂, and the BBB is selective.",
+    "The brain receives about 20% of the blood, not 2%.",
+    "CBF does depend on PaO₂ and PaCO₂.",
+    "The BBB is selective; it blocks toxins and peripheral neurotransmitters."
+   ]
   },
   {
    "q": "Which pairs of oedema type and cause are correct? (choose all)",
@@ -3316,7 +3448,13 @@ SINA.lectures["fa-neural"] = {
     1,
     2
    ],
-   "why": "Cytotoxic oedema is cell swelling; vasogenic oedema is BBB breakdown."
+   "why": "Cytotoxic oedema is cell swelling; vasogenic oedema is BBB breakdown.",
+   "notes": [
+    "Cytotoxic oedema is cell swelling; vasogenic oedema is BBB breakdown.",
+    "Vasogenic oedema: a leaky BBB, typical around tumours.",
+    "Cytotoxic oedema: cells swell after energy failure.",
+    "BBB breakdown is vasogenic, not cytotoxic."
+   ]
   },
   {
    "q": "Which surgical options match their indication? (choose all)",
@@ -3331,7 +3469,13 @@ SINA.lectures["fa-neural"] = {
     2,
     3
    ],
-   "why": "Shunts treat hydrocephalus, not haematoma."
+   "why": "Shunts treat hydrocephalus, not haematoma.",
+   "notes": [
+    "An acute epidural haematoma needs a burr hole or craniotomy, not a shunt.",
+    "Shunts treat hydrocephalus, not haematoma.",
+    "",
+    ""
+   ]
   },
   {
    "q": "Which are actions of steroids in vasogenic oedema? (choose all)",
@@ -3345,7 +3489,13 @@ SINA.lectures["fa-neural"] = {
     0,
     2
    ],
-   "why": "Steroids reduce CSF production and restore membrane permeability."
+   "why": "Steroids reduce CSF production and restore membrane permeability.",
+   "notes": [
+    "Steroids reduce CSF production and restore membrane permeability.",
+    "Steroids reduce oedema, so brain volume falls rather than rises.",
+    "",
+    "Steroids restore membrane permeability; they don't increase the leak."
+   ]
   },
   {
    "q": "A sedated patient's PaCO₂ rises. What happens to the intracranial volumes?",
@@ -3356,7 +3506,13 @@ SINA.lectures["fa-neural"] = {
     "Nothing changes, because CO₂ does not affect the brain"
    ],
    "answer": 1,
-   "why": "High PaCO₂ dilates cerebral vessels. Cerebral blood volume rises and, in a fixed skull (Monro-Kellie), ICP rises unless another volume falls."
+   "why": "High PaCO₂ dilates cerebral vessels. Cerebral blood volume rises and, in a fixed skull (Monro-Kellie), ICP rises unless another volume falls.",
+   "notes": [
+    "CO₂ does not lower CSF volume; ICP rises, not falls.",
+    "High PaCO₂ dilates cerebral vessels. Cerebral blood volume rises and, in a fixed skull (Monro-Kellie), ICP rises unless another volume falls.",
+    "CO₂ acts on vessels, not by dehydrating brain tissue.",
+    "CO₂ is a strong cerebral vasodilator."
+   ]
   },
   {
    "q": "A patient's ICP rises to 25 mmHg during a bout of coughing, then returns to 10 mmHg. How should this be read?",
@@ -3367,7 +3523,13 @@ SINA.lectures["fa-neural"] = {
     "Cerebral ischaemia from low CPP"
    ],
    "answer": 1,
-   "why": "Coughing, straining and pain raise ICP transiently. Raised ICP means a sustained value of 20 mmHg or more; 10 mmHg is within the normal 5 to 15 mmHg."
+   "why": "Coughing, straining and pain raise ICP transiently. Raised ICP means a sustained value of 20 mmHg or more; 10 mmHg is within the normal 5 to 15 mmHg.",
+   "notes": [
+    "Raised ICP means a sustained 20 mmHg or more; this returned to normal.",
+    "Coughing, straining and pain raise ICP transiently. Raised ICP means a sustained value of 20 mmHg or more; 10 mmHg is within the normal 5 to 15 mmHg.",
+    "Hydrocephalus causes sustained rises with ventricular enlargement, not a brief rise with coughing.",
+    "ICP of 25 for a few seconds with a normal MAP doesn't mean ischaemia; it settles at 10."
+   ]
   },
   {
    "q": "How is mean arterial pressure estimated from a blood pressure reading?",
@@ -3378,7 +3540,13 @@ SINA.lectures["fa-neural"] = {
     "Systolic + ⅓ diastolic"
    ],
    "answer": 1,
-   "why": "MAP = diastolic + ⅓ (systolic − diastolic). For 120/80: 80 + 40/3 ≈ 93 mmHg."
+   "why": "MAP = diastolic + ⅓ (systolic − diastolic). For 120/80: 80 + 40/3 ≈ 93 mmHg.",
+   "notes": [
+    "A simple average overestimates MAP, because diastole lasts longer than systole.",
+    "MAP = diastolic + ⅓ (systolic − diastolic). For 120/80: 80 + 40/3 ≈ 93 mmHg.",
+    "That is the pulse pressure.",
+    "Not the formula: MAP is built on the diastolic value."
+   ]
   },
   {
    "q": "A patient has BP 120/80 and ICP 10 mmHg. What is the CPP?",
@@ -3389,7 +3557,13 @@ SINA.lectures["fa-neural"] = {
     "About 28 mmHg"
    ],
    "answer": 1,
-   "why": "MAP ≈ 80 + ⅓(40) ≈ 93 mmHg; CPP = MAP − ICP ≈ 93 − 10 ≈ 83 mmHg, within the autoregulated range."
+   "why": "MAP ≈ 80 + ⅓(40) ≈ 93 mmHg; CPP = MAP − ICP ≈ 93 − 10 ≈ 83 mmHg, within the autoregulated range.",
+   "notes": [
+    "110 mmHg would need an ICP far below zero or using systolic BP; CPP = 93 − 10 ≈ 83.",
+    "MAP ≈ 80 + ⅓(40) ≈ 93 mmHg; CPP = MAP − ICP ≈ 93 − 10 ≈ 83 mmHg, within the autoregulated range.",
+    "58 mmHg would need an ICP of about 35.",
+    "28 mmHg would need a far lower MAP or higher ICP."
+   ]
   },
   {
    "q": "Three patients: (1) BP 120/80, ICP 10; (2) BP 120/80, ICP 35; (3) BP 90/50, ICP 35. Whose brain is infarcting right now?",
@@ -3400,7 +3574,13 @@ SINA.lectures["fa-neural"] = {
     "None of them"
    ],
    "answer": 2,
-   "why": "Patient 3: MAP ≈ 50 + 40/3 ≈ 63 mmHg, CPP ≈ 28 mmHg, far below 60. Patient 2 has CPP ≈ 58 (borderline); patient 1 ≈ 83 (normal)."
+   "why": "Patient 3: MAP ≈ 50 + 40/3 ≈ 63 mmHg, CPP ≈ 28 mmHg, far below 60. Patient 2 has CPP ≈ 58 (borderline); patient 1 ≈ 83 (normal).",
+   "notes": [
+    "Patient 1: CPP ≈ 83 mmHg, normal.",
+    "Patient 2: CPP ≈ 58 mmHg, borderline but not as low as patient 3.",
+    "Patient 3: MAP ≈ 50 + 40/3 ≈ 63 mmHg, CPP ≈ 28 mmHg, far below 60. Patient 2 has CPP ≈ 58 (borderline); patient 1 ≈ 83 (normal).",
+    "Patient 3 has a CPP ≈ 28 mmHg, far below 60."
+   ]
   },
   {
    "q": "How much CSF does an adult make and reabsorb each day?",
@@ -3411,7 +3591,13 @@ SINA.lectures["fa-neural"] = {
     "About 2 L"
    ],
    "answer": 2,
-   "why": "Adults make and resorb about 500 mL of CSF a day, made by the choroid plexus and reabsorbed into the dural venous sinuses."
+   "why": "Adults make and resorb about 500 mL of CSF a day, made by the choroid plexus and reabsorbed into the dural venous sinuses.",
+   "notes": [
+    "Too little: 50 mL is less than the CSF volume present at any one time.",
+    "About 150 mL is the total CSF volume at one time, not the daily production.",
+    "Adults make and resorb about 500 mL of CSF a day, made by the choroid plexus and reabsorbed into the dural venous sinuses.",
+    "2 L is about four times too much."
+   ]
   },
   {
    "q": "Where is CSF reabsorbed?",
@@ -3422,7 +3608,13 @@ SINA.lectures["fa-neural"] = {
     "Into the lymphatics of the neck only"
    ],
    "answer": 1,
-   "why": "CSF is made by the choroid plexus, flows through the ventricles and subarachnoid space, and is reabsorbed through arachnoid granulations into the dural venous sinuses."
+   "why": "CSF is made by the choroid plexus, flows through the ventricles and subarachnoid space, and is reabsorbed through arachnoid granulations into the dural venous sinuses.",
+   "notes": [
+    "The choroid plexus makes CSF; it does not reabsorb it.",
+    "CSF is made by the choroid plexus, flows through the ventricles and subarachnoid space, and is reabsorbed through arachnoid granulations into the dural venous sinuses.",
+    "The fourth ventricle is part of the flow path, not the absorption site.",
+    "Absorption is mainly into the dural venous sinuses."
+   ]
   },
   {
    "q": "Which intracranial component has the largest volume in a healthy adult?",
@@ -3433,7 +3625,13 @@ SINA.lectures["fa-neural"] = {
     "Extracellular fluid (< 75 mL)"
    ],
    "answer": 2,
-   "why": "Glia (700–900 mL) and neurons (500–700 mL) far outweigh blood and CSF (100–150 mL each), which is why blood and CSF are the volumes that can be shifted to compensate."
+   "why": "Glia (700–900 mL) and neurons (500–700 mL) far outweigh blood and CSF (100–150 mL each), which is why blood and CSF are the volumes that can be shifted to compensate.",
+   "notes": [
+    "Blood is only about 100–150 mL.",
+    "CSF is only about 100–150 mL.",
+    "Glia (700–900 mL) and neurons (500–700 mL) far outweigh blood and CSF (100–150 mL each), which is why blood and CSF are the volumes that can be shifted to compensate.",
+    "ECF is the smallest compartment (< 75 mL)."
+   ]
   },
   {
    "q": "Which are functions of the blood-brain barrier? (choose all)",
@@ -3448,7 +3646,13 @@ SINA.lectures["fa-neural"] = {
     1,
     2
    ],
-   "why": "The BBB modulates the entry of substrates such as glucose, controls ion movements (Na⁺/K⁺ ATPase) and prevents toxins and peripheral neurotransmitters from reaching the CNS."
+   "why": "The BBB modulates the entry of substrates such as glucose, controls ion movements (Na⁺/K⁺ ATPase) and prevents toxins and peripheral neurotransmitters from reaching the CNS.",
+   "notes": [
+    "The BBB modulates the entry of substrates such as glucose, controls ion movements (Na⁺/K⁺ ATPase) and prevents toxins and peripheral neurotransmitters from reaching the CNS.",
+    "",
+    "",
+    "CSF is made by the choroid plexus, not the BBB."
+   ]
   },
   {
    "q": "Which method measures ICP non-invasively?",
@@ -3459,7 +3663,13 @@ SINA.lectures["fa-neural"] = {
     "Intraparenchymal probe"
    ],
    "answer": 1,
-   "why": "Non-invasive monitoring includes optic nerve sheath diameter on ultrasound and transcranial Doppler; a ventriculostomy is invasive."
+   "why": "Non-invasive monitoring includes optic nerve sheath diameter on ultrasound and transcranial Doppler; a ventriculostomy is invasive.",
+   "notes": [
+    "A ventriculostomy is a catheter in a ventricle: invasive.",
+    "Non-invasive monitoring includes optic nerve sheath diameter on ultrasound and transcranial Doppler; a ventriculostomy is invasive.",
+    "Lumbar puncture is invasive and can be dangerous with a mass lesion.",
+    "An intraparenchymal probe is inserted into the brain: invasive."
+   ]
   },
   {
    "q": "A 9-month-old is unconscious after a fall, but his head shows no swelling, bruise or deformity. What does this tell you about his brain?",
@@ -3470,7 +3680,13 @@ SINA.lectures["fa-neural"] = {
     "His ICP is normal"
    ],
    "answer": 1,
-   "why": "You cannot see, feel or listen to a brain: a normal-looking head tells you nothing about the brain underneath, so you must think about ICP and perfusion."
+   "why": "You cannot see, feel or listen to a brain: a normal-looking head tells you nothing about the brain underneath, so you must think about ICP and perfusion.",
+   "notes": [
+    "A normal-looking head does not exclude a brain injury.",
+    "You cannot see, feel or listen to a brain: a normal-looking head tells you nothing about the brain underneath, so you must think about ICP and perfusion.",
+    "No sign points to hydrocephalus here.",
+    "ICP cannot be judged from the outside of the head."
+   ]
   },
   {
    "q": "Which triad suggests brainstem compression from raised ICP?",
@@ -3481,7 +3697,13 @@ SINA.lectures["fa-neural"] = {
     "Hypotension, bradycardia, warm skin"
    ],
    "answer": 1,
-   "why": "The Cushing triad — raised blood pressure, bradycardia and irregular respiration — suggests brainstem compression."
+   "why": "The Cushing triad — raised blood pressure, bradycardia and irregular respiration — suggests brainstem compression.",
+   "notes": [
+    "This is the pattern of shock, not brainstem compression.",
+    "The Cushing triad — raised blood pressure, bradycardia and irregular respiration — suggests brainstem compression.",
+    "This is meningitis, not raised ICP.",
+    "Cushing triad has hypertension, not hypotension."
+   ]
   },
   {
    "q": "Which are signs of raised ICP on history and examination? (choose all)",
@@ -3496,7 +3718,13 @@ SINA.lectures["fa-neural"] = {
     1,
     2
    ],
-   "why": "Intense headache, visual symptoms, drowsiness and projectile vomiting; papilloedema and CN VI palsy on examination; in infants a BULGING fontanelle."
+   "why": "Intense headache, visual symptoms, drowsiness and projectile vomiting; papilloedema and CN VI palsy on examination; in infants a BULGING fontanelle.",
+   "notes": [
+    "Intense headache, visual symptoms, drowsiness and projectile vomiting; papilloedema and CN VI palsy on examination; in infants a BULGING fontanelle.",
+    "",
+    "",
+    "Infants with raised ICP have a bulging fontanelle; a sunken one suggests dehydration."
+   ]
   },
   {
    "q": "Why should hypotonic fluids be avoided in raised ICP?",
@@ -3507,7 +3735,13 @@ SINA.lectures["fa-neural"] = {
     "They block CSF production"
    ],
    "answer": 1,
-   "why": "Hypotonic fluids worsen brain oedema; mannitol and hypertonic saline do the opposite by drawing fluid out of the brain into the vessels."
+   "why": "Hypotonic fluids worsen brain oedema; mannitol and hypertonic saline do the opposite by drawing fluid out of the brain into the vessels.",
+   "notes": [
+    "Hypotonic fluids do not raise blood pressure meaningfully.",
+    "Hypotonic fluids worsen brain oedema; mannitol and hypertonic saline do the opposite by drawing fluid out of the brain into the vessels.",
+    "Fluids do not change PaCO₂.",
+    "They don't block CSF production; they add free water to the brain."
+   ]
   },
   {
    "q": "How do mannitol and hypertonic saline lower ICP?",
@@ -3518,7 +3752,13 @@ SINA.lectures["fa-neural"] = {
     "They lower body temperature"
    ],
    "answer": 1,
-   "why": "Both raise blood tonicity, creating a gradient that moves fluid from the brain's extracellular space into the vessels, reducing oedema (monitor serum sodium)."
+   "why": "Both raise blood tonicity, creating a gradient that moves fluid from the brain's extracellular space into the vessels, reducing oedema (monitor serum sodium).",
+   "notes": [
+    "They do not raise CSF production; that would raise ICP.",
+    "Both raise blood tonicity, creating a gradient that moves fluid from the brain's extracellular space into the vessels, reducing oedema (monitor serum sodium).",
+    "They do not dilate vessels; vasodilation would raise ICP.",
+    "They do not cool the body."
+   ]
   },
   {
    "q": "What does raising the head of the bed above 30° do in raised ICP?",
@@ -3529,7 +3769,13 @@ SINA.lectures["fa-neural"] = {
     "It lowers blood pressure to zero"
    ],
    "answer": 0,
-   "why": "Head elevation > 30° promotes venous drainage, lowering intracranial blood volume and ICP."
+   "why": "Head elevation > 30° promotes venous drainage, lowering intracranial blood volume and ICP.",
+   "notes": [
+    "Head elevation > 30° promotes venous drainage, lowering intracranial blood volume and ICP.",
+    "Head elevation lowers cerebral blood volume.",
+    "Head position does not affect CSF production.",
+    "Head elevation does not drop BP to zero."
+   ]
   },
   {
    "q": "Which drug lowers ICP by decreasing CSF production?",
@@ -3540,7 +3786,13 @@ SINA.lectures["fa-neural"] = {
     "Paracetamol"
    ],
    "answer": 1,
-   "why": "Acetazolamide is a diuretic that decreases CSF production; propofol coma lowers metabolic demand; antipyretics treat fever."
+   "why": "Acetazolamide is a diuretic that decreases CSF production; propofol coma lowers metabolic demand; antipyretics treat fever.",
+   "notes": [
+    "Mannitol works by osmosis, drawing water out of the brain.",
+    "Acetazolamide is a diuretic that decreases CSF production; propofol coma lowers metabolic demand; antipyretics treat fever.",
+    "Propofol coma lowers metabolic demand, not CSF production.",
+    "Paracetamol treats fever."
+   ]
   },
   {
    "q": "Too-rapid correction of hypernatraemia with hypotonic fluids causes which type of cerebral oedema?",
@@ -3551,7 +3803,13 @@ SINA.lectures["fa-neural"] = {
     "Osmotic"
    ],
    "answer": 3,
-   "why": "Osmotic oedema: relatively hypo-osmotic plasma makes free water move into the hyperosmotic brain."
+   "why": "Osmotic oedema: relatively hypo-osmotic plasma makes free water move into the hyperosmotic brain.",
+   "notes": [
+    "Vasogenic oedema comes from a leaky BBB.",
+    "Cytotoxic oedema follows energy failure in cells.",
+    "Interstitial oedema comes with hydrocephalus.",
+    "Osmotic oedema: relatively hypo-osmotic plasma makes free water move into the hyperosmotic brain."
+   ]
   },
   {
    "q": "In what unit is cerebral blood flow expressed?",
@@ -3562,7 +3820,13 @@ SINA.lectures["fa-neural"] = {
     "mL/kg/h"
    ],
    "answer": 0,
-   "why": "CBF is the volume of blood flowing per unit mass of brain per unit time: mL · 100 g⁻¹ · min⁻¹."
+   "why": "CBF is the volume of blood flowing per unit mass of brain per unit time: mL · 100 g⁻¹ · min⁻¹.",
+   "notes": [
+    "CBF is the volume of blood flowing per unit mass of brain per unit time: mL · 100 g⁻¹ · min⁻¹.",
+    "L/min/m² is the unit of cardiac index.",
+    "mmHg is a pressure unit (used for ICP, CPP).",
+    "mL/kg/h is used for urine output."
+   ]
   },
   {
    "q": "Which intracranial components can change their volume most to buffer a rise in pressure?",
@@ -3573,7 +3837,13 @@ SINA.lectures["fa-neural"] = {
     "The skull and dura"
    ],
    "answer": 1,
-   "why": "CSF and venous blood have the greatest ability to change their volume; once they are used up, ICP rises almost exponentially."
+   "why": "CSF and venous blood have the greatest ability to change their volume; once they are used up, ICP rises almost exponentially.",
+   "notes": [
+    "Neurons and glia cannot change volume quickly.",
+    "CSF and venous blood have the greatest ability to change their volume; once they are used up, ICP rises almost exponentially.",
+    "Arterial blood volume is held by autoregulation; ECF is tiny.",
+    "The adult skull and dura don't stretch."
+   ]
   },
   {
    "q": "Two patients both have an ICP of 14 mmHg. X is on the flat part of the pressure–volume curve, Y is at the 'knee'. A little more bleeding occurs in both. What happens?",
@@ -3584,7 +3854,13 @@ SINA.lectures["fa-neural"] = {
     "Neither changes"
    ],
    "answer": 1,
-   "why": "At the knee, compensation (CSF and venous blood) is exhausted, so a small added volume causes a steep rise in ICP. The same ICP can hide very different reserves."
+   "why": "At the knee, compensation (CSF and venous blood) is exhausted, so a small added volume causes a steep rise in ICP. The same ICP can hide very different reserves.",
+   "notes": [
+    "Same ICP does not mean same reserve.",
+    "At the knee, compensation (CSF and venous blood) is exhausted, so a small added volume causes a steep rise in ICP. The same ICP can hide very different reserves.",
+    "X still has compensation left, so its ICP barely rises.",
+    "Added volume will raise ICP in Y."
+   ]
   },
   {
    "q": "What are the two main consequences of raised ICP in the lecture?",
@@ -3595,7 +3871,13 @@ SINA.lectures["fa-neural"] = {
     "Fever and hyperglycaemia"
    ],
    "answer": 1,
-   "why": "Raised ICP lowers CPP (ischaemia) and pushes brain tissue across compartments (herniation)."
+   "why": "Raised ICP lowers CPP (ischaemia) and pushes brain tissue across compartments (herniation).",
+   "notes": [
+    "Hydrocephalus is a cause of raised ICP; meningitis is an infection.",
+    "Raised ICP lowers CPP (ischaemia) and pushes brain tissue across compartments (herniation).",
+    "Hypertension with bradycardia is the Cushing response, not the main consequence.",
+    "Fever and hyperglycaemia worsen ICP but are not its consequences."
+   ]
   },
   {
    "q": "Herniation of the cingulate gyrus under the falx cerebri is called:",
@@ -3606,7 +3888,13 @@ SINA.lectures["fa-neural"] = {
     "Transcalvarial herniation"
    ],
    "answer": 1,
-   "why": "Subfalcine (cingulate) herniation passes under the falx; uncal herniation compresses CN III and the brainstem; tonsillar herniation compresses the medulla."
+   "why": "Subfalcine (cingulate) herniation passes under the falx; uncal herniation compresses CN III and the brainstem; tonsillar herniation compresses the medulla.",
+   "notes": [
+    "Uncal herniation pushes the medial temporal lobe over the tentorium.",
+    "Subfalcine (cingulate) herniation passes under the falx; uncal herniation compresses CN III and the brainstem; tonsillar herniation compresses the medulla.",
+    "Tonsillar herniation pushes the cerebellar tonsils through the foramen magnum.",
+    "Transcalvarial herniation passes through a defect in the skull."
+   ]
   },
   {
    "q": "A head-injured patient develops a dilated right pupil, then bradycardia and irregular breathing. What does this sequence suggest?",
@@ -3617,7 +3905,13 @@ SINA.lectures["fa-neural"] = {
     "Normal transient ICP rise"
    ],
    "answer": 1,
-   "why": "A unilateral dilated pupil (CN III) followed by the Cushing pattern means herniation is compressing the brainstem — an emergency."
+   "why": "A unilateral dilated pupil (CN III) followed by the Cushing pattern means herniation is compressing the brainstem — an emergency.",
+   "notes": [
+    "Hydrocephalus doesn't usually give a one-sided dilated pupil.",
+    "A unilateral dilated pupil (CN III) followed by the Cushing pattern means herniation is compressing the brainstem — an emergency.",
+    "Osmotic oedema is diffuse and would not give a one-sided pupil sign.",
+    "A dilated pupil with Cushing signs is never normal."
+   ]
   },
   {
    "q": "Which causes cytotoxic rather than vasogenic oedema?",
@@ -3628,7 +3922,13 @@ SINA.lectures["fa-neural"] = {
     "Inflammation"
    ],
    "answer": 2,
-   "why": "Cytotoxic oedema follows energy failure (ischaemia, trauma, intracerebral haemorrhage); vasogenic oedema follows a leaky BBB (tumours, injury, infection, inflammation)."
+   "why": "Cytotoxic oedema follows energy failure (ischaemia, trauma, intracerebral haemorrhage); vasogenic oedema follows a leaky BBB (tumours, injury, infection, inflammation).",
+   "notes": [
+    "A tumour causes vasogenic oedema (leaky BBB).",
+    "An abscess causes vasogenic oedema.",
+    "Cytotoxic oedema follows energy failure (ischaemia, trauma, intracerebral haemorrhage); vasogenic oedema follows a leaky BBB (tumours, injury, infection, inflammation).",
+    "Inflammation causes vasogenic oedema."
+   ]
   },
   {
    "q": "Which raise ICP by DECREASING CSF absorption? (choose all)",
@@ -3643,7 +3943,13 @@ SINA.lectures["fa-neural"] = {
     1,
     2
    ],
-   "why": "Choroid plexus papilloma increases CSF production; the other three block its absorption."
+   "why": "Choroid plexus papilloma increases CSF production; the other three block its absorption.",
+   "notes": [
+    "Choroid plexus papilloma increases CSF production; the other three block its absorption.",
+    "",
+    "",
+    "A papilloma raises CSF production, not absorption."
+   ]
   },
   {
    "q": "Which are causes of raised ICP listed in the lecture? (choose all)",
@@ -3658,7 +3964,13 @@ SINA.lectures["fa-neural"] = {
     1,
     2
    ],
-   "why": "Etiologies include TBI, haemorrhage, mass lesions (tumour, haematoma), CNS infections (encephalitis, abscess), ischaemic stroke and vasculitis."
+   "why": "Etiologies include TBI, haemorrhage, mass lesions (tumour, haematoma), CNS infections (encephalitis, abscess), ischaemic stroke and vasculitis.",
+   "notes": [
+    "Etiologies include TBI, haemorrhage, mass lesions (tumour, haematoma), CNS infections (encephalitis, abscess), ischaemic stroke and vasculitis.",
+    "",
+    "",
+    "Septic shock is not a cause of raised ICP listed in the lecture."
+   ]
   },
   {
    "q": "Which are abnormal signs of raised ICP? (choose all)",
@@ -3673,7 +3985,13 @@ SINA.lectures["fa-neural"] = {
     1,
     2
    ],
-   "why": "Altered mental status, seizures, focal signs and the Cushing triad (with irregular respiration) are signs of raised ICP."
+   "why": "Altered mental status, seizures, focal signs and the Cushing triad (with irregular respiration) are signs of raised ICP.",
+   "notes": [
+    "Altered mental status, seizures, focal signs and the Cushing triad (with irregular respiration) are signs of raised ICP.",
+    "",
+    "",
+    "Lower limb oedema is peripheral, not a sign of raised ICP."
+   ]
   },
   {
    "q": "Match each ICP treatment to the volume it reduces. Which pairing is WRONG?",
@@ -3684,7 +4002,13 @@ SINA.lectures["fa-neural"] = {
     "Acetazolamide → blood"
    ],
    "answer": 3,
-   "why": "Acetazolamide reduces CSF production, so it acts on the CSF compartment, not blood."
+   "why": "Acetazolamide reduces CSF production, so it acts on the CSF compartment, not blood.",
+   "notes": [
+    "Correct pairing: mannitol draws water out of the brain.",
+    "Correct pairing: drains CSF.",
+    "Correct pairing: drains venous blood.",
+    "Acetazolamide reduces CSF production, so it acts on the CSF compartment, not blood."
+   ]
   },
   {
    "q": "A patient with a large haematoma has BP 190/100, HR 44 and irregular breathing. Why is lowering the BP aggressively dangerous?",
@@ -3695,7 +4019,13 @@ SINA.lectures["fa-neural"] = {
     "It increases CSF production"
    ],
    "answer": 1,
-   "why": "The Cushing response raises MAP to keep CPP = MAP − ICP adequate. The priority is lowering ICP and treating the cause, not the BP."
+   "why": "The Cushing response raises MAP to keep CPP = MAP − ICP adequate. The priority is lowering ICP and treating the cause, not the BP.",
+   "notes": [
+    "Lowering BP does not raise ICP directly; it lowers CPP.",
+    "The Cushing response raises MAP to keep CPP = MAP − ICP adequate. The priority is lowering ICP and treating the cause, not the BP.",
+    "Bradycardia here comes from the Cushing response.",
+    "BP lowering doesn't change CSF production."
+   ]
   },
   {
    "q": "A head-injured patient (ICP 25 mmHg) bleeds and his BP falls to 80/40. What is the main threat to his brain?",
@@ -3706,7 +4036,13 @@ SINA.lectures["fa-neural"] = {
     "A Cushing triad with high CPP"
    ],
    "answer": 1,
-   "why": "MAP ≈ 40 + 40/3 ≈ 53 mmHg; CPP ≈ 53 − 25 ≈ 28 mmHg, far below 60 — haemorrhagic shock adds ischaemia to the brain injury."
+   "why": "MAP ≈ 40 + 40/3 ≈ 53 mmHg; CPP ≈ 53 − 25 ≈ 28 mmHg, far below 60 — haemorrhagic shock adds ischaemia to the brain injury.",
+   "notes": [
+    "Encephalopathy is a high-CPP problem; this CPP is low.",
+    "MAP ≈ 40 + 40/3 ≈ 53 mmHg; CPP ≈ 53 − 25 ≈ 28 mmHg, far below 60 — haemorrhagic shock adds ischaemia to the brain injury.",
+    "Nothing suggests hydrocephalus.",
+    "The Cushing response raises BP; here BP has fallen."
+   ]
   },
   {
    "q": "How does short-term hyperventilation lower ICP?",
@@ -3717,7 +4053,13 @@ SINA.lectures["fa-neural"] = {
     "It dehydrates the brain"
    ],
    "answer": 1,
-   "why": "PaCO₂ is a strong cerebral vasodilator: lowering it constricts vessels, reducing blood volume and ICP (at the cost of less flow, so only short-term). Note: slide 40 says hyperventilation \"increases cerebral blood flow\"; physiologically it decreases it, which is why ICP falls."
+   "why": "PaCO₂ is a strong cerebral vasodilator: lowering it constricts vessels, reducing blood volume and ICP (at the cost of less flow, so only short-term). Note: slide 40 says hyperventilation \"increases cerebral blood flow\"; physiologically it decreases it, which is why ICP falls.",
+   "notes": [
+    "Hyperventilation does not affect CSF absorption.",
+    "PaCO₂ is a strong cerebral vasodilator: lowering it constricts vessels, reducing blood volume and ICP (at the cost of less flow, so only short-term). Note: slide 40 says hyperventilation \"increases cerebral blood flow\"; physiologically it decreases it, which is why ICP falls.",
+    "It decreases CBF; that is why ICP falls.",
+    "It acts on vessels, not by dehydration."
+   ]
   }
  ],
  "cards": [
@@ -4138,7 +4480,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "A fainting episode only"
    ],
    "answer": 2,
-   "why": "Widespread failure to oxygenate and nourish the body; a transition between life and death."
+   "why": "Widespread failure to oxygenate and nourish the body; a transition between life and death.",
+   "notes": [
+    "Shock usually comes with low, not high, blood pressure.",
+    "An MI is one cause (cardiogenic), but shock has many causes.",
+    "Widespread failure to oxygenate and nourish the body; a transition between life and death.",
+    "Fainting is brief and self-limiting; shock is a sustained failure of oxygen delivery."
+   ]
   },
   {
    "q": "What are the four types of shock?",
@@ -4149,7 +4497,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Acute, chronic, recurrent, silent, late"
    ],
    "answer": 1,
-   "why": "The four broad categories."
+   "why": "The four broad categories.",
+   "notes": [
+    "These describe severity, not the mechanism of shock.",
+    "The four broad categories.",
+    "Septic shock is one form of distributive shock; the others listed aren't shock types.",
+    "These describe timing, not the mechanism."
+   ]
   },
   {
    "q": "Which catecholamine is a positive inotrope?",
@@ -4160,7 +4514,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Dobutamine"
    ],
    "answer": 3,
-   "why": "Adrenaline, noradrenaline and dobutamine: inotropic effect and vasoconstriction."
+   "why": "Adrenaline, noradrenaline and dobutamine: inotropic effect and vasoconstriction.",
+   "notes": [
+    "Atropine is an anticholinergic: it raises heart rate, it isn't a catecholamine.",
+    "Insulin is a hormone, not a catecholamine or inotrope.",
+    "Furosemide is a loop diuretic.",
+    "Adrenaline, noradrenaline and dobutamine: inotropic effect and vasoconstriction."
+   ]
   },
   {
    "q": "Which is NOT a determinant of stroke volume?",
@@ -4171,7 +4531,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Contractility"
    ],
    "answer": 0,
-   "why": "SV depends on preload, inotropy and afterload."
+   "why": "SV depends on preload, inotropy and afterload.",
+   "notes": [
+    "SV depends on preload, inotropy and afterload.",
+    "Afterload is one of the three determinants of SV.",
+    "Preload is one of the three determinants of SV.",
+    "Contractility (inotropy) is one of the three determinants of SV."
+   ]
   },
   {
    "q": "The Fick equation states that VO2 equals:",
@@ -4182,7 +4548,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "MAP / SVR"
    ],
    "answer": 1,
-   "why": "Used to measure cardiac output."
+   "why": "Used to measure cardiac output.",
+   "notes": [
+    "SV × HR is cardiac output, not oxygen consumption.",
+    "Used to measure cardiac output.",
+    "CO × CaO₂ is oxygen delivery (TaO₂), not consumption.",
+    "MAP / SVR gives cardiac output (rearranged Ohm's law)."
+   ]
   },
   {
    "q": "Extensive burns cause which shock types?",
@@ -4193,7 +4565,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Neither: burns do not cause shock"
    ],
    "answer": 0,
-   "why": "Burns appear in both lists in the lecture."
+   "why": "Burns appear in both lists in the lecture.",
+   "notes": [
+    "Burns appear in both lists in the lecture.",
+    "Burns cause fluid loss and inflammation, not a primary pump failure.",
+    "Swelling from burns is not an obstructive cause of shock.",
+    "Extensive burns are a classic cause of shock."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -4276,7 +4654,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "It lowers MAP and also raises SaO₂"
    ],
    "answer": 0,
-   "why": "Volume loss cuts cardiac output, and anaemia lowers CaO₂, so TaO₂ (CaO₂ × CO) falls on both sides."
+   "why": "Volume loss cuts cardiac output, and anaemia lowers CaO₂, so TaO₂ (CaO₂ × CO) falls on both sides.",
+   "notes": [
+    "Volume loss cuts cardiac output, and anaemia lowers CaO₂, so TaO₂ (CaO₂ × CO) falls on both sides.",
+    "Haemorrhage does raise SVR, but PaCO₂ doesn't enter the oxygen-delivery equation.",
+    "Haemorrhage lowers Hb, it does not raise it.",
+    "SaO₂ usually stays normal in haemorrhage."
+   ]
   },
   {
    "q": "Day 3 after a myocardial infarction, a patient suddenly has low blood pressure, cold mottled extremities and a new murmur from septal rupture. Which shock family is this?",
@@ -4287,7 +4671,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Hypovolaemic"
    ],
    "answer": 1,
-   "why": "Septal rupture is a mechanical cause of cardiogenic shock: the pump fails despite adequate volume."
+   "why": "Septal rupture is a mechanical cause of cardiogenic shock: the pump fails despite adequate volume.",
+   "notes": [
+    "Distributive shock comes from vasodilation, e.g. sepsis or anaphylaxis.",
+    "Septal rupture is a mechanical cause of cardiogenic shock: the pump fails despite adequate volume.",
+    "Obstructive shock comes from a block outside the pump, such as tamponade.",
+    "Volume is adequate; the problem is the pump itself."
+   ]
   },
   {
    "q": "Why is septic shock classed as distributive?",
@@ -4298,7 +4688,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Blood is lost from the body"
    ],
    "answer": 2,
-   "why": "Vessels dilate and leak, so the circulating volume is too small for the enlarged vascular space, and oxygen extraction is poor."
+   "why": "Vessels dilate and leak, so the circulating volume is too small for the enlarged vascular space, and oxygen extraction is poor.",
+   "notes": [
+    "Weak contraction is cardiogenic shock.",
+    "Mechanical block is obstructive shock.",
+    "Vessels dilate and leak, so the circulating volume is too small for the enlarged vascular space, and oxygen extraction is poor.",
+    "No blood leaves the body in sepsis; the loss is relative."
+   ]
   },
   {
    "q": "What do cardiac tamponade, pulmonary embolism and tension pneumothorax have in common?",
@@ -4309,7 +4705,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "They mechanically obstruct blood flow"
    ],
    "answer": 3,
-   "why": "Obstructive shock: flow is blocked outside the pump itself."
+   "why": "Obstructive shock: flow is blocked outside the pump itself.",
+   "notes": [
+    "They don't act on the myocardium itself.",
+    "No volume is lost from the circulation.",
+    "Vasodilation is distributive shock.",
+    "Obstructive shock: flow is blocked outside the pump itself."
+   ]
   },
   {
    "q": "A patient has a stroke volume of 60 mL and a heart rate of 90 beats/min. What is the cardiac output?",
@@ -4320,7 +4722,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "54 L/min"
    ],
    "answer": 0,
-   "why": "CO = SV × HR = 60 × 90 = 5,400 mL/min = 5.4 L/min."
+   "why": "CO = SV × HR = 60 × 90 = 5,400 mL/min = 5.4 L/min.",
+   "notes": [
+    "CO = SV × HR = 60 × 90 = 5,400 mL/min = 5.4 L/min.",
+    "0.67 is 60 ÷ 90; CO is a product, not a ratio.",
+    "150 is 60 + 90; CO is SV × HR.",
+    "Off by a factor of 10: 5,400 mL/min = 5.4 L/min."
+   ]
   },
   {
    "q": "A patient has Hb 12 g/dL and SaO₂ 100%. What is the arterial oxygen content (CaO₂)?",
@@ -4331,7 +4739,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "0.9 mL O₂/dL"
    ],
    "answer": 1,
-   "why": "CaO₂ = 1.34 × Hb × SaO₂ = 1.34 × 12 × 1 ≈ 16.1 mL O₂/dL."
+   "why": "CaO₂ = 1.34 × Hb × SaO₂ = 1.34 × 12 × 1 ≈ 16.1 mL O₂/dL.",
+   "notes": [
+    "That forgets the 1.34 mL O₂ carried per gram of Hb.",
+    "CaO₂ = 1.34 × Hb × SaO₂ = 1.34 × 12 × 1 ≈ 16.1 mL O₂/dL.",
+    "1.34 is only the binding constant, not the content.",
+    "0.9 is far too low for Hb 12 and full saturation."
+   ]
   },
   {
    "q": "In a bleeding patient whose Hb halves while cardiac output and SaO₂ stay the same, oxygen delivery (TaO₂) will:",
@@ -4342,7 +4756,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Fall to zero"
    ],
    "answer": 2,
-   "why": "TaO₂ = CaO₂ × CO, and CaO₂ is proportional to Hb, so halving Hb roughly halves delivery."
+   "why": "TaO₂ = CaO₂ × CO, and CaO₂ is proportional to Hb, so halving Hb roughly halves delivery.",
+   "notes": [
+    "Less Hb can't increase delivery.",
+    "Delivery depends on Hb, so it can't stay the same.",
+    "TaO₂ = CaO₂ × CO, and CaO₂ is proportional to Hb, so halving Hb roughly halves delivery.",
+    "Some Hb is left, so delivery doesn't drop to zero."
+   ]
   },
   {
    "q": "When cardiac output falls in shock and tissues keep consuming oxygen, what happens to venous oxygen content (CvO₂) according to the Fick equation?",
@@ -4353,7 +4773,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "It falls, because tissues extract more of each unit of blood"
    ],
    "answer": 3,
-   "why": "VO₂ = CO × (CaO₂ − CvO₂): with lower CO the difference must widen, so CvO₂ drops."
+   "why": "VO₂ = CO × (CaO₂ − CvO₂): with lower CO the difference must widen, so CvO₂ drops.",
+   "notes": [
+    "With less flow, tissues take more O₂ from each unit of blood.",
+    "The CaO₂ − CvO₂ gap has to widen to keep VO₂.",
+    "That would mean no oxygen is extracted.",
+    "VO₂ = CO × (CaO₂ − CvO₂): with lower CO the difference must widen, so CvO₂ drops."
+   ]
   },
   {
    "q": "As blood pressure falls, the baroreflex responds with:",
@@ -4364,7 +4790,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "More activity in both systems"
    ],
    "answer": 0,
-   "why": "Sympathetic drive rises and vagal tone falls, raising heart rate and vascular tone."
+   "why": "Sympathetic drive rises and vagal tone falls, raising heart rate and vascular tone.",
+   "notes": [
+    "Sympathetic drive rises and vagal tone falls, raising heart rate and vascular tone.",
+    "That is the response to a rise in blood pressure.",
+    "Low BP activates the sympathetic system.",
+    "The parasympathetic (vagal) tone falls, it does not rise."
+   ]
   },
   {
    "q": "Widespread arteriolar vasodilation lowers MAP mainly by reducing which term in MAP = CO × SVR?",
@@ -4375,7 +4807,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Heart rate only"
    ],
    "answer": 1,
-   "why": "Arteries are the resistive vessels: dilating them lowers systemic vascular resistance."
+   "why": "Arteries are the resistive vessels: dilating them lowers systemic vascular resistance.",
+   "notes": [
+    "Vasodilation doesn't lower CO at first; CO may even rise.",
+    "Arteries are the resistive vessels: dilating them lowers systemic vascular resistance.",
+    "SV is part of CO, not what arteriolar dilation reduces.",
+    "Heart rate usually rises to compensate."
+   ]
   },
   {
    "q": "Which approach matches the lecture's management of shock?",
@@ -4386,7 +4824,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Wait for invasive monitoring before any treatment"
    ],
    "answer": 2,
-   "why": "Symptomatic treatment restores oxygen delivery while etiological treatment removes the cause."
+   "why": "Symptomatic treatment restores oxygen delivery while etiological treatment removes the cause.",
+   "notes": [
+    "Oxygen is part of restoring delivery and must not be withheld.",
+    "Catecholamines alone don't remove the cause.",
+    "Symptomatic treatment restores oxygen delivery while etiological treatment removes the cause.",
+    "Treatment starts at once; monitoring must not delay it."
+   ]
   },
   {
    "q": "Oliguria in a patient in shock reflects:",
@@ -4397,7 +4841,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Reduced blood flow to the kidneys"
    ],
    "answer": 3,
-   "why": "Oliguria is one of the signs of reduced regional flow, along with altered consciousness."
+   "why": "Oliguria is one of the signs of reduced regional flow, along with altered consciousness.",
+   "notes": [
+    "Oliguria is a kidney sign, not a rhythm problem.",
+    "Capillary refill is a separate skin sign.",
+    "SV is usually low in shock, not raised.",
+    "Oliguria is one of the signs of reduced regional flow, along with altered consciousness."
+   ]
   },
   {
    "q": "After 3 days of vomiting and diarrhoea, a patient has tachycardia, cold peripheries and low blood pressure. Which determinant of stroke volume has fallen most?",
@@ -4408,7 +4858,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Heart rate"
    ],
    "answer": 0,
-   "why": "Gastrointestinal losses cause hypovolaemic shock: less venous return means less preload."
+   "why": "Gastrointestinal losses cause hypovolaemic shock: less venous return means less preload.",
+   "notes": [
+    "Gastrointestinal losses cause hypovolaemic shock: less venous return means less preload.",
+    "Contractility is normal; the heart is just underfilled.",
+    "Afterload (SVR) rises as compensation; it isn't the problem.",
+    "Heart rate is a determinant of CO, not of SV, and here it rises."
+   ]
   },
   {
    "q": "Which formulas are correct? (choose all)",
@@ -4423,7 +4879,13 @@ SINA.lectures["fa-cardiovascular"] = {
     1,
     3
    ],
-   "why": "The Fick equation uses the arteriovenous difference: VO₂ = CO × (CaO₂ − CvO₂)."
+   "why": "The Fick equation uses the arteriovenous difference: VO₂ = CO × (CaO₂ − CvO₂).",
+   "notes": [
+    "The Fick equation uses the arteriovenous difference: VO₂ = CO × (CaO₂ − CvO₂).",
+    "",
+    "Wrong: the Fick equation uses the difference (CaO₂ − CvO₂), not the sum.",
+    ""
+   ]
   },
   {
    "q": "Which are causes of cardiogenic shock? (choose all)",
@@ -4437,7 +4899,13 @@ SINA.lectures["fa-cardiovascular"] = {
     2,
     3
    ],
-   "why": "Tension pneumothorax is obstructive. Cardiogenic causes: poor contractility, rhythm disorders, mechanical lesions."
+   "why": "Tension pneumothorax is obstructive. Cardiogenic causes: poor contractility, rhythm disorders, mechanical lesions.",
+   "notes": [
+    "Tension pneumothorax is obstructive.",
+    "Pulmonary embolism is obstructive.",
+    "A mechanical lesion of the heart (cardiogenic).",
+    ""
+   ]
   },
   {
    "q": "Which are causes of hypovolaemic shock? (choose all)",
@@ -4451,7 +4919,13 @@ SINA.lectures["fa-cardiovascular"] = {
     1,
     3
    ],
-   "why": "Anaphylaxis is distributive. Hypovolaemia comes from blood, burn or fluid losses."
+   "why": "Anaphylaxis is distributive. Hypovolaemia comes from blood, burn or fluid losses.",
+   "notes": [
+    "Tamponade is obstructive.",
+    "Anaphylaxis is distributive. Hypovolaemia comes from blood, burn or fluid losses.",
+    "Anaphylaxis is distributive.",
+    "Burns lose plasma: hypovolaemic (plus inflammatory distributive)."
+   ]
   },
   {
    "q": "Which belong to distributive shock? (choose all)",
@@ -4465,7 +4939,13 @@ SINA.lectures["fa-cardiovascular"] = {
     1,
     2
    ],
-   "why": "Pulmonary embolism is obstructive. Distributive shock follows vasodilation and capillary leak."
+   "why": "Pulmonary embolism is obstructive. Distributive shock follows vasodilation and capillary leak.",
+   "notes": [
+    "Tamponade is obstructive.",
+    "Pulmonary embolism is obstructive. Distributive shock follows vasodilation and capillary leak.",
+    "",
+    "Pulmonary embolism is obstructive."
+   ]
   },
   {
    "q": "Which are obstructive causes of shock? (choose all)",
@@ -4479,7 +4959,13 @@ SINA.lectures["fa-cardiovascular"] = {
     2,
     3
    ],
-   "why": "Septic shock is distributive and myocarditis is cardiogenic. Tamponade and PE block flow."
+   "why": "Septic shock is distributive and myocarditis is cardiogenic. Tamponade and PE block flow.",
+   "notes": [
+    "Myocarditis weakens the pump: cardiogenic.",
+    "Septic shock is distributive.",
+    "Septic shock is distributive and myocarditis is cardiogenic. Tamponade and PE block flow.",
+    ""
+   ]
   },
   {
    "q": "Which are signs of peripheral hypoperfusion? (choose all)",
@@ -4493,7 +4979,13 @@ SINA.lectures["fa-cardiovascular"] = {
     0,
     2
    ],
-   "why": "Hypoperfusion gives cold, mottled skin with slow capillary refill."
+   "why": "Hypoperfusion gives cold, mottled skin with slow capillary refill.",
+   "notes": [
+    "Hypoperfusion gives cold, mottled skin with slow capillary refill.",
+    "Warm flushed skin fits early distributive shock (vasodilation), not hypoperfusion.",
+    "",
+    "Warm, bounding extremities mean vasodilation, not poor perfusion."
+   ]
   },
   {
    "q": "Which are signs of reduced regional blood flow? (choose all)",
@@ -4508,7 +5000,13 @@ SINA.lectures["fa-cardiovascular"] = {
     2,
     3
    ],
-   "why": "Brain and kidney hypoperfusion give confusion and oliguria; tachycardia is compensatory."
+   "why": "Brain and kidney hypoperfusion give confusion and oliguria; tachycardia is compensatory.",
+   "notes": [
+    "Kidney hypoperfusion gives oliguria, not polyuria.",
+    "Poor brain perfusion causes confusion or drowsiness.",
+    "Poor kidney perfusion lowers urine output.",
+    "A compensatory sympathetic response."
+   ]
   },
   {
    "q": "Which belong to haemodynamic assessment of shock? (choose all)",
@@ -4522,7 +5020,13 @@ SINA.lectures["fa-cardiovascular"] = {
     0,
     3
    ],
-   "why": "Spirometry assesses lung volumes, not circulation."
+   "why": "Spirometry assesses lung volumes, not circulation.",
+   "notes": [
+    "Spirometry assesses lung volumes, not circulation.",
+    "Bone density says nothing about circulation.",
+    "Spirometry measures lung volumes, not circulation.",
+    ""
+   ]
   },
   {
    "q": "At rest, the heart delivers about 1000 mL of O₂ a minute and the body consumes about 250 mL. What fraction of the delivered oxygen do the tissues extract?",
@@ -4533,7 +5037,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "About 75%"
    ],
    "answer": 1,
-   "why": "DO₂ ≈ 1000 mL/min and VO₂ ≈ 250 mL/min: about 25% of delivered O₂ is extracted at rest."
+   "why": "DO₂ ≈ 1000 mL/min and VO₂ ≈ 250 mL/min: about 25% of delivered O₂ is extracted at rest.",
+   "notes": [
+    "5% would be 50 mL of 1000 mL.",
+    "DO₂ ≈ 1000 mL/min and VO₂ ≈ 250 mL/min: about 25% of delivered O₂ is extracted at rest.",
+    "50% would be 500 mL; that is extraction under stress, not at rest.",
+    "75% would leave venous blood almost empty."
+   ]
   },
   {
    "q": "A patient has VO₂ 250 mL/min, CaO₂ 200 mL/L and CvO₂ 150 mL/L. What is the cardiac output by the Fick principle?",
@@ -4544,7 +5054,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "50 L/min"
    ],
    "answer": 1,
-   "why": "CO = VO₂ ÷ (CaO₂ − CvO₂) = 250 ÷ (200 − 150) = 5 L/min (worked example on the oxygen content and extraction slide)."
+   "why": "CO = VO₂ ÷ (CaO₂ − CvO₂) = 250 ÷ (200 − 150) = 5 L/min (worked example on the oxygen content and extraction slide).",
+   "notes": [
+    "2.5 would need an arteriovenous difference of 100 mL/L.",
+    "CO = VO₂ ÷ (CaO₂ − CvO₂) = 250 ÷ (200 − 150) = 5 L/min (worked example on the oxygen content and extraction slide).",
+    "10 would need a difference of 25 mL/L.",
+    "Off by a factor of 10: 250 ÷ 50 = 5."
+   ]
   },
   {
    "q": "Why can venous O₂ saturation (SvO₂) be normal or even high in septic shock?",
@@ -4555,7 +5071,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Lactate falls"
    ],
    "answer": 1,
-   "why": "In septic shock extraction fails: cells cannot use the O₂, so SvO₂ may be normal or high despite shock (normal SvO₂ is 70–75%). In low-flow shocks tissues extract more and SvO₂ falls."
+   "why": "In septic shock extraction fails: cells cannot use the O₂, so SvO₂ may be normal or high despite shock (normal SvO₂ is 70–75%). In low-flow shocks tissues extract more and SvO₂ falls.",
+   "notes": [
+    "In septic shock CO is often normal or high, not low.",
+    "In septic shock extraction fails: cells cannot use the O₂, so SvO₂ may be normal or high despite shock (normal SvO₂ is 70–75%). In low-flow shocks tissues extract more and SvO₂ falls.",
+    "Hb doesn't rise in sepsis.",
+    "Lactate rises in septic shock."
+   ]
   },
   {
    "q": "Without oxygen, how much ATP does a cell get from one glucose, compared with 30 to 36 with oxygen?",
@@ -4566,7 +5088,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "None at all"
    ],
    "answer": 0,
-   "why": "Anaerobic metabolism turns glucose into pyruvate then lactate for only about 2 ATP per glucose, so cell pumps fail and lactate rises above 2 mmol/L."
+   "why": "Anaerobic metabolism turns glucose into pyruvate then lactate for only about 2 ATP per glucose, so cell pumps fail and lactate rises above 2 mmol/L.",
+   "notes": [
+    "Anaerobic metabolism turns glucose into pyruvate then lactate for only about 2 ATP per glucose, so cell pumps fail and lactate rises above 2 mmol/L.",
+    "15 ATP is not a real yield of either pathway.",
+    "30 ATP needs oxygen (aerobic respiration).",
+    "Glycolysis still gives a little ATP without oxygen."
+   ]
   },
   {
    "q": "According to the Frank-Starling law, what happens when end-diastolic volume increases?",
@@ -4577,7 +5105,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Afterload falls"
    ],
    "answer": 1,
-   "why": "Stretching cardiac fibres improves actin–myosin overlap, so a larger EDV increases stroke volume — up to a point (\"stretch to squeeze\")."
+   "why": "Stretching cardiac fibres improves actin–myosin overlap, so a larger EDV increases stroke volume — up to a point (\"stretch to squeeze\").",
+   "notes": [
+    "Stroke volume rises with filling, it does not fall at once.",
+    "Stretching cardiac fibres improves actin–myosin overlap, so a larger EDV increases stroke volume — up to a point (\"stretch to squeeze\").",
+    "Frank-Starling is about stroke volume, not heart rate.",
+    "Afterload is a separate determinant."
+   ]
   },
   {
    "q": "What is the mean circulatory (static) pressure, Pmc?",
@@ -4588,7 +5122,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "The pressure that opens the aortic valve"
    ],
    "answer": 1,
-   "why": "Pmc is the equilibrium pressure throughout the cardiovascular system when cardiac output is 0; it drives venous return."
+   "why": "Pmc is the equilibrium pressure throughout the cardiovascular system when cardiac output is 0; it drives venous return.",
+   "notes": [
+    "Systolic arterial pressure is the peak, not an equilibrium pressure.",
+    "Pmc is the equilibrium pressure throughout the cardiovascular system when cardiac output is 0; it drives venous return.",
+    "Pulmonary artery pressure is a single site, not the whole system.",
+    "The aortic valve opens when LV pressure exceeds aortic pressure."
+   ]
   },
   {
    "q": "Sympathetic stimulation acts on the cardiac function curve by:",
@@ -4599,7 +5139,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Making output independent of CVP"
    ],
    "answer": 1,
-   "why": "Increased heart rate, increased contractility and decreased afterload shift the cardiac function curve up: more cardiac output for the same central venous pressure."
+   "why": "Increased heart rate, increased contractility and decreased afterload shift the cardiac function curve up: more cardiac output for the same central venous pressure.",
+   "notes": [
+    "Shifting down is the effect of heart failure or a negative inotrope.",
+    "Increased heart rate, increased contractility and decreased afterload shift the cardiac function curve up: more cardiac output for the same central venous pressure.",
+    "Sympathetic stimulation clearly shifts the curve.",
+    "Output still depends on filling (Frank-Starling)."
+   ]
   },
   {
    "q": "In haemorrhage, how does the venous return curve move?",
@@ -4610,7 +5156,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Only its slope becomes steeper"
    ],
    "answer": 1,
-   "why": "Volume loss lowers the mean systemic filling pressure, so the venous return curve shifts down and left (hypovolaemic shock slide)."
+   "why": "Volume loss lowers the mean systemic filling pressure, so the venous return curve shifts down and left (hypovolaemic shock slide).",
+   "notes": [
+    "Up and right is the effect of fluid loading or venoconstriction.",
+    "Volume loss lowers the mean systemic filling pressure, so the venous return curve shifts down and left (hypovolaemic shock slide).",
+    "Losing volume lowers mean systemic filling pressure, so the curve moves.",
+    "A slope change comes from venous resistance, not volume loss."
+   ]
   },
   {
    "q": "In early haemorrhage, cardiac output falls but blood pressure looks normal. Why?",
@@ -4621,7 +5173,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Shock has not started"
    ],
    "answer": 1,
-   "why": "MAP = CO × SVR: reflex vasoconstriction raises SVR and hides the loss of flow, so a normal blood pressure does NOT rule out shock."
+   "why": "MAP = CO × SVR: reflex vasoconstriction raises SVR and hides the loss of flow, so a normal blood pressure does NOT rule out shock.",
+   "notes": [
+    "A fall in SVR would lower MAP further.",
+    "MAP = CO × SVR: reflex vasoconstriction raises SVR and hides the loss of flow, so a normal blood pressure does NOT rule out shock.",
+    "Stroke volume falls with less preload.",
+    "Cardiac output has already fallen: shock has begun."
+   ]
   },
   {
    "q": "In which type of shock is the systemic vascular resistance LOW?",
@@ -4632,7 +5190,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Obstructive"
    ],
    "answer": 2,
-   "why": "Only distributive shock has a low SVR. In the other three, SVR rises as the body compensates for a low cardiac output (haemodynamic fingerprint table)."
+   "why": "Only distributive shock has a low SVR. In the other three, SVR rises as the body compensates for a low cardiac output (haemodynamic fingerprint table).",
+   "notes": [
+    "In hypovolaemic shock SVR rises to compensate.",
+    "In cardiogenic shock SVR rises to compensate.",
+    "Only distributive shock has a low SVR. In the other three, SVR rises as the body compensates for a low cardiac output (haemodynamic fingerprint table).",
+    "In obstructive shock SVR rises to compensate."
+   ]
   },
   {
    "q": "Low cardiac output, cold skin and a HIGH central venous pressure fit which shock types? (choose all)",
@@ -4646,7 +5210,13 @@ SINA.lectures["fa-cardiovascular"] = {
     1,
     3
    ],
-   "why": "Preload tells you whether the tank is empty (low CVP: hypovolaemic) or blood is backing up (high CVP: cardiogenic and obstructive)."
+   "why": "Preload tells you whether the tank is empty (low CVP: hypovolaemic) or blood is backing up (high CVP: cardiogenic and obstructive).",
+   "notes": [
+    "Hypovolaemic shock has a LOW CVP (empty tank).",
+    "Preload tells you whether the tank is empty (low CVP: hypovolaemic) or blood is backing up (high CVP: cardiogenic and obstructive).",
+    "Distributive shock has warm skin early and a low or normal CVP.",
+    ""
+   ]
   },
   {
    "q": "A 25-year-old motorcyclist with a femur fracture has HR 128, BP 100/70, cold pale skin and flat neck veins. Which shock is this?",
@@ -4657,7 +5227,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Obstructive"
    ],
    "answer": 0,
-   "why": "Blood loss with flat neck veins (low preload) and cold skin (high SVR): hypovolaemic shock, the empty tank."
+   "why": "Blood loss with flat neck veins (low preload) and cold skin (high SVR): hypovolaemic shock, the empty tank.",
+   "notes": [
+    "Blood loss with flat neck veins (low preload) and cold skin (high SVR): hypovolaemic shock, the empty tank.",
+    "Nothing suggests pump failure, and neck veins would be distended.",
+    "Distributive shock gives warm skin and low SVR.",
+    "Obstructive shock gives distended neck veins."
+   ]
   },
   {
    "q": "A 45-year-old with pneumonia has T 39.5 °C, BP 82/40, warm hands, a bounding pulse and lactate 4.5 mmol/L. What haemodynamic pattern do you expect?",
@@ -4668,7 +5244,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Low CO, high CVP, low SVR"
    ],
    "answer": 1,
-   "why": "Septic (distributive) shock: low SVR, cardiac output often high, preload low or normal, warm skin early."
+   "why": "Septic (distributive) shock: low SVR, cardiac output often high, preload low or normal, warm skin early.",
+   "notes": [
+    "This is cardiogenic or obstructive shock.",
+    "Septic (distributive) shock: low SVR, cardiac output often high, preload low or normal, warm skin early.",
+    "This is hypovolaemic shock; this patient's hands are warm.",
+    "This mix doesn't match any of the four types."
+   ]
   },
   {
    "q": "A patient stabbed in the chest has BP 70/50, distended neck veins, muffled heart sounds and clear lungs. What stops the shock?",
@@ -4679,7 +5261,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Antibiotics"
    ],
    "answer": 2,
-   "why": "Tamponade is obstructive shock: fluids only maintain filling temporarily; removing the obstacle (pericardiocentesis) fixes the cause."
+   "why": "Tamponade is obstructive shock: fluids only maintain filling temporarily; removing the obstacle (pericardiocentesis) fixes the cause.",
+   "notes": [
+    "Dobutamine supports a failing pump; here the pump is compressed from outside.",
+    "Fluids only buy time; they don't remove the fluid around the heart.",
+    "Tamponade is obstructive shock: fluids only maintain filling temporarily; removing the obstacle (pericardiocentesis) fixes the cause.",
+    "There is no infection to treat."
+   ]
   },
   {
    "q": "A 68-year-old with crushing chest pain has BP 80/50, crackles in both lungs and distended neck veins. Which support fits?",
@@ -4690,7 +5278,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Needle decompression"
    ],
    "answer": 1,
-   "why": "Cardiogenic shock: support the pump (dobutamine), give fluids cautiously and treat the cause. A lot of fluid helps an empty tank but can drown a failing pump."
+   "why": "Cardiogenic shock: support the pump (dobutamine), give fluids cautiously and treat the cause. A lot of fluid helps an empty tank but can drown a failing pump.",
+   "notes": [
+    "Large boluses can 'drown' a failing pump and worsen pulmonary oedema.",
+    "Cardiogenic shock: support the pump (dobutamine), give fluids cautiously and treat the cause. A lot of fluid helps an empty tank but can drown a failing pump.",
+    "Noradrenaline and antibiotics fit septic shock.",
+    "Needle decompression treats tension pneumothorax."
+   ]
   },
   {
    "q": "Which vasoactive drug acts mainly by raising SVR?",
@@ -4701,7 +5295,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Atropine"
    ],
    "answer": 1,
-   "why": "Noradrenaline raises SVR; dobutamine raises contractility; adrenaline does both (management slide)."
+   "why": "Noradrenaline raises SVR; dobutamine raises contractility; adrenaline does both (management slide).",
+   "notes": [
+    "Dobutamine mainly raises contractility (inotrope).",
+    "Noradrenaline raises SVR; dobutamine raises contractility; adrenaline does both (management slide).",
+    "Furosemide is a diuretic.",
+    "Atropine raises heart rate."
+   ]
   },
   {
    "q": "A shocked patient's blood pressure falls, lactate rises and organs start to fail despite tachycardia. Which stage of shock is this?",
@@ -4712,7 +5312,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Recovery"
    ],
    "answer": 1,
-   "why": "Compensated: reflexes hold the pressure. Decompensated: reflexes are overwhelmed, BP falls, lactate rises, organs fail. Irreversible: cell death continues even if circulation is restored."
+   "why": "Compensated: reflexes hold the pressure. Decompensated: reflexes are overwhelmed, BP falls, lactate rises, organs fail. Irreversible: cell death continues even if circulation is restored.",
+   "notes": [
+    "In compensated shock the reflexes still hold BP.",
+    "Compensated: reflexes hold the pressure. Decompensated: reflexes are overwhelmed, BP falls, lactate rises, organs fail. Irreversible: cell death continues even if circulation is restored.",
+    "Irreversible means cell death continues even after circulation is restored.",
+    "Recovery means perfusion and lactate are improving."
+   ]
   },
   {
    "q": "Which bedside thresholds signal shock? (choose all)",
@@ -4727,7 +5333,13 @@ SINA.lectures["fa-cardiovascular"] = {
     1,
     2
    ],
-   "why": "The three windows (skin, kidney, brain) plus vital signs: oliguria < 0.5 mL/kg/h, hypotension with MAP < 65 mmHg (often late) and lactate > 2 mmol/L; capillary refill is prolonged beyond 3 s."
+   "why": "The three windows (skin, kidney, brain) plus vital signs: oliguria < 0.5 mL/kg/h, hypotension with MAP < 65 mmHg (often late) and lactate > 2 mmol/L; capillary refill is prolonged beyond 3 s.",
+   "notes": [
+    "The three windows (skin, kidney, brain) plus vital signs: oliguria < 0.5 mL/kg/h, hypotension with MAP < 65 mmHg (often late) and lactate > 2 mmol/L; capillary refill is prolonged beyond 3 s.",
+    "",
+    "",
+    "A short refill is normal; shock prolongs it beyond 3 seconds."
+   ]
   },
   {
    "q": "During compensation for shock, where is blood flow diverted away from?",
@@ -4738,7 +5350,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "All organs equally"
    ],
    "answer": 1,
-   "why": "The baroreflex and hormones divert flow away from skin, gut and kidneys to protect the brain and heart: the bleeding patient is fast, pale, cold and thirsty."
+   "why": "The baroreflex and hormones divert flow away from skin, gut and kidneys to protect the brain and heart: the bleeding patient is fast, pale, cold and thirsty.",
+   "notes": [
+    "Flow is diverted towards the brain and heart, to protect them.",
+    "The baroreflex and hormones divert flow away from skin, gut and kidneys to protect the brain and heart: the bleeding patient is fast, pale, cold and thirsty.",
+    "The lungs receive the full cardiac output; flow isn't diverted from them.",
+    "Redistribution is selective, not equal."
+   ]
   },
   {
    "q": "A 30-year-old stung by a wasp has BP 75/40, warm flushed skin, wheeze and a fast pulse. Which type of shock is this?",
@@ -4749,7 +5367,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Obstructive"
    ],
    "answer": 2,
-   "why": "Anaphylaxis is distributive shock: vasodilation and leaky capillaries lower SVR, the skin is warm early. Treat with adrenaline, fluids and remove the allergen."
+   "why": "Anaphylaxis is distributive shock: vasodilation and leaky capillaries lower SVR, the skin is warm early. Treat with adrenaline, fluids and remove the allergen.",
+   "notes": [
+    "No fluid loss; the skin would be cold.",
+    "No pump failure.",
+    "Anaphylaxis is distributive shock: vasodilation and leaky capillaries lower SVR, the skin is warm early. Treat with adrenaline, fluids and remove the allergen.",
+    "No mechanical block."
+   ]
   },
   {
    "q": "After a C5 spinal cord injury, a patient has BP 80/45, warm skin and a slow pulse. Which type of shock is this?",
@@ -4760,7 +5384,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Obstructive"
    ],
    "answer": 1,
-   "why": "Neurogenic (spinal) shock is distributive: loss of sympathetic tone dilates the vessels and lowers SVR."
+   "why": "Neurogenic (spinal) shock is distributive: loss of sympathetic tone dilates the vessels and lowers SVR.",
+   "notes": [
+    "No volume loss; the skin would be cold and the pulse fast.",
+    "Neurogenic (spinal) shock is distributive: loss of sympathetic tone dilates the vessels and lowers SVR.",
+    "The pump is not the problem.",
+    "Nothing is blocking flow."
+   ]
   },
   {
    "q": "A ventilated trauma patient suddenly has BP 70/40, distended neck veins, absent breath sounds on one side and a deviated trachea. Which shock, and what stops it?",
@@ -4771,7 +5401,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Distributive: noradrenaline"
    ],
    "answer": 1,
-   "why": "Tension pneumothorax raises intrathoracic pressure and compresses the veins and heart: obstructive shock with high CVP. Removing the obstacle (needle decompression, chest drain) treats it."
+   "why": "Tension pneumothorax raises intrathoracic pressure and compresses the veins and heart: obstructive shock with high CVP. Removing the obstacle (needle decompression, chest drain) treats it.",
+   "notes": [
+    "Neck veins would be flat in hypovolaemia.",
+    "Tension pneumothorax raises intrathoracic pressure and compresses the veins and heart: obstructive shock with high CVP. Removing the obstacle (needle decompression, chest drain) treats it.",
+    "No pump failure; the heart is compressed.",
+    "Distributive shock has low CVP, not distended neck veins."
+   ]
   },
   {
    "q": "A patient with 3 days of severe vomiting and diarrhoea has HR 125, BP 85/50, cold skin and flat neck veins. Which pattern fits?",
@@ -4782,7 +5418,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "CO ↓, CVP ↑, SVR ↓: obstructive"
    ],
    "answer": 0,
-   "why": "GI losses empty the tank: low preload (flat neck veins), low CO and a compensatory rise in SVR with cold skin — hypovolaemic shock."
+   "why": "GI losses empty the tank: low preload (flat neck veins), low CO and a compensatory rise in SVR with cold skin — hypovolaemic shock.",
+   "notes": [
+    "GI losses empty the tank: low preload (flat neck veins), low CO and a compensatory rise in SVR with cold skin — hypovolaemic shock.",
+    "Distributive shock gives warm skin and low SVR.",
+    "Cardiogenic shock gives distended neck veins.",
+    "Obstructive shock has a high SVR, not low."
+   ]
   },
   {
    "q": "A patient with a recent long flight has sudden dyspnoea, BP 75/45, distended neck veins and clear lungs. Which shock is most likely?",
@@ -4793,7 +5435,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Anaphylactic"
    ],
    "answer": 1,
-   "why": "Massive pulmonary embolism overloads the right ventricle (raised afterload) and blocks the circuit: obstructive shock with high CVP; treatment includes thrombolysis."
+   "why": "Massive pulmonary embolism overloads the right ventricle (raised afterload) and blocks the circuit: obstructive shock with high CVP; treatment includes thrombolysis.",
+   "notes": [
+    "Septic shock: fever and warm skin, low or normal CVP.",
+    "Massive pulmonary embolism overloads the right ventricle (raised afterload) and blocks the circuit: obstructive shock with high CVP; treatment includes thrombolysis.",
+    "Hypovolaemia gives flat neck veins.",
+    "Anaphylaxis gives warm flushed skin, wheeze, and a low CVP."
+   ]
   },
   {
    "q": "What best distinguishes tamponade (obstructive) from cardiogenic shock after an MI, when both have hypotension and distended neck veins?",
@@ -4804,7 +5452,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "A high SVR"
    ],
    "answer": 1,
-   "why": "Both have high CVP and high SVR, but a failing left ventricle backs up into the lungs (crackles), while tamponade squeezes the heart with clear lungs and muffled heart sounds."
+   "why": "Both have high CVP and high SVR, but a failing left ventricle backs up into the lungs (crackles), while tamponade squeezes the heart with clear lungs and muffled heart sounds.",
+   "notes": [
+    "Both are usually tachycardic.",
+    "Both have high CVP and high SVR, but a failing left ventricle backs up into the lungs (crackles), while tamponade squeezes the heart with clear lungs and muffled heart sounds.",
+    "Both have cold skin.",
+    "Both have a high SVR."
+   ]
   },
   {
    "q": "Which are the 'coupling factors' among the four determinants of cardiac output (those linking the heart to the vessels)? (choose all)",
@@ -4818,7 +5472,13 @@ SINA.lectures["fa-cardiovascular"] = {
     2,
     3
    ],
-   "why": "The lecture's diagram groups heart rate and contractility as cardiac factors, and preload and afterload as coupling factors."
+   "why": "The lecture's diagram groups heart rate and contractility as cardiac factors, and preload and afterload as coupling factors.",
+   "notes": [
+    "Heart rate is a cardiac factor.",
+    "Contractility is a cardiac factor.",
+    "The lecture's diagram groups heart rate and contractility as cardiac factors, and preload and afterload as coupling factors.",
+    ""
+   ]
   },
   {
    "q": "Which pairing of a failing determinant with the lecture's example is correct?",
@@ -4829,7 +5489,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Heart rate — septic shock"
    ],
    "answer": 1,
-   "why": "Heart rate: complete heart block; preload: haemorrhage; contractility: myocardial infarction; afterload: massive pulmonary embolism overloading the right ventricle."
+   "why": "Heart rate: complete heart block; preload: haemorrhage; contractility: myocardial infarction; afterload: massive pulmonary embolism overloading the right ventricle.",
+   "notes": [
+    "Haemorrhage lowers preload; contractility fails in MI.",
+    "Heart rate: complete heart block; preload: haemorrhage; contractility: myocardial infarction; afterload: massive pulmonary embolism overloading the right ventricle.",
+    "MI lowers contractility; preload fails in haemorrhage.",
+    "The heart rate example is complete heart block."
+   ]
   },
   {
    "q": "MAP 85 mmHg, right atrial pressure 5 mmHg and CO 4 L/min. What is the SVR (in mmHg·min/L)?",
@@ -4840,7 +5506,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "80"
    ],
    "answer": 1,
-   "why": "Rearranged Ohm's law: CO = (MAP − RAP) / SVR, so SVR = (85 − 5) / 4 = 20."
+   "why": "Rearranged Ohm's law: CO = (MAP − RAP) / SVR, so SVR = (85 − 5) / 4 = 20.",
+   "notes": [
+    "10 would mean dividing by 8.",
+    "Rearranged Ohm's law: CO = (MAP − RAP) / SVR, so SVR = (85 − 5) / 4 = 20.",
+    "21 forgets to subtract the right atrial pressure (85 ÷ 4).",
+    "80 is the pressure gradient, not yet divided by CO."
+   ]
   },
   {
    "q": "Which vessels hold most of the blood volume and act as capacitance vessels?",
@@ -4851,7 +5523,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Veins"
    ],
    "answer": 3,
-   "why": "Veins are capacitance vessels holding most of the blood volume; arterioles set the resistance; exchange happens in the capillaries."
+   "why": "Veins are capacitance vessels holding most of the blood volume; arterioles set the resistance; exchange happens in the capillaries.",
+   "notes": [
+    "Arteries hold a smaller share of the blood volume under high pressure.",
+    "Arterioles are the resistance vessels.",
+    "Capillaries are the exchange vessels.",
+    "Veins are capacitance vessels holding most of the blood volume; arterioles set the resistance; exchange happens in the capillaries."
+   ]
   },
   {
    "q": "Why does venoconstriction help in early haemorrhage?",
@@ -4862,7 +5540,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "It slows the heart"
    ],
    "answer": 1,
-   "why": "Venoconstriction pushes blood from the capacitance veins toward the heart: Psf rises, venous return and preload improve."
+   "why": "Venoconstriction pushes blood from the capacitance veins toward the heart: Psf rises, venous return and preload improve.",
+   "notes": [
+    "Venoconstriction acts on the veins, not on SVR.",
+    "Venoconstriction pushes blood from the capacitance veins toward the heart: Psf rises, venous return and preload improve.",
+    "Extraction is a tissue effect, not a venous one.",
+    "It doesn't change heart rate directly."
+   ]
   },
   {
    "q": "The most common cause of distributive shock is:",
@@ -4873,7 +5557,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Pancreatitis"
    ],
    "answer": 1,
-   "why": "Septic shock is the most common distributive shock; anaphylactic, neurogenic and severe inflammatory shocks are the others."
+   "why": "Septic shock is the most common distributive shock; anaphylactic, neurogenic and severe inflammatory shocks are the others.",
+   "notes": [
+    "Anaphylaxis is a distributive shock, but less common than sepsis.",
+    "Septic shock is the most common distributive shock; anaphylactic, neurogenic and severe inflammatory shocks are the others.",
+    "Spinal injury (neurogenic) is a rarer distributive shock.",
+    "Pancreatitis causes inflammatory shock but less often than sepsis."
+   ]
   },
   {
    "q": "A septic patient has MAP 58 mmHg, CO 8 L/min, SvO₂ 82% and lactate 5 mmol/L. What does this mean?",
@@ -4884,7 +5574,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "He needs only blood transfusion"
    ],
    "answer": 1,
-   "why": "In septic shock, flow is badly distributed and extraction fails: SvO₂ can be high while cells are still hypoxic, so lactate rises."
+   "why": "In septic shock, flow is badly distributed and extraction fails: SvO₂ can be high while cells are still hypoxic, so lactate rises.",
+   "notes": [
+    "High SvO₂ in sepsis means poor extraction, not recovery.",
+    "In septic shock, flow is badly distributed and extraction fails: SvO₂ can be high while cells are still hypoxic, so lactate rises.",
+    "CO is high, which doesn't fit cardiogenic shock.",
+    "Hb is not the problem; extraction is."
+   ]
   },
   {
    "q": "A septic patient breathes at 30/min with a PaCO₂ of 28 mmHg. What is the best explanation?",
@@ -4895,7 +5591,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Hypoventilation"
    ],
    "answer": 1,
-   "why": "Lactate accumulation causes metabolic acidosis; chemoreceptors drive faster, deeper breathing that lowers PaCO₂."
+   "why": "Lactate accumulation causes metabolic acidosis; chemoreceptors drive faster, deeper breathing that lowers PaCO₂.",
+   "notes": [
+    "Opioids slow breathing and raise PaCO₂.",
+    "Lactate accumulation causes metabolic acidosis; chemoreceptors drive faster, deeper breathing that lowers PaCO₂.",
+    "Retention would raise PaCO₂, not lower it.",
+    "Fast breathing with low PaCO₂ is hyperventilation."
+   ]
   },
   {
    "q": "Which belong to the physiological compensation of haemorrhagic shock? (choose all)",
@@ -4910,7 +5612,13 @@ SINA.lectures["fa-cardiovascular"] = {
     1,
     2
    ],
-   "why": "Baroreflex activation (seconds), then adrenaline, renin-angiotensin-aldosterone and ADH (minutes to hours) constrict vessels and retain salt and water — urine output falls, it does not rise."
+   "why": "Baroreflex activation (seconds), then adrenaline, renin-angiotensin-aldosterone and ADH (minutes to hours) constrict vessels and retain salt and water — urine output falls, it does not rise.",
+   "notes": [
+    "Baroreflex activation (seconds), then adrenaline, renin-angiotensin-aldosterone and ADH (minutes to hours) constrict vessels and retain salt and water — urine output falls, it does not rise.",
+    "",
+    "",
+    "Urine output falls (oliguria), it does not rise."
+   ]
   },
   {
    "q": "Why does metabolic acidosis develop in shock? (choose all)",
@@ -4925,7 +5633,13 @@ SINA.lectures["fa-cardiovascular"] = {
     1,
     2
    ],
-   "why": "Hypoperfusion reduces O₂ delivery, cells switch to anaerobic glycolysis and lactic acid accumulates, causing metabolic acidosis."
+   "why": "Hypoperfusion reduces O₂ delivery, cells switch to anaerobic glycolysis and lactic acid accumulates, causing metabolic acidosis.",
+   "notes": [
+    "Hypoperfusion reduces O₂ delivery, cells switch to anaerobic glycolysis and lactic acid accumulates, causing metabolic acidosis.",
+    "",
+    "",
+    "Ketoacidosis is from diabetes (insulin lack), not shock."
+   ]
   },
   {
    "q": "Which tool assesses FLOW rather than pressure or oxygen?",
@@ -4936,7 +5650,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Arterial lactate"
    ],
    "answer": 1,
-   "why": "Pressure: BP cuff, arterial line, CVP. Flow: echocardiography, Fick or thermodilution. Oxygen: blood gas, lactate, SvO₂, pulse oximetry."
+   "why": "Pressure: BP cuff, arterial line, CVP. Flow: echocardiography, Fick or thermodilution. Oxygen: blood gas, lactate, SvO₂, pulse oximetry.",
+   "notes": [
+    "An arterial line measures pressure.",
+    "Pressure: BP cuff, arterial line, CVP. Flow: echocardiography, Fick or thermodilution. Oxygen: blood gas, lactate, SvO₂, pulse oximetry.",
+    "Pulse oximetry measures oxygen saturation.",
+    "Lactate is an oxygen and metabolic marker."
+   ]
   },
   {
    "q": "Central venous pressure is used as an estimate of:",
@@ -4947,7 +5667,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Cardiac output"
    ],
    "answer": 1,
-   "why": "CVP estimates the filling (preload) of the right heart."
+   "why": "CVP estimates the filling (preload) of the right heart.",
+   "notes": [
+    "CVP doesn't measure contractility.",
+    "CVP estimates the filling (preload) of the right heart.",
+    "SVR is calculated from MAP, RAP and CO.",
+    "CVP is a pressure, not a flow."
+   ]
   },
   {
    "q": "In the 'V-I-P' support of the circulation, what does each letter stand for?",
@@ -4958,7 +5684,13 @@ SINA.lectures["fa-cardiovascular"] = {
     "Ventilate, Intubate, Pericardiocentesis"
    ],
    "answer": 1,
-   "why": "Ventilate (O₂ ± ventilation → ↑ CaO₂), Infuse (fluids/blood → ↑ preload), Pump (vasoactive drugs)."
+   "why": "Ventilate (O₂ ± ventilation → ↑ CaO₂), Infuse (fluids/blood → ↑ preload), Pump (vasoactive drugs).",
+   "notes": [
+    "Not the lecture's letters: V-I-P is Ventilate, Infuse, Pump.",
+    "Ventilate (O₂ ± ventilation → ↑ CaO₂), Infuse (fluids/blood → ↑ preload), Pump (vasoactive drugs).",
+    "Vasodilation would worsen most shocks.",
+    "Not the mnemonic; P stands for Pump (vasoactive drugs)."
+   ]
   }
  ],
  "cards": [
@@ -5339,7 +6071,13 @@ SINA.lectures["fa-respiratory"] = {
     "Hypoventilation with ↑ PaCO₂"
    ],
    "answer": 3,
-   "why": "Brainstem, nerves, muscles or chest wall: opioid overdose, Guillain–Barré, flail chest."
+   "why": "Brainstem, nerves, muscles or chest wall: opioid overdose, Guillain–Barré, flail chest.",
+   "notes": [
+    "Airway obstruction is a failure of the airways component.",
+    "Tissue hypoxia with normal lungs points to the blood or circulation.",
+    "Diffusion failure is an alveolar-capillary problem.",
+    "Brainstem, nerves, muscles or chest wall: opioid overdose, Guillain–Barré, flail chest."
+   ]
   },
   {
    "q": "During a quiet inspiration, pleural pressure goes from about:",
@@ -5350,7 +6088,13 @@ SINA.lectures["fa-respiratory"] = {
     "+5 to +8 cmH₂O"
    ],
    "answer": 2,
-   "why": "The diaphragm contracts, pleural pressure falls, alveolar pressure turns slightly negative and air flows in."
+   "why": "The diaphragm contracts, pleural pressure falls, alveolar pressure turns slightly negative and air flows in.",
+   "notes": [
+    "−40 to −60 cmH₂O only happens with forced effort against an obstruction.",
+    "Pleural pressure stays negative throughout quiet breathing.",
+    "The diaphragm contracts, pleural pressure falls, alveolar pressure turns slightly negative and air flows in.",
+    "Positive pleural pressure happens in forced expiration, not quiet inspiration."
+   ]
   },
   {
    "q": "Quiet expiration is:",
@@ -5361,7 +6105,13 @@ SINA.lectures["fa-respiratory"] = {
     "Driven by surfactant"
    ],
    "answer": 1,
-   "why": "Recoil makes alveolar pressure positive and air flows out."
+   "why": "Recoil makes alveolar pressure positive and air flows out.",
+   "notes": [
+    "Abdominal muscles work only in forced expiration.",
+    "Recoil makes alveolar pressure positive and air flows out.",
+    "The diaphragm is the muscle of inspiration; it relaxes in expiration.",
+    "Surfactant lowers surface tension; it doesn't drive airflow."
+   ]
   },
   {
    "q": "Compliance is defined as:",
@@ -5372,7 +6122,13 @@ SINA.lectures["fa-respiratory"] = {
     "ΔP / ΔV"
    ],
    "answer": 2,
-   "why": "How easily the lung stretches; normal ≈ 200 mL/cmH₂O."
+   "why": "How easily the lung stretches; normal ≈ 200 mL/cmH₂O.",
+   "notes": [
+    "Flow / pressure is conductance, the inverse of resistance.",
+    "That isn't a respiratory formula; resistance ∝ 1/r⁴.",
+    "How easily the lung stretches; normal ≈ 200 mL/cmH₂O.",
+    "ΔP / ΔV is elastance, the inverse of compliance."
+   ]
   },
   {
    "q": "Which condition increases lung compliance?",
@@ -5383,7 +6139,13 @@ SINA.lectures["fa-respiratory"] = {
     "Emphysema"
    ],
    "answer": 3,
-   "why": "Loss of elastic recoil: the lung fills easily but doesn't empty, with air trapping and ↑ FRC."
+   "why": "Loss of elastic recoil: the lung fills easily but doesn't empty, with air trapping and ↑ FRC.",
+   "notes": [
+    "Fibrosis stiffens the lung: compliance falls.",
+    "Oedema fluid stiffens the lung: compliance falls.",
+    "ARDS makes the lung stiff: compliance falls.",
+    "Loss of elastic recoil: the lung fills easily but doesn't empty, with air trapping and ↑ FRC."
+   ]
   },
   {
    "q": "Which cells make surfactant?",
@@ -5394,7 +6156,13 @@ SINA.lectures["fa-respiratory"] = {
     "Type I alveolar cells"
    ],
    "answer": 1,
-   "why": "Surfactant lowers surface tension, raises compliance and keeps small alveoli open."
+   "why": "Surfactant lowers surface tension, raises compliance and keeps small alveoli open.",
+   "notes": [
+    "Ciliated cells line the airways and clear mucus.",
+    "Surfactant lowers surface tension, raises compliance and keeps small alveoli open.",
+    "Macrophages clear particles and pathogens.",
+    "Type I cells form the thin gas-exchange surface."
+   ]
   },
   {
    "q": "Lack of surfactant in a premature baby causes:",
@@ -5405,7 +6173,13 @@ SINA.lectures["fa-respiratory"] = {
     "Asthma"
    ],
    "answer": 2,
-   "why": "Alveoli collapse at end-expiration: atelectasis and hypoxaemia; treated with surfactant."
+   "why": "Alveoli collapse at end-expiration: atelectasis and hypoxaemia; treated with surfactant.",
+   "notes": [
+    "Emphysema is destruction of alveolar walls in adults, usually smokers.",
+    "Pneumothorax is air in the pleural space.",
+    "Alveoli collapse at end-expiration: atelectasis and hypoxaemia; treated with surfactant.",
+    "Asthma is reversible airway narrowing."
+   ]
   },
   {
    "q": "If the airway radius is halved, resistance is multiplied by:",
@@ -5416,7 +6190,13 @@ SINA.lectures["fa-respiratory"] = {
     "16"
    ],
    "answer": 3,
-   "why": "Resistance ∝ 1/r⁴, which is why asthma can turn severe fast."
+   "why": "Resistance ∝ 1/r⁴, which is why asthma can turn severe fast.",
+   "notes": [
+    "Doubling applies to a linear relation, not to r⁴.",
+    "8 would be 2³.",
+    "4 would be 2².",
+    "Resistance ∝ 1/r⁴, which is why asthma can turn severe fast."
+   ]
   },
   {
    "q": "Which drug widens the airways by blocking vagal M3 receptors?",
@@ -5427,7 +6207,13 @@ SINA.lectures["fa-respiratory"] = {
     "Naloxone"
    ],
    "answer": 1,
-   "why": "Parasympathetic tone constricts the airways; anticholinergics block it."
+   "why": "Parasympathetic tone constricts the airways; anticholinergics block it.",
+   "notes": [
+    "Adrenaline dilates the airways through β2 receptors.",
+    "Parasympathetic tone constricts the airways; anticholinergics block it.",
+    "Salbutamol is a β2 agonist, not an anticholinergic.",
+    "Naloxone reverses opioids."
+   ]
   },
   {
    "q": "Why do asthma and COPD patients breathe at high lung volume?",
@@ -5438,7 +6224,13 @@ SINA.lectures["fa-respiratory"] = {
     "Radial traction keeps the airways open"
    ],
    "answer": 3,
-   "why": "Resistance falls as lung volume rises; the result is hyperinflation."
+   "why": "Resistance falls as lung volume rises; the result is hyperinflation.",
+   "notes": [
+    "Lung volume doesn't change surfactant production.",
+    "High lung volume isn't chosen to lower compliance.",
+    "Higher dead space isn't a benefit.",
+    "Resistance falls as lung volume rises; the result is hyperinflation."
+   ]
   },
   {
    "q": "Inspired PO₂ in the airways at sea level is about:",
@@ -5449,7 +6241,13 @@ SINA.lectures["fa-respiratory"] = {
     "100 mmHg"
    ],
    "answer": 2,
-   "why": "0.21 × (760 − 47): water vapour pressure at 37 °C is subtracted first."
+   "why": "0.21 × (760 − 47): water vapour pressure at 37 °C is subtracted first.",
+   "notes": [
+    "160 mmHg is dry air; water vapour must be subtracted first.",
+    "760 mmHg is total atmospheric pressure.",
+    "0.21 × (760 − 47): water vapour pressure at 37 °C is subtracted first.",
+    "100 mmHg is roughly alveolar PO₂, after CO₂ has been added."
+   ]
   },
   {
    "q": "A high PaCO₂ means:",
@@ -5460,7 +6258,13 @@ SINA.lectures["fa-respiratory"] = {
     "Alveolar ventilation is too low"
    ],
    "answer": 3,
-   "why": "PaCO₂ is the mirror of alveolar ventilation."
+   "why": "PaCO₂ is the mirror of alveolar ventilation.",
+   "notes": [
+    "Diffusion problems lower PaO₂ first; CO₂ diffuses easily.",
+    "Giving extra oxygen doesn't define a high PaCO₂.",
+    "Hb affects O₂ content, not PaCO₂.",
+    "PaCO₂ is the mirror of alveolar ventilation."
+   ]
   },
   {
    "q": "Why does a diffusion problem cause hypoxaemia but a normal or low PaCO₂?",
@@ -5471,7 +6275,13 @@ SINA.lectures["fa-respiratory"] = {
     "Diffusion only affects O₂ at rest"
    ],
    "answer": 0,
-   "why": "D depends on solubility ÷ √(molecular weight)."
+   "why": "D depends on solubility ÷ √(molecular weight).",
+   "notes": [
+    "D depends on solubility ÷ √(molecular weight).",
+    "CO₂ is not more abundant than O₂ in air.",
+    "Most CO₂ is carried as bicarbonate; that doesn't explain diffusion.",
+    "Diffusion limits matter mostly on exercise, but this isn't why CO₂ stays normal."
+   ]
   },
   {
    "q": "Standing, the V/Q ratio at the apex is about:",
@@ -5482,7 +6292,13 @@ SINA.lectures["fa-respiratory"] = {
     "1"
    ],
    "answer": 1,
-   "why": "Blood flow rises from apex to base more than ventilation: ≈ 3 at the apex, ≈ 0.6 at the base."
+   "why": "Blood flow rises from apex to base more than ventilation: ≈ 3 at the apex, ≈ 0.6 at the base.",
+   "notes": [
+    "0 is a shunt: perfusion with no ventilation.",
+    "Blood flow rises from apex to base more than ventilation: ≈ 3 at the apex, ≈ 0.6 at the base.",
+    "0.6 is the base, where perfusion is greatest.",
+    "A V/Q of about 1 is reached in mid-lung, not at the apex."
+   ]
   },
   {
    "q": "Pulmonary embolism is the classic example of:",
@@ -5493,7 +6309,13 @@ SINA.lectures["fa-respiratory"] = {
     "Dead space (V/Q = ∞)"
    ],
    "answer": 3,
-   "why": "Air with no blood: wasted ventilation and a wider PaCO₂–ETCO₂ gap."
+   "why": "Air with no blood: wasted ventilation and a wider PaCO₂–ETCO₂ gap.",
+   "notes": [
+    "A diffusion block is a thickened membrane.",
+    "A shunt is blood with no air (V/Q = 0).",
+    "Low V/Q is poorly ventilated lung, as in asthma.",
+    "Air with no blood: wasted ventilation and a wider PaCO₂–ETCO₂ gap."
+   ]
   },
   {
    "q": "The commonest cause of hypoxaemia in clinical practice is:",
@@ -5504,7 +6326,13 @@ SINA.lectures["fa-respiratory"] = {
     "High altitude"
    ],
    "answer": 0,
-   "why": "Stated in the lecture's V/Q clinical link."
+   "why": "Stated in the lecture's V/Q clinical link.",
+   "notes": [
+    "Stated in the lecture's V/Q clinical link.",
+    "Diffusion block is uncommon at rest.",
+    "Hypoventilation is less common than V/Q mismatch.",
+    "Altitude only applies to those living or climbing high."
+   ]
   },
   {
    "q": "Which shifts the O₂–Hb curve to the right?",
@@ -5515,7 +6343,13 @@ SINA.lectures["fa-respiratory"] = {
     "Cold"
    ],
    "answer": 1,
-   "why": "Right shift with ↑ temperature, ↑ PCO₂, ↑ 2,3-DPG, ↓ pH: O₂ is released more easily."
+   "why": "Right shift with ↑ temperature, ↑ PCO₂, ↑ 2,3-DPG, ↓ pH: O₂ is released more easily.",
+   "notes": [
+    "Alkalosis shifts the curve to the left.",
+    "Right shift with ↑ temperature, ↑ PCO₂, ↑ 2,3-DPG, ↓ pH: O₂ is released more easily.",
+    "CO shifts the curve to the left.",
+    "Cold shifts the curve to the left."
+   ]
   },
   {
    "q": "Deep, fast breathing in diabetic ketoacidosis is called:",
@@ -5526,7 +6360,13 @@ SINA.lectures["fa-respiratory"] = {
     "Cheyne–Stokes breathing"
    ],
    "answer": 1,
-   "why": "Chemoreceptors stimulated by metabolic acidosis lower PaCO₂."
+   "why": "Chemoreceptors stimulated by metabolic acidosis lower PaCO₂.",
+   "notes": [
+    "Biot breathing is irregular clusters with pauses, from brain injury.",
+    "Chemoreceptors stimulated by metabolic acidosis lower PaCO₂.",
+    "Paradoxical breathing is the chest moving the wrong way (flail chest, diaphragm weakness).",
+    "Cheyne–Stokes waxes and wanes with pauses (heart failure, stroke)."
+   ]
   },
   {
    "q": "Which lung volume cannot be measured by simple spirometry?",
@@ -5537,7 +6377,13 @@ SINA.lectures["fa-respiratory"] = {
     "Inspiratory reserve volume"
    ],
    "answer": 1,
-   "why": "RV, FRC and TLC need body plethysmography or gas dilution."
+   "why": "RV, FRC and TLC need body plethysmography or gas dilution.",
+   "notes": [
+    "ERV can be read straight from the spirometer.",
+    "RV, FRC and TLC need body plethysmography or gas dilution.",
+    "VT can be read straight from the spirometer.",
+    "IRV can be read straight from the spirometer."
+   ]
   },
   {
    "q": "FRC equals:",
@@ -5548,7 +6394,13 @@ SINA.lectures["fa-respiratory"] = {
     "ERV + RV"
    ],
    "answer": 3,
-   "why": "Air left after a normal expiration."
+   "why": "Air left after a normal expiration.",
+   "notes": [
+    "VT + ERV is not a standard capacity.",
+    "VT + IRV is the inspiratory capacity.",
+    "IRV + VT + ERV is the vital capacity.",
+    "Air left after a normal expiration."
+   ]
   },
   {
    "q": "A normal A–a gradient with hypoxaemia points to:",
@@ -5559,7 +6411,13 @@ SINA.lectures["fa-respiratory"] = {
     "Diffusion block"
    ],
    "answer": 1,
-   "why": "Or low inspired O₂ (altitude). A high gradient means V/Q mismatch, shunt or diffusion."
+   "why": "Or low inspired O₂ (altitude). A high gradient means V/Q mismatch, shunt or diffusion.",
+   "notes": [
+    "A shunt gives a high A–a gradient.",
+    "Or low inspired O₂ (altitude). A high gradient means V/Q mismatch, shunt or diffusion.",
+    "V/Q mismatch gives a high A–a gradient.",
+    "A diffusion block gives a high A–a gradient."
+   ]
   },
   {
    "q": "Hypercapnia is defined as PaCO₂ above:",
@@ -5570,7 +6428,13 @@ SINA.lectures["fa-respiratory"] = {
     "45 mmHg"
    ],
    "answer": 3,
-   "why": "Acute hypercapnia causes respiratory acidosis."
+   "why": "Acute hypercapnia causes respiratory acidosis.",
+   "notes": [
+    "80 mmHg is severe hypercapnia, not the threshold.",
+    "35 mmHg is the lower limit of normal.",
+    "60 mmHg is already well above normal.",
+    "Acute hypercapnia causes respiratory acidosis."
+   ]
   },
   {
    "q": "The spirometric hallmark of an obstructive disorder is:",
@@ -5581,7 +6445,13 @@ SINA.lectures["fa-respiratory"] = {
     "↓ RV"
    ],
    "answer": 0,
-   "why": "Reversibility of ≥ 12% and ≥ 200 mL suggests asthma."
+   "why": "Reversibility of ≥ 12% and ≥ 200 mL suggests asthma.",
+   "notes": [
+    "Reversibility of ≥ 12% and ≥ 200 mL suggests asthma.",
+    "A high TLC fits hyperinflation, but the hallmark is a low ratio.",
+    "A low TLC is the hallmark of restriction.",
+    "RV is high, not low, in obstruction (air trapping)."
+   ]
   },
   {
    "q": "The main finding of a restrictive disorder is:",
@@ -5592,7 +6462,13 @@ SINA.lectures["fa-respiratory"] = {
     "↑ RV"
    ],
    "answer": 2,
-   "why": "With ↓ FVC and a normal or high FEV₁/FVC."
+   "why": "With ↓ FVC and a normal or high FEV₁/FVC.",
+   "notes": [
+    "FRC falls in restriction, it doesn't rise.",
+    "A low FEV₁/FVC means obstruction.",
+    "With ↓ FVC and a normal or high FEV₁/FVC.",
+    "A raised RV means air trapping, typical of obstruction."
+   ]
   },
   {
    "q": "In an asthma attack, a normal or rising PaCO₂ means:",
@@ -5603,7 +6479,13 @@ SINA.lectures["fa-respiratory"] = {
     "A shunt"
    ],
    "answer": 2,
-   "why": "Early on, PaCO₂ is low; a normal or rising value means the patient is tiring."
+   "why": "Early on, PaCO₂ is low; a normal or rising value means the patient is tiring.",
+   "notes": [
+    "A rising PaCO₂ in an attack doesn't mean recovery.",
+    "Oxygen isn't the cause in an asthma attack.",
+    "Early on, PaCO₂ is low; a normal or rising value means the patient is tiring.",
+    "A shunt is not the mechanism of asthma."
+   ]
   },
   {
    "q": "Target SpO₂ in a patient at risk of CO₂ retention (COPD) is:",
@@ -5614,7 +6496,13 @@ SINA.lectures["fa-respiratory"] = {
     "80–85%"
    ],
    "answer": 2,
-   "why": "Too much O₂ worsens V/Q and raises PaCO₂; most patients aim for 92–96%."
+   "why": "Too much O₂ worsens V/Q and raises PaCO₂; most patients aim for 92–96%.",
+   "notes": [
+    "92–96% is the target for most patients, not those at risk of CO₂ retention.",
+    "98–100% is too high: it can raise PaCO₂ in COPD.",
+    "Too much O₂ worsens V/Q and raises PaCO₂; most patients aim for 92–96%.",
+    "80–85% is too low and causes tissue hypoxia."
+   ]
   },
   {
    "q": "Patient 1 (opioids, RR 6, PaCO₂ 75, PaO₂ 52) needs first:",
@@ -5625,7 +6513,13 @@ SINA.lectures["fa-respiratory"] = {
     "Salbutamol"
    ],
    "answer": 2,
-   "why": "A–a ≈ 4: pure hypoventilation from a depressed respiratory centre."
+   "why": "A–a ≈ 4: pure hypoventilation from a depressed respiratory centre.",
+   "notes": [
+    "Oxygen alone doesn't fix the hypoventilation and can hide a rising PaCO₂.",
+    "Nothing suggests infection.",
+    "A–a ≈ 4: pure hypoventilation from a depressed respiratory centre.",
+    "Salbutamol treats bronchospasm, not opioid hypoventilation."
+   ]
   },
   {
    "q": "Patient 3 (pneumonia, A–a ≈ 56, little rise with O₂) has:",
@@ -5636,7 +6530,13 @@ SINA.lectures["fa-respiratory"] = {
     "Low inspired O₂"
    ],
    "answer": 0,
-   "why": "Alveoli filled with pus: high-flow O₂, antibiotics, consider CPAP."
+   "why": "Alveoli filled with pus: high-flow O₂, antibiotics, consider CPAP.",
+   "notes": [
+    "Alveoli filled with pus: high-flow O₂, antibiotics, consider CPAP.",
+    "Dead space is ventilation without perfusion, e.g. pulmonary embolism.",
+    "Hypoventilation gives a normal A–a gradient.",
+    "Low inspired O₂ gives a normal A–a gradient."
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -5707,7 +6607,13 @@ SINA.lectures["fa-respiratory"] = {
     "Low PaCO₂ with a normal A–a gradient"
    ],
    "answer": 0,
-   "why": "Neuromuscular failure is a control and pump problem: hypoventilation raises PaCO₂ while the lungs themselves work."
+   "why": "Neuromuscular failure is a control and pump problem: hypoventilation raises PaCO₂ while the lungs themselves work.",
+   "notes": [
+    "Neuromuscular failure is a control and pump problem: hypoventilation raises PaCO₂ while the lungs themselves work.",
+    "A low PaCO₂ with a high gradient is a lung problem such as V/Q mismatch.",
+    "A high gradient points to the lungs, not the pump.",
+    "A low PaCO₂ means ventilation is increased, not failing."
+   ]
   },
   {
    "q": "A patient with carbon monoxide poisoning has tissue hypoxia but normal lungs. Which component has failed?",
@@ -5718,7 +6624,13 @@ SINA.lectures["fa-respiratory"] = {
     "Blood"
    ],
    "answer": 3,
-   "why": "CO binds haemoglobin, so oxygen transport in the blood fails while the lungs work normally."
+   "why": "CO binds haemoglobin, so oxygen transport in the blood fails while the lungs work normally.",
+   "notes": [
+    "The control and pump system works; breathing is normal.",
+    "The airways are open.",
+    "The gas-exchange surface is normal.",
+    "CO binds haemoglobin, so oxygen transport in the blood fails while the lungs work normally."
+   ]
   },
   {
    "q": "A patient has VT 400 mL, RR 20/min and dead space 150 mL. What is the alveolar ventilation?",
@@ -5729,7 +6641,13 @@ SINA.lectures["fa-respiratory"] = {
     "11 L/min"
    ],
    "answer": 1,
-   "why": "VA = (VT − VD) × RR = 250 × 20 = 5,000 mL/min."
+   "why": "VA = (VT − VD) × RR = 250 × 20 = 5,000 mL/min.",
+   "notes": [
+    "8 L/min is minute ventilation (400 × 20), before removing dead space.",
+    "VA = (VT − VD) × RR = 250 × 20 = 5,000 mL/min.",
+    "3 L/min is wrong arithmetic: (400 − 150) × 20 = 5,000.",
+    "11 L/min would add dead space instead of subtracting it."
+   ]
   },
   {
    "q": "Why does fast shallow breathing waste ventilation?",
@@ -5740,7 +6658,13 @@ SINA.lectures["fa-respiratory"] = {
     "It closes the alveoli"
    ],
    "answer": 2,
-   "why": "Dead space is fixed (≈ 150 mL), so small breaths leave little fresh air reaching the alveoli."
+   "why": "Dead space is fixed (≈ 150 mL), so small breaths leave little fresh air reaching the alveoli.",
+   "notes": [
+    "The diffusion constant is a property of the gas, not of breathing pattern.",
+    "Breathing pattern doesn't change lung compliance.",
+    "Dead space is fixed (≈ 150 mL), so small breaths leave little fresh air reaching the alveoli.",
+    "Shallow breaths don't close alveoli in this model."
+   ]
   },
   {
    "q": "Which finding fits emphysema?",
@@ -5751,7 +6675,13 @@ SINA.lectures["fa-respiratory"] = {
     "High compliance with air trapping and raised FRC"
    ],
    "answer": 3,
-   "why": "The lung fills easily but empties badly."
+   "why": "The lung fills easily but empties badly.",
+   "notes": [
+    "A stiff, low-compliance lung is fibrosis.",
+    "Surfactant lack is neonatal RDS.",
+    "Fast, shallow breathing fits stiff lungs.",
+    "The lung fills easily but empties badly."
+   ]
   },
   {
    "q": "A patient with pulmonary fibrosis breathes fast and shallow. What explains this?",
@@ -5762,7 +6692,13 @@ SINA.lectures["fa-respiratory"] = {
     "Dead space is zero"
    ],
    "answer": 0,
-   "why": "Stiff lungs make deep breaths costly, so patients take rapid shallow ones."
+   "why": "Stiff lungs make deep breaths costly, so patients take rapid shallow ones.",
+   "notes": [
+    "Stiff lungs make deep breaths costly, so patients take rapid shallow ones.",
+    "High compliance is emphysema, where breaths are slow and deep.",
+    "Resistance isn't the main problem in fibrosis.",
+    "Anatomic dead space is never zero."
+   ]
   },
   {
    "q": "An opioid-overdosed patient has PaCO₂ 80 mmHg on room air. What is the alveolar oxygen pressure (PAO₂)?",
@@ -5773,7 +6709,13 @@ SINA.lectures["fa-respiratory"] = {
     "About 80 mmHg"
    ],
    "answer": 1,
-   "why": "PAO₂ = 0.21 × 713 − PaCO₂/0.8 ≈ 150 − 100 = 50 mmHg."
+   "why": "PAO₂ = 0.21 × 713 − PaCO₂/0.8 ≈ 150 − 100 = 50 mmHg.",
+   "notes": [
+    "About 100 mmHg is normal PAO₂ with PaCO₂ 40.",
+    "PAO₂ = 0.21 × 713 − PaCO₂/0.8 ≈ 150 − 100 = 50 mmHg.",
+    "150 mmHg is inspired PO₂, before subtracting PaCO₂/0.8.",
+    "80 mmHg confuses PAO₂ with PaCO₂."
+   ]
   },
   {
    "q": "A climber at altitude is hypoxaemic with a normal A–a gradient. Which cause fits best?",
@@ -5784,7 +6726,13 @@ SINA.lectures["fa-respiratory"] = {
     "Diffusion defect"
    ],
    "answer": 2,
-   "why": "A normal gradient points to hypoventilation or low inspired O₂."
+   "why": "A normal gradient points to hypoventilation or low inspired O₂.",
+   "notes": [
+    "A shunt gives a high gradient.",
+    "V/Q mismatch gives a high gradient.",
+    "A normal gradient points to hypoventilation or low inspired O₂.",
+    "A diffusion defect gives a high gradient."
+   ]
   },
   {
    "q": "Why does hypoxaemia from low V/Q (asthma) improve with oxygen, while a shunt does not?",
@@ -5795,7 +6743,13 @@ SINA.lectures["fa-respiratory"] = {
     "Shunt units are well perfused only"
    ],
    "answer": 0,
-   "why": "Low V/Q regions are still ventilated, while a shunt has no ventilation at all."
+   "why": "Low V/Q regions are still ventilated, while a shunt has no ventilation at all.",
+   "notes": [
+    "Low V/Q regions are still ventilated, while a shunt has no ventilation at all.",
+    "A shunt unit receives no ventilation at all.",
+    "Oxygen does not lower PaCO₂.",
+    "Shunt units are perfused but not ventilated; that's why O₂ can't reach the blood."
+   ]
   },
   {
    "q": "What does hypoxic pulmonary vasoconstriction do?",
@@ -5806,7 +6760,13 @@ SINA.lectures["fa-respiratory"] = {
     "Lowers PaCO₂ by itself"
    ],
    "answer": 1,
-   "why": "It matches perfusion to ventilation by diverting blood away from poorly ventilated areas."
+   "why": "It matches perfusion to ventilation by diverting blood away from poorly ventilated areas.",
+   "notes": [
+    "Opposite: it sends blood away from unventilated alveoli.",
+    "It matches perfusion to ventilation by diverting blood away from poorly ventilated areas.",
+    "It reduces wasted perfusion; it doesn't raise dead space.",
+    "It acts on perfusion matching, not directly on PaCO₂."
+   ]
   },
   {
    "q": "Which enzyme speeds the conversion of CO₂ to bicarbonate in red cells?",
@@ -5817,7 +6777,13 @@ SINA.lectures["fa-respiratory"] = {
     "Naloxone"
    ],
    "answer": 2,
-   "why": "About 70% of CO₂ is carried as bicarbonate, formed with carbonic anhydrase."
+   "why": "About 70% of CO₂ is carried as bicarbonate, formed with carbonic anhydrase.",
+   "notes": [
+    "Surfactant is a lipoprotein lowering surface tension.",
+    "Cytochrome oxidase works in the mitochondrial respiratory chain.",
+    "About 70% of CO₂ is carried as bicarbonate, formed with carbonic anhydrase.",
+    "Naloxone is an opioid antagonist."
+   ]
   },
   {
    "q": "Why do opioids cause hypercapnia?",
@@ -5828,7 +6794,13 @@ SINA.lectures["fa-respiratory"] = {
     "They depress the respiratory centre, which is driven mainly by CO₂"
    ],
    "answer": 3,
-   "why": "Breathing is driven mainly by CO₂; opioids depress that drive, and naloxone reverses it."
+   "why": "Breathing is driven mainly by CO₂; opioids depress that drive, and naloxone reverses it.",
+   "notes": [
+    "Blocking M3 is how ipratropium works.",
+    "Opioids don't change dead space.",
+    "Opioids don't affect compliance.",
+    "Breathing is driven mainly by CO₂; opioids depress that drive, and naloxone reverses it."
+   ]
   },
   {
    "q": "After a bronchodilator, a patient's FEV₁ rises by 15% and 300 mL. This is most consistent with:",
@@ -5839,7 +6811,13 @@ SINA.lectures["fa-respiratory"] = {
     "Asthma"
    ],
    "answer": 3,
-   "why": "Reversibility of at least 12% and 200 mL suggests asthma."
+   "why": "Reversibility of at least 12% and 200 mL suggests asthma.",
+   "notes": [
+    "Fibrosis is restrictive and not reversible.",
+    "Fixed obstruction (COPD) shows little reversibility.",
+    "A normal lung doesn't improve this much.",
+    "Reversibility of at least 12% and 200 mL suggests asthma."
+   ]
   },
   {
    "q": "Which type of restrictive disorder raises the A–a gradient?",
@@ -5850,7 +6828,13 @@ SINA.lectures["fa-respiratory"] = {
     "Pleural disease only"
    ],
    "answer": 0,
-   "why": "Parenchymal causes impair gas exchange; extraparenchymal ones cause hypoventilation with a normal A–a at first."
+   "why": "Parenchymal causes impair gas exchange; extraparenchymal ones cause hypoventilation with a normal A–a at first.",
+   "notes": [
+    "Parenchymal causes impair gas exchange; extraparenchymal ones cause hypoventilation with a normal A–a at first.",
+    "Neuromuscular disease is a pump problem with a normal gradient at first.",
+    "Chest wall disease is a pump problem with a normal gradient at first.",
+    "Pleural disease is extraparenchymal; the gradient is normal at first."
+   ]
   },
   {
    "q": "Which statements about CO₂ transport are correct? (choose all)",
@@ -5865,7 +6849,13 @@ SINA.lectures["fa-respiratory"] = {
     2,
     3
    ],
-   "why": "Carbonic anhydrase makes bicarbonate in red cells."
+   "why": "Carbonic anhydrase makes bicarbonate in red cells.",
+   "notes": [
+    "Carbonic anhydrase makes bicarbonate in red cells.",
+    "Only about 10% is dissolved.",
+    "",
+    ""
+   ]
   },
   {
    "q": "Which statements about SpO₂ and ETCO₂ are correct? (choose all)",
@@ -5880,7 +6870,13 @@ SINA.lectures["fa-respiratory"] = {
     1,
     2
    ],
-   "why": "ETCO₂ is 2 to 5 mmHg below PaCO₂."
+   "why": "ETCO₂ is 2 to 5 mmHg below PaCO₂.",
+   "notes": [
+    "ETCO₂ is 2 to 5 mmHg below PaCO₂.",
+    "",
+    "",
+    "ETCO₂ is normally 2 to 5 mmHg lower than PaCO₂."
+   ]
   },
   {
    "q": "A patient's alveolar ventilation falls while CO₂ production stays the same. What happens to PaCO₂?",
@@ -5891,7 +6887,13 @@ SINA.lectures["fa-respiratory"] = {
     "It rises only if PaO₂ is normal"
    ],
    "answer": 0,
-   "why": "PaCO₂ is the mirror of alveolar ventilation: when ventilation is too low for the CO₂ produced, PaCO₂ rises (hypercapnia slide)."
+   "why": "PaCO₂ is the mirror of alveolar ventilation: when ventilation is too low for the CO₂ produced, PaCO₂ rises (hypercapnia slide).",
+   "notes": [
+    "PaCO₂ is the mirror of alveolar ventilation: when ventilation is too low for the CO₂ produced, PaCO₂ rises (hypercapnia slide).",
+    "Less ventilation can't remove more CO₂.",
+    "CO₂ builds up when ventilation falls.",
+    "PaCO₂ rises whatever the PaO₂."
+   ]
   },
   {
    "q": "A patient with acute hypoventilation has a rising PaCO₂. What happens to blood pH?",
@@ -5902,7 +6904,13 @@ SINA.lectures["fa-respiratory"] = {
     "It falls: metabolic acidosis"
    ],
    "answer": 1,
-   "why": "Acute hypercapnia causes respiratory acidosis (↓ pH) (hypercapnia slide)."
+   "why": "Acute hypercapnia causes respiratory acidosis (↓ pH) (hypercapnia slide).",
+   "notes": [
+    "Alkalosis comes with hyperventilation, not hypoventilation.",
+    "Acute hypercapnia causes respiratory acidosis (↓ pH) (hypercapnia slide).",
+    "Acute rises in PaCO₂ lower pH at once; kidney compensation takes days.",
+    "The acid here is CO₂, so it's respiratory, not metabolic."
+   ]
   },
   {
    "q": "During a panic attack, ventilation rises and PaCO₂ falls. What follows?",
@@ -5913,7 +6921,13 @@ SINA.lectures["fa-respiratory"] = {
     "Hypoxaemia with a high A–a gradient"
    ],
    "answer": 1,
-   "why": "Hyperventilation lowers PaCO₂ and causes respiratory alkalosis, with tingling and dizziness."
+   "why": "Hyperventilation lowers PaCO₂ and causes respiratory alkalosis, with tingling and dizziness.",
+   "notes": [
+    "Acidosis follows a rise in PaCO₂, not a fall.",
+    "Hyperventilation lowers PaCO₂ and causes respiratory alkalosis, with tingling and dizziness.",
+    "The cause is respiratory, not metabolic.",
+    "Lungs are normal; PaO₂ is normal or high."
+   ]
   },
   {
    "q": "Dead space rises after a pulmonary embolism while minute ventilation stays the same. What happens?",
@@ -5924,7 +6938,13 @@ SINA.lectures["fa-respiratory"] = {
     "SpO₂ rises"
    ],
    "answer": 0,
-   "why": "Ventilated but poorly perfused lung is wasted ventilation: PaCO₂ rises when dead space increases, and the PaCO₂–ETCO₂ gap widens with dead space (hypercapnia and monitoring slides)."
+   "why": "Ventilated but poorly perfused lung is wasted ventilation: PaCO₂ rises when dead space increases, and the PaCO₂–ETCO₂ gap widens with dead space (hypercapnia and monitoring slides).",
+   "notes": [
+    "Ventilated but poorly perfused lung is wasted ventilation: PaCO₂ rises when dead space increases, and the PaCO₂–ETCO₂ gap widens with dead space (hypercapnia and monitoring slides).",
+    "ETCO₂ falls because the dead-space air carries little CO₂.",
+    "Effective (alveolar) ventilation falls even if minute ventilation is unchanged.",
+    "SpO₂ usually falls in a pulmonary embolism."
+   ]
   },
   {
    "q": "A septic patient with fever produces more CO₂ but has weak respiratory muscles. What happens to PaCO₂?",
@@ -5935,7 +6955,13 @@ SINA.lectures["fa-respiratory"] = {
     "It rises only if the A–a gradient is high"
    ],
    "answer": 2,
-   "why": "Increased CO₂ production (fever, sepsis, overfeeding) raises PaCO₂ only when ventilation cannot increase to match it (hypercapnia slide)."
+   "why": "Increased CO₂ production (fever, sepsis, overfeeding) raises PaCO₂ only when ventilation cannot increase to match it (hypercapnia slide).",
+   "notes": [
+    "It falls only if ventilation can rise.",
+    "PaCO₂ depends on production and ventilation; it changes here.",
+    "Increased CO₂ production (fever, sepsis, overfeeding) raises PaCO₂ only when ventilation cannot increase to match it (hypercapnia slide).",
+    "A high A–a gradient isn't required for PaCO₂ to rise."
+   ]
   },
   {
    "q": "A patient with COPD and chronic CO₂ retention is given high-flow oxygen to an SpO₂ of 99%. What can happen?",
@@ -5946,7 +6972,13 @@ SINA.lectures["fa-respiratory"] = {
     "The A–a gradient becomes zero"
    ],
    "answer": 1,
-   "why": "Too much O₂ makes PaCO₂ rise in chronic CO₂ retention (worse V/Q, Haldane effect, less drive), so the target SpO₂ is 88–92%."
+   "why": "Too much O₂ makes PaCO₂ rise in chronic CO₂ retention (worse V/Q, Haldane effect, less drive), so the target SpO₂ is 88–92%.",
+   "notes": [
+    "High O₂ in CO₂ retainers tends to raise PaCO₂.",
+    "Too much O₂ makes PaCO₂ rise in chronic CO₂ retention (worse V/Q, Haldane effect, less drive), so the target SpO₂ is 88–92%.",
+    "Too much O₂ can raise PaCO₂ and cause drowsiness.",
+    "High O₂ doesn't remove the V/Q problem."
+   ]
   },
   {
    "q": "Exercising muscle becomes warmer, more acidic and richer in CO₂. What happens to haemoglobin's hold on oxygen?",
@@ -5957,7 +6989,13 @@ SINA.lectures["fa-respiratory"] = {
     "It stops carrying O₂"
    ],
    "answer": 1,
-   "why": "↑ temperature, ↑ PCO₂, ↑ 2,3-DPG and ↓ pH shift the O₂–Hb curve to the right: O₂ is released more easily to tissues."
+   "why": "↑ temperature, ↑ PCO₂, ↑ 2,3-DPG and ↓ pH shift the O₂–Hb curve to the right: O₂ is released more easily to tissues.",
+   "notes": [
+    "Left shift happens with cold, alkalosis and low CO₂.",
+    "↑ temperature, ↑ PCO₂, ↑ 2,3-DPG and ↓ pH shift the O₂–Hb curve to the right: O₂ is released more easily to tissues.",
+    "These changes do shift the curve.",
+    "Hb still carries O₂; it just gives it up more easily."
+   ]
   },
   {
    "q": "Haemoglobin falls to 7 g/dL in a patient with normal lungs. What happens?",
@@ -5968,7 +7006,13 @@ SINA.lectures["fa-respiratory"] = {
     "O₂ content rises to compensate"
    ],
    "answer": 2,
-   "why": "In anaemia, PaO₂ and SaO₂ are normal but O₂ content is low: Hb 7 g/dL gives about half the O₂ content with SpO₂ still 99%."
+   "why": "In anaemia, PaO₂ and SaO₂ are normal but O₂ content is low: Hb 7 g/dL gives about half the O₂ content with SpO₂ still 99%.",
+   "notes": [
+    "SpO₂ measures the % of Hb saturated, which stays normal.",
+    "PaO₂ depends on the lungs, which are normal.",
+    "In anaemia, PaO₂ and SaO₂ are normal but O₂ content is low: Hb 7 g/dL gives about half the O₂ content with SpO₂ still 99%.",
+    "Content falls; it can't rise with less Hb."
+   ]
   },
   {
    "q": "A patient's cardiac output falls in shock, with normal lungs and haemoglobin. What happens to oxygen?",
@@ -5979,7 +7023,13 @@ SINA.lectures["fa-respiratory"] = {
     "SpO₂ falls to below 90%"
    ],
    "answer": 2,
-   "why": "With low cardiac output, O₂ content is normal but delivery to the tissues falls: hypoxaemia and tissue hypoxia are not the same."
+   "why": "With low cardiac output, O₂ content is normal but delivery to the tissues falls: hypoxaemia and tissue hypoxia are not the same.",
+   "notes": [
+    "PaO₂ depends on the lungs, which are normal.",
+    "Content depends on Hb and SaO₂, both normal.",
+    "With low cardiac output, O₂ content is normal but delivery to the tissues falls: hypoxaemia and tissue hypoxia are not the same.",
+    "SpO₂ stays normal with normal lungs."
+   ]
   },
   {
    "q": "A patient's alveolar membrane thickens (interstitial fibrosis). What happens first?",
@@ -5990,7 +7040,13 @@ SINA.lectures["fa-respiratory"] = {
     "Lung compliance rises"
    ],
    "answer": 1,
-   "why": "A thicker membrane slows O₂ transfer; PaO₂ falls mainly on exercise. CO₂ diffuses about 20 times faster, so PaCO₂ stays normal or low."
+   "why": "A thicker membrane slows O₂ transfer; PaO₂ falls mainly on exercise. CO₂ diffuses about 20 times faster, so PaCO₂ stays normal or low.",
+   "notes": [
+    "CO₂ diffuses easily; PaCO₂ stays normal or low.",
+    "A thicker membrane slows O₂ transfer; PaO₂ falls mainly on exercise. CO₂ diffuses about 20 times faster, so PaCO₂ stays normal or low.",
+    "SpO₂ falls, it doesn't rise.",
+    "Fibrosis stiffens the lung: compliance falls."
+   ]
   },
   {
    "q": "Lung surfactant is lacking. What happens to compliance and the alveoli?",
@@ -6001,7 +7057,13 @@ SINA.lectures["fa-respiratory"] = {
     "Airway resistance falls"
    ],
    "answer": 1,
-   "why": "Surfactant raises compliance and keeps small alveoli open. Without it, compliance falls and alveoli collapse (atelectasis), as in neonatal respiratory distress syndrome."
+   "why": "Surfactant raises compliance and keeps small alveoli open. Without it, compliance falls and alveoli collapse (atelectasis), as in neonatal respiratory distress syndrome.",
+   "notes": [
+    "Without surfactant compliance falls; alveoli collapse rather than over-inflate.",
+    "Surfactant raises compliance and keeps small alveoli open. Without it, compliance falls and alveoli collapse (atelectasis), as in neonatal respiratory distress syndrome.",
+    "Surface tension rises, so compliance falls.",
+    "Resistance doesn't fall."
+   ]
   },
   {
    "q": "Chest wall compliance falls, for example after deep circumferential chest burns. What happens to lung volumes?",
@@ -6012,7 +7074,13 @@ SINA.lectures["fa-respiratory"] = {
     "Lung volumes do not change"
    ],
    "answer": 1,
-   "why": "A stiff chest wall lowers FRC and TLC (compliance slide: ↓ chest wall compliance → ↓ FRC, ↓ TLC, e.g. burns)."
+   "why": "A stiff chest wall lowers FRC and TLC (compliance slide: ↓ chest wall compliance → ↓ FRC, ↓ TLC, e.g. burns).",
+   "notes": [
+    "A stiff chest wall can't expand, so volumes fall.",
+    "A stiff chest wall lowers FRC and TLC (compliance slide: ↓ chest wall compliance → ↓ FRC, ↓ TLC, e.g. burns).",
+    "RV isn't the main change; FRC and TLC fall.",
+    "Chest wall stiffness changes FRC and TLC."
+   ]
   },
   {
    "q": "Each minute at rest, the lungs must take up about ___ of O₂ and remove about ___ of CO₂.",
@@ -6023,7 +7091,13 @@ SINA.lectures["fa-respiratory"] = {
     "200 mL; 250 mL"
    ],
    "answer": 0,
-   "why": "The goal: about 250 mL of O₂ taken up and 200 mL of CO₂ removed every minute."
+   "why": "The goal: about 250 mL of O₂ taken up and 200 mL of CO₂ removed every minute.",
+   "notes": [
+    "The goal: about 250 mL of O₂ taken up and 200 mL of CO₂ removed every minute.",
+    "Too much: that is about twice the resting values.",
+    "Far too much for rest.",
+    "Reversed: O₂ uptake is larger than CO₂ output (RQ ≈ 0.8)."
+   ]
   },
   {
    "q": "A C3–C5 spinal cord injury causes respiratory failure mainly by affecting:",
@@ -6034,7 +7108,13 @@ SINA.lectures["fa-respiratory"] = {
     "Haemoglobin"
    ],
    "answer": 1,
-   "why": "The phrenic nerve (C3–C5) drives the diaphragm: injury causes pump failure with hypoventilation and a high PaCO₂."
+   "why": "The phrenic nerve (C3–C5) drives the diaphragm: injury causes pump failure with hypoventilation and a high PaCO₂.",
+   "notes": [
+    "The upper airway is not affected by a cervical cord lesion.",
+    "The phrenic nerve (C3–C5) drives the diaphragm: injury causes pump failure with hypoventilation and a high PaCO₂.",
+    "The lungs themselves are normal.",
+    "Blood is not affected."
+   ]
   },
   {
    "q": "During inspiration, alveolar pressure is −1 cmH₂O and pleural pressure −8 cmH₂O. What is the transpulmonary pressure?",
@@ -6045,7 +7125,13 @@ SINA.lectures["fa-respiratory"] = {
     "−7 cmH₂O"
    ],
    "answer": 2,
-   "why": "Transpulmonary pressure = alveolar − pleural pressure = −1 − (−8) = +7 cmH₂O, which keeps the lung inflated."
+   "why": "Transpulmonary pressure = alveolar − pleural pressure = −1 − (−8) = +7 cmH₂O, which keeps the lung inflated.",
+   "notes": [
+    "+1 would forget the pleural pressure.",
+    "−9 adds the pressures instead of subtracting them.",
+    "Transpulmonary pressure = alveolar − pleural pressure = −1 − (−8) = +7 cmH₂O, which keeps the lung inflated.",
+    "The sign is reversed: alveolar − pleural is positive."
+   ]
   },
   {
    "q": "At FRC, with the respiratory muscles relaxed, what is true?",
@@ -6056,7 +7142,13 @@ SINA.lectures["fa-respiratory"] = {
     "Pleural pressure is positive"
    ],
    "answer": 0,
-   "why": "FRC is the balance between the lung's inward elastic recoil and the chest wall's outward recoil — 'two springs'."
+   "why": "FRC is the balance between the lung's inward elastic recoil and the chest wall's outward recoil — 'two springs'.",
+   "notes": [
+    "FRC is the balance between the lung's inward elastic recoil and the chest wall's outward recoil — 'two springs'.",
+    "Alveolar pressure at FRC is 0 (no airflow).",
+    "The chest wall pulls outward at FRC.",
+    "Pleural pressure is negative at FRC (about −5 cmH₂O)."
+   ]
   },
   {
    "q": "An obese patient with normal lungs has a reduced FRC and TLC. Why?",
@@ -6067,7 +7159,13 @@ SINA.lectures["fa-respiratory"] = {
     "Airway obstruction"
    ],
    "answer": 1,
-   "why": "Obesity and chest wall disease stiffen the box around normal lungs: ↓ chest wall compliance → ↓ FRC, ↓ TLC."
+   "why": "Obesity and chest wall disease stiffen the box around normal lungs: ↓ chest wall compliance → ↓ FRC, ↓ TLC.",
+   "notes": [
+    "The lungs are normal; surfactant is fine.",
+    "Obesity and chest wall disease stiffen the box around normal lungs: ↓ chest wall compliance → ↓ FRC, ↓ TLC.",
+    "Emphysema raises FRC and TLC.",
+    "Airway obstruction doesn't explain a lower TLC with normal lungs."
+   ]
   },
   {
    "q": "Parasympathetic (vagal) stimulation of the airways causes:",
@@ -6078,7 +7176,13 @@ SINA.lectures["fa-respiratory"] = {
     "No effect"
    ],
    "answer": 1,
-   "why": "The vagus is the main nerve control of airway muscle: M3 stimulation gives bronchoconstriction and mucus. Salbutamol (β2 agonist) dilates; ipratropium blocks M3."
+   "why": "The vagus is the main nerve control of airway muscle: M3 stimulation gives bronchoconstriction and mucus. Salbutamol (β2 agonist) dilates; ipratropium blocks M3.",
+   "notes": [
+    "β2 receptors are sympathetic, not vagal.",
+    "The vagus is the main nerve control of airway muscle: M3 stimulation gives bronchoconstriction and mucus. Salbutamol (β2 agonist) dilates; ipratropium blocks M3.",
+    "M3 stimulation constricts, it doesn't dilate.",
+    "Vagal tone has a clear effect on airway muscle."
+   ]
   },
   {
    "q": "Which drug is a β2-agonist that dilates the airways?",
@@ -6089,7 +7193,13 @@ SINA.lectures["fa-respiratory"] = {
     "Acetazolamide"
    ],
    "answer": 1,
-   "why": "Salbutamol mimics the sympathetic β2 effect (bronchodilation); ipratropium works by blocking vagal M3 receptors."
+   "why": "Salbutamol mimics the sympathetic β2 effect (bronchodilation); ipratropium works by blocking vagal M3 receptors.",
+   "notes": [
+    "Ipratropium is an anticholinergic (blocks M3).",
+    "Salbutamol mimics the sympathetic β2 effect (bronchodilation); ipratropium works by blocking vagal M3 receptors.",
+    "Naloxone reverses opioids.",
+    "Acetazolamide is a carbonic anhydrase inhibitor (diuretic)."
+   ]
   },
   {
    "q": "What does Dalton's law state?",
@@ -6100,7 +7210,13 @@ SINA.lectures["fa-respiratory"] = {
     "Volume ∝ 1/pressure"
    ],
    "answer": 1,
-   "why": "Dalton's law: each gas exerts a partial pressure equal to its fraction times the total pressure (e.g. 0.21 × 760 ≈ 160 mmHg in dry air)."
+   "why": "Dalton's law: each gas exerts a partial pressure equal to its fraction times the total pressure (e.g. 0.21 × 760 ≈ 160 mmHg in dry air).",
+   "notes": [
+    "That's Poiseuille's law for resistance.",
+    "Dalton's law: each gas exerts a partial pressure equal to its fraction times the total pressure (e.g. 0.21 × 760 ≈ 160 mmHg in dry air).",
+    "That's Fick's law of diffusion.",
+    "That's Boyle's law."
+   ]
   },
   {
    "q": "On room air with PaCO₂ 40 mmHg and PaO₂ 60 mmHg, what is the A–a gradient?",
@@ -6111,7 +7227,13 @@ SINA.lectures["fa-respiratory"] = {
     "About 90 mmHg (increased)"
    ],
    "answer": 2,
-   "why": "PAO₂ ≈ 150 − 40/0.8 = 100 mmHg; A–a = 100 − 60 = 40 mmHg, increased (normal < 10–15): V/Q mismatch, shunt or diffusion."
+   "why": "PAO₂ ≈ 150 − 40/0.8 = 100 mmHg; A–a = 100 − 60 = 40 mmHg, increased (normal < 10–15): V/Q mismatch, shunt or diffusion.",
+   "notes": [
+    "A zero gradient is impossible on room air with this PaO₂.",
+    "PAO₂ is about 100, so the gradient is 40, not 10.",
+    "PAO₂ ≈ 150 − 40/0.8 = 100 mmHg; A–a = 100 − 60 = 40 mmHg, increased (normal < 10–15): V/Q mismatch, shunt or diffusion.",
+    "90 would need PaO₂ of 10 mmHg."
+   ]
   },
   {
    "q": "Patient 1 (opioids) on room air: PaCO₂ 75, PaO₂ 52 mmHg. What are the A–a gradient and the mechanism?",
@@ -6122,7 +7244,13 @@ SINA.lectures["fa-respiratory"] = {
     "About 98 mmHg: diffusion"
    ],
    "answer": 0,
-   "why": "PAO₂ ≈ 150 − 75/0.8 ≈ 56 mmHg; A–a ≈ 56 − 52 ≈ 4 mmHg: a normal gradient, so the hypoxaemia is due to hypoventilation."
+   "why": "PAO₂ ≈ 150 − 75/0.8 ≈ 56 mmHg; A–a ≈ 56 − 52 ≈ 4 mmHg: a normal gradient, so the hypoxaemia is due to hypoventilation.",
+   "notes": [
+    "PAO₂ ≈ 150 − 75/0.8 ≈ 56 mmHg; A–a ≈ 56 − 52 ≈ 4 mmHg: a normal gradient, so the hypoxaemia is due to hypoventilation.",
+    "48 is wrong arithmetic: PAO₂ ≈ 56, not 100.",
+    "56 is the PAO₂ itself, not the gradient.",
+    "98 confuses PAO₂ with inspired PO₂."
+   ]
   },
   {
    "q": "Patient 2 (asthma) on room air: PaCO₂ 32, PaO₂ 52 mmHg. What is the A–a gradient?",
@@ -6133,7 +7261,13 @@ SINA.lectures["fa-respiratory"] = {
     "About 98 mmHg"
    ],
    "answer": 2,
-   "why": "PAO₂ ≈ 150 − 32/0.8 = 110 mmHg; A–a ≈ 110 − 52 = 58 mmHg: increased, from low V/Q."
+   "why": "PAO₂ ≈ 150 − 32/0.8 = 110 mmHg; A–a ≈ 110 − 52 = 58 mmHg: increased, from low V/Q.",
+   "notes": [
+    "4 is patient 1 (opioids).",
+    "20 underestimates the gradient: PAO₂ ≈ 110.",
+    "PAO₂ ≈ 150 − 32/0.8 = 110 mmHg; A–a ≈ 110 − 52 = 58 mmHg: increased, from low V/Q.",
+    "98 uses inspired PO₂ instead of PAO₂."
+   ]
   },
   {
    "q": "An SaO₂ below 90% corresponds to a PaO₂ of about:",
@@ -6144,7 +7278,13 @@ SINA.lectures["fa-respiratory"] = {
     "27 mmHg"
    ],
    "answer": 2,
-   "why": "SaO₂ < 90% ≈ PaO₂ 60 mmHg, the usual threshold for respiratory failure."
+   "why": "SaO₂ < 90% ≈ PaO₂ 60 mmHg, the usual threshold for respiratory failure.",
+   "notes": [
+    "PaO₂ 100 gives SaO₂ about 98%.",
+    "PaO₂ 80 gives SaO₂ about 95%.",
+    "SaO₂ < 90% ≈ PaO₂ 60 mmHg, the usual threshold for respiratory failure.",
+    "PaO₂ 27 is the P50 (SaO₂ 50%)."
+   ]
   },
   {
    "q": "About what proportion of arterial O₂ content is bound to haemoglobin?",
@@ -6155,7 +7295,13 @@ SINA.lectures["fa-respiratory"] = {
     "100%"
    ],
    "answer": 2,
-   "why": "About 98% of O₂ content is bound to haemoglobin; the dissolved part is very small (3 mL/L at PaO₂ 100 mmHg)."
+   "why": "About 98% of O₂ content is bound to haemoglobin; the dissolved part is very small (3 mL/L at PaO₂ 100 mmHg).",
+   "notes": [
+    "Most O₂ is carried bound, not dissolved.",
+    "70% is the bicarbonate share of CO₂ transport.",
+    "About 98% of O₂ content is bound to haemoglobin; the dissolved part is very small (3 mL/L at PaO₂ 100 mmHg).",
+    "A small amount is always dissolved."
+   ]
   },
   {
    "q": "In carbon monoxide poisoning (gas water heater, brazier), what is true?",
@@ -6166,7 +7312,13 @@ SINA.lectures["fa-respiratory"] = {
     "CO binds Hb less than O₂"
    ],
    "answer": 1,
-   "why": "CO binds Hb about 240 times more than O₂: SpO₂ reads falsely normal while O₂ content falls. Treatment is 100% O₂."
+   "why": "CO binds Hb about 240 times more than O₂: SpO₂ reads falsely normal while O₂ content falls. Treatment is 100% O₂.",
+   "notes": [
+    "SpO₂ reads falsely normal, not low.",
+    "CO binds Hb about 240 times more than O₂: SpO₂ reads falsely normal while O₂ content falls. Treatment is 100% O₂.",
+    "PaO₂ is often normal: the lungs work.",
+    "CO binds Hb about 240 times more strongly."
+   ]
   },
   {
    "q": "IRV 3.0 L, VT 0.5 L, ERV 1.2 L, RV 1.3 L. What are the vital capacity and the total lung capacity?",
@@ -6177,7 +7329,13 @@ SINA.lectures["fa-respiratory"] = {
     "VC 2.5 L; TLC 6.0 L"
    ],
    "answer": 0,
-   "why": "VC = IRV + VT + ERV = 4.7 L; TLC = VC + RV = 6.0 L."
+   "why": "VC = IRV + VT + ERV = 4.7 L; TLC = VC + RV = 6.0 L.",
+   "notes": [
+    "VC = IRV + VT + ERV = 4.7 L; TLC = VC + RV = 6.0 L.",
+    "3.5 L forgets ERV.",
+    "4.7 L is VC; TLC adds RV.",
+    "2.5 L is wrong for both."
+   ]
   },
   {
    "q": "Breathing that grows and fades with pauses, seen in heart failure or stroke, is called:",
@@ -6188,7 +7346,13 @@ SINA.lectures["fa-respiratory"] = {
     "Paradoxical breathing"
    ],
    "answer": 1,
-   "why": "Cheyne–Stokes breathing comes from a delayed feedback loop (heart failure, stroke); Kussmaul breathing is the deep, fast response to metabolic acidosis."
+   "why": "Cheyne–Stokes breathing comes from a delayed feedback loop (heart failure, stroke); Kussmaul breathing is the deep, fast response to metabolic acidosis.",
+   "notes": [
+    "Kussmaul is deep, fast breathing in metabolic acidosis.",
+    "Cheyne–Stokes breathing comes from a delayed feedback loop (heart failure, stroke); Kussmaul breathing is the deep, fast response to metabolic acidosis.",
+    "Biot is irregular groups with pauses, from brain injury.",
+    "Paradoxical breathing is inward chest movement on inspiration."
+   ]
   },
   {
    "q": "Tachypnoea is defined in the lecture as a respiratory rate above:",
@@ -6199,7 +7363,13 @@ SINA.lectures["fa-respiratory"] = {
     "40/min"
    ],
    "answer": 1,
-   "why": "Tachypnoea: RR > 20/min."
+   "why": "Tachypnoea: RR > 20/min.",
+   "notes": [
+    "12/min is the lower limit of normal.",
+    "Tachypnoea: RR > 20/min.",
+    "30/min is already severe tachypnoea.",
+    "40/min is far above the threshold."
+   ]
   },
   {
    "q": "Which restrictive disorder typically gives hypercapnia with a NORMAL A–a gradient at first?",
@@ -6210,7 +7380,13 @@ SINA.lectures["fa-respiratory"] = {
     "Pulmonary oedema"
    ],
    "answer": 2,
-   "why": "Neuromuscular and chest wall disease cause pump failure (hypoventilation, normal A–a at first); parenchymal disease raises the A–a gradient."
+   "why": "Neuromuscular and chest wall disease cause pump failure (hypoventilation, normal A–a at first); parenchymal disease raises the A–a gradient.",
+   "notes": [
+    "Fibrosis is parenchymal and raises the gradient.",
+    "ARDS is parenchymal and raises the gradient.",
+    "Neuromuscular and chest wall disease cause pump failure (hypoventilation, normal A–a at first); parenchymal disease raises the A–a gradient.",
+    "Oedema is parenchymal and raises the gradient."
+   ]
   },
   {
    "q": "On lung ultrasound, B-lines typically suggest:",
@@ -6221,7 +7397,13 @@ SINA.lectures["fa-respiratory"] = {
     "Asthma"
    ],
    "answer": 1,
-   "why": "B-lines are seen in pulmonary oedema."
+   "why": "B-lines are seen in pulmonary oedema.",
+   "notes": [
+    "Pneumothorax shows absent lung sliding, not B-lines.",
+    "B-lines are seen in pulmonary oedema.",
+    "Normal lung shows A-lines.",
+    "Asthma shows a normal pattern (A-lines)."
+   ]
   },
   {
    "q": "What is the target SpO₂ for most acutely ill patients in the lecture?",
@@ -6232,7 +7414,13 @@ SINA.lectures["fa-respiratory"] = {
     "100%"
    ],
    "answer": 2,
-   "why": "Most patients: 92–96%; patients at risk of CO₂ retention (COPD): 88–92%."
+   "why": "Most patients: 92–96%; patients at risk of CO₂ retention (COPD): 88–92%.",
+   "notes": [
+    "80–85% is too low for anyone.",
+    "88–92% is for patients at risk of CO₂ retention.",
+    "Most patients: 92–96%; patients at risk of CO₂ retention (COPD): 88–92%.",
+    "100% isn't the target; excess O₂ has risks."
+   ]
   },
   {
    "q": "A COPD patient on high-flow O₂ has SpO₂ 98% but becomes drowsy. What is the most useful next test?",
@@ -6243,7 +7431,13 @@ SINA.lectures["fa-respiratory"] = {
     "Chest X-ray alone"
    ],
    "answer": 1,
-   "why": "SpO₂ says nothing about CO₂: drowsiness on high-flow O₂ suggests rising PaCO₂, which only a blood gas shows."
+   "why": "SpO₂ says nothing about CO₂: drowsiness on high-flow O₂ suggests rising PaCO₂, which only a blood gas shows.",
+   "notes": [
+    "Oximetry won't show CO₂; it's already 98%.",
+    "SpO₂ says nothing about CO₂: drowsiness on high-flow O₂ suggests rising PaCO₂, which only a blood gas shows.",
+    "Spirometry doesn't help in an acute drowsy patient.",
+    "An X-ray doesn't measure PaCO₂."
+   ]
   },
   {
    "q": "An opioid-overdosed patient (RR 6/min) also has a brain contusion. Why is his hypoventilation especially dangerous?",
@@ -6254,7 +7448,13 @@ SINA.lectures["fa-respiratory"] = {
     "It raises SpO₂"
    ],
    "answer": 0,
-   "why": "Hypoventilation raises PaCO₂, which dilates cerebral vessels, increasing blood volume and ICP — on top of the hypoxaemia (links the respiratory and neural lectures)."
+   "why": "Hypoventilation raises PaCO₂, which dilates cerebral vessels, increasing blood volume and ICP — on top of the hypoxaemia (links the respiratory and neural lectures).",
+   "notes": [
+    "Hypoventilation raises PaCO₂, which dilates cerebral vessels, increasing blood volume and ICP — on top of the hypoxaemia (links the respiratory and neural lectures).",
+    "Hypoventilation causes acidosis, not alkalosis.",
+    "CO₂ doesn't lower CSF production.",
+    "Hypoventilation lowers SpO₂."
+   ]
   }
  ],
  "cards": [

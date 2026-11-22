@@ -1945,8 +1945,10 @@ body.no-anim #drawer.drawer { transition: none !important; }
 .pl-cred a { color: inherit; text-decoration: underline; }
 
 /* floating header and theme dot (Nov 2026) */
-.site-header { top: 8px; margin: 8px max(8px, env(safe-area-inset-left)) 0; border: 1px solid var(--line); border-radius: 20px; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(14px); box-shadow: 0 6px 24px rgba(0,0,0,0.07); transition: transform 0.45s cubic-bezier(.65,0,.2,1); }
+.site-header { top: 8px; margin: 8px max(8px, env(safe-area-inset-left)) 0; border: 1px solid var(--line); border-radius: 20px; background: var(--bg); background: color-mix(in srgb, var(--bg) 94%, transparent); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); box-shadow: 0 6px 24px rgba(0,0,0,0.07); transition: transform 0.45s cubic-bezier(.65,0,.2,1); }
 .site-header.hdr-hide { transform: translateY(calc(-100% - 16px)); }
+/* solid band behind the floating header, so the page never shows in the gap above or around it while scrolling (mobile overlay bug) */
+.site-header::before { content: ""; position: absolute; z-index: -1; pointer-events: none; top: calc(-18px - env(safe-area-inset-top, 0px)); bottom: -1px; left: calc(-1px - max(8px, env(safe-area-inset-left))); right: calc(-1px - max(8px, env(safe-area-inset-right))); background: var(--bg); }
 /* when the header tucks away, sticky bars (lecture tabs, question bar, exam bar) slide up to the top instead of leaving a see-through gap */
 .tabs.sticky, .qbar.sticky, .exam-bar { transition: top 0.45s cubic-bezier(.65,0,.2,1); }
 .hdr-off .tabs.sticky, .hdr-off .qbar.sticky, .hdr-off .exam-bar { top: 0; }
