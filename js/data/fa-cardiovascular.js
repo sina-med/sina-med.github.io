@@ -5,7 +5,7 @@ SINA.lectures["fa-cardiovascular"] = {
  "group": "Vital functions",
  "title": "Cardiovascular function: shock",
  "sourceFile": "Cardio-vascular Function.pdf (First Aid and Vital Functions, Pr Amal Haoudar)",
- "sourceUrl": "https://drive.google.com/file/d/1MissyLG-q_2r7TTZmgIf0niGuvNjsstr/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1eip2zCH2sOc9mWzaDcR_-3LDhN8hh_jU/view?usp=drivesdk",
  "buildNote": "<strong>Short version.</strong> The full version, with more questions and extra reading, is coming soon. <strong>Built from the lecture slides.</strong> If your professor says something different, trust your professor.",
  "summary": [
   {

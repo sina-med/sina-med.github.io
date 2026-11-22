@@ -2797,8 +2797,8 @@ SINA.lectures["fa-neural"] = {
  "subject": "firstaid",
  "group": "Vital functions",
  "title": "Neural function: intracranial pressure",
- "sourceFile": "Neural Function.pdf (First Aid and Vital Functions, Pr Amal Haoudar)",
- "sourceUrl": "https://drive.google.com/file/d/1RxUfH3sWqkymUKB-VM1ZmP1HTX8AunyX/view?usp=drivesdk",
+ "sourceFile": "Neural function.pdf (Vital Functions and First Aid 2026-2027, Pr Amal Haoudar)",
+ "sourceUrl": "https://drive.google.com/file/d/1X5y2obi7c7VrD67jb1kZNcgM0mvdNU23/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
  "summary": [
   {
@@ -2820,6 +2820,11 @@ SINA.lectures["fa-neural"] = {
    "id": "s3",
    "title": "Management",
    "html": "<p>Treatments target brain, blood or CSF volume. <strong>Steroids</strong> help vasogenic oedema (tumours): they reduce CSF production and restore membrane permeability. <strong>Glucose control</strong> avoids cellular oedema. <strong>Hypothermia</strong> lowers CBF, ICP and metabolism. <strong>Skull trephination</strong> (burr hole) can save a patient with an acute epidural haematoma and deteriorating signs (falling consciousness, anisocoria, hemiparesis). <strong>Surgery</strong> is definitive for space-occupying lesions: craniotomy or ventriculostomy with drainage; <strong>shunts</strong> for hydrocephalus.</p>"
+  },
+  {
+   "id": "s4",
+   "title": "Volumes, CSF, CPP worked out, signs and measures",
+   "html": "<p>Intracranial volumes: glia 700–900 mL, neurons 500–700 mL, blood and CSF 100–150 mL each, ECF < 75 mL. Adults make and resorb about <strong>500 mL of CSF a day</strong> (choroid plexus → ventricles → subarachnoid space → arachnoid granulations into the dural venous sinuses). The blood-brain barrier stabilises brain glucose, controls ions (Na⁺/K⁺ ATPase) and blocks toxins.</p><p><strong>MAP = diastolic + ⅓ (systolic − diastolic)</strong>. BP 120/80 → MAP ≈ 93: with ICP 10, CPP ≈ 83; with ICP 35, CPP ≈ 58. BP 90/50 with ICP 35 → CPP ≈ 28: that brain is infarcting. A normal-looking head tells you nothing about the brain underneath.</p><p>Monitoring: ventriculostomy (invasive); optic nerve sheath diameter and transcranial Doppler (non-invasive). Signs: intense headache, visual symptoms, drowsiness, projectile vomiting, papilloedema, CN VI palsy, <strong>Cushing triad</strong> (hypertension, bradycardia, irregular respiration), bulging fontanelle in infants. Measures: head of bed > 30°, mannitol or hypertonic saline (osmotic gradient), avoid hypotonic fluids, acetazolamide (less CSF), propofol coma, anticonvulsants, antipyretics. Osmotic oedema follows too-rapid correction of hypernatraemia.</p>"
   }
  ],
  "exam": [
@@ -3019,7 +3024,10 @@ SINA.lectures["fa-neural"] = {
     "Sleep",
     "Calm rest"
    ],
-   "answers": [0, 1],
+   "answers": [
+    0,
+    1
+   ],
    "why": "Movement, position, pain, fever, coughing and straining."
   },
   {
@@ -3278,7 +3286,10 @@ SINA.lectures["fa-neural"] = {
     "CPP below 60 mmHg causes hypertensive encephalopathy",
     "CPP = MAP − ICP"
    ],
-   "answers": [0, 3],
+   "answers": [
+    0,
+    3
+   ],
    "why": "Below 60 is ischaemia; above 160 is hypertensive encephalopathy."
   },
   {
@@ -3300,7 +3311,11 @@ SINA.lectures["fa-neural"] = {
     "Cytotoxic: cell swelling",
     "Cytotoxic: BBB breakdown"
    ],
-   "answers": [0, 1, 2],
+   "answers": [
+    0,
+    1,
+    2
+   ],
    "why": "Cytotoxic oedema is cell swelling; vasogenic oedema is BBB breakdown."
   },
   {
@@ -3311,7 +3326,10 @@ SINA.lectures["fa-neural"] = {
     "Skull trephination",
     "Masses and haematomas"
    ],
-   "answers": [0, 3],
+   "answers": [
+    0,
+    3
+   ],
    "why": "Hypothermia lowers CBF, ICP and metabolism."
   },
   {
@@ -3322,7 +3340,11 @@ SINA.lectures["fa-neural"] = {
     "Craniotomy for space-occupying lesions",
     "Shunt for hydrocephalus"
    ],
-   "answers": [1, 2, 3],
+   "answers": [
+    1,
+    2,
+    3
+   ],
    "why": "Shunts treat hydrocephalus, not haematoma."
   },
   {
@@ -3333,7 +3355,10 @@ SINA.lectures["fa-neural"] = {
     "They restore membrane permeability",
     "They increase blood-brain barrier leak"
    ],
-   "answers": [0, 2],
+   "answers": [
+    0,
+    2
+   ],
    "why": "Steroids reduce CSF production and restore membrane permeability."
   },
   {
@@ -3357,6 +3382,190 @@ SINA.lectures["fa-neural"] = {
    ],
    "answer": 1,
    "why": "Coughing, straining and pain raise ICP transiently. Raised ICP means a sustained value of 20 mmHg or more; 10 mmHg is within the normal 5 to 15 mmHg."
+  },
+  {
+   "q": "How is mean arterial pressure estimated from a blood pressure reading?",
+   "options": [
+    "(Systolic + diastolic) ÷ 2",
+    "Diastolic + ⅓ (systolic − diastolic)",
+    "Systolic − diastolic",
+    "Systolic + ⅓ diastolic"
+   ],
+   "answer": 1,
+   "why": "MAP = diastolic + ⅓ (systolic − diastolic). For 120/80: 80 + 40/3 ≈ 93 mmHg."
+  },
+  {
+   "q": "A patient has BP 120/80 and ICP 10 mmHg. What is the CPP?",
+   "options": [
+    "About 110 mmHg",
+    "About 83 mmHg",
+    "About 58 mmHg",
+    "About 28 mmHg"
+   ],
+   "answer": 1,
+   "why": "MAP ≈ 80 + ⅓(40) ≈ 93 mmHg; CPP = MAP − ICP ≈ 93 − 10 ≈ 83 mmHg, within the autoregulated range."
+  },
+  {
+   "q": "Three patients: (1) BP 120/80, ICP 10; (2) BP 120/80, ICP 35; (3) BP 90/50, ICP 35. Whose brain is infarcting right now?",
+   "options": [
+    "Patient 1",
+    "Patient 2",
+    "Patient 3",
+    "None of them"
+   ],
+   "answer": 2,
+   "why": "Patient 3: MAP ≈ 50 + 40/3 ≈ 63 mmHg, CPP ≈ 28 mmHg, far below 60. Patient 2 has CPP ≈ 58 (borderline); patient 1 ≈ 83 (normal)."
+  },
+  {
+   "q": "How much CSF does an adult make and reabsorb each day?",
+   "options": [
+    "About 50 mL",
+    "About 150 mL",
+    "About 500 mL",
+    "About 2 L"
+   ],
+   "answer": 2,
+   "why": "Adults make and resorb about 500 mL of CSF a day, made by the choroid plexus and reabsorbed into the dural venous sinuses."
+  },
+  {
+   "q": "Where is CSF reabsorbed?",
+   "options": [
+    "In the choroid plexus",
+    "Into the dural venous sinuses through the arachnoid granulations",
+    "In the fourth ventricle",
+    "Into the lymphatics of the neck only"
+   ],
+   "answer": 1,
+   "why": "CSF is made by the choroid plexus, flows through the ventricles and subarachnoid space, and is reabsorbed through arachnoid granulations into the dural venous sinuses."
+  },
+  {
+   "q": "Which intracranial component has the largest volume in a healthy adult?",
+   "options": [
+    "Blood (100–150 mL)",
+    "CSF (100–150 mL)",
+    "Brain tissue (glia and neurons)",
+    "Extracellular fluid (< 75 mL)"
+   ],
+   "answer": 2,
+   "why": "Glia (700–900 mL) and neurons (500–700 mL) far outweigh blood and CSF (100–150 mL each), which is why blood and CSF are the volumes that can be shifted to compensate."
+  },
+  {
+   "q": "Which are functions of the blood-brain barrier? (choose all)",
+   "options": [
+    "Keeping brain glucose more stable than blood glucose",
+    "Pumping Na⁺ into the CSF and K⁺ out of it",
+    "Blocking toxins and peripheral neurotransmitters",
+    "Producing CSF"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The BBB modulates the entry of substrates such as glucose, controls ion movements (Na⁺/K⁺ ATPase) and prevents toxins and peripheral neurotransmitters from reaching the CNS."
+  },
+  {
+   "q": "Which method measures ICP non-invasively?",
+   "options": [
+    "Ventriculostomy drain",
+    "Ultrasound of the optic nerve sheath diameter",
+    "Lumbar puncture in every patient",
+    "Intraparenchymal probe"
+   ],
+   "answer": 1,
+   "why": "Non-invasive monitoring includes optic nerve sheath diameter on ultrasound and transcranial Doppler; a ventriculostomy is invasive."
+  },
+  {
+   "q": "A 9-month-old is unconscious after a fall, but his head shows no swelling, bruise or deformity. What does this tell you about his brain?",
+   "options": [
+    "The brain is uninjured",
+    "Nothing: a normal-looking head says nothing about what is underneath",
+    "He has hydrocephalus",
+    "His ICP is normal"
+   ],
+   "answer": 1,
+   "why": "You cannot see, feel or listen to a brain: a normal-looking head tells you nothing about the brain underneath, so you must think about ICP and perfusion."
+  },
+  {
+   "q": "Which triad suggests brainstem compression from raised ICP?",
+   "options": [
+    "Hypotension, tachycardia, tachypnoea",
+    "Hypertension, bradycardia, irregular respiration",
+    "Fever, rash, neck stiffness",
+    "Hypotension, bradycardia, warm skin"
+   ],
+   "answer": 1,
+   "why": "The Cushing triad — raised blood pressure, bradycardia and irregular respiration — suggests brainstem compression."
+  },
+  {
+   "q": "Which are signs of raised ICP on history and examination? (choose all)",
+   "options": [
+    "Projectile vomiting",
+    "Papilloedema",
+    "Abducens (CN VI) palsy",
+    "Sunken fontanelle in an infant"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "Intense headache, visual symptoms, drowsiness and projectile vomiting; papilloedema and CN VI palsy on examination; in infants a BULGING fontanelle."
+  },
+  {
+   "q": "Why should hypotonic fluids be avoided in raised ICP?",
+   "options": [
+    "They raise blood pressure",
+    "They worsen brain oedema",
+    "They lower PaCO₂",
+    "They block CSF production"
+   ],
+   "answer": 1,
+   "why": "Hypotonic fluids worsen brain oedema; mannitol and hypertonic saline do the opposite by drawing fluid out of the brain into the vessels."
+  },
+  {
+   "q": "How do mannitol and hypertonic saline lower ICP?",
+   "options": [
+    "They raise CSF production",
+    "They create an osmotic gradient that pulls fluid from the brain into the vessels",
+    "They dilate cerebral vessels",
+    "They lower body temperature"
+   ],
+   "answer": 1,
+   "why": "Both raise blood tonicity, creating a gradient that moves fluid from the brain's extracellular space into the vessels, reducing oedema (monitor serum sodium)."
+  },
+  {
+   "q": "What does raising the head of the bed above 30° do in raised ICP?",
+   "options": [
+    "It promotes venous return from the head",
+    "It raises cerebral blood volume",
+    "It increases CSF production",
+    "It lowers blood pressure to zero"
+   ],
+   "answer": 0,
+   "why": "Head elevation > 30° promotes venous drainage, lowering intracranial blood volume and ICP."
+  },
+  {
+   "q": "Which drug lowers ICP by decreasing CSF production?",
+   "options": [
+    "Mannitol",
+    "Acetazolamide",
+    "Propofol",
+    "Paracetamol"
+   ],
+   "answer": 1,
+   "why": "Acetazolamide is a diuretic that decreases CSF production; propofol coma lowers metabolic demand; antipyretics treat fever."
+  },
+  {
+   "q": "Too-rapid correction of hypernatraemia with hypotonic fluids causes which type of cerebral oedema?",
+   "options": [
+    "Vasogenic",
+    "Cytotoxic",
+    "Interstitial",
+    "Osmotic"
+   ],
+   "answer": 3,
+   "why": "Osmotic oedema: relatively hypo-osmotic plasma makes free water move into the hyperosmotic brain."
   }
  ],
  "cards": [
@@ -3514,8 +3723,8 @@ SINA.lectures["fa-cardiovascular"] = {
  "subject": "firstaid",
  "group": "Vital functions",
  "title": "Cardiovascular function: shock",
- "sourceFile": "Cardio-vascular Function.pdf (First Aid and Vital Functions, Pr Amal Haoudar)",
- "sourceUrl": "https://drive.google.com/file/d/1MissyLG-q_2r7TTZmgIf0niGuvNjsstr/view?usp=drivesdk",
+ "sourceFile": "Cardiovascular Function (1).pdf (Vital Functions and First Aid 2026-2027, Pr Amal Haoudar)",
+ "sourceUrl": "https://drive.google.com/file/d/1eip2zCH2sOc9mWzaDcR_-3LDhN8hh_jU/view?usp=drivesdk",
  "buildNote": "<strong>Built from the lecture slides.</strong> Slides that only show pictures are covered in outline. If your professor says something different, trust your professor.",
  "summary": [
   {
@@ -3527,6 +3736,11 @@ SINA.lectures["fa-cardiovascular"] = {
    "id": "s1",
    "title": "Physiology",
    "html": "<p>Two systems in series: the <strong>macrocirculation</strong> generates oxygenated flow; the <strong>microcirculation</strong> distributes it to tissues. Arteries are resistive, veins capacitive; exchange occurs in capillaries. <strong>MAP = CO × SVR</strong> and <strong>CO = SV × HR</strong>; stroke volume depends on <strong>preload, contractility and afterload</strong>; the ejected volume and the arterial tree together create perfusion pressure (ventriculo-arterial coupling).</p><p>Oxygen delivery: <strong>TaO2 = CaO2 × CO</strong>, with <strong>CaO2 = 1.34 × Hb × SaO2</strong>. Fick: <strong>VO2 = CO × (CaO2 - CvO2)</strong>. Cellular hypoperfusion shifts metabolism to anaerobic pathways: <strong>lactate accumulates, causing metabolic acidosis</strong>. The <strong>baroreflex</strong> responds to falling pressure with more sympathetic and less parasympathetic activity.</p>"
+  },
+  {
+   "id": "s1b",
+   "title": "Cardiac output, venous return and Frank-Starling",
+   "html": "<p>Oxygen delivery <strong>DO₂ = CO × CaO₂</strong>: about 1000 mL O₂/min delivered and 250 mL/min consumed at rest (≈ 25% extracted); cardiac index ≈ 3 L/min/m². <strong>CO = HR × SV</strong>, and SV depends on <strong>preload, contractility and afterload</strong>.</p><p><strong>Frank-Starling</strong>: a larger end-diastolic volume stretches the fibres (better actin–myosin overlap) and increases stroke volume, up to a point — \"stretch to squeeze\". The <strong>mean circulatory pressure (Pmc)</strong> is the equilibrium pressure when CO is 0 and drives venous return. Sympathetic stimulation, a higher HR, more contractility or lower afterload shift the cardiac function curve <strong>up</strong>; heart failure shifts it down. Haemorrhage shifts the venous return curve <strong>down and left</strong>; tamponade shifts the cardiac curve right and down.</p><p><strong>MAP = CO × SVR</strong>: in early haemorrhage reflex vasoconstriction raises SVR and holds MAP, so <strong>a normal blood pressure does not rule out shock</strong>. Fick: CO = VO₂ ÷ (CaO₂ − CvO₂); normal SvO₂ 70–75%, low in low-flow shocks, normal or high in septic shock (extraction fails). Without O₂ a cell gets about 2 ATP per glucose instead of 30–36, and lactate rises above 2 mmol/L.</p>"
   },
   {
    "id": "s2",
@@ -3542,6 +3756,11 @@ SINA.lectures["fa-cardiovascular"] = {
    "id": "s4",
    "title": "Assessment and management",
    "html": "<p><strong>Haemodynamic assessment</strong>: non-invasive and invasive arterial pressure, central venous pressure, pulmonary artery catheter (Swan-Ganz), cardiac output by the Fick principle, echocardiography for stroke volume, and blood gases (<strong>arterial lactate</strong>, venous oxygen saturation).</p><p><strong>Management</strong>: symptomatic treatment to restore oxygen delivery (oxygen, fluid filling, catecholamines: <strong>adrenaline, noradrenaline, dobutamine</strong>) plus etiological treatment of the cause.</p>"
+  },
+  {
+   "id": "s5",
+   "title": "Fingerprints, stages and treatment",
+   "html": "<p><strong>Haemodynamic fingerprint</strong>: hypovolaemic — CO ↓, CVP ↓, SVR ↑, cold; cardiogenic — CO ↓, CVP ↑, SVR ↑, cold; distributive — CO ↑ or normal, CVP ↓ or normal, <strong>SVR ↓</strong>, warm early; obstructive — CO ↓, CVP ↑, SVR ↑, cold. Only distributive shock has a low SVR.</p><p><strong>Bedside windows</strong>: skin (cold, mottled, refill > 3 s), kidney (urine < 0.5 mL/kg/h), brain (confusion); plus tachycardia, tachypnoea, MAP < 65 mmHg (often late) and lactate > 2 mmol/L. Stages: <strong>compensated</strong> (BP held), <strong>decompensated</strong> (BP falls, lactate rises, organs fail), <strong>irreversible</strong>. Compensation diverts flow from skin, gut and kidneys to brain and heart.</p><p><strong>Treatment follows the physiology</strong> (ventilate, infuse, pump) and fixes the cause: hypovolaemic — fluids/blood, stop the bleeding; cardiogenic — dobutamine, cautious fluids, reopen the artery; distributive — fluids + noradrenaline (adrenaline in anaphylaxis), antibiotics/source control; obstructive — temporary fluids, then pericardiocentesis, needle decompression or thrombolysis. Noradrenaline ↑ SVR, dobutamine ↑ contractility, adrenaline both.</p>"
   }
  ],
  "exam": [
@@ -4210,6 +4429,222 @@ SINA.lectures["fa-cardiovascular"] = {
     3
    ],
    "why": "Spirometry assesses lung volumes, not circulation."
+  },
+  {
+   "q": "At rest, the heart delivers about 1000 mL of O₂ a minute and the body consumes about 250 mL. What fraction of the delivered oxygen do the tissues extract?",
+   "options": [
+    "About 5%",
+    "About 25%",
+    "About 50%",
+    "About 75%"
+   ],
+   "answer": 1,
+   "why": "DO₂ ≈ 1000 mL/min and VO₂ ≈ 250 mL/min: about 25% of delivered O₂ is extracted at rest."
+  },
+  {
+   "q": "A patient has VO₂ 250 mL/min, CaO₂ 200 mL/L and CvO₂ 150 mL/L. What is the cardiac output by the Fick principle?",
+   "options": [
+    "2.5 L/min",
+    "5 L/min",
+    "10 L/min",
+    "50 L/min"
+   ],
+   "answer": 1,
+   "why": "CO = VO₂ ÷ (CaO₂ − CvO₂) = 250 ÷ (200 − 150) = 5 L/min (worked example on the oxygen content and extraction slide)."
+  },
+  {
+   "q": "Why can venous O₂ saturation (SvO₂) be normal or even high in septic shock?",
+   "options": [
+    "Cardiac output is always low",
+    "The cells cannot extract and use the O₂",
+    "Haemoglobin rises",
+    "Lactate falls"
+   ],
+   "answer": 1,
+   "why": "In septic shock extraction fails: cells cannot use the O₂, so SvO₂ may be normal or high despite shock (normal SvO₂ is 70–75%). In low-flow shocks tissues extract more and SvO₂ falls."
+  },
+  {
+   "q": "Without oxygen, how much ATP does a cell get from one glucose, compared with 30 to 36 with oxygen?",
+   "options": [
+    "About 2 ATP",
+    "About 15 ATP",
+    "About 30 ATP",
+    "None at all"
+   ],
+   "answer": 0,
+   "why": "Anaerobic metabolism turns glucose into pyruvate then lactate for only about 2 ATP per glucose, so cell pumps fail and lactate rises above 2 mmol/L."
+  },
+  {
+   "q": "According to the Frank-Starling law, what happens when end-diastolic volume increases?",
+   "options": [
+    "Stroke volume falls at once",
+    "Stroke volume increases, up to a point",
+    "Heart rate always falls",
+    "Afterload falls"
+   ],
+   "answer": 1,
+   "why": "Stretching cardiac fibres improves actin–myosin overlap, so a larger EDV increases stroke volume — up to a point (\"stretch to squeeze\")."
+  },
+  {
+   "q": "What is the mean circulatory (static) pressure, Pmc?",
+   "options": [
+    "The arterial pressure during systole",
+    "The equilibrium pressure throughout the circulation when cardiac output is 0",
+    "The pressure in the pulmonary artery",
+    "The pressure that opens the aortic valve"
+   ],
+   "answer": 1,
+   "why": "Pmc is the equilibrium pressure throughout the cardiovascular system when cardiac output is 0; it drives venous return."
+  },
+  {
+   "q": "Sympathetic stimulation acts on the cardiac function curve by:",
+   "options": [
+    "Shifting it down: less output at each CVP",
+    "Shifting it up: more output at the same CVP",
+    "Leaving it unchanged",
+    "Making output independent of CVP"
+   ],
+   "answer": 1,
+   "why": "Increased heart rate, increased contractility and decreased afterload shift the cardiac function curve up: more cardiac output for the same central venous pressure."
+  },
+  {
+   "q": "In haemorrhage, how does the venous return curve move?",
+   "options": [
+    "Up and to the right",
+    "Down and to the left",
+    "It does not move",
+    "Only its slope becomes steeper"
+   ],
+   "answer": 1,
+   "why": "Volume loss lowers the mean systemic filling pressure, so the venous return curve shifts down and left (hypovolaemic shock slide)."
+  },
+  {
+   "q": "In early haemorrhage, cardiac output falls but blood pressure looks normal. Why?",
+   "options": [
+    "SVR falls",
+    "Reflex vasoconstriction raises SVR and holds MAP",
+    "Stroke volume rises",
+    "Shock has not started"
+   ],
+   "answer": 1,
+   "why": "MAP = CO × SVR: reflex vasoconstriction raises SVR and hides the loss of flow, so a normal blood pressure does NOT rule out shock."
+  },
+  {
+   "q": "In which type of shock is the systemic vascular resistance LOW?",
+   "options": [
+    "Hypovolaemic",
+    "Cardiogenic",
+    "Distributive",
+    "Obstructive"
+   ],
+   "answer": 2,
+   "why": "Only distributive shock has a low SVR. In the other three, SVR rises as the body compensates for a low cardiac output (haemodynamic fingerprint table)."
+  },
+  {
+   "q": "Low cardiac output, cold skin and a HIGH central venous pressure fit which shock types? (choose all)",
+   "options": [
+    "Hypovolaemic",
+    "Cardiogenic",
+    "Distributive",
+    "Obstructive"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "why": "Preload tells you whether the tank is empty (low CVP: hypovolaemic) or blood is backing up (high CVP: cardiogenic and obstructive)."
+  },
+  {
+   "q": "A 25-year-old motorcyclist with a femur fracture has HR 128, BP 100/70, cold pale skin and flat neck veins. Which shock is this?",
+   "options": [
+    "Hypovolaemic",
+    "Cardiogenic",
+    "Distributive",
+    "Obstructive"
+   ],
+   "answer": 0,
+   "why": "Blood loss with flat neck veins (low preload) and cold skin (high SVR): hypovolaemic shock, the empty tank."
+  },
+  {
+   "q": "A 45-year-old with pneumonia has T 39.5 °C, BP 82/40, warm hands, a bounding pulse and lactate 4.5 mmol/L. What haemodynamic pattern do you expect?",
+   "options": [
+    "Low CO, high CVP, high SVR",
+    "High or normal CO, low or normal CVP, low SVR",
+    "Low CO, low CVP, high SVR",
+    "Low CO, high CVP, low SVR"
+   ],
+   "answer": 1,
+   "why": "Septic (distributive) shock: low SVR, cardiac output often high, preload low or normal, warm skin early."
+  },
+  {
+   "q": "A patient stabbed in the chest has BP 70/50, distended neck veins, muffled heart sounds and clear lungs. What stops the shock?",
+   "options": [
+    "Dobutamine",
+    "Large volumes of fluid alone",
+    "Pericardiocentesis",
+    "Antibiotics"
+   ],
+   "answer": 2,
+   "why": "Tamponade is obstructive shock: fluids only maintain filling temporarily; removing the obstacle (pericardiocentesis) fixes the cause."
+  },
+  {
+   "q": "A 68-year-old with crushing chest pain has BP 80/50, crackles in both lungs and distended neck veins. Which support fits?",
+   "options": [
+    "Large fluid boluses",
+    "Dobutamine with cautious fluids, and reopen the coronary artery",
+    "Noradrenaline and antibiotics",
+    "Needle decompression"
+   ],
+   "answer": 1,
+   "why": "Cardiogenic shock: support the pump (dobutamine), give fluids cautiously and treat the cause. A lot of fluid helps an empty tank but can drown a failing pump."
+  },
+  {
+   "q": "Which vasoactive drug acts mainly by raising SVR?",
+   "options": [
+    "Dobutamine",
+    "Noradrenaline",
+    "Furosemide",
+    "Atropine"
+   ],
+   "answer": 1,
+   "why": "Noradrenaline raises SVR; dobutamine raises contractility; adrenaline does both (management slide)."
+  },
+  {
+   "q": "A shocked patient's blood pressure falls, lactate rises and organs start to fail despite tachycardia. Which stage of shock is this?",
+   "options": [
+    "Compensated",
+    "Decompensated",
+    "Irreversible",
+    "Recovery"
+   ],
+   "answer": 1,
+   "why": "Compensated: reflexes hold the pressure. Decompensated: reflexes are overwhelmed, BP falls, lactate rises, organs fail. Irreversible: cell death continues even if circulation is restored."
+  },
+  {
+   "q": "Which bedside thresholds signal shock? (choose all)",
+   "options": [
+    "Urine output below 0.5 mL/kg/h",
+    "MAP below 65 mmHg",
+    "Lactate above 2 mmol/L",
+    "Capillary refill under 1 second"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "why": "The three windows (skin, kidney, brain) plus vital signs: oliguria < 0.5 mL/kg/h, hypotension with MAP < 65 mmHg (often late) and lactate > 2 mmol/L; capillary refill is prolonged beyond 3 s."
+  },
+  {
+   "q": "During compensation for shock, where is blood flow diverted away from?",
+   "options": [
+    "Brain and heart",
+    "Skin, gut and kidneys",
+    "Lungs only",
+    "All organs equally"
+   ],
+   "answer": 1,
+   "why": "The baroreflex and hormones divert flow away from skin, gut and kidneys to protect the brain and heart: the bleeding patient is fast, pale, cold and thirsty."
   }
  ],
  "cards": [
@@ -8821,4 +9256,4 @@ SINA.lectures["fa-digestive"] = {
  "verified": "22 Sep 2026"
 };
 /* lecture slides for each question (page of the lecture PDF; the green box is in highlights.js) */
-(function (m) { Object.keys(m).forEach(function (id) { var L = SINA.lectures[id]; if (!L) return; Object.keys(m[id]).forEach(function (i) { var q = L.mcqs[i], n = m[id][i]; if (q && !q.slides) q.slides = [{ src: "files/slides/" + id + "/" + (n < 10 ? "0" : "") + n + ".jpg", lec: L.title, n: n }]; }); }); })({"fa-protection":{"0":3,"1":7,"2":13,"3":14,"4":16,"5":21,"6":12,"7":27,"8":35,"9":39,"10":37,"11":44,"12":44,"13":10,"14":12,"15":14,"16":21,"17":24,"18":26,"19":35,"20":37,"21":41,"22":44,"23":46,"24":15,"25":9},"fa-cardiac-arrest":{"0":2,"1":5,"2":6,"3":11,"4":12,"5":14,"6":14,"7":22,"8":24,"9":27,"11":13,"12":14,"13":5,"14":6,"15":11,"16":13,"17":14,"18":14,"19":22,"20":24,"21":27,"22":25,"24":6},"fa-bleeding":{"0":4,"1":12,"2":8,"3":11,"4":11,"5":12,"6":10,"7":16,"8":16,"9":4,"10":11,"11":5,"12":10,"13":11,"14":11,"15":12,"16":12,"17":10,"18":16,"19":16},"fa-trauma-burns":{"0":4,"1":5,"2":5,"3":6,"4":6,"5":15,"7":20,"8":24,"9":25,"10":26,"11":27,"12":25,"13":5,"14":5,"15":6,"16":15,"17":20,"18":22,"19":24,"20":25,"21":25,"22":26,"23":26,"24":27},"fa-neural":{"0":11,"1":45,"2":20,"3":13,"4":14,"5":17,"6":19,"7":33,"8":22,"9":40,"16":45,"17":19,"18":19,"19":14,"20":23,"21":40,"22":41,"23":40,"25":22,"26":19,"27":17,"28":44,"30":42,"31":40,"33":13},"fa-cardiovascular":{"0":2,"1":2,"2":37,"3":10,"4":13,"5":14,"6":34,"7":28,"15":30,"16":28,"17":33,"18":34,"20":12,"22":13,"23":15,"24":9,"25":36,"26":20,"27":29,"28":32,"29":2,"30":12,"31":28,"32":29,"33":32,"34":34,"35":20,"36":20,"37":22},"fa-respiratory":{"0":3,"1":3,"2":12,"3":12,"5":19,"6":18,"7":18,"8":24,"9":22,"10":23,"11":25,"12":28,"13":59,"14":32,"15":34,"16":35,"17":38,"18":38,"19":38,"20":39,"21":44,"22":50,"23":50,"24":52,"25":56,"26":56,"27":59,"28":60,"29":62,"30":60,"31":67,"32":66,"33":66,"40":3,"41":24,"42":25,"43":25,"44":19,"45":14,"46":56,"47":56,"49":38,"50":41,"51":44,"52":52,"53":52,"54":60,"55":62,"56":41,"57":52,"58":59,"59":56,"60":59,"61":30,"62":38,"63":59,"64":44,"65":39,"66":42,"67":42,"68":23,"69":34,"70":18,"71":19},"fa-renal":{"0":5,"2":14,"3":15,"4":17,"5":24,"6":31,"7":32,"8":34,"9":34,"10":40,"11":51,"12":53,"13":56,"14":54,"15":5,"16":5,"18":14,"19":17,"20":31,"21":34,"22":34,"23":38,"24":51,"25":53,"26":48},"fa-endocrine":{"0":6,"1":11,"2":18,"3":19,"4":22,"5":22,"6":18,"7":25,"8":27,"9":30,"10":32,"11":31,"12":35,"14":42,"15":40,"16":11,"17":18,"18":22,"20":21,"21":21,"22":27,"23":31,"24":31,"25":32,"27":42,"28":40},"fa-immune":{"0":44,"1":10,"2":14,"3":24,"4":38,"5":30,"6":30,"7":31,"8":33,"9":34,"10":35,"11":37,"12":38,"13":42,"14":43,"15":31,"16":10,"17":14,"18":24,"19":30,"20":30,"21":32,"22":33,"23":35,"24":37,"25":39,"26":42,"27":43,"28":41},"fa-digestive":{"0":12,"1":12,"2":15,"3":19,"4":21,"5":20,"6":22,"7":22,"8":26,"9":29,"10":48,"11":35,"12":39,"13":41,"14":47,"15":20,"16":12,"17":21,"18":20,"19":22,"20":22,"21":29,"22":48,"23":35,"24":40,"25":36,"26":41,"27":26}});
+(function (m) { var DIR26 = { "fa-neural": "fa-neural-26", "fa-cardiovascular": "fa-cardiovascular-26" }; Object.keys(m).forEach(function (id) { var L = SINA.lectures[id]; if (!L) return; Object.keys(m[id]).forEach(function (i) { var q = L.mcqs[i], n = m[id][i]; if (q && !q.slides) q.slides = [{ src: "files/slides/" + (DIR26[id] || id) + "/" + (n < 10 ? "0" : "") + n + ".jpg", lec: L.title, n: n }]; }); }); })({"fa-protection":{"0":3,"1":7,"2":13,"3":14,"4":16,"5":21,"6":12,"7":27,"8":35,"9":39,"10":37,"11":44,"12":44,"13":10,"14":12,"15":14,"16":21,"17":24,"18":26,"19":35,"20":37,"21":41,"22":44,"23":46,"24":15,"25":9},"fa-cardiac-arrest":{"0":2,"1":5,"2":6,"3":11,"4":12,"5":14,"6":14,"7":22,"8":24,"9":27,"11":13,"12":14,"13":5,"14":6,"15":11,"16":13,"17":14,"18":14,"19":22,"20":24,"21":27,"22":25,"24":6},"fa-bleeding":{"0":4,"1":12,"2":8,"3":11,"4":11,"5":12,"6":10,"7":16,"8":16,"9":4,"10":11,"11":5,"12":10,"13":11,"14":11,"15":12,"16":12,"17":10,"18":16,"19":16},"fa-trauma-burns":{"0":4,"1":5,"2":5,"3":6,"4":6,"5":15,"7":20,"8":24,"9":25,"10":26,"11":27,"12":25,"13":5,"14":5,"15":6,"16":15,"17":20,"18":22,"19":24,"20":25,"21":25,"22":26,"23":26,"24":27},"fa-neural":{"0":7,"1":49,"2":15,"3":16,"4":17,"5":19,"6":20,"7":35,"8":23,"9":43,"16":49,"17":20,"18":20,"19":17,"20":24,"21":43,"22":44,"23":43,"24":41,"25":23,"26":20,"27":19,"28":29,"29":34,"30":46,"31":43,"33":16,"34":21,"35":21,"36":21,"37":13,"38":13,"39":8,"40":14,"41":22,"42":3,"43":37,"44":37,"45":39,"46":40,"47":40,"48":42,"49":33},"fa-cardiovascular":{"0":3,"1":3,"2":40,"3":9,"4":19,"5":20,"6":38,"7":34,"8":36,"15":33,"16":34,"17":36,"18":31,"19":9,"20":19,"21":19,"22":19,"23":21,"24":15,"25":40,"26":22,"27":9,"28":36,"29":3,"30":15,"31":34,"32":33,"33":36,"34":38,"35":22,"36":22,"37":24,"38":7,"39":19,"40":19,"41":20,"42":17,"43":11,"44":13,"45":33,"46":15,"47":32,"48":32,"49":39,"50":39,"51":39,"52":41,"53":40,"54":23,"55":22,"56":21},"fa-respiratory":{"0":3,"1":3,"2":12,"3":12,"5":19,"6":18,"7":18,"8":24,"9":22,"10":23,"11":25,"12":28,"13":59,"14":32,"15":34,"16":35,"17":38,"18":38,"19":38,"20":39,"21":44,"22":50,"23":50,"24":52,"25":56,"26":56,"27":59,"28":60,"29":62,"30":60,"31":67,"32":66,"33":66,"40":3,"41":24,"42":25,"43":25,"44":19,"45":14,"46":56,"47":56,"49":38,"50":41,"51":44,"52":52,"53":52,"54":60,"55":62,"56":41,"57":52,"58":59,"59":56,"60":59,"61":30,"62":38,"63":59,"64":44,"65":39,"66":42,"67":42,"68":23,"69":34,"70":18,"71":19},"fa-renal":{"0":5,"2":14,"3":15,"4":17,"5":24,"6":31,"7":32,"8":34,"9":34,"10":40,"11":51,"12":53,"13":56,"14":54,"15":5,"16":5,"18":14,"19":17,"20":31,"21":34,"22":34,"23":38,"24":51,"25":53,"26":48},"fa-endocrine":{"0":6,"1":11,"2":18,"3":19,"4":22,"5":22,"6":18,"7":25,"8":27,"9":30,"10":32,"11":31,"12":35,"14":42,"15":40,"16":11,"17":18,"18":22,"20":21,"21":21,"22":27,"23":31,"24":31,"25":32,"27":42,"28":40},"fa-immune":{"0":44,"1":10,"2":14,"3":24,"4":38,"5":30,"6":30,"7":31,"8":33,"9":34,"10":35,"11":37,"12":38,"13":42,"14":43,"15":31,"16":10,"17":14,"18":24,"19":30,"20":30,"21":32,"22":33,"23":35,"24":37,"25":39,"26":42,"27":43,"28":41},"fa-digestive":{"0":12,"1":12,"2":15,"3":19,"4":21,"5":20,"6":22,"7":22,"8":26,"9":29,"10":48,"11":35,"12":39,"13":41,"14":47,"15":20,"16":12,"17":21,"18":20,"19":22,"20":22,"21":29,"22":48,"23":35,"24":40,"25":36,"26":41,"27":26}});

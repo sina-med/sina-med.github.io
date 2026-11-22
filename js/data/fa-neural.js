@@ -5,7 +5,7 @@ SINA.lectures["fa-neural"] = {
  "group": "Vital functions",
  "title": "Neural function: intracranial pressure",
  "sourceFile": "Neural Function.pdf (First Aid and Vital Functions, Pr Amal Haoudar)",
- "sourceUrl": "https://drive.google.com/file/d/1RxUfH3sWqkymUKB-VM1ZmP1HTX8AunyX/view?usp=drivesdk",
+ "sourceUrl": "https://drive.google.com/file/d/1X5y2obi7c7VrD67jb1kZNcgM0mvdNU23/view?usp=drivesdk",
  "buildNote": "<strong>Short version.</strong> The full version, with more questions and extra reading, is coming soon. <strong>Built from the lecture slides.</strong> Many slides are images, so the case study, clinical signs and management slides are covered only where text was readable.",
  "summary": [
   {
