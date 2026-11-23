@@ -3,7 +3,7 @@
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
   { date: "23 November 2026", items: [
-    "Added: follow-up questions on some clinical cases in Vital Functions. After you answer, a second question on the same patient asks about the mechanism or the treatment, to build the pathophysiology step by step.",
+    "Added: follow-up questions on some clinical cases in Vital Functions. After answering, a second question on the same patient asks about the mechanism or the treatment, to build the pathophysiology step by step.",
     "Added: 2 shock cases in Vital Functions & First Aid, Cardiovascular function: septic shock and cardiogenic shock after a heart attack."
   ] },
   { date: "21 November 2026", items: [
