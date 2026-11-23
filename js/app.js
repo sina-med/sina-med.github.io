@@ -2526,8 +2526,8 @@
   function showWelcome() {
     var w = document.getElementById("welcome");
     if (!w) return;
-    /* returning visitors who already picked a year go straight in: the year is remembered (change it from the year button in the header) */
-    if (store.get("sina:program", null) && store.get("sina:welcomed", null)) { w.remove(); document.body.classList.remove("noscroll"); return; }
+    /* returning visitors who already picked a year: the intro still plays, but no year choice; the year is remembered (change it from the year button in the header) */
+    var returning = !!(store.get("sina:program", null) && store.get("sina:welcomed", null));
     var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
     var box = w.querySelector(".wbox"), h1 = box.querySelector("h1");
     box.insertAdjacentHTML("afterbegin", '<div class="w-art">' + caduceusHTML().replace('id="cad"', 'id="cad-welcome"') + "</div>");
@@ -2555,7 +2555,11 @@
       setTimeout(function () { w.remove(); }, 260);
     }
     /* after the animation: pick the year (the current one is marked) to enter */
-    if (PROGS.length > 1) {
+    if (returning) {
+      btn.outerHTML = '<p class="w-tap">Tap anywhere to enter</p>';
+      w.addEventListener("click", function () { if (w.classList.contains("ready")) leave(); });
+      document.addEventListener("keydown", function k2(e) { if (!document.body.contains(w)) { document.removeEventListener("keydown", k2); return; } if (w.classList.contains("ready") && (e.key === "Enter" || e.key === " " || e.key === "Escape")) { e.preventDefault(); leave(); } });
+    } else if (PROGS.length > 1) {
       var last = store.get("sina:program", null);
       btn.outerHTML = '<p class="w-pick">Choose your year</p><div class="w-years">' + PROGS.map(function (p) {
         var n = S.subjects.filter(function (x) { return (x.program || S.DEFAULT_PROGRAM) === p.id && x.groups; }).length;
