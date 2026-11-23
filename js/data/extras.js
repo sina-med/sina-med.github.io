@@ -50,7 +50,19 @@ SINA.usefulApps = [
     desc: "A few illustrated anatomy flashcards every day on muscles and bones, to keep anatomy fresh between exams.",
     platforms: ["iOS", "Android"],
     links: [{ label: "App Store", url: "https://apps.apple.com/ca/app/daily-anatomy-flashcards/id1271405479" },
-            { label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.kenhub.dailyanatomy.musclesandbones&hl=en_CA" }] }
+            { label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.kenhub.dailyanatomy.musclesandbones&hl=en_CA" }] },
+  { name: "Gram Project", domain: "gramproject.com", kind: "Medical diagrams",
+    desc: "Simple one-page diagrams for revising physiology, microbiology, pharmacology and clinical topics, made by medical students and doctors. Free, licensed CC BY-SA 4.0. Based on UK guidelines, so check treatments against your lectures.",
+    platforms: ["Web"],
+    links: [{ label: "Visit website", url: "https://gramproject.com/" }] },
+  { name: "quack quack med", domain: "quackquackmed.com", kind: "Free clinical notes (PDF)",
+    desc: "Free PDF notes for every clinical specialty, from cardiology and respiratory to infectious diseases, written by a Birmingham medical graduate. Licensed CC BY-NC-SA 4.0. Good for the clinical side of S3 and S4 topics.",
+    platforms: ["Web"],
+    links: [{ label: "Browse the notes", url: "https://www.quackquackmed.com/contents" }] },
+  { name: "Easy Auscultation", domain: "easyauscultation.com", kind: "Heart and lung sounds",
+    desc: "Recorded heart and lung sounds with short lessons and drills: crackles, wheeze, murmurs and more. Some lessons are free, the full course is paid. Useful before clinical exams and OSCEs.",
+    platforms: ["Web"],
+    links: [{ label: "Free lessons", url: "https://easyauscultation.com/learning-resources-free" }, { label: "Visit website", url: "https://easyauscultation.com/" }] }
 ];
 
 /* USMLE prep page (#/usmle). drive = the shared Google Drive folder for PDFs.

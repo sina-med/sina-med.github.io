@@ -2016,3 +2016,22 @@ div.smb-exp { border-radius: 16px; }
 .smb-subj > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .smb-subj .smb-cnt { margin-left: auto; font: 500 0.78rem var(--mono, "IBM Plex Mono", monospace); color: var(--muted); }
 .smb-subj .lec-list { border-top: 0; margin: 0 0 0.5rem 1.4rem; }
+
+/* patient values chart above case questions */
+.qchart { margin: 4px 0 14px; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.qc-who { margin: 0 0 10px; font-size: var(--fs-s, 0.95rem); color: var(--muted); }
+.qc-v { display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 8px; margin: 0; }
+.qc-v div { padding: 6px 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); min-width: 0; }
+.qc-v dt { font-size: 0.75rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+.qc-v dd { margin: 2px 0 0; font-weight: 600; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.qc-tw { overflow-x: auto; }
+.qc-t { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.qc-t th, .qc-t td { padding: 7px 10px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.qc-t thead th { font-size: 0.82rem; color: var(--muted); font-weight: 600; }
+.qc-t tbody tr:last-child th, .qc-t tbody tr:last-child td { border-bottom: 0; }
+.qc-t tbody th { font-weight: 600; }
+/* follow-up question on the same patient */
+.follow { margin: 4px 0 16px; padding: 14px; border: 1px dashed var(--line-strong); border-radius: var(--radius); }
+.fu-h { margin: 0 0 6px; font-weight: 700; color: var(--accent); }
+.fu-h span { font-weight: 400; color: var(--muted); font-size: 0.85rem; margin-left: 6px; }
+.fu-q { font-family: var(--serif); font-size: 1.12rem; line-height: 1.35; margin: 0 0 10px; }

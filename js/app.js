@@ -617,7 +617,7 @@
       '<ol class="photo-legend">' + ids.map(function (id) { return "<li>" + esc([].concat(fig.parts[id].label || id).join(" ")) + "</li>"; }).join("") + "</ol>";
   }
   function isBoxFig(fig) { var ks = Object.keys(fig.parts || {}); return ks.length > 0 && ks.every(function (id) { return /^\s*<rect/.test(fig.parts[id].shape || ""); }); }
-  function figQText(q, fig) { return q.target && fig && isBoxFig(fig) && /at the arrow\?$/.test(q.q) ? "Which element belongs in the box marked \u201c?\u201d?" : String(q.q).replace(/\s*\(choose all\)\s*$/i, ""); }
+  function figQText(q, fig) { if (q.chart && q.chart.ask) return q.chart.ask; return q.target && fig && isBoxFig(fig) && /at the arrow\?$/.test(q.q) ? "Which element belongs in the box marked \u201c?\u201d?" : String(q.q).replace(/\s*\(choose all\)\s*$/i, ""); }
   function figureSVG(fig, cfg) {
     cfg = cfg || {};
     var quiz = cfg.mode === "quiz", uid = cfg.uid || "f";
@@ -2151,7 +2151,7 @@
             this.textContent = "Hide my wrong answers";
             box.innerHTML = '<h2 class="rev-h">Your wrong answers</h2>' + missed.map(function (w) {
               var q = w.q, ans = q.answers || [q.answer];
-              return '<div class="rev-item"><p class="qhead">Question ' + w.n + '</p><p class="qtext">' + esc(figQText(q, q._fig || (lec.visual && lec.visual.figure))) + "</p>" + (q.flow ? flowHTML(q, true) : q.occ ? occHTML(q, true) : "") +
+              return '<div class="rev-item"><p class="qhead">Question ' + w.n + '</p>' + chartHTML(q) + '<p class="qtext">' + esc(figQText(q, q._fig || (lec.visual && lec.visual.figure))) + "</p>" + (q.flow ? flowHTML(q, true) : q.occ ? occHTML(q, true) : "") +
                 q.options.map(function (o, n) {
                   var om = optMark(ans, w.chosen || [], n), cls = om.cls, tag = om.tag;
                   return '<div class="opt static' + cls + '"><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span>" + tag + (optNote(q, n) ? '<span class="onote">' + esc(optNote(q, n)) + "</span>" : "") + "</div>";
@@ -2168,7 +2168,7 @@
       var pic = qph ? qph : (q.target && qfig)
         ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "q" + i }) + "</div>"
         : "";
-      p.innerHTML = qbarHTML(i, qs.length, marked, i + 1 < qs.length ? "Next" : "Finish", false, false) + '<p class="qhead">' + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + (q._off ? '<span class="qoff">Not on the midterm</span>' : "") + flameHTML(streak, false) + '</p>' + ecgProgress(done.filter(Boolean).length / qs.length) + caseHTML(q) + '<p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
+      p.innerHTML = qbarHTML(i, qs.length, marked, i + 1 < qs.length ? "Next" : "Finish", false, false) + '<p class="qhead">' + (q.src ? '<span class="qsrc">' + esc(q.src) + "</span>" : "") + (q._from ? '<span class="qfrom">' + esc(q._from) + "</span>" : "") + (q._off ? '<span class="qoff">Not on the midterm</span>' : "") + flameHTML(streak, false) + '</p>' + ecgProgress(done.filter(Boolean).length / qs.length) + caseHTML(q) + chartHTML(q) + '<p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
         q.options.map(function (o, n) { return '<button class="opt" data-n="' + n + '" aria-pressed="false"><span class="letter">' + LET[n].toUpperCase() + "</span><span>" + esc(o) + "</span></button>"; }).join("") + (multi ? '<button class="btn primary" id="chk" type="button">Check my answer</button>' : "") + '<div id="fb"></div>';
       centerTarget(p); m3dMount(p, q);
       var opts = p.querySelectorAll(".opt");
@@ -2194,6 +2194,7 @@
         var ot = p.querySelector(".otile.q"); if (ot) { ot.classList.add("show"); ot.textContent = ""; }
         if (q.flow) { var fq = p.querySelector(".flowq"); if (fq) fq.outerHTML = flowHTML(q, true); }
         document.getElementById("fb").innerHTML = feedback(q, ok, skipped, (done[i] || {}).pts);
+        if (!skipped) followMount(document.getElementById("fb"), q);
         p.querySelector("#rep").onclick = function () { reportMistake(q, lec.id); };
         saveResume();
         var qe = p.querySelector(".qecg"); if (qe) qe.outerHTML = ecgProgress(done.filter(Boolean).length / qs.length);
@@ -2985,6 +2986,34 @@
 
   /* a picture that belongs to the question itself (graph, table, screenshot from a paper) */
   function casesOf(ids) { return (S.cases || []).filter(function (c) { return c.lecs.some(function (l) { return ids.indexOf(l) > -1; }); }); }
+  /* case questions with several numbers: show the patient's values as a small chart above the question, so they are easy to read */
+  function chartHTML(q) {
+    var c = q.chart; if (!c) return "";
+    var h = '<div class="qchart">' + (c.who ? '<p class="qc-who">' + esc(c.who) + "</p>" : "");
+    if (c.cols) h += '<div class="qc-tw"><table class="qc-t"><thead><tr>' + c.cols.map(function (x) { return "<th scope=\"col\">" + esc(x) + "</th>"; }).join("") + "</tr></thead><tbody>" +
+      c.rows.map(function (r) { return "<tr>" + r.map(function (x, k) { return k ? "<td>" + esc(x) + "</td>" : "<th scope=\"row\">" + esc(x) + "</th>"; }).join("") + "</tr>"; }).join("") + "</tbody></table></div>";
+    else h += '<dl class="qc-v">' + c.rows.map(function (r) { return "<div><dt>" + esc(r[0]) + "</dt><dd>" + esc(r[1]) + "</dd></div>"; }).join("") + "</dl>";
+    return h + "</div>";
+  }
+  /* a short follow-up on the same patient, shown once the main question is answered (not scored) */
+  function followMount(box, q) {
+    var f = q.follow; if (!f || !box) return;
+    var ord = f.options.map(function (o, n) { return n; }); for (var k = ord.length - 1; k > 0; k--) { var j = Math.floor(Math.random() * (k + 1)), t = ord[k]; ord[k] = ord[j]; ord[j] = t; }
+    var L2 = "ABCDEFGH", w = document.createElement("div"); w.className = "follow";
+    w.innerHTML = '<p class="fu-h">Follow-up <span>same patient, not scored</span></p><p class="fu-q">' + esc(f.q) + "</p>" +
+      ord.map(function (n, k) { return '<button type="button" class="opt" data-n="' + n + '"><span class="letter">' + L2[k] + "</span><span>" + esc(f.options[n]) + "</span></button>"; }).join("") + '<div class="fu-fb"></div>';
+    box.insertBefore(w, box.firstChild);
+    var bs = w.querySelectorAll(".opt");
+    bs.forEach(function (b) { b.addEventListener("click", function () {
+      var pick = +b.dataset.n;
+      bs.forEach(function (x) {
+        var n = +x.dataset.n; x.disabled = true;
+        if (n === f.answer) x.classList.add("correct"); else if (n === pick) x.classList.add("wrong");
+        var on = f.notes && f.notes[n]; if (on) x.insertAdjacentHTML("beforeend", '<span class="onote">' + (n === f.answer ? "Correct. " : "Wrong. ") + esc(on) + "</span>");
+      });
+      if (f.slides) w.querySelector(".fu-fb").innerHTML = slidesHTML({ slides: f.slides });
+    }); });
+  }
   function caseHTML(q) {
     var c = q.case; if (!c) return "";
     return '<div class="case-box"><p class="case-h"><span>' + esc(c.title) + "</span><span>" + c.n + " of " + c.of + '</span></p><p class="case-stem">' + esc(c.stem) + "</p>" +
@@ -3006,7 +3035,7 @@
       var pic = qph || (q.target && qfig ? '<div class="diagram-box qfig">' + figureSVG(qfig, { mode: "quiz", target: q.target, uid: "x" + i }) + "</div>" : "");
       p.innerHTML = '<div class="exam-bar"><span class="exam-time" id="xt">' + fmt((end - Date.now()) / 1000) + '</span><span class="meta"></span><button class="btn small primary" id="xsub">Submit</button></div>' +
         '<div class="exam-grid">' + qs.map(function (_, k) { return '<button class="xg' + (k === i ? " cur" : "") + (sel[k].length ? " done" : "") + '" data-k="' + k + '">' + (k + 1) + "</button>"; }).join("") + "</div>" +
-        (q._off ? '<p class="qhead"><span class="qoff">Not on the midterm</span></p>' : "") + '<p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
+        (q._off ? '<p class="qhead"><span class="qoff">Not on the midterm</span></p>' : "") + chartHTML(q) + '<p class="qtext">' + esc(figQText(q, qfig)) + "</p>" + pic +
         q.options.map(function (o, k) { var on = sel[i].indexOf(k) > -1; return '<button class="opt' + (on ? " picked" : "") + '" data-n="' + k + '" aria-pressed="' + on + '"><span class="letter">' + LET[k].toUpperCase() + "</span><span>" + esc(o) + "</span></button>"; }).join("") +
         '<div class="qnav"><button class="btn" id="xp"' + (i ? "" : " disabled") + '>&larr; Previous</button><button class="btn" id="xn">' + (i + 1 < n ? "Next &rarr;" : "Review and submit") + "</button></div>";
       centerTarget(p); m3dMount(p, q);
@@ -3035,7 +3064,7 @@
         p.querySelector("#xrev").innerHTML = qs.map(function (q, k) {
           if (onlyWrong && res[k]) return "";
           var ans = q.answers || [q.answer], s = sel[k];
-          return '<div class="rev-item"><p class="qhead">Question ' + (k + 1) + (s.length ? "" : " · not answered") + '</p><p class="qtext">' + esc(figQText(q, q._fig)) + "</p>" + (q.flow ? flowHTML(q, true) : q.occ ? occHTML(q, true) : "") +
+          return '<div class="rev-item"><p class="qhead">Question ' + (k + 1) + (s.length ? "" : " · not answered") + '</p>' + chartHTML(q) + '<p class="qtext">' + esc(figQText(q, q._fig)) + "</p>" + (q.flow ? flowHTML(q, true) : q.occ ? occHTML(q, true) : "") +
             q.options.map(function (o, m) { var om = optMark(ans, s, m), cls = om.cls, tag = om.tag;
               return '<div class="opt static' + cls + '"><span class="letter">' + LET[m].toUpperCase() + "</span><span>" + esc(o) + "</span>" + tag + (optNote(q, m) ? '<span class="onote">' + esc(optNote(q, m)) + "</span>" : "") + "</div>"; }).join("") +
             slidesHTML(q) + "</div>";

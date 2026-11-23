@@ -3357,7 +3357,35 @@ SINA.lectures["fa-neural"] = {
     "Glucose control prevents cellular oedema; too slow and indirect here.",
     "Hypothermia lowers metabolism but does not remove the clot.",
     "Skull trephination (a burr hole) relieves the haematoma and can save a deteriorating patient (slide 41)."
-   ]
+   ],
+   "follow": {
+    "q": "While theatre is being prepared, which drug lowers ICP by drawing water out of the brain?",
+    "options": [
+     "Mannitol",
+     "Acetazolamide",
+     "Furosemide alone",
+     "A steroid"
+    ],
+    "answer": 0,
+    "notes": [
+     "Creates an osmotic gradient: fluid moves out of the brain into the blood.",
+     "Lowers CSF production, not brain water.",
+     "Not the osmotic agent in the lecture.",
+     "Steroids help vasogenic oedema around tumours, not an acute haematoma."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/fa-neural-26/40.jpg",
+      "lec": "Neural function: intracranial pressure",
+      "n": 40
+     },
+     {
+      "src": "files/slides/fa-neural-26/42.jpg",
+      "lec": "Neural function: intracranial pressure",
+      "n": 42
+     }
+    ]
+   }
   },
   {
    "q": "Why does glucose control matter in a patient with raised ICP?",
@@ -3635,7 +3663,60 @@ SINA.lectures["fa-neural"] = {
     "Patient 2: CPP ≈ 58 mmHg, borderline but not as low as patient 3.",
     "Patient 3: MAP ≈ 50 + 40/3 ≈ 63 mmHg, CPP ≈ 28 mmHg, far below 60. Patient 2 has CPP ≈ 58 (borderline); patient 1 ≈ 83 (normal).",
     "Patient 3 has a CPP ≈ 28 mmHg, far below 60."
-   ]
+   ],
+   "chart": {
+    "cols": [
+     "",
+     "BP (mmHg)",
+     "ICP (mmHg)"
+    ],
+    "rows": [
+     [
+      "Patient 1",
+      "120/80",
+      "10"
+     ],
+     [
+      "Patient 2",
+      "120/80",
+      "35"
+     ],
+     [
+      "Patient 3",
+      "90/50",
+      "35"
+     ]
+    ],
+    "ask": "Whose brain is infarcting right now?"
+   },
+   "follow": {
+    "q": "What is patient 2's CPP?",
+    "options": [
+     "About 58 mmHg",
+     "About 83 mmHg",
+     "About 28 mmHg",
+     "About 93 mmHg"
+    ],
+    "answer": 0,
+    "notes": [
+     "MAP ≈ 80 + 40/3 ≈ 93; 93 − 35 ≈ 58 mmHg: just under the 60 mmHg limit.",
+     "That's patient 1 (ICP 10).",
+     "That's patient 3 (BP 90/50).",
+     "93 is the MAP; the ICP still has to be subtracted."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/fa-neural-26/21.jpg",
+      "lec": "Neural function: intracranial pressure",
+      "n": 21
+     },
+     {
+      "src": "files/slides/fa-neural-26/20.jpg",
+      "lec": "Neural function: intracranial pressure",
+      "n": 20
+     }
+    ]
+   }
   },
   {
    "q": "How much CSF does an adult make and reabsorb each day?",
@@ -4116,7 +4197,48 @@ SINA.lectures["fa-neural"] = {
      "lec": "Neural function: intracranial pressure",
      "n": 19
     }
-   ]
+   ],
+   "chart": {
+    "who": "Large intracranial haematoma",
+    "rows": [
+     [
+      "BP",
+      "190/100 mmHg"
+     ],
+     [
+      "HR",
+      "44 /min"
+     ],
+     [
+      "Breathing",
+      "Irregular"
+     ]
+    ],
+    "ask": "Why is lowering the BP aggressively dangerous?"
+   },
+   "follow": {
+    "q": "What is this combination of signs called?",
+    "options": [
+     "Cushing triad",
+     "Beck's triad",
+     "Virchow's triad",
+     "Charcot's triad"
+    ],
+    "answer": 0,
+    "notes": [
+     "High BP, bradycardia and irregular breathing: brainstem compression.",
+     "Beck's triad (low BP, distended neck veins, muffled heart sounds) is cardiac tamponade.",
+     "Virchow's triad is about venous thrombosis.",
+     "Charcot's triad (fever, jaundice, pain) is cholangitis."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/fa-neural-26/37.jpg",
+      "lec": "Neural function: intracranial pressure",
+      "n": 37
+     }
+    ]
+   }
   },
   {
    "q": "A head-injured patient (ICP 25 mmHg) bleeds and his BP falls to 80/40. What is the main threat to his brain?",
@@ -4145,7 +4267,49 @@ SINA.lectures["fa-neural"] = {
      "lec": "Neural function: intracranial pressure",
      "n": 20
     }
-   ]
+   ],
+   "chart": {
+    "who": "Head injury, now bleeding",
+    "rows": [
+     [
+      "ICP",
+      "25 mmHg"
+     ],
+     [
+      "BP",
+      "80/40 mmHg"
+     ]
+    ],
+    "ask": "What is the main threat to his brain?"
+   },
+   "follow": {
+    "q": "What protects his brain first?",
+    "options": [
+     "Restore his blood pressure and stop the bleeding",
+     "Let the BP stay low to limit bleeding into the brain",
+     "Give a diuretic to lower his blood volume",
+     "Lay him flat with the head down"
+    ],
+    "answer": 0,
+    "notes": [
+     "CPP = MAP − ICP: raising the MAP is the fastest way to get CPP back above 60.",
+     "A low MAP keeps CPP at about 28: the brain keeps infarcting.",
+     "Less blood volume lowers MAP further.",
+     "Head down hinders venous return from the brain; the head should be raised to 30°."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/fa-neural-26/19.jpg",
+      "lec": "Neural function: intracranial pressure",
+      "n": 19
+     },
+     {
+      "src": "files/slides/fa-neural-26/40.jpg",
+      "lec": "Neural function: intracranial pressure",
+      "n": 40
+     }
+    ]
+   }
   },
   {
    "q": "How does short-term hyperventilation lower ICP?",
@@ -5192,7 +5356,24 @@ SINA.lectures["fa-cardiovascular"] = {
     "CO = VO₂ ÷ (CaO₂ − CvO₂) = 250 ÷ (200 − 150) = 5 L/min (worked example on the oxygen content and extraction slide).",
     "10 would need a difference of 25 mL/L.",
     "Off by a factor of 10: 250 ÷ 50 = 5."
-   ]
+   ],
+   "chart": {
+    "rows": [
+     [
+      "VO₂",
+      "250 mL/min"
+     ],
+     [
+      "CaO₂",
+      "200 mL/L"
+     ],
+     [
+      "CvO₂",
+      "150 mL/L"
+     ]
+    ],
+    "ask": "What is the cardiac output by the Fick principle?"
+   }
   },
   {
    "q": "Why can venous O₂ saturation (SvO₂) be normal or even high in septic shock?",
@@ -5365,7 +5546,52 @@ SINA.lectures["fa-cardiovascular"] = {
     "Nothing suggests pump failure, and neck veins would be distended.",
     "Distributive shock gives warm skin and low SVR.",
     "Obstructive shock gives distended neck veins."
-   ]
+   ],
+   "chart": {
+    "who": "25-year-old motorcyclist, femur fracture",
+    "rows": [
+     [
+      "HR",
+      "128 /min"
+     ],
+     [
+      "BP",
+      "100/70 mmHg"
+     ],
+     [
+      "Skin",
+      "Cold, pale"
+     ],
+     [
+      "Neck veins",
+      "Flat"
+     ]
+    ],
+    "ask": "Which shock is this?"
+   },
+   "follow": {
+    "q": "What comes first in his treatment?",
+    "options": [
+     "Fluids and blood, and stop the bleeding",
+     "Dobutamine",
+     "Noradrenaline alone",
+     "Needle decompression"
+    ],
+    "answer": 0,
+    "notes": [
+     "Fill the empty tank and fix the leak.",
+     "Dobutamine supports a failing pump; his pump is fine.",
+     "Squeezing empty vessels doesn't replace the lost blood.",
+     "That treats tension pneumothorax (obstructive shock)."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/fa-cardiovascular-26/41.jpg",
+      "lec": "Cardiovascular function: shock",
+      "n": 41
+     }
+    ]
+   }
   },
   {
    "q": "A 45-year-old with pneumonia has T 39.5 °C, BP 82/40, warm hands, a bounding pulse and lactate 4.5 mmol/L. What haemodynamic pattern do you expect?",
@@ -5382,7 +5608,56 @@ SINA.lectures["fa-cardiovascular"] = {
     "Septic (distributive) shock: low SVR, cardiac output often high, preload low or normal, warm skin early.",
     "This is hypovolaemic shock; this patient's hands are warm.",
     "This mix doesn't match any of the four types."
-   ]
+   ],
+   "chart": {
+    "who": "45-year-old with pneumonia",
+    "rows": [
+     [
+      "T",
+      "39.5 °C"
+     ],
+     [
+      "BP",
+      "82/40 mmHg"
+     ],
+     [
+      "Hands",
+      "Warm"
+     ],
+     [
+      "Pulse",
+      "Bounding"
+     ],
+     [
+      "Lactate",
+      "4.5 mmol/L"
+     ]
+    ],
+    "ask": "What haemodynamic pattern do you expect?"
+   },
+   "follow": {
+    "q": "Which treatment fits this patient?",
+    "options": [
+     "Fluids + noradrenaline, antibiotics and source control",
+     "Dobutamine and cautious fluids",
+     "Pericardiocentesis",
+     "Fluids and blood transfusion only"
+    ],
+    "answer": 0,
+    "notes": [
+     "Restore vessel tone and treat the infection.",
+     "That is for a failing pump (cardiogenic shock).",
+     "That treats tamponade (obstructive shock).",
+     "Without a vasopressor and antibiotics the cause isn't treated."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/fa-cardiovascular-26/41.jpg",
+      "lec": "Cardiovascular function: shock",
+      "n": 41
+     }
+    ]
+   }
   },
   {
    "q": "A patient stabbed in the chest has BP 70/50, distended neck veins, muffled heart sounds and clear lungs. What stops the shock?",
@@ -5416,7 +5691,25 @@ SINA.lectures["fa-cardiovascular"] = {
     "Cardiogenic shock: support the pump (dobutamine), give fluids cautiously and treat the cause. A lot of fluid helps an empty tank but can drown a failing pump.",
     "Noradrenaline and antibiotics fit septic shock.",
     "Needle decompression treats tension pneumothorax."
-   ]
+   ],
+   "chart": {
+    "who": "68-year-old, crushing chest pain",
+    "rows": [
+     [
+      "BP",
+      "80/50 mmHg"
+     ],
+     [
+      "Lungs",
+      "Crackles both sides"
+     ],
+     [
+      "Neck veins",
+      "Distended"
+     ]
+    ],
+    "ask": "Which support fits?"
+   }
   },
   {
    "q": "Which vasoactive drug acts mainly by raising SVR?",
@@ -5505,7 +5798,52 @@ SINA.lectures["fa-cardiovascular"] = {
     "No pump failure.",
     "Anaphylaxis is distributive shock: vasodilation and leaky capillaries lower SVR, the skin is warm early. Treat with adrenaline, fluids and remove the allergen.",
     "No mechanical block."
-   ]
+   ],
+   "chart": {
+    "who": "30-year-old stung by a wasp",
+    "rows": [
+     [
+      "BP",
+      "75/40 mmHg"
+     ],
+     [
+      "Skin",
+      "Warm, flushed"
+     ],
+     [
+      "Chest",
+      "Wheeze"
+     ],
+     [
+      "Pulse",
+      "Fast"
+     ]
+    ],
+    "ask": "Which type of shock is this?"
+   },
+   "follow": {
+    "q": "Which drug is the vasopressor of choice here?",
+    "options": [
+     "Adrenaline",
+     "Dobutamine",
+     "Atropine",
+     "Furosemide"
+    ],
+    "answer": 0,
+    "notes": [
+     "In anaphylaxis, adrenaline replaces noradrenaline (and also opens the airways).",
+     "An inotrope for a failing pump.",
+     "Raises heart rate; the pulse is already fast.",
+     "A diuretic would worsen the low pressure."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/fa-cardiovascular-26/41.jpg",
+      "lec": "Cardiovascular function: shock",
+      "n": 41
+     }
+    ]
+   }
   },
   {
    "q": "After a C5 spinal cord injury, a patient has BP 80/45, warm skin and a slow pulse. Which type of shock is this?",
@@ -5522,7 +5860,25 @@ SINA.lectures["fa-cardiovascular"] = {
     "Neurogenic (spinal) shock is distributive: loss of sympathetic tone dilates the vessels and lowers SVR.",
     "The pump is not the problem.",
     "Nothing is blocking flow."
-   ]
+   ],
+   "chart": {
+    "who": "C5 spinal cord injury",
+    "rows": [
+     [
+      "BP",
+      "80/45 mmHg"
+     ],
+     [
+      "Skin",
+      "Warm"
+     ],
+     [
+      "Pulse",
+      "Slow"
+     ]
+    ],
+    "ask": "Which type of shock is this?"
+   }
   },
   {
    "q": "A ventilated trauma patient suddenly has BP 70/40, distended neck veins, absent breath sounds on one side and a deviated trachea. Which shock, and what stops it?",
@@ -5556,7 +5912,29 @@ SINA.lectures["fa-cardiovascular"] = {
     "Distributive shock gives warm skin and low SVR.",
     "Cardiogenic shock gives distended neck veins.",
     "Obstructive shock has a high SVR, not low."
-   ]
+   ],
+   "chart": {
+    "who": "3 days of severe vomiting and diarrhoea",
+    "rows": [
+     [
+      "HR",
+      "125 /min"
+     ],
+     [
+      "BP",
+      "85/50 mmHg"
+     ],
+     [
+      "Skin",
+      "Cold"
+     ],
+     [
+      "Neck veins",
+      "Flat"
+     ]
+    ],
+    "ask": "Which pattern fits?"
+   }
   },
   {
    "q": "A patient with a recent long flight has sudden dyspnoea, BP 75/45, distended neck veins and clear lungs. Which shock is most likely?",
@@ -5585,7 +5963,48 @@ SINA.lectures["fa-cardiovascular"] = {
      "lec": "Cardiovascular function: shock",
      "n": 9
     }
-   ]
+   ],
+   "chart": {
+    "who": "Recent long flight, sudden dyspnoea",
+    "rows": [
+     [
+      "BP",
+      "75/45 mmHg"
+     ],
+     [
+      "Neck veins",
+      "Distended"
+     ],
+     [
+      "Lungs",
+      "Clear"
+     ]
+    ],
+    "ask": "Which shock is most likely?"
+   },
+   "follow": {
+    "q": "What fixes the cause?",
+    "options": [
+     "Thrombolysis",
+     "Pericardiocentesis",
+     "Dobutamine alone",
+     "Antibiotics"
+    ],
+    "answer": 0,
+    "notes": [
+     "Dissolves the clot blocking the pulmonary circulation.",
+     "That treats tamponade.",
+     "Supports the pump but leaves the clot in place.",
+     "There is no infection here."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/fa-cardiovascular-26/41.jpg",
+      "lec": "Cardiovascular function: shock",
+      "n": 41
+     }
+    ]
+   }
   },
   {
    "q": "What best distinguishes tamponade (obstructive) from cardiogenic shock after an MI, when both have hypotension and distended neck veins?",
@@ -5656,7 +6075,24 @@ SINA.lectures["fa-cardiovascular"] = {
     "Rearranged Ohm's law: CO = (MAP − RAP) / SVR, so SVR = (85 − 5) / 4 = 20.",
     "21 forgets to subtract the right atrial pressure (85 ÷ 4).",
     "80 is the pressure gradient, not yet divided by CO."
-   ]
+   ],
+   "chart": {
+    "rows": [
+     [
+      "MAP",
+      "85 mmHg"
+     ],
+     [
+      "Right atrial pressure",
+      "5 mmHg"
+     ],
+     [
+      "CO",
+      "4 L/min"
+     ]
+    ],
+    "ask": "What is the SVR (in mmHg·min/L)?"
+   }
   },
   {
    "q": "Which vessels hold most of the blood volume and act as capacitance vessels?",
@@ -5724,7 +6160,29 @@ SINA.lectures["fa-cardiovascular"] = {
     "In septic shock, flow is badly distributed and extraction fails: SvO₂ can be high while cells are still hypoxic, so lactate rises.",
     "CO is high, which doesn't fit cardiogenic shock.",
     "Hb is not the problem; extraction is."
-   ]
+   ],
+   "chart": {
+    "who": "Septic patient",
+    "rows": [
+     [
+      "MAP",
+      "58 mmHg"
+     ],
+     [
+      "CO",
+      "8 L/min"
+     ],
+     [
+      "SvO₂",
+      "82%"
+     ],
+     [
+      "Lactate",
+      "5 mmol/L"
+     ]
+    ],
+    "ask": "What does this mean?"
+   }
   },
   {
    "q": "A septic patient breathes at 30/min with a PaCO₂ of 28 mmHg. What is the best explanation?",
@@ -6682,7 +7140,25 @@ SINA.lectures["fa-respiratory"] = {
     "Nothing suggests infection.",
     "A–a ≈ 4: pure hypoventilation from a depressed respiratory centre.",
     "Salbutamol treats bronchospasm, not opioid hypoventilation."
-   ]
+   ],
+   "chart": {
+    "who": "Patient 1: opioid overdose",
+    "rows": [
+     [
+      "RR",
+      "6 /min"
+     ],
+     [
+      "PaCO₂",
+      "75 mmHg"
+     ],
+     [
+      "PaO₂",
+      "52 mmHg"
+     ]
+    ],
+    "ask": "What does he need first?"
+   }
   },
   {
    "q": "Patient 3 (pneumonia, A–a ≈ 56, little rise with O₂) has:",
@@ -6699,7 +7175,44 @@ SINA.lectures["fa-respiratory"] = {
     "Dead space is ventilation without perfusion, e.g. pulmonary embolism.",
     "Hypoventilation gives a normal A–a gradient.",
     "Low inspired O₂ gives a normal A–a gradient."
-   ]
+   ],
+   "chart": {
+    "who": "Patient 3: pneumonia",
+    "rows": [
+     [
+      "A–a gradient",
+      "≈ 56 mmHg"
+     ],
+     [
+      "Response to O₂",
+      "Little rise"
+     ]
+    ],
+    "ask": "What is the mechanism?"
+   },
+   "follow": {
+    "q": "So what is the first treatment?",
+    "options": [
+     "High-flow O₂, antibiotics, and consider CPAP",
+     "Open the airway, bag-mask ventilation and naloxone",
+     "Salbutamol + ipratropium and steroids",
+     "Wait for the chest X-ray before giving oxygen"
+    ],
+    "answer": 0,
+    "notes": [
+     "Pus-filled alveoli: CPAP reopens them, antibiotics treat the cause.",
+     "That is patient 1 (opioid hypoventilation).",
+     "That is patient 2 (asthma, low V/Q).",
+     "Oxygen and support come first; tests must not delay them."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/fa-respiratory/66.jpg",
+      "lec": "Respiratory function: hypoxaemia and hypercapnia",
+      "n": 66
+     }
+    ]
+   }
   },
   {
    "q": "Which element is at the arrow?",
@@ -6822,7 +7335,24 @@ SINA.lectures["fa-respiratory"] = {
     "VA = (VT − VD) × RR = 250 × 20 = 5,000 mL/min.",
     "3 L/min is wrong arithmetic: (400 − 150) × 20 = 5,000.",
     "11 L/min would add dead space instead of subtracting it."
-   ]
+   ],
+   "chart": {
+    "rows": [
+     [
+      "VT",
+      "400 mL"
+     ],
+     [
+      "RR",
+      "20 /min"
+     ],
+     [
+      "Dead space",
+      "150 mL"
+     ]
+    ],
+    "ask": "What is the alveolar ventilation?"
+   }
   },
   {
    "q": "Why does fast shallow breathing waste ventilation?",
@@ -7432,7 +7962,49 @@ SINA.lectures["fa-respiratory"] = {
     "48 is wrong arithmetic: PAO₂ ≈ 56, not 100.",
     "56 is the PAO₂ itself, not the gradient.",
     "98 confuses PAO₂ with inspired PO₂."
-   ]
+   ],
+   "chart": {
+    "who": "Patient 1: opioid overdose, room air",
+    "rows": [
+     [
+      "PaCO₂",
+      "75 mmHg"
+     ],
+     [
+      "PaO₂",
+      "52 mmHg"
+     ]
+    ],
+    "ask": "What are the A–a gradient and the mechanism?"
+   },
+   "follow": {
+    "q": "What does his pH show?",
+    "options": [
+     "Acidosis (pH 7.13): CO₂ is retained",
+     "Alkalosis: he is breathing off CO₂",
+     "A normal pH, as the kidneys compensate at once",
+     "Metabolic alkalosis"
+    ],
+    "answer": 0,
+    "notes": [
+     "Acute hypoventilation: PaCO₂ rises, so pH falls (respiratory acidosis).",
+     "He is hypoventilating, not hyperventilating.",
+     "Kidney compensation takes days.",
+     "The cause is respiratory, and the pH is low."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/fa-respiratory/66.jpg",
+      "lec": "Respiratory function: hypoxaemia and hypercapnia",
+      "n": 66
+     },
+     {
+      "src": "files/slides/fa-respiratory/59.jpg",
+      "lec": "Respiratory function: hypoxaemia and hypercapnia",
+      "n": 59
+     }
+    ]
+   }
   },
   {
    "q": "Patient 2 (asthma) on room air: PaCO₂ 32, PaO₂ 52 mmHg. What is the A–a gradient?",
@@ -7449,7 +8021,44 @@ SINA.lectures["fa-respiratory"] = {
     "20 underestimates the gradient: PAO₂ ≈ 110.",
     "PAO₂ ≈ 150 − 32/0.8 = 110 mmHg; A–a ≈ 110 − 52 = 58 mmHg: increased, from low V/Q.",
     "98 uses inspired PO₂ instead of PAO₂."
-   ]
+   ],
+   "chart": {
+    "who": "Patient 2: asthma attack, room air",
+    "rows": [
+     [
+      "PaCO₂",
+      "32 mmHg"
+     ],
+     [
+      "PaO₂",
+      "52 mmHg"
+     ]
+    ],
+    "ask": "What is the A–a gradient?"
+   },
+   "follow": {
+    "q": "Which first treatment fits this patient?",
+    "options": [
+     "O₂ to 92–96%, salbutamol + ipratropium, steroids",
+     "Bag-mask ventilation and naloxone",
+     "Antibiotics and CPAP",
+     "Sedation to slow the breathing"
+    ],
+    "answer": 0,
+    "notes": [
+     "Open the airways and correct the low V/Q.",
+     "That is patient 1 (opioids).",
+     "That is patient 3 (pneumonia, shunt).",
+     "Sedation would weaken breathing; a rising PaCO₂ already means fatigue."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/fa-respiratory/66.jpg",
+      "lec": "Respiratory function: hypoxaemia and hypercapnia",
+      "n": 66
+     }
+    ]
+   }
   },
   {
    "q": "An SaO₂ below 90% corresponds to a PaO₂ of about:",
@@ -7517,7 +8126,28 @@ SINA.lectures["fa-respiratory"] = {
     "3.5 L forgets ERV.",
     "4.7 L is VC; TLC adds RV.",
     "2.5 L is wrong for both."
-   ]
+   ],
+   "chart": {
+    "rows": [
+     [
+      "IRV",
+      "3.0 L"
+     ],
+     [
+      "VT",
+      "0.5 L"
+     ],
+     [
+      "ERV",
+      "1.2 L"
+     ],
+     [
+      "RV",
+      "1.3 L"
+     ]
+    ],
+    "ask": "What are the vital capacity and the total lung capacity?"
+   }
   },
   {
    "q": "Breathing that grows and fades with pauses, seen in heart failure or stroke, is called:",
@@ -7631,7 +8261,30 @@ SINA.lectures["fa-respiratory"] = {
      "lec": "Respiratory function: hypoxaemia and hypercapnia",
      "n": 64
     }
-   ]
+   ],
+   "follow": {
+    "q": "The ABG shows a high PaCO₂. Which SpO₂ target fits him?",
+    "options": [
+     "88–92%",
+     "92–96%",
+     "98–100%",
+     "80–85%"
+    ],
+    "answer": 0,
+    "notes": [
+     "Target for patients at risk of CO₂ retention, such as COPD.",
+     "The target for most other patients.",
+     "Too much O₂ is what made his PaCO₂ rise.",
+     "Too low: tissues become hypoxic."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/fa-respiratory/67.jpg",
+      "lec": "Respiratory function: hypoxaemia and hypercapnia",
+      "n": 67
+     }
+    ]
+   }
   },
   {
    "q": "An opioid-overdosed patient (RR 6/min) also has a brain contusion. Why is his hypoventilation especially dangerous?",
