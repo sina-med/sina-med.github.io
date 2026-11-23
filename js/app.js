@@ -2556,7 +2556,7 @@
     }
     /* after the animation: pick the year (the current one is marked) to enter */
     if (returning) {
-      btn.outerHTML = '<p class="w-tap">Tap anywhere to enter</p>';
+      btn.outerHTML = '<p class="w-tap">tap anywhere to enter</p>';
       w.addEventListener("click", function () { if (w.classList.contains("ready")) leave(); });
       document.addEventListener("keydown", function k2(e) { if (!document.body.contains(w)) { document.removeEventListener("keydown", k2); return; } if (w.classList.contains("ready") && (e.key === "Enter" || e.key === " " || e.key === "Escape")) { e.preventDefault(); leave(); } });
     } else if (PROGS.length > 1) {

@@ -2036,7 +2036,7 @@ div.smb-exp { border-radius: 16px; }
 .fu-h span { font-weight: 400; color: var(--muted); font-size: 0.85rem; margin-left: 6px; }
 .fu-q { font-family: var(--serif); font-size: 1.12rem; line-height: 1.35; margin: 0 0 10px; }
 /* returning visitors: no year choice, just a small hint at the bottom once the intro has played */
-.welcome .w-tap { position: fixed; left: 0; right: 0; bottom: calc(22px + env(safe-area-inset-bottom, 0px)); margin: 0; text-align: center; font-size: .72rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); opacity: 0; transition: opacity .6s ease; pointer-events: none; }
+.welcome .w-tap { position: fixed; left: 0; right: 0; bottom: calc(22px + env(safe-area-inset-bottom, 0px)); margin: 0; text-align: center; font-size: .66rem; font-weight: 500; letter-spacing: .04em; color: var(--muted); opacity: 0; transition: opacity .6s ease; pointer-events: none; }
 .welcome.ready .w-tap { opacity: 1; animation: wTapPulse 2.4s ease-in-out .6s infinite; }
 .welcome.ready { cursor: pointer; }
 @keyframes wTapPulse { 0%, 100% { opacity: 1; } 50% { opacity: .45; } }
