@@ -2526,6 +2526,8 @@
   function showWelcome() {
     var w = document.getElementById("welcome");
     if (!w) return;
+    /* returning visitors who already picked a year go straight in: the year is remembered (change it from the year button in the header) */
+    if (store.get("sina:program", null) && store.get("sina:welcomed", null)) { w.remove(); document.body.classList.remove("noscroll"); return; }
     var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
     var box = w.querySelector(".wbox"), h1 = box.querySelector("h1");
     box.insertAdjacentHTML("afterbegin", '<div class="w-art">' + caduceusHTML().replace('id="cad"', 'id="cad-welcome"') + "</div>");
