@@ -6305,6 +6305,166 @@ SINA.lectures["fa-cardiovascular"] = {
     "Vasodilation would worsen most shocks.",
     "Not the mnemonic; P stands for Pump (vasoactive drugs)."
    ]
+  },
+  {
+   "q": "A 72-year-old with a urinary tract infection has T 38.9 °C, BP 78/42, HR 118, warm flushed skin, a bounding pulse and flat neck veins. Which type of shock is this?",
+   "options": [
+    "Distributive (septic)",
+    "Hypovolaemic",
+    "Cardiogenic",
+    "Obstructive"
+   ],
+   "answer": 0,
+   "why": "Infection, fever and warm skin with a low BP: vasodilation lowers SVR, the hallmark of distributive shock. Sepsis is its most common cause.",
+   "notes": [
+    "Infection plus warm skin and low BP: vessels have lost their tone, so SVR is low.",
+    "Hypovolaemia gives cold, pale skin from vasoconstriction, not warm flushed skin.",
+    "A failing pump gives cold skin, crackles and distended neck veins.",
+    "An obstruction gives cold skin and distended neck veins; here the veins are flat."
+   ],
+   "chart": {
+    "who": "72-year-old, urinary tract infection",
+    "rows": [
+     [
+      "T",
+      "38.9 °C"
+     ],
+     [
+      "BP",
+      "78/42 mmHg"
+     ],
+     [
+      "HR",
+      "118 /min"
+     ],
+     [
+      "Skin",
+      "Warm, flushed"
+     ],
+     [
+      "Pulse",
+      "Bounding"
+     ],
+     [
+      "Neck veins",
+      "Flat"
+     ]
+    ],
+    "ask": "Which type of shock is this?"
+   },
+   "slides": [
+    {
+     "src": "files/slides/fa-cardiovascular-26/36.jpg",
+     "lec": "Cardiovascular function: shock",
+     "n": 36
+    },
+    {
+     "src": "files/slides/fa-cardiovascular-26/32.jpg",
+     "lec": "Cardiovascular function: shock",
+     "n": 32
+    }
+   ],
+   "follow": {
+    "q": "What treatment does this patient need?",
+    "options": [
+     "Fluids + noradrenaline, antibiotics and source control",
+     "Dobutamine and cautious fluids",
+     "Adrenaline and removing the allergen",
+     "Fluids and blood transfusion only"
+    ],
+    "answer": 0,
+    "notes": [
+     "Restore vessel tone and pressure, and treat the infection at its source.",
+     "That is for a failing pump (cardiogenic shock).",
+     "Adrenaline replaces noradrenaline only in anaphylaxis.",
+     "Fluids alone won't restore vessel tone, and nothing treats the infection."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/fa-cardiovascular-26/41.jpg",
+      "lec": "Cardiovascular function: shock",
+      "n": 41
+     }
+    ]
+   }
+  },
+  {
+   "q": "A 60-year-old has had crushing central chest pain for 2 hours. BP 82/56, HR 112, cold clammy skin, crackles in both lungs and distended neck veins. Which type of shock is this?",
+   "options": [
+    "Cardiogenic",
+    "Hypovolaemic",
+    "Distributive (septic)",
+    "Obstructive (tension pneumothorax)"
+   ],
+   "answer": 0,
+   "why": "Chest pain from a myocardial infarction weakens the pump: low CO, cold skin, and blood backing up into the lungs (crackles) and veins (high CVP).",
+   "notes": [
+    "The infarcted muscle can't contract: low CO, cold skin, and blood backs up into the lungs and veins.",
+    "Hypovolaemia gives flat neck veins and clear lungs.",
+    "Distributive shock gives warm skin and a low SVR.",
+    "A tension pneumothorax gives absent breath sounds on one side and a deviated trachea, not crackles in both lungs."
+   ],
+   "chart": {
+    "who": "60-year-old, crushing central chest pain for 2 h",
+    "rows": [
+     [
+      "BP",
+      "82/56 mmHg"
+     ],
+     [
+      "HR",
+      "112 /min"
+     ],
+     [
+      "Skin",
+      "Cold, clammy"
+     ],
+     [
+      "Lungs",
+      "Crackles both sides"
+     ],
+     [
+      "Neck veins",
+      "Distended"
+     ]
+    ],
+    "ask": "Which type of shock is this?"
+   },
+   "slides": [
+    {
+     "src": "files/slides/fa-cardiovascular-26/34.jpg",
+     "lec": "Cardiovascular function: shock",
+     "n": 34
+    },
+    {
+     "src": "files/slides/fa-cardiovascular-26/32.jpg",
+     "lec": "Cardiovascular function: shock",
+     "n": 32
+    }
+   ],
+   "follow": {
+    "q": "Why could a large fluid bolus make him worse?",
+    "options": [
+     "The failing pump can't move the extra volume, so lung congestion worsens",
+     "Fluids lower the heart rate too much",
+     "Fluids cause vasodilation and lower SVR",
+     "Fluids are only harmful in septic shock"
+    ],
+    "answer": 0,
+    "notes": [
+     "“Giving a lot of fluid helps an empty tank, but can drown a failing pump.”",
+     "Fluids don't slow the heart.",
+     "Fluids don't dilate vessels.",
+     "Fluids are the mainstay of septic and hypovolaemic shock; cardiogenic shock is where they need caution."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/fa-cardiovascular-26/41.jpg",
+      "lec": "Cardiovascular function: shock",
+      "n": 41
+     }
+    ]
+   }
   }
  ],
  "cards": [
