@@ -4339,6 +4339,106 @@ SINA.lectures["fa-neural"] = {
      "n": 41
     }
    ]
+  },
+  {
+   "q": "In a healthy adult, about how much CSF is inside the skull at any one time?",
+   "options": [
+    "100–150 mL",
+    "About 500 mL",
+    "700–900 mL",
+    "Less than 75 mL"
+   ],
+   "answer": 0,
+   "why": "CSF takes up about 100–150 mL at any moment, about the same as the blood inside the skull.",
+   "notes": [
+    "The same range as intracranial blood.",
+    "500 mL is how much CSF is made in a whole day, not what is present at once.",
+    "700–900 mL is the glia, the largest component.",
+    "Under 75 mL is the extracellular fluid, the smallest component."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-neural-26/08.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 8
+    }
+   ],
+   "follow": {
+    "q": "Adults make about 500 mL of CSF a day. Roughly how many times a day is the CSF renewed?",
+    "options": [
+     "3 to 4 times",
+     "Once",
+     "About 10 times",
+     "Once a week"
+    ],
+    "answer": 0,
+    "notes": [
+     "500 mL made a day ÷ about 150 mL present ≈ 3 to 4 renewals.",
+     "That would mean only about 150 mL is made a day.",
+     "That would need about 1.5 L a day.",
+     "Production is continuous, about 500 mL every day."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/fa-neural-26/13.jpg",
+      "lec": "Neural function: intracranial pressure",
+      "n": 13
+     },
+     {
+      "src": "files/slides/fa-neural-26/08.jpg",
+      "lec": "Neural function: intracranial pressure",
+      "n": 8
+     }
+    ]
+   }
+  },
+  {
+   "q": "Which intracranial compartment has the smallest volume in a healthy adult?",
+   "options": [
+    "Extracellular fluid",
+    "CSF",
+    "Blood",
+    "Neurons"
+   ],
+   "answer": 0,
+   "why": "The brain's extracellular fluid is under 75 mL, less than the blood or the CSF (100–150 mL each).",
+   "notes": [
+    "Under 75 mL: the smallest compartment.",
+    "100–150 mL, about twice the ECF.",
+    "100–150 mL, about twice the ECF.",
+    "500–700 mL: second only to the glia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-neural-26/08.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "The lecture lists mannitol and hypertonic saline as osmotic treatments for raised ICP. Which point does it give for hypertonic saline but not for mannitol?",
+   "options": [
+    "Serum sodium must be monitored",
+    "It reduces the intravascular volume",
+    "It lowers CSF production",
+    "It constricts the cerebral vessels"
+   ],
+   "answer": 0,
+   "why": "Hypertonic saline raises the tonicity of the blood with sodium, so serum sodium is monitored and the patient is kept euvolaemic.",
+   "notes": [
+    "Saline adds sodium to the blood, so sodium is checked and euvolaemia maintained.",
+    "That point is given for mannitol, an osmotic diuretic: the water it draws out is lost in the urine.",
+    "That is acetazolamide, not either osmotic agent.",
+    "That is hyperventilation (low PaCO₂), not an osmotic agent."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/fa-neural-26/40.jpg",
+     "lec": "Neural function: intracranial pressure",
+     "n": 40
+    }
+   ]
   }
  ],
  "cards": [
