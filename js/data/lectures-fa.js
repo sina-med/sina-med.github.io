@@ -5513,7 +5513,7 @@ SINA.lectures["fa-cardiovascular"] = {
    "q": "According to the Frank-Starling law, what happens when end-diastolic volume increases?",
    "options": [
     "Stroke volume falls at once",
-    "Stroke volume increases, up to a point",
+    "Stroke volume increases",
     "Heart rate always falls",
     "Afterload falls"
    ],
@@ -6040,7 +6040,7 @@ SINA.lectures["fa-cardiovascular"] = {
    "q": "A patient with a recent long flight has sudden dyspnoea, BP 75/45, distended neck veins and clear lungs. Which shock is most likely?",
    "options": [
     "Septic",
-    "Obstructive (massive pulmonary embolism)",
+    "Obstructive",
     "Hypovolaemic",
     "Anaphylactic"
    ],
