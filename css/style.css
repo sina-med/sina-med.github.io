@@ -2041,3 +2041,8 @@ div.smb-exp { border-radius: 16px; }
 .welcome.ready { cursor: pointer; }
 @keyframes wTapPulse { 0%, 100% { opacity: 1; } 50% { opacity: .45; } }
 @media (prefers-reduced-motion: reduce) { .welcome.ready .w-tap { animation: none; } }
+/* outside sources under an answer */
+.q-refs { margin: 10px 0 4px; padding: 10px 14px; border: 1px solid var(--line); border-radius: var(--radius); }
+.q-refs-h { margin: 0 0 4px; font-size: 0.82rem; font-weight: 700; color: var(--muted); }
+.q-refs ul { margin: 0; padding-left: 1.1rem; }
+.q-refs li { margin: 2px 0; }

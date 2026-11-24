@@ -2047,6 +2047,13 @@
       e.preventDefault(); t.scrollBy({ left: (e.key === "ArrowRight" ? 1 : -1) * t.clientWidth, behavior: "smooth" });
     });
   })();
+  /* outside sources for answers that go beyond the lecture slides */
+  function refsHTML(q) {
+    if (!q.refs || !q.refs.length) return "";
+    return '<div class="q-refs"><p class="q-refs-h">Sources beyond the lecture</p><ul>' + q.refs.map(function (r) {
+      return '<li><a href="' + esc(r.u) + '" target="_blank" rel="noopener">' + esc(r.t) + "</a></li>";
+    }).join("") + "</ul></div>";
+  }
   function slidesHTML(q) {
     if (!q.slides || !q.slides.length) return "";
     var groups = [];
@@ -2123,7 +2130,7 @@
       return ans.map(function (n) { return LET[n] + ". " + q.options[n]; }).join(" and ");
     }
     function feedback(q, ok, skipped, pts) {
-      return slidesHTML(q) + '<p class="rep-line"><button type="button" class="linkbtn" id="rep">Report a mistake in this question</button></p>';
+      return slidesHTML(q) + refsHTML(q) + '<p class="rep-line"><button type="button" class="linkbtn" id="rep">Report a mistake in this question</button></p>';
     }
     function render() {
       if (i >= qs.length) {

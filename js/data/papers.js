@@ -19851,6 +19851,19 @@ SINA.papers = SINA.papers.concat([
   ]
  },
  {
+  "id": "fa-vital-midterm-2526",
+  "subject": "firstaid",
+  "title": "Vital Functions midterm 2025-2026",
+  "year": "2025-2026",
+  "note": "The Vital function section of the S3 midterms 2025-2026 (15 questions).",
+  "links": [
+   {
+    "label": "Open the paper (PDF, all subjects)",
+    "url": "https://drive.google.com/file/d/1QbcRiA-O5hbMA78aA-gbzsd4arI496nN/view?usp=drivesdk"
+   }
+  ]
+ },
+ {
   "id": "fa-vital-mock-2",
   "subject": "firstaid",
   "title": "Vital Functions mock 2",
