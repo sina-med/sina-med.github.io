@@ -16331,6 +16331,13 @@ SINA.papers = [
      "Correct: step 3.",
      "Wrong: storage, not respiration.",
      "Correct: step 4."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/physio-bioen-regulation/16.jpg",
+      "lec": "Bioenergetics 2",
+      "n": 16
+     }
     ]
    },
    {
@@ -16355,6 +16362,13 @@ SINA.papers = [
      "Correct: the triglyceride backbone.",
      "Correct.",
      "Correct: a sterol."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/physio-bioen-lipids/05.jpg",
+      "lec": "Bioenergetics 3",
+      "n": 5
+     }
     ]
    },
    {
@@ -16377,6 +16391,13 @@ SINA.papers = [
      "Wrong: cytoplasm.",
      "Wrong: the end of glycolysis, in the cytoplasm.",
      "Correct."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/physio-bioen-regulation/35.jpg",
+      "lec": "Bioenergetics 2",
+      "n": 35
+     }
     ]
    },
    {
@@ -16400,6 +16421,13 @@ SINA.papers = [
      "Correct.",
      "Wrong: not digestible.",
      "Correct."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/physio-bioen-regulation/09.jpg",
+      "lec": "Bioenergetics 2",
+      "n": 9
+     }
     ]
    },
    {
@@ -16423,6 +16451,13 @@ SINA.papers = [
      "Wrong.",
      "Correct.",
      "Correct."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/physio-bioen-regulation/03.jpg",
+      "lec": "Bioenergetics 2",
+      "n": 3
+     }
     ]
    },
    {
@@ -16444,6 +16479,13 @@ SINA.papers = [
      "Correct.",
      "Wrong: macronutrient.",
      "Wrong: macronutrient."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/physio-bioen-intro/14.jpg",
+      "lec": "Bioenergetics 1",
+      "n": 14
+     }
     ]
    },
    {
@@ -16466,6 +16508,13 @@ SINA.papers = [
      "Wrong: a waste product.",
      "Correct.",
      "Wrong: micronutrient."
+    ],
+    "slides": [
+     {
+      "src": "files/slides/physio-bioen-intro/14.jpg",
+      "lec": "Bioenergetics 1",
+      "n": 14
+     }
     ]
    }
   ]

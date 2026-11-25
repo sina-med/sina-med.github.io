@@ -10672,7 +10672,14 @@ SINA.lectures["physio-renal-gfr"] = {
     "It raises GFR"
    ],
    "answer": 3,
-   "why": "Textbook physiology: afferent dilation or efferent constriction raises glomerular pressure and GFR; afferent constriction lowers it."
+   "why": "Textbook physiology: afferent dilation or efferent constriction raises glomerular pressure and GFR; afferent constriction lowers it.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/17.jpg",
+     "lec": "Renal physiology 3",
+     "n": 17
+    }
+   ]
   },
   {
    "q": "How does afferent arteriole constriction affect GFR?",
@@ -10806,6 +10813,18 @@ SINA.lectures["physio-renal-gfr"] = {
    "Correct: it raises glomerular pressure.",
    "Correct.",
    "Wrong: it opposes filtration."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-gfr/16.jpg",
+    "lec": "Renal physiology 3",
+    "n": 16
+   },
+   {
+    "src": "files/slides/physio-renal-gfr/17.jpg",
+    "lec": "Renal physiology 3",
+    "n": 17
+   }
   ]
  },
  {
@@ -10829,27 +10848,46 @@ SINA.lectures["physio-renal-gfr"] = {
    "Correct.",
    "Correct.",
    "Wrong: it raises GFR."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-gfr/14.jpg",
+    "lec": "Renal physiology 3",
+    "n": 14
+   },
+   {
+    "src": "files/slides/physio-renal-gfr/19.jpg",
+    "lec": "Renal physiology 3",
+    "n": 19
+   }
   ]
  },
  {
-  "q": "Glomerular hydrostatic pressure rises from 60 to 70 mmHg (colloid osmotic 32 and capsular 18 unchanged). Net filtration pressure:",
+  "q": "Glomerular hydrostatic pressure rises from 55 to 65 mmHg (colloid osmotic 30 and capsular 15 unchanged). Net filtration pressure:",
   "options": [
    "↑ To about 20 mmHg",
    "↔ Stays about 10 mmHg",
    "↓ To about 0 mmHg",
-   "↑ To about 70 mmHg"
+   "↑ To about 65 mmHg"
   ],
   "answer": 0,
-  "why": "70 − 32 − 18 = 20 mmHg, so GFR rises.",
+  "why": "65 − 30 − 15 = 20 mmHg, so GFR rises. The slide's normal values: 55 − 30 − 15 = 10 mmHg.",
   "notes": [
    "Correct.",
-   "Wrong: 60 − 32 − 18 is the normal value.",
+   "Wrong: 55 − 30 − 15 is the normal value.",
    "Wrong.",
    "Wrong: the opposing pressures still subtract."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-gfr/14.jpg",
+    "lec": "Renal physiology 3",
+    "n": 14
+   }
   ]
  },
  {
-  "q": "Colloid osmotic pressure rises from 32 to 42 mmHg (glomerular 60 and capsular 18 unchanged). Net filtration pressure:",
+  "q": "Colloid osmotic pressure rises from 30 to 40 mmHg (glomerular 55 and capsular 15 unchanged). Net filtration pressure:",
   "options": [
    "↓ To about 0 mmHg",
    "↑ To about 20 mmHg",
@@ -10857,12 +10895,19 @@ SINA.lectures["physio-renal-gfr"] = {
    "↓ To about −10 mmHg"
   ],
   "answer": 0,
-  "why": "60 − 42 − 18 = 0 mmHg: filtration would stop.",
+  "why": "55 − 40 − 15 = 0 mmHg: filtration would stop. The slide's normal values: 55 − 30 − 15 = 10 mmHg.",
   "notes": [
    "Correct.",
    "Wrong: colloid pressure opposes filtration.",
    "Wrong.",
-   "Wrong: 60 − 42 − 18 = 0."
+   "Wrong: 55 − 40 − 15 = 0."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-gfr/14.jpg",
+    "lec": "Renal physiology 3",
+    "n": 14
+   }
   ]
  },
  {
@@ -10885,6 +10930,13 @@ SINA.lectures["physio-renal-gfr"] = {
    "Correct: haematuria.",
    "Wrong: it rises.",
    "Wrong."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-gfr/13.jpg",
+    "lec": "Renal physiology 3",
+    "n": 13
+   }
   ]
  },
  {
@@ -10902,6 +10954,13 @@ SINA.lectures["physio-renal-gfr"] = {
    "Wrong.",
    "Wrong: the charge is what repels albumin.",
    "Wrong."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-gfr/08.jpg",
+    "lec": "Renal physiology 3",
+    "n": 8
+   }
   ]
  },
  {
@@ -10925,6 +10984,13 @@ SINA.lectures["physio-renal-gfr"] = {
    "Correct.",
    "Correct.",
    "Wrong: repelled and too large."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-gfr/11.jpg",
+    "lec": "Renal physiology 3",
+    "n": 11
+   }
   ]
  },
  {
@@ -10948,6 +11014,13 @@ SINA.lectures["physio-renal-gfr"] = {
    "Correct.",
    "Correct.",
    "Wrong: glucose is filtered freely."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-gfr/12.jpg",
+    "lec": "Renal physiology 3",
+    "n": 12
+   }
   ]
  }
  ],
@@ -12992,7 +13065,14 @@ SINA.lectures["physio-renal-intro"] = {
     "In the mediastinum"
    ],
    "answer": 1,
-   "why": "The kidneys are retroperitoneal organs."
+   "why": "The kidneys are retroperitoneal organs.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/03.jpg",
+     "lec": "Renal physiology 1",
+     "n": 3
+    }
+   ]
   },
   {
    "q": "Which organ stores urine until it is voided?",
@@ -13093,7 +13173,14 @@ SINA.lectures["physio-renal-intro"] = {
     "Acetonuria"
    ],
    "answer": 1,
-   "why": "Pyuria = leukocytes; haematuria = erythrocytes."
+   "why": "Pyuria = leukocytes; haematuria = erythrocytes.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/07.jpg",
+     "lec": "Renal physiology 1",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Ketones in the urine are called:",
@@ -13104,7 +13191,14 @@ SINA.lectures["physio-renal-intro"] = {
     "Proteinuria"
    ],
    "answer": 0,
-   "why": "Ketones in urine: acetonuria."
+   "why": "Ketones in urine: acetonuria.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/07.jpg",
+     "lec": "Renal physiology 1",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which substances do the kidneys remove from plasma?",
@@ -13270,7 +13364,14 @@ SINA.lectures["physio-renal-intro"] = {
     "The countercurrent multiplier"
    ],
    "answer": 1,
-   "why": "2019: discoveries of how cells sense and adapt to oxygen availability (HIF)."
+   "why": "2019: discoveries of how cells sense and adapt to oxygen availability (HIF).",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/14.jpg",
+     "lec": "Renal physiology 1",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Glucose in the urine is called:",
@@ -13281,7 +13382,14 @@ SINA.lectures["physio-renal-intro"] = {
     "Haematuria"
    ],
    "answer": 0,
-   "why": "Glucose in urine: glucosuria."
+   "why": "Glucose in urine: glucosuria.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/07.jpg",
+     "lec": "Renal physiology 1",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which are nitrogenous wastes excreted by the kidney?",
@@ -13382,6 +13490,13 @@ SINA.lectures["physio-renal-intro"] = {
    "Correct: EPO can rise more than 100-fold.",
    "Correct: HIF also promotes VEGF.",
    "Wrong: EPO raises red cell production."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-intro/16.jpg",
+    "lec": "Renal physiology 1",
+    "n": 16
+   }
   ]
  },
  {
@@ -13399,6 +13514,13 @@ SINA.lectures["physio-renal-intro"] = {
    "Wrong: the stimulus (hypoxia) is gone.",
    "Wrong: EPO follows oxygen delivery.",
    "Wrong: there is no stimulus left."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-intro/16.jpg",
+    "lec": "Renal physiology 1",
+    "n": 16
+   }
   ]
  },
  {
@@ -13416,6 +13538,13 @@ SINA.lectures["physio-renal-intro"] = {
    "Wrong: the opposite.",
    "Wrong: more calcium is absorbed, not lost.",
    "Wrong: calbindin rises."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-intro/19.jpg",
+    "lec": "Renal physiology 1",
+    "n": 19
+   }
   ]
  },
  {
@@ -13438,6 +13567,13 @@ SINA.lectures["physio-renal-intro"] = {
    "Correct.",
    "Wrong: PTH raises it.",
    "Wrong: calcitonin lowers it."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-intro/20.jpg",
+    "lec": "Renal physiology 1",
+    "n": 20
+   }
   ]
  },
  {
@@ -13455,6 +13591,13 @@ SINA.lectures["physio-renal-intro"] = {
    "Wrong: uric acid comes from nucleic acids.",
    "Wrong: glucose in the urine is unrelated.",
    "Wrong: more amino acids give more ammonia."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-intro/06.jpg",
+    "lec": "Renal physiology 1",
+    "n": 6
+   }
   ]
  },
  {
@@ -13472,6 +13615,13 @@ SINA.lectures["physio-renal-intro"] = {
    "Wrong: nucleic acids give uric acid.",
    "Wrong: creatine phosphate gives creatinine.",
    "Wrong: backwards."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-intro/06.jpg",
+    "lec": "Renal physiology 1",
+    "n": 6
+   }
   ]
  }
  ],
@@ -13938,7 +14088,14 @@ SINA.lectures["physio-renal-nephron"] = {
     "Renal pelvis and calyces"
    ],
    "answer": 1,
-   "why": "The ascending limb reabsorbs Na+ and Cl−."
+   "why": "The ascending limb reabsorbs Na+ and Cl−.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/05.jpg",
+     "lec": "Renal physiology 2",
+     "n": 5
+    }
+   ]
   },
   {
    "q": "Which process removes additional wastes from the blood and adds them to the filtrate?",
@@ -14008,7 +14165,14 @@ SINA.lectures["physio-renal-nephron"] = {
     "About 80%"
    ],
    "answer": 1,
-   "why": "20% is filtered; 80% continues to the peritubular capillaries."
+   "why": "20% is filtered; 80% continues to the peritubular capillaries.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/14.jpg",
+     "lec": "Renal physiology 2",
+     "n": 14
+    }
+   ]
   },
   {
    "q": "Normal urine output per minute is about:",
@@ -14060,7 +14224,14 @@ SINA.lectures["physio-renal-nephron"] = {
     "Calcium only"
    ],
    "answer": 2,
-   "why": "G protein → adenylate cyclase → cAMP → protein kinase A."
+   "why": "G protein → adenylate cyclase → cAMP → protein kinase A.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/20.jpg",
+     "lec": "Renal physiology 2",
+     "n": 20
+    }
+   ]
   },
   {
    "q": "With maximal ADH, urine output is about:",
@@ -14142,7 +14313,14 @@ SINA.lectures["physio-renal-nephron"] = {
     "Juxtaglomerular cells"
    ],
    "answer": 1,
-   "why": "ADH (vasopressin) is released from the posterior pituitary."
+   "why": "ADH (vasopressin) is released from the posterior pituitary.",
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/21.jpg",
+     "lec": "Renal physiology 2",
+     "n": 21
+    }
+   ]
   },
   {
    "q": "Healthy glomerular capillaries are:",
@@ -14254,6 +14432,13 @@ SINA.lectures["physio-renal-nephron"] = {
    "Correct.",
    "Wrong: urine output falls.",
    "Wrong: AQP2 insertion rises."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-nephron/21.jpg",
+    "lec": "Renal physiology 2",
+    "n": 21
+   }
   ]
  },
  {
@@ -14277,6 +14462,13 @@ SINA.lectures["physio-renal-nephron"] = {
    "Correct.",
    "Correct: water conservation concentrates the wastes.",
    "Wrong: ADH inserts more AQP2."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-nephron/15.jpg",
+    "lec": "Renal physiology 2",
+    "n": 15
+   }
   ]
  },
  {
@@ -14300,6 +14492,13 @@ SINA.lectures["physio-renal-nephron"] = {
    "Correct.",
    "Correct.",
    "Wrong: water reabsorption falls (about 105 mL/min)."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-nephron/20.jpg",
+    "lec": "Renal physiology 2",
+    "n": 20
+   }
   ]
  },
  {
@@ -14317,23 +14516,37 @@ SINA.lectures["physio-renal-nephron"] = {
    "Wrong order, and water is reabsorbed.",
    "Wrong order and wrong channel.",
    "Wrong: the lecture's pathway is cAMP and AQP2."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-nephron/20.jpg",
+    "lec": "Renal physiology 2",
+    "n": 20
+   }
   ]
  },
  {
-  "q": "Water leaves collecting-duct cells on the basolateral side through:",
+  "q": "Where does vasopressin (ADH) bind the collecting-duct cell?",
   "options": [
-   "Aquaporin-3",
-   "Aquaporin-2",
-   "ENaC",
-   "The Na+/K+ pump"
+   "On its membrane receptor on the blood side, arriving from the vasa recta",
+   "On the apical side, from the filtrate",
+   "On the aquaporin-2 pores themselves",
+   "Inside the nucleus"
   ],
   "answer": 0,
-  "why": "AQP2 lets water into the cell on the apical side; it leaves on the basolateral side through AQP3.",
+  "why": "Vasopressin arrives in the blood (vasa recta) and binds its membrane receptor on the basolateral side; cAMP then makes the cell insert AQP2 into the apical membrane.",
   "notes": [
    "Correct.",
-   "Wrong: AQP2 is apical.",
-   "Wrong: ENaC carries sodium.",
-   "Wrong: the pump moves ions, not water."
+   "Wrong: it comes from the blood, not the filtrate.",
+   "Wrong: it binds a receptor; AQP2 is inserted afterwards.",
+   "Wrong: it acts through a membrane receptor and cAMP."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-nephron/20.jpg",
+    "lec": "Renal physiology 2",
+    "n": 20
+   }
   ]
  },
  {
@@ -14351,6 +14564,13 @@ SINA.lectures["physio-renal-nephron"] = {
    "Wrong: water moves passively.",
    "Wrong: the reverse.",
    "Wrong: it is osmosis."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-nephron/20.jpg",
+    "lec": "Renal physiology 2",
+    "n": 20
+   }
   ]
  },
  {
@@ -14368,6 +14588,13 @@ SINA.lectures["physio-renal-nephron"] = {
    "Wrong: contraction reduces flow.",
    "Wrong: that is their job.",
    "Wrong."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-nephron/09.jpg",
+    "lec": "Renal physiology 2",
+    "n": 9
+   }
   ]
  },
  {
@@ -14385,6 +14612,13 @@ SINA.lectures["physio-renal-nephron"] = {
    "Wrong: it raises Na+ reabsorption.",
    "Wrong: it retains water.",
    "Wrong: that is ADH."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-renal-nephron/21.jpg",
+    "lec": "Renal physiology 2",
+    "n": 21
+   }
   ]
  }
  ],
@@ -17016,7 +17250,14 @@ SINA.lectures["physio-bioen-intro"] = {
     "Glutamate"
    ],
    "answer": 2,
-   "why": "Essential: histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, valine."
+   "why": "Essential: histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, valine.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/16.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 16
+    }
+   ]
   },
   {
    "q": "Which fatty acids are essential?",
@@ -17258,6 +17499,13 @@ SINA.lectures["physio-bioen-intro"] = {
    "Correct.",
    "Wrong: catabolism makes ATP.",
    "Wrong: anabolism spends ATP."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-intro/11.jpg",
+    "lec": "Bioenergetics 1",
+    "n": 11
+   }
   ]
  },
  {
@@ -17275,6 +17523,13 @@ SINA.lectures["physio-bioen-intro"] = {
    "Wrong: that confuses kcal and calories.",
    "Wrong.",
    "Wrong."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-intro/18.jpg",
+    "lec": "Bioenergetics 1",
+    "n": 18
+   }
   ]
  },
  {
@@ -17292,6 +17547,13 @@ SINA.lectures["physio-bioen-intro"] = {
    "Wrong: that uses 4 kcal/g.",
    "Wrong: that uses 9 kcal/g.",
    "Wrong: alcohol is energy-rich."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-intro/19.jpg",
+    "lec": "Bioenergetics 1",
+    "n": 19
+   }
   ]
  },
  {
@@ -17309,6 +17571,13 @@ SINA.lectures["physio-bioen-intro"] = {
    "Wrong.",
    "Wrong: that describes essential nutrients, not RDAs.",
    "Wrong."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-intro/17.jpg",
+    "lec": "Bioenergetics 1",
+    "n": 17
+   }
   ]
  },
  {
@@ -17332,6 +17601,13 @@ SINA.lectures["physio-bioen-intro"] = {
    "Correct: a mineral.",
    "Correct: omega-3.",
    "Wrong: non-essential."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-intro/15.jpg",
+    "lec": "Bioenergetics 1",
+    "n": 15
+   }
   ]
  },
  {
@@ -17349,6 +17625,13 @@ SINA.lectures["physio-bioen-intro"] = {
    "Wrong: listed for growth.",
    "Wrong: listed as necessary chemicals.",
    "Wrong: an energy source."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-intro/07.jpg",
+    "lec": "Bioenergetics 1",
+    "n": 7
+   }
   ]
  }
  ],
@@ -17664,7 +17947,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "1.5 to 2 g/L"
    ],
    "answer": 1,
-   "why": "70 to 110 mg/dL (0.7 to 1.1 g/L)."
+   "why": "70 to 110 mg/dL (0.7 to 1.1 g/L).",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/06.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 6
+    }
+   ]
   },
   {
    "q": "A polysaccharide contains:",
@@ -17759,7 +18049,14 @@ SINA.lectures["physio-bioen-regulation"] = {
     "Excess galactose made by the liver"
    ],
    "answer": 1,
-   "why": "Undigested lactose is fermented by colonic bacteria into gas and acids."
+   "why": "Undigested lactose is fermented by colonic bacteria into gas and acids.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/12.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 12
+    }
+   ]
   },
   {
    "q": "Lactase is also called:",
@@ -18146,6 +18443,13 @@ SINA.lectures["physio-bioen-regulation"] = {
    "Correct.",
    "Wrong: that releases stored glucose.",
    "Wrong: large-scale in fasting."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-regulation/40.jpg",
+    "lec": "Bioenergetics 2",
+    "n": 40
+   }
   ]
  },
  {
@@ -18168,6 +18472,13 @@ SINA.lectures["physio-bioen-regulation"] = {
    "Correct.",
    "Wrong: they are used up.",
    "Wrong: that stores glucose."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-regulation/39.jpg",
+    "lec": "Bioenergetics 2",
+    "n": 39
+   }
   ]
  },
  {
@@ -18190,6 +18501,13 @@ SINA.lectures["physio-bioen-regulation"] = {
    "Correct.",
    "Wrong.",
    "Wrong: no oxygen to reduce."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-regulation/34.jpg",
+    "lec": "Bioenergetics 2",
+    "n": 34
+   }
   ]
  },
  {
@@ -18212,6 +18530,13 @@ SINA.lectures["physio-bioen-regulation"] = {
    "Correct.",
    "Wrong pairing.",
    "Wrong pairing."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-regulation/23.jpg",
+    "lec": "Bioenergetics 2",
+    "n": 23
+   }
   ]
  },
  {
@@ -18229,6 +18554,13 @@ SINA.lectures["physio-bioen-regulation"] = {
    "Wrong: that is sucrose.",
    "Wrong: that is maltose.",
    "Wrong."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-regulation/10.jpg",
+    "lec": "Bioenergetics 2",
+    "n": 10
+   }
   ]
  },
  {
@@ -18246,6 +18578,13 @@ SINA.lectures["physio-bioen-regulation"] = {
    "Wrong: 2 monomers.",
    "Wrong: more than 10.",
    "Wrong: 1."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-regulation/04.jpg",
+    "lec": "Bioenergetics 2",
+    "n": 4
+   }
   ]
  },
  {
@@ -18268,6 +18607,13 @@ SINA.lectures["physio-bioen-regulation"] = {
    "Correct.",
    "Wrong: not digestible.",
    "Wrong: a pentose for nucleic acids."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-regulation/06.jpg",
+    "lec": "Bioenergetics 2",
+    "n": 6
+   }
   ]
  },
  {
@@ -18291,6 +18637,13 @@ SINA.lectures["physio-bioen-regulation"] = {
    "Correct.",
    "Correct.",
    "Wrong: not on the lecture's list."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-regulation/40.jpg",
+    "lec": "Bioenergetics 2",
+    "n": 40
+   }
   ]
  },
  {
@@ -18308,6 +18661,13 @@ SINA.lectures["physio-bioen-regulation"] = {
    "Wrong: glycolysis.",
    "Wrong: glycogenolysis.",
    "Wrong: digestion."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-regulation/29.jpg",
+    "lec": "Bioenergetics 2",
+    "n": 29
+   }
   ]
  }
  ],
@@ -18613,7 +18973,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "45%"
    ],
    "answer": 2,
-   "why": "Men about 15%, women about 25%."
+   "why": "Men about 15%, women about 25%.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/02.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "A well-nourished adult meets what share of resting energy needs from fat?",
@@ -18816,7 +19183,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "Chylomicron"
    ],
    "answer": 3,
-   "why": "Chylomicrons: triglyceride 90%."
+   "why": "Chylomicrons: triglyceride 90%.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/10.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which lipoprotein is richest in cholesterol (about 53%)?",
@@ -18845,7 +19219,14 @@ SINA.lectures["physio-bioen-lipids"] = {
     "Chylomicron"
    ],
    "answer": 0,
-   "why": "HDL: protein 50%."
+   "why": "HDL: protein 50%.",
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/10.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 10
+    }
+   ]
   },
   {
    "q": "Which is the smallest lipoprotein?",
@@ -19084,6 +19465,13 @@ SINA.lectures["physio-bioen-lipids"] = {
    "Correct.",
    "Correct.",
    "Wrong: coffee raises LDL."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-lipids/12.jpg",
+    "lec": "Bioenergetics 3",
+    "n": 12
+   }
   ]
  },
  {
@@ -19101,6 +19489,13 @@ SINA.lectures["physio-bioen-lipids"] = {
    "Wrong: HDL is made empty by the liver.",
    "Wrong: chylomicrons come from the gut.",
    "Wrong."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-lipids/14.jpg",
+    "lec": "Bioenergetics 3",
+    "n": 14
+   }
   ]
  },
  {
@@ -19123,6 +19518,13 @@ SINA.lectures["physio-bioen-lipids"] = {
    "Correct.",
    "Wrong: they shrink.",
    "Wrong."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-lipids/14.jpg",
+    "lec": "Bioenergetics 3",
+    "n": 14
+   }
   ]
  },
  {
@@ -19145,6 +19547,13 @@ SINA.lectures["physio-bioen-lipids"] = {
    "Correct.",
    "Wrong: water-soluble, unrelated.",
    "Wrong: K is fat-soluble, so it falls."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-lipids/03.jpg",
+    "lec": "Bioenergetics 3",
+    "n": 3
+   }
   ]
  },
  {
@@ -19167,6 +19576,13 @@ SINA.lectures["physio-bioen-lipids"] = {
    "Correct.",
    "Wrong.",
    "Wrong."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-lipids/03.jpg",
+    "lec": "Bioenergetics 3",
+    "n": 3
+   }
   ]
  },
  {
@@ -19184,6 +19600,13 @@ SINA.lectures["physio-bioen-lipids"] = {
    "Wrong: reversed.",
    "Wrong.",
    "Wrong: 7 kcal/g is alcohol."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-lipids/02.jpg",
+    "lec": "Bioenergetics 3",
+    "n": 2
+   }
   ]
  },
  {
@@ -19207,6 +19630,13 @@ SINA.lectures["physio-bioen-lipids"] = {
    "Correct.",
    "Correct.",
    "Wrong: a glucose polymer."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-lipids/04.jpg",
+    "lec": "Bioenergetics 3",
+    "n": 4
+   }
   ]
  },
  {
@@ -19224,6 +19654,13 @@ SINA.lectures["physio-bioen-lipids"] = {
    "Wrong: reversed.",
    "Wrong.",
    "Wrong."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-lipids/13.jpg",
+    "lec": "Bioenergetics 3",
+    "n": 13
+   }
   ]
  },
  {
@@ -19241,6 +19678,13 @@ SINA.lectures["physio-bioen-lipids"] = {
    "Wrong: urea comes from amino acids.",
    "Wrong.",
    "Wrong."
+  ],
+  "slides": [
+   {
+    "src": "files/slides/physio-bioen-lipids/14.jpg",
+    "lec": "Bioenergetics 3",
+    "n": 14
+   }
   ]
  }
  ],
