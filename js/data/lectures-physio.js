@@ -10353,6 +10353,12 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 16
     }
+   ],
+   "notes": [
+    "About 125 mL/min (180 L/day) in men; 105 mL/min in women.",
+    "Ten times too low: that is severe kidney failure.",
+    "Ten times too high.",
+    "Too low for a healthy adult."
    ]
   },
   {
@@ -10376,6 +10382,12 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 16
     }
+   ],
+   "notes": [
+    "1.5 L is the daily urine, not the filtrate.",
+    "About 180 L/day in men (150 L in women).",
+    "Ten times too low.",
+    "Ten times too high."
    ]
   },
   {
@@ -10394,6 +10406,12 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 16
     }
+   ],
+   "notes": [
+    "Then we'd pass about 90 L of urine a day.",
+    "Far too little: urine would be over 150 L a day.",
+    "Only about 1.5 L of 180 L leaves as urine: 99% is reabsorbed.",
+    "Then all 180 L would be excreted."
    ]
   },
   {
@@ -10412,24 +10430,12 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 8
     }
-   ]
-  },
-  {
-   "q": "Why does the basement membrane repel albumin?",
-   "options": [
-    "It is positively charged",
-    "It is negatively charged",
-    "Its pores are 90 nm",
-    "It has no charge"
    ],
-   "answer": 1,
-   "why": "The proteoglycan gel is negatively charged, repelling negatively charged albumin, and excludes molecules above 8 nm.",
-   "slides": [
-    {
-     "src": "files/slides/physio-renal-gfr/08.jpg",
-     "lec": "Renal physiology 3",
-     "n": 8
-    }
+   "notes": [
+    "3 nm is the size of molecules that pass freely, not the pore size.",
+    "30 nm is the width of the filtration slits.",
+    "8 nm is the cut-off of the basement membrane.",
+    "70–90 nm pores: small enough to keep blood cells in."
    ]
   },
   {
@@ -10448,6 +10454,12 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 10
     }
+   ],
+   "notes": [
+    "Fenestrae are the pores of the endothelium, the first layer.",
+    "Mesangial cells sit between capillaries; they don't form slits.",
+    "The macula densa senses NaCl in the distal tubule.",
+    "Pedicels wrap the capillaries and leave 30 nm slits."
    ]
   },
   {
@@ -10471,6 +10483,12 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 11
     }
+   ],
+   "notes": [
+    "Plasma ≈ 7% protein; filtrate only 0.03%.",
+    "Reversed: the filtrate has almost no protein.",
+    "The barrier keeps protein out of the filtrate.",
+    "Plasma does contain protein (about 7%)."
    ]
   },
   {
@@ -10494,29 +10512,12 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 12
     }
-   ]
-  },
-  {
-   "q": "Why is calcium partly not filtered?",
-   "options": [
-    "It is too large",
-    "It is positively charged",
-    "It is actively pumped back",
-    "It is protein-bound"
    ],
-   "answer": 3,
-   "why": "Some small substances such as calcium, iron and thyroid hormone are protein-bound and cannot cross.",
-   "slides": [
-    {
-     "src": "files/slides/physio-renal-gfr/11.jpg",
-     "lec": "Renal physiology 3",
-     "n": 11
-    },
-    {
-     "src": "files/slides/physio-renal-gfr/12.jpg",
-     "lec": "Renal physiology 3",
-     "n": 12
-    }
+   "notes": [
+    "Over 8 nm is excluded by the basement membrane.",
+    "Not only water: electrolytes, glucose, amino acids, wastes and vitamins too.",
+    "Almost anything under 3 nm crosses freely.",
+    "Proteins are kept out."
    ]
   },
   {
@@ -10535,6 +10536,12 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 13
     }
+   ],
+   "notes": [
+    "Haematuria = blood in the urine.",
+    "That is proteinuria (albuminuria).",
+    "That is glucosuria.",
+    "That is polyuria."
    ]
   },
   {
@@ -10553,6 +10560,12 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 13
     }
+   ],
+   "notes": [
+    "Diet isn't the cause.",
+    "Nothing blocks the ureters.",
+    "Strenuous exercise reduces kidney perfusion; the hypoxic glomerulus leaks.",
+    "Water intake doesn't cause proteinuria."
    ]
   },
   {
@@ -10571,6 +10584,12 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 14
     }
+   ],
+   "notes": [
+    "Colloid osmotic pressure pulls fluid back into the blood: it opposes filtration.",
+    "Blood hydrostatic pressure pushes fluid out of the glomerulus.",
+    "Capsular pressure pushes back against filtration.",
+    "Reabsorption happens later, in the tubule."
    ]
   },
   {
@@ -10589,6 +10608,12 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 14
     }
+   ],
+   "notes": [
+    "60 mmHg is about the glomerular hydrostatic pressure alone.",
+    "Far too high.",
+    "There is a positive NFP; otherwise no filtration.",
+    "Hydrostatic 55 − (capsular 15 + colloid osmotic 30) ≈ 10 mmHg."
    ]
   },
   {
@@ -10607,6 +10632,12 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 16
     }
+   ],
+   "notes": [
+    "Not a division.",
+    "Not a subtraction.",
+    "GFR = NFP × Kf.",
+    "Urine volume isn't part of the formula."
    ]
   },
   {
@@ -10625,6 +10656,12 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 15
     }
+   ],
+   "notes": [
+    "High glomerular pressure can rupture capillaries and scar the kidney.",
+    "Flow isn't the problem; the pressure is.",
+    "The capsule isn't the cause.",
+    "Nephron number isn't the reason given."
    ]
   },
   {
@@ -10643,6 +10680,12 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 21
     }
+   ],
+   "notes": [
+    "Wastes build up when GFR is too low.",
+    "Fluid moves too fast to be reabsorbed, so urine output rises.",
+    "Azotemia comes with a low GFR.",
+    "Urine output rises, it doesn't stop."
    ]
   },
   {
@@ -10661,47 +10704,12 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 22
     }
-   ]
-  },
-  {
-   "q": "How does afferent arteriole dilation affect GFR?",
-   "options": [
-    "It lowers GFR",
-    "No effect",
-    "It stops filtration",
-    "It raises GFR"
    ],
-   "answer": 3,
-   "why": "Textbook physiology: afferent dilation or efferent constriction raises glomerular pressure and GFR; afferent constriction lowers it.",
-   "slides": [
-    {
-     "src": "files/slides/physio-renal-gfr/17.jpg",
-     "lec": "Renal physiology 3",
-     "n": 17
-    }
-   ]
-  },
-  {
-   "q": "How does afferent arteriole constriction affect GFR?",
-   "options": [
-    "It raises GFR",
-    "It lowers GFR",
-    "No effect",
-    "It doubles GFR"
-   ],
-   "answer": 1,
-   "why": "Less blood enters the glomerulus, so glomerular pressure and GFR fall.",
-   "slides": [
-    {
-     "src": "files/slides/physio-renal-gfr/14.jpg",
-     "lec": "Renal physiology 3",
-     "n": 14
-    },
-    {
-     "src": "files/slides/physio-renal-gfr/16.jpg",
-     "lec": "Renal physiology 3",
-     "n": 16
-    }
+   "notes": [
+    "Urine output rises with a high GFR.",
+    "Dehydration is a risk of a high GFR.",
+    "Wastes aren't eliminated: azotemia.",
+    "Electrolyte loss is a risk of a high GFR."
    ]
   },
   {
@@ -10720,6 +10728,12 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 16
     }
+   ],
+   "notes": [
+    "About 60 times, not 6.",
+    "Far too few.",
+    "Too few: 50–60 times a day.",
+    "Far too many."
    ]
   },
   {
@@ -10769,6 +10783,12 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 14
     }
+   ],
+   "notes": [
+    "Proteins in the blood pull fluid back.",
+    "Fluid in the capsule pushes back.",
+    "That is the force driving filtration.",
+    "The pulse isn't one of the three forces."
    ]
   },
   {
@@ -10790,239 +10810,245 @@ SINA.lectures["physio-renal-gfr"] = {
      "lec": "Renal physiology 3",
      "n": 13
     }
+   ],
+   "notes": [
+    "Infection can damage the filter.",
+    "Trauma can damage the filter.",
+    "Drinking water doesn't damage it.",
+    "Sleep doesn't damage it."
    ]
   },
- {
-  "q": "Which changes raise GFR (↑)?",
-  "options": [
-   "↑ Glomerular hydrostatic pressure",
-   "Efferent arteriole constriction",
-   "↑ Kf (permeability and surface area)",
-   "↑ Capsular hydrostatic pressure"
-  ],
-  "answers": [
-   0,
-   1,
-   2
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "GFR = NFP × Kf. Higher glomerular pressure (or efferent constriction, which raises it) and a larger Kf raise GFR; capsular pressure opposes filtration.",
-  "notes": [
-   "Correct.",
-   "Correct: it raises glomerular pressure.",
-   "Correct.",
-   "Wrong: it opposes filtration."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-gfr/16.jpg",
-    "lec": "Renal physiology 3",
-    "n": 16
-   },
-   {
-    "src": "files/slides/physio-renal-gfr/17.jpg",
-    "lec": "Renal physiology 3",
-    "n": 17
-   }
-  ]
- },
- {
-  "q": "Which changes lower GFR (↓)?",
-  "options": [
-   "↑ Colloid osmotic pressure of glomerular blood",
-   "↑ Capsular hydrostatic pressure",
-   "↓ Glomerular hydrostatic pressure",
-   "Efferent arteriole constriction"
-  ],
-  "answers": [
-   0,
-   1,
-   2
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "Colloid osmotic and capsular pressures oppose filtration; less glomerular pressure lowers NFP. Efferent constriction raises GFR.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Correct.",
-   "Wrong: it raises GFR."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-gfr/14.jpg",
-    "lec": "Renal physiology 3",
-    "n": 14
-   },
-   {
-    "src": "files/slides/physio-renal-gfr/19.jpg",
-    "lec": "Renal physiology 3",
-    "n": 19
-   }
-  ]
- },
- {
-  "q": "Glomerular hydrostatic pressure rises from 55 to 65 mmHg (colloid osmotic 30 and capsular 15 unchanged). Net filtration pressure:",
-  "options": [
-   "↑ To about 20 mmHg",
-   "↔ Stays about 10 mmHg",
-   "↓ To about 0 mmHg",
-   "↑ To about 65 mmHg"
-  ],
-  "answer": 0,
-  "why": "65 − 30 − 15 = 20 mmHg, so GFR rises. The slide's normal values: 55 − 30 − 15 = 10 mmHg.",
-  "notes": [
-   "Correct.",
-   "Wrong: 55 − 30 − 15 is the normal value.",
-   "Wrong.",
-   "Wrong: the opposing pressures still subtract."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-gfr/14.jpg",
-    "lec": "Renal physiology 3",
-    "n": 14
-   }
-  ]
- },
- {
-  "q": "Colloid osmotic pressure rises from 30 to 40 mmHg (glomerular 55 and capsular 15 unchanged). Net filtration pressure:",
-  "options": [
-   "↓ To about 0 mmHg",
-   "↑ To about 20 mmHg",
-   "↔ Stays about 10 mmHg",
-   "↓ To about −10 mmHg"
-  ],
-  "answer": 0,
-  "why": "55 − 40 − 15 = 0 mmHg: filtration would stop. The slide's normal values: 55 − 30 − 15 = 10 mmHg.",
-  "notes": [
-   "Correct.",
-   "Wrong: colloid pressure opposes filtration.",
-   "Wrong.",
-   "Wrong: 55 − 40 − 15 = 0."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-gfr/14.jpg",
-    "lec": "Renal physiology 3",
-    "n": 14
-   }
-  ]
- },
- {
-  "q": "Damage to the filtration membrane (infection, trauma):",
-  "options": [
-   "↑ Protein in the urine",
-   "↑ Red cells in the urine",
-   "↓ Protein in the urine",
-   "↓ Every filtered solute to zero"
-  ],
-  "answers": [
-   0,
-   1
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "A damaged barrier lets proteins and blood cells through: proteinuria and haematuria.",
-  "notes": [
-   "Correct: proteinuria.",
-   "Correct: haematuria.",
-   "Wrong: it rises.",
-   "Wrong."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-gfr/13.jpg",
-    "lec": "Renal physiology 3",
-    "n": 13
-   }
-  ]
- },
- {
-  "q": "If the basement membrane lost its negative charge, albumin filtration would:",
-  "options": [
-   "↑ Rise",
-   "↓ Fall",
-   "↔ Not change",
-   "Stop entirely"
-  ],
-  "answer": 0,
-  "why": "The negatively charged proteoglycan gel repels albumin; without the charge more albumin would pass.",
-  "notes": [
-   "Correct.",
-   "Wrong.",
-   "Wrong: the charge is what repels albumin.",
-   "Wrong."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-gfr/08.jpg",
-    "lec": "Renal physiology 3",
-    "n": 8
-   }
-  ]
- },
- {
-  "q": "Which pass the filtration membrane freely?",
-  "options": [
-   "Glucose",
-   "Amino acids",
-   "Urea",
-   "Albumin"
-  ],
-  "answers": [
-   0,
-   1,
-   2
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "Molecules under about 3 nm pass freely (water, electrolytes, glucose, amino acids, wastes). Albumin is held back.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Correct.",
-   "Wrong: repelled and too large."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-gfr/11.jpg",
-    "lec": "Renal physiology 3",
-    "n": 11
-   }
-  ]
- },
- {
-  "q": "Which are partly held back because they are protein-bound?",
-  "options": [
-   "Calcium",
-   "Iron",
-   "Thyroid hormone",
-   "Glucose"
-  ],
-  "answers": [
-   0,
-   1,
-   2
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "Protein-bound calcium, iron and thyroid hormone are not filtered; glucose passes freely.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Correct.",
-   "Wrong: glucose is filtered freely."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-gfr/12.jpg",
-    "lec": "Renal physiology 3",
-    "n": 12
-   }
-  ]
- }
+  {
+   "q": "Which changes raise GFR (↑)?",
+   "options": [
+    "↑ Glomerular hydrostatic pressure",
+    "Efferent arteriole constriction",
+    "↑ Kf (permeability and surface area)",
+    "↑ Capsular hydrostatic pressure"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "GFR = NFP × Kf. Higher glomerular pressure (or efferent constriction, which raises it) and a larger Kf raise GFR; capsular pressure opposes filtration.",
+   "notes": [
+    "Correct.",
+    "Correct: it raises glomerular pressure.",
+    "Correct.",
+    "Wrong: it opposes filtration."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/16.jpg",
+     "lec": "Renal physiology 3",
+     "n": 16
+    },
+    {
+     "src": "files/slides/physio-renal-gfr/17.jpg",
+     "lec": "Renal physiology 3",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Which changes lower GFR (↓)?",
+   "options": [
+    "↑ Colloid osmotic pressure of glomerular blood",
+    "↑ Capsular hydrostatic pressure",
+    "↓ Glomerular hydrostatic pressure",
+    "Efferent arteriole constriction"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Colloid osmotic and capsular pressures oppose filtration; less glomerular pressure lowers NFP. Efferent constriction raises GFR.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: it raises GFR."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/14.jpg",
+     "lec": "Renal physiology 3",
+     "n": 14
+    },
+    {
+     "src": "files/slides/physio-renal-gfr/19.jpg",
+     "lec": "Renal physiology 3",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Glomerular hydrostatic pressure rises from 55 to 65 mmHg (colloid osmotic 30 and capsular 15 unchanged). Net filtration pressure:",
+   "options": [
+    "↑ To about 20 mmHg",
+    "↔ Stays about 10 mmHg",
+    "↓ To about 0 mmHg",
+    "↑ To about 65 mmHg"
+   ],
+   "answer": 0,
+   "why": "65 − 30 − 15 = 20 mmHg, so GFR rises. The slide's normal values: 55 − 30 − 15 = 10 mmHg.",
+   "notes": [
+    "Correct.",
+    "Wrong: 55 − 30 − 15 is the normal value.",
+    "Wrong.",
+    "Wrong: the opposing pressures still subtract."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/14.jpg",
+     "lec": "Renal physiology 3",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Colloid osmotic pressure rises from 30 to 40 mmHg (glomerular 55 and capsular 15 unchanged). Net filtration pressure:",
+   "options": [
+    "↓ To about 0 mmHg",
+    "↑ To about 20 mmHg",
+    "↔ Stays about 10 mmHg",
+    "↓ To about −10 mmHg"
+   ],
+   "answer": 0,
+   "why": "55 − 40 − 15 = 0 mmHg: filtration would stop. The slide's normal values: 55 − 30 − 15 = 10 mmHg.",
+   "notes": [
+    "Correct.",
+    "Wrong: colloid pressure opposes filtration.",
+    "Wrong.",
+    "Wrong: 55 − 40 − 15 = 0."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/14.jpg",
+     "lec": "Renal physiology 3",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Damage to the filtration membrane (infection, trauma):",
+   "options": [
+    "↑ Protein in the urine",
+    "↑ Red cells in the urine",
+    "↓ Protein in the urine",
+    "↓ Every filtered solute to zero"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "A damaged barrier lets proteins and blood cells through: proteinuria and haematuria.",
+   "notes": [
+    "Correct: proteinuria.",
+    "Correct: haematuria.",
+    "Wrong: it rises.",
+    "Wrong."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/13.jpg",
+     "lec": "Renal physiology 3",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "If the basement membrane lost its negative charge, albumin filtration would:",
+   "options": [
+    "↑ Rise",
+    "↓ Fall",
+    "↔ Not change",
+    "Stop entirely"
+   ],
+   "answer": 0,
+   "why": "The negatively charged proteoglycan gel repels albumin; without the charge more albumin would pass.",
+   "notes": [
+    "Correct.",
+    "Wrong.",
+    "Wrong: the charge is what repels albumin.",
+    "Wrong."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/08.jpg",
+     "lec": "Renal physiology 3",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "q": "Which pass the filtration membrane freely?",
+   "options": [
+    "Glucose",
+    "Amino acids",
+    "Urea",
+    "Albumin"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Molecules under about 3 nm pass freely (water, electrolytes, glucose, amino acids, wastes). Albumin is held back.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: repelled and too large."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/11.jpg",
+     "lec": "Renal physiology 3",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "Which are partly held back because they are protein-bound?",
+   "options": [
+    "Calcium",
+    "Iron",
+    "Thyroid hormone",
+    "Glucose"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Protein-bound calcium, iron and thyroid hormone are not filtered; glucose passes freely.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: glucose is filtered freely."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-gfr/12.jpg",
+     "lec": "Renal physiology 3",
+     "n": 12
+    }
+   ]
+  }
  ],
  "cards": [
   {
@@ -13072,6 +13098,12 @@ SINA.lectures["physio-renal-intro"] = {
      "lec": "Renal physiology 1",
      "n": 3
     }
+   ],
+   "notes": [
+    "The kidneys sit high in the posterior abdomen, not in the pelvis, and outside the peritoneum.",
+    "Behind the peritoneum, against the posterior abdominal wall.",
+    "The lesser sac is a peritoneal space behind the stomach.",
+    "The mediastinum is in the thorax."
    ]
   },
   {
@@ -13090,6 +13122,12 @@ SINA.lectures["physio-renal-intro"] = {
      "lec": "Renal physiology 1",
      "n": 4
     }
+   ],
+   "notes": [
+    "Ureters transport urine to the bladder.",
+    "The urethra carries urine out of the body.",
+    "The bladder stores urine until it is voided.",
+    "The renal pelvis collects urine inside the kidney before the ureter."
    ]
   },
   {
@@ -13108,24 +13146,12 @@ SINA.lectures["physio-renal-intro"] = {
      "lec": "Renal physiology 1",
      "n": 4
     }
-   ]
-  },
-  {
-   "q": "Urea is formed mainly in:",
-   "options": [
-    "The kidney",
-    "The liver",
-    "Skeletal muscle",
-    "The spleen"
    ],
-   "answer": 1,
-   "why": "Amino acids lose NH2 to form ammonia; the liver converts ammonia to urea.",
-   "slides": [
-    {
-     "src": "files/slides/physio-renal-intro/06.jpg",
-     "lec": "Renal physiology 1",
-     "n": 6
-    }
+   "notes": [
+    "Ureters: kidney → bladder.",
+    "The urethra carries urine from the bladder to the outside.",
+    "Collecting ducts are inside the kidney, before the renal pelvis.",
+    "Renal veins carry blood, not urine."
    ]
   },
   {
@@ -13144,6 +13170,12 @@ SINA.lectures["physio-renal-intro"] = {
      "lec": "Renal physiology 1",
      "n": 6
     }
+   ],
+   "notes": [
+    "Creatine phosphate gives creatinine.",
+    "Uric acid comes from nucleic acid (purine) breakdown.",
+    "Triglycerides give fatty acids and glycerol, not nitrogenous waste.",
+    "Haemoglobin breakdown gives bilirubin."
    ]
   },
   {
@@ -13162,6 +13194,12 @@ SINA.lectures["physio-renal-intro"] = {
      "lec": "Renal physiology 1",
      "n": 6
     }
+   ],
+   "notes": [
+    "Nucleic acids give uric acid.",
+    "Urea is a separate waste, made from ammonia in the liver.",
+    "Creatinine comes from creatine phosphate in muscle.",
+    "Bilirubin comes from haemoglobin breakdown."
    ]
   },
   {
@@ -13180,24 +13218,12 @@ SINA.lectures["physio-renal-intro"] = {
      "lec": "Renal physiology 1",
      "n": 7
     }
-   ]
-  },
-  {
-   "q": "Ketones in the urine are called:",
-   "options": [
-    "Acetonuria",
-    "Albuminuria",
-    "Pyuria",
-    "Proteinuria"
    ],
-   "answer": 0,
-   "why": "Ketones in urine: acetonuria.",
-   "slides": [
-    {
-     "src": "files/slides/physio-renal-intro/07.jpg",
-     "lec": "Renal physiology 1",
-     "n": 7
-    }
+   "notes": [
+    "Haematuria = red blood cells in the urine.",
+    "Pyuria = leukocytes in the urine.",
+    "Glucosuria = glucose in the urine.",
+    "Acetonuria = ketones in the urine."
    ]
   },
   {
@@ -13281,6 +13307,12 @@ SINA.lectures["physio-renal-intro"] = {
      "lec": "Renal physiology 1",
      "n": 22
     }
+   ],
+   "notes": [
+    "Renin starts the renin-angiotensin system (blood pressure).",
+    "Erythropoietin stimulates red cell production in the bone marrow.",
+    "Calcitonin comes from the thyroid and lowers calcium.",
+    "Aldosterone comes from the adrenal cortex."
    ]
   },
   {
@@ -13299,6 +13331,12 @@ SINA.lectures["physio-renal-intro"] = {
      "lec": "Renal physiology 1",
      "n": 10
     }
+   ],
+   "notes": [
+    "Far too small: the slide says more than 100-fold.",
+    "Still too small: more than 100-fold.",
+    "Under hypoxia, EPO can rise more than 100-fold.",
+    "Hypoxia raises EPO, it doesn't lower it."
    ]
   },
   {
@@ -13317,6 +13355,12 @@ SINA.lectures["physio-renal-intro"] = {
      "lec": "Renal physiology 1",
      "n": 10
     }
+   ],
+   "notes": [
+    "With normal O₂, HIF is broken down, so EPO stays low.",
+    "HIF stays inside the cell; it is a transcription factor.",
+    "HIF acts on genes, not on EPO receptors.",
+    "HIF switches on the VEGF gene; it isn't converted into VEGF."
    ]
   },
   {
@@ -13335,6 +13379,12 @@ SINA.lectures["physio-renal-intro"] = {
      "lec": "Renal physiology 1",
      "n": 9
     }
+   ],
+   "notes": [
+    "Vitamin A isn't activated by the kidney.",
+    "Vitamin K is needed for clotting factors, not activated by the kidney.",
+    "The kidney's 1-alpha-hydroxylase makes calcitriol, the active vitamin D.",
+    "Vitamin B12 isn't activated by the kidney."
    ]
   },
   {
@@ -13353,6 +13403,12 @@ SINA.lectures["physio-renal-intro"] = {
      "lec": "Renal physiology 1",
      "n": 9
     }
+   ],
+   "notes": [
+    "Fatty acids can't be turned into glucose.",
+    "Amino acids are the substrate for renal gluconeogenesis.",
+    "Urea is a waste product.",
+    "Cholesterol isn't a glucose source."
    ]
   },
   {
@@ -13371,24 +13427,12 @@ SINA.lectures["physio-renal-intro"] = {
      "lec": "Renal physiology 1",
      "n": 14
     }
-   ]
-  },
-  {
-   "q": "Glucose in the urine is called:",
-   "options": [
-    "Glucosuria",
-    "Acetonuria",
-    "Albuminuria",
-    "Haematuria"
    ],
-   "answer": 0,
-   "why": "Glucose in urine: glucosuria.",
-   "slides": [
-    {
-     "src": "files/slides/physio-renal-intro/07.jpg",
-     "lec": "Renal physiology 1",
-     "n": 7
-    }
+   "notes": [
+    "Insulin was 1923.",
+    "2019: how cells sense and adapt to oxygen (HIF).",
+    "Aquaporins were 2003 (Chemistry).",
+    "Not a Nobel topic in the lecture."
    ]
   },
   {
@@ -13469,161 +13513,161 @@ SINA.lectures["physio-renal-intro"] = {
    "answer": 1,
    "why": "The arrow points to: Urethra. Carries urine from the bladder to the outside of the body."
   },
- {
-  "q": "Hypoxia (for example severe anaemia): which go up?",
-  "options": [
-   "↑ HIF (no longer degraded)",
-   "↑ EPO secretion by the kidney",
-   "↑ VEGF (angiogenesis)",
-   "↓ red blood cell production"
-  ],
-  "answers": [
-   0,
-   1,
-   2
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "At low oxygen HIF escapes degradation and drives EPO, erythropoiesis and angiogenesis (VEGF), so red cell production rises.",
-  "notes": [
-   "Correct: HIF persists when oxygen is low.",
-   "Correct: EPO can rise more than 100-fold.",
-   "Correct: HIF also promotes VEGF.",
-   "Wrong: EPO raises red cell production."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-intro/16.jpg",
-    "lec": "Renal physiology 1",
-    "n": 16
-   }
-  ]
- },
- {
-  "q": "Once the red cell concentration is back to normal after anaemia, kidney EPO output:",
-  "options": [
-   "↓ Falls back toward baseline",
-   "↑ Keeps rising",
-   "↔ Stays at its maximum",
-   "↑ Doubles again"
-  ],
-  "answer": 0,
-  "why": "Negative feedback: normal oxygen delivery lets HIF be degraded again, so EPO falls.",
-  "notes": [
-   "Correct: the loop closes once oxygen delivery is normal.",
-   "Wrong: the stimulus (hypoxia) is gone.",
-   "Wrong: EPO follows oxygen delivery.",
-   "Wrong: there is no stimulus left."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-intro/16.jpg",
-    "lec": "Renal physiology 1",
-    "n": 16
-   }
-  ]
- },
- {
-  "q": "Calcitriol (active vitamin D) acts on the intestine to:",
-  "options": [
-   "↑ Calcium absorption",
-   "↓ Calcium absorption",
-   "↑ Calcium loss in the faeces",
-   "↓ Calbindin synthesis"
-  ],
-  "answer": 0,
-  "why": "Calcitriol raises intestinal calcium absorption through the vitamin D receptor (VDR) and calbindin.",
-  "notes": [
-   "Correct.",
-   "Wrong: the opposite.",
-   "Wrong: more calcium is absorbed, not lost.",
-   "Wrong: calbindin rises."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-intro/19.jpg",
-    "lec": "Renal physiology 1",
-    "n": 19
-   }
-  ]
- },
- {
-  "q": "Which hormone effects on calcium are correct?",
-  "options": [
-   "PTH → ↑ renal calcium reabsorption",
-   "Calcitonin → ↓ plasma calcium",
-   "PTH → ↓ renal calcium reabsorption",
-   "Calcitonin → ↑ plasma calcium"
-  ],
-  "answers": [
-   0,
-   1
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "PTH raises renal calcium reabsorption; calcitonin lowers plasma calcium.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Wrong: PTH raises it.",
-   "Wrong: calcitonin lowers it."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-intro/20.jpg",
-    "lec": "Renal physiology 1",
-    "n": 20
-   }
-  ]
- },
- {
-  "q": "More protein broken down (for example a high-protein diet) raises the production of:",
-  "options": [
-   "↑ Urea",
-   "↑ Uric acid",
-   "↑ Glucosuria",
-   "↓ Ammonia formation"
-  ],
-  "answer": 0,
-  "why": "Amino acids lose NH2 as ammonia, which the liver turns into urea. Uric acid comes from nucleic acids.",
-  "notes": [
-   "Correct.",
-   "Wrong: uric acid comes from nucleic acids.",
-   "Wrong: glucose in the urine is unrelated.",
-   "Wrong: more amino acids give more ammonia."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-intro/06.jpg",
-    "lec": "Renal physiology 1",
-    "n": 6
-   }
-  ]
- },
- {
-  "q": "Which sequence forms urea?",
-  "options": [
-   "Proteins → amino acids → ammonia → urea (liver)",
-   "Nucleic acids → ammonia → urea (kidney)",
-   "Creatine phosphate → ammonia → urea (muscle)",
-   "Urea → ammonia → amino acids (liver)"
-  ],
-  "answer": 0,
-  "why": "Proteins → amino acids → NH2 removed as ammonia → the liver converts ammonia to urea.",
-  "notes": [
-   "Correct.",
-   "Wrong: nucleic acids give uric acid.",
-   "Wrong: creatine phosphate gives creatinine.",
-   "Wrong: backwards."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-intro/06.jpg",
-    "lec": "Renal physiology 1",
-    "n": 6
-   }
-  ]
- }
+  {
+   "q": "Hypoxia (for example severe anaemia): which go up?",
+   "options": [
+    "↑ HIF (no longer degraded)",
+    "↑ EPO secretion by the kidney",
+    "↑ VEGF (angiogenesis)",
+    "↓ red blood cell production"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "At low oxygen HIF escapes degradation and drives EPO, erythropoiesis and angiogenesis (VEGF), so red cell production rises.",
+   "notes": [
+    "Correct: HIF persists when oxygen is low.",
+    "Correct: EPO can rise more than 100-fold.",
+    "Correct: HIF also promotes VEGF.",
+    "Wrong: EPO raises red cell production."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/16.jpg",
+     "lec": "Renal physiology 1",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Once the red cell concentration is back to normal after anaemia, kidney EPO output:",
+   "options": [
+    "↓ Falls back toward baseline",
+    "↑ Keeps rising",
+    "↔ Stays at its maximum",
+    "↑ Doubles again"
+   ],
+   "answer": 0,
+   "why": "Negative feedback: normal oxygen delivery lets HIF be degraded again, so EPO falls.",
+   "notes": [
+    "Correct: the loop closes once oxygen delivery is normal.",
+    "Wrong: the stimulus (hypoxia) is gone.",
+    "Wrong: EPO follows oxygen delivery.",
+    "Wrong: there is no stimulus left."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/16.jpg",
+     "lec": "Renal physiology 1",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "q": "Calcitriol (active vitamin D) acts on the intestine to:",
+   "options": [
+    "↑ Calcium absorption",
+    "↓ Calcium absorption",
+    "↑ Calcium loss in the faeces",
+    "↓ Calbindin synthesis"
+   ],
+   "answer": 0,
+   "why": "Calcitriol raises intestinal calcium absorption through the vitamin D receptor (VDR) and calbindin.",
+   "notes": [
+    "Correct.",
+    "Wrong: the opposite.",
+    "Wrong: more calcium is absorbed, not lost.",
+    "Wrong: calbindin rises."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/19.jpg",
+     "lec": "Renal physiology 1",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "Which hormone effects on calcium are correct?",
+   "options": [
+    "PTH → ↑ renal calcium reabsorption",
+    "Calcitonin → ↓ plasma calcium",
+    "PTH → ↓ renal calcium reabsorption",
+    "Calcitonin → ↑ plasma calcium"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "PTH raises renal calcium reabsorption; calcitonin lowers plasma calcium.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Wrong: PTH raises it.",
+    "Wrong: calcitonin lowers it."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/20.jpg",
+     "lec": "Renal physiology 1",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "More protein broken down (for example a high-protein diet) raises the production of:",
+   "options": [
+    "↑ Urea",
+    "↑ Uric acid",
+    "↑ Glucosuria",
+    "↓ Ammonia formation"
+   ],
+   "answer": 0,
+   "why": "Amino acids lose NH2 as ammonia, which the liver turns into urea. Uric acid comes from nucleic acids.",
+   "notes": [
+    "Correct.",
+    "Wrong: uric acid comes from nucleic acids.",
+    "Wrong: glucose in the urine is unrelated.",
+    "Wrong: more amino acids give more ammonia."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/06.jpg",
+     "lec": "Renal physiology 1",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "Which sequence forms urea?",
+   "options": [
+    "Proteins → amino acids → ammonia → urea (liver)",
+    "Nucleic acids → ammonia → urea (kidney)",
+    "Creatine phosphate → ammonia → urea (muscle)",
+    "Urea → ammonia → amino acids (liver)"
+   ],
+   "answer": 0,
+   "why": "Proteins → amino acids → NH2 removed as ammonia → the liver converts ammonia to urea.",
+   "notes": [
+    "Correct.",
+    "Wrong: nucleic acids give uric acid.",
+    "Wrong: creatine phosphate gives creatinine.",
+    "Wrong: backwards."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-intro/06.jpg",
+     "lec": "Renal physiology 1",
+     "n": 6
+    }
+   ]
+  }
  ],
  "cards": [
   {
@@ -13964,6 +14008,12 @@ SINA.lectures["physio-renal-nephron"] = {
      "lec": "Renal physiology 2",
      "n": 2
     }
+   ],
+   "notes": [
+    "Too few: each kidney has over 1 million.",
+    "Too few: over 1 million.",
+    "Over 1 million nephrons per kidney.",
+    "Too many: about 1 million."
    ]
   },
   {
@@ -13982,6 +14032,12 @@ SINA.lectures["physio-renal-nephron"] = {
      "lec": "Renal physiology 2",
      "n": 2
     }
+   ],
+   "notes": [
+    "Too small: about 1% per year.",
+    "About 1% per year from the age of 30.",
+    "Too fast: that would lose half the nephrons in 10 years.",
+    "Far too fast."
    ]
   },
   {
@@ -14000,24 +14056,12 @@ SINA.lectures["physio-renal-nephron"] = {
      "lec": "Renal physiology 2",
      "n": 6
     }
-   ]
-  },
-  {
-   "q": "Filtrate enters the capsular space through:",
-   "options": [
-    "Filtration slits between podocyte pedicels",
-    "Gaps between mesangial cells",
-    "Pores of the peritubular capillaries",
-    "Openings in the macula densa"
    ],
-   "answer": 0,
-   "why": "Clefts between foot processes are filtration slits, where filtrate enters the capsular space.",
-   "slides": [
-    {
-     "src": "files/slides/physio-renal-nephron/09.jpg",
-     "lec": "Renal physiology 2",
-     "n": 9
-    }
+   "notes": [
+    "The efferent arteriole is the smaller one.",
+    "The afferent arteriole is larger, which keeps glomerular pressure high.",
+    "They differ in size.",
+    "Their size doesn't depend on posture."
    ]
   },
   {
@@ -14095,6 +14139,12 @@ SINA.lectures["physio-renal-nephron"] = {
      "lec": "Renal physiology 2",
      "n": 5
     }
+   ],
+   "notes": [
+    "The descending limb lets water out, not salt.",
+    "The ascending limb pumps Na⁺ and Cl⁻ out and is impermeable to water.",
+    "The glomerulus filters; it doesn't reabsorb.",
+    "The renal pelvis collects urine; no reabsorption."
    ]
   },
   {
@@ -14118,42 +14168,12 @@ SINA.lectures["physio-renal-nephron"] = {
      "lec": "Renal physiology 2",
      "n": 10
     }
-   ]
-  },
-  {
-   "q": "Normal GFR per minute is about:",
-   "options": [
-    "12 mL",
-    "120 mL",
-    "1 200 mL",
-    "1 mL"
    ],
-   "answer": 1,
-   "why": "2 mL/s, 120 mL/min.",
-   "slides": [
-    {
-     "src": "files/slides/physio-renal-nephron/13.jpg",
-     "lec": "Renal physiology 2",
-     "n": 13
-    }
-   ]
-  },
-  {
-   "q": "Daily glomerular filtrate is about:",
-   "options": [
-    "1.5 L",
-    "17 L",
-    "170 L",
-    "1 700 L"
-   ],
-   "answer": 2,
-   "why": "172 800 mL ≈ 170 L/day.",
-   "slides": [
-    {
-     "src": "files/slides/physio-renal-nephron/13.jpg",
-     "lec": "Renal physiology 2",
-     "n": 13
-    }
+   "notes": [
+    "Filtration makes a plasma-like filtrate in the capsule.",
+    "Reabsorption returns useful solutes from the filtrate to the blood.",
+    "Secretion moves extra wastes from the blood into the filtrate.",
+    "Water conservation is reabsorption of water."
    ]
   },
   {
@@ -14172,6 +14192,12 @@ SINA.lectures["physio-renal-nephron"] = {
      "lec": "Renal physiology 2",
      "n": 14
     }
+   ],
+   "notes": [
+    "Less than 1% of the volume ends up as urine; that isn't the filtered fraction.",
+    "About one fifth of the plasma is filtered; the rest goes on to the peritubular capillaries.",
+    "Too high.",
+    "80% is what continues to the peritubular capillaries."
    ]
   },
   {
@@ -14195,42 +14221,12 @@ SINA.lectures["physio-renal-nephron"] = {
      "lec": "Renal physiology 2",
      "n": 21
     }
-   ]
-  },
-  {
-   "q": "ADH increases water reabsorption by inserting which channel in the apical membrane?",
-   "options": [
-    "Aquaporin-1",
-    "Aquaporin-2",
-    "Aquaporin-3",
-    "ENaC"
    ],
-   "answer": 1,
-   "why": "ADH → cAMP → AQP2 inserted in the apical membrane of collecting duct cells.",
-   "slides": [
-    {
-     "src": "files/slides/physio-renal-nephron/09.jpg",
-     "lec": "Renal physiology 2",
-     "n": 9
-    }
-   ]
-  },
-  {
-   "q": "Which second messenger does the vasopressin receptor use in the collecting duct?",
-   "options": [
-    "IP3",
-    "cGMP",
-    "cAMP",
-    "Calcium only"
-   ],
-   "answer": 2,
-   "why": "G protein → adenylate cyclase → cAMP → protein kinase A.",
-   "slides": [
-    {
-     "src": "files/slides/physio-renal-nephron/20.jpg",
-     "lec": "Renal physiology 2",
-     "n": 20
-    }
+   "notes": [
+    "0.25 mL/min is the output with maximal ADH.",
+    "120 filtered − 119 reabsorbed = 1 mL/min.",
+    "15 mL/min is the output without ADH.",
+    "119 mL/min is what is reabsorbed."
    ]
   },
   {
@@ -14249,6 +14245,12 @@ SINA.lectures["physio-renal-nephron"] = {
      "lec": "Renal physiology 2",
      "n": 21
     }
+   ],
+   "notes": [
+    "0.25 mL/min × 1440 ≈ 375 mL/day.",
+    "1.5 L/day is the output at normal ADH.",
+    "Too much for maximal ADH.",
+    "22.5 L/day is the output without ADH."
    ]
   },
   {
@@ -14272,6 +14274,12 @@ SINA.lectures["physio-renal-nephron"] = {
      "lec": "Renal physiology 2",
      "n": 23
     }
+   ],
+   "notes": [
+    "1.5 L/day is normal output.",
+    "Too low: 15 mL/min × 1440 ≈ 22.5 L.",
+    "15 mL/min without ADH ≈ 22.5 L/day.",
+    "170 L is the daily filtrate."
    ]
   },
   {
@@ -14320,24 +14328,12 @@ SINA.lectures["physio-renal-nephron"] = {
      "lec": "Renal physiology 2",
      "n": 21
     }
-   ]
-  },
-  {
-   "q": "Healthy glomerular capillaries are:",
-   "options": [
-    "Continuous, without pores",
-    "Fenestrated",
-    "Sinusoidal with gaps for cells",
-    "Lined by podocytes on the blood side"
    ],
-   "answer": 1,
-   "why": "Glomerular capillaries are fenestrated; podocytes line the capsule side.",
-   "slides": [
-    {
-     "src": "files/slides/physio-renal-nephron/09.jpg",
-     "lec": "Renal physiology 2",
-     "n": 9
-    }
+   "notes": [
+    "The anterior pituitary releases hormones like ACTH and TSH.",
+    "ADH is made in the hypothalamus and released from the posterior pituitary.",
+    "The adrenal cortex makes aldosterone and cortisol.",
+    "Juxtaglomerular cells release renin."
    ]
   },
   {
@@ -14412,215 +14408,215 @@ SINA.lectures["physio-renal-nephron"] = {
    "answer": 0,
    "why": "The arrow points to: Collecting duct. Reabsorbs solutes and water from the filtrate; water permeability set by ADH."
   },
- {
-  "q": "After heavy sweating or diarrhoea, which go up?",
-  "options": [
-   "↑ ADH (vasopressin) release",
-   "↑ Water reabsorption in the collecting duct",
-   "↑ Urine output",
-   "↓ Aquaporin-2 in the apical membrane"
-  ],
-  "answers": [
-   0,
-   1
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "Water loss → more ADH → more AQP2 inserted → more water reabsorbed and a smaller, more concentrated urine.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Wrong: urine output falls.",
-   "Wrong: AQP2 insertion rises."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-nephron/21.jpg",
-    "lec": "Renal physiology 2",
-    "n": 21
-   }
-  ]
- },
- {
-  "q": "With maximal ADH, compared with normal:",
-  "options": [
-   "↑ Water reabsorbed",
-   "↓ Urine volume",
-   "↑ Urine concentration",
-   "↓ Aquaporin-2 in the apical membrane"
-  ],
-  "answers": [
-   0,
-   1,
-   2
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "Reabsorption rises from 119 to 119.75 mL/min and urine falls from 1 to 0.25 mL/min, so wastes are more concentrated.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Correct: water conservation concentrates the wastes.",
-   "Wrong: ADH inserts more AQP2."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-nephron/15.jpg",
-    "lec": "Renal physiology 2",
-    "n": 15
-   }
-  ]
- },
- {
-  "q": "Without ADH, in the collecting duct:",
-  "options": [
-   "↓ cAMP signalling in the cells",
-   "↓ Aquaporin-2 in the apical membrane",
-   "↑ Urine volume",
-   "↑ Water reabsorption"
-  ],
-  "answers": [
-   0,
-   1,
-   2
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "No ADH: no receptor → cAMP signal, no AQP2 insertion, less water reabsorbed, so urine volume rises (about 15 mL/min).",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Correct.",
-   "Wrong: water reabsorption falls (about 105 mL/min)."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-nephron/20.jpg",
-    "lec": "Renal physiology 2",
-    "n": 20
-   }
-  ]
- },
- {
-  "q": "Which sequence describes ADH action on the collecting duct?",
-  "options": [
-   "Receptor → cAMP → AQP2 inserted → water reabsorbed by osmosis",
-   "AQP2 inserted → receptor → cAMP → water secreted",
-   "cAMP → receptor → AQP3 removed → ↑ urine",
-   "Receptor → IP3 → ENaC → Na+ reabsorbed"
-  ],
-  "answer": 0,
-  "why": "Vasopressin binds its receptor, cAMP (G protein, adenylate cyclase, protein kinase A) makes the cell insert AQP2, and water follows by osmosis.",
-  "notes": [
-   "Correct.",
-   "Wrong order, and water is reabsorbed.",
-   "Wrong order and wrong channel.",
-   "Wrong: the lecture's pathway is cAMP and AQP2."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-nephron/20.jpg",
-    "lec": "Renal physiology 2",
-    "n": 20
-   }
-  ]
- },
- {
-  "q": "Where does vasopressin (ADH) bind the collecting-duct cell?",
-  "options": [
-   "On its membrane receptor on the blood side, arriving from the vasa recta",
-   "On the apical side, from the filtrate",
-   "On the aquaporin-2 pores themselves",
-   "Inside the nucleus"
-  ],
-  "answer": 0,
-  "why": "Vasopressin arrives in the blood (vasa recta) and binds its membrane receptor on the basolateral side; cAMP then makes the cell insert AQP2 into the apical membrane.",
-  "notes": [
-   "Correct.",
-   "Wrong: it comes from the blood, not the filtrate.",
-   "Wrong: it binds a receptor; AQP2 is inserted afterwards.",
-   "Wrong: it acts through a membrane receptor and cAMP."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-nephron/20.jpg",
-    "lec": "Renal physiology 2",
-    "n": 20
-   }
-  ]
- },
- {
-  "q": "Why does water leave the collecting duct once AQP2 is inserted?",
-  "options": [
-   "Filtrate about 300 mOsm vs medullary interstitium about 600 to 700 mOsm: osmosis",
-   "Water is actively pumped out",
-   "The filtrate is more concentrated than the interstitium",
-   "Blood pressure in the tubule pushes it out"
-  ],
-  "answer": 0,
-  "why": "The medullary interstitium is far more concentrated than the filtrate, so water moves out by osmosis.",
-  "notes": [
-   "Correct.",
-   "Wrong: water moves passively.",
-   "Wrong: the reverse.",
-   "Wrong: it is osmosis."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-nephron/20.jpg",
-    "lec": "Renal physiology 2",
-    "n": 20
-   }
-  ]
- },
- {
-  "q": "When mesangial cells contract, glomerular blood flow:",
-  "options": [
-   "↓ Decreases",
-   "↑ Increases",
-   "↔ Does not change",
-   "↑ Doubles"
-  ],
-  "answer": 0,
-  "why": "Mesangial cells are smooth muscle-like and regulate glomerular blood flow by contracting.",
-  "notes": [
-   "Correct.",
-   "Wrong: contraction reduces flow.",
-   "Wrong: that is their job.",
-   "Wrong."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-nephron/09.jpg",
-    "lec": "Renal physiology 2",
-    "n": 9
-   }
-  ]
- },
- {
-  "q": "Aldosterone (adrenal cortex) acting on the tubule:",
-  "options": [
-   "↑ Na+ reabsorption, and water follows",
-   "↓ Na+ reabsorption",
-   "↑ Urine volume",
-   "Inserts AQP2 like ADH"
-  ],
-  "answer": 0,
-  "why": "Aldosterone retains Na+, and water is retained with it.",
-  "notes": [
-   "Correct.",
-   "Wrong: it raises Na+ reabsorption.",
-   "Wrong: it retains water.",
-   "Wrong: that is ADH."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-renal-nephron/21.jpg",
-    "lec": "Renal physiology 2",
-    "n": 21
-   }
-  ]
- }
+  {
+   "q": "After heavy sweating or diarrhoea, which go up?",
+   "options": [
+    "↑ ADH (vasopressin) release",
+    "↑ Water reabsorption in the collecting duct",
+    "↑ Urine output",
+    "↓ Aquaporin-2 in the apical membrane"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Water loss → more ADH → more AQP2 inserted → more water reabsorbed and a smaller, more concentrated urine.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Wrong: urine output falls.",
+    "Wrong: AQP2 insertion rises."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/21.jpg",
+     "lec": "Renal physiology 2",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "q": "With maximal ADH, compared with normal:",
+   "options": [
+    "↑ Water reabsorbed",
+    "↓ Urine volume",
+    "↑ Urine concentration",
+    "↓ Aquaporin-2 in the apical membrane"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Reabsorption rises from 119 to 119.75 mL/min and urine falls from 1 to 0.25 mL/min, so wastes are more concentrated.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct: water conservation concentrates the wastes.",
+    "Wrong: ADH inserts more AQP2."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/15.jpg",
+     "lec": "Renal physiology 2",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "Without ADH, in the collecting duct:",
+   "options": [
+    "↓ cAMP signalling in the cells",
+    "↓ Aquaporin-2 in the apical membrane",
+    "↑ Urine volume",
+    "↑ Water reabsorption"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "No ADH: no receptor → cAMP signal, no AQP2 insertion, less water reabsorbed, so urine volume rises (about 15 mL/min).",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: water reabsorption falls (about 105 mL/min)."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/20.jpg",
+     "lec": "Renal physiology 2",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "Which sequence describes ADH action on the collecting duct?",
+   "options": [
+    "Receptor → cAMP → AQP2 inserted → water reabsorbed by osmosis",
+    "AQP2 inserted → receptor → cAMP → water secreted",
+    "cAMP → receptor → AQP3 removed → ↑ urine",
+    "Receptor → IP3 → ENaC → Na+ reabsorbed"
+   ],
+   "answer": 0,
+   "why": "Vasopressin binds its receptor, cAMP (G protein, adenylate cyclase, protein kinase A) makes the cell insert AQP2, and water follows by osmosis.",
+   "notes": [
+    "Correct.",
+    "Wrong order, and water is reabsorbed.",
+    "Wrong order and wrong channel.",
+    "Wrong: the lecture's pathway is cAMP and AQP2."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/20.jpg",
+     "lec": "Renal physiology 2",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "Where does vasopressin (ADH) bind the collecting-duct cell?",
+   "options": [
+    "On its membrane receptor on the blood side, arriving from the vasa recta",
+    "On the apical side, from the filtrate",
+    "On the aquaporin-2 pores themselves",
+    "Inside the nucleus"
+   ],
+   "answer": 0,
+   "why": "Vasopressin arrives in the blood (vasa recta) and binds its membrane receptor on the basolateral side; cAMP then makes the cell insert AQP2 into the apical membrane.",
+   "notes": [
+    "Correct.",
+    "Wrong: it comes from the blood, not the filtrate.",
+    "Wrong: it binds a receptor; AQP2 is inserted afterwards.",
+    "Wrong: it acts through a membrane receptor and cAMP."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/20.jpg",
+     "lec": "Renal physiology 2",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "Why does water leave the collecting duct once AQP2 is inserted?",
+   "options": [
+    "Filtrate about 300 mOsm vs medullary interstitium about 600 to 700 mOsm: osmosis",
+    "Water is actively pumped out",
+    "The filtrate is more concentrated than the interstitium",
+    "Blood pressure in the tubule pushes it out"
+   ],
+   "answer": 0,
+   "why": "The medullary interstitium is far more concentrated than the filtrate, so water moves out by osmosis.",
+   "notes": [
+    "Correct.",
+    "Wrong: water moves passively.",
+    "Wrong: the reverse.",
+    "Wrong: it is osmosis."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/20.jpg",
+     "lec": "Renal physiology 2",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "q": "When mesangial cells contract, glomerular blood flow:",
+   "options": [
+    "↓ Decreases",
+    "↑ Increases",
+    "↔ Does not change",
+    "↑ Doubles"
+   ],
+   "answer": 0,
+   "why": "Mesangial cells are smooth muscle-like and regulate glomerular blood flow by contracting.",
+   "notes": [
+    "Correct.",
+    "Wrong: contraction reduces flow.",
+    "Wrong: that is their job.",
+    "Wrong."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/09.jpg",
+     "lec": "Renal physiology 2",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "q": "Aldosterone (adrenal cortex) acting on the tubule:",
+   "options": [
+    "↑ Na+ reabsorption, and water follows",
+    "↓ Na+ reabsorption",
+    "↑ Urine volume",
+    "Inserts AQP2 like ADH"
+   ],
+   "answer": 0,
+   "why": "Aldosterone retains Na+, and water is retained with it.",
+   "notes": [
+    "Correct.",
+    "Wrong: it raises Na+ reabsorption.",
+    "Wrong: it retains water.",
+    "Wrong: that is ADH."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-renal-nephron/21.jpg",
+     "lec": "Renal physiology 2",
+     "n": 21
+    }
+   ]
+  }
  ],
  "cards": [
   {
@@ -17096,6 +17092,12 @@ SINA.lectures["physio-bioen-intro"] = {
      "lec": "Bioenergetics 1",
      "n": 3
     }
+   ],
+   "notes": [
+    "Breakdown is only catabolism, half of metabolism.",
+    "All body chemical reactions: catabolism + anabolism.",
+    "ATP synthesis is one part of metabolism.",
+    "Digestion happens before metabolism, in the gut."
    ]
   },
   {
@@ -17114,6 +17116,12 @@ SINA.lectures["physio-bioen-intro"] = {
      "lec": "Bioenergetics 1",
      "n": 4
     }
+   ],
+   "notes": [
+    "Endergonic and endothermic describe anabolism.",
+    "Catabolism releases energy (exergonic) and heat (exothermic).",
+    "Catabolism releases energy, so it isn't endergonic.",
+    "Catabolism releases energy."
    ]
   },
   {
@@ -17132,29 +17140,12 @@ SINA.lectures["physio-bioen-intro"] = {
      "lec": "Bioenergetics 1",
      "n": 4
     }
-   ]
-  },
-  {
-   "q": "Which molecule couples catabolic and anabolic reactions?",
-   "options": [
-    "Glucose",
-    "ATP",
-    "Oxygen",
-    "Urea"
    ],
-   "answer": 1,
-   "why": "ATP transfers energy from catabolic to anabolic reactions.",
-   "slides": [
-    {
-     "src": "files/slides/physio-bioen-intro/08.jpg",
-     "lec": "Bioenergetics 1",
-     "n": 8
-    },
-    {
-     "src": "files/slides/physio-bioen-intro/11.jpg",
-     "lec": "Bioenergetics 1",
-     "n": 11
-    }
+   "notes": [
+    "That is catabolism.",
+    "Anabolism uses more energy than it releases (endergonic).",
+    "Releasing heat is catabolism.",
+    "Exergonic means releasing energy: catabolism."
    ]
   },
   {
@@ -17173,6 +17164,12 @@ SINA.lectures["physio-bioen-intro"] = {
      "lec": "Bioenergetics 1",
      "n": 8
     }
+   ],
+   "notes": [
+    "Cell size doesn't decide which reactions run.",
+    "Active enzymes decide which reactions occur in a cell at a given time.",
+    "pH matters but isn't the deciding factor given.",
+    "Timing matters only through which enzymes are active."
    ]
   },
   {
@@ -17206,24 +17203,6 @@ SINA.lectures["physio-bioen-intro"] = {
    ]
   },
   {
-   "q": "Micronutrients are:",
-   "options": [
-    "Water and carbohydrates",
-    "Vitamins and minerals",
-    "Proteins and lipids",
-    "Fibre and water"
-   ],
-   "answer": 1,
-   "why": "Only small quantities of vitamins and minerals are needed.",
-   "slides": [
-    {
-     "src": "files/slides/physio-bioen-intro/14.jpg",
-     "lec": "Bioenergetics 1",
-     "n": 14
-    }
-   ]
-  },
-  {
    "q": "How many amino acids are essential?",
    "options": [
     "Five",
@@ -17239,6 +17218,12 @@ SINA.lectures["physio-bioen-intro"] = {
      "lec": "Bioenergetics 1",
      "n": 15
     }
+   ],
+   "notes": [
+    "Too few.",
+    "Nine essential amino acids.",
+    "Too many.",
+    "There are 20 amino acids in proteins, not all essential."
    ]
   },
   {
@@ -17257,6 +17242,12 @@ SINA.lectures["physio-bioen-intro"] = {
      "lec": "Bioenergetics 1",
      "n": 16
     }
+   ],
+   "notes": [
+    "Alanine is made by the body.",
+    "Glycine is made by the body.",
+    "Tryptophan is one of the nine essential amino acids.",
+    "Glutamate is made by the body."
    ]
   },
   {
@@ -17304,6 +17295,12 @@ SINA.lectures["physio-bioen-intro"] = {
      "lec": "Bioenergetics 1",
      "n": 15
     }
+   ],
+   "notes": [
+    "Energy content doesn't define 'essential'.",
+    "Essential = the body can't make it; it must come from food.",
+    "Quantity defines macro- vs micronutrients.",
+    "The RDA amount doesn't define 'essential'."
    ]
   },
   {
@@ -17322,6 +17319,12 @@ SINA.lectures["physio-bioen-intro"] = {
      "lec": "Bioenergetics 1",
      "n": 17
     }
+   ],
+   "notes": [
+    "RDAs vary with age, sex, pregnancy and more.",
+    "RDAs say how much; essential nutrients say which.",
+    "RDAs are a public health guideline; 'essential' is the biological concept.",
+    "RDAs cover all nutrients, not only vitamins and minerals."
    ]
   },
   {
@@ -17340,6 +17343,12 @@ SINA.lectures["physio-bioen-intro"] = {
      "lec": "Bioenergetics 1",
      "n": 18
     }
+   ],
+   "notes": [
+    "1 kg of water by 1 °C is a kilocalorie.",
+    "1 calorie warms 1 g of water by 1 °C.",
+    "Not the definition.",
+    "Not the definition."
    ]
   },
   {
@@ -17358,24 +17367,12 @@ SINA.lectures["physio-bioen-intro"] = {
      "lec": "Bioenergetics 1",
      "n": 18
     }
-   ]
-  },
-  {
-   "q": "Alcohol provides about:",
-   "options": [
-    "4 kcal/g",
-    "7 kcal/g",
-    "9 kcal/g",
-    "0 kcal/g"
    ],
-   "answer": 1,
-   "why": "Alcohol 7 kcal/g; sugar and alcohol are empty calories.",
-   "slides": [
-    {
-     "src": "files/slides/physio-bioen-intro/19.jpg",
-     "lec": "Bioenergetics 1",
-     "n": 19
-    }
+   "notes": [
+    "A dietary Calorie is 1000 calories.",
+    "A dietary Calorie is 1000 calories.",
+    "1 Calorie (dietetics) = 1 kcal = 1000 calories.",
+    "A joule is a different unit (1 cal ≈ 4.18 J)."
    ]
   },
   {
@@ -17394,6 +17391,12 @@ SINA.lectures["physio-bioen-intro"] = {
      "lec": "Bioenergetics 1",
      "n": 19
     }
+   ],
+   "notes": [
+    "The opposite: few nutrients per gram.",
+    "Energy with few nutrients, and they suppress appetite.",
+    "They do contain usable energy.",
+    "Sugar and alcohol are the examples, not fibre."
    ]
   },
   {
@@ -17417,6 +17420,12 @@ SINA.lectures["physio-bioen-intro"] = {
      "lec": "Bioenergetics 1",
      "n": 15
     }
+   ],
+   "notes": [
+    "The body can't make enough water.",
+    "Water must come from the diet.",
+    "Water is a macronutrient.",
+    "Water is needed in large amounts."
    ]
   },
   {
@@ -17479,161 +17488,161 @@ SINA.lectures["physio-bioen-intro"] = {
    "answer": 2,
    "why": "The arrow points to: Body functions. Normal function, homeostasis, repair and growth."
   },
- {
-  "q": "Coupling through ATP: which are correct?",
-  "options": [
-   "Catabolism: ↑ ATP made from ADP + Pi",
-   "Anabolism: ↓ ATP (ATP → ADP + Pi)",
-   "Catabolism: ↓ ATP",
-   "Anabolism: ↑ ATP"
-  ],
-  "answers": [
-   0,
-   1
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "ATP stores energy released by catabolism and hands it to anabolism.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Wrong: catabolism makes ATP.",
-   "Wrong: anabolism spends ATP."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-intro/11.jpg",
-    "lec": "Bioenergetics 1",
-    "n": 11
-   }
-  ]
- },
- {
-  "q": "2 000 kcal equals:",
-  "options": [
-   "2 000 000 calories",
-   "2 000 calories",
-   "200 calories",
-   "2 calories"
-  ],
-  "answer": 0,
-  "why": "1 kcal = 1 000 calories = 1 Calorie in dietetics.",
-  "notes": [
-   "Correct.",
-   "Wrong: that confuses kcal and calories.",
-   "Wrong.",
-   "Wrong."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-intro/18.jpg",
-    "lec": "Bioenergetics 1",
-    "n": 18
-   }
-  ]
- },
- {
-  "q": "A drink containing 14 g of alcohol provides about:",
-  "options": [
-   "98 kcal",
-   "56 kcal",
-   "126 kcal",
-   "0 kcal"
-  ],
-  "answer": 0,
-  "why": "Alcohol gives 7 kcal/g: 14 × 7 = 98 kcal of 'empty' calories.",
-  "notes": [
-   "Correct.",
-   "Wrong: that uses 4 kcal/g.",
-   "Wrong: that uses 9 kcal/g.",
-   "Wrong: alcohol is energy-rich."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-intro/19.jpg",
-    "lec": "Bioenergetics 1",
-    "n": 19
-   }
-  ]
- },
- {
-  "q": "During pregnancy, the RDA for many nutrients:",
-  "options": [
-   "↑ Rises",
-   "↓ Falls",
-   "↔ Is the same as for all humans",
-   "Is replaced by the essential-nutrient list"
-  ],
-  "answer": 0,
-  "why": "RDAs vary with age, sex, pregnancy and other factors; needs go up in pregnancy.",
-  "notes": [
-   "Correct.",
-   "Wrong.",
-   "Wrong: that describes essential nutrients, not RDAs.",
-   "Wrong."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-intro/17.jpg",
-    "lec": "Bioenergetics 1",
-    "n": 17
-   }
-  ]
- },
- {
-  "q": "Which are essential nutrients?",
-  "options": [
-   "Valine",
-   "Iodine",
-   "Alpha-linolenic acid",
-   "Alanine"
-  ],
-  "answers": [
-   0,
-   1,
-   2
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "Essential: nine amino acids (valine among them), minerals such as iodine, omega-3 and omega-6. Alanine can be made by the body.",
-  "notes": [
-   "Correct: one of the nine.",
-   "Correct: a mineral.",
-   "Correct: omega-3.",
-   "Wrong: non-essential."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-intro/15.jpg",
-    "lec": "Bioenergetics 1",
-    "n": 15
-   }
-  ]
- },
- {
-  "q": "In the lecture's list of what nutrients are used for, repair relies mainly on:",
-  "options": [
-   "Proteins (amino acids)",
-   "Vitamins",
-   "Na+ and other minerals",
-   "Glucose"
-  ],
-  "answer": 0,
-  "why": "Energy: lipids and carbohydrates; growth: vitamins; repair: proteins and amino acids; necessary chemicals: Na+ and other minerals.",
-  "notes": [
-   "Correct.",
-   "Wrong: listed for growth.",
-   "Wrong: listed as necessary chemicals.",
-   "Wrong: an energy source."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-intro/07.jpg",
-    "lec": "Bioenergetics 1",
-    "n": 7
-   }
-  ]
- }
+  {
+   "q": "Coupling through ATP: which are correct?",
+   "options": [
+    "Catabolism: ↑ ATP made from ADP + Pi",
+    "Anabolism: ↓ ATP (ATP → ADP + Pi)",
+    "Catabolism: ↓ ATP",
+    "Anabolism: ↑ ATP"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "ATP stores energy released by catabolism and hands it to anabolism.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Wrong: catabolism makes ATP.",
+    "Wrong: anabolism spends ATP."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/11.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "q": "2 000 kcal equals:",
+   "options": [
+    "2 000 000 calories",
+    "2 000 calories",
+    "200 calories",
+    "2 calories"
+   ],
+   "answer": 0,
+   "why": "1 kcal = 1 000 calories = 1 Calorie in dietetics.",
+   "notes": [
+    "Correct.",
+    "Wrong: that confuses kcal and calories.",
+    "Wrong.",
+    "Wrong."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/18.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "q": "A drink containing 14 g of alcohol provides about:",
+   "options": [
+    "98 kcal",
+    "56 kcal",
+    "126 kcal",
+    "0 kcal"
+   ],
+   "answer": 0,
+   "why": "Alcohol gives 7 kcal/g: 14 × 7 = 98 kcal of 'empty' calories.",
+   "notes": [
+    "Correct.",
+    "Wrong: that uses 4 kcal/g.",
+    "Wrong: that uses 9 kcal/g.",
+    "Wrong: alcohol is energy-rich."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/19.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "q": "During pregnancy, the RDA for many nutrients:",
+   "options": [
+    "↑ Rises",
+    "↓ Falls",
+    "↔ Is the same as for all humans",
+    "Is replaced by the essential-nutrient list"
+   ],
+   "answer": 0,
+   "why": "RDAs vary with age, sex, pregnancy and other factors; needs go up in pregnancy.",
+   "notes": [
+    "Correct.",
+    "Wrong.",
+    "Wrong: that describes essential nutrients, not RDAs.",
+    "Wrong."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/17.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "q": "Which are essential nutrients?",
+   "options": [
+    "Valine",
+    "Iodine",
+    "Alpha-linolenic acid",
+    "Alanine"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Essential: nine amino acids (valine among them), minerals such as iodine, omega-3 and omega-6. Alanine can be made by the body.",
+   "notes": [
+    "Correct: one of the nine.",
+    "Correct: a mineral.",
+    "Correct: omega-3.",
+    "Wrong: non-essential."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/15.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "q": "In the lecture's list of what nutrients are used for, repair relies mainly on:",
+   "options": [
+    "Proteins (amino acids)",
+    "Vitamins",
+    "Na+ and other minerals",
+    "Glucose"
+   ],
+   "answer": 0,
+   "why": "Energy: lipids and carbohydrates; growth: vitamins; repair: proteins and amino acids; necessary chemicals: Na+ and other minerals.",
+   "notes": [
+    "Correct.",
+    "Wrong: listed for growth.",
+    "Wrong: listed as necessary chemicals.",
+    "Wrong: an energy source."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-intro/07.jpg",
+     "lec": "Bioenergetics 1",
+     "n": 7
+    }
+   ]
+  }
  ],
  "cards": [
   {
@@ -17954,24 +17963,12 @@ SINA.lectures["physio-bioen-regulation"] = {
      "lec": "Bioenergetics 2",
      "n": 6
     }
-   ]
-  },
-  {
-   "q": "A polysaccharide contains:",
-   "options": [
-    "2 monomers",
-    "3 to 10 monomers",
-    "More than 10 monomers",
-    "Exactly 6 carbons"
    ],
-   "answer": 2,
-   "why": "Disaccharide 2, oligosaccharide 3-10, polysaccharide more than 10.",
-   "slides": [
-    {
-     "src": "files/slides/physio-bioen-regulation/04.jpg",
-     "lec": "Bioenergetics 2",
-     "n": 4
-    }
+   "notes": [
+    "Too low: that is hypoglycaemia.",
+    "70–110 mg/dL (0.7–1.1 g/L).",
+    "Too high: that is hyperglycaemia.",
+    "1.5–2 g/L is 150–200 mg/dL: too high."
    ]
   },
   {
@@ -17990,6 +17987,12 @@ SINA.lectures["physio-bioen-regulation"] = {
      "lec": "Bioenergetics 2",
      "n": 8
     }
+   ],
+   "notes": [
+    "Fructose isn't the monomer of these.",
+    "Galactose isn't the monomer of these.",
+    "All three are chains of glucose.",
+    "Ribose is a pentose in nucleic acids."
    ]
   },
   {
@@ -18008,6 +18011,12 @@ SINA.lectures["physio-bioen-regulation"] = {
      "lec": "Bioenergetics 2",
      "n": 9
     }
+   ],
+   "notes": [
+    "It does reach the gut; it passes through undigested.",
+    "Humans lack the enzyme that breaks cellulose.",
+    "Acid doesn't destroy it.",
+    "It isn't absorbed."
    ]
   },
   {
@@ -18056,6 +18065,12 @@ SINA.lectures["physio-bioen-regulation"] = {
      "lec": "Bioenergetics 2",
      "n": 12
     }
+   ],
+   "notes": [
+    "The problem is too little lactase.",
+    "Undigested lactose reaches the colon, where bacteria ferment it into gas and acids.",
+    "Lactose isn't absorbed whole.",
+    "The liver isn't the source of symptoms."
    ]
   },
   {
@@ -18074,6 +18089,12 @@ SINA.lectures["physio-bioen-regulation"] = {
      "lec": "Bioenergetics 2",
      "n": 10
     }
+   ],
+   "notes": [
+    "Sucrase digests sucrose.",
+    "Lactase = β-galactosidase.",
+    "Maltase digests maltose.",
+    "Hexokinase phosphorylates glucose."
    ]
   },
   {
@@ -18092,6 +18113,12 @@ SINA.lectures["physio-bioen-regulation"] = {
      "lec": "Bioenergetics 2",
      "n": 16
     }
+   ],
+   "notes": [
+    "Glycolysis comes first.",
+    "Glycolysis → acetyl-CoA → Krebs → electron transport.",
+    "Electron transport comes last.",
+    "Glycolysis comes first."
    ]
   },
   {
@@ -18110,6 +18137,12 @@ SINA.lectures["physio-bioen-regulation"] = {
      "lec": "Bioenergetics 2",
      "n": 18
     }
+   ],
+   "notes": [
+    "4 ATP made − 2 used = net 2.",
+    "4 is the gross yield, before the 2 used to start.",
+    "36 is roughly the whole aerobic yield.",
+    "Glycolysis has a positive net yield."
    ]
   },
   {
@@ -18128,6 +18161,12 @@ SINA.lectures["physio-bioen-regulation"] = {
      "lec": "Bioenergetics 2",
      "n": 18
     }
+   ],
+   "notes": [
+    "Only a small part goes to ATP.",
+    "Some goes to NADH, not most.",
+    "Most of the energy stays in pyruvate.",
+    "Some is lost as heat, not most."
    ]
   },
   {
@@ -18146,6 +18185,12 @@ SINA.lectures["physio-bioen-regulation"] = {
      "lec": "Bioenergetics 2",
      "n": 32
     }
+   ],
+   "notes": [
+    "Glucose 1-phosphate is made from glycogen breakdown.",
+    "Hexokinase phosphorylates glucose to G6P.",
+    "Pyruvate is the end of glycolysis.",
+    "Glycogen is made by glycogen synthase."
    ]
   },
   {
@@ -18164,24 +18209,12 @@ SINA.lectures["physio-bioen-regulation"] = {
      "lec": "Bioenergetics 2",
      "n": 32
     }
-   ]
-  },
-  {
-   "q": "NAD+ is derived from:",
-   "options": [
-    "Riboflavin",
-    "Niacin",
-    "Thiamine",
-    "Vitamin C"
    ],
-   "answer": 1,
-   "why": "NAD+ from niacin (B vitamin); FAD from riboflavin.",
-   "slides": [
-    {
-     "src": "files/slides/physio-bioen-regulation/23.jpg",
-     "lec": "Bioenergetics 2",
-     "n": 23
-    }
+   "notes": [
+    "Phosphorylated glucose can't leave the cell.",
+    "Keeps free glucose low (favouring entry) and traps G6P inside.",
+    "This step doesn't need oxygen.",
+    "It happens in the cytoplasm."
    ]
   },
   {
@@ -18200,6 +18233,12 @@ SINA.lectures["physio-bioen-regulation"] = {
      "lec": "Bioenergetics 2",
      "n": 23
     }
+   ],
+   "notes": [
+    "Only one proton binds; the other stays free as H⁺.",
+    "Two electrons and one proton → NADH (+ H⁺).",
+    "It takes two electrons.",
+    "It binds electrons too."
    ]
   },
   {
@@ -18218,6 +18257,12 @@ SINA.lectures["physio-bioen-regulation"] = {
      "lec": "Bioenergetics 2",
      "n": 34
     }
+   ],
+   "notes": [
+    "NAD⁺ is an electron carrier at the start of the chain.",
+    "FAD is another carrier.",
+    "Oxygen accepts electrons and protons, forming water.",
+    "Cytochrome c passes electrons along; it isn't the final acceptor."
    ]
   },
   {
@@ -18236,6 +18281,12 @@ SINA.lectures["physio-bioen-regulation"] = {
      "lec": "Bioenergetics 2",
      "n": 35
     }
+   ],
+   "notes": [
+    "Glycolysis happens in the cytoplasm.",
+    "The Krebs cycle runs in the mitochondrial matrix.",
+    "The electron transport chain is in the inner membrane.",
+    "No respiration steps happen in the nucleus."
    ]
   },
   {
@@ -18254,24 +18305,12 @@ SINA.lectures["physio-bioen-regulation"] = {
      "lec": "Bioenergetics 2",
      "n": 35
     }
-   ]
-  },
-  {
-   "q": "The body's main source of metabolic water is:",
-   "options": [
-    "Glycolysis in the cytoplasm",
-    "Oxygen reduction at the end of the ETC",
-    "Gluconeogenesis in the liver",
-    "Lipogenesis in adipose tissue"
    ],
-   "answer": 1,
-   "why": "Each O atom accepts 2 e− and 2 H+ forming water.",
-   "slides": [
-    {
-     "src": "files/slides/physio-bioen-regulation/34.jpg",
-     "lec": "Bioenergetics 2",
-     "n": 34
-    }
+   "notes": [
+    "Glycolysis is in the cytoplasm.",
+    "Not the outer membrane.",
+    "Cytochromes sit in the inner membrane (cristae).",
+    "The matrix holds the Krebs cycle."
    ]
   },
   {
@@ -18290,6 +18329,12 @@ SINA.lectures["physio-bioen-regulation"] = {
      "lec": "Bioenergetics 2",
      "n": 36
     }
+   ],
+   "notes": [
+    "Too little.",
+    "About 500 g.",
+    "Too much: that's closer to body fat stores.",
+    "Far too much."
    ]
   },
   {
@@ -18308,6 +18353,12 @@ SINA.lectures["physio-bioen-regulation"] = {
      "lec": "Bioenergetics 2",
      "n": 36
     }
+   ],
+   "notes": [
+    "The liver holds the remaining 25%.",
+    "About 75% is in skeletal muscle.",
+    "The brain stores almost no glycogen.",
+    "Adipose tissue stores fat, not glycogen."
    ]
   },
   {
@@ -18361,6 +18412,12 @@ SINA.lectures["physio-bioen-regulation"] = {
      "lec": "Bioenergetics 2",
      "n": 40
     }
+   ],
+   "notes": [
+    "Hexokinase phosphorylates glucose (in all cells).",
+    "Glucose 6-phosphatase removes the phosphate so glucose can leave (liver, kidney, intestine).",
+    "Glycogen synthase builds glycogen.",
+    "Lactase digests lactose in the gut."
    ]
   },
   {
@@ -18423,253 +18480,253 @@ SINA.lectures["physio-bioen-regulation"] = {
    "answer": 1,
    "why": "The arrow points to: Oxygen. Final electron acceptor; each O atom takes 2 electrons and 2 protons to form metabolic water."
   },
- {
-  "q": "After a carbohydrate-rich meal, which go up?",
-  "options": [
-   "↑ Glycogenesis (glycogen synthase)",
-   "↑ Glucose trapped in cells as G6P (hexokinase)",
-   "↑ Glycogenolysis",
-   "↑ Large-scale gluconeogenesis"
-  ],
-  "answers": [
-   0,
-   1
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "Glucose not needed now is trapped as G6P and stored as glycogen. Glycogenolysis and large-scale gluconeogenesis are for when glucose is needed.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Wrong: that releases stored glucose.",
-   "Wrong: large-scale in fasting."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-regulation/40.jpg",
-    "lec": "Bioenergetics 2",
-    "n": 40
-   }
-  ]
- },
- {
-  "q": "During fasting or starvation, which go up?",
-  "options": [
-   "↑ Glycogenolysis (glycogen phosphorylase)",
-   "↑ Gluconeogenesis from lactate, amino acids and glycerol",
-   "↑ Glycogen stores",
-   "↑ Glycogenesis"
-  ],
-  "answers": [
-   0,
-   1
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "Stored glycogen is broken down and new glucose is made from non-carbohydrates.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Wrong: they are used up.",
-   "Wrong: that stores glucose."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-regulation/39.jpg",
-    "lec": "Bioenergetics 2",
-    "n": 39
-   }
-  ]
- },
- {
-  "q": "Without oxygen at the end of the electron transport chain:",
-  "options": [
-   "↓ ATP made by the mitochondria",
-   "↓ Metabolic water formed",
-   "↑ ATP from the electron transport chain",
-   "↑ Water formed at cytochrome a3"
-  ],
-  "answers": [
-   0,
-   1
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "Oxygen is the final electron acceptor; without it electron transport stops, so mitochondrial ATP and metabolic water fall.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Wrong.",
-   "Wrong: no oxygen to reduce."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-regulation/34.jpg",
-    "lec": "Bioenergetics 2",
-    "n": 34
-   }
-  ]
- },
- {
-  "q": "Vitamin deficiencies and coenzymes: which are correct?",
-  "options": [
-   "↓ Niacin → ↓ NAD+",
-   "↓ Riboflavin → ↓ FAD",
-   "↓ Niacin → ↓ FAD",
-   "↓ Riboflavin → ↓ NAD+"
-  ],
-  "answers": [
-   0,
-   1
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "NAD+ comes from niacin; FAD comes from riboflavin.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Wrong pairing.",
-   "Wrong pairing."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-regulation/23.jpg",
-    "lec": "Bioenergetics 2",
-    "n": 23
-   }
-  ]
- },
- {
-  "q": "With lactase present, lactose is split into:",
-  "options": [
-   "Glucose + galactose",
-   "Glucose + fructose",
-   "Two glucose",
-   "Galactose + fructose"
-  ],
-  "answer": 0,
-  "why": "Lactase (β-galactosidase): lactose → glucose + galactose.",
-  "notes": [
-   "Correct.",
-   "Wrong: that is sucrose.",
-   "Wrong: that is maltose.",
-   "Wrong."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-regulation/10.jpg",
-    "lec": "Bioenergetics 2",
-    "n": 10
-   }
-  ]
- },
- {
-  "q": "A trisaccharide (3 monomers) is classed as:",
-  "options": [
-   "An oligosaccharide",
-   "A disaccharide",
-   "A polysaccharide",
-   "A monosaccharide"
-  ],
-  "answer": 0,
-  "why": "Oligosaccharides have 3 to 10 monomers; polysaccharides more than 10.",
-  "notes": [
-   "Correct.",
-   "Wrong: 2 monomers.",
-   "Wrong: more than 10.",
-   "Wrong: 1."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-regulation/04.jpg",
-    "lec": "Bioenergetics 2",
-    "n": 4
-   }
-  ]
- },
- {
-  "q": "Which sugars do the small intestine and liver convert to glucose?",
-  "options": [
-   "Galactose",
-   "Fructose",
-   "Cellulose",
-   "Ribose"
-  ],
-  "answers": [
-   0,
-   1
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "Galactose and fructose are converted to glucose, so all carbohydrate digestion ends in glucose.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Wrong: not digestible.",
-   "Wrong: a pentose for nucleic acids."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-regulation/06.jpg",
-    "lec": "Bioenergetics 2",
-    "n": 6
-   }
-  ]
- },
- {
-  "q": "Where is glucose 6-phosphatase found?",
-  "options": [
-   "Liver",
-   "Kidney",
-   "Intestine",
-   "Skeletal muscle"
-  ],
-  "answers": [
-   0,
-   1,
-   2
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "Glucose 6-phosphatase frees glucose into the blood in the liver, kidney and intestine; hexokinase (all cells) traps it.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Correct.",
-   "Wrong: not on the lecture's list."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-regulation/40.jpg",
-    "lec": "Bioenergetics 2",
-    "n": 40
-   }
-  ]
- },
- {
-  "q": "The proton gradient built by the electron transport chain drives:",
-  "options": [
-   "ATP synthase (chemiosmosis)",
-   "Hexokinase",
-   "Glycogen phosphorylase",
-   "Lactase"
-  ],
-  "answer": 0,
-  "why": "Pumped protons flow back through ATP synthase, which makes ATP: chemiosmosis.",
-  "notes": [
-   "Correct.",
-   "Wrong: glycolysis.",
-   "Wrong: glycogenolysis.",
-   "Wrong: digestion."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-regulation/29.jpg",
-    "lec": "Bioenergetics 2",
-    "n": 29
-   }
-  ]
- }
+  {
+   "q": "After a carbohydrate-rich meal, which go up?",
+   "options": [
+    "↑ Glycogenesis (glycogen synthase)",
+    "↑ Glucose trapped in cells as G6P (hexokinase)",
+    "↑ Glycogenolysis",
+    "↑ Large-scale gluconeogenesis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Glucose not needed now is trapped as G6P and stored as glycogen. Glycogenolysis and large-scale gluconeogenesis are for when glucose is needed.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Wrong: that releases stored glucose.",
+    "Wrong: large-scale in fasting."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/40.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "q": "During fasting or starvation, which go up?",
+   "options": [
+    "↑ Glycogenolysis (glycogen phosphorylase)",
+    "↑ Gluconeogenesis from lactate, amino acids and glycerol",
+    "↑ Glycogen stores",
+    "↑ Glycogenesis"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Stored glycogen is broken down and new glucose is made from non-carbohydrates.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Wrong: they are used up.",
+    "Wrong: that stores glucose."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/39.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 39
+    }
+   ]
+  },
+  {
+   "q": "Without oxygen at the end of the electron transport chain:",
+   "options": [
+    "↓ ATP made by the mitochondria",
+    "↓ Metabolic water formed",
+    "↑ ATP from the electron transport chain",
+    "↑ Water formed at cytochrome a3"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Oxygen is the final electron acceptor; without it electron transport stops, so mitochondrial ATP and metabolic water fall.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Wrong.",
+    "Wrong: no oxygen to reduce."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/34.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 34
+    }
+   ]
+  },
+  {
+   "q": "Vitamin deficiencies and coenzymes: which are correct?",
+   "options": [
+    "↓ Niacin → ↓ NAD+",
+    "↓ Riboflavin → ↓ FAD",
+    "↓ Niacin → ↓ FAD",
+    "↓ Riboflavin → ↓ NAD+"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "NAD+ comes from niacin; FAD comes from riboflavin.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Wrong pairing.",
+    "Wrong pairing."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/23.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "q": "With lactase present, lactose is split into:",
+   "options": [
+    "Glucose + galactose",
+    "Glucose + fructose",
+    "Two glucose",
+    "Galactose + fructose"
+   ],
+   "answer": 0,
+   "why": "Lactase (β-galactosidase): lactose → glucose + galactose.",
+   "notes": [
+    "Correct.",
+    "Wrong: that is sucrose.",
+    "Wrong: that is maltose.",
+    "Wrong."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/10.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "q": "A trisaccharide (3 monomers) is classed as:",
+   "options": [
+    "An oligosaccharide",
+    "A disaccharide",
+    "A polysaccharide",
+    "A monosaccharide"
+   ],
+   "answer": 0,
+   "why": "Oligosaccharides have 3 to 10 monomers; polysaccharides more than 10.",
+   "notes": [
+    "Correct.",
+    "Wrong: 2 monomers.",
+    "Wrong: more than 10.",
+    "Wrong: 1."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/04.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "Which sugars do the small intestine and liver convert to glucose?",
+   "options": [
+    "Galactose",
+    "Fructose",
+    "Cellulose",
+    "Ribose"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Galactose and fructose are converted to glucose, so all carbohydrate digestion ends in glucose.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Wrong: not digestible.",
+    "Wrong: a pentose for nucleic acids."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/06.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "q": "Where is glucose 6-phosphatase found?",
+   "options": [
+    "Liver",
+    "Kidney",
+    "Intestine",
+    "Skeletal muscle"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Glucose 6-phosphatase frees glucose into the blood in the liver, kidney and intestine; hexokinase (all cells) traps it.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: not on the lecture's list."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/40.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "q": "The proton gradient built by the electron transport chain drives:",
+   "options": [
+    "ATP synthase (chemiosmosis)",
+    "Hexokinase",
+    "Glycogen phosphorylase",
+    "Lactase"
+   ],
+   "answer": 0,
+   "why": "Pumped protons flow back through ATP synthase, which makes ATP: chemiosmosis.",
+   "notes": [
+    "Correct.",
+    "Wrong: glycolysis.",
+    "Wrong: glycogenolysis.",
+    "Wrong: digestion."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-regulation/29.jpg",
+     "lec": "Bioenergetics 2",
+     "n": 29
+    }
+   ]
+  }
  ],
  "cards": [
   {
@@ -18980,6 +19037,12 @@ SINA.lectures["physio-bioen-lipids"] = {
      "lec": "Bioenergetics 3",
      "n": 2
     }
+   ],
+   "notes": [
+    "Too low for an average woman.",
+    "15% is the average for men.",
+    "Women average about 25% body fat.",
+    "Far above average."
    ]
   },
   {
@@ -18998,24 +19061,12 @@ SINA.lectures["physio-bioen-lipids"] = {
      "lec": "Bioenergetics 3",
      "n": 2
     }
-   ]
-  },
-  {
-   "q": "Fat provides about:",
-   "options": [
-    "4 kcal/g",
-    "7 kcal/g",
-    "9 kcal/g",
-    "12 kcal/g"
    ],
-   "answer": 2,
-   "why": "Fat 9 kcal/g; carbohydrate 4 kcal/g.",
-   "slides": [
-    {
-     "src": "files/slides/physio-bioen-lipids/02.jpg",
-     "lec": "Bioenergetics 3",
-     "n": 2
-    }
+   "notes": [
+    "Too low.",
+    "Too low.",
+    "80–90% of resting energy comes from fat.",
+    "Not all: some comes from carbohydrate."
    ]
   },
   {
@@ -19034,72 +19085,12 @@ SINA.lectures["physio-bioen-lipids"] = {
      "lec": "Bioenergetics 3",
      "n": 2
     }
-   ]
-  },
-  {
-   "q": "Fat's glucose-sparing effect keeps glucose for:",
-   "options": [
-    "Adipocytes",
-    "Neurons",
-    "Hepatocytes only",
-    "Red cells only"
    ],
-   "answer": 1,
-   "why": "Glucose is spared for cells that cannot use fat, such as neurons.",
-   "slides": [
-    {
-     "src": "files/slides/physio-bioen-lipids/03.jpg",
-     "lec": "Bioenergetics 3",
-     "n": 3
-    }
-   ]
-  },
-  {
-   "q": "Which vitamins are absorbed with dietary fat?",
-   "options": [
-    "A",
-    "D",
-    "K",
-    "C"
-   ],
-   "answers": [
-    0,
-    1,
-    2
-   ],
-   "multi": true,
-   "hint": "choose all correct answers",
-   "why": "Fat-soluble vitamins A, D, E, K.",
    "notes": [
-    "Correct.",
-    "Correct.",
-    "Correct.",
-    "Wrong: water-soluble."
-   ],
-   "slides": [
-    {
-     "src": "files/slides/physio-bioen-lipids/03.jpg",
-     "lec": "Bioenergetics 3",
-     "n": 3
-    }
-   ]
-  },
-  {
-   "q": "Eating less than how much fat per day risks vitamin deficiency?",
-   "options": [
-    "5 g",
-    "20 g",
-    "100 g",
-    "200 g"
-   ],
-   "answer": 1,
-   "why": "Less than 20 g of fat per day.",
-   "slides": [
-    {
-     "src": "files/slides/physio-bioen-lipids/03.jpg",
-     "lec": "Bioenergetics 3",
-     "n": 3
-    }
+    "That describes carbohydrate, which makes it bulky.",
+    "Hydrophobic, compact, and over twice the energy per gram.",
+    "Not the reason given.",
+    "Fat does need lipoproteins to travel in blood."
    ]
   },
   {
@@ -19118,6 +19109,12 @@ SINA.lectures["physio-bioen-lipids"] = {
      "lec": "Bioenergetics 3",
      "n": 5
     }
+   ],
+   "notes": [
+    "Cholesterol isn't part of a triglyceride.",
+    "A glycerol backbone + 3 fatty acids.",
+    "That describes a phospholipid.",
+    "That would be a carbohydrate."
    ]
   },
   {
@@ -19136,6 +19133,12 @@ SINA.lectures["physio-bioen-lipids"] = {
      "lec": "Bioenergetics 3",
      "n": 6
     }
+   ],
+   "notes": [
+    "Saturated = only single C–C bonds.",
+    "Double bonds mean unsaturated.",
+    "Triple bonds mean unsaturated.",
+    "Fatty acids are carbon chains (4–24 carbons)."
    ]
   },
   {
@@ -19154,6 +19157,12 @@ SINA.lectures["physio-bioen-lipids"] = {
      "lec": "Bioenergetics 3",
      "n": 14
     }
+   ],
+   "notes": [
+    "The kidney doesn't make lipoproteins.",
+    "Lipoproteins are made in the liver (chylomicrons in the intestine).",
+    "The pancreas makes digestive enzymes and hormones.",
+    "The spleen doesn't make lipoproteins."
    ]
   },
   {
@@ -19172,6 +19181,12 @@ SINA.lectures["physio-bioen-lipids"] = {
      "lec": "Bioenergetics 3",
      "n": 7
     }
+   ],
+   "notes": [
+    "The core is hydrophobic, not the shell.",
+    "Polar proteins and phospholipid heads make the shell water-friendly.",
+    "Triglyceride is in the core.",
+    "The shell has proteins and phospholipids too."
    ]
   },
   {
@@ -19190,6 +19205,12 @@ SINA.lectures["physio-bioen-lipids"] = {
      "lec": "Bioenergetics 3",
      "n": 10
     }
+   ],
+   "notes": [
+    "HDL has about 5% triglyceride.",
+    "LDL has about 6%.",
+    "VLDL has about 55%.",
+    "Chylomicrons are about 90% triglyceride."
    ]
   },
   {
@@ -19208,24 +19229,12 @@ SINA.lectures["physio-bioen-lipids"] = {
      "lec": "Bioenergetics 3",
      "n": 14
     }
-   ]
-  },
-  {
-   "q": "Which lipoprotein is about 50% protein?",
-   "options": [
-    "HDL",
-    "LDL",
-    "VLDL",
-    "Chylomicron"
    ],
-   "answer": 0,
-   "why": "HDL: protein 50%.",
-   "slides": [
-    {
-     "src": "files/slides/physio-bioen-lipids/10.jpg",
-     "lec": "Bioenergetics 3",
-     "n": 10
-    }
+   "notes": [
+    "Chylomicrons are mostly triglyceride.",
+    "VLDL is mostly triglyceride.",
+    "LDL is mainly cholesterol.",
+    "HDL is mainly protein."
    ]
   },
   {
@@ -19244,6 +19253,12 @@ SINA.lectures["physio-bioen-lipids"] = {
      "lec": "Bioenergetics 3",
      "n": 9
     }
+   ],
+   "notes": [
+    "Chylomicrons are the largest (up to 1200 nm).",
+    "VLDL 30–80 nm.",
+    "LDL 18–25 nm.",
+    "HDL 5–12 nm: the smallest."
    ]
   },
   {
@@ -19262,24 +19277,12 @@ SINA.lectures["physio-bioen-lipids"] = {
      "lec": "Bioenergetics 3",
      "n": 14
     }
-   ]
-  },
-  {
-   "q": "Which enzyme removes lipids from chylomicrons?",
-   "options": [
-    "Hormone-sensitive lipase",
-    "Lipoprotein lipase",
-    "Pancreatic amylase",
-    "HMG-CoA reductase"
    ],
-   "answer": 1,
-   "why": "Lipoprotein lipase.",
-   "slides": [
-    {
-     "src": "files/slides/physio-bioen-lipids/14.jpg",
-     "lec": "Bioenergetics 3",
-     "n": 14
-    }
+   "notes": [
+    "Chylomicrons are too big for the capillaries; they go to the lymph first.",
+    "Lymph absorbs chylomicrons from the small intestine.",
+    "Bile carries cholesterol out, not chylomicrons in.",
+    "Lipids aren't in the urine."
    ]
   },
   {
@@ -19298,6 +19301,12 @@ SINA.lectures["physio-bioen-lipids"] = {
      "lec": "Bioenergetics 3",
      "n": 14
     }
+   ],
+   "notes": [
+    "LDL is too big to diffuse.",
+    "LDL binds its receptor and is taken in by endocytosis.",
+    "Exocytosis releases material.",
+    "Not a route for LDL uptake."
    ]
   },
   {
@@ -19316,6 +19325,12 @@ SINA.lectures["physio-bioen-lipids"] = {
      "lec": "Bioenergetics 3",
      "n": 14
     }
+   ],
+   "notes": [
+    "That is LDL's role.",
+    "HDL removes excess cholesterol to the liver.",
+    "That is chylomicrons.",
+    "Adipocytes store triglyceride themselves."
    ]
   },
   {
@@ -19364,6 +19379,12 @@ SINA.lectures["physio-bioen-lipids"] = {
      "lec": "Bioenergetics 3",
      "n": 13
     }
+   ],
+   "notes": [
+    "Prostaglandins and thromboxanes come from fatty acids.",
+    "Cholesterol → steroid hormones (and vitamin D).",
+    "Eicosanoids come from fatty acids.",
+    "Glycogen and starch are glucose polymers."
    ]
   },
   {
@@ -19382,6 +19403,12 @@ SINA.lectures["physio-bioen-lipids"] = {
      "lec": "Bioenergetics 3",
      "n": 13
     }
+   ],
+   "notes": [
+    "That describes fatty acids.",
+    "Cholesterol is structural and regulatory, not fuel.",
+    "It makes membranes more rigid; unsaturated fatty acids make them fluid.",
+    "It travels in several lipoproteins, mostly LDL."
    ]
   },
   {
@@ -19444,249 +19471,249 @@ SINA.lectures["physio-bioen-lipids"] = {
    "answer": 2,
    "why": "The arrow points to: HDL. Empty shells from the liver pick up cholesterol from tissues and return it to the liver."
   },
- {
-  "q": "Which ↑ the HDL/LDL ratio?",
-  "options": [
-   "Regular aerobic exercise",
-   "Stopping smoking",
-   "Cutting saturated fat",
-   "Drinking more coffee"
-  ],
-  "answers": [
-   0,
-   1,
-   2
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "The lecture recommends aerobic exercise and avoiding smoking, saturated fats, coffee and stress.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Correct.",
-   "Wrong: coffee raises LDL."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-lipids/12.jpg",
-    "lec": "Bioenergetics 3",
-    "n": 12
-   }
-  ]
- },
- {
-  "q": "As VLDL gives up its triglyceride to adipocytes, it becomes:",
-  "options": [
-   "LDL: ↓ triglyceride, ↑ cholesterol share",
-   "HDL: ↑ triglyceride",
-   "A chylomicron: ↑ size",
-   "VLDL again: ↑ triglyceride"
-  ],
-  "answer": 0,
-  "why": "VLDL loses triglyceride and becomes LDL, which is mainly cholesterol (about 53%).",
-  "notes": [
-   "Correct.",
-   "Wrong: HDL is made empty by the liver.",
-   "Wrong: chylomicrons come from the gut.",
-   "Wrong."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-lipids/14.jpg",
-    "lec": "Bioenergetics 3",
-    "n": 14
-   }
-  ]
- },
- {
-  "q": "Lipoprotein lipase acting on chylomicrons:",
-  "options": [
-   "↓ Triglyceride in the chylomicron",
-   "↑ Fatty acids delivered to adipocytes and other cells",
-   "↑ Chylomicron size",
-   "↑ Triglyceride in the chylomicron"
-  ],
-  "answers": [
-   0,
-   1
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "Lipoprotein lipase removes lipids from chylomicrons for storage in adipocytes or use; the liver clears the remnants.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Wrong: they shrink.",
-   "Wrong."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-lipids/14.jpg",
-    "lec": "Bioenergetics 3",
-    "n": 14
-   }
-  ]
- },
- {
-  "q": "Fat intake below about 20 g a day:",
-  "options": [
-   "↓ Absorption of vitamins A, D, E and K",
-   "↑ Risk of vitamin deficiency",
-   "↑ Absorption of vitamin C",
-   "↑ Absorption of vitamin K"
-  ],
-  "answers": [
-   0,
-   1
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "Fat-soluble vitamins are absorbed with dietary fat.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Wrong: water-soluble, unrelated.",
-   "Wrong: K is fat-soluble, so it falls."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-lipids/03.jpg",
-    "lec": "Bioenergetics 3",
-    "n": 3
-   }
-  ]
- },
- {
-  "q": "When fat is used for energy:",
-  "options": [
-   "↑ Glucose kept for neurons (glucose-sparing)",
-   "↓ Protein burnt for fuel (protein-sparing)",
-   "↑ Protein burnt for fuel",
-   "↓ Glucose left for neurons"
-  ],
-  "answers": [
-   0,
-   1
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "Fat spares glucose for cells that cannot use fat, such as neurons, and spares protein.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Wrong.",
-   "Wrong."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-lipids/03.jpg",
-    "lec": "Bioenergetics 3",
-    "n": 3
-   }
-  ]
- },
- {
-  "q": "10 g of fat versus 10 g of carbohydrate provide about:",
-  "options": [
-   "90 kcal versus 40 kcal",
-   "40 kcal versus 90 kcal",
-   "90 kcal versus 90 kcal",
-   "70 kcal versus 40 kcal"
-  ],
-  "answer": 0,
-  "why": "Fat 9 kcal/g, carbohydrate 4 kcal/g.",
-  "notes": [
-   "Correct.",
-   "Wrong: reversed.",
-   "Wrong.",
-   "Wrong: 7 kcal/g is alcohol."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-lipids/02.jpg",
-    "lec": "Bioenergetics 3",
-    "n": 2
-   }
-  ]
- },
- {
-  "q": "Which are lipids besides triglycerides?",
-  "options": [
-   "Phospholipids",
-   "Sterols (steroid hormones)",
-   "Waxes",
-   "Glycogen"
-  ],
-  "answers": [
-   0,
-   1,
-   2
-  ],
-  "multi": true,
-  "hint": "choose all correct answers",
-  "why": "Other lipids: waxes, sterols, fat-soluble vitamins, mono- and diglycerides, phospholipids. Glycogen is a carbohydrate.",
-  "notes": [
-   "Correct.",
-   "Correct.",
-   "Correct.",
-   "Wrong: a glucose polymer."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-lipids/04.jpg",
-    "lec": "Bioenergetics 3",
-    "n": 4
-   }
-  ]
- },
- {
-  "q": "In cell membranes:",
-  "options": [
-   "Unsaturated fatty acids ↑ flexibility; cholesterol ↑ rigidity and stability",
-   "Cholesterol ↑ flexibility; unsaturated fatty acids ↑ rigidity",
-   "Both ↑ rigidity",
-   "Neither changes membrane properties"
-  ],
-  "answer": 0,
-  "why": "Unsaturated fatty acids add flexibility; cholesterol adds rigidity and stability.",
-  "notes": [
-   "Correct.",
-   "Wrong: reversed.",
-   "Wrong.",
-   "Wrong."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-lipids/13.jpg",
-    "lec": "Bioenergetics 3",
-    "n": 13
-   }
-  ]
- },
- {
-  "q": "Excess cholesterol brought back by HDL leaves the body mainly as:",
-  "options": [
-   "Bile acids and bile salts made by the liver",
-   "Urea in the urine",
-   "CO2 in expired air",
-   "Glucose made by gluconeogenesis"
-  ],
-  "answer": 0,
-  "why": "The liver excretes excess cholesterol and converts HDL cholesterol into bile salts.",
-  "notes": [
-   "Correct.",
-   "Wrong: urea comes from amino acids.",
-   "Wrong.",
-   "Wrong."
-  ],
-  "slides": [
-   {
-    "src": "files/slides/physio-bioen-lipids/14.jpg",
-    "lec": "Bioenergetics 3",
-    "n": 14
-   }
-  ]
- }
+  {
+   "q": "Which ↑ the HDL/LDL ratio?",
+   "options": [
+    "Regular aerobic exercise",
+    "Stopping smoking",
+    "Cutting saturated fat",
+    "Drinking more coffee"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "The lecture recommends aerobic exercise and avoiding smoking, saturated fats, coffee and stress.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: coffee raises LDL."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/12.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "q": "As VLDL gives up its triglyceride to adipocytes, it becomes:",
+   "options": [
+    "LDL: ↓ triglyceride, ↑ cholesterol share",
+    "HDL: ↑ triglyceride",
+    "A chylomicron: ↑ size",
+    "VLDL again: ↑ triglyceride"
+   ],
+   "answer": 0,
+   "why": "VLDL loses triglyceride and becomes LDL, which is mainly cholesterol (about 53%).",
+   "notes": [
+    "Correct.",
+    "Wrong: HDL is made empty by the liver.",
+    "Wrong: chylomicrons come from the gut.",
+    "Wrong."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/14.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Lipoprotein lipase acting on chylomicrons:",
+   "options": [
+    "↓ Triglyceride in the chylomicron",
+    "↑ Fatty acids delivered to adipocytes and other cells",
+    "↑ Chylomicron size",
+    "↑ Triglyceride in the chylomicron"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Lipoprotein lipase removes lipids from chylomicrons for storage in adipocytes or use; the liver clears the remnants.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Wrong: they shrink.",
+    "Wrong."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/14.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "q": "Fat intake below about 20 g a day:",
+   "options": [
+    "↓ Absorption of vitamins A, D, E and K",
+    "↑ Risk of vitamin deficiency",
+    "↑ Absorption of vitamin C",
+    "↑ Absorption of vitamin K"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Fat-soluble vitamins are absorbed with dietary fat.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Wrong: water-soluble, unrelated.",
+    "Wrong: K is fat-soluble, so it falls."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/03.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 3
+    }
+   ]
+  },
+  {
+   "q": "When fat is used for energy:",
+   "options": [
+    "↑ Glucose kept for neurons (glucose-sparing)",
+    "↓ Protein burnt for fuel (protein-sparing)",
+    "↑ Protein burnt for fuel",
+    "↓ Glucose left for neurons"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Fat spares glucose for cells that cannot use fat, such as neurons, and spares protein.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Wrong.",
+    "Wrong."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/03.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 3
+    }
+   ]
+  },
+  {
+   "q": "10 g of fat versus 10 g of carbohydrate provide about:",
+   "options": [
+    "90 kcal versus 40 kcal",
+    "40 kcal versus 90 kcal",
+    "90 kcal versus 90 kcal",
+    "70 kcal versus 40 kcal"
+   ],
+   "answer": 0,
+   "why": "Fat 9 kcal/g, carbohydrate 4 kcal/g.",
+   "notes": [
+    "Correct.",
+    "Wrong: reversed.",
+    "Wrong.",
+    "Wrong: 7 kcal/g is alcohol."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/02.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 2
+    }
+   ]
+  },
+  {
+   "q": "Which are lipids besides triglycerides?",
+   "options": [
+    "Phospholipids",
+    "Sterols (steroid hormones)",
+    "Waxes",
+    "Glycogen"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "hint": "choose all correct answers",
+   "why": "Other lipids: waxes, sterols, fat-soluble vitamins, mono- and diglycerides, phospholipids. Glycogen is a carbohydrate.",
+   "notes": [
+    "Correct.",
+    "Correct.",
+    "Correct.",
+    "Wrong: a glucose polymer."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/04.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "q": "In cell membranes:",
+   "options": [
+    "Unsaturated fatty acids ↑ flexibility; cholesterol ↑ rigidity and stability",
+    "Cholesterol ↑ flexibility; unsaturated fatty acids ↑ rigidity",
+    "Both ↑ rigidity",
+    "Neither changes membrane properties"
+   ],
+   "answer": 0,
+   "why": "Unsaturated fatty acids add flexibility; cholesterol adds rigidity and stability.",
+   "notes": [
+    "Correct.",
+    "Wrong: reversed.",
+    "Wrong.",
+    "Wrong."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/13.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "q": "Excess cholesterol brought back by HDL leaves the body mainly as:",
+   "options": [
+    "Bile acids and bile salts made by the liver",
+    "Urea in the urine",
+    "CO2 in expired air",
+    "Glucose made by gluconeogenesis"
+   ],
+   "answer": 0,
+   "why": "The liver excretes excess cholesterol and converts HDL cholesterol into bile salts.",
+   "notes": [
+    "Correct.",
+    "Wrong: urea comes from amino acids.",
+    "Wrong.",
+    "Wrong."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/physio-bioen-lipids/14.jpg",
+     "lec": "Bioenergetics 3",
+     "n": 14
+    }
+   ]
+  }
  ],
  "cards": [
   {

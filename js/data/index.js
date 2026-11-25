@@ -629,6 +629,7 @@ SINA.subjects.forEach(function (s) { if (!s.program) s.program = SINA.DEFAULT_PR
 /* Upcoming midterms (fallback copy of the Midterms tab of the Sina Sheet, used when the Sheet cannot be read): the lectures listed here get the blue "On the midterm" label
    and appear on the "Upcoming midterm lectures" page for their year. */
 SINA.midterms = [
+ {"id":"physio-midterm","program":"y2-anglo","subject":"physio","subjects":["physio"],"title":"Nephro/Bioenergetics","date":"2026-12-01","groups":[{"name":"Renal physiology","items":["physio-renal-intro","physio-renal-nephron","physio-renal-gfr"],"tbc":false},{"name":"Bioenergetics","items":["physio-bioen-intro","physio-bioen-regulation","physio-bioen-lipids"],"tbc":false}],"notes":{},"tbc":false,"part":false,"auto":false},
  {
   "id": "semio-midterm",
   "program": "y2-anglo",
