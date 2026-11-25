@@ -16297,6 +16297,473 @@ SINA.papers = [
   ]
  },
  {
+  "id": "physio-bioen-class-2026",
+  "subject": "physio",
+  "title": "Bioenergetics class questions (Prof. Dinh-Xuan)",
+  "year": "2026",
+  "note": "7 quick questions Prof. Dinh-Xuan asked in class on the first three bioenergetics lectures (nutrients, carbohydrates, cellular respiration, lipids). The class found them easy: a good warm-up.",
+  "keyBy": "part",
+  "links": [
+   {
+    "label": "Open the questions (PDF)",
+    "url": "https://drive.google.com/file/d/1NstyafAIzIEbR_Hp0voYm61NPVKjW4Vs/view?usp=drivesdk"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Indicate the correct answer(s). Cellular respiration can be divided into several steps, including:",
+    "options": [
+     "Glycolysis",
+     "Krebs cycle",
+     "Glycogenesis",
+     "Mitochondrial electron transport chain"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Respiration: glycolysis → acetyl-CoA → Krebs cycle → electron transport chain. Glycogenesis stores glucose as glycogen.",
+    "notes": [
+     "Correct: step 1.",
+     "Correct: step 3.",
+     "Wrong: storage, not respiration.",
+     "Correct: step 4."
+    ]
+   },
+   {
+    "q": "Indicate the correct answer(s). Lipids are made of various types of molecules, including:",
+    "options": [
+     "Fatty acids",
+     "Glycerol",
+     "Triglycerides",
+     "Cholesterol"
+    ],
+    "answers": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Triglycerides (glycerol + 3 fatty acids) and sterols such as cholesterol are lipids; fatty acids and glycerol are their building blocks.",
+    "notes": [
+     "Correct.",
+     "Correct: the triglyceride backbone.",
+     "Correct.",
+     "Correct: a sterol."
+    ]
+   },
+   {
+    "q": "Indicate the correct answer(s). Mitochondria are essential organelles where several steps of ATP formation take place, including:",
+    "options": [
+     "Krebs cycle",
+     "Glycolysis",
+     "Production of pyruvic acid",
+     "Electron transport chain"
+    ],
+    "answers": [
+     0,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Krebs cycle in the matrix, electron transport on the inner membrane. Glycolysis, which makes pyruvic acid, runs in the cytoplasm.",
+    "notes": [
+     "Correct.",
+     "Wrong: cytoplasm.",
+     "Wrong: the end of glycolysis, in the cytoplasm.",
+     "Correct."
+    ]
+   },
+   {
+    "q": "Indicate the glucose-containing carbohydrate(s) which can be digested by humans:",
+    "options": [
+     "Sucrose",
+     "Maltose",
+     "Cellulose",
+     "Starch"
+    ],
+    "answers": [
+     0,
+     1,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Sucrose, maltose and starch are digested; humans lack the enzyme for cellulose.",
+    "notes": [
+     "Correct.",
+     "Correct.",
+     "Wrong: not digestible.",
+     "Correct."
+    ]
+   },
+   {
+    "q": "Indicate the correct answer(s). Carbohydrates are needed as:",
+    "options": [
+     "The major source of energy",
+     "The major source of vitamin D",
+     "Cellular structural components",
+     "Backbone of nucleic acids"
+    ],
+    "answers": [
+     0,
+     2,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Carbohydrates: structural components, nucleic acid backbone (ribose, deoxyribose), signalling, major energy source.",
+    "notes": [
+     "Correct.",
+     "Wrong.",
+     "Correct.",
+     "Correct."
+    ]
+   },
+   {
+    "q": "Indicate the correct answer(s). Micronutrients:",
+    "options": [
+     "Include water",
+     "Must be present in the daily diet but only in small amounts",
+     "Include carbohydrates",
+     "Include fats"
+    ],
+    "answers": [
+     1
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Micronutrients are vitamins and minerals, needed in small amounts. Water, carbohydrates, lipids and proteins are macronutrients in this lecture.",
+    "notes": [
+     "Wrong: a macronutrient here.",
+     "Correct.",
+     "Wrong: macronutrient.",
+     "Wrong: macronutrient."
+    ]
+   },
+   {
+    "q": "Indicate the correct answer(s). Macronutrients include:",
+    "options": [
+     "Carbohydrates",
+     "Carbon dioxide",
+     "Proteins",
+     "Vitamins"
+    ],
+    "answers": [
+     0,
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Macronutrients: water, carbohydrates, lipids, proteins. Vitamins are micronutrients; CO2 is a waste.",
+    "notes": [
+     "Correct.",
+     "Wrong: a waste product.",
+     "Correct.",
+     "Wrong: micronutrient."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "physio-bioen-june-2023",
+  "subject": "physio",
+  "title": "Neuromuscular and bioenergetic physiology, June 2023 (bioenergetics part)",
+  "year": "2023",
+  "note": "Questions 1 to 12 of the June 2023 first-session exam: calorimetry, basal metabolic rate, Harris-Benedict, thermoregulation and fever. These topics are not in this year's bioenergetics lectures, so treat it as extra practice. The paper had no answer key.",
+  "keyBy": "sina",
+  "links": [
+   {
+    "label": "Open the paper (PDF)",
+    "url": "https://drive.google.com/file/d/1OpBkEhY225awqIDBl_9SEBBzstAW6cep/view?usp=drivesdk"
+   }
+  ],
+  "questions": [
+   {
+    "q": "What is the principle of direct calorimetry?",
+    "options": [
+     "Measuring the heat produced by the subject",
+     "Measuring the volumes of oxygen and carbon dioxide",
+     "Measuring the concentrations of plasma urea and pyruvate",
+     "Using prediction equations",
+     "Measuring the concentration of citric acid"
+    ],
+    "answers": [
+     0
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Direct calorimetry measures the heat the body gives off (the subject sits in an insulated chamber). Measuring O2 and CO2 is indirect calorimetry.",
+    "notes": [
+     "Correct.",
+     "Wrong: that is indirect calorimetry.",
+     "Wrong.",
+     "Wrong: that is estimation (e.g. Harris-Benedict), not calorimetry.",
+     "Wrong."
+    ]
+   },
+   {
+    "q": "Which one of these techniques is the most precise for measuring energy expenditure?",
+    "options": [
+     "Direct calorimetry",
+     "Indirect calorimetry - food intake",
+     "Indirect calorimetry - energy equivalent of oxygen",
+     "Indirect calorimetry - energy equivalent of carbon dioxide",
+     "Imaging techniques"
+    ],
+    "answers": [
+     0
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Direct calorimetry measures the energy released as heat itself and is the reference method; indirect methods estimate it from intake or gas exchange.",
+    "notes": [
+     "Correct: the reference method.",
+     "Wrong: food intake is the least precise.",
+     "Wrong: very good and most used, but an estimate.",
+     "Wrong: less reliable than the O2 equivalent.",
+     "Wrong."
+    ]
+   },
+   {
+    "q": "Indirect calorimetry considers that the energy equivalent of:",
+    "options": [
+     "Carbohydrates is 38 kJ per gram",
+     "Proteins is 38 kJ per gram",
+     "Fatty acids is 17 kJ per gram",
+     "Glucose is 17 kJ per gram",
+     "Magnesium is 17 kJ per gram"
+    ],
+    "answers": [
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "About 17 kJ/g (4 kcal/g) for carbohydrates such as glucose and for proteins; about 38 kJ/g (9 kcal/g) for fats.",
+    "notes": [
+     "Wrong: 17 kJ/g.",
+     "Wrong: 17 kJ/g.",
+     "Wrong: about 38 kJ/g.",
+     "Correct.",
+     "Wrong: minerals give no energy."
+    ]
+   },
+   {
+    "q": "An individual has a VO2 = 300 mL per minute at rest. What is his daily basal energy expenditure?",
+    "options": [
+     "8460 calories",
+     "8460 kcal",
+     "8460 kJ",
+     "8460 x 10³ kcal",
+     "None of the above"
+    ],
+    "answers": [
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "300 mL/min × 1 440 min = 432 L of O2 a day; × about 19.6 kJ per litre of O2 ≈ 8 460 kJ (about 2 000 kcal).",
+    "notes": [
+     "Wrong unit: far too small.",
+     "Wrong unit: that would be over 4 times a normal day.",
+     "Correct.",
+     "Wrong.",
+     "Wrong: C is right."
+    ]
+   },
+   {
+    "q": "What is the highest daily energy expenditure?",
+    "options": [
+     "Metabolic rate related to physical activity",
+     "Thermic effect of food",
+     "Basal metabolic rate",
+     "Sleeping metabolic rate",
+     "None of the above"
+    ],
+    "answers": [
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "BMR is about 60 to 70% of daily expenditure in most people; physical activity about 20 to 30%, the thermic effect of food about 10%.",
+    "notes": [
+     "Wrong: second, except in very active people.",
+     "Wrong: about 10%.",
+     "Correct.",
+     "Wrong: part of the basal component, slightly lower than BMR.",
+     "Wrong."
+    ]
+   },
+   {
+    "q": "The basal metabolic rate needs to be measured under which of the following conditions?",
+    "options": [
+     "Two hours after a meal",
+     "During physical exercise",
+     "At rest",
+     "Standing",
+     "Asleep"
+    ],
+    "answers": [
+     2
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "BMR: at rest, awake, lying down, fasted for about 12 hours, in a thermoneutral room.",
+    "notes": [
+     "Wrong: needs about 12 hours of fasting.",
+     "Wrong.",
+     "Correct.",
+     "Wrong: lying down.",
+     "Wrong: awake (asleep gives the sleeping metabolic rate)."
+    ]
+   },
+   {
+    "q": "Which of the following conditions decreases the basal metabolic rate?",
+    "options": [
+     "Age",
+     "Gender",
+     "Weight",
+     "Height",
+     "Fever"
+    ],
+    "answers": [
+     0
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "BMR falls with age (less lean mass). Sex, weight and height change BMR but are not a decrease as such; fever raises BMR (about 10 to 13% per °C).",
+    "notes": [
+     "Correct.",
+     "Wrong: a determinant, not a decrease.",
+     "Wrong: more weight raises BMR.",
+     "Wrong: more height raises BMR.",
+     "Wrong: fever raises it."
+    ]
+   },
+   {
+    "q": "The equations of Harris-Benedict can predict the basal metabolic rate by:",
+    "options": [
+     "Measuring the volume of oxygen consumed and carbon dioxide produced",
+     "Measuring the heart rate",
+     "Measuring the body temperature",
+     "Using the height, weight and age of the subject",
+     "None of the above"
+    ],
+    "answers": [
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Harris-Benedict equations (one for men, one for women) predict BMR from weight, height and age; nothing is measured.",
+    "notes": [
+     "Wrong: indirect calorimetry.",
+     "Wrong.",
+     "Wrong.",
+     "Correct.",
+     "Wrong."
+    ]
+   },
+   {
+    "q": "The body temperature regulation is responsible for:",
+    "options": [
+     "Maintaining the skin temperature between 37.6 and 37.9 degrees",
+     "Increasing the heart rate and thus the venous return",
+     "Perspiration in order to increase heat production",
+     "Shivering when the core temperature increases",
+     "None of the above"
+    ],
+    "answers": [
+     4
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Thermoregulation keeps the core (not the skin) temperature near 37 °C. Sweating loses heat, and shivering happens when the core temperature falls.",
+    "notes": [
+     "Wrong: the core, not the skin, is regulated.",
+     "Wrong.",
+     "Wrong: sweating increases heat loss.",
+     "Wrong: shivering answers cold.",
+     "Correct."
+    ]
+   },
+   {
+    "q": "What are the clinical uses of deep medical hypothermia?",
+    "options": [
+     "Treatment of frostbite",
+     "Treatment of gangrene",
+     "Treatment of fever",
+     "Cardiac surgery",
+     "Post-mortem examination"
+    ],
+    "answers": [
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Deep hypothermia lowers metabolic and oxygen needs, protecting the brain and organs during cardiac surgery with circulatory arrest.",
+    "notes": [
+     "Wrong: frostbite is rewarmed.",
+     "Wrong.",
+     "Wrong: fever is not treated with deep hypothermia.",
+     "Correct.",
+     "Wrong."
+    ]
+   },
+   {
+    "q": "When the body temperature decreases, which of the following reactions are invoked in order to increase the body temperature?",
+    "options": [
+     "Shivering",
+     "Perspiration",
+     "Blood pressure increase",
+     "Skin vasoconstriction",
+     "General vasodilation"
+    ],
+    "answers": [
+     0,
+     3
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Cold: shivering produces heat and skin vasoconstriction keeps heat in the core. Sweating and vasodilation lose heat.",
+    "notes": [
+     "Correct: heat production.",
+     "Wrong: heat loss.",
+     "Wrong: not a thermoregulatory response.",
+     "Correct: heat conservation.",
+     "Wrong: heat loss."
+    ]
+   },
+   {
+    "q": "What is the cause of heat conservation and heat production mechanisms that occur during fever?",
+    "options": [
+     "The release of pyrogens causes the hypothalamic temperature set-point to rise",
+     "The hypothalamus releases pyrogens which increase the body's core temperature",
+     "The body losing too much heat triggers a response to conserve and produce more heat",
+     "The body's metabolic rate decreases leading to a decrease in heat production",
+     "None of the above"
+    ],
+    "answers": [
+     0
+    ],
+    "multi": true,
+    "hint": "1 or more correct answers",
+    "why": "Pyrogens (from microbes or immune cells) raise the hypothalamic set-point; the body then feels cold and shivers and vasoconstricts until it reaches the new set-point.",
+    "notes": [
+     "Correct.",
+     "Wrong: pyrogens act on the hypothalamus, they are not made by it.",
+     "Wrong: that describes hypothermia.",
+     "Wrong: metabolism rises.",
+     "Wrong."
+    ]
+   }
+  ]
+ },
+ {
   "id": "physio-neurophysio-quiz",
   "subject": "physio",
   "title": "Neurophysiology quiz (Prof. Covasa, last session)",

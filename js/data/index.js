@@ -275,8 +275,8 @@ SINA.subjects = [
         { id: "toxico-experimental", title: "Experimental (preclinical) toxicology" },
         { id: "toxico-systemic", title: "Systemic toxicology" }
       ]}
-    ]},
-  { id: "radio", name: "Radiology", semester: "S4", status: "planned", count: 0, blurb: "Past papers only for now." }
+    ]}
+  /* Radiology removed: no lectures yet and not taught this year. Its past papers stay in papers.js (subject "radio") and reappear if the subject is added back. */
 ];
 
 /* ---------- 1st Year Anglo (Semester 1) ---------- */

@@ -122,7 +122,7 @@
     document.documentElement.setAttribute("data-theme", t);
     setMenu.querySelectorAll("[data-theme-choice]").forEach(function (b) { b.setAttribute("aria-checked", String(b.dataset.themeChoice === t)); });
     var m = document.querySelector('meta[name="theme-color"]');
-    if (m) m.setAttribute("content", t === "dark" ? "#1b1d20" : "#ffffff");
+    if (m) m.setAttribute("content", t === "dark" ? "#1b1d20" : "#faf8f3");
   }
   var dotBtn = document.getElementById("theme-dot");
   if (dotBtn) dotBtn.addEventListener("click", function (e) {
@@ -1231,7 +1231,7 @@
         (midSubs(m).length === 1 && (S.papers || []).some(function (x) { return x.subject === m.subject; }) ? '<a class="btn" href="#/practice/' + m.subject + '/papers">Past papers as quizzes</a>' : "") + "</div></div>" + midWidgets(m) + (cram ? cramPlan(m, dl) : "") + "</div>";
     });
     var ann = !store.get("sina:ann1112", false) ? '<div class="note announce friendly" role="status"><button type="button" class="ann-x" aria-label="Close this message">&times;</button><p>Hey guys, hope you’re all doing well! Added <a href="#/account">accounts</a> to the website so u can save progress across devices. If you guys have more suggestions like these don’t be shy and <a href="https://forms.gle/F8G5jWpr6S1NoMmdA" target="_blank" rel="noopener">submit them</a>. Good luck with your studies!</p></div>' : "";
-    var html = '<div class="wrap wide">' + ann + '<section class="hero slim"><div class="hero-grid"><div class="hero-text"><p class="hero-brand">Sina<span>.</span></p><h1>Study each lecture, then test yourself on it.</h1>' +
+    var html = '<div class="wrap wide">' + ann + '<section class="hero slim"><div class="hero-grid"><div class="hero-text"><p class="hero-brand">Sina<span>.</span></p><h1>Study each lecture, then <em>test yourself</em> on it.</h1>' +
       '<div class="home-search"><input id="home-search" type="search" placeholder="Search a lecture, subject or past paper" aria-label="Search lectures, subjects and past papers" autocomplete="off"><div class="home-results" id="home-results" hidden></div></div></div>' + caduceusHTML() + "</div>" +
       quickTiles() + midHTML + "</section>" +
       '<h2 id="subjects">' + esc(T("home.subjects")) + ' <span class="prog-tag">' + esc(progName()) + '</span></h2>' +
@@ -2490,7 +2490,9 @@
       prog: '<circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2.2" opacity=".3"/><path d="M12 3.5a8.5 8.5 0 0 1 8.5 8.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M7 12.5h2.5l1.5-3 2 6 1.5-3H17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>',
       weak: '<circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="1.4" fill="currentColor"/>',
       wl: '<path d="M6 3v6a5 5 0 0 0 10 0V3" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/><path d="M11 14v2a4 4 0 0 0 8 0v-3" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/><circle cx="19" cy="11" r="2" fill="none" stroke="currentColor" stroke-width="2.1"/>',
-      lb: '<path d="M7 4h10v4a5 5 0 0 1-10 0z" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linejoin="round"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4M12 13v4M8 20h8" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>'
+      lb: '<path d="M7 4h10v4a5 5 0 0 1-10 0z" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linejoin="round"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4M12 13v4M8 20h8" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>',
+      cards: '<rect x="3.5" y="7.5" width="12.5" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="2.1"/><path d="M8 4.5h10.5a2 2 0 0 1 2 2V17" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>',
+      paper: '<path d="M7 3h7l4 4v14H7z" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linejoin="round"/><path d="M14 3v4h4M10 12h5M10 16h5" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>'
     };
     var t = function (href, k, title, sub, cls) { return '<a class="qtile' + (cls ? " " + cls : "") + '" href="' + href + '"><span class="qt-ico"><svg viewBox="0 0 24 24" aria-hidden="true">' + ico[k] + '</svg></span><span class="qt-t">' + title + '</span><span class="qt-s">' + sub + "</span></a>"; };
     var h = "";
@@ -2499,13 +2501,22 @@
       h += '<div class="cl-ban" role="region" aria-label="New: Clinidle"><div class="cl-txt"><p class="cl-k"><span>New</span> Clinidle</p><p>Test your medical knowledge, one case at a time.</p></div>' +
         '<div class="cl-act"><a class="cl-go" href="#/clinidle">Play today\'s patient</a><button type="button" class="cl-x" aria-label="Dismiss">Not now</button></div></div>';
     h += '<nav class="quick" aria-label="Quick access">';
-    if (wlOn()) { var wd = wlDay(), wS = wlAll()[wd], wNew = !!wlCase(wd); h += t("#/clinidle", "wl", wNew ? "Clinidle #" + wd : "Clinidle", !wNew ? "Replay past patients" : wS && wS.done ? "Done today · " + fmtPts(wS.score) + " / " + wlCase(wd).stages.length : "Today's patient", wNew && !(wS && wS.done) ? "qt-hot" : ""); }
+    /* eight tiles, so they fill 4 columns on a computer and 2 on a phone:
+       row 1 study (continue, flashcards or review due, past papers, Clinidle), row 2 practise and track (mistakes, weak spots, progress, leaderboard) */
     var rs = resumeInfo();
     if (rs) h += t("#/resume", "go", "Resume quiz", esc(rs.title) + " · " + rs.n + "/" + rs.qs.length, "qt-go");
     else if (last && last.h) h += t(last.h, "go", "Continue", esc(last.t), "qt-go");
-    h += t("#/mistakes", "redo", "Redo my mistakes", mk ? mk + " question" + (mk > 1 ? "s" : "") + " to redo" : "No mistakes yet", mk ? "qt-hot" : "");
     var due = allDue();
-    if (due) h += t("#/review", "redo", "Review due", due + " review" + (due > 1 ? "s" : "") + " for today", "qt-hot");
+    if (due) h += t("#/review", "cards", "Review due", due + " review" + (due > 1 ? "s" : "") + " for today", "qt-hot");
+    else {
+      /* flashcards of the lecture being studied, else of the first lecture of the year */
+      var lm = last && last.h && /^#\/lecture\/([^/]+)/.exec(last.h), fcId = lm && S.lectures[lm[1]] && inProgram(lm[1]) ? lm[1] : firstLecture();
+      if (fcId && S.lectures[fcId] && (S.lectures[fcId].cards || []).length) h += t("#/lecture/" + fcId + "/cards", "cards", "Flashcards", esc(lectureTitle(fcId) || S.lectures[fcId].title), "");
+    }
+    var pids = progSubjects().map(function (x) { return x.id; }), pq = (S.papers || []).filter(function (x) { return pids.indexOf(x.subject) > -1 && x.questions && x.questions.length; }).length;
+    if (pq) h += t("#/papers", "paper", "Past papers", pq + " paper" + (pq > 1 ? "s" : "") + " as quizzes", "");
+    if (wlOn()) { var wd = wlDay(), wS = wlAll()[wd], wNew = !!wlCase(wd); h += t("#/clinidle", "wl", wNew ? "Clinidle #" + wd : "Clinidle", !wNew ? "Replay past patients" : wS && wS.done ? "Done today · " + fmtPts(wS.score) + " / " + wlCase(wd).stages.length : "Today's patient", wNew && !(wS && wS.done) ? "qt-hot" : ""); }
+    h += t("#/mistakes", "redo", "Redo my mistakes", mk ? mk + " question" + (mk > 1 ? "s" : "") + " to redo" : "No mistakes yet", mk ? "qt-hot" : "");
     h += t("#/weak", "weak", "Weak spots", seen >= 6 ? "Quiz your 5 weakest lectures" : "Shows up as you answer", "");
     h += t("#/progress", "prog", "My progress", seen ? Math.round(ok / seen * 100) + "% accuracy · " + seen + " answered" : "Start a quiz to track it");
     if (S.api) h += t("#/leaderboard", "lb", "Leaderboard", "Best past paper scores");

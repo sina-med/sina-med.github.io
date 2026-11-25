@@ -1,0 +1,512 @@
+/* =====================================================================
+   Sina remodel: "chart paper"
+   A design layer loaded after style.css. It changes the look only:
+   tokens, type, the header, the home screen and shared controls.
+   To roll back, remove the remodel.css <link> and the motion scripts
+   from index.html.
+   ===================================================================== */
+
+/* ---------- tokens ---------- */
+:root {
+  /* paper + ink navy: a textbook page, Sina's green as the brand */
+  --bg: #faf8f3;            /* paper */
+  --surface: #ffffff;
+  --surface-2: #f0ece2;
+  --ink: #1a2238;           /* navy ink */
+  --muted: #5a6178;
+  --line: #e6e1d6;
+  --line-strong: #cfc8b9;
+  --accent: #14753f;        /* Sina green */
+  --accent-ink: #ffffff;
+  --accent-soft: #dfefe4;
+  --signal: #c8372d;        /* red: live, new, wrong */
+  --alert: #c8372d;
+  --alert-soft: #f8e2df;
+  --sage: #14753f;
+  --sage-soft: #e6f2ea;
+  --good: #14753f;
+  --bad: #c8372d;
+  --lattice: #14753f;       /* molecule lattice behind the home hero */
+  --lattice-op: .13;
+  /* gold belongs to the logo only; everything that used gold now uses the brand or ink */
+  --logo-gold: #c9a227;
+  --wing: var(--accent);
+  --gold-hi: var(--ink); --gold-mid: var(--ink); --gold-lo: var(--ink); --gold-line: var(--line-strong);
+  --snake2: #6fae7f;
+
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Instrument Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+
+  --ease-out: cubic-bezier(.23, 1, .32, 1);
+  --ease-in-out: cubic-bezier(.77, 0, .175, 1);
+  --radius: 12px;
+  --shadow-1: 0 1px 2px rgba(18, 32, 26, .06), 0 6px 18px -10px rgba(18, 32, 26, .18);
+  --shadow-2: 0 2px 4px rgba(18, 32, 26, .06), 0 18px 40px -18px rgba(18, 32, 26, .28);
+  color-scheme: light;
+}
+:root[data-theme="dark"] {
+  /* the original dark theme: charcoal with orange */
+  --bg: #1b1d20;
+  --surface: #25282c;
+  --surface-2: #2f3338;
+  --ink: #ffffff;
+  --muted: #b4bac2;
+  --line: #373b41;
+  --line-strong: #4b5058;
+  --accent: #d9480f;        /* dark orange: buttons, active tab */
+  --accent-ink: #ffffff;
+  --accent-soft: #4a2a16;
+  --signal: #ff8a3d;        /* orange: the trace, new, live */
+  --alert: #ff8a3d;
+  --alert-soft: #4a2a16;
+  --sage: #ff8a3d;          /* orange: links, notes */
+  --sage-soft: #3b2a1a;
+  --good: #3ee08f;
+  --bad: #ff6b7d;
+  --lattice: #ff8a3d;
+  --lattice-op: .12;
+  --logo-gold: #e0b84a;
+  --wing: var(--sage);
+  --gold-hi: var(--ink); --gold-mid: var(--ink); --gold-lo: var(--ink); --gold-line: var(--line-strong);
+  --snake2: #f2b880;
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 22px -12px rgba(0, 0, 0, .6);
+  --shadow-2: 0 2px 4px rgba(0, 0, 0, .3), 0 22px 44px -20px rgba(0, 0, 0, .75);
+  color-scheme: dark;
+}
+
+/* ---------- base ---------- */
+body {
+  font-family: var(--sans);
+  font-size: 1.04rem;
+  line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "ss01", "cv11";
+}
+h1, h2, h3 {
+  font-family: var(--serif);
+  letter-spacing: -0.022em;
+  font-variation-settings: "opsz" 144, "SOFT" 30;
+  text-wrap: balance;
+}
+h1 { font-weight: 500; font-size: clamp(2.1rem, 5.4vw, 3.3rem); line-height: 1.04; }
+h2 { font-weight: 560; }
+h1 em, h2 em { font-style: italic; font-weight: 400; color: var(--accent); font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; }
+p, li { text-wrap: pretty; }
+
+::selection { background: color-mix(in srgb, var(--accent) 24%, transparent); color: var(--ink); }
+input, textarea { caret-color: var(--signal); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+a { text-decoration-thickness: 1px; text-underline-offset: .22em; }
+a:hover { text-decoration-thickness: 2px; }
+html { scrollbar-color: var(--line-strong) transparent; overflow-x: clip; }
+::-webkit-scrollbar { width: 11px; height: 11px; }
+::-webkit-scrollbar-thumb { background: var(--line-strong); border-radius: 99px; border: 3px solid var(--bg); }
+::-webkit-scrollbar-track { background: transparent; }
+
+/* numbers that are data line up */
+.tag, .sg-n, .prog-tag, .dprog, .score, .qt-s { font-variant-numeric: tabular-nums; }
+
+/* ---------- header ---------- */
+.site-header {
+  background: color-mix(in srgb, var(--bg) 82%, transparent);
+  backdrop-filter: saturate(1.4) blur(14px);
+  -webkit-backdrop-filter: saturate(1.4) blur(14px);
+  border-bottom: 1px solid color-mix(in srgb, var(--line-strong) 60%, transparent);
+}
+.wordmark { font-weight: 600; font-size: 1.55rem; letter-spacing: -0.035em; font-variation-settings: "opsz" 144, "SOFT" 50; }
+.wordmark span { color: var(--signal); }
+:root[data-theme="dark"] .wordmark span { color: var(--signal); }
+
+/* ---------- buttons and press feedback ---------- */
+.btn {
+  border-radius: 10px;
+  border-color: var(--line-strong);
+  background: var(--surface);
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  transition: background-color 160ms ease, border-color 160ms ease, transform 160ms var(--ease-out), box-shadow 200ms var(--ease-out);
+}
+.btn:hover { background: var(--surface-2); border-color: color-mix(in srgb, var(--ink) 30%, var(--line-strong)); }
+.btn.primary { box-shadow: inset 0 1px 0 rgba(255, 255, 255, .14), 0 6px 16px -10px color-mix(in srgb, var(--accent) 80%, transparent); }
+.btn.primary:hover { filter: none; background: color-mix(in srgb, var(--accent) 88%, var(--ink)); border-color: transparent; }
+:root[data-theme="dark"] .btn.primary:hover { background: color-mix(in srgb, var(--accent) 86%, #fff); }
+.btn:active, .qtile:active, .tab:active, .pill-btn:active, .theme-dot:active, .gear-btn:active, .menu-btn:active,
+.news-btn:active, .yc-opt:active, .cl-go:active, .subject-list a:active { transform: scale(.97); }
+@media (hover: none) { .btn:hover { background: var(--surface); } }
+
+/* ---------- notes: full tint instead of a bar down one side ---------- */
+.note {
+  border: 1px solid color-mix(in srgb, var(--sage) 26%, transparent);
+  border-left-width: 1px;
+  border-radius: var(--radius);
+  background: var(--sage-soft);
+}
+.note.announce { border-color: color-mix(in srgb, var(--signal) 28%, transparent); background: var(--alert-soft); }
+.note.announce.friendly { border-color: color-mix(in srgb, var(--accent) 22%, transparent); background: var(--accent-soft); }
+
+/* ---------- tabs ---------- */
+.tab { transition: color 160ms ease; }
+.tab[aria-selected="true"] { border-bottom-color: var(--signal); }
+
+/* ---------- home: hero on chart paper ---------- */
+.hero.slim {
+  position: relative;
+  isolation: isolate;
+  padding: clamp(1.6rem, 5vw, 3.4rem) 0 2.2rem;
+  gap: 1.6rem;
+}
+.hero.slim::before {
+  /* molecule lattice: hexagonal rings with atoms at the vertices and an aromatic ring in every
+     other hexagon. The tile is a mask, so the colour follows the theme (--lattice). It fades out
+     toward the edges and drifts very slowly. */
+  --tile: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 41.569 72'%3E%3Cg fill='none' stroke='black' stroke-width='.75'%3E%3Cpath d='M20.785 0V12L41.569 24V48L20.785 60V72M20.785 12L0 24V48L20.785 60'/%3E%3Ccircle cx='20.785' cy='36' r='10.5'/%3E%3C/g%3E%3Cg fill='black'%3E%3Ccircle cx='20.785' cy='12' r='1.7'/%3E%3Ccircle cx='41.569' cy='24' r='1.7'/%3E%3Ccircle cx='41.569' cy='48' r='1.7'/%3E%3Ccircle cx='20.785' cy='60' r='1.7'/%3E%3Ccircle cx='0' cy='24' r='1.7'/%3E%3Ccircle cx='0' cy='48' r='1.7'/%3E%3C/g%3E%3C/svg%3E");
+  --fade: radial-gradient(ellipse 62% 78% at 30% 42%, #000 18%, transparent 74%);
+  content: "";
+  position: absolute;
+  inset: -1rem calc(50% - 50vw) 0;
+  z-index: -1;
+  background: var(--lattice);
+  opacity: var(--lattice-op);
+  -webkit-mask-image: var(--tile), var(--fade);
+  -webkit-mask-size: 64px 110.85px, 100% 100%;
+  -webkit-mask-repeat: repeat, no-repeat;
+  -webkit-mask-composite: source-in;
+          mask-image: var(--tile), var(--fade);
+          mask-size: 64px 110.85px, 100% 100%;
+          mask-repeat: repeat, no-repeat;
+          mask-composite: intersect;
+  animation: latticeDrift 120s linear infinite;
+  pointer-events: none;
+}
+/* blood smear (js/motion.js draws it); when it runs, it replaces the lattice */
+.hero.slim.has-cells::before { display: none; }
+.hero-cells {
+  position: absolute;
+  top: -1rem; bottom: 0; left: calc(50% - 50vw);
+  width: 100vw; height: calc(100% + 1rem);
+  z-index: -1;
+  pointer-events: none;
+  opacity: var(--cells-op, .72);
+  /* fade at the top and bottom, and keep the area behind the headline lighter */
+  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 14%, #000 72%, transparent), linear-gradient(90deg, rgba(0,0,0,.45) 0%, rgba(0,0,0,.45) 38%, #000 62%);
+  -webkit-mask-composite: source-in;
+          mask-image: linear-gradient(to bottom, transparent, #000 14%, #000 72%, transparent), linear-gradient(90deg, rgba(0,0,0,.45) 0%, rgba(0,0,0,.45) 38%, #000 62%);
+          mask-composite: intersect;
+}
+:root[data-theme="dark"] .hero-cells { --cells-op: .45; }
+@media (max-width: 560px) { .hero-cells { --cells-op: .55; } }
+@keyframes latticeDrift {
+  from { -webkit-mask-position: 0 0, 0 0; mask-position: 0 0, 0 0; }
+  to { -webkit-mask-position: 64px 110.85px, 0 0; mask-position: 64px 110.85px, 0 0; }
+}
+.hero-brand {
+  font-family: var(--mono);
+  font-size: .82rem;
+  font-weight: 500;
+  letter-spacing: .14em;
+  color: var(--muted);
+  display: none; /* the wordmark already sits in the header */
+}
+.hero.slim h1 { font-size: clamp(2.3rem, 6.2vw, 4.4rem); max-width: 14ch; margin-bottom: 1.4rem; }
+.hero-grid { grid-template-areas: "brand art" "h art" "e art" "s art"; }
+.hero-grid h1 { margin-bottom: 0; }
+.hero-grid .home-search { margin-top: 1.6rem; }
+.ecg-row { grid-area: e; display: flex; align-items: center; gap: .8rem; margin-top: .7rem; max-width: 30rem; }
+.hero-ecg { display: block; flex: 1 1 auto; min-width: 0; width: 100%; max-width: 26rem; height: 34px; overflow: visible; }
+.hero-ecg path { fill: none; stroke: var(--signal); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.hero-ecg .ecg-base { opacity: .45; }
+.hero-ecg .ecg-blip { stroke-width: 2.25; stroke-dasharray: 0 1000; }
+.hero-ecg .ecg-dot { fill: var(--signal); }
+
+.home-search input {
+  border: 1px solid var(--line-strong);
+  background: var(--surface);
+  box-shadow: var(--shadow-1);
+  padding: .95rem 1.25rem;
+  font-size: 1.02rem;
+  transition: border-color 160ms ease, box-shadow 220ms var(--ease-out);
+}
+.home-search input:focus { border-color: var(--accent); box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 16%, transparent), var(--shadow-1); }
+.home-search input::placeholder { color: color-mix(in srgb, var(--muted) 85%, transparent); }
+
+/* ---------- home: quick access as one instrument panel ---------- */
+nav.quick {
+  gap: 0;
+  background: var(--surface);
+  border: 1px solid var(--line-strong);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow-1);
+}
+.qtile {
+  border: 0;
+  border-radius: 0;
+  background: var(--surface);
+  padding: 1rem 1.05rem;
+  box-shadow: 1px 0 0 var(--line), 0 1px 0 var(--line);  /* dividers; the panel clips the outer ones */
+  transition: background-color 180ms ease;
+}
+.qtile:hover, .qtile:focus-visible { transform: none; box-shadow: none; background: color-mix(in srgb, var(--accent) 5%, var(--surface)); }
+.qtile:focus-visible { outline-offset: -3px; }
+.qt-ico { width: 36px; height: 36px; border-radius: 10px; transition: transform 220ms var(--ease-out); }
+.qtile:hover .qt-ico { transform: translateY(-1px) scale(1.04); }
+.qt-t { font-weight: 650; letter-spacing: -0.01em; }
+.qtile.qt-go { background: var(--accent); }
+.qtile.qt-go:hover { background: color-mix(in srgb, var(--accent) 90%, var(--ink)); }
+.qtile.qt-hot .qt-ico { background: color-mix(in srgb, var(--signal) 14%, transparent); color: var(--signal); }
+
+/* ---------- home: subjects as an index ---------- */
+#subjects { font-size: clamp(1.7rem, 3.6vw, 2.3rem); font-weight: 500; margin-top: 3.4rem; display: flex; align-items: baseline; gap: .8rem; flex-wrap: wrap; }
+.prog-tag { font-family: var(--mono); font-size: .74rem; letter-spacing: .04em; vertical-align: middle; }
+
+.sem-title, .dsem {
+  /* solid ink instead of gradient text */
+  background: none;
+  -webkit-text-fill-color: currentColor;
+  color: var(--ink);
+}
+.sem-title {
+  font-family: var(--mono);
+  font-size: .8rem;
+  font-weight: 500;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-bottom: 0;
+  margin: 2.6rem 0 .6rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: .9rem;
+}
+.sem-title::after { content: ""; flex: 1; height: 1px; background: var(--line-strong); }
+.dsem { color: var(--muted); }
+
+.subject-list { border-top: 0; }
+.subject-list li { border-bottom: 1px solid var(--line); }
+.subject-list a, .subject-list .static {
+  position: relative;
+  align-items: center;
+  padding: 1.15rem .4rem 1.15rem 0;
+  isolation: isolate;
+  transition: padding-left 260ms var(--ease-out), color 160ms ease;
+}
+/* hover: a tint wipes in from the left and the row eases right */
+.subject-list a::before {
+  content: "";
+  position: absolute;
+  inset: 0 -.75rem;
+  z-index: -1;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  clip-path: inset(0 100% 0 0 round 12px);
+  transition: clip-path 340ms var(--ease-out);
+}
+.subject-list a:hover { background: none; }
+@media (hover: hover) and (pointer: fine) {
+  .subject-list a:hover { padding-left: .55rem; }
+  .subject-list a:hover::before { clip-path: inset(0 0 0 0 round 12px); }
+}
+.subject-list .name {
+  font-size: clamp(1.25rem, 2.4vw, 1.55rem);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-variation-settings: "opsz" 144, "SOFT" 30;
+}
+.subject-list .desc { font-size: .92rem; margin-top: .15rem; max-width: 60ch; }
+.subject-list .tag { font-family: var(--mono); font-size: .78rem; letter-spacing: .02em; }
+.subject-list .tag.live { font-weight: 500; color: var(--accent); }
+.subject-list a .tag.live::after {
+  content: "\2192";
+  display: inline-block;
+  margin-left: .5rem;
+  font-family: var(--sans);
+  transform: translateX(-4px);
+  opacity: 0;
+  transition: transform 260ms var(--ease-out), opacity 200ms ease;
+}
+.subject-list a:hover .tag.live::after { transform: none; opacity: 1; }
+/* sections inside a subject (Faciomaxillary, ENT...): a branch off the subject, no boxes */
+.sub-inner { gap: 0; margin-left: .35rem; padding: 0; }
+.has-sub.open .sub-inner { padding: 0 0 1rem; }
+.sub-inner > a.subgroup:first-child { margin-top: .1rem; }
+.subject-list a.subgroup {
+  position: relative;
+  margin: 0;
+  padding: .55rem .4rem .55rem 1.5rem;
+  border: 0;
+  border-left: 1px solid var(--line-strong);
+  border-radius: 0;
+  background: none;
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--ink);
+  transition: color 160ms ease;
+}
+.subject-list a.subgroup::before {
+  /* the twig from the branch line to the label */
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: .9rem;
+  height: 1px;
+  inset-inline: 0 auto;
+  z-index: 0;
+  border-radius: 0;
+  background: var(--line-strong);
+  clip-path: none;
+  transition: width 220ms var(--ease-out), background-color 160ms ease;
+}
+.subject-list a.subgroup:last-child { border-left-color: transparent; }
+.subject-list a.subgroup:last-child::after {
+  /* the branch line stops at the last twig */
+  content: ""; position: absolute; left: -1px; top: 0; height: 50%; width: 1px; background: var(--line-strong);
+}
+.subject-list a.subgroup > span:first-child { transition: transform 220ms var(--ease-out); }
+.subject-list a.subgroup:hover, .subject-list a.subgroup:focus-visible { background: none; color: var(--accent); padding-left: 1.5rem; }
+@media (hover: hover) and (pointer: fine) {
+  .subject-list a.subgroup:hover::before { width: 1.15rem; background: var(--accent); }
+  .subject-list a.subgroup:hover > span:first-child { transform: translateX(3px); }
+}
+.subject-list a.subgroup .sg-n { font-family: var(--mono); font-size: .76rem; font-weight: 500; }
+:root[data-theme="dark"] .subject-list a, :root[data-theme="dark"] .subject-list a.subgroup { color: var(--ink); }
+:root[data-theme="dark"] .subject-list a:hover .name { color: var(--accent); }
+:root[data-theme="dark"] .subject-list a.subgroup:hover { color: var(--accent); }
+.sub-toggle { border-color: var(--line-strong); background: transparent; }
+
+/* =====================================================================
+   UX pass (Fitts, Hick, Miller, Jakob, staging)
+   ===================================================================== */
+
+/* Fitts: every header icon gets at least a 44 x 44 px target without
+   changing the bar's layout (an invisible hit area around the icon) */
+.menu-btn, .search-toggle, .gear-btn, .theme-dot { position: relative; }
+.menu-btn::after, .search-toggle::after, .gear-btn::after, .theme-dot::after {
+  content: ""; position: absolute; left: 50%; top: 50%; width: 44px; height: 44px; transform: translate(-50%, -50%);
+}
+.sub-toggle { width: 2.75rem; height: 2.75rem; }
+.cram-list a, .cram-list li > a { min-height: 44px; display: flex; align-items: center; }
+
+/* Hick: the Clinidle tile already sits in the quick-access panel, so the
+   one-time banner above it was a second copy of the same choice */
+.hero .cl-ban { display: none; }
+
+/* Hick + staging: one primary action per card; the others step back */
+.mid-card .row .btn:not(.primary) { background: transparent; border-color: color-mix(in srgb, var(--ink) 18%, transparent); font-weight: 600; }
+.mid-card .row .btn:not(.primary):hover { background: color-mix(in srgb, var(--ink) 5%, transparent); }
+
+/* Fitts + Miller: the quick-access panel.
+   - eight tiles: two rows of four on a computer, four rows of two on a phone (8 divides by both)
+   - the main action (Continue / Resume) comes first, where the eye lands
+   - if a tile is missing (Clinidle off, no leaderboard), the last row's tiles share the row evenly */
+nav.quick { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+nav.quick > .qt-go { order: -1; }
+@media (min-width: 761px) {
+  nav.quick > .qtile:last-child:nth-child(4n + 1) { grid-column: span 4; }
+  nav.quick > .qtile:nth-last-child(2):nth-child(4n + 1), nav.quick > .qtile:last-child:nth-child(4n + 2) { grid-column: span 2; }
+  nav.quick > .qtile:last-child:nth-child(4n + 3) { grid-column: span 2; }
+}
+@media (min-width: 561px) and (max-width: 760px) {
+  nav.quick { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  nav.quick > .qtile:last-child:nth-child(odd) { grid-column: span 2; }
+}
+@media (max-width: 560px) {
+  nav.quick { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  nav.quick > .qtile:last-child:nth-child(odd) { grid-column: span 2; }
+  nav.quick > .qtile:last-child:nth-child(odd) { grid-template-columns: auto minmax(0, 1fr); }
+  nav.quick > .qtile:last-child:nth-child(odd) .qt-ico { grid-row: 1 / 3; }
+}
+.qtile { min-height: 76px; }
+
+/* staging: the eye should go to one place first. Secondary tiles get quiet
+   neutral icon chips; colour is kept for the main action and for what needs attention */
+.qt-ico { width: 40px; height: 40px; border-radius: 12px; background: var(--surface-2); color: var(--ink); }
+.qt-ico svg { width: 20px; height: 20px; }
+.qtile:hover .qt-ico { background: var(--accent); color: var(--accent-ink); }
+.qtile.qt-hot .qt-ico { background: color-mix(in srgb, var(--signal) 14%, transparent); color: var(--signal); }
+.qtile.qt-go .qt-ico, .qtile.qt-go:hover .qt-ico { background: rgba(255, 255, 255, .2); color: var(--accent-ink); }
+.qt-s { color: color-mix(in srgb, var(--muted) 85%, var(--ink)); }
+/* Miller: a subtitle is a hint, not a paragraph: two lines at most */
+@media (max-width: 560px) { .qt-s { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; } }
+
+/* Jakob: "?" means help on most sites. The button sends a suggestion, so it
+   shows a speech bubble (its label still slides out on hover) */
+/* the bubble is drawn so its body and tail together sit on the circle's centre */
+.pill-btn .qmark { font-size: 0; background: var(--accent); display: grid; place-items: center; }
+.pill-btn .qmark::before {
+  content: ""; display: block; width: .8rem; height: .8rem; background: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='2 2.5 20 19'%3E%3Cpath d='M4 3.5h16a1.5 1.5 0 0 1 1.5 1.5v10a1.5 1.5 0 0 1-1.5 1.5H10l-5 4v-4H4A1.5 1.5 0 0 1 2.5 15V5A1.5 1.5 0 0 1 4 3.5z'/%3E%3C/svg%3E") center / contain no-repeat;
+          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='2 2.5 20 19'%3E%3Cpath d='M4 3.5h16a1.5 1.5 0 0 1 1.5 1.5v10a1.5 1.5 0 0 1-1.5 1.5H10l-5 4v-4H4A1.5 1.5 0 0 1 2.5 15V5A1.5 1.5 0 0 1 4 3.5z'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+#suggest-btn { justify-content: center; }
+
+/* settings menu: line icons in the text colour instead of emoji */
+.sm-ico { display: inline-grid; place-items: center; width: 1.2rem; }
+.sm-ico svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+[aria-checked="true"] .sm-ico svg { stroke: var(--accent); }
+
+/* ---------- slide highlights: a marker stroke on the answer's lines, not a box ---------- */
+.slide-img .hl {
+  border-radius: 3px;
+  background: rgba(74, 222, 128, .42);
+  box-shadow: none;
+  mix-blend-mode: multiply;
+}
+:root[data-theme="dark"] .slide-img .hl { background: rgba(74, 222, 128, .45); }
+
+/* ---------- gold stays on the logo only ---------- */
+.cad-wings { fill: var(--logo-gold); }
+.feathers path { fill: var(--logo-gold); }
+.feathers line { stroke: color-mix(in srgb, var(--logo-gold) 60%, #000); }
+.group-title, .drawer .acc.chapter > .accbtn .lbl {
+  background: none;
+  -webkit-text-fill-color: currentColor;
+  color: var(--ink);
+}
+.group-title { border-bottom: 1px solid var(--line-strong); }
+
+/* the list rests on arrival: no row fades in as you scroll */
+.reveal, .reveal.in { opacity: 1; transform: none; transition: none; }
+
+/* links that sit on the accent keep the accent's ink (the dark theme colours every link mint) */
+:root[data-theme="dark"] .cl-go, :root[data-theme="dark"] .skip, .cl-go, .skip { color: var(--accent-ink); }
+
+/* ---------- Clinidle and midterm cards ---------- */
+.cl-ban, .mid-card { border-radius: 16px; box-shadow: var(--shadow-1); }
+
+/* ---------- welcome / year choice ---------- */
+.yc-opt { border-radius: 14px; transition: border-color 160ms ease, transform 160ms var(--ease-out), box-shadow 220ms var(--ease-out); }
+@media (hover: hover) and (pointer: fine) { .yc-opt:hover { transform: translateY(-2px); box-shadow: var(--shadow-2); } }
+
+/* ---------- page swap: a short settle, never a slide ---------- */
+#app.page-in { animation: sinaIn 320ms var(--ease-out) both; }
+@keyframes sinaIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+/* ---------- smooth scroll (Lenis) ---------- */
+html.lenis, html.lenis body { height: auto; }
+.lenis:not(.lenis-autoToggle).lenis-stopped { overflow: clip; }
+.lenis [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-smooth iframe { pointer-events: none; }
+
+/* ---------- small screens ---------- */
+@media (max-width: 560px) {
+  .hero.slim h1 { font-size: clamp(2rem, 9.5vw, 2.6rem); }
+  .hero.slim::before { --fade: radial-gradient(ellipse 95% 55% at 35% 28%, #000 15%, transparent 78%); -webkit-mask-size: 52px 90.07px, 100% 100%; mask-size: 52px 90.07px, 100% 100%; animation: none; }
+  .hero-grid { grid-template-areas: "brand art" "h art" "e e" "s s"; }
+  .hero-ecg { height: 26px; }
+  .qtile { padding: .85rem .8rem; }
+  .subject-list a, .subject-list .static { padding: 1rem .2rem 1rem 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #app.page-in { animation: none; }
+  .subject-list a::before { transition: none; }
+}
+@media (forced-colors: active) {
+  .hero.slim::before { display: none; }
+  .sem-title, .dsem { -webkit-text-fill-color: currentColor; }
+}

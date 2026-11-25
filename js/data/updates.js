@@ -2,6 +2,10 @@
    Style: short changelog lines, developer voice (Added / Fixed / Changed), no "you". */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
+  { date: "25 November 2026", items: [
+    "Added: 46 new questions for the Nephro/Bioenergetics midterm (Renal physiology 1 to 3, Bioenergetics 1 to 3), including ↑/↓ arrow questions on ADH, EPO, GFR, glucose storage and lipoproteins.",
+    "Added: 2 bioenergetics past papers as quizzes: Prof. Dinh-Xuan's class questions (2026) and the bioenergetics part of the June 2023 exam."
+  ] },
   { date: "23 November 2026", items: [
     "Added: follow-up questions on some clinical cases in Vital Functions. After answering, a second question on the same patient asks about the mechanism or the treatment, to build the pathophysiology step by step.",
     "Fixed: 2 reported questions, Vital Functions & First Aid, Cardiovascular function."
