@@ -223,10 +223,21 @@ SINA.lectures["anat1-upper-skeleton"] = {
    "why": "It links the limb to the thorax.",
    "slides": [
     {
+     "src": "files/slides/anat1-upper-skeleton/01.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 1
+    },
+    {
      "src": "files/slides/anat1-upper-skeleton/02.jpg",
      "lec": "The skeleton of the upper limb",
      "n": 2
     }
+   ],
+   "notes": [
+    "Clavicle + scapula form the shoulder (pectoral) girdle.",
+    "The ribs belong to the thorax.",
+    "The humerus is the bone of the arm.",
+    "The sternum is part of the thorax."
    ]
   },
   {
@@ -245,6 +256,12 @@ SINA.lectures["anat1-upper-skeleton"] = {
      "lec": "The skeleton of the upper limb",
      "n": 2
     }
+   ],
+   "notes": [
+    "Laterally with the acromion (acromioclavicular joint).",
+    "The humerus articulates with the glenoid cavity.",
+    "The coracoid is linked to the clavicle by ligaments, not a joint.",
+    "The glenoid articulates with the humeral head."
    ]
   },
   {
@@ -259,10 +276,16 @@ SINA.lectures["anat1-upper-skeleton"] = {
    "why": "Pectoralis major takes the medial two-thirds.",
    "slides": [
     {
-     "src": "files/slides/anat1-upper-skeleton/05.jpg",
+     "src": "files/slides/anat1-upper-skeleton/01.jpg",
      "lec": "The skeleton of the upper limb",
-     "n": 5
+     "n": 1
     }
+   ],
+   "notes": [
+    "The inferior surface has the subclavius groove and ligament insertions.",
+    "Deltoid: lateral third of the anterior border.",
+    "The posterior border takes the trapezius and sternocleidomastoid.",
+    "The medial two-thirds take the pectoralis major."
    ]
   },
   {
@@ -281,6 +304,12 @@ SINA.lectures["anat1-upper-skeleton"] = {
      "lec": "The skeleton of the upper limb",
      "n": 3
     }
+   ],
+   "notes": [
+    "The acromion ends the spine and meets the clavicle.",
+    "The glenoid cavity is on the superolateral angle.",
+    "The coracoid process is on the superior border.",
+    "The inferior angle gives the latissimus dorsi."
    ]
   },
   {
@@ -299,6 +328,12 @@ SINA.lectures["anat1-upper-skeleton"] = {
      "lec": "The skeleton of the upper limb",
      "n": 3
     }
+   ],
+   "notes": [
+    "These attach in the fossae above and below the spine.",
+    "Serratus anterior attaches to the medial border.",
+    "Deltoid and trapezius attach to the spine and acromion.",
+    "Pectoralis minor, coracobrachialis and the short head of biceps."
    ]
   },
   {
@@ -317,6 +352,12 @@ SINA.lectures["anat1-upper-skeleton"] = {
      "lec": "The skeleton of the upper limb",
      "n": 3
     }
+   ],
+   "notes": [
+    "The coracoid takes pectoralis minor, coracobrachialis, short head of biceps.",
+    "Infraglenoid tubercle: long head of triceps.",
+    "Supraglenoid tubercle: long head of biceps.",
+    "The acromion takes the deltoid and trapezius."
    ]
   },
   {
@@ -335,6 +376,12 @@ SINA.lectures["anat1-upper-skeleton"] = {
      "lec": "The skeleton of the upper limb",
      "n": 4
     }
+   ],
+   "notes": [
+    "Infraspinatus inserts on the greater tubercle.",
+    "Subscapularis: lesser tubercle (trochin).",
+    "Teres minor inserts on the greater tubercle.",
+    "Supraspinatus inserts on the greater tubercle."
    ]
   },
   {
@@ -353,6 +400,12 @@ SINA.lectures["anat1-upper-skeleton"] = {
      "lec": "The skeleton of the upper limb",
      "n": 4
     }
+   ],
+   "notes": [
+    "The scapular notch is on the superior border of the scapula.",
+    "The radial groove carries the radial nerve.",
+    "The olecranon fossa receives the olecranon.",
+    "Intertubercular (bicipital) groove, between the tubercles."
    ]
   },
   {
@@ -371,6 +424,12 @@ SINA.lectures["anat1-upper-skeleton"] = {
      "lec": "The skeleton of the upper limb",
      "n": 4
     }
+   ],
+   "notes": [
+    "The carpal tunnel carries the median nerve.",
+    "With the deep brachial vessels.",
+    "The bicipital groove carries the long biceps tendon.",
+    "The olecranon fossa is a hollow for the ulna."
    ]
   },
   {
@@ -388,7 +447,18 @@ SINA.lectures["anat1-upper-skeleton"] = {
      "src": "files/slides/anat1-upper-skeleton/06.jpg",
      "lec": "The skeleton of the upper limb",
      "n": 6
+    },
+    {
+     "src": "files/slides/anat1-upper-skeleton/05.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 5
     }
+   ],
+   "notes": [
+    "The trochlea articulates with the ulna.",
+    "The olecranon is part of the ulna.",
+    "Capitulum ↔ head of the radius.",
+    "The scaphoid articulates with the radius at the wrist."
    ]
   },
   {
@@ -407,29 +477,12 @@ SINA.lectures["anat1-upper-skeleton"] = {
      "lec": "The skeleton of the upper limb",
      "n": 5
     }
-   ]
-  },
-  {
-   "q": "The biceps brachii inserts on the:",
-   "options": [
-    "Styloid process",
-    "Olecranon",
-    "Coronoid process",
-    "Radial tuberosity"
    ],
-   "answer": 3,
-   "why": "Forearm flexor and supinator.",
-   "slides": [
-    {
-     "src": "files/slides/anat1-upper-skeleton/05.jpg",
-     "lec": "The skeleton of the upper limb",
-     "n": 5
-    },
-    {
-     "src": "files/slides/anat1-upper-skeleton/06.jpg",
-     "lec": "The skeleton of the upper limb",
-     "n": 6
-    }
+   "notes": [
+    "The acromion is on the scapula.",
+    "The lateral epicondyle gives the extensors.",
+    "The radial styloid takes the brachioradialis.",
+    "Medial epicondyle (epitrochlea): flexors."
    ]
   },
   {
@@ -441,7 +494,20 @@ SINA.lectures["anat1-upper-skeleton"] = {
     "14"
    ],
    "answer": 0,
-   "why": "In two rows."
+   "why": "In two rows.",
+   "notes": [
+    "8 bones, in two rows of four.",
+    "One short: the proximal row has 4 and the distal row has 4.",
+    "5 is the number of metacarpals.",
+    "14 is the number of phalanges."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat1-upper-skeleton/07.jpg",
+     "lec": "The skeleton of the upper limb",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "The radius lies on which side of the forearm?",
@@ -458,12 +524,13 @@ SINA.lectures["anat1-upper-skeleton"] = {
      "src": "files/slides/anat1-upper-skeleton/05.jpg",
      "lec": "The skeleton of the upper limb",
      "n": 5
-    },
-    {
-     "src": "files/slides/anat1-upper-skeleton/06.jpg",
-     "lec": "The skeleton of the upper limb",
-     "n": 6
     }
+   ],
+   "notes": [
+    "The ulna is medial.",
+    "The radius is lateral (thumb side).",
+    "Forearm bones lie side by side, not front to back.",
+    "Forearm bones lie side by side, not front to back."
    ]
   },
   {
@@ -889,10 +956,21 @@ SINA.lectures["anat1-shoulder"] = {
    "why": "Superior: the clavicle.",
    "slides": [
     {
+     "src": "files/slides/anat1-shoulder/01.jpg",
+     "lec": "The shoulder: pectoral region and axilla",
+     "n": 1
+    },
+    {
      "src": "files/slides/anat1-shoulder/02.jpg",
      "lec": "The shoulder: pectoral region and axilla",
      "n": 2
     }
+   ],
+   "notes": [
+    "The midsternal line isn't a boundary of the shoulder.",
+    "The elbow is far below the shoulder region.",
+    "The clavicle is the superior boundary.",
+    "Inferiorly: the lower border of pectoralis major."
    ]
   },
   {
@@ -904,7 +982,20 @@ SINA.lectures["anat1-shoulder"] = {
     "Greater tubercle"
    ],
    "answer": 0,
-   "why": "Useful landmark."
+   "why": "Useful landmark.",
+   "notes": [
+    "Felt at the upper end of the deltopectoral groove.",
+    "The acromion is the lateral tip of the shoulder.",
+    "The glenoid is deep inside the joint, not palpable.",
+    "The greater tubercle lies under the deltoid, laterally."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat1-shoulder/02.jpg",
+     "lec": "The shoulder: pectoral region and axilla",
+     "n": 2
+    }
+   ]
   },
   {
    "q": "The axillary fossa has the shape of a:",
@@ -922,6 +1013,12 @@ SINA.lectures["anat1-shoulder"] = {
      "lec": "The shoulder: pectoral region and axilla",
      "n": 3
     }
+   ],
+   "notes": [
+    "A cone has no walls.",
+    "It narrows to an apex, unlike a cube.",
+    "It has four walls, not three.",
+    "Four walls, a base and an apex."
    ]
   },
   {
@@ -940,6 +1037,12 @@ SINA.lectures["anat1-shoulder"] = {
      "lec": "The shoulder: pectoral region and axilla",
      "n": 3
     }
+   ],
+   "notes": [
+    "That is the deltoid and infraspinatus.",
+    "Adducts and medially rotates the arm.",
+    "Elevating the scapula is the trapezius and levator scapulae.",
+    "Elbow flexion is the biceps and brachialis."
    ]
   },
   {
@@ -958,6 +1061,12 @@ SINA.lectures["anat1-shoulder"] = {
      "lec": "The shoulder: pectoral region and axilla",
      "n": 4
     }
+   ],
+   "notes": [
+    "The subclavius attaches to the 1st rib.",
+    "From ribs 3–5 to the coracoid process.",
+    "The subclavius inserts on the clavicle.",
+    "Pectoralis major inserts on the humerus."
    ]
   },
   {
@@ -976,6 +1085,12 @@ SINA.lectures["anat1-shoulder"] = {
      "lec": "The shoulder: pectoral region and axilla",
      "n": 4
     }
+   ],
+   "notes": [
+    "The ulnar nerve stays in the axilla and arm.",
+    "The radial nerve runs behind the humerus.",
+    "The cephalic vein (and thoracoacromial artery) pierce it.",
+    "The basilic vein joins the brachial veins in the arm."
    ]
   },
   {
@@ -994,6 +1109,12 @@ SINA.lectures["anat1-shoulder"] = {
      "lec": "The shoulder: pectoral region and axilla",
      "n": 5
     }
+   ],
+   "notes": [
+    "Subscapularis forms the posterior wall.",
+    "Serratus anterior over the ribs: medial wall.",
+    "The deltoid isn't an axillary wall.",
+    "Coracobrachialis is part of the lateral wall."
    ]
   },
   {
@@ -1012,6 +1133,12 @@ SINA.lectures["anat1-shoulder"] = {
      "lec": "The shoulder: pectoral region and axilla",
      "n": 5
     }
+   ],
+   "notes": [
+    "Long thoracic nerve → serratus anterior: winged scapula.",
+    "Pectoralis major: pectoral nerves.",
+    "Deltoid: axillary nerve.",
+    "Biceps: musculocutaneous nerve."
    ]
   },
   {
@@ -1030,6 +1157,12 @@ SINA.lectures["anat1-shoulder"] = {
      "lec": "The shoulder: pectoral region and axilla",
      "n": 6
     }
+   ],
+   "notes": [
+    "It supplies the brachialis but doesn't pierce it.",
+    "It pierces the coracobrachialis.",
+    "It supplies the biceps but doesn't pierce it.",
+    "The deltoid is supplied by the axillary nerve."
    ]
   },
   {
@@ -1048,6 +1181,12 @@ SINA.lectures["anat1-shoulder"] = {
      "lec": "The shoulder: pectoral region and axilla",
      "n": 6
     }
+   ],
+   "notes": [
+    "At the lower border of pectoralis major.",
+    "At the elbow the brachial artery divides into radial and ulnar.",
+    "The coracoid is above the axilla.",
+    "At the 1st rib the subclavian becomes axillary."
    ]
   },
   {
@@ -1066,6 +1205,12 @@ SINA.lectures["anat1-shoulder"] = {
      "lec": "The shoulder: pectoral region and axilla",
      "n": 6
     }
+   ],
+   "notes": [
+    "The vein lies medial, not lateral.",
+    "The axillary vein is in the axilla.",
+    "The plexus cords surround the artery; the vein is medial.",
+    "Medial to the axillary artery."
    ]
   },
   {
@@ -1084,6 +1229,12 @@ SINA.lectures["anat1-shoulder"] = {
      "lec": "The shoulder: pectoral region and axilla",
      "n": 6
     }
+   ],
+   "notes": [
+    "The medial cord gives the ulnar nerve.",
+    "The upper trunk forms the lateral and posterior cords' contributions.",
+    "The lateral cord gives the musculocutaneous nerve.",
+    "The posterior cord gives the axillary and radial nerves."
    ]
   },
   {
@@ -1102,6 +1253,12 @@ SINA.lectures["anat1-shoulder"] = {
      "lec": "The shoulder: pectoral region and axilla",
      "n": 6
     }
+   ],
+   "notes": [
+    "Median and ulnar come from the medial (and lateral) cords.",
+    "Posterior cord: axillary (circumflex) and radial.",
+    "Pectoral nerves come from the lateral and medial cords.",
+    "Musculocutaneous: lateral cord."
    ]
   },
   {
@@ -1113,7 +1270,20 @@ SINA.lectures["anat1-shoulder"] = {
     "Breast and upper limb"
    ],
    "answer": 3,
-   "why": "Important in breast cancer."
+   "why": "Important in breast cancer.",
+   "notes": [
+    "The head drains to cervical nodes.",
+    "The abdomen drains to abdominal nodes.",
+    "The legs drain to inguinal nodes.",
+    "Breast, anterolateral chest wall and upper limb."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat1-shoulder/07.jpg",
+     "lec": "The shoulder: pectoral region and axilla",
+     "n": 7
+    }
+   ]
   },
   {
    "q": "Which element is at the arrow?",
@@ -1516,6 +1686,12 @@ SINA.lectures["anat1-scapular"] = {
      "lec": "The scapular region and deltoid",
      "n": 2
     }
+   ],
+   "notes": [
+    "Dorsal scapular nerve: rhomboids and levator scapulae.",
+    "Axillary nerve: deltoid and teres minor.",
+    "CN XI supplies the trapezius.",
+    "Thoracodorsal nerve: latissimus dorsi."
    ]
   },
   {
@@ -1539,6 +1715,12 @@ SINA.lectures["anat1-scapular"] = {
      "lec": "The scapular region and deltoid",
      "n": 5
     }
+   ],
+   "notes": [
+    "Elevation is the trapezius and levator scapulae.",
+    "Adduction, medial rotation (and extension).",
+    "Lateral rotation is infraspinatus and teres minor.",
+    "Abduction is the deltoid and supraspinatus."
    ]
   },
   {
@@ -1557,6 +1739,12 @@ SINA.lectures["anat1-scapular"] = {
      "lec": "The scapular region and deltoid",
      "n": 4
     }
+   ],
+   "notes": [
+    "Supraspinatus starts abduction (first 15°).",
+    "Teres major adducts and medially rotates.",
+    "Infraspinatus rotates laterally.",
+    "Rhomboids retract the scapula."
    ]
   },
   {
@@ -1580,6 +1768,12 @@ SINA.lectures["anat1-scapular"] = {
      "lec": "The scapular region and deltoid",
      "n": 4
     }
+   ],
+   "notes": [
+    "Not its action.",
+    "Lateral (external) rotation.",
+    "Elevation is the trapezius.",
+    "Medial rotation is subscapularis and teres major."
    ]
   },
   {
@@ -1603,6 +1797,12 @@ SINA.lectures["anat1-scapular"] = {
      "lec": "The scapular region and deltoid",
      "n": 7
     }
+   ],
+   "notes": [
+    "The radial nerve supplies the triceps.",
+    "Subscapular nerves: subscapularis and teres major.",
+    "Suprascapular nerve: supraspinatus and infraspinatus.",
+    "Axillary nerve, like the deltoid."
    ]
   },
   {
@@ -1621,6 +1821,12 @@ SINA.lectures["anat1-scapular"] = {
      "lec": "The scapular region and deltoid",
      "n": 5
     }
+   ],
+   "notes": [
+    "Not their action.",
+    "Not their action.",
+    "They pull the scapula toward the spine.",
+    "Abduction is the deltoid."
    ]
   },
   {
@@ -1639,6 +1845,12 @@ SINA.lectures["anat1-scapular"] = {
      "lec": "The scapular region and deltoid",
      "n": 5
     }
+   ],
+   "notes": [
+    "C1–C4 transverse processes.",
+    "Thoracic spines give the trapezius and latissimus.",
+    "The iliac crest gives the latissimus dorsi.",
+    "Ribs give the serratus anterior."
    ]
   },
   {
@@ -1657,6 +1869,12 @@ SINA.lectures["anat1-scapular"] = {
      "lec": "The scapular region and deltoid",
      "n": 6
     }
+   ],
+   "notes": [
+    "The median nerve is in the front of the arm.",
+    "The radial nerve passes through the triangular interval.",
+    "Axillary nerve (+ posterior circumflex humeral artery).",
+    "The ulnar nerve stays medial in the arm."
    ]
   },
   {
@@ -1675,6 +1893,12 @@ SINA.lectures["anat1-scapular"] = {
      "lec": "The scapular region and deltoid",
      "n": 6
     }
+   ],
+   "notes": [
+    "The biceps is in the front of the arm.",
+    "The deltoid covers the region.",
+    "Latissimus dorsi isn't between them.",
+    "Long head of triceps splits the space."
    ]
   },
   {
@@ -1693,6 +1917,12 @@ SINA.lectures["anat1-scapular"] = {
      "lec": "The scapular region and deltoid",
      "n": 6
     }
+   ],
+   "notes": [
+    "The bicipital groove carries the long biceps tendon.",
+    "Below teres major, beside the long triceps head.",
+    "At the wrist, not the arm.",
+    "The quadrangular space carries the axillary nerve."
    ]
   },
   {
@@ -1711,6 +1941,12 @@ SINA.lectures["anat1-scapular"] = {
      "lec": "The scapular region and deltoid",
      "n": 7
     }
+   ],
+   "notes": [
+    "The deltoid tuberosity (the V of the deltoid).",
+    "The coracoid takes PMi, coracobrachialis, short biceps head.",
+    "The greater tubercle takes the rotator cuff.",
+    "The acromion is an origin of the deltoid, not its insertion."
    ]
   },
   {
@@ -1729,6 +1965,12 @@ SINA.lectures["anat1-scapular"] = {
      "lec": "The scapular region and deltoid",
      "n": 7
     }
+   ],
+   "notes": [
+    "Wrist extension: radial nerve.",
+    "Elbow flexion: musculocutaneous nerve.",
+    "Grip: median and ulnar nerves.",
+    "Axillary nerve → deltoid: weak abduction."
    ]
   },
   {
@@ -2120,6 +2362,12 @@ SINA.lectures["anat1-arm"] = {
      "lec": "The arm: compartments and brachial canal",
      "n": 4
     }
+   ],
+   "notes": [
+    "The interosseous membrane separates the forearm compartments.",
+    "Medial and lateral septa split anterior from posterior.",
+    "Fascia lata is in the thigh.",
+    "The humerus helps, but the septa complete the division."
    ]
   },
   {
@@ -2138,6 +2386,12 @@ SINA.lectures["anat1-arm"] = {
      "lec": "The arm: compartments and brachial canal",
      "n": 3
     }
+   ],
+   "notes": [
+    "Coronoid process (ulnar tuberosity): pure elbow flexor.",
+    "The olecranon takes the triceps.",
+    "The radial tuberosity takes the biceps.",
+    "The coracoid is an origin (biceps, coracobrachialis), not the brachialis insertion."
    ]
   },
   {
@@ -2156,6 +2410,12 @@ SINA.lectures["anat1-arm"] = {
      "lec": "The arm: compartments and brachial canal",
      "n": 2
     }
+   ],
+   "notes": [
+    "The coronoid takes the brachialis.",
+    "The medial epicondyle gives the forearm flexors.",
+    "Radial tuberosity: flexion and supination.",
+    "The olecranon takes the triceps."
    ]
   },
   {
@@ -2179,6 +2439,12 @@ SINA.lectures["anat1-arm"] = {
      "lec": "The arm: compartments and brachial canal",
      "n": 3
     }
+   ],
+   "notes": [
+    "Musculocutaneous: biceps, brachialis, coracobrachialis.",
+    "The median nerve supplies no arm muscle.",
+    "Radial nerve: posterior compartment (triceps).",
+    "The ulnar nerve supplies no arm muscle."
    ]
   },
   {
@@ -2197,6 +2463,12 @@ SINA.lectures["anat1-arm"] = {
      "lec": "The arm: compartments and brachial canal",
      "n": 3
     }
+   ],
+   "notes": [
+    "The humeral head is in the shoulder joint.",
+    "The coronoid takes the brachialis.",
+    "The radial head has no muscle insertion of the triceps.",
+    "Olecranon: elbow extension."
    ]
   },
   {
@@ -2215,6 +2487,12 @@ SINA.lectures["anat1-arm"] = {
      "lec": "The arm: compartments and brachial canal",
      "n": 3
     }
+   ],
+   "notes": [
+    "The infraglenoid tubercle gives the long head.",
+    "Below the groove: medial head.",
+    "Lateral head: above the radial groove.",
+    "The coracoid gives the short biceps head."
    ]
   },
   {
@@ -2238,6 +2516,12 @@ SINA.lectures["anat1-arm"] = {
      "lec": "The arm: compartments and brachial canal",
      "n": 4
     }
+   ],
+   "notes": [
+    "Ulnar collateral arteries run with the ulnar nerve.",
+    "The axillary artery ends at pectoralis major.",
+    "Profunda brachii (deep brachial artery).",
+    "The brachial artery stays in the brachial canal."
    ]
   },
   {
@@ -2256,6 +2540,12 @@ SINA.lectures["anat1-arm"] = {
      "lec": "The arm: compartments and brachial canal",
      "n": 5
     }
+   ],
+   "notes": [
+    "The ulnar nerve is in the canal proximally.",
+    "The brachial artery is the main content.",
+    "The median nerve runs with the artery.",
+    "The radial nerve runs posteriorly in the radial groove."
    ]
   },
   {
@@ -2279,6 +2569,12 @@ SINA.lectures["anat1-arm"] = {
      "lec": "The arm: compartments and brachial canal",
      "n": 5
     }
+   ],
+   "notes": [
+    "Radial and ulnar arteries, in the cubital fossa.",
+    "The palmar arches are in the hand.",
+    "Circumflex arteries come from the axillary artery.",
+    "These branch from the ulnar artery in the forearm."
    ]
   },
   {
@@ -2297,6 +2593,12 @@ SINA.lectures["anat1-arm"] = {
      "lec": "The arm: compartments and brachial canal",
      "n": 5
     }
+   ],
+   "notes": [
+    "Proximally it is in front; distally it goes behind.",
+    "The carpal tunnel carries the median nerve.",
+    "The radial groove carries the radial nerve.",
+    "It pierces the septum and runs behind it, toward the medial epicondyle."
    ]
   },
   {
@@ -2664,10 +2966,16 @@ SINA.lectures["anat1-cubital-fold"] = {
    "why": "Between the epicondyles laterally.",
    "slides": [
     {
-     "src": "files/slides/anat1-cubital-fold/02.jpg",
+     "src": "files/slides/anat1-cubital-fold/01.jpg",
      "lec": "The cubital fold (antecubital fossa)",
-     "n": 2
+     "n": 1
     }
+   ],
+   "notes": [
+    "Too small a region.",
+    "About 4 cm above and below the joint line.",
+    "Far too large.",
+    "Too large."
    ]
   },
   {
@@ -2679,7 +2987,20 @@ SINA.lectures["anat1-cubital-fold"] = {
     "Palmaris longus"
    ],
    "answer": 0,
-   "why": "Order: PT, FCR, PL, FCU."
+   "why": "Order: PT, FCR, PL, FCU.",
+   "notes": [
+    "Lateral to medial: PT, FCR, PL, FCU.",
+    "Second from lateral.",
+    "The most medial.",
+    "Third from lateral."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat1-cubital-fold/01.jpg",
+     "lec": "The cubital fold (antecubital fossa)",
+     "n": 1
+    }
+   ]
   },
   {
    "q": "Which is a lateral epicondylar muscle?",
@@ -2693,15 +3014,21 @@ SINA.lectures["anat1-cubital-fold"] = {
    "why": "With ECRL and ECRB.",
    "slides": [
     {
+     "src": "files/slides/anat1-cubital-fold/01.jpg",
+     "lec": "The cubital fold (antecubital fossa)",
+     "n": 1
+    },
+    {
      "src": "files/slides/anat1-cubital-fold/02.jpg",
      "lec": "The cubital fold (antecubital fossa)",
      "n": 2
-    },
-    {
-     "src": "files/slides/anat1-cubital-fold/03.jpg",
-     "lec": "The cubital fold (antecubital fossa)",
-     "n": 3
     }
+   ],
+   "notes": [
+    "Medial epicondylar group.",
+    "Medial epicondylar group.",
+    "Lateral group, with ECRL and ECRB.",
+    "Medial epicondylar group."
    ]
   },
   {
@@ -2720,6 +3047,12 @@ SINA.lectures["anat1-cubital-fold"] = {
      "lec": "The cubital fold (antecubital fossa)",
      "n": 2
     }
+   ],
+   "notes": [
+    "Brachial artery and median nerve.",
+    "The ulnar nerve passes behind the medial epicondyle.",
+    "The cephalic vein is superficial and lateral.",
+    "The radial nerve is in the lateral groove."
    ]
   },
   {
@@ -2738,6 +3071,12 @@ SINA.lectures["anat1-cubital-fold"] = {
      "lec": "The cubital fold (antecubital fossa)",
      "n": 2
     }
+   ],
+   "notes": [
+    "Far below.",
+    "Mid-arm is still the brachial artery.",
+    "At the axilla it is still the axillary artery.",
+    "About 2 cm below the joint line."
    ]
   },
   {
@@ -2761,6 +3100,12 @@ SINA.lectures["anat1-cubital-fold"] = {
      "lec": "The cubital fold (antecubital fossa)",
      "n": 3
     }
+   ],
+   "notes": [
+    "The ulnar nerve runs behind the medial epicondyle.",
+    "The carpal tunnel is at the wrist.",
+    "Lateral bicipital groove, where it divides.",
+    "The medial groove has the brachial artery and median nerve."
    ]
   },
   {
@@ -2779,6 +3124,12 @@ SINA.lectures["anat1-cubital-fold"] = {
      "lec": "The cubital fold (antecubital fossa)",
      "n": 3
     }
+   ],
+   "notes": [
+    "The median nerve passes between the heads of pronator teres.",
+    "The biceps isn't pierced.",
+    "It goes through the supinator to the posterior forearm.",
+    "The brachialis isn't pierced."
    ]
   },
   {
@@ -2802,6 +3153,12 @@ SINA.lectures["anat1-cubital-fold"] = {
      "lec": "The cubital fold (antecubital fossa)",
      "n": 3
     }
+   ],
+   "notes": [
+    "That is the radial pulse at the wrist.",
+    "Nothing to palpate over the olecranon.",
+    "The lateral groove holds the radial nerve.",
+    "Medial to the biceps tendon."
    ]
   },
   {
@@ -2820,6 +3177,12 @@ SINA.lectures["anat1-cubital-fold"] = {
      "lec": "The cubital fold (antecubital fossa)",
      "n": 3
     }
+   ],
+   "notes": [
+    "The M-shaped network drains into cephalic and basilic veins.",
+    "Saphenous veins are in the lower limb.",
+    "Those are deep veins.",
+    "Brachial veins are deep."
    ]
   },
   {
@@ -2838,6 +3201,12 @@ SINA.lectures["anat1-cubital-fold"] = {
      "lec": "The cubital fold (antecubital fossa)",
      "n": 4
     }
+   ],
+   "notes": [
+    "The radial nerve is lateral and anterior.",
+    "The musculocutaneous nerve is lateral.",
+    "The median nerve is anterior.",
+    "Ulnar nerve: the 'funny bone'."
    ]
   },
   {
@@ -3195,7 +3564,20 @@ SINA.lectures["anat1-forearm"] = {
     "Five"
    ],
    "answer": 1,
-   "why": "Anterior, lateral, posterior."
+   "why": "Anterior, lateral, posterior.",
+   "notes": [
+    "Not two.",
+    "Anterior, lateral and posterior.",
+    "Not four (the anterior compartment has four layers).",
+    "Not five."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat1-forearm/01.jpg",
+     "lec": "Topographic anatomy of the forearm",
+     "n": 1
+    }
+   ]
   },
   {
    "q": "Which is the most superficial anterior layer?",
@@ -3206,7 +3588,20 @@ SINA.lectures["anat1-forearm"] = {
     "FDS"
    ],
    "answer": 2,
-   "why": "From the medial epicondyle."
+   "why": "From the medial epicondyle.",
+   "notes": [
+    "Deepest layer (third).",
+    "Supinator is lateral/posterior.",
+    "The four epitrochlear muscles form the first layer.",
+    "FDS is the second layer."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat1-forearm/01.jpg",
+     "lec": "Topographic anatomy of the forearm",
+     "n": 1
+    }
+   ]
   },
   {
    "q": "Flexor carpi ulnaris inserts on the:",
@@ -3224,6 +3619,12 @@ SINA.lectures["anat1-forearm"] = {
      "lec": "Topographic anatomy of the forearm",
      "n": 2
     }
+   ],
+   "notes": [
+    "Palmaris longus ends in the palmar aponeurosis.",
+    "Pisiform (and hamate, 5th metacarpal).",
+    "FCR inserts on the 2nd metacarpal.",
+    "Pronator teres inserts on the radius."
    ]
   },
   {
@@ -3247,6 +3648,12 @@ SINA.lectures["anat1-forearm"] = {
      "lec": "Topographic anatomy of the forearm",
      "n": 4
     }
+   ],
+   "notes": [
+    "Not its insertion.",
+    "Not its insertion.",
+    "Middle phalanges (split tendons).",
+    "FDP inserts on the distal phalanges."
    ]
   },
   {
@@ -3265,6 +3672,12 @@ SINA.lectures["anat1-forearm"] = {
      "lec": "Topographic anatomy of the forearm",
      "n": 3
     }
+   ],
+   "notes": [
+    "Not behind the ulna.",
+    "The ulnar nerve runs under FCU.",
+    "The deep radial nerve passes through the supinator.",
+    "Under the FDS arch, between FDS and FDP."
    ]
   },
   {
@@ -3288,6 +3701,12 @@ SINA.lectures["anat1-forearm"] = {
      "lec": "Topographic anatomy of the forearm",
      "n": 5
     }
+   ],
+   "notes": [
+    "Two nerves share it.",
+    "The median nerve supplies fingers 2–3.",
+    "The thumb flexor is FPL (median).",
+    "Ulnar nerve: fingers 4–5."
    ]
   },
   {
@@ -3306,24 +3725,12 @@ SINA.lectures["anat1-forearm"] = {
      "lec": "Topographic anatomy of the forearm",
      "n": 5
     }
-   ]
-  },
-  {
-   "q": "The radial pulse is felt between the tendons of:",
-   "options": [
-    "FCR and brachioradialis",
-    "FCU and FDS",
-    "PL and FCR",
-    "ECRL and ECRB"
    ],
-   "answer": 0,
-   "why": "Pulse groove.",
-   "slides": [
-    {
-     "src": "files/slides/anat1-forearm/06.jpg",
-     "lec": "Topographic anatomy of the forearm",
-     "n": 6
-    }
+   "notes": [
+    "Median nerve.",
+    "Ulnar nerve: FCU and the medial half of FDP.",
+    "Median (anterior interosseous).",
+    "Median nerve."
    ]
   },
   {
@@ -3342,6 +3749,12 @@ SINA.lectures["anat1-forearm"] = {
      "lec": "Topographic anatomy of the forearm",
      "n": 4
     }
+   ],
+   "notes": [
+    "Supinator: deep radial nerve.",
+    "Brachioradialis is supplied by the radial nerve but mainly flexes the elbow.",
+    "Pronator teres pronates (median).",
+    "The biceps supinates but is supplied by the musculocutaneous."
    ]
   },
   {
@@ -3360,6 +3773,12 @@ SINA.lectures["anat1-forearm"] = {
      "lec": "Topographic anatomy of the forearm",
      "n": 6
     }
+   ],
+   "notes": [
+    "It doesn't pronate (it brings the forearm to mid-position).",
+    "Elbow flexion, especially in mid-pronation.",
+    "Finger extensors are posterior.",
+    "Wrist extension is ECRL, ECRB, ECU."
    ]
   },
   {
@@ -3378,6 +3797,12 @@ SINA.lectures["anat1-forearm"] = {
      "lec": "Topographic anatomy of the forearm",
      "n": 8
     }
+   ],
+   "notes": [
+    "Distal phalanx of the thumb.",
+    "APL inserts on the 1st metacarpal.",
+    "Nothing inserts there among these.",
+    "EPB inserts on the proximal phalanx."
    ]
   },
   {
@@ -3396,6 +3821,12 @@ SINA.lectures["anat1-forearm"] = {
      "lec": "Topographic anatomy of the forearm",
      "n": 8
     }
+   ],
+   "notes": [
+    "Deep branch (posterior interosseous nerve).",
+    "Median: anterior compartment.",
+    "Ulnar: FCU and part of FDP.",
+    "Musculocutaneous supplies no forearm muscle."
    ]
   },
   {
@@ -3775,6 +4206,12 @@ SINA.lectures["anat1-hand-muscles"] = {
      "lec": "Muscular compartments of the hand",
      "n": 2
     }
+   ],
+   "notes": [
+    "Superficial thenar muscle.",
+    "Deepest of the group, under the others.",
+    "Lies superficial to the adductor.",
+    "Lies under APB but above the adductor."
    ]
   },
   {
@@ -3793,6 +4230,12 @@ SINA.lectures["anat1-hand-muscles"] = {
      "lec": "Muscular compartments of the hand",
      "n": 2
     }
+   ],
+   "notes": [
+    "Median (thenar branch).",
+    "Ulnar nerve, deep branch.",
+    "Ulnar nerve, deep branch.",
+    "The adductor and deep FPB are ulnar."
    ]
   },
   {
@@ -3811,6 +4254,12 @@ SINA.lectures["anat1-hand-muscles"] = {
      "lec": "Muscular compartments of the hand",
      "n": 2
     }
+   ],
+   "notes": [
+    "The radial nerve supplies no hand muscle.",
+    "Ends in the forearm as a sensory nerve.",
+    "Deep branch of the ulnar nerve.",
+    "The median supplies the superficial thenar muscles, not the adductor."
    ]
   },
   {
@@ -3829,6 +4278,12 @@ SINA.lectures["anat1-hand-muscles"] = {
      "lec": "Muscular compartments of the hand",
      "n": 2
     }
+   ],
+   "notes": [
+    "Deep branch of the ulnar nerve, all four.",
+    "No intrinsic hand muscles.",
+    "The thenar group is the shared one, not the hypothenar.",
+    "The median supplies thenar muscles."
    ]
   },
   {
@@ -3847,6 +4302,12 @@ SINA.lectures["anat1-hand-muscles"] = {
      "lec": "Muscular compartments of the hand",
      "n": 2
     }
+   ],
+   "notes": [
+    "A thenar muscle (thumb).",
+    "Little-finger (hypothenar) group.",
+    "Middle palmar compartment.",
+    "A thenar muscle."
    ]
   },
   {
@@ -3865,6 +4326,12 @@ SINA.lectures["anat1-hand-muscles"] = {
      "lec": "Muscular compartments of the hand",
      "n": 2
     }
+   ],
+   "notes": [
+    "Thumb extension is EPL and EPB (forearm).",
+    "Wrist flexors are forearm muscles.",
+    "DAB: Dorsal ABduct.",
+    "That is the palmar interossei."
    ]
   },
   {
@@ -3883,6 +4350,12 @@ SINA.lectures["anat1-hand-muscles"] = {
      "lec": "Muscular compartments of the hand",
      "n": 2
     }
+   ],
+   "notes": [
+    "That is the dorsal interossei.",
+    "Wrist extensors are forearm muscles.",
+    "PAD: Palmar ADduct.",
+    "Opponens pollicis (median)."
    ]
   },
   {
@@ -3901,6 +4374,12 @@ SINA.lectures["anat1-hand-muscles"] = {
      "lec": "Muscular compartments of the hand",
      "n": 2
     }
+   ],
+   "notes": [
+    "Opponens pollicis is supplied by its thenar branch.",
+    "The axillary supplies deltoid and teres minor.",
+    "The radial nerve supplies no thenar muscle.",
+    "The ulnar supplies the adductor, not the opponens."
    ]
   },
   {
@@ -4274,7 +4753,20 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
     "BR and FCR"
    ],
    "answer": 3,
-   "why": "Brachioradialis lateral, FCR medial."
+   "why": "Brachioradialis lateral, FCR medial.",
+   "notes": [
+    "PL is medial to FCR, not the groove border.",
+    "These are medial muscles.",
+    "These border the snuffbox.",
+    "Brachioradialis lateral, FCR medial."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat1-hand-vessels-nerves/01.jpg",
+     "lec": "Vascularisation and innervation of the hand",
+     "n": 1
+    }
+   ]
   },
   {
    "q": "The radial artery reaches the back of the hand through the:",
@@ -4292,6 +4784,12 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
      "lec": "Vascularisation and innervation of",
      "n": 3
     }
+   ],
+   "notes": [
+    "It continues past the groove.",
+    "The median nerve goes there.",
+    "The ulnar artery and nerve go there.",
+    "Through its floor, to the first web space."
    ]
   },
   {
@@ -4310,6 +4808,12 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
      "lec": "Vascularisation and innervation of",
      "n": 2
     }
+   ],
+   "notes": [
+    "Ulnar artery + radiopalmar branch.",
+    "The radial artery mainly forms the deep arch.",
+    "Ends at the elbow.",
+    "Forearm branch, not a palmar arch."
    ]
   },
   {
@@ -4328,6 +4832,12 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
      "lec": "Vascularisation and innervation of",
      "n": 2
     }
+   ],
+   "notes": [
+    "Radial artery + ulnopalmar branch.",
+    "The ulnar artery mainly forms the superficial arch.",
+    "Not in the course.",
+    "Ends at the elbow."
    ]
   },
   {
@@ -4346,6 +4856,12 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
      "lec": "Vascularisation and innervation of",
      "n": 3
     }
+   ],
+   "notes": [
+    "Lies more superficially in the palm.",
+    "Closes the tunnel in front.",
+    "Form the floor (posterior wall).",
+    "Part of the medial bony border."
    ]
   },
   {
@@ -4364,6 +4880,12 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
      "lec": "Vascularisation and innervation of",
      "n": 3
     }
+   ],
+   "notes": [
+    "Through Guyon's canal.",
+    "Ends in the forearm.",
+    "With the finger flexor tendons.",
+    "Behind the wrist, not through the tunnel."
    ]
   },
   {
@@ -4382,6 +4904,12 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
      "lec": "Vascularisation and innervation of",
      "n": 4
     }
+   ],
+   "notes": [
+    "That is the ulnar nerve.",
+    "Palmar thumb to the lateral half of the ring finger.",
+    "That is the ulnar nerve.",
+    "Dorsum is mostly radial and ulnar nerves."
    ]
   },
   {
@@ -4400,6 +4928,12 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
      "lec": "Vascularisation and innervation of",
      "n": 4
     }
+   ],
+   "notes": [
+    "The median nerve.",
+    "The radial artery.",
+    "The radial artery.",
+    "Lateral to the pisiform."
    ]
   },
   {
@@ -4418,6 +4952,12 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
      "lec": "Vascularisation and innervation of",
      "n": 4
     }
+   ],
+   "notes": [
+    "Branches given in the forearm.",
+    "Interossei, hypothenar, adductor and more.",
+    "Superficial thenar muscles are median.",
+    "Two lumbricals are median."
    ]
   },
   {
@@ -4436,6 +4976,12 @@ SINA.lectures["anat1-hand-vessels-nerves"] = {
      "lec": "Vascularisation and innervation of",
      "n": 4
     }
+   ],
+   "notes": [
+    "Thumb to lateral half of the ring finger.",
+    "Ulnar: medial ring finger + little finger.",
+    "Dorsum of the lateral hand.",
+    "Shoulder skin (stump)."
    ]
   },
   {
@@ -4835,6 +5381,12 @@ SINA.lectures["anat1-thorax-overview"] = {
      "lec": "Thorax part 1: overview",
      "n": 41
     }
+   ],
+   "notes": [
+    "Rib 1 joins the manubrium above, near the clavicle.",
+    "Rib 2's cartilage joins at the angle: the counting landmark.",
+    "Lower, on the sternal body.",
+    "Joins near the xiphisternal junction."
    ]
   },
   {
@@ -4858,6 +5410,12 @@ SINA.lectures["anat1-thorax-overview"] = {
      "lec": "Thorax part 1: overview",
      "n": 41
     }
+   ],
+   "notes": [
+    "That is near the xiphoid.",
+    "That is the superior aperture.",
+    "Disc between T4 and T5.",
+    "Too high: that is the jugular notch."
    ]
   },
   {
@@ -4876,6 +5434,12 @@ SINA.lectures["anat1-thorax-overview"] = {
      "lec": "Thorax part 1: overview",
      "n": 7
     }
+   ],
+   "notes": [
+    "That is the scapular line, on the back.",
+    "Dropped from mid-clavicle, just medial to the nipple.",
+    "That is the midsternal line.",
+    "That is the axillary lines."
    ]
   },
   {
@@ -4894,6 +5458,12 @@ SINA.lectures["anat1-thorax-overview"] = {
      "lec": "Thorax part 1: overview",
      "n": 10
     }
+   ],
+   "notes": [
+    "The sternum is part of the cage wall.",
+    "Surrounds the heart.",
+    "Diaphragm closes it.",
+    "Lines the cavity, doesn't close it."
    ]
   },
   {
@@ -4917,6 +5487,12 @@ SINA.lectures["anat1-thorax-overview"] = {
      "lec": "Thorax part 1: overview",
      "n": 17
     }
+   ],
+   "notes": [
+    "The clavicles lie above it.",
+    "That is the sternal angle plane.",
+    "That is the inferior aperture.",
+    "T1, first ribs and manubrium."
    ]
   },
   {
@@ -4940,6 +5516,12 @@ SINA.lectures["anat1-thorax-overview"] = {
      "lec": "Thorax part 1: overview",
      "n": 41
     }
+   ],
+   "notes": [
+    "One is higher.",
+    "They are not level.",
+    "The left sits over the stomach, lower.",
+    "Right dome, over the liver."
    ]
   },
   {
@@ -4958,6 +5540,12 @@ SINA.lectures["anat1-thorax-overview"] = {
      "lec": "Thorax part 1: overview",
      "n": 58
     }
+   ],
+   "notes": [
+    "Goes through the central tendon (T8).",
+    "Behind it, through the aortic hiatus.",
+    "Goes through the muscle (T10).",
+    "Runs on the diaphragm and supplies it."
    ]
   },
   {
@@ -4981,6 +5569,12 @@ SINA.lectures["anat1-thorax-overview"] = {
      "lec": "Thorax part 1: overview",
      "n": 59
     }
+   ],
+   "notes": [
+    "Sternal angle (T4-T5).",
+    "Much lower (T9).",
+    "Top of the manubrium.",
+    "Not a mediastinal plane."
    ]
   },
   {
@@ -4999,6 +5593,12 @@ SINA.lectures["anat1-thorax-overview"] = {
      "lec": "Thorax part 1: overview",
      "n": 26
     }
+   ],
+   "notes": [
+    "Heart and pericardium.",
+    "Superior/anterior mediastinum.",
+    "Posterior mediastinum.",
+    "Posterior, paravertebral."
    ]
   },
   {
@@ -5017,6 +5617,12 @@ SINA.lectures["anat1-thorax-overview"] = {
      "lec": "Thorax part 1: overview",
      "n": 28
     }
+   ],
+   "notes": [
+    "Surrounds the heart.",
+    "Lines the wall.",
+    "Covers the lung itself.",
+    "Lies outside the parietal pleura."
    ]
   },
   {
@@ -5035,6 +5641,12 @@ SINA.lectures["anat1-thorax-overview"] = {
      "lec": "Thorax part 1: overview",
      "n": 29
     }
+   ],
+   "notes": [
+    "The largest and lowest.",
+    "Smaller, in front.",
+    "Not a pleural recess.",
+    "The cupula, not a recess."
    ]
   },
   {
@@ -5058,6 +5670,12 @@ SINA.lectures["anat1-thorax-overview"] = {
      "lec": "Thorax part 1: overview",
      "n": 30
     }
+   ],
+   "notes": [
+    "The cupula rises into the neck.",
+    "They go above rib 1.",
+    "They reach lower than the lungs but not past the diaphragm.",
+    "The diaphragm separates them."
    ]
   },
   {
@@ -5465,6 +6083,12 @@ SINA.lectures["anat1-thorax-osteology"] = {
      "lec": "Thorax part 2: osteology",
      "n": 6
     }
+   ],
+   "notes": [
+    "That is the sternal angle.",
+    "Far lower.",
+    "Xiphisternal level, T9.",
+    "Too high."
    ]
   },
   {
@@ -5488,6 +6112,12 @@ SINA.lectures["anat1-thorax-osteology"] = {
      "lec": "Thorax part 2: osteology",
      "n": 19
     }
+   ],
+   "notes": [
+    "These join the sternum directly.",
+    "Cartilages 7-10.",
+    "Floating ribs: no cartilage to the margin.",
+    "True ribs at the top."
    ]
   },
   {
@@ -5506,6 +6136,12 @@ SINA.lectures["anat1-thorax-osteology"] = {
      "lec": "Thorax part 2: osteology",
      "n": 15
     }
+   ],
+   "notes": [
+    "The only bony link.",
+    "Shoulder joint (upper limb only).",
+    "Between clavicle and scapula.",
+    "Rib and vertebra (axial only)."
    ]
   },
   {
@@ -5529,6 +6165,12 @@ SINA.lectures["anat1-thorax-osteology"] = {
      "lec": "Thorax part 2: osteology",
      "n": 33
     }
+   ],
+   "notes": [
+    "Happens at T4-T5.",
+    "T10: not at the sternal angle.",
+    "Happens at the sternal angle plane.",
+    "Rib 2 joins here."
    ]
   },
   {
@@ -5552,6 +6194,12 @@ SINA.lectures["anat1-thorax-osteology"] = {
      "lec": "Thorax part 2: osteology",
      "n": 19
     }
+   ],
+   "notes": [
+    "Includes false and floating.",
+    "Floating ribs.",
+    "False ribs.",
+    "Ribs 1-7."
    ]
   },
   {
@@ -5575,6 +6223,12 @@ SINA.lectures["anat1-thorax-osteology"] = {
      "lec": "Thorax part 2: osteology",
      "n": 22
     }
+   ],
+   "notes": [
+    "True ribs.",
+    "True ribs.",
+    "11-12: no anterior attachment.",
+    "False ribs."
    ]
   },
   {
@@ -5598,6 +6252,12 @@ SINA.lectures["anat1-thorax-osteology"] = {
      "lec": "Thorax part 2: osteology",
      "n": 37
     }
+   ],
+   "notes": [
+    "Transverse process.",
+    "No rib-clavicle joint.",
+    "The head does.",
+    "The costal cartilage does."
    ]
   },
   {
@@ -5616,6 +6276,12 @@ SINA.lectures["anat1-thorax-osteology"] = {
      "lec": "Thorax part 2: osteology",
      "n": 21
     }
+   ],
+   "notes": [
+    "Thick and strong.",
+    "Protected near the spine.",
+    "Weakest point, just in front of the angle.",
+    "Cartilage bends rather than breaks."
    ]
   },
   {
@@ -5634,6 +6300,12 @@ SINA.lectures["anat1-thorax-osteology"] = {
      "lec": "Thorax part 2: osteology",
      "n": 22
     }
+   ],
+   "notes": [
+    "It is on rib 1.",
+    "That is the artery.",
+    "The grooves are on the upper surface.",
+    "Vein in front of the scalene tubercle."
    ]
   },
   {
@@ -5652,6 +6324,12 @@ SINA.lectures["anat1-thorax-osteology"] = {
      "lec": "Thorax part 2: osteology",
      "n": 25
     }
+   ],
+   "notes": [
+    "Reversed.",
+    "VAN, top to bottom.",
+    "Vein comes first.",
+    "Vein comes first."
    ]
   },
   {
@@ -5670,6 +6348,12 @@ SINA.lectures["anat1-thorax-osteology"] = {
      "lec": "Thorax part 2: osteology",
      "n": 25
     }
+   ],
+   "notes": [
+    "Lowest, may lie below the groove.",
+    "Not the structure in the space.",
+    "Protected high in the groove.",
+    "Protected in the groove."
    ]
   },
   {
@@ -5693,6 +6377,12 @@ SINA.lectures["anat1-thorax-osteology"] = {
      "lec": "Thorax part 2: osteology",
      "n": 13
     }
+   ],
+   "notes": [
+    "Lumbar spine.",
+    "Cervical spine.",
+    "Too few.",
+    "Twelve."
    ]
   },
   {
@@ -6083,29 +6773,6 @@ SINA.lectures["anat1-thorax-myology"] = {
  },
  "mcqs": [
   {
-   "q": "Which muscle stabilises the scapula and inserts on the coracoid?",
-   "options": [
-    "Pectoralis major",
-    "Pectoralis minor",
-    "Subclavius",
-    "Serratus anterior"
-   ],
-   "answer": 1,
-   "why": "From ribs 3-5.",
-   "slides": [
-    {
-     "src": "files/slides/anat1-thorax-myology/05.jpg",
-     "lec": "Thorax part 3: myology",
-     "n": 5
-    },
-    {
-     "src": "files/slides/anat1-thorax-myology/07.jpg",
-     "lec": "Thorax part 3: myology",
-     "n": 7
-    }
-   ]
-  },
-  {
    "q": "Serratus anterior mainly:",
    "options": [
     "Flexes the arm",
@@ -6126,6 +6793,12 @@ SINA.lectures["anat1-thorax-myology"] = {
      "lec": "Thorax part 3: myology",
      "n": 9
     }
+   ],
+   "notes": [
+    "Pectoralis major, deltoid.",
+    "Rhomboids and trapezius.",
+    "Pulls scapula forward.",
+    "Subclavius depresses it."
    ]
   },
   {
@@ -6144,6 +6817,12 @@ SINA.lectures["anat1-thorax-myology"] = {
      "lec": "Thorax part 3: myology",
      "n": 10
     }
+   ],
+   "notes": [
+    "Too superficial.",
+    "Internal and innermost.",
+    "Between external and internal: no bundle.",
+    "Pleural space."
    ]
   },
   {
@@ -6162,6 +6841,12 @@ SINA.lectures["anat1-thorax-myology"] = {
      "lec": "Thorax part 3: myology",
      "n": 11
     }
+   ],
+   "notes": [
+    "Forced expiration uses internal and abdominal.",
+    "Not respiratory.",
+    "Raise the ribs.",
+    "That is the internal."
    ]
   },
   {
@@ -6180,6 +6865,12 @@ SINA.lectures["anat1-thorax-myology"] = {
      "lec": "Thorax part 3: myology",
      "n": 12
     }
+   ],
+   "notes": [
+    "That is serratus anterior.",
+    "That is the external.",
+    "Back muscles.",
+    "Lower the ribs."
    ]
   },
   {
@@ -6203,6 +6894,12 @@ SINA.lectures["anat1-thorax-myology"] = {
      "lec": "Thorax part 3: myology",
      "n": 28
     }
+   ],
+   "notes": [
+    "It moves.",
+    "It pulls down.",
+    "Contraction lowers it.",
+    "Descends and flattens."
    ]
   },
   {
@@ -6226,6 +6923,12 @@ SINA.lectures["anat1-thorax-myology"] = {
      "lec": "Thorax part 3: myology",
      "n": 24
     }
+   ],
+   "notes": [
+    "Lumbar, not thoracic.",
+    "L1-L3 (three lumbar).",
+    "Left crus.",
+    "Too low."
    ]
   },
   {
@@ -6244,6 +6947,12 @@ SINA.lectures["anat1-thorax-myology"] = {
      "lec": "Thorax part 3: myology",
      "n": 24
     }
+   ],
+   "notes": [
+    "C3-C5.",
+    "Thoracic: intercostals.",
+    "Too high.",
+    "Brachial plexus."
    ]
   },
   {
@@ -6262,6 +6971,12 @@ SINA.lectures["anat1-thorax-myology"] = {
      "lec": "Thorax part 3: myology",
      "n": 25
     }
+   ],
+   "notes": [
+    "T8, central tendon.",
+    "That is the aorta.",
+    "That is the oesophagus.",
+    "Too low."
    ]
   },
   {
@@ -6280,6 +6995,12 @@ SINA.lectures["anat1-thorax-myology"] = {
      "lec": "Thorax part 3: myology",
      "n": 26
     }
+   ],
+   "notes": [
+    "Too high.",
+    "T10.",
+    "That is the IVC.",
+    "That is the aorta."
    ]
   },
   {
@@ -6298,6 +7019,12 @@ SINA.lectures["anat1-thorax-myology"] = {
      "lec": "Thorax part 3: myology",
      "n": 27
     }
+   ],
+   "notes": [
+    "T12, behind.",
+    "That is the oesophagus.",
+    "That is the IVC.",
+    "Too low."
    ]
   },
   {
@@ -6316,6 +7043,12 @@ SINA.lectures["anat1-thorax-myology"] = {
      "lec": "Thorax part 3: myology",
      "n": 24
     }
+   ],
+   "notes": [
+    "Anterior to the root.",
+    "That is the vagus.",
+    "Not in the oesophagus.",
+    "Middle mediastinum, with the pericardium."
    ]
   },
   {
@@ -6737,6 +7470,12 @@ SINA.lectures["anat1-thorax-walls"] = {
      "lec": "Thorax part 4: thoracic walls and breast",
      "n": 13
     }
+   ],
+   "notes": [
+    "Brachial plexus.",
+    "T1-T11 run in the intercostal spaces.",
+    "T12 is the subcostal nerve, below rib 12.",
+    "Lumbar plexus."
    ]
   },
   {
@@ -6760,6 +7499,12 @@ SINA.lectures["anat1-thorax-walls"] = {
      "lec": "Thorax part 4: thoracic walls and breast",
      "n": 19
     }
+   ],
+   "notes": [
+    "It starts lower, after the first rib.",
+    "Not a direct aortic branch.",
+    "Gives the right subclavian and carotid.",
+    "First part of the subclavian artery."
    ]
   },
   {
@@ -6778,6 +7523,12 @@ SINA.lectures["anat1-thorax-walls"] = {
      "lec": "Thorax part 4: thoracic walls and breast",
      "n": 16
     }
+   ],
+   "notes": [
+    "Its two terminal branches.",
+    "Come from the thoracic aorta.",
+    "Mostly from the aorta.",
+    "A branch of the aorta."
    ]
   },
   {
@@ -6801,6 +7552,12 @@ SINA.lectures["anat1-thorax-walls"] = {
      "lec": "Thorax part 4: thoracic walls and breast",
      "n": 17
     }
+   ],
+   "notes": [
+    "From the costocervical trunk.",
+    "Supplies the upper limb and lateral chest.",
+    "The aorta gives the lower nine.",
+    "It gives the anterior intercostals."
    ]
   },
   {
@@ -6819,6 +7576,12 @@ SINA.lectures["anat1-thorax-walls"] = {
      "lec": "Thorax part 4: thoracic walls and breast",
      "n": 16
     }
+   ],
+   "notes": [
+    "Runs below rib 12.",
+    "Gives the lateral mammary branches.",
+    "Perforating branches of the internal thoracic.",
+    "Gives posterior intercostals."
    ]
   },
   {
@@ -6842,6 +7605,12 @@ SINA.lectures["anat1-thorax-walls"] = {
      "lec": "Thorax part 4: thoracic walls and breast",
      "n": 21
     }
+   ],
+   "notes": [
+    "The upper ones may drain there.",
+    "Azygos system, then SVC.",
+    "Drains the upper limb.",
+    "Drains the anterior intercostals."
    ]
   },
   {
@@ -6860,6 +7629,12 @@ SINA.lectures["anat1-thorax-walls"] = {
      "lec": "Thorax part 4: thoracic walls and breast",
      "n": 22
     }
+   ],
+   "notes": [
+    "Not their territory.",
+    "Medial breast, along the internal thoracic artery.",
+    "Drained by axillary nodes.",
+    "Drained by axillary nodes."
    ]
   },
   {
@@ -6878,6 +7653,12 @@ SINA.lectures["anat1-thorax-walls"] = {
      "lec": "Thorax part 4: thoracic walls and breast",
      "n": 23
     }
+   ],
+   "notes": [
+    "Too high.",
+    "Too low.",
+    "Too low.",
+    "Ribs 2-6."
    ]
   },
   {
@@ -6896,6 +7677,12 @@ SINA.lectures["anat1-thorax-walls"] = {
      "lec": "Thorax part 4: thoracic walls and breast",
      "n": 25
     }
+   ],
+   "notes": [
+    "Ducts are in the gland.",
+    "The nipple is on the surface.",
+    "It is in front of the pectoral fascia, not the pleura.",
+    "Loose tissue lets the breast move."
    ]
   },
   {
@@ -6919,6 +7706,12 @@ SINA.lectures["anat1-thorax-walls"] = {
      "lec": "Thorax part 4: thoracic walls and breast",
      "n": 17
     }
+   ],
+   "notes": [
+    "Below rib 12, from the aorta.",
+    "That is the internal thoracic.",
+    "Phrenic arteries supply it.",
+    "Above rib 1 is the neck."
    ]
   },
   {
@@ -7428,6 +8221,12 @@ SINA.lectures["anat1-heart"] = {
      "lec": "Thorax part 5: the heart",
      "n": 9
     }
+   ],
+   "notes": [
+    "Forms the right border.",
+    "Forms the front (sternocostal).",
+    "Forms the apex and left border.",
+    "Mainly the left atrium, facing back."
    ]
   },
   {
@@ -7446,6 +8245,12 @@ SINA.lectures["anat1-heart"] = {
      "lec": "Thorax part 5: the heart",
      "n": 10
     }
+   ],
+   "notes": [
+    "Right ventricle.",
+    "Forms the base.",
+    "Forms the right border.",
+    "Forms the left border and apex."
    ]
   },
   {
@@ -7464,6 +8269,12 @@ SINA.lectures["anat1-heart"] = {
      "lec": "Thorax part 5: the heart",
      "n": 10
     }
+   ],
+   "notes": [
+    "Upper left border.",
+    "SVC, RA and IVC.",
+    "Left border.",
+    "Not the right border."
    ]
   },
   {
@@ -7482,6 +8293,12 @@ SINA.lectures["anat1-heart"] = {
      "lec": "Thorax part 5: the heart",
      "n": 12
     }
+   ],
+   "notes": [
+    "LAD and great cardiac vein.",
+    "In the coronary sulcus.",
+    "Posterior coronary sulcus.",
+    "In the posterior groove."
    ]
   },
   {
@@ -7500,6 +8317,12 @@ SINA.lectures["anat1-heart"] = {
      "lec": "Thorax part 5: the heart",
      "n": 15
     }
+   ],
+   "notes": [
+    "That is the oblique sinus.",
+    "Not a sinus.",
+    "Behind the aorta and pulmonary trunk.",
+    "Not that sinus."
    ]
   },
   {
@@ -7518,6 +8341,12 @@ SINA.lectures["anat1-heart"] = {
      "lec": "Thorax part 5: the heart",
      "n": 17
     }
+   ],
+   "notes": [
+    "Not into a ventricle.",
+    "Right atrium.",
+    "Venous blood goes to the right side.",
+    "Opens directly into the atrium."
    ]
   },
   {
@@ -7541,6 +8370,12 @@ SINA.lectures["anat1-heart"] = {
      "lec": "Thorax part 5: the heart",
      "n": 34
     }
+   ],
+   "notes": [
+    "None in the LV.",
+    "Septomarginal trabecula.",
+    "Has pectinate muscles.",
+    "Smooth-walled."
    ]
   },
   {
@@ -7564,6 +8399,12 @@ SINA.lectures["anat1-heart"] = {
      "lec": "Thorax part 5: the heart",
      "n": 36
     }
+   ],
+   "notes": [
+    "The moderator band does that.",
+    "In the atria.",
+    "AV valve cusps.",
+    "No AV valve there."
    ]
   },
   {
@@ -7575,7 +8416,25 @@ SINA.lectures["anat1-heart"] = {
     "Liver"
    ],
    "answer": 1,
-   "why": "Basis of transoesophageal echocardiography."
+   "why": "Basis of transoesophageal echocardiography.",
+   "notes": [
+    "Anterior mediastinum.",
+    "Directly behind the left atrium.",
+    "In front of the heart, over the right ventricle.",
+    "Below the diaphragm."
+   ],
+   "slides": [
+    {
+     "src": "files/slides/anat1-heart/20.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 20
+    },
+    {
+     "src": "files/slides/anat1-heart/09.jpg",
+     "lec": "Thorax part 5: the heart",
+     "n": 9
+    }
+   ]
   },
   {
    "q": "The mitral valve lies between:",
@@ -7593,6 +8452,12 @@ SINA.lectures["anat1-heart"] = {
      "lec": "Thorax part 5: the heart",
      "n": 20
     }
+   ],
+   "notes": [
+    "Aortic valve.",
+    "Pulmonary valve.",
+    "LA and LV (bicuspid).",
+    "Tricuspid valve."
    ]
   },
   {
@@ -7616,6 +8481,12 @@ SINA.lectures["anat1-heart"] = {
      "lec": "Thorax part 5: the heart",
      "n": 27
     }
+   ],
+   "notes": [
+    "A vein.",
+    "Supplies them less often.",
+    "Anterior LV and septum.",
+    "Usually the RCA."
    ]
   },
   {
@@ -7639,6 +8510,12 @@ SINA.lectures["anat1-heart"] = {
      "lec": "Thorax part 5: the heart",
      "n": 28
     }
+   ],
+   "notes": [
+    "RCA usually.",
+    "Posterior descending artery.",
+    "RCA.",
+    "Anterior LV and apex."
    ]
   },
   {
@@ -7657,6 +8534,12 @@ SINA.lectures["anat1-heart"] = {
      "lec": "Thorax part 5: the heart",
      "n": 21
     }
+   ],
+   "notes": [
+    "Systemic pressure.",
+    "Thinner, low pressure.",
+    "Thin-walled.",
+    "Thin-walled."
    ]
   },
   {
@@ -8128,6 +9011,12 @@ SINA.lectures["anat1-aorta"] = {
      "lec": "Thorax parts 6-7: great vessels and",
      "n": 7
     }
+   ],
+   "notes": [
+    "Behind the vessels.",
+    "Just behind the manubrium.",
+    "Behind the thymus.",
+    "Most posterior."
    ]
   },
   {
@@ -8146,6 +9035,12 @@ SINA.lectures["anat1-aorta"] = {
      "lec": "Thorax parts 6-7: great vessels and",
      "n": 7
     }
+   ],
+   "notes": [
+    "Too low.",
+    "Too high.",
+    "Too low.",
+    "T5-T6, behind left 3rd cartilage."
    ]
   },
   {
@@ -8169,6 +9064,12 @@ SINA.lectures["anat1-aorta"] = {
      "lec": "Thorax parts 6-7: great vessels and",
      "n": 9
     }
+   ],
+   "notes": [
+    "Right and left aortic sinuses.",
+    "Gives the right subclavian and carotid.",
+    "Carries venous blood.",
+    "They arise just above the valve."
    ]
   },
   {
@@ -8187,6 +9088,12 @@ SINA.lectures["anat1-aorta"] = {
      "lec": "Thorax parts 6-7: great vessels and",
      "n": 7
     }
+   ],
+   "notes": [
+    "From the brachiocephalic trunk.",
+    "First arch branch.",
+    "Second arch branch.",
+    "Third arch branch."
    ]
   },
   {
@@ -8205,6 +9112,12 @@ SINA.lectures["anat1-aorta"] = {
      "lec": "Thorax parts 6-7: great vessels and",
      "n": 12
     }
+   ],
+   "notes": [
+    "Drain the thoracic wall.",
+    "The external jugular drains into the subclavian.",
+    "IJV + subclavian.",
+    "The venae cavae."
    ]
   },
   {
@@ -8223,6 +9136,12 @@ SINA.lectures["anat1-aorta"] = {
      "lec": "Thorax parts 6-7: great vessels and",
      "n": 11
     }
+   ],
+   "notes": [
+    "Drains into the azygos.",
+    "Arches over the right lung root.",
+    "Drains into the left brachiocephalic.",
+    "Drains into the brachiocephalic."
    ]
   },
   {
@@ -8241,6 +9160,12 @@ SINA.lectures["anat1-aorta"] = {
      "lec": "Thorax parts 6-7: great vessels and",
      "n": 5
     }
+   ],
+   "notes": [
+    "Where it begins.",
+    "3rd right costal cartilage.",
+    "Too low.",
+    "Too high."
    ]
   },
   {
@@ -8259,6 +9184,12 @@ SINA.lectures["anat1-aorta"] = {
      "lec": "Thorax parts 6-7: great vessels and",
      "n": 4
     }
+   ],
+   "notes": [
+    "It stays in the mediastinum.",
+    "Large in children.",
+    "Separate glands.",
+    "Atrophies, fatty."
    ]
   },
   {
@@ -8277,6 +9208,12 @@ SINA.lectures["anat1-aorta"] = {
      "lec": "Thorax parts 6-7: great vessels and",
      "n": 4
     }
+   ],
+   "notes": [
+    "Not lymphatic.",
+    "Not random.",
+    "Not the reason.",
+    "Same pharyngeal pouch origin."
    ]
   },
   {
@@ -8295,6 +9232,12 @@ SINA.lectures["anat1-aorta"] = {
      "lec": "Thorax parts 6-7: great vessels and",
      "n": 5
     }
+   ],
+   "notes": [
+    "Rises above the manubrium.",
+    "Present.",
+    "Outside the heart.",
+    "In front of the arch."
    ]
   },
   {
@@ -8735,6 +9678,12 @@ SINA.lectures["anat1-respiratory"] = {
      "lec": "Thorax part 8: lungs and respiratory",
      "n": 10
     }
+   ],
+   "notes": [
+    "Supply the wall.",
+    "Carry blood for gas exchange.",
+    "Carry blood back to the heart.",
+    "Bronchial arteries."
    ]
   },
   {
@@ -8753,6 +9702,12 @@ SINA.lectures["anat1-respiratory"] = {
      "lec": "Thorax part 8: lungs and respiratory",
      "n": 10
     }
+   ],
+   "notes": [
+    "Vagus has effects.",
+    "Sympathetic.",
+    "Not the main effect.",
+    "Vagus: constriction."
    ]
   },
   {
@@ -8771,6 +9726,12 @@ SINA.lectures["anat1-respiratory"] = {
      "lec": "Thorax part 8: lungs and respiratory",
      "n": 8
     }
+   ],
+   "notes": [
+    "T4-T5, sternal angle.",
+    "Too low.",
+    "Too high.",
+    "Where the trachea begins."
    ]
   },
   {
@@ -8794,6 +9755,12 @@ SINA.lectures["anat1-respiratory"] = {
      "lec": "Thorax part 8: lungs and respiratory",
      "n": 25
     }
+   ],
+   "notes": [
+    "Three: superior, middle, inferior.",
+    "Too many.",
+    "Left lung.",
+    "Segmental bronchi."
    ]
   },
   {
@@ -8812,6 +9779,12 @@ SINA.lectures["anat1-respiratory"] = {
      "lec": "Thorax part 8: lungs and respiratory",
      "n": 8
     }
+   ],
+   "notes": [
+    "Conducting airway.",
+    "Alveolar sacs.",
+    "Conducting airway.",
+    "Conducting airway."
    ]
   },
   {
@@ -8835,6 +9808,12 @@ SINA.lectures["anat1-respiratory"] = {
      "lec": "Thorax part 8: lungs and respiratory",
      "n": 11
     }
+   ],
+   "notes": [
+    "Higher.",
+    "That is the base.",
+    "Above rib 1, in the neck.",
+    "That holds the hilum."
    ]
   },
   {
@@ -8858,6 +9837,12 @@ SINA.lectures["anat1-respiratory"] = {
      "lec": "Thorax part 8: lungs and respiratory",
      "n": 11
     }
+   ],
+   "notes": [
+    "The base.",
+    "Mediastinal surface.",
+    "Not there.",
+    "Faces the ribs."
    ]
   },
   {
@@ -8876,6 +9861,12 @@ SINA.lectures["anat1-respiratory"] = {
      "lec": "Thorax part 8: lungs and respiratory",
      "n": 14
     }
+   ],
+   "notes": [
+    "Both lungs.",
+    "Only the right.",
+    "One exists.",
+    "Right only."
    ]
   },
   {
@@ -8899,6 +9890,12 @@ SINA.lectures["anat1-respiratory"] = {
      "lec": "Thorax part 8: lungs and respiratory",
      "n": 25
     }
+   ],
+   "notes": [
+    "Not that one.",
+    "Left superior lobe.",
+    "Not that lobe.",
+    "Right lung."
    ]
   },
   {
@@ -8917,6 +9914,12 @@ SINA.lectures["anat1-respiratory"] = {
      "lec": "Thorax part 8: lungs and respiratory",
      "n": 9
     }
+   ],
+   "notes": [
+    "The liver is there.",
+    "Higher right dome (liver).",
+    "It has more lobes.",
+    "Heart is on the left."
    ]
   },
   {
@@ -9334,6 +10337,12 @@ SINA.lectures["anat1-intro"] = {
      "lec": "Introduction to anatomy",
      "n": 4
     }
+   ],
+   "notes": [
+    "Not the meaning of the Greek root.",
+    "Anatomy is the study of structure, but the word itself means something else.",
+    "Soma is the Greek for body.",
+    "Ana (up) + tomē (cutting): dissection."
    ]
   },
   {
@@ -9352,6 +10361,12 @@ SINA.lectures["anat1-intro"] = {
      "lec": "Introduction to anatomy",
      "n": 7
     }
+   ],
+   "notes": [
+    "Chemical is the level below the cell.",
+    "System comes after the organ level.",
+    "Cells group into tissues (epithelial, connective, muscle, nervous).",
+    "Organs are built from several tissues."
    ]
   },
   {
@@ -9370,6 +10385,12 @@ SINA.lectures["anat1-intro"] = {
      "lec": "Introduction to anatomy",
      "n": 10
     }
+   ],
+   "notes": [
+    "Histology is the microscopic study of tissues.",
+    "Embryology studies development.",
+    "Pathology studies disease.",
+    "Surgeons work region by region."
    ]
   },
   {
@@ -9388,6 +10409,12 @@ SINA.lectures["anat1-intro"] = {
      "lec": "Introduction to anatomy",
      "n": 17
     }
+   ],
+   "notes": [
+    "Isodense describes CT tissue with the same density as its surroundings.",
+    "Hypoechoic is an ultrasound term.",
+    "Bone, calcium stones and metal absorb X-rays: they look white.",
+    "Radiotransparent (radiolucent) structures let X-rays through and look dark."
    ]
   },
   {
@@ -9406,6 +10433,12 @@ SINA.lectures["anat1-intro"] = {
      "lec": "Introduction to anatomy",
      "n": 20
     }
+   ],
+   "notes": [
+    "The international standard (1998).",
+    "ICD is the International Classification of Diseases.",
+    "Nomina Anatomica was the older version it replaced.",
+    "Gray's is a textbook, not the official vocabulary."
    ]
   },
   {
@@ -9424,6 +10457,12 @@ SINA.lectures["anat1-intro"] = {
      "lec": "Introduction to anatomy",
      "n": 21
     }
+   ],
+   "notes": [
+    "Palms face backward only in pronation.",
+    "In the anatomical position the palms face forward (supination).",
+    "Palms facing the thighs is the 'natural' standing position, not the anatomical one.",
+    "Palms face forward, not down."
    ]
   },
   {
@@ -9442,6 +10481,12 @@ SINA.lectures["anat1-intro"] = {
      "lec": "Introduction to anatomy",
      "n": 24
     }
+   ],
+   "notes": [
+    "Erect is standing.",
+    "Supine: lying on the back, face up.",
+    "Prone: lying face down.",
+    "Lateral recumbent: lying on one side."
    ]
   },
   {
@@ -9460,6 +10505,12 @@ SINA.lectures["anat1-intro"] = {
      "lec": "Introduction to anatomy",
      "n": 33
     }
+   ],
+   "notes": [
+    "Organs use other terms (e.g. superior/inferior).",
+    "The trunk uses superior/inferior.",
+    "The head uses superior/inferior, anterior/posterior.",
+    "Reserved for limbs: near to or far from the root."
    ]
   },
   {
@@ -9478,6 +10529,12 @@ SINA.lectures["anat1-intro"] = {
      "lec": "Introduction to anatomy",
      "n": 63
     }
+   ],
+   "notes": [
+    "The 5th finger is not the axis.",
+    "The hand's axis runs through the 3rd (middle) finger.",
+    "The index (2nd) finger isn't the axis of the hand; the 2nd toe is the axis of the foot.",
+    "The thumb isn't the axis."
    ]
   },
   {
@@ -9501,6 +10558,12 @@ SINA.lectures["anat1-intro"] = {
      "lec": "Introduction to anatomy",
      "n": 47
     }
+   ],
+   "notes": [
+    "Median (midsagittal): equal right and left halves.",
+    "The frontal plane divides front from back.",
+    "Parasagittal planes give unequal halves.",
+    "The transverse plane divides top from bottom."
    ]
   },
   {
@@ -9519,6 +10582,12 @@ SINA.lectures["anat1-intro"] = {
      "lec": "Introduction to anatomy",
      "n": 49
     }
+   ],
+   "notes": [
+    "Frontal (coronal): front and back.",
+    "Proximal/distal describes limbs, not a plane.",
+    "Right/left is the sagittal plane.",
+    "Superior/inferior is the transverse plane."
    ]
   },
   {
@@ -9537,6 +10606,12 @@ SINA.lectures["anat1-intro"] = {
      "lec": "Introduction to anatomy",
      "n": 66
     }
+   ],
+   "notes": [
+    "The vertical axis is for rotation.",
+    "The left-right (transverse) axis is for flexion and extension.",
+    "Not a movement axis of the shoulder.",
+    "Abduction happens in the frontal plane, around an anteroposterior axis."
    ]
   },
   {
@@ -9555,6 +10630,12 @@ SINA.lectures["anat1-intro"] = {
      "lec": "Introduction to anatomy",
      "n": 73
     }
+   ],
+   "notes": [
+    "Ball-and-socket joints (shoulder, hip) move in many planes.",
+    "Saddle joint: the thumb's carpometacarpal joint.",
+    "The elbow region includes a pivot (proximal radio-ulnar joint) but the elbow itself is a hinge.",
+    "Flexion and extension only, around one axis."
    ]
   },
   {
@@ -9573,6 +10654,12 @@ SINA.lectures["anat1-intro"] = {
      "lec": "Introduction to anatomy",
      "n": 73
     }
+   ],
+   "notes": [
+    "Supination turns the palm forward (anteriorly).",
+    "Not always downward.",
+    "Backward is pronation.",
+    "Toward the thigh is the 'neutral' position."
    ]
   },
   {
@@ -9960,15 +11047,16 @@ SINA.lectures["anat1-surface-joints"] = {
    "why": "Lies over the humeral head.",
    "slides": [
     {
-     "src": "files/slides/anat1-surface-joints/04.jpg",
-     "lec": "Surface anatomy and joints of the",
-     "n": 4
-    },
-    {
-     "src": "files/slides/anat1-surface-joints/24.jpg",
-     "lec": "Surface anatomy and joints of the",
-     "n": 24
+     "src": "files/slides/anat1-surface-joints/01.jpg",
+     "lec": "Surface anatomy and joints of the upper limb",
+     "n": 1
     }
+   ],
+   "notes": [
+    "Lies above the scapular spine.",
+    "Shapes the neck and back of the shoulder.",
+    "The deltoid forms the rounded stump.",
+    "Forms the front of the chest."
    ]
   },
   {
@@ -9983,38 +11071,16 @@ SINA.lectures["anat1-surface-joints"] = {
    "why": "The rounded contour flattens.",
    "slides": [
     {
-     "src": "files/slides/anat1-surface-joints/02.jpg",
-     "lec": "Surface anatomy and joints of the",
-     "n": 2
-    },
-    {
-     "src": "files/slides/anat1-surface-joints/25.jpg",
-     "lec": "Surface anatomy and joints of the",
-     "n": 25
+     "src": "files/slides/anat1-surface-joints/01.jpg",
+     "lec": "Surface anatomy and joints of the upper limb",
+     "n": 1
     }
-   ]
-  },
-  {
-   "q": "The brachial pulse is felt in the:",
-   "options": [
-    "Olecranon fossa",
-    "Snuffbox",
-    "Lateral bicipital groove",
-    "Medial bicipital groove"
    ],
-   "answer": 3,
-   "why": "At the elbow crease.",
-   "slides": [
-    {
-     "src": "files/slides/anat1-surface-joints/02.jpg",
-     "lec": "Surface anatomy and joints of the",
-     "n": 2
-    },
-    {
-     "src": "files/slides/anat1-surface-joints/19.jpg",
-     "lec": "Surface anatomy and joints of the",
-     "n": 19
-    }
+   "notes": [
+    "An elbow landmark.",
+    "A wrist pulse.",
+    "Disappears in shoulder dislocation.",
+    "A hand landmark."
    ]
   },
   {
@@ -10033,24 +11099,12 @@ SINA.lectures["anat1-surface-joints"] = {
      "lec": "Surface anatomy and joints of the",
      "n": 2
     }
-   ]
-  },
-  {
-   "q": "The radial pulse is palpated between the tendons of:",
-   "options": [
-    "APL and EPB",
-    "FCR and brachioradialis",
-    "EPL and EPB",
-    "FCU and PL"
    ],
-   "answer": 1,
-   "why": "Pulse groove.",
-   "slides": [
-    {
-     "src": "files/slides/anat1-surface-joints/03.jpg",
-     "lec": "Surface anatomy and joints of the",
-     "n": 3
-    }
+   "notes": [
+    "At 90° flexion.",
+    "Three points, not four.",
+    "That is in extension.",
+    "Not a recognised landmark."
    ]
   },
   {
@@ -10074,6 +11128,12 @@ SINA.lectures["anat1-surface-joints"] = {
      "lec": "Surface anatomy and joints of the",
      "n": 13
     }
+   ],
+   "notes": [
+    "Medial border.",
+    "Lateral border, with APL.",
+    "Lateral border, with EPB.",
+    "Front of the wrist."
    ]
   },
   {
@@ -10097,6 +11157,12 @@ SINA.lectures["anat1-surface-joints"] = {
      "lec": "Surface anatomy and joints of the",
      "n": 31
     }
+   ],
+   "notes": [
+    "Too many.",
+    "That is the elbow.",
+    "That is the wrist.",
+    "Three axes, three degrees."
    ]
   },
   {
@@ -10120,6 +11186,12 @@ SINA.lectures["anat1-surface-joints"] = {
      "lec": "Surface anatomy and joints of the",
      "n": 6
     }
+   ],
+   "notes": [
+    "The capsule is lax.",
+    "The humeral head is large.",
+    "Little interlocking, great mobility.",
+    "Ligaments reinforce the capsule."
    ]
   },
   {
@@ -10138,6 +11210,12 @@ SINA.lectures["anat1-surface-joints"] = {
      "lec": "Surface anatomy and joints of the",
      "n": 4
     }
+   ],
+   "notes": [
+    "Not contractile.",
+    "A ligament joins bones.",
+    "A bursa is a fluid sac.",
+    "Enlarges the glenoid cavity."
    ]
   },
   {
@@ -10156,6 +11234,12 @@ SINA.lectures["anat1-surface-joints"] = {
      "lec": "Surface anatomy and joints of the",
      "n": 6
     }
+   ],
+   "notes": [
+    "It receives the olecranon in extension.",
+    "Large sigmoid cavity of the ulna.",
+    "The capitulum meets the radius.",
+    "That is the humero-radial joint."
    ]
   },
   {
@@ -10174,6 +11258,12 @@ SINA.lectures["anat1-surface-joints"] = {
      "lec": "Surface anatomy and joints of the",
      "n": 7
     }
+   ],
+   "notes": [
+    "Not at the elbow.",
+    "One degree of freedom.",
+    "Not at the elbow.",
+    "That is the shoulder."
    ]
   },
   {
@@ -10192,6 +11282,12 @@ SINA.lectures["anat1-surface-joints"] = {
      "lec": "Surface anatomy and joints of the",
      "n": 7
     }
+   ],
+   "notes": [
+    "Scaphoid, lunate and triquetrum.",
+    "The pisiform sits on the triquetrum.",
+    "These are distal row.",
+    "These are distal row."
    ]
   },
   {
@@ -10210,6 +11306,12 @@ SINA.lectures["anat1-surface-joints"] = {
      "lec": "Surface anatomy and joints of the",
      "n": 8
     }
+   ],
+   "notes": [
+    "That is flexion or extension.",
+    "Not a wrist amplitude.",
+    "That is radial deviation.",
+    "Adduction (ulnar) ~45°."
    ]
   },
   {
