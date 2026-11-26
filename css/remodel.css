@@ -442,7 +442,9 @@ nav.quick > .qt-go { order: -1; }
   -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='2 2.5 20 19'%3E%3Cpath d='M4 3.5h16a1.5 1.5 0 0 1 1.5 1.5v10a1.5 1.5 0 0 1-1.5 1.5H10l-5 4v-4H4A1.5 1.5 0 0 1 2.5 15V5A1.5 1.5 0 0 1 4 3.5z'/%3E%3C/svg%3E") center / contain no-repeat;
           mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='2 2.5 20 19'%3E%3Cpath d='M4 3.5h16a1.5 1.5 0 0 1 1.5 1.5v10a1.5 1.5 0 0 1-1.5 1.5H10l-5 4v-4H4A1.5 1.5 0 0 1 2.5 15V5A1.5 1.5 0 0 1 4 3.5z'/%3E%3C/svg%3E") center / contain no-repeat;
 }
-#suggest-btn { justify-content: center; }
+#suggest-btn { justify-content: center; align-items: center; height: 2.2rem; padding-block: 0; }
+/* the bubble's tail makes it look high: nudge it so it reads as centred in the circle */
+.pill-btn .qmark::before { transform: translate(.2px, .9px); }
 
 /* settings menu: line icons in the text colour instead of emoji */
 .sm-ico { display: inline-grid; place-items: center; width: 1.2rem; }

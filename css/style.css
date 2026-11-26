@@ -2046,3 +2046,24 @@ div.smb-exp { border-radius: 16px; }
 .q-refs-h { margin: 0 0 4px; font-size: 0.82rem; font-weight: 700; color: var(--muted); }
 .q-refs ul { margin: 0; padding-left: 1.1rem; }
 .q-refs li { margin: 2px 0; }
+
+/* dictionary (js/define.js): selection chip + panel */
+.dict-chip { position: fixed; z-index: 90; padding: 7px 12px; border: 0; border-radius: 999px; background: var(--ink); color: var(--bg); font: 600 .85rem/1 var(--sans, system-ui); box-shadow: 0 6px 18px rgba(0,0,0,.25); cursor: pointer; white-space: nowrap; }
+.dict { position: fixed; z-index: 95; right: max(16px, env(safe-area-inset-right, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); width: min(420px, calc(100vw - 32px)); max-height: min(70vh, 560px); overflow: auto; padding: 14px 16px 16px; border: 1px solid var(--line); border-radius: 18px; background: var(--bg); color: var(--ink); box-shadow: 0 18px 50px rgba(0,0,0,.28); }
+.dict-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.dict-h { margin: 0; font-weight: 700; }
+.dict-x { width: 36px; height: 36px; border: 1px solid var(--line); border-radius: 50%; background: transparent; color: var(--ink); font-size: 1.3rem; line-height: 1; cursor: pointer; }
+.dict-f { display: flex; gap: 8px; }
+.dict-i { flex: 1; min-width: 0; padding: 10px 12px; border: 1px solid var(--line-strong, var(--line)); border-radius: 12px; background: var(--surface, var(--bg)); color: var(--ink); font: inherit; font-size: 16px; }
+.dict-go { padding: 0 14px; border: 0; border-radius: 12px; background: var(--accent); color: var(--accent-ink, #fff); font-weight: 700; cursor: pointer; }
+.dict-sug { list-style: none; margin: 6px 0 0; padding: 0; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.dict-sug button { display: block; width: 100%; padding: 9px 12px; border: 0; border-bottom: 1px solid var(--line); background: transparent; color: var(--ink); text-align: left; font: inherit; cursor: pointer; }
+.dict-sug li:last-child button { border-bottom: 0; }
+.dict-sug button:hover { background: var(--surface-2, var(--surface)); }
+.dict-out { margin-top: 10px; }
+.dict-wait { color: var(--muted); margin: 6px 0; }
+.dict-card img { float: right; width: 92px; height: 92px; object-fit: cover; border-radius: 10px; margin: 0 0 8px 10px; }
+.dict-card h3 { margin: 4px 0 6px; font-size: 1.1rem; }
+.dict-card p { margin: 0 0 8px; line-height: 1.5; }
+.dict-src { font-size: .8rem; color: var(--muted); clear: both; }
+@media (max-width: 560px) { .dict { left: 0; right: 0; bottom: 0; width: auto; max-height: 75vh; border-radius: 18px 18px 0 0; padding-bottom: calc(16px + env(safe-area-inset-bottom, 0px)); padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); } }
