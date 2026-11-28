@@ -2,6 +2,13 @@
    Style: short changelog lines, developer voice (Added / Fixed / Changed), no "you". */
 window.SINA = window.SINA || { subjects: [], lectures: {} };
 SINA.updates = [
+  { date: "28 November 2026", items: [
+    "Added: chat, with the number of students online in the header. Global room for everyone; 1st and 2nd year rooms for students logged in to an account. Each student picks a chat name, so real names stay private.",
+    "Added: dictionary. Select a word in a question, an explanation or a lecture and tap Define, or search from Settings \u2192 Dictionary. Definitions come from Wikipedia and Wiktionary.",
+    "Added: optional \u201cExplain the reasoning\u201d box under answered questions. Sina checks the explanation for the key ideas and shows which ones are mentioned; it never changes the score.",
+    "Added: a short guided tour on the first visit, pointing out the main buttons. Replay it from Settings \u2192 How Sina works.",
+    "Added: anonymous answer statistics, to find questions that are wrong, unclear or too hard. No name, account or email is recorded; it can be turned off in Settings."
+  ] },
   { date: "25 November 2026", items: [
     "Added: 46 new questions for the Nephro/Bioenergetics midterm (Renal physiology 1 to 3, Bioenergetics 1 to 3), including ↑/↓ arrow questions on ADH, EPO, GFR, glucose storage and lipoproteins.",
     "Added: 2 bioenergetics past papers as quizzes: Prof. Dinh-Xuan's class questions (2026) and the bioenergetics part of the June 2023 exam."
