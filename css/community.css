@@ -89,3 +89,6 @@ html.tr-lock .site-header.hdr-hide { transform: none; }   /* the header stays pu
 .ch-pick input { flex: 1; min-width: 0; font: inherit; font-size: 1rem; padding: .55rem .7rem; border: 1px solid var(--line-strong); border-radius: 10px; background: var(--bg); color: var(--ink); }
 .ch-pick input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
 .ch-pick .ch-row { align-items: stretch; }
+#mod-form input { display: block; width: 100%; box-sizing: border-box; margin-bottom: .55rem; }
+.cm-del { margin-left: .3rem; width: 1.5rem; height: 1.5rem; padding: 0; border: 0; border-radius: 50%; background: none; color: var(--bad); font-size: 1.1rem; line-height: 1; cursor: pointer; }
+.cm-del:hover, .cm-del:focus-visible { background: var(--alert-soft); }

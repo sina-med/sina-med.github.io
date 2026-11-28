@@ -52,8 +52,10 @@
       .then(function () { return Promise.all([script(SDK + "firebase-auth-compat.js"), script(SDK + "firebase-database-compat.js")]); })
       .then(function () {
         fb = window.firebase; fb.initializeApp(FIREBASE); db = fb.database();
-        return fb.auth().signInAnonymously();
+        /* keep a moderator who signed in earlier on this device; everyone else gets an invisible anonymous ID */
+        return new Promise(function (ok) { var stop = fb.auth().onAuthStateChanged(function (u) { stop(); ok(u); }); });
       })
+      .then(function (u) { return u ? { user: u } : fb.auth().signInAnonymously(); })
       .then(function (c) { uid = c.user.uid; return db; });
     readyP.catch(function () { readyP = null; });
     return readyP;
@@ -61,14 +63,21 @@
 
   /* ---------- presence: one entry per open device, removed by the server when it disconnects ---------- */
   var counts = { all: 0 }, countCbs = [];
+  var me = null;   /* this device's presence entry; moves when the moderator signs in or out */
+  function joinPresence() {
+    me = db.ref("presence/" + uid);
+    var ref = me;
+    ref.onDisconnect().remove().then(function () { if (me === ref) ref.set({ y: year() || "other", t: fb.database.ServerValue.TIMESTAMP }); });
+  }
+  function leavePresence() {
+    if (!me) return Promise.resolve();
+    var ref = me; me = null;
+    return ref.onDisconnect().cancel().then(function () { return ref.remove(); }).catch(function () {});
+  }
   function startPresence() {
     ready().then(function () {
-      var me = db.ref("presence/" + uid);
-      db.ref(".info/connected").on("value", function (s) {
-        if (s.val() !== true) return;
-        me.onDisconnect().remove().then(function () { me.set({ y: year() || "other", t: fb.database.ServerValue.TIMESTAMP }); });
-      });
-      document.addEventListener("sina:program", function () { me.update({ y: year() || "other", t: fb.database.ServerValue.TIMESTAMP }); });
+      db.ref(".info/connected").on("value", function (s) { if (s.val() === true) joinPresence(); });
+      document.addEventListener("sina:program", function () { if (me) me.update({ y: year() || "other", t: fb.database.ServerValue.TIMESTAMP }); });
       db.ref("presence").on("value", function (s) {
         var c = { all: 0 }; s.forEach(function (ch) { var y = (ch.val() || {}).y || "other"; c.all++; c[y] = (c[y] || 0) + 1; });
         counts = c; badge(); countCbs.forEach(function (f) { f(c); });
@@ -91,16 +100,60 @@
   /* ---------- chat page (#/chat, #/chat/y1 …) ---------- */
   var live = null;   /* the room listener, detached when leaving the page */
   var renaming = false;   /* "change" next to the name: show the name picker again */
-  function detach() { if (live) { live.ref.off("child_added", live.fn); live = null; } countCbs = []; }
+  function detach() { if (live) { live.ref.off("child_added", live.fn); live.ref.off("child_removed", live.gone); live = null; } countCbs = []; }
   window.addEventListener("hashchange", function () { if (!/^#\/chat\b/.test(location.hash)) detach(); });
 
+  /* ---------- moderator: the Firebase user IDs allowed to delete messages (the database rules check the same list) ---------- */
+  var MODS = ["qrz7YcpRVqQ4izBxCn5upDCg4mg1"];
+  function isMod() { return !!uid && MODS.indexOf(uid) > -1; }
+  function modEmail() { var u = fb && fb.auth().currentUser; return u && !u.isAnonymous ? u.email : ""; }
+  function modSignIn(email, pass) {
+    return ready().then(leavePresence).then(function () { return fb.auth().signInWithEmailAndPassword(email, pass); })
+      .then(function (c) { uid = c.user.uid; joinPresence(); });
+  }
+  function modSignOut() {
+    return ready().then(leavePresence).then(function () { return fb.auth().signOut(); })
+      .then(function () { return fb.auth().signInAnonymously(); }).then(function (c) { uid = c.user.uid; joinPresence(); });
+  }
+
   function fmtTime(t) { var d = new Date(t), now = new Date(); var hm = ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2); return d.toDateString() === now.toDateString() ? hm : d.getDate() + "/" + (d.getMonth() + 1) + " " + hm; }
-  function msgHTML(m, mine) {
-    return '<li class="cm' + (mine ? " mine" : "") + '"><p class="cm-h"><span class="cm-n">' + esc(m.n || "?") + "</span>" + (m.a ? '<span class="cm-acc" title="Sina account">✓</span>' : "") + '<time>' + (m.t ? fmtTime(m.t) : "") + '</time></p><p class="cm-x">' + esc(m.x || "") + "</p></li>";
+  function msgHTML(m, mine, key) {
+    return '<li class="cm' + (mine ? " mine" : "") + '" data-k="' + esc(key) + '"><p class="cm-h"><span class="cm-n">' + esc(m.n || "?") + "</span>" + (m.a ? '<span class="cm-acc" title="Sina account">✓</span>' : "") + '<time>' + (m.t ? fmtTime(m.t) : "") + "</time>" +
+      (isMod() ? '<button type="button" class="cm-del" aria-label="Delete this message" title="Delete">&times;</button>' : "") + '</p><p class="cm-x">' + esc(m.x || "") + "</p></li>";
+  }
+
+  /* #/chat/mod: sign in with the moderator email and password created in the Firebase console */
+  function modView(setView) {
+    var head = '<div class="wrap narrow chat"><p class="crumbs"><a href="#/">Home</a> / <a href="#/chat">Chat</a> / Moderator</p><h1>Moderator</h1>';
+    if (!FIREBASE) { setView(head + "<p>The chat is not set up.</p></div>", "Moderator"); return; }
+    setView(head + '<p class="meta">Loading…</p></div>', "Moderator");
+    ready().then(function () {
+      if (isMod()) {
+        setView(head + '<p class="lede-s">Signed in as moderator: <strong>' + esc(modEmail()) + '</strong>. A &times; next to each message deletes it for everyone.</p>' +
+          '<div class="row"><a class="btn primary" href="#/chat">Open the chat</a><button type="button" class="btn" id="mod-out">Sign out</button></div><p class="ch-err" id="mod-err" role="alert"></p></div>', "Moderator");
+        document.getElementById("mod-out").onclick = function () { modSignOut().then(function () { modView(setView); }, function () { document.getElementById("mod-err").textContent = "Could not sign out. Try again."; }); };
+        return;
+      }
+      var other = modEmail();
+      setView(head + (other ? '<p class="ch-note">Signed in as ' + esc(other) + ", which is not on the moderator list.</p>" : "") +
+        '<form class="ch-pick" id="mod-form"><h2>Moderator sign-in</h2><p class="meta">Only for the account set up in the Firebase console.</p>' +
+        '<label class="sr-only" for="mod-email">Email</label><input id="mod-email" type="email" autocomplete="username" placeholder="Email" required>' +
+        '<label class="sr-only" for="mod-pass">Password</label><input id="mod-pass" type="password" autocomplete="current-password" placeholder="Password" required>' +
+        '<button class="btn primary" type="submit">Sign in</button><p class="ch-err" id="mod-err" role="alert"></p></form></div>', "Moderator");
+      var f = document.getElementById("mod-form");
+      f.onsubmit = function (e) {
+        e.preventDefault();
+        var b = f.querySelector("button"), err = document.getElementById("mod-err"); b.disabled = true; err.textContent = "";
+        modSignIn(document.getElementById("mod-email").value.trim(), document.getElementById("mod-pass").value).then(function () {
+          modView(setView);
+        }, function () { err.textContent = "Wrong email or password."; b.disabled = false; });
+      };
+    }, function () { setView(head + "<p>Could not connect. Check your connection and reload.</p></div>", "Moderator"); });
   }
 
   function view(setView, want) {
     detach();
+    if (want === "mod") return modView(setView);
     var rooms = myRooms(), y = year(), a = acct();
     var room = want && rooms.indexOf(want) > -1 ? want : "global";
     var tabs = Object.keys(ROOMS).map(function (r) {
@@ -158,11 +211,24 @@
       var fn = function (s) {
         var m = s.val() || {}, near = list.scrollHeight - list.scrollTop - list.clientHeight < 80;
         var empty = list.querySelector(".ch-empty"); if (empty) empty.remove();
-        list.insertAdjacentHTML("beforeend", msgHTML(m, m.u === uid));
-        while (list.children.length > KEEP) list.firstChild.remove();
-        if (near || first || m.u === uid) list.scrollTop = list.scrollHeight;
+        /* in time order: after a deletion, the next-older message comes back into the last 80 and belongs at the top */
+        var t = m.t || 0, after = null;
+        for (var c = list.lastElementChild; c; c = c.previousElementSibling) { if (+c.dataset.t <= t) break; after = c; }
+        var tmp = document.createElement("ul"); tmp.innerHTML = msgHTML(m, m.u === uid, s.key); var li = tmp.firstChild; li.dataset.t = t;
+        list.insertBefore(li, after);   /* no trimming here: a message leaving the last KEEP arrives as child_removed */
+        if (!after && (near || first || m.u === uid)) list.scrollTop = list.scrollHeight;
       };
-      ref.on("child_added", fn); live = { ref: ref, fn: fn };
+      /* deleted (by the moderator, or in the Firebase console): gone from every open chat at once */
+      var gone = function (s) {
+        var li = list.querySelector('li[data-k="' + (window.CSS && CSS.escape ? CSS.escape(s.key) : s.key) + '"]'); if (li) li.remove();
+        if (!list.children.length) list.innerHTML = '<li class="ch-empty">No messages yet. Say hello!</li>';
+      };
+      ref.on("child_added", fn); ref.on("child_removed", gone); live = { ref: ref, fn: fn, gone: gone };
+      list.addEventListener("click", function (e) {
+        var x = e.target.closest && e.target.closest(".cm-del"); if (!x || !isMod()) return;
+        var li = x.closest(".cm"); if (!li || !confirm("Delete this message for everyone?")) return;
+        db.ref("rooms/" + room + "/msgs/" + li.dataset.k).remove().catch(function () { alert("Could not delete: this account is not allowed to."); });
+      });
       ref.once("value").then(function (s) { first = false; if (!s.numChildren() && !list.children.length) list.innerHTML = '<li class="ch-empty">No messages yet. Say hello!</li>'; list.scrollTop = list.scrollHeight; });
     }).catch(function () { list.innerHTML = '<li class="ch-empty">Could not connect to the chat. Check your connection and reload.</li>'; });
 
