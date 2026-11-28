@@ -435,16 +435,11 @@ nav.quick > .qt-go { order: -1; }
 
 /* Jakob: "?" means help on most sites. The button sends a suggestion, so it
    shows a speech bubble (its label still slides out on hover) */
-/* the bubble is drawn so its body and tail together sit on the circle's centre */
-.pill-btn .qmark { font-size: 0; background: var(--accent); display: grid; place-items: center; }
-.pill-btn .qmark::before {
-  content: ""; display: block; width: .8rem; height: .8rem; background: currentColor;
-  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='2 2.5 20 19'%3E%3Cpath d='M4 3.5h16a1.5 1.5 0 0 1 1.5 1.5v10a1.5 1.5 0 0 1-1.5 1.5H10l-5 4v-4H4A1.5 1.5 0 0 1 2.5 15V5A1.5 1.5 0 0 1 4 3.5z'/%3E%3C/svg%3E") center / contain no-repeat;
-          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='2 2.5 20 19'%3E%3Cpath d='M4 3.5h16a1.5 1.5 0 0 1 1.5 1.5v10a1.5 1.5 0 0 1-1.5 1.5H10l-5 4v-4H4A1.5 1.5 0 0 1 2.5 15V5A1.5 1.5 0 0 1 4 3.5z'/%3E%3C/svg%3E") center / contain no-repeat;
-}
+/* the bubble is an inline SVG (not a CSS mask), so every browser draws it in the same place;
+   its viewBox is centred on the bubble's body + tail, so it sits in the middle of the circle */
+.pill-btn .qmark { font-size: 0; line-height: 0; background: var(--accent); display: flex; align-items: center; justify-content: center; flex: 0 0 auto; }
+.pill-btn .qmark svg { display: block; width: .82rem; height: .82rem; fill: currentColor; }
 #suggest-btn { justify-content: center; align-items: center; height: 2.2rem; padding-block: 0; }
-/* the bubble's tail makes it look high: nudge it so it reads as centred in the circle */
-.pill-btn .qmark::before { transform: translate(.2px, .9px); }
 
 /* settings menu: line icons in the text colour instead of emoji */
 .sm-ico { display: inline-grid; place-items: center; width: 1.2rem; }
