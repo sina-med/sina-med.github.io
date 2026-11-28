@@ -512,3 +512,6 @@ html.lenis, html.lenis body { height: auto; }
   .hero.slim::before { display: none; }
   .sem-title, .dsem { -webkit-text-fill-color: currentColor; }
 }
+
+/* round, not oval: the phone min-height of 44px stretched these two into ovals; their ::after already gives a 44px tap area */
+.site-header .search-toggle, .site-header .gear-btn { min-height: 0; aspect-ratio: 1; }
