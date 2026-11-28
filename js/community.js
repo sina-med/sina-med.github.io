@@ -21,7 +21,11 @@
   var MAX = 500, KEEP = 80;
 
   function get(k, d) { try { var v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } }
-  function put(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+  /* saved keys travel with the student's account: record the change, or the next sync brings back the old value */
+  function put(k, v) {
+    try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {}
+    try { if (window.SinaSync && SinaSync.touch) SinaSync.touch(k); } catch (e) {}
+  }
   function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
   function acct() { try { return window.SinaSync && SinaSync.acc && SinaSync.acc(); } catch (e) { return null; } }
   function year() { var p = String(get("sina:program", "") || ""), y = p.split("-")[0]; return ROOMS[y] ? y : null; }
@@ -175,7 +179,7 @@
         up["rooms/" + room + "/msgs/" + key] = { u: uid, n: myName(), x: x.slice(0, MAX), t: now, a: !!(acct() && acct().user) };
         up["lastPost/" + uid] = now;   /* the database rules use this to refuse floods */
         return db.ref().update(up);
-      }).then(function () { lastSend = Date.now(); ta.value = ""; ta.style.height = "auto"; ta.focus(); },
+      }).then(function () { lastSend = Date.now(); ta.value = ""; ta.style.height = "auto"; ta.focus(); var nm = document.getElementById("ch-name"); if (nm) nm.textContent = myName(); },
         function () { err.textContent = "Not sent. Wait a few seconds and try again."; })
         .then(function () { btn.disabled = false; });
     };

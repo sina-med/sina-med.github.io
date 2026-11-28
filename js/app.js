@@ -3572,7 +3572,7 @@
       }).then(function (x) { busy = null; return x; }, function (e) { busy = null; return { ok: false, error: String(e && e.message || e) }; });
       return busy;
     }
-    return { on: on, run: run, call: call, acc: acc };
+    return { on: on, run: run, call: call, acc: acc, touch: syncTouch };   /* touch(key): other scripts record a change so the sync keeps it */
   })();
   function acctLabel() { var l = document.getElementById("acct-label"), a = SinaSync.acc(); if (l) l.textContent = a ? "Account: " + a.user : "Account and sync"; }
   acctLabel();
