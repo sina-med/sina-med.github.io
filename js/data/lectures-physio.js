@@ -21272,21 +21272,21 @@ SINA.lectures["physio-bioen-lipids"] = {
    ]
   },
   {
-   "q": "A 60 kg woman has the average body fat for women. About how much energy is stored in her fat?",
+   "q": "A 60 kg man has the average body fat for men. About how much energy is stored in his fat?",
    "options": [
-    "About 135 000 kcal",
-    "About 60 000 kcal",
-    "About 15 000 kcal",
+    "About 81 000 kcal",
+    "About 36 000 kcal",
+    "About 9 000 kcal",
     "About 540 000 kcal"
    ],
    "answer": 0,
    "notes": [
-    "25% of 60 kg = 15 kg; 15 000 g × 9 kcal/g.",
+    "15% of 60 kg = 9 kg; 9 000 g × 9 kcal/g.",
     "That counts fat at 4 kcal/g.",
     "That only counts grams of fat.",
-    "That uses her whole body weight as fat."
+    "That uses his whole body weight as fat."
    ],
-   "why": "Slide 2: women average 25% body fat, and fat gives 9 kcal/g.",
+   "why": "Slide 2: men average 15% body fat, and fat gives 9 kcal/g.",
    "slides": [
     {
      "src": "files/slides/physio-bioen-lipids/02.jpg",
