@@ -180,6 +180,7 @@
   function setProgram(id, quiet) {
     if (!progValid(id)) return;
     var changed = id !== PROG; PROG = id; store.set("sina:program", id); if (changed && typeof IDX !== "undefined") IDX = null;
+    if (changed) { try { document.dispatchEvent(new CustomEvent("sina:program", { detail: { id: id } })); } catch (e) {} }   /* js/community.js: which year room is open */
     if (changed || quiet) { try { track("year-" + id, "Year chosen: " + progName(id), true); } catch (e) {} }
     renderProgMenu(); if (typeof renderDrawer === "function") renderDrawer();
     if (changed && !quiet) {
@@ -2203,6 +2204,8 @@
         document.getElementById("fb").innerHTML = feedback(q, ok, skipped, (done[i] || {}).pts);
         if (!skipped) followMount(document.getElementById("fb"), q);
         p.querySelector("#rep").onclick = function () { reportMistake(q, lec.id); };
+        /* optional written reasoning (js/reason.js): adds its box to the feedback, never touches score or progress */
+        try { document.dispatchEvent(new CustomEvent("sina:feedback", { detail: { q: q, key: q._k || qKey(q), lec: lec.id, ok: ok, skipped: !!skipped, el: document.getElementById("fb") } })); } catch (e) {}
         saveResume();
         var qe = p.querySelector(".qecg"); if (qe) qe.outerHTML = ecgProgress(done.filter(Boolean).length / qs.length);
         var fw = p.querySelector("#fwd"); fw.classList.add("primary"); fw.innerHTML = (i + 1 < qs.length ? "Next" : "See score") + " &rarr;";
@@ -2570,7 +2573,7 @@
       store.set("sina:welcomed", true); store.set("sina:yearAsked", "1");
       w.classList.add("leaving");
       document.body.classList.remove("noscroll");
-      setTimeout(function () { w.remove(); }, 260);
+      setTimeout(function () { w.remove(); try { document.dispatchEvent(new CustomEvent("sina:entered")); } catch (e) {} }, 260);   /* js/tour.js starts the first-visit tour on this */
     }
     /* after the animation: pick the year (the current one is marked) to enter */
     if (returning) {
@@ -3991,6 +3994,8 @@
     if (parts[0] === "clinidle" || parts[0] === "curdle" || parts[0] === "cura" || parts[0] === "wardle" || parts[0] === "rounds") return wardleView(parts[1]);
     if (parts[0] === "resume") return resumeView();
     if (parts[0] === "install") return installView();
+    if (parts[0] === "tour" && window.SinaTour) { location.replace("#/"); SinaTour.open(); return; }
+    if (parts[0] === "chat" && window.SinaChat) return SinaChat.view(setView, parts[1]);
     if (parts[0] === "find") return findView(parts[1], parts[2], decodeURIComponent(parts[3] || ""));
     if (parts[0] === "practice") return parts[1] ? practiceView(parts[1], parts[2], parts[3]) : practiceHome();
     if (parts[0] === "papers") return papersView(parts[1]);
