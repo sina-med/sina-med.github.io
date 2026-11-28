@@ -21,6 +21,30 @@
   function headerIn() { var h = $(".site-header"); if (h) h.classList.remove("hdr-hide"); document.documentElement.classList.remove("hdr-off"); }
   function top() { window.scrollTo(0, 0); headerIn(); }
   function home() { if (location.hash && location.hash !== "#/" && location.hash !== "#") location.hash = "#/"; }
+  /* step 7 opens a real question of the student's year; the visit must not change their "Continue" tile */
+  var savedLast;
+  function firstQuestions() {
+    var S = window.SINA || {}, prog = null;
+    try { prog = JSON.parse(localStorage.getItem("sina:program") || "null"); } catch (e) {}
+    prog = prog || S.DEFAULT_PROGRAM;
+    var subs = (S.subjects || []).filter(function (s) { return s.groups && (s.program || S.DEFAULT_PROGRAM) === prog; });
+    for (var i = 0; i < subs.length; i++) for (var g = 0; g < subs[i].groups.length; g++) for (var k = 0; k < subs[i].groups[g].items.length; k++) {
+      var id = subs[i].groups[g].items[k].id, L = S.lectures && S.lectures[id];
+      if (L && (L.mcqs || []).some(function (q) { return !q.target; })) return "#/subject/" + subs[i].id + "/questions/" + id;
+    }
+    return null;
+  }
+  function toQuestion() {
+    var h = firstQuestions(); if (!h) return;
+    if (savedLast === undefined) savedLast = localStorage.getItem("sina:last");
+    if (location.hash !== h) location.hash = h;
+  }
+  function restoreLast() {
+    if (savedLast === undefined) return;
+    var v = savedLast; savedLast = undefined;
+    setTimeout(function () { try { if (v === null) localStorage.removeItem("sina:last"); else localStorage.setItem("sina:last", v); } catch (e) {} }, 300);
+  }
+  function leaveQuestion() { if (savedLast !== undefined) { home(); restoreLast(); } }
 
   function steps() {
     var chatOn = !!(window.SinaChat && SinaChat.configured()), inst;
@@ -36,7 +60,7 @@
       { el: 'a.qtile[href="#/mistakes"]', t: "How scores work", b: "<ul><li>Tick <b>every</b> correct option, then <b>Check my answer</b>. Some questions have more than one.</li>" +
           "<li>All right = 1 point. Some right, none wrong = part of a point. Any wrong pick = 0.</li>" +
           "<li>Missed questions land <b>here</b>, and come back for review after 1, 3, 7, 16 and 35 days.</li></ul>" },
-      { t: "Explain your reasoning", b: "<p>After many questions, a link <b>Explain the reasoning (optional)</b> appears under the answer. Write <i>why</i> the answer is right; Sina checks it for the key ideas and shows which ones you mentioned.</p><p>Practice only: it never changes your score.</p>", go: top },
+      { el: "#chk", t: "Explain your reasoning", b: "<p>This is a question. Once you tap <b>Check my answer</b>, a link <b>Explain the reasoning (optional)</b> appears under it: write <i>why</i> the answer is right, and Sina shows which key ideas you mentioned.</p><p>Practice only: it never changes your score.</p>", go: toQuestion, wait: 450 },
       { el: '#settings-menu a[href="#/install"]', menu: "settings", t: "Add Sina to your home screen", b: "<p>It then opens full screen like an app and works offline.</p>" + inst,
         a: [installEvt && !standalone() ? { id: "inst", label: "Install Sina" } : null] },
       { el: '#settings-menu a[href="#/reminders"]', menu: "settings", t: "Daily reminders", b: "<p>One notification a day at your time: reviews when some are due, otherwise a nudge to practise.</p>" +
@@ -75,15 +99,24 @@
     arrow.style.left = Math.max(left + 16, Math.min(cx, left + cw - 16)) - 9 + "px";
     arrow.style.top = (below ? top - 9 : top + ch - 9) + "px";
   }
-  function replace() { cancelAnimationFrame(raf); raf = requestAnimationFrame(place); }
+  /* follow the element every frame: the header slides in, fonts load, a menu animates open */
+  function loop() { if (!root) return; place(); raf = requestAnimationFrame(loop); }
+
+  /* the page stays put while the tour is open: no finger, wheel or keyboard scrolling, no taps on the page.
+     The card itself may scroll when it is taller than the screen. */
+  function scrollsInCard(e) { var c = root && root.querySelector(".tr-card"); return c && c.contains(e.target) && c.scrollHeight > c.clientHeight + 1; }
+  function block(e) { if (root && !scrollsInCard(e)) e.preventDefault(); }
+  var LOCK = { passive: false, capture: true };
 
   function close() {
     if (!root) return;
-    markDone(); closeMenus();
+    markDone(); closeMenus(); leaveQuestion();
     root.classList.add("leaving"); var r = root; root = null; cur = null;
     setTimeout(function () { r.remove(); }, 200);
+    cancelAnimationFrame(raf);
     document.removeEventListener("keydown", onKey, true);
-    window.removeEventListener("resize", replace); window.removeEventListener("scroll", replace, true);
+    document.removeEventListener("wheel", block, LOCK); document.removeEventListener("touchmove", block, LOCK);
+    document.documentElement.classList.remove("tr-lock");
     if (last && last.focus && document.body.contains(last)) last.focus({ preventScroll: true });
   }
   function onKey(e) {
@@ -91,6 +124,7 @@
     if (e.key === "Escape") { e.preventDefault(); e.stopPropagation(); close(); }
     else if (e.key === "ArrowRight") { e.preventDefault(); e.stopPropagation(); root.querySelector(".tr-next").click(); }
     else if (e.key === "ArrowLeft") { e.preventDefault(); e.stopPropagation(); var p = root.querySelector(".tr-back"); if (!p.disabled) p.click(); }
+    else if (/^(ArrowUp|ArrowDown|PageUp|PageDown|Home|End)$/.test(e.key) || (e.key === " " && !/^(BUTTON|A)$/.test(document.activeElement && document.activeElement.tagName))) { e.preventDefault(); }
     else if (e.key === "Tab") {   /* keep focus inside the card */
       var f = root.querySelectorAll(".tr-card button:not([disabled]), .tr-card a[href]"); if (!f.length) return;
       if (e.shiftKey && document.activeElement === f[0]) { e.preventDefault(); f[f.length - 1].focus(); }
@@ -110,11 +144,14 @@
     /* the site closes its menus on any click outside them: keep the tour's clicks to itself */
     root.addEventListener("click", function (e) { e.stopPropagation(); });
     document.addEventListener("keydown", onKey, true);
-    window.addEventListener("resize", replace); window.addEventListener("scroll", replace, true);
+    document.addEventListener("wheel", block, LOCK); document.addEventListener("touchmove", block, LOCK);
+    document.documentElement.classList.add("tr-lock");
+    raf = requestAnimationFrame(loop);
 
     function show() {
       var s = cur = list[k], end = k === list.length - 1, card = root.querySelector(".tr-card");
       /* open the menu this step lives in, close the others */
+      if (s.go !== toQuestion) leaveQuestion();   /* back home after the question step, whichever way the student moves */
       if (s.menu === "settings") { yearMenu(false); top(); settings(true); }
       else if (s.menu === "year") { settings(false); top(); yearMenu(true); }
       else closeMenus();
@@ -143,7 +180,7 @@
         }
         place(); setTimeout(place, 120);
         var nx = root.querySelector(".tr-next"); if (nx) nx.focus({ preventScroll: true });
-      }, s.menu ? 120 : 60);
+      }, s.wait || (s.menu ? 120 : 60));
       place();
     }
     show();

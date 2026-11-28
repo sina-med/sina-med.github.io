@@ -24,7 +24,10 @@
 .rsn-note, .rsn-msg { font-size: 0.8rem; color: var(--muted); margin: 0; }
 
 /* ---------- tutorial ---------- */
-.tr-root { position: fixed; inset: 0; z-index: 400; animation: tr-in .2s ease; }
+.tr-root { position: fixed; inset: 0; z-index: 400; animation: tr-in .2s ease; touch-action: none; }
+.tr-root .tr-card { touch-action: pan-y; }
+html.tr-lock { overscroll-behavior: none; }
+html.tr-lock .site-header.hdr-hide { transform: none; }   /* the header stays put during the tour, so what it points at doesn't slide away */
 .tr-root.leaving { opacity: 0; transition: opacity .2s ease; }
 .tr-block { position: absolute; inset: 0; }                                   /* catches clicks so the page can't be used mid-tour */
 .tr-root.tr-center .tr-block { background: rgba(15, 20, 25, 0.55); }
@@ -80,3 +83,9 @@
 .ch-rules { font-size: .76rem; color: var(--muted); margin: .45rem 0 0; }
 .ch-err { font-size: .85rem; color: var(--bad); margin: .3rem 0 0; }
 .ch-err:empty { display: none; }
+.ch-pick { margin-top: .5rem; padding: 1.1rem 1.2rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.ch-pick h2 { margin: 0 0 .3rem; font-size: 1.2rem; }
+.ch-pick .meta { margin: 0 0 .8rem; }
+.ch-pick input { flex: 1; min-width: 0; font: inherit; font-size: 1rem; padding: .55rem .7rem; border: 1px solid var(--line-strong); border-radius: 10px; background: var(--bg); color: var(--ink); }
+.ch-pick input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.ch-pick .ch-row { align-items: stretch; }

@@ -27,11 +27,15 @@
   function year() { var p = String(get("sina:program", "") || ""), y = p.split("-")[0]; return ROOMS[y] ? y : null; }
   /* which rooms this visitor may open */
   function myRooms() { var a = acct(), y = year(), r = ["global"]; if (a && a.user && y) r.push(y); return r; }
-  function myName() {
-    var a = acct(); if (a && a.user) return String(a.user).slice(0, 24);
-    var n = get("sina:chatName", "") || get("sina:nick", "");
-    if (!n) { n = "Guest " + Math.floor(1000 + Math.random() * 9000); put("sina:chatName", n); }
-    return String(n).slice(0, 24);
+  /* the name shown in the chat: always one the student chose, never their account username */
+  var NICK = "sina:chatNick";
+  function myName() { return String(get(NICK, "") || "").slice(0, 24); }
+  function checkName(n) {
+    n = String(n || "").replace(/\s+/g, " ").trim();
+    if (n.length < 2) return { err: "At least 2 characters." };
+    if (n.length > 24) return { err: "24 characters at most." };
+    if (!/^[\p{L}\p{N} _.\-]+$/u.test(n)) return { err: "Letters, numbers, spaces, _ . - only." };
+    return { name: n };
   }
 
   /* ---------- Firebase, loaded only when configured ---------- */
@@ -82,6 +86,7 @@
 
   /* ---------- chat page (#/chat, #/chat/y1 …) ---------- */
   var live = null;   /* the room listener, detached when leaving the page */
+  var renaming = false;   /* "change" next to the name: show the name picker again */
   function detach() { if (live) { live.ref.off("child_added", live.fn); live = null; } countCbs = []; }
   window.addEventListener("hashchange", function () { if (!/^#\/chat\b/.test(location.hash)) detach(); });
 
@@ -104,12 +109,31 @@
     var head = '<div class="wrap narrow chat"><p class="crumbs"><a href="#/">Home</a> / Chat</p><h1>Chat</h1>';
     if (!FIREBASE) { setView(head + '<p class="lede-s">The chat is not open yet. Check back soon.</p></div>', "Chat"); return; }
     if (want && want !== room) { location.replace("#/chat"); return; }
+    /* first visit (or "change"): choose a chat name before entering */
+    if (!myName() || renaming) {
+      var was = myName(); renaming = false;
+      setView(head + '<form class="ch-pick" id="ch-pick"><h2>Choose your chat name</h2>' +
+        '<p class="meta">Others only see this name. To stay anonymous, don\'t use your real name or your account username.</p>' +
+        '<label class="sr-only" for="ch-nick">Chat name</label><div class="ch-row"><input id="ch-nick" maxlength="24" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="e.g. NightOwl" value="' + esc(was) + '">' +
+        '<button class="btn primary" type="submit">' + (was ? "Save" : "Enter the chat") + "</button></div>" +
+        '<p class="ch-err" id="ch-perr" role="alert"></p>' + (was ? '<p><a href="#/chat' + (room === "global" ? "" : "/" + room) + '" id="ch-cancel">Cancel</a></p>' : "") + "</form></div>", "Chat");
+      var pf = document.getElementById("ch-pick"), ni = document.getElementById("ch-nick");
+      ni.focus();
+      var cancel = document.getElementById("ch-cancel"); if (cancel) cancel.onclick = function (e) { e.preventDefault(); view(setView, want); };
+      pf.onsubmit = function (e) {
+        e.preventDefault();
+        var c = checkName(ni.value);
+        if (c.err) { document.getElementById("ch-perr").textContent = c.err; return; }
+        put(NICK, c.name); view(setView, want);
+      };
+      return;
+    }
     setView(head + '<p class="meta ch-online"><i class="on-dot" aria-hidden="true"></i> <span id="ch-online">Connecting…</span></p>' +
       '<div class="ch-tabs" role="tablist">' + tabs + "</div>" + lockNote +
       '<ul class="ch-list" id="ch-list" aria-live="polite" aria-label="Messages in ' + ROOMS[room] + '"><li class="ch-empty">Loading messages…</li></ul>' +
-      '<form class="ch-form" id="ch-form"><div class="ch-me">Posting as <b id="ch-name">' + esc(myName()) + "</b>" + (a ? "" : ' <button type="button" class="linkbtn" id="ch-rename">change</button>') + "</div>" +
+      '<form class="ch-form" id="ch-form"><div class="ch-me">Posting as <b id="ch-name">' + esc(myName()) + '</b> <button type="button" class="linkbtn" id="ch-rename">change</button></div>' +
       '<div class="ch-row"><textarea id="ch-text" rows="1" maxlength="' + MAX + '" placeholder="Message ' + ROOMS[room] + '" aria-label="Message"></textarea><button class="btn primary" type="submit" id="ch-send">Send</button></div>' +
-      '<p class="ch-rules">Be kind and keep it about studying. No real names, phone numbers or exam leaks. Messages can be removed.</p><p class="ch-err" id="ch-err" role="alert"></p></form></div>', "Chat");
+      '<p class="ch-rules">Please keep it respectful and kind!</p><p class="ch-err" id="ch-err" role="alert"></p></form></div>', "Chat");
 
     var list = document.getElementById("ch-list"), form = document.getElementById("ch-form"), ta = document.getElementById("ch-text"), err = document.getElementById("ch-err");
     function showCounts(c) {
@@ -119,10 +143,7 @@
     }
     countCbs.push(showCounts); showCounts(counts);
     var rn = document.getElementById("ch-rename");
-    if (rn) rn.onclick = function () {
-      var n = (prompt("Nickname for the chat (no real names):", myName()) || "").replace(/\s+/g, " ").trim().slice(0, 24);
-      if (n) { put("sina:chatName", n); document.getElementById("ch-name").textContent = n; }
-    };
+    if (rn) rn.onclick = function () { renaming = true; view(setView, want); };
     ta.addEventListener("input", function () { ta.style.height = "auto"; ta.style.height = Math.min(ta.scrollHeight, 140) + "px"; });
     ta.addEventListener("keydown", function (e) { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); form.requestSubmit ? form.requestSubmit() : form.dispatchEvent(new Event("submit")); } });
 
